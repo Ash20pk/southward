@@ -22,6 +22,7 @@ export interface Question {
   whyWrong: string[]; // one short line per option (same length as options); correct option's entry can be ""
   ausPearl?: string; // Australia-specific note (eTG, PBS, Murtagh, RACGP, notifiable etc.)
   tags: string[];
+  source?: string; // for questions written from her own PDF: the file name
 }
 
 export interface Flashcard {

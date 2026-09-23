@@ -46,8 +46,8 @@ export function QuestionView({
             {disciplineName(q.discipline)}, {topicName(q.topic)}
           </span>
           {q.id.startsWith("ai-") && (
-            <span className="inline-flex items-center gap-1 rounded-full bg-ochre-soft px-2 py-0.5 text-xs text-ochre-ink">
-              <Sparkles size={12} /> AI-written
+            <span className="inline-flex max-w-full items-center gap-1 truncate rounded-full bg-ochre-soft px-2 py-0.5 text-xs text-ochre-ink">
+              <Sparkles size={12} className="shrink-0" /> {q.source ? `From ${q.source}` : "AI-written"}
             </span>
           )}
         </span>

@@ -8,29 +8,15 @@ import { ArrowLeft, FileText, Trash2, Upload } from "lucide-react";
 import { topicName } from "@/lib/content";
 import { useStore, type CustomCard } from "@/lib/store";
 import { Bar, Button, Chip, PageHeader, Panel } from "@/components/ui";
+import { SCANNED_MAX_BYTES, chunkPages, fileSize, isPdf, looksScanned, pageRange, readPdf, toBase64 } from "@/lib/pdf";
 
 type Draft = { front: string; back: string; topic: string; keep: boolean };
 type Stage = { kind: "pick" } | { kind: "reading"; done: number; total: number; label: string } | { kind: "review" };
 
 const CHUNK_CHARS = 24_000; // per AI request
 const MAX_CHUNKS = 12; // about 150 pages of dense notes per upload
-const SCANNED_MAX_BYTES = 3_000_000; // scanned PDFs are sent whole and must fit the request limit
 const DENSITY = { fewer: 1600, standard: 900, more: 550 } as const; // characters of text per card
 type Density = keyof typeof DENSITY;
-
-async function readPages(file: File) {
-  const { extractText, getDocumentProxy } = await import("unpdf");
-  const pdf = await getDocumentProxy(new Uint8Array(await file.arrayBuffer()));
-  const { totalPages, text } = await extractText(pdf, { mergePages: false });
-  return { totalPages, pages: text.map((t) => t.replace(/\s+/g, " ").trim()) };
-}
-
-function toBase64(buf: ArrayBuffer) {
-  let s = "";
-  const bytes = new Uint8Array(buf);
-  for (let i = 0; i < bytes.length; i += 0x8000) s += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
-  return btoa(s);
-}
 
 export default function ImportPdf() {
   const router = useRouter();
@@ -48,7 +34,7 @@ export default function ImportPdf() {
 
   const choose = (f: File | undefined) => {
     if (!f) return;
-    if (f.type !== "application/pdf" && !f.name.toLowerCase().endsWith(".pdf")) return setError("Choose a PDF file.");
+    if (!isPdf(f)) return setError("Choose a PDF file.");
     setError(null);
     setFile(f);
     setName(f.name.replace(/\.pdf$/i, ""));
@@ -66,31 +52,19 @@ export default function ImportPdf() {
     setError(null);
     setStage({ kind: "reading", done: 0, total: 1, label: "Reading the PDF…" });
     try {
-      const { totalPages, pages } = await readPages(file);
-      const a = Math.max(1, Math.min(totalPages, Number(from) || 1));
-      const b = Math.max(a, Math.min(totalPages, Number(to) || totalPages));
+      const { totalPages, pages } = await readPdf(file);
+      const { a, b } = pageRange(totalPages, from, to);
       const picked = pages.slice(a - 1, b);
-      const chars = picked.reduce((n, p) => n + p.length, 0);
       const out: Omit<Draft, "keep">[] = [];
 
-      if (chars < 80 * picked.length) {
+      if (looksScanned(picked)) {
         // Little or no text layer: a scanned PDF. Let the model read the pages directly.
         if (file.size > SCANNED_MAX_BYTES) throw new Error("This looks like a scanned PDF and it's too large to read. Split it into files under 3 MB, or export it with selectable text.");
         setStage({ kind: "reading", done: 0, total: 1, label: "Reading scanned pages…" });
         out.push(...(await ask({ pdfBase64: toBase64(await file.arrayBuffer()), filename: file.name, count: Math.min(40, Math.max(8, picked.length * 3)), focus })));
       } else {
         // Group pages into chunks so each request carries a manageable amount of text.
-        const chunks: string[] = [];
-        let buf = "";
-        picked.forEach((p, i) => {
-          const page = `[Page ${a + i}] ${p}\n`;
-          if (buf.length + page.length > CHUNK_CHARS && buf) {
-            chunks.push(buf);
-            buf = "";
-          }
-          buf += page;
-        });
-        if (buf) chunks.push(buf);
+        const chunks = chunkPages(picked, a, CHUNK_CHARS);
         if (chunks.length > MAX_CHUNKS) throw new Error(`That's a lot of material (pages ${a} to ${b}). Choose a page range of about ${Math.round(((b - a + 1) * MAX_CHUNKS) / chunks.length)} pages at a time.`);
         for (let i = 0; i < chunks.length; i++) {
           setStage({ kind: "reading", done: i, total: chunks.length, label: `Writing cards from part ${i + 1} of ${chunks.length}…` });
@@ -155,7 +129,7 @@ export default function ImportPdf() {
           >
             {file ? <FileText size={28} className="text-brand" /> : <Upload size={28} className="text-muted" />}
             <span className="font-medium">{file ? file.name : "Choose a PDF, or drop it here"}</span>
-            <span className="text-sm text-muted">{file ? `${file.size < 1_000_000 ? `${Math.max(1, Math.round(file.size / 1000))} KB` : `${(file.size / 1_000_000).toFixed(1)} MB`}. Tap to change.` : "Text PDFs of any length; scanned PDFs up to 3 MB"}</span>
+            <span className="text-sm text-muted">{file ? `${fileSize(file.size)}. Tap to change.` : "Text PDFs of any length; scanned PDFs up to 3 MB"}</span>
           </button>
           <input ref={fileInput} type="file" accept="application/pdf,.pdf" hidden onChange={(e) => choose(e.target.files?.[0])} />
 
