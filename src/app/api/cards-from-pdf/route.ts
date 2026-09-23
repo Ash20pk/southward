@@ -2,7 +2,7 @@ import { z } from "zod";
 import { structured, describeError, AMC_CONTEXT } from "@/lib/server/ai";
 import { guardAI } from "@/lib/server/auth";
 import { SYLLABUS } from "@/lib/content";
-import { supportedByMaterial, typesafeEnabled } from "@/lib/server/judge";
+import { isStudyMaterial, orFallback, supportedByMaterial, tagTopics } from "@/lib/server/judge";
 
 export const maxDuration = 300;
 
@@ -34,6 +34,8 @@ export async function POST(req: Request) {
     return Response.json({ error: "This scanned PDF is too large to read in one go. Split it into smaller files (under about 3 MB)." }, { status: 413 });
   }
   const n = Math.min(Math.max(count ?? 15, 3), 40);
+  // Checked alongside generation so it adds no waiting; a non-medical PDF's output is discarded.
+  const medical = text ? orFallback(() => isStudyMaterial(text), 1) : Promise.resolve(1);
 
   const system = `${AMC_CONTEXT}
 
@@ -58,23 +60,24 @@ You turn a learner's own study material into spaced-repetition flashcards for th
       effort: "low",
       pdf: pdfBase64 ? { base64: pdfBase64, filename: filename ?? "notes.pdf" } : undefined,
     });
+    if ((await medical) < 0.25) {
+      return Response.json({ error: "This PDF doesn't look like medical study material, so no cards were made. Try your notes, a guideline or a textbook chapter." }, { status: 422 });
+    }
     const valid = new Set(SYLLABUS.map((t) => t.id));
     let cards = out.cards
       .filter((c) => c.front.trim() && c.back.trim())
       .map((c) => ({ front: c.front.trim(), back: c.back.trim(), topic: valid.has(c.topic) ? c.topic : "" }));
-    let removed = 0;
-    // Check each card against the source with TypeSafe JEV and drop ones the material doesn't support.
+    // JEV checks each card against the source (dropping unsupported ones) and assigns its AMC topic.
     // "In Australia" notes are deliberate additions, so only the part before them is checked.
-    if (text && typesafeEnabled() && cards.length) {
-      try {
-        const p = await supportedByMaterial(text.slice(0, MAX_TEXT), cards.map((c) => `${c.front} ${c.back.split(/In Australia:/i)[0]}`));
-        const kept = cards.filter((_, i) => p[i] >= 0.35);
-        removed = cards.length - kept.length;
-        cards = kept;
-      } catch {
-        // If the check is unavailable, keep the cards; the learner reviews them before saving anyway.
-      }
-    }
+    const facts = cards.map((c) => `${c.front} ${c.back.split(/In Australia:/i)[0]}`);
+    const [support, tags] = await Promise.all([
+      text ? orFallback(() => supportedByMaterial(text.slice(0, MAX_TEXT), facts), facts.map(() => 1)) : facts.map(() => 1),
+      orFallback(() => tagTopics(facts), facts.map(() => null)),
+    ]);
+    cards = cards.map((c, i) => ({ ...c, topic: tags[i] ?? c.topic }));
+    const kept = cards.filter((_, i) => support[i] >= 0.35);
+    const removed = cards.length - kept.length;
+    cards = kept;
     return Response.json({ cards, removed });
   } catch (err) {
     return Response.json({ error: describeError(err) }, { status: 500 });

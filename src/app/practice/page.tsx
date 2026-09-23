@@ -286,7 +286,7 @@ function Generator({ defaultTopic, onStart }: { defaultTopic?: string; onStart: 
     setError(null);
     try {
       const qs = mode === "topic" ? await fromTopic() : await fromPdf();
-      if (!qs.length) throw new Error("No questions could be written from that. Try another topic or PDF.");
+      if (!qs.length) throw new Error("None of the questions passed the quality check (correct answer, one clear best option, based on your material). Try again, or pick another topic or PDF.");
       add(qs);
       onStart(qs);
     } catch (e) {

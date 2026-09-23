@@ -1,7 +1,8 @@
 import "server-only";
-import { TypeSafeClient, noul, score } from "./typesafe";
+import { TypeSafeClient, choice, noul, score } from "./typesafe";
 import type { Questions } from "./typesafe";
-import type { OsceStation } from "@/lib/types";
+import { DISCIPLINES, SYLLABUS } from "@/lib/content";
+import type { OsceStation, Question } from "@/lib/types";
 
 // TypeSafe's JEV model answers typed questions (yes/no probabilities, rubric scores) about a piece of
 // content in one fast round trip. Southward uses it for judging, and keeps text generation on the LLM.
@@ -93,4 +94,83 @@ export async function supportedByMaterial(material: string, items: string[]): Pr
     batch.forEach((_, i) => out.push(a[`i${i}`]?.noul ?? 1));
   }
   return out;
+}
+
+// --- Classification and quality checks ---------------------------------------------------------
+
+
+/** Is this document medical or health-science study material? Checked before spending a generation call on it. */
+export async function isStudyMaterial(text: string): Promise<number> {
+  const res = await ts().systemOne({
+    state: text.slice(0, 12_000),
+    questions: {
+      medical: noul({
+        instructions: "Is this medical, nursing or health-science study material (notes, guidelines, textbook text, lecture slides)?",
+        criteria: { true: "Clinical or health-science content a medical student could learn from", false: "Unrelated to medicine, or not study material" },
+      }),
+    },
+  });
+  return (res.answers as Record<string, { noul?: number }>).medical?.noul ?? 1;
+}
+
+/**
+ * Tags each item with its AMC topic in one round trip (questions inside a call are answered in parallel).
+ * Returns null for an item when JEV isn't confident, so the caller keeps its own guess.
+ */
+export async function tagTopics(items: string[]): Promise<(string | null)[]> {
+  const topics = Object.fromEntries(SYLLABUS.map((t) => [t.id, `${t.name} (${DISCIPLINES.find((d) => d.id === t.discipline)?.name})`]));
+  const out: (string | null)[] = [];
+  for (let start = 0; start < items.length; start += 20) {
+    const batch = items.slice(start, start + 20);
+    const questions: Questions = {};
+    batch.forEach((item, i) => {
+      questions[`t${i}`] = choice({ instructions: `Which AMC topic does this study item belong to? "${item}"`, criteria: topics });
+    });
+    const res = await ts().systemOne({ state: "Classify medical study items into AMC exam topics.", questions });
+    const a = res.answers as Record<string, { choice?: string; confidence?: number }>;
+    batch.forEach((_, i) => out.push((a[`t${i}`]?.confidence ?? 0) >= 0.3 ? (a[`t${i}`]?.choice ?? null) : null));
+  }
+  return out;
+}
+
+/**
+ * Vets AI-written MCQs: is the marked answer right for current Australian practice, and is it the
+ * single best option? Returns the lower of the two probabilities for each question.
+ */
+export async function vetQuestions(questions: Question[]): Promise<number[]> {
+  const letters = "ABCDE";
+  // Each question has its own state, so they're separate calls; run them side by side.
+  return Promise.all(questions.map(async (q) => {
+    const state = {
+      question: q.stem,
+      options: q.options.map((o, i) => `${letters[i]}. ${o}`),
+      markedAnswer: `${letters[q.answer]}. ${q.options[q.answer]}`,
+      explanation: q.explanation,
+    };
+    const res = await ts().systemOne({
+      state,
+      questions: {
+        correct: noul({
+          instructions: "Is the marked answer correct according to current Australian medical practice (eTG, RACGP and national guidelines)?",
+          criteria: { true: "The marked answer is correct and safe", false: "The marked answer is wrong, outdated or unsafe" },
+        }),
+        single: noul({
+          instructions: "Is the marked answer clearly the single best option, with no other option equally defensible?",
+          criteria: { true: "Exactly one option is best", false: "Another option is equally or more defensible, or the stem is ambiguous" },
+        }),
+      },
+    });
+    const a = res.answers as Record<string, { noul?: number }>;
+    return Math.min(a.correct?.noul ?? 1, a.single?.noul ?? 1);
+  }));
+}
+
+/** Runs a JEV check but never lets it break the feature: on failure the caller gets the fallback. */
+export async function orFallback<T>(work: () => Promise<T>, fallback: T): Promise<T> {
+  if (!typesafeEnabled()) return fallback;
+  try {
+    return await work();
+  } catch {
+    return fallback;
+  }
 }

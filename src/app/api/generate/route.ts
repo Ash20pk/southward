@@ -2,6 +2,7 @@ import { z } from "zod";
 import { structured, describeError, AMC_CONTEXT } from "@/lib/server/ai";
 import { topicById, disciplineName } from "@/lib/content";
 import type { Difficulty, Question } from "@/lib/types";
+import { orFallback, vetQuestions } from "@/lib/server/judge";
 
 import { guardAI } from "@/lib/server/auth";
 
@@ -70,7 +71,10 @@ You write original AMC CAT MCQ practice questions: one-best-answer clinical vign
         ausPearl: q.ausPearl || undefined,
         tags: [...q.tags, "ai"],
       }));
-    return Response.json({ questions });
+    // JEV vets each question: marked answer correct for Australian practice, and a single best option.
+    const ok = await orFallback(() => vetQuestions(questions), questions.map(() => 1));
+    const kept = questions.filter((_, i) => ok[i] >= 0.3);
+    return Response.json({ questions: kept, removed: questions.length - kept.length });
   } catch (err) {
     return Response.json({ error: describeError(err) }, { status: 500 });
   }
