@@ -14,8 +14,14 @@ export function ContrastTable({ rows, caption }: { rows: Contrast[]; caption?: s
         <thead>
           <tr className="text-left text-sm">
             <th className="w-[22%] border-b border-line bg-surface px-4 py-3 font-medium text-muted">Aspect</th>
-            <th className="w-[39%] border-b border-l border-line bg-sunk px-4 py-3 font-semibold">What you learn in Indian MBBS</th>
-            <th className="w-[39%] border-b border-l border-line bg-brand-soft px-4 py-3 font-semibold text-brand">What the AMC expects</th>
+            <th className="w-[39%] border-b border-l border-line bg-sunk px-4 py-3">
+              <span className="block text-base font-semibold">India (MBBS)</span>
+              <span className="block font-normal text-muted">What you learn in MBBS</span>
+            </th>
+            <th className="w-[39%] border-b border-l border-line bg-brand-soft px-4 py-3">
+              <span className="block text-base font-semibold text-brand">Australia (AMC)</span>
+              <span className="block font-normal text-muted">What the exam marks as correct</span>
+            </th>
           </tr>
         </thead>
         <tbody className="align-top font-serif leading-relaxed">
@@ -36,11 +42,11 @@ export function ContrastTable({ rows, caption }: { rows: Contrast[]; caption?: s
           <li key={r.aspect + i} className="overflow-hidden rounded-xl border border-line">
             <p className="bg-surface px-4 py-2.5 font-medium">{r.aspect}</p>
             <div className="border-t border-line bg-sunk/60 px-4 py-2.5">
-              <p className="text-xs font-semibold text-muted">Indian MBBS</p>
+              <p className="text-xs font-semibold text-muted">India (MBBS)</p>
               <p className="mt-0.5 font-serif leading-relaxed">{r.india}</p>
             </div>
             <div className="border-t border-line bg-brand-soft/60 px-4 py-2.5">
-              <p className="text-xs font-semibold text-brand">AMC expects</p>
+              <p className="text-xs font-semibold text-brand">Australia (AMC): what the exam expects</p>
               <p className="mt-0.5 font-serif leading-relaxed">{r.australia}</p>
             </div>
           </li>

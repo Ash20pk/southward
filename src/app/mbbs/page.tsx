@@ -64,13 +64,23 @@ function MbbsMap() {
             ))}
           </ul>
         </div>
-        <p className="px-5 pt-1 text-sm text-muted sm:px-6">Each dot is one AMC topic. Pick a subject to see the detail.</p>
+        <p className="px-5 pt-1 text-sm text-muted sm:px-6">
+          Rows are your MBBS subjects; columns are the AMC exam&rsquo;s disciplines. Each dot is one AMC topic that the
+          subject covers. Pick a subject to see the detail.
+        </p>
         <MobileMap selected={selected} posting={posting} onPick={pick} />
         <div className="mt-4 hidden md:block">
           <table className="w-full border-separate border-spacing-0 text-sm">
             <thead>
               <tr>
-                <th className="sticky left-0 z-10 bg-surface px-5 py-2 text-left font-medium text-muted sm:px-6">MBBS subject</th>
+                <th className="sticky left-0 z-10 bg-surface px-5 pt-2 text-left font-semibold sm:px-6" rowSpan={2}>
+                  MBBS subjects <span aria-hidden>↓</span>
+                </th>
+                <th colSpan={6} className="px-2 pt-2 text-left font-semibold">
+                  AMC disciplines <span aria-hidden>→</span>
+                </th>
+              </tr>
+              <tr>
                 {DISCIPLINES.map((d) => (
                   <th key={d.id} className="px-2 py-2 text-left font-medium">
                     <span className="flex items-center gap-1.5">
@@ -127,6 +137,7 @@ function MobileMap({ selected, posting, onPick }: { selected: string; posting?: 
         : { background: color, opacity: 0.3 };
   return (
     <div className="mt-4 md:hidden">
+      <p className="px-5 pb-1.5 text-xs font-semibold">Each row is an MBBS subject. Dot colours are AMC disciplines:</p>
       <ul className="flex flex-wrap gap-x-3 gap-y-1 px-5 pb-3 text-xs text-muted">
         {DISCIPLINES.map((d) => (
           <li key={d.id} className="flex items-center gap-1">
