@@ -1,0 +1,733 @@
+[
+  {
+    "id": "ch-001",
+    "discipline": "child-health",
+    "topic": "neonatology",
+    "difficulty": "foundation",
+    "stem": "A male infant born at 39 weeks by normal vaginal delivery is noted by the midwife to be visibly jaundiced at 14 hours of age. He is breastfeeding and otherwise well. His mother's blood group is O positive. What is the most appropriate next step?",
+    "options": [
+      "Reassure the parents and review at the routine day 3 check",
+      "Measure serum bilirubin urgently, with the infant's blood group and direct antiglobulin (Coombs) test",
+      "Advise more frequent breastfeeding and exposure to indirect sunlight",
+      "Switch from breastfeeding to formula for 48 hours",
+      "Arrange an exchange transfusion"
+    ],
+    "answer": 1,
+    "explanation": "**Jaundice in the first 24 hours of life is always pathological** until proven otherwise. Physiological jaundice appears after 24 hours, peaks around day 3 to 5 and fades by 2 weeks.\n\nThe commonest cause of early jaundice is **haemolysis**: ABO incompatibility (classically a group O mother with a group A or B baby, as here), Rh disease, G6PD deficiency or spherocytosis. Sepsis and congenital infection are the other causes to think of.\n\nSo the next step is an urgent **serum bilirubin** (visual estimation is unreliable), plotted on a gestation-specific phototherapy chart, plus the baby's **blood group and DAT**, FBC and film. Phototherapy or exchange transfusion is then decided from the bilirubin level against the chart, not guessed.\n\n**Rule:** under 24 hours = serum bilirubin now, and look for haemolysis.",
+    "whyWrong": [
+      "Waiting is unsafe: bilirubin can rise rapidly with haemolysis and cause kernicterus.",
+      "",
+      "Sunlight is not a treatment and delays measuring a potentially dangerous level.",
+      "Stopping breastfeeding is not indicated and does not address haemolysis.",
+      "Exchange transfusion is decided by the measured bilirubin level; you cannot choose it before measuring."
+    ],
+    "tags": ["jaundice", "haemolysis", "newborn"]
+  },
+  {
+    "id": "ch-002",
+    "discipline": "child-health",
+    "topic": "neonatology",
+    "difficulty": "core",
+    "stem": "A 4-week-old girl is brought to her GP because she is still yellow. She is feeding well and gaining weight. Her mother mentions the nappies have 'pale, clay-coloured' stools and the urine stains the nappy dark yellow. On examination the liver is palpable 3 cm below the costal margin. Total bilirubin is 160 µmol/L, of which conjugated bilirubin is 95 µmol/L. What is the most likely diagnosis?",
+    "options": [
+      "Breast milk jaundice",
+      "Gilbert syndrome",
+      "Crigler-Najjar syndrome",
+      "Biliary atresia",
+      "Hypothyroidism"
+    ],
+    "answer": 3,
+    "explanation": "**Prolonged jaundice** is jaundice lasting beyond 14 days in a term baby (21 days in a preterm baby). The key first test is the **split bilirubin**: is it conjugated or unconjugated?\n\nA **conjugated** fraction above about 20% of total (or over 25 µmol/L) means cholestasis and is never normal. Pale stools and dark urine are the clinical giveaways: bilirubin is not reaching the gut, and water-soluble conjugated bilirubin spills into the urine.\n\nThe most important cause to exclude is **biliary atresia**, because outcome depends on timing: a Kasai portoenterostomy done before about 60 days of life gives the best chance of bile drainage. Babies often look well and thrive at first, which is why it is missed.\n\n**Rule:** prolonged jaundice + pale stools + dark urine = conjugated hyperbilirubinaemia, refer the same week.",
+    "whyWrong": [
+      "Breast milk jaundice is unconjugated with normal stool colour and no hepatomegaly.",
+      "Gilbert syndrome causes mild unconjugated jaundice and rarely presents in infancy.",
+      "Crigler-Najjar is a conjugation defect, so bilirubin is unconjugated.",
+      "",
+      "Hypothyroidism causes prolonged unconjugated jaundice, usually with poor feeding and lethargy."
+    ],
+    "tags": ["jaundice", "biliary atresia", "cholestasis"]
+  },
+  {
+    "id": "ch-003",
+    "discipline": "child-health",
+    "topic": "neonatology",
+    "difficulty": "foundation",
+    "stem": "A baby boy is born at 38 weeks by elective caesarean section. At 2 hours of age he has a respiratory rate of 80/min with mild subcostal recession and occasional grunting. Oxygen saturation is 94% in air. Maternal GBS swab was negative and membranes were intact until delivery. Chest X-ray shows fluid in the horizontal fissure and prominent perihilar streaking. What is the most likely diagnosis?",
+    "options": [
+      "Transient tachypnoea of the newborn",
+      "Surfactant-deficient respiratory distress syndrome",
+      "Meconium aspiration syndrome",
+      "Congenital diaphragmatic hernia",
+      "Group B streptococcal pneumonia"
+    ],
+    "answer": 0,
+    "explanation": "**Transient tachypnoea of the newborn (TTN)** is the commonest cause of respiratory distress in a term baby. It is caused by delayed clearance of fetal lung fluid, which is normally squeezed out and absorbed during labour.\n\nThe classic set-up is an **elective caesarean without labour**, near term. The baby is tachypnoeic in the first hours, usually needs little or no oxygen, and the X-ray shows **fluid in the fissures** and streaky perihilar markings. It settles within 24 to 72 hours with supportive care.\n\nThe discriminating clues here are term gestation, no labour, no infection risk factors and a 'wet lung' X-ray rather than ground glass or a bowel-filled chest.\n\n**Rule:** term + elective CS + fluid in fissure = TTN. Still watch closely: if the baby worsens, treat as sepsis.",
+    "whyWrong": [
+      "",
+      "Surfactant-deficient RDS is a disease of preterm babies, with ground-glass lungs and air bronchograms.",
+      "Meconium aspiration needs meconium-stained liquor, usually in a post-term or distressed baby.",
+      "Diaphragmatic hernia shows bowel loops in the chest and a scaphoid abdomen.",
+      "Possible, but negative GBS, intact membranes and no labour make infection less likely than TTN."
+    ],
+    "tags": ["respiratory distress", "ttn", "newborn"]
+  },
+  {
+    "id": "ch-004",
+    "discipline": "child-health",
+    "topic": "neonatology",
+    "difficulty": "exam",
+    "stem": "A baby is born at 29 weeks' gestation after spontaneous preterm labour that progressed too quickly for any treatment to be given. Within minutes he develops grunting, nasal flaring and intercostal recession, with rising oxygen requirement. Chest X-ray shows diffuse ground-glass opacification with air bronchograms. He is placed on CPAP. Had there been time, which antenatal intervention would most have reduced his risk of this condition?",
+    "options": [
+      "Intravenous magnesium sulfate",
+      "Intrapartum intravenous benzylpenicillin",
+      "Intramuscular betamethasone to the mother",
+      "Oral nifedipine tocolysis alone",
+      "Vaginal progesterone"
+    ],
+    "answer": 2,
+    "explanation": "This baby has **respiratory distress syndrome (RDS)** from surfactant deficiency: preterm, onset within minutes to hours, ground-glass lungs with air bronchograms. Treatment is CPAP, with surfactant if oxygen needs rise.\n\nThe best prevention is **antenatal corticosteroids** (IM betamethasone, two doses 24 hours apart) when preterm birth is expected before 34+6 weeks. Steroids speed up fetal lung maturation and surfactant production, and also reduce intraventricular haemorrhage, NEC and neonatal death. Benefit starts within hours and is maximal after 24 hours, which is why even an incomplete course is worth giving.\n\nThe trap is **magnesium sulfate**: it is also given before very preterm birth (under 30 weeks), but its job is **fetal neuroprotection** against cerebral palsy, not lung maturity.\n\n**Rule:** steroids for lungs, magnesium for brain.",
+    "whyWrong": [
+      "Magnesium sulfate is for fetal neuroprotection (reduces cerebral palsy), not for lung maturity.",
+      "Intrapartum antibiotics prevent early-onset GBS sepsis, not surfactant deficiency.",
+      "",
+      "Tocolysis alone does not mature the lungs; its main value is buying time to give steroids.",
+      "Progesterone is used to prevent preterm birth in women with a short cervix, not to treat labour already underway."
+    ],
+    "tags": ["rds", "prematurity", "antenatal steroids"]
+  },
+  {
+    "id": "ch-005",
+    "discipline": "child-health",
+    "topic": "neonatology",
+    "difficulty": "core",
+    "stem": "First-time parents of a healthy term baby, who plan to breastfeed exclusively, tell the midwife they do not want their baby to have 'any injections' at birth. They ask whether vitamin K can be given by mouth instead. What is the most accurate advice?",
+    "options": [
+      "Oral vitamin K is not available in Australia, so the injection is the only option",
+      "A single oral dose at birth gives the same protection as the injection",
+      "Vitamin K is only needed for babies born by instrumental delivery",
+      "Exclusive breastfeeding provides enough vitamin K, so none is needed",
+      "Oral vitamin K can be given, but it needs three doses (birth, day 3 to 5, and week 4) and protects less well than a single injection"
+    ],
+    "answer": 4,
+    "explanation": "Newborns have low vitamin K stores and breast milk contains very little, so they are at risk of **vitamin K deficiency bleeding (VKDB)**. Late VKDB (2 to 12 weeks) can present as intracranial haemorrhage, mostly in exclusively breastfed babies.\n\nAustralian (NHMRC) guidance is **vitamin K 1 mg IM at birth** (0.5 mg if under 1500 g). A single injection gives lasting protection.\n\nIf parents decline the injection, **oral vitamin K is an acceptable second choice**, but it is absorbed less reliably, so it needs **three 2 mg doses: at birth, at day 3 to 5, and at week 4**. Missing the later doses is the usual reason it fails. Parents should know that oral is less effective against late VKDB.\n\n**Rule:** IM once is best; oral works only if all three doses are given.",
+    "whyWrong": [
+      "Oral vitamin K is an accepted alternative in Australia.",
+      "A single oral dose does not protect against late VKDB; three doses are required.",
+      "All newborns are recommended vitamin K, regardless of mode of delivery.",
+      "Breast milk is low in vitamin K; exclusively breastfed babies are the group most at risk.",
+      ""
+    ],
+    "ausPearl": "Vitamin K at birth is recommended for every newborn under the NHMRC joint statement. Hepatitis B vaccine is also offered at birth (within 7 days, ideally within 24 hours) under the National Immunisation Program, and it is the other 'birth injection' parents ask about.",
+    "tags": ["vitamin k", "vkdb", "newborn"]
+  },
+  {
+    "id": "ch-006",
+    "discipline": "child-health",
+    "topic": "growth-development",
+    "difficulty": "core",
+    "stem": "A 10-month-old girl is seen for a routine check. She sits without support, pulls to stand, babbles 'ba-ba' and shows stranger anxiety. Her mother proudly says she is 'already left-handed' because she always reaches and picks up toys with her left hand and keeps her right hand fisted. Which finding is the most concerning?",
+    "options": [
+      "She is not yet walking independently",
+      "She is not yet saying any words with meaning",
+      "She shows a consistent hand preference",
+      "She is anxious with strangers",
+      "She cannot yet build a tower of three blocks"
+    ],
+    "answer": 2,
+    "explanation": "Children normally use both hands equally until at least **12 to 18 months**. **Established hand preference before 18 months** (and especially before 12 months) is a red flag, because it often means the other hand is weak. Here the right hand is fisted and unused, suggesting a **right hemiplegia**, for example from perinatal stroke or unilateral cerebral palsy.\n\nThe next step is a neurological examination looking for asymmetric tone, reflexes and power, then referral to a paediatrician.\n\nEverything else in the stem is normal for 10 months: independent walking comes at 12 to 15 months (red flag if not walking by 18 months), first words around 12 months, stranger anxiety from about 8 months, and a 3-cube tower around 18 months.\n\n**Rule:** a baby who is 'left-handed' is a baby whose right side needs examining.",
+    "whyWrong": [
+      "Most children walk at 12 to 15 months; not walking at 10 months is normal.",
+      "First meaningful words usually appear around 12 months.",
+      "",
+      "Stranger anxiety from about 8 months is a normal social milestone.",
+      "A tower of three blocks is expected around 18 months, not 10 months."
+    ],
+    "tags": ["milestones", "red flags", "cerebral palsy"]
+  },
+  {
+    "id": "ch-007",
+    "discipline": "child-health",
+    "topic": "growth-development",
+    "difficulty": "foundation",
+    "stem": "A mother brings her son to his 2-year health check. She wants to know whether he is 'on track'. Which of the following is a milestone you would expect a typically developing 2-year-old to have achieved?",
+    "options": [
+      "Combining two words, such as 'more milk'",
+      "Copying a triangle",
+      "Hopping on one foot",
+      "Skipping with alternate feet",
+      "Telling a simple story in full sentences"
+    ],
+    "answer": 0,
+    "explanation": "A useful way to remember language milestones is **words by 1, two-word phrases by 2, three-word sentences by 3**. At 2 years a child typically has around 50 words, joins two together, runs, kicks a ball, walks up stairs holding on and builds a tower of about 6 blocks.\n\nThe other options are later skills:\n- **Hops on one foot**: about 4 years\n- **Copies a triangle**: about 5 years (circle 3, cross 4, square 4 to 5, triangle 5)\n- **Skips**: about 5 years\n- **Tells a story in sentences**: 4 to 5 years\n\nA red flag at 2 years is **fewer than 50 words or no two-word phrases**, which should prompt a hearing test and developmental review.\n\n**Rule:** 1 word at 1, 2 words at 2, 3 words at 3.",
+    "whyWrong": [
+      "",
+      "Copying a triangle is a 5-year skill.",
+      "Hopping on one foot is expected around 4 years.",
+      "Skipping is a 5-year skill.",
+      "Telling a story in full sentences is a 4 to 5 year skill."
+    ],
+    "ausPearl": "Developmental surveillance in Australia is done at scheduled Maternal and Child Health (or Child and Family Health) visits using the state 'blue book' (Victoria: green book, NSW: blue book), with Ages and Stages or PEDS tools, rather than relying on ad hoc checks.",
+    "tags": ["milestones", "language", "development"]
+  },
+  {
+    "id": "ch-008",
+    "discipline": "child-health",
+    "topic": "growth-development",
+    "difficulty": "core",
+    "stem": "The parents of a 20-month-old boy are worried. At 14 months he said 'mum', 'dad' and 'car', but he no longer uses any words. He rarely responds to his name, does not point to show them things and prefers lining up his toy cars. His gross motor development is normal. What is the most appropriate next step?",
+    "options": [
+      "Reassure the parents that boys often talk later and review at 3 years",
+      "Refer directly to speech pathology only",
+      "Arrange an MRI brain",
+      "Advise the parents to reduce screen time and review in 6 months",
+      "Refer for a formal hearing assessment and a paediatric developmental assessment"
+    ],
+    "answer": 4,
+    "explanation": "**Loss of previously acquired skills (regression) is a red flag at any age** and always needs prompt assessment. It should never be watched.\n\nThis boy also has features suggesting **autism spectrum disorder**: not responding to his name, no pointing to share interest (absent joint attention) and repetitive play. But the first thing to exclude in any child with a speech problem is **hearing loss**, so he needs formal audiology alongside referral to a paediatrician or multidisciplinary developmental team.\n\nEarly diagnosis matters because early intervention improves outcomes. Speech therapy on its own misses the wider picture, and MRI is not a first-line test for isolated language regression.\n\n**Rule:** regression = refer, and every speech concern gets a hearing test.",
+    "whyWrong": [
+      "Regression is never normal variation; waiting delays diagnosis and intervention.",
+      "Speech therapy alone misses hearing loss and the broader developmental assessment he needs.",
+      "MRI is not a first-line investigation here and needs a clinical indication such as abnormal neurology.",
+      "Screen time advice does not address regression, a red flag that needs referral now.",
+      ""
+    ],
+    "tags": ["regression", "autism", "red flags"]
+  },
+  {
+    "id": "ch-009",
+    "discipline": "child-health",
+    "topic": "growth-development",
+    "difficulty": "core",
+    "stem": "A 15-month-old girl has had loose, pale, offensive stools for 6 months and is increasingly irritable. Her weight has fallen from the 50th to below the 3rd centile since 9 months of age, and her length from the 50th to the 25th. She has a distended abdomen and wasted buttocks. She eats a normal toddler diet including bread and pasta. What is the most appropriate initial investigation?",
+    "options": [
+      "Sweat chloride test",
+      "Tissue transglutaminase IgA antibody with total IgA",
+      "Stool culture for bacterial pathogens",
+      "Faecal calprotectin",
+      "Abdominal ultrasound"
+    ],
+    "answer": 1,
+    "explanation": "Failure to thrive means weight faltering across centile lines. The pattern helps: **weight falls first**, then length, then head circumference. This girl has faltering weight with chronic diarrhoea, distension and **wasted buttocks** that began a few months after gluten was introduced. That picture is classic **coeliac disease**.\n\nThe first test is **tTG-IgA with total IgA**. Total IgA is needed because IgA deficiency is more common in coeliac disease and gives a falsely negative tTG. The child **must still be eating gluten**, or the test can be falsely negative. Diagnosis is usually confirmed by duodenal biopsy.\n\nCystic fibrosis also causes steatorrhoea and poor growth, but it usually presents earlier and with chest symptoms. In Australia most cases are picked up on newborn screening.\n\n**Rule:** faltering growth after gluten + diarrhoea + wasted buttocks = tTG-IgA and total IgA, on gluten.",
+    "whyWrong": [
+      "CF is usually detected on newborn screening and typically has respiratory features; coeliac fits better here.",
+      "",
+      "A 6-month history is chronic; bacterial gastroenteritis would not explain it.",
+      "Calprotectin screens for intestinal inflammation (IBD), which is rare at this age and not the first test here.",
+      "Ultrasound does not diagnose malabsorption."
+    ],
+    "tags": ["failure to thrive", "coeliac", "malabsorption"]
+  },
+  {
+    "id": "ch-010",
+    "discipline": "child-health",
+    "topic": "paediatric-infections",
+    "difficulty": "foundation",
+    "stem": "A 4-month-old boy, born at term and previously well, has had a runny nose for 2 days and a cough for 1 day. He is taking about three-quarters of his normal feeds. Temperature is 37.8 °C, respiratory rate 50/min with mild subcostal recession, and oxygen saturation 95% in air. There are widespread fine crackles and some wheeze. What is the most appropriate management?",
+    "options": [
+      "Trial of nebulised salbutamol",
+      "Oral prednisolone for 3 days",
+      "Oral amoxicillin for 5 days",
+      "Supportive care at home with clear advice on when to return",
+      "Nebulised 3% hypertonic saline"
+    ],
+    "answer": 3,
+    "explanation": "This is **bronchiolitis**: an infant under 12 months, a coryzal prodrome, then cough, tachypnoea, crackles and wheeze. **RSV** is the commonest cause, peaking in winter.\n\nManagement is **supportive**. Salbutamol, steroids, antibiotics, adrenaline and hypertonic saline do not help and should not be used. Care focuses on two things: **oxygenation** (oxygen is started only if saturations are persistently below 90% under RCH guidance) and **hydration** (NG or IV fluids if feeding is under about 50%).\n\nThis baby is feeding over 50%, has good saturations, mild work of breathing and no risk factors (no prematurity, no heart or lung disease, not under 6 to 8 weeks), so he can go home. Parents should know symptoms often worsen around **days 2 to 3** and to return if feeding drops, breathing gets harder or he has apnoeas.\n\n**Rule:** bronchiolitis = oxygen and fluids only, no drugs.",
+    "whyWrong": [
+      "Salbutamol has no proven benefit in bronchiolitis and is not recommended.",
+      "Corticosteroids do not improve outcomes in bronchiolitis.",
+      "Bronchiolitis is viral; antibiotics are not indicated.",
+      "",
+      "Hypertonic saline is not recommended in Australian guidelines."
+    ],
+    "tags": ["bronchiolitis", "rsv", "infant"]
+  },
+  {
+    "id": "ch-011",
+    "discipline": "child-health",
+    "topic": "paediatric-infections",
+    "difficulty": "exam",
+    "stem": "A 19-day-old girl is brought to the emergency department with a temperature of 38.4 °C measured at home and confirmed in triage. She is feeding slightly less than usual but is alert, pink and well perfused, with no focus of infection found on examination. She was born at term with no perinatal risk factors. What is the most appropriate management?",
+    "options": [
+      "Discharge with paracetamol and GP review in 24 hours",
+      "Urine microscopy and culture only, then treat if positive",
+      "Blood culture then a single dose of IV ceftriaxone and review in 24 hours",
+      "Blood culture, catheter or suprapubic urine, lumbar puncture, then IV amoxicillin plus cefotaxime",
+      "Observe in the department for 4 hours and discharge if the fever settles"
+    ],
+    "answer": 3,
+    "explanation": "**Any fever of 38 °C or higher in an infant under 28 days needs a full septic work-up and IV antibiotics, however well they look.** Neonates cannot localise infection, clinical appearance is unreliable, and the rate of serious bacterial infection (UTI, bacteraemia, meningitis) is high.\n\nThe work-up is **blood culture, urine by catheter or SPA, and lumbar puncture**, then empirical IV antibiotics that cover the neonatal organisms: GBS, *E. coli* and ***Listeria***. That means **amoxicillin (for Listeria) plus cefotaxime**. Add aciclovir if HSV is possible (seizures, vesicles, maternal genital herpes, raised liver enzymes).\n\n**Ceftriaxone is avoided in neonates**: it displaces bilirubin from albumin and can precipitate with IV calcium. Cephalosporins also do not cover Listeria.\n\n**Rule:** febrile under 1 month = full screen including LP, IV amoxicillin plus cefotaxime, admit.",
+    "whyWrong": [
+      "Well appearance does not exclude serious bacterial infection in a neonate; discharge is unsafe.",
+      "Urine alone misses bacteraemia and meningitis, which are common in this age group.",
+      "Ceftriaxone is avoided in neonates and misses Listeria; an LP is also needed.",
+      "",
+      "Fever settling does not exclude serious bacterial infection in a neonate."
+    ],
+    "tags": ["febrile infant", "sepsis", "neonate"]
+  },
+  {
+    "id": "ch-012",
+    "discipline": "child-health",
+    "topic": "paediatric-infections",
+    "difficulty": "core",
+    "stem": "A 2-year-old boy has had a fever for 8 hours. His mother noticed a few purple spots on his legs that do not fade when pressed with a glass. In the emergency department he is drowsy, temperature 39.6 °C, heart rate 170/min, capillary refill 4 seconds and cool peripheries. An IV cannula has been placed and blood cultures taken. What is the most appropriate immediate next step?",
+    "options": [
+      "Arrange a CT head before any further treatment",
+      "Perform a lumbar puncture, then start antibiotics",
+      "Give IV ceftriaxone immediately, with a fluid bolus",
+      "Wait for the full blood count and CRP to guide treatment",
+      "Give oral amoxicillin and observe"
+    ],
+    "answer": 2,
+    "explanation": "Fever with a **non-blanching (petechial or purpuric) rash** in a sick child is **meningococcal sepsis** until proven otherwise. This boy is also shocked: tachycardic, with prolonged capillary refill and cool peripheries.\n\nMeningococcal disease can kill within hours, so **antibiotics must not be delayed** for tests. Once blood cultures are taken (or straight away if they are difficult), give **IV ceftriaxone** (or cefotaxime) and start **fluid resuscitation** with 10 to 20 mL/kg boluses of 0.9% saline, reassessing after each.\n\n**Lumbar puncture is contraindicated** in a shocked or drowsy child or one with purpura. It can be done later once the child is stable. CT does not help the decision and wastes time.\n\nIn general practice, give **IM or IV benzylpenicillin** before transfer.\n\n**Rule:** fever + non-blanching rash + unwell = antibiotics now, tests later.",
+    "whyWrong": [
+      "CT delays antibiotics and does not change immediate management.",
+      "LP is contraindicated in shock and purpura, and antibiotics should not wait for it.",
+      "",
+      "Blood results will not change the need for immediate antibiotics in this child.",
+      "Oral antibiotics are inadequate in septic shock."
+    ],
+    "ausPearl": "Invasive meningococcal disease is notifiable in every state and territory; the public health unit arranges clearance antibiotics for close contacts. The NIP gives MenACWY at 12 months and in adolescence, and MenB for all Aboriginal and Torres Strait Islander infants.",
+    "tags": ["meningococcal", "sepsis", "petechiae"]
+  },
+  {
+    "id": "ch-013",
+    "discipline": "child-health",
+    "topic": "paediatric-infections",
+    "difficulty": "core",
+    "stem": "An 8-month-old girl has had a fever of 39.5 °C for 2 days without cough, coryza or diarrhoea. She is irritable and has vomited twice, and the team plans to start IV antibiotics soon. No other focus is found on examination. Urine is needed to look for a urinary tract infection. Which urine collection method is most appropriate in this situation?",
+    "options": [
+      "Adhesive urine bag specimen",
+      "Catheter specimen of urine",
+      "Absorbent nappy pad specimen",
+      "Wait for a clean-catch sample, however long it takes",
+      "Urine dipstick from a wet nappy"
+    ],
+    "answer": 1,
+    "explanation": "**UTI is the commonest serious bacterial infection in febrile infants**, and fever without a focus should always prompt a urine test.\n\nHow the urine is collected matters because contamination leads to false diagnoses and unnecessary imaging. For a **culture that will guide treatment** in a child who is not toilet trained:\n- **Clean catch** is acceptable if the child is well and there is time.\n- **Catheter specimen or suprapubic aspiration (SPA)** is preferred when the child is unwell or antibiotics are needed soon, as here. SPA is usually reserved for infants under about 6 months, ideally with ultrasound guidance.\n\n**Bag and pad samples** have high contamination rates. They are only useful to **rule out** infection (a negative dipstick), never to diagnose it.\n\n**Rule:** unwell baby needing antibiotics = catheter or SPA before the first dose.",
+    "whyWrong": [
+      "Bag samples have high contamination rates and are unreliable for culture.",
+      "",
+      "Pad samples are also frequently contaminated and unsuitable for diagnosis.",
+      "Clean catch is reasonable in a well child, but antibiotics should not be delayed indefinitely in an unwell infant.",
+      "Nappy urine is contaminated and not suitable for diagnosis."
+    ],
+    "tags": ["uti", "febrile infant", "urine collection"]
+  },
+  {
+    "id": "ch-014",
+    "discipline": "child-health",
+    "topic": "paediatric-infections",
+    "difficulty": "core",
+    "stem": "A 3-year-old boy has had a high fever for 6 days despite paracetamol. He has red eyes without discharge, cracked red lips, a 'strawberry' tongue, a polymorphous rash on his trunk, swollen red hands and feet, and a single 2 cm tender left cervical lymph node. He is very irritable. What is the most important treatment to reduce his risk of long-term complications?",
+    "options": [
+      "High-dose oral prednisolone alone",
+      "IV immunoglobulin 2 g/kg as a single infusion, with aspirin",
+      "IV ceftriaxone for 7 days",
+      "Regular oral ibuprofen",
+      "IM benzathine benzylpenicillin"
+    ],
+    "answer": 1,
+    "explanation": "This is **Kawasaki disease**, a vasculitis of small and medium arteries, most common under 5 years. Diagnosis is fever for **5 days or more** plus 4 of 5 features, remembered as **CREAM**:\n- **C**onjunctivitis (bilateral, non-purulent)\n- **R**ash (polymorphous)\n- **E**xtremity changes (red, swollen hands and feet, later peeling)\n- **A**denopathy (cervical, usually single and over 1.5 cm)\n- **M**ucosal changes (red cracked lips, strawberry tongue)\n\nThe feared complication is **coronary artery aneurysm**, which develops in about 25% of untreated children. **IVIG 2 g/kg**, ideally within 10 days of fever onset, cuts this to a few percent. Aspirin is given as well, and an **echocardiogram** is done at diagnosis and in follow-up.\n\nIrritability out of proportion to fever is a helpful clue.\n\n**Rule:** fever 5 days + CREAM = IVIG plus echo.",
+    "whyWrong": [
+      "Steroids are sometimes added in high-risk cases, but IVIG is the proven first-line treatment.",
+      "",
+      "Kawasaki is not a bacterial infection; antibiotics do not prevent aneurysms.",
+      "Ibuprofen does not treat the vasculitis and interferes with aspirin's antiplatelet effect.",
+      "Benzathine penicillin is used for streptococcal infection and rheumatic fever prophylaxis, not Kawasaki."
+    ],
+    "tags": ["kawasaki", "vasculitis", "prolonged fever"]
+  },
+  {
+    "id": "ch-015",
+    "discipline": "child-health",
+    "topic": "paediatric-infections",
+    "difficulty": "exam",
+    "stem": "A 9-year-old Aboriginal girl from a remote community in the Northern Territory has had fever and painful, swollen joints for 5 days. The pain started in her right knee, then moved to her left ankle and right wrist. She had a sore throat 3 weeks ago. ESR is 85 mm/h and anti-streptolysin O titre is raised. Echocardiogram shows mild mitral regurgitation. She is diagnosed with acute rheumatic fever. What is the most important long-term management?",
+    "options": [
+      "IM benzathine benzylpenicillin G every 28 days for at least 10 years",
+      "Oral amoxicillin for 10 days, then no further treatment",
+      "Long-term daily aspirin",
+      "Oral prednisolone for 6 months",
+      "Tonsillectomy once the acute illness settles"
+    ],
+    "answer": 0,
+    "explanation": "**Acute rheumatic fever (ARF)** is an immune reaction after group A streptococcal infection of the throat (and probably the skin). It causes migratory polyarthritis, carditis, chorea, erythema marginatum and subcutaneous nodules. Diagnosis uses the Jones criteria, with lower thresholds for high-risk groups.\n\nThe damage that matters is **rheumatic heart disease (RHD)**, and each recurrence of ARF damages the valves further. So the most important intervention is **secondary prophylaxis**: **IM benzathine benzylpenicillin G every 28 days** (every 21 days for some high-risk patients). This continues for at least 10 years after the last episode or until age 21, whichever is longer, and for longer if there is moderate or severe RHD.\n\nAspirin or naproxen treats the arthritis symptomatically but does not prevent recurrence.\n\n**Rule:** ARF = monthly penicillin injections for years, not weeks.",
+    "whyWrong": [
+      "",
+      "A 10-day course treats the current strep infection but does not prevent recurrences.",
+      "Aspirin eases arthritis but does not prevent recurrent ARF or valve damage.",
+      "Steroids do not prevent recurrence and are not routine.",
+      "Tonsillectomy does not replace secondary prophylaxis."
+    ],
+    "ausPearl": "Aboriginal and Torres Strait Islander people in northern and central Australia have some of the highest rates of ARF and RHD in the world. ARF and RHD are notifiable in several jurisdictions, and patients are recorded on state or territory RHD registers that track prophylaxis injections.",
+    "tags": ["rheumatic fever", "rhd", "indigenous health"]
+  },
+  {
+    "id": "ch-016",
+    "discipline": "child-health",
+    "topic": "paediatric-emergencies",
+    "difficulty": "foundation",
+    "stem": "A 2-year-old boy wakes at night with a barking cough and a hoarse voice after a day of coryza. In the emergency department he is alert and playful. He has stridor only when crying, no stridor at rest, and minimal chest wall recession. Oxygen saturation is 98% in air. He weighs 12 kg. What is the most appropriate management?",
+    "options": [
+      "Nebulised salbutamol",
+      "Oral dexamethasone 0.15 mg/kg as a single dose",
+      "Oral amoxicillin for 5 days",
+      "Nebulised adrenaline",
+      "Humidified mist therapy"
+    ],
+    "answer": 1,
+    "explanation": "**Croup (laryngotracheobronchitis)** is usually caused by parainfluenza virus and is most common from 6 months to 3 years. Swelling below the vocal cords gives a **barking cough, hoarse voice and inspiratory stridor**, often worse at night.\n\nSeverity drives treatment:\n- **Mild** (stridor only when upset, as here): a single dose of **oral dexamethasone 0.15 mg/kg** (or prednisolone 1 mg/kg). Steroids reduce swelling within hours and lower the chance of returning.\n- **Moderate to severe** (stridor at rest, recession, agitation): add **nebulised adrenaline** and observe, because its effect wears off after about 2 hours.\n\nHumidified air has no proven benefit. Antibiotics do not help, and salbutamol targets the wrong part of the airway.\n\n**Rule:** barking cough = steroid for everyone; stridor at rest = add adrenaline.",
+    "whyWrong": [
+      "Salbutamol acts on lower airway bronchospasm; croup is upper airway swelling.",
+      "",
+      "Croup is viral; antibiotics are not indicated.",
+      "Nebulised adrenaline is reserved for moderate to severe croup with stridor at rest.",
+      "Mist therapy has no proven benefit."
+    ],
+    "tags": ["croup", "stridor", "dexamethasone"]
+  },
+  {
+    "id": "ch-017",
+    "discipline": "child-health",
+    "topic": "paediatric-emergencies",
+    "difficulty": "core",
+    "stem": "A 20-month-old girl has had vomiting and watery diarrhoea for 2 days. She is lethargic but rousable, with dry mucous membranes, reduced skin turgor and sunken eyes. Heart rate is 145/min and capillary refill is 2 seconds. She is estimated to be moderately dehydrated (about 5%). She is keeping down small sips but refuses to drink larger amounts. What is the most appropriate method of rehydration?",
+    "options": [
+      "IV 0.9% sodium chloride 20 mL/kg bolus, repeated until she passes urine",
+      "Diluted apple juice or lemonade given in small frequent sips",
+      "Oral loperamide and continued normal diet",
+      "Withhold all oral intake for 6 hours to rest the gut",
+      "Oral rehydration solution given via nasogastric tube over about 4 hours"
+    ],
+    "answer": 4,
+    "explanation": "The first job in gastroenteritis is to **estimate dehydration**. Mild is under 4%, moderate 4 to 6%, and severe 7% or more with signs of shock. This girl is moderately dehydrated but not shocked: capillary refill is normal.\n\nFor mild to moderate dehydration, **enteral rehydration is preferred over IV**. It is as effective, safer and allows earlier discharge. If a child will not drink enough, give **oral rehydration solution (ORS) by nasogastric tube**. RCH uses a rapid NG regimen over about 4 hours, then reassesses. A single dose of **ondansetron** (for children over 6 months) can reduce vomiting and help oral intake.\n\nIV fluids are for shock, severe dehydration or failed NG rehydration.\n\nSugary drinks worsen osmotic diarrhoea, and **antidiarrhoeal drugs such as loperamide are contraindicated** in young children.\n\n**Rule:** moderate dehydration + not drinking = NG ORS before IV.",
+    "whyWrong": [
+      "Boluses are for shock; she is not shocked, and IV is not first-line for moderate dehydration.",
+      "Undiluted or diluted juice and soft drinks are not balanced rehydration fluids and can worsen diarrhoea.",
+      "Antidiarrhoeal agents are contraindicated in young children with gastroenteritis.",
+      "Withholding fluids worsens dehydration; early feeding and rehydration are recommended.",
+      ""
+    ],
+    "tags": ["gastroenteritis", "dehydration", "ors"]
+  },
+  {
+    "id": "ch-018",
+    "discipline": "child-health",
+    "topic": "paediatric-emergencies",
+    "difficulty": "core",
+    "stem": "A 9-month-old boy has had episodes of inconsolable screaming for 12 hours. During each episode he draws his knees up and goes pale, then settles and seems lethargic between episodes. He has vomited three times and has just passed a stool that looks like redcurrant jelly. A sausage-shaped mass is felt in the right upper quadrant. He is haemodynamically stable. What is the investigation of choice?",
+    "options": [
+      "Abdominal ultrasound",
+      "Plain abdominal X-ray",
+      "CT abdomen with contrast",
+      "Barium follow-through",
+      "Colonoscopy"
+    ],
+    "answer": 0,
+    "explanation": "This is **intussusception**: one segment of bowel telescopes into the next, most often ileum into colon (ileocolic). Peak age is **6 to 18 months**.\n\nThe classic features are **intermittent colicky pain with pallor and drawing up of the legs**, lethargy between episodes, vomiting and a **sausage-shaped mass**. **Redcurrant jelly stool** (blood and mucus) is a **late sign** of bowel ischaemia, so do not wait for it. Lethargy alone can be the main presentation.\n\n**Ultrasound is the investigation of choice**. It is highly sensitive, has no radiation, and shows a 'target' or 'doughnut' sign. If confirmed and the child is stable, first-line treatment is **air (pneumatic) enema reduction** under radiological guidance with surgeons available. Surgery is needed if there is peritonitis, perforation or shock, or if reduction fails.\n\n**Rule:** screaming + pallor + lethargic between episodes = ultrasound for intussusception.",
+    "whyWrong": [
+      "",
+      "A plain X-ray may be normal and cannot exclude intussusception; it is mainly used to look for perforation.",
+      "CT involves unnecessary radiation and sedation; ultrasound is first-line.",
+      "Barium studies are not used for diagnosis and delay treatment.",
+      "Colonoscopy has no role in diagnosing intussusception in an infant."
+    ],
+    "tags": ["intussusception", "abdominal pain", "infant"]
+  },
+  {
+    "id": "ch-019",
+    "discipline": "child-health",
+    "topic": "paediatric-emergencies",
+    "difficulty": "foundation",
+    "stem": "A 5-week-old first-born boy has had vomiting after every feed for 4 days, increasingly forceful and 'shooting across the room'. The vomit is milky, never green. He is hungry immediately after vomiting. On test feed a small firm mass is felt in the right upper abdomen. Which blood gas and electrolyte pattern is most likely?",
+    "options": [
+      "Hyperchloraemic, hyperkalaemic metabolic acidosis",
+      "Hyperchloraemic, hypokalaemic metabolic acidosis",
+      "Hypochloraemic, hypokalaemic metabolic alkalosis",
+      "Normal anion gap metabolic acidosis with hyponatraemia",
+      "Respiratory alkalosis with normal electrolytes"
+    ],
+    "answer": 2,
+    "explanation": "This is **infantile hypertrophic pyloric stenosis**. The classic child is a **first-born boy aged 2 to 8 weeks** with **projectile, non-bilious vomiting** who is hungry straight after vomiting. An olive-shaped mass may be felt during a test feed. Ultrasound confirms a thickened, elongated pylorus.\n\nThe electrolytes follow from what is lost. Vomiting stomach contents loses **hydrochloric acid**, causing **hypochloraemia and metabolic alkalosis**. The kidney then holds on to sodium and water in exchange for potassium and hydrogen ions, causing **hypokalaemia** and a paradoxical acid urine.\n\n**Pyloric stenosis is a medical emergency before it is a surgical one.** Correct fluids and electrolytes first (IV fluids with added potassium, aiming for normal chloride and bicarbonate), because anaesthesia with alkalosis risks postoperative apnoea. Then do a pyloromyotomy.\n\n**Rule:** pyloric stenosis = low chloride, low potassium, high bicarbonate; fix the gas before the knife.",
+    "whyWrong": [
+      "Losing gastric acid causes alkalosis, not acidosis.",
+      "Hyperchloraemic acidosis is typical of diarrhoea (bicarbonate loss), not gastric vomiting.",
+      "",
+      "Acidosis is the opposite of what gastric acid loss causes.",
+      "Electrolytes are characteristically abnormal; the alkalosis is metabolic, not respiratory."
+    ],
+    "tags": ["pyloric stenosis", "vomiting", "electrolytes"]
+  },
+  {
+    "id": "ch-020",
+    "discipline": "child-health",
+    "topic": "paediatric-emergencies",
+    "difficulty": "exam",
+    "stem": "A 3-day-old term baby, previously feeding well, has vomited three times in the last 2 hours. The vomit is dark green. He is alert, his abdomen is soft and not distended, and he passed meconium on day 1. Vital signs are normal. What is the most appropriate next step?",
+    "options": [
+      "Reassure the parents and change to a partially hydrolysed formula",
+      "Arrange a pyloric ultrasound",
+      "Continue feeds and observe for 24 hours",
+      "Keep nil by mouth, pass a nasogastric tube, and arrange an urgent upper gastrointestinal contrast study with surgical review",
+      "Start a proton pump inhibitor for reflux"
+    ],
+    "answer": 3,
+    "explanation": "**Bilious (green) vomiting in a neonate is a surgical emergency until proven otherwise.** The diagnosis you must not miss is **malrotation with midgut volvulus**. The gut twists on a narrow mesentery and cuts off the superior mesenteric artery. The entire midgut can die within hours.\n\nThe trap is that the baby **can look well with a soft, flat abdomen** early on. Distension, blood per rectum and shock are late signs that ischaemia has already set in.\n\nManagement: **nil by mouth, NG tube on free drainage, IV fluids**, and an **urgent upper GI contrast study** to show where the duodenojejunal flexure sits, alongside an immediate paediatric surgical opinion. Confirmed volvulus needs a laparotomy (Ladd procedure).\n\nOther causes include duodenal atresia, jejunal atresia, Hirschsprung disease and meconium ileus, but volvulus is the one that kills quickly.\n\n**Rule:** green vomit in a baby = volvulus until the contrast study says otherwise.",
+    "whyWrong": [
+      "Bilious vomiting is never a feeding intolerance problem until surgical causes are excluded.",
+      "Pyloric stenosis causes non-bilious vomiting because the obstruction is above the ampulla.",
+      "Observation risks losing the entire midgut to volvulus.",
+      "",
+      "Reflux does not cause bilious vomiting; a PPI delays diagnosis."
+    ],
+    "tags": ["bilious vomiting", "malrotation", "volvulus"]
+  },
+  {
+    "id": "ch-021",
+    "discipline": "child-health",
+    "topic": "paediatric-emergencies",
+    "difficulty": "exam",
+    "stem": "A 4-year-old girl weighing 16 kg is brought by ambulance with a generalised tonic-clonic seizure that started 10 minutes ago. Paramedics could not obtain IV access. On arrival she is still seizing, maintaining her airway with oxygen via a face mask, and her blood glucose is 5.8 mmol/L. Two attempts at IV access have failed. What is the most appropriate next step?",
+    "options": [
+      "IV phenytoin 20 mg/kg via intraosseous access as the first drug",
+      "Rectal paracetamol 15 mg/kg",
+      "IM diazepam 0.3 mg/kg",
+      "Wait 10 more minutes, as most seizures stop on their own",
+      "Buccal or intranasal midazolam 0.3 mg/kg (about 5 mg)"
+    ],
+    "answer": 4,
+    "explanation": "A seizure lasting **5 minutes or more** needs treatment, because the longer it lasts the harder it is to stop. **Status epilepticus** is conventionally a seizure over 30 minutes, or repeated seizures without recovery between them.\n\nThe first-line drug is a **benzodiazepine**. Without IV access, give **midazolam by buccal or intranasal route 0.3 mg/kg** or **IM 0.2 mg/kg** (maximum 10 mg). With IV or IO access, give midazolam 0.15 mg/kg. For this 16 kg child, 0.3 × 16 = 4.8 mg, so about **5 mg buccal**. A second benzodiazepine dose can be given after 5 minutes.\n\nIf the seizure continues after two benzodiazepine doses, move to a **second-line agent**, **levetiracetam** or **phenytoin**, via IV or IO access. Always check glucose early; here it is normal.\n\n**Rule:** 5 minutes = midazolam; two benzo doses then levetiracetam or phenytoin.",
+    "whyWrong": [
+      "Phenytoin is second-line, given after benzodiazepines have failed.",
+      "Paracetamol treats fever and does not stop a seizure.",
+      "Diazepam is erratically absorbed IM and should not be given by that route.",
+      "Seizures lasting beyond 5 minutes are unlikely to stop on their own and need treatment.",
+      ""
+    ],
+    "tags": ["status epilepticus", "seizure", "midazolam"]
+  },
+  {
+    "id": "ch-022",
+    "discipline": "child-health",
+    "topic": "paediatric-chronic",
+    "difficulty": "foundation",
+    "stem": "An 18-month-old boy had a generalised seizure lasting 2 minutes at home, during a fever from a viral illness. In the emergency department 1 hour later he is alert, playing and has a normal neurological examination. His temperature is 38.9 °C. It is his first seizure. His parents are frightened and ask what this means for the future. Which statement is most accurate?",
+    "options": [
+      "He needs an EEG and an MRI brain before discharge",
+      "Regular paracetamol whenever he has a fever will prevent further seizures",
+      "About 1 in 3 children will have another febrile seizure",
+      "He should start sodium valproate to prevent recurrence",
+      "He now has a high risk (about 1 in 3) of developing epilepsy"
+    ],
+    "answer": 2,
+    "explanation": "This is a **simple febrile seizure**: a child aged 6 months to 6 years, generalised, under 15 minutes, not repeated within 24 hours, with full recovery and no CNS infection.\n\nKey counselling points for parents:\n- They are common (around 3% of children) and **do not cause brain damage**.\n- **About 30% recur**, more likely if the first was under 18 months or there is a family history.\n- The risk of later **epilepsy is only slightly above the general population** (about 1 to 2%).\n- **Antipyretics do not prevent febrile seizures**. Give them for comfort only.\n- Put the child on their side, time the seizure, and call an ambulance if it lasts more than 5 minutes.\n\nNo EEG, imaging or anticonvulsant is needed for a simple febrile seizure. Look for the source of fever and consider meningitis if the child is under 12 months or is not recovering as expected.\n\n**Rule:** simple febrile seizure = reassure, find the fever source, no tests for the brain.",
+    "whyWrong": [
+      "EEG and imaging are not indicated after a simple febrile seizure with full recovery.",
+      "Antipyretics make the child comfortable but do not prevent febrile seizures.",
+      "",
+      "Anticonvulsants are not recommended; risks outweigh benefits.",
+      "The epilepsy risk is only slightly raised (about 1 to 2%), not 1 in 3."
+    ],
+    "tags": ["febrile seizure", "counselling", "epilepsy"]
+  },
+  {
+    "id": "ch-023",
+    "discipline": "child-health",
+    "topic": "paediatric-chronic",
+    "difficulty": "core",
+    "stem": "A 7-year-old boy with known asthma presents with 1 day of wheeze and cough. He can speak in short sentences, has moderate subcostal recession, a respiratory rate of 34/min and oxygen saturation of 94% in air. He is alert. What is the most appropriate initial bronchodilator treatment?",
+    "options": [
+      "Salbutamol 100 microgram pMDI, 12 puffs via a spacer",
+      "Salbutamol 100 microgram pMDI, 2 puffs via a spacer",
+      "IV magnesium sulfate as the first treatment",
+      "Salbutamol 100 microgram pMDI, 6 puffs sprayed directly into the mouth without a spacer",
+      "Nebulised adrenaline"
+    ],
+    "answer": 0,
+    "explanation": "Acute asthma in children is first graded as **mild, moderate, severe or life-threatening**. Moderate asthma, as here, means some limitation in speech, moderate recession and saturations of 90% or above.\n\nThe mainstay is **inhaled salbutamol via pMDI and spacer**, which is as effective as a nebuliser and has fewer side effects. RCH dosing uses 100 microgram puffs:\n- **Under 6 years: 6 puffs**\n- **6 years and over: 12 puffs**\n\nDoses can be repeated every 20 minutes in the first hour for moderate to severe attacks. Add a short course of **oral prednisolone** for moderate or severe attacks. **IV magnesium** and other IV bronchodilators are reserved for severe or life-threatening asthma that does not respond to initial treatment.\n\nA spacer is essential: without one most of the dose hits the back of the throat.\n\n**Rule:** 6 puffs under 6, 12 puffs from 6, always through a spacer.",
+    "whyWrong": [
+      "",
+      "Two puffs is a reliever dose for mild symptoms at home, too little for a moderate attack.",
+      "Magnesium is an add-on for severe asthma that has not responded to initial treatment, not first-line.",
+      "Without a spacer delivery is poor, and 6 puffs is the dose for under-6s.",
+      "Nebulised adrenaline is used for croup, not asthma."
+    ],
+    "ausPearl": "The National Asthma Council's Australian Asthma Handbook and RCH guidelines standardise pMDI-plus-spacer dosing by age. Every child with asthma should leave with a written asthma action plan, and schools and childcare centres in Australia use it.",
+    "tags": ["asthma", "salbutamol", "spacer"]
+  },
+  {
+    "id": "ch-024",
+    "discipline": "child-health",
+    "topic": "paediatric-chronic",
+    "difficulty": "exam",
+    "stem": "A 7-year-old girl's teacher reports that she 'zones out' many times a day, staring blankly for about 10 seconds, sometimes with eyelid flickering, then carrying on as if nothing happened. She does not fall and has no confusion afterwards. An episode is provoked in clinic by asking her to hyperventilate. EEG shows generalised 3 Hz spike-and-wave discharges. What is the most appropriate first-line treatment?",
+    "options": [
+      "Carbamazepine",
+      "Ethosuximide",
+      "Phenytoin",
+      "Gabapentin",
+      "Vigabatrin"
+    ],
+    "answer": 1,
+    "explanation": "This is **childhood absence epilepsy**, a generalised epilepsy starting at 4 to 10 years, more common in girls. The features are **brief staring spells (5 to 15 seconds), many times a day**, with abrupt onset and offset and no confusion afterwards. They are often mistaken for daydreaming or inattention (ADHD).\n\nThe clinic test is **hyperventilation for 3 minutes**, which triggers an absence in most untreated children. The EEG signature is **generalised 3 Hz spike-and-wave**.\n\n**Ethosuximide** is first-line: in trials it was as effective as valproate with fewer attention side effects. Valproate is an alternative (and covers generalised tonic-clonic seizures as well), but it is used cautiously in girls because of teratogenicity. Lamotrigine is another option.\n\n**Carbamazepine, phenytoin, gabapentin and vigabatrin can worsen absences** and should be avoided.\n\n**Rule:** 3 Hz spike-wave = ethosuximide; carbamazepine makes absences worse.",
+    "whyWrong": [
+      "Carbamazepine can aggravate absence seizures.",
+      "",
+      "Phenytoin is ineffective for absences and may worsen them.",
+      "Gabapentin is ineffective for absences and may worsen them.",
+      "Vigabatrin is used for infantile spasms and can worsen absences."
+    ],
+    "tags": ["absence epilepsy", "eeg", "ethosuximide"]
+  },
+  {
+    "id": "ch-025",
+    "discipline": "child-health",
+    "topic": "immunisation",
+    "difficulty": "core",
+    "stem": "A woman who is 30 weeks pregnant with her first baby asks her GP how she can protect the baby from RSV, as her sister's baby was admitted to hospital with bronchiolitis last winter. She has had her pertussis and influenza vaccines. What is the most appropriate advice?",
+    "options": [
+      "Nothing can be done until the baby is born; the baby will need monthly palivizumab injections",
+      "The influenza vaccine she has already had will also protect the baby against RSV",
+      "A live RSV vaccine will be given to the baby at the 2-month immunisation visit",
+      "She can have a single dose of maternal RSV vaccine now, between 28 and 36 weeks of pregnancy",
+      "RSV vaccines are only for adults over 75 years"
+    ],
+    "answer": 3,
+    "explanation": "**RSV** is the main cause of bronchiolitis and a leading cause of infant hospital admission. Babies in the first 6 months are at highest risk.\n\nAustralia now has two ways to protect newborns:\n1. **Maternal RSV vaccine** (RSVpreF, Abrysvo): a single dose at **28 to 36 weeks** of pregnancy, free under the NIP from 2025. The mother makes antibodies that cross the placenta and protect the baby for the first months of life.\n2. **Nirsevimab** (Beyfortus): a long-acting monoclonal antibody given to the infant, funded through state and territory programs. It is mainly for babies whose mothers were not vaccinated, were vaccinated less than 2 weeks before birth, or who have high-risk conditions.\n\nUsually one or the other is needed, not both. Palivizumab needs monthly injections and has largely been replaced.\n\n**Rule:** pregnancy vaccines = influenza (any trimester), pertussis (20 to 32 weeks), RSV (28 to 36 weeks).",
+    "whyWrong": [
+      "Protection can start in pregnancy; palivizumab has largely been replaced by nirsevimab for high-risk infants.",
+      "Influenza vaccine does not protect against RSV.",
+      "There is no live RSV vaccine on the infant schedule.",
+      "",
+      "Older adults are one target group, but a maternal RSV vaccine is funded in pregnancy."
+    ],
+    "ausPearl": "Since February 2025 the maternal RSV vaccine (Abrysvo) has been free under the National Immunisation Program for pregnant women at 28 to 36 weeks. Nirsevimab for infants is funded through state and territory programs, with eligibility that varies by jurisdiction; Aboriginal and Torres Strait Islander infants are a priority group.",
+    "tags": ["rsv", "pregnancy", "nip"]
+  },
+  {
+    "id": "ch-026",
+    "discipline": "child-health",
+    "topic": "immunisation",
+    "difficulty": "core",
+    "stem": "A 16-week-old baby girl recently arrived in Australia with her family and has had no vaccines. She is well. The practice nurse is planning her catch-up schedule. Which statement about the rotavirus vaccine is correct for this baby?",
+    "options": [
+      "She should receive two doses of rotavirus vaccine 4 weeks apart starting today",
+      "She should receive a single dose of rotavirus vaccine today",
+      "Rotavirus vaccine should be delayed until she is 12 months old",
+      "Rotavirus vaccine is given by intramuscular injection with her other vaccines",
+      "She is too old to start rotavirus vaccine, so it should not be given"
+    ],
+    "answer": 4,
+    "explanation": "Rotavirus vaccine (Rotarix on the NIP) is an **oral live vaccine** given at **2 and 4 months**. It has **strict upper age limits**:\n- **Dose 1 must be given by 14 weeks + 6 days**\n- **Dose 2 must be given by 24 weeks + 6 days**\n\nThese limits exist because the small risk of **intussusception** after rotavirus vaccine is higher when the first dose is given to older infants, whose natural peak for intussusception is closer.\n\nAt 16 weeks this baby is past the limit for dose 1, so **rotavirus vaccine cannot be started**. She should still catch up on all other vaccines (DTPa-hepB-IPV-Hib and pneumococcal) using the catch-up calculator in the Australian Immunisation Handbook.\n\n**Rule:** rotavirus has a closing window: first dose by 15 weeks, second by 25 weeks, or not at all.",
+    "whyWrong": [
+      "Starting rotavirus vaccine after 14 weeks + 6 days is not recommended because of intussusception risk.",
+      "No single catch-up dose is permitted beyond the upper age limit.",
+      "Delaying makes it later still; the vaccine is never given at 12 months.",
+      "Rotavirus vaccine is given orally, not by injection.",
+      ""
+    ],
+    "ausPearl": "The Australian Immunisation Handbook's online catch-up calculator is used for children arriving from overseas. Refugee and migrant children should also be checked for hepatitis B, tuberculosis and other infections as part of their post-arrival health assessment.",
+    "tags": ["rotavirus", "catch-up", "nip"]
+  },
+  {
+    "id": "ch-027",
+    "discipline": "child-health",
+    "topic": "immunisation",
+    "difficulty": "foundation",
+    "stem": "A 12-month-old boy is due for his MMR vaccine. He had an anaphylactic reaction to scrambled egg at 9 months and carries an adrenaline autoinjector. He is otherwise healthy with no immune problems. His mother asks whether the MMR vaccine is safe for him. What is the most appropriate advice?",
+    "options": [
+      "Give MMR as normal in the clinic, with standard post-vaccination observation",
+      "Do not give MMR, as egg allergy is a contraindication",
+      "Give MMR only in hospital after a skin prick test to the vaccine",
+      "Give half the dose now and the rest 30 minutes later",
+      "Delay MMR until he has outgrown his egg allergy"
+    ],
+    "answer": 0,
+    "explanation": "**Egg allergy, including anaphylaxis to egg, is not a contraindication to MMR.** The measles and mumps components are grown in chick embryo fibroblast cultures, not in eggs, and the amount of egg protein is negligible. Large studies show egg-allergic children tolerate MMR safely.\n\nSo MMR (and MMRV at 18 months) is given **in the usual setting with standard 15-minute observation**. No skin testing, split dosing or hospital setting is needed.\n\nThe true contraindications to **live vaccines** like MMR are **anaphylaxis to a previous dose or a vaccine component** (such as neomycin or gelatin), **significant immunocompromise**, and **pregnancy**.\n\nIn Australia, egg-allergic children can also have the influenza vaccine safely in the usual setting.\n\n**Rule:** egg allergy never stops MMR; immunocompromise and pregnancy do.",
+    "whyWrong": [
+      "",
+      "Egg allergy is not a contraindication to MMR.",
+      "Skin testing and hospital administration are not required for egg-allergic children.",
+      "Split dosing is not recommended and is unnecessary.",
+      "Delaying leaves him unprotected against measles for no benefit."
+    ],
+    "ausPearl": "On the NIP, MMR is given at 12 months and MMRV at 18 months. The Australian Immunisation Handbook and ASCIA both state that egg-allergic children can receive MMR and influenza vaccines in the usual setting.",
+    "tags": ["mmr", "egg allergy", "contraindications"]
+  },
+  {
+    "id": "ch-028",
+    "discipline": "child-health",
+    "topic": "immunisation",
+    "difficulty": "core",
+    "stem": "An Aboriginal mother brings her healthy 8-week-old son to an Aboriginal Community Controlled Health Service in Brisbane for his first scheduled vaccines. In addition to the vaccines given to all Australian infants at this visit, which vaccine is he eligible for under the National Immunisation Program?",
+    "options": [
+      "BCG vaccine",
+      "Hepatitis A vaccine",
+      "Meningococcal B vaccine, with prophylactic paracetamol",
+      "Varicella vaccine",
+      "Influenza vaccine"
+    ],
+    "answer": 2,
+    "explanation": "The NIP gives **extra vaccines to Aboriginal and Torres Strait Islander children** because of higher rates of certain infections.\n\n**Meningococcal B vaccine (Bexsero)** is funded for all Aboriginal and Torres Strait Islander infants at **2, 4 and 12 months** (with an extra dose at 6 months for some medical risk conditions). MenB vaccine often causes fever in young children, so **prophylactic paracetamol (15 mg/kg)** is recommended for children under 2 years: the first dose 30 minutes before or at vaccination, then two more doses 6 hours apart.\n\nOther extras to know:\n- **Hepatitis A** at 18 months and 4 years in QLD, NT, SA and WA\n- **Influenza** is free for all children from 6 months to under 5 years, and for Aboriginal and Torres Strait Islander people from 6 months of age\n- An extra pneumococcal dose in some jurisdictions or risk groups\n\nBCG is only for selected high-risk infants, such as some remote communities or travel to high-TB countries.\n\n**Rule:** Aboriginal infant at 2 months = routine vaccines + MenB + paracetamol.",
+    "whyWrong": [
+      "BCG is not routine; it is only for selected high-risk infants.",
+      "Hepatitis A is given at 18 months and 4 years, not at 8 weeks.",
+      "",
+      "Varicella is given as MMRV at 18 months, not at 8 weeks.",
+      "Influenza vaccine can only be given from 6 months of age."
+    ],
+    "ausPearl": "Aboriginal and Torres Strait Islander children get extra NIP vaccines: MenB at 2, 4 and 12 months (nationally), hepatitis A at 18 months and 4 years (QLD, NT, SA, WA), and free influenza vaccine from 6 months. Ask every family whether they identify as Aboriginal or Torres Strait Islander at every immunisation visit, rather than assuming.",
+    "tags": ["menb", "indigenous health", "nip"]
+  },
+  {
+    "id": "ch-029",
+    "discipline": "child-health",
+    "topic": "child-protection",
+    "difficulty": "core",
+    "stem": "A 5-month-old girl is brought to the emergency department by her father, who says she has been crying whenever her right leg is moved since yesterday. He says her leg 'got caught in the cot bars'. She cannot yet roll over. X-ray shows a spiral fracture of the right femoral shaft. There are two small bruises on her upper arm. What is the most appropriate action?",
+    "options": [
+      "Apply a Pavlik harness and discharge with orthopaedic follow-up",
+      "Discharge after explaining that cot injuries are common at this age",
+      "Arrange genetic testing for osteogenesis imperfecta before taking any other steps",
+      "Confront the father about the inconsistent history before examining further",
+      "Admit her, perform a skeletal survey, and make a report to child protection services"
+    ],
+    "answer": 4,
+    "explanation": "The warning signs of **non-accidental injury (NAI)** here are:\n- **A fracture in a non-mobile infant**. She cannot roll, so she cannot generate the force for a femoral spiral fracture.\n- **A history that does not match the injury** (a spiral fracture needs a twisting force).\n- **Delay in presentation**.\n- **Bruising in a non-mobile baby**: 'those who don't cruise rarely bruise'.\n\nThe priorities are **safety and assessment**. **Admit** the child to keep her safe, examine her fully and document it, and arrange a **skeletal survey** (plus CT head and eye examination in infants, since occult head injury is common) and coagulation studies. **Report to the state child protection service**. You do not need proof, only a reasonable suspicion. Involve the hospital child protection team.\n\nConditions such as osteogenesis imperfecta can be looked for as part of the work-up, but they do not delay protecting the child.\n\n**Rule:** a non-mobile baby with a fracture = admit, skeletal survey, report.",
+    "whyWrong": [
+      "Discharge without assessment may return the child to an unsafe environment; Pavlik harnesses are for hip dysplasia.",
+      "Cot injuries do not cause spiral femoral fractures in a non-mobile infant.",
+      "Medical causes are part of the work-up but must not delay safety measures and reporting.",
+      "Confrontation can escalate risk; stay non-judgemental and let child protection services investigate.",
+      ""
+    ],
+    "ausPearl": "Every Australian state and territory legally requires doctors to report a reasonable belief that a child is at risk of significant harm from physical abuse. Reports go to the state child protection authority (for example DCJ in NSW, DFFH in Victoria, Child Safety in QLD), and hospital child protection units support the process.",
+    "tags": ["nai", "fracture", "child protection"]
+  },
+  {
+    "id": "ch-030",
+    "discipline": "child-health",
+    "topic": "child-protection",
+    "difficulty": "exam",
+    "stem": "A GP in Victoria sees a 6-year-old boy with a cough. While examining his chest she notices several linear bruises across his back in different stages of healing. When asked, the boy says quietly that his stepfather 'uses the belt'. His mother, who is present, says he fell off the trampoline. The GP forms a belief that he is being physically abused. Which statement best describes her legal obligation?",
+    "options": [
+      "She must obtain the mother's consent before making any report",
+      "She should gather definite proof of abuse, such as photographs and a confession, before reporting",
+      "She should report only if the bruising is still present at a follow-up visit next week",
+      "She must report her belief to child protection as soon as practicable, and does not need proof or parental consent",
+      "She may choose not to report if she thinks it would damage her relationship with the family"
+    ],
+    "answer": 3,
+    "explanation": "Under **mandatory reporting** laws, doctors in every Australian state and territory must report when they form a **belief on reasonable grounds** that a child has suffered or is likely to suffer **significant harm from physical abuse** (and sexual abuse), and the parents have not protected the child.\n\nKey points:\n- The threshold is **reasonable belief, not proof**. Investigation is the job of child protection services, not the doctor.\n- **Parental consent is not required**, and informing the parents first may put the child at risk.\n- Report **as soon as practicable** after forming the belief.\n- The reporter's identity is **kept confidential**, and a report made **in good faith** is protected from legal or professional liability.\n- **Failing to report is an offence**, and professional duty cannot be traded against the doctor-patient relationship.\n\nHere the child's disclosure, bruises in different stages of healing, a patterned (belt) injury and an inconsistent explanation easily meet the threshold.\n\n**Rule:** belief on reasonable grounds = report now; proof is not your job.",
+    "whyWrong": [
+      "Parental consent is not required, and seeking it can endanger the child.",
+      "The threshold is reasonable belief; gathering proof is the role of child protection and police.",
+      "Delay leaves the child at risk; the obligation is to report as soon as practicable.",
+      "",
+      "Reporting is a legal obligation; concern for the therapeutic relationship is not an exemption."
+    ],
+    "ausPearl": "In Victoria, reports go to Child Protection (DFFH). Every state and territory has mandatory reporting with slightly different categories and thresholds, but doctors are mandated reporters in all of them. Reporting is in good faith, confidential, and protected from liability.",
+    "tags": ["mandatory reporting", "child protection", "medicolegal"]
+  }
+]

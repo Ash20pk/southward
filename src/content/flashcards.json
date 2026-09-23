@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "fc-001",
+    "discipline": "adult-medicine",
+    "topic": "cardiology",
+    "front": "AF stroke risk: which score does the Australian (NHFA/CSANZ 2018) guideline use, and when is anticoagulation recommended?",
+    "back": "**CHA2DS2-VA** (sex removed). Score **≥2 → recommend OAC**; score 1 → consider.\nDOACs preferred over warfarin in non-valvular AF."
+  },
+  {
+    "id": "fc-002",
+    "discipline": "adult-medicine",
+    "topic": "cardiology",
+    "front": "STEMI: what is the time target for primary PCI, and what if it cannot be met?",
+    "back": "Primary PCI if achievable within **120 min of first medical contact**.\nOtherwise **fibrinolysis** (door-to-needle ≤30 min) if no contraindication."
+  },
+  {
+    "id": "fc-003",
+    "discipline": "adult-medicine",
+    "topic": "cardiology",
+    "front": "ECG criteria for ST elevation in STEMI?",
+    "back": "New ST elevation at the J point in **2 contiguous leads**: **≥1 mm in limb leads** or **≥2 mm in precordial leads** (lower thresholds in V2-V3 for women)."
+  },
+  {
+    "id": "fc-004",
+    "discipline": "adult-medicine",
+    "topic": "cardiology",
+    "front": "**Beck's triad** - what are the signs and the diagnosis?",
+    "back": "**Hypotension, raised JVP, muffled heart sounds** → cardiac tamponade.\nAlso look for pulsus paradoxus (SBP fall >10 mmHg on inspiration)."
+  },
+  {
+    "id": "fc-005",
+    "discipline": "adult-medicine",
+    "topic": "cardiology",
+    "front": "Stable SVT not terminated by vagal manoeuvres: first-line drug and dose?",
+    "back": "**Adenosine 6 mg rapid IV push** + saline flush, then 12 mg if needed.\nWarn the patient: brief chest tightness/sense of doom. Avoid in severe asthma."
+  },
+  {
+    "id": "fc-006",
+    "discipline": "adult-medicine",
+    "topic": "cardiology",
+    "front": "HFrEF: what LVEF defines it, and what are the 'four pillars' of therapy?",
+    "back": "**LVEF ≤40%**.\nPillars: **ACEi/ARB or ARNI (sacubitril/valsartan), beta-blocker, MRA (spironolactone/eplerenone), SGLT2 inhibitor**."
+  },
+  {
+    "id": "fc-007",
+    "discipline": "adult-medicine",
+    "topic": "cardiology",
+    "front": "Most common organism in infective endocarditis (native valve, including IV drug use)?",
+    "back": "***Staphylococcus aureus***.\nIVDU classically affects the **tricuspid valve** (right-sided)."
+  },
+  {
+    "id": "fc-008",
+    "discipline": "adult-medicine",
+    "topic": "respiratory",
+    "front": "**CURB-65** - list the five criteria.",
+    "back": "**C**onfusion, **U**rea >7 mmol/L, **R**R ≥30, **B**P (SBP <90 or DBP ≤60), age **≥65**.\n0-1 low, 2 moderate, ≥3 severe."
+  },
+  {
+    "id": "fc-009",
+    "discipline": "adult-medicine",
+    "topic": "respiratory",
+    "front": "**SMART-COP** (used in eTG for CAP): what score predicts need for intensive respiratory or vasopressor support?",
+    "back": "**≥3 points** → high risk of needing IRVS; consider ICU review.\nS: SBP, M: multilobar, A: albumin, R: RR, T: tachycardia, C: confusion, O: oxygen, P: pH."
+  },
+  {
+    "id": "fc-010",
+    "discipline": "adult-medicine",
+    "topic": "respiratory",
+    "front": "eTG: first-line oral antibiotic for **low-severity** community-acquired pneumonia in an adult?",
+    "back": "**Amoxicillin 1 g orally 8-hourly** (usually 5 days).\nDoxycycline if penicillin allergy or atypical cover wanted."
+  },
+  {
+    "id": "fc-011",
+    "discipline": "adult-medicine",
+    "topic": "respiratory",
+    "front": "Wells score for PE: what cut-off changes the pathway?",
+    "back": "**>4 = PE likely → CTPA** (or V/Q).\n**≤4 = PE unlikely → D-dimer**; negative D-dimer excludes PE."
+  },
+  {
+    "id": "fc-012",
+    "discipline": "adult-medicine",
+    "topic": "respiratory",
+    "front": "Spirometry: what confirms COPD?",
+    "back": "**Post-bronchodilator FEV1/FVC <0.7**.\nWhy post: shows airflow limitation that is *not fully reversible*."
+  },
+  {
+    "id": "fc-013",
+    "discipline": "adult-medicine",
+    "topic": "respiratory",
+    "front": "Spirometry: what degree of bronchodilator reversibility supports asthma?",
+    "back": "FEV1 increase of **≥12% AND ≥200 mL** after bronchodilator."
+  },
+  {
+    "id": "fc-014",
+    "discipline": "adult-medicine",
+    "topic": "respiratory",
+    "front": "Target SpO2 in COPD with risk of hypercapnia (TSANZ)?",
+    "back": "**88-92%**.\nMost other acutely unwell adults: 92-96%. Too much O2 → CO2 retention."
+  },
+  {
+    "id": "fc-015",
+    "discipline": "adult-medicine",
+    "topic": "gastroenterology",
+    "front": "Upper GI bleed: which **Glasgow-Blatchford score** allows safe outpatient management?",
+    "back": "**Score 0** (some guidelines accept ≤1).\nUses urea, Hb, SBP, pulse, melaena, syncope, liver disease, heart failure."
+  },
+  {
+    "id": "fc-016",
+    "discipline": "adult-medicine",
+    "topic": "gastroenterology",
+    "front": "Serum-ascites albumin gradient (SAAG): what value indicates portal hypertension?",
+    "back": "**SAAG ≥11 g/L** → portal hypertension (cirrhosis, heart failure, Budd-Chiari).\n<11 g/L → peritoneal causes (malignancy, TB, pancreatitis)."
+  },
+  {
+    "id": "fc-017",
+    "discipline": "adult-medicine",
+    "topic": "gastroenterology",
+    "front": "Ascitic fluid neutrophil count that diagnoses spontaneous bacterial peritonitis?",
+    "back": "**>250 cells/mm³ (0.25 × 10⁹/L)** neutrophils.\nTreat empirically with IV ceftriaxone; albumin reduces renal failure."
+  },
+  {
+    "id": "fc-018",
+    "discipline": "adult-medicine",
+    "topic": "gastroenterology",
+    "front": "First-line serological test for coeliac disease and one key condition for it to be valid?",
+    "back": "**Tissue transglutaminase IgA (tTG-IgA) + total IgA**.\nPatient must be **eating gluten** (IgA deficiency gives a false negative)."
+  },
+  {
+    "id": "fc-019",
+    "discipline": "adult-medicine",
+    "topic": "endocrinology",
+    "front": "Diagnostic criteria for **DKA**?",
+    "back": "**Glucose >11 mmol/L** (or known diabetes) + **ketones ≥3 mmol/L** + **pH <7.3 and/or HCO₃ <15 mmol/L**.\nNote: euglycaemic DKA with SGLT2 inhibitors."
+  },
+  {
+    "id": "fc-020",
+    "discipline": "adult-medicine",
+    "topic": "endocrinology",
+    "front": "Diagnostic thresholds for type 2 diabetes (Australia)?",
+    "back": "**HbA1c ≥6.5% (48 mmol/mol)**, **fasting glucose ≥7.0 mmol/L**, or **2-h OGTT ≥11.1 mmol/L**.\nAsymptomatic: confirm with a repeat test."
+  },
+  {
+    "id": "fc-021",
+    "discipline": "adult-medicine",
+    "topic": "endocrinology",
+    "front": "First-line drug for type 2 diabetes (no contraindication)?",
+    "back": "**Metformin**.\nAvoid if eGFR <30. Add SGLT2i or GLP-1 RA early if CVD, HF or CKD."
+  },
+  {
+    "id": "fc-022",
+    "discipline": "adult-medicine",
+    "topic": "endocrinology",
+    "front": "Conscious adult with hypoglycaemia (BGL <4 mmol/L): first step?",
+    "back": "**15 g fast-acting carbohydrate** (e.g. 150-200 mL juice or 6-7 jelly beans), recheck in 15 min, then long-acting carb.\n'Rule of 15'."
+  },
+  {
+    "id": "fc-023",
+    "discipline": "adult-medicine",
+    "topic": "endocrinology",
+    "front": "Unconscious hypoglycaemia with no IV access: treatment?",
+    "back": "**Glucagon 1 mg IM/SC** (0.5 mg if child <25 kg).\nWith IV access: 10% glucose (or 50% glucose via large vein)."
+  },
+  {
+    "id": "fc-024",
+    "discipline": "adult-medicine",
+    "topic": "endocrinology",
+    "front": "Adrenal crisis: first drug and dose?",
+    "back": "**Hydrocortisone 100 mg IV/IM stat** + IV 0.9% saline.\nDo not delay for cortisol results."
+  },
+  {
+    "id": "fc-025",
+    "discipline": "adult-medicine",
+    "topic": "endocrinology",
+    "front": "Why are SGLT2 inhibitors withheld on 'sick days' and before surgery?",
+    "back": "Risk of **euglycaemic DKA** (ketoacidosis with near-normal glucose).\nWithhold during acute illness/fasting; usually stop 2-3 days before surgery."
+  },
+  {
+    "id": "fc-026",
+    "discipline": "adult-medicine",
+    "topic": "nephrology",
+    "front": "KDIGO **stage 1 AKI** criteria?",
+    "back": "Creatinine rise **≥26.5 µmol/L within 48 h** or **≥1.5× baseline within 7 days**, or urine output **<0.5 mL/kg/h for 6-12 h**."
+  },
+  {
+    "id": "fc-027",
+    "discipline": "adult-medicine",
+    "topic": "nephrology",
+    "front": "Hyperkalaemia with ECG changes: first drug and why?",
+    "back": "**10 mL of 10% calcium gluconate IV** (or calcium chloride).\nStabilises the myocardium; does *not* lower K⁺. Then insulin + glucose, salbutamol."
+  },
+  {
+    "id": "fc-028",
+    "discipline": "adult-medicine",
+    "topic": "nephrology",
+    "front": "Earliest ECG sign of hyperkalaemia?",
+    "back": "**Peaked (tented) T waves**.\nThen PR prolongation, P-wave loss, wide QRS, sine wave."
+  },
+  {
+    "id": "fc-029",
+    "discipline": "adult-medicine",
+    "topic": "nephrology",
+    "front": "Chronic hyponatraemia: maximum safe correction rate?",
+    "back": "**≤8-10 mmol/L in 24 h** (aim lower, ~8, in high-risk: alcohol, malnutrition, hypokalaemia).\nToo fast → osmotic demyelination syndrome."
+  },
+  {
+    "id": "fc-030",
+    "discipline": "adult-medicine",
+    "topic": "nephrology",
+    "front": "Formula for the serum anion gap?",
+    "back": "**AG = Na⁺ − (Cl⁻ + HCO₃⁻)**; normal ~8-16 mmol/L.\nRaised AG causes: MUDPILES (e.g. lactate, ketones, uraemia, toxic alcohols)."
+  },
+  {
+    "id": "fc-031",
+    "discipline": "adult-medicine",
+    "topic": "neurology",
+    "front": "Ischaemic stroke: time window for IV thrombolysis?",
+    "back": "Within **4.5 hours** of onset (or last seen well).\nEndovascular thrombectomy for large-vessel occlusion up to 24 h in selected patients."
+  },
+  {
+    "id": "fc-032",
+    "discipline": "adult-medicine",
+    "topic": "neurology",
+    "front": "Glasgow Coma Scale: maximum score per component, and what total suggests the airway needs securing?",
+    "back": "**E4 V5 M6** (total 3-15).\n**GCS ≤8 → intubate** ('8, intubate')."
+  },
+  {
+    "id": "fc-033",
+    "discipline": "adult-medicine",
+    "topic": "neurology",
+    "front": "Status epilepticus: first-line drug class and when to give it?",
+    "back": "**Benzodiazepine** at 5 min of seizure: **midazolam** IM/buccal/intranasal, or IV midazolam/diazepam. Repeat once.\nSecond-line: levetiracetam, phenytoin or valproate."
+  },
+  {
+    "id": "fc-034",
+    "discipline": "adult-medicine",
+    "topic": "neurology",
+    "front": "Suspected SAH with a normal CT: when should LP be done and what is looked for?",
+    "back": "LP **≥12 hours** after headache onset, looking for **xanthochromia** (bilirubin).\nCT within 6 h of onset is highly sensitive."
+  },
+  {
+    "id": "fc-035",
+    "discipline": "adult-medicine",
+    "topic": "haematology",
+    "front": "Ferritin level that confirms iron deficiency in adults?",
+    "back": "**Ferritin <30 µg/L**.\nFerritin is an acute phase reactant, so it can be falsely normal in inflammation."
+  },
+  {
+    "id": "fc-036",
+    "discipline": "adult-medicine",
+    "topic": "haematology",
+    "front": "Warfarin with major/life-threatening bleeding: reversal?",
+    "back": "**Prothrombinex-VF 50 IU/kg IV + vitamin K 5-10 mg IV**.\nAdd FFP only if Prothrombinex is unavailable."
+  },
+  {
+    "id": "fc-037",
+    "discipline": "adult-medicine",
+    "topic": "haematology",
+    "front": "Specific reversal agent for **dabigatran**?",
+    "back": "**Idarucizumab** (Praxbind), a monoclonal antibody fragment.\nDabigatran is also dialysable."
+  },
+  {
+    "id": "fc-038",
+    "discipline": "adult-medicine",
+    "topic": "haematology",
+    "front": "Antidote for unfractionated heparin?",
+    "back": "**Protamine sulfate**.\nOnly partially reverses enoxaparin (LMWH)."
+  },
+  {
+    "id": "fc-039",
+    "discipline": "adult-medicine",
+    "topic": "infectious-disease",
+    "front": "Suspected sepsis in an adult: target time to first antibiotics?",
+    "back": "**Within 60 minutes** of recognition (sooner if septic shock).\nTake blood cultures first if it causes no delay."
+  },
+  {
+    "id": "fc-040",
+    "discipline": "adult-medicine",
+    "topic": "infectious-disease",
+    "front": "eTG empirical therapy for adult bacterial meningitis?",
+    "back": "**Ceftriaxone 2 g IV 12-hourly + dexamethasone 10 mg IV** (before or with first antibiotic).\nAdd **benzylpenicillin/amoxicillin** for Listeria if >50 y, pregnant, immunocompromised or alcohol dependent."
+  },
+  {
+    "id": "fc-041",
+    "discipline": "adult-medicine",
+    "topic": "infectious-disease",
+    "front": "eTG first-line oral antibiotic for non-severe cellulitis?",
+    "back": "**Cefalexin 500 mg orally 6-hourly** (or flucloxacillin 500 mg 6-hourly).\nMain organisms: *Strep. pyogenes*, *Staph. aureus*."
+  },
+  {
+    "id": "fc-042",
+    "discipline": "adult-medicine",
+    "topic": "infectious-disease",
+    "front": "eTG first-line treatment of acute uncomplicated cystitis in a non-pregnant woman?",
+    "back": "**Trimethoprim 300 mg orally daily for 3 days**.\nAlternatives: cefalexin, nitrofurantoin (5 days)."
+  },
+  {
+    "id": "fc-043",
+    "discipline": "adult-medicine",
+    "topic": "rheumatology",
+    "front": "Synovial fluid crystals: gout vs pseudogout?",
+    "back": "**Gout**: needle-shaped, **negatively** birefringent (monosodium urate).\n**Pseudogout**: rhomboid, **positively** birefringent (CPPD).\nMnemonic: 'P for pseudogout, positive, parallelepiped'."
+  },
+  {
+    "id": "fc-044",
+    "discipline": "adult-medicine",
+    "topic": "rheumatology",
+    "front": "Suspected giant cell arteritis with visual symptoms: first action?",
+    "back": "**Start high-dose corticosteroid immediately** (IV methylprednisolone if visual loss) - do not wait for temporal artery biopsy.\nRisk: permanent blindness."
+  },
+  {
+    "id": "fc-045",
+    "discipline": "adult-medicine",
+    "topic": "rheumatology",
+    "front": "Low-dose colchicine regimen for an acute gout flare?",
+    "back": "**1 mg, then 0.5 mg one hour later** (max 1.5 mg on day 1).\nHigher doses add toxicity (diarrhoea) without benefit."
+  },
+  {
+    "id": "fc-046",
+    "discipline": "adult-medicine",
+    "topic": "dermatology",
+    "front": "Most important prognostic factor for primary cutaneous melanoma?",
+    "back": "**Breslow thickness** (depth in mm).\nAlso screen with ABCDE: Asymmetry, Border, Colour, Diameter >6 mm, Evolving."
+  },
+  {
+    "id": "fc-047",
+    "discipline": "adult-medicine",
+    "topic": "geriatrics",
+    "front": "4AT delirium screen: what score suggests delirium?",
+    "back": "**≥4** → possible delirium (1-3 suggests cognitive impairment).\nItems: alertness, AMT4, attention (months backwards), acute change/fluctuation."
+  },
+  {
+    "id": "fc-048",
+    "discipline": "adult-medicine",
+    "topic": "geriatrics",
+    "front": "Key feature distinguishing delirium from dementia?",
+    "back": "**Acute onset with fluctuating course and inattention** (dementia is insidious, attention usually preserved early).\nDelirium is a medical emergency - find the cause."
+  },
+  {
+    "id": "fc-049",
+    "discipline": "adult-medicine",
+    "topic": "emergency-medicine",
+    "front": "Anaphylaxis: first-line drug, dose and route (adult)?",
+    "back": "**Adrenaline 0.01 mg/kg IM (1 mg/mL, i.e. 1:1000), max 0.5 mg**, into the anterolateral thigh.\nRepeat every 5 min if needed."
+  },
+  {
+    "id": "fc-050",
+    "discipline": "adult-medicine",
+    "topic": "pharmacology",
+    "front": "Paracetamol overdose: what does the Australian nomogram treatment line start at?",
+    "back": "**150 mg/L at 4 hours** post-ingestion.\nAbove the line → **acetylcysteine (NAC)**. Take the level no earlier than 4 h."
+  },
+  {
+    "id": "fc-051",
+    "discipline": "adult-medicine",
+    "topic": "pharmacology",
+    "front": "Antidote for **opioid** toxicity?",
+    "back": "**Naloxone** (e.g. 100 µg IV increments, or 400 µg IM).\nShort half-life - monitor for re-sedation."
+  },
+  {
+    "id": "fc-052",
+    "discipline": "adult-medicine",
+    "topic": "pharmacology",
+    "front": "Tricyclic antidepressant overdose with QRS >100 ms: treatment?",
+    "back": "**Sodium bicarbonate** 1-2 mmol/kg IV (plus hyperventilation if intubated).\nAlkalinisation + sodium load overcome sodium-channel blockade."
+  },
+  {
+    "id": "fc-053",
+    "discipline": "adult-medicine",
+    "topic": "pharmacology",
+    "front": "Antidote for **organophosphate** poisoning?",
+    "back": "**Atropine**, titrated to drying of bronchial secretions.\nCholinergic toxidrome: DUMBELS (diarrhoea, urination, miosis, bronchorrhoea, emesis, lacrimation, salivation)."
+  },
+  {
+    "id": "fc-054",
+    "discipline": "adult-medicine",
+    "topic": "pharmacology",
+    "front": "Antidote for severe **digoxin** toxicity?",
+    "back": "**Digoxin-specific antibody fragments (Digibind/DigiFab)**.\nIndications: life-threatening arrhythmia, K⁺ >5.0 in acute toxicity."
+  },
+  {
+    "id": "fc-055",
+    "discipline": "adult-medicine",
+    "topic": "pharmacology",
+    "front": "Antidote for **methanol or ethylene glycol** poisoning?",
+    "back": "**Fomepizole** or **ethanol** (both block alcohol dehydrogenase) + haemodialysis.\nMethanol → formic acid → blindness."
+  },
+  {
+    "id": "fc-056",
+    "discipline": "adult-surgery",
+    "topic": "general-surgery",
+    "front": "**Charcot's triad** - signs and diagnosis?",
+    "back": "**Fever, RUQ pain, jaundice** → ascending cholangitis.\nAdd **hypotension + confusion** = Reynolds' pentad (septic, needs urgent biliary drainage)."
+  },
+  {
+    "id": "fc-057",
+    "discipline": "adult-surgery",
+    "topic": "general-surgery",
+    "front": "**Murphy's sign** - what is it and what does it suggest?",
+    "back": "Inspiratory arrest on palpation of the RUQ (inflamed gallbladder hits the examining hand).\nSuggests **acute cholecystitis**."
+  },
+  {
+    "id": "fc-058",
+    "discipline": "adult-surgery",
+    "topic": "general-surgery",
+    "front": "**Rovsing's sign**?",
+    "back": "Palpation of the **left iliac fossa causes pain in the right iliac fossa** → acute appendicitis."
+  },
+  {
+    "id": "fc-059",
+    "discipline": "adult-surgery",
+    "topic": "general-surgery",
+    "front": "Bowel dilatation on AXR: the '3-6-9 rule'?",
+    "back": "Upper limits of normal diameter: **small bowel 3 cm, colon 6 cm, caecum 9 cm**."
+  },
+  {
+    "id": "fc-060",
+    "discipline": "adult-surgery",
+    "topic": "general-surgery",
+    "front": "Groin hernia anatomy: where does a femoral hernia sit relative to the pubic tubercle, and why does it matter?",
+    "back": "**Below and lateral** to the pubic tubercle (inguinal = above and medial).\nFemoral hernias have a **high strangulation risk** → repair urgently."
+  },
+  {
+    "id": "fc-061",
+    "discipline": "adult-surgery",
+    "topic": "general-surgery",
+    "front": "**Courvoisier's law**?",
+    "back": "A **palpable, non-tender gallbladder with painless jaundice** is unlikely to be gallstones → suspect **pancreatic head/distal biliary malignancy**."
+  },
+  {
+    "id": "fc-062",
+    "discipline": "adult-surgery",
+    "topic": "trauma",
+    "front": "**Parkland formula** for burns resuscitation?",
+    "back": "**4 mL × weight (kg) × %TBSA** of Hartmann's over 24 h.\n**Half in the first 8 h from time of burn**, rest over 16 h. Count partial + full thickness only."
+  },
+  {
+    "id": "fc-063",
+    "discipline": "adult-surgery",
+    "topic": "trauma",
+    "front": "Adult **rule of nines** for burn area?",
+    "back": "Head 9%, each arm 9%, front trunk 18%, back trunk 18%, each leg 18%, perineum 1%.\nPatient's palm (incl. fingers) ≈ 1%."
+  },
+  {
+    "id": "fc-064",
+    "discipline": "adult-surgery",
+    "topic": "trauma",
+    "front": "Tension pneumothorax: needle decompression site in adults (ATLS 10th ed)?",
+    "back": "**4th/5th intercostal space, just anterior to the mid-axillary line**.\n(2nd ICS mid-clavicular is still used in children.) Clinical diagnosis - do not wait for CXR."
+  },
+  {
+    "id": "fc-065",
+    "discipline": "adult-surgery",
+    "topic": "trauma",
+    "front": "Massive transfusion protocol: target ratio of blood products?",
+    "back": "**1:1:1** - RBC : FFP : platelets (approximately).\nAlso give **tranexamic acid within 3 h** of injury."
+  },
+  {
+    "id": "fc-066",
+    "discipline": "adult-surgery",
+    "topic": "trauma",
+    "front": "Canadian C-spine rule: name the high-risk factors mandating imaging.",
+    "back": "**Age ≥65, dangerous mechanism, or paraesthesias in the extremities**.\nIf absent and a low-risk factor allows, test active rotation 45° left and right."
+  },
+  {
+    "id": "fc-067",
+    "discipline": "adult-surgery",
+    "topic": "orthopaedics",
+    "front": "**Ottawa ankle rules**: when is an ankle X-ray indicated?",
+    "back": "Malleolar pain + any of: bone tenderness at the **posterior edge or tip of the lateral or medial malleolus** (distal 6 cm), or **inability to bear weight for 4 steps** both immediately and in ED."
+  },
+  {
+    "id": "fc-068",
+    "discipline": "adult-surgery",
+    "topic": "orthopaedics",
+    "front": "**Ottawa knee rules**: indications for knee X-ray?",
+    "back": "Any of: **age ≥55**, isolated **patellar tenderness**, **fibular head tenderness**, **unable to flex to 90°**, **unable to bear weight 4 steps**."
+  },
+  {
+    "id": "fc-069",
+    "discipline": "adult-surgery",
+    "topic": "orthopaedics",
+    "front": "FOOSH with anatomical snuffbox tenderness and a normal X-ray: management?",
+    "back": "**Treat as a scaphoid fracture** (immobilise) and re-image (repeat X-ray at 10-14 days, or CT/MRI).\nRisk: avascular necrosis of the proximal pole."
+  },
+  {
+    "id": "fc-070",
+    "discipline": "adult-surgery",
+    "topic": "orthopaedics",
+    "front": "Earliest and most reliable clinical sign of compartment syndrome?",
+    "back": "**Pain out of proportion, worse on passive stretch** of the muscles.\nPulses are often *present*. Treatment: urgent fasciotomy."
+  },
+  {
+    "id": "fc-071",
+    "discipline": "adult-surgery",
+    "topic": "orthopaedics",
+    "front": "Red flags for **cauda equina syndrome**?",
+    "back": "**Saddle anaesthesia, urinary retention/incontinence, faecal incontinence, bilateral sciatica or leg weakness**.\nUrgent MRI and decompression."
+  },
+  {
+    "id": "fc-072",
+    "discipline": "adult-surgery",
+    "topic": "urology",
+    "front": "Suspected testicular torsion: management and critical time window?",
+    "back": "**Urgent surgical exploration** - do not delay for ultrasound.\nSalvage is high if detorsed **within 6 hours**."
+  },
+  {
+    "id": "fc-073",
+    "discipline": "adult-surgery",
+    "topic": "urology",
+    "front": "Ureteric stone size most likely to pass spontaneously?",
+    "back": "**≤5 mm** (most pass).\nUrgent drainage if obstruction + infection (fever), regardless of size."
+  },
+  {
+    "id": "fc-074",
+    "discipline": "adult-surgery",
+    "topic": "vascular",
+    "front": "AAA: diameter threshold for elective repair?",
+    "back": "**≥5.5 cm in men** (≥5.0 cm in women), or growth **>1 cm/year**, or symptomatic."
+  },
+  {
+    "id": "fc-075",
+    "discipline": "adult-surgery",
+    "topic": "vascular",
+    "front": "ABPI value diagnosing peripheral arterial disease?",
+    "back": "**ABPI <0.9**.\n>1.3 = non-compressible (calcified) vessels, e.g. diabetes. Compression bandaging generally avoided if <0.8."
+  },
+  {
+    "id": "fc-076",
+    "discipline": "adult-surgery",
+    "topic": "vascular",
+    "front": "The '6 Ps' of acute limb ischaemia?",
+    "back": "**Pain, Pallor, Pulselessness, Perishingly cold, Paraesthesia, Paralysis**.\nParalysis/paraesthesia = threatened limb → urgent revascularisation."
+  },
+  {
+    "id": "fc-077",
+    "discipline": "adult-surgery",
+    "topic": "ent",
+    "front": "Most common site of anterior epistaxis?",
+    "back": "**Little's area** (Kiesselbach's plexus) on the anterior nasal septum.\nFirst aid: lean forward, pinch the soft nose for 10-15 min."
+  },
+  {
+    "id": "fc-078",
+    "discipline": "adult-surgery",
+    "topic": "ent",
+    "front": "Unilateral trismus, uvula deviated away, 'hot potato' voice after tonsillitis?",
+    "back": "**Peritonsillar abscess (quinsy)**.\nTreat: needle aspiration/incision + IV benzylpenicillin."
+  },
+  {
+    "id": "fc-079",
+    "discipline": "adult-surgery",
+    "topic": "ophthalmology",
+    "front": "Painful red eye, fixed mid-dilated pupil, halos, vomiting: diagnosis and first drugs?",
+    "back": "**Acute angle-closure glaucoma**.\nIV/oral **acetazolamide** + topical **pilocarpine**, timolol; urgent ophthalmology (laser iridotomy)."
+  },
+  {
+    "id": "fc-080",
+    "discipline": "adult-surgery",
+    "topic": "ophthalmology",
+    "front": "Sudden painless monocular vision loss with a **cherry-red spot** at the macula?",
+    "back": "**Central retinal artery occlusion**.\nOphthalmic emergency; check ESR/CRP for giant cell arteritis."
+  },
+  {
+    "id": "fc-081",
+    "discipline": "adult-surgery",
+    "topic": "breast",
+    "front": "What is **triple assessment** of a breast lump?",
+    "back": "**Clinical examination + imaging (mammogram and/or ultrasound) + non-surgical biopsy (core biopsy/FNA)**.\nAll three concordant benign → reassure."
+  },
+  {
+    "id": "fc-082",
+    "discipline": "adult-surgery",
+    "topic": "perioperative",
+    "front": "Specific treatment for **malignant hyperthermia**?",
+    "back": "**Dantrolene IV**, stop volatile agents/suxamethonium, cool the patient.\nEarly signs: rising end-tidal CO₂, masseter rigidity, tachycardia."
+  },
+  {
+    "id": "fc-083",
+    "discipline": "adult-surgery",
+    "topic": "perioperative",
+    "front": "Elective surgery on warfarin (no bridging needed): when to stop it?",
+    "back": "**5 days before surgery**; check INR the day before (aim INR <1.5).\nBridge with LMWH only in high thrombotic risk (e.g. mechanical mitral valve)."
+  },
+  {
+    "id": "fc-084",
+    "discipline": "adult-surgery",
+    "topic": "perioperative",
+    "front": "Adult maintenance fluid and electrolyte requirement per day?",
+    "back": "Water **25-30 mL/kg/day**, **Na⁺ ~1 mmol/kg/day, K⁺ ~1 mmol/kg/day**, glucose 50-100 g/day."
+  },
+  {
+    "id": "fc-085",
+    "discipline": "adult-surgery",
+    "topic": "surgical-oncology",
+    "front": "Hard left supraclavicular lymph node (**Virchow's node**, Troisier's sign) suggests what?",
+    "back": "**Metastatic abdominal malignancy**, classically **gastric cancer**.\nLymph from the abdomen drains via the thoracic duct to the left."
+  },
+  {
+    "id": "fc-086",
+    "discipline": "womens-health",
+    "topic": "antenatal-care",
+    "front": "GDM screening (ADIPS): timing, test and diagnostic thresholds?",
+    "back": "**75 g OGTT at 24-28 weeks**. GDM if any: **fasting ≥5.1, 1-h ≥10.0, 2-h ≥8.5 mmol/L**."
+  },
+  {
+    "id": "fc-087",
+    "discipline": "womens-health",
+    "topic": "antenatal-care",
+    "front": "Folic acid dose to prevent neural tube defects: standard vs high risk?",
+    "back": "Standard: **0.4-0.5 mg daily** from ≥1 month before conception to 12 weeks.\nHigh risk (previous NTD, epilepsy meds, diabetes, BMI >30): **5 mg daily**."
+  },
+  {
+    "id": "fc-088",
+    "discipline": "womens-health",
+    "topic": "antenatal-care",
+    "front": "Routine antenatal anti-D prophylaxis in Australia for RhD-negative women?",
+    "back": "**Anti-D 625 IU IM at 28 and 34 weeks**, plus postpartum if baby is RhD positive, and after sensitising events."
+  },
+  {
+    "id": "fc-089",
+    "discipline": "womens-health",
+    "topic": "antenatal-care",
+    "front": "Low-dose aspirin for pre-eclampsia prevention: dose and timing?",
+    "back": "**Aspirin 150 mg at night**, started **before 16 weeks** (ideally 12-16) in high-risk women, continued to ~36 weeks."
+  },
+  {
+    "id": "fc-090",
+    "discipline": "womens-health",
+    "topic": "antenatal-care",
+    "front": "**Naegele's rule** for estimated date of delivery?",
+    "back": "**LMP + 7 days − 3 months (+1 year)**.\nAssumes a 28-day cycle. Dating ultrasound (CRL in first trimester) is more accurate."
+  },
+  {
+    "id": "fc-091",
+    "discipline": "womens-health",
+    "topic": "antenatal-care",
+    "front": "Recommended iodine supplement in pregnancy and breastfeeding (NHMRC)?",
+    "back": "**150 µg daily**.\nNot for women with pre-existing thyroid disease without advice."
+  },
+  {
+    "id": "fc-092",
+    "discipline": "womens-health",
+    "topic": "antenatal-care",
+    "front": "Where is the uterine fundus at about 20 weeks' gestation?",
+    "back": "**At the umbilicus**.\nAfter 20 weeks, symphysis-fundal height in cm ≈ gestation in weeks (±2 cm)."
+  },
+  {
+    "id": "fc-093",
+    "discipline": "womens-health",
+    "topic": "antenatal-care",
+    "front": "Pertussis vaccine in pregnancy: recommended timing?",
+    "back": "**dTpa between 20 and 32 weeks** of **every** pregnancy.\nMaternal antibodies protect the newborn before their own vaccines."
+  },
+  {
+    "id": "fc-094",
+    "discipline": "womens-health",
+    "topic": "obstetric-emergencies",
+    "front": "Pre-eclampsia: BP and timing criteria?",
+    "back": "**BP ≥140/90 after 20 weeks** + ≥1 of: proteinuria (PCR ≥30 mg/mmol), renal, liver, neuro, haematological involvement, or fetal growth restriction."
+  },
+  {
+    "id": "fc-095",
+    "discipline": "womens-health",
+    "topic": "obstetric-emergencies",
+    "front": "Eclampsia: first-line drug?",
+    "back": "**Magnesium sulfate: 4 g IV loading over 15-20 min, then 1 g/h** infusion for 24 h.\nDefinitive treatment of pre-eclampsia is delivery."
+  },
+  {
+    "id": "fc-096",
+    "discipline": "womens-health",
+    "topic": "obstetric-emergencies",
+    "front": "Magnesium toxicity: first clinical sign and antidote?",
+    "back": "**Loss of patellar reflexes** (then respiratory depression).\nAntidote: **calcium gluconate 10% 10 mL IV**."
+  },
+  {
+    "id": "fc-097",
+    "discipline": "womens-health",
+    "topic": "obstetric-emergencies",
+    "front": "Primary PPH definition and the '4 Ts' of causes?",
+    "back": "**≥500 mL blood loss within 24 h** of birth (≥1000 mL = major).\n**Tone** (most common), **Trauma**, **Tissue**, **Thrombin**."
+  },
+  {
+    "id": "fc-098",
+    "discipline": "womens-health",
+    "topic": "obstetric-emergencies",
+    "front": "First-line uterotonic for PPH due to atony?",
+    "back": "**Oxytocin** (5-10 IU IV/IM, then infusion) + uterine massage.\nNext: ergometrine (avoid in hypertension), carboprost, misoprostol; TXA 1 g IV."
+  },
+  {
+    "id": "fc-099",
+    "discipline": "womens-health",
+    "topic": "obstetric-emergencies",
+    "front": "Shoulder dystocia: first manoeuvre?",
+    "back": "**McRoberts manoeuvre** (hyperflex maternal hips) ± **suprapubic pressure**.\nCall for help. Avoid fundal pressure."
+  },
+  {
+    "id": "fc-100",
+    "discipline": "womens-health",
+    "topic": "obstetric-emergencies",
+    "front": "Antepartum haemorrhage with a known low-lying placenta: what examination must be avoided?",
+    "back": "**Digital vaginal examination** - can provoke massive bleeding in **placenta praevia**.\nPlacenta praevia bleeding is typically painless."
+  },
+  {
+    "id": "fc-101",
+    "discipline": "womens-health",
+    "topic": "labour-postpartum",
+    "front": "**Bishop score**: components and favourable cut-off?",
+    "back": "**Dilatation, effacement (length), station, consistency, position** of cervix.\n**≥8 = favourable** for induction; low score → cervical ripening first."
+  },
+  {
+    "id": "fc-102",
+    "discipline": "womens-health",
+    "topic": "labour-postpartum",
+    "front": "Active management of the third stage: uterotonic and dose?",
+    "back": "**Oxytocin 10 IU IM** with birth of the anterior shoulder or after the baby.\nPlus controlled cord traction. Reduces PPH."
+  },
+  {
+    "id": "fc-103",
+    "discipline": "womens-health",
+    "topic": "labour-postpartum",
+    "front": "Stages of labour?",
+    "back": "**1st**: onset to full dilatation (10 cm). **2nd**: full dilatation to birth of baby. **3rd**: birth of baby to delivery of placenta."
+  },
+  {
+    "id": "fc-104",
+    "discipline": "womens-health",
+    "topic": "gynaecology",
+    "front": "PCOS diagnosis - **Rotterdam criteria**?",
+    "back": "**2 of 3**: oligo/anovulation, clinical/biochemical hyperandrogenism, polycystic ovaries on ultrasound (after excluding other causes).\nUltrasound not recommended within 8 years of menarche."
+  },
+  {
+    "id": "fc-105",
+    "discipline": "womens-health",
+    "topic": "gynaecology",
+    "front": "Postmenopausal bleeding: endometrial thickness threshold on TVUS for biopsy?",
+    "back": "**>4 mm → endometrial sampling** (hysteroscopy + biopsy).\nAlways investigate PMB: endometrial cancer until proven otherwise."
+  },
+  {
+    "id": "fc-106",
+    "discipline": "womens-health",
+    "topic": "contraception-fertility",
+    "front": "Most effective emergency contraception, and its time limit?",
+    "back": "**Copper IUD** within **5 days (120 h)** of UPSI.\nOral: ulipristal 30 mg (up to 120 h) or levonorgestrel 1.5 mg (best within 72 h, up to 96 h)."
+  },
+  {
+    "id": "fc-107",
+    "discipline": "womens-health",
+    "topic": "contraception-fertility",
+    "front": "Definition of infertility?",
+    "back": "No pregnancy after **12 months** of regular unprotected intercourse, or **6 months if the woman is ≥35**."
+  },
+  {
+    "id": "fc-108",
+    "discipline": "womens-health",
+    "topic": "contraception-fertility",
+    "front": "Absolute contraindication to the combined pill (MEC category 4) seen commonly in GP?",
+    "back": "**Migraine with aura** (stroke risk). Others: smoker ≥35 y (≥15/day), history of VTE, BP ≥160/100, <6 weeks postpartum breastfeeding."
+  },
+  {
+    "id": "fc-109",
+    "discipline": "womens-health",
+    "topic": "contraception-fertility",
+    "front": "COCP: how late does a pill have to be to count as 'missed'?",
+    "back": "**>24 hours late** (i.e. >48 h since last pill).\nTake it, continue, use condoms for **7 days** ('7-day rule'); consider EC if missed in week 1."
+  },
+  {
+    "id": "fc-110",
+    "discipline": "womens-health",
+    "topic": "sexual-health",
+    "front": "First-line treatment of uncomplicated chlamydia (Australian STI guidelines)?",
+    "back": "**Doxycycline 100 mg orally 12-hourly for 7 days**.\nPregnancy: azithromycin 1 g single dose. Test of reinfection at 3 months."
+  },
+  {
+    "id": "fc-111",
+    "discipline": "womens-health",
+    "topic": "sexual-health",
+    "front": "First-line treatment of uncomplicated gonorrhoea (Australia)?",
+    "back": "**Ceftriaxone 500 mg IM + azithromycin 1 g orally**, single doses.\nAlways take a culture for resistance testing before treatment."
+  },
+  {
+    "id": "fc-112",
+    "discipline": "womens-health",
+    "topic": "sexual-health",
+    "front": "Treatment of early (primary/secondary/early latent) syphilis?",
+    "back": "**Benzathine benzylpenicillin 2.4 million units (1.8 g) IM**, single dose.\nWatch for Jarisch-Herxheimer reaction."
+  },
+  {
+    "id": "fc-113",
+    "discipline": "womens-health",
+    "topic": "sexual-health",
+    "front": "Outpatient PID regimen (eTG / Australian STI guidelines)?",
+    "back": "**Ceftriaxone 500 mg IM stat + doxycycline 100 mg bd + metronidazole 400 mg bd, for 14 days**."
+  },
+  {
+    "id": "fc-114",
+    "discipline": "womens-health",
+    "topic": "gynae-oncology",
+    "front": "National Cervical Screening Program: test, age range and interval?",
+    "back": "**HPV test every 5 years**, **ages 25-74**.\nSelf-collection is an option for all. Reflex LBC if oncogenic HPV found."
+  },
+  {
+    "id": "fc-115",
+    "discipline": "womens-health",
+    "topic": "gynae-oncology",
+    "front": "Which HPV types cause most cervical cancers?",
+    "back": "**HPV 16 and 18** (~70%).\nGardasil 9 in the school program covers 9 types; one dose for 12-13 year olds."
+  },
+  {
+    "id": "fc-116",
+    "discipline": "child-health",
+    "topic": "neonatology",
+    "front": "**APGAR** score: components and timing?",
+    "back": "**A**ppearance (colour), **P**ulse, **G**rimace (reflex irritability), **A**ctivity (tone), **R**espiration; 0-2 each.\nAt **1 and 5 min** (repeat every 5 min if <7)."
+  },
+  {
+    "id": "fc-117",
+    "discipline": "child-health",
+    "topic": "neonatology",
+    "front": "Neonatal jaundice: which timing is always pathological?",
+    "back": "Jaundice **within the first 24 hours** of life → pathological (e.g. haemolysis) until proven otherwise.\nCheck serum bilirubin urgently."
+  },
+  {
+    "id": "fc-118",
+    "discipline": "child-health",
+    "topic": "neonatology",
+    "front": "Vitamin K at birth: dose and route?",
+    "back": "**1 mg IM** (0.5 mg if <1500 g) prevents vitamin K deficiency bleeding.\nOral alternative requires 3 doses."
+  },
+  {
+    "id": "fc-119",
+    "discipline": "child-health",
+    "topic": "neonatology",
+    "front": "Newborn resuscitation: when do you start chest compressions and at what ratio?",
+    "back": "HR **<60/min despite 30 s of effective ventilation** → compressions **3:1** with ventilation.\nVentilation is the most important intervention."
+  },
+  {
+    "id": "fc-120",
+    "discipline": "child-health",
+    "topic": "neonatology",
+    "front": "Normal newborn weight loss and when birth weight is regained?",
+    "back": "Up to **10%** in the first days; back to birth weight by **10-14 days**."
+  },
+  {
+    "id": "fc-121",
+    "discipline": "child-health",
+    "topic": "growth-development",
+    "front": "Age of social smile, and red flag if absent?",
+    "back": "**~6 weeks**. No smiling by **3 months** → red flag (vision, social, neuro)."
+  },
+  {
+    "id": "fc-122",
+    "discipline": "child-health",
+    "topic": "growth-development",
+    "front": "Age of sitting unsupported?",
+    "back": "**6-8 months**. Not sitting by **9 months** → red flag."
+  },
+  {
+    "id": "fc-123",
+    "discipline": "child-health",
+    "topic": "growth-development",
+    "front": "Walking independently: typical age and red flag?",
+    "back": "Typical **~12 months** (range 9-15).\n**Not walking by 18 months** → red flag (check CK in boys for Duchenne)."
+  },
+  {
+    "id": "fc-124",
+    "discipline": "child-health",
+    "topic": "growth-development",
+    "front": "Speech red flags in a toddler?",
+    "back": "**No single words by 18 months** or **no 2-word phrases by 2 years**.\nAlways check hearing first."
+  },
+  {
+    "id": "fc-125",
+    "discipline": "child-health",
+    "topic": "growth-development",
+    "front": "Infant weight gain milestones?",
+    "back": "Birth weight **doubles by ~5 months**, **triples by 12 months**."
+  },
+  {
+    "id": "fc-126",
+    "discipline": "child-health",
+    "topic": "growth-development",
+    "front": "Pincer grip: typical age?",
+    "back": "**9-10 months** (fine pincer by ~12 months).\nHand preference before 12 months is a red flag (possible hemiplegia)."
+  },
+  {
+    "id": "fc-127",
+    "discipline": "child-health",
+    "topic": "paediatric-infections",
+    "front": "Croup: first-line drug and dose?",
+    "back": "**Oral dexamethasone 0.15 mg/kg** (or prednisolone 1 mg/kg).\nSevere (stridor at rest, distress): **nebulised adrenaline** 1:1000."
+  },
+  {
+    "id": "fc-128",
+    "discipline": "child-health",
+    "topic": "paediatric-infections",
+    "front": "Bronchiolitis in infants: most common cause and management?",
+    "back": "**RSV**. Supportive: oxygen if SpO₂ <90-92%, feeds/NG hydration.\n**No** salbutamol, steroids or antibiotics."
+  },
+  {
+    "id": "fc-129",
+    "discipline": "child-health",
+    "topic": "paediatric-infections",
+    "front": "Kawasaki disease: diagnostic criteria and treatment?",
+    "back": "**Fever ≥5 days + ≥4 of 5**: conjunctivitis, mucosal changes, cervical lymphadenopathy, rash, extremity changes.\nTreat: **IVIG + aspirin**; echo for coronary aneurysm."
+  },
+  {
+    "id": "fc-130",
+    "discipline": "child-health",
+    "topic": "paediatric-infections",
+    "front": "Pathognomonic early sign of measles?",
+    "back": "**Koplik spots** - white spots on the buccal mucosa, before the rash.\nPrecede maculopapular rash that spreads head to toe. Notify immediately."
+  },
+  {
+    "id": "fc-131",
+    "discipline": "child-health",
+    "topic": "paediatric-infections",
+    "front": "Acute otitis media in a well child >6 months: initial approach?",
+    "back": "**Analgesia and watchful waiting** (24-48 h); most resolve.\nIf antibiotics are needed: **amoxicillin** (eTG)."
+  },
+  {
+    "id": "fc-132",
+    "discipline": "child-health",
+    "topic": "paediatric-emergencies",
+    "front": "APLS formula to estimate weight in a child aged 1-10 years?",
+    "back": "**Weight (kg) = (age + 4) × 2**.\nUse actual weight or length-based tape when available."
+  },
+  {
+    "id": "fc-133",
+    "discipline": "child-health",
+    "topic": "paediatric-emergencies",
+    "front": "Holliday-Segar maintenance fluid rate ('4-2-1 rule')?",
+    "back": "**4 mL/kg/h** for first 10 kg + **2 mL/kg/h** for next 10 kg + **1 mL/kg/h** for each kg above 20.\nUse isotonic fluid (0.9% saline + 5% glucose)."
+  },
+  {
+    "id": "fc-134",
+    "discipline": "child-health",
+    "topic": "paediatric-emergencies",
+    "front": "Fluid bolus volume in a shocked child?",
+    "back": "**10-20 mL/kg of 0.9% saline**, reassess after each bolus.\nUse 10 mL/kg in suspected cardiac disease, DKA or trauma."
+  },
+  {
+    "id": "fc-135",
+    "discipline": "child-health",
+    "topic": "paediatric-emergencies",
+    "front": "Pyloric stenosis: classic age and blood gas?",
+    "back": "Projectile non-bilious vomiting at **2-8 weeks** ('hungry vomiter').\n**Hypochloraemic, hypokalaemic metabolic alkalosis**."
+  },
+  {
+    "id": "fc-136",
+    "discipline": "child-health",
+    "topic": "paediatric-emergencies",
+    "front": "Intussusception: classic triad?",
+    "back": "**Colicky pain (drawing up legs), vomiting, 'redcurrant jelly' stool**, ± sausage-shaped mass; usually 6-18 months.\nUS shows target sign; air enema reduction."
+  },
+  {
+    "id": "fc-137",
+    "discipline": "child-health",
+    "topic": "paediatric-emergencies",
+    "front": "Bilious (green) vomiting in a neonate: what must be excluded urgently?",
+    "back": "**Malrotation with volvulus** - surgical emergency.\nUrgent upper GI contrast study."
+  },
+  {
+    "id": "fc-138",
+    "discipline": "child-health",
+    "topic": "immunisation",
+    "front": "What is given at birth on the Australian NIP?",
+    "back": "**Hepatitis B vaccine** (within 7 days, ideally 24 h).\nPlus vitamin K (not a vaccine)."
+  },
+  {
+    "id": "fc-139",
+    "discipline": "child-health",
+    "topic": "immunisation",
+    "front": "NIP: which vaccines are given at 12 months?",
+    "back": "**MMR, MenACWY and pneumococcal conjugate booster** (+ Men B for Aboriginal and Torres Strait Islander children)."
+  },
+  {
+    "id": "fc-140",
+    "discipline": "child-health",
+    "topic": "immunisation",
+    "front": "NIP: which vaccines are given at 18 months?",
+    "back": "**MMRV, DTPa and Hib**."
+  },
+  {
+    "id": "fc-141",
+    "discipline": "child-health",
+    "topic": "immunisation",
+    "front": "Is egg allergy a contraindication to MMR or influenza vaccine?",
+    "back": "**No** - both can be given as usual, including in anaphylaxis to egg."
+  },
+  {
+    "id": "fc-142",
+    "discipline": "child-health",
+    "topic": "paediatric-chronic",
+    "front": "Cystic fibrosis: sweat chloride level that confirms the diagnosis?",
+    "back": "**≥60 mmol/L**.\nPicked up on newborn screening (IRT on heel prick)."
+  },
+  {
+    "id": "fc-143",
+    "discipline": "child-health",
+    "topic": "paediatric-chronic",
+    "front": "Simple febrile convulsion: age range and features?",
+    "back": "**6 months to 5 years**, generalised, **<15 min**, no recurrence in 24 h, full recovery within 1 h.\nNo routine EEG or anticonvulsants."
+  },
+  {
+    "id": "fc-144",
+    "discipline": "child-health",
+    "topic": "child-protection",
+    "front": "Bruising in which infants is a red flag for abuse?",
+    "back": "**Any bruise in a non-mobile infant** ('those who don't cruise rarely bruise').\nAlso bruises on ears, neck, torso, buttocks (TEN-4)."
+  },
+  {
+    "id": "fc-145",
+    "discipline": "child-health",
+    "topic": "child-protection",
+    "front": "Which fractures are highly specific for non-accidental injury?",
+    "back": "**Posterior rib fractures** and **classic metaphyseal (corner/bucket-handle) lesions** in infants.\nSkeletal survey in suspected abuse <2 years."
+  },
+  {
+    "id": "fc-146",
+    "discipline": "mental-health",
+    "topic": "mood-disorders",
+    "front": "DSM-5 major depressive episode: number of symptoms and duration?",
+    "back": "**≥5 of 9 symptoms for ≥2 weeks**, including **low mood or anhedonia**.\nMnemonic SIG E CAPS."
+  },
+  {
+    "id": "fc-147",
+    "discipline": "mental-health",
+    "topic": "mood-disorders",
+    "front": "First-line drug class for moderate-severe depression in adults?",
+    "back": "**SSRI** (e.g. sertraline, escitalopram).\nTakes **2-4 weeks** for effect; continue **6-12 months** after remission."
+  },
+  {
+    "id": "fc-148",
+    "discipline": "mental-health",
+    "topic": "mood-disorders",
+    "front": "Lithium: usual therapeutic range, and level associated with toxicity?",
+    "back": "Maintenance **~0.6-0.8 mmol/L** (12-h post-dose).\nToxicity likely **>1.5 mmol/L**: coarse tremor, ataxia, confusion, vomiting."
+  },
+  {
+    "id": "fc-149",
+    "discipline": "mental-health",
+    "topic": "mood-disorders",
+    "front": "Serotonin syndrome: hallmark signs?",
+    "back": "**Clonus (inducible/ocular), hyperreflexia, agitation, hyperthermia**, diaphoresis, diarrhoea (Hunter criteria).\nOnset within 24 h of a new/added serotonergic drug."
+  },
+  {
+    "id": "fc-150",
+    "discipline": "mental-health",
+    "topic": "mood-disorders",
+    "front": "Which common drugs raise lithium levels?",
+    "back": "**NSAIDs, ACE inhibitors/ARBs and thiazide diuretics**; also dehydration.\nMnemonic: 'NAT raises Li'."
+  },
+  {
+    "id": "fc-151",
+    "discipline": "mental-health",
+    "topic": "psychosis",
+    "front": "When is clozapine indicated in schizophrenia?",
+    "back": "**Treatment resistance**: failure of **≥2 antipsychotics** at adequate dose and duration.\nOnly drug with proven benefit here; also reduces suicide."
+  },
+  {
+    "id": "fc-152",
+    "discipline": "mental-health",
+    "topic": "psychosis",
+    "front": "Clozapine: key early serious adverse effects to monitor?",
+    "back": "**Agranulocytosis** (weekly FBC for 18 weeks, then monthly) and **myocarditis** (troponin + CRP weekly for first 4 weeks).\nAlso constipation (ileus), seizures."
+  },
+  {
+    "id": "fc-153",
+    "discipline": "mental-health",
+    "topic": "psychosis",
+    "front": "**Neuroleptic malignant syndrome** - features and first step?",
+    "back": "**Lead-pipe rigidity, hyperthermia, autonomic instability, altered mental state, very high CK**; develops over days.\n**Stop the antipsychotic**, supportive care; dantrolene/bromocriptine."
+  },
+  {
+    "id": "fc-154",
+    "discipline": "mental-health",
+    "topic": "psychosis",
+    "front": "DSM-5 schizophrenia: minimum duration of illness?",
+    "back": "**6 months** of disturbance incl. **≥1 month of active symptoms**.\n<1 month = brief psychotic disorder; 1-6 months = schizophreniform."
+  },
+  {
+    "id": "fc-155",
+    "discipline": "mental-health",
+    "topic": "anxiety-disorders",
+    "front": "Generalised anxiety disorder: minimum duration in DSM-5?",
+    "back": "Excessive worry more days than not for **≥6 months**.\nFirst-line: **CBT**; drug: SSRI/SNRI."
+  },
+  {
+    "id": "fc-156",
+    "discipline": "mental-health",
+    "topic": "anxiety-disorders",
+    "front": "Why avoid benzodiazepines as long-term treatment of anxiety?",
+    "back": "**Tolerance, dependence and withdrawal**, falls and cognitive impairment.\nUse only short term (≤2-4 weeks)."
+  },
+  {
+    "id": "fc-157",
+    "discipline": "mental-health",
+    "topic": "substance-use",
+    "front": "What is an Australian **standard drink**?",
+    "back": "**10 g of pure alcohol**.\nNHMRC 2020: **≤10 standard drinks/week and ≤4 on any one day** for healthy adults."
+  },
+  {
+    "id": "fc-158",
+    "discipline": "mental-health",
+    "topic": "substance-use",
+    "front": "**Wernicke's encephalopathy** - classic triad?",
+    "back": "**Confusion, ophthalmoplegia (nystagmus), ataxia** - but full triad is rare.\nGive **parenteral thiamine before glucose**."
+  },
+  {
+    "id": "fc-159",
+    "discipline": "mental-health",
+    "topic": "substance-use",
+    "front": "Alcohol withdrawal: first-line drug and scoring tool?",
+    "back": "**Diazepam**, dosed by withdrawal scale (**CIWA-Ar** or AWS).\nSeizures 12-48 h; delirium tremens 48-72 h."
+  },
+  {
+    "id": "fc-160",
+    "discipline": "mental-health",
+    "topic": "substance-use",
+    "front": "Two main opioid agonist treatments for opioid dependence in Australia?",
+    "back": "**Methadone** and **buprenorphine** (± naloxone; also long-acting depot injection).\nBuprenorphine has a ceiling on respiratory depression."
+  },
+  {
+    "id": "fc-161",
+    "discipline": "mental-health",
+    "topic": "child-adolescent-psych",
+    "front": "**HEADSSS** psychosocial assessment - what does it cover?",
+    "back": "**H**ome, **E**ducation/employment, **A**ctivities, **D**rugs, **S**exuality, **S**uicide/mood, **S**afety.\nInterview the adolescent alone for part of the visit."
+  },
+  {
+    "id": "fc-162",
+    "discipline": "mental-health",
+    "topic": "child-adolescent-psych",
+    "front": "First-line medication class for ADHD in children?",
+    "back": "**Stimulants** - methylphenidate or dexamfetamine (lisdexamfetamine).\nMonitor height, weight, BP, HR, appetite and sleep."
+  },
+  {
+    "id": "fc-163",
+    "discipline": "mental-health",
+    "topic": "child-adolescent-psych",
+    "front": "SSRI warning specific to young people under 25?",
+    "back": "Possible **increase in suicidal thinking early in treatment**.\nFluoxetine is first-line in adolescents; review closely in first weeks."
+  },
+  {
+    "id": "fc-164",
+    "discipline": "mental-health",
+    "topic": "psych-emergencies",
+    "front": "Acutely agitated patient: preferred first route of sedation?",
+    "back": "**Verbal de-escalation, then oral medication** (e.g. diazepam, olanzapine) before IM.\nLeast restrictive option first."
+  },
+  {
+    "id": "fc-165",
+    "discipline": "mental-health",
+    "topic": "psych-emergencies",
+    "front": "Strongest single risk factor for completed suicide?",
+    "back": "**Previous suicide attempt** (self-harm).\nOthers: male, older age, mental illness, substance use, access to means, social isolation."
+  },
+  {
+    "id": "fc-166",
+    "discipline": "mental-health",
+    "topic": "mental-health-law",
+    "front": "The four elements of decision-making capacity?",
+    "back": "Ability to **understand** information, **retain** it, **use/weigh** it, and **communicate** a decision.\nCapacity is decision-specific and presumed in adults."
+  },
+  {
+    "id": "fc-167",
+    "discipline": "mental-health",
+    "topic": "mental-health-law",
+    "front": "General criteria for involuntary treatment under Australian Mental Health Acts?",
+    "back": "**Mental illness + serious risk of harm (self/others) or deterioration + no less restrictive option** available (± lacking capacity, by state).\nPeriodic review by a tribunal."
+  },
+  {
+    "id": "fc-168",
+    "discipline": "mental-health",
+    "topic": "old-age-psych",
+    "front": "Why avoid antipsychotics for behavioural symptoms in dementia where possible?",
+    "back": "Increased **stroke and mortality** risk.\nTry non-drug approaches first; if used, lowest dose, shortest time (risperidone is TGA-approved)."
+  },
+  {
+    "id": "fc-169",
+    "discipline": "mental-health",
+    "topic": "old-age-psych",
+    "front": "First-line drug class for mild-moderate Alzheimer's dementia?",
+    "back": "**Acetylcholinesterase inhibitors** - donepezil, rivastigmine, galantamine.\nMemantine for moderate-severe."
+  },
+  {
+    "id": "fc-170",
+    "discipline": "mental-health",
+    "topic": "old-age-psych",
+    "front": "Which dementia is associated with visual hallucinations, fluctuating cognition and parkinsonism?",
+    "back": "**Dementia with Lewy bodies**.\nVery sensitive to antipsychotics (severe reactions) - avoid."
+  },
+  {
+    "id": "fc-171",
+    "discipline": "population-health",
+    "topic": "ethics-law",
+    "front": "Australian case that set the standard for disclosure of **material risks**?",
+    "back": "**Rogers v Whitaker (1992)**: doctors must disclose risks a reasonable patient would find significant, *and* risks this particular patient would.\nRisk: sympathetic ophthalmia (1 in 14,000)."
+  },
+  {
+    "id": "fc-172",
+    "discipline": "population-health",
+    "topic": "ethics-law",
+    "front": "What is **Gillick competence**?",
+    "back": "A minor can consent to treatment if they have **sufficient understanding and maturity** to fully understand what is proposed.\nAssessed per decision."
+  },
+  {
+    "id": "fc-173",
+    "discipline": "population-health",
+    "topic": "ethics-law",
+    "front": "The four principles of medical ethics?",
+    "back": "**Autonomy, beneficence, non-maleficence, justice**."
+  },
+  {
+    "id": "fc-174",
+    "discipline": "population-health",
+    "topic": "ethics-law",
+    "front": "What is **open disclosure**?",
+    "back": "Open discussion with a patient/family **after an adverse event**: acknowledgement, apology/expression of regret, facts, consequences, and steps to prevent recurrence (national framework)."
+  },
+  {
+    "id": "fc-175",
+    "discipline": "population-health",
+    "topic": "ethics-law",
+    "front": "When must a practitioner make a **mandatory notification** to AHPRA about another practitioner?",
+    "back": "Reasonable belief of **notifiable conduct**: practising while intoxicated, sexual misconduct, impairment placing the public at substantial risk, or significant departure from accepted standards."
+  },
+  {
+    "id": "fc-176",
+    "discipline": "population-health",
+    "topic": "epidemiology-biostats",
+    "front": "Formula for **sensitivity**?",
+    "back": "**TP / (TP + FN)** - proportion of people *with* disease who test positive.\n'SnNOut': a sensitive test, when Negative, rules Out."
+  },
+  {
+    "id": "fc-177",
+    "discipline": "population-health",
+    "topic": "epidemiology-biostats",
+    "front": "Formula for **specificity**?",
+    "back": "**TN / (TN + FP)** - proportion of people *without* disease who test negative.\n'SpPIn': a specific test, when Positive, rules In."
+  },
+  {
+    "id": "fc-178",
+    "discipline": "population-health",
+    "topic": "epidemiology-biostats",
+    "front": "Formula for **positive predictive value**, and what does it depend on?",
+    "back": "**TP / (TP + FP)**.\nDepends on **prevalence**: higher prevalence → higher PPV."
+  },
+  {
+    "id": "fc-179",
+    "discipline": "population-health",
+    "topic": "epidemiology-biostats",
+    "front": "Formula for **number needed to treat**?",
+    "back": "**NNT = 1 / ARR** (absolute risk reduction = control event rate − treatment event rate)."
+  },
+  {
+    "id": "fc-180",
+    "discipline": "population-health",
+    "topic": "epidemiology-biostats",
+    "front": "Incidence vs prevalence?",
+    "back": "**Incidence** = new cases over a period / population at risk.\n**Prevalence** = all existing cases at a point in time. Prevalence ≈ incidence × duration."
+  },
+  {
+    "id": "fc-181",
+    "discipline": "population-health",
+    "topic": "epidemiology-biostats",
+    "front": "Which study design gives an **odds ratio** and suits rare diseases?",
+    "back": "**Case-control study**.\nCohort studies give relative risk and suit rare exposures."
+  },
+  {
+    "id": "fc-182",
+    "discipline": "population-health",
+    "topic": "screening-prevention",
+    "front": "National Bowel Cancer Screening Program: test, ages and interval?",
+    "back": "**iFOBT every 2 years**, kits mailed at **50-74**; ages **45-49 can request** a kit (since July 2024).\nPositive → colonoscopy."
+  },
+  {
+    "id": "fc-183",
+    "discipline": "population-health",
+    "topic": "screening-prevention",
+    "front": "BreastScreen Australia: target age and interval?",
+    "back": "**Mammogram every 2 years, ages 50-74** (women 40+ are eligible)."
+  },
+  {
+    "id": "fc-184",
+    "discipline": "population-health",
+    "topic": "screening-prevention",
+    "front": "National Lung Cancer Screening Program (from July 2025): who is eligible?",
+    "back": "Age **50-70**, no symptoms, **≥30 pack-years**, and currently smoking or **quit within 10 years**.\nLow-dose CT every 2 years."
+  },
+  {
+    "id": "fc-185",
+    "discipline": "population-health",
+    "topic": "screening-prevention",
+    "front": "Australian CVD risk calculator (2023): ages for routine assessment?",
+    "back": "**45-79** in the general population; from **30** for **Aboriginal and Torres Strait Islander people**.\nHigh risk = **≥10% 5-year risk**."
+  },
+  {
+    "id": "fc-186",
+    "discipline": "population-health",
+    "topic": "screening-prevention",
+    "front": "**Wilson-Jungner** criteria - name the core idea.",
+    "back": "Screen only when: condition is an **important** problem, has a **latent/early stage**, a **suitable acceptable test** exists, **effective treatment** exists, and it is **cost-effective**."
+  },
+  {
+    "id": "fc-187",
+    "discipline": "population-health",
+    "topic": "indigenous-health",
+    "front": "Annual health check for Aboriginal and Torres Strait Islander people: which MBS item?",
+    "back": "**MBS item 715**, available every 9-12 months for all ages.\nAsk every patient whether they identify as Aboriginal and/or Torres Strait Islander."
+  },
+  {
+    "id": "fc-188",
+    "discipline": "population-health",
+    "topic": "indigenous-health",
+    "front": "Acute rheumatic fever: standard secondary prophylaxis?",
+    "back": "**Benzathine benzylpenicillin G IM every 28 days** (every 21 days in selected high-risk).\nDuration: at least 10 years after last ARF, or to age 21 (longer if carditis)."
+  },
+  {
+    "id": "fc-189",
+    "discipline": "population-health",
+    "topic": "indigenous-health",
+    "front": "Diagnostic criteria used for acute rheumatic fever?",
+    "back": "**Jones criteria** (Australian modified: separate high-risk and low-risk population criteria).\nMajor: carditis, polyarthritis (or mono/polyarthralgia in high-risk), chorea, erythema marginatum, subcutaneous nodules."
+  },
+  {
+    "id": "fc-190",
+    "discipline": "population-health",
+    "topic": "notifiable-diseases",
+    "front": "Which diseases must be notified urgently by **phone on clinical suspicion** (examples)?",
+    "back": "E.g. **measles, meningococcal disease, diphtheria, botulism, rabies/ABLV, cholera**.\nDon't wait for lab confirmation."
+  },
+  {
+    "id": "fc-191",
+    "discipline": "population-health",
+    "topic": "notifiable-diseases",
+    "front": "Abattoir worker with fever, headache and hepatitis: which notifiable zoonosis?",
+    "back": "**Q fever** (*Coxiella burnetii*).\nVaccine (Q-VAX) available for at-risk workers after skin/serology pre-testing."
+  },
+  {
+    "id": "fc-192",
+    "discipline": "population-health",
+    "topic": "notifiable-diseases",
+    "front": "Bat scratch or bite in Australia: what post-exposure management?",
+    "back": "Wash wound 15 min with soap and water, then **rabies vaccine ± rabies immunoglobulin** (Australian bat lyssavirus).\nNotify public health."
+  },
+  {
+    "id": "fc-193",
+    "discipline": "population-health",
+    "topic": "australian-healthcare-system",
+    "front": "Which scheme subsidises prescription medicines in Australia?",
+    "back": "**Pharmaceutical Benefits Scheme (PBS)**.\nMedicare (MBS) subsidises doctor services; RPBS for veterans."
+  },
+  {
+    "id": "fc-194",
+    "discipline": "population-health",
+    "topic": "australian-healthcare-system",
+    "front": "Entry point for government-funded aged care services?",
+    "back": "**My Aged Care**, with assessment by the **aged care assessment** service (ACAT/ACAS).\nNDIS covers disability supports for people under 65."
+  },
+  {
+    "id": "fc-195",
+    "discipline": "population-health",
+    "topic": "australian-healthcare-system",
+    "front": "What is **bulk billing**?",
+    "back": "The doctor accepts the **Medicare benefit as full payment** - no out-of-pocket cost for the patient."
+  },
+  {
+    "id": "fc-196",
+    "discipline": "population-health",
+    "topic": "occupational-health",
+    "front": "Mesothelioma: main occupational cause?",
+    "back": "**Asbestos** exposure, often **decades** earlier (latency 20-40+ years).\nNotifiable to the Australian Mesothelioma Registry."
+  },
+  {
+    "id": "fc-197",
+    "discipline": "population-health",
+    "topic": "occupational-health",
+    "front": "Why was **engineered stone** banned in Australia from 1 July 2024?",
+    "back": "Its high crystalline silica content causes **accelerated silicosis** in stone benchtop workers."
+  },
+  {
+    "id": "fc-198",
+    "discipline": "population-health",
+    "topic": "occupational-health",
+    "front": "Audiogram pattern in noise-induced hearing loss?",
+    "back": "Bilateral sensorineural loss with a **notch at 4 kHz** (3-6 kHz).\nPresbycusis is a downward slope at high frequencies."
+  },
+  {
+    "id": "fc-199",
+    "discipline": "population-health",
+    "topic": "occupational-health",
+    "front": "Workplace injury: which certificate does the GP complete in Australia?",
+    "back": "A state-based **workers' compensation certificate of capacity** (focus on what the worker *can* do).\nSchemes are run by each state/territory."
+  },
+  {
+    "id": "fc-200",
+    "discipline": "population-health",
+    "topic": "occupational-health",
+    "front": "Hierarchy of hazard controls (most to least effective)?",
+    "back": "**Elimination → substitution → isolation → engineering controls → administrative controls → PPE**."
+  }
+]

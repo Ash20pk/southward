@@ -1,0 +1,182 @@
+[
+  {
+    "id": "aus-01",
+    "category": "Healthcare system",
+    "title": "Medicare and bulk billing",
+    "body": "**Medicare** is Australia's universal public health insurance, funded through tax and the Medicare levy. Every citizen and permanent resident gets a Medicare card.\n\nWhat it covers:\n- **Free treatment as a public patient in public hospitals** (including emergency departments).\n- A rebate for out-of-hospital services listed on the **Medicare Benefits Schedule (MBS)**: GP visits, specialist visits (with a referral), pathology and imaging.\n\n**Bulk billing** means the doctor accepts the Medicare rebate as full payment, so the patient pays nothing. If a practice does not bulk bill, the patient pays the fee and gets part of it back; the difference is the **gap**.\n\nEach MBS service has an **item number** (e.g. standard GP consults, health assessments). Doctors bill under their own **provider number**, which is tied to a location.\n\nTemporary visitors and many international students do not have Medicare and use private overseas student health cover instead, so always check before ordering expensive tests.\n\nFor an Indian graduate: think of it as a universal system where the GP clinic, not the hospital OPD, is the front door."
+  },
+  {
+    "id": "aus-02",
+    "category": "Prescribing",
+    "title": "The PBS and authority scripts",
+    "body": "The **Pharmaceutical Benefits Scheme (PBS)** subsidises listed medicines so patients pay a capped **co-payment** per script. Concession card holders pay much less, and a yearly **safety net** reduces costs further for heavy users.\n\nMedicines can be listed as:\n- **Unrestricted**: any indication.\n- **Restricted benefit**: subsidised only for specified indications.\n- **Authority required**: the prescriber must get approval, either by writing a **streamlined authority code** on the script or by requesting approval online or by phone (for expensive drugs like biologics).\n\nIf a patient does not meet the criteria, you can still prescribe the drug as a **private script**, but they pay the full price. Writing a PBS script for a non-PBS indication is not allowed.\n\nPrescriptions can be paper or **electronic** (a token sent by SMS or email). Scripts specify quantity and number of repeats.\n\nThe **PBS Schedule** (pbs.gov.au) tells you exactly what is listed and under what conditions. Check it before prescribing an unfamiliar drug."
+  },
+  {
+    "id": "aus-03",
+    "category": "Healthcare system",
+    "title": "The GP as gatekeeper, and referrals",
+    "body": "In Australia, the **general practitioner** is the entry point to almost all non-emergency care. Patients do not walk straight in to see a cardiologist as they might in India.\n\n- To claim a Medicare rebate for a specialist visit, the patient needs a **written referral**.\n- A GP referral to a specialist is usually valid for **12 months** (or indefinitely if the GP states so, for chronic conditions). A specialist-to-specialist referral is valid for **3 months**.\n- A good referral letter includes the question you want answered, relevant history, medications, allergies and results.\n\nGPs manage a very wide scope: chronic disease, mental health, antenatal shared care, minor procedures, skin checks and palliative care. Continuity with a regular GP or practice is encouraged (for example through **MyMedicare** voluntary registration).\n\nIn the AMC exam, \"refer to a specialist\" is rarely the full answer. Examiners want to see what the GP does first: history, examination, initial investigations, safety-netting and follow-up."
+  },
+  {
+    "id": "aus-04",
+    "category": "Prescribing",
+    "title": "eTG and AMH: the prescribing references",
+    "body": "**Therapeutic Guidelines (eTG complete)** is the standard Australian reference for what to prescribe. Most hospitals and many practices subscribe. Its **Antibiotic** guideline in particular defines empirical antibiotic choices across the country, and AMC answers generally follow it.\n\nThe **Australian Medicines Handbook (AMH)** is the companion reference for individual drug details: doses, adverse effects, interactions and renal dosing.\n\nPractical differences you will notice coming from India:\n- **Narrow-spectrum first**: phenoxymethylpenicillin for strep throat, amoxicillin for low-severity pneumonia, flucloxacillin or cefalexin for cellulitis.\n- **Fluoroquinolones, carbapenems and third-generation cephalosporins are restricted** and are not routine first-line outpatient choices.\n- Hospitals run **antimicrobial stewardship** programs, and some antibiotics need infectious diseases approval.\n\nWhen unsure of a dose or drug choice in an exam, choose the conservative, guideline-based, narrow-spectrum option."
+  },
+  {
+    "id": "aus-05",
+    "category": "Prescribing",
+    "title": "Australian drug names vs Indian ones",
+    "body": "Australia uses international non-proprietary names, with some differences from what you may be used to:\n\n- **Adrenaline** (not epinephrine) and **noradrenaline**.\n- **Paracetamol** (not acetaminophen). Common brand: Panadol.\n- **Salbutamol** (brand Ventolin), used with a spacer.\n- **Glyceryl trinitrate (GTN)** for angina.\n- Older Australian spellings were replaced: frusemide is now **furosemide**, lignocaine is **lidocaine**, cephalexin is **cefalexin**, amoxycillin is **amoxicillin**.\n\nBrands vs generics:\n- PBS scripts must include the **active ingredient** name.\n- Pharmacists can substitute a bioequivalent brand unless the prescriber ticks **\"brand substitution not permitted\"**.\n\nThings you will not find: many Indian fixed-dose combinations, **nimesulide** and **metamizole**. **Codeine** products are prescription-only (since 2018). Oral rehydration solution is sold as brands such as Hydralyte and Gastrolyte.\n\nAlways use the generic name in exam answers."
+  },
+  {
+    "id": "aus-06",
+    "category": "Prescribing",
+    "title": "Medicine scheduling (the Poisons Standard)",
+    "body": "Medicines are classified into **schedules** under the national Poisons Standard, with each state enforcing its own rules.\n\n- **S2 Pharmacy Medicine**: sold in pharmacies without a script (e.g. small packs of paracetamol, some antihistamines).\n- **S3 Pharmacist Only Medicine**: needs pharmacist involvement, no script (e.g. emergency contraception, salbutamol inhalers).\n- **S4 Prescription Only Medicine**: most drugs, including antibiotics.\n- **S8 Controlled Drug**: drugs of dependence such as opioids (morphine, oxycodone), stimulants (dexamfetamine, methylphenidate) and some benzodiazepines like alprazolam. Strict storage, record-keeping and prescribing rules.\n- **S9 Prohibited Substance**: e.g. heroin, available only for research.\n\nIn India, antibiotics and many S4 drugs are often bought over the counter. In Australia this is illegal, and patients expect a prescription and explanation for antibiotics, and often a discussion of why they do not need one."
+  },
+  {
+    "id": "aus-07",
+    "category": "Prescribing",
+    "title": "S8 drugs and real-time prescription monitoring",
+    "body": "**Schedule 8** (controlled) drugs include opioids, stimulants for ADHD and some benzodiazepines. Every state regulates them tightly:\n\n- Some drugs require a **permit or authority** from the state health department before long-term prescribing, and rules apply when prescribing to people with a history of drug dependence.\n- Stimulants for ADHD usually need **specialist initiation** or state approval.\n- Scripts must meet specific legal requirements (quantity in words and figures, etc.).\n\n**Real-time prescription monitoring (RTPM)** systems show a patient's recent supply of monitored medicines (S8s and some S4s such as benzodiazepines, pregabalin and codeine). Victoria's system is called **SafeScript**; other states have their own, linked through a national system. In several states it is **mandatory to check** before prescribing or dispensing a monitored drug.\n\nRed flags for misuse: early requests, lost scripts, multiple prescribers (\"doctor shopping\"), escalating doses. The safe response is non-judgemental, check RTPM, and do not prescribe on the spot if it is unsafe."
+  },
+  {
+    "id": "aus-08",
+    "category": "Law & ethics",
+    "title": "Consent and capacity",
+    "body": "Valid consent in Australia needs four things: **capacity**, **voluntariness**, **adequate information** and being **specific** to the treatment.\n\n**Capacity** is decision-specific and presumed in adults. The patient must be able to:\n1. Understand the information.\n2. Retain it long enough to decide.\n3. Use and weigh it.\n4. Communicate a decision.\n\nThe key legal case is **Rogers v Whitaker (1992)**: a doctor must warn of **material risks**, meaning risks a reasonable person would consider significant, or risks this particular patient would want to know about. A 1 in 14,000 risk of blindness was held to be material because the patient had asked about it.\n\nA competent adult can refuse treatment, even if it leads to death. If a patient lacks capacity, look for an **advance care directive**, then a **substitute decision-maker** (guardian, enduring attorney or \"person responsible\", depending on the state). In an emergency, treat to save life or prevent serious harm.\n\nFamily consent is not automatic, unlike common practice in India."
+  },
+  {
+    "id": "aus-09",
+    "category": "Law & ethics",
+    "title": "Gillick competence and young people",
+    "body": "A person under 18 can consent to their own medical treatment if they are **Gillick competent**: they understand the nature, consequences and risks of the proposed treatment. This comes from a UK case (Gillick, 1985) and was accepted in Australia by the High Court in **Marion's case (1992)**, which also held that some procedures (such as non-therapeutic sterilisation) need court approval.\n\nIn practice:\n- Assess competence for each decision; it is not about age alone.\n- Encourage young people to involve parents, but respect confidentiality when they are competent.\n- Common scenarios: a 15-year-old requesting contraception, STI testing or mental health care.\n- Confidentiality has limits: serious risk of harm to self or others, and **mandatory reporting of abuse**.\n\nFrom age **15**, young people can get their own Medicare card. South Australia's legislation sets 16 as the age of consent to medical treatment, but Gillick principles apply broadly across Australia.\n\nAMC stations test whether you see the adolescent alone, explain confidentiality, and assess competence."
+  },
+  {
+    "id": "aus-10",
+    "category": "Law & ethics",
+    "title": "Mandatory reporting of child abuse",
+    "body": "In every Australian state and territory, **doctors are mandatory reporters** of child abuse and neglect.\n\n- If you form a **reasonable belief or suspicion** that a child is at risk of significant harm, you must report to the state **child protection agency**.\n- You do **not** need proof, and you do not need to investigate. Reports made in good faith are legally protected.\n- Failing to report can be an offence.\n- You can, and sometimes should, report without telling the parents first if this might put the child at further risk.\n\nWhat counts (physical, sexual, emotional abuse, neglect, exposure to family violence) and thresholds vary slightly between states. NSW, for example, uses an online **Mandatory Reporter Guide** to decide.\n\nDocument carefully: exact words used, injuries (with body maps or photos), who was present.\n\nIn an AMC station, the correct answer to \"I think this child is being abused\" is almost never \"talk to the family and review in a week\". It is ensure safety, report, and involve the paediatric or child protection team."
+  },
+  {
+    "id": "aus-11",
+    "category": "Law & ethics",
+    "title": "Mandatory notification of impaired practitioners",
+    "body": "Under the national law that regulates health practitioners, a registered practitioner must notify **AHPRA** if they reasonably believe another practitioner has behaved in a way that constitutes **notifiable conduct**:\n\n1. Practising while **intoxicated** by alcohol or drugs.\n2. **Sexual misconduct** in connection with practice.\n3. Placing the public at **risk of substantial harm** because of an **impairment** (physical or mental illness, substance use).\n4. Placing the public at risk through a **significant departure from accepted professional standards**.\n\nThere is a **higher threshold for treating practitioners** (a doctor treating another doctor as a patient): they must notify only if there is a **substantial risk of harm** to the public, so doctors are not discouraged from seeking care. Western Australia has broader exemptions for treating practitioners.\n\nDoctors in distress can use confidential support services such as the state **Doctors' Health Advisory Services**.\n\nIn AMC stations about a colleague who smells of alcohol at work: ensure patient safety now, speak to them privately, involve a senior, and notify if the threshold is met."
+  },
+  {
+    "id": "aus-12",
+    "category": "Law & ethics",
+    "title": "Open disclosure",
+    "body": "**Open disclosure** is the expected response when a patient is harmed during health care. It is guided by the **Australian Open Disclosure Framework** from the Australian Commission on Safety and Quality in Health Care.\n\nCore elements:\n- **Acknowledge** the adverse event early.\n- **Apologise**: saying \"I am sorry this happened\" is expected. In Australian states, an apology is generally protected and is not by itself an admission of liability.\n- **Explain** the facts known so far, without speculating or blaming colleagues.\n- Describe the **consequences** and the plan to manage them.\n- Explain what is being done to **prevent recurrence**, and how the patient will be kept informed.\n- Offer support and a contact person.\n\nReport the incident through the local incident management system.\n\nAMC stations commonly involve a wrong drug, a missed result or a surgical complication. Examiners want honesty, empathy, no defensiveness, and a clear follow-up plan. Hiding an error or blaming a nurse will fail the station."
+  },
+  {
+    "id": "aus-13",
+    "category": "Law & ethics",
+    "title": "Confidentiality and privacy",
+    "body": "Health information is protected by the **Privacy Act 1988** (and state health records laws) and by professional obligations in the Medical Board's code of conduct.\n\nYou may share information:\n- With the patient's **consent**.\n- With others **directly involved in their care** (reasonably expected by the patient).\n- When **required by law**: notifiable diseases, mandatory child abuse reporting, court orders, some driving and firearms laws depending on state.\n- When there is a **serious threat** to the life, health or safety of an individual or the public.\n\nPractical points:\n- Do not discuss a patient with their family, employer or police without consent unless an exception applies.\n- An adult patient's information is not shared with a spouse or parents by default. This often surprises families from cultures where family decision-making is the norm.\n- Use a professional interpreter rather than a family member for sensitive discussions.\n- **My Health Record** is a national electronic summary; patients can set access controls."
+  },
+  {
+    "id": "aus-14",
+    "category": "Healthcare system",
+    "title": "Notifiable diseases",
+    "body": "Doctors and laboratories must notify certain diseases to the **state or territory public health unit**. Data is combined nationally in the **National Notifiable Diseases Surveillance System (NNDSS)**.\n\n**Urgent (phone on clinical suspicion):** measles, meningococcal disease, diphtheria, botulism, cholera, suspected viral haemorrhagic fevers and other serious outbreaks.\n\n**Routine (within days):** TB, HIV, hepatitis A, B and C, syphilis, gonorrhoea, chlamydia, pertussis, salmonellosis, campylobacteriosis, legionellosis, Q fever, Ross River virus, lab-confirmed influenza and COVID-19, among others.\n\nKey points:\n- Patient consent is **not required**, but tell the patient you are notifying.\n- Public health units do contact tracing, prophylaxis and exclusion advice. You may be asked to help.\n- Lists vary a little by state; the principle is national.\n\nCompared with India, conditions like TB, typhoid and malaria are uncommon and a single case triggers public health follow-up, while STIs and vaccine-preventable diseases are a large part of surveillance."
+  },
+  {
+    "id": "aus-15",
+    "category": "Screening",
+    "title": "National Bowel Cancer Screening Program",
+    "body": "Australia has one of the highest bowel cancer rates in the world, so screening is a big deal.\n\n- **Who:** people aged **50-74** are mailed a free **immunochemical faecal occult blood test (iFOBT)** kit every **2 years**. People aged **45-49** can request their first kit and then join the program.\n- **How:** the patient collects two small stool samples at home and posts them to the lab.\n- **Positive result:** the patient needs a **colonoscopy**, ideally within about 30 days. Do not repeat the iFOBT.\n- Results go to the patient and nominated GP, and are recorded on the **National Cancer Screening Register**.\n\nWho should not rely on screening:\n- **Symptomatic** patients (rectal bleeding, change in bowel habit, iron deficiency anaemia) need diagnostic investigation, not a screening kit.\n- People with a significant **family history** may need earlier or colonoscopic surveillance per national guidelines.\n\nParticipation is only around 40%, so GPs actively encourage return of kits."
+  },
+  {
+    "id": "aus-16",
+    "category": "Screening",
+    "title": "BreastScreen Australia",
+    "body": "**BreastScreen Australia** offers free screening mammograms every **2 years**.\n\n- **Target group:** women aged **50-74**, who are sent invitations.\n- Women aged **40-49** and **75 and over** can also attend free, without invitation.\n- **No GP referral is needed**; women can book directly.\n- Includes transgender and gender-diverse people for whom screening is appropriate.\n\nImportant for exam answers:\n- Screening is for **asymptomatic** women. A woman with a lump, nipple change or other symptom needs **diagnostic** triple assessment (examination, imaging and biopsy), not a BreastScreen booking.\n- Women at high risk (strong family history, BRCA carriers) need individual surveillance plans, often with MRI.\n- Dense breasts reduce mammogram sensitivity.\n\nBreast cancer is the most common cancer in Australian women."
+  },
+  {
+    "id": "aus-17",
+    "category": "Screening",
+    "title": "National Cervical Screening Program",
+    "body": "In December 2017 Australia replaced 2-yearly Pap smears with **5-yearly HPV testing**.\n\n- **Who:** women and people with a cervix aged **25-74** who have ever been sexually active, whether or not they have had the HPV vaccine.\n- **Test:** a **Cervical Screening Test** detects oncogenic HPV. If HPV is found, a liquid-based cytology test is done on the same sample.\n- **Self-collection:** since July 2022 everyone eligible can choose to collect their own vaginal sample, which is just as accurate for HPV. This helps people who avoid speculum exams, including many migrant and Aboriginal women.\n\nResults pathway:\n- **HPV not detected:** return in 5 years.\n- **HPV 16/18:** refer directly to **colposcopy**.\n- **Other oncogenic HPV types:** management depends on the cytology result.\n\n**Symptomatic** people (post-coital or intermenstrual bleeding) need a diagnostic co-test and examination.\n\nAustralia aims to eliminate cervical cancer as a public health problem by **2035**."
+  },
+  {
+    "id": "aus-18",
+    "category": "Screening",
+    "title": "National Lung Cancer Screening Program",
+    "body": "Australia's newest national screening program started in **July 2025**.\n\n**Eligibility:**\n- Age **50-70**.\n- **No symptoms** of lung cancer.\n- Currently smokes, or quit within the past **10 years**.\n- A smoking history of at least **30 pack-years**.\n\n**How it works:**\n- A GP or other eligible practitioner assesses eligibility and requests a **low-dose CT scan**.\n- Scans are usually every **2 years**, with shorter intervals if a nodule needs monitoring.\n- Results are managed through the **National Cancer Screening Register**.\n\nThe program is also a chance to offer **smoking cessation** support, which is the most effective way to reduce lung cancer.\n\nIt was designed with a focus on equity, including access for Aboriginal and Torres Strait Islander people and rural communities (for example through mobile CT). As with all screening, symptomatic patients need diagnostic imaging instead."
+  },
+  {
+    "id": "aus-19",
+    "category": "Immunisation",
+    "title": "National Immunisation Program basics",
+    "body": "The **National Immunisation Program (NIP)** provides free vaccines according to a national schedule. The key reference is the **Australian Immunisation Handbook**.\n\nChildhood highlights:\n- **Birth:** hepatitis B.\n- **2, 4, 6 months:** combined DTPa-hepB-IPV-Hib, pneumococcal conjugate; rotavirus at 2 and 4 months.\n- **12 months:** MMR, meningococcal ACWY, pneumococcal.\n- **18 months:** MMRV, DTPa, Hib.\n- **4 years:** DTPa-IPV.\n- **School:** HPV and dTpa in Year 7, meningococcal ACWY in Year 10.\n\nDifferences from India:\n- **BCG is not routine**; it is only for specific high-risk children.\n- Oral polio is not used; IPV only.\n\nAll vaccines are recorded on the **Australian Immunisation Register (AIR)**. Being up to date is linked to family payments (\"No Jab, No Pay\") and, in several states, childcare enrolment.\n\nFor children arriving from overseas, check records and follow the catch-up guidance; do not assume Indian records match the Australian schedule."
+  },
+  {
+    "id": "aus-20",
+    "category": "Immunisation",
+    "title": "Vaccines in pregnancy and adulthood",
+    "body": "**Pregnancy** (free under the NIP):\n- **Pertussis (dTpa)** in every pregnancy, ideally at **20-32 weeks**, to protect the newborn.\n- **Influenza** at any stage of pregnancy.\n- **RSV** vaccine in the third trimester, to protect infants in their first months.\n- Live vaccines (MMR, varicella) are avoided in pregnancy; check rubella immunity before conception.\n\n**Older adults** (free, with some details varying):\n- Annual **influenza** vaccine for people 65 and over (and other at-risk groups).\n- **Shingles** vaccine (Shingrix, 2 doses) for people 65 and over, Aboriginal and Torres Strait Islander people 50 and over, and some immunocompromised adults.\n- **Pneumococcal** vaccine for people 70 and over.\n\n**Aboriginal and Torres Strait Islander people** get extra funded vaccines at younger ages, including influenza from 6 months of age and earlier pneumococcal and shingles vaccines.\n\nHealthcare workers are expected to be immune to hepatitis B, MMR, varicella and pertussis, and to have annual flu vaccines."
+  },
+  {
+    "id": "aus-21",
+    "category": "Aboriginal & Torres Strait Islander health",
+    "title": "The 715 health assessment",
+    "body": "**Medicare item 715** is an annual health assessment available to Aboriginal and Torres Strait Islander people of **all ages**.\n\nWhat it involves:\n- A structured check covering medical history, social and emotional wellbeing, family and community context, lifestyle, preventive screening and immunisation.\n- Age-appropriate content: growth and development in children, hearing and ear checks, sexual health in young people, and chronic disease screening in adults.\n- A written **health plan** with follow-up.\n\nWhy it matters:\n- It unlocks **follow-up allied health services** under Medicare specifically for Aboriginal and Torres Strait Islander patients.\n- It is a key tool for early detection of diabetes, kidney disease, heart disease and ear disease.\n\nTo offer it, you first need to **ask every patient** whether they identify as Aboriginal and/or Torres Strait Islander. You cannot tell by appearance, and identification is voluntary. Many practices ask routinely on registration forms, but a respectful verbal question is also appropriate.\n\n**Aboriginal Health Workers and Practitioners** often help complete these assessments."
+  },
+  {
+    "id": "aus-22",
+    "category": "Aboriginal & Torres Strait Islander health",
+    "title": "Cultural safety",
+    "body": "**Cultural safety** means that care is judged safe by the **person receiving it**, not by the doctor's good intentions. It involves reflecting on your own culture, assumptions and power as a doctor, and on how racism affects care. It is part of the Medical Board's code of conduct.\n\nFor Aboriginal and Torres Strait Islander patients:\n- Understand the history: colonisation, dispossession of land, the **Stolen Generations** (children forcibly removed from families), and ongoing racism. This explains mistrust of health services.\n- **Family and kinship** matter; decisions are often made collectively. Ask who the patient would like involved.\n- Offer involvement of an **Aboriginal Health Worker or Liaison Officer**.\n- Some topics may be **men's business** or **women's business**; offer a same-gender clinician where possible.\n- **Sorry Business** (mourning) can mean missed appointments; do not label patients non-compliant.\n- Avoid jargon, allow silence, and check understanding.\n\nCultural safety applies to all patients, including migrants and refugees. It is not a checklist of cultural facts; it is an attitude of respect and self-awareness."
+  },
+  {
+    "id": "aus-23",
+    "category": "Aboriginal & Torres Strait Islander health",
+    "title": "Closing the Gap and community controlled health",
+    "body": "**Closing the Gap** is a national agreement between Australian governments and Aboriginal and Torres Strait Islander community organisations to reduce inequality in life expectancy, child health, education, employment and other outcomes. A life expectancy gap of around 8-9 years remains.\n\n**Aboriginal Community Controlled Health Services (ACCHSs)** are primary care services run by and for the local community. They provide culturally safe, holistic care (medical, dental, social and emotional wellbeing, transport) and are represented nationally by NACCHO.\n\nPractical supports you should know:\n- **Closing the Gap PBS Co-payment Program**: reduces or removes PBS co-payments for eligible Aboriginal and Torres Strait Islander patients.\n- **Medicare item 715** health assessments and follow-up allied health items.\n- **Aboriginal Health Workers and Practitioners**, some of whom can perform clinical tasks and prescribe under specific arrangements.\n\nIn the AMC, a good management plan for an Aboriginal patient almost always includes involving the local ACCHS or an Aboriginal Health Worker, family involvement, and practical barriers like transport and cost."
+  },
+  {
+    "id": "aus-24",
+    "category": "Rural & remote",
+    "title": "Rural medicine and the RFDS",
+    "body": "About 7 million Australians live outside major cities, and rural and remote health outcomes are worse. Many overseas-trained doctors begin their Australian careers in rural areas.\n\nFeatures of rural practice:\n- **Rural generalists**: GPs with advanced skills in emergency medicine, anaesthetics, obstetrics or mental health.\n- Small hospitals with limited imaging and no on-site specialists, so **telehealth** and phone advice from referral centres are common.\n- Patients may travel hundreds of kilometres for specialist care, dialysis or chemotherapy.\n\n**The Royal Flying Doctor Service (RFDS)** provides aeromedical retrieval, remote clinics and phone consultations. State retrieval services also move critically ill patients.\n\nWhat this means for exam answers:\n- Stabilise before transfer: airway, IV access, analgesia, antibiotics, clear handover.\n- Think about distance, weather, cost and family when planning follow-up.\n- Know the local risks: farm injuries, snake bites, heat, and in the north, melioidosis and rheumatic heart disease.\n\nRemote area nurses use the **CARPA/Remote Primary Health Care Manuals**, a standard reference in central and northern Australia."
+  },
+  {
+    "id": "aus-25",
+    "category": "Healthcare system",
+    "title": "Telehealth",
+    "body": "Telehealth (video and phone consultations) became a permanent part of Medicare after the COVID-19 pandemic.\n\nKey rules:\n- For most Medicare GP telehealth services, the patient must have an **established clinical relationship** with the practice, generally meaning they have been seen face-to-face there in the previous 12 months. There are exemptions (for example children under 12 months and patients of Aboriginal Medical Services).\n- **Video is preferred** to phone for many services; some longer consultations are available only by video.\n- Specialist telehealth consultations are widely used for rural patients.\n\nGood telehealth practice:\n- Confirm the patient's identity and location (important if an emergency happens).\n- Ensure privacy on both ends.\n- Know when a physical examination is essential and bring the patient in.\n- Document that the consultation was by telehealth.\n\nRemember that electronic prescriptions, pathology requests and referrals can all be sent digitally. Rural patients benefit most from telehealth, but it does not replace hands-on assessment when red flags are present."
+  },
+  {
+    "id": "aus-26",
+    "category": "Culture & communication",
+    "title": "How to talk to Australian patients",
+    "body": "Australian consultations are **informal but respectful**, and the doctor-patient relationship is a partnership.\n\n- **Names:** introduce yourself with your first name and role (\"Hi, I'm Priya, one of the doctors\"). Ask how the patient would like to be addressed; many are happy with first names, but older patients may prefer Mr or Mrs.\n- **Shared decision-making:** present options, including doing nothing, with benefits and risks, and ask what matters to the patient. A paternalistic \"you must do this\" approach loses marks.\n- **Plain language:** say \"heart attack\", not \"myocardial infarction\". Check understanding with teach-back (\"Can you tell me how you will take this?\").\n- **ICE:** ask about the patient's Ideas, Concerns and Expectations.\n- **Humour and slang** are common. \"No worries\" means \"it's fine\". \"Crook\" means sick, \"arvo\" is afternoon, a \"GP\" is the family doctor, and \"Panadol\" is paracetamol.\n- **Safety-net:** tell patients what to watch for and when to come back.\n\nAustralians value directness, eye contact and honesty. Avoid long silences after bad news without checking in, and never dismiss a concern."
+  },
+  {
+    "id": "aus-27",
+    "category": "Culture & communication",
+    "title": "Working with interpreters (TIS National)",
+    "body": "If a patient's English is limited, use a **professional interpreter**. Using family members, especially children, is not appropriate for clinical consultations except in an emergency.\n\n**TIS National** (Translating and Interpreting Service) provides phone and on-site interpreters 24 hours a day. The number is **131 450**. Medical practitioners in private practice can use it **free of charge** for Medicare-eligible patients, and doctors can register for a priority line.\n\nHospitals have their own interpreter services, and Auslan interpreters are available for Deaf patients.\n\nTips:\n- Brief the interpreter first.\n- Speak **directly to the patient**, in the first person (\"How long have you had the pain?\").\n- Use short sentences and pause for interpretation.\n- Avoid jargon and idioms.\n- Allow extra time.\n- Document that an interpreter was used, including their ID number.\n\nIn the AMC exam, when a station includes a patient who speaks little English, saying \"I would arrange a professional interpreter\" is expected, and using a relative for consent or sensitive history is marked down."
+  },
+  {
+    "id": "aus-28",
+    "category": "Culture & communication",
+    "title": "Sun safety and skin checks",
+    "body": "Australia and New Zealand have the **highest skin cancer rates in the world**. About two in three Australians will be diagnosed with skin cancer by age 70. The UV index is high for much of the year, even on cloudy days.\n\nThe public health message \"**Slip, Slop, Slap, Seek, Slide**\" is known by most Australians:\n- Slip on sun-protective clothing.\n- Slop on SPF 30+ (or 50+) broad-spectrum sunscreen.\n- Slap on a broad-brimmed hat.\n- Seek shade.\n- Slide on sunglasses.\n\nProtection is recommended when the UV index is 3 or above.\n\n**Skin checks** are a routine part of Australian general practice, often using a dermatoscope. There is no national screening program; checks target higher-risk people (fair skin, many moles, past skin cancer, immunosuppression, outdoor workers).\n\nComing from India, where skin cancer is rare in darker skin types, this will be a major new area. Learn to recognise melanoma, BCC and SCC, and remember that acral lentiginous melanoma (palms, soles, nails) occurs in people with darker skin."
+  },
+  {
+    "id": "aus-29",
+    "category": "Law & ethics",
+    "title": "Driving fitness (Austroads)",
+    "body": "The national standard is **Assessing Fitness to Drive**, published by **Austroads** and the National Transport Commission. It sets medical criteria for **private** and **commercial** drivers for conditions like epilepsy, diabetes, sleep apnoea, cardiac disease, vision, dementia and substance use.\n\nKey principles:\n- The **driver** has the legal duty to notify the state licensing authority of a condition that affects safe driving.\n- The **doctor** must assess, advise the patient clearly (including not to drive, if relevant) and **document** the advice.\n- In most states doctors **may** report a patient who continues to drive unsafely, with legal protection. In **South Australia and the Northern Territory**, reporting is mandatory.\n- Commercial driver standards are stricter than private standards.\n\nClassic examples:\n- After a first unprovoked seizure or loss of consciousness, a period of not driving applies.\n- Insulin-treated diabetes needs hypoglycaemia awareness and regular review.\n- After some cardiac procedures, there are short non-driving periods.\n\nIn AMC counselling stations, examiners want clear advice, a safety discussion and documentation, not just \"you can't drive\"."
+  },
+  {
+    "id": "aus-30",
+    "category": "Healthcare system",
+    "title": "Emergency numbers and advice lines",
+    "body": "Numbers every doctor in Australia should know:\n\n- **000**: emergency (ambulance, police, fire). **112** also works from mobile phones.\n- **13 11 26**: **Poisons Information Centre**, 24 hours, for patients and health professionals.\n- **1800 022 222**: **healthdirect**, a free 24-hour nurse advice line.\n- **13 11 14**: **Lifeline** crisis support.\n- **1300 22 4636**: **Beyond Blue** support service.\n- **13 78 48**: **Quitline** for smoking cessation.\n- **1800 737 732**: **1800RESPECT**, the national family, domestic and sexual violence counselling service.\n- **131 450**: **TIS National** interpreters.\n\nUnlike in India, ambulances in Australia are run by state ambulance services, and patients may be charged unless covered by insurance, a concession or state scheme (Queensland and Tasmania provide free ambulance for residents).\n\nAdvising a patient or carer to \"call 000\" for chest pain, stroke symptoms, anaphylaxis or a seizure that does not stop is a basic safety-netting step in exam answers."
+  }
+]

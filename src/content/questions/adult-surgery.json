@@ -1,0 +1,855 @@
+[
+  {
+    "id": "surg-001",
+    "discipline": "adult-surgery",
+    "topic": "trauma",
+    "difficulty": "foundation",
+    "stem": "A 25-year-old man is brought to the emergency department of a regional hospital after a high-speed motorcycle crash. He is making gurgling noises, has blood in his mouth and opens his eyes only to pain. Heart rate is 124/min, blood pressure 95/60 mmHg, respiratory rate 28/min and SpO2 88% on room air. There is an obvious deformity of the left femur.\n\nWhat is the most appropriate first step in management?",
+    "options": [
+      "Apply a traction splint to the left femur",
+      "Assess and secure the airway with cervical spine protection",
+      "Insert two large-bore intravenous cannulae and give 1 L of crystalloid",
+      "Perform a focused assessment with sonography for trauma (FAST)",
+      "Arrange an urgent CT scan of the head and cervical spine"
+    ],
+    "answer": 1,
+    "explanation": "The EMST/ATLS **primary survey** follows a fixed order because each step kills faster than the next: **A**irway with cervical spine protection, **B**reathing, **C**irculation with haemorrhage control, **D**isability, **E**xposure.\n\nThis man has a **threatened airway**: gurgling (fluid in the pharynx), blood in the mouth and a reduced conscious level (he is unlikely to protect his own airway). Hypoxia will kill him within minutes, well before the femur or even his hypotension does. The immediate actions are suction, a jaw thrust (not head tilt, since the spine is not yet cleared), an airway adjunct and high-flow oxygen, then a definitive airway (rapid sequence intubation) with manual in-line stabilisation.\n\nCirculation, FAST and splinting all matter, and in a team they happen in parallel, but if you are asked what comes *first*, the answer is always the airway.\n\n**Rule:** \"A before B before C\". Noisy breathing in trauma is an airway problem until proven otherwise.",
+    "whyWrong": [
+      "Splinting the femur helps limit blood loss but is part of Circulation, which comes after the airway.",
+      "",
+      "IV access is part of Circulation; an obstructed airway will kill him first.",
+      "FAST is an adjunct to the circulation assessment and should not delay airway control.",
+      "An unstable patient with an unsecured airway must never go to the CT scanner."
+    ],
+    "ausPearl": "In Australia trauma care is taught through the RACS Early Management of Severe Trauma (EMST) course, the local equivalent of ATLS. AMC questions use the same ABCDE sequence.",
+    "tags": [
+      "emst",
+      "primary survey",
+      "airway"
+    ]
+  },
+  {
+    "id": "surg-002",
+    "discipline": "adult-surgery",
+    "topic": "trauma",
+    "difficulty": "core",
+    "stem": "A 34-year-old man is brought to the emergency department after his car hit a tree. He is anxious and short of breath. Respiratory rate is 36/min, heart rate 138/min, blood pressure 78/40 mmHg and SpO2 82% on 15 L/min oxygen via a non-rebreather mask. His neck veins are distended, the trachea is deviated to the left, and the right hemithorax is hyper-resonant with absent breath sounds.\n\nWhat is the most appropriate immediate management?",
+    "options": [
+      "Obtain an urgent portable chest X-ray",
+      "Perform pericardiocentesis",
+      "Perform rapid sequence intubation and positive-pressure ventilation",
+      "Decompress the right chest with a needle or finger thoracostomy",
+      "Insert an intercostal catheter after a CT scan of the chest"
+    ],
+    "answer": 3,
+    "explanation": "This is a **tension pneumothorax**: a one-way valve lets air into the pleural space but not out, the mediastinum shifts, venous return falls and the patient develops **obstructive shock**.\n\nThe discriminating clues are the combination of **hypotension + distended neck veins + tracheal deviation away from the affected side + hyper-resonance + absent breath sounds** on one side. It is a **clinical diagnosis**. Waiting for imaging wastes the minutes he has left.\n\nImmediate treatment is decompression: needle decompression (current ATLS guidance favours the 4th/5th intercostal space just anterior to the mid-axillary line in adults, where the chest wall is thinner) or a finger thoracostomy. This converts the tension pneumothorax into a simple pneumothorax, and it is then followed by a formal intercostal catheter (chest drain).\n\n**Rule:** if you are thinking about ordering an X-ray for a tension pneumothorax, the X-ray should have shown you a normal chest.",
+    "whyWrong": [
+      "Tension pneumothorax is a clinical diagnosis and waiting for an X-ray can be fatal.",
+      "Pericardiocentesis treats tamponade, which shares distended neck veins and hypotension but has normal breath sounds and a central trachea.",
+      "Positive-pressure ventilation before decompression will increase the tension and can precipitate cardiac arrest.",
+      "",
+      "A chest drain is needed eventually, but he is far too unstable for CT and needs decompression now."
+    ],
+    "tags": [
+      "emst",
+      "tension pneumothorax",
+      "shock"
+    ]
+  },
+  {
+    "id": "surg-003",
+    "discipline": "adult-surgery",
+    "topic": "trauma",
+    "difficulty": "exam",
+    "stem": "A 42-year-old man is brought to a small rural hospital in western New South Wales 50 minutes after rolling his tractor. There is no on-site surgeon. He has abdominal bruising in a seatbelt distribution and a tender, distended abdomen. After 1 L of warmed crystalloid, his heart rate is 132/min and blood pressure 84/50 mmHg. His airway is patent and breathing is adequate. A bedside FAST scan shows free fluid in Morison's pouch. Two units of O-negative packed red cells are available.\n\nWhat is the most appropriate next step?",
+    "options": [
+      "Transfuse O-negative blood, give tranexamic acid and request urgent retrieval to a trauma centre",
+      "Give a further 2 L of crystalloid to restore a systolic blood pressure above 120 mmHg",
+      "Perform diagnostic peritoneal lavage to confirm intra-abdominal haemorrhage",
+      "Arrange a CT abdomen at the nearest hospital with a scanner before contacting retrieval",
+      "Admit for serial abdominal examinations and repeat the FAST in 4 hours"
+    ],
+    "answer": 0,
+    "explanation": "This man is in **haemorrhagic shock from intra-abdominal bleeding** that is not responding to fluid. He needs a surgeon (a laparotomy or damage-control surgery) and no surgeon is available locally.\n\nPrinciples of damage-control resuscitation:\n- **Blood, not more crystalloid.** Large crystalloid volumes worsen the coagulopathy, acidosis and hypothermia (the \"lethal triad\").\n- **Permissive hypotension**: aim for a radial pulse, mentation and a systolic around 80-90 mmHg until the bleeding is controlled (not in head injury).\n- **Tranexamic acid** within 3 hours of injury (1 g IV over 10 minutes, then 1 g over 8 hours) reduces death from bleeding.\n- **Call retrieval early.** The decision to transfer is made as soon as you recognise the patient needs care you cannot give, not after investigations.\n\nThe FAST has already answered the key question: he is bleeding into his abdomen. More tests only delay definitive care.\n\n**Rule:** an unstable patient with a positive FAST needs a bleeding control procedure, not a CT scanner.",
+    "whyWrong": [
+      "",
+      "Chasing a normal blood pressure with crystalloid dilutes clotting factors and increases bleeding.",
+      "DPL is obsolete when FAST has already shown free fluid, and it only delays transfer.",
+      "Unstable patients should not be moved to CT, and retrieval should be requested immediately.",
+      "Observation is inappropriate for a patient in shock who is not responding to fluid."
+    ],
+    "ausPearl": "Rural and remote Australian hospitals rely on state retrieval services (e.g. NSW Ambulance Aeromedical, Retrieval Services Queensland) and the Royal Flying Doctor Service. Call the retrieval coordination centre early: they give clinical advice and dispatch the team at the same time, and flight times make every minute of delay matter.",
+    "tags": [
+      "rural",
+      "retrieval",
+      "haemorrhagic shock",
+      "fast"
+    ]
+  },
+  {
+    "id": "surg-004",
+    "discipline": "adult-surgery",
+    "topic": "general-surgery",
+    "difficulty": "foundation",
+    "stem": "A 19-year-old man presents to the emergency department with 18 hours of abdominal pain. It started as a vague ache around the umbilicus and has moved to the right iliac fossa. He has lost his appetite and vomited once. Temperature is 37.9°C and heart rate 98/min. There is tenderness and guarding at McBurney's point, and pressing on the left iliac fossa causes pain in the right iliac fossa. White cell count is 14.2 × 10^9/L (neutrophilia) and CRP 48 mg/L. Urinalysis is normal.\n\nWhat is the most likely diagnosis?",
+    "options": [
+      "Mesenteric adenitis",
+      "Right ureteric colic",
+      "Acute appendicitis",
+      "Meckel's diverticulitis",
+      "Terminal ileal Crohn's disease"
+    ],
+    "answer": 2,
+    "explanation": "This is the classic story of **acute appendicitis**.\n\n**Migratory pain** is the key discriminating clue. Early on the inflamed appendix causes visceral pain, felt vaguely in the periumbilical region (midgut, T10). When the inflammation reaches the parietal peritoneum the pain localises sharply to the **right iliac fossa**. Add anorexia, low-grade fever, localised guarding, a positive **Rovsing's sign** (pain in the RIF when the LIF is pressed) and a neutrophilia, and the picture is complete.\n\nScores such as the **Alvarado score** use exactly these features: migration, anorexia, nausea/vomiting, RIF tenderness, rebound, fever, leucocytosis and left shift. This man scores highly. Management is IV fluids, analgesia, antibiotics and a surgical referral for laparoscopic appendicectomy.\n\n**Rule:** periumbilical pain that moves to the RIF, together with anorexia, is appendicitis until proven otherwise. In a woman of reproductive age, always do a pregnancy test too.",
+    "whyWrong": [
+      "Mesenteric adenitis usually follows a viral illness in children and lacks localised peritonism.",
+      "Ureteric colic causes colicky loin-to-groin pain, usually with haematuria, and no peritonism.",
+      "",
+      "Meckel's diverticulitis is rare and clinically indistinguishable, so it is not the most likely diagnosis.",
+      "Crohn's disease is usually preceded by weeks of diarrhoea, weight loss and systemic symptoms."
+    ],
+    "tags": [
+      "acute abdomen",
+      "appendicitis",
+      "rif pain"
+    ]
+  },
+  {
+    "id": "surg-005",
+    "discipline": "adult-surgery",
+    "topic": "general-surgery",
+    "difficulty": "core",
+    "stem": "A 68-year-old woman presents to the emergency department with 24 hours of colicky central abdominal pain, repeated bilious vomiting and abdominal distension. She has not passed flatus for 12 hours. She had an open hysterectomy 15 years ago. Temperature is 37.1°C, heart rate 96/min and blood pressure 128/76 mmHg. The abdomen is distended and tympanic with a healed lower midline scar, but it is soft with no guarding or rebound. There are no hernias. Lactate is 1.2 mmol/L. A plain abdominal X-ray shows multiple central dilated loops of small bowel with valvulae conniventes.\n\nWhat is the most appropriate initial management?",
+    "options": [
+      "Emergency laparotomy and division of adhesions",
+      "Urgent colonoscopy to decompress the bowel",
+      "Oral macrogol laxative and early mobilisation",
+      "IV antibiotics and discharge with GP follow-up",
+      "Nil by mouth, nasogastric tube decompression and intravenous fluids"
+    ],
+    "answer": 4,
+    "explanation": "This is **adhesional small bowel obstruction (SBO)**. Previous abdominal surgery makes adhesions by far the most common cause of SBO in countries like Australia.\n\nMost adhesional SBO settles without surgery, as long as the bowel is not ischaemic. Initial treatment is **\"drip and suck\"**:\n- nil by mouth\n- **nasogastric tube** on free drainage to decompress the stomach and reduce vomiting and aspiration risk\n- **IV fluids** with electrolyte replacement (these patients are often very dry and hypokalaemic)\n- analgesia, a urinary catheter and a fluid balance chart\n- often a water-soluble contrast (Gastrografin) study, which is both diagnostic and therapeutic.\n\nThe key discriminating clue is the **absence of features of strangulation**: no fever, no tachycardia, no peritonism, normal lactate. Any of these would push you towards urgent surgery.\n\n**Rule:** a virgin abdomen with SBO, or any SBO with signs of ischaemia, needs surgery. A previously operated abdomen without them gets a trial of conservative management first.",
+    "whyWrong": [
+      "Emergency laparotomy is reserved for strangulation, peritonism or failure of conservative treatment.",
+      "Colonoscopy decompresses the large bowel (e.g. sigmoid volvulus), not small bowel obstruction.",
+      "Oral laxatives are inappropriate in mechanical obstruction and will worsen the vomiting.",
+      "This is not an infective problem, and discharging an obstructed patient is unsafe.",
+      ""
+    ],
+    "tags": [
+      "bowel obstruction",
+      "adhesions",
+      "acute abdomen"
+    ]
+  },
+  {
+    "id": "surg-006",
+    "discipline": "adult-surgery",
+    "topic": "general-surgery",
+    "difficulty": "core",
+    "stem": "A 74-year-old woman is brought to the emergency department with 2 days of right upper quadrant pain, rigors and yellow eyes. Temperature is 39.2°C, heart rate 112/min and blood pressure 98/60 mmHg. She is jaundiced and tender in the right upper quadrant. Bilirubin is 86 µmol/L, ALP 410 U/L, GGT 520 U/L, white cell count 17.8 × 10^9/L and lipase is normal. Ultrasound shows gallstones and a common bile duct dilated to 12 mm. She has been given IV fluids and IV antibiotics.\n\nWhat is the most appropriate definitive next step?",
+    "options": [
+      "Emergency laparoscopic cholecystectomy",
+      "Urgent ERCP with biliary decompression",
+      "Percutaneous cholecystostomy",
+      "Elective MRCP in 6 weeks",
+      "HIDA (hepatobiliary iminodiacetic acid) scan"
+    ],
+    "answer": 1,
+    "explanation": "This is **acute ascending cholangitis**: infection of an obstructed bile duct, here caused by a stone in the common bile duct.\n\nLook for **Charcot's triad**: fever with rigors, jaundice and RUQ pain. Add hypotension and confusion and you have **Reynolds' pentad**, a sign of severe biliary sepsis. The dilated CBD and cholestatic LFTs (high ALP and GGT, raised bilirubin) confirm obstruction.\n\nAntibiotics alone cannot sterilise an obstructed system: **pus under pressure must be drained**. Management is:\n1. Resuscitation and IV antibiotics per eTG (e.g. amoxicillin plus gentamicin, adjusted for local advice and renal function).\n2. **Urgent biliary decompression by ERCP** (sphincterotomy and stone extraction or stent). Percutaneous transhepatic drainage is the fallback if ERCP fails.\n3. Cholecystectomy later, once she recovers, to prevent recurrence.\n\n**Rule:** cholecystitis inflames the gallbladder (take it out). Cholangitis infects the duct (drain it).",
+    "whyWrong": [
+      "Cholecystectomy removes the gallbladder but does not clear the obstructed, infected common bile duct.",
+      "",
+      "Cholecystostomy drains the gallbladder, not the obstructed common bile duct.",
+      "Imaging can be used to plan treatment, but a septic patient with an obvious obstruction needs drainage now, not in 6 weeks.",
+      "A HIDA scan helps diagnose acute cholecystitis and adds nothing when the duct is already known to be obstructed."
+    ],
+    "tags": [
+      "cholangitis",
+      "biliary",
+      "sepsis"
+    ]
+  },
+  {
+    "id": "surg-007",
+    "discipline": "adult-surgery",
+    "topic": "orthopaedics",
+    "difficulty": "foundation",
+    "stem": "A 24-year-old woman presents to a GP clinic in Brisbane 2 hours after rolling her right ankle (inversion) while playing netball. She limped into the clinic unaided and can take four steps. There is swelling and tenderness just anterior and inferior to the lateral malleolus. There is no tenderness along the posterior edge or tip of either malleolus, at the navicular or at the base of the fifth metatarsal.\n\nWhat is the most appropriate management?",
+    "options": [
+      "No X-ray; analgesia, ice, compression, elevation and early mobilisation",
+      "X-ray of the ankle",
+      "X-ray of the ankle and foot",
+      "MRI of the ankle",
+      "Below-knee plaster cast for 6 weeks"
+    ],
+    "answer": 0,
+    "explanation": "The **Ottawa ankle rules** tell you when an ankle injury needs an X-ray. They are highly sensitive, so a negative result reliably excludes a significant fracture and saves unnecessary radiation, cost and time.\n\n**Ankle X-ray** is needed if there is malleolar zone pain and any of:\n- bony tenderness at the **posterior edge or tip of the lateral malleolus** (distal 6 cm)\n- bony tenderness at the **posterior edge or tip of the medial malleolus** (distal 6 cm)\n- **inability to bear weight** for four steps, both immediately and in the clinic\n\n**Foot X-ray** is needed if there is midfoot pain and tenderness at the **navicular** or the **base of the fifth metatarsal**, or inability to bear weight.\n\nThis woman's tenderness is over the **anterior talofibular ligament** (the ligament most commonly sprained in inversion injury) rather than bone, and she can bear weight. She has a lateral ligament sprain: treat with analgesia, RICE and early functional rehabilitation.\n\n**Rule:** tenderness over the *back* of the bone, or not walking four steps, gets an X-ray.",
+    "whyWrong": [
+      "",
+      "She does not meet the Ottawa criteria, so an ankle X-ray is not indicated.",
+      "She has no midfoot tenderness and is weight-bearing, so neither an ankle nor a foot X-ray is needed.",
+      "MRI has no role in the acute assessment of a simple ankle sprain.",
+      "Prolonged immobilisation slows recovery from a sprain; early mobilisation is better."
+    ],
+    "tags": [
+      "ottawa rules",
+      "ankle sprain",
+      "imaging"
+    ]
+  },
+  {
+    "id": "surg-008",
+    "discipline": "adult-surgery",
+    "topic": "orthopaedics",
+    "difficulty": "core",
+    "stem": "A 20-year-old man presents to the emergency department after falling onto his outstretched right hand while skateboarding the day before. He has pain on the radial side of the wrist. There is tenderness in the anatomical snuffbox and pain when the thumb is compressed along its long axis. Dedicated scaphoid series X-rays show no fracture.\n\nWhat is the most appropriate management?",
+    "options": [
+      "Reassure, give analgesia and discharge without follow-up",
+      "Broad arm sling for comfort and review by the GP in 6 weeks",
+      "Refer for open reduction and internal fixation",
+      "Immobilise in a scaphoid splint and arrange further imaging (repeat X-ray in 10-14 days, or MRI/CT)",
+      "Arrange a bone scan in 6 weeks if pain persists"
+    ],
+    "answer": 3,
+    "explanation": "This is a **suspected scaphoid fracture** until proven otherwise. The scaphoid is the most commonly fractured carpal bone, typically after a fall on an outstretched hand (**FOOSH**) in a young adult.\n\nThe key problems:\n- Up to a fifth of scaphoid fractures are **not visible on the first X-rays**.\n- The blood supply of the scaphoid enters distally, so a missed **waist or proximal pole fracture** can lead to **non-union and avascular necrosis** of the proximal pole, followed by early wrist arthritis.\n\nSo if the clinical signs are present (**snuffbox tenderness**, scaphoid tubercle tenderness, pain on axial thumb compression), treat as a fracture despite a normal X-ray: **immobilise** and arrange follow-up imaging. Many Australian EDs now arrange early MRI (or CT) rather than waiting 10-14 days for a repeat X-ray.\n\n**Rule:** snuffbox tenderness with a normal X-ray is a scaphoid fracture until proven otherwise. Splint and re-image.",
+    "whyWrong": [
+      "Discharging without follow-up risks a missed fracture progressing to non-union or avascular necrosis.",
+      "A sling does not immobilise the scaphoid, and 6 weeks is too late to catch a missed fracture.",
+      "Surgery is not indicated until a displaced or unstable fracture is actually shown.",
+      "",
+      "Waiting 6 weeks without immobilisation leaves any fracture unprotected; a bone scan is also a slower, less specific test."
+    ],
+    "tags": [
+      "scaphoid",
+      "foosh",
+      "occult fracture"
+    ]
+  },
+  {
+    "id": "surg-009",
+    "discipline": "adult-surgery",
+    "topic": "orthopaedics",
+    "difficulty": "exam",
+    "stem": "An 84-year-old woman from a residential aged care facility is brought to the emergency department after a fall. Before the fall she walked short distances inside with a frame and had moderate dementia. Her left leg is shortened and externally rotated. X-rays show a displaced subcapital (intracapsular) fracture of the left femoral neck. She is haemodynamically stable. A fascia iliaca block has been given for analgesia.\n\nWhat is the most appropriate definitive management?",
+    "options": [
+      "Internal fixation with cannulated screws",
+      "Dynamic hip screw fixation",
+      "Hemiarthroplasty within 48 hours",
+      "Non-operative management with 6 weeks of bed rest",
+      "Cephalomedullary (intramedullary) nail"
+    ],
+    "answer": 2,
+    "explanation": "Hip fracture management depends on **where the fracture is** and **whether it is displaced**, because the blood supply to the femoral head runs up the femoral neck in the retinacular vessels.\n\n- **Intracapsular, displaced** (as here): the blood supply is disrupted, so fixation carries a high risk of avascular necrosis and non-union. **Replace the head**: hemiarthroplasty for frailer, low-demand patients, total hip replacement for fit, independently mobile patients.\n- **Intracapsular, undisplaced**: internal fixation (cannulated screws) is often reasonable, although arthroplasty is increasingly used in older patients.\n- **Extracapsular** (intertrochanteric or subtrochanteric): the blood supply is preserved, so **fix** with a dynamic hip screw or an intramedullary nail.\n\nThis frail, low-demand woman with dementia should have a **hemiarthroplasty**. Surgery is still the right choice even in the very frail, because it relieves pain, allows early mobilisation and reduces the complications of bed rest.\n\n**Rule:** displaced intracapsular: replace. Extracapsular: fix.",
+    "whyWrong": [
+      "Screw fixation of a displaced intracapsular fracture carries a high risk of avascular necrosis and non-union in the elderly.",
+      "A dynamic hip screw is used for extracapsular (intertrochanteric) fractures.",
+      "",
+      "Bed rest causes pressure injuries, pneumonia, VTE and delirium, and is reserved for patients who are dying or unfit for any anaesthetic.",
+      "An intramedullary nail is used for extracapsular, especially subtrochanteric, fractures."
+    ],
+    "ausPearl": "The Australian Commission on Safety and Quality in Health Care Hip Fracture Clinical Care Standard asks for surgery within 48 hours of presentation, early nerve block analgesia, delirium screening, orthogeriatric care and mobilisation on the day after surgery. Performance against the standard is reported through the Australian and New Zealand Hip Fracture Registry.",
+    "tags": [
+      "hip fracture",
+      "arthroplasty",
+      "elderly"
+    ]
+  },
+  {
+    "id": "surg-010",
+    "discipline": "adult-surgery",
+    "topic": "urology",
+    "difficulty": "foundation",
+    "stem": "A 15-year-old boy presents to the emergency department with 3 hours of sudden, severe pain in the left testis that woke him from sleep. He has vomited twice. There is no dysuria or history of trauma. The left testis is exquisitely tender, lies higher than the right and has a horizontal lie. The left cremasteric reflex is absent. He is afebrile.\n\nWhat is the most appropriate next step?",
+    "options": [
+      "Scrotal Doppler ultrasound before surgical referral",
+      "Oral ciprofloxacin for presumed epididymo-orchitis",
+      "Analgesia, scrotal support and review in the morning",
+      "Urine PCR for chlamydia and gonorrhoea",
+      "Urgent surgical exploration of the scrotum"
+    ],
+    "answer": 4,
+    "explanation": "This is **testicular torsion** until proven otherwise. The testis twists on its spermatic cord, cutting off its own blood supply.\n\nThe classic picture is a **teenage boy**, **sudden severe pain** (often waking him from sleep), **nausea and vomiting**, a **high-riding testis with a horizontal lie** and an **absent cremasteric reflex**.\n\nTime is testis. Salvage is excellent if detorsion happens within about **6 hours** and falls away steeply after that. So when the clinical picture is typical, the patient goes **straight to theatre** for exploration, detorsion and **bilateral orchidopexy** (the other side has the same \"bell-clapper\" anatomy). Imaging is only appropriate when the diagnosis is genuinely uncertain and it will not delay surgery.\n\nEpididymo-orchitis, by contrast, usually has a gradual onset, fever, urinary symptoms and a preserved cremasteric reflex.\n\n**Rule:** acute scrotal pain in a young male is torsion until a surgeon has seen it. Do not let an ultrasound delay theatre.",
+    "whyWrong": [
+      "Ultrasound should not delay exploration when the clinical picture is typical of torsion.",
+      "Sudden onset, a high-riding testis and an absent cremasteric reflex point to torsion, not infection.",
+      "Waiting until morning will almost certainly result in loss of the testis.",
+      "STI testing is for epididymo-orchitis and does nothing for a torsion that needs theatre now.",
+      ""
+    ],
+    "ausPearl": "In a rural hospital without a surgeon, do not delay transfer to get an ultrasound. Discuss directly with the receiving surgical team and arrange urgent transfer. Manual detorsion (\"opening the book\", rotating the testis outwards) can be tried for pain relief, but it never replaces exploration and fixation.",
+    "tags": [
+      "testicular torsion",
+      "acute scrotum",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg-011",
+    "discipline": "adult-surgery",
+    "topic": "urology",
+    "difficulty": "core",
+    "stem": "A 42-year-old man presents to the emergency department with severe colicky right loin pain radiating to the groin, which started 4 hours ago. He is pacing the room. Temperature is 36.8°C and heart rate 92/min. Urinalysis shows blood 3+ with no nitrites or leucocytes. Creatinine is 84 µmol/L and white cell count is normal. A non-contrast CT of the kidneys, ureters and bladder shows a 4 mm stone at the right vesicoureteric junction with mild hydronephrosis. After IV analgesia his pain has settled.\n\nWhat is the most appropriate management?",
+    "options": [
+      "Urgent insertion of a right ureteric stent",
+      "NSAID analgesia, consider tamsulosin, and discharge with urology follow-up and return advice",
+      "Emergency percutaneous nephrostomy",
+      "Extracorporeal shock wave lithotripsy within 24 hours",
+      "Admit for IV antibiotics and IV fluids"
+    ],
+    "answer": 1,
+    "explanation": "This is **uncomplicated renal colic** from a small distal ureteric stone.\n\n**Stone size predicts spontaneous passage.** Most stones **under 5 mm** pass by themselves, especially distal ones, whereas stones over about 10 mm rarely pass. So a 4 mm VUJ stone with controlled pain, no infection and normal renal function can be **managed expectantly**:\n- **NSAIDs** are first-line analgesia (they reduce ureteric spasm and inflammation), with opioids as rescue.\n- **Tamsulosin** (an alpha-blocker, an off-label use) relaxes distal ureteric smooth muscle and can help stones of 5-10 mm pass. Its benefit for very small stones is modest.\n- **Follow-up imaging** to confirm passage, strain urine, and clear return advice.\n\nThe discriminating point is the absence of **red flags** that need urgent decompression: **fever or infection**, a **solitary or transplanted kidney**, **rising creatinine/AKI**, bilateral obstruction, or **pain that cannot be controlled**.\n\n**Rule:** small stone, no fever, normal kidney: treat the pain and let it pass.",
+    "whyWrong": [
+      "A stent is needed for infection, AKI or uncontrolled pain, none of which he has.",
+      "",
+      "Nephrostomy is for an infected or obstructed kidney needing urgent drainage.",
+      "Lithotripsy is not needed for a small distal stone that is likely to pass by itself.",
+      "There is no evidence of infection, so antibiotics are not indicated; IV fluids do not speed stone passage."
+    ],
+    "tags": [
+      "renal colic",
+      "ureteric stone",
+      "nsaid"
+    ]
+  },
+  {
+    "id": "surg-012",
+    "discipline": "adult-surgery",
+    "topic": "urology",
+    "difficulty": "exam",
+    "stem": "A 55-year-old woman presents to the emergency department with 2 days of left loin pain and 12 hours of fevers and rigors. Temperature is 38.9°C, heart rate 118/min and blood pressure 96/58 mmHg. Urinalysis shows blood, nitrites and leucocytes. White cell count is 19.4 × 10^9/L, CRP 210 mg/L and creatinine 142 µmol/L (baseline 70 µmol/L). CT KUB shows a 7 mm stone in the proximal left ureter with moderate hydronephrosis. Blood and urine cultures have been taken and IV antibiotics started.\n\nWhat is the most appropriate next step?",
+    "options": [
+      "Urgent decompression of the left kidney with a ureteric stent or percutaneous nephrostomy",
+      "Oral tamsulosin and repeat CT KUB in 2 weeks",
+      "Extracorporeal shock wave lithotripsy tomorrow",
+      "Continue IV antibiotics alone for 48 hours and reassess",
+      "Ureteroscopy and laser stone fragmentation today"
+    ],
+    "answer": 0,
+    "explanation": "This is an **infected, obstructed kidney** (obstructive pyelonephritis) with sepsis. It is a **urological emergency**.\n\nThe discriminating clues are the combination of a **ureteric stone with hydronephrosis** plus **fever, sepsis (tachycardia, hypotension) and AKI**. An obstructed collecting system full of infected urine is effectively an abscess: antibiotics cannot penetrate it properly, and it can progress rapidly to septic shock and loss of the kidney.\n\nManagement:\n1. Sepsis resuscitation, cultures and IV antibiotics (per eTG, e.g. amoxicillin plus gentamicin, adjusting for renal function).\n2. **Urgent decompression**: a retrograde **ureteric stent** or a **percutaneous nephrostomy**. Both work; the choice depends on local expertise and how unwell the patient is.\n3. **Definitive stone treatment is deferred** until the infection has resolved, because manipulating a stone in an infected system can cause overwhelming sepsis.\n\n**Rule:** stone + fever = drain the kidney first, deal with the stone later.",
+    "whyWrong": [
+      "",
+      "Medical expulsive therapy is contraindicated when an obstructed kidney is infected.",
+      "Lithotripsy in an infected, obstructed system risks severe sepsis and does not relieve the obstruction quickly.",
+      "Antibiotics alone cannot adequately treat infected urine trapped behind an obstruction.",
+      "Definitive stone surgery should be delayed until the infection is treated; the first priority is simple drainage."
+    ],
+    "tags": [
+      "obstructive pyelonephritis",
+      "sepsis",
+      "nephrostomy"
+    ]
+  },
+  {
+    "id": "surg-013",
+    "discipline": "adult-surgery",
+    "topic": "vascular",
+    "difficulty": "core",
+    "stem": "A 72-year-old man who smokes is brought to the emergency department of a tertiary hospital after collapsing at home. He describes sudden severe central abdominal pain radiating to his back. He is pale and sweaty. Heart rate is 120/min and blood pressure 82/50 mmHg. There is a tender, pulsatile, expansile mass above the umbilicus. A bedside ultrasound confirms a 7 cm infrarenal abdominal aortic aneurysm.\n\nWhat is the most appropriate management?",
+    "options": [
+      "Rapid IV crystalloid infusion to restore a systolic blood pressure above 120 mmHg",
+      "CT angiography of the aorta before contacting the vascular team",
+      "Permissive hypotension, activate the massive transfusion protocol and arrange immediate vascular surgery",
+      "IV morphine and admission to the ward for observation",
+      "Emergency coronary angiography"
+    ],
+    "answer": 2,
+    "explanation": "This is a **ruptured abdominal aortic aneurysm (AAA)**. The classic triad is **abdominal or back pain, hypotension and a pulsatile abdominal mass** in an older male smoker. Many die before reaching hospital, and survival depends on getting the aorta controlled quickly.\n\nKey principles:\n- **Permissive (hypotensive) resuscitation.** Aim for a systolic around 70-90 mmHg while he stays conscious. Raising the blood pressure with fluid can dislodge the clot sealing a contained retroperitoneal rupture and cause free rupture.\n- **Blood products** through the massive transfusion protocol rather than large volumes of crystalloid.\n- **Call the vascular surgeon immediately.** Repair is by open surgery or endovascular repair (EVAR). A CT angiogram is used to plan EVAR only if the patient is stable enough; an unstable patient goes to theatre.\n\n**Rule:** a known or suspected AAA plus pain plus hypotension is a rupture. Do not chase the blood pressure, and do not delay the surgeon.",
+    "whyWrong": [
+      "Aggressive fluid resuscitation raises the pressure and can convert a contained leak into a free rupture.",
+      "Delaying the vascular team for imaging in an unstable rupture costs lives; CT is only for stable patients.",
+      "",
+      "Observation of a ruptured AAA is uniformly fatal.",
+      "This is not an acute coronary syndrome; the pulsatile mass and ultrasound confirm the diagnosis."
+    ],
+    "ausPearl": "In rural Australia, a suspected ruptured AAA needs an immediate call to the retrieval service and the receiving vascular unit, because very few hospitals can repair an aorta. Keep the patient on permissive hypotension during transfer.",
+    "tags": [
+      "aaa",
+      "rupture",
+      "permissive hypotension"
+    ]
+  },
+  {
+    "id": "surg-014",
+    "discipline": "adult-surgery",
+    "topic": "vascular",
+    "difficulty": "core",
+    "stem": "A 78-year-old woman with atrial fibrillation, who stopped her apixaban 2 weeks ago because of bruising, presents to the emergency department with 3 hours of sudden severe pain in her right leg. The leg is cold and pale below the knee. Femoral, popliteal and foot pulses are absent on the right and present on the left. Light-touch sensation and ankle movement are preserved. Handheld Doppler signals are absent in the right foot.\n\nWhat is the most appropriate immediate management?",
+    "options": [
+      "Oral aspirin and outpatient vascular review",
+      "Arterial duplex ultrasound within 1 week",
+      "Restart apixaban and review in 24 hours",
+      "IV unfractionated heparin and urgent vascular surgical referral",
+      "Elevate the leg and apply warm packs"
+    ],
+    "answer": 3,
+    "explanation": "This is **acute limb ischaemia (ALI)**, most likely an **embolus from atrial fibrillation**, which is the classic cause of a sudden onset in a previously normal leg.\n\nRemember the **6 Ps**: Pain, Pallor, Pulselessness, Perishingly cold, Paraesthesia, Paralysis. Sensory and motor loss are the late, ominous signs that the limb is becoming non-viable.\n\nHer limb is **threatened but still salvageable** (Rutherford IIa: sensation and movement preserved, but no Doppler signal in the foot). Management:\n1. **IV unfractionated heparin** (bolus then infusion) at once to stop the clot propagating. Unfractionated heparin is chosen because it can be switched off quickly for theatre.\n2. Analgesia and fluids.\n3. **Urgent vascular surgical referral** for revascularisation, such as embolectomy or catheter-directed intervention, ideally within hours.\n\n**Rule:** a cold, white, pulseless leg is an emergency measured in hours. Heparinise and call vascular. Numbness or weakness means the clock has almost run out.",
+    "whyWrong": [
+      "Aspirin is inadequate and outpatient review risks losing the limb.",
+      "Waiting a week for imaging will result in irreversible ischaemia and amputation.",
+      "Restarting an oral anticoagulant does not remove the clot and delays revascularisation.",
+      "",
+      "Elevation reduces perfusion, and heat increases metabolic demand in an ischaemic limb."
+    ],
+    "tags": [
+      "acute limb ischaemia",
+      "embolus",
+      "atrial fibrillation"
+    ]
+  },
+  {
+    "id": "surg-015",
+    "discipline": "adult-surgery",
+    "topic": "vascular",
+    "difficulty": "core",
+    "stem": "A 67-year-old woman presents to a GP clinic with a leg ulcer that has been present for 3 months. It is a shallow ulcer with a sloughy base and irregular edges just above the left medial malleolus. The surrounding skin is brown-stained, firm and has an \"inverted champagne bottle\" shape. She has varicose veins. Foot pulses are palpable and the ankle-brachial pressure index (ABPI) is 1.0 in both legs. There is no cellulitis.\n\nWhat is the most appropriate management to heal the ulcer?",
+    "options": [
+      "Oral flucloxacillin for 2 weeks",
+      "Referral for femoral-popliteal bypass",
+      "Topical corticosteroid applied to the ulcer base",
+      "Leg elevation alone with a dry dressing",
+      "Graduated compression therapy"
+    ],
+    "answer": 4,
+    "explanation": "This is a **venous leg ulcer**, the most common type of leg ulcer in Australia.\n\nThe discriminating features are the **gaiter area** (especially above the **medial malleolus**), a **shallow sloughy ulcer with irregular edges**, **haemosiderin staining**, **lipodermatosclerosis** (the firm \"inverted champagne bottle\" leg) and varicose veins. The cause is chronic venous hypertension, so the treatment is to counter it.\n\n**Compression is the cornerstone of healing**, but first you must exclude significant arterial disease, because compressing an ischaemic leg can cause necrosis. That is why an **ABPI** is essential before compression:\n- **0.8-1.2**: generally safe for full compression\n- **0.5-0.8**: mixed disease, reduced compression under specialist guidance\n- **under 0.5**: severe arterial disease, no compression, vascular referral\n- **over 1.3**: incompressible (calcified) vessels, so the result is unreliable (common in diabetes)\n\nHer ABPI of 1.0 is normal, so start graduated compression with a moist wound dressing, elevation and exercise, and consider venous referral.\n\n**Rule:** check the ABPI, then compress.",
+    "whyWrong": [
+      "There is no infection, and antibiotics do not heal a venous ulcer.",
+      "Her arterial supply is normal (ABPI 1.0), so arterial bypass is not indicated.",
+      "Topical steroids do not treat the ulcer and can impair wound healing.",
+      "Elevation helps, but without compression a venous ulcer rarely heals.",
+      ""
+    ],
+    "tags": [
+      "venous ulcer",
+      "abpi",
+      "compression"
+    ]
+  },
+  {
+    "id": "surg-016",
+    "discipline": "adult-surgery",
+    "topic": "ent",
+    "difficulty": "foundation",
+    "stem": "A 62-year-old man presents to the emergency department with a nosebleed from the left nostril that started 20 minutes ago. He has hypertension and takes no anticoagulants. Heart rate is 88/min and blood pressure 162/94 mmHg. He is alert and the bleeding is steady, and anterior rhinoscopy suggests it is coming from the front of the nasal septum.\n\nWhat is the most appropriate first step in management?",
+    "options": [
+      "Sit him up, leaning forward, and apply firm continuous pressure to the soft part of the nose for 10-15 minutes",
+      "Lie him flat and pack the nose with ribbon gauze",
+      "Tilt his head back and apply ice to the forehead",
+      "Give IV labetalol to lower his blood pressure",
+      "Refer for urgent sphenopalatine artery ligation"
+    ],
+    "answer": 0,
+    "explanation": "About 90% of nosebleeds are **anterior**, arising from **Little's area** (Kiesselbach's plexus) on the anterior nasal septum, where several arteries anastomose just under a thin mucosa.\n\nFirst-aid is simple and usually works:\n- **Sit up and lean forward** so blood drains out of the nose rather than being swallowed (which causes vomiting and hides the amount of blood loss) or aspirated.\n- **Pinch the soft, cartilaginous part of the nose** firmly and continuously for **10-15 minutes** without letting go to check.\n- Spit out blood, and use ice to the mouth or bridge if you like.\n\nIf this fails, the next steps are topical vasoconstrictor/local anaesthetic, then **cautery** (silver nitrate, one side of the septum only) if a bleeding point is seen, then **anterior packing**. Posterior bleeds, which are rarer and more common in older people, may need posterior packing or ENT intervention.\n\n**Rule:** sit forward, squeeze the soft part, and count to fifteen minutes.",
+    "whyWrong": [
+      "",
+      "Lying flat makes him swallow and aspirate blood, and packing comes after first-aid measures have failed.",
+      "Tilting the head back sends blood into the pharynx, causing swallowing, vomiting and aspiration.",
+      "Raised blood pressure is common during epistaxis from anxiety and pain; acute lowering is not a first step.",
+      "Surgical ligation is reserved for refractory posterior epistaxis."
+    ],
+    "tags": [
+      "epistaxis",
+      "littles area",
+      "first aid"
+    ]
+  },
+  {
+    "id": "surg-017",
+    "discipline": "adult-surgery",
+    "topic": "ent",
+    "difficulty": "core",
+    "stem": "A 24-year-old man presents to the emergency department with 5 days of worsening sore throat, now much worse on the right. He can barely swallow his saliva, has difficulty opening his mouth and speaks with a muffled \"hot potato\" voice. Temperature is 38.6°C. There is a bulging swelling of the right soft palate above the tonsil, and the uvula is deviated to the left. His airway is patent with no stridor.\n\nWhat is the most appropriate management?",
+    "options": [
+      "Oral phenoxymethylpenicillin for 10 days and review by the GP",
+      "Urgent tonsillectomy the same day",
+      "Needle aspiration or incision and drainage plus IV benzylpenicillin",
+      "Oral prednisolone and simple analgesia",
+      "Nasal decongestant and saline gargles"
+    ],
+    "answer": 2,
+    "explanation": "This is a **peritonsillar abscess (quinsy)**, a collection of pus between the tonsil capsule and the superior constrictor muscle, usually complicating bacterial tonsillitis in a young adult.\n\nThe discriminating features are:\n- **Unilateral** severe throat pain\n- **Trismus** (the abscess irritates the medial pterygoid)\n- **\"Hot potato\" voice** and drooling\n- **Uvula deviated away** from the affected side, with the soft palate bulging above the tonsil\n\nA simple tonsillitis may be red and swollen but it does not push the uvula across or cause trismus.\n\nBecause it is pus, **drainage is the key treatment**: needle aspiration or incision and drainage, usually by ENT. This is combined with **IV antibiotics** (benzylpenicillin per eTG, which covers group A streptococcus and most oral anaerobes), IV fluids and analgesia. Watch the airway, as swelling can spread into the deep neck spaces.\n\n**Rule:** pus needs drainage. Trismus plus a deviated uvula means quinsy, not just tonsillitis.",
+    "whyWrong": [
+      "Oral antibiotics alone do not treat an established abscess, and he cannot swallow.",
+      "Immediate (\"quinsy\") tonsillectomy is not first-line; simple drainage usually works.",
+      "",
+      "Steroids may reduce swelling but do not replace drainage and antibiotics.",
+      "Decongestants and gargles have no role in treating a deep neck abscess."
+    ],
+    "tags": [
+      "quinsy",
+      "peritonsillar abscess",
+      "sore throat"
+    ]
+  },
+  {
+    "id": "surg-018",
+    "discipline": "adult-surgery",
+    "topic": "ent",
+    "difficulty": "core",
+    "stem": "A 45-year-old woman presents to a GP clinic in Adelaide because she woke up yesterday unable to hear in her left ear. She has mild tinnitus in that ear but no pain, discharge or vertigo. She had a mild cold last week. Otoscopy shows normal ear canals and tympanic membranes on both sides. With a 512 Hz tuning fork, Weber's test lateralises to the right ear, and Rinne's test is positive (air conduction louder than bone conduction) in both ears.\n\nWhat is the most appropriate next step?",
+    "options": [
+      "Reassure her that this is eustachian tube dysfunction after a cold and review in 4 weeks",
+      "Urgent referral to ENT for audiometry and consideration of high-dose oral corticosteroids",
+      "Prescribe oral amoxicillin for presumed otitis media",
+      "Prescribe carbamide peroxide ear drops for wax",
+      "Refer to an audiologist for a hearing aid fitting in 3 months"
+    ],
+    "answer": 1,
+    "explanation": "This is **sudden sensorineural hearing loss (SSNHL)**, an ENT emergency.\n\nThe tuning fork tests tell you which kind of hearing loss it is:\n- **Weber** lateralises **away from** the affected ear in **sensorineural** loss, and **towards** it in conductive loss.\n- **Rinne** is **positive** (AC > BC) in a normal ear and in sensorineural loss, and **negative** (BC > AC) in conductive loss.\n\nHere Weber goes to the right (good) ear and Rinne is positive on the left, so the left ear has **sensorineural** loss. The normal ear examination rules out wax, effusion and perforation. Do not blame the recent cold.\n\nManagement: **urgent ENT referral** (within days) for a formal audiogram, and **early high-dose oral corticosteroids** (e.g. prednisolone), which work best when started within about 2 weeks. Later, an **MRI** of the internal acoustic meatus is needed to exclude a vestibular schwannoma.\n\n**Rule:** a sudden one-sided hearing loss with a normal ear drum is sensorineural until proven otherwise. Refer urgently; the treatment window is short.",
+    "whyWrong": [
+      "The tuning fork tests show sensorineural, not conductive, loss, and waiting 4 weeks misses the treatment window.",
+      "",
+      "The eardrum is normal and there is no evidence of otitis media.",
+      "The ear canals are clear and wax causes conductive, not sensorineural, loss.",
+      "A hearing aid may eventually be needed, but urgent assessment and treatment come first."
+    ],
+    "tags": [
+      "sudden hearing loss",
+      "tuning fork",
+      "sensorineural"
+    ]
+  },
+  {
+    "id": "surg-019",
+    "discipline": "adult-surgery",
+    "topic": "ophthalmology",
+    "difficulty": "core",
+    "stem": "A 68-year-old woman of Vietnamese background presents to the emergency department at 9 pm with 3 hours of severe pain in her right eye and headache, seeing coloured halos around lights, and vomiting. Her vision is blurred. Visual acuity is 6/60 in the right eye and 6/9 in the left. The right eye is red with a hazy cornea and a fixed, mid-dilated pupil. On palpation the right globe feels hard.\n\nWhich is the most appropriate immediate management?",
+    "options": [
+      "Topical atropine drops to relieve ciliary spasm and pain",
+      "Topical chloramphenicol drops and review the next day",
+      "Topical prednisolone drops alone",
+      "IV or oral acetazolamide with topical intraocular pressure-lowering drops, and urgent ophthalmology referral",
+      "Oral valaciclovir and urgent slit-lamp examination in the morning"
+    ],
+    "answer": 3,
+    "explanation": "This is **acute angle-closure glaucoma**. The iris bows forward and blocks the drainage angle, so intraocular pressure (IOP) rises steeply and can destroy the optic nerve within hours.\n\nThe discriminating features are a **painful red eye**, **headache with nausea and vomiting** (which often leads to a misdiagnosis as a migraine or an abdominal problem), **halos around lights**, a **hazy (oedematous) cornea**, a **fixed mid-dilated pupil** and a **rock-hard globe**. Risk factors include older age, female sex, East Asian ancestry, hypermetropia, and dim light or dilating drugs, which is why it often starts in the evening.\n\nImmediate treatment lowers the IOP:\n- **Acetazolamide** 500 mg IV or oral (reduces aqueous production)\n- Topical **timolol**, **apraclonidine** and, once the pressure starts to fall, **pilocarpine** (constricts the pupil to pull the iris away from the angle)\n- Analgesia and antiemetics, lying supine\n- **Urgent ophthalmology** for definitive **laser peripheral iridotomy** (both eyes, since the other eye is at risk).\n\n**Rule:** red eye + halos + vomiting + mid-dilated pupil = angle closure. Never dilate it.",
+    "whyWrong": [
+      "Atropine dilates the pupil, crowds the angle further and worsens angle closure.",
+      "This is not conjunctivitis, and delaying treatment risks permanent vision loss.",
+      "Steroids may be used as an adjunct but do not lower the pressure, which is the emergency.",
+      "",
+      "Herpes simplex keratitis does not cause a hard globe and fixed mid-dilated pupil, and waiting overnight risks blindness."
+    ],
+    "tags": [
+      "red eye",
+      "angle closure glaucoma",
+      "emergency"
+    ]
+  },
+  {
+    "id": "surg-020",
+    "discipline": "adult-surgery",
+    "topic": "ophthalmology",
+    "difficulty": "foundation",
+    "stem": "A 30-year-old man presents to a GP clinic in Perth with a red left eye that he noticed this morning. As part of your assessment you consider which features would mean he needs same-day referral to an ophthalmologist or emergency department.\n\nWhich of the following findings is the strongest red flag?",
+    "options": [
+      "Sticky yellow discharge with eyelids stuck together on waking",
+      "Bilateral itching with watery discharge",
+      "A gritty sensation that started after a cold",
+      "Crusting of the eyelid margins",
+      "Reduced visual acuity in the affected eye"
+    ],
+    "answer": 4,
+    "explanation": "Most red eyes seen in general practice are benign (conjunctivitis, blepharitis, subconjunctival haemorrhage) and can be managed by the GP. The skill is spotting the few that threaten sight.\n\n**Red flags in a red eye** that call for urgent same-day ophthalmology:\n- **Reduced visual acuity** (always check and record it; it is the \"vital sign\" of the eye)\n- **Significant pain** (rather than grittiness or itch)\n- **Photophobia**\n- An **abnormal pupil** (fixed, irregular or mid-dilated)\n- A **corneal opacity or staining** on fluorescein\n- **Ciliary flush** (redness concentrated around the limbus)\n- Trauma, chemical injury or a possible foreign body\n- Contact lens wearers (risk of microbial keratitis)\n\nConjunctivitis causes discharge, grittiness and diffuse redness but **vision is normal** (at most slightly blurred, clearing with blinking).\n\n**Rule:** a red eye with normal vision is usually safe. A red eye with reduced vision is an emergency until proven otherwise. Check the acuity in every red eye.",
+    "whyWrong": [
+      "Purulent discharge with stuck eyelids is typical of bacterial conjunctivitis, which is usually self-limiting.",
+      "Bilateral itch with watery discharge suggests allergic conjunctivitis.",
+      "A gritty eye after a cold is typical of viral conjunctivitis.",
+      "Lid margin crusting suggests blepharitis, a chronic benign condition.",
+      ""
+    ],
+    "tags": [
+      "red eye",
+      "red flags",
+      "visual acuity"
+    ]
+  },
+  {
+    "id": "surg-021",
+    "discipline": "adult-surgery",
+    "topic": "ophthalmology",
+    "difficulty": "exam",
+    "stem": "A 74-year-old woman presents to the emergency department 2 hours after sudden, painless loss of vision in her right eye. For 3 weeks she has had a new right-sided headache, tenderness of her scalp when brushing her hair, and pain in her jaw when chewing. She has also felt tired and lost 3 kg. Visual acuity is counting fingers in the right eye and 6/9 in the left. There is a right relative afferent pupillary defect. Fundoscopy shows a pale, swollen right optic disc. The right temporal artery is thickened and tender.\n\nWhat is the most appropriate next step?",
+    "options": [
+      "Take blood for ESR and CRP, then start high-dose corticosteroids immediately and arrange a temporal artery biopsy",
+      "Arrange a temporal artery biopsy and start corticosteroids only if it is positive",
+      "Start aspirin and arrange an outpatient ophthalmology review",
+      "Perform ocular massage and anterior chamber paracentesis",
+      "Arrange an MRI of the brain before starting any treatment"
+    ],
+    "answer": 0,
+    "explanation": "This is **giant cell arteritis (GCA)** causing **arteritic anterior ischaemic optic neuropathy**. It is a sight-threatening emergency, and the other eye can be affected within days.\n\nThe discriminating clues are the **age (over 50)**, **new headache**, **scalp tenderness**, **jaw claudication** (highly specific), **systemic symptoms** and a **thickened, tender temporal artery**, all together with **sudden painless monocular vision loss**. A pale, swollen disc suggests the optic nerve head has infarcted.\n\n**Do not wait for tests before treating.** Take blood for ESR and CRP (and a full blood count; a raised platelet count supports GCA), then start **high-dose corticosteroids immediately**. With visual loss, IV methylprednisolone is often given first, followed by high-dose oral prednisolone. A **temporal artery biopsy** (or temporal artery ultrasound) should be done within about 1-2 weeks: the histology remains positive for some time after steroids are started.\n\nThe lost vision rarely returns. The aim is to **save the other eye**.\n\n**Rule:** in an older person with a new headache and visual symptoms, think GCA. Steroids first, biopsy later.",
+    "whyWrong": [
+      "",
+      "Waiting for a biopsy before starting steroids risks blindness in the other eye.",
+      "Aspirin alone does not treat vasculitis, and outpatient review is far too slow.",
+      "Ocular massage and paracentesis were once tried for central retinal artery occlusion, not arteritic optic neuropathy.",
+      "Imaging should not delay steroids when the clinical diagnosis of GCA is this clear."
+    ],
+    "tags": [
+      "giant cell arteritis",
+      "vision loss",
+      "corticosteroids"
+    ]
+  },
+  {
+    "id": "surg-022",
+    "discipline": "adult-surgery",
+    "topic": "breast",
+    "difficulty": "foundation",
+    "stem": "A 45-year-old woman presents to a GP clinic in Melbourne after finding a lump in her left breast in the shower 1 week ago. She has no nipple discharge and no family history of breast cancer. You find a 2 cm firm lump in the upper outer quadrant of the left breast.\n\nWhich combination of investigations makes up the \"triple test\" used to assess her breast lump?",
+    "options": [
+      "Clinical examination, mammography and breast MRI",
+      "Mammography, breast ultrasound and serum CA 15-3",
+      "Clinical history and examination, imaging (mammography and/or ultrasound) and non-excision biopsy (usually core biopsy)",
+      "Clinical examination, BRCA1/2 genetic testing and core biopsy",
+      "Breast ultrasound, fine needle aspiration and CT of the chest"
+    ],
+    "answer": 2,
+    "explanation": "The **triple test** is the standard way to investigate any new breast symptom in Australia. It has three parts:\n1. **Clinical assessment**: history and breast examination (including the axillae).\n2. **Imaging**: mammography and/or ultrasound. **Ultrasound** alone is usually the first choice in women **under 35** (their breasts are denser and cancer is uncommon); **mammography plus ultrasound** is generally used from 35 and over.\n3. **Non-excision biopsy**: usually a **core biopsy** (preferred, because it gives histology), sometimes a fine needle aspiration.\n\nEach component is scored as benign, indeterminate/suspicious or malignant. The test is **positive** if *any* component is suspicious or malignant. Only when **all three are benign and consistent with one another** can cancer be excluded with high confidence (over 99%).\n\nMRI, tumour markers and genetic testing are not part of it. They have specific roles later, for selected patients.\n\n**Rule:** examine, image, sample. All three must agree before you reassure.",
+    "whyWrong": [
+      "MRI is not part of the triple test and is reserved for selected cases.",
+      "Tumour markers such as CA 15-3 have no role in diagnosing a breast lump.",
+      "",
+      "Genetic testing is for selected high-risk women and is not part of the triple test.",
+      "CT of the chest is a staging test used after cancer is confirmed, not a diagnostic test for the lump."
+    ],
+    "ausPearl": "Cancer Australia's guidance on investigating a new breast symptom is built around the triple test. Any woman with a breast symptom should be referred for diagnostic imaging, not to BreastScreen Australia, which is a screening service for women without symptoms.",
+    "tags": [
+      "triple test",
+      "breast lump",
+      "investigation"
+    ]
+  },
+  {
+    "id": "surg-023",
+    "discipline": "adult-surgery",
+    "topic": "breast",
+    "difficulty": "core",
+    "stem": "A 24-year-old woman presents to a GP clinic with a lump in her right breast that she noticed a month ago. It is painless and has not changed with her menstrual cycle. On examination there is a 2 cm smooth, rubbery, well-defined and highly mobile lump in the upper outer quadrant of the right breast. There is no skin change, nipple change or axillary lymphadenopathy.\n\nWhat is the most appropriate initial imaging investigation?",
+    "options": [
+      "Bilateral mammography",
+      "Breast ultrasound",
+      "Breast MRI",
+      "CT of the chest",
+      "Whole-body PET-CT"
+    ],
+    "answer": 1,
+    "explanation": "The most likely diagnosis is a **fibroadenoma** (a \"breast mouse\"): a **smooth, rubbery, well-defined, very mobile** lump in a young woman. It is the most common breast lump in women under 30. Even so, it still needs a **triple test**; the history and examination alone are never enough to label a lump benign.\n\nThe choice of imaging depends on age:\n- **Under 35**: **ultrasound** is the first-line test. Young breast tissue is dense (lots of glandular tissue), which makes mammograms hard to read, the chance of cancer is low, and ultrasound avoids radiation. It also distinguishes a solid lump from a cyst very well.\n- **35 and over**: mammography plus ultrasound.\n\nIf the ultrasound shows a typical fibroadenoma, a core biopsy completes the triple test. Once all three components are benign, most fibroadenomas can simply be left alone, with excision offered if the lump grows, is large or the woman prefers it.\n\n**Rule:** under 35, ultrasound first. 35 and over, mammogram plus ultrasound.",
+    "whyWrong": [
+      "Mammography is less sensitive in dense young breasts and is not first-line under 35.",
+      "",
+      "MRI is reserved for specific situations such as high genetic risk or problem-solving, not first-line assessment.",
+      "CT is not used to assess a breast lump.",
+      "PET-CT is a staging tool for selected confirmed cancers, not for a new, probably benign lump."
+    ],
+    "tags": [
+      "fibroadenoma",
+      "breast ultrasound",
+      "young woman"
+    ]
+  },
+  {
+    "id": "surg-024",
+    "discipline": "adult-surgery",
+    "topic": "breast",
+    "difficulty": "exam",
+    "stem": "A 52-year-old woman is referred by her GP with a 2 cm hard, irregular lump in the left breast that is slightly tethered to the overlying skin. Her last BreastScreen mammogram 18 months ago was normal. Diagnostic mammography and ultrasound are reported as showing dense breast tissue with no discrete lesion. An ultrasound-guided core biopsy of the palpable area shows benign breast tissue only.\n\nWhat is the most appropriate next step?",
+    "options": [
+      "Reassure her and advise her to return to BreastScreen in 2 years",
+      "Repeat the mammogram in 12 months",
+      "Start tamoxifen and review in 3 months",
+      "Arrange further tissue diagnosis, such as a repeat core biopsy or surgical excision biopsy",
+      "Arrange an MRI of the breast and discharge her if it is normal"
+    ],
+    "answer": 3,
+    "explanation": "This is a **discordant triple test**. Clinically the lump is **suspicious for cancer** (hard, irregular, tethered), but the imaging and biopsy are benign.\n\nThe triple test only reassures when **all three components are benign and agree with each other**. If any one is suspicious, the test is **positive**, and cancer must be excluded definitively. A benign core biopsy of a clinically malignant lump most likely means the **needle missed the lesion**, and mammography can easily fail to show a cancer in dense breast tissue. A normal screening mammogram 18 months ago also does not rule out a cancer now (interval cancers happen).\n\nThe next step is **further tissue diagnosis**: a repeat (often image- or stereotactically-guided, or vacuum-assisted) biopsy, or a **surgical excision biopsy**, discussed at a multidisciplinary meeting.\n\n**Rule:** the triple test is only as strong as its most suspicious part. Never let normal imaging and a benign biopsy overrule a suspicious lump.",
+    "whyWrong": [
+      "Screening is for women without symptoms, and reassurance is unsafe when the triple test is discordant.",
+      "Waiting a year could allow a missed cancer to progress.",
+      "Starting tamoxifen without a tissue diagnosis of cancer is inappropriate.",
+      "",
+      "MRI can help solve problems, but a normal MRI does not safely exclude cancer in a clinically suspicious lump."
+    ],
+    "ausPearl": "BreastScreen Australia invites women aged 50-74 for a free screening mammogram every 2 years, and women from 40 are also eligible. It is a screening service for women without symptoms: a woman with a breast lump needs diagnostic assessment, even if she has recently had a normal screen.",
+    "tags": [
+      "triple test",
+      "discordance",
+      "breast cancer"
+    ]
+  },
+  {
+    "id": "surg-025",
+    "discipline": "adult-surgery",
+    "topic": "perioperative",
+    "difficulty": "core",
+    "stem": "You are the surgical intern called to the ward at 2 am to see a 70-year-old man on day 1 after an open right hemicolectomy. He has an indwelling urinary catheter. The nurse reports that his urine output has been 10 mL/h for the past 3 hours (he weighs 80 kg). He is comfortable, with heart rate 88/min, blood pressure 132/78 mmHg and a soft abdomen apart from the wound. His afternoon creatinine was normal.\n\nWhat is the most appropriate first step?",
+    "options": [
+      "Give IV furosemide 40 mg",
+      "Arrange an urgent renal ultrasound",
+      "Give a 2 L bolus of IV crystalloid over 1 hour",
+      "Start IV antibiotics for presumed sepsis",
+      "Check that the urinary catheter is not blocked, for example by flushing it or doing a bladder scan"
+    ],
+    "answer": 4,
+    "explanation": "Postoperative **oliguria** is defined as a urine output below **0.5 mL/kg/h** (here, below 40 mL/h). It is one of the most common intern calls.\n\nThink of the causes in three groups, and deal with the simplest first:\n- **Post-renal**: in a catheterised patient, the commonest cause of a sudden drop in output is a **blocked or kinked catheter**. Check the tubing, **flush the catheter** or do a **bladder scan**. It takes two minutes and avoids unnecessary treatment.\n- **Pre-renal**: hypovolaemia from blood loss, third-space losses, NG losses or inadequate replacement. Assess the fluid balance, perfusion and bloods, then give a **fluid challenge** (e.g. 250-500 mL) and reassess.\n- **Renal**: acute kidney injury from sepsis, nephrotoxins (NSAIDs, gentamicin, contrast) or prolonged hypotension.\n\nHe is haemodynamically stable, so there is time to exclude the easy, mechanical cause before committing to a fluid bolus.\n\n**Rule:** low urine output in a catheterised patient: check the catheter first, then the patient.",
+    "whyWrong": [
+      "Diuretics can worsen hypovolaemia and should not be used to treat a number without a cause.",
+      "Imaging comes much later and is not the first bedside step.",
+      "A small fluid challenge may follow, but a 2 L bolus is excessive before excluding a blocked catheter.",
+      "There is no clinical evidence of sepsis in this stable, afebrile patient.",
+      ""
+    ],
+    "tags": [
+      "oliguria",
+      "postoperative",
+      "intern"
+    ]
+  },
+  {
+    "id": "surg-026",
+    "discipline": "adult-surgery",
+    "topic": "perioperative",
+    "difficulty": "core",
+    "stem": "A 71-year-old man attends a pre-admission clinic before an elective total knee replacement in 2 weeks. He takes warfarin for non-valvular atrial fibrillation and hypertension, and has no other stroke risk factors. He has never had a stroke or transient ischaemic attack, has no mechanical heart valve and has not had a venous thromboembolism. His INR has been stable at 2.0-3.0. His renal function is normal.\n\nWhat is the most appropriate perioperative plan for his warfarin?",
+    "options": [
+      "Stop warfarin 5 days before surgery without bridging, check the INR the day before, and restart 12-24 hours after surgery if haemostasis is adequate",
+      "Continue warfarin throughout and proceed with surgery with an INR of 2.5",
+      "Stop warfarin 5 days before surgery and bridge with therapeutic enoxaparin until the day before surgery",
+      "Stop warfarin 1 day before surgery and give vitamin K on the morning of surgery",
+      "Stop warfarin 2 weeks before surgery and switch to aspirin"
+    ],
+    "answer": 0,
+    "explanation": "Perioperative anticoagulation is a balance between **bleeding risk** from the operation and **thrombotic risk** from stopping the anticoagulant.\n\n**Warfarin** has a long effect, and the INR takes about **5 days** to normalise after stopping. For surgery with a significant bleeding risk, such as a joint replacement:\n- Stop warfarin **5 days before** surgery.\n- Check the **INR the day before** (aim for 1.5 or less; give low-dose vitamin K if it is still high).\n- **Restart 12-24 hours after surgery** (usually the evening or the day after) once haemostasis is secure, alongside VTE prophylaxis.\n\n**Bridging** with LMWH is not recommended for most patients with AF. The BRIDGE trial showed that bridging in AF **increased major bleeding without reducing stroke**. Bridging is now reserved for **high thrombotic risk**, such as a **mechanical mitral valve**, a recent stroke/TIA or VTE (within about 3 months), or a very high stroke risk score. This man has none of these.\n\n**Rule:** warfarin: stop 5 days before, check the INR the day before, and bridge only for mechanical valves or recent clots.",
+    "whyWrong": [
+      "",
+      "Joint replacement is a high-bleeding-risk procedure and cannot be done safely with a therapeutic INR.",
+      "Bridging in low-to-moderate risk AF increases bleeding without reducing stroke.",
+      "One day is not enough for the INR to normalise, and routine same-day vitamin K is not the plan.",
+      "Stopping for 2 weeks leaves him unnecessarily unprotected, and aspirin is not an adequate substitute for stroke prevention in AF."
+    ],
+    "ausPearl": "For DOACs (apixaban, rivaroxaban, dabigatran), the timing of cessation depends on the drug, renal function and the bleeding risk of the procedure, and bridging is not needed because they act and wear off quickly. Check local hospital perioperative anticoagulation protocols.",
+    "tags": [
+      "warfarin",
+      "bridging",
+      "perioperative anticoagulation"
+    ]
+  },
+  {
+    "id": "surg-027",
+    "discipline": "adult-surgery",
+    "topic": "perioperative",
+    "difficulty": "exam",
+    "stem": "A 58-year-old man with type 2 diabetes is on day 1 after an elective laparoscopic cholecystectomy. His regular medications are metformin and empagliflozin, and he took both on the morning of surgery. He has been drinking little and now has nausea, vomiting, abdominal pain and rapid deep breathing. Temperature is 36.9°C, heart rate 110/min and blood pressure 118/72 mmHg. Capillary blood glucose is 9.8 mmol/L. Venous blood gas: pH 7.16, bicarbonate 9 mmol/L, anion gap 26 mmol/L. Blood ketones (beta-hydroxybutyrate) are 5.2 mmol/L. Lactate is 1.4 mmol/L.\n\nWhat is the most appropriate management?",
+    "options": [
+      "Withhold all insulin because the blood glucose is below 11 mmol/L",
+      "Give IV sodium bicarbonate to correct the acidosis",
+      "Stop empagliflozin and start IV fluids with an insulin infusion and IV glucose",
+      "Arrange an urgent CT abdomen for a bile leak and keep him nil by mouth",
+      "Give an oral antiemetic and recheck blood gas in 6 hours"
+    ],
+    "answer": 2,
+    "explanation": "This is **euglycaemic diabetic ketoacidosis** caused by an **SGLT2 inhibitor** (empagliflozin), triggered by surgery, fasting and reduced oral intake.\n\nSGLT2 inhibitors make the kidneys excrete glucose, so the blood glucose stays **near normal (often under 14 mmol/L)** even while the patient becomes severely ketotic and acidotic. The trap is to be falsely reassured by the glucose. The discriminating findings are a **high anion gap metabolic acidosis** with **raised ketones** and a normal lactate.\n\nManagement follows DKA principles with one key modification:\n- **Stop the SGLT2 inhibitor.**\n- **IV fluids** and potassium replacement.\n- **Insulin infusion**, which is what switches off ketone production.\n- **IV glucose (dextrose)** given together with the insulin from the start, to prevent hypoglycaemia while enough insulin is given to clear the ketones.\n\nPrevention is the real lesson: SGLT2 inhibitors should be **withheld before surgery** according to ADS-ANZCA guidance.\n\n**Rule:** a sick patient on an \"-gliflozin\" needs ketones checked, whatever the glucose. Treat ketones, not the glucose.",
+    "whyWrong": [
+      "Insulin is essential to stop ketogenesis; glucose is given alongside it to allow this.",
+      "Bicarbonate is not routinely used in DKA and does not treat the cause.",
+      "",
+      "His abdominal pain and vomiting are explained by ketoacidosis; imaging does not address this life-threatening metabolic problem.",
+      "Severe ketoacidosis needs immediate treatment, not a 6-hour wait."
+    ],
+    "ausPearl": "The ADS-ANZCA perioperative guidance advises withholding SGLT2 inhibitors for 2 days before and on the day of surgery for procedures needing at least one day in hospital (usually the day of the procedure only for day procedures), and checking blood ketones before surgery and afterwards if the patient is unwell.",
+    "tags": [
+      "sglt2 inhibitor",
+      "euglycaemic dka",
+      "diabetes"
+    ]
+  },
+  {
+    "id": "surg-028",
+    "discipline": "adult-surgery",
+    "topic": "surgical-oncology",
+    "difficulty": "foundation",
+    "stem": "A 56-year-old man presents to a GP clinic in Hobart with a letter from the National Bowel Cancer Screening Program saying that his immunochemical faecal occult blood test (iFOBT) was positive. He feels well, with no change in bowel habit, rectal bleeding or weight loss. He has occasional haemorrhoids. Abdominal and rectal examinations are normal. His full blood count is normal.\n\nWhat is the most appropriate next step?",
+    "options": [
+      "Repeat the iFOBT in 3 months",
+      "Refer for colonoscopy",
+      "Check serum CEA and refer only if it is raised",
+      "Reassure him that the positive result is due to his haemorrhoids",
+      "Repeat the iFOBT in 2 years as part of routine screening"
+    ],
+    "answer": 1,
+    "explanation": "A **positive iFOBT** means blood was detected in the stool. The iFOBT uses antibodies against human haemoglobin, so it is not affected by diet or medications.\n\nMost people with a positive test do not have cancer, but a significant proportion will have **advanced adenomas or cancer**. The only way to find out is to look: **every positive iFOBT should be followed by a colonoscopy**, ideally within about 30 days.\n\nCommon mistakes:\n- **Repeating the test**: a negative repeat does not cancel a positive result, because bowel cancers bleed intermittently.\n- **Blaming haemorrhoids**: they are common and can coexist with a cancer. They are not a reason to skip colonoscopy.\n- **Tumour markers**: CEA is used to monitor patients after treatment for colorectal cancer, not for diagnosis or screening.\n\n**Rule:** a positive iFOBT means colonoscopy. Never repeat, never explain away.",
+    "whyWrong": [
+      "Repeating the test is inappropriate because bowel cancer bleeds intermittently.",
+      "",
+      "CEA is a poor diagnostic test and a normal result does not exclude cancer.",
+      "Haemorrhoids do not explain away a positive screening test.",
+      "A positive test takes him out of routine screening and needs investigation now."
+    ],
+    "ausPearl": "The National Bowel Cancer Screening Program mails a free iFOBT kit every 2 years to people aged 50-74, and since July 2024 people aged 45-49 can request their first kit. The program's Participant Follow-up Function tracks people with positive results to make sure they get a colonoscopy.",
+    "tags": [
+      "nbcsp",
+      "ifobt",
+      "bowel cancer screening"
+    ]
+  },
+  {
+    "id": "surg-029",
+    "discipline": "adult-surgery",
+    "topic": "surgical-oncology",
+    "difficulty": "core",
+    "stem": "A 62-year-old woman presents to a GP clinic with 2 months of looser, more frequent bowel motions and increasing tiredness. She has lost 4 kg without trying. Her last NBCSP iFOBT, 18 months ago, was negative. Abdominal and rectal examinations are normal. Haemoglobin is 98 g/L with a low mean cell volume, and ferritin is 8 µg/L. Coeliac serology is negative.\n\nWhat is the most appropriate next step?",
+    "options": [
+      "Arrange an iFOBT and refer for colonoscopy only if it is positive",
+      "Start oral iron and recheck her full blood count in 3 months",
+      "Reassure her because her screening test 18 months ago was negative",
+      "Arrange CT colonography and repeat it in 12 months",
+      "Refer urgently for colonoscopy (and consider gastroscopy)"
+    ],
+    "answer": 4,
+    "explanation": "This woman has **symptoms**: a **change in bowel habit**, **unexplained weight loss** and **iron deficiency anaemia**. In someone over 50 these are red flags for **colorectal cancer**, and she needs an **urgent diagnostic colonoscopy**.\n\nThe key principle is that **screening tests are for people without symptoms**. The iFOBT is designed to find cancer early in a well population. It is not sensitive enough to exclude cancer in someone with symptoms, and it should not be used to triage them. A negative screening test in the past does not protect her either: cancers can develop, or be missed, between screens.\n\nUnexplained iron deficiency anaemia in an adult (in men and postmenopausal women especially) needs investigation of the whole gastrointestinal tract: **colonoscopy plus gastroscopy** is the usual approach, unless there is another clear cause.\n\n**Rule:** symptoms are not screening. A person with red flags needs a diagnostic test (colonoscopy), not an iFOBT.",
+    "whyWrong": [
+      "An iFOBT is a screening test and should not be used to decide whether a symptomatic patient needs colonoscopy.",
+      "Treating the anaemia without finding its cause may delay a cancer diagnosis.",
+      "A previous negative screen does not exclude cancer in someone who now has symptoms.",
+      "Colonoscopy is preferred because it allows biopsy, and a 12-month repeat is inappropriate for red-flag symptoms.",
+      ""
+    ],
+    "ausPearl": "The national optimal care pathway for colorectal cancer stresses prompt colonoscopy for people with red-flag symptoms such as iron deficiency anaemia or rectal bleeding. These patients should be referred directly for diagnostic investigation, not steered back into the screening program.",
+    "tags": [
+      "colorectal cancer",
+      "iron deficiency",
+      "red flags"
+    ]
+  },
+  {
+    "id": "surg-030",
+    "discipline": "adult-surgery",
+    "topic": "surgical-oncology",
+    "difficulty": "exam",
+    "stem": "A 48-year-old man attends a GP skin check clinic on the Gold Coast. On his upper back there is a 9 mm pigmented lesion that his wife says has grown over the past 4 months. It is asymmetrical with an irregular border and several shades of brown and black. Dermoscopy shows an atypical pigment network and blue-white structures. There are no palpable lymph nodes.\n\nWhat is the most appropriate initial management?",
+    "options": [
+      "Shave biopsy of the raised part of the lesion",
+      "Wide local excision with a 2 cm margin",
+      "Cryotherapy with liquid nitrogen",
+      "Complete excision biopsy with a 2 mm clinical margin",
+      "Review with sequential digital dermoscopy in 3 months"
+    ],
+    "answer": 3,
+    "explanation": "This lesion is **highly suspicious for melanoma**: it is **changing**, and it is **asymmetrical** with an **irregular border** and **multiple colours**, over 6 mm in size (**ABCDE**), with atypical dermoscopic features.\n\nThe first step is a **diagnostic complete excision biopsy** with a **2 mm clinical margin**, down to the subcutaneous fat, orientated to allow later definitive surgery (along the long axis on a limb). This gives the pathologist the whole lesion so they can measure the **Breslow thickness**, which is the most important prognostic factor and decides everything that follows.\n\nThe **definitive wide local excision** margin is then chosen based on the Breslow thickness:\n- in situ: 5-10 mm\n- up to 1 mm: 1 cm\n- over 1 mm to 4 mm: 1-2 cm\n- over 4 mm: 2 cm\n\nSentinel lymph node biopsy is discussed for thicker lesions.\n\nShave biopsies can transect the lesion and make it impossible to measure the true Breslow thickness.\n\n**Rule:** suspicious pigmented lesion: excise it whole with 2 mm margins first. Let the Breslow thickness decide the final margin.",
+    "whyWrong": [
+      "A shave biopsy can cut through the base of a melanoma and prevent accurate Breslow measurement.",
+      "The definitive margin cannot be chosen until the Breslow thickness is known, and a wide excision first can disrupt lymphatic mapping.",
+      "Cryotherapy destroys the lesion without any histology and must never be used on a suspected melanoma.",
+      "",
+      "Monitoring is for flat lesions with low suspicion, not a changing lesion with multiple melanoma features."
+    ],
+    "ausPearl": "Australia and New Zealand have the highest melanoma rates in the world. The Cancer Council Australia melanoma guidelines recommend excision biopsy with a 2 mm margin as the preferred first step for a suspicious lesion, with definitive margins based on Breslow thickness.",
+    "tags": [
+      "melanoma",
+      "excision biopsy",
+      "skin cancer"
+    ]
+  }
+]

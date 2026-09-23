@@ -1,0 +1,737 @@
+[
+  {
+    "id": "mh-001",
+    "discipline": "mental-health",
+    "topic": "mood-disorders",
+    "difficulty": "foundation",
+    "stem": "A 28-year-old woman presents to her GP with 6 weeks of low mood, loss of interest in activities she used to enjoy, early morning waking, poor concentration and reduced appetite. Her PHQ-9 score is 16. She has passive thoughts that life is not worth living but no plan or intent. There is no history of elevated mood, psychotic symptoms or substance use. She is not pregnant and has no medical comorbidities. She would like to start medication alongside psychological therapy.\n\nWhich one of the following is the most appropriate initial medication?",
+    "options": [
+      "Amitriptyline 25 mg at night",
+      "Sertraline 50 mg daily",
+      "Phenelzine 15 mg three times daily",
+      "Lithium carbonate 250 mg twice daily",
+      "Diazepam 5 mg three times daily"
+    ],
+    "answer": 1,
+    "explanation": "This is a **moderate major depressive episode** (5+ symptoms for more than 2 weeks, PHQ-9 15 to 19) with no bipolar or psychotic features.\n\nFor moderate depression, RANZCP guidelines recommend **psychological therapy (e.g. CBT) and/or an antidepressant**. First-line drugs are **SSRIs** (sertraline, escitalopram, fluoxetine) because they work as well as older agents and are far **safer in overdose**, which matters when she has passive suicidal thoughts.\n\nKey clues: no history of mania (so an antidepressant is safe to start), and no psychosis (so no antipsychotic needed).\n\nPractical points: start low, review in 1 to 2 weeks for side effects and suicidality, expect benefit after 2 to 4 weeks and full effect by 4 to 6 weeks.\n\n**Rule:** Depression without mania = SSRI first. Always ask about past highs before prescribing.",
+    "whyWrong": [
+      "TCAs are effective but toxic in overdose (arrhythmias, seizures), so they are not first line, especially with suicidal thoughts.",
+      "",
+      "MAOIs need dietary tyramine restriction and have many interactions; reserved for treatment-resistant depression.",
+      "Lithium is a mood stabiliser for bipolar disorder or augmentation in resistant depression, not first-line monotherapy.",
+      "Benzodiazepines do not treat depression and carry dependence risk."
+    ],
+    "ausPearl": "A GP Mental Health Treatment Plan gives access to Medicare-rebated sessions with a psychologist under the Better Access initiative. Give crisis numbers: Lifeline 13 11 14.",
+    "tags": ["depression", "ssri", "antidepressants"]
+  },
+  {
+    "id": "mh-002",
+    "discipline": "mental-health",
+    "topic": "mood-disorders",
+    "difficulty": "core",
+    "stem": "A 35-year-old man with a moderate depressive episode was started on sertraline 50 mg daily 2 weeks ago. He returns saying the tablets 'are not working'. He had mild nausea in the first few days, which has settled. His mood is unchanged but his sleep is slightly better. He denies suicidal ideation and has been taking the medication every day.\n\nWhich one of the following is the most appropriate next step?",
+    "options": [
+      "Stop sertraline and switch to venlafaxine",
+      "Add quetiapine 25 mg at night",
+      "Increase sertraline to 200 mg daily today",
+      "Continue sertraline 50 mg and review in 2 weeks, explaining that full effect takes 4 to 6 weeks",
+      "Stop sertraline and start mirtazapine"
+    ],
+    "answer": 3,
+    "explanation": "Antidepressants take time. Some early improvement (often sleep and energy) may appear in the first 2 weeks, but **full response usually takes 4 to 6 weeks** at a therapeutic dose.\n\nHe is adherent, tolerating the drug and already showing an early sign of response (better sleep). Switching now would waste an adequate trial and expose him to new side effects.\n\nA reasonable approach: continue, reassure, review in about 2 weeks. If there is **little or no improvement after 3 to 4 weeks** at a therapeutic dose, increase the dose; if still no response, switch class or augment.\n\nOnce in remission, continue for at least **6 to 12 months** after a first episode to reduce relapse.\n\n**Rule:** Judge an antidepressant at 4 to 6 weeks, not 2. Early side effects come first, benefits later.",
+    "whyWrong": [
+      "Switching at 2 weeks abandons a trial before it has had time to work.",
+      "Augmentation is for partial response after an adequate trial, not at week 2.",
+      "Doses are increased stepwise after an adequate trial; jumping to the maximum dose raises side effects without evidence of benefit.",
+      "",
+      "Switching now is premature; he has had neither an adequate duration nor poor tolerability."
+    ],
+    "tags": ["depression", "ssri", "treatment duration"]
+  },
+  {
+    "id": "mh-003",
+    "discipline": "mental-health",
+    "topic": "mood-disorders",
+    "difficulty": "foundation",
+    "stem": "A 30-year-old man with bipolar I disorder is to be started on lithium carbonate for maintenance treatment after recovering from a manic episode. He is otherwise well and takes no other medications.\n\nWhich one of the following sets of baseline investigations is most important before starting lithium?",
+    "options": [
+      "Renal function (UEC and eGFR), thyroid function and serum calcium",
+      "Liver function tests and serum lipase",
+      "Full blood count with weekly neutrophil counts",
+      "Fasting lipids and HbA1c only",
+      "Electroencephalogram and MRI brain"
+    ],
+    "answer": 0,
+    "explanation": "Lithium is renally excreted and has a **narrow therapeutic index**. Its main long-term adverse effects are on the **kidneys** (reduced GFR, nephrogenic diabetes insipidus), **thyroid** (hypothyroidism, goitre) and **parathyroid** (hypercalcaemia).\n\nSo baseline tests are: **UEC/eGFR, TFTs, calcium**, plus weight/BMI, a pregnancy test in women of childbearing age (Ebstein anomaly risk) and an ECG if there is cardiac risk or age over 40.\n\nMonitoring: serum level taken **12 hours after the last dose** (trough). Typical maintenance target is about **0.6 to 0.8 mmol/L**. Check levels after dose changes, then regularly; renal and thyroid function about every 6 months, calcium at least yearly.\n\n**Rule:** Lithium hits Kidneys, Thyroid and Calcium (think 'KTC'). Check all three before and during treatment.",
+    "whyWrong": [
+      "",
+      "Liver and pancreatic tests matter for sodium valproate, not lithium.",
+      "Weekly neutrophil monitoring is required for clozapine, not lithium.",
+      "Metabolic monitoring is key for antipsychotics; it misses lithium's renal and thyroid toxicity.",
+      "Neuroimaging and EEG are not routine before lithium."
+    ],
+    "tags": ["bipolar", "lithium", "monitoring"]
+  },
+  {
+    "id": "mh-004",
+    "discipline": "mental-health",
+    "topic": "mood-disorders",
+    "difficulty": "exam",
+    "stem": "A 70-year-old woman who has taken lithium for bipolar disorder for 15 years is brought to the emergency department with 4 days of vomiting, diarrhoea, worsening confusion and unsteadiness. Her GP started hydrochlorothiazide for hypertension 3 weeks ago. On examination she has a coarse tremor, myoclonic jerks and ataxia, and her GCS is 12. Serum lithium (12 hours post-dose) is 3.1 mmol/L. Creatinine is 210 micromol/L (baseline 90 micromol/L). ECG shows sinus rhythm.\n\nIn addition to stopping lithium, which one of the following is the most appropriate management?",
+    "options": [
+      "Activated charcoal 50 g orally",
+      "Intravenous sodium bicarbonate",
+      "Whole bowel irrigation with polyethylene glycol",
+      "Intravenous 0.9% sodium chloride alone, with repeat lithium level in 24 hours",
+      "Haemodialysis"
+    ],
+    "answer": 4,
+    "explanation": "This is **chronic lithium toxicity**. The clue is a long-term patient with a new drug that reduces lithium clearance (**thiazide**; also ACE inhibitors, ARBs, NSAIDs) plus dehydration from gastroenteritis, now with acute kidney injury.\n\nIn chronic toxicity, **neurological features matter more than the level**, because lithium has already accumulated in the brain.\n\nManagement: stop lithium and interacting drugs, give IV 0.9% saline to restore volume and renal clearance, and monitor levels. **Haemodialysis** is indicated when there is a **decreased level of consciousness, seizures or life-threatening arrhythmia**, or a high level with impaired kidney function. She has reduced GCS and AKI, so she needs dialysis.\n\n**Rule:** Lithium is not bound by charcoal. Fluids for mild toxicity; dialysis when the brain or kidneys are failing.",
+    "whyWrong": [
+      "Lithium is a small ion that does not bind to activated charcoal.",
+      "Urinary alkalinisation does not enhance lithium elimination.",
+      "Whole bowel irrigation is considered only after acute ingestion of sustained-release lithium, not chronic toxicity.",
+      "Fluids are necessary but insufficient with reduced consciousness and impaired renal function; delay risks permanent neurological damage.",
+      ""
+    ],
+    "tags": ["lithium", "toxicity", "drug interactions"]
+  },
+  {
+    "id": "mh-005",
+    "discipline": "mental-health",
+    "topic": "mood-disorders",
+    "difficulty": "core",
+    "stem": "A 24-year-old woman presents with 5 weeks of low mood, hypersomnia, anhedonia and feelings of worthlessness. Two years ago she had a 10-day period when she barely slept, spent $8000 on credit cards, felt she had a special mission and was admitted to hospital. She has not taken any regular medication since. She is not pregnant.\n\nWhich one of the following is the most appropriate pharmacological treatment?",
+    "options": [
+      "Sertraline monotherapy",
+      "Venlafaxine monotherapy",
+      "Quetiapine",
+      "Diazepam",
+      "Dexamfetamine"
+    ],
+    "answer": 2,
+    "explanation": "Her past episode (reduced need for sleep, reckless spending, grandiosity, hospitalisation) was **mania**, so this is **bipolar I depression**, not unipolar depression.\n\nThe discriminating clue is the history of elevated mood. **Antidepressant monotherapy** in bipolar disorder risks **switching into mania** or rapid cycling and is not recommended.\n\nRANZCP-supported options for bipolar depression include **quetiapine, lurasidone, lamotrigine and lithium**. Quetiapine has good evidence for acute bipolar depression. If an antidepressant is ever used, it should be combined with a mood stabiliser or antipsychotic and closely monitored.\n\n**Rule:** Before treating any depression, ask 'Have you ever had a time when you felt too good, needed little sleep or did things out of character?' A yes changes the treatment.",
+    "whyWrong": [
+      "SSRI monotherapy can precipitate mania in bipolar disorder.",
+      "SNRIs carry an even higher switch risk than SSRIs in bipolar disorder.",
+      "",
+      "Benzodiazepines do not treat bipolar depression and risk dependence.",
+      "Stimulants can precipitate mania and are not a treatment for bipolar depression."
+    ],
+    "tags": ["bipolar", "bipolar depression", "antipsychotics"]
+  },
+  {
+    "id": "mh-006",
+    "discipline": "mental-health",
+    "topic": "psychosis",
+    "difficulty": "core",
+    "stem": "A 19-year-old man is brought in by his parents after 3 months of social withdrawal, hearing voices commenting on his actions, and believing that his neighbours are monitoring him through the television. Urine drug screen is negative and he denies substance use. Physical examination, FBC, UEC, LFTs, TFTs and CT brain are normal. He has never taken antipsychotic medication.\n\nWhich one of the following is the most appropriate initial treatment?",
+    "options": [
+      "Haloperidol 10 mg daily",
+      "Clozapine 12.5 mg daily, titrating to 300 mg",
+      "Risperidone 1 mg daily, titrating slowly as tolerated",
+      "Olanzapine 20 mg daily combined with haloperidol 5 mg daily",
+      "Lithium carbonate 500 mg twice daily"
+    ],
+    "answer": 2,
+    "explanation": "This is **first-episode psychosis**. Antipsychotic-naive young people are very **sensitive to side effects** (especially extrapyramidal side effects) and usually respond to **low doses**.\n\nAustralian early psychosis guidelines recommend a **second-generation antipsychotic at a low dose** (e.g. risperidone 0.5 to 1 mg or aripiprazole), with **'start low, go slow'** titration, alongside psychosocial support and family involvement. Consider metabolic effects when choosing: olanzapine causes the most weight gain.\n\nBaseline metabolic monitoring (weight, waist, BP, glucose, lipids) is essential, and a bad first experience with side effects is a major cause of non-adherence.\n\nClozapine is reserved for treatment resistance, and combining antipsychotics is not recommended.\n\n**Rule:** First episode = one low-dose SGA, slow titration, early intervention service.",
+    "whyWrong": [
+      "A high-potency typical at this dose causes marked EPS in antipsychotic-naive patients.",
+      "Clozapine is reserved for treatment-resistant schizophrenia after two failed antipsychotics.",
+      "",
+      "Antipsychotic polypharmacy at high doses is not appropriate for first-line treatment.",
+      "Lithium is a mood stabiliser and is not first-line treatment for a primary psychotic disorder."
+    ],
+    "ausPearl": "Refer to an early psychosis service (e.g. headspace Early Psychosis or EPPIC in Victoria). Advise him not to drive while acutely unwell; under Austroads 'Assessing Fitness to Drive' the licence holder is responsible for notifying the licensing authority.",
+    "tags": ["first-episode psychosis", "antipsychotics", "schizophrenia"]
+  },
+  {
+    "id": "mh-007",
+    "discipline": "mental-health",
+    "topic": "psychosis",
+    "difficulty": "foundation",
+    "stem": "A 32-year-old man with schizophrenia has persistent auditory hallucinations and persecutory delusions. He has had a 6-week trial of risperidone 6 mg daily and then an 8-week trial of olanzapine 20 mg daily, both with supervised dosing and therapeutic plasma levels confirmed. His symptoms have not improved. There are no substance use issues.\n\nWhich one of the following is the most appropriate next step?",
+    "options": [
+      "Start clozapine",
+      "Add aripiprazole to olanzapine",
+      "Switch to haloperidol depot injection",
+      "Increase olanzapine to 40 mg daily",
+      "Refer for ECT as sole treatment"
+    ],
+    "answer": 0,
+    "explanation": "This is **treatment-resistant schizophrenia**: failure to respond to **at least two antipsychotics** given at adequate dose for an adequate duration (usually at least 6 weeks each), with adherence confirmed.\n\n**Clozapine** is the only antipsychotic with proven superior efficacy in treatment resistance, and it also reduces suicidal behaviour. It should not be delayed once criteria are met, because each year of uncontrolled psychosis worsens outcome.\n\nThe key clue is **confirmed adherence** (supervised dosing, levels). If adherence were uncertain, a depot would be the logical step instead.\n\nClozapine requires registration with a monitoring program and regular FBC because of the risk of **agranulocytosis**.\n\n**Rule:** Two failed antipsychotics with good adherence = clozapine.",
+    "whyWrong": [
+      "",
+      "Antipsychotic polypharmacy lacks strong evidence and is not the recommended step in treatment resistance.",
+      "A depot addresses non-adherence, but adherence has already been confirmed.",
+      "This exceeds the maximum dose and increases adverse effects without proven benefit.",
+      "ECT may augment clozapine in ultra-resistant cases but is not the next step on its own."
+    ],
+    "tags": ["clozapine", "treatment-resistant schizophrenia"]
+  },
+  {
+    "id": "mh-008",
+    "discipline": "mental-health",
+    "topic": "psychosis",
+    "difficulty": "core",
+    "stem": "A 27-year-old man with treatment-resistant schizophrenia started clozapine 3 weeks ago and is being titrated up. He now reports feeling unwell with fever, fatigue and mild chest discomfort. His temperature is 38.3 C, heart rate 124/min and blood pressure 110/70 mmHg. Troponin is elevated at twice the upper limit of normal and CRP is 115 mg/L. His neutrophil count is normal.\n\nWhich one of the following is the most appropriate next step?",
+    "options": [
+      "Continue clozapine at the current dose and give paracetamol",
+      "Halve the clozapine dose and repeat troponin in 1 week",
+      "Start oral amoxicillin and continue clozapine",
+      "Check a clozapine plasma level before deciding",
+      "Cease clozapine and arrange urgent cardiology review with echocardiogram"
+    ],
+    "answer": 4,
+    "explanation": "This is **clozapine-induced myocarditis** until proven otherwise. It typically occurs in the **first 4 to 8 weeks** (often around week 3) and presents with non-specific features: fever, tachycardia, flu-like symptoms, chest pain or breathlessness.\n\nThe clues are timing, **raised troponin** and **raised CRP**. Australian monitoring protocols check **troponin and CRP weekly for at least the first 4 weeks** for exactly this reason.\n\nIf troponin is more than twice the upper limit or CRP is markedly raised (over 100 mg/L), **stop clozapine** and arrange ECG, echocardiogram and cardiology input. Myocarditis can progress to cardiomyopathy and death, and rechallenge is generally avoided or only done with specialist oversight.\n\n**Rule:** Fever plus tachycardia in the first month of clozapine: think heart, check troponin and CRP, and stop if they are up.",
+    "whyWrong": [
+      "Continuing clozapine with a rising troponin risks fulminant myocarditis.",
+      "Dose reduction is not safe when troponin exceeds twice the upper limit with a CRP over 100 mg/L.",
+      "There is no evidence of bacterial infection, and continuing clozapine ignores the cardiac signal.",
+      "Myocarditis is not dose-dependent, so a level does not change the need to stop.",
+      ""
+    ],
+    "tags": ["clozapine", "myocarditis", "monitoring"]
+  },
+  {
+    "id": "mh-009",
+    "discipline": "mental-health",
+    "topic": "psychosis",
+    "difficulty": "exam",
+    "stem": "A 45-year-old man with schizophrenia has been stable on clozapine 400 mg daily for 3 years. He smokes 30 cigarettes a day. He is admitted to a smoke-free medical ward with cellulitis and is given nicotine replacement patches. Five days later he is very drowsy, drooling heavily and has had a brief generalised seizure. He has not received any new psychotropic medication and his cellulitis is improving.\n\nWhich one of the following is the most likely explanation?",
+    "options": [
+      "Nicotine patches inhibiting clozapine metabolism",
+      "Loss of CYP1A2 induction from tobacco smoke, raising clozapine levels",
+      "Clozapine-induced agranulocytosis with sepsis",
+      "Neuroleptic malignant syndrome",
+      "Nicotine withdrawal"
+    ],
+    "answer": 1,
+    "explanation": "Clozapine is metabolised mainly by **CYP1A2**. The **polycyclic aromatic hydrocarbons in tobacco smoke** (not nicotine) strongly induce CYP1A2, so smokers need higher clozapine doses.\n\nWhen a smoker **stops abruptly** (e.g. admission to a smoke-free ward), the induction wears off over days and **clozapine levels can rise substantially** within about a week. Features of toxicity: **sedation, hypersalivation, hypotension, confusion and seizures** (clozapine lowers the seizure threshold in a dose-related way).\n\n**NRT does not induce CYP1A2**, so it does not prevent this. Management: check a clozapine level, reduce the dose (often by a quarter to a half, guided by levels) and monitor. The reverse applies when a patient resumes smoking on discharge.\n\n**Rule:** Smoking changes are clozapine dose changes. Stopping smoking raises levels; restarting drops them.",
+    "whyWrong": [
+      "Nicotine itself does not affect CYP1A2; NRT neither induces nor inhibits clozapine metabolism.",
+      "",
+      "His infection is improving, and agranulocytosis would not explain hypersalivation and seizures.",
+      "NMS causes rigidity, hyperthermia and autonomic instability, not predominantly sedation, drooling and seizures.",
+      "Nicotine withdrawal causes irritability and craving, not seizures or heavy sedation."
+    ],
+    "tags": ["clozapine", "smoking", "drug interactions"]
+  },
+  {
+    "id": "mh-010",
+    "discipline": "mental-health",
+    "topic": "anxiety-disorders",
+    "difficulty": "foundation",
+    "stem": "A 26-year-old woman describes recurrent sudden episodes of palpitations, sweating, breathlessness and a feeling that she is about to die. Each episode peaks within 10 minutes and resolves within 30 minutes. They occur unpredictably, and for the past 3 months she has worried constantly about having another one and has stopped catching the train. ECG, FBC and TFTs are normal. She drinks two cups of coffee per day and uses no other substances.\n\nWhich one of the following is the most appropriate first-line management?",
+    "options": [
+      "Regular alprazolam 0.5 mg three times daily",
+      "Regular propranolol 40 mg twice daily",
+      "Quetiapine 25 mg at night",
+      "Cognitive behavioural therapy, with or without an SSRI",
+      "Pregabalin 75 mg twice daily"
+    ],
+    "answer": 3,
+    "explanation": "This is **panic disorder** with agoraphobic avoidance: recurrent **unexpected** panic attacks followed by at least a month of persistent worry about further attacks or change in behaviour.\n\nOrganic causes (thyrotoxicosis, arrhythmia, stimulants) have been reasonably excluded.\n\nRANZCP guidelines recommend **CBT as first-line** treatment (psychoeducation, interoceptive exposure, graded exposure to avoided situations). An **SSRI** (or SNRI) is the first-line medication if needed, started at a low dose because early jitteriness can mimic panic.\n\n**Benzodiazepines** relieve symptoms quickly but cause dependence and interfere with exposure-based learning, so they are not recommended for regular use.\n\n**Rule:** Panic disorder = CBT plus or minus SSRI. Avoidance keeps panic alive; exposure breaks the cycle.",
+    "whyWrong": [
+      "Regular benzodiazepines risk dependence and undermine CBT; alprazolam is Schedule 8 in Australia.",
+      "Beta-blockers may blunt physical symptoms but do not treat panic disorder.",
+      "Antipsychotics are not first-line treatment for anxiety disorders and have metabolic side effects.",
+      "",
+      "Pregabalin has some evidence in generalised anxiety disorder but is not first-line for panic disorder and has misuse potential."
+    ],
+    "ausPearl": "Alprazolam was rescheduled to Schedule 8 in Australia in 2014 because of misuse. A GP Mental Health Treatment Plan can fund CBT with a psychologist.",
+    "tags": ["panic disorder", "cbt", "benzodiazepines"]
+  },
+  {
+    "id": "mh-011",
+    "discipline": "mental-health",
+    "topic": "anxiety-disorders",
+    "difficulty": "core",
+    "stem": "A 22-year-old university student has intrusive thoughts that her hands are contaminated with germs that could make her family sick. She recognises the thoughts are excessive but feels intense anxiety until she washes her hands, which she does up to 60 times a day, taking 3 hours in total. Her skin is cracked and she is failing her course. She has no psychotic symptoms.\n\nWhich one of the following is the psychological treatment with the strongest evidence for her condition?",
+    "options": [
+      "Psychodynamic psychotherapy",
+      "Supportive counselling",
+      "Eye movement desensitisation and reprocessing (EMDR)",
+      "Exposure and response prevention",
+      "Hypnotherapy"
+    ],
+    "answer": 3,
+    "explanation": "This is **obsessive-compulsive disorder (OCD)**: intrusive, unwanted **obsessions** that cause anxiety, relieved temporarily by **compulsions** (washing, checking, counting), taking over an hour a day or causing impairment. Insight is usually preserved.\n\nThe treatment with the best evidence is **CBT with exposure and response prevention (ERP)**: the patient is gradually exposed to the feared trigger (touching a 'dirty' surface) and **prevented from performing the compulsion**, so the anxiety naturally falls and the cycle is broken.\n\nIf medication is needed, **SSRIs** are first line, but OCD typically needs **higher doses and a longer trial (8 to 12 weeks)** than depression. Clomipramine is an alternative.\n\n**Rule:** Compulsions feed obsessions. ERP stops the feeding.",
+    "whyWrong": [
+      "Psychodynamic therapy lacks evidence of efficacy in OCD.",
+      "Supportive counselling can help engagement but does not target the obsession-compulsion cycle.",
+      "EMDR is a trauma-focused therapy for PTSD, not OCD.",
+      "",
+      "Hypnotherapy has no evidence base in OCD."
+    ],
+    "tags": ["ocd", "cbt", "erp"]
+  },
+  {
+    "id": "mh-012",
+    "discipline": "mental-health",
+    "topic": "anxiety-disorders",
+    "difficulty": "core",
+    "stem": "A 34-year-old man was assaulted and robbed at knifepoint 3 months ago. Since then he has had nightmares, intrusive flashbacks of the event, avoids the area where it happened, startles easily and sleeps poorly. He has taken time off work and feels emotionally numb with his partner. He drinks two standard drinks most nights to help him sleep.\n\nWhich one of the following is the most appropriate first-line treatment?",
+    "options": [
+      "Regular temazepam 10 mg at night",
+      "Single-session psychological debriefing",
+      "Quetiapine 50 mg at night",
+      "Watchful waiting with review in 3 months",
+      "Trauma-focused cognitive behavioural therapy"
+    ],
+    "answer": 4,
+    "explanation": "He meets criteria for **post-traumatic stress disorder (PTSD)**: exposure to a traumatic event, then **intrusions** (flashbacks, nightmares), **avoidance**, **negative mood and cognitions** (numbness) and **hyperarousal** (startle, poor sleep), lasting **more than a month** and causing impairment.\n\nAustralian (Phoenix Australia) guidelines recommend **trauma-focused psychological therapy** first line: trauma-focused CBT, cognitive processing therapy, prolonged exposure or EMDR. An SSRI or venlafaxine can be added if therapy is unavailable, declined or insufficient.\n\n**Benzodiazepines** are not recommended: they do not improve PTSD and may worsen outcomes. Early **psychological debriefing** can make things worse.\n\nWatchful waiting is reasonable only in the **first month** after trauma. Also address his alcohol use, which is a common form of self-medication.\n\n**Rule:** PTSD over a month = trauma-focused therapy first. No benzos, no debriefing.",
+    "whyWrong": [
+      "Benzodiazepines do not treat PTSD, may impair recovery and add dependence risk, especially with alcohol use.",
+      "Routine single-session debriefing is not recommended and may increase later PTSD symptoms.",
+      "Antipsychotics are not first line in PTSD.",
+      "Watchful waiting is only appropriate in the first month; at 3 months with impairment he needs treatment.",
+      ""
+    ],
+    "ausPearl": "Phoenix Australia publishes the Australian PTSD guidelines. Veterans and their families can access free counselling through Open Arms (1800 011 046).",
+    "tags": ["ptsd", "trauma", "psychotherapy"]
+  },
+  {
+    "id": "mh-013",
+    "discipline": "mental-health",
+    "topic": "substance-use",
+    "difficulty": "foundation",
+    "stem": "A 48-year-old man with long-standing heavy alcohol use is brought to the emergency department by police after being found wandering. He is confused and disoriented, has a broad-based unsteady gait and horizontal nystagmus with bilateral lateral rectus weakness. Capillary blood glucose is 5.2 mmol/L. His last drink was 12 hours ago.\n\nWhich one of the following is the most important immediate treatment?",
+    "options": [
+      "Intravenous 50% glucose 50 mL",
+      "High-dose intravenous thiamine",
+      "Oral thiamine 100 mg daily",
+      "Intravenous naloxone",
+      "Intramuscular haloperidol"
+    ],
+    "answer": 1,
+    "explanation": "This is **Wernicke encephalopathy**, caused by **thiamine (vitamin B1) deficiency**, common in people with alcohol dependence due to poor diet and impaired absorption.\n\nThe classic triad is **confusion, ataxia and ophthalmoplegia/nystagmus**, but only a minority have all three, so **treat on suspicion**.\n\nTreatment is **high-dose parenteral thiamine** (IV or IM, e.g. 500 mg IV three times daily for several days per Australian guidelines), because oral absorption is poor. Give thiamine **before or with glucose** in at-risk patients, as glucose loading can precipitate or worsen Wernicke.\n\nUntreated, it can progress to **Korsakoff syndrome** (irreversible amnesia with confabulation).\n\n**Rule:** Confused drinker = parenteral thiamine now. Don't wait for the full triad.",
+    "whyWrong": [
+      "His glucose is normal, and glucose before thiamine can worsen Wernicke encephalopathy.",
+      "",
+      "Oral thiamine is for prophylaxis; absorption is too poor to treat established Wernicke encephalopathy.",
+      "There are no features of opioid toxicity such as miosis or respiratory depression.",
+      "Sedation does not treat the cause and may worsen confusion and falls."
+    ],
+    "tags": ["alcohol", "wernicke", "thiamine"]
+  },
+  {
+    "id": "mh-014",
+    "discipline": "mental-health",
+    "topic": "substance-use",
+    "difficulty": "core",
+    "stem": "A 55-year-old man is on day 2 after an elective knee replacement. He is sweating, tremulous and anxious, and says he can see insects crawling on the wall. His heart rate is 118/min, blood pressure 165/95 mmHg and temperature 37.8 C. His wife says he drinks about a bottle of wine and several beers daily. His alcohol withdrawal scale score is high. He has normal liver function.\n\nIn addition to thiamine, which one of the following is the most appropriate management?",
+    "options": [
+      "Oral diazepam, dosed according to a validated withdrawal scale",
+      "Haloperidol as the sole agent",
+      "Oral naltrexone 50 mg daily",
+      "Oral acamprosate 666 mg three times daily",
+      "Intravenous morphine for agitation"
+    ],
+    "answer": 0,
+    "explanation": "He has **alcohol withdrawal** after unplanned abstinence on admission. Typical timeline: tremor and anxiety at **6 to 24 hours**, seizures at **12 to 48 hours**, and **delirium tremens** (confusion, hallucinations, autonomic instability) at **48 to 72 hours**. He is at risk of progressing to DTs.\n\nFirst-line treatment is a **long-acting benzodiazepine**, usually **oral diazepam**, given as **symptom-triggered** or scheduled doses guided by a withdrawal scale (AWS or CIWA-Ar). Diazepam reduces seizures and DTs and self-tapers because of its long half-life. In significant liver impairment, a shorter-acting agent such as oxazepam is preferred.\n\nAlways give **thiamine** and correct electrolytes (potassium, magnesium, phosphate).\n\n**Rule:** Alcohol withdrawal = benzodiazepines, guided by a scale, plus thiamine. Antipsychotics are only adjuncts.",
+    "whyWrong": [
+      "",
+      "Antipsychotics alone lower the seizure threshold and do not treat withdrawal; they are only adjuncts for persistent hallucinations.",
+      "Naltrexone is for relapse prevention after withdrawal, not for treating acute withdrawal.",
+      "Acamprosate is for maintaining abstinence, not for managing acute withdrawal.",
+      "Opioids do not treat alcohol withdrawal and add respiratory depression risk."
+    ],
+    "ausPearl": "Australian hospitals commonly use the Alcohol Withdrawal Scale (AWS) or CIWA-Ar to guide diazepam dosing.",
+    "tags": ["alcohol", "withdrawal", "benzodiazepines"]
+  },
+  {
+    "id": "mh-015",
+    "discipline": "mental-health",
+    "topic": "substance-use",
+    "difficulty": "core",
+    "stem": "A 45-year-old man with alcohol dependence has completed a supervised withdrawal and wants medication to help him stay abstinent. He has chronic low back pain and has been on a stable dose of oxycodone controlled-release 20 mg twice daily for 2 years, prescribed by his GP. His eGFR is 90 mL/min/1.73 m2 and liver function is mildly abnormal.\n\nWhich one of the following is the most appropriate medication?",
+    "options": [
+      "Naltrexone 50 mg daily",
+      "Long-term diazepam 5 mg three times daily",
+      "Acamprosate 666 mg three times daily",
+      "Baclofen 10 mg three times daily",
+      "Topiramate 50 mg twice daily"
+    ],
+    "answer": 2,
+    "explanation": "The two first-line medicines to prevent relapse in alcohol dependence are **naltrexone** and **acamprosate**, used with psychosocial support.\n\n- **Naltrexone** is an **opioid antagonist**. It reduces craving and heavy drinking, but it **blocks opioid analgesia and precipitates opioid withdrawal**, so it is contraindicated in anyone taking opioids.\n- **Acamprosate** modulates glutamate/GABA signalling, helps maintain abstinence, is **renally excreted** (not hepatically metabolised) and has **no opioid interaction**.\n\nThe discriminating clue is his **regular oxycodone**. His normal renal function and only mild liver abnormality make acamprosate a good fit. It should be started soon after withdrawal and continued for about 12 months.\n\n**Rule:** On opioids? No naltrexone. Poor kidneys? No acamprosate.",
+    "whyWrong": [
+      "Naltrexone would precipitate opioid withdrawal and block his analgesia.",
+      "Long-term benzodiazepines are not relapse prevention and are dangerous with alcohol and opioids.",
+      "",
+      "Baclofen is an off-label second-line option, not first choice when an approved agent is suitable.",
+      "Topiramate is an off-label second-line option with cognitive side effects."
+    ],
+    "ausPearl": "Naltrexone and acamprosate are PBS-listed for alcohol dependence as part of a comprehensive treatment program aimed at abstinence.",
+    "tags": ["alcohol", "relapse prevention", "acamprosate"]
+  },
+  {
+    "id": "mh-016",
+    "discipline": "mental-health",
+    "topic": "substance-use",
+    "difficulty": "exam",
+    "stem": "A 30-year-old man who injects heroin daily presents to his GP wanting to start opioid pharmacotherapy today. He last injected 4 hours ago. He currently feels comfortable, with pupils of normal size, no yawning, sweating, rhinorrhoea or gooseflesh. He has no other substance use and is not on methadone. You plan to use sublingual buprenorphine-naloxone.\n\nWhich one of the following is the most appropriate next step?",
+    "options": [
+      "Delay the first dose until he has objective signs of opioid withdrawal",
+      "Give buprenorphine-naloxone 8 mg/2 mg sublingually now",
+      "Start oral naltrexone 50 mg now",
+      "Give methadone 80 mg orally now instead",
+      "Give buprenorphine-naloxone intravenously to speed onset"
+    ],
+    "answer": 0,
+    "explanation": "**Buprenorphine** is a **high-affinity partial agonist** at the mu-opioid receptor. If given while heroin (a full agonist) is still occupying receptors, it displaces heroin but activates the receptor less, causing **precipitated withdrawal**, which is abrupt and very distressing.\n\nThe standard induction is to wait until the patient is in **objective, mild to moderate withdrawal** (e.g. COWS score of about 8 or more), which is usually **at least 8 to 12 hours after heroin** and longer after methadone. He used 4 hours ago and has no withdrawal signs, so dosing now is unsafe.\n\nThe naloxone in the combination product has poor sublingual absorption and is there to **deter injection**; injected, it precipitates withdrawal.\n\n**Rule:** Buprenorphine: wait for withdrawal, then dose. Too early = precipitated withdrawal.",
+    "whyWrong": [
+      "",
+      "Dosing 4 hours after heroin with no withdrawal signs risks precipitated withdrawal.",
+      "Naltrexone requires 7 to 10 days opioid-free; now it would cause severe precipitated withdrawal.",
+      "Methadone starting doses are low (typically 20 to 30 mg) because of the risk of fatal accumulation; 80 mg could be lethal.",
+      "Injected naloxone is active and precipitates withdrawal; the product is for sublingual use only."
+    ],
+    "ausPearl": "Opioid dependence treatment (buprenorphine, buprenorphine-naloxone, methadone and long-acting injectable buprenorphine) is PBS-subsidised, with prescribing rules set by each state and territory.",
+    "tags": ["opioids", "buprenorphine", "precipitated withdrawal"]
+  },
+  {
+    "id": "mh-017",
+    "discipline": "mental-health",
+    "topic": "substance-use",
+    "difficulty": "foundation",
+    "stem": "A 25-year-old man is found unresponsive in a public toilet with a syringe nearby. His respiratory rate is 4/min, oxygen saturation 78% on room air, and his pupils are pinpoint. He has a palpable pulse of 60/min.\n\nWhich one of the following is the most appropriate immediate management?",
+    "options": [
+      "Intravenous flumazenil",
+      "Place in the recovery position and await ambulance transport",
+      "Bag-valve-mask ventilation with oxygen and naloxone",
+      "Activated charcoal via nasogastric tube",
+      "Intravenous sodium bicarbonate"
+    ],
+    "answer": 2,
+    "explanation": "The triad of **reduced consciousness, respiratory depression and miosis** points to **opioid toxicity**.\n\nThe immediate threat is **hypoxia**, so first **support ventilation** (airway manoeuvres, bag-valve-mask with oxygen), then give **naloxone**, a competitive opioid antagonist. In an opioid-dependent person, titrate small IV doses (or give IM) to restore adequate breathing rather than full wakefulness, to avoid precipitating severe withdrawal and agitation.\n\nNaloxone's duration is **shorter than many opioids** (especially methadone and long-acting preparations), so observe for re-sedation and repeat or infuse as needed.\n\n**Rule:** Opioid overdose: breathe for them first, then naloxone, then watch for it wearing off.",
+    "whyWrong": [
+      "Flumazenil reverses benzodiazepines, not opioids, and can precipitate seizures.",
+      "Positioning alone does not treat severe hypoventilation and hypoxia.",
+      "",
+      "Charcoal has no role after injected drugs and is unsafe with an unprotected airway.",
+      "Bicarbonate is for sodium-channel blocker toxicity such as tricyclic overdose."
+    ],
+    "ausPearl": "Under the national Take Home Naloxone program, naloxone (nasal spray or prefilled syringe) is available free and without a prescription to anyone who may experience or witness an opioid overdose.",
+    "tags": ["opioids", "overdose", "naloxone"]
+  },
+  {
+    "id": "mh-018",
+    "discipline": "mental-health",
+    "topic": "child-adolescent-psych",
+    "difficulty": "core",
+    "stem": "An 8-year-old boy is referred because his teacher reports that he cannot stay seated, calls out in class, loses his belongings and does not finish work. These problems have been present for about 8 months. His parents say that at home and at sport he is 'no different from other boys' and they have no concerns. His hearing and vision are normal.\n\nWhich one of the following is required before a diagnosis of attention deficit hyperactivity disorder (ADHD) can be made?",
+    "options": [
+      "An abnormal electroencephalogram",
+      "Symptom onset after the age of 12 years",
+      "A full-scale IQ below 70",
+      "Evidence of symptoms in two or more settings",
+      "A positive response to a trial of methylphenidate"
+    ],
+    "answer": 3,
+    "explanation": "DSM-5 criteria for **ADHD** require a persistent pattern of inattention and/or hyperactivity-impulsivity that is:\n\n- present for **at least 6 months**\n- with several symptoms **before age 12**\n- present in **two or more settings** (e.g. home and school)\n- causing clear impairment, and not better explained by another condition.\n\nHere the symptoms are **only at school**, so the diagnosis cannot yet be made. Consider other explanations: a learning disorder, classroom factors, anxiety, bullying, or a mismatch between the child and the teaching environment. Collect collateral from multiple informants (e.g. parent and teacher rating scales).\n\nA response to stimulants is **not diagnostic**, as stimulants improve attention in most people.\n\n**Rule:** ADHD is pervasive. If it only happens in one place, look at that place.",
+    "whyWrong": [
+      "EEG is not part of the diagnostic criteria for ADHD.",
+      "Several symptoms must be present before age 12, not after.",
+      "Intellectual disability is a differential diagnosis, not a requirement for ADHD.",
+      "",
+      "Stimulant response is not diagnostic, as stimulants improve attention in children without ADHD too."
+    ],
+    "ausPearl": "Stimulants are Schedule 8 in Australia. Diagnosis and initiation are usually by a paediatrician or psychiatrist, with state-specific rules on who may prescribe and continue treatment.",
+    "tags": ["adhd", "diagnosis", "paediatrics"]
+  },
+  {
+    "id": "mh-019",
+    "discipline": "mental-health",
+    "topic": "child-adolescent-psych",
+    "difficulty": "exam",
+    "stem": "A 16-year-old girl with anorexia nervosa is admitted to a paediatric ward with a BMI of 13.8 kg/m2, heart rate 38/min and a postural systolic drop of 25 mmHg. Nasogastric feeding is started. On day 3 she develops generalised weakness, paraesthesiae, confusion and new peripheral oedema.\n\nWhich one of the following biochemical abnormalities is most likely responsible?",
+    "options": [
+      "Hyperkalaemia",
+      "Hypercalcaemia",
+      "Hypernatraemia",
+      "Hypermagnesaemia",
+      "Hypophosphataemia"
+    ],
+    "answer": 4,
+    "explanation": "This is **refeeding syndrome**. During starvation, total body phosphate, potassium and magnesium are depleted but serum levels may look normal. When carbohydrate is reintroduced, **insulin surges** and drives these ions **into cells**, causing a sharp fall in serum levels, usually in the **first 2 to 5 days**.\n\nThe hallmark is **hypophosphataemia**, which impairs ATP production and can cause weakness, rhabdomyolysis, respiratory failure, **heart failure** (oedema), arrhythmias, seizures and confusion. Hypokalaemia and hypomagnesaemia usually coexist.\n\nPrevention: identify high-risk patients (very low BMI, bradycardia, little intake), give **thiamine**, check phosphate, potassium and magnesium **daily** for the first week, supplement early, and increase calories steadily.\n\n**Rule:** Refeeding = insulin pushes Phos, K and Mg into cells. Phosphate falls first.",
+    "whyWrong": [
+      "Potassium falls in refeeding (moves into cells), causing hypokalaemia, not hyperkalaemia.",
+      "Calcium is not the key abnormality in refeeding syndrome.",
+      "Sodium and fluid retention cause oedema, but hypernatraemia is not the typical finding.",
+      "Magnesium falls in refeeding syndrome.",
+      ""
+    ],
+    "ausPearl": "Medicare offers an Eating Disorder Treatment and Management Plan for eligible patients, with up to 40 psychological and 20 dietetic sessions over 12 months. Family-based treatment is first line for adolescents. The Butterfly Foundation (1800 33 4673) provides support.",
+    "tags": ["anorexia nervosa", "refeeding syndrome", "adolescents"]
+  },
+  {
+    "id": "mh-020",
+    "discipline": "mental-health",
+    "topic": "child-adolescent-psych",
+    "difficulty": "core",
+    "stem": "A 15-year-old girl has moderate depression with low mood, withdrawal from friends, poor sleep and falling grades. She has attended 8 sessions of CBT with a psychologist over 3 months with little improvement. There is no history of mania, psychosis or self-harm. After discussion with her and her parents, a decision is made to add an antidepressant.\n\nWhich one of the following is the most appropriate choice?",
+    "options": [
+      "Venlafaxine",
+      "Fluoxetine",
+      "Amitriptyline",
+      "Paroxetine",
+      "Mirtazapine"
+    ],
+    "answer": 1,
+    "explanation": "For young people with depression, **psychological therapy is first line**. When moderate to severe depression does not respond to therapy, medication can be added, continuing therapy alongside.\n\n**Fluoxetine** has the **strongest evidence** for efficacy and an acceptable risk-benefit balance in adolescents, so it is the first-choice antidepressant (sertraline or escitalopram are alternatives).\n\nAll antidepressants carry a warning about increased **suicidal thoughts and behaviours in people under 25**, especially early in treatment or after dose changes. Start low, monitor closely (often **weekly** at first) and involve the family in watching for agitation or worsening mood.\n\nTCAs are ineffective in adolescents and dangerous in overdose; paroxetine and venlafaxine have poorer safety profiles in this group.\n\n**Rule:** Under 18 and needing an antidepressant? Fluoxetine first, plus close monitoring.",
+    "whyWrong": [
+      "Venlafaxine is associated with higher rates of suicidal thoughts in young people and is not first line.",
+      "",
+      "TCAs are not effective in adolescent depression and are toxic in overdose.",
+      "Paroxetine has an unfavourable risk-benefit profile in young people.",
+      "Mirtazapine lacks good evidence in adolescents and causes weight gain and sedation."
+    ],
+    "ausPearl": "headspace centres provide free or low-cost mental health care for young people aged 12 to 25. Use a HEADSS psychosocial assessment with adolescents.",
+    "tags": ["adolescent depression", "fluoxetine", "suicidality"]
+  },
+  {
+    "id": "mh-021",
+    "discipline": "mental-health",
+    "topic": "psych-emergencies",
+    "difficulty": "core",
+    "stem": "A 34-year-old woman taking sertraline 100 mg daily for depression was prescribed tramadol for a sprained ankle. Twelve hours after her third dose, she presents agitated and sweating. Her temperature is 38.4 C, heart rate 122/min and blood pressure 150/95 mmHg. She has dilated pupils, tremor, hyperreflexia and inducible ankle clonus, more marked in the lower limbs. She has had diarrhoea twice.\n\nWhich one of the following is the most likely diagnosis?",
+    "options": [
+      "Neuroleptic malignant syndrome",
+      "Malignant hyperthermia",
+      "Anticholinergic toxicity",
+      "Alcohol withdrawal",
+      "Serotonin toxicity"
+    ],
+    "answer": 4,
+    "explanation": "This is **serotonin toxicity (serotonin syndrome)**: an SSRI combined with **tramadol** (which also inhibits serotonin reuptake) produced features within hours.\n\nThe classic triad is:\n- **neuromuscular excitation**: clonus (inducible, spontaneous or ocular), hyperreflexia, tremor, worse in the legs\n- **autonomic excitation**: fever, tachycardia, sweating, mydriasis, diarrhoea\n- **altered mental state**: agitation, confusion.\n\nThe **Hunter criteria** rely on **clonus and hyperreflexia** in someone on a serotonergic drug. The discriminating features from NMS are **rapid onset (hours)**, **clonus and hyperreflexia** rather than rigidity with slow reflexes, and **diarrhoea**.\n\nManagement: stop serotonergic drugs, supportive care, benzodiazepines, and consider cyproheptadine; severe hyperthermia needs ICU care.\n\n**Rule:** Serotonin = fast, twitchy, clonus. NMS = slow, stiff, lead-pipe.",
+    "whyWrong": [
+      "NMS develops over days after an antipsychotic, with lead-pipe rigidity and reduced reflexes rather than clonus.",
+      "Malignant hyperthermia follows volatile anaesthetics or suxamethonium, not SSRIs and tramadol.",
+      "Anticholinergic toxicity causes dry skin, urinary retention and reduced bowel sounds, without clonus.",
+      "There is no history of alcohol use, and clonus with diarrhoea after new tramadol points to serotonin toxicity.",
+      ""
+    ],
+    "tags": ["serotonin syndrome", "tramadol", "toxicology"]
+  },
+  {
+    "id": "mh-022",
+    "discipline": "mental-health",
+    "topic": "psych-emergencies",
+    "difficulty": "exam",
+    "stem": "A 40-year-old man was admitted to a psychiatric unit with acute psychosis and given several doses of intramuscular haloperidol over 3 days. He is now febrile at 39.8 C, diaphoretic and has fluctuating consciousness. Heart rate is 130/min and blood pressure is labile. He has generalised lead-pipe rigidity with reduced reflexes and no clonus. Creatine kinase is 14 000 U/L and white cell count is 15 x 10^9/L. He takes no other medication.\n\nWhich one of the following is the most appropriate initial management?",
+    "options": [
+      "Oral cyproheptadine and continue haloperidol",
+      "Cease haloperidol and give supportive care with IV fluids and active cooling",
+      "Switch haloperidol to olanzapine",
+      "Intramuscular benztropine and continue haloperidol",
+      "IV ceftriaxone and continue haloperidol"
+    ],
+    "answer": 1,
+    "explanation": "This is **neuroleptic malignant syndrome (NMS)**, an idiosyncratic reaction to **dopamine antagonists** (especially high-potency typicals, rapid dose increases and IM use).\n\nFeatures develop over **days**: **hyperthermia**, **lead-pipe rigidity**, **altered consciousness** and **autonomic instability**, with a **raised CK** (from muscle breakdown) and leukocytosis. Reflexes are normal or reduced, and there is **no clonus**, which separates it from serotonin toxicity.\n\nManagement: **stop the antipsychotic**, give **IV fluids** (to protect the kidneys from rhabdomyolysis), **active cooling**, and manage in a high-dependency setting. Benzodiazepines help agitation and rigidity; **bromocriptine** or **dantrolene** may be used in severe cases. Do not restart any antipsychotic for at least 2 weeks after resolution, and then cautiously.\n\n**Rule:** Antipsychotic + fever + rigidity + high CK = NMS. Stop the drug, cool and hydrate.",
+    "whyWrong": [
+      "Cyproheptadine is for serotonin toxicity; continuing haloperidol worsens NMS.",
+      "",
+      "Any antipsychotic can perpetuate NMS; all must be stopped.",
+      "Benztropine treats acute dystonia and parkinsonism, not NMS, and continuing haloperidol is dangerous.",
+      "Infection should be excluded, but continuing the causative drug is dangerous."
+    ],
+    "tags": ["nms", "antipsychotics", "emergencies"]
+  },
+  {
+    "id": "mh-023",
+    "discipline": "mental-health",
+    "topic": "psych-emergencies",
+    "difficulty": "foundation",
+    "stem": "You are assessing a patient in the emergency department after a presentation with suicidal thoughts. You are gathering information to understand their risk and plan their care.\n\nWhich one of the following is the strongest single predictor of eventual death by suicide?",
+    "options": [
+      "Female sex",
+      "Living with a supportive partner",
+      "A previous suicide attempt",
+      "Regular religious practice",
+      "Having dependent children at home"
+    ],
+    "answer": 2,
+    "explanation": "A **previous suicide attempt** (or self-harm) is the **strongest single predictor** of future death by suicide, particularly in the months after the attempt.\n\nOther important risk factors: **male sex**, mental illness (especially depression, psychosis, substance use), recent **loss** (relationship, job), **social isolation**, chronic pain or illness, **access to lethal means** (firearms, stockpiled medication) and hopelessness.\n\nProtective factors include social support, dependent children, religious or cultural beliefs and engagement with care.\n\nImportantly, RANZCP guidance cautions against relying on **risk categories** (low/medium/high) or scales, as these predict poorly. Instead, do a thorough **individual assessment**, a collaborative **safety plan**, **means restriction** and follow-up soon after discharge.\n\n**Rule:** The best predictor of a future attempt is a past attempt. Assess the person, not a score.",
+    "whyWrong": [
+      "Women attempt suicide more often, but men die by suicide about three times more often.",
+      "Supportive relationships are protective.",
+      "",
+      "Religious or cultural belief is generally a protective factor.",
+      "Responsibility for dependent children is usually protective."
+    ],
+    "ausPearl": "Give crisis contacts before discharge: Lifeline 13 11 14, Suicide Call Back Service 1300 659 467 and 13YARN (13 92 76) for Aboriginal and Torres Strait Islander people.",
+    "tags": ["suicide", "risk assessment"]
+  },
+  {
+    "id": "mh-024",
+    "discipline": "mental-health",
+    "topic": "psych-emergencies",
+    "difficulty": "core",
+    "stem": "A 23-year-old woman with depression is brought to the emergency department 2 hours after taking 40 tablets of amitriptyline 25 mg. She is drowsy with GCS 11, heart rate 135/min, blood pressure 90/55 mmHg, dilated pupils and dry skin. ECG shows sinus tachycardia with a QRS duration of 150 ms. While you are assessing her she has a brief generalised seizure.\n\nWhich one of the following is the most appropriate specific treatment?",
+    "options": [
+      "Intravenous flumazenil",
+      "Intravenous physostigmine",
+      "Intravenous amiodarone",
+      "Intravenous sodium bicarbonate",
+      "Intravenous naloxone"
+    ],
+    "answer": 3,
+    "explanation": "This is serious **tricyclic antidepressant (TCA) toxicity**. TCAs block **fast sodium channels** in the heart (widened QRS, ventricular arrhythmias), plus alpha-blockade (hypotension) and anticholinergic effects (tachycardia, mydriasis, dry skin, drowsiness). Seizures are common.\n\nA **QRS over 100 ms** predicts seizures and over 160 ms predicts ventricular arrhythmia.\n\nThe specific treatment is **IV sodium bicarbonate** (e.g. 1 to 2 mmol/kg boluses). The sodium load and alkalinisation overcome the sodium channel blockade and narrow the QRS. Intubate early in deteriorating patients and hyperventilate to maintain alkalaemia. Treat seizures with benzodiazepines.\n\nThis is why TCAs are avoided in people at risk of suicide.\n\n**Rule:** TCA overdose + wide QRS = sodium bicarbonate.",
+    "whyWrong": [
+      "Flumazenil can precipitate seizures, especially in TCA overdose, and is contraindicated.",
+      "Physostigmine is contraindicated in TCA overdose because it can precipitate asystole.",
+      "Class Ia and III antiarrhythmics such as amiodarone can worsen conduction delay; bicarbonate is first line.",
+      "",
+      "There are no features of opioid toxicity."
+    ],
+    "tags": ["tca overdose", "toxicology", "sodium bicarbonate"]
+  },
+  {
+    "id": "mh-025",
+    "discipline": "mental-health",
+    "topic": "mental-health-law",
+    "difficulty": "core",
+    "stem": "A medical student asks you about the definition of mental illness used for involuntary treatment under Australian state and territory Mental Health Acts.\n\nUnder these Acts, which one of the following, on its own, is specifically excluded as a basis for concluding that a person has a mental illness?",
+    "options": [
+      "Taking alcohol or other drugs",
+      "Persistent auditory hallucinations",
+      "Fixed false beliefs of persecution",
+      "Severe disturbance of mood with inability to care for oneself",
+      "Serious disorder of the form of thought"
+    ],
+    "answer": 0,
+    "explanation": "Mental Health Acts in each state and territory define mental illness by features such as **delusions, hallucinations, serious disorder of thought form, severe disturbance of mood** or sustained irrational behaviour.\n\nThey also list **exclusions**: a person is **not** to be considered mentally ill merely because they express particular political, religious or sexual views, engage in illegal or immoral conduct, have an intellectual disability, or **take alcohol or other drugs**. The serious effects of drug use (e.g. drug-induced psychosis) may still count, but intoxication alone does not.\n\nBroadly, involuntary treatment requires a mental illness, a need for treatment to prevent **serious harm or deterioration**, and **no less restrictive option**. Several jurisdictions (e.g. Queensland, WA, Tasmania) also require that the person **lacks capacity** to consent.\n\n**Rule:** Being drunk or high is not, by itself, a mental illness under the Act.",
+    "whyWrong": [
+      "",
+      "Hallucinations are a core symptom listed in the definitions of mental illness.",
+      "Delusions are a core symptom listed in the definitions of mental illness.",
+      "Severe mood disturbance is recognised as a symptom of mental illness.",
+      "Serious thought disorder is recognised as a symptom of mental illness."
+    ],
+    "ausPearl": "Each state and territory has its own Act (e.g. NSW Mental Health Act 2007, Victoria's Mental Health and Wellbeing Act 2022, Queensland's Mental Health Act 2016). Terminology and criteria differ, so check local law.",
+    "tags": ["mental health act", "involuntary treatment", "law"]
+  },
+  {
+    "id": "mh-026",
+    "discipline": "mental-health",
+    "topic": "mental-health-law",
+    "difficulty": "exam",
+    "stem": "A 72-year-old man with type 2 diabetes has wet gangrene of his left foot. The vascular team recommends below-knee amputation and explains that without it he is likely to die of sepsis. He refuses. He can explain in his own words what the operation involves, the likely consequences of refusing, including death, and says that as a lifelong farmer he would rather die than live without his leg. His view has been consistent over several days. There is no evidence of depression, psychosis or delirium, and his Mini-Mental State Examination score is 29/30. His daughter is distressed and asks you to 'do whatever it takes'.\n\nWhich one of the following is the most appropriate course of action?",
+    "options": [
+      "Detain and treat him under the state Mental Health Act",
+      "Respect his refusal, document the capacity assessment and continue to offer treatment and palliation",
+      "Apply to the guardianship tribunal for a substitute decision-maker to consent",
+      "Proceed with amputation under the doctrine of necessity",
+      "Obtain consent for the operation from his daughter"
+    ],
+    "answer": 1,
+    "explanation": "**Capacity is decision-specific** and presumed in adults. A person has capacity for a decision if they can **understand** the relevant information, **retain** it, **use and weigh** it to reach a decision, and **communicate** that decision.\n\nThis man meets every element: he understands the procedure and the consequence (death), weighs it against his values, and is consistent. There is no mental disorder impairing his reasoning. An **unwise or unusual decision is not evidence of incapacity**.\n\nA competent adult may refuse **any** treatment, even life-saving. Treating him against his will would be assault. The right approach: respect the refusal, **document the capacity assessment carefully**, keep offering treatment (he may change his mind), provide symptom control and support the family.\n\n**Rule:** Capacity is about the process of deciding, not the outcome. Competent refusal must be respected.",
+    "whyWrong": [
+      "There is no mental illness, and Mental Health Acts do not authorise treatment of physical illness in a person with capacity.",
+      "",
+      "Guardianship is only for people who lack capacity; he has capacity.",
+      "Necessity applies in emergencies where the person cannot consent, not over a competent refusal.",
+      "Family cannot consent for an adult who has capacity."
+    ],
+    "ausPearl": "If a patient lacks capacity, the substitute decision-maker is set by state law (e.g. the 'person responsible' in NSW, the 'medical treatment decision maker' in Victoria), and any valid advance care directive must be followed.",
+    "tags": ["capacity", "consent", "refusal of treatment"]
+  },
+  {
+    "id": "mh-027",
+    "discipline": "mental-health",
+    "topic": "mental-health-law",
+    "difficulty": "core",
+    "stem": "A 29-year-old man is brought to the emergency department by his mother. For 2 weeks he has not slept, believes his neighbour is poisoning his water supply and has threatened to 'deal with him'. He has not eaten for 3 days because he believes his food is contaminated. He has no insight, refuses any assessment or treatment and is trying to leave. Urine drug screen is negative. He has no history of violence to date.\n\nWhich one of the following is the most appropriate next step?",
+    "options": [
+      "Detain him under the state Mental Health Act for assessment by a psychiatrist",
+      "Allow him to leave and arrange community mental health follow-up",
+      "Ask police to arrest him for threatening his neighbour",
+      "Sedate him under common law and discharge him once calm",
+      "Obtain consent for admission from his mother"
+    ],
+    "answer": 0,
+    "explanation": "He has features of **acute psychosis** (persecutory delusions, no insight) with **risk to others** (threats to the neighbour) and **risk to self** (not eating), and he refuses care.\n\nAll Australian jurisdictions allow a doctor (and in some cases police or authorised officers) to **detain a person for assessment** when they appear to have a mental illness and there is a risk of **serious harm** or deterioration, and no less restrictive option is available. The patient must then be examined by a **psychiatrist** (or authorised psychiatrist) within a set time frame, and they have rights to information, review by a tribunal and legal advice.\n\nLetting him leave would expose him and others to serious harm.\n\n**Rule:** Mental illness + serious risk + refusing care + no less restrictive option = use the Mental Health Act.",
+    "whyWrong": [
+      "",
+      "Discharge ignores serious risk to himself and his neighbour.",
+      "His behaviour is driven by illness; the Mental Health Act, not criminal arrest, is the appropriate pathway.",
+      "Common law only covers immediate emergencies and does not authorise ongoing detention or treatment.",
+      "A parent cannot consent to admission on behalf of an adult."
+    ],
+    "ausPearl": "Names differ by state: a Schedule 1 mental health certificate in NSW, an assessment order in Victoria and a recommendation for assessment in Queensland.",
+    "tags": ["mental health act", "involuntary assessment", "psychosis"]
+  },
+  {
+    "id": "mh-028",
+    "discipline": "mental-health",
+    "topic": "old-age-psych",
+    "difficulty": "foundation",
+    "stem": "An 84-year-old woman is on day 2 after surgery for a fractured neck of femur. The nurses report that she is confused, pulling at her IV line and sometimes talking to people who are not there. Her confusion is worse at night and she is lucid at times during the day. She cannot recite the months of the year backwards. Her daughter says she was living independently and managing her own finances before the fall.\n\nWhich one of the following is the most likely diagnosis?",
+    "options": [
+      "Alzheimer disease",
+      "Vascular dementia",
+      "Late-onset schizophrenia",
+      "Depressive pseudodementia",
+      "Delirium"
+    ],
+    "answer": 4,
+    "explanation": "**Delirium** is an **acute** (hours to days), **fluctuating** disturbance of **attention** and awareness, caused by an underlying medical problem such as surgery, infection, pain, urinary retention, constipation, drugs (opioids, anticholinergics) or electrolyte disturbance.\n\nThe discriminating features here: **sudden onset** after surgery, **fluctuation** (worse at night, lucid intervals), **inattention** (cannot do months backwards) and perceptual disturbance, in a woman who was **independent before**.\n\n**Dementia** is chronic and progressive over months to years, and attention is usually preserved until late. Dementia is, however, the biggest risk factor for delirium, and the two often coexist.\n\nUse a screening tool such as the **4AT** or **CAM**, then look for and treat the cause.\n\n**Rule:** Acute, fluctuating, inattentive = delirium. Find the cause.",
+    "whyWrong": [
+      "Alzheimer disease develops gradually over years and would not explain an acute change in a previously independent woman.",
+      "Vascular dementia is chronic, and attention is not typically so acutely fluctuating.",
+      "Late-onset psychosis would not start acutely after surgery with fluctuating attention.",
+      "Depression can mimic cognitive impairment, but not with acute fluctuating inattention and hallucinations.",
+      ""
+    ],
+    "tags": ["delirium", "dementia", "elderly"]
+  },
+  {
+    "id": "mh-029",
+    "discipline": "mental-health",
+    "topic": "old-age-psych",
+    "difficulty": "core",
+    "stem": "A 76-year-old man has had 18 months of cognitive decline with marked day-to-day variation in alertness. He describes seeing small children in his lounge room, which does not frighten him. His wife says he has 'acted out his dreams' for years, punching and kicking in his sleep. On examination he has bradykinesia and mild rigidity. During a hospital admission he was given haloperidol for agitation and developed severe rigidity and immobility.\n\nWhich one of the following is the most likely diagnosis?",
+    "options": [
+      "Alzheimer disease",
+      "Frontotemporal dementia",
+      "Dementia with Lewy bodies",
+      "Vascular dementia",
+      "Creutzfeldt-Jakob disease"
+    ],
+    "answer": 2,
+    "explanation": "**Dementia with Lewy bodies (DLB)** has four core clinical features:\n\n- **fluctuating cognition** and alertness\n- recurrent, well-formed **visual hallucinations** (often people or animals)\n- **REM sleep behaviour disorder** (acting out dreams)\n- **parkinsonism**.\n\nAnother key clue is **severe sensitivity to antipsychotics**. Typical antipsychotics like haloperidol can cause severe rigidity, falls, reduced consciousness and even death, so they should be **avoided**.\n\nIf cognitive dementia symptoms occur **within a year** of parkinsonism (or before it), think DLB; if parkinsonism precedes dementia by more than a year, it is Parkinson disease dementia.\n\nTreatment: **cholinesterase inhibitors** (e.g. rivastigmine, donepezil) help cognition and hallucinations. If an antipsychotic is unavoidable, use very low-dose quetiapine with caution.\n\n**Rule:** Fluctuations, visual hallucinations, dream enactment, parkinsonism: Lewy bodies. Never give haloperidol.",
+    "whyWrong": [
+      "Alzheimer disease typically presents with early memory loss without early hallucinations, parkinsonism or marked fluctuation.",
+      "Frontotemporal dementia presents with behavioural change or language problems, usually at a younger age.",
+      "",
+      "Vascular dementia usually has stepwise decline and vascular risk factors or focal signs, not these core features.",
+      "CJD progresses rapidly over months with myoclonus."
+    ],
+    "tags": ["lewy body dementia", "antipsychotic sensitivity", "dementia"]
+  },
+  {
+    "id": "mh-030",
+    "discipline": "mental-health",
+    "topic": "old-age-psych",
+    "difficulty": "exam",
+    "stem": "An 82-year-old man is 3 days after abdominal surgery and has developed hyperactive delirium. A urinary tract infection has been identified and is being treated, his analgesia has been reviewed, and non-pharmacological measures (family presence, reorientation, glasses and hearing aids, a quiet single room) are in place. He remains severely agitated, is trying to climb over the bed rails and has pulled out his urinary catheter twice. He does not drink alcohol, has no history of Parkinson disease and his ECG shows a QTc of 430 ms.\n\nWhich one of the following is the most appropriate medication for short-term management of his agitation?",
+    "options": [
+      "Oral diazepam 5 mg",
+      "Oral temazepam 10 mg",
+      "Intramuscular promethazine 25 mg",
+      "Oral haloperidol 0.5 mg",
+      "Intramuscular olanzapine 10 mg"
+    ],
+    "answer": 3,
+    "explanation": "Management of delirium is primarily **finding and treating the cause** plus **non-pharmacological care**. Medication is reserved for severe distress or agitation that puts the patient or others **at risk** and has not responded to these measures.\n\nWhen needed, use a **low-dose antipsychotic** for the **shortest possible time**: e.g. **haloperidol 0.25 to 0.5 mg orally**, repeated cautiously, or low-dose risperidone. Check QTc and avoid haloperidol in Parkinson disease or DLB.\n\n**Benzodiazepines** worsen confusion, increase falls and prolong delirium, so avoid them **except** in alcohol or benzodiazepine withdrawal. **Anticholinergic** drugs like promethazine also worsen delirium.\n\nThe discriminating clues: no alcohol history, no Parkinson disease and a normal QTc make low-dose haloperidol safe.\n\n**Rule:** In delirium, start very low and go slow with an antipsychotic. Benzos only for withdrawal.",
+    "whyWrong": [
+      "Benzodiazepines worsen and prolong delirium; reserve them for alcohol or benzodiazepine withdrawal.",
+      "Temazepam, like other benzodiazepines, worsens confusion and increases falls in delirium.",
+      "Promethazine is strongly anticholinergic and worsens delirium.",
+      "",
+      "This dose is far too high for a frail older person and risks oversedation and falls."
+    ],
+    "tags": ["delirium", "elderly", "antipsychotics"]
+  }
+]

@@ -1,26 +1,216 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --paper: #f1f4ee;
+  --surface: #ffffff;
+  --sunk: #e7ece4;
+  --ink: #14213d;
+  --muted: #5a6577;
+  --line: #d6ddd3;
+  --brand: #35685a;
+  --brand-ink: #ffffff;
+  --brand-soft: #dde9e2;
+  --ochre: #c4861f;
+  --ochre-soft: #f6ead3;
+  --ok: #2a7a52;
+  --ok-soft: #dcefe3;
+  --bad: #b3413a;
+  --bad-soft: #f6dfdc;
+  --sky: #14213d;
+  --sky-2: #203256;
+  --d-med: #2f6690;
+  --d-surg: #7a4e9c;
+  --d-wh: #b0456f;
+  --d-ch: #c47b12;
+  --d-mh: #2f8577;
+  --d-ph: #66742a;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  :root:not([data-theme="light"]) {
+    --paper: #0d1524;
+    --surface: #141f33;
+    --sunk: #0a111d;
+    --ink: #e7ecf3;
+    --muted: #9aa6b8;
+    --line: #25324a;
+    --brand: #7db8a1;
+    --brand-ink: #0d1524;
+    --brand-soft: #1b3330;
+    --ochre: #e5ad4c;
+    --ochre-soft: #3a2e17;
+    --ok: #6cc596;
+    --ok-soft: #173026;
+    --bad: #ec8a80;
+    --bad-soft: #3a1d1c;
+    --sky: #0a111d;
+    --sky-2: #16233d;
+    --d-med: #6fa6d6;
+    --d-surg: #b38ad6;
+    --d-wh: #e088ab;
+    --d-ch: #e8a94a;
+    --d-mh: #6cc2b3;
+    --d-ph: #a9b863;
   }
 }
 
+@theme inline {
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-sunk: var(--sunk);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-brand: var(--brand);
+  --color-brand-ink: var(--brand-ink);
+  --color-brand-soft: var(--brand-soft);
+  --color-ochre: var(--ochre);
+  --color-ochre-soft: var(--ochre-soft);
+  --color-ok: var(--ok);
+  --color-ok-soft: var(--ok-soft);
+  --color-bad: var(--bad);
+  --color-bad-soft: var(--bad-soft);
+  --font-sans: var(--font-bricolage), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-source-serif), Georgia, serif;
+}
+
+html {
+  background: var(--paper);
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-feature-settings: "ss01";
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible {
+  outline: 2px solid var(--ochre);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Long-form reading: explanations, lessons, tutor answers. */
+.prose-sw {
+  font-family: var(--font-serif);
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  max-width: 70ch;
+}
+.prose-sw > * + * {
+  margin-top: 0.8em;
+}
+.prose-sw h1,
+.prose-sw h2,
+.prose-sw h3 {
+  font-family: var(--font-sans);
+  font-weight: 650;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+.prose-sw h2 {
+  font-size: 1.3rem;
+  margin-top: 1.6em;
+}
+.prose-sw h3 {
+  font-size: 1.08rem;
+  margin-top: 1.3em;
+}
+.prose-sw ul {
+  list-style: disc;
+  padding-left: 1.3em;
+}
+.prose-sw ol {
+  list-style: decimal;
+  padding-left: 1.4em;
+}
+.prose-sw li + li {
+  margin-top: 0.3em;
+}
+.prose-sw strong {
+  font-weight: 650;
+}
+.prose-sw a {
+  color: var(--brand);
+  text-decoration: underline;
+}
+.prose-sw code {
+  font-size: 0.9em;
+  background: var(--sunk);
+  padding: 0.1em 0.3em;
+  border-radius: 4px;
+}
+.prose-sw table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-sans);
+  font-size: 0.92rem;
+  line-height: 1.45;
+  display: block;
+  overflow-x: auto;
+}
+.prose-sw th,
+.prose-sw td {
+  border: 1px solid var(--line);
+  padding: 0.45em 0.6em;
+  text-align: left;
+  vertical-align: top;
+}
+.prose-sw th {
+  background: var(--sunk);
+  font-weight: 600;
+}
+.prose-sw blockquote {
+  border-left: 3px solid var(--ochre);
+  padding-left: 1em;
+  color: var(--muted);
+}
+.prose-sw.compact {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* The Southern Cross: stars brighten as milestones progress. */
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.55;
+  }
+}
+.star-lit {
+  animation: twinkle 4s ease-in-out infinite;
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.rise {
+  animation: rise 0.5s ease-out both;
+}
+
+.caret::after {
+  content: "▍";
+  margin-left: 2px;
+  color: var(--ochre);
+  animation: twinkle 1s steps(2) infinite;
 }

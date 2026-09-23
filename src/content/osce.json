@@ -1,0 +1,773 @@
+[
+  {
+    "id": "osce-01",
+    "title": "Chest pain in a 58-year-old man",
+    "discipline": "adult-medicine",
+    "type": "history",
+    "candidateBrief": "You are a general practitioner in a suburban clinic in Brisbane. Your next patient is Mr Greg Holloway, a 58-year-old man who has booked a same-day appointment because of chest pain over the past two weeks. He walked in from the car park and is currently comfortable. His observations taken by the practice nurse are: BP 152/94 mmHg, HR 88 regular, RR 16, SpO2 97% on room air, temperature 36.7 C.\n\nYour tasks are to:\n- Take a focused history from Mr Holloway\n- Explain your most likely diagnosis to him\n- Outline your immediate management plan",
+    "tasks": [
+      "Take a focused history of the chest pain and cardiovascular risk factors",
+      "Explain the most likely diagnosis",
+      "Outline the immediate management plan"
+    ],
+    "patient": {
+      "name": "Greg Holloway",
+      "age": 58,
+      "sex": "male",
+      "persona": "Laconic, self-employed tradie who downplays symptoms ('probably just a bit of indigestion, mate'). Speaks in short sentences, mildly irritated at taking time off. Answers what he is asked but does not volunteer details. Becomes quieter and more worried if the doctor mentions the heart, because his father died of a heart attack. Only mentions this morning's episode at rest if asked directly about the most recent episode or whether pain ever comes on at rest.",
+      "openingLine": "G'day Doc. The wife made me come in. I've been getting this tightness in my chest, reckon it's just indigestion but she won't let it go.",
+      "script": "HPI: Two weeks of central chest tightness, 'like a heavy weight', coming on when carrying gear up stairs or walking up the hill to the job site. Radiates to the left shoulder and jaw. Lasts 3-5 minutes and eases with rest. Severity 6/10. Initially only with heavy exertion; over the past four days it has come on with less effort (walking from the ute to the house). HIDDEN CUE 1: This morning at 6 am he had a 15-minute episode while sitting on the edge of the bed tying his boots, with sweating and nausea; it settled on its own. He is pain free now. Associated: mild breathlessness with the pain. Negatives: no palpitations, no syncope, no pleuritic or positional pain, no cough, fever, calf pain, recent travel or reflux symptoms, no pain with swallowing.\n\nPMH: Hypertension diagnosed 5 years ago, 'stopped the tablets a year ago because I felt fine'. Told cholesterol 'a bit high' 3 years ago, never treated. No diabetes known (never checked recently). No previous cardiac history.\n\nMeds: Nil current (previously perindopril 5 mg). Occasional ibuprofen for back pain. No PDE-5 inhibitors. Allergies: nil known.\n\nFamily history: Father died of a heart attack aged 61. Brother had stents at 55.\n\nSocial: Self-employed plumber. Smokes 20 cigarettes a day for 35 years. Drinks 4-5 full-strength beers most nights, more on weekends. Married, two adult children, lives in a two-storey house. Drives a ute for work. HIDDEN CUE 2: He drove himself here and plans to drive to a job straight after, and has a big job lifting hot water systems this afternoon.\n\nIdeas: Thinks it is indigestion or a pulled muscle. Concerns: Worried (only if asked with empathy) that it is 'the same thing that got Dad'; also worried about losing income. Expectations: Wants some antacids and to get back to work.\n\nIf told he needs to go to hospital he initially resists ('Can't I just get a test next week?') but agrees if the doctor explains the risk clearly and kindly."
+    },
+    "markingCriteria": [
+      "Introduces self, confirms identity, establishes rapport and checks current comfort (pain free now) early",
+      "Characterises the pain systematically: site, onset, character, radiation, timing, exacerbating and relieving factors, severity",
+      "Identifies the crescendo pattern and specifically elicits the episode of pain at rest this morning",
+      "Asks about associated features and relevant negatives to exclude differentials (PE, aortic dissection, pericarditis, GORD, musculoskeletal)",
+      "Takes a complete cardiovascular risk factor history: smoking, hypertension and non-adherence, lipids, diabetes, family history of premature CAD, alcohol",
+      "Takes a medication and allergy history, including stopped antihypertensives and NSAID use",
+      "Explores ideas, concerns and expectations, including the fear related to his father's death",
+      "States unstable angina / NSTE-ACS as the most likely diagnosis and explains it in plain language",
+      "Recommends immediate transfer to ED by ambulance (not driving himself), with an ECG in the clinic while waiting, as per NHFA/CSANZ ACS guidelines",
+      "Offers aspirin 300 mg chewed if no contraindication and advises GTN for recurrent pain; tells him to call 000 if pain recurs",
+      "Addresses safety: must not drive or do heavy work today; involves wife with permission",
+      "Mentions longer term plan in outline: troponin, risk stratification, possible angiography, smoking cessation and risk factor control"
+    ],
+    "expectedDiagnosis": "Unstable angina / suspected non-ST-elevation acute coronary syndrome (crescendo angina with rest pain)",
+    "teachingPoints": [
+      "Crescendo angina or any rest pain within the last 24-48 hours is an acute coronary syndrome until proven otherwise: it needs ED assessment, not an outpatient stress test.",
+      "In Australian general practice the correct action is a 12-lead ECG within 10 minutes, aspirin 300 mg, and ambulance transfer via 000; never let the patient drive.",
+      "A normal ECG and being pain free now do not exclude NSTE-ACS; serial high-sensitivity troponin in ED is required (NHFA/CSANZ 2016 ACS guideline).",
+      "Always ask about the most recent episode and rest pain specifically: patients rarely volunteer it.",
+      "Stopped antihypertensives, heavy smoking and a first-degree relative with premature CAD markedly raise pre-test probability; address these once the acute issue is managed (Australian CVD risk guideline 2023).",
+      "Explore the patient's fear: a relative's cardiac death is a common hidden concern and drives both denial and later adherence."
+    ]
+  },
+  {
+    "id": "osce-02",
+    "title": "Breathlessness and ankle swelling in a 74-year-old man",
+    "discipline": "adult-medicine",
+    "type": "examination",
+    "candidateBrief": "You are a hospital medical officer (HMO) in the emergency department of a rural hospital in Dubbo, NSW. Mr Frank Petersen, a 74-year-old retired farmer, has presented with three weeks of worsening shortness of breath and swollen ankles. The registrar has taken a history and asked you to examine him. Observations: BP 138/86 mmHg, HR 112 irregularly irregular, RR 22, SpO2 92% on room air, temperature 36.6 C.\n\nYour tasks are to:\n- Perform a focused cardiovascular and respiratory examination, explaining what you are doing to the patient; the examiner will give you findings\n- Tell the examiner your findings and most likely diagnosis\n- Outline your initial investigations and management",
+    "tasks": [
+      "Perform a focused cardiovascular and respiratory examination",
+      "Present findings and the most likely diagnosis to the examiner",
+      "Outline initial investigations and management"
+    ],
+    "patient": {
+      "name": "Frank Petersen",
+      "age": 74,
+      "sex": "male",
+      "persona": "Polite, stoic older man, a bit breathless when speaking in long sentences. Uses plain country language ('I've been puffing like an old steam train'). Cooperative with examination, mildly anxious. Will only mention that he sleeps propped up in the recliner if asked about sleeping. Worries about his wife, who has dementia and depends on him.",
+      "openingLine": "Morning, Doctor. Sorry to be a nuisance, I just can't get my breath like I used to and my ankles have blown up like balloons.",
+      "script": "HPI: Three weeks of progressive exertional dyspnoea; now breathless walking 20 metres to the letterbox (previously walked the dog 2 km daily). Orthopnoea: sleeps propped on three pillows, for the last week in the recliner. Wakes at night gasping about twice a week (PND). Bilateral ankle swelling rising to mid-shin. Weight up about 4 kg in three weeks. Palpitations, 'heart fluttering', on and off for a month. Mild dry cough at night. Negatives: no chest pain, no haemoptysis, no fever, no calf pain, no syncope.\n\nPMH: Hypertension for 15 years. Type 2 diabetes (diet and metformin). Myocardial infarction 8 years ago with a stent to LAD. Osteoarthritis of both knees.\n\nMeds: Metformin 1 g BD, ramipril 5 mg daily, aspirin 100 mg daily, atorvastatin 40 mg daily. Recently started buying over-the-counter naproxen for his knees (HIDDEN CUE 1: only revealed if asked about pain relief or over-the-counter medicines). Allergies: nil.\n\nFamily: Nil relevant.\n\nSocial: Retired sheep farmer, lives on a property 40 km out of town with wife Joan, who has moderate Alzheimer's dementia; he is her sole carer. HIDDEN CUE 2: If asked about home or who is looking after his wife, becomes worried: 'She's with the neighbour now but she can't be left alone overnight'. Ex-smoker, quit 20 years ago (30 pack-years). Two beers a day. Still drives into town weekly.\n\nIdeas: Thinks it might be 'a chest infection'. Concerns: Who will look after Joan if he is admitted. Expectations: Hopes for tablets and to go home today.",
+      "examFindings": "General: Elderly man sitting upright, mildly dyspnoeic at rest, speaking in full sentences. Not cyanosed. No clubbing. Hands warm, no nicotine staining.\nPulse: 112 bpm, irregularly irregular, normal volume. BP 138/86 mmHg.\nJVP: Elevated at 6 cm above the sternal angle; positive hepatojugular reflux.\nPrecordium: Apex beat displaced to the 6th intercostal space, anterior axillary line, diffuse. No heaves or thrills.\nAuscultation: S1 variable intensity, S2 normal, S3 not appreciable due to irregular rhythm. Soft 2/6 pansystolic murmur at the apex radiating to the axilla.\nChest: Trachea midline. Reduced expansion bilaterally. Stony dull percussion at both bases, right higher than left. Fine bibasal inspiratory crackles to the mid zones. Reduced air entry at the bases.\nAbdomen: Smooth tender hepatomegaly 3 cm below the costal margin. No ascites.\nLower limbs: Bilateral pitting oedema to mid-shin. Calves soft, non-tender. Peripheral pulses present.\nBedside: Blood glucose 8.4 mmol/L. ECG (if requested): atrial fibrillation with ventricular rate 110, old Q waves in V1-V3, no acute ST changes."
+    },
+    "markingCriteria": [
+      "Introduces self, obtains consent, explains the examination, ensures privacy and comfort, positions patient at 45 degrees",
+      "Performs hand hygiene and a general inspection noting dyspnoea at rest and peripheral signs",
+      "Examines the pulse (rate and rhythm) and recognises atrial fibrillation; requests or checks BP",
+      "Assesses the JVP correctly and elicits the hepatojugular reflux",
+      "Palpates the apex beat and correctly interprets its displacement",
+      "Auscultates all valve areas with manoeuvres and identifies the apical pansystolic murmur (likely functional MR)",
+      "Examines the chest including percussion and auscultation of the bases; identifies bilateral effusions and crackles",
+      "Examines for hepatomegaly and peripheral oedema, and checks the calves",
+      "Presents findings succinctly and concludes congestive cardiac failure with AF, likely ischaemic cardiomyopathy, with precipitants (AF, NSAID use)",
+      "Lists appropriate investigations: ECG, CXR, FBC, UEC, LFT, TFT, troponin, BNP/NT-proBNP, HbA1c, echocardiogram",
+      "Outlines initial management: sit up, oxygen to SpO2 target, IV furosemide, fluid balance and daily weights, rate control, anticoagulation assessment (CHA2DS2-VA), stop NSAIDs and hold metformin if renal function deteriorating",
+      "Recognises and responds to the social concern about his dependent wife (social work, respite, family contact)"
+    ],
+    "expectedDiagnosis": "Decompensated congestive cardiac failure (likely ischaemic cardiomyopathy) precipitated by new atrial fibrillation and NSAID use",
+    "teachingPoints": [
+      "Structure the CVS exam as general inspection, hands, pulse, BP, face, neck (JVP), precordium, back of chest and bases, abdomen (liver), and legs; examiners reward a fluent routine that is explained to the patient.",
+      "Always look for the precipitant of decompensated heart failure: arrhythmia (AF), ischaemia, infection, non-adherence, and drugs such as NSAIDs, non-dihydropyridine calcium channel blockers or thiazolidinediones.",
+      "Assess stroke risk in AF with CHA2DS2-VA (Australian NHFA/CSANZ AF guidelines drop the sex category); this man scores at least 5 and needs anticoagulation, usually a DOAC.",
+      "Guideline-directed medical therapy for HFrEF (NHFA/CSANZ): ACEI/ARB or ARNI, beta-blocker, MRA and SGLT2 inhibitor, titrated once euvolaemic.",
+      "In rural practice, social issues such as a dependent spouse commonly determine whether admission is safe: address them explicitly."
+    ]
+  },
+  {
+    "id": "osce-03",
+    "title": "New diagnosis of type 2 diabetes",
+    "discipline": "adult-medicine",
+    "type": "management",
+    "candidateBrief": "You are a general practitioner in Western Sydney. Mrs Priya Nair, a 49-year-old woman, has returned for the results of blood tests done after a routine health check. Her results show fasting glucose 8.9 mmol/L and HbA1c 8.1% (65 mmol/mol) on two occasions two weeks apart. Renal function is normal (eGFR >90), urine ACR 1.8 mg/mmol. BMI 31 kg/m2, BP 136/84 mmHg.\n\nYour tasks are to:\n- Explain the diagnosis to Mrs Nair\n- Discuss a management plan with her\n- Answer her questions",
+    "tasks": [
+      "Explain the diagnosis of type 2 diabetes",
+      "Discuss an initial management plan including lifestyle and medication",
+      "Address her questions and concerns"
+    ],
+    "patient": {
+      "name": "Priya Nair",
+      "age": 49,
+      "sex": "female",
+      "persona": "Articulate, anxious nurse's aide who has lived in Australia for 15 years. Speaks quickly when nervous, asks many questions. Initially says 'I knew it, I'm going to end up like my mother'. Will only disclose that she works night shifts and skips meals if asked about her routine. Only mentions her fear of needles and amputation if the doctor explores her concerns empathetically.",
+      "openingLine": "Hi Doctor. The receptionist said you wanted to see me about my bloods. Is it the sugar? My mum had sugar problems.",
+      "script": "Background: Attended a health check at her husband's urging. No symptoms she noticed, but on questioning admits to getting up twice a night to pass urine for a few months and feeling thirsty, and has had two episodes of vulval thrush in the past six months. No weight loss. No visual change, no numbness in feet, no chest pain.\n\nPMH: Gestational diabetes in both pregnancies (2004 and 2007), 'they told me to get checked but I never did'. Polycystic ovary syndrome. Mild fatty liver noted on an ultrasound last year.\n\nMeds: Nil regular. Occasional paracetamol. Allergies: nil.\n\nFamily history: Mother had type 2 diabetes, on insulin, had a below-knee amputation and died of kidney failure aged 68. Father had a heart attack at 60. Brother has diabetes.\n\nSocial: Works as an assistant in nursing at an aged care facility, rotating night shifts four nights a week (HIDDEN CUE 1: she eats biscuits and sweet chai to stay awake and often skips proper meals, sleeps poorly). Married, two teenage children. Never smoked, no alcohol. Vegetarian. Walks very little, 'no time'. Drives.\n\nIdeas: Believes diabetes means she will definitely need insulin injections and lose her legs like her mother. Concerns (HIDDEN CUE 2): Terrified of needles and of 'ending up on dialysis like Mum'; also worried that she will have to stop working night shifts and lose income. Expectations: Wants to know if it can be cured with diet alone, and whether her daughters are at risk.\n\nQuestions she will ask: 'Do I need insulin?', 'Will I lose my leg?', 'Can I still work nights?', 'Should my kids be tested?'. She is receptive to a structured plan, and relieved when told that most people start with tablets and that good control greatly reduces complication risk."
+    },
+    "markingCriteria": [
+      "Establishes rapport, checks what she already knows and what she wants to know before giving results",
+      "Explains the diagnosis of type 2 diabetes clearly with reference to her two abnormal results, avoiding jargon",
+      "Elicits symptoms of hyperglycaemia and relevant history, including previous gestational diabetes and family history",
+      "Explores ideas, concerns and expectations, including the fear of insulin, amputation and dialysis based on her mother's experience",
+      "Explores lifestyle factors including night-shift work, diet and physical activity",
+      "Discusses lifestyle measures: dietitian referral, culturally appropriate diet, 150 minutes a week of physical activity, weight loss target of 5-10%",
+      "Offers metformin as first-line pharmacotherapy (explains start low, go slow, GI side effects) and mentions that other agents such as SGLT2 inhibitors may be added",
+      "Sets an individualised HbA1c target (generally 7% or 53 mmol/mol or less) per RACGP Management of type 2 diabetes handbook",
+      "Addresses cardiovascular risk: BP and lipid assessment, absolute CVD risk calculation, statin consideration",
+      "Outlines complication screening and the annual cycle of care: eyes, feet, kidneys (eGFR and ACR), and GP Management Plan with allied health referrals",
+      "Mentions NDSS registration, diabetes education, driving considerations if on hypoglycaemic agents, and screening of first-degree relatives",
+      "Arranges follow-up and checks understanding (teach-back)"
+    ],
+    "expectedDiagnosis": "Type 2 diabetes mellitus (HbA1c 8.1% on repeat testing), with previous gestational diabetes and a strong family history",
+    "teachingPoints": [
+      "In Australia, diabetes can be diagnosed with HbA1c 6.5% (48 mmol/mol) or more on two occasions in an asymptomatic person, or once with a fasting glucose of 7.0 mmol/L or more; MBS allows HbA1c for diagnosis.",
+      "Metformin plus lifestyle change is first line; SGLT2 inhibitors or GLP-1 receptor agonists are preferred add-ons when there is established CVD, heart failure or CKD (RACGP/ADS algorithm).",
+      "Register every new patient with the NDSS for subsidised supplies and education, and set up a GP Management Plan and Team Care Arrangement for Medicare-rebated allied health visits.",
+      "Women with previous gestational diabetes need screening every 1-3 years for life: missed follow-up is common.",
+      "Address the 'my mother lost her leg' fear directly: modern management and early detection substantially reduce the risk of amputation and kidney failure.",
+      "Shift workers need tailored advice on meal timing and hypoglycaemia risk if sulfonylureas or insulin are later added."
+    ]
+  },
+  {
+    "id": "osce-04",
+    "title": "First seizure in a 28-year-old man",
+    "discipline": "adult-medicine",
+    "type": "diagnosis",
+    "candidateBrief": "You are an HMO in the emergency department of a metropolitan hospital in Melbourne. Mr Jake Morrison, a 28-year-old man, was brought in by ambulance four hours ago after his partner witnessed a generalised tonic-clonic seizure at home. He is now fully recovered. His examination is normal. Blood tests (FBC, UEC including sodium, calcium, magnesium, glucose, LFT) are normal. Non-contrast CT brain is normal. The neurology registrar has reviewed him and is happy for discharge with outpatient EEG and MRI.\n\nYour tasks are to:\n- Explain the likely diagnosis and results to Mr Morrison\n- Advise him on safety and driving\n- Answer his questions",
+    "tasks": [
+      "Explain the likely diagnosis and the results",
+      "Give safety advice, including driving advice",
+      "Answer his questions"
+    ],
+    "patient": {
+      "name": "Jake Morrison",
+      "age": 28,
+      "sex": "male",
+      "persona": "Friendly, casual young man ('no worries, when can I get out of here?'). Minimises what happened. Becomes frustrated and a bit argumentative when driving restrictions are mentioned. Will not volunteer his drug use unless asked in a non-judgemental way, and will not mention his work at heights unless asked about his job specifics.",
+      "openingLine": "Hey Doc. So what's the verdict? My partner reckons I was shaking like crazy but I feel fine now. Can I head home?",
+      "script": "Event: Last night at 11 pm, partner Chloe saw him go stiff, cry out, and then jerk all four limbs for about 2 minutes while on the couch. He bit the side of his tongue and was incontinent of urine. Drowsy and confused for 30 minutes afterwards, then slept. No warning he can remember. Never happened before. No recent head injury, fever, headache or neck stiffness. No history of febrile convulsions as a child.\n\nTriggers: He had slept only about 4 hours a night for the past week because of a work deadline and a mate's bucks weekend. HIDDEN CUE 1: If asked non-judgementally about alcohol and drugs, he admits to drinking about 12 beers on each of Friday and Saturday and taking 'a couple of pingers' (MDMA) at the bucks party three days ago; no benzodiazepine use or withdrawal. Drinks less during the week.\n\nPMH: Nil. Meds: Nil. Allergies: Nil.\nFamily history: Cousin has epilepsy.\n\nSocial: Lives with partner in a rented unit. HIDDEN CUE 2: Works as a roof plumber on residential building sites, regularly working on roofs and ladders, and drives the company van to sites every day. Swims at the beach on weekends. Plays in a local footy team.\n\nIdeas: Thinks it was a 'one-off from being run down'. Concerns: Losing his job if he cannot drive; he is the main earner and they have just signed a lease. Expectations: Wants to go home and back to work tomorrow.\n\nQuestions: 'Is it epilepsy?', 'Do I need tablets?', 'When can I drive?', 'Can I still go to work?'. If told he cannot drive for six months he says 'That's ridiculous, how am I supposed to get to work?' He calms down if the doctor is empathetic, explains that it is the law and about safety, and offers practical help (medical certificate, talking to employer)."
+    },
+    "markingCriteria": [
+      "Introduces self, checks his understanding of the event and what he has been told",
+      "Clarifies key features of the episode and possible provoking factors (sleep deprivation, alcohol, recreational drugs) in a non-judgemental way",
+      "Explains that this is most likely a first generalised tonic-clonic seizure and that normal bloods and CT are reassuring but do not exclude epilepsy",
+      "Explains that a single seizure is not usually diagnosed as epilepsy and that antiseizure medication is not usually started after a first unprovoked seizure; outlines the role of EEG and MRI and neurology follow-up",
+      "Gives clear driving advice per Austroads Assessing Fitness to Drive: must not drive a private vehicle for a minimum of 6 months after a first seizure, and that commercial vehicle standards are much stricter (years rather than months, decided with the licensing authority)",
+      "Explains the patient's legal responsibility to notify the driver licensing authority (VicRoads) and documents the advice",
+      "Gives safety advice: no working at heights, ladders or with dangerous machinery, no swimming alone, showers rather than baths, avoid triggers",
+      "Advises on reducing alcohol and avoiding recreational drugs and sleep deprivation",
+      "Provides seizure first aid information for his partner and when to call 000 (seizure longer than 5 minutes, repeated seizures, injury)",
+      "Responds empathetically to his frustration and offers practical support such as a medical certificate and alternative duties at work",
+      "Arranges follow-up: GP review, EEG, MRI brain, first seizure clinic, and provides written information (Epilepsy Foundation)"
+    ],
+    "expectedDiagnosis": "First generalised tonic-clonic seizure, possibly provoked or lowered threshold by sleep deprivation, alcohol and MDMA use",
+    "teachingPoints": [
+      "Austroads Assessing Fitness to Drive: after a first seizure, private drivers should not drive for at least 6 months; commercial drivers face much longer non-driving periods, measured in years (the licensing authority decides), and the patient is responsible for notifying the licensing authority.",
+      "The doctor documents the advice given; in most states doctors may notify the authority if a patient continues to drive against advice, and South Australia and the NT have mandatory reporting.",
+      "After a first unprovoked seizure, around 40% recur within two years; antiseizure medication is usually deferred unless EEG or MRI show a high-risk abnormality.",
+      "Occupational and lifestyle safety (heights, water, machinery, bathing) is just as important as driving advice and is commonly missed in the exam.",
+      "Always ask about alcohol, recreational drugs (MDMA can cause hyponatraemia and seizures), sleep deprivation and medications that lower the seizure threshold (tramadol, bupropion)."
+    ]
+  },
+  {
+    "id": "osce-05",
+    "title": "Rectal bleeding in a 64-year-old man",
+    "discipline": "adult-surgery",
+    "type": "history",
+    "candidateBrief": "You are a general practitioner in a regional town in Victoria. Mr Barry Kowalski, a 64-year-old retired truck driver, has come in because he has noticed blood in his stools. His observations are normal apart from a pulse of 96. He appears pale.\n\nYour tasks are to:\n- Take a focused history from Mr Kowalski\n- Tell him what you think is going on and your differential diagnosis\n- Outline your plan for investigation and referral",
+    "tasks": [
+      "Take a focused history of rectal bleeding and associated symptoms",
+      "Explain the differential diagnosis",
+      "Outline investigations and referral"
+    ],
+    "patient": {
+      "name": "Barry Kowalski",
+      "age": 64,
+      "sex": "male",
+      "persona": "Embarrassed, gruff older man who finds talking about his bowels awkward ('it's a bit of a delicate one, Doc'). Tries to blame 'piles' and wants cream. Becomes quiet and worried when cancer is raised. Only reveals the unused bowel screening kit and his brother's history if asked specifically.",
+      "openingLine": "Look, this is a bit embarrassing. I've been getting some blood when I go to the toilet. Probably just piles, but the missus said I should get it looked at.",
+      "script": "HPI: Three months of intermittent dark red blood mixed in with the stool, sometimes on the paper too. Not every day, maybe three times a week. Change in bowel habit over four months: previously regular once daily, now looser stools two to three times a day, alternating with a couple of days of constipation. Feels he has not fully emptied (tenesmus). No mucus. Mild crampy left lower abdominal discomfort. HIDDEN CUE 1: Has lost about 6 kg over three months without trying ('the belt's on a new notch'), and feels tired and breathless walking up hills lately. No anal pain, no lump prolapsing, no fever, no nausea or vomiting, no jaundice, no recent antibiotics or travel.\n\nPMH: Hypertension. Gout. Had 'piles' 20 years ago treated with banding. Never had a colonoscopy.\n\nMeds: Amlodipine 5 mg daily, allopurinol 300 mg daily, aspirin 100 mg daily that he started himself 'for the heart'. No anticoagulants. Allergies: penicillin (rash).\n\nFamily history: HIDDEN CUE 2: Younger brother was diagnosed with bowel cancer at age 52 and had surgery and chemotherapy; he is well now. Mother died of 'stomach cancer' at 70.\n\nSocial: Retired long-haul truck driver. Ex-smoker (quit 10 years ago, 35 pack-years). Drinks 3-4 beers daily. Diet high in red and processed meat, 'not much for veggies'. Lives with his wife. Drives. He received three National Bowel Cancer Screening Program kits in the mail over the years and 'chucked them in the drawer'.\n\nIdeas: Thinks it is piles. Concerns: Afraid of a 'camera up the backside', and if pushed, scared it is cancer like his brother. Expectations: Wants a cream and to avoid tests. Accepts colonoscopy if the reason is explained sensitively."
+    },
+    "markingCriteria": [
+      "Puts the patient at ease, acknowledges embarrassment and uses clear non-judgemental language",
+      "Characterises the bleeding: colour, amount, relation to stool, frequency, duration",
+      "Asks about change in bowel habit, tenesmus, mucus, abdominal pain and anal symptoms",
+      "Elicits red flag features: unintentional weight loss, fatigue and symptoms of anaemia",
+      "Takes a family history and identifies the brother's early-onset bowel cancer",
+      "Asks about previous screening (NBCSP) and colonoscopy",
+      "Takes a medication history including aspirin and anticoagulants, and allergies",
+      "Covers social risk factors: smoking, alcohol, diet",
+      "Explores ideas, concerns and expectations sensitively",
+      "Explains that colorectal cancer must be excluded; gives a sensible differential (haemorrhoids, diverticular disease, IBD, polyps)",
+      "Plans DRE and abdominal examination, FBC, iron studies, UEC, LFTs, CEA not as a screening test, and urgent colonoscopy referral (within 30 days per Optimal Care Pathway), with safety-netting for heavy bleeding",
+      "Recommends that he should not use an FOBT now because he is symptomatic, and that his family history also affects relatives' screening"
+    ],
+    "expectedDiagnosis": "Suspected colorectal carcinoma (left-sided/rectosigmoid) with probable iron deficiency anaemia; differentials haemorrhoids, diverticular disease, IBD",
+    "teachingPoints": [
+      "Rectal bleeding in a person over 50, or with change in bowel habit, weight loss, iron deficiency anaemia or a strong family history, needs colonoscopy, not a trial of haemorrhoid cream.",
+      "The iFOBT through the National Bowel Cancer Screening Program is for asymptomatic people aged 45-74 every two years; symptomatic patients go straight to diagnostic colonoscopy.",
+      "The Cancer Council Optimal Care Pathway for colorectal cancer recommends colonoscopy within 30 days for suspected cancer, sooner if significant bleeding or anaemia.",
+      "A first-degree relative diagnosed under 55 puts the patient in a higher risk category (NHMRC/Cancer Council guidelines): colonoscopy every five years from age 45 or 10 years before the relative's diagnosis; offer cascade advice for his children.",
+      "Men find these consultations embarrassing: acknowledge it, ask directly, and explain procedures in plain language."
+    ]
+  },
+  {
+    "id": "osce-06",
+    "title": "Groin lump in a 55-year-old man",
+    "discipline": "adult-surgery",
+    "type": "examination",
+    "candidateBrief": "You are a general practitioner in a suburban clinic in Perth. Mr Tony Russo, a 55-year-old warehouse worker, has noticed a lump in his right groin for two months. It is not painful at present.\n\nYour tasks are to:\n- Examine Mr Russo's groin, explaining what you are doing; the examiner will give you your findings\n- Explain the findings and the most likely diagnosis to Mr Russo\n- Discuss management and advice",
+    "tasks": [
+      "Perform an examination of the groin and scrotum",
+      "Explain the findings and the most likely diagnosis",
+      "Discuss management and safety-netting"
+    ],
+    "patient": {
+      "name": "Tony Russo",
+      "age": 55,
+      "sex": "male",
+      "persona": "Friendly, talkative man who jokes to hide embarrassment about being examined. Keen to avoid surgery because he cannot afford time off. Only reveals that he has had one episode where the lump became painful and would not go back if asked about episodes of pain or trouble pushing it back.",
+      "openingLine": "G'day Doc. I've got this lump down there in the groin. The wife reckons it's a hernia. Not really hurting, just a bit of a drag at the end of the day.",
+      "script": "HPI: Two months of a right groin lump, noticed after lifting heavy boxes at work. Bigger at the end of the day and when he coughs or strains, disappears when he lies down. Dragging ache, 3/10, worse after lifting. HIDDEN CUE 1: Two weeks ago the lump became painful and would not go back for about an hour after a heavy lift; he felt a bit sick, then it went back when he lay in a warm bath. He did not seek help. No vomiting, bowels normal, passing wind, no urinary symptoms, no testicular pain or swelling, no weight loss, no fever.\n\nPMH: COPD, mild, with a chronic smoker's cough. Benign prostatic hypertrophy with some straining to pass urine. No previous surgery.\n\nMeds: Tiotropium inhaler daily, salbutamol as needed. Allergies: nil.\n\nFamily: Father had 'hernias on both sides'.\n\nSocial: Forklift driver and warehouse worker, lifts up to 25 kg regularly. Smokes 15 cigarettes a day. Two to three beers a night. Married, lives with wife. Drives. Casual employee: 'if I'm off, I don't get paid'.\n\nIdeas: Thinks it is a hernia. Concerns: Time off work and income. HIDDEN CUE 2: Worried it could be cancer because a mate had a 'lump in the groin that turned out to be lymphoma', only shared if asked what worries him. Expectations: Hopes it can be 'left alone' or managed with a truss.",
+      "examFindings": "General: Well man, BMI approximately 29. Examined standing first, then supine.\nInspection standing: Visible 4 cm swelling in the right groin, above and medial to the pubic tubercle, extending towards the top of the scrotum. No skin changes, no scars. Left groin normal.\nCough impulse: Positive expansile cough impulse over the right swelling.\nPalpation: Soft, non-tender, 4 x 3 cm swelling. Cannot get above it in the scrotum. Lies above and medial to the pubic tubercle. Reducible on lying down with gentle pressure; with the patient lying and the deep inguinal ring (midpoint of the inguinal ligament) occluded, the swelling does not reappear on coughing; it reappears when pressure is released.\nTransillumination: Negative.\nScrotum and testes: Both testes palpable, normal size and consistency, separate from the swelling. No varicocele.\nLymph nodes: No inguinal lymphadenopathy.\nOther: Left side normal on cough. Abdomen soft, non-tender, no masses, no organomegaly. Normal bowel sounds. Examiner will state that a DRE is not required."
+    },
+    "markingCriteria": [
+      "Introduces self, gains consent, explains the need for exposure, offers a chaperone and ensures privacy",
+      "Examines with the patient standing first, inspecting both groins and scrotum",
+      "Tests the cough impulse on both sides",
+      "Palpates the lump, establishing relationship to the pubic tubercle, whether one can get above it, consistency, tenderness and reducibility",
+      "Examines the testes and scrotum, and checks for transillumination",
+      "Performs the deep ring occlusion test with the patient lying down and interprets it correctly",
+      "Examines the contralateral side, inguinal lymph nodes and abdomen, and mentions checking for contributing factors (chronic cough, prostatism)",
+      "Correctly concludes a reducible right indirect inguinal hernia and explains it in simple language",
+      "Identifies the recent episode of incarceration and explains that this raises the risk of strangulation",
+      "Recommends referral for elective surgical repair (open or laparoscopic mesh repair) rather than a truss, with a reasonably prompt referral given the episode",
+      "Gives clear safety-netting: attend ED immediately if the lump becomes painful, tense, irreducible, or with vomiting or abdominal distension",
+      "Addresses modifiable factors (smoking cessation, weight, lifting technique), work issues and his concern about cancer"
+    ],
+    "expectedDiagnosis": "Right reducible indirect inguinal hernia with a recent episode of transient incarceration",
+    "teachingPoints": [
+      "Inguinal hernias arise above and medial to the pubic tubercle; femoral hernias arise below and lateral to it and have a higher risk of strangulation.",
+      "Controlling the deep ring after reduction helps distinguish indirect from direct hernias, but clinical distinction is unreliable; the key decision is referral for repair.",
+      "Symptomatic hernias, or any history of incarceration, should be referred for elective repair; watchful waiting is only reasonable for minimally symptomatic hernias in men.",
+      "Always safety-net for strangulation: pain, tenderness, irreducibility, vomiting and obstruction require urgent ED attendance.",
+      "Look for and address contributors to raised intra-abdominal pressure: chronic cough, constipation, prostatism, obesity and heavy lifting.",
+      "In Australia, workers may be eligible for workers' compensation if the hernia is related to lifting at work: mention it for a casual labourer worried about income."
+    ]
+  },
+  {
+    "id": "osce-07",
+    "title": "Motorbike crash in a 32-year-old man",
+    "discipline": "adult-surgery",
+    "type": "management",
+    "candidateBrief": "You are the senior medical officer on duty in the emergency department of a rural hospital in Mount Isa, Queensland. There is no on-site surgeon; the nearest trauma centre is in Townsville (retrieval by RFDS). Mr Dylan Carter, a 32-year-old man, has been brought in by ambulance after coming off his motorbike at about 80 km/h on a dirt road. Paramedics have applied a cervical collar. A nurse is with you.\n\nYour tasks are to:\n- Assess and manage Mr Carter, telling the examiner what you are doing and asking for findings as you go\n- Tell the examiner your working diagnosis\n- Outline your ongoing plan",
+    "tasks": [
+      "Perform a structured primary survey with simultaneous resuscitation",
+      "State the working diagnosis",
+      "Outline ongoing management and retrieval"
+    ],
+    "patient": {
+      "name": "Dylan Carter",
+      "age": 32,
+      "sex": "male",
+      "persona": "In pain, anxious and increasingly drowsy and short-tempered as the station goes on. Speaks in short phrases ('me chest, mate, it's killing me'). Answers simple questions. Asks repeatedly about his bike and whether he is going to be okay. Will only tell you he takes a blood thinner if asked about medications (AMPLE history).",
+      "openingLine": "Argh, me chest... I can't get a proper breath. Is me bike alright?",
+      "script": "Mechanism: Came off his trail bike at about 80 km/h on a corrugated dirt road about 90 minutes ago, hit a tree with his left side. Helmet on, no leathers. Brief loss of consciousness per his mate. Paramedics: GCS 14 on scene, gave methoxyflurane and 10 mg IV morphine.\n\nSymptoms: Severe left chest pain worse on breathing, left upper abdominal pain, pain in the left thigh. Some neck pain. No numbness or weakness in limbs.\n\nAMPLE: Allergies: none. HIDDEN CUE 1: Medications: apixaban 5 mg twice daily for a DVT three months ago after a knee reconstruction (only revealed if asked). Past history: knee reconstruction; otherwise well. Last meal: pie and a can of Coke four hours ago. Events: as above.\n\nSocial: Mine worker on a fly-in fly-out roster. Smokes. Drinks on days off: had 'a few beers' before riding (HIDDEN CUE 2: admits to 6 beers if asked directly). Lives with partner.\n\nCourse if managed correctly: If needle or finger decompression and then an intercostal catheter (chest drain) is placed on the left, breathing and oxygen saturation improve. If he receives warmed blood and permissive hypotensive resuscitation, BP improves temporarily to about 100 systolic then drifts again (ongoing splenic bleeding). If the candidate does not decompress the chest, he becomes more hypoxic and hypotensive.\n\nConcerns: Wants to know if he will be okay and asks the team to call his partner. Expectations: Wants pain relief.",
+      "examFindings": "Airway: Talking in short phrases, airway patent. Cervical collar in place; C-spine tenderness in the midline at C5-6 on log roll.\nBreathing: RR 32, SpO2 86% on 15 L/min via non-rebreather mask. Trachea deviated to the right. Reduced chest expansion on the left. Hyperresonant percussion on the left. Absent breath sounds on the left. Tender left lower ribs with crepitus. After decompression and chest drain: RR 24, SpO2 95%, rush of air, then 200 mL blood in the drain.\nCirculation: HR 128, BP 88/54 mmHg, cool peripheries, capillary refill 4 seconds. Distended neck veins before decompression. Abdomen: tender left upper quadrant with guarding. Pelvis: stable on gentle single compression, no deformity. Left thigh swollen and deformed, distal pulses present. eFAST (if requested): free fluid in the splenorenal space; no pericardial effusion; absent lung sliding on the left before the drain.\nDisability: GCS 14 (E3 V5 M6), pupils equal and reactive 3 mm. Moves all four limbs. BGL 6.2 mmol/L.\nExposure: Temperature 35.4 C. Abrasions to left flank and arm. Closed deformity of the left mid-thigh.\nInvestigations (if requested): Hb 102 g/L, lactate 4.1 mmol/L, VBG pH 7.29, BE -6. Coagulation pending. Bedside CXR after drain: re-expanded left lung, fractured left ribs 8-10. Pelvic X-ray: normal. Blood alcohol pending."
+    },
+    "markingCriteria": [
+      "Calls for help early (trauma team, senior advice, RFDS/retrieval coordination), uses a structured approach and wears PPE",
+      "Assesses airway with cervical spine protection and maintains spinal precautions",
+      "Recognises tension pneumothorax clinically, without waiting for imaging, and performs immediate needle or finger decompression followed by an intercostal catheter",
+      "Gives high flow oxygen and reassesses breathing after each intervention",
+      "Establishes two large-bore IV cannulas, sends bloods including crossmatch, coagulation and VBG, and recognises haemorrhagic shock",
+      "Uses permissive hypotension and early blood products (activates massive transfusion protocol, considers tranexamic acid within 3 hours), avoiding large volumes of crystalloid",
+      "Identifies the intra-abdominal bleeding (splenic injury on eFAST) and the need for definitive surgical control",
+      "Elicits the anticoagulant (apixaban) in the AMPLE history and plans reversal (andexanet alfa if available, or prothrombin complex concentrate) with haematology advice",
+      "Assesses disability (GCS, pupils, glucose) and exposure, prevents hypothermia, and splints the femoral fracture (traction splint) with adequate analgesia",
+      "States the working diagnosis: multi-trauma with left tension pneumothorax, haemorrhagic shock from likely splenic injury, femoral fracture, possible cervical spine injury",
+      "Plans urgent retrieval to a major trauma centre, communicates clearly using ISBAR, and documents",
+      "Communicates with the patient compassionately, gives analgesia and offers to contact his partner"
+    ],
+    "expectedDiagnosis": "Multi-trauma: left tension pneumothorax with rib fractures, haemorrhagic shock from probable splenic injury, closed left femoral shaft fracture, possible cervical spine injury, in an anticoagulated patient",
+    "teachingPoints": [
+      "Follow the EMST (ATLS) primary survey: Airway with C-spine control, Breathing, Circulation with haemorrhage control, Disability, Exposure; treat life threats as you find them.",
+      "Tension pneumothorax is a clinical diagnosis: decompress immediately (finger thoracostomy or needle in the 4th/5th intercostal space mid-axillary line in adults) then insert an intercostal catheter; do not wait for a CXR.",
+      "Damage control resuscitation: permissive hypotension (systolic around 80-90 mmHg in the absence of head injury), early blood and plasma via massive transfusion protocol, tranexamic acid 1 g within 3 hours of injury (CRASH-2).",
+      "The AMPLE history matters: DOACs dramatically change the management of traumatic haemorrhage; reversal is with andexanet alfa (factor Xa inhibitors) or PCC, and idarucizumab for dabigatran.",
+      "In rural Australia, early activation of retrieval (RFDS, state retrieval service) is part of resuscitation; stabilise, communicate with ISBAR and transfer, rather than attempting definitive surgery without resources.",
+      "A femoral shaft fracture can lose 1-1.5 L of blood: splint early for pain and haemorrhage control."
+    ]
+  },
+  {
+    "id": "osce-08",
+    "title": "Lower abdominal pain and spotting in early pregnancy",
+    "discipline": "womens-health",
+    "type": "history",
+    "candidateBrief": "You are an HMO in the emergency department of a metropolitan hospital in Adelaide. Ms Jasmine Taylor, a 26-year-old woman, has presented with lower abdominal pain and vaginal spotting. Her last menstrual period was seven weeks ago. A urine pregnancy test in triage is positive. Observations: BP 104/66 mmHg, HR 102, RR 18, SpO2 99%, temperature 36.9 C.\n\nYour tasks are to:\n- Take a focused history from Ms Taylor\n- Explain the likely diagnosis and your differentials\n- Outline your immediate management plan",
+    "tasks": [
+      "Take a focused history of pain and bleeding in early pregnancy",
+      "Explain the likely diagnosis and differentials",
+      "Outline the immediate management plan"
+    ],
+    "patient": {
+      "name": "Jasmine Taylor",
+      "age": 26,
+      "sex": "female",
+      "persona": "Anxious, in pain, speaks softly and hesitates when asked about relationships. Says 'I didn't even know I was pregnant until today'. Answers direct questions. Only discloses her concerns about her partner if the doctor asks about safety at home privately and gently.",
+      "openingLine": "I've got this really bad pain down on the right side and I've been spotting. The nurse just told me I'm pregnant. I didn't even know.",
+      "script": "HPI: Right iliac fossa pain started 12 hours ago, initially crampy, now constant and sharp, 7/10. Some pain at the tip of the right shoulder for the last two hours (only if asked). Brown-red spotting for two days, less than a period, no clots, no tissue passed. HIDDEN CUE 1: Felt dizzy and nearly fainted on the toilet this morning. Nausea, no vomiting. Mild urge to open bowels. No fever, no urinary symptoms, no vaginal discharge.\n\nGynae: LMP seven weeks ago, periods usually regular every 28 days. Pregnancy not planned. Contraception: had a copper IUD inserted three years ago (still in place, she thinks). Past chlamydia infection two years ago, treated. Cervical screening done last year, normal. G1 P0.\n\nPMH: Nil else. Meds: nil. Allergies: nil. Blood group: does not know.\n\nSocial: Works in a café. Smokes 10 a day. Drinks socially. Lives with her partner, Kyle, 29, for 18 months.\n\nHIDDEN CUE 2 (only if asked about safety at home, ideally with her partner out of the room): Kyle gets angry and 'grabs me sometimes'; he pushed her into a wall last month. He checks her phone and controls the money. She is scared of how he will react to the pregnancy. No children. Would like information but is not ready to leave.\n\nIdeas: Thinks she might be losing the baby. Concerns: Whether she will need surgery and whether she can have children later; how Kyle will react. Expectations: Wants pain relief and to know what is going on. Wants to keep this confidential from Kyle for now."
+    },
+    "markingCriteria": [
+      "Introduces self, acknowledges pain and distress and offers analgesia early",
+      "Characterises the pain (site, onset, nature, severity, radiation including shoulder tip pain) and bleeding",
+      "Elicits symptoms of haemodynamic compromise (presyncope) and recognises the tachycardia and borderline BP",
+      "Takes a menstrual, obstetric and contraceptive history, identifying the IUD",
+      "Identifies risk factors for ectopic pregnancy: previous chlamydia (PID), IUD in situ, smoking",
+      "Asks about gynaecological history, cervical screening and STI history sensitively",
+      "Asks about safety at home in a private, non-judgemental way and responds appropriately to the disclosure of family violence",
+      "States ruptured or leaking ectopic pregnancy as the most likely diagnosis with sensible differentials (threatened/incomplete miscarriage, ruptured corpus luteum cyst, appendicitis, ovarian torsion)",
+      "Outlines immediate management: two large-bore cannulas, FBC, group and hold/crossmatch, quantitative beta-hCG, urgent transvaginal ultrasound, urgent gynaecology review, keep nil by mouth",
+      "Mentions anti-D immunoglobulin if Rh negative",
+      "Explains likely need for surgery (laparoscopy, possible salpingectomy) and addresses fertility concern honestly",
+      "Offers support for family violence: safety planning, social work, 1800RESPECT, and respects confidentiality"
+    ],
+    "expectedDiagnosis": "Suspected ruptured (leaking) right ectopic pregnancy with early haemodynamic compromise; disclosure of intimate partner violence",
+    "teachingPoints": [
+      "Any woman of reproductive age with abdominal pain or PV bleeding needs a pregnancy test; a positive test with pain and bleeding is ectopic until proven otherwise.",
+      "Shoulder tip pain, presyncope, tachycardia and peritonism suggest haemoperitoneum: resuscitate and get urgent gynaecology review and theatre, rather than waiting for serial beta-hCG.",
+      "Risk factors for ectopic pregnancy include previous PID or chlamydia, tubal surgery, previous ectopic, IVF, IUD in situ (fewer pregnancies overall but a higher proportion are ectopic) and smoking.",
+      "Give anti-D (250 IU in the first trimester) to Rh D negative women with ectopic pregnancy or miscarriage requiring surgical management (NBA/RANZCOG guidance).",
+      "Pregnancy is a high-risk time for the onset or escalation of intimate partner violence; ask routinely and privately, and link to support (1800RESPECT, social work, safety planning).",
+      "After salpingectomy with a healthy contralateral tube, most women can still conceive naturally: this is the usual fertility question."
+    ]
+  },
+  {
+    "id": "osce-09",
+    "title": "Gestational diabetes result at 26 weeks",
+    "discipline": "womens-health",
+    "type": "diagnosis",
+    "candidateBrief": "You are a general practitioner providing shared antenatal care in a clinic in Canberra. Mrs Mei Lin Chen, a 34-year-old woman in her first pregnancy at 26 weeks' gestation, has come for the results of her 75 g oral glucose tolerance test (OGTT). Results: fasting glucose 5.4 mmol/L, 1-hour 10.6 mmol/L, 2-hour 8.2 mmol/L. Her booking bloods and morphology scan were normal. BMI at booking was 27 kg/m2. BP today 118/72 mmHg.\n\nYour tasks are to:\n- Explain the result and the diagnosis to Mrs Chen\n- Discuss the implications for her and her baby\n- Outline the management plan",
+    "tasks": [
+      "Explain the OGTT result and the diagnosis",
+      "Discuss the implications for mother and baby",
+      "Outline the management plan and follow-up"
+    ],
+    "patient": {
+      "name": "Mei Lin Chen",
+      "age": 34,
+      "sex": "female",
+      "persona": "Well-educated accountant, calm on the surface but visibly worried. Asks precise questions and likes numbers. Feels guilty: 'Did I cause this by eating too much rice?'. Only mentions that she has stopped eating properly since reading about it online if asked what she has been eating in the last few days.",
+      "openingLine": "Hi Doctor. The lab called and said I need to come in for my glucose test result. Is something wrong with the baby?",
+      "script": "Pregnancy: G1 P0, 26 weeks, conceived naturally, planned. Dating scan and morphology scan normal. Feeling baby move well. No headaches, visual disturbance, swelling, bleeding or abdominal pain. No urinary symptoms.\n\nPMH: Nil significant. No previous glucose testing. Meds: Pregnancy multivitamin with folate and iodine. Allergies: nil.\n\nFamily history: Father has type 2 diabetes. Mother had 'high sugar' in pregnancy.\n\nSocial: Born in Shanghai, moved to Australia 10 years ago. Accountant, desk-based, long hours during tax season. Non-smoker, no alcohol since pregnancy. Lives with husband David. Diet is mainly rice, noodles and dumplings; drinks bubble tea two or three times a week. Walks little.\n\nHIDDEN CUE 1: Since the lab call two days ago she has read online that sugar harms the baby and has been skipping meals and eating almost no carbohydrate; she felt shaky and light-headed at work yesterday (only if asked about recent diet or how she has been feeling).\n\nIdeas: Thinks she caused it by eating badly. Concerns: That the baby will be 'damaged' or that she will need insulin needles, and (HIDDEN CUE 2, only if asked about longer-term worries) that she will end up with diabetes like her father. Expectations: Wants to know exactly what to eat and whether she can still have a normal birth.\n\nQuestions she will ask: 'Is my baby okay?', 'Will I need insulin?', 'Will I need a caesarean?', 'Will it go away after birth?', 'Can I still breastfeed?'. She responds well to reassurance, a clear plan, and being told it is not her fault."
+    },
+    "markingCriteria": [
+      "Establishes rapport, checks her understanding and explains the purpose of the OGTT",
+      "Interprets the result correctly: fasting 5.4 (threshold 5.1) and 1-hour 10.6 (threshold 10.0) meet ADIPS/WHO criteria; one abnormal value is sufficient",
+      "Explains gestational diabetes in plain language and addresses guilt (placental hormones cause insulin resistance, not her fault)",
+      "Explains fetal and neonatal risks: macrosomia, shoulder dystocia, neonatal hypoglycaemia, polyhydramnios, stillbirth risk if uncontrolled",
+      "Explains maternal risks: pre-eclampsia, caesarean, and future type 2 diabetes",
+      "Identifies the unsafe restrictive eating and hypoglycaemic symptoms, and corrects it with advice on balanced, regular carbohydrate intake",
+      "Outlines management: referral to the hospital diabetes-in-pregnancy team, dietitian and diabetes educator, NDSS registration, home glucose monitoring (fasting and 1 or 2 hours post meals) with targets",
+      "Explains that medication (metformin or insulin) is needed if targets are not met with lifestyle measures",
+      "Discusses monitoring: growth ultrasound, BP and urine checks, and timing of birth guided by the obstetric team",
+      "Explains postpartum plan: breastfeeding encouraged, glucose checks for the baby, 75 g OGTT at 6-12 weeks postpartum and then diabetes screening every 1-3 years",
+      "Checks understanding, answers questions and arranges follow-up"
+    ],
+    "expectedDiagnosis": "Gestational diabetes mellitus (fasting 5.4 and 1-hour 10.6 mmol/L on 75 g OGTT)",
+    "teachingPoints": [
+      "ADIPS/WHO 2013 criteria (used in Australia): 75 g OGTT at 24-28 weeks; GDM if fasting 5.1-6.9, 1-hour 10.0 or higher, or 2-hour 8.5-11.0 mmol/L. One abnormal value is enough.",
+      "Typical capillary glucose targets: fasting 5.0 mmol/L or less (some services 5.3), 1-hour post-prandial 7.4 or less, 2-hour 6.7 or less.",
+      "Most women are managed with diet and activity; metformin or insulin are added if targets are not met. Registration with the NDSS gives subsidised monitoring supplies.",
+      "Postpartum follow-up is often missed: OGTT 6-12 weeks after birth, then screening every 1-3 years, and early testing in future pregnancies.",
+      "Women of Asian, Indian subcontinent, Aboriginal and Torres Strait Islander, Pacific Islander and Middle Eastern background are at higher risk of GDM.",
+      "Always check whether the patient has responded to a new diagnosis with unsafe behaviour such as severe carbohydrate restriction."
+    ]
+  },
+  {
+    "id": "osce-10",
+    "title": "Abnormal cervical screening result",
+    "discipline": "womens-health",
+    "type": "counselling",
+    "candidateBrief": "You are a general practitioner in a clinic in Hobart. Ms Kate Brennan, a 31-year-old woman, has come to discuss the result of her routine Cervical Screening Test, which she collected herself (self-collected vaginal swab) three weeks ago. The result reads: Oncogenic HPV type 16 detected. Her last screening test, five years ago, was normal.\n\nYour tasks are to:\n- Explain the result to Ms Brennan\n- Explain the next steps\n- Address her concerns",
+    "tasks": [
+      "Explain the HPV 16 result",
+      "Explain the next steps, including colposcopy",
+      "Address her concerns and questions"
+    ],
+    "patient": {
+      "name": "Kate Brennan",
+      "age": 31,
+      "sex": "female",
+      "persona": "Chatty, quite anxious primary school teacher who has googled 'HPV 16' and is frightened it means cancer. Speaks fast, uses Australian expressions ('I've been absolutely freaking out'). Becomes tearful when talking about her relationship. Only reveals that she has had intermenstrual and post-coital bleeding if asked specifically about bleeding.",
+      "openingLine": "Hi. So I got a text saying my result was ready and I looked it up and it says HPV 16 and now I'm totally freaking out. Have I got cancer?",
+      "script": "Background: Did a self-collected swab because she finds speculum exams uncomfortable. Previous test five years ago was normal (HPV not detected). HPV vaccination: she was in Year 8 in 2008 but missed some school vaccination days, so she thinks she only had one of the three doses and is not sure.\n\nSymptoms: HIDDEN CUE 1 (only if asked about bleeding): Two months of occasional spotting after sex and between periods. No abnormal discharge, no pelvic pain, no weight loss. Periods regular.\n\nGynae: G0. Combined oral contraceptive pill for 10 years. No previous STIs, last STI screen three years ago.\n\nPMH: Nil. Meds: COCP (levonorgestrel/ethinylestradiol). Allergies: nil.\n\nSocial: Teacher. Non-smoker. Drinks on weekends. In a relationship with her partner Sam for four years.\n\nHIDDEN CUE 2 (only if asked about her concerns or relationship with empathy): She is worried that HPV means Sam has been unfaithful, or that he will think she has. She had two other partners before Sam. She is afraid this will end the relationship. Also worried about whether she can have children because they plan to start trying next year.\n\nIdeas: Thinks HPV 16 means she has cancer. Concerns: Cancer, infidelity, fertility, and that she 'did something wrong'. Expectations: Wants to know if she needs surgery and whether Sam needs a test.\n\nShe calms down significantly if told HPV is extremely common, that most infections clear, that it can be dormant for years so it does not indicate infidelity, and that colposcopy is to look for and treat any pre-cancerous change early."
+    },
+    "markingCriteria": [
+      "Establishes what she knows and her main worry before explaining the result",
+      "Explains HPV in plain language: very common, sexually transmitted, most infections clear within 1-2 years, and HPV 16/18 carries a higher risk of pre-cancerous change",
+      "Clearly states that the result does not mean she has cancer",
+      "Asks about symptoms, specifically post-coital and intermenstrual bleeding, and recognises their significance",
+      "Explains the National Cervical Screening Program pathway: HPV 16/18 detected needs direct referral to colposcopy regardless of cytology",
+      "Explains that because the sample was self-collected, a clinician-collected sample for liquid-based cytology is taken at colposcopy (or can be collected now)",
+      "Recognises that abnormal bleeding needs a speculum examination and prompt specialist assessment, regardless of screening results",
+      "Explains colposcopy: what happens, that it is usually done without an anaesthetic, and possible treatment (LLETZ) if high-grade changes are found",
+      "Addresses fertility: small increased risk of preterm birth after LLETZ, not usually affecting ability to conceive",
+      "Addresses the infidelity concern sensitively: HPV can persist undetected for many years, so it does not indicate recent infidelity; partners are not routinely tested",
+      "Discusses HPV vaccination status and offers STI screening",
+      "Offers written information, safety-nets and arranges follow-up of the colposcopy result"
+    ],
+    "expectedDiagnosis": "Oncogenic HPV 16 detected on cervical screening, with symptoms of post-coital and intermenstrual bleeding; requires colposcopy",
+    "teachingPoints": [
+      "Australia's National Cervical Screening Program uses a primary HPV test every 5 years for people with a cervix aged 25-74; self-collection is available to everyone eligible since July 2022.",
+      "HPV 16/18 detected on any sample means direct referral for colposcopy; other oncogenic HPV types are triaged by cytology.",
+      "A self-collected sample cannot be used for cytology, so reflex cytology needs a clinician-collected sample at or before colposcopy.",
+      "Screening tests are for asymptomatic people: post-coital or intermenstrual bleeding needs a clinical examination and co-test regardless of the screening result.",
+      "HPV can remain latent for years; reassure about infidelity concerns, and remember that condoms reduce but do not eliminate transmission.",
+      "HPV vaccination in Australia (Gardasil 9) is now a single dose in the school program at age 12-13; catch-up is free up to age 25 under the NIP."
+    ]
+  },
+  {
+    "id": "osce-11",
+    "title": "Febrile seizure in an 18-month-old",
+    "discipline": "child-health",
+    "type": "counselling",
+    "candidateBrief": "You are an HMO in the paediatric emergency department of a hospital in Newcastle, NSW. Ms Sarah O'Brien is the mother of Oliver, an 18-month-old boy who had a seizure at home two hours ago. The registrar found a 2-minute generalised seizure with a temperature of 39.2 C, due to a viral upper respiratory tract infection, with no signs of meningitis. He is now playing and drinking. The registrar has diagnosed a simple febrile seizure and he is being discharged.\n\nYour tasks are to:\n- Explain the diagnosis to Ms O'Brien\n- Advise her on managing fever and what to do if it happens again\n- Address her concerns",
+    "tasks": [
+      "Explain the diagnosis of simple febrile seizure",
+      "Advise on fever management and seizure first aid",
+      "Address her concerns and safety-net"
+    ],
+    "patient": {
+      "name": "Sarah O'Brien",
+      "age": 29,
+      "sex": "female",
+      "persona": "Mother, shaken and tearful at first ('I honestly thought he was dying'). Speaks quickly, asks the same question in different ways. Calms with clear explanation. Only reveals the family history of epilepsy and her plan to sit up all night if asked directly about her worries or what she plans to do at home.",
+      "openingLine": "Is he going to be okay? I've never seen anything like it. His eyes rolled back and he was shaking all over and he went all blue around the lips. I thought he was dying.",
+      "script": "The event (about Oliver): This afternoon he had a runny nose and felt hot. At 4 pm, while on the couch, he suddenly went stiff, his eyes rolled back and all four limbs jerked for about 2 minutes (she timed it on her phone). Lips went a bit blue. Afterwards he was sleepy for about 20 minutes, then woke and was grizzly but moving everything. First ever episode. She called 000. Temperature 39.2 C at triage. No rash, no neck stiffness, no vomiting, drinking well, several wet nappies.\n\nOliver's background: Born at term, normal delivery, no neonatal problems. Development normal: walking, says about 10 words. Immunisations up to date including 18-month vaccines two weeks ago. No medications, no allergies. Attends childcare three days a week.\n\nFamily history: HIDDEN CUE 1: Her younger brother had febrile seizures as a toddler, and Oliver's father's cousin has epilepsy. She is worried Oliver now has epilepsy.\n\nSocial: Lives with partner Ben (works FIFO, currently away) and Oliver. She is a nurse's assistant. No other children; she is 12 weeks pregnant.\n\nIdeas: Thinks the seizure might have caused brain damage, or that it means epilepsy. Concerns: That it will happen again tonight and she will be alone; whether the 18-month vaccines caused it; whether she should stop childcare. HIDDEN CUE 2: Plans to give him paracetamol and ibuprofen around the clock and stay awake all night watching him, and has been bundling him in blankets because 'he was shivering'.\n\nExpectations: Wants to know if he needs tests or medicine to stop it happening again. She asks: 'Will this happen again?', 'Has it damaged his brain?', 'Is it epilepsy?', 'Was it the vaccine?', 'What do I do if it happens again?'."
+    },
+    "markingCriteria": [
+      "Acknowledges her distress with empathy and checks her understanding before explaining",
+      "Explains simple febrile seizure in plain language: a seizure triggered by fever in a child aged 6 months to 5 years, lasting under 15 minutes, generalised, not recurring within 24 hours, with full recovery",
+      "Reassures that simple febrile seizures do not cause brain damage and do not affect development or intelligence",
+      "Gives accurate recurrence risk (about 30%, higher if under 18 months or with a family history) and explains the risk of later epilepsy is only slightly higher than the general population",
+      "Explains that no EEG, brain scan or antiseizure medication is needed, and that antipyretics do not prevent febrile seizures",
+      "Advises on fever management for comfort only: paracetamol or ibuprofen if the child is distressed, fluids, light clothing, and not to over-bundle or give medicines around the clock",
+      "Teaches seizure first aid: stay calm, place on side on a safe surface, nothing in the mouth, time it, call 000 if it lasts over 5 minutes, recurs, or he does not recover",
+      "Addresses the vaccine question accurately and encourages continuing immunisations",
+      "Gives safety-netting for signs of serious illness: rash, neck stiffness, drowsiness, poor feeding, breathing difficulty",
+      "Addresses the practical and emotional concern of being alone tonight, and offers support (family or friend, follow-up with the GP)",
+      "Provides written information (for example the RCH Melbourne or Sydney Children's Hospitals fact sheet) and arranges GP follow-up"
+    ],
+    "expectedDiagnosis": "Simple febrile seizure secondary to a viral upper respiratory tract infection",
+    "teachingPoints": [
+      "Simple febrile seizures: generalised, under 15 minutes, single in 24 hours, age 6 months to 5 years, full recovery; complex features (focal, prolonged, repeated) need further assessment.",
+      "Around 30% recur, most within a year; risk factors include onset under 18 months, family history, lower temperature at seizure, and short duration of fever before the seizure.",
+      "Antipyretics are for comfort and do not prevent recurrence (RCH clinical practice guidelines); do not recommend alternating regimens around the clock.",
+      "Investigations are guided by the cause of the fever, not the seizure; EEG and neuroimaging are not indicated after a simple febrile seizure.",
+      "Vaccines can cause fever and therefore occasionally a febrile seizure, but this is not a contraindication to further vaccines; reassure and encourage completion of the NIP schedule.",
+      "Parents remember first aid: teach recovery position, timing, and when to call 000."
+    ]
+  },
+  {
+    "id": "osce-12",
+    "title": "Barking cough in a 3-year-old at night",
+    "discipline": "child-health",
+    "type": "management",
+    "candidateBrief": "You are an HMO in the emergency department of a rural hospital in Bundaberg, Queensland, at 2 am. Mr Liam Walker has brought in his 3-year-old son Noah, who woke with a harsh barking cough and noisy breathing. Triage observations: HR 130, RR 36, SpO2 96% on room air, temperature 38.1 C, weight 15 kg.\n\nYour tasks are to:\n- Take a brief focused history from Mr Walker\n- Ask the examiner for the relevant examination findings\n- Explain the diagnosis and outline your management plan to Mr Walker",
+    "tasks": [
+      "Take a brief focused history from the parent",
+      "Request and interpret the relevant examination findings",
+      "Explain the diagnosis and management plan"
+    ],
+    "patient": {
+      "name": "Liam Walker",
+      "age": 35,
+      "sex": "male",
+      "persona": "Father, tired and worried, a bit gruff ('he sounds like a seal, mate'). Respectful but wants action. Relaxes as things are explained. Does not mention his worry about the family's older child with asthma, or that they live 45 minutes out of town, unless asked about home or going home.",
+      "openingLine": "Doc, he woke up an hour ago barking like a seal and making this horrible noise when he breathes in. It's really scaring me.",
+      "script": "About Noah: Runny nose and mild fever for two days, otherwise well and playing. Woke at 1 am with a barking cough, hoarse voice and a harsh noise on breathing in. Has improved slightly in the cold night air on the drive in. Drinking okay, three wet nappies yesterday. Not drooling, can swallow fine, talking and crying normally (hoarse). No choking episode, not playing with small objects before this (only if asked about foreign body). No rash, no vomiting.\n\nBackground: Born at term, well. One previous episode of 'croup' at 18 months managed by the GP with a single dose of medicine. No asthma. Immunisations up to date including Hib. No medications, no allergies.\n\nFamily and social: Lives with partner Emma, Noah and 6-year-old daughter Ruby, who has asthma. Liam is a sugar cane farmer. Nobody smokes inside, but Liam smokes outside. HIDDEN CUE 1: They live on a property 45 minutes from the hospital and Emma has the other car in Brisbane until tomorrow; Liam worries about getting back quickly if Noah gets worse.\n\nIdeas: Thinks he may have 'something stuck' or 'the asthma like his sister'. Concerns: Whether Noah can breathe properly, whether he needs a tube in his throat. Expectations: Wants to know if they can go home tonight.\n\nHIDDEN CUE 2: Liam has been giving Noah some of Ruby's salbutamol puffer at home (only if asked what he has tried).",
+      "examFindings": "General: Alert, sitting on father's lap, interactive and consolable, not toxic. Hoarse cry. Not drooling, no tripod positioning.\nRespiratory: Inspiratory stridor at rest when upset, disappears when settled. Mild suprasternal and subcostal recession. RR 36. SpO2 96% on room air. Good air entry bilaterally. No wheeze, no crackles.\nColour: Pink, no cyanosis.\nConscious state: Alert.\nENT: Mild pharyngeal erythema. Do not examine the throat with a tongue depressor if epiglottitis is suspected (the examiner will prompt that this is unnecessary here).\nCardiovascular: HR 130, capillary refill under 2 seconds, well hydrated.\nOther: No rash, no lymphadenopathy of note, neck supple.\nReassessment 30 minutes after oral dexamethasone (if given): Stridor only when crying, no recession, settled.\nReassessment at 3-4 hours: No stridor at rest, playing, drinking."
+    },
+    "markingCriteria": [
+      "Introduces self, engages both father and child, keeps the child calm on the parent's lap and avoids distressing interventions",
+      "Takes a focused history: onset, prodrome, barking cough, stridor, fever, drooling, swallowing, choking or foreign body, previous episodes, immunisation (Hib)",
+      "Identifies what has been given at home, including the sister's salbutamol",
+      "Requests the key examination findings: stridor at rest, work of breathing, colour, conscious state, SpO2, toxicity",
+      "Correctly grades severity as moderate croup (stridor at rest when upset, mild recession)",
+      "Excludes important differentials: epiglottitis, bacterial tracheitis, foreign body, anaphylaxis",
+      "Prescribes oral dexamethasone 0.15-0.3 mg/kg (or prednisolone 1 mg/kg), with dose calculated for 15 kg",
+      "States that nebulised adrenaline is reserved for severe croup and explains observation after it; notes that salbutamol has no role",
+      "Explains the diagnosis to the father in plain language and addresses his concerns",
+      "Plans observation and reassessment, with discharge only if no stridor at rest, considering distance from hospital and access to transport",
+      "Gives clear safety-netting: return or call 000 for stridor at rest, increasing work of breathing, drooling, colour change or drowsiness",
+      "Offers brief smoking cessation advice and a follow-up plan with the GP"
+    ],
+    "expectedDiagnosis": "Moderate viral croup (laryngotracheobronchitis)",
+    "teachingPoints": [
+      "Croup is usually parainfluenza-driven, peaks at 6 months to 3 years, and presents with barking cough, hoarse voice and inspiratory stridor, typically worse at night.",
+      "All children with croup who need to see a doctor should get oral steroid: dexamethasone 0.15 mg/kg (up to 0.3-0.6 mg/kg for more severe) or prednisolone 1 mg/kg (RCH and Queensland Children's guidelines).",
+      "Nebulised adrenaline (0.5 mL/kg of 1:1000, up to 5 mL) is for severe croup; observe for at least 3-4 hours afterwards because of rebound.",
+      "Salbutamol, antibiotics, humidified air and steam have no role.",
+      "Red flags for other diagnoses: drooling, toxic appearance, muffled voice, inability to swallow (epiglottitis, tracheitis), sudden onset with choking (foreign body).",
+      "In rural practice, the discharge decision must account for distance, transport and time of night: a low threshold to observe overnight is appropriate."
+    ]
+  },
+  {
+    "id": "osce-13",
+    "title": "Unexplained leg injury in a 5-month-old",
+    "discipline": "child-health",
+    "type": "history",
+    "candidateBrief": "You are an HMO in the emergency department of a regional hospital in Townsville, Queensland. Ms Kayla Nguyen has brought in her 5-month-old daughter, Ruby, because she has been crying and not moving her left leg since this morning. An X-ray shows a spiral fracture of the left femoral shaft. The triage nurse noticed a small bruise on Ruby's cheek. Ruby is otherwise well, with a normal temperature.\n\nYour tasks are to:\n- Take a history from Ms Nguyen\n- Explain to Ms Nguyen what needs to happen next\n- Tell the examiner your assessment and the steps you would take",
+    "tasks": [
+      "Take a history of the injury and relevant background",
+      "Explain the next steps to the parent",
+      "Tell the examiner your assessment and child protection actions"
+    ],
+    "patient": {
+      "name": "Kayla Nguyen",
+      "age": 22,
+      "sex": "female",
+      "persona": "Young mother, exhausted and defensive. Gives vague and slightly changing answers about how the injury happened. Becomes upset and angry if she feels accused ('Are you saying I hurt my baby?'). Softens if the doctor stays calm, non-judgemental and focused on Ruby's wellbeing. Only discloses her partner's behaviour and her own low mood if asked privately and gently about home and support.",
+      "openingLine": "She's been screaming all morning and she won't move her leg. I don't know what happened, she was fine last night.",
+      "script": "Account of injury: Initially says 'I don't know, she was fine last night'. If asked again, says 'maybe she got her leg stuck in the cot bars'. Later says her partner Josh 'might have rolled on her' when she was in their bed. Ruby cannot roll over yet. Time of injury unclear; she noticed crying when she picked Ruby up at 6 am, but Ruby was 'unsettled' from about midnight when Kayla was at her night-fill job at the supermarket and Josh was looking after her. Presentation was delayed about 8 hours. The bruise on the cheek: 'she must have hit herself with a toy'.\n\nRuby's background: Born at 37 weeks, 2.8 kg, no NICU stay. Formula fed. Not yet rolling or sitting. Weight on the 25th centile (dropped from the 50th). Immunisations: missed the 4-month vaccines. No previous fractures, no known bone disease, no family history of brittle bones or bleeding disorders. One previous ED visit at 3 months for 'a bruise on her ear' that was not followed up.\n\nSocial: Kayla lives with Josh (24), not Ruby's biological father, in a rented unit. Josh is unemployed and 'gets stressed when she cries'. HIDDEN CUE 1 (only if asked privately about safety): Josh has shoved Kayla and smashed things when angry; he has shaken the cot 'to shut her up'. Kayla's family are in Cairns. HIDDEN CUE 2 (only if asked about her own mood): she feels 'flat and exhausted all the time', cries daily and sometimes wishes she could 'just disappear', but has no plan to harm herself or Ruby. Smokes, occasional cannabis.\n\nIdeas: Hopes it is an accident. Concerns: That Child Safety will take Ruby away. Expectations: Wants Ruby's leg fixed and to go home.\n\nIf the doctor explains honestly that the injury needs investigation and reporting, and that everyone's focus is Ruby's safety, she cries but cooperates."
+    },
+    "markingCriteria": [
+      "Introduces self, acknowledges the mother's distress and maintains a calm, non-judgemental, non-accusatory approach throughout",
+      "Takes a detailed history of the injury: when, where, who was present, mechanism, and the timeline, noting inconsistencies and delay in presentation",
+      "Recognises that the mechanism is inconsistent with the injury and the child's developmental stage (non-mobile infant)",
+      "Asks about the bruise and previous injuries or presentations",
+      "Takes a birth, feeding, growth, developmental and immunisation history",
+      "Asks about family history of bone disease or bleeding disorders",
+      "Takes a social history: household members, carers, supports, family violence, substance use and parental mental health, including asking privately about safety",
+      "Screens the mother's mood and safety (postnatal depression, thoughts of self-harm or of harming the baby)",
+      "Explains honestly and without blame that this type of injury in a young baby must be investigated, that Ruby will be admitted, and that a report to Child Safety is required",
+      "Tells the examiner: suspected non-accidental injury; mandatory report to Queensland Child Safety; admission for protection; skeletal survey, CT head/ophthalmology consideration, FBC, coagulation, bone biochemistry; child protection team and social work involvement; document verbatim",
+      "Addresses the mother's welfare: referral for her own mental health and domestic violence support"
+    ],
+    "expectedDiagnosis": "Suspected non-accidental injury (physical abuse): spiral femoral fracture and facial bruising in a non-mobile infant with an inconsistent history; maternal depression and family violence",
+    "teachingPoints": [
+      "'Those who don't cruise rarely bruise': any bruise or fracture in a non-mobile infant is a red flag for physical abuse, and facial or ear bruising is particularly concerning (TEN-4-FACESp rule).",
+      "Red flags: inconsistent or changing history, mechanism not compatible with development, delayed presentation, previous unexplained injuries, faltering growth and missed immunisations.",
+      "Doctors are mandatory reporters in every Australian state and territory; the threshold is reasonable suspicion, not proof. In Queensland, report to Child Safety (and police if immediate danger).",
+      "Workup for suspected NAI in infants: skeletal survey, CT brain, ophthalmology for retinal haemorrhages, FBC, coagulation, calcium, phosphate, ALP, vitamin D, PTH, and consider urine for toxicology.",
+      "Document the history verbatim with times, and do not interrogate: the doctor's role is to assess, protect and report, not investigate the crime.",
+      "Family violence and maternal mental illness frequently coexist with child abuse; support the parent as well as protecting the child."
+    ]
+  },
+  {
+    "id": "osce-14",
+    "title": "Low mood in a 47-year-old farmer",
+    "discipline": "mental-health",
+    "type": "history",
+    "candidateBrief": "You are a general practitioner in a rural town in the Wheatbelt of Western Australia. Mr Craig Dawson, a 47-year-old farmer, has come in at his wife's insistence because he has been 'not himself' for a few months. He says he is only here for a script for sleeping tablets.\n\nYour tasks are to:\n- Take a focused history to assess his mental state and risk\n- Tell Mr Dawson your assessment\n- Outline an immediate management and safety plan with him",
+    "tasks": [
+      "Take a history of depressive symptoms and a structured suicide risk assessment",
+      "Explain the assessment",
+      "Develop an immediate management and safety plan"
+    ],
+    "patient": {
+      "name": "Craig Dawson",
+      "age": 47,
+      "sex": "male",
+      "persona": "Quiet, flat, makes little eye contact, gives short answers. Uses stoic country phrases ('she'll be right', 'just a bit crook'). Initially insists he only needs sleeping tablets. Opens up gradually if the doctor is patient, uses open questions and shows genuine concern. Will only disclose suicidal thoughts and his access to firearms if asked directly and non-judgementally.",
+      "openingLine": "Look, I'm only here 'cause the wife made me. I just need something to help me sleep and I'll be right.",
+      "script": "HPI: Four months of low mood since the third failed harvest in a row and the bank refusing to extend the farm loan. Wakes at 3 am most nights and cannot get back to sleep, worrying about money. Loss of interest in footy and fishing, which he used to love. Tired all the time, poor concentration, 'can't make decisions'. Appetite reduced, lost about 5 kg. Feels he has let his family and his late father down ('Dad ran this farm 40 years, I've stuffed it in five'). Irritable with his wife and kids. No psychotic symptoms, no manic episodes.\n\nRisk: HIDDEN CUE 1 (only if asked directly about suicidal thoughts): Thinks most days that his family would be better off with the life insurance. Two weeks ago he sat in the shed with his rifle for an hour, then put it away because he thought of his daughter finding him. Has not told anyone. No previous attempts. Protective factors: his two children (14 and 11), his wife. HIDDEN CUE 2: Keeps two rifles and a shotgun for vermin in the gun safe in the shed; he has the key.\n\nPMH: Back pain. Meds: none; occasional paracetamol. Allergies: nil.\nFamily: Father died by suicide 8 years ago during the last drought (only if asked about family history). Mother lives in town.\n\nSocial: Wheat and sheep farmer, farm has been in the family three generations, significant debt. Drinks 6-8 beers most nights 'to switch off', more than a year ago. Non-smoker. Married to Leanne; she is supportive but he has not told her about the loan. No other supports; 'blokes out here don't talk about this stuff'.\n\nIdeas: Thinks he is 'just stressed and tired'. Concerns: Being seen as weak; losing his firearms licence if he tells a doctor. Expectations: Sleeping tablets.\n\nWill agree to his wife holding the gun safe key, or to a mate or local police storing the firearms, if the doctor explains why with care. Agrees to come back tomorrow."
+    },
+    "markingCriteria": [
+      "Builds rapport with a stoic reluctant patient, acknowledges his reason for attending and uses open questions and empathy",
+      "Screens for core depressive symptoms (mood, anhedonia) and associated symptoms (sleep, appetite, energy, concentration, guilt, psychomotor change), with duration and functional impact",
+      "Identifies precipitating stressors: financial loss, drought, farm debt, sense of failure",
+      "Asks directly and sensitively about suicidal ideation, plans, intent, preparatory acts and previous attempts",
+      "Specifically asks about access to means, identifying the firearms",
+      "Elicits risk factors (family history of suicide, male, rural, alcohol, financial stress, isolation) and protective factors",
+      "Screens for alcohol use, psychotic features and bipolarity",
+      "Explains the assessment: moderate to severe major depressive episode with significant suicide risk, in a non-stigmatising way",
+      "Develops a collaborative safety plan: removal of firearms from the home with the patient's agreement, involving his wife with consent, crisis contacts (Lifeline 13 11 14, Suicide Call Back Service), and reducing alcohol",
+      "Avoids prescribing benzodiazepines or large quantities of potentially lethal medication; discusses treatment options (psychological therapy via a Mental Health Treatment Plan, antidepressant) and considers rural supports",
+      "Considers need for urgent specialist input (community mental health team, telepsychiatry) and knows the threshold for involuntary assessment",
+      "Arranges very close follow-up (within 24-48 hours) and documents the risk assessment"
+    ],
+    "expectedDiagnosis": "Major depressive episode (moderate to severe) with high suicide risk: active ideation, a recent rehearsal with a firearm and access to firearms",
+    "teachingPoints": [
+      "Ask about suicide directly: asking does not increase risk. Explore ideation, plan, intent, rehearsal, access to means, and protective factors.",
+      "Rural men, farmers and people with a family history of suicide or financial stress are high-risk groups in Australia; firearms are a common method in rural suicides.",
+      "Means restriction saves lives: arrange for firearms to be removed or stored off site with agreement. Doctors in all states may notify police about a firearm holder who is a risk to themselves or others.",
+      "Do not prescribe sedatives in a patient with suicidal thoughts and heavy alcohol use; if an antidepressant is started, prescribe small quantities and review within 1-2 weeks.",
+      "A GP Mental Health Treatment Plan gives access to Medicare-rebated psychology (including telehealth); link to rural programs and crisis lines (Lifeline 13 11 14, Beyond Blue).",
+      "Document the risk assessment and the safety plan, and involve family with consent."
+    ]
+  },
+  {
+    "id": "osce-15",
+    "title": "Strange behaviour in a 21-year-old man",
+    "discipline": "mental-health",
+    "type": "examination",
+    "candidateBrief": "You are an HMO in the emergency department of a rural hospital in Lismore, NSW. Mr Ethan Brooks, a 21-year-old university student, has been brought in by his mother, who says he has been acting strangely for six weeks: he has stopped going to classes and has covered his bedroom windows with foil. He agreed to come in. His physical observations are normal and a urine drug screen is pending.\n\nYour tasks are to:\n- Take a brief history and perform a mental state examination\n- Tell the examiner your findings, most likely diagnosis and differentials\n- Outline your initial management",
+    "tasks": [
+      "Take a brief history and perform a mental state examination",
+      "Present MSE findings, diagnosis and differentials",
+      "Outline initial management including risk assessment"
+    ],
+    "patient": {
+      "name": "Ethan Brooks",
+      "age": 21,
+      "sex": "male",
+      "persona": "Guarded and suspicious, speaks quietly, glances at the door and the ceiling. Answers some questions briefly, others with odd explanations. Believes the university and 'the government' are monitoring him through his laptop and phone. Hears voices commenting on him. Becomes more open if the doctor is calm, non-confrontational and does not argue with his beliefs. Will only reveal command hallucinations about his housemate if asked about what the voices say.",
+      "openingLine": "Is this room safe? Who else can hear this? My mum thinks I'm crazy but I know what's going on.",
+      "script": "HPI: For about two months he believes lecturers and 'ASIO' are monitoring him through the webcam, phone and Wi-Fi; covered windows with foil to stop signals. Hears two male voices, outside his head, commenting on what he does ('he's going to the kitchen now') and calling him a loser. HIDDEN CUE 1 (only if asked what the voices say to him or whether they tell him to do things): In the last week one voice has told him his housemate is 'one of them' and that he 'needs to deal with him'. He has started keeping a kitchen knife under his pillow 'for protection'. He has not acted on it. Sleeping 3-4 hours a night, eating little, stopped showering regularly. Thinks his thoughts are being broadcast. Denies thoughts of suicide, but says 'sometimes it'd be easier not to be here' (passive).\n\nNo mood elevation, no grandiosity. No head injury, no seizures.\n\nSubstances: HIDDEN CUE 2: Smokes cannabis daily for three years, stronger 'hydro' for the past six months, about 2 grams a day. Occasional methamphetamine at parties (last used a month ago). Drinks on weekends.\n\nPMH: Nil. Meds: nil. Allergies: nil.\nFamily history: Maternal uncle has schizophrenia.\n\nSocial: Second-year engineering student, lives in a share house with two housemates. Previously a good student. Stopped seeing friends. Not working. Drives an old car.\n\nInsight: Poor; thinks he is not unwell but agrees he is 'stressed and not sleeping'. Will accept 'something to help me sleep'. Reluctant to stay in hospital but will agree if the doctor is respectful and explains.",
+      "examFindings": "Mental state examination (the examiner will provide these observations if asked):\nAppearance: Thin young man, dishevelled, unwashed hair, wearing a hoodie pulled up. Poor eye contact; repeatedly scans the room.\nBehaviour: Guarded, suspicious, restless, sits near the door. Mild psychomotor agitation. Not aggressive.\nSpeech: Quiet, normal rate, some latency, occasionally vague.\nMood (subjective): 'Stressed'. Affect: Restricted, anxious, perplexed at times.\nThought form: Mild loosening of associations, some tangentiality.\nThought content: Persecutory delusions of surveillance by the university and government; thought broadcasting. Command hallucinations directed at the housemate (if elicited). Passive death wish, no active suicidal plan.\nPerception: Auditory hallucinations: two male voices in the third person giving a running commentary, and second person derogatory and command content. Appears to respond to unseen stimuli at times.\nCognition: Alert, oriented to time, place and person. Attention mildly reduced.\nInsight: Poor. Judgement: Impaired.\nPhysical: Observations normal; no signs of intoxication or withdrawal. Neurological screen normal."
+    },
+    "markingCriteria": [
+      "Introduces self, ensures safety of the environment for self and patient, and approaches in a calm non-confrontational manner",
+      "Takes a brief history of the psychotic symptoms, their duration and functional decline",
+      "Performs a structured MSE covering appearance, behaviour, speech, mood and affect, thought form, thought content, perception, cognition, insight and judgement",
+      "Elicits delusions and hallucinations without colluding with or arguing against them",
+      "Specifically asks about command hallucinations and identifies the risk to the housemate and the knife",
+      "Assesses risk to self (including passive death wish), to others, and vulnerability",
+      "Takes a substance use history identifying heavy daily cannabis and methamphetamine use",
+      "Asks about family history of psychotic illness",
+      "Presents findings concisely and states first-episode psychosis (probable schizophreniform disorder), with differentials of substance-induced psychotic disorder, schizophrenia, bipolar disorder with psychotic features, and organic causes",
+      "Outlines investigations to exclude organic causes: FBC, UEC, LFT, TFT, calcium, glucose, B12, HIV and syphilis serology, urine drug screen, consider CT or MRI brain",
+      "Outlines management: mental health team review, admission (voluntary if possible, otherwise assessment under the NSW Mental Health Act 2007), low-dose second-generation antipsychotic, managing risk to the housemate (duty of care), early psychosis program referral",
+      "Addresses cannabis use and involves the family with consent"
+    ],
+    "expectedDiagnosis": "First-episode psychosis (probable schizophreniform disorder, differential cannabis or methamphetamine induced psychosis) with command hallucinations and risk to others",
+    "teachingPoints": [
+      "Structure the MSE: Appearance, Behaviour, Speech, Mood/affect, Thought form, Thought content, Perception, Cognition, Insight, Judgement; present it in that order.",
+      "Always ask what the voices say and whether they tell you to do things; command hallucinations with a plan or weapon mean high risk to others.",
+      "Schizophreniform disorder is a psychotic illness of 1-6 months; schizophrenia requires 6 months or more (DSM-5-TR).",
+      "Exclude organic and substance causes: urine drug screen, bloods, and imaging if atypical features. Heavy daily high-potency cannabis roughly quadruples the risk of psychosis.",
+      "Early psychosis services (for example headspace early psychosis programs) improve outcomes; start a low-dose second-generation antipsychotic and monitor metabolic effects (RANZCP guidelines).",
+      "Each state has its own Mental Health Act: involuntary assessment requires mental illness and a need for care to prevent serious harm to self or others, when no less restrictive option is available."
+    ]
+  },
+  {
+    "id": "osce-16",
+    "title": "Alcohol use in a 52-year-old man",
+    "discipline": "mental-health",
+    "type": "management",
+    "candidateBrief": "You are a general practitioner in a suburban clinic in Geelong. Mr Steve Mitchell, a 52-year-old sales manager, has come in for the results of blood tests arranged at an insurance medical. The results show GGT 186 U/L (normal under 60), ALT 72 U/L, AST 94 U/L, MCV 102 fL, and are otherwise normal. His BP today is 148/96 mmHg.\n\nYour tasks are to:\n- Explain the results and take a focused alcohol history\n- Provide a brief intervention\n- Outline a management plan",
+    "tasks": [
+      "Explain the results and take a focused alcohol history",
+      "Provide a brief intervention using motivational techniques",
+      "Outline a management and follow-up plan"
+    ],
+    "patient": {
+      "name": "Steve Mitchell",
+      "age": 52,
+      "sex": "male",
+      "persona": "Confident, jovial, a bit defensive ('everyone in sales has a drink, Doc'). Minimises intake and jokes about it. Becomes more honest if the doctor is non-judgemental and uses a curious, respectful tone. Will only reveal morning drinking, drink-driving and his wife's ultimatum if asked directly and sensitively.",
+      "openingLine": "So, the insurance mob wanted bloods. All good? I feel fit as a fiddle.",
+      "script": "Alcohol: Initially says 'a couple of beers after work'. On specific questioning: 4-5 schooners of full-strength beer at the pub after work on weekdays plus 2-3 glasses of wine with dinner; on weekends a bottle of wine plus beers at the footy. Estimated 60-80 standard drinks a week. Drinking at this level for about 8 years, increasing since his divorce 3 years ago and remarriage. HIDDEN CUE 1 (only if asked about morning drinking or withdrawal): Has started having 'a quick one' (vodka) in the morning to stop his hands shaking, and sweats at night if he does not drink. Once had a 'funny turn' when he stopped for three days, felt he saw insects on the wall. No known seizures.\n\nCAGE: Has felt he should cut down, annoyed when his wife mentions it, feels guilty, and morning eye-opener (4/4).\n\nHIDDEN CUE 2 (only if asked about driving or problems from drinking): Drives home from the pub most nights; nearly hit a cyclist two months ago. His wife Jenny has said she will leave if he does not 'sort it out'.\n\nPMH: Hypertension, not on treatment. Reflux. Gout attack last year.\nMeds: Pantoprazole 40 mg daily. Allergies: nil.\nFamily: Father was 'a big drinker', died of liver cancer at 64.\n\nSocial: Sales manager for a car dealership, entertains clients. Smoked, quit 10 years ago. No other drugs. Lives with wife Jenny and her teenage son.\n\nIdeas: Thinks his drinking is normal for his job. Concerns: That his liver is 'shot' like his dad's; losing his licence or job. Expectations: Wants to hear the tests are fine.\n\nReadiness: Contemplative. If the doctor links his father's illness, the blood results and his wife's concern in a non-confrontational way, he admits 'yeah, maybe it's got out of hand' and is willing to try cutting down with support."
+    },
+    "markingCriteria": [
+      "Establishes rapport, checks his understanding and explains the abnormal results in plain language (pattern consistent with alcohol-related liver injury and macrocytosis)",
+      "Takes a quantified alcohol history in standard drinks, including type, amount, pattern and duration",
+      "Uses a validated screening tool (AUDIT or AUDIT-C, CAGE) and recognises alcohol dependence",
+      "Screens for withdrawal features including morning drinking, tremor, and previous complicated withdrawal (hallucinations, seizures)",
+      "Asks about consequences: driving, relationships, work, legal and physical health",
+      "Explores mental health, other substances and family history",
+      "Delivers a brief intervention using FRAMES or motivational interviewing: feedback, responsibility, advice, menu of options, empathy, self-efficacy",
+      "Advises that the NHMRC 2020 guideline is no more than 10 standard drinks a week and no more than 4 on any day",
+      "Advises that he must not drink and drive, addresses the risk to others, and considers fitness-to-drive implications",
+      "Recognises that he should not stop suddenly without support and plans supervised withdrawal (home or inpatient depending on risk) with thiamine, and considers relapse prevention medication (acamprosate, naltrexone)",
+      "Plans further workup: repeat LFTs, liver ultrasound, fibrosis assessment (FIB-4 or elastography), hepatitis serology, and management of BP",
+      "Offers supports (DirectLine, counselling, AA or SMART Recovery) and arranges follow-up"
+    ],
+    "expectedDiagnosis": "Alcohol use disorder (dependence) with alcohol-related liver injury and macrocytosis, previous complicated withdrawal, and drink-driving",
+    "teachingPoints": [
+      "NHMRC 2020 Australian guidelines: to reduce health risks, healthy adults should drink no more than 10 standard drinks a week and no more than 4 standard drinks on any one day. One standard drink is 10 g of alcohol.",
+      "Always quantify in standard drinks; a schooner of full-strength beer is about 1.6 standard drinks and a restaurant glass of wine about 1.5.",
+      "Brief interventions (FRAMES) in general practice reduce harmful drinking; match the approach to the stage of change.",
+      "Dependent drinkers with previous withdrawal hallucinations or seizures need planned, medically supervised withdrawal; give thiamine before glucose to prevent Wernicke encephalopathy.",
+      "Relapse prevention: acamprosate or naltrexone are PBS-listed; disulfiram is less commonly used.",
+      "Isolated raised GGT with AST greater than ALT and macrocytosis is a typical alcohol pattern; assess fibrosis and screen for other liver disease."
+    ]
+  },
+  {
+    "id": "osce-17",
+    "title": "Open disclosure of a medication error",
+    "discipline": "population-health",
+    "type": "counselling",
+    "candidateBrief": "You are an intern on the surgical ward of a metropolitan hospital in Sydney. Mrs Margaret Hughes, a 71-year-old woman, is day 2 after an elective total knee replacement. Last night she was given an intravenous dose of cefazolin despite a documented allergy to penicillin (urticarial rash). She developed an itchy rash on her chest and arms within 30 minutes, which settled with oral antihistamine. Her observations remained stable throughout. The error has been reported via the incident management system and your consultant has asked you to speak with her.\n\nYour tasks are to:\n- Explain to Mrs Hughes what has happened\n- Respond to her questions and concerns\n- Outline what will happen next",
+    "tasks": [
+      "Explain the incident honestly using open disclosure principles",
+      "Respond to her concerns and questions",
+      "Outline the next steps and follow-up"
+    ],
+    "patient": {
+      "name": "Margaret Hughes",
+      "age": 71,
+      "sex": "female",
+      "persona": "Retired schoolteacher, articulate and initially polite, becomes angry when she realises it was an error ('I told three different people I was allergic!'). Wants honesty and an apology. Calms if the doctor listens, apologises sincerely and avoids jargon or blame. Only mentions her fear that this could happen again with her husband, who has dementia and is also in hospital, if asked what is worrying her most.",
+      "openingLine": "Doctor, the nurse said you wanted to talk to me about last night. Was it the new antibiotic that gave me that rash?",
+      "script": "What she knows: She had an itchy red rash last night after 'a drip' and was given a tablet. The nurse this morning looked uncomfortable and said a doctor would come and explain.\n\nAllergy history: She had hives after amoxicillin in 1998 and has told the pre-admission clinic, the anaesthetist and the ward nurse. She has a red allergy wristband on.\n\nCurrent state: Rash has almost gone, some mild itch remaining. No breathing difficulty, no lip or tongue swelling. Knee is sore but she is mobilising with the physio. Otherwise feels well.\n\nPMH: Osteoarthritis, hypertension, hypothyroidism. Meds: amlodipine 5 mg, levothyroxine 100 mcg, paracetamol, enoxaparin (post-op), oxycodone as needed. Allergy: penicillin (urticaria).\n\nSocial: Married to Ron, 78, who has Alzheimer's dementia and is currently in respite care. HIDDEN CUE 1: Ron has a severe allergy to aspirin; she is very worried that if this can happen to her, who is articulate, it could happen to Ron who cannot speak up for himself. Two adult children, daughter Sue is a nurse.\n\nIdeas: Suspects a mistake. Concerns: Whether she is safe now, whether she will have long-term effects, whether it will happen again, and her husband. HIDDEN CUE 2: She asks, 'Who did this? I want to make a complaint', and wants to know if the nurse will be punished.\n\nExpectations: A sincere apology, an honest explanation, to know what is being done to prevent it happening again, and how to make a complaint.\n\nIf the doctor apologises clearly, explains without blaming individuals, and explains review and prevention, she accepts. If the doctor is defensive, vague or blames a colleague, she becomes more upset."
+    },
+    "markingCriteria": [
+      "Prepares appropriately: private setting, offers to have a support person present, introduces self and role",
+      "Checks what she already knows and what she would like to know",
+      "Gives a clear, honest factual explanation that she was given an antibiotic that she should not have received because of her penicillin allergy",
+      "Offers a sincere apology ('I am sorry') early, without speculation or blaming individuals",
+      "Allows her to express anger and responds with empathy and active listening",
+      "Explains the clinical impact: a mild allergic reaction that has settled; checks for any ongoing symptoms and explains monitoring",
+      "Explains what is being done: incident reported, review underway, allergy documentation checked, and learnings will be shared with her",
+      "Addresses her concern about her husband and offers to ensure his allergy is flagged and communicated",
+      "Explains her right to make a complaint and how (patient liaison, Health Care Complaints Commission in NSW) without being defensive",
+      "Does not identify or blame the individual staff member, and explains the systems approach to review",
+      "Arranges follow-up: senior or consultant meeting, written summary, and updates on the outcome of the review",
+      "Documents the disclosure conversation in the medical record"
+    ],
+    "expectedDiagnosis": "Adverse drug reaction (mild urticarial reaction) due to administration of a cephalosporin despite documented penicillin allergy; medication error requiring open disclosure",
+    "teachingPoints": [
+      "The Australian Open Disclosure Framework (ACSQHC) requires an open discussion with the patient and family after any incident causing harm: apologise, explain the facts, the consequences, and the steps taken to manage it and prevent recurrence.",
+      "Saying 'I am sorry' is not an admission of liability; apology laws in all Australian states protect an apology from being used as an admission.",
+      "Avoid speculation and blame: the incident will be reviewed through the hospital's clinical governance process (for example a root cause analysis), and findings are shared with the patient.",
+      "Low-risk penicillin allergy histories are now often delabelled, but a documented allergy must never be overridden without specialist assessment; cefazolin has a dissimilar side chain and cross-reactivity is low, but the process failure still requires disclosure.",
+      "Patients have the right to complain: internally via the patient liaison or consumer service, and externally to the state health complaints body (HCCC in NSW).",
+      "Document the disclosure conversation, who was present and what was agreed."
+    ]
+  },
+  {
+    "id": "osce-18",
+    "title": "A 15-year-old requesting contraception",
+    "discipline": "population-health",
+    "type": "management",
+    "candidateBrief": "You are a general practitioner in a suburban clinic in Brisbane. Zoe Clarke, a 15-year-old girl, has come in on her own after school. She has seen you before with her mother for asthma. She tells the receptionist she wants to talk about 'something private'.\n\nYour tasks are to:\n- Take a relevant history from Zoe\n- Assess her capacity to consent and address confidentiality\n- Discuss contraception options and a management plan",
+    "tasks": [
+      "Take a psychosocial and sexual health history (HEEADSSS)",
+      "Assess her capacity to consent (mature minor) and explain confidentiality and its limits",
+      "Discuss contraception options and a management plan"
+    ],
+    "patient": {
+      "name": "Zoe Clarke",
+      "age": 15,
+      "sex": "female",
+      "persona": "Nervous, embarrassed, avoids eye contact at first, speaks quietly. Worried the doctor will tell her mum. Becomes more relaxed and open once confidentiality is explained. Articulate and thoughtful once comfortable. Only reveals the recent unprotected sex if asked about the last time she had sex or whether condoms were used every time.",
+      "openingLine": "Um, hi. This is kind of awkward. Can you promise you won't tell my mum?",
+      "script": "Reason: Wants to go on the pill. Has had a boyfriend, Josh, for five months. He is 16 and in Year 11 at her school. They have had sex about four times over the past month, consensual, 'both of us wanted to', no pressure, no gifts or money, no drugs or alcohol involved. First sexual partner for both.\n\nHIDDEN CUE 1 (only if asked when they last had sex and whether a condom was used): Two days ago (about 50 hours ago) the condom broke. LMP 12 days ago, regular 28-day cycles. She has not done anything about it yet.\n\nGynae: Menarche at 12. Periods regular, a bit heavy with cramps. No discharge, no pain with sex, no bleeding after sex. Never had an STI test.\n\nPMH: Mild asthma. Meds: Salbutamol as needed. Allergies: nil. No migraine with aura, no history of blood clots, non-smoker, BP normal at last visit.\n\nFamily history: No clotting disorders known, otherwise nil significant.\n\nHEEADSSS: Home: lives with mum and stepdad; gets on okay with mum, 'she'd freak out though'. Education: Year 10, doing well, wants to study nursing. Eating: normal. Activities: netball, friends. Drugs: tried alcohol at a party once; no smoking or vaping; no other drugs. Sexuality: as above, attracted to boys. Safety: feels safe at home and in the relationship; seatbelts; no online risk. HIDDEN CUE 2 (only if asked about mood): Has been feeling a bit anxious about exams and about 'getting caught', but no low mood, self-harm or suicidal thoughts.\n\nIdeas: Wants the pill. Concerns: That her mum finds out, including through Medicare statements. Expectations: A script today.\n\nShe understands risks and benefits well when explained, can weigh information and repeat it back. She is open to considering an implant or IUD if explained, and agrees to an STI test."
+    },
+    "markingCriteria": [
+      "Welcomes her, sees her alone, and explains confidentiality and its limits early (risk of serious harm to self or others, or abuse)",
+      "Takes a HEEADSSS psychosocial history",
+      "Takes a sexual history including partner age, consent, coercion, number of partners and contraceptive use",
+      "Assesses the relationship for legality and safety: age of partner, power imbalance, coercion, and recognises this as similar-age consensual activity not requiring a child safety report",
+      "Assesses capacity to consent as a mature minor (Gillick competence): understands, retains, weighs and communicates the decision",
+      "Identifies the condom failure 2 days ago and offers emergency contraception (levonorgestrel 1.5 mg within 72 hours, or ulipristal within 120 hours; copper IUD most effective)",
+      "Takes a medical history for contraindications to oestrogen (MEC): migraine with aura, VTE, smoking, BP",
+      "Discusses contraceptive options, emphasising LARCs (implant, hormonal IUD) as most effective, as well as the combined pill, and dual protection with condoms",
+      "Offers STI screening (chlamydia and gonorrhoea NAAT on self-collected swab or urine) and discusses HPV vaccination status",
+      "Addresses Medicare confidentiality (own Medicare card from age 15, adolescent privacy options) and encourages, but does not insist on, involving a trusted adult",
+      "Arranges a pregnancy test in 3-4 weeks and follow-up, and safety-nets"
+    ],
+    "expectedDiagnosis": "Contraception request in a mature minor with recent unprotected intercourse requiring emergency contraception",
+    "teachingPoints": [
+      "Adolescents aged under 16 can consent to their own treatment if they are a mature minor (Gillick competent); document the assessment. In Australia, young people can have their own Medicare card from age 15.",
+      "The age of consent is 16 in most states and territories (17 in SA and Tasmania); similar-age consensual activity generally has legal defences, but coercion, a large age gap, or a partner in a position of authority should prompt a child safety assessment and mandatory report.",
+      "Always ask about recent unprotected sex: emergency contraception options are levonorgestrel 1.5 mg (within 72 hours, less effective later), ulipristal 30 mg (within 120 hours) or a copper IUD (within 120 hours, most effective).",
+      "LARCs (etonogestrel implant, levonorgestrel IUD) are first-line for young people; use quick-start with a pregnancy test in 3-4 weeks.",
+      "HEEADSSS gives structure to the adolescent psychosocial history; confidentiality should be explained at the start, including its limits.",
+      "Offer opportunistic chlamydia testing to all sexually active young people under 30 (RACGP Red Book, ASHM guidance)."
+    ]
+  }
+]

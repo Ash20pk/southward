@@ -1,0 +1,854 @@
+[
+  {
+    "id": "cardiology",
+    "name": "Cardiology",
+    "discipline": "adult-medicine",
+    "summary": "Chest pain, acute coronary syndromes, heart failure, arrhythmias, hypertension and cardiovascular risk. AMC questions focus on recognising the dangerous presentation and choosing the first-line management.",
+    "highYield": [
+      "STEMI: aim for primary PCI within 90 minutes of first medical contact; if PCI cannot happen within 120 minutes, give fibrinolysis (ideally within 30 minutes) unless contraindicated.",
+      "Suspected ACS: aspirin 300 mg chewed early; oxygen only if SpO2 below 93%; serial high-sensitivity troponin and ECGs.",
+      "HFrEF: the four pillars are ACE inhibitor/ARB or sacubitril-valsartan, a heart-failure beta blocker, an MRA and an SGLT2 inhibitor; loop diuretic for congestion.",
+      "AF: rate or rhythm control plus stroke prevention. Australian guidelines use CHA2DS2-VA (sex removed); DOACs are preferred over warfarin in non-valvular AF.",
+      "Warfarin, not a DOAC, for mechanical valves and moderate-severe mitral stenosis.",
+      "Absolute CVD risk (Australian CVD risk calculator): assess people aged 45-79, and First Nations people from 30. High risk is 10% or more over 5 years and warrants BP- and lipid-lowering treatment.",
+      "Aortic dissection: tearing pain radiating to the back, BP difference between arms, widened mediastinum; do not thrombolyse, get a CT aortogram.",
+      "Infective endocarditis: take 3 sets of blood cultures before antibiotics; use modified Duke criteria."
+    ],
+    "ausContext": "Rheumatic heart disease is still common in remote Aboriginal and Torres Strait Islander communities, even though it is rare in the rest of Australia. Secondary prophylaxis is benzathine benzylpenicillin IM every 28 days (21 days for some high-risk patients). Absolute CVD risk calculation, not single risk factors, drives treatment decisions, and assessment starts 15 years earlier for First Nations people."
+  },
+  {
+    "id": "respiratory",
+    "name": "Respiratory medicine",
+    "discipline": "adult-medicine",
+    "summary": "Asthma, COPD, pneumonia, pulmonary embolism, interstitial lung disease and lung cancer. Expect questions on acute severity assessment and guideline-based stepwise therapy.",
+    "highYield": [
+      "Asthma (Australian Asthma Handbook): SABA-only treatment is no longer recommended for adults and adolescents; as-needed budesonide-formoterol is an option for mild asthma, and every patient needs a written asthma action plan.",
+      "Severe or life-threatening asthma: continuous salbutamol, ipratropium, systemic steroids, consider IV magnesium; a normal or rising CO2 is an ominous sign.",
+      "COPD (COPD-X): diagnosis requires post-bronchodilator FEV1/FVC below 0.7; target SpO2 88-92% in exacerbations to avoid hypercapnia.",
+      "COPD exacerbation: bronchodilators, oral prednisolone 5 days, antibiotics if sputum is purulent, and NIV for acute hypercapnic respiratory acidosis.",
+      "Community-acquired pneumonia: assess severity (CURB-65 or SMART-COP). eTG low-severity first line is amoxicillin, with doxycycline as the alternative or add-on for atypicals.",
+      "PE: use Wells score and PERC; D-dimer only in low pre-test probability; CTPA to confirm; thrombolyse massive PE with haemodynamic compromise.",
+      "Pneumothorax: tension is a clinical diagnosis, decompress immediately; spontaneous small primary pneumothorax can often be observed.",
+      "Occupational lung disease is examinable: asbestos (mesothelioma), silicosis and coal workers' pneumoconiosis."
+    ],
+    "ausContext": "TB is uncommon in Australia (around 6 per 100,000) and most cases are in people born overseas, so a new migrant or international student with cough, fever and weight loss should prompt TB testing, while an Australian-born patient usually needs other causes considered first. Salbutamol is the name used for albuterol. Australia has very high rates of mesothelioma because of past asbestos use."
+  },
+  {
+    "id": "gastroenterology",
+    "name": "Gastroenterology and hepatology",
+    "discipline": "adult-medicine",
+    "summary": "Upper and lower GI bleeding, dyspepsia, IBD, coeliac disease, liver disease and viral hepatitis. AMC tests red flags for GI cancer and the sensible order of investigations.",
+    "highYield": [
+      "Upper GI bleed: resuscitate, risk-stratify with the Glasgow-Blatchford score, IV PPI and endoscopy within 24 hours; variceal bleed also needs terlipressin and antibiotics.",
+      "Dyspepsia red flags (weight loss, dysphagia, anaemia, vomiting, age over about 55 with new symptoms) need endoscopy rather than empirical PPI.",
+      "H. pylori: triple therapy with PPI + amoxicillin + clarithromycin; confirm eradication with a urea breath test at least 4 weeks after finishing.",
+      "Coeliac disease: tTG-IgA with total IgA while the patient is still eating gluten, confirmed by duodenal biopsy.",
+      "IBD flare: check for infection (including C. difficile); acute severe ulcerative colitis needs admission and IV steroids.",
+      "Paracetamol overdose: use the Australian nomogram (single treatment line starting at 150 mg/L at 4 hours); give acetylcysteine if above the line or if timing is unknown.",
+      "Hepatitis C is curable with 8-12 weeks of oral direct-acting antivirals, which GPs can prescribe.",
+      "Chronic hepatitis B needs lifelong monitoring and 6-monthly liver ultrasound (plus AFP) in higher-risk groups for hepatocellular carcinoma surveillance."
+    ],
+    "ausContext": "Hepatitis C DAAs have been PBS-listed without disease-stage restriction since 2016, so treating HCV is routine general practice work. Chronic hepatitis B is concentrated in people born in Asia-Pacific countries and in Aboriginal and Torres Strait Islander people. Bowel cancer is a major Australian cancer; see the National Bowel Cancer Screening Program."
+  },
+  {
+    "id": "endocrinology",
+    "name": "Endocrinology and diabetes",
+    "discipline": "adult-medicine",
+    "summary": "Diabetes, thyroid disease, adrenal and pituitary disorders, calcium and bone. The AMC loves diabetic emergencies and the Australian diabetes treatment algorithm.",
+    "highYield": [
+      "Type 2 diabetes diagnosis: HbA1c 6.5% (48 mmol/mol) or higher, fasting glucose 7.0 mmol/L or higher, or 2-hour OGTT/random glucose 11.1 mmol/L or higher.",
+      "Metformin is first line; add an SGLT2 inhibitor or GLP-1 receptor agonist early when there is cardiovascular disease, heart failure or CKD.",
+      "General HbA1c target is 7.0% (53 mmol/mol) or less, individualised (looser in the frail elderly).",
+      "DKA: IV fluids first, then fixed-rate insulin infusion (0.1 units/kg/hr), monitor and replace potassium closely; SGLT2 inhibitors can cause euglycaemic DKA.",
+      "Hypoglycaemia: 15 g of fast-acting carbohydrate if conscious; IM glucagon or IV glucose if not.",
+      "Thyroid: TSH is the screening test; primary hypothyroidism is treated with levothyroxine (commonly called thyroxine in Australia).",
+      "Adrenal crisis: hydrocortisone 100 mg IV/IM immediately, do not wait for results; patients on steroids need sick-day rules.",
+      "Hypercalcaemia: most commonly primary hyperparathyroidism (outpatients) or malignancy (inpatients); treat severe cases with IV saline then bisphosphonate."
+    ],
+    "ausContext": "Australia reports blood glucose in mmol/L and HbA1c in both % and mmol/mol, not mg/dL, so convert your Indian reference numbers. Type 2 diabetes is several times more common in Aboriginal and Torres Strait Islander people and starts younger; screening starts from 18 years in this group. The National Diabetes Services Scheme (NDSS) subsidises glucose monitoring and supplies."
+  },
+  {
+    "id": "nephrology",
+    "name": "Nephrology",
+    "discipline": "adult-medicine",
+    "summary": "Acute kidney injury, chronic kidney disease, electrolyte disorders and glomerular disease. Questions test safe correction of electrolytes and nephroprotection.",
+    "highYield": [
+      "AKI (KDIGO): creatinine rise of 26.5 umol/L or more in 48 hours, or 1.5x baseline in 7 days, or low urine output; stop nephrotoxins (NSAIDs, ACE inhibitors, diuretics, metformin) and look for obstruction.",
+      "CKD is staged by both eGFR and urine albumin-creatinine ratio (uACR); check both in people at risk.",
+      "Nephroprotection: BP control, ACE inhibitor or ARB for albuminuria, SGLT2 inhibitor, and stop smoking.",
+      "Hyperkalaemia with ECG changes: IV calcium gluconate 10% to stabilise the myocardium, then insulin-dextrose and salbutamol to shift potassium, then remove it.",
+      "Hyponatraemia: assess volume status; correct chronic hyponatraemia by no more than 8-10 mmol/L in 24 hours to avoid osmotic demyelination.",
+      "Nephritic syndrome (haematuria, hypertension, oedema) after skin or throat infection suggests post-streptococcal glomerulonephritis.",
+      "Nephrotic syndrome: proteinuria over 3.5 g/day, hypoalbuminaemia, oedema; watch for VTE and infection."
+    ],
+    "ausContext": "Australia reports creatinine in umol/L. Aboriginal and Torres Strait Islander people have far higher rates of kidney failure, often from diabetes and past post-streptococcal glomerulonephritis, and many remote patients must relocate to access dialysis, which is a recognised cultural and social burden."
+  },
+  {
+    "id": "neurology",
+    "name": "Neurology",
+    "discipline": "adult-medicine",
+    "summary": "Stroke and TIA, seizures, headache, weakness and neurodegenerative disease. AMC focuses on time-critical stroke care, headache red flags and driving advice after seizures.",
+    "highYield": [
+      "Ischaemic stroke: thrombolysis up to 4.5 hours from onset; endovascular clot retrieval for large vessel occlusion, up to 24 hours in selected patients with imaging selection.",
+      "TIA: urgent assessment (same day) and imaging of brain and carotids; start antiplatelet therapy once haemorrhage is excluded.",
+      "Headache red flags: thunderclap onset, new headache over 50, fever/neck stiffness, focal signs, papilloedema, immunosuppression, pregnancy.",
+      "Suspected SAH: non-contrast CT; if negative and more than 6 hours from onset, lumbar puncture for xanthochromia.",
+      "Status epilepticus: benzodiazepine first (IV/IM midazolam or IV diazepam), repeat once, then a second-line agent such as levetiracetam, valproate or phenytoin.",
+      "Guillain-Barre syndrome: ascending weakness with areflexia; monitor forced vital capacity for respiratory failure.",
+      "Giant cell arteritis causes headache with jaw claudication and can cause blindness; start steroids before biopsy.",
+      "After a seizure, give driving advice and document it; Austroads standards set non-driving periods."
+    ],
+    "ausContext": "Stroke care in Australia is organised around stroke units and telestroke networks for rural hospitals. The patient, not the doctor, has the legal duty to tell the licensing authority about a condition affecting driving, but the doctor must advise them and document it (see Austroads 'Assessing Fitness to Drive')."
+  },
+  {
+    "id": "haematology",
+    "name": "Haematology",
+    "discipline": "adult-medicine",
+    "summary": "Anaemia, bleeding and clotting disorders, anticoagulation, haematological malignancy and transfusion. Expect questions on iron deficiency, anticoagulant reversal and febrile neutropenia.",
+    "highYield": [
+      "Iron deficiency: low ferritin (below about 30 ug/L) is diagnostic; always find the cause, and in men and postmenopausal women investigate the GI tract.",
+      "Microcytic anaemia with normal ferritin in someone of South Asian, Mediterranean or Middle Eastern background: consider thalassaemia trait (Hb electrophoresis).",
+      "Transfusion: restrictive thresholds (usually Hb below 70 g/L in stable patients); follow Patient Blood Management principles.",
+      "Warfarin reversal for major bleeding: IV vitamin K plus prothrombin complex concentrate (Prothrombinex-VF), with FFP if needed.",
+      "Febrile neutropenia is an emergency: empirical IV antibiotics (eTG: piperacillin-tazobactam) within 1 hour.",
+      "VTE: DOACs are first line for most; provoked DVT/PE treated for 3 months, unprovoked often longer.",
+      "Heparin-induced thrombocytopenia: platelet fall 5-10 days after starting heparin with thrombosis; stop all heparin."
+    ],
+    "ausContext": "Warfarin reversal in Australia uses Prothrombinex-VF, a local product. Blood products are supplied by Australian Red Cross Lifeblood, and donors are unpaid volunteers. Haemoglobin is reported in g/L (so 70 g/L, not 7 g/dL)."
+  },
+  {
+    "id": "infectious-disease",
+    "name": "Infectious diseases",
+    "discipline": "adult-medicine",
+    "summary": "Sepsis, meningitis, common bacterial infections, HIV and tropical or travel-related infections. Australian antibiotic choices follow eTG (Therapeutic Guidelines: Antibiotic) and differ from Indian practice.",
+    "highYield": [
+      "Sepsis: blood cultures then IV antibiotics within 1 hour; fluids and early escalation for hypotension or high lactate.",
+      "Bacterial meningitis: IV ceftriaxone plus dexamethasone without delaying for LP or CT; give benzylpenicillin (or ceftriaxone) before transfer if meningococcal disease is suspected.",
+      "Cellulitis: eTG first line is flucloxacillin (IV) or cefalexin (oral); mark the edge.",
+      "Melioidosis (Burkholderia pseudomallei): tropical northern Australia in the wet season; risk factors are diabetes, alcohol excess and CKD; can present as pneumonia, abscesses or sepsis.",
+      "Arboviruses: Ross River virus (polyarthritis, fever, rash), Murray Valley encephalitis, and dengue in north Queensland; malaria in Australia is imported.",
+      "Q fever (Coxiella burnetii) in abattoir and farm workers; vaccine requires pre-vaccination screening.",
+      "HIV: test with consent, treat everyone diagnosed; PEP within 72 hours; PrEP is PBS-subsidised.",
+      "Skin sores (impetigo) and scabies in remote communities drive acute rheumatic fever and post-streptococcal glomerulonephritis."
+    ],
+    "ausContext": "Antibiotic stewardship is strong in Australia: broad-spectrum agents like fluoroquinolones and carbapenems are restricted and not used as routine first line, unlike common Indian practice. Always check eTG. TB, typhoid and malaria are uncommon and mostly acquired overseas, whereas melioidosis, Q fever and arboviruses are locally important."
+  },
+  {
+    "id": "rheumatology",
+    "name": "Rheumatology",
+    "discipline": "adult-medicine",
+    "summary": "Inflammatory and degenerative joint disease, gout, connective tissue disease and vasculitis. Questions test the hot joint, early DMARDs and steroid emergencies like GCA.",
+    "highYield": [
+      "Hot swollen joint: aspirate before antibiotics to exclude septic arthritis (send for Gram stain, culture and crystals).",
+      "Acute gout: NSAID, low-dose colchicine or prednisolone; start or continue allopurinol at a low dose and titrate to serum urate below 0.36 mmol/L.",
+      "Rheumatoid arthritis: refer early; methotrexate (with folic acid) is the first-line DMARD.",
+      "Polymyalgia rheumatica: bilateral shoulder/hip girdle pain and stiffness in over-50s with high ESR/CRP; dramatic response to prednisolone.",
+      "GCA: urgent high-dose steroids to prevent visual loss, then temporal artery biopsy or ultrasound.",
+      "SLE: ANA is sensitive, anti-dsDNA and anti-Smith are specific; hydroxychloroquine for most.",
+      "Back pain red flags: age over 50 with new pain, cancer history, fever, weight loss, night pain, saddle anaesthesia or bladder/bowel change.",
+      "Methotrexate is taken once weekly; daily dosing errors are fatal."
+    ],
+    "ausContext": "Biologic DMARDs are PBS-subsidised only under authority criteria (documented failure of conventional DMARDs and disease activity measures), usually initiated by a rheumatologist. Uric acid is reported in mmol/L in Australia."
+  },
+  {
+    "id": "dermatology",
+    "name": "Dermatology",
+    "discipline": "adult-medicine",
+    "summary": "Skin cancer, common rashes and skin infections. Australia has the highest skin cancer rates in the world, so recognising melanoma, BCC and SCC is essential.",
+    "highYield": [
+      "Melanoma: ABCDE for superficial spreading; EFG (elevated, firm, growing) for nodular melanoma, which may not be pigmented.",
+      "Suspicious pigmented lesion: complete excision biopsy with a 2 mm margin; do not shave or partially biopsy.",
+      "Definitive melanoma margins by Breslow thickness: in situ 5-10 mm, up to 1 mm thick 1 cm, 1-4 mm thick 1-2 cm, over 4 mm 2 cm.",
+      "BCC is the most common cancer; pearly, rolled edge, telangiectasia; locally invasive and rarely metastasises.",
+      "SCC: tender, keratotic, rapidly growing; higher risk in immunosuppressed transplant patients.",
+      "Actinic keratoses are precancerous; treat with cryotherapy or topical field therapy (e.g. fluorouracil).",
+      "Scabies: permethrin 5% cream, repeat after 7 days, treat all household contacts at the same time.",
+      "Eczema: emollients and adequate-strength topical corticosteroids; steroid phobia leads to under-treatment."
+    ],
+    "ausContext": "Skin cancer is a daily part of Australian general practice, unlike in India where it is rare in darker skin types. Sun protection ('slip, slop, slap, seek, slide') is public health messaging everyone knows. There is no national population skin screening program; checks are opportunistic and targeted to higher-risk people."
+  },
+  {
+    "id": "geriatrics",
+    "name": "Geriatric medicine",
+    "discipline": "adult-medicine",
+    "summary": "Falls, delirium, dementia, polypharmacy, frailty and aged care. AMC stations often involve an elderly patient living alone and a worried family.",
+    "highYield": [
+      "Delirium is acute, fluctuating inattention; screen with the 4AT or CAM and look for causes (infection, drugs, retention, constipation, hypoxia, pain).",
+      "Hypoactive delirium is common and often missed.",
+      "Falls: review medications (sedatives, antihypertensives), postural BP, vision, feet, gait and home hazards; consider osteoporosis.",
+      "Deprescribing: review anticholinergics, benzodiazepines and antipsychotics; use Beers or STOPP/START criteria.",
+      "Minimal-trauma fracture in an older adult means osteoporosis until proven otherwise; treat to prevent the next fracture.",
+      "Advance care planning: discuss goals of care early; respect advance care directives and substitute decision-makers.",
+      "Pressure injury prevention: regular repositioning, nutrition and skin checks."
+    ],
+    "ausContext": "Access to government-funded aged care (home care or residential) starts through My Aged Care, which arranges an aged care assessment. Most older Australians live independently, and families often expect the medical team to discuss options openly. Substitute decision-maker titles (enduring guardian, medical treatment decision maker) differ by state."
+  },
+  {
+    "id": "emergency-medicine",
+    "name": "Emergency medicine and toxicology",
+    "discipline": "adult-medicine",
+    "summary": "Triage, resuscitation, anaphylaxis, poisoning and Australian envenomation. Envenomation and toxicology are high-yield because they are uniquely Australian.",
+    "highYield": [
+      "Australasian Triage Scale: category 1 immediate, 2 within 10 minutes, 3 within 30, 4 within 60, 5 within 120.",
+      "Basic life support follows ANZCOR DRSABCD: Danger, Response, Send for help, Airway, Breathing, CPR, Defibrillation.",
+      "Anaphylaxis: IM adrenaline 0.01 mg/kg (max 0.5 mg) into the anterolateral thigh, repeat every 5 minutes as needed; lie the patient flat.",
+      "Snake bite: pressure immobilisation bandage and splint, do not wash the bite, serial bloods (coagulation, CK) and antivenom if envenomed.",
+      "Funnel-web spider bite: pressure immobilisation and antivenom; redback spider: no pressure bandage, symptomatic pain relief.",
+      "Box jellyfish sting (tropical waters): douse with vinegar, CPR if needed, antivenom available.",
+      "Paracetamol overdose: acetylcysteine guided by the Australian nomogram.",
+      "Poisons Information Centre 13 11 26 is available 24/7 for advice."
+    ],
+    "ausContext": "Emergency number is 000 (112 also works from mobiles). Envenomation from snakes, spiders and marine creatures has no Indian equivalent in exam terms; know the pressure immobilisation technique cold. Indian first aid habits like tourniquets or cutting the bite are harmful and not used."
+  },
+  {
+    "id": "pharmacology",
+    "name": "Clinical pharmacology and prescribing",
+    "discipline": "adult-medicine",
+    "summary": "Safe prescribing, drug interactions, therapeutic drug monitoring and adverse effects. Australian drug names, scheduling and pregnancy categories differ from India.",
+    "highYield": [
+      "Australia uses international non-proprietary names: adrenaline, paracetamol, salbutamol, glyceryl trinitrate, and newer spellings like furosemide, lidocaine and cefalexin.",
+      "Scheduling: S2 pharmacy medicine, S3 pharmacist only, S4 prescription only, S8 controlled drug (opioids, stimulants).",
+      "TGA pregnancy categories: A (safe), B1-B3, C, D, X. ACE inhibitors, isotretinoin, warfarin and valproate are classic ones to avoid.",
+      "Therapeutic monitoring: lithium, digoxin, gentamicin, vancomycin, phenytoin, and INR for warfarin.",
+      "Classic interactions: warfarin with many antibiotics; clarithromycin/erythromycin (CYP3A4) with statins; SSRIs with tramadol (serotonin syndrome); triple whammy (ACE inhibitor/ARB + diuretic + NSAID) causing AKI.",
+      "Opioid prescribing: use the lowest dose for the shortest time; check real-time prescription monitoring before prescribing S8s.",
+      "Report adverse drug reactions to the TGA."
+    ],
+    "ausContext": "Many Indian drugs and fixed-dose combinations are not available in Australia (for example nimesulide and metamizole). Codeine has been prescription-only since 2018. Scripts must be written by active ingredient, and pharmacists can substitute an equivalent brand unless the prescriber marks otherwise. Always check eTG and the Australian Medicines Handbook (AMH)."
+  },
+  {
+    "id": "general-surgery",
+    "name": "General surgery",
+    "discipline": "adult-surgery",
+    "summary": "The acute abdomen, hernias, biliary and pancreatic disease, bowel obstruction and anorectal conditions. The AMC wants safe initial assessment, resuscitation and knowing when to call the surgeon.",
+    "highYield": [
+      "Appendicitis: periumbilical pain migrating to the right iliac fossa, anorexia, fever; ultrasound first in children and pregnancy, CT in most adults.",
+      "Biliary colic vs cholecystitis: fever, raised WCC and positive Murphy's sign suggest cholecystitis; ultrasound is the first test.",
+      "Ascending cholangitis (Charcot's triad: fever, jaundice, RUQ pain) needs antibiotics and urgent biliary drainage.",
+      "Acute pancreatitis: lipase over 3x the upper limit; common causes are gallstones and alcohol; early fluids and analgesia, severity by organ failure.",
+      "Bowel obstruction: 'drip and suck' (IV fluids, NG tube), CT to find cause; strangulation needs surgery.",
+      "Irreducible, tender hernia is a surgical emergency (strangulation).",
+      "Uncomplicated diverticulitis in a well patient can often be managed without antibiotics; complicated cases need CT and admission.",
+      "Mesenteric ischaemia: pain out of proportion to examination, often with AF."
+    ]
+  },
+  {
+    "id": "trauma",
+    "name": "Trauma and burns",
+    "discipline": "adult-surgery",
+    "summary": "Structured assessment of the injured patient, head, chest and spinal trauma, and burns. Australian trauma training follows the EMST (ATLS) approach.",
+    "highYield": [
+      "Primary survey: control catastrophic haemorrhage, then Airway with C-spine protection, Breathing, Circulation, Disability, Exposure.",
+      "Tension pneumothorax: immediate decompression; in adults the 4th/5th intercostal space anterior to the mid-axillary line is now preferred.",
+      "Haemorrhagic shock: permissive hypotension, tranexamic acid within 3 hours, activate massive transfusion protocol.",
+      "Head injury: use GCS; Canadian CT head rule decides imaging; watch anticoagulated patients closely.",
+      "C-spine: Canadian C-spine rule or NEXUS to decide imaging.",
+      "Burns first aid: cool running water for 20 minutes, useful up to 3 hours after injury; remove jewellery; cover with cling film.",
+      "Burns referral: over 10% TBSA in adults (5% in children), full thickness, or burns to face, hands, feet, genitals, perineum or major joints, plus inhalation or circumferential burns.",
+      "Remember non-accidental injury in children and elder abuse when the mechanism does not fit."
+    ],
+    "ausContext": "Road trauma, farm injuries (quad bikes, machinery) and drowning are major causes of trauma in Australia. Rural patients are often retrieved long distances by the Royal Flying Doctor Service or state retrieval services, so stabilisation for transfer is a real exam theme."
+  },
+  {
+    "id": "orthopaedics",
+    "name": "Orthopaedics",
+    "discipline": "adult-surgery",
+    "summary": "Fractures, joint injuries, back pain and bone health. AMC tests decision rules, limb-threatening emergencies and osteoporosis.",
+    "highYield": [
+      "Ottawa ankle and knee rules decide who needs an X-ray.",
+      "Scaphoid fracture: anatomical snuffbox tenderness after a fall on outstretched hand; immobilise even if the X-ray is normal and re-image.",
+      "Compartment syndrome: pain out of proportion and pain on passive stretch; urgent fasciotomy, do not wait for pulse loss.",
+      "Open fracture: IV antibiotics (cefazolin), tetanus cover, wound photo and cover, urgent washout.",
+      "Neck of femur fracture: analgesia (including nerve block), surgery within 48 hours, orthogeriatric care.",
+      "Cauda equina: saddle anaesthesia, bladder or bowel dysfunction, bilateral leg symptoms; urgent MRI and surgical referral.",
+      "Osteoporosis: DXA T-score of -2.5 or lower, or any minimal-trauma fracture; bisphosphonate or denosumab with vitamin D and calcium.",
+      "Paediatric limp: think transient synovitis, septic arthritis, Perthes, SUFE and non-accidental injury."
+    ],
+    "ausContext": "Osteoporosis drugs are PBS-subsidised under specific criteria, such as a minimal-trauma fracture or a qualifying T-score by age. Stopping denosumab without follow-up therapy causes rebound vertebral fractures."
+  },
+  {
+    "id": "urology",
+    "name": "Urology",
+    "discipline": "adult-surgery",
+    "summary": "Renal colic, urinary retention, haematuria, testicular emergencies, UTI and prostate disease. Prostate cancer testing is a shared-decision topic in Australia.",
+    "highYield": [
+      "Testicular torsion: sudden severe pain, high-riding testis, absent cremasteric reflex; surgical exploration within 6 hours, do not delay for ultrasound.",
+      "Renal colic: non-contrast CT KUB; NSAIDs for pain; stones under 5 mm usually pass.",
+      "Obstructed infected kidney (stone with fever) is an emergency needing drainage (stent or nephrostomy) plus antibiotics.",
+      "Painless visible haematuria in an adult: suspect urothelial cancer; CT urogram and cystoscopy.",
+      "Uncomplicated cystitis in women (eTG): trimethoprim for 3 days, or nitrofurantoin, or cefalexin; cefalexin in pregnancy.",
+      "Acute urinary retention: catheterise, review drugs (anticholinergics, opioids), look for constipation; BPH is common.",
+      "PSA testing: requires informed shared decision-making; men who choose it are offered testing every 2 years from 50 to 69.",
+      "Asymptomatic bacteriuria is not treated except in pregnancy and before urological procedures."
+    ],
+    "ausContext": "There is no organised prostate cancer screening program in Australia. PSA testing is individual, and doctors are expected to explain the benefits and harms (overdiagnosis, biopsy complications) before ordering it. Asking a patient's permission and documenting the discussion is examinable."
+  },
+  {
+    "id": "vascular",
+    "name": "Vascular surgery",
+    "discipline": "adult-surgery",
+    "summary": "Aneurysms, peripheral arterial disease, acute limb ischaemia, carotid disease and venous disease. Time-critical presentations are the focus.",
+    "highYield": [
+      "Ruptured AAA: pain, hypotension and pulsatile mass; permissive hypotension and straight to theatre or endovascular repair.",
+      "Elective AAA repair is usually offered at 5.5 cm in men (lower thresholds for women) or rapid growth.",
+      "Acute limb ischaemia (6 Ps: pain, pallor, pulselessness, paraesthesia, paralysis, perishing cold): heparin and urgent vascular surgery.",
+      "Peripheral arterial disease: ABI below 0.9; manage with smoking cessation, supervised exercise, statin and antiplatelet.",
+      "Symptomatic carotid stenosis of 50-99% (especially 70-99%): early carotid endarterectomy within 2 weeks.",
+      "Diabetic foot: check sensation and pulses, urgent referral for ulcers with infection or ischaemia.",
+      "Venous ulcers: confirm ABI before compression bandaging."
+    ],
+    "ausContext": "Diabetes-related foot disease and lower limb amputation rates are much higher among Aboriginal and Torres Strait Islander people. There is no national AAA screening program in Australia."
+  },
+  {
+    "id": "ent",
+    "name": "ENT (otorhinolaryngology)",
+    "discipline": "adult-surgery",
+    "summary": "Ear infections, sore throat, epistaxis, hearing loss and airway emergencies. Ear disease in Aboriginal children is a well-known Australian exam theme.",
+    "highYield": [
+      "Acute otitis media: most resolve without antibiotics; amoxicillin is first line when needed (e.g. under 2 with bilateral disease, systemically unwell, or high-risk populations).",
+      "Chronic suppurative otitis media: persistent discharge through a perforation; treat with ear toilet and topical ciprofloxacin drops.",
+      "Sore throat: eTG recommends phenoxymethylpenicillin for 10 days if antibiotics are indicated, mainly to prevent rheumatic fever in high-risk people.",
+      "Peritonsillar abscess (quinsy): trismus, uvula deviation, 'hot potato' voice; drain and give IV antibiotics.",
+      "Epistaxis first aid: sit up, lean forward, pinch the soft part of the nose for 10-15 minutes.",
+      "Sudden sensorineural hearing loss is an emergency; refer urgently for steroids.",
+      "Red flags for head and neck cancer: persistent hoarseness over 3 weeks, neck lump, unilateral ear pain, dysphagia."
+    ],
+    "ausContext": "Aboriginal and Torres Strait Islander children have some of the highest rates of chronic suppurative otitis media in the world, which affects hearing, speech and education. In this group AOM is treated with antibiotics more readily, and sore throat is treated with penicillin to prevent acute rheumatic fever."
+  },
+  {
+    "id": "ophthalmology",
+    "name": "Ophthalmology",
+    "discipline": "adult-surgery",
+    "summary": "Red eye, sudden visual loss, eye trauma and chronic eye disease. The AMC tests the red-flag eye that must be referred the same day.",
+    "highYield": [
+      "Red flags in red eye: reduced vision, pain, photophobia, fixed or irregular pupil, corneal opacity, contact lens wearer.",
+      "Acute angle-closure glaucoma: painful red eye, halos, mid-dilated fixed pupil, vomiting; lower pressure (acetazolamide, topical agents) and urgent referral.",
+      "Chemical eye injury: irrigate immediately and copiously before anything else.",
+      "Retinal detachment: flashes, floaters, curtain over vision; same-day referral.",
+      "Central retinal artery occlusion: sudden painless visual loss, cherry-red spot; consider GCA in older patients.",
+      "Diabetic retinopathy screening: every 2 years if no retinopathy; yearly for Aboriginal and Torres Strait Islander people with diabetes.",
+      "Herpes zoster involving the tip of the nose (Hutchinson's sign) signals eye involvement."
+    ],
+    "ausContext": "Australia is the only high-income country with endemic trachoma, found in some remote Aboriginal communities. It is controlled with the WHO SAFE strategy (surgery, antibiotics with azithromycin, facial cleanliness, environmental improvement)."
+  },
+  {
+    "id": "breast",
+    "name": "Breast surgery",
+    "discipline": "adult-surgery",
+    "summary": "Breast lumps, breast pain, nipple discharge, infection and breast cancer. The key concept is triple assessment.",
+    "highYield": [
+      "Triple assessment for a breast lump: clinical examination, imaging and needle biopsy (core biopsy preferred); all three must be concordant.",
+      "Imaging: ultrasound first under about 35 years; mammography plus ultrasound in older women.",
+      "Fibroadenoma is the most common lump in young women: smooth, mobile, 'breast mouse'.",
+      "Lactational mastitis: continue breastfeeding or expressing; flucloxacillin or cefalexin if bacterial; drain an abscess.",
+      "Bloody single-duct nipple discharge needs imaging and referral (intraductal papilloma or cancer).",
+      "Strong family history or known BRCA1/2 mutation: refer to a familial cancer service (eviQ guidelines).",
+      "Male breast lump: most are gynaecomastia (review drugs, liver, testes), but cancer must be excluded."
+    ],
+    "ausContext": "BreastScreen Australia offers free 2-yearly mammograms to women aged 50-74, and women 40 and over can also attend. No GP referral is needed. Breast cancer is the most common cancer in Australian women."
+  },
+  {
+    "id": "perioperative",
+    "name": "Perioperative medicine",
+    "discipline": "adult-surgery",
+    "summary": "Preoperative assessment, medication management, consent, postoperative complications and fluid management. Safe medication handling around surgery is the most tested area.",
+    "highYield": [
+      "ASA grade describes fitness for anaesthesia (I healthy to VI brain dead donor).",
+      "Fasting: usually 6 hours for food; clear fluids are allowed until closer to surgery according to local ANZCA-based policy.",
+      "SGLT2 inhibitors must be withheld for 2-3 days before major surgery or procedures needing fasting because of euglycaemic DKA risk.",
+      "Anticoagulants: plan interruption based on drug, renal function and bleeding risk; bridging with heparin is only for high-thrombotic-risk patients (e.g. mechanical mitral valve).",
+      "VTE prophylaxis: assess every surgical patient; mechanical and/or pharmacological prophylaxis.",
+      "Post-op fever: think of timing (atelectasis early, then UTI, wound infection, VTE, anastomotic leak).",
+      "Post-op confusion: delirium until proven otherwise; check oxygen, glucose, urinary retention, drugs and infection.",
+      "WHO surgical safety checklist (sign in, time out, sign out) is used in all Australian theatres."
+    ],
+    "ausContext": "Informed consent in Australia follows Rogers v Whitaker (1992): the doctor must disclose material risks, meaning risks a reasonable person, or this particular patient, would consider significant. A generic 'risks were explained' note is not enough."
+  },
+  {
+    "id": "surgical-oncology",
+    "name": "Surgical oncology",
+    "discipline": "adult-surgery",
+    "summary": "Colorectal, upper GI, pancreatic, skin and other solid cancers from a surgical perspective. AMC tests red flags, appropriate referral pathways and screening.",
+    "highYield": [
+      "Colorectal cancer red flags: rectal bleeding, change in bowel habit, iron deficiency anaemia, weight loss; refer for colonoscopy.",
+      "Positive bowel screening (iFOBT) result needs colonoscopy within about 30 days, not a repeat test.",
+      "Early-onset colorectal cancer (under 50) is rising in Australia; do not dismiss rectal bleeding in young adults.",
+      "Painless obstructive jaundice with a palpable gallbladder (Courvoisier's law) suggests pancreatic or distal biliary cancer.",
+      "Dysphagia for solids that progresses, with weight loss, needs urgent endoscopy.",
+      "Tumour markers (CEA, CA 19-9, CA-125) are for monitoring, not screening or diagnosis alone.",
+      "Cancer care follows Optimal Care Pathways and multidisciplinary team (MDT) meetings."
+    ],
+    "ausContext": "Australia has one of the world's highest bowel cancer rates, and the National Bowel Cancer Screening Program mails free iFOBT kits every 2 years to people 50-74 (45-49 year olds can request one). The National Lung Cancer Screening Program started in July 2025 for high-risk current and former smokers aged 50-70."
+  },
+  {
+    "id": "antenatal-care",
+    "name": "Antenatal care",
+    "discipline": "womens-health",
+    "summary": "Routine care of a normal pregnancy, screening tests, medications and vaccination. Expect questions on what is tested at which gestation.",
+    "highYield": [
+      "Booking bloods: FBC, blood group and antibodies, rubella immunity, syphilis, HIV, hepatitis B and C, and urine culture for asymptomatic bacteriuria.",
+      "Aneuploidy screening: combined first trimester screening (11-14 weeks) or cell-free DNA (NIPT) from 10 weeks, after counselling.",
+      "Morphology ultrasound at 18-20 weeks.",
+      "Gestational diabetes: 75 g OGTT at 24-28 weeks; diagnosis if fasting 5.1, 1-hour 10.0 or 2-hour 8.5 mmol/L or higher.",
+      "Rh D-negative women: routine prophylactic anti-D at 28 and 34 weeks, and after sensitising events.",
+      "Folic acid 0.5 mg daily from before conception (5 mg if high risk: diabetes, obesity, antiepileptics, prior neural tube defect); iodine 150 ug daily.",
+      "Vaccines in every pregnancy: pertussis (dTpa) ideally 20-32 weeks and influenza at any stage; RSV vaccine is offered in the third trimester.",
+      "Low-dose aspirin (150 mg at night) from 12-16 weeks for women at high risk of pre-eclampsia."
+    ],
+    "ausContext": "Antenatal care can be led by GPs (shared care), midwives or obstetricians, in public or private systems. Syphilis has re-emerged, particularly in northern Australia, and many jurisdictions now recommend repeat syphilis testing later in pregnancy. The national Pregnancy Care Guidelines have specific advice for Aboriginal and Torres Strait Islander women."
+  },
+  {
+    "id": "obstetric-emergencies",
+    "name": "Obstetric emergencies",
+    "discipline": "womens-health",
+    "summary": "Haemorrhage, hypertensive disorders, ectopic pregnancy and intrapartum emergencies. These are classic AMC stations with time pressure.",
+    "highYield": [
+      "Postpartum haemorrhage (500 mL or more after vaginal birth): think of the 4 Ts (tone, trauma, tissue, thrombin); uterine massage, oxytocin, then ergometrine (avoid in hypertension), carboprost and tranexamic acid.",
+      "Pre-eclampsia: new hypertension (140/90 or more) after 20 weeks with maternal organ or fetal involvement; proteinuria is not required.",
+      "Severe pre-eclampsia: control BP (labetalol, nifedipine, hydralazine) and give magnesium sulfate to prevent or treat eclampsia; delivery is the cure.",
+      "Magnesium toxicity: loss of reflexes, then respiratory depression; antidote is calcium gluconate.",
+      "Ectopic pregnancy: positive beta-hCG with no intrauterine pregnancy on ultrasound; unstable patients go to theatre.",
+      "Placental abruption: painful bleeding with a tense uterus; placenta praevia: painless bleeding, never do a digital vaginal exam.",
+      "Shoulder dystocia: call for help, McRoberts manoeuvre and suprapubic pressure first.",
+      "Cord prolapse: relieve pressure on the cord (knee-chest or fill the bladder) and arrange urgent delivery."
+    ]
+  },
+  {
+    "id": "labour-postpartum",
+    "name": "Labour and the postpartum period",
+    "discipline": "womens-health",
+    "summary": "Normal and abnormal labour, induction, fetal monitoring, perineal care, breastfeeding and postnatal mental health.",
+    "highYield": [
+      "Stages of labour: first (to full dilatation), second (to birth of the baby), third (to delivery of the placenta); active management of the third stage uses oxytocin.",
+      "Bishop score assesses cervical favourability before induction.",
+      "CTG interpretation follows the RANZCOG intrapartum fetal surveillance guideline (baseline, variability, accelerations, decelerations).",
+      "Third and fourth degree perineal tears (involving the anal sphincter) need repair in theatre and follow-up.",
+      "Postnatal depression: screen with the Edinburgh Postnatal Depression Scale (EPDS); any positive answer to the self-harm item needs same-day assessment.",
+      "Postpartum psychosis usually starts in the first 2 weeks and is a psychiatric emergency.",
+      "Exclusive breastfeeding is recommended to around 6 months; most drugs are compatible, check before stopping breastfeeding.",
+      "Postpartum contraception: progestogen-only methods are safe while breastfeeding; avoid combined pill in the first 6 weeks."
+    ]
+  },
+  {
+    "id": "gynaecology",
+    "name": "Gynaecology",
+    "discipline": "womens-health",
+    "summary": "Abnormal uterine bleeding, pelvic pain, endometriosis, PCOS, fibroids, menopause and pelvic floor disorders.",
+    "highYield": [
+      "Abnormal uterine bleeding: always do a pregnancy test; classify with PALM-COEIN; check FBC and ferritin.",
+      "Heavy menstrual bleeding: the levonorgestrel IUD is highly effective; tranexamic acid and NSAIDs during periods.",
+      "Ovarian torsion: sudden unilateral pain with vomiting and adnexal mass; urgent laparoscopy to save the ovary.",
+      "Endometriosis: cyclical pain, dysmenorrhoea, dyspareunia, infertility; average diagnostic delay is years; laparoscopy is the definitive diagnosis.",
+      "PCOS (Rotterdam criteria, 2 of 3): oligo/anovulation, hyperandrogenism, polycystic ovaries; manage weight, cycle control and metabolic risk.",
+      "Menopausal hormone therapy is the most effective treatment for vasomotor symptoms; women with a uterus need a progestogen.",
+      "Postmenopausal bleeding needs transvaginal ultrasound and endometrial sampling if the endometrium is thickened (over 4 mm).",
+      "PID: treat empirically on clinical suspicion (ceftriaxone plus doxycycline plus metronidazole)."
+    ],
+    "ausContext": "Australia has a National Action Plan for Endometriosis, and awareness is high. The international evidence-based PCOS guideline is led from Australia (Monash University)."
+  },
+  {
+    "id": "contraception-fertility",
+    "name": "Contraception, abortion and fertility",
+    "discipline": "womens-health",
+    "summary": "Choosing contraception, emergency contraception, medical abortion and initial infertility work-up. Consent and confidentiality for young people are often tested.",
+    "highYield": [
+      "LARCs (implant, hormonal IUD, copper IUD) are the most effective reversible methods and are recommended first line.",
+      "The etonogestrel implant lasts 3 years; the copper IUD is also the most effective emergency contraceptive if inserted within 5 days.",
+      "Oral emergency contraception: levonorgestrel 1.5 mg (best within 72 hours) or ulipristal 30 mg (up to 120 hours), both available from pharmacies without a prescription.",
+      "Australia uses the UK Medical Eligibility Criteria (UKMEC) for contraceptive safety; e.g. migraine with aura is an absolute contraindication to combined hormonal contraception.",
+      "Enzyme-inducing drugs (e.g. carbamazepine, rifampicin) reduce the effectiveness of the pill and implant.",
+      "Medical abortion (mifepristone then misoprostol) is available up to 63 days gestation through trained prescribers and pharmacists.",
+      "Infertility: investigate after 12 months of trying (6 months if the woman is 35 or older); assess both partners, including semen analysis."
+    ],
+    "ausContext": "Abortion is legal and regulated by state or territory law throughout Australia, not by the Medical Termination of Pregnancy Act as in India. Doctors may conscientiously object but in most jurisdictions must refer the patient on. Young people can consent to contraception if they are Gillick competent."
+  },
+  {
+    "id": "sexual-health",
+    "name": "Sexual health",
+    "discipline": "womens-health",
+    "summary": "Sexually transmissible infections, HIV prevention, contact tracing and sexual history taking. Syphilis in Australia is a current public health priority.",
+    "highYield": [
+      "Chlamydia is the most commonly notified STI; first line is doxycycline 100 mg twice daily for 7 days (azithromycin in pregnancy).",
+      "Gonorrhoea: ceftriaxone 500 mg IM plus azithromycin 1 g orally; take a culture first for resistance testing.",
+      "Syphilis: benzathine benzylpenicillin 2.4 million units IM; test all pregnant women and people at risk.",
+      "HIV PrEP and PEP: PEP must start within 72 hours; PrEP is PBS-subsidised for people at risk.",
+      "Partner notification (contact tracing) is part of management; anonymous tools like 'Let Them Know' help.",
+      "Take a non-judgemental sexual history: partners, practices, protection, past STIs and pregnancy intention.",
+      "STIs such as chlamydia, gonorrhoea, syphilis and HIV are notifiable."
+    ],
+    "ausContext": "An ongoing infectious syphilis outbreak has affected young Aboriginal and Torres Strait Islander people in northern and central Australia since 2011, with cases of congenital syphilis, so a low threshold for testing is expected. Management follows the Australian STI Management Guidelines (ASHM). Sexual health clinics are free and do not need a Medicare card."
+  },
+  {
+    "id": "gynae-oncology",
+    "name": "Gynaecological oncology",
+    "discipline": "womens-health",
+    "summary": "Cervical, endometrial, ovarian and vulval cancers, and the cervical screening program. The screening pathway is very testable.",
+    "highYield": [
+      "Cervical screening: HPV test every 5 years for women and people with a cervix aged 25-74, replacing 2-yearly Pap smears since December 2017.",
+      "Self-collected vaginal HPV samples are available to everyone eligible since July 2022 and are as accurate as clinician-collected.",
+      "HPV 16/18 detected: refer directly for colposcopy; other oncogenic HPV types: reflex liquid-based cytology triages the next step.",
+      "Symptomatic women (post-coital or intermenstrual bleeding) need a diagnostic co-test and examination, not a screening test.",
+      "Endometrial cancer typically presents with postmenopausal bleeding; risk factors are obesity, unopposed oestrogen, tamoxifen and Lynch syndrome.",
+      "Ovarian cancer has no effective screening test; persistent bloating, early satiety or pelvic pain warrants CA-125 and transvaginal ultrasound.",
+      "Vulval itch or lesions that do not settle in older women need biopsy (lichen sclerosus and vulval cancer)."
+    ],
+    "ausContext": "Australia aims to eliminate cervical cancer as a public health problem by 2035, thanks to the school HPV vaccination program and HPV-based screening. Indian candidates used to opportunistic Pap or VIA screening should learn the Australian HPV-first pathway."
+  },
+  {
+    "id": "neonatology",
+    "name": "Neonatology",
+    "discipline": "child-health",
+    "summary": "The newborn: resuscitation, routine checks, jaundice, feeding, sepsis and safe sleep.",
+    "highYield": [
+      "Neonatal resuscitation (ANZCOR): effective ventilation is the priority; start chest compressions if heart rate stays below 60 despite adequate ventilation.",
+      "Jaundice in the first 24 hours is always pathological (haemolysis, sepsis); use gestation-specific phototherapy charts.",
+      "All newborns are offered IM vitamin K and hepatitis B vaccine at birth (ideally within 24 hours, must be within 7 days).",
+      "Newborn bloodspot screening (heel prick) at 48-72 hours screens for conditions including congenital hypothyroidism, PKU and cystic fibrosis.",
+      "Universal newborn hearing screening is offered before discharge.",
+      "Early-onset neonatal sepsis: benzylpenicillin plus gentamicin; GBS is a major cause.",
+      "Safe sleep (Red Nose): on the back, face and head uncovered, smoke-free, safe cot, in the parents' room for the first 6-12 months.",
+      "Hypoglycaemia risk groups: infants of diabetic mothers, preterm, small or large for dates."
+    ]
+  },
+  {
+    "id": "growth-development",
+    "name": "Growth, development and nutrition",
+    "discipline": "child-health",
+    "summary": "Developmental milestones, growth monitoring, feeding and nutrition, and early identification of developmental problems.",
+    "highYield": [
+      "Key milestones: social smile by 6-8 weeks, sits without support by about 9 months, walks by 12-15 months, 2-word phrases by 2 years.",
+      "Red flags: not walking by 18 months, no words by 16-18 months, any loss of previously acquired skills (regression).",
+      "Autism early signs: poor eye contact, not responding to name, no pointing or pretend play; refer early.",
+      "Growth charts: WHO charts from birth to 2 years; CDC charts are commonly used from 2 years.",
+      "Faltering growth: plot serial measurements; most causes are inadequate intake, but look for organic causes and neglect.",
+      "Introduce solids around 6 months (not before 4 months), including common allergens such as peanut and egg in the first year.",
+      "Iron deficiency in toddlers is often due to excess cow's milk (over about 500 mL/day)."
+    ],
+    "ausContext": "Every child has a state-issued personal health record (e.g. the 'Blue Book' in NSW) used by parents, maternal and child health nurses and GPs. Australia has one of the highest rates of childhood food allergy in the world, which is why early allergen introduction is recommended (ASCIA)."
+  },
+  {
+    "id": "paediatric-infections",
+    "name": "Paediatric infections",
+    "discipline": "child-health",
+    "summary": "Fever in children, respiratory infections, rashes, gastroenteritis and serious bacterial infection.",
+    "highYield": [
+      "Febrile infant under 3 months: low threshold for full septic work-up (blood, urine and often CSF) and IV antibiotics.",
+      "Bronchiolitis: supportive care (oxygen if SpO2 below 90-92%, feeding support); salbutamol, steroids and antibiotics do not help.",
+      "Croup: oral dexamethasone (0.15 mg/kg) or prednisolone for all severities; nebulised adrenaline for severe stridor at rest.",
+      "Kawasaki disease: fever 5 days or more plus 4 of 5 features (conjunctivitis, oral changes, rash, extremity changes, cervical lymphadenopathy); IVIG and aspirin to prevent coronary aneurysms.",
+      "Meningococcal disease: non-blanching rash in an unwell child, give IV/IM benzylpenicillin or ceftriaxone immediately.",
+      "Gastroenteritis: oral rehydration first; a single dose of ondansetron can help children tolerate fluids.",
+      "UTI in children: always collect a proper urine sample (clean catch, catheter or suprapubic aspirate) before antibiotics.",
+      "Measles: fever, cough, coryza, conjunctivitis then rash; highly infectious and notifiable."
+    ],
+    "ausContext": "Group A streptococcal skin and throat infections and scabies are common in remote Aboriginal communities and lead to acute rheumatic fever and post-streptococcal glomerulonephritis. Treating skin sores (often with co-trimoxazole or benzathine penicillin) is prevention, not just skin care."
+  },
+  {
+    "id": "paediatric-emergencies",
+    "name": "Paediatric emergencies",
+    "discipline": "child-health",
+    "summary": "The seriously ill child: resuscitation, airway problems, seizures, anaphylaxis, poisoning and injuries.",
+    "highYield": [
+      "Paediatric anaphylaxis: IM adrenaline 0.01 mg/kg; autoinjector 150 ug for children 7.5-20 kg and 300 ug for over 20 kg.",
+      "Status epilepticus: midazolam (buccal or intranasal 0.3 mg/kg, or IM) first line, then a second-line agent if still seizing.",
+      "Button battery ingestion is a time-critical emergency: urgent X-ray and removal from the oesophagus within 2 hours.",
+      "Paediatric DKA: slower fluid replacement than adults and watch for cerebral oedema (headache, bradycardia, falling GCS).",
+      "Intussusception: episodic inconsolable crying, drawing up of legs, 'redcurrant jelly' stool; ultrasound and air enema.",
+      "Foreign body aspiration: sudden choking then unilateral wheeze; bronchoscopy.",
+      "Dehydration signs: prolonged capillary refill, reduced skin turgor and abnormal breathing are the most useful.",
+      "Always consider non-accidental injury when the history does not match the injury."
+    ],
+    "ausContext": "Drowning is a leading cause of death in Australian toddlers, which is why pool fencing is law and supervision is emphasised. Childhood poisoning calls go to the Poisons Information Centre on 13 11 26."
+  },
+  {
+    "id": "immunisation",
+    "name": "Immunisation",
+    "discipline": "child-health",
+    "summary": "The National Immunisation Program (NIP) schedule, catch-up vaccination, contraindications and vaccine safety.",
+    "highYield": [
+      "Birth: hepatitis B. At 2, 4 and 6 months: combination DTPa-hepB-IPV-Hib vaccine and pneumococcal conjugate vaccine; rotavirus at 2 and 4 months.",
+      "Rotavirus vaccine has strict upper age limits for each dose; missed doses cannot be caught up beyond them.",
+      "12 months: MMR, meningococcal ACWY and pneumococcal. 18 months: MMRV, DTPa and Hib. 4 years: DTPa-IPV.",
+      "School program: HPV (single dose) and dTpa in Year 7, meningococcal ACWY in Year 10.",
+      "Annual influenza vaccine is funded for children 6 months to under 5 years.",
+      "Live vaccines (MMR, varicella, rotavirus) are contraindicated in significant immunosuppression and pregnancy.",
+      "All vaccines given are recorded on the Australian Immunisation Register (AIR).",
+      "Catch-up schedules for migrant children are calculated with the Australian Immunisation Handbook or the National Immunisation Catch-up Calculator."
+    ],
+    "ausContext": "BCG is not part of the routine Australian schedule (unlike India); it is reserved for specific high-risk groups such as some Aboriginal newborns and children travelling to high-TB countries. Families receive government payments and childcare access only if children are up to date ('No Jab, No Pay'), and several states have 'No Jab, No Play' rules. Aboriginal and Torres Strait Islander children receive some extra funded vaccines (e.g. meningococcal B)."
+  },
+  {
+    "id": "paediatric-chronic",
+    "name": "Chronic paediatric conditions",
+    "discipline": "child-health",
+    "summary": "Asthma, diabetes, epilepsy, cystic fibrosis, ADHD, obesity, food allergy and rheumatic heart disease in children.",
+    "highYield": [
+      "Childhood asthma: preventer when symptoms are frequent, a written asthma action plan, and a spacer with puffers (not nebulisers) for most.",
+      "Type 1 diabetes often presents with DKA; new polyuria, polydipsia or weight loss in a child needs same-day glucose testing.",
+      "Cystic fibrosis is found through newborn screening; confirm with a sweat chloride test.",
+      "ADHD: diagnosis needs symptoms in more than one setting before age 12; stimulant medicines are S8 and usually initiated by a paediatrician or psychiatrist.",
+      "Food allergy: an ASCIA action plan and adrenaline autoinjector for those at risk of anaphylaxis.",
+      "Acute rheumatic fever: Jones criteria (with lower thresholds in high-risk groups); needs long-term benzathine penicillin.",
+      "Childhood obesity: family-based lifestyle change; screen for complications (sleep apnoea, fatty liver, insulin resistance)."
+    ],
+    "ausContext": "Stimulant prescribing for ADHD is regulated by each state, often requiring specialist initiation or authority. CFTR modulator therapy for cystic fibrosis is PBS-subsidised for eligible patients."
+  },
+  {
+    "id": "child-protection",
+    "name": "Child protection",
+    "discipline": "child-health",
+    "summary": "Recognising and responding to child abuse and neglect, and the doctor's legal duty to report.",
+    "highYield": [
+      "Doctors are mandatory reporters in every Australian state and territory: a reasonable belief or suspicion of abuse must be reported to the state child protection agency.",
+      "You do not need proof; reporting in good faith is legally protected.",
+      "Red flags: injury inconsistent with history or development, delay in seeking care, changing stories, bruises in non-mobile infants.",
+      "TEN-4-FACESp: bruising to the torso, ears or neck in under-4s, or any bruising in infants under 4 months, is concerning.",
+      "Suspected physical abuse in young children: skeletal survey and further investigations under paediatric care.",
+      "The child's safety comes first; you can report without the parents' consent, and sometimes should not warn them.",
+      "Family violence exposure is a form of harm to children.",
+      "Female genital mutilation is a crime in all Australian states and territories."
+    ],
+    "ausContext": "Reporting thresholds and the categories that must be reported differ between states (NSW, for example, uses a 'Mandatory Reporter Guide'), so the AMC expects you to know the principle. Cultural sensitivity matters because of the history of the Stolen Generations, but it never overrides a child's safety."
+  },
+  {
+    "id": "mood-disorders",
+    "name": "Mood disorders",
+    "discipline": "mental-health",
+    "summary": "Depression, bipolar disorder and suicide risk. The AMC tests diagnosis, treatment choice and risk assessment.",
+    "highYield": [
+      "Major depression: 5 or more DSM-5 symptoms for at least 2 weeks, including low mood or loss of interest.",
+      "Always ask about suicidal thoughts directly; asking does not increase risk.",
+      "First line for moderate depression: psychological therapy (CBT) and/or an SSRI such as sertraline or escitalopram; review within 1-2 weeks, especially under 25s.",
+      "Antidepressants take 2-6 weeks to work; continue for at least 6-12 months after remission.",
+      "Screen for bipolar disorder before starting an antidepressant; mania can be triggered.",
+      "Bipolar maintenance: lithium is the gold standard; typical maintenance level 0.6-0.8 mmol/L; monitor renal and thyroid function.",
+      "Lithium toxicity: coarse tremor, vomiting, confusion, ataxia; triggered by dehydration, NSAIDs, ACE inhibitors and diuretics.",
+      "Serotonin syndrome: clonus, hyperreflexia, agitation, hyperthermia after serotonergic drug combinations."
+    ],
+    "ausContext": "A GP can make a Mental Health Treatment Plan giving Medicare-subsidised sessions with a psychologist (Better Access). Young people aged 12-25 can use free headspace centres. Crisis lines include Lifeline 13 11 14. Depression screening tools commonly used in Australia include the K10 and PHQ-9."
+  },
+  {
+    "id": "psychosis",
+    "name": "Psychosis and schizophrenia",
+    "discipline": "mental-health",
+    "summary": "Schizophrenia, first-episode psychosis, drug-induced psychosis and antipsychotic treatment.",
+    "highYield": [
+      "Schizophrenia: positive symptoms (delusions, hallucinations, disorganisation) and negative symptoms for at least 6 months (DSM-5).",
+      "First-episode psychosis: exclude organic causes and drugs (methamphetamine, cannabis); refer to an early psychosis service.",
+      "Second-generation antipsychotics are first line, starting low; long-acting injectables help with adherence.",
+      "Metabolic monitoring (weight, waist, glucose, lipids, BP) is essential on antipsychotics.",
+      "Clozapine for treatment-resistant schizophrenia (failed 2 adequate antipsychotic trials); weekly FBC for the first 18 weeks for neutropenia, and watch for myocarditis.",
+      "Neuroleptic malignant syndrome: rigidity, hyperthermia, autonomic instability, high CK; stop the antipsychotic.",
+      "Many patients are treated in the community under community treatment orders."
+    ],
+    "ausContext": "Methamphetamine ('ice') is a major cause of acute psychosis presentations in Australian emergency departments. People with severe mental illness die years earlier, largely from cardiovascular disease, so physical health monitoring is a strong theme."
+  },
+  {
+    "id": "anxiety-disorders",
+    "name": "Anxiety and related disorders",
+    "discipline": "mental-health",
+    "summary": "Generalised anxiety, panic disorder, social anxiety, PTSD and OCD.",
+    "highYield": [
+      "CBT is first line for most anxiety disorders; SSRIs are the first-line medication.",
+      "Avoid long-term benzodiazepines because of dependence and falls.",
+      "Panic attacks: exclude medical causes (thyroid, arrhythmia, hypoglycaemia, substances) before labelling.",
+      "PTSD: trauma-focused psychological therapy (trauma-focused CBT, EMDR) is first line.",
+      "OCD: exposure and response prevention, with SSRIs often at higher doses.",
+      "Screen for co-existing depression, alcohol and substance use."
+    ],
+    "ausContext": "Australia has well-established free or low-cost online CBT programs (for example MindSpot and THIS WAY UP) and the government Head to Health service, which GPs routinely recommend."
+  },
+  {
+    "id": "substance-use",
+    "name": "Substance use disorders",
+    "discipline": "mental-health",
+    "summary": "Alcohol, tobacco, vaping, opioids, methamphetamine and cannabis, including withdrawal and harm reduction.",
+    "highYield": [
+      "NHMRC alcohol guidelines: no more than 10 standard drinks a week and no more than 4 on any one day; a standard drink is 10 g of alcohol.",
+      "Screen with AUDIT or AUDIT-C; use brief interventions in primary care.",
+      "Alcohol withdrawal: monitor with a withdrawal scale; diazepam for symptoms; give thiamine before glucose to prevent Wernicke encephalopathy.",
+      "Wernicke's triad: confusion, ataxia, ophthalmoplegia (often incomplete); treat with high-dose IV thiamine.",
+      "Opioid dependence: opioid agonist treatment with methadone or buprenorphine (including long-acting injectable buprenorphine).",
+      "Take-home naloxone is free without a prescription for anyone at risk of or likely to witness an overdose.",
+      "Smoking cessation: combination NRT or varenicline plus behavioural support (Quitline 13 7848)."
+    ],
+    "ausContext": "Nicotine vapes are regulated as medicines in Australia and are only legally sold through pharmacies; recreational vaping products are banned. Harm reduction (needle and syringe programs, supervised injecting facilities in Sydney and Melbourne) is mainstream health policy."
+  },
+  {
+    "id": "child-adolescent-psych",
+    "name": "Child and adolescent mental health",
+    "discipline": "mental-health",
+    "summary": "Adolescent mental health, self-harm, eating disorders, ADHD and autism, and confidentiality with young people.",
+    "highYield": [
+      "Use the HEEADSSS framework (Home, Education/employment, Eating, Activities, Drugs, Sexuality, Suicide/depression, Safety) for adolescent psychosocial assessment.",
+      "Offer the young person time alone and explain the limits of confidentiality (serious risk of harm).",
+      "Anorexia nervosa: assess medical instability (bradycardia, hypotension, hypothermia, electrolyte disturbance) and refeeding risk; admit if unstable.",
+      "Family-based treatment is first line for adolescent anorexia.",
+      "Self-harm is common; every presentation needs risk and needs assessment and a follow-up plan.",
+      "ADHD and autism frequently co-exist and are associated with anxiety."
+    ],
+    "ausContext": "headspace centres offer free youth mental health care for 12-25 year olds. Medicare-subsidised eating disorder treatment plans provide extended psychological and dietetic sessions. Young people can have their own Medicare card from age 15."
+  },
+  {
+    "id": "psych-emergencies",
+    "name": "Psychiatric emergencies",
+    "discipline": "mental-health",
+    "summary": "Acute agitation, suicide risk, and serious drug-related complications in psychiatry.",
+    "highYield": [
+      "Acute agitation: try verbal de-escalation first; oral sedation before IM; exclude delirium, hypoglycaemia, hypoxia and intoxication.",
+      "Suicide risk: ask about plans, means, intent, previous attempts and protective factors; focus on a safety plan and the person's needs.",
+      "Reduce access to means (e.g. firearms, stockpiled medications) and involve family or carers where possible.",
+      "Neuroleptic malignant syndrome, serotonin syndrome and lithium toxicity are medical emergencies.",
+      "Delirium can look like psychosis; always look for a medical cause in new confusion.",
+      "People can be detained involuntarily under the state Mental Health Act if criteria are met."
+    ],
+    "ausContext": "Australian practice is moving away from categorising patients as 'low/medium/high risk' toward individualised safety planning. Police and ambulance officers have powers under state Mental Health Acts to bring a person for assessment."
+  },
+  {
+    "id": "mental-health-law",
+    "name": "Mental health law",
+    "discipline": "mental-health",
+    "summary": "Involuntary assessment and treatment, community treatment orders and patients' rights under Australian state and territory law.",
+    "highYield": [
+      "Each state and territory has its own Mental Health Act (e.g. NSW Mental Health Act 2007, Victoria's Mental Health and Wellbeing Act 2022).",
+      "Common criteria for involuntary treatment: a mental illness, a risk of serious harm to self or others, and no less restrictive option available.",
+      "Involuntary patients must be reviewed by an independent tribunal (e.g. Mental Health Review Tribunal) within set timeframes.",
+      "Community treatment orders allow compulsory treatment while living in the community.",
+      "A Mental Health Act is different from guardianship law, which covers people without capacity for other health or personal decisions.",
+      "Patients have the right to information, to a nominated person or carer, and to legal representation.",
+      "ECT for involuntary patients or those without capacity needs tribunal approval."
+    ],
+    "ausContext": "India's Mental Healthcare Act 2017 is national; Australia's laws are state-based, so terminology and timeframes differ. For the AMC, know the principles (criteria, least restrictive option, independent review) rather than one state's section numbers."
+  },
+  {
+    "id": "old-age-psych",
+    "name": "Old age psychiatry",
+    "discipline": "mental-health",
+    "summary": "Dementia, delirium, late-life depression and behavioural and psychological symptoms of dementia (BPSD).",
+    "highYield": [
+      "Distinguish delirium (acute, fluctuating attention) from dementia (gradual, memory first) and depression (pseudodementia).",
+      "Cognitive screening: MMSE or MoCA; RUDAS is designed for culturally and linguistically diverse patients; KICA is for Aboriginal patients in remote areas.",
+      "Exclude reversible causes: B12, folate, thyroid, calcium, glucose, syphilis/HIV where relevant, neuroimaging.",
+      "BPSD: look for pain, constipation, infection and environmental triggers first; use non-drug approaches before medication.",
+      "Antipsychotics in dementia increase stroke and death risk; if used, short-term and reviewed.",
+      "Donepezil, rivastigmine and galantamine help some people with Alzheimer's disease.",
+      "Plan early: enduring power of attorney, guardianship and advance care directive while the person has capacity."
+    ],
+    "ausContext": "Risperidone is the only antipsychotic PBS-subsidised for BPSD, limited to 12 weeks for severe symptoms in Alzheimer's dementia. Use of chemical and physical restraint in residential aged care is regulated as a 'restrictive practice' and needs consent and documentation."
+  },
+  {
+    "id": "ethics-law",
+    "name": "Ethics and medical law",
+    "discipline": "population-health",
+    "summary": "Consent, capacity, confidentiality, professional duties and end-of-life law in Australia. Ethics stations are in every AMC clinical exam.",
+    "highYield": [
+      "Valid consent needs capacity, voluntariness, adequate information and must be specific to the procedure.",
+      "Rogers v Whitaker (1992): doctors must disclose material risks that a reasonable person, or this patient, would consider significant.",
+      "Capacity is decision-specific: can the patient understand, retain, weigh up and communicate a choice? Adults are presumed to have capacity.",
+      "A competent adult can refuse any treatment, even life-saving treatment.",
+      "Mature minors can consent if they are Gillick competent; some procedures (e.g. sterilisation) need court approval (Marion's case).",
+      "Confidentiality exceptions: patient consent, legal requirement (mandatory reporting, notifiable diseases, court order), and serious threat to someone's life, health or safety.",
+      "Mandatory notification to AHPRA of practitioners who practise while intoxicated, engage in sexual misconduct, place the public at risk through impairment, or depart significantly from accepted standards.",
+      "Open disclosure after adverse events: acknowledge, apologise ('I am sorry'), explain, and describe what will be done."
+    ],
+    "ausContext": "Voluntary assisted dying is legal under state legislation in every state (with eligibility and waiting rules), unlike in India. Medical practice is regulated nationally by AHPRA and the Medical Board of Australia under 'Good medical practice: a code of conduct for doctors in Australia'."
+  },
+  {
+    "id": "epidemiology-biostats",
+    "name": "Epidemiology and biostatistics",
+    "discipline": "population-health",
+    "summary": "Study design, measures of risk, test accuracy and critical appraisal, plus key Australian health statistics.",
+    "highYield": [
+      "Sensitivity = TP/(TP+FN); specificity = TN/(TN+FP); PPV and NPV depend on prevalence.",
+      "Likelihood ratio positive = sensitivity/(1 - specificity).",
+      "NNT = 1 / absolute risk reduction.",
+      "Relative risk comes from cohort studies and RCTs; odds ratios from case-control studies.",
+      "Screening biases: lead-time bias, length-time bias and overdiagnosis.",
+      "Confounding is controlled by randomisation, restriction, matching or statistical adjustment.",
+      "Coronary heart disease and dementia are the two leading causes of death in Australia; dementia is the leading cause of death in women."
+    ],
+    "ausContext": "Australian health data comes mainly from the Australian Institute of Health and Welfare (AIHW) and the Australian Bureau of Statistics (ABS). Unlike India, the major burden of disease is chronic non-communicable disease and ageing rather than infection, and the largest health gap is between Aboriginal and Torres Strait Islander people and other Australians."
+  },
+  {
+    "id": "screening-prevention",
+    "name": "Screening and prevention",
+    "discipline": "population-health",
+    "summary": "Principles of screening, the national cancer screening programs and preventive care in general practice.",
+    "highYield": [
+      "Wilson and Jungner criteria: important problem, recognisable early stage, acceptable test, effective treatment, cost-effective.",
+      "Bowel: free iFOBT kit every 2 years for ages 50-74, and 45-49 on request.",
+      "Breast: free mammogram every 2 years, targeted at women 50-74 (40 and over eligible).",
+      "Cervical: HPV test every 5 years for ages 25-74, with self-collection an option.",
+      "Lung: low-dose CT every 2 years for people 50-70 with at least 30 pack-years who smoke or quit within the past 10 years (started July 2025).",
+      "Cardiovascular: absolute CVD risk assessment from age 45 (from 30 for First Nations people).",
+      "The RACGP 'Red Book' (Guidelines for preventive activities in general practice) is the reference for what to screen and when."
+    ],
+    "ausContext": "Australia runs organised, population-based screening programs with invitations and registers (e.g. the National Cancer Screening Register), rather than the opportunistic screening typical in India. First Nations people often start some screening earlier."
+  },
+  {
+    "id": "indigenous-health",
+    "name": "Aboriginal and Torres Strait Islander health",
+    "discipline": "population-health",
+    "summary": "The health of Australia's First Peoples, the causes of health inequity, and how doctors deliver culturally safe care.",
+    "highYield": [
+      "Aboriginal and Torres Strait Islander people make up about 3.8% of the population (2021 Census).",
+      "There is a life expectancy gap of around 8-9 years compared with non-Indigenous Australians.",
+      "Ask every patient whether they identify as Aboriginal and/or Torres Strait Islander; you cannot tell by appearance.",
+      "The annual Aboriginal and Torres Strait Islander health assessment (Medicare item 715) covers all ages.",
+      "Higher burden of diabetes, CKD, cardiovascular disease, rheumatic heart disease, otitis media, trachoma and smoking-related disease.",
+      "Aboriginal Community Controlled Health Services (ACCHSs) and Aboriginal Health Workers and Practitioners are central to care.",
+      "Social determinants, racism and the intergenerational trauma of colonisation and the Stolen Generations drive health outcomes.",
+      "Cultural safety is defined by the patient's experience, not by the doctor's intentions."
+    ],
+    "ausContext": "This area has no direct Indian equivalent and is heavily examined. Learn the history (colonisation, Stolen Generations), the Closing the Gap framework, and practical care: involve family and Aboriginal Health Workers, allow time, avoid jargon, and respect cultural business (e.g. Sorry Business, men's and women's business)."
+  },
+  {
+    "id": "notifiable-diseases",
+    "name": "Notifiable diseases and communicable disease control",
+    "discipline": "population-health",
+    "summary": "Which diseases doctors must report, how outbreaks are managed, and contact prophylaxis.",
+    "highYield": [
+      "Doctors and laboratories must notify the state or territory public health unit; data feeds the National Notifiable Diseases Surveillance System.",
+      "Urgent notification by phone on clinical suspicion for diseases such as measles, meningococcal disease, diphtheria and botulism.",
+      "Other examples: TB, HIV, syphilis, gonorrhoea, chlamydia, hepatitis A/B/C, pertussis, salmonellosis, legionellosis, Q fever, Ross River virus, COVID-19 and influenza (lab-confirmed).",
+      "Measles contacts: MMR within 72 hours or normal human immunoglobulin within 6 days of exposure.",
+      "Meningococcal contacts: clearance antibiotics (ciprofloxacin, rifampicin or ceftriaxone) for household and intimate contacts.",
+      "Exclusion rules for childcare and school (e.g. pertussis, measles, gastroenteritis) are set by public health guidance.",
+      "Two or more people with foodborne illness from a common source should be reported."
+    ],
+    "ausContext": "Notifiable lists and timeframes are set by each state or territory, but the core list is national. Consent is not needed to notify, but you should tell the patient."
+  },
+  {
+    "id": "australian-healthcare-system",
+    "name": "The Australian healthcare system",
+    "discipline": "population-health",
+    "summary": "How care is funded and organised in Australia: Medicare, the PBS, public and private hospitals, and the GP-centred primary care model.",
+    "highYield": [
+      "Medicare (since 1984) funds free public hospital care and subsidises out-of-hospital services listed on the Medicare Benefits Schedule (MBS).",
+      "Bulk billing means the doctor accepts the Medicare benefit as full payment; otherwise the patient pays a gap.",
+      "The Pharmaceutical Benefits Scheme (PBS) subsidises listed medicines with a capped co-payment and a safety net.",
+      "GPs are the gatekeepers: patients need a referral to claim Medicare rebates for specialist visits.",
+      "GP-to-specialist referrals are usually valid for 12 months (or indefinitely if stated); specialist-to-specialist referrals for 3 months.",
+      "Chronic disease plans let GPs coordinate care and give access to Medicare-subsidised allied health sessions.",
+      "Public hospitals are run by states and territories; private health insurance covers private hospital care and extras.",
+      "Other key schemes: NDIS (disability), My Aged Care, My Health Record and Medicare Urgent Care Clinics."
+    ],
+    "ausContext": "Unlike India's mix of out-of-pocket private care and government hospitals, Australia has universal public coverage. Specialists are rarely seen without a GP referral, and continuity of GP care is valued. Many overseas-trained doctors start in rural areas under Distribution Priority Area rules."
+  },
+  {
+    "id": "occupational-health",
+    "name": "Occupational and environmental health",
+    "discipline": "population-health",
+    "summary": "Work-related disease and injury, workers' compensation, and environmental hazards in Australia.",
+    "highYield": [
+      "Always take an occupational history: current and past jobs, exposures, protective equipment and similar illness in co-workers.",
+      "Workers' compensation schemes are state-based; the treating doctor completes a certificate of capacity focusing on what the worker can do.",
+      "Asbestos exposure causes mesothelioma, asbestosis and lung cancer, with latency of decades; Australia banned all asbestos in 2003.",
+      "Silicosis from engineered stone benchtops has surged among young workers; Australia banned engineered stone from July 2024.",
+      "Q fever and leptospirosis in abattoir, farm and animal workers.",
+      "Noise-induced hearing loss: high-frequency (4 kHz) notch on audiometry.",
+      "Heat-related illness is a growing risk for outdoor workers; fly-in fly-out (FIFO) workers have higher rates of mental health problems."
+    ],
+    "ausContext": "Commercial drivers must meet stricter Austroads medical standards than private drivers. Workplace health and safety is regulated by Safe Work Australia and state regulators. Coal workers' pneumoconiosis re-emerged in Queensland in 2015."
+  }
+]

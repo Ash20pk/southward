@@ -1,0 +1,741 @@
+[
+  {
+    "id": "ph-001",
+    "discipline": "population-health",
+    "topic": "ethics-law",
+    "difficulty": "foundation",
+    "stem": "A 78-year-old woman with mild Alzheimer dementia (MMSE 22/30) is admitted with lower-leg cellulitis. The team recommends IV antibiotics in hospital. She declines, asking for oral antibiotics and discharge home with daily GP review. When you talk with her, she explains in her own words that the infection could spread and she could become very unwell or die, repeats this back later in the conversation, says she accepts that risk because she 'hates hospitals' and wants to be home with her dog, and gives the same answer each time. Her daughter says her mother 'has dementia so can't decide anything'.\n\nWhich of the following is the most appropriate conclusion?",
+    "options": [
+      "Her dementia diagnosis means her daughter must make the decision",
+      "She has capacity for this decision and her choice should be respected",
+      "Her refusal cannot be accepted until a psychiatrist formally assesses capacity",
+      "Her refusal is valid only if her daughter agrees with it",
+      "An MMSE score below 24 indicates she lacks capacity to refuse treatment"
+    ],
+    "answer": 1,
+    "explanation": "**Capacity is decision-specific and presumed in adults.** It is not removed by a diagnosis (dementia, psychosis, intellectual disability) or by making a choice the doctor thinks is unwise.\n\nTo have capacity for a particular decision, the person must be able to:\n1. **Understand** the information (nature, risks, benefits, alternatives)\n2. **Retain** it long enough to decide\n3. **Use and weigh** it\n4. **Communicate** a choice\n\nThis woman does all four. Her reasons are rooted in her own values, and she has picked a reasonable alternative (oral antibiotics with follow-up). The discriminating clue is that she can explain the risk in her own words and applies it to herself.\n\nAny doctor can assess capacity; a psychiatrist is only needed when it is genuinely unclear. A screening score like the MMSE measures cognition in general, not capacity for one decision.\n\n**Rule:** *Diagnosis is not incapacity. Test the decision, not the disease.*",
+    "whyWrong": [
+      "A diagnosis alone never removes capacity; substitute decision-makers act only when the person lacks capacity for that decision.",
+      "",
+      "Any treating doctor can assess capacity; specialist review is for genuinely uncertain cases, not a precondition.",
+      "Relatives have no power to veto a decision made by an adult with capacity.",
+      "Cognitive screening scores do not determine capacity for a specific decision."
+    ],
+    "ausPearl": "Each state and territory has its own guardianship and substitute decision-maker legislation, but all start from the same presumption: an adult is presumed to have capacity unless shown otherwise.",
+    "tags": ["capacity", "consent", "dementia"]
+  },
+  {
+    "id": "ph-002",
+    "discipline": "population-health",
+    "topic": "ethics-law",
+    "difficulty": "core",
+    "stem": "A 15-year-old girl attends your general practice alone asking for the oral contraceptive pill. She has been in a consensual relationship with a 16-year-old boy from her school for 6 months. She asks you not to tell her parents. On discussion she clearly understands how the pill works, its risks and side effects, the need for condoms to prevent STIs, and the consequences of stopping it. There are no features suggesting coercion, exploitation or abuse.\n\nWhich of the following is the most appropriate management?",
+    "options": [
+      "Decline to prescribe until a parent gives consent",
+      "Inform her parents, because she is under 16",
+      "Make a report to child protection services because she is under the age of consent",
+      "Assess her maturity, encourage parental involvement, and prescribe if she is competent, keeping the consultation confidential",
+      "Refer her to a sexual health clinic because a GP cannot prescribe contraception to a minor"
+    ],
+    "answer": 3,
+    "explanation": "A minor can consent to their own treatment if they have **sufficient maturity and understanding** to grasp what is proposed. This is **Gillick competence** (the 'mature minor' principle), adopted in Australia by the High Court in *Marion's case* (1992).\n\nFor contraception, the approach is:\n- Assess her understanding and maturity for *this* decision\n- Encourage (but do not require) her to involve a parent\n- Screen for coercion, abuse or exploitation (for example a large age gap, a partner in a position of authority)\n- Offer STI testing and safe-sex advice\n\nIf she is competent, her confidentiality is owed to her just as it would be to an adult. Breaking it without good reason drives young people away from health care.\n\nThe discriminating clue: she is 15, her partner is of similar age, and there are no risk features. A report to child protection is driven by concern for harm, not by age alone.\n\n**Rule:** *Competence, not birthday, decides consent in a minor.*",
+    "whyWrong": [
+      "A competent minor does not need parental consent for contraception.",
+      "Confidentiality extends to competent minors; disclosure needs a real risk of serious harm.",
+      "Consensual activity between similar-aged teenagers without risk features is not, of itself, grounds for a report.",
+      "",
+      "GPs routinely and lawfully prescribe contraception to competent minors."
+    ],
+    "ausPearl": "Statute varies by state: NSW protects doctors treating patients aged 14 and over with their own consent (Minors (Property and Contracts) Act s49), and SA lets people 16 and over consent as adults. The age of consent is 16 in most jurisdictions but 17 in SA and Tasmania. Common-law Gillick competence applies everywhere.",
+    "tags": ["gillick", "consent", "confidentiality", "adolescent"]
+  },
+  {
+    "id": "ph-003",
+    "discipline": "population-health",
+    "topic": "ethics-law",
+    "difficulty": "core",
+    "stem": "A 42-year-old accountant was diagnosed with epilepsy after a second unprovoked generalised tonic-clonic seizure 2 weeks ago. You have advised him on two occasions that he must not drive and that he has a legal duty to tell the driver licensing authority. Today he tells you he will keep driving to work every day and has no intention of telling anyone. You have documented both discussions.\n\nWhich of the following is the most appropriate next step?",
+    "options": [
+      "Keep the information confidential, because disclosure without consent is unlawful",
+      "Inform his employer so they can stop him driving",
+      "Tell him you intend to notify the driver licensing authority, and then do so",
+      "Report him to the police",
+      "Document the advice again and take no further action"
+    ],
+    "answer": 2,
+    "explanation": "Confidentiality is a strong duty but **not absolute**. The Medical Board of Australia's *Good medical practice* code allows disclosure where it is required by law or where there is a **serious risk to the patient or others**.\n\nUnder *Assessing Fitness to Drive* (Austroads), the **driver** is responsible for notifying the licensing authority. The doctor's job is to assess, advise clearly and document. If a patient **continues to drive against advice** and poses a risk to the public, the doctor may notify the licensing authority directly.\n\nGood practice is to be open about it: tell the patient you intend to notify, and why. Disclose only what is necessary, to the body that can act on it (the licensing authority, not his employer or the police).\n\nThe discriminating clue: repeated advice has failed and he has said plainly he will keep driving. That shifts the balance to public safety.\n\n**Rule:** *Advise, document, and if they still drive, notify the licensing authority.*",
+    "whyWrong": [
+      "Confidentiality has recognised limits when there is serious risk to others, and disclosure to the licensing authority is legally protected.",
+      "The employer is not the body that controls licences and the disclosure would be broader than needed.",
+      "",
+      "Police are not the appropriate first body; the licensing authority assesses fitness to drive.",
+      "Doing nothing leaves a known, ongoing risk to the public."
+    ],
+    "ausPearl": "In most jurisdictions doctors have legal protection when they report in good faith, but in SA and the NT health professionals have a mandatory duty to report patients they believe are unfit to drive. Check the rules in the state where you practise.",
+    "tags": ["confidentiality", "driving", "epilepsy"]
+  },
+  {
+    "id": "ph-004",
+    "discipline": "population-health",
+    "topic": "ethics-law",
+    "difficulty": "core",
+    "stem": "You are a surgical intern. You realise that you prescribed a 67-year-old post-operative patient twice the intended dose of IV morphine. He became drowsy with a respiratory rate of 8/min, was given naloxone, and has now fully recovered with no lasting harm. He is alert and asks the nurse why 'everyone rushed in' earlier.\n\nWhich of the following is the most appropriate next step?",
+    "options": [
+      "Acknowledge the error to him, apologise, explain what happened and what is being done, and lodge an incident report",
+      "Tell him only if he asks you directly, as he has come to no lasting harm",
+      "Wait for the hospital legal team to advise before speaking to him",
+      "Explain the event without saying sorry, as an apology is an admission of liability",
+      "Inform his next of kin rather than the patient, to avoid distressing him"
+    ],
+    "answer": 0,
+    "explanation": "**Open disclosure** is the open discussion of adverse events with the patient. It is required by the *Australian Open Disclosure Framework* (Australian Commission on Safety and Quality in Health Care) and by *Good medical practice*.\n\nThe core elements:\n- **Acknowledge** that something went wrong, promptly\n- **Apologise** or express regret, including the word 'sorry'\n- **Explain** the facts as known, and the consequences\n- Describe what is being done to **prevent recurrence**\n- Give the patient a chance to ask questions and to have support\n\nAlongside this, report through the hospital incident system and tell your senior.\n\nThe discriminating clue: the patient is competent and asking. Harm being temporary does not remove the duty; open disclosure applies to any event that reached the patient.\n\n**Rule:** *Sorry is not a legal confession. Say it early, say it plainly.*",
+    "whyWrong": [
+      "",
+      "Disclosure is proactive; waiting to be asked is not open disclosure.",
+      "Legal advice is not a precondition for honest disclosure and delay damages trust.",
+      "All Australian jurisdictions have apology laws, so an expression of regret is not an admission of liability.",
+      "A competent patient is entitled to the information first; family is informed with his consent."
+    ],
+    "ausPearl": "Every state and territory has apology provisions in its civil liability legislation, although the exact wording differs.",
+    "tags": ["open disclosure", "medication error", "apology"]
+  },
+  {
+    "id": "ph-005",
+    "discipline": "population-health",
+    "topic": "ethics-law",
+    "difficulty": "exam",
+    "stem": "You are a surgical registrar. Before a morning operating list, you notice your consultant surgeon smells strongly of alcohol, has slurred speech and is unsteady. Nursing staff tell you this has happened several times before. You arrange with the anaesthetist and nurse unit manager for the list to be postponed. The consultant is not your patient.\n\nWhich of the following describes your professional obligation?",
+    "options": [
+      "Speak to him privately and report only if it happens again",
+      "Report to the hospital's director of medical services, which discharges your obligation",
+      "Suggest he contact a doctors' health advisory service instead of reporting",
+      "No external report is needed because the list was postponed and no patient was harmed",
+      "Make a mandatory notification to AHPRA"
+    ],
+    "answer": 4,
+    "explanation": "Under the **Health Practitioner Regulation National Law**, registered health practitioners must notify AHPRA if they form a reasonable belief that another practitioner has engaged in **notifiable conduct**:\n- Practising while **intoxicated** by alcohol or drugs\n- **Sexual misconduct** in connection with practice\n- Placing the public at **substantial risk of harm** because of an impairment\n- Placing the public at risk because of a **significant departure** from accepted professional standards\n\nA surgeon arriving to operate while intoxicated is exactly this. The duty exists even though harm was prevented, and even though you are junior.\n\nThe discriminating clue: you are his **colleague, not his treating doctor**. Treating practitioners have a higher threshold for reporting impairment (and in WA are exempt), which is designed to encourage doctors to seek care. That exemption does not help here.\n\nTelling the hospital and supporting him to get help are both appropriate, but they are in addition to, not instead of, the notification.\n\n**Rule:** *Intoxicated at work = notify AHPRA, whatever your seniority.*",
+    "whyWrong": [
+      "Notifiable conduct has already occurred; waiting for recurrence breaches the duty.",
+      "Internal reporting is appropriate but does not replace the statutory notification to AHPRA.",
+      "Supporting access to help is good, but it does not substitute for the notification.",
+      "The duty is triggered by the conduct itself, not by whether a patient was harmed.",
+      ""
+    ],
+    "ausPearl": "Treating practitioner rules differ: WA exempts treating practitioners from mandatory notification, and elsewhere a treating practitioner only needs to notify impairment if there is a substantial risk of harm to the public.",
+    "tags": ["ahpra", "mandatory reporting", "impairment"]
+  },
+  {
+    "id": "ph-006",
+    "discipline": "population-health",
+    "topic": "ethics-law",
+    "difficulty": "exam",
+    "stem": "An 81-year-old man with severe COPD is brought to the emergency department with hypercapnic respiratory failure. He is drowsy (GCS 10) and cannot take part in decisions. He has a valid advance care directive, completed 12 months ago with his GP while he had capacity, which states clearly that he refuses intubation and mechanical ventilation in any circumstances. He has not withdrawn it. His son arrives and demands that his father be intubated, saying 'I can't lose him'.\n\nWhich of the following is the most appropriate management?",
+    "options": [
+      "Intubate, because the son is next of kin and has now withdrawn consent to the directive",
+      "Intubate, because an emergency overrides any prior refusal",
+      "Intubate while seeking an urgent tribunal or court order",
+      "Respect the directive, do not intubate, and provide other appropriate treatment and symptom relief",
+      "Intubate for a 24-hour trial and then review against the directive"
+    ],
+    "answer": 3,
+    "explanation": "An **advance care directive (ACD)** lets a competent adult refuse treatment in advance. A valid refusal that clearly applies to the current situation is **legally binding**, both at common law and under state legislation. It must be followed even if family disagree, and even if the refusal will lead to death.\n\nCheck three things:\n1. It was made by a competent adult, voluntarily\n2. It is **clear and applicable** to this situation\n3. There is no evidence it has been **withdrawn** or that circumstances have changed so much that it no longer applies\n\nAll three are met. A refusal of treatment does not mean refusal of care: continue anything not refused (for example oxygen, medicines, possibly NIV if acceptable to him) and focus on comfort and dignity.\n\nThe discriminating clue: the refusal is specific ('intubation and ventilation in any circumstances'). Relatives cannot override a patient's own valid refusal. Support the son with empathy and senior involvement.\n\n**Rule:** *A clear, valid refusal in an ACD speaks for the patient. Family can't overrule it.*",
+    "whyWrong": [
+      "A family member cannot revoke a competent adult's own advance refusal.",
+      "The emergency exception applies when the patient's wishes are unknown, not when there is a valid applicable refusal.",
+      "A court order is not needed to follow a clear, valid directive, and intubating meanwhile breaches it.",
+      "",
+      "A 'trial' of refused treatment is still treatment given against a valid refusal."
+    ],
+    "ausPearl": "ACD legislation and forms differ between states and territories, but every jurisdiction recognises a valid, applicable advance refusal of treatment.",
+    "tags": ["advance care directive", "end of life", "consent"]
+  },
+  {
+    "id": "ph-007",
+    "discipline": "population-health",
+    "topic": "ethics-law",
+    "difficulty": "foundation",
+    "stem": "A 36-year-old GP has been seeing a 34-year-old man for a year for management of his asthma. At the end of a routine consultation, he says he has enjoyed getting to know her and asks her out to dinner.\n\nWhich of the following is the most appropriate response?",
+    "options": [
+      "Accept, provided they meet outside clinic hours",
+      "Accept, after transferring his care to a colleague",
+      "Politely decline, maintain the professional relationship, and document the conversation",
+      "End the doctor-patient relationship and refuse to see him again",
+      "Accept, because they are both consenting adults"
+    ],
+    "answer": 2,
+    "explanation": "The Medical Board of Australia's guidelines on **sexual boundaries** state that it is **never appropriate** for a doctor to engage in a sexual or romantic relationship with a **current patient**. The power imbalance and the trust involved mean that the patient's consent is not a defence.\n\nEnding the professional relationship **in order to** start a personal one does not make it acceptable. Relationships with former patients may also be inappropriate, depending on how long and how intimate the professional relationship was and how vulnerable the patient is.\n\nThe right response is kind and clear: decline, reassure him that his care will not be affected, and document the conversation. If the patient persists or the relationship can no longer stay professional, a transfer of care may then be appropriate.\n\nThe discriminating clue: he is a current, ongoing patient. The responsibility for keeping boundaries always lies with the doctor.\n\n**Rule:** *Current patient = no romance. The doctor holds the boundary.*",
+    "whyWrong": [
+      "Timing and setting do not change the fact that he is a current patient.",
+      "Ending care to start a relationship is itself a boundary violation.",
+      "",
+      "Refusing all further care is unnecessary and punitive; the boundary can be maintained.",
+      "Consent does not make a relationship with a current patient acceptable, because of the power imbalance."
+    ],
+    "tags": ["boundaries", "professionalism", "medical board"]
+  },
+  {
+    "id": "ph-008",
+    "discipline": "population-health",
+    "topic": "epidemiology-biostats",
+    "difficulty": "core",
+    "stem": "A new rapid point-of-care test for a condition has a sensitivity of 90% and a specificity of 80%. It is used in a community where the prevalence of the condition is 10%.\n\nA person from this community tests positive. What is the approximate probability that they actually have the condition?",
+    "options": [
+      "10%",
+      "33%",
+      "50%",
+      "80%",
+      "90%"
+    ],
+    "answer": 1,
+    "explanation": "The question asks for the **positive predictive value (PPV)**: of all positive tests, what fraction are true positives?\n\nThe easiest method is to imagine **1000 people** and build a 2x2 table.\n\n- Prevalence 10%: **100** have the condition, **900** do not\n- Sensitivity 90%: 0.9 x 100 = **90 true positives**, 10 false negatives\n- Specificity 80%: 0.8 x 900 = **720 true negatives**, so 900 - 720 = **180 false positives**\n\nTotal positives = 90 + 180 = 270\n\n**PPV = 90 / 270 = 33%**\n\n(For completeness, NPV = 720 / (720 + 10) = 98.6%.)\n\nThe discriminating clue: the low prevalence. Most of the population is disease-free, so even a modest false-positive rate produces more false positives than true positives.\n\n**Rule:** *Sensitivity and specificity belong to the test; PPV and NPV depend on who you test. Always build the 1000-person table.*",
+    "whyWrong": [
+      "10% is the prevalence (pre-test probability), not the post-test probability.",
+      "",
+      "50% has no basis in the calculation.",
+      "80% is the specificity, which is a property of the test, not the probability of disease.",
+      "90% is the sensitivity; it answers a different question (the chance of a positive test if you have the disease)."
+    ],
+    "tags": ["ppv", "sensitivity", "specificity", "calculation"]
+  },
+  {
+    "id": "ph-009",
+    "discipline": "population-health",
+    "topic": "epidemiology-biostats",
+    "difficulty": "foundation",
+    "stem": "In a randomised controlled trial, 10% of participants in the placebo group and 8% of participants in the treatment group had a myocardial infarction over 5 years.\n\nHow many people need to be treated for 5 years to prevent one myocardial infarction?",
+    "options": [
+      "2",
+      "5",
+      "20",
+      "50",
+      "100"
+    ],
+    "answer": 3,
+    "explanation": "The **number needed to treat (NNT)** is the number of people who must receive the treatment, for the stated time, for one extra person to benefit.\n\n**NNT = 1 / absolute risk reduction (ARR)**\n\nWorking:\n- Control event rate (CER) = 10% = 0.10\n- Experimental event rate (EER) = 8% = 0.08\n- **ARR** = CER - EER = 0.10 - 0.08 = **0.02** (2%)\n- **NNT** = 1 / 0.02 = **50**\n\nCompare with the **relative risk reduction (RRR)** = ARR / CER = 0.02 / 0.10 = **20%**. A drug marketed as 'reducing heart attacks by 20%' sounds impressive, but 50 people must take it for 5 years for one to benefit.\n\nThe discriminating clue: always subtract the two percentages first (absolute), then invert. Never invert the relative reduction.\n\n**Rule:** *NNT = 100 / ARR (in %). Always quote the time period.*",
+    "whyWrong": [
+      "2 is the ARR expressed as a percentage, not the NNT.",
+      "5 would be 1/0.20, which inverts the relative risk reduction by mistake.",
+      "20 is the RRR as a percentage, not the NNT.",
+      "",
+      "100 would need an ARR of 1%, not 2%."
+    ],
+    "tags": ["nnt", "absolute risk", "calculation"]
+  },
+  {
+    "id": "ph-010",
+    "discipline": "population-health",
+    "topic": "epidemiology-biostats",
+    "difficulty": "foundation",
+    "stem": "Researchers want to know whether exposure of parents to a particular agricultural pesticide is associated with a rare childhood cancer, which affects about 1 in 100 000 children per year. They have limited funding and want results within 2 years.\n\nWhich study design is most appropriate?",
+    "options": [
+      "Randomised controlled trial",
+      "Prospective cohort study",
+      "Cross-sectional survey",
+      "Ecological study",
+      "Case-control study"
+    ],
+    "answer": 4,
+    "explanation": "A **case-control study** starts with the **outcome**: it recruits people who have the disease (cases) and similar people who do not (controls), then looks back to compare how often each group was exposed. The measure of association is the **odds ratio**.\n\nIt is the design of choice when:\n- The disease is **rare**\n- There is a long gap between exposure and disease\n- Time and money are limited\n\nA **cohort study** starts with the **exposure** and follows people forward. With an incidence of 1 in 100 000, you would need to follow millions of children to see enough cases. Cohorts suit **rare exposures** and common outcomes.\n\nThe main weakness of case-control studies is **recall bias** (parents of sick children remember exposures more thoroughly), and they cannot directly measure incidence.\n\n**Rule:** *Rare disease → case-control. Rare exposure → cohort.*",
+    "whyWrong": [
+      "Randomising children or parents to a potentially harmful pesticide would be unethical.",
+      "A cohort would need an enormous sample and many years to accumulate enough cases of a rare disease.",
+      "A cross-sectional survey captures exposure and disease at one time point and cannot establish which came first; too few cases would be found.",
+      "Ecological studies compare populations, not individuals, and risk the ecological fallacy.",
+      ""
+    ],
+    "tags": ["study design", "case-control", "odds ratio"]
+  },
+  {
+    "id": "ph-011",
+    "discipline": "population-health",
+    "topic": "epidemiology-biostats",
+    "difficulty": "exam",
+    "stem": "A new blood test is used to screen for a cancer. People whose cancer was detected by screening have a median survival of 4 years from diagnosis, compared with 2 years for people diagnosed after symptoms appeared. However, the median age at death from the cancer is the same in both groups, and the cancer-specific mortality in the screened population has not changed.\n\nWhich of the following best explains the apparent survival benefit?",
+    "options": [
+      "Lead-time bias",
+      "Length-time bias",
+      "Healthy volunteer (selection) bias",
+      "Recall bias",
+      "Confounding by smoking status"
+    ],
+    "answer": 0,
+    "explanation": "**Lead-time bias** occurs when screening diagnoses a disease **earlier**, so 'survival from diagnosis' is longer, but the person **dies at the same time** they would have anyway. The clock simply started sooner.\n\nIn this case, survival from diagnosis doubled, but **age at death** and **disease-specific mortality** did not change. That is the fingerprint of lead time: the extra 'survival' is just extra time spent knowing you have the disease.\n\nRelated screening biases:\n- **Length-time bias:** screening picks up slow-growing, less aggressive tumours more often (they sit in the detectable phase longer), making screen-detected cases look better.\n- **Overdiagnosis:** detecting cancers that would never have caused harm.\n- **Healthy volunteer bias:** people who accept screening are healthier in general.\n\nThis is why screening programs are judged by **mortality in the whole population** (ideally in an RCT), not by survival after diagnosis.\n\n**Rule:** *Same death date, longer survival = lead-time bias.*",
+    "whyWrong": [
+      "",
+      "Length-time bias explains better outcomes because screening catches slower tumours, but it would not leave age at death identical.",
+      "Healthy volunteers would tend to show lower overall mortality, which was not seen here.",
+      "Recall bias affects retrospective reporting of exposures, mainly in case-control studies.",
+      "Nothing in the stem suggests a third variable linked to both exposure and outcome."
+    ],
+    "tags": ["bias", "screening", "lead-time"]
+  },
+  {
+    "id": "ph-012",
+    "discipline": "population-health",
+    "topic": "epidemiology-biostats",
+    "difficulty": "exam",
+    "stem": "A new test was evaluated in 200 patients, 50 of whom had the disease on the reference standard. The test was positive in 45 patients with the disease and in 15 patients without the disease.\n\nWhat is the positive likelihood ratio of the test?",
+    "options": [
+      "0.1",
+      "0.75",
+      "0.9",
+      "3.0",
+      "9.0"
+    ],
+    "answer": 4,
+    "explanation": "The **positive likelihood ratio (LR+)** tells you how much more likely a positive result is in someone **with** the disease than in someone **without** it.\n\n**LR+ = sensitivity / (1 - specificity)**\n\nBuild the 2x2 table:\n\n| | Disease (50) | No disease (150) |\n|---|---|---|\n| Test + | 45 (TP) | 15 (FP) |\n| Test - | 5 (FN) | 135 (TN) |\n\n- Sensitivity = 45 / 50 = **0.9**\n- Specificity = 135 / 150 = **0.9**\n- LR+ = 0.9 / (1 - 0.9) = 0.9 / 0.1 = **9**\n\n(LR- = (1 - 0.9) / 0.9 = 0.11. PPV = 45 / 60 = 0.75.)\n\nLikelihood ratios do not depend on prevalence, which is why they are useful at the bedside. As a rough guide, LR+ above 10 strongly rules in, and LR- below 0.1 strongly rules out.\n\n**Rule:** *LR+ = sens / (1 - spec). LR- = (1 - sens) / spec.*",
+    "whyWrong": [
+      "0.1 is 1 - specificity (the false-positive rate); LR- is about 0.11.",
+      "0.75 is the PPV (45/60), not a likelihood ratio.",
+      "0.9 is the sensitivity (and also the specificity) alone.",
+      "3.0 has no basis in the calculation; it may come from dividing 45 by 15.",
+      ""
+    ],
+    "tags": ["likelihood ratio", "calculation", "diagnostic test"]
+  },
+  {
+    "id": "ph-013",
+    "discipline": "population-health",
+    "topic": "epidemiology-biostats",
+    "difficulty": "core",
+    "stem": "A pharmaceutical advertisement states that a new anticoagulant 'halves your risk of stroke'. In the trial, 2% of participants on placebo and 1% of participants on the new drug had a stroke over 5 years. A patient asks you what this means for her.\n\nWhich of the following statements is correct?",
+    "options": [
+      "The absolute risk reduction is 50% and the number needed to treat is 2",
+      "The relative risk reduction is 50%, the absolute risk reduction is 1%, and the number needed to treat is 100",
+      "The relative risk reduction is 1%, the absolute risk reduction is 50%, and the number needed to treat is 100",
+      "The relative risk reduction is 50%, the absolute risk reduction is 1%, and the number needed to treat is 50",
+      "The relative risk is 2.0 and the number needed to treat is 100"
+    ],
+    "answer": 1,
+    "explanation": "**Relative** measures compare the two groups as a ratio; **absolute** measures describe the actual difference in risk. Patients understand, and decide better with, absolute numbers.\n\nWorking:\n- Relative risk (RR) = 1% / 2% = **0.5**\n- Relative risk reduction (RRR) = 1 - RR = **50%** (this is the 'halves your risk')\n- Absolute risk reduction (ARR) = 2% - 1% = **1%**\n- NNT = 1 / 0.01 = **100** over 5 years\n\nSo out of 100 people taking the drug for 5 years, about 1 avoids a stroke; 99 get no benefit (but carry any bleeding risk).\n\nThe discriminating clue: the same RRR of 50% could mean 40% down to 20% (ARR 20%, NNT 5) or 0.02% down to 0.01% (NNT 10 000). A relative figure alone is meaningless without the baseline risk.\n\n**Rule:** *Relative risk sells the drug; absolute risk informs the patient.*",
+    "whyWrong": [
+      "50% is the relative, not absolute, reduction; an NNT of 2 would need an ARR of 50%.",
+      "",
+      "This swaps the relative and absolute figures.",
+      "The RRR and ARR are right, but 1/0.01 is 100, not 50.",
+      "The relative risk is 0.5 (1% / 2%), not 2.0."
+    ],
+    "tags": ["relative risk", "absolute risk", "nnt", "risk communication"]
+  },
+  {
+    "id": "ph-014",
+    "discipline": "population-health",
+    "topic": "epidemiology-biostats",
+    "difficulty": "core",
+    "stem": "A blood test for coeliac disease was validated in a tertiary gastroenterology clinic where the prevalence of coeliac disease among those tested was 30%. It is now being used in general practice, where the prevalence among those tested is about 2%. Assume the test's sensitivity and specificity are the same in both settings.\n\nCompared with the tertiary clinic, how will the test perform in general practice?",
+    "options": [
+      "PPV will rise and NPV will fall",
+      "PPV and NPV will both rise",
+      "PPV will fall and NPV will rise",
+      "PPV and NPV will both fall",
+      "PPV and NPV will both be unchanged"
+    ],
+    "answer": 2,
+    "explanation": "**Predictive values depend on prevalence**; sensitivity and specificity do not (in theory).\n\nWhen prevalence **falls**:\n- There are far more healthy people tested, so **false positives** make up a bigger share of all positives. **PPV falls.**\n- Almost everyone who tests negative is truly healthy. **NPV rises.**\n\nQuick check with 1000 people, sensitivity and specificity both 90%:\n- Prevalence 30%: TP 270, FP 70, PPV = 270/340 = **79%**\n- Prevalence 2%: TP 18, FP 98, PPV = 18/116 = **16%**\n\nIn practice, sensitivity and specificity can also shift between settings (the **spectrum effect**), because tertiary patients often have more advanced disease. But the prevalence effect on predictive values is the principle examined here.\n\nThe discriminating clue: the move from a specialist clinic to general practice means lower pre-test probability.\n\n**Rule:** *Low prevalence: positives mislead, negatives reassure.*",
+    "whyWrong": [
+      "This is the pattern when prevalence rises, not falls.",
+      "PPV and NPV move in opposite directions as prevalence changes.",
+      "",
+      "PPV and NPV move in opposite directions as prevalence changes.",
+      "Predictive values change with prevalence even when sensitivity and specificity are fixed."
+    ],
+    "tags": ["ppv", "npv", "prevalence"]
+  },
+  {
+    "id": "ph-015",
+    "discipline": "population-health",
+    "topic": "screening-prevention",
+    "difficulty": "foundation",
+    "stem": "A 56-year-old man asks about screening for bowel cancer. He has no bowel symptoms, no personal history of polyps or inflammatory bowel disease, and no family history of bowel cancer. He has never been screened.\n\nWhich of the following is the most appropriate recommendation?",
+    "options": [
+      "Immunochemical faecal occult blood test (iFOBT) every 2 years through the National Bowel Cancer Screening Program",
+      "Colonoscopy every 5 years",
+      "Annual iFOBT",
+      "CT colonography every 5 years",
+      "No screening is needed until he turns 60"
+    ],
+    "answer": 0,
+    "explanation": "Australia's **National Bowel Cancer Screening Program (NBCSP)** posts a free **iFOBT** kit to eligible people aged **50 to 74 every 2 years**. The test is done at home and detects human haemoglobin in the stool.\n\nA **positive iFOBT** is followed by **colonoscopy**, ideally within 30 days.\n\nPeople at average risk (no symptoms, no significant family history) should use iFOBT, not colonoscopy. Colonoscopy carries risks (perforation, bleeding, sedation) and is reserved for:\n- A positive iFOBT\n- **Symptoms** such as rectal bleeding, change in bowel habit, or iron-deficiency anaemia (these need investigation, not screening)\n- Higher-risk family history categories\n\nThe discriminating clue: average risk and no symptoms. Screening is for well people.\n\n**Rule:** *Average risk, 50 to 74: poo test every 2 years. Symptoms: investigate, don't screen.*",
+    "whyWrong": [
+      "",
+      "Colonoscopy is for positive iFOBT, symptoms or increased familial risk, not average-risk screening.",
+      "The Australian program interval is 2 years, not annual.",
+      "CT colonography is not part of the Australian screening program.",
+      "Screening starts at 50 (and people aged 45 to 49 can request a kit)."
+    ],
+    "ausPearl": "Since July 2024, people aged 45 to 49 can request their first NBCSP kit, then receive one every 2 years. Kits are mailed automatically from age 50.",
+    "tags": ["bowel cancer", "ifobt", "nbcsp"]
+  },
+  {
+    "id": "ph-016",
+    "discipline": "population-health",
+    "topic": "screening-prevention",
+    "difficulty": "core",
+    "stem": "A 38-year-old woman has a routine Cervical Screening Test. She has no symptoms. The result shows oncogenic HPV type 16 detected. Reflex liquid-based cytology shows no abnormality (negative).\n\nWhich of the following is the most appropriate next step?",
+    "options": [
+      "Repeat HPV test in 12 months",
+      "Return to routine screening in 5 years",
+      "Repeat cytology in 6 months",
+      "Treat with large loop excision of the transformation zone (LLETZ)",
+      "Refer for colposcopy"
+    ],
+    "answer": 4,
+    "explanation": "Australia's **National Cervical Screening Program** uses a primary **HPV test** every **5 years** for people with a cervix aged **25 to 74**. If HPV is detected, the lab automatically performs **reflex cytology**.\n\nManagement depends on the **HPV type**:\n- **HPV 16 or 18 detected** → **direct referral to colposcopy**, whatever the cytology result. These types cause most cervical cancers, and a negative cytology does not exclude a high-grade lesion.\n- **Other oncogenic HPV (not 16/18)** with negative or low-grade cytology → repeat HPV test in **12 months**.\n- Other oncogenic HPV with high-grade cytology → colposcopy.\n\nLLETZ is a treatment, decided after colposcopy and biopsy show a high-grade lesion.\n\nThe discriminating clue: **type 16**. The type overrides the reassuring cytology.\n\n**Rule:** *16 or 18? Straight to colposcopy.*",
+    "whyWrong": [
+      "A 12-month repeat is for non-16/18 oncogenic HPV with negative or low-grade cytology.",
+      "Routine 5-yearly recall is only for HPV not detected.",
+      "Cytology-based follow-up is not used for HPV 16/18; it has lower sensitivity than colposcopy.",
+      "Treatment is guided by colposcopy and biopsy, not by the screening result alone.",
+      ""
+    ],
+    "ausPearl": "Self-collection of a vaginal swab for HPV testing has been available to all screening-eligible people since July 2022, and is as accurate as a clinician-collected sample for HPV.",
+    "tags": ["cervical screening", "hpv", "colposcopy"]
+  },
+  {
+    "id": "ph-017",
+    "discipline": "population-health",
+    "topic": "screening-prevention",
+    "difficulty": "core",
+    "stem": "A 60-year-old man attends for a health check. He does not smoke and does not have diabetes or known cardiovascular disease. His blood pressure is 148/90 mmHg on repeated measurement, total cholesterol is 6.0 mmol/L and HDL cholesterol 1.0 mmol/L. Using the Australian CVD risk calculator, his 5-year risk of a cardiovascular event is 12%.\n\nWhich of the following is the most appropriate management?",
+    "options": [
+      "Lifestyle advice alone, and reassess risk in 2 years",
+      "Antihypertensive therapy only, because his cholesterol is only mildly raised",
+      "Lifestyle advice plus both blood pressure-lowering and lipid-lowering medicines",
+      "Statin only, because his blood pressure is below 160/100 mmHg",
+      "Low-dose aspirin and a statin"
+    ],
+    "answer": 2,
+    "explanation": "Australia uses **absolute cardiovascular risk**, not individual risk factors, to decide on treatment. The combined effect of age, sex, blood pressure, lipids, smoking and diabetes predicts risk better than any single number.\n\nThe 2023 Australian guideline categories (5-year risk):\n- **High: 10% or more** → lifestyle advice **plus** blood pressure-lowering **and** lipid-lowering therapy, unless contraindicated\n- **Intermediate: 5% to less than 10%** → lifestyle; consider medicines depending on other factors and patient preference\n- **Low: under 5%** → lifestyle advice\n\nAt 12% he is high risk. The benefit of each medicine depends on his overall risk, so it does not matter that neither BP nor cholesterol is dramatically raised.\n\n**Aspirin** is not recommended for routine primary prevention, as bleeding risk offsets benefit.\n\nThe discriminating clue: the risk number (12%), not the individual readings.\n\n**Rule:** *Treat the risk, not the reading. 10% or more: both BP and lipid drugs.*",
+    "whyWrong": [
+      "At high risk, lifestyle alone is insufficient.",
+      "In the absolute risk approach, high-risk patients get lipid-lowering therapy regardless of the cholesterol level.",
+      "",
+      "High-risk patients get BP-lowering therapy even when BP is below 160/100.",
+      "Aspirin is not routinely recommended for primary prevention."
+    ],
+    "ausPearl": "The 2023 Australian guideline recommends routine CVD risk assessment from age 45 to 79 in the general population, from 35 in people with diabetes, and from 30 for Aboriginal and Torres Strait Islander people.",
+    "tags": ["cvd risk", "absolute risk", "prevention"]
+  },
+  {
+    "id": "ph-018",
+    "discipline": "population-health",
+    "topic": "screening-prevention",
+    "difficulty": "core",
+    "stem": "A GP registrar is preparing a teaching session on the levels of prevention in public health (primary, secondary and tertiary).\n\nWhich of the following is an example of secondary prevention?",
+    "options": [
+      "HPV vaccination of 12-year-old school students",
+      "Folic acid supplementation before conception",
+      "Cardiac rehabilitation after myocardial infarction",
+      "Screening mammography in asymptomatic women aged 50 to 74",
+      "Compulsory seatbelt legislation"
+    ],
+    "answer": 3,
+    "explanation": "The levels of prevention describe **when** you intervene:\n\n- **Primary prevention:** stop the disease from ever starting. Examples: vaccination, folic acid, seatbelt laws, smoking cessation, fluoridation.\n- **Secondary prevention:** detect disease **early**, before symptoms, to change its course. This is essentially **screening**: mammography, cervical screening, iFOBT, newborn screening.\n- **Tertiary prevention:** reduce complications and disability in established disease. Examples: cardiac rehabilitation, diabetic foot care, stroke rehabilitation.\n\nThe discriminating clue: mammography is performed in **asymptomatic** women to find cancer that is already present but undetected.\n\nA word of warning: in cardiology, 'secondary prevention' is used loosely to mean preventing a **second** event (for example statins after MI). In public-health questions, stick to the definitions above.\n\n**Rule:** *Primary stops it, secondary spots it, tertiary limits it.*",
+    "whyWrong": [
+      "Vaccination prevents infection from occurring, which is primary prevention.",
+      "Folic acid prevents neural tube defects from developing, which is primary prevention.",
+      "Rehabilitation after established disease is tertiary prevention.",
+      "",
+      "Seatbelt laws prevent injury from occurring, which is primary prevention."
+    ],
+    "tags": ["prevention", "screening", "public health"]
+  },
+  {
+    "id": "ph-019",
+    "discipline": "population-health",
+    "topic": "indigenous-health",
+    "difficulty": "foundation",
+    "stem": "A 45-year-old Aboriginal man attends a city general practice for a script renewal. He has not seen a doctor for 3 years. You would like to offer a comprehensive assessment of his physical, psychological and social wellbeing, including preventive care and screening.\n\nWhich of the following is the most appropriate way to provide this?",
+    "options": [
+      "An Aboriginal and Torres Strait Islander health assessment (MBS item 715)",
+      "A GP mental health treatment plan",
+      "Referral to a general physician for a full check-up",
+      "A standard long consultation, as there is no dedicated item for preventive care in adults of his age",
+      "A Home Medicines Review"
+    ],
+    "answer": 0,
+    "explanation": "The **Aboriginal and Torres Strait Islander Peoples Health Assessment (MBS item 715)** is a Medicare-funded comprehensive health check available to Aboriginal and Torres Strait Islander people of **all ages**, from babies to older adults.\n\nKey features:\n- Can be claimed once every **9 months** (so, in practice, yearly)\n- Covers physical, social and emotional wellbeing, and preventive care: immunisation, smoking, alcohol, CVD risk, diabetes, kidney disease, eye and hearing checks, and age-appropriate screening\n- Unlocks access to **Medicare-subsidised follow-up allied health services** and follow-up care by practice nurses or Aboriginal health workers\n- Can be done with a practice nurse or Aboriginal and Torres Strait Islander health worker assisting\n\nThe discriminating clue: an Aboriginal patient and a need for broad preventive care. Offer it opportunistically, whatever brought him in.\n\n**Rule:** *Every Aboriginal or Torres Strait Islander patient, every year: offer a 715.*",
+    "whyWrong": [
+      "",
+      "A mental health treatment plan covers only mental health, not comprehensive preventive care.",
+      "Specialist referral for a general check-up is inappropriate; preventive care is a primary care role.",
+      "There is a dedicated item: the 715 health assessment applies at all ages.",
+      "A Home Medicines Review is a pharmacist medication review, not a comprehensive health check."
+    ],
+    "ausPearl": "Aboriginal and Torres Strait Islander people are also eligible for the Closing the Gap PBS Co-payment Program, which reduces or removes the cost of PBS medicines.",
+    "tags": ["715", "health assessment", "medicare"]
+  },
+  {
+    "id": "ph-020",
+    "discipline": "population-health",
+    "topic": "indigenous-health",
+    "difficulty": "core",
+    "stem": "A 28-year-old woman with fair skin and light-coloured hair registers as a new patient at your suburban general practice. The receptionist did not ask about Aboriginal or Torres Strait Islander status because 'she clearly isn't'. The practice manager asks you how the practice should handle this question in future.\n\nWhich of the following is best practice?",
+    "options": [
+      "Ask only patients who appear to be Aboriginal or Torres Strait Islander",
+      "Ask every patient, in a standard way, whether they are of Aboriginal or Torres Strait Islander origin",
+      "Record status only if the patient volunteers it",
+      "Ask only patients who come from rural or remote communities",
+      "Ask for written proof of Aboriginality before recording it"
+    ],
+    "answer": 1,
+    "explanation": "Aboriginal and Torres Strait Islander people cannot be identified by **appearance**, skin colour, name or address. Most live in cities and regional towns. Identification is based on **self-identification**.\n\nBest practice (endorsed by RACGP and the national identification guidelines) is to ask **every** patient, in a standard way: *'Are you of Aboriginal or Torres Strait Islander origin?'*, with options for Aboriginal, Torres Strait Islander, both, or neither.\n\nWhy it matters:\n- It opens access to the **715 health assessment**, follow-up items, Closing the Gap PBS co-payments and earlier screening (such as CVD risk from age 30)\n- Accurate data underpins funding and closing-the-gap targets\n\nAsking everyone is also part of **cultural safety**: it avoids assumptions and stereotyping. Cultural safety is defined by the patient's experience of care, not by the clinician's intentions.\n\nThe discriminating clue: the receptionist judged by appearance.\n\n**Rule:** *Ask everyone. Never assume.*",
+    "whyWrong": [
+      "Appearance is not a valid way to identify Aboriginal or Torres Strait Islander people and reinforces stereotypes.",
+      "",
+      "Many patients will not volunteer it unless asked, leading to under-identification and missed care.",
+      "Most Aboriginal and Torres Strait Islander people live in urban and regional areas.",
+      "Health records rely on self-identification; demanding proof is inappropriate and discourages identification."
+    ],
+    "tags": ["cultural safety", "identification", "indigenous"]
+  },
+  {
+    "id": "ph-021",
+    "discipline": "population-health",
+    "topic": "indigenous-health",
+    "difficulty": "core",
+    "stem": "An 11-year-old Aboriginal girl from a remote community in the Northern Territory is diagnosed with acute rheumatic fever with mild carditis. She is treated and improves. Before discharge, the team plans her long-term care.\n\nWhich of the following is the most important measure to prevent recurrence and progression to rheumatic heart disease?",
+    "options": [
+      "Oral amoxicillin at each episode of sore throat",
+      "Annual echocardiography without antibiotic prophylaxis",
+      "Tonsillectomy",
+      "Long-term low-dose aspirin",
+      "Intramuscular benzathine benzylpenicillin every 28 days"
+    ],
+    "answer": 4,
+    "explanation": "**Acute rheumatic fever (ARF)** is an autoimmune reaction to group A streptococcal infection (throat and, in northern Australia, probably skin). Each recurrence adds valve damage, leading to **rheumatic heart disease (RHD)**. Aboriginal and Torres Strait Islander people, especially in remote northern Australia, have some of the highest rates in the world.\n\nThe cornerstone of management is **secondary prophylaxis**: **intramuscular benzathine benzylpenicillin G** every **28 days** (every 21 days for selected high-risk patients). It prevents new streptococcal infections and therefore recurrences.\n\nDuration (Australian ARF/RHD guideline): at least **10 years after the last episode or until age 21, whichever is longer**, and longer for moderate or severe RHD.\n\nAdherence is the challenge. Registers, recall systems, and delivery through Aboriginal health workers and community-controlled services are what make it work.\n\nThe discriminating clue: preventing *recurrence*, which needs continuous, reliable prophylaxis.\n\n**Rule:** *ARF: monthly bicillin for at least 10 years or until 21.*",
+    "whyWrong": [
+      "Treating sore throats when they occur misses asymptomatic and skin infections; continuous prophylaxis is needed.",
+      "Echo monitors damage but does not prevent recurrence.",
+      "Tonsillectomy has no proven role in preventing ARF recurrence.",
+      "Aspirin or NSAIDs relieve arthritis in the acute phase but do not prevent recurrence.",
+      ""
+    ],
+    "ausPearl": "ARF and RHD are notifiable in several but not all jurisdictions, and state-based RHD registers coordinate recall for injections. Check local requirements.",
+    "tags": ["rheumatic fever", "rhd", "benzathine penicillin"]
+  },
+  {
+    "id": "ph-022",
+    "discipline": "population-health",
+    "topic": "indigenous-health",
+    "difficulty": "exam",
+    "stem": "A 34-year-old Torres Strait Islander woman attends for a 715 health assessment. She smokes 10 cigarettes a day. Her blood pressure is 132/84 mmHg and BMI is 29 kg/m2. She does not have diabetes, kidney disease or known cardiovascular disease. She asks whether she needs any 'heart checks'.\n\nWhich of the following is the most appropriate approach to her cardiovascular risk?",
+    "options": [
+      "No formal CVD risk assessment is needed until she turns 45",
+      "Start a statin now, as all First Nations adults are automatically high risk",
+      "Perform an absolute CVD risk assessment now, including lipids and diabetes screening",
+      "CVD risk assessment is only indicated from age 35 if she develops diabetes",
+      "Check a fasting lipid profile at age 40 and decide then"
+    ],
+    "answer": 2,
+    "explanation": "Aboriginal and Torres Strait Islander people have cardiovascular disease earlier and more often, driven by social determinants, smoking, diabetes and kidney disease. The **2023 Australian CVD risk guideline** therefore recommends starting **absolute CVD risk assessment from age 30** for First Nations people (compared with 45 for the general population and 35 for people with diabetes).\n\nThe assessment includes blood pressure, **lipids**, **diabetes screening** (HbA1c or fasting glucose), smoking status, and kidney function and albuminuria where relevant. The risk calculator may **underestimate** risk in First Nations people, so clinical judgement and local context matter when interpreting the number.\n\nFirst Nations status alone does not make someone high risk: treatment is based on the assessed risk, not ethnicity.\n\nHer smoking is the most powerful modifiable factor to address today, regardless of the calculated result.\n\nThe discriminating clue: age 34 with First Nations identity.\n\n**Rule:** *First Nations: CVD risk from 30. General: from 45. Diabetes: from 35.*",
+    "whyWrong": [
+      "Age 45 is the start age for the general population, not for First Nations people.",
+      "Ethnicity alone does not confer automatic high-risk status; treatment follows assessed risk.",
+      "",
+      "Age 35 is the start age for people with diabetes, not a condition for First Nations people.",
+      "Delaying to 40 ignores the recommendation to assess from 30."
+    ],
+    "ausPearl": "The 2023 guideline uses the term First Nations people. The guideline and the Aus CVD Risk calculator are at cvdcheck.org.au.",
+    "tags": ["cvd risk", "first nations", "715"]
+  },
+  {
+    "id": "ph-023",
+    "discipline": "population-health",
+    "topic": "notifiable-diseases",
+    "difficulty": "foundation",
+    "stem": "A 19-year-old university student living in a residential college is brought to the emergency department with fever, headache, confusion and a non-blanching petechial rash. Blood cultures are taken and IV ceftriaxone is given immediately. You suspect invasive meningococcal disease.\n\nWhich of the following is the most appropriate public health action?",
+    "options": [
+      "Notify the local public health unit immediately by telephone, on clinical suspicion",
+      "Wait for laboratory confirmation before notifying",
+      "Send a written notification form within 5 days",
+      "No action, because the laboratory will notify the case",
+      "Contact the university directly to arrange antibiotics for all residents"
+    ],
+    "answer": 0,
+    "explanation": "**Invasive meningococcal disease** is notifiable in every Australian state and territory, and it is one of the conditions where doctors must notify **urgently, by phone, on clinical suspicion**, without waiting for lab confirmation.\n\nThe reason is speed. The public health unit needs to:\n- Identify **close contacts** (household, intimate kissing contacts, people who shared a residence in the 7 days before onset)\n- Arrange **clearance antibiotics** and, where appropriate, vaccination, as soon as possible\n- Coordinate communication with institutions such as the college\n\nThe laboratory also notifies when it confirms the case, but that does not replace the doctor's notification.\n\nOther conditions notified urgently on suspicion include **measles**, and a range of rare but serious diseases. Each jurisdiction publishes its list.\n\nThe discriminating clue: classic clinical picture of IMD in a college resident, with many contacts.\n\n**Rule:** *Suspect meningococcal? Treat first, then phone public health straight away.*",
+    "whyWrong": [
+      "",
+      "Waiting for confirmation delays contact prophylaxis.",
+      "Routine written notification is too slow for meningococcal disease, which needs urgent phone notification.",
+      "Laboratory notification occurs, but doctors also have an independent duty to notify on suspicion.",
+      "Contact management is coordinated by the public health unit, and not all residents are close contacts."
+    ],
+    "ausPearl": "Notification lists and procedures are set by each state and territory under their public health legislation, but meningococcal disease requires urgent notification everywhere.",
+    "tags": ["meningococcal", "notification", "public health"]
+  },
+  {
+    "id": "ph-024",
+    "discipline": "population-health",
+    "topic": "notifiable-diseases",
+    "difficulty": "core",
+    "stem": "A 16-year-old boy has confirmed invasive meningococcal disease. The public health unit identifies his father (48 years) and mother (45 years, not pregnant), with whom he has lived for the past week, as household close contacts. Neither has any symptoms or drug allergies.\n\nWhich of the following is the most appropriate clearance antibiotic for the parents?",
+    "options": [
+      "Oral amoxicillin for 7 days",
+      "Observation only, with antibiotics if symptoms develop",
+      "IV benzylpenicillin",
+      "Oral ciprofloxacin as a single dose",
+      "Meningococcal vaccination alone, without antibiotics"
+    ],
+    "answer": 3,
+    "explanation": "**Clearance antibiotics** eradicate *Neisseria meningitidis* carriage from the nasopharynx of close contacts, reducing the chance of secondary cases and of further spread.\n\nOptions recommended in Australia:\n- **Ciprofloxacin** 500 mg orally, **single dose**, for adults (convenient, no drug-interaction problems with the pill) \n- **Rifampicin** orally twice daily for 2 days (often used in young children; stains fluids orange; reduces effectiveness of hormonal contraception)\n- **Ceftriaxone** IM single dose, preferred in **pregnancy**\n\nClearance antibiotics should be given as soon as possible, ideally within 24 hours of the case being identified. Meningococcal **vaccination** may also be offered to contacts when the strain is vaccine-preventable, but it is in addition to antibiotics, not instead of them.\n\nThe discriminating clue: non-pregnant adults who are household contacts.\n\n**Rule:** *Meningococcal contact, adult, not pregnant: one dose of cipro.*",
+    "whyWrong": [
+      "Penicillins such as amoxicillin do not reliably eradicate nasopharyngeal carriage.",
+      "Waiting for symptoms risks a secondary case; prophylaxis is given to asymptomatic close contacts.",
+      "IV benzylpenicillin treats disease but does not clear carriage and is not used for prophylaxis.",
+      "",
+      "Vaccination may be offered but does not replace clearance antibiotics, as protection takes time to develop."
+    ],
+    "ausPearl": "The public health unit, following the national Series of National Guidelines (SoNG) for meningococcal disease, decides who counts as a close contact.",
+    "tags": ["meningococcal", "prophylaxis", "contacts"]
+  },
+  {
+    "id": "ph-025",
+    "discipline": "population-health",
+    "topic": "notifiable-diseases",
+    "difficulty": "exam",
+    "stem": "A 30-year-old man shared an office with a colleague who has now been confirmed as having measles. He was exposed 48 hours ago. He was born overseas, has no record of measles vaccination and does not recall having measles. He is healthy, not immunocompromised and takes no medicines. His partner is not pregnant.\n\nWhich of the following is the most appropriate post-exposure management?",
+    "options": [
+      "Normal human immunoglobulin (NHIG) intramuscularly",
+      "Measles-mumps-rubella (MMR) vaccine now",
+      "No action, as he is outside the window for post-exposure protection",
+      "Serology first, then vaccinate only if non-immune",
+      "Oral antiviral therapy"
+    ],
+    "answer": 1,
+    "explanation": "Post-exposure prophylaxis for **susceptible** measles contacts depends on **time since exposure** and whether the person can receive a live vaccine.\n\n- **MMR vaccine within 72 hours** of exposure may prevent or modify disease. It is the choice for healthy, non-pregnant, immunocompetent contacts.\n- **Normal human immunoglobulin (NHIG) within 144 hours (6 days)** is used for susceptible contacts who **cannot** have MMR, such as **pregnant** women, **infants** too young for vaccine, and **immunocompromised** people, or who present too late for MMR.\n\nThis man is 48 hours post exposure, healthy and without evidence of immunity, so **MMR now**. Waiting for serology wastes the short window, and giving MMR to someone who is already immune is harmless.\n\nHe should also be told about symptoms and, like all contacts, will receive advice from public health about exclusion from work settings such as healthcare or childcare.\n\nThe discriminating clue: **within 72 hours**, and nothing stopping a live vaccine.\n\n**Rule:** *Measles contact: MMR by 72 hours; NHIG by 6 days if MMR not possible.*",
+    "whyWrong": [
+      "NHIG is for contacts who cannot receive MMR (pregnant, infants, immunocompromised) or who present after 72 hours.",
+      "",
+      "He is well within the 72-hour window for MMR.",
+      "Waiting for serology can use up the 72-hour window; MMR is safe even if he turns out to be immune.",
+      "There is no effective oral antiviral for measles post-exposure prophylaxis."
+    ],
+    "ausPearl": "Measles is notified urgently, by phone, on clinical suspicion in every jurisdiction. The Australian Immunisation Handbook and the measles SoNG set out the post-exposure rules.",
+    "tags": ["measles", "post-exposure", "mmr"]
+  },
+  {
+    "id": "ph-026",
+    "discipline": "population-health",
+    "topic": "australian-healthcare-system",
+    "difficulty": "core",
+    "stem": "A 62-year-old man saw a cardiologist in private rooms 14 months ago, on a referral from his GP. The GP's referral letter did not state a validity period. He now wants a follow-up appointment with the same cardiologist and asks whether he can just book it directly and still receive the Medicare rebate at the specialist rate.\n\nWhich of the following is correct?",
+    "options": [
+      "Yes, because referrals to a specialist never expire once the first visit has occurred",
+      "Yes, because the cardiologist can renew the referral at the follow-up visit",
+      "Yes, because Medicare pays the specialist rebate with or without a referral",
+      "No, he needs a new referral because GP referrals are valid for 3 months unless stated otherwise",
+      "No, he needs a new referral because GP referrals are valid for 12 months unless stated otherwise"
+    ],
+    "answer": 4,
+    "explanation": "The **GP is the gatekeeper** of the Australian health system. To receive the Medicare rebate at the **specialist rate**, a patient needs a **valid referral**. Without one, Medicare pays only a much lower (unreferred) rate.\n\nReferral validity:\n- **GP to specialist:** **12 months** from the first specialist visit, unless the GP specifies a different period, including 'indefinite' (used for ongoing chronic conditions)\n- **Specialist to specialist:** **3 months**, unless the patient is in hospital\n\nThe specialist cannot extend a GP's referral; a new referral must come from the GP.\n\nThe gatekeeper model is deliberate: it keeps care coordinated through a usual GP, avoids unnecessary specialist visits, and controls cost. Public hospital specialist outpatient clinics likewise usually need a referral.\n\nThe discriminating clue: 14 months, with no period written on the referral.\n\n**Rule:** *GP referral: 12 months. Specialist referral: 3 months.*",
+    "whyWrong": [
+      "GP referrals expire, by default 12 months after the first specialist attendance.",
+      "Specialists cannot renew a GP's referral; a new one must come from the GP.",
+      "Without a valid referral, Medicare only pays a lower unreferred rate.",
+      "3 months is the default for specialist-to-specialist referrals, not GP referrals.",
+      ""
+    ],
+    "tags": ["medicare", "referral", "gatekeeper"]
+  },
+  {
+    "id": "ph-027",
+    "discipline": "population-health",
+    "topic": "australian-healthcare-system",
+    "difficulty": "foundation",
+    "stem": "A 70-year-old pensioner with a Medicare card asks a GP at a new clinic: 'The sign says you bulk bill. What does that actually mean for me?'\n\nWhich of the following is the best explanation?",
+    "options": [
+      "The GP accepts the Medicare benefit as full payment, so there is no out-of-pocket cost for the consultation",
+      "The consultation is paid for by his private health insurance",
+      "The consultation is covered by the Pharmaceutical Benefits Scheme",
+      "He pays the full fee on the day and claims the whole amount back from Medicare",
+      "The state health department pays the GP directly because he is a pensioner"
+    ],
+    "answer": 0,
+    "explanation": "**Medicare** is Australia's publicly funded universal health insurance scheme. For services listed on the **Medicare Benefits Schedule (MBS)**, Medicare pays a benefit (rebate) to the patient.\n\nWith **bulk billing**, the doctor claims the Medicare benefit **directly** and accepts it as **full payment**, so the patient pays **nothing** for that service. If a doctor does not bulk bill, the patient pays the doctor's fee and gets the rebate back, leaving a 'gap' (out-of-pocket cost).\n\nOther pieces of the system to keep distinct:\n- **PBS** (Pharmaceutical Benefits Scheme) subsidises **medicines**, not consultations\n- **Private health insurance** mainly covers private hospital care and 'extras' (dental, physio); it cannot cover the gap for out-of-hospital GP consultations\n- **Public hospital** care is free for Medicare-eligible public patients, funded jointly by federal and state governments\n\nThe discriminating clue: the question is about a GP consultation fee.\n\n**Rule:** *Bulk billed = Medicare pays, patient pays nothing.*",
+    "whyWrong": [
+      "",
+      "Private health insurance cannot be used for out-of-hospital GP consultation fees.",
+      "The PBS subsidises medicines, not doctor consultations.",
+      "This describes non-bulk-billed (patient-billed) care, where a gap is usually left.",
+      "GP consultations are funded through federal Medicare, not state health departments."
+    ],
+    "ausPearl": "Medicare pays extra incentive payments to GPs for bulk billing concession card holders and children, which is why many clinics bulk bill these groups.",
+    "tags": ["medicare", "bulk billing", "pbs"]
+  },
+  {
+    "id": "ph-028",
+    "discipline": "population-health",
+    "topic": "occupational-health",
+    "difficulty": "core",
+    "stem": "A 32-year-old baker presents with 8 months of wheeze, cough and a runny nose. His symptoms are worse towards the end of the working week and improve when he is on holiday. He did not have asthma as a child. Spirometry today shows mild airflow obstruction that reverses with salbutamol.\n\nWhich of the following investigations is most useful to confirm that his asthma is work-related?",
+    "options": [
+      "Chest X-ray",
+      "Serial peak expiratory flow measurements at work and away from work over several weeks",
+      "Skin prick testing to house dust mite",
+      "High-resolution CT of the chest",
+      "A single repeat spirometry test on a day off work"
+    ],
+    "answer": 1,
+    "explanation": "**Occupational asthma** is new-onset asthma caused by exposure at work. Bakers (flour, alpha-amylase enzyme), spray painters (isocyanates), woodworkers, hairdressers and laboratory animal workers are classic examples.\n\nThe clue is the pattern: symptoms **worse at work, better on weekends and holidays**. To confirm the link objectively, the key test is **serial peak expiratory flow (PEF)** recordings, usually 4 or more times a day for **at least 3 to 4 weeks**, covering periods at work and away from work. A clear drop on work days supports the diagnosis.\n\nSpecific IgE or skin prick tests to the suspected occupational agent (for example flour) can support it, and a respiratory or occupational physician may arrange specific inhalation challenge.\n\nEarly diagnosis matters because **removal from exposure** early gives the best chance of recovery. It also has legal and workers' compensation implications, which are state-based.\n\n**Rule:** *Better on holidays? Serial peak flows at work and at home.*",
+    "whyWrong": [
+      "Chest X-ray is usually normal in asthma and cannot show a work relationship.",
+      "",
+      "House dust mite is a domestic allergen and would not explain a work-related pattern.",
+      "HRCT is for interstitial or structural lung disease, not for linking asthma to work.",
+      "A single measurement cannot show the pattern of variation between work and non-work periods."
+    ],
+    "ausPearl": "Workers' compensation is run by each state and territory, and GPs often complete the initial workers' compensation certificate of capacity.",
+    "tags": ["occupational asthma", "peak flow", "workers compensation"]
+  },
+  {
+    "id": "ph-029",
+    "discipline": "population-health",
+    "topic": "occupational-health",
+    "difficulty": "exam",
+    "stem": "A 38-year-old man has worked for 10 years cutting and polishing kitchen benchtops made of engineered stone, often dry-cutting without respiratory protection. He presents with 6 months of progressive exertional breathlessness and dry cough. He has never smoked. Chest X-ray shows multiple small nodules predominantly in the upper zones and enlarged hilar lymph nodes with 'eggshell' calcification.\n\nWhich of the following is the most likely diagnosis?",
+    "options": [
+      "Asbestosis",
+      "Sarcoidosis",
+      "Silicosis",
+      "Hypersensitivity pneumonitis",
+      "Coal workers' pneumoconiosis"
+    ],
+    "answer": 2,
+    "explanation": "**Silicosis** is fibrotic lung disease caused by inhaling **respirable crystalline silica**. Engineered (artificial) stone contains much more silica (often over 90%) than natural stone such as granite, and dry cutting releases huge amounts of dust. Australia has seen an epidemic of **accelerated silicosis** in young stonemasons, developing within 10 years of exposure.\n\nFeatures:\n- **Upper-zone nodules**, progressing to large conglomerate masses (progressive massive fibrosis)\n- **Eggshell calcification** of hilar lymph nodes (highly suggestive)\n- Increased risk of **tuberculosis**, lung cancer, autoimmune disease and kidney disease\n\nThere is no cure; management is removal from exposure, TB screening, vaccination, and in advanced cases lung transplant.\n\nThe discriminating clue: engineered stone plus eggshell calcification.\n\n**Rule:** *Stonemason + upper-zone nodules + eggshell nodes = silicosis. Screen for TB.*",
+    "whyWrong": [
+      "Asbestosis causes lower-zone fibrosis and pleural plaques, not upper-zone nodules with eggshell nodes, and has a longer latency.",
+      "Sarcoidosis can cause hilar nodes and upper-zone disease, but the occupational exposure and eggshell calcification point to silicosis.",
+      "",
+      "Hypersensitivity pneumonitis follows organic antigens (birds, mouldy hay), not mineral dust.",
+      "Coal workers' pneumoconiosis requires coal dust exposure, which he has not had."
+    ],
+    "ausPearl": "Australia banned the use, supply and manufacture of engineered stone benchtops, panels and slabs from 1 July 2024 because of the silicosis epidemic.",
+    "tags": ["silicosis", "engineered stone", "pneumoconiosis"]
+  },
+  {
+    "id": "ph-030",
+    "discipline": "population-health",
+    "topic": "occupational-health",
+    "difficulty": "core",
+    "stem": "A 55-year-old man who has worked in a metal fabrication factory for 30 years presents with gradually worsening hearing in both ears and a constant high-pitched tinnitus. He finds it hard to follow conversation in noisy places. Otoscopy is normal. Pure tone audiometry shows bilateral symmetrical sensorineural hearing loss with the greatest loss at 4 kHz and partial recovery at 8 kHz.\n\nWhich of the following is the most likely diagnosis?",
+    "options": [
+      "Presbycusis",
+      "Otosclerosis",
+      "Meniere disease",
+      "Noise-induced hearing loss",
+      "Vestibular schwannoma"
+    ],
+    "answer": 3,
+    "explanation": "**Noise-induced hearing loss (NIHL)** is one of the most common occupational diseases. Prolonged exposure to loud noise damages outer hair cells in the cochlea.\n\nThe hallmark is the audiogram: **bilateral, symmetrical sensorineural loss** with a **'notch' at 3 to 6 kHz, classically 4 kHz**, and **recovery at 8 kHz**. Tinnitus is common. The loss is permanent, so prevention is everything: engineering noise controls, hearing protection, and audiometric monitoring of exposed workers.\n\nCompare:\n- **Presbycusis:** age-related, down-sloping high-frequency loss that gets worse towards 8 kHz, **without** a notch and recovery\n- **Otosclerosis:** **conductive** loss, often with a 'Carhart notch' at 2 kHz on bone conduction\n- **Meniere disease:** fluctuating **low-frequency** loss with episodic vertigo and aural fullness\n- **Vestibular schwannoma:** **unilateral** or asymmetrical loss, which needs an MRI\n\nThe discriminating clue: 4 kHz notch with recovery at 8 kHz.\n\n**Rule:** *Notch at 4, back up at 8: blame the noise.*",
+    "whyWrong": [
+      "Presbycusis gives down-sloping high-frequency loss worst at 8 kHz, without recovery.",
+      "Otosclerosis causes conductive hearing loss, not sensorineural.",
+      "Meniere disease typically affects low frequencies and causes episodic vertigo.",
+      "",
+      "Vestibular schwannoma causes unilateral or asymmetrical loss."
+    ],
+    "ausPearl": "Australian work health and safety regulations require employers to keep workers' noise exposure below 85 dB(A) averaged over 8 hours and to provide audiometric testing for workers who need hearing protection.",
+    "tags": ["hearing loss", "noise", "audiogram"]
+  }
+]

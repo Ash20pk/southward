@@ -1,0 +1,991 @@
+[
+  {
+    "id": "med-001",
+    "discipline": "adult-medicine",
+    "topic": "cardiology",
+    "difficulty": "core",
+    "stem": "A 58-year-old man presents to a rural hospital in western New South Wales with 90 minutes of central crushing chest pain radiating to his jaw. He is diaphoretic. BP 128/80 mmHg, HR 88 bpm, SpO2 97% on room air. ECG shows 3 mm ST elevation in leads II, III and aVF with reciprocal ST depression in I and aVL. The nearest PCI-capable centre is 4 hours away by road and the retrieval service estimates transfer to the catheter lab will take at least 3 hours. He has no bleeding history and has been given aspirin 300 mg.\n\nWhat is the most appropriate next step in management?",
+    "options": [
+      "Arrange urgent transfer for primary PCI without further reperfusion therapy",
+      "Commence an IV heparin infusion and repeat the ECG in 1 hour",
+      "Give intravenous tenecteplase with antithrombotic therapy, then arrange transfer to a PCI centre",
+      "Give sublingual glyceryl trinitrate and observe for resolution of ST elevation",
+      "Request an urgent troponin and treat once the result confirms infarction"
+    ],
+    "answer": 2,
+    "explanation": "This is an **inferior STEMI** presenting within 12 hours of symptom onset. Reperfusion is time-critical: *time is muscle*.\n\nPrimary PCI is the preferred strategy **only if it can be delivered within 120 minutes of first medical contact**. Here, transfer alone will take at least 3 hours, so the correct strategy is **fibrinolysis** (tenecteplase is the usual agent in Australia), ideally within 30 minutes of arrival, given with antithrombotic therapy (enoxaparin or heparin, plus clopidogrel). After lysis, the patient is transferred to a PCI centre: urgently for rescue PCI if reperfusion fails (less than 50% ST resolution at 60 to 90 minutes), or for routine angiography within 24 hours if it succeeds.\n\n**Key clue:** the long distance to PCI. **Rule:** STEMI + PCI not possible within 120 minutes = lyse, then transfer.\n\nNever wait for troponin in STEMI; the ECG makes the diagnosis.",
+    "whyWrong": [
+      "A delay of 3 or more hours to PCI exceeds the 120-minute window, so reperfusion must not wait for transfer.",
+      "Anticoagulation alone does not reperfuse an occluded coronary artery.",
+      "",
+      "GTN relieves ischaemic pain but does not treat an occluded artery, and inferior STEMI may involve the right ventricle, making nitrates hazardous.",
+      "STEMI is an ECG diagnosis; waiting for troponin delays reperfusion and loses myocardium."
+    ],
+    "ausPearl": "Rural and remote Australia depends on pre-hospital and early in-hospital thrombolysis because of distance to PCI. Many rural EDs and ambulance services (for example, NSW and QLD) run tenecteplase protocols with remote cardiology support and aeromedical retrieval via services such as the Royal Flying Doctor Service.",
+    "tags": ["stemi", "thrombolysis", "rural"]
+  },
+  {
+    "id": "med-002",
+    "discipline": "adult-medicine",
+    "topic": "cardiology",
+    "difficulty": "foundation",
+    "stem": "A 72-year-old woman attends her GP in Perth for a routine check. She has treated hypertension and no other medical history. Her pulse is irregularly irregular at 84 bpm and an ECG confirms atrial fibrillation. Her BP is 134/82 mmHg. Renal function is normal (eGFR 78 mL/min/1.73 m²) and she has no bleeding history.\n\nWhat is the most appropriate management to reduce her stroke risk?",
+    "options": [
+      "Start apixaban",
+      "Start aspirin 100 mg daily",
+      "Start clopidogrel plus aspirin",
+      "No antithrombotic therapy is needed",
+      "Start subcutaneous enoxaparin long term"
+    ],
+    "answer": 0,
+    "explanation": "Stroke risk in non-valvular AF is estimated with a risk score. Australian guidelines (NHFA/CSANZ 2018) use **CHA₂DS₂-VA**, which drops the female sex point:\n\n- **C**ongestive heart failure 1\n- **H**ypertension 1\n- **A**ge ≥75 years 2\n- **D**iabetes 1\n- **S**troke/TIA/thromboembolism 2\n- **V**ascular disease 1\n- **A**ge 65 to 74 years 1\n\nThis woman scores **2** (hypertension + age 65 to 74). A score of **2 or more means oral anticoagulation is recommended**. A **DOAC** (apixaban, rivaroxaban, dabigatran) is preferred over warfarin in non-valvular AF because of lower intracranial bleeding rates and no INR monitoring.\n\n**Rule:** aspirin is *not* stroke prevention in AF. It is less effective and bleeds nearly as much.",
+    "whyWrong": [
+      "",
+      "Aspirin is not recommended for stroke prevention in AF; it is far less effective than anticoagulation.",
+      "Dual antiplatelet therapy is inferior to anticoagulation and increases bleeding.",
+      "A CHA₂DS₂-VA score of 2 carries enough stroke risk that anticoagulation is recommended.",
+      "Long-term LMWH is impractical and not the standard for AF stroke prevention."
+    ],
+    "ausPearl": "Australia uses CHA₂DS₂-VA (sex removed) per the 2018 NHFA/CSANZ AF guideline, whereas many international sources still quote CHA₂DS₂-VASc. DOACs are PBS-listed for non-valvular AF.",
+    "tags": ["atrial fibrillation", "anticoagulation", "cha2ds2-va"]
+  },
+  {
+    "id": "med-003",
+    "discipline": "adult-medicine",
+    "topic": "cardiology",
+    "difficulty": "foundation",
+    "stem": "A 64-year-old man with heart failure following a previous anterior myocardial infarction is reviewed in a cardiology clinic in Adelaide. Echocardiography shows a left ventricular ejection fraction of 30%. He is mildly breathless on moderate exertion. He is currently taking perindopril and frusemide. BP 118/72 mmHg, HR 82 bpm, in sinus rhythm.\n\nWhich of the following medications has been shown to reduce mortality in his condition?",
+    "options": [
+      "Digoxin",
+      "Frusemide at a higher dose",
+      "Amlodipine",
+      "Verapamil",
+      "Bisoprolol"
+    ],
+    "answer": 4,
+    "explanation": "In **heart failure with reduced ejection fraction (HFrEF, LVEF ≤40%)**, the drugs that improve survival are the \"pillars\":\n\n1. **ACE inhibitor / ARB / ARNI** (sacubitril-valsartan)\n2. **Evidence-based beta blocker**: bisoprolol, carvedilol, metoprolol succinate or nebivolol\n3. **Mineralocorticoid receptor antagonist** (spironolactone, eplerenone)\n4. **SGLT2 inhibitor** (dapagliflozin, empagliflozin)\n\nBeta blockers are started at a low dose once the patient is euvolaemic and titrated up slowly (\"start low, go slow\").\n\n**Diuretics** such as frusemide relieve congestion and symptoms but do **not** improve mortality. **Digoxin** reduces hospitalisation but not death. **Non-dihydropyridine calcium channel blockers** (verapamil, diltiazem) are negatively inotropic and harmful in HFrEF.\n\n**Rule:** diuretics are for symptoms; the pillars are for survival.",
+    "whyWrong": [
+      "Digoxin reduces hospitalisation in HFrEF but has no mortality benefit.",
+      "Loop diuretics relieve congestion but do not reduce mortality.",
+      "Amlodipine is neutral in HFrEF and is only used for coexisting hypertension or angina.",
+      "Verapamil is negatively inotropic and can worsen HFrEF.",
+      ""
+    ],
+    "ausPearl": "The 2018 NHFA/CSANZ heart failure guideline (with later updates adding SGLT2 inhibitors) underpins Australian practice. Sacubitril-valsartan and SGLT2 inhibitors for HFrEF are PBS-listed with specific criteria.",
+    "tags": ["heart failure", "hfref", "beta blocker"]
+  },
+  {
+    "id": "med-004",
+    "discipline": "adult-medicine",
+    "topic": "cardiology",
+    "difficulty": "core",
+    "stem": "A 78-year-old man is brought to a Brisbane ED after collapsing while walking up a hill. He regained consciousness within a minute. He reports several months of exertional chest tightness. On examination, BP 110/90 mmHg, HR 76 bpm and regular. The carotid pulse is slow-rising and of low volume. There is a harsh ejection systolic murmur loudest at the right upper sternal edge radiating to both carotids, and the second heart sound is soft.\n\nWhat is the most likely diagnosis?",
+    "options": [
+      "Hypertrophic obstructive cardiomyopathy",
+      "Severe aortic stenosis",
+      "Mitral regurgitation",
+      "Aortic sclerosis",
+      "Ventricular septal defect"
+    ],
+    "answer": 1,
+    "explanation": "The classic triad of **severe aortic stenosis** is **angina, exertional syncope and breathlessness (heart failure)**. Once symptoms appear, prognosis without valve replacement is poor.\n\nSigns that mark stenosis as **severe**:\n- **Slow-rising, low-volume pulse** (pulsus parvus et tardus)\n- **Narrow pulse pressure** (here 110/90)\n- **Soft or absent S2** (the calcified valve barely moves)\n- A late-peaking murmur\n\nThe murmur is ejection systolic at the right upper sternal edge, radiating to the carotids.\n\n**Aortic sclerosis** gives a similar murmur but with a **normal pulse and normal S2**, and no symptoms. That is the key discriminator.\n\nNext steps: echocardiography, then referral for aortic valve replacement (surgical AVR or TAVI).\n\n**Rule:** AS + symptoms = refer for valve replacement.",
+    "whyWrong": [
+      "HOCM murmur is louder with Valsalva, does not radiate to the carotids, and the pulse is jerky rather than slow-rising.",
+      "",
+      "Mitral regurgitation is pansystolic at the apex, radiating to the axilla.",
+      "Aortic sclerosis has a normal carotid pulse and normal S2 and does not cause syncope.",
+      "A VSD gives a pansystolic murmur at the left lower sternal edge."
+    ],
+    "tags": ["aortic stenosis", "syncope", "murmur"]
+  },
+  {
+    "id": "med-005",
+    "discipline": "adult-medicine",
+    "topic": "cardiology",
+    "difficulty": "exam",
+    "stem": "A 32-year-old man presents to a Melbourne ED with 2 days of sharp central chest pain that is worse lying flat and on deep inspiration and eased by sitting forward. He had a viral upper respiratory tract infection 10 days ago. Temperature 37.8°C, BP 124/78 mmHg, HR 96 bpm. A scratchy sound is heard at the left sternal edge. ECG shows widespread concave ST elevation in I, II, aVL, aVF and V2 to V6 with PR depression. Troponin is normal. Bedside echo shows a small pericardial effusion without tamponade.\n\nWhat is the most appropriate management?",
+    "options": [
+      "Urgent coronary angiography",
+      "Oral prednisolone 1 mg/kg daily",
+      "Intravenous heparin infusion",
+      "High-dose ibuprofen plus colchicine",
+      "Urgent pericardiocentesis"
+    ],
+    "answer": 3,
+    "explanation": "This is **acute viral (idiopathic) pericarditis**. Diagnosis needs 2 of 4:\n\n1. Pleuritic chest pain relieved by sitting forward\n2. Pericardial friction rub\n3. **Widespread concave (saddle-shaped) ST elevation with PR depression**\n4. New or worsening pericardial effusion\n\nThe discriminating ECG clue versus STEMI: ST elevation is **diffuse, not in a coronary territory**, with **no reciprocal depression** (except aVR) and **PR depression**.\n\nFirst-line treatment is a **high-dose NSAID** (ibuprofen or aspirin) tapered over 1 to 2 weeks, **plus colchicine for 3 months**, which halves the recurrence rate.\n\n**Corticosteroids** are second-line: they increase recurrence and are reserved for contraindications to NSAIDs or specific causes (autoimmune).\n\n**Rule:** pericarditis = NSAID + colchicine; no steroids first, no anticoagulation.",
+    "whyWrong": [
+      "Diffuse non-territorial ST elevation with PR depression and normal troponin is not an acute coronary occlusion.",
+      "Steroids first-line increase the risk of recurrent pericarditis and are reserved for NSAID contraindication or specific causes.",
+      "Anticoagulation risks haemorrhagic transformation of a pericardial effusion and does not treat pericarditis.",
+      "",
+      "Pericardiocentesis is for tamponade or suspected purulent/malignant effusion, not a small effusion."
+    ],
+    "tags": ["pericarditis", "ecg", "chest pain"]
+  },
+  {
+    "id": "med-006",
+    "discipline": "adult-medicine",
+    "topic": "respiratory",
+    "difficulty": "core",
+    "stem": "A 71-year-old woman with severe COPD (FEV1 32% predicted) is brought by ambulance to a regional ED in Victoria with 3 days of increased breathlessness and purulent sputum. Paramedics started oxygen at 15 L/min via a non-rebreather mask. She is now drowsy. RR 24/min, SpO2 99%, HR 104 bpm. Arterial blood gas: pH 7.28, PaCO2 72 mmHg, PaO2 138 mmHg, HCO3 33 mmol/L.\n\nWhat is the most appropriate immediate step?",
+    "options": [
+      "Increase oxygen to high-flow nasal prongs at 60 L/min",
+      "Remove oxygen completely and recheck the blood gas in 30 minutes",
+      "Titrate oxygen via a Venturi mask to a target SpO2 of 88% to 92%",
+      "Give intravenous sodium bicarbonate",
+      "Give intravenous morphine for dyspnoea"
+    ],
+    "answer": 2,
+    "explanation": "In COPD patients who retain CO₂, high-concentration oxygen can **worsen hypercapnia** (through loss of hypoxic pulmonary vasoconstriction causing V/Q mismatch, the Haldane effect, and reduced respiratory drive). This woman has **acute-on-chronic hypercapnic respiratory failure**: raised PaCO₂, acidaemia (pH 7.28) and a raised bicarbonate showing chronic compensation. Her PaO₂ of 138 mmHg is far higher than needed.\n\nThe first step is **controlled oxygen**: Venturi mask (for example 24% to 28%) titrated to **SpO₂ 88% to 92%**. Then treat the exacerbation (bronchodilators, prednisolone, antibiotics for purulent sputum) and if pH remains below 7.35 with PaCO₂ above 45 mmHg despite this, start **non-invasive ventilation (BiPAP)**.\n\n**Rule:** COPD retainer: aim 88 to 92, never switch oxygen off abruptly (rebound hypoxaemia).",
+    "whyWrong": [
+      "Adding more oxygen will further worsen hypercapnia in a CO₂ retainer.",
+      "Abrupt oxygen withdrawal causes dangerous rebound hypoxaemia.",
+      "",
+      "Bicarbonate does not treat respiratory acidosis and can worsen CO₂ retention.",
+      "Opioids depress respiratory drive and are dangerous in hypercapnic respiratory failure."
+    ],
+    "ausPearl": "The Lung Foundation Australia COPD-X guidelines and the Thoracic Society of Australia and New Zealand oxygen guideline both recommend a target SpO₂ of 88% to 92% for patients at risk of hypercapnia.",
+    "tags": ["copd", "oxygen", "hypercapnia"]
+  },
+  {
+    "id": "med-007",
+    "discipline": "adult-medicine",
+    "topic": "respiratory",
+    "difficulty": "core",
+    "stem": "A 26-year-old woman sees her GP in Canberra about her asthma. She uses a salbutamol inhaler about 3 times a week for wheeze and cough, and wakes at night with symptoms about twice a month. She has not needed oral steroids in the past year. Spirometry last year confirmed asthma. Her inhaler technique is good. She takes no preventer.\n\nWhat is the most appropriate change to her treatment?",
+    "options": [
+      "Switch to as-needed low-dose budesonide-formoterol",
+      "Add a long-acting beta-agonist (salmeterol) alone",
+      "Add a long-acting muscarinic antagonist (tiotropium)",
+      "Give a 5-day course of oral prednisolone",
+      "Continue salbutamol alone and review in 12 months"
+    ],
+    "answer": 0,
+    "explanation": "Relying on a **short-acting beta-agonist (SABA) alone** is associated with more severe attacks and asthma deaths. Anyone with symptoms more than occasionally needs **inhaled corticosteroid (ICS)**-containing treatment.\n\nFor adults with **mild asthma**, the Australian Asthma Handbook supports either:\n- **As-needed low-dose budesonide-formoterol** (an anti-inflammatory reliever), or\n- Regular low-dose ICS with a SABA reliever\n\nAs-needed budesonide-formoterol reduces severe exacerbations as well as daily ICS does, with much lower steroid exposure and better adherence, because the patient takes ICS every time she relieves symptoms.\n\n**Never give LABA without ICS in asthma**: LABA monotherapy increases the risk of asthma death.\n\n**Rule:** no SABA-only asthma; every asthmatic gets ICS in some form.",
+    "whyWrong": [
+      "",
+      "LABA monotherapy without ICS is contraindicated in asthma because it increases the risk of severe attacks and death.",
+      "LAMAs are add-on therapy for severe asthma already on ICS-LABA, not a first preventer.",
+      "She is not having an acute exacerbation; oral steroids do not address ongoing airway inflammation.",
+      "Symptoms 3 times a week and night waking mean her asthma is not well controlled on SABA alone."
+    ],
+    "ausPearl": "The Australian Asthma Handbook (National Asthma Council Australia) is the key reference. Budesonide-formoterol is PBS-listed for as-needed use in mild asthma. Every patient should have a written asthma action plan.",
+    "tags": ["asthma", "ics", "primary care"]
+  },
+  {
+    "id": "med-008",
+    "discipline": "adult-medicine",
+    "topic": "respiratory",
+    "difficulty": "foundation",
+    "stem": "A 34-year-old woman presents to an ED in Hobart with 1 day of right-sided pleuritic chest pain. She takes the combined oral contraceptive pill. She has no leg swelling, no haemoptysis and no history of VTE, cancer or recent surgery. HR 104 bpm, BP 122/78 mmHg, RR 18/min, SpO2 98% on room air, temperature 36.9°C. Chest examination and chest X-ray are normal. Her doctor considers PE possible but not the most likely diagnosis.\n\nWhat is the most appropriate next investigation?",
+    "options": [
+      "CT pulmonary angiogram",
+      "Ventilation-perfusion scan",
+      "Bilateral lower limb Doppler ultrasound",
+      "D-dimer",
+      "No further testing for PE is required"
+    ],
+    "answer": 3,
+    "explanation": "Suspected PE is worked up by **pre-test probability** first.\n\n**Wells score** here: heart rate above 100 = 1.5; PE is not the most likely diagnosis = 0; no other criteria. Total **1.5 = \"PE unlikely\" (4 or less)**.\n\n- **PE unlikely** → **D-dimer**. A negative D-dimer rules PE out; a positive one leads to imaging (CTPA).\n- **PE likely** (more than 4) → go straight to **CTPA** (or V/Q if contrast is contraindicated).\n\nCould we skip testing with the **PERC rule**? No. PERC can only be applied when *all* criteria are met, and she fails two: **HR 100 or more** and **oestrogen use**.\n\n**Rule:** low probability → D-dimer; high probability → image. D-dimer is a rule-out test, never a rule-in test.",
+    "whyWrong": [
+      "CTPA is reserved for a positive D-dimer or a 'PE likely' Wells score; going straight to CT exposes low-risk patients to radiation and contrast.",
+      "V/Q scanning is an alternative to CTPA when contrast is contraindicated, not the first test in low-probability PE.",
+      "She has no leg symptoms, and a negative Doppler would not exclude PE.",
+      "",
+      "She fails PERC (heart rate above 100 and oestrogen use), so PE cannot be excluded clinically."
+    ],
+    "tags": ["pulmonary embolism", "wells score", "d-dimer"]
+  },
+  {
+    "id": "med-009",
+    "discipline": "adult-medicine",
+    "topic": "respiratory",
+    "difficulty": "exam",
+    "stem": "A 56-year-old man is admitted to a Sydney hospital with right lower lobe pneumonia. Despite 5 days of IV benzylpenicillin and oral doxycycline, he still has fevers of 38.6°C and right-sided pleuritic pain. Chest X-ray shows a moderate right pleural effusion. Ultrasound-guided diagnostic aspiration yields turbid fluid. Pleural fluid: pH 7.08, glucose 1.6 mmol/L, LDH 1400 U/L (serum LDH 250 U/L), protein 48 g/L (serum 70 g/L). Gram stain shows no organisms.\n\nWhat is the most appropriate next step in management?",
+    "options": [
+      "Continue current antibiotics and repeat the chest X-ray in 1 week",
+      "Insert an intercostal chest drain",
+      "Therapeutic aspiration of 1.5 L and discharge home",
+      "Add oral prednisolone",
+      "Perform pleurodesis with talc"
+    ],
+    "answer": 1,
+    "explanation": "First, is the effusion an **exudate**? **Light's criteria** (any one = exudate): fluid/serum protein above 0.5 (here 0.69), fluid/serum LDH above 0.6 (here 5.6), or fluid LDH above two-thirds of the upper limit of normal serum LDH. This is clearly an exudate.\n\nThe question then is **simple vs complicated parapneumonic effusion**. Features that mandate **chest drainage**:\n- **Pleural pH below 7.2** (the single most useful marker)\n- Low glucose (below about 3.3 mmol/L)\n- Frank pus (empyema) or organisms on Gram stain or culture\n- Loculation on imaging\n\nThis patient has pH 7.08 and glucose 1.6: a **complicated parapneumonic effusion**. Antibiotics alone will not sterilise it. He needs an **intercostal catheter**, antibiotics adjusted to cover anaerobes, and early thoracic surgical input if drainage fails (intrapleural tPA/DNase or VATS).\n\n**Rule:** pleural pH below 7.2 in pneumonia = drain it.",
+    "whyWrong": [
+      "Persistent fever with pH below 7.2 means the collection will not resolve on antibiotics alone.",
+      "",
+      "Single aspiration does not adequately drain a complicated parapneumonic effusion and he is still febrile.",
+      "Steroids have no role in treating an infected pleural space.",
+      "Pleurodesis is for recurrent malignant effusions, never for an infected pleural space."
+    ],
+    "tags": ["pleural effusion", "empyema", "lights criteria"]
+  },
+  {
+    "id": "med-010",
+    "discipline": "adult-medicine",
+    "topic": "endocrinology",
+    "difficulty": "foundation",
+    "stem": "A 19-year-old university student with type 1 diabetes is brought to a Gold Coast ED with 2 days of vomiting, abdominal pain and increasing drowsiness. He ran out of insulin 3 days ago. He is tachypnoeic with deep sighing breaths. HR 124 bpm, BP 96/58 mmHg, capillary refill 4 seconds. Venous gas: pH 7.08, HCO3 6 mmol/L, glucose 28 mmol/L, potassium 5.2 mmol/L, sodium 132 mmol/L. Blood ketones 6.2 mmol/L.\n\nWhat is the most appropriate first step in management?",
+    "options": [
+      "Intravenous insulin bolus of 10 units",
+      "Intravenous sodium bicarbonate",
+      "Subcutaneous rapid-acting insulin",
+      "Intravenous potassium chloride 40 mmol over 1 hour",
+      "Intravenous 0.9% sodium chloride bolus"
+    ],
+    "answer": 4,
+    "explanation": "This is **diabetic ketoacidosis (DKA)**: glucose above 11, ketones above 3 and acidosis (pH below 7.3 or bicarbonate below 15). Kussmaul breathing and tachycardia with poor perfusion show he is severely dehydrated.\n\nThe order of priorities in DKA:\n1. **Fluids first**: 0.9% sodium chloride, a bolus if shocked, then replacement over the next 24 to 48 hours\n2. **Potassium**: check it before insulin. Insulin drives K⁺ into cells and can cause fatal hypokalaemia. If K⁺ is below 3.5, replace before starting insulin; if 3.5 to 5.5, add K⁺ to fluids with insulin\n3. **Fixed-rate IV insulin infusion** (0.1 units/kg/h), no bolus\n4. Add glucose to fluids once glucose falls below about 14 mmol/L, and keep insulin running until ketones clear\n\nTotal body potassium is always depleted in DKA, even when the serum level looks normal or high.\n\n**Rule:** DKA = fluids, then potassium, then insulin.",
+    "whyWrong": [
+      "Insulin boluses are not recommended in adult DKA, and insulin before fluid resuscitation can worsen hypotension.",
+      "Bicarbonate is not routinely used; it can worsen hypokalaemia and cerebral oedema and does not treat the cause.",
+      "Subcutaneous insulin is unreliably absorbed in a shocked patient; DKA needs IV insulin.",
+      "Potassium 5.2 mmol/L does not need rapid replacement yet; potassium is added to fluids once insulin starts and levels fall.",
+      ""
+    ],
+    "tags": ["dka", "type 1 diabetes", "fluids"]
+  },
+  {
+    "id": "med-011",
+    "discipline": "adult-medicine",
+    "topic": "endocrinology",
+    "difficulty": "core",
+    "stem": "A 61-year-old man with type 2 diabetes sees his GP in Newcastle. He had a myocardial infarction with stenting 2 years ago. He takes metformin 1 g twice daily, atorvastatin, aspirin, ramipril and metoprolol. His HbA1c is 8.2% (66 mmol/mol). eGFR 68 mL/min/1.73 m². BMI 31 kg/m². He has no history of hypoglycaemia.\n\nWhich is the most appropriate medication to add?",
+    "options": [
+      "Gliclazide modified release",
+      "Sitagliptin",
+      "Empagliflozin",
+      "Pioglitazone",
+      "Insulin glargine"
+    ],
+    "answer": 2,
+    "explanation": "When metformin alone is not enough, the choice of second agent in type 2 diabetes is driven by **comorbidities**, not only glucose lowering.\n\nIn patients with **established atherosclerotic cardiovascular disease, heart failure or chronic kidney disease**, add an agent with **proven cardiovascular benefit**:\n- **SGLT2 inhibitors** (empagliflozin, dapagliflozin): reduce CV death, heart failure hospitalisation and CKD progression; also cause modest weight loss\n- **GLP-1 receptor agonists** (semaglutide, dulaglutide): reduce major CV events and cause weight loss\n\nThis man has a prior MI, so empagliflozin is the best choice. Counsel on **genital mycotic infections**, maintaining hydration, and **sick day rules** (withhold during acute illness or before surgery because of the risk of *euglycaemic* DKA).\n\nSulfonylureas, DPP-4 inhibitors and insulin lower glucose but lack CV benefit, and sulfonylureas and insulin cause weight gain and hypoglycaemia.\n\n**Rule:** heart, kidney or HF disease + T2DM = SGLT2i or GLP-1RA regardless of HbA1c.",
+    "whyWrong": [
+      "Gliclazide lowers glucose but has no cardiovascular benefit and causes weight gain and hypoglycaemia.",
+      "Sitagliptin is cardiovascularly neutral and gives only modest glucose lowering.",
+      "",
+      "Pioglitazone causes fluid retention and weight gain and is not preferred in cardiovascular disease.",
+      "Insulin is not the next step at this HbA1c when an oral agent with CV benefit is available, and it causes weight gain."
+    ],
+    "ausPearl": "The RACGP 'Management of type 2 diabetes: A handbook for general practice' and the Australian Diabetes Society algorithm prioritise SGLT2i or GLP-1RA in established CVD. PBS subsidy for these agents requires combination use criteria (for example, HbA1c above 7% despite metformin or a sulfonylurea).",
+    "tags": ["type 2 diabetes", "sglt2 inhibitor", "cardiovascular"]
+  },
+  {
+    "id": "med-012",
+    "discipline": "adult-medicine",
+    "topic": "endocrinology",
+    "difficulty": "exam",
+    "stem": "A 42-year-old woman is brought to an ED in Townsville with 3 days of vomiting, abdominal pain and increasing weakness after a gastroenteritis illness. Over the past 6 months she has lost 7 kg, feels constantly tired and has noticed darkening of her skin creases and gums. She has hypothyroidism treated with thyroxine. BP 78/44 mmHg, HR 122 bpm. Na 124 mmol/L, K 6.1 mmol/L, urea 14.2 mmol/L, glucose 3.1 mmol/L. A random cortisol has been collected.\n\nWhat is the most appropriate immediate management?",
+    "options": [
+      "Intravenous hydrocortisone 100 mg and 0.9% sodium chloride resuscitation",
+      "Await the cortisol result, then perform a short Synacthen test",
+      "Oral fludrocortisone 100 micrograms daily",
+      "Intravenous 3% hypertonic saline",
+      "Intravenous calcium gluconate followed by insulin-dextrose"
+    ],
+    "answer": 0,
+    "explanation": "This is an **adrenal (Addisonian) crisis** in a woman with probable **autoimmune primary adrenal insufficiency** (another autoimmune condition, hypothyroidism, is a clue).\n\nKey features:\n- **Hyperpigmentation** of creases and buccal mucosa (high ACTH stimulates melanocytes) points to *primary* adrenal failure\n- **Hyponatraemia, hyperkalaemia** (loss of aldosterone), hypoglycaemia, raised urea\n- Shock precipitated by intercurrent illness\n\nAdrenal crisis is **fatal if treatment is delayed for tests**. Take blood for cortisol and ACTH, then **immediately give IV hydrocortisone 100 mg** (then 50 mg 6-hourly or an infusion) and **aggressive IV 0.9% saline**, plus dextrose for hypoglycaemia. At this dose hydrocortisone also provides mineralocorticoid effect, so fludrocortisone is not needed acutely.\n\nThe hyperkalaemia usually corrects with steroids and fluids.\n\n**Rule:** suspect adrenal crisis → hydrocortisone first, confirm later.",
+    "whyWrong": [
+      "",
+      "Delaying steroids for testing in a shocked patient risks death; the Synacthen test can be done after stabilisation.",
+      "Fludrocortisone alone does not replace cortisol and is not needed acutely when high-dose hydrocortisone is given.",
+      "Her hyponatraemia is from hypovolaemia and cortisol/aldosterone deficiency, not severe symptomatic hyponatraemia needing hypertonic saline.",
+      "Her potassium of 6.1 mmol/L will correct with hydrocortisone and fluids; it is not the life threat here."
+    ],
+    "ausPearl": "Patients with known adrenal insufficiency in Australia should carry a steroid emergency card, wear a medical alert bracelet and have an emergency hydrocortisone injection kit, with education on sick day rules (doubling or tripling oral dose during illness).",
+    "tags": ["adrenal crisis", "addison disease", "hydrocortisone"]
+  },
+  {
+    "id": "med-013",
+    "discipline": "adult-medicine",
+    "topic": "endocrinology",
+    "difficulty": "core",
+    "stem": "A 63-year-old woman sees her GP in Geelong after routine blood tests. She feels well apart from mild constipation. She has a history of a renal calculus 3 years ago. She takes no calcium or vitamin D supplements or thiazides. Results: corrected calcium 2.84 mmol/L (2.10 to 2.60), phosphate 0.72 mmol/L (0.75 to 1.50), parathyroid hormone 9.8 pmol/L (1.5 to 7.0), eGFR 82 mL/min/1.73 m². Repeat calcium is similar.\n\nWhat is the most likely diagnosis?",
+    "options": [
+      "Humoral hypercalcaemia of malignancy",
+      "Vitamin D toxicity",
+      "Multiple myeloma",
+      "Primary hyperparathyroidism",
+      "Secondary hyperparathyroidism due to chronic kidney disease"
+    ],
+    "answer": 3,
+    "explanation": "The key step in hypercalcaemia is to **check PTH**.\n\n- **High or inappropriately normal PTH** with high calcium = **PTH-driven**, almost always **primary hyperparathyroidism** (a parathyroid adenoma in about 85%). Familial hypocalciuric hypercalcaemia is the important mimic, distinguished by low urinary calcium.\n- **Suppressed PTH** = non-PTH causes: malignancy (PTHrP, bone metastases, myeloma), vitamin D excess, sarcoidosis, thiazides, immobilisation.\n\nThis woman has **high calcium, low phosphate and high PTH**, with a renal stone: classic primary hyperparathyroidism. It is the most common cause in the community, often found incidentally in older women. Malignancy is the most common cause in hospital inpatients.\n\nSymptoms: \"stones, bones, abdominal groans and psychiatric moans.\" Indications for parathyroidectomy include symptoms, renal stones, osteoporosis, age below 50, or calcium more than 0.25 mmol/L above the upper limit.\n\n**Rule:** high calcium + high PTH = primary hyperparathyroidism.",
+    "whyWrong": [
+      "Malignancy-related hypercalcaemia suppresses PTH.",
+      "Vitamin D toxicity causes hypercalcaemia with suppressed PTH and usually high phosphate, and she takes no supplements.",
+      "Myeloma causes hypercalcaemia via bone resorption with suppressed PTH.",
+      "",
+      "Secondary hyperparathyroidism is a response to low or normal calcium, and her renal function is normal."
+    ],
+    "tags": ["hypercalcaemia", "hyperparathyroidism", "pth"]
+  },
+  {
+    "id": "med-014",
+    "discipline": "adult-medicine",
+    "topic": "infectious-disease",
+    "difficulty": "core",
+    "stem": "A 45-year-old man sees his GP in suburban Melbourne with 3 days of fever, productive cough and right-sided pleuritic chest pain. He is otherwise well with no comorbidities or drug allergies. Temperature 38.4°C, HR 96 bpm, RR 20/min, BP 128/80 mmHg, SpO2 96% on room air. He is alert and oriented. There are coarse crackles at the right base, and chest X-ray shows right lower lobe consolidation. He lives with his wife and can take oral medication.\n\nWhat is the most appropriate antibiotic treatment?",
+    "options": [
+      "Oral ciprofloxacin",
+      "Oral amoxicillin",
+      "Intramuscular ceftriaxone daily at the clinic",
+      "Oral moxifloxacin",
+      "Oral cefalexin"
+    ],
+    "answer": 1,
+    "explanation": "This is **low-severity community-acquired pneumonia (CAP)**, suitable for outpatient treatment. Severity is assessed with clinical judgement plus a tool such as **CORB** or **SMART-COP**. He has no confusion, a normal respiratory rate for severity purposes, normal BP and oxygen saturations.\n\nThe most common cause of CAP is **Streptococcus pneumoniae**. The Therapeutic Guidelines (eTG) recommend for low-severity CAP in adults:\n- **Amoxicillin 1 g orally, 8-hourly, for 5 days**\n- Add or switch to **doxycycline** if an atypical organism (Mycoplasma) is suspected, or use doxycycline in penicillin allergy\n\nReview in 48 hours: if he is not improving, reassess severity and diagnosis.\n\n**Fluoroquinolones** are reserved in Australia for specific situations (severe penicillin hypersensitivity, resistant organisms) to limit resistance and adverse effects.\n\n**Rule:** mild CAP = amoxicillin; the pneumococcus comes first.",
+    "whyWrong": [
+      "Ciprofloxacin has poor pneumococcal cover and is not used for CAP.",
+      "",
+      "Parenteral ceftriaxone is for moderate or severe CAP, not a well outpatient who can take oral medication.",
+      "Moxifloxacin is restricted in Australia to specific indications such as severe penicillin allergy.",
+      "Cefalexin has inadequate activity against Streptococcus pneumoniae in CAP."
+    ],
+    "ausPearl": "Therapeutic Guidelines (eTG) is the standard antimicrobial reference in Australia. Antimicrobial stewardship (the AMS standard in the National Safety and Quality Health Service Standards) restricts broad-spectrum agents such as fluoroquinolones.",
+    "tags": ["pneumonia", "antibiotics", "etg"]
+  },
+  {
+    "id": "med-015",
+    "discipline": "adult-medicine",
+    "topic": "infectious-disease",
+    "difficulty": "foundation",
+    "stem": "A 19-year-old man is brought by his housemate to a GP clinic in a country town 90 minutes' drive from the nearest hospital. He has had fever, headache and vomiting for 12 hours and now has cold hands and leg pain. Temperature 39.3°C, HR 128 bpm, BP 96/60 mmHg. There is a non-blanching petechial rash over his legs and trunk. He is drowsy but rousable. An ambulance has been called.\n\nWhat is the most appropriate immediate action?",
+    "options": [
+      "Perform a lumbar puncture before giving antibiotics",
+      "Take blood cultures and wait for the ambulance before treating",
+      "Give oral amoxicillin and send him with the ambulance",
+      "Give benzylpenicillin 2.4 g intravenously or intramuscularly now",
+      "Give intravenous dexamethasone alone and transfer"
+    ],
+    "answer": 3,
+    "explanation": "Fever plus a **non-blanching petechial or purpuric rash** in an unwell young person is **invasive meningococcal disease** until proven otherwise. It can kill within hours, and early antibiotics save lives and limbs.\n\nIn primary care or pre-hospital settings, **do not delay antibiotics** for investigations or transfer. Give **benzylpenicillin 2.4 g IV or IM** (or ceftriaxone 2 g IV/IM if available) immediately. If it can be done without delay, take blood cultures first, but never let this slow treatment.\n\nIn hospital: ceftriaxone, fluid resuscitation for septic shock, and consider dexamethasone for meningitis.\n\nLumbar puncture is **contraindicated** in suspected meningococcal septicaemia with shock or a spreading rash.\n\n**Rule:** fever + non-blanching rash = give penicillin now, ask questions later.",
+    "whyWrong": [
+      "LP is contraindicated in shock with a purpuric rash and must never delay antibiotics.",
+      "Waiting for transfer before treatment wastes critical time in a disease that progresses over hours.",
+      "Oral antibiotics are inadequate for septicaemia in a shocked patient.",
+      "",
+      "Dexamethasone without antibiotics does not treat the infection."
+    ],
+    "ausPearl": "Invasive meningococcal disease is urgently notifiable in all Australian states and territories: notify the public health unit by phone on clinical suspicion. Close contacts receive clearance antibiotics (for example, ciprofloxacin or rifampicin). MenACWY and MenB vaccines are on the National Immunisation Program for specified groups, with additional state programs such as South Australia's and Queensland's MenB programs.",
+    "tags": ["meningococcal", "sepsis", "rural"]
+  },
+  {
+    "id": "med-016",
+    "discipline": "adult-medicine",
+    "topic": "infectious-disease",
+    "difficulty": "exam",
+    "stem": "A 54-year-old Aboriginal man from a community near Katherine in the Northern Territory is flown to Royal Darwin Hospital in February (the wet season) with 4 days of fever, cough and breathlessness. He has type 2 diabetes (HbA1c 10.5%) and drinks alcohol heavily. Temperature 39.4°C, HR 128 bpm, BP 84/50 mmHg despite 2 L of IV fluid, RR 32/min, SpO2 88% on room air. Chest X-ray shows multilobar consolidation. Blood cultures are pending.\n\nWhich empirical antibiotic regimen most appropriately covers the likely pathogen?",
+    "options": [
+      "Intravenous benzylpenicillin plus oral doxycycline",
+      "Intravenous ceftriaxone plus azithromycin",
+      "Intravenous amoxicillin-clavulanate",
+      "Intravenous vancomycin plus gentamicin",
+      "Intravenous meropenem"
+    ],
+    "answer": 4,
+    "explanation": "In tropical northern Australia during the wet season, severe pneumonia with sepsis in a patient with **diabetes, hazardous alcohol use or chronic kidney disease** must raise suspicion of **melioidosis**, caused by the soil bacterium **Burkholderia pseudomallei**. Infection follows exposure to wet soil or muddy water, often after heavy rain.\n\nMelioidosis can present as pneumonia, septic shock, or abscesses in the prostate, spleen, liver or kidney. Mortality with septic shock is high.\n\nB. pseudomallei is **intrinsically resistant** to penicillins, first- and second-generation cephalosporins and aminoglycosides, and ceftriaxone is unreliable. Treatment:\n- **Severe (septic shock/ICU): meropenem IV**\n- Non-severe: ceftazidime IV\n- Followed by an **eradication phase** with oral trimethoprim-sulfamethoxazole for at least 3 months\n\nIn the Top End, empirical therapy for severe CAP in the wet season is modified to cover melioidosis.\n\n**Rule:** Top End + wet season + diabetes + sepsis = think melioidosis, give meropenem.",
+    "whyWrong": [
+      "Benzylpenicillin has no activity against Burkholderia pseudomallei.",
+      "Ceftriaxone is unreliable against B. pseudomallei and associated with poorer outcomes.",
+      "Amoxicillin-clavulanate is not adequate intensive-phase therapy for severe melioidosis.",
+      "B. pseudomallei is intrinsically resistant to aminoglycosides, and vancomycin does not cover Gram-negative organisms.",
+      ""
+    ],
+    "ausPearl": "Melioidosis is endemic in the Top End of the Northern Territory and far north Queensland, with the highest burden in Aboriginal and Torres Strait Islander communities where diabetes and CKD are common. It is notifiable in the NT and Queensland. The Darwin Prospective Melioidosis Study underpins much of the world's evidence on the disease.",
+    "tags": ["melioidosis", "sepsis", "indigenous health"]
+  },
+  {
+    "id": "med-017",
+    "discipline": "adult-medicine",
+    "topic": "infectious-disease",
+    "difficulty": "core",
+    "stem": "A 29-year-old mining engineer presents to a Cairns ED with 3 days of fevers, rigors, headache and myalgia. He returned 10 days ago from a 6-week work posting in the highlands of Papua New Guinea. He took no antimalarial prophylaxis. Temperature 39.1°C, HR 110 bpm, BP 118/72 mmHg. He is alert and there is no rash or neck stiffness. Platelets 68 × 10⁹/L, bilirubin 32 µmol/L.\n\nWhat is the most important initial investigation?",
+    "options": [
+      "Dengue NS1 antigen only",
+      "Blood cultures only",
+      "Thick and thin blood films (with rapid antigen test) for malaria",
+      "Lumbar puncture",
+      "Leptospira serology"
+    ],
+    "answer": 2,
+    "explanation": "**Fever in a returned traveller from a malaria-endemic area is malaria until proven otherwise.** Papua New Guinea has high rates of both *Plasmodium falciparum* and *P. vivax*. Falciparum malaria can progress to severe disease (cerebral malaria, acidosis, renal failure) within hours, especially in non-immune travellers.\n\nThe symptoms are non-specific: fever, rigors, headache and myalgia. **Thrombocytopenia** and mild hyperbilirubinaemia (from haemolysis) are common supportive clues.\n\nInvestigation:\n- **Thick films** detect parasites (sensitive)\n- **Thin films** identify the species and give the **parasitaemia percentage**, which guides severity\n- Rapid antigen tests support the diagnosis\n- One negative set does **not** exclude malaria: repeat at 12 to 24 hour intervals for a total of 3 sets\n\nOther tests (dengue, blood cultures, leptospirosis) are also sent, but malaria must be excluded first.\n\n**Rule:** returned from the tropics + fever = three sets of films.",
+    "whyWrong": [
+      "Dengue is possible, but malaria is the life-threatening diagnosis that must be excluded first.",
+      "Blood cultures are appropriate but will not diagnose malaria, the most dangerous likely cause.",
+      "",
+      "He has no meningism or altered consciousness, and LP does not diagnose malaria.",
+      "Leptospirosis serology is useful but is slower and less urgent than excluding falciparum malaria."
+    ],
+    "ausPearl": "Malaria is notifiable in all Australian states and territories. Although Australia was declared malaria-free in 1981, the vector is present in far north Queensland, so imported cases are monitored to prevent local transmission. Severe malaria is treated with IV artesunate, which is available in Australian hospitals.",
+    "tags": ["malaria", "returned traveller", "fever"]
+  },
+  {
+    "id": "med-018",
+    "discipline": "adult-medicine",
+    "topic": "emergency-medicine",
+    "difficulty": "foundation",
+    "stem": "A 36-year-old woman develops generalised urticaria, lip swelling, wheeze and light-headedness 10 minutes after eating a satay chicken dish at a restaurant in Brisbane. Paramedics find her BP 82/48 mmHg, HR 124 bpm, RR 26/min, SpO2 91%, with audible wheeze. She weighs 65 kg.\n\nWhat is the most appropriate first drug to give?",
+    "options": [
+      "Intravenous promethazine 25 mg",
+      "Intramuscular adrenaline 0.5 mg (0.5 mL of 1:1000) into the anterolateral thigh",
+      "Intravenous hydrocortisone 200 mg",
+      "Nebulised salbutamol 5 mg",
+      "Intravenous adrenaline 1 mg (1 mL of 1:1000) as a bolus"
+    ],
+    "answer": 1,
+    "explanation": "This is **anaphylaxis** (probable peanut allergy): acute onset with skin involvement plus respiratory compromise and hypotension.\n\n**Intramuscular adrenaline is the first and most important treatment.** It reverses bronchospasm, vasodilation and mucosal oedema.\n- Dose: **0.01 mg/kg of 1:1000 (1 mg/mL), maximum 0.5 mg**, into the **outer mid-thigh**\n- Repeat every 5 minutes if there is no response\n- If there is no response after 2 or 3 doses, start an adrenaline infusion\n\nAlso: **lay her flat** (do not let her stand or walk), give high-flow oxygen and IV fluid for hypotension.\n\n**Antihistamines and corticosteroids are not first-line**. They do not treat airway obstruction or shock. Sedating antihistamines like promethazine can worsen hypotension.\n\nIV adrenaline boluses of 1 mg are for cardiac arrest only.\n\n**Rule:** anaphylaxis = IM adrenaline into the thigh, first and fast.",
+    "whyWrong": [
+      "Antihistamines do not treat airway oedema or shock, and promethazine can worsen hypotension.",
+      "",
+      "Corticosteroids act too slowly and are not first-line in anaphylaxis.",
+      "Salbutamol treats bronchospasm only and does nothing for hypotension or airway oedema.",
+      "A 1 mg IV bolus is the cardiac arrest dose and can cause fatal arrhythmias in a patient with a pulse."
+    ],
+    "ausPearl": "ASCIA (Australasian Society of Clinical Immunology and Allergy) action plans guide adrenaline autoinjector use. Autoinjectors (EpiPen, Anapen) are PBS-listed; every patient discharged after anaphylaxis should have one, an ASCIA action plan and allergy specialist referral. Anaphylaxis patients should be observed for at least 4 hours after treatment.",
+    "tags": ["anaphylaxis", "adrenaline", "allergy"]
+  },
+  {
+    "id": "med-019",
+    "discipline": "adult-medicine",
+    "topic": "emergency-medicine",
+    "difficulty": "core",
+    "stem": "A 24-year-old woman (weight 60 kg) presents to an ED in Perth 6 hours after deliberately taking 24 tablets of paracetamol 500 mg (12 g in total) at a single time point following an argument. She took nothing else. She is well, with normal observations and no abdominal pain. The laboratory can return a paracetamol level within 1 hour.\n\nWhat is the most appropriate next step in management?",
+    "options": [
+      "Give activated charcoal 50 g orally",
+      "Discharge home with mental health follow-up since she is asymptomatic",
+      "Wait until 8 hours after ingestion, then measure a paracetamol level",
+      "Start acetylcysteine without measuring a paracetamol level",
+      "Measure a serum paracetamol concentration now and plot it on the nomogram"
+    ],
+    "answer": 4,
+    "explanation": "For **acute single-time-point paracetamol ingestion**, the Australian and New Zealand guideline uses a **risk-assessment threshold**: 10 g or 200 mg/kg, whichever is less. She has taken 12 g (200 mg/kg), so she is at potential risk.\n\nManagement depends on the **time since ingestion**:\n- **Less than 4 hours:** wait and take a level at 4 hours\n- **4 to 8 hours:** take a level **now**. If the result will be back **before 8 hours**, wait and treat according to the nomogram; if not, start acetylcysteine while waiting\n- **More than 8 hours, staggered or unknown time:** start acetylcysteine immediately\n\nThe Australian nomogram treatment line starts at **150 mg/L at 4 hours**. Acetylcysteine is most effective when started within 8 hours.\n\nActivated charcoal is only useful early (within about 2 hours for standard ingestions).\n\nAll deliberate self-poisonings need a psychosocial and suicide risk assessment before discharge.\n\n**Rule:** 4 to 8 hours = level now; the 8-hour mark is the deadline for acetylcysteine.",
+    "whyWrong": [
+      "At 6 hours after an immediate-release ingestion, charcoal offers no meaningful benefit.",
+      "Patients with paracetamol toxicity are often asymptomatic early, and she needs a level and a mental health assessment.",
+      "Delaying the level to 8 hours risks missing the window in which acetylcysteine is most effective.",
+      "Empirical acetylcysteine is only needed when the level cannot be obtained before 8 hours; here it can.",
+      ""
+    ],
+    "ausPearl": "The 2020 Australian and New Zealand paracetamol poisoning guideline (Chiew et al., MJA) introduced a two-bag acetylcysteine regimen (200 mg/kg over 4 hours, then 100 mg/kg over 16 hours). The Poisons Information Centre is available 24 hours on 13 11 26.",
+    "tags": ["paracetamol", "overdose", "toxicology"]
+  },
+  {
+    "id": "med-020",
+    "discipline": "adult-medicine",
+    "topic": "emergency-medicine",
+    "difficulty": "core",
+    "stem": "A 68-year-old man on haemodialysis for end-stage kidney disease presents to an ED in Wollongong after missing two dialysis sessions. He feels weak. HR 52 bpm, BP 142/86 mmHg. Potassium 7.4 mmol/L. ECG shows peaked T waves, a prolonged PR interval and widened QRS complexes (140 ms).\n\nWhat is the most appropriate first treatment?",
+    "options": [
+      "Intravenous 10% calcium gluconate 30 mL",
+      "Intravenous insulin 10 units with 50 mL of 50% glucose",
+      "Oral sodium polystyrene sulfonate (Resonium)",
+      "Intravenous frusemide 80 mg",
+      "Nebulised salbutamol 10 mg"
+    ],
+    "answer": 0,
+    "explanation": "Hyperkalaemia with **ECG changes** is a medical emergency because it can progress to ventricular fibrillation or asystole. Treatment follows three steps:\n\n1. **Stabilise the myocardium: IV calcium** (calcium gluconate 10%, for example 30 mL, or calcium chloride 10 mL via a large vein). It works in minutes but does not lower potassium. Repeat if ECG changes persist.\n2. **Shift potassium into cells:** IV insulin with glucose, and nebulised salbutamol. These lower K⁺ by about 0.5 to 1.5 mmol/L within 30 minutes.\n3. **Remove potassium from the body:** dialysis (definitive here), potassium binders, or diuretics if the kidneys work.\n\nThis man has a **widened QRS**, the most ominous sign, so **calcium comes first**. He will then need insulin-dextrose and urgent dialysis.\n\n**Rule:** ECG changes = calcium first (protect), then shift, then remove.",
+    "whyWrong": [
+      "",
+      "Insulin-dextrose is the right second step but does not protect the myocardium as quickly as calcium.",
+      "Resins act over hours and do nothing for immediate cardiac risk.",
+      "Frusemide is ineffective in an anuric dialysis patient.",
+      "Salbutamol shifts potassium but does not stabilise the myocardium and is second-line."
+    ],
+    "tags": ["hyperkalaemia", "ecg", "dialysis"]
+  },
+  {
+    "id": "med-021",
+    "discipline": "adult-medicine",
+    "topic": "emergency-medicine",
+    "difficulty": "exam",
+    "stem": "A 41-year-old farmer in the Riverina region of NSW is brought to a district hospital 45 minutes after being bitten on the right ankle by a brown snake while moving hay bales. A bystander applied a pressure immobilisation bandage along the whole leg and splinted it. He feels well. HR 84 bpm, BP 128/78 mmHg. There is no headache, abdominal pain, vomiting, bleeding or weakness. The hospital stocks antivenom.\n\nWhat is the most appropriate next step?",
+    "options": [
+      "Remove the bandage immediately to inspect the bite site",
+      "Give brown snake antivenom now because the snake was identified",
+      "Leave the bandage in place, take bloods (INR, aPTT, fibrinogen, FBC, CK, creatinine) and remove the bandage only if results and examination are normal",
+      "Swab the bite site with a snake venom detection kit to decide whether antivenom is needed",
+      "Apply an arterial tourniquet above the knee"
+    ],
+    "answer": 2,
+    "explanation": "In Australia, suspected snakebite is managed with **pressure immobilisation bandaging (PIB)**, which slows the lymphatic spread of venom.\n\nIn hospital, the approach is:\n1. **Keep the PIB on** until the patient is in a facility with antivenom and initial assessment is done\n2. Take bloods for **envenoming**: coagulation (INR, aPTT, fibrinogen, D-dimer) for venom-induced consumption coagulopathy, FBC and film (thrombotic microangiopathy), **CK** (myotoxicity), creatinine\n3. If bloods and examination are normal, **remove the bandage** and repeat bloods about 1 hour later, then at 6 and 12 hours\n4. **Antivenom** is given only if there is **clinical or laboratory evidence of envenoming**\n\nBrown snake envenoming often causes coagulopathy with few symptoms, which is why serial bloods matter. Most bites do not result in envenoming, and antivenom carries a risk of anaphylaxis.\n\n**Rule:** snakebite = bandage on, bloods, then remove; treat evidence of envenoming, not the bite.",
+    "whyWrong": [
+      "Removing the bandage before assessment can release venom and cause sudden collapse.",
+      "Antivenom is only given with clinical or laboratory evidence of envenoming, not because a bite occurred.",
+      "",
+      "The venom detection kit does not tell you whether the patient is envenomed and should not decide whether to give antivenom.",
+      "Arterial tourniquets are not used in Australian snakebite first aid and cause ischaemia."
+    ],
+    "ausPearl": "Brown snakes (Pseudonaja) cause most snakebite deaths in Australia. Do not wash the bite site. Advice is available 24 hours from the Poisons Information Centre on 13 11 26, which connects to clinical toxicologists. Rural hospitals may need retrieval if they do not stock antivenom.",
+    "tags": ["snakebite", "toxinology", "rural"]
+  },
+  {
+    "id": "med-022",
+    "discipline": "adult-medicine",
+    "topic": "neurology",
+    "difficulty": "foundation",
+    "stem": "A 67-year-old woman is brought to a Sydney ED by ambulance 70 minutes after her husband noticed sudden right-sided weakness and difficulty speaking while they were eating lunch. She has hypertension and atrial fibrillation but stopped her apixaban 2 weeks ago. BP 176/94 mmHg, HR 92 bpm and irregular, glucose 6.8 mmol/L. She has a right facial droop, right arm and leg weakness and expressive dysphasia.\n\nWhat is the most appropriate next step?",
+    "options": [
+      "Give aspirin 300 mg immediately",
+      "Lower her blood pressure to below 140/90 mmHg before any imaging",
+      "Give intravenous alteplase immediately based on clinical diagnosis",
+      "Arrange an MRI brain within 24 hours",
+      "Urgent non-contrast CT brain with CT angiography"
+    ],
+    "answer": 4,
+    "explanation": "Sudden focal neurological deficit = **stroke until proven otherwise**. She is within the **4.5-hour window for thrombolysis**, and possibly a candidate for **endovascular thrombectomy** (large-vessel occlusion, up to 24 hours in selected patients).\n\nThe **first step is urgent brain imaging** because clinical features cannot reliably distinguish ischaemic stroke from **intracerebral haemorrhage**:\n- **Non-contrast CT** excludes haemorrhage\n- **CT angiography** identifies large-vessel occlusion for thrombectomy\n- CT perfusion helps in selected cases\n\nOnly after haemorrhage is excluded can thrombolysis be given (with BP lowered below 185/110 mmHg). Aspirin is withheld until haemorrhage is excluded and, if lysed, for 24 hours afterwards.\n\n**Rule:** time is brain: scan first, then lyse or retrieve the clot.",
+    "whyWrong": [
+      "Aspirin before imaging risks harm if this is a haemorrhage, and it is withheld for 24 hours after thrombolysis.",
+      "Aggressive BP lowering before imaging can extend ischaemia; the thrombolysis threshold is below 185/110 mmHg.",
+      "Thrombolysis without imaging risks giving a clot-busting drug to a haemorrhagic stroke.",
+      "Waiting 24 hours for MRI loses the treatment window.",
+      ""
+    ],
+    "ausPearl": "Most Australian metropolitan hospitals run 'code stroke' pathways, and regional sites use telestroke networks (for example, the Victorian Stroke Telemedicine program) for thrombolysis decisions and thrombectomy retrieval. The Stroke Foundation's Australian clinical guidelines are the key reference.",
+    "tags": ["stroke", "thrombolysis", "imaging"]
+  },
+  {
+    "id": "med-023",
+    "discipline": "adult-medicine",
+    "topic": "neurology",
+    "difficulty": "core",
+    "stem": "A 70-year-old man sees his GP in Launceston 2 days after a 20-minute episode of weakness and numbness of his left hand and slurred speech, which fully resolved. He has hypertension, hypercholesterolaemia and smokes 20 cigarettes a day. Examination is now normal and he is in sinus rhythm. The GP started aspirin and arranged urgent imaging. CT brain is normal. Carotid duplex ultrasound shows an 80% stenosis of the right internal carotid artery and a 30% stenosis of the left.\n\nWhat is the most appropriate management of the carotid disease?",
+    "options": [
+      "Medical therapy alone with repeat duplex ultrasound in 6 months",
+      "Referral for right carotid endarterectomy within 2 weeks",
+      "Bilateral carotid endarterectomy",
+      "Left carotid endarterectomy",
+      "Start warfarin"
+    ],
+    "answer": 1,
+    "explanation": "This is a **TIA in the right carotid territory** (left hand symptoms plus dysarthria). The right internal carotid artery has a **70% to 99% stenosis**, making it **symptomatic severe carotid stenosis**.\n\n**Carotid endarterectomy (CEA)** of the **symptomatic** side greatly reduces stroke risk, and the benefit is greatest when surgery is done **within 2 weeks** of the event. The risk of stroke is highest in the first days after a TIA.\n\nAll patients also get **best medical therapy**: antiplatelet, high-intensity statin, BP control and smoking cessation.\n\nThe left 30% stenosis is **asymptomatic and mild**, so it is treated medically.\n\nAnticoagulation is for cardioembolic causes (such as AF), not carotid atherosclerosis.\n\n**Rule:** symptomatic 70 to 99% carotid stenosis = endarterectomy, ideally within 2 weeks.",
+    "whyWrong": [
+      "Symptomatic severe stenosis carries a high early stroke risk that medical therapy alone does not adequately reduce.",
+      "",
+      "The left side is mildly stenosed and asymptomatic; surgery there adds risk without benefit.",
+      "The left carotid is not the symptomatic vessel, and a 30% stenosis does not need surgery.",
+      "Warfarin is not indicated for large-artery atherosclerosis in sinus rhythm."
+    ],
+    "ausPearl": "Under Austroads 'Assessing Fitness to Drive', private drivers should not drive for at least 2 weeks after a TIA, and commercial drivers for longer, pending specialist review.",
+    "tags": ["tia", "carotid stenosis", "stroke prevention"]
+  },
+  {
+    "id": "med-024",
+    "discipline": "adult-medicine",
+    "topic": "neurology",
+    "difficulty": "exam",
+    "stem": "A 44-year-old woman presents to an ED in Adelaide with a sudden, severe occipital headache that reached maximum intensity within seconds while she was at the gym. She describes it as the worst headache of her life. She vomited once. She is now alert (GCS 15) with mild neck stiffness and no focal deficit. BP 152/88 mmHg. A non-contrast CT brain performed 9 hours after headache onset is reported as normal.\n\nWhat is the most appropriate next step?",
+    "options": [
+      "Discharge with analgesia and GP follow-up",
+      "Start sumatriptan and observe",
+      "Arrange an outpatient MRI brain",
+      "Lumbar puncture at least 12 hours after headache onset to look for xanthochromia",
+      "Start nimodipine and discharge"
+    ],
+    "answer": 3,
+    "explanation": "A **thunderclap headache** (maximal within a minute) must be investigated for **subarachnoid haemorrhage (SAH)**, most often from a ruptured berry aneurysm.\n\nThe sensitivity of CT **falls with time**:\n- **Within 6 hours** of onset, a modern CT read by an experienced radiologist is close to 100% sensitive in an alert patient, so a normal scan largely excludes SAH\n- **After 6 hours**, a normal CT does **not** exclude SAH\n\nHer CT was done at **9 hours**, so she needs a **lumbar puncture**, timed **at least 12 hours after onset**. This gives time for red cells to break down into bilirubin, producing **xanthochromia** (detected by spectrophotometry), which distinguishes true SAH from a traumatic tap. CT angiography is an alternative in some centres.\n\nIf SAH is confirmed: CT angiography, neurosurgery, nimodipine to prevent vasospasm, and aneurysm coiling or clipping.\n\n**Rule:** thunderclap headache + CT after 6 hours normal = LP at 12 hours.",
+    "whyWrong": [
+      "A normal CT beyond 6 hours does not exclude SAH, and a missed aneurysm can re-bleed fatally.",
+      "Triptans cause vasoconstriction, are contraindicated in suspected SAH and do not address the diagnosis.",
+      "Outpatient imaging delays the diagnosis of a condition with a high early re-bleed risk.",
+      "",
+      "Nimodipine is for confirmed SAH, and discharge without a diagnosis is unsafe."
+    ],
+    "tags": ["subarachnoid haemorrhage", "headache", "lumbar puncture"]
+  },
+  {
+    "id": "med-025",
+    "discipline": "adult-medicine",
+    "topic": "neurology",
+    "difficulty": "core",
+    "stem": "A 28-year-old accountant who drives a private car is reviewed in a neurology clinic in Melbourne 1 week after a single witnessed generalised tonic-clonic seizure at home. He had no triggers such as sleep deprivation, alcohol or drugs. Examination, blood tests, MRI brain and EEG are all normal. The neurologist does not start an antiseizure medication. He asks when he can drive again.\n\nUnder Australian fitness-to-drive standards, what is the most appropriate advice?",
+    "options": [
+      "He should not drive for at least 6 months from the seizure",
+      "He may drive immediately because investigations are normal",
+      "He should not drive for at least 4 weeks",
+      "He should not drive for at least 5 years",
+      "He can never hold a private licence again"
+    ],
+    "answer": 0,
+    "explanation": "Driving after a seizure is governed nationally by **Austroads' Assessing Fitness to Drive** standards.\n\nFor a **first unprovoked seizure** in a **private (car) driver**, the standard is **no driving for at least 6 months** after the seizure, subject to specialist review. This period may be shortened in some circumstances on specialist advice (for example, a clearly provoked seizure with the cause removed).\n\nFor **commercial** drivers (heavy vehicles, public passenger vehicles) the non-driving period is much longer.\n\nThe doctor's role:\n- Advise the patient clearly and **document the advice** in the notes\n- Explain that the **patient is legally responsible for informing the driver licensing authority** of a condition that affects driving\n\nThis is a common AMC topic because the rules differ from other countries.\n\n**Rule:** first seizure, private licence = 6 months off the road.",
+    "whyWrong": [
+      "",
+      "Normal investigations do not remove the recurrence risk in the first months after a seizure.",
+      "4 weeks is far shorter than the Austroads standard for a first unprovoked seizure.",
+      "Much longer non-driving periods apply to commercial licences, not private drivers.",
+      "A single seizure does not permanently bar a private driver."
+    ],
+    "ausPearl": "Austroads 'Assessing Fitness to Drive' applies in all states and territories. The patient must notify the driver licensing authority. In most jurisdictions doctors may report directly if a patient continues to drive against advice and is a risk to public safety; South Australia and the Northern Territory make reporting mandatory in such cases.",
+    "tags": ["seizure", "driving", "austroads"]
+  },
+  {
+    "id": "med-026",
+    "discipline": "adult-medicine",
+    "topic": "gastroenterology",
+    "difficulty": "exam",
+    "stem": "A 52-year-old man with alcohol-related cirrhosis presents to a Darwin ED after vomiting about 500 mL of fresh blood. HR 118 bpm, BP 92/58 mmHg. He has spider naevi, ascites and splenomegaly. Hb 82 g/L, platelets 64 × 10⁹/L, INR 1.8. Two large-bore cannulas are inserted, blood is cross-matched and gastroenterology is contacted for endoscopy.\n\nIn addition to cautious resuscitation, which is the most appropriate treatment before endoscopy?",
+    "options": [
+      "Intravenous tranexamic acid infusion",
+      "Oral propranolol",
+      "Intravenous terlipressin and intravenous ceftriaxone",
+      "Transfusion to a haemoglobin target of 120 g/L",
+      "Intravenous vitamin K alone"
+    ],
+    "answer": 2,
+    "explanation": "In a patient with **cirrhosis and portal hypertension** (ascites, splenomegaly, low platelets), haematemesis should be treated as a **variceal bleed** until endoscopy proves otherwise.\n\nBefore endoscopy, give:\n1. **A vasoactive drug**: **terlipressin** (or octreotide) reduces portal pressure and bleeding and improves survival\n2. **Antibiotic prophylaxis**: **ceftriaxone** reduces bacterial infection, re-bleeding and death in cirrhotic GI bleeding\n\nThen: **endoscopy within 12 hours** with **band ligation**. Balloon tamponade or TIPS are rescue options.\n\nTransfuse **restrictively** (target Hb about 70 to 80 g/L). Over-transfusion raises portal pressure and worsens bleeding.\n\n**Tranexamic acid** does not improve outcomes in GI bleeding (HALT-IT trial) and increases thrombosis. **Beta blockers** are for secondary prevention after the acute bleed, not in the shocked patient.\n\n**Rule:** variceal bleed = terlipressin + ceftriaxone + band within 12 hours; transfuse restrictively.",
+    "whyWrong": [
+      "Tranexamic acid showed no mortality benefit in GI bleeding and increased venous thrombosis.",
+      "Non-selective beta blockers are for long-term prevention, not for a hypotensive patient with an acute bleed.",
+      "",
+      "Liberal transfusion increases portal pressure and re-bleeding; a restrictive target of about 70 to 80 g/L is recommended.",
+      "Vitamin K alone does not correct the coagulopathy of cirrhosis or stop variceal bleeding."
+    ],
+    "tags": ["variceal bleed", "cirrhosis", "gi bleeding"]
+  },
+  {
+    "id": "med-027",
+    "discipline": "adult-medicine",
+    "topic": "gastroenterology",
+    "difficulty": "core",
+    "stem": "A 31-year-old woman sees her GP in Sydney with 12 months of bloating, loose stools and fatigue. She has type 1 diabetes. Hb 104 g/L, MCV 76 fL, ferritin 6 µg/L. She eats a normal diet containing bread and pasta daily. Tissue transglutaminase IgA (tTG-IgA) is strongly positive and total IgA is normal.\n\nWhat is the most appropriate next step?",
+    "options": [
+      "Start a strict gluten-free diet and repeat serology in 6 months",
+      "Diagnose coeliac disease on serology alone and refer to a dietitian",
+      "Test for HLA-DQ2/DQ8 and start a gluten-free diet if positive",
+      "Arrange a colonoscopy",
+      "Refer for gastroscopy with duodenal biopsies while she continues to eat gluten"
+    ],
+    "answer": 4,
+    "explanation": "**Coeliac disease** is an immune reaction to gluten causing small-bowel villous atrophy. Clues here: bloating, diarrhoea, **iron deficiency anaemia** and another **autoimmune condition** (type 1 diabetes).\n\nThe diagnostic pathway in Australian adults:\n1. **Serology** (tTG-IgA with total IgA, or deamidated gliadin peptide) **while eating gluten**\n2. Positive serology → **gastroscopy with duodenal biopsies**, still on gluten, to confirm villous atrophy (Marsh classification)\n3. Only after biopsy: lifelong **gluten-free diet** with dietitian support\n\nStarting a gluten-free diet **before** biopsy lets the mucosa heal, which can make the diagnosis impossible without a gluten challenge.\n\n**HLA-DQ2/DQ8** testing is mainly useful to **exclude** coeliac disease (high negative predictive value); a positive result does not confirm it.\n\n**Rule:** positive coeliac serology = biopsy first, diet second, and keep eating gluten until then.",
+    "whyWrong": [
+      "Going gluten-free before biopsy can heal the mucosa and make diagnosis unreliable.",
+      "Australian adult practice requires biopsy confirmation rather than serology alone.",
+      "HLA typing only rules out coeliac disease; a positive result does not confirm it.",
+      "Coeliac disease affects the small bowel, which colonoscopy does not sample.",
+      ""
+    ],
+    "ausPearl": "Coeliac Australia and the Gastroenterological Society of Australia (GESA) guidelines recommend biopsy confirmation in adults. First-degree relatives should be offered screening. Gluten-free food labelling in Australia is regulated by Food Standards Australia New Zealand.",
+    "tags": ["coeliac disease", "iron deficiency", "serology"]
+  },
+  {
+    "id": "med-028",
+    "discipline": "adult-medicine",
+    "topic": "gastroenterology",
+    "difficulty": "foundation",
+    "stem": "A 38-year-old man born in Vietnam who migrated to Australia as a child has hepatitis B serology as part of a health check with his GP in Brisbane. Liver function tests are normal.\n\nResults:\n- HBsAg: negative\n- Anti-HBs: positive (120 IU/L)\n- Anti-HBc (total): positive\n\nWhat is the correct interpretation?",
+    "options": [
+      "Chronic hepatitis B infection",
+      "Past hepatitis B infection that has resolved, with natural immunity",
+      "Immunity from hepatitis B vaccination only",
+      "Acute hepatitis B infection",
+      "Susceptible to hepatitis B; vaccination is needed"
+    ],
+    "answer": 1,
+    "explanation": "Hepatitis B serology is interpreted with three markers:\n\n- **HBsAg** (surface antigen): **current infection** (acute or chronic)\n- **Anti-HBs** (surface antibody): **immunity** (from vaccination or recovery)\n- **Anti-HBc** (core antibody): **exposure to the virus** at some time. Vaccines contain only surface antigen, so vaccination **never** produces anti-HBc\n\n| Pattern | Meaning |\n|---|---|\n| HBsAg −, anti-HBc +, anti-HBs + | Past infection, resolved |\n| HBsAg −, anti-HBc −, anti-HBs + | Vaccinated |\n| HBsAg +, anti-HBc + (IgM +) | Acute infection |\n| HBsAg + for over 6 months | Chronic infection |\n| All negative | Susceptible |\n\nThis man has resolved past infection. Note: he can **reactivate** if heavily immunosuppressed (for example rituximab or chemotherapy), so screening before such therapy matters.\n\n**Rule:** core antibody = the virus has been there; surface antibody = protected.",
+    "whyWrong": [
+      "Chronic infection requires a positive HBsAg for more than 6 months.",
+      "",
+      "Vaccination does not produce anti-HBc, so the core antibody shows past natural infection.",
+      "Acute infection would show a positive HBsAg and IgM anti-HBc.",
+      "He is immune, with a protective anti-HBs level."
+    ],
+    "ausPearl": "People born in the Asia-Pacific region and Aboriginal and Torres Strait Islander people have higher rates of chronic hepatitis B and are priority groups for testing in Australia. Hepatitis B is notifiable in all states and territories, and eligible GPs can prescribe hepatitis B treatment under the PBS s100 program.",
+    "tags": ["hepatitis b", "serology", "migrant health"]
+  },
+  {
+    "id": "med-029",
+    "discipline": "adult-medicine",
+    "topic": "nephrology",
+    "difficulty": "core",
+    "stem": "A 76-year-old woman is seen by a locum GP in Toowoomba with 4 days of dizziness and reduced urine output. She has hypertension and heart failure treated with ramipril and frusemide. Two weeks ago she started over-the-counter ibuprofen 400 mg three times daily for knee osteoarthritis. BP 102/60 mmHg, HR 96 bpm, dry mucous membranes. Creatinine 214 µmol/L (baseline 98 µmol/L 3 months ago), potassium 5.6 mmol/L.\n\nWhat is the most likely cause of her acute kidney injury?",
+    "options": [
+      "Acute interstitial nephritis from frusemide",
+      "Obstructive uropathy",
+      "Rapidly progressive glomerulonephritis",
+      "Combined haemodynamic effect of an NSAID, ACE inhibitor and diuretic",
+      "Renal artery stenosis presenting for the first time"
+    ],
+    "answer": 3,
+    "explanation": "This is the classic **\"triple whammy\"**: the combination of\n1. An **ACE inhibitor or ARB** (dilates the efferent arteriole)\n2. A **diuretic** (reduces circulating volume)\n3. An **NSAID** (constricts the afferent arteriole by blocking prostaglandins)\n\nTogether these remove the kidney's ability to maintain glomerular filtration pressure, causing **pre-renal AKI**, often with **hyperkalaemia**. Older patients and those with heart failure or CKD are most at risk, and dehydration is a common trigger.\n\nManagement: **stop the NSAID**, temporarily **withhold the ACE inhibitor and diuretic**, carefully rehydrate, monitor creatinine and potassium, and arrange non-NSAID analgesia (for example, paracetamol) for her osteoarthritis.\n\n**Rule:** ACEi/ARB + diuretic + NSAID = triple whammy; avoid the NSAID.",
+    "whyWrong": [
+      "Interstitial nephritis is usually drug-induced from NSAIDs, PPIs or antibiotics and is less likely than the clear haemodynamic cause here.",
+      "There are no urinary symptoms or retention described to suggest obstruction.",
+      "RPGN presents with haematuria, proteinuria and systemic features, not an obvious drug-related volume problem.",
+      "",
+      "Renal artery stenosis might sensitise the kidney, but the new NSAID is the trigger here."
+    ],
+    "ausPearl": "NPS MedicineWise and the Australian Commission on Safety and Quality in Health Care have run campaigns on the 'triple whammy'. Ibuprofen is available over the counter in Australia, so always ask about non-prescription medicines.",
+    "tags": ["aki", "triple whammy", "nsaid"]
+  },
+  {
+    "id": "med-030",
+    "discipline": "adult-medicine",
+    "topic": "nephrology",
+    "difficulty": "core",
+    "stem": "A 23-year-old man presents to his GP in Hobart with dark, cola-coloured urine that started the day after he developed a sore throat and fever. He had a similar episode 18 months ago that resolved on its own. BP 132/84 mmHg, no oedema. Urinalysis: blood 3+, protein 1+. Creatinine 88 µmol/L. Urine microscopy shows dysmorphic red cells.\n\nWhat is the most likely diagnosis?",
+    "options": [
+      "IgA nephropathy",
+      "Post-streptococcal glomerulonephritis",
+      "Minimal change disease",
+      "Renal calculus",
+      "Bladder carcinoma"
+    ],
+    "answer": 0,
+    "explanation": "**IgA nephropathy** is the **most common primary glomerulonephritis worldwide**. It typically presents in young men with **episodic macroscopic haematuria occurring within 1 to 2 days of a mucosal infection** (upper respiratory or gastrointestinal). This is called **synpharyngitic haematuria**.\n\nThe discriminating clue is **timing**:\n- **IgA nephropathy:** haematuria **at the same time as, or 1 to 2 days after**, the infection, often recurrent\n- **Post-streptococcal glomerulonephritis:** haematuria **1 to 3 weeks after** a streptococcal throat infection (or 3 to 6 weeks after skin infection), with oedema, hypertension and low C3\n\n**Dysmorphic red cells** indicate a glomerular source.\n\nMost patients have a benign course, but some progress to CKD. Monitor BP, proteinuria and renal function; ACE inhibitors or ARBs are used for proteinuria.\n\n**Rule:** haematuria 1 to 2 days after a sore throat = IgA; 2 weeks after = post-strep.",
+    "whyWrong": [
+      "",
+      "PSGN occurs 1 to 3 weeks after the infection, not the next day, and does not usually recur.",
+      "Minimal change disease causes nephrotic syndrome with heavy proteinuria and oedema, not macroscopic haematuria.",
+      "Stones cause colicky pain, and red cells from the urinary tract are not dysmorphic.",
+      "Bladder cancer is rare at 23 and causes non-glomerular (isomorphic) haematuria."
+    ],
+    "ausPearl": "Post-streptococcal glomerulonephritis is a much bigger issue in remote Aboriginal and Torres Strait Islander communities, often following skin infections (impetigo/scabies), and is notifiable in the Northern Territory and Queensland.",
+    "tags": ["iga nephropathy", "haematuria", "glomerulonephritis"]
+  },
+  {
+    "id": "med-031",
+    "discipline": "adult-medicine",
+    "topic": "nephrology",
+    "difficulty": "exam",
+    "stem": "A 74-year-old woman is brought to an ED in Ballarat after a generalised seizure at home. Her daughter says she has been increasingly confused and vomiting over 2 days. She started a thiazide diuretic 3 weeks ago and drinks large volumes of water. She is drowsy (GCS 12) but protecting her airway. BP 138/80 mmHg and she appears clinically euvolaemic. Sodium 112 mmol/L (135 mmol/L 1 month ago), potassium 3.2 mmol/L, glucose 6.1 mmol/L.\n\nWhat is the most appropriate immediate treatment?",
+    "options": [
+      "Fluid restriction to 800 mL per day",
+      "Intravenous 0.9% sodium chloride at 150 mL/h",
+      "Intravenous 3% hypertonic saline 150 mL bolus over 10 to 20 minutes",
+      "Oral tolvaptan",
+      "Intravenous 5% dextrose"
+    ],
+    "answer": 2,
+    "explanation": "This woman has **severe symptomatic hyponatraemia** (seizure, reduced GCS, vomiting). Thiazides are a common cause in older women.\n\nWhen hyponatraemia causes **severe symptoms**, the brain is swelling and the priority is to **rapidly raise sodium by a small amount**:\n- **3% hypertonic saline, 100 to 150 mL IV over 10 to 20 minutes**, repeated up to 2 or 3 times until symptoms improve\n- Aim for an initial rise of **4 to 6 mmol/L**, which is usually enough to stop seizures\n\nThen correct slowly: limit the total rise to **no more than 8 to 10 mmol/L in 24 hours** to avoid **osmotic demyelination syndrome**. This woman is at high risk of overcorrection (hypokalaemia, thiazide use, water intake that will stop in hospital), so monitor sodium every 2 to 4 hours.\n\nOnce stable: stop the thiazide, restrict fluids and correct potassium.\n\n**Rule:** severe symptoms = hypertonic saline bolus now; then slow, and never more than 10 in 24.",
+    "whyWrong": [
+      "Fluid restriction is too slow for a patient who is seizing from cerebral oedema.",
+      "Isotonic saline raises sodium unpredictably and too slowly for severe symptomatic hyponatraemia.",
+      "",
+      "Tolvaptan is not used for acute severe symptomatic hyponatraemia and risks overcorrection.",
+      "5% dextrose is effectively free water and will worsen hyponatraemia."
+    ],
+    "tags": ["hyponatraemia", "hypertonic saline", "thiazide"]
+  },
+  {
+    "id": "med-032",
+    "discipline": "adult-medicine",
+    "topic": "haematology",
+    "difficulty": "foundation",
+    "stem": "A 66-year-old woman sees her GP in Wagga Wagga with 3 months of fatigue and exertional breathlessness. She has been postmenopausal for 14 years and has no vaginal bleeding. She eats a varied diet including red meat. She takes no medications. Hb 92 g/L, MCV 71 fL, ferritin 5 µg/L. Coeliac serology is negative. Her faecal occult blood test from the national screening program 2 years ago was negative.\n\nWhat is the most appropriate next step?",
+    "options": [
+      "Start oral iron and recheck the full blood count in 3 months without further investigation",
+      "Repeat the faecal occult blood test",
+      "Arrange a CT scan of the abdomen",
+      "Refer for a haematology opinion and bone marrow biopsy",
+      "Refer for gastroscopy and colonoscopy"
+    ],
+    "answer": 4,
+    "explanation": "**Iron deficiency anaemia** (low Hb, low MCV, low ferritin) in a **man or postmenopausal woman** is **gastrointestinal blood loss, possibly from cancer, until proven otherwise**. Common causes include colorectal cancer, gastric cancer, peptic ulcer and angiodysplasia.\n\nThe standard work-up:\n- Coeliac serology (done)\n- **Bidirectional endoscopy: gastroscopy and colonoscopy**\n- If both are normal and anaemia persists: small bowel investigation (capsule endoscopy)\n\nIron replacement is started as well, but **it must not replace investigation**. Correcting the anaemia does not treat an underlying cancer.\n\nA **negative FOBT does not exclude** a bleeding lesion, because bleeding can be intermittent. Once IDA is established, FOBT has no role: it is a screening test for people without symptoms.\n\nA ferritin of 5 µg/L is diagnostic of iron deficiency, so a bone marrow biopsy is not needed.\n\n**Rule:** IDA in a man or postmenopausal woman = scope both ends.",
+    "whyWrong": [
+      "Iron alone without investigation can mask an underlying gastrointestinal cancer.",
+      "FOBT is a screening test for asymptomatic people; a negative result does not exclude a bleeding lesion in established IDA.",
+      "CT is not the first-line test for the mucosal lesions that cause iron deficiency.",
+      "The ferritin already confirms iron deficiency; a marrow biopsy adds nothing.",
+      ""
+    ],
+    "ausPearl": "The National Bowel Cancer Screening Program sends free FOBT kits every 2 years to Australians aged 45 to 74, but it is for asymptomatic people only. Symptomatic patients, including those with IDA, should be referred for colonoscopy.",
+    "tags": ["iron deficiency anaemia", "endoscopy", "colorectal cancer"]
+  },
+  {
+    "id": "med-033",
+    "discipline": "adult-medicine",
+    "topic": "haematology",
+    "difficulty": "core",
+    "stem": "A 79-year-old man on warfarin for atrial fibrillation attends his GP in Bendigo for a routine INR check. He was recently prescribed a course of trimethoprim-sulfamethoxazole for a urinary tract infection. He feels well, with no bleeding, bruising, melaena or haematuria. His INR is 11.4 (target 2 to 3). He has no history of falls.\n\nWhat is the most appropriate management?",
+    "options": [
+      "Withhold warfarin and give oral vitamin K, then recheck the INR in 6 to 24 hours",
+      "Give Prothrombinex-VF and fresh frozen plasma",
+      "Continue warfarin at the current dose and recheck in 1 week",
+      "Give intravenous vitamin K 10 mg and Prothrombinex-VF",
+      "Stop warfarin permanently"
+    ],
+    "answer": 0,
+    "explanation": "Warfarin reversal depends on **the INR and whether the patient is bleeding**. The Australasian consensus guideline (Tran et al., MJA 2013) recommends:\n\n| Situation | Action |\n|---|---|\n| INR above range but below 4.5, no bleeding | Reduce or omit a dose |\n| INR 4.5 to 10, no bleeding | Withhold warfarin; consider low-dose vitamin K (1 to 2 mg orally) if at high bleeding risk |\n| **INR above 10, no bleeding** | Withhold warfarin; **vitamin K 2.5 to 5 mg orally** or 1 mg IV |\n| **Clinically significant bleeding** | Vitamin K 5 to 10 mg IV **plus Prothrombinex-VF** (and FFP if needed) |\n\nThis man has an INR above 10 with no bleeding, so he needs warfarin withheld and oral vitamin K, then a repeat INR. Resume warfarin at a lower dose once the INR is in range.\n\nThe cause: **trimethoprim-sulfamethoxazole inhibits warfarin metabolism** (CYP2C9). Antibiotics are the most common cause of a sudden INR rise.\n\n**Rule:** no bleeding = vitamin K; major bleeding = vitamin K + Prothrombinex.",
+    "whyWrong": [
+      "",
+      "Prothrombinex and FFP are for clinically significant bleeding, not an asymptomatic high INR.",
+      "An INR above 10 carries a significant bleeding risk and needs action now.",
+      "High-dose IV vitamin K and Prothrombinex are for major bleeding and cause warfarin resistance for days.",
+      "The indication for anticoagulation remains; the INR rise was due to a drug interaction."
+    ],
+    "ausPearl": "Prothrombinex-VF (a prothrombin complex concentrate) is supplied through Australian Red Cross Lifeblood and is the first-line reversal agent for warfarin-related major bleeding in Australia.",
+    "tags": ["warfarin", "inr", "drug interaction"]
+  },
+  {
+    "id": "med-034",
+    "discipline": "adult-medicine",
+    "topic": "haematology",
+    "difficulty": "core",
+    "stem": "A 48-year-old man of Irish descent sees his GP in Hobart with fatigue and joint pains in his hands. He drinks 2 standard drinks per week. His brother was recently told he has 'too much iron'. Fasting bloods: ferritin 1100 µg/L, transferrin saturation 78%, ALT 64 U/L. CRP is normal.\n\nWhat is the most appropriate next investigation?",
+    "options": [
+      "Bone marrow biopsy",
+      "Liver biopsy",
+      "Serum caeruloplasmin",
+      "HFE gene testing",
+      "Haemoglobin electrophoresis"
+    ],
+    "answer": 3,
+    "explanation": "**Hereditary haemochromatosis** is the most common genetic disorder in people of northern European (especially Celtic) descent. The usual cause is homozygosity for the **C282Y mutation of the HFE gene**, causing increased intestinal iron absorption and iron deposition in the liver, joints, pancreas, heart and skin.\n\nThe key test:\n- **Transferrin saturation above 45%** is the earliest and most specific sign of iron overload\n- **Ferritin** reflects iron stores but also rises with inflammation, alcohol, fatty liver and metabolic syndrome\n\nWith a high transferrin saturation and ferritin (and a normal CRP), the next step is **HFE gene testing**. A family history strengthens the suspicion.\n\nClassic features: fatigue, arthropathy of the **2nd and 3rd MCP joints**, abnormal LFTs, diabetes, skin bronzing.\n\nTreatment: **venesection** to a target ferritin (about 50 to 100 µg/L). Ferritin above 1000 µg/L indicates a risk of cirrhosis, so he needs liver fibrosis assessment. First-degree relatives should be screened.\n\n**Rule:** transferrin saturation above 45% = think HFE.",
+    "whyWrong": [
+      "Bone marrow biopsy does not diagnose haemochromatosis.",
+      "Liver biopsy is now used only to stage fibrosis in selected patients, not as the first diagnostic test.",
+      "Caeruloplasmin is for Wilson disease (copper), not iron overload.",
+      "",
+      "Haemoglobin electrophoresis diagnoses haemoglobinopathies such as thalassaemia, not primary iron overload."
+    ],
+    "ausPearl": "Medicare funds HFE genetic testing when ferritin or transferrin saturation is raised, or when a first-degree relative has haemochromatosis. Australian Red Cross Lifeblood accepts eligible people with haemochromatosis as blood donors, so therapeutic venesection can also be a donation.",
+    "tags": ["haemochromatosis", "iron overload", "genetics"]
+  },
+  {
+    "id": "med-035",
+    "discipline": "adult-medicine",
+    "topic": "rheumatology",
+    "difficulty": "exam",
+    "stem": "A 68-year-old man presents to his GP in Mackay with a 1-day history of an exquisitely painful, hot, swollen right first metatarsophalangeal joint. He has had two similar episodes previously. He has chronic kidney disease (eGFR 24 mL/min/1.73 m²), a history of a bleeding peptic ulcer, and takes warfarin for atrial fibrillation. He is afebrile and otherwise well. The clinical picture is typical of gout.\n\nWhat is the most appropriate treatment for this acute attack?",
+    "options": [
+      "Naproxen 500 mg twice daily",
+      "Oral prednisolone for about 5 days",
+      "Colchicine 1 mg followed by 0.5 mg every 2 hours until diarrhoea or relief",
+      "Start allopurinol 300 mg daily",
+      "Probenecid 500 mg twice daily"
+    ],
+    "answer": 1,
+    "explanation": "The three first-line options for an **acute gout flare** are an **NSAID, colchicine or a corticosteroid**. The choice depends on **comorbidities**. This question is about spotting contraindications.\n\nThis man has:\n- **CKD (eGFR 24)**: NSAIDs worsen renal function; colchicine is cleared by the kidney and toxicity is more likely\n- **Previous bleeding peptic ulcer + warfarin**: NSAIDs are high risk for GI bleeding\n\nThat leaves a **corticosteroid**: **oral prednisolone** (for example, 30 to 40 mg daily for about 5 days) or an **intra-articular steroid injection** after excluding septic arthritis.\n\nIf colchicine is used in other patients, the **low-dose regimen** (1 mg, then 0.5 mg 1 hour later) is as effective and far less toxic than old \"until diarrhoea\" regimens.\n\nUrate-lowering therapy (allopurinol) is started at a **low dose** (for example 50 mg in CKD) and titrated up to target serum urate below 0.36 mmol/L, with prophylaxis against flares.\n\n**Rule:** gout + CKD or GI bleeding risk = steroid.",
+    "whyWrong": [
+      "NSAIDs are contraindicated with his CKD, previous bleeding ulcer and warfarin.",
+      "",
+      "High-dose repeated colchicine is an outdated, toxic regimen, especially dangerous in CKD.",
+      "Allopurinol does not treat an acute flare, and 300 mg is too high a starting dose in CKD.",
+      "Probenecid is a urate-lowering drug, not a flare treatment, and is ineffective at low eGFR."
+    ],
+    "ausPearl": "Therapeutic Guidelines and NPS MedicineWise recommend the low-dose colchicine regimen for gout flares. Aboriginal and Torres Strait Islander people and Māori and Pacific Islander populations in Australia have higher rates of gout.",
+    "tags": ["gout", "ckd", "corticosteroids"]
+  },
+  {
+    "id": "med-036",
+    "discipline": "adult-medicine",
+    "topic": "rheumatology",
+    "difficulty": "core",
+    "stem": "A 74-year-old woman sees her GP in Albury with 3 weeks of a new right-sided headache, scalp tenderness when brushing her hair, and pain in her jaw when chewing. She has had morning stiffness in both shoulders. She has no visual symptoms. The right temporal artery is tender and thickened with a reduced pulse. ESR 88 mm/h, CRP 64 mg/L. Fundoscopy is normal.\n\nWhat is the most appropriate next step in management?",
+    "options": [
+      "Arrange a temporal artery biopsy and start treatment only if it is positive",
+      "Start oral prednisolone 15 mg daily",
+      "Start oral prednisolone 40 to 60 mg daily today and arrange temporal artery biopsy or ultrasound",
+      "Start aspirin and review in 1 week",
+      "Arrange an MRI brain"
+    ],
+    "answer": 2,
+    "explanation": "This is **giant cell arteritis (GCA)**: a large-vessel vasculitis of people **over 50**. Features:\n- New headache, **scalp tenderness**, **jaw claudication** (the most specific symptom)\n- Associated **polymyalgia rheumatica** (shoulder and hip girdle stiffness)\n- Tender, thickened, pulseless temporal artery\n- Very high ESR and CRP\n\nThe feared complication is **sudden, permanent blindness** from anterior ischaemic optic neuropathy, which can affect the second eye within days.\n\nSo: **start high-dose glucocorticoids immediately on clinical suspicion**, before confirmation:\n- **No visual symptoms: prednisolone 40 to 60 mg daily**\n- **Visual symptoms: IV methylprednisolone** and urgent ophthalmology\n\nThen confirm with **temporal artery biopsy** (still positive for 1 to 2 weeks after starting steroids) or **temporal artery ultrasound**.\n\nThe low dose of 15 mg is for **polymyalgia rheumatica alone**, not GCA.\n\n**Rule:** suspect GCA = steroids today; biopsy can wait, the eye cannot.",
+    "whyWrong": [
+      "Waiting for the biopsy risks irreversible vision loss; steroids do not make the biopsy negative within 1 to 2 weeks.",
+      "15 mg is the dose for polymyalgia rheumatica alone and is insufficient to protect vision in GCA.",
+      "",
+      "Aspirin alone does not treat vasculitis, and a week's delay risks blindness.",
+      "Neuroimaging does not diagnose GCA and delays treatment."
+    ],
+    "tags": ["giant cell arteritis", "vasculitis", "corticosteroids"]
+  },
+  {
+    "id": "med-037",
+    "discipline": "adult-medicine",
+    "topic": "dermatology",
+    "difficulty": "core",
+    "stem": "A 52-year-old fair-skinned man who has worked outdoors as a surveyor in Queensland sees his GP about a mole on his upper back that his wife says has changed over 4 months. It is 9 mm across, with an irregular border and several shades of brown and black. Dermoscopy shows an atypical pigment network and blue-white veil. There is no palpable lymphadenopathy.\n\nWhat is the most appropriate next step?",
+    "options": [
+      "Shave biopsy of the raised portion",
+      "Cryotherapy with liquid nitrogen",
+      "Review with sequential digital dermoscopy in 3 months",
+      "Excision biopsy with a 2 mm margin",
+      "Wide local excision with a 2 cm margin"
+    ],
+    "answer": 3,
+    "explanation": "A **changing pigmented lesion** with **ABCDE features** (Asymmetry, irregular Border, multiple Colours, Diameter above 6 mm, Evolution) and suspicious dermoscopy is a **melanoma until proven otherwise**.\n\nThe correct first step is **excision biopsy with a 2 mm clinical margin** (full thickness, into subcutaneous fat). This:\n- Removes the whole lesion, so the pathologist can measure **Breslow thickness**, the most important prognostic factor\n- Keeps the margin narrow so lymphatic drainage is not disturbed if sentinel lymph node biopsy is needed later\n\nOnce the histology is known, **wide local excision** is done with a margin based on Breslow thickness (for example 1 cm for melanoma up to 1 mm thick).\n\n**Shave or partial biopsies** can cut through the lesion and prevent accurate staging. **Destructive treatments** (cryotherapy) leave no tissue for diagnosis.\n\n**Rule:** suspicious mole = excise whole with 2 mm margins; stage, then widen.",
+    "whyWrong": [
+      "Shave biopsy can transect the lesion and prevent accurate Breslow thickness measurement.",
+      "Cryotherapy destroys the lesion without histology and is never used for a suspected melanoma.",
+      "Short-term monitoring is for flat lesions without suspicious features, not a changing lesion with a blue-white veil.",
+      "",
+      "Wide excision margins are decided after histology gives the Breslow thickness, not before diagnosis."
+    ],
+    "ausPearl": "Australia has one of the highest melanoma rates in the world. Cancer Council Australia's melanoma guidelines recommend 2 mm margin excision biopsy. Outdoor workers are a key target group for SunSmart (Slip, Slop, Slap, Seek, Slide) and for skin checks.",
+    "tags": ["melanoma", "skin cancer", "biopsy"]
+  },
+  {
+    "id": "med-038",
+    "discipline": "adult-medicine",
+    "topic": "geriatrics",
+    "difficulty": "foundation",
+    "stem": "An 86-year-old woman living in a residential aged care facility in Toowoomba becomes acutely confused over 24 hours. Staff report she is drowsy by day, restless at night, and her attention fluctuates. At baseline she has mild dementia but is usually chatty and oriented to person and place. She is not aggressive or at risk of harm. Temperature 37.9°C, HR 98 bpm, BP 124/70 mmHg. Her urine is cloudy and offensive.\n\nWhat is the most appropriate initial approach?",
+    "options": [
+      "Look for and treat the underlying cause, with non-drug supportive measures",
+      "Start regular oral haloperidol",
+      "Give oral temazepam at night to restore her sleep",
+      "Increase her dementia medication (donepezil)",
+      "Apply physical restraints to prevent falls"
+    ],
+    "answer": 0,
+    "explanation": "This is **delirium**: an **acute onset** and **fluctuating** disturbance of **attention** and awareness, caused by a medical problem. It is a medical emergency in older people and carries a high mortality. Here the probable cause is **infection** (fever, cloudy urine), although urine findings in older women are often misleading, so a full assessment is needed.\n\nThe principles:\n1. **Find and treat the cause**: infection, drugs (anticholinergics, opioids, benzodiazepines), urinary retention, constipation, dehydration, electrolyte problems, pain, hypoxia\n2. **Non-drug measures**: familiar people, clocks and calendars, glasses and hearing aids, good lighting, sleep hygiene, mobilisation, hydration\n3. **Antipsychotics** only for severe distress or danger to self or others, at the lowest dose for the shortest time\n\n**Benzodiazepines worsen delirium** (except in alcohol withdrawal). **Restraints** increase injury and agitation.\n\nRemember: delirium on top of dementia is common and easily missed.\n\n**Rule:** delirium = treat the cause; drugs are the last resort.",
+    "whyWrong": [
+      "",
+      "Antipsychotics are only for severe distress or risk of harm and do not treat the cause.",
+      "Benzodiazepines worsen delirium and increase falls in older people.",
+      "This is an acute change from a medical cause, not progression of dementia.",
+      "Physical restraints increase agitation, injury and death and are a last resort under strict rules."
+    ],
+    "ausPearl": "The Australian Commission on Safety and Quality in Health Care's Delirium Clinical Care Standard sets expectations for screening, cause-finding and avoiding antipsychotics. Restrictive practices (chemical and physical restraint) in aged care are regulated under the Aged Care Quality and Safety Commission rules and require consent and documentation.",
+    "tags": ["delirium", "aged care", "dementia"]
+  },
+  {
+    "id": "med-039",
+    "discipline": "adult-medicine",
+    "topic": "pharmacology",
+    "difficulty": "core",
+    "stem": "A 42-year-old woman presents to an ED in Canberra with 8 hours of agitation, sweating, tremor and diarrhoea. She takes sertraline 150 mg daily for depression. Two days ago she started tramadol for back pain after a fall. Temperature 38.4°C, HR 118 bpm, BP 156/92 mmHg. Pupils are dilated. There is inducible ankle clonus, hyperreflexia worse in the legs, and ocular clonus. Muscle tone is increased in the lower limbs.\n\nWhat is the most likely diagnosis?",
+    "options": [
+      "Neuroleptic malignant syndrome",
+      "Anticholinergic toxicity",
+      "Malignant hyperthermia",
+      "Opioid withdrawal",
+      "Serotonin toxicity"
+    ],
+    "answer": 4,
+    "explanation": "**Serotonin toxicity** results from excess serotonin, usually from a **combination of serotonergic drugs**. Here: **sertraline (SSRI) + tramadol** (which inhibits serotonin reuptake). Other common culprits: other SSRIs/SNRIs, MAOIs, linezolid, fentanyl, ondansetron, St John's wort, MDMA.\n\nThe **Hunter criteria** (developed in Newcastle, NSW) focus on **clonus**:\n- Spontaneous clonus\n- Inducible or ocular clonus with agitation or sweating\n- Tremor with hyperreflexia\n- Hypertonia with temperature above 38°C and clonus\n\nThe triad: **neuromuscular excitation** (clonus, hyperreflexia, **worse in the legs**), **autonomic instability** (fever, tachycardia, sweating, diarrhoea, mydriasis) and **altered mental state**. Onset is **rapid** (within hours of a dose change).\n\nTreatment: stop serotonergic drugs, supportive care, benzodiazepines, and cyproheptadine in moderate cases; intubation and paralysis if temperature exceeds 38.5°C and rising.\n\n**Rule:** clonus + serotonergic drug = serotonin toxicity; NMS is rigid and slow.",
+    "whyWrong": [
+      "NMS follows antipsychotic use, develops over days, and causes 'lead-pipe' rigidity and bradyreflexia rather than clonus.",
+      "Anticholinergic toxicity causes dry, hot skin and urinary retention, not sweating, diarrhoea and clonus.",
+      "Malignant hyperthermia occurs during anaesthesia with volatile agents or suxamethonium.",
+      "She is taking an opioid, not withdrawing from one, and withdrawal does not cause clonus or fever.",
+      ""
+    ],
+    "ausPearl": "The Hunter Serotonin Toxicity Criteria were developed at the Hunter Area Toxicology Service in Newcastle, NSW. Tramadol is a common trigger in Australian practice, and the TGA has issued safety advice on combining tramadol with serotonergic antidepressants.",
+    "tags": ["serotonin toxicity", "drug interaction", "tramadol"]
+  },
+  {
+    "id": "med-040",
+    "discipline": "adult-medicine",
+    "topic": "pharmacology",
+    "difficulty": "exam",
+    "stem": "A 58-year-old man with bipolar disorder has been stable for years on lithium carbonate, with levels consistently 0.6 to 0.8 mmol/L. He is brought to his GP in Mildura by his wife with 5 days of diarrhoea, coarse tremor, unsteadiness and confusion. Ten days ago he was prescribed a new medication. He is not dehydrated on examination. Serum lithium is 2.1 mmol/L, creatinine 148 µmol/L (baseline 92 µmol/L).\n\nWhich newly prescribed medication is most likely to have caused this presentation?",
+    "options": [
+      "Amoxicillin for a chest infection",
+      "Meloxicam for shoulder pain",
+      "Omeprazole for reflux",
+      "Paracetamol for back pain",
+      "Amlodipine for hypertension"
+    ],
+    "answer": 1,
+    "explanation": "**Lithium** has a **narrow therapeutic index** (usual target about 0.6 to 0.8 mmol/L for maintenance) and is **cleared almost entirely by the kidneys**. Anything that lowers renal lithium clearance can cause toxicity.\n\nThe drugs that raise lithium levels (remember **\"NSAIDs, ACE, thiazides\"**):\n- **NSAIDs** (including COX-2 selective ones such as meloxicam and celecoxib): reduce renal blood flow and lithium excretion\n- **ACE inhibitors and ARBs**\n- **Thiazide diuretics**: increase proximal tubular sodium and lithium reabsorption\n- Dehydration, vomiting, diarrhoea, low-salt diets and intercurrent illness\n\nSigns of toxicity: GI upset, **coarse tremor** (a fine tremor is common at therapeutic levels), ataxia, confusion, then seizures, arrhythmias and coma. Here, **acute kidney injury** has resulted from the NSAID and then worsened lithium accumulation.\n\nManagement: stop lithium and the NSAID, IV fluids, and **haemodialysis** for severe toxicity or renal impairment.\n\n**Rule:** lithium + NSAID, ACE inhibitor or thiazide = check a level.",
+    "whyWrong": [
+      "Amoxicillin does not significantly affect lithium excretion.",
+      "",
+      "Omeprazole does not meaningfully reduce renal lithium clearance.",
+      "Paracetamol is the preferred analgesic in patients on lithium because it does not raise levels.",
+      "Amlodipine does not significantly affect lithium levels, unlike ACE inhibitors, ARBs and thiazides."
+    ],
+    "ausPearl": "NSAIDs including meloxicam and ibuprofen are commonly used in Australian general practice and some are available over the counter, so medication reconciliation matters. Lithium levels should be taken 12 hours after the last dose and checked within a week of starting any interacting drug.",
+    "tags": ["lithium", "drug interaction", "nsaid"]
+  }
+]

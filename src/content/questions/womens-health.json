@@ -1,0 +1,737 @@
+[
+  {
+    "id": "wh-001",
+    "discipline": "womens-health",
+    "topic": "antenatal-care",
+    "difficulty": "foundation",
+    "stem": "A 29-year-old woman, G1P0, of South Asian background attends her antenatal visit at 26 weeks' gestation. An HbA1c taken at her booking visit at 10 weeks was normal. Her BMI is 24 kg/m². She has no symptoms and the pregnancy has been uncomplicated.\n\nWhich is the most appropriate test to screen for gestational diabetes at this visit?",
+    "options": [
+      "50 g non-fasting glucose challenge test",
+      "75 g fasting oral glucose tolerance test with glucose measured at 0, 1 and 2 hours",
+      "Repeat HbA1c",
+      "Random venous plasma glucose",
+      "Urinalysis for glycosuria"
+    ],
+    "answer": 1,
+    "explanation": "In Australia, all pregnant women not already known to have diabetes are offered a **one-step 75 g oral glucose tolerance test (OGTT) at 24–28 weeks**. Glucose is measured fasting, at 1 hour and at 2 hours, and diagnostic thresholds are set by ADIPS.\n\nWomen at higher risk (South Asian, Aboriginal and Torres Strait Islander, Pacific Islander or Middle Eastern background, previous GDM, BMI above 30, PCOS, strong family history) are also tested **early** in pregnancy to pick up pre-existing diabetes. A normal early test does **not** exclude GDM, because insulin resistance rises steeply in the late second trimester, so she still needs the 24–28 week OGTT.\n\nHbA1c is useful early to find overt diabetes, but it is insensitive for GDM: red cell turnover changes in pregnancy and it misses post-prandial hyperglycaemia.\n\n**Rule:** early test for high risk, then a 75 g OGTT at 24–28 weeks for everyone.",
+    "whyWrong": [
+      "The two-step 50 g challenge is a US approach and is not the Australian standard.",
+      "",
+      "HbA1c is insensitive for GDM and misses post-prandial hyperglycaemia.",
+      "A random glucose is neither sensitive nor standardised for GDM screening.",
+      "Glycosuria is common in normal pregnancy because the renal threshold falls, so it is a poor screen."
+    ],
+    "ausPearl": "The Australian Pregnancy Care Guidelines recommend offering the 75 g OGTT at 24–28 weeks to all women not previously diagnosed, with earlier testing for those at high risk.",
+    "tags": ["gdm", "ogtt", "antenatal screening"]
+  },
+  {
+    "id": "wh-002",
+    "discipline": "womens-health",
+    "topic": "antenatal-care",
+    "difficulty": "core",
+    "stem": "A 32-year-old woman was diagnosed with gestational diabetes at 26 weeks. After two weeks of dietitian-guided medical nutrition therapy and increased physical activity, her capillary glucose diary shows fasting readings of 5.8–6.4 mmol/L on most mornings. Her post-prandial readings are mostly within target. A fetal growth scan is normal.\n\nWhich is the most appropriate next step?",
+    "options": [
+      "Continue dietary measures and review in 4 weeks",
+      "Repeat the oral glucose tolerance test to confirm the diagnosis",
+      "Commence gliclazide",
+      "Commence insulin, typically an intermediate-acting insulin at bedtime",
+      "Arrange induction of labour at 30 weeks"
+    ],
+    "answer": 3,
+    "explanation": "GDM is managed first with **diet, activity and self-monitoring of blood glucose**. If targets are not met after 1–2 weeks, pharmacotherapy is started without delay, because maternal hyperglycaemia drives fetal hyperinsulinaemia, macrosomia, shoulder dystocia and neonatal hypoglycaemia.\n\nThe pattern matters. **Fasting hyperglycaemia** reflects overnight hepatic glucose output, so the usual fix is an **intermediate-acting (isophane) insulin at bedtime**. Raised post-prandial readings are treated with rapid-acting insulin before the problem meals.\n\nInsulin does not cross the placenta and is the established first-line drug. **Metformin** is also used in Australia as an alternative or add-on; it crosses the placenta, and a proportion of women still need insulin.\n\nThe discriminating clue is that consistently raised fasting levels have not responded to lifestyle measures.\n\n**Rule:** targets missed after 1–2 weeks of diet means start medication; fasting high means bedtime insulin.",
+    "whyWrong": [
+      "Waiting another 4 weeks exposes the fetus to ongoing hyperglycaemia; targets are already clearly missed.",
+      "The diagnosis is already made; repeating the OGTT only delays treatment.",
+      "Sulfonylureas cross the placenta and are associated with neonatal hypoglycaemia; they are not recommended.",
+      "",
+      "GDM with a normal growth scan is not an indication for iatrogenic preterm birth at 30 weeks."
+    ],
+    "tags": ["gdm", "insulin", "glucose targets"]
+  },
+  {
+    "id": "wh-003",
+    "discipline": "womens-health",
+    "topic": "antenatal-care",
+    "difficulty": "foundation",
+    "stem": "A 30-year-old woman with type 1 diabetes is planning to conceive in the next few months. Her HbA1c is 6.8%. She takes insulin only and has no thyroid disease. She asks what supplements she should take.\n\nWhich is the most appropriate advice?",
+    "options": [
+      "Folic acid 0.5 mg daily, starting once pregnancy is confirmed",
+      "No supplements are needed if she eats a balanced diet",
+      "Folic acid 5 mg daily from at least one month before conception until 12 weeks, plus iodine 150 micrograms daily",
+      "Vitamin A 10 000 IU daily throughout pregnancy",
+      "Iron 100 mg daily from now until delivery"
+    ],
+    "answer": 2,
+    "explanation": "Neural tube closure happens by about day 28 after conception, often before a woman knows she is pregnant. That is why folic acid must start **before conception** (at least one month) and continue through the **first 12 weeks**.\n\nThe standard dose is 0.4–0.5 mg daily. **High-dose folic acid (5 mg daily)** is recommended for women at increased risk of neural tube defects: **pre-existing diabetes**, obesity, antiepileptic drugs, malabsorption, or a previous pregnancy or family history of a neural tube defect.\n\n**Iodine 150 micrograms daily** is recommended for all women planning pregnancy, pregnant or breastfeeding, to support fetal brain development. Women with pre-existing thyroid disease should check with their doctor first.\n\nThe discriminating clue is her diabetes, which moves her to the high-dose category.\n\n**Rule:** folate before conception, 5 mg if high risk, and iodine for everyone.",
+    "whyWrong": [
+      "Both the dose and the timing are wrong: she is high risk, and starting after a positive test misses neural tube closure.",
+      "Diet alone does not reliably provide enough folate or iodine in pregnancy.",
+      "",
+      "High-dose vitamin A is teratogenic and should be avoided in pregnancy.",
+      "Routine iron is not recommended for all women; it is given when deficiency is shown."
+    ],
+    "ausPearl": "Australia mandates folic acid fortification of wheat flour for bread-making and iodised salt in bread (since 2009), but NHMRC still recommends supplementation because fortification alone is not enough in pregnancy.",
+    "tags": ["folic acid", "iodine", "preconception", "diabetes"]
+  },
+  {
+    "id": "wh-004",
+    "discipline": "womens-health",
+    "topic": "antenatal-care",
+    "difficulty": "core",
+    "stem": "A 34-year-old woman, G2P1, attends at 12 weeks' gestation. Her first pregnancy was complicated by pre-eclampsia requiring delivery at 33 weeks. She is well, her BP is 118/74 mmHg and urinalysis is normal.\n\nWhich intervention will most reduce her risk of recurrent pre-eclampsia?",
+    "options": [
+      "Aspirin 150 mg nightly from now until 36 weeks",
+      "Aspirin 100 mg daily starting at 28 weeks",
+      "Labetalol from now until delivery",
+      "Prophylactic enoxaparin throughout pregnancy",
+      "Dietary salt restriction"
+    ],
+    "answer": 0,
+    "explanation": "Low-dose aspirin reduces the risk of preterm pre-eclampsia in women at high risk. It works by improving placentation, which happens early, so it must be **started before 16 weeks** (ideally from 12 weeks). Starting later gives much less benefit.\n\nThe ASPRE trial used **150 mg taken at night**, which is now common in Australian practice, continued until **36 weeks** (then stopped to reduce bleeding risk around birth).\n\nHigh-risk features include previous pre-eclampsia, chronic hypertension, pre-existing diabetes, chronic kidney disease, autoimmune disease such as SLE or antiphospholipid syndrome, and a high-risk first-trimester screen. **Calcium** supplementation is also advised if dietary calcium intake is low.\n\nThe discriminating clue is her previous early-onset pre-eclampsia plus the fact she is at 12 weeks, within the window.\n\n**Rule:** high risk for pre-eclampsia means aspirin, started before 16 weeks, stopped at 36.",
+    "whyWrong": [
+      "",
+      "Starting at 28 weeks is too late to affect placentation, so little benefit is gained.",
+      "Antihypertensives treat hypertension; they do not prevent pre-eclampsia in a normotensive woman.",
+      "LMWH has no proven role in preventing pre-eclampsia in women without a thrombotic indication.",
+      "Salt restriction has not been shown to prevent pre-eclampsia."
+    ],
+    "ausPearl": "Many Australian services offer combined first-trimester pre-eclampsia screening at 11–13 weeks (maternal factors, mean arterial pressure, uterine artery Doppler, PlGF) to target aspirin, in line with SOMANZ guidance.",
+    "tags": ["pre-eclampsia", "aspirin", "prevention"]
+  },
+  {
+    "id": "wh-005",
+    "discipline": "womens-health",
+    "topic": "antenatal-care",
+    "difficulty": "exam",
+    "stem": "A 27-year-old woman at 27 weeks' gestation presents 2 hours after a low-speed car crash in which her seatbelt tightened across her abdomen. She had a small amount of vaginal bleeding which has now settled. Her uterus is soft and non-tender and the CTG is normal. Her blood group is O RhD negative, and her booking antibody screen was negative. Fetal RhD status is unknown. She has not yet received any anti-D this pregnancy.\n\nWhich is the most appropriate action regarding anti-D immunoglobulin?",
+    "options": [
+      "No anti-D is required because the bleeding has settled",
+      "Give 250 IU anti-D",
+      "Defer anti-D until the routine 28-week dose next week",
+      "Give 1250 IU anti-D without further testing",
+      "Give 625 IU anti-D within 72 hours and send a test to quantify fetomaternal haemorrhage"
+    ],
+    "answer": 4,
+    "explanation": "An RhD-negative woman exposed to RhD-positive fetal red cells can make anti-D antibodies, which cause haemolytic disease of the fetus and newborn in **future** pregnancies. Abdominal trauma is a classic **sensitising event**, even if bleeding is minor or absent.\n\nAfter 20 weeks, the Australian approach is **625 IU anti-D within 72 hours**, plus a **Kleihauer–Betke or flow cytometry test** to measure the volume of fetal blood in the maternal circulation. If the bleed is larger than the dose covers, extra anti-D is given. Before 13 weeks the dose is 250 IU and no quantification is needed.\n\nA sensitising-event dose does **not** replace routine prophylaxis: she should still get 625 IU at 28 and 34 weeks.\n\nThe discriminating clue is the gestation: after 20 weeks, you dose and measure.\n\n**Rule:** sensitising event in an RhD-negative woman means anti-D within 72 hours; after 20 weeks add a Kleihauer.",
+    "whyWrong": [
+      "Trauma can cause fetomaternal haemorrhage without ongoing bleeding; anti-D is still needed.",
+      "250 IU is the first-trimester dose and is inadequate at 27 weeks.",
+      "Anti-D should be given within 72 hours of the event; routine prophylaxis does not cover it.",
+      "The dose should be guided by quantifying the haemorrhage, not guessed.",
+      ""
+    ],
+    "ausPearl": "Anti-D is supplied through Australian Red Cross Lifeblood under National Blood Authority guidelines. Non-invasive fetal RHD genotyping from maternal blood is increasingly available in Australia to avoid giving anti-D when the fetus is RhD negative.",
+    "tags": ["rh isoimmunisation", "anti-d", "kleihauer", "trauma"]
+  },
+  {
+    "id": "wh-006",
+    "discipline": "womens-health",
+    "topic": "obstetric-emergencies",
+    "difficulty": "foundation",
+    "stem": "A 23-year-old primigravida at 36 weeks' gestation presents with a severe headache. While in triage she has a generalised tonic-clonic seizure. Her BP is 168/112 mmHg and urinalysis shows 3+ protein. Help has been called, she is in the left lateral position and her airway is supported.\n\nWhich drug is most appropriate to control this seizure and prevent further seizures?",
+    "options": [
+      "IV diazepam",
+      "IV magnesium sulfate, 4 g loading dose followed by an infusion",
+      "IV phenytoin",
+      "IV levetiracetam",
+      "IV hydralazine"
+    ],
+    "answer": 1,
+    "explanation": "A seizure in a woman with pre-eclampsia is **eclampsia** until proven otherwise. The drug of choice is **magnesium sulfate**: a 4 g IV loading dose over 10–20 minutes, then an infusion of 1 g/hour, usually continued for 24 hours after birth or the last seizure. A further bolus is given for recurrent seizures.\n\nThe landmark Collaborative Eclampsia Trial showed magnesium is superior to diazepam and phenytoin at preventing recurrent seizures and reduces maternal death.\n\nAt the same time, severe hypertension (160/110 or above) must be treated to prevent stroke, and the woman is stabilised before delivery, which is the definitive treatment.\n\nThe discriminating clue is the triad of seizure, hypertension and proteinuria in late pregnancy.\n\n**Rule:** eclampsia means ABC, magnesium, control BP, then deliver once stable.",
+    "whyWrong": [
+      "Diazepam is inferior to magnesium for eclampsia and causes maternal and neonatal respiratory depression.",
+      "",
+      "Phenytoin is less effective than magnesium in eclampsia.",
+      "Levetiracetam has no established role in eclampsia.",
+      "Hydralazine treats severe hypertension but does not control or prevent eclamptic seizures."
+    ],
+    "tags": ["eclampsia", "magnesium sulfate", "pre-eclampsia"]
+  },
+  {
+    "id": "wh-007",
+    "discipline": "womens-health",
+    "topic": "obstetric-emergencies",
+    "difficulty": "core",
+    "stem": "A 30-year-old woman with severe pre-eclampsia is receiving IV magnesium sulfate at 1 g/hour after a caesarean section. Her total urine output over the last 4 hours is 60 mL. She is now drowsy, her respiratory rate is 9/min and her patellar reflexes are absent. SpO2 is 93% on room air.\n\nIn addition to stopping the infusion and supporting her breathing, which should be given?",
+    "options": [
+      "IV naloxone",
+      "IV furosemide",
+      "IV sodium bicarbonate",
+      "IV calcium gluconate 10%, 10 mL over 10 minutes",
+      "IV flumazenil"
+    ],
+    "answer": 3,
+    "explanation": "Magnesium is cleared by the kidneys, so **oliguria** (less than 100 mL over 4 hours) lets it accumulate. Toxicity follows a predictable sequence as levels rise: **loss of deep tendon reflexes first**, then respiratory depression, then cardiac conduction problems and arrest.\n\nThat is why women on magnesium have **patellar reflexes, respiratory rate and urine output** checked regularly. Losing the reflexes is the early warning sign.\n\nManagement: stop the infusion, give oxygen and support ventilation, check a serum magnesium level, and give the antidote, **calcium gluconate 10%, 10 mL IV slowly over 10 minutes**. Calcium antagonises magnesium at the neuromuscular junction and myocardium.\n\nThe discriminating clue is absent reflexes plus slow breathing in a woman on magnesium with poor urine output.\n\n**Rule:** reflexes, respiration, renal output. If they fail, stop the magnesium and give calcium gluconate.",
+    "whyWrong": [
+      "Naloxone reverses opioids, not magnesium; absent reflexes point to magnesium toxicity.",
+      "Furosemide does not reverse the acute neuromuscular and respiratory effects.",
+      "Bicarbonate has no role in treating hypermagnesaemia.",
+      "",
+      "Flumazenil reverses benzodiazepines, which she has not been given."
+    ],
+    "tags": ["magnesium toxicity", "calcium gluconate", "pre-eclampsia"]
+  },
+  {
+    "id": "wh-008",
+    "discipline": "womens-health",
+    "topic": "obstetric-emergencies",
+    "difficulty": "foundation",
+    "stem": "A 31-year-old woman, G3P2, at 32 weeks' gestation presents with a sudden episode of painless, bright red vaginal bleeding of about 200 mL. Both previous births were by caesarean section. She is haemodynamically stable. Her uterus is soft and non-tender, the fetus is in a transverse lie and the CTG is normal. She missed her 20-week morphology scan.\n\nWhich is the most likely diagnosis?",
+    "options": [
+      "Placenta praevia",
+      "Placental abruption",
+      "Vasa praevia",
+      "Uterine rupture",
+      "Cervical ectropion"
+    ],
+    "answer": 0,
+    "explanation": "Antepartum haemorrhage (bleeding after 20 weeks) has two big causes that you must tell apart.\n\n**Placenta praevia**: the placenta lies over or near the internal os. The bleeding is **painless**, often bright red and recurrent, the **uterus is soft**, and because the placenta blocks the pelvis the presenting part is high or the lie is **abnormal**. Previous caesarean sections are a major risk factor, and also raise the risk of placenta accreta spectrum.\n\n**Placental abruption**: the placenta separates early. Bleeding is **painful**, the uterus is **tender and hard (woody)**, and fetal distress is common. Blood can be concealed.\n\nThe critical safety point: **no digital vaginal examination until the placental site is known**, because it can provoke torrential bleeding. Ultrasound comes first.\n\n**Rule:** painless + soft uterus + malpresentation = praevia; painful + hard uterus = abruption.",
+    "whyWrong": [
+      "",
+      "Abruption is typically painful with a tender, tense uterus.",
+      "Vasa praevia bleeds at membrane rupture and causes rapid fetal compromise; this CTG is normal.",
+      "Rupture presents with pain, maternal shock, fetal distress and loss of station, usually in labour.",
+      "An ectropion causes minor spotting or post-coital bleeding, not a 200 mL haemorrhage."
+    ],
+    "tags": ["aph", "placenta praevia", "abruption"]
+  },
+  {
+    "id": "wh-009",
+    "discipline": "womens-health",
+    "topic": "obstetric-emergencies",
+    "difficulty": "exam",
+    "stem": "A 35-year-old woman with pre-eclampsia, treated with labetalol, and moderate persistent asthma has a vaginal birth. Fifteen minutes later her estimated blood loss is 1200 mL and her uterus is boggy and above the umbilicus. The placenta was delivered complete. She has had bimanual uterine compression, oxytocin 5 IU IV followed by an oxytocin infusion, and IV tranexamic acid. The uterus remains atonic.\n\nWhich additional uterotonic is most appropriate?",
+    "options": [
+      "Ergometrine 250 micrograms IM",
+      "Carboprost 250 micrograms IM",
+      "Misoprostol 800–1000 micrograms rectally",
+      "Oxytocin with ergometrine (Syntometrine) IM",
+      "Carbetocin 100 micrograms IV"
+    ],
+    "answer": 2,
+    "explanation": "Postpartum haemorrhage is 500 mL or more after birth. Think of the **4 Ts**: Tone (atony, the commonest), Trauma, Tissue (retained placenta) and Thrombin (coagulopathy). A boggy uterus with a complete placenta points to **atony**.\n\nUterotonics are escalated stepwise, but each has contraindications you must know:\n\n- **Ergometrine** causes vasoconstriction and hypertension, so it is **contraindicated in pre-eclampsia** and hypertension. Syntometrine contains ergometrine.\n- **Carboprost** (PGF2-alpha) causes bronchospasm, so it is **contraindicated in asthma**.\n- **Misoprostol** (PGE1) is safe in both, though slower in onset.\n\nIf drugs fail, move quickly to theatre for examination under anaesthesia, intrauterine balloon tamponade and surgical measures.\n\nThe discriminating clue is the combination of pre-eclampsia and asthma, which rules out the two faster second-line agents.\n\n**Rule:** no ergometrine if hypertensive, no carboprost if asthmatic.",
+    "whyWrong": [
+      "Ergometrine is contraindicated in pre-eclampsia because it raises blood pressure.",
+      "Carboprost is contraindicated in asthma because it can cause severe bronchospasm.",
+      "",
+      "Syntometrine contains ergometrine, so it shares the same contraindication in pre-eclampsia.",
+      "Carbetocin acts on the same receptor as oxytocin, so it adds little once oxytocin has failed."
+    ],
+    "ausPearl": "RANZCOG guidance recommends IV tranexamic acid early in PPH (within 3 hours of birth), based on the WOMAN trial.",
+    "tags": ["pph", "uterotonics", "contraindications"]
+  },
+  {
+    "id": "wh-010",
+    "discipline": "womens-health",
+    "topic": "obstetric-emergencies",
+    "difficulty": "exam",
+    "stem": "A 28-year-old woman, 6 weeks since her last menstrual period, has mild left iliac fossa discomfort and light spotting. Her observations are normal and her abdomen is soft with mild tenderness and no peritonism. Transvaginal ultrasound shows no intrauterine pregnancy and a 22 mm left adnexal mass separate from the ovary, with no fetal cardiac activity and no free fluid. Serum beta-hCG is 980 IU/L, and 48 hours later it is 1320 IU/L. She lives nearby and can attend follow-up.\n\nWhich is the most appropriate management?",
+    "options": [
+      "Expectant management with repeat hCG in 1 week",
+      "Laparoscopic salpingotomy",
+      "Uterine curettage to exclude a failing intrauterine pregnancy",
+      "Laparotomy and salpingectomy",
+      "Single-dose IM methotrexate 50 mg/m²"
+    ],
+    "answer": 4,
+    "explanation": "This is an **unruptured tubal ectopic pregnancy**: no intrauterine pregnancy, an adnexal mass, and an hCG rising too slowly for a healthy pregnancy.\n\nThere are three options, chosen by how stable she is and how active the pregnancy is:\n\n- **Surgery** (usually laparoscopic salpingectomy) if unstable, significant pain, a fetal heartbeat, a large mass (about 35 mm or more) or a high hCG.\n- **Methotrexate** if she is stable, with minimal pain, a mass under about 35 mm, **no fetal heartbeat**, a **low hCG** (ideally under 1500 IU/L) and reliable follow-up.\n- **Expectant** only if hCG is low and **falling**.\n\nShe fits methotrexate. hCG is checked on days 4 and 7 and should fall by at least 15%. She should avoid folate, NSAIDs and alcohol, and avoid pregnancy for about 3 months.\n\n**Rule:** stable, small, no heartbeat, low hCG, can follow up: methotrexate.",
+    "whyWrong": [
+      "Her hCG is rising, not falling, so expectant management is inappropriate.",
+      "Surgery is not needed when she meets methotrexate criteria, and salpingotomy carries a risk of persistent trophoblast.",
+      "The ultrasound already localises the pregnancy to the adnexa; curettage does not treat an ectopic.",
+      "She is stable, so an open operation is unnecessary.",
+      ""
+    ],
+    "tags": ["ectopic pregnancy", "methotrexate", "hcg"]
+  },
+  {
+    "id": "wh-011",
+    "discipline": "womens-health",
+    "topic": "labour-postpartum",
+    "difficulty": "core",
+    "stem": "A 34-year-old multiparous woman with gestational diabetes is in the second stage of labour. The fetal head delivers but then retracts tightly against the perineum, and restitution does not occur. Gentle axial traction does not deliver the anterior shoulder. You have called for help and noted the time.\n\nWhich is the most appropriate next manoeuvre?",
+    "options": [
+      "Fundal pressure",
+      "McRoberts manoeuvre with suprapubic pressure",
+      "Woods' screw (internal rotation) manoeuvre",
+      "Zavanelli manoeuvre (cephalic replacement)",
+      "Symphysiotomy"
+    ],
+    "answer": 1,
+    "explanation": "This is **shoulder dystocia**: the anterior shoulder is stuck behind the maternal symphysis pubis. The **turtle sign** (head retracting against the perineum) is the classic clue. Risk factors include macrosomia, diabetes, obesity and a previous dystocia.\n\nIt is an emergency because the cord is compressed. Work through a structured sequence (the HELPERR mnemonic):\n\n1. **Call for help**, stop pushing, avoid excessive traction.\n2. **McRoberts**: hyperflex the woman's hips onto her abdomen, which flattens the sacrum and rotates the symphysis.\n3. **Suprapubic pressure** over the posterior aspect of the anterior shoulder to adduct it.\n4. Then internal manoeuvres (delivery of the posterior arm, Woods' screw, Rubin II), and all-fours position.\n5. Last resorts: Zavanelli, symphysiotomy.\n\nMcRoberts with suprapubic pressure resolves most cases and is simple and low risk.\n\n**Rule:** turtle sign means call for help, then McRoberts plus suprapubic pressure first. Never fundal pressure.",
+    "whyWrong": [
+      "Fundal pressure impacts the shoulder further and increases brachial plexus injury and uterine rupture.",
+      "",
+      "Internal rotation manoeuvres come after McRoberts and suprapubic pressure have failed.",
+      "Cephalic replacement is a last-resort manoeuvre.",
+      "Symphysiotomy is a last-resort procedure with significant maternal morbidity."
+    ],
+    "tags": ["shoulder dystocia", "mcroberts", "labour emergency"]
+  },
+  {
+    "id": "wh-012",
+    "discipline": "womens-health",
+    "topic": "labour-postpartum",
+    "difficulty": "core",
+    "stem": "A 26-year-old primigravida at 39 weeks is in labour with a cervix 6 cm dilated. Immediately after artificial rupture of the membranes, a loop of pulsating umbilical cord is felt in the vagina and the fetal heart rate drops to 80 bpm. Help has been called.\n\nWhich is the most appropriate immediate action?",
+    "options": [
+      "Attempt to push the cord back into the uterus",
+      "Commence an oxytocin infusion to expedite vaginal birth",
+      "Perform a vacuum-assisted birth",
+      "Manually elevate the presenting part and position her knee-chest, while arranging a category 1 caesarean section",
+      "Continue CTG monitoring and reassess in 15 minutes"
+    ],
+    "answer": 3,
+    "explanation": "**Umbilical cord prolapse** is when the cord descends past the presenting part after membrane rupture. The presenting part then compresses the cord, cutting off fetal blood supply. Risk factors include artificial rupture with a high head, malpresentation, polyhydramnios and prematurity.\n\nThe immediate goal is to **take pressure off the cord** while you arrange the fastest safe birth:\n\n- Call for help and a **category 1 caesarean** if the cervix is not fully dilated.\n- **Manually elevate the presenting part** with fingers in the vagina.\n- Position her **knee-chest** or in exaggerated left Sims (head down).\n- If transfer is delayed, **fill the bladder** with about 500 mL saline via catheter to lift the head.\n- **Minimise handling the cord**, which causes vasospasm.\n\nIf she is fully dilated and birth is imminent, instrumental delivery can be used instead.\n\n**Rule:** cord prolapse means lift the head, knees to chest, and category 1 caesarean unless fully dilated.",
+    "whyWrong": [
+      "Handling or replacing the cord causes vasospasm and is not recommended.",
+      "Oxytocin increases contractions and cord compression; she is only 6 cm and far from birth.",
+      "Instrumental birth requires a fully dilated cervix; she is 6 cm.",
+      "",
+      "Fetal bradycardia from cord compression needs immediate action, not observation."
+    ],
+    "tags": ["cord prolapse", "labour emergency", "caesarean"]
+  },
+  {
+    "id": "wh-013",
+    "discipline": "womens-health",
+    "topic": "labour-postpartum",
+    "difficulty": "core",
+    "stem": "A 25-year-old primigravida at 40 weeks is in spontaneous labour. Her membranes ruptured spontaneously 5 hours ago with clear liquor. Four hours ago her cervix was 5 cm dilated; it is still 5 cm now. The head is at station 0 in an occipito-anterior position with no caput or moulding. Contractions are mild, 1–2 every 10 minutes. The CTG is normal.\n\nWhich is the most appropriate next step?",
+    "options": [
+      "Commence an IV oxytocin infusion",
+      "Caesarean section for failure to progress",
+      "Vacuum-assisted birth",
+      "Continue observation and reassess in 4 hours",
+      "Insert prostaglandin E2 vaginal gel"
+    ],
+    "answer": 0,
+    "explanation": "Slow progress in labour is analysed with the **3 Ps**: **Power** (contractions), **Passenger** (fetal size, position, attitude) and **Passage** (the pelvis).\n\nIn the active first stage, progress of less than about 2 cm in 4 hours in a first labour suggests delay. Here she has made **no progress in 4 hours**. The passenger looks favourable (occipito-anterior, no caput or moulding, so no obstruction), but the **contractions are weak and infrequent**. Hypotonic uterine activity is the commonest cause of delay in primigravidas.\n\nWith membranes already ruptured, the next step is **augmentation with IV oxytocin**, titrated to about 4–5 contractions per 10 minutes, with continuous CTG. Reassess after about 4 hours; caesarean is considered if progress still fails.\n\n**Rule:** delay with weak contractions and no obstruction means augment the power with oxytocin.",
+    "whyWrong": [
+      "",
+      "Caesarean is premature; the reversible cause (weak contractions) has not been treated.",
+      "Instrumental birth requires full dilatation; she is 5 cm.",
+      "She already has a 4-hour arrest; further waiting without treating the cause prolongs labour and raises infection risk.",
+      "Prostaglandins ripen the cervix before induction; they are not used for augmentation in established labour with ruptured membranes."
+    ],
+    "tags": ["labour dystocia", "oxytocin", "augmentation"]
+  },
+  {
+    "id": "wh-014",
+    "discipline": "womens-health",
+    "topic": "gynaecology",
+    "difficulty": "foundation",
+    "stem": "A 30-year-old woman at 9 weeks' gestation by dates presents with heavy vaginal bleeding and crampy lower abdominal pain for 3 hours. She is haemodynamically stable. On speculum examination there is blood in the vault and the internal cervical os is open. No tissue is seen at the os and she has not passed any tissue.\n\nWhich is the most likely diagnosis?",
+    "options": [
+      "Threatened miscarriage",
+      "Inevitable miscarriage",
+      "Incomplete miscarriage",
+      "Complete miscarriage",
+      "Missed miscarriage"
+    ],
+    "answer": 1,
+    "explanation": "Miscarriage types are separated by two things: **is the os open or closed**, and **has tissue been passed**?\n\n- **Threatened**: bleeding, os **closed**, pregnancy may continue.\n- **Inevitable**: bleeding and pain, os **open**, nothing passed yet. The pregnancy will not continue.\n- **Incomplete**: os open, **some** tissue passed, some retained.\n- **Complete**: all tissue passed, os usually closed, bleeding settling, empty uterus on ultrasound.\n- **Missed**: non-viable pregnancy on ultrasound, often with no symptoms, os closed.\n\nThe discriminating clue here is an **open os with nothing passed**.\n\nAlways think of ectopic pregnancy in early pregnancy bleeding until an intrauterine pregnancy is confirmed. If products are seen sitting in the os causing pain and bradycardia (cervical shock), remove them with sponge forceps.\n\n**Rule:** closed os = threatened; open os = inevitable or incomplete, depending on whether tissue has been passed.",
+    "whyWrong": [
+      "A threatened miscarriage has a closed cervical os.",
+      "",
+      "An incomplete miscarriage requires some tissue to have been passed.",
+      "A complete miscarriage means all tissue has been passed, with the os usually closed.",
+      "A missed miscarriage is usually asymptomatic with a closed os."
+    ],
+    "tags": ["miscarriage", "early pregnancy bleeding"]
+  },
+  {
+    "id": "wh-015",
+    "discipline": "womens-health",
+    "topic": "gynaecology",
+    "difficulty": "core",
+    "stem": "A 33-year-old woman has a transvaginal ultrasound at 7 weeks by her last menstrual period because of mild spotting. The scan shows an intrauterine gestational sac with a yolk sac and an embryo with a crown-rump length of 5 mm. No fetal cardiac activity is seen. The adnexa are normal. She is well.\n\nWhich is the most appropriate next step?",
+    "options": [
+      "Diagnose a missed miscarriage and offer misoprostol",
+      "Arrange suction curettage",
+      "Repeat the transvaginal ultrasound in 7–14 days",
+      "Reassure her and arrange no further imaging until the 12-week scan",
+      "Give IM methotrexate"
+    ],
+    "answer": 2,
+    "explanation": "Diagnosing a miscarriage on ultrasound must be **certain**, because acting on a wrong diagnosis ends a wanted pregnancy. Dates are often wrong, and small embryos may not yet show a heartbeat.\n\nThe accepted transvaginal criteria for a definite miscarriage are:\n\n- **Crown-rump length 7 mm or more with no cardiac activity**, or\n- **Mean sac diameter 25 mm or more with no embryo**.\n\nBelow these cut-offs the result is **uncertain viability**, and the scan is **repeated in at least 7 days** (commonly 7–14 days). A second scan showing no growth or heartbeat confirms the diagnosis.\n\nHere the CRL is only 5 mm, so no intervention should be offered yet. Give her clear safety-net advice about heavy bleeding or pain.\n\n**Rule:** CRL under 7 mm without a heartbeat is not yet a miscarriage; rescan before acting.",
+    "whyWrong": [
+      "A CRL of 5 mm without a heartbeat does not meet the criteria for miscarriage.",
+      "Surgical management before a certain diagnosis risks ending a viable pregnancy.",
+      "",
+      "Uncertain viability needs a planned rescan, not a wait until 12 weeks.",
+      "Methotrexate is for ectopic pregnancy and would harm a potentially viable intrauterine pregnancy."
+    ],
+    "tags": ["miscarriage", "ultrasound", "viability"]
+  },
+  {
+    "id": "wh-016",
+    "discipline": "womens-health",
+    "topic": "gynaecology",
+    "difficulty": "core",
+    "stem": "A 24-year-old woman has had periods every 3–5 months since menarche. She has coarse hair on her chin and upper lip and moderate acne. Her BMI is 29 kg/m². Pelvic ultrasound shows polycystic ovarian morphology. Pregnancy test is negative, and TSH, prolactin and 17-hydroxyprogesterone are normal. She is sexually active and does not want to become pregnant for several years.\n\nWhich is the most appropriate first-line pharmacological treatment?",
+    "options": [
+      "Letrozole",
+      "Spironolactone alone",
+      "Metformin alone",
+      "Cyproterone acetate alone",
+      "Combined oral contraceptive pill"
+    ],
+    "answer": 4,
+    "explanation": "She meets the **Rotterdam criteria** for polycystic ovary syndrome (PCOS): two of oligo-anovulation, clinical or biochemical hyperandrogenism, and polycystic ovaries, after excluding other causes (thyroid, prolactin, non-classic congenital adrenal hyperplasia).\n\nFor a woman **not seeking pregnancy**, the **combined oral contraceptive pill (COCP)** is first-line medication because it does several jobs at once:\n\n- Regulates cycles and **protects the endometrium**. Infrequent periods mean unopposed oestrogen, which raises the risk of endometrial hyperplasia and cancer.\n- Treats hirsutism and acne by suppressing ovarian androgens and raising SHBG.\n- Provides contraception.\n\n**Lifestyle change** sits alongside all treatment. Anti-androgens can be added if hirsutism persists after about 6 months, but only with reliable contraception. Metformin helps metabolic features and weight.\n\n**Rule:** PCOS, not trying to conceive: lifestyle plus the COCP. Trying to conceive: letrozole.",
+    "whyWrong": [
+      "Letrozole induces ovulation, which is the opposite of what she wants.",
+      "Anti-androgens alone do not regulate cycles or protect the endometrium, and are teratogenic without contraception.",
+      "Metformin helps metabolic features but is less effective for cycle control and hirsutism, and gives no contraception.",
+      "Cyproterone alone is teratogenic without contraception and does not protect the endometrium.",
+      ""
+    ],
+    "ausPearl": "The International Evidence-based Guideline for PCOS (2023) was led from Monash University in Australia and is the key reference for AMC questions on PCOS.",
+    "tags": ["pcos", "cocp", "hirsutism"]
+  },
+  {
+    "id": "wh-017",
+    "discipline": "womens-health",
+    "topic": "gynaecology",
+    "difficulty": "foundation",
+    "stem": "A 52-year-old woman whose last menstrual period was 14 months ago has severe hot flushes and night sweats that are disrupting her sleep and work. She has an intact uterus. She has no history of breast cancer, venous thromboembolism, stroke or liver disease. Her BP is normal and she does not smoke. She wants the most effective treatment.\n\nWhich is the most appropriate treatment?",
+    "options": [
+      "Oestrogen-only therapy",
+      "Vaginal oestrogen cream alone",
+      "Paroxetine",
+      "Combined oestrogen and progestogen menopausal hormone therapy",
+      "Black cohosh"
+    ],
+    "answer": 3,
+    "explanation": "**Menopausal hormone therapy (MHT)** is the most effective treatment for vasomotor symptoms. For healthy women under 60 or within 10 years of menopause, the benefits usually outweigh the risks.\n\nThe key decision is whether she has a **uterus**:\n\n- **Intact uterus**: oestrogen **plus a progestogen** (e.g. micronised progesterone, a synthetic progestogen, or a levonorgestrel IUD). Unopposed oestrogen causes endometrial hyperplasia and cancer.\n- **No uterus** (after hysterectomy): oestrogen alone.\n\n**Transdermal** oestrogen carries a lower risk of venous thromboembolism than oral. Non-hormonal options such as SSRIs or SNRIs are for women who cannot or will not take MHT. Vaginal oestrogen treats genitourinary symptoms, not flushes.\n\nThe discriminating clue is the intact uterus in a healthy woman with severe symptoms.\n\n**Rule:** got a uterus, give a progestogen with the oestrogen.",
+    "whyWrong": [
+      "Oestrogen alone in a woman with a uterus causes endometrial hyperplasia and cancer.",
+      "Vaginal oestrogen treats local genitourinary symptoms, not systemic vasomotor symptoms.",
+      "SSRIs are less effective and are reserved for women who cannot or will not take MHT.",
+      "",
+      "Black cohosh has little evidence of benefit and has been linked to liver toxicity."
+    ],
+    "ausPearl": "The Australasian Menopause Society publishes practical Australian guidance on MHT regimens and non-hormonal options.",
+    "tags": ["menopause", "mht", "vasomotor symptoms"]
+  },
+  {
+    "id": "wh-018",
+    "discipline": "womens-health",
+    "topic": "gynae-oncology",
+    "difficulty": "core",
+    "stem": "A 63-year-old woman presents with two episodes of vaginal spotting in the past month. She reached menopause at 52 and has never used hormone therapy. She has type 2 diabetes and a BMI of 38 kg/m². Speculum examination shows a normal cervix, and her last cervical screening test a year ago was HPV not detected. Transvaginal ultrasound shows an endometrial thickness of 11 mm.\n\nWhich is the most appropriate next step?",
+    "options": [
+      "Hysteroscopy with endometrial biopsy",
+      "Repeat transvaginal ultrasound in 6 months",
+      "Reassure her that atrophic vaginitis is likely and prescribe vaginal oestrogen",
+      "Serum CA-125",
+      "Oral progestogen and review in 3 months"
+    ],
+    "answer": 0,
+    "explanation": "**Postmenopausal bleeding (PMB)** is endometrial cancer until proven otherwise. Most cases turn out to be atrophy, but about 1 in 10 women with PMB has endometrial cancer, and PMB is usually an early sign, so prompt investigation catches it at a curable stage.\n\nThe first test is **transvaginal ultrasound**. An endometrial thickness above about **4 mm** in a woman with PMB needs **tissue for histology**. Hysteroscopy with biopsy is the gold standard; office pipelle sampling is also used.\n\nHer risk factors all relate to **unopposed oestrogen**: obesity (peripheral fat converts androgens to oestrogen), diabetes, nulliparity, PCOS, tamoxifen and Lynch syndrome.\n\nThe discriminating clue is the thick endometrium (11 mm) in a high-risk woman with PMB.\n\n**Rule:** PMB with endometrium over 4 mm means biopsy. Never assume atrophy without checking.",
+    "whyWrong": [
+      "",
+      "Delaying investigation of a thickened endometrium with PMB risks missing cancer.",
+      "Atrophy is a diagnosis of exclusion; an 11 mm endometrium must be sampled first.",
+      "CA-125 is a marker for ovarian cancer and does not diagnose endometrial disease.",
+      "Treating without histology could mask a cancer."
+    ],
+    "tags": ["postmenopausal bleeding", "endometrial cancer", "red flags"]
+  },
+  {
+    "id": "wh-019",
+    "discipline": "womens-health",
+    "topic": "contraception-fertility",
+    "difficulty": "foundation",
+    "stem": "A 24-year-old woman presents 96 hours after unprotected sex when a condom broke. She is on day 14 of a regular 28-day cycle and uses no other contraception. This was her only episode of unprotected sex this cycle. Her BMI is 23 kg/m² and she takes no medicines.\n\nWhich is the most effective emergency contraception?",
+    "options": [
+      "Levonorgestrel 1.5 mg orally",
+      "Levonorgestrel 3 mg orally",
+      "Copper intrauterine device insertion",
+      "Ulipristal acetate 30 mg orally",
+      "Combined oral contraceptive pills taken as a two-dose (Yuzpe) regimen"
+    ],
+    "answer": 2,
+    "explanation": "There are three emergency contraception options, and it helps to know their windows and effectiveness:\n\n- **Copper IUD**: the **most effective** (over 99%). It can be inserted up to **5 days (120 hours)** after unprotected sex, or up to 5 days after the earliest expected ovulation. It also gives ongoing contraception for years.\n- **Ulipristal acetate 30 mg**: effective up to **120 hours**; more effective than levonorgestrel.\n- **Levonorgestrel 1.5 mg**: licensed up to **72 hours**, with effectiveness falling with time. A double dose is considered for high body weight or enzyme-inducing drugs.\n\nOral methods work mainly by **delaying ovulation**, so they often fail if ovulation is imminent, which is exactly the situation mid-cycle. The copper IUD also prevents implantation, so it works even then.\n\n**Rule:** most effective EC is always the copper IUD; best pill is ulipristal, up to 5 days.",
+    "whyWrong": [
+      "Levonorgestrel is least effective at 96 hours and mid-cycle, and is licensed only to 72 hours.",
+      "The double dose is for high body weight or enzyme inducers; it does not make levonorgestrel as effective as a copper IUD.",
+      "",
+      "Ulipristal works up to 120 hours but is less effective than a copper IUD, especially near ovulation.",
+      "The Yuzpe regimen is less effective and causes more nausea; it is obsolete."
+    ],
+    "ausPearl": "Both levonorgestrel and ulipristal EC are available from Australian pharmacies without a prescription (Pharmacist Only). Copper IUD insertion needs a trained clinician, often through a sexual health or Family Planning clinic.",
+    "tags": ["emergency contraception", "copper iud", "ulipristal"]
+  },
+  {
+    "id": "wh-020",
+    "discipline": "womens-health",
+    "topic": "contraception-fertility",
+    "difficulty": "exam",
+    "stem": "A 20-year-old woman took ulipristal acetate 30 mg this morning, 3 days after unprotected sex. She now wants to start the combined oral contraceptive pill for ongoing contraception and asks when she can start.\n\nWhich is the most appropriate advice?",
+    "options": [
+      "Start the combined pill today; no extra precautions are needed",
+      "Wait 5 days after ulipristal, then start the combined pill, using condoms or abstaining until she has taken 7 active pills",
+      "Start the combined pill today and use condoms for 7 days",
+      "Wait until her next period before starting any hormonal contraception",
+      "The combined pill cannot be used this cycle; start a progestogen-only pill today instead"
+    ],
+    "answer": 1,
+    "explanation": "Ulipristal is a **selective progesterone receptor modulator**. It works by delaying ovulation, and **progestogens taken in the following days can block that action**, making the emergency contraception less effective. Ulipristal may also reduce the effect of the new hormonal method.\n\nSo after ulipristal:\n\n- **Wait 5 days** before starting any progestogen-containing contraception.\n- Then quick-start the method, with **extra precautions** (condoms or abstinence) until it becomes effective: 7 days for the combined pill (2 days for a progestogen-only pill).\n- Do a **pregnancy test about 3 weeks** after the unprotected sex.\n\nIf a woman wants to start hormonal contraception immediately, **levonorgestrel** EC allows same-day quick-starting, but it is less effective than ulipristal, so the choice is a trade-off.\n\nThe discriminating clue is ulipristal, not levonorgestrel.\n\n**Rule:** after ulipristal, wait 5 days before any hormones, then add 7 days of condoms for the pill.",
+    "whyWrong": [
+      "Starting a progestogen now may reduce ulipristal's effect, and the pill is not effective immediately.",
+      "",
+      "Starting the pill today may stop ulipristal from delaying ovulation.",
+      "Waiting for a period leaves her unprotected unnecessarily; quick-starting after 5 days is preferred.",
+      "A progestogen-only pill is also a progestogen and has the same interaction with ulipristal."
+    ],
+    "tags": ["ulipristal", "quick start", "emergency contraception"]
+  },
+  {
+    "id": "wh-021",
+    "discipline": "womens-health",
+    "topic": "contraception-fertility",
+    "difficulty": "core",
+    "stem": "A 16-year-old girl attends your general practice alone asking for contraception. She has been sexually active with her 17-year-old boyfriend for 3 months and says she keeps forgetting to take the pill. After discussion you are satisfied that she understands the benefits, risks and alternatives. She wants the method with the lowest failure rate that she does not have to remember.\n\nWhich method is most appropriate?",
+    "options": [
+      "Depot medroxyprogesterone acetate injection every 12 weeks",
+      "Combined vaginal ring",
+      "Combined oral contraceptive pill",
+      "Progestogen-only pill",
+      "Etonogestrel subdermal implant"
+    ],
+    "answer": 4,
+    "explanation": "**Long-acting reversible contraception (LARC)**, meaning implants and intrauterine devices, is the most effective reversible contraception because it does not depend on the user remembering anything. It is recommended as first-line for adolescents too.\n\nTypical-use failure rates in the first year:\n\n- **Etonogestrel implant**: about 0.05%, the lowest of any method, lasting 3 years.\n- Levonorgestrel IUD: about 0.2%.\n- Depot injection: around 4–6% (late injections).\n- Pill or ring: around 7–9%.\n\nThe main downside of the implant is **unpredictable bleeding**, which should be discussed before insertion. It gives no STI protection, so advise condoms as well and offer chlamydia testing.\n\nShe can consent herself if she is a **mature minor** (Gillick competent), as you have assessed.\n\n**Rule:** forgetful and wants the best: implant or IUD, not a pill.",
+    "whyWrong": [
+      "Depot injections depend on returning every 12 weeks and have a higher typical-use failure rate.",
+      "The ring is user-dependent, with a typical-use failure rate similar to the pill.",
+      "She already forgets pills, and typical-use failure is around 7–9%.",
+      "The progestogen-only pill has a strict timing window and is unforgiving of missed doses.",
+      ""
+    ],
+    "ausPearl": "In Australia a competent minor can consent to contraception (Gillick competence), and consultations are confidential. From 15 she can hold her own Medicare card. The implant is PBS-listed. Always consider age-of-consent laws, which vary by state, and screen for coercion or abuse.",
+    "tags": ["larc", "implant", "adolescent", "gillick"]
+  },
+  {
+    "id": "wh-022",
+    "discipline": "womens-health",
+    "topic": "contraception-fertility",
+    "difficulty": "core",
+    "stem": "A 36-year-old woman and her 38-year-old partner have been trying to conceive for 7 months with regular unprotected intercourse. Her cycles are regular (28–30 days). Neither has had a previous pregnancy with another partner. She has no history of sexually transmitted infection or pelvic surgery. Both are well.\n\nWhich is the most appropriate next step?",
+    "options": [
+      "Reassure them and advise trying for a full 12 months before investigation",
+      "Refer directly for IVF",
+      "Prescribe clomiphene citrate for 3 cycles",
+      "Begin investigations of both partners now, including semen analysis",
+      "Investigate the woman first, with semen analysis only if her tests are normal"
+    ],
+    "answer": 3,
+    "explanation": "**Infertility** is failure to conceive after **12 months** of regular unprotected intercourse. But female fertility falls steadily after 35, so investigation starts after **6 months if the woman is 35 or older** (or earlier if there is an obvious cause, such as amenorrhoea or known tubal disease).\n\nAlways investigate **both partners at the same time**. Male factors contribute to about 40–50% of cases, and semen analysis is cheap and non-invasive.\n\nInitial workup:\n\n- **Man**: semen analysis.\n- **Woman**: mid-luteal progesterone to confirm ovulation, TSH (and prolactin if cycles are irregular), AMH as a marker of ovarian reserve, rubella and varicella immunity, STI screen, and a tubal patency test (HyCoSy or HSG).\n- Both: lifestyle advice, folic acid for her.\n\nThe discriminating clue is her age: at 36, 7 months is long enough.\n\n**Rule:** under 35, investigate after 12 months; 35 or over, after 6 months. Always test both partners.",
+    "whyWrong": [
+      "At 36, waiting the full 12 months wastes time as her fertility declines.",
+      "IVF is not indicated before a cause has been looked for.",
+      "Empirical clomiphene in a woman with regular cycles and no workup is inappropriate.",
+      "",
+      "Male factor is common; delaying semen analysis delays the diagnosis."
+    ],
+    "tags": ["infertility", "semen analysis", "fertility workup"]
+  },
+  {
+    "id": "wh-023",
+    "discipline": "womens-health",
+    "topic": "contraception-fertility",
+    "difficulty": "exam",
+    "stem": "A 29-year-old woman with polycystic ovary syndrome and her partner have been trying to conceive for 14 months. Her cycles occur every 60–90 days. Her BMI is 27 kg/m² and she has already made lifestyle changes. Her partner's semen analysis is normal and HyCoSy shows both tubes are patent.\n\nWhich is the most appropriate first-line pharmacological treatment to induce ovulation?",
+    "options": [
+      "Clomiphene citrate",
+      "Metformin alone",
+      "Letrozole",
+      "Gonadotrophin injections",
+      "Laparoscopic ovarian drilling"
+    ],
+    "answer": 2,
+    "explanation": "In PCOS the usual cause of infertility is **anovulation**. After lifestyle optimisation, the goal is to induce ovulation of a single follicle.\n\n**Letrozole** is an aromatase inhibitor. By lowering oestrogen it reduces negative feedback, so the pituitary releases more FSH and a follicle matures. The large PPCOS II trial showed **higher ovulation and live birth rates than clomiphene**, with fewer multiple pregnancies. The 2023 International PCOS Guideline therefore recommends letrozole as **first-line**.\n\nThe usual ladder is:\n\n1. Letrozole (clomiphene, with or without metformin, is an alternative).\n2. Gonadotrophins or laparoscopic ovarian drilling.\n3. IVF.\n\nBefore induction, check tubal patency and semen, as has been done here.\n\nThe discriminating clue is anovulatory PCOS with normal tubes and semen.\n\n**Rule:** PCOS and wanting pregnancy: letrozole first.",
+    "whyWrong": [
+      "Clomiphene is now second-line; letrozole gives higher live birth rates.",
+      "Metformin alone is less effective than letrozole for live birth.",
+      "",
+      "Gonadotrophins are second-line, needing close monitoring for multiple pregnancy and OHSS.",
+      "Ovarian drilling is a second-line surgical option."
+    ],
+    "ausPearl": "Letrozole is TGA-registered for breast cancer, so its use for ovulation induction in Australia is off-label, which should be explained to the patient.",
+    "tags": ["pcos", "letrozole", "ovulation induction", "infertility"]
+  },
+  {
+    "id": "wh-024",
+    "discipline": "womens-health",
+    "topic": "sexual-health",
+    "difficulty": "foundation",
+    "stem": "A 22-year-old woman has a positive Chlamydia trachomatis NAAT on a self-collected vaginal swab taken at a routine STI check. She has no symptoms. Her pregnancy test is negative, gonorrhoea NAAT is negative and she has no allergies.\n\nWhich is the most appropriate treatment?",
+    "options": [
+      "Doxycycline 100 mg orally twice daily for 7 days",
+      "Azithromycin 1 g orally as a single dose",
+      "Ceftriaxone 500 mg IM plus azithromycin 1 g orally",
+      "Amoxicillin 500 mg orally three times daily for 7 days",
+      "Metronidazole 400 mg orally twice daily for 7 days"
+    ],
+    "answer": 0,
+    "explanation": "Chlamydia is the most commonly notified STI in Australia and is usually **asymptomatic**, which is why young sexually active people are screened. Untreated, it can cause PID, tubal infertility, ectopic pregnancy and chronic pelvic pain.\n\nFirst-line treatment for uncomplicated infection is **doxycycline 100 mg twice daily for 7 days**. It is more effective than single-dose azithromycin, especially for **rectal chlamydia**, which is common in women even without anal sex. **Azithromycin 1 g** is used in **pregnancy** (doxycycline is contraindicated) or if adherence is a real concern.\n\nAlso:\n\n- No sex for 7 days after treatment starts, and until partners are treated.\n- **Contact tracing** of partners from the last 6 months.\n- **Retest at 3 months** for reinfection, which is common.\n\n**Rule:** chlamydia is doxycycline for 7 days, unless pregnant (azithromycin).",
+    "whyWrong": [
+      "",
+      "Azithromycin is second-line; it is less effective, especially for rectal infection.",
+      "Ceftriaxone is for gonorrhoea, which is negative here.",
+      "Amoxicillin is not first-line for chlamydia outside pregnancy.",
+      "Metronidazole treats trichomonas and bacterial vaginosis, not chlamydia."
+    ],
+    "ausPearl": "Chlamydia is notifiable in all Australian states and territories. Partner notification can be done anonymously using services such as Let Them Know. Retesting at 3 months is recommended in the Australian STI Management Guidelines.",
+    "tags": ["chlamydia", "doxycycline", "sti"]
+  },
+  {
+    "id": "wh-025",
+    "discipline": "womens-health",
+    "topic": "sexual-health",
+    "difficulty": "core",
+    "stem": "A 24-year-old woman at 16 weeks' gestation has antenatal serology showing a reactive syphilis EIA, a reactive TPPA and an RPR titre of 1:32. She recalls a painless genital sore about 6 weeks ago that healed on its own. She has never been tested or treated for syphilis before and has no penicillin allergy.\n\nWhich is the most appropriate treatment?",
+    "options": [
+      "Doxycycline 100 mg orally twice daily for 14 days",
+      "Azithromycin 2 g orally as a single dose",
+      "Ceftriaxone 1 g IM daily for 10 days",
+      "Amoxicillin 1 g orally three times daily for 14 days",
+      "Benzathine benzylpenicillin 2.4 million units (1.8 g) IM as a single dose"
+    ],
+    "answer": 4,
+    "explanation": "She has **early syphilis** (acquired within the last 2 years): a painless chancre 6 weeks ago, reactive treponemal tests (EIA, TPPA) and a high non-treponemal titre (RPR), which reflects disease activity.\n\nSyphilis in pregnancy crosses the placenta and causes **congenital syphilis**, miscarriage, stillbirth and neonatal death. It is preventable if treated at least 4 weeks before birth.\n\n**Benzathine benzylpenicillin** is the only treatment reliably proven to prevent congenital syphilis. For early syphilis it is a **single IM dose of 2.4 million units (1.8 g)**. Late or unknown-duration syphilis needs three weekly doses. Women with penicillin allergy in pregnancy are desensitised rather than given an alternative.\n\nWarn about the **Jarisch–Herxheimer reaction** (fever, malaise) within 24 hours, which in pregnancy can trigger contractions or fetal distress. Follow RPR titres, notify, trace contacts, and involve sexual health specialists.\n\n**Rule:** syphilis in pregnancy is always penicillin.",
+    "whyWrong": [
+      "Doxycycline is contraindicated in pregnancy and does not prevent congenital syphilis.",
+      "Azithromycin resistance is widespread in Treponema pallidum and it does not reliably treat the fetus.",
+      "Ceftriaxone is not the recommended first-line treatment for syphilis in pregnancy.",
+      "Oral amoxicillin is not a recommended treatment for syphilis.",
+      ""
+    ],
+    "ausPearl": "Australia has an ongoing syphilis outbreak, first in Aboriginal and Torres Strait Islander communities in northern Australia and now more widely, with a rise in congenital syphilis. Syphilis is notifiable, and many jurisdictions now recommend repeat antenatal testing (e.g. at 26–28 weeks, 36 weeks and birth) in addition to the first visit.",
+    "tags": ["syphilis", "pregnancy", "benzathine penicillin"]
+  },
+  {
+    "id": "wh-026",
+    "discipline": "womens-health",
+    "topic": "sexual-health",
+    "difficulty": "core",
+    "stem": "A 20-year-old woman has 4 days of bilateral lower abdominal pain, deep dyspareunia and increased vaginal discharge. Her temperature is 37.9 °C, pulse 92/min and BP normal. On bimanual examination there is cervical motion tenderness and bilateral adnexal tenderness, with no mass. Urine hCG is negative. She is tolerating oral fluids. Swabs for NAAT have been taken.\n\nWhich is the most appropriate next step?",
+    "options": [
+      "Await NAAT results before starting antibiotics",
+      "Start empirical antibiotics now: ceftriaxone, plus doxycycline and metronidazole for 14 days",
+      "Arrange diagnostic laparoscopy",
+      "Give azithromycin 1 g orally as a single dose",
+      "Arrange CT of the abdomen and pelvis"
+    ],
+    "answer": 1,
+    "explanation": "**Pelvic inflammatory disease (PID)** is a **clinical diagnosis**. In a sexually active young woman with pelvic pain, **cervical motion tenderness or adnexal tenderness** is enough to treat, once pregnancy (including ectopic) and other causes like appendicitis have been considered.\n\nThe threshold is deliberately low because delayed treatment increases the risk of **tubal infertility, ectopic pregnancy and chronic pelvic pain**. Negative swabs do **not** exclude PID, since many cases are polymicrobial.\n\nAntibiotics must cover chlamydia, gonorrhoea and anaerobes. For mild to moderate PID in Australia: **ceftriaxone** as a single dose, plus **doxycycline and metronidazole for 14 days**, following the Australian STI Management Guidelines and eTG.\n\nReview at **72 hours**; admit if she is unwell, pregnant, has a tubo-ovarian abscess or fails oral treatment. Treat partners.\n\n**Rule:** suspect PID, treat PID. Do not wait for swabs.",
+    "whyWrong": [
+      "Delaying treatment for results increases the risk of tubal damage; negative swabs do not exclude PID.",
+      "",
+      "Laparoscopy is reserved for diagnostic uncertainty or failure to respond, not routine diagnosis.",
+      "A single dose of azithromycin does not cover gonorrhoea or anaerobes and is too short for PID.",
+      "CT is not needed for a clinical diagnosis; ultrasound is preferred if an abscess is suspected."
+    ],
+    "tags": ["pid", "sti", "empirical antibiotics"]
+  },
+  {
+    "id": "wh-027",
+    "discipline": "womens-health",
+    "topic": "sexual-health",
+    "difficulty": "exam",
+    "stem": "A 28-year-old woman at 37 weeks' gestation presents with 3 days of painful vulval ulcers, dysuria and fever. She has never had genital lesions before. A lesion swab is positive for HSV-2 on PCR, and type-specific serology shows no HSV antibodies, consistent with a primary infection.\n\nWhich is the most appropriate plan?",
+    "options": [
+      "Aim for vaginal birth, with aciclovir only if lesions are present in labour",
+      "Induce labour today to shorten viral exposure",
+      "Vaginal birth, with aciclovir given to the newborn only",
+      "Oral aciclovir and a planned caesarean section",
+      "Vaginal birth; caesarean only if membranes have been ruptured for more than 4 hours"
+    ],
+    "answer": 3,
+    "explanation": "Neonatal herpes is rare but can cause disseminated disease, encephalitis and death. The risk depends on whether the mother's infection is **primary or recurrent**.\n\n- **Primary infection in the third trimester**, especially within about **6 weeks of birth**: the mother sheds large amounts of virus and has **not yet made antibodies** to pass across the placenta. The transmission risk in vaginal birth is high, so **caesarean section is recommended**, with aciclovir to treat her.\n- **Recurrent infection**: maternal antibodies protect the baby and the risk is low. Suppressive aciclovir from 36 weeks is offered and vaginal birth is usually appropriate.\n\nThe neonatal team should be told, and the baby monitored after birth.\n\nThe discriminating clue is **no HSV antibodies**: this is primary infection at 37 weeks.\n\n**Rule:** primary genital herpes in the last 6 weeks of pregnancy means caesarean section.",
+    "whyWrong": [
+      "Vaginal birth after a primary infection this close to term carries a high risk of neonatal herpes.",
+      "Inducing vaginal birth during active primary shedding increases, rather than reduces, the risk to the baby.",
+      "Treating only the baby after exposure during vaginal birth is inadequate prevention.",
+      "",
+      "Caesarean is recommended regardless of membrane status after a primary third-trimester infection."
+    ],
+    "tags": ["hsv", "pregnancy", "caesarean"]
+  },
+  {
+    "id": "wh-028",
+    "discipline": "womens-health",
+    "topic": "gynae-oncology",
+    "difficulty": "core",
+    "stem": "A 27-year-old woman who moved to Australia from India two years ago asks about cervical screening. She has never been screened and has not had the HPV vaccine. She became sexually active at 22. She has no symptoms, including no post-coital or intermenstrual bleeding.\n\nWhich is the most appropriate advice?",
+    "options": [
+      "A Pap smear now and every 2 years",
+      "No screening is needed until 30, because HPV infections usually clear in young women",
+      "Liquid-based cytology every 3 years",
+      "An HPV test every year",
+      "An HPV test now, clinician-collected or self-collected, repeated every 5 years if HPV is not detected"
+    ],
+    "answer": 4,
+    "explanation": "Since December 2017, Australia's **National Cervical Screening Program (NCSP)** uses a **Cervical Screening Test**, which is a test for **oncogenic HPV**, rather than the old 2-yearly Pap smear.\n\nKey points to memorise:\n\n- Eligible: people with a cervix aged **25 to 74** who have ever been sexually active.\n- If HPV is not detected: repeat in **5 years**.\n- If HPV is detected: the lab does **reflex liquid-based cytology** on a clinician-collected sample.\n- **Self-collection** (a vaginal swab she takes herself) has been available to **all eligible people since July 2022**; it is as accurate for HPV as a clinician-collected sample.\n- Vaccinated people still screen.\n\nScreening is for people **without symptoms**. Abnormal bleeding needs a clinician-collected co-test and examination, not a screening test.\n\n**Rule:** HPV test from 25, every 5 years, to 74, self-collect allowed.",
+    "whyWrong": [
+      "Two-yearly Pap smears were replaced in Australia in 2017.",
+      "Australia starts screening at 25, and she is eligible now.",
+      "Cytology is used to triage a positive HPV test, not as the primary screening test.",
+      "Annual testing is not recommended after a negative HPV test; the interval is 5 years.",
+      ""
+    ],
+    "ausPearl": "The Cervical Screening Test is Medicare-funded, and the National Cancer Screening Register sends reminders. Australia aims to eliminate cervical cancer as a public health problem by 2035.",
+    "tags": ["cervical screening", "ncsp", "hpv", "self-collection"]
+  },
+  {
+    "id": "wh-029",
+    "discipline": "womens-health",
+    "topic": "gynae-oncology",
+    "difficulty": "exam",
+    "stem": "A 38-year-old woman chose a self-collected vaginal sample for her 5-yearly cervical screening test. The result shows oncogenic HPV type 16 detected. Her previous screening test 5 years ago was HPV not detected. She has no symptoms.\n\nWhich is the most appropriate next step?",
+    "options": [
+      "Refer directly for colposcopy",
+      "Recall her for a clinician-collected sample for liquid-based cytology, and refer for colposcopy only if cytology is abnormal",
+      "Repeat the self-collected HPV test in 12 months",
+      "Return to routine 5-yearly screening",
+      "Repeat the HPV test in 6 weeks to confirm the result"
+    ],
+    "answer": 0,
+    "explanation": "Under the NCSP, what happens after a positive HPV test depends on **which HPV type** and **how the sample was collected**.\n\n**HPV 16 or 18 detected** carries the highest risk of high-grade disease and cancer. These women are referred **directly to colposcopy**, whatever the cytology shows. With a self-collected sample there are no cervical cells for cytology, so liquid-based cytology is taken **at the colposcopy**.\n\n**Oncogenic HPV (not 16/18)** is lower risk:\n\n- Self-collected: she returns for a **clinician-collected** sample so cytology can triage.\n- If cytology is negative or low grade: **repeat HPV in 12 months**.\n- If cytology is high grade: colposcopy.\n\nSome higher-risk groups (for example, Aboriginal and Torres Strait Islander people aged 50 or more, or those overdue by 2 years or more) go straight to colposcopy with non-16/18 types too.\n\n**Rule:** HPV 16/18 goes straight to colposcopy.",
+    "whyWrong": [
+      "",
+      "That pathway is for non-16/18 HPV on a self-collected sample; HPV 16 goes straight to colposcopy.",
+      "A 12-month repeat is for lower-risk non-16/18 results with negative or low-grade cytology.",
+      "A positive HPV 16 result cannot be returned to routine screening.",
+      "Repeating the test adds nothing; HPV 16 persistence cannot be judged at 6 weeks, and it delays colposcopy."
+    ],
+    "ausPearl": "The 2022 NCSP clinical guidelines extended self-collection to all eligible people and set this type-based pathway. Self-collection has helped reach under-screened groups.",
+    "tags": ["cervical screening", "hpv 16", "colposcopy", "ncsp"]
+  },
+  {
+    "id": "wh-030",
+    "discipline": "womens-health",
+    "topic": "gynae-oncology",
+    "difficulty": "core",
+    "stem": "A 58-year-old woman presents with 3 months of persistent abdominal bloating, feeling full after small meals and urinary frequency. She has lost 3 kg without trying. Her mother had breast cancer at 45. On examination her abdomen is mildly distended with no obvious mass.\n\nWhich are the most appropriate initial investigations?",
+    "options": [
+      "A trial of a low-FODMAP diet with review in 3 months",
+      "Colonoscopy",
+      "Serum CA-125 and pelvic (transvaginal) ultrasound",
+      "CT of the chest, abdomen and pelvis with CEA and CA 19-9",
+      "Diagnostic laparoscopy"
+    ],
+    "answer": 2,
+    "explanation": "Ovarian cancer is often called the silent killer because its symptoms are **vague**: bloating, early satiety, abdominal or pelvic pain, and urinary urgency or frequency. The red flag is that these are **new, persistent and frequent**, especially in a woman **over 50**. New-onset irritable bowel syndrome is uncommon after 50, so do not attribute these symptoms to IBS.\n\nThe first investigations are **serum CA-125 and a pelvic ultrasound** (transvaginal plus transabdominal). Together with menopausal status they give a **Risk of Malignancy Index**. A suspicious result should go to a **gynaecological oncologist**, because surgery by a specialist improves survival.\n\nHer mother's breast cancer at 45 raises the possibility of a **BRCA** mutation, so consider genetic referral.\n\nThe discriminating clue is persistent bloating, early satiety and urinary symptoms in a postmenopausal woman.\n\n**Rule:** new persistent bloating over 50 means CA-125 and pelvic ultrasound.",
+    "whyWrong": [
+      "Treating as IBS in a woman over 50 with weight loss risks missing ovarian cancer.",
+      "Colonoscopy may be needed later, but the symptom cluster points first to the ovaries.",
+      "",
+      "CT is used for staging after an ovarian mass is found; CEA and CA 19-9 are not the first-line markers here.",
+      "Laparoscopy is not a first-line investigation, and a suspected cancer should be operated on by a gynaecological oncologist."
+    ],
+    "ausPearl": "Australia has no population screening program for ovarian cancer; CA-125 and ultrasound are not recommended for screening women without symptoms. Cancer Australia's optimal care pathway recommends referring suspected ovarian cancer to a gynaecological oncology service.",
+    "tags": ["ovarian cancer", "ca-125", "red flags"]
+  }
+]
