@@ -86,6 +86,16 @@ export async function guardAI(): Promise<Response | null> {
   const user = await currentUser();
   if (!user) return json(401, "Please sign in to use the AI features.");
 
+  // Site-wide ceiling first, so a burst of new accounts can't run up the bill.
+  const siteLimit = Number(process.env.AI_SITE_DAILY_LIMIT || 1000);
+  const total = await sql()`
+    insert into ai_usage_total (day, count) values (current_date, 1)
+    on conflict (day) do update set count = ai_usage_total.count + 1
+    returning count`;
+  if (Number(total[0]?.count) > siteLimit) {
+    return json(429, "Southward has reached its AI limit for today. It resets at midnight (UTC); everything else still works.");
+  }
+
   const limit = Number(process.env.AI_DAILY_LIMIT || 300);
   const rows = await sql()`
     insert into ai_usage (user_id, day, count) values (${user.id}, current_date, 1)

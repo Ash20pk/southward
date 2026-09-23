@@ -32,6 +32,11 @@ const statements = [
     count integer not null default 0,
     primary key (user_id, day)
   )`,
+  // Total AI requests across everyone per day: a ceiling on the bill however many accounts exist.
+  `create table if not exists ai_usage_total (
+    day date primary key,
+    count integer not null default 0
+  )`,
 ];
 
 for (const s of statements) await sql.query(s);

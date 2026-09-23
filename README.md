@@ -53,7 +53,7 @@ The build runs `scripts/migrate.mjs` first, which creates the tables if they don
 
 How it protects your API key and her data:
 
-- The AI routes only answer signed-in users, and each user is capped at `AI_DAILY_LIMIT` requests a day (default 300).
+- The AI routes only answer signed-in users. Each user is capped at `AI_DAILY_LIMIT` requests a day (default 300), and everyone together at `AI_SITE_DAILY_LIMIT` (default 1000), so open sign-up can't run up an unbounded bill. Set a monthly budget in your OpenAI billing settings as a final backstop.
 - A deployment without `DATABASE_URL` and `AUTH_SECRET` refuses AI requests entirely rather than running open.
 - Passwords are hashed with scrypt; sessions are signed, HttpOnly cookies that last 60 days.
 - Two devices can't overwrite each other: every save carries a version number, and a stale save is merged instead of applied.
