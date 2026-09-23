@@ -31,6 +31,7 @@ export default function ImportPdf() {
   const [stage, setStage] = useState<Stage>({ kind: "pick" });
   const [drafts, setDrafts] = useState<Draft[]>([]);
   const [error, setError] = useState<string | null>(null);
+  const [removed, setRemoved] = useState(0);
 
   const choose = (f: File | undefined) => {
     if (!f) return;
@@ -44,12 +45,14 @@ export default function ImportPdf() {
     const res = await fetch("/api/cards-from-pdf", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
     const data = await res.json().catch(() => ({}));
     if (!res.ok) throw new Error(data.error || `Couldn't make cards (${res.status}).`);
+    setRemoved((n) => n + (data.removed ?? 0));
     return data.cards as Omit<Draft, "keep">[];
   };
 
   const run = async () => {
     if (!file) return;
     setError(null);
+    setRemoved(0);
     setStage({ kind: "reading", done: 0, total: 1, label: "Reading the PDF…" });
     try {
       const { totalPages, pages } = await readPdf(file);
@@ -203,7 +206,10 @@ export default function ImportPdf() {
               </Button>
             </div>
           </div>
-          <p className="mb-4 text-sm text-muted">Check each card against your source. Edit anything that&rsquo;s off, and untick cards you don&rsquo;t want.</p>
+          <p className="mb-4 text-sm text-muted">
+            Check each card against your source. Edit anything that&rsquo;s off, and untick cards you don&rsquo;t want.
+            {removed > 0 && ` ${removed} ${removed === 1 ? "card was" : "cards were"} left out because your PDF doesn't support ${removed === 1 ? "it" : "them"}.`}
+          </p>
           <ol className="flex flex-col gap-3">
             {drafts.map((d, i) => (
               <li key={i} className={clsx("rounded-2xl border bg-surface p-4", d.keep ? "border-line" : "border-dashed border-line opacity-60")}>

@@ -2,6 +2,7 @@ import { z } from "zod";
 import { structured, describeError, AMC_CONTEXT } from "@/lib/server/ai";
 import { stationById } from "@/lib/content";
 import { guardAI } from "@/lib/server/auth";
+import { markStation, typesafeEnabled, type StationMarks } from "@/lib/server/judge";
 
 export const maxDuration = 300;
 
@@ -16,6 +17,15 @@ const Feedback = z.object({
   modelAnswer: z.string().describe("markdown, under 200 words: how an excellent candidate would run this station, with key phrases to say"),
 });
 export type OsceFeedback = z.infer<typeof Feedback>;
+
+// When TypeSafe has already marked the station, the LLM only writes the feedback words around those marks.
+const Words = z.object({
+  verdict: z.string().describe("one sentence, direct and kind, explaining the global rating"),
+  keyStepNotes: z.array(z.string()).describe("one note under 20 words per key step, in the same order"),
+  domainComments: z.array(z.string()).describe("one comment under 25 words per domain, in the same order"),
+  fixes: z.array(z.string()).describe("the 3 most useful things to do differently next time, each under 20 words"),
+  modelAnswer: z.string().describe("markdown, under 200 words: how an excellent candidate would run this station, with key phrases to say"),
+});
 
 export async function POST(req: Request) {
   const denied = await guardAI();
@@ -53,7 +63,42 @@ TRANSCRIPT:
 ${lines || "(the candidate said nothing)"}`;
 
   try {
-    const fb = await structured({ system, prompt, schema: Feedback, name: "amc_station_marking", effort: "high" });
+    // Fast path: TypeSafe JEV marks key steps, domains and the global rating; the LLM explains them.
+    if (typesafeEnabled()) {
+      let marks: StationMarks | null = null;
+      try {
+        marks = await markStation(s, lines);
+      } catch {
+        marks = null; // fall through to LLM-only marking
+      }
+      if (marks) {
+        const markSummary = `Marks already decided (do not change them):
+Global rating: ${marks.global}/7 (${marks.global >= 4 ? "pass" : "not a pass"})
+Key steps: ${marks.keySteps.map((k) => `${k.observed ? "OBSERVED" : "NOT OBSERVED"}: ${k.step}`).join("; ")}
+Domains: ${marks.domains.map((d) => `${d.name} ${d.score}/7`).join("; ")}`;
+        const words = await structured({
+          system: `${system}
+
+The marks have been decided. Write feedback consistent with them.`,
+          prompt: `${prompt}
+
+${markSummary}`,
+          schema: Words,
+          name: "station_feedback_words",
+          effort: "low",
+        });
+        const fb: OsceFeedback = {
+          globalRating: marks.global,
+          verdict: words.verdict,
+          keySteps: marks.keySteps.map((k, i) => ({ step: k.step, observed: k.observed, note: words.keyStepNotes[i] ?? "" })),
+          domains: marks.domains.map((d, i) => ({ name: d.name, score: d.score, comment: words.domainComments[i] ?? "" })),
+          fixes: words.fixes.slice(0, 3),
+          modelAnswer: words.modelAnswer,
+        };
+        return Response.json(fb);
+      }
+    }
+    const fb = await structured({ system, prompt, schema: Feedback, name: "amc_station_marking", effort: "low" });
     return Response.json(fb);
   } catch (err) {
     return Response.json({ error: describeError(err) }, { status: 500 });

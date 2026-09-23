@@ -2,6 +2,7 @@ import { z } from "zod";
 import { structured, describeError, AMC_CONTEXT } from "@/lib/server/ai";
 import { guardAI } from "@/lib/server/auth";
 import { SYLLABUS } from "@/lib/content";
+import { supportedByMaterial, typesafeEnabled } from "@/lib/server/judge";
 
 export const maxDuration = 300;
 
@@ -54,14 +55,27 @@ You turn a learner's own study material into spaced-repetition flashcards for th
       prompt,
       schema: Cards,
       name: "flashcards",
-      effort: "medium",
+      effort: "low",
       pdf: pdfBase64 ? { base64: pdfBase64, filename: filename ?? "notes.pdf" } : undefined,
     });
     const valid = new Set(SYLLABUS.map((t) => t.id));
-    const cards = out.cards
+    let cards = out.cards
       .filter((c) => c.front.trim() && c.back.trim())
       .map((c) => ({ front: c.front.trim(), back: c.back.trim(), topic: valid.has(c.topic) ? c.topic : "" }));
-    return Response.json({ cards });
+    let removed = 0;
+    // Check each card against the source with TypeSafe JEV and drop ones the material doesn't support.
+    // "In Australia" notes are deliberate additions, so only the part before them is checked.
+    if (text && typesafeEnabled() && cards.length) {
+      try {
+        const p = await supportedByMaterial(text.slice(0, MAX_TEXT), cards.map((c) => `${c.front} ${c.back.split(/In Australia:/i)[0]}`));
+        const kept = cards.filter((_, i) => p[i] >= 0.35);
+        removed = cards.length - kept.length;
+        cards = kept;
+      } catch {
+        // If the check is unavailable, keep the cards; the learner reviews them before saving anyway.
+      }
+    }
+    return Response.json({ cards, removed });
   } catch (err) {
     return Response.json({ error: describeError(err) }, { status: 500 });
   }

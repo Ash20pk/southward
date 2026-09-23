@@ -60,7 +60,7 @@ How it protects your API key and her data:
 
 ## Stack
 
-Next.js 16 (App Router), React 19, Tailwind CSS 4, Zustand, the OpenAI and Anthropic TypeScript SDKs behind one small layer in `src/lib/server/ai.ts`, and Neon Postgres (`@neondatabase/serverless`) for accounts and sync (`src/lib/server/db.ts`, `auth.ts`, `src/app/api/progress`). AI routes live in `src/app/api/*`. They stream text for the tutor, lessons, explanations and patient, and use structured outputs (Zod) for question generation and OSCE marking. On Claude, server-side refusal fallbacks are enabled.
+Next.js 16 (App Router), React 19, Tailwind CSS 4, Zustand, the OpenAI and Anthropic TypeScript SDKs behind one small layer in `src/lib/server/ai.ts`, and Neon Postgres (`@neondatabase/serverless`) for accounts and sync (`src/lib/server/db.ts`, `auth.ts`, `src/app/api/progress`). AI routes live in `src/app/api/*`. They stream text for the tutor, lessons, explanations and patient, and use structured outputs (Zod) for question generation and OSCE marking. On Claude, server-side refusal fallbacks are enabled. OpenAI calls run at low reasoning effort for speed. Judging work uses TypeSafe's JEV model (`src/lib/server/judge.ts`, SDK vendored in `src/lib/server/typesafe`): it marks clinical stations on the AMC scales (key steps observed or not, domains and global rating out of 7) and checks flashcards and questions generated from a PDF against the source, dropping anything the material doesn't support. Set `TYPESAFE_API_KEY` to enable it; without it the LLM does the marking.
 
 ## Content
 

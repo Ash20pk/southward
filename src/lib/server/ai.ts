@@ -16,6 +16,8 @@ export function provider(): Provider {
 
 const ANTHROPIC_MODEL = process.env.ANTHROPIC_MODEL || process.env.SOUTHWARD_MODEL || "claude-opus-5";
 const OPENAI_MODEL = process.env.OPENAI_MODEL || "gpt-5.5";
+// Low reasoning keeps every OpenAI call fast; judging-heavy work goes to TypeSafe JEV instead (see judge.ts).
+const OPENAI_EFFORT = (process.env.OPENAI_REASONING_EFFORT || "low") as Effort;
 
 // Server-side refusal fallback; "default" lets the API pick the substitute by refusal category.
 const FALLBACK_BETA = "server-side-fallback-2026-07-01";
@@ -45,7 +47,7 @@ async function* textDeltas(opts: {
     const stream = await openai().chat.completions.create({
       model: OPENAI_MODEL,
       stream: true,
-      reasoning_effort: opts.effort,
+      reasoning_effort: OPENAI_EFFORT,
       max_completion_tokens: opts.maxTokens,
       messages: [{ role: "developer", content: opts.system }, ...opts.messages],
     });
@@ -123,7 +125,7 @@ export async function structured<S extends z.ZodType>(opts: {
   if (provider() === "openai") {
     const res = await openai().chat.completions.parse({
       model: OPENAI_MODEL,
-      reasoning_effort: effort,
+      reasoning_effort: OPENAI_EFFORT,
       max_completion_tokens: maxTokens,
       response_format: zodResponseFormat(opts.schema, opts.name),
       messages: [

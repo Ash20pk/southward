@@ -2,6 +2,7 @@ import { z } from "zod";
 import { structured, describeError, AMC_CONTEXT } from "@/lib/server/ai";
 import { guardAI } from "@/lib/server/auth";
 import { SYLLABUS } from "@/lib/content";
+import { supportedByMaterial, typesafeEnabled } from "@/lib/server/judge";
 import type { Difficulty, Question } from "@/lib/types";
 
 export const maxDuration = 300;
@@ -62,12 +63,12 @@ You write AMC CAT MCQ practice questions from a learner's own study material.
       prompt,
       schema: Generated,
       name: "mcq_from_material",
-      effort: "high",
+      effort: "low",
       pdf: pdfBase64 ? { base64: pdfBase64, filename: filename ?? "notes.pdf" } : undefined,
     });
     const topics = new Map(SYLLABUS.map((t) => [t.id, t]));
     const stamp = Date.now().toString(36);
-    const questions: Question[] = out.questions
+    let questions: Question[] = out.questions
       .filter((q) => q.options.length === 5 && q.answer >= 0 && q.answer < 5)
       .map((q, i) => {
         const t = topics.get(q.topic) ?? SYLLABUS[0];
@@ -86,7 +87,19 @@ You write AMC CAT MCQ practice questions from a learner's own study material.
           source: filename,
         };
       });
-    return Response.json({ questions });
+    let removed = 0;
+    // Check that each question's tested fact (stem plus correct answer) is supported by the material.
+    if (text && typesafeEnabled() && questions.length) {
+      try {
+        const p = await supportedByMaterial(text.slice(0, MAX_TEXT), questions.map((q) => `${q.stem} Correct answer: ${q.options[q.answer]}`));
+        const kept = questions.filter((_, i) => p[i] >= 0.35);
+        removed = questions.length - kept.length;
+        questions = kept;
+      } catch {
+        // Keep the questions if the check is unavailable.
+      }
+    }
+    return Response.json({ questions, removed });
   } catch (err) {
     return Response.json({ error: describeError(err) }, { status: 500 });
   }
