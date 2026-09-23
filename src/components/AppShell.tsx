@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState, type ReactNode } from "react";
+import { useEffect, useState, type ReactNode } from "react";
 import clsx from "clsx";
 import {
   ArrowLeftRight,
@@ -22,6 +22,10 @@ import {
 import { useHydrated, useStore } from "@/lib/store";
 import { Onboarding } from "./Onboarding";
 import { ThemePicker } from "./ThemePicker";
+import { AuthScreen } from "./AuthScreen";
+import { SyncBadge } from "./SyncBadge";
+import { useSession } from "@/lib/session";
+import { useSync } from "@/hooks/useSync";
 
 // The five things she does most, one tap away on a phone.
 const TABS = [
@@ -71,6 +75,13 @@ export function AppShell({ children }: { children: ReactNode }) {
   const hydrated = useHydrated();
   const profile = useStore((s) => s.profile);
   const [open, setOpen] = useState(false);
+  const session = useSession();
+  const synced = useSync(session.user?.id ?? null);
+
+  useEffect(() => {
+    session.load();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   // Full-screen focus modes hide the chrome.
   const focus = /^\/(mock\/run|clinical\/.+)/.test(path);
@@ -98,8 +109,10 @@ export function AppShell({ children }: { children: ReactNode }) {
     </nav>
   );
 
-  if (!hydrated) return <div className="min-h-dvh" />;
-  if (!profile) return <Onboarding />;
+  if (!hydrated || !session.loaded) return <div className="min-h-dvh" />;
+  if (session.mode === "account" && !session.user) return <AuthScreen />;
+  if (session.user && !synced) return <Splash />;
+  if (!profile) return <Onboarding defaultName={session.user?.name} />;
 
   if (focus) return <main className="min-h-dvh">{children}</main>;
 
@@ -112,6 +125,7 @@ export function AppShell({ children }: { children: ReactNode }) {
         {nav}
         <div className="mt-auto flex flex-col gap-3 px-1">
           <ThemePicker compact />
+          {session.user && <SyncBadge />}
           <p className="px-2 text-xs leading-relaxed text-muted">
             Independent study aid. Not affiliated with the Australian Medical Council.
           </p>
@@ -162,6 +176,14 @@ export function AppShell({ children }: { children: ReactNode }) {
           );
         })}
       </nav>
+    </div>
+  );
+}
+
+function Splash() {
+  return (
+    <div className="grid min-h-dvh place-items-center">
+      <p className="text-muted">Loading your progress…</p>
     </div>
   );
 }

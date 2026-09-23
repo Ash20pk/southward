@@ -3,6 +3,8 @@ import { structured, describeError, AMC_CONTEXT } from "@/lib/server/ai";
 import { topicById, disciplineName } from "@/lib/content";
 import type { Difficulty, Question } from "@/lib/types";
 
+import { guardAI } from "@/lib/server/auth";
+
 export const maxDuration = 300;
 
 const Generated = z.object({
@@ -20,6 +22,8 @@ const Generated = z.object({
 });
 
 export async function POST(req: Request) {
+  const denied = await guardAI();
+  if (denied) return denied;
   const { topicId, difficulty, count, focus, avoid } = (await req.json()) as {
     topicId: string;
     difficulty: Difficulty;

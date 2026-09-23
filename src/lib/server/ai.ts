@@ -154,7 +154,8 @@ export async function structured<S extends z.ZodType>(opts: {
 
 export function describeError(err: unknown): string {
   const keyName = provider() === "openai" ? "OPENAI_API_KEY" : "ANTHROPIC_API_KEY";
-  const noKey = `No valid API key. Add ${keyName} to .env.local and restart the app.`;
+  const where = process.env.VERCEL ? "the Vercel project's environment variables and redeploy" : ".env.local and restart the app";
+  const noKey = `No valid API key. Add ${keyName} to ${where}.`;
   if (err instanceof Refusal) return "The AI declined this request. Try rephrasing it.";
   if (err instanceof Anthropic.AuthenticationError || err instanceof OpenAI.AuthenticationError) return noKey;
   if (err instanceof Anthropic.RateLimitError || err instanceof OpenAI.RateLimitError) {

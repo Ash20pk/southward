@@ -2,6 +2,8 @@ import { z } from "zod";
 import { structured, describeError, AMC_CONTEXT } from "@/lib/server/ai";
 import { stationById } from "@/lib/content";
 
+import { guardAI } from "@/lib/server/auth";
+
 export const maxDuration = 300;
 
 const Feedback = z.object({
@@ -29,6 +31,8 @@ const Feedback = z.object({
 export type OsceFeedback = z.infer<typeof Feedback>;
 
 export async function POST(req: Request) {
+  const denied = await guardAI();
+  if (denied) return denied;
   const { stationId, transcript, seconds } = (await req.json()) as {
     stationId: string;
     transcript: { role: "user" | "assistant"; content: string }[];

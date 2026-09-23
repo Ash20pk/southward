@@ -1,9 +1,13 @@
 import { streamText, type ChatTurn } from "@/lib/server/ai";
 import { stationById } from "@/lib/content";
 
+import { guardAI } from "@/lib/server/auth";
+
 export const maxDuration = 120;
 
 export async function POST(req: Request) {
+  const denied = await guardAI();
+  if (denied) return denied;
   const { stationId, messages } = (await req.json()) as { stationId: string; messages: ChatTurn[] };
   const s = stationById(stationId);
   if (!s) return new Response("Unknown station", { status: 404 });

@@ -20,9 +20,9 @@ function defaultTarget() {
   return d.toLocaleDateString("en-CA").slice(0, 7);
 }
 
-export function Onboarding() {
+export function Onboarding({ defaultName }: { defaultName?: string }) {
   const setProfile = useStore((s) => s.setProfile);
-  const [name, setName] = useState("");
+  const [name, setName] = useState(defaultName ?? "");
   const [stage, setStage] = useState<Stage>("4th-year");
   const [target, setTarget] = useState(defaultTarget());
   const [daily, setDaily] = useState(20);

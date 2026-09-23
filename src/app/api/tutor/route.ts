@@ -1,5 +1,7 @@
 import { AMC_CONTEXT, streamText, type ChatTurn } from "@/lib/server/ai";
 
+import { guardAI } from "@/lib/server/auth";
+
 export const maxDuration = 300;
 
 const SYSTEM = `${AMC_CONTEXT}
@@ -12,6 +14,8 @@ You are the tutor inside Southward, a study app. Teach like a kind, sharp senior
 - End with one quick check question she can answer in her head, unless she's just chatting.`;
 
 export async function POST(req: Request) {
+  const denied = await guardAI();
+  if (denied) return denied;
   const { messages } = (await req.json()) as { messages: ChatTurn[] };
   return streamText({ system: SYSTEM, messages: messages.slice(-30), effort: "medium" });
 }

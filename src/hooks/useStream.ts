@@ -26,7 +26,14 @@ export function useStream() {
         body: JSON.stringify(body),
         signal: ctrl.signal,
       });
-      if (!res.ok || !res.body) throw new Error((await res.text()) || `Request failed (${res.status})`);
+      if (!res.ok || !res.body) {
+        const raw = await res.text();
+        let msg = raw;
+        try {
+          msg = JSON.parse(raw).error ?? raw;
+        } catch {}
+        throw new Error(msg || `Request failed (${res.status})`);
+      }
       const reader = res.body.getReader();
       const dec = new TextDecoder();
       for (;;) {

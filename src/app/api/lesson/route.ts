@@ -1,6 +1,8 @@
 import { AMC_CONTEXT, streamText } from "@/lib/server/ai";
 import { topicById, disciplineName } from "@/lib/content";
 
+import { guardAI } from "@/lib/server/auth";
+
 export const maxDuration = 300;
 
 const SYSTEM = `${AMC_CONTEXT}
@@ -16,6 +18,8 @@ You write one self-contained lesson for a topic, for a learner starting from zer
 Aim for about 900-1200 words. Precise, warm, zero fluff.`;
 
 export async function POST(req: Request) {
+  const denied = await guardAI();
+  if (denied) return denied;
   const { topicId, focus } = (await req.json()) as { topicId: string; focus?: string };
   const t = topicById(topicId);
   if (!t) return new Response("Unknown topic", { status: 404 });

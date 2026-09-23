@@ -1,12 +1,12 @@
 "use client";
 
 import { useRef, useState } from "react";
-import { useStore, type Stage } from "@/lib/store";
+import { snapshot, useStore, type Stage } from "@/lib/store";
 import { Button, PageHeader, Panel } from "@/components/ui";
 import { ThemePicker } from "@/components/ThemePicker";
 import { PostingSelect } from "@/components/PostingSelect";
-
-const KEYS = ["profile", "attempts", "log", "srs", "mocks", "osce", "studyDays", "aiQuestions", "milestones", "bookmarks", "tutor", "lessons"] as const;
+import { useSession } from "@/lib/session";
+import { flushProgress } from "@/hooks/useSync";
 
 export default function Settings() {
   const state = useStore();
@@ -19,6 +19,16 @@ export default function Settings() {
   const [saved, setSaved] = useState(false);
   const [msg, setMsg] = useState<string | null>(null);
   const file = useRef<HTMLInputElement>(null);
+  const session = useSession();
+  const [signingOut, setSigningOut] = useState(false);
+
+  const signOut = async () => {
+    setSigningOut(true);
+    await flushProgress();
+    await fetch("/api/auth/logout", { method: "POST" });
+    state.wipeLocal();
+    session.setUser(null);
+  };
 
   const save = (e: React.FormEvent) => {
     e.preventDefault();
@@ -28,7 +38,7 @@ export default function Settings() {
   };
 
   const exportData = () => {
-    const data = Object.fromEntries(KEYS.map((k) => [k, state[k]]));
+    const data = snapshot(state);
     const blob = new Blob([JSON.stringify({ app: "southward", version: 1, data }, null, 2)], { type: "application/json" });
     const a = document.createElement("a");
     a.href = URL.createObjectURL(blob);
@@ -89,6 +99,19 @@ export default function Settings() {
           </form>
         </Panel>
 
+        {session.user && (
+          <Panel>
+            <h2 className="text-lg font-semibold">Account</h2>
+            <p className="mt-1 text-muted">
+              Signed in as <span className="font-medium text-ink">{session.user.email}</span>. Your progress syncs to this
+              account, so you can study on any device.
+            </p>
+            <Button variant="outline" className="mt-4" onClick={signOut} disabled={signingOut}>
+              {signingOut ? "Saving and signing out…" : "Sign out"}
+            </Button>
+          </Panel>
+        )}
+
         <Panel>
           <h2 className="text-lg font-semibold">Display</h2>
           <p className="mb-4 mt-1 text-muted">Pick what&rsquo;s easiest on your eyes. Reading mode suits long sessions; Night suits late study.</p>
@@ -98,7 +121,9 @@ export default function Settings() {
         <Panel>
           <h2 className="text-lg font-semibold">Backup</h2>
           <p className="mt-1 text-muted">
-            Progress lives in this browser only. Export a backup now and then, and import it to move to another device.
+            {session.user
+              ? "Your progress is saved to your account. A file backup is still handy to keep a copy of your own."
+              : "Progress lives in this browser only. Export a backup now and then, and import it to move to another device."}
           </p>
           <div className="mt-4 flex flex-wrap gap-2">
             <Button variant="outline" onClick={exportData}>
@@ -114,12 +139,14 @@ export default function Settings() {
 
         <Panel>
           <h2 className="text-lg font-semibold">Start over</h2>
-          <p className="mt-1 text-muted">Deletes all answers, flashcard history, mocks, lessons and chats in this browser.</p>
+          <p className="mt-1 text-muted">
+            Deletes all answers, flashcard history, mocks, lessons and chats{session.user ? " on every device signed in to this account" : " in this browser"}.
+          </p>
           <Button
             variant="danger"
             className="mt-4"
             onClick={() => {
-              if (confirm("Delete all progress in this browser? Export a backup first if you might want it.")) state.resetAll();
+              if (confirm("Delete all progress? Export a backup first if you might want it.")) state.resetAll();
             }}
           >
             Delete all progress

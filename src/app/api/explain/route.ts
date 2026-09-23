@@ -1,6 +1,8 @@
 import { AMC_CONTEXT, streamText } from "@/lib/server/ai";
 import type { Question } from "@/lib/types";
 
+import { guardAI } from "@/lib/server/auth";
+
 export const maxDuration = 300;
 
 const SYSTEM = `${AMC_CONTEXT}
@@ -13,6 +15,8 @@ You are reviewing one practice MCQ with the learner after she answered it. Be en
 Then answer any follow-up she asks.`;
 
 export async function POST(req: Request) {
+  const denied = await guardAI();
+  if (denied) return denied;
   const { question, chosen, followUps } = (await req.json()) as {
     question: Question;
     chosen: number | null;

@@ -16,21 +16,53 @@ Not affiliated with the AMC. Written for exam practice, not patient care.
 - **Ask the tutor**: open chat tuned to Australian guidelines.
 - **Australia 101**: 30 short reads on Medicare, the PBS, consent and the law, screening, immunisation, cultural safety and more.
 
-Progress is stored in the browser (localStorage). Settings has export and import for backups or moving devices.
+Progress is saved in the browser and, when accounts are configured, synced to Postgres (Neon) so it follows her across devices. Without a database the app runs browser-only, and Settings has export and import for backups.
 
-## Run it
+## Run it locally
 
 ```sh
-cp .env.example .env.local   # add OPENAI_API_KEY or ANTHROPIC_API_KEY
+cp .env.example .env.local   # add OPENAI_API_KEY (or ANTHROPIC_API_KEY)
 npm install
 npm run dev                  # http://localhost:3000
 ```
 
-Everything except the AI features works without a key. With only `OPENAI_API_KEY` set, the app uses OpenAI (`gpt-5.5` by default); with only `ANTHROPIC_API_KEY`, Claude (`claude-opus-5`). If both are set it uses Claude unless `AI_PROVIDER=openai`. Models can be overridden with `OPENAI_MODEL` / `ANTHROPIC_MODEL`.
+That runs in browser-only mode: no login, progress in localStorage. To try accounts and sync locally, start the bundled Postgres (Docker) and point the app at it:
+
+```sh
+npm run db:up                # Postgres + Neon's HTTP proxy on port 4445
+# in .env.local:
+#   DATABASE_URL=postgres://postgres:postgres@db.localtest.me:5432/southward
+#   AUTH_SECRET=$(openssl rand -base64 32)
+#   INVITE_CODE=anything-you-like
+npm run db:migrate
+npm run dev
+```
+
+With only `OPENAI_API_KEY` set, the AI uses OpenAI (`gpt-5.5` by default); with only `ANTHROPIC_API_KEY`, Claude (`claude-opus-5`). If both are set it uses Claude unless `AI_PROVIDER=openai`.
+
+## Deploy to Vercel
+
+```sh
+vercel link                                   # create or link the Vercel project
+vercel integration add neon                   # provisions Postgres and sets DATABASE_URL
+vercel env add OPENAI_API_KEY                 # your OpenAI key
+vercel env add AUTH_SECRET                    # paste the output of: openssl rand -base64 32
+vercel env add INVITE_CODE                    # the code she'll type when creating her account
+vercel deploy --prod
+```
+
+The build runs `scripts/migrate.mjs` first, which creates the tables if they don't exist, so there's no separate database step. Then open the site, choose "Create account", and enter the invite code. Progress she made before having an account is uploaded to it on first sign-in.
+
+How it protects your API key and her data:
+
+- The AI routes only answer signed-in users, and each user is capped at `AI_DAILY_LIMIT` requests a day (default 300).
+- A deployment without `DATABASE_URL` and `AUTH_SECRET` refuses AI requests entirely rather than running open.
+- Passwords are hashed with scrypt; sessions are signed, HttpOnly cookies that last 60 days.
+- Two devices can't overwrite each other: every save carries a version number, and a stale save is merged instead of applied.
 
 ## Stack
 
-Next.js 16 (App Router), React 19, Tailwind CSS 4, Zustand, and the OpenAI and Anthropic TypeScript SDKs behind one small layer in `src/lib/server/ai.ts`. AI routes live in `src/app/api/*`. They stream text for the tutor, lessons, explanations and patient, and use structured outputs (Zod) for question generation and OSCE marking. On Claude, server-side refusal fallbacks are enabled.
+Next.js 16 (App Router), React 19, Tailwind CSS 4, Zustand, the OpenAI and Anthropic TypeScript SDKs behind one small layer in `src/lib/server/ai.ts`, and Neon Postgres (`@neondatabase/serverless`) for accounts and sync (`src/lib/server/db.ts`, `auth.ts`, `src/app/api/progress`). AI routes live in `src/app/api/*`. They stream text for the tutor, lessons, explanations and patient, and use structured outputs (Zod) for question generation and OSCE marking. On Claude, server-side refusal fallbacks are enabled.
 
 ## Content
 

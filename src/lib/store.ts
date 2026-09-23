@@ -67,6 +67,9 @@ interface State {
   bookmarks: string[];
   tutor: ChatMsg[];
   lessons: Record<string, string>; // topicId -> cached AI lesson markdown
+  owner: string | null; // account id this browser copy belongs to (not synced)
+  syncedVersion: number; // server version this copy last matched (not synced)
+  dirty: boolean; // changed since the last successful save (not synced)
 
   setProfile: (p: Profile) => void;
   recordAnswer: (q: Question, correct: boolean) => void;
@@ -81,7 +84,10 @@ interface State {
   saveLesson: (topicId: string, md: string) => void;
   markStudied: () => void;
   importAll: (data: Partial<State>) => void;
+  setOwner: (id: string | null) => void;
+  setSync: (s: { syncedVersion?: number; dirty?: boolean }) => void;
   resetAll: () => void;
+  wipeLocal: () => void;
 }
 
 export const today = () => new Date().toLocaleDateString("en-CA"); // YYYY-MM-DD in local time
@@ -99,7 +105,31 @@ const empty = {
   bookmarks: [],
   tutor: [],
   lessons: {},
+  owner: null,
+  syncedVersion: 0,
+  dirty: false,
 };
+
+/** The parts of state that make up her progress: exported, backed up and synced. */
+export const SYNC_KEYS = [
+  "profile",
+  "attempts",
+  "log",
+  "srs",
+  "mocks",
+  "osce",
+  "studyDays",
+  "aiQuestions",
+  "milestones",
+  "bookmarks",
+  "tutor",
+  "lessons",
+] as const;
+export type SyncKey = (typeof SYNC_KEYS)[number];
+export type Snapshot = Pick<State, SyncKey>;
+
+export const snapshot = (s: State): Snapshot =>
+  Object.fromEntries(SYNC_KEYS.map((k) => [k, s[k]])) as Snapshot;
 
 const withDay = (days: string[]) => (days.includes(today()) ? days : [...days, today()]);
 
@@ -120,7 +150,7 @@ export const useStore = create<State>()(
           const entry: LogEntry = { qid: q.id, discipline: q.discipline, topic: q.topic, correct, at: Date.now() };
           return {
             attempts: { ...s.attempts, [q.id]: attempt },
-            log: [...s.log, entry].slice(-20000),
+            log: [...s.log, entry].slice(-15000),
             studyDays: withDay(s.studyDays),
           };
         }),
@@ -142,7 +172,12 @@ export const useStore = create<State>()(
       saveLesson: (topicId, md) => set((s) => ({ lessons: { ...s.lessons, [topicId]: md } })),
       markStudied: () => set((s) => ({ studyDays: withDay(s.studyDays) })),
       importAll: (data) => set(data),
-      resetAll: () => set({ ...empty }),
+      setOwner: (owner) => set({ owner }),
+      setSync: (x) => set(x),
+      // Clears progress but keeps the sync bookkeeping, so the empty copy replaces the account's copy.
+      resetAll: () => set((s) => ({ ...empty, owner: s.owner, syncedVersion: s.syncedVersion, dirty: true })),
+      // Forgets everything in this browser, including which account it belonged to (sign out).
+      wipeLocal: () => set({ ...empty }),
     }),
     { name: "southward-v1" },
   ),

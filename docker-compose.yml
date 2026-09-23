@@ -1,0 +1,22 @@
+# Local Postgres plus Neon's HTTP proxy, so the app uses the same driver locally as on Vercel.
+# DATABASE_URL=postgres://postgres:postgres@db.localtest.me:5432/southward
+services:
+  postgres:
+    image: postgres:17
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: southward
+    # Not published on the host: the app reaches it through neon-proxy, so this won't clash with a local Postgres.
+    volumes:
+      - southward-pg:/var/lib/postgresql/data
+  neon-proxy:
+    image: ghcr.io/timowilhelm/local-neon-http-proxy:main
+    environment:
+      PG_CONNECTION_STRING: postgres://postgres:postgres@postgres:5432/southward
+    ports:
+      - "4445:4444"
+    depends_on:
+      - postgres
+volumes:
+  southward-pg:
