@@ -36,18 +36,32 @@ const TABS = [
   { href: "/tutor", label: "Tutor", icon: MessageCircle },
 ];
 
-const NAV = [
-  { href: "/", label: "Today", icon: Sunrise },
-  { href: "/pathway", label: "Your pathway", icon: Map },
-  { href: "/mbbs", label: "MBBS ↔ AMC", icon: ArrowLeftRight },
-  { href: "/learn", label: "Learn", icon: BookOpen },
-  { href: "/practice", label: "Practice", icon: Target },
-  { href: "/mock", label: "Mock exam", icon: Timer },
-  { href: "/flashcards", label: "Flashcards", icon: Layers },
-  { href: "/clinical", label: "Clinical stations", icon: Stethoscope },
-  { href: "/tutor", label: "Ask the tutor", icon: MessageCircle },
-  { href: "/australia", label: "Australia 101", icon: MapPin },
-  { href: "/settings", label: "Settings", icon: Settings },
+// Grouped by which AMC exam each section prepares for, so it's always clear what counts for Part 1 vs Part 2.
+const NAV_GROUPS: { title?: string; items: { href: string; label: string; icon: typeof Sunrise }[] }[] = [
+  {
+    items: [
+      { href: "/", label: "Today", icon: Sunrise },
+      { href: "/pathway", label: "Your pathway", icon: Map },
+      { href: "/mbbs", label: "MBBS ↔ AMC", icon: ArrowLeftRight },
+    ],
+  },
+  {
+    title: "Part 1: MCQ exam",
+    items: [
+      { href: "/learn", label: "Learn", icon: BookOpen },
+      { href: "/practice", label: "Practice", icon: Target },
+      { href: "/mock", label: "Mock exam", icon: Timer },
+      { href: "/flashcards", label: "Flashcards", icon: Layers },
+    ],
+  },
+  { title: "Part 2: Clinical exam", items: [{ href: "/clinical", label: "Clinical stations", icon: Stethoscope }] },
+  {
+    items: [
+      { href: "/tutor", label: "Ask the tutor", icon: MessageCircle },
+      { href: "/australia", label: "Australia 101", icon: MapPin },
+      { href: "/settings", label: "Settings", icon: Settings },
+    ],
+  },
 ];
 
 function Logo() {
@@ -87,25 +101,30 @@ export function AppShell({ children }: { children: ReactNode }) {
   const focus = /^\/(mock\/run|clinical\/.+|learn\/[^/]+\/[^/]+)/.test(path);
 
   const nav = (
-    <nav aria-label="Main" className="flex flex-col gap-0.5">
-      {NAV.map(({ href, label, icon: Icon }) => {
-        const active = href === "/" ? path === "/" : path.startsWith(href);
-        return (
-          <Link
-            key={href}
-            href={href}
-            onClick={() => setOpen(false)}
-            aria-current={active ? "page" : undefined}
-            className={clsx(
-              "flex items-center gap-3 rounded-xl px-3 py-2.5 text-[0.95rem] transition-colors",
-              active ? "bg-brand-soft font-medium text-ink" : "text-muted hover:bg-sunk hover:text-ink",
-            )}
-          >
-            <Icon size={18} strokeWidth={active ? 2.2 : 1.8} className={active ? "text-brand" : undefined} />
-            {label}
-          </Link>
-        );
-      })}
+    <nav aria-label="Main" className="flex flex-col gap-4">
+      {NAV_GROUPS.map((g, gi) => (
+        <div key={gi} className="flex flex-col gap-0.5">
+          {g.title && <p className="px-3 pb-1 text-xs font-semibold text-muted">{g.title}</p>}
+          {g.items.map(({ href, label, icon: Icon }) => {
+            const active = href === "/" ? path === "/" : path.startsWith(href);
+            return (
+              <Link
+                key={href}
+                href={href}
+                onClick={() => setOpen(false)}
+                aria-current={active ? "page" : undefined}
+                className={clsx(
+                  "flex items-center gap-3 rounded-xl px-3 py-2 text-[0.95rem] transition-colors",
+                  active ? "bg-brand-soft font-medium text-ink" : "text-muted hover:bg-sunk hover:text-ink",
+                )}
+              >
+                <Icon size={18} strokeWidth={active ? 2.2 : 1.8} className={active ? "text-brand" : undefined} />
+                {label}
+              </Link>
+            );
+          })}
+        </div>
+      ))}
     </nav>
   );
 
@@ -118,11 +137,11 @@ export function AppShell({ children }: { children: ReactNode }) {
 
   return (
     <div className="min-h-dvh lg:grid lg:grid-cols-[250px_1fr]">
-      <aside className="sticky top-0 hidden h-dvh flex-col gap-8 border-r border-line px-4 py-6 lg:flex">
+      <aside className="sticky top-0 hidden h-dvh flex-col gap-6 border-r border-line px-4 py-6 lg:flex">
         <div className="px-2">
           <Logo />
         </div>
-        {nav}
+        <div className="min-h-0 overflow-y-auto">{nav}</div>
         <div className="mt-auto flex flex-col gap-3 px-1">
           <ThemePicker compact />
           {session.user && <SyncBadge />}

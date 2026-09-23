@@ -43,10 +43,11 @@ export function Panel({ className, children }: { className?: string; children: R
   );
 }
 
-export function PageHeader({ title, lede, actions }: { title: string; lede?: ReactNode; actions?: ReactNode }) {
+export function PageHeader({ title, lede, actions, part }: { title: string; lede?: ReactNode; actions?: ReactNode; part?: 1 | 2 }) {
   return (
     <header className="mb-8 flex flex-wrap items-end justify-between gap-4">
       <div className="max-w-2xl">
+        {part && <ExamPart part={part} className="mb-3" />}
         <h1 className="text-3xl font-semibold tracking-tight sm:text-[2.4rem] sm:leading-[1.1]">{title}</h1>
         {lede && <p className="mt-3 text-[1.05rem] leading-relaxed text-muted">{lede}</p>}
       </div>
@@ -91,5 +92,23 @@ export function Empty({ title, children }: { title: string; children?: ReactNode
       <p className="font-medium">{title}</p>
       {children && <div className="mt-2 text-muted">{children}</div>}
     </div>
+  );
+}
+
+/**
+ * Which AMC exam a page prepares for. Officially the "MCQ examination" and the "Clinical examination";
+ * candidates usually call them Part 1 and Part 2.
+ */
+export function ExamPart({ part, className }: { part: 1 | 2; className?: string }) {
+  return (
+    <span
+      className={clsx(
+        "inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-semibold",
+        part === 1 ? "bg-brand-soft text-brand" : "bg-ochre-soft text-ochre-ink",
+        className,
+      )}
+    >
+      {part === 1 ? "AMC Part 1: MCQ exam" : "AMC Part 2: Clinical exam"}
+    </span>
   );
 }

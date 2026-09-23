@@ -132,7 +132,7 @@ export default function Today() {
             <TodayItem
               n={4}
               icon={<Stethoscope size={18} />}
-              title={`Clinical station: ${nextStation.title}`}
+              title={`Part 2 station: ${nextStation.title}`}
               detail="One station a week keeps the talking skills warm"
               href={`/clinical/${nextStation.id}`}
               cta="Open"

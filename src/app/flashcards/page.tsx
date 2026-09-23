@@ -55,6 +55,7 @@ export default function Flashcards() {
   return (
     <div>
       <PageHeader
+        part={1}
         title="Flashcards"
         lede="Spaced repetition: each card comes back just before you'd forget it. Finishing a lesson adds its cards here, and you can make your own from any PDF."
         actions={

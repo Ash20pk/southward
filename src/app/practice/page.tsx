@@ -119,6 +119,7 @@ function Setup({
   return (
     <div>
       <PageHeader
+        part={1}
         title="Practice"
         lede="Questions written in the AMC style. You see the answer and a full explanation after each one, and you can ask the AI tutor about anything that doesn't click."
       />

@@ -69,6 +69,7 @@ function Setup({ onStart, poolSize }: { onStart: (k: Kind, strict: boolean) => v
   return (
     <div>
       <PageHeader
+        part={1}
         title="Mock exams"
         lede="Timed papers balanced like the real exam (30% medicine, 20% surgery, 12.5% each for the other four areas), with a report by discipline at the end."
       />

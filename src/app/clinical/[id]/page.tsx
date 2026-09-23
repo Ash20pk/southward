@@ -5,13 +5,14 @@ import { useParams } from "next/navigation";
 import { useCallback, useEffect, useRef, useState } from "react";
 import clsx from "clsx";
 import { ArrowLeft, Check, Mic, MicOff, Send, Volume2, VolumeX, X } from "lucide-react";
-import { STATIONS, stationById } from "@/lib/content";
+import { STATIONS, stationById, topicName } from "@/lib/content";
 import { useStore } from "@/lib/store";
 import { AREA_LABEL, LEVEL, READ_SECS, STATION_SECS } from "@/lib/stations";
 import { useStream } from "@/hooks/useStream";
 import { useSpeech } from "@/hooks/useSpeech";
 import { Markdown } from "@/components/Markdown";
-import { Button, ButtonLink, Empty } from "@/components/ui";
+import { Button, ButtonLink, Empty, ExamPart } from "@/components/ui";
+import { courseFor } from "@/lib/course-index";
 import type { OsceStation } from "@/lib/types";
 import type { OsceFeedback } from "@/app/api/feedback/route";
 
@@ -152,6 +153,7 @@ export default function StationPage() {
       <Shell title={station.title} timer={`Reading ${clock(left)}`}>
         <div className="mx-auto w-full max-w-2xl overflow-y-auto px-4 py-8">
           <div className="flex flex-wrap items-center gap-2 text-sm">
+            <ExamPart part={2} />
             <span className={clsx("rounded-full px-2 py-0.5 text-xs font-medium", LEVEL[station.difficulty].cls)}>{LEVEL[station.difficulty].label}</span>
             <span className="text-muted">
               {AREA_LABEL[station.area]} station, {station.setting}
@@ -374,6 +376,7 @@ function Feedback({ station, fb, turns, name }: { station: OsceStation; fb: Osce
       </Link>
 
       <header className="mb-7">
+        <ExamPart part={2} className="mb-3" />
         <p className="text-muted">{station.title}</p>
         <div className="mt-2 flex items-end gap-4">
           <span className={clsx("text-6xl font-semibold tabular-nums tracking-tight", pass ? "text-ok" : "text-bad")}>
@@ -455,6 +458,18 @@ function Feedback({ station, fb, turns, name }: { station: OsceStation; fb: Osce
           </div>
         </Fold>
       </div>
+
+      {(courseFor(station.topic)?.lessons.length ?? 0) > 0 && (
+        <Link href={`/learn/${station.topic}`} className="mb-6 flex flex-col items-start gap-2 rounded-2xl border border-line bg-surface p-4 hover:border-brand sm:flex-row sm:gap-3">
+          <ExamPart part={1} className="mt-0.5 shrink-0" />
+          <span>
+            <span className="block font-medium">Revise {topicName(station.topic)}</span>
+            <span className="text-sm text-muted">
+              The knowledge behind this station is examined in Part 1. Its {courseFor(station.topic)!.lessons.length} lessons cover it.
+            </span>
+          </span>
+        </Link>
+      )}
 
       <div className="flex flex-wrap gap-3">
         <Button onClick={() => location.reload()}>Try again</Button>

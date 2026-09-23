@@ -33,8 +33,9 @@ export default function Clinical() {
   return (
     <div>
       <PageHeader
+        part={2}
         title="Clinical stations"
-        lede="Timed like the AMC Clinical Exam: 2 minutes to read, 8 minutes with an AI patient, then marked the AMC way. Type or speak."
+        lede="Every station here is practice for AMC Part 2, the Clinical Exam, which you sit after passing Part 1 (the MCQ). Timed like the real thing: 2 minutes to read, 8 minutes with an AI patient, marked the AMC way."
         actions={
           <Button onClick={random} disabled={!list.length}>
             <Shuffle size={16} /> Random station

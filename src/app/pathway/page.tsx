@@ -11,11 +11,11 @@ const fmt = (t: number) => new Date(t).toLocaleDateString("en-AU", { month: "sho
 
 const STEPS = [
   {
-    title: "AMC MCQ exam",
+    title: "Part 1: the AMC MCQ exam",
     body: "A computer-adaptive test of one-best-answer questions covering adult medicine and surgery, women's health, child health, mental health, and population health and ethics. It is taken at a test centre, including in India, and checks whether your medical knowledge matches that of an Australian graduate starting as an intern.",
   },
   {
-    title: "AMC Clinical Exam, or Workplace Based Assessment",
+    title: "Part 2: the AMC Clinical Exam, or Workplace Based Assessment",
     body: "The Clinical Exam is a circuit of short stations with role-play patients: taking a history, examining, explaining, counselling and managing. Each station gives you a couple of minutes of reading time, then a few minutes with the patient. Workplace Based Assessment is an alternative for doctors already working under supervision in an accredited Australian hospital.",
   },
   {
@@ -53,7 +53,12 @@ export default function Pathway() {
       />
 
       <section className="mb-10">
-        <h2 className="mb-4 text-xl font-semibold">The Standard Pathway in three steps</h2>
+        <h2 className="mb-1 text-xl font-semibold">The Standard Pathway in three steps</h2>
+        <p className="mb-4 text-muted">
+          The AMC calls the two exams the MCQ examination and the Clinical examination; most candidates call them Part 1 and
+          Part 2. In Southward, Learn, Practice, Mock exams and Flashcards prepare you for Part 1, and Clinical stations
+          prepare you for Part 2.
+        </p>
         <ol className="grid grid-cols-1 gap-4 md:grid-cols-3">
           {STEPS.map((s, i) => (
             <li key={s.title} className="relative rounded-2xl border border-line bg-surface p-5">
@@ -83,7 +88,7 @@ export default function Pathway() {
 
       <div className="mb-10 grid gap-6 lg:grid-cols-[1fr_1.2fr]">
         <Panel>
-          <h2 className="text-xl font-semibold">What the MCQ exam is like</h2>
+          <h2 className="text-xl font-semibold">What Part 1, the MCQ exam, is like</h2>
           <dl className="mt-4 divide-y divide-line">
             {MCQ_FACTS.map(([k, v]) => (
               <div key={k} className="grid grid-cols-1 gap-1 py-3 sm:grid-cols-[8rem_1fr] sm:gap-3">

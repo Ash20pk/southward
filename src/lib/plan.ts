@@ -32,7 +32,7 @@ export const PHASES: Phase[] = [
       "A two to three week block per discipline, rotating through all six",
       "Daily questions, then review every wrong answer with the tutor",
       "A 30-question mini mock at the end of each block",
-      "One clinical station a week to start thinking like an Australian GP",
+      "One Part 2 clinical station a week, to start thinking like an Australian GP early",
     ],
   },
   {
@@ -121,13 +121,13 @@ export const MILESTONES: Milestone[] = [
   },
   {
     id: "m-mcq-book",
-    title: "Book the AMC MCQ exam",
+    title: "Book Part 1, the AMC MCQ exam",
     when: "About 3 months before your target",
     body: "The MCQ is taken at Pearson VUE test centres, including in India. Popular dates fill quickly.",
   },
   {
     id: "m-mcq",
-    title: "Pass the AMC MCQ exam",
+    title: "Pass Part 1, the AMC MCQ exam",
     when: "Your target date",
     body: "A computer-adaptive exam of one-best-answer questions across all disciplines. See the format details on this page.",
   },
@@ -139,7 +139,7 @@ export const MILESTONES: Milestone[] = [
   },
   {
     id: "m-clinical",
-    title: "Pass the AMC Clinical Exam, or complete Workplace Based Assessment",
+    title: "Pass Part 2, the AMC Clinical Exam, or complete Workplace Based Assessment",
     when: "After the MCQ",
     body: "The Clinical Exam is an OSCE-style circuit of stations with real role-players. The alternative is a Workplace Based Assessment program while working under supervision in an accredited Australian hospital.",
   },

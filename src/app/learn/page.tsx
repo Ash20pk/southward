@@ -8,7 +8,7 @@ import { DISCIPLINES, NEW_FOR_YOU, SYLLABUS, subjectById, topicName, topicsForSu
 import { useStore } from "@/lib/store";
 import { ALL_LESSONS, courseFor, disciplineProgress, EXAM_WEIGHT, nextLesson, topicProgress } from "@/lib/course-index";
 import type { Discipline } from "@/lib/types";
-import { Bar, ButtonLink, DisciplineDot, Empty } from "@/components/ui";
+import { Bar, ButtonLink, DisciplineDot, Empty, ExamPart } from "@/components/ui";
 
 const hours = (min: number) => (min < 90 ? `${min} min` : `${Math.round(min / 60)} h`);
 const NEW = new Set(NEW_FOR_YOU.map((t) => t.id));
@@ -28,9 +28,11 @@ export default function Learn() {
   return (
     <div className="mx-auto max-w-3xl">
       <header className="mb-6">
+        <ExamPart part={1} className="mb-3" />
         <h1 className="text-3xl font-semibold tracking-tight sm:text-[2.4rem]">Learn</h1>
         <p className="mt-2 text-muted">
-          The whole AMC syllabus as short lessons. Each one ends with India vs Australia, flashcards and a quiz.
+          The whole AMC syllabus as short lessons, for the MCQ exam. Each ends with India vs Australia, flashcards and a
+          quiz. The same knowledge carries you through the Part 2 clinical stations.
         </p>
       </header>
 
