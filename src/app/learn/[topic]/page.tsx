@@ -28,7 +28,7 @@ export default function TopicPage() {
   const slug = (lessonId: string) => lessonId.split("--")[1];
 
   return (
-    <div className="mx-auto max-w-3xl">
+    <div className="max-w-3xl">
       <Link href="/learn" className="mb-5 inline-flex items-center gap-1.5 text-muted hover:text-ink">
         <ArrowLeft size={16} /> Learn
       </Link>

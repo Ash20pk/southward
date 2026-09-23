@@ -522,7 +522,7 @@ function Session({
   const score = log.filter((x) => x.picked === x.q.answer).length;
 
   return (
-    <div className="mx-auto max-w-3xl">
+    <div className="max-w-3xl">
       <div className="mb-6 flex items-center gap-4">
         <Bar value={((i + (revealed ? 1 : 0)) / questions.length) * 100} className="flex-1" />
         {timerOn && <QuestionTimer resetKey={q.id} running={!revealed} onExpire={expire} />}
@@ -562,7 +562,7 @@ function Results({ results, onAgain }: { results: { q: Question; picked: number 
   const correct = results.filter((r) => r.picked === r.q.answer).length;
   const pct = results.length ? Math.round((correct / results.length) * 100) : 0;
   return (
-    <div className="mx-auto max-w-3xl">
+    <div className="max-w-3xl">
       <PageHeader
         title={`${correct} of ${results.length} correct`}
         lede={

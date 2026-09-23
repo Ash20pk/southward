@@ -4,6 +4,7 @@ import { useRef, useState } from "react";
 import { snapshot, useStore, type Stage } from "@/lib/store";
 import { Button, PageHeader, Panel } from "@/components/ui";
 import { ThemePicker } from "@/components/ThemePicker";
+import { InstallApp } from "@/components/InstallApp";
 import { PostingSelect } from "@/components/PostingSelect";
 import { useSession } from "@/lib/session";
 import { flushProgress } from "@/hooks/useSync";
@@ -111,6 +112,15 @@ export default function Settings() {
             </Button>
           </Panel>
         )}
+
+        <Panel>
+          <h2 className="text-lg font-semibold">Install the app</h2>
+          <p className="mb-4 mt-1 text-muted">
+            Put Southward on your home screen. It opens full screen like any app, starts faster, and lessons you&rsquo;ve
+            opened keep working without internet.
+          </p>
+          <InstallApp />
+        </Panel>
 
         <Panel>
           <h2 className="text-lg font-semibold">Quiz timer</h2>

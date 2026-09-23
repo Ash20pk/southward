@@ -103,7 +103,7 @@ export default function ImportPdf() {
   const edit = (i: number, patch: Partial<Draft>) => setDrafts((ds) => ds.map((d, k) => (k === i ? { ...d, ...patch } : d)));
 
   return (
-    <div className="mx-auto max-w-3xl">
+    <div className="max-w-3xl">
       <Link href="/flashcards" className="mb-5 inline-flex items-center gap-1.5 text-muted hover:text-ink">
         <ArrowLeft size={16} /> Flashcards
       </Link>

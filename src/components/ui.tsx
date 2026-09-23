@@ -47,8 +47,10 @@ export function PageHeader({ title, lede, actions, part }: { title: string; lede
   return (
     <header className="mb-8 flex flex-wrap items-end justify-between gap-4">
       <div className="max-w-2xl">
-        {part && <ExamPart part={part} className="mb-3" />}
-        <h1 className="text-3xl font-semibold tracking-tight sm:text-[2.4rem] sm:leading-[1.1]">{title}</h1>
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
+          <h1 className="text-3xl font-semibold tracking-tight sm:text-[2.4rem] sm:leading-[1.1]">{title}</h1>
+          {part && <ExamPart part={part} />}
+        </div>
         {lede && <p className="mt-3 text-[1.05rem] leading-relaxed text-muted">{lede}</p>}
       </div>
       {actions && <div className="flex flex-wrap gap-2">{actions}</div>}

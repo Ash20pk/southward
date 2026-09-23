@@ -24,6 +24,7 @@ import { Onboarding } from "./Onboarding";
 import { ThemePicker } from "./ThemePicker";
 import { AuthScreen } from "./AuthScreen";
 import { SyncBadge } from "./SyncBadge";
+import { Splash } from "./Splash";
 import { useSession } from "@/lib/session";
 import { useSync } from "@/hooks/useSync";
 
@@ -67,18 +68,8 @@ const NAV_GROUPS: { title?: string; items: { href: string; label: string; icon: 
 function Logo() {
   return (
     <Link href="/" className="flex items-center gap-2.5 text-ink">
-      <svg viewBox="0 0 32 32" className="h-8 w-8" aria-hidden>
-        <rect width="32" height="32" rx="9" fill="var(--sky)" />
-        {[
-          [16, 25, 2.1],
-          [9, 14, 1.6],
-          [17, 6, 1.8],
-          [23.5, 12.5, 1.3],
-          [20, 18, 0.9],
-        ].map(([x, y, r], i) => (
-          <circle key={i} cx={x} cy={y} r={r} fill="var(--ochre)" />
-        ))}
-      </svg>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img src="/icons/icon.svg" alt="" width={32} height={32} className="h-8 w-8 rounded-[9px]" />
       <span className="text-[1.2rem] font-semibold tracking-tight">Southward</span>
     </Link>
   );
@@ -128,9 +119,9 @@ export function AppShell({ children }: { children: ReactNode }) {
     </nav>
   );
 
-  if (!hydrated || !session.loaded) return <div className="min-h-dvh" />;
+  if (!hydrated || !session.loaded) return <Splash />;
   if (session.mode === "account" && !session.user) return <AuthScreen />;
-  if (session.user && !synced) return <Splash />;
+  if (session.user && !synced) return <Splash note="Loading your progress…" />;
   if (!profile) return <Onboarding defaultName={session.user?.name} />;
 
   if (focus) return <main className="min-h-dvh">{children}</main>;
@@ -195,14 +186,6 @@ export function AppShell({ children }: { children: ReactNode }) {
           );
         })}
       </nav>
-    </div>
-  );
-}
-
-function Splash() {
-  return (
-    <div className="grid min-h-dvh place-items-center">
-      <p className="text-muted">Loading your progress…</p>
     </div>
   );
 }

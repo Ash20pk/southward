@@ -26,11 +26,13 @@ export default function Learn() {
   const needle = q.trim().toLowerCase();
 
   return (
-    <div className="mx-auto max-w-3xl">
+    <div className="max-w-3xl">
       <header className="mb-6">
-        <ExamPart part={1} className="mb-3" />
-        <h1 className="text-3xl font-semibold tracking-tight sm:text-[2.4rem]">Learn</h1>
-        <p className="mt-2 text-muted">
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
+          <h1 className="text-3xl font-semibold tracking-tight sm:text-[2.4rem] sm:leading-[1.1]">Learn</h1>
+          <ExamPart part={1} />
+        </div>
+        <p className="mt-3 text-[1.05rem] leading-relaxed text-muted">
           The whole AMC syllabus as short lessons, for the MCQ exam. Each ends with India vs Australia, flashcards and a
           quiz. The same knowledge carries you through the Part 2 clinical stations.
         </p>

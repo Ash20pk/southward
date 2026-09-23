@@ -55,11 +55,11 @@ function Tutor() {
   };
 
   return (
-    <div className="mx-auto flex min-h-[calc(100dvh-8rem)] max-w-3xl flex-col">
+    <div className="flex min-h-[calc(100dvh-8rem)] max-w-3xl flex-col">
       <div className="mb-6 flex flex-wrap items-end justify-between gap-3">
         <div>
-          <h1 className="text-3xl font-semibold tracking-tight">Ask the tutor</h1>
-          <p className="mt-2 text-muted">Any question, however basic. It teaches to Australian guidelines and flags where India does it differently.</p>
+          <h1 className="text-3xl font-semibold tracking-tight sm:text-[2.4rem] sm:leading-[1.1]">Ask the tutor</h1>
+          <p className="mt-3 text-[1.05rem] leading-relaxed text-muted">Any question, however basic. It teaches to Australian guidelines and flags where India does it differently.</p>
         </div>
         {messages.length > 0 && (
           <Button variant="quiet" size="sm" onClick={() => setMessages([])}>

@@ -187,7 +187,7 @@ function Review({ queue: initial, onDone }: { queue: ReviewCard[]; onDone: () =>
 
   if (!card)
     return (
-      <div className="mx-auto max-w-xl pt-10">
+      <div className="max-w-xl pt-10">
         <Empty title={`Done. ${reviewed} reviews.`}>
           <p>Come back tomorrow for the next batch.</p>
           <Button className="mt-5" onClick={onDone}>
@@ -199,7 +199,7 @@ function Review({ queue: initial, onDone }: { queue: ReviewCard[]; onDone: () =>
 
   const state = srs[card.id] ?? newCard();
   return (
-    <div className="mx-auto max-w-2xl">
+    <div className="max-w-2xl">
       <div className="mb-6 flex items-center gap-4">
         <Bar value={(reviewed / (reviewed + queue.length)) * 100} className="flex-1" />
         <span className="text-sm tabular-nums text-muted">{queue.length} left</span>
