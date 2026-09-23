@@ -1,32 +1,19 @@
 import { z } from "zod";
 import { structured, describeError, AMC_CONTEXT } from "@/lib/server/ai";
 import { stationById } from "@/lib/content";
-
 import { guardAI } from "@/lib/server/auth";
 
 export const maxDuration = 300;
 
+// Mirrors AMC marking (Clinical Examination Specifications V8): key steps observed / not observed,
+// domains on a 7-point scale, and a 7-point global rating where 4 or more passes.
 const Feedback = z.object({
-  overallScore: z.number().describe("0-100"),
-  globalRating: z.enum(["Clear pass", "Pass", "Borderline", "Fail"]),
-  summary: z.string().describe("2-3 sentences, direct and kind"),
-  domains: z.array(
-    z.object({
-      name: z.string(),
-      score: z.number().describe("1-5"),
-      comment: z.string(),
-    }),
-  ),
-  criteria: z.array(
-    z.object({
-      criterion: z.string(),
-      status: z.enum(["met", "partial", "missed"]),
-      evidence: z.string().describe("quote or paraphrase from the transcript, or what was missing"),
-    }),
-  ),
-  strengths: z.array(z.string()),
-  improvements: z.array(z.string()),
-  modelAnswer: z.string().describe("markdown: how an excellent candidate would have run this station, including key phrases"),
+  globalRating: z.number().describe("1-7; 4 or more is a pass"),
+  verdict: z.string().describe("one sentence, direct and kind, naming the single biggest reason for the rating"),
+  keySteps: z.array(z.object({ step: z.string(), observed: z.boolean(), note: z.string().describe("under 20 words") })),
+  domains: z.array(z.object({ name: z.string(), score: z.number().describe("1-7"), comment: z.string().describe("under 25 words") })),
+  fixes: z.array(z.string()).describe("the 3 most useful things to do differently next time, each under 20 words"),
+  modelAnswer: z.string().describe("markdown, under 200 words: how an excellent candidate would run this station, with key phrases to say"),
 });
 export type OsceFeedback = z.infer<typeof Feedback>;
 
@@ -43,15 +30,30 @@ export async function POST(req: Request) {
 
   const system = `${AMC_CONTEXT}
 
-You are an experienced AMC Clinical Examination examiner marking a practice station. Mark fairly against the criteria, as the real exam would: reward safe, patient-centred, structured practice; penalise unsafe omissions (missed red flags, no safety-netting) heavily. Judge only from the transcript. Domains to score (1-5 each): Approach to the patient, History / information gathering, Examination or clinical reasoning (as relevant), Diagnosis & differentials, Management & safety, Communication. The candidate is a learner: be specific about what to do differently next time.`;
+You are an AMC Clinical Examination examiner marking a practice station exactly as the AMC does:
+- Key steps: mark each as observed or not observed, strictly from the transcript.
+- Domains: rate each 1-7 against the station's stated expectations (4 = borderline pass, 5 = clear pass, 7 = excellent).
+- Global rating 1-7 for overall performance, weighted to the station's predominant assessment area. 4 or more passes. Unsafe practice (missed red flag, no safety-netting where needed, dangerous plan) caps the global rating at 3.
+Be concise and specific. The candidate is a learner: every comment should tell her what to do next time.`;
 
-  const lines = transcript
-    .map((t) => `${t.role === "user" ? "CANDIDATE" : "PATIENT"}: ${t.content}`)
-    .join("\n");
-  const prompt = `STATION: ${s.title}\nCandidate brief: ${s.candidateBrief}\nTasks:\n- ${s.tasks.join("\n- ")}\n\nHidden case (for the examiner): ${s.patient.script}\n${s.expectedDiagnosis ? `Expected diagnosis: ${s.expectedDiagnosis}\n` : ""}Marking criteria:\n- ${s.markingCriteria.join("\n- ")}\n\nTime used: ${Math.round(seconds / 60)} min of 8.\n\nTRANSCRIPT:\n${lines || "(the candidate said nothing)"}`;
+  const lines = transcript.map((t) => `${t.role === "user" ? "CANDIDATE" : s.patient.role ? "PERSON" : "PATIENT"}: ${t.content}`).join("\n");
+  const prompt = `STATION: ${s.title} (${s.area}, ${s.difficulty})
+Setting: ${s.setting}
+Stem: ${s.candidateBrief}
+Tasks: ${s.tasks.map((t) => `${t.task} (${t.minutes} min)`).join("; ")}
+Hidden case: ${s.patient.script}
+${s.expectedDiagnosis ? `Expected diagnosis: ${s.expectedDiagnosis}\n` : ""}Key steps:
+- ${s.keySteps.join("\n- ")}
+Domains and expectations:
+${s.domains.map((d) => `- ${d.name}: ${d.expectations}`).join("\n")}
+
+Time used: ${Math.round(seconds / 60)} of 8 minutes.
+
+TRANSCRIPT:
+${lines || "(the candidate said nothing)"}`;
 
   try {
-    const fb = await structured({ system, prompt, schema: Feedback, name: "osce_feedback", effort: "high" });
+    const fb = await structured({ system, prompt, schema: Feedback, name: "amc_station_marking", effort: "high" });
     return Response.json(fb);
   } catch (err) {
     return Response.json({ error: describeError(err) }, { status: 500 });

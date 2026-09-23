@@ -1,0 +1,1147 @@
+[
+  {
+    "discipline": "adult-medicine",
+    "id": "st-cardiology-1",
+    "title": "Chest pain in a 58-year-old tradie",
+    "topic": "cardiology",
+    "difficulty": "easy",
+    "area": "history",
+    "setting": "GP clinic, suburban Brisbane",
+    "candidateBrief": "You are a general practitioner in a suburban clinic. Mr Greg Holloway, a 58-year-old plumber, has booked a same-day appointment because of chest pain over the past two weeks. He is comfortable and pain free at the moment. Observations from the practice nurse: BP 152/94 mmHg, HR 88 regular, RR 16, SpO2 97% on room air, temperature 36.7 C. The nurse is setting up a 12-lead ECG.",
+    "tasks": [
+      {
+        "task": "Take a focused history of the chest pain and cardiovascular risk factors",
+        "minutes": 5
+      },
+      {
+        "task": "Explain the most likely diagnosis to Mr Holloway",
+        "minutes": 1
+      },
+      {
+        "task": "Outline your immediate management plan",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Greg Holloway",
+      "age": 58,
+      "sex": "male",
+      "persona": "Laconic self-employed tradie who downplays things ('probably just indigestion, mate'). Short answers, mildly irritated at losing work time. Answers what he is asked but does not volunteer. Gets quieter and more worried if the heart is mentioned because his dad died of a heart attack. Only mentions this morning's episode at rest if asked about the most recent episode or pain at rest.",
+      "openingLine": "G'day Doc. The wife made me come in. I've been getting this tightness in the chest, reckon it's just indigestion but she won't let it go.",
+      "script": "HPI: Two weeks of central chest tightness 'like a weight on me', brought on by carrying gear up stairs or walking up hills. Radiates to the left shoulder and jaw, lasts 3-5 minutes, eases with rest, 6/10. Over the last four days it comes on with less effort, such as walking from the ute to the house. CUE 1: This morning at 6 am he had a 15-minute episode sitting on the bed tying his boots, with sweating and nausea; it settled by itself. Pain free now. Mild breathlessness with the pain.\nNegatives: no palpitations, syncope, pleuritic or positional pain, tearing pain to the back, cough, fever, calf pain, recent long travel, reflux or pain on swallowing.\nPMH: hypertension for 5 years, stopped his tablets (perindopril) a year ago because he 'felt fine'. Told cholesterol was 'a bit high' 3 years ago, never treated. No diabetes that he knows of (not tested for years).\nMeds: none now, occasional ibuprofen for his back. No allergies.\nSocial: smokes 20 a day for 40 years. 4-5 beers most nights. Married, two adult kids. Runs his own plumbing business.\nFamily: father died of a heart attack at 54. Brother had stents at 60.\nCUE 2: He drove himself here and plans to drive to a job straight after, lifting hot water systems this afternoon.\nIdeas: indigestion or a pulled muscle. Concerns (only if asked with empathy): 'the same thing that got Dad', and losing income. Expectations: antacids and back to work. If told he needs hospital he resists ('Can't I just get a test next week?') but agrees if the risk is explained clearly and kindly."
+    },
+    "keySteps": [
+      "Characterises the pain systematically and identifies the crescendo pattern",
+      "Specifically elicits the episode of chest pain at rest this morning",
+      "Screens for dangerous differentials (aortic dissection, PE, pericarditis)",
+      "Arranges immediate ambulance transfer to ED and tells him not to drive",
+      "Offers aspirin 300 mg chewed if no contraindication while awaiting the ambulance"
+    ],
+    "domains": [
+      {
+        "name": "Approach to patient",
+        "expectations": "Checks he is pain free first, builds rapport with a reluctant patient, explores the fear about his father and the worry about income."
+      },
+      {
+        "name": "History",
+        "expectations": "Covers site, character, radiation, timing, triggers, relief and change over time; full risk factor history including stopped antihypertensive, smoking, lipids, family history of premature CAD."
+      },
+      {
+        "name": "Diagnosis",
+        "expectations": "States unstable angina / suspected acute coronary syndrome in plain language and explains why rest pain changes the urgency."
+      },
+      {
+        "name": "Management",
+        "expectations": "ECG within 10 minutes, aspirin, GTN for recurrence, call 000 for ambulance to ED, no driving or heavy work today; mentions troponin, risk stratification and later risk factor control."
+      }
+    ],
+    "expectedDiagnosis": "Unstable angina / suspected non-ST-elevation acute coronary syndrome",
+    "teachingPoints": [
+      "Crescendo angina or any rest pain in the past 24-48 hours is ACS until proven otherwise and needs ED, not an outpatient stress test.",
+      "In Australian general practice: 12-lead ECG within 10 minutes, aspirin 300 mg, ambulance via 000; never let the patient drive.",
+      "A normal ECG and being pain free now do not exclude NSTE-ACS; serial high-sensitivity troponin is needed (NHFA/CSANZ ACS guideline).",
+      "Always ask about the most recent episode and pain at rest: patients rarely volunteer it."
+    ]
+  },
+  {
+    "discipline": "adult-medicine",
+    "id": "st-cardiology-2",
+    "title": "New atrial fibrillation in a 72-year-old woman",
+    "topic": "cardiology",
+    "difficulty": "medium",
+    "area": "management",
+    "setting": "GP clinic, regional New South Wales",
+    "candidateBrief": "You are a GP. Mrs Joan Fraser, 72, saw your colleague last week with intermittent palpitations. An ECG showed atrial fibrillation with a ventricular rate of 96. She has hypertension on amlodipine. Today she feels well: BP 138/82 mmHg, HR 90 irregularly irregular. Results: TSH, FBC and electrolytes normal, eGFR 68 mL/min/1.73 m2. An echocardiogram showed a structurally normal heart with no valve disease. She has come back to discuss the results and what happens next.",
+    "tasks": [
+      {
+        "task": "Explain the diagnosis of atrial fibrillation to Mrs Fraser",
+        "minutes": 2
+      },
+      {
+        "task": "Assess her stroke and bleeding risk and discuss anticoagulation",
+        "minutes": 4
+      },
+      {
+        "task": "Outline rate control and follow-up",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Joan Fraser",
+      "age": 72,
+      "sex": "female",
+      "persona": "Retired schoolteacher, articulate, asks sensible questions and likes things explained properly. Pleasant but firm that she does not want 'rat poison'. Will only mention the fish oil, ibuprofen and wine if asked about other medicines or alcohol.",
+      "openingLine": "Hello doctor. So the heart tracing showed something funny? I'd like to know what it actually means.",
+      "script": "Symptoms: palpitations on and off for 2 months, a 'fluttering', sometimes with mild breathlessness climbing hills. No chest pain, syncope, orthopnoea or ankle swelling. No stroke or TIA symptoms ever.\nPMH: hypertension 10 years on amlodipine 5 mg. No diabetes, no heart failure, no vascular disease, no previous bleeding, no falls. Normal kidney and liver function.\nMeds: amlodipine 5 mg daily. CUE 1: also takes fish oil capsules and ibuprofen 400 mg most days for knee osteoarthritis (from the chemist). No allergies.\nSocial: widowed, lives alone, independent, drives, plays lawn bowls. Never smoked. CUE 2: 'a couple of glasses' of wine every night, about 3-4 standard drinks. Enjoys gardening.\nFamily: nothing relevant.\nIdeas: thinks it is 'just her heart racing a bit'. Concerns: her sister had a big bleed on warfarin and needed constant blood tests; she is frightened of bleeding and of 'rat poison'. She is also frightened of stroke because a friend at bowls had a stroke and is now in a nursing home. Expectations: wants a tablet to stop the fluttering.\nIf offered a DOAC with a clear explanation (no routine INR tests, lower brain bleed risk than warfarin) she agrees. She asks: 'Can I still have my wine?' and 'What about my knee tablets?' She will agree to stop ibuprofen and try paracetamol if the reason is explained."
+    },
+    "keySteps": [
+      "Calculates stroke risk using CHA2DS2-VA (age 65-74 and hypertension = 2) and recommends anticoagulation",
+      "Recommends a DOAC (e.g. apixaban) in preference to warfarin as there is no mechanical valve or mitral stenosis",
+      "Identifies and addresses modifiable bleeding risks: daily NSAID, fish oil and alcohol",
+      "Offers rate control with a beta-blocker (e.g. metoprolol) or non-dihydropyridine calcium channel blocker and arranges review"
+    ],
+    "domains": [
+      {
+        "name": "Communication",
+        "expectations": "Explains AF simply (irregular electrical rhythm, blood pools, clots can travel to the brain), checks understanding, responds to her fear of warfarin with specific information."
+      },
+      {
+        "name": "Risk assessment",
+        "expectations": "Correctly scores stroke risk, explains roughly what it means, weighs bleeding risk factors and explains benefit outweighs risk."
+      },
+      {
+        "name": "Management",
+        "expectations": "DOAC with dose check against renal function and age, stop ibuprofen (use paracetamol), stop fish oil, reduce alcohol; rate control target and follow-up in 1-2 weeks."
+      },
+      {
+        "name": "Safety netting",
+        "expectations": "Tells her to seek urgent help for stroke symptoms (FAST, call 000), black stools, blood in urine or any significant bleeding; carries a card listing her anticoagulant."
+      }
+    ],
+    "expectedDiagnosis": "Non-valvular atrial fibrillation, CHA2DS2-VA score 2",
+    "teachingPoints": [
+      "The Australian AF guideline (NHFA/CSANZ) uses CHA2DS2-VA, which drops sex as a risk factor: anticoagulate at 2 or more, consider at 1.",
+      "DOACs are preferred over warfarin except with a mechanical valve or moderate to severe mitral stenosis.",
+      "Bleeding scores should prompt you to fix modifiable risks (NSAIDs, antiplatelets, alcohol, BP), not to withhold anticoagulation.",
+      "Aspirin is not an alternative to anticoagulation for stroke prevention in AF."
+    ]
+  },
+  {
+    "discipline": "adult-medicine",
+    "id": "st-respiratory-1",
+    "title": "Breathlessness in a 69-year-old former boilermaker",
+    "topic": "respiratory",
+    "difficulty": "medium",
+    "area": "examination",
+    "setting": "Medical outpatient clinic, metropolitan hospital, Newcastle",
+    "candidateBrief": "You are a resident in a respiratory clinic. Mr Keith Doyle, 69, has been referred by his GP with 6 weeks of increasing breathlessness, a dry cough, right-sided chest ache and 5 kg weight loss. He is a retired boilermaker and smoked for 40 years. Observations: T 36.9 C, HR 94, BP 134/80 mmHg, RR 22, SpO2 93% on room air. Tell the examiner what you are examining and the findings will be given to you.",
+    "tasks": [
+      {
+        "task": "Perform a respiratory examination",
+        "minutes": 4
+      },
+      {
+        "task": "Present your findings and most likely diagnosis to the examiner",
+        "minutes": 2
+      },
+      {
+        "task": "Outline the investigations you would arrange",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Keith Doyle",
+      "age": 69,
+      "sex": "male",
+      "persona": "Quiet, cooperative, slightly short of breath when talking in long sentences. Follows instructions. Asks at the end if it is 'the asbestos'.",
+      "openingLine": "G'day. Bit puffed these days, sorry. What do you need me to do?",
+      "script": "History (only if asked, the station is mainly examination): breathlessness now on walking 50 metres, dry cough, dull right chest ache, 5 kg weight loss over 2 months, night sweats occasionally. No haemoptysis, fever or calf swelling.\nPMH: hypertension, gout. Meds: perindopril, allopurinol. No allergies.\nSocial: boilermaker in shipyards and power stations for 30 years, 'asbestos everywhere back then, we used to throw it at each other'. Smoked 20 a day for 40 years, quit 10 years ago. Lives with wife. Drinks 2 beers a day.\nFamily: brother died of lung cancer.\nCUE: two old workmates have died of mesothelioma. He is frightened this is the same and asks 'Is it the asbestos, doc?' He also wonders if he can get compensation because his wife would be left with nothing. He is not on any blood thinners, which matters if a pleural tap is suggested (only if asked). He has had no chest X-ray yet; the GP referred him straight to clinic.\nIdeas: thinks it could be cancer. Expectations: wants straight answers.",
+      "examFindings": "General: thin man, mildly dyspnoeic at rest, using no accessory muscles, no cyanosis. Hands: finger clubbing present, no tar staining, no asterixis, no wasting. Pulse 94 regular. No lymphadenopathy in the neck or supraclavicular fossae. Trachea: deviated slightly to the LEFT. Chest inspection: reduced movement of the right hemithorax. Expansion: reduced on the right. Percussion: stony dull right lower and mid zones posteriorly and in the right axilla; resonant elsewhere. Auscultation: absent breath sounds over the right lower and mid zones with a small area of bronchial breathing just above the dull area; left side vesicular breath sounds, no crackles. Vocal resonance: reduced over the right base. JVP not raised, no peripheral oedema, calves soft. Other systems normal."
+    },
+    "keySteps": [
+      "Examines hands for clubbing and checks tracheal position",
+      "Compares percussion and auscultation side to side at matching levels, front, back and axillae",
+      "Identifies a large right pleural effusion with mediastinal shift away from it",
+      "Recommends ultrasound-guided diagnostic pleural aspiration with cytology, biochemistry and microbiology"
+    ],
+    "domains": [
+      {
+        "name": "Choice and technique of examination",
+        "expectations": "Introduces, consents, positions at 45 degrees; systematic inspection, palpation, percussion, auscultation, vocal resonance; checks nodes and signs of heart failure."
+      },
+      {
+        "name": "Accuracy of examination",
+        "expectations": "Reports findings accurately: clubbing, tracheal shift to the left, stony dullness and absent breath sounds on the right."
+      },
+      {
+        "name": "Differential diagnosis",
+        "expectations": "Right pleural effusion, likely exudate; malignant (mesothelioma or lung cancer) is most likely given asbestos, smoking, weight loss and clubbing; mentions parapneumonic and TB as alternatives."
+      },
+      {
+        "name": "Investigations",
+        "expectations": "CXR, ultrasound-guided pleural tap (protein, LDH, pH, glucose, cell count, cytology, Gram stain, culture), apply Light's criteria, contrast CT chest, and early respiratory referral; pleural biopsy if cytology negative."
+      }
+    ],
+    "expectedDiagnosis": "Right pleural effusion, suspected malignant (mesothelioma or lung cancer) in an asbestos-exposed ex-smoker",
+    "teachingPoints": [
+      "A large effusion pushes the trachea away; collapse pulls it towards the lesion.",
+      "Light's criteria: exudate if fluid/serum protein > 0.5, fluid/serum LDH > 0.6, or fluid LDH > two-thirds of the upper limit of normal serum LDH.",
+      "Pleural cytology is only moderately sensitive for mesothelioma; biopsy (thoracoscopic or image guided) is often needed.",
+      "Australia has one of the world's highest mesothelioma rates; occupational asbestos disease may qualify for dust disease compensation schemes, which vary by state."
+    ]
+  },
+  {
+    "discipline": "adult-medicine",
+    "id": "st-respiratory-2",
+    "title": "Asthma review after an ED visit",
+    "topic": "respiratory",
+    "difficulty": "easy",
+    "area": "management",
+    "setting": "GP clinic, inner Melbourne",
+    "candidateBrief": "You are a GP. Chloe Martin, 24, a hospitality worker, attended the emergency department 5 days ago with an asthma flare and was discharged on 5 days of prednisolone, now finished. The discharge letter asks for GP follow-up. Her records show a fluticasone propionate 125 microgram inhaler and salbutamol. Today she is well: RR 14, SpO2 98% on room air, chest clear, peak flow 420 L/min (her best is about 460).",
+    "tasks": [
+      {
+        "task": "Assess her asthma control, triggers and inhaler use",
+        "minutes": 3
+      },
+      {
+        "task": "Explain and agree on a change to her treatment",
+        "minutes": 3
+      },
+      {
+        "task": "Provide a written asthma action plan and arrange follow-up",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Chloe Martin",
+      "age": 24,
+      "sex": "female",
+      "persona": "Friendly, chatty, a bit embarrassed about the ED visit. Honest when asked directly. Thinks the brown inhaler is 'a steroid that makes you put on weight' so rarely uses it.",
+      "openingLine": "Hi. Yeah, so I ended up in emergency last week, which was pretty scary. They said to come and see you.",
+      "script": "Asthma since childhood, mild for years. Over the past 3 months: salbutamol 5-6 days a week, waking with cough or wheeze 2 nights a week, has had to stop during her Saturday netball. The ED flare came after a cold. No previous ICU admissions or intubation. One ED visit as a teenager.\nPreventer: fluticasone 125 inhaler 'only when it's really bad', maybe once a week, because she worries about steroid side effects. CUE 1: when asked to show her technique she uses the puffer straight into her mouth without a spacer, breathes in fast and does not hold her breath.\nTriggers: colds, cold air, and CUE 2: moved into a share house 4 months ago with two cats. She also vapes 'socially' most weekends. Works late shifts at a bar.\nMeds: no others. No aspirin or NSAID sensitivity. No allergies known, has hay fever in spring.\nFamily: mum has asthma and eczema.\nIdeas: thinks salbutamol is the proper treatment. Concerns: steroid weight gain; cost of more inhalers. Expectations: a new salbutamol script.\nShe accepts an ICS-formoterol inhaler if told it works both as her reliever and to settle the inflammation, and that the steroid dose is small and inhaled."
+    },
+    "keySteps": [
+      "Assesses symptom control (day symptoms, night waking, reliever use, activity limitation) and identifies poor control",
+      "Checks inhaler technique and adherence and corrects them",
+      "Changes to an ICS-formoterol regimen (anti-inflammatory reliever or maintenance and reliever therapy) rather than SABA-only use",
+      "Provides a written asthma action plan and arranges review in 4-6 weeks"
+    ],
+    "domains": [
+      {
+        "name": "Assessment",
+        "expectations": "Uses the four control questions, identifies flare risk factors (recent ED visit, SABA overuse, poor adherence, smoking/vaping), and asks about triggers."
+      },
+      {
+        "name": "Management",
+        "expectations": "Explains why preventer medicine matters, starts budesonide-formoterol as reliever or MART, corrects technique (or suggests a Turbuhaler/spacer), addresses vaping and allergen triggers."
+      },
+      {
+        "name": "Education and counselling",
+        "expectations": "Addresses the steroid fear with facts, completes a written action plan with clear steps for worsening and when to call 000."
+      },
+      {
+        "name": "Follow-up",
+        "expectations": "Review in 4-6 weeks with spirometry when well; annual influenza vaccination; checks she understands using teach-back."
+      }
+    ],
+    "expectedDiagnosis": "Poorly controlled asthma with a recent severe flare, poor preventer adherence and inhaler technique",
+    "teachingPoints": [
+      "The Australian Asthma Handbook no longer recommends SABA-only treatment for adults and adolescents; as-needed or maintenance-and-reliever budesonide-formoterol is preferred.",
+      "Any ED visit for asthma is a marker of future flare risk and needs GP review within a week.",
+      "Check inhaler technique at every visit before stepping up treatment.",
+      "Every person with asthma should have a written asthma action plan (National Asthma Council templates)."
+    ]
+  },
+  {
+    "discipline": "adult-medicine",
+    "id": "st-endocrinology-1",
+    "title": "Explaining a new diagnosis of type 2 diabetes",
+    "topic": "endocrinology",
+    "difficulty": "easy",
+    "area": "diagnosis",
+    "setting": "GP clinic, western Sydney",
+    "candidateBrief": "You are a GP. Mr Rajesh Kumar, 52, an accountant, had blood tests at a health check because of his weight and a family history of diabetes. He has no symptoms. Results: HbA1c 7.4% (57 mmol/mol); repeat fasting glucose on a separate day 8.1 mmol/L; eGFR 88; urine albumin-creatinine ratio normal; total cholesterol 5.9 mmol/L, LDL 3.8 mmol/L. BMI 31 kg/m2, waist 104 cm, BP 138/86 mmHg. He has come for his results.",
+    "tasks": [
+      {
+        "task": "Explain the results and the diagnosis to Mr Kumar",
+        "minutes": 3
+      },
+      {
+        "task": "Explore and address his concerns",
+        "minutes": 2
+      },
+      {
+        "task": "Outline the initial management plan",
+        "minutes": 3
+      }
+    ],
+    "patient": {
+      "name": "Rajesh Kumar",
+      "age": 52,
+      "sex": "male",
+      "persona": "Polite, numerate, likes numbers and wants the details. Becomes anxious and quiet when diabetes is confirmed because of his father. Will not raise the insulin fear unless given space to talk.",
+      "openingLine": "Good morning doctor. I'm here for the blood tests. My wife says I shouldn't worry, but I'd like to know.",
+      "script": "No thirst, polyuria, weight loss, blurred vision, recurrent infections or foot numbness. No chest pain or claudication.\nPMH: nil significant. Told BP 'borderline' last year. Meds: none. No allergies.\nSocial: accountant, desk job, long hours in tax season. Walks rarely. Diet: white rice and roti at most meals, sweet chai 3-4 times a day, eats late at night. Never smoked, drinks 2 whisky on weekends. Married, two teenage children. Drives.\nFamily: CUE 1: father had type 2 diabetes, 'went on insulin, lost his leg and then his kidneys failed' and died at 68. Mother has hypertension. Brother has pre-diabetes.\nIdeas: suspects diabetes from the tests. Concerns: CUE 2 (only if asked about worries): terrified of insulin injections and ending up like his father; worried he did this to himself. Expectations: wants to know if it can be reversed and if he must take tablets forever.\nResponds well to a clear plan with numbers (targets) and learning that complications are largely preventable with good control. Happy to see a dietitian and diabetes educator; asks about the NDSS."
+    },
+    "keySteps": [
+      "Explains that two results in the diabetic range (HbA1c >= 6.5% / 48 mmol/mol and fasting glucose >= 7.0 mmol/L) confirm type 2 diabetes",
+      "Explores his ideas and concerns and addresses the fear of insulin and complications",
+      "Recommends lifestyle change with metformin as first-line medicine and an individual HbA1c target (usually <= 7%, 53 mmol/mol)",
+      "Addresses cardiovascular risk (BP, lipids, absolute CVD risk) and arranges complication screening and team care"
+    ],
+    "domains": [
+      {
+        "name": "Explanation of diagnosis",
+        "expectations": "Plain-language explanation of HbA1c, what diabetes is, why it matters; avoids jargon; checks understanding."
+      },
+      {
+        "name": "Approach to patient",
+        "expectations": "Elicits family history fear with empathy, reassures that complications are preventable, avoids blame."
+      },
+      {
+        "name": "Management",
+        "expectations": "Diet (dietitian, less sugary drinks, refined carbs), 150 minutes of activity a week, weight loss target 5-10%, metformin, statin discussion using CVD risk calculator, BP target, NDSS registration, diabetes educator, GP chronic condition management plan."
+      },
+      {
+        "name": "Follow-up",
+        "expectations": "Annual cycle of care: HbA1c every 3-6 months, eyes (retinal screening), feet, kidneys (eGFR, ACR), lipids; review in 4-6 weeks."
+      }
+    ],
+    "expectedDiagnosis": "Type 2 diabetes mellitus (newly diagnosed) with obesity and dyslipidaemia",
+    "teachingPoints": [
+      "In an asymptomatic person, diabetes needs two abnormal results on separate days (RACGP Management of type 2 diabetes).",
+      "Metformin plus lifestyle is first line; SGLT2 inhibitors or GLP-1 receptor agonists are added early if there is cardiovascular or kidney disease.",
+      "Register with the NDSS for subsidised supplies, education and support.",
+      "People of South Asian background develop type 2 diabetes at younger ages and lower BMIs; screen earlier."
+    ]
+  },
+  {
+    "discipline": "adult-medicine",
+    "id": "st-endocrinology-2",
+    "title": "Hypoglycaemia in a truck driver with type 1 diabetes",
+    "topic": "endocrinology",
+    "difficulty": "hard",
+    "area": "management",
+    "setting": "GP clinic, regional Queensland",
+    "candidateBrief": "You are a GP. Darren Walsh, 45, a long-haul truck driver with type 1 diabetes for 20 years, has come in for a script for his insulin (insulin glargine and insulin aspart). His last HbA1c was 6.4% (46 mmol/mol) three months ago. His partner rang the practice yesterday worried about 'funny turns'. Today: BP 128/78 mmHg, BMI 26 kg/m2, capillary glucose 6.8 mmol/L.",
+    "tasks": [
+      {
+        "task": "Take a focused history of his hypoglycaemic episodes",
+        "minutes": 3
+      },
+      {
+        "task": "Discuss the implications for his driving",
+        "minutes": 3
+      },
+      {
+        "task": "Outline a plan to reduce his risk of hypoglycaemia",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Darren Walsh",
+      "age": 45,
+      "sex": "male",
+      "persona": "HARD: guarded and defensive, wants his script and to leave. Minimises ('just a couple of lows, everyone gets them'). Becomes angry if the licence is raised bluntly: 'You're going to cost me my job.' Softens if the doctor is honest, non-judgemental and focuses on keeping him and other road users safe and on getting him back on the road properly.",
+      "openingLine": "Just need my insulin script, doc. Pretty busy, got a run to Townsville tonight.",
+      "script": "Hypos: about 3-4 a week for 2 months, often mid-afternoon on long drives. He now often does not feel the warning signs until he is below 3 mmol/L. CUE 1 (only if asked directly about driving during a hypo): 3 weeks ago he 'came to' on the side of the highway, did not remember pulling over, and a glucose check was 2.2 mmol/L. CUE 2 (only if asked if anyone has had to help him): 2 weeks ago his partner found him sweaty and confused at 3 am, and she had to feed him jelly beans; he could not do it himself. No seizures. No ambulance calls.\nCauses: lost 6 kg since starting a gym routine, insulin doses unchanged. Injects into the same spot on his abdomen, which has a lump (lipohypertrophy). Skips lunch to make time. Drinks 6-8 beers on days off.\nMonitoring: finger prick 'when I remember', not before driving. No CGM. Has no glucagon.\nPMH: nil else. No retinopathy. Meds: insulin glargine 28 units nocte, aspart 8-10 units with meals. No allergies.\nSocial: employed by a transport company, holds a heavy combination licence. Lives with partner, two kids. Smokes 10 a day.\nConcerns: losing his licence and job, mortgage. Expectations: script and go.\nIf approached well he admits he has been scared himself and agrees to stop commercial driving until reviewed."
+    },
+    "keySteps": [
+      "Identifies severe hypoglycaemia (needing third-party help) and impaired hypoglycaemia awareness, including the episode while driving",
+      "Advises him not to drive (commercial or private) until reviewed and stable, and explains his legal duty to notify the driver licensing authority",
+      "Explains the Australian 'above 5 to drive' rule and glucose checks before and during driving",
+      "Addresses causes: reduces insulin doses, rotates injection sites away from lipohypertrophy, alcohol and meal skipping, and offers CGM and endocrinologist/educator referral"
+    ],
+    "domains": [
+      {
+        "name": "Approach to patient",
+        "expectations": "Stays calm and non-judgemental with a defensive patient, acknowledges the livelihood impact, frames advice around safety, does not simply refuse the script."
+      },
+      {
+        "name": "History",
+        "expectations": "Frequency, timing, severity, awareness, episodes while driving or at night, precipitants (weight loss, exercise, alcohol, missed meals, injection sites), monitoring habits."
+      },
+      {
+        "name": "Ethics and legal",
+        "expectations": "Correctly applies Austroads Assessing Fitness to Drive: he is currently unfit to drive commercially; driver must notify the licensing authority; doctors may notify if the risk to public safety persists (rules vary by state); documents advice."
+      },
+      {
+        "name": "Management",
+        "expectations": "Insulin dose reduction, carry fast-acting glucose, 15 g carbohydrate rule, glucagon for partner, CGM with alarms (NDSS subsidised for type 1 diabetes), dietitian and educator, urgent endocrinology review, safety-net."
+      }
+    ],
+    "expectedDiagnosis": "Recurrent severe hypoglycaemia with impaired awareness in type 1 diabetes; currently unfit to drive commercially",
+    "teachingPoints": [
+      "Austroads Assessing Fitness to Drive sets national standards; a severe hypoglycaemic event or impaired awareness makes a driver unfit until specialist review, with stricter criteria for commercial licences.",
+      "Australian rule: 'above 5 to drive'; check before driving and at least every 2 hours on long trips.",
+      "The patient has the legal duty to notify the licensing authority; doctor reporting rules vary by state (e.g. mandatory in South Australia and the Northern Territory).",
+      "Lipohypertrophy causes erratic insulin absorption; always inspect injection sites."
+    ]
+  },
+  {
+    "discipline": "adult-medicine",
+    "id": "st-neurology-1",
+    "title": "Sudden severe headache in a 38-year-old woman",
+    "topic": "neurology",
+    "difficulty": "hard",
+    "area": "history",
+    "setting": "GP clinic, suburban Adelaide",
+    "candidateBrief": "You are a GP. Ms Sarah Nguyen, 38, a real estate agent, has booked an urgent appointment for a headache that started yesterday afternoon. She has a history of occasional migraines. She is alert and talking normally. Observations: T 36.8 C, HR 84, BP 148/92 mmHg, RR 14, SpO2 99% on room air, capillary glucose 5.6 mmol/L.",
+    "tasks": [
+      {
+        "task": "Take a focused history of the headache",
+        "minutes": 5
+      },
+      {
+        "task": "Explain your most likely diagnosis to Ms Nguyen",
+        "minutes": 1
+      },
+      {
+        "task": "Explain your immediate management plan",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Sarah Nguyen",
+      "age": 38,
+      "sex": "female",
+      "persona": "HARD: rushed and dismissive, keeps checking her phone, has a house auction at 2 pm. Keeps steering the consultation to 'something stronger, like Panadeine Forte, and a certificate'. Insists 'it's just a bad migraine'. Only becomes cooperative if the doctor calmly and clearly explains that this headache is different and could be a bleed.",
+      "openingLine": "Hi, I've got a shocker of a migraine, can I just get something stronger? I've got an auction this afternoon.",
+      "script": "Onset: yesterday about 3 pm at the gym while lifting weights, 'like being hit on the back of the head with a bat'; it was at its worst within seconds, 10/10, the worst headache of her life. Nothing like her usual migraines, which build over an hour with zigzag lights and settle with sumatriptan. Vomited twice yesterday. CUE 1 (only if asked about loss of consciousness or feeling faint): she 'blacked out for a second' on the gym floor and a trainer helped her up. Headache now 6/10, occipital, with a stiff sore neck and light hurting her eyes. No fever, rash, focal weakness, speech or vision change, seizure. Took sumatriptan and paracetamol, no real help.\nPMH: migraine with aura since her teens, 2-3 a year. Meds: combined oral contraceptive pill, sumatriptan as needed. No anticoagulants. No allergies.\nSocial: smokes 5 a day, drinks 2-3 wines on weekends, occasional cocaine at parties (last 2 weeks ago, only admits if asked sensitively and confidentially). Lives with partner. Drove herself.\nFamily: CUE 2 (only if asked about family history): her mother died suddenly of a 'bleed in the brain' at 50. Uncle has polycystic kidneys.\nIdeas: migraine. Concerns: losing the sale. Expectations: stronger pain relief and a certificate. If told a bleed must be excluded urgently she says, 'Can't I go after the auction?' and agrees if the risk is explained honestly."
+    },
+    "keySteps": [
+      "Establishes thunderclap onset (maximal within about a minute) and that it differs from her usual migraines",
+      "Asks about red flags: collapse or loss of consciousness, neck stiffness, photophobia, focal deficits, seizure, fever",
+      "Asks about family history of aneurysm or SAH and risk factors (smoking, hypertension, cocaine)",
+      "Recognises possible subarachnoid haemorrhage and arranges immediate ED transfer by ambulance, not opioids and home"
+    ],
+    "domains": [
+      {
+        "name": "Approach to patient",
+        "expectations": "Stays calm and focused despite pressure, acknowledges the auction, avoids prescribing opioids as a way to end the consultation, asks about drug use non-judgementally."
+      },
+      {
+        "name": "History",
+        "expectations": "Onset, peak time, activity at onset, severity, comparison with usual headaches, associated symptoms, pertinent negatives, medications including OCP, family history."
+      },
+      {
+        "name": "Differential diagnosis",
+        "expectations": "Subarachnoid haemorrhage first; also reversible cerebral vasoconstriction syndrome, cervical artery dissection, cerebral venous sinus thrombosis (OCP), meningitis less likely."
+      },
+      {
+        "name": "Management and communication",
+        "expectations": "Explains in plain language why she must go now, calls an ambulance, no driving, urgent non-contrast CT brain with CT angiography and LP if CT is negative and not diagnostic; documents advice."
+      }
+    ],
+    "expectedDiagnosis": "Suspected subarachnoid haemorrhage (thunderclap headache with collapse and meningism)",
+    "teachingPoints": [
+      "Thunderclap headache (maximal within 1 minute) is SAH until proven otherwise, even in someone with migraine.",
+      "Non-contrast CT within 6 hours of onset is highly sensitive; after 6 hours a negative CT needs LP for xanthochromia (at least 12 hours after onset) or CT angiography.",
+      "First-degree family history of SAH and polycystic kidney disease raise aneurysm risk.",
+      "Codeine is prescription-only in Australia (since 2018); avoid opioids for undifferentiated headache."
+    ]
+  },
+  {
+    "discipline": "adult-medicine",
+    "id": "st-neurology-2",
+    "title": "Tremor in a 71-year-old man",
+    "topic": "neurology",
+    "difficulty": "medium",
+    "area": "examination",
+    "setting": "GP clinic, Hobart",
+    "candidateBrief": "You are a GP. Mr Peter Collins, 71, a retired carpenter, has come in because his wife has noticed his right hand shaking for about 8 months. He has also slowed down and his handwriting has become small. He takes perindopril for hypertension and no other medicines. Tell the examiner what you are examining and the findings will be given to you.",
+    "tasks": [
+      {
+        "task": "Perform a focused examination to determine the cause of the tremor",
+        "minutes": 5
+      },
+      {
+        "task": "Present your findings and most likely diagnosis to the examiner",
+        "minutes": 1
+      },
+      {
+        "task": "Explain the likely diagnosis and next steps to Mr Collins",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Peter Collins",
+      "age": 71,
+      "sex": "male",
+      "persona": "Soft-spoken, slow to answer, face shows little expression. Cooperative. Worried but does not say so unless asked. Asks, 'Is it Parkinson's? Will I end up in a wheelchair?'",
+      "openingLine": "The wife reckons my hand's been shaking. I suppose it has. I've just slowed down a bit, getting old.",
+      "script": "History (if asked): right hand tremor for 8 months, noticed when watching TV, less when he picks up a cup. Handwriting smaller. Takes longer to dress and do up buttons. Wife says he shuffles and his voice is softer. Constipation for years. CUE: his wife says he 'acts out his dreams', punching and shouting in his sleep (REM sleep behaviour disorder). Lost some sense of smell. No falls yet, no dizziness on standing, no hallucinations, memory good. No head injury.\nMeds: perindopril 5 mg. Never taken metoclopramide, prochlorperazine or antipsychotics. No allergies.\nSocial: retired carpenter, lives with wife in a two-storey house. Drives locally. Does woodwork in the shed. Drinks 2 beers a day, alcohol does not change the tremor. Never smoked.\nFamily: no tremor or Parkinson disease in family.\nIdeas: getting old. Concerns: wheelchair, losing driving and his woodwork. Expectations: wants to know what it is, and whether there is a tablet that can help him keep doing his woodwork safely.",
+      "examFindings": "General: hypomimia (reduced facial expression), reduced blink rate, soft monotonous voice. Tremor: coarse 4-6 Hz 'pill-rolling' resting tremor of the right hand, which lessens on reaching for an object and increases with distraction (counting backwards). No postural or intention tremor of note. Tone: cogwheel rigidity at the right wrist and elbow, increased by moving the left hand (activation manoeuvre); mild rigidity on the left. Bradykinesia: progressive slowing and decrement of amplitude on repetitive finger tapping, worse on the right. Power, reflexes and sensation normal and symmetrical; plantars flexor. Cerebellar: finger-nose and heel-shin normal, no nystagmus. Eye movements: full, including vertical gaze. Gait: stooped posture, reduced right arm swing, short shuffling steps, turns en bloc. Pull test: takes 2 steps back and recovers. Lying BP 138/80, standing 132/78 at 3 minutes. Handwriting: micrographia. Cognition screen normal. Other systems normal."
+    },
+    "keySteps": [
+      "Observes the resting tremor and uses distraction and action to characterise it",
+      "Tests tone with an activation manoeuvre and bradykinesia with repetitive finger tapping",
+      "Examines gait, postural stability, eye movements and lying/standing BP to look for Parkinson-plus features",
+      "States idiopathic Parkinson disease as the most likely diagnosis and refers to a neurologist"
+    ],
+    "domains": [
+      {
+        "name": "Choice and technique of examination",
+        "expectations": "Structured approach: inspection, tremor at rest/posture/action, tone, bradykinesia, gait and pull test, eye movements, cerebellar signs, postural BP, handwriting."
+      },
+      {
+        "name": "Accuracy of examination",
+        "expectations": "Correctly reports asymmetric resting tremor, cogwheel rigidity, bradykinesia and parkinsonian gait; notes absence of cerebellar signs and gaze palsy."
+      },
+      {
+        "name": "Differential diagnosis",
+        "expectations": "Idiopathic Parkinson disease; distinguishes from essential tremor (postural, symmetrical, alcohol-responsive), drug-induced parkinsonism, progressive supranuclear palsy and multiple system atrophy."
+      },
+      {
+        "name": "Communication and management",
+        "expectations": "Explains the diagnosis is clinical, it progresses slowly and treatment (levodopa) helps symptoms; neurologist referral, allied health, Parkinson's Australia; mentions driving needs assessment and asks about his fears."
+      }
+    ],
+    "expectedDiagnosis": "Idiopathic Parkinson disease",
+    "teachingPoints": [
+      "Parkinsonism = bradykinesia plus rest tremor and/or rigidity; asymmetry and a good levodopa response support idiopathic Parkinson disease.",
+      "Early vertical gaze palsy suggests PSP; early autonomic failure and falls suggest MSA.",
+      "Always exclude drug-induced parkinsonism (metoclopramide, prochlorperazine, antipsychotics).",
+      "Under Austroads, Parkinson disease requires fitness-to-drive assessment; the patient must notify the licensing authority."
+    ]
+  },
+  {
+    "discipline": "adult-medicine",
+    "id": "st-gastroenterology-1",
+    "title": "Difficulty swallowing in a 66-year-old man",
+    "topic": "gastroenterology",
+    "difficulty": "medium",
+    "area": "history",
+    "setting": "GP clinic, Perth",
+    "candidateBrief": "You are a GP. Mr Tony Russo, 66, a retired truck driver, has come in because food has been 'getting stuck' for a few months. His wife has booked the appointment. Observations: BP 132/80 mmHg, HR 78, T 36.6 C, weight 71 kg (82 kg at a visit 1 year ago).",
+    "tasks": [
+      {
+        "task": "Take a focused history from Mr Russo",
+        "minutes": 5
+      },
+      {
+        "task": "Explain your differential diagnosis to Mr Russo",
+        "minutes": 1
+      },
+      {
+        "task": "Outline the next steps in his management",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Tony Russo",
+      "age": 66,
+      "sex": "male",
+      "persona": "Stoic, jokes to deflect ('just eat slower, I reckon'). Gives short answers. Becomes serious when asked about his brother. Accepts investigations if the reason is clear.",
+      "openingLine": "The missus made me come. Bit of food keeps getting stuck. I just eat slower and it goes down.",
+      "script": "Dysphagia: started 4 months ago with steak and bread, now rice and even soft foods stick; points to the lower sternum. Liquids go down fine. Getting steadily worse. He now lives mostly on soups and custard. Occasionally regurgitates undigested food. No pain on swallowing. No coughing or choking on drinking, no nasal regurgitation. No haematemesis or melaena. Lost about 11 kg without trying. Tired.\nReflux: heartburn for 20 years, 'lives on Quick-Eze', never investigated. Took a PPI for a while from the chemist, stopped.\nPMH: hypertension, obesity previously. Meds: amlodipine, over-the-counter antacids. No allergies.\nSocial: smoked 25 a day for 40 years, still smokes 10. Drinks 4-6 beers a day. Retired, lives with wife.\nFamily: CUE: older brother died of 'cancer of the gullet' at 70. Tony has not told his wife he is scared it is the same.\nIdeas: food going down the wrong way. Concerns (only if asked): cancer like his brother. Expectations: a tablet. Agrees to a camera test if it is explained why it is needed soon."
+    },
+    "keySteps": [
+      "Characterises the dysphagia: solids versus liquids, progressive course, level, and duration",
+      "Asks about alarm features: weight loss, haematemesis or melaena, odynophagia, regurgitation, anaemia symptoms",
+      "Asks about risk factors: long-standing reflux, smoking, alcohol, and family history of oesophageal cancer",
+      "Arranges urgent gastroscopy (upper GI endoscopy) and addresses nutrition"
+    ],
+    "domains": [
+      {
+        "name": "History",
+        "expectations": "Distinguishes oesophageal from oropharyngeal dysphagia, establishes progressive solid-food dysphagia with marked weight loss, covers meds, social and family history."
+      },
+      {
+        "name": "Approach to patient",
+        "expectations": "Picks up the deflecting humour, gently explores fear about his brother, honest without being alarming."
+      },
+      {
+        "name": "Differential diagnosis",
+        "expectations": "Oesophageal cancer (adenocarcinoma related to Barrett oesophagus or squamous cell carcinoma related to smoking and alcohol) first; peptic stricture; achalasia less likely as liquids are fine."
+      },
+      {
+        "name": "Management",
+        "expectations": "Urgent gastroscopy with biopsy (not a barium swallow first), FBC, iron studies, LFTs, electrolytes; start a PPI; dietitian for soft high-energy diet; smoking and alcohol advice; follow-up with results."
+      }
+    ],
+    "expectedDiagnosis": "Progressive dysphagia with weight loss: oesophageal carcinoma until proven otherwise",
+    "teachingPoints": [
+      "Progressive dysphagia to solids then liquids with weight loss suggests mechanical obstruction, commonly malignancy.",
+      "Dysphagia is an alarm feature: refer for urgent endoscopy rather than trialling a PPI alone.",
+      "Adenocarcinoma of the lower oesophagus (reflux, obesity, Barrett oesophagus) is now more common in Australia than squamous cell carcinoma.",
+      "Nutrition matters early; involve a dietitian while awaiting investigation."
+    ]
+  },
+  {
+    "discipline": "adult-medicine",
+    "id": "st-gastroenterology-2",
+    "title": "Abdominal swelling in a 54-year-old man",
+    "topic": "gastroenterology",
+    "difficulty": "easy",
+    "area": "examination",
+    "setting": "General medical ward, regional Victoria",
+    "candidateBrief": "You are a medical resident. Mr Brian Kelly, 54, has been admitted with 3 weeks of increasing abdominal swelling and ankle swelling. He drinks heavily. Observations: T 36.8 C, HR 90, BP 112/70 mmHg, RR 16, SpO2 97% on room air. Tell the examiner what you are examining and the findings will be given to you.",
+    "tasks": [
+      {
+        "task": "Perform a gastrointestinal examination",
+        "minutes": 5
+      },
+      {
+        "task": "Present your findings and most likely diagnosis to the examiner",
+        "minutes": 2
+      },
+      {
+        "task": "State the key initial investigations",
+        "minutes": 1
+      }
+    ],
+    "patient": {
+      "name": "Brian Kelly",
+      "age": 54,
+      "sex": "male",
+      "persona": "Pleasant, a bit embarrassed, cooperative with examination. Minimises drinking ('a few beers'). Oriented and not drowsy.",
+      "openingLine": "Morning, doc. Belly's blown up like a balloon. Do what you need to.",
+      "script": "History (if asked; the station is mainly examination): abdomen swelling for 3 weeks, tight, ankles swollen, tired, itchy skin, eyes 'a bit yellow' according to his daughter. No vomiting blood, no black stools, no confusion. No abdominal pain or fever.\nAlcohol: says 'a few beers' but on detailed questioning drinks a 30-can block over two days on weekends plus 6 cans a night, about 12-14 standard drinks a day for 20 years. Last drink yesterday. No withdrawal seizures before.\nPMH: nil known. Has not seen a doctor in years. Meds: none. No allergies.\nSocial: forklift driver, divorced, lives alone. Smokes 20 a day. Had a tattoo done in his 20s at a friend's house. No injecting drug use (if asked).\nFamily: father 'drank himself to death'.\nCUE: he asks if he can go home tomorrow because he is worried about losing his job. Ideas: fluid from his heart. Concerns: job, being judged for drinking.",
+      "examFindings": "General: jaundiced sclerae, mildly icteric skin, no confusion, no fetor hepaticus. Hands: palmar erythema, leukonychia, bilateral Dupuytren contracture, no clubbing, no asterixis. Arms: scattered bruises, scratch marks. Face and chest: bilateral parotid enlargement, 6 spider naevi on the upper chest, gynaecomastia, reduced body hair. Abdomen: distended, flanks full, prominent periumbilical veins flowing away from the umbilicus; non-tender; liver not palpable; spleen palpable 3 cm below the left costal margin; shifting dullness present; no fluid thrill; no masses; bowel sounds normal. Small testes (if asked). Legs: bilateral pitting oedema to mid-shin. Other systems normal."
+    },
+    "keySteps": [
+      "Inspects hands and tests for asterixis, and looks for peripheral stigmata of chronic liver disease",
+      "Palpates for liver and spleen and demonstrates ascites with shifting dullness",
+      "Identifies decompensated cirrhosis with ascites and portal hypertension (splenomegaly, caput medusae)",
+      "Recommends a diagnostic ascitic tap (cell count for SBP, albumin gradient, culture) and liver work-up"
+    ],
+    "domains": [
+      {
+        "name": "Choice and technique of examination",
+        "expectations": "Introduction, consent, positioning flat, exposure with dignity; hands, arms, face, chest, abdomen (inspect, palpate, percuss, auscultate), legs; mentions checking for encephalopathy."
+      },
+      {
+        "name": "Accuracy of examination",
+        "expectations": "Correctly reports jaundice, palmar erythema, spider naevi, gynaecomastia, splenomegaly, shifting dullness and oedema."
+      },
+      {
+        "name": "Interpretation",
+        "expectations": "Diagnoses chronic liver disease with portal hypertension and ascites, most likely alcohol-related cirrhosis; notes no encephalopathy."
+      },
+      {
+        "name": "Investigations",
+        "expectations": "Diagnostic paracentesis, LFTs, INR, albumin, FBC, electrolytes and creatinine, hepatitis B and C serology, liver ultrasound with Doppler; later gastroscopy for varices."
+      }
+    ],
+    "expectedDiagnosis": "Decompensated alcohol-related cirrhosis with ascites and portal hypertension",
+    "teachingPoints": [
+      "Serum-ascites albumin gradient >= 11 g/L indicates portal hypertension; neutrophils > 250 cells/mm3 in ascitic fluid means SBP.",
+      "Always screen for hepatitis B and C; Australia offers subsidised direct-acting antivirals for hepatitis C.",
+      "People with cirrhosis need 6-monthly liver ultrasound (with or without AFP) for hepatocellular carcinoma surveillance.",
+      "Give thiamine before glucose in heavy drinkers and watch for alcohol withdrawal from day 1-3."
+    ]
+  },
+  {
+    "discipline": "adult-medicine",
+    "id": "st-nephrology-1",
+    "title": "Abnormal kidney results in a 76-year-old woman",
+    "topic": "nephrology",
+    "difficulty": "hard",
+    "area": "diagnosis",
+    "setting": "GP clinic, suburban Canberra",
+    "candidateBrief": "You are a GP. Mrs Margaret O'Brien, 76, had blood tests two days ago for tiredness. Her daughter Karen has come with her and asked to talk about the results. Medicines: perindopril 5 mg, furosemide 40 mg daily. Results: creatinine 245 micromol/L (95 micromol/L three months ago), eGFR 16 mL/min/1.73 m2, urea 22 mmol/L, potassium 6.1 mmol/L, sodium 134 mmol/L. Today: BP 104/62 mmHg, HR 96 regular, afebrile, dry mucous membranes.",
+    "tasks": [
+      {
+        "task": "Explain the results to Karen and her mother",
+        "minutes": 2
+      },
+      {
+        "task": "Identify the likely causes from a brief focused history",
+        "minutes": 3
+      },
+      {
+        "task": "Explain your immediate management plan",
+        "minutes": 3
+      }
+    ],
+    "patient": {
+      "name": "Karen O'Brien",
+      "age": 48,
+      "sex": "female",
+      "role": "daughter and carer of 76-year-old Margaret O'Brien, who is present but hard of hearing",
+      "persona": "HARD: frustrated and protective. Opens with 'Nobody told us anything.' Angry that mum's pills might have caused this and wants someone to blame (the chemist). Interrupts. Settles if the doctor acknowledges her frustration, explains clearly and gives a concrete plan. Margaret herself says little and nods along, so the candidate should check Margaret understands too.",
+      "openingLine": "The receptionist said Mum's kidneys are bad and we needed to come in. Nobody's explained anything. What's going on?",
+      "script": "Timeline: Margaret had vomiting and diarrhoea for 3 days a week ago after a family lunch, 'couldn't keep anything down'. Kept taking all her tablets. Still not eating or drinking much, passing less urine, dark. Tired and dizzy on standing. No fever now, no blood in stools, no chest pain, no palpitations, no weakness, no urinary symptoms or flank pain.\nCUE 1 (only if asked about other or over-the-counter medicines): Karen bought ibuprofen 400 mg three times a day from the chemist 2 weeks ago for Margaret's hip arthritis 'because Panadol wasn't doing much'.\nPMH: hypertension, mild heart failure diagnosed 2 years ago, hip osteoarthritis. No diabetes. Baseline kidneys 'fine' per Karen.\nMeds: perindopril 5 mg daily, furosemide 40 mg daily, paracetamol as needed, ibuprofen as above. No allergies.\nSocial: Margaret lives alone next door to Karen, who helps with shopping and pills. Non-smoker, no alcohol.\nCUE 2: Karen blames herself for buying the ibuprofen and turns it into anger at the pharmacist. If the doctor is kind and explains it is a common, reversible combination problem, she calms and asks, 'Will her kidneys go back to normal?'\nExpectations: wants to take Mum home with 'some tablets to fix it'. Reluctant about hospital because last time Margaret became confused there; accepts once the potassium risk is explained."
+    },
+    "keySteps": [
+      "Recognises acute kidney injury (creatinine more than doubled from baseline) with hyperkalaemia",
+      "Identifies the 'triple whammy' (ACE inhibitor + diuretic + NSAID) plus dehydration from gastroenteritis",
+      "Stops the NSAID and withholds perindopril and furosemide (sick day rules)",
+      "Arranges same-day ED assessment for ECG, repeat potassium, IV fluids and monitoring"
+    ],
+    "domains": [
+      {
+        "name": "Communication",
+        "expectations": "Acknowledges Karen's frustration without being defensive, avoids blame, explains in plain language, checks Margaret also understands (speaks clearly for her hearing)."
+      },
+      {
+        "name": "Interpretation of results",
+        "expectations": "Explains AKI (KDIGO stage 2), hyperkalaemia as the immediate danger to the heart rhythm, low sodium, and that the prior baseline was normal for age."
+      },
+      {
+        "name": "History and diagnosis",
+        "expectations": "Asks about fluid losses, intake, urine output, all medicines including OTC, urinary obstruction symptoms; concludes pre-renal AKI from volume depletion worsened by the triple whammy."
+      },
+      {
+        "name": "Management",
+        "expectations": "Same-day ED (ECG, repeat K, IV fluids, renal ultrasound if not improving), stop ibuprofen permanently, withhold ACEi and diuretic until reviewed, paracetamol regularly for pain, sick day medicine plan, recheck kidney function after recovery."
+      }
+    ],
+    "expectedDiagnosis": "Acute kidney injury (pre-renal) from gastroenteritis and 'triple whammy' medicines, with hyperkalaemia",
+    "teachingPoints": [
+      "KDIGO AKI: creatinine rise >= 26.5 micromol/L in 48 hours or >= 1.5 times baseline in 7 days, or urine output < 0.5 mL/kg/h for 6 hours.",
+      "The 'triple whammy' (ACEi/ARB + diuretic + NSAID) is a well-known Australian medication safety alert, especially in older people.",
+      "Teach sick day rules: withhold ACEi/ARB, diuretics, metformin and SGLT2 inhibitors during vomiting, diarrhoea or poor intake (the SADMANS list).",
+      "Potassium above 6.0 mmol/L with AKI needs an ECG and hospital assessment the same day."
+    ]
+  },
+  {
+    "discipline": "adult-medicine",
+    "id": "st-haematology-1",
+    "title": "Iron deficiency anaemia in a 68-year-old man",
+    "topic": "haematology",
+    "difficulty": "medium",
+    "area": "diagnosis",
+    "setting": "GP clinic, Gold Coast",
+    "candidateBrief": "You are a GP. Mr Graham Pike, 68, a retired electrician, had blood tests for tiredness and breathlessness on exertion. He takes aspirin 100 mg daily after a TIA 3 years ago. Results: Hb 98 g/L (130-180), MCV 72 fL (80-100), platelets 410 x 10^9/L, WCC normal, ferritin 8 microg/L (30-500), transferrin saturation 6%, CRP 3 mg/L. Kidney and liver function normal. He has come back for the results.",
+    "tasks": [
+      {
+        "task": "Explain the results to Mr Pike",
+        "minutes": 2
+      },
+      {
+        "task": "Explain the likely causes and the investigations you recommend",
+        "minutes": 4
+      },
+      {
+        "task": "Discuss treatment of the anaemia",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Graham Pike",
+      "age": 68,
+      "sex": "male",
+      "persona": "Easygoing but squeamish about 'tubes up the backside'. Tries to negotiate: 'Can't I just take iron tablets?' Accepts endoscopy if the reason is explained honestly.",
+      "openingLine": "G'day doc. So am I low in something? The wife reckons I need a steak.",
+      "script": "Symptoms: tired for 4 months, puffed walking up hills, no chest pain. CUE 1 (only if asked about bowels): bowels a bit looser than usual for 3 months, sometimes darker, no fresh blood he has noticed. Lost about 3 kg, puts it down to eating less. No indigestion, no swallowing problems, no abdominal pain, no nosebleeds or blood in urine.\nDiet: meat most days, not vegetarian.\nPMH: TIA 3 years ago, hypertension, high cholesterol. Meds: aspirin 100 mg, atorvastatin 40 mg, perindopril 5 mg. Occasional ibuprofen for his back. No allergies.\nSocial: retired, lives with wife, ex-smoker (quit 15 years ago), 2-3 beers a day.\nFamily: mother had 'bowel trouble' in her 70s, not sure what.\nCUE 2 (only if asked about screening): he threw out the last two National Bowel Cancer Screening Program kits: 'couldn't face it'.\nIdeas: needs more red meat. Concerns: a colonoscopy prep 'making him sick', and quietly about cancer. Expectations: iron tablets.\nIf offered only iron tablets he is happy to leave; the candidate needs to explain why the cause must be found."
+    },
+    "keySteps": [
+      "Interprets microcytic anaemia with low ferritin as iron deficiency anaemia",
+      "Explains that iron deficiency in a man of this age is due to blood loss until proven otherwise, including bowel cancer",
+      "Recommends both gastroscopy and colonoscopy (and coeliac serology)",
+      "Starts iron replacement and plans a repeat FBC and iron studies to confirm response"
+    ],
+    "domains": [
+      {
+        "name": "Interpretation of results",
+        "expectations": "Explains Hb, MCV and ferritin in plain language; notes reactive thrombocytosis and normal CRP making ferritin reliable."
+      },
+      {
+        "name": "Differential diagnosis",
+        "expectations": "GI blood loss: colorectal cancer, peptic ulcer or erosions from aspirin and NSAID, angiodysplasia, coeliac disease causing malabsorption; diet unlikely."
+      },
+      {
+        "name": "Investigations",
+        "expectations": "Urgent referral for gastroscopy and colonoscopy, coeliac serology; does not rely on faecal occult blood testing when iron deficiency is proven."
+      },
+      {
+        "name": "Management and counselling",
+        "expectations": "Oral iron (e.g. daily or alternate-day dosing, side effects, take away from tea), IV iron if intolerant or not responding; stop ibuprofen; aspirin continued unless advised; addresses fears about colonoscopy with empathy; follow-up."
+      }
+    ],
+    "expectedDiagnosis": "Iron deficiency anaemia, likely gastrointestinal blood loss (colorectal cancer to be excluded)",
+    "teachingPoints": [
+      "Ferritin < 30 microg/L confirms iron deficiency; ferritin rises with inflammation, so check CRP.",
+      "Iron deficiency in men and post-menopausal women needs gastroscopy and colonoscopy (GESA guidance).",
+      "Alternate-day oral iron can improve absorption and tolerability.",
+      "The National Bowel Cancer Screening Program offers free immunochemical faecal occult blood tests every 2 years to Australians aged 45-74 (mailed from age 50)."
+    ]
+  },
+  {
+    "discipline": "adult-medicine",
+    "id": "st-infectious-disease-1",
+    "title": "Fever in a returned traveller from Papua New Guinea",
+    "topic": "infectious-disease",
+    "difficulty": "hard",
+    "area": "history",
+    "setting": "GP clinic, Cairns",
+    "candidateBrief": "You are a GP. Mr Jake Thompson, 29, a mining engineer who works fly-in fly-out, returned from a project in Papua New Guinea 10 days ago. He has had fever and aches for 3 days and wants 'something to get back to work'. Observations: T 39.1 C, HR 110, BP 112/70 mmHg, RR 18, SpO2 97% on room air. He looks flushed and unwell.",
+    "tasks": [
+      {
+        "task": "Take a focused history from Mr Thompson",
+        "minutes": 5
+      },
+      {
+        "task": "Explain your most likely diagnosis to Mr Thompson",
+        "minutes": 1
+      },
+      {
+        "task": "Explain your immediate management plan",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Jake Thompson",
+      "age": 29,
+      "sex": "male",
+      "persona": "HARD: blokey, dismissive and in a hurry. Calls it 'just the flu'. Wants antibiotics and a certificate so he can fly out again in 3 days. Irritated by 'a million questions'. Only discloses stopping his tablets and the sick workmate when asked directly. Becomes cooperative when he hears malaria can kill within a day or two.",
+      "openingLine": "Mate, I've just got a flu or something. Can you give me some antibiotics? I'm meant to fly back out Thursday.",
+      "script": "HPI: 3 days of high fevers with shaking chills every afternoon, drenching sweats, severe headache, muscle and back aches, nausea, off his food. Some diarrhoea yesterday. No rash, no bleeding, no neck stiffness, no confusion, no cough, no dysuria. CUE 1 (only if asked about urine colour): urine a bit darker today.\nTravel: 6-week rotation at a mine site in the PNG highlands and a week in the lowlands near the coast; lots of mosquitoes at night; slept without a net for part of the time. Returned to Cairns 10 days ago.\nPrevention: CUE 2 (only if asked specifically how he took it): took doxycycline while in PNG but stopped it the day he flew home 'because I was back in Australia'. Used repellent 'sometimes'. Up to date with routine vaccines, had hepatitis A and typhoid vaccines 2 years ago.\nOther exposures: swam in a river once, no animal bites. Ate at the mine canteen. If asked sensitively: one episode of unprotected sex with a new partner in Port Moresby 3 weeks ago.\nContacts: CUE 3: a workmate from the same site was flown out with malaria last month.\nPMH: nil. Meds: paracetamol. No allergies.\nSocial: lives alone in a unit in Cairns, drinks heavily on days off, no smoking or drugs.\nConcerns: losing his rotation bonus. Expectations: antibiotics and a certificate."
+    },
+    "keySteps": [
+      "Takes a detailed travel history: destination (rural and lowland areas), dates, mosquito exposure and bite prevention",
+      "Asks exactly how malaria prophylaxis was taken and identifies that doxycycline was stopped early",
+      "Asks about severe malaria features (confusion, dark urine, jaundice, bleeding, breathlessness) and other exposures including sexual history",
+      "Recognises malaria as a medical emergency and arranges same-day assessment with thick and thin blood films and a rapid antigen test"
+    ],
+    "domains": [
+      {
+        "name": "Approach to patient",
+        "expectations": "Stays respectful with an impatient patient, explains why the questions matter, takes the sexual history confidentially and non-judgementally."
+      },
+      {
+        "name": "History",
+        "expectations": "Fever pattern, associated symptoms, red flags, itinerary, activities, prophylaxis adherence, vaccinations, food and water, freshwater exposure, contacts, sexual history."
+      },
+      {
+        "name": "Differential diagnosis",
+        "expectations": "Malaria (P. falciparum or P. vivax) first; also dengue, typhoid, leptospirosis (river swimming), acute HIV, and common infections."
+      },
+      {
+        "name": "Management",
+        "expectations": "Same-day ED or hospital: blood films (repeated 12-24 hourly to a total of three if negative), malaria antigen test, FBC, LFTs, electrolytes, creatinine, glucose, blood cultures, dengue NS1; no empirical antibiotics and home; not fit to fly out; malaria is notifiable."
+      }
+    ],
+    "expectedDiagnosis": "Suspected malaria in a returned traveller from Papua New Guinea",
+    "teachingPoints": [
+      "Fever in anyone returning from a malaria area in the past 3 months is malaria until three negative films say otherwise.",
+      "Doxycycline prophylaxis must continue for 4 weeks after leaving the malaria area.",
+      "PNG is the most common source of malaria in returned travellers presenting in Queensland, including P. falciparum and P. vivax.",
+      "Severe falciparum malaria is treated with IV artesunate (eTG); malaria is notifiable in all states."
+    ]
+  },
+  {
+    "discipline": "adult-medicine",
+    "id": "st-rheumatology-1",
+    "title": "Hot swollen knee in a 58-year-old man",
+    "topic": "rheumatology",
+    "difficulty": "easy",
+    "area": "examination",
+    "setting": "Emergency department, metropolitan hospital, Sydney",
+    "candidateBrief": "You are an ED resident. Mr Wayne Harris, 58, woke this morning with a very painful, swollen right knee. He has hypertension and takes hydrochlorothiazide. Observations: T 37.9 C, HR 96, BP 146/88 mmHg, RR 16, SpO2 98% on room air. Tell the examiner what you are examining and the findings will be given to you.",
+    "tasks": [
+      {
+        "task": "Examine Mr Harris's right knee and any other relevant areas",
+        "minutes": 4
+      },
+      {
+        "task": "Present your findings and differential diagnosis to the examiner",
+        "minutes": 2
+      },
+      {
+        "task": "Explain to Mr Harris the next step in his management",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Wayne Harris",
+      "age": 58,
+      "sex": "male",
+      "persona": "In a lot of pain, winces with movement, polite but grumpy. Asks for pain relief before the exam. Worried about a needle in the knee.",
+      "openingLine": "Careful with it, doc, it's killing me. Couldn't even have the sheet on it last night.",
+      "script": "History (if asked; the station is mainly examination): woke at 4 am with severe right knee pain and swelling, now can hardly bear weight. No injury. No recent skin wounds, injections into the joint or surgery. Felt feverish. Two similar episodes in his right big toe in the past 2 years that settled with anti-inflammatories from the chemist. No other joints involved. No urethral discharge, diarrhoea or eye symptoms. No new sexual partners.\nPMH: hypertension, obesity, type 2 diabetes (diet controlled). Meds: hydrochlorothiazide 25 mg daily. No allergies.\nSocial: publican. Drinks 6-8 beers a day and had a big weekend. Eats a lot of red meat and prawns. Non-smoker.\nFamily: father had gout.\nIdeas: 'gout again, maybe'. Concerns: needle in the knee. Expectations: strong pain relief and anti-inflammatories. If the reason for aspiration is explained he agrees. He asks whether he will need to stop the beer and his fluid tablet, and whether he can drive home afterwards.",
+      "examFindings": "General: overweight man in pain, walking with a limp. Right knee: inspection shows swelling, erythema extending over the anterior knee, no skin breaks or wounds; palpation: warm, diffusely tender, large effusion with positive patellar tap and bulge sign; movement: active and passive flexion limited to 10-60 degrees by pain; ligaments not tested due to pain. Left knee normal. Hands: no synovitis. Feet: right first MTP joint slightly deformed, non-tender. Ears: a firm, white, non-tender nodule on the left helix (tophus). Inguinal nodes not enlarged. No rash, no conjunctivitis, no urethral discharge reported. Other systems normal."
+    },
+    "keySteps": [
+      "Performs look, feel, move of the knee and tests for effusion (patellar tap or bulge sign)",
+      "Examines other joints and looks for tophi and skin entry points",
+      "States that septic arthritis must be excluded even though gout is likely",
+      "Explains the need for joint aspiration before antibiotics, with fluid sent for Gram stain, culture, cell count and crystals"
+    ],
+    "domains": [
+      {
+        "name": "Choice and technique of examination",
+        "expectations": "Consent, analgesia offered, exposes both legs, compares with the other side, look-feel-move, gait if possible, screens other joints, ears, skin."
+      },
+      {
+        "name": "Accuracy of examination",
+        "expectations": "Reports warm, red, swollen knee with large effusion and restricted painful movement, left helix tophus and first MTP changes."
+      },
+      {
+        "name": "Differential diagnosis",
+        "expectations": "Acute gout (tophus, diuretic, alcohol, prior podagra) versus septic arthritis (fever, diabetes); also pseudogout and reactive arthritis."
+      },
+      {
+        "name": "Communication",
+        "expectations": "Explains aspiration simply (why, how, local anaesthetic, risks), gets consent, gives analgesia, mentions blood tests (FBC, CRP, urate, blood cultures)."
+      }
+    ],
+    "expectedDiagnosis": "Acute monoarthritis of the right knee: probable acute gout, septic arthritis to be excluded",
+    "teachingPoints": [
+      "Every hot swollen joint is septic until proven otherwise: aspirate before antibiotics.",
+      "Gout and sepsis can coexist; crystals in the fluid do not exclude infection.",
+      "Serum urate may be normal during an acute gout flare.",
+      "Thiazide diuretics, alcohol and a high-purine diet are common Australian gout triggers; consider switching the antihypertensive."
+    ]
+  },
+  {
+    "discipline": "adult-medicine",
+    "id": "st-dermatology-1",
+    "title": "A changing mole on the back",
+    "topic": "dermatology",
+    "difficulty": "medium",
+    "area": "diagnosis",
+    "setting": "GP skin clinic, Sunshine Coast",
+    "candidateBrief": "You are a GP. Mrs Kate Brennan, 45, has come in because her husband noticed a mole on her upper back has changed. On examination there is a 9 mm lesion on the left upper back. It is asymmetrical with an irregular, notched border and several colours (light and dark brown, black and a blue-grey area). Dermoscopy shows an atypical pigment network, irregular dots and globules and a blue-white veil. No palpable lymph nodes.",
+    "tasks": [
+      {
+        "task": "Take a brief focused history of the lesion and risk factors",
+        "minutes": 2
+      },
+      {
+        "task": "Explain the most likely diagnosis to Mrs Brennan",
+        "minutes": 2
+      },
+      {
+        "task": "Explain the next steps in management",
+        "minutes": 2
+      },
+      {
+        "task": "Advise on skin cancer prevention and follow-up",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Kate Brennan",
+      "age": 45,
+      "sex": "female",
+      "persona": "Anxious, talks quickly, asks 'Is it cancer?' early. Needs honesty with reassurance. Calms if given a clear plan and timeframe.",
+      "openingLine": "My husband's been nagging me about this mole. He says it's got bigger. Is it something bad?",
+      "script": "Lesion: has had a mole there 'forever' but over the last 4 months it has grown, darkened and become itchy; it bled once when she scratched it. No other changing moles that she knows of. No lumps in the armpit or neck. No weight loss, cough, headache.\nRisk factors: very fair skin, red hair, freckles, burns easily. Grew up in Townsville, 'burnt to a crisp every summer' as a child. Used solariums in her 20s. Rarely wears sunscreen now, works outdoors as a real estate agent some of the day. Has about 60 moles.\nPMH: nil. No previous skin cancers or skin checks. Meds: none. No allergies.\nFamily: CUE 1: her mother had a melanoma removed at 60 (unsure of details).\nSocial: married, two children aged 10 and 13. Non-smoker.\nConcerns: CUE 2 (only if asked about worries): she is frightened of dying and leaving her children, as a work colleague died of melanoma last year. She also asks, 'Can you just burn it off?' and 'Will I need a big operation?' Expectations: wants it dealt with quickly."
+    },
+    "keySteps": [
+      "Identifies features highly suspicious for melanoma (ABCDE: asymmetry, border, colour variation, diameter, evolution; dermoscopic blue-white veil)",
+      "Recommends complete excisional biopsy with a 2 mm margin (not shave, cryotherapy or partial biopsy)",
+      "Explains that histology (Breslow thickness) determines the need for wider excision and further staging",
+      "Recommends a full skin examination, sun protection and regular skin checks"
+    ],
+    "domains": [
+      {
+        "name": "History",
+        "expectations": "Duration, change in size, shape, colour, symptoms (itch, bleeding), sun exposure, sunburn history, solarium use, skin type, mole count, personal and family history of melanoma."
+      },
+      {
+        "name": "Explanation of diagnosis",
+        "expectations": "Honest that this looks like it could be a melanoma, explains what that means, that early detection improves outcome, and that confirmation needs histology."
+      },
+      {
+        "name": "Management",
+        "expectations": "Excision biopsy soon (within about 2 weeks), histology, then wide local excision with margins based on Breslow thickness; possible sentinel node biopsy and specialist referral for thicker lesions."
+      },
+      {
+        "name": "Education and counselling",
+        "expectations": "Slip, Slop, Slap, Seek, Slide; avoid tanning; monthly self-checks; regular skin checks; family members (children) at higher risk; addresses her fear with empathy."
+      }
+    ],
+    "expectedDiagnosis": "Suspected melanoma (likely superficial spreading) on the upper back",
+    "teachingPoints": [
+      "Australia and New Zealand have the highest melanoma rates in the world; Queensland is highest within Australia.",
+      "Suspected melanoma: excisional biopsy with 2 mm margins; avoid shave biopsy or destruction (Cancer Council Australia melanoma guidelines).",
+      "Nodular melanoma may not follow ABCDE: think EFG (elevated, firm, growing).",
+      "Commercial solariums are banned across Australia."
+    ]
+  },
+  {
+    "discipline": "adult-medicine",
+    "id": "st-geriatrics-1",
+    "title": "Confusion after a hip fracture: talking to the daughter",
+    "topic": "geriatrics",
+    "difficulty": "hard",
+    "area": "history",
+    "setting": "Orthopaedic ward, metropolitan hospital, Melbourne",
+    "candidateBrief": "You are the orthopaedic resident. Mrs Dorothy Harper, 84, had a fractured neck of femur fixed 2 days ago. Overnight she became agitated, did not know where she was, and pulled out her IV cannula. This morning she is drowsy. Her daughter Helen has arrived and asked to speak to a doctor. Current obs: T 37.4 C, HR 92, BP 128/70 mmHg, SpO2 94% on room air. Chart: oxycodone as needed, paracetamol, enoxaparin, indwelling catheter.",
+    "tasks": [
+      {
+        "task": "Take a collateral history from Helen",
+        "minutes": 5
+      },
+      {
+        "task": "Explain the likely diagnosis to Helen",
+        "minutes": 1
+      },
+      {
+        "task": "Outline your management plan",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Helen Harper",
+      "age": 56,
+      "sex": "female",
+      "role": "daughter of 84-year-old Dorothy Harper",
+      "persona": "HARD: upset and angry. 'Mum was completely fine before she came in here. What have you done to her?' Worries it is dementia and she will 'end up in a home'. Raises her voice early. Settles if the candidate acknowledges her distress, does not get defensive, and involves her as the expert on her mother.",
+      "openingLine": "Are you her doctor? Mum doesn't even know who I am this morning. She was perfectly fine before she came in here. What's going on?",
+      "script": "Baseline: lives alone in her own unit, independent with personal care, cooks, does her own shopping and still drives locally. 'A bit forgetful' with names over the last year but manages her own bills and tablets. No previous confusion.\nThis admission: fell in the kitchen 3 days ago, lay on the floor for several hours. Since surgery: day 1 she was 'a bit vague', last night very confused. Fluctuates: this morning she is sleepy, at times lucid.\nThings Helen notices: mum's glasses and hearing aids are still at home. Mum says she has not opened her bowels since before the fall (4 days). She has hardly eaten or drunk. She complained of pain in the hip.\nMeds at home (Helen has the list): amlodipine, pantoprazole, calcium and vitamin D. CUE 1 (only if asked specifically about sleeping tablets or anything not on the list): mum has taken temazepam 10 mg every night for 20 years, 'she can't sleep without it', and it is not on the hospital chart. CUE 2 (only if asked about alcohol): 2-3 glasses of sherry every evening.\nPMH: hypertension, osteoporosis, cataracts. No known dementia. Allergies: none.\nFamily and social: widowed, Helen visits daily. Mum values her independence above all.\nIdeas: something went wrong in surgery or it's dementia. Concerns: she will never go home. Expectations: wants answers and a plan."
+    },
+    "keySteps": [
+      "Establishes the baseline cognition and function and that the change is acute and fluctuating",
+      "Explores precipitants: pain, opioids, constipation, urinary retention or infection, hypoxia, dehydration, sensory deprivation",
+      "Identifies benzodiazepine (temazepam) and alcohol use not recorded on the chart as a possible withdrawal cause",
+      "Explains delirium as the likely diagnosis, that it is usually reversible, and involves Helen in non-drug management"
+    ],
+    "domains": [
+      {
+        "name": "Approach to family",
+        "expectations": "Acknowledges anger and fear, apologises for the distress without blaming colleagues, uses Helen as the source of baseline information, gives time for questions."
+      },
+      {
+        "name": "Collateral history",
+        "expectations": "Baseline function and cognition, onset and course, fluctuation, sleep, intake, bowels, pain, sensory aids, full medication history including OTC and sleeping tablets, alcohol, previous episodes."
+      },
+      {
+        "name": "Diagnosis",
+        "expectations": "Delirium (hypoactive/mixed) with multiple precipitants; explains difference from dementia while noting possible underlying mild cognitive impairment to be reassessed after recovery."
+      },
+      {
+        "name": "Management",
+        "expectations": "Treat causes: review oxycodone, regular paracetamol, bowel care, remove catheter if possible, check bladder scan, bloods and septic screen, oxygen; address benzodiazepine and alcohol withdrawal with the team; glasses and hearing aids, family presence, orientation, sleep; avoid restraints and routine antipsychotics; geriatric review."
+      }
+    ],
+    "expectedDiagnosis": "Post-operative delirium with multiple precipitants, including possible benzodiazepine and alcohol withdrawal",
+    "teachingPoints": [
+      "Delirium is acute, fluctuating inattention; screen with the 4AT or CAM (ACSQHC Delirium Clinical Care Standard).",
+      "Always take a collateral medication history: long-term benzodiazepines and alcohol are often missed on admission.",
+      "Non-drug measures (glasses, hearing aids, family, orientation, sleep, mobilisation) are first line; antipsychotics only for severe distress or danger.",
+      "Delirium after hip fracture is common and is linked to longer stay and loss of independence; involve orthogeriatrics."
+    ]
+  },
+  {
+    "discipline": "adult-medicine",
+    "id": "st-emergency-medicine-1",
+    "title": "Snakebite in a 34-year-old man",
+    "topic": "emergency-medicine",
+    "difficulty": "hard",
+    "area": "management",
+    "setting": "Emergency department, rural hospital, western New South Wales",
+    "candidateBrief": "You are the doctor in a small rural ED. Mr Luke Bennett, 34, a farmhand, was bitten on the right lower leg by a 'brown snake' while clearing a shed 90 minutes ago. His mate drove him in; no bandage was applied and he walked to the ute. Observations: HR 102, BP 128/80 mmHg, RR 18, SpO2 98% on room air, GCS 15. Two small puncture marks on the right calf. The nurse has asked what you want to do.",
+    "tasks": [
+      {
+        "task": "Take a brief focused history of the bite and symptoms",
+        "minutes": 2
+      },
+      {
+        "task": "Explain your immediate management to Mr Bennett",
+        "minutes": 3
+      },
+      {
+        "task": "Explain the monitoring plan and address his wish to go home",
+        "minutes": 3
+      }
+    ],
+    "patient": {
+      "name": "Luke Bennett",
+      "age": 34,
+      "sex": "male",
+      "persona": "HARD: laid-back bravado hiding real fear. Says 'it barely got me, it was just a little one' and wants a tetanus shot and to go home to his kids. Keeps trying to get up. Resists staying 12 hours. Will stay if the doctor clearly and calmly explains that brown snake venom can cause life-threatening bleeding without much pain and that the early collapse is a warning sign.",
+      "openingLine": "Honestly, doc, it barely got me. Just give me a tetanus shot and I'll get out of your hair. I've got the kids tonight.",
+      "script": "Bite: 90 minutes ago, reaching behind a stack of tin in a shed, felt a sharp sting on his right calf, saw a thin brown snake about a metre long slither away. Did not kill or catch it. Washed the bite with a hose (CUE 1: tells you if asked about first aid). Walked about 100 metres to the ute.\nSymptoms: CUE 2 (only if asked about fainting or feeling unwell): about 15 minutes after the bite he 'went all dizzy and dropped' for maybe a minute, then felt fine; his mate saw it. Since then: headache, nausea, vomited once. Bite site not very painful. No blurred vision, drooping eyelids, trouble swallowing, weakness, dark urine or bleeding from gums (if asked).\nPMH: nil. Meds: none. Allergies: none known, no previous antivenom. Tetanus booster over 10 years ago.\nSocial: farmhand, separated, has his two kids (6 and 8) tonight and every second week. Drinks on weekends, smokes 15 a day.\nConcerns: his kids and the ex; missing work. Expectations: tetanus shot and home. If told he needs to stay and possibly have antivenom he asks: 'Is that the stuff that can make you have a reaction?'"
+    },
+    "keySteps": [
+      "Applies a pressure immobilisation bandage (broad elastic bandage over the whole limb with splint) and keeps him still on the bed",
+      "Recognises collapse, headache and vomiting as signs of systemic envenomation and plans antivenom (brown snake or appropriate antivenom) with anaphylaxis precautions",
+      "Arranges IV access and bloods including INR, aPTT, fibrinogen, D-dimer, FBC, CK and electrolytes/creatinine, with serial repeats",
+      "Explains observation for at least 12 hours after the bite with repeat bloods, and negotiates him staying (with capacity and safety explained)"
+    ],
+    "domains": [
+      {
+        "name": "Assessment",
+        "expectations": "Time of bite, snake description, first aid given, early collapse, headache, vomiting, bleeding, neurotoxic and myotoxic symptoms, allergies and previous antivenom, tetanus status."
+      },
+      {
+        "name": "Management",
+        "expectations": "Pressure immobilisation now, IV access, bloods, antivenom given IV with adrenaline ready, one vial of the species antivenom is usually enough, contact a toxinologist or Poisons Information Centre (13 11 26), tetanus booster, transfer plan if the facility cannot manage."
+      },
+      {
+        "name": "Communication",
+        "expectations": "Honest and calm, explains why a small painless bite can still be dangerous, addresses fear of reaction to antivenom, helps him arrange care for his children."
+      },
+      {
+        "name": "Safety",
+        "expectations": "Does not discharge; explains risks of leaving; assesses capacity if he insists; documents discussion; plans monitoring for at least 12 hours with bloods at presentation, after bandage removal and at later intervals."
+      }
+    ],
+    "expectedDiagnosis": "Brown snakebite with systemic envenomation (early collapse, headache, vomiting); venom-induced consumption coagulopathy likely",
+    "teachingPoints": [
+      "Australian snakebite first aid: pressure immobilisation bandage and splint; do not wash, cut, suck or use a tourniquet.",
+      "Early collapse after a brown snake bite is a sign of envenomation; the main danger is venom-induced consumption coagulopathy.",
+      "Antivenom is indicated for clinical or laboratory evidence of envenomation, not for every bite; one vial is usually sufficient.",
+      "Observe for at least 12 hours after the bite with serial bloods before discharge; Poisons Information Centre: 13 11 26."
+    ]
+  },
+  {
+    "discipline": "adult-medicine",
+    "id": "st-pharmacology-1",
+    "title": "High INR in a 74-year-old man on warfarin",
+    "topic": "pharmacology",
+    "difficulty": "easy",
+    "area": "management",
+    "setting": "GP clinic, Darwin",
+    "candidateBrief": "You are a GP. Mr Stan Kowalski, 74, takes warfarin for atrial fibrillation (target INR 2-3). He has chronic kidney disease (eGFR 28 mL/min/1.73 m2), which is why he was not switched to a DOAC. His INR has been stable at 2-3 on 5 mg daily for a year. Today's routine INR is 6.8. He is well: BP 136/80 mmHg, HR 78 irregular. He has come in to discuss the result.",
+    "tasks": [
+      {
+        "task": "Assess for bleeding and find the cause of the high INR",
+        "minutes": 3
+      },
+      {
+        "task": "Explain how you will manage the high INR",
+        "minutes": 3
+      },
+      {
+        "task": "Advise how to prevent this happening again",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Stan Kowalski",
+      "age": 74,
+      "sex": "male",
+      "persona": "Friendly, chatty retired mechanic, a bit worried because 'the number is too high'. Doesn't think the dentist's tablets are relevant, so only mentions them when asked about new medicines.",
+      "openingLine": "The pathology rang and said my blood number's way up. Should I be worried, doc?",
+      "script": "Bleeding: no nosebleeds, bleeding gums, black stools, blood in urine, bruising, headache or falls (answers 'no' to each if asked). Feels well.\nCUE (only if asked about new medicines, antibiotics or a recent illness): 6 days ago his dentist gave him metronidazole and amoxicillin for a tooth abscess; he has 1 day left. He did not tell the dentist he was on warfarin and nobody asked. Also took paracetamol regularly for the toothache, 1 g four times a day.\nOther: not eating much because of the tooth, fewer greens than usual. No alcohol binge (drinks 1-2 beers a day). No diarrhoea. Takes warfarin at 5 pm, has not doubled doses, uses a dosette box.\nPMH: atrial fibrillation, CKD stage 4 (diabetic kidney disease), type 2 diabetes, hypertension. No previous bleeds.\nMeds: warfarin 5 mg, insulin glargine, perindopril 2.5 mg, atorvastatin 40 mg. No herbal supplements. No allergies.\nSocial: widower, lives alone, drives, daughter visits weekly. Ex-smoker.\nIdeas: the lab made a mistake. Concerns: bleeding to death, having a stroke if he stops warfarin. Expectations: to be told what to take tonight."
+    },
+    "keySteps": [
+      "Asks specifically about bleeding symptoms and head injury or falls",
+      "Identifies the interaction with metronidazole (and reduced diet, regular paracetamol) as the cause",
+      "Withholds warfarin, considers low-dose oral vitamin K (1-2 mg) given bleeding risk, and rechecks the INR within 24 hours",
+      "Advises telling every prescriber, dentist and pharmacist about warfarin and checking INR when any new medicine is started"
+    ],
+    "domains": [
+      {
+        "name": "Assessment",
+        "expectations": "Systematic bleeding screen, adherence and dosing errors, new medicines including antibiotics and OTC, diet and alcohol changes, intercurrent illness."
+      },
+      {
+        "name": "Management",
+        "expectations": "INR above 4.5 without bleeding: withhold warfarin, give oral vitamin K 1-2 mg if high bleeding risk (age, CKD), repeat INR within 24 hours, restart at a lower dose when INR back in range; ED if any bleeding."
+      },
+      {
+        "name": "Education and counselling",
+        "expectations": "Explains the interaction and bleeding warning signs clearly, reassures that a short pause carries low stroke risk, uses teach-back."
+      },
+      {
+        "name": "Prevention",
+        "expectations": "Updated medication list and warfarin card, pharmacist and dentist informed, extra INR checks with antibiotics, consistent diet, dosing diary or Home Medicines Review."
+      }
+    ],
+    "expectedDiagnosis": "Supratherapeutic INR without bleeding due to a warfarin-metronidazole interaction",
+    "teachingPoints": [
+      "Australasian consensus: INR 4.5-10 without bleeding: withhold warfarin, consider oral vitamin K 1-2 mg if high bleeding risk, recheck within 24 hours.",
+      "Any clinically significant bleeding on warfarin needs vitamin K IV plus Prothrombinex-VF in hospital (fresh frozen plasma if Prothrombinex-VF is unavailable).",
+      "Metronidazole, co-trimoxazole, fluconazole and macrolides strongly potentiate warfarin.",
+      "DOACs are contraindicated or need caution in severe CKD, so warfarin remains common in older Australians."
+    ]
+  }
+]

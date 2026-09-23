@@ -1,0 +1,653 @@
+[
+  {
+    "id": "st-neonatology-1",
+    "title": "Jaundice in a 3-day-old breastfed baby",
+    "discipline": "child-health",
+    "topic": "neonatology",
+    "difficulty": "medium",
+    "area": "diagnosis",
+    "setting": "Postnatal ward, regional hospital, Wagga Wagga NSW",
+    "candidateBrief": "You are an HMO on the postnatal ward. Mia, a baby girl born at 39 weeks by normal delivery, is now 64 hours old and exclusively breastfed. The midwife noticed she looks yellow. Birth weight 3.4 kg; today 3.08 kg. Temperature 36.9 C, HR 140. Results: total serum bilirubin 310 umol/L, conjugated bilirubin 12 umol/L, Hb 172 g/L, mother O positive, baby A positive, direct antiglobulin test (DAT) negative. On the gestation-specific chart the bilirubin is above the phototherapy line but well below the exchange transfusion line. Her mother, Chloe Bennett, is waiting to talk to you.",
+    "tasks": [
+      {
+        "task": "Tell the examiner your interpretation of the results and the likely cause",
+        "minutes": 2
+      },
+      {
+        "task": "Explain the diagnosis to Ms Bennett",
+        "minutes": 2
+      },
+      {
+        "task": "Explain the management plan and address her concerns",
+        "minutes": 4
+      }
+    ],
+    "patient": {
+      "name": "Chloe Bennett",
+      "age": 27,
+      "sex": "female",
+      "role": "mother of 3-day-old Mia",
+      "persona": "First-time mother, tired and teary, keen to do the right thing. Speaks softly, apologises a lot. Believes her breast milk is 'poisoning' the baby and quietly plans to switch to formula; only says so if asked what she thinks caused it or what she plans to do. Relaxes with a warm, plain explanation.",
+      "openingLine": "The midwife said her blood test came back high. Is she going to be okay? Is it something I've done?",
+      "script": "Mia: born at 39 weeks by normal vaginal delivery, no resuscitation, Apgars fine. Mother's GBS swab negative, no fever in labour, membranes ruptured 6 hours before birth. Mia became yellow on day 2, more noticeable today, face and chest. Feeding: breastfeeding 6 to 7 times in 24 hours, often sleepy at the breast and falls asleep after a few minutes. Chloe feels her milk has only just started to 'come in' this morning. About 3 wet nappies in the last 24 hours; stools changing from black to greenish, not yet yellow. No pale stools, no dark urine. Not floppy, cries normally when woken, no fever, no vomiting. Received vitamin K and hepatitis B vaccine at birth. Newborn bloodspot screen done this morning. Hearing screen passed.\n\nMother: 27, first baby, healthy, blood group O positive, no antibodies in pregnancy. No medications except pregnancy multivitamin. No family history of blood disorders, G6PD deficiency or babies needing exchange transfusion. Partner Josh is a mechanic, back at work tomorrow. Lives 20 minutes from hospital.\n\nIdeas: thinks her milk is 'bad' and making Mia yellow. HIDDEN CUE 1 (only if asked what she thinks or plans): she has asked her mum to buy formula and plans to stop breastfeeding tonight. HIDDEN CUE 2 (only if asked how she is coping): she has barely slept and feels 'like a failure'. Concerns: brain damage (her friend told her about 'yellow babies getting brain damage'), whether Mia has to go to the special care nursery, and whether they can still go home tomorrow. Expectations: wants to know how long it will take and whether she can still hold and feed Mia."
+    },
+    "keySteps": [
+      "Identifies unconjugated hyperbilirubinaemia after 24 hours with a negative DAT, consistent with physiological jaundice exacerbated by suboptimal breastfeeding (weight loss about 9%)",
+      "States that the bilirubin is above the phototherapy threshold and recommends phototherapy now, with a repeat bilirubin to monitor response",
+      "Encourages continued breastfeeding with lactation support and more frequent feeds, rather than stopping breastfeeding",
+      "Explains warning signs to report (poor feeding, increasing sleepiness, floppiness, pale stools or dark urine) and that jaundice beyond 14 days needs review"
+    ],
+    "domains": [
+      {
+        "name": "Diagnostic formulation",
+        "expectations": "Interprets each result: timing after 24 hours, unconjugated, DAT negative with no ABO incompatibility shown by the antibody test, Hb normal, weight loss about 9%. Gives breastfeeding-associated (suboptimal intake) physiological jaundice as most likely, and names sepsis, haemolysis (including G6PD) and hypothyroidism as things considered."
+      },
+      {
+        "name": "Communication of diagnosis",
+        "expectations": "Explains in plain words why newborns become yellow, that this is common and treatable, and that her milk is not harmful. Avoids jargon, checks understanding."
+      },
+      {
+        "name": "Management",
+        "expectations": "Phototherapy on the ward (can often be at the bedside), eyes covered, continue breastfeeding with frequent feeds (8 to 12 per 24 hours), lactation consultant, monitor wet nappies and weight, repeat bilirubin in several hours per chart, stop phototherapy when well below the line. Supplementary expressed breast milk or formula only if needed, not a switch."
+      },
+      {
+        "name": "Addressing concerns",
+        "expectations": "Responds to fear of brain damage honestly: levels high enough for brain injury are far above Mia's and phototherapy is used to keep it that way. Picks up her plan to stop breastfeeding and her exhaustion, validates her, involves midwife and partner."
+      }
+    ],
+    "expectedDiagnosis": "Unconjugated hyperbilirubinaemia requiring phototherapy: physiological jaundice exacerbated by suboptimal breastfeeding (breastfeeding jaundice)",
+    "teachingPoints": [
+      "Jaundice in the first 24 hours is pathological until proven otherwise; after 24 hours in a well term baby it is usually physiological, but always plot the bilirubin on a gestation-specific chart.",
+      "Suboptimal breastfeeding in the first days (low intake, weight loss over about 10%) worsens jaundice; the answer is feeding support, not stopping breastfeeding.",
+      "Check conjugated bilirubin if jaundice is prolonged (beyond 14 days in term babies) or with pale stools or dark urine: biliary atresia needs early surgery.",
+      "Australian newborns routinely get vitamin K, hepatitis B vaccine, bloodspot screening and hearing screening; state neonatal guidelines (for example NSW, Queensland, RCH) provide phototherapy charts."
+    ]
+  },
+  {
+    "id": "st-growth-development-1",
+    "title": "Not talking yet at 2 years",
+    "discipline": "child-health",
+    "topic": "growth-development",
+    "difficulty": "easy",
+    "area": "history",
+    "setting": "General practice, outer suburban Melbourne",
+    "candidateBrief": "You are a GP registrar. Ms Priya Sharma has brought her son Arjun, aged 2 years and 1 month, because the maternal and child health nurse at his 2-year check was concerned about his speech. Arjun is playing with the toy cars in the corner of your room and has not looked up since he arrived. His growth is on the 50th centile. He has no known medical problems.",
+    "tasks": [
+      {
+        "task": "Take a focused developmental history from Ms Sharma",
+        "minutes": 5
+      },
+      {
+        "task": "Explain your impression to Ms Sharma",
+        "minutes": 1
+      },
+      {
+        "task": "Outline the next steps and address her questions",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Priya Sharma",
+      "age": 32,
+      "sex": "female",
+      "role": "mother of 2-year-old Arjun",
+      "persona": "Friendly, articulate, a little worried but hopeful it is 'just a boy thing' as her mother-in-law says. Answers openly and in detail when asked, but does not volunteer the loss of words or the lining up of toys unless asked specifically about losing skills or about how he plays.",
+      "openingLine": "The nurse thought he should be saying more words by now. My mother-in-law says boys are just slow to talk, but I thought I'd better check.",
+      "script": "Speech: babbled at about 8 months. Said 'mama', 'dada', 'ball' and 'car' at about 14 months. HIDDEN CUE 1 (only if asked about losing skills): around 18 months he stopped saying most of them; now says only 'car' and makes sounds. No two-word phrases. Does not point to show her things; pulls her hand to what he wants. Does not reliably respond to his name, though he turns immediately to the sound of the Wiggles theme song. Limited eye contact, rarely brings toys to show her, no waving bye-bye. Play: lines up his cars and spins the wheels for long periods, gets very upset if the line is disturbed. No pretend play (does not feed a doll or pretend to talk on a phone). Flaps his hands when excited. Very fussy with food textures.\n\nMotor: sat at 6 months, walked at 13 months, runs, climbs, stacks blocks. Feeding and sleep otherwise okay.\n\nHearing: passed newborn hearing screen. No ear infections. Hearing never formally tested since.\n\nBirth: term, normal delivery, no NICU. Pregnancy uncomplicated. Immunisations up to date. No seizures. No medications, no allergies.\n\nFamily: husband Rohan, an accountant; Arjun is the only child. Rohan's cousin 'didn't talk until 4' and was later diagnosed with autism. Home languages English and Hindi. Attends family day care two days a week; the carer mentioned he 'plays on his own'.\n\nIdeas: hopes it is bilingual delay. Concerns: autism, and whether he will go to a normal school. Expectations: wants to know if he needs speech therapy and whether to stop speaking Hindi at home."
+    },
+    "keySteps": [
+      "Asks specifically about regression (loss of previously acquired words or skills) and recognises it as a red flag",
+      "Asks about social communication: response to name, eye contact, pointing, showing, pretend play, and restricted or repetitive behaviours",
+      "Asks about hearing and arranges a formal audiology assessment",
+      "Refers promptly for a comprehensive developmental assessment (paediatrician or specialist autism/child development service) and early speech pathology, without waiting to see if he catches up"
+    ],
+    "domains": [
+      {
+        "name": "Approach to parent",
+        "expectations": "Introduces self, engages warmly with mother and acknowledges Arjun, uses open questions then focused ones, non-judgemental about bilingual home."
+      },
+      {
+        "name": "Developmental history",
+        "expectations": "Covers each domain (gross and fine motor, speech and language, social and play, self-care), onset and regression, hearing, birth and perinatal history, family history of autism or developmental problems, daycare observations."
+      },
+      {
+        "name": "Formulation",
+        "expectations": "Recognises speech delay with social communication difficulties, regression and repetitive behaviours as concerning for autism spectrum disorder, with hearing impairment and global developmental delay to exclude."
+      },
+      {
+        "name": "Explanation and plan",
+        "expectations": "Honest but gentle: says these signs need a specialist assessment, early help makes a real difference, bilingualism does not cause this and she should keep speaking Hindi. Plans audiology, paediatric referral, speech pathology, and mentions NDIS early childhood supports. Arranges follow-up."
+      }
+    ],
+    "expectedDiagnosis": "Speech delay with social communication concerns and regression: possible autism spectrum disorder (hearing impairment to be excluded)",
+    "teachingPoints": [
+      "Red flags: no words by 16-18 months, no two-word phrases by 2 years, and any regression at any age.",
+      "Always test hearing formally in speech delay, even if the newborn hearing screen was passed.",
+      "Bilingual children reach milestones within the normal range; never advise parents to stop using a home language.",
+      "Early signs of autism: poor response to name, reduced eye contact, no pointing or showing, no pretend play, repetitive play. Refer early rather than 'wait and see'.",
+      "In Australia, the NDIS early childhood approach can provide support before a formal diagnosis."
+    ]
+  },
+  {
+    "id": "st-growth-development-2",
+    "title": "Faltering growth in a 10-month-old",
+    "discipline": "child-health",
+    "topic": "growth-development",
+    "difficulty": "medium",
+    "area": "examination",
+    "setting": "General practice, Toowoomba, Queensland",
+    "candidateBrief": "You are a GP. Ms Hannah Doyle has brought her daughter Isla, 10 months old, because of poor weight gain. Isla's weight was on the 50th centile until 6 months; it is now below the 3rd centile (7.0 kg). Length has fallen from the 50th to the 25th centile. Head circumference remains on the 50th. The history has been taken: solids started at 6 months, with increasingly unsettled behaviour and loose stools over the past 2 months. Isla is sitting on her mother's lap.",
+    "tasks": [
+      {
+        "task": "Tell the examiner what you would examine and interpret the findings given",
+        "minutes": 4
+      },
+      {
+        "task": "Tell the examiner your differential diagnosis",
+        "minutes": 1
+      },
+      {
+        "task": "Explain to Ms Doyle the investigations and plan",
+        "minutes": 3
+      }
+    ],
+    "patient": {
+      "name": "Hannah Doyle",
+      "age": 30,
+      "sex": "female",
+      "role": "mother of 10-month-old Isla",
+      "persona": "Tired and worried, a little defensive about feeding because her sister has hinted she is 'not feeding her enough'. Cooperative. Asks directly whether she should stop giving bread and pasta, because a friend told her about gluten; she will start a gluten-free diet today unless advised otherwise.",
+      "openingLine": "Everyone keeps telling me she's just a skinny baby, but her clothes are getting looser, not tighter.",
+      "script": "Isla: born at term, 3.3 kg, normal newborn bloodspot screen (including cystic fibrosis) and hearing screen. Breastfed then formula from 4 months. Solids from 6 months: rice cereal, then wheat biscuits (Weet-Bix), toast, pasta and yoghurt; eats reasonable amounts 3 meals a day plus 600 mL formula. Over the past 2 months: 2 to 3 loose, pale, bulky, very smelly stools a day, tummy looks 'bloated', grizzly and clingy, less interested in crawling than a month ago. Occasional vomiting, not bilious. No blood in stools. No cough or recurrent chest infections. No fevers. No urinary symptoms known. Development: sat at 6 months, was starting to crawl at 8 months.\n\nMedications: none. Allergies: none known. Immunisations up to date including 6-month vaccines.\n\nFamily: Hannah has hypothyroidism. Isla's father Liam has type 1 diabetes (a clue to autoimmune clustering if asked). No known coeliac disease diagnosed, though Hannah's mother 'can't eat bread'.\n\nSocial: lives with partner Liam, a teacher, and 4-year-old son, who is well. Good supports, no family violence, no financial stress, no smoking. Hannah works part-time as a pharmacy assistant.\n\nConcerns: that she is doing something wrong; whether it is cancer; whether Isla will catch up. HIDDEN CUE: planning to start a gluten-free diet tonight (the candidate should advise to keep gluten in the diet until blood tests are done).",
+      "examFindings": "General: miserable, irritable but consolable, thin limbs with loss of subcutaneous fat and wasted buttocks; no dysmorphic features; alert. Hydration: moist mucous membranes, capillary refill under 2 seconds. Observations: HR 125, RR 30, temperature 36.8 C, SpO2 99%. Growth: weight below 3rd centile, length 25th, head circumference 50th (confirmed when plotted). Skin and hair: pale conjunctivae; no bruising, no rashes, clean and appropriately dressed. Abdomen: distended, soft, non-tender, no organomegaly, no masses, tympanic; normal external genitalia; nappy area mild irritant rash. Cardiovascular: normal heart sounds, no murmur, femoral pulses present. Respiratory: clear, no clubbing. Neurological: slightly reduced tone overall, reflexes normal, moving all limbs; sits unsupported. Mother-infant interaction warm and responsive. Other systems normal."
+    },
+    "keySteps": [
+      "Examines systematically including plotting weight, length and head circumference, looking for wasting, abdominal distension, pallor, and signs of neglect",
+      "Identifies coeliac disease as the leading diagnosis given onset after gluten introduction, steatorrhoea-like stools, distension, wasted buttocks and family autoimmunity",
+      "Arranges coeliac serology (tissue transglutaminase IgA with total IgA) with FBC, iron studies and other baseline tests, and advises continuing gluten until testing is complete",
+      "Refers to a paediatrician (for endoscopy/biopsy confirmation and review) and arranges close weight follow-up"
+    ],
+    "domains": [
+      {
+        "name": "Choice and technique of examination",
+        "expectations": "Describes general inspection (nutritional status, wasting, interaction), growth plotting, hydration, pallor, skin for bruising or neglect, abdomen, cardiorespiratory (murmur, clubbing), neurological tone and development, nappy area."
+      },
+      {
+        "name": "Interpretation of findings",
+        "expectations": "Recognises weight crossing more than two major centile lines with length less affected and head spared as undernutrition, and that pallor, distension and wasting suggest malabsorption."
+      },
+      {
+        "name": "Differential diagnosis",
+        "expectations": "Coeliac disease most likely; also considers cow's milk protein allergy, inadequate intake or feeding difficulties, cystic fibrosis (screen negative does not fully exclude), UTI, and psychosocial causes including neglect (not supported here)."
+      },
+      {
+        "name": "Explanation and management",
+        "expectations": "Plain-language explanation without blame, investigations (tTG-IgA and total IgA, FBC, iron studies, UEC, LFT including albumin, TFT, urine MCS, consider stool tests), keep gluten in diet, paediatric referral, dietitian, review in 1-2 weeks with weight. Reassures about catch-up growth once treated."
+      }
+    ],
+    "expectedDiagnosis": "Faltering growth with malabsorption, most likely coeliac disease",
+    "teachingPoints": [
+      "Faltering growth: plot serial measurements on WHO charts (birth to 2 years). Weight falling before length, with head spared, points to inadequate intake or malabsorption.",
+      "Most faltering growth is due to inadequate intake, but look for malabsorption, chronic illness and neglect in every case.",
+      "Coeliac serology is only reliable while the child is eating gluten; never start a gluten-free diet before testing.",
+      "Coeliac disease clusters with other autoimmune conditions (type 1 diabetes, thyroid disease) and first-degree relatives."
+    ]
+  },
+  {
+    "id": "st-paediatric-infections-1",
+    "title": "Fever in a 5-week-old baby",
+    "discipline": "child-health",
+    "topic": "paediatric-infections",
+    "difficulty": "hard",
+    "area": "history",
+    "setting": "General practice, suburban Perth, Western Australia, late afternoon",
+    "candidateBrief": "You are a GP. Ms Jess Taylor has brought her 5-week-old son Leo because he felt hot this afternoon. She measured 38.4 C with an ear thermometer at home. In your clinic: temperature 38.3 C (axillary), HR 172, RR 50, SpO2 98%, capillary refill 2 seconds. Leo is awake in his capsule and looks pink. Weight 4.6 kg (birth weight 3.2 kg).",
+    "tasks": [
+      {
+        "task": "Take a focused history from Ms Taylor",
+        "minutes": 4
+      },
+      {
+        "task": "Explain to Ms Taylor what needs to happen now and why",
+        "minutes": 2
+      },
+      {
+        "task": "Tell the examiner the likely hospital management",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Jess Taylor",
+      "age": 26,
+      "sex": "female",
+      "role": "mother of 5-week-old Leo",
+      "persona": "Pleasant but in a hurry and reluctant. Thinks Leo just caught his sister's cold and wants 'some Panadol and go home'. Becomes resistant when hospital is mentioned: partner is working FIFO, her 3-year-old is at a neighbour's until 6 pm, and she has no one else. Will agree if the doctor explains the risk clearly and helps solve the practical problems (calls the hospital, offers ambulance, suggests someone to collect her daughter). What makes it hard: a well-looking baby with a parent who wants to leave.",
+      "openingLine": "He's probably just picked up his sister's cold. Can I just give him some Panadol? I've got to pick her up by six.",
+      "script": "Leo: felt hot from about 2 pm today. Has been 'a bit grizzly' and more sleepy than usual. Feeding: breastfed, usually every 3 hours; today he fed twice since morning and only briefly. Wet nappies: 2 today (usually 6 or more). One small vomit after the last feed, not green. No diarrhoea. Mild blocked nose, no cough, no breathing difficulty. No rash. No seizure or floppy episodes. No paracetamol given yet.\n\nBirth: born at 37 weeks by normal delivery. HIDDEN CUE 1 (only if asked about pregnancy or birth): her GBS swab was positive; she was given IV antibiotics in labour but Leo was born about 90 minutes after the first dose; he was observed for 48 hours and went home well. No NICU stay. Neonatal jaundice mild, no treatment. Newborn checks and hearing screen normal. Hepatitis B vaccine given at birth; 6-week vaccines not yet due.\n\nContacts: 3-year-old daughter Ruby has had a runny nose for a week, attends childcare. No other known sick contacts. No travel.\n\nMother: 26, well, no fever. Partner Dan works FIFO in the Pilbara, back in 10 days. Family live in Bunbury, 2 hours away. HIDDEN CUE 2 (only if asked about getting to hospital): she drove here but is scared to drive on the freeway with a sick baby and would struggle with the car seat and Leo alone.\n\nIdeas: it's a cold. Concerns: Ruby being stuck at the neighbour's, being in hospital alone. Expectations: Panadol and advice. If the candidate insists without explanation she says 'He looks fine though, doesn't he?'"
+    },
+    "keySteps": [
+      "Recognises that any fever of 38 C or more in an infant under 3 months needs urgent hospital assessment regardless of how well he looks",
+      "Elicits the key risk features: reduced feeding, fewer wet nappies, lethargy, and maternal GBS with inadequate intrapartum prophylaxis",
+      "Arranges immediate transfer to a hospital emergency department with paediatric capability (calls ahead, offers ambulance) and does not send home with paracetamol",
+      "Outlines hospital management: full sepsis evaluation (blood culture, FBC, CRP, urine by catheter or suprapubic aspirate, lumbar puncture) and empirical IV antibiotics per local guideline"
+    ],
+    "domains": [
+      {
+        "name": "History taking",
+        "expectations": "Focused and efficient: fever onset, feeding, wet nappies, vomiting, activity and tone, breathing, rash, seizures, perinatal risk factors (gestation, GBS, prolonged rupture of membranes, maternal fever), sick contacts, immunisation."
+      },
+      {
+        "name": "Clinical reasoning",
+        "expectations": "Identifies high risk of serious bacterial infection (UTI, bacteraemia, meningitis, late-onset GBS) despite the reassuring appearance and moderate tachycardia."
+      },
+      {
+        "name": "Communication and negotiation",
+        "expectations": "Acknowledges her practical constraints, explains risk plainly without scaring or lecturing, does not accept 'Panadol and home', helps solve problems (ambulance, calls neighbour or family, social work at hospital)."
+      },
+      {
+        "name": "Management",
+        "expectations": "Calls the ED or paediatric registrar with a clear handover, ambulance transfer, sepsis work-up including LP, IV antibiotics such as benzylpenicillin or amoxicillin plus cefotaxime (or per local guideline) pending cultures, admission. Documents."
+      }
+    ],
+    "expectedDiagnosis": "Febrile infant under 3 months: possible serious bacterial infection (including late-onset GBS sepsis, UTI or meningitis)",
+    "teachingPoints": [
+      "Infants under 3 months with fever of 38 C or more need same-day hospital assessment; clinical appearance does not reliably exclude serious bacterial infection.",
+      "Late-onset GBS disease can occur up to about 3 months; inadequate intrapartum prophylaxis (under 4 hours before birth) increases early-onset risk and is worth noting.",
+      "Urine for infants must be a clean sample (catheter or suprapubic aspirate), taken before antibiotics.",
+      "Practical barriers are part of the consultation: in Australia, calling an ambulance and handing over by phone is appropriate from general practice."
+    ]
+  },
+  {
+    "id": "st-paediatric-infections-2",
+    "title": "Vomiting and diarrhoea in an 18-month-old",
+    "discipline": "child-health",
+    "topic": "paediatric-infections",
+    "difficulty": "easy",
+    "area": "examination",
+    "setting": "Emergency department, regional hospital, Ballarat, Victoria",
+    "candidateBrief": "You are an HMO in the emergency department. Mr Tom Nguyen has brought his daughter Chloe, 18 months, with 2 days of vomiting and watery diarrhoea. Several children at her childcare have had gastro. Today's weight is 10.5 kg; her weight at the GP 10 days ago was 11.0 kg. Triage observations: HR 140, RR 30, temperature 37.8 C, capillary blood glucose 4.2 mmol/L. The history has been taken.",
+    "tasks": [
+      {
+        "task": "Tell the examiner what you would examine and interpret the findings given",
+        "minutes": 4
+      },
+      {
+        "task": "Tell the examiner the degree of dehydration and your diagnosis",
+        "minutes": 1
+      },
+      {
+        "task": "Explain the management plan to Mr Nguyen",
+        "minutes": 3
+      }
+    ],
+    "patient": {
+      "name": "Tom Nguyen",
+      "age": 34,
+      "sex": "male",
+      "role": "father of 18-month-old Chloe",
+      "persona": "Calm, practical, a bit tired. Cooperative and asks sensible questions. Expects Chloe will need 'a drip' and antibiotics, and says so when management is explained.",
+      "openingLine": "She just can't keep anything down, doc. Every time she drinks it comes straight back up.",
+      "script": "Chloe: vomiting started 2 days ago, about 6 times yesterday and 4 times today, not green, no blood. Watery diarrhoea started yesterday, about 6 to 8 times a day, no blood or mucus. Low-grade fever yesterday. Drinking small amounts of water and diluted apple juice but vomits large gulps. Last wet nappy 6 hours ago, darker than usual. A bit sleepier than normal but wakes and plays briefly. No abdominal distension, no episodes of screaming with drawing up of legs, no rash. No cough. Fully immunised including rotavirus at 2 and 4 months.\n\nBackground: born at term, well. No medical problems, no medications, no allergies. Development normal.\n\nSocial: lives with Tom, partner Linh (a nurse, on shift) and 5-year-old son, who had gastro last week. Chloe attends childcare 3 days a week. Tom is an electrician.\n\nIdeas: thinks she needs a drip and antibiotics. Concerns: that she will get 'really dry' and that he will catch it and miss work. Expectations: to be told what to do and when she can go back to childcare. HIDDEN CUE (only if asked what she has been drinking): has been giving undiluted fruit juice and flat lemonade at home to 'get sugar into her', which can worsen diarrhoea.",
+      "examFindings": "General: tired but alert and interactive, consolable, normal tone; not toxic. Vital signs: HR 140, RR 30, temperature 37.8 C, BP normal for age. Hydration: dry lips and mouth, eyes slightly sunken, tears present but reduced, capillary refill 2 seconds centrally, peripheries warm, skin turgor normal, normal breathing pattern. Weight loss about 5%. Abdomen: soft, mildly and diffusely tender, no guarding, no distension, no masses, no organomegaly, increased bowel sounds. Nappy: watery non-bloody stool. Skin: no rash, no petechiae. ENT and chest: normal. Neck supple, fontanelle closed. Other systems normal."
+    },
+    "keySteps": [
+      "Assesses hydration systematically: general appearance and conscious state, capillary refill, mucous membranes, eyes, tears, skin turgor, breathing pattern and weight loss",
+      "Classifies as mild to moderate dehydration (about 5%) due to viral gastroenteritis, and checks for red flags of alternative diagnoses (bilious vomiting, blood in stool, abdominal signs, meningism)",
+      "Recommends oral rehydration with oral rehydration solution in small frequent amounts (with a single dose of ondansetron if vomiting prevents it), and nasogastric rehydration if oral fluids fail, rather than routine IV fluids or antibiotics",
+      "Gives clear safety-netting and hygiene advice (return for fewer wet nappies, drowsiness, green vomit, blood in stool; handwashing; stay home from childcare until 48 hours after the last diarrhoea)"
+    ],
+    "domains": [
+      {
+        "name": "Choice and technique of examination",
+        "expectations": "Describes a structured hydration assessment and abdominal examination, checks for rash and meningism, uses the weight change and blood glucose provided."
+      },
+      {
+        "name": "Interpretation",
+        "expectations": "States mild to moderate dehydration with the most useful signs (capillary refill, skin turgor, breathing pattern) being normal or near normal, and no signs of shock or an acute abdomen."
+      },
+      {
+        "name": "Management",
+        "expectations": "Oral rehydration trial in ED with ORS (for example small volumes every few minutes), single oral ondansetron dose for a child over 6 months who is vomiting, nasogastric rehydration if failing, IV only if shocked or NG fails. Continue breastfeeding or normal milk and food once rehydrated. No antibiotics or antidiarrhoeals."
+      },
+      {
+        "name": "Education",
+        "expectations": "Explains that sugary drinks, juice and lemonade can worsen diarrhoea, shows how to give ORS at home, safety-nets, hygiene, childcare exclusion, GP follow-up if not improving."
+      }
+    ],
+    "expectedDiagnosis": "Acute viral gastroenteritis with mild to moderate (about 5%) dehydration",
+    "teachingPoints": [
+      "The most useful signs of dehydration are prolonged capillary refill, reduced skin turgor and abnormal (deep) breathing.",
+      "Oral or nasogastric rehydration is preferred to IV fluids in mild to moderate dehydration (RCH clinical practice guideline).",
+      "A single dose of oral ondansetron in children over 6 months reduces vomiting and the need for IV fluids.",
+      "Avoid undiluted juice, soft drinks and sports drinks; antibiotics and antidiarrhoeals have no role in viral gastroenteritis.",
+      "Rotavirus vaccine is on the NIP at 2 and 4 months with strict upper age limits; gastroenteritis exclusion from childcare is usually until 48 hours after the last episode."
+    ]
+  },
+  {
+    "id": "st-paediatric-emergencies-1",
+    "title": "Barking cough and stridor in a 3-year-old",
+    "discipline": "child-health",
+    "topic": "paediatric-emergencies",
+    "difficulty": "medium",
+    "area": "examination",
+    "setting": "Emergency department, rural hospital, Bundaberg, Queensland, 2 am",
+    "candidateBrief": "You are an HMO in the emergency department. Mr Liam Walker has brought in his 3-year-old son Noah, who woke with a harsh barking cough and noisy breathing after two days of a runny nose. Triage observations: HR 130, RR 36, SpO2 96% on room air, temperature 38.1 C. Weight 15 kg. Noah is sitting on his father's lap.",
+    "tasks": [
+      {
+        "task": "Take a brief focused history from Mr Walker",
+        "minutes": 2
+      },
+      {
+        "task": "Tell the examiner what you would examine and interpret the findings given",
+        "minutes": 3
+      },
+      {
+        "task": "Explain the diagnosis and your management plan to Mr Walker",
+        "minutes": 3
+      }
+    ],
+    "patient": {
+      "name": "Liam Walker",
+      "age": 35,
+      "sex": "male",
+      "role": "father of 3-year-old Noah",
+      "persona": "Tired and worried, a bit gruff ('he sounds like a seal, mate'). Wants action but relaxes as things are explained. Does not mention that they live 45 minutes out of town or that he has used his daughter's puffer unless asked about home, going home, or what he has tried.",
+      "openingLine": "Doc, he woke up an hour ago barking like a seal and making this horrible noise when he breathes in. It's really scaring me.",
+      "script": "Noah: runny nose and mild fever for two days, otherwise playing. Woke at 1 am with a barking cough, hoarse voice and harsh noise on breathing in. Slightly better in the cold air on the drive in. Drinking okay, wet nappies normal. Not drooling, swallowing fine, talking and crying normally apart from hoarseness. No sudden choking episode, not playing with small objects before this (only if asked about foreign body). No rash, no lip or face swelling, no new foods or stings. No vomiting.\n\nBackground: term baby, well. One episode of 'croup' at 18 months treated by the GP with a single dose of medicine. No asthma. Immunisations up to date including Hib. No medications, no allergies.\n\nFamily and social: lives with partner Emma, Noah and 6-year-old Ruby, who has asthma. Liam is a cane farmer; smokes outside only. HIDDEN CUE 1: they live on a property 45 minutes from hospital and Emma has the other car in Brisbane until tomorrow. HIDDEN CUE 2 (only if asked what he has tried): he gave Noah four puffs of Ruby's salbutamol, which did nothing.\n\nIdeas: something stuck, or 'asthma like his sister'. Concerns: whether Noah can breathe, whether he needs 'a tube down his throat'. Expectations: to go home tonight if possible.",
+      "examFindings": "General: alert, interactive, consolable on father's lap, not toxic. Hoarse cry. Not drooling, no tripod posture, voice not muffled. Respiratory: inspiratory stridor at rest when upset, which settles when calm; mild suprasternal and subcostal recession; RR 36; SpO2 96% on room air; good air entry bilaterally, no wheeze, no crackles. Colour pink, no cyanosis. Conscious state alert. Cardiovascular: HR 130, capillary refill under 2 seconds, well hydrated. ENT: examiner advises throat inspection is not needed. No rash, no facial swelling, neck supple. Other systems normal. If oral steroid given, at reassessment after 3-4 hours: no stridor at rest, playing, drinking."
+    },
+    "keySteps": [
+      "Keeps the child calm on the parent's lap and avoids distressing procedures (no throat examination with a tongue depressor)",
+      "Assesses severity from stridor at rest, work of breathing, colour, conscious state and SpO2, and grades this as moderate croup",
+      "Considers and excludes epiglottitis, bacterial tracheitis, foreign body and anaphylaxis",
+      "Gives oral dexamethasone 0.15 mg/kg (about 2.25 mg for 15 kg) or prednisolone 1 mg/kg, states nebulised adrenaline is for severe croup and salbutamol has no role",
+      "Plans observation and discharge only when there is no stridor at rest, accounting for distance and transport, with clear safety-netting"
+    ],
+    "domains": [
+      {
+        "name": "Focused history",
+        "expectations": "Onset, prodrome, barking cough, stridor, drooling or swallowing difficulty, choking or foreign body, allergy triggers, previous episodes, Hib immunisation, treatment given at home."
+      },
+      {
+        "name": "Examination and interpretation",
+        "expectations": "Describes observation from a distance first, stridor at rest vs when upset, recession, colour, conscious state, SpO2, toxicity and drooling. Correctly grades moderate severity."
+      },
+      {
+        "name": "Management",
+        "expectations": "Oral steroid with correct dose for 15 kg, reassessment, nebulised adrenaline if it becomes severe with observation afterwards, oxygen if hypoxic, senior review. No antibiotics, salbutamol or steam."
+      },
+      {
+        "name": "Communication and safety-netting",
+        "expectations": "Plain explanation of croup (viral swelling of the voice box and windpipe), addresses fear of intubation and 'something stuck', low threshold to keep overnight given distance and no car, return or call 000 for stridor at rest, drooling, colour change or drowsiness. Brief smoking advice."
+      }
+    ],
+    "expectedDiagnosis": "Moderate viral croup (laryngotracheobronchitis)",
+    "teachingPoints": [
+      "Croup peaks at 6 months to 3 years: barking cough, hoarse voice and inspiratory stridor, worse at night.",
+      "Every child with croup seen by a doctor should get oral steroid: dexamethasone 0.15 mg/kg or prednisolone 1 mg/kg (RCH and Queensland Children's guidelines).",
+      "Nebulised adrenaline is for severe croup (stridor at rest with marked recession or agitation); observe for at least 3-4 hours afterwards.",
+      "Drooling, toxic appearance, muffled voice or inability to swallow suggest epiglottitis or tracheitis; sudden onset with choking suggests a foreign body.",
+      "In rural practice, distance, transport and time of night should lower the threshold to observe overnight."
+    ]
+  },
+  {
+    "id": "st-paediatric-emergencies-2",
+    "title": "Peanut anaphylaxis: adrenaline autoinjector and action plan",
+    "discipline": "child-health",
+    "topic": "paediatric-emergencies",
+    "difficulty": "easy",
+    "area": "management",
+    "setting": "General practice, Hobart, Tasmania",
+    "candidateBrief": "You are a GP. Ms Emma Clarke has brought her son Jack, aged 4, for follow-up. Five days ago, minutes after eating a peanut butter biscuit at a friend's house, he developed hives, lip swelling, vomiting and a wheeze. Paramedics gave IM adrenaline and he was observed overnight in hospital. The discharge letter says 'anaphylaxis to peanut; GP to arrange allergy referral, adrenaline autoinjector and ASCIA action plan'. Jack weighs 18 kg and has mild asthma.",
+    "tasks": [
+      {
+        "task": "Explain the diagnosis and peanut avoidance to Ms Clarke",
+        "minutes": 2
+      },
+      {
+        "task": "Teach Ms Clarke how and when to use an adrenaline autoinjector",
+        "minutes": 3
+      },
+      {
+        "task": "Explain the ASCIA action plan, referral and follow-up",
+        "minutes": 3
+      }
+    ],
+    "patient": {
+      "name": "Emma Clarke",
+      "age": 36,
+      "sex": "female",
+      "role": "mother of 4-year-old Jack",
+      "persona": "Friendly, organised, keen to learn, still a bit shaken. Takes notes. Asks practical questions. Only reveals that she would give antihistamine first and 'wait and see' if the candidate asks what she would do in a future reaction or checks understanding.",
+      "openingLine": "That was the scariest night of my life. I just want to know what to do if it ever happens again.",
+      "script": "The reaction: 5 days ago at a friend's house, Jack ate a peanut butter biscuit. Within 10 minutes: hives on face and chest, swollen lips, vomited twice, then coughing and wheezing, 'sounded croaky'. Friend's mum called 000. Paramedics gave IM adrenaline in the thigh; he improved within minutes. Observed overnight in hospital, no second reaction. Discharged with an antihistamine.\n\nBackground: eczema as a baby, now mild. Mild intermittent asthma: uses a salbutamol puffer with spacer a few times a year, no preventer. Had never eaten peanut before this (family avoided it because of his eczema). Eats egg, dairy and wheat without problems. Immunisations up to date. No other medications.\n\nSocial: lives with Emma (a primary school teacher), partner Mark and 8-year-old daughter Sophie, who loves peanut butter sandwiches. Jack goes to kindergarten 3 days a week and his grandparents mind him on Fridays.\n\nIdeas and concerns: HIDDEN CUE 1 (only if asked what she would do next time): she would give the antihistamine first and wait to see if it got worse before using adrenaline. Worries: using the pen wrongly, hurting him, and whether Sophie must stop eating peanut butter. HIDDEN CUE 2 (only if asked about other carers): the grandparents and kindergarten do not yet know how to use the device. Asks: 'Will he grow out of it?' and 'What if I give it and it wasn't anaphylaxis?'"
+    },
+    "keySteps": [
+      "Prescribes a 150 microgram adrenaline autoinjector (weight 7.5-20 kg) and demonstrates use with a trainer device: blue safety release off, outer thigh, hold for the time specified for the device, through clothing is fine",
+      "Explains that adrenaline is given first for any sign of anaphylaxis (difficulty breathing, wheeze, persistent cough, voice change, tongue swelling, collapse), then lie him flat or sitting if breathing is hard (do not stand or walk), call 000, and give a second dose after 5 minutes if no response",
+      "Provides and completes a personalised ASCIA Action Plan for Anaphylaxis and ensures it and the device go with Jack to kindergarten and grandparents",
+      "Refers to a paediatric allergist or immunologist and checks understanding using teach-back"
+    ],
+    "domains": [
+      {
+        "name": "Explanation of diagnosis",
+        "expectations": "Explains anaphylaxis as a severe allergic reaction involving breathing or circulation, that asthma increases risk, and practical peanut avoidance (reading labels, precautionary labels, eating out, telling carers). Sibling can still eat peanut with care (clean surfaces, hand washing)."
+      },
+      {
+        "name": "Autoinjector education",
+        "expectations": "Clear stepwise demonstration with a trainer, when to use it, positioning, call 000 after use, second device and second dose after 5 minutes, check expiry, store at room temperature, carry at all times. Says antihistamines do not treat anaphylaxis."
+      },
+      {
+        "name": "Action plan and systems",
+        "expectations": "Completes the ASCIA plan, discusses kindergarten plan, training for grandparents, medical alert jewellery optional, asthma well controlled with a spacer, asthma puffer does not replace adrenaline."
+      },
+      {
+        "name": "Communication and checking understanding",
+        "expectations": "Warm, structured, avoids jargon, uses teach-back, picks up and corrects her plan to wait with antihistamine, reassures that giving adrenaline when unsure is safer than delay."
+      }
+    ],
+    "expectedDiagnosis": "Peanut anaphylaxis in a child with asthma",
+    "teachingPoints": [
+      "Autoinjector dose: 150 micrograms for 7.5-20 kg, 300 micrograms for over 20 kg (ASCIA).",
+      "Adrenaline is the first-line treatment; antihistamines treat skin symptoms only and must not delay adrenaline.",
+      "Do not allow a child having anaphylaxis to stand or walk; lie flat, or sit with legs out if breathing is difficult.",
+      "Asthma is a risk factor for severe or fatal anaphylaxis; keep it well controlled.",
+      "Every child at risk needs an ASCIA Action Plan and allergist review; the plan and device should go wherever the child goes."
+    ]
+  },
+  {
+    "id": "st-immunisation-1",
+    "title": "Parent hesitant about 12-month vaccines",
+    "discipline": "child-health",
+    "topic": "immunisation",
+    "difficulty": "hard",
+    "area": "management",
+    "setting": "General practice, Byron Bay region, northern NSW",
+    "candidateBrief": "You are a GP. Ms Sophie Martin has brought her daughter Willow, 12 months old, for her 12-month check. Willow is growing and developing normally. According to the Australian Immunisation Register she received all vaccines up to 6 months. The practice nurse reports that Ms Martin has declined today's scheduled vaccines (MMR, meningococcal ACWY and pneumococcal) and asked to speak with a doctor.",
+    "tasks": [
+      {
+        "task": "Explore Ms Martin's concerns about vaccination",
+        "minutes": 3
+      },
+      {
+        "task": "Address her concerns and provide information",
+        "minutes": 4
+      },
+      {
+        "task": "Agree on a plan",
+        "minutes": 1
+      }
+    ],
+    "patient": {
+      "name": "Sophie Martin",
+      "age": 31,
+      "sex": "female",
+      "role": "mother of 12-month-old Willow",
+      "persona": "Intelligent, well read online, polite but guarded and ready for a lecture. Becomes defensive and shuts down if the doctor is dismissive, uses the word 'anti-vaxxer', or quotes rules and payments first. Opens up if her concerns are genuinely explored and respected. What makes it hard: a guarded, articulate parent with misinformation and a genuine prior bad experience.",
+      "openingLine": "I'm not anti-vax, before you start. I just don't think I want to do the needles today. I've read a lot and I'm not comfortable.",
+      "script": "Concerns (revealed if explored with open questions): 1) Read on social media and a wellness blog that MMR is linked to autism; her friend's son was diagnosed with autism 'a few months after his 12-month needles'. 2) After Willow's 6-month vaccines she had a fever of 39 C and screamed for three hours; Sophie felt no one took her seriously. 3) Thinks three needles at once will 'overload her immune system'. 4) Heard vaccines contain 'toxins' like aluminium and formaldehyde.\n\nWillow: born at term, healthy, breastfed, developing normally (cruising, says 'mama'). No allergies (including no previous anaphylaxis to any vaccine), no immune problems, no medications, no seizures. Nobody at home is immunosuppressed.\n\nSocial: lives with partner Ben (a builder, 'not fussed either way'). Willow is due to start childcare in 2 months. Sophie is a yoga teacher. HIDDEN CUE 1 (only if asked about her own health or plans): she is 14 weeks pregnant and has not had any vaccines in this pregnancy. HIDDEN CUE 2 (only if childcare is discussed): she has not realised that childcare enrolment in NSW requires an up-to-date immunisation history (or an approved medical exemption), and that the family tax benefit supplements are affected. She is annoyed if this is led with, but accepts it as information once her concerns are addressed.\n\nIdeas: vaccines may be harmful and natural immunity is better. Expectations: to be listened to, not pressured. She would consider vaccinating 'if someone actually answered my questions', and may accept a return visit after reading information. She asks: 'Can we split them up or space them out?'"
+    },
+    "keySteps": [
+      "Explores her specific concerns with open, non-judgemental questions before giving information, and acknowledges the distressing reaction after the 6-month vaccines",
+      "Gives accurate information: no link between MMR and autism, multiple vaccines are safe and do not overload the immune system, risks of measles and meningococcal disease, and common reactions such as fever are self-limiting",
+      "Respects her autonomy and agrees a plan (vaccinate today, or return soon after reading trusted resources such as SKAI), advises against unnecessary delays, and documents the discussion",
+      "Picks up the pregnancy and recommends pertussis, influenza and RSV vaccination in pregnancy per the Australian Immunisation Handbook"
+    ],
+    "domains": [
+      {
+        "name": "Approach and rapport",
+        "expectations": "Calm, curious, non-confrontational, acknowledges she wants the best for Willow, avoids labels and does not lead with rules or money."
+      },
+      {
+        "name": "Exploration of concerns",
+        "expectations": "Elicits each concern (autism, previous reaction, immune overload, ingredients), her sources, and what would help her decide."
+      },
+      {
+        "name": "Information and counselling",
+        "expectations": "Addresses each concern accurately in plain language, uses balanced risk comparisons, explains fever management after vaccines (paracetamol for discomfort), explains spacing out leaves her unprotected longer and means more visits. Offers written resources (SKAI, Australian Immunisation Handbook, NCIRS) and a follow-up appointment."
+      },
+      {
+        "name": "Plan and safety",
+        "expectations": "Agrees a clear next step, keeps the door open, documents the decision and information given, mentions childcare immunisation requirements factually (vary by state), addresses her pregnancy vaccines, and safety-nets about measles symptoms if unvaccinated."
+      }
+    ],
+    "expectedDiagnosis": "Vaccine hesitancy in a parent of a 12-month-old due for scheduled NIP vaccines",
+    "teachingPoints": [
+      "12-month NIP vaccines: MMR, meningococcal ACWY and pneumococcal conjugate. At 18 months: MMRV, DTPa and Hib.",
+      "Most hesitant parents are persuadable: explore concerns first, then respond; the SKAI (Sharing Knowledge About Immunisation) resources are designed for this conversation.",
+      "The MMR-autism claim came from a retracted, fraudulent study; large studies show no link.",
+      "No Jab No Pay applies nationally (conscientious objection is not an exemption); No Jab No Play childcare enrolment rules vary by state.",
+      "Pregnant women are recommended pertussis (dTpa), influenza and RSV vaccines; always ask about pregnancy."
+    ]
+  },
+  {
+    "id": "st-paediatric-chronic-1",
+    "title": "Thirsty and wetting the bed: new type 1 diabetes",
+    "discipline": "child-health",
+    "topic": "paediatric-chronic",
+    "difficulty": "medium",
+    "area": "diagnosis",
+    "setting": "General practice, Geelong, Victoria",
+    "candidateBrief": "You are a GP. Mr Mark Rossi has brought his daughter Ella, aged 8, because she has been drinking a lot, going to the toilet often and has started wetting the bed again over the past 3 weeks. She seems tired and her school uniform is loose. Observations: HR 105, RR 20, temperature 36.7 C, weight 24 kg (26 kg six months ago). Capillary blood glucose 21.4 mmol/L, capillary blood ketones 1.1 mmol/L. Urinalysis: glucose 4+, ketones 2+, no leucocytes or nitrites. Ella is alert and chatty.",
+    "tasks": [
+      {
+        "task": "Tell the examiner your interpretation of the findings",
+        "minutes": 2
+      },
+      {
+        "task": "Explain the likely diagnosis to Mr Rossi",
+        "minutes": 3
+      },
+      {
+        "task": "Explain what needs to happen today and answer his questions",
+        "minutes": 3
+      }
+    ],
+    "patient": {
+      "name": "Mark Rossi",
+      "age": 41,
+      "sex": "male",
+      "role": "father of 8-year-old Ella",
+      "persona": "Friendly, slightly flustered single dad. Feels guilty, thinks he caused it by letting Ella have too many lollies and soft drinks. Initially asks whether he can take her to hospital 'tomorrow after work' because he has an important meeting and Ella has school camp on Friday; only mentions the camp and the meeting when the plan is discussed.",
+      "openingLine": "I thought it was just a phase with the bedwetting, but my mum said she looked thin. Is it something serious?",
+      "script": "Ella: 3 weeks of increased thirst (drinking bottles of water, up at night to drink), passing urine frequently, bedwetting again after being dry since age 4. Tired after school, less interested in netball. Eating more than usual but losing weight. No vomiting, no abdominal pain, no headache, no unusual breathing, no drowsiness (important pertinent negatives if asked). Mild recurrent vulval itch. No recent illness, no fever. No urinary pain.\n\nBackground: healthy, no medications, no allergies, immunisations up to date. Development and schooling normal, Year 3.\n\nFamily: HIDDEN CUE 1 (only if asked): Ella's mother, who lives interstate, has Hashimoto thyroiditis; paternal grandfather has type 2 diabetes. No known type 1 diabetes in family.\n\nSocial: Mark is a single father, shared care with Ella's mother (every second school holiday). Works as a project manager. Has a supportive mother nearby. Ella's diet: 'normal, probably too much juice'.\n\nIdeas: thinks it is 'sugar diabetes from too many lollies', and that it might be fixed with diet. Concerns: that it is his fault; whether it is lifelong; whether she will need needles; whether she can go to school camp on Friday. HIDDEN CUE 2 (when the plan is discussed): wants to take her to hospital tomorrow after his meeting. Expectations: tablets or a diet sheet. He asks: 'Did I cause this?', 'Can't we just do a blood test tomorrow?', 'Will she need injections forever?'"
+    },
+    "keySteps": [
+      "Interprets hyperglycaemia with ketosis, weight loss and osmotic symptoms as new type 1 diabetes, noting ketones indicate insulin deficiency and risk of DKA",
+      "Asks about or checks for features of DKA (vomiting, abdominal pain, deep or rapid breathing, drowsiness)",
+      "Arranges same-day urgent referral by phoning the paediatric team at the nearest hospital (not an outpatient referral, fasting glucose, HbA1c or OGTT that delays care)",
+      "Explains the diagnosis in plain language, reassures that it is not caused by diet or anything he did, and that it is lifelong and treated with insulin"
+    ],
+    "domains": [
+      {
+        "name": "Interpretation of findings",
+        "expectations": "Recognises diagnostic random glucose (over 11.1 mmol/L with symptoms), ketonaemia and ketonuria, no UTI, weight loss about 8%, and that she is not currently in DKA clinically but is at risk. Considers type 2 diabetes unlikely at this age and presentation."
+      },
+      {
+        "name": "Explanation of diagnosis",
+        "expectations": "Explains the pancreas stops making insulin (autoimmune), sugar builds up and the body burns fat making ketones; not caused by sugar or lollies; lifelong; treated with insulin; very manageable with support."
+      },
+      {
+        "name": "Management",
+        "expectations": "Same-day hospital assessment (phones paediatric registrar), no further delay for tests, advises to go today and not wait until after work; describes hospital plan: blood gas, electrolytes, insulin, diabetes education with the team; may be transport by ambulance if DKA features appear."
+      },
+      {
+        "name": "Addressing concerns",
+        "expectations": "Responds to guilt with empathy, addresses camp honestly (not this week, but children with type 1 diabetes can go to camps once established), mentions supports (diabetes team, NDSS registration, Diabetes Victoria), checks understanding."
+      }
+    ],
+    "expectedDiagnosis": "New-onset type 1 diabetes with ketosis, without clinical DKA",
+    "teachingPoints": [
+      "New polyuria, polydipsia, weight loss or secondary enuresis in a child needs a same-day finger-prick glucose.",
+      "Suspected type 1 diabetes in a child needs same-day referral to a paediatric team; do not order fasting glucose, HbA1c or OGTT that delays care.",
+      "Ketones plus hyperglycaemia mean insulin deficiency; DKA can develop within hours, especially if vomiting.",
+      "Type 1 diabetes is autoimmune and not caused by diet; it clusters with thyroid and coeliac disease.",
+      "In Australia, register with the National Diabetes Services Scheme (NDSS) for subsidised supplies; continuous glucose monitors are subsidised for people with type 1 diabetes."
+    ]
+  },
+  {
+    "id": "st-child-protection-1",
+    "title": "Femur fracture in a 5-month-old with an inconsistent history",
+    "discipline": "child-health",
+    "topic": "child-protection",
+    "difficulty": "hard",
+    "area": "history",
+    "setting": "Emergency department, regional hospital, Townsville, Queensland",
+    "candidateBrief": "You are an HMO in the emergency department. Ms Kayla Nguyen has brought her 5-month-old daughter Ruby because she has been crying and not moving her left leg since this morning. X-ray shows a spiral fracture of the left femoral shaft. The triage nurse noticed a small bruise on Ruby's cheek. Ruby's temperature is normal and she is settled with analgesia.",
+    "tasks": [
+      {
+        "task": "Take a history from Ms Nguyen",
+        "minutes": 5
+      },
+      {
+        "task": "Explain to Ms Nguyen what needs to happen next",
+        "minutes": 2
+      },
+      {
+        "task": "Tell the examiner your assessment and the actions you would take",
+        "minutes": 1
+      }
+    ],
+    "patient": {
+      "name": "Kayla Nguyen",
+      "age": 22,
+      "sex": "female",
+      "role": "mother of 5-month-old Ruby",
+      "persona": "Young mother, exhausted and defensive. Gives vague, slightly changing answers about how the injury happened. Becomes upset and angry if she feels accused ('Are you saying I hurt my baby?'). Softens if the doctor stays calm, non-judgemental and focused on Ruby's wellbeing. Only discloses her partner's behaviour and her own low mood if asked privately and gently about home and support. What makes it hard: a hostile parent, a changing story, and a mandatory report that must be explained honestly.",
+      "openingLine": "She's been screaming all morning and she won't move her leg. I don't know what happened, she was fine last night.",
+      "script": "Account: initially 'I don't know, she was fine last night'. If asked again: 'maybe she got her leg stuck in the cot bars'. Later: her partner Josh 'might have rolled on her' in their bed. Ruby cannot roll over yet. Ruby was 'unsettled' from about midnight, when Kayla was at her night-fill job at the supermarket and Josh was looking after her. Kayla noticed screaming when she picked her up at 6 am; presented about 8 hours later. Cheek bruise: 'she must have hit herself with a toy'.\n\nRuby: born at 37 weeks, 2.8 kg, no NICU. Formula fed. Not yet rolling or sitting. Weight has dropped from the 50th to the 25th centile. Missed her 4-month vaccines. No previous fractures, no known bone disease, no family history of brittle bones or bleeding disorders. One previous ED visit at 3 months for 'a bruise on her ear', not followed up.\n\nSocial: lives with Josh (24), not Ruby's father, in a rented unit. Josh is unemployed and 'gets stressed when she cries'. HIDDEN CUE 1 (only if asked privately about safety): Josh has shoved Kayla and smashed things when angry, and has shaken the cot 'to shut her up'. Kayla's family are in Cairns. HIDDEN CUE 2 (only if asked about her own mood): feels 'flat and exhausted all the time', cries daily, sometimes wishes she could 'just disappear', but has no plan to harm herself or Ruby. Smokes, occasional cannabis.\n\nIdeas: hopes it is an accident. Concerns: that Child Safety will take Ruby away. Expectations: to get the leg fixed and go home. If told honestly and kindly that the injury must be investigated and reported and that the focus is Ruby's safety, she cries but cooperates."
+    },
+    "keySteps": [
+      "Takes a detailed, non-accusatory history of the injury (who, when, where, mechanism, timeline), noting the changing story, delay in presentation and a mechanism inconsistent with a non-mobile infant",
+      "Asks about previous injuries or presentations, household members and carers, family violence and parental mental health, including asking privately about safety",
+      "Explains honestly and without blame that Ruby will be admitted, that this injury must be investigated, and that a report to Child Safety is required",
+      "Tells the examiner: suspected non-accidental injury, mandatory report to Queensland Child Safety (police if immediate danger), admission for protection, skeletal survey and further investigations under the paediatric and child protection team, and verbatim documentation"
+    ],
+    "domains": [
+      {
+        "name": "Approach and communication",
+        "expectations": "Calm, empathic and non-judgemental throughout, de-escalates when she is angry, does not interrogate or accuse, keeps the focus on Ruby's wellbeing."
+      },
+      {
+        "name": "History taking",
+        "expectations": "Injury history with timeline, bruise, previous presentations, birth, feeding, growth, development, immunisation, family history of bone or bleeding disorders, social history including carers, violence, substance use and maternal mood."
+      },
+      {
+        "name": "Assessment",
+        "expectations": "Identifies red flags (non-mobile infant with fracture and facial bruising, inconsistent and changing history, delay, previous bruise, faltering weight, missed vaccines) and forms a reasonable suspicion of abuse; notes maternal depression and family violence."
+      },
+      {
+        "name": "Management and safeguarding",
+        "expectations": "Explains next steps honestly, mandatory report, admission, skeletal survey, CT head and ophthalmology consideration, FBC, coagulation and bone biochemistry, child protection unit and social work, protects siblings if any, supports the mother (mental health, domestic violence services), documents verbatim."
+      }
+    ],
+    "expectedDiagnosis": "Suspected non-accidental injury: spiral femoral fracture and facial bruising in a non-mobile infant with an inconsistent history; maternal depression and family violence",
+    "teachingPoints": [
+      "'Those who don't cruise rarely bruise': any bruise or fracture in a non-mobile infant is a red flag; facial, ear and neck bruising is especially concerning (TEN-4-FACESp).",
+      "Doctors are mandatory reporters in every Australian state and territory; the threshold is reasonable suspicion, not proof, and good-faith reports are legally protected. In Queensland, report to Child Safety.",
+      "Infant NAI work-up under paediatric care: skeletal survey, CT brain, ophthalmology for retinal haemorrhages, FBC, coagulation, calcium, phosphate, ALP, vitamin D and PTH.",
+      "Document verbatim with times; your role is to assess, protect and report, not to investigate.",
+      "Family violence and parental mental illness often coexist with child abuse; support the parent while protecting the child."
+    ]
+  }
+]

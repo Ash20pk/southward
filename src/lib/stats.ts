@@ -1,5 +1,5 @@
 import { DISCIPLINES, FLASHCARDS, QUESTIONS, STATIONS, SYLLABUS, AUS_FACTS } from "./content";
-import type { LogEntry, MockResult, OsceResult } from "./store";
+import { osceGlobal, type LogEntry, type MockResult, type OsceResult } from "./store";
 import type { CardState } from "./srs";
 import type { StarStat } from "@/components/SouthernCross";
 import { ALL_LESSONS, type LessonState } from "./course-index";
@@ -102,8 +102,8 @@ export function constellation(opts: {
   const bankDone = new Set(log.filter((e) => bankIds.has(e.qid)).map((e) => e.qid)).size;
   const bank = (bankDone / QUESTIONS.length) * 100;
   const ready = readiness(log, mocks) ?? 0;
-  const passed = new Set(osce.filter((o) => o.score >= 60).map((o) => o.stationId)).size;
-  const clinical = (passed / STATIONS.length) * 100;
+  const passed = new Set(osce.filter((o) => osceGlobal(o) >= 4).map((o) => o.stationId)).size;
+  const clinical = STATIONS.length ? (passed / STATIONS.length) * 100 : 0;
   const ausRead = AUS_FACTS.filter((f) => milestones[`aus:${f.id}`]).length;
   const popAcc = accuracy(log.filter((e) => e.discipline === "population-health").slice(-50)) ?? 0;
   const australia = (ausRead / Math.max(1, AUS_FACTS.length)) * 60 + (popAcc / 100) * 40;

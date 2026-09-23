@@ -11,6 +11,7 @@ import { Markdown } from "./Markdown";
 import { ContrastTable } from "./ContrastTable";
 import { QuestionView } from "./QuestionView";
 import { Button, ButtonLink } from "./ui";
+import { QuestionTimer } from "./QuestionTimer";
 
 const KIND_LABEL: Record<SectionKind, string> = {
   overview: "Overview",
@@ -295,11 +296,23 @@ function CardDeck({ lesson }: { lesson: Lesson }) {
 
 function Quiz({ lesson, onFinish }: { lesson: Lesson; onFinish: (score: number, total: number) => void }) {
   const record = useStore((s) => s.recordAnswer);
+  const timerOn = useStore((s) => s.settings?.quizTimer ?? true);
   const [i, setI] = useState(0);
   const [picked, setPicked] = useState<number | null>(null);
   const [revealed, setRevealed] = useState(false);
+  const [timedOut, setTimedOut] = useState(false);
   const [score, setScore] = useState(0);
   const q = lesson.quiz[i];
+
+  // Out of time: lock in the current choice; no answer counts as wrong.
+  const expire = () => {
+    if (revealed) return;
+    setTimedOut(true);
+    setRevealed(true);
+    const ok = picked === q.answer;
+    if (ok) setScore((s) => s + 1);
+    record(q, ok);
+  };
 
   const check = () => {
     if (picked === null) return;
@@ -313,16 +326,26 @@ function Quiz({ lesson, onFinish }: { lesson: Lesson; onFinish: (score: number, 
     setI(i + 1);
     setPicked(null);
     setRevealed(false);
+    setTimedOut(false);
     window.scrollTo({ top: 0 });
   };
 
   return (
     <section>
+      {timerOn && (
+        <div className="mb-4 flex justify-end">
+          <QuestionTimer resetKey={q.id} running={!revealed} onExpire={expire} />
+        </div>
+      )}
       <QuestionView key={q.id} q={q} selected={picked} onSelect={setPicked} revealed={revealed} index={i} total={lesson.quiz.length} />
       <div className="fixed inset-x-0 bottom-0 z-20 border-t border-line bg-paper/95 pb-[env(safe-area-inset-bottom)] backdrop-blur">
         <div className="mx-auto flex max-w-3xl items-center justify-between gap-3 px-4 py-3 sm:px-6">
           <span className={clsx("font-semibold", revealed ? (picked === q.answer ? "text-ok" : "text-bad") : "text-muted")} aria-live="polite">
-            {revealed ? (picked === q.answer ? "Correct" : `Answer: ${"ABCDE"[q.answer]}`) : `${score} correct so far`}
+            {revealed
+              ? picked === q.answer
+                ? "Correct"
+                : `${timedOut && picked === null ? "Time's up. " : ""}Answer: ${"ABCDE"[q.answer]}`
+              : `${score} correct so far`}
           </span>
           {revealed ? (
             <Button onClick={next}>{i + 1 >= lesson.quiz.length ? "Finish lesson" : "Next question"}</Button>

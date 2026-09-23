@@ -113,6 +113,29 @@ export default function Settings() {
         )}
 
         <Panel>
+          <h2 className="text-lg font-semibold">Quiz timer</h2>
+          <label className="mt-3 flex cursor-pointer items-start justify-between gap-4">
+            <span>
+              <span className="block font-medium">Time each question like the AMC</span>
+              <span className="text-sm text-muted">
+                84 seconds per question (3.5 hours for 150) in Practice and lesson quizzes. When time runs out, your
+                current choice is locked in. Mock exams always use the full-paper clock.
+              </span>
+            </span>
+            <button
+              type="button"
+              role="switch"
+              aria-checked={state.settings?.quizTimer ?? true}
+              onClick={() => state.setSettings({ quizTimer: !(state.settings?.quizTimer ?? true) })}
+              className={`relative mt-1 h-7 w-12 shrink-0 rounded-full transition-colors ${(state.settings?.quizTimer ?? true) ? "bg-brand" : "bg-ink/20"}`}
+            >
+              <span className={`absolute top-1 h-5 w-5 rounded-full bg-surface shadow transition-all ${(state.settings?.quizTimer ?? true) ? "left-6" : "left-1"}`} />
+              <span className="sr-only">Quiz timer</span>
+            </button>
+          </label>
+        </Panel>
+
+        <Panel>
           <h2 className="text-lg font-semibold">Display</h2>
           <p className="mb-4 mt-1 text-muted">Pick what&rsquo;s easiest on your eyes. Reading mode suits long sessions; Night suits late study.</p>
           <ThemePicker />

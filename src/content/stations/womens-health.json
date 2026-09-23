@@ -1,0 +1,645 @@
+[
+  {
+    "id": "st-antenatal-care-1",
+    "title": "First antenatal visit at 9 weeks",
+    "discipline": "womens-health",
+    "topic": "antenatal-care",
+    "difficulty": "easy",
+    "area": "history",
+    "setting": "GP clinic, suburban Brisbane",
+    "candidateBrief": "You are a general practitioner in a suburban clinic in Brisbane. Ms Chloe Harris, a 29-year-old woman, has come in after a positive home pregnancy test. Her last menstrual period was 9 weeks ago. This is her first pregnancy and it was planned. She would like to have shared antenatal care with you and the local public hospital. Observations today: BP 116/72 mmHg, HR 78, BMI 24 kg/m2.",
+    "tasks": [
+      {
+        "task": "Take a focused booking history",
+        "minutes": 5
+      },
+      {
+        "task": "Outline the recommended first-trimester tests and screening options",
+        "minutes": 2
+      },
+      {
+        "task": "Give key lifestyle and supplement advice",
+        "minutes": 1
+      }
+    ],
+    "patient": {
+      "name": "Chloe Harris",
+      "age": 29,
+      "sex": "female",
+      "persona": "Excited, chatty and cooperative dental nurse. Answers openly and asks practical questions. Gets a bit sheepish and quiet when asked about alcohol and smoking, and only admits the details if asked directly.",
+      "openingLine": "Hi! So, I did a test on the weekend and it was positive. We've been trying for a few months, so we're pretty stoked. I just don't really know what happens next.",
+      "script": "Pregnancy: LMP 9 weeks ago, sure of the date, cycles regular every 28 days. Mild morning nausea, eating and drinking fine, no vomiting that stops her keeping fluids down. No bleeding, no abdominal pain, no urinary symptoms. Stopped the combined pill 5 months ago. G1 P0. Has not yet started a supplement ('I was going to buy one').\n\nGynae: cervical screening 3 years ago normal. No previous STIs.\n\nPMH: mild asthma, uses salbutamol a few times a year. No diabetes, hypertension, thyroid, clotting or mental health history. No surgery.\n\nMeds: salbutamol inhaler as needed. Allergies: nil.\n\nVaccines: had whooping cough and flu vaccines years ago, not this year. Thinks she had all childhood vaccines.\n\nFamily history: mother had pre-eclampsia with her first baby and was induced early. No diabetes, twins, genetic conditions or birth defects that she knows of. Her partner's family history is unremarkable.\n\nSocial: lives with partner Josh (31, electrician) in their own house, supportive relationship, feels safe at home. Works full time. HIDDEN CUE (only if asked about alcohol and smoking directly): smokes about 5 cigarettes a day, more at weekends, and wants to quit. Had 'a big night' at a friend's 30th three weeks ago before she knew she was pregnant and is worried she has harmed the baby. No other drugs. Exercises at a gym twice a week. Eats a lot of pre-packed salads and deli meats for lunch at work.\n\nIdeas: wants to do everything right. Concerns: the big night out; whether she has to stop the gym. Expectations: wants to know when her first scan is and what blood tests she needs. Asks: 'Do I need to see a specialist?'"
+    },
+    "keySteps": [
+      "Confirms LMP and cycle regularity to date the pregnancy and asks about bleeding and pain",
+      "Asks directly about smoking, alcohol and drugs, and responds non-judgementally to the recent alcohol exposure",
+      "Asks about family history, including pre-eclampsia, diabetes and genetic conditions, and asks about safety at home",
+      "Outlines booking bloods (FBC, blood group and antibodies, rubella, syphilis, HIV, hepatitis B and C, urine culture) and offers aneuploidy screening (combined first trimester screen or NIPT) after counselling",
+      "Advises folic acid and iodine supplements and offers smoking cessation support"
+    ],
+    "domains": [
+      {
+        "name": "Approach to patient",
+        "expectations": "Congratulates her, uses open questions, is non-judgemental about smoking and the night out, and invites her questions."
+      },
+      {
+        "name": "History",
+        "expectations": "Covers dating, current symptoms, obstetric and gynae history, PMH, medications, allergies, vaccination status, family history (identifies maternal pre-eclampsia as a risk factor), social history including smoking, alcohol, diet and safety at home."
+      },
+      {
+        "name": "Investigations",
+        "expectations": "Lists standard booking bloods and urine culture, offers dating ultrasound if needed, explains the choice between combined first trimester screening (11-14 weeks) and NIPT (from 10 weeks), and mentions the 18-20 week morphology scan."
+      },
+      {
+        "name": "Education",
+        "expectations": "Folic acid 0.5 mg and iodine 150 micrograms daily, no alcohol from now on, reassurance that one episode before knowing is unlikely to cause harm, stopping smoking with Quitline or support, listeria food safety, continuing exercise, and flu and whooping cough vaccines during pregnancy."
+      }
+    ],
+    "expectedDiagnosis": "Uncomplicated singleton pregnancy at 9 weeks (to be confirmed), with smoking and family history of pre-eclampsia",
+    "teachingPoints": [
+      "Booking bloods in Australia: FBC, group and antibodies, rubella, syphilis, HIV, hepatitis B and C, and midstream urine culture for asymptomatic bacteriuria.",
+      "Aneuploidy screening is optional and offered after counselling: combined first trimester screening at 11-14 weeks or NIPT from 10 weeks.",
+      "Folic acid 0.5 mg daily (5 mg if high risk) and iodine 150 micrograms daily are recommended for all pregnant women in Australia.",
+      "A mother or sister with pre-eclampsia is a risk factor; risk assessment in the first trimester decides whether low-dose aspirin from 12-16 weeks is indicated.",
+      "Influenza vaccine at any stage and pertussis (dTpa) ideally at 20-32 weeks are recommended in every pregnancy and are free under the NIP."
+    ]
+  },
+  {
+    "id": "st-antenatal-care-2",
+    "title": "Gestational diabetes result at 26 weeks",
+    "discipline": "womens-health",
+    "topic": "antenatal-care",
+    "difficulty": "medium",
+    "area": "management",
+    "setting": "GP clinic (shared antenatal care), Canberra",
+    "candidateBrief": "You are a general practitioner providing shared antenatal care in Canberra. Mrs Mei Lin Chen, a 34-year-old woman in her first pregnancy at 26 weeks, has come for the result of her 75 g oral glucose tolerance test. Results: fasting glucose 5.4 mmol/L, 1-hour 10.6 mmol/L, 2-hour 8.2 mmol/L. Booking bloods and morphology scan were normal. BMI at booking was 27 kg/m2. BP today 118/72 mmHg.",
+    "tasks": [
+      {
+        "task": "Explain the result and the diagnosis",
+        "minutes": 2
+      },
+      {
+        "task": "Discuss the implications for her and her baby",
+        "minutes": 2
+      },
+      {
+        "task": "Outline the management plan, including after the birth",
+        "minutes": 4
+      }
+    ],
+    "patient": {
+      "name": "Mei Lin Chen",
+      "age": 34,
+      "sex": "female",
+      "persona": "Precise, anxious accountant who likes clear facts and numbers. Feels guilty and blames herself. Asks direct questions. Will not volunteer that she has been starving herself unless asked about her diet or how she has been feeling since the phone call.",
+      "openingLine": "The lab rang and said I needed to come in. It's the sugar test, isn't it? Is something wrong with the baby?",
+      "script": "Pregnancy: G1 P0, 26 weeks, planned, conceived naturally. Dating and morphology scans normal. Baby moving well. No headaches, visual disturbance, swelling, bleeding, abdominal pain or urinary symptoms.\n\nPMH: nil. No previous glucose testing. Meds: pregnancy multivitamin with folate and iodine. Allergies: nil.\n\nFamily history: father has type 2 diabetes; mother had 'high sugar' in pregnancy.\n\nSocial: born in Shanghai, in Australia for 10 years. Accountant, desk-based, long hours in tax season. Non-smoker, no alcohol. Lives with husband David. Diet mainly rice, noodles and dumplings; bubble tea two or three times a week. Walks little.\n\nHIDDEN CUE 1 (only if asked about recent diet or how she has been feeling): since the lab call two days ago she read online that sugar harms the baby and has been skipping meals and eating almost no carbohydrate. She felt shaky and light-headed at work yesterday.\n\nHIDDEN CUE 2 (only if asked about longer-term worries): scared she will end up with diabetes like her father.\n\nIdeas: thinks she caused it by eating badly. Concerns: baby being 'damaged', needing insulin needles. Expectations: wants to know exactly what to eat and whether she can still have a normal birth.\n\nQuestions she will ask: 'Is my baby okay?', 'Will I need insulin?', 'Will I need a caesarean?', 'Will it go away after the birth?', 'Can I still breastfeed?'. She settles with reassurance that it is common and not her fault, and with a clear plan."
+    },
+    "keySteps": [
+      "Correctly states that the fasting (5.4) and 1-hour (10.6) values meet the criteria for gestational diabetes and explains it in plain language",
+      "Identifies that she is restricting carbohydrate and advises against skipping meals, arranging dietitian review",
+      "Explains home blood glucose monitoring with targets and that metformin or insulin is added if targets are not met",
+      "Arranges a 75 g OGTT 6-12 weeks after birth and explains lifelong increased risk of type 2 diabetes with ongoing screening"
+    ],
+    "domains": [
+      {
+        "name": "Communication",
+        "expectations": "Checks what she knows and her worries first, explains without jargon, states clearly it is not her fault, and checks understanding (teach-back)."
+      },
+      {
+        "name": "Explanation of diagnosis",
+        "expectations": "Explains that pregnancy hormones cause insulin resistance, the diagnostic thresholds, and risks if untreated (large baby, shoulder dystocia, neonatal hypoglycaemia, pre-eclampsia) while stressing that good control lowers these risks."
+      },
+      {
+        "name": "Management",
+        "expectations": "Refers to diabetes educator, dietitian and hospital diabetes-in-pregnancy clinic; NDSS registration; monitoring fasting and post-meal glucose; regular moderate carbohydrate and physical activity; medication if needed; growth scans; birth planning with the hospital team."
+      },
+      {
+        "name": "Postnatal and long-term plan",
+        "expectations": "Breastfeeding encouraged, baby's glucose checked after birth, GDM usually resolves after birth, OGTT at 6-12 weeks postpartum, diabetes screening every 1-3 years, early testing in future pregnancies."
+      }
+    ],
+    "expectedDiagnosis": "Gestational diabetes mellitus",
+    "teachingPoints": [
+      "Australian (ADIPS/WHO) GDM criteria on a 75 g OGTT: fasting 5.1 or more, 1-hour 10.0 or more, or 2-hour 8.5 or more mmol/L. One abnormal value is enough.",
+      "First line is medical nutrition therapy and activity; metformin or insulin is added if glucose targets are not met.",
+      "Register with the NDSS for subsidised testing supplies and diabetes education.",
+      "Women from South Asian, East Asian and some other ethnic backgrounds have a higher risk of GDM.",
+      "After GDM: 75 g OGTT at 6-12 weeks postpartum, then regular screening, because the lifetime risk of type 2 diabetes is high."
+    ]
+  },
+  {
+    "id": "st-obstetric-emergencies-1",
+    "title": "Pain and bleeding at 7 weeks of pregnancy",
+    "discipline": "womens-health",
+    "topic": "obstetric-emergencies",
+    "difficulty": "medium",
+    "area": "examination",
+    "setting": "Emergency department, metropolitan hospital, Adelaide",
+    "candidateBrief": "You are an HMO in the emergency department of a metropolitan hospital in Adelaide. Ms Jasmine Taylor, a 26-year-old woman, has 12 hours of left lower abdominal pain and two days of vaginal spotting. Her last period was 7 weeks ago and a urine pregnancy test in triage is positive. She has a copper IUD. Observations: BP 104/66 mmHg, HR 106, RR 18, SpO2 99% on room air, temperature 36.9 C.",
+    "tasks": [
+      {
+        "task": "Perform a focused physical examination, telling the examiner what you are doing and looking for",
+        "minutes": 4
+      },
+      {
+        "task": "Explain the likely diagnosis to Ms Taylor",
+        "minutes": 1
+      },
+      {
+        "task": "Outline your immediate management",
+        "minutes": 3
+      }
+    ],
+    "patient": {
+      "name": "Jasmine Taylor",
+      "age": 26,
+      "sex": "female",
+      "persona": "Pale, frightened and in pain. Answers briefly, holds her left side. Relieved by a calm explanation. Asks if she is losing the baby and whether she can still have children.",
+      "openingLine": "It really hurts down here on the left. Am I losing the baby?",
+      "script": "HPI: left iliac fossa pain for 12 hours, now constant and sharp, 7/10. Pain at the tip of the left shoulder for 2 hours (only if asked). Brown-red spotting for two days, less than a period, no tissue passed. Felt dizzy and nearly fainted on the toilet this morning. Nausea, no vomiting. No fever, urinary symptoms or discharge.\n\nGynae: LMP 7 weeks ago, regular 28-day cycles. Pregnancy not planned. Copper IUD inserted 3 years ago. Chlamydia 2 years ago, treated. Cervical screening last year normal. G1 P0.\n\nPMH: nil. Meds: nil. Allergies: nil. Blood group: does not know.\n\nSocial: works in a cafe, smokes 10 a day, lives with partner.\n\nIdeas: thinks she might be having a miscarriage. Concerns: needing surgery, future fertility. Expectations: pain relief and an explanation.\n\nIf the candidate asks for consent and a chaperone for the pelvic examination she agrees. If told this may be an ectopic pregnancy and that she may need an operation, she asks: 'Will I still be able to have kids?' She is reassured by honest information that most women can still conceive after an ectopic pregnancy, even with one tube removed.",
+      "examFindings": "General: pale, lying still, uncomfortable. Hands cool, capillary refill 3 seconds. Obs as in stem; repeat HR 112, BP 98/62 mmHg lying. No postural testing done as she feels faint sitting up.\nAbdomen: mildly distended; tender in the left iliac fossa and suprapubically with voluntary guarding and mild rebound; shoulder-tip pain on lying flat; no masses; bowel sounds present.\nSpeculum (with consent and chaperone): small amount of dark blood in the vagina, cervical os closed, IUD threads visible, no products of conception.\nBimanual: cervical motion tenderness; left adnexal tenderness with fullness; uterus slightly bulky, not enlarged for dates.\nOther systems normal."
+    },
+    "keySteps": [
+      "Obtains consent and offers a chaperone before the pelvic examination",
+      "Recognises signs of haemodynamic compromise (rising HR, falling BP, cool peripheries) and peritonism",
+      "States ruptured ectopic pregnancy as the most likely diagnosis",
+      "Requests two large-bore IV cannulas, FBC, group and crossmatch, quantitative beta-hCG and fluid resuscitation",
+      "Calls the obstetrics and gynaecology registrar urgently for likely theatre, rather than waiting for a formal ultrasound"
+    ],
+    "domains": [
+      {
+        "name": "Choice and technique of examination",
+        "expectations": "Examines in a logical order: general appearance, vital signs and perfusion, abdomen (inspection, palpation for tenderness and guarding, rebound), speculum then bimanual examination, with respect for privacy."
+      },
+      {
+        "name": "Accuracy of examination",
+        "expectations": "Correctly interprets tachycardia, falling BP, left adnexal tenderness, cervical motion tenderness and closed os, and links shoulder-tip pain to haemoperitoneum."
+      },
+      {
+        "name": "Diagnosis",
+        "expectations": "Ruptured left ectopic pregnancy most likely; differentials include threatened or incomplete miscarriage and ruptured corpus luteal cyst. Notes that a copper IUD raises the chance that a pregnancy is ectopic."
+      },
+      {
+        "name": "Management",
+        "expectations": "ABCs, IV access, bloods including group and crossmatch, IV fluids, analgesia and antiemetic, nil by mouth, urgent O&G review for laparoscopy, bedside FAST or ultrasound only if it does not delay surgery, anti-D if Rh D negative per local guideline."
+      },
+      {
+        "name": "Communication",
+        "expectations": "Explains honestly and calmly, prepares her for surgery, addresses fertility worries and offers support."
+      }
+    ],
+    "expectedDiagnosis": "Ruptured left ectopic pregnancy with early haemodynamic compromise",
+    "teachingPoints": [
+      "Any woman of reproductive age with abdominal pain or bleeding needs a pregnancy test; ectopic pregnancy must be excluded if it is positive.",
+      "Shoulder-tip pain, syncope, tachycardia and peritonism suggest haemoperitoneum; an unstable patient goes to theatre, not to ultrasound.",
+      "Although IUDs prevent most pregnancies, a pregnancy that occurs with an IUD in place is more likely to be ectopic.",
+      "Check blood group; Rh D-negative women with ectopic pregnancy are offered anti-D in line with Australian guidance."
+    ]
+  },
+  {
+    "id": "st-obstetric-emergencies-2",
+    "title": "High blood pressure at 33 weeks",
+    "discipline": "womens-health",
+    "topic": "obstetric-emergencies",
+    "difficulty": "hard",
+    "area": "diagnosis",
+    "setting": "Maternity assessment unit, regional hospital, Queensland",
+    "candidateBrief": "You are an obstetric resident in the maternity assessment unit of a regional hospital in Queensland. Mrs Sarah O'Brien, a 31-year-old woman (G2 P1) at 33 weeks, was sent in by her midwife with a BP of 158/104 mmHg. Repeat BP 162/108 mmHg. Results: urine protein:creatinine ratio 65 mg/mmol (normal under 30), platelets 96 x10^9/L, ALT 112 U/L, creatinine 74 micromol/L. CTG is normal. She wants to go home.",
+    "tasks": [
+      {
+        "task": "Ask about relevant symptoms",
+        "minutes": 2
+      },
+      {
+        "task": "Explain the results and the diagnosis",
+        "minutes": 2
+      },
+      {
+        "task": "Explain why she needs to stay and what treatment is planned",
+        "minutes": 4
+      }
+    ],
+    "patient": {
+      "name": "Sarah O'Brien",
+      "age": 31,
+      "sex": "female",
+      "persona": "Stressed and irritated rather than unwell-looking. Her husband is away working FIFO in the Pilbara and her 3-year-old is with a neighbour who has to leave by 5 pm. Keeps saying she feels 'fine' and asks if she can come back tomorrow. Softens if the candidate acknowledges the childcare problem and offers practical help (social worker, calling family). What makes it hard: a reluctant patient with a time-critical, dangerous condition and a practical barrier that must be solved, not dismissed.",
+      "openingLine": "Look, I feel fine, honestly. The midwife's being overcautious. Can I just come back tomorrow? I've got to pick up my son.",
+      "script": "Symptoms (only if asked specifically): frontal headache for 2 days not helped by paracetamol; 'sparkly lights' in her vision this morning; pain under the right ribs since last night that she thought was indigestion; face and hands puffy for a week (rings tight). No vaginal bleeding, no contractions, no leaking fluid. Baby moving normally. No shortness of breath. No seizures.\n\nPregnancy: G2 P1. First baby born at term by normal vaginal birth, BP normal that pregnancy. This pregnancy: booking BP 112/70, bloods and morphology normal, not on aspirin.\n\nPMH: nil. Meds: pregnancy multivitamin. Allergies: nil. Non-smoker, no alcohol.\n\nSocial: husband works FIFO, two weeks on, one off; he is away until next Friday. Son Liam, 3, is with neighbour Pam until 5 pm. Her mother lives an hour away and could come if called. Lives in town, 15 minutes from the hospital.\n\nIdeas: thinks her BP is up because she is stressed. Concerns: who will look after Liam; whether the baby will be born early. Expectations: to go home.\n\nIf the diagnosis is explained clearly (risk of seizures, stroke, liver problems and to the baby) and practical help is offered for Liam, she agrees to stay. If the candidate simply insists without addressing Liam, she becomes more resistant. She asks: 'Will they have to deliver the baby now?' and 'Is the baby going to be OK?'"
+    },
+    "keySteps": [
+      "Asks specifically about headache, visual disturbance, epigastric or right upper quadrant pain and reduced fetal movements",
+      "Interprets the results as pre-eclampsia with severe features (severe hypertension, low platelets, raised ALT, proteinuria) and explains it in plain language",
+      "Clearly explains the risks (eclampsia, stroke, HELLP, placental abruption, fetal compromise) and recommends admission",
+      "Outlines urgent BP control, magnesium sulfate, corticosteroids for fetal lung maturity and a senior obstetric review about timing of birth",
+      "Addresses the childcare barrier practically (calls family, social worker) rather than dismissing it"
+    ],
+    "domains": [
+      {
+        "name": "History",
+        "expectations": "Targeted symptom enquiry for severe pre-eclampsia and fetal wellbeing, brief risk factors, and her social situation."
+      },
+      {
+        "name": "Diagnostic formulation",
+        "expectations": "Correctly identifies pre-eclampsia with severe features and features suggestive of evolving HELLP syndrome; understands proteinuria is not required for diagnosis but supports it here."
+      },
+      {
+        "name": "Management",
+        "expectations": "Admission; oral or IV antihypertensive (labetalol, nifedipine, or hydralazine) aiming for BP around 140/90 or less; IV magnesium sulfate with monitoring of reflexes, respiratory rate and urine output; betamethasone; fluid balance; repeat bloods including coagulation; continuous CTG; neonatal team informed; delivery is the definitive treatment and timing is decided by the senior team."
+      },
+      {
+        "name": "Communication and negotiation",
+        "expectations": "Acknowledges her frustration and the childcare problem, explains risk honestly without scaring, offers practical solutions, and checks she understands and agrees."
+      }
+    ],
+    "expectedDiagnosis": "Pre-eclampsia with severe features at 33 weeks (possible evolving HELLP syndrome)",
+    "teachingPoints": [
+      "Pre-eclampsia (SOMANZ): new hypertension after 20 weeks with maternal organ dysfunction or fetal growth restriction; proteinuria is not required.",
+      "Headache, visual disturbance and epigastric or RUQ pain are warning symptoms of eclampsia or HELLP.",
+      "Severe hypertension (160/110 or more) needs urgent treatment; magnesium sulfate prevents eclampsia, and calcium gluconate treats magnesium toxicity.",
+      "Give antenatal corticosteroids when preterm birth is likely; delivery is the only cure.",
+      "A regional or remote setting may need early discussion with a tertiary centre about transfer before birth."
+    ]
+  },
+  {
+    "id": "st-labour-postpartum-1",
+    "title": "Six-week postnatal check with low mood",
+    "discipline": "womens-health",
+    "topic": "labour-postpartum",
+    "difficulty": "hard",
+    "area": "history",
+    "setting": "GP clinic, outer Melbourne",
+    "candidateBrief": "You are a general practitioner in outer Melbourne. Ms Emily Nguyen, a 32-year-old woman, has come for her six-week postnatal check after the birth of her first baby, Mia, by emergency caesarean section. The baby is well and attended with her. In the waiting room Ms Nguyen completed an Edinburgh Postnatal Depression Scale: score 17, with 'sometimes' marked for the item 'The thought of harming myself has occurred to me'.",
+    "tasks": [
+      {
+        "task": "Take a history focused on her mood",
+        "minutes": 4
+      },
+      {
+        "task": "Assess her risk to herself and the baby",
+        "minutes": 2
+      },
+      {
+        "task": "Explain your impression and agree an immediate plan",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Emily Nguyen",
+      "age": 32,
+      "sex": "female",
+      "persona": "Quiet, tired, flat voice, avoids eye contact and keeps saying 'I'm fine, I'm just tired, everyone's tired with a newborn.' Minimises symptoms. What makes it hard: she is terrified that if she admits how she feels, the baby will be taken away, so she will only open up if the candidate is warm, normalises the feelings and explains that the aim is to help her and keep her and Mia together.",
+      "openingLine": "Yeah, all good. Mia's feeding well. I'm just tired, you know. I think I filled that form in wrong.",
+      "script": "Mood: low most days for about 4 weeks, worse in the evenings. Cries most days. Lost interest in things, including Mia at times ('I don't feel like her mum'). Sleeps poorly even when Mia sleeps. Poor appetite, lost weight. Feels guilty and a failure because she 'couldn't even give birth properly' (emergency caesarean for fetal distress after long labour; she found it frightening). Poor concentration.\n\nRisk (only if asked directly and sensitively): passive thoughts that 'Mia and Tom would be better off without me' for 2 weeks. No plan, no preparations, no previous attempts. No thoughts of harming Mia; sometimes worries she will accidentally drop her. Protective factors: loves Mia, partner Tom, her mum nearby. No access to stockpiled medications. No psychotic symptoms (no voices, no unusual beliefs, not confused, sleeping, not elated).\n\nPast history: anxiety at university, saw a counsellor, no medication. No bipolar disorder. Mother had 'depression' after Emily's brother was born.\n\nMeds: none. Allergies: nil. Breastfeeding. No alcohol or drugs.\n\nSocial: partner Tom (34, engineer) back at work after 2 weeks leave; supportive but 'doesn't know how bad it is'. Mum lives 10 minutes away. Moved to the area 6 months ago, no friends locally. Feels safe at home; no family violence.\n\nIdeas: thinks she is a bad mother. Concerns: that child protection will take Mia, being put in hospital. Expectations: none; would accept help if reassured. She agrees to Tom being told and to a same-day plan if it is explained kindly."
+    },
+    "keySteps": [
+      "Explores the EPDS self-harm item directly: asks about suicidal thoughts, plan, intent, preparation and previous attempts",
+      "Asks specifically about thoughts of harming the baby and screens for psychotic symptoms",
+      "Reassures her that the aim is support, not removal of her baby",
+      "Makes a clear safety plan with same-day or next-day follow-up, involvement of her partner with consent, and crisis contacts"
+    ],
+    "domains": [
+      {
+        "name": "Approach to patient",
+        "expectations": "Warm, unhurried, normalises that postnatal depression is common, acknowledges the traumatic birth, and responds to her fear about child protection."
+      },
+      {
+        "name": "History",
+        "expectations": "Covers onset, core and biological symptoms of depression, birth experience, bonding, past psychiatric and family history, supports, substances, breastfeeding and family violence screening."
+      },
+      {
+        "name": "Risk assessment",
+        "expectations": "Structured suicide risk assessment and risk to the infant, identifies passive ideation without plan or intent, protective factors, and absence of psychosis or bipolar features."
+      },
+      {
+        "name": "Management",
+        "expectations": "Explains likely postnatal depression; agrees a safety plan, involves Tom with consent, arranges review within 1-2 days, referral to perinatal mental health or psychology via a Mental Health Treatment Plan, discusses an antidepressant compatible with breastfeeding (e.g. sertraline), and gives PANDA and Lifeline numbers."
+      }
+    ],
+    "expectedDiagnosis": "Postnatal depression (moderate to severe) with passive suicidal ideation, no current plan or intent",
+    "teachingPoints": [
+      "Any positive answer to EPDS item 10 (self-harm) needs same-day assessment of suicide risk.",
+      "Always ask about thoughts of harming the baby and screen for psychosis; postpartum psychosis is a psychiatric emergency.",
+      "A traumatic birth, past anxiety, family history and social isolation are risk factors for perinatal depression.",
+      "Sertraline is commonly used and considered compatible with breastfeeding.",
+      "Australian supports: PANDA National Helpline 1300 726 306, Lifeline 13 11 14, and state perinatal mental health services."
+    ]
+  },
+  {
+    "id": "st-gynaecology-1",
+    "title": "Heavy periods and tiredness: results review",
+    "discipline": "womens-health",
+    "topic": "gynaecology",
+    "difficulty": "easy",
+    "area": "diagnosis",
+    "setting": "GP clinic, Newcastle, NSW",
+    "candidateBrief": "You are a general practitioner in Newcastle. Mrs Karen Walsh, a 43-year-old woman, returns for results after reporting 12 months of heavy periods and tiredness. Her cervical screening is up to date and normal. Pregnancy test negative. Results: Hb 98 g/L (115-160), MCV 74 fL, ferritin 5 micrograms/L, TSH normal. Pelvic ultrasound: one 3 cm intramural fibroid, normal endometrium, normal ovaries.",
+    "tasks": [
+      {
+        "task": "Clarify the impact of her symptoms and her preferences",
+        "minutes": 2
+      },
+      {
+        "task": "Explain the results and the likely diagnosis",
+        "minutes": 2
+      },
+      {
+        "task": "Discuss the management options",
+        "minutes": 4
+      }
+    ],
+    "patient": {
+      "name": "Karen Walsh",
+      "age": 43,
+      "sex": "female",
+      "persona": "Friendly, practical primary school teacher. Keen to 'just get it sorted'. Asks sensible questions. Mentions she does not want a hysterectomy 'if I can help it'.",
+      "openingLine": "Hi Doctor. So what did the tests show? I'm hoping there's a reason I'm this wrecked all the time.",
+      "script": "Periods: regular every 28 days, bleeding 7-8 days, heaviest days 2-4, changing super pads every 1-2 hours, flooding at night, clots the size of a 50-cent coin. Uses a towel on the bed. Has left class twice due to flooding. No intermenstrual or post-coital bleeding. Mild period cramps, no pelvic pain between periods, no dyspareunia.\n\nSymptoms of anaemia: tired, short of breath climbing stairs, no chest pain. No bleeding elsewhere, no easy bruising, no family history of bleeding disorders.\n\nContraception: partner had a vasectomy. G2 P2, both vaginal births. Family complete.\n\nPMH: nil. No history of VTE, migraine or breast cancer. Meds: occasional ibuprofen. Allergies: nil. Non-smoker, drinks 2-3 glasses of wine a week. BMI 26.\n\nIdeas: worried it could be cancer ('my aunt had womb cancer'). Concerns: needing an operation, time off work. Expectations: wants the bleeding lighter and her energy back. Would consider 'the coil' if it's not painful to insert; heard about it from a friend. Would prefer tablets only during her period if possible.\n\nIf told the fibroid is benign and small, she is relieved. She asks: 'Do I need to have the fibroid out?' and 'How long until I feel less tired?'"
+    },
+    "keySteps": [
+      "Explains iron deficiency anaemia caused by heavy menstrual bleeding in plain language",
+      "Explains the fibroid is a common benign growth and the ultrasound does not suggest cancer",
+      "Offers iron replacement (oral, or IV if poorly tolerated or severe) with a plan to recheck Hb and ferritin",
+      "Discusses the levonorgestrel IUD as the most effective medical option, alongside tranexamic acid and NSAIDs, and gynaecology referral if these fail"
+    ],
+    "domains": [
+      {
+        "name": "Communication",
+        "expectations": "Asks about impact on work and life and her preferences, addresses her cancer fear, uses plain language and checks understanding."
+      },
+      {
+        "name": "Diagnostic formulation",
+        "expectations": "Heavy menstrual bleeding with a small intramural fibroid (PALM-COEIN L) causing iron deficiency anaemia; recognises reassuring normal endometrium and absence of intermenstrual or post-coital bleeding."
+      },
+      {
+        "name": "Management",
+        "expectations": "Iron replacement and dietary advice; options: LNG-IUD (highly effective, also contraception), tranexamic acid and NSAIDs during menses, hormonal alternatives; gynaecology referral for persistent symptoms or if she wants procedures (endometrial ablation, myomectomy, hysterectomy); follow-up in 6-8 weeks."
+      },
+      {
+        "name": "Education",
+        "expectations": "Explains expected timeline for energy improvement, side effects of oral iron, what LNG-IUD insertion involves, and safety-netting for very heavy bleeding or dizziness."
+      }
+    ],
+    "expectedDiagnosis": "Heavy menstrual bleeding with a small intramural fibroid, causing iron deficiency anaemia",
+    "teachingPoints": [
+      "Assess all women with heavy menstrual bleeding for pregnancy, anaemia (FBC and ferritin) and use PALM-COEIN to classify causes.",
+      "The levonorgestrel 52 mg IUD is the most effective medical treatment for heavy menstrual bleeding.",
+      "Tranexamic acid and NSAIDs reduce loss and are taken only during menstruation.",
+      "Intermenstrual or post-coital bleeding, or risk factors for endometrial cancer, prompt endometrial assessment and referral."
+    ]
+  },
+  {
+    "id": "st-gynaecology-2",
+    "title": "Hot flushes and questions about HRT",
+    "discipline": "womens-health",
+    "topic": "gynaecology",
+    "difficulty": "easy",
+    "area": "management",
+    "setting": "GP clinic, Hobart",
+    "candidateBrief": "You are a general practitioner in Hobart. Ms Linda Moretti, a 51-year-old woman, has come to talk about menopause. She has had hot flushes and night sweats for 8 months that are affecting her sleep and work. Her last menstrual period was 11 months ago. She has read about hormone therapy but is worried about breast cancer. Her cervical screening and mammogram are up to date and normal. BP 124/78 mmHg, BMI 27 kg/m2.",
+    "tasks": [
+      {
+        "task": "Check for contraindications and relevant history",
+        "minutes": 2
+      },
+      {
+        "task": "Explain the treatment options, including benefits and risks of menopausal hormone therapy",
+        "minutes": 4
+      },
+      {
+        "task": "Agree a plan and follow-up",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Linda Moretti",
+      "age": 51,
+      "sex": "female",
+      "persona": "Articulate, well-read office manager. Direct, slightly sceptical ('my mum was told HRT gives you cancer'). Cooperative and appreciates numbers and honesty.",
+      "openingLine": "I'm not sleeping, I'm dripping in sweat at meetings, and I'm over it. But everyone says HRT causes breast cancer. What are my options?",
+      "script": "Symptoms: 8-10 hot flushes a day, drenching night sweats 3-4 nights a week, waking twice a night. Irritable, some low mood but no depression, no suicidal thoughts. Some vaginal dryness and discomfort with sex (only if asked). Joint aches.\n\nPeriods: became irregular 2 years ago, LMP 11 months ago. No bleeding since. No postmenopausal bleeding. Still sexually active with husband, no contraception since periods stopped (only if asked about contraception).\n\nContraindications (only if asked): no personal history of breast cancer, endometrial cancer, VTE, stroke, heart disease, liver disease or unexplained vaginal bleeding. Migraine without aura in her 20s, none now. Mother had breast cancer at 72. No family history of VTE.\n\nPMH: nil. Uterus intact. Meds: nil. Allergies: nil.\n\nSocial: office manager, married, two adult children. Non-smoker. Drinks 1-2 glasses of wine most nights. Walks at weekends.\n\nIdeas: thinks HRT is dangerous. Concerns: breast cancer, weight gain. Expectations: wants something that works but would like to know about non-hormonal options too. Happy to try MHT if the risk is explained as small. Asks: 'How long can I stay on it?'"
+    },
+    "keySteps": [
+      "Screens for contraindications to MHT (breast or endometrial cancer, VTE, stroke or cardiovascular disease, active liver disease, undiagnosed vaginal bleeding)",
+      "Explains that because she has a uterus she needs a progestogen with oestrogen to protect the endometrium",
+      "Presents balanced absolute risk information: MHT is the most effective treatment, and the small increase in breast cancer risk with combined therapy relates to duration",
+      "Advises that she still needs contraception until 12 months without a period (age over 50)"
+    ],
+    "domains": [
+      {
+        "name": "History",
+        "expectations": "Confirms menopausal status, symptom severity, contraindications, cardiovascular risk factors, family history, alcohol use and vaginal symptoms."
+      },
+      {
+        "name": "Management",
+        "expectations": "Offers MHT (oestrogen plus progestogen or LNG-IUD, transdermal an option with lower VTE risk), vaginal oestrogen for dryness, non-hormonal options (SSRIs/SNRIs, CBT) if she prefers, lifestyle advice including alcohol reduction."
+      },
+      {
+        "name": "Education",
+        "expectations": "Explains benefits (symptom relief, bone protection), risks in absolute terms, expected irregular bleeding in the first months and that persistent or new bleeding needs review, and that duration is reviewed yearly without an arbitrary cut-off."
+      },
+      {
+        "name": "Shared decision-making",
+        "expectations": "Addresses her concerns directly, lets her choose, gives Australasian Menopause Society information, and arranges review at about 3 months."
+      }
+    ],
+    "expectedDiagnosis": "Menopause with moderate to severe vasomotor symptoms and genitourinary symptoms",
+    "teachingPoints": [
+      "MHT is the most effective treatment for vasomotor symptoms; for healthy women under 60 or within 10 years of menopause the benefits generally outweigh the risks.",
+      "Women with a uterus need a progestogen (or LNG-IUD) with oestrogen; transdermal oestrogen carries a lower VTE risk than oral.",
+      "Contraception is needed until 12 months of amenorrhoea after age 50 (24 months if under 50).",
+      "The Australasian Menopause Society provides patient information sheets and decision aids."
+    ]
+  },
+  {
+    "id": "st-contraception-fertility-1",
+    "title": "Contraception in a woman with migraine with aura",
+    "discipline": "womens-health",
+    "topic": "contraception-fertility",
+    "difficulty": "medium",
+    "area": "management",
+    "setting": "Family planning clinic, Perth",
+    "candidateBrief": "You are a doctor at a sexual and reproductive health clinic in Perth. Ms Aisha Rahman, a 22-year-old university student, wants to start 'the pill'. She has been using condoms with a new partner of two months and is not planning a pregnancy. Her GP referral letter record migraine with aura. BP 112/70 mmHg, BMI 23 kg/m2.",
+    "tasks": [
+      {
+        "task": "Take a focused contraceptive history",
+        "minutes": 3
+      },
+      {
+        "task": "Explain why the combined pill is not suitable for her",
+        "minutes": 1
+      },
+      {
+        "task": "Counsel her on suitable options and agree a plan",
+        "minutes": 4
+      }
+    ],
+    "patient": {
+      "name": "Aisha Rahman",
+      "age": 22,
+      "sex": "female",
+      "persona": "Friendly, a little shy, keen to 'sort it out quickly' before exams. Assumes the pill is the only option. Will only mention the broken condom if asked when she last had unprotected sex.",
+      "openingLine": "Hi. I just want to go on the pill, if that's okay. All my friends are on it.",
+      "script": "Contraceptive history: never used hormonal contraception. Using condoms with boyfriend of 2 months. HIDDEN CUE (only if asked about last sex or unprotected sex): the condom broke 3 days ago (about 70 hours ago). She has not taken emergency contraception and did not know it was available from a pharmacy. LMP 12 days ago, regular 28-day cycles.\n\nMigraine: since age 16, 3-4 a year, preceded by zigzag lines in her vision for 20 minutes, then headache. Takes ibuprofen. Diagnosed by her GP.\n\nPMH: nil else. No VTE, no liver disease, no epilepsy. Meds: ibuprofen as needed. No enzyme-inducing drugs. Allergies: nil.\n\nSexual health: one previous partner, one new partner. Never had an STI test. No symptoms.\n\nFamily history: nil relevant. Social: non-smoker, drinks at weekends. Lives in a shared house. Not planning pregnancy for years; would 'freak out' if pregnant.\n\nIdeas: thinks the pill is the only real option. Concerns: needles, pain with IUD insertion, weight gain, irregular bleeding. Expectations: a script today.\n\nShe is open to the implant once she understands it is small, inserted under local anaesthetic and lasts 3 years. If told about the copper IUD for emergency contraception she says she is nervous but would 'think about it'; if offered oral emergency contraception she accepts."
+    },
+    "keySteps": [
+      "Asks about unprotected sex since her last period and identifies the need for emergency contraception",
+      "Explains that migraine with aura is a contraindication to combined hormonal contraception because of stroke risk (UKMEC 4)",
+      "Offers the copper IUD as the most effective emergency contraception, or oral emergency contraception, and explains the ulipristal interaction with starting hormonal contraception",
+      "Recommends LARC (implant or IUD) as first line, with condoms for STI protection, and offers STI testing"
+    ],
+    "domains": [
+      {
+        "name": "History",
+        "expectations": "Covers LMP and cycle, recent unprotected sex, migraine type, other UKMEC contraindications, medications, sexual history and STI risk, and her preferences."
+      },
+      {
+        "name": "Management",
+        "expectations": "Emergency contraception now: copper IUD within 5 days or ulipristal (more effective than levonorgestrel at 70 hours), delaying hormonal contraception 5 days after ulipristal, or levonorgestrel then quick-start; ongoing options: implant, LNG-IUD, copper IUD, progestogen-only pill, DMPA; pregnancy test in 3-4 weeks if needed."
+      },
+      {
+        "name": "Education",
+        "expectations": "Explains effectiveness in plain terms, side effects (irregular bleeding with implant), what insertion involves, and condom use for STI protection."
+      },
+      {
+        "name": "Communication",
+        "expectations": "Non-judgemental, confidential, corrects the assumption about the pill kindly, checks understanding and invites questions."
+      }
+    ],
+    "expectedDiagnosis": "Contraception request with UKMEC 4 contraindication to combined hormonal contraception, plus need for emergency contraception",
+    "teachingPoints": [
+      "Migraine with aura is UKMEC category 4 for combined hormonal contraception; progestogen-only methods and copper IUD are suitable.",
+      "Always ask about unprotected sex since the last period before starting contraception.",
+      "Copper IUD within 5 days is the most effective emergency contraception; ulipristal works to 120 hours, and hormonal contraception is delayed 5 days after it.",
+      "LARCs are first-line in Australia; oral emergency contraception is available from pharmacies without a prescription."
+    ]
+  },
+  {
+    "id": "st-sexual-health-1",
+    "title": "Positive chlamydia result and partner notification",
+    "discipline": "womens-health",
+    "topic": "sexual-health",
+    "difficulty": "hard",
+    "area": "history",
+    "setting": "GP clinic, Darwin",
+    "candidateBrief": "You are a general practitioner in Darwin. Ms Brooke Turner, a 24-year-old woman, returns for results after an STI screen she requested last week because a friend 'had something'. Result: Chlamydia trachomatis detected on a self-collected vaginal swab. Gonorrhoea not detected. Blood tests for HIV and syphilis are pending. She has no known allergies.",
+    "tasks": [
+      {
+        "task": "Take a focused sexual history",
+        "minutes": 4
+      },
+      {
+        "task": "Explain the result and treatment",
+        "minutes": 2
+      },
+      {
+        "task": "Discuss partner notification",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Brooke Turner",
+      "age": 24,
+      "sex": "female",
+      "persona": "Embarrassed, defensive, and quick to deflect ('it's not like I sleep around'). Worried about her boyfriend finding out. What makes it hard: she has had a casual partner her boyfriend doesn't know about and initially refuses to tell him; the candidate must keep her engaged without judgement, respect confidentiality, and still address the public health duty of partner notification.",
+      "openingLine": "So is it bad? Please don't tell me it's something. I just did the test because my friend freaked me out.",
+      "script": "Sexual history (only if asked): boyfriend Jake, together 8 months, vaginal sex, no condoms since the first month. One casual male partner 2 months ago at a festival, vaginal sex, condom 'mostly'. One other male partner 5 months ago, before Jake, no condoms. No anal or oral sex she mentions unless asked (oral sex with Jake). No same-sex partners. No sex work. No injecting drug use in her or partners she knows of.\n\nSymptoms: none. No discharge, dysuria, pelvic pain, dyspareunia, post-coital or intermenstrual bleeding (important: no features of PID).\n\nContraception: combined pill, but HIDDEN CUE (only if asked about pill-taking or LMP): missed several pills over the last month; period due 5 days ago and has not come. Has not done a pregnancy test.\n\nPrevious STIs: none, first screen. HPV vaccine at school. Cervical screening not yet due.\n\nPMH: nil. Meds: combined pill. Allergies: nil. Social: retail worker, drinks at weekends, no drugs. Feels safe with Jake; no violence or coercion.\n\nIdeas: thinks chlamydia means she is 'dirty'. Concerns: Jake finding out about the festival; infertility. Expectations: tablets and for it to 'go away quietly'.\n\nPartner notification: refuses to tell Jake at first. Becomes willing if told she can use the anonymous 'Let Them Know' website, or that the clinic can notify contacts without naming her, and that Jake will reinfect her if untreated."
+    },
+    "keySteps": [
+      "Takes a non-judgemental sexual history covering partners in the last 6 months, sites of exposure, condom use and PID symptoms",
+      "Asks about LMP and contraception and arranges a pregnancy test before prescribing",
+      "Explains treatment: doxycycline 100 mg twice daily for 7 days if not pregnant (azithromycin if pregnant), no sex for 7 days and until partners are treated, retest at 3 months",
+      "Explains the need to notify partners from the last 6 months and offers options including anonymous notification (Let Them Know) or provider-assisted notification, while respecting confidentiality"
+    ],
+    "domains": [
+      {
+        "name": "Approach to patient",
+        "expectations": "Non-judgemental, explains why personal questions are asked, normalises that chlamydia is common, and assures confidentiality and its limits."
+      },
+      {
+        "name": "History",
+        "expectations": "Covers partners (number, gender, timing), practices and sites, condom use, symptoms including PID, contraception and pregnancy risk, previous STIs, vaccination, drug use, and safety or coercion."
+      },
+      {
+        "name": "Management",
+        "expectations": "Pregnancy test first; doxycycline (or azithromycin if pregnant); test of cure only if pregnant; retest at 3 months; await HIV and syphilis; notes chlamydia is notifiable to the health department; condoms and safer sex advice."
+      },
+      {
+        "name": "Partner notification",
+        "expectations": "Identifies all contacts in 6 months, explains the reasons (reinfection, protecting partners), offers patient-led, anonymous or provider-assisted options, and does not breach confidentiality."
+      }
+    ],
+    "expectedDiagnosis": "Asymptomatic genital chlamydia infection; possible pregnancy",
+    "teachingPoints": [
+      "Chlamydia is the most commonly notified STI in Australia and is usually asymptomatic.",
+      "First-line treatment is doxycycline 100 mg twice daily for 7 days; azithromycin 1 g is used in pregnancy.",
+      "Partner notification covers the last 6 months for chlamydia; Let Them Know allows anonymous notification by SMS or email.",
+      "Retest at 3 months for reinfection; test of cure is recommended in pregnancy."
+    ]
+  },
+  {
+    "id": "st-gynae-oncology-1",
+    "title": "Postmenopausal bleeding in a 64-year-old",
+    "discipline": "womens-health",
+    "topic": "gynae-oncology",
+    "difficulty": "medium",
+    "area": "examination",
+    "setting": "GP clinic, regional Victoria (Bendigo)",
+    "candidateBrief": "You are a general practitioner in Bendigo. Mrs Margaret Kelly, a 64-year-old woman, presents with two episodes of vaginal spotting over the past month. Her periods stopped at 52. She has type 2 diabetes and hypertension. BMI 37 kg/m2. BP 138/84 mmHg, HR 76. Urine pregnancy test not indicated. A chaperone is available.",
+    "tasks": [
+      {
+        "task": "Ask briefly about relevant risk factors",
+        "minutes": 1
+      },
+      {
+        "task": "Perform a focused examination, telling the examiner what you are doing and looking for",
+        "minutes": 4
+      },
+      {
+        "task": "Explain your findings and the next steps",
+        "minutes": 3
+      }
+    ],
+    "patient": {
+      "name": "Margaret Kelly",
+      "age": 64,
+      "sex": "female",
+      "persona": "Polite, modest retired bank officer, embarrassed by the examination. Worried but tries to downplay it ('it's probably nothing'). Mentions tamoxifen only if asked about medications.",
+      "openingLine": "I feel a bit silly coming in, it was only a bit of spotting. But my daughter made me book in.",
+      "script": "Bleeding: two episodes of light pink-brown spotting in the past month, on underwear, lasting 1-2 days each. No clots. No post-coital bleeding (not sexually active for several years). Mild watery discharge. No pelvic pain, bloating, weight loss, urinary or bowel symptoms.\n\nGynae: menopause at 52. G1 P1. Cervical screening last done at 60, normal. Never used HRT.\n\nPMH: type 2 diabetes (HbA1c 7.8%), hypertension. HIDDEN CUE (only if asked about medications or past history): breast cancer 3 years ago (lumpectomy and radiotherapy), taking tamoxifen daily since. Also metformin, perindopril, atorvastatin. Allergies: nil.\n\nFamily history: no known bowel, endometrial or ovarian cancer.\n\nSocial: widowed, lives alone, non-smoker, occasional sherry. Drives.\n\nIdeas: thinks it's 'just dryness'. Concerns: cancer coming back ('I don't think I could go through all that again'). Expectations: a cream. Agrees to examination if consent is obtained and a chaperone offered.\n\nWhen told that further tests are needed to rule out a problem with the lining of the womb, she asks: 'Is it cancer?' and 'Is it because of the tablet I'm on?'",
+      "examFindings": "General: obese, well, not pale. No lymphadenopathy (cervical, supraclavicular, inguinal).\nAbdomen: obese, soft, non-tender, no masses, no ascites, no hepatomegaly.\nVulva: mild atrophic changes, no lesions or ulcers.\nSpeculum (with consent and chaperone): pale atrophic vaginal walls; cervix appears healthy with no visible lesion; a small amount of fresh blood coming through the os.\nBimanual: uterus normal size, anteverted, mobile, non-tender; no adnexal masses; no cervical motion tenderness.\nOther systems normal."
+    },
+    "keySteps": [
+      "Obtains consent and offers a chaperone before the pelvic examination",
+      "Performs abdominal, speculum (inspecting the cervix and source of bleeding) and bimanual examination, and checks lymph nodes",
+      "Identifies tamoxifen, obesity and diabetes as risk factors for endometrial cancer",
+      "Arranges urgent transvaginal ultrasound and gynaecology referral for endometrial sampling, and a cervical co-test because she is symptomatic"
+    ],
+    "domains": [
+      {
+        "name": "Choice and technique of examination",
+        "expectations": "Explains each step, positions and drapes appropriately, examines general, lymph nodes, abdomen, vulva, speculum and bimanual in a logical order."
+      },
+      {
+        "name": "Accuracy of examination",
+        "expectations": "Correctly reports atrophic changes, a normal-looking cervix and bleeding from the os, indicating a uterine source, and no pelvic mass."
+      },
+      {
+        "name": "Diagnosis",
+        "expectations": "Postmenopausal bleeding is endometrial cancer until proven otherwise; differentials include atrophic vaginitis, endometrial polyp or hyperplasia (more likely with tamoxifen), and cervical pathology."
+      },
+      {
+        "name": "Management and communication",
+        "expectations": "Honest, calm explanation; urgent TVUS (endometrial thickness over 4 mm, or any concern on tamoxifen, prompts sampling); urgent gynaecology referral for hysteroscopy and biopsy; clinician-collected co-test; informs her oncology team; does not attribute bleeding to atrophy without investigation; safety-nets for heavy bleeding."
+      }
+    ],
+    "expectedDiagnosis": "Postmenopausal bleeding in a woman on tamoxifen; endometrial cancer must be excluded",
+    "teachingPoints": [
+      "Postmenopausal bleeding is endometrial cancer until proven otherwise and needs prompt TVUS and referral.",
+      "Risk factors for endometrial cancer: obesity, diabetes, unopposed oestrogen, tamoxifen, nulliparity and Lynch syndrome.",
+      "Tamoxifen thickens the endometrium, so ultrasound thickness is less reliable; symptomatic women on tamoxifen need hysteroscopy and biopsy.",
+      "A symptomatic woman needs a clinician-collected co-test (HPV and cytology), not a routine screening test."
+    ]
+  }
+]

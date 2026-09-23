@@ -9,9 +9,17 @@ import { useStore } from "@/lib/store";
 import type { Difficulty, Discipline, Question } from "@/lib/types";
 import { QuestionView } from "@/components/QuestionView";
 import { useLessonBank } from "@/hooks/useLessonBank";
+import { QuestionTimer } from "@/components/QuestionTimer";
 import { Bar, Button, Chip, Empty, PageHeader, Panel } from "@/components/ui";
 
 type Source = "all" | "unseen" | "mistakes" | "saved" | "ai";
+
+const LEVELS: { id: Difficulty | "any"; label: string }[] = [
+  { id: "any", label: "Any" },
+  { id: "foundation", label: "Easy" },
+  { id: "core", label: "Medium" },
+  { id: "exam", label: "Hard" },
+];
 
 const SOURCES: { id: Source; label: string }[] = [
   { id: "all", label: "All questions" },
@@ -77,6 +85,7 @@ function Setup({
   const [topic, setTopic] = useState<string>(initialTopic ?? "");
   const [source, setSource] = useState<Source>("all");
   const [count, setCount] = useState(10);
+  const [level, setLevel] = useState<Difficulty | "any">("any");
 
   const pool = useMemo(() => {
     let qs = [...QUESTIONS, ...(bank?.quiz ?? []), ...aiQuestions];
@@ -86,12 +95,13 @@ function Setup({
     }
     if (discs.length) qs = qs.filter((q) => discs.includes(q.discipline));
     if (topic) qs = qs.filter((q) => q.topic === topic);
+    if (level !== "any") qs = qs.filter((q) => q.difficulty === level);
     if (source === "unseen") qs = qs.filter((q) => !attempts[q.id]);
     if (source === "mistakes") qs = qs.filter((q) => attempts[q.id] && !attempts[q.id].lastCorrect);
     if (source === "saved") qs = qs.filter((q) => bookmarks.includes(q.id));
     if (source === "ai") qs = qs.filter((q) => q.id.startsWith("ai-"));
     return qs;
-  }, [discs, topic, source, attempts, bookmarks, aiQuestions, subject, bank]);
+  }, [discs, topic, source, attempts, bookmarks, aiQuestions, subject, bank, level]);
 
   const topics = SYLLABUS.filter((t) => !discs.length || discs.includes(t.discipline));
   const toggleDisc = (d: Discipline) => {
@@ -159,6 +169,17 @@ function Setup({
               {SOURCES.map((s) => (
                 <Chip key={s.id} active={source === s.id} onClick={() => setSource(s.id)}>
                   {s.label}
+                </Chip>
+              ))}
+            </div>
+          </fieldset>
+
+          <fieldset className="mt-5">
+            <legend className="mb-2 text-sm font-medium text-muted">Difficulty</legend>
+            <div className="flex flex-wrap gap-2">
+              {LEVELS.map((l) => (
+                <Chip key={l.id} active={level === l.id} onClick={() => setLevel(l.id)}>
+                  {l.label}
                 </Chip>
               ))}
             </div>
@@ -272,11 +293,11 @@ function Generator({ defaultTopic, onStart }: { defaultTopic?: string; onStart: 
               aria-pressed={difficulty === d}
               onClick={() => setDifficulty(d)}
               className={clsx(
-                "rounded-full border px-3 py-1.5 text-sm capitalize",
+                "rounded-full border px-3 py-1.5 text-sm",
                 difficulty === d ? "border-[var(--ochre)] bg-[var(--ochre)] text-sky" : "border-white/20 text-sky-muted",
               )}
             >
-              {d === "exam" ? "Exam-hard" : d}
+              {d === "foundation" ? "Easy" : d === "core" ? "Medium" : "Hard"}
             </button>
           ))}
           <span className="mx-1 w-px bg-white/15" />
@@ -349,9 +370,11 @@ function Session({
   onQuit: () => void;
 }) {
   const record = useStore((s) => s.recordAnswer);
+  const timerOn = useStore((s) => s.settings?.quizTimer ?? true);
   const [i, setI] = useState(0);
   const [picked, setPicked] = useState<number | null>(null);
   const [revealed, setRevealed] = useState(false);
+  const [timedOut, setTimedOut] = useState(false);
   const [log, setLog] = useState<{ q: Question; picked: number | null }[]>([]);
   const q = questions[i];
 
@@ -362,11 +385,21 @@ function Session({
     setLog((l) => [...l, { q, picked }]);
   }, [picked, revealed, q, record]);
 
+  // Out of time: lock in whatever is chosen; no answer counts as wrong, as in the exam.
+  const expire = useCallback(() => {
+    if (revealed) return;
+    setTimedOut(true);
+    setRevealed(true);
+    record(q, picked === q.answer);
+    setLog((l) => [...l, { q, picked }]);
+  }, [revealed, q, picked, record]);
+
   const next = useCallback(() => {
     if (i + 1 >= questions.length) return onDone(log);
     setI(i + 1);
     setPicked(null);
     setRevealed(false);
+    setTimedOut(false);
     window.scrollTo({ top: 0 });
   }, [i, questions.length, log, onDone]);
 
@@ -391,6 +424,7 @@ function Session({
     <div className="mx-auto max-w-3xl">
       <div className="mb-6 flex items-center gap-4">
         <Bar value={((i + (revealed ? 1 : 0)) / questions.length) * 100} className="flex-1" />
+        {timerOn && <QuestionTimer resetKey={q.id} running={!revealed} onExpire={expire} />}
         <span className="text-sm tabular-nums text-muted">
           {score}/{log.length} correct
         </span>
@@ -402,7 +436,7 @@ function Session({
       <div className="sticky bottom-16 mt-6 flex items-center justify-between gap-3 border-t border-line bg-paper py-3 lg:bottom-0 lg:py-4">
         {revealed ? (
           <span className={clsx("font-semibold", picked === q.answer ? "text-ok" : "text-bad")} aria-live="polite">
-            {picked === q.answer ? "Correct" : `Answer: ${"ABCDE"[q.answer]}`}
+            {picked === q.answer ? "Correct" : timedOut && picked === null ? `Time's up. Answer: ${"ABCDE"[q.answer]}` : `Answer: ${"ABCDE"[q.answer]}`}
             <span className="ml-2 hidden font-normal text-muted sm:inline">Explanation below</span>
           </span>
         ) : (

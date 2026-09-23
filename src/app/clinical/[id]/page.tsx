@@ -4,24 +4,33 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import { useCallback, useEffect, useRef, useState } from "react";
 import clsx from "clsx";
-import { ArrowLeft, Mic, MicOff, Send, Volume2, VolumeX } from "lucide-react";
-import { stationById } from "@/lib/content";
+import { ArrowLeft, Check, Mic, MicOff, Send, Volume2, VolumeX, X } from "lucide-react";
+import { STATIONS, stationById } from "@/lib/content";
 import { useStore } from "@/lib/store";
+import { AREA_LABEL, LEVEL, READ_SECS, STATION_SECS } from "@/lib/stations";
 import { useStream } from "@/hooks/useStream";
 import { useSpeech } from "@/hooks/useSpeech";
 import { Markdown } from "@/components/Markdown";
-import { Button, Empty } from "@/components/ui";
+import { Button, ButtonLink, Empty } from "@/components/ui";
+import type { OsceStation } from "@/lib/types";
 import type { OsceFeedback } from "@/app/api/feedback/route";
 
 type Phase = "brief" | "station" | "marking" | "feedback";
 type Turn = { role: "user" | "assistant"; content: string };
 
-const READ_SECS = 120;
-const STATION_SECS = 480;
-
-function clock(s: number) {
+const clock = (s: number) => {
   const v = Math.max(0, s);
   return `${Math.floor(v / 60)}:${(v % 60).toString().padStart(2, "0")}`;
+};
+
+/** Index of the task the candidate should be on, from the suggested timings. */
+function taskAt(station: OsceStation, elapsed: number) {
+  let t = 0;
+  for (let i = 0; i < station.tasks.length; i++) {
+    t += station.tasks[i].minutes * 60;
+    if (elapsed < t) return i;
+  }
+  return station.tasks.length - 1;
 }
 
 export default function StationPage() {
@@ -35,21 +44,26 @@ export default function StationPage() {
   const [feedback, setFeedback] = useState<OsceFeedback | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [voiceOut, setVoiceOut] = useState(false);
+  const [prompt, setPrompt] = useState<string | null>(null);
   const startedAt = useRef(0);
+  const lastTask = useRef(0);
   const scroller = useRef<HTMLDivElement>(null);
   const patient = useStream();
   const speech = useSpeech((finalText) => setInput((v) => (v ? v + " " : "") + finalText));
 
-  const beginStation = useCallback(() => {
+  const elapsed = STATION_SECS - left;
+  const current = station && phase === "station" ? taskAt(station, elapsed) : 0;
+
+  const beginStation = () => {
     if (!station) return;
     setPhase("station");
     setLeft(STATION_SECS);
     startedAt.current = Date.now();
+    lastTask.current = 0;
     setTurns([{ role: "assistant", content: station.patient.openingLine }]);
-  }, [station]);
+  };
 
-  const finish = useCallback(
-    async (transcript: Turn[]) => {
+  const finish = async (transcript: Turn[]) => {
       if (!station) return;
       speech.stop();
       window.speechSynthesis?.cancel();
@@ -59,37 +73,45 @@ export default function StationPage() {
         const res = await fetch("/api/feedback", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            stationId: station.id,
-            transcript,
-            seconds: Math.round((Date.now() - startedAt.current) / 1000),
-          }),
+          body: JSON.stringify({ stationId: station.id, transcript, seconds: Math.round((Date.now() - startedAt.current) / 1000) }),
         });
         const data = await res.json();
         if (!res.ok) throw new Error(data.error || "Marking failed");
-        setFeedback(data);
-        addOsce({ stationId: station.id, at: Date.now(), score: Math.round(data.overallScore), rating: data.globalRating });
+        const g = Math.max(1, Math.min(7, Math.round(data.globalRating)));
+        setFeedback({ ...data, globalRating: g });
+        addOsce({ stationId: station.id, at: Date.now(), score: Math.round((g / 7) * 100), rating: `${g}/7`, global: g });
         setPhase("feedback");
       } catch (e) {
         setError((e as Error).message);
       }
-    },
-    [station, addOsce, speech],
-  );
+  };
 
-  // One ticking clock drives both reading time and station time.
   useEffect(() => {
     if (phase !== "brief" && phase !== "station") return;
     const t = setInterval(() => setLeft((l) => l - 1), 1000);
     return () => clearInterval(t);
   }, [phase]);
 
+  // When the clock runs out: reading time rolls into the station, the station ends and is marked.
+  const latest = useRef({ beginStation, finish, turns });
+  useEffect(() => {
+    latest.current = { beginStation, finish, turns };
+  });
   useEffect(() => {
     if (left > 0) return;
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    if (phase === "brief") beginStation();
-    else if (phase === "station") finish(turns);
-  }, [left, phase, beginStation, finish, turns]);
+    if (phase === "brief") latest.current.beginStation();
+    else if (phase === "station") latest.current.finish(latest.current.turns);
+  }, [left, phase]);
+
+  // Time prompts, as in the real exam: nudge the candidate on when a task's suggested time is up.
+  useEffect(() => {
+    if (!station || phase !== "station" || current === lastTask.current) return;
+    lastTask.current = current;
+    const task = station.tasks[current].task;
+    setPrompt(`Time prompt: please move on to ${task.charAt(0).toLowerCase()}${task.slice(1)}.`);
+    const t = setTimeout(() => setPrompt(null), 9000);
+    return () => clearTimeout(t);
+  }, [current, phase, station]);
 
   useEffect(() => {
     scroller.current?.scrollTo({ top: scroller.current.scrollHeight, behavior: "smooth" });
@@ -102,7 +124,6 @@ export default function StationPage() {
       const voices = window.speechSynthesis.getVoices();
       const au = voices.find((v) => v.lang === "en-AU") ?? voices.find((v) => v.lang.startsWith("en"));
       if (au) u.voice = au;
-      u.rate = 1.02;
       window.speechSynthesis.speak(u);
     },
     [voiceOut],
@@ -124,34 +145,40 @@ export default function StationPage() {
   };
 
   if (!station) return <Empty title="Station not found" />;
+  const name = station.patient.role ? station.patient.name : station.patient.name.split(" ")[0];
 
   if (phase === "brief")
     return (
       <Shell title={station.title} timer={`Reading ${clock(left)}`}>
-        <div className="mx-auto max-w-2xl px-4 py-10">
-          <h1 className="text-2xl font-semibold tracking-tight">Candidate brief</h1>
-          <p className="mt-4 whitespace-pre-line font-serif text-[1.12rem] leading-[1.75]">{station.candidateBrief}</p>
-          {!/your tasks/i.test(station.candidateBrief) && (
-            <>
-              <h2 className="mt-8 font-semibold">Your tasks</h2>
-              <ol className="mt-2 list-decimal pl-5 font-serif text-[1.05rem] leading-relaxed">
-                {station.tasks.map((t) => (
-                  <li key={t}>{t}</li>
-                ))}
-              </ol>
-            </>
-          )}
-          <div className="mt-10 flex flex-wrap items-center gap-4">
+        <div className="mx-auto w-full max-w-2xl overflow-y-auto px-4 py-8">
+          <div className="flex flex-wrap items-center gap-2 text-sm">
+            <span className={clsx("rounded-full px-2 py-0.5 text-xs font-medium", LEVEL[station.difficulty].cls)}>{LEVEL[station.difficulty].label}</span>
+            <span className="text-muted">
+              {AREA_LABEL[station.area]} station, {station.setting}
+            </span>
+          </div>
+          <p className="mt-4 font-serif text-[1.12rem] leading-[1.75]">{station.candidateBrief}</p>
+          <h2 className="mt-7 font-semibold">Your tasks</h2>
+          <ol className="mt-3 flex flex-col gap-2">
+            {station.tasks.map((t, i) => (
+              <li key={t.task} className="flex items-baseline gap-3 rounded-xl bg-surface px-4 py-3">
+                <span className="font-semibold text-brand">{i + 1}</span>
+                <span className="flex-1 font-serif leading-snug">{t.task}</span>
+                <span className="shrink-0 text-sm tabular-nums text-muted">{t.minutes} min</span>
+              </li>
+            ))}
+          </ol>
+          <div className="mt-8 flex flex-wrap items-center gap-4">
             <Button onClick={beginStation}>Enter the room</Button>
             <label className="flex items-center gap-2 text-muted">
               <input type="checkbox" checked={voiceOut} onChange={(e) => setVoiceOut(e.target.checked)} className="accent-[var(--brand)]" />
-              Patient speaks replies aloud
+              {name} speaks replies aloud
             </label>
           </div>
-          <p className="mt-6 text-sm text-muted">
-            Tip: start as you would in Australia. &ldquo;Hi, I&rsquo;m Dr ___, one of the doctors here. Is it okay if I ask
-            you some questions today?&rdquo; For examination stations, say what you&rsquo;re examining, for example
-            &ldquo;I&rsquo;d like to examine the abdomen&rdquo;.
+          <p className="mt-5 text-sm text-muted">
+            You&rsquo;ll get a time prompt when each task&rsquo;s time is up.{" "}
+            {station.area === "examination" && "Say what you examine (\"I'd like to examine the abdomen\") and the findings appear. "}
+            Finish early whenever you&rsquo;re done.
           </p>
         </div>
       </Shell>
@@ -164,74 +191,75 @@ export default function StationPage() {
         timer={clock(left)}
         urgent={left < 60}
         right={
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1.5">
             <button
               onClick={() => {
                 setVoiceOut(!voiceOut);
                 window.speechSynthesis?.cancel();
               }}
-              aria-label={voiceOut ? "Mute patient voice" : "Let the patient speak aloud"}
+              aria-label={voiceOut ? "Mute voice" : "Speak replies aloud"}
               className="rounded-full p-2 text-muted hover:bg-sunk"
             >
               {voiceOut ? <Volume2 size={18} /> : <VolumeX size={18} />}
             </button>
             <Button size="sm" variant="outline" onClick={() => finish(turns)}>
-              Finish station
+              Finish
             </Button>
           </div>
         }
       >
-        <div className="flex min-h-0 flex-1 flex-col">
-          <details className="border-b border-line bg-sunk px-4 py-2 text-sm sm:px-8">
-            <summary className="cursor-pointer text-muted">Show the brief</summary>
-            <p className="mt-2 max-w-3xl font-serif">{station.candidateBrief}</p>
-          </details>
-          <div ref={scroller} className="flex-1 overflow-y-auto px-4 py-6 sm:px-8">
-            <div className="mx-auto flex max-w-2xl flex-col gap-3">
-              {turns.map((t, i) => (
-                <Bubble key={i} turn={t} name={station.patient.name} />
-              ))}
-              {patient.loading && (
-                <Bubble turn={{ role: "assistant", content: patient.text || "…" }} name={station.patient.name} streaming />
-              )}
-              {patient.error && <p className="text-bad">{patient.error}</p>}
-            </div>
+        <TaskTrack station={station} current={current} elapsed={elapsed} />
+        {prompt && (
+          <div className="rise mx-auto flex w-full max-w-2xl items-start gap-3 px-4 pt-3" role="status">
+            <p className="flex-1 rounded-xl bg-ochre-soft px-4 py-2.5 text-sm font-medium text-ochre-ink">{prompt}</p>
+            <button aria-label="Dismiss" onClick={() => setPrompt(null)} className="mt-1.5 rounded-full p-1 text-muted hover:bg-sunk">
+              <X size={16} />
+            </button>
           </div>
-          <form onSubmit={send} className="border-t border-line bg-paper px-4 py-3 sm:px-8">
-            <div className="mx-auto flex max-w-2xl items-end gap-2">
-              {speech.supported && (
-                <button
-                  type="button"
-                  onClick={speech.listening ? speech.stop : speech.start}
-                  aria-label={speech.listening ? "Stop listening" : "Speak"}
-                  aria-pressed={speech.listening}
-                  className={clsx(
-                    "grid h-11 w-11 shrink-0 place-items-center rounded-full border",
-                    speech.listening ? "border-bad bg-bad text-white" : "border-line bg-surface hover:border-brand",
-                  )}
-                >
-                  {speech.listening ? <MicOff size={18} /> : <Mic size={18} />}
-                </button>
-              )}
-              <textarea
-                value={speech.listening && speech.interim ? `${input} ${speech.interim}`.trim() : input}
-                onChange={(e) => setInput(e.target.value)}
-                onKeyDown={(e) => {
-                  if (e.key === "Enter" && !e.shiftKey) {
-                    e.preventDefault();
-                    send();
-                  }
-                }}
-                rows={1}
-                placeholder={speech.listening ? "Listening…" : "Speak to the patient"}
-                className="max-h-40 min-h-11 flex-1 resize-none rounded-2xl border border-line bg-surface px-4 py-2.5 outline-none focus:border-brand"
-              />
-              <Button type="submit" className="h-11 w-11 shrink-0 px-0" aria-label="Send" disabled={!input.trim() || patient.loading}>
-                <Send size={17} />
-              </Button>
-            </div>
-          </form>
+        )}
+        <div ref={scroller} className="min-h-0 flex-1 overflow-y-auto px-4 py-5 sm:px-8">
+          <div className="mx-auto flex max-w-2xl flex-col gap-3">
+            {turns.map((t, i) => (
+              <Bubble key={i} turn={t} name={name} />
+            ))}
+            {patient.loading && <Bubble turn={{ role: "assistant", content: patient.text || "…" }} name={name} streaming />}
+            {patient.error && <p className="text-bad">{patient.error}</p>}
+          </div>
         </div>
+        <form onSubmit={send} className="border-t border-line bg-paper px-4 py-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] sm:px-8">
+          <div className="mx-auto flex max-w-2xl items-end gap-2">
+            {speech.supported && (
+              <button
+                type="button"
+                onClick={speech.listening ? speech.stop : speech.start}
+                aria-label={speech.listening ? "Stop listening" : "Speak"}
+                aria-pressed={speech.listening}
+                className={clsx(
+                  "grid h-11 w-11 shrink-0 place-items-center rounded-full border",
+                  speech.listening ? "border-bad bg-bad text-white" : "border-line bg-surface hover:border-brand",
+                )}
+              >
+                {speech.listening ? <MicOff size={18} /> : <Mic size={18} />}
+              </button>
+            )}
+            <textarea
+              value={speech.listening && speech.interim ? `${input} ${speech.interim}`.trim() : input}
+              onChange={(e) => setInput(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" && !e.shiftKey) {
+                  e.preventDefault();
+                  send();
+                }
+              }}
+              rows={1}
+              placeholder={speech.listening ? "Listening…" : `Speak to ${name}`}
+              className="max-h-40 min-h-11 flex-1 resize-none rounded-2xl border border-line bg-surface px-4 py-2.5 outline-none focus:border-brand"
+            />
+            <Button type="submit" className="h-11 w-11 shrink-0 px-0" aria-label="Send" disabled={!input.trim() || patient.loading}>
+              <Send size={17} />
+            </Button>
+          </div>
+        </form>
       </Shell>
     );
 
@@ -248,30 +276,44 @@ export default function StationPage() {
             </>
           ) : (
             <>
-              <p className="text-xl font-semibold">The examiner is marking your station</p>
-              <p className="mt-2 text-muted">Reading the transcript against the criteria. This takes up to a minute.</p>
+              <p className="text-xl font-semibold">Marking your station</p>
+              <p className="mt-2 text-muted">Key steps, domains and a global rating, the way AMC examiners mark. Up to a minute.</p>
             </>
           )}
         </div>
       </Shell>
     );
 
-  return <Feedback station={station} fb={feedback!} turns={turns} />;
+  return <Feedback station={station} fb={feedback!} turns={turns} name={name} />;
 }
 
-function Shell({
-  title,
-  timer,
-  urgent,
-  right,
-  children,
-}: {
-  title: string;
-  timer?: string;
-  urgent?: boolean;
-  right?: React.ReactNode;
-  children: React.ReactNode;
-}) {
+function TaskTrack({ station, current, elapsed }: { station: OsceStation; current: number; elapsed: number }) {
+  const starts = station.tasks.reduce<number[]>((acc, t, i) => [...acc, i === 0 ? 0 : acc[i - 1] + station.tasks[i - 1].minutes * 60], []);
+  return (
+    <div className="border-b border-line bg-surface px-4 py-2.5 sm:px-8">
+      <div className="mx-auto max-w-2xl">
+        <div className="flex gap-1" aria-hidden>
+          {station.tasks.map((t, i) => {
+            const pct = Math.max(0, Math.min(100, ((elapsed - starts[i]) / (t.minutes * 60)) * 100));
+            return (
+              <div key={t.task} className="h-1.5 overflow-hidden rounded-full bg-ink/10" style={{ flex: t.minutes }}>
+                <div className={clsx("h-full", i < current ? "bg-brand" : i === current ? "bg-ochre" : "")} style={{ width: `${i < current ? 100 : i === current ? pct : 0}%` }} />
+              </div>
+            );
+          })}
+        </div>
+        <p className="mt-1.5 truncate text-sm">
+          <span className="text-muted">
+            Task {current + 1} of {station.tasks.length}:
+          </span>{" "}
+          <span className="font-medium">{station.tasks[current].task}</span>
+        </p>
+      </div>
+    </div>
+  );
+}
+
+function Shell({ title, timer, urgent, right, children }: { title: string; timer?: string; urgent?: boolean; right?: React.ReactNode; children: React.ReactNode }) {
   return (
     <div className="flex h-dvh flex-col">
       <header className="flex items-center justify-between gap-3 border-b border-line px-4 py-3 sm:px-8">
@@ -279,7 +321,7 @@ function Shell({
           <ArrowLeft size={16} className="shrink-0" />
           <span className="truncate">{title}</span>
         </Link>
-        <div className="flex items-center gap-3">
+        <div className="flex shrink-0 items-center gap-3">
           {timer && <span className={clsx("whitespace-nowrap font-semibold tabular-nums", urgent && "text-bad")}>{timer}</span>}
           {right}
         </div>
@@ -291,7 +333,6 @@ function Shell({
 
 function Bubble({ turn, name, streaming }: { turn: Turn; name: string; streaming?: boolean }) {
   const me = turn.role === "user";
-  // The role-player reports exam findings on lines starting with [Examiner].
   const parts = turn.content.split(/\n(?=\[Examiner\])|(?=\[Examiner\])/);
   return (
     <div className={clsx("flex flex-col gap-1", me ? "items-end" : "items-start")}>
@@ -319,112 +360,119 @@ function Bubble({ turn, name, streaming }: { turn: Turn; name: string; streaming
   );
 }
 
-function Feedback({ station, fb, turns }: { station: NonNullable<ReturnType<typeof stationById>>; fb: OsceFeedback; turns: Turn[] }) {
-  const [showTranscript, setShowTranscript] = useState(false);
-  const tone =
-    fb.globalRating === "Clear pass" || fb.globalRating === "Pass" ? "text-ok" : fb.globalRating === "Borderline" ? "text-ochre-ink" : "text-bad";
-  const statusStyle = { met: "bg-ok", partial: "bg-ochre", missed: "bg-bad" } as const;
+function Feedback({ station, fb, turns, name }: { station: OsceStation; fb: OsceFeedback; turns: Turn[]; name: string }) {
+  const pass = fb.globalRating >= 4;
+  const [next] = useState(() => {
+    const same = STATIONS.filter((s) => s.id !== station.id && s.difficulty === station.difficulty);
+    return same[Math.floor(Math.random() * same.length)];
+  });
 
   return (
-    <div className="mx-auto max-w-4xl px-4 py-8 sm:px-8">
+    <div className="mx-auto max-w-2xl px-4 py-8">
       <Link href="/clinical" className="mb-6 inline-flex items-center gap-1.5 text-muted hover:text-ink">
         <ArrowLeft size={16} /> All stations
       </Link>
-      <header className="mb-8">
+
+      <header className="mb-7">
         <p className="text-muted">{station.title}</p>
-        <h1 className="mt-1 text-4xl font-semibold tracking-tight">
-          <span className={tone}>{fb.globalRating}</span>
-          <span className="ml-3 text-muted">{Math.round(fb.overallScore)}%</span>
-        </h1>
-        <p className="mt-3 max-w-2xl font-serif text-[1.1rem] leading-relaxed">{fb.summary}</p>
+        <div className="mt-2 flex items-end gap-4">
+          <span className={clsx("text-6xl font-semibold tabular-nums tracking-tight", pass ? "text-ok" : "text-bad")}>
+            {fb.globalRating}
+            <span className="text-2xl text-muted">/7</span>
+          </span>
+          <span className={clsx("mb-2 rounded-full px-3 py-1 font-semibold", pass ? "bg-ok-soft text-ok" : "bg-bad-soft text-bad")}>{pass ? "Pass" : "Not yet"}</span>
+        </div>
+        <p className="mt-3 font-serif text-[1.08rem] leading-relaxed">{fb.verdict}</p>
+        <p className="mt-2 text-sm text-muted">Global rating on the AMC scale: 4 or more passes the station.</p>
       </header>
 
-      <section className="mb-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-        {fb.domains.map((d) => (
-          <div key={d.name} className="rounded-2xl border border-line bg-surface p-4">
-            <div className="flex items-baseline justify-between gap-2">
-              <h2 className="font-medium">{d.name}</h2>
-              <span className="tabular-nums text-muted">{d.score}/5</span>
-            </div>
-            <div className="mt-2 flex gap-1" aria-hidden>
-              {[1, 2, 3, 4, 5].map((n) => (
-                <span key={n} className={clsx("h-1.5 flex-1 rounded-full", n <= d.score ? "bg-brand" : "bg-sunk")} />
-              ))}
-            </div>
-            <p className="mt-3 text-sm leading-relaxed text-muted">{d.comment}</p>
-          </div>
-        ))}
-      </section>
-
-      <div className="mb-8 grid gap-6 md:grid-cols-2">
-        <section>
-          <h2 className="mb-3 text-lg font-semibold">What went well</h2>
-          <ul className="flex flex-col gap-2 font-serif leading-relaxed">
-            {fb.strengths.map((s) => (
-              <li key={s} className="border-l-2 border-ok pl-3">{s}</li>
-            ))}
-          </ul>
-        </section>
-        <section>
-          <h2 className="mb-3 text-lg font-semibold">Do this next time</h2>
-          <ul className="flex flex-col gap-2 font-serif leading-relaxed">
-            {fb.improvements.map((s) => (
-              <li key={s} className="border-l-2 border-ochre pl-3">{s}</li>
-            ))}
-          </ul>
-        </section>
-      </div>
-
-      <section className="mb-8">
-        <h2 className="mb-3 text-lg font-semibold">Marking criteria</h2>
-        <ul className="divide-y divide-line rounded-2xl border border-line bg-surface">
-          {fb.criteria.map((c) => (
-            <li key={c.criterion} className="flex gap-3 px-4 py-3">
-              <span className={clsx("mt-2 h-2.5 w-2.5 shrink-0 rounded-full", statusStyle[c.status])} aria-label={c.status} />
-              <div>
-                <div className="font-medium">
-                  {c.criterion} <span className="text-sm font-normal text-muted">({c.status})</span>
-                </div>
-                <div className="text-sm text-muted">{c.evidence}</div>
-              </div>
+      <section className="mb-6">
+        <h2 className="mb-2 font-semibold">Key steps</h2>
+        <ul className="divide-y divide-line overflow-hidden rounded-2xl border border-line bg-surface">
+          {fb.keySteps.map((k) => (
+            <li key={k.step} className="flex gap-3 px-4 py-3">
+              <span className={clsx("mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-full text-white", k.observed ? "bg-ok" : "bg-bad")}>
+                {k.observed ? <Check size={12} strokeWidth={3} /> : <X size={12} strokeWidth={3} />}
+              </span>
+              <span>
+                <span className="block font-medium">{k.step}</span>
+                <span className="text-sm text-muted">{k.note}</span>
+              </span>
             </li>
           ))}
         </ul>
       </section>
 
-      <section className="mb-8 rounded-2xl border border-line bg-surface p-6">
-        <h2 className="mb-3 text-lg font-semibold">How an excellent candidate would run it</h2>
-        <Markdown>{fb.modelAnswer}</Markdown>
-      </section>
-
-      <section className="mb-8 rounded-2xl bg-sunk p-6">
-        <h2 className="mb-2 font-semibold">Teaching points</h2>
-        {station.expectedDiagnosis && (
-          <p className="mb-3">
-            <span className="text-muted">Diagnosis: </span>
-            <span className="font-medium">{station.expectedDiagnosis}</span>
-          </p>
-        )}
-        <ul className="list-disc pl-5 font-serif leading-relaxed">
-          {station.teachingPoints.map((t) => (
-            <li key={t}>{t}</li>
+      <section className="mb-6">
+        <h2 className="mb-2 font-semibold">Domains</h2>
+        <ul className="flex flex-col gap-3 rounded-2xl border border-line bg-surface p-4">
+          {fb.domains.map((d) => (
+            <li key={d.name}>
+              <div className="flex items-baseline justify-between gap-3">
+                <span className="font-medium">{d.name}</span>
+                <span className="tabular-nums text-muted">{d.score}/7</span>
+              </div>
+              <div className="mt-1.5 flex gap-1" aria-hidden>
+                {[1, 2, 3, 4, 5, 6, 7].map((n) => (
+                  <span key={n} className={clsx("h-1.5 flex-1 rounded-full", n <= d.score ? (d.score >= 4 ? "bg-brand" : "bg-bad") : "bg-ink/10")} />
+                ))}
+              </div>
+              <p className="mt-1 text-sm text-muted">{d.comment}</p>
+            </li>
           ))}
         </ul>
       </section>
 
-      <div className="flex flex-wrap gap-3">
-        <Button onClick={() => location.reload()}>Try this station again</Button>
-        <Button variant="outline" onClick={() => setShowTranscript(!showTranscript)}>
-          {showTranscript ? "Hide" : "Show"} transcript
-        </Button>
-      </div>
-      {showTranscript && (
-        <div className="mt-6 flex flex-col gap-3">
-          {turns.map((t, i) => (
-            <Bubble key={i} turn={t} name={station.patient.name} />
+      <section className="mb-6 rounded-2xl bg-ochre-soft p-5">
+        <h2 className="font-semibold text-ochre-ink">Next time, do these three things</h2>
+        <ol className="mt-2 list-decimal pl-5 font-serif leading-relaxed">
+          {fb.fixes.map((f) => (
+            <li key={f}>{f}</li>
           ))}
-        </div>
-      )}
+        </ol>
+      </section>
+
+      <div className="mb-8 flex flex-col gap-3">
+        <Fold title="How an excellent candidate would run it">
+          <Markdown compact>{fb.modelAnswer}</Markdown>
+          {station.expectedDiagnosis && (
+            <p className="mt-4 text-sm">
+              <span className="text-muted">Diagnosis: </span>
+              <span className="font-medium">{station.expectedDiagnosis}</span>
+            </p>
+          )}
+          <ul className="mt-3 list-disc pl-5 text-sm leading-relaxed text-muted">
+            {station.teachingPoints.map((t) => (
+              <li key={t}>{t}</li>
+            ))}
+          </ul>
+        </Fold>
+        <Fold title="Your transcript">
+          <div className="flex flex-col gap-3">
+            {turns.map((t, i) => (
+              <Bubble key={i} turn={t} name={name} />
+            ))}
+          </div>
+        </Fold>
+      </div>
+
+      <div className="flex flex-wrap gap-3">
+        <Button onClick={() => location.reload()}>Try again</Button>
+        {next && (
+          <ButtonLink href={`/clinical/${next.id}`} variant="outline">
+            Another {LEVEL[station.difficulty].label.toLowerCase()} station
+          </ButtonLink>
+        )}
+      </div>
     </div>
+  );
+}
+
+function Fold({ title, children }: { title: string; children: React.ReactNode }) {
+  return (
+    <details className="rounded-2xl border border-line bg-surface">
+      <summary className="cursor-pointer list-none px-5 py-4 font-medium [&::-webkit-details-marker]:hidden">{title}</summary>
+      <div className="border-t border-line px-5 py-5">{children}</div>
+    </details>
   );
 }

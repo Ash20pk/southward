@@ -41,25 +41,36 @@ export interface SyllabusTopic {
   ausContext?: string; // what is different in Australia vs India/elsewhere
 }
 
+// Clinical station, modelled on the AMC Clinical Examination Specifications (V8, April 2025):
+// one predominant assessment area, 3-4 tasks with suggested timings over 8 minutes,
+// 2-5 key steps (observed / not observed), 3-5 domains and a global rating (7-point scales).
+export type StationArea = "history" | "examination" | "diagnosis" | "management";
+export type StationDifficulty = "easy" | "medium" | "hard";
+
 export interface OsceStation {
-  id: string;
+  id: string; // "st-<topic>-<n>"
   title: string; // short, e.g. "Chest pain in a 58-year-old man"
   discipline: Discipline;
-  type: "history" | "examination" | "management" | "counselling" | "diagnosis";
-  candidateBrief: string; // what the candidate reads in the 2-minute reading time
-  tasks: string[]; // the tasks stated in the brief
+  topic: string; // AMC topic id from TOPICS.md
+  difficulty: StationDifficulty;
+  area: StationArea;
+  setting: string; // e.g. "GP clinic, regional Victoria"
+  candidateBrief: string; // the stem read during reading time, 50-110 words, may include obs/results
+  tasks: { task: string; minutes: number }[]; // 3-4 tasks, minutes sum to 8
   patient: {
     name: string;
     age: number;
     sex: "male" | "female";
-    persona: string; // how they talk / emotional state
+    role?: string; // if not the patient, e.g. "mother of 3-year-old Liam"
+    persona: string; // how they speak, emotional state; for hard stations, what makes it hard
     openingLine: string;
-    script: string; // full hidden info: HPI, PMH, meds, allergies, social, family, ICE (ideas/concerns/expectations). Only revealed when asked.
-    examFindings?: string; // for examination stations: what findings are reported when candidate says they examine X
+    script: string; // hidden case facts, revealed only when asked
+    examFindings?: string; // for examination stations: findings reported when examined
   };
-  markingCriteria: string[]; // what an AMC examiner looks for
+  keySteps: string[]; // 2-5 observable, critical actions
+  domains: { name: string; expectations: string }[]; // 3-5 domains with what a pass looks like
   expectedDiagnosis?: string;
-  teachingPoints: string[];
+  teachingPoints: string[]; // 3-5
 }
 
 export interface AusFact {

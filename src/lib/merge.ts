@@ -1,4 +1,4 @@
-import type { Snapshot } from "./store";
+import { DEFAULT_SETTINGS, type Snapshot } from "./store";
 import type { CardState } from "./srs";
 
 /**
@@ -42,6 +42,7 @@ export function mergeProgress(local: Snapshot, remote: Partial<Snapshot> | null 
     lessons: { ...r.lessons, ...local.lessons },
     lessonProgress: mergeLessons(r.lessonProgress, local.lessonProgress),
     lastLesson: local.lastLesson ?? r.lastLesson,
+    settings: local.settings ?? r.settings,
   };
 }
 
@@ -61,6 +62,7 @@ export function emptySnapshot(): Snapshot {
     lessons: {},
     lessonProgress: {},
     lastLesson: null,
+    settings: DEFAULT_SETTINGS,
   };
 }
 

@@ -34,9 +34,21 @@ for (const t of syllabus) {
   }
 }
 
+// Clinical stations: one file per discipline in src/content/stations, combined in blueprint order.
+const stationDir = path.join(root, "src/content/stations");
+const ORDER = ["adult-medicine", "adult-surgery", "womens-health", "child-health", "mental-health", "population-health"];
+const stations = fs.existsSync(stationDir)
+  ? fs
+      .readdirSync(stationDir)
+      .filter((f) => f.endsWith(".json"))
+      .sort((a, b) => ORDER.indexOf(a.replace(".json", "")) - ORDER.indexOf(b.replace(".json", "")))
+      .flatMap((f) => JSON.parse(fs.readFileSync(path.join(stationDir, f), "utf8")))
+  : [];
+
 const write = (name, data) => fs.writeFileSync(path.join(outDir, name), JSON.stringify(data));
+write("stations.json", stations);
 write("course-index.json", index);
 write("lesson-quiz.json", quiz);
 write("lesson-cards.json", cards);
 const lessons = index.reduce((n, t) => n + t.lessons.length, 0);
-console.log(`course: ${index.filter((t) => t.lessons.length).length}/${index.length} topics, ${lessons} lessons, ${quiz.length} quiz questions, ${cards.length} cards`);
+console.log(`course: ${index.filter((t) => t.lessons.length).length}/${index.length} topics, ${lessons} lessons, ${quiz.length} quiz questions, ${cards.length} cards, ${stations.length} stations`);

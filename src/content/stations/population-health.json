@@ -1,0 +1,520 @@
+[
+  {
+    "id": "st-ethics-law-1",
+    "title": "Open disclosure of a medication error",
+    "discipline": "population-health",
+    "topic": "ethics-law",
+    "difficulty": "medium",
+    "area": "management",
+    "setting": "Orthopaedic ward, metropolitan hospital, Sydney",
+    "candidateBrief": "You are an intern on the orthopaedic ward. Mrs Margaret Hughes, 71, is day 2 after an elective total knee replacement. Last night she was given IV cefazolin despite a documented penicillin allergy (urticaria). Within 30 minutes she developed an itchy rash on her chest and arms, which settled with an oral antihistamine. Her observations stayed stable and there was no airway involvement. The incident has been lodged in the hospital's incident management system. Your consultant is aware and has asked you to speak with Mrs Hughes now.",
+    "tasks": [
+      {
+        "task": "Explain to Mrs Hughes what happened",
+        "minutes": 3
+      },
+      {
+        "task": "Respond to her concerns and questions",
+        "minutes": 3
+      },
+      {
+        "task": "Outline what will happen next",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Margaret Hughes",
+      "age": 71,
+      "sex": "female",
+      "persona": "Retired schoolteacher, articulate and polite at first. Becomes sharp and angry once she realises it was a mistake: 'I told three different people I was allergic!' Calms if the doctor apologises plainly, listens and avoids jargon or blaming anyone. Only reveals her worry about her husband if asked what is worrying her most.",
+      "openingLine": "The nurse said you wanted a word about last night. Was it that new drip that gave me the rash?",
+      "script": "What she knows: she got an itchy red rash last night after 'a drip' and was given a tablet. This morning the nurse looked uncomfortable and said a doctor would explain.\n\nAllergy: hives after amoxicillin in 1998. She told the pre-admission clinic, the anaesthetist and the ward nurse, and she is wearing a red allergy band.\n\nNow: rash almost gone, mild itch only. No breathing difficulty, no lip or tongue swelling, no dizziness. Knee sore but walking with the physio. Otherwise well.\n\nPMH: osteoarthritis, hypertension, hypothyroidism. Meds: amlodipine 5 mg, levothyroxine 100 mcg, paracetamol, enoxaparin (post-op), oxycodone PRN. Allergy: penicillin (urticaria).\n\nSocial: married to Ron, 78, who has Alzheimer disease and is in respite care this week. Daughter Sue is a nurse.\n\nHIDDEN CUE 1: Ron has a severe aspirin allergy. If this can happen to her, and she can speak up, she is frightened it could happen to Ron, who cannot. She would like his allergy checked with the respite facility.\n\nHIDDEN CUE 2: she asks 'Who did this? Will the nurse be punished? I want to make a complaint.'\n\nIdeas: suspects a mistake. Concerns: is she safe now, any lasting effects, will it happen again, and Ron. Expectations: a real apology, an honest explanation, what is being done to stop it recurring, and how to complain.\n\nIf the doctor apologises clearly, explains without naming or blaming individuals, and describes the review and prevention steps, she settles and thanks them. If the doctor is defensive, vague or blames a colleague, she gets more upset and says she will 'go to the papers'."
+    },
+    "keySteps": [
+      "Gives a clear, sincere apology early ('I am sorry this happened') without speculating or blaming individuals",
+      "Explains honestly that she was given an antibiotic she should not have received given her documented allergy, and what the reaction means for her now",
+      "Explains that the incident has been reported and will be reviewed, and that she will be told the findings",
+      "Explains her right to complain and how (patient liaison officer, state health complaints body) without being defensive",
+      "Arranges follow-up with the consultant and documents the disclosure conversation"
+    ],
+    "domains": [
+      {
+        "name": "Approach to patient",
+        "expectations": "Introduces self and role, checks she is comfortable and offers a support person, asks what she already knows, lets her express anger without interrupting and acknowledges it."
+      },
+      {
+        "name": "Communication of the incident",
+        "expectations": "Plain, factual account in lay language; confirms the allergy should have prevented the dose; checks for ongoing symptoms (breathing, swelling, itch) and explains monitoring; does not guess at who or why."
+      },
+      {
+        "name": "Response to concerns",
+        "expectations": "Picks up and addresses her fear about Ron by offering to make sure his allergy is flagged with his facility; answers the 'who did it' question by explaining the systems-based review rather than naming staff."
+      },
+      {
+        "name": "Plan and follow-up",
+        "expectations": "Allergy documentation and chart re-checked today, consultant meeting offered, updates on the review promised, complaint pathway given, conversation documented."
+      }
+    ],
+    "expectedDiagnosis": "Mild urticarial reaction to cefazolin given despite a documented penicillin allergy: a medication error requiring open disclosure",
+    "teachingPoints": [
+      "The Australian Open Disclosure Framework (ACSQHC): acknowledge, apologise, give the facts, the consequences and what is being done to prevent recurrence.",
+      "Saying 'I am sorry' is protected by apology provisions in Australian civil liability law and is not an admission of liability.",
+      "Do not speculate or name individuals: the incident goes through clinical governance review and the findings are shared with the patient.",
+      "Complaints can go to the hospital's patient liaison service, then to the state health complaints body (e.g. the HCCC in NSW).",
+      "Document the disclosure: who was present, what was said and what was agreed."
+    ]
+  },
+  {
+    "id": "st-ethics-law-2",
+    "title": "Breaking bad news: CT result after weight loss",
+    "discipline": "population-health",
+    "topic": "ethics-law",
+    "difficulty": "hard",
+    "area": "diagnosis",
+    "setting": "GP clinic, outer suburban Melbourne",
+    "candidateBrief": "You are a GP. Mrs Carol Nguyen, 62, saw you last week with 3 months of weight loss (6 kg), vague upper abdominal discomfort and poor appetite. You arranged bloods and a CT abdomen. Today's results: bilirubin mildly raised, LFTs cholestatic. CT: 3.5 cm mass in the head of the pancreas with several lesions in the liver, highly suspicious for pancreatic cancer with liver metastases. The radiologist has phoned you to discuss. Mrs Nguyen has come alone for her results.",
+    "tasks": [
+      {
+        "task": "Explain the CT result to Mrs Nguyen",
+        "minutes": 4
+      },
+      {
+        "task": "Respond to her concerns",
+        "minutes": 2
+      },
+      {
+        "task": "Outline the next steps",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Carol Nguyen",
+      "age": 62,
+      "sex": "female",
+      "persona": "Warm, practical retired bookkeeper who is quietly terrified. Makes small talk to delay the news. What makes it hard: once she hears 'cancer' she goes silent, then asks bluntly 'Am I going to die? How long have I got?' and later becomes briefly angry ('I should have come in months ago'). She needs silence, warning shots and honesty, but no survival figures unless she asks a second time. If the candidate rushes to logistics she shuts down.",
+      "openingLine": "Hello doctor. I nearly didn't come, you know. My husband's not well today. So, is it good news?",
+      "script": "Symptoms: 6 kg weight loss over 3 months, dull upper abdominal ache going through to the back, poor appetite, some nausea. Over the past week her urine has been darker and her daughter said her eyes look 'a bit yellow'. Itchy skin at night. No vomiting of blood, no black stools. Stools a bit pale.\n\nPMH: type 2 diabetes diagnosed 8 months ago (new, on metformin), hypertension. Meds: metformin 500 mg twice daily, perindopril 5 mg. No allergies. Ex-smoker, quit 15 years ago (20 pack-years). Alcohol rarely.\n\nSocial: lives with husband Tuan, 68, who has Parkinson disease; she is his main carer and does all the driving. Daughter Linh lives 20 minutes away. Born in Vietnam, came to Australia in 1982, fluent English. Catholic.\n\nIdeas: thought it might be gallstones or 'the diabetes'. Concerns: cancer (her brother died of liver cancer), and above all who will care for Tuan. Expectations: wants the truth.\n\nHIDDEN CUE 1: when asked what matters most or who supports her, she says 'Who will look after Tuan if something happens to me?' She has not told Linh about the tests.\n\nHIDDEN CUE 2: at the end she says she will drive straight home. She is shaky and tearful. A good candidate checks she is safe to drive and offers to call Linh to collect her.\n\nIf given a specific prognosis she did not request, she becomes more distressed. If asked, she would like her daughter at the next appointment. She agrees to an urgent specialist appointment if it is explained clearly."
+    },
+    "keySteps": [
+      "Sets up the conversation (private, uninterrupted), checks what she understands and gives a warning shot before the news",
+      "States clearly in plain language that the scan shows a growth in the pancreas that has spread to the liver and is very likely cancer, then pauses to allow a response",
+      "Responds to the prognosis question honestly without false reassurance or unrequested numbers, explaining that confirmation and staging come next",
+      "Arranges urgent referral to a hepatobiliary or upper GI multidisciplinary team (with tissue diagnosis) and an early review appointment",
+      "Addresses her immediate safety and support: checks she is safe to drive home and offers to contact her daughter"
+    ],
+    "domains": [
+      {
+        "name": "Approach to patient",
+        "expectations": "Uses a structured approach such as SPIKES: setting, perception, invitation, knowledge, empathy, summary. Tolerates silence, acknowledges emotion, avoids jargon and offers tissues or a pause."
+      },
+      {
+        "name": "Explanation of the diagnosis",
+        "expectations": "Explains the CT finding, the jaundice and itch, and that a biopsy is needed to confirm; says 'cancer' rather than euphemisms; checks understanding."
+      },
+      {
+        "name": "Response to concerns",
+        "expectations": "Explores her fears, picks up the caring role for Tuan and offers practical help (carer support through Carer Gateway, social work); responds to her self-blame without judgement."
+      },
+      {
+        "name": "Management plan",
+        "expectations": "Urgent specialist referral, bloods including CA19-9 as directed by the team, early palliative care involvement for symptoms, Cancer Council 13 11 20, review within days with her daughter present, safety plan for today."
+      }
+    ],
+    "expectedDiagnosis": "Probable pancreatic head adenocarcinoma with liver metastases and obstructive jaundice (awaiting tissue diagnosis)",
+    "teachingPoints": [
+      "SPIKES (Setting, Perception, Invitation, Knowledge, Emotions, Summary/Strategy) is a reliable frame for breaking bad news in the AMC.",
+      "New-onset diabetes with weight loss in an older adult can be an early sign of pancreatic cancer.",
+      "Do not give a survival figure unless asked; if asked, be honest about uncertainty and the need for staging first.",
+      "Early palliative care referral alongside active treatment improves symptom control and quality of life.",
+      "Always check immediate safety at the end: driving home, who is with them tonight, and a clear follow-up date."
+    ]
+  },
+  {
+    "id": "st-ethics-law-3",
+    "title": "A colleague who smells of alcohol before theatre",
+    "discipline": "population-health",
+    "topic": "ethics-law",
+    "difficulty": "hard",
+    "area": "management",
+    "setting": "Surgical ward, regional hospital, Queensland",
+    "candidateBrief": "You are a surgical resident. It is 7.30 am. Dr James Carter, 38, the surgical registrar, arrived late for the ward round. He smells strongly of alcohol, his speech is slightly slurred and he dropped a chart. He is scheduled to start an elective theatre list with the consultant at 8.30 am, where he usually operates. The nurse in charge has quietly raised concerns with you. You have taken Dr Carter aside into the registrar's office.",
+    "tasks": [
+      {
+        "task": "Raise your concerns with Dr Carter",
+        "minutes": 3
+      },
+      {
+        "task": "Respond to his reaction and explore what is going on",
+        "minutes": 3
+      },
+      {
+        "task": "Explain to him what you will do next",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "James Carter",
+      "age": 38,
+      "sex": "male",
+      "role": "Surgical registrar and your senior colleague",
+      "persona": "Friendly but defensive; uses his seniority. What makes it hard: he minimises ('I had a couple of beers last night, I'm fine'), then pleads ('Please don't tell the boss, I'm up for a consultant job, it'll end my career'), then becomes briefly irritated ('Who do you think you are?'). If the candidate stays calm, respectful and firm, he softens and admits things have been bad. If the candidate agrees to keep it quiet, he relaxes and heads for theatre.",
+      "openingLine": "What's this about? I've got a list at half eight, mate, make it quick.",
+      "script": "Last night: says 'a couple of beers'. If asked non-judgementally, admits he drank most of a bottle of wine and several beers alone at home until about 2 am, and had 'a quick one' this morning to steady himself.\n\nBackground (only if explored with empathy): separated from his wife 4 months ago, sees his two kids every second weekend. Drinking most nights since, sleeping badly. Has been late twice this month. Has not seen a GP in years. No previous health issues, no medications. Denies other drugs.\n\nMood: flat, 'things are pretty rubbish'. If asked directly about suicidal thoughts: has had fleeting thoughts that 'everyone would be better off' but no plan and would never do it because of his kids. Accepts help if offered respectfully.\n\nConcerns: his career, his registration, losing access to his kids. Believes 'I've operated tired plenty of times, this is no different.'\n\nHIDDEN CUE 1 (safety): when told he cannot operate, he says 'Fine, I'll just drive home then.' He drove in this morning. A good candidate stops him driving and arranges a taxi or someone to collect him.\n\nHIDDEN CUE 2: he asks 'Can we just keep this between us? I'll sort myself out.' The candidate must explain they cannot keep it confidential: the consultant must be told now, and practising while intoxicated triggers a mandatory notification to AHPRA.\n\nIf the candidate is supportive and clear, he agrees to go home by taxi and to call the doctors' health advisory service."
+    },
+    "keySteps": [
+      "Clearly states that he must not operate or see patients today, prioritising patient safety",
+      "Informs him that the consultant (and appropriate senior staff) will be told immediately and declines to keep it secret",
+      "Explains that practising while intoxicated is a mandatory notification to AHPRA, and that the notification will be made through the appropriate channel",
+      "Prevents him from driving and arranges safe transport home",
+      "Screens for his wellbeing, including suicide risk, and directs him to support (own GP, doctors' health advisory service, DRS4DRS)"
+    ],
+    "domains": [
+      {
+        "name": "Approach to colleague",
+        "expectations": "Private setting, respectful and non-accusatory tone, describes observed facts ('I can smell alcohol, your speech is slurred'), stays firm when pressured or pulled rank on."
+      },
+      {
+        "name": "Professional and legal duties",
+        "expectations": "Knows patient safety overrides collegial loyalty; explains mandatory notification of practising while intoxicated under the National Law and escalates to the consultant and director of clinical services; does not threaten or shame."
+      },
+      {
+        "name": "Colleague wellbeing",
+        "expectations": "Explores stressors, drinking pattern and mood; asks directly about suicidal thoughts; frames help as support not punishment."
+      },
+      {
+        "name": "Immediate safety plan",
+        "expectations": "Theatre list cover arranged via the consultant, no driving, taxi or family pickup, follow-up with a GP and a doctors' health service, documents the facts observed."
+      }
+    ],
+    "expectedDiagnosis": "Doctor practising while intoxicated with alcohol (impaired colleague), likely alcohol use disorder with low mood",
+    "teachingPoints": [
+      "Under the Health Practitioner Regulation National Law, practising while intoxicated by alcohol or drugs is notifiable conduct; all practitioners who form a reasonable belief must notify AHPRA.",
+      "Immediate patient safety comes first: stop the doctor from working and escalate to a senior now, not after the list.",
+      "Doctors' health advisory services and DRS4DRS offer confidential support; every doctor should have their own GP.",
+      "Doctors have higher rates of suicide than the general population; always ask directly about suicidal thoughts in a distressed colleague.",
+      "Stick to observed facts and document them; do not speculate or gossip."
+    ]
+  },
+  {
+    "id": "st-screening-prevention-1",
+    "title": "Explaining absolute cardiovascular risk",
+    "discipline": "population-health",
+    "topic": "screening-prevention",
+    "difficulty": "easy",
+    "area": "management",
+    "setting": "GP clinic, suburban Adelaide",
+    "candidateBrief": "You are a GP. Mr Peter Walsh, 56, a truck dispatcher, returns for results after a health check. He smokes 15 cigarettes a day. BP today 148/92 mmHg (similar on two previous visits). BMI 29. Fasting lipids: total cholesterol 6.2 mmol/L, LDL 4.1 mmol/L, HDL 1.0 mmol/L. HbA1c 5.6%. eGFR 85, urine ACR normal. No known cardiovascular disease. Using the Australian CVD risk calculator (AusCVDRisk), his 5-year risk of a cardiovascular event is 11%.",
+    "tasks": [
+      {
+        "task": "Explain his cardiovascular risk result",
+        "minutes": 3
+      },
+      {
+        "task": "Counsel him on lifestyle changes",
+        "minutes": 3
+      },
+      {
+        "task": "Outline medication and follow-up",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Peter Walsh",
+      "age": 56,
+      "sex": "male",
+      "persona": "Easy-going, cooperative, a bit of a larrikin. Hoping for 'a pill to fix it' so he doesn't have to quit smoking. Responds well to plain numbers and a doctor who asks what he wants to change rather than lecturing.",
+      "openingLine": "G'day doc. So how'd I go? The missus reckons my cholesterol's going to kill me.",
+      "script": "Smoking: 15 a day since age 17 (about 30 pack-years). Tried to quit twice cold turkey, lasted a week each time. Would 'give it a crack' with help. Smokes more on night shifts and in the truck yard with mates.\n\nDiet: pies and servo food at work, takeaway three nights a week, two sugars in coffee. Alcohol: 4-5 beers most nights on weekends, 1-2 on weeknights (around 18 standard drinks a week). Exercise: minimal, walks the dog at weekends. Sleep fine, no snoring complaints.\n\nPMH: nil significant. No chest pain, no breathlessness on exertion, no calf pain on walking, no palpitations. Meds: none. No allergies.\n\nFamily history: father had a heart attack at 64 and died at 70 of a stroke. Mother alive with type 2 diabetes.\n\nSocial: married, two adult kids, first grandchild due in 3 months. Drives for work sometimes.\n\nIdeas: thinks cholesterol is the main issue. Concerns: ending up like his dad. Expectations: a tablet.\n\nHIDDEN CUE: when asked what motivates him, says 'I want to be around to take the grandkid fishing.' He is ready to quit smoking if offered practical support.\n\nIf asked, he is happy to start a statin but worries about 'muscle aches' his brother got. He would prefer to try lifestyle changes on his blood pressure first but will accept tablets if the doctor explains why."
+    },
+    "keySteps": [
+      "Explains the 11% result as an absolute risk in plain terms (about 11 in 100 people like him will have a heart attack or stroke in the next 5 years) and that this is high risk",
+      "Offers smoking cessation support with a specific plan (pharmacotherapy such as varenicline or NRT plus Quitline 13 7848)",
+      "Recommends starting lipid-lowering (statin) and blood pressure-lowering medication alongside lifestyle change, given high risk",
+      "Arranges follow-up to review lipids, BP and smoking, and to reassess risk"
+    ],
+    "domains": [
+      {
+        "name": "Explanation of results",
+        "expectations": "Uses absolute rather than relative risk, a picture or natural frequencies, explains what drives his risk (smoking, BP, cholesterol, sex, age) and which factors are modifiable; checks understanding with teach-back."
+      },
+      {
+        "name": "Lifestyle counselling",
+        "expectations": "Asks about readiness and priorities, prioritises quitting smoking, gives concrete diet, alcohol (no more than 10 standard drinks a week) and activity advice (150-300 minutes of moderate activity a week), sets one or two realistic goals."
+      },
+      {
+        "name": "Pharmacological management",
+        "expectations": "Explains statin benefit and common side effects honestly, starts BP treatment (e.g. ACE inhibitor or ARB), and explains that medication adds to, not replaces, quitting."
+      },
+      {
+        "name": "Follow-up",
+        "expectations": "Review in 4-6 weeks for BP and tolerance, repeat lipids after 6-12 weeks, ongoing quit support, uses his motivation (grandchild) to anchor the plan."
+      }
+    ],
+    "expectedDiagnosis": "High absolute cardiovascular risk (5-year risk 11%) with smoking, hypertension and dyslipidaemia",
+    "teachingPoints": [
+      "The 2023 Australian CVD risk guideline uses the AusCVDRisk calculator: high risk is 10% or more over 5 years, intermediate 5-<10%, low <5%.",
+      "Assess from age 45 (30 for Aboriginal and Torres Strait Islander people, 35 for people with diabetes); treat the whole risk, not single numbers.",
+      "High-risk patients should be offered lipid- and BP-lowering medication together with lifestyle change.",
+      "Absolute risk and natural frequencies ('11 in 100') are easier for patients to understand than relative risk reductions.",
+      "Quitline (13 7848) plus PBS-subsidised varenicline or NRT is more effective than willpower alone."
+    ]
+  },
+  {
+    "id": "st-screening-prevention-2",
+    "title": "Weight management counselling",
+    "discipline": "population-health",
+    "topic": "screening-prevention",
+    "difficulty": "easy",
+    "area": "management",
+    "setting": "GP clinic, regional New South Wales",
+    "candidateBrief": "You are a GP. Ms Kylie Brennan, 41, a courier driver, has come in asking for help to lose weight and mentions 'that injection everyone's on'. Today: weight 102 kg, height 168 cm (BMI 36), waist circumference 104 cm, BP 136/86 mmHg. Bloods from last month: HbA1c 5.9%, triglycerides 2.3 mmol/L, ALT mildly raised at 52 U/L. She has right knee pain on stairs.",
+    "tasks": [
+      {
+        "task": "Explore her weight history, readiness to change and related health issues",
+        "minutes": 3
+      },
+      {
+        "task": "Agree on lifestyle goals with her",
+        "minutes": 3
+      },
+      {
+        "task": "Discuss further treatment options and follow-up",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Kylie Brennan",
+      "age": 41,
+      "sex": "female",
+      "persona": "Chatty, self-deprecating, a bit embarrassed ('I know, I know, I'm a whale'). Motivated but has tried everything. Opens up if the doctor is non-judgemental and uses neutral language; clams up if lectured.",
+      "openingLine": "I'm sick of being the big one in every photo. Can you just put me on that weight-loss injection?",
+      "script": "Weight history: 70 kg at 25. Gained weight with two pregnancies and much more over the past 3 years since her son was diagnosed with autism and her marriage ended. Tried shakes, keto and a gym membership; lost 8 kg twice and regained it.\n\nEating: skips breakfast, servo snacks and energy drinks on her run, big dinner and grazing at night on the couch when stressed. No purging or vomiting. Sometimes eats a lot quickly when upset but does not feel out of control most of the time.\n\nActivity: sitting in the van most of the day; walks the dog occasionally.\n\nHIDDEN CUE (safety): loud snoring reported by her kids, wakes unrefreshed, and has nodded off at traffic lights twice in the past month. She drives up to 8 hours a day for work. A good candidate asks about sleepiness and driving and arranges sleep assessment.\n\nMood: stressed, 'a bit flat' but enjoying her kids; no suicidal thoughts.\n\nPMH: gestational diabetes in second pregnancy. Knee pain for a year. Periods regular. Meds: none except ibuprofen for her knee. No allergies. Non-smoker. Alcohol: two glasses of wine on Friday.\n\nFamily history: mother has type 2 diabetes, father had a heart attack at 58.\n\nIdeas: 'the injection' will fix it. Concerns: getting diabetes like her mum, being around for her son. Expectations: a script today. Cost matters: she is on a tight budget.\n\nWill agree to realistic goals such as cutting energy drinks, eating breakfast, walking 20 minutes at lunch, and seeing a dietitian if it is affordable."
+    },
+    "keySteps": [
+      "Uses non-judgemental language and assesses readiness to change (e.g. motivational interviewing)",
+      "Screens for obesity-related complications, including sleep apnoea symptoms, and addresses the driving safety risk with a sleep study referral",
+      "Agrees on specific, achievable goals (SMART) targeting a 5-10% weight loss",
+      "Gives a balanced explanation of anti-obesity medication (benefits, side effects, cost, need for ongoing lifestyle change) and arranges follow-up"
+    ],
+    "domains": [
+      {
+        "name": "Approach to patient",
+        "expectations": "Asks permission to discuss weight, uses neutral language, explores her story and stressors, avoids blame, reflects her motivations."
+      },
+      {
+        "name": "Assessment",
+        "expectations": "Covers weight history, eating pattern, activity, mood and binge eating, and complications (prediabetes, fatty liver, knee OA, OSA); notes family history and prior gestational diabetes."
+      },
+      {
+        "name": "Lifestyle counselling",
+        "expectations": "Collaboratively sets 2-3 concrete goals (reduce sugary drinks, regular meals, build to 150-300 minutes of moderate activity a week), explains that 5-10% loss improves blood sugar, liver and knees."
+      },
+      {
+        "name": "Further management",
+        "expectations": "Explains GLP-1 receptor agonist option honestly including GI side effects, cost and regain on stopping; mentions bariatric surgery criteria; offers a GP chronic condition management plan for dietitian and exercise physiology access; plans regular review."
+      }
+    ],
+    "expectedDiagnosis": "Class II obesity with prediabetes, probable metabolic dysfunction-associated fatty liver disease and suspected obstructive sleep apnoea",
+    "teachingPoints": [
+      "The 5As (Ask, Assess, Advise, Agree, Assist) and motivational interviewing are the RACGP framework for weight management in general practice.",
+      "A 5-10% weight loss meaningfully reduces progression to diabetes and improves liver fat and joint pain.",
+      "Screen for OSA in obesity; excessive daytime sleepiness in a professional driver is a safety issue under the Austroads Assessing Fitness to Drive standards.",
+      "GP chronic condition management plans give Medicare-subsidised access to a limited number of allied health sessions a year (dietitian, exercise physiologist).",
+      "Bariatric surgery is generally considered at BMI 40 or more, or 35 or more with obesity-related comorbidity."
+    ]
+  },
+  {
+    "id": "st-indigenous-health-1",
+    "title": "Aboriginal and Torres Strait Islander health assessment",
+    "discipline": "population-health",
+    "topic": "indigenous-health",
+    "difficulty": "medium",
+    "area": "history",
+    "setting": "General practice, Dubbo, regional New South Wales",
+    "candidateBrief": "You are a GP. Mr Wayne Edwards, 44, a Wiradjuri man, has come in for his first annual Aboriginal and Torres Strait Islander health assessment (Medicare item 715) after encouragement from the practice's Aboriginal Health Worker. He has not seen a doctor for several years. The practice nurse has recorded: BP 146/92 mmHg, BMI 32, waist 108 cm, urine dipstick glucose 2+, protein 1+. Random capillary glucose 13.2 mmol/L.",
+    "tasks": [
+      {
+        "task": "Take a focused history of his current health and risk factors in a culturally safe way",
+        "minutes": 3
+      },
+      {
+        "task": "Ask about his family history, social and emotional wellbeing and what matters to him",
+        "minutes": 2
+      },
+      {
+        "task": "Explain the key findings and agree on a plan with him",
+        "minutes": 3
+      }
+    ],
+    "patient": {
+      "name": "Wayne Edwards",
+      "age": 44,
+      "sex": "male",
+      "persona": "Quiet, polite, a bit wary of doctors, gives short answers at first. Warms up if the doctor explains the purpose of the check, asks about family and community, and does not rush. Uses 'deadly', 'mob' and 'Mum passed' naturally. Will not volunteer his biggest fear unless trust is built.",
+      "openingLine": "Aunty Pam said I should come get this check done. Not really sure what it's for, to be honest.",
+      "script": "Symptoms if asked: thirsty a lot, up 2-3 times a night to pass urine for about 6 months, more tired. A cut on his right foot from 3 weeks ago that is slow to heal. No chest pain, no breathlessness, no vision change. Some tingling in his feet at night.\n\nPMH: nothing diagnosed; 'never really been checked'. Had a lot of ear infections as a kid. Meds: none. No allergies.\n\nSmoking: 15 a day since 14. Has thought about quitting. Alcohol: 8-10 cans at weekends, not weekdays. No other drugs.\n\nDiet: lots of takeaway, soft drink every day. Works as a council labourer, physically active at work.\n\nFamily: mother passed at 58 from kidney failure after years on dialysis in Dubbo; she had diabetes. Brother has diabetes. Father died of a heart attack at 55.\n\nSocial: lives with partner Tanya and three kids. Close to extended family; often travels to Wellington for family and sorry business. Money is tight. Has a car.\n\nMental health: 'doing alright' but stressed about money. Sleeps OK. No suicidal thoughts.\n\nImmunisations: not sure, 'probably not the flu one'.\n\nHIDDEN CUE: when asked what worries him or about family history, says 'I don't want to end up on the machine like Mum.' He avoided doctors because of this fear and because of how staff treated his mum in hospital. He engages if the doctor acknowledges this and explains early treatment can protect his kidneys.\n\nPrefers the Aboriginal Health Worker to be involved in follow-up and would like appointments that are bulk billed."
+    },
+    "keySteps": [
+      "Explains the purpose of the health assessment and asks about his priorities, building rapport before sensitive questions",
+      "Identifies symptoms of hyperglycaemia and the non-healing foot wound, and takes the family history of diabetes, kidney failure and premature heart disease",
+      "Explores and acknowledges his fear of dialysis and past negative experience of healthcare",
+      "Explains that the results suggest diabetes and agrees on a plan: confirmatory HbA1c, kidney function and urine ACR, lipids, foot review, involving the Aboriginal Health Worker"
+    ],
+    "domains": [
+      {
+        "name": "Cultural safety and rapport",
+        "expectations": "Respectful introduction, explains what the 715 covers, invites family or the Aboriginal Health Worker to be involved, open questions, allows silence, avoids assumptions and jargon."
+      },
+      {
+        "name": "History",
+        "expectations": "Covers current symptoms, cardiovascular and kidney risk, smoking and alcohol, diet and activity, social and emotional wellbeing, family history, immunisations, and access barriers (cost, travel, family commitments)."
+      },
+      {
+        "name": "Explanation",
+        "expectations": "Explains in plain language that sugar in the urine and a high reading point to diabetes, which needs a blood test to confirm, and links early control to protecting his kidneys, eyes and heart."
+      },
+      {
+        "name": "Plan",
+        "expectations": "Orders HbA1c, eGFR, urine ACR, lipids and LFTs; reviews and dresses the foot wound; offers quit support; free influenza vaccine; follow-up within a week with the Aboriginal Health Worker; notes Medicare-subsidised allied health follow-ups after a 715 and Closing the Gap PBS co-payment support."
+      }
+    ],
+    "expectedDiagnosis": "Probable type 2 diabetes (symptomatic hyperglycaemia) with hypertension, smoking and high cardiovascular and kidney risk",
+    "teachingPoints": [
+      "The 715 health assessment is available annually for Aboriginal and Torres Strait Islander people of any age; it unlocks Medicare-subsidised allied health follow-up services.",
+      "Cultural safety is judged by the patient: explain, ask, involve family and Aboriginal Health Workers or Practitioners, and acknowledge past harms.",
+      "The NACCHO-RACGP National Guide recommends earlier and more frequent screening for diabetes, CKD and cardiovascular risk (CVD risk assessment from 30).",
+      "Influenza vaccine is free under the NIP for all Aboriginal and Torres Strait Islander people from 6 months of age.",
+      "The Closing the Gap PBS Co-payment Program reduces medicine costs for eligible Aboriginal and Torres Strait Islander patients."
+    ]
+  },
+  {
+    "id": "st-notifiable-diseases-1",
+    "title": "Confirmed measles: notification and contacts",
+    "discipline": "population-health",
+    "topic": "notifiable-diseases",
+    "difficulty": "medium",
+    "area": "diagnosis",
+    "setting": "GP clinic, inner Brisbane (telephone consultation)",
+    "candidateBrief": "You are a GP. Two days ago you saw Ms Priya Sharma, 27, in an isolation room with 4 days of fever, cough, runny nose and red eyes, then a blotchy rash starting on her face yesterday. She returned from Bali 12 days ago. You took a throat swab for measles PCR and phoned the public health unit that day on clinical suspicion. The lab has now reported measles PCR positive. She is at home. You are phoning her with the result.",
+    "tasks": [
+      {
+        "task": "Explain the diagnosis and what notification means",
+        "minutes": 2
+      },
+      {
+        "task": "Advise on isolation and identify her contacts",
+        "minutes": 4
+      },
+      {
+        "task": "Respond to her concerns",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Priya Sharma",
+      "age": 27,
+      "sex": "female",
+      "persona": "Tired, feverish and anxious; speaks quickly. Worried about money and her job. Becomes a little defensive about privacy ('Why does the government need my name?'). Cooperative once she understands why.",
+      "openingLine": "Hi, yeah, it's Priya. Is it the measles thing then? I feel absolutely wrecked.",
+      "script": "Current: fever easing, rash spreading down to her trunk, cough, sore red eyes. Drinking fluids. No breathlessness, no confusion, no neck stiffness, no severe headache. Not pregnant (period last week).\n\nImmunisation: born in India, came to Australia at 19; not sure about childhood vaccines and has no records.\n\nWhere she has been since symptoms started (about 4 days before the rash): worked two shifts at a childcare centre (room with babies aged 6-12 months), went to the gym, took the train, and had dinner with her family on Sunday. Flight home from Bali 12 days ago.\n\nHome: shares a flat with her friend Emma, 29, who is 14 weeks pregnant and 'doesn't know' whether she is immune. Her nephew, 10 months old, was at the Sunday dinner.\n\nPMH: nil. Meds: paracetamol. No allergies. Non-smoker.\n\nIdeas: thought it was a bad flu. Concerns: casual job with no sick leave, wants to go back to work on Monday; embarrassed that she may have spread it.\n\nHIDDEN CUE 1: asks 'Do you have to tell them my name? I don't want to lose my job.' Accepts once told notification is a legal requirement, confidential, and needed to protect others.\n\nHIDDEN CUE 2: mentions Emma is pregnant only if asked who she lives with. A good candidate recognises Emma needs urgent assessment (immunity check and normal human immunoglobulin if non-immune, since MMR is contraindicated in pregnancy) and that the infants at childcare and her nephew are high-risk contacts.\n\nWill agree to stay home and give the public health unit a list of contacts."
+    },
+    "keySteps": [
+      "Explains the diagnosis of measles and that it is a notifiable disease reported to the public health unit, with confidentiality maintained",
+      "Advises isolation at home until 4 days after rash onset, avoiding all visitors and public places, and calling ahead before attending any health service",
+      "Identifies high-risk contacts: the pregnant flatmate, infants at childcare and the 10-month-old nephew",
+      "Explains post-exposure prophylaxis for contacts (MMR within 72 hours for eligible contacts, normal human immunoglobulin within 6 days for pregnant, infant or immunocompromised contacts) coordinated with public health",
+      "Safety-nets for complications (breathlessness, confusion, severe headache, dehydration)"
+    ],
+    "domains": [
+      {
+        "name": "Explanation of diagnosis",
+        "expectations": "Confirms identity on the phone, gives the result clearly, explains measles is highly contagious and can be serious, explains why it is notified and what public health will do."
+      },
+      {
+        "name": "Public health management",
+        "expectations": "Correct isolation period, identifies where she has been during the infectious period, prioritises vulnerable contacts, explains contact tracing and exclusion, advises the childcare centre will be contacted by public health."
+      },
+      {
+        "name": "Response to concerns",
+        "expectations": "Addresses privacy and job worries honestly, offers a medical certificate, avoids blame, reassures about recovery."
+      },
+      {
+        "name": "Clinical safety",
+        "expectations": "Checks current severity and pregnancy status, gives clear red flags, and explains that any review must be arranged by phoning ahead so she can be seen in isolation."
+      }
+    ],
+    "expectedDiagnosis": "Measles (PCR-confirmed), imported from Bali, with high-risk household and childcare contacts",
+    "teachingPoints": [
+      "Measles is urgently notifiable by phone on clinical suspicion; do not wait for the lab result.",
+      "Cases are infectious from about 4 days before to 4 days after rash onset; isolate the patient and call ahead before any health visit.",
+      "Contacts: MMR within 72 hours of exposure, or normal human immunoglobulin within 6 days for contacts who cannot have MMR (e.g. non-immune pregnant women, young infants, immunocompromised people), coordinated by public health.",
+      "People born in or after 1966 without documented two doses of a measles-containing vaccine should be offered MMR.",
+      "Notification data feed the National Notifiable Diseases Surveillance System; the patient's details are held confidentially by public health."
+    ]
+  },
+  {
+    "id": "st-occupational-health-1",
+    "title": "Breathlessness in a stonemason",
+    "discipline": "population-health",
+    "topic": "occupational-health",
+    "difficulty": "easy",
+    "area": "history",
+    "setting": "GP clinic, western Sydney",
+    "candidateBrief": "You are a GP. Mr Daniel Rossi, 34, presents with 6 months of gradually worsening breathlessness on exertion and a dry cough. Observations: HR 84, RR 18, SpO2 95% on room air, afebrile. A chest X-ray you ordered last week is reported as 'multiple small nodules predominantly in the upper zones with hilar lymph node enlargement'.",
+    "tasks": [
+      {
+        "task": "Take a focused history of his respiratory symptoms",
+        "minutes": 2
+      },
+      {
+        "task": "Take an occupational and exposure history",
+        "minutes": 3
+      },
+      {
+        "task": "Explain the likely diagnosis and next steps",
+        "minutes": 3
+      }
+    ],
+    "patient": {
+      "name": "Daniel Rossi",
+      "age": 34,
+      "sex": "male",
+      "persona": "Friendly, practical tradie who downplays symptoms ('probably just the smokes'). Cooperative and answers clearly when asked, but only mentions his workmate's diagnosis and his money worries if asked directly about co-workers or concerns.",
+      "openingLine": "Doc, I'm getting puffed going up a flight of stairs. Never used to be like this.",
+      "script": "Breathing: 6 months of worsening breathlessness, now puffed after one flight of stairs or carrying slabs. Dry cough, worse in the mornings. No haemoptysis, no chest pain, no wheeze, no orthopnoea or ankle swelling. Lost about 3 kg without trying. No fevers or night sweats. Some joint stiffness in his hands in the mornings.\n\nWork: stonemason for 12 years, cutting, grinding and polishing kitchen benchtops, mostly engineered stone until the ban. Small workshop; for years they dry-cut with angle grinders, 'dust everywhere, you'd come home white'. Wore a paper mask sometimes. Water suppression and extraction only introduced in the past 3 years. Now works on natural stone. Before that, 2 years as a labourer.\n\nCo-workers: his mate Luca, 36, from the same workshop was diagnosed with silicosis last year and is now on the lung transplant list.\n\nPMH: nil. Meds: none. No allergies. Smoking: 10 a day since 18 (about 8 pack-years). Alcohol: a few beers at weekends. No recreational drugs. No pets, no birds. No overseas travel. Not aware of any TB contact.\n\nFamily history: nil lung disease.\n\nSocial: married, two kids aged 4 and 7, partner works part-time. He is the main earner.\n\nIdeas: thinks it is smoking. Concerns: 'Have I got what Luca's got?' and how he will pay the mortgage if he cannot work. Expectations: an inhaler.\n\nHIDDEN CUE: when asked about concerns, reveals he is scared of ending up like Luca and does not know whether he can make a workers' compensation claim."
+    },
+    "keySteps": [
+      "Takes a detailed occupational history: job tasks, duration and intensity of silica dust exposure, dust controls and respiratory protection",
+      "Asks about similar illness in co-workers",
+      "Asks about systemic features including weight loss, TB risk and autoimmune symptoms, and quantifies smoking",
+      "Explains the likely diagnosis of silicosis and arranges referral to a respiratory physician with HRCT and full lung function tests",
+      "Advises avoiding further silica exposure, smoking cessation, and discusses workers' compensation and a certificate of capacity"
+    ],
+    "domains": [
+      {
+        "name": "History",
+        "expectations": "Characterises breathlessness and cough, screens red flags (weight loss, haemoptysis, night sweats), covers cardiac symptoms, smoking, other exposures (birds, asbestos), travel and TB contacts."
+      },
+      {
+        "name": "Occupational history",
+        "expectations": "Asks what he does, what materials, dry versus wet cutting, ventilation and masks, years exposed, previous jobs, co-worker illness, and how the illness affects his work."
+      },
+      {
+        "name": "Explanation",
+        "expectations": "Explains silicosis in plain language (lung scarring from inhaled stone dust), links it to his exposure, is honest that it is not reversible but that stopping exposure and smoking matters, checks understanding."
+      },
+      {
+        "name": "Plan",
+        "expectations": "Respiratory physician referral, HRCT, spirometry and gas transfer, latent TB screening, influenza and pneumococcal vaccination, quit support, workers' compensation claim (state-based) with a certificate of capacity, support for him and his family."
+      }
+    ],
+    "expectedDiagnosis": "Silicosis from engineered stone dust exposure (probable accelerated silicosis)",
+    "teachingPoints": [
+      "Always take an occupational history in respiratory presentations: tasks, materials, controls, duration and co-worker illness.",
+      "Engineered stone contains very high levels of crystalline silica; dry cutting caused a surge of accelerated silicosis in young workers, and Australia banned engineered stone from 1 July 2024.",
+      "Silicosis raises the risk of TB, lung cancer, COPD, CKD and autoimmune disease; screen for latent TB.",
+      "Workers' compensation is state-based; the GP's certificate of capacity focuses on what the worker can do.",
+      "Silicosis is notified to the National Occupational Respiratory Disease Registry by diagnosing respiratory and occupational physicians."
+    ]
+  }
+]

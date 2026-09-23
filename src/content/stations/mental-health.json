@@ -1,0 +1,644 @@
+[
+  {
+    "id": "st-mood-disorders-1",
+    "title": "Low mood in a 47-year-old farmer",
+    "discipline": "mental-health",
+    "topic": "mood-disorders",
+    "difficulty": "medium",
+    "area": "history",
+    "setting": "GP clinic, rural Western Australia",
+    "candidateBrief": "You are a general practitioner in a rural town in the Wheatbelt of Western Australia. Craig Dawson, a 47-year-old wheat and sheep farmer, has come in at his wife's insistence because he has been 'not himself' for a few months. He told the receptionist he only wants something to help him sleep. He has no significant past medical history and takes no regular medications. The practice nurse notes a 5 kg weight loss since his last visit a year ago; his other observations today are normal.",
+    "tasks": [
+      {
+        "task": "Take a focused history of his mood and related symptoms",
+        "minutes": 3
+      },
+      {
+        "task": "Carry out a suicide risk assessment",
+        "minutes": 2
+      },
+      {
+        "task": "Explain your assessment and agree an immediate management and safety plan",
+        "minutes": 3
+      }
+    ],
+    "patient": {
+      "name": "Craig Dawson",
+      "age": 47,
+      "sex": "male",
+      "persona": "Quiet and flat, short answers, stoic country phrases ('she'll be right', 'bit crook'). Wants sleeping tablets and to get back to the farm. Opens up if the doctor is patient, uses open questions and normalises how common this is among farmers. Only discloses suicidal thoughts and the rifle episode if asked directly and without judgement. Accepts help if it is practical and does not mean leaving the farm for weeks.",
+      "openingLine": "Look, I'm only here 'cause the wife made me. I just need something to help me sleep and I'll be right.",
+      "script": "HPI: Four months of low mood since a third poor season in a row and the bank refusing to extend the farm loan. Wakes at 3 am most nights worrying about money and cannot get back to sleep. Lost interest in footy and fishing. Tired all the time, poor concentration, cannot make decisions. Appetite down, lost about 5 kg. Feels worthless and that he has let the family and his late father down ('Dad ran this place 40 years, I've stuffed it in five'). Irritable with his wife and kids. No episodes of elevated mood, no hallucinations or odd beliefs. No heat intolerance, tremor or other thyroid-type symptoms.\n\nRisk (only if asked directly): thinks most days that his family would be better off with the life insurance. Two weeks ago he sat in the shed with his rifle for about an hour, then put it away because he thought of his daughter finding him. Has told no one. No previous attempts, no self-harm, no note. Protective factors: his two kids (14 and 11) and his wife, Jen. CUE: keeps two rifles and a shotgun for vermin in a gun safe in the shed and holds the only key.\n\nPMH: back pain. Meds: occasional paracetamol. Allergies: nil.\nFamily: father died by suicide 8 years ago during the last drought (only if asked about family mental illness).\nSocial: married, lives on the farm 40 minutes from town. Drinking more, 4-5 beers most nights, used to be weekends only. Non-smoker, no drugs.\nIdeas/concerns/expectations: thinks he is just stressed and tired. Worried that 'going mental' means losing his gun licence and being seen as weak in town. Would agree to Jen holding the safe key or a mate storing the guns if framed as temporary and his choice."
+    },
+    "keySteps": [
+      "Asks directly about suicidal thoughts, plans and rehearsal",
+      "Asks specifically about access to firearms and agrees a plan to remove or secure them",
+      "Asks about alcohol use and family history of suicide",
+      "Explains the likely diagnosis of depression and arranges review within days with a safety plan including crisis contacts"
+    ],
+    "domains": [
+      {
+        "name": "Approach to patient",
+        "expectations": "Builds rapport with a reluctant man using open questions and normalising statements, stays non-judgemental, and acknowledges the farm and financial stress."
+      },
+      {
+        "name": "History",
+        "expectations": "Covers core depressive symptoms and duration, screens for mania and psychosis, and asks about alcohol, drugs, medical contributors and family history."
+      },
+      {
+        "name": "Risk assessment",
+        "expectations": "Explores ideation, plan, intent, rehearsal, means (firearms), previous attempts, protective factors and alcohol as a disinhibitor, and recognises the risk as elevated."
+      },
+      {
+        "name": "Management and safety planning",
+        "expectations": "Explains depression in plain words, does not simply prescribe hypnotics, agrees means restriction with his involvement, offers a mental health treatment plan, psychological therapy and consideration of an SSRI, involves his wife with consent, gives Lifeline 13 11 14 and 000, and reviews within days."
+      }
+    ],
+    "expectedDiagnosis": "Major depressive disorder with suicidal ideation and recent rehearsal (elevated suicide risk)",
+    "teachingPoints": [
+      "Asking directly about suicide does not increase risk; rural men and farmers are a high-risk group in Australia.",
+      "Firearm access plus rehearsal plus family history of suicide is a serious combination; means restriction is one of the most effective interventions.",
+      "A GP Mental Health Treatment Plan gives Medicare-subsidised psychology sessions under Better Access; telehealth helps rural patients.",
+      "Do not treat depressive insomnia with hypnotics or benzodiazepines, especially with rising alcohol use.",
+      "Give crisis contacts (Lifeline 13 11 14, 000) and follow up within days, not weeks."
+    ]
+  },
+  {
+    "id": "st-mood-disorders-2",
+    "title": "Starting lithium for bipolar disorder",
+    "discipline": "mental-health",
+    "topic": "mood-disorders",
+    "difficulty": "easy",
+    "area": "management",
+    "setting": "GP clinic, suburban Brisbane",
+    "candidateBrief": "You are a general practitioner in suburban Brisbane. Emily Tran, a 29-year-old accountant, was discharged a week ago after a two-week admission for a manic episode, her second. The psychiatrist diagnosed bipolar I disorder and started lithium carbonate. Her discharge summary asks you to monitor lithium levels; baseline tests (urea and electrolytes, eGFR, TSH, calcium, ECG) were normal. She is euthymic today and has come to learn more about her new medication.",
+    "tasks": [
+      {
+        "task": "Explain what lithium does and why it has been recommended",
+        "minutes": 2
+      },
+      {
+        "task": "Explain how lithium is monitored",
+        "minutes": 2
+      },
+      {
+        "task": "Counsel her about side effects, toxicity, interactions and other safety issues",
+        "minutes": 4
+      }
+    ],
+    "patient": {
+      "name": "Emily Tran",
+      "age": 29,
+      "sex": "female",
+      "persona": "Articulate, organised, a little embarrassed about the admission. Asks sensible questions and likes clear numbers. Cooperative and well engaged. Brings up pregnancy only if the doctor asks about contraception or future plans, then is clearly relieved to talk about it.",
+      "openingLine": "The hospital gave me this lithium and a pile of paperwork. I'd really like someone to explain it properly, because I've read some scary stuff online.",
+      "script": "Background: first manic episode at 24 treated with olanzapine, which she stopped after 6 months because of 10 kg weight gain. Second episode last month: no sleep for 5 days, spent $14,000 online, grandiose ideas about starting a firm, brought in by her partner. No psychotic features this time. One depressive episode at 26. Now euthymic, sleeping 8 hours.\nCurrent meds: lithium carbonate 250 mg twice daily (level due this week, 12 hours after the evening dose). Olanzapine 5 mg at night, to be tapered by the psychiatrist. No other meds. Allergies: nil.\nPMH: nil. Takes ibuprofen for period pain most months (CUE: NSAID interaction).\nSocial: lives with partner, Josh. Accountant, planning return to work in 2 weeks. Drinks 2-3 glasses of wine on weekends, no drugs, non-smoker. Drives to work. Plays netball and runs; summer training outdoors.\nIdeas/concerns/expectations: read online that lithium 'fries your kidneys' and makes you 'a zombie'. Wants to know how long she will need it. Worried about weight gain after olanzapine.\nCUE (only if asked about contraception or plans): she and Josh were hoping to try for a baby next year. Uses condoms only. Wants to know if lithium is safe in pregnancy.\nWill agree to see her GP before trying to conceive and to discuss contraception, and appreciates written information and a wallet card with toxicity symptoms."
+    },
+    "keySteps": [
+      "Explains that lithium levels are checked 12 hours after the last dose, frequently at first and then about every 3 months once stable, with kidney and thyroid function and calcium monitored regularly",
+      "Describes symptoms of toxicity (vomiting, diarrhoea, coarse tremor, unsteadiness, confusion) and advises stopping and seeking urgent review",
+      "Warns about interactions and dehydration: avoid NSAIDs such as ibuprofen, tell any prescriber she is on lithium, keep well hydrated in heat and illness",
+      "Asks about pregnancy plans and contraception and advises planning any pregnancy with her psychiatrist before stopping contraception or the medication"
+    ],
+    "domains": [
+      {
+        "name": "Communication and approach",
+        "expectations": "Explores her understanding and concerns first, acknowledges what she read online, uses plain language and checks understanding with teach-back."
+      },
+      {
+        "name": "Medication knowledge",
+        "expectations": "Explains lithium as a mood stabiliser that reduces relapse and suicide risk, the narrow therapeutic range, common side effects (thirst, polyuria, fine tremor, weight gain, hypothyroidism) and long-term kidney monitoring."
+      },
+      {
+        "name": "Safety counselling",
+        "expectations": "Covers toxicity symptoms and action, NSAIDs, ACE inhibitors and thiazide diuretics, dehydration, not stopping suddenly (relapse risk), limiting alcohol, and pregnancy planning."
+      },
+      {
+        "name": "Follow-up and support",
+        "expectations": "Arranges the level this week, shared care with the psychiatrist, relapse warning signs (sleep loss), involving her partner with consent, and written information."
+      }
+    ],
+    "teachingPoints": [
+      "Lithium has a narrow therapeutic range; maintenance targets are usually around 0.6-0.8 mmol/L, measured 12 hours post-dose.",
+      "NSAIDs, ACE inhibitors, ARBs and thiazides raise lithium levels; dehydration, vomiting and hot weather do too.",
+      "Monitor eGFR, TSH and calcium (at least 6-monthly) as lithium can cause CKD, nephrogenic diabetes insipidus, hypothyroidism and hyperparathyroidism.",
+      "Lithium in the first trimester carries a small increased risk of cardiac malformations (Ebstein anomaly); pregnancy should be planned with specialist input, not avoided by stopping abruptly.",
+      "Abrupt cessation increases relapse, particularly of mania."
+    ]
+  },
+  {
+    "id": "st-psychosis-1",
+    "title": "Mental state examination in a young man with strange beliefs",
+    "discipline": "mental-health",
+    "topic": "psychosis",
+    "difficulty": "hard",
+    "area": "examination",
+    "setting": "Emergency department, regional New South Wales",
+    "candidateBrief": "You are a junior doctor in the emergency department of a regional hospital in New South Wales. Jake Morrison, a 21-year-old apprentice electrician, has been brought in by his mother, who says he has been acting strangely for 6 weeks, has stopped going to work and has covered his bedroom windows with foil. He agreed to come in. Observations: HR 96, BP 128/78, temperature 36.8 degrees C, SpO2 99% on room air, BGL 5.6 mmol/L. He is sitting in a cubicle.",
+    "tasks": [
+      {
+        "task": "Perform a mental state examination, describing your observations to the examiner as you go",
+        "minutes": 5
+      },
+      {
+        "task": "Summarise your mental state findings and risk assessment to the examiner",
+        "minutes": 1
+      },
+      {
+        "task": "Tell the examiner your differential diagnosis and immediate plan",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Jake Morrison",
+      "age": 21,
+      "sex": "male",
+      "persona": "Guarded and suspicious, keeps glancing at the ceiling light and the door, speaks quietly and sometimes stops mid-sentence as if listening. Asks 'Who sent you?' and 'Is this being recorded?'. Becomes more open if the doctor is calm, explains confidentiality and does not argue with his beliefs. Clams up and asks to leave if challenged or rushed. What makes it hard: suspicious patient, the need to assess risk to others, and a drug history he will only share if reassured police will not be told.",
+      "openingLine": "I don't know why Mum brought me here. I'm fine. Are you with them?",
+      "script": "Beliefs: for about 2 months he has believed his former boss and 'people from the power company' are monitoring him through the wiring and smart meter, and planting thoughts about him failing. He covered windows with foil to block signals. Believes the TV news sometimes refers to him. Hears two male voices commenting on what he does ('he's useless, look at him now') and occasionally telling him to 'get them first'. The voices are worse at night.\nRisk (only if asked directly): no thoughts of suicide. Has thought about confronting his old boss and 'making him stop' but has no plan and no weapon. CUE: has a box of electrical tools including a Stanley knife in his car. Has not acted on the command voices.\nOther: sleeping 3-4 hours a night, eating little, stopped showering most days. Denies elevated mood or racing thoughts. No head injury, seizures or headaches.\nSubstances (only if reassured about confidentiality): smokes cannabis most days since 16, heavier in the last year; used methamphetamine ('ice') at parties about 4 times, last 3 weeks ago. Alcohol on weekends.\nPMH: nil. Meds: nil. Allergies: nil.\nFamily: uncle has schizophrenia (mother told the triage nurse).\nSocial: lives with mother and younger sister. Lost apprenticeship 3 weeks ago. Split from girlfriend. Drives.\nInsight: believes he is not unwell; would agree to 'something to help me sleep' and to stay overnight if mother can stay.",
+      "examFindings": "Appearance and behaviour: thin, unshaven, hoodie up, poor hygiene; hypervigilant, scanning the room, intermittently appears to be listening to something; no psychomotor agitation; poor eye contact. Speech: quiet, normal rate, occasional thought blocking. Mood: 'fine'; affect restricted and anxious. Thought form: mostly goal-directed with some tangentiality and thought blocking. Thought content: persecutory delusions (surveillance through wiring by former boss and power company), delusions of reference (TV), thought insertion; no suicidal ideation; vague thoughts of confronting former boss, no plan. Perception: second-person derogatory and occasional command auditory hallucinations; no visual hallucinations. Cognition: alert, oriented to time, place and person, attention intact, no clouding of consciousness. Insight: poor. Judgement: impaired. Brief physical: no signs of intoxication or withdrawal, pupils normal, no focal neurology, no signs of head injury."
+    },
+    "keySteps": [
+      "Establishes rapport and explains confidentiality without colluding with or challenging the delusions",
+      "Elicits delusions, hallucinations (including command content) and thought interference as part of a structured MSE",
+      "Assesses risk to self and others, including thoughts of harming the former boss, command voices and access to weapons",
+      "Checks cognition and orientation to distinguish psychosis from delirium, and asks about substance use",
+      "States first-episode psychosis as the working diagnosis with an organic and drug screen and urgent mental health team review"
+    ],
+    "domains": [
+      {
+        "name": "Approach to patient",
+        "expectations": "Calm, non-threatening stance, explains role and confidentiality, respects personal space, validates distress without agreeing with beliefs, and keeps him engaged rather than prompting him to leave."
+      },
+      {
+        "name": "Mental state examination technique",
+        "expectations": "Covers appearance, behaviour, speech, mood and affect, thought form and content, perception, cognition, insight and judgement in a logical order using open then specific questions."
+      },
+      {
+        "name": "Accuracy of findings and risk",
+        "expectations": "Correctly labels persecutory and referential delusions, thought insertion, thought blocking and second-person command hallucinations, and judges risk to others as significant."
+      },
+      {
+        "name": "Differential diagnosis and plan",
+        "expectations": "Offers first-episode psychosis with differentials of substance-induced psychotic disorder (cannabis, methamphetamine), schizophreniform disorder, psychotic mood disorder and organic causes; plans bloods, urine drug screen, consideration of imaging, a safe observed environment, collateral from mother, and urgent ED mental health or early psychosis team review, with involuntary assessment if he tries to leave while at risk."
+      }
+    ],
+    "expectedDiagnosis": "First-episode psychosis (probable schizophreniform disorder; substance-induced psychosis to be excluded) with risk to others",
+    "teachingPoints": [
+      "In psychosis, use open curious questions ('what do you think is happening?') and avoid arguing with or endorsing delusions.",
+      "Command hallucinations, persecutory beliefs about a named person and access to weapons increase risk of violence and must be explored.",
+      "Normal attention and orientation point away from delirium; always check glucose, infection, drugs and neurological causes in a first episode.",
+      "Early psychosis services (for example headspace early psychosis programs) improve outcomes; start low-dose second-generation antipsychotics and monitor metabolic effects.",
+      "If he tries to leave while at serious risk, he can be held for assessment under the state Mental Health Act; criteria vary by state."
+    ]
+  },
+  {
+    "id": "st-anxiety-disorders-1",
+    "title": "Recurrent episodes of racing heart in a 32-year-old woman",
+    "discipline": "mental-health",
+    "topic": "anxiety-disorders",
+    "difficulty": "easy",
+    "area": "diagnosis",
+    "setting": "GP clinic, inner Melbourne",
+    "candidateBrief": "You are a general practitioner in inner Melbourne. Priya Sharma, a 32-year-old primary school teacher, returns for her results. Two weeks ago she described sudden episodes of racing heart, breathlessness, tingling hands and a fear of dying, lasting about 10 minutes. Examination was normal. Her results are: ECG sinus rhythm, normal intervals; FBC, electrolytes, TSH and fasting glucose normal; 24-hour Holter monitor showed sinus rhythm with sinus tachycardia (max 128 bpm) during a recorded episode. She drinks two coffees a day.",
+    "tasks": [
+      {
+        "task": "Clarify the key features of her episodes and how they affect her life",
+        "minutes": 2
+      },
+      {
+        "task": "Explain her results and the likely diagnosis",
+        "minutes": 3
+      },
+      {
+        "task": "Outline the management options",
+        "minutes": 3
+      }
+    ],
+    "patient": {
+      "name": "Priya Sharma",
+      "age": 32,
+      "sex": "female",
+      "persona": "Friendly, anxious, speaks quickly and apologises for 'wasting your time'. Relieved but sceptical when told the heart is normal, because the symptoms feel so physical. Accepts the explanation well if it is linked to how adrenaline works. Keen on non-drug treatment first.",
+      "openingLine": "Hi doctor. I've been dreading this appointment, to be honest. Is it my heart?",
+      "script": "Episodes: started 3 months ago, now 2-3 a week. Come on suddenly, peak within a few minutes, settle within 10-20 minutes. Palpitations, breathlessness, chest tightness, tingling fingers and lips, sweating, dizziness, feeling of unreality, and a strong fear she is having a heart attack or will die. The first happened in a crowded tram. Called an ambulance once; ECG was normal then too.\nImpact: now avoids trams and drives to work, avoids the supermarket at busy times, worries most days about the next attack. Sleep okay. Mood mostly fine; enjoys her work and friends. No suicidal thoughts (only if asked).\nNegatives: no syncope, no exertional symptoms, no weight loss, heat intolerance or tremor. No diarrhoea. Not pregnant (on combined oral contraceptive pill).\nStressors: moved from Perth 6 months ago for a new job; father had a heart attack at 58 last year (CUE: explains her fear it is her heart).\nPMH: nil. Meds: combined oral contraceptive pill. Allergies: nil.\nSocial: lives with partner. Two coffees a day, occasional energy drink during report-writing weeks. Wine 1-2 glasses a week. No smoking, vaping or drugs.\nIdeas/concerns/expectations: fears heart disease like her father. Heard 'Valium' helps and a friend offered her some; would rather avoid tablets if possible. Would like something she can do during an attack."
+    },
+    "keySteps": [
+      "Establishes the features of recurrent unexpected panic attacks with persistent worry and avoidance",
+      "Explains that the results show a normal heart and that the symptoms are caused by the body's adrenaline (fight or flight) response in panic disorder",
+      "Offers cognitive behavioural therapy as first-line treatment, with an SSRI as an option, and advises against benzodiazepines",
+      "Asks about caffeine, energy drinks and substances as triggers"
+    ],
+    "domains": [
+      {
+        "name": "Approach to patient",
+        "expectations": "Acknowledges that her symptoms are real and frightening, links her fear to her father's heart attack, avoids dismissive language such as 'it's just anxiety'."
+      },
+      {
+        "name": "Diagnosis and interpretation",
+        "expectations": "Interprets the normal ECG, bloods and Holter correctly (sinus tachycardia during an episode, no arrhythmia), and explains panic disorder with developing agoraphobic avoidance clearly."
+      },
+      {
+        "name": "Management",
+        "expectations": "Offers CBT (with a Mental Health Treatment Plan or digital options such as MindSpot or This Way Up), slow breathing and grounding techniques, reducing caffeine and energy drinks, an SSRI if CBT is insufficient or unavailable, and explains why benzodiazepines are not recommended."
+      },
+      {
+        "name": "Education and follow-up",
+        "expectations": "Explains that avoidance maintains panic, provides written information, safety-nets for red flags such as exertional chest pain or syncope, and arranges review."
+      }
+    ],
+    "expectedDiagnosis": "Panic disorder with early agoraphobic avoidance",
+    "teachingPoints": [
+      "Exclude medical causes (arrhythmia, thyroid disease, hypoglycaemia, substances) before diagnosing panic disorder, then say so clearly.",
+      "CBT, including interoceptive exposure, is first line; free Australian digital programs (MindSpot, This Way Up) help when psychology access is limited.",
+      "SSRIs are the first-line drug; start low because early jitteriness can worsen panic.",
+      "Benzodiazepines are not recommended long term because of dependence and interference with learning from exposure."
+    ]
+  },
+  {
+    "id": "st-substance-use-1",
+    "title": "Alcohol use in a 52-year-old man with abnormal liver tests",
+    "discipline": "mental-health",
+    "topic": "substance-use",
+    "difficulty": "easy",
+    "area": "history",
+    "setting": "GP clinic, suburban Adelaide",
+    "candidateBrief": "You are a general practitioner in suburban Adelaide. Mark Kelly, a 52-year-old sales manager, has come back for the results of a routine health check. His GGT is 142 U/L (normal under 60), ALT 58 U/L (normal under 40), MCV 101 fL (normal 80-100) and his blood pressure today is 148/92 mmHg. The rest of his bloods are normal. He mentioned last time that he 'enjoys a drink'.",
+    "tasks": [
+      {
+        "task": "Take an alcohol history, including an AUDIT-based assessment",
+        "minutes": 4
+      },
+      {
+        "task": "Explain the significance of his results",
+        "minutes": 1
+      },
+      {
+        "task": "Deliver a brief intervention and agree a plan",
+        "minutes": 3
+      }
+    ],
+    "patient": {
+      "name": "Mark Kelly",
+      "age": 52,
+      "sex": "male",
+      "persona": "Jovial, a bit defensive at first ('everyone in sales drinks'), jokes to deflect. Answers honestly if asked in a matter-of-fact, non-judgemental way. Becomes motivated when he connects his drinking to his blood pressure and his daughter's wedding. Not interested in being lectured.",
+      "openingLine": "G'day doc. So, did I pass? Tell me I'm good for another year.",
+      "script": "Alcohol: drinks most days. Weeknights 3-4 stubbies of full-strength beer after work, plus 2-3 glasses of red wine with dinner. Weekends more: a long lunch with clients on Friday (6-8 drinks), footy on Saturday (about 10 beers). Estimated 45-55 standard drinks a week. Has been at this level for about 5 years, since a promotion. Feels he needs a couple to unwind. Once or twice a month cannot remember the end of the night. Wife has told him to cut down (feels a bit annoyed by it). Has tried a 'dry July' but gave up after a week. No morning drinking. No shakes, sweats or seizures when he misses a day; sleeps poorly without it. Never had a withdrawal seizure or DTs.\nAUDIT-type answers if asked: 4 or more times a week; 7-9 drinks on a typical day; 6 or more drinks weekly; has been unable to stop once started monthly; failed to do what was expected (missed a Monday meeting) less than monthly; no morning drink; guilt monthly; blackouts monthly; no injury; wife concerned in the last year. Scores around 22.\nCUE: drives home after Friday client lunches 'once I've had a coffee'.\nOther: no other drugs. Ex-smoker. Mood okay, no suicidal thoughts. Mild reflux.\nPMH: nil. Meds: nil. Allergies: nil. Family: father had cirrhosis and died at 64.\nSocial: married, one daughter getting married in 6 months. Plays golf.\nIdeas/concerns/expectations: thinks he drinks 'like everyone else'. Worried about ending up like his father if he thinks about it. Would try cutting down, starting with alcohol-free days during the week and not drinking at lunch."
+    },
+    "keySteps": [
+      "Quantifies intake in standard drinks and compares it with the NHMRC guideline (no more than 10 standard drinks a week and no more than 4 on any one day)",
+      "Asks about dependence and withdrawal features (morning drinking, tremor, previous withdrawal seizures)",
+      "Identifies drink-driving and advises that he must not drive after drinking",
+      "Gives personalised feedback linking alcohol to his raised GGT, MCV and blood pressure, and agrees a specific goal with follow-up"
+    ],
+    "domains": [
+      {
+        "name": "Approach to patient",
+        "expectations": "Non-judgemental, uses open questions and humour appropriately, and asks permission before giving advice."
+      },
+      {
+        "name": "History",
+        "expectations": "Covers quantity and pattern in standard drinks, AUDIT domains (hazardous use, dependence, harms), withdrawal history, other substances, mood and family history."
+      },
+      {
+        "name": "Interpretation",
+        "expectations": "Explains that raised GGT and macrocytosis are consistent with heavy alcohol use and that alcohol is contributing to his raised blood pressure; mentions the risk of liver disease given his father."
+      },
+      {
+        "name": "Brief intervention",
+        "expectations": "Uses a FRAMES-style approach: feedback, responsibility, clear advice, a menu of options (alcohol-free days, no lunchtime drinking, lower-strength beer), empathy and self-efficacy; offers support (DrinkWise, Alcohol and Drug Information Service), repeat LFTs and review in 4-6 weeks."
+      }
+    ],
+    "expectedDiagnosis": "Harmful alcohol use (AUDIT around 22, probable alcohol use disorder) with alcohol-related liver enzyme changes and hypertension",
+    "teachingPoints": [
+      "A standard drink in Australia is 10 g of alcohol; a stubby of full-strength beer is about 1.4 standard drinks.",
+      "AUDIT scores: 8-15 hazardous, 16-19 harmful, 20 or more possible dependence warranting further assessment.",
+      "A brief intervention of 5-10 minutes in general practice reduces drinking; FRAMES is a useful structure.",
+      "Ask about drink-driving and withdrawal history before advising him to cut down; heavy dependent drinkers may need supervised withdrawal and thiamine."
+    ]
+  },
+  {
+    "id": "st-substance-use-2",
+    "title": "Request for an early oxycodone prescription",
+    "discipline": "mental-health",
+    "topic": "substance-use",
+    "difficulty": "hard",
+    "area": "management",
+    "setting": "GP clinic, outer suburban Perth",
+    "candidateBrief": "You are a general practitioner in outer suburban Perth. Daniel Okafor, a 38-year-old forklift driver, is seeing you for the first time because his usual GP is on leave. He was started on oxycodone after a lumbar disc injury 18 months ago and now takes controlled-release oxycodone 40 mg twice daily. His last 28-day supply was dispensed 16 days ago. The real-time prescription monitoring system shows oxycodone scripts from two other practices in the past three months.",
+    "tasks": [
+      {
+        "task": "Explore his opioid use and its effects on him",
+        "minutes": 3
+      },
+      {
+        "task": "Explain your concerns and your decision about the prescription",
+        "minutes": 2
+      },
+      {
+        "task": "Negotiate a management plan with him",
+        "minutes": 3
+      }
+    ],
+    "patient": {
+      "name": "Daniel Okafor",
+      "age": 38,
+      "sex": "male",
+      "persona": "Starts polite but tense and in a hurry. Becomes angry and raises his voice when the early script is questioned ('So you think I'm a junkie?'). Settles if the doctor stays calm, names his pain as real, and is honest rather than evasive. Deep down he is scared and ashamed. What makes it hard: an angry patient, the need to refuse an unsafe prescription while keeping him engaged, and an overdose safety issue.",
+      "openingLine": "Look, I've just run out a bit early, the pharmacy mixed something up. I just need my usual script and I'll get out of your hair.",
+      "script": "Opioid use: back pain started after lifting at work 18 months ago; surgery was not recommended. Oxycodone dose has gone up several times. Now takes about 60 mg twice a day instead of 40, sometimes crushes an extra tablet 'when it's bad'. Ran out after 16 days. Has been getting extra scripts from two clinics (admits this only if the doctor mentions the monitoring system calmly). Gets sweaty, crampy, runny nose, diarrhoea and very irritable if he misses doses. Pain is actually no better than before the dose increases. Has never injected. Bought oxycodone from a mate twice.\nCUE (only if asked about sedation or overdose): woke up on the lounge last month with his partner shaking him, 'blue around the lips' after taking extra tablets with a few beers. Partner was terrified.\nOther substances: 4-6 beers most nights. Cannabis occasionally. No benzodiazepines prescribed, but took a friend's diazepam once.\nMood: low, ashamed, feels he has 'lost control'. No suicidal thoughts (if asked).\nPMH: lumbar disc protrusion L4/5. Meds: oxycodone CR, paracetamol. Allergies: nil.\nSocial: lives with partner and 6-year-old son. Operates a forklift at work. Drives a car. Workers' compensation claim finished.\nIdeas/concerns/expectations: expects a script. Fears withdrawal and losing his job. Has heard of 'methadone clinics' and thinks they are for heroin users. If treated respectfully, admits he wants to get off 'this stuff' and would consider buprenorphine, especially once he hears it can be prescribed by a GP and is safer in overdose."
+    },
+    "keySteps": [
+      "Declines to provide an early or additional oxycodone prescription, explaining the reason honestly and without judgement",
+      "Assesses features of opioid dependence (tolerance, withdrawal, escalating use, obtaining from multiple prescribers or illicit sources) and asks about overdose",
+      "Identifies the overdose risk from combining opioids with alcohol and sedatives and provides take-home naloxone",
+      "Offers opioid agonist treatment (buprenorphine or methadone) and arranges early follow-up rather than discharging him",
+      "Addresses driving and operating machinery safety"
+    ],
+    "domains": [
+      {
+        "name": "Approach and de-escalation",
+        "expectations": "Stays calm, acknowledges his anger and pain, avoids blame, keeps the conversation going and uses clear, honest statements about the monitoring data and the decision."
+      },
+      {
+        "name": "Assessment",
+        "expectations": "Explores dose escalation, route (crushing), sources, withdrawal, pain and function, alcohol and sedatives, mood and suicidal thoughts, and the recent overdose."
+      },
+      {
+        "name": "Management",
+        "expectations": "Explains opioid dependence as a treatable health condition, offers opioid agonist treatment (buprenorphine including long-acting depot, or methadone) through a GP prescriber or local alcohol and drug service, manages withdrawal meanwhile, provides free take-home naloxone and trains the partner, advises reducing alcohol, and does not abruptly abandon care."
+      },
+      {
+        "name": "Safety and professional issues",
+        "expectations": "Addresses safe driving and forklift work while sedated, follows the state real-time prescription monitoring and prescribing requirements, and plans to communicate with his usual GP and other prescribers with his consent."
+      }
+    ],
+    "expectedDiagnosis": "Opioid use disorder (prescription oxycodone) with a recent non-fatal overdose",
+    "teachingPoints": [
+      "Real-time prescription monitoring is now mandatory to check in most states before prescribing high-risk medicines; rules vary by state.",
+      "Opioid agonist treatment with buprenorphine or methadone reduces overdose deaths; many GPs can prescribe buprenorphine, including long-acting injections.",
+      "Take-home naloxone is free without a prescription under the national Take Home Naloxone program.",
+      "Opioids plus alcohol or benzodiazepines greatly increase the risk of fatal respiratory depression.",
+      "Refuse the unsafe prescription but keep the patient: offer treatment, manage withdrawal and book early review."
+    ]
+  },
+  {
+    "id": "st-child-adolescent-psych-1",
+    "title": "Psychosocial assessment of a 15-year-old girl",
+    "discipline": "mental-health",
+    "topic": "child-adolescent-psych",
+    "difficulty": "medium",
+    "area": "history",
+    "setting": "GP clinic, regional Queensland",
+    "candidateBrief": "You are a general practitioner in Toowoomba, Queensland. Chloe Nguyen, a 15-year-old Year 10 student, has come with her mother because of headaches and tiredness over the past two months. You saw them together earlier: examination, including neurological examination and fundoscopy, was normal, and her mother has now gone to the waiting room so that you can speak with Chloe alone.",
+    "tasks": [
+      {
+        "task": "Explain confidentiality and its limits to Chloe",
+        "minutes": 1
+      },
+      {
+        "task": "Take a psychosocial (HEEADSSS) history",
+        "minutes": 5
+      },
+      {
+        "task": "Discuss your assessment and agree next steps with her",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Chloe Nguyen",
+      "age": 15,
+      "sex": "female",
+      "persona": "Quiet, looks at her phone, shrugs and says 'dunno' or 'it's fine' to closed questions. Warms up if the doctor explains confidentiality clearly, is genuinely interested in her (music, friends) and does not sound like a parent. Only reveals self-harm if asked directly and gently. Begs the doctor not to tell her mum.",
+      "openingLine": "Mum thinks I'm sick or something. I'm just tired, it's not a big deal.",
+      "script": "Headaches: dull, across the forehead, most afternoons, no morning vomiting, no visual problems. Tired all the time.\nHome: lives with mum, stepdad and 8-year-old brother. Parents separated 2 years ago; sees dad every second weekend. Argues with stepdad, feels mum 'always takes his side'. No violence at home (if asked).\nEducation: grades dropped this year, has skipped some classes. Stopped netball.\nEating: skips breakfast and lunch, not trying to lose weight, no bingeing or purging.\nActivities: on her phone until 2-3 am most nights; group chat drama with former friends who 'ganged up' on her in Term 2 and post mean comments (online bullying).\nDrugs: vapes at parties sometimes, drank alcohol twice at parties. No other drugs.\nSexuality: has a boyfriend, 16, same year level; they have had sex a few times, used condoms 'mostly'. No pressure or coercion (if asked). Not on contraception. Last period 2 weeks ago.\nSuicide/depression: feels sad or flat most days for about 3 months, cries at night, lost interest in things she liked. CUE (only if asked directly and gently): has been cutting the tops of her thighs with a pencil-sharpener blade about once a week for 2 months to 'feel better'. Sometimes thinks it would be easier not to wake up, but has no plan and says she would never do it because of her little brother. No previous overdose.\nSafety: no one hurting her; feels safe at home. Wears seatbelts.\nIdeas/concerns/expectations: scared that if mum finds out about the cutting she will 'freak out'. Would agree to see a headspace counsellor and to the doctor helping her tell mum about feeling low, if she stays in control of what is shared."
+    },
+    "keySteps": [
+      "Explains confidentiality and its limits (serious risk of harm to herself or others, or abuse) before taking the history",
+      "Covers HEEADSSS domains systematically, including online activity and bullying",
+      "Asks directly about self-harm and suicidal thoughts and assesses current risk",
+      "Asks about sexual activity, consent, contraception and STI protection",
+      "Agrees a plan that involves her in decisions about what is shared with her mother and links her to youth mental health support (for example headspace) with early review"
+    ],
+    "domains": [
+      {
+        "name": "Approach to adolescent",
+        "expectations": "Non-judgemental, uses developmentally appropriate language, starts with less sensitive topics, shows genuine interest and respects her autonomy."
+      },
+      {
+        "name": "History",
+        "expectations": "Systematic HEEADSSS: home, education, eating, activities, drugs, sexuality, suicide and depression, safety, with enough depth to identify depressive symptoms, self-harm, sleep disruption and cyberbullying."
+      },
+      {
+        "name": "Risk assessment",
+        "expectations": "Explores self-harm method, frequency, wound care, suicidal ideation, plan, intent and protective factors, and judges immediate risk as not high but needing follow-up."
+      },
+      {
+        "name": "Management and communication",
+        "expectations": "Summarises likely depression with self-harm, discusses a mental health treatment plan or headspace referral, sleep and screen advice, sexual health (contraception, condoms, STI testing), and negotiates involving her mother with her consent; gives Kids Helpline 1800 55 1800 and reviews within a week."
+      }
+    ],
+    "expectedDiagnosis": "Adolescent depression with non-suicidal self-harm, contributed to by cyberbullying, family conflict and sleep deprivation",
+    "teachingPoints": [
+      "HEEADSSS gives structure; always offer adolescents time alone and explain limits of confidentiality first.",
+      "Headaches and tiredness are common presenting complaints for adolescent mental health problems.",
+      "Ask directly about self-harm; most young people who self-harm will not volunteer it.",
+      "A mature minor can consent to their own care (Gillick competence); involve parents where it helps and with the young person's agreement unless there is serious risk.",
+      "headspace centres and Kids Helpline (1800 55 1800) are free youth services in Australia."
+    ]
+  },
+  {
+    "id": "st-psych-emergencies-1",
+    "title": "Acute agitation in the emergency department",
+    "discipline": "mental-health",
+    "topic": "psych-emergencies",
+    "difficulty": "hard",
+    "area": "management",
+    "setting": "Emergency department, metropolitan Sydney",
+    "candidateBrief": "You are a resident in a metropolitan Sydney emergency department. Police have brought in Ryan Walsh, a 28-year-old man, after neighbours reported him shouting and banging on doors at 2 am. He is pacing in a cubicle, sweating and shouting, with a security officer outside. Triage observations: HR 132, BP 162/98, temperature 38.1 degrees C, RR 22, SpO2 98% on room air. The nurse was unable to check his blood glucose. No previous records are available.",
+    "tasks": [
+      {
+        "task": "Approach Ryan, attempt verbal de-escalation and assess him",
+        "minutes": 4
+      },
+      {
+        "task": "Tell the examiner your differential diagnosis",
+        "minutes": 1
+      },
+      {
+        "task": "Outline your immediate management to the examiner",
+        "minutes": 3
+      }
+    ],
+    "patient": {
+      "name": "Ryan Walsh",
+      "age": 28,
+      "sex": "male",
+      "persona": "Loud, fast speech, restless, frightened rather than malicious. Believes people are after him. Shouts if the doctor stands too close, crowds him or blocks the door, or talks down to him. Responds to a calm, clear voice, being offered water and a choice, and being told what will happen next. Agrees to take an oral tablet if offered respectfully. What makes it hard: a potentially dangerous patient, medical red flags hidden behind agitation, and the need to balance safety with dignity.",
+      "openingLine": "Get away from me! They're coming, they're in the walls, I heard them. Why is the cop still here?",
+      "script": "Recent events: has used methamphetamine ('ice') heavily for 3 days, smoking it, with little sleep or food. Last used about 5 hours ago. Began hearing people in the walls and believing a gang is coming for him. Also drank about 6 beers tonight. Denies other drugs if asked, but 'took a couple of something' a mate gave him (unknown).\nPhysical (only if asked): very thirsty, feels hot, heart pounding. Hit his head on a door frame tonight but did not black out. No chest pain. No headache.\nRisk (only if asked calmly): no weapons on him (police searched him). Denies wanting to hurt himself; wants to hurt 'them' only if they come near. No previous suicide attempts.\nPMH: ADHD as a child. No known heart disease. Meds: none. Allergies: nil.\nSocial: lives alone in a flat, works casual construction. Uses ice most weekends for a year. Smokes 20 cigarettes a day.\nCUE: will say 'I haven't eaten or had a drink in days' if asked about food or fluids (dehydration, rhabdomyolysis risk) and 'I'm burning up' (hyperthermia).\nIdeas/concerns/expectations: terrified, wants to feel safe and for the noises to stop. Will accept oral diazepam or olanzapine if offered calmly with a choice. Wants water."
+    },
+    "keySteps": [
+      "Ensures safety for staff and patient (exit route, security nearby, not approaching alone) and uses verbal de-escalation first",
+      "Recognises and prioritises medical causes and complications: hypoglycaemia, head injury, hyperthermia, stimulant toxicity, rhabdomyolysis, delirium",
+      "Offers oral sedation (for example diazepam or olanzapine) before considering parenteral sedation",
+      "Plans monitoring and investigations after sedation (glucose, ECG, CK, electrolytes, renal function, temperature) and the appropriate legal framework"
+    ],
+    "domains": [
+      {
+        "name": "Approach and de-escalation",
+        "expectations": "Introduces self calmly, keeps a safe distance with a clear exit, speaks slowly, acknowledges his fear, offers water and choices, sets clear limits and does not argue with his beliefs."
+      },
+      {
+        "name": "Assessment",
+        "expectations": "Rapidly establishes drug and alcohol use, timing, other ingestions, head injury, fluids, hallucinations and delusions, and intent to harm self or others."
+      },
+      {
+        "name": "Differential diagnosis",
+        "expectations": "Offers methamphetamine intoxication with stimulant-induced psychosis as most likely, and considers sympathomimetic toxicity with hyperthermia, delirium, head injury, hypoglycaemia, sepsis, serotonin toxicity and a primary psychotic illness."
+      },
+      {
+        "name": "Management",
+        "expectations": "Describes a stepwise approach: de-escalation, oral benzodiazepine or antipsychotic, then IM or IV sedation (for example droperidol, midazolam or ketamine per local protocol) with a trained team if needed; continuous monitoring, active cooling and IV fluids, ECG, bloods including CK, CT brain if head injury concerns persist, and mental health review once medically cleared, using the state Mental Health Act or duty of care as appropriate."
+      }
+    ],
+    "expectedDiagnosis": "Methamphetamine intoxication with stimulant-induced psychosis and features of sympathomimetic toxicity (tachycardia, hypertension, hyperthermia)",
+    "teachingPoints": [
+      "Agitation is a medical emergency until proven otherwise: check glucose, temperature, oxygenation, head injury and toxidromes.",
+      "Verbal de-escalation first, then oral sedation, then parenteral sedation; follow the local ED acute behavioural disturbance guideline.",
+      "Methamphetamine can cause hyperthermia, rhabdomyolysis, arrhythmia and stroke; sedation and cooling are part of medical treatment.",
+      "After parenteral sedation the patient needs continuous monitoring by staff able to manage the airway.",
+      "Mental Health Act powers and duty of care provisions vary by state; document the reasons for any restrictive intervention."
+    ]
+  },
+  {
+    "id": "st-mental-health-law-1",
+    "title": "Explaining involuntary admission to a worried mother",
+    "discipline": "mental-health",
+    "topic": "mental-health-law",
+    "difficulty": "medium",
+    "area": "management",
+    "setting": "Inpatient mental health unit, metropolitan Melbourne",
+    "candidateBrief": "You are a psychiatry resident in a metropolitan Melbourne inpatient unit. Sam Papadopoulos, a 23-year-old man with schizophrenia, was admitted last night on an assessment order after stopping his medication and threatening his neighbour with a cricket bat. This morning the consultant psychiatrist made a temporary treatment order. Sam has agreed that you can speak with his mother, Helen, who is his nominated support person. She has asked to see a doctor and is upset.",
+    "tasks": [
+      {
+        "task": "Explore Helen's understanding and concerns",
+        "minutes": 2
+      },
+      {
+        "task": "Explain why Sam is being treated involuntarily and what this means",
+        "minutes": 3
+      },
+      {
+        "task": "Explain Sam's rights and Helen's role, and answer her questions",
+        "minutes": 3
+      }
+    ],
+    "patient": {
+      "name": "Helen Papadopoulos",
+      "age": 54,
+      "sex": "female",
+      "role": "Mother and nominated support person of Sam, a 23-year-old inpatient",
+      "persona": "Tearful, tired and guilty, speaks quickly and interrupts. Feels Sam has been 'locked up like a criminal' and that she caused it by calling the crisis team. Settles when her feelings are acknowledged and she is given clear, honest information. Appreciates being treated as part of Sam's care team.",
+      "openingLine": "I just want to know what's happening to my son. They told me he can't leave. Is he in jail now? It's my fault, I'm the one who called.",
+      "script": "Background she can give: Sam was diagnosed with schizophrenia at 19. Well for 2 years on a depot antipsychotic, then switched to oral tablets 6 months ago at his request and stopped them about 2 months ago because of weight gain. Over the past month he became convinced his neighbour was poisoning his water, stopped sleeping and eating properly. Two days ago he went next door with a cricket bat shouting. Helen called the crisis team; police attended. Nobody was hurt.\nWhat she has heard: that Sam 'can't leave', that he is 'on an order', and that they may give him an injection against his will. She does not know what the order means, how long it lasts or whether it will go on his record or affect his job.\nConcerns: guilt about calling the crisis team; fear Sam will hate her; fear of forced injections; worried about his weight; worried he will lose his job at a warehouse.\nQuestions she will ask: 'How long will he be here?', 'Can he appeal?', 'Will he have a criminal record?', 'Can I visit?', 'Can I be told what is going on?'.\nCUE: she says she has not slept for days and is 'at the end of my rope'. She has no one else to help; her husband died 3 years ago. She would accept carer support information if offered.\nWhat she accepts: once it is explained, she agrees the order is there to keep Sam and others safe and to get him treated, and she wants to support the plan and be involved in discharge planning."
+    },
+    "keySteps": [
+      "Acknowledges Helen's distress and guilt and reassures her that seeking help was the right thing to do",
+      "Explains the criteria for compulsory treatment in plain language: mental illness, need for immediate treatment to prevent serious harm to himself or others, and no less restrictive way to provide it",
+      "Explains Sam's rights: a statement of rights, review by the Mental Health Tribunal, legal representation and advocacy, and a second psychiatric opinion",
+      "Explains that the order is a health measure, not a criminal matter, and describes Helen's role as nominated support person and how she will be involved"
+    ],
+    "domains": [
+      {
+        "name": "Approach to carer",
+        "expectations": "Empathic, lets her speak, names her guilt and fear, and confirms Sam's consent to share information."
+      },
+      {
+        "name": "Explanation of the law",
+        "expectations": "Explains the difference between an assessment order and a temporary treatment order, that the order is time-limited and reviewed, that treatment aims to be least restrictive, and that Sam can become voluntary as soon as the criteria no longer apply."
+      },
+      {
+        "name": "Rights and involvement",
+        "expectations": "Covers Tribunal hearing, Independent Mental Health Advocacy, Victoria Legal Aid, second opinion, visiting, and the nominated support person's right to be informed and consulted; avoids promising outcomes such as a set discharge date."
+      },
+      {
+        "name": "Carer support and follow-up",
+        "expectations": "Recognises carer strain, offers carer support services and a family meeting with the treating team, and checks her understanding before closing."
+      }
+    ],
+    "teachingPoints": [
+      "Each state and territory has its own Mental Health Act; this station uses Victoria's Mental Health and Wellbeing Act 2022 (assessment orders, temporary and treatment orders, Mental Health Tribunal).",
+      "Core criteria across states: mental illness, risk of serious harm, and no less restrictive means of treatment.",
+      "Involuntary patients have rights to information, tribunal review, legal representation, advocacy and a second opinion.",
+      "An involuntary order is not a criminal record; carers and nominated support persons should be included in care and discharge planning.",
+      "Carers of people with severe mental illness are at high risk of burnout; offer carer support."
+    ]
+  },
+  {
+    "id": "st-old-age-psych-1",
+    "title": "Explaining a diagnosis of dementia",
+    "discipline": "mental-health",
+    "topic": "old-age-psych",
+    "difficulty": "medium",
+    "area": "diagnosis",
+    "setting": "GP clinic, regional Tasmania",
+    "candidateBrief": "You are a general practitioner in Launceston, Tasmania. Margaret Hill, a 76-year-old retired librarian, returns with her daughter Susan for her results after 18 months of progressive forgetfulness. MoCA 19/30 (losses in delayed recall, orientation to date and executive tasks). Geriatric Depression Scale normal. FBC, electrolytes, calcium, LFTs, TSH, B12, folate and glucose normal. CT brain: generalised atrophy, more marked in the medial temporal lobes, no stroke or mass. She lives alone and still drives. Margaret has told you she wants to know everything.",
+    "tasks": [
+      {
+        "task": "Explain the results and the likely diagnosis",
+        "minutes": 3
+      },
+      {
+        "task": "Address her concerns and questions, including driving",
+        "minutes": 3
+      },
+      {
+        "task": "Outline the next steps in management and support",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Margaret Hill",
+      "age": 76,
+      "sex": "female",
+      "persona": "Articulate, dignified, uses dry humour but is frightened underneath. Wants honesty and to be spoken to directly rather than about her to her daughter. Becomes quiet and teary when the word dementia is used, and needs a pause. Defensive about driving at first ('I've never had an accident in my life'). Susan is supportive and occasionally chips in.",
+      "openingLine": "Well, doctor, I've been lying awake about this. Out with it. Am I losing my marbles?",
+      "script": "History: 18 months of repeating questions, misplacing things, missing two appointments, and forgetting to pay the electricity bill (Susan now helps). Got lost driving home from her sister's house 3 months ago, a route she has driven for 20 years, and was found by a neighbour 2 hours later (CUE: driving safety). Still cooks simple meals, showers and dresses independently, manages tablets from a Webster-pak. No falls, no hallucinations, no fluctuating confusion, no stepwise decline. Mood mostly okay; misses her late husband.\nPMH: hypertension, osteoarthritis. Meds: perindopril 5 mg daily, paracetamol as needed. Allergies: nil. No alcohol concerns (one sherry on Sundays). Never smoked.\nFamily: mother had 'senility' in her 80s.\nSocial: widowed, lives alone in her own home. Susan lives 10 minutes away. Plays bridge weekly and reads every day.\nIdeas/concerns/expectations: fears she has Alzheimer's like her mother and will end up 'in a home, not knowing anyone'. Wants to stay at home as long as possible. Asks, 'Is there a tablet for it?' and 'Can I still drive?'. Has not made an enduring power of attorney or advance care directive. Will agree to stop driving while a formal driving assessment is arranged if the doctor explains the incident sensitively and involves her in the decision. Susan's concern (if asked): she is worried about her mum being alone and would like help at home."
+    },
+    "keySteps": [
+      "Checks what Margaret already understands and how much she wants to know, then gives the diagnosis clearly using the word dementia (probable Alzheimer's disease)",
+      "Pauses and responds to emotion, speaking directly to Margaret rather than to her daughter",
+      "Addresses driving safety honestly, advising her not to drive pending formal assessment and explaining her obligation to notify the licensing authority",
+      "Discusses planning ahead: enduring power of attorney or guardianship and an advance care directive while she has capacity",
+      "Arranges support and follow-up: geriatrician or memory clinic referral, My Aged Care assessment, and Dementia Australia"
+    ],
+    "domains": [
+      {
+        "name": "Communication and approach",
+        "expectations": "Uses a structured approach to breaking bad news, avoids jargon, allows silence, validates fear, and respects her autonomy and dignity."
+      },
+      {
+        "name": "Diagnostic explanation",
+        "expectations": "Explains that the normal bloods exclude reversible causes, that the MoCA and CT pattern point to Alzheimer's-type dementia, and describes it as a gradually progressive condition while emphasising what she can still do."
+      },
+      {
+        "name": "Management",
+        "expectations": "Discusses cholinesterase inhibitors (for example donepezil) as modest symptomatic treatment usually started after specialist confirmation, cardiovascular risk control, staying socially and physically active, home safety and support services."
+      },
+      {
+        "name": "Safety and planning",
+        "expectations": "Handles driving sensitively but firmly, covers legal planning (enduring power of attorney, advance care directive), involves Susan with Margaret's consent, and offers a follow-up appointment soon."
+      }
+    ],
+    "expectedDiagnosis": "Mild dementia, probable Alzheimer's disease",
+    "teachingPoints": [
+      "Screen for reversible causes (B12, folate, TSH, calcium, glucose, depression, medications) and image the brain before diagnosing dementia.",
+      "Use RUDAS for culturally and linguistically diverse patients and KICA for Aboriginal patients in remote areas instead of MMSE or MoCA.",
+      "Patients must notify the state licensing authority of conditions affecting driving (Austroads Assessing Fitness to Drive); getting lost while driving is a red flag.",
+      "PBS-subsidised cholinesterase inhibitors require confirmation of Alzheimer's disease, typically with specialist involvement; benefits are modest.",
+      "Encourage enduring power of attorney and advance care planning early, while the person can make these decisions; the Dementia Australia helpline is 1800 100 500."
+    ]
+  }
+]

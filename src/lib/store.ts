@@ -18,6 +18,11 @@ export interface Profile {
   posting?: string; // current MBBS subject/posting id from mbbs.json
 }
 
+export interface Settings {
+  quizTimer: boolean; // 84-second countdown per question, the AMC pace (210 min / 150 questions)
+}
+export const DEFAULT_SETTINGS: Settings = { quizTimer: true };
+
 export interface Attempt {
   n: number;
   correct: number;
@@ -46,9 +51,12 @@ export interface MockResult {
 export interface OsceResult {
   stationId: string;
   at: number;
-  score: number; // 0-100
+  score: number; // 0-100 (global rating as a percentage, kept for older records)
   rating: string;
+  global?: number; // AMC global rating 1-7; 4 or more passes
 }
+
+export const osceGlobal = (o: OsceResult) => o.global ?? Math.round((o.score / 100) * 7);
 
 export interface ChatMsg {
   role: "user" | "assistant";
@@ -70,6 +78,7 @@ interface State {
   lessons: Record<string, string>; // topicId -> cached AI lesson markdown
   lessonProgress: Record<string, LessonState>; // course lesson id -> progress
   lastLesson: string | null;
+  settings: Settings;
   owner: string | null; // account id this browser copy belongs to (not synced)
   syncedVersion: number; // server version this copy last matched (not synced)
   dirty: boolean; // changed since the last successful save (not synced)
@@ -87,6 +96,7 @@ interface State {
   saveLesson: (topicId: string, md: string) => void;
   setLessonStep: (id: string, step: number) => void;
   completeLesson: (id: string, score: number, total: number, cardIds: string[]) => void;
+  setSettings: (s: Partial<Settings>) => void;
   markStudied: () => void;
   importAll: (data: Partial<State>) => void;
   setOwner: (id: string | null) => void;
@@ -112,6 +122,7 @@ const empty = {
   lessons: {},
   lessonProgress: {},
   lastLesson: null,
+  settings: DEFAULT_SETTINGS,
   owner: null,
   syncedVersion: 0,
   dirty: false,
@@ -133,6 +144,7 @@ export const SYNC_KEYS = [
   "lessons",
   "lessonProgress",
   "lastLesson",
+  "settings",
 ] as const;
 export type SyncKey = (typeof SYNC_KEYS)[number];
 export type Snapshot = Pick<State, SyncKey>;
@@ -206,6 +218,7 @@ export const useStore = create<State>()(
       markStudied: () => set((s) => ({ studyDays: withDay(s.studyDays) })),
       importAll: (data) => set(data),
       setOwner: (owner) => set({ owner }),
+      setSettings: (x) => set((s) => ({ settings: { ...DEFAULT_SETTINGS, ...s.settings, ...x } })),
       setSync: (x) => set(x),
       // Clears progress but keeps the sync bookkeeping, so the empty copy replaces the account's copy.
       resetAll: () => set((s) => ({ ...empty, owner: s.owner, syncedVersion: s.syncedVersion, dirty: true })),

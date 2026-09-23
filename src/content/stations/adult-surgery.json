@@ -1,0 +1,764 @@
+[
+  {
+    "id": "st-general-surgery-1",
+    "title": "Right iliac fossa pain in a 24-year-old man",
+    "discipline": "adult-surgery",
+    "topic": "general-surgery",
+    "difficulty": "easy",
+    "area": "history",
+    "setting": "Emergency department, metropolitan hospital, Brisbane",
+    "candidateBrief": "You are a resident in the emergency department of a metropolitan hospital. Jack Morrison, a 24-year-old electrician, has come in with abdominal pain that started yesterday. Triage observations: temperature 37.9 C, HR 104, BP 124/78 mmHg, RR 18, SpO2 98% on room air. He has been given oral paracetamol at triage. The examiner will give you examination findings if you ask for them at the end of the history.",
+    "tasks": [
+      {
+        "task": "Take a focused history from Jack",
+        "minutes": 5
+      },
+      {
+        "task": "Tell Jack the most likely diagnosis and one or two differentials",
+        "minutes": 1
+      },
+      {
+        "task": "Outline your initial management plan to Jack",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Jack Morrison",
+      "age": 24,
+      "sex": "male",
+      "persona": "Friendly, a bit sweaty and uncomfortable, lies very still on the trolley and winces when the bed is bumped. Uses plain Aussie speech ('it's gone right down here now, mate'). Answers clearly but only volunteers the main pain; you need to ask about the rest. Mildly worried he'll miss work.",
+      "openingLine": "G'day doc. Got this pain in me guts, started round the belly button yesterday and now it's moved down the right side.",
+      "script": "Pain: Began about 20 hours ago as a dull ache around the umbilicus. Over about 8 hours it moved to the right lower abdomen and became sharp and constant. Worse with walking, coughing and going over speed bumps in the car on the way in. Severity now 7/10. Nothing makes it better except lying still.\n\nAssociated: Lost his appetite since yesterday morning (skipped dinner, which is unusual for him). Nauseated, vomited once this morning, after the pain started. Felt hot and cold overnight. Bowels opened normally yesterday, no diarrhoea, no blood. No urinary symptoms: no dysuria, frequency or haematuria. No testicular pain or swelling. No flank pain. No recent travel, no sick contacts, no dodgy food.\n\nPast history: Nil significant. Never had this before. No previous operations. Meds: none except the paracetamol given. No known allergies. Last ate a piece of toast 14 hours ago, last drank water 2 hours ago.\n\nSocial: Electrician, lives with his girlfriend. Drinks about 6 beers on a weekend, no drugs, doesn't smoke.\n\nFamily history: Dad had his appendix out at 30.\n\nIdeas, concerns, expectations: Thinks it might be 'a bad gastro' but is worried it's his appendix because of his dad. Wants something for the pain. CUE: Has a job interview on Friday and asks if he can just get tablets and go home; he needs to be told clearly that he should stay for surgical review.\n\nExamination (give if asked at the end): Tender right iliac fossa with guarding, maximal at McBurney's point; rebound tenderness; Rovsing sign positive; bowel sounds present; testes normal; no hernia. Urinalysis: normal."
+    },
+    "keySteps": [
+      "Characterises the pain including migration from the umbilicus to the right iliac fossa",
+      "Asks about anorexia, nausea or vomiting, and fever",
+      "Screens for alternative causes (urinary, testicular, gastroenteritis) including testicular pain",
+      "Advises nil by mouth, analgesia and early surgical referral rather than discharge"
+    ],
+    "domains": [
+      {
+        "name": "History taking",
+        "expectations": "Takes a structured SOCRATES pain history, elicits migration, anorexia, vomiting after pain onset and fever, and covers PMH, meds, allergies and last oral intake."
+      },
+      {
+        "name": "Differential diagnosis",
+        "expectations": "States acute appendicitis as most likely and names sensible differentials such as mesenteric adenitis, gastroenteritis, ureteric colic or testicular pathology."
+      },
+      {
+        "name": "Management",
+        "expectations": "Plans IV access, bloods (FBC, CRP, EUC, LFT, lipase), urinalysis, IV fluids, IV analgesia and antiemetic, nil by mouth, general surgical referral and CT abdomen if the surgical team wants imaging; antibiotics once the diagnosis is made per eTG."
+      },
+      {
+        "name": "Communication",
+        "expectations": "Explains in plain language why he needs to stay, addresses the job interview worry honestly and checks understanding."
+      }
+    ],
+    "expectedDiagnosis": "Acute appendicitis",
+    "teachingPoints": [
+      "Classic appendicitis: periumbilical pain migrating to the RIF, anorexia, vomiting after pain onset and low-grade fever.",
+      "Adequate analgesia, including opioids, does not mask the diagnosis and should never be withheld.",
+      "CT is the usual imaging in non-pregnant adults; ultrasound first in children and pregnancy; always do a pregnancy test in women of reproductive age.",
+      "The Alvarado score supports clinical judgement but does not replace surgical review."
+    ]
+  },
+  {
+    "id": "st-general-surgery-2",
+    "title": "Large bowel obstruction in a 74-year-old woman",
+    "discipline": "adult-surgery",
+    "topic": "general-surgery",
+    "difficulty": "medium",
+    "area": "diagnosis",
+    "setting": "Surgical ward, regional hospital, Ballarat, Victoria",
+    "candidateBrief": "You are the surgical resident at a regional hospital. Margaret Hill, 74, was admitted overnight with 3 days of abdominal distension, colicky pain and no flatus. She has an NG tube and IV fluids running. Obs: HR 96, BP 132/80 mmHg, temperature 37.2 C. Hb 98 g/L, MCV 74 fL, lactate 1.4 mmol/L. CT abdomen/pelvis: dilated large bowel to an irregular 4 cm stricture in the sigmoid colon with shouldering, suspicious for malignancy; caecum 9 cm; no free gas; no liver lesions seen. The consultant will see her in an hour.",
+    "tasks": [
+      {
+        "task": "Explain the CT findings and what they mean to Margaret",
+        "minutes": 3
+      },
+      {
+        "task": "Take a brief history to support the diagnosis",
+        "minutes": 2
+      },
+      {
+        "task": "Explain the next steps in her care and answer her questions",
+        "minutes": 3
+      }
+    ],
+    "patient": {
+      "name": "Margaret Hill",
+      "age": 74,
+      "sex": "female",
+      "persona": "Retired schoolteacher, articulate and direct, uncomfortable but lucid. Wants the truth ('don't beat around the bush, love'). Becomes quiet and teary when the word cancer is raised, then asks practical questions. Feels guilty that she ignored the bowel screening kits.",
+      "openingLine": "The night doctor said you'd have the scan results. Is it a blockage? Can you just unblock it?",
+      "script": "Presentation: Crampy lower abdominal pain for 3 days, belly getting bigger and tight. No flatus or bowel motion for 2 days. Vomited twice yesterday before the NG tube.\n\nBackground symptoms (only if asked): For about 4 months her bowels have been 'all over the place', alternating constipation and loose motions. Occasional dark red blood mixed with the stool, which she put down to piles. Lost about 5 kg without trying. More tired and breathless on her walks lately. No previous colonoscopy.\n\nScreening: She received the National Bowel Cancer Screening Program kits in the post but 'put them in a drawer'. Feels foolish about it now.\n\nPMH: Hypertension, osteoarthritis of the knees. No previous abdominal surgery. Meds: amlodipine 5 mg daily, paracetamol as needed. No blood thinners. Allergies: nil.\n\nSocial: Widowed, lives alone in Ballarat, independent, drives. Daughter Sue lives in Melbourne. Non-smoker, a glass of wine with dinner occasionally.\n\nFamily history: Brother had 'bowel polyps' removed in his 60s.\n\nIdeas, concerns, expectations: Hoping it's just constipation. Once cancer is mentioned: 'Has it spread? Will I need a bag?' She is frightened of having a stoma. CUE: Wants her daughter told and asks if Sue can be present when the consultant comes; the candidate should offer to arrange this.\n\nResponses: If explained honestly and kindly, she accepts and asks what the operation involves. If told the diagnosis is definitely cancer, she asks 'how can you be sure?', which gives the candidate the chance to explain that tissue diagnosis is still needed."
+    },
+    "keySteps": [
+      "Explains the obstruction and that the narrowing is suspicious for bowel cancer, without stating it is confirmed",
+      "Elicits the preceding change in bowel habit, rectal bleeding and weight loss",
+      "Explains the need for urgent surgical review because of the risk of perforation, including the possibility of a stoma",
+      "Offers support and to involve her daughter, and checks understanding"
+    ],
+    "domains": [
+      {
+        "name": "Explaining the diagnosis",
+        "expectations": "Gives a warning shot, uses plain language (bowel blocked by a narrowing that looks like it may be a cancer), pauses for emotion, and explains that a biopsy is needed to be certain."
+      },
+      {
+        "name": "History",
+        "expectations": "Briefly elicits change in bowel habit, rectal bleeding, weight loss, anaemia symptoms, family history and missed screening in a non-judgemental way."
+      },
+      {
+        "name": "Management",
+        "expectations": "Explains drip and suck, IDC and fluid balance, surgical consultant review today, likely operation (resection, which may mean a temporary or permanent stoma; a stent may be an option in selected cases), staging CT chest and CEA, and discussion at a colorectal multidisciplinary meeting."
+      },
+      {
+        "name": "Communication and support",
+        "expectations": "Responds to her stoma fears empathetically, mentions stomal therapy nurse support, offers to involve Sue, avoids false reassurance and checks understanding."
+      }
+    ],
+    "expectedDiagnosis": "Large bowel obstruction secondary to a probable sigmoid colon carcinoma",
+    "teachingPoints": [
+      "Change in bowel habit, rectal bleeding, iron deficiency anaemia and weight loss in an older person is colorectal cancer until proven otherwise.",
+      "In large bowel obstruction with a competent ileocaecal valve, a caecum approaching 10-12 cm risks perforation; the surgeons need to know early.",
+      "Australia's National Bowel Cancer Screening Program mails a free iFOBT kit every 2 years to people aged 50-74 (people aged 45-49 can request one); a positive result needs colonoscopy.",
+      "Do not label a lesion as cancer before histology: say it is suspicious and explain how it will be confirmed."
+    ]
+  },
+  {
+    "id": "st-trauma-1",
+    "title": "Motorbike crash in a 32-year-old man",
+    "discipline": "adult-surgery",
+    "topic": "trauma",
+    "difficulty": "hard",
+    "area": "management",
+    "setting": "Emergency department, rural hospital, Mount Isa, Queensland",
+    "candidateBrief": "You are the senior medical officer in a rural emergency department in Mount Isa. There is no on-site surgeon; the nearest trauma centre is in Townsville, reached by RFDS retrieval. Dylan Carter, 32, has arrived by ambulance after coming off his trail bike at about 80 km/h and hitting a tree with his left side. He has a cervical collar on. A nurse is with you. Tell the examiner what you are doing and ask for findings as you go.",
+    "tasks": [
+      {
+        "task": "Perform a primary survey with simultaneous resuscitation",
+        "minutes": 5
+      },
+      {
+        "task": "State your working diagnosis to the examiner",
+        "minutes": 1
+      },
+      {
+        "task": "Outline your ongoing management and retrieval plan",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Dylan Carter",
+      "age": 32,
+      "sex": "male",
+      "persona": "In severe pain, anxious and increasingly short-tempered. Speaks in short phrases ('me chest, mate, it's killing me'). Keeps asking about his bike and whether he'll be okay. Hard because life threats evolve as the candidate works: he deteriorates if the chest is not decompressed, and he only reveals that he takes a blood thinner if asked about medications.",
+      "openingLine": "Argh, me chest... I can't get a proper breath. Is me bike alright?",
+      "script": "Mechanism: Came off his trail bike on a corrugated dirt road about 90 minutes ago, hit a tree with his left side. Helmet on. Brief loss of consciousness per his mate. Paramedics: GCS 14 on scene, gave methoxyflurane and 10 mg IV morphine.\n\nSymptoms: Severe left chest pain worse on breathing, left upper abdominal pain, left thigh pain. Some neck pain. No limb numbness or weakness.\n\nAMPLE: Allergies: none. CUE: Medications: apixaban 5 mg twice daily for a DVT three months ago after a knee reconstruction (only if asked). Past history: knee reconstruction. Last meal: pie and a Coke four hours ago. Events: as above. Admits to 6 beers before riding if asked directly.\n\nSocial: FIFO mine worker. Smokes. Lives with his partner.\n\nCourse: If the candidate decompresses the left chest (finger or needle thoracostomy) then inserts an intercostal catheter, his breathing and saturation improve. With warmed blood products and permissive hypotension, BP rises to about 100 systolic and then drifts again (ongoing splenic bleeding). Without decompression he becomes more hypoxic and hypotensive.\n\nConcerns: Wants pain relief and wants someone to ring his partner.",
+      "examFindings": "Airway: talking in short phrases, patent. Collar on; midline tenderness at C5-6.\nBreathing: RR 32, SpO2 86% on 15 L/min non-rebreather. Trachea deviated to the right, reduced expansion, hyperresonance and absent breath sounds on the left; tender left lower ribs with crepitus. After decompression and chest drain: RR 24, SpO2 95%, 200 mL blood in drain.\nCirculation: HR 128, BP 88/54 mmHg, cool peripheries, capillary refill 4 s, distended neck veins before decompression. Abdomen tender LUQ with guarding. Pelvis stable on gentle compression. Left thigh swollen and deformed, distal pulses present. eFAST: free fluid in the splenorenal space, no pericardial fluid, absent lung sliding on the left before the drain.\nDisability: GCS 14 (E3 V5 M6), pupils equal and reactive, moves all limbs, BGL 6.2 mmol/L.\nExposure: temperature 35.4 C, abrasions left flank and arm, closed deformity left mid-thigh.\nInvestigations: Hb 102 g/L, lactate 4.1 mmol/L, BE -6. CXR after drain: lung re-expanded, left ribs 8-10 fractured. Pelvic X-ray normal. Other systems not assessed in primary survey."
+    },
+    "keySteps": [
+      "Recognises left tension pneumothorax clinically and decompresses immediately, followed by an intercostal catheter, without waiting for a chest X-ray",
+      "Treats haemorrhagic shock with large-bore access, warmed blood products via massive transfusion protocol, permissive hypotension and tranexamic acid within 3 hours",
+      "Elicits apixaban use and plans anticoagulant reversal with senior or haematology advice",
+      "Activates retrieval to a major trauma centre early and maintains spinal precautions"
+    ],
+    "domains": [
+      {
+        "name": "Structured approach",
+        "expectations": "Calls for help and retrieval early, follows ABCDE with C-spine control, treats each life threat as found and reassesses after each intervention."
+      },
+      {
+        "name": "Resuscitation",
+        "expectations": "High-flow oxygen, decompression and chest drain, two large-bore cannulas with bloods including crossmatch and coags, blood not litres of crystalloid, TXA, keeps him warm, splints the femur and gives IV analgesia."
+      },
+      {
+        "name": "Diagnosis",
+        "expectations": "States multi-trauma: left tension pneumothorax with rib fractures, haemorrhagic shock from probable splenic injury, closed femoral shaft fracture, possible cervical spine injury, anticoagulated."
+      },
+      {
+        "name": "Communication",
+        "expectations": "Clear closed-loop instructions to the nurse, ISBAR handover to retrieval, and reassures the patient and offers to contact his partner."
+      }
+    ],
+    "expectedDiagnosis": "Multi-trauma with left tension pneumothorax, haemorrhagic shock from probable splenic injury and a femoral shaft fracture in an anticoagulated patient",
+    "teachingPoints": [
+      "EMST primary survey: catastrophic haemorrhage, Airway with C-spine, Breathing, Circulation, Disability, Exposure; treat as you find.",
+      "Tension pneumothorax is a clinical diagnosis: finger thoracostomy or needle decompression (4th/5th intercostal space anterior to the mid-axillary line in adults), then an intercostal catheter.",
+      "Damage control resuscitation: permissive hypotension without head injury, early balanced blood products, TXA 1 g within 3 hours of injury.",
+      "AMPLE matters: factor Xa inhibitors are reversed with andexanet alfa where available or prothrombin complex concentrate.",
+      "In rural and remote Australia, early retrieval activation (RFDS or state retrieval service) is part of resuscitation."
+    ]
+  },
+  {
+    "id": "st-trauma-2",
+    "title": "Flame burns in a 28-year-old man",
+    "discipline": "adult-surgery",
+    "topic": "trauma",
+    "difficulty": "medium",
+    "area": "management",
+    "setting": "Emergency department, regional hospital, Dubbo, New South Wales",
+    "candidateBrief": "You are the emergency registrar at a regional hospital. Liam Fraser, 28, weight 80 kg, was burnt 45 minutes ago when he threw petrol on a bonfire. His mates hosed him down for a few minutes. He arrived by ambulance with 10 mg IV morphine given. Obs: HR 112, BP 128/76 mmHg, RR 22, SpO2 96% on room air, temperature 36.2 C. The examiner will give you findings as you assess him.",
+    "tasks": [
+      {
+        "task": "Assess and begin managing Liam, asking the examiner for findings",
+        "minutes": 4
+      },
+      {
+        "task": "Estimate the burn size and calculate his fluid requirement",
+        "minutes": 2
+      },
+      {
+        "task": "Outline ongoing management and disposition to the examiner",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Liam Fraser",
+      "age": 28,
+      "sex": "male",
+      "persona": "In pain and frightened, voice slightly hoarse, keeps saying he's 'fine, just stings'. Embarrassed about what happened. Cooperative. Will cough and mention his throat feels scratchy only if asked about breathing or voice.",
+      "openingLine": "Ah, it stings like hell. Me mates reckon I'm an idiot. How bad is it, doc?",
+      "script": "Event: Around 45 minutes ago at a mate's farm, he threw petrol onto a bonfire. There was a fireball in front of him. His shirt caught alight and he rolled on the ground. He was standing partly under a carport roof near the fire for a minute or so afterwards in the smoke. Mates hosed him for about 3 minutes, then wrapped him in a towel.\n\nSymptoms: Burning pain to chest, abdomen and right arm. CUE: Throat feels scratchy and his voice is 'a bit croaky'; he has coughed up some black spit (only if asked about breathing, voice or cough). No loss of consciousness. No other injuries, no fall from height, no explosion injury.\n\nAMPLE: Allergies: nil. Meds: nil. PMH: well, no asthma. Tetanus: last booster at school, over 10 years ago. Last meal: burger 3 hours ago, several beers.\n\nSocial: Plumber, right-handed, lives with his partner.\n\nConcerns: Worried about scarring and about getting back to work. Asks if he can go home tonight.\n\nFindings on assessment:\nAirway: talking, hoarse voice, singed eyebrows and nasal hairs, soot around nostrils and in the mouth, no stridor yet.\nBreathing: RR 22, SpO2 96%, chest clear, full expansion, no circumferential chest burn.\nCirculation: HR 112, BP 128/76, peripheries warm.\nDisability: GCS 15, BGL 6.0.\nExposure: Anterior chest and abdomen: red, blistered, moist, blanching, painful (superficial to mid dermal). Entire anterior surface of the right arm: pale, blotchy, sluggish capillary refill (deep dermal), not circumferential. Face: erythema only. Estimated total about 22% TBSA partial thickness (anterior trunk about 18% plus anterior right arm about 4-5%). No other injuries. Carboxyhaemoglobin on VBG (if asked) 8%."
+    },
+    "keySteps": [
+      "Recognises features of inhalation injury and calls for early senior anaesthetic airway assessment and likely early intubation",
+      "Estimates burn size excluding simple erythema (about 20-25% TBSA) and calculates fluids using the EMSB/modified Parkland formula with half in the first 8 hours from the time of burn",
+      "Continues cooling with cool running water (up to 20 minutes, within 3 hours of the burn) while preventing hypothermia",
+      "Refers to the state burns service and arranges transfer"
+    ],
+    "domains": [
+      {
+        "name": "Primary survey",
+        "expectations": "ABCDE approach, high-flow oxygen, recognises singed hairs, soot and hoarse voice as airway danger signs, considers carbon monoxide, two large-bore cannulas through unburnt skin."
+      },
+      {
+        "name": "Burn assessment",
+        "expectations": "Uses rule of nines or palm method, excludes erythema, estimates about 22% partial thickness, identifies deep dermal areas and no circumferential burn."
+      },
+      {
+        "name": "Fluid and supportive management",
+        "expectations": "Calculates about 3 mL x 80 kg x 22% = about 5.3 L Hartmann's over 24 h, half in the first 8 h from injury (time already elapsed counts); IDC with urine output target 0.5 mL/kg/h; IV analgesia; tetanus booster; cling film dressing; keeps warm."
+      },
+      {
+        "name": "Disposition and communication",
+        "expectations": "Discusses with the state adult burns unit and retrieval service, explains to Liam honestly why he cannot go home, and addresses his worries about scarring and work."
+      }
+    ],
+    "expectedDiagnosis": "About 22% TBSA partial thickness flame burns with inhalation injury",
+    "teachingPoints": [
+      "Airway danger signs: facial burns, singed nasal hairs, soot, hoarse voice, stridor, enclosed-space fire. Airway oedema worsens over hours, so intubate early before it becomes difficult.",
+      "First aid: cool running water for 20 minutes, effective up to 3 hours after the burn; avoid ice and keep the patient warm.",
+      "EMSB (ANZBA) guides Australian practice: formal fluid resuscitation for burns over about 20% TBSA in adults, titrated to urine output.",
+      "Referral criteria include burns over 10% TBSA in adults, burns to face, hands, feet, genitals or major joints, full thickness burns, circumferential burns, and inhalation, electrical or chemical injury."
+    ]
+  },
+  {
+    "id": "st-orthopaedics-1",
+    "title": "Knee injury in a 23-year-old netballer",
+    "discipline": "adult-surgery",
+    "topic": "orthopaedics",
+    "difficulty": "easy",
+    "area": "examination",
+    "setting": "General practice, suburban Adelaide",
+    "candidateBrief": "You are a GP in suburban Adelaide. Chloe Nguyen, 23, injured her right knee playing netball two days ago. She landed from a jump, twisted, felt a pop and could not continue. The knee swelled within a couple of hours. She is walking with a limp. She has no past knee problems. Tell the examiner what you are examining and you will be given the findings.",
+    "tasks": [
+      {
+        "task": "Perform a focused examination of Chloe's right knee",
+        "minutes": 5
+      },
+      {
+        "task": "Explain the most likely diagnosis to Chloe",
+        "minutes": 1
+      },
+      {
+        "task": "Outline your management plan, including whether she needs an X-ray",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Chloe Nguyen",
+      "age": 23,
+      "sex": "female",
+      "persona": "Chatty, keen and a bit anxious about her netball season (finals in six weeks). Cooperative, winces with some tests. Asks directly whether she'll need surgery.",
+      "openingLine": "Hi doc. I did something to my knee at netball on Saturday. It's massive and it feels like it's going to give way.",
+      "script": "Injury: Saturday afternoon, landed from a jump with her right foot planted and twisted inwards over it. Felt and heard a pop. Immediate pain, could not keep playing. Swelling came up within about two hours, 'like a balloon'. Iced it and used crutches from a friend.\n\nNow: Pain 4/10 at rest, worse on stairs. Knee feels unstable and 'wobbly' when she turns. No locking. Can take weight with a limp. No numbness or tingling in the foot.\n\nPMH: Nil. No previous knee injuries. Meds: ibuprofen 400 mg three times a day since Saturday, the oral contraceptive pill. No allergies.\n\nSocial: Physiotherapy student, lives in a share house, plays netball A-grade. Non-smoker, drinks socially.\n\nIdeas, concerns, expectations: Googled 'ACL' and is scared of a reconstruction and missing a year. Wants to play finals in six weeks. CUE: Asks if she can strap it and play next weekend; the candidate should advise against return to sport until assessed and rehabilitated, because of the risk of further meniscal and cartilage damage.\n\nIf management is explained well she accepts physio referral and MRI and asks about seeing a sports physician or orthopaedic surgeon.",
+      "examFindings": "General: comfortable at rest, walks with an antalgic gait, able to take four steps unaided.\nLook: large right knee effusion, no bruising or deformity, no wounds. Quadriceps bulk symmetrical.\nFeel: warm, no bony tenderness over the patella, fibular head or tibial plateau; mild tenderness over the lateral joint line. Patellar tap and sweep test positive (moderate effusion).\nMove: active flexion 0-100 degrees limited by swelling, full extension, no block to extension.\nSpecial tests: Lachman test increased anterior translation with a soft end point compared with the left. Anterior drawer positive. Pivot shift not tolerated because of guarding. Posterior drawer and posterior sag negative. Valgus and varus stress at 0 and 30 degrees: stable. McMurray: mild lateral joint line discomfort, no click. Patellar apprehension negative.\nNeurovascular: distal pulses present, sensation normal.\nHip and ankle: normal. Other systems normal."
+    },
+    "keySteps": [
+      "Examines using a look, feel, move structure and compares with the other knee",
+      "Tests the cruciate ligaments, including the Lachman test, and the collateral ligaments and menisci",
+      "Applies the Ottawa knee rules to decide an X-ray is not needed",
+      "Advises against return to netball until assessed and rehabilitated"
+    ],
+    "domains": [
+      {
+        "name": "Choice and technique of examination",
+        "expectations": "Exposes both legs, watches gait, look-feel-move, effusion tests, Lachman and anterior drawer, posterior drawer, collateral stress at 0 and 30 degrees, McMurray, and checks neurovascular status and the joints above and below."
+      },
+      {
+        "name": "Interpretation of findings",
+        "expectations": "Identifies haemarthrosis with positive Lachman and anterior drawer as anterior cruciate ligament rupture, notes possible lateral meniscal injury, and correctly applies the Ottawa knee rules."
+      },
+      {
+        "name": "Management",
+        "expectations": "Relative rest, ice, compression, elevation, crutches as needed, early physiotherapy to restore range and quadriceps function, MRI and referral to a sports physician or orthopaedic surgeon; explains surgery versus structured rehab depends on her goals."
+      },
+      {
+        "name": "Communication",
+        "expectations": "Explains the diagnosis simply, addresses her finals concern honestly without false reassurance, and checks understanding."
+      }
+    ],
+    "expectedDiagnosis": "Right anterior cruciate ligament rupture with possible lateral meniscal injury",
+    "teachingPoints": [
+      "Pop, rapid swelling within hours (haemarthrosis) and giving way after a pivoting injury suggests ACL rupture.",
+      "The Lachman test is the most sensitive clinical test for ACL injury.",
+      "Ottawa knee rules: X-ray if age 55 or over, isolated patellar tenderness, fibular head tenderness, cannot flex to 90 degrees, or cannot weight bear four steps.",
+      "Many ACL injuries in pivoting sports are reconstructed, but structured rehabilitation with delayed reconstruction if needed is also evidence-based; Australian female athletes have high ACL injury rates, and injury prevention programs reduce them."
+    ]
+  },
+  {
+    "id": "st-orthopaedics-2",
+    "title": "Wrist pain after a fall in a 26-year-old man",
+    "discipline": "adult-surgery",
+    "topic": "orthopaedics",
+    "difficulty": "easy",
+    "area": "diagnosis",
+    "setting": "Emergency department, metropolitan hospital, Perth",
+    "candidateBrief": "You are a resident in a Perth emergency department. Tom Walsh, 26, a carpentry apprentice, fell on his outstretched right hand while skateboarding yesterday. He is right-handed. On examination there is tenderness in the anatomical snuffbox and over the scaphoid tubercle, and pain on axial compression of the thumb. Neurovascular examination is normal. Wrist X-rays with scaphoid views are reported as: no fracture seen.",
+    "tasks": [
+      {
+        "task": "Explain the X-ray result and why you are still concerned",
+        "minutes": 3
+      },
+      {
+        "task": "Explain your management plan to Tom",
+        "minutes": 3
+      },
+      {
+        "task": "Answer Tom's questions about work",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Tom Walsh",
+      "age": 26,
+      "sex": "male",
+      "persona": "Easy-going, a bit impatient. Relieved to hear 'no fracture' and assumes he can go straight back to work. Needs a clear explanation to accept a splint. Casual speech ('so it's just a sprain, yeah?').",
+      "openingLine": "So the X-ray's all good? Sweet. Can I just get a bandage and head back to work tomorrow?",
+      "script": "Injury: Yesterday afternoon he came off his skateboard and landed on his outstretched right hand with the wrist bent back. Pain at the base of the thumb, worse gripping and turning a key. Slept poorly with the pain. Took ibuprofen.\n\nNo other injuries, did not hit his head. No numbness or tingling. No previous wrist injuries.\n\nPMH: Nil. Meds: ibuprofen as needed. No allergies.\n\nSocial: Second-year carpentry apprentice on building sites, uses power tools and a hammer all day with his right hand. Casual wages, worried about losing pay. Smokes 10 cigarettes a day. Drinks on weekends. Lives with two mates.\n\nIdeas, concerns, expectations: Thinks a clear X-ray means nothing is broken. Wants to get back to work tomorrow. Concerned about the cost of an MRI and missing pay.\n\nQuestions he will ask:\n1. 'If the X-ray's clear, how can it be broken?'\n2. 'What happens if I just ignore it?'\n3. 'Can I work in the splint?'\n4. 'Will I get paid if I'm off?' (the candidate can mention a medical certificate, light or modified duties discussed with his employer, and that a workplace injury would be a workers compensation matter, but this was not at work).\n\nCUE: Mentions he smokes when asked about his health; a good candidate notes smoking increases the risk of poor bone healing and offers quit support.\n\nIf the explanation is clear, he accepts the splint and follow-up imaging."
+    },
+    "keySteps": [
+      "Explains that scaphoid fractures are often not visible on early X-rays and that the clinical signs mean a fracture must be assumed",
+      "Immobilises in a thumb spica splint or cast rather than a simple bandage",
+      "Arranges further imaging (early CT or MRI, or repeat X-ray at 10-14 days per local protocol) and fracture clinic follow-up",
+      "Explains the risk of non-union and avascular necrosis if a fracture is missed"
+    ],
+    "domains": [
+      {
+        "name": "Explaining the diagnosis",
+        "expectations": "Clearly explains a suspected occult scaphoid fracture in plain language, using the examination findings to justify concern despite a normal X-ray."
+      },
+      {
+        "name": "Management",
+        "expectations": "Thumb spica immobilisation, analgesia, elevation, further imaging per local pathway, fracture clinic or orthopaedic follow-up, and safety-netting for worsening pain or numbness."
+      },
+      {
+        "name": "Education and counselling",
+        "expectations": "Explains blood supply of the scaphoid and complications in simple terms, advises avoiding heavy use of the hand, discusses a medical certificate and modified duties, and offers smoking cessation support."
+      },
+      {
+        "name": "Communication",
+        "expectations": "Acknowledges his frustration about work and pay, answers each question directly, and checks understanding with teach-back."
+      }
+    ],
+    "expectedDiagnosis": "Suspected occult scaphoid fracture",
+    "teachingPoints": [
+      "Snuffbox tenderness, scaphoid tubercle tenderness and pain on thumb axial compression after a fall on an outstretched hand mean a scaphoid fracture until proven otherwise.",
+      "Initial X-rays miss a significant proportion of scaphoid fractures; MRI is the most sensitive test and CT is also used.",
+      "The scaphoid's blood supply enters distally, so proximal pole fractures are at high risk of avascular necrosis and non-union.",
+      "Smoking impairs fracture healing: a good moment for brief quit advice and referral to Quitline (13 78 48)."
+    ]
+  },
+  {
+    "id": "st-urology-1",
+    "title": "Testicular pain in a 17-year-old",
+    "discipline": "adult-surgery",
+    "topic": "urology",
+    "difficulty": "hard",
+    "area": "history",
+    "setting": "Emergency department, regional hospital, Townsville, Queensland",
+    "candidateBrief": "You are a resident in the emergency department at 2 am. Josh Taylor, 17, came in alone by taxi with abdominal pain. The triage nurse noted he 'seemed embarrassed'. Obs: temperature 37.1 C, HR 108, BP 130/80 mmHg, RR 18. He has been given paracetamol. His mother is in the waiting room and does not know why he is here.",
+    "tasks": [
+      {
+        "task": "Take a focused history from Josh",
+        "minutes": 4
+      },
+      {
+        "task": "Explain the most likely diagnosis to Josh",
+        "minutes": 1
+      },
+      {
+        "task": "Explain the immediate management plan and address his concerns",
+        "minutes": 3
+      }
+    ],
+    "patient": {
+      "name": "Josh Taylor",
+      "age": 17,
+      "sex": "male",
+      "persona": "Embarrassed, mumbles, avoids eye contact and says his 'stomach' hurts. Only mentions the testicle if asked directly and sensitively. Minimises ('it's probably from footy'), wants some painkillers and to go home. Does not want his mum told about 'down there'. Hard because the key symptom must be drawn out, time is critical, and there is a confidentiality and consent issue.",
+      "openingLine": "Um, I've just got a really bad stomach ache. Can I just get something for it?",
+      "script": "Presentation: Woke at about 11 pm with sudden, severe pain in the left testicle that spread to the lower abdomen. Pain 8/10, constant. Vomited twice. Only admits the testicle is involved if asked about the groin or testicles directly and in a non-judgemental way.\n\nPertinent negatives: No trauma (last footy game was 5 days ago, no knock to the groin, he offers footy as an explanation). No dysuria, discharge or urinary frequency. No fever. No swelling in the groin with coughing.\n\nCUE: Has had two brief episodes of similar sharp left testicular pain in the last few months that went away after about 20 minutes on their own (intermittent torsion). Only if asked about previous episodes.\n\nSexual history (only if asked sensitively and with confidentiality explained): Had sex once with his girlfriend a month ago, used a condom. No discharge.\n\nPMH: Nil. Meds: nil. No allergies. Last ate at 7 pm (dinner).\n\nSocial: Year 12 student, lives with mum and younger sister in Townsville. Plays rugby league. No smoking, drinks at parties occasionally, no drugs.\n\nIdeas, concerns, expectations: Terrified it is 'something to do with sex' and that his mum will find out. Hoping for painkillers and to go home. Once torsion is explained, asks 'will I lose it?' and 'do you have to tell mum?'. He is happy for mum to come in once he understands it is not an STI and needs surgery.\n\nExamination (if the candidate asks at the end): left testis high-riding, horizontal lie, exquisitely tender, absent left cremasteric reflex; right testis normal; abdomen soft."
+    },
+    "keySteps": [
+      "Establishes a confidential, non-judgemental rapport and asks directly about testicular pain",
+      "Elicits sudden onset, duration of symptoms, vomiting and previous self-resolving episodes",
+      "Identifies probable testicular torsion as a surgical emergency and arranges immediate surgical or urology review for exploration without delaying for ultrasound",
+      "Keeps him nil by mouth, gives adequate IV analgesia and antiemetic, and addresses consent and involving his mother with his agreement"
+    ],
+    "domains": [
+      {
+        "name": "Approach to the patient",
+        "expectations": "Explains confidentiality and its limits, uses a HEADSS-informed sensitive approach, and draws out the testicular symptom without embarrassment."
+      },
+      {
+        "name": "History",
+        "expectations": "Covers onset, timing (about 3 hours), severity, vomiting, previous episodes, trauma, urinary and sexual history, and last oral intake, efficiently."
+      },
+      {
+        "name": "Diagnosis",
+        "expectations": "States testicular torsion as most likely and considers epididymo-orchitis and torsion of a testicular appendage as less likely differentials."
+      },
+      {
+        "name": "Management and communication",
+        "expectations": "Explains that the testis can die within about 6 hours so surgery is needed now, explains surgery (untwisting and fixing both testes), that a 17-year-old can generally consent as a mature minor (law varies by state), and encourages involving mum while respecting his wishes."
+      }
+    ],
+    "expectedDiagnosis": "Left testicular torsion",
+    "teachingPoints": [
+      "Testicular torsion: sudden severe unilateral pain, vomiting, high-riding horizontal testis, absent cremasteric reflex; salvage falls sharply after 6 hours.",
+      "Adolescents often present with 'abdominal pain': always ask about and examine the testes.",
+      "Do not delay surgical exploration for ultrasound when clinical suspicion is high; bilateral orchidopexy is performed.",
+      "Mature minor (Gillick) principles apply to consent in Australia, but legislation and hospital policy vary by state; South Australia sets 16 in statute."
+    ]
+  },
+  {
+    "id": "st-vascular-1",
+    "title": "Leg pain on walking in a 67-year-old man",
+    "discipline": "adult-surgery",
+    "topic": "vascular",
+    "difficulty": "medium",
+    "area": "examination",
+    "setting": "General practice, regional Tasmania",
+    "candidateBrief": "You are a GP in Launceston. Ray Cooper, 67, a retired truck driver, has had cramping pain in his left calf when walking for about 6 months. It comes on after about 200 metres and settles within a few minutes of rest. He has type 2 diabetes and hypertension and smokes 20 cigarettes a day. Tell the examiner what you are examining and you will be given the findings.",
+    "tasks": [
+      {
+        "task": "Perform a peripheral vascular examination of the lower limbs",
+        "minutes": 5
+      },
+      {
+        "task": "Summarise your findings and the likely diagnosis to the examiner",
+        "minutes": 1
+      },
+      {
+        "task": "Outline your investigations and management to Ray",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Ray Cooper",
+      "age": 67,
+      "sex": "male",
+      "persona": "Laconic, gruff but good-humoured. Not keen on quitting smoking ('been smoking since I was 14, doc'). Cooperative with the examination. Wants to be able to walk his dog again.",
+      "openingLine": "It's this left leg, doc. Walk to the corner shop and the calf seizes up like a cramp. Stop for a bit and it's right again.",
+      "script": "Symptoms: Left calf cramping on walking about 200 m, faster uphill, relieved within 2-3 minutes of standing still. Getting gradually worse over 6 months. No pain at rest, no pain at night, no ulcers or wounds. No buttock or thigh pain. No back pain radiating down the leg, and sitting or bending forward makes no difference (not spinal stenosis). No erectile dysfunction mentioned unless asked (has some).\n\nPMH: Type 2 diabetes for 12 years (last HbA1c 8.1%), hypertension, high cholesterol. No known heart disease or stroke. No previous leg operations.\n\nMeds: metformin 1 g twice daily, perindopril 5 mg daily. Was prescribed atorvastatin but stopped it because 'it made me achy'. Not on aspirin. No allergies.\n\nSocial: Retired interstate truck driver. Smokes 20 a day for 50 years. Drinks a few beers most nights. Lives with wife Carol. Walks the dog daily until the pain stops him.\n\nFamily history: Father died of a heart attack at 62.\n\nIdeas, concerns, expectations: Worried he might lose his leg like his mate did. Hoping for a tablet to fix it. CUE: When smoking is raised he says he has tried to quit 'cold turkey' before; the candidate should offer structured support (pharmacotherapy and Quitline) and explain smoking is the single most important factor.",
+      "examFindings": "General: comfortable at rest, nicotine-stained fingers, BMI about 30. BP 152/88 mmHg in both arms. Pulse 80 regular.\nAbdomen: no pulsatile expansile mass palpable.\nInspection: left lower leg with hair loss, shiny thin skin and thickened toenails; no ulcers, gangrene or tissue loss, including between the toes and on the heels. Right leg normal.\nPalpation: left foot cooler than right; capillary refill 4 seconds left, 2 seconds right.\nPulses: femoral present bilaterally, left weaker than right; left femoral bruit. Popliteal: absent left, present right. Dorsalis pedis and posterior tibial: absent left, present but weak right.\nBuerger's test: left leg pale at 30 degrees elevation, dependent rubor on hanging over the bed edge. Right normal.\nNeurological: reduced 10 g monofilament sensation on both soles; vibration reduced at both great toes.\nAnkle-brachial index (if requested): left 0.55, right 0.85.\nOther systems normal."
+    },
+    "keySteps": [
+      "Palpates and compares pulses from femoral to foot in both legs and auscultates for bruits",
+      "Inspects the feet thoroughly, including between the toes and heels, for ulcers or tissue loss",
+      "Requests or performs an ankle-brachial index",
+      "Recommends smoking cessation, antiplatelet and statin therapy, and supervised exercise"
+    ],
+    "domains": [
+      {
+        "name": "Choice and technique of examination",
+        "expectations": "Exposes both legs, inspects for trophic changes and ulcers, compares temperature and capillary refill, palpates all pulses bilaterally, auscultates for bruits, checks for AAA, performs Buerger's test, checks sensation for diabetic neuropathy and requests ABI."
+      },
+      {
+        "name": "Accuracy and interpretation",
+        "expectations": "Correctly concludes left-sided femoropopliteal (superficial femoral artery) disease with intermittent claudication and no critical limb ischaemia, plus diabetic peripheral neuropathy."
+      },
+      {
+        "name": "Investigations and management",
+        "expectations": "Arterial duplex ultrasound, fasting lipids, HbA1c, EUC and ECG; smoking cessation with pharmacotherapy and Quitline, antiplatelet (aspirin or clopidogrel), high-intensity statin (re-challenge or alternative), BP and glycaemic optimisation, supervised walking exercise, foot care and podiatry, and vascular referral if lifestyle-limiting or worsening."
+      },
+      {
+        "name": "Communication",
+        "expectations": "Explains in plain terms, addresses his fear of amputation honestly, and motivates behaviour change without lecturing."
+      }
+    ],
+    "expectedDiagnosis": "Left lower limb peripheral arterial disease with intermittent claudication (femoropopliteal disease), with diabetic peripheral neuropathy",
+    "teachingPoints": [
+      "ABI under 0.9 confirms PAD; in diabetes calcified arteries can falsely raise the ABI, so a toe-brachial index may be needed.",
+      "Critical limb-threatening ischaemia (rest pain, ulcers, gangrene) needs urgent vascular referral; stable claudication is managed with risk factor control and exercise first.",
+      "PAD is a coronary heart disease equivalent: antiplatelet therapy and statins reduce cardiovascular events.",
+      "Aboriginal and Torres Strait Islander people and people with diabetes have high rates of PAD and amputation in Australia; annual diabetic foot checks matter."
+    ]
+  },
+  {
+    "id": "st-ent-1",
+    "title": "Nosebleed in a 72-year-old man on warfarin",
+    "discipline": "adult-surgery",
+    "topic": "ent",
+    "difficulty": "easy",
+    "area": "management",
+    "setting": "Emergency department, regional hospital, Bendigo, Victoria",
+    "candidateBrief": "You are a resident in the emergency department. Frank Rossi, 72, has had a nosebleed from his left nostril for 40 minutes. He takes warfarin for atrial fibrillation. He is sitting up, spitting blood into a bowl and holding a tissue to his nose. Obs: HR 88 irregular, BP 168/94 mmHg, RR 16, SpO2 98%. Bloods have been taken; point-of-care INR is 3.6 (his target is 2-3). A nurse is with you.",
+    "tasks": [
+      {
+        "task": "Give immediate first aid and assess Frank, asking the examiner for findings",
+        "minutes": 3
+      },
+      {
+        "task": "Explain and carry out further treatment if bleeding continues",
+        "minutes": 3
+      },
+      {
+        "task": "Give discharge advice, including about his warfarin",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Frank Rossi",
+      "age": 72,
+      "sex": "male",
+      "persona": "Retired market gardener, calm but a bit embarrassed about the mess. Speaks with a slight Italian accent, polite, calls the doctor 'doctor'. Cooperative and follows instructions well. Worried about his warfarin.",
+      "openingLine": "Sorry about all this, doctor. It just won't stop. I've been pinching the top of my nose like my wife said.",
+      "script": "Presentation: Started 40 minutes ago while watching TV, left nostril only, bright red. Blood running down the back of his throat at times. Has been pinching the bony bridge of his nose (wrong place). One smaller nosebleed last week that stopped after 5 minutes.\n\nNegatives: No trauma, no nose picking he admits to, no nasal blockage, no facial pain, no bruising elsewhere, no black stools or blood in urine. No light-headedness or chest pain.\n\nPMH: Atrial fibrillation for 5 years, hypertension, benign prostatic hyperplasia.\n\nMeds: warfarin (dose adjusted by his GP), metoprolol 50 mg twice daily, amlodipine 5 mg daily. CUE: Finished a course of antibiotics (he thinks 'the one for chest infections', a course of clarithromycin) 3 days ago, prescribed at a walk-in clinic without an INR check. Only if asked about new medicines. No allergies.\n\nSocial: Lives with his wife Rosa. Non-smoker. A glass of red wine with dinner. Independent, still drives.\n\nIdeas, concerns, expectations: Worried he is going to have to stop warfarin and have a stroke like his brother. Wants to go home tonight.\n\nFindings (examiner reveals on request): After 15 minutes of correct continuous pressure on the soft part of the nose, bleeding slows but restarts on release. Anterior rhinoscopy after vasoconstrictor/local anaesthetic spray: a prominent bleeding vessel at Little's area on the left septum. No posterior bleeding once the anterior point is controlled. Oropharynx: small amount of blood, no ongoing trickle after treatment. Hb 138 g/L, platelets normal.\n\nCourse: If the candidate applies silver nitrate cautery to the identified point after topical anaesthesia, bleeding stops. If they proceed to a nasal tampon, bleeding also stops."
+    },
+    "keySteps": [
+      "Instructs correct first aid: sit up and lean forward, firm continuous pressure on the soft part of the nose for 10-15 minutes, spit out blood, with PPE",
+      "Assesses haemodynamic stability and checks for posterior bleeding",
+      "Uses topical vasoconstrictor and anaesthetic, then silver nitrate cautery to a visible anterior point, with nasal packing if this fails and ENT referral for uncontrolled or posterior bleeding",
+      "Identifies the drug interaction as the cause of the raised INR and gives a clear warfarin plan with GP follow-up and safety-netting"
+    ],
+    "domains": [
+      {
+        "name": "Immediate management",
+        "expectations": "Corrects his technique, uses PPE, assesses ABC and obs, IV access if bleeding is heavy, and checks Hb and INR."
+      },
+      {
+        "name": "Procedural management",
+        "expectations": "Explains and performs anterior rhinoscopy, topical co-phenylcaine or equivalent, cautery to one side of the septum only, then nasal tampon or packing if needed; escalates to ENT for posterior bleeding or failed packing."
+      },
+      {
+        "name": "Medication review",
+        "expectations": "Elicits the recent clarithromycin, explains the interaction, withholds or reduces warfarin per protocol, avoids routine full reversal for a controlled minor bleed, arranges INR recheck with his GP within a couple of days, and does not stop anticoagulation long term."
+      },
+      {
+        "name": "Education and safety-netting",
+        "expectations": "Avoid nose blowing, picking, hot drinks and heavy lifting for a few days, how to do first aid properly, return if bleeding for more than 20 minutes, and GP review of his blood pressure once calm."
+      }
+    ],
+    "expectedDiagnosis": "Anterior epistaxis from Little's area, exacerbated by a supratherapeutic INR from a warfarin-clarithromycin interaction",
+    "teachingPoints": [
+      "Most epistaxis is anterior from Little's area (Kiesselbach plexus); pressure goes on the soft part of the nose, not the bridge.",
+      "Cauterise only one side of the septum at a time to avoid septal perforation.",
+      "Suspect posterior bleeding if the bleed is heavy, bilateral or continues down the throat despite anterior control; refer to ENT.",
+      "Macrolides, many other antibiotics and antifungals potentiate warfarin: check the INR when starting or stopping interacting drugs."
+    ]
+  },
+  {
+    "id": "st-ophthalmology-1",
+    "title": "Painful red eye and vomiting in a 69-year-old woman",
+    "discipline": "adult-surgery",
+    "topic": "ophthalmology",
+    "difficulty": "hard",
+    "area": "examination",
+    "setting": "Emergency department, metropolitan hospital, Sydney",
+    "candidateBrief": "You are a resident in the emergency department at 11 pm. Mei Lin Chen, 69, has a severe right-sided headache and has vomited four times since 8 pm. Triage has labelled her 'migraine/gastro'. She says her right eye is sore and her vision is blurred. Obs: temperature 36.8 C, HR 92, BP 158/90 mmHg, RR 16. BGL 6.4 mmol/L. Tell the examiner what you would examine and you will be given the findings.",
+    "tasks": [
+      {
+        "task": "Perform a focused examination, telling the examiner what you examine",
+        "minutes": 4
+      },
+      {
+        "task": "State the most likely diagnosis to the examiner",
+        "minutes": 1
+      },
+      {
+        "task": "Outline your immediate management",
+        "minutes": 3
+      }
+    ],
+    "patient": {
+      "name": "Mei Lin Chen",
+      "age": 69,
+      "sex": "female",
+      "persona": "Distressed, holding her head, retching into a bag, speaks limited but clear English. Keeps saying 'my head, my head' and wants something for the vomiting. Hard because the systemic symptoms distract from the eye, the triage label points the wrong way, and the candidate must focus quickly on the eye despite her distress.",
+      "openingLine": "Doctor, my head is so bad, and I keep vomiting. And the lights... they have rainbows around them.",
+      "script": "Presentation: Came home from the cinema at about 8 pm. Right eye became painful and red, then severe right frontal headache and nausea, vomited four times. Sees coloured halos around lights. Right vision is blurred 'like fog'.\n\nNegatives: No sudden 'thunderclap' onset, no neck stiffness, no fever, no weakness, numbness or speech problems. No trauma. No discharge. Does not wear contact lenses. No jaw claudication or scalp tenderness.\n\nPMH: Long-sighted, wears reading and distance glasses. Hypertension. Never had eye surgery or glaucoma treatment. Had brief blurry vision and halos in the evening twice in the last month that settled after sleep.\n\nMeds: amlodipine 5 mg daily. CUE: Took a new over-the-counter antihistamine sleep aid last night (a sedating antihistamine), because she could not sleep; only if asked about new medicines. No allergies.\n\nSocial: Retired seamstress, lives with her husband in Hurstville. Her son is on his way.\n\nFamily history: Her sister has 'glaucoma' and uses eye drops.\n\nConcern: Thinks she is having a stroke like her mother. Wants the pain and vomiting to stop.",
+      "examFindings": "General: distressed, vomiting, alert and oriented.\nVisual acuity (with glasses/pinhole): right 6/60, left 6/9.\nInspection: right eye red with circumcorneal (ciliary) injection; cornea hazy and steamy. Left eye white.\nPupils: right mid-dilated (about 5 mm), oval and unreactive to light; left 3 mm and reactive.\nAnterior chamber (penlight from the side): shallow bilaterally, more so on the right; no hypopyon or hyphaema.\nFluorescein: no corneal uptake.\nIntraocular pressure (tonometry, if requested): right 58 mmHg, left 18 mmHg. Right globe feels hard on gentle palpation.\nFundoscopy: poor view on the right because of corneal oedema; left normal disc.\nVisual fields to confrontation: left normal; right reduced globally due to blur.\nNeurological examination: cranial nerves otherwise normal, no limb weakness, no meningism.\nTemporal arteries: non-tender, pulsatile.\nOther systems normal."
+    },
+    "keySteps": [
+      "Checks visual acuity in each eye first",
+      "Examines pupils, cornea and anterior chamber depth and measures or requests intraocular pressure",
+      "Identifies acute angle-closure glaucoma rather than migraine or gastroenteritis",
+      "Starts pressure-lowering treatment (such as acetazolamide and topical agents), gives analgesia and antiemetic, avoids dilating drops, and refers urgently to ophthalmology"
+    ],
+    "domains": [
+      {
+        "name": "Choice and technique of examination",
+        "expectations": "Visual acuity, inspection, pupils, fluorescein, anterior chamber depth, IOP, fundoscopy, plus a brief targeted neurological examination, meningism and temporal artery check to exclude mimics."
+      },
+      {
+        "name": "Interpretation of findings",
+        "expectations": "Links reduced acuity, ciliary injection, hazy cornea, fixed mid-dilated pupil, shallow anterior chamber and IOP of 58 mmHg to acute angle closure, and identifies the recent antihistamine as a likely precipitant."
+      },
+      {
+        "name": "Management",
+        "expectations": "Urgent same-night ophthalmology referral; IV or oral acetazolamide (check for sulfonamide allergy and renal function), topical timolol, an alpha-agonist, and pilocarpine per ophthalmology advice; lie supine; IV antiemetic and analgesia; stop the antihistamine; explains definitive laser iridotomy, usually to both eyes."
+      },
+      {
+        "name": "Communication",
+        "expectations": "Reassures her in simple language that this is not a stroke, explains the urgency, and uses a professional interpreter if needed."
+      }
+    ],
+    "expectedDiagnosis": "Right acute angle-closure glaucoma",
+    "teachingPoints": [
+      "Acute angle-closure can present as headache and vomiting: always look at the eye and check visual acuity.",
+      "Risk factors: older age, hypermetropia, female sex, East Asian ancestry, family history, dim light and anticholinergic or sympathomimetic drugs.",
+      "Red flags in a red eye: reduced vision, pain, photophobia, abnormal pupil, corneal haze, contact lens use.",
+      "Definitive treatment is laser peripheral iridotomy, usually offered to the fellow eye as well because it is at high risk."
+    ]
+  },
+  {
+    "id": "st-breast-1",
+    "title": "Breast biopsy results in a 44-year-old woman",
+    "discipline": "adult-surgery",
+    "topic": "breast",
+    "difficulty": "hard",
+    "area": "diagnosis",
+    "setting": "General practice, outer suburban Melbourne",
+    "candidateBrief": "You are a GP. Two weeks ago Kylie Watson, 44, saw you with a lump in her left breast. You found a 2 cm hard, irregular, non-tender lump in the upper outer quadrant and referred her for triple assessment. Results today: mammogram and ultrasound show a 22 mm spiculated mass, suspicious for malignancy, with no abnormal axillary nodes. Core biopsy: invasive ductal carcinoma, grade 2, oestrogen and progesterone receptor positive, HER2 negative. She has come alone.",
+    "tasks": [
+      {
+        "task": "Explain the results of the triple assessment to Kylie",
+        "minutes": 3
+      },
+      {
+        "task": "Explain what happens next in her care",
+        "minutes": 3
+      },
+      {
+        "task": "Respond to her concerns",
+        "minutes": 2
+      }
+    ],
+    "patient": {
+      "name": "Kylie Watson",
+      "age": 44,
+      "sex": "female",
+      "persona": "Tense and frightened from the moment she sits down; talks quickly. When told, she goes silent, then cries and becomes panicky: 'Am I going to die? I've got two kids.' Later demands 'just take both breasts off, now'. Hard because of strong emotion, a family history that changes management, and a demand that needs a careful, non-dismissive response.",
+      "openingLine": "I haven't slept since the biopsy. Just tell me, is it cancer?",
+      "script": "Background: Noticed the lump in the shower about 3 weeks ago. No nipple discharge, no skin changes, no pain. No bone pain, cough, weight loss or headaches (only if asked).\n\nPMH: Nil significant. Two children by caesarean section, breastfed both. Periods regular. Meds: combined oral contraceptive pill. No allergies. Last cervical screening up to date. Has never had a mammogram.\n\nFamily history (CUE): Her mother died of breast cancer at 50. Her mother's sister had ovarian cancer in her 50s. Only if asked about family history; she assumes 'everyone knows' about her mum.\n\nSocial: Separated, single mum of Ella (12) and Noah (9). Works as a school administrator. Her sister Dani lives nearby and is supportive. Non-smoker, drinks a glass of wine on weekends.\n\nIdeas, concerns, expectations: Convinced she will die like her mother. Worried about who will look after the kids during treatment and about losing her job. Wants both breasts removed immediately.\n\nQuestions she will ask:\n1. 'Am I going to die?' (a good answer: it has been found at an early stage, many women with this type are cured, the specialist team will give precise information after surgery)\n2. 'Why can't they just take both breasts off?' (a good answer: that is a reasonable question to discuss with the breast surgeon; genetic testing results may affect that decision)\n3. 'Will I lose my hair?' (not everyone needs chemotherapy; depends on the final pathology)\n4. 'What do I tell the kids?'\n\nIf she feels heard, she calms and asks whether her sister can come to the surgeon appointment."
+    },
+    "keySteps": [
+      "Checks what she knows and whether she wants support present, gives a warning shot, then states clearly that the biopsy shows breast cancer",
+      "Pauses and responds to emotion before giving further information",
+      "Explains urgent referral to a breast surgeon and multidisciplinary team, and that the hormone-receptor status helps guide treatment",
+      "Elicits the family history and explains referral to a familial cancer service for genetic assessment"
+    ],
+    "domains": [
+      {
+        "name": "Breaking bad news",
+        "expectations": "Uses a SPIKES-style approach: private setting, finds out her understanding, warning shot, clear words ('cancer', not jargon), silence, acknowledges and names her fear."
+      },
+      {
+        "name": "Explaining diagnosis and next steps",
+        "expectations": "Explains triple assessment concordance, early-stage appearance with normal nodes on imaging, referral within days to a breast surgeon, options of breast-conserving surgery with radiotherapy or mastectomy, sentinel node biopsy, likely endocrine therapy, and that chemotherapy depends on final pathology."
+      },
+      {
+        "name": "Responding to concerns",
+        "expectations": "Answers the prognosis question honestly without false reassurance, takes the bilateral mastectomy request seriously and links it to genetic assessment, and offers help with telling the children."
+      },
+      {
+        "name": "Support and follow-up",
+        "expectations": "Breast care nurse, Cancer Council 13 11 20, offers to involve her sister, stops the combined oral contraceptive pill, arranges early review, and offers support for work and childcare, including a certificate."
+      }
+    ],
+    "expectedDiagnosis": "Early left breast cancer (invasive ductal carcinoma, hormone receptor positive, HER2 negative) with a significant family history",
+    "teachingPoints": [
+      "Triple assessment is clinical examination, imaging and core biopsy; all three must be concordant.",
+      "Hormone receptor positive tumours are treated with endocrine therapy (tamoxifen in premenopausal women, sometimes with ovarian suppression); HER2 status guides targeted therapy.",
+      "A mother with breast cancer at 50 and a relative with ovarian cancer warrants familial cancer referral; genetic results can change surgical choices.",
+      "Stop combined hormonal contraception after a hormone receptor positive breast cancer diagnosis and offer non-hormonal contraception such as a copper IUD.",
+      "BreastScreen Australia offers free mammograms to women aged 40 and over, actively inviting those aged 50-74."
+    ]
+  },
+  {
+    "id": "st-perioperative-1",
+    "title": "Pre-admission assessment before knee replacement",
+    "discipline": "adult-surgery",
+    "topic": "perioperative",
+    "difficulty": "medium",
+    "area": "history",
+    "setting": "Pre-admission clinic, metropolitan hospital, Canberra",
+    "candidateBrief": "You are a resident in the pre-admission clinic. Graham Ellis, 71, is booked for an elective right total knee replacement in 10 days. He has atrial fibrillation, type 2 diabetes and hypertension. He has brought his medication list: apixaban 5 mg twice daily, metformin 1 g twice daily, empagliflozin 10 mg daily, perindopril 5 mg daily and atorvastatin 40 mg daily. His eGFR last month was 72 mL/min/1.73 m2 and HbA1c 7.2%.",
+    "tasks": [
+      {
+        "task": "Take a focused preoperative history from Graham",
+        "minutes": 4
+      },
+      {
+        "task": "Explain the plan for his medications around surgery",
+        "minutes": 3
+      },
+      {
+        "task": "Check his understanding of the plan",
+        "minutes": 1
+      }
+    ],
+    "patient": {
+      "name": "Graham Ellis",
+      "age": 71,
+      "sex": "male",
+      "persona": "Retired public servant, organised, brings a folder. Friendly, a little rushed. Volunteers his medication list proudly but does not think to mention supplements or snoring. Easily confused by a long list of instructions, so needs a clear written plan.",
+      "openingLine": "Morning. I've got all my tablets written down here. They told me I'd have to stop some of them?",
+      "script": "Cardiorespiratory: Can walk about 400 m on the flat and climb two flights of stairs slowly, limited mainly by the knee. No chest pain, no breathlessness at rest, no orthopnoea, no ankle swelling, no palpitations or fainting. No previous heart attack or stroke.\n\nCUE 1: Snores loudly; his wife says he stops breathing at night and he dozes off watching TV and once at the traffic lights (only if asked about sleep or snoring). Never had a sleep study. BMI about 33, collar size large.\n\nPrevious anaesthetics: Hernia repair 15 years ago under general anaesthetic, felt sick afterwards but no major problems. No family history of anaesthetic problems.\n\nMeds as in the list. CUE 2: Also takes fish oil and a turmeric supplement from the chemist daily (only if asked about over-the-counter or herbal medicines). No allergies. Has a loose front crown.\n\nDiabetes: Checks sugars occasionally, no hypos.\n\nSocial: Lives with wife Ann in a two-storey house, bedroom upstairs. Ex-smoker (quit 20 years ago, 30 pack-years). Drinks 2-3 glasses of wine most nights. Independent.\n\nIdeas, concerns, expectations: Worried that stopping apixaban will give him a stroke. Thinks he should stop 'all the diabetes tablets' for a week to be safe. Wants to know when he can drive again.\n\nIf the plan is explained clearly and written down, he repeats it back correctly. If given a rushed list, he gets the days mixed up."
+    },
+    "keySteps": [
+      "Assesses functional capacity and cardiorespiratory symptoms",
+      "Screens for obstructive sleep apnoea and asks about previous anaesthetics, family history of anaesthetic problems and over-the-counter or herbal medicines",
+      "Advises withholding empagliflozin for the days before surgery per current ANZCA/ADS guidance because of the risk of euglycaemic ketoacidosis",
+      "Advises withholding apixaban before surgery for a period set by the surgical and anaesthetic team based on renal function and bleeding risk, with no bridging needed, and gives a written plan checked by teach-back"
+    ],
+    "domains": [
+      {
+        "name": "History taking",
+        "expectations": "Covers functional capacity, cardiac and respiratory symptoms, OSA screen (STOP-BANG), previous anaesthetics and family history, airway and dentition, diabetes control, alcohol, smoking, allergies and full medication list including supplements."
+      },
+      {
+        "name": "Medication management",
+        "expectations": "Apixaban: withheld typically about 2-3 days before major surgery or neuraxial anaesthesia given normal renal function, per the team's plan, no bridging, restarted when the surgeon advises. Empagliflozin: withheld for 2 days before and on the day of surgery (3 days). Metformin: withheld on the day of surgery. Perindopril: usually withheld on the morning of surgery. Atorvastatin continued. Supplements such as fish oil and turmeric declared and generally stopped beforehand."
+      },
+      {
+        "name": "Perioperative risk and planning",
+        "expectations": "Flags suspected OSA to the anaesthetist (may need a sleep study or perioperative precautions), notes alcohol intake and withdrawal risk, and considers home set-up for discharge."
+      },
+      {
+        "name": "Communication",
+        "expectations": "Corrects the plan to stop all diabetes tablets for a week, addresses stroke worry, gives advice on driving (sleepiness and post-op), provides a clear written schedule and uses teach-back."
+      }
+    ],
+    "expectedDiagnosis": "Preoperative assessment: high-risk medications (DOAC, SGLT2 inhibitor) and suspected obstructive sleep apnoea",
+    "teachingPoints": [
+      "SGLT2 inhibitors cause euglycaemic ketoacidosis around surgery; ANZCA/ADS guidance is to withhold for 2 days before and on the day of surgery.",
+      "DOACs are withheld for a period set by drug, renal function, bleeding risk and anaesthetic type; bridging with heparin is not needed.",
+      "Suspected OSA (STOP-BANG) increases perioperative airway and respiratory risk; falling asleep while driving is also a fitness-to-drive issue under Austroads guidance.",
+      "Always ask about over-the-counter and complementary medicines, which can affect bleeding."
+    ]
+  }
+]
