@@ -43,6 +43,7 @@ export function mergeProgress(local: Snapshot, remote: Partial<Snapshot> | null 
     lessonProgress: mergeLessons(r.lessonProgress, local.lessonProgress),
     lastLesson: local.lastLesson ?? r.lastLesson,
     settings: local.settings ?? r.settings,
+    customDecks: unionBy([...(r.customDecks ?? []), ...(local.customDecks ?? [])], (d) => d.id),
   };
 }
 
@@ -63,6 +64,7 @@ export function emptySnapshot(): Snapshot {
     lessonProgress: {},
     lastLesson: null,
     settings: DEFAULT_SETTINGS,
+    customDecks: [],
   };
 }
 

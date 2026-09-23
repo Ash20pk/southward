@@ -115,6 +115,7 @@ export async function structured<S extends z.ZodType>(opts: {
   name: string;
   effort?: Effort;
   maxTokens?: number;
+  pdf?: { base64: string; filename: string }; // optional document the model reads alongside the prompt
 }): Promise<z.infer<S>> {
   const effort = opts.effort ?? "high";
   const maxTokens = opts.maxTokens ?? 16000;
@@ -127,7 +128,15 @@ export async function structured<S extends z.ZodType>(opts: {
       response_format: zodResponseFormat(opts.schema, opts.name),
       messages: [
         { role: "developer", content: opts.system },
-        { role: "user", content: opts.prompt },
+        {
+          role: "user",
+          content: opts.pdf
+            ? [
+                { type: "file", file: { filename: opts.pdf.filename, file_data: `data:application/pdf;base64,${opts.pdf.base64}` } },
+                { type: "text", text: opts.prompt },
+              ]
+            : opts.prompt,
+        },
       ],
     });
     const choice = res.choices[0];
@@ -144,7 +153,17 @@ export async function structured<S extends z.ZodType>(opts: {
     fallbacks: "default",
     output_config: { effort, format: betaZodOutputFormat(opts.schema) },
     system: opts.system,
-    messages: [{ role: "user", content: opts.prompt }],
+    messages: [
+      {
+        role: "user",
+        content: opts.pdf
+          ? [
+              { type: "document", source: { type: "base64", media_type: "application/pdf", data: opts.pdf.base64 } },
+              { type: "text", text: opts.prompt },
+            ]
+          : opts.prompt,
+      },
+    ],
   });
   if (res.stop_reason === "refusal") throw new Refusal();
   if (res.stop_reason === "max_tokens") throw new Error("The AI response was cut off. Try asking for fewer items.");

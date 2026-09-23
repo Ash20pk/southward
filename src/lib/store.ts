@@ -23,6 +23,20 @@ export interface Settings {
 }
 export const DEFAULT_SETTINGS: Settings = { quizTimer: true };
 
+export interface CustomCard {
+  id: string; // "cu-<deck id>-<n>"
+  front: string;
+  back: string;
+  topic: string; // AMC topic id, or "" when none fits
+}
+export interface CustomDeck {
+  id: string;
+  name: string;
+  source: string; // original file name
+  createdAt: number;
+  cards: CustomCard[];
+}
+
 export interface Attempt {
   n: number;
   correct: number;
@@ -79,6 +93,7 @@ interface State {
   lessonProgress: Record<string, LessonState>; // course lesson id -> progress
   lastLesson: string | null;
   settings: Settings;
+  customDecks: CustomDeck[];
   owner: string | null; // account id this browser copy belongs to (not synced)
   syncedVersion: number; // server version this copy last matched (not synced)
   dirty: boolean; // changed since the last successful save (not synced)
@@ -97,6 +112,8 @@ interface State {
   setLessonStep: (id: string, step: number) => void;
   completeLesson: (id: string, score: number, total: number, cardIds: string[]) => void;
   setSettings: (s: Partial<Settings>) => void;
+  addDeck: (d: CustomDeck) => void;
+  removeDeck: (id: string) => void;
   markStudied: () => void;
   importAll: (data: Partial<State>) => void;
   setOwner: (id: string | null) => void;
@@ -123,6 +140,7 @@ const empty = {
   lessonProgress: {},
   lastLesson: null,
   settings: DEFAULT_SETTINGS,
+  customDecks: [],
   owner: null,
   syncedVersion: 0,
   dirty: false,
@@ -145,6 +163,7 @@ export const SYNC_KEYS = [
   "lessonProgress",
   "lastLesson",
   "settings",
+  "customDecks",
 ] as const;
 export type SyncKey = (typeof SYNC_KEYS)[number];
 export type Snapshot = Pick<State, SyncKey>;
@@ -218,6 +237,20 @@ export const useStore = create<State>()(
       markStudied: () => set((s) => ({ studyDays: withDay(s.studyDays) })),
       importAll: (data) => set(data),
       setOwner: (owner) => set({ owner }),
+      // New decks go straight into review: every card is due now.
+      addDeck: (d) =>
+        set((s) => {
+          const srs = { ...s.srs };
+          for (const c of d.cards) if (!srs[c.id]) srs[c.id] = newCard();
+          return { customDecks: [...s.customDecks.filter((x) => x.id !== d.id), d], srs };
+        }),
+      removeDeck: (id) =>
+        set((s) => {
+          const deck = s.customDecks.find((d) => d.id === id);
+          const srs = { ...s.srs };
+          for (const c of deck?.cards ?? []) delete srs[c.id];
+          return { customDecks: s.customDecks.filter((d) => d.id !== id), srs };
+        }),
       setSettings: (x) => set((s) => ({ settings: { ...DEFAULT_SETTINGS, ...s.settings, ...x } })),
       setSync: (x) => set(x),
       // Clears progress but keeps the sync bookkeeping, so the empty copy replaces the account's copy.

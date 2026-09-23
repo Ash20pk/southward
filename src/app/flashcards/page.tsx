@@ -2,13 +2,15 @@
 
 import { useEffect, useMemo, useState } from "react";
 import clsx from "clsx";
-import { DISCIPLINES, FLASHCARDS, topicName } from "@/lib/content";
+import Link from "next/link";
+import { FileUp, Trash2 } from "lucide-react";
+import { DISCIPLINES, FLASHCARDS, topicById, topicName } from "@/lib/content";
 import { useStore } from "@/lib/store";
 import { newCard, previewInterval, type Grade } from "@/lib/srs";
 import { NEW_CARDS_PER_DAY } from "@/lib/stats";
 import type { Discipline, Flashcard } from "@/lib/types";
 import { Markdown } from "@/components/Markdown";
-import { Bar, Button, Chip, Empty, PageHeader, Panel } from "@/components/ui";
+import { Bar, Button, ButtonLink, Chip, Empty, PageHeader, Panel } from "@/components/ui";
 import { useNow } from "@/hooks/useNow";
 import { useLessonBank } from "@/hooks/useLessonBank";
 
@@ -19,22 +21,31 @@ const GRADES: { g: Grade; label: string; key: string; cls: string }[] = [
   { g: "easy", label: "Easy", key: "4", cls: "border-ok/50 text-ok hover:bg-ok-soft" },
 ];
 
+// Cards in the review queue can come from the starter deck, lessons, or her own PDF decks.
+type ReviewCard = Flashcard & { label?: string };
+
 export default function Flashcards() {
   const srs = useStore((s) => s.srs);
-  const [disc, setDisc] = useState<Discipline | null>(null);
-  const [queue, setQueue] = useState<Flashcard[] | null>(null);
+  const decks = useStore((s) => s.customDecks ?? []);
+  const removeDeck = useStore((s) => s.removeDeck);
+  const [disc, setDisc] = useState<Discipline | "mine" | null>(null);
+  const [queue, setQueue] = useState<ReviewCard[] | null>(null);
   const now = useNow();
   const bank = useLessonBank();
 
   const stats = useMemo(() => {
     // The starter deck plus every card unlocked by finishing a lesson.
     const unlocked = (bank?.cards ?? []).filter((c) => srs[c.id]);
-    const cards = [...FLASHCARDS, ...unlocked].filter((c) => !disc || c.discipline === disc);
+    const mine: ReviewCard[] = decks.flatMap((d) =>
+      d.cards.map((c) => ({ id: c.id, front: c.front, back: c.back, topic: c.topic, discipline: topicById(c.topic)?.discipline ?? ("" as Discipline), label: d.name })),
+    );
+    const pool: ReviewCard[] = disc === "mine" ? mine : [...FLASHCARDS, ...unlocked, ...mine];
+    const cards = pool.filter((c) => !disc || disc === "mine" || c.discipline === disc);
     const due = cards.filter((c) => srs[c.id] && srs[c.id].due <= now);
     const unseen = cards.filter((c) => !srs[c.id]);
     const learned = cards.filter((c) => srs[c.id] && srs[c.id].interval >= 21);
     return { cards, due, unseen, learned };
-  }, [srs, disc, now, bank]);
+  }, [srs, disc, now, bank, decks]);
 
   if (queue) return <Review queue={queue} onDone={() => setQueue(null)} />;
 
@@ -45,12 +56,22 @@ export default function Flashcards() {
     <div>
       <PageHeader
         title="Flashcards"
-        lede="Spaced repetition: each card comes back just before you'd forget it. Finishing a lesson adds its cards here. A few minutes daily beats an hour once a week."
+        lede="Spaced repetition: each card comes back just before you'd forget it. Finishing a lesson adds its cards here, and you can make your own from any PDF."
+        actions={
+          <ButtonLink href="/flashcards/import" variant="outline">
+            <FileUp size={16} /> Make cards from a PDF
+          </ButtonLink>
+        }
       />
       <div className="mb-6 flex flex-wrap gap-2">
         <Chip active={!disc} onClick={() => setDisc(null)}>
           All decks
         </Chip>
+        {decks.length > 0 && (
+          <Chip active={disc === "mine"} onClick={() => setDisc("mine")}>
+            My decks
+          </Chip>
+        )}
         {DISCIPLINES.map((d) => (
           <Chip key={d.id} active={disc === d.id} onClick={() => setDisc(d.id)}>
             {d.short}
@@ -85,11 +106,50 @@ export default function Flashcards() {
           <Bar value={(stats.learned.length / Math.max(1, stats.cards.length)) * 100} className="mt-5" />
         </Panel>
       </div>
+
+      <section className="mt-10">
+        <h2 className="mb-3 text-xl font-semibold">My decks</h2>
+        {decks.length ? (
+          <ul className="divide-y divide-line overflow-hidden rounded-2xl border border-line bg-surface">
+            {[...decks].reverse().map((d) => {
+              const due = d.cards.filter((c) => srs[c.id] && srs[c.id].due <= now).length;
+              return (
+                <li key={d.id} className="flex items-center gap-4 px-5 py-4">
+                  <div className="min-w-0 flex-1">
+                    <div className="truncate font-medium">{d.name}</div>
+                    <div className="text-sm text-muted">
+                      {d.cards.length} cards{due ? `, ${due} due` : ""}, from {d.source || "a PDF"}
+                    </div>
+                  </div>
+                  <button
+                    aria-label={`Delete ${d.name}`}
+                    onClick={() => {
+                      if (confirm(`Delete "${d.name}" and its ${d.cards.length} cards? Your review history for them goes too.`)) removeDeck(d.id);
+                    }}
+                    className="rounded-full p-2 text-muted hover:bg-sunk hover:text-bad"
+                  >
+                    <Trash2 size={17} />
+                  </button>
+                </li>
+              );
+            })}
+          </ul>
+        ) : (
+          <Empty title="No decks of your own yet">
+            <p>
+              Turn lecture notes, a guideline or a textbook chapter into cards.{" "}
+              <Link href="/flashcards/import" className="text-brand underline">
+                Make cards from a PDF
+              </Link>
+            </p>
+          </Empty>
+        )}
+      </section>
     </div>
   );
 }
 
-function Review({ queue: initial, onDone }: { queue: Flashcard[]; onDone: () => void }) {
+function Review({ queue: initial, onDone }: { queue: ReviewCard[]; onDone: () => void }) {
   const srs = useStore((s) => s.srs);
   const grade = useStore((s) => s.gradeCard);
   const [queue, setQueue] = useState(initial);
@@ -152,7 +212,7 @@ function Review({ queue: initial, onDone }: { queue: Flashcard[]; onDone: () => 
         className="block w-full rounded-3xl border border-line bg-surface p-8 text-left sm:p-10"
         aria-label={flipped ? "Card answer" : "Show answer"}
       >
-        <p className="text-sm text-muted">{topicName(card.topic)}</p>
+        <p className="text-sm text-muted">{[card.label, card.topic && topicName(card.topic)].filter(Boolean).join(", ")}</p>
         <Markdown className="mt-4 text-[1.2rem]">{card.front}</Markdown>
         <div className={clsx("mt-8 border-t border-dashed border-line pt-6", !flipped && "hidden")}>
           <Markdown>{card.back}</Markdown>
