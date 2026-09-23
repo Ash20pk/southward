@@ -1,4 +1,4 @@
-import { AMC_CONTEXT, streamText } from "@/lib/server/claude";
+import { AMC_CONTEXT, streamText } from "@/lib/server/ai";
 import type { Question } from "@/lib/types";
 
 export const maxDuration = 300;

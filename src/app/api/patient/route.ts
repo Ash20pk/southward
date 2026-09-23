@@ -1,4 +1,4 @@
-import { streamText, type ChatTurn } from "@/lib/server/claude";
+import { streamText, type ChatTurn } from "@/lib/server/ai";
 import { stationById } from "@/lib/content";
 
 export const maxDuration = 120;

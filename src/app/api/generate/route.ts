@@ -1,6 +1,5 @@
 import { z } from "zod";
-import { betaZodOutputFormat } from "@anthropic-ai/sdk/helpers/beta/zod";
-import { structured, describeError, AMC_CONTEXT } from "@/lib/server/claude";
+import { structured, describeError, AMC_CONTEXT } from "@/lib/server/ai";
 import { topicById, disciplineName } from "@/lib/content";
 import type { Difficulty, Question } from "@/lib/types";
 
@@ -44,10 +43,11 @@ You write original AMC CAT MCQ practice questions: one-best-answer clinical vign
   const prompt = `Write ${n} questions.\nDiscipline: ${disciplineName(t.discipline)}\nTopic: ${t.name}: ${t.summary}\nHigh-yield areas: ${t.highYield.join("; ")}\nDifficulty: ${level}${focus ? `\nFocus on: ${focus}` : ""}${avoid?.length ? `\nDon't repeat these scenarios: ${avoid.slice(0, 20).join(" | ")}` : ""}`;
 
   try {
-    const out = await structured<z.infer<typeof Generated>>({
+    const out = await structured({
       system,
       prompt,
-      format: betaZodOutputFormat(Generated),
+      schema: Generated,
+      name: "mcq_questions",
       effort: "high",
     });
     const stamp = Date.now().toString(36);

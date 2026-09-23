@@ -1,4 +1,4 @@
-import { AMC_CONTEXT, streamText, type ChatTurn } from "@/lib/server/claude";
+import { AMC_CONTEXT, streamText, type ChatTurn } from "@/lib/server/ai";
 
 export const maxDuration = 300;
 

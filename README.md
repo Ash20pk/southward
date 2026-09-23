@@ -1,6 +1,6 @@
 # Southward
 
-A study companion for Indian MBBS students heading to the Australian Medical Council (AMC) exams. It starts from zero: what the Standard Pathway is, a study plan sized to the time until your MCQ date, and daily practice across all six AMC disciplines, with Claude as tutor, question writer, practice patient and examiner.
+A study companion for Indian MBBS students heading to the Australian Medical Council (AMC) exams. It starts from zero: what the Standard Pathway is, a study plan sized to the time until your MCQ date, and daily practice across all six AMC disciplines, with an AI (OpenAI or Claude, your choice) as tutor, question writer, practice patient and examiner.
 
 Not affiliated with the AMC. Written for exam practice, not patient care.
 
@@ -21,16 +21,16 @@ Progress is stored in the browser (localStorage). Settings has export and import
 ## Run it
 
 ```sh
-cp .env.example .env.local   # add your ANTHROPIC_API_KEY
+cp .env.example .env.local   # add OPENAI_API_KEY or ANTHROPIC_API_KEY
 npm install
 npm run dev                  # http://localhost:3000
 ```
 
-Everything except the AI features works without a key.
+Everything except the AI features works without a key. With only `OPENAI_API_KEY` set, the app uses OpenAI (`gpt-5.5` by default); with only `ANTHROPIC_API_KEY`, Claude (`claude-opus-5`). If both are set it uses Claude unless `AI_PROVIDER=openai`. Models can be overridden with `OPENAI_MODEL` / `ANTHROPIC_MODEL`.
 
 ## Stack
 
-Next.js 16 (App Router), React 19, Tailwind CSS 4, Zustand, and the Anthropic TypeScript SDK. AI routes live in `src/app/api/*`. They stream text for the tutor, lessons, explanations and patient, and use structured outputs (Zod) for question generation and OSCE marking. Server-side refusal fallbacks are enabled.
+Next.js 16 (App Router), React 19, Tailwind CSS 4, Zustand, and the OpenAI and Anthropic TypeScript SDKs behind one small layer in `src/lib/server/ai.ts`. AI routes live in `src/app/api/*`. They stream text for the tutor, lessons, explanations and patient, and use structured outputs (Zod) for question generation and OSCE marking. On Claude, server-side refusal fallbacks are enabled.
 
 ## Content
 

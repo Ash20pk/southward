@@ -1,6 +1,5 @@
 import { z } from "zod";
-import { betaZodOutputFormat } from "@anthropic-ai/sdk/helpers/beta/zod";
-import { structured, describeError, AMC_CONTEXT } from "@/lib/server/claude";
+import { structured, describeError, AMC_CONTEXT } from "@/lib/server/ai";
 import { stationById } from "@/lib/content";
 
 export const maxDuration = 300;
@@ -48,7 +47,7 @@ You are an experienced AMC Clinical Examination examiner marking a practice stat
   const prompt = `STATION: ${s.title}\nCandidate brief: ${s.candidateBrief}\nTasks:\n- ${s.tasks.join("\n- ")}\n\nHidden case (for the examiner): ${s.patient.script}\n${s.expectedDiagnosis ? `Expected diagnosis: ${s.expectedDiagnosis}\n` : ""}Marking criteria:\n- ${s.markingCriteria.join("\n- ")}\n\nTime used: ${Math.round(seconds / 60)} min of 8.\n\nTRANSCRIPT:\n${lines || "(the candidate said nothing)"}`;
 
   try {
-    const fb = await structured<OsceFeedback>({ system, prompt, format: betaZodOutputFormat(Feedback), effort: "high" });
+    const fb = await structured({ system, prompt, schema: Feedback, name: "osce_feedback", effort: "high" });
     return Response.json(fb);
   } catch (err) {
     return Response.json({ error: describeError(err) }, { status: 500 });
