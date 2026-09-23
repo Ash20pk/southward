@@ -10,7 +10,7 @@ const sans = Bricolage_Grotesque({ subsets: ["latin"], variable: "--font-bricola
 const serif = Source_Serif_4({ subsets: ["latin"], variable: "--font-source-serif" });
 
 export const metadata: Metadata = {
-  title: "Southward: AMC exam preparation",
+  title: "Southward",
   description: "A guided path from MBBS to the Australian Medical Council exams.",
   applicationName: "Southward",
   appleWebApp: {

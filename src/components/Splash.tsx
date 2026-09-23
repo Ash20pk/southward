@@ -9,7 +9,7 @@ export function Splash({ note }: { note?: string }) {
       <img src="/icons/icon.svg" alt="" width={112} height={112} className="splash-mark h-28 w-28 rounded-[26px] shadow-[0_12px_40px_rgba(0,0,0,0.35)]" />
       <div className="text-center">
         <p className="text-3xl font-semibold tracking-tight">Southward</p>
-        <p className="mt-1 text-[#b3c0d2]">{note ?? "Your way to the AMC"}</p>
+        {note && <p className="mt-1 text-[#b3c0d2]">{note}</p>}
       </div>
     </div>
   );

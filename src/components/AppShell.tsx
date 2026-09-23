@@ -68,8 +68,18 @@ const NAV_GROUPS: { title?: string; items: { href: string; label: string; icon: 
 function Logo() {
   return (
     <Link href="/" className="flex items-center gap-2.5 text-ink">
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src="/icons/icon.svg" alt="" width={32} height={32} className="h-8 w-8 rounded-[9px]" />
+      <svg viewBox="0 0 32 32" className="h-8 w-8" aria-hidden>
+        <rect width="32" height="32" rx="9" fill="var(--sky)" />
+        {[
+          [16, 25, 2.1],
+          [9, 14, 1.6],
+          [17, 6, 1.8],
+          [23.5, 12.5, 1.3],
+          [20, 18, 0.9],
+        ].map(([x, y, r], i) => (
+          <circle key={i} cx={x} cy={y} r={r} fill="var(--ochre)" />
+        ))}
+      </svg>
       <span className="text-[1.2rem] font-semibold tracking-tight">Southward</span>
     </Link>
   );

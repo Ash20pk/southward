@@ -3,7 +3,7 @@
 // - Pages: network-first, falling back to the last cached copy, then to the home page shell.
 // - API calls (AI, sync, sign-in) are never cached.
 // Responses are cloned before being returned: a body can only be read once, so cloning later fails silently.
-const VERSION = "southward-v2";
+const VERSION = "southward-v3";
 const STATIC = `${VERSION}-static`;
 const PAGES = `${VERSION}-pages`;
 const PRECACHE = ["/", "/manifest.webmanifest", "/icons/icon-192.png", "/icons/icon-512.png"];

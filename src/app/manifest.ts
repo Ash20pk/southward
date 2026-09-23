@@ -3,7 +3,7 @@ import type { MetadataRoute } from "next";
 export default function manifest(): MetadataRoute.Manifest {
   return {
     id: "/",
-    name: "Southward: AMC exam prep",
+    name: "Southward",
     short_name: "Southward",
     description: "A guided path from MBBS to the Australian Medical Council exams: lessons, questions, mock exams, flashcards and clinical stations.",
     start_url: "/",
