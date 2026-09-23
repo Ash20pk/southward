@@ -33,7 +33,6 @@ npm run db:up                # Postgres + Neon's HTTP proxy on port 4445
 # in .env.local:
 #   DATABASE_URL=postgres://postgres:postgres@db.localtest.me:5432/southward
 #   AUTH_SECRET=$(openssl rand -base64 32)
-#   INVITE_CODE=anything-you-like
 npm run db:migrate
 npm run dev
 ```
@@ -47,11 +46,10 @@ vercel link                                   # create or link the Vercel projec
 vercel integration add neon                   # provisions Postgres and sets DATABASE_URL
 vercel env add OPENAI_API_KEY                 # your OpenAI key
 vercel env add AUTH_SECRET                    # paste the output of: openssl rand -base64 32
-vercel env add INVITE_CODE                    # the code she'll type when creating her account
 vercel deploy --prod
 ```
 
-The build runs `scripts/migrate.mjs` first, which creates the tables if they don't exist, so there's no separate database step. Then open the site, choose "Create account", and enter the invite code. Progress she made before having an account is uploaded to it on first sign-in.
+The build runs `scripts/migrate.mjs` first, which creates the tables if they don't exist, so there's no separate database step. Then open the site and choose "Create account". Progress she made before having an account is uploaded to it on first sign-in.
 
 How it protects your API key and her data:
 

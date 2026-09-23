@@ -7,9 +7,9 @@ import { Button } from "./ui";
 import { SouthernCross } from "./SouthernCross";
 
 export function AuthScreen() {
-  const { inviteRequired, setUser } = useSession();
+  const { setUser } = useSession();
   const [mode, setMode] = useState<"signin" | "signup">("signin");
-  const [form, setForm] = useState({ name: "", email: "", password: "", invite: "" });
+  const [form, setForm] = useState({ name: "", email: "", password: "" });
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const set = (k: keyof typeof form) => (e: React.ChangeEvent<HTMLInputElement>) => setForm({ ...form, [k]: e.target.value });
@@ -100,13 +100,6 @@ export function AuthScreen() {
           />
           {mode === "signup" && <span className="text-sm text-muted">At least 8 characters.</span>}
         </label>
-        {mode === "signup" && inviteRequired && (
-          <label className="flex flex-col gap-2">
-            <span className="font-medium">Invite code</span>
-            <input className={field} value={form.invite} onChange={set("invite")} autoComplete="off" required />
-            <span className="text-sm text-muted">Ask whoever set up Southward for you.</span>
-          </label>
-        )}
 
         {error && (
           <p role="alert" className="rounded-xl bg-bad-soft px-4 py-3 text-bad">

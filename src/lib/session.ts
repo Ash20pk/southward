@@ -12,7 +12,6 @@ interface Session {
   loaded: boolean;
   mode: "local" | "account";
   user: SessionUser | null;
-  inviteRequired: boolean;
   load: () => Promise<void>;
   setUser: (u: SessionUser | null) => void;
 }
@@ -22,12 +21,11 @@ export const useSession = create<Session>()((set) => ({
   loaded: false,
   mode: "local",
   user: null,
-  inviteRequired: false,
   load: async () => {
     try {
       const res = await fetch("/api/auth/me", { cache: "no-store" });
       const me = await res.json();
-      set({ loaded: true, mode: me.mode, user: me.user, inviteRequired: !!me.inviteRequired });
+      set({ loaded: true, mode: me.mode, user: me.user });
     } catch {
       // Offline on first load: fall back to whatever is in the browser.
       set({ loaded: true, mode: "local", user: null });
