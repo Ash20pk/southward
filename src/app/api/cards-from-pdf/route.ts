@@ -39,7 +39,7 @@ export async function POST(req: Request) {
 You turn a learner's own study material into spaced-repetition flashcards for the AMC CAT MCQ exam.
 - Each card tests exactly one atomic, exam-relevant fact: a threshold, first-line treatment, key sign, classic association, investigation of choice, red flag, score, antidote or definition.
 - Front: a short, specific question (never "What is X?" for vague X). Back: 1-3 short lines, answer first.
-- Use only facts that are in the material. Skip trivia, history, references and non-medical text.
+- Every card must be answerable from the material itself. Do not add facts, tests or treatments the material doesn't state, even if they are true (the only exception is an "In Australia: ..." correction). Skip trivia, history, references and non-medical text.
 - If the material states something that conflicts with current Australian practice (drug names, first-line choices, screening), keep the card but add "In Australia: ..." on the back.
 - Use Australian drug names and SI units.
 - For topic, choose the single best AMC topic id from this list, or "" if none fits: ${SYLLABUS.map((t) => t.id).join(", ")}.`;
