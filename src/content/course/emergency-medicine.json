@@ -1,0 +1,1177 @@
+{
+  "topic": "emergency-medicine",
+  "intro": "Emergency medicine on the AMC tests how you prioritise: triage categories, the ANZCOR resuscitation algorithms, recognising shock and anaphylaxis, and a structured approach to poisoning. Toxicology and envenomation are especially high-yield because they are uniquely Australian: paracetamol overdose managed with the Australian nomogram, snake and spider bites managed with pressure immobilisation, and marine stings from box jellyfish to bluebottles. This course also covers environmental emergencies such as heat stroke, hypothermia, drowning and diving injuries.",
+  "lessons": [
+    {
+      "id": "emergency-medicine--triage-and-resuscitation",
+      "title": "Triage, the primary survey and cardiac arrest",
+      "minutes": 17,
+      "objectives": [
+        "Allocate Australasian Triage Scale categories and their target times",
+        "Perform basic life support using ANZCOR DRSABCD",
+        "Run the ANZCOR adult advanced life support algorithm for shockable and non-shockable rhythms",
+        "Identify and treat the reversible causes of cardiac arrest and provide post-arrest care"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Overview",
+          "body": "Australian emergency departments see millions of presentations a year. Every patient is triaged on arrival by a nurse using the **Australasian Triage Scale (ATS)**, which sets how quickly they must be seen by a clinician. Resuscitation follows the **Australian and New Zealand Committee on Resuscitation (ANZCOR)** guidelines, which are what the AMC expects. The emergency number is **000** (112 also works from mobile phones)."
+        },
+        {
+          "kind": "concepts",
+          "heading": "The Australasian Triage Scale",
+          "body": "| Category | Seen within | Examples |\n|---|---|---|\n| **1: Immediately life-threatening** | **Immediately** | Cardiac or respiratory arrest, airway compromise, SBP under 80 mmHg in adults, GCS under 9, ongoing seizure, severe respiratory distress |\n| **2: Imminently life-threatening** | **10 minutes** | Chest pain likely cardiac, suspected sepsis with instability, severe pain, GCS under 13, acute stroke, major fracture, serious overdose, very high-risk mental health presentation |\n| **3: Potentially life-threatening or urgent** | **30 minutes** | Moderate pain, moderately severe blood loss, vomiting with dehydration, seizure now resolved, febrile infant or immunocompromised patient who looks well |\n| **4: Potentially serious** | **60 minutes** | Mild pain, minor head injury without loss of consciousness, simple limb injury, non-specific abdominal pain |\n| **5: Less urgent** | **120 minutes** | Minor wounds, chronic symptoms, repeat prescriptions, vaccination |\n\nTriage is based on the most urgent need, not the diagnosis. Vital sign thresholds, pain and risk factors move patients up a category. National performance targets measure the percentage of patients seen within these times."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Basic life support: DRSABCD",
+          "body": "ANZCOR's sequence for an unresponsive person:\n- **D**anger: check for danger to yourself, bystanders and the patient.\n- **R**esponse: talk and touch (\"squeeze my hand, open your eyes\").\n- **S**end for help: call **000**, get an AED.\n- **A**irway: open it (head tilt, chin lift; jaw thrust if spinal injury is suspected); roll onto the side to clear foreign material.\n- **B**reathing: look, listen and feel for up to 10 seconds. **Agonal gasps are not normal breathing.**\n- **C**PR: **30 compressions to 2 breaths**, rate **100 to 120 per minute**, depth about **one-third of chest depth** (roughly 5 cm in adults), allowing full recoil, minimising interruptions. Compression-only CPR is acceptable if the rescuer is untrained or unwilling to give breaths.\n- **D**efibrillation: attach an AED as soon as it arrives and follow its prompts.\n\nIf the person is breathing normally but unresponsive, place them in the **recovery position** and monitor."
+        },
+        {
+          "kind": "concepts",
+          "heading": "The primary survey of a critically unwell patient",
+          "body": "For any seriously unwell patient (medical or trauma), assess and treat in order, fixing each problem before moving on:\n\n| Step | Look for | Immediate actions |\n|---|---|---|\n| **A**irway (with cervical spine protection in trauma) | Talking normally? Stridor, gurgling, snoring, facial burns | Suction, head tilt/chin lift or jaw thrust, airway adjuncts, call for airway help |\n| **B**reathing | RR, SpO2, work of breathing, tracheal position, breath sounds, percussion | Oxygen to target SpO2, bronchodilators, decompress tension pneumothorax, ventilate if needed |\n| **C**irculation | HR, BP, capillary refill, JVP, bleeding, ECG | IV or IO access, bloods and cultures, fluid or blood, control haemorrhage, treat arrhythmias |\n| **D**isability | GCS or AVPU, pupils, **blood glucose**, seizures | Treat hypoglycaemia, stop seizures, consider opioid reversal |\n| **E**xposure | Temperature, rashes (purpura), injuries, bleeding | Keep warm, examine fully, then cover |\n\nOxygen targets: aim for **SpO2 92 to 96%** in most acutely unwell adults, and **88 to 92%** in people at risk of hypercapnic respiratory failure (for example severe COPD), per Thoracic Society of Australia and New Zealand guidance. Reassess after every intervention and whenever the patient deteriorates. Call for senior help early: the AMC rewards recognising when a patient needs escalation (for example a rapid response or MET call when observations enter the red zone of an Australian observation chart)."
+        },
+        {
+          "kind": "application",
+          "heading": "Adult advanced life support (ANZCOR)",
+          "body": "1. Start CPR, attach monitor or defibrillator, **assess rhythm**, and minimise pauses (under 10 seconds for rhythm checks).\n2. **Shockable rhythm** (ventricular fibrillation, pulseless ventricular tachycardia):\n   - **Shock**, then immediately resume CPR for **2 minutes**, then reassess.\n   - **Adrenaline 1 mg IV/IO after the second shock**, then **every second loop** (about every 4 minutes).\n   - **Amiodarone 300 mg IV after the third shock**; a further 150 mg can be considered.\n3. **Non-shockable rhythm** (asystole, pulseless electrical activity):\n   - **Adrenaline 1 mg IV/IO immediately**, then every second loop, with 2-minute cycles of CPR.\n   - Hunt for reversible causes, especially in PEA.\n4. Throughout: **airway** (bag-valve-mask, supraglottic airway or intubation by skilled operators), **waveform capnography** (confirms tube placement and indicates CPR quality and return of circulation), IV or IO access.\n\n**Reversible causes: the 4 Hs and 4 Ts**\n| Hs | Ts |\n|---|---|\n| **Hypoxaemia** | **Tension pneumothorax** (needle or finger thoracostomy) |\n| **Hypovolaemia** | **Tamponade** (pericardiocentesis) |\n| **Hypo- or hyperkalaemia**, other metabolic (acidosis, hypoglycaemia) | **Toxins** (tricyclics, beta blockers, calcium channel blockers) |\n| **Hypo- or hyperthermia** | **Thrombosis** (coronary or pulmonary; consider thrombolysis) |\n\n**Post-resuscitation care (after return of spontaneous circulation)**: ABCDE reassessment, **12-lead ECG** (STEMI or suspected coronary cause: emergency angiography), target **SpO2 92 to 98%** and normal CO2, avoid hypotension, check glucose, **prevent fever**, and admit to ICU. Prognostication is delayed (typically at least 72 hours).\n\n**Decisions about stopping** resuscitation consider duration, rhythm, cause and the patient's known wishes. Check for an advance care directive or goals of care plan when possible."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- ATS category and time pairs are frequent one-step questions: **1 immediate, 2 in 10 min, 3 in 30, 4 in 60, 5 in 120**.\n- In VF arrest, the first drug is adrenaline **after the second shock**; amiodarone after the **third**.\n- In asystole or PEA, **give adrenaline as soon as possible**; do not shock.\n- Rising end-tidal CO2 during CPR suggests return of spontaneous circulation.\n- Cardiac arrest in a dialysis patient with peaked T waves before arrest: hyperkalaemia, give IV calcium.\n- Always check for danger first in first-aid questions."
+        }
+      ],
+      "keyPoints": [
+        "ATS: category 1 immediate, 2 within 10 minutes, 3 within 30, 4 within 60, 5 within 120.",
+        "DRSABCD: Danger, Response, Send for help, Airway, Breathing, CPR, Defibrillation.",
+        "CPR 30:2 at 100 to 120 per minute, depth one-third of the chest; agonal gasps are not breathing.",
+        "VF/pVT: shock, 2 minutes CPR; adrenaline after the second shock, amiodarone 300 mg after the third.",
+        "Asystole/PEA: adrenaline 1 mg immediately then every second loop.",
+        "Look for the 4 Hs and 4 Ts.",
+        "After ROSC: 12-lead ECG, SpO2 92 to 98%, avoid hypotension and fever."
+      ],
+      "redFlags": [
+        "Unresponsive with absent or agonal breathing",
+        "Systolic BP under 80 mmHg or GCS under 9",
+        "Stridor or airway obstruction",
+        "Broad complex tachycardia with hypotension"
+      ],
+      "contrast": [
+        {
+          "aspect": "Emergency number",
+          "india": "108 or 112.",
+          "australia": "000 (112 also works from mobiles)."
+        },
+        {
+          "aspect": "Triage",
+          "india": "Varies by hospital; often first come, first served.",
+          "australia": "Australasian Triage Scale in every ED with nationally reported target times."
+        },
+        {
+          "aspect": "Resuscitation guidelines",
+          "india": "AHA-based BLS/ACLS training common.",
+          "australia": "ANZCOR guidelines; very similar algorithms but Australian first-aid wording (DRSABCD)."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "ATS category 2 target time?",
+          "back": "Within 10 minutes."
+        },
+        {
+          "front": "ATS category 4 target time?",
+          "back": "Within 60 minutes."
+        },
+        {
+          "front": "Compression rate and ratio in adult CPR?",
+          "back": "100 to 120 per minute; 30:2."
+        },
+        {
+          "front": "When is adrenaline given in VF arrest (ANZCOR)?",
+          "back": "After the second shock, then every second loop."
+        },
+        {
+          "front": "Amiodarone dose and timing in VF arrest?",
+          "back": "300 mg IV after the third shock."
+        },
+        {
+          "front": "Post-ROSC oxygen saturation target?",
+          "back": "92 to 98%."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "emergency-medicine--triage-and-resuscitation--q1",
+          "discipline": "adult-medicine",
+          "topic": "emergency-medicine",
+          "difficulty": "foundation",
+          "stem": "A 56-year-old man presents to a Sydney emergency department triage desk with 40 minutes of central chest pain radiating to his left arm. He is sweaty. HR 98 bpm, BP 150/92 mmHg, SpO2 97%.\n\nWhich Australasian Triage Scale category and target time is most appropriate?",
+          "options": [
+            "Category 1, immediate",
+            "Category 2, within 10 minutes",
+            "Category 3, within 30 minutes",
+            "Category 4, within 60 minutes",
+            "Category 5, within 120 minutes"
+          ],
+          "answer": 1,
+          "explanation": "Chest pain **likely to be cardiac** is an **imminently life-threatening** presentation under the Australasian Triage Scale: **category 2, to be seen within 10 minutes**, with an ECG performed within 10 minutes of arrival. Category 1 is reserved for immediately life-threatening states such as cardiac arrest, airway compromise, SBP under 80 mmHg or GCS under 9. He is haemodynamically stable, so category 1 is not required, but his pain features are too high risk for category 3.",
+          "whyWrong": [
+            "Category 1 is for immediately life-threatening states such as arrest or shock, which he does not have.",
+            "",
+            "Category 3 is too slow for suspected acute coronary syndrome.",
+            "Category 4 is for potentially serious but lower-risk problems.",
+            "Category 5 is for minor or chronic complaints."
+          ],
+          "tags": [
+            "triage",
+            "ats",
+            "chest pain"
+          ]
+        },
+        {
+          "id": "emergency-medicine--triage-and-resuscitation--q2",
+          "discipline": "adult-medicine",
+          "topic": "emergency-medicine",
+          "difficulty": "core",
+          "stem": "A 62-year-old woman collapses in a Melbourne hospital car park. The team finds her unresponsive and not breathing. CPR is started and the monitor shows ventricular fibrillation. She has received one shock followed by 2 minutes of CPR, and at the rhythm check she remains in VF. A second shock is delivered and CPR resumed.\n\nWhat is the most appropriate drug to give now?",
+          "options": [
+            "Adrenaline 1 mg IV",
+            "Amiodarone 300 mg IV",
+            "Atropine 1 mg IV",
+            "Lignocaine 100 mg IV",
+            "Magnesium 10 mmol IV"
+          ],
+          "answer": 0,
+          "explanation": "In the ANZCOR adult ALS algorithm for shockable rhythms, **adrenaline 1 mg IV/IO is given after the second shock**, then every second loop (about every 4 minutes). **Amiodarone 300 mg** is given **after the third shock** for refractory VF or pulseless VT. Atropine is no longer used in cardiac arrest. Lignocaine is an alternative antiarrhythmic if amiodarone is unavailable, and magnesium is reserved for torsades de pointes or hypomagnesaemia. Throughout, high-quality CPR and minimal interruptions matter more than drugs.",
+          "whyWrong": [
+            "",
+            "Amiodarone is given after the third shock, not the second.",
+            "Atropine is not part of current cardiac arrest algorithms.",
+            "Lignocaine is only an alternative when amiodarone is unavailable.",
+            "Magnesium is for torsades de pointes or suspected hypomagnesaemia."
+          ],
+          "tags": [
+            "als",
+            "vf",
+            "anzcor"
+          ]
+        },
+        {
+          "id": "emergency-medicine--triage-and-resuscitation--q3",
+          "discipline": "adult-medicine",
+          "topic": "emergency-medicine",
+          "difficulty": "exam",
+          "stem": "A 71-year-old man on haemodialysis who missed his last two sessions collapses in a Darwin emergency department. He is pulseless. The monitor shows a broad, slow, bizarre rhythm with no output. CPR and adrenaline have been started. A venous gas shows potassium 8.4 mmol/L.\n\nWhat is the most important additional treatment?",
+          "options": [
+            "Amiodarone 300 mg IV",
+            "Defibrillation",
+            "Sodium bicarbonate alone",
+            "Oral resonium",
+            "IV calcium followed by insulin with glucose"
+          ],
+          "answer": 4,
+          "explanation": "This is **PEA arrest from hyperkalaemia**, one of the reversible **Hs**. Treatment during CPR is **IV calcium** (calcium chloride or gluconate) to stabilise the myocardium, then **insulin with glucose** (and consider sodium bicarbonate if acidotic) to shift potassium into cells, and arrange **emergency dialysis** to remove it. Salbutamol can also be used once circulation returns. PEA is non-shockable, so defibrillation is not indicated. Oral resins act far too slowly. Identifying the cause is what gives this patient a chance of survival.",
+          "whyWrong": [
+            "Amiodarone is for shock-refractory VF/VT, not PEA.",
+            "PEA is not a shockable rhythm.",
+            "Bicarbonate may help in acidosis but does not replace calcium and insulin-glucose.",
+            "Oral resins act over hours and have no role in arrest.",
+            ""
+          ],
+          "tags": [
+            "hyperkalaemia",
+            "pea",
+            "reversible causes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "emergency-medicine--shock-sepsis-anaphylaxis",
+      "title": "Shock, sepsis and anaphylaxis",
+      "minutes": 17,
+      "objectives": [
+        "Classify shock and pick the right initial treatment for each type",
+        "Recognise and treat sepsis within the first hour",
+        "Treat anaphylaxis with IM adrenaline at the correct dose and position",
+        "Arrange safe discharge after anaphylaxis with an action plan and adrenaline autoinjector"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Overview",
+          "body": "Shock is inadequate tissue perfusion, and the ED clinician's job is to recognise it early, identify the type, and treat the cause while supporting the circulation. **Sepsis** is a leading cause of death in Australian hospitals; state programs such as NSW's **SEPSIS KILLS** push recognition and antibiotics within 60 minutes. **Anaphylaxis** rates in Australia are among the highest in the world, especially food anaphylaxis in children, and **ASCIA** (Australasian Society of Clinical Immunology and Allergy) guidelines are the standard."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Types of shock",
+          "body": "| Type | Mechanism | Examples | Clues |\n|---|---|---|---|\n| **Hypovolaemic** | Loss of circulating volume | Haemorrhage, burns, vomiting, diarrhoea | Cold peripheries, flat neck veins |\n| **Distributive** | Vasodilation, capillary leak | **Sepsis**, **anaphylaxis**, neurogenic (spinal cord injury), adrenal crisis | Warm peripheries early, bounding pulses (sepsis); bradycardia (neurogenic) |\n| **Cardiogenic** | Pump failure | MI, arrhythmia, myocarditis, severe valve disease | Raised JVP, pulmonary oedema |\n| **Obstructive** | Obstruction to filling or outflow | **Tension pneumothorax**, **cardiac tamponade**, massive PE | Raised JVP, clear chest (tamponade, PE), absent breath sounds and tracheal deviation (tension) |\n\n**Anaphylaxis** is a severe, rapid-onset, potentially fatal systemic allergic reaction. IgE-mediated mast cell degranulation releases histamine, tryptase and leukotrienes, causing vasodilation, capillary leak, bronchospasm and upper airway oedema. Common triggers in Australia: **foods** (peanut, tree nuts, egg, milk, shellfish, fish), **insect stings** (bees, wasps, **jack jumper ants** in Tasmania and south-east Australia), **medicines** (antibiotics, NSAIDs, anaesthetic agents), and **ticks** (tick anaphylaxis and mammalian meat allergy on the east coast)."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Recognition",
+          "body": "**Shock**: tachycardia, hypotension (late sign, especially in young people), prolonged capillary refill, altered mental state, oliguria, raised lactate.\n\n**Sepsis**: infection plus organ dysfunction. Screening prompts: fever or hypothermia, tachycardia, tachypnoea (often the earliest sign), hypotension, confusion, mottled skin, reduced urine output. **Septic shock**: needs vasopressors to maintain MAP 65 mmHg or more with lactate over 2 mmol/L despite fluids. Scores such as qSOFA (RR 22 or more, altered mentation, SBP 100 or less) flag high risk but are not sensitive enough to rule sepsis out.\n\n**Anaphylaxis (ASCIA definition)**: any acute-onset illness with typical skin features (urticaria, flushing, angioedema) plus involvement of the **respiratory** and/or **cardiovascular** system and/or severe **gastrointestinal** symptoms; **or** acute-onset hypotension, bronchospasm or upper airway obstruction after exposure to a likely allergen, **even without skin features**.\n- Respiratory: difficult or noisy breathing, wheeze, persistent cough, swelling of the tongue, throat tightness, hoarse voice.\n- Cardiovascular: collapse, pale and floppy (young child), hypotension, dizziness.\n- Gastrointestinal: severe abdominal pain and vomiting (particularly important after insect stings).\n- Skin features are absent in a minority, which is how cases get missed."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "- **Shock and sepsis**: lactate (venous gas), FBC, UEC, LFTs, coagulation, **two sets of blood cultures before antibiotics** (without delaying them), urine and other cultures by source, chest X-ray, ECG, point-of-care ultrasound (RUSH protocol: pericardial effusion, RV dilation, IVC, free fluid, pneumothorax).\n- **Anaphylaxis**: a clinical diagnosis. **Serum mast cell tryptase** taken soon after onset (ideally within the first few hours) and a baseline level at least 24 hours later support the diagnosis retrospectively, particularly in perioperative reactions. Never delay treatment for tests."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**General shock**: ABCDE, high-flow oxygen if hypoxic, two large-bore cannulas, treat the cause.\n- Hypovolaemic from haemorrhage: stop bleeding, blood products (massive transfusion protocol), permissive hypotension in trauma, tranexamic acid within 3 hours.\n- Cardiogenic: cautious fluids, inotropes, revascularisation.\n- Obstructive: needle or finger thoracostomy for tension pneumothorax; pericardiocentesis for tamponade; thrombolysis for massive PE.\n\n**Sepsis** (the first hour):\n- **IV antibiotics within 60 minutes** of recognition (sooner in septic shock), chosen by source per eTG; for an unknown source in a severely unwell adult, eTG gives empirical regimens (typically including broad-spectrum beta-lactam and gentamicin, with vancomycin if MRSA risk).\n- **IV crystalloid boluses** (for example 500 mL to 1 L, or 10 to 20 mL/kg), reassessing perfusion after each.\n- **Noradrenaline** if MAP remains under 65 mmHg despite fluids.\n- Source control (drain abscesses, remove infected lines), monitor urine output, ICU referral.\n\n**Anaphylaxis (ASCIA)**:\n1. Remove the allergen if still present (flick out a bee sting; stop an infusion).\n2. **Lay the patient flat** (do not let them stand or walk; sit if breathing is difficult; pregnant women on the left side). Sudden standing can cause fatal cardiovascular collapse.\n3. **IM adrenaline 0.01 mg/kg (maximum 0.5 mg)** into the **anterolateral mid-thigh** (1 mg/mL, that is 0.01 mL/kg). **Repeat every 5 minutes** as needed.\n4. Call for help, give **high-flow oxygen**, establish IV access, **IV fluid bolus** (20 mL/kg) if hypotensive.\n5. **Adrenaline infusion** if not responding after 2 to 3 IM doses (by experienced clinicians with monitoring).\n6. Wheeze: add salbutamol after adrenaline. Stridor: nebulised adrenaline in addition to IM.\n7. **Antihistamines and steroids are not first-line**: antihistamines treat skin symptoms only and do not treat airway or circulatory compromise. Sedating antihistamines (promethazine) should be avoided.\n8. **Observe for at least 4 hours after the last adrenaline dose** (longer or overnight for severe or biphasic-risk reactions and if the patient lives remotely or presents at night).\n\n**Discharge after anaphylaxis**:\n- Prescribe an **adrenaline autoinjector** (EpiPen or Anapen): 0.15 mg for children 7.5 to 20 kg, 0.3 mg for over 20 kg (ASCIA), with training.\n- **ASCIA Action Plan for Anaphylaxis**, allergen avoidance education, medical alert identification.\n- **Referral to a clinical immunologist or allergist**. Venom immunotherapy is highly effective for insect sting anaphylaxis.\n- Review asthma control (poorly controlled asthma increases fatal anaphylaxis risk)."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- The first drug in anaphylaxis is **IM adrenaline** in the thigh, never oral antihistamine or IV hydrocortisone first.\n- A 30 kg child: 0.3 mg IM adrenaline; an adult: 0.5 mg.\n- Patient with anaphylaxis who feels faint and wants to walk to the toilet: keep them **lying flat**.\n- Hypotension after a bee sting without rash: still anaphylaxis.\n- Hypotension with raised JVP and clear lungs after chest trauma: tamponade or tension pneumothorax.\n- Suspected sepsis: blood cultures then antibiotics within 60 minutes, not after the CT."
+        }
+      ],
+      "keyPoints": [
+        "Shock types: hypovolaemic, distributive, cardiogenic, obstructive; JVP and peripheries help separate them.",
+        "Sepsis: cultures, IV antibiotics within 60 minutes, fluid boluses with reassessment, noradrenaline if MAP under 65.",
+        "Anaphylaxis can occur without skin features.",
+        "IM adrenaline 0.01 mg/kg (max 0.5 mg) into the anterolateral thigh, repeat every 5 minutes.",
+        "Lie the patient flat; do not let them stand or walk.",
+        "Antihistamines and steroids are not first-line for anaphylaxis.",
+        "Observe at least 4 hours after the last adrenaline; discharge with an autoinjector, ASCIA action plan and allergist referral."
+      ],
+      "redFlags": [
+        "Stridor, hoarse voice or tongue swelling",
+        "Hypotension or collapse after allergen exposure",
+        "Lactate over 4 mmol/L or hypotension despite fluids",
+        "Raised JVP with hypotension (obstructive or cardiogenic shock)",
+        "Mottled skin and confusion in suspected infection"
+      ],
+      "contrast": [
+        {
+          "aspect": "Anaphylaxis first-line",
+          "india": "Injectable antihistamines and hydrocortisone often given first; adrenaline sometimes delayed.",
+          "australia": "IM adrenaline first, repeat every 5 minutes; antihistamines are adjuncts only (ASCIA)."
+        },
+        {
+          "aspect": "Adrenaline autoinjectors",
+          "india": "Rarely prescribed and costly.",
+          "australia": "PBS-subsidised EpiPen or Anapen with an ASCIA Action Plan and school and childcare training."
+        },
+        {
+          "aspect": "Sepsis recognition",
+          "india": "Varies by hospital.",
+          "australia": "State sepsis pathways (e.g., SEPSIS KILLS) with antibiotics within 60 minutes."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "IM adrenaline dose in anaphylaxis?",
+          "back": "0.01 mg/kg of 1 mg/mL (max 0.5 mg), anterolateral thigh, repeat every 5 minutes."
+        },
+        {
+          "front": "Position for a patient with anaphylaxis?",
+          "back": "Lying flat (sit if breathing difficult; left side if pregnant); do not stand or walk."
+        },
+        {
+          "front": "Minimum observation after anaphylaxis?",
+          "back": "At least 4 hours after the last adrenaline dose."
+        },
+        {
+          "front": "Autoinjector dose for a child over 20 kg?",
+          "back": "0.3 mg."
+        },
+        {
+          "front": "Timing of antibiotics in sepsis?",
+          "back": "Within 60 minutes of recognition, after blood cultures."
+        },
+        {
+          "front": "Test that supports anaphylaxis retrospectively?",
+          "back": "Serum mast cell tryptase soon after onset, compared with baseline."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "emergency-medicine--shock-sepsis-anaphylaxis--q1",
+          "discipline": "adult-medicine",
+          "topic": "emergency-medicine",
+          "difficulty": "foundation",
+          "stem": "A 24-year-old woman develops lip swelling, widespread hives, wheeze and dizziness 10 minutes after eating a satay dish at a restaurant in Brisbane. On arrival of paramedics: HR 128 bpm, BP 78/40 mmHg, RR 28/min, SpO2 92%. She weighs 60 kg.\n\nWhat is the most appropriate first treatment?",
+          "options": [
+            "Adrenaline 0.5 mg IM into the anterolateral thigh",
+            "Promethazine 25 mg IM",
+            "Hydrocortisone 200 mg IV",
+            "Salbutamol via spacer",
+            "Adrenaline 1 mg IV bolus"
+          ],
+          "answer": 0,
+          "explanation": "This is **anaphylaxis** to peanut, with respiratory and cardiovascular compromise. The first-line treatment is **IM adrenaline 0.01 mg/kg of 1 mg/mL, maximum 0.5 mg**, into the **anterolateral thigh**, repeated every 5 minutes if needed. She should lie flat, receive high-flow oxygen and an IV fluid bolus for hypotension. Antihistamines and steroids do not reverse airway or circulatory compromise, and sedating antihistamines like promethazine can worsen hypotension. IV bolus adrenaline at arrest doses causes dangerous arrhythmias in a patient with a pulse.",
+          "whyWrong": [
+            "",
+            "Sedating antihistamines do not treat anaphylaxis and may worsen hypotension.",
+            "Steroids act slowly and do not treat acute anaphylaxis.",
+            "Salbutamol is an adjunct for wheeze after adrenaline, not a substitute.",
+            "1 mg IV bolus is a cardiac arrest dose and risks arrhythmia and severe hypertension."
+          ],
+          "tags": [
+            "anaphylaxis",
+            "adrenaline",
+            "ascia"
+          ]
+        },
+        {
+          "id": "emergency-medicine--shock-sepsis-anaphylaxis--q2",
+          "discipline": "adult-medicine",
+          "topic": "emergency-medicine",
+          "difficulty": "core",
+          "stem": "A 9-year-old boy is stung by a bee at a Canberra school. Within minutes he vomits repeatedly and becomes pale and floppy. There is no rash. The school nurse has his EpiPen. He weighs 32 kg.\n\nWhat is the most appropriate immediate action?",
+          "options": [
+            "Give oral cetirizine and observe",
+            "Sit him up and give water",
+            "Give the adrenaline autoinjector 0.3 mg into the thigh, lay him flat and call 000",
+            "Walk him to the sick bay and call his parents",
+            "Wait to see if a rash develops before giving adrenaline"
+          ],
+          "answer": 2,
+          "explanation": "After an **insect sting**, severe vomiting or abdominal pain and being **pale and floppy** (cardiovascular compromise in a child) indicate **anaphylaxis**, even with **no skin features**. Give the **adrenaline autoinjector** (0.3 mg for children over 20 kg) into the outer mid-thigh, **lay him flat** (do not let him stand or walk), call **000**, and give a second dose after 5 minutes if there is no response. Flick out the sting if still present. Waiting for a rash wastes critical time. He should be transported to hospital and observed, then referred to an allergist to consider venom immunotherapy.",
+          "whyWrong": [
+            "Antihistamines do not treat anaphylaxis and delay adrenaline.",
+            "Sitting up or giving fluids by mouth can worsen collapse and is not treatment.",
+            "",
+            "Walking can precipitate fatal cardiovascular collapse.",
+            "Skin features are absent in some anaphylaxis, especially insect sting reactions."
+          ],
+          "ausPearl": "ASCIA Action Plans include severe vomiting and abdominal pain after insect stings as signs of anaphylaxis.",
+          "tags": [
+            "anaphylaxis",
+            "insect sting",
+            "children"
+          ]
+        },
+        {
+          "id": "emergency-medicine--shock-sepsis-anaphylaxis--q3",
+          "discipline": "adult-medicine",
+          "topic": "emergency-medicine",
+          "difficulty": "exam",
+          "stem": "A 74-year-old woman is brought to a Hobart emergency department with 2 days of dysuria and fever, now confused. Temperature 39.1 °C, HR 122 bpm, BP 84/46 mmHg, RR 26/min, SpO2 95%. Lactate 4.6 mmol/L. She has received 1 L of crystalloid with BP now 88/50 mmHg.\n\nIn addition to blood cultures, what is the most appropriate management in the next hour?",
+          "options": [
+            "Wait for urine culture before starting antibiotics",
+            "Oral trimethoprim and further fluids",
+            "Arrange CT abdomen before starting antibiotics",
+            "IV empirical antibiotics per eTG, further fluid boluses with reassessment, and noradrenaline if MAP stays under 65 mmHg",
+            "IV hydrocortisone as first-line therapy"
+          ],
+          "answer": 3,
+          "explanation": "She has **septic shock** from a likely urinary source: hypotension persisting after initial fluid and a lactate over 4 mmol/L. Mortality rises with each hour of delay, so after cultures she needs **IV empirical antibiotics within 60 minutes** chosen per eTG for severe urosepsis, **further crystalloid boluses** with reassessment of perfusion, and **noradrenaline** if MAP remains under 65 mmHg despite adequate fluids, with ICU referral. Imaging to look for obstruction (which needs source control) should happen after antibiotics are given, not before. Steroids are considered only in refractory shock.",
+          "whyWrong": [
+            "Delaying antibiotics for culture results increases mortality.",
+            "Oral antibiotics are inadequate in septic shock.",
+            "Imaging must not delay antibiotics; it can follow.",
+            "",
+            "Hydrocortisone is reserved for vasopressor-refractory shock, not first-line."
+          ],
+          "ausPearl": "NSW's SEPSIS KILLS program and similar state pathways set the standard of antibiotics within 60 minutes of recognising sepsis.",
+          "tags": [
+            "sepsis",
+            "septic shock",
+            "urosepsis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "emergency-medicine--toxicology-approach-and-paracetamol",
+      "title": "Approach to poisoning and paracetamol overdose",
+      "minutes": 18,
+      "objectives": [
+        "Apply a structured risk-assessment approach to any poisoning",
+        "Decide when activated charcoal and other decontamination are appropriate",
+        "Manage acute paracetamol overdose using the Australian nomogram and acetylcysteine",
+        "Recognise high-risk paracetamol scenarios: unknown time, staggered, modified-release and massive ingestions"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Overview",
+          "body": "Deliberate self-poisoning is one of the commonest reasons for ED presentation and admission in young Australians. The agents differ from Indian practice: **paracetamol**, benzodiazepines, antidepressants, antipsychotics and alcohol dominate, rather than organophosphates, aluminium phosphide or paraquat. Most patients survive with good supportive care; the skill is to **risk-assess** early and intervene where it matters. Advice is available 24/7 from the **Poisons Information Centre on 13 11 26**, and clinical toxicology services back this up."
+        },
+        {
+          "kind": "concepts",
+          "heading": "A structured approach",
+          "body": "Australian toxicology teaching (for example the Murray and Daly *Toxicology Handbook*) uses **RRSIDEAD**:\n\n1. **R**esuscitation: ABC, treat seizures (benzodiazepines), hypoglycaemia, hyperthermia, arrhythmias.\n2. **R**isk assessment: the key step. **Agent, dose (mg/kg), time since ingestion, clinical features, patient factors** (weight, comorbidities). This predicts the likely course and decides everything else.\n3. **S**upportive care and monitoring.\n4. **I**nvestigations: **screening tests for every deliberate self-poisoning: 12-lead ECG, blood glucose, and paracetamol level**, because paracetamol overdose is common, often undisclosed and initially asymptomatic. Further tests (for example salicylate, lithium, digoxin levels, venous gas, UEC, osmolality) are targeted by risk assessment. Urine drug screens rarely change management.\n5. **D**econtamination.\n6. **E**nhanced elimination.\n7. **A**ntidotes.\n8. **D**isposition: including **psychiatric assessment** once medically fit, and Poisons Information Centre or toxicology input.\n\n**Decontamination**\n- **Activated charcoal** (50 g in adults) binds many drugs. Give it only if the ingestion is **potentially life-threatening**, it is likely to still be in the gut (usually **within 1 to 2 hours**, longer for modified-release preparations), and the **airway is protected** (alert and cooperative, or intubated). Aspiration is the main risk.\n- Charcoal **does not bind**: **alcohols, metals (iron, lithium)**, potassium, hydrocarbons, acids and alkalis.\n- **Whole bowel irrigation** (polyethylene glycol solution) for large ingestions of modified-release preparations, iron, lithium and body packers, in selected cases.\n- Induced vomiting and gastric lavage are no longer recommended.\n\n**Enhanced elimination**: **haemodialysis** for lithium, toxic alcohols (methanol, ethylene glycol), severe salicylate poisoning, metformin-associated lactic acidosis and some valproate poisonings; urinary alkalinisation for salicylates; multiple-dose activated charcoal for carbamazepine and some others."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Paracetamol toxicity",
+          "body": "At therapeutic doses paracetamol is mainly conjugated (glucuronidation and sulfation). A small fraction is oxidised by CYP2E1 to the toxic metabolite **NAPQI**, which is immediately neutralised by **glutathione**. In overdose, conjugation saturates, more NAPQI is made, glutathione is depleted, and NAPQI binds hepatocyte proteins causing **centrilobular (zone 3) necrosis**. **Acetylcysteine** replenishes glutathione and is close to 100% protective if started **within 8 hours** of ingestion; effectiveness falls after this, but it still helps at any stage, including in established liver failure.\n\n**Potentially toxic acute ingestion**: **200 mg/kg or 10 g or more (whichever is less)**, per the 2019 Australian and New Zealand guideline."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical course",
+          "body": "- **0 to 24 hours**: often **asymptomatic**, or nausea and vomiting only. This is why the paracetamol level is a screening test.\n- **24 to 72 hours**: right upper quadrant pain, rising ALT, prolonged INR.\n- **72 to 96 hours**: peak hepatotoxicity, with jaundice, encephalopathy, coagulopathy, hypoglycaemia, lactic acidosis and renal failure in severe cases.\n- Then recovery or death. Severe cases may need a liver transplant.\n\nMarkers of a poor prognosis, prompting early discussion with a **liver transplant unit**: acidosis (for example pH under 7.3 after resuscitation), rising INR, encephalopathy, rising creatinine, hypoglycaemia and a high lactate."
+        },
+        {
+          "kind": "management",
+          "heading": "Management of paracetamol overdose",
+          "body": "**Acute single ingestion, known time, presenting within 8 hours**\n- Take a **paracetamol level at 4 hours or later** after ingestion (a level earlier than 4 hours cannot be interpreted).\n- Plot it on the **Australian nomogram**. The treatment line starts at **150 mg/L at 4 hours** (a single line). **Above the line: start acetylcysteine.**\n- If the level will not be available until beyond 8 hours after ingestion, **start acetylcysteine** and stop it if the level turns out to be below the line.\n\n**Start acetylcysteine immediately, without waiting for a level, if:**\n- Presentation is **more than 8 hours** after a potentially toxic ingestion.\n- The **time of ingestion is unknown**.\n- It was a **staggered** or repeated supratherapeutic ingestion that meets the risk thresholds (check the guideline).\n- The patient already has evidence of liver injury.\n\n**Acetylcysteine regimen (current Australian two-bag regimen)**: **200 mg/kg over 4 hours, then 100 mg/kg over 16 hours**. Anaphylactoid reactions (flushing, urticaria, wheeze) are common with the loading infusion and are not true allergy: pause, give an antihistamine, and restart at a slower rate.\n\n**Near the end of the infusion**, check ALT and paracetamol level: continue acetylcysteine if ALT is raised or rising, or paracetamol is still detectable.\n\n**Special situations** (seek toxicology advice through **13 11 26**):\n- **Modified-release paracetamol**: take two levels 4 hours apart (the first at 4 hours or later); a larger ingestion usually means a full course of acetylcysteine.\n- **Massive ingestions** (for example 30 g or more, or levels far above the nomogram line) need **increased acetylcysteine dosing** and sometimes charcoal later than usual or dialysis.\n- Activated charcoal may be given within 2 hours of a potentially toxic ingestion, or later for large or modified-release ingestions.\n\n**Disposition**: psychiatric assessment once medically cleared; consider access to means (smaller pack sizes have been adopted by the TGA to reduce overdose harm)."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- Every self-poisoning: **ECG, glucose, paracetamol level**.\n- Paracetamol level taken at 2 hours: uninterpretable, repeat at 4 hours.\n- Presents 10 hours after 20 g: **start acetylcysteine now**, then take levels.\n- Unknown time of ingestion with detectable paracetamol: treat.\n- Flushing and wheeze during the first bag: an anaphylactoid reaction; pause, treat, resume.\n- Charcoal is not given to a drowsy patient with an unprotected airway, or for lithium, iron or alcohol."
+        }
+      ],
+      "keyPoints": [
+        "Risk assessment (agent, dose, time, features, patient factors) drives every decision in poisoning.",
+        "Screen all self-poisoning with an ECG, blood glucose and paracetamol level.",
+        "Activated charcoal only for potentially toxic ingestions, usually within 1 to 2 hours, with a protected airway.",
+        "Charcoal does not bind alcohols, metals (iron, lithium), hydrocarbons or corrosives.",
+        "Paracetamol: potentially toxic at 200 mg/kg or 10 g; nomogram line 150 mg/L at 4 hours.",
+        "Start acetylcysteine without waiting if over 8 hours, unknown timing, staggered ingestion or liver injury.",
+        "Acetylcysteine: 200 mg/kg over 4 hours, then 100 mg/kg over 16 hours; seek advice for massive or modified-release ingestions.",
+        "Poisons Information Centre: 13 11 26, 24/7."
+      ],
+      "redFlags": [
+        "Decreased consciousness with an unprotected airway",
+        "QRS widening or arrhythmia on ECG",
+        "Paracetamol ingestion with acidosis, rising INR or encephalopathy",
+        "Presentation more than 8 hours after a large paracetamol ingestion",
+        "Ongoing suicidal intent"
+      ],
+      "contrast": [
+        {
+          "aspect": "Common poisonings",
+          "india": "Organophosphates, aluminium phosphide and paraquat.",
+          "australia": "Paracetamol, benzodiazepines, antidepressants, antipsychotics and alcohol."
+        },
+        {
+          "aspect": "Paracetamol nomogram",
+          "india": "Rumack-Matthew line (200 mg/L at 4 hours) often taught.",
+          "australia": "Australian single treatment line at 150 mg/L at 4 hours; two-bag acetylcysteine regimen."
+        },
+        {
+          "aspect": "Gastric decontamination",
+          "india": "Gastric lavage still performed.",
+          "australia": "Lavage and induced vomiting abandoned; charcoal only after risk assessment with a protected airway."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Potentially toxic acute paracetamol dose?",
+          "back": "200 mg/kg or 10 g, whichever is less."
+        },
+        {
+          "front": "Australian nomogram treatment line at 4 hours?",
+          "back": "150 mg/L."
+        },
+        {
+          "front": "Acetylcysteine two-bag regimen?",
+          "back": "200 mg/kg over 4 hours, then 100 mg/kg over 16 hours."
+        },
+        {
+          "front": "Three screening tests in all deliberate self-poisonings?",
+          "back": "ECG, blood glucose and paracetamol level."
+        },
+        {
+          "front": "Substances not bound by activated charcoal?",
+          "back": "Alcohols, iron, lithium, other metals, hydrocarbons, corrosives."
+        },
+        {
+          "front": "Poisons Information Centre number?",
+          "back": "13 11 26."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "emergency-medicine--toxicology-approach-and-paracetamol--q1",
+          "discipline": "adult-medicine",
+          "topic": "emergency-medicine",
+          "difficulty": "core",
+          "stem": "A 19-year-old woman presents to a Gold Coast emergency department saying she took 'a whole packet' of paracetamol about 10 hours ago after an argument. She weighs 55 kg. She has mild nausea and is otherwise well. Observations are normal. Blood tests have just been sent.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Wait for the paracetamol level and plot it on the nomogram",
+            "Give activated charcoal 50 g",
+            "Discharge with psychiatric follow-up as she is asymptomatic",
+            "Repeat the paracetamol level in 4 hours",
+            "Start IV acetylcysteine immediately"
+          ],
+          "answer": 4,
+          "explanation": "She presents **more than 8 hours** after a potentially toxic paracetamol ingestion. Acetylcysteine is most effective when started within 8 hours, so waiting for levels risks lost benefit. The rule is: **over 8 hours after a potentially toxic ingestion, start acetylcysteine immediately**, then use the paracetamol level and ALT to decide whether to continue (stop if the level is below the nomogram line and ALT is normal). A packet can easily exceed 200 mg/kg for a 55 kg woman. Charcoal is unlikely to help 10 hours after ingestion of standard tablets. Psychiatric assessment follows medical treatment.",
+          "whyWrong": [
+            "Delaying acetylcysteine beyond 8 hours reduces its protective effect.",
+            "Charcoal is unlikely to bind paracetamol 10 hours after a standard-release ingestion.",
+            "Early paracetamol poisoning is often asymptomatic; she needs treatment.",
+            "A further delay is dangerous; treatment should start now.",
+            ""
+          ],
+          "ausPearl": "The 2019 Australian and New Zealand paracetamol guideline (Chiew et al., MJA 2020) sets the Australian approach, including the two-bag acetylcysteine regimen.",
+          "tags": [
+            "paracetamol",
+            "acetylcysteine",
+            "overdose"
+          ]
+        },
+        {
+          "id": "emergency-medicine--toxicology-approach-and-paracetamol--q2",
+          "discipline": "adult-medicine",
+          "topic": "emergency-medicine",
+          "difficulty": "foundation",
+          "stem": "A 32-year-old man is brought to a Perth emergency department 45 minutes after taking an unknown quantity of his flatmate's tablets. He is alert and cooperative and says he doesn't know what the tablets were. HR 102 bpm, BP 128/76 mmHg, GCS 15.\n\nWhich investigations should be performed for every deliberate self-poisoning?",
+          "options": [
+            "Urine drug screen, CT brain and blood alcohol",
+            "ECG, blood glucose and serum paracetamol level",
+            "Full blood count, lipase and chest X-ray",
+            "Salicylate level only",
+            "Serum lithium, digoxin and iron levels"
+          ],
+          "answer": 1,
+          "explanation": "Australian toxicology practice recommends three **screening tests for all deliberate self-poisonings**: a **12-lead ECG** (to detect QRS widening from sodium channel blockers such as tricyclics, QT prolongation, and arrhythmias), a **blood glucose** (hypoglycaemia is common and treatable), and a **paracetamol level** (paracetamol is widely available, often co-ingested or undisclosed, initially asymptomatic, and treatable with an antidote). Other tests are guided by the risk assessment. Comprehensive urine drug screens rarely alter management and CT is not routine.",
+          "whyWrong": [
+            "Urine drug screens rarely change management and CT is not routine.",
+            "",
+            "These are not screening tests for poisoning.",
+            "Salicylate levels are targeted, not universal, and paracetamol is more important to screen.",
+            "Drug-specific levels are ordered only when the history suggests that agent."
+          ],
+          "tags": [
+            "toxicology",
+            "screening",
+            "self-poisoning"
+          ]
+        },
+        {
+          "id": "emergency-medicine--toxicology-approach-and-paracetamol--q3",
+          "discipline": "adult-medicine",
+          "topic": "emergency-medicine",
+          "difficulty": "exam",
+          "stem": "A 26-year-old woman is receiving IV acetylcysteine in an Adelaide hospital after a paracetamol overdose. Twenty minutes into the first infusion bag she develops flushing, an urticarial rash over her chest and mild wheeze. BP 118/72 mmHg, SpO2 97%.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Stop acetylcysteine permanently and document an allergy",
+            "Give IM adrenaline and switch to oral methionine",
+            "Continue the infusion unchanged",
+            "Stop acetylcysteine and use haemodialysis instead",
+            "Pause the infusion, give an antihistamine and salbutamol if needed, then restart"
+          ],
+          "answer": 4,
+          "explanation": "**Anaphylactoid reactions** (flushing, urticaria, occasionally wheeze or hypotension) are common during the high-concentration **first bag** of acetylcysteine. They are dose- and rate-related histamine release, not IgE-mediated allergy. Management: **pause the infusion**, treat symptoms (antihistamine, salbutamol for wheeze), then **restart**, often at a slower rate. Acetylcysteine should not be abandoned because the alternative is potentially fatal liver injury. Severe reactions with hypotension or airway involvement are treated as anaphylaxis. This is not a contraindication to future use.",
+          "whyWrong": [
+            "This is not a true allergy and stopping acetylcysteine risks liver failure.",
+            "Her reaction is mild without shock; oral methionine is not used in Australia.",
+            "Continuing without pausing may worsen the reaction.",
+            "Dialysis is not a substitute for acetylcysteine in this setting.",
+            ""
+          ],
+          "tags": [
+            "acetylcysteine",
+            "anaphylactoid",
+            "paracetamol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "emergency-medicine--common-poisonings-and-antidotes",
+      "title": "Common poisonings, toxidromes and antidotes",
+      "minutes": 18,
+      "objectives": [
+        "Recognise the common toxidromes and their causes",
+        "Treat tricyclic antidepressant poisoning with sodium bicarbonate",
+        "Distinguish serotonin syndrome from neuroleptic malignant syndrome and anticholinergic toxicity",
+        "Match common poisons to their specific antidotes",
+        "Manage alcohol withdrawal and prevent Wernicke encephalopathy"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Overview",
+          "body": "Most poisonings are managed supportively, but a handful have specific, life-saving treatments. The AMC tests whether you can recognise a **toxidrome** (a cluster of signs pointing to a drug class), identify a dangerous ECG, and choose the correct antidote. Australian favourites: tricyclic overdose, serotonin toxicity, opioid overdose, lithium toxicity, digoxin toxicity, organophosphates (farm workers), and alcohol withdrawal."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Toxidromes",
+          "body": "| Toxidrome | Features | Causes |\n|---|---|---|\n| **Opioid** | **Pinpoint pupils**, reduced consciousness, **respiratory depression** | Heroin, oxycodone, fentanyl, methadone |\n| **Sedative-hypnotic** | Drowsiness, normal pupils, relatively preserved vitals | Benzodiazepines, alcohol, GHB |\n| **Anticholinergic** | \"Hot as a hare, dry as a bone, red as a beet, blind as a bat, mad as a hatter\": **hyperthermia, dry skin, flushing, dilated pupils, delirium, urinary retention, tachycardia**, reduced bowel sounds | Antihistamines, tricyclics, antipsychotics, benztropine, datura |\n| **Sympathomimetic** | Agitation, **dilated pupils**, tachycardia, hypertension, hyperthermia, **sweating** (unlike anticholinergic) | Methamphetamine, MDMA, cocaine |\n| **Cholinergic** | **SLUDGE/DUMBELS** (salivation, lacrimation, urination, diarrhoea, bronchorrhoea, bradycardia, miosis), fasciculations, weakness | Organophosphate and carbamate insecticides |\n| **Serotonin toxicity** | Neuromuscular: **clonus** (inducible, ocular), hyperreflexia, tremor; autonomic: sweating, tachycardia, hyperthermia; mental: agitation | SSRIs, SNRIs, MAOIs, tramadol, linezolid, MDMA, in combination |\n\n**Serotonin toxicity vs neuroleptic malignant syndrome (NMS)**\n| | Serotonin toxicity | NMS |\n|---|---|---|\n| Drug | Serotonergic combination | Dopamine antagonist (antipsychotic) or stopping levodopa |\n| Onset | **Hours** | **Days** |\n| Neuromuscular | **Clonus, hyperreflexia** | **Lead-pipe rigidity, bradyreflexia** |\n| Pupils | Dilated | Normal |\n| Treatment | Stop drugs, benzodiazepines, cyproheptadine, cooling; intubate and paralyse if temperature over about 38.5 °C and rising | Stop drug, cooling, supportive, benzodiazepines; dantrolene or bromocriptine in severe cases |"
+        },
+        {
+          "kind": "investigations",
+          "heading": "The dangerous ECG",
+          "body": "- **Sodium channel blockade** (tricyclics, some antiarrhythmics, carbamazepine, propranolol, cocaine): **QRS widening over 100 ms** predicts seizures, and over 160 ms predicts ventricular arrhythmias; **terminal R wave in aVR** over 3 mm.\n- **Potassium channel blockade** (many antipsychotics, methadone, citalopram, macrolides): **QT prolongation** and risk of torsades de pointes.\n- **Digoxin**: bradyarrhythmias, heart block, \"reverse tick\" ST depression (therapeutic effect), and in toxicity any arrhythmia, classically bidirectional VT; **hyperkalaemia in acute toxicity** is a marker of severity.\n- **Beta blocker and calcium channel blocker**: bradycardia, heart block, hypotension."
+        },
+        {
+          "kind": "management",
+          "heading": "Specific poisonings and antidotes",
+          "body": "**Tricyclic antidepressants (TCAs)**: rapid deterioration within hours with sedation, anticholinergic signs, seizures, hypotension and wide QRS. Management: secure the airway, **intubate and hyperventilate** (alkalosis), **IV sodium bicarbonate 1 to 2 mmol/kg bolus** for QRS widening or arrhythmia, repeated to a pH around 7.5; benzodiazepines for seizures; charcoal once the airway is secured.\n\n**Opioids**: **naloxone** titrated to adequate breathing, not full wakefulness (IV 100 micrograms increments, or 400 micrograms IM). It lasts shorter than many opioids, so observe and re-dose; beware precipitating withdrawal. Australia offers **free take-home naloxone** without prescription.\n\n**Benzodiazepines**: supportive care (airway, breathing). **Flumazenil is generally avoided** because it can precipitate seizures (especially with TCA co-ingestion or benzodiazepine dependence).\n\n**Lithium**:\n- **Acute** overdose in a lithium-naive person: GI symptoms, relatively low risk.\n- **Chronic toxicity** (dehydration, renal decline, interacting drugs such as ACE inhibitors, diuretics, NSAIDs): **neurotoxicity** (coarse tremor, ataxia, confusion, seizures), which is more dangerous at lower levels.\n- No charcoal (not bound); IV fluids; whole bowel irrigation for large sustained-release ingestions; **haemodialysis** for severe neurotoxicity or renal failure.\n\n**Digoxin**: **digoxin-specific antibody fragments (Fab)** for life-threatening arrhythmias, hyperkalaemia in acute poisoning, or high levels with symptoms. Correct hypokalaemia and hypomagnesaemia in chronic toxicity.\n\n**Organophosphates**: decontaminate (remove clothes, wash skin; staff protection), **atropine** titrated to **dry chest secretions** (not heart rate or pupils), and supportive ventilation. Pralidoxime has limited evidence.\n\n**Other antidote pairs**\n| Poison | Antidote or key treatment |\n|---|---|\n| Paracetamol | Acetylcysteine |\n| Warfarin | Vitamin K, prothrombin complex concentrate (Prothrombinex-VF) |\n| Dabigatran | Idarucizumab |\n| Beta blockers, calcium channel blockers | High-dose insulin euglycaemic therapy, calcium, vasopressors |\n| Sulfonylurea hypoglycaemia | Glucose plus **octreotide** |\n| Iron | Desferrioxamine (charcoal ineffective) |\n| Methanol, ethylene glycol | Fomepizole (or ethanol), haemodialysis |\n| Carbon monoxide | 100% oxygen; hyperbaric oxygen in selected cases |\n| Cyanide (smoke inhalation) | Hydroxocobalamin |\n| Salicylates | Urinary alkalinisation, haemodialysis if severe |\n| Local anaesthetic systemic toxicity | Lipid emulsion |\n| Methaemoglobinaemia | Methylene blue |\n\n**Alcohol withdrawal**: begins 6 to 24 hours after the last drink; seizures typically within 48 hours; delirium tremens (confusion, hallucinations, autonomic instability) at 48 to 72 hours. Use a withdrawal scale (for example CIWA-Ar or the Alcohol Withdrawal Scale) to guide **diazepam** dosing. Give **thiamine before glucose** to every at-risk patient (IV or IM in suspected **Wernicke encephalopathy**: confusion, ataxia, ophthalmoplegia)."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- Drowsy, dilated pupils, dry skin, tachycardia, QRS 140 ms after an amitriptyline overdose: **IV sodium bicarbonate**.\n- Man on sertraline given tramadol, now agitated with inducible ankle clonus and sweating: **serotonin toxicity**.\n- Rigid, febrile patient 5 days after starting haloperidol with normal reflexes and CK 12,000: **NMS**.\n- Farmer with salivation, pinpoint pupils, bradycardia and wheeze: organophosphate, **atropine** until the chest is dry.\n- Elderly patient on lithium and a new ACE inhibitor with tremor and confusion: chronic lithium toxicity; fluids and consider dialysis.\n- Hypoglycaemia recurring after glucose in a sulfonylurea overdose: give **octreotide**."
+        }
+      ],
+      "keyPoints": [
+        "Anticholinergic: hot, dry, flushed, dilated pupils, delirium, retention; sympathomimetic: similar but sweaty.",
+        "Serotonin toxicity: rapid onset, clonus and hyperreflexia; NMS: days, lead-pipe rigidity, bradyreflexia.",
+        "TCA overdose: QRS over 100 ms; treat with sodium bicarbonate and hyperventilation.",
+        "Naloxone is titrated to breathing and may need repeating; flumazenil is generally avoided.",
+        "Chronic lithium toxicity is neurotoxic; no charcoal; fluids and haemodialysis if severe.",
+        "Digoxin Fab for life-threatening digoxin toxicity; atropine titrated to dry secretions in organophosphate poisoning.",
+        "Alcohol withdrawal: diazepam guided by a scale, and thiamine before glucose."
+      ],
+      "redFlags": [
+        "QRS over 100 ms after an overdose",
+        "Temperature over 38.5 °C with rigidity or clonus",
+        "Seizures after a tricyclic or tramadol overdose",
+        "Confusion, ataxia and eye movement abnormalities in a heavy drinker (Wernicke encephalopathy)",
+        "Recurrent hypoglycaemia after sulfonylurea ingestion"
+      ],
+      "contrast": [
+        {
+          "aspect": "Organophosphates",
+          "india": "A leading cause of poisoning deaths; managed daily.",
+          "australia": "Much less common (occupational or accidental); atropine titrated to dry secretions."
+        },
+        {
+          "aspect": "Opioid overdose prevention",
+          "india": "Naloxone rarely available in the community.",
+          "australia": "Free take-home naloxone available nationally without a prescription."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Treatment of TCA-induced QRS widening?",
+          "back": "IV sodium bicarbonate 1-2 mmol/kg bolus plus hyperventilation."
+        },
+        {
+          "front": "Key examination sign of serotonin toxicity?",
+          "back": "Clonus (inducible, ocular) with hyperreflexia."
+        },
+        {
+          "front": "Atropine end-point in organophosphate poisoning?",
+          "back": "Drying of chest secretions."
+        },
+        {
+          "front": "Antidote for sulfonylurea-induced recurrent hypoglycaemia?",
+          "back": "Octreotide (with glucose)."
+        },
+        {
+          "front": "Why is flumazenil generally avoided?",
+          "back": "It can precipitate seizures, especially with TCA co-ingestion or dependence."
+        },
+        {
+          "front": "Give what before glucose in malnourished drinkers?",
+          "back": "Thiamine."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "emergency-medicine--common-poisonings-and-antidotes--q1",
+          "discipline": "adult-medicine",
+          "topic": "emergency-medicine",
+          "difficulty": "core",
+          "stem": "A 28-year-old woman is brought to a Wollongong emergency department 2 hours after ingesting 30 tablets of amitriptyline 25 mg. She is drowsy (GCS 11), her pupils are dilated, skin is dry and flushed, HR 128 bpm, BP 92/54 mmHg. ECG shows sinus tachycardia with QRS duration 136 ms and a prominent terminal R wave in aVR.\n\nWhat is the most appropriate specific treatment?",
+          "options": [
+            "IV flumazenil",
+            "IV sodium bicarbonate",
+            "IV amiodarone",
+            "IV physostigmine",
+            "Oral activated charcoal before intubation"
+          ],
+          "answer": 1,
+          "explanation": "Tricyclic antidepressants block cardiac **fast sodium channels**, causing **QRS widening** and a terminal R wave in aVR, plus anticholinergic features, seizures and hypotension. A QRS over 100 ms predicts seizures and over 160 ms ventricular arrhythmias. Treatment is **IV sodium bicarbonate** (1 to 2 mmol/kg boluses, repeated to a pH around 7.5), which provides sodium load and alkalinisation, plus early **intubation and hyperventilation** given her falling GCS. Charcoal should only follow once the airway is secured.",
+          "whyWrong": [
+            "Flumazenil can precipitate seizures, especially with tricyclic co-ingestion.",
+            "",
+            "Amiodarone can worsen sodium channel toxicity and hypotension.",
+            "Physostigmine is contraindicated in TCA poisoning because of arrhythmia risk.",
+            "Charcoal in a drowsy patient without a protected airway risks aspiration."
+          ],
+          "tags": [
+            "tricyclic",
+            "sodium bicarbonate",
+            "ecg"
+          ]
+        },
+        {
+          "id": "emergency-medicine--common-poisonings-and-antidotes--q2",
+          "discipline": "adult-medicine",
+          "topic": "emergency-medicine",
+          "difficulty": "exam",
+          "stem": "A 45-year-old man on sertraline 150 mg daily for depression was prescribed tramadol for back pain 2 days ago. He presents to a Brisbane emergency department agitated and sweating. Temperature 38.3 °C, HR 118 bpm, BP 156/94 mmHg. Pupils are dilated. He has tremor, brisk reflexes, and sustained inducible ankle clonus that is more marked in the legs.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Neuroleptic malignant syndrome",
+            "Anticholinergic toxicity",
+            "Malignant hyperthermia",
+            "Alcohol withdrawal",
+            "Serotonin toxicity"
+          ],
+          "answer": 4,
+          "explanation": "The rapid onset after combining two serotonergic drugs (**sertraline plus tramadol**) with **inducible clonus**, hyperreflexia (worse in the legs), tremor, agitation, sweating, mydriasis and mild hyperthermia meets the **Hunter criteria for serotonin toxicity**. Treatment: stop the serotonergic drugs, give benzodiazepines for agitation, consider cyproheptadine, and actively cool. Temperature over about 38.5 °C and rising signals severe toxicity requiring intubation and paralysis. NMS develops over days with rigidity and bradyreflexia; anticholinergic toxicity causes dry skin.",
+          "whyWrong": [
+            "NMS follows antipsychotics over days with lead-pipe rigidity and reduced reflexes.",
+            "Anticholinergic toxicity causes dry skin and no clonus.",
+            "Malignant hyperthermia follows volatile anaesthetics or suxamethonium.",
+            "There is no alcohol history, and clonus with serotonergic drugs points elsewhere.",
+            ""
+          ],
+          "ausPearl": "Tramadol is a common cause of serotonin toxicity in Australia when combined with SSRIs or SNRIs, and also lowers the seizure threshold.",
+          "tags": [
+            "serotonin toxicity",
+            "tramadol",
+            "ssri"
+          ]
+        },
+        {
+          "id": "emergency-medicine--common-poisonings-and-antidotes--q3",
+          "discipline": "adult-medicine",
+          "topic": "emergency-medicine",
+          "difficulty": "foundation",
+          "stem": "A 34-year-old man is found unresponsive in a public toilet in Melbourne with a syringe nearby. RR 6/min, SpO2 82% on room air, pupils pinpoint, GCS 5. Paramedics are ventilating him with a bag-valve-mask.\n\nWhat is the most appropriate drug to give?",
+          "options": [
+            "Flumazenil",
+            "Atropine",
+            "Adrenaline",
+            "Naloxone",
+            "Sodium bicarbonate"
+          ],
+          "answer": 3,
+          "explanation": "Reduced consciousness, **respiratory depression** and **pinpoint pupils** form the **opioid toxidrome**, almost certainly from injected heroin or fentanyl. After supporting ventilation, give **naloxone**, titrated to adequate breathing rather than full arousal (for example IV 100 microgram increments or 400 micrograms IM) to avoid precipitating acute withdrawal and agitation. Naloxone's effect may wear off before the opioid's, so observe and repeat as needed. On discharge, offer take-home naloxone, harm reduction advice and referral for opioid treatment.",
+          "whyWrong": [
+            "Flumazenil reverses benzodiazepines and risks seizures.",
+            "Atropine treats cholinergic poisoning or bradycardia.",
+            "Adrenaline is for anaphylaxis or cardiac arrest.",
+            "",
+            "Bicarbonate is for sodium channel blocker toxicity."
+          ],
+          "tags": [
+            "opioid",
+            "naloxone",
+            "toxidrome"
+          ]
+        },
+        {
+          "id": "emergency-medicine--common-poisonings-and-antidotes--q4",
+          "discipline": "adult-medicine",
+          "topic": "emergency-medicine",
+          "difficulty": "core",
+          "stem": "A 76-year-old woman on long-term lithium for bipolar disorder presents to a Townsville hospital with a week of coarse tremor, unsteadiness and increasing confusion. Her GP started her on perindopril and hydrochlorothiazide a month ago and she has had diarrhoea for 3 days. Serum lithium is 2.4 mmol/L and creatinine has risen from 90 to 160 µmol/L.\n\nWhat is the most appropriate treatment?",
+          "options": [
+            "Activated charcoal 50 g",
+            "Increase lithium to stabilise mood",
+            "Oral sodium polystyrene sulfonate",
+            "IV frusemide to increase lithium excretion",
+            "Stop lithium, give IV fluids and discuss urgent haemodialysis"
+          ],
+          "answer": 4,
+          "explanation": "This is **chronic lithium toxicity**, precipitated by an **ACE inhibitor and thiazide** (both reduce lithium clearance) plus dehydration from diarrhoea causing AKI. Chronic toxicity causes **neurotoxicity** (coarse tremor, ataxia, confusion, seizures) at lower levels than acute overdose and carries a risk of permanent cerebellar damage. Management: stop lithium and the interacting drugs, **IV fluids** to restore renal clearance, and **haemodialysis** for severe neurological features or renal impairment, as here. Charcoal does not bind lithium, and diuretics worsen toxicity.",
+          "whyWrong": [
+            "Lithium is not bound by activated charcoal.",
+            "Increasing lithium would worsen life-threatening toxicity.",
+            "Resins are not standard treatment and will not act quickly enough.",
+            "Diuretics reduce lithium clearance and worsen dehydration.",
+            ""
+          ],
+          "tags": [
+            "lithium",
+            "toxicity",
+            "interaction"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "emergency-medicine--envenomation",
+      "title": "Australian envenomation: snakes, spiders and marine stings",
+      "minutes": 20,
+      "objectives": [
+        "Apply a pressure immobilisation bandage correctly and know when not to",
+        "Investigate suspected snakebite with serial bloods and recognise envenomation syndromes",
+        "Choose antivenom and manage its complications",
+        "Manage funnel-web, redback, box jellyfish, Irukandji, bluebottle, stonefish and blue-ringed octopus injuries",
+        "Manage tick bites and bat exposures"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why envenomation is high-yield",
+          "body": "Australia has some of the most venomous snakes in the world, yet deaths are rare (a few a year) because of good first aid, antivenom and retrieval systems. **Brown snakes** cause most deaths. Envenomation is uniquely Australian in exam terms and nothing like Indian big-four snakebite practice: **no tourniquets, no cutting, no washing the bite**. The answer to almost every snakebite first-aid question is **pressure immobilisation**. Advice: Poisons Information Centre **13 11 26**, and clinical toxicologists."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Venom effects",
+          "body": "**Snakes** (terrestrial elapids: brown, tiger, taipan, black snake, death adder; also sea snakes) can cause:\n| Syndrome | Features | Typical snakes |\n|---|---|---|\n| **Venom-induced consumption coagulopathy (VICC)** | Prolonged INR and APTT, very low fibrinogen, very high D-dimer; bleeding from bite or cannula sites, haemorrhage | Brown, tiger, taipan, rough-scaled snake |\n| **Neurotoxicity** | Descending flaccid paralysis: **ptosis first**, diplopia, bulbar palsy, then respiratory failure | Taipan, tiger, death adder |\n| **Myotoxicity** | Muscle pain, **rising CK**, myoglobinuria, AKI | Black snakes, tiger, sea snakes |\n| **Thrombotic microangiopathy** | Haemolysis, thrombocytopenia, AKI | Brown snakes especially |\n| Collapse, seizures | Early after bite, often brown snake | Brown |\n\nVenom travels via **lymphatics**, which is why compressing lymphatics and keeping the limb still (pressure immobilisation) slows its spread. Bites are often painless and fang marks may be invisible."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Spiders, marine creatures and ticks",
+          "body": "- **Funnel-web spider** (Sydney and east coast NSW, southern Queensland): large black spider; venom causes an **autonomic storm**: perioral tingling, tongue fasciculation, **sweating, salivation, lacrimation, piloerection**, hypertension, tachycardia, then pulmonary oedema and collapse. Treat any big black spider bite in these areas as funnel-web.\n- **Redback spider** (throughout Australia): **local pain that increases and spreads** over hours, localised sweating, then regional or systemic pain, nausea, malaise, hypertension. Rarely life-threatening.\n- **Box jellyfish** (*Chironex fleckeri*), in tropical northern waters, mainly in the warmer months: immediate **severe pain**, **frosted ladder-pattern welts**, and **cardiac arrest within minutes** in major stings.\n- **Irukandji syndrome** (small jellyfish such as *Carukia barnesi*, tropical waters): a minor sting, then **20 to 40 minutes later severe back, chest and abdominal pain**, sweating, agitation, **hypertension and tachycardia**; occasionally cardiomyopathy and pulmonary oedema.\n- **Bluebottle** (*Physalia*), common on eastern and southern beaches: painful linear welts, rarely systemic.\n- **Stonefish**: stepping on dorsal spines in shallow tropical water; **excruciating pain** and swelling.\n- **Blue-ringed octopus** and **cone snails**: tetrodotoxin or conotoxins cause **painless** bites then **rapid flaccid paralysis and respiratory failure** with preserved consciousness.\n- **Paralysis tick** (*Ixodes holocyclus*, east coast): ascending paralysis in children, **tick anaphylaxis**, and **mammalian meat allergy** (alpha-gal).\n- **Bats** (flying foxes, microbats) may carry **Australian bat lyssavirus**, clinically identical to rabies and fatal once symptomatic."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Snakebite investigations",
+          "body": "- Bloods at presentation: **INR, APTT, fibrinogen, D-dimer, FBC (platelets, film for fragments), CK, UEC**, plus urinalysis for myoglobin or blood.\n- **Serial bloods**: repeat about **1 hour after the bandage is removed**, and again around **6 hours and 12 hours after the bite**. A patient should be observed at least 12 hours (usually overnight) before envenomation is excluded.\n- Serial neurological examination (ptosis, eye movements, bulbar function, peak flow).\n- **20-minute whole blood clotting test** where laboratory tests are unavailable (rural hospitals): blood in a clean glass tube that has not clotted at 20 minutes suggests coagulopathy.\n- **Snake venom detection kit (SVDK)**: a swab of the bite site can suggest which antivenom to use in some settings, but a positive result **does not mean envenomation** and a negative one does not exclude it. Many clinicians now choose antivenom by geography and clinical syndrome. **Envenomation is diagnosed by clinical features and blood tests**, not the SVDK."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Snakebite first aid**\n1. Call **000**. Keep the patient **still and calm**; do not let them walk.\n2. **Pressure immobilisation bandage (PIB)**: a broad elastic bandage (about 10 to 15 cm) applied **firmly over the bite**, then **from the fingers or toes up the entire limb** as tightly as for a sprained ankle, then **splint** the limb. Mark the bite site on the bandage.\n3. **Do not wash the bite** (venom on skin may help identification). **Do not** use tourniquets, cut, suck or apply ice.\n4. For bites on the trunk or face, apply firm pressure if possible and keep the patient still.\n5. Leave the bandage on until the patient is in a hospital with antivenom and bloods can be taken; it is removed once there is no evidence of envenomation or after antivenom has been given.\n\n**Hospital management**\n- **Antivenom** if there is **evidence of systemic envenomation** (abnormal clotting, neurotoxicity, myotoxicity, collapse), **not** for a bite alone.\n- Choose **monovalent** antivenom based on the snake (identified by geography, clinical syndrome and sometimes SVDK) or **polyvalent** or combined brown and tiger antivenom when the snake is unknown.\n- **One vial** of the appropriate antivenom is usually enough to neutralise circulating venom; coagulopathy then recovers over hours as clotting factors are regenerated, so persistent abnormal INR does not mean more antivenom is needed.\n- Give antivenom IV, diluted, in a resuscitation area with **adrenaline ready** (anaphylaxis risk); routine premedication is not recommended.\n- Warn about **serum sickness** 4 to 14 days later (fever, rash, arthralgia); treat with steroids.\n- Supportive: ventilation for paralysis (neurotoxicity already established is poorly reversed by antivenom), fluids for rhabdomyolysis, dialysis for AKI, **tetanus** prophylaxis. Avoid IM injections and invasive procedures in coagulopathy.\n\n**Spiders**\n- **Funnel-web**: **pressure immobilisation bandage**, urgent hospital transfer, **funnel-web antivenom** for systemic envenomation (with atropine for secretions if needed).\n- **Redback**: **no pressure bandage** (venom spreads slowly and pressure increases pain); apply **ice**, give oral analgesia, seek care if systemic. Redback antivenom has shown little benefit in trials and is now rarely used; discuss with a toxicologist.\n- Most other spider bites (including white-tailed spiders) cause only local reactions.\n\n**Marine**\n| Creature | First aid |\n|---|---|\n| **Box jellyfish** | Remove from water, call 000, **CPR** if needed; **douse with vinegar for at least 30 seconds** to inactivate undischarged stinging cells; then remove tentacles; ice for pain; **box jellyfish antivenom** in hospital for severe cases |\n| **Irukandji** | **Vinegar**; hospital for opioid analgesia, antihypertensives, cardiac monitoring |\n| **Bluebottle** | Pick off tentacles, rinse with seawater, **hot water immersion** (as hot as comfortable, about 45 °C, for 20 minutes) or ice; **not vinegar** |\n| **Stonefish, stingray, other spiny fish** | **Hot water immersion** for pain; stonefish antivenom for severe pain; X-ray and remove retained spines; tetanus and wound care |\n| **Blue-ringed octopus, cone snail** | **Pressure immobilisation bandage**, prolonged **ventilation** (no antivenom; patients may be aware but paralysed) |\n\n**Ticks**: in areas with tick allergy, **kill the tick in place** by freezing it with an ether-containing spray (**\"freeze it, don't squeeze it\"**) and let it drop off or remove it carefully; people with tick anaphylaxis should seek medical help to remove it.\n\n**Bat bite or scratch**: **wash the wound immediately with soap and water for 15 minutes**, apply antiseptic, then urgent **post-exposure prophylaxis** (rabies vaccine plus rabies immunoglobulin if not previously vaccinated) arranged with the public health unit. Only vaccinated, trained people should handle bats."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- Snakebite first aid is **PIB and immobilisation**; tourniquet, washing, cutting and suction are always wrong.\n- Brown snake bite with normal bloods at arrival: observe with repeat bloods (post-bandage removal, 6 and 12 hours) before discharge.\n- Snakebite with INR over 10 and unrecordable fibrinogen: VICC, give **one vial** of antivenom.\n- Ptosis after a snakebite: neurotoxicity, give antivenom and prepare for airway support.\n- Big black spider in Sydney: PIB and funnel-web antivenom. Redback: ice, analgesia, **no PIB**.\n- Tropical beach sting: **vinegar**. Southern beach bluebottle: **hot water**.\n- Painless bite from a small octopus with rings, then weakness: ventilation."
+        }
+      ],
+      "keyPoints": [
+        "Snakebite first aid: call 000, pressure immobilisation bandage over bite and whole limb, splint, keep still.",
+        "Do not wash, cut, suck or use a tourniquet.",
+        "Serial bloods (INR, APTT, fibrinogen, D-dimer, FBC, CK, UEC) over at least 12 hours.",
+        "Antivenom only for systemic envenomation; one vial usually suffices; watch for anaphylaxis and serum sickness.",
+        "Funnel-web: PIB and antivenom. Redback: no PIB, ice and analgesia.",
+        "Box jellyfish and Irukandji: vinegar and CPR if needed. Bluebottle: hot water, not vinegar.",
+        "Blue-ringed octopus: PIB and ventilation. Bat bites: wash 15 minutes and post-exposure prophylaxis."
+      ],
+      "redFlags": [
+        "Collapse or seizure after a snakebite",
+        "Ptosis, diplopia or difficulty swallowing after a bite",
+        "Bleeding from cannula sites or gums (VICC)",
+        "Dark urine and rising CK (myotoxicity)",
+        "Sweating, salivation and piloerection after a spider bite (funnel-web)",
+        "Severe back pain and hypertension after a tropical sting (Irukandji)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Snakebite first aid",
+          "india": "Tourniquets, incisions and suction still seen; polyvalent ASV for the big four snakes.",
+          "australia": "Pressure immobilisation bandage and splint; no tourniquet, no washing; specific antivenom only if envenomed."
+        },
+        {
+          "aspect": "Antivenom dosing",
+          "india": "Multiple vials often given, repeated for persistent coagulopathy.",
+          "australia": "One vial of the appropriate antivenom usually sufficient; clotting recovers over hours."
+        },
+        {
+          "aspect": "Marine envenomation",
+          "india": "Rarely encountered.",
+          "australia": "Vinegar for tropical box jellyfish and Irukandji; hot water for bluebottles and stonefish."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Snakebite first aid?",
+          "back": "Pressure immobilisation bandage over bite then whole limb, splint, keep still, call 000."
+        },
+        {
+          "front": "Blood picture of venom-induced consumption coagulopathy?",
+          "back": "High INR/APTT, very low fibrinogen, very high D-dimer."
+        },
+        {
+          "front": "Redback spider bite first aid?",
+          "back": "Ice and analgesia; no pressure bandage."
+        },
+        {
+          "front": "Box jellyfish first aid?",
+          "back": "Vinegar for at least 30 seconds, CPR if needed, call 000."
+        },
+        {
+          "front": "Bluebottle sting first aid?",
+          "back": "Remove tentacles, rinse with seawater, hot water immersion (about 45 °C for 20 minutes)."
+        },
+        {
+          "front": "First aid for a bat bite?",
+          "back": "Wash with soap and water for 15 minutes, antiseptic, urgent rabies post-exposure prophylaxis."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "emergency-medicine--envenomation--q1",
+          "discipline": "adult-medicine",
+          "topic": "emergency-medicine",
+          "difficulty": "foundation",
+          "stem": "A 42-year-old man is bitten on the left ankle by a brown snake while gardening near Dubbo. His wife calls 000. He is alert and well, with two small puncture marks. The ambulance is 20 minutes away.\n\nWhat is the most appropriate first aid while waiting?",
+          "options": [
+            "Wash the bite thoroughly with soap and water",
+            "Apply a tight tourniquet above the knee",
+            "Apply a pressure immobilisation bandage over the bite and the whole leg, splint it and keep him still",
+            "Cut the wound and suck out the venom",
+            "Apply ice and walk him to the car to meet the ambulance"
+          ],
+          "answer": 2,
+          "explanation": "Australian snakebite first aid is the **pressure immobilisation bandage**: a broad elastic bandage applied firmly over the bite, then from the toes up the entire limb (as firm as for a sprain), a **splint**, and **keeping the patient completely still**. This compresses lymphatics and slows venom movement until he reaches hospital, where bloods determine whether he is envenomed. **Do not wash the bite**, and never use tourniquets, cutting or suction, all of which are harmful. Walking increases lymphatic flow.",
+          "whyWrong": [
+            "Washing removes venom that may help identification and does not help the patient.",
+            "Tourniquets cause ischaemia and are not recommended.",
+            "",
+            "Cutting and suction cause harm and do not remove venom.",
+            "Walking speeds venom spread; ice is not part of snakebite first aid."
+          ],
+          "tags": [
+            "snakebite",
+            "pressure immobilisation",
+            "first aid"
+          ]
+        },
+        {
+          "id": "emergency-medicine--envenomation--q2",
+          "discipline": "adult-medicine",
+          "topic": "emergency-medicine",
+          "difficulty": "core",
+          "stem": "A 29-year-old woman arrives at a regional Victorian hospital 2 hours after an unidentified snake bit her hand. A pressure immobilisation bandage is in place. She has a headache and nausea. Bloods: INR over 12, APTT over 150 s, fibrinogen under 0.2 g/L, D-dimer markedly raised, platelets 180 x 10^9/L, CK normal. There is oozing from her cannula site.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Give one vial of antivenom appropriate for snakes of that region (for example brown and tiger snake antivenom), IV, with adrenaline ready",
+            "Remove the bandage and repeat bloods in 6 hours before deciding",
+            "Give 10 vials of polyvalent antivenom",
+            "Give fresh frozen plasma and cryoprecipitate alone",
+            "Wait for a snake venom detection kit result before giving any treatment"
+          ],
+          "answer": 0,
+          "explanation": "Very high INR and APTT, unrecordable fibrinogen and high D-dimer with bleeding indicate **venom-induced consumption coagulopathy**, meaning **systemic envenomation**: antivenom is indicated. With the snake unknown, choose antivenom covering the likely snakes in the region (in south-eastern Australia, brown and tiger snake, or polyvalent). **One vial** is usually enough to neutralise circulating venom. Clotting recovers over hours as factors regenerate, so persistently abnormal results do not mean more antivenom is needed. Give it IV in a monitored area with **adrenaline ready** for anaphylaxis, and warn about serum sickness.",
+          "whyWrong": [
+            "",
+            "She is already envenomed; delaying antivenom is inappropriate.",
+            "Large doses are not needed; one vial neutralises circulating venom.",
+            "Factor replacement without antivenom is consumed by active venom.",
+            "The SVDK does not diagnose envenomation; the bloods already show it."
+          ],
+          "tags": [
+            "snakebite",
+            "antivenom",
+            "coagulopathy"
+          ]
+        },
+        {
+          "id": "emergency-medicine--envenomation--q3",
+          "discipline": "adult-medicine",
+          "topic": "emergency-medicine",
+          "difficulty": "exam",
+          "stem": "A 35-year-old man is stung while swimming at a beach near Cairns in January. Within 30 minutes of a minor sting on his forearm he develops severe lower back and abdominal pain, sweating, restlessness and a feeling of impending doom. HR 124 bpm, BP 190/110 mmHg. There are no visible tentacle marks apart from a small red area.\n\nWhat is the most likely cause?",
+          "options": [
+            "Box jellyfish (Chironex fleckeri) sting",
+            "Bluebottle sting",
+            "Stonefish injury",
+            "Irukandji syndrome",
+            "Blue-ringed octopus bite"
+          ],
+          "answer": 3,
+          "explanation": "A trivial sting in **tropical waters** followed **20 to 40 minutes later** by severe back and abdominal pain, sweating, agitation, **hypertension and tachycardia** is **Irukandji syndrome**, caused by small box jellyfish such as *Carukia barnesi*. It results from catecholamine release and can lead to cardiomyopathy and pulmonary oedema. First aid is **vinegar**; hospital treatment includes titrated IV opioid analgesia, antihypertensive control and cardiac monitoring (troponin, echo). *Chironex* stings cause immediate severe pain, frosted ladder-pattern welts and possible early cardiac arrest.",
+          "whyWrong": [
+            "Chironex causes immediate severe pain with extensive whip-like welts.",
+            "Bluebottles cause local painful welts, rarely systemic features.",
+            "Stonefish injuries occur from stepping on spines and cause intense local pain.",
+            "",
+            "Blue-ringed octopus bites are painless and cause flaccid paralysis."
+          ],
+          "tags": [
+            "irukandji",
+            "marine",
+            "envenomation"
+          ]
+        },
+        {
+          "id": "emergency-medicine--envenomation--q4",
+          "discipline": "adult-medicine",
+          "topic": "emergency-medicine",
+          "difficulty": "core",
+          "stem": "A 26-year-old woman in Sydney's northern suburbs is bitten on the hand by a large black spider that fell from her shoe. Twenty minutes later she has tingling around her mouth, profuse sweating, drooling, watery eyes and twitching of her tongue. HR 130 bpm, BP 180/100 mmHg.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Ice pack and oral paracetamol",
+            "Pressure immobilisation bandage and funnel-web spider antivenom",
+            "Wash the bite and give oral antihistamine",
+            "Redback spider antivenom IM",
+            "Reassure and discharge"
+          ],
+          "answer": 1,
+          "explanation": "A bite from a large black spider in the Sydney region followed by **perioral tingling, tongue fasciculations, sweating, salivation, lacrimation, hypertension and tachycardia** indicates severe **funnel-web spider envenomation**, a life-threatening autonomic storm that can progress to pulmonary oedema and collapse. Apply a **pressure immobilisation bandage** (as for snakebite) and transfer urgently for **funnel-web antivenom**, with supportive care including airway management and atropine for secretions if needed. Redback bites cause slowly spreading local pain and are managed with ice and analgesia without pressure bandaging.",
+          "whyWrong": [
+            "Ice and simple analgesia are for redback bites, not systemic funnel-web envenomation.",
+            "",
+            "Washing and antihistamines do not treat funnel-web venom.",
+            "Redback antivenom does not neutralise funnel-web venom.",
+            "She is severely envenomed and at risk of death."
+          ],
+          "tags": [
+            "funnel-web",
+            "spider",
+            "antivenom"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "emergency-medicine--environmental-emergencies",
+      "title": "Heat, cold, drowning, diving and burns first aid",
+      "minutes": 15,
+      "objectives": [
+        "Distinguish heat exhaustion from heat stroke and cool patients rapidly",
+        "Stage and rewarm hypothermia and adjust resuscitation",
+        "Manage drowning with a focus on oxygenation",
+        "Recognise decompression illness and give correct burns first aid"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Overview",
+          "body": "Australia's climate and lifestyle produce a distinctive set of environmental emergencies: **heatwaves** (which kill more Australians than any other natural hazard), **drowning** (a leading cause of accidental death in young children, with backyard pools a major risk), **scuba diving injuries** on the Great Barrier Reef and elsewhere, burns from bushfires and scalds, and hypothermia in alpine areas, cold water and among older people at home."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Mechanisms",
+          "body": "- **Heat illness**: heat gain (environment, exertion) exceeds heat loss (sweating, vasodilation). Risk: older age, infants, chronic illness, obesity, dehydration, **drugs** (anticholinergics, antipsychotics, diuretics, beta blockers, stimulants such as MDMA and methamphetamine), alcohol, poor housing. **Heat stroke** is a systemic inflammatory response with multi-organ failure (rhabdomyolysis, DIC, AKI, liver failure).\n- **Hypothermia**: core temperature under 35 °C. The cold myocardium becomes irritable, so rough handling can trigger VF; drugs and cardiac arrest respond poorly when very cold.\n- **Drowning**: aspiration and laryngospasm cause **hypoxia**, which is the cause of cardiac arrest. Fresh versus salt water makes no practical difference.\n- **Decompression illness**: dissolved nitrogen forms bubbles on ascent (decompression sickness), or lung overexpansion forces gas into arteries (arterial gas embolism)."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "| Condition | Features |\n|---|---|\n| **Heat exhaustion** | Core temperature usually under 40 °C, fatigue, headache, nausea, dizziness, sweating; **normal mental state** |\n| **Heat stroke** | Core temperature usually **over 40 °C** with **CNS dysfunction** (confusion, seizures, coma); may still be sweating in exertional heat stroke |\n| **Mild hypothermia** (32 to 35 °C) | Shivering, tachycardia, confusion, poor coordination |\n| **Moderate** (28 to 32 °C) | Shivering stops, drowsiness, bradycardia, **J (Osborn) waves** on ECG, AF |\n| **Severe** (under 28 °C) | Coma, fixed pupils, very slow or absent pulse, VF or asystole |\n| **Decompression sickness** | Minutes to hours after diving: joint pain (\"the bends\"), skin mottling, fatigue, spinal cord symptoms (paraesthesia, weakness, urinary retention) |\n| **Arterial gas embolism** | Within minutes of surfacing: stroke-like symptoms, loss of consciousness |\n\nDrowning victims may seem well initially but deteriorate over hours from pulmonary oedema; cough, breathlessness, crackles or low saturations mean admission."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Heat illness**\n- Heat exhaustion: rest in a cool place, oral or IV fluids, remove excess clothing.\n- **Heat stroke is a time-critical emergency: \"cool first, transport second.\"** Rapidly cool to about 39 °C: **cold or ice water immersion** is the most effective method for exertional heat stroke (for example at sporting events); otherwise evaporative cooling (strip, spray with water, fan), ice packs to groin and axillae, cooled IV fluids. Monitor for rhabdomyolysis, DIC, hypoglycaemia and AKI. **Antipyretics do not work** in heat stroke.\n- Prevention in heatwaves: check on older people living alone, hydration, cool spaces, review drugs. Also watch for **exercise-associated hyponatraemia** in endurance events and MDMA users (confusion with low sodium; avoid giving large volumes of hypotonic fluid).\n\n**Hypothermia**\n- Handle gently, keep horizontal, remove wet clothing, insulate.\n- Mild: **passive rewarming** (blankets) and warm sweet drinks if alert.\n- Moderate to severe: **active external rewarming** (forced-air warming) and warmed IV fluids; severe cases with arrest may need extracorporeal rewarming (ECMO or bypass).\n- **Cardiac arrest**: CPR as usual; **ANZCOR advises modifying drugs and shocks when very cold** (for example withholding adrenaline and limiting shocks below 30 °C, and extending drug intervals until normothermia approaches). Prolonged resuscitation may be appropriate: \"**not dead until warm and dead**\".\n\n**Drowning**\n- Remove from water safely. **Oxygenation and ventilation are the priority** because hypoxia is the cause of arrest; start CPR with breaths as per ANZCOR drowning guidance.\n- Spinal precautions only if there is a history of diving into shallow water or trauma.\n- Give oxygen, treat hypothermia, and **observe for at least several hours** (commonly 4 to 6) even if the patient looks well; admit if there are respiratory signs or low saturations.\n- Prevention: **pool fencing laws** (mandatory in all states, specifics vary), supervision of children, swimming lessons, CPR training.\n\n**Diving injuries**\n- **100% oxygen** by non-rebreather mask, lie flat, IV or oral fluids, and urgent **recompression in a hyperbaric chamber**. Contact the **Divers Emergency Service** hotline (DAN) for advice and transfer.\n- Aeromedical transfer at low cabin altitude; no flying for recreational travel after diving until cleared.\n\n**Burns first aid (Australian standard)**\n- Stop the burning, remove clothing and jewellery (unless stuck).\n- **Cool running water for 20 minutes**, effective up to 3 hours after the burn. **No ice, butter, toothpaste or creams.**\n- Cover loosely with cling film; keep the patient warm (avoid hypothermia).\n- Estimate size by the rule of nines or the patient's palm (about 1% TBSA). Adults with over 20% TBSA (children over 10%) need formal fluid resuscitation and burns unit referral, as do burns to face, hands, feet, genitals or joints, full-thickness, circumferential, electrical, chemical or inhalational burns.\n\n**Electrical injury**: ECG and cardiac monitoring (high voltage or symptoms), CK and urine myoglobin; high-voltage injuries can cause deep muscle damage and compartment syndrome with minimal skin injury."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- Confused marathon runner with temperature 41.2 °C: **ice water immersion on site**, before transport.\n- Confused runner with a normal temperature and sodium of 121 mmol/L: exercise-associated hyponatraemia; do not give large volumes of hypotonic fluid.\n- Hypothermic patient in VF at 27 °C: CPR, limited shocks, withhold adrenaline until warmer, active rewarming.\n- Child pulled from a pool who is now well but coughing: observe for hours; secondary deterioration can occur.\n- Diver with joint pain and leg tingling after a reef dive: 100% oxygen and recompression.\n- Burn first aid: 20 minutes of cool running water, even if presenting up to 3 hours later."
+        }
+      ],
+      "keyPoints": [
+        "Heat stroke: core over 40 °C with CNS dysfunction; cool first (ice water immersion), transport second.",
+        "Antipyretics are useless in heat stroke; review anticholinergics, diuretics and stimulants.",
+        "Hypothermia: handle gently; passive then active rewarming; modify drugs and shocks when very cold.",
+        "Drowning: hypoxia causes arrest, so prioritise oxygenation and ventilation; observe even if well.",
+        "Decompression illness: 100% oxygen, lie flat, hyperbaric recompression.",
+        "Burns: cool running water for 20 minutes, effective up to 3 hours; no ice or creams."
+      ],
+      "redFlags": [
+        "Confusion or seizures with high body temperature",
+        "Core temperature under 28 °C or cardiac arrest in hypothermia",
+        "Respiratory symptoms or low SpO2 after immersion",
+        "Neurological symptoms after scuba diving",
+        "Burns to face, hands, genitals, circumferential, electrical or inhalational burns"
+      ],
+      "contrast": [
+        {
+          "aspect": "Burns first aid",
+          "india": "Traditional remedies such as toothpaste, oil or ice are common.",
+          "australia": "Cool running water for 20 minutes within 3 hours; cling film; nothing else on the burn."
+        },
+        {
+          "aspect": "Drowning prevention",
+          "india": "Open water drowning in rural areas; little regulation.",
+          "australia": "Mandatory pool fencing laws, supervision campaigns and school swimming programs."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Most effective cooling for exertional heat stroke?",
+          "back": "Cold or ice water immersion."
+        },
+        {
+          "front": "Burns first aid duration and time window?",
+          "back": "Cool running water for 20 minutes, effective up to 3 hours after injury."
+        },
+        {
+          "front": "ECG sign in moderate hypothermia?",
+          "back": "J (Osborn) waves."
+        },
+        {
+          "front": "Treatment of decompression sickness?",
+          "back": "100% oxygen, lie flat, hyperbaric recompression."
+        },
+        {
+          "front": "Main cause of cardiac arrest in drowning?",
+          "back": "Hypoxia."
+        },
+        {
+          "front": "Temperature and mental state defining heat stroke?",
+          "back": "Core usually over 40 °C with CNS dysfunction."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "emergency-medicine--environmental-emergencies--q1",
+          "discipline": "adult-medicine",
+          "topic": "emergency-medicine",
+          "difficulty": "core",
+          "stem": "A 23-year-old man collapses near the finish of a half-marathon in Brisbane on a hot, humid morning. He is confused and combative. Rectal temperature 41.4 °C, HR 150 bpm, BP 96/50 mmHg. Blood glucose 5.8 mmol/L and sodium 139 mmol/L. The medical tent has an ice bath.\n\nWhat is the most appropriate immediate management?",
+          "options": [
+            "Oral paracetamol and oral fluids",
+            "Immediate transfer to hospital before any cooling",
+            "Cold water immersion in the medical tent while monitoring, then transfer",
+            "IV hypotonic fluid 2 L rapidly",
+            "IV dantrolene"
+          ],
+          "answer": 2,
+          "explanation": "Core temperature over 40 °C with **CNS dysfunction** after exertion is **exertional heat stroke**, a time-critical emergency where outcome depends on how quickly temperature falls. **Cold or ice water immersion** is the fastest cooling method and should start **on site** ('cool first, transport second'), with monitoring, stopping at about 39 °C to avoid overshoot. Then transfer to hospital for monitoring of rhabdomyolysis, AKI, DIC and liver injury. Antipyretics do not work because the hypothalamic set point is normal. His sodium is normal, so this is not exercise-associated hyponatraemia.",
+          "whyWrong": [
+            "Antipyretics are ineffective in heat stroke and oral intake is unsafe in a confused patient.",
+            "Delaying cooling for transport increases organ damage and mortality.",
+            "",
+            "Rapid hypotonic fluid is not the treatment and risks hyponatraemia.",
+            "Dantrolene has no proven role in exertional heat stroke."
+          ],
+          "tags": [
+            "heat stroke",
+            "cooling",
+            "exertional"
+          ]
+        },
+        {
+          "id": "emergency-medicine--environmental-emergencies--q2",
+          "discipline": "adult-medicine",
+          "topic": "emergency-medicine",
+          "difficulty": "foundation",
+          "stem": "A 6-year-old girl pulls a cup of hot tea onto her forearm at home in Canberra. Her father calls a GP clinic 10 minutes later asking what to do. The burn is red and blistering over an area about the size of her palm.\n\nWhat is the most appropriate first aid advice?",
+          "options": [
+            "Cool under running tap water for 20 minutes, then cover loosely with cling film",
+            "Apply ice directly for 10 minutes",
+            "Apply butter or aloe vera and cover",
+            "Pop the blisters and apply antiseptic cream",
+            "Apply toothpaste to prevent blistering"
+          ],
+          "answer": 0,
+          "explanation": "Australian burns first aid is **cool running water for 20 minutes**, which is effective up to **3 hours** after the injury. It reduces pain, depth of injury and scarring. Remove clothing and jewellery (if not stuck), keep the rest of the child warm to avoid hypothermia, and cover loosely with **cling film**. Never apply ice (worsens tissue injury and causes hypothermia), butter, toothpaste or creams. A palm-sized burn is about 1% TBSA; blistering indicates at least partial thickness and she should be reviewed, particularly as burns to children often need specialist follow-up.",
+          "whyWrong": [
+            "",
+            "Ice causes vasoconstriction and can deepen the burn.",
+            "Butter and home remedies trap heat and contaminate the wound.",
+            "Blisters should not be popped at home; creams are not first aid.",
+            "Toothpaste is a harmful folk remedy."
+          ],
+          "tags": [
+            "burns",
+            "first aid",
+            "children"
+          ]
+        },
+        {
+          "id": "emergency-medicine--environmental-emergencies--q3",
+          "discipline": "adult-medicine",
+          "topic": "emergency-medicine",
+          "difficulty": "exam",
+          "stem": "A 38-year-old woman returns from a day of scuba diving off Port Douglas. Four hours after her last dive she develops aching in both shoulders, tingling in both legs and difficulty passing urine. She has a flight home to Melbourne booked for tomorrow morning.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Oral NSAIDs and fly home as planned",
+            "100% oxygen, lie flat, fluids and urgent referral for hyperbaric recompression",
+            "MRI spine as an outpatient in Melbourne",
+            "Physiotherapy for shoulder strain",
+            "Oral prednisolone"
+          ],
+          "answer": 1,
+          "explanation": "Joint pain, bilateral leg paraesthesia and **urinary retention** within hours of diving indicate **decompression sickness** with **spinal cord involvement**, a serious form. Management is **100% oxygen** via a non-rebreather mask, lying flat, fluids, and urgent **recompression in a hyperbaric chamber** (Townsville is the nearest in far north Queensland), arranged with the Divers Emergency Service. Flying at altitude would expand nitrogen bubbles and worsen her condition, so commercial travel must wait until cleared by a diving medicine specialist.",
+          "whyWrong": [
+            "Flying worsens decompression illness and delays definitive treatment.",
+            "",
+            "Delaying treatment risks permanent spinal cord damage.",
+            "Neurological symptoms rule out simple musculoskeletal strain.",
+            "Steroids are not a treatment for decompression sickness."
+          ],
+          "ausPearl": "The Divers Emergency Service (DAN Asia-Pacific) provides a 24-hour hotline for diving emergencies in Australia.",
+          "tags": [
+            "diving",
+            "decompression sickness",
+            "hyperbaric"
+          ]
+        }
+      ]
+    }
+  ]
+}

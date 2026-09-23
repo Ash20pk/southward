@@ -1,0 +1,1090 @@
+{
+  "topic": "infectious-disease",
+  "intro": "Infectious diseases in Australia means sepsis and meningitis recognised early and treated within the hour, everyday infections treated with the narrow eTG first-line antibiotic, and a local tropical pattern (melioidosis, Q fever, arboviruses) that differs from India's. The AMC tests time-critical treatment, antibiotic stewardship, public health notification, and the infections that drive rheumatic fever and kidney disease in remote First Nations communities.",
+  "lessons": [
+    {
+      "id": "infectious-disease--sepsis-and-stewardship",
+      "title": "Sepsis and antimicrobial stewardship",
+      "minutes": 16,
+      "objectives": [
+        "Recognise sepsis and septic shock early using bedside observations and lactate",
+        "Deliver the first-hour bundle: cultures, IV antibiotics, fluids and escalation",
+        "Choose empirical antibiotics by likely source, using eTG rather than habit",
+        "Apply stewardship principles: narrowest effective agent, de-escalation, IV-to-oral switch and defined duration"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "What sepsis is and why the AMC cares",
+          "body": "**Sepsis** is life-threatening organ dysfunction caused by a dysregulated host response to infection (Sepsis-3 definition). **Septic shock** is the subset with circulatory and metabolic failure: hypotension needing vasopressors to keep mean arterial pressure (MAP) at 65 mmHg or more, with a lactate above 2 mmol/L despite adequate fluid.\n\nIn Australia sepsis causes thousands of deaths a year and is a leading cause of preventable hospital death. The Australian Commission on Safety and Quality in Health Care (ACSQHC) published a **Sepsis Clinical Care Standard** (2022). Its core expectations are the ones the AMC tests:\n\n- Recognise sepsis early, including in people who look \"not too sick\".\n- Take blood cultures, then give IV antibiotics **within 60 minutes** of recognition (sooner in septic shock).\n- Resuscitate with fluids and escalate early (senior review, ICU, retrieval).\n- Communicate with the patient and family, and plan follow-up after discharge.\n\nStates run recognition-and-response programs (for example NSW \"SEPSIS KILLS\" and Queensland's adult sepsis pathway), built around track-and-trigger observation charts. You do not need their exact trigger values, but you do need the logic: abnormal observations plus suspected infection means act now."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why patients deteriorate",
+          "body": "Pathogen components (endotoxin, lipoteichoic acid, superantigens) trigger a cytokine cascade. The result:\n\n- **Vasodilatation and capillary leak**: relative and absolute hypovolaemia, warm peripheries early, hypotension.\n- **Microcirculatory failure and mitochondrial dysfunction**: tissues cannot use oxygen, so **lactate rises** even before hypotension (\"cryptic shock\").\n- **Coagulopathy**: consumption of platelets and clotting factors, sometimes disseminated intravascular coagulation (DIC), classically with purpura in meningococcaemia.\n- **Organ dysfunction**: acute kidney injury, confusion, ARDS, liver dysfunction, ileus.\n\nHigh-risk groups: the very young and old, pregnancy and the postpartum period, diabetes, CKD, cancer and chemotherapy (febrile neutropenia, see haematology), asplenia, immunosuppressants, alcohol excess, recent surgery or invasive devices, and Aboriginal and Torres Strait Islander people, who have higher sepsis incidence and mortality."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Recognising sepsis at the bedside",
+          "body": "Look for infection plus signs of organ dysfunction:\n\n- **Respiratory rate 22/min or more**, new confusion, systolic BP 100 mmHg or less (the three **qSOFA** criteria; 2 or more predicts poor outcome, but a low qSOFA does not exclude sepsis).\n- Tachycardia, SpO2 falling, mottled skin, capillary refill over 3 seconds, cold peripheries (late).\n- Oliguria (under 0.5 mL/kg/h).\n- Fever is common but **hypothermia is a worse sign**, and the elderly or immunosuppressed may have neither.\n\nFind the source systematically: chest (cough, crackles), urine (dysuria, loin pain, catheter), abdomen (peritonism, biliary tenderness), skin (cellulitis, necrotising infection, pressure areas), lines and devices, CNS (headache, neck stiffness, rash), joints and heart valves (new murmur, IV drug use).\n\n**Necrotising fasciitis** clue: pain out of proportion to the visible skin changes, rapid spread, systemic toxicity, crepitus or dusky/bullous skin. This needs urgent surgical debridement, not just antibiotics."
+        },
+        {
+          "kind": "investigations",
+          "heading": "First-hour investigations",
+          "body": "Do these in parallel with treatment, never instead of it:\n\n| Test | Why |\n|---|---|\n| **Blood cultures, 2 sets** (separate sites) before antibiotics | Identifies the organism; do not delay antibiotics more than a few minutes to get them |\n| **Venous or arterial lactate** | 2 mmol/L or more suggests hypoperfusion; 4 or more is high risk. Repeat to check clearance |\n| FBC, UEC, LFTs, coagulation, glucose, CRP | Organ dysfunction, DIC, baseline for drug dosing |\n| Urine microscopy and culture, sputum, wound swabs, CSF as indicated | Source |\n| Chest X-ray; targeted imaging (ultrasound for biliary or renal obstruction, CT abdomen) | Source control |\n| Blood gas | Acidosis, respiratory failure |\n\n**Source control** is part of treatment: drain an abscess, relieve an obstructed infected kidney (nephrostomy or stent), remove an infected line, operate on necrotising infection or perforation."
+        },
+        {
+          "kind": "management",
+          "heading": "Management: the first hour and beyond",
+          "body": "**Immediate bundle**\n\n1. High-flow oxygen if hypoxic, IV access (two large-bore cannulas).\n2. Blood cultures, lactate.\n3. **IV antibiotics within 60 minutes**, chosen by the likely source (eTG Antibiotic). If the source is unclear, eTG gives an \"unknown source\" regimen; commonly this pairs a beta-lactam with **gentamicin**, adding vancomycin when MRSA is likely. Check eTG for the current regimen and dose.\n4. **Fluids**: crystalloid boluses (for example 500 mL of compound sodium lactate or normal saline), reassessing after each bolus for perfusion, urine output and signs of overload. Large-volume resuscitation should be guided by response.\n5. Hypotension persisting after fluid resuscitation or lactate staying high: **septic shock**. Call ICU; start a vasopressor (**noradrenaline**, first line) aiming for MAP 65 mmHg or more; arterial line and IDC.\n6. Escalate early: senior review, ICU outreach, or retrieval in rural hospitals.\n\n**Gentamicin** in Australia is given as a single daily dose calculated on weight and renal function, and empirical use is generally limited to about 72 hours to avoid nephrotoxicity and ototoxicity. It remains useful because Gram-negative coverage from one dose is rapid and cheap.\n\n**Antimicrobial stewardship (AMS)**\n\nAustralia takes AMS seriously and so does the AMC. Hospitals must run AMS programs (National Safety and Quality Health Service Standards) and there is an Antimicrobial Stewardship Clinical Care Standard. Principles:\n\n- Use the **narrowest effective agent** recommended by eTG, not a broad-spectrum \"cover everything\" choice.\n- **Restricted agents** such as carbapenems (meropenem), fluoroquinolones (ciprofloxacin, moxifloxacin), and vancomycin need infectious diseases or AMS approval in most hospitals.\n- Document the **indication and planned duration or review date** on the chart.\n- **Review at 48-72 hours**: de-escalate to a narrower agent once cultures return, switch **IV to oral** when the patient is improving, afebrile and able to absorb, and stop when the course is complete.\n- Don't treat colonisation or asymptomatic bacteriuria (except in pregnancy or before urological procedures).\n\nWhy it matters: resistant organisms (MRSA, ESBL-producing Enterobacterales, carbapenemase-producing organisms, VRE) are spreading, and Australia's surveillance program (AURA) tracks this. Resistance rates are lower than in India, which is why narrower agents still work here."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- The classic stem is an older patient with confusion, tachypnoea and borderline BP, with a urinary or chest source. The answer is **cultures then IV antibiotics now**, not \"await results\" or \"oral antibiotics and review\".\n- If one option is \"take blood cultures and give IV antibiotics\" and another is \"CT first\" or \"wait for the lactate\", pick antibiotics. Imaging never delays antibiotics.\n- Hypotension after adequate fluids = septic shock = **noradrenaline** in ICU. Dopamine is not first line.\n- Meropenem or ciprofloxacin as the empirical answer is usually a distractor unless there is a specific reason (known ESBL, severe beta-lactam allergy, melioidosis).\n- Stewardship questions: the answer is often \"de-escalate to the narrowest agent the culture is sensitive to\" or \"switch to oral\".\n- Obstructed infected kidney, empyema, abscess: antibiotics alone fail; the answer is source control."
+        }
+      ],
+      "keyPoints": [
+        "Sepsis is infection plus organ dysfunction; septic shock needs vasopressors for MAP 65 mmHg or more with lactate above 2 mmol/L.",
+        "Blood cultures then IV antibiotics within 60 minutes (ACSQHC Sepsis Clinical Care Standard).",
+        "Lactate 2 mmol/L or more signals hypoperfusion even with a normal BP.",
+        "Give crystalloid boluses and reassess; noradrenaline is the first-line vasopressor.",
+        "Source control (drainage, relieving obstruction, debridement) is part of treatment.",
+        "Stewardship: narrowest eTG agent, document indication and duration, review at 48-72 hours.",
+        "Carbapenems and fluoroquinolones are restricted, not routine first line."
+      ],
+      "redFlags": [
+        "Respiratory rate 22/min or more, new confusion or systolic BP 100 mmHg or less with suspected infection",
+        "Lactate 4 mmol/L or more, or persistent hypotension after fluids",
+        "Mottled skin, oliguria or non-blanching rash",
+        "Pain out of proportion to skin findings (necrotising fasciitis)",
+        "Fever in a patient on chemotherapy (febrile neutropenia)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Empirical sepsis antibiotics",
+          "india": "Often a carbapenem or piperacillin-tazobactam from the start, reflecting high local resistance.",
+          "australia": "Source-based eTG regimen, often a beta-lactam plus single-dose gentamicin; carbapenems are restricted and need approval."
+        },
+        {
+          "aspect": "Sepsis recognition",
+          "india": "Varies by hospital; fewer standardised escalation charts.",
+          "australia": "State track-and-trigger charts and sepsis pathways, backed by a national Sepsis Clinical Care Standard."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Time target for IV antibiotics in sepsis (ACSQHC standard)?",
+          "back": "Within 60 minutes of recognition, after blood cultures."
+        },
+        {
+          "front": "What lactate suggests tissue hypoperfusion in sepsis?",
+          "back": "2 mmol/L or more; 4 mmol/L or more is high risk."
+        },
+        {
+          "front": "First-line vasopressor in septic shock?",
+          "back": "Noradrenaline, targeting MAP 65 mmHg or more."
+        },
+        {
+          "front": "What are the three qSOFA criteria?",
+          "back": "RR 22/min or more, altered mentation, systolic BP 100 mmHg or less."
+        },
+        {
+          "front": "When should empirical antibiotics be reviewed for de-escalation?",
+          "back": "At 48-72 hours, once culture results are available."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "infectious-disease--sepsis-and-stewardship--q1",
+          "discipline": "adult-medicine",
+          "topic": "infectious-disease",
+          "difficulty": "foundation",
+          "stem": "A 78-year-old woman is brought to a Brisbane emergency department from her residential aged care facility with 1 day of confusion. She has an indwelling catheter. Temperature 38.6 °C, HR 118 bpm, RR 26/min, BP 96/58 mmHg, SpO2 95% on room air. Venous lactate is 3.8 mmol/L. Her urine in the catheter bag is cloudy.\n\nWhat is the most appropriate immediate step?",
+          "options": [
+            "Request a CT brain to exclude a subdural haematoma before treatment",
+            "Take blood cultures and give IV antibiotics, with a fluid bolus",
+            "Change the catheter and send urine culture, then await sensitivities",
+            "Start oral trimethoprim and arrange review in 24 hours",
+            "Give IV fluids and repeat the lactate in 2 hours before deciding on antibiotics"
+          ],
+          "answer": 1,
+          "explanation": "This woman has **sepsis** with a probable catheter-associated urinary source: confusion, RR 26, systolic BP under 100 (qSOFA 3) and a lactate of 3.8 mmol/L showing hypoperfusion. The Australian Sepsis Clinical Care Standard expects **blood cultures, then IV antibiotics within 60 minutes**, with crystalloid boluses and reassessment. Catheter change and urine culture are sensible but must not delay antibiotics. Delirium in an older person with fever and abnormal vital signs is sepsis until proven otherwise; imaging is only for a specific indication and never comes before antibiotics. Oral therapy is inappropriate in a hypotensive patient.",
+          "whyWrong": [
+            "There is no head injury or focal sign; imaging would delay time-critical antibiotics.",
+            "",
+            "Changing the catheter helps but waiting for sensitivities delays life-saving antibiotics.",
+            "Oral treatment and delayed review is unsafe in a hypotensive, septic patient.",
+            "Fluids alone without antibiotics breaches the 60-minute target and worsens mortality."
+          ],
+          "ausPearl": "The ACSQHC Sepsis Clinical Care Standard (2022) sets the 60-minute antibiotic target and applies across Australian hospitals, including aged care transfers.",
+          "tags": [
+            "sepsis",
+            "uti",
+            "elderly"
+          ]
+        },
+        {
+          "id": "infectious-disease--sepsis-and-stewardship--q2",
+          "discipline": "adult-medicine",
+          "topic": "infectious-disease",
+          "difficulty": "core",
+          "stem": "A 55-year-old man with pneumonia has received 2 L of compound sodium lactate in a regional emergency department after blood cultures and IV antibiotics. BP remains 82/44 mmHg (MAP 57 mmHg), HR 124 bpm and lactate has risen from 4.1 to 5.0 mmol/L. His chest is clear of new crackles and JVP is now visible at 3 cm.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Give a further 2 L of crystalloid rapidly",
+            "Start IV dopamine through a peripheral cannula",
+            "Give IV hydrocortisone as the sole next step",
+            "Start IV noradrenaline and arrange ICU admission",
+            "Change the antibiotic to meropenem"
+          ],
+          "answer": 3,
+          "explanation": "Persistent hypotension (MAP under 65 mmHg) with a rising lactate after adequate fluid resuscitation defines **septic shock**. The next step is a **vasopressor, noradrenaline first line**, aiming for MAP 65 mmHg or more, with ICU involvement, an arterial line and a catheter for urine output. Noradrenaline can be started peripherally in an emergency while central access is arranged. Further large fluid volumes risk overload once the patient is no longer fluid responsive. Dopamine causes more arrhythmias and is not preferred. Hydrocortisone is added in refractory shock needing escalating vasopressors, not instead of them. Broadening antibiotics does not treat haemodynamic failure.",
+          "whyWrong": [
+            "He has had adequate fluid; further large boluses risk pulmonary oedema without restoring MAP.",
+            "Dopamine is associated with more arrhythmias and is not the first-line vasopressor.",
+            "Steroids are an adjunct in refractory shock, not a substitute for a vasopressor.",
+            "",
+            "The problem is circulatory failure, not antibiotic coverage; meropenem is restricted and unjustified here."
+          ],
+          "tags": [
+            "septic shock",
+            "vasopressor",
+            "noradrenaline"
+          ]
+        },
+        {
+          "id": "infectious-disease--sepsis-and-stewardship--q3",
+          "discipline": "adult-medicine",
+          "topic": "infectious-disease",
+          "difficulty": "core",
+          "stem": "A 64-year-old woman was admitted 3 days ago with pyelonephritis and started on IV ampicillin and gentamicin. She is now afebrile, eating and drinking, with normal observations. Blood and urine cultures grew Escherichia coli sensitive to amoxicillin-clavulanate, cefalexin, trimethoprim and gentamicin, and resistant to ampicillin.\n\nWhat is the most appropriate antibiotic plan?",
+          "options": [
+            "Switch to an oral agent the organism is sensitive to and complete the course",
+            "Continue IV ampicillin and gentamicin for a total of 14 days",
+            "Switch to IV meropenem because the organism is ampicillin resistant",
+            "Stop all antibiotics now that she is afebrile",
+            "Switch to oral ciprofloxacin for 14 days"
+          ],
+          "answer": 0,
+          "explanation": "This is a core **antimicrobial stewardship** scenario. At the 48-72 hour review, the patient is improving, can take oral medicines and the culture gives sensitivities. The right move is **IV-to-oral switch** to an agent the organism is susceptible to (for example amoxicillin-clavulanate, cefalexin or trimethoprim per eTG) to complete the course. Continuing gentamicin beyond about 72 hours adds nephrotoxicity and ototoxicity risk for no gain, and ampicillin is useless against a resistant isolate. Meropenem and ciprofloxacin are restricted broad-spectrum agents that are unnecessary when narrower options work. Stopping at day 3 undertreats pyelonephritis.",
+          "whyWrong": [
+            "",
+            "Prolonged gentamicin risks kidney and ear toxicity, and the E. coli is ampicillin resistant.",
+            "A carbapenem is unnecessary when narrow, oral susceptible options exist.",
+            "Pyelonephritis needs a full course; stopping at day 3 risks relapse.",
+            "Fluoroquinolones are restricted in Australia and not needed when narrower agents are susceptible."
+          ],
+          "ausPearl": "Most Australian hospitals restrict fluoroquinolones and carbapenems; prescribers need AMS or infectious diseases approval, and the chart should record indication and duration.",
+          "tags": [
+            "stewardship",
+            "de-escalation",
+            "pyelonephritis"
+          ]
+        },
+        {
+          "id": "infectious-disease--sepsis-and-stewardship--q4",
+          "discipline": "adult-medicine",
+          "topic": "infectious-disease",
+          "difficulty": "exam",
+          "stem": "A 49-year-old man with type 2 diabetes presents with 12 hours of severe pain in his left thigh after a minor graze while gardening. The skin shows faint erythema only, but he winces on light touch well beyond the red area. Temperature 39.2 °C, HR 130 bpm, BP 94/60 mmHg. Creatine kinase is 2400 U/L and sodium 129 mmol/L. Blood cultures have been taken and IV antibiotics started.\n\nWhat is the most important next step?",
+          "options": [
+            "MRI of the thigh to confirm fascial involvement before any intervention",
+            "Mark the erythema margin and review in 24 hours",
+            "Add oral clindamycin and discharge with daily review in hospital in the home",
+            "Hyperbaric oxygen therapy as the definitive treatment",
+            "Urgent surgical review for exploration and debridement"
+          ],
+          "answer": 4,
+          "explanation": "**Pain out of proportion to the visible skin changes**, systemic toxicity and a raised CK in a diabetic after a skin breach point to **necrotising fasciitis**. This is a surgical emergency: antibiotics cannot penetrate necrotic tissue, and mortality climbs with each hour of delayed **debridement**. Management is resuscitation, broad empirical IV antibiotics (eTG includes an agent such as clindamycin for toxin suppression), and urgent surgical exploration. Imaging should never delay surgery when clinical suspicion is high. Marking the edge is how you monitor ordinary cellulitis, which this is not. Hyperbaric oxygen is at most an adjunct.",
+          "whyWrong": [
+            "Imaging delays surgery; a clinical diagnosis with toxicity mandates exploration.",
+            "Marking and review suits simple cellulitis, not a rapidly lethal necrotising infection.",
+            "Oral therapy and outpatient care is dangerous in a hypotensive patient with suspected necrotising infection.",
+            "Hyperbaric oxygen is an adjunct at best and never replaces debridement.",
+            ""
+          ],
+          "tags": [
+            "necrotising fasciitis",
+            "source control",
+            "sepsis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "infectious-disease--meningitis-and-encephalitis",
+      "title": "Meningitis, encephalitis and meningococcal disease",
+      "minutes": 17,
+      "objectives": [
+        "Recognise bacterial meningitis and meningococcal sepsis from the history and rash",
+        "Give empirical ceftriaxone and dexamethasone without waiting for CT or LP",
+        "Decide when CT must precede lumbar puncture and interpret the CSF",
+        "Start aciclovir for suspected HSV encephalitis",
+        "Organise public health notification and clearance for close contacts"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why CNS infection is a favourite AMC topic",
+          "body": "Bacterial meningitis and **invasive meningococcal disease (IMD)** are uncommon in Australia but kill quickly, and outcomes depend almost entirely on how fast antibiotics are given. That makes them classic AMC \"critical to safe practice\" questions.\n\nCommon organisms in adults:\n\n- **Streptococcus pneumoniae**: the commonest cause in adults; risk with CSF leak, recent head injury, otitis or sinusitis, asplenia, alcohol.\n- **Neisseria meningitidis**: adolescents and young adults, crowded living, smokers. Serogroups B and W have been important in Australia in recent years.\n- **Listeria monocytogenes**: people over about 50, pregnancy, alcohol excess and immunosuppression. It is intrinsically resistant to cephalosporins, which changes empirical therapy.\n- Hib is now rare thanks to vaccination.\n\nViral meningitis (enteroviruses, HSV-2) is more common and usually benign. **Encephalitis** (brain parenchyma involved: confusion, behaviour change, seizures, focal signs) is most often **HSV-1**, and in Australia also think of arboviruses such as Murray Valley encephalitis and Japanese encephalitis (covered in the tropical lesson).\n\nMeningococcal vaccination is on the National Immunisation Program (MenACWY in infancy at 12 months and in adolescence); MenB vaccine is funded for Aboriginal and Torres Strait Islander infants and in some state programs. Check the current Australian Immunisation Handbook for schedules."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "**Bacterial meningitis**: fever, headache, neck stiffness and altered consciousness. Fewer than half of adults have all three of fever, neck stiffness and altered mental state, but almost all have at least two of headache, fever, neck stiffness and altered mentation. Photophobia, vomiting and seizures are common. Kernig's and Brudzinski's signs are insensitive; their absence does not exclude meningitis.\n\n**Meningococcal disease** can present as meningitis, septicaemia, or both:\n\n- Early: fever, malaise, **leg pain, cold hands and feet, and abnormal skin colour**, sometimes before the rash.\n- Rash: initially blanching maculopapular, becoming **petechial or purpuric and non-blanching** (the glass test). Purpura fulminans signals DIC.\n- Septicaemia can progress to shock within hours, often with a normal level of consciousness until late.\n\n**Encephalitis**: fever with **altered behaviour, confusion, reduced consciousness, focal deficits or seizures**. HSV encephalitis classically affects the temporal lobes: personality change, dysphasia, olfactory hallucinations, temporal lobe seizures.\n\nSpecial groups: older people may present with confusion alone; people with HIV or on immunosuppressants may have subacute cryptococcal meningitis (headache over weeks, raised opening pressure)."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations: CT, LP and the CSF",
+          "body": "**Blood cultures first**, then antibiotics. Then decide about LP.\n\n**CT before LP** is needed when there is a risk of herniation or a mass: reduced or fluctuating consciousness (GCS under about 13), focal neurological signs, papilloedema, new seizures, severe immunosuppression, or suspected space-occupying lesion. **Antibiotics and dexamethasone go in before the CT**, not after it. LP is also deferred in shock, coagulopathy or low platelets, and in suspected meningococcal septicaemia.\n\nOther tests: FBC, UEC, coagulation, lactate, glucose (for the CSF:serum ratio), meningococcal and pneumococcal PCR on blood and CSF (useful after antibiotics), throat swab for meningococcus.\n\n**Interpreting the CSF**\n\n| Feature | Bacterial | Viral | TB | Cryptococcal |\n|---|---|---|---|---|\n| Opening pressure | High | Normal or mild rise | High | Very high |\n| Cells | Neutrophils, often hundreds to thousands | Lymphocytes (neutrophils very early) | Lymphocytes | Lymphocytes, may be few |\n| Glucose (CSF:serum) | Low (under about 0.4) | Normal | Low | Low or normal |\n| Protein | High | Normal or mildly high | Very high | High |\n| Extra | Gram stain, culture, PCR | Enterovirus and HSV PCR | AFB, culture, PCR | Cryptococcal antigen, India ink |\n\nIn encephalitis, CSF shows lymphocytosis and HSV PCR confirms; MRI is the best imaging (temporal lobe signal change); EEG may show temporal abnormalities."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Look-alikes",
+          "body": "| Condition | Discriminating clue |\n|---|---|\n| Subarachnoid haemorrhage | Thunderclap onset, no fever at onset; CT then LP for xanthochromia |\n| Viral meningitis | Well-looking patient, normal consciousness, lymphocytic CSF with normal glucose |\n| HSV encephalitis | Behaviour change, seizures, temporal lobe signs, rather than pure meningism |\n| Brain abscess | Subacute headache, focal signs, source such as sinusitis, dental or endocarditis; CT with contrast |\n| Sepsis from another source with delirium | Clear alternative source, no meningism; still treat as meningitis if uncertain |\n| Non-infective: drug-induced aseptic meningitis, malignancy | Drug history (NSAIDs, IVIG), known cancer |"
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Suspected bacterial meningitis in an adult (eTG)**\n\n- **Dexamethasone** IV (eTG: 10 mg 6-hourly for 4 days in adults), given **before or with the first antibiotic dose**. It reduces mortality and hearing loss in pneumococcal meningitis. Stop it if another cause, such as meningococcus alone, is confirmed, per eTG advice.\n- **Ceftriaxone** IV (eTG adult dose 2 g 12-hourly for meningitis).\n- **Add benzylpenicillin (or amoxicillin/ampicillin) for Listeria** risk: age over about 50, pregnancy, alcohol dependence, immunosuppression.\n- **Add vancomycin** if Gram-positive diplococci are seen or pneumococcal resistance is suspected, per eTG.\n- Do not delay for CT or LP. If LP will be delayed, give antibiotics after blood cultures.\n\n**Suspected meningococcal disease outside hospital** (GP surgery, rural clinic): give **benzylpenicillin IV or IM** (adult 1.2 g) or ceftriaxone **before transfer**, and call for ambulance transfer. A true severe penicillin allergy is the only reason to hold penicillin; ceftriaxone is an alternative.\n\n**Encephalitis**: start **IV aciclovir** (eTG: 10 mg/kg 8-hourly, adjusted for renal function) as soon as encephalitis is suspected, alongside meningitis cover if bacterial infection is not excluded. Continue until HSV PCR is negative and an alternative diagnosis is made, or for a full course (usually 14-21 days) if confirmed.\n\n**Supportive care**: resuscitation, seizure control, monitor for raised ICP, hyponatraemia (SIADH) and DIC. ICU for reduced consciousness or shock.\n\n**Public health**\n\n- Meningococcal disease is **notifiable in every state and territory**, and should be notified urgently by phone on clinical suspicion, not after culture.\n- The public health unit arranges **clearance antibiotics** (eTG options: single-dose ciprofloxacin, rifampicin, or ceftriaxone IM, which is preferred in pregnancy) for **household and intimate contacts** from the 7 days before onset, plus vaccination where appropriate. The index patient also needs clearance unless treated with ceftriaxone.\n- Healthcare workers need clearance only if they had direct exposure to respiratory secretions without a mask (such as intubation).\n- Follow-up: hearing test after bacterial meningitis; screen for complement deficiency in recurrent meningococcal disease."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- A GP scenario with fever and a non-blanching rash: the answer is **benzylpenicillin now, then transfer**. Not \"send to ED for blood tests\", not \"wait for the ambulance\".\n- A hospital scenario with a drowsy patient: **blood cultures, dexamethasone and ceftriaxone, then CT**, then LP if safe.\n- Over 50 or immunosuppressed: look for the option that **adds benzylpenicillin or amoxicillin** for Listeria.\n- Confusion, odd behaviour or seizures with fever: **aciclovir**. The CSF may be only mildly abnormal early.\n- CSF with lymphocytes, very high protein and low glucose in a migrant from a high-TB country: TB meningitis.\n- Contacts question: household contacts get clearance antibiotics via public health; casual contacts (classmates, workmates) usually do not."
+        }
+      ],
+      "keyPoints": [
+        "Blood cultures, then dexamethasone with the first dose of ceftriaxone; never delay for CT or LP.",
+        "Add benzylpenicillin or amoxicillin for Listeria in people over about 50, pregnant, alcohol-dependent or immunosuppressed.",
+        "Suspected meningococcal disease in the community: IV/IM benzylpenicillin before transfer.",
+        "CT before LP if GCS reduced, focal signs, papilloedema, new seizures or immunosuppression.",
+        "Bacterial CSF: neutrophils, low glucose, high protein; viral: lymphocytes, normal glucose.",
+        "Fever with behaviour change or seizures: start IV aciclovir for HSV encephalitis.",
+        "Meningococcal disease is urgently notifiable; public health arranges clearance for close contacts."
+      ],
+      "redFlags": [
+        "Non-blanching petechial or purpuric rash with fever",
+        "Reduced consciousness, seizures or focal neurological signs",
+        "Leg pain, cold peripheries and mottling in a febrile young person",
+        "Signs of raised intracranial pressure or papilloedema",
+        "Shock with fever in a previously well adolescent"
+      ],
+      "contrast": [
+        {
+          "aspect": "Community management of suspected meningococcal disease",
+          "india": "Often referred directly to hospital, antibiotics given on arrival.",
+          "australia": "Benzylpenicillin IV/IM (or ceftriaxone) is given in the GP surgery or rural clinic before transfer."
+        },
+        {
+          "aspect": "Contact management",
+          "india": "Chemoprophylaxis often arranged by the treating team ad hoc.",
+          "australia": "Urgent notification; the public health unit identifies close contacts and arranges clearance antibiotics and vaccination."
+        },
+        {
+          "aspect": "Chronic meningitis causes",
+          "india": "TB meningitis is common and considered early.",
+          "australia": "TB meningitis is rare and mostly in overseas-born people; cryptococcal disease in immunosuppression."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Empirical adult bacterial meningitis therapy (eTG)?",
+          "back": "Dexamethasone before or with the first dose, plus IV ceftriaxone; add benzylpenicillin/amoxicillin if Listeria risk."
+        },
+        {
+          "front": "Pre-transfer antibiotic for suspected meningococcal disease in an adult?",
+          "back": "Benzylpenicillin 1.2 g IV or IM (or ceftriaxone)."
+        },
+        {
+          "front": "Which meningitis organism is resistant to all cephalosporins?",
+          "back": "Listeria monocytogenes."
+        },
+        {
+          "front": "Drug for suspected HSV encephalitis?",
+          "back": "IV aciclovir, 10 mg/kg 8-hourly (renally adjusted)."
+        },
+        {
+          "front": "CSF glucose ratio that suggests bacterial meningitis?",
+          "back": "CSF:serum glucose under about 0.4."
+        },
+        {
+          "front": "Who gets meningococcal clearance antibiotics?",
+          "back": "Household and intimate contacts in the 7 days before onset, arranged by public health."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "infectious-disease--meningitis-and-encephalitis--q1",
+          "discipline": "adult-medicine",
+          "topic": "infectious-disease",
+          "difficulty": "foundation",
+          "stem": "A 19-year-old university student is brought to a GP clinic in rural Victoria by her housemate. She has had fever and vomiting since last night and now has aching legs and cold hands. Temperature 39.4 °C, HR 128 bpm, BP 100/60 mmHg. There are several purple spots on her legs that do not fade under a glass. The ambulance is 30 minutes away.\n\nWhat is the most appropriate immediate action?",
+          "options": [
+            "Take blood for FBC and blood cultures and await results before giving antibiotics",
+            "Give oral amoxicillin and send her to the ED by private car",
+            "Give IV or IM benzylpenicillin now, then arrange urgent ambulance transfer",
+            "Perform a lumbar puncture in the clinic to confirm meningitis",
+            "Notify the public health unit and wait for their advice on antibiotics"
+          ],
+          "answer": 2,
+          "explanation": "Fever, leg pain, cold peripheries and a **non-blanching rash** in a young adult is **invasive meningococcal disease** until proven otherwise. Death can occur within hours, so the priority is **parenteral benzylpenicillin (adult 1.2 g IV or IM) given immediately in the clinic**, before transfer. Ceftriaxone is an alternative. Blood cultures are helpful if they can be taken without delay, but antibiotics must not wait for them. LP has no place in primary care and is contraindicated in septicaemia. Notification is required urgently on suspicion, but it runs alongside treatment, not before it.",
+          "whyWrong": [
+            "Waiting for results delays antibiotics in a rapidly fatal illness.",
+            "Oral antibiotics and private transport are inadequate for suspected septicaemia.",
+            "",
+            "LP is not done in general practice and is contraindicated in suspected meningococcal septicaemia.",
+            "Notification is required but must not delay treatment."
+          ],
+          "ausPearl": "Australian GPs are expected to carry benzylpenicillin in the doctor's bag for exactly this situation.",
+          "tags": [
+            "meningococcal",
+            "rash",
+            "general practice"
+          ]
+        },
+        {
+          "id": "infectious-disease--meningitis-and-encephalitis--q2",
+          "discipline": "adult-medicine",
+          "topic": "infectious-disease",
+          "difficulty": "core",
+          "stem": "A 68-year-old man presents to a Perth emergency department with 18 hours of fever, severe headache and confusion. He takes prednisolone for polymyalgia rheumatica. GCS 13 (E3 V4 M6), temperature 39.0 °C, neck stiffness present, no focal signs. Blood cultures have been taken.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "IV dexamethasone, then IV ceftriaxone plus benzylpenicillin, then CT brain",
+            "CT brain, then lumbar puncture, then antibiotics based on the Gram stain",
+            "IV ceftriaxone alone, then lumbar puncture",
+            "IV aciclovir alone while awaiting MRI",
+            "Lumbar puncture immediately, followed by IV ceftriaxone"
+          ],
+          "answer": 0,
+          "explanation": "This is probable **bacterial meningitis** in an older, immunosuppressed man with reduced GCS. Three decisions matter. First, **antibiotics and dexamethasone go in immediately** after blood cultures; imaging must not delay them. Second, at his age and on steroids he is at risk of **Listeria**, which is resistant to cephalosporins, so **benzylpenicillin (or amoxicillin/ampicillin)** is added to ceftriaxone. Third, reduced GCS and immunosuppression mean **CT should precede LP**. Dexamethasone is given before or with the first antibiotic dose. Aciclovir can be added if encephalitis is suspected, but it does not treat bacterial meningitis.",
+          "whyWrong": [
+            "",
+            "Antibiotics must never wait for CT or LP in suspected bacterial meningitis.",
+            "Ceftriaxone alone misses Listeria in an older, immunosuppressed patient, and dexamethasone is omitted.",
+            "Aciclovir alone leaves bacterial meningitis untreated.",
+            "LP before CT is unsafe with reduced GCS and immunosuppression."
+          ],
+          "tags": [
+            "meningitis",
+            "listeria",
+            "dexamethasone"
+          ]
+        },
+        {
+          "id": "infectious-disease--meningitis-and-encephalitis--q3",
+          "discipline": "adult-medicine",
+          "topic": "infectious-disease",
+          "difficulty": "core",
+          "stem": "A 34-year-old woman is admitted with 3 days of fever and increasingly strange behaviour. Her partner says she has been smelling burning rubber and had a brief episode of lip smacking. CT brain is normal. CSF shows 120 white cells/µL (90% lymphocytes), protein 0.8 g/L (normal under 0.45), glucose ratio 0.6 and no organisms on Gram stain.\n\nWhat is the most appropriate treatment to start now?",
+          "options": [
+            "IV ceftriaxone alone",
+            "Oral valaciclovir and discharge with outpatient MRI",
+            "IV amphotericin B",
+            "IV methylprednisolone",
+            "IV aciclovir"
+          ],
+          "answer": 4,
+          "explanation": "Fever with **behaviour change, olfactory hallucinations and a complex partial (temporal lobe) seizure** points to **HSV encephalitis**. The CSF fits: lymphocytic pleocytosis, raised protein and normal glucose. Start **IV aciclovir (10 mg/kg 8-hourly, renally adjusted)** immediately without waiting for HSV PCR or MRI, because mortality and long-term disability fall sharply with early treatment. MRI typically shows temporal lobe changes; EEG may show temporal abnormalities. Oral valaciclovir does not reach adequate brain levels for encephalitis, and outpatient care is unsafe. Steroids and antifungals are not indicated here.",
+          "whyWrong": [
+            "Ceftriaxone treats bacterial meningitis but not HSV, and this CSF is not bacterial.",
+            "Oral therapy is inadequate for encephalitis and outpatient management is unsafe.",
+            "Amphotericin is for cryptococcal meningitis in immunosuppressed patients.",
+            "Steroids are not first-line treatment for viral encephalitis.",
+            ""
+          ],
+          "tags": [
+            "encephalitis",
+            "hsv",
+            "aciclovir"
+          ]
+        },
+        {
+          "id": "infectious-disease--meningitis-and-encephalitis--q4",
+          "discipline": "adult-medicine",
+          "topic": "infectious-disease",
+          "difficulty": "exam",
+          "stem": "A 20-year-old man is admitted to a Sydney hospital with confirmed Neisseria meningitidis septicaemia and is being treated with IV ceftriaxone. He lives with two flatmates and has a girlfriend who stayed overnight twice in the past week. He attended lectures with about 200 other students. The emergency doctor who examined him did not intubate him.\n\nWho should be offered clearance antibiotics?",
+          "options": [
+            "All 200 students in his lecture course",
+            "His two flatmates and his girlfriend",
+            "Only the emergency doctor who examined him",
+            "No one, as the index case is on ceftriaxone",
+            "His flatmates, girlfriend and all the ED staff on shift"
+          ],
+          "answer": 1,
+          "explanation": "Clearance antibiotics are for **close contacts**: people who lived in the same household or had **intimate (kissing) contact** with the case in the **7 days before onset**. That means the flatmates and the girlfriend. The public health unit coordinates this after urgent notification, typically using single-dose ciprofloxacin, rifampicin or IM ceftriaxone (preferred in pregnancy), and offers vaccination if the serogroup is vaccine-preventable. Classmates at lectures are casual contacts and are not offered prophylaxis. Healthcare workers need it only after unprotected exposure to respiratory secretions, such as intubation or suctioning without a mask. Treating the index patient with ceftriaxone clears their own carriage but does not protect contacts.",
+          "whyWrong": [
+            "Lecture attendance is casual contact and does not warrant clearance antibiotics.",
+            "",
+            "Examining a patient without airway procedures is not a significant exposure.",
+            "Contacts are at risk regardless of the index patient's treatment.",
+            "Routine ED staff contact without airway exposure does not require prophylaxis."
+          ],
+          "ausPearl": "Meningococcal disease is urgently notifiable (phone) in all Australian jurisdictions; the public health unit manages contact tracing.",
+          "tags": [
+            "meningococcal",
+            "public health",
+            "prophylaxis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "infectious-disease--skin-and-community-infections",
+      "title": "Skin, soft tissue and common community infections",
+      "minutes": 18,
+      "objectives": [
+        "Manage cellulitis, abscess and impetigo with eTG first-line agents",
+        "Treat scabies correctly, including household contacts and crusted scabies",
+        "Explain how skin sores and sore throats in remote communities lead to ARF, RHD and PSGN",
+        "Choose eTG empirical therapy for cystitis, pyelonephritis and community-acquired pneumonia"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why these everyday infections matter",
+          "body": "Most infections an intern treats are skin, urinary and chest infections. The AMC tests whether you pick the **eTG first-line agent** (usually a narrow penicillin or cephalosporin) rather than a broad-spectrum antibiotic, and whether you recognise the complications.\n\nThere is also a specifically Australian public health thread: in remote Aboriginal and Torres Strait Islander communities, **impetigo (skin sores) and scabies** are extremely common in children. Group A streptococcus (Streptococcus pyogenes) in skin sores and throats drives **acute rheumatic fever (ARF)**, **rheumatic heart disease (RHD)** and **post-streptococcal glomerulonephritis (PSGN)**. Australia has some of the highest recorded rates of ARF and RHD in the world in these communities, driven by household crowding and poor access to health hardware (working showers and washing machines)."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Organisms and mechanisms",
+          "body": "- **Cellulitis**: infection of the dermis and subcutaneous tissue, mainly **Streptococcus pyogenes** (and other beta-haemolytic streptococci), sometimes **Staphylococcus aureus**. Entry through a skin break: tinea between the toes, ulcers, eczema, lymphoedema.\n- **Abscess and furuncles**: usually S. aureus, including community-acquired MRSA, which is common in some northern Australian and Pacific Islander communities.\n- **Impetigo**: S. pyogenes and/or S. aureus. Scabies burrows are scratched and become infected, so scabies and impetigo travel together.\n- **Scabies**: Sarcoptes scabiei mite burrows in the epidermis. Itch is a delayed hypersensitivity reaction, so it starts 3-6 weeks after a first infestation. **Crusted scabies** occurs in immunosuppressed people, older people or those with HTLV-1 infection (relevant in central Australia) and carries thousands of mites: highly contagious.\n- **ARF**: an autoimmune reaction to group A strep through molecular mimicry, damaging heart valves (mitral most often). **PSGN**: immune-complex deposition in glomeruli 1-3 weeks after throat infection or 3-6 weeks after skin infection."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "**Cellulitis**: spreading, warm, tender erythema with poorly defined margins, usually unilateral on the lower leg, with fever. **Bilateral red legs are rarely cellulitis**: think venous stasis dermatitis, lipodermatosclerosis or contact dermatitis.\n\n**Impetigo**: honey-coloured crusts (non-bullous) or flaccid bullae (bullous, S. aureus toxin), typically on the face and limbs of children.\n\n**Scabies**: intense itch, worse at night, affecting several household members. Burrows and papules in finger webs, wrists, elbows, axillae, waist, genitals and buttocks; in infants the palms, soles and scalp. Crusted scabies shows thick, scaly plaques that may itch surprisingly little.\n\n**ARF**: diagnosed with the Australian modified Jones criteria, which use lower thresholds for people in high-risk groups (Aboriginal and Torres Strait Islander people, Māori and Pacific Islander people, and people from other high-prevalence settings). Features include carditis, polyarthritis or, in high-risk groups, monoarthritis or polyarthralgia, Sydenham chorea, erythema marginatum, subcutaneous nodules, fever, raised ESR/CRP and a prolonged PR interval, with evidence of recent streptococcal infection.\n\n**PSGN**: a child with **dark (cola-coloured) urine, facial oedema and hypertension** a few weeks after skin sores or sore throat.\n\n**UTI**: cystitis (dysuria, frequency, suprapubic pain) versus pyelonephritis (fever, loin pain, rigors, vomiting). **Community-acquired pneumonia (CAP)**: cough, fever, pleuritic pain, focal crackles and a new infiltrate on chest X-ray."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "- **Cellulitis**: clinical diagnosis. Blood cultures only if systemically unwell. Swab any wound or pus. **Mark the edge with a pen** to track progress.\n- **Scabies**: clinical; dermoscopy or skin scraping can confirm. In crusted scabies, check for HIV and HTLV-1 and other immunosuppression.\n- **ARF**: ESR and CRP, ECG (prolonged PR), echocardiogram for all suspected cases, ASOT and anti-DNase B titres, throat swab.\n- **PSGN**: urinalysis (haematuria, red cell casts, mild proteinuria), UEC, **low C3** that normalises within about 6-8 weeks, raised ASOT/anti-DNase B.\n- **UTI**: urine dipstick and MSU culture (culture is needed for men, pregnancy, pyelonephritis, recurrent or complicated infection). Don't send urine for asymptomatic older people.\n- **CAP**: chest X-ray, FBC, UEC, CRP, oxygen saturation. Severity scores used in Australia include **CORB** and **SMART-COP** (predicting need for intensive respiratory or vasopressor support). Blood and sputum cultures and urinary antigens in moderate to severe cases; respiratory viral PCR."
+        },
+        {
+          "kind": "management",
+          "heading": "Management (eTG first line)",
+          "body": "**Cellulitis**\n\n- Mild: **oral cefalexin** (eTG 500 mg 6-hourly), or oral flucloxacillin.\n- Moderate-severe or failing oral therapy: **IV flucloxacillin** (eTG 2 g 6-hourly) or IV cefazolin.\n- Non-severe penicillin allergy: cefalexin or cefazolin. Severe (immediate) penicillin allergy: clindamycin, or vancomycin IV when severe.\n- Elevate the limb, treat tinea pedis, manage oedema. Some of the redness can increase in the first 24-48 hours despite effective treatment.\n- Abscess: **incision and drainage** is the main treatment; antibiotics are added for surrounding cellulitis or systemic features, with MRSA-active choices (such as co-trimoxazole or clindamycin) where MRSA is likely.\n\n**Impetigo**\n\n- Localised, non-remote setting: topical treatment (for example mupirocin) plus hygiene; extensive: oral cefalexin or flucloxacillin.\n- Remote communities (National Healthy Skin Guideline): a short course of **oral co-trimoxazole** or a single **IM benzathine benzylpenicillin** dose, together with treating scabies in the household.\n\n**Scabies**\n\n- **Permethrin 5% cream** applied from the neck down (include scalp and face in infants and older people), left on overnight, **repeated after 7 days**.\n- Treat **all household and close contacts at the same time**, even if asymptomatic. Wash clothes and bedding in hot water or seal in a bag for several days. Itch can persist for weeks after cure.\n- Oral **ivermectin** is used for crusted scabies (with topical treatment and keratolytics) and in community mass-treatment programs. Crusted scabies is notifiable in some jurisdictions (such as the NT).\n\n**ARF and RHD**: treat the acute illness (aspirin or NSAIDs for arthritis once the diagnosis is secure, benzathine benzylpenicillin to eradicate strep), notify (ARF is notifiable in several jurisdictions), register with the state RHD program, and give **secondary prophylaxis with IM benzathine benzylpenicillin every 28 days** (21 days in selected high-risk patients) for many years. Follow the RHD Australia guideline for duration.\n\n**PSGN**: supportive, with fluid and salt restriction and a loop diuretic for oedema and hypertension; treat the strep infection and screen household contacts in outbreaks. Most children recover fully, though repeated PSGN is linked to later CKD in Aboriginal adults.\n\n**Urinary tract infection (non-pregnant women, eTG)**\n\n- Cystitis: **trimethoprim** (3 days), **cefalexin** or **nitrofurantoin** (5 days). Check local resistance and eTG for doses.\n- Pyelonephritis, mild: oral amoxicillin-clavulanate or cefalexin per eTG, guided by culture. Severe (sepsis): **IV gentamicin plus amoxicillin/ampicillin** per eTG, switching to oral when improving.\n- **Asymptomatic bacteriuria** is not treated, except in pregnancy and before invasive urological procedures.\n\n**Community-acquired pneumonia (eTG)**\n\n- Low severity: **oral amoxicillin** (eTG now recommends a short course, typically 5 days if improving), or doxycycline if atypical cover or penicillin allergy.\n- Moderate: **IV benzylpenicillin plus doxycycline** (or a macrolide).\n- High severity: **IV ceftriaxone plus azithromycin**, with ICU review.\n- In tropical northern Australia in the wet season, severe CAP regimens include **meropenem to cover melioidosis** (see the tropical lesson). Always check the current eTG."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- \"Warm, red, tender leg with a clear margin in an otherwise well patient\": **oral cefalexin**. Ciprofloxacin and amoxicillin-clavulanate are distractors.\n- Bilateral red, itchy lower legs with varicose veins: venous stasis dermatitis, not cellulitis.\n- Scabies question: the discriminator is **treating all household contacts simultaneously** and **repeating in 7 days**.\n- Child from a remote community with cola urine, oedema and hypertension after skin sores: **PSGN**, check **C3**.\n- Remote community ARF: the answer includes **benzathine benzylpenicillin every 28 days** and registration with the RHD program.\n- Elderly person with positive dipstick but no urinary symptoms: **do not treat**.\n- Pneumonia with a CORB or SMART-COP score: severity determines oral versus IV and whether ICU is needed."
+        }
+      ],
+      "keyPoints": [
+        "Cellulitis: oral cefalexin for mild, IV flucloxacillin for moderate-severe; mark the edge and elevate.",
+        "Abscesses need incision and drainage; think MRSA in northern Australia and Pacific communities.",
+        "Scabies: permethrin 5% neck down, repeat at 7 days, treat all household contacts at once.",
+        "Skin sores and scabies in remote communities drive ARF, RHD and PSGN.",
+        "ARF secondary prophylaxis: IM benzathine benzylpenicillin every 28 days (21 in selected patients).",
+        "PSGN: haematuria, oedema, hypertension and low C3 after streptococcal infection.",
+        "Cystitis: trimethoprim, cefalexin or nitrofurantoin; don't treat asymptomatic bacteriuria outside pregnancy.",
+        "CAP: amoxicillin for low severity; benzylpenicillin plus doxycycline for moderate; ceftriaxone plus azithromycin for severe."
+      ],
+      "redFlags": [
+        "Pain out of proportion to skin findings, bullae or crepitus",
+        "Periorbital cellulitis with proptosis, painful eye movements or reduced vision (orbital cellulitis)",
+        "New murmur, chorea or migratory arthritis after strep infection (ARF)",
+        "Cola-coloured urine, oedema and hypertension in a child (PSGN)",
+        "Pneumonia with hypoxia, confusion or low BP (high SMART-COP)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Cellulitis first line",
+          "india": "Amoxicillin-clavulanate or a third-generation cephalosporin is commonly used.",
+          "australia": "eTG: oral cefalexin or IV flucloxacillin, narrow anti-staphylococcal and streptococcal agents."
+        },
+        {
+          "aspect": "Scabies and skin sores",
+          "india": "Treated as an individual nuisance condition, often with topical agents alone.",
+          "australia": "In remote communities treated as a public health priority because it drives ARF, RHD and PSGN; whole-household treatment."
+        },
+        {
+          "aspect": "Uncomplicated cystitis",
+          "india": "Fluoroquinolones or cefixime are often prescribed.",
+          "australia": "Trimethoprim, cefalexin or nitrofurantoin; fluoroquinolones are reserved for resistant organisms."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "eTG first-line oral antibiotic for mild cellulitis?",
+          "back": "Cefalexin (or oral flucloxacillin)."
+        },
+        {
+          "front": "How is permethrin 5% used for scabies?",
+          "back": "Neck down, left overnight, repeated after 7 days; treat all household contacts at the same time."
+        },
+        {
+          "front": "ARF secondary prophylaxis in Australia?",
+          "back": "IM benzathine benzylpenicillin every 28 days (21 days in selected high-risk patients)."
+        },
+        {
+          "front": "Which complement level is low in PSGN, and when does it normalise?",
+          "back": "C3; returns to normal within about 6-8 weeks."
+        },
+        {
+          "front": "When is asymptomatic bacteriuria treated?",
+          "back": "Pregnancy and before invasive urological procedures only."
+        },
+        {
+          "front": "Australian CAP severity scores?",
+          "back": "CORB and SMART-COP."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "infectious-disease--skin-and-community-infections--q1",
+          "discipline": "adult-medicine",
+          "topic": "infectious-disease",
+          "difficulty": "foundation",
+          "stem": "A 46-year-old man presents to his GP in Adelaide with 2 days of a hot, red, tender area on his left shin. He has tinea between his toes. Temperature 37.9 °C, HR 88 bpm, BP 132/80 mmHg. The erythema is 10 cm across with no fluctuance. He has no allergies and is otherwise well.\n\nWhat is the most appropriate treatment?",
+          "options": [
+            "Oral ciprofloxacin",
+            "Oral amoxicillin-clavulanate",
+            "IV ceftriaxone in hospital in the home",
+            "Oral cefalexin, with elevation and treatment of the tinea",
+            "Oral doxycycline"
+          ],
+          "answer": 3,
+          "explanation": "This is **mild, uncomplicated cellulitis** in a systemically well man, with tinea pedis as the likely portal of entry. The usual organisms are **Streptococcus pyogenes** and **Staphylococcus aureus**, and eTG recommends a narrow agent active against both: **oral cefalexin** (or flucloxacillin). Marking the edge, elevating the leg and treating the tinea reduce recurrence. Ciprofloxacin has poor streptococcal activity and is restricted. Amoxicillin-clavulanate is broader than needed. IV therapy is reserved for systemic toxicity, rapid spread or failed oral treatment. Doxycycline is not first line for streptococcal cellulitis.",
+          "whyWrong": [
+            "Ciprofloxacin covers streptococci poorly and is a restricted agent in Australia.",
+            "Amoxicillin-clavulanate is unnecessarily broad for simple cellulitis.",
+            "He is well enough for oral treatment; IV ceftriaxone is not first line.",
+            "",
+            "Doxycycline has unreliable streptococcal activity and is not first line."
+          ],
+          "tags": [
+            "cellulitis",
+            "cefalexin",
+            "etg"
+          ]
+        },
+        {
+          "id": "infectious-disease--skin-and-community-infections--q2",
+          "discipline": "adult-medicine",
+          "topic": "infectious-disease",
+          "difficulty": "core",
+          "stem": "A 32-year-old woman attends a Darwin clinic with 4 weeks of intensely itchy papules on her finger webs, wrists and waist, worse at night. Her husband and two children, aged 6 and 9, have started scratching too. She is not pregnant.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Permethrin 5% cream for her alone, applied to the affected areas",
+            "Permethrin 5% cream neck down for the whole household at the same time, repeated in 7 days",
+            "Oral prednisolone for the itch and review in 2 weeks",
+            "Oral cefalexin for secondary infection and topical steroid",
+            "Skin biopsy before any treatment"
+          ],
+          "answer": 1,
+          "explanation": "Nocturnal itch with papules in the **finger webs, wrists and waist**, affecting several **household members**, is scabies. The key principles are: **permethrin 5% applied to the whole body from the neck down** (including scalp and face in infants and older people), left on overnight, and **repeated after 7 days** because eggs survive the first treatment. **All household and close contacts are treated at the same time**, even without symptoms, or reinfestation follows. Bedding and clothes are hot-washed. Itch may persist for weeks after cure, which is not treatment failure. Steroids alone worsen the infestation, and a biopsy is unnecessary for a clinical diagnosis.",
+          "whyWrong": [
+            "Treating only the index case and only affected areas leads to reinfestation and failure.",
+            "",
+            "Steroids suppress itch but can worsen scabies and do not kill mites.",
+            "Antibiotics treat secondary impetigo but not the underlying scabies.",
+            "Scabies is a clinical diagnosis; biopsy only delays treatment."
+          ],
+          "ausPearl": "In remote northern communities, scabies and skin sores are managed as a public health issue (National Healthy Skin Guideline) because they drive rheumatic fever and PSGN.",
+          "tags": [
+            "scabies",
+            "permethrin",
+            "household"
+          ]
+        },
+        {
+          "id": "infectious-disease--skin-and-community-infections--q3",
+          "discipline": "adult-medicine",
+          "topic": "infectious-disease",
+          "difficulty": "core",
+          "stem": "An 8-year-old Aboriginal boy from a remote community in the Northern Territory is brought to the clinic with puffy eyes and dark brown urine for 2 days. He had infected sores on his legs 3 weeks ago. BP is 138/92 mmHg (above the 95th centile). Urinalysis shows blood 3+ and protein 1+. \n\nWhich investigation result would best support the most likely diagnosis?",
+          "options": [
+            "High serum IgA level",
+            "Positive anti-GBM antibodies",
+            "Low serum C3 with raised anti-DNase B titre",
+            "Serum albumin of 18 g/L",
+            "Positive ANCA"
+          ],
+          "answer": 2,
+          "explanation": "Haematuria, periorbital oedema and hypertension **3 weeks after skin sores** in a child from a remote community is **post-streptococcal glomerulonephritis (PSGN)**. It is an immune-complex disease that consumes complement, so **C3 is low**, returning to normal in about 6-8 weeks. Evidence of recent group A strep infection supports it: **anti-DNase B** is the better marker after skin infection, as ASOT rises more after throat infection. IgA nephropathy causes haematuria within a few days of a sore throat (synpharyngitic). A very low albumin suggests nephrotic syndrome. Anti-GBM and ANCA disease are rare in children and cause rapidly progressive disease.",
+          "whyWrong": [
+            "IgA nephropathy causes haematuria 1-2 days after infection, not 3 weeks.",
+            "Anti-GBM disease is rare in children and presents with rapidly progressive renal failure or lung haemorrhage.",
+            "",
+            "Profound hypoalbuminaemia indicates nephrotic, not nephritic, syndrome.",
+            "ANCA vasculitis is rare in children and not linked to skin sores."
+          ],
+          "ausPearl": "PSGN is notifiable in the NT and Queensland. Public health teams may screen household contacts and treat skin sores in outbreaks.",
+          "tags": [
+            "psgn",
+            "nephritic",
+            "first nations"
+          ]
+        },
+        {
+          "id": "infectious-disease--skin-and-community-infections--q4",
+          "discipline": "adult-medicine",
+          "topic": "infectious-disease",
+          "difficulty": "exam",
+          "stem": "A 15-year-old Torres Strait Islander girl was diagnosed with acute rheumatic fever 2 months ago after a presentation with polyarthritis and a prolonged PR interval. Her echocardiogram showed mild mitral regurgitation. She is now well and has been started on her long-term management plan.\n\nWhich is the most appropriate ongoing preventive treatment?",
+          "options": [
+            "IM benzathine benzylpenicillin every 28 days",
+            "Oral amoxicillin only when she has a sore throat",
+            "Oral phenoxymethylpenicillin for 10 days now, then no further antibiotics",
+            "IM benzathine benzylpenicillin once a year",
+            "Aspirin daily until the mitral regurgitation resolves"
+          ],
+          "answer": 0,
+          "explanation": "After ARF, recurrences cause cumulative valve damage, so **secondary prophylaxis** is the most important intervention. In Australia this is **IM benzathine benzylpenicillin every 28 days** (every 21 days in selected high-risk patients), continued for many years; RHD Australia's guideline sets the minimum duration by age and severity of heart disease. Adherence is supported by state RHD control programs and registers, and local Aboriginal health workers. Treating sore throats alone does not prevent recurrences reliably. A single 10-day course eradicates strep once but does not protect against future infection. Annual injections are far too infrequent, and aspirin only treats acute arthritis.",
+          "whyWrong": [
+            "",
+            "Episodic treatment of sore throats misses many streptococcal infections and does not prevent recurrence.",
+            "A single course treats the current infection but gives no ongoing protection.",
+            "Benzathine penicillin levels fall well below protective levels long before a year.",
+            "Aspirin treats acute arthritis symptoms and has no role in preventing recurrence."
+          ],
+          "ausPearl": "State and territory RHD registers and control programs (for example in the NT, QLD, WA and SA) track prophylaxis doses and echocardiography follow-up.",
+          "tags": [
+            "rheumatic fever",
+            "rhd",
+            "prophylaxis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "infectious-disease--tropical-and-travel-infections",
+      "title": "Tropical, travel and Australian-acquired infections",
+      "minutes": 20,
+      "objectives": [
+        "Recognise melioidosis in northern Australia and choose appropriate therapy",
+        "Diagnose Q fever and explain why the vaccine needs pre-screening",
+        "Distinguish Ross River virus, dengue and Murray Valley encephalitis",
+        "Work up fever in a returned traveller, excluding malaria urgently",
+        "Identify leptospirosis, typhoid and scrub typhus from the exposure history"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The Australian pattern of tropical infection",
+          "body": "Two things surprise Indian graduates. First, the everyday Indian tropical diagnoses (malaria, typhoid, scrub typhus in most places, dengue outside north Queensland) are **rare and usually acquired overseas** in Australia. A febrile returned traveller from India, Papua New Guinea, Indonesia or Africa is where you find them, so **always take a travel history**.\n\nSecond, Australia has its own locally acquired infections that the AMC loves:\n\n- **Melioidosis** in the tropical north (Top End of the NT, north Queensland, the Kimberley), especially in the wet season.\n- **Q fever** in farm, abattoir and animal workers.\n- **Arboviruses**: Ross River virus (the commonest, nationwide), Barmah Forest virus, Murray Valley encephalitis, and Japanese encephalitis (which caused an outbreak in south-eastern Australia in 2022). Dengue is transmitted locally only where Aedes aegypti lives, mainly north Queensland.\n- **Leptospirosis** in north Queensland (cane and banana farmers, flood exposure) and **scrub typhus** in far north Queensland and the NT.\n\nMost of these are **notifiable**."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Organisms and exposures",
+          "body": "| Infection | Organism | Exposure |\n|---|---|---|\n| Melioidosis | Burkholderia pseudomallei, a Gram-negative soil and water bacillus | Inhalation or inoculation of wet soil, especially after heavy rain, cyclones and flooding |\n| Q fever | Coxiella burnetii | Inhaling dust contaminated by birth products, urine or faeces of cattle, sheep, goats and kangaroos |\n| Ross River and Barmah Forest | Alphaviruses | Mosquitoes; marsupials are reservoirs |\n| Murray Valley encephalitis, Japanese encephalitis | Flaviviruses | Mosquitoes; waterbirds (and pigs for JE) are hosts |\n| Dengue | Flavivirus, 4 serotypes | Aedes aegypti (day-biting) |\n| Leptospirosis | Leptospira spp. | Water or soil contaminated by animal urine (rats, cattle, pigs) |\n| Malaria | Plasmodium falciparum, vivax, others | Anopheles mosquito overseas; Australia was declared malaria-free in 1981 |\n\n**Melioidosis risk factors** are the discriminating clue: **diabetes** (the biggest), **hazardous alcohol use**, **CKD**, chronic lung disease, immunosuppression (including steroids) and cancer. Most healthy people exposed do not become ill; the organism can also lie latent and reactivate years later.\n\n**Dengue** second infection with a different serotype raises the risk of severe dengue (antibody-dependent enhancement)."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "**Melioidosis** (\"the great mimicker\")\n\n- **Pneumonia** is the commonest presentation, from acute severe pneumonia with septic shock to a chronic cavitating illness that looks like TB.\n- **Abscesses** in the liver, spleen, **prostate** (common in men in the NT) and skin; parotid abscess in children.\n- Bacteraemic sepsis, septic arthritis, osteomyelitis, and occasionally encephalomyelitis.\n- The AMC stem: a diabetic or heavy-drinking man from the Top End in the wet season with pneumonia or sepsis.\n\n**Q fever**\n\n- Acute: abrupt high fever, **severe headache**, myalgia, sweats, with hepatitis (raised transaminases) and/or atypical pneumonia, 2-3 weeks after exposure.\n- Chronic Q fever: **culture-negative endocarditis** (especially with valve disease or prosthetic valves) and vascular graft infection.\n- Post-Q fever fatigue syndrome can last months.\n\n**Ross River virus**: **symmetrical polyarthritis or arthralgia** of small joints (wrists, hands, ankles, knees), fever, maculopapular rash and fatigue. Joint symptoms can last weeks to months, but there is no joint destruction. Barmah Forest virus is similar.\n\n**Dengue**: fever, severe headache, retro-orbital pain, myalgia and arthralgia (\"break-bone fever\"), rash, leucopenia and thrombocytopenia. **Warning signs** of severe dengue appear around defervescence (days 3-7): abdominal pain, persistent vomiting, mucosal bleeding, lethargy, liver enlargement, fluid accumulation and a rising haematocrit with falling platelets.\n\n**Murray Valley encephalitis**: most infections are silent, but encephalitis (fever, headache, confusion, seizures, flaccid paralysis) carries high mortality and disability. Rare, but think of it in northern WA and the NT, or south-eastern Australia after floods.\n\n**Leptospirosis**: fever, myalgia (calves), headache and **conjunctival suffusion**; severe form (Weil's disease) with jaundice, AKI and pulmonary haemorrhage.\n\n**Malaria**: fever, rigors, headache, anaemia, thrombocytopenia, jaundice, splenomegaly. **Falciparum** usually presents within a month of return and can deteriorate within hours: cerebral malaria, severe anaemia, AKI, ARDS, hypoglycaemia, acidosis. Vivax and ovale may relapse months later from liver hypnozoites.\n\n**Typhoid**: fever that climbs over days, headache, abdominal pain, constipation or diarrhoea, relative bradycardia, rose spots; usually in travellers returning from South Asia.\n\n**Scrub typhus**: fever, headache, rash, lymphadenopathy and an **eschar** after bushwalking in far north Queensland or Litchfield National Park."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "- **Febrile returned traveller**: **malaria thick and thin films plus a rapid antigen test**, repeated to a total of three sets 12-24 hours apart if negative and clinical suspicion persists. FBC, UEC, LFTs, glucose, blood cultures (typhoid), dengue NS1 antigen and serology, urinalysis, chest X-ray. Ask about vaccines, malaria prophylaxis, activities, sexual contact and freshwater exposure.\n- **Melioidosis**: **culture** of blood, sputum, urine (prostate), throat swab and pus. Bipolar (\"safety pin\") Gram-negative bacilli; alert the lab because it is a biohazard organism. CT abdomen and pelvis to look for liver, spleen and prostatic abscesses.\n- **Q fever**: serology (phase II antibodies rise in acute infection; high phase I antibodies suggest chronic infection) and PCR early in the illness; echocardiogram if chronic infection is suspected.\n- **Arboviruses**: serology (IgM, then rising IgG in paired samples). Dengue NS1 antigen or PCR in the first days.\n- **Leptospirosis**: PCR early, serology later."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Melioidosis**: an **intensive phase of IV ceftazidime or meropenem** (meropenem for severe sepsis or neurological disease) for at least 2 weeks, then an **eradication phase of oral co-trimoxazole for 3-6 months** to prevent relapse. Drain abscesses. This is one of the few situations where a carbapenem is the correct answer in Australia. eTG includes melioidosis cover in severe CAP in tropical northern Australia during the wet season.\n\n**Q fever**: **doxycycline** is first line for acute infection (eTG: typically 14 days). Chronic Q fever needs prolonged doxycycline plus hydroxychloroquine under specialist care.\n\n**Q fever prevention**: the vaccine (Q-Vax) is recommended for abattoir workers, farmers, shearers, vets and others at risk. **Pre-vaccination screening is mandatory: a serology test and a skin test**, because vaccinating someone already immune (from past infection or vaccination) can cause severe local and systemic reactions. The vaccine is given only if both are negative, about 7 days after skin testing.\n\n**Arboviruses**: supportive. Ross River: rest, paracetamol or NSAIDs, physiotherapy; reassure that it resolves. **Dengue: avoid NSAIDs and aspirin** (bleeding risk); paracetamol, oral fluids, daily review of FBC; admit for warning signs. Mosquito avoidance (repellent, covering up, screens) is the main prevention. Japanese encephalitis vaccine is recommended for people at risk in affected regions (see the Immunisation Handbook).\n\n**Malaria**: admit. **Severe falciparum** (any organ dysfunction or high parasitaemia): **IV artesunate**, ICU. Uncomplicated falciparum: **artemether-lumefantrine** orally, with food. Vivax and ovale: treat the blood stage, then **primaquine** to clear liver hypnozoites, after checking **G6PD** status. Refer to infectious diseases and follow eTG.\n\n**Leptospirosis**: doxycycline for mild disease, IV benzylpenicillin or ceftriaxone for severe disease.\n\n**Typhoid**: blood cultures; fluoroquinolone resistance is now common in isolates from South Asia, so eTG empirical choices are azithromycin (uncomplicated) or ceftriaxone (severe), adjusted to sensitivities. Notify; food handlers need clearance before returning to work.\n\n**Scrub typhus and other rickettsial infections**: **doxycycline**, started empirically."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Diabetic or heavy-drinking man in Darwin or Cairns in the wet season with pneumonia, sepsis or a prostatic abscess: **melioidosis**, treat with **meropenem or ceftazidime**, then co-trimoxazole.\n- Abattoir worker or farmer with fever, severe headache and hepatitis: **Q fever**, treat with **doxycycline**. Vaccine question: the answer is **serology and skin test first**.\n- Symmetrical small joint polyarthritis with rash after a camping trip: **Ross River virus**, supportive care.\n- Returned traveller with fever: **malaria films now**, not \"review in 2 days\". A single negative film does not exclude it.\n- Dengue: the trap is giving NSAIDs, or discharging someone with warning signs.\n- Flood exposure, calf pain and red eyes: leptospirosis. Eschar after bushwalking in the far north: scrub typhus, doxycycline."
+        }
+      ],
+      "keyPoints": [
+        "Melioidosis: northern Australia, wet season, diabetes/alcohol/CKD; pneumonia, abscesses or sepsis.",
+        "Melioidosis treatment: IV ceftazidime or meropenem for at least 2 weeks, then oral co-trimoxazole for 3-6 months.",
+        "Q fever: farm and abattoir workers; fever, headache, hepatitis, pneumonia; doxycycline.",
+        "Q fever vaccine only after negative serology and skin test.",
+        "Ross River virus: fever, rash and symmetrical polyarthritis; supportive care.",
+        "Dengue is locally transmitted mainly in north Queensland; avoid NSAIDs and watch for warning signs.",
+        "Malaria in Australia is imported: films plus antigen test, repeated three times if negative.",
+        "Severe falciparum malaria: IV artesunate; vivax needs primaquine after G6PD testing."
+      ],
+      "redFlags": [
+        "Fever within 3 months of return from a malaria-endemic area",
+        "Pneumonia or sepsis in a diabetic in the tropical north during the wet season",
+        "Dengue with abdominal pain, persistent vomiting, bleeding or rising haematocrit",
+        "Fever with confusion or seizures in an arbovirus region (encephalitis)",
+        "Jaundice, AKI or haemoptysis after flood exposure (Weil's disease)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Malaria and typhoid",
+          "india": "Endemic, everyday diagnoses; often treated empirically.",
+          "australia": "Almost always imported; confirm with films, antigen testing and blood cultures, and notify."
+        },
+        {
+          "aspect": "Melioidosis",
+          "india": "Increasingly recognised but under-diagnosed in many regions.",
+          "australia": "A well-known local diagnosis in the tropical north with a set eTG regimen and wet season awareness."
+        },
+        {
+          "aspect": "Arboviral arthritis",
+          "india": "Chikungunya is the main cause of post-viral polyarthritis.",
+          "australia": "Ross River and Barmah Forest viruses; chikungunya is imported."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Biggest risk factor for melioidosis?",
+          "back": "Diabetes (also hazardous alcohol use, CKD, chronic lung disease, immunosuppression)."
+        },
+        {
+          "front": "Melioidosis eradication therapy after IV treatment?",
+          "back": "Oral co-trimoxazole for 3-6 months."
+        },
+        {
+          "front": "First-line treatment for acute Q fever?",
+          "back": "Doxycycline."
+        },
+        {
+          "front": "What must happen before giving Q fever vaccine?",
+          "back": "Serology and a skin test; vaccinate only if both are negative."
+        },
+        {
+          "front": "Treatment of severe falciparum malaria?",
+          "back": "IV artesunate."
+        },
+        {
+          "front": "Analgesic to avoid in dengue?",
+          "back": "NSAIDs and aspirin (bleeding risk); use paracetamol."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "infectious-disease--tropical-and-travel-infections--q1",
+          "discipline": "adult-medicine",
+          "topic": "infectious-disease",
+          "difficulty": "core",
+          "stem": "A 58-year-old man is admitted to Royal Darwin Hospital in February with 4 days of fever, productive cough and rigors. He has poorly controlled type 2 diabetes and drinks 8 standard drinks a day. He works as a landscaper. Temperature 39.5 °C, HR 122 bpm, BP 92/56 mmHg, RR 30/min, SpO2 88% on room air. Chest X-ray shows right upper lobe consolidation.\n\nWhich empirical antibiotic regimen is most appropriate?",
+          "options": [
+            "IV benzylpenicillin plus oral doxycycline",
+            "Oral amoxicillin",
+            "IV ceftriaxone plus oral doxycycline",
+            "IV flucloxacillin plus gentamicin",
+            "IV meropenem plus azithromycin"
+          ],
+          "answer": 4,
+          "explanation": "This man has **severe community-acquired pneumonia with shock** in the **Top End during the wet season**, with the classic **melioidosis risk factors** of diabetes and hazardous alcohol use, plus soil exposure through work. Burkholderia pseudomallei is not reliably covered by ceftriaxone or penicillin, and delay is often fatal. eTG therefore recommends including **melioidosis cover (meropenem)** in severe CAP in tropical northern Australia in the wet season, together with atypical cover such as azithromycin. Once cultures return, therapy is rationalised. If melioidosis is confirmed, the intensive IV phase lasts at least 2 weeks, followed by oral co-trimoxazole eradication.",
+          "whyWrong": [
+            "Benzylpenicillin and doxycycline suit moderate CAP but do not cover melioidosis in a shocked patient.",
+            "Oral amoxicillin is for low-severity CAP only.",
+            "Ceftriaxone does not reliably treat melioidosis.",
+            "Flucloxacillin and gentamicin do not provide adequate melioidosis or atypical cover.",
+            ""
+          ],
+          "ausPearl": "Melioidosis is one of the few situations where a carbapenem is standard empirical therapy in Australia, reflecting local epidemiology rather than broad-spectrum habit.",
+          "tags": [
+            "melioidosis",
+            "pneumonia",
+            "northern australia"
+          ]
+        },
+        {
+          "id": "infectious-disease--tropical-and-travel-infections--q2",
+          "discipline": "adult-medicine",
+          "topic": "infectious-disease",
+          "difficulty": "foundation",
+          "stem": "A 29-year-old woman starts work as a meat inspector at an abattoir in regional Queensland. Her employer asks her GP to vaccinate her against Q fever. She does not recall any previous illness or vaccination related to Q fever.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Give the Q fever vaccine today, as she has no known previous exposure",
+            "Tell her the vaccine is only for veterinarians",
+            "Arrange Q fever serology and a skin test before vaccination",
+            "Prescribe doxycycline prophylaxis during her first month of work",
+            "Give the vaccine and check serology 4 weeks later"
+          ],
+          "answer": 2,
+          "explanation": "Q fever vaccine (Q-Vax) is recommended for abattoir workers, farmers, shearers, vets and others exposed to livestock. The vaccine is unusual: people who are already immune from unrecognised past infection or earlier vaccination can have **severe local and systemic reactions** if vaccinated. So **pre-vaccination screening with serology and a skin test is mandatory**. The skin test is read about 7 days later, and the vaccine is given only if both tests are negative. A history of 'no known exposure' is not enough, because many infections are mild or subclinical. Doxycycline prophylaxis is not a substitute for vaccination.",
+          "whyWrong": [
+            "Vaccinating without screening risks a severe reaction in someone with unrecognised past infection.",
+            "The vaccine is recommended for many occupational groups, including abattoir workers.",
+            "",
+            "Antibiotic prophylaxis is not recommended as a preventive strategy for occupational Q fever.",
+            "Serology after vaccination is too late to prevent a hypersensitivity reaction."
+          ],
+          "ausPearl": "Q fever is notifiable in all Australian jurisdictions; vaccination is a key occupational health measure for the meat and livestock industries.",
+          "tags": [
+            "q fever",
+            "vaccination",
+            "occupational"
+          ]
+        },
+        {
+          "id": "infectious-disease--tropical-and-travel-infections--q3",
+          "discipline": "adult-medicine",
+          "topic": "infectious-disease",
+          "difficulty": "core",
+          "stem": "A 38-year-old man presents to a Melbourne emergency department with 2 days of fever, rigors and headache. He returned 10 days ago from a 3-week trip to visit family in rural Papua New Guinea and did not take malaria prophylaxis. Temperature 39.3 °C, HR 110 bpm, BP 118/70 mmHg. He is alert. Platelets 72 × 10⁹/L, bilirubin mildly raised. A malaria rapid antigen test and blood film taken 1 hour ago are negative.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Discharge with paracetamol and GP review in 3 days",
+            "Repeat thick and thin blood films, to a total of three sets 12-24 hours apart",
+            "Start empirical oral ciprofloxacin for typhoid",
+            "Send dengue serology and discharge if he stays afebrile",
+            "Start empirical IV artesunate without further testing"
+          ],
+          "answer": 1,
+          "explanation": "Fever within weeks of returning from **Papua New Guinea without prophylaxis** is **malaria until proven otherwise**, and thrombocytopenia supports it. A **single negative film and antigen test does not exclude malaria**, because parasitaemia fluctuates. Films should be repeated to a total of **three sets 12-24 hours apart**, ideally keeping the patient under observation, with blood cultures, dengue testing and other workup in parallel. Discharging him risks missing falciparum malaria, which can progress within hours. Empirical artesunate is not given without a diagnosis in a well patient. Ciprofloxacin is not appropriate empirical typhoid therapy because of widespread resistance.",
+          "whyWrong": [
+            "A single negative test does not exclude malaria; discharge risks deterioration.",
+            "",
+            "Fluoroquinolone resistance in typhoid is common, and malaria has not been excluded.",
+            "Dengue testing is reasonable, but discharge before malaria is excluded is unsafe.",
+            "Treatment should be based on confirmed diagnosis in a stable patient."
+          ],
+          "ausPearl": "Malaria is notifiable in Australia and virtually all cases are acquired overseas, most often in Papua New Guinea, Africa, India and Indonesia.",
+          "tags": [
+            "malaria",
+            "returned traveller",
+            "fever"
+          ]
+        },
+        {
+          "id": "infectious-disease--tropical-and-travel-infections--q4",
+          "discipline": "adult-medicine",
+          "topic": "infectious-disease",
+          "difficulty": "exam",
+          "stem": "A 41-year-old woman from Townsville presents to her GP with 1 week of painful swelling of both wrists, fingers and ankles, low-grade fever and a faint maculopapular rash on her trunk. Two weeks ago she went camping near wetlands and was bitten by many mosquitoes. She has no travel outside Australia. Rheumatoid factor is negative, and CRP is 24 mg/L.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Dengue fever",
+            "Early rheumatoid arthritis",
+            "Reactive arthritis",
+            "Ross River virus infection",
+            "Parvovirus B19 infection"
+          ],
+          "answer": 3,
+          "explanation": "Acute **symmetrical polyarthritis of the small joints, fever and a maculopapular rash** after mosquito exposure near wetlands is typical of **Ross River virus**, Australia's most common arbovirus. Diagnosis is by serology (IgM, then a rise in IgG on paired sera), and treatment is supportive with rest, simple analgesia or NSAIDs, and gentle exercise. Joint symptoms may persist for weeks or months but do not cause joint destruction. Dengue causes severe headache, myalgia and thrombocytopenia rather than prominent persistent arthritis. Early rheumatoid arthritis would not typically come with fever and rash after mosquito bites. Parvovirus usually follows contact with children.",
+          "whyWrong": [
+            "Dengue causes headache, retro-orbital pain and thrombocytopenia, with arthralgia rather than prominent arthritis.",
+            "Rheumatoid arthritis rarely presents acutely with fever and rash after mosquito exposure.",
+            "Reactive arthritis usually affects large joints of the legs asymmetrically after gut or genital infection.",
+            "",
+            "Parvovirus can mimic this but there is no child contact, and the mosquito exposure points elsewhere."
+          ],
+          "tags": [
+            "ross river virus",
+            "arbovirus",
+            "polyarthritis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "infectious-disease--hiv-tb-and-notifiable",
+      "title": "HIV, PEP and PrEP, TB and notifiable diseases",
+      "minutes": 18,
+      "objectives": [
+        "Test for HIV with consent and explain treatment for everyone diagnosed",
+        "Decide when PEP is indicated and start it within 72 hours",
+        "Assess eligibility for PrEP and set up monitoring",
+        "Investigate and manage suspected TB and latent TB in Australia",
+        "Explain what notification means and who is responsible"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "HIV and TB in the Australian context",
+          "body": "**HIV** in Australia is concentrated among gay, bisexual and other men who have sex with men (GBMSM), with a growing share of new diagnoses in heterosexual people, people born overseas and Aboriginal and Torres Strait Islander people. New diagnoses have fallen substantially since PrEP became widely available, and Australia is aiming to virtually eliminate HIV transmission. Treatment is highly effective: **undetectable = untransmittable (U=U)**.\n\n**TB** incidence in Australia is low (among the lowest in the world), and **most cases occur in people born overseas** in high-incidence countries such as India, Vietnam, the Philippines and China. Rates are also higher in some Aboriginal and Torres Strait Islander communities and in the Torres Strait near Papua New Guinea. TB is managed by **state TB control services**, which provide treatment free of charge.\n\nBoth HIV and TB are **notifiable**, as are many other infections covered in this course."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "**Primary HIV infection (seroconversion illness)**: 2-4 weeks after exposure in many people. Fever, sore throat, maculopapular rash, lymphadenopathy, mouth ulcers, myalgia, sometimes aseptic meningitis. It looks like glandular fever, so **test for HIV in anyone with a glandular fever-like illness and a risk history**.\n\n**Chronic HIV**: often asymptomatic for years. Clues: recurrent shingles, oral candida, seborrhoeic dermatitis, unexplained weight loss, persistent lymphadenopathy, other STIs, TB, thrombocytopenia.\n\n**Advanced HIV (CD4 under 200 cells/µL)**: opportunistic infections such as **Pneumocystis jirovecii pneumonia** (subacute dry cough, exertional breathlessness, desaturation on exercise), cerebral toxoplasmosis, cryptococcal meningitis, CMV retinitis, oesophageal candidiasis, and malignancies (Kaposi sarcoma, lymphoma).\n\n**Pulmonary TB**: cough over 2-3 weeks, haemoptysis, fever, night sweats, weight loss, in someone born in a high-incidence country, a contact, or someone immunosuppressed. Upper lobe cavitation on chest X-ray. Extrapulmonary TB: lymph nodes, pleura, spine, meninges.\n\n**Latent TB infection (LTBI)**: infection without disease; asymptomatic, not infectious, with a lifetime reactivation risk that rises with HIV, biologics (anti-TNF), steroids, diabetes and CKD."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Testing",
+          "body": "**HIV testing**\n\n- **Informed consent** is required. Pre-test discussion is now brief: explain the test, the window period, how results will be given and the confidentiality. Written consent is not required. The National HIV Testing Policy guides practice.\n- The standard test is a **4th-generation HIV antigen/antibody immunoassay**, confirmed by Western blot or other supplementary testing. The window period is about 6 weeks; repeat testing if exposure was recent. Point-of-care and self-tests exist but reactive results must be confirmed by a laboratory test.\n- After diagnosis: CD4 count, viral load, resistance genotype, HLA-B*5701 (before abacavir), hepatitis B and C, syphilis and STI screen, and renal and liver function.\n\n**TB testing**\n\n- **Active TB**: **three sputum samples** (including an early-morning sample) for **acid-fast bacilli microscopy, culture and a nucleic acid amplification test** (such as GeneXpert, which also detects rifampicin resistance). Chest X-ray. Induced sputum or bronchoscopy if unable to produce sputum. Isolate in a negative-pressure room.\n- **Latent TB**: **interferon-gamma release assay (IGRA)** or **tuberculin skin test (TST)**. IGRA is not affected by prior BCG vaccination, which matters in Indian-born people. A positive test needs a chest X-ray to exclude active disease. Neither test distinguishes latent from active TB."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**HIV treatment**\n\n- **Treat everyone diagnosed**, regardless of CD4 count, as soon as practical. Antiretroviral therapy (ART) is usually a single-tablet regimen containing an integrase inhibitor. Specialist HIV services and accredited s100 GP prescribers manage ART.\n- **U=U**: a sustained undetectable viral load means no sexual transmission of HIV. This is standard messaging in Australia.\n- Prophylaxis against opportunistic infections: **co-trimoxazole for PJP when CD4 is under 200**.\n- Contact tracing is done with the patient, with support from public health contact tracers. Notification uses coded, not full, identifying details in most jurisdictions.\n\n**Post-exposure prophylaxis (PEP)**\n\n- Start **as soon as possible and within 72 hours** of a significant exposure (receptive anal sex with a partner of unknown or detectable status, sharing injecting equipment, needlestick from a source with HIV). After 72 hours it is not recommended.\n- The course lasts **28 days**. Baseline HIV test, hepatitis B and C, STI screen, and follow-up HIV testing afterwards.\n- Assess the source where possible: if the source has HIV with an undetectable viral load, PEP is usually not needed for sexual exposure.\n- Consider transitioning to PrEP after PEP if the risk is ongoing.\n- The Australian PEP guideline is published by ASHM (the Australasian Society for HIV, Viral Hepatitis and Sexual Health Medicine); check it for current regimen and risk thresholds.\n\n**Pre-exposure prophylaxis (PrEP)**\n\n- **Tenofovir disoproxil with emtricitabine**, **PBS-subsidised** and prescribed by any GP.\n- For people at substantial risk: GBMSM with condomless anal sex, people with an HIV-positive partner who is not virally suppressed, people who inject drugs and share equipment.\n- Daily dosing, or **on-demand (event-driven, 2-1-1) dosing** for cisgender men who have sex with men.\n- Before starting: **negative HIV test** (to avoid resistance from giving 2 drugs to someone with undiagnosed HIV), renal function, hepatitis B status (stopping tenofovir can flare hepatitis B), and STI screen. **Review every 3 months** with HIV and STI testing and periodic renal checks.\n\n**TB treatment**\n\n- Active TB is managed by the state TB service. Standard drug-susceptible pulmonary TB: **2 months of isoniazid, rifampicin, pyrazinamide and ethambutol**, then **4 months of isoniazid and rifampicin**. Pyridoxine is given with isoniazid for at-risk groups. **Directly observed therapy** is often used.\n- Warn about rifampicin: orange body fluids, liver toxicity, and major drug interactions (it reduces the effect of the oral contraceptive pill, warfarin and many others).\n- Contact tracing is done by the TB service.\n- **Latent TB** treatment (for example isoniazid for 6-9 months, or rifampicin-based shorter regimens) is offered to recent contacts, people with HIV, and people about to start biologics or immunosuppression, after active TB is excluded.\n- **BCG is not part of the routine Australian schedule**. It is offered selectively, for example to Aboriginal and Torres Strait Islander neonates in high-incidence areas and young children travelling to live in high-incidence countries (see the Immunisation Handbook).\n- Migrants and visa applicants are screened for TB as part of the visa medical.\n\n**Notifiable diseases**\n\n- Each state and territory has its own public health legislation and list, so **the details vary by state**, but the core list is agreed nationally (National Notifiable Diseases Surveillance System).\n- Doctors and/or laboratories notify the **local public health unit**. Some diseases must be notified **urgently by phone on clinical suspicion** (for example meningococcal disease, measles, and some others), others in writing after laboratory confirmation.\n- Examples: HIV, hepatitis B and C, syphilis, gonorrhoea, chlamydia, TB, meningococcal disease, measles, pertussis, Q fever, melioidosis (in some jurisdictions), malaria, dengue, Ross River virus, legionellosis, salmonellosis and typhoid.\n- Notification is a legal requirement that overrides confidentiality; the patient should be told it is happening."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Glandular fever-like illness in someone with a risk history: **HIV test**, including an antigen/antibody test (it detects p24 antigen early).\n- PEP questions hinge on **timing (under 72 hours)** and on whether the exposure is significant. A condom break with a partner of unknown status yesterday: start PEP now.\n- PrEP questions: the trap is starting PrEP **without a negative HIV test** or without checking **hepatitis B and renal function**.\n- TB question in a migrant with cough and weight loss: **3 sputum samples for microscopy, culture and NAAT, isolate, notify, refer to the TB service**.\n- Positive IGRA with a normal chest X-ray and no symptoms: **latent TB**; consider treatment, not isolation.\n- Notification questions: the doctor has a legal duty; details vary by state; public health does contact tracing."
+        }
+      ],
+      "keyPoints": [
+        "HIV testing needs informed consent; 4th-generation antigen/antibody test with a window period of about 6 weeks.",
+        "Treat everyone diagnosed with HIV regardless of CD4; U=U.",
+        "PEP: start as soon as possible, within 72 hours, for 28 days.",
+        "PrEP (tenofovir disoproxil with emtricitabine) is PBS-subsidised; needs a negative HIV test, hepatitis B status and renal function.",
+        "TB in Australia is mostly in overseas-born people; 3 sputum samples for microscopy, culture and NAAT.",
+        "Standard TB therapy: 2 months HRZE then 4 months HR, via state TB services.",
+        "IGRA is not affected by BCG; a positive test needs a chest X-ray to exclude active TB.",
+        "Notification is a legal duty; lists and processes vary by state; some diseases need urgent phone notification."
+      ],
+      "redFlags": [
+        "Seroconversion-like illness after a recent high-risk exposure",
+        "Exertional desaturation and dry cough in someone with HIV (PJP)",
+        "Cough over 3 weeks with haemoptysis, night sweats and weight loss",
+        "Headache over weeks in advanced HIV (cryptococcal meningitis)",
+        "Significant HIV exposure within the last 72 hours"
+      ],
+      "contrast": [
+        {
+          "aspect": "HIV prevention",
+          "india": "Emphasis on condoms, testing and ART through NACO centres; PrEP is not widely available through public programs.",
+          "australia": "PrEP is PBS-subsidised and GP-prescribed; U=U and treatment as prevention are core messages."
+        },
+        {
+          "aspect": "TB diagnosis and care",
+          "india": "Very common; managed under the national TB programme with free drugs.",
+          "australia": "Uncommon, mostly in overseas-born people; managed by state TB services with contact tracing and notification."
+        },
+        {
+          "aspect": "BCG vaccination",
+          "india": "Given universally at birth.",
+          "australia": "Not routine; offered selectively to high-risk infants and child travellers. IGRA is preferred in BCG-vaccinated people."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Time limit for starting HIV PEP?",
+          "back": "As soon as possible, and within 72 hours of exposure."
+        },
+        {
+          "front": "How long is an HIV PEP course?",
+          "back": "28 days."
+        },
+        {
+          "front": "What must be checked before starting PrEP?",
+          "back": "Negative HIV test, hepatitis B status and renal function (plus STI screen)."
+        },
+        {
+          "front": "Standard regimen for drug-susceptible pulmonary TB?",
+          "back": "2 months isoniazid, rifampicin, pyrazinamide and ethambutol, then 4 months isoniazid and rifampicin."
+        },
+        {
+          "front": "CD4 threshold for PJP prophylaxis?",
+          "back": "Under 200 cells/µL; co-trimoxazole."
+        },
+        {
+          "front": "Why prefer IGRA to TST in someone from India?",
+          "back": "IGRA is not affected by prior BCG vaccination."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "infectious-disease--hiv-tb-and-notifiable--q1",
+          "discipline": "adult-medicine",
+          "topic": "infectious-disease",
+          "difficulty": "foundation",
+          "stem": "A 27-year-old man attends a Sydney sexual health clinic 36 hours after condomless receptive anal sex with a casual male partner whose HIV status is unknown. He has never had an HIV test. He is well.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Take baseline HIV and STI tests and start HIV post-exposure prophylaxis now",
+            "Take an HIV test now and start PEP only if the result is positive",
+            "Reassure him and repeat an HIV test in 3 months",
+            "Start daily PrEP immediately and review in 3 months",
+            "Advise him that PEP is only effective within 24 hours of exposure"
+          ],
+          "answer": 0,
+          "explanation": "Condomless receptive anal sex with a partner of unknown status is a **significant HIV exposure**, and he is **within 72 hours**, so **PEP should start as soon as possible**. Baseline tests (HIV, hepatitis B and C, syphilis and other STIs) are taken, but treatment does not wait for results. The course lasts **28 days**, with follow-up HIV testing. A positive baseline test would mean existing infection needing full ART, not PEP. Starting PrEP now is not appropriate because PrEP is for people who are HIV negative before exposure; after PEP he can transition to PrEP if risk continues. PEP is effective up to 72 hours, although earlier is better.",
+          "whyWrong": [
+            "",
+            "PEP is meant to prevent infection; waiting for a test result delays it and misses the point.",
+            "He is within the window where PEP can prevent infection; reassurance alone is inadequate.",
+            "PrEP is not a substitute for PEP after a recent exposure; he can transition to PrEP afterwards.",
+            "PEP can be started up to 72 hours after exposure, not only within 24 hours."
+          ],
+          "ausPearl": "PEP and PrEP are available across Australia; ASHM publishes national guidelines, and PrEP is PBS-subsidised for eligible people.",
+          "tags": [
+            "hiv",
+            "pep",
+            "sexual health"
+          ]
+        },
+        {
+          "id": "infectious-disease--hiv-tb-and-notifiable--q2",
+          "discipline": "adult-medicine",
+          "topic": "infectious-disease",
+          "difficulty": "core",
+          "stem": "A 31-year-old man asks his GP in Brisbane about starting HIV PrEP. He has condomless anal sex with several male partners. He had an HIV test 8 months ago which was negative. He has no symptoms.\n\nWhich is the most important step before prescribing PrEP?",
+          "options": [
+            "Check a CD4 count",
+            "Perform an HLA-B*5701 test",
+            "Arrange a chest X-ray",
+            "Test for HIV-1 genotypic resistance",
+            "Repeat HIV testing and check hepatitis B status and renal function"
+          ],
+          "answer": 4,
+          "explanation": "PrEP with **tenofovir disoproxil and emtricitabine** is PBS-subsidised and can be prescribed by any GP. Before starting, confirm he is **HIV negative now**; his last test was 8 months ago. Giving 2 drugs to someone with undiagnosed HIV is inadequate therapy and breeds resistance. Check **hepatitis B status**, because tenofovir treats hepatitis B and stopping it can cause a flare, and vaccinate if non-immune. Check **renal function**, as tenofovir disoproxil can affect the kidney. Screen for STIs. Review every 3 months with repeat HIV and STI testing. CD4, HLA-B*5701 and resistance testing apply to people diagnosed with HIV.",
+          "whyWrong": [
+            "CD4 count is for people living with HIV, not for PrEP eligibility.",
+            "HLA-B*5701 testing is done before abacavir, which is not part of PrEP.",
+            "A chest X-ray is not part of PrEP screening.",
+            "Resistance testing is done after an HIV diagnosis, not before PrEP.",
+            ""
+          ],
+          "tags": [
+            "prep",
+            "hiv",
+            "general practice"
+          ]
+        },
+        {
+          "id": "infectious-disease--hiv-tb-and-notifiable--q3",
+          "discipline": "adult-medicine",
+          "topic": "infectious-disease",
+          "difficulty": "core",
+          "stem": "A 36-year-old man who moved to Melbourne from Vietnam 2 years ago presents with 6 weeks of productive cough, night sweats and 6 kg weight loss. Chest X-ray shows right upper lobe cavitation. He is haemodynamically stable with SpO2 96% on room air.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Start amoxicillin and repeat the chest X-ray in 6 weeks",
+            "Arrange an interferon-gamma release assay to confirm active TB",
+            "Start isoniazid alone while awaiting culture",
+            "Isolate him, send three sputum samples for AFB microscopy, culture and NAAT, and notify",
+            "Arrange bronchoscopy as the first-line diagnostic test"
+          ],
+          "answer": 3,
+          "explanation": "Chronic cough, night sweats, weight loss and **upper lobe cavitation** in someone born in a high-incidence country is **pulmonary TB** until proven otherwise. He should be **isolated** (in hospital, a negative-pressure room) and **three sputum samples** collected, including an early-morning sample, for **acid-fast bacilli microscopy, culture and nucleic acid amplification** (such as GeneXpert, which also detects rifampicin resistance). TB is **notifiable**, and the state TB service coordinates treatment and contact tracing. IGRA cannot distinguish latent from active TB and is not a diagnostic test for active disease. Isoniazid monotherapy for active TB breeds resistance. Bronchoscopy is reserved for people who cannot produce sputum.",
+          "whyWrong": [
+            "Treating as bacterial pneumonia delays diagnosis and allows transmission.",
+            "IGRA cannot distinguish latent from active TB and does not confirm active disease.",
+            "Monotherapy for active TB promotes drug resistance.",
+            "",
+            "Bronchoscopy is for people unable to produce sputum, not first line."
+          ],
+          "ausPearl": "TB in Australia is managed by state TB control services, which provide free treatment regardless of Medicare or visa status.",
+          "tags": [
+            "tuberculosis",
+            "migrant health",
+            "notification"
+          ]
+        },
+        {
+          "id": "infectious-disease--hiv-tb-and-notifiable--q4",
+          "discipline": "adult-medicine",
+          "topic": "infectious-disease",
+          "difficulty": "exam",
+          "stem": "A 45-year-old woman born in India is about to start an anti-TNF biologic for rheumatoid arthritis in Adelaide. She received BCG as a baby. She is asymptomatic. An interferon-gamma release assay is positive and her chest X-ray is normal.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Isolate her and collect three sputum samples",
+            "Disregard the result, as it reflects previous BCG",
+            "Offer treatment for latent TB infection, ideally starting before the biologic",
+            "Start four-drug therapy for active TB",
+            "Repeat the IGRA in 12 months and start the biologic now"
+          ],
+          "answer": 2,
+          "explanation": "A positive IGRA with **no symptoms and a normal chest X-ray** indicates **latent TB infection**. Anti-TNF biologics greatly increase the risk of reactivation, so she should be **offered latent TB treatment** (for example isoniazid for 6-9 months, or a shorter rifampicin-based regimen) through the TB service or specialist, ideally beginning before the biologic. **IGRA is not affected by prior BCG**, unlike the tuberculin skin test, so the result cannot be dismissed. She is not infectious and does not need isolation or sputum collection. Four-drug therapy is for active disease. Starting a biologic without addressing latent TB risks severe disseminated reactivation.",
+          "whyWrong": [
+            "She has no symptoms and a normal chest X-ray, so she is not infectious and does not need isolation.",
+            "IGRA is not affected by BCG vaccination, so the result is meaningful.",
+            "",
+            "Four-drug therapy treats active TB, which she does not have.",
+            "Delaying treatment while starting a biologic risks reactivation."
+          ],
+          "tags": [
+            "latent tb",
+            "igra",
+            "biologics"
+          ]
+        }
+      ]
+    }
+  ]
+}

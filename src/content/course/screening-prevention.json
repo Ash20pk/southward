@@ -1,0 +1,949 @@
+{
+  "topic": "screening-prevention",
+  "intro": "Screening and prevention cover the principles of screening, Australia's organised national cancer screening programs (bowel, breast, cervical and lung), absolute cardiovascular risk assessment, diabetes and kidney screening, and lifestyle and preventive care in general practice. The AMC tests exact ages, tests and intervals, how to act on results, and the difference between screening a well person and investigating symptoms.",
+  "lessons": [
+    {
+      "id": "screening-prevention--principles-of-screening-and-prevention",
+      "title": "Principles of screening and prevention",
+      "minutes": 14,
+      "objectives": [
+        "Classify an intervention as primordial, primary, secondary, tertiary or quaternary prevention",
+        "Apply the Wilson and Jungner criteria to decide whether a condition should be screened for",
+        "Distinguish organised screening from opportunistic screening and case-finding",
+        "Explain the harms of screening, including overdiagnosis, and why PSA testing is not a population program"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why prevention is a big AMC topic",
+          "body": "Most Australian deaths and disability come from chronic disease that is preventable or detectable early: cardiovascular disease, cancer, diabetes and kidney disease. Much of an Australian GP's day is preventive care, guided by the **RACGP Guidelines for preventive activities in general practice (the \"Red Book\")**, which sets out what to check, at what age and how often.\n\nAustralia runs **organised, population-based screening programs** (bowel, breast, cervical and, since July 2025, lung) with invitations, registers and quality monitoring, supported by the **National Cancer Screening Register**. This differs from the mostly **opportunistic** screening common in India, where testing depends on a patient happening to see a doctor who thinks of it."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Levels of prevention and the screening criteria",
+          "body": "### Levels of prevention\n| Level | Aim | Examples |\n|---|---|---|\n| **Primordial** | Stop risk factors arising in the first place | Tobacco plain packaging and taxes, urban design for physical activity, food policy |\n| **Primary** | Prevent disease in people without it | Immunisation (HPV, influenza), smoking cessation, sun protection, statins in high-risk people without CVD |\n| **Secondary** | Detect disease early, before symptoms, to improve outcome | Cancer screening, blood pressure measurement, CVD risk assessment |\n| **Tertiary** | Reduce complications and disability from established disease | Cardiac and pulmonary rehabilitation, diabetic foot care, stroke rehabilitation |\n| **Quaternary** | Protect patients from over-medicalisation and unnecessary intervention | Not screening outside evidence-based ages; deprescribing |\n\nBe careful with cardiology language: \"secondary prevention\" of heart disease means preventing a **second** event in someone who has already had one, which in the levels-of-prevention framework is tertiary.\n\n**Rose's prevention paradox**: most cases of disease arise from the large number of people at modest risk, not the few at high risk. So population strategies (salt reduction, tobacco control) prevent more disease overall, even though each individual benefits only a little. High-risk strategies (treating people at high absolute CVD risk) give larger individual benefit.\n\n### Wilson and Jungner criteria (WHO, 1968), condensed\n**The condition**\n- is an **important** health problem\n- has a **recognisable latent or early** stage\n- has a natural history that is **adequately understood**\n\n**The test**\n- is **suitable**: accurate, safe, simple\n- is **acceptable** to the population\n\n**The treatment and system**\n- there is an **effective, accepted treatment**, better when given early\n- facilities for diagnosis and treatment are available\n- there is an **agreed policy** on whom to treat\n- the cost is **economically balanced** against overall health spending\n- case-finding is a **continuing process**, not a one-off.\n\nAustralia applies these through the national **Population Based Screening Framework** before funding a program.\n\n### Types of screening\n- **Organised (population) screening**: a defined target population is invited, with registers, recall, follow-up of abnormal results, and monitoring. Examples: BreastScreen Australia, the National Bowel Cancer Screening Program.\n- **Opportunistic screening**: offered when a person attends for another reason (for example, checking blood pressure at a consultation).\n- **Case-finding**: looking for disease in people at higher risk (for example, testing close contacts of TB).\n- **Diagnostic testing** is different: it is for people with **symptoms**. A symptomatic patient should never be sent to a screening program."
+        },
+        {
+          "kind": "application",
+          "heading": "Harms, and conditions we do not screen for",
+          "body": "Every screening program harms some people. The benefit must clearly outweigh:\n- **false positives**: anxiety, further tests and complications (for example, colonoscopy perforation)\n- **false negatives**: false reassurance and delayed presentation (interval cancers)\n- **overdiagnosis and overtreatment**: finding disease that would never have caused harm\n- cost and diversion of resources.\n\nScreening benefit is judged by **disease-specific mortality** in randomised trials, not survival from diagnosis, because of lead-time and length-time bias.\n\n### Worked examples\n- **Prostate cancer (PSA)**: important and has a detectable early stage, but PSA has modest accuracy, and screening detects many low-grade cancers that would never cause harm. Trials show at best a small reduction in prostate cancer mortality with substantial overdiagnosis. So there is **no population program**. Men who ask (usually aged about 50 to 69) should be given balanced information about benefits and harms and make an informed choice; if they choose testing, PSA is usually repeated every 2 years. Men with a strong family history or BRCA2 may start earlier. National guidance from the Prostate Cancer Foundation of Australia is being updated, so check the current version.\n- **Ovarian cancer**: CA-125 and transvaginal ultrasound have **not** been shown to reduce mortality in average-risk women, and false positives lead to surgery. Not recommended.\n- **Melanoma**: no population screening program. Opportunistic skin checks are reasonable for high-risk people (many naevi, previous melanoma, strong family history, fair skin with heavy sun exposure). Primary prevention (Slip, Slop, Slap, Seek, Slide) is the main strategy.\n- **Thyroid cancer**: ultrasound screening in some countries caused a surge in diagnoses of small papillary cancers with no change in mortality, a classic example of overdiagnosis.\n\n### Informed choice\nParticipation in screening is voluntary. Good practice is to explain the purpose, benefits, harms and what happens after an abnormal result, and to respect a person's decision not to take part."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- Classify the intervention: vaccine is primary, screening is secondary, rehabilitation is tertiary.\n- A patient **with symptoms** needs a diagnostic test, not a screening test. This is one of the commonest traps (for example, rectal bleeding and an iFOBT kit).\n- \"Why is there no screening program for X?\" Usually: the test is inaccurate, early treatment doesn't change outcome, or harms (overdiagnosis) outweigh benefits.\n- Men asking for a PSA: the answer is **shared, informed decision-making**, not \"PSA is not recommended\" and not \"order it without discussion\".\n- Screening outside the recommended age range usually does more harm than good."
+        }
+      ],
+      "keyPoints": [
+        "Primordial stops risk factors; primary prevents disease; secondary detects early; tertiary limits complications; quaternary prevents over-medicalisation.",
+        "Wilson and Jungner: important condition, early stage, good test, effective early treatment, cost-effective, ongoing.",
+        "Australia uses organised screening programs with invitations and the National Cancer Screening Register.",
+        "Screening is for people without symptoms; symptomatic patients need diagnostic tests.",
+        "Screening is judged by disease-specific mortality in trials, because of lead-time and length-time bias.",
+        "There is no population program for prostate, ovarian or skin cancer; PSA needs an informed choice.",
+        "The RACGP Red Book is the reference for what to screen for and when."
+      ],
+      "redFlags": [
+        "Symptoms (bleeding, a lump, weight loss) mean diagnostic investigation, never a screening test.",
+        "A negative screening test does not override new symptoms."
+      ],
+      "contrast": [
+        {
+          "aspect": "Screening model",
+          "india": "Mostly opportunistic; NCD clinics screen for oral, breast and cervical cancer, diabetes and hypertension at 30+.",
+          "australia": "Organised national programs with invitations, registers, recall and quality monitoring."
+        },
+        {
+          "aspect": "PSA testing",
+          "india": "Frequently ordered as part of executive health packages.",
+          "australia": "No population program; informed choice for men who ask, with explicit discussion of overdiagnosis."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Give an example of tertiary prevention.",
+          "back": "Cardiac rehabilitation after myocardial infarction (or diabetic foot care, stroke rehabilitation)."
+        },
+        {
+          "front": "What is quaternary prevention?",
+          "back": "Protecting patients from unnecessary medical intervention and over-medicalisation."
+        },
+        {
+          "front": "What is Rose's prevention paradox?",
+          "back": "Most cases come from the many people at moderate risk, so population strategies prevent more disease overall."
+        },
+        {
+          "front": "What is the main reason there is no ovarian cancer screening?",
+          "back": "CA-125 and ultrasound screening do not reduce mortality and cause harm from false positives."
+        },
+        {
+          "front": "What is the Red Book?",
+          "back": "The RACGP Guidelines for preventive activities in general practice."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "screening-prevention--principles-of-screening-and-prevention--q1",
+          "discipline": "population-health",
+          "topic": "screening-prevention",
+          "difficulty": "foundation",
+          "stem": "A GP in Ballarat is reviewing her patients' preventive care.\n\nWhich of the following is an example of secondary prevention?",
+          "options": [
+            "HPV vaccination of a 12-year-old girl",
+            "Mammography in an asymptomatic 56-year-old woman",
+            "Cardiac rehabilitation after myocardial infarction",
+            "Smoking cessation advice for a 40-year-old smoker",
+            "Physiotherapy after a stroke"
+          ],
+          "answer": 1,
+          "explanation": "**Secondary prevention** is early detection of disease before symptoms appear, so that treatment is more effective. **Screening mammography** in an asymptomatic woman aims to find breast cancer at an early stage.\n\nHPV vaccination and smoking cessation are **primary** prevention (preventing disease from occurring). Cardiac rehabilitation and stroke physiotherapy are **tertiary** prevention (limiting complications and disability from established disease). Watch the wording: cardiologists call post-infarct care \"secondary prevention\", but in the levels-of-prevention framework it is tertiary.",
+          "whyWrong": [
+            "Vaccination prevents disease occurring, which is primary prevention.",
+            "",
+            "Rehabilitation after a heart attack is tertiary prevention in the levels-of-prevention framework.",
+            "Stopping smoking prevents disease developing, which is primary prevention.",
+            "Rehabilitation after a stroke reduces disability from established disease, which is tertiary prevention."
+          ],
+          "tags": [
+            "levels of prevention"
+          ]
+        },
+        {
+          "id": "screening-prevention--principles-of-screening-and-prevention--q2",
+          "discipline": "population-health",
+          "topic": "screening-prevention",
+          "difficulty": "core",
+          "stem": "A 44-year-old woman in Sydney whose aunt died of ovarian cancer at 70 asks her GP for a yearly CA-125 blood test and pelvic ultrasound \"to catch it early\". She has no symptoms and no known BRCA mutation in the family.\n\nWhat is the main reason these tests are not recommended for her?",
+          "options": [
+            "Ovarian cancer is too rare in Australia to be an important health problem",
+            "Screening is only offered by organised national programs",
+            "There is no effective treatment for ovarian cancer",
+            "The tests are not acceptable to most women",
+            "Screening has not been shown to reduce ovarian cancer mortality and causes harm from false positives"
+          ],
+          "answer": 4,
+          "explanation": "Large randomised trials of CA-125 and transvaginal ultrasound in average-risk women have **not shown a reduction in ovarian cancer deaths**, while false-positive results led to unnecessary surgery, some with serious complications. This fails the Wilson and Jungner requirement that early detection and treatment improve outcome, and the harms outweigh the benefits.\n\nA single second-degree relative diagnosed at 70 does not place her in a high-risk category. If there were a strong family history suggesting BRCA or Lynch syndrome, referral to a familial cancer service would be appropriate.",
+          "whyWrong": [
+            "Ovarian cancer causes significant mortality; importance is not the reason.",
+            "Opportunistic testing is possible; the problem is lack of benefit.",
+            "Effective treatment exists, although outcomes are better in early disease.",
+            "The tests are simple and generally acceptable; this is not the reason.",
+            ""
+          ],
+          "tags": [
+            "screening criteria",
+            "ovarian cancer"
+          ]
+        },
+        {
+          "id": "screening-prevention--principles-of-screening-and-prevention--q3",
+          "discipline": "population-health",
+          "topic": "screening-prevention",
+          "difficulty": "exam",
+          "stem": "A 58-year-old man in Adelaide asks his GP for a \"prostate cancer blood test\" because a friend was recently diagnosed. He has no urinary symptoms and no family history of prostate, breast or ovarian cancer.\n\nWhat is the most appropriate response?",
+          "options": [
+            "Explain that PSA testing is not recommended in Australia and decline",
+            "Order a PSA test and perform a digital rectal examination",
+            "Refer him to a urologist for assessment",
+            "Discuss the potential benefits and harms of PSA testing so he can make an informed decision",
+            "Order a PSA test and repeat it annually"
+          ],
+          "answer": 3,
+          "explanation": "There is **no population screening program** for prostate cancer in Australia. PSA testing may reduce prostate cancer deaths slightly but leads to substantial **overdiagnosis** and overtreatment (with risks of incontinence and erectile dysfunction). Current Australian guidance is that asymptomatic men who ask, typically aged about 50 to 69, should receive balanced information on benefits and harms and make an **informed choice**. If he chooses testing, PSA is usually offered every 2 years.\n\nRoutine digital rectal examination is not recommended in asymptomatic men in primary care. Referral is needed only if the PSA is abnormal.",
+          "whyWrong": [
+            "Refusing without discussion ignores his right to an informed choice.",
+            "Testing without a discussion of harms is not informed consent, and routine DRE is not recommended in asymptomatic men.",
+            "Referral is not indicated in an asymptomatic man without a test result.",
+            "",
+            "Annual testing is not recommended; if chosen, testing is usually 2-yearly."
+          ],
+          "ausPearl": "Prostate cancer testing guidance (Prostate Cancer Foundation of Australia) has been under review; check the current guideline for ages and intervals.",
+          "tags": [
+            "psa",
+            "shared decision-making"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "screening-prevention--bowel-breast-and-lung-screening",
+      "title": "Bowel, breast and lung cancer screening",
+      "minutes": 16,
+      "objectives": [
+        "State the target ages, test and interval of the bowel, breast and lung screening programs",
+        "Manage a positive iFOBT and recognise when a patient needs colonoscopy rather than iFOBT",
+        "Distinguish screening mammography from the diagnostic workup of a breast symptom",
+        "Calculate pack-years and determine eligibility for lung cancer screening"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Four national programs",
+          "body": "| Program | Who | Test | Interval |\n|---|---|---|---|\n| **National Bowel Cancer Screening Program** | 50-74, kit mailed automatically; 45-49 can request | Immunochemical faecal occult blood test (**iFOBT**), done at home | Every 2 years |\n| **BreastScreen Australia** | Women **50-74** invited; women **40 and over** eligible | Screening mammogram (no referral needed) | Every 2 years |\n| **National Cervical Screening Program** | 25-74 | HPV test (see next lesson) | Every 5 years |\n| **National Lung Cancer Screening Program** (from July 2025) | 50-70, asymptomatic, at least 30 pack-years, currently smoke or quit within 10 years | Low-dose CT | Every 2 years |\n\nAll are free and coordinated with the **National Cancer Screening Register**, which sends invitations and reminders and tracks follow-up. Colorectal, breast, lung, prostate and melanoma are among Australia's most common cancers, and colorectal and lung cancer are among the leading causes of cancer death."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Bowel and breast screening",
+          "body": "### Bowel cancer\n- The **iFOBT** detects human haemoglobin in two stool samples. It needs no diet or medication changes. It works because cancers and large polyps bleed intermittently.\n- A **positive result** means the person needs a **colonoscopy**, arranged promptly by the GP (ideally within about 30 days). Only a small proportion of tests are positive, and most positives are due to polyps or benign causes, but a positive must never be ignored or \"confirmed\" with a repeat iFOBT.\n- A **negative** result: repeat in 2 years.\n- People **with symptoms** (rectal bleeding, change in bowel habit, iron deficiency anaemia, weight loss, abdominal mass) need **diagnostic** investigation, usually colonoscopy, not an iFOBT.\n- People at **increased risk because of family history** need a tailored plan. Moderately increased risk (for example, a first-degree relative diagnosed before about 55, or two first-degree relatives) usually means **colonoscopy** at intervals from middle age rather than iFOBT alone. High risk (suspected **Lynch syndrome** or **familial adenomatous polyposis**, or several relatives with young-onset cancer) needs **referral to a familial cancer clinic** and earlier, more frequent colonoscopy. Check the Cancer Council Australia guideline for exact ages and intervals.\n- People with inflammatory bowel disease or previous adenomas follow **surveillance** colonoscopy schedules, not screening.\n\n### Breast cancer\n- **BreastScreen Australia** invites women aged **50 to 74** every 2 years; women aged 40 to 49 and 75 and over can attend free but are not actively invited, because the balance of benefit and harm is less clear in those age groups (denser breasts in younger women reduce mammographic sensitivity).\n- Mammographic screening reduces breast cancer mortality in the target age group; overdiagnosis (particularly of ductal carcinoma in situ) is the main harm.\n- **Symptoms** (a lump, nipple discharge or inversion, skin change) are never assessed by BreastScreen. They need the **triple test**: clinical breast examination, imaging (diagnostic mammogram and/or ultrasound; ultrasound first in younger women) and **biopsy** (core biopsy) if imaging or examination is abnormal. All three must be concordant to exclude cancer.\n- Women at **high risk** (for example, a known BRCA1/2 mutation or a strong family history) need specialist or familial cancer clinic care, which may include annual MRI; BreastScreen is not designed for them.\n- Men are not screened."
+        },
+        {
+          "kind": "application",
+          "heading": "Lung cancer screening and worked examples",
+          "body": "### Lung cancer screening\nLung cancer is the leading cause of cancer death in Australia, and most cases present late. Trials of low-dose CT in heavy smokers showed reduced lung cancer mortality, leading to the national program starting on **1 July 2025**.\n\n**Eligibility**: aged **50 to 70**, **no symptoms** suggesting lung cancer, currently smoking or **quit within the past 10 years**, and a history of at least **30 pack-years**. A health professional (usually the GP) checks eligibility and requests the scan. Scans are every 2 years if low risk, with shorter follow-up for suspicious nodules. Every contact is a chance to support **smoking cessation**. First Nations people are a priority population, with the program designed to be accessible and culturally safe.\n\n**Pack-years** = packs smoked per day × years smoked (1 pack = 20 cigarettes).\n- 20 cigarettes a day for 30 years = 1 × 30 = **30 pack-years**\n- 30 cigarettes a day for 20 years = 1.5 × 20 = **30 pack-years**\n- 10 cigarettes a day for 40 years = 0.5 × 40 = **20 pack-years** (not eligible)\n\nSymptoms such as haemoptysis, persistent cough, unexplained weight loss or chest pain need **diagnostic** imaging (chest X-ray or CT), not screening.\n\n### Worked scenarios\n- **A 61-year-old man's iFOBT is positive; he feels well and wants to repeat it.** Refer for colonoscopy. Repeating the test is wrong: a later negative does not cancel a positive.\n- **A 47-year-old woman asks about bowel screening.** She can request a free kit (ages 45 to 49 are eligible on request) and will then receive one every 2 years.\n- **A 52-year-old woman found a breast lump last week and asks to book at BreastScreen.** She needs a GP assessment and diagnostic triple test instead.\n- **A 45-year-old woman with no risk factors asks about mammograms.** She is eligible to attend BreastScreen free; explain that benefits are smaller and false positives more common in her 40s, and let her decide.\n- **A 66-year-old who quit smoking 12 years ago after 40 pack-years.** Not eligible for the lung program, because she quit more than 10 years ago."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- Positive iFOBT means **colonoscopy**, never repeat iFOBT.\n- Symptoms mean diagnostic pathway: rectal bleeding means colonoscopy; breast lump means triple test; haemoptysis means chest imaging.\n- Know the numbers cold: bowel 45 (on request) or 50 to 74, 2-yearly; breast 50 to 74 invited, 40+ eligible, 2-yearly; lung 50 to 70, 30 pack-years, quit within 10 years, 2-yearly.\n- Calculate pack-years carefully: cigarettes per day divided by 20, multiplied by years.\n- Family history questions: moderate risk moves you from iFOBT to colonoscopy; suspected hereditary syndrome means genetics referral."
+        }
+      ],
+      "keyPoints": [
+        "Bowel: free iFOBT every 2 years for 50-74 (mailed), 45-49 on request.",
+        "A positive iFOBT needs colonoscopy; never repeat the iFOBT.",
+        "Breast: free mammogram every 2 years, women 50-74 invited, 40+ eligible.",
+        "A breast lump needs the triple test (examination, imaging, biopsy), not BreastScreen.",
+        "Lung: low-dose CT every 2 years for 50-70, 30+ pack-years, current smoker or quit within 10 years (from July 2025).",
+        "Pack-years = cigarettes per day / 20 × years smoked.",
+        "Increased family risk of bowel cancer means colonoscopy or genetics referral rather than iFOBT alone."
+      ],
+      "redFlags": [
+        "Rectal bleeding, change in bowel habit or iron deficiency anaemia in an adult: colonoscopy, not iFOBT.",
+        "Any new breast lump, even with a recent normal mammogram: triple test.",
+        "Haemoptysis or unexplained weight loss in a smoker: urgent diagnostic imaging."
+      ],
+      "contrast": [
+        {
+          "aspect": "Bowel screening",
+          "india": "No national program; colonoscopy offered opportunistically if at all.",
+          "australia": "Free home iFOBT kit mailed every 2 years from 50 (45 on request), with GP-arranged colonoscopy for positives."
+        },
+        {
+          "aspect": "Lung screening",
+          "india": "No lung cancer screening program.",
+          "australia": "National LDCT program for high-risk current and recent smokers aged 50-70 since July 2025."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Bowel screening in Australia: test, ages, interval?",
+          "back": "iFOBT every 2 years, ages 50-74 (45-49 on request)."
+        },
+        {
+          "front": "Next step after a positive iFOBT?",
+          "back": "Colonoscopy. Do not repeat the iFOBT."
+        },
+        {
+          "front": "BreastScreen target age and interval?",
+          "back": "Women 50-74 invited every 2 years; women 40+ are eligible."
+        },
+        {
+          "front": "Eligibility for lung cancer screening?",
+          "back": "Age 50-70, asymptomatic, at least 30 pack-years, currently smoking or quit within 10 years."
+        },
+        {
+          "front": "What is the triple test for a breast lump?",
+          "back": "Clinical examination, imaging (mammogram and/or ultrasound) and biopsy."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "screening-prevention--bowel-breast-and-lung-screening--q1",
+          "discipline": "population-health",
+          "topic": "screening-prevention",
+          "difficulty": "foundation",
+          "stem": "A 61-year-old man in Toowoomba receives a positive result from his National Bowel Cancer Screening Program iFOBT kit. He has no bowel symptoms and feels well. His previous kit 2 years ago was negative. He asks if he can repeat the test in case it was a mistake.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Repeat the iFOBT in 3 months",
+            "Refer for colonoscopy",
+            "Arrange CT colonography",
+            "Check a full blood count and refer only if he is anaemic",
+            "Reassure him and repeat screening in 2 years"
+          ],
+          "answer": 1,
+          "explanation": "A **positive iFOBT** means he needs a **colonoscopy**, which is both diagnostic and therapeutic (polyps can be removed). The GP should refer promptly, ideally so the colonoscopy occurs within about 30 days.\n\nRepeating the iFOBT is a classic trap: bleeding from cancers and polyps is intermittent, so a negative repeat does not cancel the positive result. CT colonography is reserved for people who cannot have or complete colonoscopy. A normal blood count does not exclude cancer.",
+          "whyWrong": [
+            "A repeat negative test would not exclude cancer, because bleeding is intermittent.",
+            "",
+            "CT colonography is a second-line option when colonoscopy is not possible.",
+            "A normal haemoglobin does not exclude colorectal cancer or advanced polyps.",
+            "A positive screen must be investigated; waiting 2 years risks missing cancer."
+          ],
+          "tags": [
+            "bowel screening",
+            "ifobt"
+          ]
+        },
+        {
+          "id": "screening-prevention--bowel-breast-and-lung-screening--q2",
+          "discipline": "population-health",
+          "topic": "screening-prevention",
+          "difficulty": "core",
+          "stem": "A 63-year-old woman attends her GP in Newcastle for a health check. She smoked 25 cigarettes a day from age 25 until she quit at 55. She has no respiratory symptoms, and her chest examination is normal.\n\nWhat is the most appropriate advice about lung cancer screening?",
+          "options": [
+            "She is not eligible because she no longer smokes",
+            "She is not eligible because she has fewer than 30 pack-years",
+            "She is eligible, and a low-dose CT should be requested",
+            "She should have a chest X-ray instead of screening",
+            "She is eligible only if spirometry shows COPD"
+          ],
+          "answer": 2,
+          "explanation": "Calculate her **pack-years**: 25 cigarettes a day is 1.25 packs; she smoked for 30 years (25 to 55). 1.25 × 30 = **37.5 pack-years**.\n\nThe National Lung Cancer Screening Program (from July 2025) includes asymptomatic people aged **50 to 70** with at least **30 pack-years** who **currently smoke or quit within the past 10 years**. She is 63, quit 8 years ago, and has 37.5 pack-years, so she is eligible. The GP should confirm eligibility and request a low-dose CT, repeated every 2 years if low risk. Chest X-ray is not an effective screening test.",
+          "whyWrong": [
+            "People who quit within the past 10 years are eligible.",
+            "She has 37.5 pack-years, which exceeds the threshold.",
+            "",
+            "Chest X-ray screening does not reduce lung cancer mortality.",
+            "COPD is not an eligibility requirement."
+          ],
+          "ausPearl": "Remember to support smoking cessation, or relapse prevention in ex-smokers, at every screening contact.",
+          "tags": [
+            "lung screening",
+            "pack-years"
+          ]
+        },
+        {
+          "id": "screening-prevention--bowel-breast-and-lung-screening--q3",
+          "discipline": "population-health",
+          "topic": "screening-prevention",
+          "difficulty": "core",
+          "stem": "A 52-year-old woman in Hobart noticed a painless lump in her left breast 2 weeks ago. Her last BreastScreen mammogram, 18 months ago, was normal. She asks her GP to help her book an early BreastScreen appointment.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Examine her and arrange diagnostic mammography and ultrasound, with biopsy if indicated",
+            "Reassure her, as her mammogram 18 months ago was normal",
+            "Review in 6 weeks after her next period",
+            "Book an early BreastScreen appointment",
+            "Refer directly for surgical excision"
+          ],
+          "answer": 0,
+          "explanation": "BreastScreen is a **screening** service for women **without symptoms**. A new breast lump needs **diagnostic** assessment with the **triple test**: clinical breast examination, imaging (diagnostic mammogram plus ultrasound at her age) and **biopsy** (usually core biopsy) if any component is suspicious. Cancer is excluded only if all three are concordant.\n\nA previous normal screening mammogram does not rule out a new cancer (interval cancers occur). She is postmenopausal age, so waiting for a cycle is inappropriate. Excision without a tissue diagnosis is not the first step.",
+          "whyWrong": [
+            "",
+            "Interval cancers can arise between screens; a new lump must be investigated.",
+            "Observation through a cycle may be reasonable in younger premenopausal women, not in a 52-year-old with a new lump.",
+            "Screening services are not for women with symptoms.",
+            "The triple test should be completed before surgery is planned."
+          ],
+          "tags": [
+            "breast lump",
+            "triple test"
+          ]
+        },
+        {
+          "id": "screening-prevention--bowel-breast-and-lung-screening--q4",
+          "discipline": "population-health",
+          "topic": "screening-prevention",
+          "difficulty": "foundation",
+          "stem": "A 46-year-old man in Darwin with no bowel symptoms and no family history of bowel cancer asks whether he can be screened for bowel cancer.\n\nWhat is the most appropriate advice?",
+          "options": [
+            "He is too young; screening starts at 50",
+            "He should have a colonoscopy now and every 10 years",
+            "He only needs screening if he develops symptoms",
+            "He should have CT colonography",
+            "He can request a free iFOBT kit through the national program"
+          ],
+          "answer": 4,
+          "explanation": "Since July 2024, people aged **45 to 49** can **request** their first free iFOBT kit through the **National Bowel Cancer Screening Program**, after which they receive one every 2 years. From 50 to 74 kits are mailed automatically. He is at average risk, so iFOBT is the appropriate test; colonoscopy is for positive results, symptoms or increased family risk.\n\nScreening, by definition, is for people without symptoms, so waiting for symptoms defeats the purpose.",
+          "whyWrong": [
+            "People aged 45 to 49 can now request a free kit.",
+            "Average-risk people are screened with iFOBT, not colonoscopy.",
+            "Screening aims to detect cancer before symptoms appear.",
+            "CT colonography is not a screening test in the national program.",
+            ""
+          ],
+          "tags": [
+            "bowel screening",
+            "eligibility"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "screening-prevention--cervical-screening",
+      "title": "Cervical screening",
+      "minutes": 15,
+      "objectives": [
+        "Explain why Australia screens with a 5-yearly HPV test from 25 to 74",
+        "Offer self-collection appropriately and explain its limits",
+        "Manage Cervical Screening Test results: HPV not detected, HPV 16/18 and other oncogenic HPV types",
+        "Investigate abnormal vaginal bleeding with a co-test rather than a screening test",
+        "Adjust screening for special groups: immunocompromised, post-hysterectomy and after treatment of HSIL"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "HPV, not the Pap smear",
+          "body": "Almost all cervical cancer is caused by persistent infection with **oncogenic human papillomavirus (HPV)**, especially types **16 and 18**. Most HPV infections clear within 1 to 2 years; only persistent infection progresses to high-grade squamous intraepithelial lesions (HSIL) and, over 10 or more years, cancer.\n\nIn **December 2017** Australia replaced 2-yearly Pap smears from 18 with the **Cervical Screening Test**: a **primary HPV test every 5 years** for people with a cervix aged **25 to 74** who have ever been sexually active. Because an HPV-negative result makes significant disease very unlikely for years, the interval can safely be 5 years.\n\nAustralia also has a school-based **HPV vaccination** program (a single dose of 9-valent vaccine at age 12 to 13 since 2023), and is on track to eliminate cervical cancer as a public health problem around 2035. **Vaccinated people still need screening**, because the vaccine does not cover all oncogenic types and some were infected before vaccination."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Who, how and how often",
+          "body": "- **Start at 25**, even if sexual activity began much earlier. Under 25, HPV infection is very common and usually transient, cervical cancer is rare, and screening led to overtreatment (which increases preterm birth risk) without reducing cancer rates.\n- **Every 5 years** if HPV is not detected.\n- **Exit test at 70 to 74**: if HPV is not detected, screening stops. People over 74 who have never been screened, or who request it, can be tested.\n- **Everyone with a cervix** who has ever been sexually active: women, trans men and non-binary people with a cervix, and people who only have sex with women.\n- **Self-collection**: since July 2022, anyone eligible can choose to collect their own vaginal sample with a swab (usually in the clinic, supervised by a health professional who offers it). It is as accurate as a clinician-collected sample for **HPV testing**. It cannot be used for liquid-based cytology (LBC), so if HPV (not 16/18) is found, the person returns for a clinician-collected sample. Self-collection has been especially valuable for under-screened groups, including First Nations women and people with past trauma.\n- **Immunocompromised** people (for example, HIV, organ transplant, long-term immunosuppressants): HPV test **every 3 years**.\n- **After total hysterectomy**: no further screening if the cervix was removed for benign reasons with no history of HSIL. If there was HSIL or cervical cancer, vaginal vault testing continues as advised.\n- **Pregnancy**: a Cervical Screening Test can be done if due.\n\n**Why HPV testing replaced cytology.** Cytology relies on a person reading cells under a microscope and misses a meaningful share of high-grade lesions, which is why it had to be repeated every 2 years. The HPV test is objective and far more sensitive for detecting women at risk of high-grade disease, and a negative result predicts a very low risk for at least 5 years. Modelling for the renewed program predicted fewer cancers and deaths with fewer tests over a lifetime.\n\n**Explaining a positive HPV result.** Most sexually active people acquire HPV at some point. It can stay undetectable for many years, so a positive result in a long-term relationship does **not** imply recent infidelity. Most infections clear on their own; the result means closer follow-up, not that the person has cancer. Stopping smoking helps the body clear HPV."
+        },
+        {
+          "kind": "management",
+          "heading": "Managing results",
+          "body": "The laboratory tests for HPV and, when needed, performs **reflex LBC** on the same clinician-collected sample.\n\n| Result | Risk | Action |\n|---|---|---|\n| **HPV not detected** | Low | Routine screening in **5 years** |\n| **HPV 16 and/or 18 detected** (any cytology) | Higher | **Refer for colposcopy**. If self-collected, go straight to colposcopy, where LBC can be taken |\n| **HPV (not 16/18) detected**, LBC **negative, pLSIL or LSIL** | Intermediate | **Repeat HPV test in 12 months** |\n| **HPV (not 16/18) detected**, LBC **pHSIL/HSIL**, any glandular abnormality or suspected cancer | Higher | **Refer for colposcopy** |\n| HPV (not 16/18) detected on a **self-collected** sample | Needs cytology | Return for a clinician-collected sample for LBC |\n\nAt the **12-month repeat** after an intermediate-risk result: HPV not detected means return to 5-yearly screening; HPV still detected (any type) means **colposcopy**. Some higher-risk groups (for example, First Nations people aged 50 and over, or people overdue for screening by 2 years or more) are referred straight to colposcopy after an intermediate-risk result; check the current national guidelines.\n\n**Unsatisfactory** samples are repeated in 6 weeks.\n\n### Test of cure after treatment for HSIL\nAfter treatment (usually large loop excision of the transformation zone, LLETZ), people have a **co-test (HPV plus LBC) at 12 months and then annually** until they have **two consecutive negative co-tests**, then return to routine 5-yearly screening.\n\n### Symptoms are not screening\n**Abnormal vaginal bleeding** (postcoital, intermenstrual or postmenopausal) or unexplained persistent discharge needs:\n- a **clinician-collected co-test** (HPV and LBC) at any age, including under 25\n- **speculum examination** to look at the cervix\n- **referral to a gynaecologist or colposcopy** if the cervix looks abnormal, or if bleeding persists without explanation, **even if the co-test is negative**."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- Asymptomatic 22-year-old asking for a \"Pap smear\": not yet; screening starts at 25. Offer HPV vaccination catch-up and STI testing as appropriate.\n- HPV 16/18: colposcopy, regardless of cytology.\n- HPV other types with negative or low-grade cytology: repeat HPV in 12 months.\n- Self-collected HPV (not 16/18): needs a clinician-collected sample for cytology.\n- Postcoital bleeding: co-test and look at the cervix; persistent symptoms mean referral even if tests are normal.\n- Immunocompromised: every 3 years.\n- Vaccinated women still screen."
+        }
+      ],
+      "keyPoints": [
+        "Cervical screening: HPV test every 5 years, ages 25-74, for anyone with a cervix who has been sexually active.",
+        "Self-collection is available to all eligible people and is accurate for HPV testing.",
+        "HPV 16/18 detected: refer for colposcopy.",
+        "HPV (not 16/18) with negative or low-grade cytology: repeat HPV in 12 months; still positive means colposcopy.",
+        "Symptomatic women need a clinician-collected co-test and cervix inspection, with referral for persistent symptoms.",
+        "Immunocompromised people screen every 3 years.",
+        "After HSIL treatment: annual co-tests from 12 months until two consecutive negatives."
+      ],
+      "redFlags": [
+        "Postcoital, intermenstrual or postmenopausal bleeding: co-test and examine; refer if persistent even with a normal result.",
+        "Visibly abnormal cervix on speculum examination: refer to gynaecology regardless of test results."
+      ],
+      "contrast": [
+        {
+          "aspect": "Primary test",
+          "india": "Pap smear or VIA (visual inspection with acetic acid), usually opportunistic, from 30.",
+          "australia": "Primary HPV test with reflex cytology, organised program, 5-yearly from 25."
+        },
+        {
+          "aspect": "Sample collection",
+          "india": "Clinician-collected, requiring speculum examination.",
+          "australia": "Self-collected vaginal swab available to anyone eligible, as accurate for HPV."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Cervical screening test, ages and interval?",
+          "back": "HPV test every 5 years, ages 25-74."
+        },
+        {
+          "front": "Management of HPV 16/18 detected?",
+          "back": "Refer for colposcopy (regardless of cytology)."
+        },
+        {
+          "front": "Management of HPV (not 16/18) with negative LBC?",
+          "back": "Repeat HPV test in 12 months."
+        },
+        {
+          "front": "Screening interval for immunocompromised people?",
+          "back": "Every 3 years."
+        },
+        {
+          "front": "Test for a woman with postcoital bleeding?",
+          "back": "A clinician-collected co-test (HPV + LBC) and speculum examination; refer if symptoms persist."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "screening-prevention--cervical-screening--q1",
+          "discipline": "population-health",
+          "topic": "screening-prevention",
+          "difficulty": "core",
+          "stem": "A 41-year-old woman in Geelong has a routine clinician-collected Cervical Screening Test. She is asymptomatic. The result shows oncogenic HPV (not 16/18) detected, and reflex liquid-based cytology is negative.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Refer for colposcopy",
+            "Repeat liquid-based cytology in 6 months",
+            "Repeat the HPV test in 5 years",
+            "Repeat the HPV test in 12 months",
+            "Refer for LLETZ"
+          ],
+          "answer": 3,
+          "explanation": "This is an **intermediate-risk** result: oncogenic HPV of a type other than 16 or 18, with **negative** (or low-grade) cytology. Most such infections clear, so she should have a **repeat HPV test in 12 months**. If HPV is then not detected, she returns to 5-yearly screening; if HPV is still detected, she is referred for colposcopy.\n\nImmediate colposcopy is for HPV 16/18, or other types with high-grade or glandular cytology. Treatment such as LLETZ is never done on the basis of a screening test alone.",
+          "whyWrong": [
+            "Immediate colposcopy is for HPV 16/18 or high-grade cytology.",
+            "Follow-up is by HPV testing, not repeat cytology alone.",
+            "HPV has been detected, so routine 5-yearly screening is not appropriate yet.",
+            "",
+            "Treatment needs colposcopic assessment and histology first."
+          ],
+          "tags": [
+            "cervical screening",
+            "hpv"
+          ]
+        },
+        {
+          "id": "screening-prevention--cervical-screening--q2",
+          "discipline": "population-health",
+          "topic": "screening-prevention",
+          "difficulty": "core",
+          "stem": "A 32-year-old woman presents to a Brisbane general practice with 3 months of bleeding after intercourse. Her last Cervical Screening Test 2 years ago showed HPV not detected. She uses the combined oral contraceptive pill and has a regular partner.\n\nWhat is the most appropriate initial investigation?",
+          "options": [
+            "Reassure her, as her HPV test 2 years ago was negative",
+            "Offer a self-collected HPV test",
+            "Perform a speculum examination and a clinician-collected co-test (HPV and cytology)",
+            "Refer directly for hysteroscopy",
+            "Change her contraceptive pill and review in 3 months"
+          ],
+          "answer": 2,
+          "explanation": "**Postcoital bleeding** is a symptom, so this is not screening. She needs a **speculum examination** to inspect the cervix and a **clinician-collected co-test** (HPV test plus liquid-based cytology), regardless of her last screening result. STI testing (chlamydia and gonorrhoea, which can cause cervicitis) is also appropriate.\n\nIf the cervix looks abnormal, or if the bleeding persists without explanation, she should be referred to a gynaecologist or for colposcopy **even if the co-test is negative**. Self-collection is only for asymptomatic screening, as it does not allow cytology or inspection of the cervix.",
+          "whyWrong": [
+            "A previous negative screening test does not exclude a cause for new symptoms.",
+            "Self-collection is for asymptomatic screening and does not allow cytology or examination.",
+            "",
+            "Hysteroscopy assesses the uterine cavity; the cervix must be examined first.",
+            "Bleeding with intercourse must be investigated, not attributed to the pill."
+          ],
+          "tags": [
+            "postcoital bleeding",
+            "co-test"
+          ]
+        },
+        {
+          "id": "screening-prevention--cervical-screening--q3",
+          "discipline": "population-health",
+          "topic": "screening-prevention",
+          "difficulty": "foundation",
+          "stem": "A 22-year-old woman attends a university health service in Perth asking for a \"Pap smear\" because she has been sexually active since age 16. She is well with no symptoms. She received the HPV vaccine at school.\n\nWhat is the most appropriate advice?",
+          "options": [
+            "Explain that cervical screening starts at 25, and offer STI testing",
+            "She does not need screening at any age because she has been vaccinated",
+            "Offer a self-collected HPV test now",
+            "Perform a Cervical Screening Test now, as she has been sexually active for 6 years",
+            "Perform a Pap smear and repeat it every 2 years"
+          ],
+          "answer": 0,
+          "explanation": "The National Cervical Screening Program starts at **25**, regardless of the age of first sexual activity. Under 25, HPV infections are very common and usually clear on their own, and cervical cancer is rare. Screening younger women led to overtreatment of lesions that would have regressed, without reducing cancer rates.\n\nVaccinated women **still need screening** from 25, because the vaccine does not cover all oncogenic HPV types. This visit is a good opportunity to offer chlamydia and other STI testing, which the Red Book recommends for sexually active young people.",
+          "whyWrong": [
+            "",
+            "Vaccinated people still need screening because protection is not complete.",
+            "Self-collection is a screening method and still starts at 25.",
+            "Screening starts at 25 regardless of when sexual activity began.",
+            "Pap smears every 2 years were replaced by 5-yearly HPV testing in 2017."
+          ],
+          "tags": [
+            "cervical screening",
+            "age"
+          ]
+        },
+        {
+          "id": "screening-prevention--cervical-screening--q4",
+          "discipline": "population-health",
+          "topic": "screening-prevention",
+          "difficulty": "exam",
+          "stem": "A 48-year-old Aboriginal woman in a remote community in the Northern Territory has not had cervical screening for many years. She chooses to self-collect a vaginal sample at the clinic. The result shows HPV type 16 detected.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Refer her for LLETZ",
+            "Ask her to return for a clinician-collected sample for cytology before deciding",
+            "Repeat the self-collected HPV test in 12 months",
+            "Repeat the HPV test in 6 weeks",
+            "Refer her for colposcopy"
+          ],
+          "answer": 4,
+          "explanation": "**HPV 16 or 18 detected** is a higher-risk result that warrants **colposcopy**, whatever the cytology. For a self-collected sample, cytology cannot be performed, but it is not needed to make this decision, so she should be referred **directly to colposcopy**, where cytology and biopsy can be done.\n\nBy contrast, if a self-collected sample shows HPV of other oncogenic types, she would need to return for a clinician-collected sample so reflex cytology can guide management. Avoiding unnecessary extra steps matters for a previously under-screened woman in a remote area.",
+          "whyWrong": [
+            "Treatment should follow colposcopy and histology.",
+            "Cytology is not needed to decide management after HPV 16/18; it can be done at colposcopy.",
+            "A 12-month repeat is for intermediate-risk results, not HPV 16/18.",
+            "A repeat in 6 weeks is for unsatisfactory samples.",
+            ""
+          ],
+          "ausPearl": "Self-collection has substantially improved participation among First Nations women and other under-screened groups.",
+          "tags": [
+            "self-collection",
+            "hpv 16",
+            "first nations"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "screening-prevention--cardiovascular-diabetes-and-kidney-risk",
+      "title": "Cardiovascular, diabetes and kidney risk assessment",
+      "minutes": 16,
+      "objectives": [
+        "Identify who should have an absolute cardiovascular risk assessment and from what age",
+        "Categorise 5-year CVD risk and match each category to management",
+        "Screen for type 2 diabetes using AUSDRISK and interpret glucose and HbA1c results",
+        "Perform a Kidney Health Check for people at risk of chronic kidney disease"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Absolute risk, not single risk factors",
+          "body": "Heart disease, stroke, diabetes and chronic kidney disease share risk factors and often occur together. Australian practice manages them through **absolute risk**: the chance of a cardiovascular event over the next 5 years, estimated from several risk factors together. A 50-year-old with a blood pressure of 150/90 but no other risk factors may have lower absolute risk than a 70-year-old smoker with diabetes and a normal blood pressure.\n\nWhy absolute risk? Treatments reduce **relative** risk by similar proportions at every level, so the **absolute** benefit, and therefore the NNT, depends on baseline risk. Treating high-risk people gives the most benefit per person treated.\n\nThe current reference is the **Australian guideline for assessing and managing cardiovascular disease risk (2023)** and its online **Australian CVD Risk Calculator**, which replaced the older Framingham-based tool and includes more factors."
+        },
+        {
+          "kind": "concepts",
+          "heading": "CVD risk assessment",
+          "body": "### Who to assess (people without known cardiovascular disease)\n- Adults aged **45 to 79**\n- People with **diabetes** from age **35**\n- **Aboriginal and Torres Strait Islander people** from age **30**\n\nThe calculator uses age, sex, smoking, systolic blood pressure, total and HDL cholesterol, diabetes, and other measures including kidney function and medication use. It should not be used for people who already have cardiovascular disease: they are already at high risk and need **secondary prevention**. Some conditions also place people at high risk without calculation, such as familial hypercholesterolaemia and moderate-to-severe chronic kidney disease (see the guideline for the full list).\n\n### Risk categories and management\n| 5-year risk | Category | Management |\n|---|---|---|\n| **10% or more** | High | Lifestyle advice **plus** blood pressure-lowering and lipid-lowering medicines (unless contraindicated or clinically inappropriate) |\n| **5% to under 10%** | Intermediate | Lifestyle advice; **consider** medicines through shared decision-making, taking account of reclassification factors |\n| **Under 5%** | Low | Lifestyle advice; reassess periodically |\n\n**Reclassification factors** can move someone to a higher or lower category. Examples include a family history of premature cardiovascular disease, ethnicity with higher known risk, severe mental illness, and a **coronary artery calcium (CAC) score** for those at intermediate risk. Review the guideline for the full list.\n\n**Communicating risk.** Present risk in natural frequencies: \"a 12% risk means that of 100 people like you, about 12 will have a heart attack or stroke in the next 5 years; treatment might bring that down to about 7 or 8.\" Show how stopping smoking or lowering blood pressure changes the number, which motivates lifestyle change and supports shared decisions.\n\nBlood pressure and lipids should be measured as part of the assessment. The Red Book recommends measuring blood pressure in adults at least every 2 years from 18, more often if elevated. Very high single risk factors (for example, markedly raised blood pressure or cholesterol) need treatment in their own right."
+        },
+        {
+          "kind": "application",
+          "heading": "Diabetes and kidney screening",
+          "body": "### Type 2 diabetes\n- Use **AUSDRISK** (the Australian Type 2 Diabetes Risk Assessment Tool), a short questionnaire, every 3 years from age **40**.\n- An AUSDRISK score of **12 or more** means high risk: test with **fasting plasma glucose or HbA1c**.\n- Test directly with a blood test (skip AUSDRISK) in groups at higher risk, including people with previous **gestational diabetes**, polycystic ovary syndrome, cardiovascular disease, and those on antipsychotics. **Aboriginal and Torres Strait Islander people** should be screened from **age 18**; AUSDRISK is not validated for them, so use a blood test (see the Red Book for frequency).\n\n**Diagnostic thresholds**\n| Test | Diabetes |\n|---|---|\n| HbA1c | **6.5% (48 mmol/mol) or more** |\n| Fasting plasma glucose | **7.0 mmol/L or more** |\n| Random or 2-hour OGTT glucose | **11.1 mmol/L or more** |\n\nIn an asymptomatic person, confirm a diagnostic result with a repeat test. A fasting glucose of **5.5 to 6.9 mmol/L** is indeterminate and should be followed with an **oral glucose tolerance test**. Impaired fasting glucose is 6.1 to 6.9 mmol/L; impaired glucose tolerance is a 2-hour value of 7.8 to 11.0 mmol/L. Pre-diabetes needs lifestyle change (weight loss of 5% to 10% and physical activity) and yearly retesting.\n\n### Chronic kidney disease: the Kidney Health Check\nCKD is often silent until late. Kidney Health Australia recommends a Kidney Health Check every 1 to 2 years for people at increased risk: **diabetes, hypertension, established cardiovascular disease, smoking, obesity, a family history of kidney failure, a history of acute kidney injury, and Aboriginal and Torres Strait Islander people**.\n\nThe check has three parts:\n1. **Blood pressure**\n2. **eGFR** (blood test)\n3. **Urine albumin-to-creatinine ratio (uACR)**, which detects albuminuria before eGFR falls\n\nCKD is diagnosed when eGFR is below 60 mL/min/1.73 m² and/or there is evidence of kidney damage such as **albuminuria**, persisting for **more than 3 months**. Albuminuria is also a strong independent predictor of cardiovascular risk. Management of early CKD is largely cardiovascular risk reduction, blood pressure control, and ACE inhibitors or ARBs for albuminuria."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- CVD risk assessment starts at **45** (35 with diabetes, **30 for First Nations people**).\n- High risk (10% or more over 5 years) means **both** a blood pressure-lowering and a lipid-lowering drug, plus lifestyle advice, even if the blood pressure and cholesterol are \"normal\".\n- Do not use the calculator for someone who has already had a heart attack or stroke.\n- AUSDRISK 12 or more means fasting glucose or HbA1c.\n- Diabetes, hypertension or First Nations background: Kidney Health Check with **uACR**, eGFR and blood pressure.\n- Trap: treating an isolated borderline risk factor in a low-risk young person with drugs, rather than lifestyle advice."
+        }
+      ],
+      "keyPoints": [
+        "Absolute 5-year CVD risk guides treatment, using the 2023 Australian CVD Risk Calculator.",
+        "Assess from 45 (35 with diabetes, 30 for First Nations people), up to 79.",
+        "High risk is 10% or more; intermediate 5% to under 10%; low under 5%.",
+        "High risk: lifestyle plus BP-lowering and lipid-lowering therapy.",
+        "AUSDRISK every 3 years from 40; a score of 12 or more means FPG or HbA1c.",
+        "Diabetes: HbA1c 6.5% (48 mmol/mol) or more, or FPG 7.0 mmol/L or more.",
+        "Kidney Health Check for at-risk people: BP, eGFR and urine ACR every 1-2 years."
+      ],
+      "redFlags": [
+        "Blood pressure of 180/110 mmHg or more, or symptoms of end-organ damage, needs prompt treatment regardless of calculated risk.",
+        "Rapidly falling eGFR or heavy albuminuria warrants nephrology referral."
+      ],
+      "contrast": [
+        {
+          "aspect": "Treatment trigger",
+          "india": "Individual thresholds (e.g. BP over 140/90 or LDL targets) drive drug treatment.",
+          "australia": "Absolute 5-year CVD risk drives treatment, using the Australian CVD Risk Calculator."
+        },
+        {
+          "aspect": "Age to start assessment",
+          "india": "NCD programme screens all adults from 30 for diabetes and hypertension.",
+          "australia": "CVD risk from 45; from 30 for First Nations people; diabetes screening from 40 with AUSDRISK."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "From what age should First Nations people have a CVD risk assessment?",
+          "back": "From age 30."
+        },
+        {
+          "front": "What 5-year CVD risk is 'high'?",
+          "back": "10% or more."
+        },
+        {
+          "front": "What AUSDRISK score triggers a blood test?",
+          "back": "12 or more."
+        },
+        {
+          "front": "HbA1c threshold for diagnosing diabetes?",
+          "back": "6.5% (48 mmol/mol) or more."
+        },
+        {
+          "front": "Three components of a Kidney Health Check?",
+          "back": "Blood pressure, eGFR and urine albumin-to-creatinine ratio."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "screening-prevention--cardiovascular-diabetes-and-kidney-risk--q1",
+          "discipline": "population-health",
+          "topic": "screening-prevention",
+          "difficulty": "core",
+          "stem": "A 64-year-old man attends a GP in Wollongong for a health check. He smokes 10 cigarettes a day and has no history of cardiovascular disease or diabetes. BP is 138/84 mmHg. Total cholesterol is 5.6 mmol/L and HDL 1.0 mmol/L. His eGFR is normal. The Australian CVD Risk Calculator estimates his 5-year risk of a cardiovascular event at 12%.\n\nIn addition to smoking cessation support and lifestyle advice, what is the most appropriate management?",
+          "options": [
+            "No medication; reassess in 5 years",
+            "Start a statin only",
+            "Start both a blood pressure-lowering drug and a statin",
+            "Start an antihypertensive only",
+            "Start aspirin 100 mg daily"
+          ],
+          "answer": 2,
+          "explanation": "A 5-year risk of **10% or more** is **high risk**. The Australian guideline recommends lifestyle advice **plus both blood pressure-lowering and lipid-lowering** treatment, unless contraindicated, even when individual risk factors are only modestly raised. Because benefit depends on absolute risk, people at high risk gain the most.\n\nAspirin is not recommended for primary prevention in most people, because bleeding risk offsets the benefit. Stopping smoking is the single most effective change he can make and will lower his calculated risk.",
+          "whyWrong": [
+            "High absolute risk warrants drug treatment, not just lifestyle advice.",
+            "A statin alone leaves out the recommended blood pressure-lowering therapy at high risk.",
+            "",
+            "An antihypertensive alone leaves out the recommended lipid-lowering therapy at high risk.",
+            "Aspirin is not recommended for primary prevention in most people because of bleeding."
+          ],
+          "ausPearl": "The 2023 Australian guideline replaced the older Framingham-based calculator with one derived from the NZ PREDICT equations and recalibrated for Australia.",
+          "tags": [
+            "cvd risk",
+            "absolute risk"
+          ]
+        },
+        {
+          "id": "screening-prevention--cardiovascular-diabetes-and-kidney-risk--q2",
+          "discipline": "population-health",
+          "topic": "screening-prevention",
+          "difficulty": "foundation",
+          "stem": "A 32-year-old Aboriginal man attends an Aboriginal Community Controlled Health Service in Alice Springs for his annual health assessment. He has no symptoms and no known medical conditions. He smokes.\n\nWhich cardiovascular risk management step is most appropriate at this visit?",
+          "options": [
+            "No CVD risk assessment until he is 45",
+            "Arrange an exercise stress test",
+            "Start a statin without further assessment",
+            "Perform an absolute CVD risk assessment including blood pressure and lipids",
+            "Perform a CVD risk assessment only if his BMI is over 30"
+          ],
+          "answer": 3,
+          "explanation": "**Aboriginal and Torres Strait Islander people** have a much higher and earlier burden of cardiovascular disease. The Australian guideline recommends **absolute CVD risk assessment from age 30** (compared with 45 for other Australians), using the Australian CVD Risk Calculator with blood pressure, lipids, smoking status and other factors.\n\nThe annual Aboriginal and Torres Strait Islander health assessment is an ideal time to do this, along with smoking cessation support, diabetes screening and a Kidney Health Check. Starting a statin without assessment and routine stress testing in an asymptomatic man are not appropriate.",
+          "whyWrong": [
+            "Assessment starts at 30 for First Nations people, not 45.",
+            "Stress testing is not a screening test for asymptomatic people.",
+            "Treatment decisions follow a risk assessment.",
+            "",
+            "BMI is not a prerequisite for risk assessment."
+          ],
+          "tags": [
+            "first nations",
+            "cvd risk"
+          ]
+        },
+        {
+          "id": "screening-prevention--cardiovascular-diabetes-and-kidney-risk--q3",
+          "discipline": "population-health",
+          "topic": "screening-prevention",
+          "difficulty": "core",
+          "stem": "A 49-year-old woman of South Asian background in Melbourne has an AUSDRISK score of 15 at a routine check. She has no symptoms of diabetes.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Arrange a fasting plasma glucose or HbA1c",
+            "Repeat AUSDRISK in 3 years",
+            "Diagnose type 2 diabetes and start metformin",
+            "Arrange a random urine glucose test",
+            "Refer to an endocrinologist"
+          ],
+          "answer": 0,
+          "explanation": "An **AUSDRISK score of 12 or more** indicates high risk of developing type 2 diabetes, and the next step is a blood test: **fasting plasma glucose or HbA1c**. Diabetes is diagnosed with HbA1c 6.5% (48 mmol/mol) or more or fasting glucose 7.0 mmol/L or more, confirmed by a repeat test in an asymptomatic person. A fasting glucose of 5.5 to 6.9 mmol/L should be followed by an oral glucose tolerance test.\n\nAUSDRISK is a risk questionnaire, not a diagnostic test. Urine glucose is insensitive, and specialist referral is not needed at this stage.",
+          "whyWrong": [
+            "",
+            "A high score needs a blood test now, not in 3 years.",
+            "AUSDRISK estimates risk; it cannot diagnose diabetes.",
+            "Urine glucose is too insensitive for screening.",
+            "Screening and diagnosis are managed in general practice."
+          ],
+          "ausPearl": "South Asian ethnicity scores points on AUSDRISK and is associated with diabetes at lower BMI.",
+          "tags": [
+            "diabetes screening",
+            "ausdrisk"
+          ]
+        },
+        {
+          "id": "screening-prevention--cardiovascular-diabetes-and-kidney-risk--q4",
+          "discipline": "population-health",
+          "topic": "screening-prevention",
+          "difficulty": "core",
+          "stem": "A 56-year-old man in Launceston has had type 2 diabetes for 6 years and hypertension. His last kidney tests were 3 years ago. He feels well.\n\nWhich set of tests is most appropriate to screen for chronic kidney disease?",
+          "options": [
+            "Serum urea and a renal ultrasound",
+            "eGFR, urine albumin-to-creatinine ratio and blood pressure",
+            "Urine dipstick for protein only",
+            "24-hour urine protein collection",
+            "Serum creatinine and urine microscopy"
+          ],
+          "answer": 1,
+          "explanation": "People with **diabetes** or **hypertension** should have a **Kidney Health Check** every 1 to 2 years (yearly in diabetes). It includes **blood pressure**, **eGFR** and a **urine albumin-to-creatinine ratio (uACR)**. The uACR detects albuminuria, the earliest marker of diabetic kidney disease, before eGFR falls. It also predicts cardiovascular risk and guides ACE inhibitor or ARB use.\n\nCKD is diagnosed if eGFR is below 60 and/or albuminuria persists for more than 3 months, so abnormal results should be repeated. Dipsticks miss microalbuminuria, and 24-hour collections are cumbersome and unnecessary for screening.",
+          "whyWrong": [
+            "Urea and ultrasound are not screening tests for CKD.",
+            "",
+            "Dipsticks are not sensitive enough to detect early albuminuria.",
+            "24-hour collections are impractical and not needed for screening.",
+            "Creatinine alone misses albuminuria, and microscopy is not a screening test."
+          ],
+          "tags": [
+            "ckd",
+            "kidney health check",
+            "diabetes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "screening-prevention--lifestyle-risk-and-health-checks",
+      "title": "Lifestyle risk factors and preventive health checks",
+      "minutes": 16,
+      "objectives": [
+        "Assess and advise on SNAP risk factors: smoking, nutrition, alcohol and physical activity",
+        "Deliver brief interventions for smoking and alcohol using Australian guidelines",
+        "Apply the stages of change and motivational interviewing to behaviour change",
+        "Plan age-appropriate preventive care, including health assessments for First Nations people and older adults"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The SNAP framework",
+          "body": "The RACGP organises lifestyle risk factors as **SNAP**: **S**moking, **N**utrition, **A**lcohol and **P**hysical activity (with weight often added). Together with high blood pressure and blood glucose, these drive most of Australia's preventable burden; **tobacco** and **overweight and obesity** are the two leading risk factors. Asking about them at routine visits, recording them, and giving brief advice is one of the most effective things a GP does."
+        },
+        {
+          "kind": "concepts",
+          "heading": "What to advise",
+          "body": "### Smoking\n- **Ask** every patient about smoking and record it; **Advise** every smoker to quit in a clear, personalised, non-judgemental way; **Help** by offering pharmacotherapy and referral (the RACGP's **Ask, Advise, Help** model).\n- First-line pharmacotherapy: **varenicline** or **combination nicotine replacement therapy** (a patch plus a fast-acting form such as gum, lozenge or spray). Bupropion is an alternative. Varenicline and NRT are PBS-subsidised.\n- Combining pharmacotherapy with behavioural support (**Quitline 13 78 48**) gives the best quit rates.\n- Nicotine vaping products are regulated as therapeutic goods and are legally available only through pharmacies; guidelines treat them as a second-line option for people who have not succeeded with first-line treatments and want to try them.\n\n### Alcohol (NHMRC Australian guidelines, 2020)\n- Healthy adults: **no more than 10 standard drinks a week and no more than 4 on any one day**.\n- **Under 18**: no alcohol. **Pregnant, planning pregnancy or breastfeeding**: no alcohol.\n- One **standard drink = 10 g of alcohol**.\n- Screen with **AUDIT-C** (or the full AUDIT). Brief intervention follows **FRAMES**: Feedback on risk, Responsibility is the patient's, Advice to change, Menu of options, Empathy, Self-efficacy.\n\n### Physical activity (Australian guidelines, adults 18-64)\n- **150 to 300 minutes of moderate** or **75 to 150 minutes of vigorous** activity a week, or a combination, and **muscle-strengthening activity on at least 2 days** a week. Minimise prolonged sitting.\n- Adults 65 and over: at least 30 minutes of moderate activity on most, preferably all, days, including balance and strength work to prevent falls.\n\n### Nutrition and weight\n- The **Australian Dietary Guidelines** recommend, for most adults, about **5 serves of vegetables and 2 of fruit** a day, wholegrains, and limiting foods high in saturated fat, added salt and sugar, and alcohol.\n- **BMI**: 25 to 29.9 overweight, 30 or more obese; lower cut-offs are used for people of Asian background.\n- **Waist circumference** (risk of metabolic complications): increased at **94 cm or more in men** and **80 cm or more in women**; substantially increased at 102 cm and 88 cm.\n- Losing **5% to 10%** of body weight improves blood pressure, glucose and lipids.\n\n### Sun protection\n**Slip** on clothing, **Slop** on SPF 30+ (or higher) sunscreen, **Slap** on a hat, **Seek** shade, **Slide** on sunglasses, especially when the UV index is 3 or above."
+        },
+        {
+          "kind": "application",
+          "heading": "Changing behaviour and planning preventive care",
+          "body": "### Stages of change (Prochaska and DiClemente)\n| Stage | What the patient says | Your approach |\n|---|---|---|\n| **Precontemplation** | \"I'm not interested in quitting.\" | Raise awareness, give brief personalised information, leave the door open |\n| **Contemplation** | \"I know I should, but...\" (ambivalent) | **Motivational interviewing**: explore pros and cons, build discrepancy |\n| **Preparation** | \"I want to quit next month.\" | Set a date, plan, prescribe pharmacotherapy |\n| **Action** | \"I stopped 2 weeks ago.\" | Support, manage withdrawal and triggers |\n| **Maintenance** | \"I haven't smoked for 8 months.\" | Relapse prevention |\nRelapse is common and is a normal part of the cycle, not a failure.\n\n**Motivational interviewing** uses **OARS**: Open questions, Affirmations, Reflective listening, Summarising. It draws out the patient's own reasons for change rather than lecturing.\n\n### Medicare health assessments and checks\n- **Aboriginal and Torres Strait Islander health assessment (MBS item 715)**: available **annually for people of all ages**. It covers growth and development in children, immunisation, SNAP risk factors, CVD risk from 30, diabetes and kidney screening, ear and eye health, oral health, mental health and social and emotional wellbeing, and sexual health.\n- **Annual health assessment for people aged 75 and over**: function, falls, cognition, continence, vision, hearing, medicines, immunisation and social support.\n- A one-off **health assessment for people aged 45 to 49** at risk of chronic disease, and a **type 2 diabetes risk evaluation for people aged 40 to 49** with a high AUSDRISK score.\n\n### Other preventive activities (Red Book highlights)\n- **Chlamydia**: offer annual testing to sexually active people aged 15 to 29.\n- **Immunisation**: check against the Australian Immunisation Handbook at every opportunity. For example, influenza vaccine annually (free for people 65 and over, First Nations people from 6 months, pregnant women and people with certain medical conditions); shingles vaccine (free for people aged 65 and over and First Nations people from 50); pneumococcal vaccine for older adults; dTpa in every pregnancy.\n- **Osteoporosis**: bone densitometry (DXA) is Medicare-funded for everyone aged 70 and over, and earlier for those with risk factors such as a fragility fracture or long-term glucocorticoid use.\n- **Falls** risk review in older adults.\n- **Diabetic eye screening**: at least every 2 years, yearly for higher-risk groups including First Nations people."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- Alcohol limit questions: **10 standard drinks a week, 4 on any day**; none in pregnancy or under 18.\n- A smoker who \"wants to quit\": combination NRT or varenicline **plus** Quitline referral beats either alone.\n- Identify the stage of change from the patient's quote, then choose the matching approach.\n- First Nations patient of any age: the **715 health assessment** is annual.\n- Motivational interviewing is the approach for ambivalence; lecturing is always a wrong option.\n- Waist 94 cm (men) or 80 cm (women) means increased metabolic risk."
+        }
+      ],
+      "keyPoints": [
+        "SNAP: smoking, nutrition, alcohol, physical activity; tobacco and obesity are the leading preventable risk factors.",
+        "Smoking: Ask, Advise, Help; varenicline or combination NRT plus Quitline (13 78 48).",
+        "Alcohol: no more than 10 standard drinks a week and 4 on any day; none in pregnancy or under 18.",
+        "Physical activity: 150-300 min moderate or 75-150 min vigorous weekly, plus strength on 2 days.",
+        "Waist circumference risk: 94 cm or more in men, 80 cm or more in women.",
+        "Stages of change guide the approach; motivational interviewing uses OARS.",
+        "The Aboriginal and Torres Strait Islander health assessment (item 715) is annual for all ages."
+      ],
+      "redFlags": [
+        "Alcohol withdrawal risk (heavy daily drinking, previous seizures or delirium tremens) needs a supervised withdrawal plan.",
+        "Rapid unintentional weight loss is a symptom to investigate, not a lifestyle success."
+      ],
+      "contrast": [
+        {
+          "aspect": "Alcohol guidance",
+          "india": "No widely used national drinking limit; advice is often abstinence-focused.",
+          "australia": "NHMRC guideline: no more than 10 standard drinks a week and 4 on any day; standard drink is 10 g."
+        },
+        {
+          "aspect": "Smoking cessation",
+          "india": "Advice alone is common; pharmacotherapy is less often prescribed.",
+          "australia": "Ask, Advise, Help with PBS-subsidised varenicline or NRT plus Quitline referral."
+        },
+        {
+          "aspect": "Structured health checks",
+          "india": "No routine funded health checks in most public primary care.",
+          "australia": "Medicare-funded health assessments, including annual checks for First Nations people of all ages and people 75+."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "NHMRC alcohol guideline for healthy adults?",
+          "back": "No more than 10 standard drinks a week and no more than 4 on any one day."
+        },
+        {
+          "front": "How much alcohol is in an Australian standard drink?",
+          "back": "10 g."
+        },
+        {
+          "front": "First-line smoking cessation pharmacotherapy?",
+          "back": "Varenicline or combination NRT (patch plus fast-acting form)."
+        },
+        {
+          "front": "Quitline number?",
+          "back": "13 78 48 (13 QUIT)."
+        },
+        {
+          "front": "How often can an Aboriginal and Torres Strait Islander health assessment (item 715) be done?",
+          "back": "Annually, for people of all ages."
+        },
+        {
+          "front": "What does OARS stand for in motivational interviewing?",
+          "back": "Open questions, Affirmations, Reflective listening, Summarising."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "screening-prevention--lifestyle-risk-and-health-checks--q1",
+          "discipline": "population-health",
+          "topic": "screening-prevention",
+          "difficulty": "foundation",
+          "stem": "A 38-year-old healthy man in Canberra asks how much alcohol he can safely drink. He is not taking any medications and has no medical conditions.\n\nAccording to the NHMRC Australian guidelines, what is the recommended limit?",
+          "options": [
+            "No more than 2 standard drinks on any day and 14 a week",
+            "No more than 4 standard drinks on any day and 10 a week",
+            "No more than 6 standard drinks on any day and 20 a week",
+            "No more than 1 standard drink a day",
+            "Any amount if he has two alcohol-free days a week"
+          ],
+          "answer": 1,
+          "explanation": "The **2020 NHMRC guidelines** advise healthy adults to drink **no more than 10 standard drinks a week and no more than 4 standard drinks on any one day** to reduce the risk of harm from alcohol-related disease or injury. An Australian standard drink contains **10 g of alcohol**.\n\nPeople under 18, and women who are pregnant, planning pregnancy or breastfeeding, should not drink at all. The less you drink, the lower your risk; there is no completely safe level.",
+          "whyWrong": [
+            "Two a day was the older 2009 Australian advice and 14 a week is a UK figure; neither is the current NHMRC guideline.",
+            "",
+            "These limits are well above the current guideline.",
+            "The guideline is expressed as weekly and daily maxima, not one drink a day.",
+            "Alcohol-free days do not make unlimited drinking safe."
+          ],
+          "tags": [
+            "alcohol",
+            "nhmrc"
+          ]
+        },
+        {
+          "id": "screening-prevention--lifestyle-risk-and-health-checks--q2",
+          "discipline": "population-health",
+          "topic": "screening-prevention",
+          "difficulty": "core",
+          "stem": "A 47-year-old woman in Adelaide has smoked 20 cigarettes a day for 30 years. At a consultation for back pain, she says, \"I know smoking is bad for me and I want to stop. I'm planning to quit on my birthday in 3 weeks.\" She has tried stopping without help twice before.\n\nWhat is the most effective approach?",
+          "options": [
+            "Advise her to cut down gradually over 3 months before quitting",
+            "Advise cold turkey, as she is motivated",
+            "Give her a pamphlet and review in 6 months",
+            "Recommend switching to nicotine vaping as first-line treatment",
+            "Prescribe varenicline or combination NRT and refer her to Quitline"
+          ],
+          "answer": 4,
+          "explanation": "She is in the **preparation** stage: motivated with a set quit date. The most effective approach combines **pharmacotherapy** (varenicline, or combination NRT with a patch plus a fast-acting form) with **behavioural support** such as **Quitline (13 78 48)**. Together these give markedly higher quit rates than either alone or unassisted attempts.\n\nPrevious unassisted attempts failing is a common reason to offer more support, not less. Nicotine vapes are regarded as second-line in Australian guidance.",
+          "whyWrong": [
+            "Gradual reduction without pharmacotherapy is less effective than supported abrupt cessation.",
+            "Unassisted quitting has the lowest success rate.",
+            "A pamphlet alone misses the chance to support a motivated patient.",
+            "Vaping products are second-line, not first-line, in Australian guidance.",
+            ""
+          ],
+          "ausPearl": "Varenicline and nicotine patches are PBS-subsidised; Quitline offers free call-back counselling.",
+          "tags": [
+            "smoking cessation",
+            "stages of change"
+          ]
+        },
+        {
+          "id": "screening-prevention--lifestyle-risk-and-health-checks--q3",
+          "discipline": "population-health",
+          "topic": "screening-prevention",
+          "difficulty": "foundation",
+          "stem": "A 9-year-old Torres Strait Islander girl is brought to a general practice in Cairns by her grandmother for a sore throat. Her records show she has not had a health check for 2 years.\n\nWhich preventive activity is most appropriate to offer?",
+          "options": [
+            "An Aboriginal and Torres Strait Islander health assessment, available annually at any age",
+            "A health assessment only once she turns 15",
+            "A health assessment only if she has a chronic condition",
+            "A 45 to 49 year old health assessment for her grandmother instead",
+            "No preventive assessment until she has symptoms"
+          ],
+          "answer": 0,
+          "explanation": "The **Aboriginal and Torres Strait Islander health assessment (MBS item 715)** can be done **annually for people of all ages**, including children. For a child, it covers growth, development, immunisation status, hearing and ear health (otitis media is common), eye health, oral health, nutrition, skin, social and emotional wellbeing, and family and environmental factors.\n\nOpportunistic offering during an acute visit is good practice, as some families attend infrequently. Arrange a separate appointment if the acute problem takes priority, and involve an Aboriginal Health Worker where available.",
+          "whyWrong": [
+            "",
+            "There is no minimum age for the assessment.",
+            "A chronic condition is not required.",
+            "Her grandmother's eligibility does not replace the child's own assessment.",
+            "Preventive care is aimed at people without symptoms."
+          ],
+          "tags": [
+            "first nations",
+            "health assessment",
+            "child health"
+          ]
+        },
+        {
+          "id": "screening-prevention--lifestyle-risk-and-health-checks--q4",
+          "discipline": "population-health",
+          "topic": "screening-prevention",
+          "difficulty": "core",
+          "stem": "A 55-year-old man in Perth drinks about 40 standard drinks a week. When his GP raises this, he says, \"I know I drink more than I should, and my wife nags me, but it's how I relax after work and I'm not sure I could cut down.\"\n\nWhich stage of change is he in, and what is the best approach?",
+          "options": [
+            "Precontemplation; give information and leave the door open",
+            "Action; support and manage triggers",
+            "Preparation; set a quit date and plan withdrawal",
+            "Contemplation; use motivational interviewing to explore his ambivalence",
+            "Maintenance; focus on relapse prevention"
+          ],
+          "answer": 3,
+          "explanation": "He acknowledges that his drinking is a problem (\"I drink more than I should\") but is **ambivalent** about changing: he is in **contemplation**. The matching approach is **motivational interviewing**: open questions, affirmation, reflective listening and summarising, to explore the pros and cons and help him voice his own reasons for change.\n\nSomeone in precontemplation does not see a problem. Preparation involves a plan and a date. At 40 standard drinks a week, also assess for dependence and withdrawal risk before any abrupt reduction.",
+          "whyWrong": [
+            "He already recognises the problem, so he is beyond precontemplation.",
+            "He has not yet changed his behaviour.",
+            "He has not committed to change or made a plan.",
+            "",
+            "Maintenance follows sustained change."
+          ],
+          "tags": [
+            "alcohol",
+            "motivational interviewing",
+            "stages of change"
+          ]
+        }
+      ]
+    }
+  ]
+}

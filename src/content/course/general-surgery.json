@@ -1,0 +1,1136 @@
+{
+  "topic": "general-surgery",
+  "intro": "General surgery on the AMC is about the acute abdomen: appendicitis, gallstone disease, pancreatitis, bowel obstruction, hernias, diverticulitis, mesenteric ischaemia and common anorectal problems. Questions test safe first steps (resuscitation, analgesia, the right first imaging test) and recognising who is sick enough to need a surgeon now, reflecting how an Australian intern works in the emergency department and on the surgical ward.",
+  "lessons": [
+    {
+      "id": "general-surgery--acute-abdomen-and-appendicitis",
+      "title": "The acute abdomen and appendicitis",
+      "minutes": 16,
+      "objectives": [
+        "Take a structured approach to an adult with acute abdominal pain, including resuscitation and analgesia",
+        "Choose the right first imaging test for suspected appendicitis in adults, children and pregnancy",
+        "Recognise peritonitis and perforated viscus and know who needs the surgeon now",
+        "Manage appendicitis from diagnosis to theatre, including antibiotics and fluids"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why the acute abdomen matters",
+          "body": "Abdominal pain is one of the commonest reasons Australians present to an emergency department, and the AMC uses it to test whether you can **separate the sick from the not-yet-sick** and pick a sensible first investigation. The intern's job is not to operate. It is to resuscitate, relieve pain, find the likely cause, and call the surgical registrar early for anyone with peritonism, shock or a surgical diagnosis.\n\n**Appendicitis** is the commonest surgical emergency in the developed world, with a lifetime risk of roughly 7-8%. It peaks in the second and third decades but occurs at any age. The elderly and the very young perforate more often because they present atypically and late."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "How appendicitis develops",
+          "body": "The appendiceal lumen becomes **obstructed**, usually by a faecolith or lymphoid hyperplasia (common in children after a viral illness), rarely by tumour. Mucus keeps being secreted, the lumen distends, venous outflow is compressed and the wall becomes ischaemic. Bacteria invade the wall, which becomes gangrenous and may perforate, typically after 24-72 hours of symptoms.\n\nThis sequence explains the classic pain pattern:\n- **Early:** distension of a midgut viscus stimulates visceral afferents, felt as vague **periumbilical** pain.\n- **Later:** inflammation reaches the parietal peritoneum, which is somatically innervated, so pain **localises to the right iliac fossa** and becomes sharp and worse with movement or coughing.\n- **Perforation:** generalised peritonitis, or a walled-off appendix mass or abscess if omentum and bowel contain it.\n\nA retrocaecal appendix may give flank pain and little guarding; a pelvic appendix may cause diarrhoea, urinary frequency or tenderness only on rectal examination."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Assessing acute abdominal pain",
+          "body": "**History:** site and migration of pain, onset (sudden suggests perforation, rupture or ischaemia), character (colicky means a hollow viscus; constant means inflammation or ischaemia), vomiting, bowel habit, urinary symptoms, and in every woman of reproductive age, the last menstrual period.\n\n**Classic appendicitis:** periumbilical pain migrating to the right iliac fossa, **anorexia**, nausea, low-grade fever. Pain usually precedes vomiting (vomiting first favours gastroenteritis).\n\n**Examination signs:**\n- Tenderness maximal at **McBurney's point**, with guarding and rebound or percussion tenderness\n- **Rovsing's sign** (pressure in the left iliac fossa causes right iliac fossa pain)\n- **Psoas sign** (retrocaecal) and **obturator sign** (pelvic)\n- Pain on coughing or on the bumpy car ride in (peritoneal irritation)\n\n**Peritonitis** looks different: the patient lies still, has a rigid abdomen, and is tachycardic. A patient writhing about is more likely to have colic (renal or biliary).\n\n**Scores** such as Alvarado or the Appendicitis Inflammatory Response (AIR) score help stratify risk: low scores support observation or discharge with review; high scores support surgical referral."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations and imaging choice",
+          "body": "**Bloods:** FBC (neutrophilia), CRP, UEC, LFTs, lipase, and a group and hold if theatre is likely. A normal WCC and CRP make appendicitis less likely but do not exclude it.\n\n**Always:** urinalysis (UTI, haematuria in renal colic, though a pelvic appendix can cause sterile pyuria) and a **beta-hCG in every woman of reproductive age**, since ruptured ectopic pregnancy is the lethal mimic.\n\n**Imaging for suspected appendicitis:**\n\n| Patient | First imaging | Why |\n|---|---|---|\n| Child | Ultrasound | No radiation; thin patients image well |\n| Pregnant woman | Ultrasound, then MRI if inconclusive | Avoid ionising radiation |\n| Most adults | CT abdomen and pelvis with IV contrast | High sensitivity and specificity, finds alternative diagnoses |\n| Young woman, equivocal | Ultrasound first is reasonable (pelvic pathology) | Assesses ovaries |\n\n**Suspected perforated viscus:** an **erect chest X-ray** may show free gas under the diaphragm, but CT is more sensitive. Plain abdominal films have little role in appendicitis."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Right iliac fossa pain look-alikes",
+          "body": "| Condition | Discriminating clue |\n|---|---|\n| Ectopic pregnancy | Positive beta-hCG, amenorrhoea, PV bleeding, shock |\n| Ovarian torsion or ruptured cyst | Sudden onset, pelvic pain, adnexal mass on ultrasound |\n| Pelvic inflammatory disease | Bilateral pain, cervical motion tenderness, discharge |\n| Mesenteric adenitis | Child, recent viral illness, high fever, less localised |\n| Renal colic or pyelonephritis | Loin to groin pain, haematuria, restless |\n| Terminal ileal Crohn's | Longer history, diarrhoea, weight loss |\n| Gastroenteritis | Vomiting and diarrhoea before pain, diffuse |\n| Meckel's diverticulitis | Clinically identical; found at surgery |\n\nIn older adults consider caecal cancer, diverticulitis (right-sided in some) and leaking aneurysm."
+        },
+        {
+          "kind": "management",
+          "heading": "Managing the acute abdomen and appendicitis",
+          "body": "**Everyone:** IV access, bloods, **analgesia early** (IV opioid titrated to effect; giving analgesia does not mask the diagnosis and is expected), antiemetic, nil by mouth if surgery likely, IV fluids, and a surgical review.\n\n**Shock or peritonitis:** resuscitate (fluids, oxygen, catheter to monitor urine output), take blood cultures, start broad IV antibiotics per eTG, and call the surgical registrar urgently.\n\n**Appendicitis:**\n- **Laparoscopic appendicectomy** is standard.\n- A single dose of prophylactic antibiotics (typically cefazolin plus metronidazole per eTG) is given before surgery for uncomplicated appendicitis. Perforated or gangrenous appendicitis needs a treatment course of broad-spectrum IV antibiotics per eTG.\n- **Non-operative management** with antibiotics alone is an option in selected adults with uncomplicated, CT-confirmed appendicitis, but recurrence is common; this is a surgical decision.\n- **Appendix mass or abscess:** antibiotics with percutaneous drainage of an abscess, followed by consideration of interval appendicectomy and colonoscopy in older patients (to exclude underlying caecal cancer).\n\n**Equivocal case:** admit for observation and serial examination rather than discharging with uncertainty. If discharged, give clear safety-netting advice to return if pain worsens, fever develops or vomiting persists."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- The **first step** in any unwell abdominal patient is resuscitation, not imaging.\n- A woman of reproductive age with abdominal pain gets a **pregnancy test** before anything else is decided. \"Ruptured ectopic\" is the usual trap.\n- Imaging trap: **ultrasound** in children and pregnancy; **CT** in most adults.\n- Withholding analgesia \"so the surgeon can examine\" is wrong.\n- A child with fever, recent URTI and vague tenderness that moves with position suggests mesenteric adenitis; a child with anorexia and fixed right iliac fossa tenderness suggests appendicitis."
+        }
+      ],
+      "keyPoints": [
+        "Appendicitis: periumbilical pain migrating to the right iliac fossa, anorexia, low-grade fever.",
+        "Ultrasound first in children and pregnancy (MRI if inconclusive in pregnancy); CT in most adults.",
+        "Beta-hCG in every woman of reproductive age with abdominal pain.",
+        "Early IV opioid analgesia is appropriate and does not mask the diagnosis.",
+        "Peritonism or shock: resuscitate, cultures, IV antibiotics and urgent surgical review.",
+        "Laparoscopic appendicectomy is standard; appendix abscess is drained and treated with antibiotics first.",
+        "Erect chest X-ray can show free subdiaphragmatic gas, but CT is more sensitive for perforation."
+      ],
+      "redFlags": [
+        "Rigid abdomen, tachycardia or hypotension (peritonitis or haemorrhage)",
+        "Positive pregnancy test with abdominal pain (ectopic until proven otherwise)",
+        "Elderly patient with pain out of proportion or back pain (mesenteric ischaemia, leaking AAA)",
+        "Sudden severe pain with free gas on imaging (perforated viscus)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Imaging suspected appendicitis in adults",
+          "india": "Often clinical diagnosis with ultrasound, operating on clinical grounds.",
+          "australia": "CT with IV contrast is routine for most adults; ultrasound first in children and pregnancy."
+        },
+        {
+          "aspect": "Analgesia before surgical review",
+          "india": "Sometimes withheld until the surgeon has examined.",
+          "australia": "Early titrated IV opioid is expected and does not reduce diagnostic accuracy."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "What is Rovsing's sign?",
+          "back": "Pressure in the left iliac fossa produces pain in the right iliac fossa; suggests appendicitis."
+        },
+        {
+          "front": "First imaging for suspected appendicitis in a pregnant woman?",
+          "back": "Ultrasound; MRI if ultrasound is inconclusive."
+        },
+        {
+          "front": "First imaging for suspected appendicitis in a non-pregnant adult?",
+          "back": "CT abdomen and pelvis with IV contrast."
+        },
+        {
+          "front": "Which test must every woman of reproductive age with abdominal pain have?",
+          "back": "Urine or serum beta-hCG (exclude ectopic pregnancy)."
+        },
+        {
+          "front": "Why does appendicitis pain move to the right iliac fossa?",
+          "back": "Early visceral (midgut, periumbilical) pain becomes somatic once the parietal peritoneum is inflamed."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "general-surgery--acute-abdomen-and-appendicitis--q1",
+          "discipline": "adult-surgery",
+          "topic": "general-surgery",
+          "difficulty": "foundation",
+          "stem": "A 23-year-old woman presents to the emergency department with 18 hours of abdominal pain that began around the umbilicus and is now in the right iliac fossa. She has no appetite and vomited once after the pain started. Her last menstrual period was 6 weeks ago. Temperature is 37.8°C, heart rate 96/min, blood pressure 118/74 mmHg. She has tenderness and guarding at McBurney's point.\n\nWhich investigation should be performed first?",
+          "options": [
+            "CT abdomen and pelvis with IV contrast",
+            "Transvaginal pelvic ultrasound",
+            "Serum lipase",
+            "Urine or serum beta-hCG",
+            "Erect chest X-ray"
+          ],
+          "answer": 3,
+          "explanation": "The history sounds like **appendicitis**, but she is a woman of reproductive age with a period 6 weeks ago. The first and non-negotiable test is a **pregnancy test**. A ruptured ectopic pregnancy can mimic appendicitis and is immediately life-threatening, and the result changes everything that follows: whether CT (radiation) is appropriate, whether ultrasound should be transvaginal, and who needs to be involved (gynaecology).\n\nOnce pregnancy is excluded, CT is a reasonable choice in an adult with this picture, or ultrasound first in a young woman where ovarian pathology is in the differential. **Rule:** beta-hCG before imaging in any woman who could be pregnant.",
+          "whyWrong": [
+            "CT may be appropriate later, but pregnancy must be excluded before exposing her to radiation.",
+            "Ultrasound may follow, but the pregnancy result determines which scan and how urgently.",
+            "Lipase is for pancreatitis, which does not fit migrating right iliac fossa pain.",
+            "",
+            "An erect chest X-ray looks for free gas and is not the first test in suspected appendicitis."
+          ],
+          "tags": [
+            "appendicitis",
+            "ectopic pregnancy",
+            "investigation"
+          ]
+        },
+        {
+          "id": "general-surgery--acute-abdomen-and-appendicitis--q2",
+          "discipline": "adult-surgery",
+          "topic": "general-surgery",
+          "difficulty": "core",
+          "stem": "A 9-year-old boy is brought to a regional emergency department with 24 hours of abdominal pain, anorexia and one episode of vomiting. Temperature is 37.9°C. He is tender in the right iliac fossa with mild guarding. WCC is 14.2 x 10^9/L and CRP 48 mg/L.\n\nWhat is the most appropriate imaging?",
+          "options": [
+            "Plain abdominal X-ray",
+            "Ultrasound of the abdomen",
+            "CT abdomen and pelvis with IV contrast",
+            "MRI abdomen",
+            "No imaging; discharge with review in 48 hours"
+          ],
+          "answer": 1,
+          "explanation": "In children, **ultrasound is the first-line imaging** for suspected appendicitis. Children are thin, so the appendix is often visible, and ultrasound avoids ionising radiation, to which children are more sensitive (lifetime cancer risk from CT). A non-compressible appendix over about 6 mm with surrounding inflammation supports the diagnosis.\n\nCT is reserved for cases where ultrasound is inconclusive and the diagnosis remains uncertain after surgical review and observation. With a high-risk score (fever, anorexia, vomiting, localised tenderness, raised WCC), some surgeons would operate without imaging, but discharging this child is unsafe.",
+          "whyWrong": [
+            "Plain films rarely help in appendicitis and still expose the child to radiation.",
+            "",
+            "CT is second-line in children because of radiation; ultrasound comes first.",
+            "MRI is used in pregnancy and is less available and slower in children.",
+            "He has a high pretest probability, so discharge is unsafe."
+          ],
+          "tags": [
+            "appendicitis",
+            "paediatrics",
+            "imaging"
+          ]
+        },
+        {
+          "id": "general-surgery--acute-abdomen-and-appendicitis--q3",
+          "discipline": "adult-surgery",
+          "topic": "general-surgery",
+          "difficulty": "exam",
+          "stem": "A 71-year-old man presents with 5 days of right iliac fossa pain and fever. He is now eating and his pain is improving. Temperature is 38.2°C. There is a tender mass in the right iliac fossa without generalised peritonism. CT shows a 5 cm rim-enhancing collection adjacent to an inflamed appendix.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Emergency open appendicectomy",
+            "Oral amoxicillin-clavulanate and discharge",
+            "IV antibiotics and percutaneous drainage of the collection",
+            "Urgent colonoscopy",
+            "Laparoscopic right hemicolectomy"
+          ],
+          "answer": 2,
+          "explanation": "This is an **appendix abscess**: a perforated appendicitis walled off by omentum and bowel, typical of a delayed presentation. Early surgery in this setting is technically difficult (inflamed, friable tissue) and more likely to need bowel resection.\n\nStandard management is **IV antibiotics plus image-guided percutaneous drainage** of a sizeable abscess. After recovery, colonoscopy is important in an older patient because a **caecal cancer** can present as appendicitis or an appendiceal mass, and interval appendicectomy may be considered. **Clue:** a long history, a localised mass and a contained collection point to conservative management; generalised peritonitis would point to theatre.",
+          "whyWrong": [
+            "Operating on an established abscess risks bowel injury and resection; drainage and antibiotics come first.",
+            "Oral antibiotics alone at home are inadequate for a 5 cm abscess with fever.",
+            "",
+            "Colonoscopy is done later after recovery, not during acute inflammation.",
+            "Hemicolectomy is not first-line; it may be needed only if a tumour is found."
+          ],
+          "ausPearl": "Follow-up colonoscopy after an appendix mass in older adults is a common Australian surgical practice point because of caecal cancer.",
+          "tags": [
+            "appendicitis",
+            "abscess",
+            "management"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "general-surgery--gallstone-disease",
+      "title": "Gallstones, cholecystitis and cholangitis",
+      "minutes": 17,
+      "objectives": [
+        "Distinguish biliary colic, acute cholecystitis, choledocholithiasis and cholangitis on history, examination and bloods",
+        "Order and interpret the right first investigation (ultrasound, LFTs, MRCP)",
+        "Manage acute cholecystitis and recognise cholangitis as a sepsis emergency needing drainage",
+        "Recognise painless obstructive jaundice as possible malignancy"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Gallstones in Australia",
+          "body": "Gallstones are very common in Australian adults, particularly women, older people, those with obesity, rapid weight loss, pregnancy or a family history. Most people with stones never have symptoms and **asymptomatic gallstones found incidentally do not need surgery**.\n\nOnce symptoms occur, the stone can cause a spectrum of problems, and the AMC wants you to name which one from a short vignette:\n- **Biliary colic:** transient obstruction of the cystic duct\n- **Acute cholecystitis:** persistent cystic duct obstruction with gallbladder inflammation\n- **Choledocholithiasis:** stone in the common bile duct (CBD)\n- **Ascending cholangitis:** infected obstructed CBD\n- **Gallstone pancreatitis:** stone passing through the ampulla\n- **Gallstone ileus:** a large stone erodes into the bowel and obstructs the terminal ileum (rare, elderly women)"
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why stones form and what they block",
+          "body": "Most stones in Australia are **cholesterol or mixed stones**, forming when bile is supersaturated with cholesterol, the gallbladder empties poorly (stasis), and nucleation occurs. Pigment stones follow haemolysis (sickle cell, spherocytosis) or biliary infection.\n\nThe site of obstruction determines the picture:\n- **Cystic duct, briefly:** the gallbladder contracts against the stone, causing colic that settles when the stone falls back. No inflammation, so no fever and normal bloods.\n- **Cystic duct, persistently:** chemical then bacterial inflammation of the gallbladder wall: cholecystitis. LFTs are usually normal or mildly deranged because the CBD is patent.\n- **CBD:** bile cannot drain, so bilirubin, ALP and GGT rise (obstructive or cholestatic pattern), with pale stools and dark urine.\n- **Infected CBD:** stasis plus bacteria from the gut produces pus under pressure; bacteria enter the bloodstream quickly, causing sepsis."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features: telling them apart",
+          "body": "| | Biliary colic | Acute cholecystitis | Choledocholithiasis | Cholangitis |\n|---|---|---|---|---|\n| Pain | RUQ or epigastric, often after fatty meal, settles within hours (under 6) | RUQ, constant, lasts over 6 hours, may radiate to right shoulder | RUQ, may be painless | RUQ |\n| Fever | No | Yes | No | Yes, often rigors |\n| Jaundice | No | Usually no | Yes | Yes |\n| Murphy's sign | Negative | **Positive** | Variable | Variable |\n| WCC/CRP | Normal | Raised | Normal | Raised |\n| LFTs | Normal | Normal or mild rise | Obstructive pattern | Obstructive pattern |\n\n**Murphy's sign:** with fingers under the right costal margin, the patient catches their breath on deep inspiration as the inflamed gallbladder descends onto the hand; it should be negative on the left.\n\n**Charcot's triad** (cholangitis): fever, jaundice and RUQ pain. **Reynolds' pentad** adds hypotension and confusion and signals severe, septic cholangitis.\n\n**Courvoisier's law:** a palpable, non-tender gallbladder with painless jaundice is unlikely to be due to stones (a chronically scarred stone-filled gallbladder does not distend) and suggests **pancreatic head or distal bile duct cancer**."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "**Ultrasound of the abdomen is the first test** for suspected biliary disease. It shows:\n- Stones (echogenic with posterior acoustic shadowing)\n- Cholecystitis: gallbladder wall thickening (over about 3 mm), pericholecystic fluid, and a sonographic Murphy's sign\n- A dilated CBD (over about 6 mm, larger after cholecystectomy or in the elderly), suggesting a distal obstruction\n\n**Bloods:** FBC, CRP, LFTs, lipase (to exclude pancreatitis), UEC, coagulation (before any procedure), and **blood cultures** if febrile.\n\n**Further imaging:**\n- **MRCP** to confirm CBD stones when suspected but not seen on ultrasound (non-invasive, diagnostic only)\n- **ERCP** is both diagnostic and therapeutic (sphincterotomy and stone extraction), used when drainage is needed, as it carries a risk of pancreatitis, bleeding and perforation\n- **Endoscopic ultrasound** is an alternative for small CBD stones\n- **CT** if the diagnosis is unclear, complications are suspected, or malignancy is a concern (painless jaundice, weight loss)"
+        },
+        {
+          "kind": "differentials",
+          "heading": "Differentials for RUQ pain",
+          "body": "- **Hepatitis:** markedly raised ALT/AST (hepatocellular pattern) rather than ALP/GGT\n- **Peptic ulcer disease:** epigastric pain related to meals, NSAID use; perforation gives free gas\n- **Acute pancreatitis:** epigastric pain radiating to the back, lipase over 3 times the upper limit\n- **Right lower lobe pneumonia:** cough, crackles, CXR changes\n- **Pyelonephritis:** loin pain, pyuria\n- **Acute coronary syndrome:** inferior MI can present with epigastric pain; do an ECG\n- **Fitz-Hugh-Curtis syndrome:** perihepatitis in a young woman with pelvic inflammatory disease\n- **Liver abscess:** fever and RUQ pain; amoebic abscess is rare in Australia except in travellers or migrants"
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Biliary colic:** analgesia (NSAID or opioid), low-fat diet advice, and referral for **elective laparoscopic cholecystectomy**, since recurrent attacks and complications are common once symptoms begin.\n\n**Acute cholecystitis:**\n- Admit, nil by mouth initially, IV fluids, analgesia, antiemetic\n- **IV antibiotics** per eTG (the regimen depends on severity)\n- **Early laparoscopic cholecystectomy**, ideally during the same admission (within about 72 hours to a week of onset), which reduces readmission and total hospital time compared with delayed surgery\n- For patients too unwell for surgery (e.g. frail elderly), a **percutaneous cholecystostomy** drains the gallbladder\n- Complications: empyema, gangrene, perforation; acalculous cholecystitis in critically ill patients\n\n**Choledocholithiasis:** ERCP with stone extraction (or surgical CBD exploration), then cholecystectomy.\n\n**Ascending cholangitis: a sepsis emergency.**\n1. Resuscitate: oxygen, IV fluids, sepsis bundle, **blood cultures**\n2. **IV broad-spectrum antibiotics** promptly per eTG\n3. **Urgent biliary drainage**, usually by ERCP (percutaneous transhepatic drainage if ERCP fails), more urgently if not responding to antibiotics or in septic shock\n4. Cholecystectomy later to prevent recurrence\n\n**Painless obstructive jaundice:** CT (pancreatic protocol) and referral to a hepatobiliary unit; do not assume stones."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Fever plus positive Murphy's sign plus raised WCC means **cholecystitis**, not colic.\n- Adding jaundice and rigors means **cholangitis**; the answer involves antibiotics **and** drainage (ERCP), not antibiotics alone.\n- The **first investigation** is almost always **ultrasound**, not CT.\n- Asymptomatic incidental gallstones: reassure; no surgery.\n- Painless jaundice with weight loss in an older patient: think pancreatic cancer, image with CT."
+        }
+      ],
+      "keyPoints": [
+        "Ultrasound is the first test for suspected gallstone disease.",
+        "Biliary colic: pain under 6 hours, afebrile, normal bloods; refer for elective cholecystectomy.",
+        "Cholecystitis: fever, raised WCC, positive Murphy's sign; antibiotics and early cholecystectomy in the same admission.",
+        "Charcot's triad (fever, jaundice, RUQ pain) = cholangitis: antibiotics plus urgent biliary drainage (ERCP).",
+        "Reynolds' pentad adds hypotension and confusion (severe septic cholangitis).",
+        "MRCP diagnoses CBD stones; ERCP treats them.",
+        "Painless jaundice with a palpable gallbladder suggests pancreatic head cancer (Courvoisier)."
+      ],
+      "redFlags": [
+        "Fever with jaundice or rigors (cholangitis)",
+        "Hypotension or confusion with RUQ pain (septic cholangitis)",
+        "Painless jaundice with weight loss (malignancy)",
+        "Generalised peritonism with cholecystitis (gallbladder perforation)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Timing of cholecystectomy for cholecystitis",
+          "india": "Often delayed (interval) surgery after 6-8 weeks of conservative care.",
+          "australia": "Early laparoscopic cholecystectomy in the index admission is standard where available."
+        },
+        {
+          "aspect": "Causes of liver abscess",
+          "india": "Amoebic liver abscess is a common consideration.",
+          "australia": "Pyogenic abscess is more common; amoebic mainly in travellers or migrants."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "What is Charcot's triad?",
+          "back": "Fever, jaundice and right upper quadrant pain: ascending cholangitis."
+        },
+        {
+          "front": "What two features does Reynolds' pentad add to Charcot's triad?",
+          "back": "Hypotension and confusion."
+        },
+        {
+          "front": "First-line investigation for suspected cholecystitis?",
+          "back": "Abdominal ultrasound."
+        },
+        {
+          "front": "Test to confirm a suspected CBD stone non-invasively?",
+          "back": "MRCP."
+        },
+        {
+          "front": "What does Courvoisier's law suggest?",
+          "back": "Painless jaundice with a palpable gallbladder is unlikely to be stones; think pancreatic head cancer."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "general-surgery--gallstone-disease--q1",
+          "discipline": "adult-surgery",
+          "topic": "general-surgery",
+          "difficulty": "foundation",
+          "stem": "A 44-year-old woman presents with 14 hours of constant right upper quadrant pain radiating to her right shoulder. Temperature is 38.3°C, heart rate 102/min. She catches her breath on palpation of the right upper quadrant during inspiration. WCC is 15.8 x 10^9/L, bilirubin 18 µmol/L (normal < 20), ALP and ALT normal, lipase normal.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Acute cholecystitis",
+            "Biliary colic",
+            "Ascending cholangitis",
+            "Choledocholithiasis",
+            "Acute pancreatitis"
+          ],
+          "answer": 0,
+          "explanation": "Constant RUQ pain for **more than 6 hours**, **fever**, **leucocytosis** and a **positive Murphy's sign** is acute cholecystitis. The CBD is patent, so bilirubin and ALP are normal. Biliary colic is short-lived and afebrile with normal bloods. Cholangitis would add jaundice (Charcot's triad) and an obstructive LFT pattern. Choledocholithiasis also raises bilirubin and ALP. Normal lipase rules out pancreatitis. The next step is ultrasound to confirm, then antibiotics and early cholecystectomy.",
+          "whyWrong": [
+            "",
+            "Colic settles within hours and does not cause fever or leucocytosis.",
+            "Cholangitis causes jaundice and an obstructive LFT pattern.",
+            "A CBD stone raises bilirubin and ALP.",
+            "Lipase is normal, which excludes pancreatitis."
+          ],
+          "tags": [
+            "cholecystitis",
+            "gallstones",
+            "diagnosis"
+          ]
+        },
+        {
+          "id": "general-surgery--gallstone-disease--q2",
+          "discipline": "adult-surgery",
+          "topic": "general-surgery",
+          "difficulty": "core",
+          "stem": "A 68-year-old man presents with fever, rigors and jaundice. He has right upper quadrant pain. Temperature is 39.1°C, heart rate 118/min, blood pressure 92/58 mmHg. Bilirubin is 96 µmol/L, ALP 410 U/L, GGT 520 U/L. Ultrasound shows gallstones and a CBD of 11 mm. Blood cultures have been taken and IV fluids started.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Oral antibiotics and outpatient MRCP",
+            "Emergency open cholecystectomy",
+            "IV antibiotics and observe for 72 hours before any procedure",
+            "Percutaneous cholecystostomy",
+            "IV antibiotics and urgent ERCP for biliary drainage"
+          ],
+          "answer": 4,
+          "explanation": "Fever, jaundice and RUQ pain (Charcot's triad) with hypotension is **ascending cholangitis** with sepsis. The problem is **pus under pressure in an obstructed bile duct**, so antibiotics alone are not enough. Management is resuscitation, blood cultures, prompt IV antibiotics per eTG and **urgent biliary decompression**, usually by **ERCP** with sphincterotomy and stone extraction or stent. Delay increases mortality in septic patients. Cholecystectomy follows once he recovers. **Clue:** jaundice plus a dilated CBD places the problem in the bile duct, not the gallbladder.",
+          "whyWrong": [
+            "He is septic and hypotensive; outpatient care is unsafe.",
+            "Removing the gallbladder does not drain the obstructed CBD and is high-risk in sepsis.",
+            "A hypotensive patient with cholangitis needs drainage urgently, not after 72 hours.",
+            "Cholecystostomy drains the gallbladder, not the obstructed common bile duct.",
+            ""
+          ],
+          "tags": [
+            "cholangitis",
+            "sepsis",
+            "ercp"
+          ]
+        },
+        {
+          "id": "general-surgery--gallstone-disease--q3",
+          "discipline": "adult-surgery",
+          "topic": "general-surgery",
+          "difficulty": "exam",
+          "stem": "A 72-year-old woman sees her GP with 4 weeks of itch, dark urine and pale stools. She has lost 5 kg. She has no pain. On examination she is jaundiced and a smooth, non-tender mass is palpable in the right upper quadrant that moves with respiration. Bilirubin is 180 µmol/L with markedly raised ALP and GGT.\n\nWhat is the most appropriate next investigation?",
+          "options": [
+            "Hepatitis serology only",
+            "CT of the abdomen with pancreatic protocol",
+            "HIDA scan",
+            "Repeat LFTs in 4 weeks",
+            "Upper GI endoscopy"
+          ],
+          "answer": 1,
+          "explanation": "**Painless obstructive jaundice with weight loss and a palpable, non-tender gallbladder** (Courvoisier's sign) points to a **malignant distal bile duct obstruction**, most often pancreatic head cancer, rather than stones. A stone-diseased gallbladder is usually fibrotic and does not distend. The next step is **CT (pancreatic protocol)** to identify the mass, assess resectability and stage it, with referral to a hepatobiliary unit. Ultrasound may already have been done in practice, but CT is required for this question. Waiting or only testing for hepatitis delays diagnosis.",
+          "whyWrong": [
+            "The obstructive pattern and palpable gallbladder point to obstruction, not hepatitis.",
+            "",
+            "A HIDA scan assesses cystic duct patency in cholecystitis, not a pancreatic mass.",
+            "Delaying investigation of suspected malignancy is unsafe.",
+            "Endoscopy does not image the pancreatic head adequately."
+          ],
+          "ausPearl": "Suspected pancreatic cancer should be referred to a specialist multidisciplinary team; Cancer Council Australia's optimal care pathway sets expected timeframes.",
+          "tags": [
+            "jaundice",
+            "pancreatic cancer",
+            "courvoisier"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "general-surgery--acute-pancreatitis",
+      "title": "Acute pancreatitis",
+      "minutes": 15,
+      "objectives": [
+        "Diagnose acute pancreatitis using the clinical picture, lipase threshold and imaging criteria",
+        "List the common causes and the tests that find them",
+        "Grade severity by organ failure and identify patients needing high-dependency care",
+        "Manage the first 48 hours: fluids, analgesia, nutrition, and when to involve ERCP or surgery"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "What it is and why it matters",
+          "body": "Acute pancreatitis is acute inflammation of the pancreas, ranging from a mild self-limiting illness (about 80% of cases) to a severe disease with organ failure, necrosis and substantial mortality. In Australia the two dominant causes are **gallstones** and **alcohol**, together accounting for most cases.\n\nThe AMC tests the diagnostic threshold, the causes, how to assess severity and the basics of early supportive care, plus traps such as giving routine prophylactic antibiotics or keeping patients nil by mouth for too long."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Pathogenesis and causes",
+          "body": "Something triggers **premature activation of trypsinogen to trypsin** inside acinar cells. Trypsin activates other enzymes, which digest the pancreas and surrounding fat, triggering local inflammation. Cytokine release drives a **systemic inflammatory response**, capillary leak (hence third-space fluid loss and hypovolaemia) and, in severe cases, organ failure (lungs, kidneys, circulation).\n\n**Causes (mnemonic I GET SMASHED):**\n- **I**diopathic\n- **G**allstones (most common; a stone obstructs the ampulla)\n- **E**thanol\n- **T**rauma\n- **S**teroids\n- **M**umps and other infections\n- **A**utoimmune\n- **S**corpion venom (classic trivia, not Australian)\n- **H**ypertriglyceridaemia (usually above about 11 mmol/L), **H**ypercalcaemia, **H**ypothermia\n- **E**RCP\n- **D**rugs (e.g. azathioprine, valproate, thiazides, some GLP-1 receptor agonists are reported)"
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "- Severe, constant **epigastric pain radiating to the back**, often eased by sitting forward\n- Nausea and vomiting\n- Tachycardia, fever, and in severe disease hypotension, tachypnoea and hypoxia\n- Epigastric tenderness and guarding; the abdomen may be distended with reduced bowel sounds (ileus)\n- **Grey Turner's sign** (flank bruising) and **Cullen's sign** (periumbilical bruising) indicate retroperitoneal haemorrhage in severe necrotising disease; they are late and uncommon\n- Clues to cause: history of gallstones or alcohol, drug history, jaundice (CBD stone)"
+        },
+        {
+          "kind": "investigations",
+          "heading": "Diagnosis and investigations",
+          "body": "**Diagnosis needs two of three:**\n1. Typical abdominal pain\n2. Serum **lipase (or amylase) over 3 times the upper limit of normal**\n3. Characteristic imaging findings (CT, MRI or ultrasound)\n\nLipase is preferred in Australia because it is more specific and stays elevated longer. **The level does not correlate with severity.**\n\n**Initial tests:** FBC, UEC, LFTs, calcium, glucose, **triglycerides**, CRP, blood gas (lactate, pH), and **abdominal ultrasound in every patient** to look for gallstones.\n\n**CT abdomen** is **not needed routinely at presentation**. Use it when the diagnosis is uncertain, or after 72 hours if the patient is not improving, to assess necrosis and collections.\n\n**Severity:**\n- Revised **Atlanta classification**:\n  - **Mild:** no organ failure, no local complications\n  - **Moderately severe:** transient organ failure (resolves within 48 hours) or local complications\n  - **Severe:** **persistent organ failure beyond 48 hours**\n- Adjuncts: CRP over about 150 mg/L at 48 hours, Glasgow-Imrie score, BISAP. Persistent SIRS and rising urea predict a worse course."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Differentials",
+          "body": "| Condition | How to tell apart |\n|---|---|\n| Perforated peptic ulcer | Sudden onset, rigid abdomen, free gas on erect CXR or CT; lipase may be mildly raised |\n| Acute cholecystitis | RUQ, Murphy's sign, lipase normal |\n| Mesenteric ischaemia | Pain out of proportion, AF, raised lactate |\n| Ruptured AAA | Back pain, hypotension, pulsatile mass |\n| Inferior MI | ECG changes, troponin |\n| Bowel obstruction | Colicky pain, distension, vomiting, dilated loops |\n\nRemember that several of these can modestly raise lipase; the **3 times** threshold and the clinical picture are what matter."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "There is no drug that switches pancreatitis off. Management is supportive and aims to prevent organ failure.\n\n1. **Fluids:** goal-directed IV crystalloid (Hartmann's or other balanced solution is favoured), titrated to heart rate, blood pressure and **urine output (catheter in moderate or severe cases)**. Very aggressive fluid regimens have been shown to cause fluid overload without benefit, so give enough, not too much.\n2. **Analgesia:** IV opioids are appropriate and safe.\n3. **Oxygen** and monitoring; transfer to HDU or ICU for organ failure.\n4. **Nutrition:** allow **early oral feeding** as tolerated (within 24-72 hours) in mild disease. If oral intake is not possible, **enteral (nasogastric or nasojejunal) feeding is preferred over parenteral**, as it maintains the gut barrier.\n5. **Antibiotics:** **not given prophylactically**, even in necrotising pancreatitis. Use them for proven infection, for example cholangitis or infected necrosis.\n6. **Treat the cause:**\n   - Gallstone pancreatitis with **cholangitis** or persistent biliary obstruction: **urgent ERCP**\n   - Mild gallstone pancreatitis: **cholecystectomy during the same admission** to prevent recurrence\n   - Alcohol: brief intervention, thiamine, withdrawal monitoring and referral\n   - Hypertriglyceridaemia: specialist management, including insulin infusion in some cases\n7. **Complications:** acute peripancreatic fluid collections (usually resolve), **pseudocyst** (after 4 weeks, drain only if symptomatic), walled-off necrosis, infected necrosis (step-up approach: antibiotics, then percutaneous or endoscopic drainage, then necrosectomy), ARDS, AKI, hypocalcaemia, splenic vein thrombosis and later diabetes or exocrine insufficiency."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- The threshold is **lipase over 3 times the upper limit**; the absolute value does not grade severity.\n- **Ultrasound** is done in all to find gallstones; CT early is usually wrong unless the diagnosis is uncertain.\n- Severity is defined by **organ failure**, especially if persistent beyond 48 hours.\n- Prophylactic antibiotics and prolonged nil by mouth are both traps.\n- Jaundice or fever plus pancreatitis with gallstones: think **cholangitis** and ERCP.\n- Recurrent attacks with no gallstones or alcohol: check **triglycerides and calcium**, review drugs, and consider endoscopic ultrasound for small stones or a tumour.\n- Do not confuse acute with **chronic pancreatitis**: chronic disease (mostly alcohol in Australia) presents with recurrent pain, steatorrhoea, weight loss and diabetes; lipase may be normal and CT shows calcification.\n- Before discharge: alcohol brief intervention, cholecystectomy plan for gallstone cases, and GP follow-up for new diabetes, which can develop after severe attacks."
+        }
+      ],
+      "keyPoints": [
+        "Diagnosis: 2 of 3 of typical pain, lipase over 3x the upper limit, imaging findings.",
+        "Gallstones and alcohol cause most cases; check triglycerides and calcium.",
+        "Ultrasound in everyone to look for gallstones; CT only if diagnosis uncertain or not improving after 72 hours.",
+        "Severity is graded by organ failure; persistent organ failure beyond 48 hours is severe pancreatitis.",
+        "Goal-directed fluids, opioid analgesia and early oral or enteral feeding.",
+        "No prophylactic antibiotics; treat proven infection only.",
+        "Gallstone pancreatitis: ERCP if cholangitis or obstruction; cholecystectomy in the same admission when mild."
+      ],
+      "redFlags": [
+        "Hypotension, hypoxia or oliguria (organ failure)",
+        "Fever with jaundice (associated cholangitis)",
+        "Rising lactate or deterioration after 72 hours (necrosis, infection)",
+        "Grey Turner's or Cullen's sign"
+      ],
+      "contrast": [
+        {
+          "aspect": "Enzyme test",
+          "india": "Serum amylase is widely used for diagnosis.",
+          "australia": "Lipase is preferred; over 3 times the upper limit is diagnostic with the clinical picture."
+        },
+        {
+          "aspect": "Early antibiotics",
+          "india": "Prophylactic antibiotics are often started in severe disease.",
+          "australia": "Not recommended; antibiotics are for proven infection such as cholangitis or infected necrosis."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Lipase threshold for diagnosing acute pancreatitis?",
+          "back": "More than 3 times the upper limit of normal."
+        },
+        {
+          "front": "Two most common causes of acute pancreatitis in Australia?",
+          "back": "Gallstones and alcohol."
+        },
+        {
+          "front": "What defines severe acute pancreatitis (revised Atlanta)?",
+          "back": "Persistent organ failure lasting more than 48 hours."
+        },
+        {
+          "front": "Preferred route of feeding if a pancreatitis patient cannot eat?",
+          "back": "Enteral (nasogastric or nasojejunal), not parenteral."
+        },
+        {
+          "front": "When should a patient with mild gallstone pancreatitis have a cholecystectomy?",
+          "back": "During the same admission, to prevent recurrence."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "general-surgery--acute-pancreatitis--q1",
+          "discipline": "adult-surgery",
+          "topic": "general-surgery",
+          "difficulty": "foundation",
+          "stem": "A 52-year-old man presents with 10 hours of severe epigastric pain radiating to his back and vomiting. He drinks about 8 standard drinks a day. Heart rate is 108/min, blood pressure 124/80 mmHg, SpO2 97% on room air. Lipase is 1850 U/L (upper limit 60 U/L).\n\nWhich investigation should be performed routinely in this patient during this admission?",
+          "options": [
+            "CT abdomen with contrast within 6 hours",
+            "MRCP",
+            "Abdominal ultrasound",
+            "Endoscopic ultrasound",
+            "Diagnostic ERCP"
+          ],
+          "answer": 2,
+          "explanation": "The diagnosis of acute pancreatitis is already made: typical pain plus lipase over 3 times the upper limit. **Every patient** should have an **abdominal ultrasound** to look for **gallstones**, even when alcohol seems the obvious cause, because gallstone pancreatitis changes management (cholecystectomy, possible ERCP) and both causes can coexist.\n\nEarly CT does not change management in a patient whose diagnosis is clear and who is not deteriorating; necrosis may not be visible in the first 72 hours. MRCP, EUS and ERCP are for specific questions about the bile duct.",
+          "whyWrong": [
+            "Early CT is unnecessary when the diagnosis is clear and adds radiation and contrast risk.",
+            "MRCP is used when a CBD stone is suspected, not routinely.",
+            "",
+            "EUS is a second-line test for small CBD stones or idiopathic cases.",
+            "ERCP is therapeutic and carries a risk of pancreatitis; it is not a diagnostic first step."
+          ],
+          "tags": [
+            "pancreatitis",
+            "gallstones",
+            "ultrasound"
+          ]
+        },
+        {
+          "id": "general-surgery--acute-pancreatitis--q2",
+          "discipline": "adult-surgery",
+          "topic": "general-surgery",
+          "difficulty": "core",
+          "stem": "A 60-year-old woman is admitted with gallstone pancreatitis. On day 2 she remains in pain but is eating small amounts. Her temperature is 37.6°C, heart rate 92/min, blood pressure 130/76 mmHg, urine output adequate and SpO2 96% on room air. CRP is 160 mg/L. Bilirubin and LFTs are normal. The registrar asks about antibiotics.\n\nWhat is the most appropriate advice?",
+          "options": [
+            "Start IV meropenem to prevent infected necrosis",
+            "Start oral amoxicillin-clavulanate for 7 days",
+            "Start IV ceftriaxone and metronidazole",
+            "Antibiotics are not indicated",
+            "Start IV antibiotics only if CT shows any necrosis"
+          ],
+          "answer": 3,
+          "explanation": "Prophylactic antibiotics **do not reduce mortality or infected necrosis** in acute pancreatitis and promote resistant organisms and fungal infection. They are indicated only for a **proven or strongly suspected infection**: cholangitis, infected necrosis (usually after week 1-2, with gas in the collection or deterioration), or another source such as pneumonia.\n\nThis woman has systemic inflammation (low-grade fever, raised CRP), which is expected in pancreatitis and does not by itself indicate infection. Her LFTs are normal, so there is no cholangitis. She should continue supportive care and have a cholecystectomy in the same admission.",
+          "whyWrong": [
+            "Prophylactic carbapenems are not recommended and do not improve outcomes.",
+            "There is no infection to treat; oral antibiotics add harm without benefit.",
+            "There is no evidence of cholangitis or other infection.",
+            "",
+            "Sterile necrosis alone is not an indication for antibiotics."
+          ],
+          "tags": [
+            "pancreatitis",
+            "antibiotics",
+            "stewardship"
+          ]
+        },
+        {
+          "id": "general-surgery--acute-pancreatitis--q3",
+          "discipline": "adult-surgery",
+          "topic": "general-surgery",
+          "difficulty": "exam",
+          "stem": "A 45-year-old man with acute alcohol-related pancreatitis is on the surgical ward. At 36 hours his respiratory rate is 30/min, SpO2 89% on 4 L/min nasal prong oxygen, blood pressure 96/60 mmHg despite 3 L of IV fluid, and urine output has been 15 mL/h for 4 hours. Creatinine has risen from 80 to 190 µmol/L.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Refer to the ICU for organ support",
+            "Urgent CT to measure pancreatic necrosis before deciding",
+            "Start total parenteral nutrition",
+            "Give a further 5 L of crystalloid over 1 hour",
+            "Arrange urgent laparotomy and necrosectomy"
+          ],
+          "answer": 0,
+          "explanation": "He has **respiratory, cardiovascular and renal failure**: severe acute pancreatitis if it persists beyond 48 hours, and he needs **ICU-level organ support** now. The priority is escalation, not imaging: CT at 36 hours will not change the immediate management.\n\nFluids must be goal-directed; huge boluses risk pulmonary oedema and abdominal compartment syndrome, especially as he is already hypoxic. Surgery in the early phase increases mortality; necrosectomy, if needed, is delayed and done by a step-up approach. Enteral nutrition is preferred over TPN when feeding is required.",
+          "whyWrong": [
+            "",
+            "CT does not change immediate management of organ failure and delays escalation.",
+            "Enteral feeding is preferred; TPN is not the priority now.",
+            "Massive fluid boluses risk pulmonary oedema and abdominal compartment syndrome.",
+            "Early surgery increases mortality; intervention for necrosis is delayed and minimally invasive."
+          ],
+          "tags": [
+            "pancreatitis",
+            "organ failure",
+            "escalation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "general-surgery--bowel-obstruction-and-hernias",
+      "title": "Bowel obstruction and hernias",
+      "minutes": 17,
+      "objectives": [
+        "Distinguish small from large bowel obstruction clinically and radiologically",
+        "Recognise the features of strangulation that mandate surgery",
+        "Start 'drip and suck' management and correct fluid and electrolyte losses",
+        "Differentiate inguinal and femoral hernias and know which need urgent repair"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why obstruction and hernias go together",
+          "body": "Bowel obstruction is a common surgical admission. In Australia the leading causes are **adhesions** from previous abdominal surgery (the commonest cause of small bowel obstruction), **hernias** and **colorectal cancer** (the commonest cause of large bowel obstruction). Any patient with obstruction needs their **hernial orifices examined**, as a small femoral hernia in an older woman is easily missed.\n\nThe AMC tests the first steps, the 3-6-9 radiology rule, electrolyte disturbances from vomiting and the signs that the bowel is dying."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Pathogenesis",
+          "body": "When the lumen is blocked, the bowel above distends with swallowed air and secretions. Fluid is lost into the lumen and by vomiting, producing **hypovolaemia**. Vomiting of gastric contents causes **hypokalaemic, hypochloraemic metabolic alkalosis**.\n\nAs pressure rises, venous outflow is impaired, the wall becomes oedematous, then arterial inflow fails and the bowel becomes **ischaemic (strangulated)**, leading to necrosis, perforation, bacterial translocation and sepsis.\n\nTwo special situations:\n- **Closed-loop obstruction** (volvulus, or a large bowel obstruction with a competent ileocaecal valve) distends rapidly and strangulates early. The **caecum** is at greatest risk of perforation when over about 9-12 cm.\n- **Pseudo-obstruction (Ogilvie's syndrome):** colonic dilatation without mechanical cause, typically in elderly, post-operative, bed-bound patients with electrolyte disturbance or on opioids."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "The four cardinal features are **colicky abdominal pain, vomiting, distension and absolute constipation** (no stool or flatus).\n\n| | Small bowel obstruction | Large bowel obstruction |\n|---|---|---|\n| Onset | Hours | Days, often with change in bowel habit |\n| Vomiting | Early, bilious | Late, may become faeculent |\n| Distension | Moderate | Marked |\n| Constipation | Later | Early |\n| Common causes | Adhesions, hernia | Colorectal cancer, sigmoid volvulus, diverticular stricture |\n\n**Signs of strangulation** (the bowel is dying):\n- Pain becoming **constant** rather than colicky\n- Fever, tachycardia, hypotension\n- Localised tenderness or **peritonism**\n- Raised WCC and **lactate**, metabolic acidosis\n- An **irreducible, tender hernia**\n\n**Hernia examination:** inguinal hernias emerge **above and medial** to the pubic tubercle; femoral hernias **below and lateral**. Femoral hernias are more common in women (though inguinal hernias are still the commonest groin hernia in women) and have a **high risk of strangulation** because the femoral canal is narrow and rigid."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "- **Bloods:** FBC, UEC (potassium, urea, creatinine), venous blood gas with **lactate**, group and hold, coagulation\n- **Abdominal X-ray (3-6-9 rule):** small bowel over 3 cm, colon over 6 cm, caecum over 9 cm is dilated. Small bowel is central with valvulae conniventes crossing the full width; colon is peripheral with haustra that do not cross the full width\n- **Sigmoid volvulus:** a large \"coffee bean\" loop arising from the pelvis\n- **Erect CXR:** free gas under the diaphragm if perforated\n- **CT abdomen and pelvis with IV contrast** is the definitive test: confirms obstruction, finds the **transition point** and the cause, and shows ischaemia (poor wall enhancement, free fluid, pneumatosis)"
+        },
+        {
+          "kind": "differentials",
+          "heading": "Differentials",
+          "body": "- **Paralytic ileus:** post-operative, electrolyte disturbance (low potassium), opioids; absent rather than tinkling bowel sounds, gas throughout bowel without transition point\n- **Pseudo-obstruction:** colonic dilatation in a frail patient without mechanical cause on CT\n- **Gastroenteritis:** diarrhoea rather than constipation\n- **Mesenteric ischaemia:** pain out of proportion, AF\n- **Gallstone ileus:** elderly woman, small bowel obstruction with gas in the biliary tree (pneumobilia)\n- **Groin lump differentials:** lymph node, saphena varix (disappears lying down, cough impulse, thrill), femoral aneurysm (pulsatile), undescended testis, lipoma"
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Initial: \"drip and suck\"**\n- **Nil by mouth**\n- **Nasogastric tube** on free drainage to decompress the stomach and reduce vomiting and aspiration risk\n- **IV fluids** (balanced crystalloid) with **potassium replacement** guided by UEC\n- **Urinary catheter** and fluid balance chart\n- Analgesia and antiemetic\n- VTE prophylaxis, surgical review\n\n**Adhesive SBO without strangulation:** most settle with conservative management. A **water-soluble contrast (Gastrografin) study** helps: contrast reaching the colon within about 24 hours predicts resolution and may be therapeutic. Failure to settle (commonly after 48-72 hours) indicates surgery.\n\n**Urgent surgery:** strangulation, peritonitis, perforation, closed-loop obstruction, an obstructed hernia, or a \"virgin abdomen\" (no previous surgery, so adhesions are unlikely and another cause such as a hernia or tumour must be found).\n\n**Large bowel obstruction:** CT to find the cause. Obstructing colorectal cancer may need resection or a stoma (a colonic stent is sometimes used as a bridge or palliation).\n\n**Sigmoid volvulus:** decompression with **flexible sigmoidoscopy** and a flatus tube, then elective sigmoid colectomy (recurrence is common). Caecal volvulus needs surgery.\n\n**Pseudo-obstruction:** correct electrolytes, stop opioids and anticholinergics, mobilise; neostigmine (with cardiac monitoring) or colonoscopic decompression if caecum is dangerously dilated.\n\n**Hernias:**\n- **Irreducible, tender, red hernia** = strangulation, **emergency surgery**\n- **Femoral hernia:** refer for **early repair** even if asymptomatic\n- **Inguinal hernia:** elective repair (commonly laparoscopic or open mesh); watchful waiting is reasonable in men with minimal symptoms\n- **Infant inguinal hernia:** prompt surgical referral (incarceration risk); **infant umbilical hernia** usually closes spontaneously by 4-5 years"
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- The first step in obstruction is **drip and suck plus resuscitation**, not immediate laparotomy, unless there is strangulation or peritonitis.\n- Constant pain, fever, tachycardia, raised lactate: the bowel is ischaemic, go to theatre.\n- Always examine the hernial orifices; the lump below and lateral to the pubic tubercle in an older woman is a femoral hernia.\n- SBO in a patient with no previous surgery needs a cause found.\n- Vomiting causes metabolic alkalosis with hypokalaemia.\n- A tinkling or high-pitched bowel sound suggests mechanical obstruction; an absent, silent abdomen suggests ileus or late peritonitis.\n- Post-operative day 3-5 distension with low potassium and no transition point on CT is ileus: correct electrolytes and minimise opioids rather than operate.\n- A saphena varix, femoral aneurysm or lymph node can mimic a groin hernia; a cough impulse with a thrill and disappearance on lying suggests varix."
+        }
+      ],
+      "keyPoints": [
+        "Cardinal features: colicky pain, vomiting, distension, absolute constipation.",
+        "Adhesions cause most SBO; colorectal cancer causes most LBO.",
+        "AXR 3-6-9 rule; CT with IV contrast finds the cause and ischaemia.",
+        "Drip and suck: nil by mouth, NG tube, IV fluids with potassium, catheter.",
+        "Strangulation (constant pain, fever, tachycardia, lactate, peritonism) needs surgery.",
+        "Irreducible, tender hernia is a surgical emergency; femoral hernias need early repair.",
+        "Sigmoid volvulus: endoscopic decompression, then elective colectomy."
+      ],
+      "redFlags": [
+        "Constant pain, fever and tachycardia in obstruction (strangulation)",
+        "Irreducible, tender, erythematous hernia",
+        "Raised lactate or metabolic acidosis",
+        "Caecal diameter over 9-12 cm (impending perforation)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Commonest cause of small bowel obstruction",
+          "india": "Adhesions, but also obstructed hernia, abdominal TB and roundworm bolus in children.",
+          "australia": "Adhesions dominate; TB and helminth obstruction are rare."
+        },
+        {
+          "aspect": "Imaging bowel obstruction",
+          "india": "Erect and supine abdominal X-ray is often the main test.",
+          "australia": "CT with IV contrast is routine to find the transition point and ischaemia."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "What is the 3-6-9 rule on abdominal X-ray?",
+          "back": "Upper normal diameters: small bowel 3 cm, colon 6 cm, caecum 9 cm."
+        },
+        {
+          "front": "Where does a femoral hernia lie relative to the pubic tubercle?",
+          "back": "Below and lateral (inguinal is above and medial)."
+        },
+        {
+          "front": "Acid-base disturbance from prolonged vomiting?",
+          "back": "Hypokalaemic, hypochloraemic metabolic alkalosis."
+        },
+        {
+          "front": "First treatment of sigmoid volvulus without peritonitis?",
+          "back": "Endoscopic decompression via flexible sigmoidoscopy and flatus tube."
+        },
+        {
+          "front": "Most common cause of large bowel obstruction in Australia?",
+          "back": "Colorectal cancer."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "general-surgery--bowel-obstruction-and-hernias--q1",
+          "discipline": "adult-surgery",
+          "topic": "general-surgery",
+          "difficulty": "foundation",
+          "stem": "A 64-year-old man with a previous open appendicectomy and laparotomy for trauma presents with 24 hours of colicky central abdominal pain, bilious vomiting and distension. He last passed flatus 12 hours ago. Temperature is 37.1°C, heart rate 98/min, blood pressure 128/82 mmHg. His abdomen is distended and mildly tender without guarding. Lactate is 1.4 mmol/L. CT shows dilated small bowel with a transition point and no signs of ischaemia.\n\nWhat is the most appropriate initial management?",
+          "options": [
+            "Immediate laparotomy",
+            "Nil by mouth, nasogastric tube, IV fluids with electrolyte replacement",
+            "Oral laxatives and discharge",
+            "Colonoscopy",
+            "IV antibiotics and discharge with review"
+          ],
+          "answer": 1,
+          "explanation": "This is **adhesive small bowel obstruction** after previous surgery, with **no signs of strangulation**: afebrile, normal lactate, no peritonism and no ischaemia on CT. First-line management is **drip and suck**: nil by mouth, NG decompression, IV fluids and potassium replacement, catheter, analgesia and serial surgical review. Most adhesive obstructions settle; a water-soluble contrast study can predict resolution. Surgery is needed if he develops signs of strangulation or fails to resolve.",
+          "whyWrong": [
+            "Surgery is for strangulation, peritonitis or failed conservative management.",
+            "",
+            "Laxatives are contraindicated in mechanical obstruction.",
+            "Colonoscopy has no role in small bowel obstruction.",
+            "He needs admission; antibiotics are not the treatment."
+          ],
+          "tags": [
+            "bowel obstruction",
+            "adhesions",
+            "drip and suck"
+          ]
+        },
+        {
+          "id": "general-surgery--bowel-obstruction-and-hernias--q2",
+          "discipline": "adult-surgery",
+          "topic": "general-surgery",
+          "difficulty": "core",
+          "stem": "An 81-year-old woman presents with 2 days of vomiting and colicky abdominal pain. She has never had abdominal surgery. Temperature is 37.9°C, heart rate 112/min. There is a 2 cm tender, firm, irreducible lump in the right groin, below and lateral to the pubic tubercle, with overlying erythema. Lactate is 3.8 mmol/L.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Strangulated direct inguinal hernia",
+            "Inguinal lymphadenitis",
+            "Saphena varix",
+            "Femoral artery aneurysm",
+            "Strangulated femoral hernia"
+          ],
+          "answer": 4,
+          "explanation": "A lump **below and lateral to the pubic tubercle** in an elderly woman is a **femoral hernia**. It is irreducible, tender and red, with fever, tachycardia and raised lactate: **strangulation** causing small bowel obstruction. Femoral hernias have a high strangulation rate because the femoral canal is narrow with rigid boundaries (inguinal ligament, lacunar ligament, pectineal ligament).\n\nShe needs resuscitation and **emergency surgery**. **Clue:** in a patient with obstruction and no previous surgery, always examine the groins.",
+          "whyWrong": [
+            "Inguinal hernias lie above and medial to the pubic tubercle.",
+            "Lymphadenitis would not cause bowel obstruction.",
+            "A saphena varix is soft, disappears lying down and has a thrill on coughing.",
+            "An aneurysm is pulsatile and would not cause obstruction.",
+            ""
+          ],
+          "tags": [
+            "hernia",
+            "femoral",
+            "strangulation"
+          ]
+        },
+        {
+          "id": "general-surgery--bowel-obstruction-and-hernias--q3",
+          "discipline": "adult-surgery",
+          "topic": "general-surgery",
+          "difficulty": "exam",
+          "stem": "An 86-year-old man living in residential aged care with chronic constipation and Parkinson's disease presents with 2 days of gross abdominal distension and no flatus. He is afebrile, heart rate 90/min, blood pressure 134/78 mmHg. His abdomen is tympanic and non-tender. Abdominal X-ray shows a massively dilated, inverted U-shaped loop of large bowel arising from the pelvis (\"coffee bean\").\n\nWhat is the most appropriate management?",
+          "options": [
+            "Emergency right hemicolectomy",
+            "IV neostigmine",
+            "Flexible sigmoidoscopy with decompression and flatus tube",
+            "High-dose oral laxatives",
+            "Barium enema"
+          ],
+          "answer": 2,
+          "explanation": "The coffee-bean sign in an elderly, constipated, institutionalised patient is **sigmoid volvulus**. Without peritonitis or ischaemia, first-line management is **endoscopic decompression** with flexible sigmoidoscopy and a flatus tube. Because recurrence is common, an elective sigmoid colectomy is considered once he is optimised, if fit. Signs of ischaemia or perforation (peritonism, fever, dark mucosa on endoscopy) would mean emergency surgery (Hartmann's procedure). Neostigmine is used for pseudo-obstruction, which has no mechanical twist.",
+          "whyWrong": [
+            "Right hemicolectomy is for caecal pathology, not a sigmoid volvulus.",
+            "Neostigmine treats pseudo-obstruction, not a mechanical twist.",
+            "",
+            "Laxatives do not untwist a volvulus and may worsen distension.",
+            "Barium risks peritonitis if perforation occurs and does not decompress."
+          ],
+          "tags": [
+            "volvulus",
+            "large bowel obstruction",
+            "elderly"
+          ]
+        },
+        {
+          "id": "general-surgery--bowel-obstruction-and-hernias--q4",
+          "discipline": "adult-surgery",
+          "topic": "general-surgery",
+          "difficulty": "core",
+          "stem": "A 58-year-old man is day 3 after an open anterior resection. He has vomited three times and has a distended abdomen. He has not passed flatus. His abdomen is distended, non-tender and silent on auscultation. He is on a morphine PCA. Potassium is 2.9 mmol/L. CT shows diffuse gaseous distension of small and large bowel with no transition point.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Adhesive small bowel obstruction",
+            "Paralytic ileus",
+            "Anastomotic leak",
+            "Sigmoid volvulus",
+            "Mesenteric ischaemia"
+          ],
+          "answer": 1,
+          "explanation": "Post-operative **paralytic ileus**: diffuse gas throughout small and large bowel with **no transition point**, silent abdomen, and contributing factors of **hypokalaemia**, opioids and recent bowel handling. Management is supportive: NG tube if vomiting, IV fluids, **correct potassium** (and magnesium), minimise opioids and mobilise. An anastomotic leak would typically cause fever, tachycardia, peritonism and a collection or free fluid. Adhesive obstruction shows a transition point on CT.",
+          "whyWrong": [
+            "Adhesive obstruction shows a transition point and is uncommon on day 3.",
+            "",
+            "A leak usually produces fever, tachycardia and peritonism.",
+            "Volvulus has a characteristic twisted loop, not diffuse distension.",
+            "Ischaemia typically causes pain out of proportion and raised lactate."
+          ],
+          "tags": [
+            "ileus",
+            "postoperative",
+            "hypokalaemia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "general-surgery--diverticulitis-and-mesenteric-ischaemia",
+      "title": "Diverticulitis, colonic emergencies and mesenteric ischaemia",
+      "minutes": 16,
+      "objectives": [
+        "Diagnose and grade diverticulitis and choose between outpatient care, admission and surgery",
+        "Explain when antibiotics can be omitted in uncomplicated diverticulitis",
+        "Recognise acute mesenteric ischaemia from pain out of proportion to examination",
+        "Differentiate ischaemic colitis, diverticular bleeding and colorectal cancer presentations"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why these conditions matter",
+          "body": "**Diverticular disease** is very common in older Australians on a Western, low-fibre diet. Most people with diverticula (diverticulosis) never have symptoms. **Diverticulitis** is inflammation of a diverticulum, usually in the **sigmoid colon**, presenting with **left iliac fossa pain**.\n\n**Acute mesenteric ischaemia** is much rarer but has a high mortality (often quoted around 50% or more) because it is diagnosed late. The AMC uses it to test whether you notice that the pain is far worse than the examination suggests, particularly in someone with **atrial fibrillation**."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Pathogenesis",
+          "body": "**Diverticula** are outpouchings of mucosa through weak points in the colonic wall where vessels penetrate, driven by high intraluminal pressure (low-fibre diet, constipation). A diverticulum becomes obstructed, inflamed and may micro-perforate. Complications:\n- **Abscess** (pericolic or pelvic)\n- **Perforation** with purulent or faecal peritonitis\n- **Fistula** (colovesical: pneumaturia, faecaluria, recurrent UTI; colovaginal)\n- **Stricture** causing obstruction\n- **Bleeding** (usually painless, from diverticulosis rather than diverticulitis)\n\n**Acute mesenteric ischaemia** mechanisms:\n- **Arterial embolism** (commonest), usually from the left atrium in **AF** or after MI, lodging in the superior mesenteric artery\n- **Arterial thrombosis** on atherosclerotic plaque (often a history of chronic mesenteric ischaemia: post-prandial pain, food fear, weight loss)\n- **Non-occlusive** (low-flow states: shock, cardiac failure, vasopressors)\n- **Mesenteric venous thrombosis** (thrombophilia, malignancy, cirrhosis)\n\nThe mucosa is most sensitive to ischaemia, so it causes severe visceral pain long before the full-thickness bowel wall dies and peritonitis develops. This is why pain is **out of proportion** to examination.\n\n**Ischaemic colitis** is a milder, colonic form affecting watershed areas (splenic flexure, rectosigmoid) in older patients, causing crampy pain and bloody diarrhoea."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "**Diverticulitis:** left iliac fossa pain and tenderness, fever, change in bowel habit, sometimes a palpable mass. Peritonism suggests perforation. In some people of Asian background, right-sided diverticulitis mimics appendicitis.\n\n**Acute mesenteric ischaemia:**\n- Sudden, severe, diffuse abdominal pain\n- **Abdomen soft with minimal tenderness early**\n- Vomiting and diarrhoea, sometimes bloody\n- AF, vascular disease, older age\n- Later: distension, peritonism, shock\n\n**Ischaemic colitis:** elderly, crampy left-sided pain followed by bloody diarrhoea within 24 hours, usually settles."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "**Diverticulitis:**\n- FBC, CRP, UEC\n- **CT abdomen and pelvis with IV contrast** confirms the diagnosis, grades it and excludes complications. The **modified Hinchey classification** describes severity: pericolic phlegmon or small abscess, pelvic or distant abscess, purulent peritonitis, faecal peritonitis\n- **Colonoscopy about 6-8 weeks later** (once inflammation has settled) if the colon has not been recently examined, especially after complicated disease, to exclude cancer. Colonoscopy is avoided in the acute phase because of perforation risk\n\n**Mesenteric ischaemia:**\n- **Lactate** and metabolic acidosis: helpful when raised, but a **normal lactate does not exclude** early ischaemia\n- **CT angiography** (arterial and portal venous phase) is the diagnostic test of choice; do not delay it because of creatinine concerns when the diagnosis is suspected\n- ECG for AF"
+        },
+        {
+          "kind": "differentials",
+          "heading": "Differentials in older patients with abdominal pain",
+          "body": "| Condition | Discriminating clue |\n|---|---|\n| Diverticulitis | Left iliac fossa pain, fever, CT shows inflamed sigmoid diverticula |\n| Colorectal cancer | Weight loss, iron deficiency anaemia, change in bowel habit, may obstruct |\n| Mesenteric ischaemia | Pain out of proportion, AF, raised lactate |\n| Leaking AAA | Back pain, hypotension, pulsatile mass |\n| Ischaemic colitis | Crampy pain then bloody diarrhoea, splenic flexure on CT or colonoscopy |\n| Diverticular bleed | Painless, large-volume fresh bleeding |\n| Urinary retention | Suprapubic mass, dementia or delirium |"
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Uncomplicated diverticulitis** (CT-confirmed, no abscess or perforation):\n- In a patient who is **systemically well, immunocompetent, tolerating oral intake** and without significant comorbidity, **antibiotics may be withheld**; symptomatic treatment with analgesia (paracetamol, avoid NSAIDs if possible) and a clear fluid then low-residue diet is reasonable, with review. This reflects trial evidence showing no benefit of antibiotics in mild disease, and is supported by eTG.\n- If antibiotics are needed (systemic features, comorbidity, immunosuppression), an oral regimen such as **amoxicillin-clavulanate** is typical per eTG.\n- Safety-net: return if pain worsens, fever or unable to eat.\n\n**Complicated diverticulitis:** admit, IV fluids, **IV antibiotics** per eTG.\n- Abscess larger than about 3-4 cm: **CT-guided percutaneous drainage**\n- **Purulent or faecal peritonitis:** emergency surgery, often a **Hartmann's procedure** (sigmoid resection with end colostomy), or resection with primary anastomosis in selected patients\n- After recovery: fibre, and consideration of elective resection for recurrent or complicated disease\n\n**Diverticular bleeding:** resuscitation; most stop spontaneously; colonoscopy, CT angiography and embolisation or surgery if ongoing.\n\n**Acute mesenteric ischaemia:**\n- Resuscitate, oxygen, IV fluids, broad-spectrum antibiotics\n- **IV unfractionated heparin** early\n- **Urgent vascular and general surgery**: revascularisation (embolectomy, endovascular stenting) and **resection of non-viable bowel**, often with a planned **second-look laparotomy**\n- Venous thrombosis is usually treated with anticoagulation alone unless bowel is infarcted\n\n**Ischaemic colitis:** supportive (fluids, bowel rest, antibiotics in moderate cases); surgery for gangrene."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Left iliac fossa pain in an older person: diverticulitis; the imaging is **CT**, not colonoscopy acutely.\n- A well patient with CT-confirmed uncomplicated diverticulitis: **antibiotics are optional**; the answer may be analgesia and review.\n- Always arrange **follow-up colonoscopy** to exclude cancer after the acute episode if not recently done.\n- **AF + severe pain + soft abdomen + acidosis** = mesenteric ischaemia; the answer is **CT angiography**, then heparin and surgery.\n- Pneumaturia and recurrent UTI in an older man suggests a colovesical fistula.\n- Painless, large-volume fresh rectal bleeding in an older patient is usually a **diverticular bleed** (from diverticulosis, not diverticulitis); resuscitate first, then CT angiography if ongoing.\n- Crampy left-sided pain followed within a day by bloody diarrhoea in an elderly patient with vascular disease suggests **ischaemic colitis**, which usually settles with supportive care."
+        }
+      ],
+      "keyPoints": [
+        "Diverticulitis: left iliac fossa pain and fever; CT with contrast confirms and grades it.",
+        "Uncomplicated diverticulitis in a well, immunocompetent patient can be managed without antibiotics.",
+        "Abscess over 3-4 cm: percutaneous drainage; faecal or purulent peritonitis: surgery (often Hartmann's).",
+        "Colonoscopy about 6-8 weeks after the acute episode to exclude cancer.",
+        "Mesenteric ischaemia: pain out of proportion to examination, often with AF.",
+        "CT angiography is the key test; normal lactate does not exclude ischaemia.",
+        "Treat mesenteric ischaemia with resuscitation, heparin, revascularisation and resection of dead bowel."
+      ],
+      "redFlags": [
+        "Severe pain with a soft abdomen in a patient with AF",
+        "Generalised peritonism in diverticulitis (perforation)",
+        "Raised lactate and metabolic acidosis",
+        "Pneumaturia or faecaluria (colovesical fistula)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Antibiotics for mild diverticulitis",
+          "india": "Routinely prescribed for all episodes.",
+          "australia": "Can be withheld in well, immunocompetent patients with CT-confirmed uncomplicated disease (eTG)."
+        },
+        {
+          "aspect": "Follow-up after diverticulitis",
+          "india": "Colonoscopy often not arranged.",
+          "australia": "Colonoscopy after recovery to exclude cancer if the colon has not been recently assessed."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Classic presentation of acute mesenteric ischaemia?",
+          "back": "Severe abdominal pain out of proportion to examination, often with AF."
+        },
+        {
+          "front": "Diagnostic test for suspected acute mesenteric ischaemia?",
+          "back": "CT angiography."
+        },
+        {
+          "front": "Management of diverticular abscess over 3-4 cm?",
+          "back": "IV antibiotics plus CT-guided percutaneous drainage."
+        },
+        {
+          "front": "Operation commonly performed for faecal peritonitis from perforated sigmoid diverticulitis?",
+          "back": "Hartmann's procedure (sigmoid resection with end colostomy)."
+        },
+        {
+          "front": "Why is colonoscopy avoided in acute diverticulitis?",
+          "back": "Risk of perforation; it is done about 6-8 weeks later to exclude cancer."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "general-surgery--diverticulitis-and-mesenteric-ischaemia--q1",
+          "discipline": "adult-surgery",
+          "topic": "general-surgery",
+          "difficulty": "core",
+          "stem": "A 58-year-old woman presents with 2 days of left iliac fossa pain. She is otherwise well, has no comorbidities and is eating. Temperature is 37.6°C, heart rate 84/min. She is tender in the left iliac fossa without guarding. CRP is 60 mg/L. CT shows sigmoid diverticulitis with local fat stranding, no abscess and no free gas.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Admission for IV ceftriaxone and metronidazole",
+            "Emergency Hartmann's procedure",
+            "Urgent colonoscopy",
+            "Analgesia, clear fluids then diet, and review without antibiotics",
+            "CT-guided drainage"
+          ],
+          "answer": 3,
+          "explanation": "This is **uncomplicated diverticulitis** (no abscess, perforation or obstruction on CT) in a **well, immunocompetent** patient who is eating. Randomised trials have shown antibiotics do not speed recovery or prevent complications in this group, and eTG allows **symptomatic management without antibiotics**: analgesia, clear fluids advancing to diet and review, with clear advice to return if worse. Antibiotics are used if she becomes systemically unwell, has comorbidity or immunosuppression, or fails to improve. Colonoscopy should be arranged after recovery, not now.",
+          "whyWrong": [
+            "She is well and uncomplicated; admission and IV antibiotics are unnecessary.",
+            "Surgery is for perforation with peritonitis.",
+            "Colonoscopy in acute inflammation risks perforation.",
+            "",
+            "There is no collection to drain."
+          ],
+          "ausPearl": "eTG supports withholding antibiotics in mild, uncomplicated diverticulitis in immunocompetent patients, a change from older practice.",
+          "tags": [
+            "diverticulitis",
+            "antibiotic stewardship",
+            "conservative"
+          ]
+        },
+        {
+          "id": "general-surgery--diverticulitis-and-mesenteric-ischaemia--q2",
+          "discipline": "adult-surgery",
+          "topic": "general-surgery",
+          "difficulty": "exam",
+          "stem": "A 76-year-old man with atrial fibrillation who stopped his apixaban a week ago before a dental procedure presents with 4 hours of severe diffuse abdominal pain and one episode of diarrhoea. He is distressed and requires repeated IV opioid. Heart rate is 124/min irregular, blood pressure 138/84 mmHg. His abdomen is soft with only mild diffuse tenderness. Lactate is 3.2 mmol/L.\n\nWhat is the most appropriate next investigation?",
+          "options": [
+            "CT angiography of the abdomen",
+            "Abdominal ultrasound",
+            "Plain abdominal X-ray",
+            "Colonoscopy",
+            "Serum lipase and review in 6 hours"
+          ],
+          "answer": 0,
+          "explanation": "Severe pain **out of proportion** to a soft abdomen in a patient with **AF off anticoagulation** is **acute mesenteric ischaemia (embolic)** until proven otherwise. Raised lactate supports it, although a normal lactate would not exclude it. The investigation of choice is **CT angiography**, which shows the arterial occlusion and bowel viability. Management is resuscitation, IV heparin and urgent vascular and general surgical intervention (embolectomy or endovascular therapy plus resection of dead bowel). Delay kills: each hour of ischaemia increases the chance of bowel infarction.",
+          "whyWrong": [
+            "",
+            "Ultrasound is limited by bowel gas and does not reliably assess the mesenteric vessels.",
+            "A plain film is usually normal early and delays diagnosis.",
+            "Colonoscopy does not image the small bowel or the arteries.",
+            "Waiting 6 hours risks bowel infarction."
+          ],
+          "tags": [
+            "mesenteric ischaemia",
+            "atrial fibrillation",
+            "ct angiography"
+          ]
+        },
+        {
+          "id": "general-surgery--diverticulitis-and-mesenteric-ischaemia--q3",
+          "discipline": "adult-surgery",
+          "topic": "general-surgery",
+          "difficulty": "foundation",
+          "stem": "A 66-year-old man is reviewed on the ward after treatment for CT-confirmed sigmoid diverticulitis with a 2 cm pericolic abscess, which settled with IV antibiotics. He has never had a colonoscopy.\n\nWhat follow-up is most appropriate?",
+          "options": [
+            "Repeat CT in 1 week",
+            "Colonoscopy in about 6-8 weeks",
+            "Elective sigmoid colectomy in 2 weeks",
+            "Barium swallow",
+            "No follow-up needed"
+          ],
+          "answer": 1,
+          "explanation": "After an episode of complicated diverticulitis, **colonoscopy about 6-8 weeks later** is recommended if the colon has not been recently assessed, because **colorectal cancer can mimic diverticulitis** on CT (a perforated tumour can look like an inflammatory mass). Waiting allows inflammation to settle and reduces perforation risk. Elective resection is considered for recurrent or complicated disease but is not routine after a single episode. His age also makes bowel cancer screening relevant.",
+          "whyWrong": [
+            "Repeat CT is only needed if he deteriorates.",
+            "",
+            "Elective resection is not routine after one episode and would not be done at 2 weeks.",
+            "A barium swallow images the oesophagus, not the colon.",
+            "Cancer must be excluded, especially after complicated disease."
+          ],
+          "tags": [
+            "diverticulitis",
+            "colonoscopy",
+            "follow-up"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "general-surgery--anorectal-conditions",
+      "title": "Anorectal conditions and rectal bleeding",
+      "minutes": 14,
+      "objectives": [
+        "Diagnose haemorrhoids, anal fissure, perianal abscess, fistula and pilonidal disease from the history and examination",
+        "Manage each condition in general practice and know when to refer",
+        "Identify rectal bleeding that needs colonoscopy to exclude colorectal cancer",
+        "Explain Australian bowel cancer screening in outline"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why anorectal problems matter",
+          "body": "Anorectal symptoms (bleeding, pain, lumps, itch, discharge) are very common in Australian general practice. Most causes are benign, but **colorectal cancer** is common in Australia and can present with the same bleeding. The AMC wants you to diagnose the benign conditions confidently, treat them sensibly and never attribute rectal bleeding to haemorrhoids in an at-risk patient without considering colonoscopy.\n\n**Examination** always includes inspection, digital rectal examination (unless too painful, as in fissure) and proctoscopy where possible."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Mechanisms",
+          "body": "- **Haemorrhoids:** engorged, prolapsing anal cushions (vascular tissue above the dentate line), worsened by straining, constipation, pregnancy and low fibre. Internal haemorrhoids are above the dentate line and painless (visceral innervation). External haemorrhoids are below it and can thrombose painfully.\n- **Anal fissure:** a tear in the anoderm below the dentate line (somatic innervation, hence severe pain), usually from passing hard stool. Pain causes **internal sphincter spasm**, which reduces blood flow and stops healing: a vicious cycle. Treatments aim to relax the sphincter.\n- **Perianal abscess:** infection of an anal gland in the intersphincteric space tracking to the perianal skin (cryptoglandular). About a third to a half go on to form a **fistula-in-ano** (a track from the anal canal to the skin).\n- **Pilonidal sinus:** hair penetrating the skin of the natal cleft, causing recurrent abscesses; young hairy men, sedentary occupations."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "| Condition | Key features |\n|---|---|\n| Internal haemorrhoids | **Painless bright red bleeding** on the paper or in the pan after defecation; prolapse; itch. Graded I (no prolapse) to IV (irreducible) |\n| Thrombosed external haemorrhoid | Sudden, **painful, tense blue lump** at the anal verge |\n| Anal fissure | **Severe tearing pain on defecation** lasting minutes to hours, small amount of bright blood; tear usually **posterior midline**; sentinel skin tag in chronic cases |\n| Perianal abscess | Throbbing constant pain, **tender fluctuant swelling**, fever, pain on sitting |\n| Fistula-in-ano | Recurrent discharge from an external opening near the anus, history of abscess |\n| Pilonidal abscess | Painful swelling in the natal cleft with pits |\n| Rectal prolapse | Full-thickness prolapse, older women, incontinence |\n\n**Fissures that are lateral or multiple** suggest **Crohn's disease**, HIV, syphilis, TB or malignancy.\n\n**Goodsall's rule:** fistulae with an external opening posterior to a transverse line across the anus usually track in a curve to the posterior midline; anterior openings usually track radially."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations and red flags for rectal bleeding",
+          "body": "Most benign anorectal conditions are clinical diagnoses. Investigations are guided by risk:\n- **Colonoscopy** for rectal bleeding with red flags: **age over about 45-50**, change in bowel habit, **iron deficiency anaemia**, weight loss, family history of colorectal cancer, a mass, or dark blood mixed with stool\n- **FBC and iron studies** in persistent bleeding\n- **MRI pelvis or examination under anaesthesia** for complex fistulas\n- Flexible sigmoidoscopy for younger patients with persistent outlet-type bleeding and no response to treatment\n\n**Australian bowel cancer screening (NBCSP):** a home **immunochemical faecal occult blood test (iFOBT/FIT) every 2 years** for people aged **45 to 74** (eligible people from 45 can request a kit; invitations are sent automatically from 50). A positive test needs colonoscopy. Screening is for **asymptomatic** people only; a person with symptoms needs diagnostic investigation, not a screening kit."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Differentials of rectal bleeding",
+          "body": "- **Colorectal cancer:** older, change in bowel habit, anaemia, weight loss, blood mixed with stool\n- **Inflammatory bowel disease:** bloody diarrhoea, urgency, tenesmus, young adult\n- **Diverticular bleeding:** painless, large volume, older\n- **Angiodysplasia:** older, anaemia, occult or overt bleeding\n- **Infective colitis:** acute bloody diarrhoea, fever, travel or food history\n- **Upper GI bleed:** melaena; brisk upper GI bleeding can present as fresh red blood with shock"
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Haemorrhoids:**\n- All: **high-fibre diet, fluids, fibre supplements** (psyllium), avoid straining, topical preparations for symptom relief (short-term)\n- Grades I-II not responding: **rubber band ligation** (or injection sclerotherapy) as an outpatient\n- Grades III-IV or failed banding: **haemorrhoidectomy** or other procedures\n- **Thrombosed external haemorrhoid:** if seen early (within about 72 hours), excision under local anaesthetic gives fast relief; after that, conservative care (analgesia, sitz baths, stool softeners) as it resolves\n\n**Anal fissure:**\n- Acute: stool softeners, fibre, fluids, warm baths, topical anaesthetic\n- Chronic (over 6 weeks) or failing: **topical glyceryl trinitrate 0.2% ointment** (headache common) or **topical diltiazem 2%** (compounded), both relax the internal sphincter\n- Refractory: **botulinum toxin** injection or **lateral internal sphincterotomy** (small risk of incontinence)\n\n**Perianal abscess:** **incision and drainage** promptly (antibiotics alone do not work); antibiotics are added for cellulitis, diabetes, immunosuppression or systemic sepsis. Warn about possible fistula.\n\n**Fistula-in-ano:** surgical referral; low fistulas may be laid open (fistulotomy), complex fistulas need seton or sphincter-sparing procedures to protect continence. Screen for Crohn's disease in recurrent or complex fistulas.\n\n**Pilonidal disease:** drain abscesses; definitive excision or off-midline procedures electively; hair removal."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Excruciating pain on defecation with a small amount of blood in a young person: **posterior midline fissure**; first-line is fibre, softeners, then topical GTN or diltiazem.\n- A lateral fissure: think **Crohn's**.\n- Fluctuant tender perianal swelling: the answer is **incision and drainage**, not antibiotics.\n- Rectal bleeding in someone over 45-50 or with anaemia: **colonoscopy**, even if haemorrhoids are visible.\n- A symptomatic person should not be given a screening FIT.\n- Perianal pain with a normal-looking perineum, fever and a tender mass on rectal examination suggests a deeper (intersphincteric or supralevator) abscess needing examination under anaesthesia.\n- Recurrent or multiple fistulas, skin tags and diarrhoea in a young adult: screen for **Crohn's disease**.\n- Pruritus ani is common and usually from hygiene, moisture or dermatitis, but check for threadworm, candida and skin disease."
+        }
+      ],
+      "keyPoints": [
+        "Internal haemorrhoids cause painless bright red bleeding; manage with fibre, then banding, then surgery.",
+        "Anal fissure: severe pain on defecation, posterior midline tear; fibre, then topical GTN or diltiazem.",
+        "Lateral or multiple fissures suggest Crohn's, HIV, syphilis, TB or cancer.",
+        "Perianal abscess needs incision and drainage; antibiotics alone are inadequate.",
+        "Thrombosed external haemorrhoid: excise if within about 72 hours, otherwise conservative.",
+        "Rectal bleeding with age over 45-50, anaemia, weight loss or change in bowel habit needs colonoscopy.",
+        "NBCSP: FIT every 2 years from 45 to 74 for asymptomatic people."
+      ],
+      "redFlags": [
+        "Rectal bleeding with iron deficiency anaemia or weight loss",
+        "Change in bowel habit in an older adult",
+        "Palpable rectal mass",
+        "Perianal sepsis in a diabetic or immunosuppressed patient (risk of necrotising infection)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Bowel cancer screening",
+          "india": "No national organised program; testing is opportunistic.",
+          "australia": "National Bowel Cancer Screening Program mails a FIT every 2 years (45-74; invitations from 50)."
+        },
+        {
+          "aspect": "Anal fistula causes",
+          "india": "TB is an important cause of recurrent fistula.",
+          "australia": "Mostly cryptoglandular; consider Crohn's disease in recurrent or complex fistulas."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Commonest site of a primary anal fissure?",
+          "back": "Posterior midline."
+        },
+        {
+          "front": "Topical first-line treatments for a chronic anal fissure?",
+          "back": "Glyceryl trinitrate 0.2% ointment or diltiazem 2% ointment."
+        },
+        {
+          "front": "Treatment of a perianal abscess?",
+          "back": "Incision and drainage."
+        },
+        {
+          "front": "NBCSP test and interval?",
+          "back": "Immunochemical faecal occult blood test every 2 years, ages 45-74."
+        },
+        {
+          "front": "Management of a thrombosed external haemorrhoid seen within 72 hours?",
+          "back": "Excision (incision of thrombus) under local anaesthetic for rapid relief."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "general-surgery--anorectal-conditions--q1",
+          "discipline": "adult-surgery",
+          "topic": "general-surgery",
+          "difficulty": "foundation",
+          "stem": "A 28-year-old woman presents to her GP with 3 weeks of severe, sharp anal pain during and for an hour after bowel motions, with a streak of bright red blood on the toilet paper. She has been constipated since starting codeine for a back injury. Inspection reveals a small longitudinal tear at the posterior midline of the anal verge. Digital examination is too painful to perform.\n\nWhat is the most appropriate initial management?",
+          "options": [
+            "Lateral internal sphincterotomy",
+            "Incision and drainage under anaesthesia",
+            "Colonoscopy",
+            "Oral metronidazole",
+            "Stool softeners, fibre, fluids and stopping codeine if possible"
+          ],
+          "answer": 4,
+          "explanation": "This is an **acute anal fissure**: severe tearing pain on defecation with minimal bright blood and a **posterior midline** tear. The cause is hard stool from codeine-induced constipation. First-line care is conservative: **soften the stool** (fibre, fluids, stool softener), address the cause, warm baths and topical anaesthetic. Most acute fissures heal. If it persists beyond about 6 weeks (chronic), topical GTN or diltiazem are next, then botulinum toxin or sphincterotomy. Colonoscopy is not needed in a young person with a typical fissure and no red flags.",
+          "whyWrong": [
+            "Sphincterotomy is reserved for chronic fissures that fail medical therapy.",
+            "There is no abscess to drain.",
+            "No red flags; colonoscopy is not indicated.",
+            "Antibiotics have no role in a typical fissure.",
+            ""
+          ],
+          "tags": [
+            "anal fissure",
+            "constipation",
+            "general practice"
+          ]
+        },
+        {
+          "id": "general-surgery--anorectal-conditions--q2",
+          "discipline": "adult-surgery",
+          "topic": "general-surgery",
+          "difficulty": "core",
+          "stem": "A 34-year-old man presents with 3 days of increasing throbbing pain beside his anus, worse on sitting. Temperature is 37.9°C. There is a 3 cm tender, red, fluctuant swelling 2 cm from the anal verge at the 4 o'clock position. He is otherwise well and not diabetic.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Oral amoxicillin-clavulanate for 7 days",
+            "Incision and drainage",
+            "Topical glyceryl trinitrate",
+            "MRI pelvis before any treatment",
+            "Rubber band ligation"
+          ],
+          "answer": 1,
+          "explanation": "A tender, fluctuant perianal swelling with fever is a **perianal abscess**. Pus must be released: **incision and drainage** is the treatment, and antibiotics alone will not resolve an established collection. Antibiotics are added only for surrounding cellulitis, systemic sepsis, diabetes or immunosuppression. After drainage, warn him that a **fistula-in-ano** develops in a substantial proportion of patients, presenting as recurrent discharge. MRI is used for complex or recurrent disease, not before draining a simple abscess.",
+          "whyWrong": [
+            "Antibiotics alone do not treat an established collection.",
+            "",
+            "GTN treats fissures, not abscesses.",
+            "MRI is for complex or recurrent fistulas and should not delay drainage.",
+            "Banding treats internal haemorrhoids."
+          ],
+          "tags": [
+            "perianal abscess",
+            "incision and drainage",
+            "anorectal"
+          ]
+        },
+        {
+          "id": "general-surgery--anorectal-conditions--q3",
+          "discipline": "adult-surgery",
+          "topic": "general-surgery",
+          "difficulty": "exam",
+          "stem": "A 62-year-old man tells his GP he has noticed bright red blood on the toilet paper intermittently for 2 months. He thinks it is his \"piles\", which he has had for years. He has no pain. His bowel habit has become looser over the same period. Proctoscopy shows grade II internal haemorrhoids. Haemoglobin is 112 g/L with a low ferritin.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Rubber band ligation of the haemorrhoids",
+            "Send a National Bowel Cancer Screening Program FIT kit",
+            "Referral for colonoscopy",
+            "High-fibre diet and review in 3 months",
+            "Topical hydrocortisone and lignocaine ointment"
+          ],
+          "answer": 2,
+          "explanation": "Visible haemorrhoids do not explain **iron deficiency anaemia** or a **change in bowel habit** in a 62-year-old. These are red flags for **colorectal cancer**, and he needs **diagnostic colonoscopy**. The FIT is a **screening** test for **asymptomatic** people; a symptomatic patient needs direct investigation, and a negative FIT would be falsely reassuring. Treating the haemorrhoids first risks delaying a cancer diagnosis. **Rule:** never attribute rectal bleeding to haemorrhoids in an older patient with red flags until the colon has been examined.",
+          "whyWrong": [
+            "Treating haemorrhoids first would delay the diagnosis of a possible cancer.",
+            "Screening tests are for asymptomatic people; he needs diagnostic colonoscopy.",
+            "",
+            "Delaying 3 months with red flags is unsafe.",
+            "Symptomatic relief does not investigate his anaemia and bowel change."
+          ],
+          "ausPearl": "The National Bowel Cancer Screening Program is for asymptomatic people; symptomatic patients should be referred for colonoscopy, a point Cancer Council Australia emphasises.",
+          "tags": [
+            "rectal bleeding",
+            "colorectal cancer",
+            "screening"
+          ]
+        }
+      ]
+    }
+  ]
+}

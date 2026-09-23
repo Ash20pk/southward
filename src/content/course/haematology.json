@@ -1,0 +1,1040 @@
+{
+  "topic": "haematology",
+  "intro": "Haematology on the AMC is about common problems handled safely: working up anaemia (especially iron deficiency, which in Australia always prompts a search for the cause), managing clotting and anticoagulant reversal, transfusing only when needed, and recognising blood cancers and their emergencies. Febrile neutropenia, warfarin reversal with Prothrombinex-VF, HIT and restrictive transfusion thresholds are recurring themes because interns meet them in their first weeks.",
+  "lessons": [
+    {
+      "id": "haematology--anaemia",
+      "title": "Anaemia: iron, thalassaemia, B12 and haemolysis",
+      "minutes": 20,
+      "objectives": [
+        "Classify anaemia by MCV and use the reticulocyte count to separate underproduction from loss or destruction",
+        "Diagnose iron deficiency from ferritin and choose the right cause-finding investigations",
+        "Distinguish thalassaemia trait from iron deficiency and know when to order Hb electrophoresis",
+        "Recognise B12 deficiency and haemolysis from the blood film and biochemistry",
+        "Plan oral versus IV iron and B12 replacement"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why anaemia matters for the AMC",
+          "body": "Anaemia is one of the commonest abnormal results you will see as an intern, and the AMC uses it to test **reasoning**: a number on a full blood count (FBC) is the start, not the diagnosis. Australia reports haemoglobin in **g/L**, so the lower limit is roughly 130 g/L in men and 120 g/L in non-pregnant women (7 g/dL becomes 70 g/L).\n\nIron deficiency is the most common cause worldwide and in Australia, but the Australian emphasis is different from Indian teaching: iron deficiency is **a sign, not a diagnosis**. In a man or a postmenopausal woman it is assumed to be **gastrointestinal blood loss (including colorectal cancer) until proven otherwise**. Menstrual loss and pregnancy dominate in younger women. Coeliac disease is a frequently examined hidden cause.\n\nGroups to keep in mind in Australia: migrants from South Asia, the Mediterranean, the Middle East and South-East Asia (thalassaemia trait), older people and those on metformin or long-term PPIs (B12 deficiency), vegans, bariatric surgery patients, and Aboriginal and Torres Strait Islander children in remote communities, where iron deficiency and hookworm-related loss are more common."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Mechanisms by MCV",
+          "body": "Start every anaemia with two numbers: **MCV** and the **reticulocyte count**.\n\n- **Low reticulocytes** = the marrow is not producing (lack of iron, B12, folate, erythropoietin, or marrow failure/infiltration).\n- **High reticulocytes** = the marrow is responding to **blood loss or haemolysis**.\n\n| MCV | Main causes | Mechanism |\n|---|---|---|\n| Microcytic (<80 fL) | Iron deficiency, thalassaemia trait, anaemia of chronic disease (sometimes), sideroblastic | Not enough haem or globin, so cells divide more times and end up small |\n| Normocytic | Acute blood loss, anaemia of chronic disease, CKD, marrow infiltration, early iron deficiency, mixed deficiency | Reduced production or recent loss |\n| Macrocytic (>100 fL) | B12 or folate deficiency (megaloblastic), alcohol, liver disease, hypothyroidism, drugs (methotrexate, hydroxyurea), myelodysplasia, reticulocytosis | Impaired DNA synthesis delays nuclear maturation; or membrane lipid changes |\n\n**Iron deficiency** develops in stages: stores fall first (low ferritin), then transport iron falls (low transferrin saturation, high transferrin/TIBC), and only then does Hb fall with microcytosis and hypochromia.\n\n**Anaemia of chronic disease (inflammation)**: hepcidin rises with inflammation, locking iron inside macrophages and blocking gut absorption. Ferritin is normal or high, transferrin saturation low.\n\n**Thalassaemia trait**: reduced synthesis of alpha or beta globin chains. The marrow makes plenty of small cells, so the red cell count is normal or high despite a very low MCV.\n\n**B12 deficiency**: pernicious anaemia (autoimmune loss of intrinsic factor), malabsorption (terminal ileal disease or resection, coeliac), metformin, long-term PPI, strict vegan diet. B12 is also needed for myelin, so it causes **neurological damage** (subacute combined degeneration of the cord). Folate deficiency (poor diet, alcohol, pregnancy, methotrexate, haemolysis) causes the same blood picture without neuropathy.\n\n**Haemolysis**: red cells destroyed early, either in vessels (intravascular: haemoglobinuria, very low haptoglobin) or in spleen/liver (extravascular: jaundice, splenomegaly). Causes include autoimmune (warm IgG, cold IgM), hereditary spherocytosis, G6PD deficiency, microangiopathic (TTP/HUS, DIC, mechanical valves) and drugs."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features and classic vignettes",
+          "body": "Symptoms relate to speed of onset as much as the Hb level: fatigue, exertional dyspnoea, palpitations, angina in those with coronary disease, pallor. Look for the cause:\n\n- **Iron deficiency**: koilonychia, angular stomatitis, glossitis, pica (ice craving), restless legs. Ask about menstrual loss, diet, NSAIDs/aspirin/anticoagulants, change in bowel habit, weight loss, family history of bowel cancer, blood donation, bariatric surgery.\n- **B12 deficiency**: glossitis, mild jaundice (ineffective erythropoiesis), paraesthesia, loss of vibration and proprioception, positive Romberg, extensor plantars with absent ankle jerks, cognitive change. Other autoimmune disease (hypothyroidism, vitiligo, type 1 diabetes) supports pernicious anaemia.\n- **Haemolysis**: jaundice, dark urine, splenomegaly, gallstones at a young age (pigment stones in hereditary spherocytosis).\n- **G6PD deficiency**: X-linked, sudden haemolysis after fava beans, infection or oxidant drugs (primaquine, dapsone, nitrofurantoin, sulfonamides, rasburicase). Film shows bite cells and Heinz bodies.\n\nClassic AMC framings: a 68-year-old man with fatigue and microcytic anaemia (think right-sided colon cancer); a 25-year-old woman from Sri Lanka whose MCV is 62 fL but Hb is only mildly low and ferritin is normal (thalassaemia trait); a 72-year-old on metformin with numb feet and macrocytosis (B12)."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations and interpretation",
+          "body": "**First line:** FBC with film, reticulocyte count, iron studies (ferritin, transferrin saturation), B12 and folate, renal and liver function, CRP.\n\n**Ferritin** is the single best test for iron deficiency. A ferritin **below about 30 ug/L is diagnostic** of iron deficiency. Ferritin is an acute phase reactant, so inflammation, liver disease or malignancy can push it up and hide iron deficiency; a low **transferrin saturation** with a ferritin in the normal range can still mean iron deficiency when CRP is raised.\n\n| | Iron deficiency | Chronic disease | Thalassaemia trait |\n|---|---|---|---|\n| MCV | Low | Normal or low | Very low |\n| RBC count | Low | Low | Normal or high |\n| Ferritin | Low | Normal or high | Normal |\n| Transferrin saturation | Low | Low | Normal |\n| RDW | High | Normal | Normal or mildly high |\n\n**Mentzer index** (MCV divided by RBC count in 10^12/L): below 13 favours thalassaemia trait, above 13 favours iron deficiency. It is a clue, not a diagnosis.\n\n**Hb electrophoresis (or HPLC)**: beta thalassaemia trait shows a **raised HbA2**. Alpha thalassaemia trait usually has **normal electrophoresis** and needs DNA testing if it matters (for example, in a partner of a carrier planning pregnancy). Iron deficiency can lower HbA2 and mask beta trait, so correct iron before relying on a normal result.\n\n**Finding the cause of iron deficiency:**\n- Coeliac serology (tTG IgA with total IgA) in everyone with unexplained iron deficiency.\n- **Gastroscopy and colonoscopy** in men and postmenopausal women, and in younger women with GI symptoms or a family history, or failure to respond to iron.\n- Urinalysis for haematuria.\n\n**B12 deficiency:** serum B12 (a borderline result can be clarified with holotranscobalamin or methylmalonic acid), intrinsic factor antibodies (specific) or parietal cell antibodies (sensitive but not specific). Film: macro-ovalocytes and **hypersegmented neutrophils**.\n\n**Haemolysis screen:** high reticulocytes, raised unconjugated bilirubin and LDH, low haptoglobin, film (spherocytes, schistocytes, bite cells), and the **direct antiglobulin test (DAT/Coombs)**, which is positive in autoimmune haemolysis. Schistocytes plus low platelets means TTP/HUS or DIC until proven otherwise."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Iron deficiency**\n- Treat the cause, and replace iron.\n- **Oral iron** first line: one tablet containing elemental iron, once daily or on alternate days (alternate-day dosing improves absorption because a dose raises hepcidin for about 24 hours). Take on an empty stomach, away from tea, calcium and PPIs; vitamin C may help. Side effects: constipation, nausea, black stools.\n- Expect Hb to rise by about 10 to 20 g/L every 2 to 3 weeks. Continue for about 3 months after Hb normalises to refill stores, then recheck ferritin.\n- **IV iron** (for example ferric carboxymaltose or ferric derisomaltose) when oral iron fails or is not tolerated, in malabsorption (coeliac, bariatric surgery, IBD), CKD, late pregnancy or before surgery when there is not time for oral iron. Watch for infusion reactions and skin staining from extravasation; ferric carboxymaltose can cause hypophosphataemia.\n- Transfusion is rarely needed for iron deficiency unless the patient is unstable or has cardiac compromise.\n\n**Thalassaemia trait**: no treatment. Do **not** give iron unless ferritin is also low. The important step is **genetic counselling and partner testing** before or early in pregnancy, because two carriers can have a child with thalassaemia major or Hb Bart's hydrops.\n\n**B12 deficiency**: IM **hydroxocobalamin 1000 micrograms**, given as a loading course then every 3 months for life in pernicious anaemia (check eTG for the exact loading schedule). High-dose oral B12 can work in dietary deficiency. If B12 and folate are both low, **replace B12 before or with folate**, because giving folate alone can precipitate or worsen subacute combined degeneration. Hypokalaemia can occur early in treatment of severe megaloblastic anaemia.\n\n**Folate deficiency**: oral folic acid 5 mg daily, after B12 is confirmed adequate.\n\n**Haemolysis**: treat the cause. Warm autoimmune haemolysis: corticosteroids with haematology input. G6PD: avoid triggers, supportive care. Hereditary spherocytosis: folic acid, splenectomy in severe cases (with pre-splenectomy vaccines)."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- The \"next step\" for iron deficiency in a man or postmenopausal woman is almost always **endoscopy (gastroscopy and colonoscopy)**, not just \"start oral iron\".\n- Very low MCV with a near-normal Hb, high RBC count and **normal ferritin** in someone of South Asian or Mediterranean background = **thalassaemia trait**; order Hb electrophoresis.\n- A normal ferritin does not exclude iron deficiency if CRP is high; look at transferrin saturation.\n- Neurological signs with macrocytosis = B12 until proven otherwise; never give folate alone.\n- Anaemia plus jaundice plus high reticulocytes = haemolysis; the DAT sorts immune from non-immune.\n- A reticulocyte count separates \"not making\" from \"losing or destroying\"; it is often the discriminating test in answer options."
+        }
+      ],
+      "keyPoints": [
+        "Classify by MCV, then use the reticulocyte count to tell production failure from loss or haemolysis.",
+        "Ferritin below about 30 ug/L is diagnostic of iron deficiency; inflammation can falsely raise it.",
+        "Iron deficiency in men and postmenopausal women needs gastroscopy and colonoscopy, plus coeliac serology.",
+        "Microcytosis with normal ferritin and a high RBC count suggests thalassaemia trait; beta trait has raised HbA2.",
+        "Offer partner testing and genetic counselling to thalassaemia carriers.",
+        "B12 deficiency causes neuropathy and cord disease; replace B12 before folate.",
+        "Haemolysis: high LDH, unconjugated bilirubin and reticulocytes, low haptoglobin; DAT for autoimmune causes."
+      ],
+      "redFlags": [
+        "Iron deficiency in a man or postmenopausal woman (possible colorectal or gastric cancer)",
+        "Weight loss, change in bowel habit or rectal bleeding with anaemia",
+        "Macrocytosis with neurological signs (subacute combined degeneration)",
+        "Schistocytes with thrombocytopenia (TTP, HUS or DIC)",
+        "Anaemia with low white cells or platelets, or blasts on the film (marrow failure or leukaemia)",
+        "Symptomatic anaemia with chest pain or heart failure"
+      ],
+      "contrast": [
+        {
+          "aspect": "Default cause of iron deficiency",
+          "india": "Often assumed nutritional or due to hookworm; iron commonly started without further workup.",
+          "australia": "Treated as a sign. Men and postmenopausal women get gastroscopy, colonoscopy and coeliac serology to exclude GI cancer."
+        },
+        {
+          "aspect": "Thalassaemia screening",
+          "india": "Thalassaemia is common; carrier screening programmes exist in some states.",
+          "australia": "Offered to people of at-risk ancestry, ideally preconception, with partner testing when one partner is a carrier."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Ferritin level diagnostic of iron deficiency?",
+          "back": "Below about 30 ug/L. Ferritin is an acute phase reactant, so it can be falsely normal in inflammation."
+        },
+        {
+          "front": "Electrophoresis finding in beta thalassaemia trait?",
+          "back": "Raised HbA2. Alpha trait usually has normal electrophoresis and needs DNA testing."
+        },
+        {
+          "front": "Mentzer index cut-off?",
+          "back": "MCV divided by RBC count: below 13 suggests thalassaemia trait; above 13 suggests iron deficiency."
+        },
+        {
+          "front": "Why not give folate alone in megaloblastic anaemia?",
+          "back": "It can worsen or precipitate subacute combined degeneration if B12 deficiency is present. Replace B12 first or together."
+        },
+        {
+          "front": "Four lab markers of haemolysis?",
+          "back": "Raised reticulocytes, raised unconjugated bilirubin, raised LDH, low haptoglobin."
+        },
+        {
+          "front": "Investigation for iron deficiency in a 65-year-old man?",
+          "back": "Gastroscopy and colonoscopy, plus coeliac serology."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "haematology--anaemia--q1",
+          "discipline": "adult-medicine",
+          "topic": "haematology",
+          "difficulty": "core",
+          "stem": "A 67-year-old retired builder sees his GP in Newcastle with 3 months of fatigue and breathlessness on hills. He has no GI symptoms and takes no medications. Examination is unremarkable apart from pallor. FBC: Hb 98 g/L (130-180), MCV 71 fL (80-100), platelets 410 x 10^9/L. Ferritin 8 ug/L (30-300). Coeliac serology is negative.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Start oral iron and repeat the FBC in 3 months",
+            "Arrange a faecal occult blood test",
+            "Refer for gastroscopy and colonoscopy",
+            "Arrange haemoglobin electrophoresis",
+            "Arrange a CT scan of the abdomen and pelvis"
+          ],
+          "answer": 2,
+          "explanation": "This man has **iron deficiency anaemia** (ferritin well below 30 ug/L, microcytosis, reactive thrombocytosis). In a man or postmenopausal woman, iron deficiency is assumed to be from **gastrointestinal blood loss** until proven otherwise, and a right-sided colon cancer often presents exactly like this, with no bowel symptoms. The right answer is **bidirectional endoscopy** (gastroscopy and colonoscopy). He should also start iron, but iron alone without finding the cause is the classic wrong answer. A faecal occult blood test is a screening test for asymptomatic people; a negative result would not stop you investigating, so it adds nothing here.",
+          "whyWrong": [
+            "Iron is appropriate alongside, but treating without finding the cause could miss a bowel cancer.",
+            "FOBT is a population screening test; he already needs endoscopy regardless of the result.",
+            "",
+            "Ferritin is very low, so this is iron deficiency, not thalassaemia trait.",
+            "CT may miss mucosal lesions and does not allow biopsy; endoscopy is first line."
+          ],
+          "tags": [
+            "iron deficiency",
+            "colorectal cancer",
+            "endoscopy"
+          ],
+          "ausPearl": "The National Bowel Cancer Screening Program mails iFOBT kits to people aged 45-74, but it is for asymptomatic people. Symptomatic patients or those with iron deficiency go straight to colonoscopy."
+        },
+        {
+          "id": "haematology--anaemia--q2",
+          "discipline": "adult-medicine",
+          "topic": "haematology",
+          "difficulty": "foundation",
+          "stem": "A 28-year-old woman originally from Pakistan has an FBC before a planned pregnancy in Melbourne. She feels well. Hb 112 g/L (115-165), MCV 63 fL (80-100), RBC 5.9 x 10^12/L (3.8-5.8), RDW normal. Ferritin 85 ug/L (30-300).\n\nWhat is the most appropriate next investigation?",
+          "options": [
+            "Haemoglobin electrophoresis",
+            "Bone marrow biopsy",
+            "Serum B12 and folate",
+            "Direct antiglobulin test",
+            "Coeliac serology"
+          ],
+          "answer": 0,
+          "explanation": "Marked microcytosis with only mild anaemia, a **high red cell count**, a normal RDW and a **normal ferritin** is the classic pattern of **thalassaemia trait**. The Mentzer index (63 / 5.9 = about 11) is below 13, supporting this. The next step is **Hb electrophoresis/HPLC**: a raised HbA2 confirms beta trait; a normal result with this picture suggests alpha trait, which needs DNA studies. Because she is planning a pregnancy, her partner should be tested too, since two carriers risk an affected child. Iron is not indicated because stores are normal.",
+          "whyWrong": [
+            "",
+            "Marrow examination is not needed for an isolated, typical microcytic picture.",
+            "B12 and folate deficiency cause macrocytosis, not microcytosis.",
+            "The DAT tests for immune haemolysis; nothing here suggests haemolysis.",
+            "Coeliac serology is for unexplained iron deficiency; her iron stores are normal."
+          ],
+          "tags": [
+            "thalassaemia",
+            "microcytic anaemia",
+            "preconception"
+          ],
+          "ausPearl": "Preconception carrier screening is recommended for people of at-risk ancestry (RANZCOG, RACGP). If she is a carrier, test her partner early so prenatal diagnosis can be offered."
+        },
+        {
+          "id": "haematology--anaemia--q3",
+          "discipline": "adult-medicine",
+          "topic": "haematology",
+          "difficulty": "exam",
+          "stem": "A 74-year-old woman with type 2 diabetes, on metformin for 12 years, presents to her GP in Hobart with 4 months of tingling feet and unsteadiness in the dark. Examination shows reduced vibration sense to the knees, a positive Romberg test and absent ankle jerks with extensor plantar responses. FBC: Hb 104 g/L, MCV 112 fL. Serum B12 is low and red cell folate is low.\n\nWhat is the most appropriate initial treatment?",
+          "options": [
+            "Oral folic acid alone",
+            "Intramuscular hydroxocobalamin, with folic acid added after B12 is started",
+            "Increase metformin and start pregabalin",
+            "Red cell transfusion",
+            "Oral iron"
+          ],
+          "answer": 1,
+          "explanation": "Macrocytic anaemia with **dorsal column loss, a positive Romberg, absent ankle jerks and upgoing plantars** is **subacute combined degeneration of the cord** from **B12 deficiency**, here most likely from long-term metformin (pernicious anaemia should still be tested for). Neurological B12 deficiency needs **IM hydroxocobalamin** promptly because the damage can become permanent. Folate is also low, but **folate must not be given alone**, since it can correct the blood picture while the neurological damage progresses. Replace B12 first or together. Transfusion is not needed for a stable Hb of 104 g/L.",
+          "whyWrong": [
+            "Folate alone can worsen neurological damage when B12 is deficient.",
+            "",
+            "Metformin is the likely cause of the deficiency; pregabalin treats symptoms, not the cause.",
+            "She is stable; transfusion is not indicated and risks fluid overload.",
+            "The anaemia is macrocytic, not iron deficiency."
+          ],
+          "tags": [
+            "b12 deficiency",
+            "metformin",
+            "subacute combined degeneration"
+          ]
+        },
+        {
+          "id": "haematology--anaemia--q4",
+          "discipline": "adult-medicine",
+          "topic": "haematology",
+          "difficulty": "core",
+          "stem": "A 22-year-old man of Greek background presents to an emergency department in Adelaide with dark urine and jaundice 2 days after starting nitrofurantoin. Hb 86 g/L (baseline 150 g/L two weeks ago), reticulocytes raised, unconjugated bilirubin 62 umol/L, LDH raised, haptoglobin undetectable. The blood film shows bite cells. The direct antiglobulin test is negative.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Hereditary spherocytosis",
+            "Warm autoimmune haemolytic anaemia",
+            "Thrombotic thrombocytopenic purpura",
+            "Glucose-6-phosphate dehydrogenase deficiency",
+            "Gilbert syndrome"
+          ],
+          "answer": 3,
+          "explanation": "Acute haemolysis (falling Hb, raised reticulocytes, unconjugated bilirubin and LDH, absent haptoglobin) in a Mediterranean man shortly after an **oxidant drug** (nitrofurantoin), with **bite cells** and a **negative DAT**, is classic **G6PD deficiency**. It is X-linked, so mostly affects males. Other triggers include fava beans, infection, primaquine, dapsone and rasburicase. Management is stopping the trigger and supportive care, with transfusion if severe. The negative DAT rules against autoimmune haemolysis.",
+          "whyWrong": [
+            "Spherocytosis causes chronic haemolysis with spherocytes, not acute drug-triggered haemolysis with bite cells.",
+            "Autoimmune haemolysis would usually give a positive DAT.",
+            "TTP causes schistocytes and thrombocytopenia with neurological or renal involvement.",
+            "",
+            "Gilbert syndrome raises unconjugated bilirubin without anaemia or haemolysis."
+          ],
+          "tags": [
+            "haemolysis",
+            "g6pd",
+            "drug reaction"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "haematology--bleeding-and-platelets",
+      "title": "Bleeding disorders and low platelets",
+      "minutes": 20,
+      "objectives": [
+        "Interpret a coagulation screen (PT/INR, APTT, fibrinogen, platelets) to localise a bleeding disorder",
+        "Recognise heparin-induced thrombocytopenia and manage it safely",
+        "Distinguish ITP, TTP, HUS and DIC on clinical and laboratory features",
+        "Outline management of von Willebrand disease and haemophilia"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Overview",
+          "body": "Bleeding problems split into two families, and the history usually tells you which:\n\n- **Platelet or vessel problems** (thrombocytopenia, von Willebrand disease, antiplatelet drugs): **mucocutaneous** bleeding, meaning petechiae, easy bruising, gum and nose bleeds, heavy menstrual bleeding, bleeding straight after a procedure.\n- **Coagulation factor problems** (haemophilia, warfarin, liver disease, vitamin K deficiency): **deep** bleeding into joints and muscles, and delayed bleeding hours after surgery or trauma.\n\nIn Australian practice, the commonest causes of abnormal bleeding or clotting tests in adults are **drugs** (warfarin, DOACs, heparin, antiplatelets, NSAIDs), liver disease, and sepsis-related DIC. **Heparin-induced thrombocytopenia (HIT)** is a high-yield AMC topic because interns prescribe heparin prophylaxis on every ward. **von Willebrand disease** is the most common inherited bleeding disorder and is an important cause of heavy menstrual bleeding in young women."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Mechanisms",
+          "body": "**Primary haemostasis**: platelets adhere to exposed collagen via von Willebrand factor (vWF), activate and aggregate to form a plug. **Secondary haemostasis**: the coagulation cascade generates thrombin, which converts fibrinogen to fibrin to stabilise the plug.\n\n- **ITP (immune thrombocytopenia)**: autoantibodies coat platelets, which are cleared by the spleen. Primary, or secondary to HIV, hepatitis C, SLE, lymphoproliferative disease or drugs.\n- **HIT**: heparin binds platelet factor 4 (PF4); some patients make IgG antibodies against the heparin-PF4 complex, which **activate** platelets. The result is thrombocytopenia **and a strongly prothrombotic state**, with venous and arterial thrombosis. It is a clotting disorder, not a bleeding one. More common with unfractionated heparin than LMWH, and after surgery.\n- **TTP**: severe deficiency of ADAMTS13 (usually autoantibody-mediated), the protease that cleaves large vWF multimers. Ultra-large multimers cause platelet microthrombi throughout small vessels, shearing red cells (microangiopathic haemolytic anaemia, MAHA).\n- **HUS**: endothelial damage, classically from Shiga toxin-producing *E. coli* (for example O157) after bloody diarrhoea, mostly in children; kidneys bear the brunt.\n- **DIC**: widespread activation of coagulation (sepsis, trauma, obstetric catastrophes such as abruption or amniotic fluid embolism, acute promyelocytic leukaemia) consumes platelets and factors, so the patient **clots and bleeds** at the same time.\n- **von Willebrand disease**: reduced (type 1, most common, autosomal dominant) or dysfunctional vWF. vWF also carries factor VIII, so factor VIII may be low and the APTT mildly prolonged.\n- **Haemophilia A (factor VIII) and B (factor IX)**: X-linked recessive; affects males, females are carriers."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "Take a structured bleeding history: bleeding after dental extraction, surgery or childbirth; heavy periods (flooding, clots, iron deficiency); family history; drugs including over-the-counter NSAIDs, fish oil and herbal products.\n\n- **ITP**: well patient with isolated petechiae or purpura; no splenomegaly or lymphadenopathy (if present, look for another cause). In children, often follows a viral infection and resolves spontaneously; in adults it is more often chronic.\n- **HIT**: platelet count falls by **more than 50%**, typically **5 to 10 days** after starting heparin (it can occur within 24 hours if heparin was given in the previous ~100 days). New thrombosis (DVT, PE, limb ischaemia, skin necrosis at injection sites) despite anticoagulation. Bleeding is uncommon. The **4Ts score** (Thrombocytopenia, Timing, Thrombosis, oTher causes) estimates pre-test probability.\n- **TTP**: the classic pentad (MAHA, thrombocytopenia, neurological symptoms such as confusion or stroke, renal impairment, fever) is rarely complete; **MAHA plus thrombocytopenia** is enough to suspect it. It is a medical emergency with high mortality untreated.\n- **DIC**: a very sick patient (septic shock, massive trauma, postpartum haemorrhage) oozing from cannula sites and wounds, with purpura and possibly thrombotic organ damage.\n- **Haemophilia**: haemarthrosis (knees, elbows, ankles), muscle haematomas, prolonged bleeding after circumcision or dental work in a boy.\n- **von Willebrand disease**: nosebleeds, bruising, heavy menstrual bleeding from menarche, bleeding after dental work or tonsillectomy."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Reading the coagulation screen",
+          "body": "First tests: FBC and film, PT/INR, APTT, fibrinogen. Then targeted tests.\n\n| Pattern | Think of |\n|---|---|\n| Low platelets only | ITP, drugs, HIT, pseudothrombocytopenia, marrow disease, hypersplenism, early DIC |\n| Prolonged PT/INR only | Warfarin, early liver disease, vitamin K deficiency, factor VII deficiency |\n| Prolonged APTT only | Unfractionated heparin, haemophilia A or B, von Willebrand disease, lupus anticoagulant (which clots, not bleeds) |\n| Prolonged PT and APTT | Liver disease, DIC, vitamin K deficiency, warfarin excess, DOACs (variable), massive transfusion |\n| Low platelets, long PT and APTT, low fibrinogen, high D-dimer | DIC |\n| Low platelets, schistocytes, normal PT/APTT | TTP or HUS |\n\nKey specifics:\n- **Pseudothrombocytopenia**: platelets clump in EDTA tubes. Check the film for clumps and repeat in a **citrate** tube before labelling anyone with ITP.\n- **ITP** is a diagnosis of exclusion: isolated thrombocytopenia, normal film otherwise; test for HIV and hepatitis C (and consider H. pylori, SLE). Marrow examination is reserved for atypical features or older patients.\n- **HIT**: calculate the 4Ts score first. If intermediate or high probability, send an **anti-PF4/heparin antibody** immunoassay; a functional assay confirms. Do not wait for results to act when probability is high.\n- **TTP**: film shows **schistocytes (fragmented red cells)**, raised LDH, reticulocytes, unconjugated bilirubin, low haptoglobin, negative DAT; **ADAMTS13 activity** is severely reduced (usually below 10%). Send it before plasma exchange.\n- **von Willebrand disease**: vWF antigen, vWF activity and factor VIII levels (can be normal on one occasion; levels rise with stress, pregnancy and oestrogen).\n- **Haemophilia**: isolated long APTT that **corrects with mixing** (factor deficiency), low factor VIII or IX. An APTT that does not correct on mixing suggests an inhibitor such as lupus anticoagulant or an acquired factor VIII antibody."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**HIT**\n1. **Stop all heparin**, including LMWH, heparin flushes and heparin-coated lines.\n2. Start a **non-heparin anticoagulant** at treatment dose even if there is no thrombosis yet (for example argatroban, danaparoid, bivalirudin or fondaparinux; DOACs are increasingly used in stable patients on haematology advice).\n3. **Do not start warfarin** until platelets have recovered (warfarin early can cause venous limb gangrene through protein C depletion); if already on warfarin, reverse it with vitamin K.\n4. Avoid platelet transfusion unless there is serious bleeding.\n5. Scan for DVT (Doppler ultrasound of the legs) and document heparin allergy prominently.\n\n**ITP**\n- Treat if bleeding or if platelets are very low (haematology thresholds, commonly below about 20 to 30 x 10^9/L). First line: **corticosteroids** (prednisolone or dexamethasone). **IVIG** for a rapid rise (active bleeding, before surgery). Second line: thrombopoietin receptor agonists, rituximab, splenectomy. Platelet transfusion only for life-threatening bleeding (with IVIG and steroids).\n- Children: usually observation and education; most resolve within weeks to months.\n\n**TTP**: **urgent plasma exchange** (replaces ADAMTS13 and removes antibody) plus corticosteroids, often with rituximab and caplacizumab under haematology. **Avoid platelet transfusion** (it can worsen thrombosis) unless life-threatening bleeding.\n\n**DIC**: **treat the underlying cause** (antibiotics and source control, delivery, APML therapy). Support with blood products only if bleeding or needing a procedure: platelets, FFP for prolonged clotting times, and **cryoprecipitate** (or fibrinogen concentrate) for low fibrinogen.\n\n**von Willebrand disease**: **desmopressin (DDAVP)** releases stored vWF and factor VIII and works for most type 1 disease (a trial dose confirms response; watch for hyponatraemia, restrict fluids). **Tranexamic acid** for mucosal bleeding and menorrhagia. vWF-containing factor concentrate for major surgery or non-responders. Avoid NSAIDs and IM injections.\n\n**Haemophilia**: factor VIII or IX replacement (or emicizumab prophylaxis in haemophilia A), managed through **Haemophilia Treatment Centres**. Treat bleeds early, never aspirate joints routinely, no IM injections or NSAIDs, desmopressin for mild haemophilia A."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- Platelet drop of more than 50% on day 5 to 10 of heparin, with a new clot = **HIT**. Answer: stop all heparin and start a non-heparin anticoagulant. Wrong answers: switch to LMWH, give platelets, start warfarin.\n- Isolated thrombocytopenia in a well person: first exclude **EDTA clumping** with a citrate sample and film.\n- Schistocytes + low platelets + confusion or AKI = **TTP**: plasma exchange, not platelets.\n- Low platelets + prolonged PT and APTT + low fibrinogen + high D-dimer in a septic or obstetric patient = **DIC**: treat the cause.\n- Young woman with heavy periods since menarche and a nosebleed history = **von Willebrand disease**.\n- Boy with a swollen knee after minor trauma and isolated long APTT = **haemophilia**."
+        }
+      ],
+      "keyPoints": [
+        "Mucocutaneous bleeding suggests a platelet or vWF problem; joint and muscle bleeding suggests a factor deficiency.",
+        "Rule out EDTA pseudothrombocytopenia before diagnosing ITP.",
+        "HIT: platelet fall over 50% at day 5-10 of heparin with thrombosis; stop all heparin and use a non-heparin anticoagulant.",
+        "Do not start warfarin or transfuse platelets in acute HIT.",
+        "TTP: MAHA with schistocytes and thrombocytopenia; urgent plasma exchange; avoid platelet transfusion.",
+        "DIC: low platelets and fibrinogen, long PT/APTT, high D-dimer; treat the cause and replace products if bleeding.",
+        "von Willebrand disease is the commonest inherited bleeding disorder; desmopressin and tranexamic acid help most type 1 cases."
+      ],
+      "redFlags": [
+        "New thrombosis with a falling platelet count on heparin (HIT)",
+        "Schistocytes with thrombocytopenia and neurological change or AKI (TTP)",
+        "Oozing from multiple sites in a septic, trauma or obstetric patient (DIC)",
+        "Platelets below 10 x 10^9/L or any mucosal or intracranial bleeding",
+        "Thrombocytopenia with abnormal white cells or blasts on the film"
+      ],
+      "contrast": [
+        {
+          "aspect": "Prothrombotic thrombocytopenia on heparin",
+          "india": "HIT is under-recognised; platelet monitoring on heparin is inconsistent.",
+          "australia": "Platelet monitoring for patients on heparin per local protocol; HIT is tested with the 4Ts score and heparin stopped immediately."
+        },
+        {
+          "aspect": "Haemophilia care",
+          "india": "Factor replacement is often on-demand and access varies by state.",
+          "australia": "Centralised Haemophilia Treatment Centres, government-funded factor and emicizumab prophylaxis via the National Blood Authority."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Typical timing of HIT?",
+          "back": "Platelet fall 5-10 days after starting heparin; sooner if heparin was given in the previous ~100 days."
+        },
+        {
+          "front": "Pre-test probability score for HIT?",
+          "back": "The 4Ts: Thrombocytopenia, Timing, Thrombosis, oTher causes."
+        },
+        {
+          "front": "Enzyme deficient in TTP?",
+          "back": "ADAMTS13 (usually autoantibody-mediated), leading to ultra-large vWF multimers."
+        },
+        {
+          "front": "First-line treatment of TTP?",
+          "back": "Urgent plasma exchange with corticosteroids; avoid platelet transfusion."
+        },
+        {
+          "front": "Coagulation pattern of DIC?",
+          "back": "Low platelets, prolonged PT and APTT, low fibrinogen, high D-dimer."
+        },
+        {
+          "front": "Treatment for bleeding in type 1 von Willebrand disease?",
+          "back": "Desmopressin (releases vWF and factor VIII) plus tranexamic acid; factor concentrate if needed."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "haematology--bleeding-and-platelets--q1",
+          "discipline": "adult-medicine",
+          "topic": "haematology",
+          "difficulty": "core",
+          "stem": "A 71-year-old man is on the orthopaedic ward in Brisbane 7 days after a total knee replacement. He has been receiving subcutaneous unfractionated heparin prophylaxis. His platelet count was 250 x 10^9/L before surgery and is now 90 x 10^9/L. His left calf is swollen and a Doppler ultrasound confirms a popliteal DVT. He has no bleeding.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Switch to therapeutic enoxaparin",
+            "Transfuse one adult dose of platelets and continue heparin",
+            "Stop heparin and start warfarin",
+            "Stop all heparin and start a non-heparin anticoagulant such as argatroban",
+            "Increase unfractionated heparin to a therapeutic infusion"
+          ],
+          "answer": 3,
+          "explanation": "A **more than 50% platelet fall** occurring **5 to 10 days** after starting heparin, with a **new thrombosis**, gives a high 4Ts score for **heparin-induced thrombocytopenia**. HIT is a **prothrombotic** antibody-mediated disorder, so the patient needs anticoagulation, but **no heparin of any kind**: stop all heparin (including LMWH and flushes) and give a **non-heparin anticoagulant** (argatroban, danaparoid, bivalirudin, fondaparinux, or a DOAC on haematology advice). Send anti-PF4 antibodies. Warfarin must not be started until platelets recover because early protein C depletion causes venous limb gangrene. Platelet transfusion is avoided unless there is serious bleeding.",
+          "whyWrong": [
+            "LMWH cross-reacts with HIT antibodies and must also be stopped.",
+            "Platelets can fuel thrombosis in HIT and continuing heparin is dangerous.",
+            "Warfarin alone in acute HIT can cause venous limb gangrene; wait until platelets recover.",
+            "",
+            "More heparin will worsen HIT."
+          ],
+          "tags": [
+            "hit",
+            "heparin",
+            "thrombocytopenia"
+          ]
+        },
+        {
+          "id": "haematology--bleeding-and-platelets--q2",
+          "discipline": "adult-medicine",
+          "topic": "haematology",
+          "difficulty": "foundation",
+          "stem": "A 34-year-old woman has a routine FBC in general practice in Canberra. She is well, has no bruising or bleeding and takes no medications. Hb 138 g/L, white cells 6.2 x 10^9/L, platelets 42 x 10^9/L. The laboratory comments that the sample was collected in an EDTA tube.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Commence oral prednisolone",
+            "Refer for bone marrow biopsy",
+            "Repeat the platelet count in a citrate tube and review the blood film",
+            "Arrange an urgent platelet transfusion",
+            "Test for HIV and hepatitis C and diagnose ITP"
+          ],
+          "answer": 2,
+          "explanation": "An unexpectedly low platelet count in a completely **well patient with no bleeding** should first raise **pseudothrombocytopenia**, an in vitro artefact where EDTA causes platelets to clump so the analyser undercounts them. The fix is to **review the film for platelet clumps and repeat the count in a citrate (or heparin) tube**. Only once true thrombocytopenia is confirmed would you go on to exclude causes (HIV, hepatitis C, drugs) and consider ITP. Treatment is not needed in a well person at this level, and platelet transfusion is never appropriate for an unconfirmed result.",
+          "whyWrong": [
+            "Steroids treat ITP, which has not been confirmed.",
+            "Marrow biopsy is not indicated before confirming the count is real.",
+            "",
+            "She is not bleeding and the count may be spurious.",
+            "These tests belong to the ITP workup, which comes after confirming true thrombocytopenia."
+          ],
+          "tags": [
+            "thrombocytopenia",
+            "pseudothrombocytopenia",
+            "itp"
+          ]
+        },
+        {
+          "id": "haematology--bleeding-and-platelets--q3",
+          "discipline": "adult-medicine",
+          "topic": "haematology",
+          "difficulty": "exam",
+          "stem": "A 38-year-old woman is brought to an emergency department in Sydney with 2 days of confusion and headache. Temperature 37.9 °C, BP 150/90 mmHg. Hb 78 g/L, platelets 14 x 10^9/L, creatinine 145 umol/L, LDH markedly raised, haptoglobin undetectable, direct antiglobulin test negative. PT, APTT and fibrinogen are normal. The film shows numerous schistocytes.\n\nWhat is the most appropriate initial management?",
+          "options": [
+            "Transfuse platelets to raise the count above 50 x 10^9/L",
+            "Give IV immunoglobulin alone",
+            "Give fresh frozen plasma and cryoprecipitate for presumed DIC",
+            "Arrange urgent plasma exchange",
+            "Start broad-spectrum antibiotics for meningococcal sepsis and observe"
+          ],
+          "answer": 3,
+          "explanation": "**Microangiopathic haemolytic anaemia** (schistocytes, raised LDH, low haptoglobin, negative DAT) with **severe thrombocytopenia**, **neurological symptoms**, mild renal impairment and fever, with a **normal coagulation screen**, is **thrombotic thrombocytopenic purpura**. Normal PT, APTT and fibrinogen distinguish it from DIC. TTP is fatal in most people if untreated; the key treatment is **urgent plasma exchange** (after sending ADAMTS13) plus corticosteroids, with haematology directing rituximab and caplacizumab. **Platelet transfusion is avoided** because it can worsen microvascular thrombosis.",
+          "whyWrong": [
+            "Platelets can worsen thrombosis in TTP and should only be given for life-threatening bleeding.",
+            "IVIG is used in ITP; it does not replace ADAMTS13.",
+            "Normal PT, APTT and fibrinogen argue against DIC.",
+            "",
+            "The haematological picture is TTP; delaying plasma exchange is dangerous."
+          ],
+          "tags": [
+            "ttp",
+            "maha",
+            "plasma exchange"
+          ]
+        },
+        {
+          "id": "haematology--bleeding-and-platelets--q4",
+          "discipline": "adult-medicine",
+          "topic": "haematology",
+          "difficulty": "core",
+          "stem": "A 17-year-old girl sees her GP in Perth with very heavy periods since menarche, needing to change pads every hour on the first two days. She has had recurrent nosebleeds and bled for two days after a wisdom tooth extraction. Her mother has similar symptoms. Hb 108 g/L, ferritin 9 ug/L, platelets 260 x 10^9/L, PT normal, APTT mildly prolonged.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Haemophilia A carrier",
+            "Von Willebrand disease",
+            "Immune thrombocytopenia",
+            "Vitamin K deficiency",
+            "Factor VII deficiency"
+          ],
+          "answer": 1,
+          "explanation": "**Mucocutaneous bleeding** (heavy periods from menarche, nosebleeds, bleeding after dental extraction) with a **dominant family history**, normal platelets and a **mildly prolonged APTT** is typical of **von Willebrand disease**, the commonest inherited bleeding disorder. vWF carries factor VIII, so low vWF lowers factor VIII and prolongs the APTT. Confirm with vWF antigen, vWF activity and factor VIII. She has secondary iron deficiency needing iron. Treatment options include tranexamic acid, hormonal therapy for menorrhagia and desmopressin.",
+          "whyWrong": [
+            "Carriers can have mildly low factor VIII, but the dominant mother-to-daughter pattern and mucosal bleeding fit vWD better.",
+            "",
+            "Platelets are normal.",
+            "Vitamin K deficiency prolongs the PT first.",
+            "Factor VII deficiency prolongs the PT, not the APTT."
+          ],
+          "tags": [
+            "von willebrand",
+            "menorrhagia",
+            "bleeding disorder"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "haematology--vte-and-anticoagulation",
+      "title": "VTE and anticoagulant reversal",
+      "minutes": 22,
+      "objectives": [
+        "Use Wells scoring and D-dimer to decide when to image for suspected DVT or PE",
+        "Choose an anticoagulant for VTE and know when a DOAC is not appropriate",
+        "Decide the duration of anticoagulation for provoked and unprovoked VTE",
+        "Reverse warfarin and DOACs in major bleeding using Australian products"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Overview",
+          "body": "Venous thromboembolism (VTE), meaning deep vein thrombosis (DVT) and pulmonary embolism (PE), is common, often preventable and a leading cause of preventable hospital death. Every Australian hospital admission includes a **VTE risk assessment** and prophylaxis where indicated, and interns write most of these charts.\n\nThe two AMC skills are **diagnostic reasoning** (who needs a scan, which scan) and **anticoagulant safety** (choosing a drug, how long, and how to reverse it in a bleeding patient). In Australia, **DOACs are first line for most VTE**. Warfarin remains important for specific groups, and warfarin reversal uses **Prothrombinex-VF**, a locally made prothrombin complex concentrate (PCC) supplied through the National Blood Authority and Lifeblood."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why clots form: Virchow's triad",
+          "body": "- **Stasis**: immobility, long-haul travel, surgery, paralysis, heart failure.\n- **Hypercoagulability**: cancer, pregnancy and the postpartum period, oestrogen (combined pill, HRT), inflammatory bowel disease, nephrotic syndrome, antiphospholipid syndrome, inherited thrombophilia (factor V Leiden, prothrombin gene mutation, protein C, S or antithrombin deficiency).\n- **Endothelial injury**: surgery (especially hip and knee arthroplasty), trauma, central lines.\n\n**Provoked** VTE has a clear transient trigger (major surgery, trauma, significant immobility, pregnancy, oestrogen). **Unprovoked** VTE has none identified, and carries a much higher recurrence risk after stopping anticoagulation, which is why it is often treated for longer.\n\nA PE is usually a DVT that has embolised to the pulmonary arteries. Large emboli raise pulmonary vascular resistance, strain the right ventricle and can cause obstructive shock."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "**DVT**: unilateral calf or leg swelling (calf circumference more than 3 cm greater than the other side), pain, tenderness along the deep veins, pitting oedema, dilated superficial veins.\n\n**PE**: sudden pleuritic chest pain, dyspnoea, haemoptysis, tachycardia, tachypnoea, hypoxia, syncope. Massive PE presents with **hypotension**, raised JVP and shock. Look for a DVT.\n\n**Wells score** structures pre-test probability. For PE, the items include clinical signs of DVT, PE the most likely diagnosis, heart rate over 100, immobilisation or surgery in the past 4 weeks, previous VTE, haemoptysis and active cancer. Low-probability PE patients can be assessed with the **PERC rule** (age under 50, HR under 100, SpO2 94% or more, no haemoptysis, no oestrogen, no prior VTE, no unilateral leg swelling, no recent surgery or trauma); if all criteria are met, no testing is needed.\n\nECG in PE is often sinus tachycardia only; S1Q3T3 and right heart strain are uncommon. The chest X-ray is often normal, which is itself a clue in a hypoxic patient."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "**The rule: D-dimer only in low (or \"unlikely\") pre-test probability.** It is sensitive but not specific: a negative D-dimer rules out VTE in low-probability patients; a positive one means you image. In high-probability patients go straight to imaging, because a negative D-dimer does not reassure. **Age-adjusted D-dimer** (age x 10 ug/L FEU in those over 50) reduces unnecessary scans in older people.\n\n| Question | Test |\n|---|---|\n| Suspected DVT | Compression (duplex) ultrasound of the leg veins |\n| Suspected PE | CT pulmonary angiography (CTPA) |\n| PE with contrast allergy, significant renal impairment, or pregnancy with a normal chest X-ray | V/Q scan (lower breast radiation dose) |\n| Haemodynamically unstable, cannot go to CT | Bedside echocardiography for RV dilatation |\n\nBefore anticoagulating, check FBC, renal function (DOAC dosing), liver function, and coagulation screen. For unprovoked VTE, ensure age-appropriate cancer screening is up to date and take a careful history and examination; extensive CT searching for occult cancer is not routinely recommended. Thrombophilia testing is selective and done with haematology advice because it rarely changes management and many results are distorted by acute clot or anticoagulants.\n\nTroponin and BNP help risk-stratify a confirmed PE (RV strain)."
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment, duration and reversal",
+          "body": "**Choosing an anticoagulant**\n- **DOAC first line** for most: **apixaban** (10 mg twice daily for 7 days, then 5 mg twice daily) or **rivaroxaban** (15 mg twice daily for 21 days, then 20 mg daily with food). These start without LMWH lead-in. Dabigatran requires an initial period of parenteral anticoagulation.\n- **Use warfarin (target INR 2-3) or LMWH instead of a DOAC** in: **antiphospholipid syndrome** (especially triple positive; DOACs have more arterial events), **mechanical heart valves**, severe renal impairment, pregnancy and breastfeeding (use **LMWH**; warfarin is teratogenic and DOACs are not recommended), significant drug interactions, and extremes of body weight (check current guidance).\n- **Warfarin** needs LMWH overlap for at least 5 days and until the INR is 2 or more on two consecutive days, because warfarin initially lowers protein C and is transiently prothrombotic.\n- **Cancer-associated VTE**: LMWH or a suitable DOAC; caution with DOACs in GI or GU cancers with bleeding risk.\n\n**Massive PE** (hypotension or shock): systemic **thrombolysis** unless contraindicated; catheter-directed therapy or surgical embolectomy if lysis is contraindicated or fails.\n\n**Duration**\n- **Provoked by a major transient risk factor** (surgery, trauma): **3 months**, then stop.\n- **Unprovoked** or persistent risk factor (active cancer): consider **extended (indefinite) anticoagulation** after 3-6 months, weighing bleeding risk and patient preference; reduced-dose apixaban or rivaroxaban is an option for extended therapy. Review at least yearly.\n- Distal (calf) DVT: treat or monitor with serial ultrasound, depending on symptoms and risk.\n\n**Warfarin reversal**\n| Situation | Action |\n|---|---|\n| INR above range, no bleeding | Withhold or reduce warfarin; consider low-dose oral vitamin K if INR very high or bleeding risk high (follow the Australasian consensus or eTG) |\n| **Major or life-threatening bleeding** (for example intracranial) | Stop warfarin; **IV vitamin K (5-10 mg) plus Prothrombinex-VF**, dosed by weight and INR; add **FFP** if Prothrombinex-VF is unavailable or if advised by haematology |\n\nVitamin K takes 6 to 24 hours to work; Prothrombinex-VF works within minutes. Give both, because PCC effect wears off.\n\n**DOAC reversal**\n- **Dabigatran**: **idarucizumab**, a specific antibody fragment, available in Australia. Dabigatran is also partly dialysable.\n- **Apixaban and rivaroxaban**: stop the drug, supportive care, local haemostasis, tranexamic acid; **PCC (Prothrombinex-VF)** is often used; andexanet alfa where available and per local protocol. Timing of the last dose and renal function matter; check a drug-specific level if available.\n\n**Prophylaxis**: every inpatient has a VTE risk assessment; LMWH or unfractionated heparin with or without mechanical methods unless contraindicated."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- High pre-test probability: **image, do not D-dimer**. Low probability: D-dimer or PERC first.\n- Pregnant woman with suspected PE: CTPA or V/Q (V/Q preferred if chest X-ray normal); treat with **LMWH**, never warfarin or a DOAC.\n- Antiphospholipid syndrome or a mechanical valve: **warfarin**, not a DOAC.\n- Hypotensive PE: thrombolysis.\n- Warfarin plus intracranial bleed: **vitamin K IV plus Prothrombinex-VF**, not FFP alone.\n- Dabigatran bleed: **idarucizumab**.\n- First provoked DVT after surgery: 3 months."
+        }
+      ],
+      "keyPoints": [
+        "Use Wells: D-dimer only for low probability; high probability goes straight to ultrasound or CTPA.",
+        "DOACs are first line for most VTE; warfarin for antiphospholipid syndrome and mechanical valves; LMWH in pregnancy.",
+        "Provoked VTE with a transient trigger: 3 months. Unprovoked: consider extended anticoagulation.",
+        "Massive PE with hypotension: thrombolysis unless contraindicated.",
+        "Warfarin with major bleeding: IV vitamin K plus Prothrombinex-VF; FFP if PCC unavailable.",
+        "Dabigatran is reversed by idarucizumab.",
+        "Warfarin needs at least 5 days of heparin overlap and two therapeutic INRs."
+      ],
+      "redFlags": [
+        "Hypotension, syncope or shock with suspected PE (massive PE)",
+        "Any bleeding on an anticoagulant with head injury or neurological signs",
+        "Hypoxia with a normal chest X-ray",
+        "Swollen, painful, discoloured leg (phlegmasia) threatening limb viability",
+        "VTE in pregnancy or the postpartum period"
+      ],
+      "contrast": [
+        {
+          "aspect": "First-line anticoagulant for VTE",
+          "india": "LMWH bridging to warfarin is widely used, partly for cost.",
+          "australia": "DOACs (apixaban, rivaroxaban) are PBS-listed and first line for most; warfarin kept for specific indications."
+        },
+        {
+          "aspect": "Warfarin reversal",
+          "india": "Vitamin K and FFP.",
+          "australia": "Vitamin K plus Prothrombinex-VF (a local PCC) for major bleeding; FFP is a backup."
+        },
+        {
+          "aspect": "Dabigatran reversal",
+          "india": "Idarucizumab often unavailable.",
+          "australia": "Idarucizumab stocked in major hospitals."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "When is D-dimer useful in suspected PE?",
+          "back": "Only when pre-test probability is low or unlikely. A negative result then excludes VTE."
+        },
+        {
+          "front": "Anticoagulant of choice for VTE in pregnancy?",
+          "back": "LMWH (enoxaparin). Warfarin is teratogenic and DOACs are not recommended."
+        },
+        {
+          "front": "Duration for a DVT provoked by surgery?",
+          "back": "3 months."
+        },
+        {
+          "front": "Reversal for warfarin with intracranial haemorrhage?",
+          "back": "Stop warfarin, IV vitamin K 5-10 mg plus Prothrombinex-VF (PCC). FFP if PCC unavailable."
+        },
+        {
+          "front": "Reversal agent for dabigatran?",
+          "back": "Idarucizumab."
+        },
+        {
+          "front": "Anticoagulant for VTE in triple-positive antiphospholipid syndrome?",
+          "back": "Warfarin (INR 2-3), not a DOAC."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "haematology--vte-and-anticoagulation--q1",
+          "discipline": "adult-medicine",
+          "topic": "haematology",
+          "difficulty": "core",
+          "stem": "A 79-year-old woman on warfarin for atrial fibrillation falls at home in Geelong and hits her head. In the emergency department her GCS is 13. CT brain shows an acute subdural haematoma. INR is 3.8. BP 150/85 mmHg, HR 82 bpm.\n\nIn addition to neurosurgical referral, what is the most appropriate immediate management?",
+          "options": [
+            "Withhold warfarin and recheck the INR in 12 hours",
+            "Give oral vitamin K 2 mg",
+            "Give fresh frozen plasma 2 units only",
+            "Give protamine sulfate",
+            "Give IV vitamin K and Prothrombinex-VF"
+          ],
+          "answer": 4,
+          "explanation": "This is a **life-threatening warfarin-associated bleed** (intracranial). The goal is **immediate and sustained reversal**. **Prothrombinex-VF**, a prothrombin complex concentrate containing factors II, IX and X (supplemented as needed), reverses the INR within minutes, and **IV vitamin K (5-10 mg)** restores the patient's own factor synthesis over 6-24 hours, sustaining the correction once the PCC wears off. FFP is slower, needs large volumes and is only used when PCC is unavailable. Protamine reverses heparin, not warfarin. Simply withholding warfarin is appropriate only for an elevated INR without bleeding.",
+          "whyWrong": [
+            "Withholding alone is far too slow for an intracranial bleed.",
+            "Oral low-dose vitamin K is for high INR without major bleeding; it acts too slowly.",
+            "FFP is slower, volume-heavy and a backup only when PCC is unavailable.",
+            "Protamine reverses heparin, not warfarin.",
+            ""
+          ],
+          "tags": [
+            "warfarin reversal",
+            "prothrombinex",
+            "intracranial haemorrhage"
+          ],
+          "ausPearl": "Prothrombinex-VF is made in Australia by CSL Behring from Lifeblood-collected plasma. The Australasian Society of Thrombosis and Haemostasis consensus guides dosing by INR and weight."
+        },
+        {
+          "id": "haematology--vte-and-anticoagulation--q2",
+          "discipline": "adult-medicine",
+          "topic": "haematology",
+          "difficulty": "foundation",
+          "stem": "A 31-year-old woman presents to a GP in Darwin with 2 days of mild left pleuritic chest pain after a flu-like illness. She takes no medications, including no oestrogen, and has no history of VTE, surgery or travel. HR 84 bpm, RR 16, SpO2 99% on air, no leg swelling or haemoptysis. The clinician judges PE to be unlikely.\n\nWhat is the most appropriate next step regarding PE?",
+          "options": [
+            "No further testing for PE is required",
+            "Measure a D-dimer",
+            "Arrange CT pulmonary angiography",
+            "Arrange a V/Q scan",
+            "Start apixaban empirically"
+          ],
+          "answer": 0,
+          "explanation": "When the clinician's gestalt is **low probability**, the **PERC rule** identifies patients who need no further testing for PE. She meets **all eight criteria**: age under 50, HR under 100, SpO2 94% or more, no haemoptysis, no oestrogen use, no previous VTE, no unilateral leg swelling, no recent surgery or trauma. PE is effectively excluded without a D-dimer. Ordering a D-dimer here risks false positives (it rises with any inflammation, including her viral illness), leading to unnecessary CTPA with radiation and contrast.",
+          "whyWrong": [
+            "",
+            "PERC-negative low-risk patients do not need a D-dimer, and a false positive leads to unnecessary imaging.",
+            "Imaging is not indicated at this pre-test probability.",
+            "Imaging is not indicated at this pre-test probability.",
+            "Empirical anticoagulation is unjustified when PE has been effectively excluded."
+          ],
+          "tags": [
+            "pulmonary embolism",
+            "perc",
+            "d-dimer"
+          ]
+        },
+        {
+          "id": "haematology--vte-and-anticoagulation--q3",
+          "discipline": "adult-medicine",
+          "topic": "haematology",
+          "difficulty": "exam",
+          "stem": "A 45-year-old man has a confirmed left femoral DVT diagnosed in a Melbourne emergency department. He had an ischaemic stroke at age 41. Testing 12 weeks apart shows persistently positive lupus anticoagulant, anticardiolipin and anti-beta2-glycoprotein I antibodies. Renal function is normal.\n\nWhat is the most appropriate long-term anticoagulant?",
+          "options": [
+            "Apixaban",
+            "Rivaroxaban",
+            "Warfarin",
+            "Aspirin",
+            "Dabigatran"
+          ],
+          "answer": 2,
+          "explanation": "He has **triple-positive antiphospholipid syndrome** with both venous (DVT) and arterial (stroke) thrombosis. In APS, particularly triple-positive disease or with arterial events, **DOACs are associated with more recurrent thrombosis, especially arterial**, than warfarin. The recommended long-term anticoagulant is **warfarin (usually INR 2-3)**, generally indefinitely. Aspirin alone is inadequate for venous thrombosis. Other situations where a DOAC is not the right choice: mechanical valves, pregnancy, severe renal impairment and significant interactions.",
+          "whyWrong": [
+            "DOACs have higher rates of recurrent thrombosis in high-risk APS.",
+            "Rivaroxaban performed worse than warfarin in triple-positive APS trials.",
+            "",
+            "Aspirin alone does not adequately treat or prevent venous thrombosis.",
+            "Dabigatran is a DOAC and is not recommended in high-risk APS."
+          ],
+          "tags": [
+            "antiphospholipid syndrome",
+            "warfarin",
+            "vte"
+          ]
+        },
+        {
+          "id": "haematology--vte-and-anticoagulation--q4",
+          "discipline": "adult-medicine",
+          "topic": "haematology",
+          "difficulty": "core",
+          "stem": "A 58-year-old man develops a right calf DVT 3 weeks after an emergency laparotomy in Townsville. He has no previous VTE, no cancer on the operative histology and normal renal function. He is started on apixaban.\n\nWhat is the most appropriate duration of anticoagulation?",
+          "options": [
+            "6 weeks",
+            "3 months",
+            "12 months",
+            "Lifelong",
+            "Until he is fully mobile"
+          ],
+          "answer": 1,
+          "explanation": "This DVT is **provoked by a major transient risk factor** (recent major surgery), which has now resolved. The recurrence risk after stopping is low, so the standard duration is **3 months**, after which anticoagulation is stopped. Extended or indefinite therapy is considered for **unprovoked** VTE, recurrent VTE, or persistent risk factors such as active cancer or APS. Six weeks is too short for a proximal DVT, and \"until mobile\" is not an evidence-based endpoint.",
+          "whyWrong": [
+            "Six weeks is shorter than the recommended treatment course for a DVT.",
+            "",
+            "Twelve months is longer than needed for a surgically provoked first event.",
+            "Lifelong therapy is for unprovoked or recurrent VTE or persistent risk factors.",
+            "Mobility is not the endpoint for treatment of an established DVT."
+          ],
+          "tags": [
+            "dvt",
+            "duration",
+            "provoked vte"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "haematology--transfusion",
+      "title": "Transfusion and Patient Blood Management",
+      "minutes": 18,
+      "objectives": [
+        "Apply Patient Blood Management and restrictive transfusion thresholds",
+        "Choose the right blood product (red cells, platelets, FFP, cryoprecipitate) for the clinical problem",
+        "Recognise and manage acute transfusion reactions, including TACO and TRALI",
+        "Handle consent and refusal of blood products, including Jehovah's Witness patients"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Overview",
+          "body": "Blood in Australia is collected by **Australian Red Cross Lifeblood** from **unpaid volunteer donors**, and funded and managed nationally through the **National Blood Authority (NBA)**. Blood is free to the patient but a precious, limited resource with real risks, so Australian practice is built on **Patient Blood Management (PBM)**: treat the patient, not the number.\n\nThe NBA's PBM guidelines underpin hospital policy. Interns order and administer a large share of transfusions, so the AMC tests thresholds, product choice, bedside safety and reaction management. Remember the unit: **Hb 70 g/L**, not 7 g/dL."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Patient Blood Management: the three pillars",
+          "body": "1. **Optimise the patient's own red cell mass.** Detect and treat anaemia before elective surgery (usually iron deficiency, often with IV iron if time is short). Surgery may be postponed for this.\n2. **Minimise blood loss.** Stop or bridge antiplatelets and anticoagulants appropriately before surgery, use tranexamic acid, meticulous surgical haemostasis, cell salvage, and reduce the volume of blood taken for tests.\n3. **Optimise tolerance of anaemia.** Oxygen, treat pain and fever, and use **restrictive thresholds**.\n\n**Red cell thresholds (stable, non-bleeding adults)**\n- **Hb below 70 g/L**: transfusion is usually appropriate (and may be lower in some well patients).\n- **Hb 70-100 g/L**: individual decision based on symptoms, ongoing bleeding and comorbidity. Patients with **acute coronary syndrome** or active cardiac ischaemia may warrant a higher threshold.\n- **Hb above 100 g/L**: transfusion is rarely appropriate.\n\n**Single-unit policy**: in a non-bleeding patient, give **one unit**, then reassess symptoms and Hb before giving more. One unit raises Hb by roughly 10 g/L in an average adult.\n\nTransfusion is **not** the treatment for iron, B12 or folate deficiency in a stable patient; replace the deficiency."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Choosing the product",
+          "body": "| Product | Main use | Notes |\n|---|---|---|\n| Red cells | Symptomatic anaemia, acute blood loss | ABO and RhD compatible; group and screen, crossmatch |\n| Platelets | Prophylaxis when count very low (commonly below 10 x 10^9/L in marrow failure without bleeding); bleeding or procedures with low count | Stored at room temperature, so highest risk of bacterial contamination; avoid in TTP and HIT unless life-threatening bleeding |\n| Fresh frozen plasma | Bleeding with multiple factor deficiency (massive transfusion, DIC, liver disease); warfarin reversal only if PCC unavailable | Not for volume replacement |\n| Cryoprecipitate | Low fibrinogen (commonly below about 1.5 g/L) in bleeding, DIC, obstetric haemorrhage | Rich in fibrinogen, factor VIII, vWF |\n| Prothrombinex-VF | Warfarin reversal | Plasma-derived factor concentrate |\n\n**Massive haemorrhage**: activate the hospital's **massive transfusion protocol**. Give red cells, plasma and platelets in a balanced ratio, correct fibrinogen, calcium, temperature and acidosis, give tranexamic acid early in trauma and postpartum haemorrhage, and stop the bleeding surgically or radiologically. O-negative red cells are used in emergencies until group-specific blood is available (O RhD-negative for women of childbearing potential).\n\n**Special requirements**: **irradiated** components prevent transfusion-associated graft-versus-host disease in at-risk patients (for example after stem cell transplant, with purine analogue therapy such as fludarabine, or directed donations from relatives). In Australia all components are leucodepleted."
+        },
+        {
+          "kind": "application",
+          "heading": "Safe administration and transfusion reactions",
+          "body": "**Before**: documented **informed consent** (risks, benefits, alternatives), a correctly labelled and signed pre-transfusion sample, and a documented indication. **At the bedside**: two-person or electronic check of the patient's identity against the product and prescription. Baseline observations, then close observation especially in the first 15 minutes, when severe reactions usually declare themselves.\n\n**First response to any suspected reaction**: **stop the transfusion**, keep the IV line open with normal saline, assess ABC and vital signs, **recheck patient identity and labels**, inform the blood bank and return the bag with fresh samples.\n\n| Reaction | Timing and features | Mechanism | Management |\n|---|---|---|---|\n| Acute haemolytic | Minutes; fever, rigors, hypotension, loin or back pain, dark urine, DIC | ABO incompatibility, usually an identification error | Stop, resuscitate, fluids to maintain urine output, treat DIC, report |\n| Febrile non-haemolytic | During or soon after; temperature rise without other features | Cytokines or recipient antibodies | Stop and assess; paracetamol; if mild and serious causes excluded, may continue slowly |\n| Allergic (urticarial) | Itchy rash only | Recipient antibodies to plasma proteins | Antihistamine; may resume if isolated and mild |\n| Anaphylaxis | Minutes; hypotension, bronchospasm, angioedema | Sometimes IgA deficiency with anti-IgA | Stop, **IM adrenaline**, resuscitation |\n| **TACO** | During or within hours; dyspnoea, **hypertension**, raised JVP, pulmonary oedema | Volume overload, especially elderly, heart failure, renal impairment, small body size | Stop, sit up, oxygen, **diuretic**; prevent with slow rate, single units |\n| **TRALI** | Within 6 hours; hypoxia, bilateral infiltrates, often **hypotension** and fever, no overload | Donor antibodies activate recipient neutrophils in lungs | Stop, supportive respiratory care (often ventilation); diuretics do not help; report so the donor can be traced |\n| Bacterial contamination | Rapid high fever, rigors, shock, especially with platelets | Contaminated unit | Stop, blood cultures from patient and bag, broad-spectrum IV antibiotics |\n| Delayed haemolytic | 5-14 days; falling Hb, jaundice, positive DAT | Anamnestic antibody response | Supportive; record antibody |\n\n**Consent and refusal**: a competent adult may refuse blood, including for religious reasons (Jehovah's Witnesses), even if refusal leads to death; a valid advance care directive refusing blood must be respected. Discuss what the person will accept (some accept certain fractions or cell salvage) and plan PBM early. For children, when parents refuse a transfusion needed to prevent death or serious harm, the law allows treatment through legislation or a court order; the process varies by state. In an emergency with no known refusal, treat."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- Stable patient, Hb 75-85 g/L, no cardiac disease: **do not transfuse**; treat the cause.\n- Elderly patient becomes breathless and **hypertensive** with crackles during a transfusion: **TACO**, give a diuretic.\n- Breathless, **hypotensive**, febrile within 6 hours with bilateral infiltrates and no overload: **TRALI**, supportive care.\n- Fever, loin pain and hypotension minutes into a unit: **ABO-incompatible haemolytic reaction**, stop and check identification.\n- Always \"stop the transfusion first\" in any serious reaction.\n- A competent adult Jehovah's Witness refusing blood: respect it and use PBM alternatives."
+        }
+      ],
+      "keyPoints": [
+        "Patient Blood Management: optimise red cell mass, minimise blood loss, tolerate anaemia.",
+        "Stable adults: transfusion usually appropriate below Hb 70 g/L, rarely above 100 g/L; give one unit and reassess.",
+        "Cryoprecipitate replaces fibrinogen; FFP replaces multiple clotting factors; platelets carry the highest bacterial risk.",
+        "Any serious reaction: stop the transfusion, keep the line open, check identity, notify the blood bank.",
+        "TACO is hypertensive fluid overload treated with diuretics; TRALI is hypotensive lung injury without overload.",
+        "Acute haemolytic reactions are usually due to ABO identification errors.",
+        "A competent adult may refuse blood; for children, treatment can be authorised under state law or court order."
+      ],
+      "redFlags": [
+        "Fever, loin pain, hypotension or dark urine in the first minutes of a transfusion",
+        "Hypoxia and new bilateral infiltrates within 6 hours of transfusion",
+        "Stridor, wheeze or hypotension during transfusion (anaphylaxis)",
+        "High fever and shock after platelet transfusion (bacterial contamination)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Blood donors",
+          "india": "Replacement donation by family is still common alongside voluntary donation.",
+          "australia": "Entirely unpaid volunteer donors through Lifeblood; hospitals do not ask families to donate."
+        },
+        {
+          "aspect": "Transfusion thresholds",
+          "india": "Transfusion is often given at higher Hb levels, sometimes 'to top up' before discharge.",
+          "australia": "Restrictive NBA PBM thresholds, single-unit policy and reassessment; iron for iron deficiency rather than transfusion."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Usual restrictive red cell transfusion threshold for a stable adult?",
+          "back": "Hb below 70 g/L (higher may be considered with acute coronary syndrome)."
+        },
+        {
+          "front": "Product to correct low fibrinogen in bleeding?",
+          "back": "Cryoprecipitate (or fibrinogen concentrate)."
+        },
+        {
+          "front": "TACO vs TRALI: blood pressure?",
+          "back": "TACO: hypertension (fluid overload). TRALI: often hypotension (lung injury)."
+        },
+        {
+          "front": "First step in any suspected serious transfusion reaction?",
+          "back": "Stop the transfusion, keep the IV line open with saline, check the patient's identity against the unit."
+        },
+        {
+          "front": "Why are platelets the highest risk for bacterial contamination?",
+          "back": "They are stored at room temperature."
+        },
+        {
+          "front": "How is transfusion-associated GvHD prevented?",
+          "back": "Irradiated components for at-risk patients (for example stem cell transplant, fludarabine therapy, related donors)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "haematology--transfusion--q1",
+          "discipline": "adult-medicine",
+          "topic": "haematology",
+          "difficulty": "foundation",
+          "stem": "A 64-year-old man is on a surgical ward in Wollongong 2 days after an uncomplicated bowel resection. He is walking, has no chest pain or dyspnoea, and his vital signs are normal. Hb is 82 g/L (preoperative 118 g/L). There is no evidence of ongoing bleeding. He has no cardiac history.\n\nWhat is the most appropriate management of his anaemia?",
+          "options": [
+            "Transfuse 2 units of red cells",
+            "Transfuse 1 unit of red cells and recheck Hb",
+            "Transfuse to a target Hb above 100 g/L",
+            "No transfusion; assess iron stores and consider iron replacement",
+            "Give fresh frozen plasma"
+          ],
+          "answer": 3,
+          "explanation": "Under **Patient Blood Management**, a stable, asymptomatic patient without cardiac disease or active bleeding and with an **Hb above 70 g/L** does not need a transfusion. Transfusion carries risks (TACO, TRALI, reactions, infection, immune effects) and uses a scarce donated resource. Instead, check iron studies and give **iron** (IV if a rapid rebuild is useful after surgery). If he did need a transfusion, a single unit with reassessment would be the standard. FFP has no role in anaemia.",
+          "whyWrong": [
+            "Two units breaches single-unit policy and is not indicated at this Hb.",
+            "Even one unit is not indicated in a stable, asymptomatic patient above 70 g/L.",
+            "A target above 100 g/L is a liberal strategy not supported by evidence.",
+            "",
+            "FFP replaces clotting factors, not red cells."
+          ],
+          "tags": [
+            "transfusion",
+            "patient blood management",
+            "anaemia"
+          ],
+          "ausPearl": "The National Blood Authority's PBM guidelines underpin Australian hospital transfusion policy."
+        },
+        {
+          "id": "haematology--transfusion--q2",
+          "discipline": "adult-medicine",
+          "topic": "haematology",
+          "difficulty": "core",
+          "stem": "An 84-year-old woman with heart failure is receiving her second unit of red cells on a medical ward in Launceston for symptomatic anaemia (Hb 64 g/L). Ninety minutes into the unit she becomes acutely breathless. BP 178/96 mmHg (140/80 before), HR 108 bpm, temperature 36.9 °C, SpO2 88% on air. JVP is raised and there are bilateral basal crackles.\n\nAfter stopping the transfusion, what is the most appropriate treatment?",
+          "options": [
+            "IM adrenaline",
+            "IV frusemide and oxygen",
+            "IV hydrocortisone and promethazine",
+            "IV piperacillin-tazobactam",
+            "A 500 mL bolus of 0.9% sodium chloride"
+          ],
+          "answer": 1,
+          "explanation": "Dyspnoea with **hypertension**, **raised JVP** and **pulmonary oedema** during transfusion in an elderly woman with **heart failure** is **transfusion-associated circulatory overload (TACO)**. Stop the transfusion, sit her up, give **oxygen and a loop diuretic** (frusemide). TRALI would more typically cause hypotension and fever without signs of overload, and diuretics do not help it. Anaphylaxis causes hypotension, wheeze and angioedema. Prevention: single units, slow rates and consider a diuretic in high-risk patients.",
+          "whyWrong": [
+            "There are no features of anaphylaxis; she is hypertensive.",
+            "",
+            "Steroids and antihistamines do not treat fluid overload.",
+            "She is afebrile with no features of bacterial contamination.",
+            "More fluid will worsen pulmonary oedema."
+          ],
+          "tags": [
+            "taco",
+            "transfusion reaction",
+            "heart failure"
+          ]
+        },
+        {
+          "id": "haematology--transfusion--q3",
+          "discipline": "adult-medicine",
+          "topic": "haematology",
+          "difficulty": "exam",
+          "stem": "A 45-year-old man receiving a unit of red cells after a gastrointestinal bleed in a Perth hospital develops fever of 39.1 °C, rigors, lower back pain and hypotension (BP 82/50 mmHg) within 10 minutes of starting. His urine becomes dark red. The unit was collected from the fridge for the patient in the next bed.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Febrile non-haemolytic transfusion reaction",
+            "Transfusion-related acute lung injury",
+            "Delayed haemolytic transfusion reaction",
+            "Transfusion-associated circulatory overload",
+            "Acute haemolytic transfusion reaction"
+          ],
+          "answer": 4,
+          "explanation": "Rapid-onset fever, rigors, **loin or back pain, hypotension and haemoglobinuria** within minutes of starting a red cell unit indicates an **acute haemolytic transfusion reaction**, almost always from **ABO incompatibility** due to an identification error, as here. Recipient anti-A or anti-B antibodies cause intravascular haemolysis, complement activation and potentially DIC and AKI. Stop the transfusion, keep the line open with saline, resuscitate, maintain urine output, check identity, send samples and the bag to the blood bank, and report the incident. Febrile non-haemolytic reactions do not cause shock or haemoglobinuria.",
+          "whyWrong": [
+            "FNHTR causes fever alone, without hypotension, loin pain or haemoglobinuria.",
+            "TRALI presents with hypoxia and bilateral infiltrates rather than haemoglobinuria.",
+            "Delayed haemolysis occurs 5-14 days later.",
+            "TACO causes hypertension and pulmonary oedema.",
+            ""
+          ],
+          "tags": [
+            "transfusion reaction",
+            "abo incompatibility",
+            "haemolysis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "haematology--malignancy-and-febrile-neutropenia",
+      "title": "Haematological malignancy and febrile neutropenia",
+      "minutes": 24,
+      "objectives": [
+        "Treat febrile neutropenia as an emergency with empirical IV antibiotics within 1 hour",
+        "Recognise the presentations of acute and chronic leukaemia, lymphoma and myeloma",
+        "Order the right first investigations for suspected haematological malignancy",
+        "Prevent and manage tumour lysis syndrome and other oncological emergencies"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Overview",
+          "body": "Haematological cancers (leukaemia, lymphoma, myeloma and myeloproliferative disorders) together account for a substantial share of cancer in Australia; lymphoma and myeloma are among the more common cancers in older adults. The AMC focuses less on chemotherapy regimens and more on:\n\n- **Recognising** the presentation (and knowing what test comes next).\n- **Emergencies**: febrile neutropenia, tumour lysis syndrome, hypercalcaemia, spinal cord compression, hyperviscosity and leucostasis, and DIC in acute promyelocytic leukaemia.\n- **Shared care** issues in general practice: vaccination, infection risk and referral pathways. Cancer Council Australia publishes **Optimal Care Pathways** for these cancers, which set referral timeframes.\n\n**Febrile neutropenia** is the single most important topic here: it kills quickly, and interns are often the first doctor to see these patients in ED or on the ward."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Key disease mechanisms",
+          "body": "- **Acute leukaemia** (AML in adults, ALL mostly in children): clonal expansion of immature blasts crowds out normal marrow, causing **pancytopenia** (anaemia, infection, bleeding) even when the white count is high. **Acute promyelocytic leukaemia (APML)**, a subtype of AML with t(15;17), causes early **DIC** and is treated urgently with all-trans retinoic acid (ATRA).\n- **Chronic myeloid leukaemia (CML)**: the Philadelphia chromosome t(9;22) creates the **BCR-ABL** tyrosine kinase; very high neutrophil count with a left shift, basophilia and **massive splenomegaly**. Tyrosine kinase inhibitors (such as imatinib) transformed its prognosis.\n- **Chronic lymphocytic leukaemia (CLL)**: accumulation of mature-looking B lymphocytes in older adults; often an incidental lymphocytosis with **smudge cells** on the film. Can cause autoimmune haemolysis, hypogammaglobulinaemia and infections.\n- **Lymphoma**: Hodgkin lymphoma (Reed-Sternberg cells; bimodal age, young adults and older people) and non-Hodgkin lymphoma (most commonly diffuse large B-cell lymphoma, aggressive; follicular lymphoma, indolent).\n- **Multiple myeloma**: clonal plasma cells produce a monoclonal immunoglobulin (paraprotein) or free light chains. Damage follows **CRAB**: hyper**C**alcaemia, **R**enal impairment (light-chain cast nephropathy), **A**naemia, **B**one lesions (lytic lesions, fractures). Preceded by **MGUS** (paraprotein without end-organ damage), which progresses at roughly 1% per year.\n- **Myeloproliferative neoplasms**: polycythaemia vera (JAK2 mutation; high Hb, itch after bathing, thrombosis), essential thrombocythaemia, myelofibrosis.\n- **Neutropenia after chemotherapy**: the nadir is typically 7-14 days after a cycle; loss of neutrophils removes the usual signs of infection, so fever may be the only sign.\n- **Tumour lysis syndrome**: rapid cell death (after starting treatment of high-grade lymphoma or acute leukaemia) releases **potassium, phosphate and uric acid**; phosphate binds calcium, causing **hypocalcaemia**; urate and calcium phosphate crystals cause **AKI**."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "| Condition | Classic presentation |\n|---|---|\n| Acute leukaemia | Short history of fatigue, infections, bruising or bleeding, bone pain; gum hypertrophy in monocytic AML |\n| CML | Middle-aged; fatigue, weight loss, sweats, left upper quadrant discomfort, massive splenomegaly |\n| CLL | Older adult with an incidental lymphocytosis; painless lymphadenopathy; recurrent infections |\n| Hodgkin lymphoma | Young adult with painless neck or mediastinal nodes; B symptoms; itch; node pain after alcohol (rare but classic) |\n| Non-Hodgkin lymphoma | Older adult with painless lymphadenopathy, extranodal disease, B symptoms |\n| Myeloma | Older adult with back pain, fatigue, recurrent infections, renal impairment, hypercalcaemia (thirst, constipation, confusion) |\n| Polycythaemia vera | Headache, itch after a hot shower, plethora, splenomegaly, thrombosis |\n\n**B symptoms**: fever, drenching night sweats and weight loss of more than 10% over 6 months.\n\n**Lymphadenopathy that needs investigation**: nodes larger than about 2 cm, persisting beyond 4-6 weeks without an infective explanation, hard, fixed or rubbery, supraclavicular, or with B symptoms or splenomegaly.\n\n**Febrile neutropenia**: a patient on chemotherapy (usually 7-14 days after a cycle) with a temperature of **38.0 °C or more**. They may look deceptively well; fever may be the only sign. Hypotension, altered mental state or tachypnoea signal sepsis."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "- **FBC and blood film** is the key first test: blasts suggest acute leukaemia and need **same-day haematology discussion**. Smudge cells and lymphocytosis suggest CLL (confirmed by flow cytometry of peripheral blood). Rouleaux suggests a paraprotein.\n- **Bone marrow aspirate and trephine** with cytogenetics and molecular studies confirms acute leukaemia.\n- **Lymphoma**: **excisional (or core) biopsy** of a node for histology is required; fine needle aspiration alone is insufficient. PET-CT for staging.\n- **Myeloma**: serum protein electrophoresis with immunofixation, **serum free light chains**, urine electrophoresis for Bence Jones protein, calcium, creatinine, FBC, and skeletal imaging (whole-body low-dose CT, MRI or PET-CT, which have largely replaced the plain X-ray skeletal survey). Bone marrow confirms clonal plasma cells. Alkaline phosphatase is typically **normal** in myeloma because lesions are purely lytic.\n- **CML**: BCR-ABL by PCR or Philadelphia chromosome by cytogenetics.\n- **Febrile neutropenia**: do not wait for the neutrophil count to give antibiotics. Take **blood cultures (peripheral and from each lumen of any central line)**, FBC, UEC, LFTs, lactate, urine culture, chest X-ray, and cultures from any site of infection.\n- **Tumour lysis**: potassium, phosphate, calcium, urate, creatinine, LDH; ECG if potassium is high."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Febrile neutropenia (temperature 38.0 °C or more with neutrophils below 0.5 x 10^9/L, or expected to fall below this)**\n1. Rapid assessment, cultures, then **empirical IV antibiotics within 1 hour** of presentation. Do not wait for the FBC.\n2. eTG first line: **piperacillin-tazobactam** IV. Alternatives for non-severe penicillin allergy (for example cefepime) and for severe allergy follow eTG.\n3. Escalate per eTG: add **vancomycin** for suspected central line or skin infection, known MRSA or haemodynamic instability; add an aminoglycoside (gentamicin) in septic shock; consult infectious diseases if unstable.\n4. Resuscitate with IV fluids, admit, avoid rectal examination and rectal thermometers.\n5. Low-risk patients (assessed by the **MASCC score** and specialist teams) may be suitable for early oral or outpatient therapy per local protocol.\n\n**Tumour lysis syndrome**: prevent in high-risk patients with **IV hydration** and **allopurinol** (or **rasburicase** for high risk or established hyperuricaemia; rasburicase is contraindicated in G6PD deficiency). Treat hyperkalaemia with standard measures, avoid calcium unless symptomatic hypocalcaemia, and involve renal teams early for dialysis if needed.\n\n**Myeloma emergencies**: hypercalcaemia (IV normal saline then bisphosphonate), AKI (hydrate, **avoid NSAIDs** and IV contrast where possible), **spinal cord compression** (urgent MRI of the whole spine, **dexamethasone**, radiotherapy or surgery), hyperviscosity (plasma exchange).\n\n**Leucostasis** (very high blast count causing hypoxia, confusion): urgent haematology, hydration, cytoreduction; avoid red cell transfusion that raises viscosity unless essential.\n\n**APML**: start **ATRA** as soon as the diagnosis is suspected on the film, and support coagulation (platelets, cryoprecipitate, FFP).\n\n**Other key points**\n- CLL: early-stage asymptomatic disease is managed with **watch and wait**.\n- CML: oral tyrosine kinase inhibitor.\n- Lymphoma and acute leukaemia: chemotherapy (with or without immunotherapy, radiotherapy or stem cell transplant) under haematology.\n- Patients on or after chemotherapy should not receive live vaccines; inactivated influenza and pneumococcal vaccines are recommended (check the Australian Immunisation Handbook).\n- Polycythaemia vera: venesection to a target haematocrit and low-dose aspirin."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- Chemotherapy patient with fever of 38.0 °C or more: **blood cultures then IV piperacillin-tazobactam within 1 hour**. Waiting for the neutrophil count, oral antibiotics, or \"observe\" are wrong.\n- Older patient with back pain, anaemia, high calcium and renal impairment, with a **normal ALP**: myeloma. Next test: serum protein electrophoresis and free light chains.\n- Blasts on a film with bleeding or DIC: think **APML**, start ATRA.\n- Elderly person with lymphocytosis and smudge cells, otherwise well: CLL, watch and wait.\n- Persistent lymph node: **excisional biopsy**, not FNA or antibiotics.\n- After chemotherapy for bulky lymphoma: rising potassium, phosphate and urate with low calcium and AKI = tumour lysis."
+        }
+      ],
+      "keyPoints": [
+        "Febrile neutropenia is an emergency: cultures then IV piperacillin-tazobactam within 1 hour, without waiting for the FBC.",
+        "Neutropenic patients may have fever as their only sign of infection.",
+        "Blasts on a film need same-day haematology review; APML causes DIC and needs urgent ATRA.",
+        "Myeloma: CRAB (calcium, renal, anaemia, bone); test with serum protein electrophoresis and free light chains.",
+        "Suspected lymphoma needs an excisional or core node biopsy, not FNA alone.",
+        "Tumour lysis: high K, phosphate and urate, low calcium, AKI; prevent with fluids and allopurinol or rasburicase.",
+        "Early CLL is usually watch and wait; CML is treated with a tyrosine kinase inhibitor."
+      ],
+      "redFlags": [
+        "Fever of 38.0 °C or more within weeks of chemotherapy",
+        "Blasts on a blood film, or pancytopenia",
+        "Back pain with neurological signs in a myeloma or cancer patient (cord compression)",
+        "Confusion and hypoxia with a very high white count (leucostasis)",
+        "B symptoms with persistent lymphadenopathy or splenomegaly",
+        "Bleeding with DIC in a new leukaemia (APML)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Empirical therapy for febrile neutropenia",
+          "india": "Carbapenems or broad combinations are often first line given local resistance.",
+          "australia": "eTG first line is piperacillin-tazobactam; carbapenems are reserved (known resistant organisms, specialist advice)."
+        },
+        {
+          "aspect": "Referral pathway for suspected blood cancer",
+          "india": "Referral patterns vary; many patients present late.",
+          "australia": "Cancer Council Optimal Care Pathways set urgent referral timeframes; blasts need same-day haematology discussion."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Definition of febrile neutropenia (Australian consensus)?",
+          "back": "Temperature 38.0 °C or more with neutrophils below 0.5 x 10^9/L, or expected to fall below this."
+        },
+        {
+          "front": "eTG empirical antibiotic for febrile neutropenia?",
+          "back": "IV piperacillin-tazobactam within 1 hour of presentation."
+        },
+        {
+          "front": "CRAB in myeloma?",
+          "back": "HyperCalcaemia, Renal impairment, Anaemia, Bone (lytic) lesions."
+        },
+        {
+          "front": "Electrolyte pattern in tumour lysis syndrome?",
+          "back": "High potassium, phosphate and uric acid; low calcium; AKI."
+        },
+        {
+          "front": "Genetic abnormality in CML?",
+          "back": "Philadelphia chromosome t(9;22), BCR-ABL fusion."
+        },
+        {
+          "front": "Why avoid rasburicase in G6PD deficiency?",
+          "back": "It generates hydrogen peroxide, causing haemolysis and methaemoglobinaemia."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "haematology--malignancy-and-febrile-neutropenia--q1",
+          "discipline": "adult-medicine",
+          "topic": "haematology",
+          "difficulty": "core",
+          "stem": "A 52-year-old woman receiving chemotherapy for breast cancer presents to an emergency department in Brisbane 9 days after her last cycle with a temperature of 38.6 °C and feeling unwell. BP 112/70 mmHg, HR 104 bpm, RR 20, SpO2 97%. There is no obvious source of infection. She has no drug allergies. Her FBC has been sent but is not yet available.\n\nWhat is the most appropriate next step after taking blood cultures?",
+          "options": [
+            "Wait for the neutrophil count before deciding on antibiotics",
+            "Give IV piperacillin-tazobactam now",
+            "Give oral amoxicillin-clavulanate and discharge with review in 24 hours",
+            "Give IV meropenem plus vancomycin",
+            "Arrange a CT of the chest and abdomen to find a source first"
+          ],
+          "answer": 1,
+          "explanation": "Fever 9 days after chemotherapy (around the neutrophil nadir) must be treated as **febrile neutropenia** until proven otherwise. The rule is **empirical IV antibiotics within 1 hour of presentation**, **without waiting for the neutrophil count**, because mortality rises with every hour of delay and neutropenic patients may show no localising signs. The eTG first-line agent is **IV piperacillin-tazobactam**. Vancomycin is added only for specific indications (suspected line or skin infection, MRSA, instability). Carbapenems are reserved as part of antimicrobial stewardship. Imaging should not delay antibiotics.",
+          "whyWrong": [
+            "Delaying antibiotics for the result increases mortality.",
+            "",
+            "Oral outpatient therapy is only for carefully selected low-risk patients after assessment, not before any results.",
+            "Meropenem is not first line and vancomycin is not routinely required.",
+            "Investigations should not delay antibiotics."
+          ],
+          "tags": [
+            "febrile neutropenia",
+            "sepsis",
+            "oncology"
+          ],
+          "ausPearl": "Australian practice follows eTG and the Australian consensus guidelines for febrile neutropenia, with time-to-antibiotic targets audited in hospitals."
+        },
+        {
+          "id": "haematology--malignancy-and-febrile-neutropenia--q2",
+          "discipline": "adult-medicine",
+          "topic": "haematology",
+          "difficulty": "core",
+          "stem": "A 69-year-old man sees his GP in Ballarat with 3 months of low back pain and fatigue. Hb 96 g/L, creatinine 168 umol/L (baseline 85 umol/L a year ago), corrected calcium 2.88 mmol/L (2.10-2.60), ALP normal, total protein raised with a low albumin. The film shows rouleaux.\n\nWhat is the most appropriate next investigation?",
+          "options": [
+            "Bone scan (nuclear medicine)",
+            "Prostate-specific antigen",
+            "Serum protein electrophoresis with serum free light chains",
+            "Parathyroid hormone level only",
+            "Lumbar spine plain X-ray only"
+          ],
+          "answer": 2,
+          "explanation": "Back pain, **anaemia**, **hypercalcaemia**, **renal impairment** and a raised globulin gap with **rouleaux** is the CRAB picture of **multiple myeloma**. The next step is to look for a monoclonal protein: **serum protein electrophoresis with immunofixation and serum free light chains** (with urine electrophoresis). A normal ALP is typical, because myeloma lesions are purely lytic without osteoblastic activity, which is also why an isotope **bone scan is often falsely negative**. PSA and prostate imaging would be considered for sclerotic metastases, which raise ALP. Once a paraprotein is found, cross-sectional skeletal imaging and bone marrow examination follow.",
+          "whyWrong": [
+            "Bone scans can miss purely lytic myeloma lesions.",
+            "Prostate cancer typically causes sclerotic lesions with a raised ALP and does not explain rouleaux.",
+            "",
+            "PTH is reasonable in hypercalcaemia but will not diagnose the likely cause here.",
+            "Plain X-ray is insensitive and does not confirm a plasma cell disorder."
+          ],
+          "tags": [
+            "myeloma",
+            "hypercalcaemia",
+            "paraprotein"
+          ]
+        },
+        {
+          "id": "haematology--malignancy-and-febrile-neutropenia--q3",
+          "discipline": "adult-medicine",
+          "topic": "haematology",
+          "difficulty": "exam",
+          "stem": "A 24-year-old man with newly diagnosed Burkitt lymphoma and bulky abdominal disease starts chemotherapy in a Sydney hospital. Thirty-six hours later he has reduced urine output. Potassium 6.4 mmol/L, phosphate 2.9 mmol/L (0.75-1.50), corrected calcium 1.82 mmol/L, urate 0.78 mmol/L, creatinine 240 umol/L (95 at baseline). He has no known G6PD deficiency.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Hypercalcaemia of malignancy",
+            "Contrast-induced nephropathy",
+            "Tumour lysis syndrome",
+            "Septic acute kidney injury",
+            "Obstructive uropathy from nodal compression"
+          ],
+          "answer": 2,
+          "explanation": "**High potassium, high phosphate, high urate, low calcium and AKI** shortly after starting treatment for a **bulky, rapidly proliferating tumour** (Burkitt lymphoma is the classic high-risk example) is **tumour lysis syndrome**. Released phosphate binds calcium (hypocalcaemia) and urate and calcium phosphate crystals block the tubules. Management: aggressive IV hydration, **rasburicase** (he has no G6PD deficiency), treat hyperkalaemia (calcium gluconate only if ECG changes or symptomatic hypocalcaemia, given the phosphate load), and early renal involvement for dialysis if needed. Prevention with fluids and allopurinol or rasburicase should start before chemotherapy.",
+          "whyWrong": [
+            "Calcium is low, not high.",
+            "There is no contrast exposure and this would not explain the electrolyte pattern.",
+            "",
+            "Sepsis does not produce this combination of high phosphate, urate and potassium with low calcium.",
+            "Obstruction would not explain the high urate and phosphate with low calcium immediately after chemotherapy."
+          ],
+          "tags": [
+            "tumour lysis",
+            "lymphoma",
+            "aki"
+          ]
+        },
+        {
+          "id": "haematology--malignancy-and-febrile-neutropenia--q4",
+          "discipline": "adult-medicine",
+          "topic": "haematology",
+          "difficulty": "foundation",
+          "stem": "A 76-year-old woman has a routine FBC in general practice in Toowoomba. She feels well. Hb 132 g/L, white cells 24 x 10^9/L with lymphocytes 19 x 10^9/L, platelets 210 x 10^9/L. The film shows mature small lymphocytes and smudge cells. She has small, painless cervical nodes and no B symptoms or splenomegaly.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Chronic lymphocytic leukaemia",
+            "Acute lymphoblastic leukaemia",
+            "Chronic myeloid leukaemia",
+            "Infectious mononucleosis",
+            "Hodgkin lymphoma"
+          ],
+          "answer": 0,
+          "explanation": "An **older adult** with an **incidental lymphocytosis** of mature small lymphocytes and **smudge cells**, normal Hb and platelets, and small painless nodes is classic **chronic lymphocytic leukaemia**. Diagnosis is confirmed by **peripheral blood flow cytometry**. Early-stage, asymptomatic CLL is managed with **watch and wait**, with treatment reserved for progressive disease, cytopenias, bulky nodes or symptoms. Offer inactivated vaccines (influenza, pneumococcal) and counsel about infection risk. ALL would show blasts; CML shows neutrophilia and splenomegaly.",
+          "whyWrong": [
+            "",
+            "ALL shows blasts and cytopenias, and is mainly a disease of children.",
+            "CML causes neutrophilia with a left shift and basophilia, usually with splenomegaly.",
+            "Infectious mononucleosis causes atypical reactive lymphocytes in younger people with fever and pharyngitis.",
+            "Hodgkin lymphoma does not cause a circulating lymphocytosis with smudge cells."
+          ],
+          "tags": [
+            "cll",
+            "lymphocytosis",
+            "leukaemia"
+          ]
+        }
+      ]
+    }
+  ]
+}

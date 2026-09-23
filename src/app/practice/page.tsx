@@ -8,6 +8,7 @@ import { DISCIPLINES, QUESTIONS, SYLLABUS, subjectById, topicName, topicsForSubj
 import { useStore } from "@/lib/store";
 import type { Difficulty, Discipline, Question } from "@/lib/types";
 import { QuestionView } from "@/components/QuestionView";
+import { useLessonBank } from "@/hooks/useLessonBank";
 import { Bar, Button, Chip, Empty, PageHeader, Panel } from "@/components/ui";
 
 type Source = "all" | "unseen" | "mistakes" | "saved" | "ai";
@@ -67,6 +68,7 @@ function Setup({
   onStart: (qs: Question[]) => void;
 }) {
   const { attempts, bookmarks, aiQuestions } = useStore();
+  const bank = useLessonBank();
   const [subject, setSubject] = useState(() => subjectById(initialSubject ?? undefined));
   const [discs, setDiscs] = useState<Discipline[]>(() => {
     const t = SYLLABUS.find((x) => x.id === initialTopic);
@@ -77,7 +79,7 @@ function Setup({
   const [count, setCount] = useState(10);
 
   const pool = useMemo(() => {
-    let qs = [...QUESTIONS, ...aiQuestions];
+    let qs = [...QUESTIONS, ...(bank?.quiz ?? []), ...aiQuestions];
     if (subject) {
       const ts = new Set(topicsForSubject(subject));
       qs = qs.filter((q) => ts.has(q.topic));
@@ -89,7 +91,7 @@ function Setup({
     if (source === "saved") qs = qs.filter((q) => bookmarks.includes(q.id));
     if (source === "ai") qs = qs.filter((q) => q.id.startsWith("ai-"));
     return qs;
-  }, [discs, topic, source, attempts, bookmarks, aiQuestions, subject]);
+  }, [discs, topic, source, attempts, bookmarks, aiQuestions, subject, bank]);
 
   const topics = SYLLABUS.filter((t) => !discs.length || discs.includes(t.discipline));
   const toggleDisc = (d: Discipline) => {

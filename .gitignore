@@ -41,3 +41,6 @@ yarn-error.log*
 next-env.d.ts
 
 !.env.example
+
+# Built from src/content/course by scripts/build-course.mjs
+/src/content/generated/

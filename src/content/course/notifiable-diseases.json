@@ -1,0 +1,733 @@
+{
+  "topic": "notifiable-diseases",
+  "intro": "This topic covers how Australia detects and controls communicable disease: which conditions doctors must notify and how fast, how public health units trace contacts and give prophylaxis, and the exclusion rules for childcare, school and work. The AMC tests it through practical stems (a child with a rash in a waiting room, a meningococcal contact, a food poisoning cluster, an STI partner) where the right public health action is as important as the diagnosis.",
+  "lessons": [
+    {
+      "id": "notifiable-diseases--notification-system",
+      "title": "How notification works",
+      "minutes": 12,
+      "objectives": [
+        "Describe who notifies, to whom, and how data reach the national surveillance system",
+        "Separate diseases needing urgent phone notification on suspicion from routine notifications",
+        "Explain consent, confidentiality and what to tell the patient when you notify",
+        "Recognise when a cluster or outbreak should be reported"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The structure",
+          "body": "Australia's communicable disease control is **state-based with national coordination**.\n\n- **Public health law is state and territory law.** Each jurisdiction has its own Public Health Act listing notifiable conditions, who must notify, and timeframes. The **core list is national** (the National Notifiable Diseases List, agreed through the Communicable Diseases Network Australia, CDNA), but details vary by state.\n- **Who notifies**: medical practitioners (usually on clinical suspicion or diagnosis for specified diseases), **pathology laboratories** (on a positive test, which is how most notifications arrive), and in some states hospital CEOs, schools and childcare services for particular conditions.\n- **To whom**: the **local public health unit** (PHU) of the state or territory health department.\n- **Then**: de-identified data flow to the **National Notifiable Diseases Surveillance System (NNDSS)**, which produces national surveillance reports.\n- **Guidance**: the CDNA **Series of National Guidelines (SoNGs)** set out national public health management for each disease (case definitions, contact management, exclusion). States publish their own control guidelines based on them.\n\nIndia's equivalent is IDSP, with district surveillance units; the principle (report to the local public health authority, which leads the response) is the same."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Urgent versus routine notification",
+          "body": "Notifiable conditions are grouped by urgency. The exact categories and timeframes vary by state, but the clinical rule is simple: **if a delay of hours would cost lives or allow spread, phone the PHU as soon as you suspect it, before laboratory confirmation.**\n\n**Urgent: notify by phone on clinical suspicion** (examples that are urgent in essentially every jurisdiction)\n\n- Measles\n- Invasive meningococcal disease\n- Diphtheria\n- Botulism\n- Poliomyelitis (including acute flaccid paralysis in a child)\n- Cholera, typhoid and paratyphoid\n- Rabies and Australian bat lyssavirus, and potential exposures\n- Viral haemorrhagic fevers\n- Haemolytic uraemic syndrome\n- Foodborne or waterborne illness in two or more related cases\n- Unusual clusters or suspected bioterrorism (anthrax, plague, smallpox)\n\n**Routine: written or electronic notification, usually within days (or laboratory notification only)**\n\n- Tuberculosis, HIV, syphilis, gonorrhoea, chlamydia, hepatitis A, B and C (hepatitis A is urgent in many states because of rapid control needs)\n- Pertussis, mumps, rubella, varicella\n- Salmonellosis, shigellosis, campylobacteriosis, STEC, listeriosis\n- Legionellosis, Q fever, leptospirosis, brucellosis, psittacosis\n- Arboviruses: Ross River virus, Barmah Forest virus, dengue, Murray Valley encephalitis, Japanese encephalitis\n- **Laboratory-confirmed influenza and COVID-19**\n- In various jurisdictions: acute rheumatic fever and RHD, melioidosis, invasive group A streptococcal disease, lead poisoning above a threshold\n\nMany routine conditions are notified by laboratories, so doctors rarely need to send a separate form, but you should know your state's list because some require **doctor** notification (for example, certain conditions on clinical diagnosis). When unsure, **phone the PHU**: they would rather hear too early than too late."
+        },
+        {
+          "kind": "application",
+          "heading": "Consent, confidentiality and outbreaks",
+          "body": "**Consent.** Notification is a **legal requirement**; you **do not need the patient's consent**. It is a lawful exception to confidentiality under state public health law and the Privacy Act.\n\n**Tell the patient anyway.** Good practice (and what the AMC expects) is to explain that the disease is notifiable, why, what information goes to public health, and that the PHU may contact them to help trace contacts. Reassure them the information is confidential within the health system.\n\n**Special confidentiality for HIV.** In most jurisdictions HIV is notified using a **name code** (for example letters from the first and last names plus date of birth and sex) rather than the full name, to protect privacy while allowing duplicate checking.\n\n**What the PHU does with a notification**\n\n- Confirms the case and interviews the patient (or you) about exposures and contacts\n- Identifies contacts and arranges **post-exposure prophylaxis** (vaccine, immunoglobulin, antibiotics)\n- Advises **exclusion** from childcare, school or work\n- Investigates **clusters** and sources (a restaurant, a cooling tower, a water supply)\n- Issues alerts to GPs and EDs\n- Can use legal powers as a last resort (orders for testing, treatment or isolation) where a person places others at risk\n\n**When to report an outbreak**\n\n- **Two or more people with a similar illness linked to a common source** (a meal, event or food product) should be reported, even if the organism is unknown and the illness is not individually notifiable.\n- Gastroenteritis or respiratory illness outbreaks in **residential aged care** and institutions are reported to the PHU.\n- Any **unusual** pattern: a cluster of pneumonia in one building (think Legionella), a rash illness in unvaccinated children, or an illness you do not recognise in a returned traveller.\n\n**A practical sequence when you suspect an urgent notifiable disease**\n\n1. Protect others: isolate the patient (mask, separate room) and use appropriate PPE.\n2. Treat the patient: never delay life-saving treatment (for example antibiotics for meningococcal disease) for notification or tests.\n3. Take the right specimens and tell the laboratory what you suspect.\n4. Phone the PHU (after-hours numbers exist in every state) with the patient's details, likely exposures and a list of people present.\n5. Tell the patient or family what is happening and that public health will be in touch.\n\n**The GP's role in contact management.** The PHU leads tracing for urgent conditions. GPs are expected to support this and lead **STI partner notification** themselves, with PHU and sexual health service help (lesson 4)."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- \"Is consent needed to notify?\" **No**, but tell the patient.\n- \"When should you notify suspected meningococcal disease or measles?\" **Immediately, by phone, on clinical suspicion.** Waiting for laboratory confirmation is the classic wrong answer.\n- \"To whom?\" The **state or territory public health unit**, not the Commonwealth, the hospital infection control nurse or the patient's employer.\n- A food poisoning stem with **two or more** linked cases: report the cluster to the PHU.\n- Influenza and COVID-19 are notifiable when **laboratory confirmed**; a clinical diagnosis alone is not usually notified.\n- Remember \"varies by state\": correct options often talk about the PHU's advice rather than a fixed national rule."
+        }
+      ],
+      "keyPoints": [
+        "Notification goes to the state or territory public health unit; data feed the NNDSS.",
+        "Core list is national; lists and timeframes vary by state.",
+        "Urgent phone notification on suspicion: measles, meningococcal disease, diphtheria, botulism, polio, HUS, VHF, rabies/ABLV.",
+        "Consent is not needed to notify, but tell the patient.",
+        "Two or more linked cases of foodborne illness should be reported.",
+        "Influenza and COVID-19 are notifiable when laboratory confirmed.",
+        "HIV is usually notified with a name code to protect privacy."
+      ],
+      "redFlags": [
+        "Suspected measles, meningococcal disease, diphtheria or botulism: phone the PHU immediately, do not wait for results.",
+        "Acute flaccid paralysis in a child: urgent notification for polio surveillance.",
+        "Cluster of pneumonia or gastroenteritis linked to one place: report as a possible outbreak."
+      ],
+      "contrast": [
+        {
+          "aspect": "Reporting pathway",
+          "india": "IDSP with weekly S, P and L forms to district surveillance units, plus outbreak alerts.",
+          "australia": "Doctor and laboratory notifications to the state PHU under state law; urgent conditions phoned on clinical suspicion."
+        },
+        {
+          "aspect": "Privacy",
+          "india": "Similar public health duty; HIV reporting through NACO systems.",
+          "australia": "Consent not required, patient informed; HIV notified by name code in most states."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Who receives notifications of communicable diseases in Australia?",
+          "back": "The state or territory public health unit (data then go to the NNDSS)."
+        },
+        {
+          "front": "Is patient consent required to notify a notifiable disease?",
+          "back": "No; it is a legal requirement. Tell the patient you are notifying."
+        },
+        {
+          "front": "Name four diseases requiring urgent phone notification on clinical suspicion.",
+          "back": "Measles, invasive meningococcal disease, diphtheria, botulism (also polio, HUS, VHF, rabies/ABLV)."
+        },
+        {
+          "front": "How many linked cases of foodborne illness should prompt a report?",
+          "back": "Two or more with a common source."
+        },
+        {
+          "front": "What are the CDNA SoNGs?",
+          "back": "Series of National Guidelines for public health management of each notifiable disease."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "notifiable-diseases--notification-system--q1",
+          "discipline": "population-health",
+          "topic": "notifiable-diseases",
+          "difficulty": "foundation",
+          "stem": "A 19-year-old university student in Melbourne presents to a GP with fever, headache and a non-blanching petechial rash on his legs that appeared in the last 2 hours. The GP gives IM benzylpenicillin and calls an ambulance.\n\nWhen should the GP notify the public health unit?",
+          "options": [
+            "After blood culture results confirm Neisseria meningitidis",
+            "Immediately by phone, on clinical suspicion",
+            "Within 5 days using the written notification form",
+            "Only if the hospital does not notify",
+            "Only after obtaining the patient's consent"
+          ],
+          "answer": 1,
+          "explanation": "**Invasive meningococcal disease** is an **urgent notifiable condition**. The doctor should notify the public health unit **by phone as soon as the diagnosis is suspected**, without waiting for laboratory confirmation, because close contacts need **clearance antibiotics** (and vaccine if the serogroup is vaccine-preventable) within 24 hours where possible.\n\nNotification is a legal obligation that does **not require consent**, although the patient or family should be told. Every doctor who suspects the diagnosis has a duty to notify; the PHU manages duplicates.",
+          "whyWrong": [
+            "Waiting for cultures delays prophylaxis for contacts.",
+            "",
+            "Routine written notification is too slow for an urgent condition.",
+            "Each suspecting doctor should notify; relying on others risks no one doing it.",
+            "Notification is a legal requirement and does not need consent."
+          ],
+          "tags": [
+            "notification",
+            "meningococcal",
+            "public health unit"
+          ]
+        },
+        {
+          "id": "notifiable-diseases--notification-system--q2",
+          "discipline": "population-health",
+          "topic": "notifiable-diseases",
+          "difficulty": "core",
+          "stem": "A GP in Hobart sees a 35-year-old man with 2 days of vomiting and bloody diarrhoea. He says three friends who ate with him at a restaurant on Saturday have similar symptoms. A stool sample has been sent.\n\nWhat is the most appropriate public health action?",
+          "options": [
+            "Wait for the stool culture before taking any public health action",
+            "Advise him to report the restaurant to the local newspaper",
+            "Report the suspected foodborne outbreak to the public health unit now",
+            "Notify only if Salmonella is isolated",
+            "Tell him to contact the restaurant himself"
+          ],
+          "answer": 2,
+          "explanation": "**Two or more people with a similar illness linked to a common food source** is a suspected **foodborne outbreak** and should be reported to the **public health unit promptly**, even before the organism is known. The PHU (with local council environmental health officers) can inspect the premises, collect food samples, interview other diners and stop further cases.\n\nThe laboratory will also notify specific pathogens (Salmonella, Campylobacter, STEC and others), but the cluster is what makes this urgent. Bloody diarrhoea also raises the possibility of STEC, so ask about HUS warning signs and avoid antibiotics and antimotility agents until the cause is known.",
+          "whyWrong": [
+            "The cluster itself is reportable; waiting delays source control.",
+            "The media are not a public health authority.",
+            "",
+            "The cluster is reportable whatever the organism.",
+            "Source investigation is the PHU's role, not the patient's."
+          ],
+          "ausPearl": "Environmental health officers from local councils work with PHUs to inspect food premises in foodborne outbreaks.",
+          "tags": [
+            "foodborne outbreak",
+            "notification",
+            "gastroenteritis"
+          ]
+        },
+        {
+          "id": "notifiable-diseases--notification-system--q3",
+          "discipline": "population-health",
+          "topic": "notifiable-diseases",
+          "difficulty": "exam",
+          "stem": "A 42-year-old woman is diagnosed with pulmonary tuberculosis at a Perth hospital. She asks that nobody, including the health department, be told about her diagnosis because she fears losing her job.\n\nWhat is the most appropriate response?",
+          "options": [
+            "Respect her wishes and do not notify",
+            "Notify only if she refuses treatment",
+            "Notify her employer so that co-workers can be screened",
+            "Seek a court order before notifying",
+            "Explain that TB is notifiable by law, notify the public health unit, and reassure her about confidentiality"
+          ],
+          "answer": 4,
+          "explanation": "TB is a **notifiable condition** in every state and territory. Notification is a **legal duty that overrides the patient's wish for confidentiality**, and consent is not required. The right approach is to be open: explain that the law requires notification, what happens next (the state TB service will offer free treatment and contact screening), and that her information stays within the health system.\n\nThe PHU or TB service, not the treating doctor, decides whether workplace contacts need screening, and does this in a way that protects her identity as far as possible. Informing her employer directly would breach confidentiality.",
+          "whyWrong": [
+            "Notification is compulsory; her wishes cannot override the law.",
+            "Notification is required at diagnosis, not only when treatment is refused.",
+            "Contacting the employer is a breach of confidentiality; contact tracing is done by the TB service.",
+            "No court order is needed; notification is authorised by public health law.",
+            ""
+          ],
+          "tags": [
+            "tuberculosis",
+            "confidentiality",
+            "notification"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "notifiable-diseases--measles-and-meningococcal",
+      "title": "Measles, meningococcal disease and contacts",
+      "minutes": 18,
+      "objectives": [
+        "Recognise measles and invasive meningococcal disease from classic presentations",
+        "Take immediate infection control and treatment actions",
+        "Manage measles contacts with MMR or normal human immunoglobulin within the right time windows",
+        "Choose clearance antibiotics for meningococcal contacts, including in pregnancy"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why these two matter",
+          "body": "Both are **urgent notifiable diseases** with a **clinical-suspicion trigger**, both spread before diagnosis, and both have time-critical contact prophylaxis. The AMC tests them heavily.\n\n- **Measles** was declared eliminated in Australia in 2014 (no ongoing local transmission), but cases keep being imported by travellers, especially from South and South-East Asia, and outbreaks occur in under-vaccinated groups. It is one of the most contagious infections known; a person can catch it in a waiting room up to about 2 hours after an infectious person has left.\n- **Invasive meningococcal disease (IMD)** is rare but kills within hours. Peaks are in children under 5 and adolescents and young adults (15 to 24). Serogroup B causes much of the disease, with W and Y also important. The NIP includes MenACWY at 12 months and in adolescence (school program), and MenB for Aboriginal and Torres Strait Islander infants, with some states funding MenB more widely (for example SA and Queensland adolescents and infants)."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "**Measles**\n\n- **Prodrome** of 2 to 4 days: high fever and the \"3 Cs\": **cough, coryza, conjunctivitis**.\n- **Koplik spots**: small white spots on the buccal mucosa, just before the rash.\n- **Rash**: maculopapular, starting on the face and behind the ears, spreading down the body over 3 to 4 days, becoming confluent.\n- **Infectious period**: from about **4 days before to 4 days after rash onset**.\n- Incubation about 10 days to the first symptoms and about 14 days to the rash (range up to about 18 to 21 days), which defines the contact follow-up window.\n- **Complications**: otitis media, pneumonia (the commonest cause of death), diarrhoea, encephalitis, and years later **subacute sclerosing panencephalitis (SSPE)**. Worse in infants, malnourished people, pregnant women and the immunocompromised.\n- **Typical AMC stem**: unvaccinated child or young adult, recently back from overseas, febrile with cough, red eyes and a spreading rash.\n\n**Invasive meningococcal disease**\n\n- Presents as **septicaemia**, **meningitis**, or both.\n- Early: fever, lethargy, vomiting, **leg pain, cold hands and feet, pale or mottled skin**, often before any rash.\n- The **non-blanching petechial or purpuric rash** is a late, ominous sign; it may start as a blanching maculopapular rash.\n- Meningitis: headache, neck stiffness, photophobia; in infants, irritability, poor feeding and a bulging fontanelle.\n- Can progress to shock, DIC and purpura fulminans within hours."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "**Measles**\n\n- **PCR** on a **nose and throat swab** (nasopharyngeal) plus **urine**: the preferred test, most sensitive in the first days of rash.\n- **Serology**: measles IgM (may be negative in the first 3 days of rash) and IgG.\n- Tell the laboratory and PHU before sending, so the specimens are handled and genotyped.\n\n**Meningococcal disease**\n\n- **Blood cultures** (ideally before antibiotics, but never delay antibiotics to get them)\n- **PCR** on blood (EDTA) and CSF: remains positive after antibiotics, so it is vital when antibiotics were given first\n- CSF microscopy, culture and PCR if lumbar puncture is safe (defer in shock, coagulopathy, raised intracranial pressure)\n- FBC, coagulation, lactate, electrolytes\n- Serogrouping by the reference laboratory guides whether contacts are also vaccinated."
+        },
+        {
+          "kind": "management",
+          "heading": "Case management and contact prophylaxis",
+          "body": "**Measles: the case**\n\n- **Infection control first**: do not leave the patient in the waiting room. Mask the patient and move them to a single room (negative pressure in hospital) with the door closed. Staff should be immune.\n- If you suspect measles before the patient arrives, arrange to see them at the end of the day or outside.\n- **Notify the PHU by phone immediately.**\n- Supportive care. **Vitamin A** is recommended for children with measles (especially if severe or malnourished).\n- **Exclusion**: from childcare, school and work until at least **4 days after rash onset**.\n\n**Measles: contacts**\n\n| Contact | Action |\n|---|---|\n| Non-immune, aged 6 months or older, not pregnant or immunocompromised | **MMR within 72 hours** of first exposure |\n| Beyond 72 hours but **within 6 days (144 hours)**, or infants under 6 months, pregnant non-immune women, immunocompromised people | **Normal human immunoglobulin (NHIG)** |\n\n- Presumed immune: people born before 1966 (in Australia) or those with documented 2 doses of measles-containing vaccine or positive IgG.\n- Non-immune contacts are usually excluded from childcare, school or healthcare work for **14 days** after last exposure unless they received prophylaxis in time; the PHU decides.\n- After NHIG, MMR must be delayed for several months (check the Handbook).\n\n**Meningococcal disease: the case**\n\n- **Do not delay antibiotics.** In the community, if IMD is suspected give **IM or IV benzylpenicillin** (or ceftriaxone) before transfer.\n- In hospital: **IV ceftriaxone** (cefotaxime in neonates), resuscitation, and dexamethasone for meningitis per local guidelines.\n- If the patient was treated with penicillin alone, give **clearance antibiotics** before discharge because penicillin does not reliably eradicate carriage; ceftriaxone does.\n- Notify urgently.\n\n**Meningococcal disease: contacts**\n\nClearance is offered to **household and household-like contacts** (people who slept in the same house, or spent more than 8 hours in close contact, in the **7 days before onset**) and **intimate kissing contacts**, as well as, in some situations, childcare groups and people who performed mouth-to-mouth. Give it **as soon as possible, ideally within 24 hours**.\n\n| Agent | Notes |\n|---|---|\n| **Ciprofloxacin** single oral dose | Convenient for adults and older children (adult 500 mg) |\n| **Rifampicin** twice daily for 2 days | Interacts with many drugs; reduces the effectiveness of hormonal contraception; turns urine and tears orange |\n| **Ceftriaxone** single IM dose | **Preferred in pregnancy**; useful when adherence is uncertain |\n\nAlso offer **meningococcal vaccine** to contacts if the case's serogroup is vaccine-preventable. Contacts should know the symptoms and seek care immediately, because prophylaxis is not 100% effective. Casual contacts (classmates, workmates, hospital staff without airway exposure) do not need prophylaxis."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- **Measles contact timing**: **MMR within 72 hours**; **NHIG within 6 days** or when MMR is contraindicated (infants under 6 months, pregnancy, immunocompromise). Know which contact gets which.\n- **First action** for a febrile child with a rash in your waiting room: isolate (mask, separate room), then assess and notify.\n- **Meningococcal**: give **penicillin or ceftriaxone before transfer**; never delay for cultures or LP.\n- **Pregnant contact**: **ceftriaxone** (avoid ciprofloxacin and rifampicin).\n- **Contact on the oral contraceptive pill** given rifampicin: counsel about contraceptive failure; ciprofloxacin avoids this.\n- Healthcare workers need prophylaxis only if exposed to respiratory secretions without protection (for example intubation or mouth-to-mouth)."
+        }
+      ],
+      "keyPoints": [
+        "Measles: fever, cough, coryza, conjunctivitis, Koplik spots, then a descending maculopapular rash.",
+        "Measles infectious from 4 days before to 4 days after rash onset; exclude for at least 4 days after rash onset.",
+        "Measles contacts: MMR within 72 hours, or NHIG within 6 days (and for infants < 6 months, pregnant or immunocompromised contacts).",
+        "Isolate suspected measles immediately; never leave it in the waiting room.",
+        "Suspected IMD: give benzylpenicillin or ceftriaxone immediately, before transfer or tests.",
+        "Meningococcal clearance for household-like and intimate contacts in the 7 days before onset: ciprofloxacin, rifampicin or ceftriaxone.",
+        "Ceftriaxone is the clearance agent of choice in pregnancy."
+      ],
+      "redFlags": [
+        "Non-blanching rash with fever: treat as meningococcal disease until proven otherwise.",
+        "Leg pain, cold peripheries and mottled skin in a febrile child: early meningococcal sepsis before the rash.",
+        "Measles in an infant, pregnant woman or immunocompromised person: high risk of pneumonia and death.",
+        "Measles with altered consciousness or seizures: encephalitis."
+      ],
+      "contrast": [
+        {
+          "aspect": "Measles epidemiology",
+          "india": "Measles is still endemic; outbreaks common, managed with campaigns and vitamin A.",
+          "australia": "Eliminated since 2014; each imported case triggers urgent notification, isolation and contact prophylaxis."
+        },
+        {
+          "aspect": "Meningococcal contacts",
+          "india": "Rifampicin is the commonly taught chemoprophylaxis.",
+          "australia": "Ciprofloxacin, rifampicin or ceftriaxone for household-like and intimate contacts; ceftriaxone in pregnancy; plus vaccine if the serogroup is covered."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Measles post-exposure MMR must be given within...?",
+          "back": "72 hours of first exposure."
+        },
+        {
+          "front": "Measles post-exposure normal human immunoglobulin must be given within...?",
+          "back": "6 days (144 hours) of exposure; used when MMR is late or contraindicated."
+        },
+        {
+          "front": "Measles exclusion period for the case?",
+          "back": "At least 4 days after rash onset."
+        },
+        {
+          "front": "Preferred meningococcal clearance antibiotic in pregnancy?",
+          "back": "Ceftriaxone, single IM dose."
+        },
+        {
+          "front": "Which meningococcal contacts receive clearance antibiotics?",
+          "back": "Household and household-like contacts in the 7 days before onset, and intimate kissing contacts."
+        },
+        {
+          "front": "Pre-hospital antibiotic for suspected meningococcal disease?",
+          "back": "IM or IV benzylpenicillin (or ceftriaxone), given without delay."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "notifiable-diseases--measles-and-meningococcal--q1",
+          "discipline": "population-health",
+          "topic": "notifiable-diseases",
+          "difficulty": "core",
+          "stem": "A 24-year-old man returns to Sydney from a family wedding in Mumbai. Five days later he develops fever, cough, runny nose and red eyes, and 3 days after that a red blotchy rash starts behind his ears and spreads to his trunk. He is unsure of his vaccination history. He is sitting in a busy GP waiting room.\n\nWhat is the most appropriate first action?",
+          "options": [
+            "Take a throat swab and send him home to await results",
+            "Give MMR vaccine today",
+            "Refer him to the emergency department by public transport",
+            "Move him to a separate room with a mask and close the door",
+            "Prescribe oral amoxicillin for a presumed drug rash"
+          ],
+          "answer": 3,
+          "explanation": "This is classic **measles**: a prodrome of **cough, coryza and conjunctivitis** with fever, followed by a maculopapular rash starting behind the ears and spreading down, in a young adult of uncertain vaccination status returning from a country with ongoing transmission.\n\nMeasles is extremely contagious and airborne, so the **first action is infection control**: mask him and move him out of the waiting room into a single room with the door closed. Then assess, take a nose and throat swab and urine for **measles PCR**, and **phone the PHU immediately**. The PHU will trace everyone in the waiting room for MMR (within 72 hours) or NHIG (within 6 days). Public transport would expose many more people.",
+          "whyWrong": [
+            "Sending him home without isolation advice and notification risks spread and delays contact tracing.",
+            "MMR is post-exposure prophylaxis for contacts, not treatment for established measles.",
+            "Public transport exposes many people; any transfer must be arranged with the receiving hospital.",
+            "",
+            "Nothing suggests a drug reaction; this is a textbook measles prodrome and rash."
+          ],
+          "tags": [
+            "measles",
+            "infection control",
+            "notification"
+          ]
+        },
+        {
+          "id": "notifiable-diseases--measles-and-meningococcal--q2",
+          "discipline": "population-health",
+          "topic": "notifiable-diseases",
+          "difficulty": "exam",
+          "stem": "The public health unit contacts you about patients exposed to measles in your clinic's waiting room 4 days ago. One contact is a 29-year-old woman who is 20 weeks pregnant and whose serology shows she is not immune to measles.\n\nWhat is the most appropriate post-exposure management for her?",
+          "options": [
+            "Normal human immunoglobulin",
+            "MMR vaccine today",
+            "No action, as more than 72 hours have passed",
+            "Oral aciclovir for 7 days",
+            "MMR vaccine immediately after delivery only"
+          ],
+          "answer": 0,
+          "explanation": "MMR is a **live vaccine** and is **contraindicated in pregnancy**, and in any case she is beyond the **72-hour** window. **Normal human immunoglobulin (NHIG)** can be given up to **6 days (144 hours)** after exposure and is recommended for non-immune pregnant women, infants under 6 months and immunocompromised people. She is on day 4, so NHIG is still effective.\n\nShe should be told to watch for symptoms up to about 3 weeks after exposure and to phone ahead before attending care. MMR should be given **after delivery** to protect her in the future, but that is not post-exposure management. Aciclovir has no role in measles.",
+          "whyWrong": [
+            "",
+            "MMR is a live vaccine, contraindicated in pregnancy, and it is beyond 72 hours.",
+            "NHIG remains effective up to 6 days after exposure.",
+            "Aciclovir treats herpes viruses, not measles.",
+            "Postpartum MMR is important for future protection but does nothing for this exposure."
+          ],
+          "ausPearl": "In Australia, people born before 1966 are presumed immune to measles because of the high circulation before vaccination.",
+          "tags": [
+            "measles",
+            "pregnancy",
+            "immunoglobulin"
+          ]
+        },
+        {
+          "id": "notifiable-diseases--measles-and-meningococcal--q3",
+          "discipline": "population-health",
+          "topic": "notifiable-diseases",
+          "difficulty": "core",
+          "stem": "An 18-year-old woman is admitted to a Brisbane hospital with meningococcal septicaemia. Her 20-year-old boyfriend, who stayed overnight with her several times in the past week, asks what he should do. He is well and takes no medications.\n\nWhat is the most appropriate management for him?",
+          "options": [
+            "Observation only, and return if unwell",
+            "Oral amoxicillin for 7 days",
+            "IV benzylpenicillin for 5 days",
+            "A single oral dose of ciprofloxacin",
+            "Meningococcal vaccine only"
+          ],
+          "answer": 3,
+          "explanation": "He is both an **intimate kissing contact** and a **household-like contact** (overnight stays in the **7 days before onset**), so he needs **clearance antibiotics** as soon as possible, ideally within 24 hours. A **single oral dose of ciprofloxacin** is convenient and effective for adults. Rifampicin for 2 days or a single IM dose of ceftriaxone are alternatives.\n\nClearance antibiotics eradicate nasopharyngeal carriage; they are not treatment. **Vaccination** is also offered if the serogroup is covered by a vaccine, but it does not replace antibiotics because protection takes time. He should also be told the early symptoms and to seek care immediately if unwell.",
+          "whyWrong": [
+            "As an intimate and household-like contact he is at markedly increased risk and needs clearance.",
+            "Amoxicillin does not reliably eradicate meningococcal carriage.",
+            "IV treatment is for disease, not for clearing carriage in a well contact.",
+            "",
+            "Vaccine alone takes too long to protect and does not clear carriage."
+          ],
+          "tags": [
+            "meningococcal",
+            "chemoprophylaxis",
+            "contacts"
+          ]
+        },
+        {
+          "id": "notifiable-diseases--measles-and-meningococcal--q4",
+          "discipline": "population-health",
+          "topic": "notifiable-diseases",
+          "difficulty": "foundation",
+          "stem": "A 26-year-old woman who is 12 weeks pregnant lives in the same house as a 4-year-old child diagnosed with invasive meningococcal disease yesterday.\n\nWhich clearance antibiotic is most appropriate for her?",
+          "options": [
+            "Ciprofloxacin as a single oral dose",
+            "Rifampicin twice daily for 2 days",
+            "Doxycycline for 7 days",
+            "Azithromycin for 3 days",
+            "Ceftriaxone as a single intramuscular dose"
+          ],
+          "answer": 4,
+          "explanation": "**Ceftriaxone** as a single IM dose is the preferred meningococcal clearance agent **in pregnancy**. Ciprofloxacin and rifampicin are generally avoided in pregnancy, and doxycycline is contraindicated. Azithromycin is not a standard first-line clearance agent in Australian guidance.\n\nShe is a household contact of a case in the 7 days before onset, so she qualifies for clearance, ideally within 24 hours of the diagnosis. She should also be told to seek care immediately if she develops fever or a rash.",
+          "whyWrong": [
+            "Ciprofloxacin is generally avoided in pregnancy.",
+            "Rifampicin is avoided in pregnancy and has many interactions.",
+            "Doxycycline is contraindicated in pregnancy and is not a clearance agent.",
+            "Azithromycin is not a standard first-line clearance regimen.",
+            ""
+          ],
+          "tags": [
+            "meningococcal",
+            "pregnancy",
+            "ceftriaxone"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "notifiable-diseases--outbreaks-and-exclusion",
+      "title": "Common notifiables, outbreaks and exclusion",
+      "minutes": 18,
+      "objectives": [
+        "Apply childcare, school and work exclusion rules for common infections",
+        "Manage pertussis cases and high-risk contacts",
+        "Investigate gastroenteritis and foodborne outbreaks, including food handlers",
+        "Recognise environmental and vector-borne notifiable diseases: Legionella, arboviruses and TB"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Where exclusion rules come from",
+          "body": "Exclusion periods for children are set out in the NHMRC guide **Staying Healthy: Preventing infectious diseases in early childhood education and care services**, and in state health department school exclusion tables, which are based on the CDNA SoNGs. Public health units can vary them in an outbreak. The principle is that a child is excluded while they are infectious and cannot be managed safely with hygiene alone.\n\nCommon conditions below are notifiable in all or most states (pertussis, hepatitis A, salmonellosis, legionellosis, arboviruses, TB); others, such as chickenpox and gastroenteritis outbreaks, have exclusion rules even when an individual case may not be notified by the doctor."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Exclusion periods you should know",
+          "body": "Commonly used periods (from Staying Healthy and state tables; always check local advice):\n\n| Condition | Exclude the case until... |\n|---|---|\n| **Measles** | at least 4 days after rash onset |\n| **Pertussis** | **5 days of an appropriate antibiotic**, or **21 days from onset of cough** if untreated |\n| **Gastroenteritis (diarrhoea or vomiting)** | **24 hours** after the last episode (48 hours for norovirus-type outbreaks and for food handlers, per PHU advice) |\n| **Hepatitis A** | **7 days after onset of jaundice** (or of symptoms if no jaundice) |\n| **Chickenpox** | all blisters have **crusted** (usually at least 5 days after the rash starts) |\n| **Mumps** | 5 days after onset of parotid swelling |\n| **Rubella** | 4 days after rash onset |\n| **Impetigo** | antibiotic treatment has started; cover sores on exposed skin |\n| **Hand, foot and mouth disease** | blisters have dried |\n| **Streptococcal sore throat / scarlet fever** | 24 hours after starting antibiotics and feeling well |\n| **Conjunctivitis** | discharge has stopped |\n| **Head lice** | not excluded if treatment starts before the next day |\n| **Hepatitis B, hepatitis C, HIV** | **not excluded** (standard precautions protect others) |\n\n**Contacts** are generally not excluded, except non-immune contacts of measles (and some vaccine-preventable diseases) as directed by the PHU, and unvaccinated contacts in a pertussis outbreak in some settings."
+        },
+        {
+          "kind": "application",
+          "heading": "Pertussis, gastroenteritis and foodborne outbreaks",
+          "body": "**Pertussis (whooping cough)**\n\n- Caused by *Bordetella pertussis*; epidemics every 3 to 5 years; deaths are almost all in **infants too young to be fully vaccinated**.\n- Catarrhal phase (like a cold), then paroxysmal cough with inspiratory whoop or post-tussive vomiting, then a convalescent phase of weeks (\"100-day cough\"). Infants may have apnoea or cyanosis without a whoop. Adults may just have a persistent cough.\n- **Test**: nasopharyngeal **PCR** (best in the first 3 weeks of cough); serology later.\n- **Treatment**: **azithromycin** (first-line, safe in young infants), or clarithromycin; trimethoprim-sulfamethoxazole if macrolides cannot be used (not in infants under 2 months). Antibiotics mainly reduce spread; they barely shorten the cough unless given early.\n- **Contact prophylaxis** (antibiotics, usually azithromycin) is targeted at households or settings that include an **infant under 6 months** or a **woman in the last month of pregnancy**, and at others per PHU advice.\n- **Prevention**: dTpa in **every pregnancy** (ideally 20 to 32 weeks) gives passive protection to the newborn; infant doses at 2 months (can be given from 6 weeks), 4 and 6 months, with boosters at 18 months, 4 years and in adolescence.\n\n**Gastroenteritis and food**\n\n- Organisms: norovirus (outbreaks in aged care, cruise ships, childcare), *Campylobacter* and *Salmonella* (the commonest notified bacterial causes), STEC (bloody diarrhoea, risk of HUS), *Listeria* (pregnancy, elderly, immunocompromised; soft cheeses, deli meats, rockmelon), hepatitis A (frozen berries, shellfish).\n- **Food handlers, healthcare workers and childcare workers** with diarrhoea are excluded from work until **48 hours after symptoms stop** (PHU advice varies by organism; some, like typhoid or STEC, need clearance stool tests).\n- Report **two or more linked cases** and any gastro outbreak in an institution to the PHU.\n- Outbreak control in aged care: isolate or cohort cases, exclude symptomatic staff, enhanced cleaning with bleach-based products for norovirus, restrict visitors and admissions, and hand washing with soap and water (alcohol gels are less effective against norovirus).\n\n**Environmental and vector-borne infections**\n\n- **Legionellosis**: *L. pneumophila* from **cooling towers** and warm water systems (clusters around a building); *L. longbeachae* from **potting mix and compost** (gardeners, so wear a mask and gloves). The **urinary antigen detects only *L. pneumophila* serogroup 1**, so a negative result does not exclude *L. longbeachae*; send sputum PCR or culture. Treat with azithromycin (or a fluoroquinolone in severe disease per eTG).\n- **Arboviruses**: **Ross River virus** and Barmah Forest virus cause fever, rash and polyarthritis with prolonged fatigue (diagnosed by serology, managed supportively); **dengue** in north Queensland (from *Aedes aegypti*, often travel-acquired); **Murray Valley encephalitis** and **Japanese encephalitis** (which appeared in south-eastern Australia in 2022, linked to piggeries). Every arbovirus notification triggers local mosquito control. Prevention: repellent, covering up, avoiding dusk and dawn, JE vaccine for at-risk groups.\n- **Tuberculosis**: Australia has one of the lowest rates in the world, with most cases in people born overseas (India is a leading country of birth for notified cases). State **TB services** provide free diagnosis and treatment regardless of Medicare status, supervise treatment, and screen contacts with **IGRA or tuberculin skin test** and chest X-ray.\n- **Q fever, leptospirosis, brucellosis, psittacosis**: occupational and animal exposures (see the occupational health topic)."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Exclusion questions are usually about the **case**, not contacts. Remember: pertussis **5 days of antibiotics or 21 days** of cough; gastro **24 hours** after symptoms stop (48 for food handlers); hepatitis A **7 days after jaundice**; chickenpox until **crusted**.\n- **Hepatitis B, C and HIV** are never grounds for exclusion from childcare or school.\n- **Pertussis in a household with a newborn**: antibiotic prophylaxis for all household members; make sure the mother received dTpa in pregnancy next time.\n- **Pneumonia cluster in office workers**: Legionella from a cooling tower. **Pneumonia in a keen gardener**: *L. longbeachae*, negative urinary antigen.\n- **Fever, rash and polyarthritis after a trip to regional Australia**: Ross River virus."
+        }
+      ],
+      "keyPoints": [
+        "Exclusion rules come from Staying Healthy (NHMRC) and state tables; PHUs can change them in outbreaks.",
+        "Pertussis: exclude until 5 days of antibiotics or 21 days after cough onset; azithromycin first-line.",
+        "Pertussis prophylaxis targets households with infants under 6 months or women in late pregnancy; dTpa every pregnancy.",
+        "Gastroenteritis: exclude 24 hours after last episode; food handlers 48 hours.",
+        "Hepatitis A: exclude until 7 days after jaundice; hepatitis B, C and HIV: no exclusion.",
+        "Legionella urinary antigen misses L. longbeachae (potting mix); send sputum PCR.",
+        "Ross River virus: fever, rash, polyarthritis; diagnosed by serology, notifiable."
+      ],
+      "redFlags": [
+        "Cough with apnoea or cyanosis in a young infant: pertussis; admit.",
+        "Bloody diarrhoea in a child: STEC; watch for haemolytic uraemic syndrome (pallor, oliguria, low platelets).",
+        "Listeria in pregnancy: fever or flu-like illness can cause miscarriage or stillbirth; blood cultures and treat.",
+        "Confusion or seizures with fever after mosquito exposure: arboviral encephalitis (MVE, JE)."
+      ],
+      "contrast": [
+        {
+          "aspect": "Exclusion rules",
+          "india": "Schools usually decide informally; national written exclusion periods are less commonly used.",
+          "australia": "National written guidance (Staying Healthy) with specific periods; PHUs vary them in outbreaks."
+        },
+        {
+          "aspect": "TB care",
+          "india": "RNTCP/NTEP with DOTS, a high-burden setting.",
+          "australia": "Low-incidence country; state TB services give free treatment to anyone, including non-Medicare patients, and screen contacts."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Pertussis exclusion period?",
+          "back": "Until 5 days of appropriate antibiotics, or 21 days from cough onset if untreated."
+        },
+        {
+          "front": "First-line antibiotic for pertussis, including in young infants?",
+          "back": "Azithromycin."
+        },
+        {
+          "front": "Hepatitis A exclusion period?",
+          "back": "Until 7 days after the onset of jaundice."
+        },
+        {
+          "front": "Chickenpox exclusion period?",
+          "back": "Until all blisters have crusted (at least 5 days after rash onset)."
+        },
+        {
+          "front": "Why can the Legionella urinary antigen be negative in a gardener with legionnaires' disease?",
+          "back": "It detects only L. pneumophila serogroup 1, not L. longbeachae from potting mix."
+        },
+        {
+          "front": "Work exclusion for a food handler with gastroenteritis?",
+          "back": "Until 48 hours after symptoms stop (PHU may require clearance for some organisms)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "notifiable-diseases--outbreaks-and-exclusion--q1",
+          "discipline": "population-health",
+          "topic": "notifiable-diseases",
+          "difficulty": "foundation",
+          "stem": "A 4-year-old girl who attends childcare in Canberra is diagnosed with pertussis confirmed by nasopharyngeal PCR. She has had a paroxysmal cough for 6 days. Azithromycin is started today.\n\nWhen can she return to childcare?",
+          "options": [
+            "After 5 days of azithromycin",
+            "Tomorrow, once she has had one dose",
+            "When her cough has completely resolved",
+            "After a negative repeat PCR",
+            "After 21 days of antibiotics"
+          ],
+          "answer": 0,
+          "explanation": "The standard exclusion for pertussis is until the child has had **5 days of an appropriate antibiotic** (such as azithromycin), or, if untreated, **21 days from the onset of cough**. After 5 days of treatment she is no longer considered infectious, even though the cough may persist for weeks.\n\nWaiting for the cough to settle would exclude her for months unnecessarily. Clearance PCR is not used. The PHU will also consider whether any contacts at childcare or home are high risk, such as infants under 6 months or women in late pregnancy, who need prophylaxis.",
+          "whyWrong": [
+            "",
+            "One dose is not enough to make her non-infectious.",
+            "The cough can last weeks to months after she stops being infectious.",
+            "Repeat PCR is not used to clear children to return.",
+            "There is no requirement for 21 days of antibiotics; 21 days applies to untreated cases, from cough onset."
+          ],
+          "tags": [
+            "pertussis",
+            "exclusion",
+            "childcare"
+          ]
+        },
+        {
+          "id": "notifiable-diseases--outbreaks-and-exclusion--q2",
+          "discipline": "population-health",
+          "topic": "notifiable-diseases",
+          "difficulty": "core",
+          "stem": "A 34-year-old woman brings her 5-week-old son to a GP in Newcastle. Her 7-year-old daughter was diagnosed with pertussis yesterday. The baby is well, feeding normally and has not yet had any vaccinations. The mother did not receive dTpa during pregnancy.\n\nWhat is the most appropriate management for the baby?",
+          "options": [
+            "Reassure and give his 6-week vaccines at the usual time",
+            "Give his first pertussis-containing vaccine today and no antibiotics",
+            "Start azithromycin prophylaxis for the baby and the rest of the household",
+            "Admit him to hospital for observation",
+            "Arrange nasopharyngeal PCR and treat only if positive"
+          ],
+          "answer": 2,
+          "explanation": "Young infants have the highest risk of severe pertussis and death. A household containing an **infant under 6 months** is a high-priority setting for **antibiotic prophylaxis**, so the baby and all household contacts should receive **azithromycin** (safe in young infants, and preferred over erythromycin, which is linked to pyloric stenosis).\n\nHis first pertussis-containing vaccine can be given from **6 weeks** (the NIP allows it from 6 weeks) and should not be delayed, but a first dose will not protect him quickly enough. Waiting for PCR delays protection. A well baby does not need admission, but parents should know to present urgently with coughing spells, apnoea or colour change.",
+          "whyWrong": [
+            "Reassurance alone leaves a highly vulnerable infant unprotected after exposure.",
+            "One vaccine dose gives little immediate protection; prophylaxis is needed.",
+            "",
+            "A well infant does not need admission; safety-netting and prophylaxis are appropriate.",
+            "Waiting for a PCR result delays prophylaxis in a high-risk contact."
+          ],
+          "ausPearl": "dTpa is recommended in every pregnancy, ideally between 20 and 32 weeks, to protect the newborn through maternal antibodies.",
+          "tags": [
+            "pertussis",
+            "prophylaxis",
+            "infant"
+          ]
+        },
+        {
+          "id": "notifiable-diseases--outbreaks-and-exclusion--q3",
+          "discipline": "population-health",
+          "topic": "notifiable-diseases",
+          "difficulty": "exam",
+          "stem": "A 68-year-old retired man in Adelaide presents with fever, confusion, diarrhoea and a right lower lobe consolidation. He spends most days in his garden and recently spread new potting mix. His Legionella urinary antigen test is negative.\n\nWhat is the most appropriate next step to confirm the likely diagnosis?",
+          "options": [
+            "Accept the negative result and treat as pneumococcal pneumonia",
+            "Send sputum (or lower respiratory sample) for Legionella PCR",
+            "Repeat the urinary antigen in 48 hours",
+            "Order a CT chest",
+            "Test serum for Legionella pneumophila serogroup 1 antibodies only"
+          ],
+          "answer": 1,
+          "explanation": "Gardening with **potting mix** is the classic exposure for ***Legionella longbeachae***, which causes a substantial share of legionellosis in Australia. The **urinary antigen detects only *L. pneumophila* serogroup 1**, so it is negative in *L. longbeachae* infection. Confirm with **Legionella PCR** (and culture) on sputum or another lower respiratory sample.\n\nConfusion, diarrhoea and hyponatraemia are typical of Legionnaires' disease. Treat empirically with atypical cover (azithromycin, per eTG severe CAP regimens) while awaiting results. Legionellosis is notifiable, and the PHU may investigate the source.",
+          "whyWrong": [
+            "A negative urinary antigen does not exclude L. longbeachae.",
+            "",
+            "Repeating the same test will still miss L. longbeachae.",
+            "CT does not identify the organism.",
+            "Testing only for L. pneumophila serogroup 1 misses L. longbeachae."
+          ],
+          "ausPearl": "Australian potting mix bags carry a health warning about Legionella; gardeners should wear gloves and a mask and wet the mix before use.",
+          "tags": [
+            "legionella",
+            "pneumonia",
+            "potting mix"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "notifiable-diseases--sti-bbv-and-partner-notification",
+      "title": "STIs, blood-borne viruses and partner notification",
+      "minutes": 16,
+      "objectives": [
+        "Identify which STIs and blood-borne viruses are notifiable",
+        "Treat chlamydia, gonorrhoea and early syphilis using Australian STI guideline regimens",
+        "Conduct partner notification, including patient-initiated and provider-assisted methods",
+        "Explain the northern Australia syphilis outbreak and syphilis testing in pregnancy"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The STI and BBV landscape",
+          "body": "**Notifiable in all states**: chlamydia, gonorrhoea, syphilis (infectious and congenital), HIV, hepatitis B and hepatitis C. Donovanosis is notifiable and now very rare. Laboratories notify most of these, but doctors may be asked for enhanced data (for example, sex of partners, Aboriginal status, where acquired).\n\nKey Australian epidemiology:\n\n- **Chlamydia** is the most commonly notified bacterial STI, concentrated in people aged 15 to 29.\n- **Gonorrhoea** has risen, particularly among gay, bisexual and other men who have sex with men and in remote Aboriginal communities; antimicrobial resistance is a growing concern.\n- **Infectious syphilis** has increased sharply. An outbreak that began in northern Queensland in 2011 has spread through remote and regional Aboriginal and Torres Strait Islander communities across Queensland, the NT, WA and SA, and **congenital syphilis** deaths have occurred. Syphilis has also increased among urban heterosexual women and men who have sex with men.\n- **HIV**: new diagnoses have fallen with treatment as prevention and **PrEP** (PBS-listed), but late diagnosis remains a problem, particularly in heterosexual people and those born overseas.\n- **Hepatitis C**: **direct-acting antivirals** have been on the PBS since 2016 with no restrictions on disease stage, and can be prescribed by GPs. Australia aims to eliminate hepatitis C as a public health threat.\n- **Hepatitis B**: most people living with chronic hepatitis B in Australia were born overseas (Asia-Pacific, Africa) or are Aboriginal and Torres Strait Islander people; many are undiagnosed.\n\nThe main guides: the **Australian STI Management Guidelines for use in primary care** (ASHM) and the **Australasian Contact Tracing Guidelines**."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Testing and treatment essentials",
+          "body": "**Testing**\n\n- Chlamydia and gonorrhoea: **NAAT (PCR)** on first-pass urine (men), self-collected vaginal swab (women), plus throat and anal swabs according to sexual practices.\n- For gonorrhoea, also take a **culture swab before treatment** when possible, to test antibiotic susceptibility.\n- Syphilis: serology (treponemal EIA/CLIA screening test, then TPPA and RPR); PCR of any ulcer.\n- HIV: 4th-generation antigen-antibody test (window period about 6 weeks).\n- Hepatitis B: HBsAg, anti-HBs, anti-HBc. Hepatitis C: antibody, then **HCV RNA** to confirm current infection.\n\n**First-line treatments (Australian STI guidelines; confirm current regimens)**\n\n| Infection | Treatment |\n|---|---|\n| Uncomplicated chlamydia | **Doxycycline 100 mg twice daily for 7 days** (azithromycin 1 g stat is an alternative, e.g. in pregnancy) |\n| Uncomplicated gonorrhoea | **Ceftriaxone 500 mg IM** with **azithromycin 1 g orally**, as a single visit |\n| Early (infectious) syphilis | **Benzathine benzylpenicillin 2.4 million units (1.8 g) IM**, single dose |\n| Late latent syphilis | Benzathine benzylpenicillin weekly for 3 doses |\n\n- **Test of cure** for gonorrhoea (particularly pharyngeal) and for chlamydia in pregnancy; **retest at 3 months** for reinfection after chlamydia and gonorrhoea.\n- Avoid sex for 7 days after treatment and until partners are treated.\n- Syphilis follow-up with serial RPR titres to confirm response.\n\n**Syphilis in pregnancy**\n\n- All women are tested at the first antenatal visit. In outbreak regions (and for women at higher risk) testing is repeated at 28 weeks, 36 weeks, delivery and 6 weeks postpartum; national guidance now recommends more than one test in pregnancy for many women, so check local protocols.\n- Treat with benzathine benzylpenicillin; there is no substitute that reliably prevents congenital syphilis."
+        },
+        {
+          "kind": "application",
+          "heading": "Partner notification (contact tracing)",
+          "body": "**Partner notification** is the process of informing sexual partners so they can be tested and treated. It breaks the chain of transmission and prevents reinfection of your patient. In Australia the **diagnosing clinician is responsible** for starting it, with support from sexual health services and PHU contact tracers.\n\n**How far back to trace** (Australasian Contact Tracing Guidelines, approximate):\n\n| Infection | Look-back period |\n|---|---|\n| Chlamydia | 6 months |\n| Gonorrhoea | 2 months |\n| Infectious syphilis | 3 months plus duration of symptoms (primary); longer for secondary and early latent |\n| HIV | back to the likely time of infection or the last negative test |\n\n**Methods**\n\n- **Patient-initiated**: the patient tells their partners, supported by written information or anonymous SMS or email services such as **Let Them Know**.\n- **Provider-initiated**: with the patient's consent, a clinician or contact tracer notifies partners **without revealing the index patient's identity**.\n- **Public health unit assistance**: for HIV, syphilis and complex situations.\n\n**Patient-delivered partner therapy** (giving the patient medication or a script for the partner, most often for chlamydia) is permitted in some states and not others; follow local guidance.\n\n**HIV-specific points**\n\n- Treatment of people with HIV to an undetectable viral load prevents sexual transmission (**U = U**).\n- **Post-exposure prophylaxis (PEP)** should start as soon as possible and within **72 hours** of exposure.\n- **PrEP** is available on the PBS for people at risk.\n- A person who knowingly places others at risk and does not respond to counselling may be managed under state public health \"management of people with HIV who place others at risk\" frameworks, starting with support and counselling and escalating only if needed. This is handled by the PHU, not by the individual doctor telling partners without consent.\n\n**Confidentiality**: you cannot disclose an index patient's identity to partners without consent. If a patient refuses to tell a known partner who is at risk, involve the PHU, which has legal powers and expertise; this is safer than breaching confidentiality yourself."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Chlamydia first-line in Australia: **doxycycline for 7 days** (azithromycin in pregnancy or when adherence is a concern).\n- Gonorrhoea: **ceftriaxone 500 mg IM plus azithromycin 1 g**; take a culture first.\n- Early syphilis: single dose **benzathine benzylpenicillin 2.4 MU IM**.\n- The best answer on partner notification usually involves **the patient's consent** and **anonymous notification** support; direct disclosure of the patient's identity is wrong.\n- Remember the **3-month retest** after chlamydia or gonorrhoea.\n- Syphilis in a pregnant woman from an outbreak region: think **repeat testing through pregnancy** and treat promptly.\n- Hepatitis C: GP can prescribe **DAAs** on the PBS; confirm viraemia with RNA first."
+        }
+      ],
+      "keyPoints": [
+        "Chlamydia, gonorrhoea, syphilis, HIV and hepatitis B and C are notifiable nationally.",
+        "Chlamydia: doxycycline 100 mg twice daily for 7 days; retest at 3 months.",
+        "Gonorrhoea: ceftriaxone 500 mg IM plus azithromycin 1 g; culture before treatment; test of cure for pharyngeal infection.",
+        "Early syphilis: benzathine benzylpenicillin 2.4 million units IM single dose.",
+        "Northern Australia syphilis outbreak since 2011: repeat syphilis testing in pregnancy in affected regions.",
+        "The diagnosing clinician starts partner notification; never reveal the index patient's identity without consent.",
+        "HIV: PEP within 72 hours; PrEP on PBS; U = U.",
+        "Hepatitis C DAAs are PBS-listed and GP-prescribable."
+      ],
+      "redFlags": [
+        "Syphilis in pregnancy: risk of stillbirth and congenital syphilis; treat urgently and follow up closely.",
+        "Pelvic pain, fever or cervical motion tenderness with an STI: PID; treat promptly to protect fertility.",
+        "Disseminated gonococcal infection: fever, pustular skin lesions, tenosynovitis or septic arthritis.",
+        "Painless genital ulcer or new widespread rash including palms and soles: think syphilis."
+      ],
+      "contrast": [
+        {
+          "aspect": "Chlamydia treatment",
+          "india": "Azithromycin 1 g stat is widely used as first-line.",
+          "australia": "Doxycycline 7 days is first-line for uncomplicated chlamydia; azithromycin is reserved for pregnancy or adherence concerns."
+        },
+        {
+          "aspect": "Partner notification",
+          "india": "Informal and often left to the patient; syndromic management common.",
+          "australia": "Diagnosing clinician's responsibility, supported by anonymous tools (Let Them Know) and PHU contact tracers."
+        },
+        {
+          "aspect": "Hepatitis C treatment",
+          "india": "DAAs available through the National Viral Hepatitis Control Programme at designated centres.",
+          "australia": "PBS-listed DAAs, unrestricted by fibrosis stage, prescribable by GPs since 2016."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "First-line treatment for uncomplicated chlamydia (Australian STI guidelines)?",
+          "back": "Doxycycline 100 mg orally twice daily for 7 days."
+        },
+        {
+          "front": "First-line treatment for uncomplicated gonorrhoea?",
+          "back": "Ceftriaxone 500 mg IM plus azithromycin 1 g orally, single visit."
+        },
+        {
+          "front": "Treatment of early (infectious) syphilis?",
+          "back": "Benzathine benzylpenicillin 2.4 million units (1.8 g) IM single dose."
+        },
+        {
+          "front": "When should people treated for chlamydia or gonorrhoea be retested?",
+          "back": "At 3 months, to detect reinfection."
+        },
+        {
+          "front": "Look-back period for chlamydia partner notification?",
+          "back": "6 months."
+        },
+        {
+          "front": "HIV PEP must start within...?",
+          "back": "72 hours of exposure, and as early as possible."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "notifiable-diseases--sti-bbv-and-partner-notification--q1",
+          "discipline": "population-health",
+          "topic": "notifiable-diseases",
+          "difficulty": "foundation",
+          "stem": "A 21-year-old woman attends a GP in Geelong for an STI check. Her self-collected vaginal swab is positive for Chlamydia trachomatis on NAAT. She is not pregnant, has no symptoms, and has had two male partners in the last 4 months.\n\nWhat is the most appropriate treatment?",
+          "options": [
+            "Amoxicillin 500 mg three times daily for 7 days",
+            "Ceftriaxone 500 mg IM single dose",
+            "Metronidazole 400 mg twice daily for 7 days",
+            "No treatment unless symptoms develop",
+            "Doxycycline 100 mg twice daily for 7 days"
+          ],
+          "answer": 4,
+          "explanation": "The Australian STI Management Guidelines recommend **doxycycline 100 mg twice daily for 7 days** as first-line for uncomplicated chlamydia, because it is more effective than single-dose azithromycin, particularly for rectal infection (which often coexists in women). Azithromycin 1 g stat is used in pregnancy or when adherence is a concern.\n\nShe should avoid sex for 7 days after starting treatment and until partners are treated, start **partner notification** for partners in the last **6 months** (both partners here), and have a **retest at 3 months** for reinfection. Chlamydia is notifiable; the laboratory notifies, but you should tell her.",
+          "whyWrong": [
+            "Amoxicillin is not a first-line treatment for chlamydia outside specific pregnancy regimens.",
+            "Ceftriaxone treats gonorrhoea, not chlamydia.",
+            "Metronidazole treats trichomonas and bacterial vaginosis, not chlamydia.",
+            "Asymptomatic chlamydia still causes PID, infertility and transmission, so it needs treatment.",
+            ""
+          ],
+          "tags": [
+            "chlamydia",
+            "sti treatment",
+            "doxycycline"
+          ]
+        },
+        {
+          "id": "notifiable-diseases--sti-bbv-and-partner-notification--q2",
+          "discipline": "population-health",
+          "topic": "notifiable-diseases",
+          "difficulty": "core",
+          "stem": "A 28-year-old man in Brisbane is diagnosed with urethral gonorrhoea on NAAT. He has had three female partners in the past 6 weeks and is embarrassed to contact them.\n\nWhat is the most appropriate approach to partner notification?",
+          "options": [
+            "Contact his partners yourself and tell them he has gonorrhoea",
+            "Offer anonymous notification (for example, Let Them Know or a contact tracer) with his consent",
+            "Advise him that notification is optional and entirely his choice",
+            "Ask the laboratory to contact his partners",
+            "Only notify partners who have symptoms"
+          ],
+          "answer": 1,
+          "explanation": "Partner notification is the **diagnosing clinician's responsibility** to start. For gonorrhoea the look-back period is about **2 months**, so all three partners need testing and treatment. Where a patient feels embarrassed, offer **anonymous options**: an online SMS or email service such as **Let Them Know**, or **provider-initiated notification** by a clinician or sexual health contact tracer, which does not reveal his identity.\n\nPartners are often asymptomatic (especially women with cervical gonorrhoea), so limiting notification to symptomatic partners misses most infections. Disclosing his diagnosis without consent breaches confidentiality.",
+          "whyWrong": [
+            "Revealing his identity and diagnosis without consent breaches confidentiality.",
+            "",
+            "Partner notification is strongly recommended and the clinician should actively support it.",
+            "Laboratories notify the PHU; they do not contact partners.",
+            "Most infected partners, especially women, are asymptomatic."
+          ],
+          "tags": [
+            "partner notification",
+            "gonorrhoea",
+            "confidentiality"
+          ]
+        },
+        {
+          "id": "notifiable-diseases--sti-bbv-and-partner-notification--q3",
+          "discipline": "population-health",
+          "topic": "notifiable-diseases",
+          "difficulty": "exam",
+          "stem": "A 19-year-old Aboriginal woman from a community in north-west Queensland is 30 weeks pregnant. Her first-trimester syphilis serology was negative. Repeat serology today shows a reactive treponemal test and RPR 1:32. She has no symptoms.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Repeat serology in 4 weeks to confirm",
+            "Oral amoxicillin for 14 days",
+            "Benzathine benzylpenicillin IM, notify, and arrange partner treatment and close fetal follow-up",
+            "Oral doxycycline for 14 days",
+            "Delay treatment until after delivery to avoid a reaction in pregnancy"
+          ],
+          "answer": 2,
+          "explanation": "A negative early test and now a reactive treponemal test with **RPR 1:32** indicates **new, infectious syphilis in pregnancy**. The ongoing **syphilis outbreak** in northern and central Australia (since 2011) is why women in affected regions have **repeat testing through pregnancy**. Untreated, it can cause stillbirth, preterm birth and congenital syphilis.\n\nTreat promptly with **benzathine benzylpenicillin** IM, the only reliable treatment in pregnancy; her negative test earlier in the pregnancy dates this as early syphilis, so the early syphilis regimen applies (follow specialist advice on any extra dose in pregnancy). Involve obstetric and sexual health specialists, notify, treat partners to prevent reinfection, monitor RPR, arrange fetal assessment, and plan neonatal evaluation. A Jarisch-Herxheimer reaction may occur but is not a reason to delay.",
+          "whyWrong": [
+            "Delay risks fetal infection; the results already indicate new infection.",
+            "Amoxicillin is not a reliable treatment for syphilis in pregnancy.",
+            "",
+            "Doxycycline is contraindicated in pregnancy and does not reliably treat the fetus.",
+            "Delaying treatment risks congenital syphilis and stillbirth."
+          ],
+          "ausPearl": "Congenital syphilis cases and deaths linked to the northern Australia outbreak prompted wider national recommendations for repeat syphilis testing in pregnancy.",
+          "tags": [
+            "syphilis",
+            "pregnancy",
+            "aboriginal health"
+          ]
+        }
+      ]
+    }
+  ]
+}

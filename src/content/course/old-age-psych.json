@@ -1,0 +1,748 @@
+{
+  "topic": "old-age-psych",
+  "intro": "Old age psychiatry covers dementia, its behavioural and psychological symptoms, late-life depression and psychosis, and how to tell them apart from delirium. With an ageing population, these are everyday problems for Australian interns and GPs, and the AMC tests safe prescribing in older people, culturally appropriate cognitive screening, restrictive practice rules in aged care, and planning ahead while capacity remains.",
+  "lessons": [
+    {
+      "id": "old-age-psych--dementia-diagnosis",
+      "title": "Dementia: types, screening and diagnosis",
+      "minutes": 20,
+      "objectives": [
+        "Distinguish delirium, dementia and depression (pseudodementia) at the bedside",
+        "Choose the right cognitive screening tool, including RUDAS and KICA for diverse populations",
+        "Order the standard work-up for reversible causes",
+        "Recognise the clinical patterns of Alzheimer's, vascular, Lewy body and frontotemporal dementia"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Dementia in Australia",
+          "body": "More than 400,000 Australians live with dementia, and the number is projected to roughly double by the 2050s as the population ages. Dementia is the **second leading cause of death in Australia overall and the leading cause of death for women**. It is also a major cause of disability and of admission to residential aged care. Rates are higher among Aboriginal and Torres Strait Islander people, and younger-onset dementia (before 65) affects tens of thousands of Australians.\n\nDementia is a syndrome of **acquired, progressive decline in cognition** (memory, language, executive function, visuospatial skills, attention) that is severe enough to **interfere with independence in everyday activities**. Mild cognitive impairment (MCI) is decline beyond normal ageing but without loss of independence; some people with MCI progress to dementia."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "The main types",
+          "body": "| Type | Share | Pathology and course |\n|---|---|---|\n| **Alzheimer's disease** | Most common (about 50 to 70%) | Amyloid plaques and tau neurofibrillary tangles, starting in the hippocampus and medial temporal lobe; cholinergic deficit. Insidious, gradual decline. |\n| **Vascular dementia** | Second most common | Multiple infarcts or small-vessel disease. **Stepwise** decline, focal signs, vascular risk factors; executive slowing prominent. Often mixed with Alzheimer's. |\n| **Dementia with Lewy bodies** | Common | Alpha-synuclein Lewy bodies in the cortex. Fluctuating cognition, **visual hallucinations**, **parkinsonism**, **REM sleep behaviour disorder**, **severe antipsychotic sensitivity**. |\n| **Frontotemporal dementia** | Common cause of younger-onset dementia | Frontal and temporal atrophy (tau or TDP-43). **Behavioural variant**: disinhibition, apathy, loss of empathy, compulsive behaviours, dietary change; or **language variants** (primary progressive aphasia). Memory relatively preserved early. |\n| Others | | Parkinson's disease dementia, alcohol-related brain damage, normal pressure hydrocephalus, Huntington's disease, CJD (rapid progression with myoclonus) |\n\nRisk factors include age, family history, APOE e4, and **modifiable factors** such as hypertension, diabetes, smoking, physical inactivity, hearing loss, depression, social isolation, alcohol and low education. Managing these reduces risk."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "History and examination",
+          "body": "**Always get a collateral history** from someone who knows the person well: people with dementia often lack insight, while people with depression often complain loudly about their memory.\n\n- **Alzheimer's**: early short-term memory loss (repeating questions, misplacing items, forgetting recent events), then word-finding difficulty, getting lost, trouble managing money and medications.\n- **Vascular**: stepwise decline after strokes, slowed thinking, gait disturbance, urinary symptoms, focal neurological signs.\n- **Lewy body**: fluctuating attention and alertness, well-formed visual hallucinations (people, animals), parkinsonism, falls, acting out dreams. The \"one-year rule\": if dementia starts before or within one year of parkinsonism, think Lewy body dementia; if it develops after years of established Parkinson's disease, it is Parkinson's disease dementia.\n- **Frontotemporal**: a man in his 50s or 60s with new disinhibition, inappropriate comments, overspending, sweet food cravings, apathy, and loss of insight; often misdiagnosed as depression or a midlife crisis.\n\nExamine for focal signs, parkinsonism, gait, primitive reflexes, hearing and vision (sensory loss mimics and worsens cognitive impairment), and signs of vascular disease, alcohol use or hypothyroidism. Assess **function**: basic and instrumental activities of daily living, driving, and safety at home."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Screening tools and the reversible-cause work-up",
+          "body": "**Cognitive screening tools** (screening, not diagnostic on their own):\n\n| Tool | Notes |\n|---|---|\n| **MMSE** | Scored out of 30; lower scores suggest impairment, but it is affected by education and language and is weak for executive function. Used for PBS criteria and tracking. |\n| **MoCA** | Scored out of 30; more sensitive for MCI and executive dysfunction; a score below 26 is commonly used as abnormal (with an education adjustment). |\n| **RUDAS** (Rowland Universal Dementia Assessment Scale) | Developed in Australia for **culturally and linguistically diverse** people; less affected by education and language; used with an interpreter. |\n| **KICA-Cog** (Kimberley Indigenous Cognitive Assessment) | Developed for **Aboriginal and Torres Strait Islander people in remote and rural** areas; culturally appropriate. |\n| **GPCOG** | Brief screen designed for general practice, with an informant component. |\n\n**Blood tests to exclude reversible or contributing causes**: FBC, **UEC, calcium**, LFTs, **glucose**, **TSH**, **B12 and folate**; **syphilis serology and HIV** where risk factors or clinical suspicion exist.\n\n**Neuroimaging**: **CT or MRI brain** to look for tumour, subdural haematoma, stroke, normal pressure hydrocephalus and patterns of atrophy. Further tests (FDG-PET, CSF biomarkers, EEG for CJD, neuropsychological testing) are specialist-directed.\n\nAlso review **medications** (anticholinergics, benzodiazepines, opioids and sedatives commonly worsen cognition), alcohol use, hearing and vision, and screen for **depression**."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Delirium vs dementia vs depression",
+          "body": "| Feature | Delirium | Dementia | Depression (\"pseudodementia\") |\n|---|---|---|---|\n| Onset | Acute (hours to days) | Insidious (months to years) | Weeks to months, often dated |\n| Course | **Fluctuating**, worse at night | Slowly progressive (stepwise in vascular) | Persistent low mood |\n| Attention | **Impaired** | Usually normal early | Poor effort, concentration |\n| Consciousness | Altered | Clear (until late) | Clear |\n| Memory complaint | Patient unaware | Relatives more concerned than patient; patient minimises | **Patient complains** of poor memory, says \"I don't know\" |\n| Test performance | Inattentive | Tries, makes errors, confabulates | Gives up, \"don't know\" answers |\n| Reversible? | Usually, with cause treated | Generally not | Yes, with treatment |\n\nThese overlap: delirium is far more likely in people with dementia, and depression is common in early dementia. A person with dementia who suddenly worsens has **delirium until proven otherwise**. Depression in late life can be a prodrome of dementia."
+        },
+        {
+          "kind": "management",
+          "heading": "Breaking the diagnosis",
+          "body": "The GP often leads the diagnostic process, with referral to a **memory clinic, geriatrician, psychogeriatrician or neurologist** for atypical, younger-onset, rapidly progressive or uncertain cases. Deliver the diagnosis honestly and compassionately, with family present if the person wishes, and link them to **Dementia Australia** (the National Dementia Helpline) for education and support. Management and planning are covered in the next lesson."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- A person from a non-English-speaking background needing cognitive screening: **RUDAS** with an interpreter.\n- An Aboriginal person in a remote community: **KICA-Cog**.\n- Visual hallucinations, parkinsonism and fluctuation: **Lewy body**; avoid antipsychotics.\n- A 58-year-old with disinhibition and preserved memory: **frontotemporal dementia**.\n- Complains of memory loss and says \"I don't know\" to questions: consider **depression**.\n- The standard dementia work-up includes **B12, folate, TSH, calcium, glucose** and **neuroimaging**."
+        }
+      ],
+      "keyPoints": [
+        "Dementia is an acquired progressive cognitive decline that impairs independence; it is Australia's leading cause of death in women.",
+        "Delirium is acute and fluctuating with impaired attention; dementia is gradual with memory first; depression can mimic dementia.",
+        "MMSE and MoCA are common screens; RUDAS suits CALD patients and KICA-Cog suits remote Aboriginal patients.",
+        "Work-up: FBC, UEC, calcium, LFTs, glucose, TSH, B12, folate, syphilis/HIV where relevant, and CT or MRI brain.",
+        "Lewy body dementia: fluctuation, visual hallucinations, parkinsonism, REM sleep behaviour disorder, antipsychotic sensitivity.",
+        "Frontotemporal dementia presents younger with behaviour or language change and relatively preserved memory.",
+        "Always take a collateral history and review medications that impair cognition."
+      ],
+      "redFlags": [
+        "Rapid progression over weeks to months (consider CJD, tumour, autoimmune encephalitis)",
+        "Sudden worsening in a person with dementia (delirium)",
+        "Onset before 65 years",
+        "Focal neurological signs, headache or recent fall (subdural haematoma, tumour)",
+        "Triad of gait disturbance, urinary incontinence and cognitive decline (normal pressure hydrocephalus)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Cognitive screening in diverse populations",
+          "india": "MMSE used widely, including translated versions.",
+          "australia": "RUDAS for culturally and linguistically diverse patients; KICA-Cog for remote Aboriginal and Torres Strait Islander people."
+        },
+        {
+          "aspect": "Diagnostic pathway",
+          "india": "Often diagnosed late by specialists or not formally diagnosed.",
+          "australia": "GP-led assessment with referral to memory clinics or geriatricians; Dementia Australia provides post-diagnostic support."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Cognitive screening tool designed for culturally and linguistically diverse patients in Australia?",
+          "back": "RUDAS (Rowland Universal Dementia Assessment Scale)."
+        },
+        {
+          "front": "Tool designed for Aboriginal people in remote areas?",
+          "back": "KICA-Cog (Kimberley Indigenous Cognitive Assessment)."
+        },
+        {
+          "front": "Standard blood tests to exclude reversible causes of dementia?",
+          "back": "FBC, UEC, calcium, LFTs, glucose, TSH, B12, folate (plus syphilis/HIV where relevant)."
+        },
+        {
+          "front": "Four core features of dementia with Lewy bodies?",
+          "back": "Fluctuating cognition, visual hallucinations, parkinsonism, REM sleep behaviour disorder."
+        },
+        {
+          "front": "Triad of normal pressure hydrocephalus?",
+          "back": "Gait disturbance, urinary incontinence, cognitive decline."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "old-age-psych--dementia-diagnosis--q1",
+          "discipline": "mental-health",
+          "topic": "old-age-psych",
+          "difficulty": "foundation",
+          "stem": "A 74-year-old woman who migrated from Vietnam 30 years ago is brought to a GP in western Sydney by her daughter because of forgetfulness for a year. She speaks limited English and had four years of formal schooling.\n\nWhich cognitive screening tool is most appropriate?",
+          "options": [
+            "Mini-Mental State Examination in English",
+            "Montreal Cognitive Assessment in English",
+            "Kimberley Indigenous Cognitive Assessment",
+            "Rowland Universal Dementia Assessment Scale with a professional interpreter",
+            "Clock drawing test alone"
+          ],
+          "answer": 3,
+          "explanation": "The **RUDAS** was developed in Australia specifically for **culturally and linguistically diverse** populations. It is less affected by education level and language than the MMSE or MoCA, and should be administered with a **professional interpreter** (not a family member, who may unintentionally prompt or filter answers).\n\nThe MMSE and MoCA are heavily influenced by education, literacy and language, so this woman might score low without having dementia. KICA-Cog was designed for Aboriginal and Torres Strait Islander people in remote areas. A clock drawing test alone is not enough for assessment. Screening is only one part: a collateral history, functional assessment, bloods and imaging complete the work-up.",
+          "whyWrong": [
+            "The MMSE is strongly affected by education and language, so she could score falsely low.",
+            "The MoCA is similarly influenced by education and language.",
+            "KICA-Cog is designed for Aboriginal and Torres Strait Islander people in remote areas.",
+            "",
+            "Clock drawing alone is insufficient to assess cognition."
+          ],
+          "tags": [
+            "rudas",
+            "cognitive screening",
+            "cald"
+          ]
+        },
+        {
+          "id": "old-age-psych--dementia-diagnosis--q2",
+          "discipline": "mental-health",
+          "topic": "old-age-psych",
+          "difficulty": "core",
+          "stem": "A 76-year-old man is referred by his GP in Adelaide with a year of fluctuating confusion. His wife says some days he is almost normal and others he is very muddled. He describes seeing small children in the garden who are not there. He has developed a shuffling gait and a mild resting tremor over the past six months, and his wife says he shouts and kicks in his sleep.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Alzheimer's disease",
+            "Vascular dementia",
+            "Frontotemporal dementia",
+            "Parkinson's disease dementia",
+            "Dementia with Lewy bodies"
+          ],
+          "answer": 4,
+          "explanation": "This is **dementia with Lewy bodies**: **fluctuating cognition**, recurrent well-formed **visual hallucinations**, **parkinsonism**, and **REM sleep behaviour disorder** (acting out dreams). Cognitive symptoms began before or within a year of the parkinsonism, which distinguishes it from **Parkinson's disease dementia**, where dementia develops after years of established Parkinson's disease.\n\nThe key management point is **severe sensitivity to antipsychotics**, which can cause severe rigidity, falls, confusion, NMS-like reactions and death. Cholinesterase inhibitors (such as rivastigmine) can help cognition and hallucinations. Delirium should be excluded when fluctuation is prominent.",
+          "whyWrong": [
+            "Alzheimer's disease usually begins with memory loss and lacks early hallucinations and parkinsonism.",
+            "Vascular dementia typically shows stepwise decline and focal signs.",
+            "Frontotemporal dementia presents with behaviour or language change, not hallucinations and parkinsonism.",
+            "In Parkinson's disease dementia, motor symptoms precede dementia by more than a year.",
+            ""
+          ],
+          "tags": [
+            "lewy body dementia",
+            "hallucinations",
+            "parkinsonism"
+          ]
+        },
+        {
+          "id": "old-age-psych--dementia-diagnosis--q3",
+          "discipline": "mental-health",
+          "topic": "old-age-psych",
+          "difficulty": "exam",
+          "stem": "A 72-year-old retired teacher sees her GP in Perth, worried that her memory is failing. Over three months she has lost interest in her garden, sleeps poorly, has lost 4 kg and feels \"useless\". During cognitive testing she frequently says \"I don't know\" and gives up easily. Her husband has not noticed any memory problems in daily life.\n\nWhat is the most likely explanation for her cognitive complaints?",
+          "options": [
+            "Depression presenting with cognitive symptoms",
+            "Early Alzheimer's disease",
+            "Delirium",
+            "Vascular dementia",
+            "Mild cognitive impairment"
+          ],
+          "answer": 0,
+          "explanation": "This picture suggests **depression with cognitive symptoms** (sometimes called \"pseudodementia\"): a relatively **short, dated onset**, low mood features (anhedonia, poor sleep, weight loss, worthlessness), the **patient herself complaining** of memory problems while her husband has not noticed any, and poor effort with **\"don't know\" answers** on testing.\n\nIn dementia, by contrast, relatives usually notice problems first and the patient tends to minimise them, and on testing they try but make errors. Treat the depression and reassess cognition afterwards: cognition often improves, but late-life depression can also be an early sign of dementia, so follow-up matters.",
+          "whyWrong": [
+            "",
+            "In Alzheimer's the family usually notices first and the patient tries but makes errors.",
+            "There is no acute onset, fluctuation or inattention to suggest delirium.",
+            "There is no stepwise decline or vascular features.",
+            "MCI does not explain the prominent depressive symptoms and effortful 'don't know' answers."
+          ],
+          "tags": [
+            "pseudodementia",
+            "depression",
+            "cognition"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "old-age-psych--dementia-management-planning",
+      "title": "Dementia: treatment, support and planning ahead",
+      "minutes": 18,
+      "objectives": [
+        "Prescribe and monitor cholinesterase inhibitors and memantine appropriately",
+        "Plan early for enduring power of attorney, guardianship and advance care directives",
+        "Apply Austroads principles to driving with dementia",
+        "Connect the person and carers to Australian dementia and aged care services"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Living well with dementia",
+          "body": "There is no cure for most dementias, but good management keeps people independent and safe for longer, supports carers, and ensures that the person's own wishes guide their future care. Management has four strands: **drug treatment of cognition**, **non-drug support and risk-factor control**, **planning while capacity remains**, and **support for carers and transition to aged care** when needed."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "How the drugs work",
+          "body": "- **Cholinesterase inhibitors** (**donepezil, rivastigmine, galantamine**) reduce the breakdown of acetylcholine, partly compensating for the loss of cholinergic neurons in Alzheimer's disease. They produce modest symptomatic benefit in some people (stabilising or slightly improving cognition and function for a period) but do not stop progression.\n- **Memantine** is an NMDA-receptor antagonist that reduces glutamate-mediated excitotoxicity; it is used in moderate to severe Alzheimer's disease.\n- **Anti-amyloid monoclonal antibodies** (such as donanemab and lecanemab) remove amyloid plaques and modestly slow decline in early Alzheimer's disease, but carry a risk of brain swelling and microhaemorrhage (ARIA), require specialist selection and MRI monitoring, and have had limited or contested regulatory approval in Australia. They are not PBS-subsidised at the time of writing; check current status."
+        },
+        {
+          "kind": "management",
+          "heading": "Drug treatment",
+          "body": "**Cholinesterase inhibitors**:\n\n- Indicated for **mild to moderate Alzheimer's disease**, and also used in Lewy body dementia and Parkinson's disease dementia (rivastigmine has particular evidence). Not effective in frontotemporal dementia, and not recommended for MCI.\n- **PBS**: authority listing with criteria (a diagnosis made or confirmed by, or in consultation with, a specialist, and a baseline cognitive score such as the MMSE, with review of response for continued supply). Check the current PBS criteria.\n- **Adverse effects** are cholinergic: nausea, vomiting, diarrhoea, anorexia and weight loss, vivid dreams and insomnia, urinary frequency, and importantly **bradycardia, heart block and syncope**. Check pulse (and ECG if bradycardic or conduction disease) before starting. Caution with beta-blockers, asthma or COPD, and peptic ulcer disease. Rivastigmine is available as a patch, which reduces GI effects.\n- Review benefit and tolerability regularly and consider stopping if there is no benefit or the person reaches advanced dementia.\n\n**Memantine**: moderate to severe Alzheimer's disease; generally well tolerated (dizziness, headache, confusion, constipation); dose adjust in renal impairment.\n\n**Stop what harms cognition**: anticholinergic medications (oxybutynin, amitriptyline, first-generation antihistamines), benzodiazepines, and unnecessary sedatives. Review the overall medication burden.\n\n**Treat contributors**: hearing aids and vision correction, vascular risk factors, depression, sleep, pain, alcohol.\n\n**Non-drug support and safety**: cognitive stimulation programs and regular physical and social activity help cognition and wellbeing. Review home safety: cooking and fire risk, wandering (identification bracelets, locator devices), firearms (remove), and medication management (dose administration aids such as blister packs, supervised by family or pharmacy). Assess falls risk and nutrition, and review capacity to manage finances, since financial exploitation is common."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Planning ahead while capacity remains",
+          "body": "A dementia diagnosis is the moment to plan, because capacity will be lost. Encourage the person to put in place (names vary by state):\n\n- **Enduring power of attorney** for financial and property decisions.\n- **Enduring guardian** or equivalent (for example, medical treatment decision maker in Victoria, attorney for personal and health matters in Queensland) for health and lifestyle decisions.\n- **Advance care directive** recording values and treatment preferences, including end-of-life care, and a broader **advance care plan** discussed with family and the GP.\n- A **will**, if not already in place.\n\nCapacity is decision-specific, so a person with mild dementia can often still make these appointments. If the person has already lost capacity and no one is appointed, the guardianship tribunal can appoint a guardian or financial administrator."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Driving",
+          "body": "Under the national **Assessing Fitness to Drive** standards (Austroads), a person with dementia **does not meet the standard for an unconditional licence**. The licensing authority may grant a **conditional licence** for private vehicles, taking into account the nature of the driving task and the results of a practical assessment (often an occupational therapy driving assessment), with **regular (at least annual) review**. Commercial driving is generally not appropriate.\n\nThe person has a legal responsibility to notify the driver licensing authority. Doctors should advise them of this and document the advice. Doctors may report directly to the licensing authority if a patient continues to drive unsafely; this is **mandatory in South Australia and the Northern Territory**, and permitted and legally protected in other states."
+        },
+        {
+          "kind": "application",
+          "heading": "Services and carer support",
+          "body": "- **Dementia Australia** and its National Dementia Helpline: information, counselling, support groups and education.\n- **Dementia Support Australia**: specialist advice on behaviour changes (see BPSD lesson).\n- **My Aged Care**: the entry point to government-funded aged care. An aged care assessment determines eligibility for home support (the Support at Home program, which replaced Home Care Packages from late 2025), respite and residential aged care.\n- **Carer support**: Carer Gateway, respite (in-home, day centres, residential), and attention to carer health, since carers have high rates of depression and burnout.\n- **Allied health**: occupational therapy for home safety and aids, dietitian, physiotherapy for falls prevention.\n- **Palliative approach** in advanced dementia: focus on comfort, avoid burdensome interventions (such as feeding tubes, which do not prolong life or prevent aspiration in advanced dementia), and follow the advance care directive.\n- Elder abuse: people with dementia are vulnerable to financial, physical and psychological abuse; be alert and know local reporting pathways."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Before a cholinesterase inhibitor: **check pulse and ECG** if indicated. New syncope on donepezil: **bradycardia or heart block**.\n- New dementia diagnosis: the \"next step\" often includes **enduring power of attorney, enduring guardianship and an advance care directive** while capacity remains.\n- A man with dementia still driving: he **does not meet the unconditional standard**; he must notify the licensing authority; a conditional licence with practical assessment and annual review may be possible.\n- Feeding tubes in advanced dementia are not recommended."
+        }
+      ],
+      "keyPoints": [
+        "Donepezil, rivastigmine and galantamine give modest symptomatic benefit in mild to moderate Alzheimer's disease; memantine is for moderate to severe.",
+        "Cholinesterase inhibitors can cause bradycardia, heart block and syncope; check pulse before and during treatment.",
+        "Remove anticholinergic and sedative medicines that worsen cognition.",
+        "Plan early: enduring power of attorney, enduring guardian (or state equivalent) and advance care directive while the person has capacity.",
+        "Dementia does not meet the Austroads unconditional licence standard; a conditional licence with practical assessment and annual review may be possible.",
+        "The patient must notify the licensing authority; doctor reporting is mandatory in SA and NT.",
+        "Link to Dementia Australia, My Aged Care and carer support; take a palliative approach in advanced dementia."
+      ],
+      "redFlags": [
+        "Syncope or bradycardia on a cholinesterase inhibitor",
+        "Unsafe driving, getting lost while driving",
+        "Carer exhaustion or signs of elder abuse",
+        "Weight loss and swallowing problems in advanced dementia"
+      ],
+      "contrast": [
+        {
+          "aspect": "Planning documents",
+          "india": "Informal family decision-making; formal powers of attorney mostly for property.",
+          "australia": "Enduring power of attorney, enduring guardian (state names vary) and advance care directives encouraged at diagnosis."
+        },
+        {
+          "aspect": "Driving with dementia",
+          "india": "Rarely formally assessed or reported.",
+          "australia": "Austroads standards: no unconditional licence; conditional licence with practical assessment and annual review; doctor reporting mandatory in SA and NT."
+        },
+        {
+          "aspect": "Aged care access",
+          "india": "Care usually provided by family at home.",
+          "australia": "My Aged Care assessment for home support, respite and residential care, with government subsidy."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Three cholinesterase inhibitors used in Alzheimer's disease?",
+          "back": "Donepezil, rivastigmine, galantamine."
+        },
+        {
+          "front": "Important cardiac adverse effect of cholinesterase inhibitors?",
+          "back": "Bradycardia, heart block and syncope."
+        },
+        {
+          "front": "Mechanism of memantine?",
+          "back": "NMDA-receptor antagonist; used in moderate to severe Alzheimer's disease."
+        },
+        {
+          "front": "Which states make doctor reporting of unfit drivers mandatory?",
+          "back": "South Australia and the Northern Territory."
+        },
+        {
+          "front": "Entry point for government-funded aged care services?",
+          "back": "My Aged Care."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "old-age-psych--dementia-management-planning--q1",
+          "discipline": "mental-health",
+          "topic": "old-age-psych",
+          "difficulty": "core",
+          "stem": "A 79-year-old woman with mild Alzheimer's disease started donepezil three months ago, prescribed by her GP in Newcastle after geriatrician review. She presents after two episodes of fainting. HR 44 bpm, regular. BP 118/70 mmHg. ECG shows sinus bradycardia with a PR interval of 240 ms. She also takes metoprolol for hypertension.\n\nWhat is the most appropriate initial step?",
+          "options": [
+            "Increase donepezil to improve cognition",
+            "Withhold donepezil and review the metoprolol, with cardiac monitoring as needed",
+            "Add memantine",
+            "Arrange an EEG for possible seizures",
+            "Start fludrocortisone"
+          ],
+          "answer": 1,
+          "explanation": "Cholinesterase inhibitors increase vagal tone and can cause **bradycardia, heart block and syncope**, especially combined with **beta-blockers**. This woman has symptomatic bradycardia with first-degree heart block and two syncopal episodes. The right step is to **withhold donepezil**, review the **metoprolol** (consider an alternative antihypertensive), and monitor her heart rhythm, with cardiology input if bradycardia or conduction disease persists.\n\nThis is why pulse (and ECG if indicated) should be checked before and during treatment. Memantine does not treat syncope and she has mild disease. Seizures and orthostatic hypotension are less likely explanations given the ECG findings.",
+          "whyWrong": [
+            "Increasing the dose would worsen the bradycardia.",
+            "",
+            "Memantine is for moderate to severe disease and does not address the syncope.",
+            "The ECG shows a clear cardiac cause; seizures are less likely.",
+            "Fludrocortisone treats orthostatic hypotension, not drug-induced bradycardia."
+          ],
+          "tags": [
+            "donepezil",
+            "bradycardia",
+            "syncope"
+          ]
+        },
+        {
+          "id": "old-age-psych--dementia-management-planning--q2",
+          "discipline": "mental-health",
+          "topic": "old-age-psych",
+          "difficulty": "foundation",
+          "stem": "A 68-year-old man is diagnosed with mild Alzheimer's disease at a memory clinic in Melbourne. He lives with his wife, manages his own finances with some help, and understands the diagnosis. He asks what he should do now to prepare for the future.\n\nWhich is the most important advice at this stage?",
+          "options": [
+            "Nothing needs to be done until his dementia becomes moderate",
+            "Move into residential aged care as soon as possible",
+            "Apply to VCAT for a guardianship order",
+            "Stop driving immediately without any assessment",
+            "Arrange enduring power of attorney, appoint a medical treatment decision maker and make an advance care directive now"
+          ],
+          "answer": 4,
+          "explanation": "A new dementia diagnosis is the right time to **plan while capacity remains**, because capacity will decline over time. He should appoint an **enduring power of attorney** for financial matters, a substitute decision-maker for health and personal matters (in Victoria, a **medical treatment decision maker**, and a supportive attorney or personal matters attorney), and make an **advance care directive** that records his values and preferences, discussed with his wife and GP.\n\nA guardianship order is only needed if someone loses capacity without having made appointments. Residential care is not needed at this stage. Driving needs assessment under Austroads standards and he must notify VicRoads, but an immediate ban without assessment is not required.",
+          "whyWrong": [
+            "Delaying risks losing capacity before appointments can be made.",
+            "He is living well at home with support; residential care is not needed.",
+            "Guardianship orders are for those without capacity and without appointed decision-makers.",
+            "He must notify the licensing authority and be assessed; a conditional licence may be possible.",
+            ""
+          ],
+          "tags": [
+            "advance care planning",
+            "power of attorney",
+            "dementia"
+          ]
+        },
+        {
+          "id": "old-age-psych--dementia-management-planning--q3",
+          "discipline": "mental-health",
+          "topic": "old-age-psych",
+          "difficulty": "exam",
+          "stem": "A 77-year-old man with moderate Alzheimer's dementia (MMSE 18/30) is brought to his GP in regional South Australia by his daughter. He still drives daily to the shops, and last week got lost and was found 60 km away. He insists he is a safe driver and refuses to stop.\n\nWhat is the most appropriate action by the GP?",
+          "options": [
+            "Advise him to drive only in daylight and review in one year",
+            "Tell the daughter to hide the car keys and take no further action",
+            "Advise him he is unfit to drive, document this, and notify the driver licensing authority",
+            "Refer him for a driving assessment and allow him to continue driving meanwhile without restriction",
+            "Maintain confidentiality and take no action"
+          ],
+          "answer": 2,
+          "explanation": "Under the Austroads **Assessing Fitness to Drive** standards, a person with dementia does not meet the standard for an unconditional licence, and this man has moderate dementia with a recent episode of getting lost while driving, a clear sign that he is unsafe. The GP should advise him he is **unfit to drive**, explain the risks, and document the advice.\n\nBecause he refuses to stop, the GP should notify the licensing authority. In **South Australia (and the Northern Territory)**, doctors have a **mandatory duty** to report patients they believe are unfit to drive; elsewhere reporting is permitted and legally protected. Public safety outweighs confidentiality here.",
+          "whyWrong": [
+            "Daytime restriction does not address someone who gets lost; he is currently unsafe.",
+            "Family measures may help, but the doctor still has a duty to report in SA.",
+            "",
+            "Continuing unrestricted driving while awaiting assessment is unsafe given he got lost.",
+            "Confidentiality does not override the duty to report an unsafe driver, especially where reporting is mandatory."
+          ],
+          "ausPearl": "Doctor reporting of unfit drivers is mandatory in South Australia and the Northern Territory; in other states it is permitted and protected.",
+          "tags": [
+            "driving",
+            "austroads",
+            "dementia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "old-age-psych--bpsd",
+      "title": "Behavioural and psychological symptoms of dementia (BPSD)",
+      "minutes": 16,
+      "objectives": [
+        "Identify common BPSD and their underlying triggers",
+        "Apply a structured, non-drug-first approach to changed behaviour",
+        "Weigh the risks of antipsychotics and prescribe them safely when unavoidable",
+        "Apply Australian rules on restrictive practices in residential aged care"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "What BPSD are",
+          "body": "Up to 90% of people with dementia experience BPSD at some stage. They include **agitation and aggression**, **wandering**, **calling out and repetitive vocalisation**, **sleep-wake disturbance**, **apathy**, **depression and anxiety**, **psychotic symptoms** (delusions, often of theft; misidentifications; hallucinations), and **disinhibition** (including sexual disinhibition). BPSD cause great distress to the person and carers, are a major driver of admission to residential aged care, and are the most common reason for psychotropic prescribing in aged care.\n\nMany people prefer the term \"changed behaviours\" or \"responsive behaviours\", which reminds us that the behaviour is usually a response to something."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why behaviour changes",
+          "body": "The brain changes of dementia reduce the ability to understand the environment, communicate needs and regulate emotion. Behaviour then becomes the person's way of expressing an **unmet need** or distress. Common triggers:\n\n- **Physical**: **pain** (often under-recognised because the person cannot report it), **constipation**, **urinary retention**, **infection** (UTI, pneumonia), dehydration, hunger, sensory loss, **delirium**, and **medications** (anticholinergics, opioids, benzodiazepines).\n- **Psychological**: depression, anxiety, fear, boredom, loneliness, loss of control.\n- **Environmental**: noise, overstimulation or understimulation, unfamiliar surroundings, a change in staff or routine, being rushed during personal care (a very common trigger for aggression).\n- **Illness-specific**: psychosis in Lewy body dementia, disinhibition in frontotemporal dementia, sundowning."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Assessment",
+          "body": "A sudden change in behaviour is **delirium until proven otherwise**. Then:\n\n1. **Describe the behaviour precisely**: what, when, where, with whom, how often, and what happens before and after. The **ABC** approach (Antecedent, Behaviour, Consequence) and behaviour charts over several days help identify patterns.\n2. **Look for physical causes**: examine for pain (use a tool such as the **Abbey Pain Scale** or PAINAD for people who cannot report pain), check bowels and bladder, look for infection, review medications, and check vision, hearing and teeth. Targeted tests: urinalysis (interpret cautiously), FBC, UEC, CRP, glucose, and others as indicated.\n3. **Screen for depression**: the **Cornell Scale for Depression in Dementia** is designed for this group.\n4. **Assess the environment and care approach**: talk to carers and staff.\n5. **Assess risk** to the person and others."
+        },
+        {
+          "kind": "management",
+          "heading": "Non-drug first",
+          "body": "**Non-pharmacological approaches are first line** for almost all BPSD:\n\n- Treat the cause: **regular paracetamol for suspected pain** (a trial of analgesia can reduce agitation), relieve constipation, treat infection, remove offending drugs.\n- **Person-centred care**: know the person's life history, preferences and routines; approach calmly from the front; explain before touching; allow time for personal care; offer choices.\n- Adjust the environment: reduce noise, maintain routine, good lighting, familiar objects, safe walking areas for wandering.\n- Meaningful activity: music (including personalised music), reminiscence, exercise, pet therapy, outdoor time.\n- Support and educate carers.\n- **Dementia Support Australia** (including its Dementia Behaviour Management Advisory Service) offers free specialist advice, and Severe Behaviour Response Teams support residential aged care."
+        },
+        {
+          "kind": "management",
+          "heading": "When medication is considered",
+          "body": "Medication is considered only when there is **severe distress or serious risk of harm** (for example, aggression with risk of injury, or distressing psychosis), and non-drug measures have been tried.\n\n**Antipsychotics**:\n\n- Only modest benefit for aggression and psychosis; little or no benefit for wandering, calling out or apathy.\n- Serious harms: **increased risk of stroke and death** (about a 1.5 to 2-fold increase in mortality in older people with dementia), falls, sedation, parkinsonism, aspiration pneumonia, and accelerated cognitive decline.\n- **Risperidone is the only antipsychotic PBS-subsidised for BPSD**: for behavioural disturbance with psychotic symptoms and aggression in **Alzheimer's dementia**, when non-drug methods have failed, limited to **12 weeks**. Use the lowest dose, for the shortest time.\n- **Avoid in Lewy body dementia and Parkinson's disease** (severe sensitivity). If unavoidable, specialist advice is essential.\n- **Review regularly and attempt to taper and stop** (for example, at 12 weeks): many people have no recurrence of symptoms on withdrawal.\n\n**Other drugs**: SSRIs for depression or anxiety (citalopram has some evidence for agitation but prolongs QT). **Avoid benzodiazepines** (falls, sedation, delirium, paradoxical agitation) except very short-term in exceptional circumstances. Cholinesterase inhibitors may help psychosis in Lewy body dementia.\n\n**Consent and restrictive practices**: before starting a psychotropic for behaviour, obtain **informed consent** from the person or their substitute decision-maker. In **residential aged care**, a medicine used primarily to influence behaviour is **chemical restraint**, and together with physical restraint, seclusion, environmental and mechanical restraint it is regulated under federal aged care law as a **restrictive practice**. It must be a last resort, used with informed consent, at the lowest level, for the shortest time, with a behaviour support plan, documentation, monitoring and regular review."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Specific behaviours and what helps",
+          "body": "| Behaviour | Common drivers | Useful approaches |\n|---|---|---|\n| Sundowning (late-afternoon agitation) | Fatigue, low light, disrupted sleep-wake cycle | Daytime activity and light exposure, limit daytime napping, calm evening routine |\n| Wandering | Boredom, searching for someone or something, need to exercise, pain | Safe walking spaces, supervised walks, meaningful activity, identification; avoid restraint |\n| Resistance to personal care | Fear, pain, feeling rushed, modesty | Explain each step, same carer, flexible timing, keep covered, treat pain beforehand |\n| Calling out | Pain, loneliness, sensory loss, depression | Check needs, company, music, hearing aids |\n| Sexual disinhibition | Frontal lobe dysfunction, misidentification | Redirect, clothing adjustments, education for carers; protect other residents |\n| Apathy | Frontal and subcortical damage, depression | Structured activity; distinguish from depression (apathy lacks sadness and guilt) |\n\n**Deprescribing**: many residents stay on antipsychotics long after the original indication has passed. Regular medication reviews (for example, pharmacist-led residential medication management reviews) should identify psychotropics that can be tapered and stopped."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- A nursing home resident with new agitation: the first step is **look for a cause** (pain, constipation, retention, infection, delirium, medications), not an antipsychotic.\n- A trial of **regular paracetamol** is a legitimate answer for agitation in someone who cannot report pain.\n- If an antipsychotic is chosen: **risperidone, lowest dose, 12 weeks max under PBS, review and taper**, with consent.\n- Lewy body dementia plus hallucinations: **avoid haloperidol**.\n- Antipsychotics in dementia: **stroke and death risk**."
+        }
+      ],
+      "keyPoints": [
+        "BPSD are common and usually express an unmet need or distress.",
+        "Look first for pain, constipation, urinary retention, infection, delirium, medications and environmental triggers.",
+        "Non-drug, person-centred approaches are first line; a trial of regular paracetamol can reduce agitation.",
+        "Antipsychotics increase stroke and death risk and have modest benefit; use only for severe distress or risk.",
+        "Risperidone is the only antipsychotic PBS-subsidised for BPSD: Alzheimer's dementia, severe symptoms, up to 12 weeks.",
+        "Avoid antipsychotics in Lewy body dementia and Parkinson's disease; avoid benzodiazepines.",
+        "Chemical and physical restraint in aged care are regulated restrictive practices requiring consent, documentation and review."
+      ],
+      "redFlags": [
+        "Sudden change in behaviour (delirium)",
+        "Signs of pain, fracture or injury in a person who cannot communicate",
+        "Severe rigidity or falls after starting an antipsychotic (possible Lewy body sensitivity)",
+        "Serious aggression with risk of harm to others",
+        "Signs of abuse or neglect in care"
+      ],
+      "contrast": [
+        {
+          "aspect": "Antipsychotic use in dementia",
+          "india": "Often used readily for agitation.",
+          "australia": "Non-drug approaches first; risperidone only PBS-subsidised option, limited to 12 weeks, with consent and review."
+        },
+        {
+          "aspect": "Restraint in care homes",
+          "india": "Little formal regulation.",
+          "australia": "Chemical and physical restraint are regulated restrictive practices in residential aged care, requiring consent, a behaviour support plan and review."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "First step in a person with dementia and new agitation?",
+          "back": "Look for a cause: pain, constipation, urinary retention, infection, delirium, medications, environment."
+        },
+        {
+          "front": "Only antipsychotic PBS-subsidised for BPSD and its limit?",
+          "back": "Risperidone, for Alzheimer's dementia with psychosis and aggression, up to 12 weeks."
+        },
+        {
+          "front": "Major risks of antipsychotics in dementia?",
+          "back": "Stroke and increased mortality, plus falls, sedation, parkinsonism, aspiration."
+        },
+        {
+          "front": "Pain assessment tool for people with dementia who cannot verbalise?",
+          "back": "Abbey Pain Scale (or PAINAD)."
+        },
+        {
+          "front": "Depression screening tool for people with dementia?",
+          "back": "Cornell Scale for Depression in Dementia."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "old-age-psych--bpsd--q1",
+          "discipline": "mental-health",
+          "topic": "old-age-psych",
+          "difficulty": "foundation",
+          "stem": "An 86-year-old woman with moderate Alzheimer's dementia in a residential aged care facility in Toowoomba has become agitated over three days, especially during showering, and has hit a carer. She has not opened her bowels for five days. She grimaces when her left hip is moved. Temperature 36.8 °C.\n\nWhat is the most appropriate first step?",
+          "options": [
+            "Assess and treat pain and constipation",
+            "Start risperidone",
+            "Start oral lorazepam before showers",
+            "Transfer to a secure dementia unit",
+            "Arrange a psychogeriatric review for psychosis"
+          ],
+          "answer": 0,
+          "explanation": "New behaviour change in dementia usually signals an **unmet need**. This woman has two clear physical triggers: **constipation** (five days) and **pain** (grimacing on hip movement, which also needs examination and possibly imaging to exclude a fracture after an unwitnessed fall). Personal care such as showering often provokes aggression when the person is in pain or frightened.\n\nThe first step is to **assess and treat the causes**: examine the hip, give regular paracetamol, treat constipation, and consider delirium. Adapt the approach to personal care. Antipsychotics and benzodiazepines carry serious risks and would mask the problem without treating it.",
+          "whyWrong": [
+            "",
+            "Antipsychotics are not first line and do not treat pain or constipation.",
+            "Benzodiazepines increase falls and delirium and do not address the cause.",
+            "Moving her does not address the physical causes and may increase distress.",
+            "There is no evidence of psychosis; the triggers are physical."
+          ],
+          "tags": [
+            "bpsd",
+            "pain",
+            "constipation"
+          ]
+        },
+        {
+          "id": "old-age-psych--bpsd--q2",
+          "discipline": "mental-health",
+          "topic": "old-age-psych",
+          "difficulty": "core",
+          "stem": "An 82-year-old man with Alzheimer's dementia in a Hobart aged care facility has persistent, severe aggression with paranoid delusions that staff are stealing from him, and has injured two carers. Pain, constipation, infection and delirium have been excluded, and a behaviour support plan with non-drug strategies has not helped over six weeks. His daughter, his appointed decision-maker, agrees to a medication trial after discussion of risks.\n\nWhich is the most appropriate management?",
+          "options": [
+            "Haloperidol at a standard adult dose long term",
+            "Regular diazepam",
+            "Olanzapine long term with no review date",
+            "Risperidone at a low dose with review and plan to taper within 12 weeks",
+            "Quetiapine at bedtime indefinitely"
+          ],
+          "answer": 3,
+          "explanation": "He has severe BPSD with **psychosis and aggression causing harm**, physical causes have been excluded, and non-drug approaches have failed. A carefully monitored antipsychotic trial is reasonable. **Risperidone** is the only antipsychotic **PBS-subsidised for BPSD** in Alzheimer's dementia, limited to **12 weeks**. Start low, go slow, monitor for sedation, falls, parkinsonism and signs of stroke, and **review and taper** as soon as possible.\n\nInformed consent from the substitute decision-maker is required, and in residential aged care this is a regulated **restrictive practice** (chemical restraint) that must be documented in the behaviour support plan and reviewed. Benzodiazepines and indefinite antipsychotic use without review are unsafe.",
+          "whyWrong": [
+            "High doses and long-term haloperidol cause parkinsonism, falls and increased mortality.",
+            "Benzodiazepines worsen confusion and falls and are not recommended for BPSD.",
+            "Indefinite antipsychotic use without review breaches good practice and restrictive practice rules.",
+            "",
+            "Quetiapine is not PBS-subsidised for BPSD and indefinite use without review is inappropriate."
+          ],
+          "ausPearl": "In residential aged care, a medicine used primarily to influence behaviour is chemical restraint, a regulated restrictive practice requiring consent, a behaviour support plan and review.",
+          "tags": [
+            "bpsd",
+            "risperidone",
+            "restrictive practice"
+          ]
+        },
+        {
+          "id": "old-age-psych--bpsd--q3",
+          "discipline": "mental-health",
+          "topic": "old-age-psych",
+          "difficulty": "exam",
+          "stem": "A 78-year-old man with dementia with Lewy bodies is admitted to a Wollongong hospital with a urinary tract infection. On the second night he becomes agitated, seeing strangers in his room. A junior doctor gives IM haloperidol 5 mg. By morning he is severely rigid, drowsy, febrile (38.7 °C) and unable to swallow. CK is 4,200 U/L.\n\nWhat is the most likely explanation?",
+          "options": [
+            "Progression of the urinary tract infection to sepsis only",
+            "Severe antipsychotic sensitivity reaction with features of neuroleptic malignant syndrome",
+            "Serotonin syndrome",
+            "Acute stroke",
+            "Worsening of Lewy body dementia unrelated to treatment"
+          ],
+          "answer": 1,
+          "explanation": "People with **dementia with Lewy bodies** have **severe sensitivity to antipsychotics**, especially typical agents like haloperidol. Reactions include severe rigidity, sedation, falls, worsening confusion, autonomic instability and an **NMS-like picture**, with a significant risk of death. Here the timing after haloperidol, rigidity, fever, reduced consciousness and raised CK point to this.\n\nManagement: stop antipsychotics, supportive care, cooling, IV fluids, monitor CK and renal function, and treat the underlying infection. The lesson: in Lewy body dementia, agitation and hallucinations are managed by treating the cause (here, the UTI and delirium), non-drug measures and, if needed, specialist advice. Haloperidol should be avoided.",
+          "whyWrong": [
+            "Sepsis could cause fever but not the marked rigidity and raised CK that follow haloperidol.",
+            "",
+            "Serotonin syndrome requires serotonergic drugs and causes clonus rather than rigidity.",
+            "There are no focal neurological signs suggesting stroke.",
+            "The rapid change after haloperidol points to a drug reaction, not disease progression."
+          ],
+          "tags": [
+            "lewy body dementia",
+            "haloperidol",
+            "neuroleptic sensitivity"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "old-age-psych--late-life-depression-psychosis",
+      "title": "Late-life depression, anxiety and psychosis",
+      "minutes": 17,
+      "objectives": [
+        "Recognise how depression presents in older people and its links with physical illness and dementia",
+        "Treat late-life depression safely, anticipating hyponatraemia, falls and interactions",
+        "Assess suicide risk in older adults, especially older men",
+        "Distinguish late-onset psychosis, Charles Bonnet syndrome and delirium"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Mood and psychosis in older Australians",
+          "body": "Depression is **not a normal part of ageing**, but it is common in older people with physical illness, disability, bereavement, social isolation, and in residential aged care, where a large proportion of residents have depressive symptoms. It is under-recognised because older people often present with physical symptoms, and clinicians attribute symptoms to \"old age\".\n\nOlder Australian men have high suicide rates: **men aged 85 and over have the highest age-specific suicide rate** of any group. Late-life depression also increases mortality from physical illness, worsens disability, and may be a prodrome or risk factor for dementia."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why late-life depression is different",
+          "body": "- **Vascular depression**: cerebrovascular disease damaging frontal-subcortical circuits, causing depression with executive dysfunction, apathy and psychomotor slowing.\n- **Physical illness and drugs**: stroke, Parkinson's disease, heart failure, cancer, chronic pain, hypothyroidism, and medications (corticosteroids, beta-blockers in some people, levodopa).\n- **Psychosocial**: bereavement, loss of role, loneliness, loss of independence, carer burden, elder abuse.\n- **Sensory loss** (hearing and vision) contributes to isolation, depression and late-onset psychosis."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Presentations",
+          "body": "**Depression in older people** often presents with:\n\n- **Somatic symptoms** (fatigue, pain, poor appetite, weight loss, constipation), anxiety and hypochondriacal worries, rather than a complaint of sadness\n- Apathy and withdrawal, poor self-care, refusing food and fluids\n- **Cognitive complaints** (\"pseudodementia\")\n- **Psychotic depression**: nihilistic delusions (that their body is rotting or they have no bowels), delusions of poverty or guilt; high suicide risk; responds well to ECT\n\nScreening tools: the **Geriatric Depression Scale (GDS)** for older people generally, and the **Cornell Scale for Depression in Dementia** for people with dementia.\n\n**Anxiety** in older people is often comorbid with depression and physical illness. New anxiety in late life should prompt a search for physical causes (arrhythmia, hyperthyroidism, hypoxia, medication or alcohol withdrawal) and depression.\n\n**Late-onset psychosis**:\n\n- **Very late-onset schizophrenia-like psychosis** (onset after about 60): more common in women, associated with **sensory impairment** (especially deafness) and **social isolation**; persecutory delusions often about neighbours (\"partition delusions\": people coming through the walls), with preserved personality.\n- **Charles Bonnet syndrome**: vivid, complex **visual hallucinations** in people with **significant visual loss** (macular degeneration, glaucoma, cataracts), with **insight preserved** (they know the images are not real) and normal cognition. Reassurance and optimising vision are the main treatments.\n- **Delirium** and **Lewy body dementia** must always be excluded."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Grief, apathy and depression",
+          "body": "- **Normal grief** after bereavement comes in waves, often triggered by reminders, with preserved self-esteem and the ability to enjoy some things. **Depression** is more pervasive, with worthlessness, guilt not related to the deceased, hopelessness and suicidal thinking. **Prolonged grief disorder** is persistent, disabling yearning for the deceased beyond about a year.\n- **Apathy** (loss of motivation without sadness) is common in dementia, Parkinson's disease and after stroke; it responds poorly to antidepressants and better to structured activity.\n- **Hypothyroidism, hypercalcaemia, anaemia, malignancy** and **medication effects** can produce fatigue, weight loss and low mood, so a physical work-up is part of every assessment.\n- **Bipolar disorder** can first present late in life, often secondary to stroke or other brain disease (\"secondary mania\"), so new mania in an older person needs neurological assessment and imaging."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Work-up",
+          "body": "- Collateral history, medication review (including over-the-counter drugs and alcohol), and functional assessment.\n- Physical examination including hearing and vision.\n- Bloods: FBC, UEC (**sodium** baseline before SSRIs), calcium, LFTs, glucose, **TSH**, B12 and folate; others as indicated.\n- Cognitive screening (MoCA, MMSE or RUDAS) to detect co-existing cognitive impairment.\n- Neuroimaging for new psychosis in late life, focal signs, atypical features or cognitive decline.\n- Suicide assessment for every older person with depression."
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment",
+          "body": "**Psychological and social**: problem-solving therapy, CBT and interpersonal therapy are effective in older adults. Address loneliness (community groups, day programs), bereavement, carer stress and elder abuse. Treat pain and physical illness. Physical activity helps mood. The GP can use a Mental Health Treatment Plan; older people in residential aged care can also access subsidised psychological services.\n\n**Antidepressants** (start low, go slow, but reach an effective dose, and allow longer to respond):\n\n- **SSRIs** (for example sertraline, escitalopram) and **mirtazapine** (helpful with poor sleep and appetite) are commonly used first-line.\n- **Hyponatraemia (SIADH)** is a key risk with SSRIs and SNRIs in older people: check **sodium at baseline and within the first few weeks**, especially with diuretics. Symptoms include confusion, falls, lethargy and seizures.\n- **Bleeding** risk with SSRIs, particularly with anticoagulants, antiplatelets or NSAIDs (consider gastroprotection).\n- **Falls** risk with all antidepressants; mirtazapine is sedating.\n- **QT prolongation** with citalopram and escitalopram at higher doses in older people; check dosing limits.\n- **Avoid tricyclics** where possible (anticholinergic effects, postural hypotension, cardiac toxicity, lethal in overdose).\n- Continue for at least 12 months after recovery in older adults, and longer after recurrent episodes, because relapse rates are high.\n\n**ECT** is **safe and highly effective** in older people, and is particularly indicated for **psychotic depression**, **refusal of food and fluids**, **high suicide risk**, catatonia, or failure to respond to medication.\n\n**Late-onset psychosis**: correct sensory deficits (hearing aids, cataract surgery), reduce isolation, and use low-dose antipsychotics if needed with close monitoring for side effects (older people are more sensitive, and antipsychotics carry stroke and mortality risks in people with dementia).\n\n**Suicide prevention**: ask directly, restrict access to means (firearms, stockpiled medications, particularly opioids and sedatives), involve family, and follow up closely."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- An older person started on an SSRI who becomes confused or falls: check **sodium** (SIADH).\n- A recently widowed 85-year-old man with health problems and depression: **very high suicide risk**; ask about firearms and medications.\n- Nihilistic delusions and refusal of food and fluid: **psychotic depression; ECT**.\n- An older woman with macular degeneration seeing vivid images she knows are not real, with normal cognition: **Charles Bonnet syndrome**; reassure.\n- An isolated, deaf older woman convinced neighbours are coming through the walls: **late-onset psychosis**; check hearing."
+        }
+      ],
+      "keyPoints": [
+        "Depression is not normal ageing; in older people it often presents with somatic, anxiety or cognitive symptoms.",
+        "Men aged 85 and over have the highest suicide rate in Australia.",
+        "Use the GDS to screen older people and the Cornell Scale in dementia.",
+        "SSRIs and mirtazapine are common first-line choices; check sodium early for SSRI-induced hyponatraemia.",
+        "Avoid tricyclics; watch for falls, bleeding and QT prolongation.",
+        "ECT is safe and highly effective in older people, especially psychotic depression or food and fluid refusal.",
+        "Charles Bonnet syndrome: visual hallucinations with visual loss and preserved insight; late-onset psychosis links with deafness and isolation."
+      ],
+      "redFlags": [
+        "Suicidal thoughts in an older man, especially recently bereaved or with chronic illness",
+        "Refusal of food and fluids",
+        "Nihilistic delusions (psychotic depression)",
+        "Confusion or falls after starting an SSRI (hyponatraemia)",
+        "New psychosis with fluctuating attention (delirium) or cognitive decline"
+      ],
+      "contrast": [
+        {
+          "aspect": "Recognition of late-life depression",
+          "india": "Low mood in older people often accepted as part of ageing.",
+          "australia": "Actively screened (GDS, Cornell Scale), with emphasis on high suicide rates in older men."
+        },
+        {
+          "aspect": "ECT in older people",
+          "india": "Often avoided because of concerns about age.",
+          "australia": "Considered safe and highly effective, and a first-line option for psychotic depression or food and fluid refusal."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Key electrolyte to check after starting an SSRI in an older person?",
+          "back": "Sodium (risk of SIADH-related hyponatraemia)."
+        },
+        {
+          "front": "Depression screening tool for older adults without dementia?",
+          "back": "Geriatric Depression Scale (GDS)."
+        },
+        {
+          "front": "What is Charles Bonnet syndrome?",
+          "back": "Complex visual hallucinations in people with significant visual loss, with insight and cognition preserved."
+        },
+        {
+          "front": "Which group has the highest suicide rate in Australia?",
+          "back": "Men aged 85 and over."
+        },
+        {
+          "front": "Two strong indications for ECT in late-life depression?",
+          "back": "Psychotic depression, refusal of food and fluids (also high suicide risk, non-response)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "old-age-psych--late-life-depression-psychosis--q1",
+          "discipline": "mental-health",
+          "topic": "old-age-psych",
+          "difficulty": "core",
+          "stem": "An 81-year-old woman in Bendigo started sertraline for depression three weeks ago. She takes hydrochlorothiazide for hypertension. Her daughter brings her in because she has become confused and fallen twice. Temperature 36.7 °C, BP 128/74 mmHg, no focal neurological signs.\n\nWhich investigation is most likely to reveal the cause?",
+          "options": [
+            "CT brain",
+            "Serum B12",
+            "Urine culture",
+            "Serum sodium",
+            "Thyroid function tests"
+          ],
+          "answer": 3,
+          "explanation": "**SSRIs cause SIADH and hyponatraemia**, particularly in older people, women, those with low body weight and those taking **thiazide diuretics**. It typically appears within the first few weeks of treatment. Symptoms include confusion, falls, lethargy, nausea and, in severe cases, seizures. Checking **serum sodium** at baseline and within the first few weeks of starting an SSRI is recommended in older adults.\n\nManagement depends on severity: stop or change the SSRI (mirtazapine is less likely to cause hyponatraemia), review the thiazide, and correct sodium carefully to avoid osmotic demyelination. A CT is reasonable after falls if head injury is suspected, but the drug combination makes hyponatraemia the leading cause.",
+          "whyWrong": [
+            "Imaging may be needed after falls, but the drug history points to hyponatraemia first.",
+            "B12 deficiency develops slowly and does not explain an acute change after a new drug.",
+            "Infection is possible, but the SSRI-thiazide combination makes hyponatraemia most likely.",
+            "",
+            "Thyroid disease does not explain an acute change three weeks after starting an SSRI."
+          ],
+          "tags": [
+            "hyponatraemia",
+            "ssri",
+            "older adult"
+          ]
+        },
+        {
+          "id": "old-age-psych--late-life-depression-psychosis--q2",
+          "discipline": "mental-health",
+          "topic": "old-age-psych",
+          "difficulty": "exam",
+          "stem": "A 79-year-old man is admitted to a Brisbane hospital with severe depression. He has stopped eating and drinking for four days, believes his insides have rotted away and that he is already dead. He is dehydrated with an acute kidney injury. He was admitted involuntarily.\n\nWhich treatment is most appropriate for his depression?",
+          "options": [
+            "Start mirtazapine and review in four weeks",
+            "Start amitriptyline",
+            "Start lithium",
+            "Refer for cognitive behavioural therapy",
+            "Arrange electroconvulsive therapy"
+          ],
+          "answer": 4,
+          "explanation": "This is **psychotic depression** with **nihilistic (Cotard) delusions** and **refusal of food and fluids**, which is life-threatening. **ECT** is the treatment of choice because it works faster and more reliably than medication in this situation, and it is **safe and highly effective in older people**. Rehydration and medical treatment of his kidney injury happen alongside.\n\nBecause he is an involuntary patient and likely lacks capacity to consent, ECT will generally require **tribunal approval** under the state Mental Health Act, with emergency provisions in some states when life is at immediate risk. Antidepressants take weeks to work, and CBT alone is inappropriate for severe psychotic depression.",
+          "whyWrong": [
+            "Antidepressants take weeks; he is refusing food and fluids and needs faster treatment.",
+            "Tricyclics are poorly tolerated and dangerous in older people and too slow here.",
+            "Lithium is not a first-line treatment and would be hazardous with acute kidney injury.",
+            "Psychological therapy alone is inappropriate for severe psychotic depression.",
+            ""
+          ],
+          "tags": [
+            "psychotic depression",
+            "ect",
+            "older adult"
+          ]
+        },
+        {
+          "id": "old-age-psych--late-life-depression-psychosis--q3",
+          "discipline": "mental-health",
+          "topic": "old-age-psych",
+          "difficulty": "foundation",
+          "stem": "A 84-year-old woman with advanced macular degeneration tells her GP in Launceston that for two months she has seen small children in Victorian clothing in her lounge room. She knows they are not real and finds them curious rather than frightening. She lives independently, her MoCA is normal for her vision, and there are no other psychiatric or neurological symptoms.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Charles Bonnet syndrome",
+            "Dementia with Lewy bodies",
+            "Late-onset schizophrenia",
+            "Delirium",
+            "Psychotic depression"
+          ],
+          "answer": 0,
+          "explanation": "**Charles Bonnet syndrome** causes vivid, often complex **visual hallucinations** (people, children, animals, patterns) in people with **significant visual impairment** such as macular degeneration. The key features are **preserved insight** (she knows they are not real), normal cognition, and the absence of other psychiatric or neurological symptoms.\n\nManagement is **reassurance** that this is a recognised consequence of visual loss and not a sign of mental illness or dementia, optimising vision, and simple strategies such as changing lighting or eye movements. Antipsychotics are not needed. Lewy body dementia and delirium would show cognitive impairment or fluctuation, and schizophrenia-like psychosis involves delusions without insight.",
+          "whyWrong": [
+            "",
+            "Lewy body dementia involves cognitive decline, fluctuation or parkinsonism, which are absent.",
+            "Psychosis involves loss of insight and usually delusions; she has full insight.",
+            "There is no acute onset, fluctuation or inattention to suggest delirium.",
+            "There are no depressive symptoms or mood-congruent delusions."
+          ],
+          "tags": [
+            "charles bonnet",
+            "visual hallucinations",
+            "macular degeneration"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1092 @@
+{
+  "topic": "urology",
+  "intro": "Urology on the AMC covers urinary tract infection, renal colic and the obstructed infected kidney, haematuria and urological cancers, scrotal emergencies, lower urinary tract symptoms and urinary retention, and prostate cancer testing. Expect questions on Australian antibiotic choices (eTG), which emergencies cannot wait for imaging, and how to counsel a man about PSA testing, which is a shared-decision topic because Australia has no prostate screening program.",
+  "lessons": [
+    {
+      "id": "urology--urinary-tract-infection",
+      "title": "Urinary tract infection and asymptomatic bacteriuria",
+      "minutes": 15,
+      "objectives": [
+        "Diagnose cystitis and pyelonephritis and decide when a urine culture is needed",
+        "Prescribe eTG first-line antibiotics for cystitis in women, men and pregnancy",
+        "Recognise who should and should not be treated for asymptomatic bacteriuria",
+        "Manage pyelonephritis, catheter-associated infection and recurrent UTI"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why UTI matters",
+          "body": "UTI is one of the commonest infections in Australian general practice and one of the commonest reasons antibiotics are prescribed, which makes it a prime **antimicrobial stewardship** topic. Around half of women have at least one UTI in their lifetime. The AMC tests the **eTG first-line choices**, the special cases (men, pregnancy, children, catheters) and, above all, **not treating asymptomatic bacteriuria** in the people for whom treatment causes harm without benefit."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Pathogenesis",
+          "body": "Most UTIs are **ascending infections** by bowel flora colonising the periurethral area. **E. coli** causes most community infections; others include Staphylococcus saprophyticus (young women), Klebsiella, Proteus (alkaline urine, struvite stones) and Enterococcus.\n\nWomen are more susceptible because of a short urethra close to the anus. Risk factors: sexual activity, spermicides, menopause (loss of oestrogen changes vaginal flora), pregnancy (ureteric dilatation), diabetes, incomplete bladder emptying (prolapse, BPH, neurogenic bladder), catheters and stones.\n\nA UTI is **uncomplicated** in a non-pregnant woman with a normal urinary tract. Everything else (men, pregnancy, children, structural or functional abnormality, catheters, immunosuppression, upper tract infection) is **complicated** and needs a culture and usually a longer course.\n\n**Asymptomatic bacteriuria** is bacteria in the urine without symptoms. It is very common in older women, residential aged care residents (up to half) and anyone with a long-term catheter (almost universal). It is **not an infection that needs treatment** in most people; treating it breeds resistance, causes C. difficile and adverse effects, and does not improve outcomes."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "**Cystitis:** dysuria, frequency, urgency, suprapubic pain, haematuria, cloudy or offensive urine. No fever or loin pain.\n\n**Pyelonephritis:** fever, rigors, **loin pain and costovertebral angle tenderness**, nausea and vomiting, with or without cystitis symptoms. Can progress to urosepsis.\n\n**Older people:** delirium, falls or functional decline may be attributed to UTI, but a positive dipstick in an older person is common and often **not the cause**. Look for other explanations before blaming the urine, unless there are localising urinary symptoms or sepsis without another source.\n\n**Men:** consider prostatitis (perineal pain, tender boggy prostate, fever) and STIs (urethritis in younger men).\n\n**Differentials of dysuria:** STI (chlamydia, gonorrhoea: urethral or vaginal discharge, new partner), vaginitis (candida, trichomonas), genital herpes, urethral syndrome."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "- **Uncomplicated cystitis in a woman with typical symptoms:** a dipstick (leucocytes and nitrites) supports the diagnosis; a **culture is not always needed** before empirical treatment, but is recommended if symptoms recur or fail to settle\n- **Culture before antibiotics** in men, pregnancy, children, pyelonephritis, recurrent or complicated UTI, and suspected resistance\n- Growth of a single organism with pyuria in a symptomatic patient confirms UTI\n- **Pyelonephritis:** FBC, UEC, CRP, blood cultures if febrile or unwell; renal ultrasound if not responding within 48-72 hours, in men, or if obstruction is suspected\n- **Men with UTI:** consider imaging and urological assessment, particularly after recurrent or febrile infections\n- **Children:** see child health; a clean-catch or catheter specimen is essential"
+        },
+        {
+          "kind": "management",
+          "heading": "Management (eTG)",
+          "body": "**Acute uncomplicated cystitis in non-pregnant women** (one of):\n- **Trimethoprim 300 mg orally daily for 3 days**\n- **Nitrofurantoin 100 mg orally 6-hourly for 5 days** (avoid in significant renal impairment)\n- **Cefalexin 500 mg orally 12-hourly for 5 days**\n- Amoxicillin-clavulanate is an alternative. **Fluoroquinolones are not used first line** (reserved to preserve their activity)\n\nChoose according to local resistance and any previous culture results. Symptomatic relief (e.g. urinary alkalinisers, analgesia) can be offered.\n\n**Men:** treat for **7 days** (trimethoprim, cefalexin or amoxicillin-clavulanate per eTG) after sending a culture. Prostatitis needs a longer course.\n\n**Pregnancy:** **cefalexin for 5 days** is first line (nitrofurantoin is an alternative but avoided near term; trimethoprim is avoided in the first trimester because it is a folate antagonist). Culture before treatment and a **test of cure** afterwards. Pyelonephritis in pregnancy requires admission.\n\n**Pyelonephritis:**\n- Mild, able to take oral: oral antibiotics per eTG (e.g. amoxicillin-clavulanate or cefalexin, guided by culture) for a longer course, commonly 10-14 days\n- Severe or systemically unwell: admit, **IV gentamicin plus amoxicillin or ampicillin** per eTG, switching to oral when improving, guided by culture\n- Obstruction with infection: urgent drainage (see renal colic)\n\n**Asymptomatic bacteriuria: treat only in**\n- **Pregnancy** (screen with culture at the first antenatal visit; untreated bacteriuria raises the risk of pyelonephritis and preterm birth)\n- **Before urological procedures** that breach the mucosa (e.g. TURP, cystoscopy with biopsy)\n\nDo **not** screen for or treat it in older people, residential aged care residents, diabetics or people with catheters.\n\n**Catheter-associated UTI:** treat only if symptomatic (fever, loin pain, delirium with no other cause); **replace the catheter** before taking the culture and starting antibiotics. Remove unnecessary catheters.\n\n**Recurrent UTI** (two or more in 6 months or three in a year): behavioural measures (hydration, not delaying voiding, post-coital voiding), **vaginal oestrogen** in postmenopausal women, cranberry products (modest evidence), methenamine hippurate, or low-dose antibiotic prophylaxis (continuous or post-coital). Investigate if atypical."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- The eTG first-line answer for uncomplicated cystitis: **trimethoprim 3 days**, **nitrofurantoin 5 days** or **cefalexin 5 days**; ciprofloxacin is the wrong answer.\n- Pregnant woman with cystitis or bacteriuria: **cefalexin**, culture and test of cure.\n- Older woman in residential care, confused, positive dipstick, no urinary symptoms: **do not treat the urine**; look for the real cause.\n- Catheterised patient with a positive culture but no symptoms: **no antibiotics**.\n- Fever and loin pain with a stone on imaging: **obstructed infected kidney** (emergency drainage).\n- A man with a first UTI deserves a culture, 7 days of treatment and thought about why (prostatitis, obstruction, STI); a young man with dysuria and discharge has an STI until proven otherwise.\n- Nitrofurantoin does not reach adequate tissue levels in the kidney, so it is not used for pyelonephritis."
+        }
+      ],
+      "keyPoints": [
+        "E. coli causes most UTIs; cystitis in a non-pregnant woman with a normal tract is uncomplicated.",
+        "eTG cystitis: trimethoprim 3 days, nitrofurantoin 5 days or cefalexin 5 days; fluoroquinolones not first line.",
+        "Men: culture and treat for 7 days; consider prostatitis and imaging.",
+        "Pregnancy: cefalexin, culture before and test of cure after; treat asymptomatic bacteriuria.",
+        "Asymptomatic bacteriuria is treated only in pregnancy and before mucosa-breaching urological procedures.",
+        "Severe pyelonephritis: IV gentamicin plus amoxicillin or ampicillin (eTG), guided by culture.",
+        "Catheter UTI: treat only if symptomatic; change the catheter first."
+      ],
+      "redFlags": [
+        "Fever, rigors or loin pain (pyelonephritis, urosepsis)",
+        "Fever with a known or suspected stone (obstructed infected kidney)",
+        "UTI in pregnancy with systemic features",
+        "Recurrent UTI in a man or with haematuria that persists after treatment"
+      ],
+      "contrast": [
+        {
+          "aspect": "Uncomplicated cystitis",
+          "india": "Fluoroquinolones (ciprofloxacin, norfloxacin) often used first line; high ESBL rates.",
+          "australia": "eTG: trimethoprim 3 days, nitrofurantoin or cefalexin 5 days; fluoroquinolones reserved."
+        },
+        {
+          "aspect": "Asymptomatic bacteriuria in older people",
+          "india": "Frequently treated when found.",
+          "australia": "Not screened for or treated except in pregnancy and before urological procedures."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "eTG first-line options for uncomplicated cystitis in women?",
+          "back": "Trimethoprim 300 mg daily for 3 days, nitrofurantoin 100 mg 6-hourly for 5 days, or cefalexin 500 mg 12-hourly for 5 days."
+        },
+        {
+          "front": "Preferred antibiotic for cystitis in pregnancy?",
+          "back": "Cefalexin for 5 days (culture first, test of cure after)."
+        },
+        {
+          "front": "Two situations where asymptomatic bacteriuria is treated?",
+          "back": "Pregnancy, and before urological procedures that breach the mucosa."
+        },
+        {
+          "front": "Duration of treatment for UTI in men?",
+          "back": "7 days."
+        },
+        {
+          "front": "First step before treating a symptomatic catheter-associated UTI?",
+          "back": "Replace the catheter, then send a culture from the new catheter."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "urology--urinary-tract-infection--q1",
+          "discipline": "adult-surgery",
+          "topic": "urology",
+          "difficulty": "foundation",
+          "stem": "A 26-year-old woman presents to her GP with 2 days of dysuria, frequency and suprapubic discomfort. She is not pregnant and has no fever, loin pain or vaginal discharge. She has no allergies and normal renal function. Urine dipstick shows leucocytes and nitrites.\n\nWhat is the most appropriate treatment?",
+          "options": [
+            "Ciprofloxacin 500 mg orally 12-hourly for 3 days",
+            "Trimethoprim 300 mg orally daily for 3 days",
+            "Amoxicillin 500 mg orally 8-hourly for 10 days",
+            "No antibiotics; send a culture and review in a week",
+            "Cefalexin 500 mg orally 12-hourly for 14 days"
+          ],
+          "answer": 1,
+          "explanation": "This is **acute uncomplicated cystitis** in a non-pregnant woman. eTG first-line options are **trimethoprim 300 mg daily for 3 days**, nitrofurantoin 100 mg 6-hourly for 5 days or cefalexin 500 mg 12-hourly for 5 days. **Fluoroquinolones are reserved** to preserve their activity for serious infections, and amoxicillin alone has high E. coli resistance rates. Longer courses add adverse effects without benefit for uncomplicated cystitis. A culture is not mandatory before empirical treatment in a typical first presentation but is advised if symptoms fail to settle or recur.",
+          "whyWrong": [
+            "Fluoroquinolones are not first line in Australia and are reserved.",
+            "",
+            "Amoxicillin alone has high E. coli resistance, and 10 days is too long.",
+            "She is symptomatic and warrants treatment now.",
+            "Cefalexin is appropriate, but 14 days is unnecessarily long for cystitis."
+          ],
+          "tags": [
+            "cystitis",
+            "etg",
+            "antibiotics"
+          ]
+        },
+        {
+          "id": "urology--urinary-tract-infection--q2",
+          "discipline": "adult-surgery",
+          "topic": "urology",
+          "difficulty": "core",
+          "stem": "An 86-year-old woman in residential aged care has been more confused for 1 day. She has dementia and is usually continent. There are no urinary symptoms. Temperature is 36.9°C, heart rate 84/min, blood pressure 128/70 mmHg. A nurse reports the urine dipstick is positive for leucocytes and nitrites and asks for antibiotics.\n\nWhat is the most appropriate response?",
+          "options": [
+            "Start trimethoprim for 3 days",
+            "Start IV ceftriaxone",
+            "Send a urine culture and start nitrofurantoin while awaiting results",
+            "Assess for other causes of delirium and do not treat the positive dipstick alone",
+            "Insert a urinary catheter to obtain a clean specimen"
+          ],
+          "answer": 3,
+          "explanation": "Bacteriuria and pyuria are present in a large proportion of older women in residential care without infection, so a positive dipstick is **expected and not diagnostic**. Without urinary symptoms, fever or sepsis, this is most likely **asymptomatic bacteriuria**, which should **not be treated**; antibiotics cause adverse effects, C. difficile and resistance without benefit. The priority is a **delirium work-up**: medications, constipation, urinary retention, pain, dehydration, hypoxia, other infections (chest, skin), electrolytes and glucose. Treat for UTI only if she develops localising features or sepsis without another source.",
+          "whyWrong": [
+            "Treating asymptomatic bacteriuria causes harm without benefit.",
+            "IV antibiotics are not indicated without evidence of infection.",
+            "A culture will likely grow organisms and lead to unnecessary treatment.",
+            "",
+            "Catheterisation adds infection risk and is not needed."
+          ],
+          "ausPearl": "Australian aged care stewardship programs discourage routine urine dipsticks in residents without urinary symptoms.",
+          "tags": [
+            "asymptomatic bacteriuria",
+            "delirium",
+            "stewardship"
+          ]
+        },
+        {
+          "id": "urology--urinary-tract-infection--q3",
+          "discipline": "adult-surgery",
+          "topic": "urology",
+          "difficulty": "exam",
+          "stem": "A 29-year-old woman who is 14 weeks pregnant has a routine urine culture at her first antenatal visit. It grows more than 10^8 CFU/L of E. coli sensitive to cefalexin, nitrofurantoin and trimethoprim. She has no symptoms.\n\nWhat is the most appropriate management?",
+          "options": [
+            "No treatment because she is asymptomatic",
+            "Repeat culture at 28 weeks",
+            "Trimethoprim for 3 days",
+            "Ciprofloxacin for 7 days",
+            "Cefalexin for 5 days, with a repeat culture after treatment"
+          ],
+          "answer": 4,
+          "explanation": "**Asymptomatic bacteriuria in pregnancy should be treated**, because physiological ureteric dilatation and reduced peristalsis make ascent to the kidney more likely; untreated bacteriuria increases the risk of **pyelonephritis**, which is associated with preterm birth. It is one of only two groups (with patients about to undergo urological procedures) in which asymptomatic bacteriuria is treated. **Cefalexin** is first line in pregnancy per eTG, followed by a **test-of-cure culture** and ongoing monitoring. Trimethoprim is avoided in early pregnancy (folate antagonist), and fluoroquinolones are avoided in pregnancy.",
+          "whyWrong": [
+            "Pregnancy is an exception where asymptomatic bacteriuria must be treated.",
+            "Waiting until 28 weeks risks pyelonephritis.",
+            "Trimethoprim is avoided in the first trimester as a folate antagonist.",
+            "Fluoroquinolones are avoided in pregnancy.",
+            ""
+          ],
+          "tags": [
+            "pregnancy",
+            "asymptomatic bacteriuria",
+            "cefalexin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urology--renal-colic",
+      "title": "Renal colic and the obstructed infected kidney",
+      "minutes": 15,
+      "objectives": [
+        "Diagnose renal colic and choose the right imaging (non-contrast CT KUB, or ultrasound)",
+        "Provide effective analgesia and medical expulsive therapy",
+        "Identify the indications for urgent urological intervention, especially obstruction with infection",
+        "Give evidence-based advice to prevent recurrent stones"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why renal colic matters",
+          "body": "Kidney stones are common in Australia, where a hot climate and dehydration contribute (the \"stone belt\" of northern and inland Australia). Lifetime risk is roughly 1 in 10 for men and lower for women, and recurrence is common. The AMC tests **imaging choice**, **analgesia**, which stones will pass, and the one situation that is a urological emergency: **an obstructed, infected kidney**. It also tests the dangerous mimic in older patients: a **leaking abdominal aortic aneurysm**."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Pathogenesis",
+          "body": "Stones form when urine is supersaturated with stone-forming salts, promoted by low urine volume, and a lack of inhibitors such as citrate.\n\n| Stone | Frequency | Features |\n|---|---|---|\n| **Calcium oxalate** (± phosphate) | Most common | Radio-opaque; dehydration, hypercalciuria, high salt and animal protein diet |\n| **Uric acid** | Less common | **Radiolucent on X-ray** but visible on CT; gout, metabolic syndrome, acidic urine |\n| **Struvite** (magnesium ammonium phosphate) | Uncommon | Urease-producing organisms (**Proteus**); **staghorn calculi** |\n| Cystine | Rare | Inherited cystinuria; young patients |\n\nPain arises when a stone obstructs the ureter, causing acute distension of the collecting system and ureteric spasm. Common sites of impaction: **pelviureteric junction, pelvic brim and vesicoureteric junction** (the narrowest point).\n\nAn **obstructed system that becomes infected** is a closed space full of pus; bacteria enter the blood rapidly and antibiotics cannot penetrate a non-draining kidney. This is why drainage, not antibiotics alone, is the treatment."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "- Sudden, severe, colicky **loin pain radiating to the groin** (or testis or labia) as the stone moves down\n- Patient **restless**, unable to get comfortable (contrast with peritonitis, where they lie still)\n- Nausea and vomiting\n- Haematuria (visible or on dipstick) in most, but its absence does not exclude a stone\n- Stones at the vesicoureteric junction cause urinary frequency and urgency\n- **Fever, rigors or sepsis** suggest an obstructed infected kidney\n\n**Examination** is often unremarkable apart from renal angle tenderness. Its main job is to exclude the mimics: palpate for a **pulsatile abdominal mass**, check for peritonism, examine the testes in young men and hernial orifices, and check a pregnancy test in women of reproductive age."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "- **Urinalysis** and urine culture; **UEC** (renal function), FBC, CRP, calcium and urate\n- **Non-contrast CT KUB** (low-dose) is the imaging of choice: it shows nearly all stones, their size and position, and hydronephrosis, and can identify alternative diagnoses\n- **Ultrasound** first in **pregnancy**, and reasonable in children and young people to limit radiation; it shows hydronephrosis and renal stones but misses many ureteric stones\n- **Plain KUB X-ray** is useful for follow-up of radio-opaque stones\n- **Stone analysis** of a passed or retrieved stone guides prevention"
+        },
+        {
+          "kind": "differentials",
+          "heading": "Differentials",
+          "body": "| Condition | Clue |\n|---|---|\n| **Leaking AAA** | **Age over 50 with a first episode of \"renal colic\"**, hypotension, pulsatile mass; CT shows the aneurysm |\n| Pyelonephritis | Fever, loin tenderness, pyuria, no obstruction |\n| Appendicitis or diverticulitis | Localised peritonism, fever |\n| Ectopic pregnancy or ovarian torsion | Positive beta-hCG, pelvic pain |\n| Biliary colic | RUQ pain, gallstones |\n| Testicular torsion | Groin or scrotal pain in a young male; always examine the testes |\n| Musculoskeletal pain | Positional, tender on palpation |"
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Analgesia:** **NSAIDs are first line** (they reduce ureteric spasm and renal capsular pressure and outperform opioids for renal colic) unless contraindicated (renal impairment, peptic ulcer, pregnancy, dehydration). Add opioids if needed. Antiemetics. Aggressive IV fluids do not help the stone pass.\n\n**Will it pass?**\n- Stones **under 5 mm** usually pass spontaneously\n- 5-10 mm: may pass, particularly distal stones; **medical expulsive therapy** with an alpha blocker (**tamsulosin**) improves passage of distal ureteric stones around 5-10 mm\n- Over 10 mm: unlikely to pass\n\n**Discharge** if pain is controlled, no infection, normal renal function and a stone likely to pass: analgesia, tamsulosin if indicated, strain urine, follow-up imaging and urology review, and return if fever, uncontrolled pain or vomiting.\n\n**Urgent urology referral:**\n- **Obstruction with infection** (fever, raised inflammatory markers, pyuria): **emergency decompression** by **ureteric stent** or **percutaneous nephrostomy**, plus IV antibiotics and resuscitation. **Do not attempt definitive stone removal while infected**; that happens later\n- **Acute kidney injury**, **solitary kidney** or bilateral obstruction\n- **Uncontrollable pain** or vomiting\n- Large stones unlikely to pass\n\n**Definitive treatment:** ureteroscopy with laser lithotripsy, extracorporeal shock wave lithotripsy (ESWL), or percutaneous nephrolithotomy for large renal or staghorn stones.\n\n**Prevention:** drink enough to produce **over 2-2.5 L of urine a day**, reduce salt and animal protein, **keep normal dietary calcium** (low-calcium diets increase oxalate absorption and stone risk), limit high-oxalate foods; metabolic work-up (24-hour urine) for recurrent stone formers; thiazides, citrate or allopurinol depending on stone type."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- The imaging answer is **non-contrast CT KUB**, except **ultrasound** in pregnancy.\n- First-line analgesia is an **NSAID**.\n- Stone with **fever** = obstructed infected kidney = **stent or nephrostomy plus antibiotics**; ureteroscopy for stone removal is the wrong answer.\n- A 65-year-old with a first episode of left loin pain and hypotension: **leaking AAA**.\n- Radiolucent stone on X-ray but seen on CT: uric acid.\n- Pregnant woman with loin pain: **ultrasound** first; NSAIDs are avoided in pregnancy (especially after 20 weeks), so use paracetamol and opioids; obstruction with infection still needs a stent or nephrostomy.\n- A staghorn calculus with recurrent Proteus UTIs: struvite stone; needs complete removal (percutaneous nephrolithotomy) and infection control.\n- Recurrent calcium stones: check serum calcium and PTH (primary hyperparathyroidism) and do a 24-hour urine collection.\n- Discharged patients strain their urine so the stone can be analysed."
+        }
+      ],
+      "keyPoints": [
+        "Non-contrast CT KUB is the imaging of choice; ultrasound in pregnancy.",
+        "NSAIDs are first-line analgesia; add opioids if needed.",
+        "Stones under 5 mm usually pass; tamsulosin helps distal stones around 5-10 mm.",
+        "Obstructed infected kidney: emergency stent or nephrostomy plus IV antibiotics.",
+        "Also refer urgently for AKI, solitary kidney or uncontrolled pain.",
+        "A first episode of renal colic over 50: exclude a leaking AAA.",
+        "Prevention: over 2 L urine daily, low salt, normal calcium intake."
+      ],
+      "redFlags": [
+        "Fever or rigors with a stone (obstructed infected kidney)",
+        "Hypotension or pulsatile mass with loin pain (AAA)",
+        "Anuria or rising creatinine (bilateral obstruction or solitary kidney)",
+        "Pregnancy with renal colic"
+      ],
+      "contrast": [
+        {
+          "aspect": "First-line imaging",
+          "india": "Ultrasound and plain X-ray KUB are common first tests.",
+          "australia": "Low-dose non-contrast CT KUB is standard; ultrasound in pregnancy and often in the young."
+        },
+        {
+          "aspect": "Stone prevention diet",
+          "india": "Calcium restriction often advised.",
+          "australia": "Normal dietary calcium, low salt, reduced animal protein and high fluid intake."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Imaging of choice for suspected renal colic (not pregnant)?",
+          "back": "Non-contrast low-dose CT KUB."
+        },
+        {
+          "front": "First-line analgesia for renal colic?",
+          "back": "NSAID (unless contraindicated)."
+        },
+        {
+          "front": "Size of ureteric stone that usually passes spontaneously?",
+          "back": "Under 5 mm."
+        },
+        {
+          "front": "Management of an obstructed infected kidney?",
+          "back": "Emergency decompression (ureteric stent or nephrostomy) plus IV antibiotics."
+        },
+        {
+          "front": "Which stone is radiolucent on plain X-ray?",
+          "back": "Uric acid."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "urology--renal-colic--q1",
+          "discipline": "adult-surgery",
+          "topic": "urology",
+          "difficulty": "foundation",
+          "stem": "A 38-year-old man presents with 3 hours of severe right loin pain radiating to his groin. He is pacing the room and has vomited. Temperature is 36.8°C, heart rate 96/min, blood pressure 138/84 mmHg. Urinalysis shows blood. Creatinine is normal.\n\nWhat is the most appropriate first-line analgesia?",
+          "options": [
+            "IV paracetamol alone",
+            "IM pethidine",
+            "An NSAID such as IV ketorolac or PR/oral diclofenac",
+            "Oral codeine",
+            "Buscopan (hyoscine butylbromide) alone"
+          ],
+          "answer": 2,
+          "explanation": "**NSAIDs are first-line analgesia for renal colic**. They reduce prostaglandin-mediated renal pelvic pressure and ureteric spasm and give pain relief at least as good as opioids, with less vomiting and less need for rescue analgesia. They are avoided in renal impairment, significant dehydration, peptic ulcer disease and pregnancy. Opioids (e.g. IV morphine or fentanyl) are added if the NSAID is insufficient. Pethidine is not recommended; hyoscine has no proven benefit; codeine is weak and unpredictable. Then arrange a **non-contrast CT KUB**.",
+          "whyWrong": [
+            "Paracetamol alone is usually inadequate for renal colic.",
+            "Pethidine has toxic metabolites and is not recommended.",
+            "",
+            "Codeine is weak and has variable metabolism.",
+            "Antispasmodics have not been shown to relieve renal colic."
+          ],
+          "tags": [
+            "renal colic",
+            "analgesia",
+            "nsaid"
+          ]
+        },
+        {
+          "id": "urology--renal-colic--q2",
+          "discipline": "adult-surgery",
+          "topic": "urology",
+          "difficulty": "core",
+          "stem": "A 45-year-old woman presents with left loin pain for 2 days, now with fever and rigors. Temperature is 39.2°C, heart rate 118/min, blood pressure 96/58 mmHg. CT KUB shows a 7 mm stone at the left vesicoureteric junction with moderate hydronephrosis. Blood cultures have been taken and IV fluids started.\n\nWhat is the most appropriate management?",
+          "options": [
+            "IV antibiotics and urgent decompression with a ureteric stent or percutaneous nephrostomy",
+            "Oral antibiotics and tamsulosin, with outpatient review",
+            "IV antibiotics alone and observe for 72 hours",
+            "Urgent ureteroscopy and laser lithotripsy",
+            "Extracorporeal shock wave lithotripsy tomorrow"
+          ],
+          "answer": 0,
+          "explanation": "A stone with **hydronephrosis and sepsis** is an **obstructed infected kidney**, a urological emergency with high mortality if not drained. Pus trapped behind the obstruction cannot be cleared by antibiotics alone. She needs resuscitation, blood cultures, **IV antibiotics** (e.g. gentamicin plus ampicillin per eTG) and **emergency decompression** by **retrograde ureteric stent** or **percutaneous nephrostomy**. Definitive stone treatment (ureteroscopy, ESWL) is deferred until the infection has resolved, because manipulating an infected stone risks severe sepsis.",
+          "whyWrong": [
+            "",
+            "Outpatient care is unsafe in obstructive urosepsis.",
+            "Antibiotics alone do not drain an obstructed kidney.",
+            "Definitive stone treatment during active infection risks worsening sepsis; drain first.",
+            "ESWL is contraindicated in infection and obstruction."
+          ],
+          "tags": [
+            "obstructed infected kidney",
+            "urosepsis",
+            "nephrostomy"
+          ]
+        },
+        {
+          "id": "urology--renal-colic--q3",
+          "discipline": "adult-surgery",
+          "topic": "urology",
+          "difficulty": "exam",
+          "stem": "A 68-year-old man who smokes presents with sudden left loin pain radiating to the groin. He has never had kidney stones. He is pale and sweaty. Heart rate is 112/min, blood pressure 98/60 mmHg. Urinalysis shows a trace of blood.\n\nWhat is the most important diagnosis to exclude first?",
+          "options": [
+            "Left ureteric calculus",
+            "Acute pyelonephritis",
+            "Diverticulitis",
+            "Ruptured or leaking abdominal aortic aneurysm",
+            "Musculoskeletal back strain"
+          ],
+          "answer": 3,
+          "explanation": "An older male smoker with a **first episode of \"renal colic\"**, **hypotension and tachycardia** must be assumed to have a **leaking abdominal aortic aneurysm** until proven otherwise. Blood tracking in the retroperitoneum irritates the ureter and can cause microscopic haematuria, mimicking a stone. Stones rarely cause shock unless there is sepsis. Examine for a pulsatile mass, obtain a **bedside ultrasound** or CT angiography if he is stable enough, involve vascular surgery immediately and use permissive hypotension. **Rule:** renal colic in someone over 50 with no stone history: think aorta.",
+          "whyWrong": [
+            "A stone is possible, but shock in a first presentation over 50 suggests a leaking AAA.",
+            "Pyelonephritis causes fever and pyuria, not sudden pain with shock.",
+            "Diverticulitis causes left iliac fossa pain and fever.",
+            "",
+            "Back strain does not cause shock."
+          ],
+          "tags": [
+            "aaa",
+            "renal colic mimic",
+            "shock"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urology--haematuria-and-urological-cancers",
+      "title": "Haematuria and urological cancers",
+      "minutes": 16,
+      "objectives": [
+        "Investigate visible and non-visible haematuria appropriately",
+        "Recognise the risk factors and presentation of bladder and kidney cancer",
+        "Distinguish a nephrological from a urological cause of haematuria",
+        "Diagnose testicular cancer and avoid the classic management error"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why haematuria matters",
+          "body": "**Visible (macroscopic) haematuria** in an adult is a urological cancer until proven otherwise; around 1 in 5 or more adults with painless visible haematuria have a malignancy, most commonly **bladder (urothelial) cancer**. **Non-visible (microscopic) haematuria** is far more common and far less often due to cancer, but still needs a structured assessment. The AMC tests the investigation pathway, the risk factors, and when to refer to urology versus nephrology."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Causes and risk factors",
+          "body": "**Causes of haematuria:**\n- **Urological:** bladder cancer, kidney cancer, upper tract urothelial cancer, prostate cancer or BPH, stones, infection, trauma, exercise\n- **Nephrological (glomerular):** IgA nephropathy, post-infectious glomerulonephritis, thin basement membrane disease, Alport syndrome, vasculitis\n- **Other:** anticoagulants (which can unmask an underlying lesion, so still investigate), schistosomiasis in migrants from endemic areas\n\n**Bladder cancer risk factors:** **smoking** (the biggest), **occupational exposure to aromatic amines** (dyes, rubber, leather, paint, some industrial chemicals), cyclophosphamide, pelvic radiotherapy, chronic bladder inflammation (long-term catheters, schistosomiasis causes squamous cell carcinoma). Most Australian bladder cancers are **urothelial carcinomas**.\n\n**Kidney cancer (renal cell carcinoma):** smoking, obesity, hypertension, chronic kidney disease on dialysis, von Hippel-Lindau syndrome.\n\n**Testicular cancer:** the commonest solid cancer in men aged about **15-40**. Risk factors: **cryptorchidism** (undescended testis, even after orchidopexy), previous testicular cancer, family history, subfertility. Types: **seminoma** and non-seminomatous germ cell tumours."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "**Bladder cancer:** **painless visible haematuria**, sometimes with clots; irritative symptoms (frequency, urgency) with carcinoma in situ; recurrent UTIs.\n\n**Kidney cancer:** most are now found **incidentally** on imaging. The classic triad of **haematuria, loin pain and a flank mass** is uncommon and late. Paraneoplastic features: **polycythaemia** (erythropoietin), hypercalcaemia, hypertension, fever. A **new left varicocele** that does not empty on lying down can signal a renal tumour obstructing the left renal vein.\n\n**Glomerular haematuria:** hypertension, proteinuria, oedema, raised creatinine, cola-coloured urine, recent sore throat (post-streptococcal, 1-3 weeks later) or synpharyngitic haematuria (IgA nephropathy, within days of a URTI).\n\n**Testicular cancer:** **painless, firm testicular lump** or swelling, dragging sensation; occasionally gynaecomastia (hCG-secreting), back pain from retroperitoneal nodes, or respiratory symptoms from lung metastases."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "**Visible haematuria in an adult** (after excluding UTI):\n- Urine culture, UEC, FBC, coagulation if on anticoagulants\n- **CT urogram** (images kidneys, ureters and bladder with contrast)\n- **Flexible cystoscopy** (CT misses many bladder tumours, so both are needed)\n- Urine cytology may support the diagnosis\n- **Refer to urology** for all adults with unexplained visible haematuria\n\n**Non-visible haematuria:**\n- A dipstick can be falsely positive (myoglobin, menstruation, exercise): **confirm persistence** on urine microscopy (red cells, typically on two of three samples)\n- Exclude UTI, menstruation and vigorous exercise\n- Assess for kidney disease: **blood pressure, eGFR, urine albumin-creatinine ratio**, and urine microscopy for **dysmorphic red cells or red cell casts** (glomerular)\n- **Urological evaluation** (imaging and cystoscopy) for persistent non-visible haematuria in older adults (commonly age 40 or more in Australian guidance) or those with risk factors such as smoking or occupational exposure\n- **Nephrology referral** for proteinuria, reduced eGFR, hypertension, or dysmorphic red cells or casts\n\n**Testicular lump:** urgent **scrotal ultrasound**; tumour markers **AFP, beta-hCG and LDH**; staging CT chest, abdomen and pelvis if cancer is confirmed. Seminomas do not raise AFP."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Is it really blood, and where from?",
+          "body": "**Red or dark urine that is not haematuria:**\n- Foods (beetroot, blackberries) and drugs (**rifampicin**, phenazopyridine, nitrofurantoin can darken urine)\n- **Myoglobinuria** (rhabdomyolysis) and **haemoglobinuria** (intravascular haemolysis): dipstick positive for blood but **no red cells on microscopy**\n- Porphyria\n\n**Timing of blood in the stream gives a clue to the site:**\n| Pattern | Likely source |\n|---|---|\n| Initial (start of stream) | Urethra |\n| Terminal (end of stream) | Bladder neck or prostate |\n| Total (throughout) | Bladder, ureter or kidney |\n\n**Associated features:**\n- Painful haematuria with loin-to-groin pain: stone\n- Dysuria and frequency: infection (but re-test after treatment; persistent haematuria still needs investigation)\n- Painless haematuria with clots: bladder tumour until proven otherwise\n- Haematuria with an enlarged prostate: BPH can bleed, but do not assume it is the cause without investigation\n- Upper tract urothelial cancer (renal pelvis, ureter) is less common but shares risk factors with bladder cancer, which is why the CT urogram images the whole tract"
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Bladder cancer:**\n- **Transurethral resection of bladder tumour (TURBT)** diagnoses and treats non-muscle-invasive disease\n- **Intravesical BCG** or chemotherapy reduces recurrence in higher-risk non-invasive tumours; lifelong cystoscopic surveillance because recurrence is common\n- Muscle-invasive disease: radical cystectomy with urinary diversion, or chemoradiotherapy\n- **Smoking cessation** reduces recurrence\n\n**Kidney cancer:** partial or radical nephrectomy for localised disease; active surveillance for small masses in frail patients; targeted therapy and immunotherapy for metastatic disease.\n\n**Testicular cancer:**\n- **Radical inguinal orchidectomy** is both diagnostic and therapeutic\n- **Never perform a scrotal biopsy or trans-scrotal orchidectomy**, which risk seeding tumour to the scrotal lymphatics (inguinal nodes)\n- Offer **sperm banking** before treatment\n- Surveillance, chemotherapy or radiotherapy depending on type and stage; cure rates are very high, even with metastases\n- Encourage testicular self-examination awareness in young men\n\n**Glomerular haematuria:** nephrology management of the underlying disease, blood pressure control and ACE inhibitor or ARB for proteinuria."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Painless visible haematuria in a smoker: **CT urogram and cystoscopy**. Neither alone is complete.\n- Haematuria on warfarin or a DOAC still needs full investigation.\n- Haematuria with hypertension, proteinuria and red cell casts: glomerular, refer to **nephrology**.\n- Young man with a painless testicular lump: **ultrasound and tumour markers**, then **inguinal orchidectomy**; scrotal biopsy is always wrong.\n- A new left varicocele that does not disappear lying down: image the kidney."
+        }
+      ],
+      "keyPoints": [
+        "Painless visible haematuria in an adult: suspect urothelial cancer; CT urogram plus cystoscopy.",
+        "Smoking and aromatic amine exposure are the main bladder cancer risk factors.",
+        "Confirm non-visible haematuria on microscopy and check BP, eGFR and albumin-creatinine ratio.",
+        "Dysmorphic red cells, casts, proteinuria or low eGFR: refer to nephrology.",
+        "Anticoagulation does not explain haematuria away.",
+        "Renal cell carcinoma is often incidental; can cause polycythaemia, hypercalcaemia and a left varicocele.",
+        "Testicular cancer: ultrasound, AFP, beta-hCG, LDH; radical inguinal orchidectomy, never scrotal biopsy."
+      ],
+      "redFlags": [
+        "Painless visible haematuria in an adult",
+        "Haematuria with clot retention",
+        "Painless firm testicular lump in a young man",
+        "Haematuria with hypertension, oedema and rising creatinine (glomerulonephritis)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Squamous bladder cancer and schistosomiasis",
+          "india": "Taught prominently from global and regional patterns.",
+          "australia": "Schistosomiasis is seen only in migrants from endemic areas; urothelial cancer from smoking dominates."
+        },
+        {
+          "aspect": "Haematuria on anticoagulants",
+          "india": "Often attributed to the anticoagulant and not investigated.",
+          "australia": "Full investigation is expected; anticoagulants unmask underlying lesions."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Investigations for painless visible haematuria in an adult?",
+          "back": "CT urogram and flexible cystoscopy (plus urine culture and cytology)."
+        },
+        {
+          "front": "Biggest risk factor for bladder cancer?",
+          "back": "Smoking."
+        },
+        {
+          "front": "Tumour markers for testicular cancer?",
+          "back": "AFP, beta-hCG and LDH."
+        },
+        {
+          "front": "Operation for suspected testicular cancer?",
+          "back": "Radical inguinal orchidectomy (never scrotal biopsy)."
+        },
+        {
+          "front": "Microscopy features suggesting glomerular haematuria?",
+          "back": "Dysmorphic red cells and red cell casts."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "urology--haematuria-and-urological-cancers--q1",
+          "discipline": "adult-surgery",
+          "topic": "urology",
+          "difficulty": "foundation",
+          "stem": "A 66-year-old man who has smoked 30 cigarettes a day for 45 years presents with 2 episodes of painless visible haematuria over the past week. He takes no medications. Urine culture is negative. Creatinine is normal.\n\nWhat is the most appropriate investigation strategy?",
+          "options": [
+            "Repeat urinalysis in 3 months",
+            "Renal ultrasound only",
+            "Urine cytology only",
+            "Prostate-specific antigen only",
+            "CT urogram and flexible cystoscopy"
+          ],
+          "answer": 4,
+          "explanation": "**Painless visible haematuria** in an older **smoker** is **bladder cancer** until proven otherwise. He needs **urgent urology referral** with **CT urogram** (to image the upper tracts and kidneys) and **flexible cystoscopy** (to visualise the bladder, where CT can miss flat or small tumours). Both are needed because each misses lesions the other finds. Cytology alone has poor sensitivity for low-grade tumours; ultrasound alone misses urothelial tumours; PSA does not investigate haematuria. Watchful waiting is inappropriate: haematuria is often intermittent even with cancer.",
+          "whyWrong": [
+            "Visible haematuria is often intermittent even in cancer; delay is unsafe.",
+            "Ultrasound misses upper tract and many bladder tumours.",
+            "Cytology has poor sensitivity for low-grade tumours.",
+            "PSA does not evaluate haematuria.",
+            ""
+          ],
+          "tags": [
+            "haematuria",
+            "bladder cancer",
+            "investigation"
+          ]
+        },
+        {
+          "id": "urology--haematuria-and-urological-cancers--q2",
+          "discipline": "adult-surgery",
+          "topic": "urology",
+          "difficulty": "core",
+          "stem": "A 24-year-old man notices a painless lump in his right testis while showering. He had an orchidopexy for an undescended right testis at age 2. There is a firm, irregular 1.5 cm mass within the body of the testis that does not transilluminate.\n\nAfter ultrasound confirms a solid intratesticular mass, which is the most appropriate definitive step?",
+          "options": [
+            "Trans-scrotal fine needle biopsy",
+            "Radical inguinal orchidectomy",
+            "Course of antibiotics and review in 2 weeks",
+            "Trans-scrotal orchidectomy",
+            "Repeat ultrasound in 3 months"
+          ],
+          "answer": 1,
+          "explanation": "A **solid intratesticular mass in a young man** is **testicular cancer** until proven otherwise, and a history of **cryptorchidism** increases the risk. After ultrasound, check **AFP, beta-hCG and LDH** and refer urgently. The definitive diagnostic and therapeutic step is **radical inguinal orchidectomy**, which removes the testis and spermatic cord through a groin incision. **Scrotal biopsy or trans-scrotal surgery** is avoided because it breaches the scrotal lymphatic drainage and can spread tumour to the inguinal nodes. Offer sperm banking before treatment. Cure rates are very high.",
+          "whyWrong": [
+            "Scrotal biopsy risks seeding tumour to scrotal and inguinal lymphatics.",
+            "",
+            "An intratesticular solid mass is not an infection; delay risks spread.",
+            "The scrotal approach breaches lymphatic drainage.",
+            "Waiting 3 months delays treatment of likely cancer."
+          ],
+          "tags": [
+            "testicular cancer",
+            "orchidectomy",
+            "cryptorchidism"
+          ]
+        },
+        {
+          "id": "urology--haematuria-and-urological-cancers--q3",
+          "discipline": "adult-surgery",
+          "topic": "urology",
+          "difficulty": "exam",
+          "stem": "A 32-year-old man has non-visible haematuria on a routine insurance medical, confirmed on two further urine microscopies. Blood pressure is 148/94 mmHg. Microscopy shows dysmorphic red cells and occasional red cell casts. Urine albumin-creatinine ratio is 45 mg/mmol (normal < 2.5). eGFR is 78 mL/min/1.73m². He had a sore throat 3 days before one of the samples.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "CT urogram and cystoscopy",
+            "Reassure and repeat urinalysis in 12 months",
+            "Referral to a nephrologist",
+            "Prostate-specific antigen",
+            "Treat with 7 days of trimethoprim"
+          ],
+          "answer": 2,
+          "explanation": "**Dysmorphic red cells, red cell casts, proteinuria (raised ACR) and hypertension** indicate **glomerular** bleeding, not a urological lesion. The link with a sore throat a few days earlier (synpharyngitic haematuria) suggests **IgA nephropathy**, the commonest glomerulonephritis worldwide. He needs **nephrology referral** for assessment and probable renal biopsy, blood pressure control and an ACE inhibitor or ARB to reduce proteinuria. CT urogram and cystoscopy are for urological causes in older or at-risk patients; his features point elsewhere.",
+          "whyWrong": [
+            "Glomerular features point to nephrology rather than urological imaging.",
+            "Proteinuria and hypertension need assessment now.",
+            "",
+            "PSA is irrelevant to glomerular haematuria in a young man.",
+            "There is no infection to treat."
+          ],
+          "tags": [
+            "haematuria",
+            "iga nephropathy",
+            "glomerular"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urology--scrotal-conditions",
+      "title": "Scrotal emergencies and lumps",
+      "minutes": 15,
+      "objectives": [
+        "Recognise testicular torsion and arrange surgical exploration without delay",
+        "Differentiate torsion from epididymo-orchitis and torsion of a testicular appendage",
+        "Treat epididymo-orchitis according to likely cause",
+        "Assess a scrotal lump by examination and ultrasound"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why the acute scrotum matters",
+          "body": "An acute painful scrotum in a boy or young man is **testicular torsion until proven otherwise**, because the testis can be saved only if blood flow is restored within hours. Salvage is high if detorsion occurs **within 6 hours** and falls steeply after that. The AMC tests whether you will send the patient straight to theatre rather than waiting for an ultrasound, and whether you can tell torsion from epididymo-orchitis. It also tests the non-urgent scrotal lumps."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Pathogenesis",
+          "body": "**Testicular torsion:** the testis twists on its spermatic cord, first occluding venous outflow, then arterial inflow, causing ischaemia and infarction. It is commonest in **adolescents** (a second peak in neonates). Predisposition: the **bell-clapper deformity**, where the tunica vaginalis attaches high on the cord, leaving the testis free to rotate. This is usually **bilateral**, which is why the other testis is also fixed.\n\n**Torsion of a testicular appendage** (hydatid of Morgagni): a small vestigial structure twists, causing pain that settles over days. Commonest in pre-pubertal boys (7-12).\n\n**Epididymo-orchitis:**\n- Under about 35 or sexually active: **Chlamydia trachomatis** and **Neisseria gonorrhoeae**\n- Older men: **enteric organisms** (E. coli) from urinary tract infection, often with bladder outflow obstruction or after instrumentation\n- **Mumps orchitis** in unvaccinated adolescents and adults\n\n**Fournier's gangrene:** necrotising fasciitis of the perineum and scrotum, in diabetes, obesity or immunosuppression."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "| | Testicular torsion | Epididymo-orchitis | Torsion of appendage |\n|---|---|---|---|\n| Age | Adolescent (12-18), neonates | Sexually active young men; older men with UTI | Pre-pubertal boys |\n| Onset | **Sudden**, severe, may wake from sleep | Gradual over a day or more | Sudden or gradual, less severe |\n| Associated | **Nausea and vomiting**, lower abdominal pain | Dysuria, urethral discharge, fever | Well child |\n| Testis position | **High-riding, horizontal lie** | Normal | Normal |\n| Cremasteric reflex | **Absent** | Usually present | Present |\n| Tenderness | Whole testis | Epididymis (posterior), may spread to testis | Upper pole; **\"blue dot\" sign** |\n| Prehn's sign (elevation relieves pain) | No relief | Relief (unreliable) | Not useful |\n\nBoys may report **abdominal pain only** from embarrassment; always examine the scrotum in a boy with lower abdominal pain.\n\n**Scrotal lumps (non-acute):**\n| Lump | Features |\n|---|---|\n| **Hydrocele** | Fluid around testis, **transilluminates**, can get above it, testis may be impalpable within it |\n| **Epididymal cyst** | Separate, above and behind the testis, transilluminates |\n| **Varicocele** | \"**Bag of worms**\", usually **left**, empties on lying down; may cause subfertility or ache |\n| **Inguinoscrotal hernia** | **Cannot get above** it, cough impulse, may reduce |\n| **Testicular tumour** | Firm, painless, **within the testis**, does not transilluminate |"
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "**Suspected torsion:** **do not delay surgery for imaging**. Clinical suspicion alone warrants urgent surgical exploration. Doppler ultrasound is used only when the diagnosis is genuinely uncertain and it will not delay theatre.\n\n**Epididymo-orchitis:** first-void urine **NAAT for chlamydia and gonorrhoea**, urethral swab if discharge, urine MC&S, and full STI screen (HIV, syphilis). Ultrasound if the diagnosis is unclear or an abscess is suspected.\n\n**Scrotal lumps:** **ultrasound** for any intratesticular lump and for hydroceles in adults (tumours can present with a secondary hydrocele). A varicocele on the right, or one that does not empty on lying, needs renal imaging."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Testicular torsion:**\n- Analgesia, keep nil by mouth, **urgent urology or paediatric surgical referral** for **scrotal exploration**, detorsion and **bilateral orchidopexy** (fixing both testes because the deformity is bilateral)\n- A non-viable testis is removed (orchidectomy)\n- Manual detorsion (rotating outward, \"opening the book\") may be attempted if surgery will be delayed, for example in a remote setting while awaiting retrieval, but exploration is still required\n\n**Torsion of appendage:** analgesia and rest; resolves over about a week. Explore if torsion cannot be excluded.\n\n**Epididymo-orchitis:**\n- **Likely STI** (under 35, sexually active): **ceftriaxone 500 mg IM or IV single dose plus doxycycline 100 mg orally twice daily for 14 days** (per the Australian STI management guidelines and eTG), test and treat partners, and advise against sex until treatment is complete\n- **Likely enteric** (older, UTI, instrumentation): antibiotics covering enteric organisms per eTG, and assess for bladder outflow obstruction\n- Scrotal support, analgesia, rest; review for abscess if not improving\n\n**Fournier's gangrene:** resuscitation, broad-spectrum IV antibiotics and **emergency surgical debridement**.\n\n**Hydrocele:** in infants usually resolves by 1-2 years; in adults, repair if symptomatic after ultrasound excludes tumour. **Varicocele:** reassurance or repair (embolisation or surgery) for pain or subfertility. **Epididymal cyst:** reassurance.\n\n**Undescended testis:** refer for **orchidopexy ideally by 12 months** of age (per RCH guidance) to optimise fertility and allow cancer surveillance."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- A teenager with sudden testicular pain, vomiting, a high-riding testis and absent cremasteric reflex: **immediate surgical exploration**; ordering an ultrasound first is the trap.\n- \"Blue dot\" at the upper pole in a 10-year-old: torsion of appendage.\n- Young man with gradual scrotal pain and dysuria: epididymo-orchitis; **ceftriaxone plus doxycycline**, test for STIs and treat partners.\n- If you can get above the lump and it transilluminates: hydrocele or cyst. If you can't get above it: hernia.\n- Mumps orchitis in an unvaccinated young man: supportive care; check MMR vaccination history and consider the notifiable disease requirements (mumps is notifiable in Australia).\n- An older man with a painful red scrotum, diabetes and systemic toxicity: think **Fournier's gangrene**; it needs emergency debridement, not oral antibiotics.\n- Neonatal torsion (often antenatal) presents as a firm, painless, discoloured scrotal mass."
+        }
+      ],
+      "keyPoints": [
+        "Testicular torsion: sudden pain, vomiting, high-riding testis, absent cremasteric reflex.",
+        "Surgical exploration within 6 hours; do not delay for ultrasound.",
+        "Fix both testes (bilateral orchidopexy) because the bell-clapper deformity is bilateral.",
+        "Epididymo-orchitis in young men: chlamydia or gonorrhoea; ceftriaxone plus doxycycline 14 days.",
+        "Older men with epididymo-orchitis: enteric organisms from UTI or obstruction.",
+        "Blue dot sign: torsion of the testicular appendage in pre-pubertal boys.",
+        "Intratesticular lump: ultrasound; hydrocele in adults also needs ultrasound to exclude tumour."
+      ],
+      "redFlags": [
+        "Sudden severe testicular pain with vomiting in a boy or young man",
+        "Lower abdominal pain in a boy (examine the scrotum)",
+        "Scrotal skin necrosis, crepitus or systemic toxicity (Fournier's gangrene)",
+        "Firm painless intratesticular mass"
+      ],
+      "contrast": [
+        {
+          "aspect": "Suspected torsion",
+          "india": "Doppler ultrasound is often obtained before theatre.",
+          "australia": "Straight to surgical exploration; imaging only if it will not delay theatre."
+        },
+        {
+          "aspect": "Epididymo-orchitis in young men",
+          "india": "Often treated with a quinolone alone without STI testing.",
+          "australia": "Ceftriaxone plus doxycycline, STI testing and partner notification per Australian STI guidelines."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Key signs of testicular torsion?",
+          "back": "High-riding, horizontally lying testis with an absent cremasteric reflex."
+        },
+        {
+          "front": "Time window for best testicular salvage in torsion?",
+          "back": "Within 6 hours of onset."
+        },
+        {
+          "front": "Why is orchidopexy performed on both sides?",
+          "back": "The bell-clapper deformity is usually bilateral."
+        },
+        {
+          "front": "Treatment of epididymo-orchitis likely due to STI?",
+          "back": "Ceftriaxone 500 mg single dose plus doxycycline 100 mg twice daily for 14 days."
+        },
+        {
+          "front": "Scrotal lump you cannot get above?",
+          "back": "Inguinoscrotal hernia."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "urology--scrotal-conditions--q1",
+          "discipline": "adult-surgery",
+          "topic": "urology",
+          "difficulty": "foundation",
+          "stem": "A 14-year-old boy is woken at 5 am by severe left testicular pain. He has vomited twice. The left testis is exquisitely tender, lies higher than the right with a horizontal lie, and the left cremasteric reflex is absent. The pain began 2 hours ago.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Urgent Doppler ultrasound of the scrotum",
+            "Oral antibiotics and scrotal support",
+            "Urgent surgical exploration of the scrotum",
+            "Urine NAAT for chlamydia and gonorrhoea",
+            "Analgesia and review in 6 hours"
+          ],
+          "answer": 2,
+          "explanation": "**Sudden severe testicular pain waking him from sleep**, **vomiting**, a **high-riding horizontal testis** and an **absent cremasteric reflex** are classic for **testicular torsion**. Testicular salvage depends on time: it is high if detorsion occurs within 6 hours and falls rapidly after. With a clear clinical picture, **do not delay for ultrasound**; arrange **urgent scrotal exploration** with detorsion and bilateral orchidopexy. Ultrasound is reserved for genuinely equivocal cases where it will not delay surgery.",
+          "whyWrong": [
+            "Ultrasound can delay surgery and may be falsely reassuring.",
+            "This is not an infection; antibiotics delay life-saving surgery for the testis.",
+            "",
+            "STI testing is for epididymo-orchitis, which has a gradual onset.",
+            "Waiting 6 hours risks losing the testis."
+          ],
+          "tags": [
+            "testicular torsion",
+            "emergency",
+            "surgery"
+          ]
+        },
+        {
+          "id": "urology--scrotal-conditions--q2",
+          "discipline": "adult-surgery",
+          "topic": "urology",
+          "difficulty": "core",
+          "stem": "A 23-year-old man presents with 3 days of gradually increasing right scrotal pain and swelling and dysuria. He has a new sexual partner. Temperature is 37.9°C. The right epididymis is swollen and tender posteriorly; the testis lies normally and the cremasteric reflex is present.\n\nWhat is the most appropriate treatment after collecting samples for STI testing?",
+          "options": [
+            "Ceftriaxone 500 mg IM single dose plus doxycycline 100 mg orally twice daily for 14 days",
+            "Trimethoprim 300 mg orally daily for 3 days",
+            "Amoxicillin 500 mg orally 8-hourly for 5 days",
+            "Azithromycin 1 g orally single dose alone",
+            "Urgent surgical exploration"
+          ],
+          "answer": 0,
+          "explanation": "**Gradual onset**, **dysuria**, fever, **posterior epididymal tenderness**, a normal testicular lie and a **present cremasteric reflex** in a young man with a **new partner** indicate **epididymo-orchitis**, most likely due to **Chlamydia trachomatis or Neisseria gonorrhoeae**. Australian STI guidelines recommend **ceftriaxone 500 mg single dose plus doxycycline 100 mg twice daily for 14 days**, covering both organisms. Test for HIV and syphilis, advise abstinence until treatment is complete, and arrange **partner notification**. If torsion could not be excluded clinically, exploration would take priority.",
+          "whyWrong": [
+            "",
+            "Trimethoprim for 3 days treats cystitis in women and does not cover STIs.",
+            "Amoxicillin does not cover chlamydia and gonorrhoea reliably.",
+            "Azithromycin alone misses gonorrhoea and is not the recommended regimen.",
+            "The features point to infection rather than torsion."
+          ],
+          "ausPearl": "The Australian STI Management Guidelines for use in primary care set this regimen and emphasise partner notification.",
+          "tags": [
+            "epididymo-orchitis",
+            "sti",
+            "ceftriaxone"
+          ]
+        },
+        {
+          "id": "urology--scrotal-conditions--q3",
+          "discipline": "adult-surgery",
+          "topic": "urology",
+          "difficulty": "exam",
+          "stem": "A 52-year-old man notices a soft swelling in the left side of his scrotum over 2 months. It is painless. On examination the swelling feels like a \"bag of worms\" above the testis and does not reduce when he lies down. The testis is normal.\n\nWhat is the most appropriate next investigation?",
+          "options": [
+            "Semen analysis",
+            "Reassurance only",
+            "Scrotal ultrasound only",
+            "Ultrasound or CT of the kidneys",
+            "Serum AFP and beta-hCG"
+          ],
+          "answer": 3,
+          "explanation": "A **varicocele** (bag of worms) is common in young men, is usually on the **left** (the left testicular vein drains at a right angle into the left renal vein) and **empties when lying down**. A varicocele that appears **for the first time in an older man** and **does not decompress on lying down** raises concern for **obstruction of the left renal vein by a renal cell carcinoma** (tumour thrombus). He needs **renal imaging** (ultrasound or CT). A right-sided varicocele similarly suggests IVC or retroperitoneal pathology.",
+          "whyWrong": [
+            "Semen analysis is for subfertility, not this presentation.",
+            "A new non-decompressing varicocele in an older man needs investigation.",
+            "Scrotal ultrasound confirms the varicocele but does not find its cause.",
+            "",
+            "Tumour markers are for intratesticular masses."
+          ],
+          "tags": [
+            "varicocele",
+            "renal cell carcinoma",
+            "scrotal lump"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urology--luts-bph-and-retention",
+      "title": "LUTS, BPH and urinary retention",
+      "minutes": 15,
+      "objectives": [
+        "Assess lower urinary tract symptoms in men, including storage versus voiding symptoms",
+        "Manage benign prostatic hyperplasia with lifestyle measures, drugs and surgery",
+        "Manage acute urinary retention, including reversible causes and trial without catheter",
+        "Recognise chronic retention with renal impairment and post-obstructive diuresis"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why this matters",
+          "body": "Lower urinary tract symptoms (LUTS) are very common in older men, mostly due to **benign prostatic hyperplasia (BPH)**. Acute urinary retention is a common emergency presentation and a frequent cause of **delirium** and falls in older people. The AMC tests the assessment, drug choices and side effects, the reversible causes of retention (especially **medications** and **constipation**), and the recognition of **chronic high-pressure retention** causing kidney injury."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Pathogenesis",
+          "body": "**BPH** is non-malignant growth of the **transition zone** of the prostate (around the urethra), driven by dihydrotestosterone. It narrows the urethra (the static component), while smooth muscle tone in the prostate and bladder neck, mediated by **alpha-1 adrenoceptors**, adds a dynamic component. The bladder compensates by detrusor hypertrophy, which later causes overactivity (storage symptoms) and eventually failure.\n\nProstate size correlates poorly with symptoms.\n\n**Acute urinary retention** is a painful inability to void. Precipitants:\n- **Medications:** **anticholinergics** (oxybutynin, tricyclics, antihistamines), **opioids**, sympathomimetics (decongestants), anaesthesia\n- **Constipation**\n- UTI or prostatitis\n- Alcohol, immobility, post-operative state\n- Neurological: spinal cord compression or cauda equina (must be considered, especially with back pain or leg symptoms)\n- Clot retention after haematuria\n\n**Chronic retention** is painless and develops slowly. **High-pressure chronic retention** transmits pressure to the upper tracts, causing **bilateral hydronephrosis and renal impairment**, and often presents as nocturnal enuresis."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features and assessment",
+          "body": "**Voiding (obstructive) symptoms:** hesitancy, poor stream, intermittency, straining, terminal dribbling, incomplete emptying.\n**Storage (irritative) symptoms:** frequency, urgency, nocturia, urge incontinence.\n\n**Assessment:**\n- History including medications, fluid intake (caffeine, alcohol, evening fluids), and a **frequency-volume chart**\n- Symptom score (e.g. International Prostate Symptom Score)\n- **Abdominal examination** for a palpable bladder, **DRE** (smooth, enlarged, rubbery prostate in BPH; hard, irregular in cancer), neurological examination if indicated\n- **Urinalysis** and culture if needed, **UEC** (renal function), glucose\n- **PSA**: only after discussing the benefits and harms (see the prostate cancer lesson), as it may be raised by BPH, UTI or retention\n- **Post-void residual** by bladder scan\n- Renal tract ultrasound if renal impairment or high residual\n\n**Acute retention:** severe suprapubic pain, palpable tender bladder, unable to void. **Chronic retention:** painless, large palpable bladder, overflow incontinence, possible renal impairment."
+        },
+        {
+          "kind": "differentials",
+          "heading": "LUTS that are not BPH",
+          "body": "| Cause | Clue |\n|---|---|\n| **Prostate cancer** | Hard, irregular prostate; but early cancer rarely causes LUTS |\n| **UTI or prostatitis** | Dysuria, fever, perineal pain, tender prostate |\n| **Urethral stricture** | Younger man, previous STI, catheter or instrumentation; thin or spraying stream |\n| **Bladder stones or cancer** | Haematuria, storage symptoms, interrupted stream |\n| **Overactive bladder** | Urgency with or without urge incontinence, normal flow |\n| **Polyuria** | Diabetes mellitus, diabetes insipidus, hypercalcaemia, diuretics |\n| **Nocturnal polyuria** | Heart failure, peripheral oedema redistributing at night, obstructive sleep apnoea, evening fluids |\n| **Neurogenic bladder** | Parkinson's disease, multiple sclerosis, diabetic neuropathy, spinal disease |\n| **Medications** | Diuretics, anticholinergics, opioids, decongestants |\n\nA **frequency-volume chart** over a few days separates true bladder problems from polyuria: if total output is over about 3 L a day, or more than a third is produced at night, the problem is the kidneys or fluid intake, not the prostate."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**BPH:**\n- **Lifestyle:** reduce evening fluids, caffeine and alcohol; double voiding; bladder training; review medications (diuretics timing, anticholinergics, decongestants)\n- **Alpha-blockers** (e.g. **tamsulosin**, prazosin): work within days by relaxing prostatic smooth muscle. Side effects: **postural hypotension**, dizziness, retrograde ejaculation, and **intraoperative floppy iris syndrome** (tell the ophthalmologist before cataract surgery)\n- **5-alpha reductase inhibitors** (**finasteride, dutasteride**): shrink the prostate over **3-6 months**, reduce the risk of retention and surgery in larger glands. Side effects: reduced libido, erectile dysfunction. They **halve the PSA**, so double the measured value when interpreting it\n- **Combination therapy** for larger prostates with bothersome symptoms\n- Storage-predominant symptoms: an antimuscarinic (caution in the elderly: confusion, retention) or mirabegron, once significant residual volume is excluded\n- **Surgery:** **TURP** or other procedures for refractory symptoms, recurrent retention, recurrent UTI, bladder stones, haematuria from the prostate, or renal impairment from obstruction. TURP complications include retrograde ejaculation, bleeding, incontinence and TUR syndrome (hyponatraemia from irrigation fluid)\n\n**Acute urinary retention:**\n- **Catheterise** (urethral; suprapubic if urethral fails) and record the **drained volume**\n- Treat precipitants: stop anticholinergics, manage **constipation**, treat UTI\n- Start an **alpha-blocker** and arrange a **trial without catheter** after about 2-3 days, which improves the chance of successful voiding\n- Failed trial: long-term catheter or intermittent self-catheterisation, and urology referral for surgery\n- Retention with back pain, saddle anaesthesia or leg weakness: urgent MRI for cord or cauda equina compression\n\n**Chronic high-pressure retention with renal impairment:**\n- Catheterise and monitor closely: expect **post-obstructive diuresis** (large urine output for hours to days), which can cause dehydration and electrolyte disturbance; monitor urine output, UEC and fluid balance and replace fluid as needed\n- Urology referral; these men usually need surgery or a long-term catheter\n\n**Erectile dysfunction** often accompanies LUTS and is a marker of cardiovascular disease: assess CVD risk. PDE5 inhibitors are **contraindicated with nitrates**."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Older man with acute retention after starting cold and flu tablets, oxybutynin or opioids: **catheterise and stop the drug**.\n- Alpha-blocker: quick onset; side effects are postural hypotension and floppy iris syndrome.\n- 5-alpha reductase inhibitor: slow onset, halves PSA.\n- Painless retention with 1.5 L drained and raised creatinine: **chronic retention**; watch for post-obstructive diuresis.\n- Confused elderly patient: always check for a palpable bladder and constipation.\n- Young man with a thin, spraying stream after a urethral catheter or gonorrhoea: **urethral stricture**, not BPH.\n- Nocturia with ankle oedema and over a third of output at night: nocturnal polyuria; treat the cause rather than the prostate."
+        }
+      ],
+      "keyPoints": [
+        "BPH affects the transition zone; symptoms correlate poorly with size.",
+        "Alpha-blockers (tamsulosin) act in days; watch postural hypotension and floppy iris syndrome.",
+        "5-alpha reductase inhibitors shrink the prostate over months and halve PSA.",
+        "Acute retention: catheterise, treat precipitants (anticholinergics, opioids, constipation, UTI), alpha-blocker then trial without catheter.",
+        "Chronic high-pressure retention causes hydronephrosis and renal impairment; watch for post-obstructive diuresis.",
+        "Retention with back pain or neurological signs: exclude cord or cauda equina compression.",
+        "TURP for refractory symptoms, recurrent retention or obstructive renal impairment."
+      ],
+      "redFlags": [
+        "Retention with back pain, saddle anaesthesia or leg weakness",
+        "Rising creatinine with a large painless bladder",
+        "Haematuria with clot retention",
+        "Hard, irregular prostate on DRE"
+      ],
+      "contrast": [
+        {
+          "aspect": "Acute retention management",
+          "india": "Catheter often left in with early TURP planned.",
+          "australia": "Alpha-blocker and trial without catheter first; surgery if it fails or recurs."
+        },
+        {
+          "aspect": "PSA testing in LUTS",
+          "india": "PSA commonly ordered routinely in older men with urinary symptoms.",
+          "australia": "Discuss benefits and harms first; LUTS alone are not a strong indicator of prostate cancer."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Mechanism of tamsulosin in BPH?",
+          "back": "Alpha-1 adrenoceptor blockade relaxes prostate and bladder neck smooth muscle."
+        },
+        {
+          "front": "Effect of finasteride on PSA?",
+          "back": "Roughly halves it; double the measured value to interpret."
+        },
+        {
+          "front": "Ophthalmic complication of alpha-blockers?",
+          "back": "Intraoperative floppy iris syndrome during cataract surgery."
+        },
+        {
+          "front": "Main complication to watch for after catheterising chronic high-pressure retention?",
+          "back": "Post-obstructive diuresis (with dehydration and electrolyte disturbance)."
+        },
+        {
+          "front": "Drug classes that commonly precipitate acute urinary retention?",
+          "back": "Anticholinergics, opioids and sympathomimetics (decongestants)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "urology--luts-bph-and-retention--q1",
+          "discipline": "adult-surgery",
+          "topic": "urology",
+          "difficulty": "foundation",
+          "stem": "A 74-year-old man presents with 8 hours of inability to pass urine and severe lower abdominal pain. He started a cold and flu tablet containing pseudoephedrine and an antihistamine 2 days ago. He has had a poor stream for years. There is a tender, dullness-to-percussion suprapubic mass.\n\nWhat is the most appropriate immediate management?",
+          "options": [
+            "Oral tamsulosin and review in 24 hours",
+            "Insert a urethral catheter and record the drained volume",
+            "Urgent TURP",
+            "Renal ultrasound before any intervention",
+            "IV frusemide"
+          ],
+          "answer": 1,
+          "explanation": "This is **acute urinary retention** in a man with probable BPH, precipitated by a **sympathomimetic** (pseudoephedrine, which increases bladder neck tone) and an **anticholinergic** antihistamine (which reduces detrusor contraction). Immediate treatment is **catheterisation** to relieve the pain and protect the kidneys, recording the **drained volume** (a very large volume suggests acute-on-chronic retention). Then stop the precipitating drugs, check for constipation and UTI, check renal function, start an alpha-blocker and arrange a trial without catheter after a few days.",
+          "whyWrong": [
+            "Tamsulosin alone will not relieve acute retention quickly enough.",
+            "",
+            "Surgery is not the first step; many men void after a trial without catheter.",
+            "Imaging should not delay relief of painful retention.",
+            "A diuretic would worsen bladder distension."
+          ],
+          "tags": [
+            "urinary retention",
+            "bph",
+            "medications"
+          ]
+        },
+        {
+          "id": "urology--luts-bph-and-retention--q2",
+          "discipline": "adult-surgery",
+          "topic": "urology",
+          "difficulty": "core",
+          "stem": "A 68-year-old man with moderate bothersome voiding symptoms from BPH is started on tamsulosin by his GP. He mentions he is booked for cataract surgery in 2 months.\n\nWhat is the most important advice?",
+          "options": [
+            "Tamsulosin will shrink his prostate by about 25% over 6 months",
+            "Tamsulosin will halve his PSA",
+            "Tamsulosin commonly causes hypoglycaemia",
+            "Tamsulosin is contraindicated with paracetamol",
+            "Tell his ophthalmologist he is taking tamsulosin because of the risk of floppy iris syndrome"
+          ],
+          "answer": 4,
+          "explanation": "Alpha-1 blockers, especially **tamsulosin**, are associated with **intraoperative floppy iris syndrome**: the iris billows and constricts during cataract surgery, increasing complications. The ophthalmologist can modify their technique if they know in advance, and the effect may persist after stopping the drug. Other side effects to mention are **postural hypotension** and dizziness (take at night initially) and retrograde ejaculation. Prostate shrinkage and halving of PSA are effects of **5-alpha reductase inhibitors** (finasteride, dutasteride), not alpha-blockers.",
+          "whyWrong": [
+            "Shrinkage over months is the action of 5-alpha reductase inhibitors.",
+            "PSA halving is caused by 5-alpha reductase inhibitors.",
+            "Alpha-blockers do not cause hypoglycaemia.",
+            "There is no interaction with paracetamol.",
+            ""
+          ],
+          "tags": [
+            "tamsulosin",
+            "floppy iris syndrome",
+            "bph"
+          ]
+        },
+        {
+          "id": "urology--luts-bph-and-retention--q3",
+          "discipline": "adult-surgery",
+          "topic": "urology",
+          "difficulty": "exam",
+          "stem": "A 79-year-old man presents with new nocturnal bedwetting and tiredness. He has no pain. His bladder is palpable to the umbilicus. Creatinine is 290 µmol/L (baseline 95 six months ago). A catheter drains 1900 mL. Over the next 4 hours he passes 450 mL/h of urine.\n\nWhat is the most important next step in management?",
+          "options": [
+            "Clamp the catheter to slow the drainage",
+            "Remove the catheter and arrange a trial of void tomorrow",
+            "Monitor fluid balance, urine output and electrolytes closely and replace fluid as needed",
+            "Give IV frusemide to maintain the diuresis",
+            "Arrange urgent TURP today"
+          ],
+          "answer": 2,
+          "explanation": "Painless retention with a very large residual volume, **bedwetting (overflow)** and **acute kidney injury** is **chronic high-pressure retention**, which causes bilateral hydronephrosis. After relieving the obstruction, the kidneys often produce a large volume of urine: **post-obstructive diuresis**, caused by accumulated urea (osmotic), impaired tubular concentrating ability and volume overload. It can cause **dehydration, hypotension, hyponatraemia or hypernatraemia and hypokalaemia**. Management is careful monitoring of **urine output, fluid balance and UEC**, with IV fluid replacement if he becomes volume depleted. Clamping the catheter is no longer recommended. He needs a long-term catheter pending urology review; a trial of void now would fail.",
+          "whyWrong": [
+            "Clamping is not recommended and does not prevent diuresis.",
+            "He will fail a trial of void with chronic high-pressure retention and AKI.",
+            "",
+            "A diuretic worsens volume depletion.",
+            "Surgery is deferred until renal function has recovered and he is optimised."
+          ],
+          "tags": [
+            "chronic retention",
+            "post-obstructive diuresis",
+            "aki"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urology--prostate-cancer-and-psa",
+      "title": "Prostate cancer and PSA testing",
+      "minutes": 15,
+      "objectives": [
+        "Explain the benefits and harms of PSA testing to support a man's informed decision",
+        "Apply the Australian approach to PSA testing by age and family history",
+        "Outline the investigation of a raised PSA, including MRI before biopsy",
+        "Summarise treatment options, including active surveillance and androgen deprivation therapy"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Prostate cancer in Australia",
+          "body": "Prostate cancer is the **most commonly diagnosed cancer in Australian men** (excluding common skin cancers) and a leading cause of male cancer death. Most prostate cancers grow slowly, and many men die **with** rather than **of** the disease. Because of this, **Australia has no organised prostate cancer screening program**. PSA testing is an **individual decision** made after a doctor explains the benefits and harms, and the AMC treats this as a communication and ethics task as much as a clinical one."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Pathogenesis and risk factors",
+          "body": "Most prostate cancers are **adenocarcinomas** arising in the **peripheral zone** (hence palpable on DRE, unlike BPH in the transition zone). Growth is androgen-dependent, which is why androgen deprivation works for advanced disease.\n\n**Risk factors:** **increasing age**, **family history** (a father or brother with prostate cancer, especially diagnosed young; multiple relatives), inherited **BRCA2** (and BRCA1) mutations, and African ancestry.\n\n**PSA** (prostate-specific antigen) is produced by normal and malignant prostate tissue. It rises with cancer, but also with **BPH, prostatitis, UTI, urinary retention, recent catheterisation or instrumentation, and ejaculation or vigorous cycling** in the preceding days. **5-alpha reductase inhibitors halve PSA.** So PSA is organ-specific, not cancer-specific."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "- **Early prostate cancer is usually asymptomatic.** LUTS in older men are usually from BPH, not cancer\n- DRE may find a **hard, irregular, nodular** prostate, sometimes with loss of the median sulcus\n- **Advanced disease:** bone pain (especially back), pathological fractures, weight loss, anaemia, **spinal cord compression** (back pain, leg weakness, sensory level, sphincter disturbance), obstructive uropathy\n- Bone metastases are typically **sclerotic (osteoblastic)**, with raised ALP"
+        },
+        {
+          "kind": "application",
+          "heading": "Counselling about PSA testing",
+          "body": "The Prostate Cancer Foundation of Australia and Cancer Council Australia guidelines (the version current at the time of writing; check for updates, as they are being revised) advise:\n- Men at **average risk** who decide, **after being informed of the benefits and harms**, to be tested should be **offered PSA testing every 2 years from age 50 to 69**\n- Men with a **family history** (a father or brother diagnosed, particularly at a young age) are at higher risk and may be offered testing from an earlier age (commonly 40-45)\n- **DRE is not recommended as a routine screening test** in asymptomatic men in primary care\n- Testing is not generally recommended for men with a life expectancy under about 7-10 years\n\n**What to discuss:**\n| Potential benefits | Potential harms |\n|---|---|\n| Earlier detection may **reduce the risk of dying from prostate cancer** and of developing metastatic disease | **False positives** leading to anxiety and further tests |\n| Reassurance if normal | **Overdiagnosis**: finding cancers that would never have caused harm |\n| | **Biopsy complications**: bleeding, pain, **infection and sepsis** (lower with transperineal biopsy) |\n| | **Treatment side effects**: **urinary incontinence, erectile dysfunction** and bowel problems |\n| | False negatives |\n\nUse plain language and decision aids, respect the patient's values, and **document the discussion and his decision**. It is appropriate for a man to decline testing, and ordering a PSA without discussion (e.g. adding it to routine bloods) is poor practice."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigating a raised PSA",
+          "body": "1. **Repeat the PSA** (ideally after excluding UTI, avoiding ejaculation and cycling for a few days), and consider free-to-total PSA ratio; interpret with age, prostate size and 5-alpha reductase inhibitor use\n2. **Urology referral** if persistently raised or rising\n3. **Multiparametric MRI** of the prostate before biopsy, which identifies suspicious areas and lets some men avoid biopsy (Medicare funds prostate MRI under criteria)\n4. **Biopsy**, now usually **transperineal** (much lower sepsis risk than transrectal), targeted to MRI lesions\n5. Grading: **Gleason score / ISUP grade group**; staging with PSMA PET or CT and bone scan for higher-risk disease"
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "Treatment depends on risk (PSA, grade, stage), life expectancy and the man's preferences, ideally decided in a **multidisciplinary** setting.\n- **Low-risk localised disease:** **active surveillance** (regular PSA, MRI and repeat biopsy), with treatment only if it progresses. This avoids the side effects of treatment for cancers that may never cause harm\n- **Watchful waiting:** for older or comorbid men, treating only if symptoms develop\n- **Intermediate or high-risk localised disease:** **radical prostatectomy** or **radiotherapy** (external beam or brachytherapy, often with androgen deprivation). Side effects: incontinence, erectile dysfunction, bowel symptoms (radiotherapy)\n- **Advanced or metastatic disease:** **androgen deprivation therapy (ADT)** (GnRH agonists or antagonists, orchidectomy), plus newer androgen receptor pathway inhibitors or chemotherapy. ADT side effects: hot flushes, loss of libido, fatigue, **osteoporosis** (monitor bone density), metabolic syndrome and cardiovascular risk. A GnRH agonist can cause a **tumour flare** initially, covered by an antiandrogen\n- **Metastatic spinal cord compression:** **dexamethasone**, urgent MRI and radiotherapy or surgery\n- Palliative care, pain management and support services"
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- A 55-year-old man asks for a \"prostate check\": the best answer is to **discuss the benefits and harms** and support his decision, not to order a PSA immediately or refuse.\n- Family history (father diagnosed at 55): he may start testing earlier.\n- Raised PSA: repeat, exclude UTI, refer for **MRI before biopsy**.\n- A man on finasteride with a \"normal\" PSA: double it.\n- Back pain and leg weakness in a man with metastatic prostate cancer: **dexamethasone and urgent MRI**.\n- LUTS alone are not a reason to test for prostate cancer; they are usually from BPH.\n- A man starting ADT needs baseline bone density, calcium and vitamin D, exercise advice and cardiovascular risk assessment.\n- Documenting the PSA conversation matters medico-legally as well as ethically: the record should show the discussion of benefits, harms and his choice."
+        }
+      ],
+      "keyPoints": [
+        "No organised prostate screening program in Australia; PSA testing requires informed shared decision-making.",
+        "Men at average risk who choose testing: PSA every 2 years from 50 to 69.",
+        "Family history (father or brother) may justify testing from 40-45.",
+        "Harms: false positives, overdiagnosis, biopsy infection, incontinence and erectile dysfunction after treatment.",
+        "Raised PSA: repeat, exclude UTI, MRI before (transperineal) biopsy.",
+        "Low-risk disease: active surveillance; higher risk: prostatectomy or radiotherapy; advanced: ADT.",
+        "ADT causes osteoporosis and metabolic effects; monitor bone health."
+      ],
+      "redFlags": [
+        "Back pain with leg weakness or sphincter disturbance in known prostate cancer (cord compression)",
+        "Hard, irregular prostate on DRE",
+        "Bone pain with raised ALP in an older man",
+        "Fever after prostate biopsy (sepsis)"
+      ],
+      "contrast": [
+        {
+          "aspect": "PSA testing",
+          "india": "Often ordered routinely in older men, sometimes without discussion.",
+          "australia": "No screening program; discuss benefits and harms, record the decision, and test only if he chooses."
+        },
+        {
+          "aspect": "Prostate biopsy",
+          "india": "Transrectal biopsy, often without prior MRI.",
+          "australia": "MRI before biopsy is standard; transperineal biopsy preferred to reduce sepsis."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "PSA testing interval and age range for average-risk men who choose testing?",
+          "back": "Every 2 years from 50 to 69."
+        },
+        {
+          "front": "Main harms of PSA testing?",
+          "back": "False positives, overdiagnosis, biopsy complications, and treatment side effects (incontinence, erectile dysfunction)."
+        },
+        {
+          "front": "First imaging after a persistently raised PSA?",
+          "back": "Multiparametric MRI of the prostate."
+        },
+        {
+          "front": "Management of low-risk localised prostate cancer?",
+          "back": "Active surveillance."
+        },
+        {
+          "front": "Bone-related adverse effect of androgen deprivation therapy?",
+          "back": "Osteoporosis and fracture risk."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "urology--prostate-cancer-and-psa--q1",
+          "discipline": "adult-surgery",
+          "topic": "urology",
+          "difficulty": "foundation",
+          "stem": "A 54-year-old man with no urinary symptoms asks his GP for \"the prostate cancer blood test\" because a colleague was just diagnosed. He has no family history of prostate cancer and is otherwise well.\n\nWhat is the most appropriate response?",
+          "options": [
+            "Order a PSA and DRE today as routine screening",
+            "Decline, because PSA testing is not recommended in Australia",
+            "Refer directly to a urologist for assessment",
+            "Order a PSA without discussion as it is a simple blood test",
+            "Discuss the potential benefits and harms of PSA testing and support his informed decision"
+          ],
+          "answer": 4,
+          "explanation": "Australia has **no organised prostate screening program**, and guidelines recommend that PSA testing follows an **informed, shared decision**. The GP should explain the potential benefit (reduced risk of dying from prostate cancer) and the harms (false positives, **overdiagnosis**, biopsy complications including infection, and treatment side effects such as incontinence and erectile dysfunction), ideally with a decision aid, and **document** the discussion. If he chooses testing, men at average risk are offered PSA every 2 years from 50 to 69. **DRE is not recommended** as a routine screening test in asymptomatic men in primary care.",
+          "whyWrong": [
+            "Testing without discussion and routine DRE screening are not recommended.",
+            "Testing is appropriate if he chooses it after an informed discussion.",
+            "Specialist referral is not needed for an asymptomatic man.",
+            "Ordering PSA without discussion bypasses informed consent.",
+            ""
+          ],
+          "ausPearl": "Explaining the benefits and harms before PSA testing and documenting the patient's decision is an expected part of Australian practice.",
+          "tags": [
+            "psa",
+            "shared decision-making",
+            "screening"
+          ]
+        },
+        {
+          "id": "urology--prostate-cancer-and-psa--q2",
+          "discipline": "adult-surgery",
+          "topic": "urology",
+          "difficulty": "core",
+          "stem": "A 62-year-old man chose PSA testing after discussion with his GP. His PSA is 6.8 µg/L (it was 3.1 µg/L 2 years ago). He has no urinary symptoms and a urine culture is negative. A repeat PSA 6 weeks later is 7.0 µg/L.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Referral to urology for multiparametric MRI of the prostate",
+            "Start finasteride and repeat PSA in 6 months",
+            "Transrectal biopsy by the GP",
+            "Bone scan",
+            "Start androgen deprivation therapy"
+          ],
+          "answer": 0,
+          "explanation": "A **persistently raised and rising PSA** (more than doubled in 2 years), with UTI excluded, needs **urology referral**. Current practice is **multiparametric MRI** of the prostate **before biopsy**: it identifies clinically significant cancers, targets the biopsy and allows some men to avoid biopsy altogether. Biopsy, if needed, is usually **transperineal** to reduce sepsis risk. Finasteride would lower the PSA and mask a cancer. Staging (bone scan, PSMA PET) and treatment come after a tissue diagnosis.",
+          "whyWrong": [
+            "",
+            "Finasteride masks PSA and delays diagnosis.",
+            "Biopsy is performed by urologists, usually transperineally after MRI.",
+            "Staging comes after diagnosis, and only for higher-risk disease.",
+            "Treatment requires a confirmed diagnosis and risk assessment."
+          ],
+          "tags": [
+            "psa",
+            "mri",
+            "prostate cancer"
+          ]
+        },
+        {
+          "id": "urology--prostate-cancer-and-psa--q3",
+          "discipline": "adult-surgery",
+          "topic": "urology",
+          "difficulty": "exam",
+          "stem": "A 71-year-old man with metastatic prostate cancer on androgen deprivation therapy presents with 2 weeks of worsening mid-thoracic back pain and 1 day of difficulty walking. On examination he has bilateral leg weakness, brisk reflexes and reduced sensation below the umbilicus.\n\nWhat is the most appropriate immediate management?",
+          "options": [
+            "Oral paracetamol and review in 1 week",
+            "Start high-dose dexamethasone and arrange urgent MRI of the whole spine",
+            "Arrange a bone scan as an outpatient",
+            "Increase the androgen deprivation therapy dose",
+            "Arrange physiotherapy for mobility"
+          ],
+          "answer": 1,
+          "explanation": "Back pain, **bilateral leg weakness, upper motor neuron signs** and a **sensory level** (T10, umbilicus) in a man with metastatic prostate cancer is **metastatic spinal cord compression**, an oncological emergency. Start **high-dose dexamethasone** to reduce cord oedema, keep him on bed rest with spinal precautions if the spine may be unstable, and arrange **urgent MRI of the whole spine** (multiple levels are common). Refer urgently to oncology and spinal surgery for **radiotherapy or decompression**. Outcome depends on neurological function at the start of treatment, so time is critical.",
+          "whyWrong": [
+            "Delay risks permanent paralysis.",
+            "",
+            "A bone scan does not show cord compression and delays treatment.",
+            "ADT dose changes do not treat acute compression.",
+            "Physiotherapy is inappropriate before diagnosis and treatment of compression."
+          ],
+          "tags": [
+            "cord compression",
+            "prostate cancer",
+            "oncological emergency"
+          ]
+        }
+      ]
+    }
+  ]
+}

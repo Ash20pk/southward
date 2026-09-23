@@ -1,0 +1,1124 @@
+{
+  "topic": "rheumatology",
+  "intro": "Rheumatology on the AMC is less about rare syndromes and more about safe decisions: aspirating the hot joint before antibiotics, treating gout to a urate target, starting methotrexate early and safely in rheumatoid arthritis, and giving steroids immediately in giant cell arteritis. This course covers the hot joint, gout and osteoarthritis, inflammatory arthritis, PMR and vasculitis, lupus and connective tissue disease, and back pain with its red flags.",
+  "lessons": [
+    {
+      "id": "rheumatology--hot-swollen-joint",
+      "title": "The hot swollen joint",
+      "minutes": 16,
+      "objectives": [
+        "Treat an acute monoarthritis as septic until joint fluid proves otherwise",
+        "Order and interpret synovial fluid analysis, including crystal microscopy",
+        "Distinguish septic arthritis, gout, pseudogout and reactive arthritis at the bedside",
+        "Start appropriate empirical antibiotics and know when to call orthopaedics"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why the hot joint is an emergency",
+          "body": "An acutely hot, swollen, painful joint is **septic arthritis until proven otherwise**. Bacteria destroy articular cartilage within days, and untreated septic arthritis carries a meaningful mortality, especially in older people with prosthetic joints, diabetes or rheumatoid arthritis. The commonest cause of an acute monoarthritis in Australian practice is still **gout**, but the whole point of the workup is that you cannot tell them apart reliably on examination. Crystals and infection can coexist.\n\nThe AMC loves this scenario because it tests one safe behaviour: **aspirate the joint before giving antibiotics**, and send the fluid for Gram stain, culture, cell count and crystal microscopy."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "How joints get infected and inflamed",
+          "body": "- **Haematogenous seeding** is the usual route: *Staphylococcus aureus* is the most common organism overall. Streptococci are next.\n- **Neisseria gonorrhoeae** causes septic arthritis in young sexually active adults, often with a migratory polyarthralgia, tenosynovitis and a sparse pustular rash (disseminated gonococcal infection).\n- **Direct inoculation**: joint injection, surgery, penetrating injury, bites.\n- **Prosthetic joint infection**: early (within weeks of surgery) or late haematogenous. Needs orthopaedic management.\n- **Risk factors**: age over 80, diabetes, RA, prosthetic joint, recent joint surgery or injection, skin infection, injecting drug use (think unusual joints such as sternoclavicular and sacroiliac, and *Pseudomonas*), immunosuppression.\n\n**Crystal arthritis** is sterile inflammation. Monosodium urate crystals (gout) or calcium pyrophosphate crystals (CPPD, \"pseudogout\") are phagocytosed by neutrophils and activate the NLRP3 inflammasome, releasing IL-1. That is why colchicine (neutrophil microtubule inhibitor) and steroids work, and why a gout attack can look exactly like sepsis, fever and all."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "- **Septic arthritis**: usually one large joint (knee most often, then hip, shoulder, ankle), severe pain on any passive movement, effusion, warmth, reduced range. Fever is absent in a substantial minority, so a normal temperature does not exclude it.\n- **Gout**: rapid onset over hours, often overnight, exquisitely tender (the sheet hurts), overlying erythema that may desquamate. First MTP joint (podagra) classically, also midfoot, ankle, knee, wrist, olecranon bursa. Triggers: alcohol, dehydration, diuretics, acute illness, surgery, starting urate-lowering therapy.\n- **Pseudogout (acute CPP crystal arthritis)**: older patient, knee or wrist, often after surgery or intercurrent illness. Associations worth knowing: haemochromatosis, hyperparathyroidism, hypomagnesaemia, hypophosphatasia.\n- **Reactive arthritis**: asymmetric lower-limb oligoarthritis 1 to 4 weeks after gastroenteritis (*Salmonella, Shigella, Campylobacter*) or chlamydia; may have urethritis, conjunctivitis, enthesitis (heel pain).\n- **Haemarthrosis**: trauma, anticoagulants, haemophilia."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations: the tap comes first",
+          "body": "**Joint aspiration** is the key test. Send fluid for:\n\n| Test | What it tells you |\n|---|---|\n| Gram stain and culture | Positive in most non-gonococcal septic arthritis; a negative Gram stain does not exclude infection |\n| White cell count | Rough guide only: over about 50 x 10^9/L strongly suggests sepsis, but crystal arthritis can reach this |\n| Polarised light microscopy | Gout: **needle-shaped, negatively birefringent** urate crystals. CPPD: **rhomboid, weakly positively birefringent** crystals |\n\nAlso: **blood cultures** (before antibiotics), FBC, CRP, urea and electrolytes, urate (can be normal during an acute gout attack, so do not use it to diagnose or exclude gout), and in young sexually active patients **NAAT swabs** for gonorrhoea and chlamydia from urethra, cervix, throat and rectum, because joint cultures for gonococcus are often negative.\n\nPlain X-ray is of limited value acutely but shows chondrocalcinosis (CPPD), gouty erosions (\"punched-out\" with overhanging edges) or a fracture. Ultrasound helps guide aspiration of the hip.\n\n**Prosthetic joint**: aspirate only in theatre or by orthopaedics, to avoid introducing infection."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Telling them apart",
+          "body": "| Feature | Septic | Gout | Pseudogout | Reactive |\n|---|---|---|---|---|\n| Onset | Hours to days | Hours, often overnight | Hours to days | 1 to 4 weeks post infection |\n| Typical joint | Knee, hip | 1st MTP, foot, ankle | Knee, wrist | Knee, ankle, asymmetric |\n| Fluid | Pus, organisms | Negative needles | Positive rhomboids | Sterile, inflammatory |\n| Clue | Risk factor, prosthesis | Diuretic, alcohol, CKD | Elderly, chondrocalcinosis | Diarrhoea or STI, conjunctivitis |\n\nAlso consider cellulitis over a joint (movement is relatively painless) and bursitis (pain on direct pressure, not on passive movement of the joint)."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**If septic arthritis is suspected:**\n1. Aspirate the joint and take blood cultures, then **start empirical IV antibiotics immediately** without waiting for results.\n2. Empirical therapy follows eTG: an anti-staphylococcal penicillin (**flucloxacillin IV**) for most adults, adding or substituting **vancomycin** if MRSA risk (known colonisation, community MRSA prevalence, healthcare exposure). Suspected gonococcal arthritis: **ceftriaxone**. Tailor to culture.\n3. **Orthopaedic referral** for joint washout (arthroscopic or open), mandatory for prosthetic joints and hips; repeated needle aspiration is sometimes used for accessible joints.\n4. Total course is usually several weeks, IV then oral; check eTG for duration.\n\n**Acute gout** (once sepsis is reasonably excluded): see the gout lesson. **Pseudogout**: joint aspiration itself relieves pain; intra-articular steroid once infection excluded, NSAID or colchicine or oral prednisolone.\n\n**Reactive arthritis**: NSAIDs, intra-articular steroid; treat chlamydia and contacts."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- The answer to \"most appropriate next step\" in a hot joint is almost always **joint aspiration**, not urate, not X-ray, not empirical colchicine.\n- If the stem gives crystals **and** a raised count, remember infection and gout can coexist; a positive Gram stain wins.\n- A young person with a hot knee, pustules on the hands and tenosynovitis: **disseminated gonococcal infection**. Treat with ceftriaxone and trace contacts.\n- Serum urate is normal in a significant minority during an acute attack. It is a monitoring test, not a diagnostic one.\n- Injecting drug user with sternoclavicular joint pain: septic arthritis until proven otherwise."
+        }
+      ],
+      "keyPoints": [
+        "Acute monoarthritis is septic until joint fluid says otherwise.",
+        "Aspirate before antibiotics: Gram stain, culture, cell count, crystals, plus blood cultures.",
+        "Gout crystals are needle-shaped and negatively birefringent; CPPD crystals are rhomboid and positively birefringent.",
+        "Fever and a raised urate are unreliable discriminators.",
+        "Empirical IV flucloxacillin (vancomycin if MRSA risk) per eTG, and orthopaedic washout.",
+        "Young sexually active patient with rash and tenosynovitis: think gonococcus, give ceftriaxone."
+      ],
+      "redFlags": [
+        "Hot swollen prosthetic joint",
+        "Systemic sepsis with a single swollen joint",
+        "Immunosuppressed, diabetic or injecting drug use with a hot joint",
+        "Unable to bear weight with a hot hip"
+      ],
+      "contrast": [
+        {
+          "aspect": "Hot joint workup",
+          "india": "Often treated empirically with analgesics and antibiotics before any tap.",
+          "australia": "Joint aspiration with Gram stain, culture and crystal microscopy before antibiotics is the expected standard."
+        },
+        {
+          "aspect": "Gonococcal testing",
+          "india": "Gonorrhoea rarely considered outside STI clinics.",
+          "australia": "NAAT swabs from urethra, cervix, throat and rectum routinely in young sexually active patients with arthritis."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Most common organism in adult septic arthritis?",
+          "back": "*Staphylococcus aureus*."
+        },
+        {
+          "front": "Gout crystals under polarised light?",
+          "back": "Needle-shaped, negatively birefringent monosodium urate."
+        },
+        {
+          "front": "CPPD (pseudogout) crystals?",
+          "back": "Rhomboid, weakly positively birefringent calcium pyrophosphate."
+        },
+        {
+          "front": "First step in an acute hot swollen joint?",
+          "back": "Aspirate the joint (and take blood cultures) before starting antibiotics."
+        },
+        {
+          "front": "Empirical antibiotic for suspected gonococcal arthritis?",
+          "back": "Ceftriaxone (check eTG for dose), plus contact tracing."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "rheumatology--hot-swollen-joint--q1",
+          "discipline": "adult-medicine",
+          "topic": "rheumatology",
+          "difficulty": "core",
+          "stem": "A 68-year-old man presents to a Brisbane emergency department with a 24-hour history of a painful, swollen right knee. He has type 2 diabetes and had a knee steroid injection 10 days ago. Temperature 37.9 °C, HR 104 bpm, BP 126/78 mmHg. The knee is hot with a large effusion and he cannot tolerate any passive movement. He has a past history of gout.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Start oral colchicine and review in 24 hours",
+            "Measure serum urate",
+            "Aspirate the knee and take blood cultures, then start IV antibiotics",
+            "Arrange an MRI of the knee",
+            "Inject intra-articular corticosteroid"
+          ],
+          "answer": 2,
+          "explanation": "A hot swollen joint after a recent injection in a diabetic man with fever and tachycardia is **septic arthritis until proven otherwise**, regardless of his gout history. The priority is to **aspirate the joint** (Gram stain, culture, cell count, crystals) and take **blood cultures**, then start empirical IV antibiotics straight away, without waiting for results. Orthopaedics should be involved for washout. Crystal arthritis and sepsis can coexist, so finding urate crystals does not exclude infection. **Discriminating clue:** recent joint injection plus systemic features.",
+          "whyWrong": [
+            "Treating as gout without excluding sepsis risks destruction of the joint and systemic sepsis.",
+            "Urate may be normal in an acute attack and does not exclude infection.",
+            "",
+            "MRI delays diagnosis; fluid analysis is what distinguishes sepsis from crystals.",
+            "Intra-articular steroid into an infected joint is dangerous and contraindicated until sepsis is excluded."
+          ],
+          "ausPearl": "eTG guides empirical choice: flucloxacillin for most, vancomycin if MRSA risk. Check local MRSA prevalence, which is high in some northern Australian communities.",
+          "tags": [
+            "septic arthritis",
+            "monoarthritis",
+            "aspiration"
+          ]
+        },
+        {
+          "id": "rheumatology--hot-swollen-joint--q2",
+          "discipline": "adult-medicine",
+          "topic": "rheumatology",
+          "difficulty": "foundation",
+          "stem": "A 76-year-old woman in a Hobart surgical ward develops a painful swollen left wrist two days after a hip replacement. She is afebrile. Joint aspiration shows a white cell count of 18 x 10^9/L, no organisms on Gram stain, and rhomboid-shaped crystals that are weakly positively birefringent. X-ray shows linear calcification of the triangular fibrocartilage.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Gout",
+            "Septic arthritis",
+            "Rheumatoid arthritis",
+            "Reactive arthritis",
+            "Acute calcium pyrophosphate crystal arthritis"
+          ],
+          "answer": 4,
+          "explanation": "**Rhomboid, weakly positively birefringent crystals** are calcium pyrophosphate. Together with **chondrocalcinosis** (calcification of the triangular fibrocartilage or knee menisci) in an older patient after surgery, this is acute CPP crystal arthritis, often called pseudogout. Knee and wrist are the classic joints. Culture still needs to be followed up, because sepsis can coexist. Management is aspiration, then an intra-articular steroid once infection is excluded, or NSAID, colchicine or a short course of prednisolone. In younger patients, screen for associations such as haemochromatosis and hyperparathyroidism.",
+          "whyWrong": [
+            "Gout crystals are needle-shaped and negatively birefringent.",
+            "No organisms and positive crystals make sepsis less likely, although culture should still be followed.",
+            "RA is a symmetrical small-joint polyarthritis, not an acute post-operative monoarthritis.",
+            "Reactive arthritis follows gastrointestinal or genitourinary infection and has no crystals.",
+            ""
+          ],
+          "tags": [
+            "cppd",
+            "pseudogout",
+            "crystals"
+          ]
+        },
+        {
+          "id": "rheumatology--hot-swollen-joint--q3",
+          "discipline": "adult-medicine",
+          "topic": "rheumatology",
+          "difficulty": "exam",
+          "stem": "A 22-year-old woman presents to a Sydney GP with 4 days of fever, pain moving between her wrists and knees, and now a swollen right knee. On examination there is tenderness along the extensor tendons of the left wrist and there are four small pustules on an erythematous base on her hands and forearms. She has a new sexual partner.\n\nWhich treatment is most appropriate after taking joint fluid, blood cultures and swabs?",
+          "options": [
+            "Oral doxycycline for 7 days",
+            "Oral prednisolone",
+            "Intravenous ceftriaxone",
+            "Oral amoxicillin",
+            "Intravenous flucloxacillin alone"
+          ],
+          "answer": 2,
+          "explanation": "The triad of **migratory polyarthralgia, tenosynovitis and a sparse pustular rash** in a young sexually active person is **disseminated gonococcal infection**. Joint fluid cultures are often negative, so NAAT swabs from urethra or cervix, throat and rectum are important. Treatment is IV **ceftriaxone** (a third-generation cephalosporin; resistance to penicillin and ciprofloxacin is common). Test and treat for chlamydia and other STIs, and arrange contact tracing. **Clue:** tenosynovitis with pustules.",
+          "whyWrong": [
+            "Doxycycline treats chlamydia but not disseminated gonococcal infection.",
+            "Steroids would worsen an infection and are not indicated.",
+            "",
+            "Gonococcal resistance makes amoxicillin unreliable.",
+            "Flucloxacillin covers staphylococci but not Neisseria gonorrhoeae."
+          ],
+          "ausPearl": "Gonorrhoea is notifiable in all Australian states and territories; the Australian STI Management Guidelines cover contact tracing.",
+          "tags": [
+            "gonococcal",
+            "septic arthritis",
+            "sti"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rheumatology--gout-and-osteoarthritis",
+      "title": "Gout and osteoarthritis",
+      "minutes": 17,
+      "objectives": [
+        "Treat an acute gout flare safely in the presence of kidney disease or anticoagulation",
+        "Start allopurinol low and titrate to a serum urate below 0.36 mmol/L",
+        "Recognise allopurinol hypersensitivity and its risk factors",
+        "Manage osteoarthritis with exercise, weight loss and education first"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Two very common joint problems",
+          "body": "**Gout** affects a few per cent of Australian adults and is especially common in Māori and Pacific Islander communities and among older men with CKD or on diuretics. It is a disease of urate **excess**, and it is curable with long-term urate lowering, yet most patients are undertreated.\n\n**Osteoarthritis** is the commonest joint disease and a leading cause of disability in Australia. It is managed mostly in general practice, and the AMC tests whether you know that exercise and weight loss beat pills, and that knee arthroscopy does not help."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Pathogenesis",
+          "body": "**Gout.** When serum urate exceeds its saturation point (about 0.40 mmol/L), monosodium urate crystals deposit in and around joints. Most hyperuricaemia comes from **under-excretion** by the kidney: CKD, thiazide and loop diuretics, low-dose aspirin, ciclosporin, alcohol, fructose, obesity and genetics. Over-production occurs in myeloproliferative disease and tumour lysis. Crystals shed into the joint trigger the IL-1-driven flare. Untreated, recurrent flares lead to **tophi** (chalky deposits on ears, elbows, fingers) and erosive chronic gouty arthritis. Urate also forms kidney stones.\n\n**Osteoarthritis** is not simple wear and tear. It is whole-joint failure: cartilage loss, subchondral bone remodelling (sclerosis, cysts), osteophytes and low-grade synovitis, driven by age, obesity, joint injury, malalignment and genetics."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "**Gout flare**: sudden severe pain, redness and swelling, peaking within 24 hours, settling over 1 to 2 weeks even untreated. First MTP most typical. Between flares the joint is normal early on. Look for tophi and ask about diuretics, alcohol, sugary drinks, kidney disease and family history.\n\n**Osteoarthritis**: use-related pain, relieved by rest; **morning stiffness under 30 minutes** (contrast with inflammatory arthritis, often over an hour); crepitus, bony enlargement, reduced range. Hands: **Heberden nodes** (DIP) and **Bouchard nodes** (PIP), squaring of the first CMC joint. Weight-bearing joints: knees, hips (groin pain, reduced internal rotation), lumbar and cervical spine."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "**Gout**\n- Gold standard: urate crystals in joint fluid or tophus.\n- Serum urate: measure 2 or more weeks after a flare settles for a baseline; monitor on treatment. Units in Australia are **mmol/L**.\n- Check eGFR, glucose, lipids, blood pressure: gout travels with the metabolic syndrome and cardiovascular disease.\n- X-ray in chronic gout: punched-out erosions with overhanging edges, preserved joint space until late. Dual-energy CT can show urate deposits.\n\n**Osteoarthritis**\n- A **clinical diagnosis** in people over about 45 with typical symptoms. Imaging is not needed to diagnose it.\n- X-ray, if done: joint space narrowing, osteophytes, subchondral sclerosis and cysts. Radiographic severity correlates poorly with pain.\n- Bloods (ESR, CRP) are normal; if raised, think of something else. MRI is not routinely indicated."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Differentials",
+          "body": "| Presentation | Think of | Discriminator |\n|---|---|---|\n| Hot red first MTP | Gout | Crystals on aspiration; recurrent attacks with full recovery between |\n| Hot red foot without joint pain on movement | Cellulitis | Spreading erythema, joint moves relatively freely |\n| Hot monoarthritis with fever | Septic arthritis | Organisms on Gram stain or culture |\n| Older person, knee or wrist, chondrocalcinosis | CPPD | Positively birefringent rhomboids |\n| Hand OA with inflamed nodes | Erosive (inflammatory) OA | DIP/PIP, normal CRP, \"gull-wing\" erosions |\n| Polyarticular chronic arthritis with nodules | RA vs tophaceous gout | Anti-CCP versus crystals in a nodule |\n\nA hip that is painful with reduced internal rotation in an older person is usually OA, but if pain is severe at rest or at night, consider avascular necrosis (steroids, alcohol), fracture, infection or metastasis."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Acute gout flare**: start early; choice depends on comorbidity.\n- **NSAID** at full dose (avoid in CKD, heart failure, peptic ulcer, anticoagulation).\n- **Low-dose colchicine**: the eTG regimen is 1 mg, then 0.5 mg one hour later (total 1.5 mg in the first day), which is as effective as old high-dose regimens with far less diarrhoea. Reduce or avoid in significant CKD and with CYP3A4/P-gp inhibitors such as clarithromycin, which cause fatal toxicity.\n- **Prednisolone** orally for about 5 days, or intra-articular steroid once sepsis excluded. Useful in CKD.\n- Rest, ice, elevate. **Do not stop allopurinol** during a flare if already taking it.\n\n**Urate-lowering therapy (ULT)**: indicated for recurrent flares (2 or more a year), tophi, erosions, urate stones, or CKD. Many Australian clinicians now discuss it after a first flare.\n- **Allopurinol**: start low (**50 to 100 mg daily**, lower in CKD) and titrate by small increments every few weeks to a **serum urate below 0.36 mmol/L** (below 0.30 if tophi). Many need 300 mg or more; titrating above the old \"renal dose\" is acceptable with monitoring.\n- It can be started during or soon after a flare with flare prophylaxis: low-dose **colchicine 0.5 mg once or twice daily** (or an NSAID) for the first few months.\n- **Allopurinol hypersensitivity syndrome** (DRESS, SJS/TEN) is rare but can be fatal. Risk is higher with a high starting dose, CKD and **HLA-B*58:01** (common in Han Chinese, Thai and Korean people; test before starting in these groups).\n- Interaction: allopurinol with **azathioprine** or mercaptopurine causes severe marrow suppression.\n- Alternatives: febuxostat, probenecid.\n- Lifestyle: weight loss, less alcohol and sugary drinks, review diuretics (losartan is mildly uricosuric).\n\n**Osteoarthritis** (RACGP knee and hip OA guideline):\n- **Education, exercise (strengthening and aerobic) and weight loss** are core for everyone.\n- Topical NSAIDs for knee and hand OA; oral NSAIDs at the lowest dose for the shortest time if no contraindications. Paracetamol has only a small effect.\n- **Not recommended**: opioids, **knee arthroscopy** for degenerative knee disease, glucosamine; intra-articular steroid gives short-term relief only.\n- Referral for **joint replacement** when pain and function remain poor despite conservative care."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- Allopurinol question with \"started 300 mg daily in a CKD patient, now rash, fever, eosinophilia and deranged LFTs\": allopurinol hypersensitivity (DRESS). Stop it.\n- Man on **azathioprine** and allopurinol with pancytopenia: the interaction.\n- Recurrent gout despite allopurinol 100 mg daily and urate 0.48: **increase the dose**; the target is below 0.36.\n- Colchicine plus **clarithromycin** in a patient with CKD: toxicity with diarrhoea, myopathy, marrow failure.\n- An OA stem asking the \"most effective\" treatment: exercise and weight loss. Arthroscopy is always wrong for degenerative knee OA."
+        }
+      ],
+      "keyPoints": [
+        "Acute gout: NSAID, low-dose colchicine or prednisolone, chosen by comorbidity.",
+        "Do not stop allopurinol during a flare.",
+        "Start allopurinol low and titrate to urate below 0.36 mmol/L (below 0.30 with tophi).",
+        "Cover the start of ULT with low-dose colchicine prophylaxis.",
+        "HLA-B*58:01, CKD and high starting doses raise the risk of allopurinol hypersensitivity.",
+        "Allopurinol plus azathioprine causes marrow suppression.",
+        "OA is a clinical diagnosis; exercise, weight loss and education come first; no arthroscopy, no opioids."
+      ],
+      "redFlags": [
+        "Fever, rash, eosinophilia and hepatitis after starting allopurinol",
+        "Colchicine toxicity: profuse diarrhoea, weakness, cytopenias",
+        "Acute monoarthritis with systemic sepsis (exclude septic arthritis first)",
+        "Rest and night pain in a joint thought to be OA (consider tumour, infection, avascular necrosis)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Urate units and target",
+          "india": "Target under 6 mg/dL.",
+          "australia": "Reported in mmol/L; target under 0.36 mmol/L, under 0.30 with tophi."
+        },
+        {
+          "aspect": "Colchicine dosing",
+          "india": "Older high-dose regimens sometimes used until diarrhoea.",
+          "australia": "Low-dose regimen per eTG: 1 mg then 0.5 mg an hour later."
+        },
+        {
+          "aspect": "Knee OA",
+          "india": "Analgesics, NSAIDs and sometimes arthroscopic lavage.",
+          "australia": "Exercise, weight loss and education first; arthroscopy and opioids not recommended."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Serum urate target on allopurinol?",
+          "back": "Below 0.36 mmol/L, or below 0.30 mmol/L if tophi."
+        },
+        {
+          "front": "Low-dose colchicine regimen for acute gout (eTG)?",
+          "back": "1 mg, then 0.5 mg one hour later."
+        },
+        {
+          "front": "Genetic marker for allopurinol hypersensitivity?",
+          "back": "HLA-B*58:01, common in Han Chinese, Thai and Korean people."
+        },
+        {
+          "front": "Dangerous allopurinol interaction?",
+          "back": "Azathioprine or mercaptopurine: severe bone marrow suppression."
+        },
+        {
+          "front": "Morning stiffness duration in OA vs inflammatory arthritis?",
+          "back": "OA under 30 minutes; inflammatory usually over an hour."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "rheumatology--gout-and-osteoarthritis--q1",
+          "discipline": "adult-medicine",
+          "topic": "rheumatology",
+          "difficulty": "core",
+          "stem": "A 58-year-old man sees his GP in Bendigo for follow-up. He has had four gout flares in the last year. He started allopurinol 100 mg daily 3 months ago and has had one flare since. eGFR is 72 mL/min/1.73 m². Serum urate today is 0.47 mmol/L. He has no rash and his LFTs are normal.\n\nWhat is the most appropriate change to his management?",
+          "options": [
+            "Stop allopurinol because it has failed",
+            "Switch to probenecid",
+            "Continue the same dose and repeat urate in 6 months",
+            "Increase allopurinol gradually until urate is below 0.36 mmol/L",
+            "Add a thiazide diuretic"
+          ],
+          "answer": 3,
+          "explanation": "Gout management is **treat to target**. His urate of 0.47 mmol/L is well above the target of **below 0.36 mmol/L**, so the allopurinol dose is simply too low. Allopurinol should be titrated upward in small steps (for example 50 to 100 mg every few weeks), checking urate, renal function and for rash, until the target is reached. Many patients need 300 mg or more daily. Flare prophylaxis with low-dose colchicine should continue during titration. Stopping or switching is not justified when the drug has not been given at an adequate dose.",
+          "whyWrong": [
+            "The dose is inadequate, not the drug; allopurinol has not been titrated.",
+            "Probenecid is a second-line option for those who cannot tolerate xanthine oxidase inhibitors.",
+            "Leaving urate above target allows ongoing crystal deposition and flares.",
+            "",
+            "Thiazides raise urate and worsen gout."
+          ],
+          "ausPearl": "Uric acid is reported in mmol/L in Australia. To convert from mg/dL, multiply by about 0.06 (6 mg/dL is roughly 0.36 mmol/L).",
+          "tags": [
+            "gout",
+            "allopurinol",
+            "treat to target"
+          ]
+        },
+        {
+          "id": "rheumatology--gout-and-osteoarthritis--q2",
+          "discipline": "adult-medicine",
+          "topic": "rheumatology",
+          "difficulty": "exam",
+          "stem": "A 64-year-old man with a kidney transplant is taking azathioprine, prednisolone and tacrolimus. He is seen in a Perth clinic with an acute gout flare of the left first MTP joint. His eGFR is 35 mL/min/1.73 m². A colleague suggests starting allopurinol today.\n\nWhat is the main hazard of starting allopurinol in this patient?",
+          "options": [
+            "Severe bone marrow suppression",
+            "Acute tacrolimus toxicity",
+            "Adrenal crisis",
+            "Hyperkalaemia",
+            "Tendon rupture"
+          ],
+          "answer": 0,
+          "explanation": "Allopurinol inhibits **xanthine oxidase**, which is one of the main pathways that inactivates **azathioprine** (and mercaptopurine). Combining them causes toxic levels of thioguanine metabolites and **severe, potentially fatal marrow suppression**. If allopurinol is needed, azathioprine usually has to be switched (for example to mycophenolate) or its dose greatly reduced under specialist supervision. His reduced eGFR also means allopurinol must start at a low dose. For the acute flare, a short course of oral or intra-articular steroid is preferable to an NSAID (renal transplant, CKD) or colchicine (interaction with tacrolimus and CKD).",
+          "whyWrong": [
+            "",
+            "Allopurinol does not significantly raise tacrolimus levels.",
+            "He is on prednisolone, and allopurinol does not affect adrenal function.",
+            "Allopurinol does not cause hyperkalaemia.",
+            "Tendon rupture is associated with fluoroquinolones, not allopurinol."
+          ],
+          "tags": [
+            "gout",
+            "interaction",
+            "azathioprine"
+          ]
+        },
+        {
+          "id": "rheumatology--gout-and-osteoarthritis--q3",
+          "discipline": "adult-medicine",
+          "topic": "rheumatology",
+          "difficulty": "foundation",
+          "stem": "A 66-year-old woman sees her GP in Geelong with 2 years of right knee pain, worse on walking and stairs, with 10 minutes of morning stiffness. BMI is 33 kg/m². There is crepitus and a small cool effusion. She asks whether she needs a scan or a 'clean out' of the knee.\n\nWhat is the most appropriate management?",
+          "options": [
+            "MRI of the knee then arthroscopy",
+            "Oxycodone as needed",
+            "Referral for total knee replacement",
+            "Glucosamine and chondroitin",
+            "Education, a structured strengthening exercise program and weight loss"
+          ],
+          "answer": 4,
+          "explanation": "This is **knee osteoarthritis**, a clinical diagnosis in an older adult with use-related pain and brief morning stiffness. Imaging is not needed to diagnose it. The RACGP guideline strongly recommends **education, exercise and weight loss** as core treatment for everyone, supported by topical or short-course oral NSAIDs if needed. Arthroscopic debridement or lavage for degenerative knee disease is not recommended because trials show no benefit over sham. Opioids are not recommended for OA. Joint replacement is considered when symptoms remain severe despite an adequate trial of conservative care.",
+          "whyWrong": [
+            "MRI is not needed and arthroscopy has no benefit in degenerative knee OA.",
+            "Opioids carry more harm than benefit in OA and are not recommended.",
+            "Replacement is reserved for severe symptoms after conservative care fails.",
+            "Glucosamine and chondroitin are not recommended as they are no better than placebo.",
+            ""
+          ],
+          "tags": [
+            "osteoarthritis",
+            "exercise",
+            "racgp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rheumatology--rheumatoid-arthritis-and-dmards",
+      "title": "Rheumatoid arthritis and DMARD safety",
+      "minutes": 17,
+      "objectives": [
+        "Recognise early inflammatory arthritis and refer urgently",
+        "Interpret RF, anti-CCP, inflammatory markers and X-ray changes in RA",
+        "Prescribe methotrexate safely: weekly dosing, folic acid, monitoring and interactions",
+        "Screen appropriately before biologic therapy and know the PBS rules"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Overview",
+          "body": "Rheumatoid arthritis (RA) is a chronic autoimmune synovitis affecting roughly 2% of Australian adults, women two to three times more than men, peaking in middle age. Untreated, it erodes joints within months and roughly doubles cardiovascular risk. The key message from Australian rheumatologists: there is a **window of opportunity**, so early inflammatory arthritis needs **early referral** and early DMARDs."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Pathogenesis",
+          "body": "Genetic susceptibility (the HLA-DR4 \"shared epitope\") plus environmental triggers, especially **smoking**, lead to citrullination of proteins and production of **anti-citrullinated protein antibodies (anti-CCP)** years before symptoms. Synovium becomes a hyperplastic, inflamed **pannus** rich in T cells, B cells and macrophages releasing TNF-alpha, IL-6 and IL-1. Pannus invades cartilage and bone, causing erosions. These cytokines are exactly what biologic DMARDs target, which is why understanding the pathway helps you remember the drugs."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "- **Symmetrical polyarthritis** of small joints of hands and feet: MCPs, PIPs, wrists, MTPs. **DIPs are spared** (think OA or psoriatic arthritis if DIPs are involved).\n- **Morning stiffness over 1 hour**, improving with use; fatigue; boggy synovial swelling; positive MTP \"squeeze test\".\n- Late deformities: ulnar deviation, swan-neck and boutonnière deformities, Z-thumb.\n- Extra-articular: rheumatoid nodules, interstitial lung disease, pleural effusion, scleritis, secondary Sjögren syndrome, anaemia of chronic disease, Felty syndrome (RA, splenomegaly, neutropenia), vasculitis, accelerated atherosclerosis.\n- **Atlanto-axial subluxation**: neck pain, myelopathy; important before intubation or neck manipulation."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "| Test | Interpretation |\n|---|---|\n| **Anti-CCP** | Highly specific for RA, predicts erosive disease |\n| **Rheumatoid factor** | Sensitive but not specific (also positive in Sjögren, hepatitis C, endocarditis, older people) |\n| ESR, CRP | Raised with active disease; used in disease activity scores |\n| FBC, UEC, LFTs | Baseline before DMARDs; anaemia of chronic disease |\n| Hepatitis B, hepatitis C, HIV serology, CXR | Before methotrexate and biologics |\n| X-ray hands and feet | Early: soft-tissue swelling, **periarticular osteopenia**; later: joint space narrowing and **marginal erosions** |\n\nSeronegative RA exists: normal RF and anti-CCP do not exclude it. Ultrasound can confirm synovitis. Disease activity is tracked with the **DAS28** (tender and swollen joint counts, ESR or CRP, patient global score), which also matters for PBS biologic eligibility."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Differentials",
+          "body": "- **Viral polyarthritis**: parvovirus B19 (contact with children, slapped cheek), Ross River and Barmah Forest virus (mosquito-borne, common in Queensland and WA, rash and fatigue), hepatitis B and C. Usually self-limiting within weeks to months.\n- **Psoriatic arthritis**: DIP involvement, dactylitis, nail pitting, asymmetric.\n- **SLE**: non-erosive arthritis, rash, cytopenias, ANA positive.\n- **Polymyalgia rheumatica**: girdle stiffness, older, but RA can begin this way in older people.\n- **Osteoarthritis**: DIPs and PIPs, bony not boggy, short morning stiffness.\n- **Gout** (polyarticular tophaceous) and CPPD in older patients."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Refer early** to a rheumatologist for suspected inflammatory arthritis (the stem often says \"persistent swelling of three or more joints for 6 weeks\"). Meanwhile, NSAIDs or a short course of low-dose prednisolone control symptoms, but do not delay DMARDs.\n\n**Methotrexate** is the anchor first-line conventional DMARD, often combined with hydroxychloroquine and sulfasalazine (\"triple therapy\").\n- Taken **ONCE WEEKLY**, on the same day each week. Daily dosing by mistake has killed patients through marrow failure and mucositis. Prescriptions and dose administration aids must say the day.\n- **Folic acid** (often 5 mg weekly, on a different day) reduces mouth ulcers, nausea and liver toxicity.\n- Monitoring: FBC, LFTs and creatinine regularly (more frequently early on).\n- Adverse effects: nausea, mouth ulcers, transaminase rise, cytopenias, pneumonitis (new cough and breathlessness: stop and investigate), infection risk.\n- Interactions: **trimethoprim** (and co-trimoxazole) greatly increases marrow toxicity; NSAIDs at high dose and renal impairment increase levels.\n- **Teratogenic** and contraindicated in pregnancy: contraception needed, and stop well before conception, with timing per specialist and current guidance. Avoid alcohol excess.\n- Toxicity antidote: **folinic acid** (calcium folinate).\n\n**Hydroxychloroquine**: mild disease, combination; baseline and ongoing **retinal screening**. **Sulfasalazine**: check FBC and LFTs; can cause oligospermia (reversible).\n\n**Biologic and targeted synthetic DMARDs** (TNF inhibitors such as adalimumab and etanercept, tocilizumab, abatacept, rituximab, and JAK inhibitors such as tofacitinib) are **PBS-subsidised only under authority**, after documented inadequate response to conventional DMARDs (including methotrexate) with a raised disease activity score, and are started by a rheumatologist. Before starting, screen for **latent TB** (IGRA or tuberculin skin test and CXR), hepatitis B and C, and update vaccinations (avoid live vaccines once on biologics).\n\nAlso manage **cardiovascular risk**, bone health (steroids), and offer allied health: physiotherapy, occupational therapy, hand therapy.\n\n**The GP's role in shared care.** Most DMARD monitoring happens in general practice. That means:\n- Knowing the monitoring schedule the rheumatologist has set, and acting on results: a falling neutrophil count, platelets or a rising ALT above the agreed threshold means withholding the drug and calling the rheumatologist.\n- **Vaccination**: influenza yearly, pneumococcal and COVID-19 as per the Australian Immunisation Handbook, and the non-live recombinant zoster vaccine, ideally before immunosuppression intensifies. Live vaccines (for example MMR, yellow fever) are avoided on biologics and high-dose immunosuppression.\n- **Sick-day advice**: withhold methotrexate during acute infection or dehydration and restart when well.\n- **Surgery**: continue methotrexate for most elective surgery; biologics are usually timed around the dosing interval. Check with the treating team.\n- **Pregnancy planning** early, because several DMARDs must be changed months ahead."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- Most specific test for RA: **anti-CCP**.\n- \"Methotrexate 10 mg daily\" in a stem followed by mouth ulcers and pancytopenia: dosing error. Stop methotrexate, give folinic acid and admit.\n- Patient on methotrexate given trimethoprim for a UTI, now pancytopenic: the interaction.\n- New dry cough and breathlessness on methotrexate: pneumonitis. Stop it.\n- Before a TNF inhibitor, the test you must do: latent TB screening.\n- A patient from Queensland with polyarthritis and rash after a camping trip: consider Ross River virus serology before labelling RA."
+        }
+      ],
+      "keyPoints": [
+        "RA: symmetrical small-joint synovitis sparing DIPs, morning stiffness over an hour.",
+        "Anti-CCP is the most specific antibody; RF is sensitive but non-specific.",
+        "Refer early; methotrexate with folic acid is first-line.",
+        "Methotrexate is ONCE WEEKLY; daily dosing errors are fatal; folinic acid is the antidote.",
+        "Avoid trimethoprim with methotrexate; watch for pneumonitis; it is teratogenic.",
+        "Biologics are PBS authority only after conventional DMARD failure; screen for latent TB and hepatitis first."
+      ],
+      "redFlags": [
+        "Mouth ulcers, sore throat or bruising on methotrexate (marrow toxicity)",
+        "New cough and dyspnoea on methotrexate (pneumonitis)",
+        "Neck pain with long tract signs in RA (atlanto-axial subluxation)",
+        "Fever in a patient on biologics (serious infection, reactivated TB)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Access to biologics",
+          "india": "Mainly limited by cost to the patient.",
+          "australia": "PBS authority after documented failure of conventional DMARDs and high disease activity; rheumatologist-initiated."
+        },
+        {
+          "aspect": "Methotrexate safety",
+          "india": "Weekly dosing taught, but dispensing safeguards vary.",
+          "australia": "Weekly dosing with the day written on the script and on dose administration aids; errors are a national safety priority."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Most specific antibody for RA?",
+          "back": "Anti-CCP (anti-citrullinated protein antibody)."
+        },
+        {
+          "front": "Methotrexate dosing frequency in RA?",
+          "back": "Once weekly, same day each week."
+        },
+        {
+          "front": "Antidote for methotrexate toxicity?",
+          "back": "Folinic acid (calcium folinate)."
+        },
+        {
+          "front": "Antibiotic to avoid with methotrexate?",
+          "back": "Trimethoprim (and co-trimoxazole): marrow suppression."
+        },
+        {
+          "front": "Screening required before a TNF inhibitor?",
+          "back": "Latent TB (IGRA or TST plus CXR), hepatitis B and C."
+        },
+        {
+          "front": "Early RA X-ray finding?",
+          "back": "Periarticular osteopenia and soft-tissue swelling; erosions later."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "rheumatology--rheumatoid-arthritis-and-dmards--q1",
+          "discipline": "adult-medicine",
+          "topic": "rheumatology",
+          "difficulty": "exam",
+          "stem": "A 71-year-old woman with rheumatoid arthritis is brought to a Canberra emergency department with painful mouth ulcers, a sore throat and bruising. She was discharged from hospital 10 days ago after a fall, and her medications were packed into a new dose administration aid. Her methotrexate 15 mg appears in every daily compartment. Temperature 38.4 °C. FBC: Hb 88 g/L, WCC 0.9 x 10^9/L (neutrophils 0.3), platelets 22 x 10^9/L.\n\nIn addition to stopping methotrexate, which is the most important specific treatment?",
+          "options": [
+            "Oral folic acid 5 mg daily",
+            "Intravenous folinic acid (calcium folinate)",
+            "Oral prednisolone",
+            "Platelet transfusion only",
+            "Vitamin B12 injections"
+          ],
+          "answer": 1,
+          "explanation": "This is **methotrexate toxicity from daily instead of weekly dosing**, a recurring and often fatal medication error in Australia, frequently after hospital discharge or a change in dose administration aids. Methotrexate inhibits dihydrofolate reductase; **folinic acid (calcium folinate)** bypasses the block and is the specific antidote. Folic acid does not bypass it. She also has **febrile neutropenia**, so she needs urgent broad-spectrum IV antibiotics, blood cultures, supportive care and haematology input. Report the incident. Prevention: prescriptions state the weekly day, and patients and pharmacists are counselled.",
+          "whyWrong": [
+            "Folic acid needs dihydrofolate reductase to be activated, which methotrexate blocks, so it is not an antidote.",
+            "",
+            "Steroids do not reverse methotrexate toxicity and increase infection risk.",
+            "Transfusion is supportive only and does not treat the cause.",
+            "This is not B12 deficiency; the cause is an antifolate overdose."
+          ],
+          "ausPearl": "The Australian Commission on Safety and Quality in Health Care and TGA have repeatedly warned about inadvertent daily methotrexate dosing.",
+          "tags": [
+            "methotrexate",
+            "medication error",
+            "febrile neutropenia"
+          ]
+        },
+        {
+          "id": "rheumatology--rheumatoid-arthritis-and-dmards--q2",
+          "discipline": "adult-medicine",
+          "topic": "rheumatology",
+          "difficulty": "foundation",
+          "stem": "A 42-year-old woman sees her GP in Adelaide with 3 months of painful swelling of both wrists and several MCP joints, with 2 hours of morning stiffness each day. She smokes. ESR is 48 mm/h and CRP 22 mg/L.\n\nWhich blood test is most specific for the likely diagnosis?",
+          "options": [
+            "Rheumatoid factor",
+            "Antinuclear antibody",
+            "HLA-B27",
+            "Anti-cyclic citrullinated peptide antibody",
+            "Serum urate"
+          ],
+          "answer": 3,
+          "explanation": "Symmetrical small-joint polyarthritis of the wrists and MCPs with prolonged morning stiffness and raised inflammatory markers suggests **rheumatoid arthritis**. **Anti-CCP** is highly specific (well above 90%) and predicts erosive disease; smoking is a key risk factor for anti-CCP positive RA. Rheumatoid factor is similarly sensitive but less specific, being positive in Sjögren syndrome, hepatitis C, endocarditis and some healthy older people. Regardless of results, persistent inflammatory arthritis warrants **early rheumatology referral**, because early DMARDs prevent erosions.",
+          "whyWrong": [
+            "RF is sensitive but less specific than anti-CCP.",
+            "ANA is positive in SLE and many other conditions and is not specific for RA.",
+            "HLA-B27 is associated with spondyloarthritis, not RA.",
+            "",
+            "Urate is used for gout, which does not present as symmetrical small-joint synovitis."
+          ],
+          "tags": [
+            "rheumatoid arthritis",
+            "anti-ccp",
+            "serology"
+          ]
+        },
+        {
+          "id": "rheumatology--rheumatoid-arthritis-and-dmards--q3",
+          "discipline": "adult-medicine",
+          "topic": "rheumatology",
+          "difficulty": "core",
+          "stem": "A 50-year-old man with rheumatoid arthritis has persistent active disease (DAS28 5.6) despite 6 months of methotrexate and 3 months of combination therapy with sulfasalazine and hydroxychloroquine. His rheumatologist in Melbourne plans to start adalimumab under the PBS. He was born in Vietnam and moved to Australia 20 years ago.\n\nWhich investigation is most important before starting adalimumab?",
+          "options": [
+            "Screening for latent tuberculosis",
+            "Anti-dsDNA antibodies",
+            "Bone density scan",
+            "Echocardiogram",
+            "Serum ferritin"
+          ],
+          "answer": 0,
+          "explanation": "TNF-alpha is essential for granuloma maintenance, so **TNF inhibitors can reactivate latent tuberculosis**, often as disseminated or extrapulmonary disease. Everyone starting a biologic needs **latent TB screening** (an interferon-gamma release assay or tuberculin skin test, plus a chest X-ray), especially people born in countries with high TB prevalence. Positive results mean treating latent TB before or alongside starting therapy. Also screen for hepatitis B and C and bring vaccinations up to date, avoiding live vaccines once immunosuppressed. PBS authority requires documented failure of conventional DMARDs, as here.",
+          "whyWrong": [
+            "",
+            "Anti-dsDNA is for SLE and is not required before adalimumab.",
+            "Bone density is sensible with long-term steroids but is not a prerequisite for biologics.",
+            "Echo is not routine, though TNF inhibitors are avoided in severe heart failure.",
+            "Ferritin is not relevant to biologic safety."
+          ],
+          "tags": [
+            "biologics",
+            "tuberculosis",
+            "pbs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rheumatology--pmr-gca-vasculitis",
+      "title": "Polymyalgia rheumatica, GCA and vasculitis",
+      "minutes": 15,
+      "objectives": [
+        "Diagnose polymyalgia rheumatica and predict its steroid response",
+        "Treat suspected giant cell arteritis with immediate high-dose steroids before biopsy",
+        "Recognise the small-vessel vasculitides and their antibodies",
+        "Plan steroid-sparing and bone protection for long-term glucocorticoids"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Overview",
+          "body": "**Polymyalgia rheumatica (PMR)** and **giant cell arteritis (GCA)** are two ends of a spectrum affecting people **over 50**, commonest in those of northern European descent. About 15% of people with PMR develop GCA, and around half of GCA patients have polymyalgic symptoms. GCA is a medical emergency because untreated it can cause **irreversible blindness** within days. Other vasculitides are rarer but produce classic exam pictures: a renal-pulmonary syndrome with ANCA, or purpura, arthralgia and abdominal pain in a child (IgA vasculitis)."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Pathogenesis",
+          "body": "GCA is a **granulomatous large-vessel vasculitis** of the aorta and its branches, especially extracranial branches of the carotid (temporal, ophthalmic, posterior ciliary arteries). Dendritic cells in the vessel wall activate T cells, which recruit macrophages forming giant cells; intimal hyperplasia narrows the lumen. **Anterior ischaemic optic neuropathy** from posterior ciliary artery occlusion is what causes sudden visual loss. PMR shares the same IL-6-driven systemic inflammation, with bursitis and synovitis around shoulders and hips rather than vessel involvement.\n\nVasculitis is classified by vessel size: **large** (GCA, Takayasu), **medium** (polyarteritis nodosa, Kawasaki), **small** (ANCA-associated: granulomatosis with polyangiitis, microscopic polyangiitis, eosinophilic GPA; immune-complex: IgA vasculitis, cryoglobulinaemia, anti-GBM disease)."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "**PMR**\n- Age over 50, subacute onset over days to weeks.\n- **Bilateral shoulder and/or hip girdle pain and stiffness**, worst in the morning (over 45 minutes), difficulty getting out of bed or combing hair.\n- Muscle strength is normal (pain limits effort); no true weakness, and CK is normal, which separates it from myositis.\n- Fatigue, low-grade fever, weight loss.\n\n**GCA**\n- New headache, often temporal, in someone over 50.\n- **Scalp tenderness** (pain combing hair), **jaw claudication** (the most specific symptom), tender, thickened or pulseless temporal artery.\n- **Visual symptoms**: amaurosis fugax, diplopia, sudden painless loss of vision.\n- Systemic: fever, weight loss, PMR symptoms. Large-vessel GCA: arm claudication, unequal arm BPs, aortic aneurysm later.\n\n**Small-vessel vasculitis**: palpable purpura, haematuria with red cell casts (glomerulonephritis), haemoptysis, sinusitis and nasal crusting (GPA), asthma with eosinophilia (EGPA), mononeuritis multiplex."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "- **ESR and CRP**: typically markedly raised in both PMR and GCA. Normal values make them unlikely but do not fully exclude.\n- FBC (normocytic anaemia, thrombocytosis), LFTs (raised ALP common), CK (normal in PMR), TSH, calcium, protein electrophoresis to exclude mimics.\n- **GCA confirmation**: **temporal artery biopsy** (skip lesions, so take an adequate length) or **temporal artery ultrasound** (the \"halo sign\"), increasingly first-line in Australian fast-track clinics. Biopsy remains positive for about 1 to 2 weeks after steroids start, so **never delay steroids for the biopsy**.\n- PET-CT or CT/MR angiography for large-vessel disease.\n- Small-vessel vasculitis: **urinalysis** (blood and protein, casts), creatinine, **ANCA** (c-ANCA/PR3 in GPA; p-ANCA/MPO in microscopic polyangiitis and EGPA), anti-GBM, complement, cryoglobulins, hepatitis B and C, chest imaging."
+        },
+        {
+          "kind": "differentials",
+          "heading": "PMR mimics and headache look-alikes",
+          "body": "PMR has no diagnostic test, so the diagnosis rests on the pattern plus exclusion of mimics. Before committing someone to a year or more of steroids, think through:\n\n| Mimic | Clue |\n|---|---|\n| Late-onset RA | Peripheral synovitis of hands and feet, anti-CCP positive |\n| Polymyositis or statin myopathy | True proximal **weakness**, raised CK |\n| Hypothyroidism | Raised TSH, myalgia, raised CK |\n| Malignancy, myeloma | Weight loss, anaemia, paraprotein, hypercalcaemia, poor steroid response |\n| Infection (endocarditis, vertebral osteomyelitis) | Fever, murmur, positive blood cultures |\n| Rotator cuff disease or bilateral OA | Normal ESR/CRP, pain on specific movements |\n| CPPD of shoulders | Chondrocalcinosis |\n\nFor GCA, the headache differentials in an older person include cervicogenic headache, trigeminal neuralgia, subdural haematoma and intracranial mass, but none of them produce jaw claudication with a very high ESR. When in doubt, treat as GCA and confirm."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**GCA: steroids first, confirmation second.**\n- No visual symptoms: **prednisolone 40 to 60 mg daily** started on clinical suspicion, the same day.\n- Visual loss or threatened vision: **IV methylprednisolone** (pulse therapy for about 3 days), then high-dose oral prednisolone; urgent ophthalmology.\n- Arrange biopsy or ultrasound within days, then slow taper over 1 to 2 years under a rheumatologist. **Tocilizumab** (IL-6 receptor blocker) is used as a steroid-sparing agent for relapsing or refractory disease under PBS criteria. Low-dose aspirin is sometimes considered; check current guidance.\n\n**PMR**\n- **Prednisolone 15 mg daily** (range 12.5 to 25 mg): a **dramatic response within days**, often within 72 hours, is so typical that failure to respond should make you reconsider the diagnosis (RA, malignancy, myeloma, infection, hypothyroidism).\n- Taper slowly over 1 to 2 years; relapses are common. Methotrexate is a steroid-sparing option.\n- Warn patients to report headache, jaw pain or visual symptoms immediately (GCA).\n\n**Long-term glucocorticoids**: bone protection (calcium and vitamin D, consider a bisphosphonate from the start in over-50s on 7.5 mg or more for 3 months), monitor glucose, BP, weight, mood, cataracts; steroid card and sick-day rules; never stop abruptly (adrenal suppression).\n\n**ANCA vasculitis**: urgent referral; high-dose steroids plus rituximab or cyclophosphamide; plasma exchange in selected cases."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- Elderly person, new headache, ESR 90: **start prednisolone now** is the answer, not \"arrange biopsy then treat\".\n- Jaw claudication is the most specific symptom for GCA.\n- PMR with **weakness** or raised CK: think polymyositis, not PMR.\n- PMR not responding to 15 mg prednisolone within a week: reconsider the diagnosis.\n- Haemoptysis plus haematuria plus nasal crusting: GPA, c-ANCA (PR3).\n- Asthma, eosinophilia and mononeuritis multiplex (for example foot drop): eosinophilic granulomatosis with polyangiitis.\n- Child with palpable purpura on the buttocks and legs, arthralgia, abdominal pain and haematuria after a URTI: IgA vasculitis (Henoch-Schönlein purpura); check urine and BP for weeks afterwards.\n- Long-term prednisolone question asking what else to prescribe: bone protection, plus remember sick-day steroid rules and a gradual taper."
+        }
+      ],
+      "keyPoints": [
+        "PMR: over 50, bilateral girdle pain and stiffness, high ESR/CRP, normal CK and strength.",
+        "PMR responds dramatically to prednisolone about 15 mg daily; no response means rethink.",
+        "GCA: headache, scalp tenderness, jaw claudication, visual symptoms in over-50s.",
+        "Start high-dose steroids for GCA on suspicion; biopsy or ultrasound can follow within 1 to 2 weeks.",
+        "Visual loss: IV methylprednisolone and urgent ophthalmology.",
+        "Long-term steroids need bone protection and must not be stopped abruptly.",
+        "ANCA: c-ANCA/PR3 in GPA, p-ANCA/MPO in microscopic polyangiitis."
+      ],
+      "redFlags": [
+        "Visual disturbance or amaurosis fugax in an older person with headache",
+        "Jaw claudication",
+        "Haemoptysis with active urinary sediment (pulmonary-renal syndrome)",
+        "Rapidly rising creatinine with haematuria"
+      ],
+      "contrast": [
+        {
+          "aspect": "GCA confirmation",
+          "india": "Temporal artery biopsy, often delayed; ultrasound less available.",
+          "australia": "Fast-track pathways with temporal artery ultrasound in many centres; steroids never wait for tests."
+        },
+        {
+          "aspect": "Steroid-sparing therapy",
+          "india": "Methotrexate; biologics limited by cost.",
+          "australia": "Tocilizumab PBS-subsidised for GCA under authority criteria."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Most specific symptom of GCA?",
+          "back": "Jaw claudication."
+        },
+        {
+          "front": "Initial prednisolone dose for PMR?",
+          "back": "About 15 mg daily; expect dramatic improvement within days."
+        },
+        {
+          "front": "GCA with visual loss: first treatment?",
+          "back": "IV methylprednisolone (pulse), then high-dose oral prednisolone."
+        },
+        {
+          "front": "How long does temporal artery biopsy remain useful after steroids start?",
+          "back": "About 1 to 2 weeks; don't delay steroids."
+        },
+        {
+          "front": "Temporal artery ultrasound sign of GCA?",
+          "back": "Halo sign (hypoechoic wall thickening)."
+        },
+        {
+          "front": "c-ANCA (PR3) is associated with?",
+          "back": "Granulomatosis with polyangiitis."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "rheumatology--pmr-gca-vasculitis--q1",
+          "discipline": "adult-medicine",
+          "topic": "rheumatology",
+          "difficulty": "core",
+          "stem": "A 74-year-old woman sees her GP in Ballarat with 2 weeks of new right-sided headache, pain when brushing her hair and pain in her jaw after chewing for a few minutes. This morning she had 5 minutes of blurred vision in her right eye that fully resolved. ESR is 86 mm/h and CRP 64 mg/L.\n\nWhat is the most appropriate immediate management?",
+          "options": [
+            "Arrange temporal artery biopsy and start prednisolone if positive",
+            "Start low-dose aspirin and refer to a neurologist",
+            "Start prednisolone 15 mg daily",
+            "Arrange urgent same-day hospital assessment for high-dose glucocorticoids, including IV methylprednisolone",
+            "Order a CT brain and review with the results"
+          ],
+          "answer": 3,
+          "explanation": "New headache, scalp tenderness and **jaw claudication** in a woman over 50 with very high inflammatory markers is **giant cell arteritis**. The episode of transient visual blurring is a warning of imminent **anterior ischaemic optic neuropathy** and permanent blindness. Treatment must start **immediately**: with visual symptoms, most guidance recommends **IV methylprednisolone** followed by high-dose oral prednisolone, plus urgent ophthalmology review. Biopsy or ultrasound is arranged afterwards; it remains diagnostic for about 1 to 2 weeks. Prednisolone 15 mg is a PMR dose and inadequate for GCA.",
+          "whyWrong": [
+            "Waiting for biopsy risks permanent visual loss; steroids come first.",
+            "Aspirin alone does not treat GCA and referral delays steroids.",
+            "15 mg is the PMR dose and is too low for GCA, especially with visual symptoms.",
+            "",
+            "CT brain is not useful for GCA and delays treatment."
+          ],
+          "tags": [
+            "gca",
+            "visual loss",
+            "steroids"
+          ]
+        },
+        {
+          "id": "rheumatology--pmr-gca-vasculitis--q2",
+          "discipline": "adult-medicine",
+          "topic": "rheumatology",
+          "difficulty": "foundation",
+          "stem": "A 69-year-old man sees his GP in Launceston with 6 weeks of aching and stiffness in both shoulders and hips. It takes him an hour each morning to get going and he struggles to lift his arms to shave. Power is normal when tested with encouragement. ESR 58 mm/h, CRP 31 mg/L, CK normal, TSH normal. He has no headache or visual symptoms.\n\nWhat is the most appropriate initial treatment?",
+          "options": [
+            "Prednisolone 15 mg daily",
+            "Prednisolone 60 mg daily",
+            "Methotrexate once weekly",
+            "Regular naproxen",
+            "Paracetamol and physiotherapy"
+          ],
+          "answer": 0,
+          "explanation": "Bilateral shoulder and hip girdle pain and stiffness with prolonged morning stiffness in someone over 50, raised ESR and CRP, normal CK and preserved power is **polymyalgia rheumatica**. The standard start is **prednisolone about 15 mg daily** (12.5 to 25 mg). A dramatic response within days is expected and supports the diagnosis; if there is no response, reconsider (RA, malignancy, myeloma, infection). Taper slowly over 1 to 2 years, and give bone protection. Counsel him to report headache, jaw pain or visual change immediately, because GCA can develop.",
+          "whyWrong": [
+            "",
+            "60 mg is a GCA dose; PMR responds to much lower doses and higher doses add toxicity.",
+            "Methotrexate is a steroid-sparing add-on for relapsing disease, not initial monotherapy.",
+            "NSAIDs give inadequate relief in PMR and carry risks in older people.",
+            "Simple analgesia and physiotherapy do not control PMR inflammation."
+          ],
+          "tags": [
+            "pmr",
+            "prednisolone",
+            "elderly"
+          ]
+        },
+        {
+          "id": "rheumatology--pmr-gca-vasculitis--q3",
+          "discipline": "adult-medicine",
+          "topic": "rheumatology",
+          "difficulty": "exam",
+          "stem": "A 56-year-old man presents to a Darwin hospital with 2 months of bloody nasal crusting, sinus pain, and 1 week of haemoptysis. Urinalysis shows 3+ blood and 2+ protein with red cell casts. Creatinine has risen from 90 to 240 µmol/L over 2 weeks. Chest X-ray shows multiple cavitating nodules.\n\nWhich antibody is most likely to be positive?",
+          "options": [
+            "Anti-dsDNA",
+            "Anti-glomerular basement membrane",
+            "c-ANCA directed against proteinase 3",
+            "p-ANCA directed against myeloperoxidase",
+            "Anti-centromere"
+          ],
+          "answer": 2,
+          "explanation": "Upper airway disease (sinusitis, nasal crusting), **cavitating lung nodules** and a **rapidly progressive glomerulonephritis** form the classic triad of **granulomatosis with polyangiitis**, which is strongly associated with **c-ANCA / anti-PR3**. This is a pulmonary-renal syndrome and an emergency: urgent renal and rheumatology referral, high-dose steroids plus rituximab or cyclophosphamide, and consideration of plasma exchange. p-ANCA/MPO is more typical of microscopic polyangiitis (no granulomas, usually no upper airway disease) and EGPA.",
+          "whyWrong": [
+            "Anti-dsDNA is specific for SLE, which does not cause cavitating nodules and destructive sinus disease.",
+            "Anti-GBM disease causes pulmonary haemorrhage and GN but not sinus disease or cavitating nodules.",
+            "",
+            "p-ANCA/MPO is associated with microscopic polyangiitis and EGPA rather than GPA.",
+            "Anti-centromere is associated with limited cutaneous systemic sclerosis."
+          ],
+          "tags": [
+            "vasculitis",
+            "anca",
+            "gpa"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rheumatology--sle-and-connective-tissue-disease",
+      "title": "SLE and connective tissue disease",
+      "minutes": 15,
+      "objectives": [
+        "Recognise the multisystem presentation of SLE and choose the right antibodies",
+        "Use hydroxychloroquine safely, including eye screening",
+        "Identify antiphospholipid syndrome and lupus in pregnancy",
+        "Distinguish systemic sclerosis, Sjögren syndrome and myositis"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Overview",
+          "body": "Systemic lupus erythematosus (SLE) is a relapsing multisystem autoimmune disease, around 9 times more common in women, usually starting between 15 and 45. In Australia it is more common and more severe in **Aboriginal and Torres Strait Islander people** and people of Asian descent. The AMC tests pattern recognition (young woman, rash, arthritis, cytopenias, proteinuria), correct use of antibodies, and complications such as lupus nephritis and antiphospholipid syndrome in pregnancy."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Pathogenesis",
+          "body": "Genetic susceptibility (complement deficiencies, HLA), hormonal factors (oestrogen) and triggers such as **UV light**, infections and certain drugs impair the clearance of apoptotic cells. Nuclear antigens are exposed, autoantibodies form, and **immune complexes** deposit in the kidney, skin, joints and serosa, activating complement (hence **low C3 and C4** in active disease). Type I interferon drives much of the inflammation, which is partly why hydroxychloroquine (which dampens innate immune signalling) helps so much.\n\n**Drug-induced lupus** (hydralazine, procainamide, isoniazid, minocycline, TNF inhibitors) produces anti-histone antibodies, rarely involves kidneys or brain, and resolves on stopping the drug."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "- **Constitutional**: fatigue, fever, weight loss.\n- **Skin**: malar (butterfly) rash sparing the nasolabial folds, photosensitivity, discoid lesions (scarring), painless oral ulcers, non-scarring alopecia.\n- **Musculoskeletal**: symmetrical small-joint arthritis that is **non-erosive** (Jaccoud arthropathy: reducible deformities).\n- **Serositis**: pleurisy, pericarditis.\n- **Renal**: lupus nephritis (proteinuria, haematuria, casts, hypertension). This is what drives prognosis.\n- **Haematological**: haemolytic anaemia, leucopenia, lymphopenia, thrombocytopenia.\n- **Neuropsychiatric**: seizures, psychosis, stroke.\n- Raynaud phenomenon.\n\n**How the AMC describes it.** Classic stems read \"a 24-year-old woman with fatigue, joint pains and a rash on her face after a beach holiday\", or \"a young woman with pleuritic chest pain, a low platelet count and proteinuria\". Any young woman with an unexplained multisystem illness, recurrent miscarriage, or a stroke without vascular risk factors should prompt you to consider SLE or antiphospholipid syndrome.\n\n**Raynaud phenomenon** deserves its own note: episodic white, then blue, then red fingers triggered by cold or stress. **Primary** Raynaud is common in young women, symmetrical, with no ulcers and a normal ANA and nailfold capillaries. **Secondary** Raynaud (onset over 30, asymmetrical, digital ulcers or pitting, abnormal nailfold capillaries, positive ANA) suggests systemic sclerosis, SLE or another connective tissue disease. Management: keep the whole body warm, stop smoking, avoid beta blockers; nifedipine for troublesome symptoms."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "| Antibody | Meaning |\n|---|---|\n| **ANA** | Very **sensitive** (almost all SLE); poor specificity, as low titres are common in healthy people. A negative ANA makes SLE very unlikely |\n| **Anti-dsDNA** | **Specific**; titre tracks disease activity and nephritis |\n| **Anti-Smith** | Highly **specific**, not related to activity |\n| Anti-Ro / anti-La | Sjögren, subacute cutaneous lupus; **anti-Ro in pregnancy causes neonatal lupus and congenital heart block** |\n| Antiphospholipid antibodies | Lupus anticoagulant, anticardiolipin, anti-beta2-glycoprotein I |\n| Anti-histone | Drug-induced lupus |\n\nAlso: FBC, **complement C3/C4** (low in active disease), ESR (raised) with a normal or only mildly raised CRP (a high CRP suggests infection or serositis), **urinalysis and urine protein:creatinine ratio** at every review, creatinine. Renal biopsy classifies nephritis.\n\nOther CTD antibodies: anti-centromere (limited cutaneous systemic sclerosis), anti-Scl-70 (diffuse systemic sclerosis), anti-Jo-1 (antisynthetase syndrome with myositis and ILD)."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Other connective tissue diseases",
+          "body": "| Condition | Key features |\n|---|---|\n| **Systemic sclerosis** | Raynaud, skin thickening, sclerodactyly, digital ulcers, oesophageal dysmotility; lung fibrosis, pulmonary hypertension, **scleroderma renal crisis** (treat with ACE inhibitor) |\n| **Sjögren syndrome** | Dry eyes and mouth, parotid swelling, anti-Ro/La; increased lymphoma risk |\n| **Polymyositis / dermatomyositis** | **Proximal weakness**, raised CK; dermatomyositis has heliotrope rash and Gottron papules and is associated with malignancy (screen) |\n| **Antiphospholipid syndrome** | Arterial or venous thrombosis, recurrent miscarriage, late pregnancy loss, thrombocytopenia, livedo |"
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "- **Hydroxychloroquine for almost everyone with SLE**: reduces flares, organ damage and thrombosis, improves survival and is safe in pregnancy. Requires **baseline and regular retinal screening** (annual screening from about 5 years of use, or earlier with risk factors) because of retinopathy.\n- **Sun protection** (important in Australia's UV environment) and smoking cessation.\n- NSAIDs for arthralgia and serositis; **prednisolone** for flares at the lowest effective dose.\n- Steroid-sparing and organ-threatening disease: azathioprine, methotrexate, mycophenolate (first-line for lupus nephritis with steroids), cyclophosphamide, belimumab or rituximab under specialist care.\n- **Cardiovascular risk** is greatly increased: manage BP, lipids, weight.\n- **Pregnancy**: plan when disease has been quiet for at least 6 months; continue hydroxychloroquine; stop mycophenolate, methotrexate and cyclophosphamide beforehand; screen anti-Ro (fetal heart monitoring) and antiphospholipid antibodies. Low-dose aspirin reduces pre-eclampsia risk. Obstetric antiphospholipid syndrome is treated with aspirin plus prophylactic heparin.\n- **Antiphospholipid syndrome with thrombosis**: long-term **warfarin**; DOACs are generally avoided, particularly in high-risk (triple-positive) APS, because of excess arterial events.\n- Refer to rheumatology; renal involvement needs nephrology."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- \"Which test is most sensitive?\" ANA. \"Most specific?\" Anti-Smith (or anti-dsDNA). \"Monitors activity?\" Anti-dsDNA and complement.\n- Mother with SLE whose baby has bradycardia: **anti-Ro** and congenital heart block.\n- SLE patient with a high CRP and fever: look for infection before calling it a flare.\n- APS thrombosis: warfarin, not a DOAC.\n- Hydroxychloroquine is continued in pregnancy.\n- Scleroderma patient with sudden hypertension and rising creatinine: renal crisis, give an ACE inhibitor.\n- Older patient with a new rash, arthralgia and positive ANA after starting hydralazine or minocycline: drug-induced lupus; stop the drug.\n- Proximal weakness with a heliotrope rash in a 60-year-old: dermatomyositis, so screen for an underlying malignancy."
+        }
+      ],
+      "keyPoints": [
+        "ANA is sensitive; anti-dsDNA and anti-Smith are specific.",
+        "Low C3/C4 and rising anti-dsDNA indicate active SLE, especially nephritis.",
+        "Check urine at every SLE review: nephritis drives prognosis.",
+        "Hydroxychloroquine for most patients, with retinal screening; continue in pregnancy.",
+        "Anti-Ro in pregnancy causes congenital heart block.",
+        "Antiphospholipid syndrome with thrombosis: warfarin rather than DOACs.",
+        "Scleroderma renal crisis is treated with an ACE inhibitor."
+      ],
+      "redFlags": [
+        "New proteinuria or haematuria in SLE (lupus nephritis)",
+        "Fever in an immunosuppressed SLE patient (infection)",
+        "Seizures, psychosis or stroke in a young woman with SLE",
+        "Acute hypertension and rising creatinine in systemic sclerosis"
+      ],
+      "contrast": [
+        {
+          "aspect": "Populations at risk",
+          "india": "SLE commonly seen in young Indian women; severe nephritis frequent.",
+          "australia": "Higher prevalence and severity in Aboriginal and Torres Strait Islander and Asian Australians; sun protection counselling matters given high UV."
+        },
+        {
+          "aspect": "Antimalarials",
+          "india": "Hydroxychloroquine widely used; eye screening access variable.",
+          "australia": "Hydroxychloroquine for almost all, with baseline and annual retinal screening via optometry or ophthalmology."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Most sensitive antibody for SLE?",
+          "back": "ANA."
+        },
+        {
+          "front": "Antibody that tracks SLE activity?",
+          "back": "Anti-dsDNA (with falling C3/C4)."
+        },
+        {
+          "front": "Anti-Ro in pregnancy risks?",
+          "back": "Neonatal lupus and congenital heart block."
+        },
+        {
+          "front": "Anticoagulant for thrombotic antiphospholipid syndrome?",
+          "back": "Warfarin (DOACs generally avoided)."
+        },
+        {
+          "front": "Treatment of scleroderma renal crisis?",
+          "back": "An ACE inhibitor."
+        },
+        {
+          "front": "Drug-induced lupus antibody?",
+          "back": "Anti-histone."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "rheumatology--sle-and-connective-tissue-disease--q1",
+          "discipline": "adult-medicine",
+          "topic": "rheumatology",
+          "difficulty": "foundation",
+          "stem": "A 26-year-old woman sees her GP in Townsville with 3 months of fatigue, painful swollen finger joints and a red rash across her cheeks and nose that worsens after time outdoors. She has painless mouth ulcers. FBC shows lymphopenia and platelets of 110 x 10^9/L. ANA is positive at a titre of 1:1280.\n\nWhich antibody would most strongly confirm the likely diagnosis?",
+          "options": [
+            "Anti-histone",
+            "Anti-centromere",
+            "Rheumatoid factor",
+            "Anti-Jo-1",
+            "Anti-Smith"
+          ],
+          "answer": 4,
+          "explanation": "Photosensitive malar rash, oral ulcers, non-erosive arthritis and cytopenias with a high-titre ANA strongly suggest **SLE**. ANA is **sensitive** but not specific. **Anti-Smith** (and anti-dsDNA) are **highly specific** and confirm the diagnosis; anti-dsDNA also tracks activity. Next steps include complement, urinalysis and urine protein:creatinine ratio, renal function, rheumatology referral and, for most patients, **hydroxychloroquine** with retinal screening, plus strict sun protection.",
+          "whyWrong": [
+            "Anti-histone suggests drug-induced lupus, and she takes no culprit drugs.",
+            "Anti-centromere is associated with limited cutaneous systemic sclerosis.",
+            "RF is non-specific and does not confirm SLE.",
+            "Anti-Jo-1 is associated with antisynthetase syndrome and myositis.",
+            ""
+          ],
+          "tags": [
+            "sle",
+            "antibodies",
+            "ana"
+          ]
+        },
+        {
+          "id": "rheumatology--sle-and-connective-tissue-disease--q2",
+          "discipline": "adult-medicine",
+          "topic": "rheumatology",
+          "difficulty": "core",
+          "stem": "A 31-year-old woman with SLE, well controlled on hydroxychloroquine, is 22 weeks pregnant. A routine fetal ultrasound at a Sydney hospital shows a fetal heart rate of 55 bpm with complete atrioventricular dissociation.\n\nWhich maternal antibody is most likely responsible?",
+          "options": [
+            "Anti-dsDNA",
+            "Anti-Ro (SSA)",
+            "Anticardiolipin",
+            "Anti-Smith",
+            "Anti-Scl-70"
+          ],
+          "answer": 1,
+          "explanation": "**Anti-Ro (SSA)** (often with anti-La) crosses the placenta from around 16 weeks and can damage the fetal conducting system, causing **congenital complete heart block**, which is usually permanent, as well as neonatal lupus rash and cytopenias. Women with SLE or Sjögren syndrome are screened for anti-Ro before or early in pregnancy, and those who are positive have serial fetal heart rate monitoring from about 16 to 26 weeks. Hydroxychloroquine may reduce the risk and is continued in pregnancy.",
+          "whyWrong": [
+            "Anti-dsDNA relates to maternal disease activity and nephritis, not fetal heart block.",
+            "",
+            "Antiphospholipid antibodies cause thrombosis, miscarriage and placental insufficiency, not heart block.",
+            "Anti-Smith is a specific SLE marker but does not cause congenital heart block.",
+            "Anti-Scl-70 is associated with diffuse systemic sclerosis."
+          ],
+          "tags": [
+            "sle",
+            "pregnancy",
+            "anti-ro"
+          ]
+        },
+        {
+          "id": "rheumatology--sle-and-connective-tissue-disease--q3",
+          "discipline": "adult-medicine",
+          "topic": "rheumatology",
+          "difficulty": "exam",
+          "stem": "A 38-year-old woman has had two unprovoked DVTs and a second-trimester pregnancy loss. Lupus anticoagulant, anticardiolipin and anti-beta2-glycoprotein I antibodies are all persistently positive on testing 12 weeks apart. She is not currently pregnant and does not plan further pregnancies. She asks for 'the tablet that doesn't need blood tests'.\n\nWhat is the most appropriate long-term anticoagulant?",
+          "options": [
+            "Apixaban",
+            "Rivaroxaban",
+            "Aspirin alone",
+            "Warfarin with a target INR of 2 to 3",
+            "Enoxaparin for 6 months, then stop"
+          ],
+          "answer": 3,
+          "explanation": "She has **antiphospholipid syndrome**, and being positive for all three antibodies (**triple-positive**) puts her at the highest thrombotic risk. After thrombosis, long-term **warfarin** (usually INR 2 to 3) is recommended. Trials of DOACs in high-risk APS (for example rivaroxaban in triple-positive patients) showed **more arterial thrombotic events** than warfarin, so DOACs are generally avoided. Explain the reason for choosing warfarin despite INR monitoring. Warfarin is teratogenic, so she needs effective contraception and a switch to heparin if she becomes pregnant.",
+          "whyWrong": [
+            "DOACs such as apixaban are generally avoided in high-risk APS because of excess arterial events.",
+            "Rivaroxaban caused more thrombotic events than warfarin in triple-positive APS.",
+            "Aspirin alone is inadequate after venous thrombosis in APS.",
+            "",
+            "Recurrent unprovoked thrombosis in APS needs indefinite anticoagulation, not a limited course."
+          ],
+          "tags": [
+            "antiphospholipid",
+            "warfarin",
+            "thrombosis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rheumatology--back-pain-and-spondyloarthritis",
+      "title": "Back pain, red flags and spondyloarthritis",
+      "minutes": 15,
+      "objectives": [
+        "Screen low back pain for red flags and know when imaging is justified",
+        "Recognise cauda equina syndrome and arrange emergency MRI",
+        "Distinguish inflammatory from mechanical back pain and diagnose axial spondyloarthritis",
+        "Manage non-specific low back pain without imaging or opioids"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Overview",
+          "body": "Low back pain is one of the commonest reasons Australians see a GP and the leading cause of disability nationally. Around 90% is **non-specific** (no identifiable structural cause) and improves within weeks. The skill being tested is to **find the few with serious pathology** (cancer, infection, fracture, cauda equina, aortic aneurysm) and to **avoid over-investigating the rest**, because unnecessary imaging and opioids worsen outcomes. Choosing Wisely Australia specifically lists routine imaging for non-specific low back pain as low-value care."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Causes",
+          "body": "- **Non-specific (mechanical)**: muscles, ligaments, facet joints, discs; imaging findings such as degeneration and bulges are common in pain-free people.\n- **Radicular pain (sciatica)**: disc herniation or foraminal stenosis compressing a nerve root (L5, S1 most common).\n- **Lumbar spinal stenosis**: older adults, neurogenic claudication (leg pain on walking relieved by sitting or bending forward).\n- **Serious (red flag) causes**: metastases (breast, prostate, lung, kidney, thyroid) and myeloma; vertebral osteomyelitis or epidural abscess; osteoporotic fracture; cauda equina compression; abdominal aortic aneurysm; pancreatitis, renal causes.\n- **Axial spondyloarthritis**, including ankylosing spondylitis: **HLA-B27**-associated inflammation of the sacroiliac joints and spine, often with enthesitis, uveitis, psoriasis or inflammatory bowel disease."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Red flags and inflammatory features",
+          "body": "**Red flags** (from the syllabus and Australian guidance):\n- Age **over 50 with new pain** (or under 20)\n- **History of cancer**\n- **Fever**, immunosuppression, injecting drug use, recent infection (infection)\n- **Unexplained weight loss**, **night pain** or rest pain not relieved by lying down\n- Significant trauma, or minor trauma with osteoporosis or long-term steroids (fracture)\n- **Saddle anaesthesia, urinary retention or incontinence, faecal incontinence, bilateral leg symptoms** (cauda equina)\n- Progressive or severe neurological deficit\n- Pulsatile abdominal mass, hypotension (AAA)\n\n**Inflammatory back pain** (axial spondyloarthritis):\n- Onset **before age 40**, insidious, over 3 months\n- **Morning stiffness over 30 minutes**, **improves with exercise, not rest**\n- Night pain in the second half of the night, alternating buttock pain\n- Reduced lumbar flexion (Schober test), reduced chest expansion\n- Associated: anterior uveitis (red painful eye), Achilles enthesitis, psoriasis, IBD, family history"
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "- **No imaging** for non-specific low back pain without red flags, including in the first 6 weeks. Explain why: incidental findings drive anxiety, more procedures and worse outcomes.\n- **Suspected cauda equina**: **emergency MRI** of the lumbosacral spine the same day (post-void bladder scan can support retention).\n- **Suspected malignancy or infection**: FBC, ESR/CRP, calcium, ALP, protein electrophoresis (myeloma), PSA in men as indicated, blood cultures if febrile; MRI is the imaging of choice.\n- **Suspected fracture**: X-ray, and assess bone density.\n- **Radiculopathy**: imaging only if considering intervention or if deficit progresses.\n- **Axial spondyloarthritis**: CRP (may be normal), **HLA-B27**, and **MRI of the sacroiliac joints** (bone marrow oedema detects early disease before X-ray changes). Plain X-ray later shows sacroiliitis, syndesmophytes and \"bamboo spine\"."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Telling back pain syndromes apart",
+          "body": "| Syndrome | Typical patient | Key features |\n|---|---|---|\n| Non-specific | Any age | Mechanical, fluctuates, no neurology |\n| Radicular (sciatica) | 30 to 50 | Leg pain worse than back pain, dermatomal, positive straight leg raise |\n| Spinal stenosis | Over 60 | Bilateral leg pain on walking or standing, relieved by sitting or flexing forward; pulses normal |\n| Vascular claudication | Smoker, vascular risk | Calf pain on walking relieved by standing still; weak pulses |\n| Axial spondyloarthritis | Under 40 | Inflammatory pattern, uveitis, raised CRP |\n| Osteoporotic fracture | Older woman, steroids | Sudden pain after minor strain, focal tenderness, height loss |\n| Metastasis or myeloma | Cancer history, over 50 | Unremitting night pain, weight loss, hypercalcaemia |\n| Epidural abscess, discitis | Diabetic, injecting drug use | Fever, focal tenderness, raised CRP, evolving neurology |\n| AAA | Older male smoker | Pulsatile mass, hypotension, back or flank pain |\n\nNerve root levels to know: **L4** (knee jerk, medial shin), **L5** (big toe dorsiflexion, dorsum of foot, no reflex), **S1** (ankle jerk, plantarflexion, lateral foot)."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Non-specific low back pain**\n- Reassure: good prognosis, most improve within weeks.\n- **Stay active**, continue usual activities and work as able; avoid bed rest.\n- Heat, exercise therapy, physiotherapy; psychological approaches for persistent pain.\n- Medicines play a small role: **NSAIDs** short term if suitable. Paracetamol is no better than placebo for acute low back pain. **Opioids** give little benefit and cause harm; avoid, or use only briefly at the lowest dose. Benzodiazepines are not recommended.\n- Screen for psychosocial risk of chronicity (\"yellow flags\": fear-avoidance, low mood, compensation issues); tools such as the STarT Back screening tool help target care.\n\n**Sciatica**: most improve within 6 to 12 weeks. Physiotherapy, NSAIDs; gabapentinoids and pregabalin are not effective for sciatica and cause harm. Surgical referral for progressive deficit or persistent disabling pain.\n\n**Cauda equina syndrome**: emergency neurosurgical or spinal decompression. Outcome depends on how fast it is done, especially before painless retention sets in.\n\n**Spinal metastases with cord compression**: high-dose **dexamethasone**, urgent MRI, then radiotherapy or surgery.\n\n**Axial spondyloarthritis**: **exercise and physiotherapy** plus regular **NSAIDs** first-line; if still active, **TNF inhibitors or IL-17 inhibitors** under PBS authority via a rheumatologist. Conventional DMARDs such as methotrexate do not help axial disease. Refer uveitis to ophthalmology urgently."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- 35-year-old with 2 weeks of low back pain after lifting, no red flags: reassurance, stay active, NSAID if needed; **no X-ray**.\n- New back pain with urinary retention and perianal numbness: **emergency MRI**.\n- Woman with previous breast cancer and new thoracic back pain worse at night: metastases until proven otherwise.\n- Young man with morning stiffness improving with exercise and a past red eye: axial spondyloarthritis, MRI sacroiliac joints.\n- Older person with leg pain on walking relieved by leaning on a shopping trolley: spinal stenosis (check pulses to exclude vascular claudication)."
+        }
+      ],
+      "keyPoints": [
+        "Most low back pain is non-specific; reassure, keep active, no routine imaging.",
+        "Red flags: over 50 new pain, cancer, fever, weight loss, night pain, trauma or osteoporosis, neuro deficit, cauda equina features.",
+        "Cauda equina: saddle anaesthesia, retention or incontinence; emergency MRI and decompression.",
+        "Opioids, benzodiazepines and gabapentinoids have little benefit and real harm in back pain.",
+        "Inflammatory back pain: under 40, morning stiffness, better with exercise; think axial spondyloarthritis.",
+        "MRI of sacroiliac joints detects early sacroiliitis; NSAIDs and exercise first, then biologics."
+      ],
+      "redFlags": [
+        "Saddle anaesthesia, urinary retention or faecal incontinence",
+        "Back pain with fever, injecting drug use or immunosuppression",
+        "History of cancer with new back pain",
+        "Progressive leg weakness",
+        "Back pain with pulsatile abdominal mass or hypotension"
+      ],
+      "contrast": [
+        {
+          "aspect": "Imaging in acute back pain",
+          "india": "Lumbar spine X-ray commonly ordered at first visit.",
+          "australia": "No imaging for non-specific low back pain without red flags; listed as low-value care by Choosing Wisely Australia."
+        },
+        {
+          "aspect": "Analgesia",
+          "india": "Muscle relaxants, combinations and opioids are often prescribed.",
+          "australia": "Advice to stay active and exercise; short NSAID course if suitable; opioids and benzodiazepines discouraged."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Imaging for acute non-specific low back pain without red flags?",
+          "back": "None."
+        },
+        {
+          "front": "Imaging for suspected cauda equina?",
+          "back": "Emergency MRI lumbosacral spine."
+        },
+        {
+          "front": "Inflammatory back pain: effect of exercise?",
+          "back": "Improves with exercise, worse with rest."
+        },
+        {
+          "front": "Best test for early sacroiliitis?",
+          "back": "MRI of the sacroiliac joints (bone marrow oedema)."
+        },
+        {
+          "front": "First-line drug for axial spondyloarthritis?",
+          "back": "Regular NSAIDs, with exercise and physiotherapy."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "rheumatology--back-pain-and-spondyloarthritis--q1",
+          "discipline": "adult-medicine",
+          "topic": "rheumatology",
+          "difficulty": "foundation",
+          "stem": "A 34-year-old warehouse worker sees his GP in Newcastle with 5 days of low back pain after lifting boxes. The pain is in the lower lumbar region without leg symptoms. He has no past medical history, no fever or weight loss, and normal neurological examination including perianal sensation. He asks for an X-ray and time off work.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Lumbar spine X-ray",
+            "Reassurance, advice to stay active and a short course of an NSAID if suitable",
+            "Oxycodone and 2 weeks' bed rest",
+            "MRI of the lumbar spine",
+            "Diazepam and paracetamol"
+          ],
+          "answer": 1,
+          "explanation": "This is acute **non-specific low back pain** with no red flags. Australian guidance recommends **reassurance** about the good prognosis, **staying active** and continuing usual activities including modified work, heat and exercise, with a short NSAID course if there are no contraindications. **Imaging is not indicated**: it does not improve outcomes, often finds incidental degeneration that increases anxiety, and is listed as low-value care. Bed rest delays recovery, and opioids and benzodiazepines add harm with little benefit.",
+          "whyWrong": [
+            "X-ray adds no useful information without red flags and exposes him to radiation.",
+            "",
+            "Bed rest delays recovery and opioids offer little benefit with real harm.",
+            "MRI is reserved for red flags or radiculopathy being considered for intervention.",
+            "Benzodiazepines are not recommended and paracetamol is no better than placebo for acute low back pain."
+          ],
+          "ausPearl": "Choosing Wisely Australia and the Australian low back pain clinical care standard both discourage routine imaging for low back pain without red flags.",
+          "tags": [
+            "low back pain",
+            "imaging",
+            "choosing wisely"
+          ]
+        },
+        {
+          "id": "rheumatology--back-pain-and-spondyloarthritis--q2",
+          "discipline": "adult-medicine",
+          "topic": "rheumatology",
+          "difficulty": "core",
+          "stem": "A 47-year-old woman presents to a Gold Coast emergency department with 3 days of worsening low back pain radiating down both legs. Today she noticed numbness when wiping after using the toilet and has not passed urine for 10 hours. Examination shows reduced sensation in the perianal region and reduced ankle reflexes bilaterally. A bladder scan shows 900 mL.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Urinary catheter and discharge with physiotherapy follow-up",
+            "Plain X-ray of the lumbar spine",
+            "Outpatient neurosurgical referral",
+            "Oral prednisolone and review in 48 hours",
+            "Emergency MRI of the lumbosacral spine and urgent spinal surgical review"
+          ],
+          "answer": 4,
+          "explanation": "Bilateral sciatica, **saddle anaesthesia** and **painless urinary retention** are **cauda equina syndrome**, usually from a large central disc herniation. It is a surgical emergency: arrange **emergency MRI** and **urgent decompression**. Outcomes for bladder, bowel and sexual function depend on how quickly decompression happens, and are worse once retention is established. Catheterise to relieve retention, but that does not treat the cause. Always ask every back pain patient about bladder, bowel and saddle sensation and document it.",
+          "whyWrong": [
+            "Catheterising and discharging misses a surgical emergency.",
+            "X-ray cannot show neural compression.",
+            "Outpatient referral is far too slow; decompression is time-critical.",
+            "Steroids do not treat compressive cauda equina syndrome.",
+            ""
+          ],
+          "tags": [
+            "cauda equina",
+            "red flags",
+            "mri"
+          ]
+        },
+        {
+          "id": "rheumatology--back-pain-and-spondyloarthritis--q3",
+          "discipline": "adult-medicine",
+          "topic": "rheumatology",
+          "difficulty": "exam",
+          "stem": "A 27-year-old man sees his GP in Canberra with 8 months of low back and buttock pain. He is stiff for over an hour each morning, it improves with his gym session, and it wakes him in the early hours. Last year he was treated for a painful red left eye with photophobia. Schober test shows reduced lumbar flexion. CRP is 14 mg/L. Lumbar and pelvic X-rays are normal.\n\nWhich investigation is most useful next?",
+          "options": [
+            "MRI of the sacroiliac joints",
+            "Repeat pelvic X-ray in 12 months",
+            "CT of the lumbar spine",
+            "Rheumatoid factor and anti-CCP",
+            "Bone scan"
+          ],
+          "answer": 0,
+          "explanation": "Chronic back pain beginning before 40, prolonged morning stiffness, **improvement with exercise**, early-morning waking pain, alternating buttock pain and prior **anterior uveitis** point to **axial spondyloarthritis**. X-rays are often normal for years (non-radiographic disease). **MRI of the sacroiliac joints** shows active inflammation (bone marrow oedema) early, and HLA-B27 adds support. First-line treatment is exercise, physiotherapy and regular NSAIDs, with TNF or IL-17 inhibitors under PBS authority for persistent activity.",
+          "whyWrong": [
+            "",
+            "Waiting for X-ray changes delays diagnosis and treatment by years.",
+            "CT involves more radiation and is less sensitive than MRI for active inflammation.",
+            "RF and anti-CCP are for rheumatoid arthritis, which does not cause this pattern.",
+            "Bone scan is non-specific and not recommended for sacroiliitis."
+          ],
+          "tags": [
+            "spondyloarthritis",
+            "uveitis",
+            "sacroiliitis"
+          ]
+        }
+      ]
+    }
+  ]
+}

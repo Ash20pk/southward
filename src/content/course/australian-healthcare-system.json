@@ -1,0 +1,675 @@
+{
+  "topic": "australian-healthcare-system",
+  "intro": "This topic explains how Australian health care is paid for and organised: Medicare and the MBS, the PBS, GP-led primary care and chronic disease plans, public and private hospitals, and the national schemes for disability, aged care and digital health. The AMC tests it through practical questions (does this patient need a referral, what does a plan give them, who pays), and you will use every part of it from your first day as an intern.",
+  "lessons": [
+    {
+      "id": "australian-healthcare-system--medicare-and-mbs",
+      "title": "Medicare, the MBS and referrals",
+      "minutes": 14,
+      "objectives": [
+        "Explain what Medicare covers, who is eligible and how it is funded",
+        "Describe the MBS, schedule fees, rebates, bulk billing and gaps",
+        "Apply the referral rules for Medicare-rebated specialist care",
+        "Identify common services that Medicare does not cover"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "What Medicare is",
+          "body": "**Medicare** is Australia's universal public health insurance scheme, introduced in **1984** (it replaced an earlier scheme, Medibank, from 1975). It is run by the Commonwealth (federal) government through Services Australia. It has three main parts:\n\n1. **Free treatment as a public patient in a public hospital** (jointly funded with the states, which run the hospitals).\n2. **Subsidies for out-of-hospital medical services** listed on the **Medicare Benefits Schedule (MBS)**: GP and specialist consultations, tests, imaging, many allied health services under plans, eye tests by optometrists.\n3. **Subsidies for medicines** through the separate **Pharmaceutical Benefits Scheme (PBS)** (next lesson).\n\n**Funding**: general taxation plus the **Medicare levy** (2% of taxable income for most taxpayers). Higher earners without private hospital insurance also pay the **Medicare Levy Surcharge** (1 to 1.5%), which is designed to push them into private cover.\n\n**Who is eligible**\n\n- Australian citizens and permanent residents; New Zealand citizens living in Australia.\n- Some applicants for permanent residency.\n- Visitors from countries with a **Reciprocal Health Care Agreement** (for example the UK, Ireland, New Zealand and several European countries) for medically necessary care. **India does not have such an agreement.**\n- Most temporary visa holders (international students, many temporary skilled workers) are **not** eligible and must hold private health insurance as a visa condition (for students, Overseas Student Health Cover). Public hospitals charge ineligible patients."
+        },
+        {
+          "kind": "concepts",
+          "heading": "The MBS: fees, rebates, bulk billing and gaps",
+          "body": "Each MBS item has a **schedule fee** set by the government. Medicare pays a **rebate** (benefit) as a percentage of it:\n\n| Service | Medicare rebate |\n|---|---|\n| GP consultations (non-referred) | **100%** of the schedule fee |\n| Other out-of-hospital services (specialists, tests, imaging) | **85%** |\n| Services to a **private patient in hospital** | **75%** (private insurance covers some or all of the remaining 25%) |\n\nDoctors are **free to set their own fees**. So:\n\n- **Bulk billing**: the doctor accepts the Medicare rebate as **full payment** and claims it directly. The patient pays nothing. The government pays extra **bulk billing incentive** payments, historically targeted to children under 16 and concession card holders, and recently broadened; check the current MBS for the rules.\n- **Private billing**: the doctor charges more than the rebate. The patient pays the fee and claims the rebate (often processed on the spot), leaving an **out-of-pocket gap**.\n- **Medicare Safety Nets**: once a person's or family's out-of-hospital costs pass an annual threshold, Medicare pays a higher rebate for the rest of the calendar year.\n\nPatients with a **concession card** (pension, health care card) or **DVA** card (veterans, with Gold or White cards covering specified conditions) often get bulk billed and have lower PBS costs.\n\n**What Medicare does not cover (or covers only in limited ways)**\n\n- Most **dental** care for adults (public dental exists for concession card holders, with waiting lists; the Child Dental Benefits Schedule covers eligible children).\n- **Ambulance** services (state-based: free for residents in some states, such as Queensland and Tasmania; elsewhere via subscription or private insurance).\n- Physiotherapy, psychology, podiatry and other allied health **except** under specific MBS plans.\n- Glasses and contact lenses, hearing aids (separate programs exist), cosmetic surgery.\n- Private hospital accommodation and theatre fees (private insurance)."
+        },
+        {
+          "kind": "application",
+          "heading": "Referrals: the GP as gatekeeper",
+          "body": "Australia's system is built around **general practice**. A patient can see a specialist privately without a referral, but **Medicare will only pay the specialist rebate if there is a valid referral**, so in practice nearly everyone goes through their GP. This keeps care coordinated and reduces cost.\n\n**Referral validity**\n\n| Referral from | Valid for |\n|---|---|\n| **GP to specialist or consultant physician** | **12 months** (or longer, including **indefinite**, if the GP states this for a clinical reason, e.g. a chronic condition) |\n| **Specialist to another specialist** | **3 months** (or, if the patient is admitted, until discharge) |\n\n- The referral must be in writing, dated and signed, and include the clinical information needed.\n- Referrals can be addressed to a specific specialist or be \"open\" to any specialist in a field (for example to \"a cardiologist\").\n- Once a referral expires, the patient needs a new one to keep claiming the specialist rate.\n- **No referral is needed** for emergency departments, GP visits, optometrists or public sexual health clinics.\n- Pathology and imaging requests are separate from specialist referrals; many imaging items can be requested by GPs, but some (for example certain MRI scans) are restricted to specialists or have specific GP-eligible indications.\n\n**Why the AMC cares.** You are expected to know that a patient wanting to see a dermatologist, psychiatrist or orthopaedic surgeon should first see their GP, who assesses, manages what they can, and refers with a letter. Continuity of care with one GP or practice is valued and is linked to better outcomes and fewer hospital admissions.\n\n**Worked example.** A man's cardiologist referral from his GP was written 14 months ago \"for 12 months\". He wants to book a review. He needs a new referral from his GP (or the original needed to say \"indefinite\" or a longer period) to receive the Medicare rebate."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- \"What does bulk billing mean?\" The doctor accepts the Medicare benefit as full payment; no gap.\n- Rebate percentages: **100% GP, 85% out-of-hospital specialist and tests, 75% in-hospital private**.\n- Referral validity: **GP 12 months (or indefinite if stated); specialist to specialist 3 months.**\n- Medicare **does not** cover most adult dental care, ambulance in most states, or glasses.\n- An overseas visitor from a non-reciprocal country (including India) is **not** Medicare-eligible.\n- Public hospital care as a public patient is **free** for eligible people; they cannot choose their doctor."
+        }
+      ],
+      "keyPoints": [
+        "Medicare (1984) funds free public hospital care and subsidises MBS-listed out-of-hospital services.",
+        "Funded by general taxation and the 2% Medicare levy; higher earners without private cover pay a surcharge.",
+        "Rebates: 100% of schedule fee for GP, 85% out-of-hospital specialist, 75% in-hospital private.",
+        "Bulk billing: doctor accepts the rebate as full payment; otherwise the patient pays a gap.",
+        "Specialist rebates need a referral: GP 12 months (or indefinite if stated), specialist-to-specialist 3 months.",
+        "Not covered: most adult dental, ambulance in most states, glasses, cosmetic surgery.",
+        "Temporary visa holders from non-reciprocal countries such as India need private insurance."
+      ],
+      "redFlags": [],
+      "contrast": [
+        {
+          "aspect": "Paying for a GP visit",
+          "india": "Mostly out of pocket at private clinics, or free at government facilities.",
+          "australia": "Medicare rebate for every GP visit; bulk billing means no payment at the counter, otherwise a gap."
+        },
+        {
+          "aspect": "Seeing a specialist",
+          "india": "Patients can walk in to a specialist directly.",
+          "australia": "A GP referral is needed to claim the Medicare rebate, valid 12 months (GP) or 3 months (specialist)."
+        },
+        {
+          "aspect": "Universal coverage",
+          "india": "Coverage through schemes like PM-JAY for eligible families and government hospitals.",
+          "australia": "Universal for citizens and permanent residents, funded by tax and the Medicare levy."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "What is bulk billing?",
+          "back": "The doctor accepts the Medicare benefit as full payment, so the patient pays nothing."
+        },
+        {
+          "front": "How long is a GP-to-specialist referral valid?",
+          "back": "12 months, unless the GP specifies a different period or indefinite."
+        },
+        {
+          "front": "How long is a specialist-to-specialist referral valid?",
+          "back": "3 months (or until discharge if admitted)."
+        },
+        {
+          "front": "What percentage of the schedule fee does Medicare pay for a GP consultation?",
+          "back": "100%."
+        },
+        {
+          "front": "When did Medicare start?",
+          "back": "1984 (replacing Medibank, 1975)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "australian-healthcare-system--medicare-and-mbs--q1",
+          "discipline": "population-health",
+          "topic": "australian-healthcare-system",
+          "difficulty": "foundation",
+          "stem": "A 45-year-old woman attends a general practice in Perth. At the end of the consultation the receptionist says the visit is bulk billed.\n\nWhat does this mean?",
+          "options": [
+            "She pays the full fee and claims the whole amount back from Medicare",
+            "Her private health insurer pays the doctor",
+            "The doctor accepts the Medicare benefit as full payment, and she pays nothing",
+            "She pays the gap between the schedule fee and the rebate",
+            "The visit is paid by the state health department"
+          ],
+          "answer": 2,
+          "explanation": "**Bulk billing** means the doctor claims the **Medicare benefit directly** and accepts it as **full payment** for the service, so the patient has **no out-of-pocket cost**. For GP consultations the benefit is **100% of the MBS schedule fee**.\n\nIf the practice charges more than the rebate (private billing), the patient pays the fee, receives the rebate, and is left with a **gap**. Private health insurance cannot legally cover out-of-hospital GP gaps. The government pays extra incentives to encourage bulk billing, especially for children and concession card holders.",
+          "whyWrong": [
+            "That describes private billing followed by a rebate claim, not bulk billing.",
+            "Private insurers cannot pay for out-of-hospital GP services.",
+            "",
+            "A gap payment is the opposite of bulk billing.",
+            "GP services are funded by the Commonwealth through Medicare, not by states."
+          ],
+          "tags": [
+            "medicare",
+            "bulk billing",
+            "mbs"
+          ]
+        },
+        {
+          "id": "australian-healthcare-system--medicare-and-mbs--q2",
+          "discipline": "population-health",
+          "topic": "australian-healthcare-system",
+          "difficulty": "core",
+          "stem": "A 58-year-old man with stable heart failure has seen his cardiologist in Brisbane every 6 months for several years. His GP's referral, written 13 months ago, did not specify a duration. He has an appointment next week.\n\nWhat is the most appropriate advice?",
+          "options": [
+            "No action is needed because referrals for chronic conditions never expire",
+            "The cardiologist can extend the referral for another 12 months",
+            "He can claim the rebate using his previous referral if he pays upfront",
+            "He must attend the emergency department to obtain a new referral",
+            "He needs a new referral from his GP to claim the Medicare specialist rebate"
+          ],
+          "answer": 4,
+          "explanation": "A **GP referral to a specialist is valid for 12 months** from the first consultation unless the GP specifies a different period, including **indefinite**, which is often appropriate for chronic conditions. This referral had no stated duration, so it has **expired**, and he needs a **new referral from his GP** to receive the Medicare specialist rebate.\n\nA specialist cannot extend a GP referral; specialist-to-specialist referrals are valid for only 3 months. Emergency departments are not a source of routine referrals. A good next step is for the GP to write an indefinite referral for ongoing specialist care.",
+          "whyWrong": [
+            "Referrals only last indefinitely if the GP writes that on the referral.",
+            "Specialists cannot extend a GP referral.",
+            "Payment method does not change referral validity.",
+            "EDs are for emergencies, not routine referrals.",
+            ""
+          ],
+          "tags": [
+            "referral",
+            "medicare",
+            "specialist"
+          ]
+        },
+        {
+          "id": "australian-healthcare-system--medicare-and-mbs--q3",
+          "discipline": "population-health",
+          "topic": "australian-healthcare-system",
+          "difficulty": "exam",
+          "stem": "A 26-year-old Indian national studying for a master's degree in Sydney on a student visa attends a public hospital emergency department with abdominal pain and is diagnosed with appendicitis. She asks whether Medicare will pay for her surgery.\n\nWhich statement is correct?",
+          "options": [
+            "Medicare covers her because she is living in Australia",
+            "Medicare covers emergency surgery for all visitors",
+            "India has a reciprocal health care agreement with Australia",
+            "She is not Medicare-eligible; her Overseas Student Health Cover should pay",
+            "The state government pays for all non-resident emergency care"
+          ],
+          "answer": 3,
+          "explanation": "International students are **not eligible for Medicare**. A condition of the student visa is to hold **Overseas Student Health Cover (OSHC)**, private insurance that covers hospital and medical costs. Australia has **Reciprocal Health Care Agreements** with a limited number of countries (including the UK, Ireland, New Zealand and several European countries); **India is not one of them**.\n\nShe will still receive emergency treatment without delay; payment is sorted out afterwards. Knowing Medicare eligibility is useful both for exam questions and for counselling overseas patients (and, in your case, planning your own move).",
+          "whyWrong": [
+            "Residence alone does not confer eligibility; it depends on visa type.",
+            "Only visitors from reciprocal countries receive Medicare-funded necessary care.",
+            "India has no reciprocal health care agreement with Australia.",
+            "",
+            "Ineligible patients are charged; states do not cover them by default."
+          ],
+          "tags": [
+            "medicare eligibility",
+            "overseas students",
+            "reciprocal agreements"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "australian-healthcare-system--pbs-and-medicines",
+      "title": "The PBS and how medicines are regulated",
+      "minutes": 13,
+      "objectives": [
+        "Explain how medicines are approved (TGA) and subsidised (PBAC and PBS)",
+        "Describe co-payments, the PBS Safety Net and authority prescriptions",
+        "Apply the Poisons Standard schedules and real-time prescription monitoring",
+        "Use active ingredient prescribing, brand substitution and 60-day dispensing correctly"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "From approval to subsidy",
+          "body": "Two separate steps decide whether a patient can get a medicine cheaply:\n\n1. **Therapeutic Goods Administration (TGA)**: the national regulator. It assesses **safety, quality and efficacy** and registers medicines on the Australian Register of Therapeutic Goods (ARTG). Registration means a drug can be sold, not that it is subsidised.\n2. **Pharmaceutical Benefits Advisory Committee (PBAC)**: an independent expert committee that assesses **clinical effectiveness and cost-effectiveness** compared with existing treatments, and recommends whether the government should list the medicine on the **Pharmaceutical Benefits Scheme (PBS)**. The government then negotiates the price and lists it.\n\nThe **PBS** subsidises most prescription medicines used in the community and in private hospitals, and some in public hospitals on discharge. Veterans have the parallel **Repatriation PBS (RPBS)**. Medicines not on the PBS can still be prescribed on a **private prescription**, at full cost to the patient.\n\nUnapproved medicines can be accessed through the **Special Access Scheme** or by an **Authorised Prescriber** (this is how most medicinal cannabis is prescribed)."
+        },
+        {
+          "kind": "concepts",
+          "heading": "What the patient pays and how you prescribe",
+          "body": "**Co-payments.** For a PBS medicine, the patient pays a **co-payment** up to a maximum set by the government and the Commonwealth pays the rest. There are two rates:\n\n- **General patients** pay a capped co-payment of a few tens of dollars per script (the government has reduced this cap in recent years).\n- **Concession card holders** pay a much smaller co-payment (under $10).\n\nExact amounts change each January, so check pbs.gov.au rather than memorising figures.\n\n**PBS Safety Net.** Once a family's PBS spending in a calendar year passes a threshold, general patients then pay the concessional rate and concession patients get PBS medicines free for the rest of the year.\n\n**Restrictions on PBS listings**\n\n| Type | What it means |\n|---|---|\n| Unrestricted | Any approved indication |\n| **Restricted benefit** | Only for the listed indications |\n| **Authority required (streamlined)** | Write the streamlined authority code on the script |\n| **Authority required** | Seek approval from Services Australia (online or phone) before prescribing, e.g. some biologics, high-dose or long-term opioids in some cases |\n\n**Other rules you will use daily**\n\n- **Active ingredient prescribing** has been required on PBS prescriptions since 2021: write the generic name (a brand may be added if clinically needed).\n- **Brand substitution**: pharmacists can substitute a bioequivalent brand unless the prescriber ticks \"brand substitution not permitted\" or the patient declines.\n- **60-day dispensing** (since 2023) lets many stable chronic medicines be supplied as two months' worth per co-payment.\n- **Electronic prescriptions** (tokens by SMS or email) are widely used.\n- **Closing the Gap PBS Co-payment Program** reduces costs for eligible Aboriginal and Torres Strait Islander people.\n\n**The Poisons Standard (medicine schedules)**\n\n| Schedule | Meaning | Examples |\n|---|---|---|\n| S2 Pharmacy Medicine | Sold in pharmacies | small packs of paracetamol |\n| S3 Pharmacist Only | Pharmacist must be involved | salbutamol inhaler, some emergency contraception |\n| **S4 Prescription Only** | Needs a prescription | antibiotics, most chronic disease drugs, codeine (since 2018) |\n| **S8 Controlled Drug** | Stricter storage, prescribing and recording | opioids (morphine, oxycodone), dexamphetamine, methylphenidate |\n| S9 Prohibited | Research only | heroin |\n\nState and territory law adds rules for S8 drugs (and some S4 drugs such as benzodiazepines), including **permits or authorities for long-term prescribing** and prescribing to people with drug dependence. These **vary by state**.\n\n**Real-time prescription monitoring (RTPM)** systems (for example SafeScript in Victoria) show a patient's recent supply of monitored medicines at the point of prescribing and dispensing. Checking is mandatory in some states before prescribing monitored medicines."
+        },
+        {
+          "kind": "application",
+          "heading": "Applying it in practice",
+          "body": "**Medication reviews and support**\n\n- **Home Medicines Review (HMR)**: a GP refers a community patient (for example with polypharmacy, recent discharge or confusion about medicines) to an accredited pharmacist who visits the home and reports back.\n- **Residential Medication Management Review** for aged care residents.\n- **Dose administration aids** (blister packs, sometimes called Webster packs) for people who struggle with multiple medicines.\n\n**Worked examples**\n\n- A patient cannot afford a non-PBS medicine: consider a PBS-listed alternative, check whether they are eligible for a concession card, and consider whether they will reach the Safety Net.\n- You want to prescribe a drug with a streamlined authority listing: write the streamlined code and confirm the patient meets the listed criteria. Prescribing outside PBS criteria on a PBS script is not allowed; use a private script.\n- A patient requests early repeats of oxycodone: check RTPM, review the indication and consider dependence before prescribing; a state permit may be needed for ongoing supply.\n- A hospital discharge: the hospital supplies a limited amount (often under PBS arrangements in participating states); the GP continues prescribing.\n\n**Why PBAC matters**: Australia's approach of paying only for cost-effective medicines, with the government negotiating prices, keeps medicines affordable at population level, but means some TGA-approved drugs are not subsidised. Patients may ask why a drug they have read about is not on the PBS; the answer is usually that PBAC has not recommended it at the price offered."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- **TGA** approves (safety, quality, efficacy); **PBAC** recommends subsidy (cost-effectiveness). They are different.\n- The **PBS Safety Net** reduces costs after an annual threshold is reached.\n- **Authority required** listings need approval before prescribing; streamlined authorities need a code on the script.\n- **Codeine** has been prescription-only (S4) since February 2018.\n- **S8** = controlled drugs such as opioids and stimulants; state permits and real-time prescription monitoring apply.\n- A patient on a temporary visa without Medicare pays full price for medicines unless their insurance covers them."
+        }
+      ],
+      "keyPoints": [
+        "TGA registers medicines for safety, quality and efficacy; PBAC recommends PBS listing on cost-effectiveness.",
+        "PBS co-payments are capped, lower for concession card holders; amounts change each January.",
+        "The PBS Safety Net lowers or removes co-payments after an annual threshold.",
+        "Authority-required and restricted listings limit PBS subsidy to set criteria.",
+        "Active ingredient prescribing is mandatory; pharmacists can substitute brands unless prohibited.",
+        "S4 is prescription only; S8 are controlled drugs with state-based permits and monitoring.",
+        "Real-time prescription monitoring shows a patient's recent supply of monitored medicines."
+      ],
+      "redFlags": [],
+      "contrast": [
+        {
+          "aspect": "Affordable medicines",
+          "india": "Jan Aushadhi generic stores and price controls through NPPA.",
+          "australia": "PBS subsidy after PBAC cost-effectiveness review, with a capped co-payment and an annual safety net."
+        },
+        {
+          "aspect": "Controlled drugs",
+          "india": "Schedule H and X under the Drugs and Cosmetics Rules; many drugs obtainable without a prescription in practice.",
+          "australia": "Strict schedules (S4, S8); codeine is prescription only; state permits and real-time monitoring for opioids and stimulants."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "What does the TGA assess?",
+          "back": "Safety, quality and efficacy of therapeutic goods (registration on the ARTG)."
+        },
+        {
+          "front": "What does the PBAC assess?",
+          "back": "Clinical effectiveness and cost-effectiveness, to recommend PBS listing."
+        },
+        {
+          "front": "What is the PBS Safety Net?",
+          "back": "After annual spending reaches a threshold, general patients pay the concessional rate and concession patients pay nothing for the rest of the year."
+        },
+        {
+          "front": "What schedule are opioids such as oxycodone?",
+          "back": "Schedule 8, Controlled Drug."
+        },
+        {
+          "front": "Since when has codeine been prescription-only in Australia?",
+          "back": "February 2018 (S4)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "australian-healthcare-system--pbs-and-medicines--q1",
+          "discipline": "population-health",
+          "topic": "australian-healthcare-system",
+          "difficulty": "foundation",
+          "stem": "A 52-year-old man asks why a new weight-loss medicine that is approved in Australia is not subsidised, so that it costs him several hundred dollars a month.\n\nWhich body makes recommendations about whether a medicine is subsidised on the PBS?",
+          "options": [
+            "Therapeutic Goods Administration",
+            "Pharmaceutical Benefits Advisory Committee",
+            "Australian Health Practitioner Regulation Agency",
+            "National Health and Medical Research Council",
+            "Medical Board of Australia"
+          ],
+          "answer": 1,
+          "explanation": "The **Pharmaceutical Benefits Advisory Committee (PBAC)** is an independent expert committee that assesses the **clinical effectiveness and cost-effectiveness** of medicines and recommends to the government whether they should be listed on the **PBS**. The government then negotiates price and lists the medicine.\n\nThe **TGA** approves (registers) medicines on the basis of safety, quality and efficacy, which allows them to be sold but does not mean they are subsidised. A medicine can be TGA-approved yet not PBS-listed, or listed only for restricted indications, which is often why patients face high costs.",
+          "whyWrong": [
+            "The TGA approves medicines for sale; it does not decide subsidy.",
+            "",
+            "Ahpra regulates health practitioners, not medicine funding.",
+            "The NHMRC funds research and issues guidelines, not PBS listings.",
+            "The Medical Board regulates doctors."
+          ],
+          "tags": [
+            "pbs",
+            "pbac",
+            "tga"
+          ]
+        },
+        {
+          "id": "australian-healthcare-system--pbs-and-medicines--q2",
+          "discipline": "population-health",
+          "topic": "australian-healthcare-system",
+          "difficulty": "core",
+          "stem": "A 67-year-old pensioner in Hobart takes eight regular PBS medicines. In November she tells her GP that the pharmacist said her medicines will be free for the rest of the year.\n\nWhich mechanism explains this?",
+          "options": [
+            "The PBS Safety Net",
+            "The Medicare Safety Net",
+            "Bulk billing",
+            "The Closing the Gap PBS Co-payment Program",
+            "The Home Medicines Review program"
+          ],
+          "answer": 0,
+          "explanation": "The **PBS Safety Net** protects people who need many medicines. Once a patient's (or family's) PBS spending in a **calendar year** reaches a threshold, **concession card holders get PBS medicines free** and general patients pay the concessional rate for the rest of that year. As a pensioner with eight regular medicines, she reached the threshold by November.\n\nThe **Medicare Safety Net** is a different scheme that covers out-of-hospital medical services, not medicines. Bulk billing applies to doctors' services. The Closing the Gap program is specific to Aboriginal and Torres Strait Islander people. HMR is a pharmacist review, not a subsidy.",
+          "whyWrong": [
+            "",
+            "The Medicare Safety Net applies to out-of-hospital medical services, not medicines.",
+            "Bulk billing relates to doctors' fees, not medicines.",
+            "That program applies to eligible Aboriginal and Torres Strait Islander people.",
+            "HMR is a medication review service, not a subsidy."
+          ],
+          "tags": [
+            "pbs safety net",
+            "medicines",
+            "concession"
+          ]
+        },
+        {
+          "id": "australian-healthcare-system--pbs-and-medicines--q3",
+          "discipline": "population-health",
+          "topic": "australian-healthcare-system",
+          "difficulty": "exam",
+          "stem": "A 38-year-old man new to a Melbourne general practice requests a repeat prescription of oxycodone controlled-release, which he says another GP has prescribed for back pain for 2 years. He has no records with him.\n\nWhat is the most appropriate first step before deciding whether to prescribe?",
+          "options": [
+            "Check the real-time prescription monitoring system for his recent supply",
+            "Prescribe a one-month supply and request his records",
+            "Refuse to prescribe any opioid to new patients",
+            "Refer him directly to a drug and alcohol service",
+            "Switch him to codeine, which has lower abuse potential"
+          ],
+          "answer": 0,
+          "explanation": "Oxycodone is a **Schedule 8** controlled drug. In Victoria, doctors must check **SafeScript** (the state's **real-time prescription monitoring** system) before prescribing monitored medicines, and all states now have RTPM. It shows recent supply from all prescribers and pharmacies, identifying multiple prescribers or early refills.\n\nThen take a full pain and substance history, get his previous records (with consent), consider whether a state permit is required for ongoing S8 prescribing, and plan (often a multidisciplinary pain approach and considering tapering). Blanket refusal or reflex referral ignores his needs, and codeine is also an opioid with its own harms.",
+          "whyWrong": [
+            "",
+            "Prescribing before checking supply history risks contributing to harm or diversion.",
+            "Blanket refusal is not patient-centred; assess first.",
+            "Referral may be appropriate later, but only after assessment shows dependence.",
+            "Codeine is an opioid too (prescription-only since 2018) and is not a safer substitute."
+          ],
+          "ausPearl": "S8 prescribing rules, including permits for long-term opioid prescribing and mandatory RTPM checks, vary by state.",
+          "tags": [
+            "s8 prescribing",
+            "rtpm",
+            "opioids"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "australian-healthcare-system--primary-care-and-chronic-disease",
+      "title": "General practice, care plans and rural health",
+      "minutes": 15,
+      "objectives": [
+        "Describe how Australian general practice is organised and funded",
+        "Use chronic condition management plans, health assessments and mental health treatment plans",
+        "Recognise the telehealth, after-hours and urgent care options available",
+        "Explain rural workforce rules relevant to international medical graduates"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "General practice as the hub",
+          "body": "Most Australians see a GP several times a year. GPs are independent (usually private) practitioners funded mainly through MBS rebates plus practice incentive payments. Practices include **practice nurses**, sometimes nurse practitioners, pharmacists and allied health staff, and increasingly work in team-based models.\n\n- **Continuity of care** is valued: one GP or practice holding the full picture, coordinating specialists, allied health and hospital care.\n- **MyMedicare** (since 2023) is voluntary patient registration with a practice. It links patients to their usual practice and unlocks some services (for example longer telehealth consultations and funding for care of aged care residents and frequent hospital users).\n- **Primary Health Networks (PHNs)** are regional organisations that commission local services (mental health, after-hours, Aboriginal health, workforce support) and support practices.\n\nThe **RACGP** sets general practice standards and guidelines, including the **Red Book** (Guidelines for preventive activities in general practice). ACRRM (the Australian College of Rural and Remote Medicine) trains rural generalists."
+        },
+        {
+          "kind": "concepts",
+          "heading": "The main MBS tools for chronic and preventive care",
+          "body": "**Chronic condition management**\n\n- For patients with a **chronic condition** (present, or likely to be present, for **6 months or more**), GPs prepare a written plan setting goals, treatments and who does what.\n- Historically this was a **GP Management Plan (GPMP)** plus **Team Care Arrangements (TCA)**, and many texts still use those names. From **July 2025** they were replaced by a single **GP chronic condition management plan**, with regular reviews.\n- The plan gives access to **Medicare-subsidised allied health sessions** (for example physiotherapy, podiatry, dietetics, exercise physiology, diabetes education), **up to 5 per calendar year** in total, with a rebate that usually leaves a gap unless the provider bulk bills.\n- Type 2 diabetes also attracts group allied health services.\n\n**Health assessments**\n\n| Assessment | Who |\n|---|---|\n| **Aboriginal and Torres Strait Islander health assessment (715)** | All ages, at intervals of at least 9 months |\n| 45 to 49 year health assessment | One-off, for people at risk of chronic disease |\n| Type 2 diabetes risk evaluation | Adults aged 40 to 49 with a high AUSDRISK score |\n| 75 years and over | Annually |\n| Others | People with intellectual disability, refugees and humanitarian entrants, former ADF members |\n\n**Mental health (Better Access initiative)**\n\n- A **GP Mental Health Treatment Plan** gives access to **up to 10 individual** Medicare-subsidised sessions per calendar year with a psychologist, social worker or occupational therapist (and group sessions), with a GP review partway through.\n- **Eating disorder plans** give access to many more psychological and dietetic sessions for eligible patients.\n- Other supports: Head to Health, headspace (12 to 25-year-olds), crisis lines (Lifeline 13 11 14), and PHN-commissioned services.\n\n**Other items to know exist**: care of residential aged care facility patients, case conferences, home medicines review referrals, and chronic disease items for nurse follow-up."
+        },
+        {
+          "kind": "application",
+          "heading": "Access: telehealth, after-hours, urgent care and rural health",
+          "body": "**Telehealth.** Phone and video GP consultations are MBS-funded, but most require an **established clinical relationship**: the patient has seen that GP or practice face to face within the previous 12 months, with exemptions (for example infants, people in COVID isolation historically, people experiencing homelessness, some urgent situations). Longer telehealth consults are linked to MyMedicare registration.\n\n**After-hours and urgent care**\n\n- Practices arrange after-hours cover (deputising services, cooperatives).\n- **Healthdirect** is a free national phone and online nurse triage service (in most states).\n- **Medicare Urgent Care Clinics** (from 2023) are bulk-billed, walk-in clinics with extended hours for urgent but non-life-threatening problems (minor fractures, cuts, infections), taking pressure off EDs.\n- Emergency departments are free for Medicare-eligible patients and need no referral.\n\n**Rural and remote health**\n\n- About 7 million Australians live outside major cities, with fewer doctors per head, more chronic disease, more injury and poorer access.\n- The **Modified Monash Model (MM1 to MM7)** classifies locations from metropolitan (MM1) to very remote (MM7), and is used for incentives and workforce programs.\n- **Distribution Priority Areas (DPA)** identify areas with GP shortages.\n- **International medical graduates** and overseas-trained doctors are generally subject to the **10-year moratorium** (section 19AB of the Health Insurance Act): to bill Medicare they must work in a DPA (or equivalent area of need) for up to 10 years, reduced by working in more rural locations. This is why so many overseas-trained doctors start their Australian careers in regional and rural towns.\n- Services that support rural care: the **Royal Flying Doctor Service** (remote clinics, aeromedical retrieval, telehealth), rural generalists with procedural skills (anaesthetics, obstetrics, emergency), visiting specialists and telehealth to regional hospitals.\n\n**Worked example.** A 64-year-old woman with type 2 diabetes and knee osteoarthritis asks how she can afford a dietitian and physiotherapist. The GP prepares a **chronic condition management plan**, which allows up to 5 Medicare-rebated allied health sessions a year, shared between the dietitian and physiotherapist as clinically needed, and reviews her progress at a planned follow-up."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Patient with a chronic condition needing allied health: **GP chronic condition management plan** (older name: GPMP plus TCA), **up to 5** subsidised sessions a year.\n- Patient with depression or anxiety needing psychology: **Mental Health Treatment Plan**, **up to 10** individual sessions a year.\n- A health check for a 4-year-old Aboriginal child: **715**; for a 76-year-old: the **75+** health assessment.\n- Telehealth usually requires an **established relationship** (seen in the last 12 months).\n- Overseas-trained doctors working rurally: **Distribution Priority Areas** and the **10-year moratorium**.\n- Pharmacists in several states can now manage some minor conditions (for example uncomplicated UTI in women) under state programs; details vary by state.\n- Remember the aim of the system: coordinated, continuous GP-centred care, with specialists accessed by referral."
+        }
+      ],
+      "keyPoints": [
+        "General practice is the hub; continuity with one GP or practice is valued; MyMedicare is voluntary registration.",
+        "Chronic condition plans (formerly GPMP/TCA) give up to 5 Medicare-subsidised allied health sessions a year.",
+        "Mental Health Treatment Plans give up to 10 individual psychology sessions a year.",
+        "Health assessments: 715 (all ages, Aboriginal and Torres Strait Islander), 45-49 at-risk, 75+ annually.",
+        "Most telehealth needs an established clinical relationship within 12 months.",
+        "Medicare Urgent Care Clinics are bulk-billed walk-in clinics for urgent non-life-threatening care.",
+        "Overseas-trained doctors usually work in Distribution Priority Areas under the 10-year moratorium."
+      ],
+      "redFlags": [],
+      "contrast": [
+        {
+          "aspect": "Chronic disease follow-up",
+          "india": "Mainly doctor-led, with allied health paid out of pocket or at hospitals.",
+          "australia": "GP-written chronic condition plans give Medicare-subsidised allied health sessions and structured reviews."
+        },
+        {
+          "aspect": "Psychology access",
+          "india": "Mostly private and out of pocket, concentrated in cities.",
+          "australia": "Better Access Mental Health Treatment Plans subsidise up to 10 individual sessions a year."
+        },
+        {
+          "aspect": "Rural service",
+          "india": "Compulsory rural service bonds for some graduates, varying by state.",
+          "australia": "IMGs usually work in Distribution Priority Areas under the 10-year moratorium to access Medicare."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "How many Medicare-subsidised allied health sessions does a chronic condition management plan provide per year?",
+          "back": "Up to 5 per calendar year."
+        },
+        {
+          "front": "How many individual psychology sessions does a Mental Health Treatment Plan provide per year?",
+          "back": "Up to 10 individual sessions per calendar year."
+        },
+        {
+          "front": "What does the Modified Monash Model classify?",
+          "back": "Remoteness, from MM1 (metropolitan) to MM7 (very remote)."
+        },
+        {
+          "front": "What is the 10-year moratorium?",
+          "back": "Section 19AB rule requiring most overseas-trained doctors to work in Distribution Priority Areas to access Medicare, reduced for more rural work."
+        },
+        {
+          "front": "What is a Medicare Urgent Care Clinic?",
+          "back": "A bulk-billed walk-in clinic with extended hours for urgent but not life-threatening problems."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "australian-healthcare-system--primary-care-and-chronic-disease--q1",
+          "discipline": "population-health",
+          "topic": "australian-healthcare-system",
+          "difficulty": "foundation",
+          "stem": "A 61-year-old man in Toowoomba has type 2 diabetes with peripheral neuropathy. He asks his GP how he can see a podiatrist and a dietitian without paying the full cost.\n\nWhat is the most appropriate step?",
+          "options": [
+            "Refer him to an endocrinologist, who can then refer him to allied health",
+            "Complete a Mental Health Treatment Plan",
+            "Prepare a GP chronic condition management plan",
+            "Advise him to take out private health insurance extras cover first",
+            "Arrange the 45-49 year health assessment"
+          ],
+          "answer": 2,
+          "explanation": "For a patient with a **chronic condition** (present or likely for 6 months or more), the GP can prepare a **chronic condition management plan** (which replaced the GP Management Plan and Team Care Arrangements in 2025). This gives access to **up to 5 Medicare-subsidised allied health sessions per calendar year**, here shared between podiatry and dietetics as needed. People with type 2 diabetes can also access group allied health services.\n\nA specialist referral is not needed to access these sessions. Private extras cover is an option but not the first step. A mental health plan and the 45-49 assessment are for different purposes.",
+          "whyWrong": [
+            "Allied health access under Medicare is through the GP plan, not a specialist.",
+            "Mental Health Treatment Plans cover psychological therapy, not podiatry or dietetics.",
+            "",
+            "Medicare subsidised sessions are available without private insurance.",
+            "That assessment is for a different age group and does not provide allied health sessions."
+          ],
+          "tags": [
+            "chronic disease",
+            "allied health",
+            "care plan"
+          ]
+        },
+        {
+          "id": "australian-healthcare-system--primary-care-and-chronic-disease--q2",
+          "discipline": "population-health",
+          "topic": "australian-healthcare-system",
+          "difficulty": "core",
+          "stem": "A 29-year-old woman in Adelaide has moderate depression. Her GP has started an SSRI and she would like to see a psychologist, but is worried about cost.\n\nWhat can the GP arrange so that she receives Medicare-subsidised psychology sessions?",
+          "options": [
+            "A chronic condition management plan, providing 5 sessions a year",
+            "A Mental Health Treatment Plan, providing up to 10 individual sessions a year",
+            "A referral to a psychiatrist, which is required before any psychology session",
+            "A health assessment, which includes psychology sessions",
+            "Nothing; psychology is never subsidised by Medicare"
+          ],
+          "answer": 1,
+          "explanation": "Under the **Better Access** initiative, a GP can prepare a **Mental Health Treatment Plan** after assessing the patient. This allows **up to 10 individual Medicare-subsidised sessions per calendar year** with a psychologist, social worker or occupational therapist (plus group sessions), with a GP review partway through. The psychologist may still charge a gap unless they bulk bill.\n\nA psychiatrist referral is not required. The chronic condition management plan is for allied health such as physiotherapy or dietetics, not psychological therapy for depression. She could also be pointed to free options such as Head to Health, and given crisis contacts.",
+          "whyWrong": [
+            "Chronic condition plans are not the pathway for psychological therapy for depression.",
+            "",
+            "A GP can refer directly under a Mental Health Treatment Plan.",
+            "Health assessments do not provide psychology sessions.",
+            "Medicare does subsidise psychology under Better Access."
+          ],
+          "tags": [
+            "mental health treatment plan",
+            "better access",
+            "psychology"
+          ]
+        },
+        {
+          "id": "australian-healthcare-system--primary-care-and-chronic-disease--q3",
+          "discipline": "population-health",
+          "topic": "australian-healthcare-system",
+          "difficulty": "exam",
+          "stem": "A doctor who completed MBBS in India passes the AMC examinations and obtains general registration. She wants to work as a GP registrar and bill Medicare.\n\nWhich statement best describes where she is likely to be able to work?",
+          "options": [
+            "Anywhere in Australia, since she has general registration",
+            "Only in public hospitals for her whole career",
+            "Only in capital cities, where supervision is available",
+            "In a Distribution Priority Area or similar area of need, under the 10-year moratorium",
+            "Only in the state where she sat the AMC clinical examination"
+          ],
+          "answer": 3,
+          "explanation": "Under **section 19AB of the Health Insurance Act** (the **10-year moratorium**), most overseas-trained doctors, including those who qualify via the AMC, must work in a **Distribution Priority Area (DPA)** or an equivalent area of workforce need to access Medicare, for up to 10 years from registration. The period can be reduced by working in more rural and remote locations (higher Modified Monash categories).\n\nThat is why many overseas-trained doctors begin their Australian careers in regional and rural towns. Registration (from Ahpra and the Medical Board) is separate from the right to bill Medicare. Details of exemptions and scaling change, so check the Department of Health's current rules.",
+          "whyWrong": [
+            "Registration does not give unrestricted Medicare billing rights to most overseas-trained doctors.",
+            "Hospital work is one option but not a lifelong restriction.",
+            "The moratorium directs doctors to areas of need, typically outside major cities.",
+            "",
+            "The location of the AMC exam does not restrict practice."
+          ],
+          "tags": [
+            "rural workforce",
+            "img",
+            "distribution priority area"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "australian-healthcare-system--hospitals-insurance-and-national-schemes",
+      "title": "Hospitals, private insurance and national schemes",
+      "minutes": 14,
+      "objectives": [
+        "Describe how public hospitals are run and funded, and public versus private patient status",
+        "Explain private health insurance, Lifetime Health Cover and the Medicare Levy Surcharge",
+        "Identify eligibility and access pathways for the NDIS and aged care",
+        "Describe My Health Record and how practitioners are regulated"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Public and private hospitals",
+          "body": "**Public hospitals** are owned and run by **state and territory governments** (through local health districts or networks). They are **jointly funded** by the Commonwealth and the states under the **National Health Reform Agreement**, largely through **activity-based funding** (paid per episode of care, adjusted for complexity).\n\n- A **public patient** in a public hospital pays nothing (if Medicare-eligible), but cannot choose the treating doctor and may wait for elective surgery.\n- A patient can choose to be a **private patient in a public hospital**: they choose their specialist, and their insurer and Medicare pay the charges.\n- **Private hospitals** (for-profit and not-for-profit) do much of Australia's elective surgery. Patients are usually privately insured; the doctor's fee attracts a 75% Medicare rebate plus an insurer contribution, and hospital fees are paid by the insurer.\n\n**Elective surgery urgency categories** (national definitions)\n\n| Category | Clinically recommended time |\n|---|---|\n| 1 | Within **30 days** (could deteriorate quickly to an emergency) |\n| 2 | Within **90 days** |\n| 3 | Within **365 days** |\n\n**The hospital-GP interface.** As an intern you will write discharge summaries every day. In Australia they go to the patient's nominated GP (and usually to My Health Record) and should state the diagnosis, what was done, medication changes with reasons, pending results and who is responsible for following them up, and the follow-up plan. Poor discharge communication is a leading cause of medication errors after admission.\n\n**Emergency departments** triage using the **Australasian Triage Scale (ATS)**, from category 1 (immediately life-threatening, seen immediately) to category 5 (seen within 2 hours)."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Private health insurance",
+          "body": "About half of Australians hold private **hospital** cover and more hold **extras** (general treatment) cover.\n\n- **Hospital cover** pays for treatment as a private patient (in private or public hospitals). Policies are graded **Gold, Silver, Bronze and Basic** according to what is covered (for example pregnancy and joint replacements are typically in higher tiers).\n- **Extras cover** pays towards dental, optical, physiotherapy and other services that Medicare does not cover.\n- **Community rating**: insurers cannot charge more because of a person's health, age (except via Lifetime Health Cover) or claims history.\n- **Waiting periods**: typically 12 months for pre-existing conditions and obstetrics, shorter for other services.\n- Insurers **cannot** pay for out-of-hospital GP or specialist gaps.\n\n**Government incentives to take out hospital cover**\n\n| Incentive | How it works |\n|---|---|\n| **Private health insurance rebate** | Means-tested government contribution towards premiums |\n| **Medicare Levy Surcharge** | Extra 1 to 1.5% of income for higher earners without hospital cover |\n| **Lifetime Health Cover loading** | If you take out hospital cover after the year you turn **31**, you pay **2% extra for every year over 30**, up to 70%, removed after 10 continuous years of cover |\n\n**Out-of-pocket costs** are a common source of patient complaints. Doctors should obtain **informed financial consent**: tell patients the expected fees and gaps before non-emergency treatment."
+        },
+        {
+          "kind": "application",
+          "heading": "Disability, aged care, digital health and regulation",
+          "body": "**National Disability Insurance Scheme (NDIS)**\n\n- Started in 2013 (full rollout by 2020). Funds individualised supports (therapy, equipment, personal care, home modification) for people with a **permanent and significant disability**.\n- Eligibility: **under 65 when applying**, an Australian resident, and meeting disability or early intervention requirements. Young children with developmental delay are supported through the **early childhood approach**.\n- Doctors provide evidence of diagnosis and functional impact; the NDIS does not fund health care that belongs to the health system.\n\n**Aged care**\n\n- Funded mainly by the Commonwealth. Entry point: **My Aged Care** (phone and website), for people aged **65 and over** (or **50 and over** for Aboriginal and Torres Strait Islander people, and younger people with no other suitable services).\n- An aged care assessment determines eligibility for home support (the Commonwealth Home Support Programme and the new **Support at Home** program, which replaced Home Care Packages from late 2025), **respite**, **transition care** after hospital, and **residential aged care**.\n- GPs contribute medical information, manage residents' health and review medicines.\n\n**Digital health**\n\n- **My Health Record**: a national online summary of a person's health information (shared health summaries, discharge summaries, pathology and imaging reports, PBS and MBS history, immunisations). It moved to an **opt-out** model in 2019, so most Australians have one. Patients can restrict access and view their own record.\n- **Australian Immunisation Register**: records all vaccines given in Australia, at any age.\n- **Electronic prescribing** and secure messaging.\n\n**Who regulates doctors**\n\n- **Ahpra** (Australian Health Practitioner Regulation Agency) with the **Medical Board of Australia** registers doctors under the National Law, sets standards (including the code of conduct *Good medical practice*) and manages notifications about performance, conduct and health.\n- International medical graduates reach registration via several pathways; the **standard pathway** goes through the AMC examinations (MCQ, then clinical examination or workplace-based assessment) and supervised practice before general registration.\n- State **health complaints commissioners** handle patient complaints about services.\n- **Specialist colleges** (RACGP, RACP, RACS and others) train and accredit specialists.\n\n**Other state schemes** you will meet: **workers' compensation** and **transport accident** schemes (for injuries at work or on the road), covered in the occupational health topic."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- **Public patient in a public hospital**: free, but no choice of doctor.\n- **Lifetime Health Cover**: **2% loading per year** over age 30, max 70%, removed after 10 years.\n- **Medicare Levy Surcharge**: for higher earners **without** private hospital cover.\n- **NDIS**: permanent and significant disability, **under 65** at application. **My Aged Care**: **65+** (50+ for Aboriginal and Torres Strait Islander people).\n- **My Health Record** is **opt-out**; the patient can control access.\n- Elective surgery **category 1 within 30 days**, category 2 within 90, category 3 within 365.\n- Ahpra/Medical Board regulate doctors; health complaints commissioners handle complaints about services."
+        }
+      ],
+      "keyPoints": [
+        "Public hospitals are run by states, jointly funded with the Commonwealth, free for eligible public patients.",
+        "Private patients choose their doctor; private hospital cover pays hospital costs and part of doctors' fees.",
+        "Lifetime Health Cover adds 2% per year over 30 if hospital cover is taken out late (max 70%).",
+        "The Medicare Levy Surcharge applies to higher earners without hospital cover.",
+        "NDIS: permanent significant disability, under 65 at application.",
+        "My Aged Care is the entry point for aged care (65+, or 50+ for Aboriginal and Torres Strait Islander people).",
+        "My Health Record is opt-out; Ahpra and the Medical Board register and regulate doctors.",
+        "Elective surgery categories: 1 within 30 days, 2 within 90 days, 3 within 365 days."
+      ],
+      "redFlags": [],
+      "contrast": [
+        {
+          "aspect": "Hospital care",
+          "india": "Government hospitals are free but crowded; private hospitals are paid out of pocket or through insurance or PM-JAY.",
+          "australia": "Public hospitals free for Medicare-eligible public patients; private insurance buys choice of doctor and timing."
+        },
+        {
+          "aspect": "Disability and aged care",
+          "india": "Family-based care with limited formal support schemes.",
+          "australia": "NDIS for permanent significant disability under 65; Commonwealth-funded aged care through My Aged Care."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "What is the Lifetime Health Cover loading?",
+          "back": "2% extra on hospital cover premiums for every year over age 30 at joining, up to 70%, removed after 10 continuous years."
+        },
+        {
+          "front": "Who pays the Medicare Levy Surcharge?",
+          "back": "Higher-income earners without private hospital cover (1-1.5% of income)."
+        },
+        {
+          "front": "Upper age limit to apply for the NDIS?",
+          "back": "Under 65 at the time of application."
+        },
+        {
+          "front": "Entry point and age for aged care services?",
+          "back": "My Aged Care; 65+ (50+ for Aboriginal and Torres Strait Islander people)."
+        },
+        {
+          "front": "Recommended time frame for category 1 elective surgery?",
+          "back": "Within 30 days."
+        },
+        {
+          "front": "Is My Health Record opt-in or opt-out?",
+          "back": "Opt-out (since 2019); patients can restrict access."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "australian-healthcare-system--hospitals-insurance-and-national-schemes--q1",
+          "discipline": "population-health",
+          "topic": "australian-healthcare-system",
+          "difficulty": "foundation",
+          "stem": "A 40-year-old man is admitted to a Sydney public hospital for elective knee surgery. He has no private health insurance and is Medicare-eligible.\n\nWhich statement is correct?",
+          "options": [
+            "He must pay the surgeon's fee and claim 75% back from Medicare",
+            "He can choose any surgeon he wishes at no cost",
+            "He must pay the hospital accommodation fee",
+            "He will be charged the Lifetime Health Cover loading",
+            "He will be treated free as a public patient by a doctor allocated by the hospital"
+          ],
+          "answer": 4,
+          "explanation": "As a **Medicare-eligible public patient in a public hospital**, his treatment, accommodation and medical care are **free**. In exchange, the hospital allocates the treating doctor, and elective procedures are scheduled according to clinical urgency category and waiting lists.\n\nPatients who want to choose their surgeon can elect to be **private patients** (in a public or private hospital), in which case fees are charged and paid by Medicare (75% of the schedule fee for doctors' services) and their insurer. Lifetime Health Cover loading applies to private insurance premiums, not to public hospital care.",
+          "whyWrong": [
+            "The 75% rebate applies to private patients, not public patients.",
+            "Public patients cannot choose their doctor.",
+            "Public patients are not charged for accommodation.",
+            "LHC loading applies to insurance premiums, not hospital care.",
+            ""
+          ],
+          "tags": [
+            "public hospital",
+            "medicare",
+            "private patient"
+          ]
+        },
+        {
+          "id": "australian-healthcare-system--hospitals-insurance-and-national-schemes--q2",
+          "discipline": "population-health",
+          "topic": "australian-healthcare-system",
+          "difficulty": "core",
+          "stem": "A 42-year-old woman in Melbourne, who has never had private health insurance, is planning a pregnancy and decides to take out hospital cover now.\n\nWhich cost will she face because of her age at joining?",
+          "options": [
+            "The Medicare Levy Surcharge on her premiums",
+            "No extra cost, because insurers use community rating",
+            "A Lifetime Health Cover loading of about 24% on her hospital cover premiums",
+            "Exclusion of all pregnancy-related care for life",
+            "A higher Medicare levy for 10 years"
+          ],
+          "answer": 2,
+          "explanation": "**Lifetime Health Cover (LHC)** encourages people to take out hospital cover early. Anyone who takes out hospital cover after the year they turn **31** pays a loading of **2% for every year over 30**. At 42 that is 12 years, so about **24%** extra on hospital premiums. The loading is removed after **10 continuous years** of cover. The maximum loading is 70%.\n\nCommunity rating prevents insurers pricing on health status, but LHC is a government-legislated exception based on age at entry. The Medicare Levy Surcharge is a tax on higher earners without cover, not a premium loading. She will also face a **12-month waiting period** for obstetric cover.",
+          "whyWrong": [
+            "The MLS is a tax paid by those without cover, not a loading on premiums.",
+            "Community rating does not override the legislated LHC loading.",
+            "",
+            "Pregnancy cover has a waiting period, not a lifetime exclusion.",
+            "The Medicare levy does not increase because of her age at joining."
+          ],
+          "ausPearl": "Obstetric hospital cover usually has a 12-month waiting period, so women planning pregnancy need to take out cover well in advance.",
+          "tags": [
+            "private health insurance",
+            "lifetime health cover",
+            "pregnancy"
+          ]
+        },
+        {
+          "id": "australian-healthcare-system--hospitals-insurance-and-national-schemes--q3",
+          "discipline": "population-health",
+          "topic": "australian-healthcare-system",
+          "difficulty": "exam",
+          "stem": "A 70-year-old man in Darwin had a stroke 6 months ago and now needs help with showering and meals at home. His daughter asks whether he can apply for the NDIS.\n\nWhat is the most appropriate advice?",
+          "options": [
+            "Apply to the NDIS, since stroke is a permanent disability",
+            "Apply for a Disability Support Pension to fund his care",
+            "Arrange an immediate admission to residential aged care",
+            "Private health insurance extras will cover home care",
+            "He is not eligible for the NDIS because he is over 65; contact My Aged Care for an assessment"
+          ],
+          "answer": 4,
+          "explanation": "The **NDIS** is for people who apply **before age 65** with a permanent and significant disability. Older people who acquire a disability after 65 are supported through the **aged care system**, entered through **My Aged Care**. An aged care assessment will determine eligibility for home support (such as help with personal care, meals, domestic assistance and home modifications through the Commonwealth Home Support Programme or the Support at Home program), respite and, if needed later, residential care.\n\nThe GP helps by providing medical information and coordinating allied health (for example an OT home assessment). Residential care is not the first step if he can be supported at home.",
+          "whyWrong": [
+            "NDIS applications must be made before age 65.",
+            "He is over pension age and income support does not organise care services.",
+            "Home supports should be tried first; residential care needs an assessment.",
+            "Extras cover does not fund home personal care.",
+            ""
+          ],
+          "tags": [
+            "ndis",
+            "aged care",
+            "my aged care"
+          ]
+        }
+      ]
+    }
+  ]
+}

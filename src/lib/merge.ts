@@ -40,6 +40,8 @@ export function mergeProgress(local: Snapshot, remote: Partial<Snapshot> | null 
     bookmarks: [...new Set([...r.bookmarks, ...local.bookmarks])],
     tutor: local.tutor.length >= r.tutor.length ? local.tutor : r.tutor,
     lessons: { ...r.lessons, ...local.lessons },
+    lessonProgress: mergeLessons(r.lessonProgress, local.lessonProgress),
+    lastLesson: local.lastLesson ?? r.lastLesson,
   };
 }
 
@@ -57,7 +59,26 @@ export function emptySnapshot(): Snapshot {
     bookmarks: [],
     tutor: [],
     lessons: {},
+    lessonProgress: {},
+    lastLesson: null,
   };
+}
+
+// A lesson finished on either device stays finished; keep the best quiz score and the latest position.
+function mergeLessons(a: Snapshot["lessonProgress"], b: Snapshot["lessonProgress"]) {
+  const out = { ...a };
+  for (const [id, x] of Object.entries(b)) {
+    const y = out[id];
+    if (!y) {
+      out[id] = x;
+      continue;
+    }
+    const pct = (s: typeof x) => (s.score !== undefined && s.total ? s.score / s.total : -1);
+    const bestScore = pct(x) >= pct(y) ? x : y;
+    const latest = x.at >= y.at ? x : y;
+    out[id] = { ...latest, done: x.done || y.done, score: bestScore.score, total: bestScore.total };
+  }
+  return out;
 }
 
 function unionBy<T>(xs: T[], key: (x: T) => string) {

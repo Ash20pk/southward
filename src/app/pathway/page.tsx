@@ -24,13 +24,17 @@ const STEPS = [
   },
 ];
 
+// From the AMC MCQ Examination Specifications (V8, September 2025) and the AMC's December 2025 pass standard update.
 const MCQ_FACTS = [
-  ["Format", "One-best-answer multiple choice, five options, computer-adaptive"],
-  ["Length", "150 questions in about 3.5 hours. Some are unscored pilot questions, but you can't tell which, so treat every one as real."],
-  ["Scoring", "A scaled score, where a fixed scaled mark is the pass. Your raw percentage isn't reported."],
-  ["Disciplines", "Adult health (medicine and surgery), women's health, child health, mental health, population health and ethics"],
-  ["Where", "Pearson VUE test centres worldwide, including several Indian cities"],
-  ["Mindset", "Think like an Australian GP or intern in a well-resourced system: guideline-based, patient-centred, safe."],
+  ["Format", "One best answer from five options (A to E), computer-adaptive. No marks are taken off for wrong answers, so never leave one blank."],
+  ["Length", "150 questions in 3.5 hours, about 84 seconds each. Some are new questions being trialled that don't count, and you can't tell which."],
+  ["No going back", "You must answer each question before the next appears, and you can't return to change an answer. Practise with the real exam conditions setting on mock exams."],
+  ["Blueprint", "Adult medicine 30%, adult surgery 20%, and 12.5% each for women's health, child health, mental health, and population health and ethics."],
+  ["Standard", "What an Australian graduate knows on day one of internship. Most questions are about common conditions in the Australian community, plus anything life-threatening or critical to safe practice."],
+  ["What they test", "For each condition: pathogenesis, clinical features, investigations, differential diagnosis and management. Expect ECGs, X-rays, scans and clinical photos."],
+  ["Scoring", "A score from 0 to 500. The pass was 250; from 2026 the AMC raised it slightly and hasn't published the new number."],
+  ["Where", "Pearson VUE test centres worldwide, including several Indian cities."],
+  ["Free practice", "Once you buy your MCQ authorisation, the AMC gives you 12 months of access to its official practice app (with eMedici): 210 questions written by AMC examiners."],
 ];
 
 export default function Pathway() {
@@ -82,7 +86,7 @@ export default function Pathway() {
           <h2 className="text-xl font-semibold">What the MCQ exam is like</h2>
           <dl className="mt-4 divide-y divide-line">
             {MCQ_FACTS.map(([k, v]) => (
-              <div key={k} className="grid grid-cols-[7rem_1fr] gap-3 py-3">
+              <div key={k} className="grid grid-cols-1 gap-1 py-3 sm:grid-cols-[8rem_1fr] sm:gap-3">
                 <dt className="font-medium">{k}</dt>
                 <dd className="text-muted">{v}</dd>
               </div>

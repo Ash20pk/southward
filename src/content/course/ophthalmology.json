@@ -1,0 +1,914 @@
+{
+  "topic": "ophthalmology",
+  "intro": "Ophthalmology for the AMC is about triage: recognising the red eye, the sudden visual loss and the injured eye that must be seen by an ophthalmologist the same day, and managing the benign ones safely in general practice. It also covers chronic eye disease and screening, including diabetic retinopathy intervals and trachoma in remote Aboriginal communities, which are distinctly Australian exam themes.",
+  "lessons": [
+    {
+      "id": "ophthalmology--red-eye",
+      "title": "The red eye",
+      "minutes": 18,
+      "objectives": [
+        "Separate the benign red eye from the sight-threatening one using a short list of red flags",
+        "Distinguish conjunctivitis, keratitis, anterior uveitis, scleritis and subconjunctival haemorrhage at the bedside",
+        "Recognise herpes zoster ophthalmicus and the meaning of Hutchinson's sign",
+        "Tell preseptal from orbital cellulitis and know which needs admission",
+        "Choose safe first-line GP treatment and know what never to prescribe without a slit lamp"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why the red eye matters",
+          "body": "Red eye is one of the commonest eye presentations in Australian general practice and emergency departments. Most cases are conjunctivitis, subconjunctival haemorrhage or dry eye, and settle on their own. A small minority (acute angle-closure glaucoma, microbial keratitis, anterior uveitis, scleritis, orbital cellulitis, penetrating injury) can blind the patient within hours to days.\n\nThe AMC does not expect you to be an ophthalmologist. It expects you to **triage**: decide who can be managed in general practice and who must be seen by an ophthalmologist **the same day**. Almost every red-eye question turns on one or two red-flag features hidden in the stem.\n\n**Red flags in a red eye (memorise this list):**\n\n- **Reduced visual acuity** (always check it first, with glasses or a pinhole)\n- **Significant pain** (as opposed to grittiness or itch)\n- **Photophobia**\n- **Fixed, mid-dilated, small or irregular pupil**\n- **Corneal opacity**, haze or a fluorescein-staining ulcer\n- **Contact lens wearer**\n- Recent eye surgery, trauma or chemical exposure\n- Neonate with conjunctivitis\n\nA red eye with normal vision, normal pupil, clear cornea and only grittiness or itch is almost always benign."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Where the redness comes from",
+          "body": "Knowing which vessels are injected tells you how deep the problem is.\n\n- **Conjunctival injection**: superficial vessels, most marked in the fornices and fading towards the cornea. The vessels move with the conjunctiva. Typical of conjunctivitis.\n- **Ciliary flush**: a violaceous ring of deep vessels around the limbus (the corneal edge). It signals inflammation of the cornea, iris or ciliary body: keratitis, anterior uveitis or acute glaucoma.\n- **Scleral injection**: deep, bluish-purple, does not move and does not blanch with topical phenylephrine. Seen in scleritis. In episcleritis the injected vessels are more superficial, sectoral and do blanch.\n- **Subconjunctival haemorrhage**: a flat, bright-red sheet of blood with a clear posterior border that you can see behind. Painless, vision normal.\n\nPhotophobia arises from painful spasm of an inflamed iris and ciliary body when light makes the pupil constrict. That is why it points to keratitis or uveitis rather than conjunctivitis. Consensual photophobia (pain in the affected eye when light is shone in the *other* eye) is a useful sign of uveitis."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "The common and the dangerous causes",
+          "body": "**Conjunctivitis**\n- *Bacterial*: purulent discharge, lids stuck together in the morning, often bilateral within a day or two. Vision normal.\n- *Viral* (usually adenovirus): watery discharge, follicles, tender preauricular node, often a recent upper respiratory infection. Extremely contagious; starts in one eye then spreads to the other.\n- *Allergic*: itch is the dominant symptom, bilateral, often with hay fever; papillae under the upper lid.\n- *Chlamydial*: chronic follicular conjunctivitis lasting weeks in a sexually active young adult. Needs systemic treatment and STI testing.\n- *Neonatal* (within the first month): consider gonococcal and chlamydial infection; this is an urgent referral, not a GP swab-and-wait.\n\n**Keratitis** (corneal inflammation or infection): pain, photophobia, watering, reduced vision, ciliary flush and a fluorescein-staining defect.\n- *Contact lens keratitis*: bacterial (classically *Pseudomonas*) or *Acanthamoeba* (tap water, swimming in lenses; pain out of proportion). Same-day referral for corneal scraping and intensive antibiotic drops.\n- *Herpes simplex keratitis*: a **dendritic ulcer** (branching) on fluorescein. Topical steroids can cause catastrophic geographic ulceration and perforation.\n\n**Anterior uveitis (iritis)**: aching pain, photophobia, blurred vision, ciliary flush, a **small, irregular pupil** (posterior synechiae stick the iris to the lens) and sometimes a **hypopyon** (layer of pus cells in the anterior chamber). Associations: HLA-B27 diseases (ankylosing spondylitis, reactive arthritis, psoriatic arthritis, inflammatory bowel disease), sarcoidosis, herpes. A young man with back pain and a red eye is the classic stem.\n\n**Scleritis**: severe, deep, boring pain that often wakes the patient and radiates to the face, a tender globe, and a violaceous hue. Associated with rheumatoid arthritis and vasculitis (e.g. granulomatosis with polyangiitis). Can perforate. **Episcleritis** is mild, sectoral, not really painful and self-limiting.\n\n**Herpes zoster ophthalmicus (HZO)**: shingles in the ophthalmic division of the trigeminal nerve. **Hutchinson's sign**, vesicles on the tip or side of the nose, means the **nasociliary branch** is involved; this branch also supplies the globe, so eye involvement (keratitis, uveitis) is likely.\n\n**Preseptal versus orbital cellulitis**\n| Feature | Preseptal | Orbital |\n|---|---|---|\n| Lid swelling and redness | Yes | Yes |\n| Pain on eye movement | No | Yes |\n| Proptosis | No | Yes |\n| Restricted eye movements / diplopia | No | Yes |\n| Reduced vision or RAPD | No | Possible |\n| Management | Oral antibiotics, review | Admit, IV antibiotics, CT orbits, ophthalmology and ENT |\n\nOrbital cellulitis often arises from ethmoid sinusitis, especially in children, and can cause optic nerve compression, cavernous sinus thrombosis and meningitis."
+        },
+        {
+          "kind": "investigations",
+          "heading": "The five-minute eye examination",
+          "body": "In a GP or ED setting, do these in order:\n\n1. **Visual acuity** in each eye with a Snellen chart (with glasses or pinhole). This is the vital sign of the eye; document it before anything else (except chemical injury, which you irrigate first).\n2. **Inspection**: pattern of redness, discharge, lids, vesicles on the forehead or nose.\n3. **Pupils**: size, shape, reaction and a swinging-light test for a relative afferent pupillary defect (RAPD).\n4. **Fluorescein** with a blue light: an abrasion stains as a sharp green patch, a dendrite as a branching line, a bacterial ulcer as a stained area often with an overlying white infiltrate.\n5. **Eye movements** and assessment for proptosis if cellulitis is possible.\n6. **Intraocular pressure** if available (tonometry), or at least gentle palpation comparing the two eyes in suspected angle closure.\n\nSwabs for microscopy and culture are not needed for simple conjunctivitis but are indicated for severe or hyperacute purulent conjunctivitis, neonates, and suspected chlamydia (PCR). CT of orbits and sinuses is indicated in suspected orbital cellulitis."
+        },
+        {
+          "kind": "management",
+          "heading": "What you can treat and what you refer",
+          "body": "**Manageable in general practice**\n- *Bacterial conjunctivitis*: usually self-limiting; lid hygiene and saline cleaning. If treatment is wanted, topical chloramphenicol is the common first choice in Australia. Advise hand hygiene.\n- *Viral conjunctivitis*: supportive care (cool compresses, lubricants), strict hand hygiene, avoid sharing towels, time off work or school while the eye is weeping. Antibiotics do not help.\n- *Allergic conjunctivitis*: allergen avoidance, cold compresses, topical antihistamine or mast-cell stabiliser drops.\n- *Subconjunctival haemorrhage*: reassure; check blood pressure and ask about anticoagulants (check the INR if on warfarin). Resolves over about 2 weeks.\n- *Episcleritis*: reassurance, lubricants, sometimes oral NSAIDs.\n- *Chlamydial conjunctivitis*: oral treatment per the Australian STI guidelines, test for other STIs, contact tracing.\n\n**Refer the same day to an ophthalmologist**\n- Any red-flag feature listed above\n- Contact lens wearer with a painful red eye (remove the lens, keep it and the case for culture, and do **not** patch the eye)\n- Suspected keratitis, uveitis, scleritis or angle closure\n- Neonatal conjunctivitis\n\n**Herpes zoster ophthalmicus**: start an oral antiviral (valaciclovir or famciclovir, dosing per eTG) as early as possible, ideally within 72 hours of rash onset, and arrange ophthalmology review, particularly if Hutchinson's sign, a red eye or reduced vision is present.\n\n**Orbital cellulitis**: admit, IV antibiotics, CT, ophthalmology and ENT input.\n\n**The golden rule**: never start **topical steroid drops** (or steroid-antibiotic combinations) for an undiagnosed red eye. Steroids can worsen herpes simplex keratitis, promote fungal infection, and cause steroid-induced glaucoma and cataract. They are started by an ophthalmologist after slit-lamp examination."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- The stem will often include a single discriminating clue: \"wears contact lenses\", \"pupil is small and irregular\", \"vesicles on the tip of the nose\", \"pain wakes her at night\", \"itchy\". Find it.\n- If visual acuity is reduced, the answer is almost never \"reassure\" or \"topical chloramphenicol\".\n- \"Most appropriate next step\" in a red eye with red flags is **same-day ophthalmology referral**, not a GP trial of drops.\n- Topical steroids are a classic wrong option.\n- Anterior uveitis with back pain: think HLA-B27 and ankylosing spondylitis. Scleritis with joint deformity: rheumatoid arthritis.\n- Proptosis plus painful restricted eye movements in a child with sinusitis is orbital cellulitis: admit."
+        }
+      ],
+      "keyPoints": [
+        "Check visual acuity first in every red eye (except chemical injury: irrigate first).",
+        "Red flags: reduced vision, pain, photophobia, abnormal pupil, corneal opacity, contact lens wearer.",
+        "Conjunctivitis: normal vision, gritty or itchy, discharge; mostly self-limiting.",
+        "Ciliary flush and photophobia point to keratitis, uveitis or acute glaucoma.",
+        "Hutchinson's sign (nose-tip vesicles) predicts eye involvement in zoster; start oral antivirals and refer.",
+        "Contact lens wearer with a painful red eye: remove lens, no patch, same-day referral.",
+        "Never prescribe topical steroids for an undiagnosed red eye."
+      ],
+      "redFlags": [
+        "Reduced visual acuity",
+        "Severe pain or photophobia",
+        "Fixed, irregular or mid-dilated pupil",
+        "Corneal opacity, ulcer or dendrite on fluorescein",
+        "Contact lens wearer with a painful red eye",
+        "Proptosis or painful, restricted eye movements",
+        "Conjunctivitis in a neonate"
+      ],
+      "contrast": [
+        {
+          "aspect": "Empirical drops for red eye",
+          "india": "Steroid-antibiotic combination drops are often dispensed over the counter or prescribed empirically.",
+          "australia": "No topical steroids without slit-lamp examination; GPs use lubricants or chloramphenicol and refer red flags the same day."
+        },
+        {
+          "aspect": "Chlamydial eye infection",
+          "india": "Chlamydial eye disease is mostly thought of as trachoma or neonatal conjunctivitis.",
+          "australia": "Adult chlamydial conjunctivitis is treated as an STI: oral therapy, full STI screen and contact tracing per the Australian STI guidelines."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "What does Hutchinson's sign indicate in herpes zoster?",
+          "back": "Vesicles on the nose tip or side mean nasociliary nerve involvement, so the eye is likely to be affected."
+        },
+        {
+          "front": "Pupil in acute anterior uveitis?",
+          "back": "Small and often irregular, from posterior synechiae (iris stuck to the lens)."
+        },
+        {
+          "front": "Branching fluorescein-staining lesion on the cornea?",
+          "back": "Dendritic ulcer of herpes simplex keratitis. Never give topical steroids."
+        },
+        {
+          "front": "Organism to fear in a contact lens wearer who swims or rinses lenses in tap water?",
+          "back": "Acanthamoeba (also Pseudomonas). Same-day ophthalmology referral."
+        },
+        {
+          "front": "Two features that separate orbital from preseptal cellulitis?",
+          "back": "Pain on eye movement or restricted movement, and proptosis (also reduced vision or RAPD)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "ophthalmology--red-eye--q1",
+          "discipline": "adult-surgery",
+          "topic": "ophthalmology",
+          "difficulty": "foundation",
+          "stem": "A 29-year-old office worker presents to a Sydney general practice with a 2-day history of a red, watery right eye. This morning the left eye has also become red. She had a cold last week. She reports grittiness but no pain or photophobia. Visual acuity is 6/6 in both eyes. There is diffuse conjunctival injection, a clear cornea without fluorescein staining, and a tender preauricular lymph node on the right.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Topical chloramphenicol drops four times daily for 7 days",
+            "Topical prednisolone acetate drops and review in one week",
+            "Cool compresses, lubricants and strict hand hygiene",
+            "Oral azithromycin single dose and STI screen",
+            "Same-day referral to an ophthalmologist"
+          ],
+          "answer": 2,
+          "explanation": "This is **viral (adenoviral) conjunctivitis**: watery discharge, grittiness, a recent upper respiratory infection, spread from one eye to the other, and a **tender preauricular node**. Critically there are **no red flags**: vision is normal, there is no pain or photophobia and the cornea is clear.\n\nManagement is supportive: cool compresses, preservative-free lubricants and, above all, **infection control**. Adenovirus is highly contagious, so she should wash hands, avoid sharing towels and consider time off work while the eye is weeping. It can take 2-3 weeks to settle.\n\nAntibiotics do not shorten viral conjunctivitis. Topical steroids should never be started for an undiagnosed red eye in general practice.",
+          "whyWrong": [
+            "Antibiotics do not help viral conjunctivitis; chloramphenicol is for bacterial cases with purulent discharge.",
+            "Topical steroids for an undiagnosed red eye can worsen herpetic or fungal infection and raise eye pressure.",
+            "",
+            "Chlamydial conjunctivitis is chronic (weeks) and follicular in a sexually active patient; this is acute with a URTI.",
+            "There are no red flags (normal vision, no pain, clear cornea), so she can be managed in general practice."
+          ],
+          "tags": [
+            "conjunctivitis",
+            "red eye",
+            "adenovirus"
+          ]
+        },
+        {
+          "id": "ophthalmology--red-eye--q2",
+          "discipline": "adult-surgery",
+          "topic": "ophthalmology",
+          "difficulty": "core",
+          "stem": "A 24-year-old man presents to an emergency department in Brisbane with 3 days of an aching, red left eye and blurred vision. Bright light makes the pain much worse. He has had low back pain and morning stiffness for a year. Visual acuity is 6/6 right and 6/18 left. There is a ring of redness around the left cornea, and the left pupil is small and irregular. Fluorescein shows no staining.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Acute angle-closure glaucoma",
+            "Bacterial keratitis",
+            "Episcleritis",
+            "Acute anterior uveitis",
+            "Scleritis"
+          ],
+          "answer": 3,
+          "explanation": "Pain, **photophobia**, reduced vision, **ciliary flush** (a ring of redness around the cornea) and a **small, irregular pupil** are the signature of **acute anterior uveitis**. The irregular pupil comes from posterior synechiae, adhesions between the inflamed iris and the lens.\n\nThe history of inflammatory back pain (morning stiffness in a young man) points to **ankylosing spondylitis**, an HLA-B27 spondyloarthropathy strongly linked with recurrent anterior uveitis.\n\nHe needs same-day ophthalmology review for slit-lamp confirmation and treatment with topical steroids and a cycloplegic, started by the ophthalmologist, plus rheumatology assessment.",
+          "whyWrong": [
+            "Angle closure gives a mid-dilated fixed pupil, halos and vomiting, and occurs in older hyperopic patients.",
+            "Bacterial keratitis would show a fluorescein-staining corneal defect.",
+            "Episcleritis is mild, sectoral, with normal vision and pupil.",
+            "",
+            "Scleritis causes severe boring pain and a tender globe, but not a small irregular pupil; it is linked to rheumatoid arthritis."
+          ],
+          "tags": [
+            "uveitis",
+            "hla-b27",
+            "red eye"
+          ]
+        },
+        {
+          "id": "ophthalmology--red-eye--q3",
+          "discipline": "adult-surgery",
+          "topic": "ophthalmology",
+          "difficulty": "core",
+          "stem": "A 71-year-old woman presents to her GP in Adelaide with a painful blistering rash over her right forehead and scalp that started yesterday. On examination there are grouped vesicles in the right ophthalmic dermatome, including vesicles on the tip of her nose. The right eye is mildly injected. Visual acuity is 6/9 in both eyes.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Oral antiviral therapy and ophthalmology review",
+            "Topical aciclovir cream to the skin and review in a week",
+            "Oral prednisolone alone",
+            "Topical steroid-antibiotic eye drops",
+            "Reassurance and simple analgesia"
+          ],
+          "answer": 0,
+          "explanation": "This is **herpes zoster ophthalmicus**. Vesicles on the tip of the nose are **Hutchinson's sign**: the nasociliary branch of the ophthalmic nerve supplies both the nose tip and the globe, so involvement predicts ocular complications such as keratitis, uveitis and raised eye pressure.\n\nShe needs **oral antiviral therapy** (valaciclovir or famciclovir per eTG), ideally within 72 hours of rash onset, which reduces ocular complications and acute pain, plus **ophthalmology review** because the eye is already red.\n\nTopical skin antivirals do not reach the eye or treat the systemic infection. Steroid drops should only be started by an ophthalmologist.",
+          "whyWrong": [
+            "",
+            "Topical skin antivirals are ineffective for HZO; systemic treatment is needed.",
+            "Steroids alone without antiviral cover are not appropriate first-line treatment.",
+            "Topical steroids must not be started without slit-lamp examination.",
+            "Hutchinson's sign and a red eye mean real risk to sight; she needs treatment and review."
+          ],
+          "tags": [
+            "herpes zoster",
+            "hutchinson sign"
+          ],
+          "ausPearl": "Zoster vaccination is funded on the National Immunisation Program for older adults and some immunocompromised groups; check the current Australian Immunisation Handbook for eligibility."
+        }
+      ]
+    },
+    {
+      "id": "ophthalmology--glaucoma",
+      "title": "Glaucoma: acute angle closure and chronic open angle",
+      "minutes": 16,
+      "objectives": [
+        "Explain how aqueous outflow obstruction raises intraocular pressure and damages the optic nerve",
+        "Recognise acute angle-closure glaucoma from its classic history and signs",
+        "Start emergency pressure-lowering treatment and arrange urgent referral",
+        "Identify drugs and situations that precipitate angle closure",
+        "Describe screening, findings and first-line treatment of primary open-angle glaucoma"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Two diseases with one name",
+          "body": "Glaucoma is an **optic neuropathy**: progressive loss of retinal ganglion cells, seen as cupping of the optic disc and matching visual field loss. Raised intraocular pressure (IOP) is the main modifiable risk factor. Normal IOP is roughly 10-21 mmHg, but glaucoma can occur at \"normal\" pressures, and some people with high pressures never develop it.\n\nTwo forms matter for the AMC:\n\n- **Acute angle-closure glaucoma (AACG)**: an ophthalmic emergency. The pressure rises abruptly, often above 40-50 mmHg, and vision can be lost within hours.\n- **Primary open-angle glaucoma (POAG)**: the common chronic form. Painless and silent until late, when peripheral vision is already gone. It is one of the leading causes of irreversible blindness in Australia, and Glaucoma Australia estimates that about half of those affected do not know they have it."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Aqueous flow and why the angle closes",
+          "body": "Aqueous humour is secreted by the ciliary body into the posterior chamber, flows through the pupil into the anterior chamber, and drains through the **trabecular meshwork** in the angle between the iris and cornea into Schlemm's canal.\n\n**Angle closure**: in an eye with a shallow anterior chamber, the peripheral iris lies close to the trabecular meshwork. When the pupil is **mid-dilated**, contact between iris and lens is greatest, aqueous is trapped behind the iris (**pupillary block**), the iris bows forward and seals the angle. Pressure climbs fast. The cornea becomes oedematous (hazy, causing halos), the iris sphincter becomes ischaemic (the pupil is fixed and mid-dilated), and the optic nerve suffers.\n\n**Risk factors for angle closure**\n- **Hypermetropia** (long-sighted, small eyes with shallow chambers)\n- Older age (the lens thickens with age), female sex\n- East and South-East Asian ancestry\n- Family history\n\n**Precipitants**: anything that dilates the pupil.\n- Dim light (evening, cinema)\n- **Mydriatic drops** used for fundoscopy\n- **Anticholinergics** (e.g. oxybutynin, tricyclic antidepressants, some antihistamines, ipratropium via nebuliser), **sympathomimetics** (e.g. adrenaline, salbutamol nebulisers)\n- **Topiramate**, which can cause bilateral angle closure by a different mechanism (ciliary body swelling)\n- Emotional stress\n\n**Open angle**: the angle is anatomically open but outflow through the meshwork is reduced. Pressure rises slowly, ganglion cells die gradually, and peripheral field is lost first, central vision last."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "How each presents",
+          "body": "**Acute angle-closure glaucoma**, as the AMC describes it:\n- Older woman, often long-sighted, evening onset or after dilating drops or a new anticholinergic\n- **Severe eye pain** and frontal headache\n- **Blurred vision with coloured halos** around lights\n- **Nausea and vomiting** (can be so prominent the patient is worked up for an abdominal cause or migraine)\n- Red eye with ciliary flush\n- **Hazy (steamy) cornea**\n- **Fixed, mid-dilated, often oval pupil**\n- Eye feels **rock hard** on gentle palpation compared with the other side\n- Reduced visual acuity\n\nSome patients describe previous brief episodes of halos and ache in dim light that resolved on sleeping (intermittent angle closure). This is a warning worth asking about.\n\n**Primary open-angle glaucoma**:\n- Asymptomatic until advanced\n- Picked up on optometrist review: raised IOP, **increased cup-to-disc ratio** (above about 0.6, or asymmetry between eyes of more than 0.2), notching of the neuroretinal rim, disc haemorrhages\n- Visual field testing shows arcuate scotomas and peripheral constriction (\"tunnel vision\" late)\n- Risk factors: age, **first-degree relative with glaucoma**, myopia, African ancestry, diabetes, long-term steroid use"
+        },
+        {
+          "kind": "differentials",
+          "heading": "Look-alikes for acute glaucoma",
+          "body": "| Condition | Pain | Vision | Pupil | Cornea | Other clue |\n|---|---|---|---|---|---|\n| Acute angle closure | Severe, with vomiting | Reduced, halos | Fixed, mid-dilated | Hazy | Hard eye, hyperopic |\n| Anterior uveitis | Aching, photophobia | Mildly reduced | Small, irregular | Clear or with deposits | HLA-B27 disease |\n| Keratitis | Severe, gritty | Reduced | Normal | Staining ulcer | Contact lenses |\n| Conjunctivitis | Gritty | Normal | Normal | Clear | Discharge |\n| Migraine | Headache | Aura, normal acuity after | Normal | Clear | White eye |\n\nA patient with headache and vomiting who has a **red eye** and a **fixed pupil** has angle closure until proven otherwise. Do not be distracted into a CT head."
+        },
+        {
+          "kind": "management",
+          "heading": "Emergency treatment and long-term care",
+          "body": "**Acute angle-closure glaucoma**: the aim is to lower pressure within hours while arranging **urgent ophthalmology referral**.\n\n1. Lie the patient supine (lets the lens fall back from the iris).\n2. **Acetazolamide** (a carbonic anhydrase inhibitor that reduces aqueous production), IV or oral, unless contraindicated (e.g. sulfonamide allergy, significant renal impairment).\n3. **Topical pressure-lowering drops**: a beta-blocker such as timolol (caution in asthma and heart block) and an alpha-agonist such as apraclonidine or brimonidine.\n4. **Pilocarpine** (a miotic) to pull the iris away from the angle, often given once the pressure has started to fall (an ischaemic iris responds poorly at very high pressures). Follow local and ophthalmology advice on timing.\n5. Analgesia and an antiemetic.\n6. Stop the precipitating drug.\n7. Ophthalmology may also use osmotic agents (e.g. IV mannitol) for refractory pressure.\n\n**Definitive treatment** is **laser peripheral iridotomy**, a small hole in the peripheral iris that lets aqueous bypass the pupil. It is done in the affected eye and usually **prophylactically in the fellow eye**, which is at high risk. Lens extraction (cataract surgery) is an alternative that deepens the angle.\n\nNever give dilating drops to a patient with a known shallow anterior chamber without ophthalmology advice. For routine fundoscopy the risk is low, but always warn patients to return urgently with pain, halos or vomiting after dilation.\n\n**Primary open-angle glaucoma**\n- Diagnosis and monitoring by an optometrist or ophthalmologist (IOP, optic disc imaging, fields).\n- **First-line**: topical **prostaglandin analogue** drops (e.g. latanoprost) at night. Side effects include darkening of the iris, eyelash growth and periorbital changes.\n- Others: beta-blockers (timolol; systemic absorption can cause bronchospasm and bradycardia, so avoid in asthma), alpha-agonists, topical carbonic anhydrase inhibitors.\n- Selective laser trabeculoplasty is increasingly used first line; trabeculectomy or drainage devices when needed.\n- Adherence is lifelong. Teach drop technique and nasolacrimal occlusion to reduce systemic absorption.\n- **Screening**: first-degree relatives of people with glaucoma should have regular eye checks from around 40 (earlier and more often if advised by their optometrist). Anyone over 40 benefits from a periodic comprehensive eye examination.\n- Driving: advanced field loss can breach the Austroads visual field standard; check Assessing Fitness to Drive and advise the patient of their duty to notify the licensing authority."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Traps and discriminators",
+          "body": "- Vomiting plus a painful red eye in an older person: **angle closure**. The trap option is \"CT brain\" or \"antiemetic and review\".\n- A patient who deteriorates after dilating drops, or after starting an anticholinergic (e.g. oxybutynin, amitriptyline) or topiramate: think angle closure.\n- First drug the GP or ED gives: **acetazolamide** plus topical agents; the definitive procedure is **laser iridotomy to both eyes**.\n- Timolol is the wrong choice in an asthmatic.\n- Open-angle glaucoma is **painless**; if the stem mentions a family history and a large cup-to-disc ratio, the answer is referral and a prostaglandin analogue, not reassurance."
+        }
+      ],
+      "keyPoints": [
+        "Glaucoma is an optic neuropathy; raised IOP is the main modifiable risk factor.",
+        "AACG: painful red eye, halos, vomiting, hazy cornea, fixed mid-dilated pupil, hard eye.",
+        "Risk: hypermetropia, older age, female, Asian ancestry; precipitants: dim light, mydriatics, anticholinergics, topiramate.",
+        "Emergency: supine, acetazolamide, topical timolol and alpha-agonist, pilocarpine, urgent referral.",
+        "Definitive: laser peripheral iridotomy in both eyes.",
+        "POAG is silent: cupped disc, peripheral field loss; screen first-degree relatives.",
+        "First-line POAG treatment: prostaglandin analogue drops (latanoprost)."
+      ],
+      "redFlags": [
+        "Painful red eye with vomiting and halos",
+        "Fixed mid-dilated pupil",
+        "Hazy cornea with reduced vision",
+        "Eye pain after dilating drops or starting an anticholinergic or topiramate"
+      ],
+      "contrast": [
+        {
+          "aspect": "Glaucoma detection",
+          "india": "Largely opportunistic, at hospital eye departments or camps; many present with advanced field loss.",
+          "australia": "Optometrists do most detection (IOP, disc imaging, fields) with Medicare-funded eye tests and shared care with ophthalmologists."
+        },
+        {
+          "aspect": "Risk of angle closure",
+          "india": "Primary angle closure is relatively common in South Asian populations and well recognised.",
+          "australia": "Less common overall, so it is easily missed as migraine or gastroenteritis; the AMC tests recognising it."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Pupil in acute angle-closure glaucoma?",
+          "back": "Fixed and mid-dilated (often oval), from iris sphincter ischaemia."
+        },
+        {
+          "front": "Systemic drug given first for acute angle closure?",
+          "back": "Acetazolamide (IV or oral), to reduce aqueous production."
+        },
+        {
+          "front": "Definitive treatment for angle closure?",
+          "back": "Laser peripheral iridotomy, usually in both eyes."
+        },
+        {
+          "front": "First-line drop for primary open-angle glaucoma?",
+          "back": "A prostaglandin analogue such as latanoprost, at night."
+        },
+        {
+          "front": "Refractive error that predisposes to angle closure?",
+          "back": "Hypermetropia (long-sightedness): small eye, shallow anterior chamber."
+        },
+        {
+          "front": "Antiepileptic that can cause bilateral angle closure?",
+          "back": "Topiramate."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "ophthalmology--glaucoma--q1",
+          "discipline": "adult-surgery",
+          "topic": "ophthalmology",
+          "difficulty": "core",
+          "stem": "A 66-year-old woman is brought to an emergency department in Perth at 10 pm with severe pain in her left eye, a frontal headache and repeated vomiting that began while she was at the cinema. She describes seeing rainbow-coloured rings around lights. She wears glasses for long sight. Heart rate is 96/min, blood pressure 160/90 mmHg. The left eye is red, the cornea is hazy and the pupil is 5 mm and unreactive. Visual acuity is 6/6 right and hand movements left.\n\nWhat is the most appropriate immediate management?",
+          "options": [
+            "Arrange an urgent non-contrast CT brain",
+            "Give intravenous acetazolamide and topical pressure-lowering drops, and contact ophthalmology",
+            "Instil tropicamide drops to allow fundoscopy",
+            "Give intravenous metoclopramide and reassess in one hour",
+            "Start topical prednisolone and cyclopentolate drops"
+          ],
+          "answer": 1,
+          "explanation": "Every feature points to **acute angle-closure glaucoma**: an older **hypermetropic** woman, onset in **dim light** (cinema), severe eye pain, headache, **vomiting**, **halos**, a **hazy cornea** and a **fixed mid-dilated pupil** with markedly reduced vision.\n\nThis is a sight-threatening emergency. Lower the pressure now: **acetazolamide** (IV if vomiting) plus topical agents such as timolol and an alpha-agonist, then pilocarpine, with analgesia, an antiemetic and urgent ophthalmology involvement for laser peripheral iridotomy.\n\nThe vomiting and headache tempt candidates towards intracranial causes, but the red eye and fixed pupil are the discriminating clues.",
+          "whyWrong": [
+            "A CT brain delays sight-saving treatment; the red eye with fixed pupil localises the problem to the eye.",
+            "",
+            "Dilating drops would worsen the pupillary block and pressure.",
+            "Antiemetics are adjuncts only; the pressure must be lowered urgently.",
+            "Steroid and cycloplegic drops treat uveitis; cyclopentolate dilates the pupil and would worsen angle closure."
+          ],
+          "tags": [
+            "glaucoma",
+            "angle closure",
+            "emergency"
+          ]
+        },
+        {
+          "id": "ophthalmology--glaucoma--q2",
+          "discipline": "adult-surgery",
+          "topic": "ophthalmology",
+          "difficulty": "exam",
+          "stem": "A 72-year-old man attends his GP in Hobart after being started on oxybutynin for urge incontinence 3 days ago. Last night he developed a painful red right eye with blurred vision and vomiting. The ophthalmologist later confirms acute angle-closure glaucoma, and the pressure is controlled medically.\n\nWhich definitive treatment is most appropriate?",
+          "options": [
+            "Long-term topical latanoprost to the right eye",
+            "Laser peripheral iridotomy to the right eye only",
+            "Trabeculectomy to the right eye",
+            "Laser peripheral iridotomy to both eyes",
+            "Oral acetazolamide indefinitely"
+          ],
+          "answer": 3,
+          "explanation": "Angle closure is a problem of **anatomy**: a shallow anterior chamber in which the peripheral iris can block the trabecular meshwork. The anticholinergic oxybutynin dilated the pupil and triggered the attack, and it should be stopped.\n\nOnce the pressure is controlled, the definitive treatment is **laser peripheral iridotomy**, which creates a bypass channel for aqueous through the peripheral iris. Because the anatomy is almost always **bilateral**, the fellow eye has a high risk of an attack and is treated **prophylactically** at the same time.\n\nLens extraction is an alternative in some patients. Medical therapy alone does not remove the mechanism.",
+          "whyWrong": [
+            "Prostaglandin analogues treat open-angle glaucoma; they do not relieve pupillary block.",
+            "Treating only the affected eye leaves the fellow eye at high risk of an attack.",
+            "Trabeculectomy is reserved for uncontrolled glaucoma, not first-line for angle closure.",
+            "",
+            "Long-term acetazolamide has significant side effects and does not fix the anatomical cause."
+          ],
+          "tags": [
+            "glaucoma",
+            "angle closure",
+            "anticholinergic"
+          ]
+        },
+        {
+          "id": "ophthalmology--glaucoma--q3",
+          "discipline": "adult-surgery",
+          "topic": "ophthalmology",
+          "difficulty": "foundation",
+          "stem": "A 48-year-old man sees his GP in Canberra because his mother has become legally blind from glaucoma. He has no symptoms. His optometrist reports intraocular pressures of 26 mmHg in both eyes, a cup-to-disc ratio of 0.7 on the right and 0.4 on the left, and early superior arcuate field loss on the right. He has asthma treated with inhaled corticosteroids.\n\nWhich treatment is the most appropriate initial choice?",
+          "options": [
+            "Topical timolol drops",
+            "Oral acetazolamide",
+            "Topical pilocarpine drops",
+            "Topical prednisolone drops",
+            "Topical latanoprost drops"
+          ],
+          "answer": 4,
+          "explanation": "He has **primary open-angle glaucoma**: raised IOP, an enlarged and **asymmetric cup-to-disc ratio** and a matching **arcuate field defect**, with a first-degree relative affected. POAG is painless and silent, which is why family screening matters.\n\nFirst-line medical therapy is a **prostaglandin analogue** such as latanoprost, once daily at night. It increases uveoscleral outflow, is well tolerated and has few systemic effects. Patients should be warned about iris darkening and eyelash growth.\n\nTimolol is effective, but topical beta-blockers are absorbed systemically and can precipitate **bronchospasm**, so they are avoided in asthma.",
+          "whyWrong": [
+            "Topical beta-blockers can cause bronchospasm and are avoided in asthma.",
+            "Oral acetazolamide is for acute pressure lowering, not long-term first-line POAG treatment.",
+            "Pilocarpine is mainly used for angle closure; it is poorly tolerated long term.",
+            "Steroid drops raise intraocular pressure and would worsen glaucoma.",
+            ""
+          ],
+          "tags": [
+            "glaucoma",
+            "open angle",
+            "screening"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ophthalmology--sudden-visual-loss",
+      "title": "Sudden painless visual loss",
+      "minutes": 18,
+      "objectives": [
+        "Build a structured differential for sudden visual loss by anatomical site",
+        "Recognise retinal detachment from flashes, floaters and a curtain, and refer the same day",
+        "Identify central retinal artery and vein occlusion on fundoscopy descriptions",
+        "Suspect giant cell arteritis in any older patient with visual loss and start steroids without delay",
+        "Recognise optic neuritis and amaurosis fugax and their systemic implications"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "A structured approach",
+          "body": "Sudden visual loss is an emergency until proven otherwise. The AMC loves it because a few facts in the history (age, pain, flashes, jaw claudication, transient versus persistent) plus a fundoscopy description point straight to the answer.\n\nThink anatomically, from front to back:\n\n| Site | Examples | Red reflex | Pain |\n|---|---|---|---|\n| Media | Vitreous haemorrhage | Absent or reduced | No |\n| Retina | Retinal detachment, CRAO, CRVO, wet macular degeneration | Present (may be grey in large RD) | No |\n| Optic nerve | Optic neuritis, anterior ischaemic optic neuropathy (including GCA) | Present | Optic neuritis: pain on eye movement |\n| Visual pathway / cortex | Stroke, pituitary apoplexy | Present | Variable |\n| Transient | Amaurosis fugax (TIA), papilloedema obscurations, migraine | Present | No |\n\nPainful visual loss usually points to acute glaucoma, keratitis, uveitis, optic neuritis or GCA (headache). The rest are typically painless."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Mechanisms behind the key conditions",
+          "body": "**Rhegmatogenous retinal detachment**: with age the vitreous gel liquefies and separates from the retina (**posterior vitreous detachment**, PVD). Where it is stuck firmly it can pull a **retinal tear**; fluid then passes through the tear and lifts the neurosensory retina off the pigment epithelium. Traction on the retina produces **photopsia (flashes)**, blood or pigment in the vitreous produces a **shower of floaters**, and the detached retina produces a **shadow or curtain**. Risk factors: myopia, previous cataract surgery, trauma, previous detachment in the other eye.\n\n**Central retinal artery occlusion (CRAO)**: an embolus (usually carotid atheroma or cardiac, e.g. AF) or arteritis (**GCA**) blocks the artery. The inner retina becomes ischaemic, oedematous and pale; the fovea, supplied by the choroid, stays red, giving the **cherry-red spot**. It is the eye equivalent of an ischaemic stroke: the retina tolerates only a short period of ischaemia.\n\n**Central retinal vein occlusion (CRVO)**: thrombosis of the vein at the lamina cribrosa, usually from compression by an atherosclerotic artery. Risk: age, hypertension, diabetes, glaucoma, hyperviscosity. Venous back-pressure produces widespread haemorrhages and oedema. Later, ischaemia drives VEGF release, new vessels and neovascular glaucoma.\n\n**Giant cell arteritis (GCA)**: granulomatous vasculitis of medium and large arteries in people over 50. Occlusion of the posterior ciliary arteries causes **arteritic anterior ischaemic optic neuropathy**, a swollen pale disc, and irreversible blindness that can quickly involve the second eye.\n\n**Optic neuritis**: demyelinating inflammation of the optic nerve, often the first presentation of **multiple sclerosis**.\n\n**Vitreous haemorrhage**: bleeding from fragile new vessels in **proliferative diabetic retinopathy**, from a retinal tear, or after trauma."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Classic presentations",
+          "body": "**Retinal detachment**: a myopic 55-year-old describes flashing lights and a sudden shower of floaters, then a **dark curtain** spreading across part of the vision. Acuity may be normal if the macula is still attached (\"macula-on\"), which is exactly the moment surgery saves central vision.\n\n**CRAO**: sudden, **painless, profound** monocular loss (often counting fingers or worse), a **relative afferent pupillary defect (RAPD)**, a **pale retina with a cherry-red spot** at the macula, attenuated arterioles, sometimes a visible bright embolus (Hollenhorst plaque).\n\n**CRVO**: sudden painless blurring, less profound than CRAO. Fundoscopy: widespread flame and blot haemorrhages in all quadrants, dilated tortuous veins, disc swelling and cotton-wool spots, the famous \"**stormy sunset**\" or \"blood and thunder\" fundus. Branch vein occlusion affects one sector.\n\n**GCA**: over 50 with new headache, **scalp tenderness** (painful to brush hair), **jaw claudication**, visual disturbance (transient blurring, diplopia or sudden loss), systemic symptoms (fever, weight loss, fatigue) and often **polymyalgia rheumatica** (shoulder and hip girdle stiffness). The temporal artery may be tender, thickened and pulseless. Fundus shows a pale, swollen disc.\n\n**Optic neuritis**: a woman aged 20-40 with visual loss over days, **pain on eye movement**, reduced **colour vision** (red desaturation), a central scotoma and an RAPD. The disc is often normal (\"the patient sees nothing and the doctor sees nothing\") because inflammation is retrobulbar. Most recover vision over weeks.\n\n**Amaurosis fugax**: transient monocular loss like \"a curtain coming down\" lasting minutes, then complete recovery. This is a **TIA of the retina**, usually from carotid atheroma.\n\n**Vitreous haemorrhage**: a diabetic notices sudden floaters or \"a red haze\" then reduced vision; the red reflex is reduced and the fundus is hard to see.\n\n**Wet age-related macular degeneration**: distortion of straight lines (metamorphopsia) and central blurring over days in an older person."
+        },
+        {
+          "kind": "investigations",
+          "heading": "What to do in the first hour",
+          "body": "- **Visual acuity**, pupils (RAPD), red reflex, fundoscopy.\n- In anyone over 50 with visual loss: **ESR and CRP urgently** (plus FBC; platelets are often raised in GCA) to screen for GCA. A normal ESR does not exclude it if the clinical story is strong.\n- CRAO and amaurosis fugax: manage as a **stroke/TIA**: ECG (AF), blood pressure, glucose, lipids, **carotid Doppler** or CT angiography, echocardiography where indicated, and imaging of the brain per the local stroke pathway.\n- GCA: **temporal artery biopsy** or temporal artery ultrasound. Biopsy can remain positive for about 1-2 weeks after starting steroids, so treatment must not wait for it.\n- CRVO: blood pressure, glucose/HbA1c, lipids, FBC, and consider a thrombophilia or hyperviscosity work-up in younger patients.\n- Optic neuritis: MRI brain and orbits with contrast to look for demyelinating lesions; neurology referral.\n- Retinal detachment: dilated fundal examination by ophthalmology; B-scan ultrasound if the view is obscured."
+        },
+        {
+          "kind": "management",
+          "heading": "Management and referral urgency",
+          "body": "**Retinal detachment or symptomatic PVD**: **same-day ophthalmology referral**. Tears are sealed with laser or cryotherapy; detachments need surgical repair (vitrectomy, scleral buckle or pneumatic retinopexy). Advise the patient to rest and not to drive.\n\n**CRAO**: an emergency with a very short window. Contact ophthalmology and the stroke team immediately. Some centres consider thrombolysis within a narrow time window under specialist protocols; older manoeuvres (ocular massage, paracentesis, rebreathing into a bag) have no proven benefit. The main value of rapid assessment is **excluding GCA** and preventing a stroke through secondary prevention (antiplatelet, statin, BP control, AF anticoagulation, carotid endarterectomy for significant symptomatic stenosis).\n\n**Suspected GCA**: **start high-dose corticosteroids immediately** on clinical suspicion, before biopsy. Oral prednisolone is used for uncomplicated disease; with visual symptoms, IV methylprednisolone is often given first (doses per eTG and rheumatology). Then arrange biopsy or ultrasound within days, rheumatology follow-up, and bone protection for long-term steroids. The whole point is to save the **other eye**.\n\n**CRVO**: ophthalmology review within days; treat risk factors. Macular oedema is treated with intravitreal anti-VEGF injections; ischaemic CRVO is monitored for neovascularisation (laser if it appears).\n\n**Optic neuritis**: neurology and ophthalmology; IV methylprednisolone may speed recovery but does not change final vision; discuss MS risk based on MRI.\n\n**Amaurosis fugax**: treat as TIA with urgent stroke-prevention work-up; driving restrictions apply (check Austroads).\n\n**Vitreous haemorrhage**: urgent ophthalmology; ultrasound to exclude a detachment; laser or vitrectomy for the underlying cause."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Discriminating clues",
+          "body": "- Flashes + floaters + curtain = retinal detachment: **same-day referral**, not \"review in a week\".\n- Cherry-red spot + pale retina = CRAO. In an older patient the next step is **ESR/CRP** to exclude GCA, and a stroke work-up.\n- \"Stormy sunset\" haemorrhages in all quadrants = CRVO.\n- Headache, jaw claudication and visual loss in a 70-year-old: **steroids now**; the wrong answer is \"arrange temporal artery biopsy and start steroids if positive\".\n- Young woman, pain on eye movement, colour desaturation, RAPD, normal disc = optic neuritis; next step MRI.\n- Transient monocular \"curtain\" = amaurosis fugax = TIA; carotid imaging.\n- No red reflex in a diabetic with sudden visual loss = vitreous haemorrhage."
+        }
+      ],
+      "keyPoints": [
+        "Think front to back: media, retina, optic nerve, pathway; ask about pain and whether it is transient.",
+        "Retinal detachment: flashes, floaters, curtain; same-day referral, ideally while macula-on.",
+        "CRAO: painless profound loss, RAPD, pale retina, cherry-red spot; stroke equivalent.",
+        "Always check ESR/CRP for GCA in older patients with sudden visual loss.",
+        "Suspected GCA: start high-dose steroids immediately; biopsy can follow.",
+        "CRVO: widespread haemorrhages, dilated veins; risk factors hypertension, diabetes, glaucoma.",
+        "Optic neuritis: pain on eye movement, red desaturation, RAPD; MRI for MS."
+      ],
+      "redFlags": [
+        "Flashes, new floaters or a curtain over vision",
+        "Sudden painless profound monocular visual loss",
+        "Visual symptoms with headache, jaw claudication or scalp tenderness in someone over 50",
+        "Transient monocular visual loss (amaurosis fugax)",
+        "RAPD in a patient with visual loss"
+      ],
+      "contrast": [
+        {
+          "aspect": "Retinal artery occlusion",
+          "india": "Often managed as an isolated eye event with ocular massage and anterior chamber paracentesis.",
+          "australia": "Treated as a stroke equivalent: urgent stroke pathway, GCA screen, and secondary vascular prevention."
+        },
+        {
+          "aspect": "Suspected giant cell arteritis",
+          "india": "GCA is less common and may be under-recognised; steroids sometimes wait for biopsy.",
+          "australia": "Start high-dose steroids on clinical suspicion; temporal artery biopsy or ultrasound follows within days."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Triad of retinal detachment symptoms?",
+          "back": "Flashes (photopsia), floaters, and a curtain or shadow over the visual field."
+        },
+        {
+          "front": "Fundus finding in central retinal artery occlusion?",
+          "back": "Pale, oedematous retina with a cherry-red spot at the fovea; attenuated arterioles."
+        },
+        {
+          "front": "Blood tests to order urgently in an older patient with sudden visual loss?",
+          "back": "ESR and CRP (plus FBC) to screen for giant cell arteritis."
+        },
+        {
+          "front": "\"Stormy sunset\" fundus?",
+          "back": "Central retinal vein occlusion: haemorrhages in all quadrants, dilated tortuous veins, disc swelling."
+        },
+        {
+          "front": "Painful visual loss on eye movement with red desaturation in a young woman?",
+          "back": "Optic neuritis; arrange MRI brain and orbits (MS association)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "ophthalmology--sudden-visual-loss--q1",
+          "discipline": "adult-surgery",
+          "topic": "ophthalmology",
+          "difficulty": "foundation",
+          "stem": "A 58-year-old short-sighted accountant presents to his GP in Melbourne. Since yesterday he has seen flashing lights in the right eye and dozens of new black spots, and this morning noticed a grey shadow covering the upper half of his vision in that eye. Visual acuity is 6/9 right and 6/6 left. The eye is white and painless.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Reassure him that floaters are common with age and review in 6 weeks",
+            "Arrange routine optometrist review within 2 weeks",
+            "Same-day referral to an ophthalmologist",
+            "Arrange an urgent CT brain",
+            "Check ESR and CRP and start oral prednisolone"
+          ],
+          "answer": 2,
+          "explanation": "**Flashes, a shower of floaters and a shadow or curtain** in a **myopic** middle-aged patient is **retinal detachment** until proven otherwise. The shadow in the *upper* field means the retina is detached *inferiorly*.\n\nHis acuity is still near normal, suggesting the **macula is still attached**. Prompt surgical repair at this stage preserves central vision; once the macula detaches, the visual outcome is much worse. He needs **same-day ophthalmology assessment**.\n\nIsolated floaters from a simple posterior vitreous detachment can be benign, but even those need a dilated retinal examination to exclude a tear. A curtain changes the urgency completely.",
+          "whyWrong": [
+            "A curtain over vision is never reassured away; it indicates detachment.",
+            "Two weeks is too slow; the macula may detach in the meantime.",
+            "",
+            "The findings localise to the retina; a CT brain delays treatment.",
+            "GCA causes visual loss in older patients with headache and jaw claudication, not flashes and floaters."
+          ],
+          "tags": [
+            "retinal detachment",
+            "visual loss"
+          ]
+        },
+        {
+          "id": "ophthalmology--sudden-visual-loss--q2",
+          "discipline": "adult-surgery",
+          "topic": "ophthalmology",
+          "difficulty": "core",
+          "stem": "A 74-year-old woman presents to an emergency department in Newcastle with sudden painless loss of vision in her left eye 2 hours ago. For the past month she has had headaches, tenderness when brushing her hair and pain in her jaw when chewing. Visual acuity is 6/6 right and counting fingers left, with a left relative afferent pupillary defect. Fundoscopy shows a pale, swollen left optic disc.\n\nWhat is the most appropriate immediate step?",
+          "options": [
+            "Arrange temporal artery biopsy and start steroids if it is positive",
+            "Start aspirin 300 mg and refer to the stroke team",
+            "Organise an MRI brain and orbits",
+            "Start high-dose corticosteroids immediately",
+            "Refer to rheumatology outpatients"
+          ],
+          "answer": 3,
+          "explanation": "This is **giant cell arteritis** with **arteritic anterior ischaemic optic neuropathy**: age over 50, new headache, **scalp tenderness**, **jaw claudication**, sudden painless visual loss, an RAPD and a **pale swollen disc**.\n\nVision already lost is usually permanent, but the **fellow eye** is at high risk within days. High-dose corticosteroids must start **immediately on clinical suspicion** (with visual loss, IV methylprednisolone is often used first), with ESR and CRP taken at the time.\n\nBiopsy or temporal artery ultrasound is still needed but should never delay treatment; biopsy remains diagnostic for about 1-2 weeks after steroids are started.",
+          "whyWrong": [
+            "Waiting for biopsy risks blindness in the other eye.",
+            "Aspirin and stroke care do not treat the vasculitis driving her visual loss.",
+            "MRI is for optic neuritis or intracranial pathology; it delays steroids.",
+            "",
+            "Outpatient referral is far too slow for a sight-threatening emergency."
+          ],
+          "tags": [
+            "giant cell arteritis",
+            "visual loss",
+            "steroids"
+          ]
+        },
+        {
+          "id": "ophthalmology--sudden-visual-loss--q3",
+          "discipline": "adult-surgery",
+          "topic": "ophthalmology",
+          "difficulty": "exam",
+          "stem": "A 68-year-old man with hypertension and atrial fibrillation (not anticoagulated) presents 90 minutes after sudden, painless loss of vision in his right eye. Visual acuity is hand movements right and 6/9 left. There is a right RAPD. Fundoscopy of the right eye shows a pale retina with a red spot at the macula and narrowed arterioles.\n\nWhich of the following best describes the most likely diagnosis?",
+          "options": [
+            "Central retinal vein occlusion",
+            "Vitreous haemorrhage",
+            "Retinal detachment",
+            "Wet age-related macular degeneration",
+            "Central retinal artery occlusion"
+          ],
+          "answer": 4,
+          "explanation": "A **pale, oedematous retina with a cherry-red spot** and attenuated arterioles in a patient with sudden, painless, profound visual loss and an RAPD is **central retinal artery occlusion**. The fovea looks red because it is thin and its underlying choroidal blood supply is intact, while the surrounding inner retina is ischaemic and white.\n\nIn a man with **untreated AF** the likely cause is a cardiac embolus. CRAO is a **stroke equivalent**: contact ophthalmology and the stroke team urgently, check ESR/CRP to exclude GCA, and start secondary prevention (here, anticoagulation once appropriate). He is at high risk of a cerebral stroke.",
+          "whyWrong": [
+            "CRVO gives widespread haemorrhages and dilated veins, not a pale retina.",
+            "Vitreous haemorrhage obscures the fundus and dulls the red reflex.",
+            "Detachment is preceded by flashes and floaters and shows an elevated grey retina.",
+            "Wet AMD causes central distortion over days, not sudden profound loss with an RAPD.",
+            ""
+          ],
+          "tags": [
+            "crao",
+            "visual loss",
+            "stroke"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ophthalmology--eye-trauma",
+      "title": "Eye trauma and chemical injury",
+      "minutes": 15,
+      "objectives": [
+        "Irrigate a chemical eye injury correctly and explain why alkali is worse than acid",
+        "Assess and treat corneal abrasions and superficial foreign bodies",
+        "Recognise a penetrating eye injury and give correct first aid",
+        "Identify orbital blowout fracture, hyphaema and retrobulbar haemorrhage"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why eye trauma is tested",
+          "body": "Eye injuries are common in Australia: tradespeople grinding metal, workplace and household chemical splashes (cleaning agents, pool chemicals, cement and lime), welding flash, sporting balls and assault. The AMC tests the few decisions that change outcome:\n\n- **Chemical injury: irrigate first, assess later.** This is the one situation where you do not check visual acuity before treating.\n- Suspect a **penetrating injury or intraocular foreign body** from the mechanism (high-velocity metal).\n- Protect the globe: shield, not pressure patch.\n- Recognise orbital and anterior chamber complications."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Mechanisms of damage",
+          "body": "**Alkali versus acid**\n- **Alkalis** (sodium hydroxide in drain and oven cleaners, lime and cement, ammonia) cause **liquefactive necrosis**: they saponify cell membranes and keep penetrating deeper into the eye, reaching the anterior chamber, causing cataract, glaucoma and corneal melting.\n- **Acids** (car battery acid, pool acid) cause **coagulative necrosis**: precipitated proteins form a barrier that limits deeper penetration. Acid injuries are usually less severe (hydrofluoric acid is an exception).\n- The severity depends heavily on how long the chemical is in contact with the eye, which is why irrigation starts immediately at the scene.\n\n**Limbal ischaemia** (blanching of the vessels at the corneal edge) indicates loss of the limbal stem cells that regenerate corneal epithelium and predicts a poor outcome.\n\n**Blunt trauma** transmits pressure to the globe and orbit: the thin **orbital floor** (over the maxillary sinus) or medial wall fractures (\"blowout\"), the iris root tears (**hyphaema**, blood in the anterior chamber), and the retina can tear or detach. Bleeding behind the globe in the closed orbit (**retrobulbar haemorrhage**) causes an orbital compartment syndrome that compresses the optic nerve and its blood supply.\n\n**High-velocity fragments** (hammering metal on metal, grinding, drilling) can pierce the globe with minimal pain and leave an **intraocular foreign body**, which risks endophthalmitis and, if iron-containing, toxic siderosis.\n\n**Ultraviolet keratitis** (\"welder's flash\", \"arc eye\", snow blindness): UV damages the corneal epithelium; symptoms begin **6-12 hours later**, often at night, with severe bilateral pain and photophobia."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Recognising each injury",
+          "body": "| Injury | Key features |\n|---|---|\n| Chemical | History of splash; pain, blepharospasm; epithelial loss on fluorescein; limbal blanching and corneal haze in severe cases |\n| Corneal abrasion | Foreign-body sensation, watering, photophobia; sharply outlined fluorescein-staining area; vision usually near normal |\n| Subtarsal foreign body | Vertical linear abrasions on the cornea; seen on everting the upper lid |\n| Corneal metallic foreign body | Grinding history; speck on the cornea, often with a rust ring after a few hours |\n| Penetrating injury | High-velocity mechanism; reduced vision; **irregular (teardrop) pupil** pointing to the wound; shallow anterior chamber; prolapsed dark uveal tissue; positive **Seidel test** (fluorescein streams away as aqueous leaks) |\n| Hyphaema | Blood level in the anterior chamber after blunt trauma; risk of rebleed and raised pressure |\n| Orbital floor blowout | Periorbital bruising, **diplopia on upward gaze** (entrapped inferior rectus), **numbness of the cheek and upper lip** (infraorbital nerve), enophthalmos, subcutaneous emphysema after nose blowing |\n| Retrobulbar haemorrhage | Painful proptosis, tense orbit, reduced vision, RAPD, restricted movements, raised IOP |\n| UV keratitis | Bilateral severe pain 6-12 h after welding or sun exposure; punctate staining |\n\nA trap: an oculocardiac reflex from an entrapped muscle can cause bradycardia, nausea and syncope, especially in children with a \"white-eyed\" blowout fracture."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Assessment after first aid",
+          "body": "- After irrigation, check **pH** of the tear film with litmus paper in the lower fornix; aim for a neutral pH (about 7.0-7.5) and recheck several minutes after stopping.\n- **Visual acuity** in each eye, documented.\n- Pupils (shape and RAPD), anterior chamber depth, red reflex.\n- **Fluorescein** for abrasions and a **Seidel test** if penetration is possible.\n- **Evert the upper lid** to find retained particles or subtarsal foreign bodies.\n- **Imaging**: CT orbits for suspected intraocular or orbital foreign body and for orbital fractures. **MRI is contraindicated** when a metallic foreign body is possible. Plain X-ray orbits is a screening option where CT is not available.\n- Measure IOP in hyphaema and suspected retrobulbar haemorrhage (but not in an open globe)."
+        },
+        {
+          "kind": "management",
+          "heading": "Management by injury",
+          "body": "**Chemical injury**\n1. **Irrigate immediately and copiously**, before taking a full history or checking acuity. Use whatever is available: tap water at the scene, normal saline or Hartmann's in hospital, via a giving set.\n2. Instil topical anaesthetic to allow the patient to open the eye; use a speculum if needed.\n3. Irrigate for **at least 20-30 minutes** (often litres of fluid), sweeping the fornices and removing particles (lime, cement).\n4. Check pH; continue until neutral.\n5. Then acuity, fluorescein, and urgent ophthalmology referral for all alkali injuries and any significant injury.\n\n**Corneal abrasion**\n- Topical antibiotic (e.g. chloramphenicol) until healed, oral analgesia, cycloplegic drops for comfort if needed.\n- Patching is **not** routinely recommended.\n- **Never** give topical anaesthetic drops to take home: they delay healing and mask worsening.\n- Contact lens wearers: no lens until healed; treat as higher risk of *Pseudomonas* and review early.\n- Review in 24-48 hours; refer if not healing, vision reduced or an infiltrate appears.\n\n**Superficial corneal foreign body**: remove under topical anaesthetic at the slit lamp with a needle or burr if you are trained; residual rust rings are removed by an ophthalmologist or experienced clinician. Consider imaging for an intraocular fragment in any high-velocity mechanism.\n\n**Penetrating (open globe) injury**\n- **Do not remove** protruding objects; do not apply pressure to the eye or put drops in.\n- Cover with a **rigid eye shield**, keep the patient nil by mouth, give analgesia and antiemetic (vomiting raises IOP), IV antibiotics per local protocol, check **tetanus** status.\n- CT orbits; emergency ophthalmology for surgical repair.\n\n**Hyphaema**: head elevation, rest, shield, avoid NSAIDs and aspirin, ophthalmology review for IOP and rebleeding.\n\n**Orbital blowout**: advise no nose blowing, oral antibiotics per local advice, ice, CT, maxillofacial and ophthalmology referral; surgery for entrapment, persistent diplopia or significant enophthalmos. A child with entrapment and bradycardia needs urgent surgery.\n\n**Retrobulbar haemorrhage with visual loss**: emergency **lateral canthotomy and cantholysis** to decompress the orbit, within minutes to an hour, often before imaging.\n\n**UV keratitis**: oral analgesia, lubricants, sometimes cycloplegic and antibiotic ointment; heals in 24-48 hours; advise eye protection."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "What the AMC wants",
+          "body": "- \"What is the **first** step?\" after a chemical splash: **irrigate**. Checking acuity, pH or calling ophthalmology come after.\n- Hammering metal on metal plus reduced vision or a teardrop pupil: suspect **penetrating injury / intraocular foreign body**; shield, CT (not MRI), refer.\n- Diplopia on upward gaze and cheek numbness after a punch: **orbital floor fracture**.\n- Proptosis and falling vision after facial trauma: **lateral canthotomy**.\n- Discharging a patient with topical anaesthetic drops is always wrong.\n- Pressure patch on a possible open globe is wrong."
+        }
+      ],
+      "keyPoints": [
+        "Chemical injury: irrigate immediately for at least 20-30 minutes until pH is neutral, then assess.",
+        "Alkali (lime, cement, drain cleaner) is worse than acid because it keeps penetrating.",
+        "Corneal abrasion: topical antibiotic, analgesia, no patch, never take-home anaesthetic drops.",
+        "High-velocity metal injury: exclude intraocular foreign body with CT; never MRI.",
+        "Open globe: rigid shield, nil by mouth, IV antibiotics, tetanus, emergency ophthalmology.",
+        "Blowout fracture: upgaze diplopia, cheek numbness, enophthalmos; no nose blowing.",
+        "Retrobulbar haemorrhage with visual loss: urgent lateral canthotomy."
+      ],
+      "redFlags": [
+        "Alkali chemical injury or limbal blanching",
+        "High-velocity metal fragment mechanism",
+        "Irregular or teardrop pupil, shallow anterior chamber, positive Seidel test",
+        "Painful proptosis with reduced vision after trauma",
+        "Hyphaema",
+        "Bradycardia or vomiting with restricted eye movement after orbital trauma"
+      ],
+      "contrast": [
+        {
+          "aspect": "Chemical injury first aid",
+          "india": "Patients often arrive without prehospital irrigation; traditional remedies may be applied at home.",
+          "australia": "Workplace and public first aid messaging stresses immediate prolonged water irrigation; ED irrigates before any assessment."
+        },
+        {
+          "aspect": "Corneal abrasion care",
+          "india": "Pressure patching with antibiotic ointment is still common.",
+          "australia": "Patching is not routinely used; topical antibiotic, analgesia and early review, with no take-home anaesthetic drops."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "First step in any chemical eye injury?",
+          "back": "Immediate copious irrigation (at least 20-30 minutes) until pH is neutral, before assessment."
+        },
+        {
+          "front": "Why are alkali burns worse than acid burns?",
+          "back": "Alkalis cause liquefactive necrosis and keep penetrating; acids cause coagulative necrosis that limits depth."
+        },
+        {
+          "front": "Imaging contraindicated with a suspected metallic intraocular foreign body?",
+          "back": "MRI. Use CT orbits."
+        },
+        {
+          "front": "Signs of orbital floor blowout fracture?",
+          "back": "Diplopia on upward gaze, infraorbital (cheek) numbness, enophthalmos, periorbital emphysema."
+        },
+        {
+          "front": "Emergency procedure for retrobulbar haemorrhage with visual loss?",
+          "back": "Lateral canthotomy and cantholysis."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "ophthalmology--eye-trauma--q1",
+          "discipline": "adult-surgery",
+          "topic": "ophthalmology",
+          "difficulty": "foundation",
+          "stem": "A 35-year-old concreter is brought to a regional emergency department in Queensland 15 minutes after wet cement splashed into his left eye. He is in severe pain and cannot open the eye. His workmate rinsed it briefly with a bottle of water.\n\nWhat is the most appropriate first step?",
+          "options": [
+            "Measure visual acuity in both eyes",
+            "Test the pH of the tear film with litmus paper",
+            "Perform fluorescein staining to assess the cornea",
+            "Refer urgently to the on-call ophthalmologist",
+            "Instil topical anaesthetic and irrigate the eye copiously with saline"
+          ],
+          "answer": 4,
+          "explanation": "Cement and lime are **alkalis**, which cause **liquefactive necrosis** and continue to penetrate the cornea and anterior chamber for as long as they remain in contact. The outcome depends on how quickly the chemical is removed.\n\nChemical injury is the one eye emergency where you **irrigate before anything else**, including visual acuity. Topical anaesthetic makes irrigation possible; then irrigate with litres of saline or Hartmann's for at least 20-30 minutes, evert the lids and sweep the fornices to remove cement particles, and continue until the pH is neutral.\n\nOnly then check acuity, stain with fluorescein and refer to ophthalmology. A brief rinse at the scene is not enough.",
+          "whyWrong": [
+            "Visual acuity is normally first in eye assessment, but in chemical injury irrigation comes first.",
+            "pH is checked after irrigation to confirm neutralisation, not before starting.",
+            "Fluorescein assessment follows irrigation.",
+            "Referral is needed, but every minute of delay in irrigation worsens the injury.",
+            ""
+          ],
+          "tags": [
+            "chemical injury",
+            "alkali",
+            "trauma"
+          ]
+        },
+        {
+          "id": "ophthalmology--eye-trauma--q2",
+          "discipline": "adult-surgery",
+          "topic": "ophthalmology",
+          "difficulty": "core",
+          "stem": "A 42-year-old man presents to his GP in Wollongong after feeling something hit his right eye while hammering a steel chisel an hour ago. He has mild discomfort only. Visual acuity is 6/12 right and 6/6 left. There is a tiny laceration at the edge of the cornea and the right pupil is slightly teardrop-shaped.\n\nWhich of the following is the most appropriate management?",
+          "options": [
+            "Irrigate the eye, apply chloramphenicol ointment and a pressure patch, and review tomorrow",
+            "Apply a rigid eye shield, keep him nil by mouth and send him urgently to hospital for CT orbits",
+            "Arrange an urgent MRI of the orbits",
+            "Remove the foreign body with a needle under topical anaesthetic",
+            "Prescribe topical anaesthetic drops for pain and review in 48 hours"
+          ],
+          "answer": 1,
+          "explanation": "**Hammering metal on metal** throws off small, high-velocity fragments that can enter the globe with surprisingly little pain. Reduced acuity, a corneal wound and a **teardrop pupil** (the iris is drawn towards the perforation) indicate an **open globe with a probable intraocular foreign body**.\n\nFirst aid: a **rigid shield** (no pressure on the eye), nil by mouth in anticipation of surgery, analgesia and antiemetic, tetanus cover and IV antibiotics per protocol. Imaging is **CT orbits**. MRI is contraindicated because a ferromagnetic fragment could move.\n\nThe mildness of symptoms is the trap; the mechanism is the discriminating clue.",
+          "whyWrong": [
+            "Pressure on an open globe can extrude intraocular contents; patching is contraindicated.",
+            "",
+            "MRI can move a metallic fragment and cause further damage.",
+            "An intraocular fragment cannot be removed in general practice; manipulation risks extrusion.",
+            "Take-home anaesthetic drops delay healing and mask a serious injury."
+          ],
+          "tags": [
+            "penetrating injury",
+            "foreign body",
+            "trauma"
+          ]
+        },
+        {
+          "id": "ophthalmology--eye-trauma--q3",
+          "discipline": "adult-surgery",
+          "topic": "ophthalmology",
+          "difficulty": "core",
+          "stem": "A 22-year-old man presents to an emergency department in Darwin after being punched in the left eye. He has marked periorbital swelling and double vision when looking up. There is reduced sensation over the left cheek and upper lip. Visual acuity is 6/6 in both eyes and the globe appears intact.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Retrobulbar haemorrhage",
+            "Traumatic hyphaema",
+            "Orbital floor (blowout) fracture",
+            "Traumatic optic neuropathy",
+            "Zygomatic arch fracture"
+          ],
+          "answer": 2,
+          "explanation": "A blow from an object larger than the orbital rim (a fist or ball) raises orbital pressure and fractures the thin **orbital floor** into the maxillary sinus. The **inferior rectus** can become trapped, restricting **upward gaze** and causing diplopia, and the **infraorbital nerve**, which runs in the floor, is bruised, giving **numbness of the cheek and upper lip**.\n\nManagement: CT orbits, advise against nose blowing, ophthalmology and maxillofacial review. Surgery is considered for entrapment, persistent diplopia or enophthalmos. Urgent repair is needed if entrapment causes bradycardia and vomiting (oculocardiac reflex), especially in children.",
+          "whyWrong": [
+            "Retrobulbar haemorrhage gives painful proptosis and reduced vision, which he does not have.",
+            "Hyphaema is blood in the anterior chamber and does not cause cheek numbness or upgaze diplopia.",
+            "",
+            "Traumatic optic neuropathy reduces vision and causes an RAPD; his acuity is normal.",
+            "An isolated arch fracture causes a depressed cheek and trismus rather than upgaze diplopia."
+          ],
+          "tags": [
+            "orbital fracture",
+            "trauma"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ophthalmology--chronic-eye-disease",
+      "title": "Chronic eye disease, screening and trachoma",
+      "minutes": 18,
+      "objectives": [
+        "Stage diabetic retinopathy from fundal findings and apply Australian screening intervals",
+        "Recognise cataract and age-related macular degeneration and know the treatment pathways",
+        "Describe trachoma in remote Aboriginal communities and the SAFE strategy",
+        "Apply basic visual standards for driving and know when to advise notification"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The slow causes of blindness",
+          "body": "The commonest causes of vision loss in Australia are **uncorrected refractive error, cataract, age-related macular degeneration (AMD), glaucoma and diabetic retinopathy**. All are strongly age-related, and most of the resulting vision loss is preventable or treatable if detected early.\n\nAboriginal and Torres Strait Islander people have about three times the rate of blindness of other Australians, driven mainly by cataract, refractive error and diabetic retinopathy, with poorer access to services. **Trachoma** persists in some remote communities, making Australia the only high-income country where it is still endemic.\n\nThe AMC tests: screening intervals, fundoscopy descriptions of diabetic retinopathy, when to refer, and the Australian public health context."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Mechanisms",
+          "body": "**Diabetic retinopathy**: chronic hyperglycaemia damages retinal capillaries (pericyte loss, basement membrane thickening). The results:\n- Weak capillary walls balloon into **microaneurysms** and rupture (**dot and blot haemorrhages**).\n- Leaky vessels deposit lipid (**hard exudates**) and cause **macular oedema**, the commonest cause of visual loss in diabetes.\n- Capillary closure causes ischaemia: **cotton-wool spots** (nerve fibre layer infarcts), **venous beading**, intraretinal microvascular abnormalities.\n- Ischaemic retina releases **VEGF**, which drives **new vessels** on the disc or elsewhere (**proliferative retinopathy**). These bleed (vitreous haemorrhage), contract (tractional detachment) and can grow in the iris angle (neovascular glaucoma).\n\nRapid improvement in glucose control, pregnancy, hypertension, renal disease and long duration all accelerate retinopathy.\n\n**Cataract**: opacification of the lens with age, diabetes, steroid use, smoking, UV exposure, trauma and uveitis.\n\n**AMD**: degeneration of the macula in older people.\n- *Dry (atrophic)*: drusen and gradual atrophy of the retinal pigment epithelium; slow loss of central vision. Most cases.\n- *Wet (neovascular)*: choroidal new vessels grow under the macula, leak and bleed; rapid central distortion and loss. VEGF-driven, so treatable.\n- Risk factors: age, **smoking** (the main modifiable factor), family history.\n\n**Trachoma**: repeated infection with ocular strains of *Chlamydia trachomatis*, spread by hands, flies and shared cloths in crowded settings with limited water. Recurrent inflammation scars the upper tarsal conjunctiva, the lid turns in (entropion), lashes rub the cornea (**trichiasis**), and corneal scarring causes irreversible blindness, often decades after childhood infection."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "What you see and hear",
+          "body": "**Diabetic retinopathy stages (simplified)**\n| Stage | Findings | Action |\n|---|---|---|\n| No retinopathy | Normal fundus | Routine screening |\n| Mild non-proliferative | Microaneurysms only | Screen more often (optometry/GP) |\n| Moderate to severe non-proliferative | Haemorrhages, hard exudates, cotton-wool spots, venous beading, IRMA | Ophthalmology referral |\n| Proliferative | New vessels (disc or elsewhere), vitreous haemorrhage | Urgent ophthalmology |\n| Diabetic macular oedema | Exudates or thickening near the fovea; reduced acuity | Ophthalmology (anti-VEGF) |\n\nRetinopathy is usually symptomless until macular oedema or haemorrhage, which is why screening is essential.\n\n**Hypertensive retinopathy**: arteriolar narrowing and AV nipping, then flame haemorrhages and cotton-wool spots; **papilloedema** indicates hypertensive emergency.\n\n**Cataract**: gradual painless blurring, glare from headlights at night, faded colours, frequent changes of glasses (index myopia). The red reflex is dulled; a white pupil (leukocoria) in advanced cases. In a child, leukocoria must raise retinoblastoma or congenital cataract.\n\n**AMD**: difficulty reading and recognising faces, central blur, **distortion of straight lines** on an **Amsler grid**. Dry AMD shows drusen; wet AMD may show subretinal haemorrhage and fluid. Sudden distortion in an older patient is wet AMD until proven otherwise and needs referral within days.\n\n**Trachoma**: children with follicles on the upper tarsal conjunctiva and chronic red, sticky eyes; adults with scarring, trichiasis and corneal opacity."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Screening and testing in Australia",
+          "body": "**Diabetic retinopathy screening** (NHMRC-endorsed guidelines):\n- Examine at diagnosis of type 2 diabetes, and within about 5 years of diagnosis of type 1 in adults (children per paediatric guidance).\n- **Every 2 years** if there is no retinopathy and no additional risk factors.\n- **Every year** for **Aboriginal and Torres Strait Islander people** with diabetes, and for anyone with longer duration, poor glycaemic control, hypertension or hyperlipidaemia.\n- More often once retinopathy is present, and during pregnancy.\n- Methods: dilated fundoscopy by an optometrist or ophthalmologist, or **retinal photography**, which can be done in general practice and Aboriginal Community Controlled Health Services with Medicare support.\n\n**Other tests**\n- Visual acuity with pinhole (improvement suggests refractive error).\n- Amsler grid for macular disease.\n- Optical coherence tomography (OCT) for macular oedema and wet AMD.\n- Intraocular pressure and field testing for glaucoma.\n\n**Trachoma** is diagnosed clinically using the WHO simplified grading (everting the upper lid) in community screening programs."
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment pathways",
+          "body": "**Diabetic retinopathy**\n- Optimise glucose, **blood pressure** and lipids; stop smoking. Fenofibrate may slow progression in type 2 diabetes with existing retinopathy (PBS listing has specific criteria; check current PBS).\n- **Proliferative**: panretinal photocoagulation (laser) to ablate ischaemic retina and reduce VEGF drive; anti-VEGF injections; vitrectomy for non-clearing vitreous haemorrhage or traction.\n- **Macular oedema**: intravitreal anti-VEGF (e.g. aflibercept, ranibizumab, bevacizumab), sometimes steroid implants or focal laser.\n\n**Cataract**: surgery (phacoemulsification with an intraocular lens implant) when vision affects daily life or driving. It is a day procedure under local anaesthesia. Complications include endophthalmitis (painful red eye with reduced vision within days: emergency), posterior capsule opacification (treated with YAG laser) and retinal detachment.\n\n**AMD**\n- *Dry*: smoking cessation, diet rich in leafy greens and fish, AREDS2-formula supplements for intermediate disease, low-vision aids, Amsler grid monitoring.\n- *Wet*: **urgent referral** for intravitreal **anti-VEGF injections**, given repeatedly and PBS-subsidised.\n\n**Trachoma: the WHO SAFE strategy**\n- **S**urgery for trichiasis (lid surgery to turn lashes away from the cornea).\n- **A**ntibiotics: single-dose oral **azithromycin**, given to whole communities or households where prevalence is high.\n- **F**acial cleanliness: face washing in children.\n- **E**nvironmental improvement: water, housing, sanitation, reducing flies.\nAustralian programs follow the Communicable Diseases Network Australia national trachoma guidelines.\n\n**Driving**: under Austroads *Assessing Fitness to Drive*, private drivers need a minimum binocular visual acuity (6/12) and an adequate visual field; commercial standards are stricter. Patients have a legal duty to notify the licensing authority of conditions affecting driving; doctors advise them, and reporting obligations of doctors vary by state. Check the current Austroads standard for exact field criteria."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Common question angles",
+          "body": "- Screening interval for a person with diabetes and no retinopathy: **2 years**; for an Aboriginal or Torres Strait Islander person: **yearly**.\n- New vessels on the disc: proliferative retinopathy, **urgent** referral for laser/anti-VEGF.\n- Cotton-wool spots alone are not proliferative.\n- Older smoker with sudden distortion of straight lines: wet AMD, refer within days for anti-VEGF.\n- Painful red eye with reduced vision a few days after cataract surgery: **endophthalmitis**, same-day referral.\n- Trachoma: know every letter of SAFE and that azithromycin is the antibiotic.\n- Leukocoria in a child: urgent referral (retinoblastoma)."
+        }
+      ],
+      "keyPoints": [
+        "Diabetic retinopathy screening: every 2 years if none; yearly for Aboriginal and Torres Strait Islander people and higher-risk patients.",
+        "Retinal photography in general practice is an accepted screening method.",
+        "Proliferative retinopathy (new vessels) needs urgent laser or anti-VEGF.",
+        "Wet AMD presents with central distortion; treat with intravitreal anti-VEGF; smoking is the key modifiable risk.",
+        "Cataract surgery is indicated when vision limits function; post-op painful red eye is endophthalmitis.",
+        "Trachoma is endemic only in remote Australian communities; SAFE: surgery, azithromycin, face washing, environment.",
+        "Private driving generally needs 6/12 binocular acuity and adequate fields (Austroads)."
+      ],
+      "redFlags": [
+        "New vessels on the disc or vitreous haemorrhage in a diabetic",
+        "Sudden distortion or central visual loss in an older person",
+        "Painful red eye with reduced vision after cataract surgery",
+        "Leukocoria in a child",
+        "Papilloedema with severe hypertension"
+      ],
+      "contrast": [
+        {
+          "aspect": "Diabetic retinopathy screening",
+          "india": "Largely opportunistic, often via eye camps or hospital eye departments.",
+          "australia": "Every 2 years if no retinopathy, yearly for First Nations people; retinal photography in general practice and community clinics."
+        },
+        {
+          "aspect": "Trachoma",
+          "india": "Declared eliminated as a public health problem in 2024.",
+          "australia": "Still endemic in some remote Aboriginal communities; controlled with the WHO SAFE strategy under national guidelines."
+        },
+        {
+          "aspect": "Wet macular degeneration",
+          "india": "Anti-VEGF injections available but cost often limits repeated treatment.",
+          "australia": "Repeated intravitreal anti-VEGF injections are PBS-subsidised, so ongoing treatment is standard."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Diabetic retinopathy screening interval with no retinopathy?",
+          "back": "Every 2 years; yearly for Aboriginal and Torres Strait Islander people and those at higher risk."
+        },
+        {
+          "front": "Fundal finding that defines proliferative diabetic retinopathy?",
+          "back": "Neovascularisation (new vessels on the disc or elsewhere)."
+        },
+        {
+          "front": "What does SAFE stand for in trachoma control?",
+          "back": "Surgery (trichiasis), Antibiotics (azithromycin), Facial cleanliness, Environmental improvement."
+        },
+        {
+          "front": "Treatment for wet age-related macular degeneration?",
+          "back": "Repeated intravitreal anti-VEGF injections."
+        },
+        {
+          "front": "Painful red eye with reduced vision 3 days after cataract surgery?",
+          "back": "Endophthalmitis until proven otherwise: same-day ophthalmology."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "ophthalmology--chronic-eye-disease--q1",
+          "discipline": "adult-surgery",
+          "topic": "ophthalmology",
+          "difficulty": "foundation",
+          "stem": "A 45-year-old Aboriginal woman with type 2 diabetes for 6 years attends an Aboriginal Community Controlled Health Service in Alice Springs. Her HbA1c is 7.4% (57 mmol/mol) and blood pressure 128/78 mmHg. Retinal photography today shows no diabetic retinopathy.\n\nWhen should her retinal screening be repeated?",
+          "options": [
+            "In 3 months",
+            "In 12 months",
+            "In 2 years",
+            "In 5 years",
+            "Only if she develops visual symptoms"
+          ],
+          "answer": 1,
+          "explanation": "Australian (NHMRC-endorsed) guidelines recommend screening every **2 years** for people with diabetes and no retinopathy, but **every year** for those at higher risk, which explicitly includes **Aboriginal and Torres Strait Islander people**, as well as those with long duration, poor glycaemic, blood pressure or lipid control.\n\nFirst Nations Australians have higher rates of diabetes, earlier onset and more retinopathy, with poorer access to specialist services. Retinal photography in primary care and community-controlled health services is an effective way to screen.\n\nWaiting for symptoms is never appropriate because retinopathy is usually silent until macular oedema or haemorrhage.",
+          "whyWrong": [
+            "Three-monthly review is for established retinopathy under specialist care, not a normal screen.",
+            "",
+            "Two-yearly screening applies to lower-risk non-Indigenous patients without retinopathy.",
+            "Five years is far too long for anyone with diabetes.",
+            "Retinopathy is asymptomatic until late; waiting for symptoms risks preventable blindness."
+          ],
+          "tags": [
+            "diabetic retinopathy",
+            "screening",
+            "first nations"
+          ],
+          "ausPearl": "Retinal photography by GPs and Aboriginal health services attracts Medicare rebates, making screening possible in remote areas without an optometrist."
+        },
+        {
+          "id": "ophthalmology--chronic-eye-disease--q2",
+          "discipline": "adult-surgery",
+          "topic": "ophthalmology",
+          "difficulty": "core",
+          "stem": "A public health registrar visits a remote community in the Northern Territory. Several children have chronic red, sticky eyes, and on eversion of the upper eyelids there are multiple follicles. Two elderly women have in-turned eyelashes rubbing on scarred corneas.\n\nWhich element of the WHO control strategy for this condition involves a medication?",
+          "options": [
+            "Topical chloramphenicol ointment to affected children",
+            "Oral doxycycline to affected adults",
+            "Topical corticosteroid drops to all affected eyes",
+            "Single-dose oral azithromycin to the community or affected households",
+            "Intramuscular benzathine penicillin to household contacts"
+          ],
+          "answer": 3,
+          "explanation": "The picture is **trachoma**: follicles on the upper tarsal conjunctiva in children (active inflammation) and **trichiasis** with corneal scarring in older adults (the blinding end-stage). It is caused by repeated ocular *Chlamydia trachomatis* infection spread in crowded settings with limited water, and remains endemic in some remote Aboriginal communities.\n\nControl follows the WHO **SAFE** strategy: **S**urgery for trichiasis, **A**ntibiotics with single-dose oral **azithromycin** (community or household treatment depending on prevalence), **F**acial cleanliness and **E**nvironmental improvement. Azithromycin is used because a single supervised dose clears infection and is practical to give at scale.",
+          "whyWrong": [
+            "Topical treatment is impractical at community scale and less effective than oral azithromycin.",
+            "Doxycycline is not the SAFE strategy antibiotic and is unsuitable for young children.",
+            "Steroids do not treat chlamydial infection and risk complications.",
+            "",
+            "Benzathine penicillin is for rheumatic fever prophylaxis and syphilis, not chlamydia."
+          ],
+          "tags": [
+            "trachoma",
+            "safe strategy",
+            "public health"
+          ]
+        },
+        {
+          "id": "ophthalmology--chronic-eye-disease--q3",
+          "discipline": "adult-surgery",
+          "topic": "ophthalmology",
+          "difficulty": "exam",
+          "stem": "A 69-year-old man with type 2 diabetes for 15 years is referred by his optometrist in Geelong. He has no visual symptoms. Visual acuity is 6/9 in both eyes. Dilated fundoscopy of the right eye shows scattered dot and blot haemorrhages, hard exudates away from the macula, and a fine network of new vessels on the optic disc.\n\nWhat is the most appropriate management of his right eye?",
+          "options": [
+            "Tighten glycaemic control and repeat retinal screening in 12 months",
+            "Start oral fenofibrate and review in 6 months",
+            "Refer urgently to an ophthalmologist for panretinal laser photocoagulation or anti-VEGF therapy",
+            "Arrange routine cataract assessment",
+            "Refer to a low-vision service"
+          ],
+          "answer": 2,
+          "explanation": "**New vessels on the optic disc** define **proliferative diabetic retinopathy**, the stage at which ischaemic retina is releasing VEGF. These fragile vessels can bleed into the vitreous or contract and cause tractional retinal detachment, so he is at high risk of sudden severe visual loss despite having **no symptoms and good acuity**.\n\nHe needs **urgent ophthalmology referral** for **panretinal photocoagulation** (which ablates ischaemic peripheral retina and reduces VEGF drive) and/or intravitreal anti-VEGF injections.\n\nGlucose, blood pressure and lipid control remain important but are not sufficient on their own once new vessels appear.",
+          "whyWrong": [
+            "Systemic control alone is inadequate and 12 months is far too long with proliferative disease.",
+            "Fenofibrate may slow progression but does not treat established new vessels.",
+            "",
+            "The fundal findings are retinopathy, not cataract.",
+            "His vision is currently good; low-vision services are for irreversible loss."
+          ],
+          "tags": [
+            "diabetic retinopathy",
+            "proliferative",
+            "referral"
+          ]
+        }
+      ]
+    }
+  ]
+}

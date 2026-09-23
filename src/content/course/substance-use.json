@@ -1,0 +1,923 @@
+{
+  "topic": "substance-use",
+  "intro": "Alcohol, tobacco and other drugs cause a large share of preventable illness and death in Australia, and the AMC tests them from every angle: screening and brief intervention in general practice, withdrawal and Wernicke encephalopathy on the wards, opioid overdose and naloxone, methamphetamine in the ED, and smoking and vaping cessation. Australia's approach is built on harm minimisation, so know the national guidelines, the medicines and the services.",
+  "lessons": [
+    {
+      "id": "substance-use--alcohol-use",
+      "title": "Alcohol: guidelines, screening and treatment",
+      "minutes": 16,
+      "objectives": [
+        "Apply the NHMRC alcohol guidelines and count standard drinks",
+        "Screen with AUDIT or AUDIT-C and deliver a brief intervention",
+        "Diagnose alcohol use disorder and recognise its medical complications",
+        "Choose relapse-prevention medicines: acamprosate, naltrexone and disulfiram"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Alcohol in Australia",
+          "body": "Alcohol is the most commonly used drug in Australia and one of the leading preventable causes of disease burden: liver disease, cancers (mouth, throat, oesophagus, breast, bowel, liver), injuries, road crashes, family violence, and **fetal alcohol spectrum disorder (FASD)**.\n\n**NHMRC Australian guidelines to reduce health risks from drinking alcohol (2020):**\n- Healthy adults: **no more than 10 standard drinks a week and no more than 4 on any one day**.\n- **Under 18s:** no alcohol.\n- **Pregnant, planning pregnancy or breastfeeding:** no alcohol is safest.\n\n**A standard drink contains 10 g of alcohol.** Roughly: a middy (285 mL) of full-strength beer, 100 mL of wine, or a 30 mL nip of spirits. Wine is often poured in 150 mL glasses (about 1.5 standard drinks), and a bottle of wine is around 7-8 standard drinks. Australian labels must state the number of standard drinks.\n\n**Driving:** blood alcohol limit is 0.05 for fully licensed drivers and zero for learner and provisional drivers and many professional drivers (varies by state)."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "How alcohol harms",
+          "body": "- **Acute:** alcohol enhances GABA-A and inhibits NMDA glutamate receptors, causing sedation, disinhibition, ataxia and respiratory depression at high levels.\n- **Tolerance and dependence:** chronic exposure down-regulates GABA-A and up-regulates NMDA receptors. When alcohol is removed, the brain is left in a hyperexcitable state: **withdrawal** (next lesson).\n- **Liver:** metabolism by alcohol dehydrogenase generates NADH and acetaldehyde, leading to fatty liver, alcoholic hepatitis, then cirrhosis. **GGT** and **MCV** rise with heavy drinking; AST typically exceeds ALT (ratio above 2 suggests alcohol).\n- **Nutrition:** poor intake and impaired absorption cause **thiamine deficiency** (Wernicke-Korsakoff), folate deficiency, and low magnesium, potassium and phosphate.\n- **Other organs:** pancreatitis, cardiomyopathy, atrial fibrillation (\"holiday heart\"), hypertension, peripheral neuropathy, cerebellar degeneration, gastritis, testicular atrophy, and cancer via acetaldehyde."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Screening and diagnosis",
+          "body": "**Screen everyone** (RACGP Red Book recommends asking adults about alcohol regularly). Tools:\n- **AUDIT** (10 questions, score 0-40): **8 or more** indicates hazardous or harmful drinking; **20 or more** suggests possible dependence.\n- **AUDIT-C** (first 3 AUDIT questions on quantity and frequency) is a quick screen; a positive result leads to the full AUDIT or a detailed history.\n\n**Alcohol use disorder (DSM-5):** a problematic pattern with 2 or more of 11 criteria over 12 months, grouped as impaired control (using more than intended, unable to cut down, time spent, craving), social impairment, risky use, and pharmacological criteria (**tolerance, withdrawal**). 2-3 criteria mild, 4-5 moderate, 6 or more severe.\n\n**Clues on history and examination:** frequent injuries, poor control of hypertension, reflux, insomnia, depression and anxiety, relationship or work problems, drink-driving charges; **signs** of chronic liver disease (spider naevi, palmar erythema, gynaecomastia, ascites), tremor, parotid enlargement, Dupuytren contracture, peripheral neuropathy.\n\n**Tests:** GGT, MCV (macrocytosis), LFTs (AST more than ALT), and **carbohydrate-deficient transferrin (CDT)** in some settings; FBC (thrombocytopenia), INR and albumin for liver function; lipase if abdominal pain. These support but do not replace history."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Interpreting the clues and special groups",
+          "body": "**Raised GGT or macrocytosis are not specific.** Other causes of a raised GGT include fatty liver from obesity and diabetes, enzyme-inducing drugs (phenytoin, carbamazepine) and cholestasis. Macrocytosis also occurs with B12 or folate deficiency, hypothyroidism, liver disease from other causes, and drugs such as methotrexate and hydroxyurea. Use tests to support a conversation, not to \"catch\" someone.\n\n**Groups needing particular care:**\n- **Young people:** binge drinking, injury and assault; no alcohol under 18 is safest. Secondary supply laws (supplying alcohol to minors in private homes without parental consent) apply in most states.\n- **Pregnancy:** alcohol crosses the placenta; FASD causes growth restriction, facial features (smooth philtrum, thin upper lip, short palpebral fissures) and lifelong neurodevelopmental problems. Screen with AUDIT-C at antenatal visits.\n- **Older people:** lower tolerance, falls, interactions with sedatives and anticoagulants, and alcohol-related cognitive impairment.\n- **Aboriginal and Torres Strait Islander people:** fewer drink than non-Indigenous Australians, but those who drink are more likely to drink at risky levels; community-controlled services and culturally safe care matter."
+        },
+        {
+          "kind": "management",
+          "heading": "Brief intervention and treatment",
+          "body": "**Brief intervention (5-10 minutes in general practice)**, often using the **FRAMES** approach:\n- **F**eedback on personal risk (AUDIT score, blood results)\n- **R**esponsibility: the choice is theirs\n- **A**dvice to cut down clearly\n- **M**enu of options (drink-free days, low-alcohol drinks, alternate with water)\n- **E**mpathy\n- **S**elf-efficacy: encourage confidence in change\n\n**Motivational interviewing** matches the stage of change (pre-contemplation, contemplation, preparation, action, maintenance, relapse). Brief interventions reduce drinking in people with hazardous use.\n\n**Alcohol use disorder:**\n- Plan **withdrawal management** if dependent (home, outpatient or inpatient, depending on severity and risk).\n- **Psychosocial treatment**: counselling, CBT, residential rehabilitation, peer support (SMART Recovery, Alcoholics Anonymous), family involvement. Services such as the National Alcohol and Other Drug Hotline (1800 250 015) and state drug and alcohol services help.\n- **Relapse-prevention medicines** (all PBS-subsidised for alcohol dependence in Australia, with conditions):\n\n| Drug | How it works | Key cautions |\n|---|---|---|\n| **Acamprosate** | Modulates glutamate; reduces craving and relapse | Renally cleared: avoid in **significant renal impairment**; diarrhoea. Safe in liver disease. |\n| **Naltrexone** | Opioid antagonist; reduces the reward of drinking and heavy drinking days | **Contraindicated with opioid use** (precipitates withdrawal; blocks analgesia) and in acute hepatitis or liver failure |\n| **Disulfiram** | Blocks aldehyde dehydrogenase; drinking causes flushing, nausea, palpitations | Needs commitment and supervision; avoid in cardiac disease; interactions |\n\n- Treat co-existing depression and anxiety, which often improve after 2-4 weeks of abstinence.\n- **Thiamine** for anyone drinking heavily or malnourished."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Calculate standard drinks: 2 bottles of wine a week at about 7.5 standard drinks each is about 15 a week, above the NHMRC limit.\n- Man with raised GGT and MCV who \"drinks socially\": the next step is an **AUDIT** and a non-judgemental conversation, not a liver biopsy.\n- Choosing a relapse-prevention drug: patient on **methadone or codeine** → acamprosate (not naltrexone); patient with **renal failure** → naltrexone (not acamprosate).\n- Pregnant woman asking about \"one glass occasionally\": no alcohol is safest.\n- A patient in pre-contemplation: use motivational interviewing, not confrontation."
+        }
+      ],
+      "keyPoints": [
+        "NHMRC: no more than 10 standard drinks a week and 4 on any day; none for under 18s or in pregnancy.",
+        "A standard drink is 10 g of alcohol.",
+        "AUDIT 8 or more is hazardous or harmful; 20 or more suggests dependence; AUDIT-C is the quick screen.",
+        "Brief interventions (FRAMES, motivational interviewing) in general practice reduce drinking.",
+        "Acamprosate: avoid in renal impairment. Naltrexone: never with opioids, avoid in liver failure.",
+        "Raised GGT, macrocytosis and AST more than ALT suggest heavy drinking.",
+        "Treat co-existing depression and anxiety, and give thiamine to heavy drinkers."
+      ],
+      "redFlags": [
+        "Drinking in pregnancy (fetal alcohol spectrum disorder)",
+        "Signs of decompensated liver disease: jaundice, ascites, encephalopathy, bleeding",
+        "Morning drinking to relieve tremor (physiological dependence and withdrawal risk)",
+        "Drink-driving, family violence or children at risk",
+        "Suicidal ideation with heavy drinking"
+      ],
+      "contrast": [
+        {
+          "aspect": "Low-risk drinking limits",
+          "india": "Often vague advice to cut down; units vary.",
+          "australia": "NHMRC 2020: 10 standard drinks a week, 4 in a day; a standard drink is 10 g and labels state standard drinks."
+        },
+        {
+          "aspect": "Relapse-prevention drugs",
+          "india": "Disulfiram widely used; acamprosate and naltrexone less accessible.",
+          "australia": "Acamprosate and naltrexone are first-choice PBS-subsidised options; disulfiram used selectively."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "NHMRC low-risk alcohol limit for healthy adults?",
+          "back": "No more than 10 standard drinks a week and no more than 4 on any one day."
+        },
+        {
+          "front": "Grams of alcohol in an Australian standard drink?",
+          "back": "10 g."
+        },
+        {
+          "front": "AUDIT score suggesting hazardous or harmful drinking? Possible dependence?",
+          "back": "8 or more; 20 or more."
+        },
+        {
+          "front": "Relapse-prevention drug to avoid in someone taking opioids?",
+          "back": "Naltrexone (opioid antagonist)."
+        },
+        {
+          "front": "Relapse-prevention drug to avoid in significant renal impairment?",
+          "back": "Acamprosate (renally cleared)."
+        },
+        {
+          "front": "Liver enzyme pattern typical of alcohol-related liver disease?",
+          "back": "AST more than ALT (ratio often above 2), with raised GGT."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "substance-use--alcohol-use--q1",
+          "discipline": "mental-health",
+          "topic": "substance-use",
+          "difficulty": "foundation",
+          "stem": "A 46-year-old man attends his GP for a check-up. He drinks 2 full-strength beers most weeknights and a bottle of wine at dinner parties on both Friday and Saturday. His BP is 146/92. GGT is mildly raised.\n\nWhich one of the following statements about his drinking is correct according to the NHMRC guidelines?",
+          "options": [
+            "He is within guidelines because he never drinks spirits",
+            "He exceeds the weekly limit but not the daily limit",
+            "He is within the weekly limit but exceeds the daily limit",
+            "He exceeds both the weekly limit of 10 standard drinks and the daily limit of 4",
+            "Guidelines do not apply because he has no liver disease"
+          ],
+          "answer": 3,
+          "explanation": "A full-strength beer (375 mL can or stubby) is roughly 1.4-1.5 standard drinks; a bottle of wine is about 7-8 standard drinks. His weeknight drinking is roughly 14 standard drinks over 5 nights, plus about 15 on the weekend: around **29 standard drinks a week**, and about **7-8 on each weekend day**.\n\nThe NHMRC recommends **no more than 10 standard drinks a week and no more than 4 on any one day** (a standard drink is 10 g alcohol). He exceeds both, and his raised BP and GGT are likely alcohol-related.\n\nNext: AUDIT, brief intervention with feedback linking alcohol to his BP, and follow-up.",
+          "whyWrong": [
+            "The type of drink does not matter; the grams of alcohol do.",
+            "At about 7-8 standard drinks per weekend day he also exceeds the daily limit.",
+            "At roughly 29 standard drinks a week he is well above the weekly limit.",
+            "",
+            "The guidelines aim to prevent harm and apply to all healthy adults."
+          ],
+          "ausPearl": "Australian alcohol labels must show the number of standard drinks in the container.",
+          "tags": [
+            "alcohol",
+            "nhmrc",
+            "standard drinks"
+          ]
+        },
+        {
+          "id": "substance-use--alcohol-use--q2",
+          "discipline": "mental-health",
+          "topic": "substance-use",
+          "difficulty": "core",
+          "stem": "A 52-year-old woman with alcohol dependence has completed inpatient withdrawal and wants medication to help her stay abstinent. She takes methadone 60 mg daily in an opioid treatment program for past heroin dependence. eGFR is 88 mL/min/1.73m2 and LFTs are mildly abnormal with normal bilirubin and INR.\n\nWhich one of the following is the most appropriate medication?",
+          "options": [
+            "Naltrexone",
+            "Acamprosate",
+            "Disulfiram",
+            "Diazepam long term",
+            "Baclofen as first line"
+          ],
+          "answer": 1,
+          "explanation": "**Acamprosate** reduces craving and relapse after withdrawal. It is renally cleared, not metabolised by the liver, so it is suitable with her **normal kidney function** and mild liver abnormalities, and it has **no opioid interaction**.\n\n**Naltrexone** is an opioid antagonist: in someone on **methadone** it would precipitate opioid withdrawal and block methadone's effect, so it is contraindicated. Disulfiram requires high motivation and supervision and has hepatotoxicity and cardiac risks. Long-term benzodiazepines are harmful in alcohol dependence. Baclofen is a specialist option, not first line.",
+          "whyWrong": [
+            "Naltrexone would precipitate opioid withdrawal in a patient on methadone.",
+            "",
+            "Disulfiram is second line, needs supervision and can be hepatotoxic.",
+            "Long-term benzodiazepines cause dependence and dangerous interactions with alcohol and methadone.",
+            "Baclofen is a specialist, off-label option, not first line."
+          ],
+          "tags": [
+            "alcohol",
+            "acamprosate",
+            "naltrexone"
+          ]
+        },
+        {
+          "id": "substance-use--alcohol-use--q3",
+          "discipline": "mental-health",
+          "topic": "substance-use",
+          "difficulty": "exam",
+          "stem": "A 34-year-old man sees his GP for a medical certificate after a work injury. On questioning he drinks 6-8 beers most nights. His AUDIT score is 17. He says he \"doesn't have a problem\" and isn't interested in cutting down, though he admits his wife complains about his drinking.\n\nWhich one of the following is the most appropriate approach?",
+          "options": [
+            "Tell him firmly that he is an alcoholic and must stop drinking",
+            "Refer him to residential rehabilitation",
+            "Start naltrexone",
+            "Document and do not raise the issue again unless he asks",
+            "Give personalised feedback on his risk and use a motivational interviewing approach"
+          ],
+          "answer": 4,
+          "explanation": "An AUDIT of 17 indicates **harmful drinking** (8 or more hazardous/harmful; 20 or more possible dependence). He is in the **pre-contemplation** stage of change.\n\nThe evidence-based approach is a **brief intervention with personalised feedback** (AUDIT score, links to his injury and relationship) using a **motivational interviewing** style: non-judgemental, eliciting his own reasons for change, respecting his autonomy, and offering follow-up. Even brief interventions in general practice reduce drinking.\n\nConfrontation increases resistance, and medication or rehabilitation is premature when he does not want to change.",
+          "whyWrong": [
+            "Confrontational labelling increases resistance and is not effective.",
+            "Residential rehabilitation is for severe dependence in someone ready to engage.",
+            "Medication is offered to people motivated to reduce or stop.",
+            "Missing the chance to intervene wastes an effective opportunity.",
+            ""
+          ],
+          "tags": [
+            "alcohol",
+            "brief intervention",
+            "motivational interviewing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "substance-use--alcohol-withdrawal-wernicke",
+      "title": "Alcohol withdrawal and Wernicke encephalopathy",
+      "minutes": 16,
+      "objectives": [
+        "Predict and recognise alcohol withdrawal, seizures and delirium tremens by timeline",
+        "Use a withdrawal scale to guide symptom-triggered diazepam",
+        "Give thiamine correctly to prevent and treat Wernicke encephalopathy",
+        "Identify patients who need inpatient withdrawal management"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why withdrawal matters",
+          "body": "Alcohol withdrawal is common in Australian hospitals: think of it in **every inpatient 1-3 days after admission** who becomes tremulous, sweaty, anxious, agitated or confused, especially after surgery or trauma. Severe withdrawal (seizures, delirium tremens) is potentially fatal, and the underlying nutritional deficiency can cause permanent brain damage through **Wernicke-Korsakoff syndrome**.\n\nTake an alcohol history from every patient on admission, including quantity, last drink and previous withdrawal or seizures, which is the best predictor of severe withdrawal."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Mechanism",
+          "body": "Chronic alcohol use enhances inhibitory GABA-A signalling and suppresses excitatory NMDA signalling. The brain adapts by **reducing GABA-A** and **increasing NMDA** receptor activity. When alcohol stops, the balance swings to **excitation and sympathetic overactivity**: tremor, sweating, tachycardia, anxiety, seizures and eventually delirium. **Benzodiazepines** work because they act at the same GABA-A receptor, substituting for alcohol, and are then tapered.\n\n**Thiamine** (vitamin B1) is a cofactor for enzymes in glucose metabolism (pyruvate dehydrogenase, transketolase). Heavy drinkers are often deficient. A glucose load increases thiamine demand and can precipitate **Wernicke encephalopathy**, which is why **thiamine is given before or with glucose**."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "The withdrawal timeline",
+          "body": "| Time since last drink | Features |\n|---|---|\n| **6-24 hours** | Tremor, sweating, anxiety, nausea, vomiting, tachycardia, hypertension, insomnia |\n| **12-48 hours** | **Withdrawal seizures** (generalised tonic-clonic), alcoholic hallucinosis (often visual or auditory, with clear consciousness) |\n| **48-72 hours (up to about 5 days)** | **Delirium tremens**: confusion, disorientation, visual and tactile hallucinations, marked autonomic instability, fever; mortality if untreated |\n\nWithdrawal usually resolves within about 5-7 days. Complicating factors: electrolyte disturbance (low potassium, magnesium, phosphate), hypoglycaemia, infection (aspiration pneumonia), head injury, GI bleeding and liver failure.\n\n**Wernicke encephalopathy** (classic triad, often incomplete, so do not wait for all three):\n- **Confusion**\n- **Ataxia** (wide-based gait)\n- **Ophthalmoplegia** (nystagmus, lateral rectus palsy)\n\nOnly a minority show all three. Treat on suspicion in anyone at risk (alcohol dependence, malnutrition, hyperemesis, bariatric surgery). Untreated, it progresses to **Korsakoff syndrome**: profound anterograde amnesia with **confabulation**, largely irreversible."
+        },
+        {
+          "kind": "investigations",
+          "heading": "What to check",
+          "body": "- **Withdrawal scale** regularly: the **Alcohol Withdrawal Scale (AWS)** or **CIWA-Ar** is used in Australian hospitals (local choice). Scores guide diazepam dosing. Scales are unreliable when the patient cannot communicate or has a co-existing illness causing similar signs.\n- **Bloods:** glucose (bedside), UEC, **magnesium, phosphate, potassium**, LFTs, lipase, FBC, INR, blood alcohol level (withdrawal can begin while levels are still raised).\n- Look for complications: CXR for aspiration, CT head if head injury, new focal signs, or seizures that are atypical, focal or prolonged.\n- In Wernicke, diagnosis is clinical; MRI can support it but must not delay thiamine."
+        },
+        {
+          "kind": "differentials",
+          "heading": "The confused drinker",
+          "body": "Confusion in a heavy drinker has several causes, often co-existing. Treat the dangerous ones empirically (thiamine, glucose) while you look.\n\n| Cause | Discriminating clue |\n|---|---|\n| **Delirium tremens** | 2-3 days after the last drink, marked autonomic overactivity, tremor, visual/tactile hallucinations |\n| **Wernicke encephalopathy** | Ataxia, nystagmus or ophthalmoplegia; may occur at any time, including during intoxication |\n| **Hepatic encephalopathy** | Known cirrhosis, asterixis, jaundice, constipation or GI bleed as precipitant; no marked sympathetic overactivity |\n| **Hypoglycaemia** | Bedside glucose low; alcohol inhibits gluconeogenesis |\n| **Subdural haematoma** | Falls, fluctuating consciousness, focal signs; low threshold for CT head |\n| **Intoxication** | High blood alcohol, improves as levels fall |\n| **Sepsis or aspiration pneumonia** | Fever, hypoxia, focal chest signs, raised inflammatory markers |\n| **Post-ictal state** | Recent witnessed seizure, gradual recovery |\n| **Other intoxicants** | Benzodiazepines, GHB, opioids, methanol (visual loss, severe metabolic acidosis) |"
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment",
+          "body": "**Setting:** outpatient or home withdrawal may be suitable for mild predicted withdrawal with a supportive carer. **Inpatient** management is needed with a **history of withdrawal seizures or delirium tremens**, severe dependence, significant medical or psychiatric illness, pregnancy, poly-drug use (especially benzodiazepines), or no safe support.\n\n**Benzodiazepines (first line):**\n- **Diazepam** orally, **symptom-triggered** according to the withdrawal scale score (a common regimen is 10-20 mg at intervals when the score exceeds a threshold; follow the local protocol and eTG), with a maximum daily dose and review.\n- Loading or fixed-schedule regimens are used for people with a history of seizures or DTs.\n- In **severe liver disease or elderly** patients, a shorter-acting benzodiazepine without active metabolites (**oxazepam** or lorazepam) avoids accumulation.\n- Delirium tremens: high-intensity setting, IV benzodiazepine titration, fluids, electrolyte correction; antipsychotics are adjuncts only for hallucinations or agitation, as they lower the seizure threshold.\n\n**Thiamine:**\n- Give **thiamine to all** patients withdrawing from alcohol, parenterally in those at high risk, and **before glucose**.\n- **Suspected Wernicke encephalopathy: high-dose IV thiamine** (eTG recommends 500 mg IV three times daily for 3-5 days, then lower-dose continuation; check current eTG).\n- Correct **magnesium** (a cofactor that thiamine needs to work).\n\n**Supportive:** fluids, electrolytes (watch for refeeding syndrome with low phosphate), nutrition, quiet environment, falls precautions.\n\n**After withdrawal:** withdrawal alone does not treat dependence. Arrange relapse prevention (acamprosate or naltrexone), counselling and follow-up."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Post-operative day 2, tremor, sweating, agitation, hallucinations: alcohol withdrawal; **diazepam guided by a withdrawal scale**.\n- Heavy drinker with confusion and unsteady gait: **IV thiamine immediately**, before glucose, even without eye signs.\n- Hypoglycaemic, malnourished drinker: give thiamine with or before dextrose; do not delay treating hypoglycaemia.\n- Liver cirrhosis with withdrawal: **oxazepam** rather than diazepam.\n- Seizure 24 hours after the last drink with normal CT: withdrawal seizure; benzodiazepine, not long-term antiepileptics.\n- Memory loss with confabulation after years of drinking: **Korsakoff**.\n- Patient wants to stop drinking at home and had a withdrawal seizure last year: this needs **inpatient** (or closely supervised) withdrawal, not unsupervised home detox.\n- Confused drinker with asterixis and known cirrhosis: think hepatic encephalopathy too, and remember benzodiazepines can worsen it."
+        }
+      ],
+      "keyPoints": [
+        "Withdrawal: tremor 6-24 h, seizures 12-48 h, delirium tremens 48-72 h after the last drink.",
+        "Monitor with a withdrawal scale (AWS or CIWA-Ar) and give symptom-triggered diazepam.",
+        "Use oxazepam or lorazepam in severe liver disease or frail older patients.",
+        "Give thiamine before glucose to prevent Wernicke encephalopathy.",
+        "Wernicke triad: confusion, ataxia, ophthalmoplegia; often incomplete; treat with high-dose IV thiamine.",
+        "Correct magnesium, phosphate and potassium; watch for refeeding syndrome.",
+        "Past withdrawal seizures or DTs predict severe withdrawal and need inpatient care."
+      ],
+      "redFlags": [
+        "Delirium tremens: confusion, hallucinations, fever and autonomic instability",
+        "Withdrawal seizures or a history of them",
+        "Any confusion, ataxia or eye signs in a heavy drinker (Wernicke)",
+        "Head injury, GI bleeding or sepsis complicating withdrawal",
+        "Combined alcohol and benzodiazepine or GHB dependence"
+      ],
+      "contrast": [
+        {
+          "aspect": "Benzodiazepine regimen",
+          "india": "Fixed-dose chlordiazepoxide or lorazepam regimens common.",
+          "australia": "Symptom-triggered diazepam guided by a withdrawal scale (AWS or CIWA-Ar); oxazepam in liver disease."
+        },
+        {
+          "aspect": "Thiamine",
+          "india": "Oral or low-dose parenteral vitamin B complex often used.",
+          "australia": "Parenteral thiamine for at-risk patients, high-dose IV for suspected Wernicke, always before glucose."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Peak time for alcohol withdrawal seizures?",
+          "back": "12-48 hours after the last drink."
+        },
+        {
+          "front": "When does delirium tremens typically appear?",
+          "back": "48-72 hours after the last drink (can be later)."
+        },
+        {
+          "front": "Wernicke triad?",
+          "back": "Confusion, ataxia, ophthalmoplegia (often incomplete)."
+        },
+        {
+          "front": "Benzodiazepine preferred in alcohol withdrawal with severe liver disease?",
+          "back": "Oxazepam (or lorazepam)."
+        },
+        {
+          "front": "Why give thiamine before glucose?",
+          "back": "Glucose metabolism consumes thiamine and can precipitate Wernicke encephalopathy."
+        },
+        {
+          "front": "Electrolyte needed for thiamine to work, often low in drinkers?",
+          "back": "Magnesium."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "substance-use--alcohol-withdrawal-wernicke--q1",
+          "discipline": "mental-health",
+          "topic": "substance-use",
+          "difficulty": "foundation",
+          "stem": "A 58-year-old man is 2 days post-operative after an open reduction of a fractured ankle. He has become anxious, tremulous and sweaty, and is picking at the bedsheets. HR 118, BP 168/98, temperature 37.9 degrees C. His wife says he drinks about a bottle of wine and several beers daily.\n\nWhich one of the following is the most appropriate initial treatment, alongside thiamine?",
+          "options": [
+            "Haloperidol",
+            "Diazepam guided by an alcohol withdrawal scale",
+            "Morphine",
+            "Phenytoin",
+            "Chlorpromazine"
+          ],
+          "answer": 1,
+          "explanation": "Tremor, sweating, anxiety, tachycardia, hypertension and early confusion **about 48 hours after admission** (and therefore after his last drink) in a heavy drinker is **alcohol withdrawal**, progressing towards delirium tremens.\n\nFirst-line treatment is a **benzodiazepine**, typically **diazepam**, dosed according to a validated **withdrawal scale** (AWS or CIWA-Ar) per local protocol. Give **parenteral thiamine** (before any glucose), correct electrolytes and look for complications such as infection.\n\nAntipsychotics lower the seizure threshold and are adjuncts only; phenytoin does not prevent alcohol withdrawal seizures.",
+          "whyWrong": [
+            "Antipsychotics do not treat withdrawal and lower the seizure threshold; adjunct only.",
+            "",
+            "Opioids do not treat alcohol withdrawal and add respiratory depression.",
+            "Phenytoin is ineffective for alcohol withdrawal seizures.",
+            "Chlorpromazine lowers the seizure threshold and causes hypotension."
+          ],
+          "tags": [
+            "alcohol withdrawal",
+            "diazepam",
+            "postoperative"
+          ]
+        },
+        {
+          "id": "substance-use--alcohol-withdrawal-wernicke--q2",
+          "discipline": "mental-health",
+          "topic": "substance-use",
+          "difficulty": "core",
+          "stem": "A 49-year-old homeless man is brought to the ED confused and unsteady. He smells of alcohol. He has a wide-based gait and horizontal nystagmus. Capillary glucose is 2.8 mmol/L. Temperature 36.4 degrees C, HR 96, BP 118/74.\n\nWhich one of the following is the most appropriate immediate management?",
+          "options": [
+            "IV 50% glucose, then thiamine the next day",
+            "Oral thiamine 100 mg daily",
+            "IV thiamine given with or immediately before IV glucose",
+            "CT brain before any treatment",
+            "IV diazepam"
+          ],
+          "answer": 2,
+          "explanation": "Confusion, **ataxia** and **nystagmus** in a malnourished heavy drinker is **Wernicke encephalopathy** until proven otherwise. He is also **hypoglycaemic**, which must be treated promptly.\n\nGlucose metabolism depletes thiamine, so **thiamine is given IV at the same time as or just before glucose** (without delaying glucose). Suspected Wernicke needs **high-dose IV thiamine** (eTG: 500 mg IV three times daily for 3-5 days), with magnesium correction.\n\nOral thiamine is poorly absorbed in heavy drinkers, and imaging should not delay treatment.",
+          "whyWrong": [
+            "Giving glucose and delaying thiamine can precipitate or worsen Wernicke encephalopathy.",
+            "Oral thiamine is poorly absorbed and far too low a dose for suspected Wernicke.",
+            "",
+            "Treatment of hypoglycaemia and Wernicke must not wait for imaging.",
+            "There are no signs of alcohol withdrawal requiring benzodiazepines at this point."
+          ],
+          "tags": [
+            "wernicke",
+            "thiamine",
+            "hypoglycaemia"
+          ]
+        },
+        {
+          "id": "substance-use--alcohol-withdrawal-wernicke--q3",
+          "discipline": "mental-health",
+          "topic": "substance-use",
+          "difficulty": "exam",
+          "stem": "A 62-year-old woman with alcohol-related cirrhosis (Child-Pugh C, ascites, INR 1.9, albumin 24 g/L) is admitted with a spontaneous bacterial peritonitis. She last drank 18 hours ago and is developing tremor and anxiety. Her withdrawal scale score is rising.\n\nWhich one of the following is the most appropriate benzodiazepine?",
+          "options": [
+            "Diazepam",
+            "Oxazepam",
+            "Clonazepam",
+            "Alprazolam",
+            "Midazolam infusion"
+          ],
+          "answer": 1,
+          "explanation": "She is entering **alcohol withdrawal** and needs a benzodiazepine, but has **decompensated cirrhosis**.\n\n**Diazepam** is metabolised by the liver to long-acting active metabolites, which accumulate in liver failure and can precipitate **hepatic encephalopathy** and over-sedation. **Oxazepam** (or lorazepam) undergoes simple glucuronidation without active metabolites, so it is preferred in **severe liver disease** and frail older people, using symptom-triggered dosing with close monitoring.\n\nGive thiamine, treat the SBP, and watch for encephalopathy, which can mimic or complicate withdrawal.",
+          "whyWrong": [
+            "Diazepam and its active metabolites accumulate in liver failure.",
+            "",
+            "Clonazepam is long-acting and not used for alcohol withdrawal.",
+            "Alprazolam is short-acting, Schedule 8 and not used for withdrawal.",
+            "An infusion is reserved for refractory delirium tremens in ICU, not initial management."
+          ],
+          "tags": [
+            "alcohol withdrawal",
+            "cirrhosis",
+            "oxazepam"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "substance-use--tobacco-and-vaping",
+      "title": "Smoking, vaping and cessation",
+      "minutes": 14,
+      "objectives": [
+        "Use the Ask, Advise, Help approach and assess nicotine dependence",
+        "Prescribe combination NRT or varenicline with behavioural support",
+        "Explain Australia's nicotine vaping regulation",
+        "Identify groups needing special care: pregnancy, mental illness and Aboriginal and Torres Strait Islander people"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Tobacco in Australia",
+          "body": "Tobacco smoking remains the **leading preventable cause of death and disease** in Australia, although daily smoking in adults has fallen to around 10% or less. Rates are much higher among Aboriginal and Torres Strait Islander people, people with **severe mental illness**, people in prison, those with other substance use, and people in lower socioeconomic groups. Up to two in three long-term smokers die from a smoking-related disease.\n\nAustralia has strong tobacco control: plain packaging, high excise, smoke-free laws, and graphic warnings.\n\n**Vaping:** since 2024, **nicotine vapes are regulated as therapeutic goods** and may only be **legally sold through pharmacies**; recreational (non-therapeutic) vapes are banned from sale, import and supply. Access arrangements (for example whether a prescription is required and age limits) have changed recently, so check current TGA rules. Youth vaping is a major public health concern."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Nicotine dependence",
+          "body": "Nicotine binds **alpha-4 beta-2 nicotinic acetylcholine receptors** in the ventral tegmental area, releasing **dopamine** in the nucleus accumbens (reward). It reaches the brain within seconds of inhalation, which makes smoking highly reinforcing. Chronic use up-regulates receptors, so abstinence causes **withdrawal**: irritability, anxiety, low mood, poor concentration, restlessness, increased appetite and craving, peaking in the first week and settling over 2-4 weeks.\n\nHarm comes mainly from the **smoke** (carbon monoxide, tar, carcinogens, oxidants), not nicotine, which is why NRT is safe even in cardiovascular disease.\n\n**Smoking and drug interactions:** polycyclic hydrocarbons in smoke **induce CYP1A2**. Stopping smoking can raise levels of **clozapine, olanzapine**, theophylline and warfarin (monitor), whereas NRT does not induce the enzyme."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Assessing the smoker",
+          "body": "**Ask** every patient about smoking and vaping status and record it (RACGP Red Book and the RACGP smoking cessation guideline).\n\n**Nicotine dependence** is suggested by:\n- **Time to first cigarette** of less than 30 minutes after waking (the most useful single question)\n- **Number of cigarettes** a day (more than 10)\n- Previous withdrawal symptoms on quitting\n\nThe Fagerstrom test or the Heaviness of Smoking Index formalises this.\n\nCalculate **pack-years** (packs per day x years smoked, where a pack is 20 cigarettes) to assess disease risk, including eligibility for the **National Lung Cancer Screening Program** (started July 2025 for people aged 50-70 with a significant smoking history; check the current criteria).\n\nAssess readiness to quit, previous attempts and what helped, and co-existing mental illness or substance use."
+        },
+        {
+          "kind": "application",
+          "heading": "Vaping: what to tell patients and parents",
+          "body": "**What vapes contain:** nicotine (often at high concentrations, sometimes undeclared in \"nicotine-free\" products), flavourings, solvents (propylene glycol, glycerol) and metals from the heating coil. Long-term effects are unknown.\n\n**Known harms:**\n- **Nicotine dependence**, which develops quickly in adolescents; young people who vape are more likely to take up smoking.\n- **Nicotine poisoning** in small children who swallow e-liquid (vomiting, seizures); call the Poisons Information Centre on 13 11 26.\n- Lung injury (EVALI, mostly linked to THC oils containing vitamin E acetate), throat irritation, and burns from exploding batteries.\n\n**Talking with young people:** ask non-judgementally, explain dependence, and help them quit with behavioural support (Quitline also supports people who vape). NRT can be considered for dependent adolescents under medical guidance.\n\n**Adults who smoke and ask about vaping:** first-line options (combination NRT, varenicline, Quitline) are recommended first. If these have failed, a therapeutic nicotine vape from a pharmacy is a reasonable second-line option, aiming to stop smoking completely and then taper vaping."
+        },
+        {
+          "kind": "management",
+          "heading": "Helping people quit",
+          "body": "**Ask, Advise, Help (AAH)**, the RACGP brief approach:\n- **Ask** and record smoking status.\n- **Advise** clearly and personally that quitting is the best thing for health.\n- **Help**: offer **pharmacotherapy plus behavioural support**, and refer to **Quitline (13 7848)**, which offers free callback counselling, including culturally tailored services for Aboriginal and Torres Strait Islander people.\n\n**First-line pharmacotherapy** (for nicotine-dependent smokers ready to quit):\n\n| Option | Notes |\n|---|---|\n| **Combination NRT** | A **long-acting patch** plus a **fast-acting form** (gum, lozenge, inhalator, mouth spray) for cravings. More effective than a single form. Safe in stable cardiovascular disease. PBS-subsidised patches. |\n| **Varenicline** | Partial agonist at alpha-4 beta-2 receptors: reduces craving and blunts the reward from smoking. Titrate over the first week while still smoking, set a quit date in week 2, **12-week course** (can extend). Nausea and vivid dreams are common; monitor mood. Safe in stable mental illness. PBS-subsidised with conditions. |\n| **Bupropion** | Second line; contraindicated with seizure risk and eating disorders. |\n\nCombining medication with behavioural support (Quitline, GP follow-up) roughly doubles to triples quit success compared with willpower alone.\n\n**Nicotine vaping products:** the RACGP positions them as a **second-line option** for people who have tried first-line therapy without success and still want to quit, with the goal of stopping both smoking and vaping. Dual use (smoking and vaping) offers little benefit.\n\n**Pregnancy:** smoking causes miscarriage, low birth weight, preterm birth, placental problems and SIDS. Counselling first; **NRT** can be used if counselling alone fails (intermittent forms preferred), as it is safer than smoking. Varenicline is not recommended in pregnancy.\n\n**Severe mental illness:** people want to quit as much as others and can succeed; use varenicline or combination NRT and **monitor clozapine and olanzapine levels** after quitting.\n\n**Relapse is normal**: most people take several attempts. Encourage re-trying."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Most effective strategy: **pharmacotherapy (combination NRT or varenicline) plus behavioural support** (Quitline 13 7848).\n- Patient after an MI asking about NRT: safe, far safer than continuing to smoke.\n- Patient on clozapine who quits: expect **rising clozapine levels**; reduce dose and monitor.\n- Teenager wanting to buy vapes at a service station: recreational vapes are illegal to sell; nicotine vapes are pharmacy-only (check current access rules).\n- Pregnant smoker: counselling first; NRT if needed; avoid varenicline and bupropion.\n- Time to first cigarette under 30 minutes: high dependence; recommend pharmacotherapy."
+        }
+      ],
+      "keyPoints": [
+        "Smoking is the leading preventable cause of death in Australia; record status for every patient.",
+        "Ask, Advise, Help: pharmacotherapy plus behavioural support and Quitline 13 7848.",
+        "Combination NRT (patch plus fast-acting) or varenicline are first line.",
+        "NRT is safe in stable cardiovascular disease and preferred to smoking in pregnancy if counselling fails.",
+        "Nicotine vapes are regulated medicines sold only through pharmacies; recreational vapes are banned.",
+        "Stopping smoking raises clozapine and olanzapine levels (CYP1A2).",
+        "Time to first cigarette under 30 minutes signals strong dependence."
+      ],
+      "redFlags": [
+        "Weight loss, haemoptysis or new cough in a long-term smoker (lung cancer)",
+        "Low mood or suicidal thoughts during varenicline treatment",
+        "Sedation or seizures in a patient on clozapine who has recently quit",
+        "Smoking in pregnancy"
+      ],
+      "contrast": [
+        {
+          "aspect": "E-cigarettes",
+          "india": "Production, sale and import of e-cigarettes are banned under national law.",
+          "australia": "Nicotine vapes are regulated therapeutic goods, pharmacy-only; recreational vapes banned."
+        },
+        {
+          "aspect": "Main tobacco problem",
+          "india": "Smokeless tobacco (gutka, khaini) and bidis are major concerns.",
+          "australia": "Manufactured cigarettes and youth vaping; high rates in Aboriginal and Torres Strait Islander people and people with mental illness."
+        },
+        {
+          "aspect": "Cessation support",
+          "india": "Quitline 1800-11-2356 and counselling; pharmacotherapy less commonly used.",
+          "australia": "PBS-subsidised NRT and varenicline, Quitline 13 7848, and GP brief interventions."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Quitline number in Australia?",
+          "back": "13 7848 (13 QUIT)."
+        },
+        {
+          "front": "First-line smoking cessation pharmacotherapy options?",
+          "back": "Combination NRT (patch plus fast-acting form) or varenicline."
+        },
+        {
+          "front": "Standard varenicline course length?",
+          "back": "12 weeks (can be extended in some people)."
+        },
+        {
+          "front": "Single most useful question to gauge nicotine dependence?",
+          "back": "Time to first cigarette after waking (under 30 minutes = high dependence)."
+        },
+        {
+          "front": "Which enzyme does smoking induce, affecting clozapine levels?",
+          "back": "CYP1A2."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "substance-use--tobacco-and-vaping--q1",
+          "discipline": "mental-health",
+          "topic": "substance-use",
+          "difficulty": "foundation",
+          "stem": "A 55-year-old man who had a myocardial infarction 3 months ago smokes 25 cigarettes a day and lights his first cigarette within 10 minutes of waking. He wants to quit but failed a \"cold turkey\" attempt last year. He asks whether nicotine patches are safe for his heart.\n\nWhich one of the following is the most appropriate advice?",
+          "options": [
+            "NRT is contraindicated after a myocardial infarction",
+            "Use a nicotine patch plus a fast-acting NRT form, with Quitline support",
+            "Cut down gradually without medication",
+            "Switch to recreational vapes from a tobacconist",
+            "Use a nicotine patch only on days he has cravings"
+          ],
+          "answer": 1,
+          "explanation": "He is **highly nicotine dependent** (25 a day, first cigarette within 30 minutes). The most effective approach is **pharmacotherapy plus behavioural support**. **Combination NRT** (a daily patch plus a fast-acting form such as gum, lozenge or spray for breakthrough cravings) is first line, as is varenicline.\n\nNRT is **safe in stable cardiovascular disease**: the harm from smoking comes from carbon monoxide, oxidants and other toxins in smoke, not nicotine, and NRT delivers lower, slower nicotine. Refer to **Quitline 13 7848** and follow up.",
+          "whyWrong": [
+            "NRT is safe in stable cardiovascular disease and much safer than continuing to smoke.",
+            "",
+            "Unassisted attempts have low success rates, especially with high dependence.",
+            "Recreational vapes are banned from sale; nicotine vapes are pharmacy-only and second line.",
+            "Intermittent patch use gives unsteady nicotine levels; patches are worn daily."
+          ],
+          "ausPearl": "Quitline 13 7848 offers free callback counselling, including Aboriginal and Torres Strait Islander counsellors.",
+          "tags": [
+            "smoking cessation",
+            "nrt",
+            "cardiovascular"
+          ]
+        },
+        {
+          "id": "substance-use--tobacco-and-vaping--q2",
+          "discipline": "mental-health",
+          "topic": "substance-use",
+          "difficulty": "core",
+          "stem": "A 40-year-old man with schizophrenia, stable on clozapine 400 mg daily, stops smoking abruptly on admission to a smoke-free medical ward for cellulitis. Four days later he is very drowsy, drooling, and has a brief generalised seizure.\n\nWhich one of the following is the most likely explanation?",
+          "options": [
+            "Nicotine withdrawal",
+            "Neuroleptic malignant syndrome",
+            "Relapse of schizophrenia",
+            "Raised clozapine levels after stopping smoking",
+            "Sepsis from cellulitis"
+          ],
+          "answer": 3,
+          "explanation": "Tobacco smoke **induces CYP1A2**, the main enzyme that metabolises clozapine. When a heavy smoker stops abruptly, CYP1A2 activity falls over days and **clozapine levels can rise substantially**, causing sedation, hypersalivation, hypotension and **seizures**.\n\nThis is why clozapine levels should be checked and the dose **reduced** when a patient stops smoking (and increased again if they restart). **Nicotine replacement does not induce CYP1A2**, so NRT does not prevent this interaction. Nicotine withdrawal causes irritability and craving, not seizures or sedation.",
+          "whyWrong": [
+            "Nicotine withdrawal causes irritability and craving, not sedation or seizures.",
+            "There is no rigidity, hyperthermia or autonomic instability.",
+            "Relapse would cause psychotic symptoms, not sedation and seizures.",
+            "",
+            "Sepsis is possible but the timing after quitting and drug-specific features point to clozapine toxicity."
+          ],
+          "tags": [
+            "clozapine",
+            "smoking",
+            "drug interactions"
+          ]
+        },
+        {
+          "id": "substance-use--tobacco-and-vaping--q3",
+          "discipline": "mental-health",
+          "topic": "substance-use",
+          "difficulty": "exam",
+          "stem": "A 27-year-old woman who is 10 weeks pregnant smokes 15 cigarettes a day. She has had 3 counselling sessions with Quitline over 4 weeks but has only managed to cut down to 12 a day. She is keen to stop.\n\nWhich one of the following is the most appropriate next step?",
+          "options": [
+            "Varenicline",
+            "Bupropion",
+            "Advise that smoking is safer than any medication in pregnancy",
+            "Intermittent fast-acting NRT such as gum or lozenges, with continued counselling",
+            "Recreational nicotine vapes"
+          ],
+          "answer": 3,
+          "explanation": "In pregnancy, **counselling** is first line. When counselling alone is not enough, **NRT** is recommended because it exposes the fetus to nicotine alone, without carbon monoxide and the thousands of other toxins in smoke. **Intermittent (fast-acting) forms** are often preferred to minimise total nicotine exposure, although patches can be used if needed (remove overnight).\n\n**Varenicline and bupropion** are not recommended in pregnancy because of limited safety data. Smoking causes miscarriage, placental abruption, preterm birth, low birth weight and SIDS, so continuing to smoke is not the safe choice.",
+          "whyWrong": [
+            "Varenicline is not recommended in pregnancy due to limited safety data.",
+            "Bupropion is not recommended in pregnancy.",
+            "Smoking carries far greater risk than NRT.",
+            "",
+            "Recreational vapes are illegal to sell and not a recommended option in pregnancy."
+          ],
+          "tags": [
+            "pregnancy",
+            "smoking cessation",
+            "nrt"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "substance-use--opioids",
+      "title": "Opioids: overdose, dependence and harm reduction",
+      "minutes": 17,
+      "objectives": [
+        "Recognise and treat opioid overdose, including naloxone dosing principles and observation",
+        "Explain take-home naloxone access in Australia",
+        "Describe opioid agonist treatment with methadone and buprenorphine, including long-acting injectables",
+        "Manage opioid withdrawal and avoid precipitated withdrawal",
+        "Apply harm reduction for people who inject drugs"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Opioids in Australia",
+          "body": "Opioid harm in Australia comes from **heroin**, and increasingly from **pharmaceutical opioids** (oxycodone, codeine, tramadol, fentanyl patches), often obtained on prescription. Most unintentional drug-induced deaths involve opioids, often combined with **benzodiazepines, alcohol or pregabalin**. Codeine has been prescription-only since 2018 to reduce harm.\n\nHarm-minimisation policy is mainstream: **needle and syringe programs (NSPs)**, **supervised injecting facilities** (Sydney's Kings Cross and Melbourne's North Richmond), **opioid agonist treatment (OAT)**, and **free take-home naloxone**. **Real-time prescription monitoring** (e.g. SafeScript in Victoria, SafeScript NSW) shows prescribers a patient's recent opioid and benzodiazepine supply; checking is mandatory in some states (varies by state)."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "How opioids work and why tolerance matters",
+          "body": "Opioids act on **mu receptors**: analgesia, euphoria, **respiratory depression** (reduced brainstem response to CO2), sedation, miosis, constipation. Tolerance to euphoria and respiratory depression develops with regular use, but tolerance to constipation and miosis does not.\n\n**Loss of tolerance** after a period of abstinence (release from prison, discharge from detox or rehab, hospital stay) is a classic setting for fatal overdose: people return to their previous dose. **Combining depressants** (benzodiazepines, alcohol, gabapentinoids) multiplies respiratory depression.\n\n**Buprenorphine** is a **partial agonist with very high receptor affinity**: it displaces full agonists, producing a ceiling on respiratory depression (safer in overdose) but can **precipitate withdrawal** if given while a full agonist is still occupying receptors. **Naloxone** is a competitive antagonist with a **short duration of action (30-90 minutes)**, shorter than many opioids."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Overdose and withdrawal",
+          "body": "**Opioid toxidrome:** reduced conscious level, **respiratory depression** (rate under about 10/min, shallow), **pinpoint pupils**, hypotension, bradycardia, hypothermia. Look for injection marks, patches (fentanyl) and co-ingestants. Pupils may not be small with mixed ingestions or hypoxic injury.\n\n**Opioid withdrawal** (unpleasant but rarely life-threatening in otherwise well adults):\n- Craving, anxiety, restlessness, yawning, **lacrimation, rhinorrhoea**, **dilated pupils**, piloerection (\"goosebumps\"), sweating, abdominal cramps, **diarrhoea**, vomiting, muscle aches, tachycardia.\n- Onset: heroin and short-acting opioids about 6-24 hours after the last dose, peaking at 2-3 days; **methadone** later (36-48 hours or more) and more prolonged.\n- The **Clinical Opiate Withdrawal Scale (COWS)** grades severity.\n- **Neonatal abstinence syndrome** in babies born to mothers on opioids requires monitoring and paediatric care."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Look-alikes and prescribed opioids",
+          "body": "**Pinpoint pupils with coma** is not always opioids: consider **pontine haemorrhage** (focal signs, hyperthermia), clonidine, organophosphate poisoning (salivation, bronchorrhoea, bradycardia), and some antipsychotics (olanzapine). A lack of response to adequate naloxone should prompt a search for another cause, including hypoglycaemia, head injury and co-ingestants.\n\n**Prescribed opioid dependence** is common and often starts with pain management. Clues: early repeat requests, lost scripts, multiple prescribers (visible on real-time prescription monitoring), escalating doses without functional benefit. Approach it as a health condition: taper where appropriate, consider OAT (buprenorphine is often suitable), and treat the pain with non-opioid strategies.\n\n**Opioid-induced hyperalgesia:** increasing pain despite increasing doses, which improves with reduction.\n\n**Acute pain in patients on OAT:** continue their usual methadone or buprenorphine dose (confirm with the dispensing pharmacy), use multimodal analgesia, and add short-acting opioids if needed at higher doses because of tolerance. Do not stop OAT, which risks withdrawal and relapse."
+        },
+        {
+          "kind": "management",
+          "heading": "Overdose, naloxone and opioid agonist treatment",
+          "body": "**Overdose management:**\n1. Airway, breathing, circulation: **bag-valve-mask ventilation** with oxygen is the priority if breathing is inadequate.\n2. **Naloxone**: in hospital, small IV doses titrated to adequate breathing (not full wakefulness), or IM/intranasal in the community. Aim to restore ventilation without precipitating severe withdrawal, agitation and vomiting.\n3. **Observe**: naloxone wears off in 30-90 minutes, sooner than most opioids. Long-acting opioids (**methadone**, sustained-release oxycodone, fentanyl patches) may need repeat doses or an **infusion** and longer observation.\n4. Check for co-ingestants (paracetamol level, benzodiazepines, alcohol), aspiration and complications.\n5. Before discharge: harm-reduction counselling, **take-home naloxone**, referral to OAT.\n\n**Take-home naloxone:** under the national Take Home Naloxone program, naloxone (intranasal spray or IM injection) is available **free and without a prescription** at participating pharmacies and other sites to anyone who may experience or **witness** an opioid overdose. Offer it to everyone on OAT, people who inject drugs, people on high-dose prescribed opioids, those leaving prison, and their families.\n\n**Opioid agonist treatment (OAT)** is the most effective treatment for opioid dependence: it reduces overdose death, injecting, blood-borne virus transmission and crime.\n- **Methadone:** full agonist, oral liquid, daily dosing (usually supervised at a pharmacy or clinic initially). Long half-life, so **start low and go slow**; deaths occur in the first 2 weeks from accumulation. Causes **QTc prolongation**; many interactions.\n- **Buprenorphine** (sublingual tablets or film, commonly with naloxone to deter injection): partial agonist, safer in overdose, allows take-away doses sooner. **Long-acting injectable buprenorphine** (weekly or monthly subcutaneous depots) removes the need for daily dosing.\n- Prescribers need state authorisation (varies by state), and many GPs prescribe OAT. OAT medicines are PBS-subsidised.\n\n**Starting buprenorphine:** wait until the patient is in **moderate withdrawal** (e.g. objective signs on COWS), typically more than 8-12 hours after short-acting opioids and longer after methadone, to avoid **precipitated withdrawal**.\n\n**Withdrawal management** (for those choosing detoxification): short buprenorphine taper, or symptomatic medicines (clonidine for sympathetic symptoms, loperamide, antiemetics, paracetamol or NSAIDs, short-term diazepam). High relapse and overdose risk afterwards, so offer naloxone and ongoing support.\n\n**Harm reduction for people who inject:** free sterile equipment from NSPs, never share, rotate sites, test for and vaccinate against **hepatitis B**, test for **hepatitis C** (curable with direct-acting antivirals, PBS-listed without restriction) and HIV, and watch for infective endocarditis (tricuspid), abscesses and cellulitis."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Unconscious, RR 6, pinpoint pupils: **ventilate and give naloxone**; the first action is often airway and bag-valve-mask.\n- Woke with naloxone then became drowsy again an hour later: naloxone wore off; think **methadone** or a long-acting opioid, repeat or infuse.\n- Patient becomes suddenly sick, vomiting and agitated after first buprenorphine dose, having used heroin 2 hours earlier: **precipitated withdrawal**.\n- Released from prison yesterday, found unconscious: **loss of tolerance**.\n- Who can get take-home naloxone? Anyone at risk of or likely to witness an overdose, free, no prescription.\n- Patient on methadone with syncope: check **QTc**."
+        }
+      ],
+      "keyPoints": [
+        "Opioid overdose: reduced consciousness, respiratory depression, pinpoint pupils; ventilate and give naloxone.",
+        "Naloxone lasts 30-90 minutes; long-acting opioids need repeat doses or infusion and prolonged observation.",
+        "Take-home naloxone is free without a prescription for anyone at risk of or likely to witness an overdose.",
+        "Opioid agonist treatment (methadone or buprenorphine, including long-acting injectables) reduces deaths.",
+        "Start buprenorphine only in moderate withdrawal to avoid precipitated withdrawal.",
+        "Methadone: start low, deaths in the first 2 weeks; causes QTc prolongation.",
+        "Loss of tolerance and combining opioids with benzodiazepines or alcohol drive overdose deaths.",
+        "NSPs, supervised injecting facilities and hepatitis B/C/HIV testing are core harm reduction."
+      ],
+      "redFlags": [
+        "Respiratory rate under 10 or hypoxia with pinpoint pupils",
+        "Re-sedation after naloxone (long-acting opioid)",
+        "Recent release from prison, detox or rehab (loss of tolerance)",
+        "Opioids combined with benzodiazepines, pregabalin or alcohol",
+        "Fever and new murmur in a person who injects drugs (endocarditis)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Take-home naloxone",
+          "india": "Naloxone mainly hospital-based; community distribution limited.",
+          "australia": "Free without prescription at pharmacies for anyone who might experience or witness an overdose."
+        },
+        {
+          "aspect": "Opioid agonist treatment",
+          "india": "Buprenorphine-based OST via NACO and government centres; methadone less available.",
+          "australia": "Methadone and buprenorphine (including monthly injectables), often GP-prescribed and dispensed by community pharmacies."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Duration of action of naloxone?",
+          "back": "About 30-90 minutes, shorter than most opioids."
+        },
+        {
+          "front": "Why can buprenorphine precipitate withdrawal?",
+          "back": "It is a high-affinity partial agonist that displaces full agonists from mu receptors."
+        },
+        {
+          "front": "When to give the first dose of buprenorphine?",
+          "back": "Once the patient is in moderate objective withdrawal (e.g. on COWS)."
+        },
+        {
+          "front": "Cardiac side effect of methadone to monitor?",
+          "back": "QTc prolongation (torsades risk)."
+        },
+        {
+          "front": "Who can get free take-home naloxone in Australia?",
+          "back": "Anyone who may experience or witness an opioid overdose; no prescription needed."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "substance-use--opioids--q1",
+          "discipline": "mental-health",
+          "topic": "substance-use",
+          "difficulty": "foundation",
+          "stem": "Paramedics bring a 31-year-old man to the ED after he was found unresponsive in a public toilet with a syringe nearby. GCS 6, respiratory rate 5/min, SpO2 82% on room air, pupils pinpoint, HR 58, BP 100/60.\n\nWhich one of the following is the most appropriate immediate action?",
+          "options": [
+            "Bag-valve-mask ventilation with oxygen and naloxone",
+            "Flumazenil IV",
+            "Obtain a urine drug screen before treatment",
+            "Gastric lavage",
+            "Intubate immediately without naloxone"
+          ],
+          "answer": 0,
+          "explanation": "This is an **opioid overdose**: coma, **respiratory depression**, **pinpoint pupils** and injecting equipment. The immediate priorities are **airway and ventilation** (bag-valve-mask with oxygen) and **naloxone**, titrated to restore adequate breathing rather than full wakefulness to avoid precipitating severe withdrawal.\n\nMost patients respond to naloxone and avoid intubation. Then observe carefully because naloxone lasts only 30-90 minutes; consider long-acting opioids and co-ingestants. Before discharge, provide take-home naloxone and offer referral to opioid agonist treatment.",
+          "whyWrong": [
+            "",
+            "Flumazenil reverses benzodiazepines, can precipitate seizures, and does not treat opioid toxicity.",
+            "Tests must not delay treatment of life-threatening respiratory depression.",
+            "Gastric lavage has no role in injected opioid overdose.",
+            "Naloxone usually reverses respiratory depression and avoids the need for intubation."
+          ],
+          "tags": [
+            "opioid overdose",
+            "naloxone",
+            "emergency"
+          ]
+        },
+        {
+          "id": "substance-use--opioids--q2",
+          "discipline": "mental-health",
+          "topic": "substance-use",
+          "difficulty": "core",
+          "stem": "A 44-year-old woman on methadone 90 mg daily took extra methadone doses she had saved. She was found drowsy with RR 7/min and responded to IV naloxone in the ED, becoming alert. Ninety minutes later she is again drowsy with RR 8/min and pinpoint pupils.\n\nWhich one of the following best explains her deterioration?",
+          "options": [
+            "Naloxone allergy",
+            "Hypoglycaemia",
+            "The effect of naloxone has worn off while methadone persists",
+            "Benzodiazepine co-ingestion alone",
+            "Serotonin syndrome"
+          ],
+          "answer": 2,
+          "explanation": "**Naloxone has a short duration of action (about 30-90 minutes)**, while **methadone** has a long half-life (often more than 24 hours). After naloxone wears off, methadone re-occupies mu receptors and respiratory depression returns.\n\nPatients who overdose on long-acting opioids (methadone, sustained-release oxycodone, fentanyl patches) need **repeat naloxone doses or a naloxone infusion** and prolonged observation, often admission. Check for co-ingestants and paracetamol too, and review the take-away dosing arrangements with her prescriber.",
+          "whyWrong": [
+            "Naloxone allergy is not a cause of recurrent respiratory depression with miosis.",
+            "Hypoglycaemia does not cause pinpoint pupils or respond to naloxone.",
+            "",
+            "Benzodiazepines would not explain the initial full response to naloxone and recurrent miosis.",
+            "Serotonin syndrome causes agitation, clonus and dilated pupils."
+          ],
+          "tags": [
+            "methadone",
+            "naloxone",
+            "overdose"
+          ]
+        },
+        {
+          "id": "substance-use--opioids--q3",
+          "discipline": "mental-health",
+          "topic": "substance-use",
+          "difficulty": "exam",
+          "stem": "A 29-year-old man who injects heroin daily wants to start opioid agonist treatment with his GP. He last injected 3 hours ago and currently has no withdrawal signs. The GP prescribes sublingual buprenorphine-naloxone and he takes the first dose in the surgery. Within 30 minutes he is sweating, vomiting, has abdominal cramps, dilated pupils and goosebumps.\n\nWhich one of the following is the most likely explanation?",
+          "options": [
+            "Allergic reaction to buprenorphine",
+            "Heroin overdose",
+            "Serotonin syndrome",
+            "Precipitated opioid withdrawal",
+            "Naloxone toxicity from the sublingual film"
+          ],
+          "answer": 3,
+          "explanation": "**Buprenorphine** is a partial agonist with **very high mu-receptor affinity**. Given while heroin (a full agonist) is still occupying receptors, it displaces heroin but produces less effect, causing sudden **precipitated withdrawal**: sweating, vomiting, cramps, mydriasis and piloerection.\n\nTo avoid it, start buprenorphine only when the patient is in **moderate objective withdrawal** (e.g. using COWS), typically at least 8-12 hours after short-acting opioids and longer after methadone. The naloxone in the combination product is poorly absorbed sublingually and mainly deters injection.",
+          "whyWrong": [
+            "Allergy would cause urticaria or anaphylaxis, not an opioid withdrawal picture.",
+            "Overdose causes miosis and sedation, the opposite of these features.",
+            "There is no serotonergic combination or clonus.",
+            "",
+            "Sublingual naloxone has very low bioavailability; the displacement is caused by buprenorphine."
+          ],
+          "tags": [
+            "buprenorphine",
+            "precipitated withdrawal",
+            "oat"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "substance-use--stimulants-cannabis-other",
+      "title": "Methamphetamine, cannabis and other drugs",
+      "minutes": 16,
+      "objectives": [
+        "Recognise and manage methamphetamine intoxication, psychosis and the comedown",
+        "Identify cannabis-related harms including cannabinoid hyperemesis syndrome and psychosis",
+        "Recognise MDMA, GHB and benzodiazepine-related presentations",
+        "Apply harm reduction and refer to Australian alcohol and other drug services"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The drug landscape in Australia",
+          "body": "**Cannabis** is the most commonly used illicit drug in Australia. **Methamphetamine**, especially crystalline \"ice\" smoked or injected, causes a disproportionate share of harm: psychosis, violence, cardiovascular events and dependence, and is prominent in rural and regional areas and in Western Australia and South Australia. **MDMA** (\"ecstasy\") and cocaine are common at festivals, and **GHB** causes sudden collapse and a dangerous withdrawal. Prescription drug misuse (benzodiazepines, opioids, pregabalin) is also significant.\n\n**Medicinal cannabis** products can be legally prescribed through TGA pathways, but most cannabis use is recreational and illegal (the ACT has decriminalised small amounts of personal possession and cultivation). Pill testing (drug checking) services are available in some jurisdictions; policies vary by state."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "How these drugs act",
+          "body": "- **Methamphetamine:** reverses monoamine transporters, releasing large amounts of **dopamine, noradrenaline and serotonin**. Effects: euphoria, energy, insomnia, sympathetic excess (tachycardia, hypertension, hyperthermia, mydriasis). Chronic use depletes dopamine, causing the **comedown** and depression, and can damage dopaminergic neurons. It is a potent cause of psychosis, stroke, cardiomyopathy and dental decay (\"meth mouth\").\n- **Cannabis (THC):** acts on CB1 receptors. Acute anxiety, paranoia, impaired coordination and memory; chronic heavy use causes dependence, cognitive impairment, psychosis in vulnerable people, and **cannabinoid hyperemesis syndrome**.\n- **MDMA:** serotonin release: euphoria, empathy; causes **hyperthermia**, **serotonin toxicity**, and **hyponatraemia** (ADH release plus drinking large volumes of water).\n- **GHB:** GABA-B agonist with a steep dose-response curve: sudden deep coma, bradycardia and respiratory depression, with **rapid spontaneous awakening** within a few hours. Dependent users have a severe, sometimes fatal withdrawal.\n- **Benzodiazepines:** GABA-A potentiation; dependence and withdrawal seizures if stopped abruptly after long-term use."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Classic presentations",
+          "body": "**Methamphetamine intoxication:** agitation, aggression, paranoia, pressured speech, tactile hallucinations (formication), sweating, tachycardia, hypertension, dilated pupils, hyperthermia, jaw clenching. Complications: **hyperthermia with rhabdomyolysis**, seizures, arrhythmia, ACS, aortic dissection, stroke, and **acute psychosis** that usually settles within days of abstinence.\n\n**Methamphetamine withdrawal / comedown:** exhaustion, hypersomnia, increased appetite, dysphoria, irritability, craving, and **depression with suicidal ideation**, lasting days to weeks.\n\n**Cannabis:**\n- Intoxication: red eyes, tachycardia, anxiety or panic, paranoia, impaired driving.\n- **Cannabinoid hyperemesis syndrome:** long-term heavy user with **recurrent episodes of severe cyclical vomiting and abdominal pain**, characteristically **relieved by hot showers or baths**. Resolves with stopping cannabis.\n- Withdrawal: irritability, insomnia, vivid dreams, anxiety, reduced appetite, for 1-2 weeks.\n\n**MDMA toxicity:** hyperthermia, serotonin toxicity (clonus, agitation), **hyponatraemia** (confusion, seizures), especially in young women at festivals.\n\n**GHB:** sudden coma at a party (GCS 3) with bradycardia, then waking abruptly and often agitated within hours.\n\n**Synthetic cannabinoids:** unpredictable agitation, psychosis, seizures; not detected on standard drug screens."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Telling the toxidromes apart",
+          "body": "| Toxidrome | Pupils | Skin | Key feature |\n|---|---|---|---|\n| **Sympathomimetic** (methamphetamine, cocaine, MDMA) | Dilated | **Sweaty** | Agitation, hypertension, tachycardia, hyperthermia |\n| **Anticholinergic** (TCAs, antihistamines, datura) | Dilated | **Dry, flushed** | Urinary retention, absent bowel sounds, mumbling delirium |\n| **Serotonin toxicity** | Dilated | Sweaty | **Clonus and hyperreflexia** |\n| **Alcohol or benzodiazepine withdrawal** | Dilated | Sweaty | History of heavy use and cessation; tremor |\n| **Opioid** | **Pinpoint** | Normal/cool | Respiratory depression, coma |\n| **Sedative-hypnotic** (benzodiazepines, GHB) | Normal | Normal | Coma with relatively normal vital signs (GHB: bradycardia) |\n\nMedical mimics of stimulant intoxication include **thyroid storm**, **sepsis or encephalitis**, phaeochromocytoma, and NMS in someone on antipsychotics.\n\n**Methamphetamine psychosis vs schizophrenia:** methamphetamine psychosis starts during or soon after heavy use, has prominent tactile and visual hallucinations and sympathetic signs, and resolves within days to weeks of abstinence. Psychosis persisting well beyond a month of abstinence suggests a primary psychotic disorder."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Methamphetamine intoxication (ED):**\n- Safe environment, de-escalation, security; check **temperature, glucose, ECG, CK, UEC**.\n- **Benzodiazepines** first for agitation and sympathetic excess (oral diazepam; IV/IM midazolam if needed). **Droperidol** or other antipsychotics for severe agitation or persisting psychosis, per ED protocol.\n- **Active cooling** for hyperthermia; IV fluids for rhabdomyolysis. Avoid beta-blockers alone in stimulant-induced hypertension or chest pain (use benzodiazepines, GTN).\n- Assess for psychosis and suicide risk once calm.\n\n**Methamphetamine dependence:** there is no approved substitution medicine. Treatment is psychosocial: **CBT, contingency management, counselling, residential rehabilitation**, support through state alcohol and drug services, and family support. Treat co-existing depression and psychosis.\n\n**Cannabis:** brief intervention and motivational interviewing; CBT for cannabis use disorder. Cannabinoid hyperemesis: IV fluids, electrolyte correction, antiemetics (conventional ones often work poorly; **haloperidol** or topical **capsaicin** may help), avoid opioids, and **stop cannabis**. Advise young people with psychosis or a family history of schizophrenia to avoid cannabis.\n\n**MDMA:** cooling and benzodiazepines for hyperthermia and agitation; **hyponatraemia** with seizures or confusion needs **hypertonic saline** in a monitored setting; fluid restriction for milder cases.\n\n**GHB:** supportive airway care usually suffices; intubation if airway not maintained. **GHB withdrawal** can be rapid and severe (delirium, seizures): high-dose benzodiazepines in hospital.\n\n**Benzodiazepine dependence:** convert to diazepam and **taper gradually** over weeks to months; never stop abruptly after long-term high-dose use (seizure risk).\n\n**Harm reduction and support:** never use alone, start low, avoid mixing depressants, drug checking where available, NSPs for injecting, and **state alcohol and other drug services** (e.g. DirectLine in Victoria) and the National Alcohol and Other Drug Hotline (1800 250 015). **Drug driving** is illegal and roadside drug testing detects methamphetamine, cannabis (THC) and MDMA in all states."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Young man with recurrent vomiting relieved by hot showers: **cannabinoid hyperemesis syndrome**; the definitive treatment is stopping cannabis.\n- Agitated, hyperthermic ice user: **benzodiazepine first**, cool, check CK.\n- Festival-goer seizing with Na 121 mmol/L after MDMA and drinking lots of water: **hypertonic saline**.\n- Unconscious at a party, then wakes suddenly 2 hours later: **GHB**.\n- Methamphetamine user days after a binge, sleeping and depressed with suicidal thoughts: the **comedown**; assess suicide risk.\n- Methamphetamine dependence pharmacotherapy question: no approved substitution therapy; psychosocial treatment is the answer."
+        }
+      ],
+      "keyPoints": [
+        "Methamphetamine: sympathomimetic toxidrome, agitation, psychosis; benzodiazepines first, cool, check CK.",
+        "No approved substitution medicine for methamphetamine dependence; psychosocial treatment is core.",
+        "Cannabinoid hyperemesis: cyclical vomiting relieved by hot showers; stop cannabis.",
+        "Cannabis increases psychosis risk in young and genetically vulnerable people.",
+        "MDMA: hyperthermia, serotonin toxicity and hyponatraemia.",
+        "GHB: sudden coma with rapid awakening; withdrawal is dangerous.",
+        "Taper benzodiazepines slowly; abrupt cessation risks seizures."
+      ],
+      "redFlags": [
+        "Temperature above 39-40 degrees C with agitation and rigidity (stimulant or MDMA hyperthermia)",
+        "Chest pain, stroke symptoms or severe headache after stimulants",
+        "Hyponatraemia with confusion or seizures after MDMA",
+        "Suicidal ideation during the methamphetamine comedown",
+        "GHB or benzodiazepine withdrawal with delirium or seizures"
+      ],
+      "contrast": [
+        {
+          "aspect": "Leading stimulant harm",
+          "india": "Amphetamine use exists but is less prominent; cannabis and opioids dominate.",
+          "australia": "Methamphetamine (ice) is a leading cause of ED psychosis and violence, especially in regional Australia."
+        },
+        {
+          "aspect": "Drug policy",
+          "india": "NDPS Act: possession criminalised, limited harm-reduction services beyond NACO.",
+          "australia": "Harm minimisation: NSPs, supervised injecting, drug checking in some jurisdictions, ACT cannabis decriminalisation."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Classic relieving factor in cannabinoid hyperemesis syndrome?",
+          "back": "Hot showers or baths."
+        },
+        {
+          "front": "First-line drug for methamphetamine-induced agitation?",
+          "back": "A benzodiazepine (e.g. diazepam or midazolam)."
+        },
+        {
+          "front": "Electrolyte disturbance typical of MDMA toxicity?",
+          "back": "Hyponatraemia (ADH release plus excess water intake)."
+        },
+        {
+          "front": "Drug causing sudden coma with rapid spontaneous awakening?",
+          "back": "GHB."
+        },
+        {
+          "front": "Is there an approved substitution therapy for methamphetamine dependence?",
+          "back": "No. Treatment is psychosocial (CBT, contingency management, rehabilitation)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "substance-use--stimulants-cannabis-other--q1",
+          "discipline": "mental-health",
+          "topic": "substance-use",
+          "difficulty": "foundation",
+          "stem": "A 24-year-old man presents to the ED for the fourth time in 6 months with severe nausea, vomiting and abdominal pain. He says only long hot showers help. He has smoked cannabis heavily every day for 5 years. Abdominal examination, lipase, LFTs and abdominal ultrasound are normal.\n\nWhich one of the following is the most effective long-term treatment?",
+          "options": [
+            "Regular ondansetron",
+            "Cholecystectomy",
+            "Cessation of cannabis use",
+            "Proton pump inhibitor",
+            "Regular opioid analgesia"
+          ],
+          "answer": 2,
+          "explanation": "Recurrent cyclical vomiting with abdominal pain, **relief with hot showers**, in a long-term daily cannabis user with normal investigations is **cannabinoid hyperemesis syndrome**.\n\nAcute episodes are treated with IV fluids, electrolyte correction, and antiemetics (haloperidol or topical capsaicin can help where standard antiemetics fail). The only effective long-term treatment is **stopping cannabis**; symptoms resolve over weeks. Use motivational interviewing and offer support for cannabis use disorder.\n\nOpioids worsen nausea and are avoided.",
+          "whyWrong": [
+            "Standard antiemetics work poorly and do not address the cause.",
+            "Biliary disease has been excluded; surgery will not help.",
+            "",
+            "Acid suppression does not treat cannabinoid hyperemesis.",
+            "Opioids worsen nausea and gut dysmotility and add dependence risk."
+          ],
+          "tags": [
+            "cannabis",
+            "hyperemesis",
+            "vomiting"
+          ]
+        },
+        {
+          "id": "substance-use--stimulants-cannabis-other--q2",
+          "discipline": "mental-health",
+          "topic": "substance-use",
+          "difficulty": "core",
+          "stem": "A 20-year-old woman is brought in from a music festival after a seizure. She took an \"ecstasy\" tablet 5 hours ago and has drunk about 4 litres of water since because she heard it prevents overheating. She is confused. Temperature 37.6 degrees C, HR 104, BP 128/80. Serum sodium is 119 mmol/L.\n\nWhich one of the following is the most appropriate treatment?",
+          "options": [
+            "Hypertonic saline in a monitored setting",
+            "Intravenous 0.9% saline at 250 mL/h",
+            "Oral fluid restriction only",
+            "Cyproheptadine",
+            "Dantrolene"
+          ],
+          "answer": 0,
+          "explanation": "**MDMA** causes **hyponatraemia** through ADH release (SIADH) combined with **excessive water drinking**. Young women are at particular risk. Hyponatraemia with **seizures and confusion** is a medical emergency caused by cerebral oedema.\n\nTreatment is **hypertonic saline** (typically small boluses of 3% saline per local protocol) in a monitored setting to raise sodium by a few mmol/L quickly and stop seizures, then careful correction to avoid overly rapid rises. Fluid restriction alone is too slow for severe symptoms, and isotonic saline can worsen hyponatraemia in SIADH.\n\nHer temperature is only mildly raised, so treatments for hyperthermia or serotonin toxicity are not the priority.",
+          "whyWrong": [
+            "",
+            "Isotonic saline is ineffective and may worsen hyponatraemia in SIADH.",
+            "Fluid restriction alone is too slow for severe symptomatic hyponatraemia.",
+            "There are no features of serotonin toxicity requiring cyproheptadine.",
+            "Dantrolene has no role here."
+          ],
+          "ausPearl": "Drug checking (pill testing) services now operate in some Australian jurisdictions; policies vary by state.",
+          "tags": [
+            "mdma",
+            "hyponatraemia",
+            "festival"
+          ]
+        },
+        {
+          "id": "substance-use--stimulants-cannabis-other--q3",
+          "discipline": "mental-health",
+          "topic": "substance-use",
+          "difficulty": "exam",
+          "stem": "A 33-year-old man is brought to the ED by police, highly agitated and shouting that people are trying to kill him. He has been smoking ice for 4 days without sleep. Temperature 39.4 degrees C, HR 142, BP 178/104, pupils dilated, profuse sweating. He refuses oral medication and is fighting staff.\n\nWhich one of the following is the most appropriate initial pharmacological management?",
+          "options": [
+            "IV metoprolol",
+            "IM haloperidol and discharge when calm",
+            "Oral olanzapine",
+            "IV or IM midazolam, with active cooling and CK measurement",
+            "Naloxone"
+          ],
+          "answer": 3,
+          "explanation": "This is **severe methamphetamine toxicity**: agitation, psychosis, and a sympathomimetic picture with **hyperthermia** (39.4 degrees C). Agitation drives heat production and rhabdomyolysis.\n\nHe has refused oral medication, so **parenteral benzodiazepine sedation** (IV or IM midazolam, with droperidol as an alternative or addition per protocol) is first line. It calms him, reduces sympathetic drive and muscle activity, and lowers temperature. Add **active cooling**, IV fluids, and check **CK**, UEC, glucose and ECG.\n\nBeta-blockers alone risk unopposed alpha stimulation and worsening hypertension; he cannot be discharged when hyperthermic.",
+          "whyWrong": [
+            "Beta-blockers alone can leave alpha stimulation unopposed and worsen hypertension and coronary spasm.",
+            "He is hyperthermic and needs admission, monitoring and treatment of complications.",
+            "He is refusing oral medication and is too agitated for an oral route.",
+            "",
+            "Naloxone reverses opioids; he has a stimulant toxidrome."
+          ],
+          "tags": [
+            "methamphetamine",
+            "agitation",
+            "hyperthermia"
+          ]
+        }
+      ]
+    }
+  ]
+}

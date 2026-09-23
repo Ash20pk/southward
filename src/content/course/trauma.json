@@ -1,0 +1,1140 @@
+{
+  "topic": "trauma",
+  "intro": "Trauma and burns covers the structured assessment of the injured patient using the EMST (ATLS) approach, haemorrhagic shock, chest, head, spinal, abdominal and pelvic injuries, and burns. The AMC tests the order of priorities, validated decision rules for imaging, first aid and referral thresholds for burns, and stabilisation for transfer, which is a real issue in a country where rural patients are retrieved over long distances.",
+  "lessons": [
+    {
+      "id": "trauma--primary-survey-and-shock",
+      "title": "The primary survey and haemorrhagic shock",
+      "minutes": 17,
+      "objectives": [
+        "Run the primary survey in the correct order, starting with catastrophic haemorrhage control",
+        "Recognise and grade haemorrhagic shock and start damage-control resuscitation",
+        "Apply permissive hypotension, tranexamic acid and the massive transfusion protocol correctly",
+        "Plan stabilisation and handover for retrieval from a rural hospital"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Trauma in Australia",
+          "body": "Injury is a leading cause of death and disability in young Australians. The big mechanisms are **road trauma** (cars, motorcycles, pedestrians), **falls** (the leading cause of trauma in older people), **farm injuries** (quad bikes, tractors, machinery, livestock), assault, and **drowning**. Many injured people are far from a trauma centre, so the first doctor may be a rural GP or a junior doctor in a small emergency department who must stabilise the patient for retrieval by the **Royal Flying Doctor Service** or a state retrieval service.\n\nAustralian trauma care is taught through the RACS **Early Management of Severe Trauma (EMST)** course, the local version of ATLS. The core idea: **treat the greatest threat to life first**, reassess after every intervention, and do not let a dramatic but less dangerous injury distract you."
+        },
+        {
+          "kind": "concepts",
+          "heading": "The primary survey: <C>ABCDE",
+          "body": "| Step | Assess | Key actions |\n|---|---|---|\n| **<C> Catastrophic haemorrhage** | Exsanguinating external bleeding | Direct pressure, **tourniquet** for limb bleeding, haemostatic dressings |\n| **A Airway with C-spine protection** | Talking? Noisy breathing, blood, vomit, facial trauma, GCS 8 or less | Suction, jaw thrust (not head tilt), adjuncts, oxygen, definitive airway (RSI) with manual in-line stabilisation |\n| **B Breathing** | RR, SpO2, chest movement, trachea, percussion, breath sounds | Decompress tension pneumothorax, seal open pneumothorax, intercostal catheter for haemothorax |\n| **C Circulation** | HR, BP, cap refill, skin, conscious state; find the bleeding | Two large-bore cannulae, bloods and crossmatch, blood products, pelvic binder, splint long bones |\n| **D Disability** | GCS, pupils, glucose, limb movement | Prevent secondary brain injury |\n| **E Exposure** | Whole body including back (log roll) | Prevent **hypothermia**: warm blankets and fluids |\n\nIn a team these happen simultaneously, but if an exam question asks what comes **first**, follow the sequence. Adjuncts to the primary survey include ECG, blood gas, urinary catheter (unless urethral injury suspected), **chest and pelvic X-ray** and **eFAST**. The **secondary survey** (head-to-toe, AMPLE history: Allergies, Medications, Past history, Last meal, Events) comes only after the patient is stabilised."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why bleeding patients die: the lethal diamond",
+          "body": "In trauma, shock is **haemorrhagic until proven otherwise**. Other causes are obstructive (tension pneumothorax, cardiac tamponade), neurogenic (spinal cord injury) and, less often, cardiogenic.\n\nBleeding patients enter a vicious cycle, the **lethal triad** (now often called the lethal diamond):\n- **Hypothermia** (exposure, cold fluids) impairs clotting enzymes\n- **Acidosis** from tissue hypoperfusion impairs coagulation\n- **Coagulopathy**: trauma-induced coagulopathy occurs early, and dilution with crystalloid makes it worse\n- **Hypocalcaemia** from citrate in transfused blood (the fourth point)\n\nThis is why modern resuscitation avoids large volumes of crystalloid and gives **blood products** early.\n\n**Where is the blood?** \"On the floor and four more\": external, **chest**, **abdomen**, **pelvis/retroperitoneum** and **long bones** (a femoral shaft fracture can hide 1-1.5 L)."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Recognising shock",
+          "body": "Early shock is subtle, especially in the young and fit, who compensate by vasoconstriction and tachycardia while blood pressure is maintained.\n\n| Class | Blood loss | Heart rate | BP | Mental state |\n|---|---|---|---|---|\n| I | Under 15% | Normal | Normal | Slightly anxious |\n| II | 15-30% | Raised | Normal (narrow pulse pressure) | Anxious |\n| III | 30-40% | Clearly raised | Falling | Confused |\n| IV | Over 40% | Very high | Low | Lethargic |\n\n**Traps:** beta-blockers blunt tachycardia; older people decompensate early and a \"normal\" BP may be low for them; pregnant women can lose a large volume before signs appear; athletes have low resting heart rates. **A falling blood pressure is a late sign.**"
+        },
+        {
+          "kind": "management",
+          "heading": "Damage-control resuscitation",
+          "body": "1. **Stop the bleeding:** pressure, tourniquet, **pelvic binder** (centred over the greater trochanters, not the iliac crests), splint long-bone fractures, and early surgery or angioembolisation.\n2. **Permissive hypotension:** in haemorrhage without head injury, target a systolic BP of roughly **80-90 mmHg** (or a palpable radial pulse and preserved mentation) until bleeding is controlled; higher pressures dislodge clots. **Not appropriate in traumatic brain injury**, where cerebral perfusion needs a higher pressure.\n3. **Blood, not crystalloid:** minimise crystalloid; give packed red cells, plasma and platelets in a balanced ratio. **Activate the massive transfusion protocol (MTP)** early in a patient with ongoing major haemorrhage. Give calcium, as citrate chelates it.\n4. **Tranexamic acid (TXA)** within **3 hours** of injury (**1 g IV over 10 minutes, then 1 g over 8 hours**, per CRASH-2). Given later than 3 hours it has no benefit and may increase deaths from bleeding.\n5. **Keep them warm:** warmed fluids and blankets.\n6. **Transient or non-responder** to initial fluids needs **definitive haemorrhage control now**: laparotomy, angioembolisation or pelvic packing.\n\n**Stabilisation for retrieval:** secure the airway before transfer if it may deteriorate (you cannot intubate easily in a plane), decompress chest injuries and place an intercostal catheter before flying (gas expands at altitude), splint, apply a pelvic binder, keep warm, give blood if available, and hand over clearly using a structured tool such as ISBAR. Early contact with the retrieval service is part of good management, not a sign of failure.\n\n**Medico-legal points:** there is no Indian-style MLC register. Police are not automatically informed; blood alcohol testing of drivers after road crashes is governed by state law. Deaths from injury are reportable to the **coroner**."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- \"What is the first step?\": follow <C>ABCDE. An obstructed airway beats hypotension; exsanguinating limb bleeding beats the airway.\n- An unstable patient never goes to CT.\n- TXA only within 3 hours; the dose is 1 g then 1 g.\n- Permissive hypotension is wrong if there is a significant head injury.\n- A tachycardic patient with a \"normal\" blood pressure may already have lost 15-30% of blood volume."
+        }
+      ],
+      "keyPoints": [
+        "Primary survey: catastrophic haemorrhage, Airway with C-spine, Breathing, Circulation, Disability, Exposure.",
+        "Shock in trauma is haemorrhagic until proven otherwise; look on the floor and four more.",
+        "Hypotension is a late sign; tachycardia and narrow pulse pressure come first.",
+        "Permissive hypotension (SBP about 80-90 mmHg) until haemorrhage control, except in head injury.",
+        "TXA 1 g over 10 minutes then 1 g over 8 hours, only within 3 hours of injury.",
+        "Activate the massive transfusion protocol early; give balanced blood products, limit crystalloid.",
+        "Stabilise before retrieval: airway, chest drain, binder, splints, warmth, clear handover."
+      ],
+      "redFlags": [
+        "Noisy breathing or GCS 8 or less (airway at risk)",
+        "Tachycardia with narrowing pulse pressure (early haemorrhagic shock)",
+        "Transient or no response to initial resuscitation (ongoing bleeding)",
+        "Pelvic instability or femoral deformity in a shocked patient"
+      ],
+      "contrast": [
+        {
+          "aspect": "Initial fluid in haemorrhagic shock",
+          "india": "Large volumes of crystalloid (2 L) are often given first.",
+          "australia": "Minimal crystalloid; early blood products via massive transfusion protocol and permissive hypotension."
+        },
+        {
+          "aspect": "Remote trauma",
+          "india": "Referral by road to a tertiary centre, often self-arranged.",
+          "australia": "Early call to retrieval services (RFDS, state services); stabilise and package for air transfer."
+        },
+        {
+          "aspect": "Police notification",
+          "india": "Medico-legal case registered and police informed.",
+          "australia": "No MLC system; police not routinely informed; coroner for reportable deaths; alcohol testing rules vary by state."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Tranexamic acid dose and time window in trauma?",
+          "back": "1 g IV over 10 minutes then 1 g over 8 hours, within 3 hours of injury."
+        },
+        {
+          "front": "Where should a pelvic binder be placed?",
+          "back": "Over the greater trochanters."
+        },
+        {
+          "front": "Target systolic BP in permissive hypotension (no head injury)?",
+          "back": "About 80-90 mmHg, or a palpable radial pulse, until bleeding is controlled."
+        },
+        {
+          "front": "What are the components of the lethal triad in trauma?",
+          "back": "Hypothermia, acidosis and coagulopathy (hypocalcaemia is often added)."
+        },
+        {
+          "front": "What does AMPLE stand for?",
+          "back": "Allergies, Medications, Past history, Last meal, Events."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "trauma--primary-survey-and-shock--q1",
+          "discipline": "adult-surgery",
+          "topic": "trauma",
+          "difficulty": "foundation",
+          "stem": "A 38-year-old farmer is brought to a rural hospital after his arm was caught in a hay baler. There is pulsatile bleeding from a mangled left forearm soaking through the dressings. He is talking but pale. Heart rate is 132/min, blood pressure 90/60 mmHg, respiratory rate 24/min, SpO2 96% on room air.\n\nWhat is the most appropriate immediate step?",
+          "options": [
+            "Insert two large-bore IV cannulae",
+            "Apply an arterial tourniquet proximal to the wound",
+            "Give tranexamic acid 1 g IV",
+            "Perform rapid sequence intubation",
+            "Obtain an X-ray of the forearm"
+          ],
+          "answer": 1,
+          "explanation": "The EMST approach now begins with **<C> catastrophic haemorrhage**: exsanguinating external bleeding kills faster than almost anything else and is controlled first. He is talking, so his airway is patent. Pulsatile limb bleeding soaking through dressings, with signs of shock, needs a **tourniquet** applied proximal to the wound (note the time of application). Then continue with the primary survey: IV access, blood products, TXA and surgical referral. **Rule:** a talking patient has an airway; the tourniquet comes first.",
+          "whyWrong": [
+            "IV access is important but will not stop the arterial bleeding causing his shock.",
+            "",
+            "TXA helps, but only after the bleeding point is physically controlled.",
+            "He is talking, so his airway is not the immediate threat.",
+            "Imaging is irrelevant until he is stabilised."
+          ],
+          "ausPearl": "Farm machinery and quad-bike injuries are a recurrent theme in Australian rural trauma questions.",
+          "tags": [
+            "catastrophic haemorrhage",
+            "tourniquet",
+            "emst"
+          ]
+        },
+        {
+          "id": "trauma--primary-survey-and-shock--q2",
+          "discipline": "adult-surgery",
+          "topic": "trauma",
+          "difficulty": "core",
+          "stem": "A 26-year-old man is brought in after a motorcycle crash 90 minutes ago. He has a GCS of 15. Heart rate is 128/min, blood pressure 84/50 mmHg. eFAST shows free fluid in the right upper quadrant. The chest X-ray is clear and there is no head injury. The surgical team has been called.\n\nWhich is the most appropriate resuscitation strategy while awaiting theatre?",
+          "options": [
+            "Give 3 L of 0.9% saline to restore a normal blood pressure",
+            "Give blood products via the massive transfusion protocol, tranexamic acid, and target a systolic BP around 80-90 mmHg",
+            "Start noradrenaline to achieve a mean arterial pressure of 65 mmHg",
+            "Give 2 L of 4% albumin",
+            "Withhold all fluids until the bleeding is controlled surgically"
+          ],
+          "answer": 1,
+          "explanation": "He has **haemorrhagic shock** from intra-abdominal bleeding. **Damage-control resuscitation** means: early **blood products** in a balanced ratio (activate the MTP), **TXA** because he is within 3 hours, keep him warm, and **permissive hypotension** (systolic around 80-90 mmHg with preserved mentation) until the surgeons control the bleeding. Large crystalloid volumes dilute clotting factors, worsen acidosis and hypothermia, and raise the pressure enough to disrupt clots. Vasopressors do not treat hypovolaemia. Withholding all fluids risks cardiac arrest. Permissive hypotension is used only because there is **no head injury**.",
+          "whyWrong": [
+            "Large crystalloid volumes cause dilutional coagulopathy and dislodge clots.",
+            "",
+            "Vasopressors do not replace lost volume and worsen tissue perfusion in haemorrhage.",
+            "Albumin carries no oxygen or clotting factors.",
+            "No resuscitation at all risks cardiac arrest; the aim is controlled hypotension."
+          ],
+          "tags": [
+            "haemorrhagic shock",
+            "massive transfusion",
+            "tranexamic acid"
+          ]
+        },
+        {
+          "id": "trauma--primary-survey-and-shock--q3",
+          "discipline": "adult-surgery",
+          "topic": "trauma",
+          "difficulty": "exam",
+          "stem": "A 45-year-old woman is brought to the emergency department 5 hours after she was trapped in a car crash on a remote highway. She is haemodynamically stable after 2 units of red cells. CT shows a grade III splenic laceration without active contrast extravasation. The junior doctor proposes giving tranexamic acid.\n\nWhat is the most appropriate response?",
+          "options": [
+            "Give tranexamic acid 1 g now and 1 g over 8 hours",
+            "Give tranexamic acid 2 g as a single bolus",
+            "Give tranexamic acid only if her fibrinogen is low",
+            "Tranexamic acid is not recommended because more than 3 hours have passed since injury",
+            "Give tranexamic acid orally for 5 days"
+          ],
+          "answer": 3,
+          "explanation": "The CRASH-2 trial showed **TXA reduces death from bleeding when given within 3 hours** of injury, with the greatest benefit in the first hour. Given **after 3 hours**, it showed no benefit and a possible increase in deaths from bleeding, so it is **not recommended** at 5 hours. The standard dose within the window is 1 g IV over 10 minutes then 1 g over 8 hours. Her management is now observation, serial examination and haemoglobin, and angioembolisation or surgery if she deteriorates. **Clue:** always check the time since injury in a TXA question.",
+          "whyWrong": [
+            "This is the correct dose, but she is outside the 3-hour window.",
+            "A single 2 g bolus is used in some pre-hospital settings but still only within 3 hours.",
+            "Fibrinogen levels do not change the time window for TXA.",
+            "",
+            "There is no role for oral TXA in trauma haemorrhage."
+          ],
+          "tags": [
+            "tranexamic acid",
+            "splenic injury",
+            "timing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trauma--chest-trauma",
+      "title": "Chest trauma",
+      "minutes": 15,
+      "objectives": [
+        "Recognise the immediately life-threatening chest injuries during the primary survey",
+        "Decompress a tension pneumothorax at the correct site and follow with an intercostal catheter",
+        "Distinguish tension pneumothorax, massive haemothorax and cardiac tamponade at the bedside",
+        "Manage rib fractures and flail chest, especially in older patients"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why chest injuries kill",
+          "body": "Chest injuries cause a large share of trauma deaths, but most can be managed with simple measures: oxygen, decompression, an **intercostal catheter (ICC)** and analgesia. Fewer than 1 in 10 blunt chest injuries need a thoracotomy. The AMC wants you to recognise the **lethal six** during the primary survey and treat them **clinically, before any imaging**:\n\n1. Airway obstruction\n2. **Tension pneumothorax**\n3. **Open pneumothorax** (sucking chest wound)\n4. **Massive haemothorax**\n5. **Flail chest** with pulmonary contusion\n6. **Cardiac tamponade**"
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Mechanisms",
+          "body": "- **Tension pneumothorax:** a one-way valve lets air into the pleural space on inspiration but not out. Pressure rises, the lung collapses, the mediastinum shifts, **venous return falls** and cardiac output collapses (obstructive shock). Positive-pressure ventilation accelerates it.\n- **Open pneumothorax:** a chest wall defect larger than about two-thirds of the tracheal diameter lets air enter preferentially through the wound, so the lung fails to inflate.\n- **Massive haemothorax:** over **1500 mL** of blood in the chest (or ongoing drainage of about 200 mL/h), usually from intercostal or internal mammary arteries or lung hilum; causes hypovolaemic shock plus lung compression.\n- **Flail chest:** two or more adjacent ribs fractured in two or more places, so a segment moves paradoxically (in on inspiration). The underlying **pulmonary contusion** is what causes hypoxia.\n- **Cardiac tamponade:** blood in the pericardial sac restricts filling (usually penetrating injury)."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Bedside differentiation",
+          "body": "| | Tension pneumothorax | Massive haemothorax | Cardiac tamponade |\n|---|---|---|---|\n| BP | Low | Low | Low |\n| Neck veins | **Distended** | **Flat** (hypovolaemia) | **Distended** |\n| Trachea | Deviated **away** | May be deviated away | Central |\n| Percussion | **Hyper-resonant** | **Dull** | Normal |\n| Breath sounds | Absent on affected side | Reduced on affected side | Normal |\n| Heart sounds | Normal | Normal | **Muffled** |\n\n**Beck's triad** (tamponade): hypotension, distended neck veins, muffled heart sounds. Pulsus paradoxus may be present. eFAST shows pericardial fluid.\n\n**Flail chest:** paradoxical movement of a chest wall segment, crepitus, severe pain, hypoxia.\n\n**Rib fractures in older adults** are dangerous: each additional fracture increases the risk of pneumonia and death, because pain stops them coughing and breathing deeply."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations (after the primary survey)",
+          "body": "Life-threatening chest injuries are **clinical diagnoses**. Once stable:\n- **Chest X-ray** (supine in trauma: a haemothorax appears as a diffuse haziness rather than a meniscus)\n- **eFAST:** pneumothorax (absent lung sliding), haemothorax, pericardial fluid\n- **CT chest** in stable patients for detailed assessment (aortic injury, contusion, occult pneumothorax)\n- **ECG and troponin** for blunt cardiac injury (arrhythmias after sternal fracture)\n- **Blood gas** to assess ventilation\n\n**Blunt aortic injury:** rapid deceleration (high-speed crash, fall), **widened mediastinum** on CXR, loss of the aortic knob, deviation of the trachea or NG tube to the right, left haemothorax. CT angiography confirms it; endovascular repair is common."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Other chest injuries found on the secondary survey",
+          "body": "| Injury | Clue | Action |\n|---|---|---|\n| **Pulmonary contusion** | Worsening hypoxia over 24-48 hours, patchy opacity on CXR or CT | Oxygen, analgesia, avoid fluid overload, ventilation if needed |\n| **Blunt cardiac injury** | Sternal fracture, new arrhythmia, ECG changes | ECG monitoring; echo if unstable |\n| **Diaphragmatic rupture** | Usually left side; bowel or NG tube seen in the chest on CXR | Surgical repair |\n| **Tracheobronchial injury** | Persistent large air leak despite ICC, surgical emphysema | Cardiothoracic referral, bronchoscopy |\n| **Oesophageal rupture** | Penetrating injury or severe blow, mediastinal air, pain out of proportion | CT, surgery |\n| **Simple pneumothorax** | No shock, trachea central | Observe if small; ICC before ventilation or air transport |\n\n**Surgical emphysema** (crackling under the skin) is a marker of underlying pneumothorax or airway injury, not a problem in itself."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Tension pneumothorax:** immediate **decompression**, then an ICC.\n- In adults, the **4th or 5th intercostal space just anterior to the mid-axillary line** is now preferred for needle decompression because the chest wall is thinner there than at the traditional 2nd intercostal space mid-clavicular line (where needles often fail to reach the pleura). The 2nd intercostal space is still used in children.\n- **Finger thoracostomy** is an alternative in ventilated patients and is often used by retrieval teams.\n\n**Open pneumothorax:** cover with a **vented chest seal** (or a dressing taped on three sides), then place an ICC away from the wound.\n\n**Massive haemothorax:** large-bore **ICC** in the 5th intercostal space in the **triangle of safety** (anterior to mid-axillary line, above the level of the nipple, lateral to pectoralis major), plus blood products. **Thoracotomy** for initial drainage over 1500 mL, ongoing loss of about 200 mL/h for several hours, or persisting instability.\n\n**Cardiac tamponade:** resuscitate and call cardiothoracic surgery for emergency thoracotomy or sternotomy; pericardiocentesis is a temporising measure only when surgery is unavailable. Resuscitative thoracotomy in the emergency department is for penetrating trauma with recent loss of output.\n\n**Flail chest and rib fractures:** oxygen, **excellent analgesia** (multimodal oral or IV, patient-controlled analgesia, **regional blocks** such as erector spinae or serratus anterior catheters, or epidural), chest physiotherapy, incentive spirometry, and non-invasive or mechanical ventilation if needed. Surgical rib fixation is used in selected cases. Admit older patients with multiple rib fractures.\n\n**Simple pneumothorax:** small ones can be observed; an ICC before air transport or positive-pressure ventilation."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Hypotension, distended neck veins, deviated trachea, hyper-resonance: **decompress now**; an X-ray is the wrong answer.\n- Flat neck veins and dullness: **massive haemothorax**; the answer is an ICC and blood.\n- Distended neck veins, central trachea, normal breath sounds, muffled heart sounds: **tamponade**.\n- Know the adult decompression site: **4th/5th ICS anterior to the mid-axillary line**.\n- An elderly patient with three rib fractures being sent home is a trap."
+        }
+      ],
+      "keyPoints": [
+        "Tension pneumothorax is a clinical diagnosis; decompress before imaging.",
+        "Adult needle decompression: 4th/5th intercostal space anterior to the mid-axillary line; then an ICC.",
+        "Massive haemothorax (over 1500 mL): flat neck veins, dull percussion; ICC and blood products, thoracotomy if ongoing loss.",
+        "Beck's triad (hypotension, raised JVP, muffled heart sounds) suggests tamponade.",
+        "Open pneumothorax: vented chest seal, then ICC away from the wound.",
+        "Flail chest hypoxia comes from underlying contusion; analgesia and ventilation support are key.",
+        "Rib fractures in older people carry high morbidity; admit and give regional analgesia."
+      ],
+      "redFlags": [
+        "Hypotension with distended neck veins",
+        "Unilateral absent breath sounds with tracheal deviation",
+        "Widened mediastinum after a deceleration injury",
+        "Paradoxical chest wall movement with hypoxia"
+      ],
+      "contrast": [
+        {
+          "aspect": "Needle decompression site in adults",
+          "india": "2nd intercostal space mid-clavicular line is traditionally taught.",
+          "australia": "4th/5th intercostal space anterior to the mid-axillary line preferred (current EMST/ATLS); finger thoracostomy common."
+        },
+        {
+          "aspect": "Rib fracture analgesia in older adults",
+          "india": "Oral analgesics and discharge are common for isolated fractures.",
+          "australia": "Admission with multimodal and regional analgesia (e.g. erector spinae catheter) to prevent pneumonia."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Preferred adult needle decompression site for tension pneumothorax?",
+          "back": "4th or 5th intercostal space, just anterior to the mid-axillary line."
+        },
+        {
+          "front": "Volume defining a massive haemothorax?",
+          "back": "More than 1500 mL of blood (or about 200 mL/h ongoing)."
+        },
+        {
+          "front": "What is Beck's triad?",
+          "back": "Hypotension, distended neck veins and muffled heart sounds: cardiac tamponade."
+        },
+        {
+          "front": "Definition of flail chest?",
+          "back": "Two or more adjacent ribs each fractured in two or more places, giving paradoxical movement."
+        },
+        {
+          "front": "CXR sign of blunt aortic injury?",
+          "back": "Widened mediastinum (with loss of aortic knob, tracheal deviation to the right)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "trauma--chest-trauma--q1",
+          "discipline": "adult-surgery",
+          "topic": "trauma",
+          "difficulty": "core",
+          "stem": "A 30-year-old man is stabbed in the left chest. In the emergency department his heart rate is 130/min, blood pressure 80/50 mmHg and SpO2 92% on high-flow oxygen. His neck veins are flat. The trachea is central. The left chest is dull to percussion with reduced breath sounds. Two large-bore cannulae are in place.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Needle decompression of the left chest",
+            "Pericardiocentesis",
+            "CT chest with contrast",
+            "Insert a large-bore intercostal catheter in the left 5th intercostal space and give blood products",
+            "Emergency department thoracotomy"
+          ],
+          "answer": 3,
+          "explanation": "Shock with **flat neck veins** and a **dull hemithorax** with reduced breath sounds is **massive haemothorax**. Treatment is simultaneous **blood product resuscitation** and a **large-bore ICC** in the 5th intercostal space in the triangle of safety to drain the blood and re-expand the lung. Initial drainage over 1500 mL, continuing losses of about 200 mL/h or persistent instability indicate **thoracotomy** in theatre. Tension pneumothorax gives hyper-resonance and distended neck veins; tamponade gives distended neck veins and normal lung findings.",
+          "whyWrong": [
+            "The chest is dull, not hyper-resonant, and the neck veins are flat; this is not tension.",
+            "Tamponade causes distended neck veins and normal breath sounds.",
+            "An unstable patient must not go to CT.",
+            "",
+            "ED thoracotomy is reserved for recent loss of cardiac output in penetrating trauma."
+          ],
+          "tags": [
+            "haemothorax",
+            "chest trauma",
+            "intercostal catheter"
+          ]
+        },
+        {
+          "id": "trauma--chest-trauma--q2",
+          "discipline": "adult-surgery",
+          "topic": "trauma",
+          "difficulty": "foundation",
+          "stem": "A 42-year-old woman is brought in after a high-speed car crash. She is agitated and breathless. Heart rate is 136/min, blood pressure 82/48 mmHg, SpO2 84% on 15 L/min oxygen. Her neck veins are distended and her trachea deviates to the left. The right hemithorax is hyper-resonant with absent breath sounds.\n\nWhere should needle decompression be performed?",
+          "options": [
+            "Right 2nd intercostal space in the posterior axillary line",
+            "Left 4th intercostal space anterior to the mid-axillary line",
+            "Right 7th intercostal space in the mid-scapular line",
+            "Subxiphoid approach",
+            "Right 4th/5th intercostal space just anterior to the mid-axillary line"
+          ],
+          "answer": 4,
+          "explanation": "She has a **right tension pneumothorax**: obstructive shock, distended neck veins, trachea deviated **away** from the affected side, hyper-resonance and absent breath sounds. Decompression is on the **affected (right) side**. In adults, current EMST/ATLS guidance prefers the **4th/5th intercostal space just anterior to the mid-axillary line**, because the chest wall is thinner there and a standard cannula reaches the pleura more reliably than at the 2nd intercostal space mid-clavicular line. Decompression is followed by an intercostal catheter.",
+          "whyWrong": [
+            "This is not a recognised decompression site.",
+            "The trachea deviates away from the tension; decompress the right side, not the left.",
+            "Too low and posterior; risks liver injury and is impractical supine.",
+            "The subxiphoid approach is for pericardiocentesis.",
+            ""
+          ],
+          "tags": [
+            "tension pneumothorax",
+            "decompression",
+            "primary survey"
+          ]
+        },
+        {
+          "id": "trauma--chest-trauma--q3",
+          "discipline": "adult-surgery",
+          "topic": "trauma",
+          "difficulty": "exam",
+          "stem": "An 81-year-old woman falls down four steps at home. She has right-sided chest pain. CT shows fractures of the right 5th to 8th ribs without pneumothorax. She is on no anticoagulants. Her respiratory rate is 24/min and SpO2 93% on room air. She cannot take a deep breath or cough because of the pain despite oral paracetamol and oxycodone.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Discharge home with oral analgesia and GP review in 1 week",
+            "Admit for regional analgesia (such as an erector spinae or serratus anterior catheter), chest physiotherapy and monitoring",
+            "Insert an intercostal catheter",
+            "Operative rib fixation today",
+            "Prescribe prophylactic antibiotics and discharge"
+          ],
+          "answer": 1,
+          "explanation": "Multiple rib fractures in an **older patient** carry a high risk of **pneumonia, respiratory failure and death**, which rises with each additional fracture. The main problem is **pain preventing deep breathing and coughing**, leading to atelectasis and infection. She needs admission for **effective multimodal analgesia**, including **regional techniques** (erector spinae or serratus anterior catheters, or epidural), incentive spirometry and chest physiotherapy. An ICC is not needed without a pneumothorax or haemothorax. Rib fixation is reserved for selected patients such as flail chest.",
+          "whyWrong": [
+            "Discharging an elderly patient with four rib fractures and uncontrolled pain is unsafe.",
+            "",
+            "There is no pneumothorax or haemothorax to drain.",
+            "Fixation is used in selected cases such as flail chest, not first-line.",
+            "Prophylactic antibiotics do not prevent pneumonia; analgesia and physiotherapy do."
+          ],
+          "tags": [
+            "rib fractures",
+            "elderly",
+            "analgesia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trauma--head-injury",
+      "title": "Head injury",
+      "minutes": 16,
+      "objectives": [
+        "Score the Glasgow Coma Scale accurately and use it to grade head injury",
+        "Apply the Canadian CT head rule and identify groups it excludes",
+        "Recognise extradural and subdural haematomas and signs of raised intracranial pressure",
+        "Prevent secondary brain injury and manage anticoagulated patients safely"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Head injury in Australian practice",
+          "body": "Head injury is common: falls in older people, road trauma, sport (concussion in football codes is a major public issue in Australia) and assault, often alcohol-related. Most presentations are **mild** (GCS 13-15), and the key decision is **who needs a CT**. Severe traumatic brain injury (TBI) is a leading cause of death and disability in young adults.\n\n**Primary brain injury** occurs at impact. What doctors can prevent is **secondary brain injury**, caused by **hypoxia, hypotension**, raised intracranial pressure (ICP), hypercapnia, hypoglycaemia and seizures. A single episode of hypotension or hypoxia substantially worsens outcome."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Mechanisms and bleeds",
+          "body": "The skull is a rigid box (Monro-Kellie doctrine): brain, blood and CSF must share a fixed volume. When a haematoma or swelling expands, CSF and venous blood are pushed out first; once that compensation is exhausted, ICP rises steeply, cerebral perfusion pressure (CPP = MAP minus ICP) falls and the brain herniates.\n\n| Bleed | Vessel | Typical patient | CT |\n|---|---|---|---|\n| **Extradural (epidural)** | Middle meningeal artery, after temporal bone fracture | Young adult, blow to the side of the head | **Biconvex (lentiform)**, does not cross sutures |\n| **Acute subdural** | Bridging veins | Older people, alcohol, anticoagulants, high-energy injury | **Crescentic**, crosses sutures |\n| **Chronic subdural** | Bridging veins, slow bleed | Elderly, alcohol, anticoagulants; trivial or forgotten fall weeks before | Crescent, hypodense (dark) |\n| Traumatic subarachnoid | Cortical vessels | Any | Blood in sulci |\n| Diffuse axonal injury | Shearing | High-speed deceleration | CT may look near normal despite deep coma |"
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "GCS and clinical signs",
+          "body": "**Glasgow Coma Scale (3-15):**\n- **Eyes (4):** spontaneous 4, to sound 3, to pressure 2, none 1\n- **Verbal (5):** oriented 5, confused 4, words 3, sounds 2, none 1\n- **Motor (6):** obeys 6, localises 5, normal flexion (withdraws) 4, abnormal flexion 3, extension 2, none 1\n\nSeverity: **mild 13-15, moderate 9-12, severe 3-8**. **GCS 8 or less generally needs a definitive airway.**\n\n**Extradural haematoma:** classic **lucid interval** (brief loss of consciousness, recovery, then deterioration as the arterial bleed expands), headache, vomiting, ipsilateral dilated pupil.\n\n**Raised ICP:** headache, vomiting, falling GCS, **unilateral fixed dilated pupil** (third nerve compression by uncal herniation), and **Cushing's response** (hypertension, bradycardia, irregular breathing), which is a late, pre-terminal sign.\n\n**Base of skull fracture:** **periorbital (raccoon) bruising**, **Battle's sign** (mastoid bruising), **CSF rhinorrhoea or otorrhoea**, haemotympanum.\n\n**Chronic subdural:** fluctuating confusion, headache, drowsiness or focal weakness in an older person, often mistaken for dementia or stroke."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Who needs a CT head?",
+          "body": "**CT brain without contrast** is the imaging test. For adults with **minor head injury** (GCS 13-15 with witnessed loss of consciousness, amnesia or disorientation), the **Canadian CT head rule** identifies who needs a scan.\n\n**High risk (need for neurosurgery):**\n- GCS below 15 at 2 hours after injury\n- Suspected open or depressed skull fracture\n- Any sign of base of skull fracture\n- Vomiting two or more times\n- Age 65 or older\n\n**Medium risk (brain injury on CT):**\n- Amnesia for events 30 minutes or more before impact\n- Dangerous mechanism (pedestrian struck, ejected from vehicle, fall from over 1 m or five stairs)\n\n**The rule does not apply** to patients on **anticoagulants** or with bleeding disorders, children, those with seizures after injury, or those with no loss of consciousness or amnesia. **Anticoagulated patients have a low threshold for CT** (many local protocols scan all anticoagulated patients with a head strike, and some recommend observation or a repeat scan because bleeds can be delayed). For children, the PECARN rule is used (see child health).\n\nAlso check glucose, blood alcohol if relevant, coagulation profile in anticoagulated patients, and a C-spine assessment."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Is it the head injury?",
+          "body": "A low GCS in a trauma patient is not always from brain injury, and the head injury may be the result of another problem rather than the cause:\n- **Hypoglycaemia:** check a glucose in every patient with altered consciousness\n- **Hypoxia and hypotension:** fix them and reassess the GCS\n- **Alcohol and drugs:** a common confounder in young men; never attribute a low GCS to intoxication until CT has excluded a bleed\n- **Post-ictal state:** a seizure may have caused the fall, or followed the injury\n- **Stroke or syncope** causing the fall in an older person: ask what happened before the fall (ECG, consider arrhythmia)\n- **Carbon monoxide** after a fire in an enclosed space"
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Severe TBI (GCS 8 or less):**\n- Airway: **RSI with in-line stabilisation**, aim for normal oxygen and **normocapnia** (hyperventilation only briefly for impending herniation)\n- Avoid **hypotension**: keep systolic BP above about 100-110 mmHg (no permissive hypotension)\n- Head up 30 degrees, avoid tight collars impeding venous return\n- **Hyperosmolar therapy** (hypertonic saline or mannitol) for signs of raised ICP or herniation\n- Treat seizures, maintain glucose and temperature\n- Urgent **neurosurgical referral**; extradural and significant acute subdural haematomas with mass effect need **evacuation** (craniotomy). In remote areas where transfer is impossible, burr holes may be discussed with neurosurgery by telehealth\n\n**Anticoagulated patients with intracranial bleeding:** reverse promptly per local protocol, e.g. **warfarin: prothrombin complex concentrate (Prothrombinex-VF) plus IV vitamin K**; **dabigatran: idarucizumab**. Discuss factor Xa inhibitor reversal with haematology.\n\n**Mild head injury discharged home:**\n- Written advice and a responsible adult to stay with them\n- Return if: worsening headache, repeated vomiting, drowsiness, confusion, seizure, weakness, clear fluid from nose or ears\n- **Concussion:** relative rest for 24-48 hours, then graded return to activity; **no return to contact sport until symptom-free and cleared** (graduated return-to-sport protocols apply in Australian football codes)\n- Driving: advise not to drive while symptomatic (check Austroads)"
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Know the GCS components cold; questions give descriptions and ask for the total.\n- Lucid interval after a temporal blow = **extradural haematoma**; biconvex on CT.\n- Elderly person with gradual confusion weeks after a minor fall, often on anticoagulants or alcohol = **chronic subdural**.\n- Anticoagulated head strike: **CT**, even if GCS 15, and reverse if bleeding.\n- In TBI, **avoid hypotension**; permissive hypotension is contraindicated.\n- A dilated pupil on one side with falling GCS: urgent neurosurgery; hyperosmolar therapy as a bridge."
+        }
+      ],
+      "keyPoints": [
+        "GCS: eyes 4, verbal 5, motor 6; GCS 8 or less usually needs intubation.",
+        "Prevent secondary brain injury: avoid hypoxia, hypotension, hypercapnia, hypoglycaemia and seizures.",
+        "Canadian CT head rule for minor head injury; it excludes anticoagulated patients, children and those with seizures.",
+        "Age 65 or older, vomiting twice or more, GCS below 15 at 2 hours, skull fracture signs are high-risk features.",
+        "Extradural: lucid interval, biconvex; subdural: crescentic, elderly or anticoagulated.",
+        "Reverse anticoagulation in intracranial bleeding (warfarin: prothrombin complex concentrate plus vitamin K).",
+        "Discharged patients need written head injury advice and a responsible adult."
+      ],
+      "redFlags": [
+        "Falling GCS or new unilateral dilated pupil",
+        "Cushing's response: hypertension with bradycardia",
+        "Head injury in a patient on anticoagulants or antiplatelets",
+        "Signs of base of skull fracture or CSF leak",
+        "Seizure after head injury"
+      ],
+      "contrast": [
+        {
+          "aspect": "Deciding on CT after minor head injury",
+          "india": "CT is often ordered for most head injuries if affordable, or not at all if not.",
+          "australia": "Validated rules (Canadian CT head, PECARN in children) guide imaging to limit unnecessary radiation."
+        },
+        {
+          "aspect": "Concussion in sport",
+          "india": "Limited formal return-to-play guidance.",
+          "australia": "Graduated return-to-sport protocols; no same-day return to contact sport after suspected concussion."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "GCS motor score for abnormal (decorticate) flexion?",
+          "back": "3."
+        },
+        {
+          "front": "Classic CT appearance of an extradural haematoma?",
+          "back": "Biconvex (lentiform) hyperdensity that does not cross suture lines."
+        },
+        {
+          "front": "Name the Canadian CT head rule high-risk features.",
+          "back": "GCS <15 at 2 h, suspected open/depressed fracture, base of skull fracture signs, vomiting 2 or more times, age 65 or over."
+        },
+        {
+          "front": "What is Cushing's response?",
+          "back": "Hypertension, bradycardia and irregular breathing from raised ICP; a late sign of herniation."
+        },
+        {
+          "front": "Reversal of warfarin in intracranial haemorrhage?",
+          "back": "Prothrombin complex concentrate (Prothrombinex-VF) plus IV vitamin K."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "trauma--head-injury--q1",
+          "discipline": "adult-surgery",
+          "topic": "trauma",
+          "difficulty": "foundation",
+          "stem": "A 24-year-old man is assaulted outside a hotel. In the emergency department he opens his eyes only when his trapezius is squeezed, makes incomprehensible sounds and pulls his arm away from the painful stimulus without localising.\n\nWhat is his Glasgow Coma Scale score?",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "answer": 2,
+          "explanation": "Score each component: **Eyes** open to pressure = **2**. **Verbal** incomprehensible sounds = **2**. **Motor** withdraws from pain (normal flexion) without localising = **4**. Total **E2 V2 M4 = 8**. A GCS of 8 or less defines severe head injury and usually means he cannot protect his airway, so he needs a **definitive airway** (RSI with in-line stabilisation), followed by CT brain and neurosurgical input. Localising (moving the hand to the site of pain) would score 5; abnormal flexion (decorticate) would score 3.",
+          "whyWrong": [
+            "This underestimates the motor score; withdrawal is 4.",
+            "This scores the motor response as abnormal flexion (3) rather than withdrawal (4).",
+            "",
+            "This would require localising (M5) or better eye opening.",
+            "This overestimates; incomprehensible sounds score 2, not words (3)."
+          ],
+          "tags": [
+            "gcs",
+            "head injury",
+            "airway"
+          ]
+        },
+        {
+          "id": "trauma--head-injury--q2",
+          "discipline": "adult-surgery",
+          "topic": "trauma",
+          "difficulty": "core",
+          "stem": "A 19-year-old man is hit on the side of the head by a cricket ball. He was knocked out for about a minute, then felt well and chatted with teammates. Two hours later he develops a severe headache, vomits and becomes drowsy. GCS is now 10, and his right pupil is dilated and sluggish.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Extradural haematoma",
+            "Diffuse axonal injury",
+            "Acute subdural haematoma",
+            "Traumatic subarachnoid haemorrhage",
+            "Concussion"
+          ],
+          "answer": 0,
+          "explanation": "A blow to the **temporal region**, brief loss of consciousness, a **lucid interval**, then rapid deterioration with a **dilated ipsilateral pupil** is the classic **extradural haematoma**. A temporal bone fracture tears the **middle meningeal artery**; arterial pressure strips the dura off the skull, producing a **biconvex** haematoma on CT that does not cross suture lines. This is a neurosurgical emergency: airway, avoid hypotension and hypoxia, hyperosmolar therapy as a bridge, and urgent craniotomy. Outcomes are good if evacuated early.",
+          "whyWrong": [
+            "",
+            "Diffuse axonal injury causes immediate, persistent coma.",
+            "Acute subdural usually follows higher-energy injury in older patients, often without a lucid interval.",
+            "Traumatic SAH rarely causes a lucid interval and focal pupil signs.",
+            "Concussion does not cause a falling GCS and a dilated pupil."
+          ],
+          "tags": [
+            "extradural haematoma",
+            "lucid interval",
+            "neurosurgery"
+          ]
+        },
+        {
+          "id": "trauma--head-injury--q3",
+          "discipline": "adult-surgery",
+          "topic": "trauma",
+          "difficulty": "exam",
+          "stem": "A 72-year-old woman trips at the shopping centre and hits her forehead. She did not lose consciousness and has no amnesia. She has a small forehead haematoma, no vomiting and a GCS of 15. She takes apixaban for atrial fibrillation.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Discharge with head injury advice because she did not lose consciousness",
+            "Apply the Canadian CT head rule; scan only if she vomits twice",
+            "Skull X-ray",
+            "Admit for 24 hours of neurological observations without imaging",
+            "Non-contrast CT brain"
+          ],
+          "answer": 4,
+          "explanation": "The **Canadian CT head rule does not apply to anticoagulated patients**, who have a much higher risk of intracranial haemorrhage after even minor head trauma and whose bleeds may progress. She is also older than 65. A **non-contrast CT brain** is indicated despite a normal GCS and no loss of consciousness. If a bleed is found, reversal and neurosurgical discussion follow; if normal, many protocols include a period of observation and clear safety-netting, since delayed bleeding can occur. Skull X-rays have no role in modern head injury assessment.",
+          "whyWrong": [
+            "Anticoagulated patients are at high risk even without loss of consciousness.",
+            "The rule excludes anticoagulated patients.",
+            "Skull X-ray does not show intracranial bleeding and is obsolete for this purpose.",
+            "Observation without imaging could miss an expanding bleed.",
+            ""
+          ],
+          "tags": [
+            "head injury",
+            "anticoagulation",
+            "ct head"
+          ]
+        },
+        {
+          "id": "trauma--head-injury--q4",
+          "discipline": "adult-surgery",
+          "topic": "trauma",
+          "difficulty": "core",
+          "stem": "An 84-year-old man living alone is brought in by his daughter with 2 weeks of increasing confusion, headache and unsteadiness. He fell in his garden about a month ago but \"didn't hit his head hard\". He drinks 4 standard drinks daily and takes aspirin. He is drowsy with a GCS of 13 and a mild left-sided weakness.\n\nWhat is the most likely finding on CT brain?",
+          "options": [
+            "Right-sided crescentic hypodense collection crossing suture lines",
+            "Left-sided biconvex hyperdense collection",
+            "Blood in the basal cisterns",
+            "Multiple punctate haemorrhages at the grey-white junction",
+            "Normal CT with generalised atrophy only"
+          ],
+          "answer": 0,
+          "explanation": "An elderly man with **alcohol use, antiplatelet therapy and cerebral atrophy** (which stretches bridging veins) presenting with **subacute, fluctuating confusion and headache** weeks after a minor fall has a **chronic subdural haematoma** until proven otherwise. On CT, it is a **crescent-shaped collection that crosses suture lines**, and after about 3 weeks it becomes **hypodense** (darker than brain). His **left** weakness means the collection is on the **right**. Management is neurosurgical referral (burr hole drainage if symptomatic), stopping antiplatelets where possible and addressing alcohol. This is a common reversible cause of \"confusion\" in the elderly.",
+          "whyWrong": [
+            "",
+            "A biconvex collection is extradural, and a left lesion would cause right weakness.",
+            "Basal cistern blood suggests subarachnoid haemorrhage, typically aneurysmal with thunderclap headache.",
+            "Punctate grey-white junction haemorrhages suggest diffuse axonal injury after high-energy trauma.",
+            "His focal signs make a structural lesion likely."
+          ],
+          "tags": [
+            "chronic subdural",
+            "elderly",
+            "confusion"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trauma--spinal-injury",
+      "title": "Spinal injury and C-spine clearance",
+      "minutes": 14,
+      "objectives": [
+        "Apply NEXUS and the Canadian C-spine rule to decide who needs cervical spine imaging",
+        "Choose the right imaging test for suspected spinal injury",
+        "Distinguish neurogenic shock from haemorrhagic shock and spinal shock",
+        "Recognise the common incomplete cord syndromes"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why spinal injury matters",
+          "body": "Spinal cord injury is uncommon but devastating, affecting mainly young men (road trauma, diving into shallow water, falls, sport) and older people (falls from standing, often with hyperextension of a stiff, arthritic neck). Many more patients have neck pain after low-energy injury and need a safe, evidence-based decision about imaging.\n\nThe AMC tests whether you can **clear the C-spine clinically** using a validated rule, **image** the right patients with the right test, and recognise **neurogenic shock**."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Clinical decision rules for the C-spine",
+          "body": "Both rules apply to **alert, stable** trauma patients.\n\n**NEXUS:** imaging is **not** needed if **all five** are present:\n1. No posterior midline cervical tenderness\n2. No focal neurological deficit\n3. Normal alertness\n4. No intoxication\n5. No painful distracting injury\n\n**Canadian C-spine rule** (more specific, for alert patients with GCS 15):\n1. **Any high-risk factor that mandates imaging?**\n   - Age **65 or older**\n   - **Dangerous mechanism** (fall from 1 m or five stairs, axial load to head such as diving, high-speed crash or rollover or ejection, motorised recreational vehicle, bicycle collision)\n   - **Paraesthesias** in the extremities\n2. **Any low-risk factor that allows safe assessment of range of motion?** Simple rear-end collision, sitting position in ED, ambulatory at any time, delayed onset of neck pain, absence of midline tenderness. If none, image.\n3. **Can the patient actively rotate the neck 45 degrees left and right?** If yes, no imaging needed.\n\nThe rule does not apply to children, patients with GCS below 15, unstable vital signs, known spinal disease, or acute paralysis."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Cord injury and shock",
+          "body": "**Neurogenic shock:** injury above about T6 disrupts sympathetic outflow, causing **vasodilatation and unopposed vagal tone**: **hypotension with bradycardia** and **warm, pink peripheries**. This is the opposite of haemorrhagic shock (tachycardia, cold and clammy). Always exclude haemorrhage first in a trauma patient, because both can coexist.\n\n**Spinal shock** is different: a temporary loss of all reflexes and tone below the injury (flaccid paralysis, areflexia), which resolves over days to weeks, after which spasticity and hyperreflexia appear.\n\n**Incomplete cord syndromes:**\n| Syndrome | Mechanism | Deficit |\n|---|---|---|\n| **Central cord** | Hyperextension in older patient with cervical spondylosis | **Arms weaker than legs**, variable sensory loss |\n| **Anterior cord** | Flexion injury, anterior spinal artery ischaemia | Loss of motor, pain and temperature; **preserved proprioception and vibration** |\n| **Brown-Sequard** | Hemisection (often penetrating) | **Ipsilateral** motor and proprioception loss, **contralateral** pain and temperature loss |\n| Cauda equina | Lumbar injury below conus | Saddle anaesthesia, sphincter dysfunction, lower motor neuron signs |"
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical assessment",
+          "body": "- Mechanism and neck pain\n- Midline tenderness or step deformity on log roll\n- Full neurological examination: power, sensation (dermatomes: C5 deltoid area, C6 thumb, C7 middle finger, C8 little finger, T4 nipple, T10 umbilicus, L4 medial shin, L5 dorsum of foot, S1 lateral foot), reflexes, **perianal sensation and anal tone** (sacral sparing indicates an incomplete injury with better prognosis)\n- **Priapism** and diaphragmatic breathing are signs of cervical cord injury\n- Hypotension with bradycardia (neurogenic shock)"
+        },
+        {
+          "kind": "investigations",
+          "heading": "Imaging",
+          "body": "- **CT cervical spine** is the first-line imaging in adults who need imaging; it is more sensitive than plain films, which are now rarely used in adults\n- **MRI** for neurological deficit, suspected ligamentous or cord injury, or when CT is normal but symptoms or signs persist; also in obtunded patients per local protocol\n- **Thoracolumbar injury:** CT (often part of trauma CT); a **seatbelt sign** with a flexion-distraction (Chance) fracture is associated with bowel injury\n- Image the whole spine if one fracture is found (non-contiguous fractures are common)"
+        },
+        {
+          "kind": "differentials",
+          "heading": "Special situations",
+          "body": "- **Ankylosing spondylitis and diffuse idiopathic skeletal hyperostosis (DISH):** a rigid, brittle spine fractures after minor trauma, and fractures are often unstable. Always image (CT, often plus MRI) and keep the neck in its usual (often flexed) position; do not force it straight.\n- **Osteoporotic vertebral fractures** in older people after minimal trauma: usually stable wedge fractures, but check for neurological signs and treat the osteoporosis.\n- **Children:** ligamentous laxity allows spinal cord injury without an obvious fracture on imaging (SCIWORA), so neurological symptoms need MRI. Children also have large heads, so a spinal board flexes the neck unless the back is padded.\n- **Thoracolumbar fractures:** falls from height landing on the feet cause burst fractures (look for calcaneal fractures too); lap-belt injuries cause flexion-distraction (Chance) fractures with associated bowel injury."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "- **Spinal motion restriction:** maintain in-line alignment during airway management and transfers. Australian practice has moved away from routine rigid cervical collars for everyone (they can raise ICP, cause pressure injury and obstruct the airway); many services now use minimal immobilisation with manual stabilisation, head blocks or a soft collar. Follow the local protocol.\n- **Log roll** with enough staff to examine the back.\n- **Neurogenic shock:** first exclude and treat haemorrhage; then cautious fluids, **vasopressors** (e.g. noradrenaline) and **atropine** for symptomatic bradycardia. Aim to maintain spinal cord perfusion (MAP targets are often set by the spinal unit).\n- **Steroids are not recommended** for acute spinal cord injury.\n- Early referral to a **spinal injuries unit** (each state has designated units).\n- Prevent complications: pressure injury, urinary retention (catheter), VTE prophylaxis, ileus, and **autonomic dysreflexia** later in injuries above T6 (sudden hypertension triggered by a full bladder or constipation; sit up and remove the trigger)."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- An alert, sober 30-year-old after a low-speed rear-end collision, walking in the department, no midline tenderness, able to rotate 45 degrees: **no imaging**.\n- Age 65 or older, a dangerous mechanism or paraesthesias: **image**, and the test is **CT**.\n- Hypotension with **bradycardia** and warm peripheries = **neurogenic shock**; but exclude bleeding first.\n- Elderly person, fall onto the face, arms weaker than legs = **central cord syndrome**."
+        }
+      ],
+      "keyPoints": [
+        "NEXUS: no imaging if no midline tenderness, no focal deficit, alert, not intoxicated, no distracting injury.",
+        "Canadian C-spine rule: image if age 65 or over, dangerous mechanism or paraesthesias.",
+        "If low-risk features allow assessment and the patient can rotate 45 degrees both ways, no imaging.",
+        "CT is the first-line imaging for adult C-spine; MRI for neurological deficit or ligamentous injury.",
+        "Neurogenic shock: hypotension, bradycardia, warm peripheries; exclude haemorrhage first.",
+        "Central cord syndrome: hyperextension in older patients, arms weaker than legs.",
+        "Steroids are not recommended; refer early to a spinal injuries unit."
+      ],
+      "redFlags": [
+        "Paraesthesias or weakness after neck injury",
+        "Hypotension with bradycardia in trauma",
+        "Loss of anal tone or perianal sensation",
+        "Priapism or diaphragmatic breathing"
+      ],
+      "contrast": [
+        {
+          "aspect": "Imaging the neck after injury",
+          "india": "Plain C-spine X-rays are commonly ordered for most neck injuries.",
+          "australia": "Clinical rules decide who needs imaging; CT is the first-line test in adults."
+        },
+        {
+          "aspect": "Routine rigid collars",
+          "india": "Hard collars applied routinely.",
+          "australia": "Moving towards minimal spinal motion restriction; rigid collars are not applied routinely in many services."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "List the five NEXUS criteria.",
+          "back": "No midline tenderness, no focal deficit, normal alertness, no intoxication, no distracting injury."
+        },
+        {
+          "front": "Three high-risk factors in the Canadian C-spine rule?",
+          "back": "Age 65 or older, dangerous mechanism, paraesthesias in extremities."
+        },
+        {
+          "front": "Haemodynamic signature of neurogenic shock?",
+          "back": "Hypotension with bradycardia and warm peripheries."
+        },
+        {
+          "front": "Pattern of weakness in central cord syndrome?",
+          "back": "Arms weaker than legs; typically hyperextension in an elderly spondylotic neck."
+        },
+        {
+          "front": "First-line imaging for suspected adult C-spine injury?",
+          "back": "CT cervical spine."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "trauma--spinal-injury--q1",
+          "discipline": "adult-surgery",
+          "topic": "trauma",
+          "difficulty": "foundation",
+          "stem": "A 32-year-old woman presents after her stationary car was hit from behind at low speed. She walked into the emergency department and is sitting up. She has mild neck stiffness that started an hour after the crash. She is alert and sober, with no neurological symptoms and no midline cervical tenderness. She can actively rotate her neck 45 degrees to each side.\n\nWhat is the most appropriate management?",
+          "options": [
+            "CT cervical spine",
+            "Cervical spine X-ray series",
+            "MRI cervical spine",
+            "Rigid cervical collar for 2 weeks",
+            "Discharge with analgesia and advice, without imaging"
+          ],
+          "answer": 4,
+          "explanation": "Applying the **Canadian C-spine rule**: she has **no high-risk factors** (under 65, no dangerous mechanism, no paraesthesias). She has **low-risk factors** (simple rear-end collision, sitting in the ED, ambulatory, delayed onset of pain, no midline tenderness), so range of motion can be tested, and she **can rotate 45 degrees each way**. Her C-spine is clinically cleared: **no imaging** is needed. She should have simple analgesia, advice to stay active, and return precautions. Unnecessary imaging adds radiation and cost without benefit.",
+          "whyWrong": [
+            "She meets the rule's criteria for clinical clearance, so CT is unnecessary.",
+            "Plain films are neither needed nor the preferred adult imaging.",
+            "MRI is for neurological deficit or suspected ligamentous injury.",
+            "Collars prolong symptoms and are not indicated for whiplash.",
+            ""
+          ],
+          "tags": [
+            "canadian c-spine rule",
+            "whiplash",
+            "imaging"
+          ]
+        },
+        {
+          "id": "trauma--spinal-injury--q2",
+          "discipline": "adult-surgery",
+          "topic": "trauma",
+          "difficulty": "core",
+          "stem": "A 24-year-old man dives into a shallow river. He is brought to a regional hospital unable to move his legs. Heart rate is 48/min, blood pressure 78/42 mmHg. His hands and feet are warm and pink. eFAST is negative and there is no external bleeding or pelvic instability.\n\nWhat is the most likely cause of his hypotension?",
+          "options": [
+            "Haemorrhagic shock",
+            "Neurogenic shock",
+            "Spinal shock",
+            "Cardiogenic shock from blunt cardiac injury",
+            "Tension pneumothorax"
+          ],
+          "answer": 1,
+          "explanation": "Cervical cord injury disrupts **sympathetic outflow**, leaving unopposed vagal tone: **hypotension with bradycardia** and **warm, vasodilated peripheries**. This is **neurogenic shock**. Haemorrhage causes tachycardia and cold, clammy skin, and eFAST and examination have not found a source. **Spinal shock** refers to the loss of reflexes and tone below the injury, not a haemodynamic state. Treatment is cautious fluids, vasopressors and atropine for bradycardia, with spinal motion restriction and transfer to a spinal unit. Always exclude bleeding first, as both can coexist.",
+          "whyWrong": [
+            "Haemorrhage causes tachycardia and cool peripheries, and no source was found.",
+            "",
+            "Spinal shock is loss of reflexes below the injury, not hypotension with bradycardia.",
+            "Blunt cardiac injury is unlikely from a diving mechanism and would not explain warm peripheries.",
+            "Tension pneumothorax causes tachycardia and unilateral chest signs."
+          ],
+          "tags": [
+            "neurogenic shock",
+            "spinal cord injury",
+            "diving"
+          ]
+        },
+        {
+          "id": "trauma--spinal-injury--q3",
+          "discipline": "adult-surgery",
+          "topic": "trauma",
+          "difficulty": "exam",
+          "stem": "A 78-year-old man with long-standing cervical spondylosis falls forward in the shower and strikes his forehead. He has severe weakness of both hands and forearms but can lift both legs against resistance. Sensation is patchy in the upper limbs. CT cervical spine shows degenerative changes but no fracture.\n\nWhat is the most likely diagnosis and next investigation?",
+          "options": [
+            "Brown-Sequard syndrome; CT angiography",
+            "Anterior cord syndrome; repeat CT in 24 hours",
+            "Central cord syndrome; MRI cervical spine",
+            "Bilateral carpal tunnel syndrome; nerve conduction studies",
+            "Cauda equina syndrome; MRI lumbar spine"
+          ],
+          "answer": 2,
+          "explanation": "A **hyperextension injury** (forehead strike) in an **older man with cervical spondylosis**, producing **arms weaker than legs**, is **central cord syndrome**. The spinal cord is pinched between osteophytes and the buckled ligamentum flavum; the centrally placed arm fibres of the corticospinal tract are most affected. CT often shows no fracture, so **MRI** is needed to assess cord oedema, disc injury and ligament damage. Refer to a spinal unit. Anterior cord syndrome spares proprioception and affects legs as much as arms. Brown-Sequard is a hemisection pattern.",
+          "whyWrong": [
+            "Brown-Sequard gives ipsilateral weakness with contralateral pain loss, not an arms-greater-than-legs pattern.",
+            "Anterior cord syndrome affects legs and arms with preserved dorsal columns; CT will not show the cord.",
+            "",
+            "Acute bilateral hand weakness after neck trauma is a cord injury, not carpal tunnel syndrome.",
+            "Cauda equina causes leg and sphincter problems, not hand weakness."
+          ],
+          "tags": [
+            "central cord syndrome",
+            "elderly",
+            "mri"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trauma--abdominal-and-pelvic-trauma",
+      "title": "Abdominal, pelvic and special-population trauma",
+      "minutes": 15,
+      "objectives": [
+        "Use eFAST and CT appropriately according to haemodynamic stability",
+        "Recognise splenic, liver, hollow viscus, pelvic and urethral injuries",
+        "Apply a pelvic binder and know when not to catheterise",
+        "Adapt trauma care for pregnancy, older people and children"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Overview",
+          "body": "Blunt abdominal trauma (road crashes, falls, farm and sporting injuries) is much more common in Australia than penetrating trauma. The **spleen** and **liver** are the most commonly injured solid organs. **Pelvic fractures** can bleed massively from the venous plexus and arteries. Clinical examination of the abdomen is unreliable in trauma, especially with head injury, intoxication or distracting injuries, so the **decision pathway depends on haemodynamic stability**."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Mechanisms of injury",
+          "body": "- **Compression:** the solid organs (spleen, liver, kidneys) are crushed against the ribs or spine. Lower rib fractures are a marker: left for spleen, right for liver.\n- **Deceleration:** organs tethered at a point (renal pedicle, mesentery, aorta) tear where mobile meets fixed.\n- **Sudden rise in intraluminal pressure:** a lap belt or handlebar compresses bowel against the spine, bursting it or tearing the mesentery. Hollow viscus injuries often **declare themselves late**, as peritonitis develops over hours.\n- **Pelvic fractures** follow three main force patterns: **anteroposterior compression** (\"open book\", which widens the pelvic ring and tears the posterior venous plexus, the worst for bleeding), **lateral compression** (the commonest, usually in side-impact crashes and falls) and **vertical shear** (fall from height landing on one leg). Around 85% of pelvic bleeding is venous or from the fracture surfaces, which is why closing the ring with a binder helps; arterial bleeding needs angioembolisation.\n- **Penetrating injury:** stab wounds injure what they pass through (liver, small bowel, colon); gunshot wounds are rare in Australia but cause far more damage through cavitation."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "- **Splenic injury:** left upper quadrant pain, left lower rib fractures, **Kehr's sign** (left shoulder tip pain from diaphragmatic irritation), shock\n- **Liver injury:** right upper quadrant pain, right lower rib fractures\n- **Hollow viscus injury:** **seatbelt sign** (bruising across the lower abdomen), may present late with peritonitis; associated with **Chance fracture** of the lumbar spine\n- **Pancreatic and duodenal injury:** handlebar injury in children and cyclists; epigastric pain, may be delayed\n- **Pelvic fracture:** high-energy mechanism, pain, leg length discrepancy, perineal bruising, shock. **Do not spring the pelvis** repeatedly; one gentle assessment at most\n- **Urethral injury** (men, with pelvic fracture or straddle injury): **blood at the urethral meatus**, scrotal or perineal haematoma, inability to void, **high-riding prostate** on rectal examination\n- **Bladder injury:** haematuria, suprapubic pain\n- **Renal injury:** flank bruising, haematuria"
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations: stability decides",
+          "body": "**eFAST** (extended focused assessment with sonography for trauma) at the bedside looks for free fluid in the hepatorenal pouch (Morison's), splenorenal area, pelvis and pericardium, plus pneumothorax. It is quick and repeatable but **operator dependent and does not exclude injury**, particularly retroperitoneal or hollow viscus injury.\n\n| Patient | Free fluid on eFAST | Next step |\n|---|---|---|\n| **Unstable** | Positive | **Laparotomy** (or angioembolisation if pelvic source) |\n| **Unstable** | Negative | Look for other sources: chest, pelvis, long bones, external; consider pelvic bleeding |\n| **Stable** | Any result | **CT abdomen and pelvis with IV contrast** |\n\nOther tests: FBC, crossmatch, lactate, lipase, urinalysis for blood, **pregnancy test in women of reproductive age**, pelvic X-ray in the resuscitation bay.\n\n**Retrograde urethrogram** is performed before catheterisation when urethral injury is suspected."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Unstable with a negative FAST: where is the blood?",
+          "body": "A negative eFAST does not mean the patient is not bleeding. Work systematically through the sources:\n\n| Source | How to find it |\n|---|---|\n| External | Look under dressings, the back and scalp (scalp wounds bleed briskly) |\n| Chest | Chest X-ray, eFAST for haemothorax |\n| Pelvis/retroperitoneum | Pelvic X-ray; FAST misses retroperitoneal blood |\n| Long bones | Examine both femurs; splint and apply traction |\n| Abdomen (early or small volume) | Repeat eFAST; CT only once stable |\n\nAlso consider **non-haemorrhagic shock**: tension pneumothorax, tamponade, neurogenic shock and, rarely, blunt cardiac injury."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Solid organ injury:**\n- **Unstable** with abdominal bleeding: **laparotomy** (damage-control surgery)\n- **Stable** splenic or liver injury: **non-operative management** is standard (ward or HDU observation, serial examination and haemoglobin), with **angioembolisation** for active contrast extravasation\n- **After splenectomy (or embolisation affecting splenic function):** vaccination against **pneumococcus, meningococcus (ACWY and B) and Haemophilus influenzae type b** per the Australian Immunisation Handbook, annual influenza vaccine, and advice about prompt treatment of fever (some patients have standby antibiotics)\n\n**Hollow viscus injury:** laparotomy; suspect when there is a seatbelt sign or free fluid without solid organ injury on CT.\n\n**Penetrating abdominal trauma:** unstable, peritonitic or eviscerated patients go to theatre; do not remove impaled objects in the ED.\n\n**Pelvic fracture with shock:**\n- **Pelvic binder** over the greater trochanters, legs strapped together\n- Blood products, TXA within 3 hours, MTP\n- Definitive control by **angioembolisation**, preperitoneal packing or external fixation\n- **Do not insert a urethral catheter** if there is blood at the meatus; perform a retrograde urethrogram and use a suprapubic catheter if needed\n\n**Special populations:**\n- **Pregnancy:** the best treatment for the fetus is resuscitating the mother. After about 20 weeks, relieve aortocaval compression by **manual uterine displacement or left lateral tilt**. Pregnant women compensate for significant blood loss before showing signs. Give **anti-D** to RhD-negative women and consider a Kleihauer test; monitor fetal heart rate (cardiotocography) for at least 4 hours after significant trauma to detect placental abruption. Ask about **family violence**, which often starts or escalates in pregnancy.\n- **Older people:** low-energy falls cause serious injuries; beta-blockers mask shock; anticoagulants increase bleeding. Lower thresholds for CT and admission.\n- **Children:** proportionally larger heads, flexible ribs (major internal injury without rib fractures), and they maintain blood pressure until late. Use weight-based fluids and blood."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Unstable + positive FAST = **theatre**; stable = **CT**.\n- Stable splenic laceration = **non-operative management**; active contrast blush = angioembolisation.\n- Blood at the meatus = **no urethral catheter**; retrograde urethrogram first.\n- Pregnant trauma patient: left lateral tilt or manual displacement, anti-D if RhD negative, CTG monitoring.\n- Post-splenectomy vaccines are a favourite question."
+        }
+      ],
+      "keyPoints": [
+        "Unstable with positive eFAST: laparotomy; stable: CT abdomen and pelvis with IV contrast.",
+        "eFAST does not exclude retroperitoneal or hollow viscus injury.",
+        "Stable spleen and liver injuries are managed non-operatively, with angioembolisation for active bleeding.",
+        "Post-splenectomy: pneumococcal, meningococcal (ACWY and B), Hib and annual influenza vaccines.",
+        "Pelvic fracture with shock: binder over greater trochanters, blood, TXA, angioembolisation or packing.",
+        "Blood at the urethral meatus: no catheter until a retrograde urethrogram.",
+        "Pregnant trauma: resuscitate the mother, displace the uterus, anti-D if RhD negative, CTG monitoring."
+      ],
+      "redFlags": [
+        "Seatbelt sign (hollow viscus and Chance fracture)",
+        "Blood at the urethral meatus or high-riding prostate",
+        "Left shoulder tip pain after left-sided trauma (splenic injury)",
+        "Pregnant trauma patient with abdominal pain, vaginal bleeding or uterine tenderness (abruption)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Stable splenic injury",
+          "india": "Splenectomy is still common, especially where monitoring is limited.",
+          "australia": "Non-operative management and angioembolisation are standard in trauma centres."
+        },
+        {
+          "aspect": "Post-splenectomy care",
+          "india": "Vaccination is variable.",
+          "australia": "Pneumococcal, meningococcal ACWY and B, Hib and influenza vaccines per the Australian Immunisation Handbook; fever action plan."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Next step for an unstable trauma patient with free fluid on FAST?",
+          "back": "Laparotomy."
+        },
+        {
+          "front": "What is Kehr's sign?",
+          "back": "Left shoulder tip pain from diaphragmatic irritation by blood, suggesting splenic injury."
+        },
+        {
+          "front": "Contraindication to urethral catheterisation in pelvic trauma?",
+          "back": "Blood at the urethral meatus (suspected urethral injury): do a retrograde urethrogram first."
+        },
+        {
+          "front": "Vaccines after splenectomy?",
+          "back": "Pneumococcal, meningococcal ACWY and B, Hib, and annual influenza."
+        },
+        {
+          "front": "How to relieve aortocaval compression in a pregnant trauma patient after 20 weeks?",
+          "back": "Manual uterine displacement to the left or left lateral tilt."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "trauma--abdominal-and-pelvic-trauma--q1",
+          "discipline": "adult-surgery",
+          "topic": "trauma",
+          "difficulty": "core",
+          "stem": "A 28-year-old man is brought in after a motorcycle crash. He is alert. Heart rate is 96/min, blood pressure 124/78 mmHg after 1 unit of blood. He has left upper quadrant tenderness and left shoulder tip pain. eFAST shows a small amount of free fluid in the splenorenal space.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Immediate laparotomy",
+            "Diagnostic peritoneal lavage",
+            "CT abdomen and pelvis with IV contrast",
+            "Discharge with analgesia",
+            "Repeat FAST in 24 hours"
+          ],
+          "answer": 2,
+          "explanation": "He has a suspected **splenic injury** (left upper quadrant tenderness, **Kehr's sign**, splenorenal fluid) but is now **haemodynamically stable**. Stable patients go to **CT with IV contrast**, which grades the injury, shows active contrast extravasation (which predicts need for angioembolisation) and identifies other injuries. Most stable splenic injuries are managed non-operatively. An immediate laparotomy is for the unstable patient with a positive FAST. DPL has largely been replaced by FAST and CT.",
+          "whyWrong": [
+            "Laparotomy is for unstable patients; he is stable.",
+            "DPL is invasive and largely obsolete where FAST and CT are available.",
+            "",
+            "He has a likely splenic injury and must be admitted.",
+            "Waiting 24 hours without CT risks missing an active bleed."
+          ],
+          "tags": [
+            "splenic injury",
+            "fast",
+            "blunt abdominal trauma"
+          ]
+        },
+        {
+          "id": "trauma--abdominal-and-pelvic-trauma--q2",
+          "discipline": "adult-surgery",
+          "topic": "trauma",
+          "difficulty": "foundation",
+          "stem": "A 45-year-old man is trapped under a quad bike. In the emergency department he has pelvic pain, heart rate 124/min and blood pressure 92/56 mmHg. There is blood at the urethral meatus and a perineal haematoma. The pelvic X-ray shows an open-book fracture. A pelvic binder has been applied.\n\nWhich action should be avoided?",
+          "options": [
+            "Activating the massive transfusion protocol",
+            "Giving tranexamic acid",
+            "Arranging angioembolisation",
+            "Inserting a urethral catheter",
+            "Performing a retrograde urethrogram"
+          ],
+          "answer": 3,
+          "explanation": "**Blood at the urethral meatus** with a pelvic fracture and perineal haematoma indicates a likely **urethral injury**. Passing a urethral catheter blindly can convert a partial tear into a complete transection or introduce infection. A **retrograde urethrogram** should be performed first; if urinary drainage is needed, a **suprapubic catheter** is used. The other options are appropriate in pelvic fracture with haemorrhagic shock: MTP, TXA within 3 hours, and angioembolisation or packing for definitive control. Quad bikes are a major cause of rural injury in Australia.",
+          "whyWrong": [
+            "He is in haemorrhagic shock; MTP is appropriate.",
+            "TXA is indicated within 3 hours of injury.",
+            "Angioembolisation controls pelvic arterial bleeding.",
+            "",
+            "A retrograde urethrogram is the correct way to assess the urethra."
+          ],
+          "ausPearl": "Quad bikes are a leading cause of death on Australian farms; this mechanism appears in AMC-style vignettes.",
+          "tags": [
+            "pelvic fracture",
+            "urethral injury",
+            "catheter"
+          ]
+        },
+        {
+          "id": "trauma--abdominal-and-pelvic-trauma--q3",
+          "discipline": "adult-surgery",
+          "topic": "trauma",
+          "difficulty": "exam",
+          "stem": "A 29-year-old woman who is 32 weeks pregnant is brought in after a car crash. She is wearing a seatbelt. She has mild abdominal pain. Heart rate is 104/min, blood pressure 104/64 mmHg. She is lying flat on a trauma trolley. Her blood group is O RhD negative.\n\nWhat is the most appropriate immediate step?",
+          "options": [
+            "Manually displace the uterus to the left (or apply left lateral tilt)",
+            "Immediate caesarean section",
+            "CT abdomen and pelvis before any other step",
+            "Discharge after 30 minutes of normal fetal heart rate",
+            "Give anti-D immunoglobulin before assessing the airway"
+          ],
+          "answer": 0,
+          "explanation": "After about 20 weeks, the gravid uterus compresses the **inferior vena cava** when the woman lies supine, reducing venous return and cardiac output. **Manual uterine displacement to the left or left lateral tilt** (while maintaining spinal alignment) is an immediate, simple step in her primary survey. Then continue ABCDE: the best care for the fetus is resuscitating the mother. She also needs **anti-D** as she is RhD negative (after the primary survey), a Kleihauer test, and **CTG monitoring for at least 4 hours** to detect placental abruption. Imaging including CT is performed if clinically indicated; it should not be withheld because of pregnancy.",
+          "whyWrong": [
+            "",
+            "Caesarean section is not indicated without fetal distress or maternal arrest.",
+            "Imaging comes after immediate resuscitation steps.",
+            "Abruption can present later; monitoring for at least 4 hours is recommended.",
+            "Anti-D is important but does not come before the airway."
+          ],
+          "tags": [
+            "trauma in pregnancy",
+            "aortocaval compression",
+            "anti-d"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trauma--burns-and-inflicted-injury",
+      "title": "Burns, and injuries that don't fit",
+      "minutes": 17,
+      "objectives": [
+        "Give correct burns first aid and assess burn size and depth",
+        "Calculate burns fluid resuscitation and monitor response",
+        "Recognise inhalation injury and circumferential burns needing urgent intervention",
+        "Apply burns unit referral criteria and recognise non-accidental injury and elder abuse"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Burns in Australia",
+          "body": "Burns are common in Australia: scalds in toddlers (hot drinks, bath water), flame burns in young men (petrol, campfires, barbecues), contact burns and, in rural areas, bushfire injuries. Australian burns care is taught through the ANZBA **Emergency Management of Severe Burns (EMSB)** course. **First aid is highly effective** and is examined heavily, as are referral criteria."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Burn depth and why it matters",
+          "body": "Heat causes coagulative necrosis surrounded by a zone of stasis (which can be saved by cooling and good resuscitation, or lost if the burn is not cooled) and a zone of hyperaemia. Large burns trigger **systemic capillary leak**, causing massive fluid shifts (burn shock) over the first 24-48 hours.\n\n| Depth | Appearance | Sensation | Capillary refill | Healing |\n|---|---|---|---|---|\n| **Epidermal (superficial)** | Red, no blisters (e.g. sunburn) | Painful | Brisk | Days; **not counted in TBSA** |\n| **Superficial partial (dermal)** | Blisters, pink, moist | **Very painful** | Brisk | Within 2 weeks |\n| **Deep partial (dermal)** | Blotchy red or white, dry | Reduced | Sluggish | Slow, scarring, may need grafting |\n| **Full thickness** | White, leathery or charred | **Painless** | Absent | Needs grafting |\n\nBurns heal from surviving skin appendages; deep burns have none, hence grafting."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Assessment",
+          "body": "**Primary survey** as for any trauma, then burns-specific assessment.\n\n**Burn size (% total body surface area, TBSA):**\n- **Patient's palm including fingers** is about **1%**, useful for small or patchy burns\n- **Rule of nines** in adults: head 9, each arm 9, anterior trunk 18, posterior trunk 18, each leg 18, perineum 1\n- Children have proportionally larger heads and smaller legs; use a **Lund and Browder chart**\n- **Do not count epidermal (red only) burns**\n\n**Inhalation injury** (suspect with enclosed space fire or explosion):\n- Facial burns, **singed nasal hair or eyebrows**, **soot in the mouth or nose**, carbonaceous sputum\n- **Hoarse voice, stridor**, cough, dyspnoea\n- These herald airway oedema, which progresses over hours; **early intubation** by an experienced operator is needed before it becomes impossible, especially before transfer\n- **Carbon monoxide poisoning:** headache, confusion; pulse oximetry is falsely normal; measure **carboxyhaemoglobin** on a blood gas and give **100% oxygen**. Cyanide toxicity is possible in house fires (unexplained lactic acidosis)\n\n**Circumferential full-thickness burns** of limbs or chest act like a tourniquet (compartment syndrome, restricted ventilation) and need **escharotomy**."
+        },
+        {
+          "kind": "management",
+          "heading": "First aid and resuscitation",
+          "body": "**First aid:**\n- Stop the burning, remove clothing and **jewellery** (swelling makes rings a tourniquet)\n- **Cool running water for 20 minutes**, useful for up to **3 hours** after injury. No ice, butter or toothpaste\n- Keep the patient warm while cooling the burn (hypothermia risk, especially in children and large burns)\n- Cover with **cling film** (laid in strips, not wrapped circumferentially) or a clean dressing\n- Analgesia (IV opioids for significant burns), elevate limbs, tetanus prophylaxis\n\n**Fluid resuscitation** (EMSB) for burns of **20% TBSA or more in adults (10% or more in children)**:\n- **Modified Parkland:** **3 mL x weight (kg) x %TBSA** of Hartmann's in adults over the first 24 hours; children get a paediatric formula (3-4 mL/kg/%TBSA depending on the protocol) **plus maintenance fluids** containing glucose; follow your paediatric burns service (RCH, EMSB)\n- Give **half in the first 8 hours from the time of the burn** (not from arrival), the rest over the next 16 hours\n- Titrate to **urine output 0.5 mL/kg/h in adults, 1 mL/kg/h in children** (catheter required). Formulas are a starting point; over-resuscitation (\"fluid creep\") causes oedema and compartment syndromes\n\n**Refer to a burns unit** (ANZBA criteria):\n- **Over 10% TBSA in adults, over 5% in children**\n- **Full thickness** burns over 5%\n- Burns to **face, hands, feet, genitalia, perineum or major joints**\n- **Inhalation injury**, electrical (including lightning) and chemical burns\n- **Circumferential** burns of limbs or chest\n- Burns with pre-existing illness, associated trauma, pregnancy, extremes of age\n- **Suspected non-accidental injury**\n\n**Minor burns** can be managed in general practice with non-adherent dressings, review in 24-48 hours, and referral if not healing within 10-14 days."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Injuries that don't fit: non-accidental injury and elder abuse",
+          "body": "Always ask whether the **mechanism fits the injury** and the patient's developmental stage.\n\n**Non-accidental injury (NAI) in children:**\n- **Delay in presentation**, vague or changing history, or a history inconsistent with the child's development (a 4-month-old \"rolled off the bed\")\n- **Immersion scalds** with a **glove or stocking distribution**, sharp tide lines and sparing of flexures or buttocks (child held in hot water)\n- **Cigarette burns** (circular, 8-10 mm), contact burns with a shape (iron, grill)\n- Bruises in non-mobile infants, on the ears, neck, torso or buttocks, patterned bruises\n- Fractures: posterior rib, metaphyseal corner fractures, multiple fractures of different ages, spiral fractures in non-ambulant children\n\nManagement: treat injuries, document carefully (body charts, photographs), admit for safety, involve the senior clinician and hospital child protection unit, and **report to the state child protection service**. **Mandatory reporting laws apply to doctors in every state and territory, but details vary by state.**\n\n**Elder abuse:** unexplained bruising, pressure injuries, malnutrition, delayed presentation, a controlling carer, financial abuse. Assess capacity, talk to the person alone, involve social work and use state-based elder abuse services.\n\n**Family and domestic violence** in adults: injuries inconsistent with the story, repeated presentations; ask directly and privately."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- First aid: **20 minutes of cool running water, up to 3 hours** after injury; remove jewellery; cling film.\n- Do not count red, unblistered skin in TBSA.\n- Hoarse voice or soot after an indoor fire: **early intubation**.\n- Fluid timing is from the **time of burn**, not arrival.\n- A child with a symmetrical glove-and-stocking scald and a story that does not fit: NAI; admit and report."
+        }
+      ],
+      "keyPoints": [
+        "Cool running water for 20 minutes, useful up to 3 hours after the burn; remove jewellery; cling film.",
+        "Palm including fingers is about 1% TBSA; epidermal burns are not counted.",
+        "Adults: modified Parkland 3 mL/kg/%TBSA (children: paediatric formula plus maintenance fluids, per local protocol), half in first 8 hours from burn time.",
+        "Target urine output 0.5 mL/kg/h in adults and 1 mL/kg/h in children.",
+        "Inhalation injury signs (soot, hoarse voice, stridor) need early intubation; measure carboxyhaemoglobin.",
+        "Refer: over 10% TBSA adults (5% children), full thickness, special areas, inhalation, electrical, chemical, circumferential.",
+        "Mechanism that doesn't fit, delay or glove-and-stocking scalds suggest NAI; mandatory reporting varies by state."
+      ],
+      "redFlags": [
+        "Stridor, hoarse voice, soot in the airway after a fire",
+        "Circumferential full-thickness burn of a limb or chest",
+        "Burn pattern or history inconsistent with the mechanism or child's development",
+        "Electrical burns (hidden deep injury, arrhythmias)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Burns first aid",
+          "india": "Home remedies (toothpaste, ghee, turmeric, ice) are common.",
+          "australia": "20 minutes of cool running water up to 3 hours after injury; no creams or ice before assessment."
+        },
+        {
+          "aspect": "Suspected child abuse",
+          "india": "Reporting frameworks are less developed and rarely used.",
+          "australia": "Mandatory reporting by doctors to state child protection services; detail varies by state."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Burns first aid duration and time window?",
+          "back": "Cool running water for 20 minutes, beneficial up to 3 hours after injury."
+        },
+        {
+          "front": "Modified Parkland formula for adults (EMSB)?",
+          "back": "3 mL x kg x %TBSA of Hartmann's over 24 h, half in the first 8 h from the time of burn."
+        },
+        {
+          "front": "Target urine output in burns resuscitation for adults?",
+          "back": "0.5 mL/kg/h (children 1 mL/kg/h)."
+        },
+        {
+          "front": "Area represented by the patient's palm including fingers?",
+          "back": "About 1% TBSA."
+        },
+        {
+          "front": "TBSA thresholds for burns unit referral?",
+          "back": "Over 10% in adults, over 5% in children."
+        },
+        {
+          "front": "Classic scald pattern of forced immersion?",
+          "back": "Symmetrical glove-and-stocking distribution with sharp tide lines and flexural sparing."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "trauma--burns-and-inflicted-injury--q1",
+          "discipline": "adult-surgery",
+          "topic": "trauma",
+          "difficulty": "foundation",
+          "stem": "A 30-year-old man spills boiling water over his forearm at a campsite 90 minutes from the nearest town. He arrives at a rural clinic 2 hours after the injury. His forearm is red with several blisters. He has not had any first aid. He is wearing a watch and a ring on that hand.\n\nWhat is the most appropriate first step?",
+          "options": [
+            "Apply ice packs for 10 minutes",
+            "Apply silver sulfadiazine cream and a dressing",
+            "Remove his watch and ring and cool the burn under running water for 20 minutes",
+            "Deroof all blisters and apply a dry dressing",
+            "No cooling, as it is too late to be beneficial"
+          ],
+          "answer": 2,
+          "explanation": "Cooling with **cool running water for 20 minutes** reduces burn depth, pain and the need for grafting, and **remains beneficial up to 3 hours** after injury, so at 2 hours it is still indicated. **Remove jewellery and watches** before swelling makes them a tourniquet. Then cover with cling film or a non-adherent dressing, give analgesia and check tetanus status. Ice causes vasoconstriction and further tissue damage. Creams obscure assessment and are not first aid.",
+          "whyWrong": [
+            "Ice causes vasoconstriction and deepens the burn.",
+            "Topical creams are not first aid and hinder assessment of depth.",
+            "",
+            "Deroofing blisters is not a first-aid step.",
+            "Cooling is still useful up to 3 hours after injury."
+          ],
+          "tags": [
+            "burns",
+            "first aid",
+            "rural"
+          ]
+        },
+        {
+          "id": "trauma--burns-and-inflicted-injury--q2",
+          "discipline": "adult-surgery",
+          "topic": "trauma",
+          "difficulty": "core",
+          "stem": "A 70 kg man is rescued from a house fire. He has deep partial and full-thickness burns covering 30% of his total body surface area. The fire occurred at 14:00, and he arrives in the emergency department at 16:00. His airway is patent and he is not hoarse.\n\nUsing the modified Parkland formula, how much Hartmann's solution should he receive between 16:00 and 22:00?",
+          "options": [
+            "6300 mL",
+            "4200 mL",
+            "3150 mL",
+            "2100 mL",
+            "1575 mL"
+          ],
+          "answer": 2,
+          "explanation": "Adult modified Parkland (EMSB): **3 mL x 70 kg x 30% = 6300 mL** over 24 hours. **Half (3150 mL) is given in the first 8 hours from the time of the burn**, which is 14:00 to 22:00. He arrived at 16:00, so the first 8 hours' volume must now be given in the remaining **6 hours** (16:00-22:00): **3150 mL**. The remaining 3150 mL is given over the next 16 hours. The formula is a starting point: titrate to urine output of 0.5 mL/kg/h (35 mL/h) and avoid over-resuscitation. With a house fire, also check carboxyhaemoglobin and watch for inhalation injury.",
+          "whyWrong": [
+            "6300 mL is the full 24-hour volume.",
+            "This uses the older 4 mL/kg formula for 24 hours divided incorrectly (4 x 70 x 30 = 8400; half = 4200).",
+            "",
+            "This assumes the 8-hour volume is spread over 12 hours.",
+            "This is a quarter of the total, not the first 8 hours' volume."
+          ],
+          "tags": [
+            "burns",
+            "fluid resuscitation",
+            "parkland"
+          ]
+        },
+        {
+          "id": "trauma--burns-and-inflicted-injury--q3",
+          "discipline": "adult-surgery",
+          "topic": "trauma",
+          "difficulty": "exam",
+          "stem": "A 22-month-old boy is brought to the emergency department by his mother's partner 18 hours after \"climbing into a hot bath by himself\". Both feet and ankles have uniform full-thickness scalds ending in a sharp horizontal line at mid-calf, with sparing of the soles where they touched the bath. There are old bruises on his buttocks.\n\nWhat is the most appropriate next step in addition to treating the burns?",
+          "options": [
+            "Discharge with dressing clinic follow-up",
+            "Advise the family about bath safety and water temperature",
+            "Arrange a skeletal survey as an outpatient in 2 weeks",
+            "Refer to a dermatologist",
+            "Admit, document carefully, involve the child protection team and report to the state child protection service"
+          ],
+          "answer": 4,
+          "explanation": "This pattern is highly suspicious for **non-accidental injury**: a **delay** in presentation, a history not matching the injury, **symmetrical stocking distribution** with **sharp tide lines** (a child climbing in accidentally splashes and pulls out, causing asymmetric irregular burns), **sparing of the soles** pressed against the cool bath base, and **bruises on the buttocks**. The child needs admission for safety and burns care (full-thickness, feet: burns unit criteria), careful documentation and photographs, a skeletal survey and involvement of the hospital child protection team. Doctors in every state and territory are **mandatory reporters** of suspected child abuse, although the exact legal requirements vary by state.",
+          "whyWrong": [
+            "Discharge ignores strong features of abuse and a burns-unit injury.",
+            "Bath safety advice misses inflicted injury.",
+            "Investigations for abuse should be done during admission, not delayed.",
+            "This is a burn, not a skin disease.",
+            ""
+          ],
+          "ausPearl": "Mandatory reporting of suspected child abuse applies to doctors in all Australian states and territories; thresholds and categories vary by jurisdiction.",
+          "tags": [
+            "non-accidental injury",
+            "burns",
+            "child protection"
+          ]
+        }
+      ]
+    }
+  ]
+}

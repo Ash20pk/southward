@@ -1,0 +1,1123 @@
+{
+  "topic": "gastroenterology",
+  "intro": "Gastroenterology and hepatology on the AMC covers dyspepsia and H. pylori, upper and lower GI bleeding, coeliac and inflammatory bowel disease, bowel symptoms and colorectal cancer screening, liver disease including paracetamol overdose, and viral hepatitis. The exam rewards knowing the red flags for GI cancer, the sensible order of investigations, and Australian specifics such as the paracetamol nomogram, the National Bowel Cancer Screening Program and GP-prescribed hepatitis C cure.",
+  "lessons": [
+    {
+      "id": "gastroenterology--dyspepsia-gord-h-pylori",
+      "title": "Dyspepsia, GORD and H. pylori",
+      "minutes": 18,
+      "objectives": [
+        "Separate dyspepsia that can be treated empirically from dyspepsia that needs endoscopy",
+        "Test for and eradicate H. pylori, and confirm eradication correctly",
+        "Manage GORD and recognise Barrett's oesophagus and eosinophilic oesophagitis",
+        "Identify the complications of peptic ulcer disease"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why dyspepsia matters",
+          "body": "Dyspepsia (upper abdominal pain or discomfort, bloating, early satiety, heartburn) is one of the commonest GP presentations. Most is **functional dyspepsia** or **gastro-oesophageal reflux disease (GORD)**. A minority is **peptic ulcer disease**, and rarely **gastric or oesophageal cancer**. The AMC wants you to spot the **red flags** that demand endoscopy rather than a trial of PPI, and to manage *Helicobacter pylori* properly.\n\n*H. pylori* prevalence in Australia is lower than in India overall but is higher in migrants from high-prevalence countries and in Aboriginal and Torres Strait Islander people."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Acid, bugs and NSAIDs",
+          "body": "- **Peptic ulcers** develop when mucosal defences are overwhelmed. The two big causes are ***H. pylori*** (causes gastritis and increases acid, most duodenal ulcers) and **NSAIDs and aspirin** (inhibit protective prostaglandins). Smoking, alcohol, steroids with NSAIDs, SSRIs with NSAIDs, and anticoagulants increase ulcer and bleeding risk.\n- ***H. pylori*** is also a cause of **gastric adenocarcinoma** and **MALT lymphoma**, which is why eradication matters beyond symptoms.\n- **GORD** results from transient lower oesophageal sphincter relaxation, hiatus hernia, obesity, pregnancy and certain foods. Chronic acid exposure can cause oesophagitis, strictures, and **Barrett's oesophagus** (intestinal metaplasia), a precursor of **oesophageal adenocarcinoma**.\n- **Eosinophilic oesophagitis**: allergic inflammation, typically young atopic men, with dysphagia and **food bolus obstruction**."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "History and red flags",
+          "body": "Ask about the nature and timing of pain, heartburn and regurgitation, relation to meals, NSAID or aspirin use, alcohol, smoking, weight, and family history of upper GI cancer.\n\n**Red flags (alarm features) needing endoscopy rather than empirical PPI**:\n\n- Unintentional **weight loss**\n- **Dysphagia** or odynophagia\n- **Iron deficiency anaemia** or GI bleeding (haematemesis, melaena)\n- Persistent **vomiting**\n- Abdominal mass\n- **New symptoms at age over about 55**\n- Family history of upper GI cancer\n- Failure to respond to adequate PPI therapy\n\n**Ulcer complications**: bleeding (melaena, haematemesis), **perforation** (sudden severe epigastric pain becoming generalised, rigid abdomen, free gas under the diaphragm on erect chest X-ray; surgical emergency), and gastric outlet obstruction (projectile vomiting of undigested food, succussion splash)."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Testing for H. pylori and when to scope",
+          "body": "**Non-invasive H. pylori tests**:\n\n- **Urea breath test (UBT)**: accurate for diagnosis and for confirming eradication\n- **Faecal antigen test**: also accurate for diagnosis and eradication\n- **Serology**: shows past or present infection, so it **cannot confirm eradication**\n\n**To avoid false negatives** in the UBT or stool antigen: stop **PPIs for 2 weeks** and **antibiotics (and bismuth) for 4 weeks** before testing.\n\n**Gastroscopy** for red flags or older new-onset symptoms: biopsies for H. pylori (rapid urease test, histology), ulcers (gastric ulcers are biopsied and re-scoped to confirm healing because they can be malignant), Barrett's, and eosinophilic oesophagitis (multiple oesophageal biopsies).\n\nOther tests: FBC and iron studies (occult bleeding), coeliac serology if symptoms overlap, and liver function tests and ultrasound if biliary pain is possible."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Upper abdominal pain look-alikes",
+          "body": "| Condition | Clues |\n|---|---|\n| Biliary colic | Episodic right upper quadrant pain after fatty meals lasting hours; ultrasound shows stones |\n| Pancreatitis | Severe epigastric pain radiating to the back, vomiting, lipase over 3 times ULN; alcohol or gallstones |\n| Acute coronary syndrome | Epigastric \"indigestion\" in a diabetic or older woman; always do an ECG |\n| Gastric cancer | Older, weight loss, anaemia, early satiety |\n| Coeliac disease | Bloating, diarrhoea, iron deficiency |\n| Functional dyspepsia | Normal investigations, no red flags, chronic |"
+        },
+        {
+          "kind": "management",
+          "heading": "Treating dyspepsia, GORD and H. pylori",
+          "body": "**Uninvestigated dyspepsia without red flags**: lifestyle measures, stop NSAIDs where possible, and either **test and treat for H. pylori** or a 4 to 8-week trial of **PPI**. Refer for endoscopy if symptoms persist or recur.\n\n**GORD**: weight loss, smoking cessation, elevating the head of the bed, avoiding late meals and trigger foods. **PPI** for 4 to 8 weeks, then step down to the lowest effective dose or on-demand use. Long-term PPIs are associated with low magnesium, B12 deficiency, *C. difficile* and possibly fractures, so review regularly. **Barrett's oesophagus** needs surveillance endoscopy at intervals set by the degree of dysplasia; dysplasia is treated endoscopically.\n\n**H. pylori eradication**: first-line **triple therapy with a PPI plus amoxicillin plus clarithromycin**, taken twice daily (eTG sets the duration, commonly 7 to 14 days; check the current recommendation). With penicillin allergy, metronidazole replaces amoxicillin. Rising clarithromycin resistance makes adherence and confirming eradication essential; second-line regimens (such as those including levofloxacin, or bismuth quadruple therapy) are per eTG or gastroenterology advice.\n\n**Confirm eradication with a urea breath test (or stool antigen) at least 4 weeks after finishing** antibiotics, and 2 weeks off PPI. Serology remains positive and is useless for this.\n\n**Peptic ulcer**: PPI for 8 weeks, eradicate H. pylori, stop NSAIDs. If NSAIDs or aspirin are essential, add a PPI for gastroprotection. **Perforation**: resuscitate, IV PPI, antibiotics, surgical review.\n\n**Eosinophilic oesophagitis**: PPI, swallowed topical steroids, dietary elimination; urgent endoscopy for food bolus obstruction.\n\n**Functional dyspepsia** (normal endoscopy, no H. pylori): explanation and reassurance, a short PPI trial, low-dose tricyclic antidepressants for persistent pain, and psychological therapies. Avoid repeated endoscopies.\n\n**Deprescribing PPIs**: many Australians stay on PPIs for years without a clear indication. Once symptoms are controlled for uncomplicated GORD, step down to the lowest dose or on-demand use; keep long-term therapy for Barrett's, severe oesophagitis, or ongoing NSAID or antiplatelet use with high bleeding risk."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- 60-year-old with new dyspepsia and weight loss: **gastroscopy**, not PPI trial.\n- 30-year-old with dyspepsia, no red flags: test and treat H. pylori or PPI trial.\n- Confirming eradication: **urea breath test at least 4 weeks after antibiotics**, off PPI for 2 weeks. Serology is the classic wrong answer.\n- Young man with food stuck and a history of asthma and eczema: **eosinophilic oesophagitis**.\n- Sudden severe epigastric pain in a patient on NSAIDs with a rigid abdomen: **perforated ulcer**; erect chest X-ray shows free gas.\n- Always do an ECG for epigastric pain in an older person."
+        }
+      ],
+      "keyPoints": [
+        "Red flags (weight loss, dysphagia, anaemia, bleeding, vomiting, age over about 55 with new symptoms) need endoscopy.",
+        "Otherwise, test and treat H. pylori or trial a PPI for 4-8 weeks.",
+        "H. pylori first line: PPI plus amoxicillin plus clarithromycin.",
+        "Confirm eradication with a urea breath test at least 4 weeks after antibiotics and 2 weeks off PPI.",
+        "Serology cannot confirm eradication.",
+        "NSAIDs and H. pylori are the main causes of peptic ulcer; add PPI if NSAIDs must continue.",
+        "Gastric ulcers are biopsied and re-scoped to exclude malignancy."
+      ],
+      "redFlags": [
+        "Weight loss, dysphagia or persistent vomiting",
+        "Haematemesis, melaena or iron deficiency anaemia",
+        "New dyspepsia after about age 55",
+        "Sudden severe epigastric pain with peritonism (perforation)",
+        "Epigastric pain with ECG changes (inferior MI)"
+      ],
+      "contrast": [
+        {
+          "aspect": "H. pylori testing",
+          "india": "Serology and empirical therapy are common; eradication is often not confirmed.",
+          "australia": "Urea breath test or stool antigen to diagnose, and a UBT at least 4 weeks after treatment to confirm eradication."
+        },
+        {
+          "aspect": "Dyspepsia work-up",
+          "india": "Early endoscopy is widely accessible and often done.",
+          "australia": "Endoscopy is targeted by red flags and age; others get test-and-treat or a PPI trial first."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "First-line H. pylori eradication regimen in Australia?",
+          "back": "PPI plus amoxicillin plus clarithromycin (metronidazole replaces amoxicillin if penicillin allergic)."
+        },
+        {
+          "front": "When to test for H. pylori eradication?",
+          "back": "At least 4 weeks after finishing antibiotics, and 2 weeks off PPI, using a urea breath test or stool antigen."
+        },
+        {
+          "front": "Why can serology not confirm eradication?",
+          "back": "Antibodies persist after successful treatment."
+        },
+        {
+          "front": "Premalignant change from chronic reflux?",
+          "back": "Barrett's oesophagus (intestinal metaplasia), a precursor of oesophageal adenocarcinoma."
+        },
+        {
+          "front": "Young atopic man with food bolus obstruction?",
+          "back": "Eosinophilic oesophagitis; confirm with multiple oesophageal biopsies."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "gastroenterology--dyspepsia-gord-h-pylori--q1",
+          "discipline": "adult-medicine",
+          "topic": "gastroenterology",
+          "difficulty": "core",
+          "stem": "A 42-year-old man sees his GP in Brisbane 6 weeks after completing triple therapy for a duodenal ulcer associated with H. pylori. He stopped his PPI 3 weeks ago and feels well. He wants to know whether the infection has gone.\n\nWhich test is most appropriate?",
+          "options": [
+            "H. pylori serology",
+            "Urea breath test",
+            "Repeat gastroscopy with biopsy",
+            "Full blood count",
+            "Faecal occult blood test"
+          ],
+          "answer": 1,
+          "explanation": "Eradication should be confirmed with a **urea breath test** (or stool antigen test). Timing matters: at least **4 weeks after finishing antibiotics** and **2 weeks off PPI**, otherwise suppressed bacteria can give a false negative. He meets both conditions.\n\n**Serology** is useless for confirming eradication because antibodies persist for months to years after cure. Repeat gastroscopy is not needed for an uncomplicated duodenal ulcer; it is used to confirm healing of **gastric** ulcers (which can be malignant).\n\n**Principle:** test for active infection, at the right time.",
+          "whyWrong": [
+            "Serology stays positive after cure and cannot confirm eradication.",
+            "",
+            "Repeat endoscopy is not routinely needed for uncomplicated duodenal ulcer.",
+            "FBC does not assess H. pylori status.",
+            "FOBT is a bowel cancer screening test, not an H. pylori test."
+          ],
+          "tags": [
+            "h-pylori",
+            "urea-breath-test",
+            "peptic-ulcer"
+          ]
+        },
+        {
+          "id": "gastroenterology--dyspepsia-gord-h-pylori--q2",
+          "discipline": "adult-medicine",
+          "topic": "gastroenterology",
+          "difficulty": "foundation",
+          "stem": "A 61-year-old woman presents to her GP in Perth with 2 months of upper abdominal discomfort, early satiety and 5 kg weight loss. She has no previous gut symptoms. Haemoglobin is 104 g/L with low ferritin.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Trial of a PPI for 8 weeks",
+            "H. pylori serology and treat if positive",
+            "Abdominal ultrasound only",
+            "Reassure and review in 3 months",
+            "Urgent referral for gastroscopy"
+          ],
+          "answer": 4,
+          "explanation": "She has several **alarm features**: new dyspepsia over age 55, **weight loss**, **early satiety** and **iron deficiency anaemia**. These raise concern for gastric cancer and require **urgent gastroscopy**, not empirical therapy. She also needs colonoscopy if the gastroscopy does not explain her iron deficiency, as both upper and lower GI sources should be considered in iron deficiency anaemia in someone her age.\n\nEmpirical PPI can mask symptoms and delay diagnosis. Test-and-treat is only for patients without red flags.\n\n**Principle:** red flags mean scope first.",
+          "whyWrong": [
+            "Empirical PPI in the presence of red flags can delay a cancer diagnosis.",
+            "Test-and-treat applies only when there are no alarm features.",
+            "Ultrasound does not assess the gastric mucosa.",
+            "Waiting is unsafe with weight loss and anaemia.",
+            ""
+          ],
+          "tags": [
+            "dyspepsia",
+            "red-flags",
+            "gastric-cancer"
+          ]
+        },
+        {
+          "id": "gastroenterology--dyspepsia-gord-h-pylori--q3",
+          "discipline": "adult-medicine",
+          "topic": "gastroenterology",
+          "difficulty": "exam",
+          "stem": "A 68-year-old man with osteoarthritis who takes ibuprofen daily presents to an emergency department with sudden severe epigastric pain that began 3 hours ago and is now spreading across his abdomen. He is lying still. HR 112 bpm, BP 104/66 mmHg, temperature 37.8 °C. His abdomen is rigid with guarding.\n\nWhich investigation will most quickly support the likely diagnosis?",
+          "options": [
+            "Erect chest X-ray",
+            "Serum lipase",
+            "Upper GI endoscopy",
+            "Abdominal ultrasound",
+            "Urea breath test"
+          ],
+          "answer": 0,
+          "explanation": "Sudden severe epigastric pain becoming generalised, a **rigid abdomen** and NSAID use suggest a **perforated peptic ulcer**. An **erect chest X-ray** showing **free gas under the diaphragm** is a quick bedside test (CT abdomen is more sensitive and is often done next if the X-ray is negative).\n\nManagement: resuscitation, nil by mouth, IV PPI, IV antibiotics and urgent surgical review. Lipase is useful to exclude pancreatitis but will not confirm perforation. **Endoscopy is contraindicated** in suspected perforation because insufflation can worsen it.\n\n**Discriminating clue:** board-like rigidity after sudden onset pain in an NSAID user.",
+          "whyWrong": [
+            "",
+            "Lipase helps exclude pancreatitis but does not show perforation.",
+            "Endoscopy is contraindicated in suspected perforation.",
+            "Ultrasound is poor for free intraperitoneal gas.",
+            "UBT has no role in the acute abdomen."
+          ],
+          "tags": [
+            "perforated-ulcer",
+            "nsaid",
+            "acute-abdomen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gastroenterology--gi-bleeding",
+      "title": "Upper and lower GI bleeding",
+      "minutes": 20,
+      "objectives": [
+        "Resuscitate a patient with GI bleeding and use the Glasgow-Blatchford score",
+        "Manage non-variceal and variceal upper GI bleeding, including terlipressin and antibiotics",
+        "Approach lower GI bleeding and its common causes",
+        "Manage anticoagulants and antiplatelets in a bleeding patient"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why GI bleeding is high yield",
+          "body": "Acute GI bleeding is a common medical emergency. **Upper GI bleeding** (proximal to the ligament of Treitz) presents with haematemesis, coffee-ground vomiting or melaena. **Lower GI bleeding** presents with fresh red blood or maroon stool (haematochezia). The AMC tests the sequence: **resuscitate, risk-stratify, treat the specific cause**."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Causes",
+          "body": "**Upper GI bleeding**:\n\n- **Peptic ulcer** (commonest): NSAIDs, aspirin, H. pylori\n- **Oesophageal and gastric varices**: portal hypertension from cirrhosis. Bleeding is torrential and mortality is high.\n- **Mallory-Weiss tear**: after retching or vomiting (often alcohol), usually self-limiting\n- Oesophagitis, gastritis, malignancy, angiodysplasia, Dieulafoy lesion\n\nMelaena is digested blood (black, tarry, offensive); it usually needs a bleed of several hundred millilitres from an upper source. Blood in the gut raises the **urea** (digested protein), which is why urea is part of the Glasgow-Blatchford score.\n\n**Lower GI bleeding**:\n\n- **Diverticular bleeding** (commonest major cause in older adults): painless, large volume, often stops spontaneously\n- **Angiodysplasia**: older people, recurrent, associated with aortic stenosis\n- **Haemorrhoids and fissure**: bright red blood on the paper, fissure is painful\n- **Colorectal cancer** and polyps: often occult, iron deficiency\n- **Inflammatory bowel disease**, infectious colitis, **ischaemic colitis** (older, vascular disease, sudden cramping left-sided pain followed by bloody diarrhoea)\n- Post-polypectomy bleeding\n\nA **brisk upper GI bleed can present as fresh red blood per rectum** with shock."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Assessment",
+          "body": "- **Haemodynamic status first**: tachycardia, hypotension, postural drop, cool peripheries, reduced consciousness, poor urine output. Young patients compensate until late; beta blockers mask tachycardia.\n- History: volume and colour, NSAIDs, aspirin, anticoagulants, SSRIs, alcohol and liver disease, previous bleeding, weight loss, change in bowel habit.\n- **Stigmata of chronic liver disease** (spider naevi, palmar erythema, jaundice, ascites, splenomegaly, caput medusae) suggest variceal bleeding.\n- Rectal examination: melaena versus fresh blood, masses, haemorrhoids."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Tests and risk scores",
+          "body": "- **FBC** (initial Hb may be normal in acute bleeding because haemodilution takes hours), **urea and creatinine** (raised urea-to-creatinine ratio suggests upper GI source), **coagulation**, **LFTs**, **group and cross-match**.\n- **Glasgow-Blatchford score (GBS)**: calculated before endoscopy from urea, haemoglobin, systolic BP, pulse, melaena, syncope, hepatic disease and cardiac failure. A **score of 0** (some guidelines accept 0 or 1) identifies low-risk patients who may be managed as outpatients with early endoscopy. Higher scores predict the need for intervention.\n- **Rockall score** is calculated after endoscopy to predict rebleeding and death.\n- **Endoscopy within 24 hours** for upper GI bleeding, and urgently (after resuscitation) in unstable patients or suspected variceal bleeding.\n- Lower GI bleeding: **colonoscopy** after bowel preparation for stable patients; **CT angiography** for ongoing brisk bleeding to locate the source before embolisation. Gastroscopy first if haemodynamically unstable with fresh PR blood, to exclude an upper source."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Is it really upper GI bleeding?",
+          "body": "| Scenario | Consider |\n|---|---|\n| Black stool, normal urea, on iron tablets | Iron or bismuth staining, not melaena |\n| Haemoptysis or nosebleed swallowed | Respiratory or nasal source |\n| Fresh blood PR with shock | Brisk upper GI bleed until proven otherwise |\n| Bright red streaks on toilet paper, anal pain | Anal fissure |\n| Painless large PR bleed in an older person | Diverticular or angiodysplasia |\n| Bloody diarrhoea with abdominal pain after hypotension | Ischaemic colitis |"
+        },
+        {
+          "kind": "management",
+          "heading": "Resuscitation and specific treatment",
+          "body": "**Resuscitation (all)**:\n\n- Two large-bore IV cannulas; crystalloid initially; activate a massive transfusion protocol in major haemorrhage.\n- **Restrictive transfusion**: target haemoglobin around **70 to 90 g/L** in most patients (higher threshold, around 80, in cardiovascular disease). Over-transfusion raises portal pressure and rebleeding in varices.\n- Correct coagulopathy; platelets if low and bleeding.\n- **Anticoagulants**: withhold; reverse warfarin with vitamin K and prothrombin complex concentrate for major bleeding; specific reversal for DOACs if life-threatening (idarucizumab for dabigatran). Aspirin for secondary prevention of cardiovascular disease is usually continued or restarted early after discussion, because stopping it increases cardiovascular events.\n\n**Non-variceal upper GI bleeding**:\n\n- **IV PPI**: given pre-endoscopy in many centres and continued after endoscopic therapy for high-risk stigmata.\n- **Endoscopy within 24 hours** with endoscopic therapy (adrenaline injection plus clips or thermal therapy) for active bleeding or visible vessel.\n- Rebleeding: repeat endoscopy, then interventional radiology embolisation or surgery.\n- Test for and eradicate H. pylori; stop NSAIDs.\n\n**Variceal bleeding** (suspected in anyone with known or suspected cirrhosis):\n\n- **Terlipressin** (vasopressin analogue reducing portal pressure) started before endoscopy\n- **Prophylactic antibiotics** (for example IV ceftriaxone): reduce infection, rebleeding and death\n- **Endoscopic band ligation** for oesophageal varices (glue injection for some gastric varices)\n- Uncontrolled bleeding: balloon tamponade as a bridge, then **TIPS**\n- Afterwards: non-selective beta blocker (propranolol or carvedilol) plus repeat banding for secondary prevention; lactulose if encephalopathy develops\n\n**Lower GI bleeding**: most stop spontaneously; colonoscopy for diagnosis and therapy; CT angiography then embolisation for ongoing bleeding; surgery if refractory.\n\n**After the bleed**: decide with the patient and the prescribing specialist when to restart anticoagulation (often within about 1 to 2 weeks once haemostasis is secure, because the thrombotic risk of stopping is real). Review every NSAID, antiplatelet and SSRI, add a PPI if antiplatelet therapy continues, treat iron deficiency (oral or IV iron), and make sure H. pylori results are acted on."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- The first step in any unstable GI bleed: **resuscitation** (IV access, fluids, blood), not endoscopy.\n- A patient with cirrhosis vomiting blood: **terlipressin plus antibiotics**, then urgent endoscopy with banding.\n- **GBS 0**: can be managed as an outpatient.\n- Transfuse to about 70 to 90 g/L, not to 120.\n- Fresh PR blood with hypotension and raised urea: think **upper GI source** and do a gastroscopy.\n- Iron tablets make stool black, but the urea stays normal and the stool is not tarry."
+        }
+      ],
+      "keyPoints": [
+        "Resuscitate first: two large-bore cannulas, restrictive transfusion (Hb target around 70-90 g/L).",
+        "Risk-stratify upper GI bleeding with the Glasgow-Blatchford score; score 0 can be outpatient.",
+        "Non-variceal: IV PPI and endoscopy within 24 hours with endoscopic haemostasis.",
+        "Variceal: terlipressin, prophylactic antibiotics (e.g. ceftriaxone) and band ligation; TIPS if uncontrolled.",
+        "A brisk upper GI bleed can present with fresh PR blood and shock.",
+        "Lower GI bleeding: diverticular is the commonest major cause; CT angiography for ongoing bleeding."
+      ],
+      "redFlags": [
+        "Haemodynamic instability (tachycardia, hypotension, syncope)",
+        "Haematemesis in a patient with known or suspected cirrhosis",
+        "Ongoing bleeding on anticoagulants",
+        "Fresh PR bleeding with shock",
+        "Rebleeding after endoscopic therapy"
+      ],
+      "contrast": [
+        {
+          "aspect": "Transfusion thresholds",
+          "india": "Transfusion is often given liberally to near-normal haemoglobin.",
+          "australia": "Restrictive transfusion (around 70-90 g/L) per Australian patient blood management guidelines."
+        },
+        {
+          "aspect": "Variceal bleeding drugs",
+          "india": "Octreotide or vasopressin are commonly used.",
+          "australia": "Terlipressin plus prophylactic antibiotics are standard before endoscopic band ligation."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Glasgow-Blatchford score allowing outpatient management?",
+          "back": "0 (some guidelines accept 0 to 1)."
+        },
+        {
+          "front": "Timing of endoscopy for upper GI bleeding?",
+          "back": "Within 24 hours; urgently after resuscitation if unstable or variceal."
+        },
+        {
+          "front": "Two drugs given before endoscopy in suspected variceal bleeding?",
+          "back": "Terlipressin and prophylactic antibiotics (e.g. ceftriaxone)."
+        },
+        {
+          "front": "Rescue therapy for uncontrolled variceal bleeding?",
+          "back": "Balloon tamponade as a bridge, then TIPS."
+        },
+        {
+          "front": "Why does urea rise in upper GI bleeding?",
+          "back": "Digested blood protein is absorbed and converted to urea."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "gastroenterology--gi-bleeding--q1",
+          "discipline": "adult-medicine",
+          "topic": "gastroenterology",
+          "difficulty": "core",
+          "stem": "A 56-year-old man with alcohol-related cirrhosis is brought to an emergency department in Townsville after vomiting a large amount of fresh blood. HR 124 bpm, BP 88/54 mmHg. He is jaundiced with ascites. Two large-bore cannulas are inserted and blood is being cross-matched.\n\nIn addition to resuscitation, which is the most appropriate immediate management before endoscopy?",
+          "options": [
+            "Intravenous terlipressin and intravenous ceftriaxone",
+            "Intravenous tranexamic acid alone",
+            "Oral propranolol",
+            "Transfuse to a haemoglobin of 120 g/L",
+            "Immediate TIPS without endoscopy"
+          ],
+          "answer": 0,
+          "explanation": "This is presumed **variceal bleeding** in cirrhosis. Before endoscopy, start **terlipressin** (reduces portal pressure and improves haemostasis and survival) and **prophylactic antibiotics** such as ceftriaxone (patients with cirrhosis and GI bleeding have high rates of bacterial infection, which increases rebleeding and mortality). Then urgent endoscopy with **band ligation**.\n\nTransfusion should be **restrictive** (around 70 to 80 g/L): over-transfusion raises portal pressure and rebleeding. Non-selective beta blockers are for prevention, not acute bleeding with hypotension. TIPS is a rescue therapy if endoscopic treatment fails. Tranexamic acid does not improve outcomes in GI bleeding.",
+          "whyWrong": [
+            "",
+            "Tranexamic acid has not been shown to reduce mortality in GI bleeding.",
+            "Beta blockers worsen hypotension acutely; they are for secondary prevention.",
+            "Over-transfusion increases portal pressure and rebleeding.",
+            "TIPS is for bleeding uncontrolled by endoscopic therapy."
+          ],
+          "tags": [
+            "variceal-bleeding",
+            "terlipressin",
+            "cirrhosis"
+          ]
+        },
+        {
+          "id": "gastroenterology--gi-bleeding--q2",
+          "discipline": "adult-medicine",
+          "topic": "gastroenterology",
+          "difficulty": "foundation",
+          "stem": "A 34-year-old woman presents to an emergency department in Canberra with one episode of black stool yesterday. She takes naproxen for dysmenorrhoea. HR 78 bpm, BP 122/78 mmHg, no syncope. Haemoglobin 134 g/L, urea 5.8 mmol/L. She has no liver or heart disease. Her Glasgow-Blatchford score is 1 (for melaena).\n\nWhich statement is most appropriate?",
+          "options": [
+            "She needs admission to ICU and emergency endoscopy",
+            "She requires immediate blood transfusion",
+            "She is low risk and may be suitable for outpatient management with early endoscopy",
+            "She should have a CT angiogram",
+            "She should start warfarin reversal"
+          ],
+          "answer": 2,
+          "explanation": "The **Glasgow-Blatchford score** identifies low-risk patients with upper GI bleeding who are unlikely to need intervention. A score of 0 (and in some guidelines 1) supports **outpatient management** with early outpatient endoscopy, provided the patient is reliable and has access to care.\n\nShe should stop naproxen, start a PPI, and have H. pylori testing. Her haemoglobin is normal and she is haemodynamically stable, so transfusion and emergency endoscopy are not required. CT angiography is for ongoing brisk bleeding.\n\n**Principle:** risk-stratify to avoid unnecessary admissions.",
+          "whyWrong": [
+            "She is stable with a low GBS; ICU and emergency endoscopy are unnecessary.",
+            "Her haemoglobin is normal; transfusion is not indicated.",
+            "",
+            "CT angiography is for active brisk bleeding.",
+            "She is not on warfarin."
+          ],
+          "tags": [
+            "upper-gi-bleed",
+            "glasgow-blatchford",
+            "risk-stratification"
+          ]
+        },
+        {
+          "id": "gastroenterology--gi-bleeding--q3",
+          "discipline": "adult-medicine",
+          "topic": "gastroenterology",
+          "difficulty": "exam",
+          "stem": "A 78-year-old man presents to an emergency department in Melbourne with three episodes of large-volume maroon and fresh red blood per rectum over 2 hours. HR 118 bpm, BP 92/60 mmHg. He takes aspirin for coronary disease. Urea is 16.2 mmol/L (creatinine 88 micromol/L). After initial fluid resuscitation his BP is 104/66 mmHg.\n\nWhich investigation should be performed first?",
+          "options": [
+            "Colonoscopy after full bowel preparation",
+            "Flexible sigmoidoscopy",
+            "Gastroscopy",
+            "Faecal occult blood test",
+            "Capsule endoscopy"
+          ],
+          "answer": 2,
+          "explanation": "Fresh or maroon blood per rectum usually means a lower GI source, but **haemodynamic instability plus a disproportionately raised urea** (16.2 mmol/L with normal creatinine) strongly suggests a **brisk upper GI bleed**, such as a peptic ulcer (aspirin is a risk factor). Up to about 10 to 15% of apparent severe lower GI bleeds come from the upper GI tract.\n\nSo **gastroscopy** should be done first to exclude and treat an upper source. If negative, proceed to CT angiography (for active bleeding) or colonoscopy.\n\n**Discriminating clue:** raised urea-to-creatinine ratio with shock.",
+          "whyWrong": [
+            "Colonoscopy first would miss an upper GI source suggested by the urea.",
+            "Sigmoidoscopy assesses only the distal colon.",
+            "",
+            "FOBT has no role in overt bleeding.",
+            "Capsule endoscopy is for obscure small bowel bleeding once other sources are excluded."
+          ],
+          "tags": [
+            "gi-bleeding",
+            "haematochezia",
+            "urea"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gastroenterology--coeliac-and-ibd",
+      "title": "Coeliac disease and inflammatory bowel disease",
+      "minutes": 22,
+      "objectives": [
+        "Test for coeliac disease correctly, including the need to be eating gluten",
+        "Distinguish Crohn's disease from ulcerative colitis clinically and on investigation",
+        "Assess an IBD flare, excluding infection including C. difficile",
+        "Recognise acute severe ulcerative colitis and manage it with admission and IV steroids"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Two chronic immune bowel diseases",
+          "body": "**Coeliac disease** is an immune reaction to gluten affecting about 1 in 70 Australians, most of whom are undiagnosed. It is linked to HLA-DQ2 and DQ8 and presents in many ways beyond diarrhoea.\n\n**Inflammatory bowel disease (IBD)**, meaning **Crohn's disease** and **ulcerative colitis (UC)**, has one of the highest prevalences in the world in Australia and New Zealand, typically starting between 15 and 35. The AMC tests diagnosis, the approach to a flare and the emergency of **acute severe UC**."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why the gut inflames",
+          "body": "**Coeliac disease**: gliadin peptides from wheat, barley and rye (oats in some) are deamidated by **tissue transglutaminase**, then presented by HLA-DQ2/DQ8 to T cells. The resulting inflammation causes **villous atrophy and crypt hyperplasia** in the proximal small bowel, leading to malabsorption of iron, folate, calcium and fat-soluble vitamins. Antibodies to tTG are the basis of screening, and they disappear on a gluten-free diet.\n\n**IBD**: a dysregulated immune response to gut bacteria in genetically susceptible people.\n\n| Feature | Crohn's disease | Ulcerative colitis |\n|---|---|---|\n| Distribution | Anywhere mouth to anus, **skip lesions**, terminal ileum common | Rectum upwards, **continuous**, colon only |\n| Depth | **Transmural**: fistulas, strictures, abscesses | Mucosal only |\n| Histology | Non-caseating granulomas | Crypt abscesses, no granulomas |\n| Smoking | **Worsens** it | Former smokers at higher risk; smoking appears protective (never advised) |\n| Perianal disease | Common (fistulas, abscesses, skin tags) | Uncommon |\n| Surgery | Not curative | Colectomy is curative for the bowel |\n\nBoth carry an increased risk of colorectal cancer with long-standing colonic disease (needs surveillance colonoscopy), and **primary sclerosing cholangitis** is associated especially with UC."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Presentations",
+          "body": "**Coeliac disease**: diarrhoea, bloating, abdominal pain, fatigue, weight loss; but often **iron deficiency anaemia**, osteoporosis, abnormal LFTs, infertility, mouth ulcers, or no symptoms. **Dermatitis herpetiformis** (itchy vesicles on elbows, knees, buttocks) is the skin form. Associations: type 1 diabetes, autoimmune thyroid disease, Down syndrome, IgA deficiency, and first-degree relatives.\n\n**Crohn's disease**: abdominal pain (often right iliac fossa), diarrhoea, weight loss, fatigue, perianal disease, mouth ulcers; can mimic appendicitis. Strictures cause obstructive symptoms.\n\n**UC**: **bloody diarrhoea**, urgency, tenesmus, mucus.\n\n**Extra-intestinal features**: peripheral arthritis, sacroiliitis and ankylosing spondylitis, uveitis and episcleritis, erythema nodosum, pyoderma gangrenosum, PSC, VTE.\n\n**Acute severe UC (Truelove and Witts)**: **6 or more bloody stools a day** plus at least one sign of systemic toxicity: **temperature above 37.8 °C, HR above 90, Hb below 105 g/L, or ESR above 30 mm/h** (CRP is often used). This is a medical emergency."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Getting the order right",
+          "body": "**Coeliac disease**:\n\n- **tTG-IgA plus total IgA**, while the patient is **still eating gluten**. Total IgA is needed because **IgA deficiency** (more common in coeliac disease) causes a falsely negative tTG-IgA; then use **deamidated gliadin peptide (DGP) IgG** or tTG-IgG.\n- If already gluten-free, a **gluten challenge** is required before testing (typically several weeks of daily gluten; Coeliac Australia gives current guidance).\n- **Confirm with duodenal biopsy** (multiple biopsies from the duodenum including the bulb) showing villous atrophy, intraepithelial lymphocytes and crypt hyperplasia.\n- **HLA-DQ2/DQ8 testing** is useful to *exclude* coeliac disease (negative predictive value is very high) but a positive result is common in the general population and does not diagnose it.\n- Baseline FBC, iron studies, folate, B12, vitamin D, LFTs, and bone density in adults.\n\n**IBD**:\n\n- FBC (anaemia, raised platelets), CRP, albumin, LFTs, iron studies\n- **Faecal calprotectin**: raised in intestinal inflammation, normal in irritable bowel syndrome; a useful triage test\n- **Stool culture and C. difficile toxin testing in every flare**, because infection mimics and triggers flares\n- **Colonoscopy with ileal intubation and biopsies** for diagnosis\n- Small bowel imaging (MR enterography) for Crohn's; CT for abscesses\n- **Abdominal X-ray** in acute severe colitis to look for **toxic megacolon** (transverse colon dilation, often quoted as more than about 5.5 to 6 cm)"
+        },
+        {
+          "kind": "differentials",
+          "heading": "Diarrhoea look-alikes",
+          "body": "| Condition | Clues |\n|---|---|\n| Infectious colitis | Acute, travel, food, contacts; stool culture positive |\n| C. difficile | Recent antibiotics or hospital stay; toxin positive |\n| Irritable bowel syndrome | No weight loss, bleeding or nocturnal symptoms; normal calprotectin |\n| Microscopic colitis | Older woman, watery diarrhoea, normal colonoscopy, diagnosis on biopsy; linked to PPIs, NSAIDs, SSRIs |\n| Colorectal cancer | Older, change in bowel habit, iron deficiency |\n| Ischaemic colitis | Older, vascular disease, sudden onset |\n| Lactose intolerance | Symptoms linked to dairy |"
+        },
+        {
+          "kind": "management",
+          "heading": "Diet, drugs and admission",
+          "body": "**Coeliac disease**:\n\n- **Lifelong strict gluten-free diet** with an **accredited practising dietitian**; Coeliac Australia for support.\n- Correct deficiencies; manage bone health.\n- Recheck tTG after 6 to 12 months to assess adherence; repeat biopsy in some.\n- Offer testing to **first-degree relatives**.\n- Persistent symptoms: usually ongoing gluten exposure; rarely refractory coeliac disease or small bowel lymphoma.\n- Coeliac disease causes hyposplenism in some adults; pneumococcal vaccination may be recommended.\n\n**Ulcerative colitis**:\n\n- Mild to moderate: **aminosalicylates (mesalazine)**, oral and rectal, for induction and maintenance.\n- Moderate to severe or failure of 5-ASA: oral corticosteroids for induction only (never for maintenance); thiopurines (check TPMT activity), biologics (anti-TNF such as infliximab or adalimumab, vedolizumab, ustekinumab) or small molecules for maintenance.\n- **Acute severe UC**: **admit**. Stool cultures and C. difficile testing, **IV corticosteroids** (for example hydrocortisone or methylprednisolone), **VTE prophylaxis** (high clot risk even when bleeding), fluids and electrolytes, avoid opioids, antidiarrhoeals and anticholinergics (can precipitate toxic megacolon), daily bloods and abdominal X-ray if distension, joint medical and surgical care. If not responding by about **day 3**, **rescue therapy with infliximab or ciclosporin**, or **colectomy**. Toxic megacolon or perforation needs surgery.\n\n**Crohn's disease**:\n\n- **Stop smoking** (the single most important modifiable factor).\n- Induction: corticosteroids (budesonide for ileal disease) or biologics; exclusive enteral nutrition is effective, especially in children.\n- Maintenance: thiopurines, methotrexate, biologics.\n- Perianal fistulas: examination under anaesthetic, setons, antibiotics, biologics.\n- Surgery for strictures and complications, preserving bowel length.\n\n**Before immunosuppression**: screen for hepatitis B, HIV, latent TB, and update vaccinations (avoid live vaccines while immunosuppressed)."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- Coeliac testing in a woman already on a gluten-free diet: she must reintroduce gluten before testing.\n- tTG negative but total IgA low: test **DGP-IgG**.\n- A known UC patient with a flare: first step is **stool MCS and C. difficile toxin**, then treat.\n- 8 bloody stools a day, HR 105, temperature 38 °C: **acute severe UC**, admit for IV steroids and VTE prophylaxis.\n- Distended abdomen in severe colitis: abdominal X-ray for **toxic megacolon**.\n- Crohn's patient who smokes: smoking cessation is the most effective intervention they control.\n- Iron deficiency anaemia in a young woman without heavy periods: test for **coeliac disease**."
+        }
+      ],
+      "keyPoints": [
+        "Coeliac: tTG-IgA with total IgA while still eating gluten; confirm with duodenal biopsy.",
+        "IgA deficiency gives false-negative tTG-IgA; use DGP-IgG instead.",
+        "Negative HLA-DQ2/DQ8 effectively excludes coeliac disease.",
+        "Crohn's is transmural with skip lesions and granulomas; UC is continuous mucosal disease from the rectum.",
+        "Every IBD flare needs stool culture and C. difficile testing.",
+        "Acute severe UC (6 or more bloody stools plus systemic toxicity): admit, IV steroids, VTE prophylaxis, rescue therapy or colectomy by day 3 if no response.",
+        "Faecal calprotectin helps separate IBD from IBS."
+      ],
+      "redFlags": [
+        "6 or more bloody stools a day with fever, tachycardia or anaemia (acute severe UC)",
+        "Abdominal distension and pain in colitis (toxic megacolon)",
+        "Peritonism in known IBD (perforation)",
+        "Weight loss, nocturnal diarrhoea or rectal bleeding (not IBS)",
+        "Perianal abscess with fever in Crohn's disease"
+      ],
+      "contrast": [
+        {
+          "aspect": "Coeliac disease awareness",
+          "india": "Often considered only with classic diarrhoea and failure to thrive; wheat is a staple in the north.",
+          "australia": "Common (about 1 in 70) and screened for widely, including in iron deficiency, osteoporosis and autoimmune disease."
+        },
+        {
+          "aspect": "IBD prevalence",
+          "india": "Rising but historically seen as uncommon; intestinal TB is a key differential for ileal disease.",
+          "australia": "Among the world's highest rates; TB is considered mainly in migrants and before starting biologics."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Coeliac screening test?",
+          "back": "tTG-IgA plus total IgA, while eating gluten."
+        },
+        {
+          "front": "Truelove and Witts criteria for acute severe UC?",
+          "back": "6 or more bloody stools a day plus fever above 37.8 °C, HR above 90, Hb below 105 g/L or ESR above 30."
+        },
+        {
+          "front": "Initial treatment of acute severe UC?",
+          "back": "Admission, IV corticosteroids, VTE prophylaxis, stool testing including C. difficile."
+        },
+        {
+          "front": "Most important modifiable factor in Crohn's disease?",
+          "back": "Smoking cessation."
+        },
+        {
+          "front": "Test to distinguish IBD from IBS in primary care?",
+          "back": "Faecal calprotectin."
+        },
+        {
+          "front": "Skin manifestation of coeliac disease?",
+          "back": "Dermatitis herpetiformis."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "gastroenterology--coeliac-and-ibd--q1",
+          "discipline": "adult-medicine",
+          "topic": "gastroenterology",
+          "difficulty": "core",
+          "stem": "A 29-year-old woman presents to her GP in Adelaide with fatigue and bloating. Haemoglobin 108 g/L, ferritin 6 microgram/L. She has heavy-ish periods but they are unchanged. She read online about gluten and has been strictly gluten-free for 3 months, which has helped her bloating. She asks to be tested for coeliac disease.\n\nWhat is the most appropriate advice?",
+          "options": [
+            "Test tTG-IgA now; a negative result excludes coeliac disease",
+            "Arrange duodenal biopsy now while she remains gluten-free",
+            "Diagnose coeliac disease based on her response to a gluten-free diet",
+            "Arrange HLA-DQ2/DQ8 testing, then a gluten challenge before tTG-IgA and total IgA if HLA is positive",
+            "Coeliac testing is unnecessary because her iron deficiency is explained by menstruation"
+          ],
+          "answer": 3,
+          "explanation": "Coeliac serology and biopsy both **normalise on a gluten-free diet**, so testing now could give a false negative. Symptomatic improvement on a gluten-free diet does not diagnose coeliac disease (non-coeliac gluten or FODMAP sensitivity also improves).\n\nA sensible approach is **HLA-DQ2/DQ8 typing**: if negative, coeliac disease is effectively excluded and no gluten challenge is needed. If positive, she needs a **gluten challenge** (several weeks of daily gluten, per Coeliac Australia guidance) followed by **tTG-IgA with total IgA** and duodenal biopsy.\n\nIron deficiency anaemia should not be attributed to periods without considering coeliac disease, especially with GI symptoms.",
+          "whyWrong": [
+            "On a gluten-free diet, tTG-IgA may be falsely negative.",
+            "Biopsy may be normal on a gluten-free diet.",
+            "A symptomatic response is not diagnostic; other conditions respond too.",
+            "",
+            "Coeliac disease is an important and treatable cause of iron deficiency; it should be excluded."
+          ],
+          "tags": [
+            "coeliac-disease",
+            "serology",
+            "iron-deficiency"
+          ]
+        },
+        {
+          "id": "gastroenterology--coeliac-and-ibd--q2",
+          "discipline": "adult-medicine",
+          "topic": "gastroenterology",
+          "difficulty": "exam",
+          "stem": "A 24-year-old man with known ulcerative colitis presents to an emergency department in Sydney with 5 days of 9 bloody stools a day. Temperature 38.1 °C, HR 108 bpm, BP 118/72 mmHg. Abdomen is mildly tender but not distended. Hb 98 g/L, CRP 86 mg/L, albumin 28 g/L. He takes mesalazine.\n\nIn addition to stool cultures and C. difficile testing, what is the most appropriate management?",
+          "options": [
+            "Increase oral mesalazine and review in clinic next week",
+            "Loperamide and oral fluids",
+            "Admit for intravenous corticosteroids and VTE prophylaxis",
+            "Start oral prednisolone and discharge",
+            "Emergency colectomy"
+          ],
+          "answer": 2,
+          "explanation": "He has **acute severe ulcerative colitis** by Truelove and Witts: **6 or more bloody stools a day** plus systemic toxicity (**fever above 37.8 °C, HR above 90, Hb below 105 g/L**, raised CRP). This carries a significant risk of toxic megacolon, perforation and colectomy.\n\nManagement is **admission** with **IV corticosteroids**, **VTE prophylaxis** (IBD flares are prothrombotic, even with bleeding), fluids, electrolytes (especially potassium and magnesium), stool testing including C. difficile, and joint gastroenterology and surgical review. Response is assessed at about day 3; non-responders get rescue infliximab or ciclosporin, or colectomy.\n\nAntidiarrhoeals can precipitate toxic megacolon. Emergency colectomy is reserved for perforation, megacolon or failed rescue.",
+          "whyWrong": [
+            "He meets criteria for acute severe UC and needs admission, not outpatient review.",
+            "Loperamide risks toxic megacolon in severe colitis.",
+            "",
+            "Oral steroids as an outpatient are inadequate for acute severe UC.",
+            "Surgery is for failure of medical therapy or complications."
+          ],
+          "tags": [
+            "ulcerative-colitis",
+            "acute-severe-colitis",
+            "ibd"
+          ]
+        },
+        {
+          "id": "gastroenterology--coeliac-and-ibd--q3",
+          "discipline": "adult-medicine",
+          "topic": "gastroenterology",
+          "difficulty": "foundation",
+          "stem": "A 22-year-old man who smokes presents to his GP in Hobart with 4 months of intermittent right iliac fossa pain, non-bloody diarrhoea, 6 kg weight loss and recurrent mouth ulcers. He has a painful perianal skin tag. CRP is raised and faecal calprotectin is markedly elevated.\n\nWhich is the most likely diagnosis?",
+          "options": [
+            "Irritable bowel syndrome",
+            "Crohn's disease",
+            "Ulcerative colitis",
+            "Coeliac disease",
+            "Appendicitis"
+          ],
+          "answer": 1,
+          "explanation": "Right iliac fossa pain (terminal ileal disease), non-bloody diarrhoea, **weight loss**, **mouth ulcers**, **perianal disease** and a markedly raised calprotectin in a young **smoker** strongly suggest **Crohn's disease**. Crohn's can affect any part of the GI tract, is transmural and causes fistulas and perianal disease; smoking is a risk factor and worsens it.\n\nUC typically presents with bloody diarrhoea and does not usually cause perianal disease or ileal pain. IBS does not cause weight loss or raised calprotectin.\n\nNext: colonoscopy with ileal intubation and biopsies, and MR enterography, then smoking cessation support.",
+          "whyWrong": [
+            "Weight loss, raised CRP and calprotectin are not features of IBS.",
+            "",
+            "UC typically causes bloody diarrhoea and rarely perianal disease.",
+            "Coeliac disease does not cause perianal disease or raised calprotectin to this degree.",
+            "The 4-month course is too long for acute appendicitis."
+          ],
+          "tags": [
+            "crohns-disease",
+            "calprotectin",
+            "ibd"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gastroenterology--bowel-symptoms-crc-screening",
+      "title": "Bowel symptoms, IBS and colorectal cancer screening",
+      "minutes": 18,
+      "objectives": [
+        "Identify red flags for colorectal cancer that need colonoscopy",
+        "Explain the National Bowel Cancer Screening Program and follow-up of a positive test",
+        "Recognise when family history changes screening",
+        "Diagnose irritable bowel syndrome positively and manage it, including the low FODMAP diet"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Bowel cancer in Australia",
+          "body": "Australia has one of the highest rates of **colorectal cancer (CRC)** in the world. It is one of the commonest cancers and a leading cause of cancer death, and incidence in people under 50 is rising. Screening reduces deaths.\n\nThe **National Bowel Cancer Screening Program (NBCSP)** mails a free **immunochemical faecal occult blood test (iFOBT)** kit **every 2 years** to people aged **50 to 74**, and since July 2024 people aged **45 to 49** can request their first kit and then receive them every 2 years. Participation is only around 40%, so encouraging screening is a core GP task and a common exam theme.\n\n**Irritable bowel syndrome (IBS)** is the commonest functional bowel disorder, and the low FODMAP diet was developed at Monash University in Melbourne."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "How CRC develops and what IBS is",
+          "body": "Most CRC develops from **adenomatous polyps** over about 10 years (the adenoma-carcinoma sequence), which is why screening that finds and removes polyps prevents cancer. Risk factors: age, family history, **IBD**, inherited syndromes (**Lynch syndrome**, familial adenomatous polyposis), red and processed meat, alcohol, smoking, obesity and inactivity.\n\nRight-sided cancers bleed occultly and present with **iron deficiency anaemia**; left-sided and rectal cancers present with **change in bowel habit, rectal bleeding and obstruction**.\n\n**IBS** is a disorder of gut-brain interaction: visceral hypersensitivity, altered motility, gut microbiota changes and psychosocial factors. **FODMAPs** (fermentable oligo-, di-, monosaccharides and polyols) are poorly absorbed short-chain carbohydrates that draw water into the bowel and are fermented, causing bloating and pain in people with hypersensitive guts."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Red flags versus IBS",
+          "body": "**Red flags for colorectal cancer** (refer for colonoscopy):\n\n- **Rectal bleeding** (especially over about 45 to 50, or blood mixed with stool)\n- **Change in bowel habit** persisting more than a few weeks\n- **Iron deficiency anaemia** without an obvious cause (any man, postmenopausal woman)\n- **Unexplained weight loss**\n- Abdominal or rectal mass\n- Nocturnal symptoms\n- Strong family history\n\n**IBS (Rome IV)**: recurrent abdominal pain on average at least 1 day a week in the last 3 months, associated with two or more of: related to defecation, change in stool frequency, change in stool form. Subtypes: IBS-C, IBS-D and mixed. Symptoms are often worse with stress and certain foods, and **there are no red flags**."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Who gets what test",
+          "body": "**Symptomatic patients** do **not** use the iFOBT screening pathway; red flag symptoms go straight to **colonoscopy** (Cancer Council Australia optimal care pathway).\n\n**Positive iFOBT** in the NBCSP: refer for **colonoscopy**, ideally within **30 days** of the positive result. A positive test must never be repeated to \"check\". About 1 in 25 or so tests are positive, and most positives are due to polyps or benign causes, but a small proportion are cancers.\n\n**Family history** (NHMRC-endorsed guidance via Cancer Council Australia):\n\n- **Average or slightly increased risk** (no close relatives, or one first-degree relative diagnosed at 55 or older): iFOBT every 2 years from 45.\n- **Moderately increased risk** (for example, one first-degree relative diagnosed before 55, or two first-degree relatives at any age): earlier or more intensive screening, often colonoscopy every 5 years from an earlier age.\n- **High risk** (for example, three or more relatives with CRC, or known Lynch syndrome or FAP): genetic referral and intensive colonoscopic surveillance.\n\nCheck Cancer Council Australia's current guidelines for exact ages and intervals.\n\n**Suspected IBS**: limited tests to exclude organic disease: **FBC, CRP, coeliac serology, faecal calprotectin** (if diarrhoea), and TSH in some. Colonoscopy only if red flags or age-appropriate concerns."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Change in bowel habit",
+          "body": "| Condition | Clues |\n|---|---|\n| Colorectal cancer | Age, bleeding, weight loss, iron deficiency |\n| IBD | Blood, nocturnal symptoms, raised calprotectin and CRP |\n| Coeliac disease | Bloating, iron deficiency, positive tTG |\n| Hypothyroidism or hypercalcaemia | Constipation, other systemic features |\n| Diverticular disease | Older, left iliac fossa pain; diverticulitis causes fever |\n| Drugs | Opioids, iron, calcium channel blockers (constipation); metformin, magnesium (diarrhoea) |\n| Overflow from faecal impaction | Older, immobile, \"diarrhoea\" with a loaded rectum |"
+        },
+        {
+          "kind": "management",
+          "heading": "Screening, referral and IBS care",
+          "body": "**Screening**:\n\n- Encourage NBCSP participation: explain that the test is free, done at home, and that most positive results are not cancer.\n- **Positive iFOBT: colonoscopy**, not a repeat test.\n- Polyps found are removed; surveillance intervals depend on number, size and histology.\n- CRC treatment: surgery (with neoadjuvant chemoradiotherapy for some rectal cancers), adjuvant chemotherapy for node-positive disease; all tumours are tested for mismatch repair deficiency (Lynch screening).\n\n**IBS**:\n\n- **Positive diagnosis** and explanation; reassurance that it is common, real and does not cause cancer.\n- Diet: regular meals, adequate fluids; soluble fibre (psyllium) for IBS-C; **low FODMAP diet** under a dietitian (restriction, then reintroduction to find personal triggers).\n- Drugs by symptom: laxatives (macrogol) for constipation, loperamide for diarrhoea, antispasmodics for pain, low-dose tricyclic antidepressants for persistent pain.\n- Psychological therapies (CBT, gut-directed hypnotherapy) are effective.\n- Review if symptoms change or red flags appear.\n\n**Diverticular disease** is common in older Australians. Uncomplicated **diverticulitis** (left iliac fossa pain, fever, raised CRP, CT confirmation in first or uncertain episodes) in a well patient can often be managed at home; current eTG guidance supports **withholding antibiotics** in mild uncomplicated cases, with antibiotics for those who are unwell, immunosuppressed or have complications. Admit for abscess, perforation, obstruction or failure to settle. Colonoscopy after an episode is advised if the colon has not been assessed recently, to exclude cancer."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- A 62-year-old with a positive iFOBT: **colonoscopy**. \"Repeat the iFOBT\" is the classic wrong answer.\n- A 58-year-old with rectal bleeding and changed bowel habit: **colonoscopy**, not an iFOBT (screening is for the asymptomatic).\n- A 48-year-old asking about bowel screening: can request a free NBCSP kit from 45.\n- A father diagnosed with CRC at 50: moderately increased risk, earlier colonoscopy.\n- Young woman with pain relieved by defecation, bloating, no red flags, normal bloods and calprotectin: **IBS**; trial low FODMAP with a dietitian.\n- Iron deficiency in a man of any age: investigate the GI tract."
+        }
+      ],
+      "keyPoints": [
+        "NBCSP: free iFOBT every 2 years for ages 45-74 (mailed from 50; 45-49 can request).",
+        "Positive iFOBT means colonoscopy (ideally within 30 days), never a repeat test.",
+        "Symptomatic patients (bleeding, changed bowel habit, iron deficiency, weight loss) go straight to colonoscopy.",
+        "A first-degree relative with CRC before 55 increases risk and brings screening earlier.",
+        "IBS is a positive diagnosis with Rome IV criteria and no red flags; check FBC, CRP, coeliac serology, calprotectin.",
+        "The low FODMAP diet (Monash University) is delivered with a dietitian."
+      ],
+      "redFlags": [
+        "Rectal bleeding, especially blood mixed with stool, over about 45",
+        "Persistent change in bowel habit",
+        "Iron deficiency anaemia in a man or postmenopausal woman",
+        "Unexplained weight loss or abdominal mass",
+        "Nocturnal symptoms or strong family history of CRC"
+      ],
+      "contrast": [
+        {
+          "aspect": "Bowel cancer screening",
+          "india": "No national population screening program; colonoscopy is opportunistic.",
+          "australia": "Free national iFOBT program every 2 years for ages 45-74, with colonoscopy for positive results."
+        },
+        {
+          "aspect": "IBS dietary advice",
+          "india": "General advice to avoid spicy food and increase fibre.",
+          "australia": "Structured low FODMAP diet (developed at Monash University) with a dietitian."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "NBCSP test and interval?",
+          "back": "Immunochemical faecal occult blood test (iFOBT) every 2 years, ages 45 to 74."
+        },
+        {
+          "front": "Next step after a positive iFOBT?",
+          "back": "Colonoscopy, ideally within 30 days; never repeat the iFOBT."
+        },
+        {
+          "front": "Should a patient with rectal bleeding do an iFOBT?",
+          "back": "No; symptomatic patients need diagnostic colonoscopy, not screening."
+        },
+        {
+          "front": "Rome IV criteria for IBS?",
+          "back": "Recurrent pain at least 1 day a week for 3 months with 2 of: related to defecation, change in frequency, change in form."
+        },
+        {
+          "front": "Where was the low FODMAP diet developed?",
+          "back": "Monash University, Melbourne."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "gastroenterology--bowel-symptoms-crc-screening--q1",
+          "discipline": "adult-medicine",
+          "topic": "gastroenterology",
+          "difficulty": "foundation",
+          "stem": "A 63-year-old woman sees her GP in Ballarat after receiving a positive result on her National Bowel Cancer Screening Program iFOBT. She has no bowel symptoms and feels well. Her last kit 2 years ago was negative. She asks whether she can repeat the test in case it was a mistake.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Repeat the iFOBT in 2 weeks",
+            "Refer for colonoscopy",
+            "Arrange CT colonography",
+            "Reassure her and repeat in 2 years",
+            "Arrange a CEA level"
+          ],
+          "answer": 1,
+          "explanation": "A **positive iFOBT** requires **colonoscopy**, ideally within 30 days. Bleeding from polyps and cancers is intermittent, so a negative repeat test would not exclude pathology; repeating the test is a classic wrong answer.\n\nMost positive results are due to polyps or benign causes, which is reassuring, but colonoscopy is needed to find and remove adenomas and detect cancer early. CT colonography is an alternative only when colonoscopy is unsuitable. CEA is a tumour marker used for monitoring after treatment, not for screening or diagnosis.",
+          "whyWrong": [
+            "Bleeding is intermittent; a negative repeat does not exclude cancer.",
+            "",
+            "CT colonography is used only if colonoscopy is unsuitable and cannot remove polyps.",
+            "A positive result must be investigated.",
+            "CEA is not a diagnostic or screening test."
+          ],
+          "tags": [
+            "bowel-cancer-screening",
+            "ifobt",
+            "colonoscopy"
+          ]
+        },
+        {
+          "id": "gastroenterology--bowel-symptoms-crc-screening--q2",
+          "discipline": "adult-medicine",
+          "topic": "gastroenterology",
+          "difficulty": "core",
+          "stem": "A 27-year-old woman sees her GP in Melbourne with 1 year of crampy lower abdominal pain relieved by opening her bowels, bloating, and alternating loose and hard stools. Symptoms are worse with stress. She has no weight loss, bleeding or nocturnal symptoms and no family history of bowel disease. FBC, CRP, coeliac serology and faecal calprotectin are normal.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Colonoscopy to exclude inflammatory bowel disease",
+            "A strict lifelong gluten-free diet",
+            "Explain the diagnosis of IBS and refer to a dietitian for a low FODMAP diet",
+            "Long-term oral antibiotics",
+            "CT abdomen"
+          ],
+          "answer": 2,
+          "explanation": "She meets **Rome IV criteria for IBS** (mixed type) with **no red flags** and normal targeted tests (FBC, CRP, coeliac serology, calprotectin). IBS is a positive diagnosis; further investigation is not needed.\n\nManagement starts with **explaining the diagnosis** and reassurance, then dietary therapy. The **low FODMAP diet**, developed at Monash University, is effective and should be done with a dietitian (restriction, reintroduction, personalisation). Other options include soluble fibre, symptom-directed drugs, low-dose tricyclics and psychological therapies such as CBT or gut-directed hypnotherapy.\n\nColonoscopy and CT add radiation, risk and cost without benefit here.",
+          "whyWrong": [
+            "Normal calprotectin and no red flags make IBD very unlikely; colonoscopy is not indicated.",
+            "Coeliac serology is normal, so a gluten-free diet is not indicated.",
+            "",
+            "Antibiotics are not a treatment for IBS in this setting.",
+            "CT is not indicated without red flags."
+          ],
+          "ausPearl": "Monash University's FODMAP app is widely used in Australia to support the diet alongside a dietitian.",
+          "tags": [
+            "ibs",
+            "low-fodmap",
+            "rome-iv"
+          ]
+        },
+        {
+          "id": "gastroenterology--bowel-symptoms-crc-screening--q3",
+          "discipline": "adult-medicine",
+          "topic": "gastroenterology",
+          "difficulty": "exam",
+          "stem": "A 44-year-old man attends his GP in Perth for a check-up. He has no bowel symptoms. His father was diagnosed with colorectal cancer at age 49; no other relatives are affected.\n\nWhich is the most appropriate bowel cancer screening advice?",
+          "options": [
+            "Start iFOBT every 2 years from age 50",
+            "No screening is needed because he has no symptoms",
+            "Annual CEA testing",
+            "iFOBT every 2 years from age 45 only",
+            "He is at increased risk and should have earlier, more intensive screening, typically colonoscopy"
+          ],
+          "answer": 4,
+          "explanation": "A **first-degree relative diagnosed with CRC before age 55** places him in a **moderately increased risk** category under Australian (Cancer Council Australia, NHMRC-endorsed) guidance. He should have earlier and more intensive screening, typically **colonoscopy at regular intervals from an earlier age**, rather than the average-risk iFOBT pathway. Exact ages and intervals should be checked against the current guideline.\n\nIf further relatives are affected, or tumour testing suggests **Lynch syndrome**, he may be high risk and need genetic referral.\n\nCEA is not a screening test.",
+          "whyWrong": [
+            "Average-risk screening underestimates his risk.",
+            "Screening is designed for asymptomatic people, and he is at increased risk.",
+            "CEA is not a screening test.",
+            "Average-risk iFOBT does not account for his father's early diagnosis.",
+            ""
+          ],
+          "tags": [
+            "family-history",
+            "colorectal-cancer",
+            "screening"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gastroenterology--liver-disease-paracetamol",
+      "title": "Liver disease, cirrhosis and paracetamol overdose",
+      "minutes": 22,
+      "objectives": [
+        "Interpret liver function tests as hepatocellular or cholestatic",
+        "Recognise and manage the complications of cirrhosis",
+        "Assess paracetamol overdose with the Australian nomogram and start acetylcysteine appropriately",
+        "Identify MASLD and alcohol as leading causes of chronic liver disease in Australia"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Liver disease in Australia",
+          "body": "The leading causes of chronic liver disease in Australia are **metabolic dysfunction-associated steatotic liver disease (MASLD, formerly NAFLD)**, **alcohol**, **hepatitis C** and **hepatitis B**. Liver cancer is one of the fastest rising causes of cancer death.\n\n**Paracetamol** is the commonest drug taken in overdose in Australia and a leading cause of acute liver failure. Australia uses its own treatment nomogram and acetylcysteine regimen (Australian and New Zealand consensus guidelines), which the AMC tests directly."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Patterns of liver injury",
+          "body": "**LFT patterns**:\n\n| Pattern | Raised | Causes |\n|---|---|---|\n| Hepatocellular | ALT and AST predominantly | Viral hepatitis, MASLD, alcohol, drugs (paracetamol), ischaemia, autoimmune hepatitis, haemochromatosis, Wilson disease |\n| Cholestatic | ALP and GGT predominantly | Gallstones in the bile duct, pancreatic cancer, PBC, PSC, drugs (amoxicillin-clavulanate, flucloxacillin) |\n| Isolated unconjugated bilirubin | Bilirubin only | **Gilbert syndrome** (rises with fasting and illness, benign), haemolysis |\n\nAn **AST:ALT ratio above 2** with a raised GGT suggests alcohol. Very high transaminases (thousands) suggest paracetamol, ischaemic hepatitis or acute viral hepatitis. **Synthetic function** is shown by albumin, INR and bilirubin, not by the transaminases.\n\n**Cirrhosis** is diffuse fibrosis with regenerative nodules. Portal hypertension causes varices, ascites and splenomegaly (low platelets); loss of synthetic function causes low albumin, coagulopathy and jaundice; failure to clear ammonia and toxins causes encephalopathy.\n\n**Paracetamol toxicity**: in overdose, the normal glucuronidation and sulfation pathways saturate, and more is converted by CYP2E1 to the toxic metabolite **NAPQI**. Glutathione normally detoxifies NAPQI; when glutathione is depleted, NAPQI causes centrilobular hepatic necrosis. **Acetylcysteine** replenishes glutathione and is nearly 100% protective if given within 8 hours."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "History and examination",
+          "body": "**Chronic liver disease**: fatigue, pruritus, jaundice, easy bruising, abdominal distension. Signs: palmar erythema, spider naevi, clubbing, Dupuytren contracture (alcohol), gynaecomastia, testicular atrophy, jaundice, ascites, splenomegaly, caput medusae, asterixis.\n\n**Decompensation**: ascites, variceal bleeding, encephalopathy (confusion, sleep reversal, asterixis) or jaundice. Look for the **trigger**: infection (including **spontaneous bacterial peritonitis**), GI bleeding, constipation, sedatives, electrolyte disturbance, alcohol, or new HCC.\n\n**Paracetamol overdose**: often asymptomatic early, or nausea and vomiting. Right upper quadrant pain and jaundice appear at 24 to 72 hours, with liver failure (encephalopathy, coagulopathy, hypoglycaemia, acidosis) at 3 to 5 days. **Early absence of symptoms does not mean safety.** Take a risk assessment: amount (mg/kg), time, formulation (immediate or modified release), staggered ingestion, co-ingestants and suicidal intent."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Tests, scores and the nomogram",
+          "body": "**Chronic liver disease screen**: hepatitis B and C serology, iron studies (haemochromatosis), autoantibodies (autoimmune hepatitis, PBC), caeruloplasmin in young patients, lipids and HbA1c (MASLD), alcohol history. **Liver ultrasound** for steatosis, cirrhosis, splenomegaly and focal lesions. Fibrosis assessment with **transient elastography (FibroScan)** or scores (for example FIB-4, APRI).\n\n**Cirrhosis severity**: **Child-Pugh** (bilirubin, albumin, INR, ascites, encephalopathy) and **MELD** (used for transplant listing).\n\n**Ascites**: diagnostic paracentesis in every new ascites or any admitted patient with ascites: cell count (neutrophils **250 cells/mm3 or more** = SBP), culture in blood culture bottles, albumin (serum-ascites albumin gradient 11 g/L or more indicates portal hypertension).\n\n**HCC surveillance**: **6-monthly liver ultrasound** (with or without AFP) in cirrhosis and in higher-risk chronic hepatitis B.\n\n**Paracetamol overdose (Australian guideline)**:\n\n- A **serum paracetamol level at 4 hours or later** after a single acute ingestion, plotted on the **Australian nomogram**, which has a **single treatment line starting at 150 mg/L at 4 hours**. Levels before 4 hours cannot be interpreted.\n- Treat if the level is **on or above the line**.\n- Also: ALT, INR, creatinine, glucose, blood gas; ECG and co-ingestant screen.\n- Potentially toxic ingestion is generally **200 mg/kg or 10 g (whichever is less)** or more in a single acute ingestion; see the guideline for details.\n- Nomogram does not apply to **staggered ingestion, unknown time, or modified-release** (which needs repeat levels)."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Jaundice and abnormal LFTs",
+          "body": "| Presentation | Consider |\n|---|---|\n| Painless jaundice, weight loss, palpable gallbladder | Pancreatic head cancer (Courvoisier's sign) |\n| Fever, RUQ pain, jaundice | Ascending cholangitis (Charcot's triad) |\n| Young woman, pruritus, raised ALP, AMA positive | Primary biliary cholangitis |\n| UC with raised ALP | Primary sclerosing cholangitis |\n| Middle-aged man, diabetes, arthritis, bronze skin, high ferritin and transferrin saturation | Haemochromatosis |\n| Young adult, liver disease with neuropsychiatric signs | Wilson disease |\n| Mild isolated bilirubin rise during fasting | Gilbert syndrome |"
+        },
+        {
+          "kind": "management",
+          "heading": "Cirrhosis and paracetamol",
+          "body": "**MASLD**: weight loss (7 to 10% improves steatosis and inflammation), exercise, diabetes and lipid management, limit alcohol; assess fibrosis.\n\n**Alcohol-related liver disease**: abstinence is the key intervention; **thiamine** before glucose in dependent drinkers (prevents Wernicke encephalopathy); manage withdrawal (benzodiazepines by protocol); relapse prevention (acamprosate, naltrexone with caution in liver disease, baclofen specialist use).\n\n**Cirrhosis complications**:\n\n- **Ascites**: dietary **sodium restriction**, **spironolactone** with or without frusemide; **large-volume paracentesis with IV albumin** for tense ascites; avoid NSAIDs and ACE inhibitors.\n- **SBP**: IV third-generation cephalosporin (for example ceftriaxone or cefotaxime) plus IV albumin; long-term prophylaxis after an episode.\n- **Hepatic encephalopathy**: treat the trigger; **lactulose** titrated to 2 to 3 soft stools a day; **rifaximin** added for recurrence.\n- **Varices**: screening endoscopy; non-selective beta blocker (carvedilol or propranolol) or banding for primary prevention.\n- **HCC surveillance**: 6-monthly ultrasound.\n- Vaccinate against hepatitis A and B, influenza and pneumococcus; refer for transplant assessment when appropriate.\n\n**Paracetamol overdose**:\n\n- **Activated charcoal** if within about 2 hours of a potentially toxic ingestion (longer for large or modified-release ingestions) and the airway is protected.\n- **Acetylcysteine** if the level is **on or above the nomogram line**, or **immediately** if the time of ingestion is unknown, the ingestion was staggered, the patient presents more than 8 hours after a potentially toxic dose (start before the level is back), or there is evidence of liver injury.\n- The Australian **two-bag regimen** is 200 mg/kg over 4 hours then 100 mg/kg over 16 hours; larger ingestions may need increased doses per toxicology advice.\n- Anaphylactoid reactions (flushing, rash, wheeze) are common; slow or pause the infusion and give an antihistamine; they are not a reason to abandon treatment.\n- Check ALT and INR at the end of the infusion; continue if abnormal.\n- Liver failure (rising INR, acidosis, encephalopathy, hypoglycaemia): contact a **liver transplant unit** early.\n- **Psychiatric assessment** before discharge for deliberate overdose.\n- Call the **Poisons Information Centre (13 11 26)** or a clinical toxicologist for advice."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- Paracetamol level at 4 hours of 180 mg/L: **above the line**, start acetylcysteine.\n- Level taken at 2 hours: **uninterpretable**, repeat at 4 hours.\n- Staggered overdose over a day, or unknown time: **start acetylcysteine now**.\n- Presents 10 hours after a large overdose: start acetylcysteine immediately, do not wait for the level.\n- Cirrhotic patient with ascites, fever and confusion: **diagnostic tap for SBP**; neutrophils 250 or more.\n- Encephalopathy: find the trigger (infection, bleed, constipation, sedatives) and give lactulose.\n- Isolated raised unconjugated bilirubin after fasting: Gilbert syndrome, reassure."
+        }
+      ],
+      "keyPoints": [
+        "Hepatocellular pattern raises ALT and AST; cholestatic raises ALP and GGT; synthetic function is albumin, INR and bilirubin.",
+        "Paracetamol level at 4 hours or later on the Australian nomogram; single treatment line from 150 mg/L at 4 hours.",
+        "Give acetylcysteine if on or above the line, or immediately if time unknown, staggered, late (over 8 hours) or liver injury.",
+        "Acetylcysteine is almost fully protective within 8 hours; anaphylactoid reactions are managed, not a reason to stop.",
+        "Ascites: sodium restriction and spironolactone; tap everyone admitted with ascites to exclude SBP (neutrophils 250 or more).",
+        "Encephalopathy: treat the trigger and give lactulose, with rifaximin for recurrence.",
+        "Cirrhosis needs 6-monthly liver ultrasound for HCC surveillance."
+      ],
+      "redFlags": [
+        "Paracetamol overdose with unknown timing, staggered ingestion or late presentation",
+        "Rising INR, encephalopathy, hypoglycaemia or acidosis (acute liver failure)",
+        "Fever or abdominal pain in a patient with ascites (SBP)",
+        "Confusion in a patient with cirrhosis (encephalopathy or bleed)",
+        "Fever, jaundice and RUQ pain (cholangitis)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Paracetamol nomogram",
+          "india": "Rumack-Matthew nomogram with a treatment line starting at 200 mg/L at 4 hours is often taught.",
+          "australia": "Australian nomogram with a single treatment line starting at 150 mg/L at 4 hours."
+        },
+        {
+          "aspect": "Chronic liver disease causes",
+          "india": "Alcohol, hepatitis B and increasingly fatty liver dominate.",
+          "australia": "MASLD, alcohol and hepatitis C and B; HCV is now largely curable in general practice."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Australian paracetamol nomogram treatment line at 4 hours?",
+          "back": "150 mg/L (single treatment line)."
+        },
+        {
+          "front": "Earliest time a paracetamol level can be interpreted after acute ingestion?",
+          "back": "4 hours."
+        },
+        {
+          "front": "When to start acetylcysteine without waiting for a level?",
+          "back": "Unknown time, staggered ingestion, presentation more than 8 hours after a toxic dose, or evidence of liver injury."
+        },
+        {
+          "front": "Australian acetylcysteine two-bag regimen?",
+          "back": "200 mg/kg over 4 hours, then 100 mg/kg over 16 hours."
+        },
+        {
+          "front": "Ascitic neutrophil count diagnosing SBP?",
+          "back": "250 cells/mm3 or more."
+        },
+        {
+          "front": "First-line treatment of hepatic encephalopathy?",
+          "back": "Treat the precipitant plus lactulose; add rifaximin for recurrence."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "gastroenterology--liver-disease-paracetamol--q1",
+          "discipline": "adult-medicine",
+          "topic": "gastroenterology",
+          "difficulty": "core",
+          "stem": "A 19-year-old woman presents to an emergency department in Brisbane 5 hours after taking 40 tablets of 500 mg paracetamol (20 g) in a single ingestion after an argument. She weighs 60 kg. She feels nauseated but is otherwise well. A paracetamol level taken at 5 hours after ingestion is 190 mg/L. ALT is normal.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Repeat the paracetamol level in 4 hours before deciding",
+            "Give activated charcoal only",
+            "Discharge with GP follow-up as her ALT is normal",
+            "Start intravenous acetylcysteine",
+            "Arrange urgent liver transplant assessment"
+          ],
+          "answer": 3,
+          "explanation": "She ingested about **333 mg/kg** (20 g in 60 kg), well above the potentially toxic threshold. A level taken at 5 hours of 190 mg/L lies **above the Australian nomogram treatment line** (which starts at 150 mg/L at 4 hours and falls with time). She needs **IV acetylcysteine** now, using the two-bag regimen (dose adjustments for very large ingestions per toxicology advice).\n\nA normal ALT early on does not mean safety; hepatotoxicity develops over 24 to 72 hours. Charcoal is most useful within about 2 hours and does not replace acetylcysteine. She also needs psychiatric assessment before discharge. Transplant referral is for established liver failure.\n\n**Principle:** plot the level; on or above the line means treat.",
+          "whyWrong": [
+            "The level is already interpretable and above the line; delaying acetylcysteine risks liver injury.",
+            "Charcoal alone is insufficient, and she is beyond the ideal 2-hour window.",
+            "Early ALT is often normal; she is at high risk of hepatotoxicity.",
+            "",
+            "She has no evidence of liver failure."
+          ],
+          "ausPearl": "The Poisons Information Centre (13 11 26) gives 24-hour toxicology advice across Australia, including acetylcysteine dosing for large ingestions.",
+          "tags": [
+            "paracetamol-overdose",
+            "acetylcysteine",
+            "toxicology"
+          ]
+        },
+        {
+          "id": "gastroenterology--liver-disease-paracetamol--q2",
+          "discipline": "adult-medicine",
+          "topic": "gastroenterology",
+          "difficulty": "exam",
+          "stem": "A 45-year-old man presents to an emergency department in Adelaide with abdominal pain and vomiting. He says he has been taking \"a handful\" of paracetamol-containing tablets several times a day for 3 days for a toothache. He cannot give exact amounts. Paracetamol level is 45 mg/L. ALT is 380 U/L (normal under 40).\n\nWhat is the most appropriate management?",
+          "options": [
+            "No treatment because the level is below the nomogram line",
+            "Plot the level on the nomogram using the time of the last dose",
+            "Start intravenous acetylcysteine",
+            "Give activated charcoal and discharge",
+            "Repeat the level in 4 hours"
+          ],
+          "answer": 2,
+          "explanation": "This is a **staggered (repeated supratherapeutic) ingestion** over several days. The **nomogram cannot be used** for staggered ingestions because it assumes a single acute ingestion at a known time.\n\nIn repeated supratherapeutic ingestion, acetylcysteine is indicated when the paracetamol level is detectable above a low threshold or the **ALT is raised**. He has both, so **start IV acetylcysteine** now and continue until paracetamol is undetectable and ALT is improving and INR normal (per the Australian guideline).\n\nHe also needs dental care and advice about safe analgesic use.\n\n**Discriminating clue:** multiple doses over days plus a raised ALT.",
+          "whyWrong": [
+            "The nomogram does not apply to staggered ingestion, and his ALT is raised.",
+            "Plotting a staggered ingestion on the nomogram gives false reassurance.",
+            "",
+            "Charcoal is not useful days after ingestion, and he needs acetylcysteine.",
+            "Waiting delays treatment while liver injury is already present."
+          ],
+          "tags": [
+            "paracetamol-overdose",
+            "staggered-ingestion",
+            "hepatotoxicity"
+          ]
+        },
+        {
+          "id": "gastroenterology--liver-disease-paracetamol--q3",
+          "discipline": "adult-medicine",
+          "topic": "gastroenterology",
+          "difficulty": "foundation",
+          "stem": "A 58-year-old man with alcohol-related cirrhosis and ascites is admitted to a hospital in Newcastle with new confusion and mild abdominal discomfort. Temperature 37.9 °C. He has asterixis. Stool is normal in colour.\n\nWhich is the most important immediate investigation?",
+          "options": [
+            "Diagnostic paracentesis",
+            "CT brain",
+            "Serum ammonia",
+            "Gastroscopy",
+            "Liver biopsy"
+          ],
+          "answer": 0,
+          "explanation": "Confusion with asterixis in cirrhosis is **hepatic encephalopathy**, and the key task is to find the **precipitant**. With ascites, low-grade fever and abdominal discomfort, **spontaneous bacterial peritonitis** is the leading trigger, so a **diagnostic paracentesis** (cell count, culture in blood culture bottles) is essential. **Neutrophils of 250 cells/mm3 or more** confirm SBP; treat with an IV third-generation cephalosporin and IV albumin.\n\nEvery patient admitted with ascites should have a diagnostic tap. Serum ammonia does not change management. CT brain is considered if there are focal signs or head injury. There is no evidence of GI bleeding here.\n\nAlso give lactulose for the encephalopathy.",
+          "whyWrong": [
+            "",
+            "CT brain is for focal signs or trauma, not the first step here.",
+            "Ammonia levels correlate poorly and do not change management.",
+            "There is no evidence of GI bleeding (normal stool colour).",
+            "Biopsy has no role in acute decompensation."
+          ],
+          "tags": [
+            "cirrhosis",
+            "sbp",
+            "hepatic-encephalopathy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gastroenterology--viral-hepatitis",
+      "title": "Viral hepatitis",
+      "minutes": 20,
+      "objectives": [
+        "Interpret hepatitis B serology",
+        "Plan lifelong monitoring and HCC surveillance for chronic hepatitis B",
+        "Diagnose hepatitis C and prescribe curative DAA therapy in general practice",
+        "Recognise hepatitis A and E and their prevention"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Hepatitis in Australia",
+          "body": "- **Hepatitis B**: over 200,000 Australians live with chronic hepatitis B, concentrated in people born in **Asia-Pacific countries and Africa** and in **Aboriginal and Torres Strait Islander people**. Many are undiagnosed. It is a leading cause of liver cancer.\n- **Hepatitis C**: mainly acquired through **injecting drug use**, as well as unsterile tattooing, blood products before 1990 and medical procedures overseas. Since March 2016, **direct-acting antivirals (DAAs)** have been PBS-listed **without restriction by disease stage**, and **GPs can prescribe them**. Australia aims to eliminate HCV as a public health threat.\n- **Hepatitis A** and **E** are faecal-oral, acute infections.\n\nAll viral hepatitis is **notifiable** in Australia."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Natural history",
+          "body": "**Hepatitis B** is a DNA virus spread by blood, sex and perinatally. **Age at infection determines chronicity**: about 90% of infants infected at birth develop chronic infection, compared with under 5% of adults. The liver damage is immune-mediated. Chronic HBV moves through phases (immune tolerant, immune active, inactive carrier, reactivation), which is why monitoring is lifelong. HBV integrates into the host genome and can cause **HCC even without cirrhosis**.\n\n**Hepatitis C** is an RNA virus spread mainly by blood. About 75% of infected people develop chronic infection, usually asymptomatic for decades, and a proportion progress to cirrhosis and HCC, accelerated by alcohol, HIV, HBV co-infection and MASLD.\n\n**Hepatitis A**: acute only, never chronic; spread via contaminated food and water, travel, men who have sex with men, and outbreaks (frozen berries in Australia). **Hepatitis E**: similar, linked to undercooked pork and travel; severe in pregnancy and can become chronic in immunosuppressed people.\n\n**Hepatitis D** only occurs with HBV."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Presentations",
+          "body": "- **Acute hepatitis** (any virus): malaise, nausea, anorexia, RUQ discomfort, dark urine, pale stools, jaundice; very high ALT. Many infections are asymptomatic.\n- **Chronic HBV or HCV**: usually no symptoms until cirrhosis or HCC. Found through screening, abnormal LFTs or at antenatal testing.\n- **Who to test for HBV**: people born in intermediate or high-prevalence countries, Aboriginal and Torres Strait Islander people, people who inject drugs, household and sexual contacts of people with HBV, men who have sex with men, people with HIV or HCV, pregnant women (routine antenatal screening), and before immunosuppression or chemotherapy (risk of reactivation).\n- **Who to test for HCV**: people who have ever injected drugs, people in custodial settings, people with tattoos or piercings done unsterilely, recipients of blood products before 1990, people from high-prevalence countries, people with HIV or HBV, and anyone with abnormal LFTs."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Serology decoded",
+          "body": "**Hepatitis B serology**:\n\n| HBsAg | Anti-HBc | Anti-HBs | Interpretation |\n|---|---|---|---|\n| Negative | Negative | Negative | Susceptible: vaccinate |\n| Negative | Negative | Positive | **Immune from vaccination** |\n| Negative | Positive | Positive | Immune from past infection (resolved) |\n| Positive | Positive (IgM) | Negative | **Acute infection** |\n| Positive | Positive (IgG) | Negative | **Chronic infection** (HBsAg positive for more than 6 months) |\n| Negative | Positive | Negative | Isolated core antibody: resolving, past infection or false positive; needs interpretation |\n\nIn chronic HBV, check **HBeAg and anti-HBe**, **HBV DNA** (viral load), ALT, fibrosis assessment (elastography), HAV immunity, HCV, HDV and HIV serology, and liver ultrasound.\n\n**Hepatitis C**:\n\n- **HCV antibody** shows exposure (it remains positive after clearance or cure).\n- **HCV RNA** (PCR) confirms **current infection**. Many labs now reflex test RNA on antibody-positive samples.\n- Before treatment: assess for **cirrhosis** (APRI score, FibroScan), check HBV and HIV status, renal function, and **drug interactions**.\n- **SVR12**: undetectable HCV RNA 12 weeks after completing therapy defines cure.\n- **Hepatitis A and E**: IgM antibody indicates acute infection."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Hepatitis look-alikes",
+          "body": "| Condition | Clue |\n|---|---|\n| Drug-induced liver injury | New drug (including herbal supplements, antibiotics, TB drugs) |\n| Alcoholic hepatitis | Heavy drinking, AST:ALT above 2, fever, leucocytosis |\n| Autoimmune hepatitis | Young woman, other autoimmunity, ANA or anti-smooth muscle antibody, high IgG |\n| Ischaemic hepatitis | Recent hypotension, very high ALT that falls quickly |\n| EBV or CMV | Pharyngitis, lymphadenopathy, atypical lymphocytes |\n| Biliary obstruction | Cholestatic pattern, dilated ducts on ultrasound |"
+        },
+        {
+          "kind": "management",
+          "heading": "Treat, monitor, prevent",
+          "body": "**Chronic hepatitis B**:\n\n- **Lifelong monitoring** (ALT and HBV DNA, typically every 6 to 12 months), because the disease phase can change.\n- **HCC surveillance with 6-monthly liver ultrasound (with or without AFP)** for everyone with cirrhosis and for higher-risk groups, including Asian men over 40, Asian women over 50, people born in sub-Saharan Africa from about age 20, Aboriginal and Torres Strait Islander people over 50, and anyone with a family history of HCC (check ASHM or GESA guidance for current thresholds).\n- **Antiviral therapy** (entecavir or tenofovir) for immune active disease, cirrhosis, and before immunosuppressive therapy or chemotherapy to prevent reactivation. Prescribing is by specialists or accredited GP prescribers under the Highly Specialised Drugs program.\n- Pregnancy: high viral load mothers are offered tenofovir in the third trimester; **all babies** of HBsAg-positive mothers get **hepatitis B vaccine plus hepatitis B immunoglobulin within 12 hours of birth**.\n- Vaccinate household and sexual contacts; avoid alcohol; vaccinate against hepatitis A.\n\n**Hepatitis C**:\n\n- **Oral pangenotypic DAAs** cure over 95% of people: for example **sofosbuvir-velpatasvir for 12 weeks** or **glecaprevir-pibrentasvir for 8 weeks** (regimen and duration depend on cirrhosis and prior treatment).\n- **GPs can prescribe DAAs** (in consultation with a specialist for the first prescriptions if not experienced, via a simple remote consultation process), and nurse practitioners can too.\n- Check **SVR12** to confirm cure.\n- People with **cirrhosis need ongoing 6-monthly HCC surveillance even after cure**.\n- **Reinfection is possible**: no immunity. Offer harm reduction (needle and syringe programs, opioid agonist therapy) and retreatment if reinfected.\n- There is **no vaccine** for HCV.\n\n**Hepatitis A**: supportive; notify; vaccinate close contacts or give immunoglobulin per the Immunisation Handbook; vaccinate travellers and at-risk groups.\n\n**Hepatitis B vaccine** is on the National Immunisation Program at birth, then 2, 4 and 6 months. Healthcare workers need documented immunity (anti-HBs of 10 mIU/mL or more)."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- HBsAg negative, anti-HBc negative, anti-HBs positive: **vaccinated**.\n- HBsAg positive, anti-HBc IgM positive: **acute** HBV.\n- HCV antibody positive: next test is **HCV RNA**.\n- HCV RNA positive in a man who injects drugs: **GP-prescribed DAA** for 8 to 12 weeks; harm reduction; SVR12.\n- Cured HCV with cirrhosis: continue **6-monthly ultrasound**.\n- Chronic HBV in a 45-year-old man born in Vietnam: lifelong monitoring and **6-monthly ultrasound**.\n- Baby of an HBsAg-positive mother: **vaccine plus HBIG within 12 hours**."
+        }
+      ],
+      "keyPoints": [
+        "HBsAg positive for more than 6 months means chronic hepatitis B; anti-HBs alone means vaccinated.",
+        "Chronic HBV needs lifelong monitoring and 6-monthly ultrasound (plus or minus AFP) in higher-risk groups.",
+        "HCV antibody shows exposure; HCV RNA confirms current infection.",
+        "HCV is curable with 8-12 weeks of oral DAAs, prescribable by GPs; confirm cure with SVR12.",
+        "HCV cure does not protect against reinfection; cirrhosis needs HCC surveillance after cure.",
+        "Babies of HBsAg-positive mothers need HBV vaccine plus HBIG within 12 hours of birth.",
+        "All viral hepatitis is notifiable."
+      ],
+      "redFlags": [
+        "Acute hepatitis with INR rising or confusion (acute liver failure)",
+        "New liver lesion on surveillance ultrasound in chronic HBV or cirrhosis",
+        "HBsAg-positive patient about to start chemotherapy or immunosuppression (reactivation)",
+        "Hepatitis E in pregnancy (risk of fulminant hepatitis)",
+        "Decompensation (ascites, jaundice, encephalopathy) in chronic viral hepatitis"
+      ],
+      "contrast": [
+        {
+          "aspect": "Hepatitis C treatment",
+          "india": "DAAs are available and increasingly affordable, often specialist-initiated.",
+          "australia": "DAAs PBS-listed without disease-stage restriction since 2016; GPs and nurse practitioners prescribe them routinely."
+        },
+        {
+          "aspect": "Hepatitis B burden",
+          "india": "Common across the general population; a major national public health problem.",
+          "australia": "Concentrated in people born in Asia-Pacific and Africa and in First Nations people; many undiagnosed."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Serology pattern after hepatitis B vaccination?",
+          "back": "HBsAg negative, anti-HBc negative, anti-HBs positive."
+        },
+        {
+          "front": "Definition of chronic hepatitis B?",
+          "back": "HBsAg positive for more than 6 months."
+        },
+        {
+          "front": "Test to confirm current hepatitis C infection?",
+          "back": "HCV RNA (PCR)."
+        },
+        {
+          "front": "What defines HCV cure?",
+          "back": "SVR12: undetectable HCV RNA 12 weeks after completing therapy."
+        },
+        {
+          "front": "HCC surveillance in higher-risk chronic HBV?",
+          "back": "6-monthly liver ultrasound, with or without AFP."
+        },
+        {
+          "front": "Prophylaxis for a baby born to an HBsAg-positive mother?",
+          "back": "Hepatitis B vaccine plus hepatitis B immunoglobulin within 12 hours of birth."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "gastroenterology--viral-hepatitis--q1",
+          "discipline": "adult-medicine",
+          "topic": "gastroenterology",
+          "difficulty": "foundation",
+          "stem": "A 24-year-old nursing student in Sydney has hepatitis B serology as part of her occupational screening. Results: HBsAg negative, anti-HBc negative, anti-HBs 120 mIU/mL.\n\nWhat is the correct interpretation?",
+          "options": [
+            "Chronic hepatitis B infection",
+            "Acute hepatitis B infection",
+            "Past infection with natural immunity",
+            "Immune from vaccination",
+            "Susceptible, needs vaccination"
+          ],
+          "answer": 3,
+          "explanation": "**Anti-HBs alone** (with negative HBsAg and negative anti-HBc) indicates immunity from **vaccination**. The hepatitis B vaccine contains only surface antigen, so vaccinated people make anti-HBs but never anti-HBc.\n\nPast natural infection would show **anti-HBc positive** plus anti-HBs. Acute or chronic infection would show HBsAg positive. An anti-HBs level of **10 mIU/mL or more** is considered protective, so she meets healthcare worker requirements.\n\n**Principle:** core antibody means the person has met the virus; surface antibody alone means the vaccine.",
+          "whyWrong": [
+            "Chronic infection requires HBsAg positivity for more than 6 months.",
+            "Acute infection shows HBsAg and IgM anti-HBc.",
+            "Past infection would show anti-HBc as well as anti-HBs.",
+            "",
+            "She has protective anti-HBs levels."
+          ],
+          "tags": [
+            "hepatitis-b",
+            "serology",
+            "vaccination"
+          ]
+        },
+        {
+          "id": "gastroenterology--viral-hepatitis--q2",
+          "discipline": "adult-medicine",
+          "topic": "gastroenterology",
+          "difficulty": "core",
+          "stem": "A 38-year-old man who injected drugs in his twenties sees a GP in Melbourne. HCV antibody is positive and HCV RNA is detectable. ALT is 78 U/L. APRI score and FibroScan show no cirrhosis. HBV and HIV tests are negative. He takes no regular medications and is keen to be treated.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Refer to a hepatologist for pegylated interferon and ribavirin",
+            "GP-prescribed oral pangenotypic direct-acting antiviral therapy, then check HCV RNA 12 weeks after completion",
+            "Monitor LFTs annually and treat only if cirrhosis develops",
+            "Hepatitis C vaccination",
+            "Liver biopsy before any treatment"
+          ],
+          "answer": 1,
+          "explanation": "He has **chronic hepatitis C** (antibody and RNA positive) without cirrhosis. In Australia, **DAAs are PBS-listed without disease-stage restriction** and **GPs can prescribe them**. A pangenotypic regimen (for example sofosbuvir-velpatasvir for 12 weeks or glecaprevir-pibrentasvir for 8 weeks) cures over 95%.\n\nCure is confirmed by **SVR12**: undetectable HCV RNA 12 weeks after finishing. Because cure does not give immunity, harm reduction and retesting if at risk are important.\n\nInterferon is obsolete. Waiting for cirrhosis is no longer appropriate. There is no HCV vaccine. Non-invasive fibrosis assessment has replaced biopsy.",
+          "whyWrong": [
+            "Interferon-based therapy is obsolete.",
+            "",
+            "Treatment is recommended for everyone with chronic HCV regardless of fibrosis stage.",
+            "There is no hepatitis C vaccine.",
+            "Non-invasive fibrosis testing has replaced routine biopsy."
+          ],
+          "ausPearl": "Since March 2016, Australia has provided HCV DAAs on the PBS to all adults with chronic HCV, including people who currently inject drugs and prisoners.",
+          "tags": [
+            "hepatitis-c",
+            "daa",
+            "general-practice"
+          ]
+        },
+        {
+          "id": "gastroenterology--viral-hepatitis--q3",
+          "discipline": "adult-medicine",
+          "topic": "gastroenterology",
+          "difficulty": "exam",
+          "stem": "A 46-year-old man born in China has known chronic hepatitis B diagnosed 10 years ago. He has not had follow-up for 5 years. He feels well. ALT is normal, HBeAg negative, HBV DNA is low. Liver ultrasound 5 years ago showed no cirrhosis. There is no family history of liver cancer.\n\nWhich is the most appropriate ongoing plan?",
+          "options": [
+            "Discharge from follow-up as he is an inactive carrier",
+            "Start lifelong antiviral therapy immediately",
+            "Annual LFTs only",
+            "Lifelong monitoring of ALT and HBV DNA plus 6-monthly liver ultrasound for HCC surveillance",
+            "Liver biopsy every 5 years"
+          ],
+          "answer": 3,
+          "explanation": "Chronic hepatitis B needs **lifelong monitoring** because the disease can move from an inactive phase back into immune activity. ALT and HBV DNA are checked regularly (typically every 6 to 12 months), with fibrosis assessment.\n\nHe also belongs to a **higher-risk group for HCC** (Asian man over 40), so he needs **6-monthly liver ultrasound**, with or without AFP, even without cirrhosis, because HBV can cause HCC in a non-cirrhotic liver.\n\nAntiviral therapy is not currently indicated with normal ALT and low viral load, but would be if he entered an immune active phase, developed cirrhosis, or needed immunosuppression.",
+          "whyWrong": [
+            "Chronic HBV needs lifelong monitoring; 'inactive' can reactivate.",
+            "Antivirals are not indicated with normal ALT, low DNA and no cirrhosis.",
+            "LFTs alone miss HCC and viral changes.",
+            "",
+            "Non-invasive monitoring has replaced routine biopsy."
+          ],
+          "tags": [
+            "hepatitis-b",
+            "hcc-surveillance",
+            "migrant-health"
+          ]
+        }
+      ]
+    }
+  ]
+}

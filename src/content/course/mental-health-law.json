@@ -1,0 +1,705 @@
+{
+  "topic": "mental-health-law",
+  "intro": "Mental health law covers when a person can be assessed and treated without consent because of mental illness, the safeguards that protect them, and how this differs from guardianship and emergency treatment under common law. Because each Australian state and territory has its own Act, the AMC tests shared principles: the involuntary criteria, least restrictive care, tribunal review, patients' rights, and choosing the right legal framework for the situation.",
+  "lessons": [
+    {
+      "id": "mental-health-law--principles-and-criteria",
+      "title": "The framework: state Acts and involuntary criteria",
+      "minutes": 15,
+      "objectives": [
+        "Explain why Australian mental health law is state-based and name the key Acts",
+        "Apply the common criteria for involuntary treatment to a clinical scenario",
+        "Identify what does not, on its own, count as mental illness under the Acts",
+        "Explain the role of capacity and the least restrictive principle"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why the law matters to an intern",
+          "body": "Mental health law sets out when a person can be assessed, detained and treated **without their consent** because of a mental illness, and the safeguards that protect them. Interns are often the first doctor to see a distressed or psychotic person in the ED or on a ward, and may be asked to complete the first form in the involuntary pathway. The AMC expects you to know the principles well enough to decide whether involuntary treatment is justified, what the least restrictive option is, and which law (Mental Health Act, guardianship, or common law) applies.\n\nAustralia has **no national Mental Health Act**. Each state and territory has its own:\n\n| Jurisdiction | Act |\n|---|---|\n| NSW | Mental Health Act 2007 |\n| Victoria | Mental Health and Wellbeing Act 2022 |\n| Queensland | Mental Health Act 2016 |\n| Western Australia | Mental Health Act 2014 |\n| South Australia | Mental Health Act 2009 |\n| Tasmania | Mental Health Act 2013 |\n| ACT | Mental Health Act 2015 |\n| Northern Territory | Mental Health and Related Services Act 1998 |\n\nTerms, forms and timeframes differ. For the AMC, **learn the shared principles, not one state's section numbers**, and say \"this varies by state\" when details matter."
+        },
+        {
+          "kind": "concepts",
+          "heading": "The shared criteria",
+          "body": "Although wording varies, involuntary treatment generally requires **all** of the following:\n\n1. The person **has a mental illness** (defined in the Act, usually as a condition that seriously impairs thinking, mood, perception or memory, often with features such as delusions, hallucinations, serious disorder of thought, severe mood disturbance, or irrational behaviour indicating these).\n2. Because of that illness, there is a **risk of serious harm** to the person or others. Most Acts include harm to health (serious deterioration), reputation, finances or relationships, not only physical violence. NSW refers to protecting the person or others from serious harm, including serious financial harm, damage to relationships or reputation, and deterioration of mental or physical condition.\n3. **Treatment is necessary** and is available.\n4. **No less restrictive** means of providing treatment is reasonably available (for example voluntary admission, community treatment, family support).\n5. In several jurisdictions, the person **lacks capacity** to consent to treatment, or has refused. Newer Acts such as those in Queensland, Western Australia, Tasmania and Victoria place more weight on capacity and supported decision-making; the NSW Act does not make lack of capacity a criterion. Check local law.\n\n**Exclusions.** Most Acts state that a person is **not** to be considered mentally ill **merely** because of:\n\n- political, religious or philosophical beliefs or activities\n- sexual orientation or gender identity\n- engaging in illegal or immoral conduct, or antisocial behaviour\n- **taking alcohol or other drugs** (although the effects of drugs, such as drug-induced psychosis, can be a mental illness)\n- **intellectual disability**\n- economic or social status, or cultural background\n\nThis is a favourite exam point: intoxication alone, or intellectual disability alone, does not justify detention under a Mental Health Act. Personality disorder is treated differently between states, but an acute crisis in someone with a personality disorder is usually managed voluntarily, with detention reserved for serious risk from a co-occurring mental illness."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Guiding principles",
+          "body": "Modern Australian Acts share principles drawn from the UN Principles for the Protection of Persons with Mental Illness and the Convention on the Rights of Persons with Disabilities:\n\n- **Least restrictive** care: voluntary treatment in the community is preferred; involuntary inpatient care is a last resort and should be as short as possible.\n- **Recovery-oriented and person-centred**: respect the person's views, preferences and dignity.\n- **Supported decision-making**: help the person make their own decisions; consider any advance statement.\n- **Involvement of carers, families and nominated persons**, balanced with privacy.\n- Respect for **Aboriginal and Torres Strait Islander** culture, and for culturally and linguistically diverse communities (interpreters; involving Aboriginal mental health workers, elders or family).\n- Special consideration for **children and young people**.\n\nVictoria's 2022 Act, which replaced the 2014 Act after the Royal Commission into Victoria's Mental Health System, emphasises reducing compulsory treatment, restrictive interventions and seclusion."
+        },
+        {
+          "kind": "application",
+          "heading": "Working through a scenario",
+          "body": "Ask four questions in order:\n\n1. **Is there a mental illness?** Psychosis, severe depression, mania: yes. Intoxication alone, personality traits alone, intellectual disability alone, or a \"strange\" lifestyle: not on its own.\n2. **Is there a serious risk because of it?** Suicidal intent, threats to others, self-neglect such as not eating or drinking, reckless spending in mania, serious deterioration.\n3. **Will they accept treatment voluntarily?** If yes, voluntary admission or community care. A person who is willing and able to consent should be treated voluntarily.\n4. **Is there a less restrictive option?** Home treatment with a crisis team and family, or a community treatment order.\n\nIf the problem is a **medical condition** (a confused patient with sepsis refusing antibiotics, or a person with dementia refusing care), the Mental Health Act is usually the wrong tool; think **capacity, guardianship, substitute decision-maker, or the common law doctrine of necessity** in an emergency (covered in lesson 4).\n\nDocumentation must record the mental state findings, the specific risks, why voluntary care is not possible, and why less restrictive options are inadequate."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Options that detain someone for **intoxication alone**, **intellectual disability alone**, eccentric beliefs or antisocial behaviour are wrong.\n- If the patient **accepts voluntary admission**, that is the least restrictive option and the correct answer.\n- \"Which Act applies?\" in a general question: the answer is the **relevant state or territory Mental Health Act**, not a national law.\n- The four pillars: **mental illness + serious risk + treatment needed + no less restrictive option** (with capacity in some states)."
+        }
+      ],
+      "keyPoints": [
+        "Each state and territory has its own Mental Health Act; learn the principles, not section numbers.",
+        "Criteria: mental illness, risk of serious harm, need for treatment, and no less restrictive option.",
+        "Some newer Acts also require lack of capacity to consent; NSW does not.",
+        "Intoxication, intellectual disability, beliefs, sexuality or antisocial behaviour alone are not mental illness under the Acts.",
+        "Serious harm includes self-neglect, financial, reputational and relationship harm, not only violence.",
+        "A person who consents should be treated voluntarily.",
+        "Medical treatment refusals are generally handled by capacity and guardianship law, not the Mental Health Act."
+      ],
+      "redFlags": [],
+      "contrast": [
+        {
+          "aspect": "Source of law",
+          "india": "Mental Healthcare Act 2017 applies nationally.",
+          "australia": "Eight separate state and territory Acts with different terms and timeframes."
+        },
+        {
+          "aspect": "Role of capacity",
+          "india": "MHCA 2017 is built around capacity and the right to make advance directives.",
+          "australia": "Capacity is central in some newer Acts (e.g. Qld, WA, Tas, Vic) but not a criterion in NSW."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Four core criteria for involuntary treatment in Australia?",
+          "back": "Mental illness; risk of serious harm; treatment needed and available; no less restrictive option."
+        },
+        {
+          "front": "Name the NSW and Victorian mental health laws.",
+          "back": "NSW Mental Health Act 2007; Victoria's Mental Health and Wellbeing Act 2022."
+        },
+        {
+          "front": "Can someone be detained under a Mental Health Act for alcohol intoxication alone?",
+          "back": "No. Drug or alcohol use alone is excluded, although drug-induced psychosis can qualify."
+        },
+        {
+          "front": "Does intellectual disability alone meet the definition of mental illness?",
+          "back": "No. It is expressly excluded in most Acts."
+        },
+        {
+          "front": "What is the least restrictive principle?",
+          "back": "Treatment should be given in the way that least limits the person's rights and freedom, preferring voluntary and community care."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "mental-health-law--principles-and-criteria--q1",
+          "discipline": "mental-health",
+          "topic": "mental-health-law",
+          "difficulty": "foundation",
+          "stem": "A 40-year-old man is brought to a Brisbane emergency department by police after shouting at passers-by. His blood alcohol concentration is 0.22%. He is abusive but oriented, with no evidence of psychosis, depression or suicidal thoughts on assessment, and no psychiatric history. He wants to leave.\n\nWhich statement best describes his legal position under Australian mental health law?",
+          "options": [
+            "He can be detained under the Mental Health Act because he is a risk to others",
+            "He can be detained under the Mental Health Act because intoxication is a mental illness",
+            "He must be admitted involuntarily until his blood alcohol is zero",
+            "He can be given a community treatment order",
+            "He cannot be detained under the Mental Health Act on the basis of intoxication alone"
+          ],
+          "answer": 4,
+          "explanation": "Australian Mental Health Acts specify that a person is **not mentally ill merely because they take alcohol or other drugs**. This man is intoxicated but has no features of mental illness, so the Mental Health Act does not apply.\n\nThat does not mean he is simply allowed to walk into danger: if he lacks capacity because of intoxication and is at immediate risk (for example, he has a head injury), clinicians may act under their **duty of care and the common law doctrine of necessity**, and police have their own powers regarding intoxicated people. But involuntary psychiatric treatment requires a mental illness. Drug-induced psychosis, by contrast, can qualify.",
+          "whyWrong": [
+            "Risk alone is not enough; a mental illness must cause the risk.",
+            "Intoxication alone is expressly excluded from the definition of mental illness.",
+            "There is no provision to detain someone under a Mental Health Act simply until sober.",
+            "CTOs are for people with a mental illness receiving community treatment; he has none.",
+            ""
+          ],
+          "tags": [
+            "mental health act",
+            "intoxication",
+            "criteria"
+          ]
+        },
+        {
+          "id": "mental-health-law--principles-and-criteria--q2",
+          "discipline": "mental-health",
+          "topic": "mental-health-law",
+          "difficulty": "core",
+          "stem": "A 24-year-old woman with schizophrenia sees a consultant psychiatrist in a Melbourne community clinic. She has stopped her medication, is hearing voices telling her she is evil, and has not left her flat for a week. She recognises she is unwell, agrees she needs help and is willing to be admitted to hospital.\n\nWhat is the most appropriate course of action?",
+          "options": [
+            "Make her an involuntary patient because she has schizophrenia",
+            "Admit her as a voluntary patient",
+            "Apply for a community treatment order",
+            "Seek a guardianship order",
+            "Ask police to take her to hospital for assessment"
+          ],
+          "answer": 1,
+          "explanation": "She has a serious mental illness and needs admission, but she **understands and consents** to treatment. The **least restrictive principle** means that when a person is willing and able to accept treatment voluntarily, compulsory treatment is not justified. She should be admitted as a **voluntary patient**.\n\nInvoluntary treatment is reserved for people who meet all criteria, including that there is no less restrictive way to provide treatment. A diagnosis of schizophrenia alone never justifies detention. If she later withdraws consent while still at serious risk, she could then be assessed under the Act. Guardianship and police powers are irrelevant when a person is cooperative.",
+          "whyWrong": [
+            "A diagnosis alone does not justify involuntary treatment, and she consents.",
+            "",
+            "A CTO is compulsory and more restrictive than voluntary care she accepts.",
+            "Guardianship is for people lacking capacity for personal or health decisions; she is consenting.",
+            "Police involvement is unnecessary for a cooperative patient already with a psychiatrist."
+          ],
+          "tags": [
+            "least restrictive",
+            "voluntary admission",
+            "mental health act"
+          ]
+        },
+        {
+          "id": "mental-health-law--principles-and-criteria--q3",
+          "discipline": "mental-health",
+          "topic": "mental-health-law",
+          "difficulty": "exam",
+          "stem": "A 31-year-old man with a mild intellectual disability lives in a group home in Perth. Staff report he has become verbally aggressive and broke a window after his favourite staff member left. A GP assessment finds no evidence of psychosis, depression or other mental illness. Staff ask whether he can be admitted under the Mental Health Act.\n\nWhich is the most appropriate response?",
+          "options": [
+            "Intellectual disability alone does not meet the criteria; arrange a behaviour support and disability review",
+            "He meets criteria for involuntary admission because of risk to others",
+            "He should be given a community treatment order",
+            "He should be sedated with regular antipsychotics",
+            "Staff should call police to have him detained for psychiatric assessment"
+          ],
+          "answer": 0,
+          "explanation": "Mental Health Acts expressly state that a person is **not mentally ill merely because of an intellectual disability**. This man's behaviour appears to be a response to loss and change, with no mental illness found, so the Act does not apply.\n\nThe appropriate response is a **positive behaviour support** approach and disability review (often via NDIS-funded supports and a behaviour support practitioner), exploring triggers, communication needs and pain or illness. Any restrictive practices in disability settings are regulated by the NDIS Quality and Safeguards Commission. People with intellectual disability can also develop mental illness, which should be assessed carefully, but none was found here.",
+          "whyWrong": [
+            "",
+            "Risk without mental illness does not satisfy the criteria.",
+            "A CTO requires a mental illness and the involuntary criteria.",
+            "Antipsychotics used to control behaviour without a mental illness are a chemical restraint and a regulated restrictive practice.",
+            "Without evidence of mental illness, psychiatric detention is not justified."
+          ],
+          "ausPearl": "In disability services, chemical restraint and other restrictive practices are regulated by the NDIS Quality and Safeguards Commission and state authorisation schemes.",
+          "tags": [
+            "intellectual disability",
+            "mental health act",
+            "exclusions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mental-health-law--involuntary-pathway-rights",
+      "title": "The involuntary pathway, tribunals and patients' rights",
+      "minutes": 15,
+      "objectives": [
+        "Describe how a person is brought for assessment, including police and ambulance powers",
+        "Outline the steps from initial assessment to involuntary admission and tribunal review",
+        "List the rights of involuntary patients and the role of carers and nominated persons",
+        "Explain advance statements and supported decision-making"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The journey through the system",
+          "body": "Although the forms and names differ by state, the involuntary pathway follows a common shape:\n\n1. **Getting the person to assessment**: a doctor (or in some states another authorised health practitioner), a police officer or an ambulance officer initiates transport to a hospital or declared mental health facility.\n2. **Initial detention for examination**: for a short, defined period, the person is examined by a doctor and then an authorised psychiatrist.\n3. **Involuntary admission (order)** if criteria are met, confirmed by a psychiatrist.\n4. **Independent review** by a tribunal within set timeframes, and periodically after that.\n5. **Discharge, conversion to voluntary status, or a community treatment order**.\n\nAt every step, the person must be told their rights, and the least restrictive option must be considered."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Who can start the process",
+          "body": "- **Doctors**: in most states a registered medical practitioner (not only a psychiatrist) can complete a certificate or order requiring a person to be taken to a mental health facility for assessment after personally examining them. For example, in NSW this is a **Schedule 1** certificate; in Victoria it is an **assessment order**. Timeframes for the examination and the certificate's validity vary by state.\n- **Police**: in all states, police can take a person who appears mentally ill and at risk of serious harm to a hospital or mental health facility for assessment, without a doctor's certificate. They also assist with transport when there is a risk of violence.\n- **Ambulance paramedics**: in several states, paramedics have powers to take a person for assessment.\n- **Family members** cannot detain a person, but can request assessment, contact the local mental health crisis team (often via a state mental health line), or apply in some states for an order through a magistrate.\n\nOnce at the facility, the person must be examined within a set time (for example, within hours in many states) by a medical practitioner, and an **authorised psychiatrist** must confirm whether the criteria are met. If not, the person must be released or offered voluntary care."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Tribunals and review",
+          "body": "Because involuntary treatment removes liberty, every jurisdiction has an **independent tribunal** that reviews involuntary patients within set timeframes and at regular intervals. Examples:\n\n- NSW **Mental Health Review Tribunal**\n- Victoria **Mental Health Tribunal**\n- Queensland **Mental Health Review Tribunal**\n- WA **Mental Health Tribunal**\n- SA: the **South Australian Civil and Administrative Tribunal (SACAT)**\n\nThe tribunal (usually a legal member, a psychiatrist and a community member) hears from the patient, treating team and family, and can confirm, vary or revoke orders. It also makes or reviews **community treatment orders** and approves **ECT** for involuntary patients (see lesson 3). Patients can apply for review or appeal at any time, and can seek a further appeal to a court.\n\nOther safeguards include **Chief Psychiatrists** (who oversee standards and restrictive practices), **official visitors or community visitors** who inspect facilities and hear complaints, and complaints bodies."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Rights of patients and carers",
+          "body": "Involuntary patients have the right to:\n\n- **Information**: an oral and written statement of their rights, in a language and format they understand, with an **interpreter** if needed.\n- **Legal representation** at tribunal hearings, usually free through Legal Aid or a mental health legal service; to apply for review; and to appeal.\n- A **second psychiatric opinion** (a formal right in some states, such as Victoria's Second Psychiatric Opinion Service).\n- **Communication**: to contact family, lawyers, advocates, and receive visitors, subject to limited safety restrictions.\n- **Nominate a person** to support them and receive information. Names differ: for example \"nominated support person\" (Victoria), \"designated carer\" and \"principal care provider\" (NSW), \"nominated support person\" (Queensland), \"nominated person\" (WA). Carers must usually be told about detention, discharge and transfers.\n- **Advocacy**: independent mental health advocates (for example, IMHA in Victoria).\n- Humane care in the **least restrictive** environment, and to be involved in treatment planning.\n\n**Advance statements**: some jurisdictions allow a person, while well, to record their treatment preferences (called an \"advance statement of preferences\" in Victoria, an \"advance health directive\" with mental health provisions in Queensland, and similar instruments elsewhere). Clinicians must consider these and, in some states, explain in writing if they override them. Supported decision-making means helping the person make and express their own choices rather than simply deciding for them.\n\n**Voluntary patients** keep the right to refuse treatment and to leave, although if a voluntary patient wishing to leave meets the involuntary criteria, they can be assessed under the Act."
+        },
+        {
+          "kind": "application",
+          "heading": "What the intern actually does",
+          "body": "- If you believe someone needs involuntary assessment, **examine them personally**, document mental state and risks, discuss with a senior or the psychiatric registrar, and complete the correct local form.\n- Tell the patient what is happening and why, and give them their statement of rights.\n- Contact the nominated person or carer.\n- Never use a Mental Health Act form to hold someone for a **medical** reason (for example, to keep a delirious patient on the ward); use capacity and duty-of-care frameworks instead.\n- Keep careful records: tribunals scrutinise them.\n- If a voluntary patient wants to leave and you are worried, do not simply block the door; ask for an urgent psychiatric assessment of whether the involuntary criteria are met."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- \"Who reviews involuntary detention?\" An **independent tribunal**, not the treating team or the hospital.\n- A patient's family wants him admitted but he has no mental illness: family cannot detain.\n- An involuntary patient asks for a lawyer: this is a **right**; facilitate access to legal representation.\n- Police bring a person under their mental health powers: they still need a medical examination within the set timeframe."
+        }
+      ],
+      "keyPoints": [
+        "Doctors, police and (in several states) paramedics can initiate involuntary assessment; family cannot detain.",
+        "An authorised psychiatrist must confirm criteria within a set time or the person is released or offered voluntary care.",
+        "Independent tribunals review involuntary patients within set timeframes and hear appeals.",
+        "Patients have rights to information, interpreters, legal representation, review, and a nominated person or carer.",
+        "Advance statements record treatment preferences and must be considered.",
+        "Carers must generally be informed about detention, transfer and discharge.",
+        "Terms, forms and timeframes differ by state."
+      ],
+      "redFlags": [],
+      "contrast": [
+        {
+          "aspect": "Review body",
+          "india": "Mental Health Review Boards under the MHCA 2017.",
+          "australia": "State tribunals (e.g. NSW MHRT, Victorian Mental Health Tribunal, SACAT) with legal, psychiatric and community members."
+        },
+        {
+          "aspect": "Nominated person",
+          "india": "Nominated representative under MHCA 2017, one national scheme.",
+          "australia": "Similar role with state-specific names and powers (nominated support person, designated carer, principal care provider)."
+        },
+        {
+          "aspect": "Bringing someone to hospital",
+          "india": "Family usually brings the patient; police involvement less structured.",
+          "australia": "Police and ambulance have statutory powers under state Acts to take a person for assessment."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Who independently reviews involuntary detention in Australia?",
+          "back": "A state or territory tribunal (e.g. NSW Mental Health Review Tribunal, Victorian Mental Health Tribunal)."
+        },
+        {
+          "front": "Can police take someone for mental health assessment without a doctor's certificate?",
+          "back": "Yes. All states give police powers to take a person who appears mentally ill and at risk to a facility for assessment."
+        },
+        {
+          "front": "Name four rights of an involuntary patient.",
+          "back": "Written statement of rights, interpreter, legal representation at tribunal, review/appeal, nominated person, communication with others."
+        },
+        {
+          "front": "What is an advance statement?",
+          "back": "A document made while well recording a person's treatment preferences, which clinicians must consider."
+        },
+        {
+          "front": "What is the NSW doctor's certificate for involuntary assessment called?",
+          "back": "A Schedule 1 certificate (Victoria uses an assessment order)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "mental-health-law--involuntary-pathway-rights--q1",
+          "discipline": "mental-health",
+          "topic": "mental-health-law",
+          "difficulty": "foundation",
+          "stem": "A 29-year-old man has been an involuntary inpatient in a Sydney mental health unit for five days with a manic episode. He tells you he does not think he should be in hospital and asks what he can do about it.\n\nWhich is the most appropriate response?",
+          "options": [
+            "Tell him only the treating psychiatrist can decide and no review is possible",
+            "Tell him he must wait until he is well before any appeal",
+            "Advise him to write to the hospital CEO",
+            "Explain his right to apply for review by the Mental Health Review Tribunal and to have legal representation",
+            "Tell him his family must consent to his discharge"
+          ],
+          "answer": 3,
+          "explanation": "Involuntary patients have legally protected rights, including to **information about their rights**, to have their detention **reviewed by an independent tribunal** (in NSW, the Mental Health Review Tribunal), to **appeal**, and to **legal representation**, usually free through a mental health legal service.\n\nThe correct response is to explain these rights clearly, give him the written statement of rights, and help him access legal representation and advocacy. Tribunals review involuntary patients within set timeframes anyway, but patients can also apply for review. The treating team does not have the final word, and families cannot veto discharge.",
+          "whyWrong": [
+            "Independent tribunal review is a core safeguard; the treating team is not the final decision-maker.",
+            "Patients can seek review at any time; they need not wait until recovery.",
+            "Complaints to hospital management do not replace tribunal review.",
+            "",
+            "Family consent is not required for discharge of an adult."
+          ],
+          "tags": [
+            "tribunal",
+            "patient rights",
+            "involuntary"
+          ]
+        },
+        {
+          "id": "mental-health-law--involuntary-pathway-rights--q2",
+          "discipline": "mental-health",
+          "topic": "mental-health-law",
+          "difficulty": "core",
+          "stem": "A woman calls a GP practice in regional Victoria, distressed. Her 35-year-old brother has stopped eating, believes his food is poisoned, and has barricaded himself in his house. He refuses to see a doctor. She asks how she can get him to hospital.\n\nWhat is the most appropriate advice?",
+          "options": [
+            "She should bring him to hospital herself and request detention",
+            "Nothing can be done unless he consents",
+            "Contact the local area mental health crisis service, or police via 000 if there is immediate danger",
+            "Apply to the Mental Health Tribunal for a community treatment order",
+            "Arrange a guardianship order through VCAT"
+          ],
+          "answer": 2,
+          "explanation": "Her brother appears to have a psychotic illness with serious self-neglect. Family members cannot detain someone, but they can request an **assessment by the local mental health crisis or triage service**, which can visit and, if criteria are met, initiate an assessment order. If there is **immediate danger**, **police** (via 000) have powers under state Mental Health Acts to take a person who appears mentally ill and at risk to hospital for assessment.\n\nTribunal applications are made by treating services for patients already under the Act, not by families as an entry point. Guardianship is for people lacking capacity for personal or health decisions and is too slow for an acute crisis.",
+          "whyWrong": [
+            "Families cannot detain; transporting an unwilling person herself is unsafe and has no legal basis.",
+            "The law allows assessment without consent when there is serious risk from mental illness.",
+            "",
+            "Tribunal applications are made by treating services, not as a family's first step.",
+            "Guardianship is not the pathway for acute psychiatric emergencies."
+          ],
+          "tags": [
+            "involuntary assessment",
+            "crisis team",
+            "police powers"
+          ]
+        },
+        {
+          "id": "mental-health-law--involuntary-pathway-rights--q3",
+          "discipline": "mental-health",
+          "topic": "mental-health-law",
+          "difficulty": "exam",
+          "stem": "A 46-year-old man with bipolar disorder is admitted involuntarily in Melbourne with mania. While well, he had written an advance statement of preferences saying he does not want olanzapine because of past weight gain, and preferring lithium. The treating psychiatrist is considering olanzapine.\n\nWhich best describes how the advance statement should be treated?",
+          "options": [
+            "It has no legal effect for involuntary patients and can be ignored",
+            "It is binding and olanzapine can never be given",
+            "It is only valid if approved by the Mental Health Tribunal",
+            "It is only valid if witnessed by a lawyer",
+            "It must be considered, and if not followed, the reasons must be explained to him"
+          ],
+          "answer": 4,
+          "explanation": "Under Victorian law (and in similar forms elsewhere), an **advance statement of preferences** records the treatment a person would or would not want if they become unwell. It is **not strictly binding** on the treating psychiatrist, but it **must be considered**, and if the psychiatrist decides not to follow it, they must **give reasons**, generally in writing, to the patient.\n\nHere, lithium is a reasonable alternative for mania, so honouring his stated preference fits the principles of recovery-oriented, person-centred care and supported decision-making. Advance statements are one of the key rights-based mechanisms in modern Australian mental health law. Details and names vary between states.",
+          "whyWrong": [
+            "Advance statements must be considered even for involuntary patients.",
+            "They are not absolutely binding; they can be overridden with documented reasons.",
+            "No tribunal approval is required for an advance statement to be valid.",
+            "Witnessing requirements differ, but a lawyer is not required.",
+            ""
+          ],
+          "ausPearl": "Queensland uses advance health directives, and other states have their own instruments; the principle of considering and explaining any departure is shared.",
+          "tags": [
+            "advance statement",
+            "supported decision-making",
+            "rights"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mental-health-law--ctos-ect-restrictive-practices",
+      "title": "Community treatment orders, ECT and restrictive practices",
+      "minutes": 14,
+      "objectives": [
+        "Explain what a community treatment order is, who it suits and how it is reviewed",
+        "State the consent and approval requirements for ECT",
+        "Describe how seclusion and restraint are regulated and minimised",
+        "Recognise other regulated treatments such as neurosurgery for mental illness"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Compulsory care outside and inside hospital",
+          "body": "Mental health law does not just cover detention in hospital. It also covers **compulsory treatment in the community**, **special treatments** such as ECT, and **restrictive interventions** such as seclusion and restraint. These are frequent exam themes because each has specific safeguards that reflect how intrusive it is."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Community treatment orders (CTOs)",
+          "body": "A **community treatment order** (the term used in most states; Queensland instead uses a treatment authority with a community category) requires a person to accept treatment, usually medication and follow-up with a community mental health team, **while living in the community**.\n\nTypical features:\n\n- Made by a **tribunal** (or authorised psychiatrist, then reviewed by the tribunal), for a defined period, often months up to about a year depending on the state, and renewable.\n- The person must meet the **involuntary criteria**, with community treatment being the **least restrictive** way to provide it.\n- It usually specifies where they must attend for treatment (for example, a depot antipsychotic injection clinic).\n- If the person does not comply and their mental state deteriorates, they can be **taken back to hospital** under the order's breach provisions.\n\n**Who it suits**: people with a pattern of relapse after stopping treatment (the \"revolving door\"), often with schizophrenia and limited insight, where relapses have caused serious harm. The evidence for CTOs improving outcomes is mixed, which is why they are regularly reviewed and should not be used simply for convenience.\n\nA CTO does **not** permit forcible administration of medication in the person's home; if the person refuses, the process is return to a facility."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Electroconvulsive therapy (ECT)",
+          "body": "ECT is an effective treatment for severe depression (particularly with psychotic features, stupor, food and fluid refusal, or high suicide risk), catatonia, and some cases of mania and treatment-resistant schizophrenia. In Australia it is always given under **general anaesthesia with muscle relaxation**, and cognitive side effects (especially short-term memory loss) must be explained.\n\nConsent rules:\n\n- A **voluntary patient with capacity** gives informed consent, like any other procedure.\n- For an **involuntary patient**, or a person who **lacks capacity** to consent, ECT generally requires **approval by the mental health tribunal** in most states (the exact rules vary).\n- Many states have **extra safeguards for children and young people**, for example tribunal approval regardless of consent, or prohibition under a certain age.\n- In a genuine emergency (for example, to save life in someone refusing food and fluids), some Acts allow a limited number of emergency ECT treatments pending tribunal review.\n\n**Neurosurgery for mental illness** (psychosurgery) is very tightly restricted: in several states it requires approval by a special panel or tribunal and the person's own informed consent, and it is prohibited in some."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Seclusion and restraint",
+          "body": "**Seclusion** is confining a person alone in a room they cannot leave. **Restraint** includes **physical** (holding), **mechanical** (devices such as belts) and **chemical** restraint (medication used primarily to control behaviour rather than treat illness).\n\nAcross Australia, these are regulated as **restrictive practices** under state Mental Health Acts and Chief Psychiatrist guidelines:\n\n- Used only as a **last resort** to prevent imminent serious harm, after less restrictive options have failed.\n- Authorised by a specified clinician, for the **shortest possible time**.\n- Continuous observation or regular checks, and medical review.\n- Full documentation and reporting; many states publicly report rates.\n- Debriefing afterwards with the person and staff.\n\nNational policy (endorsed through the Australian Health Ministers and the National Mental Health Commission) aims to **reduce and ultimately eliminate** seclusion and restraint. The Royal Commission into Victoria's Mental Health System recommended eliminating seclusion and restraint within ten years, and Victoria's 2022 Act reflects that goal.\n\nSimilar regulation applies in **residential aged care** (restrictive practices under federal aged care law) and **disability services** (NDIS Quality and Safeguards Commission)."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Forensic mental health in brief",
+          "body": "The AMC occasionally touches on the overlap with criminal law. Key ideas, which vary by state:\n\n- **Fitness to stand trial**: whether an accused person can understand the charge, plead, follow proceedings and instruct a lawyer. A person found unfit may be diverted to treatment.\n- **Mental impairment defence** (formerly \"not guilty by reason of insanity\"): at the time of the offence, because of mental illness, the person did not know the nature of the act or that it was wrong. The outcome is usually a supervision or forensic order, with detention in a secure forensic hospital or supervised community treatment, reviewed by a tribunal or court.\n- **Court diversion and liaison services**: many local courts have mental health clinicians who assess people and recommend treatment instead of, or alongside, criminal sanctions.\n- **Prisoners** who need involuntary psychiatric treatment are generally transferred to a mental health facility, because prisons are not declared treatment facilities in most states.\n\nFor an intern, the practical points are to document mental state carefully when someone in custody or brought by police is assessed, and to remember that a person in police custody keeps the same rights to health care and confidentiality, within legal limits."
+        },
+        {
+          "kind": "application",
+          "heading": "Putting it together",
+          "body": "- A man with schizophrenia has had three admissions in two years after stopping medication, each involving violence; he does well on a depot while in hospital but disengages after discharge. **CTO** is the classic option.\n- A woman with severe psychotic depression, refusing food and fluids, is detained involuntarily; the team recommends ECT. **Tribunal approval** is needed (with emergency provisions in some states if life is at immediate risk).\n- An agitated patient is secluded. Document the reason, observe continuously, review regularly, and end seclusion as soon as possible."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- \"Who approves ECT for an involuntary patient?\" **The tribunal**, not the family, not the psychiatrist alone.\n- ECT in Australia is **always modified** (anaesthesia and relaxant).\n- \"Revolving door\" relapses after stopping medication: **CTO**.\n- Seclusion and restraint: last resort, shortest time, documented, reviewed, debriefed.\n- Antipsychotic given to settle behaviour without illness is **chemical restraint**.\n- A patient on a CTO misses his depot and is becoming unwell: the order allows the team to **return him to a facility**, not to inject him forcibly at home."
+        }
+      ],
+      "keyPoints": [
+        "A community treatment order compels treatment while living in the community, and is made or reviewed by a tribunal.",
+        "CTOs suit people with repeated relapse after stopping treatment; non-compliance can lead to return to hospital.",
+        "ECT is always given under anaesthesia with muscle relaxant in Australia.",
+        "ECT for involuntary patients or those without capacity needs tribunal approval in most states.",
+        "Extra safeguards apply for ECT in children and young people; psychosurgery is tightly restricted.",
+        "Seclusion and physical, mechanical and chemical restraint are regulated restrictive practices of last resort.",
+        "National policy aims to reduce and eliminate seclusion and restraint."
+      ],
+      "redFlags": [],
+      "contrast": [
+        {
+          "aspect": "ECT",
+          "india": "Unmodified ECT banned under MHCA 2017; ECT in minors needs Review Board approval.",
+          "australia": "Always modified; tribunal approval for involuntary patients or those lacking capacity in most states; extra safeguards for minors."
+        },
+        {
+          "aspect": "Community compulsion",
+          "india": "Community treatment orders not a feature of the MHCA 2017.",
+          "australia": "CTOs widely used, made or reviewed by tribunals, with return to hospital for non-compliance."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "What is a community treatment order?",
+          "back": "A legal order requiring a person with mental illness to accept treatment while living in the community."
+        },
+        {
+          "front": "Who approves ECT for an involuntary patient in most Australian states?",
+          "back": "The mental health tribunal."
+        },
+        {
+          "front": "Three types of restraint regulated under mental health law?",
+          "back": "Physical, mechanical and chemical restraint."
+        },
+        {
+          "front": "Classic scenario for a CTO?",
+          "back": "Repeated relapse and readmission after stopping medication, with serious harm during relapses."
+        },
+        {
+          "front": "How is ECT administered in Australia?",
+          "back": "Always under general anaesthesia with muscle relaxation (modified ECT)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "mental-health-law--ctos-ect-restrictive-practices--q1",
+          "discipline": "mental-health",
+          "topic": "mental-health-law",
+          "difficulty": "core",
+          "stem": "A 38-year-old man with schizophrenia has been admitted involuntarily to a Brisbane hospital four times in two years. Each time he stops his medication within weeks of discharge, becomes paranoid and has assaulted a neighbour. In hospital he responds well to a depot antipsychotic. He is now ready for discharge but says he will stop the depot.\n\nWhat is the most appropriate legal option to support his treatment?",
+          "options": [
+            "Arrange community treatment under a community treatment order or its local equivalent",
+            "Keep him in hospital indefinitely",
+            "Discharge with no legal order and hope he engages",
+            "Seek a guardianship order",
+            "Refer to police for monitoring"
+          ],
+          "answer": 0,
+          "explanation": "This is the classic \"revolving door\" pattern: a person with a serious mental illness who relapses predictably after stopping treatment, with serious harm to others. He still meets the involuntary criteria, but he does not need to be in hospital to receive treatment. A **community treatment order** (in Queensland, a treatment authority with community category) is the **least restrictive** way to provide the treatment he needs.\n\nA CTO would require him to attend for his depot injections and follow-up with the community mental health team, with provision to return him to hospital if he does not comply and deteriorates. It is made or reviewed by the tribunal and time-limited.",
+          "whyWrong": [
+            "",
+            "Indefinite detention breaches the least restrictive principle when community treatment is possible.",
+            "His history predicts relapse with harm; discharging without support is unsafe.",
+            "Guardianship covers other personal and health decisions; mental health treatment is managed under the Mental Health Act.",
+            "Police have no role in ongoing treatment monitoring."
+          ],
+          "tags": [
+            "community treatment order",
+            "schizophrenia",
+            "least restrictive"
+          ]
+        },
+        {
+          "id": "mental-health-law--ctos-ect-restrictive-practices--q2",
+          "discipline": "mental-health",
+          "topic": "mental-health-law",
+          "difficulty": "exam",
+          "stem": "A 70-year-old woman with severe psychotic depression is an involuntary patient in an Adelaide hospital. She has stopped eating and drinking and believes she deserves to die. Her psychiatrist recommends ECT. She lacks capacity to consent. Her daughter supports ECT.\n\nWhich is required before non-emergency ECT can proceed?",
+          "options": [
+            "Written consent from her daughter",
+            "Approval by the relevant tribunal",
+            "Approval by the hospital ethics committee",
+            "Consent from her GP",
+            "A court order from the Supreme Court"
+          ],
+          "answer": 1,
+          "explanation": "ECT is a highly effective treatment for **severe psychotic depression with food and fluid refusal**, but because it is intrusive, Australian Mental Health Acts impose special safeguards. For an **involuntary patient or a person lacking capacity**, ECT generally requires **approval from the mental health tribunal** (in South Australia, SACAT). Family consent alone is not sufficient.\n\nIn a genuine emergency where life is at immediate risk, some Acts allow a limited number of emergency ECT treatments on psychiatric authorisation pending tribunal review, but the details vary by state. ECT is always given under general anaesthesia with muscle relaxation.",
+          "whyWrong": [
+            "A family member cannot consent to ECT for an involuntary patient; tribunal approval is required.",
+            "",
+            "Ethics committees oversee research, not individual treatment decisions.",
+            "The GP has no authority to consent to ECT.",
+            "The Supreme Court is not the usual pathway; tribunals handle ECT approvals."
+          ],
+          "tags": [
+            "ect",
+            "tribunal",
+            "consent"
+          ]
+        },
+        {
+          "id": "mental-health-law--ctos-ect-restrictive-practices--q3",
+          "discipline": "mental-health",
+          "topic": "mental-health-law",
+          "difficulty": "foundation",
+          "stem": "A 27-year-old man is placed in seclusion in a Perth inpatient mental health unit after attacking a staff member. The nurse unit manager asks you about the requirements.\n\nWhich statement is correct?",
+          "options": [
+            "Seclusion may continue until the next ward round the following day",
+            "Seclusion does not need documentation if the patient is involuntary",
+            "Seclusion is a form of treatment for psychosis",
+            "Seclusion must be authorised, monitored, documented, reviewed regularly and ended as soon as it is safe",
+            "Seclusion can be used routinely to manage staffing shortages"
+          ],
+          "answer": 3,
+          "explanation": "Seclusion is a **restrictive practice** regulated under state Mental Health Acts and Chief Psychiatrist guidelines. It is a **last resort** to prevent imminent serious harm, not a treatment. It must be **authorised** by a specified clinician, the person must be **observed** closely with regular medical and nursing review, it must be **documented and reported**, and it must end **as soon as it is no longer necessary**.\n\nAfterwards, the person and staff should be debriefed. National policy aims to reduce and ultimately eliminate seclusion and restraint, and rates are monitored and reported. It should never be used for convenience or to cover staffing gaps.",
+          "whyWrong": [
+            "Seclusion must be for the shortest possible time with frequent review, not held until the next ward round.",
+            "Documentation and reporting are mandatory for all patients.",
+            "Seclusion is a safety measure of last resort, not a therapy.",
+            "",
+            "Using seclusion for staffing convenience is unlawful and contrary to policy."
+          ],
+          "tags": [
+            "seclusion",
+            "restrictive practice",
+            "mental health act"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mental-health-law--capacity-guardianship-consent",
+      "title": "Capacity, guardianship and treating without consent",
+      "minutes": 15,
+      "objectives": [
+        "Assess decision-making capacity using the four functional abilities",
+        "Choose between the Mental Health Act, guardianship law and the common law in a given scenario",
+        "Identify the substitute decision-maker hierarchy and advance care directives",
+        "Apply emergency treatment principles (necessity) when consent cannot be obtained"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Different laws for different problems",
+          "body": "A frequent AMC trap is using the wrong legal tool. There are three main frameworks for treating adults who cannot or will not consent:\n\n| Framework | Covers | Typical example |\n|---|---|---|\n| **Mental Health Act** (state) | Assessment and treatment of **mental illness** when involuntary criteria are met | Psychotic man with suicidal intent refusing admission |\n| **Guardianship and substitute decision-making law** (state) | **Health, personal and lifestyle decisions** for adults who **lack capacity** from any cause (dementia, brain injury, intellectual disability, delirium) | Woman with dementia needing a decision about moving to residential care or surgery |\n| **Common law: doctrine of necessity / duty of care** | **Emergency** treatment to save life or prevent serious harm when consent cannot be obtained and there is no time to use another process | Unconscious patient after a car crash; delirious patient pulling out a line that is life-sustaining |\n\nThe Mental Health Act authorises treatment **of the mental illness**, not unrelated medical treatment. Treating the broken hip of an involuntary psychiatric patient still requires their consent (if competent) or a substitute decision-maker."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Capacity",
+          "body": "Adults are **presumed** to have capacity. Capacity is **decision-specific** and **time-specific**: a person with dementia may be able to choose their meals but not manage complex finances, and a delirious patient may regain capacity tomorrow.\n\nA person has capacity for a decision if they can:\n\n1. **Understand** the information relevant to the decision (including consequences of each option, and of not deciding)\n2. **Retain** it long enough to decide\n3. **Use or weigh** the information to reach a decision\n4. **Communicate** the decision (by any means)\n\nAn unwise decision does not mean lack of capacity. The seriousness of the decision affects how carefully you assess, and **supported decision-making** (plain language, interpreters, hearing aids, choosing the best time of day, involving a trusted person) should be tried before concluding that someone lacks capacity. Document your assessment in detail."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Substitute decision-makers and planning documents",
+          "body": "When a person lacks capacity for a health decision, look for (the names vary by state):\n\n1. A valid **advance care directive** covering the situation, which must be followed if it applies. A refusal of treatment in a valid directive made while competent is generally binding.\n2. An **appointed substitute decision-maker**: an **enduring guardian** (NSW), **medical treatment decision maker** appointed under Victoria's Medical Treatment Planning and Decisions Act 2016, an **attorney for personal/health matters** under an **enduring power of attorney** (Queensland), and equivalents elsewhere.\n3. A **tribunal-appointed guardian** (e.g. by NCAT, VCAT, QCAT, SACAT or the State Administrative Tribunal in WA).\n4. A default **\"person responsible\"** or statutory health attorney from a legislated hierarchy: typically spouse or partner, then an unpaid carer, then a close family member or friend.\n\nAn **enduring power of attorney (financial)** covers money and property, not health decisions unless the state's instrument explicitly includes them. Plan these documents **early**, while the person has capacity (for example, soon after a dementia diagnosis).\n\nIf no substitute is available, or there is serious dispute, or the treatment is special (for example, sterilisation), an application to the **guardianship tribunal** or the Public Guardian/Advocate may be needed."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Emergency treatment and young people",
+          "body": "**Emergency**: if a person lacks capacity, there is an immediate threat to life or health, and there is no time to find a substitute decision-maker, treatment necessary to deal with the emergency can be given under the **common law doctrine of necessity** (and emergency provisions in guardianship Acts). It must be limited to what is necessary, and it cannot override a known valid refusal (such as a clear advance care directive or a competent refusal made earlier).\n\n**Children and adolescents**: parents consent for young children. The **mature minor** principle allows competent minors to consent. Mental Health Acts apply to minors with extra protections. Some treatments for minors (such as special medical procedures) need court or tribunal approval.\n\n**A competent adult can refuse treatment**, even life-saving treatment, for any reason. The Mental Health Act cannot be used to override a competent refusal of **medical** treatment. If refusal stems from a mental illness that impairs decision-making (for example, a delusion that the surgeons want to kill them), then the person likely lacks capacity for that decision, and guardianship or necessity applies to the medical treatment, while the Mental Health Act may apply to treatment of the psychosis."
+        },
+        {
+          "kind": "application",
+          "heading": "Choosing the right framework",
+          "body": "- **Psychotic, suicidal, refusing psychiatric admission**: Mental Health Act.\n- **Delirious post-operative man trying to leave the ward, with an IV line and antibiotics he needs**: capacity assessment; if lacking capacity, act under duty of care and necessity for immediate safety; involve the person responsible; treat the delirium. Not the Mental Health Act.\n- **Woman with moderate dementia whose family wants her moved into residential care against her wishes**: capacity assessment for the accommodation decision; if lacking, substitute decision-maker or guardianship tribunal. Not the Mental Health Act.\n- **Competent woman refusing a blood transfusion for religious reasons**: respect the refusal.\n- **Man with anorexia nervosa refusing feeding with life-threatening instability**: may be treated under the Mental Health Act (anorexia is a mental illness) or guardianship, depending on the state; seek senior and legal advice."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- The single most common trap: using the **Mental Health Act for a medical problem** (delirium, dementia, refusing surgery).\n- \"Unwise\" does not mean \"lacks capacity\".\n- Capacity is **decision-specific** and can fluctuate; reassess.\n- A valid **advance care directive** refusing treatment must be followed.\n- A financial power of attorney does not usually give authority for medical decisions."
+        }
+      ],
+      "keyPoints": [
+        "Mental Health Acts cover treatment of mental illness; guardianship law covers other decisions for adults lacking capacity.",
+        "Emergency treatment without consent rests on the common law doctrine of necessity and must be limited to the emergency.",
+        "Capacity is presumed, decision-specific and time-specific: understand, retain, weigh, communicate.",
+        "An unwise decision is not evidence of incapacity.",
+        "Substitute decision-maker hierarchy: advance care directive, appointed decision-maker, tribunal guardian, then person responsible.",
+        "A valid advance care directive refusing treatment is generally binding.",
+        "Plan enduring guardianship, power of attorney and advance care directives while the person still has capacity."
+      ],
+      "redFlags": [],
+      "contrast": [
+        {
+          "aspect": "Substitute decision-making",
+          "india": "Family members usually decide informally for patients lacking capacity.",
+          "australia": "Legislated hierarchy with appointed decision-makers, tribunal guardians and a default person responsible; names vary by state."
+        },
+        {
+          "aspect": "Advance directives",
+          "india": "MHCA 2017 provides for mental health advance directives.",
+          "australia": "Advance care directives cover all health care under state laws; valid refusals are generally binding."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Four elements of decision-making capacity?",
+          "back": "Understand, retain, use or weigh, and communicate the decision."
+        },
+        {
+          "front": "Which law covers a delirious medical patient who lacks capacity and needs treatment?",
+          "back": "Guardianship/substitute decision-making law, or the common law doctrine of necessity in an emergency; not the Mental Health Act."
+        },
+        {
+          "front": "Is a valid advance care directive refusing treatment binding?",
+          "back": "Generally yes, if it was made while competent and applies to the situation."
+        },
+        {
+          "front": "Does an unwise decision mean a person lacks capacity?",
+          "back": "No. Capacity is about the decision-making process, not the outcome."
+        },
+        {
+          "front": "Who is the usual default 'person responsible' first in line?",
+          "back": "A spouse or partner (then an unpaid carer, then a close relative or friend); varies by state."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "mental-health-law--capacity-guardianship-consent--q1",
+          "discipline": "mental-health",
+          "topic": "mental-health-law",
+          "difficulty": "core",
+          "stem": "An 82-year-old man is two days after a total hip replacement in a Sydney hospital. Overnight he became confused, is trying to pull out his IV cannula and urinary catheter, and is attempting to leave the ward. He has a urinary tract infection on IV antibiotics. He has no psychiatric history.\n\nWhich legal framework best supports managing him without his consent tonight?",
+          "options": [
+            "Schedule him under the NSW Mental Health Act 2007",
+            "Apply for a community treatment order",
+            "Act under duty of care and the doctrine of necessity, and involve his person responsible",
+            "Wait until he regains capacity before providing any treatment",
+            "Seek an urgent guardianship order from NCAT before acting"
+          ],
+          "answer": 2,
+          "explanation": "This man has **delirium** from infection after surgery. He lacks capacity to refuse treatment tonight, and there is an immediate risk to his health. This is a **medical** problem, so the Mental Health Act is not the right tool. Clinicians can act under their **duty of care and the common law doctrine of necessity**, doing only what is necessary for his immediate safety (non-drug measures, one-to-one supervision, treating the cause, low-dose medication only if essential), and should contact his **person responsible** (usually his spouse) for ongoing decisions.\n\nA guardianship application is too slow for an emergency and is reserved for longer-term or disputed decisions.",
+          "whyWrong": [
+            "The Mental Health Act is for mental illness; delirium from a medical cause should be managed under medical frameworks.",
+            "CTOs relate to community psychiatric treatment and are irrelevant here.",
+            "",
+            "Withholding necessary treatment while he lacks capacity would breach the duty of care.",
+            "A tribunal application is too slow for an emergency and unnecessary when a person responsible is available."
+          ],
+          "tags": [
+            "capacity",
+            "delirium",
+            "necessity"
+          ]
+        },
+        {
+          "id": "mental-health-law--capacity-guardianship-consent--q2",
+          "discipline": "mental-health",
+          "topic": "mental-health-law",
+          "difficulty": "exam",
+          "stem": "A 58-year-old woman with type 2 diabetes is advised by her surgeon in Hobart to have a below-knee amputation for an infected, gangrenous foot. She understands that without surgery she may die from sepsis, can explain the risks and benefits back, and has discussed it with her family. She declines surgery because she would rather die than lose her leg. She has no mental illness.\n\nWhich is the most appropriate course of action?",
+          "options": [
+            "Proceed with surgery under the doctrine of necessity",
+            "Detain her under the Mental Health Act as her decision is irrational",
+            "Apply for a guardianship order",
+            "Respect her decision, document the capacity assessment and offer ongoing care, including palliative options",
+            "Ask her family to consent on her behalf"
+          ],
+          "answer": 3,
+          "explanation": "She **has capacity**: she understands the information, retains it, weighs it (with reference to her own values) and communicates a clear decision. A competent adult may **refuse treatment, even life-saving treatment**, and an unwise decision is not evidence of incapacity.\n\nThe right course is to **respect her decision**, document the capacity assessment carefully, keep offering alternatives, make sure she knows she can change her mind, and provide good symptom control and, if appropriate, palliative care. Screening for depression is sensible, but there is no mental illness here. The doctrine of necessity only applies when a person lacks capacity. Families cannot consent for a competent adult.",
+          "whyWrong": [
+            "Necessity applies only when the person lacks capacity; she is competent.",
+            "She has no mental illness, and refusing treatment is not a criterion for detention.",
+            "Guardianship is for adults lacking capacity; she has capacity.",
+            "",
+            "Family members cannot consent on behalf of a competent adult."
+          ],
+          "tags": [
+            "capacity",
+            "refusal of treatment",
+            "autonomy"
+          ]
+        },
+        {
+          "id": "mental-health-law--capacity-guardianship-consent--q3",
+          "discipline": "mental-health",
+          "topic": "mental-health-law",
+          "difficulty": "foundation",
+          "stem": "A 76-year-old woman with moderate Alzheimer's dementia lives alone in Geelong. She lacks capacity to decide about her accommodation. Her son wants her to move into a residential aged care facility; she wants to stay at home. Three years ago, while she had capacity, she appointed her son as her medical treatment decision maker, but she did not appoint anyone for personal or lifestyle decisions.\n\nWhat is the most appropriate step if agreement cannot be reached?",
+          "options": [
+            "Admit her involuntarily under the Mental Health and Wellbeing Act 2022",
+            "Her son can decide because he is her medical treatment decision maker",
+            "Her GP can decide as her treating doctor",
+            "Leave her at home as nothing can be done",
+            "Apply to VCAT for a guardianship order covering accommodation"
+          ],
+          "answer": 4,
+          "explanation": "Accommodation is a **personal or lifestyle decision**, not a medical treatment decision, so her son's appointment as **medical treatment decision maker** does not give him authority over where she lives. With no one appointed for personal matters and a genuine dispute about her welfare, the appropriate step is an application to the state guardianship tribunal (in Victoria, **VCAT**) for a **guardianship order** covering accommodation.\n\nThe Mental Health Act is not for dementia-related decisions about residence. This scenario shows why early planning after a dementia diagnosis matters: appointing decision-makers for personal, financial and medical matters while the person still has capacity avoids this situation.",
+          "whyWrong": [
+            "Dementia-related accommodation decisions are not a Mental Health Act matter.",
+            "A medical treatment decision maker covers medical decisions, not accommodation.",
+            "Doctors are not substitute decision-makers for accommodation.",
+            "Guardianship law provides a pathway when a person lacks capacity and there is dispute.",
+            ""
+          ],
+          "tags": [
+            "guardianship",
+            "dementia",
+            "substitute decision-maker"
+          ]
+        }
+      ]
+    }
+  ]
+}

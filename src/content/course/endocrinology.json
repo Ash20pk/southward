@@ -1,0 +1,952 @@
+{
+  "topic": "endocrinology",
+  "intro": "Endocrinology and diabetes on the AMC covers type 2 diabetes diagnosis and the Australian treatment algorithm, type 1 diabetes and diabetic emergencies, thyroid disease, adrenal and pituitary disorders, and calcium and bone. Expect to convert to SI units (mmol/L and HbA1c in both % and mmol/mol), manage DKA and hypoglycaemia step by step, and recognise adrenal crisis and hypercalcaemia before the results come back.",
+  "lessons": [
+    {
+      "id": "endocrinology--type-2-diabetes",
+      "title": "Type 2 diabetes: diagnosis and management",
+      "minutes": 22,
+      "objectives": [
+        "Screen for and diagnose type 2 diabetes using Australian thresholds in SI units",
+        "Choose second-line therapy after metformin based on cardiovascular disease, heart failure and CKD",
+        "Set individualised HbA1c targets and run the annual cycle of care",
+        "Advise on driving, sick days and surgery for people on glucose-lowering drugs"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Diabetes in Australia",
+          "body": "About 1.3 million Australians have diagnosed diabetes, most of it **type 2**, and many more are undiagnosed. Type 2 diabetes is several times more common in **Aboriginal and Torres Strait Islander people**, starts younger, and drives kidney failure, amputations and blindness. It is also more common in people of South Asian, Pacific Islander and Middle Eastern background.\n\nKey Australian resources: the RACGP *Management of type 2 diabetes: A handbook for general practice*, the **Australian Diabetes Society (ADS) type 2 diabetes treatment algorithm**, and the **National Diabetes Services Scheme (NDSS)**, which subsidises glucose monitoring supplies and education.\n\n**Units**: glucose is reported in **mmol/L** (divide mg/dL by 18). HbA1c is reported in both **%** and **mmol/mol**: 6.5% = 48 mmol/mol, 7.0% = 53 mmol/mol, 8.0% = 64 mmol/mol."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Insulin resistance and beta cell failure",
+          "body": "Type 2 diabetes results from **insulin resistance** (liver, muscle, fat), driven by central adiposity, inactivity, genetics and ageing, plus progressive **beta cell failure**. Early on the pancreas compensates with high insulin levels; glucose rises once beta cells cannot keep up. This explains the natural history: many patients need escalating therapy and eventually insulin, not because they have failed but because beta cell function declines.\n\nHyperglycaemia damages small vessels (**retinopathy, nephropathy, neuropathy**) and accelerates atherosclerosis (**MI, stroke, peripheral arterial disease**). Most people with type 2 diabetes die of cardiovascular disease, which is why the modern algorithm prioritises drugs with proven cardiovascular and renal benefit.\n\n**Drug mechanisms that matter for the exam**:\n\n- **Metformin**: reduces hepatic glucose output; no hypoglycaemia alone; GI side effects, B12 deficiency; avoid in severe renal impairment (lactic acidosis risk)\n- **SGLT2 inhibitors** (empagliflozin, dapagliflozin): glycosuria; reduce heart failure admissions and slow CKD; genital fungal infections, volume depletion, **euglycaemic DKA**\n- **GLP-1 receptor agonists** (semaglutide, dulaglutide, liraglutide): increase glucose-dependent insulin secretion, slow gastric emptying, reduce appetite and weight; reduce atherosclerotic events; nausea\n- **DPP-4 inhibitors** (sitagliptin, linagliptin): weight neutral, well tolerated, no hypoglycaemia alone, modest effect\n- **Sulfonylureas** (gliclazide): increase insulin secretion; cheap and effective; **hypoglycaemia** and weight gain\n- **Insulin**: most potent; hypoglycaemia and weight gain"
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Screening and presentation",
+          "body": "Most people are asymptomatic. Symptoms when present: polyuria, polydipsia, weight loss, fatigue, blurred vision, recurrent infections (thrush, skin).\n\n**Screening (RACGP)**:\n\n- Assess risk with **AUSDRISK** from age 40 (every 3 years); a high score (12 or more) prompts a fasting glucose or HbA1c.\n- **Aboriginal and Torres Strait Islander people**: screen from **age 18**, commonly annually as part of the health check.\n- Others at high risk (test directly): previous gestational diabetes, polycystic ovary syndrome, established CVD, antipsychotic use, and high-risk ethnic groups, among others.\n\nAt diagnosis and review, examine: BP, BMI and waist, feet (pulses, monofilament sensation, deformity, ulcers), eyes (or retinal photography), injection sites if on insulin, and signs of complications."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Diagnostic thresholds and monitoring",
+          "body": "**Diagnosis of type 2 diabetes** (in an asymptomatic person, confirm with a second test on a separate day):\n\n| Test | Diabetes |\n|---|---|\n| HbA1c | **6.5% (48 mmol/mol) or higher** |\n| Fasting plasma glucose | **7.0 mmol/L or higher** |\n| 2-hour OGTT or random glucose | **11.1 mmol/L or higher** |\n\nA single random glucose of 11.1 or more **with symptoms** is enough.\n\n- **Fasting glucose 6.1 to 6.9 mmol/L** = impaired fasting glucose; if 5.5 to 6.9, an OGTT or HbA1c helps clarify. **2-hour OGTT 7.8 to 11.0** = impaired glucose tolerance. These are **prediabetes**: lifestyle intervention reduces progression.\n- HbA1c is unreliable with haemoglobinopathies, iron deficiency, recent transfusion, haemolysis, pregnancy and CKD.\n\n**Annual cycle of care**:\n\n- HbA1c every 3 to 6 months\n- BP each visit\n- Lipids, **eGFR and urine albumin-to-creatinine ratio (uACR)** yearly\n- **Feet**: at least yearly (more often if high risk)\n- **Eyes**: at diagnosis, then every **2 years** if no retinopathy, **yearly** for Aboriginal and Torres Strait Islander people and those at higher risk\n- Weight, smoking, diet, activity, mood, vaccination, and absolute CVD risk (people with diabetes are assessed from 35)\n\nAn MBS GP management plan and team care arrangement give access to allied health (dietitian, podiatrist, diabetes educator, exercise physiologist)."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Is it type 2?",
+          "body": "| Type | Clues |\n|---|---|\n| Type 1 | Younger, lean, rapid onset, weight loss, ketones; positive GAD or IA-2 antibodies, low C-peptide |\n| LADA (latent autoimmune diabetes in adults) | Adult, lean, poor response to oral drugs, antibody positive, needs insulin early |\n| MODY | Young, strong family history across generations, non-obese, antibody negative |\n| Secondary | Pancreatitis, haemochromatosis, cystic fibrosis, Cushing syndrome, steroid-induced, antipsychotics |\n| Gestational | First diagnosed in pregnancy (see Women's health) |\n\nA lean adult who presents with weight loss and ketones should not be assumed to have type 2 diabetes."
+        },
+        {
+          "kind": "management",
+          "heading": "The Australian approach",
+          "body": "**Lifestyle first and always**: weight loss (5 to 10% improves glycaemia; larger losses can cause remission), dietitian input, regular activity, smoking cessation, alcohol moderation. Structured programs and **bariatric surgery** are options in obesity.\n\n**Pharmacotherapy (ADS algorithm)**:\n\n1. **Metformin** is first line unless contraindicated.\n2. **Add an SGLT2 inhibitor or GLP-1 receptor agonist early when there is established cardiovascular disease, heart failure or CKD**, independent of HbA1c: SGLT2 inhibitors are preferred for **heart failure and CKD**; GLP-1 RAs for **atherosclerotic CVD** and when weight loss is a priority.\n3. Without those conditions, choose the add-on by patient factors: DPP-4 inhibitor, SGLT2 inhibitor, GLP-1 RA, sulfonylurea, or insulin, considering hypoglycaemia risk, weight, cost and PBS rules.\n4. **Insulin** (usually basal insulin at night first) when targets are not met on oral therapy, or at any stage with symptomatic hyperglycaemia or catabolic features.\n\n**HbA1c target**: generally **7.0% (53 mmol/mol) or less**, **individualised**: tighter (for example 6.5%) in younger people early in the disease if safe, and **looser (for example up to 8.0%)** in the **frail elderly**, those with hypoglycaemia unawareness, limited life expectancy or high hypoglycaemia risk.\n\n**Other targets**: BP generally below 130/80 mmHg in diabetes (RACGP), with an ACE inhibitor or ARB if albuminuria; statin for most people with diabetes based on absolute risk.\n\n**Safety advice**:\n\n- **Sick day rules**: withhold metformin and SGLT2 inhibitors (and review diuretics, ACE inhibitors, ARBs) when vomiting, dehydrated or unable to eat; keep taking insulin with more frequent checks.\n- **SGLT2 inhibitors** are stopped for a few days before surgery or procedures needing fasting (ADS perioperative guidance), because of the risk of euglycaemic DKA.\n- **Driving (Austroads)**: people on insulin or sulfonylureas should check glucose before driving and every 2 hours on long drives, and not drive if below 5 mmol/L (\"above 5 to drive\"). Recurrent severe hypoglycaemia and hypoglycaemia unawareness affect licensing; commercial standards are stricter.\n- Register with the **NDSS**."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- Asymptomatic person with HbA1c 6.7%: **repeat** to confirm (a second test on another day) before diagnosis.\n- Type 2 diabetes on metformin with **heart failure or CKD**: add an **SGLT2 inhibitor**. With **prior MI** and obesity: SGLT2 inhibitor or GLP-1 RA.\n- An 86-year-old in residential care with HbA1c 7.9% and falls: **relax the target** and stop the sulfonylurea rather than intensify.\n- A patient on an SGLT2 inhibitor with vomiting, abdominal pain and glucose 9 mmol/L: **euglycaemic DKA**; check ketones.\n- Aboriginal 22-year-old at a health check: diabetes screening is due.\n- Eye screening every 2 years without retinopathy; yearly for First Nations people."
+        }
+      ],
+      "keyPoints": [
+        "Diagnosis: HbA1c 6.5% (48 mmol/mol) or more, fasting glucose 7.0 mmol/L or more, or 2-hour OGTT/random 11.1 mmol/L or more; confirm if asymptomatic.",
+        "Screen with AUSDRISK from 40; screen First Nations people from 18.",
+        "Metformin first line; add SGLT2 inhibitor or GLP-1 RA early for CVD, heart failure or CKD.",
+        "HbA1c target 7.0% (53 mmol/mol) or less, individualised and looser in the frail elderly.",
+        "SGLT2 inhibitors can cause euglycaemic DKA: stop for sick days and before surgery.",
+        "Annual cycle of care: HbA1c, BP, lipids, eGFR and uACR, feet, eyes.",
+        "Driving on insulin or sulfonylurea: check glucose and drive only if above 5 mmol/L."
+      ],
+      "redFlags": [
+        "Vomiting or abdominal pain on an SGLT2 inhibitor (euglycaemic DKA)",
+        "Weight loss and ketones in an adult with new diabetes (type 1 or LADA)",
+        "Foot ulcer, spreading cellulitis or a cold foot",
+        "Sudden visual loss (vitreous haemorrhage, retinal detachment)",
+        "Glucose above 30 mmol/L with dehydration and confusion (HHS)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Units and diagnosis",
+          "india": "Glucose in mg/dL; HbA1c in % only.",
+          "australia": "Glucose in mmol/L (divide by 18); HbA1c in % and mmol/mol (6.5% = 48 mmol/mol)."
+        },
+        {
+          "aspect": "Drug after metformin",
+          "india": "Sulfonylureas are the usual cheap second-line choice.",
+          "australia": "SGLT2 inhibitor or GLP-1 RA early for CVD, heart failure or CKD, PBS-subsidised under criteria."
+        },
+        {
+          "aspect": "Screening",
+          "india": "Opportunistic testing in adults, often from 30.",
+          "australia": "AUSDRISK from 40; direct screening from 18 for Aboriginal and Torres Strait Islander people."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "HbA1c diagnostic of diabetes (both units)?",
+          "back": "6.5% or more (48 mmol/mol or more)."
+        },
+        {
+          "front": "Fasting plasma glucose diagnostic of diabetes?",
+          "back": "7.0 mmol/L or more."
+        },
+        {
+          "front": "General HbA1c target in type 2 diabetes?",
+          "back": "7.0% (53 mmol/mol) or less, individualised."
+        },
+        {
+          "front": "Preferred add-on to metformin with heart failure or CKD?",
+          "back": "SGLT2 inhibitor."
+        },
+        {
+          "front": "Retinal screening interval in diabetes without retinopathy?",
+          "back": "Every 2 years (yearly for Aboriginal and Torres Strait Islander people and higher risk)."
+        },
+        {
+          "front": "Glucose threshold for driving on insulin (Austroads)?",
+          "back": "Above 5 mmol/L ('above 5 to drive')."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "endocrinology--type-2-diabetes--q1",
+          "discipline": "adult-medicine",
+          "topic": "endocrinology",
+          "difficulty": "foundation",
+          "stem": "A 52-year-old man sees his GP in Parramatta for a check-up. He has no symptoms. His AUSDRISK score is 16. A fasting plasma glucose is 7.4 mmol/L.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Diagnose type 2 diabetes and start metformin",
+            "Repeat a fasting glucose or HbA1c on another day to confirm",
+            "Reassure him; this is impaired fasting glucose",
+            "Arrange GAD antibodies",
+            "Start insulin"
+          ],
+          "answer": 1,
+          "explanation": "A fasting glucose of **7.0 mmol/L or more** is in the diabetes range. However, in an **asymptomatic** person, the diagnosis requires a **second abnormal test on a separate day** (fasting glucose, HbA1c or OGTT). This avoids labelling someone based on laboratory error or transient hyperglycaemia.\n\nImpaired fasting glucose is 6.1 to 6.9 mmol/L. GAD antibodies are for suspected type 1 or LADA. Insulin is not indicated.\n\n**Principle:** asymptomatic means confirm; symptoms with a random glucose of 11.1 or more is enough on one test.",
+          "whyWrong": [
+            "In an asymptomatic person, one abnormal result must be confirmed first.",
+            "",
+            "7.4 mmol/L is above the impaired fasting glucose range (6.1 to 6.9).",
+            "Nothing suggests autoimmune diabetes.",
+            "Insulin is not indicated for new, asymptomatic, mild hyperglycaemia."
+          ],
+          "tags": [
+            "type-2-diabetes",
+            "diagnosis",
+            "screening"
+          ]
+        },
+        {
+          "id": "endocrinology--type-2-diabetes--q2",
+          "discipline": "adult-medicine",
+          "topic": "endocrinology",
+          "difficulty": "core",
+          "stem": "A 64-year-old woman with type 2 diabetes for 8 years sees her GP in Geelong. She takes metformin 1 g twice daily. She had a myocardial infarction 2 years ago and has heart failure with an LVEF of 35%. HbA1c is 7.8% (62 mmol/mol). eGFR is 55 mL/min/1.73m2 with uACR 12 mg/mmol.\n\nWhich medication is the most appropriate addition?",
+          "options": [
+            "Gliclazide",
+            "Pioglitazone",
+            "Sitagliptin",
+            "Acarbose",
+            "Empagliflozin"
+          ],
+          "answer": 4,
+          "explanation": "She has type 2 diabetes with **heart failure (reduced EF)**, **CKD with albuminuria** and **prior MI**. The Australian algorithm recommends adding an **SGLT2 inhibitor** (such as empagliflozin or dapagliflozin) early in these patients, **independent of HbA1c**, because it reduces heart failure hospitalisation, cardiovascular death and CKD progression. A GLP-1 RA is also reasonable for atherosclerotic disease, but heart failure and CKD make the SGLT2 inhibitor the better first addition.\n\n**Pioglitazone** causes fluid retention and is contraindicated in heart failure. Sulfonylureas and DPP-4 inhibitors lower glucose but lack cardiorenal benefit. Acarbose is rarely used.",
+          "whyWrong": [
+            "Gliclazide lowers glucose but has no heart failure or renal benefit and causes hypoglycaemia.",
+            "Pioglitazone causes fluid retention and worsens heart failure.",
+            "Sitagliptin is neutral for cardiovascular and renal outcomes.",
+            "Acarbose has little role and no cardiorenal benefit.",
+            ""
+          ],
+          "tags": [
+            "type-2-diabetes",
+            "sglt2-inhibitor",
+            "heart-failure"
+          ]
+        },
+        {
+          "id": "endocrinology--type-2-diabetes--q3",
+          "discipline": "adult-medicine",
+          "topic": "endocrinology",
+          "difficulty": "exam",
+          "stem": "An 84-year-old woman with type 2 diabetes, moderate dementia and two falls in the past 3 months lives in a residential aged care facility in Toowoomba. She takes metformin and gliclazide. Staff report she has had episodes of sweating and confusion before lunch. HbA1c is 6.4% (46 mmol/mol).\n\nWhat is the most appropriate change to her management?",
+          "options": [
+            "Stop gliclazide and accept a less stringent HbA1c target",
+            "Add a DPP-4 inhibitor",
+            "Increase gliclazide to improve control",
+            "Switch to basal insulin",
+            "Continue unchanged, as her HbA1c is at target"
+          ],
+          "answer": 0,
+          "explanation": "Her pre-lunch sweating and confusion are likely **hypoglycaemia** from **gliclazide** (a sulfonylurea), and hypoglycaemia in older people causes falls, fractures, cardiac events and worsened cognition. An HbA1c of 6.4% is **too tight for a frail older person** with dementia and falls; targets should be **individualised and relaxed** (for example up to about 8.0%) to prioritise safety.\n\n**Stop the sulfonylurea** and monitor glucose. Metformin can continue if renal function allows.\n\n**Principle:** in frailty, avoiding hypoglycaemia matters more than a low HbA1c.",
+          "whyWrong": [
+            "",
+            "Adding another agent is unnecessary when glucose is already too low.",
+            "Increasing gliclazide worsens hypoglycaemia.",
+            "Insulin increases hypoglycaemia risk and is not needed.",
+            "Symptomatic hypoglycaemia and falls require a change regardless of HbA1c."
+          ],
+          "tags": [
+            "type-2-diabetes",
+            "frailty",
+            "hypoglycaemia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "endocrinology--diabetic-emergencies-type-1",
+      "title": "Type 1 diabetes, DKA, HHS and hypoglycaemia",
+      "minutes": 22,
+      "objectives": [
+        "Diagnose DKA and manage it with fluids, fixed-rate insulin and potassium replacement",
+        "Recognise euglycaemic DKA in patients on SGLT2 inhibitors",
+        "Distinguish HHS from DKA and adjust management",
+        "Treat hypoglycaemia in conscious and unconscious patients",
+        "Teach sick day rules for type 1 diabetes"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why the emergencies matter",
+          "body": "**Type 1 diabetes** is autoimmune destruction of pancreatic beta cells, causing absolute insulin deficiency. It usually starts in childhood or young adulthood but can occur at any age. Australia has one of the higher incidences of type 1 diabetes in the world.\n\nDiabetic emergencies are a favourite AMC topic because the management sequence is precise and mistakes kill:\n\n- **Diabetic ketoacidosis (DKA)**\n- **Hyperosmolar hyperglycaemic state (HHS)**\n- **Hypoglycaemia**"
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why ketones and why potassium",
+          "body": "**DKA**: without insulin (plus high glucagon, cortisol and adrenaline during stress), the liver produces glucose and **ketones** from fat breakdown. Ketones (beta-hydroxybutyrate, acetoacetate) cause a **high anion gap metabolic acidosis**. Hyperglycaemia causes osmotic diuresis, leading to severe **dehydration** and loss of sodium and **potassium**.\n\n**Potassium paradox**: total body potassium is depleted, but serum potassium may be normal or high at presentation because acidosis and insulin deficiency shift potassium out of cells. **Insulin drives potassium back into cells**, so serum potassium falls rapidly once treatment starts, risking arrhythmia. That is why potassium is monitored hourly to 2-hourly and replaced early.\n\n**Precipitants**: new diagnosis of type 1 diabetes, missed insulin (including pump failure), infection, MI, alcohol, pregnancy, and **SGLT2 inhibitors**.\n\n**Euglycaemic DKA**: SGLT2 inhibitors lower glucose by glycosuria while insulin is relatively deficient (for example during fasting, surgery or acute illness), so ketoacidosis develops with **glucose below 14 mmol/L or even normal**. It is easy to miss if you only check glucose.\n\n**HHS**: occurs in type 2 diabetes. Enough insulin is present to suppress ketogenesis but not hyperglycaemia. Over days, extreme hyperglycaemia and osmotic diuresis cause profound dehydration and hyperosmolality; mortality is higher than DKA, and thrombosis is common.\n\n**Hypoglycaemia**: usually from insulin or sulfonylureas; triggers include missed meals, exercise, alcohol, renal impairment (reduced drug clearance) and dosing errors. Repeated episodes blunt warning symptoms (**hypoglycaemia unawareness**)."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "How they present",
+          "body": "**Type 1 diabetes**: polyuria, polydipsia, weight loss, fatigue over weeks; may present first in DKA.\n\n**DKA**: nausea, vomiting, **abdominal pain** (can mimic an acute abdomen), polyuria, dehydration, **Kussmaul breathing** (deep sighing respiration compensating for acidosis), ketotic breath, drowsiness progressing to coma.\n\n**HHS**: older patient with type 2 diabetes, several days of polyuria and increasing confusion, profound dehydration, sometimes focal neurological signs or seizures.\n\n**Hypoglycaemia** (glucose below **4.0 mmol/L**):\n\n- Adrenergic: sweating, tremor, palpitations, hunger, anxiety\n- Neuroglycopenic: confusion, odd behaviour, slurred speech, seizures, coma (can mimic stroke or intoxication)\n\nAlways check a **capillary glucose** in any patient with altered consciousness or seizure."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Diagnostic criteria",
+          "body": "**DKA** (Australian adult criteria commonly used):\n\n- **Blood glucose above 11 mmol/L** (or known diabetes; normal glucose does not exclude euglycaemic DKA)\n- **Ketonaemia: capillary or serum beta-hydroxybutyrate 3.0 mmol/L or more** (or significant ketonuria)\n- **Acidosis: venous pH below 7.3 and/or bicarbonate below 15 mmol/L**\n\nAlso: electrolytes (K, Na, Cl, anion gap), urea and creatinine, FBC, lipase if abdominal pain, blood gas, ECG (potassium), infection screen (cultures, urine, CXR), troponin if MI suspected, and hCG in women.\n\n**HHS**: glucose usually **above 30 mmol/L**, **serum osmolality above 320 mOsm/kg**, no significant ketosis or acidosis (pH above 7.3, ketones low), marked dehydration.\n\n**Calculated osmolality** = 2 x Na + glucose + urea (all in mmol/L). **Corrected sodium** rises as glucose falls; a falling corrected sodium during treatment raises concern for cerebral oedema.\n\n**New type 1 diabetes**: GAD, IA-2 and ZnT8 antibodies, C-peptide (low), coeliac and thyroid screening (associated autoimmunity)."
+        },
+        {
+          "kind": "differentials",
+          "heading": "DKA versus HHS versus others",
+          "body": "| Feature | DKA | HHS |\n|---|---|---|\n| Typical patient | Type 1, younger (also type 2 on SGLT2i) | Type 2, older |\n| Onset | Hours to 1 to 2 days | Days to weeks |\n| Glucose | Above 11 (may be normal on SGLT2i) | Usually above 30 |\n| Ketones | 3 or more | Low |\n| pH | Below 7.3 | Above 7.3 |\n| Osmolality | Variable | Above 320 |\n| Main danger | Hypokalaemia, cerebral oedema (children) | Severe dehydration, thrombosis, rapid osmolar shifts |\n\nOther causes of high anion gap acidosis: lactic acidosis (sepsis, metformin with renal failure), alcoholic ketoacidosis (glucose often normal or low), starvation ketosis, toxic alcohols, salicylate, renal failure."
+        },
+        {
+          "kind": "management",
+          "heading": "Step by step",
+          "body": "**DKA (adult)**:\n\n1. **IV fluids first**: 0.9% sodium chloride (or a balanced crystalloid), typically 1 L in the first hour (faster if shocked), then continued replacement guided by haemodynamics and urine output. Fluids alone lower glucose and restore perfusion.\n2. **Fixed-rate IV insulin infusion at 0.1 units/kg/hour** (short-acting insulin). Continue the patient's usual **basal long-acting insulin** subcutaneously to prevent rebound ketosis.\n3. **Potassium**: monitor closely (hourly to 2-hourly initially). **If potassium is below about 3.5 mmol/L, replace it before starting insulin** because insulin will drop it further. Once potassium is within range and urine output is adequate, add potassium to fluids.\n4. **Add glucose** (5 to 10% dextrose) when blood glucose falls below about **14 mmol/L**, while continuing the insulin: the goal is to **clear ketones**, not just lower glucose.\n5. Monitor: glucose hourly, ketones and venous gas 1 to 2-hourly, electrolytes 2 to 4-hourly, fluid balance, neurological status.\n6. **Resolution**: ketones below 0.6 mmol/L and pH above 7.3 (or normal bicarbonate), eating and drinking. Then switch to subcutaneous insulin, overlapping the first dose before stopping the infusion.\n7. Treat the precipitant; diabetes education before discharge.\n\nBicarbonate is not routinely used. In children, fluids are given more cautiously because of the risk of **cerebral oedema** (follow RCH or state paediatric protocols).\n\n**Euglycaemic DKA on SGLT2 inhibitors**: stop the SGLT2 inhibitor, and treat as DKA with fluids, insulin and **early dextrose** (glucose is already low).\n\n**HHS**: slow, careful rehydration with IV 0.9% sodium chloride (the main treatment), aiming for gradual falls in osmolality and glucose. Insulin at a low fixed rate is started once glucose stops falling with fluids alone (or immediately if ketotic). **VTE prophylaxis**. Treat the precipitant (often infection).\n\n**Hypoglycaemia**:\n\n- **Conscious and able to swallow**: **15 g of fast-acting carbohydrate** (for example glucose tablets, jelly beans, 150 to 200 mL of regular soft drink or juice), recheck in 15 minutes, repeat if still below 4, then a **longer-acting carbohydrate** snack or meal.\n- **Unconscious or unable to swallow**: **IM or subcutaneous glucagon 1 mg** (0.5 mg in small children) or **IV glucose** (for example 10% or 50% dextrose via a good vein), then oral carbohydrate once awake. Glucagon is less effective with depleted glycogen (alcohol, starvation).\n- **Sulfonylurea-induced hypoglycaemia** is prolonged: admit for observation and IV dextrose; octreotide is used for recurrent episodes.\n- Afterwards, find the cause and adjust therapy; review driving.\n\n**Sick day rules (type 1)**: **never stop basal insulin**; check glucose every 2 to 4 hours and ketones when glucose is above 15 mmol/L or unwell; extra rapid-acting insulin per the sick day plan; maintain fluids; seek urgent help with vomiting, moderate or high ketones (1.5 or more), abdominal pain, drowsiness or rapid breathing."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- The **first** step in DKA: **IV fluids**, not insulin.\n- Potassium 3.1 mmol/L in DKA: **replace potassium before insulin**.\n- Glucose falls to 13 mmol/L but ketones still 3.5: **add dextrose, continue insulin**; do not stop the infusion.\n- Type 2 on empagliflozin, post-operative, vomiting, glucose 9, ketones 5: **euglycaemic DKA**.\n- Confused older man, glucose 48, osmolality 360, no ketones: **HHS**.\n- Unconscious person with glucose 2.1 and no IV access: **IM glucagon**.\n- \"Stop insulin because he's not eating\": wrong in type 1 diabetes."
+        }
+      ],
+      "keyPoints": [
+        "DKA: glucose above 11 (or known diabetes), ketones 3.0 mmol/L or more, pH below 7.3 or bicarbonate below 15.",
+        "DKA treatment: IV fluids first, then fixed-rate insulin 0.1 units/kg/hr; continue basal insulin.",
+        "Replace potassium before insulin if K is below about 3.5 mmol/L; monitor closely as insulin drops K.",
+        "Add dextrose when glucose falls below about 14 mmol/L and keep the insulin going until ketones clear.",
+        "SGLT2 inhibitors can cause euglycaemic DKA; always check ketones in unwell patients on them.",
+        "HHS: glucose usually above 30, osmolality above 320, no significant ketones; slow rehydration and VTE prophylaxis.",
+        "Hypoglycaemia: 15 g fast carbohydrate if conscious; IM glucagon or IV glucose if not."
+      ],
+      "redFlags": [
+        "Kussmaul breathing, vomiting and abdominal pain in a person with diabetes",
+        "Unwell patient on an SGLT2 inhibitor, even with normal glucose",
+        "Potassium below 3.5 mmol/L or above 6.0 mmol/L during DKA treatment",
+        "Headache, falling GCS or bradycardia during DKA treatment (cerebral oedema)",
+        "Recurrent or prolonged hypoglycaemia on a sulfonylurea"
+      ],
+      "contrast": [
+        {
+          "aspect": "Ketone testing",
+          "india": "Urine ketone strips are the usual test.",
+          "australia": "Capillary blood beta-hydroxybutyrate is standard in hospitals and for home sick day monitoring."
+        },
+        {
+          "aspect": "Insulin in DKA",
+          "india": "Variable-rate sliding scale regimens are common.",
+          "australia": "Fixed-rate insulin infusion (0.1 units/kg/hr) with basal insulin continued and dextrose added as glucose falls."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "DKA insulin infusion rate?",
+          "back": "Fixed-rate 0.1 units/kg/hour of short-acting insulin IV."
+        },
+        {
+          "front": "Potassium level at which to replace before starting insulin in DKA?",
+          "back": "Below about 3.5 mmol/L."
+        },
+        {
+          "front": "When to add dextrose during DKA treatment?",
+          "back": "When blood glucose falls below about 14 mmol/L; continue insulin to clear ketones."
+        },
+        {
+          "front": "Treatment of hypoglycaemia in a conscious patient?",
+          "back": "15 g fast-acting carbohydrate, recheck in 15 minutes, then longer-acting carbohydrate."
+        },
+        {
+          "front": "IM glucagon dose for severe hypoglycaemia in an adult?",
+          "back": "1 mg (0.5 mg for small children)."
+        },
+        {
+          "front": "DKA resolution criteria?",
+          "back": "Ketones below 0.6 mmol/L and pH above 7.3 (or normal bicarbonate)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "endocrinology--diabetic-emergencies-type-1--q1",
+          "discipline": "adult-medicine",
+          "topic": "endocrinology",
+          "difficulty": "core",
+          "stem": "A 19-year-old man with type 1 diabetes presents to an emergency department in Perth with 1 day of vomiting and abdominal pain after running out of insulin. HR 124 bpm, BP 98/60 mmHg, RR 30/min with deep breaths. Glucose 28 mmol/L, capillary ketones 5.8 mmol/L, venous pH 7.08, bicarbonate 7 mmol/L, potassium 5.6 mmol/L.\n\nWhat is the most appropriate first step?",
+          "options": [
+            "IV sodium bicarbonate",
+            "IV insulin bolus of 10 units",
+            "Subcutaneous rapid-acting insulin",
+            "IV 0.9% sodium chloride",
+            "IV calcium gluconate"
+          ],
+          "answer": 3,
+          "explanation": "This is **severe DKA**. The first priority is **IV fluid resuscitation** with 0.9% sodium chloride (or balanced crystalloid): he is hypovolaemic and fluids restore perfusion and start lowering glucose. A **fixed-rate insulin infusion at 0.1 units/kg/hour** is started once fluids are running and potassium is known to be adequate (his is 5.6, so insulin can follow promptly; potassium will be added to fluids as it falls).\n\nIV insulin boluses are not recommended in adult DKA protocols. Bicarbonate is not routinely used. His potassium is high because of acidosis-related shifts, not true excess, and will fall with insulin; calcium is not needed without ECG changes of hyperkalaemia.",
+          "whyWrong": [
+            "Bicarbonate is not routinely recommended and can worsen outcomes.",
+            "Bolus insulin is not recommended; insulin follows fluids as a fixed-rate infusion.",
+            "Subcutaneous absorption is unreliable in shock; IV infusion is used.",
+            "",
+            "His potassium will fall with insulin; calcium is not indicated without hyperkalaemic ECG changes."
+          ],
+          "tags": [
+            "dka",
+            "fluids",
+            "type-1-diabetes"
+          ]
+        },
+        {
+          "id": "endocrinology--diabetic-emergencies-type-1--q2",
+          "discipline": "adult-medicine",
+          "topic": "endocrinology",
+          "difficulty": "exam",
+          "stem": "A 58-year-old woman with type 2 diabetes is on day 2 after a laparoscopic cholecystectomy in a Melbourne hospital. She takes metformin and dapagliflozin, which were continued. She has nausea, vomiting and abdominal pain and is breathing rapidly. Glucose 9.2 mmol/L. Venous pH 7.18, bicarbonate 10 mmol/L, anion gap 24, capillary ketones 4.9 mmol/L. Lactate 1.4 mmol/L.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Euglycaemic diabetic ketoacidosis",
+            "Metformin-associated lactic acidosis",
+            "Starvation ketosis",
+            "Hyperosmolar hyperglycaemic state",
+            "Post-operative bile leak with sepsis"
+          ],
+          "answer": 0,
+          "explanation": "She has a **high anion gap metabolic acidosis with high ketones (4.9 mmol/L)** and a near-normal glucose, while taking an **SGLT2 inhibitor** (dapagliflozin) around surgery and poor oral intake. This is **euglycaemic DKA**. SGLT2 inhibitors lower glucose through glycosuria, masking the hyperglycaemia that normally flags DKA.\n\nManagement: stop the SGLT2 inhibitor, IV fluids, **fixed-rate insulin with early dextrose** (to allow insulin without hypoglycaemia), potassium monitoring, and senior review. ADS guidance is to withhold SGLT2 inhibitors for a few days before surgery or procedures.\n\nLactate is normal, excluding significant lactic acidosis. Starvation ketosis rarely causes this degree of acidosis.",
+          "whyWrong": [
+            "",
+            "Lactate is normal, so this is not lactic acidosis.",
+            "Starvation ketosis causes mild ketosis without severe acidosis.",
+            "HHS has very high glucose and no significant ketosis.",
+            "Sepsis would raise lactate; high ketones explain the acidosis."
+          ],
+          "tags": [
+            "euglycaemic-dka",
+            "sglt2-inhibitor",
+            "perioperative"
+          ]
+        },
+        {
+          "id": "endocrinology--diabetic-emergencies-type-1--q3",
+          "discipline": "adult-medicine",
+          "topic": "endocrinology",
+          "difficulty": "foundation",
+          "stem": "A 34-year-old woman with type 1 diabetes is found by her partner confused and sweating at home in Canberra. Paramedics find her unable to swallow safely. Capillary glucose is 1.9 mmol/L. IV access cannot be obtained after two attempts.\n\nWhat is the most appropriate immediate treatment?",
+          "options": [
+            "Oral glucose gel",
+            "Intramuscular glucagon 1 mg",
+            "Subcutaneous insulin",
+            "Intramuscular adrenaline",
+            "Wait for transport to hospital for IV glucose"
+          ],
+          "answer": 1,
+          "explanation": "She has **severe hypoglycaemia** and **cannot swallow safely**, so oral carbohydrate risks aspiration. Without IV access, **IM (or subcutaneous) glucagon 1 mg** is the treatment of choice; it mobilises hepatic glycogen and usually works within about 10 to 15 minutes. Once she is awake and able to swallow, give oral carbohydrate to replenish glycogen and prevent recurrence.\n\nIf IV access becomes available, IV glucose is an alternative. Glucagon is less effective if glycogen stores are depleted (alcohol, prolonged fasting).\n\n**Principle:** conscious and swallowing, oral 15 g; otherwise glucagon or IV glucose.",
+          "whyWrong": [
+            "Oral treatment is unsafe when she cannot swallow.",
+            "",
+            "Insulin would worsen hypoglycaemia.",
+            "Adrenaline is for anaphylaxis, not hypoglycaemia.",
+            "Delay risks seizures and brain injury."
+          ],
+          "tags": [
+            "hypoglycaemia",
+            "glucagon",
+            "type-1-diabetes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "endocrinology--thyroid-disease",
+      "title": "Thyroid disease",
+      "minutes": 20,
+      "objectives": [
+        "Use TSH as the screening test and interpret thyroid function patterns",
+        "Diagnose and treat hypothyroidism with levothyroxine (thyroxine), including in older people and pregnancy",
+        "Find the cause of hyperthyroidism and choose between antithyroid drugs, radioiodine and surgery",
+        "Investigate a thyroid nodule and recognise thyroid emergencies"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Thyroid disease in Australia",
+          "body": "Thyroid disease is common, especially in women. **Hashimoto thyroiditis** is the commonest cause of hypothyroidism in Australia and **Graves disease** the commonest cause of hyperthyroidism.\n\nAustralia had mild iodine deficiency in the early 2000s, so since 2009 **iodised salt has been mandatory in bread-making** (except organic bread). Women who are **pregnant, breastfeeding or planning pregnancy** are advised to take an **iodine supplement of 150 micrograms daily** (NHMRC), unless they have pre-existing thyroid disease, in which case they should discuss it with their doctor.\n\nIn Australia **levothyroxine** is commonly called **thyroxine**."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Feedback and causes",
+          "body": "The hypothalamus releases TRH, the pituitary releases **TSH**, and the thyroid makes T4 (converted peripherally to active T3). Thyroid hormones feed back to suppress TSH. Because the pituitary is exquisitely sensitive, **TSH is the best single screening test**: it changes before T4 does.\n\n**Hypothyroidism causes**: Hashimoto (anti-TPO antibodies), post-radioiodine or thyroidectomy, drugs (**amiodarone, lithium**, immune checkpoint inhibitors), thyroiditis recovery phase, iodine deficiency, and rarely central (pituitary) hypothyroidism.\n\n**Hyperthyroidism causes**:\n\n- **Graves disease**: TSH receptor stimulating antibodies (**TRAb**) drive diffuse gland overactivity; also cause **orbitopathy** and pretibial myxoedema\n- **Toxic multinodular goitre** and **toxic adenoma**: autonomous nodules, older patients\n- **Thyroiditis** (subacute painful de Quervain after a viral illness, silent, **postpartum**, amiodarone): release of stored hormone, **low uptake on scan**, self-limiting, often followed by a hypothyroid phase\n- Exogenous thyroxine excess, iodine load (contrast, amiodarone)"
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Presentations",
+          "body": "**Hypothyroidism**: fatigue, weight gain, cold intolerance, constipation, dry skin, hair loss, menorrhagia, depression, slow-relaxing reflexes, bradycardia, goitre (Hashimoto). Associated with hyperlipidaemia, hyponatraemia and raised CK.\n\n**Hyperthyroidism**: weight loss despite good appetite, heat intolerance, sweating, palpitations (**AF in older people**), tremor, anxiety, diarrhoea, oligomenorrhoea, proximal myopathy, lid lag. Older people can present with apathy, weight loss and AF only.\n\n**Graves-specific**: diffuse goitre with bruit, **exophthalmos**, periorbital swelling, diplopia, pretibial myxoedema, acropachy.\n\n**Subacute thyroiditis**: painful, tender thyroid after a viral illness, fever, raised ESR.\n\n**Emergencies**:\n\n- **Thyroid storm**: severe thyrotoxicosis with fever, tachycardia or AF, heart failure, agitation or delirium, vomiting and diarrhoea, often triggered by infection, surgery or stopping antithyroid drugs\n- **Myxoedema coma**: older person with hypothermia, bradycardia, hyponatraemia, hypoventilation and reduced consciousness"
+        },
+        {
+          "kind": "investigations",
+          "heading": "Patterns and next tests",
+          "body": "| TSH | Free T4 | Interpretation |\n|---|---|---|\n| High | Low | Primary hypothyroidism |\n| High | Normal | Subclinical hypothyroidism |\n| Low | High (or high T3) | Hyperthyroidism (T3 toxicosis if only T3 raised) |\n| Low | Normal | Subclinical hyperthyroidism |\n| Low or normal | Low | Central (pituitary) hypothyroidism, or sick euthyroid |\n\n- **Anti-TPO antibodies**: support Hashimoto.\n- **TRAb**: confirms Graves disease.\n- **Thyroid scintigraphy (technetium or iodine uptake scan)**: diffuse increased uptake in Graves, patchy in multinodular goitre, single hot nodule in toxic adenoma, **low uptake in thyroiditis** and exogenous thyroxine.\n- **Thyroid ultrasound** for nodules and goitre, using a risk classification system (such as TI-RADS) to decide on **fine needle aspiration**.\n- **Thyroid nodule work-up**: TSH first. If TSH is **low**, do a **scan**: a hot nodule is rarely malignant. If TSH is normal or high, ultrasound and FNA of suspicious nodules (results reported using the Bethesda system).\n- Do not test thyroid function during acute illness unless thyroid disease is suspected: **sick euthyroid** changes are common."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Mimics and traps",
+          "body": "| Scenario | Consider |\n|---|---|\n| Low TSH, high T4, painful neck, raised ESR | Subacute thyroiditis: beta blocker and NSAID, not carbimazole |\n| Thyrotoxic 3 to 6 months postpartum, painless | Postpartum thyroiditis (low uptake) vs Graves (TRAb, high uptake) |\n| Low TSH with low T4 | Pituitary disease or recent treatment of hyperthyroidism |\n| Palpitations, anxiety, weight loss, normal TSH | Anxiety, phaeochromocytoma, diabetes |\n| On amiodarone with abnormal TFTs | Amiodarone-induced hypo- or hyperthyroidism (two types) |\n| Fatigue with borderline TSH | Recheck in 6 to 12 weeks; many subclinical results normalise |"
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment",
+          "body": "**Hypothyroidism**:\n\n- **Levothyroxine** daily on an empty stomach, separated from iron, calcium and PPIs.\n- Young healthy adults can start near full replacement dose; **older people and those with ischaemic heart disease start low** (for example 25 to 50 micrograms) and increase slowly to avoid precipitating angina or AF.\n- Recheck TSH **6 weeks** after any dose change (the half-life of T4 is about a week, so steady state takes about 6 weeks); aim for TSH in the reference range.\n- **Pregnancy**: thyroxine needs rise by about 30% or more; women on thyroxine should **increase the dose as soon as pregnancy is confirmed** (commonly by taking two extra doses a week) and have TFTs checked every 4 to 6 weeks.\n- **Subclinical hypothyroidism**: treat if TSH is persistently above about 10 mU/L, in pregnancy or when planning pregnancy, or with symptoms and positive antibodies; otherwise monitor.\n- **Myxoedema coma**: ICU, IV thyroid hormone plus **IV hydrocortisone** (until adrenal insufficiency is excluded), passive rewarming, supportive care.\n\n**Hyperthyroidism**:\n\n- **Beta blocker** (propranolol) for symptoms in all causes.\n- **Graves disease**: **carbimazole** is first line for 12 to 18 months (remission in about half); **propylthiouracil (PTU) in the first trimester** of pregnancy (carbimazole is teratogenic early) and in thyroid storm. **Agranulocytosis** is a rare, serious side effect: patients must stop the drug and get an **urgent FBC if they develop sore throat, fever or mouth ulcers**. Hepatotoxicity is a concern with PTU.\n- **Radioactive iodine**: for relapse, toxic nodules, or patient choice; **contraindicated in pregnancy and breastfeeding** (avoid pregnancy for about 6 months afterwards) and can **worsen active thyroid eye disease** (steroid cover or avoid). Most patients become hypothyroid and need lifelong thyroxine.\n- **Thyroidectomy**: large goitre, compressive symptoms, suspicious nodules, severe eye disease, or patient preference. Complications: **hypocalcaemia** (parathyroid damage), recurrent laryngeal nerve palsy (hoarse voice), bleeding with airway compromise.\n- **Thyroid eye disease**: smoking cessation (smoking worsens it), lubricants, selenium in mild disease, specialist care; urgent ophthalmology for reduced vision or colour vision (optic nerve compression).\n- **Thyroiditis**: beta blocker; NSAID or prednisolone for painful subacute thyroiditis; **no antithyroid drugs** (the gland is not overproducing).\n- **Thyroid storm**: ICU, propranolol, PTU or carbimazole, then iodine (after the antithyroid drug), hydrocortisone, cooling and treatment of the trigger.\n\n**Thyroid cancer**: papillary is commonest (good prognosis); managed with surgery with or without radioiodine."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- Screening test for thyroid disease: **TSH**.\n- 78-year-old with angina and new hypothyroidism: **start thyroxine low (25 micrograms) and increase slowly**.\n- Woman on thyroxine who has just found out she is pregnant: **increase the dose now** and check TFTs.\n- Patient on carbimazole with fever and sore throat: **stop the drug and do an urgent FBC**.\n- Thyrotoxic with a painful tender thyroid and raised ESR: **subacute thyroiditis**; beta blocker and NSAID.\n- Pregnant woman in the first trimester with Graves disease: **PTU**.\n- Graves with active eye disease: radioiodine may worsen the eyes."
+        }
+      ],
+      "keyPoints": [
+        "TSH is the screening test; high TSH with low T4 is primary hypothyroidism.",
+        "Levothyroxine (thyroxine) for hypothyroidism; start low in the elderly and in ischaemic heart disease; recheck TSH at 6 weeks.",
+        "Increase thyroxine as soon as pregnancy is confirmed.",
+        "Graves: TRAb positive, diffuse uptake; carbimazole first line, PTU in the first trimester.",
+        "Carbimazole plus sore throat or fever: stop and check FBC urgently for agranulocytosis.",
+        "Thyroiditis has low uptake on scan and needs beta blockers, not antithyroid drugs.",
+        "Low TSH with a nodule: nuclear scan; normal TSH: ultrasound and FNA of suspicious nodules."
+      ],
+      "redFlags": [
+        "Fever, sore throat or mouth ulcers on carbimazole or PTU (agranulocytosis)",
+        "Fever, tachycardia or AF, delirium in thyrotoxicosis (thyroid storm)",
+        "Hypothermia, bradycardia and drowsiness in hypothyroidism (myxoedema coma)",
+        "Reduced visual acuity or colour vision in thyroid eye disease (optic neuropathy)",
+        "Rapidly enlarging neck mass, stridor or hoarseness"
+      ],
+      "contrast": [
+        {
+          "aspect": "Iodine",
+          "india": "National salt iodisation programme since the 1960s; endemic iodine deficiency goitre is taught as a classic topic.",
+          "australia": "Mandatory iodised salt in bread since 2009, plus 150 microgram iodine supplements advised in pregnancy and breastfeeding."
+        },
+        {
+          "aspect": "Naming",
+          "india": "Levothyroxine is called levothyroxine or eltroxin.",
+          "australia": "Levothyroxine is commonly called thyroxine in Australia."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Screening test for thyroid dysfunction?",
+          "back": "TSH."
+        },
+        {
+          "front": "When to recheck TSH after changing thyroxine dose?",
+          "back": "About 6 weeks."
+        },
+        {
+          "front": "Antithyroid drug of choice in first trimester?",
+          "back": "Propylthiouracil (PTU)."
+        },
+        {
+          "front": "Serious side effect of carbimazole to warn about?",
+          "back": "Agranulocytosis: stop and get an urgent FBC for sore throat, fever or mouth ulcers."
+        },
+        {
+          "front": "Uptake scan finding in thyroiditis?",
+          "back": "Low (reduced) uptake."
+        },
+        {
+          "front": "Iodine supplement advised in pregnancy and breastfeeding in Australia?",
+          "back": "150 micrograms daily (NHMRC), unless pre-existing thyroid disease."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "endocrinology--thyroid-disease--q1",
+          "discipline": "adult-medicine",
+          "topic": "endocrinology",
+          "difficulty": "foundation",
+          "stem": "A 79-year-old man with stable angina sees his GP in Launceston with fatigue and constipation. TSH is 38 mU/L (reference 0.4-4.0) and free T4 is 6 pmol/L (reference 10-20). Anti-TPO antibodies are strongly positive.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Levothyroxine at full replacement dose from the start",
+            "Levothyroxine 25 micrograms daily, increased slowly with TSH checks every 6 weeks",
+            "Liothyronine (T3) alone",
+            "Recheck TFTs in 6 months before treating",
+            "Carbimazole"
+          ],
+          "answer": 1,
+          "explanation": "He has **overt primary hypothyroidism from Hashimoto thyroiditis** (high TSH, low T4, positive anti-TPO). In an **older person with ischaemic heart disease**, levothyroxine should be **started at a low dose (such as 25 micrograms daily)** and increased gradually, because a rapid rise in metabolic rate and myocardial oxygen demand can provoke angina, MI or arrhythmia.\n\nTSH is rechecked about **6 weeks** after each dose change, since steady state takes around five half-lives. Liothyronine is not first line. Delaying treatment of overt hypothyroidism is not appropriate. Carbimazole treats hyperthyroidism.",
+          "whyWrong": [
+            "A full starting dose risks precipitating angina or MI in an older patient with IHD.",
+            "",
+            "Levothyroxine, not T3 alone, is standard replacement.",
+            "Overt hypothyroidism should be treated.",
+            "Carbimazole treats hyperthyroidism."
+          ],
+          "tags": [
+            "hypothyroidism",
+            "levothyroxine",
+            "elderly"
+          ]
+        },
+        {
+          "id": "endocrinology--thyroid-disease--q2",
+          "discipline": "adult-medicine",
+          "topic": "endocrinology",
+          "difficulty": "core",
+          "stem": "A 32-year-old woman with Graves disease has been taking carbimazole for 6 weeks. She calls her GP in Darwin with a 1-day history of fever of 38.9 °C and a very sore throat. She has no other symptoms.\n\nWhat is the most appropriate advice?",
+          "options": [
+            "Continue carbimazole and start penicillin V for tonsillitis",
+            "Double the carbimazole dose",
+            "Stop carbimazole and have an urgent full blood count today",
+            "Switch to radioactive iodine next week",
+            "Continue carbimazole and take paracetamol"
+          ],
+          "answer": 2,
+          "explanation": "**Agranulocytosis** is a rare but potentially fatal side effect of antithyroid drugs (carbimazole and PTU), usually in the first few months. It presents with **fever, sore throat or mouth ulcers**. Every patient should be warned at the start to **stop the drug and have an urgent FBC** if these occur.\n\nIf the neutrophil count is very low, she needs urgent hospital review for broad-spectrum IV antibiotics, and the antithyroid drug must not be restarted (cross-reactivity between carbimazole and PTU means alternative definitive therapy such as radioiodine or surgery is usually planned).\n\n**Discriminating clue:** fever with sore throat in the first weeks of carbimazole.",
+          "whyWrong": [
+            "Continuing the drug and treating as tonsillitis could be fatal if she is neutropenic.",
+            "Increasing the dose worsens the risk.",
+            "",
+            "Radioiodine may be a later option, but the urgent step is to stop and check the FBC.",
+            "Continuing carbimazole without an FBC misses agranulocytosis."
+          ],
+          "tags": [
+            "graves-disease",
+            "carbimazole",
+            "agranulocytosis"
+          ]
+        },
+        {
+          "id": "endocrinology--thyroid-disease--q3",
+          "discipline": "adult-medicine",
+          "topic": "endocrinology",
+          "difficulty": "exam",
+          "stem": "A 29-year-old woman presents to her GP in Sydney 4 months after the birth of her first child with palpitations, anxiety and weight loss. She is breastfeeding. There is a small, non-tender goitre and no eye signs. TSH is below 0.01 mU/L and free T4 is 32 pmol/L. TRAb is negative.\n\nWhat is the most likely diagnosis and appropriate initial management?",
+          "options": [
+            "Graves disease; start carbimazole",
+            "Toxic multinodular goitre; radioactive iodine",
+            "Subacute thyroiditis; oral prednisolone",
+            "Graves disease; urgent thyroidectomy",
+            "Postpartum thyroiditis; propranolol and monitor thyroid function"
+          ],
+          "answer": 4,
+          "explanation": "Thyrotoxicosis **within a year of delivery** with a **painless small goitre**, **no eye signs** and **negative TRAb** is most likely **postpartum thyroiditis**: autoimmune destruction releases stored hormone. A technetium scan would show low uptake but is usually avoided while breastfeeding (and radioiodine uptake scans are contraindicated).\n\nManagement is **symptomatic**: a **beta blocker** (propranolol is compatible with breastfeeding) and **monitoring TFTs**, because many women move into a **hypothyroid phase** a few months later, which may need temporary or permanent thyroxine. Antithyroid drugs do not help, because the gland is not overproducing hormone.\n\nGraves disease is the main differential; TRAb positivity and eye signs would point to it.",
+          "whyWrong": [
+            "Negative TRAb and no eye signs make Graves unlikely, and antithyroid drugs do not treat thyroiditis.",
+            "Toxic MNG is a disease of older people, and radioiodine is contraindicated while breastfeeding.",
+            "Subacute thyroiditis is painful with a tender gland.",
+            "Surgery is not indicated for self-limiting thyroiditis.",
+            ""
+          ],
+          "tags": [
+            "postpartum-thyroiditis",
+            "hyperthyroidism",
+            "breastfeeding"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "endocrinology--adrenal-and-pituitary",
+      "title": "Adrenal and pituitary disorders",
+      "minutes": 22,
+      "objectives": [
+        "Recognise adrenal crisis and give hydrocortisone immediately",
+        "Teach steroid sick day rules to patients with adrenal insufficiency or on long-term glucocorticoids",
+        "Screen for Cushing syndrome, primary aldosteronism and phaeochromocytoma using the right first test",
+        "Identify prolactinoma, acromegaly and pituitary apoplexy, and recognise SIADH and diabetes insipidus"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Rare, but dangerous and examinable",
+          "body": "Adrenal and pituitary disorders are individually uncommon, but they appear on the AMC because missing them kills (adrenal crisis, phaeochromocytoma crisis, pituitary apoplexy) and because the choice of first test follows logical physiology.\n\nThe most important practical point: **many Australians take long-term oral glucocorticoids** (for asthma, COPD, rheumatological disease, IBD, transplants). They develop **adrenal suppression** and are at risk of **adrenal crisis** during illness or surgery, or if steroids are stopped suddenly."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Physiology that explains the tests",
+          "body": "**Adrenal insufficiency**:\n\n- **Primary (Addison disease)**: destruction of the adrenal cortex, usually **autoimmune** in Australia (TB in endemic countries). Both **cortisol and aldosterone** are lost, causing hyponatraemia, **hyperkalaemia** and hypotension. High ACTH (from the pituitary trying to stimulate the adrenal) also drives melanocyte stimulation, causing **hyperpigmentation**.\n- **Secondary or tertiary**: pituitary disease or, far more commonly, **suppression from exogenous glucocorticoids**. Aldosterone is preserved (renin-angiotensin controlled), so potassium is normal and there is no pigmentation.\n- **Adrenal crisis**: acute cortisol deficiency under stress causes shock refractory to fluids, vomiting, abdominal pain, confusion and hypoglycaemia.\n\n**Cushing syndrome**: excess cortisol. The commonest cause is **exogenous glucocorticoids**. Endogenous causes: pituitary adenoma (Cushing disease), ectopic ACTH (small cell lung cancer), adrenal adenoma or carcinoma.\n\n**Primary aldosteronism** (adenoma or bilateral hyperplasia): hypertension, often with hypokalaemia; aldosterone high, **renin suppressed** (see Cardiology).\n\n**Phaeochromocytoma**: catecholamine-secreting tumour of the adrenal medulla (paraganglioma if extra-adrenal); some are hereditary (MEN2, VHL, SDH mutations).\n\n**Pituitary**:\n\n- **Prolactinoma** (commonest functioning adenoma): prolactin suppresses GnRH, causing hypogonadism.\n- **Acromegaly**: GH excess from an adenoma, raising IGF-1.\n- Large tumours compress the **optic chiasm** (bitemporal hemianopia) and the normal pituitary (hypopituitarism).\n- **Pituitary apoplexy**: haemorrhage or infarction of an adenoma.\n- **Posterior pituitary**: **SIADH** (inappropriate ADH, water retention, hyponatraemia) and **diabetes insipidus** (now termed arginine vasopressin deficiency or resistance: ADH deficiency or renal resistance, dilute polyuria)."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Presentations",
+          "body": "**Addison disease**: fatigue, weight loss, anorexia, nausea, abdominal pain, salt craving, postural hypotension, **hyperpigmentation** (palmar creases, buccal mucosa, scars). Associated autoimmunity (type 1 diabetes, thyroid disease, vitiligo).\n\n**Adrenal crisis**: collapse, hypotension or shock unresponsive to fluids, vomiting, abdominal pain, fever, confusion; often in someone with known adrenal insufficiency or on long-term steroids who has an infection, vomiting or surgery, or who stopped their steroids.\n\n**Cushing syndrome**: central weight gain, moon face, dorsocervical fat pad, **proximal myopathy**, **thin skin and easy bruising**, **wide purple striae**, hypertension, diabetes, osteoporosis, mood change, infections. Proximal weakness, bruising and striae best discriminate from simple obesity.\n\n**Phaeochromocytoma**: **episodic headache, sweating and palpitations** with hypertension (paroxysmal or sustained), pallor, anxiety; crises can be triggered by anaesthesia, beta blockers or contrast.\n\n**Prolactinoma**: women: **amenorrhoea, galactorrhoea**, infertility; men: reduced libido, erectile dysfunction, often larger tumours with headache and visual field loss.\n\n**Acromegaly**: enlarging hands and feet (rings and shoes no longer fit), coarse facial features, prognathism, widely spaced teeth, macroglossia, sweating, carpal tunnel syndrome, sleep apnoea, hypertension, diabetes, cardiomyopathy.\n\n**Pituitary apoplexy**: **sudden severe headache, visual loss or ophthalmoplegia**, vomiting, reduced consciousness, often with acute cortisol deficiency.\n\n**SIADH**: euvolaemic hyponatraemia; confusion, seizures if severe or rapid. **Diabetes insipidus**: polyuria and thirst with dilute urine; hypernatraemia if unable to drink."
+        },
+        {
+          "kind": "investigations",
+          "heading": "The right first test",
+          "body": "| Condition | First test | Confirmation |\n|---|---|---|\n| Adrenal insufficiency | **Morning (8-9 am) cortisol**; very low strongly suggests, high excludes | **Short Synacthen (ACTH stimulation) test**; ACTH (high in primary); renin; adrenal antibodies |\n| Cushing syndrome | **One of**: 1 mg overnight dexamethasone suppression test, 24-hour urinary free cortisol, late-night salivary cortisol | Two abnormal tests, then ACTH to localise, pituitary MRI, CT adrenals |\n| Primary aldosteronism | **Aldosterone-to-renin ratio** (correct potassium; note interfering drugs) | Saline suppression test, adrenal CT, adrenal vein sampling |\n| Phaeochromocytoma | **Plasma free metanephrines** (or urine fractionated metanephrines) | CT or MRI adrenals, functional imaging, genetic testing |\n| Prolactinoma | **Serum prolactin** (exclude pregnancy, hypothyroidism, dopamine antagonist drugs such as antipsychotics and metoclopramide) | Pituitary MRI |\n| Acromegaly | **IGF-1** | Failure of GH suppression on OGTT; pituitary MRI |\n| Pituitary apoplexy | Urgent **cortisol** (do not delay treatment) | **MRI pituitary**, visual fields |\n| SIADH | Serum osmolality low, **urine osmolality inappropriately high** (above 100), urine sodium above 30, euvolaemic | Exclude hypothyroidism, adrenal insufficiency, diuretics |\n| Diabetes insipidus | High serum osmolality with dilute urine | Water deprivation test or copeptin |\n\n**Adrenal incidentaloma** (common on CT): check for cortisol excess (dexamethasone suppression), phaeochromocytoma (metanephrines), and aldosteronism if hypertensive; assess imaging features for malignancy."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Clues that separate them",
+          "body": "| Scenario | Think |\n|---|---|\n| Hyponatraemia + hyperkalaemia + hypotension | Primary adrenal insufficiency |\n| Hyponatraemia, normal potassium, euvolaemic, concentrated urine | SIADH (drugs such as SSRIs, carbamazepine; lung disease; CNS disease; small cell cancer) or secondary adrenal insufficiency or hypothyroidism |\n| Hypertension + hypokalaemia | Primary aldosteronism, Cushing (especially ectopic ACTH), diuretic use |\n| Episodic hypertension, headache, sweating | Phaeochromocytoma, panic disorder, hyperthyroidism, drugs (amphetamines, cocaine) |\n| Galactorrhoea | Prolactinoma, antipsychotics, metoclopramide, hypothyroidism, pregnancy |"
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment and safety",
+          "body": "**Adrenal crisis**:\n\n- **Hydrocortisone 100 mg IV or IM immediately**. **Do not wait for results**; take a blood sample for cortisol and ACTH first if it causes no delay.\n- **IV 0.9% sodium chloride** rapidly (1 L in the first hour, more if needed); treat **hypoglycaemia** with dextrose.\n- Continue hydrocortisone (for example 50 mg IV 6-hourly or an infusion) until stable; treat the precipitant.\n\n**Chronic adrenal insufficiency**:\n\n- **Hydrocortisone** (usually in two or three daily doses, largest in the morning) plus **fludrocortisone** in primary disease.\n- **Sick day rules**: **double or triple the glucocorticoid dose** during febrile illness; use **IM hydrocortisone** (emergency injection kit) if vomiting or unable to take tablets and seek urgent care; increased cover for surgery and procedures.\n- Medical alert bracelet, steroid emergency card and education (Endocrine Society of Australia and ADSHG resources).\n- People on **long-term oral glucocorticoids** (commonly prednisolone 5 mg or more a day for more than about 3 to 4 weeks) should not stop suddenly; taper, and follow the same stress-dose principles.\n\n**Cushing syndrome**: reduce exogenous steroids where possible; surgery for pituitary (trans-sphenoidal) or adrenal tumours; post-operative steroid replacement because the other adrenal is suppressed.\n\n**Primary aldosteronism**: laparoscopic adrenalectomy for a unilateral adenoma; **spironolactone or eplerenone** for bilateral disease.\n\n**Phaeochromocytoma**: **alpha blockade first (phenoxybenzamine or doxazosin)** for at least 1 to 2 weeks, with fluid and salt loading, **then beta blockade** if needed, then surgery. Beta blockade before alpha blockade leaves alpha-mediated vasoconstriction unopposed and can cause a hypertensive crisis.\n\n**Prolactinoma**: **dopamine agonist (cabergoline)** is first line even for large tumours with visual loss; it shrinks the tumour and normalises prolactin. Surgery if intolerant or resistant.\n\n**Acromegaly**: trans-sphenoidal surgery; somatostatin analogues if not cured.\n\n**Pituitary apoplexy**: **hydrocortisone immediately**, urgent MRI and neurosurgical review (decompression if visual deterioration).\n\n**SIADH**: fluid restriction; treat the cause; hypertonic saline for severe symptomatic hyponatraemia (seizures, reduced consciousness). **Correct chronic hyponatraemia slowly** (commonly no more than about 8 to 10 mmol/L in 24 hours) to avoid **osmotic demyelination**.\n\n**Diabetes insipidus**: desmopressin for central; treat cause (lithium, hypercalcaemia) for nephrogenic."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- Shocked patient on long-term prednisolone who stopped taking it or has gastroenteritis: **IV or IM hydrocortisone 100 mg now**, before any test result.\n- Hyperpigmentation, hyponatraemia and hyperkalaemia: **Addison disease**; short Synacthen test.\n- Episodic headache, sweats and palpitations: **plasma metanephrines**; if confirmed, **alpha before beta**.\n- Amenorrhoea and galactorrhoea with high prolactin: check **pregnancy, TSH and medications** first; then MRI; **cabergoline**.\n- Sudden thunderclap headache with visual loss in a known adenoma: **pituitary apoplexy**; hydrocortisone and urgent MRI.\n- Sodium 118 corrected to 132 in 24 hours: too fast; risk of osmotic demyelination."
+        }
+      ],
+      "keyPoints": [
+        "Adrenal crisis: hydrocortisone 100 mg IV or IM immediately, IV saline and glucose; never wait for results.",
+        "Sick day rules: double or triple steroid dose with illness; IM hydrocortisone if vomiting.",
+        "Addison disease: hyponatraemia, hyperkalaemia, hypotension, pigmentation; confirm with short Synacthen test.",
+        "Cushing: screen with overnight dexamethasone suppression, 24-hour urinary cortisol or late-night salivary cortisol.",
+        "Phaeochromocytoma: plasma metanephrines; alpha blockade before beta blockade.",
+        "Prolactinoma: exclude pregnancy, hypothyroidism and drugs; cabergoline first line.",
+        "Correct chronic hyponatraemia slowly to avoid osmotic demyelination."
+      ],
+      "redFlags": [
+        "Hypotension refractory to fluids in someone on long-term steroids (adrenal crisis)",
+        "Hyponatraemia with hyperkalaemia and hypotension",
+        "Sudden severe headache with visual loss or ophthalmoplegia (pituitary apoplexy)",
+        "Severe hypertension with headache, sweating and palpitations (phaeochromocytoma crisis)",
+        "Hyponatraemia with seizures or reduced consciousness"
+      ],
+      "contrast": [
+        {
+          "aspect": "Cause of Addison disease",
+          "india": "Tuberculosis is a leading cause of primary adrenal insufficiency.",
+          "australia": "Autoimmune adrenalitis is the commonest cause; TB is considered mainly in migrants."
+        },
+        {
+          "aspect": "Steroid safety",
+          "india": "Sick day rules and emergency injection kits are not routinely taught to patients.",
+          "australia": "Patients with adrenal insufficiency get written sick day rules, an IM hydrocortisone kit and a medical alert identifier."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Immediate treatment of adrenal crisis?",
+          "back": "Hydrocortisone 100 mg IV or IM, plus IV 0.9% saline and glucose; do not wait for results."
+        },
+        {
+          "front": "Confirmatory test for adrenal insufficiency?",
+          "back": "Short Synacthen (ACTH stimulation) test."
+        },
+        {
+          "front": "First-line screening test for phaeochromocytoma?",
+          "back": "Plasma free metanephrines (or urinary fractionated metanephrines)."
+        },
+        {
+          "front": "Order of drug treatment before phaeochromocytoma surgery?",
+          "back": "Alpha blockade first, then beta blockade if needed."
+        },
+        {
+          "front": "First-line treatment for prolactinoma?",
+          "back": "Cabergoline (dopamine agonist)."
+        },
+        {
+          "front": "Screening test for acromegaly?",
+          "back": "IGF-1 (confirm with failure of GH suppression on OGTT)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "endocrinology--adrenal-and-pituitary--q1",
+          "discipline": "adult-medicine",
+          "topic": "endocrinology",
+          "difficulty": "core",
+          "stem": "A 64-year-old woman with rheumatoid arthritis who has taken prednisolone 10 mg daily for 2 years is brought to an emergency department in Adelaide with 2 days of vomiting and diarrhoea. She has not been able to keep her tablets down. BP 78/44 mmHg despite 2 L of 0.9% sodium chloride, HR 118 bpm. Sodium 129 mmol/L, potassium 4.4 mmol/L, glucose 3.2 mmol/L.\n\nWhat is the most appropriate immediate management?",
+          "options": [
+            "Await a morning cortisol level before giving steroids",
+            "Arrange a short Synacthen test",
+            "Start a noradrenaline infusion and wait for cultures",
+            "Give oral prednisolone 10 mg",
+            "Give hydrocortisone 100 mg IV immediately, with IV glucose and continued fluids"
+          ],
+          "answer": 4,
+          "explanation": "She has **adrenal crisis**: long-term glucocorticoid therapy has suppressed her HPA axis, and she has been unable to take her steroids during gastroenteritis. Features include **shock refractory to fluids**, hyponatraemia and **hypoglycaemia**. Potassium is normal because aldosterone is preserved in secondary (steroid-induced) adrenal insufficiency.\n\nTreatment is **hydrocortisone 100 mg IV (or IM) immediately**, **without waiting for results**, plus IV fluids and **glucose**, then ongoing hydrocortisone until she recovers. A Synacthen test is not done in the acute setting and is invalid while on steroids anyway. Oral tablets will not be absorbed while vomiting, and 10 mg is not a stress dose.\n\n**Principle:** if in doubt, give hydrocortisone.",
+          "whyWrong": [
+            "Waiting for results in adrenal crisis can be fatal.",
+            "Diagnostic testing does not belong in the acute resuscitation.",
+            "Vasopressors will not work well without cortisol; hydrocortisone is the key treatment.",
+            "She is vomiting and needs a parenteral stress dose, not her usual oral dose.",
+            ""
+          ],
+          "tags": [
+            "adrenal-crisis",
+            "hydrocortisone",
+            "glucocorticoids"
+          ]
+        },
+        {
+          "id": "endocrinology--adrenal-and-pituitary--q2",
+          "discipline": "adult-medicine",
+          "topic": "endocrinology",
+          "difficulty": "exam",
+          "stem": "A 42-year-old man sees his GP in Brisbane with episodes of pounding headache, drenching sweats and palpitations lasting 20 minutes, several times a week. BP in clinic is 172/104 mmHg; between episodes at home it has been 150/95 mmHg. He is pale during an episode. Plasma metanephrines are markedly raised, and CT shows a 4 cm left adrenal mass.\n\nWhich medication should be started first in preparation for surgery?",
+          "options": [
+            "Metoprolol",
+            "Doxazosin (or phenoxybenzamine)",
+            "Hydrochlorothiazide",
+            "Spironolactone",
+            "Labetalol alone"
+          ],
+          "answer": 1,
+          "explanation": "This is **phaeochromocytoma**: episodic headache, sweating and palpitations with hypertension, raised plasma metanephrines and an adrenal mass. Preoperative preparation starts with **alpha blockade** (phenoxybenzamine or doxazosin) for at least 1 to 2 weeks, with liberal salt and fluid intake to restore intravascular volume. A **beta blocker is added only after adequate alpha blockade**, to control tachycardia.\n\nStarting a beta blocker first blocks beta-2-mediated vasodilation and leaves alpha-mediated vasoconstriction unopposed, which can precipitate a **hypertensive crisis**. Labetalol has much more beta than alpha activity and is not suitable alone.\n\n**Principle:** alpha before beta.",
+          "whyWrong": [
+            "Beta blockade before alpha blockade can cause a hypertensive crisis.",
+            "",
+            "Thiazides worsen volume depletion and do not control catecholamine effects.",
+            "Spironolactone treats aldosterone excess, not catecholamine excess.",
+            "Labetalol's predominant beta effect makes it unsafe as the first or only agent."
+          ],
+          "tags": [
+            "phaeochromocytoma",
+            "alpha-blockade",
+            "hypertension"
+          ]
+        },
+        {
+          "id": "endocrinology--adrenal-and-pituitary--q3",
+          "discipline": "adult-medicine",
+          "topic": "endocrinology",
+          "difficulty": "foundation",
+          "stem": "A 27-year-old woman presents to her GP in Wollongong with 6 months of absent periods and milky nipple discharge. She is not sexually active and a pregnancy test is negative. TSH is normal. She takes no medications. Prolactin is 3200 mIU/L (reference under 500). MRI shows a 7 mm pituitary adenoma. Visual fields are normal.\n\nWhat is the most appropriate first-line treatment?",
+          "options": [
+            "Trans-sphenoidal surgery",
+            "Pituitary radiotherapy",
+            "Cabergoline",
+            "Combined oral contraceptive pill alone",
+            "Observation with repeat MRI in 5 years"
+          ],
+          "answer": 2,
+          "explanation": "She has a **microprolactinoma**: amenorrhoea, galactorrhoea, markedly raised prolactin, and a pituitary adenoma under 10 mm, after excluding **pregnancy, hypothyroidism and dopamine-blocking drugs**. Prolactin suppresses GnRH, causing hypogonadism, which also risks bone loss and infertility.\n\n**Dopamine agonists, particularly cabergoline**, are first line: they normalise prolactin, restore menses and fertility, and shrink the tumour in most patients. Surgery is reserved for intolerance or resistance. Radiotherapy is rarely needed.\n\nThe pill would restore bleeds and protect bone but does not treat galactorrhoea or fertility and leaves the tumour untreated.",
+          "whyWrong": [
+            "Surgery is second line for prolactinomas.",
+            "Radiotherapy is rarely used and has long-term hypopituitarism risk.",
+            "",
+            "The pill does not treat hyperprolactinaemia or restore fertility.",
+            "Symptomatic hyperprolactinaemia with hypogonadism should be treated."
+          ],
+          "tags": [
+            "prolactinoma",
+            "cabergoline",
+            "pituitary"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "endocrinology--calcium-and-bone",
+      "title": "Calcium, vitamin D and osteoporosis",
+      "minutes": 20,
+      "objectives": [
+        "Find the cause of hypercalcaemia using PTH, and manage severe hypercalcaemia",
+        "Recognise and treat hypocalcaemia, including after thyroidectomy",
+        "Identify vitamin D deficiency risk groups in Australia",
+        "Diagnose osteoporosis and choose treatment within PBS criteria, including safe use of denosumab and bisphosphonates"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Calcium and bone in Australia",
+          "body": "Calcium disorders are common incidental findings and occasionally emergencies. **Hypercalcaemia** is most often due to **primary hyperparathyroidism in outpatients** and **malignancy in inpatients**; together these cause about 90% of cases.\n\n**Osteoporosis** affects a large proportion of older Australians, and a **minimal trauma fracture** (a fall from standing height or less) is the key clinical marker. Hip fractures carry a high mortality and loss of independence, and most people who fracture are never treated for osteoporosis: the \"treatment gap\". Healthy Bones Australia (formerly Osteoporosis Australia) and the RACGP osteoporosis guideline are the references.\n\n**Vitamin D deficiency** is surprisingly common in sunny Australia, especially in people with dark skin, people who cover their skin for cultural or religious reasons, housebound and aged care residents, and those living in southern states in winter."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Calcium control",
+          "body": "Serum calcium is tightly regulated by **PTH** and **vitamin D**:\n\n- **PTH** increases bone resorption, renal calcium reabsorption and phosphate excretion, and activates vitamin D.\n- **Calcitriol (1,25-dihydroxyvitamin D)** increases gut calcium absorption.\n- About half of serum calcium is bound to albumin. **Corrected calcium** = measured calcium + 0.02 x (40 - albumin in g/L). Ionised calcium is best when available.\n\n**Hypercalcaemia**:\n\n- **PTH-dependent (PTH high or inappropriately normal)**: **primary hyperparathyroidism** (usually a single adenoma; phosphate low), familial hypocalciuric hypercalcaemia (low urine calcium, benign), lithium, tertiary hyperparathyroidism in CKD.\n- **PTH-independent (PTH suppressed)**: **malignancy** (PTHrP from squamous cancers, bone metastases from breast, lung, kidney, prostate, **myeloma**), vitamin D excess, **granulomatous disease** (sarcoidosis, TB: extra calcitriol), thiazides, immobilisation, milk-alkali syndrome, thyrotoxicosis.\n\n**Hypocalcaemia**: post-thyroidectomy or parathyroidectomy (hypoparathyroidism, \"hungry bones\"), vitamin D deficiency, CKD, hypomagnesaemia (impairs PTH secretion), pancreatitis, drugs (denosumab, bisphosphonates, especially if vitamin D deficient).\n\n**Osteoporosis**: reduced bone mass and microarchitectural deterioration. Risk factors: age, female sex and menopause, low BMI, **glucocorticoids** (commonly 7.5 mg prednisolone or more daily for 3 months or more), smoking, alcohol, family history of hip fracture, early menopause, hypogonadism, hyperthyroidism, hyperparathyroidism, coeliac disease, rheumatoid arthritis, aromatase inhibitors and androgen deprivation therapy, and falls."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Presentations",
+          "body": "**Hypercalcaemia** (\"stones, bones, abdominal groans and psychic moans\"): polyuria and polydipsia (nephrogenic DI), dehydration, **renal stones**, bone pain, constipation, nausea, abdominal pain, pancreatitis, peptic ulcer, fatigue, depression, confusion. Severe: drowsiness, coma, short QT and arrhythmias. Mild primary hyperparathyroidism is often asymptomatic and found on routine bloods.\n\n**Hypocalcaemia**: perioral and peripheral **paraesthesia**, muscle cramps, **carpopedal spasm**, tetany, seizures, laryngospasm, **prolonged QT**. Signs: **Chvostek** (facial twitch on tapping the facial nerve) and **Trousseau** (carpal spasm with BP cuff inflation). Typically the AMC places this 1 to 2 days after **thyroidectomy**.\n\n**Osteoporosis**: silent until fracture. Vertebral fractures cause back pain, height loss (more than 3 cm) and kyphosis; many are asymptomatic and found on X-ray. Hip and wrist fractures follow falls."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Tests in the right order",
+          "body": "**Hypercalcaemia**:\n\n1. Repeat and **correct for albumin** (or measure ionised calcium).\n2. **PTH** is the key discriminating test.\n   - **High or inappropriately normal PTH**: primary hyperparathyroidism. Check phosphate (low), **24-hour urine calcium** (to exclude familial hypocalciuric hypercalcaemia), renal function, vitamin D, DXA bone density and renal imaging for stones. Localise the adenoma (sestamibi scan, ultrasound, 4D CT) only when surgery is planned.\n   - **Suppressed PTH**: look for **malignancy** (PTHrP, serum and urine protein electrophoresis and free light chains for myeloma, chest imaging, breast examination, bone scan), vitamin D levels, ACE and chest X-ray for sarcoidosis, TSH, medication review.\n3. ECG (short QT) and renal function.\n\n**Hypocalcaemia**: corrected or ionised calcium, **magnesium**, PTH, phosphate, vitamin D, renal function; ECG (QT).\n\n**Vitamin D**: 25-hydroxyvitamin D. Medicare rebates for testing are restricted to people with risk factors or conditions; routine testing of low-risk people is not recommended.\n\n**Osteoporosis**:\n\n- **DXA bone density**: **T-score of -2.5 or less** at the hip or spine = osteoporosis; -1.0 to -2.5 = osteopenia.\n- A **minimal trauma fracture** of the hip or spine allows a clinical diagnosis of osteoporosis regardless of T-score.\n- Fracture risk calculators (**FRAX**, **Garvan**) estimate absolute risk.\n- Secondary causes: FBC, calcium, phosphate, ALP, renal and liver function, 25-OH vitamin D, TSH, protein electrophoresis (myeloma), coeliac serology, testosterone in men.\n- Medicare funds DXA for people **aged 70 and over** and for those with specific risk factors or a previous fracture (check current MBS criteria). Spine X-ray to look for vertebral fractures."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Hypercalcaemia at a glance",
+          "body": "| Feature | Primary hyperparathyroidism | Malignancy |\n|---|---|---|\n| Setting | Outpatient, often asymptomatic, postmenopausal woman | Inpatient, unwell, known or occult cancer |\n| Calcium | Usually mildly raised, chronic | Often high, rising quickly |\n| PTH | High or inappropriately normal | Suppressed |\n| Phosphate | Low | Variable |\n| Other | Stones, osteoporosis | Weight loss, bone pain, anaemia, PTHrP high or lytic lesions |\n\n**Familial hypocalciuric hypercalcaemia**: mildly high calcium, normal or mildly high PTH, **low urine calcium**, family history; benign, and surgery does not help."
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment",
+          "body": "**Severe or symptomatic hypercalcaemia** (for example corrected calcium above about 3.0 to 3.5 mmol/L, or any level with symptoms):\n\n1. **IV 0.9% sodium chloride** rehydration: the first and most important step (patients are profoundly dehydrated from nephrogenic DI).\n2. **IV bisphosphonate** (zoledronic acid or pamidronate) once rehydrated; takes 2 to 4 days to act; dose adjust for renal function.\n3. Stop thiazides, lithium, calcium and vitamin D supplements; mobilise.\n4. Others: **denosumab** (for bisphosphonate-refractory or renal impairment), **calcitonin** (rapid but short-lived effect), **glucocorticoids** for vitamin D-mediated causes (sarcoidosis, lymphoma, myeloma), dialysis in extreme cases.\n5. Frusemide is only used for fluid overload once rehydrated, not routinely.\n\n**Primary hyperparathyroidism**: **parathyroidectomy** for symptomatic disease and for asymptomatic patients meeting surgical criteria (for example significantly raised calcium, osteoporosis or fractures, kidney stones or reduced eGFR, younger age). Others are monitored with calcium, renal function and bone density; stay hydrated.\n\n**Hypocalcaemia**:\n\n- **Severe or symptomatic** (tetany, seizures, prolonged QT): **IV calcium gluconate** with cardiac monitoring, then infusion if needed.\n- **Correct magnesium** (hypocalcaemia will not resolve otherwise).\n- Chronic: oral calcium and **calcitriol** for hypoparathyroidism; cholecalciferol for vitamin D deficiency.\n\n**Vitamin D deficiency**: cholecalciferol supplementation, safe sun exposure advice balanced against skin cancer risk (SunSmart and Cancer Council guidance), adequate dietary calcium.\n\n**Osteoporosis**:\n\n- **Everyone**: adequate calcium (preferably dietary; about 1000 to 1300 mg a day depending on age and sex), vitamin D repletion, **weight-bearing and resistance exercise**, **falls prevention** (home safety, vision, medication review, balance training), smoking cessation, limit alcohol.\n- **Anti-osteoporosis medication (PBS-subsidised under criteria)**: typically for a **minimal trauma fracture**, or a **T-score of -2.5 or less in people aged 70 and over**, or a T-score of -1.5 or less on long-term glucocorticoids (check current PBS criteria).\n- **Oral bisphosphonates** (alendronate, risedronate): take on an empty stomach with a full glass of water, sitting upright for 30 minutes (oesophagitis). **IV zoledronic acid** once yearly is an alternative. Consider a drug holiday after several years in lower-risk patients.\n- **Denosumab** (6-monthly subcutaneous injection): effective and usable in renal impairment; check calcium and vitamin D first (hypocalcaemia). **Never stop denosumab abruptly or delay doses**: rapid bone loss and **multiple rebound vertebral fractures** follow; transition to a bisphosphonate if stopping.\n- **Anabolic agents** (teriparatide, romosozumab) for severe or very high risk osteoporosis under specialist and PBS criteria.\n- **Osteonecrosis of the jaw** and **atypical femoral fractures** are rare with anti-resorptives; a dental check before starting is prudent. Thigh or groin pain on long-term therapy needs imaging.\n- Hormone therapy is an option in younger postmenopausal women with menopausal symptoms (see Women's health)."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- High calcium in a well outpatient: **PTH** is the next test. High PTH + low phosphate = **primary hyperparathyroidism**.\n- Confused inpatient with calcium 3.6 mmol/L: **IV saline first**, then IV bisphosphonate.\n- High calcium with suppressed PTH, anaemia, back pain and renal impairment: **myeloma** (protein electrophoresis, free light chains).\n- Tingling and carpopedal spasm the day after thyroidectomy: **hypocalcaemia**; IV calcium gluconate, check magnesium.\n- 72-year-old woman with a wrist fracture after tripping: minimal trauma fracture, **osteoporosis treatment**; DXA helps but treatment is justified by the fracture.\n- Patient on denosumab wants to \"take a break\": explain the rebound fracture risk and switch to a bisphosphonate rather than just stopping."
+        }
+      ],
+      "keyPoints": [
+        "Hypercalcaemia: primary hyperparathyroidism in outpatients, malignancy in inpatients; PTH separates them.",
+        "Severe hypercalcaemia: IV 0.9% saline first, then IV bisphosphonate.",
+        "Correct calcium for albumin: add 0.02 mmol/L for each g/L albumin below 40.",
+        "Symptomatic hypocalcaemia: IV calcium gluconate with ECG monitoring; always correct magnesium.",
+        "Osteoporosis: T-score -2.5 or less, or a minimal trauma fracture.",
+        "Never stop denosumab abruptly: rebound vertebral fractures; transition to a bisphosphonate.",
+        "Vitamin D deficiency is common in dark-skinned, covered, housebound and aged care residents."
+      ],
+      "redFlags": [
+        "Corrected calcium above about 3.5 mmol/L or confusion with hypercalcaemia",
+        "Hypercalcaemia with weight loss, bone pain or anaemia (malignancy, myeloma)",
+        "Tetany, seizures, stridor or prolonged QT with hypocalcaemia",
+        "Back pain with height loss in an older person (vertebral fracture)",
+        "Thigh or groin pain on long-term bisphosphonate (atypical femoral fracture)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Vitamin D deficiency",
+          "india": "Very common, often linked to indoor lifestyle, skin coverage and diet; widely supplemented.",
+          "australia": "Common despite sunshine in dark-skinned, covered, housebound and aged care groups; testing is Medicare-restricted to risk groups."
+        },
+        {
+          "aspect": "Osteoporosis treatment access",
+          "india": "Treatment often started on DXA alone or after fracture, self-funded.",
+          "australia": "PBS subsidy depends on criteria such as minimal trauma fracture or T-score -2.5 or less at age 70 and over."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Key test distinguishing causes of hypercalcaemia?",
+          "back": "PTH (high or inappropriately normal in hyperparathyroidism; suppressed in malignancy)."
+        },
+        {
+          "front": "First step in treating severe hypercalcaemia?",
+          "back": "IV 0.9% sodium chloride rehydration, then IV bisphosphonate."
+        },
+        {
+          "front": "Albumin correction for calcium?",
+          "back": "Corrected Ca = measured Ca + 0.02 x (40 - albumin g/L)."
+        },
+        {
+          "front": "DXA T-score defining osteoporosis?",
+          "back": "-2.5 or less."
+        },
+        {
+          "front": "Risk of stopping denosumab abruptly?",
+          "back": "Rapid bone loss and multiple rebound vertebral fractures; transition to a bisphosphonate."
+        },
+        {
+          "front": "Electrolyte to correct in refractory hypocalcaemia?",
+          "back": "Magnesium."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "endocrinology--calcium-and-bone--q1",
+          "discipline": "adult-medicine",
+          "topic": "endocrinology",
+          "difficulty": "foundation",
+          "stem": "A 61-year-old woman has routine blood tests at her GP in Bendigo. Corrected calcium is 2.78 mmol/L (reference 2.10-2.60), phosphate 0.70 mmol/L (low), PTH 9.8 pmol/L (reference 1.6-6.9). She feels well. Renal function is normal.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Primary hyperparathyroidism",
+            "Humoral hypercalcaemia of malignancy",
+            "Vitamin D toxicity",
+            "Sarcoidosis",
+            "Secondary hyperparathyroidism from vitamin D deficiency"
+          ],
+          "answer": 0,
+          "explanation": "Hypercalcaemia with a **raised (or inappropriately normal) PTH** and **low phosphate** in a well, postmenopausal outpatient is **primary hyperparathyroidism**, usually from a single parathyroid adenoma.\n\nIn malignancy, vitamin D toxicity and sarcoidosis, the high calcium **suppresses PTH**. Secondary hyperparathyroidism has a high PTH with **low or normal calcium**.\n\nNext steps: 24-hour urine calcium (to exclude familial hypocalciuric hypercalcaemia), vitamin D, DXA and renal imaging, then referral for parathyroidectomy if she meets criteria.\n\n**Principle:** calcium high, PTH not suppressed = parathyroid.",
+          "whyWrong": [
+            "",
+            "Malignancy-related hypercalcaemia suppresses PTH.",
+            "Vitamin D toxicity suppresses PTH.",
+            "Sarcoidosis causes calcitriol-mediated hypercalcaemia with suppressed PTH.",
+            "Secondary hyperparathyroidism has low or normal calcium, not high."
+          ],
+          "tags": [
+            "hypercalcaemia",
+            "primary-hyperparathyroidism",
+            "pth"
+          ]
+        },
+        {
+          "id": "endocrinology--calcium-and-bone--q2",
+          "discipline": "adult-medicine",
+          "topic": "endocrinology",
+          "difficulty": "core",
+          "stem": "A 70-year-old man with metastatic squamous cell lung cancer is admitted to a Sydney hospital with 4 days of confusion, vomiting and constipation. He is clinically dehydrated. Corrected calcium is 3.72 mmol/L, creatinine 168 micromol/L (baseline 90). PTH is suppressed.\n\nWhat is the most appropriate first step in management?",
+          "options": [
+            "IV zoledronic acid",
+            "IV 0.9% sodium chloride",
+            "IV frusemide",
+            "Oral prednisolone",
+            "Subcutaneous calcitonin alone"
+          ],
+          "answer": 1,
+          "explanation": "He has **severe symptomatic hypercalcaemia of malignancy** (likely PTHrP from squamous cell cancer). Hypercalcaemia causes nephrogenic diabetes insipidus and vomiting, so patients are **profoundly dehydrated**, which reduces renal calcium excretion and worsens the hypercalcaemia.\n\nThe first step is **IV 0.9% sodium chloride** rehydration. Once rehydrated, give an **IV bisphosphonate** (dose-adjusted for renal function), which takes a few days to work. Frusemide is only for fluid overload after rehydration. Steroids are for vitamin D-mediated hypercalcaemia (lymphoma, sarcoidosis, myeloma). Calcitonin acts quickly but briefly and is an adjunct.\n\nGoals of care discussion is also important in metastatic cancer.",
+          "whyWrong": [
+            "Bisphosphonates are given after rehydration and take days to act; fluids come first.",
+            "",
+            "Frusemide worsens dehydration if given before rehydration.",
+            "Steroids help vitamin D-mediated causes, not PTHrP hypercalcaemia.",
+            "Calcitonin is a short-acting adjunct, not first-line alone."
+          ],
+          "tags": [
+            "hypercalcaemia",
+            "malignancy",
+            "emergency"
+          ]
+        },
+        {
+          "id": "endocrinology--calcium-and-bone--q3",
+          "discipline": "adult-medicine",
+          "topic": "endocrinology",
+          "difficulty": "exam",
+          "stem": "A 74-year-old woman with osteoporosis has received denosumab injections every 6 months for 5 years, with no fractures. She tells her GP in Hobart she wants to stop because she has read about jaw problems. Her most recent DXA shows a lumbar spine T-score of -2.1.\n\nWhat is the most appropriate advice?",
+          "options": [
+            "Stop denosumab now; no further treatment is required",
+            "Delay the next injection by 12 months as a drug holiday",
+            "Switch to calcium and vitamin D supplements alone",
+            "Stop denosumab and start a bisphosphonate at the time the next dose would be due",
+            "Continue denosumab indefinitely without discussing alternatives"
+          ],
+          "answer": 3,
+          "explanation": "Stopping or delaying **denosumab** causes rapid rebound bone turnover, loss of the bone gained and a risk of **multiple vertebral fractures**, sometimes within months. Unlike bisphosphonates, denosumab has no residual effect, so **drug holidays are not appropriate**.\n\nIf she wants to stop, the safe approach is to **transition to a bisphosphonate** (often IV zoledronic acid or oral alendronate) timed to when the next denosumab dose is due, with specialist input if needed. Osteonecrosis of the jaw is rare; good dental hygiene and a dental review are reasonable.\n\nRespecting her choice includes explaining the risk and offering a safe alternative.",
+          "whyWrong": [
+            "Stopping without follow-on therapy risks rebound vertebral fractures.",
+            "Delaying doses causes rebound bone loss; there is no denosumab drug holiday.",
+            "Calcium and vitamin D alone do not prevent rebound fractures.",
+            "",
+            "Her concerns deserve discussion and a safe alternative; ignoring them is poor practice."
+          ],
+          "tags": [
+            "osteoporosis",
+            "denosumab",
+            "shared-decision-making"
+          ]
+        }
+      ]
+    }
+  ]
+}

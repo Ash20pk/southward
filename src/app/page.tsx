@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowLeftRight, Flame, Layers, Stethoscope, Target, Timer } from "lucide-react";
+import { ArrowLeftRight, BookOpen, Flame, Layers, Stethoscope, Target, Timer } from "lucide-react";
 import { streak, useStore } from "@/lib/store";
 import { SouthernCross } from "@/components/SouthernCross";
 import { Bar, ButtonLink, DisciplineDot, Panel } from "@/components/ui";
@@ -16,7 +16,8 @@ import {
   readiness,
   weakestTopics,
 } from "@/lib/stats";
-import { STATIONS, subjectById } from "@/lib/content";
+import { STATIONS, subjectById, topicName, topicsForSubject } from "@/lib/content";
+import { nextLesson } from "@/lib/course-index";
 import { currentPhase } from "@/lib/plan";
 
 function greeting() {
@@ -42,6 +43,7 @@ export default function Today() {
   const nextStation = STATIONS.find((st) => !s.osce.some((o) => o.stationId === st.id)) ?? STATIONS[0];
   const st = streak(s.studyDays);
   const posting = subjectById(profile.posting);
+  const lesson = nextLesson(s.lessonProgress, s.lastLesson, posting ? topicsForSubject(posting, ["direct"]) : []);
 
   return (
     <div className="flex flex-col gap-6">
@@ -93,8 +95,18 @@ export default function Today() {
           <h2 className="text-xl font-semibold">Today&rsquo;s session</h2>
           <p className="mt-1 text-muted">About {Math.round(goal * 1.5 + cardsToday * 0.3)} minutes, in this order.</p>
           <ol className="mt-5 flex flex-col divide-y divide-line">
+            {lesson && (
+              <TodayItem
+                n={1}
+                icon={<BookOpen size={18} />}
+                title={`Lesson: ${lesson.title}`}
+                detail={`${topicName(lesson.topic)}, ${lesson.minutes} min${s.lessonProgress[lesson.id]?.step ? ", in progress" : ""}`}
+                href={`/learn/${lesson.topic}/${lesson.id.split("--")[1]}`}
+                cta={s.lessonProgress[lesson.id]?.step ? "Resume" : "Start"}
+              />
+            )}
             <TodayItem
-              n={1}
+              n={2}
               icon={<Layers size={18} />}
               title="Flashcards"
               detail={cardsToday ? `${due.length} due for review, ${Math.min(unseen.length, NEW_CARDS_PER_DAY)} new` : "All caught up"}
@@ -103,7 +115,7 @@ export default function Today() {
               cta={cardsToday ? "Review" : "Browse"}
             />
             <TodayItem
-              n={2}
+              n={3}
               icon={<Target size={18} />}
               title={
                 weak[0]
@@ -118,7 +130,7 @@ export default function Today() {
               cta={done >= goal ? "Do more" : "Start"}
             />
             <TodayItem
-              n={3}
+              n={4}
               icon={<Stethoscope size={18} />}
               title={`Clinical station: ${nextStation.title}`}
               detail="One station a week keeps the talking skills warm"
@@ -127,7 +139,7 @@ export default function Today() {
             />
             {posting && (
               <TodayItem
-                n={4}
+                n={5}
                 icon={<ArrowLeftRight size={18} />}
                 title={`Your posting: ${posting.name}`}
                 detail="What carries over to the AMC, and where Australia differs"

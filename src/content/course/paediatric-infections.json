@@ -1,0 +1,1314 @@
+{
+  "topic": "paediatric-infections",
+  "intro": "Paediatric infections covers the febrile child and serious bacterial infection, meningitis and meningococcal disease, urinary tract infection, bronchiolitis, croup and pertussis, ear, throat and chest infections, gastroenteritis and dehydration, and the childhood rashes including Kawasaki disease and skin infections. These are the most common reasons children present to Australian GPs and emergency departments, and the AMC tests both the can't-miss diagnoses and evidence-based restraint (no salbutamol for bronchiolitis, no antibiotics for most sore throats) alongside public health duties such as notification, exclusion and contact prophylaxis.",
+  "lessons": [
+    {
+      "id": "paediatric-infections--febrile-child",
+      "title": "The febrile child and serious bacterial infection",
+      "minutes": 18,
+      "objectives": [
+        "Risk-stratify a febrile child using age, appearance and traffic-light features",
+        "Manage the febrile infant under 3 months, including when a full septic work-up is needed",
+        "Recognise sepsis early and start fluids and empirical antibiotics",
+        "Counsel parents on fever, antipyretics and febrile seizures"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Fever is common; serious infection is not",
+          "body": "Fever (a temperature of **38 °C or more**) is one of the most common reasons children see a GP or come to an emergency department. Most febrile children have a self-limiting viral illness. The skill the AMC tests is picking out the small group with **serious bacterial infection (SBI)**: **urinary tract infection** (by far the most common), pneumonia, bacteraemia and sepsis, **meningitis**, and bone and joint infection.\n\nSince the introduction of **Hib** and **pneumococcal conjugate** vaccines on the National Immunisation Program, occult bacteraemia in well-looking immunised children has become rare. Risk now concentrates in:\n- **Young infants**, especially under 3 months and above all under 1 month, who have immature immunity, few localising signs, and are not yet protected by vaccines.\n- Children who **look unwell**.\n- Children with **incomplete immunisation**, immunosuppression, indwelling devices or chronic disease.\n\nAustralian emergency departments use state or hospital guidelines based on the **RCH Melbourne** febrile child and febrile infant guidelines and the NICE traffic-light system."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Assessing a febrile child",
+          "body": "**History:** duration and height of fever, feeding and fluid intake, wet nappies, vomiting, diarrhoea, cough, rash, drowsiness, irritability, sick contacts, travel, **immunisation status**, and medical history.\n\n**Look at the child before you touch them.** Colour, activity, response to parents, cry and hydration tell you more than the thermometer. The height of fever correlates poorly with severity, and response to paracetamol does **not** distinguish bacterial from viral illness.\n\n**Traffic-light features (after NICE, used widely in Australia):**\n\n| | Green (low risk) | Amber (intermediate) | Red (high risk) |\n|---|---|---|---|\n| Colour | Normal | Pallor reported by parent | Pale, mottled, ashen or blue |\n| Activity | Responds normally, smiles, stays awake | Reduced response, no smile, decreased activity | No response, cannot be roused, weak high-pitched or continuous cry |\n| Breathing | Normal | Nasal flaring, tachypnoea, SpO2 95% or less, crackles | Grunting, marked tachypnoea, moderate to severe recession |\n| Circulation and hydration | Normal skin and eyes, moist mucous membranes | Tachycardia, CRT 3 s or more, dry mucous membranes, poor feeding, reduced urine | Reduced skin turgor |\n| Other | None | Fever 5 days or more, swelling of a limb or joint, not weight-bearing, rigors | **Non-blanching rash**, bulging fontanelle, neck stiffness, status epilepticus, focal signs, focal seizures, **age under 3 months with temperature 38 °C or more** |\n\n**Examine systematically for a focus:** ears, throat, chest, abdomen, skin (rash), joints and limbs (a limp or refusing to use a limb suggests septic arthritis or osteomyelitis), fontanelle and neck, and always consider the urine.\n\n**Sepsis red flags:** tachycardia out of proportion to fever, tachypnoea, prolonged capillary refill, cold peripheries, mottling, altered mental state, reduced urine output. **Hypotension is a late sign in children**; do not wait for it."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Who needs tests, and which ones",
+          "body": "**Febrile infant under 3 months** (the syllabus principle: a low threshold for a full septic work-up):\n- **Under 1 month (28 days):** a full septic screen in essentially all: **FBC, CRP, blood culture, urine** (catheter or suprapubic aspirate), and **lumbar puncture**, followed by empirical IV antibiotics while waiting for results.\n- **1 to 3 months:** any infant who looks unwell gets the full work-up and antibiotics. Well-appearing infants have **urine and blood tests** at minimum, with LP and antibiotics decided by the local risk-stratification pathway (age, inflammatory markers, urine result). Follow your hospital's guideline.\n- Consider **HSV** in infants under about 6 weeks with seizures, vesicles, hepatitis or a lymphocytic CSF (add aciclovir).\n\n**Older infants and children:**\n- **Green, with a clear viral source:** no tests needed; safety-net.\n- **Amber:** targeted tests, most commonly a **properly collected urine sample**; FBC, CRP and blood culture as indicated; chest X-ray if pneumonia is suspected clinically.\n- **Red or suspected sepsis:** blood culture, FBC, CRP, blood gas with **lactate** and glucose, UEC, urine, and LP once stable (not before antibiotics in a sick child).\n\n**Fever without a source for 5 or more days:** consider **Kawasaki disease**, UTI, occult abscess, osteomyelitis, endocarditis, and in travellers, malaria (thick and thin films) and typhoid."
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment and safety-netting",
+          "body": "**Sepsis (red features, shock):**\n1. Oxygen, IV or **intraosseous** access (two attempts at IV, then IO).\n2. Blood culture and glucose, but **do not delay antibiotics**: aim to give them within the first hour.\n3. **Fluid bolus of 10 to 20 mL/kg of 0.9% sodium chloride** (or a balanced crystalloid), reassessing after each bolus for response and signs of overload (hepatomegaly, crackles). After about 40 to 60 mL/kg, inotropes and intensive care are needed.\n4. **Empirical antibiotics** follow age and source per eTG and local guidelines. In young infants (under 1 to 2 months), cover Listeria and enterococci with amoxicillin (or benzylpenicillin) plus cefotaxime or gentamicin. In older children, **ceftriaxone** (or cefotaxime) is the usual backbone, with vancomycin or flucloxacillin added for suspected staphylococcal or resistant pneumococcal infection.\n5. Correct hypoglycaemia; early senior, PICU and retrieval involvement.\n\n**Well febrile child, sent home:**\n- Treat **discomfort, not the number**. **Paracetamol 15 mg/kg** (up to 4 doses in 24 hours) or **ibuprofen 5 to 10 mg/kg** (every 6 to 8 hours, avoid in dehydration). Do not routinely alternate them. Avoid aspirin in children (Reye syndrome). Do not tepid-sponge.\n- Encourage fluids; dress lightly.\n- **Safety-net clearly:** return if the child becomes drowsy or floppy, has a non-blanching rash, breathing difficulty, fewer wet nappies, a seizure, persistent vomiting, fever for 5 days or more, or if parents are worried. Arrange review within 24 to 48 hours for amber children managed at home.\n\n**Febrile seizures:**\n- Occur in about 3% of children aged **6 months to 5 years** with a fever from any cause.\n- **Simple:** generalised, under 15 minutes, once in 24 hours, full recovery within an hour. **Complex:** focal, prolonged, or recurrent in the same illness.\n- After a simple febrile seizure in a child who recovers fully, the task is to **find the source of fever**, exclude meningitis clinically, and reassure. EEG and neuroimaging are not needed. Recurrence occurs in about 30%; the risk of later epilepsy is only slightly above the general population.\n- **Antipyretics do not prevent febrile seizures.** Teach first aid: recovery position, time the seizure, call an ambulance if it lasts more than 5 minutes.\n- Do an LP if there are signs of meningitis, the child is not recovering, or the child is a young infant or has had antibiotics that could mask meningitis."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- **Any infant under 3 months with a temperature of 38 °C or more is high risk.** Under 1 month: full septic screen **including LP** and IV antibiotics, even if the baby looks well.\n- The most common SBI in a febrile infant with no source is a **UTI**: the answer often involves a **catheter or suprapubic urine sample**.\n- A child who \"perks up after paracetamol\" can still have a serious infection.\n- Sepsis in children: tachycardia, prolonged CRT and altered mental state come **before** hypotension.\n- Febrile seizure, full recovery, obvious viral source: reassure, treat the illness, educate. Antipyretics to prevent recurrence is a wrong answer.\n- Fever for 5 days: think Kawasaki."
+        }
+      ],
+      "keyPoints": [
+        "Fever is 38 °C or more; appearance matters more than the height of fever or response to paracetamol.",
+        "UTI is the most common serious bacterial infection in febrile infants and young children.",
+        "Under 1 month with fever: full septic screen including LP and IV antibiotics; 1 to 3 months: low threshold, per local pathway.",
+        "Red features: non-blanching rash, mottled, unrousable, grunting, bulging fontanelle, neck stiffness.",
+        "Sepsis: antibiotics within the hour, 10 to 20 mL/kg fluid boluses with reassessment; hypotension is late.",
+        "Treat discomfort, not fever; antipyretics do not prevent febrile seizures.",
+        "Simple febrile seizure: find the source, reassure, teach first aid; no EEG or imaging needed."
+      ],
+      "redFlags": [
+        "Age under 3 months with a temperature of 38 °C or more",
+        "Non-blanching rash",
+        "Mottled or ashen skin, prolonged capillary refill, cold peripheries",
+        "Drowsy, unrousable, floppy, or weak high-pitched cry",
+        "Grunting or marked recession",
+        "Bulging fontanelle, neck stiffness, focal seizure or prolonged seizure"
+      ],
+      "contrast": [
+        {
+          "aspect": "Fever without source",
+          "india": "Dengue, malaria, typhoid and enteric fever are near the top of the list.",
+          "australia": "UTI and viral illness top the list; malaria, dengue and typhoid are considered only in returned travellers."
+        },
+        {
+          "aspect": "Febrile young infant",
+          "india": "Clinical judgement and blood tests, with admission when concerned.",
+          "australia": "Largely the same principle, formalised in RCH-based pathways: full septic work-up including LP under 1 month."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Febrile infant under 1 month: what work-up?",
+          "back": "Full septic screen (FBC, CRP, blood culture, catheter or SPA urine, LP) and empirical IV antibiotics."
+        },
+        {
+          "front": "Most common serious bacterial infection in febrile infants?",
+          "back": "Urinary tract infection."
+        },
+        {
+          "front": "Initial fluid bolus in paediatric septic shock?",
+          "back": "10 to 20 mL/kg of isotonic crystalloid, reassessing after each bolus."
+        },
+        {
+          "front": "Paracetamol dose for a febrile child?",
+          "back": "15 mg/kg, up to 4 doses in 24 hours."
+        },
+        {
+          "front": "Age range for febrile seizures?",
+          "back": "6 months to 5 years."
+        },
+        {
+          "front": "Criteria for a simple febrile seizure?",
+          "back": "Generalised, under 15 minutes, not recurring within 24 hours, full recovery."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "paediatric-infections--febrile-child--q1",
+          "discipline": "child-health",
+          "topic": "paediatric-infections",
+          "difficulty": "core",
+          "stem": "A 19-day-old girl is brought to the emergency department with a temperature of 38.3 °C, measured at home and confirmed in triage. She is feeding a little less than usual but is alert, pink and well perfused. HR 160/min, RR 44/min. There is no rash and no obvious focus. She was born at term after an uncomplicated pregnancy.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Discharge with paracetamol and review by her GP in 24 hours",
+            "Collect a bag urine sample and treat only if it is positive",
+            "Arrange FBC, CRP and blood culture, and admit for observation without antibiotics",
+            "Full septic screen including catheter urine and lumbar puncture, then IV antibiotics",
+            "Chest X-ray and discharge if normal"
+          ],
+          "answer": 3,
+          "explanation": "A febrile infant **under 1 month** is at high risk of serious bacterial infection (UTI, bacteraemia, meningitis) and HSV, and **appearance is unreliable** at this age: a well-looking neonate can have meningitis.\n\nAustralian guidance (RCH and state pathways) is a **full septic screen**: FBC, CRP, blood culture, **urine by catheter or suprapubic aspirate**, and **lumbar puncture**, followed by **empirical IV antibiotics** covering GBS, E. coli and Listeria (for example amoxicillin plus cefotaxime), with aciclovir if HSV is possible.\n\nOlder well infants of 1 to 3 months may be risk-stratified, but the neonate is not.",
+          "whyWrong": [
+            "Febrile neonates must never be discharged without assessment for serious infection.",
+            "Bag samples are often contaminated and cannot diagnose UTI; meningitis and bacteraemia also need excluding.",
+            "Observation without antibiotics in a febrile neonate risks untreated meningitis or sepsis.",
+            "",
+            "There are no respiratory signs, and a normal X-ray excludes nothing else."
+          ],
+          "ausPearl": "The RCH Melbourne febrile infant guideline underpins most Australian ED pathways for infants under 3 months.",
+          "tags": [
+            "febrile-infant",
+            "septic-screen",
+            "neonate"
+          ]
+        },
+        {
+          "id": "paediatric-infections--febrile-child--q2",
+          "discipline": "child-health",
+          "topic": "paediatric-infections",
+          "difficulty": "foundation",
+          "stem": "A 20-month-old boy had a generalised tonic-clonic seizure lasting 2 minutes at home. He has had a runny nose and fever for a day. In the emergency department 45 minutes later he is alert, playing and back to normal. Temperature is 38.9 °C. He has normal tympanic membranes, clear rhinorrhoea, no neck stiffness, no rash and a normal neurological examination. He is fully immunised.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Lumbar puncture",
+            "EEG before discharge",
+            "CT scan of the brain",
+            "Start regular paracetamol to prevent further seizures",
+            "Explain the diagnosis, give seizure first-aid advice and discharge with safety-netting"
+          ],
+          "answer": 4,
+          "explanation": "This is a **simple febrile seizure**: a generalised seizure under 15 minutes, a single event in 24 hours, full recovery, in a child aged 6 months to 5 years with a fever from a **viral upper respiratory infection**. He is immunised and has no signs of meningitis.\n\nManagement is to **find and treat the source**, **reassure** the parents, teach **first aid** (recovery position, time the seizure, call an ambulance if it lasts more than 5 minutes) and give **safety-netting** advice. About 30% of children have a recurrence.\n\nNo EEG or imaging is needed after a simple febrile seizure. Antipyretics make the child comfortable but **do not prevent** febrile seizures. LP is reserved for suspected meningitis or an incomplete recovery.",
+          "whyWrong": [
+            "LP is not needed in a fully recovered, immunised child without meningism.",
+            "EEG does not change management after a simple febrile seizure.",
+            "Neuroimaging is only for focal signs, prolonged or incomplete recovery, or suspected injury.",
+            "Antipyretics do not reduce the risk of recurrence; that is a common myth.",
+            ""
+          ],
+          "tags": [
+            "febrile-seizure",
+            "counselling"
+          ]
+        },
+        {
+          "id": "paediatric-infections--febrile-child--q3",
+          "discipline": "child-health",
+          "topic": "paediatric-infections",
+          "difficulty": "exam",
+          "stem": "A 3-year-old boy has had fever and vomiting for 12 hours. He is drowsy and mottled. HR 180/min, RR 40/min, BP 92/60 mmHg, capillary refill 5 seconds, temperature 39.8 °C. Two attempts at IV access have failed.\n\nWhat is the most appropriate immediate step?",
+          "options": [
+            "Wait for a blood pressure below the 5th centile before giving fluids",
+            "Insert an intraosseous needle, give a 10 to 20 mL/kg crystalloid bolus and IV ceftriaxone",
+            "Give oral rehydration solution and paracetamol",
+            "Arrange a CT brain before any treatment",
+            "Perform a lumbar puncture to guide antibiotic choice"
+          ],
+          "answer": 1,
+          "explanation": "This child has **septic shock**: tachycardia, drowsiness, mottling and a capillary refill of 5 seconds. His blood pressure is still normal because children compensate until very late; **hypotension is a pre-terminal sign**, so waiting for it is dangerous.\n\nAfter two failed IV attempts, go straight to **intraosseous access**. Give a **10 to 20 mL/kg isotonic crystalloid bolus** and reassess, and give **empirical IV or IO ceftriaxone** within the hour (take a blood culture if it does not delay treatment). Check glucose and a gas with lactate, and escalate early to senior, PICU and retrieval teams.\n\nLP is deferred in a shocked child; antibiotics must not wait for it.",
+          "whyWrong": [
+            "Hypotension is a late sign in children; treatment must start on the signs of poor perfusion.",
+            "",
+            "A drowsy, shocked child cannot be rehydrated orally.",
+            "Imaging delays life-saving treatment and is not indicated first.",
+            "LP is contraindicated in a shocked child and must not delay antibiotics."
+          ],
+          "tags": [
+            "sepsis",
+            "intraosseous",
+            "fluids"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paediatric-infections--meningitis-and-meningococcal",
+      "title": "Meningitis and meningococcal disease",
+      "minutes": 18,
+      "objectives": [
+        "Recognise bacterial meningitis and meningococcal sepsis at each age, including the early signs",
+        "Give immediate antibiotics before hospital and in the ED, and decide when LP is safe",
+        "Interpret CSF results to separate bacterial, viral and tuberculous meningitis",
+        "Manage the public health response, contacts and prevention by vaccination"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why this is always examined",
+          "body": "**Bacterial meningitis** and **invasive meningococcal disease (IMD)** are rare in immunised Australian children but can kill within hours, and survivors may be left with deafness, brain injury or amputations. The AMC tests speed: recognising the illness early, giving antibiotics immediately (even before hospital), and handling the public health steps.\n\n**Causes by age:**\n- **Neonates:** group B streptococcus, E. coli, Listeria; HSV (encephalitis).\n- **Infants and children:** **Neisseria meningitidis** and **Streptococcus pneumoniae**; **Haemophilus influenzae type b** is now rare thanks to vaccination but still seen in unimmunised children.\n- **Viral meningitis** (mostly **enteroviruses**) is much more common than bacterial and usually benign.\n\n**Meningococcal epidemiology in Australia:** serogroup B causes most disease in young children, and serogroups W and Y have become more prominent. There are two peaks: **children under 5** and **adolescents and young adults** (15 to 24). Rates are higher in Aboriginal and Torres Strait Islander children."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "How it happens",
+          "body": "Bacteria colonise the nasopharynx, invade the bloodstream and cross into the subarachnoid space. The inflammatory response (not just the bacteria) causes cerebral oedema, raised intracranial pressure, vasculitis and reduced cerebral perfusion.\n\n**Meningococcus** can cause meningitis, **septicaemia**, or both. In septicaemia, endotoxin triggers widespread endothelial injury, capillary leak and **disseminated intravascular coagulation**. That is what produces the **petechial and purpuric rash**, limb ischaemia, shock and multi-organ failure, sometimes within hours of the first symptom. Children with meningococcal septicaemia may have **no meningism at all**."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Presentation by age",
+          "body": "**Infants:** fever (or hypothermia), irritability, high-pitched cry, poor feeding, vomiting, lethargy, **bulging fontanelle** (late), seizures, apnoea. Neck stiffness is often absent under 18 months.\n\n**Older children:** fever, **headache**, **neck stiffness**, **photophobia**, vomiting, confusion or reduced conscious level, **Kernig and Brudzinski signs**, seizures, focal neurology.\n\n**Meningococcal septicaemia:**\n- **Early (first hours):** fever, **leg pain**, **cold hands and feet**, abnormal skin colour (pallor, mottling), and a child who is \"more unwell than expected\". These appear before the classic rash.\n- **Rash:** may start as blanching maculopapules, then becomes **petechial or purpuric and non-blanching** (the glass or tumbler test). Check the whole body, including soles and conjunctivae.\n- **Late:** shock, confusion, respiratory distress, purpura fulminans.\n\nA child with **fever and a non-blanching rash** has meningococcal disease until proven otherwise. The main differentials of petechiae in a febrile child are other bacterial sepsis, viral infections (enterovirus, influenza), and petechiae in the superior vena cava distribution from forceful coughing or vomiting (above the nipple line, well child). A **well child** with purpura on the buttocks and legs, abdominal pain and arthralgia and a normal platelet count has **IgA vasculitis (Henoch-Schönlein purpura)**, and a well child with isolated petechiae and bruising with a very low platelet count has ITP."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Tests, and when LP is safe",
+          "body": "- **Blood culture** (before antibiotics if it causes no delay), FBC, CRP, UEC, glucose, coagulation studies, blood gas and lactate.\n- **Meningococcal and pneumococcal PCR** on blood and CSF: remains positive after antibiotics, so it is valuable when antibiotics were given first.\n- **Lumbar puncture** is the definitive test for meningitis but should be **delayed** (and antibiotics given anyway) if there is: shock or cardiorespiratory instability, **reduced or fluctuating conscious level** (GCS under about 9, or a falling GCS), **focal neurological signs**, signs of raised intracranial pressure (bradycardia, hypertension, abnormal pupils), a recent or prolonged seizure, coagulopathy or low platelets, **extensive purpuric rash** (meningococcal sepsis), or local infection at the LP site.\n- CT does not reliably exclude raised intracranial pressure and should not delay antibiotics.\n\n**CSF interpretation (children beyond the neonatal period):**\n\n| | Bacterial | Viral | Tuberculous |\n|---|---|---|---|\n| White cells | High, **neutrophils** | Raised, **lymphocytes** (neutrophils early) | Raised, lymphocytes |\n| Protein | High | Normal or mildly raised | Very high |\n| Glucose | **Low** (CSF to blood ratio under about 0.4) | Normal | **Very low** |\n| Gram stain and culture | Often positive | Negative; enterovirus or HSV PCR | AFB stain rarely positive; culture and PCR |\n\nNeonates have higher normal CSF cell counts and protein, so use age-specific ranges."
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment, public health and prevention",
+          "body": "**Before hospital (suspected meningococcal disease):** give **benzylpenicillin IV or IM immediately** (or ceftriaxone if available) and transfer urgently. Do not wait for tests. Standard Australian pre-hospital doses of benzylpenicillin: **under 1 year 300 mg, 1 to 9 years 600 mg, 10 years and over 1.2 g.**\n\n**In hospital:**\n- **Empirical IV ceftriaxone** (or cefotaxime) for children beyond the neonatal period; neonates and young infants also need amoxicillin (or benzylpenicillin) for Listeria and GBS, and **cefotaxime rather than ceftriaxone**. Local guidelines may add **vancomycin** when pneumococcal meningitis is suspected. Add **aciclovir** if encephalitis is possible.\n- **Dexamethasone** for suspected bacterial meningitis beyond the neonatal period, given **before or with the first antibiotic dose**; it reduces hearing loss and neurological sequelae, mainly in Hib and pneumococcal disease. It is stopped if meningococcal disease or a non-bacterial cause is confirmed (follow eTG and RCH).\n- Treat shock with fluid boluses and inotropes, correct glucose, electrolytes and coagulopathy, manage seizures and raised intracranial pressure, and involve PICU early.\n\n**Public health:**\n- **Meningococcal disease is notifiable** to the state public health unit **immediately on clinical suspicion** (by phone); do not wait for confirmation. Hib is also notifiable.\n- **Clearance antibiotics** for **close contacts** (household members and those with intimate contact in the 7 days before onset): **ciprofloxacin** as a single oral dose, **rifampicin** for 2 days, or **ceftriaxone** as a single IM dose (preferred in pregnancy). The index case also needs clearance unless treated with ceftriaxone or cefotaxime. The public health unit coordinates this.\n\n**Complications and follow-up:** **sensorineural hearing loss** (every child needs a formal **audiology** assessment after bacterial meningitis, because cochlear ossification can limit cochlear implant success if diagnosis is delayed), seizures, hydrocephalus, subdural effusions, SIADH, developmental and learning problems, and, after meningococcal septicaemia, skin loss and amputations.\n\n**Prevention on the National Immunisation Program:**\n- **Hib** and **pneumococcal** conjugate vaccines in infancy.\n- **Meningococcal ACWY** at 12 months and in adolescence (school program, around 14 to 16 years).\n- **Meningococcal B** is funded for Aboriginal and Torres Strait Islander infants and for people with certain medical conditions; some states fund broader programs (for example South Australia). Check the Australian Immunisation Handbook for current eligibility."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Fever plus non-blanching rash in an unwell child in a GP surgery: **give IM or IV benzylpenicillin now and call an ambulance**. Tests and waiting are the wrong answers.\n- In the ED, antibiotics come **before** the LP, and before CT.\n- Know the LP contraindications: shock, reduced consciousness, focal signs, raised ICP signs, coagulopathy, extensive purpura.\n- CSF with neutrophils and low glucose: bacterial. Lymphocytes and normal glucose: viral.\n- Close contacts: ciprofloxacin single dose (ceftriaxone in pregnancy). Notify on suspicion.\n- After meningitis: arrange **audiology**.\n- Well child, palpable purpura on the legs, normal platelets: IgA vasculitis, not meningococcus."
+        }
+      ],
+      "keyPoints": [
+        "Neonates: GBS, E. coli, Listeria. Children: meningococcus and pneumococcus; Hib now rare.",
+        "Early meningococcal signs: fever, leg pain, cold hands and feet, pallor or mottling, before the rash.",
+        "Fever plus non-blanching rash: benzylpenicillin (300 mg, 600 mg, 1.2 g by age) or ceftriaxone immediately.",
+        "Antibiotics before LP and CT; delay LP if shocked, obtunded, focal signs, coagulopathy or extensive purpura.",
+        "Dexamethasone with or before the first antibiotic dose in suspected bacterial meningitis beyond the neonatal period.",
+        "Notify meningococcal disease on suspicion; clearance for close contacts with ciprofloxacin, rifampicin or ceftriaxone.",
+        "Audiology after every case of bacterial meningitis."
+      ],
+      "redFlags": [
+        "Non-blanching (petechial or purpuric) rash with fever",
+        "Leg pain, cold peripheries and mottling in a febrile child",
+        "Bulging fontanelle, neck stiffness or photophobia",
+        "Reduced or fluctuating conscious level, focal signs or seizures",
+        "Rapidly spreading purpura or shock"
+      ],
+      "contrast": [
+        {
+          "aspect": "Common organisms",
+          "india": "Pneumococcus and Hib remain important; Japanese encephalitis and TB meningitis are frequent considerations.",
+          "australia": "Meningococcus (mostly B, with W and Y) and pneumococcus; TB meningitis is rare and mainly in migrants."
+        },
+        {
+          "aspect": "Meningococcal B vaccine",
+          "india": "Not in the routine programme.",
+          "australia": "Funded for Aboriginal and Torres Strait Islander infants and at-risk groups; some states fund broader programs."
+        },
+        {
+          "aspect": "Public health response",
+          "india": "Notification practice varies.",
+          "australia": "Immediate phone notification on clinical suspicion; the public health unit arranges contact clearance."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Pre-hospital benzylpenicillin doses for suspected meningococcal disease?",
+          "back": "Under 1 year 300 mg, 1 to 9 years 600 mg, 10 years and over 1.2 g (IV or IM)."
+        },
+        {
+          "front": "When is dexamethasone given in bacterial meningitis?",
+          "back": "Before or with the first dose of antibiotics (beyond the neonatal period)."
+        },
+        {
+          "front": "CSF in bacterial meningitis?",
+          "back": "High neutrophils, high protein, low glucose (CSF:blood under about 0.4), organisms on Gram stain."
+        },
+        {
+          "front": "Clearance antibiotic for a pregnant close contact of meningococcal disease?",
+          "back": "Single IM dose of ceftriaxone."
+        },
+        {
+          "front": "Essential follow-up test after bacterial meningitis?",
+          "back": "Formal audiology (hearing) assessment."
+        },
+        {
+          "front": "When is meningococcal disease notified?",
+          "back": "Immediately on clinical suspicion, by phone to the public health unit."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "paediatric-infections--meningitis-and-meningococcal--q1",
+          "discipline": "child-health",
+          "topic": "paediatric-infections",
+          "difficulty": "core",
+          "stem": "A 2-year-old boy is brought to a rural general practice with a fever for 8 hours. His mother noticed a few purple spots on his legs 30 minutes ago. He is irritable, with cold hands and feet. HR 170/min, capillary refill 4 seconds, temperature 39.4 °C. There are several petechiae and two small purpuric lesions on his legs that do not blanch. The nearest hospital is 40 minutes away.\n\nWhat is the most appropriate immediate step?",
+          "options": [
+            "Take blood for FBC and culture and await results before treatment",
+            "Give oral amoxicillin and review in 4 hours",
+            "Give benzylpenicillin 600 mg IM or IV and arrange urgent ambulance transfer",
+            "Perform a lumbar puncture in the practice",
+            "Give paracetamol and observe whether the rash spreads"
+          ],
+          "answer": 2,
+          "explanation": "Fever with a **non-blanching petechial and purpuric rash** in an unwell child, with signs of poor perfusion (tachycardia, cold peripheries, prolonged capillary refill), is **meningococcal septicaemia until proven otherwise**. Deterioration can happen within hours.\n\nThe correct step is to give **parenteral antibiotics immediately**, before transfer and without waiting for tests: **benzylpenicillin 600 mg IV or IM for a child aged 1 to 9 years** (300 mg under 1 year, 1.2 g at 10 years and over), or ceftriaxone if available. Then arrange urgent ambulance transfer, with oxygen and IV fluids if possible.\n\nA blood culture can be taken if it causes no delay, but antibiotics must not wait.",
+          "whyWrong": [
+            "Waiting for results delays antibiotics in a rapidly fatal illness.",
+            "Oral antibiotics and delayed review are unsafe in suspected meningococcal sepsis.",
+            "",
+            "LP is contraindicated with purpura and poor perfusion, and is not done in general practice.",
+            "Observing the rash wastes critical time."
+          ],
+          "ausPearl": "Australian GPs, particularly in rural areas, are expected to carry benzylpenicillin in the doctor's bag for exactly this situation.",
+          "tags": [
+            "meningococcal",
+            "petechial-rash",
+            "benzylpenicillin"
+          ]
+        },
+        {
+          "id": "paediatric-infections--meningitis-and-meningococcal--q2",
+          "discipline": "child-health",
+          "topic": "paediatric-infections",
+          "difficulty": "core",
+          "stem": "A 6-year-old girl has had headache, fever and vomiting for 1 day. She is alert with mild neck stiffness and no rash. CSF shows: white cells 350 x 10^6/L (85% lymphocytes), protein 0.6 g/L (reference 0.15 to 0.45), glucose 3.4 mmol/L with a simultaneous blood glucose of 5.2 mmol/L. Gram stain shows no organisms.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Pneumococcal meningitis",
+            "Meningococcal meningitis",
+            "Tuberculous meningitis",
+            "Enteroviral meningitis",
+            "Cryptococcal meningitis"
+          ],
+          "answer": 3,
+          "explanation": "The CSF shows a **lymphocytic pleocytosis** with only **mildly raised protein** and a **normal glucose** (CSF to blood ratio about 0.65), with no organisms on Gram stain. This is the typical pattern of **viral meningitis**, and **enteroviruses** are the commonest cause in children, often in summer and autumn outbreaks. Confirmation is by enterovirus PCR on CSF.\n\nBacterial meningitis would show a high neutrophil count, a raised protein and **low glucose** (ratio under about 0.4). TB meningitis gives lymphocytes but a **very high protein and very low glucose**, with a subacute course. Cryptococcal meningitis occurs in immunocompromised patients.\n\nViral meningitis is managed supportively once bacterial meningitis is excluded (empirical antibiotics are often given until cultures are negative).",
+          "whyWrong": [
+            "Pneumococcal meningitis gives a neutrophilic CSF with low glucose.",
+            "Meningococcal meningitis also produces neutrophils and low glucose.",
+            "TB meningitis has a very high protein and very low glucose, usually with a subacute history.",
+            "",
+            "Cryptococcal meningitis is a disease of the immunocompromised and has a low glucose."
+          ],
+          "tags": [
+            "meningitis",
+            "csf",
+            "viral"
+          ]
+        },
+        {
+          "id": "paediatric-infections--meningitis-and-meningococcal--q3",
+          "discipline": "child-health",
+          "topic": "paediatric-infections",
+          "difficulty": "foundation",
+          "stem": "A 4-year-old boy is admitted with confirmed meningococcal meningitis. His family lives with him: his parents, a 7-year-old sister, and his mother is 20 weeks pregnant. His father asks what the family needs to do.\n\nWhich is the most appropriate clearance antibiotic for his mother?",
+          "options": [
+            "A single IM dose of ceftriaxone",
+            "Oral rifampicin for 2 days",
+            "Oral ciprofloxacin",
+            "Oral amoxicillin for 5 days",
+            "No antibiotic; vaccination alone"
+          ],
+          "answer": 0,
+          "explanation": "Household members are **close contacts** and need **clearance antibiotics** to eradicate nasopharyngeal carriage, coordinated by the public health unit, which must be notified **immediately on suspicion**.\n\nOptions in Australia are single-dose oral **ciprofloxacin**, 2 days of **rifampicin**, or a single **IM dose of ceftriaxone**. In **pregnancy**, **ceftriaxone** is preferred: rifampicin is generally avoided and ciprofloxacin is not preferred. Rifampicin also interacts with many drugs, including hormonal contraception.\n\nVaccination may also be offered depending on the serogroup, but it does not provide immediate protection and does not replace clearance antibiotics. Amoxicillin does not reliably eradicate nasopharyngeal carriage.",
+          "whyWrong": [
+            "",
+            "Rifampicin is generally avoided in pregnancy.",
+            "Ciprofloxacin is used for most contacts but is not preferred in pregnancy.",
+            "Amoxicillin does not eradicate meningococcal carriage.",
+            "Vaccination does not provide immediate protection and does not replace clearance."
+          ],
+          "ausPearl": "State public health units follow the national Series of National Guidelines (SoNG) for invasive meningococcal disease when arranging contact clearance.",
+          "tags": [
+            "meningococcal",
+            "contacts",
+            "public-health"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paediatric-infections--urinary-tract-infection",
+      "title": "Urinary tract infection in children",
+      "minutes": 15,
+      "objectives": [
+        "Recognise UTI at different ages, including the febrile infant with no localising signs",
+        "Collect urine correctly and interpret dipstick, microscopy and culture",
+        "Choose oral versus IV treatment",
+        "Decide which children need imaging and follow-up"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why UTI matters",
+          "body": "UTI is the most common serious bacterial infection in febrile infants and young children. About 1 in 10 girls and 1 in 30 boys have a UTI during childhood. In the first months of life UTIs are more common in boys (especially uncircumcised boys); after infancy they are much more common in girls.\n\nUTI matters because infants cannot tell you where the problem is, because **upper tract infection (pyelonephritis)** in young children can cause **renal scarring**, and because recurrent UTI can signal an underlying anomaly such as **vesicoureteric reflux (VUR)** or obstruction. The syllabus principle: **always collect a proper urine sample before antibiotics.**"
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "How infection happens",
+          "body": "Most UTIs are ascending infections by bowel organisms: **E. coli** causes the large majority; others include Klebsiella, Proteus (associated with stones and a raised urine pH), Enterococcus and Pseudomonas (more common with anomalies or recurrent infection).\n\n**Risk factors:** female sex beyond infancy, uncircumcised boys in the first year, **constipation**, dysfunctional voiding (infrequent voiding, holding), **VUR**, obstructive uropathy (posterior urethral valves in boys, pelviureteric junction obstruction), neurogenic bladder (spina bifida), and catheterisation.\n\nIn **VUR**, urine flows back up the ureter, taking bacteria to the kidney. It is graded I to V, often familial, and low grades frequently resolve with growth."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Presentation by age",
+          "body": "- **Infants:** fever without a focus, irritability, poor feeding, vomiting, lethargy, faltering growth, and in neonates, prolonged jaundice or sepsis.\n- **Toddlers:** fever, abdominal pain, vomiting, smelly urine, new-onset wetting.\n- **Older children:** dysuria, frequency, urgency, suprapubic pain, secondary enuresis; loin pain and high fever suggest pyelonephritis.\n\n**Features of atypical or complicated UTI:** seriously ill or septic, poor urine flow, abdominal or bladder mass, raised creatinine, failure to respond within 48 hours, or a non-E. coli organism.\n\n**Examination:** temperature, blood pressure (hypertension suggests renal scarring or disease), abdomen (palpable kidney or bladder), genitalia, spine (sacral dimple, hair tuft for occult spinal dysraphism), and lower limb neurology. Check for constipation."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Getting the urine right",
+          "body": "**Collection:**\n- **Toilet-trained children:** midstream clean catch.\n- **Non-toilet-trained:** **clean catch** (waiting with a sterile pot, sometimes using bladder stimulation techniques), **catheter specimen**, or **suprapubic aspirate (SPA)** in infants (ideally ultrasound-guided).\n- **Bag specimens are heavily contaminated.** A negative bag urine dipstick helps to rule out UTI, but a positive result must be **confirmed with a clean sample before antibiotics**. Never start antibiotics on a bag sample alone if it can be avoided.\n\n**Dipstick:** leucocyte esterase and **nitrites** (nitrite positivity needs urine to sit in the bladder for a few hours, so it is often negative in infants who void frequently). Both positive: UTI likely. Both negative: UTI unlikely in older children.\n\n**Microscopy:** white cells and bacteria.\n\n**Culture** (the diagnostic test) with commonly used thresholds for a single organism:\n- **SPA:** any growth of a uropathogen.\n- **Catheter:** 10^7 CFU/L (10^4 CFU/mL) or more.\n- **Clean catch or midstream:** 10^8 CFU/L (10^5 CFU/mL) or more.\nMixed growth suggests contamination.\n\n**Bloods:** FBC, CRP, blood culture and UEC in unwell or young infants and suspected pyelonephritis.\n\n**Imaging (based on RCH guidance; details vary by service):**\n- **Renal tract ultrasound** for infants under about 6 months with a first UTI, any child with an **atypical** UTI, and children with **recurrent** UTI. It looks for hydronephrosis, obstruction, bladder abnormalities and structural anomalies.\n- **Micturating cystourethrogram (MCUG)** is reserved for selected children, such as infants with an abnormal ultrasound, atypical or recurrent UTI, or a suspected obstruction (posterior urethral valves). It is invasive and needs catheterisation.\n- **DMSA scan** a few months after infection to look for **renal scarring** in recurrent or atypical UTI."
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment and follow-up",
+          "body": "**Who needs IV antibiotics:**\n- Infants **under about 3 months**, children who look septic or are vomiting and cannot take oral medication, and those with significant underlying renal anomalies.\n- Empirical IV therapy commonly uses **amoxicillin plus gentamicin** (particularly in young infants, covering enterococci), or a third-generation cephalosporin; switch to oral treatment when improving and guided by sensitivities.\n\n**Oral treatment** for most children who are well enough: **cefalexin**, **trimethoprim** or **amoxicillin-clavulanate**, guided by local resistance patterns and adjusted to culture results. A short course is used for cystitis in older children and a longer total course (commonly 7 to 10 days) for pyelonephritis. Follow eTG for current choices and doses.\n\n**After the infection:**\n- **Treat constipation** and encourage regular voiding and good fluid intake. These are the most effective preventive measures.\n- **Antibiotic prophylaxis is not routine.** It may be considered for recurrent UTI or high-grade reflux on specialist advice.\n- Check **blood pressure**, and refer to a paediatrician or paediatric nephrologist for recurrent UTI, abnormal imaging, renal scarring or impaired renal function.\n- Parents should know to seek early assessment and a urine test with any future unexplained fever.\n- Routine circumcision is not recommended for UTI prevention, although it reduces UTI risk in boys in the first year."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- \"An 8-month-old with fever for 2 days and no focus\": the next step is a **catheter or clean-catch urine**, not a bag specimen, and not antibiotics first.\n- A positive bag urine: the answer is to **collect a proper sample** before treating.\n- Infant under 3 months with a febrile UTI: **admit for IV antibiotics** and a septic screen as appropriate.\n- A boy with a first UTI, a poor urinary stream and a palpable bladder: think **posterior urethral valves**; ultrasound and MCUG.\n- Recurrent UTI in a school-age girl with holding behaviour and hard stools: **treat constipation and voiding dysfunction**.\n- Culture thresholds: SPA any growth; catheter 10^7 CFU/L; clean catch 10^8 CFU/L."
+        }
+      ],
+      "keyPoints": [
+        "UTI is the most common serious bacterial infection in febrile infants and young children.",
+        "Collect a clean-catch, catheter or suprapubic sample before antibiotics; bag urine only rules out.",
+        "Nitrites are often negative in infants; culture is the diagnostic test.",
+        "Culture thresholds: SPA any growth; catheter 10^7 CFU/L; clean catch 10^8 CFU/L.",
+        "IV antibiotics under about 3 months or if septic or vomiting; oral cefalexin, trimethoprim or amoxicillin-clavulanate otherwise.",
+        "Ultrasound for infants under 6 months, atypical or recurrent UTI; MCUG and DMSA selectively.",
+        "Treat constipation and voiding dysfunction; prophylaxis is not routine."
+      ],
+      "redFlags": [
+        "Febrile UTI in an infant under 3 months",
+        "Septic appearance or persistent vomiting",
+        "Poor urinary stream or palpable bladder in a boy (posterior urethral valves)",
+        "Abdominal mass or raised creatinine",
+        "Hypertension",
+        "No response to antibiotics within 48 hours"
+      ],
+      "contrast": [
+        {
+          "aspect": "Urine collection",
+          "india": "Bag specimens are often used to diagnose UTI.",
+          "australia": "Bag urine only helps rule out UTI; diagnosis needs clean catch, catheter or suprapubic aspirate before antibiotics."
+        },
+        {
+          "aspect": "Imaging after first UTI",
+          "india": "Often routine ultrasound plus MCUG for all.",
+          "australia": "Selective: ultrasound for infants under 6 months, atypical or recurrent UTI; MCUG and DMSA only in selected children."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Most common organism in childhood UTI?",
+          "back": "E. coli."
+        },
+        {
+          "front": "What is a bag urine specimen good for?",
+          "back": "Only ruling out UTI if negative; positives must be confirmed with a clean sample."
+        },
+        {
+          "front": "Significant growth on a catheter urine specimen?",
+          "back": "10^7 CFU/L (10^4 CFU/mL) or more of a single organism."
+        },
+        {
+          "front": "Significant growth on a suprapubic aspirate?",
+          "back": "Any growth of a uropathogen."
+        },
+        {
+          "front": "Which children need a renal ultrasound after UTI (RCH-based)?",
+          "back": "Infants under about 6 months, atypical UTI, recurrent UTI."
+        },
+        {
+          "front": "Most effective prevention of recurrent UTI in children?",
+          "back": "Treat constipation and voiding dysfunction; regular voiding and fluids."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "paediatric-infections--urinary-tract-infection--q1",
+          "discipline": "child-health",
+          "topic": "paediatric-infections",
+          "difficulty": "core",
+          "stem": "An 8-month-old girl has had a fever of 39.5 °C for 2 days without cough, coryza or diarrhoea. She is feeding less but is alert and well perfused. Examination reveals no focus. She is fully immunised. A urine bag was applied in triage but she has not yet voided.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Collect urine by clean catch or catheter for microscopy and culture",
+            "Wait for the bag urine and start antibiotics if the dipstick is positive",
+            "Start oral amoxicillin for presumed viral illness with secondary infection",
+            "Arrange a chest X-ray",
+            "Arrange a renal tract ultrasound"
+          ],
+          "answer": 0,
+          "explanation": "In a febrile infant with **no focus**, the most likely serious bacterial infection is a **UTI**. The key step is to collect a **reliable urine sample before antibiotics**: a **clean catch** or **catheter specimen** (or suprapubic aspirate).\n\n**Bag specimens have high contamination rates.** A negative bag dipstick can help rule out UTI, but a positive bag result cannot be used to diagnose it, and starting antibiotics on it leads to over-diagnosis, unnecessary imaging, and a missed chance to get a clean culture.\n\nThe urine should go for microscopy and **culture**, which is the diagnostic test. If a UTI is confirmed in a well 8-month-old, oral antibiotics are usually appropriate.",
+          "whyWrong": [
+            "",
+            "A positive bag dipstick cannot confirm UTI because of contamination.",
+            "Antibiotics without a proper urine sample make diagnosis impossible later.",
+            "There are no respiratory signs to justify a chest X-ray.",
+            "Imaging comes after UTI is confirmed, and depends on age and course."
+          ],
+          "ausPearl": "RCH Melbourne's UTI guideline explicitly discourages using bag urine to diagnose UTI; many EDs use bladder stimulation to obtain clean-catch samples in infants.",
+          "tags": [
+            "uti",
+            "urine-collection",
+            "fever-without-source"
+          ]
+        },
+        {
+          "id": "paediatric-infections--urinary-tract-infection--q2",
+          "discipline": "child-health",
+          "topic": "paediatric-infections",
+          "difficulty": "exam",
+          "stem": "A 5-week-old boy presents with fever of 38.6 °C, vomiting and poor feeding. A catheter urine shows leucocytes 3+, nitrites negative, and many white cells and Gram-negative bacilli on microscopy. He is alert but sleepy. HR 175/min, capillary refill 2 seconds.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Oral cefalexin and review in 24 hours",
+            "Oral trimethoprim with urine culture follow-up",
+            "Admit for blood culture and IV antibiotics such as amoxicillin plus gentamicin, and consider LP",
+            "Repeat the urine test tomorrow, as negative nitrites make UTI unlikely",
+            "Renal ultrasound first to guide treatment"
+          ],
+          "answer": 2,
+          "explanation": "This **5-week-old** has a **febrile UTI** (pyelonephritis until proven otherwise). Infants **under about 3 months** have a significant risk of **bacteraemia** with UTI and can deteriorate quickly, and they may not absorb oral antibiotics reliably while vomiting.\n\nHe needs **admission**, **blood culture** (and FBC, CRP, UEC), consideration of **lumbar puncture** under the febrile infant pathway, and **IV antibiotics**, for example **amoxicillin plus gentamicin** (amoxicillin covers enterococci), adjusted to cultures. He should also have a **renal tract ultrasound**, as he is under 6 months.\n\n**Negative nitrites are common in infants** because they void frequently, so they do not exclude UTI.",
+          "whyWrong": [
+            "Oral treatment and outpatient review are unsafe in a febrile, vomiting infant under 3 months.",
+            "Oral trimethoprim is inappropriate for this age and severity.",
+            "",
+            "Nitrites are often negative in infants; the microscopy strongly supports UTI.",
+            "Ultrasound is indicated but must not delay treatment."
+          ],
+          "tags": [
+            "uti",
+            "infant",
+            "iv-antibiotics"
+          ]
+        },
+        {
+          "id": "paediatric-infections--urinary-tract-infection--q3",
+          "discipline": "child-health",
+          "topic": "paediatric-infections",
+          "difficulty": "core",
+          "stem": "A 6-year-old girl has had three culture-proven UTIs in 12 months, each treated successfully with oral antibiotics. Between infections she has daytime wetting, holds on until the last minute, and opens her bowels every 4 to 5 days with hard stools. Blood pressure and examination, including the spine, are normal. Renal ultrasound is normal.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Long-term antibiotic prophylaxis alone",
+            "Micturating cystourethrogram",
+            "Cystoscopy",
+            "Daily cranberry products as the main intervention",
+            "Treat constipation and start a regular timed voiding program"
+          ],
+          "answer": 4,
+          "explanation": "Recurrent UTI in a school-age girl with **constipation** and **dysfunctional voiding** (holding, urgency, daytime wetting) is very common and usually has no structural cause, especially with a normal ultrasound and examination.\n\nThe most effective intervention is to **treat the constipation** (for example with an osmotic laxative such as macrogol, plus diet and toilet routine) and establish **regular timed voiding**, good fluid intake and relaxed toileting posture. Constipation compresses the bladder, causes incomplete emptying and increases perineal bacterial load.\n\nProphylactic antibiotics are not routine and are considered by specialists only if infections continue despite these measures. MCUG is not indicated with a normal ultrasound and a clear functional cause.",
+          "whyWrong": [
+            "Prophylaxis alone ignores the cause and adds resistance risk; it is not routine.",
+            "MCUG is invasive and not indicated with a normal ultrasound and an obvious functional cause.",
+            "Cystoscopy is not part of routine assessment of recurrent paediatric UTI.",
+            "Cranberry products have weak evidence and do not address the constipation and voiding problem.",
+            ""
+          ],
+          "tags": [
+            "uti",
+            "constipation",
+            "voiding-dysfunction"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paediatric-infections--bronchiolitis-croup-pertussis",
+      "title": "Bronchiolitis, croup and whooping cough",
+      "minutes": 18,
+      "objectives": [
+        "Diagnose bronchiolitis clinically and manage it with evidence-based supportive care",
+        "Grade croup severity and treat with corticosteroids and nebulised adrenaline",
+        "Distinguish croup from epiglottitis, bacterial tracheitis, foreign body and anaphylaxis",
+        "Recognise pertussis in infants and manage treatment, exclusion and prevention"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Three infant and toddler respiratory classics",
+          "body": "**Bronchiolitis** is the most common reason infants are admitted to hospital in Australia, peaking in autumn and winter. **Croup** is the commonest cause of acute stridor in young children. **Pertussis** (whooping cough) still causes infant deaths in Australia, almost all in babies too young to be fully vaccinated.\n\nAll three are tested because Indian practice often differs: in Australia bronchiolitis is managed **without** salbutamol, steroids or antibiotics; croup is treated with a **single dose of oral corticosteroid** in almost every child; and pertussis prevention relies on **vaccination in every pregnancy**.\n\nKey guidance: the **Australasian bronchiolitis guideline** (developed by the PREDICT network), RCH Melbourne CPGs, and the **Australian Immunisation Handbook**."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "What is going on in the airway",
+          "body": "**Bronchiolitis:** a viral lower respiratory infection of infants, most often **respiratory syncytial virus (RSV)**, also rhinovirus, human metapneumovirus, parainfluenza and others. Inflammation, oedema, mucus and sloughed epithelium obstruct the small bronchioles, causing air trapping, patchy atelectasis and hypoxia. Because the problem is **mechanical obstruction from debris and oedema**, not bronchospasm, bronchodilators and steroids do not help.\n\n**Croup (laryngotracheobronchitis):** a viral infection (most often **parainfluenza**) that causes subglottic oedema. The subglottis is the narrowest part of a child's airway, and a small amount of swelling greatly increases resistance (resistance rises with the fourth power of the fall in radius). Steroids reduce the oedema over hours; adrenaline vasoconstricts the mucosa within minutes.\n\n**Pertussis:** **Bordetella pertussis** attaches to respiratory cilia and releases toxins that cause ciliary paralysis and a prolonged, paroxysmal cough. Immunity after infection or vaccination wanes, so adolescents and adults become a reservoir that infects infants."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "How each presents",
+          "body": "**Bronchiolitis**\n- Infants **under 12 months** (most severe under 6 months), with 1 to 3 days of coryza, then cough, tachypnoea, recession, **widespread fine inspiratory crackles** and/or wheeze, and difficulty feeding.\n- Symptoms are typically worst around **day 2 to 3** of respiratory symptoms, and the cough may last up to 4 weeks.\n- **Apnoea** may be the first sign in young infants (under about 2 months) and in ex-preterm babies.\n- **Risk factors for severe disease:** age under 10 weeks, prematurity, chronic lung disease, congenital heart disease, neuromuscular disease, immunodeficiency, **Aboriginal and Torres Strait Islander** background, and tobacco smoke exposure.\n\n**Croup**\n- Children aged **6 months to 3 years** (can occur up to about 6), with a coryzal prodrome, then a **barking (seal-like) cough**, hoarse voice and **inspiratory stridor**, typically worse at night. Usually a low-grade fever and a child who does not look toxic.\n- **Severity:**\n  - **Mild:** barking cough, no stridor at rest, minimal or no recession.\n  - **Moderate:** stridor at rest, some recession, but not distressed.\n  - **Severe:** stridor at rest with marked recession, agitation or lethargy, tachycardia; **hypoxia is a late and ominous sign**.\n\n**Pertussis**\n- **Catarrhal stage** (1 to 2 weeks): coryza and mild cough, the most infectious phase.\n- **Paroxysmal stage** (weeks): bouts of coughing with an **inspiratory whoop**, **post-tussive vomiting**, and a child who looks well between paroxysms.\n- **Infants** often do not whoop: they present with **apnoea**, cyanosis, choking spells, feeding difficulty and seizures. Complications include pneumonia, pulmonary hypertension and encephalopathy.\n- **Older children and adults:** a cough lasting weeks, often at night."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Tests: mostly none",
+          "body": "**Bronchiolitis:** a **clinical diagnosis**. The guideline recommends **against routine chest X-ray, blood tests and viral testing** in typical bronchiolitis, because they rarely change management and lead to unnecessary antibiotics. Pulse oximetry is used to guide oxygen. Consider a urine test only in young febrile infants where UTI is a concern.\n\n**Croup:** a **clinical diagnosis**. Do not X-ray, do not take bloods, and avoid anything that upsets the child (including examining the throat if epiglottitis is possible), because agitation worsens obstruction.\n\n**Pertussis:** **PCR on a nasopharyngeal swab** (most useful within the first 3 weeks of cough); serology later in the illness in older patients. FBC may show a marked **lymphocytosis** in infants, and a very high white count is associated with severe disease."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Stridor and wheeze look-alikes",
+          "body": "| Condition | Age | Key features |\n|---|---|---|\n| **Croup** | 6 months to 3 years | Barking cough, hoarse, stridor, not toxic, coryza |\n| **Epiglottitis** | Any child, especially unimmunised | Sudden high fever, toxic, **drooling**, sitting forward (tripod), muffled voice, **no bark**; Hib, now rare |\n| **Bacterial tracheitis** | Toddlers | Croup that becomes toxic with high fever, poor response to adrenaline |\n| **Inhaled foreign body** | Toddlers | Sudden choking episode, unilateral wheeze or reduced breath sounds, no fever |\n| **Anaphylaxis** | Any | Sudden stridor after an allergen, urticaria, angioedema, hypotension |\n| **Retropharyngeal abscess** | Under 5 | Fever, neck stiffness or reduced neck movement, drooling |\n| **Bronchiolitis** | Under 12 months | Coryza, crackles and wheeze, feeding difficulty |\n| **Viral-induced wheeze or asthma** | Usually over 12 months | Recurrent wheeze, responds to salbutamol |\n\nIn suspected **epiglottitis**, keep the child calm with the parent, do not examine the throat or cannulate, give oxygen if tolerated, and call senior anaesthetic and ENT help for a controlled airway."
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment",
+          "body": "**Bronchiolitis: supportive care**\n- **Oxygen** if SpO2 stays **below 90 to 92%** (the Australasian guideline uses 90%); aim for the target in the local guideline.\n- **Hydration and feeding support:** if the infant is taking less than about half their usual feeds, give fluids by **nasogastric tube** (preferred) or IV (isotonic fluids).\n- **High-flow nasal cannula** for infants failing standard oxygen; CPAP and ICU for severe disease or recurrent apnoea.\n- **Do not use:** salbutamol, adrenaline, corticosteroids, hypertonic saline, antibiotics, or chest physiotherapy. None improve outcomes in typical bronchiolitis.\n- **Admit** for: persistent low saturations, significant work of breathing, poor feeding (under 50%) or dehydration, **apnoea**, and a lower threshold for infants under 10 weeks or with risk factors.\n- **Discharge** once feeding adequately and saturations are stable in air; warn that cough may last weeks.\n- **Prevention:** hand hygiene, avoid smoke exposure. Australia now has **maternal RSV vaccination** in late pregnancy funded on the National Immunisation Program (from 2025), and **nirsevimab** (a long-acting monoclonal antibody) for infants through state and territory programs. Check the current Handbook for eligibility and timing.\n\n**Croup**\n- **Oral dexamethasone 0.15 mg/kg** (or **prednisolone 1 mg/kg**) for **all severities**, including mild croup. It reduces return visits and admissions. Higher doses are used for severe croup per local guidelines.\n- **Nebulised adrenaline** for **severe croup** (stridor at rest with significant recession or distress): commonly **0.5 mL/kg of 1:1000 adrenaline, up to 5 mL, undiluted**. Its effect lasts about 2 hours, so observe for **at least 3 to 4 hours** afterwards for rebound, and give a corticosteroid as well.\n- **Oxygen** if hypoxic; senior help and airway expertise for severe or deteriorating croup.\n- Mild croup can go home after a steroid with advice to return if there is stridor at rest, difficulty breathing, drooling or the child is very unwell. **Humidified air** is not effective.\n\n**Pertussis**\n- **Azithromycin** is the usual first choice (preferred in infants under 1 month because erythromycin is linked to infantile pyloric stenosis); clarithromycin or trimethoprim-sulfamethoxazole are alternatives in older children. Antibiotics started in the first 3 weeks of cough mainly reduce **transmission**; they do little for the cough once paroxysms have started.\n- **Admit young infants**, especially under 6 months, and those with apnoea or cyanosis.\n- **Notifiable.** Children are **excluded from childcare and school** until they have had **5 days of an appropriate antibiotic** (or 21 days from cough onset if untreated).\n- **Contacts:** the public health unit advises prophylaxis for household contacts when there is a vulnerable person, such as an infant under 6 months or a woman in late pregnancy.\n- **Prevention:** **dTpa in every pregnancy, ideally between 20 and 32 weeks** (antibodies cross the placenta and protect the newborn); infant doses at **2 (from 6 weeks), 4 and 6 months**, boosters at 18 months and 4 years, and an adolescent dose in early high school. \"Cocooning\" by vaccinating adult carers is also recommended."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- A 4-month-old with coryza, crackles, wheeze and SpO2 of 93% who is feeding well: **supportive care at home with safety-netting**. Any option with salbutamol, steroids or antibiotics is wrong.\n- Bronchiolitis with feeding under 50%: **nasogastric feeds**, not IV as first choice.\n- Croup of any severity: **oral dexamethasone 0.15 mg/kg**. Stridor at rest with marked recession: add **nebulised adrenaline**, then observe.\n- Drooling, toxic, no barking cough, sitting forward: **epiglottitis**, do not examine the throat.\n- A young infant with apnoea and a cough for 2 weeks, lymphocytosis: **pertussis**; azithromycin, admit, notify.\n- Maternal dTpa timing: **each pregnancy, 20 to 32 weeks**."
+        }
+      ],
+      "keyPoints": [
+        "Bronchiolitis is a clinical diagnosis in infants under 12 months; RSV is the main cause.",
+        "Bronchiolitis care is supportive: oxygen if SpO2 below 90 to 92%, NG feeds if intake under 50%; no salbutamol, steroids or antibiotics.",
+        "Apnoea is a key danger sign in young and ex-preterm infants.",
+        "Croup: oral dexamethasone 0.15 mg/kg (or prednisolone) for all severities.",
+        "Severe croup: nebulised adrenaline 1:1000, 0.5 mL/kg up to 5 mL; observe 3 to 4 hours.",
+        "Epiglottitis: toxic, drooling, no bark; do not examine the throat.",
+        "Pertussis: azithromycin, exclude until 5 days of antibiotics, notifiable; dTpa in every pregnancy at 20 to 32 weeks."
+      ],
+      "redFlags": [
+        "Apnoea or cyanotic episodes in an infant",
+        "Stridor at rest with marked recession, agitation or lethargy",
+        "Drooling, toxic appearance and inability to swallow (epiglottitis)",
+        "Feeding less than half of normal, or signs of dehydration",
+        "Hypoxia in croup (late sign)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Bronchiolitis treatment",
+          "india": "Nebulised salbutamol, steroids and antibiotics are commonly used.",
+          "australia": "Supportive care only: oxygen and feeding support; no salbutamol, steroids, hypertonic saline or antibiotics."
+        },
+        {
+          "aspect": "Croup treatment",
+          "india": "Steroids often reserved for moderate to severe cases; nebulised budesonide sometimes used.",
+          "australia": "Oral dexamethasone 0.15 mg/kg (or prednisolone) for every child with croup, including mild."
+        },
+        {
+          "aspect": "Pertussis prevention",
+          "india": "Primary series in infancy; maternal Tdap not consistently given.",
+          "australia": "dTpa in every pregnancy at 20 to 32 weeks, plus infant doses at 2, 4 and 6 months and boosters."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Most common cause of bronchiolitis?",
+          "back": "Respiratory syncytial virus (RSV)."
+        },
+        {
+          "front": "SpO2 threshold for oxygen in bronchiolitis (Australasian guideline)?",
+          "back": "Persistently below 90% (some units use 92%)."
+        },
+        {
+          "front": "Dose of oral dexamethasone for croup?",
+          "back": "0.15 mg/kg (prednisolone 1 mg/kg is an alternative)."
+        },
+        {
+          "front": "Nebulised adrenaline dose for severe croup?",
+          "back": "0.5 mL/kg of 1:1000 adrenaline, maximum 5 mL, undiluted; observe 3 to 4 hours."
+        },
+        {
+          "front": "First-line antibiotic for pertussis in a young infant?",
+          "back": "Azithromycin."
+        },
+        {
+          "front": "When is dTpa given in pregnancy?",
+          "back": "Every pregnancy, ideally at 20 to 32 weeks."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "paediatric-infections--bronchiolitis-croup-pertussis--q1",
+          "discipline": "child-health",
+          "topic": "paediatric-infections",
+          "difficulty": "core",
+          "stem": "A 4-month-old boy, born at term and previously well, has had a runny nose for 2 days and now a cough and fast breathing. He is taking about 80% of his usual feeds with normal wet nappies. RR 52/min, mild subcostal recession, SpO2 95% in air, temperature 37.8 °C. There are widespread fine crackles and some expiratory wheeze.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Trial of salbutamol via spacer",
+            "Oral prednisolone for 3 days",
+            "Chest X-ray and oral amoxicillin",
+            "Supportive care at home with advice on feeding and when to return",
+            "Admission for nasogastric fluids"
+          ],
+          "answer": 3,
+          "explanation": "This is **mild bronchiolitis**: a young infant with coryza, then cough, tachypnoea, crackles and wheeze, with **good saturations (95%)** and **adequate feeding (over 50%)**. He has no risk factors for severe disease.\n\nManagement is **supportive care at home**: small frequent feeds, nasal saline if needed, and clear **safety-netting**. Parents should return if he has pauses in breathing, turns blue, works harder to breathe, feeds less than half his usual amount or has fewer wet nappies. Symptoms often peak around day 2 to 3 of respiratory illness and the cough can last up to 4 weeks.\n\nThe Australasian guideline recommends **against** salbutamol, corticosteroids, antibiotics and routine chest X-ray in bronchiolitis.",
+          "whyWrong": [
+            "Bronchodilators do not help bronchiolitis, which is obstruction by debris and oedema rather than bronchospasm.",
+            "Corticosteroids do not improve outcomes in bronchiolitis.",
+            "Routine X-ray is not recommended and antibiotics are not indicated for a viral illness.",
+            "",
+            "He is feeding over 50% with normal output, so NG fluids are not needed."
+          ],
+          "ausPearl": "The PREDICT network's Australasian bronchiolitis guideline has driven major reductions in unnecessary tests and treatments in Australian EDs.",
+          "tags": [
+            "bronchiolitis",
+            "supportive-care",
+            "predict"
+          ]
+        },
+        {
+          "id": "paediatric-infections--bronchiolitis-croup-pertussis--q2",
+          "discipline": "child-health",
+          "topic": "paediatric-infections",
+          "difficulty": "core",
+          "stem": "A 2-year-old girl is brought to the emergency department at 2 am with a barking cough and noisy breathing that began tonight after a day of runny nose. She has a hoarse cry and low-grade fever. At rest there is soft inspiratory stridor and mild subcostal recession. She is alert and interactive. SpO2 98% in air.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Oral dexamethasone 0.15 mg/kg",
+            "Nebulised salbutamol",
+            "Oral amoxicillin",
+            "Lateral neck X-ray",
+            "Humidified air in a mist tent"
+          ],
+          "answer": 0,
+          "explanation": "This is **croup**: a toddler with a coryzal prodrome, then a **barking cough, hoarse voice and inspiratory stridor**, worse at night. Soft stridor at rest with mild recession in an alert child is **moderate** croup.\n\nEvery child with croup, **including mild croup**, should receive a **single dose of oral corticosteroid**: **dexamethasone 0.15 mg/kg** (or prednisolone 1 mg/kg). It reduces subglottic oedema over a few hours and cuts return visits and admissions. She should be observed and can usually go home once there is no stridor at rest.\n\n**Nebulised adrenaline** is added for **severe** croup (stridor at rest with marked recession, agitation or lethargy), followed by at least 3 to 4 hours of observation.",
+          "whyWrong": [
+            "",
+            "Croup is subglottic oedema, not bronchospasm; salbutamol does not help.",
+            "Croup is viral; antibiotics have no role.",
+            "Croup is a clinical diagnosis; X-rays add nothing and upset the child.",
+            "Humidified air has not been shown to help croup."
+          ],
+          "tags": [
+            "croup",
+            "dexamethasone",
+            "stridor"
+          ]
+        },
+        {
+          "id": "paediatric-infections--bronchiolitis-croup-pertussis--q3",
+          "discipline": "child-health",
+          "topic": "paediatric-infections",
+          "difficulty": "exam",
+          "stem": "A 7-week-old girl is admitted after two episodes at home of going blue and stopping breathing after coughing. She has had a cough for 10 days, which comes in bouts followed by vomiting. She is afebrile and appears well between episodes. Her 14-year-old brother has had a cough for 4 weeks. Her mother did not receive any vaccines in pregnancy. White cell count is 28 x 10^9/L with 75% lymphocytes.\n\nWhat is the most appropriate treatment?",
+          "options": [
+            "Oral amoxicillin",
+            "Oral azithromycin",
+            "Nebulised salbutamol",
+            "Oral erythromycin",
+            "IV ceftriaxone"
+          ],
+          "answer": 1,
+          "explanation": "This is **pertussis** in a young infant: paroxysmal cough with **post-tussive vomiting**, **apnoea and cyanosis** (infants often do not whoop), a marked **lymphocytosis**, a likely source in an **older sibling with a prolonged cough**, and **no maternal dTpa** in pregnancy.\n\nThe treatment of choice in infants is **azithromycin**. Erythromycin is avoided in infants under 1 month and is less favoured in young infants because it is associated with **infantile hypertrophic pyloric stenosis**. Young infants with apnoea need admission and monitoring. Confirm with a **nasopharyngeal PCR**, **notify** the public health unit, and arrange **prophylaxis for household contacts**.\n\nThe main lesson for the family: **dTpa in every pregnancy** protects newborns.",
+          "whyWrong": [
+            "Amoxicillin does not treat Bordetella pertussis.",
+            "",
+            "Salbutamol does not help pertussis paroxysms.",
+            "Erythromycin is linked to pyloric stenosis in young infants; azithromycin is preferred.",
+            "Ceftriaxone is not the treatment for pertussis."
+          ],
+          "ausPearl": "Australia's pertussis epidemics in infants led to funded dTpa in every pregnancy; most infant deaths occur in babies of unvaccinated mothers.",
+          "tags": [
+            "pertussis",
+            "azithromycin",
+            "apnoea"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paediatric-infections--ear-throat-and-pneumonia",
+      "title": "Otitis media, sore throat and pneumonia",
+      "minutes": 18,
+      "objectives": [
+        "Diagnose acute otitis media and decide who needs antibiotics",
+        "Manage otitis media with effusion and chronic suppurative otitis media, including in Aboriginal children",
+        "Apply Australian sore throat guidance, including when penicillin is needed to prevent rheumatic fever",
+        "Diagnose and treat community-acquired pneumonia in children and recognise complications"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The everyday infections",
+          "body": "Ear infections, sore throats and chest infections fill paediatric GP appointments. Most are viral or self-limiting, and Australia has national efforts to **reduce unnecessary antibiotic use**. The AMC tests whether you know **who does need antibiotics**, which drug, and which complications are dangerous.\n\nThe biggest Australia-specific point: in **Aboriginal and Torres Strait Islander children**, especially in remote communities, otitis media starts earlier, is more severe and persistent, and perforation and **chronic suppurative otitis media (CSOM)** are common, with lasting hearing loss and effects on language and schooling. Group A streptococcal sore throat and skin infection drive **acute rheumatic fever**. Management thresholds are therefore different for these children."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why children get these infections",
+          "body": "- **Otitis media:** children's Eustachian tubes are shorter, more horizontal and less effective at clearing fluid. A viral upper respiratory infection causes tubal dysfunction, middle ear fluid, and secondary bacterial infection (**Streptococcus pneumoniae**, **non-typeable Haemophilus influenzae**, **Moraxella catarrhalis**). Risk factors: daycare, smoke exposure, dummy use, bottle feeding lying down, crowded housing, and craniofacial conditions (cleft palate, trisomy 21).\n- **Sore throat:** most is viral (adenovirus, EBV and others). **Group A streptococcus (GAS)** causes a minority, more common in children aged 5 to 15. Its importance is the immune sequelae: **acute rheumatic fever** and **post-streptococcal glomerulonephritis**.\n- **Pneumonia:** viruses cause most pneumonia in children under 5; **S. pneumoniae** is the most important bacterial cause at all ages; **Mycoplasma pneumoniae** is common in school-aged children; **Staphylococcus aureus** (including MRSA) causes severe necrotising pneumonia and empyema, often after influenza."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Recognising each",
+          "body": "**Acute otitis media (AOM):** rapid onset of ear pain (tugging, irritability, poor sleep in infants), fever, and on otoscopy a **bulging, red, opaque tympanic membrane** with reduced mobility, or acute discharge through a perforation. A pink drum in a crying child alone is not AOM.\n\n**Otitis media with effusion (OME, glue ear):** fluid behind an intact drum **without acute inflammation**: dull, retracted drum, air-fluid level or bubbles. Presents with **hearing loss**, speech delay, inattention or behaviour problems.\n\n**Chronic suppurative otitis media (CSOM):** a **perforated drum with discharge for 2 weeks or more**. Painless, with conductive hearing loss.\n\n**Complications:** **mastoiditis** (post-auricular swelling and tenderness, the ear pushed forward and out), facial nerve palsy, meningitis, intracranial abscess, cholesteatoma.\n\n**Sore throat:** fever, tonsillar exudate, tender anterior cervical nodes and absence of cough favour GAS, but no clinical score reliably separates viral from bacterial in children. **Scarlet fever** (GAS): sandpaper rash, strawberry tongue, flushed cheeks with circumoral pallor. **Infectious mononucleosis** (EBV): adolescents, exudative tonsillitis, posterior cervical nodes, splenomegaly, fatigue, and a widespread rash if given amoxicillin. **Peritonsillar abscess (quinsy):** unilateral swelling, **uvula deviated** away, trismus, muffled \"hot potato\" voice, drooling.\n\n**Pneumonia:** fever, cough, **tachypnoea** (the most useful single sign), increased work of breathing, reduced breath sounds, crackles or bronchial breathing. Young children may present with abdominal pain (lower lobe pneumonia) or neck stiffness (upper lobe). **Severe:** hypoxia, grunting, marked recession, inability to feed, drowsiness."
+        },
+        {
+          "kind": "investigations",
+          "heading": "When tests help",
+          "body": "- **AOM, OME:** diagnosis is clinical by otoscopy; **tympanometry** and **audiology** for suspected hearing loss or persistent effusion. Swab discharge in CSOM that is not responding.\n- **Sore throat:** a **throat swab** for culture (or rapid antigen test) is useful in children at **high risk of acute rheumatic fever** and in scarlet fever. EBV serology or a monospot test if glandular fever is suspected.\n- **Pneumonia:** mild pneumonia managed at home needs **no chest X-ray or blood tests**. X-ray is useful if the child is admitted, severely unwell, not improving after 48 hours, or a complication (effusion, empyema) is suspected. In admitted children: FBC, CRP, blood culture, UEC (watch for hyponatraemia), and respiratory viral PCR."
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment",
+          "body": "**Acute otitis media**\n- **Analgesia** (paracetamol or ibuprofen) for all. Most AOM resolves without antibiotics within a few days.\n- A **watch-and-wait approach** (review in 24 to 48 hours, or a delayed prescription) suits most well children over 6 months.\n- **Antibiotics** are recommended for infants **under 6 months**, children who are **systemically unwell**, those with **perforation and discharge**, and children at **high risk of complications, including Aboriginal and Torres Strait Islander children** (who should be treated promptly, with follow-up to check for persistent effusion or perforation). They are often used for bilateral AOM in children under 2 years.\n- First-line: **oral amoxicillin, 5 days** (longer in some high-risk children); follow eTG for dose and alternatives in penicillin allergy.\n- **Mastoiditis:** admit for IV antibiotics and ENT review; imaging if complications are suspected.\n\n**Otitis media with effusion**\n- Most resolves within 3 months. **Watchful waiting** with a hearing test.\n- **Refer to ENT** for **grommets (ventilation tubes)** if bilateral effusion persists for about 3 months or more with hearing loss, or earlier with speech or developmental concerns. Antibiotics, decongestants and antihistamines do not help.\n\n**Chronic suppurative otitis media**\n- **Ear cleaning (dry mopping or aural toilet)** plus **topical ciprofloxacin ear drops**, usually for several weeks until dry. Oral antibiotics alone are not effective. Refer to ENT if persistent; a dry perforation may be repaired later. Hearing assessment and school support matter.\n\n**Sore throat (eTG approach)**\n- Most children need **analgesia only**; antibiotics shorten symptoms by less than a day and do not prevent quinsy meaningfully in low-risk children.\n- **Treat with penicillin** children with suspected or confirmed GAS who are at **high risk of acute rheumatic fever**: **Aboriginal and Torres Strait Islander children living in rural or remote areas** (and others in high-incidence settings), Māori and Pacific Islander children, and anyone with previous ARF or RHD. Also treat **scarlet fever** and severe tonsillitis.\n- Regimen: **phenoxymethylpenicillin for 10 days** (the full course is needed to eradicate GAS and prevent ARF), or a **single IM dose of benzathine benzylpenicillin** when adherence is a concern. Avoid amoxicillin if EBV is possible (rash).\n- **Quinsy:** ENT drainage and IV antibiotics. **Tonsillectomy** is considered for recurrent severe tonsillitis or obstructive sleep apnoea.\n\n**Community-acquired pneumonia**\n- **Mild:** oral **amoxicillin** (high dose) at home, with review. Short courses are now favoured for uncomplicated pneumonia; check eTG for current dose and duration. In school-aged children with a picture suggesting Mycoplasma, a macrolide can be used (or added if not improving).\n- **Moderate or severe:** admit; oxygen for SpO2 below about 92%; **IV benzylpenicillin** (or ampicillin); broaden (for example ceftriaxone) for very severe disease, and add cover for **S. aureus** (flucloxacillin, or vancomycin for MRSA risk) if the child is very unwell, has a necrotising picture or follows influenza.\n- **Parapneumonic effusion and empyema:** persistent fever despite antibiotics, dullness to percussion, reduced breath sounds; confirm with ultrasound and refer for drainage.\n- **Prevention:** pneumococcal and influenza vaccination (annual influenza vaccine is funded for children from 6 months to under 5 years, and for Aboriginal and Torres Strait Islander people and medical risk groups)."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- A well 3-year-old with a red bulging drum and 1 day of pain: **analgesia and review in 24 to 48 hours**. An Aboriginal child from a remote community with the same picture: **amoxicillin**.\n- A child with hearing loss and a dull retracted drum for 4 months: OME; **audiology and ENT for grommets**, not antibiotics.\n- Painless discharging ear with a perforation for 3 weeks: CSOM; **dry mopping and topical ciprofloxacin**.\n- Sore throat in a 9-year-old Aboriginal girl in a remote community: **phenoxymethylpenicillin 10 days or IM benzathine penicillin**, to prevent rheumatic fever.\n- Teenager with exudative tonsillitis, posterior nodes and a rash after amoxicillin: glandular fever.\n- Pneumonia with persistent fever after 48 hours of antibiotics and a dull chest: **empyema**."
+        }
+      ],
+      "keyPoints": [
+        "AOM: bulging, red, opaque drum; analgesia for all, watch-and-wait for most children over 6 months.",
+        "Antibiotics (amoxicillin 5 days) for AOM under 6 months, unwell, perforated, or high risk including Aboriginal and Torres Strait Islander children.",
+        "OME: hearing test; grommets if bilateral and persistent with hearing loss; no antibiotics.",
+        "CSOM: dry mopping plus topical ciprofloxacin drops.",
+        "Sore throat: penicillin for 10 days (or IM benzathine) in children at high risk of acute rheumatic fever and in scarlet fever.",
+        "Tachypnoea is the most useful sign of pneumonia; mild pneumonia needs no X-ray.",
+        "Pneumonia: oral amoxicillin for mild; IV benzylpenicillin if admitted; add staphylococcal cover if severe or post-influenza."
+      ],
+      "redFlags": [
+        "Post-auricular swelling with a protruding ear (mastoiditis)",
+        "Facial nerve palsy, severe headache or drowsiness with ear infection",
+        "Drooling, trismus or uvular deviation (quinsy)",
+        "Hypoxia, grunting or inability to feed in pneumonia",
+        "Persistent fever and dull chest despite antibiotics (empyema)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Antibiotics for sore throat",
+          "india": "Often prescribed routinely, commonly amoxicillin or azithromycin.",
+          "australia": "Analgesia only for most children; penicillin for 10 days (or IM benzathine) for those at high risk of rheumatic fever."
+        },
+        {
+          "aspect": "Ear disease burden",
+          "india": "CSOM is common nationally and managed as a general ENT problem.",
+          "australia": "Uncommon overall, but among the highest rates in the world in remote Aboriginal communities; early treatment and hearing follow-up are priorities."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "First-line antibiotic and duration for acute otitis media (when needed)?",
+          "back": "Oral amoxicillin for 5 days."
+        },
+        {
+          "front": "Which children with AOM should get antibiotics?",
+          "back": "Under 6 months, systemically unwell, perforation or discharge, high risk of complications (including Aboriginal and Torres Strait Islander children)."
+        },
+        {
+          "front": "Treatment of chronic suppurative otitis media?",
+          "back": "Dry mopping (aural toilet) plus topical ciprofloxacin ear drops."
+        },
+        {
+          "front": "Duration of oral penicillin for GAS pharyngitis to prevent rheumatic fever?",
+          "back": "10 days of phenoxymethylpenicillin (or a single IM benzathine benzylpenicillin dose)."
+        },
+        {
+          "front": "Most useful single clinical sign of pneumonia in children?",
+          "back": "Tachypnoea."
+        },
+        {
+          "front": "Classic otoscopic finding in AOM?",
+          "back": "Bulging, red, opaque tympanic membrane with reduced mobility."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "paediatric-infections--ear-throat-and-pneumonia--q1",
+          "discipline": "child-health",
+          "topic": "paediatric-infections",
+          "difficulty": "core",
+          "stem": "A 9-year-old Aboriginal girl from a remote community in the Northern Territory presents to the clinic with 2 days of sore throat and fever of 38.5 °C. She has no cough. Her tonsils are enlarged with exudate and she has tender anterior cervical lymph nodes. She has no history of rheumatic fever.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Paracetamol and review in 48 hours if not improving",
+            "Oral amoxicillin for 5 days",
+            "Take a throat swab and treat only if culture is positive",
+            "Phenoxymethylpenicillin for 10 days or a single IM dose of benzathine benzylpenicillin",
+            "Oral azithromycin for 3 days"
+          ],
+          "answer": 3,
+          "explanation": "This girl is at **high risk of acute rheumatic fever**: she is an **Aboriginal child living in a remote community**, where ARF and rheumatic heart disease rates are among the highest in the world. Her presentation is consistent with **group A streptococcal pharyngitis**.\n\nIn high-risk children, Australian guidance (eTG and the national ARF/RHD guideline) is to **treat sore throat with penicillin**: **phenoxymethylpenicillin for 10 days** (the full course is needed to eradicate GAS) or a **single IM dose of benzathine benzylpenicillin**, which guarantees adherence. A throat swab is still taken, but treatment should not wait for it.\n\nIn a low-risk child, analgesia alone would be appropriate.",
+          "whyWrong": [
+            "Watchful waiting is suitable only for children at low risk of rheumatic fever.",
+            "Five days of amoxicillin is not the recommended regimen for eradicating GAS to prevent ARF.",
+            "Swabbing is appropriate, but high-risk children should be treated without waiting for the result.",
+            "",
+            "Macrolides are reserved for penicillin allergy and resistance is a concern."
+          ],
+          "ausPearl": "The RHDAustralia guideline treats sore throats and skin sores in high-risk communities as ARF prevention, not just symptom relief.",
+          "tags": [
+            "pharyngitis",
+            "rheumatic-fever",
+            "first-nations"
+          ]
+        },
+        {
+          "id": "paediatric-infections--ear-throat-and-pneumonia--q2",
+          "discipline": "child-health",
+          "topic": "paediatric-infections",
+          "difficulty": "foundation",
+          "stem": "A 3-year-old boy has had right ear pain and fever for 1 day after a cold. He is eating, drinking and playing between doses of paracetamol. Temperature 38.2 °C. The right tympanic membrane is red and bulging; the left is normal. He is not Aboriginal or Torres Strait Islander and has no medical history.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Oral amoxicillin for 10 days",
+            "Analgesia and review in 24 to 48 hours, with antibiotics if not improving",
+            "Referral to ENT for grommets",
+            "Ciprofloxacin ear drops",
+            "Oral cefuroxime"
+          ],
+          "answer": 1,
+          "explanation": "This is **acute otitis media** in a well child over 6 months with **unilateral** disease, mild illness and no high-risk features. Most AOM resolves without antibiotics, and antibiotics only modestly reduce pain at 2 to 3 days while causing side effects and resistance.\n\nThe appropriate approach is **regular analgesia** (paracetamol or ibuprofen) with **review in 24 to 48 hours** (or a delayed prescription) and antibiotics if not improving. If antibiotics are needed, **amoxicillin for 5 days** is first line.\n\nAntibiotics up front are recommended for infants under 6 months, systemically unwell children, perforation with discharge, and high-risk children, including Aboriginal and Torres Strait Islander children.",
+          "whyWrong": [
+            "Immediate antibiotics are not needed in a well child, and 10 days is longer than recommended.",
+            "",
+            "Grommets are for persistent OME or recurrent AOM, not a single episode.",
+            "Topical drops are for CSOM or grommet otorrhoea, not AOM with an intact drum.",
+            "Cefuroxime is not first line; amoxicillin is used if antibiotics are needed."
+          ],
+          "tags": [
+            "otitis-media",
+            "antibiotic-stewardship"
+          ]
+        },
+        {
+          "id": "paediatric-infections--ear-throat-and-pneumonia--q3",
+          "discipline": "child-health",
+          "topic": "paediatric-infections",
+          "difficulty": "exam",
+          "stem": "A 4-year-old girl was admitted 3 days ago with right lower lobe pneumonia and started on IV benzylpenicillin. She remains febrile at 39 °C with a heart rate of 150/min. The right lower chest is dull to percussion with reduced breath sounds. CRP has risen from 120 to 210 mg/L.\n\nWhat is the most appropriate next investigation?",
+          "options": [
+            "Repeat blood culture only",
+            "Sweat chloride test",
+            "Sputum culture",
+            "CT pulmonary angiogram",
+            "Chest ultrasound"
+          ],
+          "answer": 4,
+          "explanation": "A child with pneumonia who remains febrile after **48 to 72 hours of appropriate antibiotics**, with **dullness and reduced breath sounds** and a rising CRP, has a **parapneumonic effusion or empyema** until proven otherwise.\n\n**Chest ultrasound** is the best test: it confirms fluid, estimates its size, shows septations and loculations, and guides drain insertion. A chest X-ray is usually done too. Management involves referral for **drainage** (chest drain with fibrinolytics or surgical VATS), with antibiotics broadened to cover **S. aureus** and resistant pneumococcus per local guidelines.\n\nThe discriminating clue is the **dull chest** with persistent fever despite treatment.",
+          "whyWrong": [
+            "Blood cultures may help but will not identify or guide treatment of an effusion.",
+            "CF is not suggested by a single pneumonia complicated by effusion.",
+            "Young children rarely produce sputum, and it would not show the effusion.",
+            "PE is very rare in children and does not explain a dull chest with fever.",
+            ""
+          ],
+          "tags": [
+            "pneumonia",
+            "empyema",
+            "ultrasound"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paediatric-infections--gastroenteritis-and-dehydration",
+      "title": "Gastroenteritis and dehydration",
+      "minutes": 16,
+      "objectives": [
+        "Assess the degree of dehydration using the most reliable clinical signs",
+        "Rehydrate orally or by nasogastric tube, and use ondansetron appropriately",
+        "Recognise when vomiting and diarrhoea are not gastroenteritis",
+        "Manage IV rehydration safely, including hypernatraemic dehydration and HUS"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "A common illness with a few dangerous mimics",
+          "body": "Acute gastroenteritis is one of the most common reasons young children see a doctor in Australia. It is usually viral and self-limiting. The AMC tests three things: **assessing dehydration**, choosing **oral or nasogastric rehydration** first (not IV), and spotting the conditions that masquerade as gastroenteritis.\n\n**Causes:**\n- **Viral (most):** **norovirus** (now the most common cause of outbreaks, including in childcare), **rotavirus** (much less common since oral rotavirus vaccine joined the National Immunisation Program), adenovirus.\n- **Bacterial:** Campylobacter, Salmonella, Shigella, and **Shiga toxin-producing E. coli (STEC)**, which can cause haemolytic uraemic syndrome.\n- **Parasitic:** Giardia and Cryptosporidium (prolonged diarrhoea, swimming pools, childcare).\n\n**Rotavirus vaccine** is oral and given at **2 and 4 months**, with strict upper age limits for each dose. There is a small increased risk of intussusception in the week after a dose, which parents should know about."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Assessing dehydration",
+          "body": "**History:** onset, frequency and nature of vomiting and diarrhoea, **blood in stool**, **bile-stained vomit**, fluid intake, urine output (wet nappies), abdominal pain, fever, contacts, travel, and underlying conditions.\n\n**The most reliable individual signs of dehydration** are **prolonged capillary refill**, **abnormal skin turgor**, and **abnormal respiratory pattern** (deep, acidotic breathing). A recent accurate weight compared with the current weight is the gold standard for fluid lost, but is rarely available.\n\n| | No or minimal dehydration | Mild to moderate (about 4 to 6%) | Severe (about 7% or more) |\n|---|---|---|---|\n| General | Alert | Restless or lethargic, thirsty | Drowsy, floppy |\n| Capillary refill | Normal | Slightly prolonged | Very prolonged, mottled |\n| Mucous membranes, eyes | Moist, normal | Dry, sunken eyes | Very dry, very sunken |\n| Breathing | Normal | Mildly deep | Deep, acidotic |\n| Heart rate | Normal | Increased | Tachycardic, weak pulses; **hypotension is late** |\n\nThese are the categories used in RCH-based Australian guidelines (percentages are estimates).\n\n**Clues that it is not simple gastroenteritis:**\n- **Bile-stained (green) vomit:** bowel obstruction or malrotation.\n- **Vomiting without diarrhoea:** consider UTI, **DKA** (polyuria, deep breathing, high glucose), meningitis, raised intracranial pressure, pyloric stenosis in young infants, intussusception.\n- **Blood in the stool:** bacterial colitis, **intussusception** (episodic severe pain, pallor, drawing up legs, lethargy, a sausage-shaped mass, \"redcurrant jelly\" stool late), or **haemolytic uraemic syndrome**.\n- **Severe abdominal pain or localised tenderness:** appendicitis.\n- **High fever, toxic appearance:** sepsis.\n- Very young infants (under 6 months) dehydrate faster and deserve closer observation."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Mostly none",
+          "body": "Most children with gastroenteritis need **no tests**.\n\n- **Blood glucose** in lethargic children (hypoglycaemia is common in young children who have not eaten).\n- **UEC and a blood gas** for children needing **IV fluids**, those with severe dehydration, or when the history suggests abnormal sodium (hypernatraemia with a doughy skin and irritability, or hyponatraemia with seizures).\n- **Stool culture and PCR** if there is **blood in the stool**, diarrhoea lasting more than about 7 days, recent travel, an outbreak, immunocompromise, or suspected HUS.\n- **FBC, film, UEC and urine** if HUS is suspected: anaemia with fragmented red cells, low platelets, raised creatinine.\n- **Abdominal ultrasound** for suspected intussusception (target or doughnut sign)."
+        },
+        {
+          "kind": "management",
+          "heading": "Rehydration step by step",
+          "body": "**1. Oral rehydration first.** For children with no, mild or moderate dehydration:\n- **Oral rehydration solution (ORS)** in small, frequent volumes (for example a few millilitres every few minutes by syringe or spoon), increasing as tolerated.\n- **Continue breastfeeding** throughout. Resume a normal diet as soon as the child is hungry.\n- **Avoid** undiluted fruit juice, soft drinks and sports drinks: their high sugar and low sodium content worsens diarrhoea by osmosis.\n- A **single dose of oral ondansetron** (for children over 6 months with vomiting) reduces vomiting and makes oral rehydration more likely to succeed, reducing IV fluids and admissions. It can cause slightly more diarrhoea.\n- **Do not use antidiarrhoeals** (loperamide) or antiemetics other than ondansetron in young children.\n\n**2. Nasogastric rehydration** if oral rehydration fails or the child is moderately dehydrated and will not drink. ORS by nasogastric tube is as effective as IV, with fewer complications. RCH-based guidelines include a **rapid NG regimen** for suitable children (for example 25 mL/kg/hour for 4 hours) or slower regimens for young infants and those with other conditions.\n\n**3. IV fluids** for **severe dehydration or shock**, failure of NG rehydration, or specific conditions (for example ileus, suspected surgical cause).\n- **Shock:** 10 to 20 mL/kg boluses of **0.9% sodium chloride**, repeated if needed, with reassessment.\n- Then replace deficit plus maintenance with an **isotonic fluid containing glucose** (for example 0.9% sodium chloride with 5% glucose). Hypotonic fluids cause hyponatraemia.\n- Monitor UEC and glucose, and weigh the child.\n- **Hypernatraemic dehydration:** correct slowly (over about 48 hours) because rapidly lowering sodium causes cerebral oedema and seizures.\n\n**Antibiotics** are rarely needed. They are used for specific infections (for example Shigella, or Salmonella in young infants and immunocompromised children) per eTG. They are **avoided in suspected STEC** because they may increase the risk of HUS.\n\n**Haemolytic uraemic syndrome (HUS):** usually follows **bloody diarrhoea from STEC** (often O157) by about a week. The triad is **microangiopathic haemolytic anaemia, thrombocytopenia and acute kidney injury** (pallor, oliguria, oedema, hypertension). Management is supportive in a specialist centre, often with dialysis. It is notifiable.\n\n**Discharge and infection control:**\n- Safety-net: return for fewer wet nappies, persistent vomiting, blood in the stool, green vomit, severe pain, or drowsiness.\n- **Hand hygiene** (alcohol gels work poorly against norovirus; use soap and water).\n- **Exclusion:** children should stay home from childcare or school until diarrhoea has stopped for at least 24 hours (longer for some infections and outbreaks); follow the NHMRC **Staying Healthy** guidance and state rules."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- A mildly to moderately dehydrated toddler with vomiting: **ORS in small amounts plus a single dose of ondansetron**. IV fluids first is wrong.\n- Failing oral fluids: **nasogastric ORS** before IV.\n- Shocked child: 10 to 20 mL/kg 0.9% saline bolus, then isotonic maintenance with glucose.\n- \"Vomiting, no diarrhoea, deep breathing, weight loss, lethargy\": check the **glucose and ketones** for DKA.\n- Episodic screaming, pallor, drawing legs up, and blood in the nappy in a 9-month-old: **intussusception**; ultrasound, then air enema reduction.\n- Bloody diarrhoea then pallor and oliguria: **HUS**; FBC, film and UEC; no antibiotics for STEC.\n- Fruit juice and soft drinks are the wrong rehydration fluids."
+        }
+      ],
+      "keyPoints": [
+        "Most gastroenteritis is viral (norovirus, rotavirus); rotavirus vaccine is given orally at 2 and 4 months.",
+        "Best dehydration signs: prolonged capillary refill, reduced skin turgor, deep acidotic breathing.",
+        "Oral rehydration first, in small frequent volumes; continue breastfeeding; resume normal diet early.",
+        "A single dose of ondansetron (over 6 months) helps children tolerate oral fluids.",
+        "Nasogastric ORS before IV; IV for shock or severe dehydration with isotonic fluids.",
+        "Bile, blood, vomiting without diarrhoea or severe pain suggest another diagnosis.",
+        "HUS: bloody diarrhoea then anaemia, low platelets and AKI; avoid antibiotics in STEC."
+      ],
+      "redFlags": [
+        "Bile-stained vomiting",
+        "Blood in the stool",
+        "Drowsiness, mottling or very prolonged capillary refill",
+        "Vomiting without diarrhoea with deep breathing (DKA)",
+        "Episodic severe abdominal pain with pallor (intussusception)",
+        "Pallor, reduced urine output or oedema after bloody diarrhoea (HUS)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Main causes",
+          "india": "Rotavirus, cholera, E. coli and parasites; dysentery and typhoid are common considerations.",
+          "australia": "Norovirus and rotavirus (declining since vaccination); bacterial causes are less common and mainly foodborne."
+        },
+        {
+          "aspect": "Adjuncts",
+          "india": "Zinc supplementation with ORS is standard (WHO).",
+          "australia": "Zinc is not routinely used; a single dose of ondansetron is the common adjunct to help oral rehydration."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Three most reliable signs of dehydration in children?",
+          "back": "Prolonged capillary refill, abnormal skin turgor, abnormal (deep) respiratory pattern."
+        },
+        {
+          "front": "Role of ondansetron in gastroenteritis?",
+          "back": "Single oral dose (over 6 months) to reduce vomiting and help oral rehydration succeed."
+        },
+        {
+          "front": "Rehydration route if oral fluids fail?",
+          "back": "Nasogastric ORS, before IV."
+        },
+        {
+          "front": "Triad of haemolytic uraemic syndrome?",
+          "back": "Microangiopathic haemolytic anaemia, thrombocytopenia, acute kidney injury."
+        },
+        {
+          "front": "Why avoid juice and soft drinks in gastroenteritis?",
+          "back": "High sugar and low sodium worsen osmotic diarrhoea and do not correct losses."
+        },
+        {
+          "front": "How should hypernatraemic dehydration be corrected?",
+          "back": "Slowly, over about 48 hours, to avoid cerebral oedema."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "paediatric-infections--gastroenteritis-and-dehydration--q1",
+          "discipline": "child-health",
+          "topic": "paediatric-infections",
+          "difficulty": "core",
+          "stem": "A 2-year-old girl has had vomiting and watery diarrhoea for 24 hours. Her brother has similar symptoms. She has vomited every time she drinks. She is irritable but alert, with dry lips and slightly sunken eyes. HR 135/min, capillary refill 2 seconds, normal breathing. She has had two wet nappies today. There is no blood in the stool.\n\nWhat is the most appropriate initial management?",
+          "options": [
+            "IV cannula and a 20 mL/kg bolus of 0.9% sodium chloride",
+            "Single dose of oral ondansetron followed by small frequent volumes of oral rehydration solution",
+            "Oral loperamide",
+            "Dilute apple juice as tolerated",
+            "Admit for IV maintenance fluids for 24 hours"
+          ],
+          "answer": 1,
+          "explanation": "She has **viral gastroenteritis** with **mild to moderate dehydration** (dry lips, slightly sunken eyes, mild tachycardia, reduced wet nappies, but normal capillary refill and breathing). She is not shocked.\n\nThe first step is **oral rehydration**. Because vomiting is stopping her from drinking, a **single dose of oral ondansetron** (she is over 6 months) reduces vomiting and makes oral rehydration more likely to succeed. Then give **ORS in small, frequent volumes** and continue her normal diet as she tolerates it.\n\nIf oral rehydration fails, the next step is **nasogastric ORS**, before IV. IV fluids are for shock or severe dehydration.",
+          "whyWrong": [
+            "She is not shocked; IV boluses are reserved for shock or severe dehydration.",
+            "",
+            "Antidiarrhoeals like loperamide are not used in young children.",
+            "Diluted juice is low in sodium and is not a substitute for ORS in a dehydrated child who is vomiting.",
+            "Most children with mild to moderate dehydration can be rehydrated orally or by NG tube."
+          ],
+          "tags": [
+            "gastroenteritis",
+            "ondansetron",
+            "oral-rehydration"
+          ]
+        },
+        {
+          "id": "paediatric-infections--gastroenteritis-and-dehydration--q2",
+          "discipline": "child-health",
+          "topic": "paediatric-infections",
+          "difficulty": "exam",
+          "stem": "A 3-year-old boy had 4 days of bloody diarrhoea after a family barbecue. The diarrhoea has settled, but for the past day he has been pale, tired and has barely passed urine. BP 118/78 mmHg. Hb 72 g/L, platelets 38 x 10^9/L, creatinine 210 micromol/L. The blood film shows fragmented red cells.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Immune thrombocytopenic purpura",
+            "Severe dehydration with prerenal failure",
+            "Haemolytic uraemic syndrome",
+            "Acute post-streptococcal glomerulonephritis",
+            "Acute leukaemia"
+          ],
+          "answer": 2,
+          "explanation": "The triad of **microangiopathic haemolytic anaemia** (anaemia with **fragmented red cells**), **thrombocytopenia** and **acute kidney injury**, following **bloody diarrhoea**, is **haemolytic uraemic syndrome (HUS)**. It is usually caused by **Shiga toxin-producing E. coli** (often O157), commonly from undercooked mince or contaminated food. Hypertension is common.\n\nManagement is **supportive** in a paediatric renal unit: careful fluid balance, treatment of hypertension, transfusion as needed, and often **dialysis**. **Antibiotics are avoided** in suspected STEC because they may increase toxin release. HUS is notifiable.\n\nPrerenal failure from dehydration would not cause a haemolytic anaemia with schistocytes or thrombocytopenia.",
+          "whyWrong": [
+            "ITP causes isolated thrombocytopenia with normal Hb and renal function.",
+            "Dehydration does not cause haemolysis with fragmented cells or low platelets.",
+            "",
+            "APSGN follows streptococcal throat or skin infection and does not cause haemolysis or thrombocytopenia.",
+            "Leukaemia would not follow bloody diarrhoea with fragmented cells and AKI."
+          ],
+          "ausPearl": "HUS is notifiable in Australia; public health units trace the food source.",
+          "tags": [
+            "hus",
+            "stec",
+            "bloody-diarrhoea"
+          ]
+        },
+        {
+          "id": "paediatric-infections--gastroenteritis-and-dehydration--q3",
+          "discipline": "child-health",
+          "topic": "paediatric-infections",
+          "difficulty": "core",
+          "stem": "A 9-month-old boy has had episodes over 12 hours of sudden inconsolable crying, drawing his legs up and going pale, each lasting a few minutes, with quiet, lethargic periods in between. He has vomited twice. His last nappy contained dark red mucoid stool. He is afebrile.\n\nWhat is the most appropriate next investigation?",
+          "options": [
+            "Stool culture",
+            "Urine microscopy and culture",
+            "Plain abdominal X-ray only",
+            "Upper GI contrast study",
+            "Abdominal ultrasound"
+          ],
+          "answer": 4,
+          "explanation": "This is classic **intussusception**: an infant aged about **3 months to 3 years** with **episodic severe colicky pain** (inconsolable crying, drawing up legs, pallor), **lethargy between episodes**, vomiting, and a late sign of **\"redcurrant jelly\" stool** (blood and mucus from ischaemic mucosa). A sausage-shaped mass may be palpable.\n\nThe investigation of choice is **abdominal ultrasound**, which shows a **target or doughnut sign**. If confirmed and there is no perforation or peritonitis, the treatment is **air (or contrast) enema reduction** by a radiologist with surgeons available. Surgery is needed if reduction fails or there is perforation.\n\nIt is easily mistaken for gastroenteritis, but the episodic pattern and lethargy are the discriminating clues.",
+          "whyWrong": [
+            "Stool culture would delay diagnosis of a surgical emergency.",
+            "UTI does not explain episodic colic with bloody mucoid stool.",
+            "Plain films may be normal and cannot exclude intussusception.",
+            "Upper GI contrast is for suspected malrotation with bilious vomiting.",
+            ""
+          ],
+          "tags": [
+            "intussusception",
+            "abdominal-pain",
+            "ultrasound"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paediatric-infections--rashes-kawasaki-and-skin",
+      "title": "Rashes, Kawasaki disease and skin infections",
+      "minutes": 22,
+      "objectives": [
+        "Distinguish the common childhood exanthems by prodrome, rash pattern and associated features",
+        "Manage measles and varicella, including notification, exclusion and post-exposure prophylaxis",
+        "Diagnose Kawasaki disease, including incomplete forms, and start IVIG and aspirin",
+        "Treat impetigo and scabies, and explain their link to rheumatic fever and glomerulonephritis in remote communities"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Rashes the AMC cares about",
+          "body": "Most childhood rashes are viral and harmless. The AMC focuses on the rashes where a diagnosis matters: **measles** (highly infectious, notifiable, re-emerging through imported cases), **varicella** (complications and vulnerable contacts), **Kawasaki disease** (coronary aneurysms if missed), **scarlet fever**, the **non-blanching rash** of meningococcal disease (covered in its own lesson), and **skin infections** in remote Aboriginal and Torres Strait Islander communities, where impetigo and scabies drive **acute rheumatic fever** and **post-streptococcal glomerulonephritis (APSGN)**.\n\nAustralia was verified as having **eliminated endemic measles** in 2014, so cases come from travellers and their contacts. Measles and varicella vaccines are on the National Immunisation Program: **MMR at 12 months** and **MMRV at 18 months**."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why rashes look the way they do",
+          "body": "- **Viral exanthems** reflect viraemia with immune-mediated inflammation in the skin. Many rashes appear as the immune response begins, which is why patients like those with measles are infectious **before** the rash.\n- **Kawasaki disease** is an acute **medium-vessel vasculitis** of unknown cause (probably an abnormal immune response to an infectious trigger in genetically susceptible children, commonest under 5 and more common in children of East Asian ancestry). It has a predilection for the **coronary arteries**, where untreated it causes **aneurysms** in about a quarter of children, with risk of thrombosis, myocardial infarction and sudden death.\n- **Group A streptococcus** causes toxin-mediated **scarlet fever**, and its skin and throat infections trigger immune cross-reactivity (molecular mimicry) causing **acute rheumatic fever**, and immune complex deposition causing **APSGN**.\n- **Scabies** (Sarcoptes scabiei) burrows cause itch; scratching breaks the skin and lets **GAS and S. aureus** in, producing impetigo."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "The exanthems at a glance",
+          "body": "| Illness | Cause | Prodrome and features | Rash |\n|---|---|---|---|\n| **Measles** | Measles virus | 2 to 4 days of high fever, **cough, coryza, conjunctivitis**; **Koplik spots** (white spots on buccal mucosa) | Maculopapular, starts **behind the ears and face**, spreads down, becomes confluent |\n| **Varicella** | VZV | Mild fever, malaise | Itchy crops of papules, **vesicles** and crusts in **different stages**, central (trunk) distribution, including scalp and mucosa |\n| **Scarlet fever** | GAS | Sore throat, fever, vomiting | **Sandpaper** fine red rash, flushed cheeks with **circumoral pallor**, **strawberry tongue**, Pastia lines in skin folds, later peeling |\n| **Roseola** | HHV-6 | **3 days of high fever** in an infant (febrile seizures possible) | Rose-pink rash appears **as the fever settles** |\n| **Erythema infectiosum** | Parvovirus B19 | Mild illness | **Slapped cheeks**, then lacy rash on limbs; aplastic crisis in children with haemolytic anaemias; hydrops fetalis risk in pregnancy |\n| **Hand, foot and mouth** | Enteroviruses (Coxsackie) | Mild fever | Oral ulcers, vesicles on hands, feet and buttocks |\n\n**Measles complications:** otitis media, **pneumonia** (the main cause of death), diarrhoea, encephalitis, and years later the fatal **subacute sclerosing panencephalitis (SSPE)**.\n\n**Varicella complications:** secondary bacterial skin infection (including invasive GAS and necrotising fasciitis), pneumonia, cerebellar ataxia, encephalitis; severe or disseminated disease in immunocompromised children and neonates.\n\n**Kawasaki disease:** fever for **5 days or more** plus **4 of 5** features (remember **CRASH**):\n- **C**onjunctivitis: bilateral, **non-purulent**, limbal sparing.\n- **R**ash: polymorphous, often with perineal accentuation.\n- **A**denopathy: cervical, usually unilateral, 1.5 cm or more.\n- **S**trawberry tongue and red, **cracked lips**.\n- **H**ands and feet: red, swollen palms and soles, then **periungual peeling** in week 2 to 3.\nChildren are typically **very irritable**. **Incomplete Kawasaki disease** (fever with fewer features) is common, especially in **infants**, who have the highest risk of aneurysms, so keep it on the list for any infant with prolonged unexplained fever.\n\n**Impetigo (school sores):** honey-crusted sores (non-bullous) or flaccid blisters (bullous, S. aureus). **Scabies:** intensely itchy papules and burrows in finger webs, wrists, waist and genitals; in infants, palms, soles and scalp. **Crusted scabies** in immunocompromised people is highly infectious.\n\n**APSGN:** 1 to 3 weeks after a sore throat or 3 to 6 weeks after skin infection: **cola-coloured urine**, oedema (puffy face), **hypertension**, oliguria."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Confirming the diagnosis",
+          "body": "- **Measles:** notify on clinical suspicion; **PCR** on a nasopharyngeal or throat swab and urine, plus **measles IgM** serology. Call ahead and isolate the patient before they reach the waiting room.\n- **Varicella:** usually clinical; **PCR of vesicle fluid** if confirmation is needed (for example in immunocompromised or pregnant contacts).\n- **Kawasaki disease:** no single test. Supportive findings: raised **CRP and ESR**, neutrophilia, normocytic anaemia, **thrombocytosis in the second week**, low albumin, raised ALT, and **sterile pyuria**. **Echocardiogram** at diagnosis and repeated (typically at around 2 weeks and 6 to 8 weeks) to look for coronary artery dilatation or aneurysm.\n- **Scarlet fever:** throat swab culture or rapid antigen test.\n- **APSGN:** urinalysis (haematuria, red cell casts, proteinuria), UEC, **low C3** (returns to normal within about 8 weeks; persistent low C3 suggests another glomerulonephritis), and evidence of recent streptococcal infection (**ASOT** after throat infection, **anti-DNase B** after skin infection)."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Separating the look-alikes",
+          "body": "- **Measles versus Kawasaki disease:** both have fever, conjunctivitis and rash. Measles has a prominent **cough and coryza**, Koplik spots and a rash that spreads head to toe; Kawasaki has **no cough or coryza**, cracked lips, extremity changes and a very high CRP.\n- **Kawasaki versus scarlet fever:** both have a strawberry tongue and later peeling. Scarlet fever has sore throat, a sandpaper rash, and responds quickly to penicillin; persistent fever after 48 hours of penicillin should make you think of Kawasaki disease.\n- Other fever-plus-rash considerations: adenovirus, drug reactions, toxic shock syndrome (hypotension, erythroderma), **meningococcal disease** (non-blanching rash, unwell), systemic JIA (evanescent salmon rash with daily fever spikes), and in travellers, dengue."
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment, public health and prevention",
+          "body": "**Measles**\n- **Notify the public health unit immediately on suspicion**; isolate (airborne precautions). Cases are infectious from about **4 days before to 4 days after the rash appears**, and should be excluded from school and childcare for that period.\n- Treatment is supportive. **Vitamin A** is recommended in some circumstances; follow infectious diseases advice.\n- **Post-exposure prophylaxis for non-immune contacts:** **MMR within 72 hours** of exposure (for those eligible, from 6 months of age with an early dose), or **normal human immunoglobulin within 6 days** for those who cannot have MMR (infants under 6 months, pregnant women, immunocompromised people).\n\n**Varicella**\n- Usually supportive: paracetamol, calamine or antihistamines for itch, keep nails short. **Avoid aspirin** (Reye syndrome); many guidelines also advise avoiding ibuprofen because of an association with invasive GAS infection.\n- **Oral or IV aciclovir** for immunocompromised children, neonates, severe disease or complications, and consider it in adolescents and adults presenting early.\n- **Exclude from childcare or school until all blisters have crusted** (usually at least 5 days after the rash starts).\n- **Zoster immunoglobulin** (or aciclovir-based post-exposure regimens per the Handbook) for susceptible **pregnant women**, **immunocompromised** contacts, and **newborns** whose mother develops varicella shortly before or after delivery.\n\n**Kawasaki disease**\n- **IVIG 2 g/kg as a single infusion**, ideally **within 10 days** of fever onset (still given later if there is ongoing inflammation), which reduces coronary aneurysms from about 25% to under 5%.\n- **Aspirin**: a higher anti-inflammatory dose in the acute phase, then **low-dose aspirin** (antiplatelet) until the 6 to 8 week echocardiogram is normal, or longer if aneurysms are present. Kawasaki disease is one of the few indications for aspirin in children; if the child is exposed to influenza or varicella while on aspirin, seek advice about Reye syndrome.\n- Children with IVIG-resistant disease (persistent fever) may need a second dose of IVIG or corticosteroids, under specialist care.\n- **Delay live vaccines (MMR, varicella) for 11 months** after high-dose IVIG, because antibodies in IVIG block the vaccine response.\n\n**Scarlet fever:** **phenoxymethylpenicillin for 10 days**; exclude from school until at least 24 hours of antibiotics and feeling well.\n\n**Impetigo and scabies**\n- **Impetigo:** limited sores can be cleaned and treated topically; widespread sores need oral antibiotics (for example cefalexin, or flucloxacillin), per eTG. In **remote Aboriginal and Torres Strait Islander communities**, the **National Healthy Skin Guideline** recommends **oral trimethoprim-sulfamethoxazole (co-trimoxazole) for 3 to 5 days** or a **single IM dose of benzathine benzylpenicillin**, because treating sores prevents ARF and APSGN. Exclude from school until antibiotics have started and sores are covered.\n- **Scabies:** **permethrin 5% cream** applied to the whole body (including the scalp and face in infants), left on overnight and **repeated after 7 days**; **treat all household contacts at the same time**, and hot-wash bedding and clothes. **Oral ivermectin** is used for crusted scabies and in community programs (not in young children under about 15 kg or in pregnancy).\n\n**APSGN:** supportive; fluid and salt restriction, **furosemide** for oedema and hypertension, and penicillin to eradicate GAS. Most children recover fully. It is notifiable in some jurisdictions. **Acute rheumatic fever** (Jones criteria, adjusted for high-risk groups in the Australian guideline) is managed with **secondary prophylaxis with benzathine benzylpenicillin every 21 to 28 days** for years, plus registration with the state RHD control program."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Returned traveller child with fever, cough, coryza, conjunctivitis, then a rash starting on the face: **measles**. Answer: isolate, **notify on suspicion**, PCR and IgM, and MMR within 72 hours or immunoglobulin within 6 days for non-immune contacts.\n- Fever for 5 days, red eyes without pus, cracked lips, swollen hands, a neck node, an irritable child: **Kawasaki**; give **IVIG and aspirin** and arrange an **echocardiogram**. Do not wait for peeling.\n- Infant with prolonged unexplained fever and only some features: **incomplete Kawasaki**; check inflammatory markers and echo.\n- Varicella exclusion: **until all lesions are crusted**.\n- Remote Aboriginal child with school sores: **co-trimoxazole or IM benzathine penicillin**, and treat household scabies with permethrin twice, 7 days apart.\n- Puffy face, cola urine and hypertension 3 weeks after skin sores, low C3: **APSGN**."
+        }
+      ],
+      "keyPoints": [
+        "Measles: prodrome of cough, coryza and conjunctivitis, Koplik spots, rash from face downwards; notify on suspicion.",
+        "Measles contacts: MMR within 72 hours or normal human immunoglobulin within 6 days.",
+        "Varicella: vesicles in crops at different stages; exclude until all blisters crusted; aciclovir for high-risk children.",
+        "Kawasaki: fever for 5 days or more plus 4 of 5 CRASH features; IVIG 2 g/kg and aspirin; echo; delay live vaccines 11 months.",
+        "Incomplete Kawasaki disease is common in infants, who have the highest aneurysm risk.",
+        "Scarlet fever: sandpaper rash and strawberry tongue; penicillin for 10 days.",
+        "In remote communities, treating impetigo (co-trimoxazole or IM benzathine penicillin) and scabies (permethrin, repeat in 7 days) prevents ARF and APSGN."
+      ],
+      "redFlags": [
+        "Fever with a non-blanching rash",
+        "Fever for 5 days or more with conjunctivitis, oral changes or extremity changes (Kawasaki)",
+        "Varicella in a neonate or immunocompromised child",
+        "Rapidly spreading painful redness around varicella lesions (invasive GAS, necrotising fasciitis)",
+        "Measles with breathlessness or altered consciousness",
+        "Cola-coloured urine, oedema or hypertension after a skin or throat infection"
+      ],
+      "contrast": [
+        {
+          "aspect": "Measles",
+          "india": "Endemic, with vitamin A given routinely to affected children.",
+          "australia": "Eliminated as endemic since 2014; cases are imported, notified on suspicion, with urgent contact tracing and post-exposure prophylaxis."
+        },
+        {
+          "aspect": "Skin sores and strep",
+          "india": "Treated as a minor skin problem.",
+          "australia": "In remote First Nations communities, treating impetigo and scabies is ARF and kidney disease prevention."
+        },
+        {
+          "aspect": "Varicella vaccine",
+          "india": "Optional, often paid for privately.",
+          "australia": "Funded on the NIP as MMRV at 18 months."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Kawasaki disease diagnostic criteria?",
+          "back": "Fever for 5 days or more plus 4 of 5: conjunctivitis, rash, cervical adenopathy, oral changes, extremity changes."
+        },
+        {
+          "front": "Kawasaki disease treatment?",
+          "back": "IVIG 2 g/kg single infusion (ideally within 10 days) plus aspirin; serial echocardiograms."
+        },
+        {
+          "front": "Post-exposure prophylaxis for a non-immune measles contact?",
+          "back": "MMR within 72 hours, or normal human immunoglobulin within 6 days if MMR is contraindicated."
+        },
+        {
+          "front": "When can a child with chickenpox return to childcare?",
+          "back": "When all blisters have crusted over (usually at least 5 days after the rash starts)."
+        },
+        {
+          "front": "How long after IVIG should live vaccines be delayed?",
+          "back": "11 months after high-dose (2 g/kg) IVIG."
+        },
+        {
+          "front": "Scabies treatment with permethrin?",
+          "back": "5% cream to the whole body, repeat after 7 days, and treat all household contacts at the same time."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "paediatric-infections--rashes-kawasaki-and-skin--q1",
+          "discipline": "child-health",
+          "topic": "paediatric-infections",
+          "difficulty": "core",
+          "stem": "A 3-year-old boy has had a high fever for 6 days despite paracetamol. He is very irritable. He has red eyes without discharge, red cracked lips, a strawberry tongue, a widespread blotchy rash, and swollen, red hands and feet. There is a 2 cm tender lymph node on the left side of his neck. He has no cough or coryza. CRP is 145 mg/L, platelets 460 x 10^9/L and urine shows sterile pyuria.\n\nWhat is the most appropriate treatment?",
+          "options": [
+            "Oral phenoxymethylpenicillin for 10 days",
+            "IV immunoglobulin 2 g/kg and aspirin",
+            "Oral prednisolone alone",
+            "IV ceftriaxone and flucloxacillin",
+            "Supportive care and review when the rash fades"
+          ],
+          "answer": 1,
+          "explanation": "He meets the criteria for **Kawasaki disease**: **fever for 5 days or more** plus at least **4 of 5** features, here all five: **non-purulent conjunctivitis**, **oral changes**, **polymorphous rash**, **extremity changes** and **cervical lymphadenopathy**. The high CRP, thrombocytosis and sterile pyuria support it, and the absence of cough and coryza argues against measles.\n\nTreatment is **IVIG 2 g/kg as a single infusion**, ideally within 10 days of fever onset, plus **aspirin**. This cuts the risk of **coronary artery aneurysms** from about 25% to under 5%. He needs an **echocardiogram** at diagnosis and follow-up echocardiograms, and live vaccines should be delayed for 11 months after IVIG.",
+          "whyWrong": [
+            "Penicillin treats scarlet fever, which lacks the extremity changes and non-purulent conjunctivitis of Kawasaki.",
+            "",
+            "Steroids alone are not first-line; they are used with IVIG in selected high-risk or resistant cases.",
+            "Antibiotics do not treat Kawasaki disease.",
+            "Delaying treatment increases the risk of coronary aneurysms."
+          ],
+          "tags": [
+            "kawasaki",
+            "ivig",
+            "fever"
+          ]
+        },
+        {
+          "id": "paediatric-infections--rashes-kawasaki-and-skin--q2",
+          "discipline": "child-health",
+          "topic": "paediatric-infections",
+          "difficulty": "core",
+          "stem": "A 14-month-old girl who has not yet had her 12-month vaccinations sat in a GP waiting room 2 days ago next to a child later confirmed to have measles. She is well. Her parents ask what can be done.\n\nWhat is the most appropriate management?",
+          "options": [
+            "No action; she is too young to catch measles",
+            "Give normal human immunoglobulin only",
+            "Give MMR vaccine now",
+            "Give oral aciclovir",
+            "Wait for symptoms, then test for measles IgM"
+          ],
+          "answer": 2,
+          "explanation": "She is a **non-immune contact** of measles, exposed **2 days ago**. **MMR vaccine given within 72 hours** of exposure can prevent or modify measles, and at 14 months she is also due for her routine MMR.\n\n**Normal human immunoglobulin** is the alternative when MMR is contraindicated (infants under 6 months, pregnancy, immunocompromise) or when it is 72 hours to **6 days** after exposure. Because she is well within the vaccine window and can safely receive MMR, the vaccine is preferred, and it gives lasting protection.\n\nThe public health unit will also advise on **exclusion** of non-immune contacts from childcare during the incubation period and on monitoring for symptoms.",
+          "whyWrong": [
+            "Measles readily infects unvaccinated toddlers and is highly contagious.",
+            "Immunoglobulin is for those who cannot have MMR or are beyond 72 hours; MMR is preferred here.",
+            "",
+            "Aciclovir treats herpes viruses, not measles.",
+            "Waiting loses the window for prophylaxis."
+          ],
+          "ausPearl": "Measles post-exposure advice follows the Australian Immunisation Handbook and the SoNG for measles; local public health units coordinate contact management.",
+          "tags": [
+            "measles",
+            "post-exposure",
+            "mmr"
+          ]
+        },
+        {
+          "id": "paediatric-infections--rashes-kawasaki-and-skin--q3",
+          "discipline": "child-health",
+          "topic": "paediatric-infections",
+          "difficulty": "exam",
+          "stem": "An 8-year-old Aboriginal boy from a remote community in Western Australia presents with puffy eyes and cola-coloured urine for 2 days. Four weeks ago he had infected sores on his legs. BP 135/90 mmHg. Urinalysis shows blood 3+ and protein 1+ with red cell casts. C3 is low and anti-DNase B is raised.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Acute post-streptococcal glomerulonephritis",
+            "IgA nephropathy",
+            "Nephrotic syndrome (minimal change disease)",
+            "Haemolytic uraemic syndrome",
+            "Acute rheumatic fever"
+          ],
+          "answer": 0,
+          "explanation": "This is **acute post-streptococcal glomerulonephritis (APSGN)**: a **nephritic syndrome** (haematuria with **red cell casts**, oedema, **hypertension**) occurring **3 to 6 weeks after a streptococcal skin infection**, with a **low C3** and a raised **anti-DNase B** (the better marker after skin infection; ASOT rises more after throat infection).\n\nAPSGN is far more common in **remote Aboriginal communities**, where impetigo and scabies are common. Management is supportive: fluid and salt restriction, **furosemide** for oedema and hypertension, and penicillin to eradicate GAS. Most children recover, and **C3 normalises within about 8 weeks**; persistent low C3 needs further investigation.\n\nPrevention is **treating skin sores and scabies**.",
+          "whyWrong": [
+            "",
+            "IgA nephropathy causes haematuria 1 to 2 days after an infection (synpharyngitic), with normal C3.",
+            "Minimal change disease causes heavy proteinuria and oedema without haematuria, hypertension or low C3.",
+            "HUS follows bloody diarrhoea and causes haemolytic anaemia and low platelets.",
+            "ARF affects joints, heart, skin and brain; it does not cause nephritis."
+          ],
+          "ausPearl": "APSGN and acute rheumatic fever are notifiable in several jurisdictions, and their control in remote communities relies on the National Healthy Skin Guideline.",
+          "tags": [
+            "apsgn",
+            "impetigo",
+            "first-nations"
+          ]
+        }
+      ]
+    }
+  ]
+}

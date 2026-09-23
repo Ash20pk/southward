@@ -1,0 +1,1340 @@
+{
+  "topic": "paediatric-emergencies",
+  "intro": "Paediatric emergencies covers the seriously ill or injured child: recognition and resuscitation, airway and breathing emergencies, anaphylaxis, seizures, dehydration and DKA, surgical emergencies, poisoning and injury. The AMC tests these heavily because they are life-threatening, time-critical and depend on weight-based doses and Australian guidance (ANZCOR, RCH Melbourne, ASCIA, Poisons Information Centre).",
+  "lessons": [
+    {
+      "id": "paediatric-emergencies--recognition-and-resuscitation",
+      "title": "The seriously ill child and resuscitation",
+      "minutes": 16,
+      "objectives": [
+        "Recognise the seriously ill child using a rapid ABCDE assessment and age-appropriate vital signs",
+        "Run paediatric basic and advanced life support using the ANZCOR DRSABCD approach",
+        "Estimate weight and calculate the key resuscitation doses (adrenaline, fluid bolus, glucose, defibrillation)",
+        "Start early management of paediatric septic shock and drowning"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why children are different",
+          "body": "Children rarely arrest from a primary cardiac cause. The usual pathway is **respiratory failure or shock leading to hypoxia, then bradycardia, then asystole**. That is why paediatric resuscitation puts so much weight on airway and breathing, and why a **bradycardic child is a peri-arrest child**.\n\nChildren also compensate well and then fall off a cliff. Blood pressure is maintained until late, so **hypotension is a pre-terminal sign** in a child. Tachycardia, prolonged capillary refill, cool peripheries and altered behaviour come first.\n\nIn Australia the leading causes of death in children aged 1 to 4 are injury (drowning prominent among them), congenital conditions and cancer. Drowning in backyard pools, bathtubs and dams is a recurring AMC theme, which is why **pool fencing is legislated** (details vary by state) and \"active supervision\" is the public health message. Resuscitation in Australia follows **ANZCOR** (Australian and New Zealand Committee on Resuscitation) guidelines, and paediatric emergency care commonly follows the **RCH Melbourne Clinical Practice Guidelines**."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Rapid assessment: the first minute",
+          "body": "Use a quick \"doorway\" look, then **ABCDE**.\n\n- **Appearance**: tone, interaction, consolability, look/gaze, speech/cry. A floppy, quiet, disinterested child is worrying; a screaming child at least has an airway and perfusion.\n- **Work of breathing**: recession, tracheal tug, head bobbing, nasal flaring, grunting (a sign of severe distress in infants), stridor or wheeze.\n- **Circulation to skin**: pallor, mottling, cyanosis. Central capillary refill over 2 seconds is abnormal.\n\nApproximate normal vital signs (use your local observation chart, which in Australia usually has age-banded colour zones and an escalation response):\n\n| Age | Heart rate (/min) | Resp rate (/min) |\n|---|---|---|\n| Under 1 year | 110-160 | 30-40 |\n| 1-2 years | 100-150 | 25-35 |\n| 2-5 years | 95-140 | 25-30 |\n| 5-12 years | 80-120 | 20-25 |\n| Over 12 years | 60-100 | 15-20 |\n\n**D** includes AVPU or GCS, pupils, posture and a **bedside glucose** (\"don't ever forget glucose\"). **E** includes temperature, rash (non-blanching?), injuries that don't fit the story.\n\nMost Australian hospitals use paediatric early warning tools linked to rapid response (for example NSW \"Between the Flags\"). The AMC expects you to escalate early rather than watch a deteriorating child."
+        },
+        {
+          "kind": "management",
+          "heading": "Basic and advanced life support (ANZCOR)",
+          "body": "**DRSABCD**: Danger, Response, Send for help, Airway, Breathing, CPR, Defibrillation.\n\n- **Airway**: head tilt-chin lift. In **infants keep the head neutral** (their large occiput already flexes the neck); in older children use a \"sniffing\" position.\n- **Breathing**: if not breathing normally, give **2 initial breaths**. Agonal gasps are not normal breathing.\n- **Compressions**: lower half of the sternum, **depth about one third of the chest's AP diameter**, rate **100-120/min**. Infants: two fingers, or two thumbs with hands encircling the chest when there are two rescuers.\n- **Ratio**: **30:2** for lay rescuers and single rescuers; ANZCOR supports **15:2** for two trained healthcare rescuers in children.\n\n**Advanced life support**\n\n- Attach monitor/defibrillator early. Most paediatric arrests are **non-shockable (asystole or PEA)**.\n- **Adrenaline 10 microg/kg** (0.1 mL/kg of 1:10 000) IV or IO, then every second 2-minute cycle (about every 4 minutes). In non-shockable rhythms give it as soon as access is obtained.\n- **Shockable (VF/pulseless VT): 4 J/kg**, resume CPR immediately for 2 minutes, then reassess. Adrenaline after the second shock; amiodarone 5 mg/kg after the third.\n- **IO access** if IV is not obtained quickly (proximal tibia is the usual site).\n- Look for reversible causes: the **4 Hs and 4 Ts** (hypoxia, hypovolaemia, hypo/hyperkalaemia and metabolic including hypoglycaemia, hypothermia; tension pneumothorax, tamponade, toxins, thrombosis).\n\n**Weight and doses**. Use a measured or parent-reported weight where possible. The traditional formula for ages 1-10, **(age + 4) x 2 kg**, is a rough guide; newer APLS formulae or length-based tapes are also used.\n\n| Intervention | Dose |\n|---|---|\n| Fluid bolus | 10-20 mL/kg 0.9% sodium chloride, reassess after each |\n| Hypoglycaemia | 2 mL/kg 10% glucose |\n| Adrenaline (arrest) | 10 microg/kg IV/IO |\n| Defibrillation | 4 J/kg |"
+        },
+        {
+          "kind": "management",
+          "heading": "Septic shock and drowning",
+          "body": "**Paediatric sepsis** kills through delay. Suspect it in a febrile (or hypothermic) child with tachycardia, altered mental state, poor perfusion or a non-blanching rash. Australian state sepsis pathways (for example the NSW and Queensland paediatric sepsis pathways) emphasise:\n\n1. High-flow oxygen, IV or IO access, **blood culture, glucose, lactate/blood gas**.\n2. **Empirical IV antibiotics within 1 hour** of recognition (commonly a third-generation cephalosporin, with additions depending on age and source: check eTG and local guidelines; young infants need cover for Listeria and group B strep).\n3. **Fluid bolus 10-20 mL/kg** of isotonic crystalloid, reassess, repeat; after about 40-60 mL/kg without response, think inotropes and call retrieval/PICU.\n4. Treat hypoglycaemia; consider meningitis (lumbar puncture only once stable).\n\n**Drowning** is hypoxic arrest. Priorities are **oxygenation and ventilation**: start with breaths, then standard CPR. Cervical spine injury is uncommon unless there was diving or a high-impact mechanism. Vomiting is common during resuscitation: turn the child to the side and clear the airway. All children who needed resuscitation, or who have ongoing cough, breathlessness, hypoxia or reduced consciousness, need hospital assessment, because deterioration from aspiration pneumonitis can be delayed by several hours.\n\nPrevention is part of the answer: four-sided isolation pool fencing with self-closing gates, active adult supervision within arm's reach for toddlers, and parental CPR training."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- \"Most important next step\" in an unresponsive child: open the airway and give breaths before worrying about IV access.\n- A child with bradycardia and poor perfusion despite oxygenation needs **CPR if HR is under 60/min**.\n- The dose questions are straightforward if you remember the four numbers: **10 microg/kg, 10-20 mL/kg, 2 mL/kg 10% glucose, 4 J/kg**.\n- Hypotension in a child means decompensated shock: the right answer is urgent fluid and escalation, not \"repeat obs in 30 minutes\".\n- For a drowned toddler who looks well now, the trap is discharging immediately: observe for delayed respiratory deterioration.\n- Always check glucose in any child with altered consciousness or seizure."
+        }
+      ],
+      "keyPoints": [
+        "Paediatric arrest is usually hypoxic; airway and breathing come first.",
+        "Hypotension is a late, pre-terminal sign of shock in children.",
+        "CPR: depth one third of chest, 100-120/min; 30:2 lay, 15:2 two healthcare rescuers.",
+        "Adrenaline 10 microg/kg IV/IO; defibrillation 4 J/kg; fluid bolus 10-20 mL/kg; 10% glucose 2 mL/kg.",
+        "Most paediatric arrest rhythms are non-shockable.",
+        "Sepsis: cultures, IV antibiotics within 1 hour, reassess after each bolus.",
+        "Drowning: prioritise ventilation; observe for delayed deterioration."
+      ],
+      "redFlags": [
+        "Bradycardia in a sick child (peri-arrest)",
+        "Hypotension (decompensated shock)",
+        "Grunting, silent chest or exhaustion",
+        "Reduced conscious level or floppy infant",
+        "Non-blanching rash with fever",
+        "Capillary refill over 3 seconds with mottled skin"
+      ],
+      "contrast": [
+        {
+          "aspect": "Resuscitation guideline",
+          "india": "Often taught from AHA/IAP PALS algorithms.",
+          "australia": "ANZCOR guidelines, taught as DRSABCD; RCH Melbourne CPGs widely used for paediatric doses."
+        },
+        {
+          "aspect": "Drowning prevention",
+          "india": "Open water and wells; little regulation of home water hazards.",
+          "australia": "Backyard pools dominate; pool fencing is law (varies by state) and active supervision is the key message."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Adrenaline dose in paediatric cardiac arrest?",
+          "back": "10 microg/kg IV/IO (0.1 mL/kg of 1:10 000), every second cycle (about every 4 minutes)."
+        },
+        {
+          "front": "Defibrillation energy for a child in VF?",
+          "back": "4 J/kg."
+        },
+        {
+          "front": "Treatment of hypoglycaemia in a sick child?",
+          "back": "10% glucose 2 mL/kg IV/IO, then recheck."
+        },
+        {
+          "front": "Heart rate threshold to start CPR in an infant with poor perfusion?",
+          "back": "Under 60/min despite adequate oxygenation and ventilation."
+        },
+        {
+          "front": "Compression depth in paediatric CPR?",
+          "back": "About one third of the anteroposterior chest diameter."
+        },
+        {
+          "front": "Initial fluid bolus in paediatric shock?",
+          "back": "10-20 mL/kg isotonic crystalloid, reassess after each bolus."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "paediatric-emergencies--recognition-and-resuscitation--q1",
+          "discipline": "child-health",
+          "topic": "paediatric-emergencies",
+          "difficulty": "foundation",
+          "stem": "A 3-year-old boy (about 14 kg) is pulled from a backyard pool by his father after an unknown time submerged. In the emergency department he is unresponsive and not breathing, and no pulse is felt. The monitor shows asystole. Two nurses and you are present, IO access has just been placed and bag-valve-mask ventilation with oxygen is underway. What is the most appropriate drug and dose to give now?",
+          "options": [
+            "Adrenaline 140 microg IO",
+            "Adrenaline 1.4 mg IO",
+            "Amiodarone 70 mg IO",
+            "Atropine 280 microg IO",
+            "Sodium bicarbonate 14 mmol IO"
+          ],
+          "answer": 0,
+          "explanation": "In paediatric arrest the adrenaline dose is **10 microg/kg** IV or IO, which for 14 kg is 140 microg (1.4 mL of 1:10 000). In **non-shockable rhythms** (asystole, PEA), adrenaline is given as soon as vascular access is available, alongside high-quality CPR, then every second 2-minute cycle.\n\nDrowning causes a hypoxic arrest, so effective ventilation with oxygen is just as important as the drug. Amiodarone belongs to shockable rhythms after the third shock. Atropine is not part of arrest algorithms, and bicarbonate is not routine.\n\n**Rule:** asystole in a child = CPR, ventilation, adrenaline 10 microg/kg now.",
+          "whyWrong": [
+            "",
+            "This is ten times the correct dose (a classic 1:1000 vs 1:10 000 error).",
+            "Amiodarone is for shock-refractory VF/pulseless VT, not asystole.",
+            "Atropine is not used in cardiac arrest algorithms.",
+            "Bicarbonate is not routine and does not replace adrenaline and ventilation."
+          ],
+          "ausPearl": "Drowning is a leading cause of death in Australian toddlers; four-sided pool fencing is legislated, with details varying by state.",
+          "tags": [
+            "resuscitation",
+            "drowning",
+            "anzcor"
+          ]
+        },
+        {
+          "id": "paediatric-emergencies--recognition-and-resuscitation--q2",
+          "discipline": "child-health",
+          "topic": "paediatric-emergencies",
+          "difficulty": "core",
+          "stem": "A 2-year-old girl presents with 1 day of fever and lethargy. She is drowsy but rousable. HR 180/min, RR 44/min, BP 85/50 mmHg, temperature 39.6 °C, central capillary refill 4 seconds, cool mottled legs. There are a few non-blanching spots on her legs. IV access is obtained. Which is the most appropriate immediate management?",
+          "options": [
+            "Lumbar puncture, then antibiotics once CSF results are available",
+            "Oral paracetamol and reassess in one hour",
+            "Maintenance IV fluids and CT head",
+            "Blood culture, IV ceftriaxone and a 10-20 mL/kg 0.9% sodium chloride bolus",
+            "Admit to the ward for 4-hourly observations"
+          ],
+          "answer": 3,
+          "explanation": "Fever, a non-blanching rash and signs of shock (tachycardia, prolonged capillary refill, mottling, altered conscious state) are **meningococcal septicaemia until proven otherwise**. Her BP is preserved, which is typical of compensated shock in children: do not be reassured by it.\n\nImmediate steps: oxygen, **blood culture (without delaying treatment), IV third-generation cephalosporin within the first hour**, and a **fluid bolus of 10-20 mL/kg** isotonic crystalloid with reassessment after each. Check glucose and a gas. Lumbar puncture is **contraindicated** in a shocked, drowsy child and must never delay antibiotics.\n\n**Rule:** sick, febrile child with shock = antibiotics and fluid now; investigations that delay treatment are wrong.",
+          "whyWrong": [
+            "LP is unsafe in shock and reduced consciousness and would delay antibiotics.",
+            "This child is in septic shock; antipyretics and waiting are dangerous.",
+            "She needs a resuscitation bolus, not maintenance fluid, and CT does not change immediate care.",
+            "",
+            "Ward observations ignore established shock; she needs resuscitation and likely PICU review."
+          ],
+          "ausPearl": "Invasive meningococcal disease is notifiable in all states; public health arranges clearance antibiotics for close contacts.",
+          "tags": [
+            "sepsis",
+            "shock",
+            "meningococcal"
+          ]
+        },
+        {
+          "id": "paediatric-emergencies--recognition-and-resuscitation--q3",
+          "discipline": "child-health",
+          "topic": "paediatric-emergencies",
+          "difficulty": "exam",
+          "stem": "A 7-month-old boy is brought in with bronchiolitis that has worsened over 3 days. He was grunting and tiring on arrival. Despite high-flow oxygen by mask his SpO2 is 82%, and his heart rate has fallen from 170/min to 55/min. He is now floppy and pale. What is the most appropriate next step?",
+          "options": [
+            "Give atropine 20 microg/kg IV",
+            "Give a 20 mL/kg fluid bolus",
+            "Start bag-valve-mask ventilation with 100% oxygen and begin chest compressions if the heart rate stays under 60/min",
+            "Arrange an urgent chest X-ray",
+            "Attach defibrillator pads and deliver 4 J/kg"
+          ],
+          "answer": 2,
+          "explanation": "In children, **bradycardia is usually hypoxic**. This infant has progressed from respiratory distress to exhaustion, hypoxia and now bradycardia, the step just before arrest. The treatment of hypoxic bradycardia is **oxygenation and ventilation**: open the airway (neutral position in an infant) and give bag-valve-mask ventilation with 100% oxygen. If the heart rate stays **under 60/min with poor perfusion** despite adequate ventilation, **start chest compressions** and follow the arrest algorithm.\n\nAtropine only has a role in vagally mediated bradycardia (for example during intubation). Fluids, X-rays and defibrillation all miss the underlying problem.",
+          "whyWrong": [
+            "Atropine does not fix hypoxic bradycardia; oxygenation does.",
+            "He is not primarily hypovolaemic; the problem is failed breathing.",
+            "",
+            "Imaging delays the life-saving intervention.",
+            "Sinus bradycardia is not a shockable rhythm."
+          ],
+          "tags": [
+            "resuscitation",
+            "bradycardia",
+            "respiratory failure"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paediatric-emergencies--airway-emergencies",
+      "title": "Airway and breathing emergencies",
+      "minutes": 15,
+      "objectives": [
+        "Manage the choking child using the ANZCOR back blow and chest thrust sequence",
+        "Recognise inhaled foreign body and know that a normal chest X-ray does not exclude it",
+        "Distinguish severe croup, epiglottitis and bacterial tracheitis and manage each safely",
+        "Grade acute asthma severity and start first-line treatment in the emergency department"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why the paediatric airway obstructs easily",
+          "body": "A child's airway is narrow, so a little oedema causes a big fall in radius and a much bigger rise in resistance (resistance rises roughly with the fourth power of the fall in radius). Toddlers explore by mouth, have immature molars and a poor cough, so **peak age for inhaled foreign body is 1-3 years**. Nuts, grapes, popcorn and small toy parts are classic culprits.\n\nStridor means upper airway (extrathoracic) narrowing; wheeze means lower airway narrowing. A **quiet child with a severe obstruction is more worrying than a noisy one**: soft stridor and reduced air entry can mean exhaustion.\n\nThe AMC usually tests four scenarios: the choking toddler, the sub-acute inhaled foreign body, the child with stridor and fever (croup vs epiglottitis vs tracheitis), and the child with acute severe asthma. (Routine croup and bronchiolitis are covered under paediatric infections.)"
+        },
+        {
+          "kind": "management",
+          "heading": "Choking and inhaled foreign body",
+          "body": "**Choking first aid (ANZCOR)**\n\n- **Effective cough** (crying, talking, coughing forcefully): encourage coughing, stay with the child, call for help if it does not resolve. Do not slap the back of a child who is coughing well.\n- **Ineffective cough, conscious**: call 000, give **up to 5 back blows** (infant prone, head down, along the forearm/thigh), then **up to 5 chest thrusts**, checking after each whether the obstruction has cleared. Alternate. ANZCOR recommends chest thrusts rather than abdominal thrusts.\n- **Unconscious**: start CPR. Look in the mouth before breaths and remove a visible object; **no blind finger sweeps**.\n\n**Inhaled foreign body (sub-acute)**\n\nClassic history: sudden choking or coughing episode while eating or playing, which settles, followed by persistent cough, **unilateral wheeze** or reduced air entry, or recurrent pneumonia in the same lobe. The episode may not have been witnessed, so ask.\n\nInvestigations:\n- **Chest X-ray** (inspiratory and expiratory, or lateral decubitus films in toddlers): most foreign bodies (nuts) are radiolucent. Look for **unilateral hyperinflation from air trapping** (ball-valve effect: the affected side stays inflated on expiration and the mediastinum shifts away), or collapse/consolidation distal to the object.\n- **A normal chest X-ray does not exclude it.**\n\nManagement: **rigid bronchoscopy** under general anaesthetic when history is suggestive, even with a normal film."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Stridor with fever: croup, epiglottitis, tracheitis",
+          "body": "| Feature | Croup | Epiglottitis | Bacterial tracheitis |\n|---|---|---|---|\n| Age | 6 months-3 years | Classically 2-7 years (now rare) | Any, often after viral croup |\n| Cause | Parainfluenza and other viruses | Hib (rare since vaccine), strep, staph | Staph aureus, strep |\n| Onset | Coryza, then barking cough, worse at night | Hours; very unwell | Croup that suddenly worsens |\n| Cough | **Barking** | Usually absent | Present, harsh |\n| Look | Usually not toxic | **Toxic, drooling, sitting forward (tripod), soft muffled voice**, cannot swallow | Toxic, high fever |\n\n**Severe croup**: stridor at rest, marked recession, agitation or lethargy, hypoxia. Give **nebulised adrenaline** (RCH uses 0.5 mL/kg of 1:1000, maximum 5 mL) plus a corticosteroid (oral **dexamethasone 0.15-0.3 mg/kg** or prednisolone), observe for several hours afterwards because the adrenaline effect wears off, and involve senior/anaesthetic help if it is not responding. Keep the child calm on the parent's lap.\n\n**Suspected epiglottitis**: **do not examine the throat, lie the child down, or upset them** (for example cannulating or X-raying) because this can precipitate complete obstruction. Call the most senior anaesthetist and ENT, secure the airway in theatre, then give IV antibiotics (third-generation cephalosporin) after cultures. Close contacts of Hib disease may need rifampicin prophylaxis (public health advice).\n\n**Bacterial tracheitis**: suspect when a child with \"croup\" becomes toxic and does not respond to adrenaline; often needs intubation and IV antibiotics."
+        },
+        {
+          "kind": "management",
+          "heading": "Acute asthma in the emergency department",
+          "body": "Assess severity using the whole picture; do not rely on a single sign. Australian guidance (National Asthma Council Australian Asthma Handbook, RCH CPG) groups children roughly as:\n\n| Severity | Features |\n|---|---|\n| Mild/moderate | Can talk in sentences, mild or moderate work of breathing, alert |\n| Severe | Can say only words, marked recession, agitation, SpO2 below about 92% |\n| Life-threatening | **Silent chest, cyanosis, drowsiness or exhaustion, unable to speak**, poor respiratory effort |\n\n**Treatment**\n- **Salbutamol by pMDI and spacer**: 6 puffs for age 1-5, 12 puffs for age 6 and over, repeated as needed (every 20 minutes in the first hour for moderate-severe). Spacers work as well as nebulisers in most children; nebulise with oxygen if life-threatening or if hypoxic and unable to use a spacer.\n- **Oxygen** to keep SpO2 in the target range (usually 92-95%).\n- **Oral prednisolone** about 1 mg/kg daily (check RCH/AAH for maximum and duration) for moderate to severe attacks.\n- **Ipratropium** added in the first hour for severe or life-threatening asthma.\n- Escalation: IV magnesium sulfate, IV salbutamol or aminophylline, non-invasive ventilation, PICU. Life-threatening asthma needs senior help immediately.\n\n**Discharge**: stable on 3-hourly or less frequent salbutamol, a written **asthma action plan**, spacer technique checked, preventer reviewed, GP follow-up within a few days."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Traps and discriminating clues",
+          "body": "- **Unilateral wheeze in a toddler = foreign body until proven otherwise**, even without a witnessed choking episode. Normal X-ray does not change the answer: bronchoscopy.\n- Drooling, sitting forward, no cough, toxic: epiglottitis. The correct answer is \"call senior anaesthetist and ENT\", and the wrong answers are \"examine the throat with a tongue depressor\" and \"lateral neck X-ray\".\n- Croup that stops responding and becomes toxic: bacterial tracheitis.\n- A silent chest in asthma is not improvement; it is life-threatening.\n- Choking with an effective cough: encourage coughing, do not intervene.\n- Spacer over nebuliser for most children with acute asthma."
+        }
+      ],
+      "keyPoints": [
+        "Choking: effective cough, encourage; ineffective cough, 5 back blows then 5 chest thrusts; unconscious, CPR.",
+        "No blind finger sweeps.",
+        "Inhaled foreign body: sudden choking then unilateral wheeze; rigid bronchoscopy even if the X-ray is normal.",
+        "Expiratory film shows unilateral air trapping with mediastinal shift away from the affected side.",
+        "Epiglottitis: drooling, toxic, tripod, no barking cough; do not examine the throat; senior airway help.",
+        "Severe croup: nebulised adrenaline plus dexamethasone, then observe.",
+        "Acute asthma: salbutamol via spacer (6 puffs under 6, 12 puffs 6 and over), oral prednisolone, ipratropium if severe."
+      ],
+      "redFlags": [
+        "Stridor at rest or soft stridor with exhaustion",
+        "Drooling and inability to swallow",
+        "Silent chest, cyanosis or drowsiness in asthma",
+        "Toxic child with croup not responding to adrenaline",
+        "Ineffective cough in a choking child"
+      ],
+      "contrast": [
+        {
+          "aspect": "Choking first aid",
+          "india": "Heimlich (abdominal thrusts) commonly taught for children.",
+          "australia": "ANZCOR: back blows then chest thrusts; abdominal thrusts are not recommended."
+        },
+        {
+          "aspect": "Acute asthma delivery",
+          "india": "Nebulisers widely used in casualty.",
+          "australia": "pMDI with spacer is first-line for most children; nebulise if life-threatening."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "First action for a choking toddler who cannot cough effectively but is conscious?",
+          "back": "Call 000; up to 5 back blows, then up to 5 chest thrusts, alternating."
+        },
+        {
+          "front": "Radiological sign of an inhaled foreign body on expiratory film?",
+          "back": "Unilateral hyperinflation (air trapping) with mediastinal shift away from the affected side."
+        },
+        {
+          "front": "Definitive management of suspected inhaled foreign body?",
+          "back": "Rigid bronchoscopy under general anaesthesia."
+        },
+        {
+          "front": "Salbutamol dose via spacer for a 4-year-old with acute asthma?",
+          "back": "6 puffs (12 puffs if 6 years or older)."
+        },
+        {
+          "front": "Nebulised adrenaline dose for severe croup (RCH)?",
+          "back": "0.5 mL/kg of 1:1000, maximum 5 mL."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "paediatric-emergencies--airway-emergencies--q1",
+          "discipline": "child-health",
+          "topic": "paediatric-emergencies",
+          "difficulty": "core",
+          "stem": "A 20-month-old boy has had a cough for 10 days. His mother recalls he coughed and went red while eating mixed nuts at a family barbecue, but he seemed fine afterwards. He is afebrile, SpO2 96% in room air, and there is reduced air entry with wheeze over the right lung only. An inspiratory chest X-ray is reported as normal. What is the most appropriate next step?",
+          "options": [
+            "Trial of inhaled salbutamol via spacer and review in 48 hours",
+            "Oral amoxicillin for 5 days",
+            "Reassure, as the chest X-ray is normal",
+            "Arrange a sweat chloride test",
+            "Refer for urgent rigid bronchoscopy"
+          ],
+          "answer": 4,
+          "explanation": "A witnessed **choking episode followed by persistent cough and unilateral wheeze** in a toddler is an **inhaled foreign body** until proven otherwise. Nuts are radiolucent, so the X-ray is often normal; an expiratory or decubitus film may show air trapping, but a normal film does not exclude it.\n\nThe diagnostic and therapeutic procedure is **rigid bronchoscopy** under general anaesthetic. Delay risks obstructive pneumonia, bronchiectasis and, with nuts, a marked inflammatory reaction.\n\n**Discriminating clue:** unilateral signs. Asthma and viral wheeze are bilateral.",
+          "whyWrong": [
+            "Treating as asthma delays removal; unilateral wheeze is not asthma.",
+            "There is no infection yet, and antibiotics will not remove the object.",
+            "A normal X-ray does not exclude a radiolucent foreign body.",
+            "Cystic fibrosis does not cause sudden-onset unilateral signs after choking.",
+            ""
+          ],
+          "tags": [
+            "foreign body",
+            "airway",
+            "bronchoscopy"
+          ]
+        },
+        {
+          "id": "paediatric-emergencies--airway-emergencies--q2",
+          "discipline": "child-health",
+          "topic": "paediatric-emergencies",
+          "difficulty": "exam",
+          "stem": "A 4-year-old girl who recently arrived from overseas with an incomplete immunisation history presents with 6 hours of high fever. She is sitting upright leaning forward, drooling, with a soft inspiratory stridor and a muffled voice. She has no cough. Temperature 39.9 °C, HR 160/min, SpO2 94% on room air. What is the most appropriate immediate action?",
+          "options": [
+            "Examine the pharynx with a tongue depressor to look at the epiglottis",
+            "Keep her calm with her parent, give oxygen as tolerated, and call the senior anaesthetist and ENT surgeon",
+            "Insert an IV cannula and take blood cultures before anything else",
+            "Arrange a lateral soft-tissue neck X-ray",
+            "Give oral dexamethasone and discharge with croup advice"
+          ],
+          "answer": 1,
+          "explanation": "Toxic appearance, drooling, tripod posture, muffled voice and **absence of a barking cough** point to **acute epiglottitis**. It is rare since Hib vaccination, which is why the incomplete immunisation history is the discriminating clue.\n\nAnything that distresses the child (examining the throat, cannulation, lying her flat, sending her to radiology) can precipitate **complete airway obstruction**. Keep her calm upright on the parent, give oxygen if tolerated, and summon the most experienced anaesthetist and ENT surgeon to secure the airway in theatre. Cultures and IV antibiotics (third-generation cephalosporin) follow once the airway is safe.",
+          "whyWrong": [
+            "Examining the throat can precipitate complete obstruction.",
+            "",
+            "Cannulation distresses the child; do it once the airway is secured.",
+            "Leaving the resuscitation area for X-ray is dangerous and delays airway control.",
+            "This is not croup; she is toxic with no barking cough."
+          ],
+          "tags": [
+            "epiglottitis",
+            "stridor",
+            "airway"
+          ]
+        },
+        {
+          "id": "paediatric-emergencies--airway-emergencies--q3",
+          "discipline": "child-health",
+          "topic": "paediatric-emergencies",
+          "difficulty": "foundation",
+          "stem": "A 7-year-old boy with known asthma is brought to the emergency department with 1 day of worsening wheeze. He can only say single words, has marked subcostal recession and is agitated. RR 40/min, HR 140/min, SpO2 90% in room air. What is the most appropriate initial treatment?",
+          "options": [
+            "Oxygen and salbutamol 12 puffs via spacer, repeated every 20 minutes, plus ipratropium and oral prednisolone",
+            "IV aminophylline infusion",
+            "Oral montelukast and review in 1 hour",
+            "Salbutamol 2 puffs without a spacer",
+            "Nebulised budesonide alone"
+          ],
+          "answer": 0,
+          "explanation": "Speaking in words, marked recession, agitation and SpO2 under about 92% indicate **severe acute asthma**. First-line treatment is **oxygen** to target saturations, **frequent salbutamol** (12 puffs via spacer for a child 6 or older, or nebulised if unable to use a spacer or life-threatening), **ipratropium** added in the first hour for severe attacks, and **oral prednisolone**.\n\nIV agents (magnesium, salbutamol, aminophylline) are escalation for children not responding. Montelukast and inhaled corticosteroids are preventers and do nothing for an acute severe attack.",
+          "whyWrong": [
+            "",
+            "Aminophylline is a later escalation step, not first-line.",
+            "Montelukast is a preventer, not acute treatment.",
+            "Inadequate dose, and a spacer is needed for effective delivery.",
+            "Inhaled steroids alone do not relieve acute bronchospasm."
+          ],
+          "ausPearl": "The National Asthma Council's Australian Asthma Handbook is the reference for asthma dosing and action plans.",
+          "tags": [
+            "asthma",
+            "acute",
+            "salbutamol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paediatric-emergencies--anaphylaxis",
+      "title": "Anaphylaxis in children",
+      "minutes": 12,
+      "objectives": [
+        "Diagnose anaphylaxis using ASCIA criteria, including presentations without skin signs",
+        "Give the correct IM adrenaline dose and choose the right autoinjector for a child's weight",
+        "Manage refractory anaphylaxis and know the observation period after treatment",
+        "Arrange discharge with an ASCIA action plan, autoinjector training and allergist referral"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "What anaphylaxis is and why Australia takes it seriously",
+          "body": "Anaphylaxis is a **severe, potentially life-threatening systemic allergic reaction**. Australia has one of the highest rates of childhood food allergy in the world: about 1 in 10 infants in Melbourne's HealthNuts study had a challenge-proven food allergy. Common triggers in children are **peanut, tree nuts, egg, cow's milk, sesame, fish and shellfish**; insect stings (bees, jack jumper ants in Tasmania and south-east Australia) and medicines matter too, especially in older children.\n\nBecause of this, schools and childcare centres in Australia hold **ASCIA action plans**, staff are trained in autoinjector use, and many schools keep a general-use autoinjector. The Australasian Society of Clinical Immunology and Allergy (**ASCIA**) sets the national guidance."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Mechanism",
+          "body": "In IgE-mediated anaphylaxis, allergen cross-links specific IgE on **mast cells and basophils**, which degranulate and release histamine, tryptase, leukotrienes and prostaglandins. These cause:\n\n- **Vasodilation and capillary leak**: hypotension, distributive shock (up to a third of circulating volume can shift out of vessels).\n- **Smooth muscle contraction**: bronchospasm, abdominal cramps, vomiting.\n- **Mucosal oedema**: lip, tongue and laryngeal swelling.\n\n**Adrenaline** reverses all three: alpha-1 vasoconstriction (raises BP, reduces oedema), beta-1 inotropy, beta-2 bronchodilation, and it stabilises mast cells. Antihistamines only block one mediator and act too slowly, which is why they are not a treatment for anaphylaxis.\n\nRisk factors for severe or fatal reactions: **asthma (especially poorly controlled)**, adolescence (risk-taking, delayed adrenaline), peanut/tree nut allergy, and delay in giving adrenaline."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Recognition (ASCIA)",
+          "body": "Anaphylaxis is likely when there is an **acute onset illness (minutes to hours) with skin or mucosal features (urticaria, flushing, lip swelling) plus involvement of the respiratory or cardiovascular system, or severe gastrointestinal symptoms**. It can also be diagnosed **without skin features**: acute hypotension, bronchospasm or upper airway obstruction after exposure to a known or likely allergen.\n\nFeatures that mean anaphylaxis (on the ASCIA action plan):\n\n- Difficult or noisy breathing, wheeze or persistent cough\n- Swelling of the tongue, swelling or tightness in the throat\n- Difficulty talking or hoarse voice\n- Persistent dizziness or collapse\n- **Pale and floppy (young children)**\n- Abdominal pain and vomiting are signs of anaphylaxis **for insect allergy**\n\nHives, facial swelling or tingling mouth alone is a **mild to moderate allergic reaction**: give a non-sedating antihistamine and watch closely for progression.\n\nDifferentials are covered next."
+        },
+        {
+          "kind": "differentials",
+          "heading": "What else it could be",
+          "body": "| Condition | How it differs from anaphylaxis |\n|---|---|\n| **Vasovagal syncope** | Pallor, sweating, nausea, **bradycardia**; no urticaria, wheeze or stridor; recovers within a minute or two when lying flat. Common with injections, including vaccination |\n| **Acute asthma alone** | Wheeze without skin, cardiovascular or GI features and without a clear allergen trigger. But a food-allergic child with sudden wheeze after eating has anaphylaxis until proven otherwise |\n| **Generalised urticaria/angioedema alone** | Skin and lips only, no airway, breathing or circulatory involvement: mild to moderate allergic reaction (antihistamine, observe) |\n| **Hereditary angioedema** | Swelling without urticaria or itch, recurrent, family history; does not respond to adrenaline well; bradykinin-mediated |\n| **Septic shock** | Fever, gradual onset, no allergen exposure |\n| **Panic or hyperventilation** | Paraesthesiae, normal BP and saturations, no urticaria |\n| **Breath-holding spell** | Clear emotional trigger, rapid recovery |\n| **Inhaled foreign body** | Choking while eating, then cough or unilateral wheeze, without skin features |\n\nThe practical rule: **if in doubt, give adrenaline**. IM adrenaline at the correct dose is very safe in children, while delay is the commonest factor in fatal anaphylaxis. Vaccination clinics in Australia keep adrenaline on hand and observe children for 15 minutes after vaccines for this reason, and staff must be able to tell a faint from anaphylaxis.\n\nFood protein-induced enterocolitis syndrome (FPIES) is another mimic in infants: repetitive profuse vomiting 1-4 hours after a trigger food (often cow's milk, rice or egg), pallor and lethargy, with no skin or respiratory features. It is not IgE-mediated and is treated with fluids (ondansetron may help), not adrenaline."
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment",
+          "body": "**Immediately**\n\n1. **Remove the allergen** if possible (flick out a bee sting).\n2. **Lay the child flat**; do not let them stand or walk (sudden upright posture has caused fatal cardiovascular collapse). If breathing is difficult, allow them to sit with legs outstretched. Hold infants horizontally, not upright.\n3. **IM adrenaline into the anterolateral thigh**: **0.01 mg/kg** of 1:1000 (0.01 mL/kg), maximum 0.5 mg. Autoinjectors: **150 microg for 7.5-20 kg, 300 microg for over 20 kg**.\n4. Call 000 / call for help, give oxygen and start CPR if needed.\n5. **Repeat adrenaline every 5 minutes** if no response.\n6. Give asthma reliever **after** adrenaline if wheezy.\n\n**In hospital**\n- IV access, **fluid bolus 20 mL/kg** 0.9% sodium chloride for hypotension.\n- Persistent or worsening after 2-3 IM doses: **adrenaline infusion** under senior guidance, with specialist/PICU involvement.\n- **Mast cell tryptase** (ideally within 1-2 hours of onset and again later) helps confirm the diagnosis afterwards.\n- Corticosteroids and antihistamines are adjuncts only. Avoid sedating antihistamines (promethazine), which can cause hypotension and mask drowsiness.\n\n**Observation**: at least **4 hours** after the last adrenaline dose (ASCIA), longer (often overnight) for severe reactions, needing more than one dose, asthma, or presentation at night, because biphasic reactions occur.\n\n**Discharge checklist**\n- Prescribe an adrenaline autoinjector (PBS-subsidised) and train the family.\n- Provide an **ASCIA action plan for anaphylaxis** (red plan) and a copy for school or childcare.\n- Refer to a **clinical immunology/allergy specialist**.\n- Optimise asthma control.\n- Allergen avoidance education, and a medical alert device for older children."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC tests anaphylaxis",
+          "body": "- The answer is almost always **IM adrenaline into the lateral thigh**, now. Not IV (outside cardiac arrest or monitored infusion), not subcutaneous, not antihistamine first.\n- Check the dose arithmetic: 0.01 mg/kg = **0.01 mL/kg of 1:1000**. An 18 kg child: 0.18 mg, or a 150 microg autoinjector.\n- Autoinjector weights: **7.5-20 kg = 150 microg; over 20 kg = 300 microg**.\n- \"Pale and floppy\" in a toddler after eating = anaphylaxis, even without hives.\n- The child who looks better after adrenaline still needs **4 hours of observation**.\n- Asthma is the biggest risk factor for fatal food anaphylaxis."
+        }
+      ],
+      "keyPoints": [
+        "Anaphylaxis: skin/mucosal features plus respiratory, cardiovascular or severe GI involvement; skin signs may be absent.",
+        "IM adrenaline 0.01 mg/kg (0.01 mL/kg of 1:1000), max 0.5 mg, anterolateral thigh; repeat every 5 minutes.",
+        "Autoinjector: 150 microg for 7.5-20 kg, 300 microg for over 20 kg.",
+        "Lay flat; do not stand or walk the child.",
+        "Antihistamines and steroids are not first-line.",
+        "Observe at least 4 hours after the last adrenaline dose.",
+        "Discharge with autoinjector, ASCIA action plan and allergist referral."
+      ],
+      "redFlags": [
+        "Hoarse voice, throat tightness or stridor",
+        "Wheeze or persistent cough after allergen exposure",
+        "Pale and floppy young child",
+        "Hypotension or collapse",
+        "Poorly controlled asthma in a food-allergic child"
+      ],
+      "contrast": [
+        {
+          "aspect": "Community adrenaline",
+          "india": "Adrenaline usually given in hospital; autoinjectors uncommon and costly.",
+          "australia": "PBS-subsidised autoinjectors carried by at-risk children; schools hold action plans and trained staff."
+        },
+        {
+          "aspect": "First drug given",
+          "india": "Antihistamine and hydrocortisone often given first in practice.",
+          "australia": "IM adrenaline first; antihistamines and steroids are adjuncts only (ASCIA)."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "IM adrenaline dose for paediatric anaphylaxis?",
+          "back": "0.01 mg/kg (0.01 mL/kg of 1:1000), max 0.5 mg, anterolateral thigh."
+        },
+        {
+          "front": "Which autoinjector for a 16 kg child?",
+          "back": "150 microg (for 7.5-20 kg)."
+        },
+        {
+          "front": "Which autoinjector for a 25 kg child?",
+          "back": "300 microg (for over 20 kg)."
+        },
+        {
+          "front": "Minimum observation after adrenaline for anaphylaxis (ASCIA)?",
+          "back": "At least 4 hours after the last dose."
+        },
+        {
+          "front": "Biggest risk factor for fatal food anaphylaxis in children?",
+          "back": "Asthma, particularly if poorly controlled."
+        },
+        {
+          "front": "Blood test that helps confirm anaphylaxis retrospectively?",
+          "back": "Serum mast cell tryptase, taken within 1-2 hours of onset."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "paediatric-emergencies--anaphylaxis--q1",
+          "discipline": "child-health",
+          "topic": "paediatric-emergencies",
+          "difficulty": "foundation",
+          "stem": "A 5-year-old girl weighing 18 kg develops lip swelling, widespread hives and a hoarse voice 10 minutes after eating a biscuit containing cashew at a party. She is wheezy. What is the most appropriate first treatment?",
+          "options": [
+            "Oral cetirizine",
+            "IV hydrocortisone",
+            "Salbutamol via spacer",
+            "Adrenaline 150 microg autoinjector into the lateral thigh",
+            "Adrenaline 300 microg autoinjector into the deltoid"
+          ],
+          "answer": 3,
+          "explanation": "Hives and lip swelling plus a **hoarse voice and wheeze** after nut ingestion is **anaphylaxis** (skin features plus airway and respiratory involvement). First-line treatment is **IM adrenaline into the anterolateral thigh**, where absorption is fastest.\n\nFor children **7.5-20 kg** the autoinjector dose is **150 microg**; over 20 kg it is 300 microg. The weight-based dose (0.01 mg/kg = 0.18 mg) is close to 150 microg.\n\nSalbutamol may be given **after** adrenaline for persistent wheeze. Antihistamines and steroids are adjuncts and do not treat airway oedema or shock.",
+          "whyWrong": [
+            "Antihistamines do not treat airway oedema or shock and are too slow.",
+            "Steroids are adjuncts at best and act over hours.",
+            "Salbutamol is given after adrenaline, not instead of it.",
+            "",
+            "Wrong dose for her weight, and the thigh is the recommended site."
+          ],
+          "tags": [
+            "anaphylaxis",
+            "adrenaline",
+            "food allergy"
+          ]
+        },
+        {
+          "id": "paediatric-emergencies--anaphylaxis--q2",
+          "discipline": "child-health",
+          "topic": "paediatric-emergencies",
+          "difficulty": "core",
+          "stem": "A 9-year-old boy with peanut allergy and asthma was given IM adrenaline by his teacher 40 minutes ago for vomiting, wheeze and throat tightness after eating a muesli bar. In the emergency department he is now comfortable, with a clear chest, BP 105/65 mmHg and no urticaria. His mother asks to take him home. What is the most appropriate advice?",
+          "options": [
+            "He can go home now because his symptoms have resolved",
+            "He should be observed for at least 4 hours after the adrenaline dose before discharge",
+            "He can go home if he takes an oral antihistamine for 3 days",
+            "He needs admission for 48 hours of IV corticosteroids",
+            "He should go home and see an allergist within a week, without an autoinjector until then"
+          ],
+          "answer": 1,
+          "explanation": "Adrenaline wears off within minutes to an hour, and **biphasic reactions** can occur hours later. ASCIA recommends observation for **at least 4 hours after the last adrenaline dose**, and longer (often overnight) for a severe reaction, more than one dose needed, **asthma**, or late presentation. This boy has asthma, which is the strongest risk factor for fatal food anaphylaxis, so a longer observation period is reasonable.\n\nBefore discharge: an adrenaline autoinjector prescription and training, an ASCIA action plan (with a copy for school), asthma review and allergist referral.",
+          "whyWrong": [
+            "Too early: biphasic reactions and waning adrenaline make immediate discharge unsafe.",
+            "",
+            "Antihistamines do not prevent biphasic anaphylaxis.",
+            "Prolonged steroid admission is not indicated.",
+            "He must leave with an autoinjector and action plan."
+          ],
+          "ausPearl": "ASCIA action plans are the standard document for schools and childcare in Australia.",
+          "tags": [
+            "anaphylaxis",
+            "observation",
+            "asthma"
+          ]
+        },
+        {
+          "id": "paediatric-emergencies--anaphylaxis--q3",
+          "discipline": "child-health",
+          "topic": "paediatric-emergencies",
+          "difficulty": "exam",
+          "stem": "A 14-month-old boy (10 kg) is brought to the emergency department 15 minutes after his first taste of scrambled egg. He vomited twice and is now pale, floppy and unusually quiet. There is no rash. HR 175/min, capillary refill 4 seconds, BP 62/35 mmHg. What is the most appropriate first step?",
+          "options": [
+            "Give promethazine IM",
+            "Give IM adrenaline 0.1 mg into the anterolateral thigh",
+            "Give a 20 mL/kg fluid bolus and observe the response before any drug",
+            "Give ondansetron and reassess after an hour",
+            "Give IV adrenaline 1 mg"
+          ],
+          "answer": 1,
+          "explanation": "Anaphylaxis can occur **without skin signs**. In young children, being **pale and floppy** after a likely allergen is a sign of cardiovascular involvement, and this infant is hypotensive and poorly perfused. The first treatment is **IM adrenaline 0.01 mg/kg** (0.1 mg = 0.1 mL of 1:1000 for 10 kg) into the lateral thigh, lying the child flat.\n\nA fluid bolus (20 mL/kg) is appropriate **as well**, once access is obtained, but must not delay adrenaline. Promethazine is contraindicated in young children and worsens hypotension. IV adrenaline 1 mg is the adult cardiac arrest dose.",
+          "whyWrong": [
+            "Sedating antihistamines are contraindicated in young children and worsen hypotension.",
+            "",
+            "Fluids help but adrenaline comes first; delaying it is dangerous.",
+            "Treating vomiting misses anaphylactic shock.",
+            "A 1 mg IV bolus is an adult arrest dose and would be dangerous here."
+          ],
+          "tags": [
+            "anaphylaxis",
+            "shock",
+            "infant"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paediatric-emergencies--seizures-status-epilepticus",
+      "title": "Seizures and status epilepticus",
+      "minutes": 14,
+      "objectives": [
+        "Treat convulsive status epilepticus using the time-based RCH approach with midazolam first line",
+        "Identify simple and complex febrile seizures and counsel parents accurately",
+        "Find and treat reversible causes (hypoglycaemia, hyponatraemia, meningitis, head injury)",
+        "Distinguish seizures from common mimics such as breath-holding spells and reflex anoxic syncope"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why timing matters",
+          "body": "Most seizures stop by themselves within 5 minutes. A seizure lasting **5 minutes or more is unlikely to stop spontaneously**, and the longer it goes on the harder it is to terminate, because GABA-A receptors are internalised from the synapse (so benzodiazepines lose effect) while excitatory NMDA receptors increase. That is the mechanistic reason for **treating at 5 minutes** and escalating quickly.\n\n**Convulsive status epilepticus** is now defined practically as a seizure lasting 5 minutes or more, or repeated seizures without return to baseline in between. It carries risk of hypoxia, aspiration, hyperthermia and neuronal injury.\n\nCommon causes in children: **febrile status**, known epilepsy (missed medication), CNS infection, **hypoglycaemia**, electrolyte disturbance (hyponatraemia, hypocalcaemia in infants), head injury (including abusive head trauma) and poisoning."
+        },
+        {
+          "kind": "management",
+          "heading": "Status epilepticus: the RCH pathway",
+          "body": "**0 minutes**: ABC, high-flow oxygen, recovery position, time the seizure. **Check glucose** (treat hypoglycaemia with 10% glucose 2 mL/kg).\n\n**At 5 minutes: first-line benzodiazepine**\n\n| Route | Midazolam dose |\n|---|---|\n| Buccal or intranasal | **0.3 mg/kg** (max 10 mg) |\n| IM | 0.2 mg/kg (max 10 mg) |\n| IV/IO | 0.15 mg/kg (max 5 mg) |\n\nMidazolam by the buccal or intranasal route is ideal pre-hospital and for carers (it is on many children's seizure management plans). IV diazepam is an alternative when access exists. Rectal diazepam is used less now.\n\n**At 10 minutes**: if still seizing, **one repeat dose** of benzodiazepine. Count doses already given by paramedics or parents; more than two doses causes respiratory depression without much extra benefit.\n\n**At 15-20 minutes: second-line agent** (loading doses per RCH or local guideline):\n- **Levetiracetam** IV, or\n- **Phenytoin** IV (ECG monitoring; avoid in known phenytoin-sensitive epilepsy or suspected drug-induced seizures), or\n- Phenobarbital (often preferred in neonates).\n\n**Around 40 minutes (refractory)**: rapid sequence intubation with an anaesthetic agent, and PICU.\n\n**Look for the cause** in parallel: glucose, electrolytes (sodium, calcium, magnesium), blood gas, FBC, cultures, anticonvulsant levels if relevant, toxicology. CT if focal features, head injury or no recovery. LP only when stable, with no raised ICP signs."
+        },
+        {
+          "kind": "investigations",
+          "heading": "What to test, and when not to",
+          "body": "Tailor investigations to the child, not to the fact of a seizure.\n\n| Situation | Investigations |\n|---|---|\n| Any seizure with ongoing reduced consciousness | **Bedside glucose**, venous gas, electrolytes (sodium, calcium, magnesium), FBC, blood culture if febrile |\n| Infant under 6 months, or no fever and first seizure | Glucose, sodium, calcium and magnesium are more likely to be abnormal; consider metabolic screen and septic workup |\n| Suspected meningitis/encephalitis | Blood culture and antibiotics (plus aciclovir if encephalitis possible) first; LP only when stable with no raised ICP signs |\n| Focal seizure, focal deficit, head injury, not recovering | **CT** urgently (MRI later for epilepsy workup) |\n| Known epilepsy | Anticonvulsant levels where useful (for example phenytoin), and look for triggers such as missed doses or intercurrent illness |\n| Possible ingestion | Toxicology advice, ECG (wide QRS with TCAs) |\n| Unexplained seizure in an infant | Consider abusive head trauma: CT, ophthalmology, skeletal survey |\n\nA **first unprovoked afebrile seizure** in a well child who has recovered is usually referred to a paediatrician for **EEG** (which helps classify the epilepsy syndrome and predict recurrence), with MRI if focal features. A single seizure is not epilepsy: epilepsy is usually diagnosed after two or more unprovoked seizures more than 24 hours apart. Those details are covered in the chronic conditions topic. Driving is not an issue for young children, but for adolescents Austroads fitness-to-drive standards apply after a seizure."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Febrile seizures",
+          "body": "The commonest seizure of childhood: about **3% of children** have one, between **6 months and 6 years**, with fever and no CNS infection or metabolic cause.\n\n| Simple | Complex |\n|---|---|\n| Generalised | Focal features |\n| Under 15 minutes | 15 minutes or longer |\n| Single in 24 hours | Recurs within 24 hours |\n| Full recovery within about an hour | Prolonged post-ictal state or Todd paresis |\n\n**Assessment**: find the source of fever. The key question is **\"could this be meningitis?\"** Look for meningism, bulging fontanelle, petechiae, prolonged drowsiness. Children under 12-18 months may not show meningism, so senior review and a lower threshold for LP apply in the very young, the unimmunised, or those pre-treated with antibiotics. Routine bloods, EEG and imaging are not needed after a simple febrile seizure.\n\n**Counselling (what parents need to hear)**:\n- It is frightening but a simple febrile seizure **does not cause brain damage**.\n- About **1 in 3 children have another** febrile seizure; risk is higher if the first was under 18 months, there is a family history, or it occurred at a low temperature or soon after fever onset.\n- The risk of later epilepsy is only slightly above the general population for simple seizures (higher for complex ones).\n- **Paracetamol or ibuprofen do not prevent febrile seizures**; use them only for comfort.\n- First aid: lie the child on the side, nothing in the mouth, time it, call an ambulance if it lasts 5 minutes or more."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Things that look like seizures",
+          "body": "| Condition | Clues |\n|---|---|\n| **Cyanotic breath-holding spell** | 6-18 months onset; triggered by anger or frustration; cries, stops breathing in expiration, goes blue, may go limp or briefly stiffen; rapid recovery |\n| **Reflex anoxic seizure (pallid spell)** | Triggered by sudden pain or fright (minor head bump); goes pale and limp from vagal asystole; may have brief jerks; rapid recovery |\n| Vasovagal syncope | Older child, standing, warning (hot, dizzy, vision greying), brief |\n| Rigors | Shaking with fever, conscious throughout |\n| Infant reflux (Sandifer) | Arching and posturing after feeds |\n| Benign sleep myoclonus | Jerks only in sleep, stop on waking |\n\nBreath-holding is associated with **iron deficiency**; checking iron studies and treating deficiency reduces spells. The key discriminator from epilepsy is the **trigger** preceding the event."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Traps",
+          "body": "- The answer to \"child still seizing at 5 minutes, no IV access\" is **buccal or intranasal midazolam 0.3 mg/kg** (or IM).\n- Always check the glucose. An AMC stem that gives a BSL of 2.1 mmol/L wants 10% glucose, not more midazolam.\n- Maximum two benzodiazepine doses in total, including pre-hospital doses; the next step is a second-line agent.\n- Simple febrile seizure in a well child with an obvious source (otitis media, viral URTI) and full recovery: no LP, no EEG, no imaging, reassure and educate.\n- A seizing infant with no fever and a retinal haemorrhage or unexplained bruise: think abusive head trauma.\n- Antipyretics do not prevent febrile seizures: parents often ask."
+        }
+      ],
+      "keyPoints": [
+        "Treat seizures lasting 5 minutes or more.",
+        "Midazolam first line: 0.3 mg/kg buccal/intranasal, 0.2 mg/kg IM, 0.15 mg/kg IV.",
+        "Maximum two benzodiazepine doses, then levetiracetam or phenytoin.",
+        "Always check glucose: 10% glucose 2 mL/kg for hypoglycaemia.",
+        "Febrile seizures: 6 months to 6 years, about 3% of children, recurrence about 1 in 3.",
+        "Simple febrile seizure needs no EEG, imaging or routine bloods; exclude meningitis clinically.",
+        "Antipyretics do not prevent febrile seizures."
+      ],
+      "redFlags": [
+        "Seizure lasting 5 minutes or longer",
+        "Not returning to baseline after the seizure",
+        "Meningism, petechial rash or bulging fontanelle",
+        "Focal neurological signs",
+        "Hypoglycaemia or hyponatraemia",
+        "Seizure in an infant with unexplained injury"
+      ],
+      "contrast": [
+        {
+          "aspect": "First-line benzodiazepine out of hospital",
+          "india": "Rectal diazepam is commonly taught.",
+          "australia": "Buccal or intranasal midazolam is preferred and appears on many children's seizure management plans."
+        },
+        {
+          "aspect": "Second-line agent",
+          "india": "Phenytoin or valproate commonly used.",
+          "australia": "Levetiracetam or phenytoin per RCH CPG; levetiracetam increasingly first choice."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Buccal/intranasal midazolam dose for status epilepticus?",
+          "back": "0.3 mg/kg (max 10 mg)."
+        },
+        {
+          "front": "IM midazolam dose for a seizing child?",
+          "back": "0.2 mg/kg (max 10 mg)."
+        },
+        {
+          "front": "When do you give the first benzodiazepine in a convulsing child?",
+          "back": "When the seizure has lasted 5 minutes."
+        },
+        {
+          "front": "Recurrence risk after a first febrile seizure?",
+          "back": "About 1 in 3."
+        },
+        {
+          "front": "Age range for febrile seizures?",
+          "back": "6 months to 6 years."
+        },
+        {
+          "front": "Investigation that may reduce cyanotic breath-holding spells?",
+          "back": "Iron studies: treating iron deficiency reduces spells."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "paediatric-emergencies--seizures-status-epilepticus--q1",
+          "discipline": "child-health",
+          "topic": "paediatric-emergencies",
+          "difficulty": "core",
+          "stem": "A 3-year-old boy (15 kg) with known epilepsy has been having a generalised tonic-clonic seizure for 7 minutes when paramedics arrive at his home. No medication has been given. They are unable to obtain IV access. Blood glucose is 5.8 mmol/L. What is the most appropriate next treatment?",
+          "options": [
+            "IV phenytoin 20 mg/kg",
+            "Rectal paracetamol",
+            "Intranasal or buccal midazolam 0.3 mg/kg",
+            "Oral levetiracetam",
+            "Wait until 15 minutes before giving medication"
+          ],
+          "answer": 2,
+          "explanation": "A seizure lasting **5 minutes or more** needs treatment because it is unlikely to stop on its own and becomes harder to terminate with time. The first-line drug is a **benzodiazepine**, and without IV access **buccal or intranasal midazolam 0.3 mg/kg** (max 10 mg) or IM midazolam 0.2 mg/kg is used. For 15 kg that is 4.5 mg.\n\nIf he is still seizing 5 minutes later, one further benzodiazepine dose may be given; then a second-line agent (levetiracetam or phenytoin) IV/IO.\n\nGlucose has been checked and is normal, which is the right habit.",
+          "whyWrong": [
+            "Phenytoin is second-line and needs IV/IO access.",
+            "Paracetamol does not stop seizures.",
+            "",
+            "Oral medication is unsafe and ineffective in a convulsing child.",
+            "Delaying treatment beyond 5 minutes makes the seizure harder to stop."
+          ],
+          "tags": [
+            "status epilepticus",
+            "midazolam",
+            "seizure"
+          ]
+        },
+        {
+          "id": "paediatric-emergencies--seizures-status-epilepticus--q2",
+          "discipline": "child-health",
+          "topic": "paediatric-emergencies",
+          "difficulty": "foundation",
+          "stem": "A 20-month-old girl had a 2-minute generalised seizure at home while febrile with a runny nose. On arrival 90 minutes later she is alert, playing and drinking. Temperature 38.9 °C, no rash, no neck stiffness, fontanelle closed, left tympanic membrane red and bulging. She is fully immunised. Her parents ask what this means. What is the most appropriate management?",
+          "options": [
+            "Lumbar puncture to exclude meningitis",
+            "Arrange an EEG and CT brain",
+            "Start regular paracetamol to prevent further seizures",
+            "Treat the otitis media as appropriate, explain that about 1 in 3 children have another febrile seizure, and teach seizure first aid",
+            "Start oral sodium valproate"
+          ],
+          "answer": 3,
+          "explanation": "This is a **simple febrile seizure**: generalised, under 15 minutes, single, full recovery, in a well, immunised child aged 6 months to 6 years with an identified source. No EEG, imaging or LP is needed when there are no features of meningitis.\n\nManagement is to **treat the source**, reassure and educate: febrile seizures do not cause brain damage, **recurrence occurs in about a third**, epilepsy risk is only slightly raised, and **antipyretics do not prevent recurrences**. Teach first aid (side position, nothing in the mouth, call an ambulance at 5 minutes).\n\nAnticonvulsants are not used for simple febrile seizures.",
+          "whyWrong": [
+            "LP is not needed in a well, immunised child with no meningism and a clear source.",
+            "EEG and imaging add nothing after a simple febrile seizure.",
+            "Antipyretics do not prevent febrile seizures.",
+            "",
+            "Long-term anticonvulsants are not indicated for simple febrile seizures."
+          ],
+          "tags": [
+            "febrile seizure",
+            "counselling",
+            "otitis media"
+          ]
+        },
+        {
+          "id": "paediatric-emergencies--seizures-status-epilepticus--q3",
+          "discipline": "child-health",
+          "topic": "paediatric-emergencies",
+          "difficulty": "exam",
+          "stem": "A 13-month-old boy is brought in after two episodes this week. Each time he was told 'no', he cried vigorously, then went silent, turned blue around the lips, went limp for about 15 seconds with a few jerks, and then recovered fully within a minute. Development and examination are normal. What is the most useful investigation?",
+          "options": [
+            "EEG",
+            "MRI brain",
+            "Iron studies and full blood count",
+            "24-hour Holter monitor",
+            "Serum calcium and magnesium"
+          ],
+          "answer": 2,
+          "explanation": "The **trigger** (frustration, being told off) followed by **crying, breath-holding in expiration, cyanosis, brief limpness and quick recovery** is a **cyanotic breath-holding spell**, common between 6 and 18 months. Brief jerks can occur from cerebral hypoxia and do not indicate epilepsy.\n\nBreath-holding spells are associated with **iron deficiency anaemia**, and iron supplementation reduces their frequency even when haemoglobin is only mildly low. So FBC and iron studies are the most useful tests. Reassurance, and advice not to reinforce the behaviour, are the mainstay.\n\nAn ECG is reasonable if pallid spells are frequent or atypical (to exclude long QT), but EEG and MRI are not indicated.",
+          "whyWrong": [
+            "EEG is not needed when the event is clearly provoked with rapid recovery.",
+            "Imaging is not indicated with normal development and examination.",
+            "",
+            "Cardiac monitoring is for atypical or pallid spells, not classic cyanotic spells.",
+            "Hypocalcaemic seizures are not triggered by crying and are not typical at this age."
+          ],
+          "tags": [
+            "breath-holding",
+            "seizure mimic",
+            "iron deficiency"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paediatric-emergencies--dehydration-and-dka",
+      "title": "Dehydration, fluids and paediatric DKA",
+      "minutes": 18,
+      "objectives": [
+        "Estimate dehydration using the most reliable signs (capillary refill, skin turgor, breathing pattern)",
+        "Choose oral, nasogastric or IV rehydration and calculate maintenance fluids",
+        "Diagnose and grade paediatric DKA and explain why fluids are replaced more slowly than in adults",
+        "Recognise and treat cerebral oedema in DKA"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why fluid in children is its own subject",
+          "body": "Children have a higher proportion of body water, a higher metabolic rate and a larger surface area to volume ratio than adults, so they dehydrate faster. Infants also depend on others for drinks. **Gastroenteritis** (now far less often rotavirus in Australia thanks to the vaccine) is the usual cause, and **DKA** is both the most common way type 1 diabetes presents in young children and the leading cause of diabetes-related death in childhood.\n\nThe mechanistic thread in this lesson is **sodium and water across the blood-brain barrier**. Hypotonic fluids and rapid falls in osmolality let water move into brain cells, causing **hyponatraemic encephalopathy** or **cerebral oedema**. That is why Australian paediatric guidance uses isotonic fluids and, in DKA, replaces deficit slowly."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Assessing dehydration",
+          "body": "Weight loss from a recent known weight is the gold standard but rarely available. Of the clinical signs, the **most useful individually** are:\n\n- **Prolonged capillary refill** (over 2 seconds, centrally)\n- **Reduced skin turgor**\n- **Abnormal respiratory pattern** (deep, acidotic breathing)\n\nRCH groups dehydration as:\n\n| Degree | Signs |\n|---|---|\n| **Mild (under 4%)** | No signs |\n| **Moderate (4-6%)** | Delayed capillary refill, increased respiratory rate, mildly reduced turgor, dry mucosa, sunken eyes |\n| **Severe (7% or more)** | Very delayed capillary refill, mottled skin, deep breathing, lethargy, **signs of shock** |\n\nRed flags in a child with vomiting/diarrhoea that suggest something other than simple gastro: **bilious (green) vomiting** (malrotation, obstruction), blood in stool, severe abdominal pain, high fever or toxicity, age under 6 months, headache and drowsiness, and **polyuria despite dehydration** (diabetes). Always consider DKA in a \"dehydrated\" child with deep breathing and no diarrhoea."
+        },
+        {
+          "kind": "management",
+          "heading": "Rehydration and maintenance fluids",
+          "body": "**Oral first**. Mild and moderate dehydration are treated with **oral rehydration solution** (for example Gastrolyte or Hydralyte) given as small frequent volumes (5 mL every few minutes in a vomiting toddler). Continue breastfeeding. Avoid undiluted fruit juice and soft drinks (high sugar, low sodium, worsen diarrhoea).\n\n**Ondansetron**: a single oral dose for children over 6 months with vomiting improves the success of oral rehydration (RCH).\n\n**Nasogastric rehydration** is preferred over IV for moderate dehydration when oral fails. RCH describes **rapid NG rehydration of 25 mL/kg/h for 4 hours** (100 mL/kg total) in suitable children.\n\n**IV fluids** for severe dehydration, shock, or failed NG:\n- Shock: **10-20 mL/kg 0.9% sodium chloride bolus**, reassess, repeat.\n- Then replace deficit plus maintenance using **isotonic fluid with glucose** (for example 0.9% sodium chloride with 5% glucose, or Plasma-Lyte 148 with 5% glucose). Check electrolytes and glucose.\n\n**Maintenance fluid (Holliday-Segar, \"4-2-1\")**\n\n| Weight | Per hour |\n|---|---|\n| First 10 kg | 4 mL/kg/h |\n| Next 10 kg | 2 mL/kg/h |\n| Each kg over 20 | 1 mL/kg/h |\n\nExample: 25 kg = 40 + 20 + 5 = **65 mL/h**. Deficit (mL) = % dehydration x weight (kg) x 10.\n\nAntidiarrhoeal drugs (loperamide) are contraindicated in young children. Antibiotics are not routine."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Paediatric DKA: mechanism",
+          "body": "Absolute insulin deficiency means cells cannot use glucose. Counter-regulatory hormones (glucagon, cortisol, catecholamines) drive **gluconeogenesis and lipolysis**; free fatty acids become **ketones** (beta-hydroxybutyrate, acetoacetate), causing a **high anion gap metabolic acidosis**. Hyperglycaemia causes **osmotic diuresis**, with loss of water, sodium and potassium. Total body potassium is depleted even when the serum level looks normal or high, because acidosis and insulin lack shift potassium out of cells.\n\n**Diagnosis** (ISPAD/RCH): **hyperglycaemia (glucose over 11 mmol/L)**, **venous pH under 7.3 or low bicarbonate** (the bicarbonate threshold differs slightly between guideline versions: check RCH/ISPAD), and **ketonaemia** (blood beta-hydroxybutyrate 3 mmol/L or more) or ketonuria.\n\n**Severity by pH**: mild 7.2-7.3, moderate 7.1-7.2, **severe under 7.1**.\n\nPresentation: polyuria, polydipsia, weight loss, bedwetting in a previously dry child, abdominal pain, vomiting, **Kussmaul breathing**, ketotic breath, drowsiness. Young children are often misdiagnosed with gastroenteritis or a chest infection (deep breathing mistaken for respiratory distress)."
+        },
+        {
+          "kind": "management",
+          "heading": "Treating DKA and recognising cerebral oedema",
+          "body": "Principles (follow the RCH/state DKA protocol; seek paediatric endocrinology/PICU advice):\n\n1. **Resuscitation**: ABC. If shocked or poorly perfused, **bolus 10 mL/kg 0.9% sodium chloride** (repeat if needed). Avoid large, repeated boluses in a child who is not shocked.\n2. **Deficit replacement slowly, over about 48 hours**, plus maintenance, using isotonic fluid. This is much slower than adult protocols.\n3. **Insulin infusion 0.05-0.1 units/kg/h**, started **after fluids have been running for about 1-2 hours**. **No insulin bolus.**\n4. **Potassium**: add to fluids once serum potassium is known and the child is passing urine (unless hyperkalaemic). Insulin drives potassium into cells and can cause dangerous hypokalaemia.\n5. **Add glucose** to fluids when blood glucose falls to around 14-15 mmol/L, so insulin can continue until ketones clear. Aim for a slow fall in glucose.\n6. **No bicarbonate** (associated with cerebral oedema).\n7. Hourly glucose, neuro obs and fluid balance; 2-4-hourly gas and electrolytes. The corrected sodium should rise as glucose falls; a falling sodium is a warning sign.\n\n**Cerebral oedema** usually appears **4-12 hours after treatment starts**. Risk factors: **young age, new diagnosis, severe acidosis, high urea, low pCO2, bicarbonate use, rapid fluid administration**, and failure of sodium to rise.\n\nWarning signs: **headache, irritability, falling GCS, bradycardia with rising BP (Cushing response)**, vomiting recurring after initial improvement, incontinence, cranial nerve palsy, abnormal posturing.\n\nTreatment: do not wait for imaging. Elevate the head, **reduce fluid rate**, give **mannitol 0.5-1 g/kg or 3% hypertonic saline** (per protocol), call PICU, then CT once stabilised."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC tests this",
+          "body": "- The three most useful dehydration signs: **capillary refill, skin turgor, respiratory pattern**.\n- Moderate dehydration with vomiting: **ORS plus single-dose ondansetron**, then NG if failing. IV is not first choice.\n- Bilious vomiting is never \"just gastro\".\n- A child with polyuria, weight loss and new bedwetting needs a **same-day finger-prick glucose and ketones**, not a urine culture next week.\n- In paediatric DKA, the wrong answers include: insulin bolus, starting insulin before fluids, bicarbonate, and adult-style rapid litres of saline.\n- **Headache and bradycardia during DKA treatment = cerebral oedema**: mannitol or hypertonic saline immediately."
+        }
+      ],
+      "keyPoints": [
+        "Best dehydration signs: prolonged capillary refill, reduced skin turgor, abnormal respiratory pattern.",
+        "Oral rehydration solution first; single-dose ondansetron over 6 months; NG before IV.",
+        "Maintenance 4-2-1 mL/kg/h with isotonic fluid plus glucose.",
+        "DKA: glucose over 11, venous pH under 7.3 or low bicarbonate, ketones 3 mmol/L or more.",
+        "Paediatric DKA: deficit over about 48 hours, insulin 0.05-0.1 units/kg/h after 1-2 hours of fluids, no bolus.",
+        "Add potassium early and glucose when BSL falls to about 14-15 mmol/L; no bicarbonate.",
+        "Cerebral oedema: headache, falling GCS, bradycardia, hypertension; treat with mannitol or 3% saline."
+      ],
+      "redFlags": [
+        "Bilious vomiting",
+        "Signs of shock (mottling, capillary refill over 3 s, lethargy)",
+        "Deep sighing breathing without diarrhoea (think DKA)",
+        "Headache or bradycardia during DKA treatment",
+        "Falling sodium during DKA treatment",
+        "Infant under 6 months with high-output diarrhoea"
+      ],
+      "contrast": [
+        {
+          "aspect": "IV maintenance fluid",
+          "india": "Hypotonic fluids (for example N/5 or N/2 with dextrose) historically common.",
+          "australia": "Isotonic fluid with glucose (0.9% saline + 5% glucose or Plasma-Lyte + glucose) to avoid hyponatraemia."
+        },
+        {
+          "aspect": "Moderate dehydration",
+          "india": "IV fluids are often started early.",
+          "australia": "ORS, ondansetron and rapid nasogastric rehydration preferred before IV (RCH)."
+        },
+        {
+          "aspect": "Type 1 diabetes at diagnosis",
+          "india": "DKA at presentation is common, often after missed diagnosis.",
+          "australia": "Also common; public campaigns (e.g. the 4Ts: toilet, thirsty, tired, thinner) promote same-day glucose testing."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Three most useful clinical signs of dehydration in children?",
+          "back": "Prolonged capillary refill, reduced skin turgor, abnormal (deep) respiratory pattern."
+        },
+        {
+          "front": "Hourly maintenance fluid for a 25 kg child?",
+          "back": "65 mL/h (40 + 20 + 5 by 4-2-1)."
+        },
+        {
+          "front": "Insulin infusion rate in paediatric DKA?",
+          "back": "0.05-0.1 units/kg/h, started after 1-2 hours of fluids; no bolus."
+        },
+        {
+          "front": "Over what period is the fluid deficit replaced in paediatric DKA?",
+          "back": "About 48 hours."
+        },
+        {
+          "front": "Classic signs of cerebral oedema in DKA?",
+          "back": "Headache, irritability, falling GCS, bradycardia, rising BP."
+        },
+        {
+          "front": "Drug treatment for cerebral oedema in DKA?",
+          "back": "Mannitol 0.5-1 g/kg or 3% hypertonic saline, plus head elevation and fluid restriction."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "paediatric-emergencies--dehydration-and-dka--q1",
+          "discipline": "child-health",
+          "topic": "paediatric-emergencies",
+          "difficulty": "foundation",
+          "stem": "A 2-year-old boy has had vomiting and watery diarrhoea for 2 days. He has vomited small sips of water. He is alert but irritable, with dry lips, sunken eyes, capillary refill of 3 seconds and mildly reduced skin turgor. HR 140/min. No blood in the stool and no bilious vomiting. What is the most appropriate management?",
+          "options": [
+            "A single oral dose of ondansetron, then small frequent volumes of oral rehydration solution",
+            "IV 0.45% sodium chloride with 5% glucose at maintenance",
+            "Oral loperamide and lemonade",
+            "Admit for IV antibiotics",
+            "Nil by mouth for 12 hours to rest the gut"
+          ],
+          "answer": 0,
+          "explanation": "He has **moderate dehydration (about 4-6%)**: prolonged capillary refill, reduced turgor, dry mucosa and tachycardia, but no shock.\n\nFirst-line treatment is **oral rehydration solution** in small, frequent volumes. A **single dose of oral ondansetron** (children over 6 months) reduces vomiting and makes oral rehydration more likely to succeed. If oral intake fails, **nasogastric rehydration** is preferred to IV.\n\nIV fluids are for shock, severe dehydration or NG failure, and hypotonic fluids like 0.45% saline increase hyponatraemia risk. Loperamide is contraindicated in young children, and fizzy drinks have too little sodium and too much sugar.",
+          "whyWrong": [
+            "",
+            "IV is not first-line for moderate dehydration, and hypotonic fluid risks hyponatraemia.",
+            "Loperamide is contraindicated in young children; soft drinks worsen diarrhoea.",
+            "Antibiotics are not indicated for uncomplicated viral gastroenteritis.",
+            "Fasting worsens dehydration."
+          ],
+          "tags": [
+            "dehydration",
+            "gastroenteritis",
+            "ondansetron"
+          ]
+        },
+        {
+          "id": "paediatric-emergencies--dehydration-and-dka--q2",
+          "discipline": "child-health",
+          "topic": "paediatric-emergencies",
+          "difficulty": "core",
+          "stem": "An 8-year-old girl is diagnosed with new-onset DKA. Weight 25 kg. Venous pH 7.05, bicarbonate 5 mmol/L, glucose 32 mmol/L, potassium 4.8 mmol/L, blood ketones 6.2 mmol/L. She is alert with capillary refill of 2 seconds and normal BP. What is the most appropriate initial approach?",
+          "options": [
+            "IV insulin bolus 0.1 units/kg, then infusion",
+            "IV sodium bicarbonate to correct pH",
+            "1 litre of 0.9% sodium chloride over 1 hour, then insulin",
+            "Isotonic fluid to replace the deficit slowly over about 48 hours plus maintenance, with insulin infusion 0.05-0.1 units/kg/h starting after 1-2 hours and potassium added once she passes urine",
+            "Subcutaneous insulin and oral fluids on the ward"
+          ],
+          "answer": 3,
+          "explanation": "This is **severe DKA** (pH under 7.1). She is not shocked, so there is no need for large boluses. Paediatric DKA management differs from adults because of the risk of **cerebral oedema**:\n\n- Replace the **deficit slowly over about 48 hours** plus maintenance, with isotonic fluid.\n- Start **insulin infusion 0.05-0.1 units/kg/h** after fluids have been running for 1-2 hours; **no bolus**.\n- Add **potassium** once the level is known and she is passing urine, because insulin will drive potassium into cells.\n- **No bicarbonate.**\n- Add glucose when BSL falls to about 14-15 mmol/L, and monitor neuro obs hourly.\n\nShe has several cerebral oedema risk factors: new diagnosis and severe acidosis.",
+          "whyWrong": [
+            "Insulin boluses are avoided in paediatric DKA; they cause rapid osmolar shifts and hypokalaemia.",
+            "Bicarbonate is associated with cerebral oedema and is not given.",
+            "Adult-style rapid litres risk cerebral oedema in a child who is not shocked.",
+            "",
+            "Severe DKA needs IV insulin and close monitoring, ideally HDU/PICU."
+          ],
+          "tags": [
+            "dka",
+            "diabetes",
+            "fluids"
+          ]
+        },
+        {
+          "id": "paediatric-emergencies--dehydration-and-dka--q3",
+          "discipline": "child-health",
+          "topic": "paediatric-emergencies",
+          "difficulty": "exam",
+          "stem": "A 5-year-old boy is 6 hours into treatment for newly diagnosed DKA. He was alert on arrival but now complains of a headache and has become irritable and confused. HR has fallen from 120/min to 62/min and BP has risen from 100/60 to 130/85 mmHg. Blood glucose is 12 mmol/L. What is the most appropriate immediate action?",
+          "options": [
+            "Arrange an urgent CT brain before any treatment",
+            "Give IV mannitol (or 3% hypertonic saline), elevate the head of the bed and reduce the IV fluid rate",
+            "Give a 20 mL/kg 0.9% sodium chloride bolus",
+            "Increase the insulin infusion rate",
+            "Give IV atropine for the bradycardia"
+          ],
+          "answer": 1,
+          "explanation": "Headache, irritability, falling conscious state, **bradycardia and rising blood pressure** a few hours into DKA treatment are the classic picture of **cerebral oedema**, the leading cause of death in paediatric DKA. It typically occurs 4-12 hours after treatment starts, and risk is higher in young children with new-onset diabetes.\n\nTreat clinically **without waiting for imaging**: **mannitol 0.5-1 g/kg IV or 3% hypertonic saline**, head of the bed elevated, reduce fluid rate, and call PICU for airway support. CT is done once the child is stabilised, to exclude other pathology such as thrombosis or haemorrhage.",
+          "whyWrong": [
+            "Imaging first delays life-saving treatment; this is a clinical diagnosis.",
+            "",
+            "More fluid worsens cerebral oedema.",
+            "Faster insulin speeds the osmolar fall and is not the treatment.",
+            "The bradycardia is a Cushing response to raised ICP; atropine treats nothing."
+          ],
+          "tags": [
+            "dka",
+            "cerebral oedema",
+            "raised icp"
+          ]
+        },
+        {
+          "id": "paediatric-emergencies--dehydration-and-dka--q4",
+          "discipline": "child-health",
+          "topic": "paediatric-emergencies",
+          "difficulty": "core",
+          "stem": "A 22 kg child with gastroenteritis is being admitted for IV fluids after failing oral and nasogastric rehydration. She is not shocked, and her electrolytes are normal. Which IV maintenance regimen is most appropriate before deficit is added?",
+          "options": [
+            "0.18% sodium chloride with 4% glucose at 62 mL/h",
+            "5% glucose alone at 62 mL/h",
+            "0.9% sodium chloride with 5% glucose at 62 mL/h",
+            "0.9% sodium chloride with 5% glucose at 88 mL/h",
+            "Plasma-Lyte 148 at 44 mL/h"
+          ],
+          "answer": 2,
+          "explanation": "Using **Holliday-Segar (4-2-1)**: 4 mL/kg/h for the first 10 kg (40), 2 mL/kg/h for the next 10 kg (20), and 1 mL/kg/h for each kg above 20 (2) gives **62 mL/h**.\n\nAustralian paediatric guidance uses **isotonic fluid with glucose** (0.9% sodium chloride + 5% glucose, or Plasma-Lyte 148 + 5% glucose) for maintenance, because sick children secrete ADH and hypotonic fluids cause **hyponatraemia and encephalopathy**. Glucose is included to prevent hypoglycaemia and ketosis.\n\nThe deficit is then added on top, and electrolytes are rechecked within 24 hours (sooner if abnormal).",
+          "whyWrong": [
+            "Hypotonic fluid risks hyponatraemic encephalopathy.",
+            "5% glucose alone is effectively free water and very dangerous.",
+            "",
+            "88 mL/h is 4 mL/kg/h for all 22 kg, an overestimate.",
+            "Wrong rate and no glucose for a child who is not eating."
+          ],
+          "tags": [
+            "fluids",
+            "maintenance",
+            "hyponatraemia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paediatric-emergencies--surgical-emergencies",
+      "title": "Acute abdomen and surgical emergencies",
+      "minutes": 15,
+      "objectives": [
+        "Recognise intussusception from its history and arrange ultrasound and air enema reduction",
+        "Treat bilious vomiting in an infant as malrotation with volvulus until proven otherwise",
+        "Distinguish pyloric stenosis, appendicitis and testicular torsion in children",
+        "Know which findings mandate immediate surgical referral"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The approach",
+          "body": "Abdominal pain and vomiting are common in children and usually benign (constipation, gastroenteritis, mesenteric adenitis). The AMC wants you to pick out the surgical emergencies quickly, because each has a time window:\n\n| Condition | Typical age | Time-critical because |\n|---|---|---|\n| **Malrotation with volvulus** | Neonate/infant | Midgut ischaemia within hours |\n| **Intussusception** | 3 months-3 years (peak about 6-12 months) | Bowel ischaemia and perforation |\n| **Pyloric stenosis** | 2-8 weeks | Dehydration and alkalosis (medical emergency first) |\n| **Appendicitis** | Any; perforates more often under 5 | Perforation and peritonitis |\n| **Testicular torsion** | Neonatal and adolescent peaks | Testis viability falls steeply after about 6 hours |\n| **Incarcerated inguinal hernia** | Infants, especially preterm | Strangulation |\n\nAlways examine the **groin and genitals** in a child with abdominal pain or vomiting; boys often will not mention testicular pain."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Intussusception",
+          "body": "**Pathogenesis**: a proximal segment of bowel telescopes into the distal segment, usually **ileocolic**. In infants the lead point is typically hypertrophied **Peyer patches** after a viral illness. In older children (over about 3 years) look for a **pathological lead point**: Meckel diverticulum, polyp, lymphoma, or bowel wall haematoma in **Henoch-Schonlein purpura** (IgA vasculitis). Venous and lymphatic obstruction causes mucosal oedema and bleeding, then arterial compromise.\n\nA small increased risk has been observed in the weeks after rotavirus vaccination, which is why strict upper age limits apply to rotavirus doses.\n\n**Clinical features**\n- **Episodic, inconsolable crying** every 10-20 minutes with **pallor and drawing up of the legs**, settling in between\n- Vomiting, becoming **bilious** later\n- **Lethargy** between episodes (sometimes the dominant feature; can mimic sepsis or encephalopathy)\n- Sausage-shaped mass in the right upper quadrant, empty right iliac fossa\n- **\"Redcurrant jelly\" stool** (blood and mucus) is a **late** sign: do not wait for it\n\n**Investigations**: **ultrasound** is the test of choice (target or \"doughnut\" sign on transverse view, \"pseudokidney\" on longitudinal). Plain X-ray may show obstruction or free air but can be normal.\n\n**Management**: resuscitate (IV fluids, NG if vomiting), involve surgeons, then **air (pneumatic) enema reduction** under radiological guidance, which succeeds in most cases. **Surgery** if there is **peritonitis, perforation or shock that doesn't respond**, or the enema fails. Recurrence is possible, so parents are told to return if symptoms recur."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Bilious vomiting, projectile vomiting and appendicitis",
+          "body": "**Malrotation with midgut volvulus**. Incomplete rotation leaves a narrow mesenteric base and Ladd bands; the midgut twists on the superior mesenteric artery. **Bilious (green) vomiting in a neonate or infant is malrotation with volvulus until proven otherwise.** The abdomen may be soft and flat early. Emergency **upper GI contrast study** (duodenojejunal flexure malpositioned, \"corkscrew\" duodenum) or immediate laparotomy if unstable. Treatment is **Ladd procedure**. Delay means loss of the midgut.\n\n**Pyloric stenosis**. Hypertrophy of the pyloric muscle; more common in **first-born boys**, age **2-8 weeks**. **Non-bilious projectile vomiting** after feeds, a hungry baby, weight loss, visible peristalsis, palpable \"olive\" in the epigastrium during a test feed. Bloods: **hypochloraemic, hypokalaemic metabolic alkalosis** (loss of gastric HCl; the kidney retains sodium at the expense of potassium and hydrogen, giving paradoxical aciduria). Ultrasound confirms. **Correct fluids and electrolytes first** (it is a medical emergency before it is a surgical one), then pyloromyotomy.\n\n**Appendicitis**. Periumbilical pain migrating to the RIF, anorexia, low-grade fever, pain with walking or hopping. Young children present atypically and **perforate more often**. Scores (Paediatric Appendicitis Score, Alvarado) help stratify. **Ultrasound** is the first imaging in children (avoid CT radiation where possible). Treatment is appendicectomy with antibiotics.\n\n**Mesenteric adenitis**: follows a viral illness, high fever early, diffuse tenderness; a diagnosis of exclusion.\n\n**Testicular torsion**: sudden severe scrotal pain, nausea, high-riding horizontal testis, **absent cremasteric reflex**. It is a **clinical diagnosis: urgent surgical exploration**; do not delay for ultrasound if suspicion is high. Torsion of a testicular appendage (hydatid of Morgagni) gives a \"blue dot\" and a preserved cremasteric reflex."
+        },
+        {
+          "kind": "management",
+          "heading": "Common threads in management",
+          "body": "- **Nil by mouth**, IV access, bloods (FBC, electrolytes, glucose, venous gas, group and hold), **fluid resuscitation** with isotonic crystalloid.\n- **Nasogastric tube** on free drainage for bilious vomiting or obstruction.\n- **Analgesia is appropriate and does not mask surgical signs.** IV morphine or intranasal fentanyl are commonly used in paediatric EDs.\n- **Early paediatric surgical referral** for bilious vomiting, peritonism, suspected torsion or intussusception. In regional Australia this often means discussion with a tertiary paediatric surgical centre and retrieval.\n- **Incarcerated inguinal hernia**: attempt gentle reduction with analgesia if no signs of strangulation, then early repair; all infant inguinal hernias need surgical repair (they do not close by themselves, unlike umbilical hernias, which usually do).\n- Constipation is the commonest cause of acute abdominal pain in children presenting to GPs; but it is a diagnosis made after red flags are excluded.\n- **Medical mimics of a surgical abdomen** to keep in mind: **DKA** (abdominal pain and vomiting with deep breathing: check glucose and ketones), **lower lobe pneumonia** (fever, tachypnoea, referred abdominal pain), **urinary tract infection**, **HSP** (purpuric rash on buttocks and legs, arthritis, colicky pain), streptococcal pharyngitis in school-age children, and in adolescent girls **ovarian torsion, ectopic pregnancy** (do a pregnancy test) and pelvic inflammatory disease.\n- **Safety-netting** for children sent home with non-specific abdominal pain: return if pain becomes constant or localises to the right iliac fossa, green vomiting, blood in stool, fever, or the child becomes pale, floppy or unable to walk comfortably. Arrange review within 12-24 hours if uncertain."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Discriminating clues",
+          "body": "- **Green vomit in a baby = surgical emergency** (malrotation). The next step is an urgent upper GI contrast study and surgical review, not \"trial of reflux medication\".\n- **Episodic crying with pallor and legs drawn up, lethargic between episodes = intussusception**. Choose ultrasound, then air enema. Redcurrant jelly stool is late.\n- Intussusception in a 6-year-old, or with purpuric rash on the legs: look for a lead point or HSP.\n- **Projectile non-bilious vomiting at 5 weeks, hypochloraemic alkalosis** = pyloric stenosis; fix electrolytes before theatre.\n- Suspected torsion: **explore within 6 hours**; ultrasound is the wrong answer if it would delay theatre.\n- Always examine the testes in a boy with abdominal pain."
+        }
+      ],
+      "keyPoints": [
+        "Bilious vomiting in an infant is malrotation with volvulus until proven otherwise.",
+        "Intussusception: episodic inconsolable crying, drawing up legs, pallor, lethargy; redcurrant jelly stool is late.",
+        "Intussusception: ultrasound (target sign) then air enema; surgery if peritonitis or perforation.",
+        "Pyloric stenosis: 2-8 weeks, projectile non-bilious vomiting, hypochloraemic hypokalaemic metabolic alkalosis; fix fluids first.",
+        "Young children perforate appendicitis more often; ultrasound is first-line imaging.",
+        "Testicular torsion is a clinical diagnosis; explore urgently.",
+        "Analgesia does not mask surgical signs."
+      ],
+      "redFlags": [
+        "Bilious (green) vomiting",
+        "Blood per rectum with abdominal pain",
+        "Peritonism or rigid abdomen",
+        "Sudden scrotal pain",
+        "Lethargy or pallor between bouts of crying",
+        "Irreducible groin lump"
+      ],
+      "contrast": [
+        {
+          "aspect": "Intussusception reduction",
+          "india": "Hydrostatic (saline/barium) reduction or surgery depending on centre.",
+          "australia": "Air (pneumatic) enema under fluoroscopy is standard in paediatric centres; surgery if it fails or peritonitis."
+        },
+        {
+          "aspect": "Appendicitis imaging in children",
+          "india": "CT or clinical diagnosis depending on availability.",
+          "australia": "Ultrasound first to limit radiation; regional sites often discuss with tertiary paediatric surgeons."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Ultrasound sign of intussusception?",
+          "back": "Target or doughnut sign (transverse); pseudokidney (longitudinal)."
+        },
+        {
+          "front": "First-line treatment of uncomplicated intussusception?",
+          "back": "Air (pneumatic) enema reduction."
+        },
+        {
+          "front": "Metabolic picture in pyloric stenosis?",
+          "back": "Hypochloraemic, hypokalaemic metabolic alkalosis."
+        },
+        {
+          "front": "Bilious vomiting in a 2-week-old: what must be excluded?",
+          "back": "Malrotation with midgut volvulus (urgent upper GI contrast and surgical review)."
+        },
+        {
+          "front": "Cremasteric reflex in testicular torsion?",
+          "back": "Usually absent."
+        },
+        {
+          "front": "Pathological lead point to consider in intussusception with purpura?",
+          "back": "Bowel wall haematoma from Henoch-Schonlein purpura (IgA vasculitis)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "paediatric-emergencies--surgical-emergencies--q1",
+          "discipline": "child-health",
+          "topic": "paediatric-emergencies",
+          "difficulty": "foundation",
+          "stem": "A 9-month-old boy has had episodes of screaming for 12 hours. Every 15 minutes he goes pale, draws his knees up and cries inconsolably for a few minutes, then lies quietly and seems unusually sleepy. He vomited twice. Temperature 37.4 °C, HR 150/min. A vague mass is felt in the right upper quadrant. The nappy contains normal stool. What is the most appropriate investigation?",
+          "options": [
+            "Abdominal ultrasound",
+            "Stool culture",
+            "Urine microscopy and culture",
+            "CT abdomen with contrast",
+            "Barium swallow"
+          ],
+          "answer": 0,
+          "explanation": "Episodic inconsolable crying with **pallor and drawing up of the legs**, **lethargy between episodes**, vomiting and a right upper quadrant mass in an infant is **intussusception**. The absence of redcurrant jelly stool does not exclude it: that is a late sign of mucosal ischaemia.\n\n**Ultrasound** is the investigation of choice (target/doughnut sign), with high sensitivity and no radiation. If confirmed and there is no peritonitis or perforation, **air enema reduction** is the first-line treatment after resuscitation.",
+          "whyWrong": [
+            "",
+            "Stool culture is for infective diarrhoea and would delay diagnosis.",
+            "UTI is worth excluding in a febrile infant, but this picture is intussusception.",
+            "CT adds radiation and is unnecessary when ultrasound is diagnostic.",
+            "A barium swallow images the upper GI tract, not the ileocolic region."
+          ],
+          "tags": [
+            "intussusception",
+            "ultrasound",
+            "infant"
+          ]
+        },
+        {
+          "id": "paediatric-emergencies--surgical-emergencies--q2",
+          "discipline": "child-health",
+          "topic": "paediatric-emergencies",
+          "difficulty": "core",
+          "stem": "A 3-week-old girl, born at term, has had three episodes of green vomiting over the past 4 hours. She was feeding well until today. Her abdomen is soft and not distended. HR 170/min, capillary refill 2 seconds. What is the most appropriate next step?",
+          "options": [
+            "Change to a thickened formula and review in 48 hours",
+            "Start omeprazole for reflux",
+            "Nil by mouth, IV fluids, nasogastric tube and urgent paediatric surgical review with an upper GI contrast study",
+            "Pyloric ultrasound",
+            "Discharge with oral rehydration solution"
+          ],
+          "answer": 2,
+          "explanation": "**Bilious vomiting in a neonate is malrotation with midgut volvulus until proven otherwise.** The abdomen is often soft and non-distended early, which falsely reassures. The midgut can become ischaemic within hours.\n\nManagement: **nil by mouth, IV access and fluids, NG tube on free drainage, urgent paediatric surgical review** and an emergency **upper GI contrast study** to look at the position of the duodenojejunal flexure. If the child is unstable, the surgeons will go straight to laparotomy (Ladd procedure).\n\nPyloric stenosis causes **non-bilious** vomiting because the obstruction is proximal to the ampulla.",
+          "whyWrong": [
+            "Treating as reflux can lose the entire midgut.",
+            "Reflux is never the explanation for bilious vomiting.",
+            "",
+            "Pyloric stenosis gives non-bilious vomiting.",
+            "Discharge is unsafe for bilious vomiting in a neonate."
+          ],
+          "tags": [
+            "malrotation",
+            "volvulus",
+            "bilious vomiting"
+          ]
+        },
+        {
+          "id": "paediatric-emergencies--surgical-emergencies--q3",
+          "discipline": "child-health",
+          "topic": "paediatric-emergencies",
+          "difficulty": "exam",
+          "stem": "A 5-week-old first-born boy has had increasingly forceful, non-bilious vomiting after every feed for a week. He is hungry immediately afterwards and has lost weight. He looks mildly dehydrated. Venous gas: pH 7.52, bicarbonate 34 mmol/L, sodium 133 mmol/L, potassium 2.9 mmol/L, chloride 86 mmol/L. Ultrasound confirms a thickened, elongated pylorus. What is the most appropriate next step?",
+          "options": [
+            "Pyloromyotomy today",
+            "Oral rehydration solution and discharge",
+            "Start erythromycin",
+            "IV fluids with 0.9% sodium chloride and glucose plus potassium, and correct the alkalosis before surgery",
+            "Barium meal"
+          ],
+          "answer": 3,
+          "explanation": "This is **pyloric stenosis**, with the classic **hypochloraemic, hypokalaemic metabolic alkalosis** from loss of gastric acid. The kidney tries to preserve volume by retaining sodium in exchange for potassium and hydrogen ions, worsening hypokalaemia and producing paradoxical aciduria.\n\nIt is a **medical emergency before it is a surgical one**. Operating on an alkalotic infant risks post-operative apnoea (alkalosis depresses respiratory drive) and arrhythmia. Rehydrate with **isotonic saline plus glucose, add potassium** once passing urine, and recheck electrolytes until chloride and bicarbonate normalise. **Pyloromyotomy** follows once corrected.",
+          "whyWrong": [
+            "Surgery must wait until fluids and electrolytes are corrected.",
+            "He cannot keep oral fluids down and needs IV correction.",
+            "Erythromycin is associated with pyloric stenosis and is not a treatment.",
+            "",
+            "The diagnosis is already confirmed on ultrasound."
+          ],
+          "tags": [
+            "pyloric stenosis",
+            "metabolic alkalosis",
+            "neonate"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paediatric-emergencies--poisoning-and-injuries",
+      "title": "Poisoning, button batteries and injuries",
+      "minutes": 18,
+      "objectives": [
+        "Risk-assess a childhood ingestion and use the Poisons Information Centre (13 11 26)",
+        "Manage button battery and magnet ingestion as time-critical emergencies",
+        "Decide when a child with a head injury needs CT using PECARN",
+        "Give burns first aid, estimate burn size in a child and know referral criteria"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Unintentional injury and poisoning in Australian children",
+          "body": "Injury is the leading cause of death in Australian children over 1 year. The big killers are **drowning** (toddlers), **transport injuries**, and falls; burns and poisoning cause a large share of hospital admissions. Toddlers (1-4 years) account for most accidental ingestions: they are mobile, curious and put everything in their mouths.\n\nTwo public health tools recur in AMC questions:\n- The **Poisons Information Centre: 13 11 26**, available 24 hours nationally, for the public and clinicians.\n- **Mandatory safety standards for button batteries** (introduced nationally in 2022: secure compartments, child-resistant packaging and warnings), after several Australian children died.\n\nAlways ask whether the story fits the child's development. **An injury or ingestion that does not match the history or the child's developmental stage raises concern for non-accidental injury** (see the child protection topic). A 4-month-old cannot roll off a change table onto a toy and fracture a femur by themselves, and cannot open a medicine bottle."
+        },
+        {
+          "kind": "management",
+          "heading": "The poisoned child",
+          "body": "**Risk assessment** is the core skill (as taught by Australian toxicology services): agent, dose (mg/kg), time since ingestion, clinical features, and patient factors (weight, comorbidities). Call **13 11 26** for advice.\n\nMost ingestions in toddlers are non-toxic, but some agents **can kill a toddler with one or two tablets or a mouthful**:\n\n- **Tricyclic antidepressants** (seizures, wide QRS arrhythmias)\n- **Calcium channel blockers** (verapamil, diltiazem) and beta-blockers\n- **Sulfonylureas** (delayed, prolonged hypoglycaemia)\n- **Opioids** including methadone and buprenorphine (respiratory depression)\n- **Clonidine** (bradycardia, hypotension, coma)\n- **Eucalyptus oil** and other essential oils (CNS depression, aspiration pneumonitis): common in Australian homes\n- **Button batteries**, multiple magnets, dishwasher and laundry detergent pods (caustic injury)\n- Iron tablets, and paracetamol in large doses\n\n**Paracetamol**: in an acute ingestion by a young child, assessment (serum paracetamol level at 4 hours or later) is usually needed if **200 mg/kg or more** has been taken (Australian and New Zealand consensus guidance). The level is plotted on the Australian nomogram (the treatment line starts at **150 mg/L at 4 hours**). Treatment is **acetylcysteine**, most effective within 8 hours.\n\n**Decontamination**: activated charcoal is rarely used in children, only after toxicology advice, within about 1-2 hours of a significant ingestion of an adsorbable toxin, and only if the airway is protected. Never induce vomiting. Charcoal does not bind iron, lithium, alcohols or hydrocarbons.\n\n**Observation periods** depend on the agent (for example, prolonged observation and serial glucose for sulfonylurea ingestion; ECG for TCAs).\n\n**Prevention**: store medicines up high and locked, child-resistant packaging, never call medicine \"lollies\", return unused medicines to pharmacies (RUM project)."
+        },
+        {
+          "kind": "management",
+          "heading": "Button batteries, magnets and other foreign bodies",
+          "body": "**Button batteries** (especially 20 mm lithium coin cells) lodged in the oesophagus generate an electrical current across the moist mucosa, producing **hydroxide ions and an alkaline caustic burn within 2 hours**. The burn can progress over days to perforation, tracheo-oesophageal fistula, or **aorto-oesophageal fistula with catastrophic haemorrhage**, sometimes weeks later.\n\n- Suspected ingestion (witnessed, missing battery, or unexplained drooling, vomiting, food refusal, haematemesis or stridor in a toddler) needs an **urgent chest and abdominal X-ray** (neck to anus).\n- On AP view a button battery shows a **\"halo\" or double-ring sign** and on lateral view a **step-off**, distinguishing it from a coin.\n- **Oesophageal battery: endoscopic removal within 2 hours**, at a centre able to manage it, transferring immediately.\n- While awaiting removal, some Australian and international guidance supports giving **honey** (in children over 1 year) or sucralfate within 12 hours of ingestion to coat the battery; follow Poisons Centre advice and do not delay transfer.\n- A battery beyond the oesophagus in an asymptomatic child is usually managed with repeat X-ray to confirm passage, per local guidance.\n- Follow-up for delayed complications is needed after removal.\n\n**Multiple magnets** (or a magnet plus a metal object) can attract across bowel walls, causing pressure necrosis, perforation and fistulae: surgical review.\n\n**Coins** in the oesophagus usually need removal if they do not pass; coins in the stomach usually pass."
+        },
+        {
+          "kind": "management",
+          "heading": "Head injury and burns",
+          "body": "**Head injury**. Most are minor. CT exposes children to ionising radiation (with a small lifetime cancer risk), so clinical decision rules identify who needs it. **PECARN** was the most accurate in the Australian and New Zealand PREDICT validation study.\n\n- **High risk (CT recommended)**: GCS under 15 or other altered mental status, palpable or depressed skull fracture (under 2), or signs of basal skull fracture (2 and over: haemotympanum, Battle sign, raccoon eyes, CSF leak).\n- **Intermediate risk** (observation vs CT, depending on number of features, clinician experience, worsening, parental preference): loss of consciousness, severe mechanism, vomiting or severe headache (2 and over); non-frontal scalp haematoma, LOC 5 seconds or more, severe mechanism, or not acting normally per parent (under 2).\n- Others are low risk: discharge with written head injury advice.\n\nAlso consider: bleeding disorders or anticoagulants (lower threshold), and **abusive head trauma** in infants (no or trivial history, retinal haemorrhages, subdural haematomas of different ages).\n\n**Burns**. Scalds from hot drinks and bath water are the commonest mechanism in toddlers.\n\n- **First aid: cool running water for 20 minutes**, effective up to 3 hours after the burn. Remove jewellery and clothing (unless stuck). No ice, butter or toothpaste. Keep the child warm.\n- **Size**: use the **Lund and Browder chart**, which adjusts for age (a young child's head is proportionally larger and legs smaller than an adult's). The child's palm plus fingers is about 1% TBSA. The adult \"rule of nines\" overestimates legs and underestimates the head in children. Erythema alone is not counted.\n- **Depth**: superficial (red, painful, no blisters), partial thickness (blisters, painful, blanch), full thickness (white/leathery, painless).\n- **IV fluid resuscitation** is needed in children with burns of about 10% TBSA or more, in addition to maintenance fluid.\n- **Referral to a burns unit** (ANZBA criteria include): larger burns (roughly over 5% TBSA in a child), full thickness burns, burns to face, hands, feet, genitals, perineum or major joints, circumferential burns, electrical, chemical or inhalation injury, and **any suspicion of non-accidental injury** (for example sharply demarcated \"glove and stocking\" immersion burns with sparing of flexures, or cigarette burns)."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Toddler with drooling and food refusal after a missing remote-control battery: **X-ray now**, then **remove within 2 hours** if oesophageal. Waiting for the battery to pass is wrong.\n- \"Who do you call?\" **Poisons Information Centre 13 11 26.**\n- A single adult tablet of a sulfonylurea, TCA, calcium channel blocker, clonidine or opioid can be lethal in a toddler: admit and observe, even if the child looks well.\n- Paracetamol: 200 mg/kg or more acute ingestion in a young child needs a 4-hour level; treatment line starts at 150 mg/L at 4 hours.\n- Head injury: know the PECARN high-risk features; a well child with a minor fall and no risk features goes home with advice.\n- Burns: **20 minutes of cool running water**; Lund and Browder for children; think NAI with immersion patterns.\n- Every injury: does the story fit the child's development?"
+        }
+      ],
+      "keyPoints": [
+        "Poisons Information Centre 13 11 26, 24 hours, nationally.",
+        "One pill can kill a toddler: TCAs, calcium channel blockers, sulfonylureas, opioids, clonidine; also eucalyptus oil.",
+        "Paracetamol: 200 mg/kg or more acute ingestion needs a 4-hour level; nomogram line starts at 150 mg/L; treat with acetylcysteine.",
+        "Button battery in the oesophagus: X-ray (halo sign) and endoscopic removal within 2 hours.",
+        "PECARN guides CT in paediatric head injury and performed best in Australian validation.",
+        "Burns: cool running water for 20 minutes, useful up to 3 hours; Lund and Browder chart for children.",
+        "Always ask whether the injury fits the history and development."
+      ],
+      "redFlags": [
+        "Drooling, food refusal or haematemesis after possible battery ingestion",
+        "Ingestion of a 'one pill can kill' drug",
+        "GCS under 15 or signs of basal skull fracture after head injury",
+        "Burns to face, hands, genitals, circumferential or full thickness",
+        "Immersion burn pattern or injury inconsistent with development",
+        "Multiple magnet ingestion"
+      ],
+      "contrast": [
+        {
+          "aspect": "Common poisonings",
+          "india": "Kerosene, organophosphate pesticides and plant poisons.",
+          "australia": "Household medicines, essential oils, detergent pods and button batteries; advice from Poisons Information Centre 13 11 26."
+        },
+        {
+          "aspect": "Burns first aid",
+          "india": "Home remedies (toothpaste, ghee, ink) are still commonly applied.",
+          "australia": "Cool running water for 20 minutes, up to 3 hours post-burn; no ice or creams."
+        },
+        {
+          "aspect": "Head injury imaging",
+          "india": "CT use depends on availability and cost.",
+          "australia": "PECARN-guided decisions, validated in Australia, to limit radiation; observation is an accepted alternative for intermediate risk."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "National Poisons Information Centre number?",
+          "back": "13 11 26."
+        },
+        {
+          "front": "Time limit for removing an oesophageal button battery?",
+          "back": "Within 2 hours."
+        },
+        {
+          "front": "X-ray sign distinguishing a button battery from a coin?",
+          "back": "Halo or double-ring sign on AP view; step-off on lateral."
+        },
+        {
+          "front": "Acute paracetamol dose in a child requiring a level?",
+          "back": "200 mg/kg or more; take the level at 4 hours or later."
+        },
+        {
+          "front": "Burns first aid?",
+          "back": "Cool running water for 20 minutes, effective up to 3 hours after the burn."
+        },
+        {
+          "front": "Burn chart used in children?",
+          "back": "Lund and Browder (adjusts for the larger head and smaller legs)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "paediatric-emergencies--poisoning-and-injuries--q1",
+          "discipline": "child-health",
+          "topic": "paediatric-emergencies",
+          "difficulty": "core",
+          "stem": "A 2-year-old girl is brought to a regional emergency department 40 minutes after her mother found her chewing a TV remote with the battery compartment open. One 20 mm coin-shaped battery is missing. She is drooling and refusing drinks. Chest X-ray shows a round radio-opaque object at the level of the thoracic inlet with a double-ring outline on the AP view. What is the most appropriate management?",
+          "options": [
+            "Discharge and ask the parents to check her stools for the battery",
+            "Repeat the X-ray in 24 hours",
+            "Give activated charcoal",
+            "Induce vomiting with ipecac",
+            "Arrange immediate transfer for endoscopic removal within 2 hours of ingestion"
+          ],
+          "answer": 4,
+          "explanation": "The **double-ring (halo) sign** identifies a **button battery**, and it is lodged in the **oesophagus**. The battery generates current in the moist mucosa, producing hydroxide and a **caustic burn within 2 hours**, which can progress to perforation or aorto-oesophageal fistula even after removal.\n\nThis is a time-critical emergency: **endoscopic removal within 2 hours**, arranging urgent transfer to a centre that can do it. Honey (over 1 year) may be given en route under Poisons Centre advice, but must not delay transfer. Charcoal does not bind batteries, and induced vomiting risks further injury and aspiration.",
+          "whyWrong": [
+            "An oesophageal battery will not safely pass and causes burns within hours.",
+            "Waiting allows a full-thickness oesophageal burn to develop.",
+            "Charcoal does not adsorb batteries and would obscure endoscopy.",
+            "Induced vomiting is never recommended and risks aspiration.",
+            ""
+          ],
+          "ausPearl": "Australia introduced mandatory safety standards for button batteries in 2022 after child deaths.",
+          "tags": [
+            "button battery",
+            "ingestion",
+            "foreign body"
+          ]
+        },
+        {
+          "id": "paediatric-emergencies--poisoning-and-injuries--q2",
+          "discipline": "child-health",
+          "topic": "paediatric-emergencies",
+          "difficulty": "exam",
+          "stem": "A 20-month-old boy (12 kg) was found with his grandmother's pill organiser 30 minutes ago. One gliclazide tablet may be missing. He is well, playing, with a blood glucose of 5.4 mmol/L. His mother wants to take him home. What is the most appropriate management?",
+          "options": [
+            "Discharge with advice to return if drowsy",
+            "Admit for prolonged observation with regular blood glucose monitoring, after discussion with the Poisons Information Centre",
+            "Give oral glucose and discharge after 1 hour",
+            "Give prophylactic IV octreotide and discharge",
+            "Gastric lavage"
+          ],
+          "answer": 1,
+          "explanation": "**Sulfonylureas** such as gliclazide are among the drugs where **one tablet can cause severe hypoglycaemia in a toddler**. Onset can be **delayed** (several hours) and prolonged, especially with modified-release formulations, so a normal glucose now is not reassuring.\n\nThe child should be **admitted for prolonged observation** (commonly overnight, per toxicology advice) with regular glucose checks and access to food. Hypoglycaemia is treated with glucose, and **octreotide** is given if it recurs, not prophylactically. Call the **Poisons Information Centre (13 11 26)** for agent-specific advice.",
+          "whyWrong": [
+            "Hypoglycaemia may be delayed; discharge is unsafe.",
+            "",
+            "Prophylactic glucose can stimulate insulin release and mask delayed hypoglycaemia.",
+            "Octreotide is for established or recurrent hypoglycaemia, not prophylaxis.",
+            "Gastric lavage is not used in children for this ingestion."
+          ],
+          "tags": [
+            "poisoning",
+            "sulfonylurea",
+            "hypoglycaemia"
+          ]
+        },
+        {
+          "id": "paediatric-emergencies--poisoning-and-injuries--q3",
+          "discipline": "child-health",
+          "topic": "paediatric-emergencies",
+          "difficulty": "foundation",
+          "stem": "A 3-year-old boy pulled a cup of freshly made tea onto his chest 10 minutes ago. His father has brought him straight to a GP clinic next door. There is a red, blistering area over the front of the chest roughly the size of three of the child's palms. What is the most appropriate first step?",
+          "options": [
+            "Apply cool running water to the burn for 20 minutes",
+            "Apply ice packs",
+            "Apply silver sulfadiazine cream and dress",
+            "Pop the blisters and apply a dry dressing",
+            "Give a 20 mL/kg IV fluid bolus"
+          ],
+          "answer": 0,
+          "explanation": "The first and most important step in any burn is **cool running water for 20 minutes**, which reduces tissue damage and pain and remains beneficial **up to 3 hours** after the injury. Remove clothing and jewellery unless stuck, and keep the rest of the child warm to avoid hypothermia.\n\nThis burn is about **3% TBSA** (the child's palm and fingers is about 1%) and partial thickness (blistered), so IV fluids are not needed (they are considered from about 10% TBSA). Ice causes vasoconstriction and further injury. Creams go on only after cooling and assessment, and chest burns in a toddler are usually discussed with a burns service. Also check the story fits.",
+          "whyWrong": [
+            "",
+            "Ice causes vasoconstriction, deepening the burn, and risks hypothermia.",
+            "Creams are not first aid; cooling comes first.",
+            "Blisters should not be deroofed as first aid.",
+            "A 3% partial thickness burn does not need IV resuscitation."
+          ],
+          "ausPearl": "Australian burns first aid (ANZBA): cool running water for 20 minutes, up to 3 hours after the burn.",
+          "tags": [
+            "burns",
+            "first aid",
+            "scald"
+          ]
+        },
+        {
+          "id": "paediatric-emergencies--poisoning-and-injuries--q4",
+          "discipline": "child-health",
+          "topic": "paediatric-emergencies",
+          "difficulty": "core",
+          "stem": "A 6-year-old girl fell about 1 metre from monkey bars at school onto grass 2 hours ago. She cried immediately, did not lose consciousness, and has not vomited. She has a mild headache. GCS 15, she is acting normally, and there is no scalp haematoma, no signs of basal skull fracture and a normal neurological examination. What is the most appropriate management?",
+          "options": [
+            "CT brain",
+            "Skull X-ray",
+            "Admit for 24 hours of neurological observations",
+            "Discharge with written head injury advice and clear instructions on when to return",
+            "MRI brain within a week"
+          ],
+          "answer": 3,
+          "explanation": "Using **PECARN** for a child aged 2 or older, high-risk features are GCS under 15, altered mental status or signs of basal skull fracture; intermediate features include loss of consciousness, vomiting, severe headache or a severe mechanism (for example falls over 1.5 m in this age group). This girl has **no risk features** (a mild headache is not severe), so the risk of clinically important brain injury is very low and **CT is not indicated**.\n\nShe can be discharged with **written head injury advice**: return for worsening headache, repeated vomiting, drowsiness, confusion, seizure or weakness. PECARN performed best among decision rules in the Australian and New Zealand PREDICT study.",
+          "whyWrong": [
+            "CT exposes her to radiation without benefit when she is very low risk.",
+            "Skull X-rays are not used to assess paediatric head injury.",
+            "Admission is not needed without risk features.",
+            "",
+            "MRI has no role in routine minor head injury."
+          ],
+          "tags": [
+            "head injury",
+            "pecarn",
+            "imaging"
+          ]
+        }
+      ]
+    }
+  ]
+}

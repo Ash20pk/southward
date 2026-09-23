@@ -96,3 +96,48 @@ export interface TopicContrast {
   topic: string; // AMC topic id
   rows: Contrast[];
 }
+
+// Course content: one file per AMC topic in src/content/course/<topic>.json.
+// Lesson sections follow the AMC MCQ specification's required knowledge areas:
+// pathogenesis, clinical features, investigative findings, differential diagnosis, management.
+
+export type SectionKind =
+  | "overview"
+  | "pathogenesis"
+  | "clinical-features"
+  | "investigations"
+  | "differentials"
+  | "management"
+  | "concepts" // for non-disease topics (ethics, biostatistics, development, health system)
+  | "application"
+  | "exam-tips";
+
+export interface LessonSection {
+  kind: SectionKind;
+  heading: string;
+  body: string; // markdown: short paragraphs, bullet lists, small tables
+}
+
+export interface LessonCard {
+  front: string;
+  back: string;
+}
+
+export interface Lesson {
+  id: string; // "<topic>--<slug>", e.g. "cardiology--acute-coronary-syndromes"
+  title: string;
+  minutes: number; // realistic reading time
+  objectives: string[]; // "By the end you can..." 3-5
+  sections: LessonSection[];
+  keyPoints: string[]; // recap, 5-8
+  redFlags: string[]; // can't-miss features; may be empty for non-clinical lessons
+  contrast: Contrast[]; // India vs Australia rows specific to this lesson, 1-3
+  flashcards: LessonCard[]; // 4-6 atomic cards
+  quiz: Question[]; // 3-4 AMC-style MCQs; id "<lesson id>--q1".., discipline/topic set to this topic
+}
+
+export interface Course {
+  topic: string; // AMC topic id
+  intro: string; // 2-3 sentences: what this topic covers and why it matters for the AMC
+  lessons: Lesson[];
+}

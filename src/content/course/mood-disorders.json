@@ -1,0 +1,772 @@
+{
+  "topic": "mood-disorders",
+  "intro": "Mood disorders are among the most common reasons Australians see a GP, and depression, bipolar disorder and suicide risk make up a large share of the AMC's mental health questions. This topic covers diagnosing and treating depression the Australian way (GP-led, stepped care, Better Access), recognising and managing bipolar disorder and lithium, the dangerous drug reactions the AMC loves, and how to assess and respond to suicide risk.",
+  "lessons": [
+    {
+      "id": "mood-disorders--depression-diagnosis",
+      "title": "Depression: diagnosis and assessment",
+      "minutes": 14,
+      "objectives": [
+        "Apply the DSM-5 criteria for a major depressive episode, including the two core symptoms",
+        "Use the PHQ-9 and K10 to grade severity and track response",
+        "Exclude medical, drug and bipolar causes before labelling unipolar depression",
+        "Distinguish depression from grief, adjustment disorder, dysthymia and dementia"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why depression matters",
+          "body": "Depression is common: roughly 1 in 7 Australians will have a depressive disorder in their lifetime, and it is a leading cause of disability. Most people are diagnosed and treated in **general practice**, not by psychiatrists. The AMC therefore expects you to think like an intern or GP registrar: make the diagnosis confidently, assess risk, rule out look-alikes, and start stepped care.\n\nDepression also appears hidden inside other presentations the AMC uses: tiredness, insomnia, chronic pain, poor diabetes control, a postnatal mother who is \"not coping\", or an older person with memory complaints."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why it happens",
+          "body": "There is no single cause. Think in a **biopsychosocial** frame, which is also how Australian GPs document a Mental Health Treatment Plan:\n\n- **Biological:** family history (first-degree relatives have about 2-3 times the risk), female sex, chronic illness (stroke, MI, diabetes, cancer, chronic pain), endocrine disease (hypothyroidism, Cushing's), postpartum hormonal change, and drugs (corticosteroids, isotretinoin, interferon, alcohol, withdrawal from stimulants). The monoamine hypothesis (low serotonin and noradrenaline signalling) explains why antidepressants help, but the delay of weeks suggests downstream changes in receptor sensitivity and neuroplasticity matter more.\n- **Psychological:** negative thinking styles, low self-esteem, perfectionism, early trauma.\n- **Social:** loss, unemployment, relationship breakdown, isolation, financial stress, rural isolation, being LGBTIQ+ or a refugee, and for Aboriginal and Torres Strait Islander people, intergenerational trauma and racism."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "DSM-5 criteria and how patients present",
+          "body": "A **major depressive episode** needs **5 or more of 9 symptoms for at least 2 weeks**, most of the day, nearly every day, causing distress or impaired function. **At least one must be a core symptom**: depressed mood or loss of interest/pleasure (anhedonia).\n\nThe nine symptoms (mnemonic **SIG E CAPS** plus mood):\n- **S**leep change (insomnia, classically early morning waking, or hypersomnia)\n- **I**nterest lost (anhedonia)\n- **G**uilt or worthlessness\n- **E**nergy low, fatigue\n- **C**oncentration poor, indecisive\n- **A**ppetite or weight change (more than 5% in a month)\n- **P**sychomotor agitation or retardation (observable by others)\n- **S**uicidal thoughts, or recurrent thoughts of death\n- Depressed mood itself\n\n**Specifiers worth knowing:** with melancholic features (early waking, diurnal variation worse in the morning, marked retardation, weight loss), with psychotic features (mood-congruent delusions of guilt, poverty or nihilism; needs an antipsychotic or ECT), with peripartum onset, and with seasonal pattern.\n\n**Persistent depressive disorder (dysthymia):** depressed mood on most days for **at least 2 years** in adults (1 year in children), with fewer symptoms.\n\nOn examination (mental state exam) look for poor eye contact, slowed speech with long latency, flat or restricted affect, negative cognitions, and always document **suicidal thoughts, plans and intent**. Ask directly; asking does not put the idea into someone's head."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Rating scales and ruling out medical causes",
+          "body": "Depression is a clinical diagnosis. Tests are for excluding look-alikes and establishing a baseline before drugs.\n\n**Rating scales (for severity and monitoring, not diagnosis alone):**\n\n| Tool | Notes |\n|---|---|\n| **PHQ-9** | 9 DSM items, each 0-3. 5-9 mild, 10-14 moderate, 15-19 moderately severe, 20-27 severe. Item 9 asks about thoughts of death or self-harm. |\n| **K10** | Kessler psychological distress scale, widely used in Australian general practice and national surveys. Scores 10-50; 30 or more indicates very high distress. |\n| **EPDS** | Edinburgh Postnatal Depression Scale, used antenatally and postnatally. |\n| **GDS** | Geriatric Depression Scale for older adults. |\n\n**Baseline bloods when the story warrants it:** FBC (anaemia), TSH (hypothyroidism), UEC and calcium (hypercalcaemia causes low mood, and baseline before lithium), LFT and GGT (alcohol), glucose/HbA1c, B12 and folate in older or malnourished patients. Consider a pregnancy test in women of reproductive age before prescribing. A **urine drug screen** or careful substance history matters because alcohol and cannabis both cause and worsen depression.\n\nBrain imaging is not routine. Consider it for late-onset first episodes with neurological signs, cognitive decline or atypical features."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Telling depression apart from its look-alikes",
+          "body": "| Condition | Discriminating clue |\n|---|---|\n| **Bipolar depression** | Past episode of elevated mood, reduced need for sleep, risk-taking; family history of bipolar. Antidepressant alone can trigger mania. |\n| **Normal grief** | Waves of sadness linked to reminders of the deceased; self-esteem preserved; humour possible. DSM-5 allows major depression to be diagnosed alongside bereavement if criteria are met. Prolonged grief disorder: intense yearning 12 months or more after the loss. |\n| **Adjustment disorder** | Emotional symptoms within 3 months of an identifiable stressor, not meeting full criteria for another disorder; usually settles within 6 months of the stressor ending. |\n| **Hypothyroidism** | Weight gain, cold intolerance, constipation, dry skin, slow-relaxing reflexes; raised TSH. |\n| **Substance-induced** | Heavy alcohol, cannabis, or the \"comedown\" after methamphetamine; improves with abstinence (usually weeks). |\n| **Dementia vs pseudodementia** | Depressed older people often answer \"I don't know\" and complain of poor memory; people with dementia often confabulate and minimise. Depression can be the first sign of dementia, so reassess cognition once mood improves. |\n| **Hypoactive delirium** | Acute onset, fluctuating attention and conscious level; an organic cause is present. |\n\nAlways ask about mania before you prescribe. The single most discriminating question in an AMC stem is often \"has there ever been a time when you felt the opposite: full of energy, needing little sleep?\""
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- The stem gives 5 or more symptoms over more than 2 weeks and asks for the **diagnosis** or the **next step**. The next step is almost always a **suicide risk assessment** if not yet documented.\n- A trap option is \"check TSH and wait\". Tests are sensible, but they do not delay treatment of a clear depressive episode.\n- Early morning waking, diurnal variation and psychomotor retardation point to **melancholic** depression, which responds better to medication than to therapy alone.\n- Delusions of guilt, poverty or rotting organs (nihilistic, Cotard) mean **psychotic depression**: treat with an antidepressant plus antipsychotic, or ECT.\n- An older person with memory complaints and low mood: think depression (pseudodementia) and screen properly."
+        }
+      ],
+      "keyPoints": [
+        "Major depression: 5 or more of 9 DSM-5 symptoms for at least 2 weeks, including low mood or anhedonia.",
+        "PHQ-9 grades severity (10-14 moderate, 20+ severe) and is used to monitor response; K10 is the common Australian distress measure.",
+        "Always ask about suicidal thoughts directly; asking does not increase risk.",
+        "Ask about past mania before starting an antidepressant.",
+        "Exclude hypothyroidism, anaemia, hypercalcaemia, drugs and alcohol when the history suggests them.",
+        "Psychotic features (mood-congruent delusions) change management: add an antipsychotic or consider ECT.",
+        "Dysthymia needs 2 years of chronic low mood in adults."
+      ],
+      "redFlags": [
+        "Suicidal ideation with a plan, intent or access to means",
+        "Psychotic features: delusions of guilt, nihilism, command hallucinations",
+        "Refusing food or fluids, or catatonia",
+        "Postpartum onset with confusion or psychosis",
+        "New late-life depression with neurological signs or cognitive decline"
+      ],
+      "contrast": [
+        {
+          "aspect": "Where depression is diagnosed",
+          "india": "Often in psychiatry outpatients after referral, with the GP role less formal.",
+          "australia": "Mostly in general practice; the GP makes the diagnosis, uses PHQ-9 or K10, and writes a Mental Health Treatment Plan."
+        },
+        {
+          "aspect": "Screening tools",
+          "india": "Hamilton rating scale taught for exams; screening in primary care is uncommon.",
+          "australia": "PHQ-9 and K10 in general practice, EPDS in all perinatal women."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "How many DSM-5 symptoms, over what time, for a major depressive episode?",
+          "back": "5 or more of 9 symptoms for at least 2 weeks, including depressed mood or anhedonia."
+        },
+        {
+          "front": "PHQ-9 score range for moderate depression?",
+          "back": "10-14 (15-19 moderately severe, 20-27 severe)."
+        },
+        {
+          "front": "Minimum duration for persistent depressive disorder (dysthymia) in adults?",
+          "back": "2 years (1 year in children and adolescents)."
+        },
+        {
+          "front": "Which delusions suggest psychotic depression?",
+          "back": "Mood-congruent: guilt, poverty, nihilism (organs rotting, being dead)."
+        },
+        {
+          "front": "Single most important question before prescribing an antidepressant?",
+          "back": "Any past episode of elevated mood or reduced need for sleep (screen for bipolar)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "mood-disorders--depression-diagnosis--q1",
+          "discipline": "mental-health",
+          "topic": "mood-disorders",
+          "difficulty": "foundation",
+          "stem": "A 34-year-old accountant presents to her GP saying she has been \"exhausted\" for 5 weeks. On questioning she has lost interest in her netball team, wakes at 4 am unable to get back to sleep, has lost 4 kg without trying and is finding it hard to concentrate at work. She feels guilty that she is \"letting everyone down\". She has never had a period of elevated mood. TSH and FBC last month were normal.\n\nWhich one of the following is the most likely diagnosis?",
+          "options": [
+            "Adjustment disorder with depressed mood",
+            "Persistent depressive disorder",
+            "Major depressive episode",
+            "Generalised anxiety disorder",
+            "Bipolar II disorder"
+          ],
+          "answer": 2,
+          "explanation": "She has **anhedonia** (a core symptom) plus early morning waking, weight loss, poor concentration, guilt and fatigue: at least 6 symptoms for 5 weeks, causing impairment. That meets DSM-5 criteria for a **major depressive episode** (5 or more symptoms for 2 weeks or more, including low mood or anhedonia).\n\nThere is no preceding stressor to suggest adjustment disorder, the duration is far short of 2 years, and there has never been elevated mood. Normal thyroid and blood count make a medical mimic less likely.\n\nThe next steps are a suicide risk assessment, severity rating (PHQ-9) and a discussion of stepped treatment.",
+          "whyWrong": [
+            "Adjustment disorder requires a clear stressor and should not meet full criteria for a major depressive episode.",
+            "Dysthymia needs chronic low mood for at least 2 years.",
+            "",
+            "Worry and anxiety are not the dominant features; anhedonia and biological symptoms are.",
+            "Bipolar II needs at least one hypomanic episode, and she has none."
+          ],
+          "tags": [
+            "depression",
+            "dsm-5",
+            "diagnosis"
+          ]
+        },
+        {
+          "id": "mood-disorders--depression-diagnosis--q2",
+          "discipline": "mental-health",
+          "topic": "mood-disorders",
+          "difficulty": "core",
+          "stem": "A 78-year-old widower is brought by his daughter, who is worried he has dementia. Over 2 months he has stopped gardening, sits in his chair most of the day and eats little. When tested he answers many questions with \"I don't know, I can't be bothered\" but gives correct answers when encouraged. He says he is a burden. He has hypertension treated with perindopril. There are no focal neurological signs.\n\nWhich one of the following is the most appropriate next step?",
+          "options": [
+            "Arrange an MRI brain and refer to a memory clinic",
+            "Start donepezil",
+            "Assess for depression including suicide risk and apply a Geriatric Depression Scale",
+            "Reassure the daughter that this is normal ageing",
+            "Stop perindopril"
+          ],
+          "answer": 2,
+          "explanation": "The picture of **\"don't know\" answers, poor effort, apathy, weight loss and feeling a burden** over a relatively short period is typical of **depression presenting as cognitive impairment** (pseudodementia). People with dementia more often try to answer, confabulate and minimise their deficits.\n\nOlder men, especially recently widowed ones, have the **highest suicide rate** of any group in Australia, so a direct suicide risk assessment is essential. A GDS helps quantify mood.\n\nIf cognition does not recover once mood improves, then pursue dementia workup, because late-life depression can be a prodrome of dementia.",
+          "whyWrong": [
+            "Imaging may come later, but the clinical picture points to depression first, and risk must be assessed now.",
+            "Cholinesterase inhibitors treat Alzheimer's dementia, which has not been diagnosed.",
+            "",
+            "Apathy, weight loss and feeling a burden are not normal ageing; missing depression here is dangerous.",
+            "Perindopril is not a recognised cause of depression."
+          ],
+          "ausPearl": "Men aged 85 and over have the highest age-specific suicide rate in Australia. Always ask older men directly.",
+          "tags": [
+            "depression",
+            "elderly",
+            "pseudodementia"
+          ]
+        },
+        {
+          "id": "mood-disorders--depression-diagnosis--q3",
+          "discipline": "mental-health",
+          "topic": "mood-disorders",
+          "difficulty": "exam",
+          "stem": "A 52-year-old man is admitted after his wife found him not eating or drinking for 3 days. He speaks very slowly and quietly and says his \"insides have rotted away\" and that he deserves to die for bankrupting the family, although his finances are in fact sound. He has lost 8 kg over 6 weeks. Temperature 36.8 degrees C, HR 96, BP 110/70. Urea is raised.\n\nWhich one of the following is the most appropriate treatment?",
+          "options": [
+            "Sertraline alone and review in 2 weeks",
+            "Cognitive behavioural therapy",
+            "Lithium",
+            "Diazepam and oral fluids",
+            "Electroconvulsive therapy"
+          ],
+          "answer": 4,
+          "explanation": "This is **major depression with psychotic features** (mood-congruent nihilistic and guilt/poverty delusions) and he is now **refusing food and fluids**, with dehydration (raised urea). This is a life-threatening situation.\n\n**ECT** is the treatment of choice when a rapid response is needed: severe psychotic depression, food and fluid refusal, catatonia or very high suicide risk. It works faster than medication and has the highest response rates in psychotic depression. Medical rehydration happens alongside.\n\nIf ECT were not needed urgently, the drug option would be an **antidepressant plus an antipsychotic**, not an antidepressant alone. Involuntary treatment under the state Mental Health Act may be required.",
+          "whyWrong": [
+            "An SSRI alone is inadequate for psychotic depression and too slow when he is refusing fluids.",
+            "Psychological therapy cannot be delivered and is too slow in a life-threatening illness.",
+            "Lithium is an augmenting agent, not first-line treatment of acute psychotic depression.",
+            "Benzodiazepines help catatonia but do not treat psychotic depression and fluids alone do not address the illness.",
+            ""
+          ],
+          "tags": [
+            "psychotic depression",
+            "ect",
+            "emergency"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mood-disorders--treating-depression",
+      "title": "Treating depression in Australia",
+      "minutes": 18,
+      "objectives": [
+        "Choose between psychological therapy, an SSRI or both according to severity",
+        "Set up Australian supports: Mental Health Treatment Plan, Better Access, headspace and crisis lines",
+        "Prescribe and monitor an SSRI safely, including in under 25s and older people",
+        "Manage non-response, stopping treatment and discontinuation symptoms",
+        "Recognise and treat serotonin syndrome"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Stepped care, Australian style",
+          "body": "Australian practice follows **stepped care**: match the intensity of treatment to severity and preference, and step up if the person does not improve. The RANZCP mood disorders guideline and Therapeutic Guidelines (eTG Psychotropic) set the standard.\n\n| Severity | First-line approach |\n|---|---|\n| Mild | Psychoeducation, lifestyle (exercise, sleep, reducing alcohol), guided self-help or online CBT, psychological therapy. Antidepressants are not routinely first line. |\n| Moderate | Psychological therapy (CBT, interpersonal therapy) **and/or** an SSRI such as sertraline or escitalopram. |\n| Severe | Antidepressant plus psychological therapy; consider psychiatry referral. Psychotic features, food refusal or high risk: admission, antipsychotic, ECT. |\n\n**Australian pathways you must be able to name:**\n- **Mental Health Treatment Plan (MHTP)** written by a GP gives Medicare-subsidised sessions with a psychologist or other allied mental health professional under **Better Access** (the number of sessions per calendar year has changed over time; check the current MBS rules). Review with the GP partway through.\n- **headspace**: free or low-cost centres for young people aged 12-25.\n- Free online and phone CBT: **MindSpot**, **THIS WAY UP**, **Beyond Blue**; **Head to Health** as the national gateway.\n- Crisis: **Lifeline 13 11 14**, Suicide Call Back Service 1300 659 467, Kids Helpline 1800 55 1800, **13YARN (13 92 76)** for Aboriginal and Torres Strait Islander people."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "How antidepressants work, and why they take weeks",
+          "body": "SSRIs block the serotonin transporter, raising synaptic serotonin within hours. Mood improvement takes **2-6 weeks** because the benefit depends on slower adaptations: desensitisation of inhibitory 5-HT1A autoreceptors and increased neuroplasticity. Side effects (nausea, headache, jitteriness, sleep change) appear in the first days, before benefit. Explaining this mismatch up front is the best way to prevent people stopping early.\n\nSerotonin excess anywhere (gut, platelets, brainstem) explains the side-effect profile: GI upset, bleeding risk (especially with NSAIDs or anticoagulants), **hyponatraemia via SIADH** (older people, diuretics), sexual dysfunction, and at the extreme, **serotonin syndrome**."
+        },
+        {
+          "kind": "management",
+          "heading": "Prescribing an antidepressant well",
+          "body": "**Choosing a drug**\n- **SSRIs are first line**: sertraline, escitalopram (or citalopram), fluoxetine. They are safer in overdose than older drugs.\n- **SNRIs** (venlafaxine, desvenlafaxine, duloxetine) and **mirtazapine** (sedating, weight gain; useful when insomnia and poor appetite dominate) are alternatives.\n- **TCAs** (amitriptyline, nortriptyline) are effective but **dangerous in overdose** (QRS widening, arrhythmia, seizures). **MAOIs** need tyramine restriction; specialist use.\n- Under 18s: **fluoxetine** has the best evidence; sertraline or escitalopram are alternatives. Prescribe alongside psychological therapy.\n\n**Starting and reviewing**\n- Warn about early side effects and the delay in benefit.\n- **Review within 1-2 weeks**, earlier and more often in **people under 25**, because SSRIs can increase suicidal thinking and agitation early in treatment in young people.\n- Judge efficacy at **4-6 weeks** on a therapeutic dose. If partial response, increase the dose; if no response, switch (within class or to another class); then consider augmentation (e.g. lithium, an atypical antipsychotic) with specialist input.\n- Older people and those on diuretics: check **sodium** in the first weeks.\n\n**Duration and stopping**\n- Continue for at least **6-12 months after remission** of a first episode; longer (often 2 years or indefinitely) after recurrent episodes.\n- Taper gradually over weeks. **Discontinuation syndrome** (dizziness, \"electric shock\" sensations, irritability, flu-like symptoms, vivid dreams) is worst with **paroxetine and venlafaxine** (short half-life); least with fluoxetine.\n\n**ECT** is effective and safe for severe, psychotic, catatonic or treatment-resistant depression and when a rapid response is needed. Main side effect: short-term memory disturbance.\n\n**Special groups:** perinatal depression is common; sertraline is often preferred in pregnancy and breastfeeding after a risk-benefit discussion (see women's health). Always screen perinatal women with EPDS."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Serotonin syndrome",
+          "body": "Serotonin syndrome (serotonin toxicity) follows **combinations** of serotonergic drugs or overdose. Common Australian culprits: SSRI or SNRI plus **tramadol**, tapentadol, fentanyl, pethidine, **linezolid**, St John's wort, triptans (low risk), lithium, MDMA, or an **MAOI** (including moclobemide). Switching from fluoxetine to another agent too quickly is a classic trap because of its long half-life.\n\n**Onset within hours** of the new drug or dose. Triad:\n- **Neuromuscular excess**: **clonus** (inducible, spontaneous, ocular), **hyperreflexia**, tremor, muscle rigidity in severe cases, most marked in the **lower limbs**\n- **Autonomic**: tachycardia, sweating, dilated pupils, diarrhoea, hyperthermia\n- **Mental state**: agitation, anxiety, confusion\n\nThe **Hunter criteria** centre on clonus. Management: stop the serotonergic drugs, supportive care, **benzodiazepines** for agitation, and **cyproheptadine** in moderate cases. Temperature above about 38.5 degrees C with rigidity is severe: ICU, cooling, sedation, paralysis and ventilation. Antipyretics do not help because the heat is muscular."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Serotonin syndrome vs its look-alikes",
+          "body": "| Feature | Serotonin syndrome | Neuroleptic malignant syndrome | Anticholinergic toxicity |\n|---|---|---|---|\n| Drug | Serotonergic combination | Antipsychotic (or stopping levodopa) | TCA, antihistamine, benztropine |\n| Onset | Hours | Days to weeks | Hours |\n| Muscles | **Clonus, hyperreflexia** | **Lead-pipe rigidity, bradyreflexia** | Normal |\n| Skin | Sweaty | Sweaty | **Dry, flushed** |\n| Pupils | Dilated | Normal | Dilated |\n| Bowel | Diarrhoea, hyperactive | Normal/reduced | Absent sounds, urinary retention |\n| Resolves | 24 hours or so | Days | Variable |"
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- \"Which is the most appropriate initial medication?\" for moderate depression without mania: an **SSRI** (sertraline, escitalopram). TCAs are wrong because of overdose toxicity.\n- \"Tablets aren't working at 2 weeks\": continue and review; judge at 4-6 weeks.\n- A young person started on an SSRI: the key safety step is **early review** (1-2 weeks) and safety planning.\n- Man on sertraline given **tramadol** after surgery, now agitated, sweaty, with clonus: **serotonin syndrome**.\n- Older woman on citalopram and a thiazide, now confused with Na 118 mmol/L: **SIADH**.\n- Stopping paroxetine abruptly: discontinuation syndrome, not relapse (onset within days, physical symptoms)."
+        }
+      ],
+      "keyPoints": [
+        "Stepped care: mild depression gets psychological approaches first; moderate gets CBT and/or an SSRI.",
+        "Sertraline or escitalopram first line in adults; fluoxetine first choice in adolescents.",
+        "Review within 1-2 weeks, especially under 25s; judge efficacy at 4-6 weeks.",
+        "Continue 6-12 months after remission from a first episode; taper slowly.",
+        "GP MHTP gives Medicare-subsidised psychology under Better Access; headspace for 12-25s; Lifeline 13 11 14.",
+        "SSRIs cause hyponatraemia in older people and bleeding with NSAIDs/anticoagulants.",
+        "Serotonin syndrome: clonus, hyperreflexia, agitation, hyperthermia after a serotonergic combination; stop drugs, benzodiazepines, cyproheptadine."
+      ],
+      "redFlags": [
+        "New agitation or suicidal thinking in a young person soon after starting an SSRI",
+        "Clonus, hyperthermia and confusion after adding tramadol, linezolid or an MAOI",
+        "Temperature above 38.5 degrees C with rigidity in serotonin toxicity (life-threatening)",
+        "Confusion or seizures from SSRI-related hyponatraemia",
+        "TCA prescribed to someone at risk of overdose"
+      ],
+      "contrast": [
+        {
+          "aspect": "First-line treatment of moderate depression",
+          "india": "Antidepressant is often the main or only treatment, with psychotherapy limited by access.",
+          "australia": "Psychological therapy and/or an SSRI, with Better Access psychology via a GP Mental Health Treatment Plan."
+        },
+        {
+          "aspect": "Common antidepressants",
+          "india": "Escitalopram and sertraline widely used; TCAs such as amitriptyline still commonly given.",
+          "australia": "SSRIs first line; TCAs avoided in anyone at overdose risk because of cardiotoxicity."
+        },
+        {
+          "aspect": "Youth services",
+          "india": "Few youth-specific services.",
+          "australia": "headspace centres for 12-25 year olds, often with GPs and psychologists on site."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "How soon should a young person started on an SSRI be reviewed?",
+          "back": "Within 1-2 weeks (then regularly), because of early agitation and suicidality risk."
+        },
+        {
+          "front": "How long to continue an antidepressant after remission of a first episode?",
+          "back": "At least 6-12 months."
+        },
+        {
+          "front": "Which SSRI/SNRIs cause the worst discontinuation syndrome?",
+          "back": "Paroxetine and venlafaxine (short half-life)."
+        },
+        {
+          "front": "Key examination sign of serotonin syndrome?",
+          "back": "Clonus (inducible, spontaneous or ocular) with hyperreflexia, worst in the legs."
+        },
+        {
+          "front": "Antidote-style drug for moderate serotonin syndrome?",
+          "back": "Cyproheptadine (5-HT2A antagonist), plus benzodiazepines and supportive care."
+        },
+        {
+          "front": "Australian crisis line for Aboriginal and Torres Strait Islander people?",
+          "back": "13YARN, 13 92 76."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "mood-disorders--treating-depression--q1",
+          "discipline": "mental-health",
+          "topic": "mood-disorders",
+          "difficulty": "foundation",
+          "stem": "A 22-year-old university student sees her GP with 3 weeks of low mood, poor sleep and reduced concentration. PHQ-9 is 8. She is still attending classes and working part-time. She has no suicidal thoughts, no history of elevated mood and drinks 2 standard drinks a week. She would prefer not to take tablets.\n\nWhich one of the following is the most appropriate initial management?",
+          "options": [
+            "Start escitalopram 10 mg daily",
+            "Psychoeducation, lifestyle advice and guided online CBT, with review",
+            "Refer urgently to the community mental health team",
+            "Start mirtazapine at night for sleep",
+            "Prescribe temazepam for 2 weeks"
+          ],
+          "answer": 1,
+          "explanation": "A PHQ-9 of 8 with preserved function is **mild depression**. Australian stepped-care guidance recommends starting with **low-intensity psychological approaches**: psychoeducation, sleep and exercise advice, and guided self-help or online CBT (e.g. MindSpot, THIS WAY UP), with a planned review.\n\nAntidepressants are not routinely first line in mild depression, and she prefers to avoid them. At 22 she is also eligible for **headspace**, and a Mental Health Treatment Plan can add Medicare-subsidised psychology if she does not improve.\n\nAlways safety-net: give crisis numbers and invite her back sooner if things worsen.",
+          "whyWrong": [
+            "SSRIs are for moderate or severe depression, or mild depression not responding to psychological care; she prefers not to take them.",
+            "",
+            "Urgent specialist referral is for high risk, psychosis or severe illness.",
+            "Mirtazapine is an antidepressant and is not first line for mild depression.",
+            "Hypnotics do not treat depression and risk dependence."
+          ],
+          "ausPearl": "Free online CBT programs such as MindSpot and THIS WAY UP are part of routine Australian stepped care.",
+          "tags": [
+            "depression",
+            "stepped care",
+            "online cbt"
+          ]
+        },
+        {
+          "id": "mood-disorders--treating-depression--q2",
+          "discipline": "mental-health",
+          "topic": "mood-disorders",
+          "difficulty": "core",
+          "stem": "A 17-year-old boy with moderate depression (PHQ-9 16) is seeing a headspace psychologist. His mood has not improved after 6 sessions of CBT. He has no suicidal plan, no past elevated mood and does not use drugs. The GP and family agree to start medication.\n\nWhich one of the following is the most appropriate choice?",
+          "options": [
+            "Venlafaxine",
+            "Amitriptyline",
+            "Paroxetine",
+            "Fluoxetine",
+            "Phenelzine"
+          ],
+          "answer": 3,
+          "explanation": "In young people, **fluoxetine** has the strongest evidence of benefit over placebo and is the recommended first-line antidepressant (sertraline or escitalopram are alternatives), used **alongside ongoing psychological therapy**.\n\nBecause SSRIs can increase agitation and suicidal thinking early in treatment in under 25s, start low, **review within 1-2 weeks** and involve the family in monitoring. Give a safety plan and crisis contacts.\n\nVenlafaxine and paroxetine have poorer benefit-risk data in adolescents, TCAs are ineffective in this age group and toxic in overdose, and MAOIs are specialist agents.",
+          "whyWrong": [
+            "Venlafaxine has been associated with higher rates of suicidal behaviour in young people and is not first line.",
+            "TCAs are not effective in adolescent depression and are dangerous in overdose.",
+            "Paroxetine has poor evidence and higher adverse effects in adolescents.",
+            "",
+            "MAOIs are reserved for treatment-resistant adult depression under specialist care."
+          ],
+          "tags": [
+            "adolescent",
+            "fluoxetine",
+            "headspace"
+          ]
+        },
+        {
+          "id": "mood-disorders--treating-depression--q3",
+          "discipline": "mental-health",
+          "topic": "mood-disorders",
+          "difficulty": "exam",
+          "stem": "A 64-year-old man on sertraline 100 mg daily for depression had a knee replacement 2 days ago and was prescribed tramadol for pain. He is now agitated and sweaty. Temperature 38.1 degrees C, HR 118, BP 158/92. Pupils are dilated. He has hyperreflexia with sustained ankle clonus, more marked in the legs. Bowel sounds are hyperactive.\n\nWhich one of the following is the most appropriate immediate management?",
+          "options": [
+            "Intramuscular haloperidol",
+            "Dantrolene infusion",
+            "Stop sertraline and tramadol and give a benzodiazepine",
+            "Paracetamol and blood cultures for postoperative sepsis",
+            "Oral bromocriptine"
+          ],
+          "answer": 2,
+          "explanation": "Clonus and hyperreflexia (worse in the lower limbs), agitation, sweating, mydriasis, diarrhoea/hyperactive bowel and fever within days of adding **tramadol** to an SSRI: this is **serotonin syndrome** (Hunter criteria).\n\nManagement: **stop all serotonergic drugs**, give supportive care and **benzodiazepines** for agitation and muscle activity; **cyproheptadine** can be added in moderate toxicity. Severe cases (temperature above about 38.5 degrees C with rigidity) need ICU, active cooling and paralysis.\n\nHaloperidol can worsen hyperthermia and is anticholinergic; dantrolene and bromocriptine are used in NMS and malignant hyperthermia, not serotonin toxicity.",
+          "whyWrong": [
+            "Antipsychotics can worsen heat regulation and are not treatment for serotonin toxicity.",
+            "Dantrolene is for malignant hyperthermia; it has no proven role here.",
+            "",
+            "Sepsis does not explain clonus and hyperreflexia; delaying toxin removal is harmful.",
+            "Bromocriptine is a dopamine agonist used in NMS and can worsen serotonin toxicity."
+          ],
+          "ausPearl": "Tramadol, tapentadol, linezolid and moclobemide are the classic Australian inpatient triggers when added to an SSRI or SNRI.",
+          "tags": [
+            "serotonin syndrome",
+            "tramadol",
+            "toxicology"
+          ]
+        },
+        {
+          "id": "mood-disorders--treating-depression--q4",
+          "discipline": "mental-health",
+          "topic": "mood-disorders",
+          "difficulty": "core",
+          "stem": "An 81-year-old woman started citalopram 3 weeks ago for depression. She also takes hydrochlorothiazide for hypertension. Her daughter reports she has become confused and unsteady over 3 days. She is euvolaemic. Serum sodium 119 mmol/L (previously 138), serum osmolality low, urine osmolality inappropriately high.\n\nWhich one of the following is the most likely cause of her confusion?",
+          "options": [
+            "Serotonin syndrome",
+            "Syndrome of inappropriate antidiuretic hormone secretion",
+            "Worsening depression",
+            "Lewy body dementia",
+            "Hypothyroidism"
+          ],
+          "answer": 1,
+          "explanation": "**SSRIs cause SIADH**, particularly in older people, women, those with low body weight and those also on **thiazide diuretics**. It typically appears in the first few weeks of treatment. Euvolaemic hyponatraemia with low serum osmolality and inappropriately concentrated urine fits SIADH.\n\nConfusion, unsteadiness and falls are common symptoms at this sodium level. Management: stop or switch the SSRI (mirtazapine is less associated with hyponatraemia), review the thiazide, fluid restrict, and correct sodium slowly to avoid osmotic demyelination.\n\nThis is why sodium should be checked early after starting an SSRI in older adults.",
+          "whyWrong": [
+            "There is no clonus, hyperthermia or autonomic excess.",
+            "",
+            "Depression does not produce acute confusion with a sodium of 119.",
+            "The acute onset with a clear biochemical cause does not suggest a neurodegenerative disease.",
+            "Hypothyroidism rarely causes hyponatraemia this severe and would not explain the timing."
+          ],
+          "tags": [
+            "ssri",
+            "hyponatraemia",
+            "elderly"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mood-disorders--bipolar-and-lithium",
+      "title": "Bipolar disorder and lithium",
+      "minutes": 18,
+      "objectives": [
+        "Diagnose mania and hypomania and distinguish bipolar I from bipolar II",
+        "Manage acute mania, including stopping antidepressants and involuntary care when needed",
+        "Start and monitor lithium safely, including target levels and routine tests",
+        "Recognise lithium toxicity, its triggers and its management",
+        "Choose mood stabilisers in women of childbearing potential"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "What bipolar disorder is",
+          "body": "Bipolar disorder affects about 1-2% of Australians. It usually starts in the late teens or twenties, often with a depressive episode, which is why a missed diagnosis is common: many patients spend years labelled as unipolar depression. Suicide risk is very high, higher than in unipolar depression.\n\n- **Bipolar I:** at least one **manic** episode (depressive episodes usual but not required).\n- **Bipolar II:** at least one **hypomanic** episode plus at least one major depressive episode; never full mania.\n- **Cyclothymia:** 2 years or more of fluctuating subthreshold highs and lows."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why it happens",
+          "body": "Bipolar disorder is one of the most **heritable** psychiatric conditions (twin concordance much higher in identical twins; a first-degree relative raises risk several-fold). Episodes are triggered by **sleep loss** (shift work, jet lag, a newborn), stressful life events, substance use (stimulants, cannabis), corticosteroids, the **postpartum period**, and **antidepressants given without a mood stabiliser**. Sleep disruption both triggers and is a symptom of mania, creating a vicious cycle: protecting sleep is a key self-management strategy."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Mania and hypomania",
+          "body": "**Mania:** abnormally elevated, expansive or irritable mood **and** increased energy, lasting **at least 7 days** (or any duration if hospitalised), with 3 or more of (4 if mood is only irritable), mnemonic **DIGFAST**:\n- **D**istractibility\n- **I**mpulsivity / indiscretion: spending, sexual risk, reckless driving\n- **G**randiosity\n- **F**light of ideas, racing thoughts\n- **A**ctivity increased (goal-directed), psychomotor agitation\n- **S**leep need decreased (feels rested after 2-3 hours)\n- **T**alkativeness, **pressure of speech**\n\nMania causes marked impairment, may need admission, and may include **psychotic features** (grandiose delusions such as special powers or wealth).\n\n**Hypomania:** the same symptoms for **at least 4 days**, noticeable to others, but **without** marked impairment, hospitalisation or psychosis.\n\n**Mental state exam in mania:** overfamiliar, colourful dress, pressured speech hard to interrupt, flight of ideas with clang associations or puns, elated or irritable affect, grandiose content, poor insight.\n\n**Mixed features:** depressive and manic symptoms at the same time; high suicide risk."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Workup and lithium monitoring",
+          "body": "**At presentation:** exclude organic and drug causes: urine drug screen (amphetamines), TSH (hyperthyroidism), FBC, UEC, LFT, calcium, glucose; consider CT/MRI brain if first episode is late in life or there are neurological signs (frontal lesions can cause disinhibition). Ask about steroids.\n\n**Before lithium:** UEC and eGFR, **TSH**, **calcium**, weight, ECG if cardiac risk or older, pregnancy test.\n\n**Lithium levels:**\n- Take the level **12 hours after the last dose** (trough).\n- **Maintenance target: 0.6-0.8 mmol/L**; higher (up to about 1.0 mmol/L) may be used short term in acute mania under specialist guidance.\n- Check levels about 5-7 days after starting or any dose change (steady state), then regularly once stable (typically every 3 months).\n- **Renal function, TSH and calcium** at least every 6 months, plus weight.\n\n**Long-term lithium effects:** hypothyroidism (common, treat with thyroxine rather than stopping lithium), **nephrogenic diabetes insipidus** (polyuria, polydipsia), chronic kidney disease, **hyperparathyroidism with hypercalcaemia**, weight gain, fine tremor, acne or psoriasis flares, T-wave flattening. In pregnancy there is a small increased risk of cardiac malformation (Ebstein's anomaly); specialist planning is needed."
+        },
+        {
+          "kind": "management",
+          "heading": "Acute mania, maintenance and lithium toxicity",
+          "body": "**Acute mania**\n- Assess risk (to self, others, finances, reputation) and capacity. Many people lack insight and need **involuntary treatment under the state Mental Health Act** (criteria and forms vary by state).\n- **Stop any antidepressant.**\n- First line: an **atypical antipsychotic** (olanzapine, quetiapine, risperidone, aripiprazole) and/or **lithium** or **sodium valproate**. Combination for severe mania.\n- Short-term **benzodiazepines** for agitation and sleep. Protect sleep.\n\n**Bipolar depression:** avoid antidepressant monotherapy. Options include quetiapine, lurasidone, lamotrigine (slow titration to avoid Stevens-Johnson syndrome), or lithium. An antidepressant, if used, is always combined with a mood stabiliser.\n\n**Maintenance**\n- **Lithium is the gold standard**: reduces relapse (especially mania) and has a unique **anti-suicide effect**.\n- Alternatives: valproate, quetiapine, aripiprazole, lamotrigine (prevents depression more than mania).\n- **Valproate is highly teratogenic** (neural tube defects, neurodevelopmental harm): avoid in women and girls of childbearing potential unless no alternative and effective contraception is in place, per TGA warnings.\n- Psychoeducation, regular sleep, mood charting, early warning sign plans, family involvement, reduce alcohol and drugs.\n\n**Lithium toxicity**\nLithium has a **narrow therapeutic index** and is cleared by the kidney, reabsorbed with sodium in the proximal tubule. Anything that causes sodium and water depletion increases reabsorption and raises the level:\n- **Dehydration**: vomiting, diarrhoea, heat, fasting, intercurrent illness\n- **NSAIDs**, **ACE inhibitors/ARBs**, **thiazide diuretics**\n- Declining renal function, deliberate overdose\n\nFeatures: early **coarse tremor**, nausea, **vomiting**, diarrhoea; then **ataxia**, dysarthria, **confusion**, hyperreflexia, myoclonus, seizures, coma, arrhythmias. Levels above about 1.5 mmol/L are toxic, but **chronic toxicity can be severe at modest levels**, so treat the patient, not the number.\n\nManagement: **stop lithium**, check level, UEC and ECG, **IV normal saline** to restore volume and aid excretion, stop precipitating drugs. **Activated charcoal does not bind lithium**; whole bowel irrigation is considered for large sustained-release ingestions. **Haemodialysis** for severe toxicity, particularly with neurological features or impaired renal function (discuss with a toxicologist, Poisons Information Centre 13 11 26)."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Depressed patient started on an SSRI, now sleeping 2 hours, spending, talking fast: **antidepressant-induced mania** revealing bipolar disorder; stop the antidepressant.\n- Stable lithium patient with gastroenteritis, now tremulous, vomiting and confused: **lithium toxicity**; IV saline, not charcoal.\n- Lithium patient started on ibuprofen or ramipril or a thiazide: rising level.\n- Polyuria on lithium with dilute urine: **nephrogenic DI**.\n- Young woman wanting pregnancy on valproate: switch before conception with specialist advice.\n- Hypomania vs mania: 4 days without impairment vs 7 days or admission/psychosis.\n- Differentials to keep in mind for a first \"manic\" presentation: **methamphetamine** intoxication (check a drug screen and history), **hyperthyroidism**, **corticosteroids**, frontal lobe lesions, and in older people delirium. Schizoaffective disorder is the diagnosis when psychosis persists for 2 weeks or more without mood symptoms.\n- Borderline personality disorder causes mood swings over hours, triggered by interpersonal events; bipolar episodes last days to weeks with a sustained change in sleep and energy."
+        }
+      ],
+      "keyPoints": [
+        "Mania: 7 days (or any duration if admitted) of elevated or irritable mood plus DIGFAST; hypomania: 4 days, no marked impairment or psychosis.",
+        "Bipolar I needs mania; bipolar II needs hypomania plus major depression.",
+        "Screen for bipolar before starting an antidepressant; never use antidepressant monotherapy in bipolar.",
+        "Lithium is the gold-standard maintenance drug; target 0.6-0.8 mmol/L, trough 12 hours post-dose.",
+        "Monitor lithium level, renal function, TSH and calcium; watch for nephrogenic DI and hypothyroidism.",
+        "Lithium toxicity: coarse tremor, vomiting, ataxia, confusion; triggered by dehydration, NSAIDs, ACE inhibitors, diuretics.",
+        "Treat toxicity with IV saline and stopping lithium; haemodialysis when severe; charcoal does not work.",
+        "Avoid valproate in women of childbearing potential."
+      ],
+      "redFlags": [
+        "Mania with psychosis, dangerous risk-taking or lack of insight requiring involuntary care",
+        "Lithium patient with vomiting, coarse tremor, ataxia or confusion",
+        "Mixed episode (high suicide risk)",
+        "Postpartum onset of elevated mood, confusion or psychosis (postpartum psychosis)",
+        "Valproate in a woman who may become pregnant"
+      ],
+      "contrast": [
+        {
+          "aspect": "Mood stabiliser choice",
+          "india": "Sodium valproate widely used, including in young women.",
+          "australia": "Lithium preferred for maintenance; valproate avoided in women of childbearing potential per TGA warnings."
+        },
+        {
+          "aspect": "Lithium monitoring",
+          "india": "Levels checked, but routine thyroid, calcium and renal monitoring may be irregular.",
+          "australia": "Structured monitoring of level, eGFR, TSH and calcium, often GP-led under a shared-care plan."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Minimum duration of a manic vs hypomanic episode?",
+          "back": "Mania 7 days (or any duration if hospitalised); hypomania 4 days."
+        },
+        {
+          "front": "Typical lithium maintenance range?",
+          "back": "0.6-0.8 mmol/L, measured 12 hours after the last dose."
+        },
+        {
+          "front": "Name three drug classes that raise lithium levels.",
+          "back": "NSAIDs, ACE inhibitors/ARBs, thiazide diuretics."
+        },
+        {
+          "front": "Does activated charcoal bind lithium?",
+          "back": "No. Use IV saline, stop lithium, and haemodialysis for severe toxicity."
+        },
+        {
+          "front": "Renal complication causing polyuria on lithium?",
+          "back": "Nephrogenic diabetes insipidus."
+        },
+        {
+          "front": "Endocrine tests to monitor on lithium?",
+          "back": "TSH (hypothyroidism) and calcium (hyperparathyroidism), at least 6-monthly."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "mood-disorders--bipolar-and-lithium--q1",
+          "discipline": "mental-health",
+          "topic": "mood-disorders",
+          "difficulty": "foundation",
+          "stem": "A 26-year-old man is brought to the emergency department by his flatmates. For 10 days he has slept 2-3 hours a night, has spent $15,000 on a plan to \"fix climate change\", talks rapidly and is hard to interrupt. He believes he has been chosen to lead the country. Urine drug screen is negative. He was treated for depression 2 years ago.\n\nWhich one of the following is the most likely diagnosis?",
+          "options": [
+            "Bipolar I disorder, current episode manic with psychotic features",
+            "Bipolar II disorder",
+            "Schizophrenia",
+            "Cyclothymic disorder",
+            "Substance-induced psychotic disorder"
+          ],
+          "answer": 0,
+          "explanation": "He has more than 7 days of **decreased need for sleep, reckless spending, pressured speech and grandiosity**, with a **grandiose delusion** and marked impairment. This is a **manic episode with psychotic features**, and any manic episode defines **bipolar I disorder**. The earlier depression fits the typical course.\n\nBipolar II requires hypomania (no psychosis, no marked impairment). In schizophrenia, the psychosis occurs without a prominent mood episode driving it. A negative drug screen argues against substance-induced psychosis, though a careful history is still needed.",
+          "whyWrong": [
+            "",
+            "Psychosis and marked impairment mean mania, which excludes bipolar II.",
+            "Mood-congruent grandiosity with classic manic features points to mania, not schizophrenia.",
+            "Cyclothymia involves subthreshold symptoms over 2 years, not florid mania.",
+            "The drug screen is negative and the picture is a typical manic syndrome."
+          ],
+          "tags": [
+            "bipolar",
+            "mania",
+            "diagnosis"
+          ]
+        },
+        {
+          "id": "mood-disorders--bipolar-and-lithium--q2",
+          "discipline": "mental-health",
+          "topic": "mood-disorders",
+          "difficulty": "core",
+          "stem": "A 45-year-old woman with bipolar I disorder has been stable on lithium for 6 years with levels around 0.7 mmol/L. She has had 3 days of vomiting and diarrhoea during a heatwave and started ibuprofen for a headache. She now has a coarse tremor, is unsteady on her feet and is slurring her words. Her lithium level is 2.2 mmol/L and creatinine is raised above her baseline.\n\nWhich one of the following is the most appropriate management?",
+          "options": [
+            "Activated charcoal 50 g orally",
+            "Continue lithium at half dose and recheck in a week",
+            "Intravenous frusemide to promote diuresis",
+            "Stop lithium, give intravenous normal saline and discuss haemodialysis with a toxicologist",
+            "Start sodium valproate in place of lithium immediately"
+          ],
+          "answer": 3,
+          "explanation": "This is **lithium toxicity** precipitated by **dehydration** (gastroenteritis, heat) and an **NSAID**, with acute kidney injury. Neurological features (coarse tremor, ataxia, dysarthria) indicate significant toxicity.\n\nManagement: **stop lithium** and the NSAID, restore volume with **IV normal saline** (sodium repletion reduces proximal tubular lithium reabsorption), monitor levels, UEC and ECG. **Haemodialysis** is indicated for severe toxicity, especially with neurological features and impaired renal function, so involve a toxicologist early (Poisons Information Centre 13 11 26).\n\nCharcoal does not bind lithium, and loop diuretics worsen volume depletion.",
+          "whyWrong": [
+            "Lithium is not adsorbed by activated charcoal.",
+            "Continuing lithium when toxic is dangerous.",
+            "Diuretics worsen dehydration and increase lithium reabsorption.",
+            "",
+            "Changing mood stabiliser is not the priority while she is toxic."
+          ],
+          "ausPearl": "The Australian Poisons Information Centre (13 11 26) provides 24-hour toxicology advice.",
+          "tags": [
+            "lithium",
+            "toxicity",
+            "nsaids"
+          ]
+        },
+        {
+          "id": "mood-disorders--bipolar-and-lithium--q3",
+          "discipline": "mental-health",
+          "topic": "mood-disorders",
+          "difficulty": "exam",
+          "stem": "A 31-year-old man with a 3-year history of recurrent depression was started on escitalopram by his GP 3 weeks ago. His partner calls because he has been sleeping 3 hours a night for 5 days, talking constantly, starting new business ventures and making unwise purchases. He is still going to work. His father had \"manic depression\".\n\nWhich one of the following is the most appropriate next step?",
+          "options": [
+            "Increase the dose of escitalopram",
+            "Add zopiclone for sleep and continue escitalopram",
+            "Switch escitalopram to venlafaxine",
+            "Reassure the partner that this is recovery from depression",
+            "Stop escitalopram and arrange urgent psychiatric assessment for bipolar disorder"
+          ],
+          "answer": 4,
+          "explanation": "Elevated energy, reduced need for sleep, pressured speech and impulsive spending shortly after starting an antidepressant, in someone with a **family history of bipolar disorder**, is **antidepressant-emergent hypomania or mania**, which unmasks **bipolar disorder**.\n\nThe antidepressant should be **stopped**, and he needs urgent psychiatric assessment and a mood stabiliser or antipsychotic. This case shows why every patient should be asked about past highs and family history of bipolar disorder before an antidepressant is started. Antidepressant monotherapy is avoided in bipolar disorder.",
+          "whyWrong": [
+            "Increasing the antidepressant will worsen the elevated mood.",
+            "Treating sleep alone ignores the emerging manic episode.",
+            "Venlafaxine has an even higher switch rate into mania.",
+            "Reduced sleep with high energy and impulsivity is not normal recovery.",
+            ""
+          ],
+          "tags": [
+            "bipolar",
+            "antidepressant-induced mania",
+            "ssri"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mood-disorders--suicide-risk",
+      "title": "Suicide and self-harm: assessment and response",
+      "minutes": 15,
+      "objectives": [
+        "Ask about suicidal thoughts directly and structure a suicide assessment",
+        "Identify static and dynamic risk factors and protective factors in Australian populations",
+        "Build a safety plan, including means restriction, follow-up and crisis contacts",
+        "Decide when to admit, including the principles of involuntary treatment under state Mental Health Acts"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Suicide in Australia",
+          "body": "More than 3,000 Australians die by suicide each year. It is the leading cause of death for Australians aged roughly 15 to 44. About **three-quarters are male**. Rates are highest in **older men (85 and over)**, middle-aged men, people in rural and remote areas, **Aboriginal and Torres Strait Islander people** (about twice the non-Indigenous rate), LGBTIQ+ people, veterans, and people recently discharged from psychiatric hospital. Self-harm presentations are most common in **young women**.\n\nMany people who die by suicide have seen a health professional, often a GP, in the preceding weeks. That is why the AMC tests whether you ask, assess and act."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Risk factors and why prediction is hard",
+          "body": "**Static (unchangeable) factors:** male sex, older age, previous suicide attempt (the strongest predictor), family history of suicide, childhood abuse, chronic illness or pain.\n\n**Dynamic (modifiable) factors:** current depression, psychosis (especially command hallucinations), hopelessness, alcohol or drug intoxication, recent loss (relationship, job, finances), legal problems, social isolation, access to lethal means (firearms, stockpiled medication), recent discharge from inpatient care, agitation or insomnia.\n\n**Protective factors:** connectedness to family and community, children at home, cultural and spiritual beliefs, engagement with care, problem-solving skills, reasons for living.\n\nImportantly, current RANZCP and international guidance (including NICE on self-harm) advise **against relying on risk scales or classifying people as \"low, medium or high risk\"** to decide who gets care, because these predict poorly. The emphasis has shifted to a **thorough psychosocial assessment of needs and a collaborative safety plan** for everyone."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Asking and assessing",
+          "body": "**Asking directly does not increase risk.** Normalise first, then ask: \"Sometimes when people feel this low they think about ending their life. Have you had thoughts like that?\"\n\nThen explore, moving from thoughts to action:\n- **Ideation:** frequency, intensity, passive (\"better off dead\") vs active\n- **Plan:** method, timing, place, preparations (notes, giving away belongings, rehearsal)\n- **Intent:** how likely they are to act; what has stopped them so far\n- **Means:** access to firearms, medication, other methods\n- **Past attempts:** lethality and circumstances (planned, alone, precautions against discovery = high intent)\n- **Mental state:** depression, psychosis, intoxication, hopelessness\n- **Protective factors** and supports\n\n**After self-harm,** assess the medical severity (paracetamol level at 4 hours or later, ECG after a TCA overdose), then the psychosocial context: what was intended, how they feel about surviving, what has changed.\n\nCollateral history from family (with consent where possible, but safety comes first) is essential. Confidentiality can be breached to prevent serious harm."
+        },
+        {
+          "kind": "management",
+          "heading": "Safety planning and disposition",
+          "body": "**For everyone at risk:**\n- **Collaborative safety plan** written with the person: warning signs, internal coping strategies, people and places for distraction, people to ask for help, professionals and crisis lines, and making the environment safe.\n- **Means restriction**: remove or secure firearms (police can assist), limit medication supply (dispense small quantities; avoid TCAs), involve family.\n- **Treat the underlying condition** (depression, psychosis, substance use).\n- **Follow-up** within days, especially after ED discharge, because the weeks after discharge are high risk. Aftercare services (e.g. The Way Back Support Service, Beyond Blue) follow people after a suicide attempt.\n- **Crisis lines**: Lifeline 13 11 14, Suicide Call Back Service 1300 659 467, Kids Helpline 1800 55 1800 (5-25), 13YARN 13 92 76, and 000 in an emergency.\n\n**Consider admission or crisis team when:**\n- Strong intent or a clear plan with access to means\n- Psychosis, severe depression, or intoxication preventing safe assessment\n- Inability to engage in a safety plan or no safe supports at home\n\n**Involuntary treatment:** each state and territory has its own Mental Health Act, and details vary by state. The common criteria are: the person appears to have a **mental illness**, there is a **risk of serious harm** to themselves or others (or serious deterioration), treatment is needed, and there is **no less restrictive** way to provide it. Doctors (and in some states other clinicians or police) can initiate emergency assessment or detention; a psychiatrist must review within a set time, and a tribunal oversees ongoing orders. Intoxication or suicidal thoughts alone, without mental illness, do not meet criteria in most states, although emergency duty-of-care powers still apply."
+        },
+        {
+          "kind": "application",
+          "heading": "Specific groups the AMC likes",
+          "body": "- **Young people who self-harm:** cutting is often a way of managing unbearable feelings rather than an attempt to die, but it still raises future suicide risk. Respond without judgement, check wound care and tetanus, and link to headspace or child and adolescent mental health services. A HEADSS psychosocial assessment (home, education, activities, drugs, sexuality, suicide) seen alone is standard.\n- **Older men:** less likely to disclose; present with physical complaints, bereavement, chronic pain or loss of independence. Their attempts are more often lethal.\n- **Perinatal women:** suicide is a leading cause of maternal death in the first postnatal year. Ask at every antenatal and postnatal contact; postpartum psychosis is an emergency.\n- **Aboriginal and Torres Strait Islander people:** involve Aboriginal health workers or liaison officers, consider family and community (clusters occur after a death), and offer 13YARN. Culturally safe care improves engagement.\n- **People who are intoxicated:** reassess when sober; intoxication increases impulsivity and lethality, so keep them safe in the meantime.\n- **Chronic suicidality** (for example in borderline personality disorder): long-term, consistent care with a clear crisis plan works better than repeated short admissions."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- The **next step** after hearing someone is depressed is almost always to **ask directly about suicidal thoughts and plans**.\n- The single strongest predictor of suicide is a **previous attempt**.\n- A patient who suddenly seems calm and settled after a period of agitation may have **decided on a plan**.\n- A firearms owner at risk: arranging safe removal of firearms is part of the plan (varies by state; police can be involved).\n- Adolescent requesting confidentiality who discloses a suicide plan: confidentiality is broken to keep them safe; tell them first.\n- The trap: \"classify as low risk and discharge\". Guidance favours a needs-based assessment, safety plan and early follow-up."
+        }
+      ],
+      "keyPoints": [
+        "Ask about suicide directly; it does not increase risk.",
+        "Previous suicide attempt is the strongest single predictor.",
+        "Highest rates: men, especially older men; also rural, Aboriginal and Torres Strait Islander, LGBTIQ+ people, and after psychiatric discharge.",
+        "Assess ideation, plan, intent, means, past attempts, mental state and protective factors.",
+        "Current guidance discourages risk scales and low/medium/high labels; use needs-based assessment and safety planning.",
+        "Means restriction (firearms, medication quantity) and early follow-up save lives.",
+        "Involuntary treatment criteria vary by state: mental illness, serious risk, need for treatment, no less restrictive option."
+      ],
+      "redFlags": [
+        "Specific plan with access to lethal means",
+        "Recent high-lethality attempt, or precautions taken against discovery",
+        "Command hallucinations or psychotic depression",
+        "Sudden calm after agitation in a depressed patient",
+        "Recent discharge from psychiatric admission",
+        "Hopelessness with intoxication"
+      ],
+      "contrast": [
+        {
+          "aspect": "Suicide and the law",
+          "india": "Attempted suicide was decriminalised under the Mental Healthcare Act 2017; stigma and police involvement persist.",
+          "australia": "Never a crime; managed as a health issue, with state Mental Health Acts for involuntary care when criteria are met."
+        },
+        {
+          "aspect": "Risk stratification",
+          "india": "Often taught as high/low risk categorisation using scales such as SAD PERSONS.",
+          "australia": "RANZCP and NICE discourage scale-based risk labels; emphasis is on needs assessment and collaborative safety planning."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Strongest single predictor of suicide?",
+          "back": "A previous suicide attempt."
+        },
+        {
+          "front": "Lifeline number?",
+          "back": "13 11 14."
+        },
+        {
+          "front": "Four common criteria for involuntary treatment under Australian Mental Health Acts?",
+          "back": "Mental illness, risk of serious harm or deterioration, need for treatment, no less restrictive option (details vary by state)."
+        },
+        {
+          "front": "Name the core elements of a safety plan.",
+          "back": "Warning signs, coping strategies, social contacts, help from family/friends, professional and crisis contacts, means restriction."
+        },
+        {
+          "front": "Which group has the highest age-specific suicide rate in Australia?",
+          "back": "Men aged 85 and over."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "mood-disorders--suicide-risk--q1",
+          "discipline": "mental-health",
+          "topic": "mood-disorders",
+          "difficulty": "foundation",
+          "stem": "A 40-year-old farmer presents to his rural GP after his wife insisted. He has been low for 2 months since drought forced him to sell stock, and he says he is \"a failure\". He admits to thinking the family would be better off without him. He owns several rifles.\n\nWhich one of the following is the most appropriate next step?",
+          "options": [
+            "Prescribe an SSRI and review in 4 weeks",
+            "Refer to a financial counsellor",
+            "Ask directly whether he has a plan and intent to act, including use of his firearms",
+            "Complete a SAD PERSONS score to decide whether he is high risk",
+            "Advise him to take a holiday"
+          ],
+          "answer": 2,
+          "explanation": "He has passive suicidal ideation, depression, hopelessness, financial loss, rural isolation and access to **firearms**, a highly lethal method. The immediate priority is to **ask directly about plan, intent and means**. Asking does not increase risk.\n\nThis assessment determines what happens next: a collaborative safety plan, **removal or secure storage of firearms** (involving family or police), treatment of depression, and possibly crisis team involvement or admission.\n\nRisk scales such as SAD PERSONS predict poorly and are not recommended as the basis for decisions. Treatment and financial help matter, but only after the immediate risk is understood.",
+          "whyWrong": [
+            "Starting treatment without assessing risk and means is unsafe, and 4 weeks is too long to wait.",
+            "Financial counselling helps later but does not address immediate safety.",
+            "",
+            "Scale-based risk classification predicts poorly and is discouraged.",
+            "This dismisses a man with suicidal thoughts and access to firearms."
+          ],
+          "ausPearl": "Rural men and farmers have elevated suicide rates in Australia; firearms access is a key modifiable risk.",
+          "tags": [
+            "suicide",
+            "risk assessment",
+            "firearms"
+          ]
+        },
+        {
+          "id": "mood-disorders--suicide-risk--q2",
+          "discipline": "mental-health",
+          "topic": "mood-disorders",
+          "difficulty": "core",
+          "stem": "A 16-year-old girl sees you alone at her GP clinic and asks that you not tell her parents anything. During the consultation she discloses that she has been cutting her forearms and last night wrote a note and collected her mother's sleeping tablets, planning to take them this weekend.\n\nWhich one of the following is the most appropriate action?",
+          "options": [
+            "Maintain confidentiality because she is a mature minor",
+            "Tell her you need to involve others to keep her safe, and arrange urgent assessment and involvement of her parents",
+            "Give her the Kids Helpline number and review next week",
+            "Prescribe fluoxetine and arrange headspace follow-up",
+            "Refer her to a school counsellor"
+          ],
+          "answer": 1,
+          "explanation": "She has a **specific plan, a note, and has gathered the means**: this indicates high intent and imminent danger. Confidentiality for young people is important but **not absolute**; it can and should be breached to prevent serious harm.\n\nThe best approach is honest: explain that you are worried about her safety and need to involve others, try to gain her agreement about how parents are told, remove access to the tablets, and arrange **same-day assessment** by a crisis or child and adolescent mental health team.\n\nCrisis lines and headspace are useful supports but insufficient when there is imminent risk.",
+          "whyWrong": [
+            "Confidentiality does not apply when there is a serious and imminent risk of harm.",
+            "",
+            "A helpline and a week's delay is unsafe with a plan and means already gathered.",
+            "Medication and routine follow-up do not address imminent risk.",
+            "School counselling is too slow and not appropriate for imminent risk."
+          ],
+          "tags": [
+            "adolescent",
+            "confidentiality",
+            "suicide"
+          ]
+        },
+        {
+          "id": "mood-disorders--suicide-risk--q3",
+          "discipline": "mental-health",
+          "topic": "mood-disorders",
+          "difficulty": "exam",
+          "stem": "A 58-year-old man is medically cleared in the emergency department 18 hours after an intentional overdose of paracetamol and alcohol, for which he received acetylcysteine. He tells you he took it alone at a motel after writing a letter to his daughter, and is \"annoyed it didn't work\". His marriage recently ended and he has lost his job. He wants to go home.\n\nWhich one of the following is the most appropriate disposition?",
+          "options": [
+            "Discharge with a GP letter as he is now medically well",
+            "Discharge with a safety plan and Lifeline number",
+            "Discharge to a friend's care and review by his GP in 2 weeks",
+            "Refer to an outpatient psychologist",
+            "Psychiatric admission, involuntarily under the Mental Health Act if he will not agree"
+          ],
+          "answer": 4,
+          "explanation": "Several features indicate very **high intent**: he planned the attempt, went somewhere **alone to avoid discovery**, left a **note**, and **regrets surviving**. He is a middle-aged man with recent losses (marriage, job) and used alcohol.\n\nHe needs **inpatient psychiatric care**. If he refuses and appears to have a mental illness (e.g. severe depression) with serious risk and no less restrictive option, he meets criteria for **involuntary admission under the state Mental Health Act** (criteria vary by state).\n\nBeing medically cleared does not mean he is safe, and outpatient or crisis-line options are inadequate for this level of ongoing intent.",
+          "whyWrong": [
+            "Medical clearance says nothing about ongoing suicide risk.",
+            "A safety plan alone is inadequate when he regrets surviving a high-intent attempt.",
+            "Two weeks is far too long given ongoing intent.",
+            "Outpatient psychology cannot provide the immediate safety he needs.",
+            ""
+          ],
+          "tags": [
+            "suicide",
+            "mental health act",
+            "self-harm"
+          ]
+        }
+      ]
+    }
+  ]
+}

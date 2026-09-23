@@ -1,0 +1,1008 @@
+{
+  "topic": "epidemiology-biostats",
+  "intro": "Epidemiology and biostatistics give you the tools to read evidence and explain risk to patients: study design, measures of frequency and association, diagnostic test accuracy, bias and confounding, and statistical inference, plus the key facts about the health of Australians. The AMC tests these with short calculations and interpretation questions, so the arithmetic must be secure and the concepts automatic.",
+  "lessons": [
+    {
+      "id": "epidemiology-biostats--study-design-and-evidence",
+      "title": "Study design and levels of evidence",
+      "minutes": 14,
+      "objectives": [
+        "Classify a study as descriptive, observational analytic or experimental from a short description",
+        "Choose the best design for a given research question (rare disease, rare exposure, treatment effect)",
+        "Match each design to the measure of association it produces",
+        "Rank evidence using the NHMRC levels of evidence for intervention studies"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why design comes first",
+          "body": "Every appraisal question starts with: **what kind of study is this?** The design decides what the study can prove (association or causation), which measure of association you can calculate, and which biases threaten it. The AMC usually gives a two-line description and asks you to name the design, pick the right design for a question, or say what it can conclude.\n\nCore methods are the same in India and Australia. What differs is the Australian framing: evidence is graded with the **NHMRC levels of evidence**, and guidelines (Therapeutic Guidelines, RACGP, Heart Foundation) are built on them."
+        },
+        {
+          "kind": "concepts",
+          "heading": "The designs, from weakest to strongest",
+          "body": "| Design | How it works | Measures | Strength | Main weakness |\n|---|---|---|---|---|\n| **Case report / case series** | Describes one or more patients | None | Detects new diseases and drug reactions | No comparison group |\n| **Ecological** | Compares groups (countries, regions), not individuals | Correlation | Cheap, uses existing data | **Ecological fallacy**: group links may not hold for individuals |\n| **Cross-sectional** | Exposure and outcome measured at one time point | **Prevalence**, prevalence ratio | Quick; good for planning services | Cannot show which came first |\n| **Case-control** | Start with people **with** the disease (cases) and **without** (controls); look **back** at exposures | **Odds ratio** | Best for **rare diseases** and diseases with long latency; quick, cheap | **Recall bias**, selection of controls |\n| **Cohort** | Start with exposed and unexposed people **without** the disease; follow **forward** for outcomes | **Incidence**, **relative risk**, attributable risk | Shows temporal sequence; best for **rare exposures**; can study **several outcomes** | Slow, costly, loss to follow-up; poor for rare diseases |\n| **Randomised controlled trial** | Randomly allocate participants to intervention or control | Relative risk, ARR, NNT | Randomisation balances known and **unknown confounders**; best test of causation | Expensive, may not generalise, ethical limits |\n| **Systematic review and meta-analysis** | Pre-specified search and synthesis of all relevant studies | Pooled estimate | Highest level for interventions | Only as good as included studies; publication bias |\n\n**Prospective vs retrospective.** A cohort can be retrospective (historical): you use existing records to identify exposure in the past and then look at outcomes that have since occurred. The direction is still exposure to outcome. Case-control studies always go from outcome to exposure.\n\n**Cohort vs case-control in one line:** cohort starts with exposure; case-control starts with disease.\n\n### NHMRC levels of evidence (intervention questions)\n| Level | Study type |\n|---|---|\n| I | Systematic review of level II studies |\n| II | Randomised controlled trial |\n| III-1 | Pseudo-randomised controlled trial (e.g. alternate allocation) |\n| III-2 | Comparative study with concurrent controls (non-randomised trial, cohort, case-control) |\n| III-3 | Comparative study without concurrent controls (historical control, interrupted time series without a parallel control) |\n| IV | Case series |\n\nEvidence about diagnosis, prognosis and aetiology has its own hierarchies; for example, a prospective cohort is the best primary design for prognosis.\n\n### Features of a good RCT\n- **Random allocation**, with **allocation concealment** (the recruiter cannot know or influence the next allocation). This prevents selection bias.\n- **Blinding** of participants, clinicians and outcome assessors where possible. This prevents performance and detection bias.\n- **Intention-to-treat analysis**: analyse everyone in the group they were randomised to, regardless of adherence. This preserves the benefits of randomisation.\n- Adequate sample size (power) and complete follow-up."
+        },
+        {
+          "kind": "application",
+          "heading": "Choosing the design for a question",
+          "body": "Work from the question:\n- **\"Is this rare cancer linked to a past exposure?\"** Case-control. A cohort would need to follow enormous numbers to collect enough cases.\n- **\"What diseases do workers exposed to a rare industrial chemical develop?\"** Cohort. You select on the rare exposure and can measure many outcomes.\n- **\"Does drug A reduce stroke compared with drug B?\"** RCT.\n- **\"How common is diabetes in a remote community right now?\"** Cross-sectional survey.\n- **\"What is the prognosis after first seizure?\"** Prospective cohort.\n- **\"Do countries with high salt intake have more stroke?\"** Ecological. Remember the fallacy: it does not show that the individuals who ate salt had strokes.\n- **\"Is smoking harmful?\"** An RCT would be unethical; the evidence comes from large cohorts and case-control studies judged against the **Bradford Hill criteria** for causation: strength, consistency, specificity, **temporality** (the only essential one), biological gradient (dose-response), plausibility, coherence, experiment and analogy.\n\n**A worked example of design recognition.** Researchers identify 150 children with leukaemia from a cancer registry and 300 children without leukaemia from the same area, then interview parents about pesticide use during pregnancy. This starts from disease status and looks back at exposure: a **case-control study**, and the correct measure is the **odds ratio**. Because parents of sick children search their memories harder, it is prone to **recall bias**."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- Look for the **starting point** of the study. Starting with disease means case-control; starting with exposure means cohort; researcher assigning exposure means trial.\n- \"One point in time\" or \"survey\" means cross-sectional and **prevalence**.\n- Relative risk needs **incidence**, so it comes only from cohort studies and RCTs. Case-control studies give **odds ratios**.\n- If a question asks which design best controls for **unknown confounders**, the answer is randomisation (an RCT).\n- \"Rare disease\" leans to case-control; \"rare exposure\" or \"multiple outcomes\" leans to cohort.\n- Trap: a study that uses old records is not automatically case-control. If it selects by exposure and follows to outcomes, it is a retrospective cohort."
+        }
+      ],
+      "keyPoints": [
+        "Case-control starts with disease and looks back; it gives odds ratios and suits rare diseases.",
+        "Cohort starts with exposure and follows forward; it gives incidence and relative risk and suits rare exposures.",
+        "Cross-sectional studies measure prevalence at one time point and cannot show temporality.",
+        "RCTs control known and unknown confounders through randomisation.",
+        "NHMRC level I is a systematic review of RCTs; level IV is a case series.",
+        "Intention-to-treat analysis preserves randomisation.",
+        "Temporality is the only essential Bradford Hill criterion."
+      ],
+      "redFlags": [],
+      "contrast": [
+        {
+          "aspect": "Evidence grading",
+          "india": "Often taught with the generic evidence pyramid (Oxford CEBM).",
+          "australia": "NHMRC levels I to IV are used in Australian guidelines and appear in exam explanations."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Which study design is best for a rare disease?",
+          "back": "Case-control."
+        },
+        {
+          "front": "Which study design is best for a rare exposure?",
+          "back": "Cohort."
+        },
+        {
+          "front": "Which measure of association comes from a case-control study?",
+          "back": "The odds ratio."
+        },
+        {
+          "front": "What is NHMRC level II evidence?",
+          "back": "A randomised controlled trial."
+        },
+        {
+          "front": "What is the ecological fallacy?",
+          "back": "Assuming an association seen between groups also holds for individuals."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "epidemiology-biostats--study-design-and-evidence--q1",
+          "discipline": "population-health",
+          "topic": "epidemiology-biostats",
+          "difficulty": "foundation",
+          "stem": "Researchers in Western Australia want to know whether mesothelioma is associated with living near a former asbestos mine. Mesothelioma is rare and has a latency of 30 to 40 years. They have limited funding and want an answer within a year.\n\nWhich study design is most appropriate?",
+          "options": [
+            "Case-control study",
+            "Prospective cohort study",
+            "Cross-sectional survey",
+            "Randomised controlled trial",
+            "Ecological study"
+          ],
+          "answer": 0,
+          "explanation": "A **case-control study** starts with people who have the disease (cases, e.g. from the state cancer registry) and a comparable group without it (controls), then compares past exposure. It is the most efficient design for a **rare disease** with a **long latency**, and it is quick and relatively cheap.\n\nA prospective cohort would need to follow a huge number of people for decades to collect enough cases. An RCT is unethical because you cannot randomise people to asbestos. Cross-sectional studies cannot establish temporality, and ecological studies look at groups rather than individuals.",
+          "whyWrong": [
+            "",
+            "A cohort would need decades of follow-up and very large numbers to find enough cases of a rare disease.",
+            "A single time point cannot establish that exposure came before disease.",
+            "Randomising people to asbestos exposure would be unethical.",
+            "Group-level data risks the ecological fallacy and cannot link exposure to individuals."
+          ],
+          "ausPearl": "Western Australia's Wittenoom crocidolite mine produced one of the world's best-studied cohorts of asbestos-related disease.",
+          "tags": [
+            "study design",
+            "case-control"
+          ]
+        },
+        {
+          "id": "epidemiology-biostats--study-design-and-evidence--q2",
+          "discipline": "population-health",
+          "topic": "epidemiology-biostats",
+          "difficulty": "core",
+          "stem": "A study in Victoria identifies 5,000 workers employed at a plastics plant between 1980 and 1990 using old employment records, and 10,000 workers from other factories over the same period. Using state cancer and death registries, the researchers determine which workers have since developed liver cancer or other diseases.\n\nWhat type of study is this?",
+          "options": [
+            "Case-control study",
+            "Case series",
+            "Cross-sectional study",
+            "Retrospective cohort study",
+            "Non-randomised controlled trial"
+          ],
+          "answer": 3,
+          "explanation": "The study **selects participants by exposure** (working at the plastics plant or not) and then determines **outcomes that occurred later**. That is a **cohort** design. Because it uses historical records to reconstruct exposure and follow-up that has already happened, it is a **retrospective (historical) cohort**.\n\nThe use of old records does not make it case-control: a case-control study would start by selecting people **with** liver cancer and compare their exposure histories with those of controls. Cohort studies suit rare exposures, allow several outcomes to be studied, and give incidence and relative risk.",
+          "whyWrong": [
+            "Case-control studies select on outcome, not exposure.",
+            "There is a comparison group, so this is not a case series.",
+            "Exposure and outcome are not measured at a single point in time.",
+            "",
+            "The researchers did not assign the exposure, so it is not a trial."
+          ],
+          "tags": [
+            "study design",
+            "cohort"
+          ]
+        },
+        {
+          "id": "epidemiology-biostats--study-design-and-evidence--q3",
+          "discipline": "population-health",
+          "topic": "epidemiology-biostats",
+          "difficulty": "foundation",
+          "stem": "A general practitioner reviewing guidelines on a new therapy for heart failure sees studies graded using the NHMRC levels of evidence for intervention questions.\n\nWhich type of evidence would be graded as level I?",
+          "options": [
+            "A single large multicentre randomised controlled trial",
+            "A prospective cohort study of 50,000 patients",
+            "A case series of patients with dramatic responses",
+            "An expert consensus statement from the Heart Foundation",
+            "A systematic review of randomised controlled trials"
+          ],
+          "answer": 4,
+          "explanation": "Under the NHMRC hierarchy for intervention questions, **level I** is a **systematic review of level II studies** (RCTs). A single RCT is **level II**. Pseudo-randomised trials are III-1, comparative studies with concurrent controls such as cohorts and case-control studies are III-2, those without concurrent controls are III-3, and a **case series is level IV**.\n\nExpert opinion is not a level within this hierarchy, although guidelines use consensus-based recommendations where evidence is lacking. Size alone does not raise an observational study above III-2.",
+          "whyWrong": [
+            "A single RCT is level II.",
+            "A cohort study is level III-2 regardless of size.",
+            "A case series is level IV.",
+            "Expert consensus is not graded as level I evidence.",
+            ""
+          ],
+          "tags": [
+            "levels of evidence",
+            "nhmrc"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "epidemiology-biostats--measures-of-frequency-and-risk",
+      "title": "Measures of disease frequency and risk",
+      "minutes": 18,
+      "objectives": [
+        "Calculate incidence, prevalence, case fatality and mortality rates, and relate prevalence to incidence and duration",
+        "Calculate relative risk, odds ratio, absolute risk reduction and relative risk reduction from a 2x2 table",
+        "Calculate NNT and NNH and explain why they matter more to patients than relative figures",
+        "Interpret attributable risk and attributable fraction"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Frequency first, then comparison",
+          "body": "Two families of measures:\n- **Frequency**: how common is the disease? (incidence, prevalence, mortality)\n- **Association**: how much does an exposure or treatment change risk? (relative risk, odds ratio, absolute risk difference, NNT)\n\nThe AMC loves one calculation per paper and a trap about **relative versus absolute** effects. Always write the 2x2 table before you calculate. Do the arithmetic slowly; the distractors are the numbers you get by dividing the wrong cells."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Definitions and formulas",
+          "body": "### Frequency\n- **Incidence (risk or cumulative incidence)** = new cases during a period / population at risk at the start. Example: 200 new cases in a year among 49,000 people at risk = **4.1 per 1,000 per year**.\n- **Incidence rate** = new cases / person-time at risk (for example, per 1,000 person-years). Person-time handles people who join late, leave early or die: 1,000 people followed for an average of 4 years contribute 4,000 person-years, and 20 new cases gives 20/4,000 = **5 per 1,000 person-years**. Use it when follow-up differs between people, as it does in almost every real cohort.\n- **Point prevalence** = all existing cases at a point in time / total population. Example: 1,000 cases in a town of 50,000 = **2% (20 per 1,000)**.\n- **Prevalence ≈ incidence × average duration** (for a stable, uncommon condition). With incidence 4 per 1,000 per year and an average duration of 5 years, prevalence is about 20 per 1,000, which matches the example above.\n- **Mortality rate** = deaths / population. **Case fatality rate** = deaths from the disease / people with the disease. If 50 of those 200 new cases die, case fatality is 25%; the disease mortality rate in the town is 50/50,000 = 1 per 1,000.\n\nSo: a treatment that keeps people alive longer without curing them **increases prevalence** but does not change incidence. A fall in prevalence means fewer new cases, faster cure, or faster death.\n\n### The 2x2 table for association\n| | Outcome yes | Outcome no |\n|---|---|---|\n| **Exposed / treated** | a | b |\n| **Unexposed / control** | c | d |\n\n- Risk in exposed = a/(a+b); risk in unexposed = c/(c+d)\n- **Relative risk (RR)** = [a/(a+b)] / [c/(c+d)]\n- **Odds ratio (OR)** = (a/b)/(c/d) = **ad/bc**\n- **Absolute risk reduction (ARR)** = control risk minus treated risk\n- **Relative risk reduction (RRR)** = ARR / control risk = 1 minus RR\n- **NNT** = 1/ARR (round **up** to a whole person)\n- **NNH** = 1/absolute risk increase for a harm\n\nRR = 1 means no association; above 1, increased risk; below 1, reduced risk (protective). When the outcome is rare (under about 10%), the OR approximates the RR."
+        },
+        {
+          "kind": "application",
+          "heading": "Worked calculations",
+          "body": "### A cohort study\n2,000 smokers and 4,000 non-smokers are followed for 10 years. 60 smokers and 40 non-smokers develop the disease.\n- Risk in smokers = 60/2,000 = **3%**; risk in non-smokers = 40/4,000 = **1%**\n- RR = 3%/1% = **3.0** (smokers have three times the risk)\n- **Attributable risk** (risk difference) = 3% minus 1% = **2%**, or 20 extra cases per 1,000 smokers over 10 years\n- **Attributable fraction in the exposed** = (RR minus 1)/RR = 2/3 = **67%**: two-thirds of cases among smokers are due to smoking.\n\n### A randomised trial\n1,000 patients per arm. 100 control patients (10%) and 60 treated patients (6%) have a heart attack.\n- ARR = 10% minus 6% = **4%** (0.04)\n- RR = 6%/10% = **0.6**; RRR = 4%/10% = **40%**\n- NNT = 1/0.04 = **25**: treat 25 people for the trial duration to prevent one heart attack\n- OR = (60/940)/(100/900) = 0.0638/0.1111 = **0.57**, slightly further from 1 than the RR of 0.6, because a 10% outcome is common enough for the two measures to diverge a little.\n\nIf the same drug causes major bleeding in 3% of treated patients versus 1% of controls, the absolute risk increase is 2% and **NNH = 1/0.02 = 50**. For every 50 treated, one extra major bleed; for every 25 treated, one heart attack prevented. That trade-off is what you explain to patients.\n\n### A case-control study\n200 cases and 400 controls. 80 cases and 80 controls were exposed.\n| | Cases | Controls |\n|---|---|---|\n| Exposed | 80 | 80 |\n| Unexposed | 120 | 320 |\n\nOR = (80 × 320)/(120 × 80) = 25,600/9,600 = **2.67**. You **cannot** calculate risk or RR here, because the researcher chose how many cases and controls to include, so the \"risk\" in each group is artificial.\n\n### Relative versus absolute\n\"Halves your risk\" (RRR 50%) can mean going from 2% to 1% (ARR 1%, NNT 100) or from 40% to 20% (ARR 20%, NNT 5). Relative effects stay similar across risk levels; **absolute benefit depends on baseline risk**. This is why Australian CVD guidelines base treatment on **absolute** risk."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- Draw the 2x2 table every time, with outcome across the top.\n- NNT is 1/ARR, **not** 1/RRR. If the ARR is given as a percentage, convert: 4% becomes 0.04, and 1/0.04 = 25. A quick check is 100 divided by the ARR in percent.\n- Round NNT **up** (an NNT of 33.3 becomes 34).\n- Case-control means odds ratio; if an option offers \"relative risk\" from a case-control study, it's wrong.\n- Longer survival without cure increases prevalence; incidence depends only on new cases.\n- Marketing claims are usually relative (\"reduces risk by 40%\"); the question wants the absolute effect or NNT."
+        }
+      ],
+      "keyPoints": [
+        "Incidence counts new cases; prevalence counts all existing cases; prevalence ≈ incidence × duration.",
+        "RR = risk in exposed / risk in unexposed; needs a cohort study or RCT.",
+        "OR = ad/bc; used for case-control studies and approximates RR when the outcome is rare.",
+        "ARR = control risk minus treated risk; RRR = ARR / control risk.",
+        "NNT = 1/ARR, rounded up; NNH = 1/absolute risk increase.",
+        "Attributable fraction in the exposed = (RR minus 1)/RR.",
+        "Absolute benefit depends on baseline risk, which is why treatment decisions use absolute risk."
+      ],
+      "redFlags": [],
+      "contrast": [
+        {
+          "aspect": "Treatment thresholds",
+          "india": "Individual risk factors (e.g. LDL or BP alone) often drive treatment decisions.",
+          "australia": "Absolute risk (e.g. 5-year CVD risk) drives treatment, reflecting that benefit depends on baseline risk."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Formula for NNT?",
+          "back": "NNT = 1 / absolute risk reduction (round up)."
+        },
+        {
+          "front": "Formula for the odds ratio from a 2x2 table?",
+          "back": "OR = ad/bc."
+        },
+        {
+          "front": "Relationship between prevalence, incidence and duration?",
+          "back": "Prevalence ≈ incidence × average duration of disease."
+        },
+        {
+          "front": "Formula for relative risk reduction?",
+          "back": "RRR = ARR / control event rate = 1 minus RR."
+        },
+        {
+          "front": "Attributable fraction in the exposed?",
+          "back": "(RR minus 1) / RR."
+        },
+        {
+          "front": "Effect on prevalence of a treatment that prolongs life without cure?",
+          "back": "Prevalence rises; incidence is unchanged."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "epidemiology-biostats--measures-of-frequency-and-risk--q1",
+          "discipline": "population-health",
+          "topic": "epidemiology-biostats",
+          "difficulty": "core",
+          "stem": "In a 5-year randomised trial of a new antihypertensive in older Australians, stroke occurred in 5% of participants in the placebo group and 3% in the treatment group.\n\nHow many people need to be treated for 5 years to prevent one stroke?",
+          "options": [
+            "2",
+            "20",
+            "40",
+            "50",
+            "67"
+          ],
+          "answer": 3,
+          "explanation": "The **absolute risk reduction** is 5% minus 3% = **2%**, or 0.02. The **NNT** is 1/ARR = 1/0.02 = **50**. Treating 50 people for 5 years prevents one stroke.\n\nThe **relative risk reduction** is 2%/5% = **40%**, which is the figure that sounds impressive in advertising, but it is not the NNT. Always convert percentages to proportions before dividing, or use the shortcut 100/ARR in percent (100/2 = 50).",
+          "whyWrong": [
+            "2 is the ARR in percentage points, not the NNT.",
+            "20 would be the NNT if the ARR were 5%.",
+            "40 is the relative risk reduction expressed as a percentage.",
+            "",
+            "67 would follow from dividing by the wrong figure (it corresponds to an ARR of 1.5%)."
+          ],
+          "tags": [
+            "nnt",
+            "absolute risk reduction"
+          ]
+        },
+        {
+          "id": "epidemiology-biostats--measures-of-frequency-and-risk--q2",
+          "discipline": "population-health",
+          "topic": "epidemiology-biostats",
+          "difficulty": "core",
+          "stem": "Researchers investigating a rare congenital anomaly identify 50 affected infants from a NSW birth defects register and 100 unaffected infants born in the same hospitals. Mothers are asked about use of a particular medication in early pregnancy. 30 mothers of affected infants and 20 mothers of unaffected infants report using the medication.\n\nWhat is the odds ratio for the association between the medication and the anomaly?",
+          "options": [
+            "0.17",
+            "1.5",
+            "3.0",
+            "6.0",
+            "12.0"
+          ],
+          "answer": 3,
+          "explanation": "Set up the 2x2 table:\n- Cases: 30 exposed, 20 unexposed\n- Controls: 20 exposed, 80 unexposed\n\n**OR = ad/bc** = (30 × 80)/(20 × 20) = 2,400/400 = **6.0**. The odds of exposure among cases are six times the odds among controls.\n\nThis is a case-control study, so the odds ratio is the correct measure. The value 3.0 comes from wrongly calculating a \"risk ratio\" (30/50 divided by 20/100), which is invalid here because the researchers chose the numbers of cases and controls.",
+          "whyWrong": [
+            "0.17 is the reciprocal of the correct OR (cells inverted).",
+            "1.5 compares only the exposed counts (30/20) and ignores the unexposed.",
+            "3.0 is a 'relative risk' calculated from a case-control study, which is not valid.",
+            "",
+            "12.0 does not correspond to any valid calculation from this table."
+          ],
+          "tags": [
+            "odds ratio",
+            "case-control"
+          ]
+        },
+        {
+          "id": "epidemiology-biostats--measures-of-frequency-and-risk--q3",
+          "discipline": "population-health",
+          "topic": "epidemiology-biostats",
+          "difficulty": "foundation",
+          "stem": "A new drug for idiopathic pulmonary fibrosis is listed on the PBS. It slows disease progression and prolongs survival by several years but does not cure the disease. It has no effect on the development of new cases.\n\nOver the next 10 years, what is the most likely effect on the incidence and prevalence of idiopathic pulmonary fibrosis in Australia?",
+          "options": [
+            "Incidence decreased, prevalence decreased",
+            "Incidence unchanged, prevalence increased",
+            "Incidence increased, prevalence unchanged",
+            "Incidence unchanged, prevalence decreased",
+            "Incidence decreased, prevalence unchanged"
+          ],
+          "answer": 1,
+          "explanation": "**Prevalence ≈ incidence × average duration.** Incidence counts **new** cases, which the drug does not affect. By keeping patients alive longer without curing them, the drug **increases the average duration** of disease, so more people are living with it at any time: **prevalence rises**.\n\nPrevalence falls only if fewer people develop the disease, patients are cured faster, or they die sooner. This is why effective chronic disease treatments (for example, antiretroviral therapy for HIV) increase prevalence.",
+          "whyWrong": [
+            "The drug does not prevent new cases, and longer survival raises prevalence.",
+            "",
+            "The drug has no effect on new cases.",
+            "Longer survival increases, not decreases, prevalence.",
+            "Incidence is unaffected by a treatment that does not prevent disease."
+          ],
+          "tags": [
+            "incidence",
+            "prevalence"
+          ]
+        },
+        {
+          "id": "epidemiology-biostats--measures-of-frequency-and-risk--q4",
+          "discipline": "population-health",
+          "topic": "epidemiology-biostats",
+          "difficulty": "exam",
+          "stem": "In a trial of a new antiplatelet agent, major gastrointestinal bleeding occurred in 3% of treated patients and 1% of those receiving placebo. A 70-year-old woman in Hobart asks how likely the drug is to cause her a serious bleed.\n\nWhat is the number needed to harm?",
+          "options": [
+            "2",
+            "33",
+            "50",
+            "67",
+            "100"
+          ],
+          "answer": 2,
+          "explanation": "The **absolute risk increase** is 3% minus 1% = **2%**, or 0.02. The **number needed to harm** is 1/0.02 = **50**: for every 50 people treated, one extra major bleed occurs because of the drug.\n\nThe relative risk is 3 (a 200% relative increase), which sounds alarming but does not tell the patient her actual chance of harm. When counselling, give both the NNT for the benefit and the NNH for the harm in absolute terms.",
+          "whyWrong": [
+            "2 is the absolute risk increase in percentage points.",
+            "33 is 1/0.03, using the treated risk alone rather than the difference.",
+            "",
+            "67 does not correspond to the risk difference in this trial.",
+            "100 is 1/0.01, using the placebo risk alone."
+          ],
+          "tags": [
+            "nnh",
+            "absolute risk"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "epidemiology-biostats--diagnostic-test-accuracy",
+      "title": "Diagnostic test accuracy",
+      "minutes": 18,
+      "objectives": [
+        "Calculate sensitivity, specificity, PPV and NPV from a 2x2 table",
+        "Explain why predictive values change with prevalence while sensitivity and specificity do not",
+        "Calculate likelihood ratios and use them to convert pre-test to post-test probability",
+        "Choose a test for ruling in or ruling out a diagnosis (SpPIn and SnNOut)"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The questions a test answers",
+          "body": "Clinicians and patients ask different questions:\n- **The test's perspective** (fixed properties): if you have the disease, how likely is a positive test (**sensitivity**)? If you don't, how likely is a negative test (**specificity**)?\n- **The patient's perspective** (depends on the setting): my test is positive, how likely is it that I have the disease (**positive predictive value**)? My test is negative, how likely am I to be clear (**negative predictive value**)?\n\nPredictive values depend on **prevalence** (pre-test probability). This is the single most tested concept in biostatistics."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Formulas and the 2x2 table",
+          "body": "| | Disease present | Disease absent |\n|---|---|---|\n| **Test positive** | True positive (TP) | False positive (FP) |\n| **Test negative** | False negative (FN) | True negative (TN) |\n\n- **Sensitivity** = TP/(TP + FN): the proportion of diseased people who test positive (read **down** the disease column)\n- **Specificity** = TN/(TN + FP): the proportion of healthy people who test negative\n- **PPV** = TP/(TP + FP): the proportion of positive tests that are true (read **across** the positive row)\n- **NPV** = TN/(TN + FN): the proportion of negative tests that are true\n- **Likelihood ratio positive (LR+)** = sensitivity / (1 minus specificity)\n- **Likelihood ratio negative (LR−)** = (1 minus sensitivity) / specificity\n- **Odds** = probability / (1 minus probability); **probability** = odds / (1 + odds)\n- **Post-test odds = pre-test odds × LR**\n\n**SnNOut**: a highly **Sensitive** test, when **Negative**, rules a diagnosis **Out** (few false negatives), e.g. D-dimer in low-risk suspected PE.\n**SpPIn**: a highly **Specific** test, when **Positive**, rules a diagnosis **In** (few false positives).\n\nInterpreting LRs: LR+ above 10 or LR− below 0.1 produce large, often conclusive, changes; LR+ of 2 to 5 or LR− of 0.2 to 0.5 produce small changes; an LR of 1 means the test tells you nothing.\n\n**Combining tests.**\n- **Serial testing** (do the second test only if the first is positive, and call the result positive only if both are): increases **specificity** and PPV, loses some sensitivity. This is how screening works: a sensitive, cheap first test (for example, iFOBT) followed by a specific confirmatory test (colonoscopy).\n- **Parallel testing** (call it positive if either test is positive): increases **sensitivity**, loses specificity. Useful when missing the diagnosis is dangerous.\n\n**Spectrum bias.** A test evaluated in people with obvious, advanced disease versus healthy volunteers looks more accurate than it will be in practice, where patients have early or mild disease and look-alike conditions. A good diagnostic accuracy study recruits a consecutive series of patients in whom the diagnosis is genuinely uncertain and compares every one of them with an appropriate **reference (gold) standard**, applied blind to the index test result.\n\n**Screening tests versus diagnostic tests.** A screening test is applied to well people and sorts them into \"probably not\" and \"needs further testing\". It does not diagnose. Because prevalence in a screened population is low, even a good screening test produces many false positives, which is why each positive screen triggers a diagnostic test rather than treatment.\n\n**Cut-offs.** Lowering a test's positivity threshold increases sensitivity at the cost of specificity, and vice versa. A **ROC curve** plots sensitivity against 1 minus specificity for each cut-off; the area under the curve summarises overall accuracy (1.0 perfect, 0.5 useless)."
+        },
+        {
+          "kind": "application",
+          "heading": "Worked examples",
+          "body": "### Same test, two settings\nA test has **sensitivity 90%** and **specificity 80%**.\n\n**Hospital clinic, prevalence 10%, 1,000 people.** 100 have the disease, 900 don't.\n- TP = 90% of 100 = 90; FN = 10\n- TN = 80% of 900 = 720; FP = 180\n- PPV = 90/(90 + 180) = 90/270 = **33%**\n- NPV = 720/(720 + 10) = 720/730 = **98.6%**\n\n**Community screening, prevalence 1%, 10,000 people.** 100 have the disease, 9,900 don't.\n- TP = 90; FN = 10\n- TN = 80% of 9,900 = 7,920; FP = 1,980\n- PPV = 90/(90 + 1,980) = 90/2,070 = **4.3%**\n- NPV = 7,920/7,930 = **99.9%**\n\nSensitivity and specificity did not change. When prevalence fell tenfold, the PPV fell from 33% to about 4%, because false positives from the large healthy population swamped the true positives. This is why tests validated in tertiary clinics disappoint in general practice, and why screening programs use highly specific follow-up tests.\n\n### Likelihood ratios\nSame test: LR+ = 0.90/(1 minus 0.80) = 0.90/0.20 = **4.5**; LR− = (1 minus 0.90)/0.80 = 0.10/0.80 = **0.125**.\n\nCheck with the hospital example: pre-test probability 10% gives pre-test odds 0.1/0.9 = 0.111. Post-test odds = 0.111 × 4.5 = 0.5. Post-test probability = 0.5/1.5 = **33%**, the same as the PPV calculated from the table.\n\n### A bedside use\nYour clinical assessment gives a 20% probability of a diagnosis (odds 0.2/0.8 = 0.25). A test with LR+ 8 is positive: post-test odds = 0.25 × 8 = 2; probability = 2/3 = **67%**. The same test negative with LR− 0.1: odds 0.25 × 0.1 = 0.025; probability = 0.025/1.025 = **2.4%**."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- Build the table from the numbers given; check that the columns add up to the number with and without disease.\n- \"Of those with the disease...\" signals sensitivity. \"Of those who tested positive...\" signals PPV.\n- If the question changes the **population** (tertiary clinic to community, symptomatic to screening), the answer is about **predictive values changing**, not sensitivity or specificity.\n- Lower prevalence means **lower PPV and higher NPV**.\n- To rule out, choose the most sensitive test; to confirm, the most specific.\n- LR+ = sensitivity/(1 minus specificity). A common distractor is sensitivity/specificity.\n- Trap: the false positive **rate** is 1 minus specificity (FP/all healthy), not 1 minus PPV."
+        }
+      ],
+      "keyPoints": [
+        "Sensitivity = TP/(TP+FN); specificity = TN/(TN+FP).",
+        "PPV = TP/(TP+FP); NPV = TN/(TN+FN).",
+        "Sensitivity and specificity are properties of the test; predictive values depend on prevalence.",
+        "Lower prevalence gives lower PPV and higher NPV.",
+        "LR+ = sensitivity/(1 minus specificity); LR− = (1 minus sensitivity)/specificity.",
+        "Post-test odds = pre-test odds × LR; convert back with odds/(1 + odds).",
+        "SnNOut: a negative sensitive test rules out; SpPIn: a positive specific test rules in."
+      ],
+      "redFlags": [],
+      "contrast": [
+        {
+          "aspect": "Where tests are applied",
+          "india": "Tests often applied opportunistically to low-prevalence populations in private labs.",
+          "australia": "Organised programs deliberately limit screening to target groups to keep PPV acceptable and reduce false positives."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Formula for sensitivity?",
+          "back": "TP / (TP + FN)."
+        },
+        {
+          "front": "Formula for LR+?",
+          "back": "Sensitivity / (1 minus specificity)."
+        },
+        {
+          "front": "What happens to PPV when prevalence falls?",
+          "back": "PPV falls (and NPV rises); sensitivity and specificity are unchanged."
+        },
+        {
+          "front": "How do you convert probability to odds?",
+          "back": "Odds = p / (1 minus p). Back again: p = odds / (1 + odds)."
+        },
+        {
+          "front": "What does SnNOut mean?",
+          "back": "A highly sensitive test, if negative, rules the diagnosis out."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "epidemiology-biostats--diagnostic-test-accuracy--q1",
+          "discipline": "population-health",
+          "topic": "epidemiology-biostats",
+          "difficulty": "core",
+          "stem": "A new blood test for acute appendicitis is evaluated in 400 children presenting to a Melbourne paediatric emergency department. 100 children are confirmed to have appendicitis. The test is positive in 80 children with appendicitis and in 60 children without appendicitis.\n\nWhat is the positive predictive value of the test in this population?",
+          "options": [
+            "20%",
+            "43%",
+            "57%",
+            "80%",
+            "92%"
+          ],
+          "answer": 2,
+          "explanation": "Build the table. With disease: TP = 80, FN = 20. Without disease (300): FP = 60, TN = 240.\n\n**PPV = TP/(TP + FP)** = 80/(80 + 60) = 80/140 = **57%**. Of children who test positive, 57% actually have appendicitis.\n\nFor comparison: sensitivity = 80/100 = 80%, specificity = 240/300 = 80%, NPV = 240/260 = 92%. The distractors are these other values. Always read which question is asked: \"of those who test positive\" means PPV.",
+          "whyWrong": [
+            "20% is the proportion of children with appendicitis who tested negative (1 minus sensitivity).",
+            "43% is the proportion of positive tests that are false (60/140).",
+            "",
+            "80% is both the sensitivity and specificity, not the PPV.",
+            "92% is the negative predictive value."
+          ],
+          "tags": [
+            "ppv",
+            "2x2 table"
+          ]
+        },
+        {
+          "id": "epidemiology-biostats--diagnostic-test-accuracy--q2",
+          "discipline": "population-health",
+          "topic": "epidemiology-biostats",
+          "difficulty": "core",
+          "stem": "A rapid antigen test for a respiratory virus has a sensitivity of 85% and a specificity of 95% compared with PCR.\n\nWhat is the positive likelihood ratio of this test?",
+          "options": [
+            "0.16",
+            "0.89",
+            "5.7",
+            "17",
+            "19"
+          ],
+          "answer": 3,
+          "explanation": "**LR+ = sensitivity/(1 minus specificity)** = 0.85/(1 minus 0.95) = 0.85/0.05 = **17**. A positive result makes the odds of infection 17 times higher than before the test, a large and usually decisive change.\n\nThe negative likelihood ratio is (1 minus 0.85)/0.95 = 0.15/0.95 = **0.16**, a moderate change, so a negative result is less conclusive than a positive one. Like sensitivity and specificity, LRs do not depend on prevalence, which makes them useful at the bedside.",
+          "whyWrong": [
+            "0.16 is the negative likelihood ratio.",
+            "0.89 is sensitivity divided by specificity, which is not a likelihood ratio.",
+            "5.7 is sensitivity divided by (1 minus sensitivity).",
+            "",
+            "19 is specificity divided by (1 minus specificity)."
+          ],
+          "tags": [
+            "likelihood ratio",
+            "test accuracy"
+          ]
+        },
+        {
+          "id": "epidemiology-biostats--diagnostic-test-accuracy--q3",
+          "discipline": "population-health",
+          "topic": "epidemiology-biostats",
+          "difficulty": "exam",
+          "stem": "A faecal calprotectin test was validated in a tertiary inflammatory bowel disease clinic in Sydney, where 40% of patients tested had inflammatory bowel disease. It is now being used by GPs in the community to assess patients with chronic diarrhoea, where the prevalence of inflammatory bowel disease is about 5%.\n\nCompared with the tertiary clinic, what is expected when the test is used in general practice?",
+          "options": [
+            "Sensitivity will fall and specificity will rise",
+            "Positive and negative predictive values will both be unchanged",
+            "Positive predictive value will rise and negative predictive value will fall",
+            "Sensitivity and specificity will both fall",
+            "Positive predictive value will fall and negative predictive value will rise"
+          ],
+          "answer": 4,
+          "explanation": "**Sensitivity and specificity** are properties of the test and, in principle, do not change with prevalence. **Predictive values** do. When the test moves from a high-prevalence tertiary setting (40%) to a low-prevalence community setting (5%), there are far more people without disease, so a larger share of positive results are false: **PPV falls**. Meanwhile, a negative result is even more likely to be correct: **NPV rises**.\n\nThis is why a negative calprotectin in general practice is useful for reassurance (high NPV), while a positive result needs confirmation.",
+          "whyWrong": [
+            "Sensitivity and specificity are not changed by prevalence.",
+            "Predictive values depend on prevalence, so they will change.",
+            "This is the reverse of what happens when prevalence falls.",
+            "Sensitivity and specificity do not depend on prevalence.",
+            ""
+          ],
+          "ausPearl": "In practice, sensitivity and specificity can shift slightly between settings because of disease spectrum (spectrum bias), but the AMC expects the prevalence principle.",
+          "tags": [
+            "predictive value",
+            "prevalence"
+          ]
+        },
+        {
+          "id": "epidemiology-biostats--diagnostic-test-accuracy--q4",
+          "discipline": "population-health",
+          "topic": "epidemiology-biostats",
+          "difficulty": "exam",
+          "stem": "A GP in Perth estimates that a 45-year-old woman with a painful swollen calf has a 10% pre-test probability of deep vein thrombosis. A point-of-care test with a positive likelihood ratio of 9 is positive.\n\nWhat is her post-test probability of DVT?",
+          "options": [
+            "10%",
+            "19%",
+            "50%",
+            "90%",
+            "99%"
+          ],
+          "answer": 2,
+          "explanation": "Use odds, not probabilities:\n- Pre-test odds = 0.10/(1 minus 0.10) = 0.10/0.90 = **1/9**\n- Post-test odds = 1/9 × 9 = **1**\n- Post-test probability = odds/(1 + odds) = 1/2 = **50%**\n\nThe common error is to multiply the probability by the LR (10% × 9 = 90%), which is wrong because likelihood ratios act on odds. Probabilities cannot exceed 100%, which is a clue that simple multiplication fails.",
+          "whyWrong": [
+            "10% is the pre-test probability; a positive test must change it.",
+            "19% comes from adding 9 percentage points, which is not how LRs work.",
+            "",
+            "90% comes from multiplying the probability by the LR instead of the odds.",
+            "99% overstates the effect of an LR of 9 at this pre-test probability."
+          ],
+          "tags": [
+            "likelihood ratio",
+            "post-test probability"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "epidemiology-biostats--bias-confounding-and-screening-biases",
+      "title": "Bias, confounding and screening biases",
+      "minutes": 16,
+      "objectives": [
+        "Distinguish selection bias, information bias and confounding",
+        "Name the methods that control confounding at the design and analysis stages",
+        "Recognise lead-time bias, length-time bias and overdiagnosis in screening studies",
+        "Distinguish confounding from effect modification"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Three reasons a study can be wrong",
+          "body": "When a study finds an association, ask whether it could be due to:\n1. **Chance**: dealt with by statistics (p values, confidence intervals).\n2. **Bias**: a systematic error in how participants were selected or how information was collected. Bias cannot be fixed by a larger sample; it must be prevented by design.\n3. **Confounding**: a third factor, linked to both the exposure and the outcome, that creates or hides an association.\n\nOnly when all three are reasonably excluded do you consider causation (Bradford Hill criteria)."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Bias and confounding",
+          "body": "### Selection bias\nThe people studied differ systematically from the population of interest, or the comparison groups differ in ways other than the exposure.\n- **Healthy worker effect**: workers are healthier than the general population, so occupational cohorts can look falsely protective.\n- **Volunteer (self-selection) bias**: people who take part in studies or screening are healthier and more health-conscious.\n- **Loss to follow-up** that differs between groups.\n- **Berkson's bias**: using hospital controls, who have other diseases linked to the exposure.\n- Prevented in trials by **randomisation with allocation concealment**.\n\n### Information (measurement) bias\nThe exposure or outcome is measured inaccurately in a way that differs between groups.\n- **Recall bias**: cases remember exposures better than controls (classic in case-control studies, such as mothers of children with birth defects recalling medications).\n- **Interviewer or observer bias**: the assessor knows the group and probes or interprets differently. Prevented by **blinding**.\n- **Misclassification**: non-differential misclassification usually biases results towards no effect.\n- **Hawthorne effect**: people change behaviour because they are being observed.\n- **Publication bias**: positive studies are more likely to be published, which distorts meta-analyses (detected with a funnel plot).\n\n### Confounding\nA **confounder** is associated with the exposure, is an independent cause (or marker) of the outcome, and is **not on the causal pathway**. Classic example: coffee drinking appears to cause lung cancer, because coffee drinkers are more likely to smoke. Smoking is the confounder.\n\n| Stage | Methods to control confounding |\n|---|---|\n| Design | **Randomisation** (controls known **and unknown** confounders), **restriction** (e.g. study only non-smokers), **matching** (e.g. cases and controls matched for age and sex) |\n| Analysis | **Stratification** (analyse smokers and non-smokers separately), **statistical adjustment** (multivariable regression), standardisation |\n\n**Effect modification** is different: the effect of the exposure genuinely **varies** across levels of a third factor (for example, a drug works in women but not men). It is a real finding to report, not a bias to remove. If stratified estimates are similar to each other but differ from the crude estimate, suspect confounding; if the stratified estimates differ from each other, suspect effect modification."
+        },
+        {
+          "kind": "application",
+          "heading": "The screening biases",
+          "body": "Screening studies are particularly prone to three biases that make screening look better than it is. That is why the proper test of a screening program is an **RCT with disease-specific mortality** as the outcome, not survival time from diagnosis.\n\n### Lead-time bias\nScreening detects the disease earlier, so survival **measured from diagnosis** looks longer even if death occurs at exactly the same time.\nExample: without screening, a cancer is diagnosed at age 65 and the patient dies at 70 (5-year survival). With screening, it is found at 62 and the patient still dies at 70. \"Survival\" is now 8 years, but no life was gained.\n\n### Length-time bias\nSlow-growing, less aggressive tumours spend longer in the detectable pre-clinical phase, so periodic screening **preferentially picks up indolent disease**. Aggressive cancers tend to appear between screens (**interval cancers**). Screen-detected cases therefore have a better prognosis because of their biology, not because screening helped them.\n\n### Overdiagnosis\nThe extreme form of length-time bias: detecting disease that would **never have caused symptoms or death** in the person's lifetime (for example, some low-grade prostate cancers, small papillary thyroid cancers, some ductal carcinoma in situ). Overdiagnosed patients are labelled and often treated, with harms and no benefit, and they inflate survival statistics.\n\n### Other examples to recognise\n- A cohort finds that women who take HRT have less heart disease, but they are wealthier and healthier (confounding, healthy user effect). RCTs later showed no benefit.\n- Survey responders are healthier than non-responders (response bias, a type of selection bias).\n- Women who choose to attend screening are healthier and better educated than those who don't, so comparing attenders with non-attenders overstates the benefit of screening (volunteer bias). Randomised trials compare everyone **invited** with everyone not invited, which avoids this.\n- A study of an occupational exposure finds miners have lower overall mortality than the general population: the healthy worker effect, because people too unwell to work are not in the workforce.\n\n### From association to causation\nOnce chance, bias and confounding have been considered, weigh the **Bradford Hill** criteria: strength of association, consistency across studies, temporality (exposure must precede outcome; the only essential criterion), a dose-response gradient, biological plausibility, coherence with other knowledge, experimental evidence (removing the exposure reduces disease), specificity and analogy. Smoking and lung cancer satisfy almost all of them, which is why causation was accepted without an RCT."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- \"Survival from diagnosis improved but mortality did not change\": **lead-time bias**.\n- \"Screen-detected cancers had better outcomes than those presenting between screens\": **length-time bias**.\n- \"Cancer found at screening that would never have caused harm\": **overdiagnosis**.\n- \"Mothers of affected children recall exposures more\": **recall bias**.\n- \"Best way to control unknown confounders\": **randomisation**.\n- \"Controlling confounding at the analysis stage\": **stratification or multivariable adjustment**.\n- A larger sample reduces random error (chance), **not** bias."
+        }
+      ],
+      "keyPoints": [
+        "Bias is systematic error in selection or measurement; a bigger sample does not fix it.",
+        "Recall bias is the classic weakness of case-control studies.",
+        "A confounder is linked to exposure and outcome and is not on the causal pathway.",
+        "Control confounding by randomisation, restriction or matching (design) or stratification and adjustment (analysis).",
+        "Only randomisation controls unknown confounders.",
+        "Lead-time bias inflates survival from diagnosis without delaying death.",
+        "Length-time bias and overdiagnosis make screen-detected disease look more benign."
+      ],
+      "redFlags": [],
+      "contrast": [
+        {
+          "aspect": "Evaluating screening",
+          "india": "Screening benefit often judged by earlier stage at detection or improved survival.",
+          "australia": "Australian programs are evaluated on disease-specific mortality, with explicit attention to overdiagnosis (e.g. PSA)."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "What is lead-time bias?",
+          "back": "Apparent longer survival because diagnosis is made earlier, without any delay in death."
+        },
+        {
+          "front": "What is length-time bias?",
+          "back": "Screening preferentially detects slow-growing disease, which has a better prognosis anyway."
+        },
+        {
+          "front": "Which method controls unknown confounders?",
+          "back": "Randomisation."
+        },
+        {
+          "front": "Name two ways to control confounding at the analysis stage.",
+          "back": "Stratification and multivariable statistical adjustment."
+        },
+        {
+          "front": "What bias is classic in case-control studies?",
+          "back": "Recall bias."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "epidemiology-biostats--bias-confounding-and-screening-biases--q1",
+          "discipline": "population-health",
+          "topic": "epidemiology-biostats",
+          "difficulty": "core",
+          "stem": "A new screening test for pancreatic cancer is trialled in Queensland. Patients whose cancer is detected by screening survive a median of 3 years from diagnosis, compared with 1 year for patients diagnosed after developing symptoms. However, the age at death from pancreatic cancer is the same in both groups.\n\nWhich phenomenon best explains the apparent survival benefit?",
+          "options": [
+            "Length-time bias",
+            "Lead-time bias",
+            "Recall bias",
+            "Confounding by age",
+            "Healthy worker effect"
+          ],
+          "answer": 1,
+          "explanation": "**Lead-time bias** occurs when screening advances the time of diagnosis without changing the time of death. Survival measured **from diagnosis** lengthens simply because the clock started earlier. The giveaway here is that **age at death is unchanged**: no life was gained.\n\nLength-time bias would be suggested if screen-detected cancers were biologically less aggressive. The proper outcome for evaluating screening is **disease-specific mortality** in a randomised trial, which is immune to lead-time bias.",
+          "whyWrong": [
+            "Length-time bias refers to detecting slower-growing tumours; the clue here is identical age at death.",
+            "",
+            "Recall bias concerns inaccurate memory of exposures, not survival timing.",
+            "There is no suggestion that the groups differ in age.",
+            "The healthy worker effect applies to occupational cohorts."
+          ],
+          "tags": [
+            "lead-time bias",
+            "screening"
+          ]
+        },
+        {
+          "id": "epidemiology-biostats--bias-confounding-and-screening-biases--q2",
+          "discipline": "population-health",
+          "topic": "epidemiology-biostats",
+          "difficulty": "core",
+          "stem": "An observational study in Australia finds that people who drink more than four cups of coffee a day have a higher rate of lung cancer. Coffee drinkers in the study were much more likely to smoke than non-coffee drinkers.\n\nWhich method would best address this problem at the analysis stage?",
+          "options": [
+            "Increase the sample size",
+            "Blind the outcome assessors",
+            "Randomly allocate participants to drink coffee",
+            "Use hospital patients as controls",
+            "Stratify the analysis by smoking status"
+          ],
+          "answer": 4,
+          "explanation": "Smoking is a **confounder**: it is associated with the exposure (coffee drinking) and independently causes the outcome (lung cancer), and it is not on the causal pathway between coffee and cancer.\n\nAt the **analysis** stage, confounding is controlled by **stratification** (analysing smokers and non-smokers separately) or **multivariable adjustment**. If the association disappears within each smoking stratum, it was due to confounding. Randomisation is the best control but belongs to the **design** stage and is not practical here. A bigger sample reduces chance, not confounding.",
+          "whyWrong": [
+            "Increasing the sample size reduces random error, not confounding.",
+            "Blinding reduces observer bias, not confounding.",
+            "Randomisation is a design-stage method, not an analysis method, and is impractical here.",
+            "Hospital controls introduce selection bias and do nothing for confounding.",
+            ""
+          ],
+          "tags": [
+            "confounding",
+            "stratification"
+          ]
+        },
+        {
+          "id": "epidemiology-biostats--bias-confounding-and-screening-biases--q3",
+          "discipline": "population-health",
+          "topic": "epidemiology-biostats",
+          "difficulty": "exam",
+          "stem": "A case-control study in NSW compares mothers of infants born with limb defects with mothers of healthy infants. Mothers are interviewed a year after delivery about over-the-counter medication use in the first trimester. Mothers of affected infants report significantly more medication use.\n\nWhat is the most important threat to the validity of this finding?",
+          "options": [
+            "Recall bias",
+            "Lead-time bias",
+            "Loss to follow-up",
+            "Healthy worker effect",
+            "Hawthorne effect"
+          ],
+          "answer": 0,
+          "explanation": "**Recall bias** is the classic weakness of case-control studies. Mothers of affected babies have usually thought hard about what might have caused the defect, so they recall (and report) exposures more completely than mothers of healthy babies. This inflates the apparent association.\n\nIt can be reduced by using exposure data recorded **before** the outcome was known (for example, antenatal records or pharmacy dispensing data) rather than interviews after the event.",
+          "whyWrong": [
+            "",
+            "Lead-time bias is a screening bias related to earlier diagnosis.",
+            "Case-control studies do not follow participants forward.",
+            "The healthy worker effect relates to occupational cohorts.",
+            "The Hawthorne effect is behaviour change from being observed, not biased memory."
+          ],
+          "tags": [
+            "recall bias",
+            "case-control"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "epidemiology-biostats--statistical-inference",
+      "title": "Statistical inference: p values, confidence intervals and errors",
+      "minutes": 14,
+      "objectives": [
+        "Interpret a p value and a 95% confidence interval, including for ratios and differences",
+        "Distinguish type I and type II errors and explain what determines power",
+        "Describe distributions using mean, median, mode and standard deviation",
+        "Explain intention-to-treat analysis and why statistical significance differs from clinical importance"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Is the result real, and does it matter?",
+          "body": "Statistics answers the question \"could this result have arisen by chance?\". It does not answer \"is the study biased?\" or \"is the effect big enough to matter?\". The AMC tests interpretation, not calculation of test statistics: what a confidence interval means, whether a result is statistically significant, and what kind of error an underpowered study risks."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Describing data and testing hypotheses",
+          "body": "### Describing data\n- **Mean** (average), **median** (middle value), **mode** (most common).\n- In a **positively (right) skewed** distribution, such as length of hospital stay or income, the long tail is to the right: **mean > median > mode**. Report the median. In a negatively skewed distribution, mean < median < mode.\n- **Standard deviation (SD)** describes spread of individual values. In a normal distribution, about **68%** of values lie within 1 SD of the mean, **95%** within about 2 SD (1.96), and **99.7%** within 3 SD. Laboratory reference ranges are usually the central 95%, so 1 in 20 healthy people have a result outside the range.\n- **Standard error (SE)** = SD/√n describes the precision of the **estimate** of the mean. It shrinks as the sample grows.\n\n### Hypothesis testing\n- **Null hypothesis**: no difference or no association.\n- **p value**: the probability of getting a result at least as extreme as the one observed **if the null hypothesis were true**. p < 0.05 is conventionally \"statistically significant\". It is **not** the probability that the null hypothesis is true.\n- **95% confidence interval**: the range within which the true population value is likely to lie; if the study were repeated many times, 95% of such intervals would contain the true value.\n\n**The line of no effect:**\n| Measure | No effect | Significant if the 95% CI... |\n|---|---|---|\n| Ratio (RR, OR, HR) | 1 | does not include 1 |\n| Difference (ARR, mean difference) | 0 | does not include 0 |\n\nA narrow CI means a precise estimate (usually a large sample). A CI tells you more than a p value: it shows both significance and the plausible size of the effect.\n\n### Errors and power\n| | Null is actually true | Null is actually false |\n|---|---|---|\n| **Reject null** (find a difference) | **Type I error** (α): false positive | Correct |\n| **Fail to reject** | Correct | **Type II error** (β): false negative |\n\n- α is usually set at 0.05.\n- **Power** = 1 minus β = the probability of detecting a true effect of a given size; usually set at 80% or 90%.\n- Power increases with a **larger sample size**, a **larger true effect**, **less variability**, and a higher α.\n- A small \"negative\" trial may simply be **underpowered**: absence of evidence is not evidence of absence.\n- **Multiple comparisons** inflate type I error: test 20 outcomes at p < 0.05 and, on average, one will be \"significant\" by chance."
+        },
+        {
+          "kind": "application",
+          "heading": "Reading a trial result",
+          "body": "**Example 1.** A trial reports: RR of death 0.80, 95% CI 0.68 to 0.94, p = 0.006. The CI excludes 1, so the result is statistically significant; the true effect is plausibly a 6% to 32% relative reduction.\n\n**Example 2.** RR 0.85, 95% CI 0.70 to 1.04. The CI **includes 1**, so the result is not statistically significant at the 5% level (p > 0.05). The data are compatible with a 30% reduction or a 4% increase. If the trial was small, it may be underpowered, so you cannot conclude the treatment is ineffective.\n\n**Example 3.** Mean difference in systolic BP 1.5 mmHg, 95% CI 0.5 to 2.5, in a trial of 40,000 people. Statistically significant, but **clinically trivial**. Very large samples make tiny effects significant; always ask whether the effect size matters to patients.\n\n### Intention-to-treat vs per-protocol\n- **Intention-to-treat (ITT)**: everyone analysed in the group they were randomised to, regardless of whether they took the treatment, crossed over or dropped out. It **preserves randomisation**, reflects real-world effectiveness and is the preferred primary analysis for superiority trials.\n- **Per-protocol**: only those who completed treatment as planned. It can exaggerate benefit because non-adherent patients often differ systematically (for example, sicker or experiencing side effects).\n\n### Sample size and trial types\nBefore a trial starts, investigators calculate the **sample size** needed from four inputs: the smallest effect worth detecting, the expected variability (or control event rate), α and the desired power. A trial that recruits fewer people than planned is underpowered. **Superiority** trials ask whether a treatment is better; **non-inferiority** trials ask whether a new treatment (often cheaper or safer) is not worse than standard care by more than a pre-set margin. In non-inferiority trials, a per-protocol analysis is often reported alongside ITT, because ITT can make two treatments look falsely similar.\n\n### Choosing a test (recognition only)\n- Compare two means (normally distributed): t-test; three or more means: ANOVA.\n- Compare proportions (categorical data): chi-squared test.\n- Skewed or ordinal data: non-parametric tests (e.g. Mann-Whitney U).\n- Relationship between two continuous variables: correlation (r, from −1 to +1). **Correlation does not imply causation.**\n- Time-to-event data: Kaplan-Meier curves and hazard ratios."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- A ratio's CI crossing **1**, or a difference's CI crossing **0**, means not significant.\n- \"Small trial, no significant difference\" is a warning about **type II error** and low power.\n- \"Found a difference that isn't real\" is a **type I error**.\n- The p value is not the probability that the result is due to chance in the everyday sense, and not the probability the drug works.\n- Right-skewed data: mean is pulled above the median.\n- ITT is the analysis that preserves randomisation.\n- Statistical significance is not clinical significance."
+        }
+      ],
+      "keyPoints": [
+        "A p value is the probability of the observed result (or more extreme) if the null hypothesis is true.",
+        "A 95% CI for a ratio that includes 1, or for a difference that includes 0, is not statistically significant.",
+        "Type I error = false positive (α); type II error = false negative (β).",
+        "Power = 1 minus β; it increases with sample size and effect size.",
+        "Right-skewed data: mean > median > mode; report the median.",
+        "About 95% of normally distributed values lie within 2 SD of the mean.",
+        "Intention-to-treat analysis preserves randomisation."
+      ],
+      "redFlags": [],
+      "contrast": [
+        {
+          "aspect": "Emphasis",
+          "india": "Exams often test calculation of test statistics (chi-squared, t) by hand.",
+          "australia": "The AMC tests interpretation: CIs, p values, errors, power and clinical relevance."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "What is a type II error?",
+          "back": "Failing to detect a real difference (false negative); probability β."
+        },
+        {
+          "front": "Define power.",
+          "back": "1 minus β: the probability of detecting a true effect of a given size."
+        },
+        {
+          "front": "When is a relative risk statistically significant using its 95% CI?",
+          "back": "When the CI does not include 1."
+        },
+        {
+          "front": "In a right-skewed distribution, how do mean and median compare?",
+          "back": "Mean > median > mode."
+        },
+        {
+          "front": "What analysis preserves randomisation in an RCT?",
+          "back": "Intention-to-treat."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "epidemiology-biostats--statistical-inference--q1",
+          "discipline": "population-health",
+          "topic": "epidemiology-biostats",
+          "difficulty": "core",
+          "stem": "A randomised trial of a new heart failure drug in 600 patients reports a hazard ratio for death of 0.82 (95% confidence interval 0.64 to 1.05) compared with standard care.\n\nWhich is the most appropriate interpretation?",
+          "options": [
+            "The drug reduces mortality by 18%, and this is statistically significant",
+            "The drug has been proven to have no effect on mortality",
+            "The result is not statistically significant at the 5% level, and the trial may have been underpowered",
+            "The drug increases mortality by 5%",
+            "The trial had a type I error"
+          ],
+          "answer": 2,
+          "explanation": "For ratios, the line of no effect is **1**. The 95% CI of 0.64 to 1.05 **includes 1**, so the result is **not statistically significant** at the 5% level. The data are compatible with anything from a 36% reduction to a 5% increase in the hazard of death.\n\nWith only 600 patients, the trial may have lacked the **power** to detect a moderate benefit, so there is a risk of a **type II error** (missing a real effect). Absence of evidence of benefit is not evidence of no benefit.",
+          "whyWrong": [
+            "The point estimate suggests an 18% reduction, but the CI includes 1, so it is not significant.",
+            "A non-significant result with a wide CI does not prove no effect.",
+            "",
+            "1.05 is just the upper limit of the CI, not the estimated effect.",
+            "A type I error is a false positive; this trial did not find a significant difference."
+          ],
+          "tags": [
+            "confidence interval",
+            "power"
+          ]
+        },
+        {
+          "id": "epidemiology-biostats--statistical-inference--q2",
+          "discipline": "population-health",
+          "topic": "epidemiology-biostats",
+          "difficulty": "foundation",
+          "stem": "An audit at a Brisbane hospital records length of stay for 500 patients admitted with pneumonia. Most patients stay 3 to 5 days, but a few stay more than 30 days.\n\nWhich statement about this distribution is most likely to be true?",
+          "options": [
+            "The mean is greater than the median",
+            "The median is greater than the mean",
+            "The mean, median and mode are equal",
+            "The mode is greater than the mean",
+            "95% of values lie within 2 standard deviations of the mean"
+          ],
+          "answer": 0,
+          "explanation": "A few very long stays create a long tail to the right: a **positively (right) skewed** distribution. Extreme values pull the **mean** towards the tail, so **mean > median > mode**. The median is the better summary for skewed data such as length of stay, costs or income.\n\nThe 68/95/99.7% rule applies to a normal distribution, so it cannot be assumed here.",
+          "whyWrong": [
+            "",
+            "This would describe a negatively skewed distribution.",
+            "Mean, median and mode coincide only in a symmetrical distribution.",
+            "In a right-skewed distribution, the mode is the smallest of the three.",
+            "The 95% rule applies only to normally distributed data."
+          ],
+          "tags": [
+            "skew",
+            "descriptive statistics"
+          ]
+        },
+        {
+          "id": "epidemiology-biostats--statistical-inference--q3",
+          "discipline": "population-health",
+          "topic": "epidemiology-biostats",
+          "difficulty": "exam",
+          "stem": "In a randomised trial of an exercise program after myocardial infarction, 30% of participants in the intervention group stopped attending in the first month, mostly because of breathlessness. The researchers report the main result using only the participants who completed the program.\n\nWhat is the main problem with this approach?",
+          "options": [
+            "It increases the risk of a type II error",
+            "It removes the balance created by randomisation and may overestimate benefit",
+            "It controls for confounding better than intention-to-treat analysis",
+            "It is the recommended primary analysis for superiority trials",
+            "It reduces recall bias"
+          ],
+          "answer": 1,
+          "explanation": "This is a **per-protocol** analysis. Those who dropped out were probably sicker (breathlessness), so excluding them leaves a healthier intervention group than the control group, which **undoes the balance randomisation created** and is likely to **exaggerate benefit**.\n\nThe preferred primary analysis is **intention-to-treat**: everyone is analysed in their allocated group regardless of adherence. It preserves randomisation and reflects what happens when the program is offered in real life.",
+          "whyWrong": [
+            "The main concern is bias exaggerating benefit, not a false negative.",
+            "",
+            "Excluding non-completers reintroduces confounding rather than controlling it.",
+            "Intention-to-treat, not per-protocol, is the recommended primary analysis.",
+            "Recall bias concerns inaccurate memory of past exposures."
+          ],
+          "tags": [
+            "intention-to-treat",
+            "rct"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "epidemiology-biostats--australian-health-statistics",
+      "title": "Australian health statistics and burden of disease",
+      "minutes": 13,
+      "objectives": [
+        "Name the main sources of Australian health data and what each provides",
+        "State the leading causes of death in Australia, including the sex difference",
+        "Explain age-standardisation, standardised mortality ratios and DALYs",
+        "Describe the major health gaps, especially for Aboriginal and Torres Strait Islander people"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "A different epidemiological picture from India",
+          "body": "Australia is well past the epidemiological transition. The burden of disease is dominated by **chronic non-communicable disease and ageing**, not infection. The AMC expects you to know the broad pattern and where the gaps are, not decimal places. Figures below are approximate; the **AIHW** publishes current values.\n\n**Data sources**\n- **Australian Institute of Health and Welfare (AIHW)**: national health and welfare statistics, the Australian Burden of Disease Study, the biennial \"Australia's health\" report, and cancer data.\n- **Australian Bureau of Statistics (ABS)**: census (every 5 years, most recently 2021), Causes of Death (from death registrations), life tables, and the National Health Survey.\n- **National Notifiable Diseases Surveillance System (NNDSS)**: notifications of communicable diseases from states and territories.\n- State **cancer registries**, perinatal data collections and the **National Cancer Screening Register**."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Key measures",
+          "body": "- **Crude death rate**: deaths / population. Misleading when comparing populations with different age structures.\n- **Age-standardised rate**: the rate the population would have if it had a standard age structure. Use it to compare regions or time periods. A coastal retirement town has a high crude death rate because its residents are old, not because it is unhealthy.\n- **Standardised mortality ratio (SMR)** = observed deaths / expected deaths (expected from the standard population's age-specific rates). If a mining town has 150 deaths where 100 were expected, SMR = 1.5 (150%): 50% more deaths than expected for its age structure.\n- **Life expectancy**: average years a newborn would live at current death rates. Australia: about **81 years for males and 85 for females**, among the highest in the world.\n- **Infant mortality rate**: deaths under 1 year per 1,000 live births; around 3 per 1,000 in Australia, higher for First Nations infants.\n- **DALY (disability-adjusted life year)** = **YLL** (years of life lost to premature death) + **YLD** (years lived with disability). One DALY is one year of healthy life lost. A condition can cause a large burden through disability with little mortality (e.g. back pain, anxiety).\n- **Potentially avoidable deaths**: deaths before 75 that could have been prevented or treated."
+        },
+        {
+          "kind": "application",
+          "heading": "The Australian picture",
+          "body": "### Causes of death\n- **Coronary (ischaemic) heart disease** and **dementia, including Alzheimer's disease**, are the **two leading causes of death**. CHD leads in men; **dementia is the leading cause of death in women**, and as the population ages it is expected to become the leading cause overall.\n- Other leading causes: **cerebrovascular disease (stroke)**, **lung cancer** (the leading cause of cancer death), and **COPD**. Diabetes and colorectal cancer also rank highly.\n- **Suicide** is the leading cause of death in Australians aged roughly 15 to 44, and men die by suicide at about three times the rate of women.\n\n### Cancer\n- Most commonly diagnosed: **prostate** in men and **breast** in women, with **melanoma**, **colorectal** and **lung** cancer also among the most common. Australia has one of the highest melanoma rates in the world, because of a mainly fair-skinned population and high UV exposure.\n- Non-melanoma skin cancers are the most common cancers of all but are not routinely reported to cancer registries.\n\n### Burden of disease (AIHW)\n- The largest disease groups by DALYs are **cancer**, **mental and substance use disorders**, **musculoskeletal conditions** and **cardiovascular disease**.\n- The leading **risk factors** are **tobacco use** and **overweight and obesity**, followed by dietary risks, high blood pressure, high blood glucose and alcohol. More than a third of the total burden is considered preventable by reducing risk factors.\n- About two-thirds of adults are overweight or obese, and roughly one in three is obese. Daily smoking has fallen to around one in ten adults or fewer.\n\n### Chronic disease, mental health and ageing\n- About **half of Australians** have at least one chronic condition, and multimorbidity is common from middle age. Common ones: back problems, mental and behavioural conditions, arthritis, asthma, diabetes, heart disease and chronic kidney disease.\n- About **1 in 5 adults** experiences a mental disorder in any 12-month period, most commonly anxiety disorders, then affective (mood) and substance use disorders. Around 2 in 5 people experience one at some point in their lives.\n- The population is ageing: about **1 in 6 Australians is 65 or older**, and the proportion is rising. This drives the growth in dementia, falls, cancer, heart failure and demand for aged care.\n- Most health spending goes on chronic disease; Medicare and the PBS fund much of primary care and medicines.\n\n### Health gaps\n- **Aboriginal and Torres Strait Islander people**: life expectancy about **8 to 9 years lower** than non-Indigenous Australians; a burden of disease more than twice as high, driven by cardiovascular disease, diabetes and kidney disease, mental health and substance use, and injury. Social determinants and the effects of colonisation are the underlying causes. The **Closing the Gap** agreement sets national targets.\n- **Remoteness**: people in remote and very remote areas have higher death rates and poorer access to care.\n- **Socioeconomic disadvantage**: the lowest socioeconomic group has markedly higher rates of chronic disease and avoidable death."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- \"Leading cause of death in Australian women\": **dementia**. Overall and in men: **coronary heart disease** (with dementia close behind).\n- \"Leading cause of cancer death\": **lung cancer**.\n- \"Leading cause of death in young adults\": **suicide** (injury overall).\n- Comparing death rates between populations of different ages: **age-standardise**.\n- DALY = YLL + YLD.\n- The biggest health inequity in Australia is between **First Nations and non-Indigenous Australians**.\n- Do not over-memorise exact percentages; learn rankings and directions, which is what the questions test."
+        }
+      ],
+      "keyPoints": [
+        "AIHW and ABS are the main sources of Australian health statistics; NNDSS covers notifiable diseases.",
+        "Coronary heart disease and dementia are the two leading causes of death; dementia leads in women.",
+        "Lung cancer is the leading cause of cancer death; prostate and breast are the most diagnosed cancers.",
+        "Suicide is the leading cause of death in Australians aged about 15-44.",
+        "Age-standardise rates to compare populations with different age structures; SMR = observed/expected.",
+        "DALY = years of life lost + years lived with disability.",
+        "Tobacco and overweight/obesity are the leading preventable risk factors.",
+        "First Nations Australians have a life expectancy gap of about 8-9 years."
+      ],
+      "redFlags": [],
+      "contrast": [
+        {
+          "aspect": "Data sources",
+          "india": "Census, NFHS, Sample Registration System, ICMR studies.",
+          "australia": "AIHW and ABS, with national registries (cancer, screening, notifiable diseases)."
+        },
+        {
+          "aspect": "Burden of disease",
+          "india": "Infections and maternal-child conditions remain significant alongside rising NCDs.",
+          "australia": "Chronic disease, cancer, mental illness and dementia dominate; infections are a small share."
+        },
+        {
+          "aspect": "Largest health gap",
+          "india": "Differences by state, rural-urban, caste and income.",
+          "australia": "Between Aboriginal and Torres Strait Islander people and other Australians."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Leading cause of death in Australian women?",
+          "back": "Dementia, including Alzheimer's disease."
+        },
+        {
+          "front": "Two leading causes of death in Australia?",
+          "back": "Coronary heart disease and dementia."
+        },
+        {
+          "front": "How is a DALY calculated?",
+          "back": "Years of life lost (YLL) + years lived with disability (YLD)."
+        },
+        {
+          "front": "What is a standardised mortality ratio?",
+          "back": "Observed deaths divided by expected deaths (based on standard age-specific rates)."
+        },
+        {
+          "front": "Leading cause of cancer death in Australia?",
+          "back": "Lung cancer."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "epidemiology-biostats--australian-health-statistics--q1",
+          "discipline": "population-health",
+          "topic": "epidemiology-biostats",
+          "difficulty": "foundation",
+          "stem": "A public health registrar in Canberra is preparing a presentation on mortality in Australian women using ABS Causes of Death data.\n\nWhich condition is the leading cause of death among Australian women?",
+          "options": [
+            "Breast cancer",
+            "Coronary heart disease",
+            "Cerebrovascular disease",
+            "Lung cancer",
+            "Dementia, including Alzheimer's disease"
+          ],
+          "answer": 4,
+          "explanation": "**Dementia, including Alzheimer's disease**, is the leading cause of death in Australian women, and coronary heart disease is the leading cause in men. Together, CHD and dementia are the two leading causes of death overall. Women live longer on average, so more reach the ages at which dementia is common.\n\nBreast cancer is the most commonly diagnosed cancer in women but is not the leading cause of death; lung cancer causes more cancer deaths in women than breast cancer.",
+          "whyWrong": [
+            "Breast cancer is the most diagnosed cancer in women but not the leading cause of death.",
+            "Coronary heart disease leads in men; in women it ranks just behind dementia.",
+            "Stroke is a leading cause but ranks below dementia and CHD.",
+            "Lung cancer is the leading cause of cancer death, not of death overall.",
+            ""
+          ],
+          "tags": [
+            "mortality",
+            "dementia",
+            "australian statistics"
+          ]
+        },
+        {
+          "id": "epidemiology-biostats--australian-health-statistics--q2",
+          "discipline": "population-health",
+          "topic": "epidemiology-biostats",
+          "difficulty": "core",
+          "stem": "The crude death rate in a coastal town in New South Wales popular with retirees is twice that of a nearby mining town with a young workforce. A local newspaper claims the coastal town is \"the unhealthiest place in the state\".\n\nWhat is the most appropriate way to compare mortality between the two towns?",
+          "options": [
+            "Compare infant mortality rates only",
+            "Compare age-standardised death rates",
+            "Compare the absolute number of deaths",
+            "Compare case fatality rates for all diseases",
+            "Compare the crude death rates adjusted for population size"
+          ],
+          "answer": 1,
+          "explanation": "Crude death rates are heavily influenced by **age structure**: a town full of retirees will have more deaths per head simply because older people die more often. To compare populations fairly, use **age-standardised death rates** (direct standardisation) or a **standardised mortality ratio** (indirect standardisation), which remove the effect of different age distributions.\n\nAfter age-standardisation, the mining town might even turn out to have higher mortality, for example from injuries.",
+          "whyWrong": [
+            "Infant mortality addresses only one age group and ignores most deaths.",
+            "",
+            "Absolute numbers depend on population size and age structure.",
+            "Case fatality measures deaths among those with a disease, not population mortality.",
+            "Crude rates already account for population size; the problem is age structure."
+          ],
+          "tags": [
+            "age standardisation",
+            "mortality"
+          ]
+        },
+        {
+          "id": "epidemiology-biostats--australian-health-statistics--q3",
+          "discipline": "population-health",
+          "topic": "epidemiology-biostats",
+          "difficulty": "core",
+          "stem": "The Australian Burden of Disease Study reports that chronic low back pain causes a large share of total burden despite causing almost no deaths.\n\nWhich measure best explains this finding?",
+          "options": [
+            "Years of life lost (YLL)",
+            "Case fatality rate",
+            "Standardised mortality ratio",
+            "Potentially avoidable deaths",
+            "Years lived with disability (YLD)"
+          ],
+          "answer": 4,
+          "explanation": "The **DALY** combines **years of life lost (YLL)** from premature death and **years lived with disability (YLD)**. Back pain causes very few deaths, so its YLL is negligible, but it affects many people for long periods, producing a large **YLD** and therefore a large contribution to total burden.\n\nThis is why musculoskeletal conditions and mental health disorders rank highly in Australian burden of disease estimates even though they are not leading causes of death.",
+          "whyWrong": [
+            "YLL counts premature deaths, which back pain rarely causes.",
+            "Case fatality concerns deaths among those with the condition.",
+            "The SMR compares observed with expected deaths.",
+            "Avoidable deaths do not capture non-fatal burden.",
+            ""
+          ],
+          "tags": [
+            "daly",
+            "burden of disease"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -5,6 +5,7 @@ import { persist } from "zustand/middleware";
 import { useEffect, useState } from "react";
 import type { Discipline, Question } from "./types";
 import { newCard, review, type CardState, type Grade } from "./srs";
+import type { LessonState } from "./course-index";
 
 export type Stage = "4th-year" | "final-year" | "internship" | "graduated";
 
@@ -67,6 +68,8 @@ interface State {
   bookmarks: string[];
   tutor: ChatMsg[];
   lessons: Record<string, string>; // topicId -> cached AI lesson markdown
+  lessonProgress: Record<string, LessonState>; // course lesson id -> progress
+  lastLesson: string | null;
   owner: string | null; // account id this browser copy belongs to (not synced)
   syncedVersion: number; // server version this copy last matched (not synced)
   dirty: boolean; // changed since the last successful save (not synced)
@@ -82,6 +85,8 @@ interface State {
   toggleBookmark: (id: string) => void;
   setTutor: (m: ChatMsg[]) => void;
   saveLesson: (topicId: string, md: string) => void;
+  setLessonStep: (id: string, step: number) => void;
+  completeLesson: (id: string, score: number, total: number, cardIds: string[]) => void;
   markStudied: () => void;
   importAll: (data: Partial<State>) => void;
   setOwner: (id: string | null) => void;
@@ -105,6 +110,8 @@ const empty = {
   bookmarks: [],
   tutor: [],
   lessons: {},
+  lessonProgress: {},
+  lastLesson: null,
   owner: null,
   syncedVersion: 0,
   dirty: false,
@@ -124,6 +131,8 @@ export const SYNC_KEYS = [
   "bookmarks",
   "tutor",
   "lessons",
+  "lessonProgress",
+  "lastLesson",
 ] as const;
 export type SyncKey = (typeof SYNC_KEYS)[number];
 export type Snapshot = Pick<State, SyncKey>;
@@ -170,6 +179,30 @@ export const useStore = create<State>()(
         })),
       setTutor: (tutor) => set({ tutor }),
       saveLesson: (topicId, md) => set((s) => ({ lessons: { ...s.lessons, [topicId]: md } })),
+      setLessonStep: (id, step) =>
+        set((s) => {
+          const prev = s.lessonProgress[id];
+          if (prev?.step === step && s.lastLesson === id) return {};
+          return {
+            lastLesson: id,
+            lessonProgress: { ...s.lessonProgress, [id]: { ...(prev ?? { done: false }), step, at: Date.now() } },
+          };
+        }),
+      // Finishing a lesson adds its flashcards to the review deck, first due tomorrow (she has just seen them).
+      completeLesson: (id, score, total, cardIds) =>
+        set((s) => {
+          const prev = s.lessonProgress[id];
+          const best = prev?.score !== undefined && prev.total ? Math.max(prev.score / prev.total, score / total) * total : score;
+          const tomorrow = Date.now() + 86_400_000;
+          const srs = { ...s.srs };
+          for (const c of cardIds) if (!srs[c]) srs[c] = { ...newCard(), due: tomorrow };
+          return {
+            srs,
+            lastLesson: id,
+            lessonProgress: { ...s.lessonProgress, [id]: { done: true, at: Date.now(), step: 0, score: Math.round(best), total } },
+            studyDays: withDay(s.studyDays),
+          };
+        }),
       markStudied: () => set((s) => ({ studyDays: withDay(s.studyDays) })),
       importAll: (data) => set(data),
       setOwner: (owner) => set({ owner }),

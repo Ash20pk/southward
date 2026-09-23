@@ -1,0 +1,766 @@
+{
+  "topic": "psych-emergencies",
+  "intro": "Psychiatric emergencies covers suicide assessment and safety planning, acute agitation, dangerous psychotropic drug reactions, and medical conditions that masquerade as psychiatric illness. These are the situations where an intern's decisions change outcomes within hours, so the AMC tests them heavily, with an Australian emphasis on individualised safety planning over risk categories, least restrictive care, and never missing the medical cause.",
+  "lessons": [
+    {
+      "id": "psych-emergencies--suicide-risk-safety-planning",
+      "title": "Suicide: assessment and safety planning",
+      "minutes": 18,
+      "objectives": [
+        "Take a structured suicide assessment covering ideation, plans, means, intent, history and protective factors",
+        "Explain why Australian practice has moved from risk categories to individualised safety planning",
+        "Write a collaborative safety plan including means restriction and carer involvement",
+        "Decide between discharge with follow-up, voluntary admission and involuntary assessment"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Suicide in Australia",
+          "body": "Around 3,000 to 3,300 Australians die by suicide each year, roughly nine people a day. About three in four are male. Suicide is the **leading cause of death for Australians aged 15 to 44**. Rates are about twice as high among Aboriginal and Torres Strait Islander people, and are elevated in rural and remote areas, among LGBTIQA+ people, veterans, men in middle age, and **older men, with the highest age-specific rate in men aged 85 and over**. Hanging is the most common method, followed by poisoning by drugs; firearms account for a larger share in rural areas.\n\nMany people who die by suicide saw a health professional in the weeks or months beforehand, often a GP, and often for something other than mental health. Every doctor needs to be able to ask, assess and act."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Risk factors and protective factors",
+          "body": "Suicide results from an interaction of long-term vulnerability and acute stressors.\n\n**Static (historical) factors** raise baseline risk but cannot be changed: previous suicide attempt (the strongest single predictor), male sex, older age, family history of suicide, childhood abuse.\n\n**Dynamic (modifiable) factors** are where intervention happens: current depression, psychosis (especially command hallucinations), substance intoxication or dependence, hopelessness, agitation, insomnia, chronic pain, recent loss (relationship, job, bereavement), legal or financial crisis, social isolation, and **recent discharge from psychiatric inpatient care** (a very high-risk period).\n\n**Protective factors**: connectedness to family and friends, children at home, religious or cultural beliefs, engagement with care, reasons for living, and restricted access to lethal means.\n\nAlcohol deserves special mention: it is involved in a large share of suicides because it increases impulsivity and lowers inhibition, even in people without dependence."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "The assessment conversation",
+          "body": "Ask directly and without euphemism. Asking about suicide does not increase risk.\n\n1. **Ideation**: \"Have you had thoughts of ending your life?\" Frequency, intensity, duration, how they respond to the thoughts.\n2. **Plans**: method, timing, place, whether they have rehearsed it.\n3. **Means**: access to firearms, stockpiled medications, a car, rope, heights. Ask specifically about firearms in rural patients.\n4. **Intent**: how strongly they intend to act; final acts (notes, giving away possessions, saying goodbye, financial arrangements).\n5. **Past attempts and self-harm**: methods, lethality, circumstances, whether they were found by chance.\n6. **Current mental state**: depression, hopelessness, psychosis, agitation, intoxication.\n7. **Protective factors and reasons for living**.\n8. **Collateral history** from family, carers, GP, and previous records.\n\nFor a recent attempt, ask what happened beforehand, how planned it was, whether they took precautions against being found, and how they feel about having survived (regret at surviving is concerning).\n\nExamine the mental state carefully (appearance, affect, thought content, perception, insight) and look for injuries and signs of intoxication."
+        },
+        {
+          "kind": "concepts",
+          "heading": "From risk categories to individualised care",
+          "body": "Traditionally patients were rated **low, medium or high risk**. Evidence now shows that risk scales and categories are **poor at predicting who will die by suicide**: most people categorised as high risk do not die, and many who die were rated low risk. Using categories to ration care means people labelled \"low risk\" miss out.\n\nAustralian guidance (including RANZCP and Australian Commission on Safety and Quality in Health Care materials, and NICE in the UK) therefore recommends a **formulation-based, needs-focused approach**: understand *why* this person is suicidal *now*, what could change that, and what they need, and use that to plan care. Documenting the reasoning matters more than a score."
+        },
+        {
+          "kind": "management",
+          "heading": "Safety planning and disposition",
+          "body": "**A collaborative safety plan** is written with the person, in their words, and a copy is given to them (and to a carer, with consent). Typical steps (based on the Stanley-Brown model):\n\n1. Warning signs that a crisis is developing\n2. Internal coping strategies (things they can do alone)\n3. People and places that provide distraction\n4. People they can ask for help (family, friends)\n5. Professionals and services: GP, mental health team, **Lifeline 13 11 14**, **Suicide Call Back Service 1300 659 467**, **13YARN** (13 92 76) for Aboriginal and Torres Strait Islander people, and **000** in an emergency\n6. **Making the environment safe**: remove or lock away firearms, dispose of stockpiled medicines, have a family member hold medications, dispense small quantities\n\n**Means restriction** is one of the most effective suicide-prevention measures, because crises are often brief and substitution of method is incomplete. For firearms, discuss removal with the person and family; firearms legislation in several states allows (and in some circumstances requires) doctors to notify police, which varies by state.\n\n**Involve family and carers** where possible. Confidentiality should not prevent sharing information needed to keep someone safe.\n\n**Disposition**:\n\n- **Home with follow-up**: if the person can engage with a safety plan, has support, and has no immediate intent. Arrange follow-up within days (the days after an ED presentation and after discharge from hospital are high risk). Many states run aftercare services (e.g. The Way Back Support Service) for people after an attempt. Start or optimise treatment for depression, and prescribe safely (avoid large quantities of toxic drugs such as tricyclics).\n- **Voluntary admission** if they cannot be kept safe at home but accept care.\n- **Involuntary assessment and admission** under the state **Mental Health Act** if they have a mental illness, are at serious risk, refuse care, and there is no less restrictive option. Police and ambulance officers have powers to take a person to hospital for assessment.\n\nLook after yourself and colleagues: suicide of a patient is a significant event for clinicians."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- \"What is the strongest predictor of suicide?\" **Previous attempt.**\n- A farmer with depression: the discriminating question is **access to firearms**.\n- The best answer usually combines **safety plan + means restriction + family involvement + early follow-up**, not \"classify as low risk and discharge\".\n- An intoxicated person expressing suicidal thoughts: keep them safe and **reassess when sober**; do not discharge while intoxicated.\n- An older man, recently widowed, with new health problems: high risk even if he seems calm."
+        }
+      ],
+      "keyPoints": [
+        "Suicide is the leading cause of death in Australians aged 15 to 44; three in four are male; highest rate in men 85 and over.",
+        "Previous attempt is the strongest single predictor.",
+        "Ask directly about ideation, plans, means, intent, previous attempts and protective factors, and get collateral.",
+        "Risk categories predict poorly; use individualised formulation and safety planning.",
+        "Means restriction (firearms, stockpiled medicines) is one of the most effective interventions.",
+        "Involve family and carers, and arrange follow-up within days.",
+        "Use the state Mental Health Act for involuntary assessment only when criteria are met and nothing less restrictive will do."
+      ],
+      "redFlags": [
+        "A specific plan with access to lethal means (especially firearms)",
+        "Final acts: notes, giving away possessions, goodbyes",
+        "Regret at surviving an attempt or precautions against discovery",
+        "Command hallucinations, severe hopelessness or agitation",
+        "Recent discharge from psychiatric inpatient care",
+        "Intoxication with suicidal ideation"
+      ],
+      "contrast": [
+        {
+          "aspect": "Risk stratification",
+          "india": "Patients classified as low, medium or high risk.",
+          "australia": "Categories discouraged; individual formulation and a collaborative safety plan guide care."
+        },
+        {
+          "aspect": "Common lethal means",
+          "india": "Pesticide ingestion and hanging are prominent.",
+          "australia": "Hanging most common; ask about firearms (especially rural) and stockpiled medications; some states allow police notification."
+        },
+        {
+          "aspect": "Legal status of attempt",
+          "india": "Mental Healthcare Act 2017 effectively decriminalised suicide attempts.",
+          "australia": "Not a criminal offence; managed as a health issue with aftercare services after an attempt."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Strongest single predictor of death by suicide?",
+          "back": "A previous suicide attempt."
+        },
+        {
+          "front": "Lifeline phone number?",
+          "back": "13 11 14."
+        },
+        {
+          "front": "Which age group has the highest suicide rate in Australia?",
+          "back": "Men aged 85 and over."
+        },
+        {
+          "front": "Name three components of a safety plan.",
+          "back": "Warning signs, coping strategies, people and services to contact, and making the environment safe (means restriction)."
+        },
+        {
+          "front": "When is the period after psychiatric inpatient discharge?",
+          "back": "A very high-risk period for suicide; follow up within days."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "psych-emergencies--suicide-risk-safety-planning--q1",
+          "discipline": "mental-health",
+          "topic": "psych-emergencies",
+          "difficulty": "core",
+          "stem": "A 52-year-old farmer in rural New South Wales sees his GP with poor sleep and low mood for two months after drought forced him to sell most of his stock. He admits to thoughts that his family would be better off without him but says he would never act on them. He lives with his wife.\n\nWhich question is most important to ask next?",
+          "options": [
+            "Whether he has a family history of depression",
+            "Whether he would accept a referral to a psychologist",
+            "How much alcohol he drinks on weekends",
+            "Whether he has access to firearms",
+            "Whether he has financial counselling"
+          ],
+          "answer": 3,
+          "explanation": "This man has depression with **passive suicidal ideation** and several risk factors: male, middle-aged, rural, financial loss. The single most important next question is about **access to lethal means**, and in rural Australia that means **firearms**, which are common on farms and highly lethal.\n\nIf he has firearms, discuss removing them from the property or having them held by someone else, with him and his wife. Means restriction works because suicidal crises are often brief. Several states have firearms legislation that allows doctors to notify police about concerns. Alcohol, family history, and referral are all relevant but do not have the same immediate safety impact.",
+          "whyWrong": [
+            "Family history is relevant but does not change his immediate safety.",
+            "Referral is part of management but comes after establishing immediate safety.",
+            "Alcohol use matters but the access to a highly lethal method is the priority.",
+            "",
+            "Financial support is important for recovery but not the priority safety question."
+          ],
+          "ausPearl": "Rural Australian men have higher suicide rates, and firearms account for a larger share of rural suicides; always ask about guns on the farm.",
+          "tags": [
+            "suicide",
+            "means restriction",
+            "firearms",
+            "rural"
+          ]
+        },
+        {
+          "id": "psych-emergencies--suicide-risk-safety-planning--q2",
+          "discipline": "mental-health",
+          "topic": "psych-emergencies",
+          "difficulty": "exam",
+          "stem": "A 34-year-old woman is medically cleared in a Melbourne emergency department after an overdose of 20 of her own paroxetine tablets following a relationship breakup. She now says she regrets it and wants to go home. Her mother is with her and is willing to stay with her. She agrees to see her GP. The registrar asks you to finalise the plan.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Rate her as low risk and discharge without follow-up because she regrets the overdose",
+            "Detain her under the Mental Health Act because of the overdose",
+            "Develop a safety plan with her and her mother, restrict access to medications and arrange follow-up within days",
+            "Admit her voluntarily for one week of observation",
+            "Discharge with a prescription for a one-month supply of amitriptyline"
+          ],
+          "answer": 2,
+          "explanation": "After an overdose, even when the person seems to be at \"low risk\", the key is **individualised care**: a **collaborative safety plan** (warning signs, coping strategies, supports, crisis numbers), **restricting access to means** (her mother holds medications; small dispensing), **involving family** with consent, and **early follow-up** within days, via the GP or an aftercare service such as The Way Back.\n\nThe days after an ED presentation for self-harm are a high-risk period, so discharging without follow-up is unsafe. Involuntary detention requires serious risk with no less restrictive option, which does not apply here. Prescribing a large quantity of a tricyclic, which is lethal in overdose, would be dangerous.",
+          "whyWrong": [
+            "Risk categories predict poorly and discharge without follow-up ignores the high-risk period after self-harm.",
+            "She is engaging and has support; involuntary detention is not the least restrictive option.",
+            "",
+            "Admission is not needed if a safe plan with support can be made; it is more restrictive than necessary.",
+            "Tricyclics are highly toxic in overdose and a month's supply is unsafe after an overdose."
+          ],
+          "tags": [
+            "suicide",
+            "safety plan",
+            "overdose"
+          ]
+        },
+        {
+          "id": "psych-emergencies--suicide-risk-safety-planning--q3",
+          "discipline": "mental-health",
+          "topic": "psych-emergencies",
+          "difficulty": "foundation",
+          "stem": "A 28-year-old man is brought to a Brisbane emergency department by police after telling friends he wanted to die. He smells of alcohol, has a blood alcohol concentration of 0.19%, and is tearful. He now says he was \"just joking\" and asks to leave.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Allow him to leave because he has retracted the statement",
+            "Give him the Lifeline number and discharge with a friend",
+            "Admit him to the psychiatric ward involuntarily for 72 hours",
+            "Refer him to an outpatient drug and alcohol service and discharge",
+            "Keep him safely in the department and reassess his suicide risk when he is sober"
+          ],
+          "answer": 4,
+          "explanation": "Alcohol increases impulsivity and is involved in a large proportion of suicides. A person who has expressed suicidal thoughts while intoxicated **cannot be reliably assessed until sober**, and a retraction made while intoxicated means little. He should be kept safely in the department (under duty of care, and if necessary under the state Mental Health Act or police powers if he tries to leave and there is serious risk), then given a full suicide and psychosocial assessment when sober.\n\nAlcohol intoxication on its own is not a mental illness under Mental Health Acts, so a formal involuntary admission is not justified at this point without evidence of mental illness.",
+          "whyWrong": [
+            "A retraction while intoxicated is unreliable; he needs assessment when sober.",
+            "Discharge without assessment leaves him at risk during a period of disinhibition.",
+            "Intoxication alone is not a mental illness, and a proper assessment has not yet been done.",
+            "Addressing alcohol use is important, but discharge before a sober assessment is unsafe.",
+            ""
+          ],
+          "tags": [
+            "suicide",
+            "intoxication",
+            "assessment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psych-emergencies--acute-agitation",
+      "title": "Acute agitation and behavioural emergencies",
+      "minutes": 16,
+      "objectives": [
+        "Identify medical causes of agitation, including delirium, hypoglycaemia, hypoxia and intoxication",
+        "Apply a stepwise approach: de-escalation, oral medication, then parenteral sedation",
+        "Monitor sedated patients safely and anticipate complications",
+        "Recognise the legal frameworks for restraint and treatment without consent"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "What counts as a behavioural emergency",
+          "body": "Acute agitation is common in Australian emergency departments, wards and the community, driven by methamphetamine (\"ice\"), alcohol, psychosis, mania, delirium and dementia. It threatens the patient, staff and other patients. Occupational violence against health workers is a recognised problem, and most states have code grey (unarmed threat) and code black (armed threat or violence) responses.\n\nThe AMC tests two things: **do not miss the medical cause**, and **use the least restrictive option in a safe order**."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Causes to consider",
+          "body": "Think of agitation as a symptom, not a diagnosis.\n\n| Category | Examples |\n|---|---|\n| Medical | **Hypoglycaemia**, **hypoxia**, sepsis, head injury, **delirium** (any cause), urinary retention, pain, hyperthyroidism, encephalitis, postictal state |\n| Toxicological | Intoxication with methamphetamine, cocaine, alcohol, synthetic cannabinoids; **alcohol or benzodiazepine withdrawal**; anticholinergic toxicity; serotonin syndrome |\n| Psychiatric | Psychosis (schizophrenia), mania, severe anxiety, personality disorder in crisis |\n| Neurodevelopmental / cognitive | Dementia, intellectual disability, autism (often distress from pain, noise or change) |\n\nMethamphetamine causes sympathetic excess (tachycardia, hypertension, hyperthermia, mydriasis, sweating) plus paranoia and psychosis, and carries risk of **rhabdomyolysis**, hyperthermia, stroke and cardiac events."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Rapid assessment",
+          "body": "Look for clues to a medical cause:\n\n- **Vital signs** (often hard to get, but try): HR, BP, temperature, SpO2, and **bedside glucose** (every agitated patient).\n- Fluctuating attention, disorientation, visual hallucinations: **delirium** until proven otherwise.\n- New confusion in someone older, with no psychiatric history.\n- Signs of head injury, focal neurology, meningism.\n- Toxidromes: sympathomimetic (hot, sweaty, dilated pupils), anticholinergic (hot, dry, flushed, dilated pupils, urinary retention, delirium), withdrawal (tremor, sweating, tachycardia, history of heavy drinking).\n- Collateral history from ambulance, police, family: time course, drugs, previous episodes.\n\nA psychiatric cause is more likely with a known history, clear consciousness, orientation intact, and auditory (rather than visual) hallucinations. But a psychiatric history does not protect anyone from hypoglycaemia or a subdural haematoma."
+        },
+        {
+          "kind": "management",
+          "heading": "Stepwise management",
+          "body": "**1. Safety and environment**: enough staff, a quiet space, remove potential weapons, keep exits clear, call security or a code grey early. Your own safety comes first.\n\n**2. Verbal de-escalation** (always first, and continued throughout): one calm person speaks, introduce yourself, respect personal space, listen and validate, offer choices (food, drink, a phone call), set clear limits without threats. Many patients settle with this alone.\n\n**3. Oral medication** if de-escalation is not enough and the patient will accept it. This preserves dignity and is safer. Typical options in Australian guidelines: a **benzodiazepine** (e.g. diazepam or lorazepam) or an **antipsychotic** (e.g. olanzapine), chosen by the likely cause. Benzodiazepines are preferred for stimulant intoxication and alcohol withdrawal; antipsychotics for known psychosis.\n\n**4. Parenteral sedation** if the patient is at serious risk to self or others and refuses or cannot take oral medication. Common Australian ED agents are **droperidol** or **olanzapine IM**, and **midazolam** IM, used according to local protocol. **Ketamine** is used for severe agitation in some EDs and by retrieval teams. IV access is established once safe. Avoid combining IM olanzapine with parenteral benzodiazepines because of respiratory depression.\n\n**5. Physical restraint**: only as a short-term measure by trained staff to allow sedation, with the minimum force for the minimum time. **Prone restraint** and pressure on the neck, chest or back are dangerous (positional asphyxia). Restraint is a restrictive practice that must be documented and reviewed.\n\n**Monitoring after sedation**: continuous observation, airway, respiratory rate, SpO2, HR, BP, temperature and sedation score. Watch for **airway obstruction and respiratory depression**, hypotension, **QT prolongation** (antipsychotics; get an ECG when feasible), **acute dystonia**, hyperthermia and rhabdomyolysis (check CK in stimulant toxicity). Then find and treat the cause.\n\n**Legal basis**: sedation and restraint without consent in an emergency are justified under the **common law doctrine of necessity / duty of care** or under the state **Mental Health Act** if the person has a mental illness and meets criteria. Guardianship law may apply in people with impaired capacity. The key principles are necessity, proportionality, least restriction, and documentation.\n\n**Delirium and dementia**: agitation in older people is managed differently. Look for the cause (pain, retention, constipation, infection, drugs), use non-drug measures, and avoid benzodiazepines except in alcohol withdrawal; use small antipsychotic doses only when essential."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Choosing the approach by likely cause",
+          "body": "The cause shapes the drug choice and the monitoring:\n\n| Likely cause | Preferred approach | Watch for |\n|---|---|---|\n| Stimulant intoxication (methamphetamine, cocaine) | Benzodiazepines; cool; IV fluids | Hyperthermia, rhabdomyolysis (CK), ACS, stroke |\n| Alcohol withdrawal | Benzodiazepines (diazepam) plus parenteral thiamine | Seizures, delirium tremens, Wernicke encephalopathy |\n| Known psychosis or mania | Oral or IM antipsychotic, benzodiazepine as adjunct | Dystonia, QT prolongation, hypotension |\n| Delirium | Treat the cause; non-drug measures; low-dose antipsychotic only if essential | Worsening with benzodiazepines, falls, aspiration |\n| Dementia (BPSD) | Look for pain, retention, constipation, infection; environment | Antipsychotic harms (stroke, death); sensitivity in Lewy body dementia |\n| Anticholinergic toxicity | Supportive care, benzodiazepines; toxicology advice | Hyperthermia, urinary retention, arrhythmia |\n\n**After the event**: document the behaviour, what was tried, the legal basis, drugs given and monitoring. Debrief the team, offer the patient a chance to talk about what happened once settled, and report the incident under local policy. Consider the patient's legal status (voluntary, involuntary, or under a guardianship order) for ongoing care, and involve the mental health team once medically safe."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- The first action in any agitated patient: ensure safety, **check the glucose**, and attempt **verbal de-escalation**.\n- Offer **oral before IM** when possible.\n- An agitated patient with fever, tachycardia and dilated pupils after \"ice\": treat with **benzodiazepines**, cool, check CK.\n- A confused older patient with fluctuating attention: **delirium**; find the cause rather than sedating.\n- Avoid prone restraint; monitor airway and ECG after sedation.\n- A patient with a known psychotic illness who is agitated: still check glucose, vital signs and for intoxication before attributing it to relapse."
+        }
+      ],
+      "keyPoints": [
+        "Agitation is a symptom: always exclude hypoglycaemia, hypoxia, delirium, head injury, intoxication and withdrawal.",
+        "Check bedside glucose in every agitated patient.",
+        "Verbal de-escalation first, then oral medication, then IM sedation per local protocol.",
+        "Benzodiazepines for stimulant intoxication and alcohol withdrawal; antipsychotics for known psychosis.",
+        "After sedation monitor airway, breathing, SpO2, vitals, ECG (QT) and sedation level continuously.",
+        "Avoid prone restraint and restraint that compresses the chest or neck.",
+        "Emergency treatment without consent rests on necessity/duty of care or the state Mental Health Act."
+      ],
+      "redFlags": [
+        "Hyperthermia with rigidity or clonus",
+        "Fluctuating consciousness or inattention (delirium)",
+        "Hypoglycaemia or hypoxia",
+        "Head injury or focal neurological signs",
+        "Respiratory depression or airway compromise after sedation",
+        "Sudden collapse during restraint"
+      ],
+      "contrast": [
+        {
+          "aspect": "IM sedation agent",
+          "india": "Haloperidol with promethazine is a common combination.",
+          "australia": "Droperidol, olanzapine or midazolam IM per local ED protocol; ketamine for severe cases in some services."
+        },
+        {
+          "aspect": "Restraint oversight",
+          "india": "Restraint practices variably regulated.",
+          "australia": "Restraint is a restrictive practice requiring documentation, monitoring and review under state policies and Mental Health Acts."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "First bedside test in any agitated patient?",
+          "back": "Capillary blood glucose."
+        },
+        {
+          "front": "Preferred drug class for agitation from methamphetamine intoxication?",
+          "back": "Benzodiazepines."
+        },
+        {
+          "front": "Why avoid prone restraint?",
+          "back": "Risk of positional asphyxia and cardiac arrest."
+        },
+        {
+          "front": "ECG concern after antipsychotic sedation?",
+          "back": "QT prolongation (risk of torsades de pointes)."
+        },
+        {
+          "front": "Stepwise order in managing agitation?",
+          "back": "Safety and de-escalation, then oral medication, then IM sedation, with restraint only as a brief last resort."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "psych-emergencies--acute-agitation--q1",
+          "discipline": "mental-health",
+          "topic": "psych-emergencies",
+          "difficulty": "foundation",
+          "stem": "A 45-year-old man with type 1 diabetes is brought to a Gold Coast emergency department by police after behaving aggressively in a shopping centre. He is sweaty, confused and shouting. He has no psychiatric history. HR 110 bpm, BP 150/90 mmHg.\n\nWhat is the most appropriate first action?",
+          "options": [
+            "Give intramuscular droperidol",
+            "Check a capillary blood glucose",
+            "Arrange a CT scan of the brain",
+            "Request a psychiatric registrar review",
+            "Apply physical restraint"
+          ],
+          "answer": 1,
+          "explanation": "In any agitated or confused patient, and especially one with **diabetes**, sweating and no psychiatric history, **check the capillary glucose first**. Hypoglycaemia causes sympathetic activation (sweating, tachycardia), confusion and aggression, and is rapidly fatal or disabling if missed, yet trivially easy to treat.\n\nBehavioural disturbance is a symptom, and medical causes (hypoglycaemia, hypoxia, sepsis, head injury, intoxication, withdrawal) must be excluded before assuming a psychiatric cause. Sedating a hypoglycaemic patient delays treatment and can be dangerous. A CT scan may be needed later if there are signs of head injury.",
+          "whyWrong": [
+            "Sedation before checking glucose risks missing and worsening hypoglycaemia.",
+            "",
+            "Imaging may be needed later but a bedside glucose is immediate and more likely to be diagnostic.",
+            "There is no psychiatric history and a medical cause must be excluded first.",
+            "Restraint is a last resort and does not address the likely cause."
+          ],
+          "tags": [
+            "agitation",
+            "hypoglycaemia",
+            "delirium"
+          ]
+        },
+        {
+          "id": "psych-emergencies--acute-agitation--q2",
+          "discipline": "mental-health",
+          "topic": "psych-emergencies",
+          "difficulty": "core",
+          "stem": "A 26-year-old man is brought to an Adelaide emergency department after using methamphetamine. He is pacing, paranoid and shouting at staff but has not been violent. Temperature 38.1 °C, HR 128 bpm, BP 162/96 mmHg, pupils dilated, glucose 6.2 mmol/L. Verbal de-escalation has calmed him partially, and he agrees to take a tablet.\n\nWhich is the most appropriate medication?",
+          "options": [
+            "Oral diazepam",
+            "Oral haloperidol",
+            "Oral promethazine",
+            "Oral chlorpromazine",
+            "Oral metoprolol"
+          ],
+          "answer": 0,
+          "explanation": "This is **sympathomimetic toxicity** from methamphetamine, with agitation, tachycardia, hypertension, hyperthermia and mydriasis. De-escalation has partly worked and he accepts oral medication, which should always be offered before parenteral sedation.\n\n**Benzodiazepines** (e.g. diazepam) are first choice because they reduce the central sympathetic drive that causes the tachycardia, hypertension and hyperthermia, and treat agitation and seizure risk. Antipsychotics are reserved for persistent psychotic features or as a second agent. Also cool him, give fluids, check CK for rhabdomyolysis, get an ECG, and monitor. Beta-blockers alone risk unopposed alpha stimulation and do not treat agitation.",
+          "whyWrong": [
+            "",
+            "Antipsychotics can be used as second-line but benzodiazepines better address the sympathomimetic drive.",
+            "Promethazine is sedating but anticholinergic and can worsen delirium and hyperthermia.",
+            "Chlorpromazine causes hypotension, lowers seizure threshold and is not preferred.",
+            "Beta-blockers do not treat agitation and may cause unopposed alpha stimulation."
+          ],
+          "tags": [
+            "agitation",
+            "methamphetamine",
+            "benzodiazepines"
+          ]
+        },
+        {
+          "id": "psych-emergencies--acute-agitation--q3",
+          "discipline": "mental-health",
+          "topic": "psych-emergencies",
+          "difficulty": "exam",
+          "stem": "A 30-year-old woman with schizophrenia is given IM olanzapine in a Sydney emergency department for severe agitation after failed de-escalation. Twenty minutes later she is asleep. The nurse asks what monitoring is needed.\n\nWhich is the most appropriate monitoring plan?",
+          "options": [
+            "Check observations once in four hours",
+            "No monitoring needed as olanzapine does not cause respiratory depression",
+            "Admit directly to the psychiatric ward for routine observations",
+            "Continuous observation with regular respiratory rate, SpO2, vital signs and sedation score, and an ECG when feasible",
+            "Give IM midazolam to ensure she stays asleep"
+          ],
+          "answer": 3,
+          "explanation": "After parenteral sedation, patients need **continuous observation** by a staff member in a monitored area, with regular **respiratory rate, oxygen saturation, HR, BP, temperature and sedation score**, and an **ECG** when feasible to check the QT interval. Sedated patients can obstruct their airway, hypoventilate or become hypotensive.\n\nOlanzapine can cause hypotension and sedation-related airway problems, and **combining IM olanzapine with parenteral benzodiazepines** increases the risk of respiratory depression and cardiovascular collapse, so this combination is avoided. Once she is safe, look for medical contributors and arrange psychiatric review.",
+          "whyWrong": [
+            "Four-hourly observations are unsafe after parenteral sedation.",
+            "Sedated patients can obstruct the airway and become hypotensive; monitoring is always required.",
+            "Transfer to a ward before she is stable and monitored is unsafe.",
+            "",
+            "Adding parenteral benzodiazepine to IM olanzapine risks respiratory depression and is unnecessary."
+          ],
+          "tags": [
+            "sedation",
+            "monitoring",
+            "olanzapine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psych-emergencies--drug-emergencies",
+      "title": "Psychotropic drug emergencies",
+      "minutes": 22,
+      "objectives": [
+        "Distinguish neuroleptic malignant syndrome, serotonin syndrome and anticholinergic toxicity",
+        "Recognise and manage lithium toxicity, including precipitants",
+        "Manage acute dystonia and other antipsychotic adverse effects",
+        "Recognise clozapine emergencies: agranulocytosis, myocarditis and constipation"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why these matter",
+          "body": "Psychotropic drugs are widely prescribed in Australia, and several can cause life-threatening reactions. These emergencies appear often in the AMC because they test pharmacology, clinical reasoning (telling look-alikes apart) and urgent management. The core rule: **stop the causative drug and treat as a medical emergency**, usually in hospital."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Mechanisms",
+          "body": "- **Neuroleptic malignant syndrome (NMS)**: sudden **dopamine D2 blockade** (or withdrawal of dopaminergic drugs such as levodopa) in the hypothalamus and basal ganglia, causing hyperthermia and rigidity. Risk is higher with high-potency antipsychotics, rapid dose increases, IM depot use, dehydration and agitation, but any antipsychotic (including atypicals) and metoclopramide can cause it.\n- **Serotonin syndrome**: **excess serotonin** from combining serotonergic drugs (SSRIs, SNRIs, MAOIs including moclobemide, tramadol, tapentadol, fentanyl, methylene blue, linezolid, MDMA, St John's wort, lithium) or overdose.\n- **Lithium toxicity**: lithium has a **narrow therapeutic index** and is excreted by the kidney, where it is handled like sodium. Anything that reduces renal clearance raises the level: **dehydration** (vomiting, diarrhoea, heat), **renal impairment**, and drugs including **ACE inhibitors, ARBs, thiazide diuretics and NSAIDs**.\n- **Anticholinergic syndrome**: muscarinic blockade (tricyclics, benztropine, antihistamines, some antipsychotics)."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "| Feature | NMS | Serotonin syndrome | Anticholinergic |\n|---|---|---|---|\n| Onset | **Days** to weeks after start or increase | **Hours** (usually within 24 h) | Hours |\n| Muscle | **Lead-pipe rigidity**, bradyreflexia | **Clonus** (inducible, ocular), **hyperreflexia** (legs more than arms), tremor | Normal |\n| Pupils | Normal | Dilated | Dilated |\n| Skin | Sweaty | Sweaty | **Hot, dry, flushed** |\n| Bowel | Normal or reduced | **Diarrhoea**, hyperactive | Reduced, urinary retention |\n| Mental state | Confusion, mutism, fluctuating | Agitation | Delirium, picking movements |\n| Labs | **Very high CK**, leucocytosis, raised LFTs | Often normal (CK may rise) | Normal |\n\nSerotonin syndrome is diagnosed clinically, commonly using the **Hunter criteria**: serotonergic drug plus spontaneous clonus, or inducible or ocular clonus with agitation, sweating or hyperthermia, or tremor with hyperreflexia, among others.\n\n**Lithium toxicity**:\n\n- **Therapeutic range**: roughly **0.4 to 1.0 mmol/L** (targets vary; maintenance often 0.4 to 0.8). Levels are measured **12 hours after the last dose**. Toxicity is likely above about 1.5 mmol/L, but **chronic toxicity** can be severe at lower levels.\n- Early: nausea, vomiting, diarrhoea, **coarse tremor** (a fine tremor is a common therapeutic side effect), ataxia, slurred speech.\n- Severe: confusion, myoclonus, hyperreflexia, seizures, coma, arrhythmias, renal failure.\n- Long-term side effects (not emergencies but examinable): **hypothyroidism**, **nephrogenic diabetes insipidus** (polyuria), chronic kidney disease, hyperparathyroidism and hypercalcaemia, weight gain, and teratogenicity (Ebstein anomaly).\n\n**Acute dystonia**: within hours to days of starting or increasing an antipsychotic (or metoclopramide), especially in young men: oculogyric crisis, torticollis, tongue protrusion, trismus, laryngospasm (rare, dangerous).\n\n**Clozapine emergencies**:\n\n- **Agranulocytosis / neutropenia**: fever, sore throat. Mandatory FBC monitoring: weekly for the first 18 weeks, then monthly, through a registered monitoring program.\n- **Myocarditis**: mostly in the **first 4 to 8 weeks**: fever, tachycardia, chest pain, dyspnoea, with raised troponin and CRP. Baseline and weekly troponin and CRP during initiation. Stop clozapine if confirmed.\n- **Constipation and ileus** (can be fatal), seizures (dose-related), hypersalivation, metabolic syndrome.\n- Smoking cessation raises clozapine levels (smoking induces CYP1A2), and infection or inflammation can also raise levels, leading to toxicity."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Telling them apart at the bedside",
+          "body": "- **Rigidity with slow onset over days, very high CK, on an antipsychotic**: NMS.\n- **Clonus and hyperreflexia within hours of adding tramadol to an SSRI**: serotonin syndrome.\n- **Hot, dry, flushed, delirious, retention**: anticholinergic.\n- **Tremor, ataxia, vomiting in a patient on lithium started on an ACE inhibitor or with gastroenteritis**: lithium toxicity.\n- Also consider: sepsis, heat stroke, malignant hyperthermia (during anaesthesia), stimulant toxicity, meningitis/encephalitis, and alcohol or benzodiazepine withdrawal."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**NMS**: stop the antipsychotic, admit (often ICU), active cooling, IV fluids (rhabdomyolysis risk), benzodiazepines for agitation and rigidity, monitor CK and renal function. In severe cases, **bromocriptine** or **dantrolene** under specialist/toxicology advice. Wait at least two weeks after recovery before cautiously restarting a lower-potency antipsychotic.\n\n**Serotonin syndrome**: stop serotonergic drugs, supportive care, IV fluids, **benzodiazepines** for agitation and muscle activity, cooling. **Cyproheptadine** (a 5-HT2A antagonist, oral) in moderate cases. Severe hyperthermia (above about 41 °C) needs ICU for **sedation, paralysis and intubation**; antipyretics are ineffective because the heat is from muscle activity. Most cases resolve within 24 hours.\n\n**Lithium toxicity**: stop lithium and interacting drugs, **IV normal saline** to restore volume and renal clearance, monitor levels, electrolytes, renal function and ECG. **Haemodialysis** for severe toxicity (neurological features, renal failure or very high levels), guided by toxicology (Poisons Information Centre **13 11 26**). **Activated charcoal does not bind lithium**; whole bowel irrigation may be considered for large ingestions of slow-release tablets.\n\n**Acute dystonia**: **benztropine** IM or IV (an anticholinergic), with rapid relief; then an oral anticholinergic for a few days and review the antipsychotic dose. Airway support for laryngeal dystonia.\n\n**Clozapine**: fever or sore throat means an **urgent FBC**; stop clozapine if neutrophils fall below program thresholds and seek haematology advice. Suspected myocarditis: stop clozapine, troponin, CRP, ECG, echocardiogram and cardiology review. Treat constipation proactively with laxatives."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- The discriminating sign between NMS and serotonin syndrome is **rigidity (NMS) versus clonus/hyperreflexia (serotonin)**, plus **onset over days versus hours**.\n- Lithium toxicity after starting an **ACE inhibitor, thiazide or NSAID**, or during gastroenteritis or a heatwave.\n- Lithium level must be taken **12 hours post dose**.\n- Clozapine and fever or sore throat: **FBC now**. Clozapine and chest pain in week 3: **myocarditis**.\n- A young man given haloperidol or metoclopramide develops neck twisting and eyes rolling up: **acute dystonia, give benztropine**."
+        }
+      ],
+      "keyPoints": [
+        "NMS: antipsychotic, onset over days, lead-pipe rigidity, hyperthermia, autonomic instability, very high CK.",
+        "Serotonin syndrome: serotonergic combination, onset in hours, clonus, hyperreflexia, diarrhoea, mydriasis.",
+        "Treat both by stopping the drug, cooling, fluids and benzodiazepines; bromocriptine or dantrolene for severe NMS, cyproheptadine for serotonin syndrome.",
+        "Lithium: narrow therapeutic index, level 12 hours post dose; toxicity precipitated by dehydration, ACE inhibitors, ARBs, thiazides and NSAIDs.",
+        "Severe lithium toxicity needs IV saline and possibly haemodialysis; charcoal does not bind lithium.",
+        "Acute dystonia responds quickly to benztropine.",
+        "Clozapine: fever or sore throat means an urgent FBC; early chest pain or tachycardia suggests myocarditis."
+      ],
+      "redFlags": [
+        "Hyperthermia above 40 °C with rigidity or clonus",
+        "Very high CK or dark urine (rhabdomyolysis)",
+        "Confusion, seizures or ataxia in a patient on lithium",
+        "Fever or sore throat on clozapine",
+        "Chest pain, tachycardia or dyspnoea in early clozapine treatment",
+        "Stridor during acute dystonia (laryngeal dystonia)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Clozapine monitoring",
+          "india": "Monitoring schedules may be less rigorously enforced in practice.",
+          "australia": "Registered monitoring program: FBC weekly for 18 weeks then monthly, plus troponin and CRP during initiation."
+        },
+        {
+          "aspect": "Poisoning advice",
+          "india": "Contact local poison centre where available.",
+          "australia": "Poisons Information Centre 13 11 26 (24 hours) and clinical toxicology services guide management."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Key examination sign distinguishing serotonin syndrome from NMS?",
+          "back": "Clonus and hyperreflexia (serotonin syndrome) versus lead-pipe rigidity with reduced reflexes (NMS)."
+        },
+        {
+          "front": "When should a lithium level be taken?",
+          "back": "12 hours after the last dose."
+        },
+        {
+          "front": "Name four drug classes that raise lithium levels.",
+          "back": "ACE inhibitors, ARBs, thiazide diuretics, NSAIDs."
+        },
+        {
+          "front": "Treatment for acute dystonia?",
+          "back": "Benztropine IM or IV."
+        },
+        {
+          "front": "When does clozapine myocarditis usually occur?",
+          "back": "In the first 4 to 8 weeks of treatment."
+        },
+        {
+          "front": "Does activated charcoal bind lithium?",
+          "back": "No. Use IV fluids and consider haemodialysis for severe toxicity."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "psych-emergencies--drug-emergencies--q1",
+          "discipline": "mental-health",
+          "topic": "psych-emergencies",
+          "difficulty": "core",
+          "stem": "A 38-year-old woman taking sertraline for depression is prescribed tramadol for back pain by a locum. Twelve hours later she presents to a Perth emergency department agitated and sweating with diarrhoea. Temperature 38.6 °C, HR 124 bpm. Pupils are dilated, reflexes are brisk in the lower limbs and there is sustained ankle clonus.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Neuroleptic malignant syndrome",
+            "Anticholinergic toxicity",
+            "Serotonin syndrome",
+            "Sepsis",
+            "Malignant hyperthermia"
+          ],
+          "answer": 2,
+          "explanation": "**Serotonin syndrome** fits: a serotonergic combination (**sertraline plus tramadol**), **rapid onset within hours**, autonomic features (hyperthermia, tachycardia, sweating, diarrhoea, mydriasis) and neuromuscular excitation with **clonus and lower-limb hyperreflexia**. Under the Hunter criteria, inducible clonus with agitation, sweating or hyperthermia is diagnostic in a patient on a serotonergic drug.\n\nManagement: stop both drugs, IV fluids, benzodiazepines, cooling, and consider cyproheptadine. NMS develops over days with rigidity and reduced reflexes. Anticholinergic toxicity causes dry, flushed skin and reduced bowel sounds. Malignant hyperthermia occurs with volatile anaesthetics or suxamethonium.",
+          "whyWrong": [
+            "NMS develops over days in patients on antipsychotics and causes rigidity with reduced reflexes, not clonus.",
+            "Anticholinergic toxicity causes hot, dry skin and reduced bowel activity, not sweating and diarrhoea.",
+            "",
+            "Sepsis does not explain clonus and hyperreflexia after a serotonergic combination.",
+            "Malignant hyperthermia is triggered by volatile anaesthetics or suxamethonium."
+          ],
+          "tags": [
+            "serotonin syndrome",
+            "tramadol",
+            "ssri"
+          ]
+        },
+        {
+          "id": "psych-emergencies--drug-emergencies--q2",
+          "discipline": "mental-health",
+          "topic": "psych-emergencies",
+          "difficulty": "exam",
+          "stem": "A 58-year-old man with bipolar disorder has taken lithium for ten years with stable levels. Three weeks ago his GP started ramipril and hydrochlorothiazide for hypertension. He presents to a Canberra hospital with vomiting, a coarse tremor, unsteady gait and slurred speech. Serum lithium 2.4 mmol/L, creatinine 160 µmol/L (baseline 90).\n\nWhat is the most appropriate management?",
+          "options": [
+            "Activated charcoal and discharge when the level falls",
+            "Reduce the lithium dose and repeat the level in one week",
+            "Give IV frusemide to promote lithium excretion",
+            "Start sodium valproate and stop lithium",
+            "Stop lithium and the antihypertensives, give IV normal saline and discuss haemodialysis with toxicology"
+          ],
+          "answer": 4,
+          "explanation": "This is **lithium toxicity** precipitated by an **ACE inhibitor and a thiazide**, which reduce renal lithium clearance, with acute kidney injury making it worse. He has neurological features (coarse tremor, ataxia, dysarthria), a level of 2.4 mmol/L and renal impairment.\n\nManagement: **stop lithium and the interacting drugs**, give **IV normal saline** to restore volume and lithium clearance, monitor levels, electrolytes, renal function and ECG, and **discuss haemodialysis** with a toxicologist, since neurological toxicity with impaired renal function is an indication. Charcoal does not bind lithium. Diuretics worsen toxicity. Mood stabiliser choice is reconsidered once he recovers.",
+          "whyWrong": [
+            "Activated charcoal does not bind lithium, and he is significantly unwell.",
+            "He has neurological toxicity; lithium must be stopped and he needs urgent treatment.",
+            "Diuretics cause volume depletion and increase lithium reabsorption, worsening toxicity.",
+            "Changing mood stabiliser is not the urgent priority and does not treat the toxicity.",
+            ""
+          ],
+          "ausPearl": "Call the Poisons Information Centre (13 11 26) for toxicology advice in Australia.",
+          "tags": [
+            "lithium toxicity",
+            "drug interaction",
+            "haemodialysis"
+          ]
+        },
+        {
+          "id": "psych-emergencies--drug-emergencies--q3",
+          "discipline": "mental-health",
+          "topic": "psych-emergencies",
+          "difficulty": "core",
+          "stem": "A 32-year-old man with schizophrenia was started on haloperidol in a Melbourne psychiatric unit, with the dose increased quickly over five days because of agitation. He is now confused and mute. Temperature 39.8 °C, HR 130 bpm, BP labile. He has generalised lead-pipe rigidity with reduced reflexes. CK 18,000 U/L, WCC 16 x 10^9/L.\n\nWhich is the most appropriate immediate management?",
+          "options": [
+            "Stop haloperidol, transfer for medical care with cooling, IV fluids and benzodiazepines",
+            "Increase haloperidol to control agitation",
+            "Give cyproheptadine orally",
+            "Give IM benztropine and continue haloperidol",
+            "Switch to IM olanzapine"
+          ],
+          "answer": 0,
+          "explanation": "This is **neuroleptic malignant syndrome**: an antipsychotic with a **rapid dose escalation**, onset over **days**, hyperthermia, **lead-pipe rigidity**, altered consciousness, autonomic instability, and **very high CK** with leucocytosis.\n\nManagement: **stop all antipsychotics**, transfer to a medical setting (often ICU), active **cooling**, **IV fluids** to protect the kidneys from rhabdomyolysis, **benzodiazepines**, and monitoring of CK, electrolytes and renal function. Bromocriptine or dantrolene may be used in severe cases on specialist advice. Any further antipsychotic, including olanzapine, will worsen it. Cyproheptadine treats serotonin syndrome, and benztropine treats dystonia, not NMS.",
+          "whyWrong": [
+            "",
+            "More antipsychotic will worsen NMS.",
+            "Cyproheptadine is for serotonin syndrome, which causes clonus rather than rigidity.",
+            "Benztropine treats acute dystonia; continuing haloperidol is dangerous.",
+            "Any antipsychotic, including atypicals, can worsen NMS."
+          ],
+          "tags": [
+            "neuroleptic malignant syndrome",
+            "antipsychotic",
+            "rhabdomyolysis"
+          ]
+        },
+        {
+          "id": "psych-emergencies--drug-emergencies--q4",
+          "discipline": "mental-health",
+          "topic": "psych-emergencies",
+          "difficulty": "foundation",
+          "stem": "A 27-year-old man with treatment-resistant schizophrenia started clozapine five weeks ago. He presents to his GP in Hobart with fever, sore throat and malaise for one day.\n\nWhat is the most important immediate investigation?",
+          "options": [
+            "Throat swab",
+            "Full blood count with differential",
+            "Serum clozapine level",
+            "Chest X-ray",
+            "Monospot test"
+          ],
+          "answer": 1,
+          "explanation": "Fever or sore throat on clozapine must be treated as **possible agranulocytosis** until proven otherwise, so the key test is an **urgent full blood count with neutrophil count**. Clozapine causes neutropenia and agranulocytosis, most commonly in the first 18 weeks, which is why FBC monitoring is mandatory (weekly for 18 weeks, then monthly) through a registered program.\n\nIf the neutrophil count is below program thresholds, stop clozapine, treat as neutropenic sepsis if febrile, and involve haematology and the treating psychiatrist. At five weeks, also consider **myocarditis** (tachycardia, chest pain, raised troponin and CRP), which occurs mostly in the first 4 to 8 weeks.",
+          "whyWrong": [
+            "A throat swab may be done but does not identify the life-threatening risk of agranulocytosis.",
+            "",
+            "Clozapine levels help with toxicity but do not assess neutropenia.",
+            "A chest X-ray is not the priority for sore throat and fever on clozapine.",
+            "Infectious mononucleosis is possible but agranulocytosis must be excluded first."
+          ],
+          "tags": [
+            "clozapine",
+            "agranulocytosis",
+            "neutropenia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psych-emergencies--delirium-medical-mimics",
+      "title": "Delirium and medical mimics of psychiatric illness",
+      "minutes": 16,
+      "objectives": [
+        "Distinguish delirium from primary psychosis and mania in the emergency setting",
+        "Order a targeted screen for organic causes of new psychiatric symptoms",
+        "Recognise alcohol withdrawal and Wernicke encephalopathy and treat them",
+        "Identify when a presentation should not be labelled psychiatric"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The danger of the wrong label",
+          "body": "A patient with a psychiatric label is at risk of **diagnostic overshadowing**: their new symptoms are put down to mental illness and a medical emergency is missed. People with serious mental illness in Australia die, on average, well over a decade earlier than the general population, mostly from physical illness. Conversely, **delirium looks like psychosis**: agitation, hallucinations, paranoia, disorganised speech. Delirium is a medical emergency with high mortality.\n\nThe AMC repeatedly tests the rule: **new confusion or new psychiatric symptoms, especially over 40 or with no past history, need a medical work-up.**"
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "What causes organic psychiatric presentations",
+          "body": "- **Delirium**: acute brain dysfunction from systemic illness (infection, hypoxia, metabolic derangement), drugs (anticholinergics, opioids, benzodiazepines, steroids), withdrawal, or intracranial pathology. The core deficit is **inattention** from widespread disruption of cortical and subcortical networks, with cholinergic deficiency and dopamine excess.\n- **Psychosis or mania from medical causes**: encephalitis (including **autoimmune NMDA-receptor encephalitis** in young women), temporal lobe epilepsy, brain tumour, stroke, head injury, HIV, syphilis, thyroid disease, Cushing's, lupus, steroids, levodopa, stimulants and cannabis.\n- **Alcohol withdrawal**: chronic alcohol enhances GABA and inhibits NMDA; stopping produces rebound excitation. Withdrawal starts 6 to 24 hours after the last drink; seizures at 12 to 48 hours; **delirium tremens** at about 48 to 72 hours.\n- **Wernicke encephalopathy**: **thiamine deficiency** in alcohol dependence, malnutrition, hyperemesis or after bariatric surgery. Glucose given without thiamine can precipitate it."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clues that it is organic",
+          "body": "| Feature | Delirium / organic | Primary psychiatric (e.g. schizophrenia, mania) |\n|---|---|---|\n| Onset | Hours to days | Usually weeks, often with a prodrome |\n| Consciousness and attention | **Impaired, fluctuating** | Clear |\n| Orientation | Often disoriented | Usually oriented |\n| Hallucinations | Often **visual** or tactile | Usually **auditory** |\n| Age / history | Older, first episode after 40, medical illness | Younger, past psychiatric history |\n| Physical signs | Fever, abnormal vitals, focal signs, asterixis, tremor | Usually normal |\n\n**Delirium subtypes**: hyperactive (agitated, easy to spot), **hypoactive** (quiet, drowsy, withdrawn, often missed and mistaken for depression), and mixed. Screening tools: **4AT** (a score of 4 or more suggests delirium) or **CAM** (acute onset and fluctuating course, plus inattention, plus disorganised thinking or altered level of consciousness).\n\n**Alcohol withdrawal**: tremor, sweating, anxiety, tachycardia, hypertension, nausea, insomnia; then seizures, visual hallucinations, and delirium tremens (confusion, agitation, fever, autonomic instability). Severity is scored with a tool such as the **Alcohol Withdrawal Scale (AWS)** or CIWA-Ar.\n\n**Wernicke encephalopathy**: the classic triad of **confusion, ophthalmoplegia (or nystagmus) and ataxia** is present in only a minority, so suspect it in anyone at risk with any one feature. Untreated, it progresses to **Korsakoff syndrome** (anterograde amnesia with confabulation), which is largely irreversible."
+        },
+        {
+          "kind": "investigations",
+          "heading": "The organic screen",
+          "body": "For new psychiatric symptoms or confusion, targeted by history:\n\n- Vital signs, **glucose**, SpO2, hydration, full neurological examination\n- FBC, **UEC, calcium**, LFTs, **TSH**, CRP, blood cultures if febrile\n- Urinalysis (but do not over-diagnose UTI from bacteriuria in older people)\n- Drug levels where relevant (lithium, anticonvulsants, paracetamol, alcohol), urine drug screen\n- ECG\n- **CT brain** if focal signs, head injury, anticoagulation, or no cause found\n- Lumbar puncture if meningitis or encephalitis is possible; EEG if non-convulsive seizures are suspected\n- B12, folate, syphilis and HIV serology in the right context; autoimmune encephalitis antibodies in young people with new psychosis plus seizures, dyskinesia, autonomic instability or reduced consciousness"
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Delirium**: treat the cause; stop or reduce offending drugs; ensure oxygenation, hydration, nutrition and bowel and bladder function; non-drug measures (reorientation, glasses and hearing aids, family presence, a quiet well-lit room, sleep hygiene, early mobilisation). Avoid physical restraint. Use a low-dose antipsychotic only when the patient is severely distressed or dangerous, for the shortest time. **Avoid benzodiazepines**, which worsen delirium, **except in alcohol or benzodiazepine withdrawal**. Avoid antipsychotics in Parkinson's disease and Lewy body dementia.\n\n**Alcohol withdrawal**: **benzodiazepines** (usually **diazepam**), either symptom-triggered using a withdrawal scale or a fixed reducing regimen, with care in liver disease (a shorter-acting agent such as oxazepam may be preferred) and respiratory disease. Fluids, electrolytes (magnesium, potassium, phosphate) and nutrition.\n\n**Thiamine**: all patients with alcohol dependence or malnutrition get thiamine. For suspected Wernicke encephalopathy, give **high-dose parenteral thiamine (IV or IM) for several days, before or with glucose**. Oral thiamine is poorly absorbed in alcohol dependence and is only used for prevention in low-risk patients.\n\n**Medical psychosis**: treat the cause; antipsychotics may be needed short term.\n\n**Prevention and follow-up**: delirium is often preventable. Multicomponent programs for at-risk older inpatients (orientation, sleep, mobility, hydration, vision and hearing aids, medication review) reduce incidence. The Australian Commission on Safety and Quality in Health Care's **Delirium Clinical Care Standard** expects screening of at-risk patients, identification and treatment of causes, and communication with the family and GP at discharge. Delirium can take weeks to resolve fully, is associated with long-term cognitive decline, and may unmask an underlying dementia, so arrange follow-up cognitive assessment rather than labelling the patient with dementia while they are delirious.\n\n**People with serious mental illness**: take new physical symptoms seriously, examine properly, and remember the high rates of cardiovascular disease, diabetes and smoking in this group, partly from antipsychotic metabolic effects."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Visual hallucinations, fluctuating attention, older age, new onset: **delirium**. Next step: look for the cause.\n- A quiet, withdrawn older inpatient who stops eating after surgery: think **hypoactive delirium**, not depression.\n- Day 2 to 3 after admission in a heavy drinker, confused, tremulous, febrile: **delirium tremens**; give benzodiazepines.\n- Confused, ataxic drinker with nystagmus: **IV thiamine before glucose**.\n- Young woman with new psychosis, then seizures and orofacial dyskinesia: **anti-NMDA receptor encephalitis**; check for ovarian teratoma."
+        }
+      ],
+      "keyPoints": [
+        "Delirium is acute, fluctuating inattention with a medical cause; it is a medical emergency.",
+        "Visual hallucinations and disorientation point to an organic cause; auditory hallucinations with clear consciousness point to primary psychosis.",
+        "Hypoactive delirium is common and often mistaken for depression.",
+        "New psychiatric symptoms after 40 or without prior history need an organic screen.",
+        "Alcohol withdrawal: seizures at 12 to 48 hours, delirium tremens at 48 to 72 hours; treat with benzodiazepines.",
+        "Wernicke encephalopathy: give parenteral thiamine before glucose; the full triad is often absent.",
+        "Avoid benzodiazepines in delirium except for alcohol or benzodiazepine withdrawal."
+      ],
+      "redFlags": [
+        "Fluctuating consciousness or inattention",
+        "Fever, meningism or focal neurological signs with new psychiatric symptoms",
+        "First-episode psychosis after age 40",
+        "Seizures, dyskinesia or autonomic instability with new psychosis",
+        "Ataxia, nystagmus or ophthalmoplegia in a drinker",
+        "Autonomic instability 2 to 3 days after stopping alcohol"
+      ],
+      "contrast": [
+        {
+          "aspect": "Delirium screening",
+          "india": "Diagnosed clinically without routine screening tools.",
+          "australia": "Routine screening in older inpatients with tools such as the 4AT, supported by the national Delirium Clinical Care Standard."
+        },
+        {
+          "aspect": "Thiamine in alcohol dependence",
+          "india": "Thiamine often given orally, sometimes after dextrose.",
+          "australia": "Parenteral thiamine for suspected Wernicke, given before or with glucose; routine prophylaxis for all at-risk patients."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Core feature of delirium?",
+          "back": "Acute onset, fluctuating course with inattention."
+        },
+        {
+          "front": "4AT score suggesting possible delirium?",
+          "back": "4 or more."
+        },
+        {
+          "front": "Classic triad of Wernicke encephalopathy?",
+          "back": "Confusion, ophthalmoplegia/nystagmus, ataxia (full triad often absent)."
+        },
+        {
+          "front": "Timing of delirium tremens after the last drink?",
+          "back": "About 48 to 72 hours."
+        },
+        {
+          "front": "Most commonly missed delirium subtype?",
+          "back": "Hypoactive delirium."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "psych-emergencies--delirium-medical-mimics--q1",
+          "discipline": "mental-health",
+          "topic": "psych-emergencies",
+          "difficulty": "core",
+          "stem": "A 78-year-old woman is referred to psychiatry from a Sydney surgical ward on day 3 after a hip fracture repair because she is \"seeing people in the room\" and is agitated at night. During the day she is drowsy and cannot say the months of the year backwards. She has no psychiatric history. She is taking oxycodone and has not opened her bowels since admission.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Late-onset schizophrenia",
+            "Psychotic depression",
+            "Alzheimer's disease",
+            "Delirium",
+            "Lewy body dementia"
+          ],
+          "answer": 3,
+          "explanation": "This is **delirium**: acute onset after surgery, **fluctuating** course (agitated at night, drowsy by day), **inattention** (cannot recite months backwards), and **visual hallucinations**, in an older patient with obvious precipitants: surgery, **opioids**, **constipation**, pain and possibly infection or urinary retention.\n\nManagement is to find and treat the causes (review opioids, treat constipation, check for retention, infection, electrolytes, hypoxia), use non-drug measures, and avoid benzodiazepines. Primary psychotic illness rarely begins at this age, and dementia develops gradually rather than over days. A 4AT would support the diagnosis.",
+          "whyWrong": [
+            "New psychosis at 78 with fluctuating attention after surgery is far more likely to be delirium.",
+            "There is no depressive history, and the acute fluctuating inattention points to delirium.",
+            "Alzheimer's disease develops over months to years, not days, and does not fluctuate like this.",
+            "",
+            "Lewy body dementia develops gradually; this acute post-operative picture is delirium."
+          ],
+          "tags": [
+            "delirium",
+            "post-operative",
+            "older adult"
+          ]
+        },
+        {
+          "id": "psych-emergencies--delirium-medical-mimics--q2",
+          "discipline": "mental-health",
+          "topic": "psych-emergencies",
+          "difficulty": "exam",
+          "stem": "A 49-year-old man with long-standing heavy alcohol use is brought to a Townsville emergency department confused and unsteady. He has horizontal nystagmus and a broad-based gait. Capillary glucose is 3.4 mmol/L.\n\nWhat is the most appropriate immediate management?",
+          "options": [
+            "IV glucose alone, then reassess",
+            "Oral thiamine and IV glucose",
+            "IV thiamine given before or with glucose",
+            "Oral diazepam and observe",
+            "CT brain before any treatment"
+          ],
+          "answer": 2,
+          "explanation": "Confusion, **ataxia** and **nystagmus** in a heavy drinker is **Wernicke encephalopathy** until proven otherwise. Give **high-dose parenteral thiamine** immediately, **before or together with glucose**, because glucose metabolism consumes thiamine and can precipitate or worsen Wernicke encephalopathy. He is also hypoglycaemic, so glucose must not be withheld: both are given together.\n\nOral thiamine is poorly absorbed in alcohol dependence and is inadequate for suspected Wernicke. Untreated, the condition progresses to Korsakoff syndrome. Benzodiazepines may be needed for withdrawal, and CT is reasonable if head injury is suspected, but neither should delay thiamine.",
+          "whyWrong": [
+            "Glucose without thiamine may precipitate or worsen Wernicke encephalopathy.",
+            "Oral thiamine is poorly absorbed and insufficient for suspected Wernicke.",
+            "",
+            "Diazepam does not treat thiamine deficiency or hypoglycaemia.",
+            "Imaging should not delay thiamine and glucose."
+          ],
+          "tags": [
+            "wernicke",
+            "thiamine",
+            "alcohol"
+          ]
+        },
+        {
+          "id": "psych-emergencies--delirium-medical-mimics--q3",
+          "discipline": "mental-health",
+          "topic": "psych-emergencies",
+          "difficulty": "foundation",
+          "stem": "A 56-year-old man who had surgery two days ago at a Brisbane hospital becomes agitated, sweaty and tremulous and says he can see insects on the walls. Temperature 38.2 °C, HR 122 bpm, BP 168/100 mmHg. His wife says he drinks about eight beers every day.\n\nWhich is the most appropriate treatment?",
+          "options": [
+            "Haloperidol",
+            "Risperidone",
+            "Physical restraint only",
+            "Naltrexone",
+            "Diazepam"
+          ],
+          "answer": 4,
+          "explanation": "This is **alcohol withdrawal delirium (delirium tremens)**: onset around **48 to 72 hours** after his last drink (he could not drink after admission), with confusion, visual (often tactile or insect) hallucinations, tremor, sweating, fever, tachycardia and hypertension.\n\nFirst-line treatment is a **benzodiazepine, usually diazepam**, titrated to symptoms using a withdrawal scale, plus **parenteral thiamine**, fluids, electrolyte correction (magnesium, potassium, phosphate) and a search for other causes such as infection. Antipsychotics lower the seizure threshold and do not treat withdrawal; they are adjuncts at most. Naltrexone is for relapse prevention after withdrawal, not acute management.",
+          "whyWrong": [
+            "Antipsychotics do not treat withdrawal and lower the seizure threshold; adjunct only.",
+            "Risperidone does not treat alcohol withdrawal.",
+            "Restraint without treating the withdrawal is dangerous and inappropriate.",
+            "Naltrexone is for relapse prevention and is not used in acute withdrawal.",
+            ""
+          ],
+          "tags": [
+            "alcohol withdrawal",
+            "delirium tremens",
+            "benzodiazepines"
+          ]
+        }
+      ]
+    }
+  ]
+}

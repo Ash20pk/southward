@@ -1,0 +1,732 @@
+{
+  "topic": "anxiety-disorders",
+  "intro": "Anxiety disorders are the most common mental health conditions in Australia, and most are managed in general practice. The AMC tests whether you can separate normal worry from a disorder, exclude medical and substance causes, choose CBT and SSRIs over benzodiazepines, and recognise the specific treatments for panic disorder, PTSD and OCD.",
+  "lessons": [
+    {
+      "id": "anxiety-disorders--gad-and-approach",
+      "title": "Approach to anxiety and generalised anxiety disorder",
+      "minutes": 15,
+      "objectives": [
+        "Diagnose generalised anxiety disorder and separate it from normal worry and other anxiety disorders",
+        "Exclude medical, medication and substance causes of anxiety",
+        "Deliver stepped care: psychoeducation, CBT (including online programs) and SSRIs",
+        "Explain why long-term benzodiazepines are avoided and how to use them safely if at all"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Anxiety in Australia",
+          "body": "About **1 in 6 Australians** has an anxiety disorder in any 12 months, making it the most common class of mental disorder. Women are affected about twice as often as men. Onset is usually in childhood, adolescence or early adulthood, and anxiety commonly co-exists with **depression** and **alcohol or substance use**, which people often use to self-medicate.\n\nAnxiety is a normal, protective response. It becomes a **disorder** when it is **excessive, persistent, out of proportion to the situation, and causes distress or impairment**. Most people are treated by GPs using stepped care, with psychologists via Better Access, free online CBT programs (**MindSpot**, **THIS WAY UP**) and the national **Head to Health** gateway."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why anxiety persists",
+          "body": "- **Biology:** heritability of roughly 30-40%; an overactive amygdala threat system with reduced prefrontal regulation; serotonin, noradrenaline and GABA systems are involved, which is why SSRIs and (short term) benzodiazepines help.\n- **Temperament:** behavioural inhibition in childhood.\n- **Learning:** anxious parenting, traumatic or frightening experiences.\n- **Maintaining cycle (the key to CBT):** a feared situation triggers anxious thoughts and physical symptoms; the person **avoids** or uses **safety behaviours** (reassurance-seeking, checking, carrying benzodiazepines); anxiety falls briefly, which reinforces avoidance, and the fear is never disconfirmed. CBT breaks this loop with cognitive restructuring and graded **exposure**.\n- In GAD, worry itself acts as a safety behaviour: people believe worrying prevents bad outcomes or helps them prepare (\"positive beliefs about worry\")."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Generalised anxiety disorder",
+          "body": "**DSM-5 GAD:** excessive anxiety and worry about **multiple everyday matters** (work, health, family, finances), on more days than not for **at least 6 months**, which the person finds **hard to control**, with **3 or more of**:\n- Restlessness or feeling on edge\n- Easy fatigue\n- Poor concentration or mind going blank\n- Irritability\n- **Muscle tension**\n- Sleep disturbance\n\nPatients often present with **physical symptoms**: headaches, neck and shoulder tension, palpitations, GI upset, poor sleep, and repeated reassurance-seeking about health. Ask about the content of worry, avoidance, impact, mood, alcohol and caffeine.\n\n**Screening and severity tools:** **GAD-7** (5 mild, 10 moderate, 15 severe) and the **K10**, both commonly used in Australian general practice."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Excluding medical and substance causes",
+          "body": "Before diagnosing a primary anxiety disorder, especially with a new onset in middle or older age, prominent physical symptoms or no psychological triggers, consider:\n\n| Category | Examples | Clue / test |\n|---|---|---|\n| Endocrine | **Hyperthyroidism**, hypoglycaemia, phaeochromocytoma (rare), hyperparathyroidism | Weight loss, tremor, heat intolerance; **TSH**, glucose, calcium |\n| Cardiorespiratory | **Arrhythmia** (SVT, AF), asthma, COPD, pulmonary embolism | ECG, examination, oxygen saturation |\n| Substances | **Caffeine**, energy drinks, nicotine, stimulants (methamphetamine, cocaine), cannabis | History, urine drug screen |\n| Withdrawal | **Alcohol**, benzodiazepines, opioids, nicotine | Timing relative to last use |\n| Medicines | Salbutamol, thyroxine excess, corticosteroids, decongestants (pseudoephedrine), SSRIs early in treatment | Medication review |\n| Other | Anaemia, menopause, delirium, early dementia | FBC, history |\n\nReasonable baseline tests where indicated: FBC, TSH, glucose, UEC and calcium, ECG if palpitations, and a careful substance history. Avoid over-investigating once medical causes are reasonably excluded, as repeated tests can reinforce health anxiety."
+        },
+        {
+          "kind": "management",
+          "heading": "Stepped care for GAD",
+          "body": "**1. Psychoeducation and self-help:** explain the anxiety cycle, reduce caffeine and alcohol, regular exercise, sleep hygiene, slow breathing and relaxation, structured problem solving, worry time.\n\n**2. Psychological therapy (first line): CBT.** Low-intensity options include free online CBT (MindSpot, THIS WAY UP) with or without clinician support; high-intensity options are individual CBT with a psychologist, funded under a GP **Mental Health Treatment Plan** (Better Access). Effects of CBT persist after treatment ends, unlike medication.\n\n**3. Medication (moderate to severe, or CBT not effective or not available):**\n- **SSRIs are first-line medication** (e.g. sertraline, escitalopram, paroxetine), or an **SNRI** (venlafaxine, duloxetine).\n- **Start low**, because early jitteriness can worsen anxiety for 1-2 weeks; response takes **4-6 weeks** or longer, and doses may need to be higher than for depression.\n- Continue for **at least 12 months** after response, then taper.\n\n**4. Benzodiazepines:** avoid for long-term treatment because of **tolerance, dependence, withdrawal (including seizures), cognitive impairment, falls and fractures in older people, and car accidents**, and they worsen outcomes of CBT by acting as a safety behaviour. If used at all, limit to short courses (days to 2-4 weeks) in a crisis, with a clear stop date. Alprazolam is **Schedule 8** in Australia and generally avoided. Many states have **real-time prescription monitoring** (e.g. SafeScript in Victoria) that must be checked for benzodiazepines; details vary by state.\n\n**5. Refer** to psychiatry for severe, treatment-resistant or complex cases.\n\n**Children and adolescents:** CBT first line (with parental involvement); SSRIs under specialist guidance.\n\n**Older adults:** late-onset anxiety is often secondary to depression, medical illness, medicines or early cognitive decline, so look harder for a cause. Prefer CBT and SSRIs (watch sodium), and actively deprescribe benzodiazepines because of falls.\n\n**Pregnancy and breastfeeding:** CBT first; if medication is needed, sertraline is commonly chosen after a risk-benefit discussion. Screen perinatal women for anxiety as well as depression (the EPDS includes anxiety items).\n\n**Follow-up:** repeat the GAD-7 or K10 to track response, review the Mental Health Treatment Plan, and plan relapse prevention before stopping medication."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- A worrier for years with muscle tension, poor sleep and irritability: **GAD**. The best first-line treatment option is **CBT**; the best first-line drug is an **SSRI**.\n- An option offering \"diazepam 5 mg three times daily ongoing\" is almost always wrong.\n- New anxiety with weight loss and tremor: check **TSH** before labelling.\n- A patient drinking 6 cups of coffee and 2 energy drinks a day: address caffeine first.\n- A patient on a newly started SSRI who feels more anxious in week 1: reassure, this usually settles; start low next time.\n- Screen for **depression, alcohol and substance use** in every anxious patient."
+        }
+      ],
+      "keyPoints": [
+        "GAD: excessive, hard-to-control worry about many things for at least 6 months with 3 or more physical/cognitive symptoms.",
+        "Exclude hyperthyroidism, arrhythmia, hypoglycaemia, caffeine, stimulants, withdrawal and medicines.",
+        "CBT is first line for most anxiety disorders; online CBT (MindSpot, THIS WAY UP) is a legitimate first step.",
+        "SSRIs are first-line medication; start low, expect 4-6 weeks to benefit, continue 12 months after response.",
+        "Avoid long-term benzodiazepines: dependence, falls, cognitive impairment, crashes; alprazolam is Schedule 8.",
+        "Always screen for co-existing depression, alcohol and substance use.",
+        "GAD-7 and K10 are the common measures in Australian general practice."
+      ],
+      "redFlags": [
+        "New-onset anxiety in later life with weight loss, tremor or palpitations (medical cause)",
+        "Suicidal ideation, especially with co-existing depression",
+        "Escalating alcohol or benzodiazepine use to manage anxiety",
+        "Anxiety with chest pain, hypoxia or tachyarrhythmia (do not label as anxiety until excluded)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Benzodiazepines",
+          "india": "Clonazepam, alprazolam and etizolam often prescribed long term for anxiety.",
+          "australia": "Short term only; alprazolam is Schedule 8, and real-time prescription monitoring applies in most states."
+        },
+        {
+          "aspect": "Access to CBT",
+          "india": "Limited psychologists, cost barrier; often medication only.",
+          "australia": "Free online CBT (MindSpot, THIS WAY UP), Head to Health, and Better Access psychology via a GP plan."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Minimum duration for GAD in DSM-5?",
+          "back": "6 months."
+        },
+        {
+          "front": "First-line psychological treatment for GAD?",
+          "back": "Cognitive behavioural therapy (including online CBT)."
+        },
+        {
+          "front": "First-line drug class for anxiety disorders?",
+          "back": "SSRIs (SNRIs are an alternative)."
+        },
+        {
+          "front": "Why start an SSRI at a low dose in anxiety?",
+          "back": "Early activation/jitteriness can transiently worsen anxiety in the first 1-2 weeks."
+        },
+        {
+          "front": "Schedule of alprazolam in Australia?",
+          "back": "Schedule 8 (controlled drug)."
+        },
+        {
+          "front": "Name two free Australian online CBT programs.",
+          "back": "MindSpot and THIS WAY UP."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "anxiety-disorders--gad-and-approach--q1",
+          "discipline": "mental-health",
+          "topic": "anxiety-disorders",
+          "difficulty": "foundation",
+          "stem": "A 38-year-old teacher tells her GP she has \"always been a worrier\", but for the past year she has worried constantly about her children's safety, her job and money, and cannot switch off. She has neck tension, poor sleep and irritability. She has no panic attacks and her mood is otherwise fine. TSH is normal. She drinks 1-2 coffees a day and rarely drinks alcohol. GAD-7 is 13.\n\nWhich one of the following is the most appropriate first-line treatment?",
+          "options": [
+            "Diazepam 5 mg three times daily",
+            "Propranolol 40 mg twice daily",
+            "Quetiapine 25 mg at night",
+            "Cognitive behavioural therapy",
+            "Zopiclone at night"
+          ],
+          "answer": 3,
+          "explanation": "She has **generalised anxiety disorder**: excessive, hard-to-control worry about multiple areas for more than 6 months, with muscle tension, poor sleep and irritability. TSH is normal and caffeine use is modest.\n\n**CBT is first line**, through a psychologist under a GP Mental Health Treatment Plan or an online program (MindSpot, THIS WAY UP). If symptoms are moderate to severe or CBT is not effective, an **SSRI** (or SNRI) is the first-line medication.\n\nBenzodiazepines, antipsychotics and hypnotics are not recommended as ongoing treatment because of dependence and adverse effects.",
+          "whyWrong": [
+            "Long-term benzodiazepines cause dependence, falls and cognitive impairment and are not recommended.",
+            "Beta-blockers reduce physical symptoms of performance anxiety but do not treat GAD.",
+            "Antipsychotics are not first line for GAD because of metabolic and other adverse effects.",
+            "",
+            "Hypnotics treat insomnia briefly and do not address the anxiety disorder."
+          ],
+          "ausPearl": "MindSpot and THIS WAY UP deliver free or low-cost evidence-based online CBT for anxiety across Australia.",
+          "tags": [
+            "gad",
+            "cbt",
+            "anxiety"
+          ]
+        },
+        {
+          "id": "anxiety-disorders--gad-and-approach--q2",
+          "discipline": "mental-health",
+          "topic": "anxiety-disorders",
+          "difficulty": "core",
+          "stem": "A 55-year-old man presents with 2 months of feeling anxious and \"wired\", poor sleep, palpitations and 5 kg weight loss despite a good appetite. He has no previous mental health history and no major stressors. HR 108 regular, fine tremor of the outstretched hands, warm moist skin.\n\nWhich one of the following is the most appropriate initial investigation?",
+          "options": [
+            "GAD-7 questionnaire",
+            "Thyroid function tests",
+            "Urinary metanephrines",
+            "CT brain",
+            "Holter monitor"
+          ],
+          "answer": 1,
+          "explanation": "New-onset anxiety in middle age **without a psychological precipitant**, with **weight loss despite good appetite, tachycardia, fine tremor and warm moist skin**, strongly suggests **hyperthyroidism** (e.g. Graves disease or toxic nodular goitre).\n\n**TSH (with free T4/T3)** is the key first test. Treating this as a primary anxiety disorder, or starting a benzodiazepine, would miss the diagnosis. Phaeochromocytoma is much rarer and causes paroxysmal rather than persistent symptoms. A Holter is for intermittent palpitations; this is a persistent sinus tachycardia.",
+          "whyWrong": [
+            "A symptom questionnaire does not identify a medical cause.",
+            "",
+            "Phaeochromocytoma is rare and usually paroxysmal; thyroid is far more likely.",
+            "Brain imaging is not indicated without neurological features.",
+            "His tachycardia is persistent and regular; the cause needs finding first."
+          ],
+          "tags": [
+            "hyperthyroidism",
+            "medical causes",
+            "anxiety"
+          ]
+        },
+        {
+          "id": "anxiety-disorders--gad-and-approach--q3",
+          "discipline": "mental-health",
+          "topic": "anxiety-disorders",
+          "difficulty": "exam",
+          "stem": "A 72-year-old woman has taken temazepam 10 mg every night for 15 years and oxazepam during the day \"for nerves\". She has had two falls in the past 6 months, one causing a wrist fracture. She wants to keep her tablets because she cannot sleep without them.\n\nWhich one of the following is the most appropriate management?",
+          "options": [
+            "Stop both benzodiazepines today",
+            "Continue both, as she has been stable for many years",
+            "Switch to zolpidem",
+            "Add melatonin and continue both",
+            "Negotiate a gradual, supervised benzodiazepine taper with CBT for insomnia and anxiety"
+          ],
+          "answer": 4,
+          "explanation": "Long-term benzodiazepines in older people cause **falls and fractures**, cognitive impairment, and daytime sedation; tolerance means they give little ongoing benefit for sleep. Her falls make deprescribing important.\n\n**Abrupt cessation** after years of use risks withdrawal: rebound anxiety and insomnia, and in severe cases seizures. The recommended approach is a **gradual, negotiated taper** (often converting to a single longer-acting agent such as diazepam and reducing by small steps over weeks to months), with **CBT for insomnia** and anxiety, and regular review.\n\nZ-drugs carry similar risks in older people.",
+          "whyWrong": [
+            "Abrupt withdrawal after long-term use risks seizures and severe rebound symptoms.",
+            "Two falls and a fracture mean continuing carries real harm.",
+            "Z-drugs carry similar falls and dependence risks.",
+            "Adding another drug without addressing benzodiazepines does not reduce her risk.",
+            ""
+          ],
+          "tags": [
+            "benzodiazepines",
+            "deprescribing",
+            "elderly"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anxiety-disorders--panic-and-phobias",
+      "title": "Panic disorder, agoraphobia and social anxiety",
+      "minutes": 15,
+      "objectives": [
+        "Recognise a panic attack and diagnose panic disorder with or without agoraphobia",
+        "Exclude medical causes of panic symptoms before labelling",
+        "Diagnose social anxiety disorder and specific phobias",
+        "Treat with CBT (including exposure) and SSRIs, and manage an acute attack"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Panic, agoraphobia and phobias",
+          "body": "A **panic attack** is an abrupt surge of intense fear peaking within **minutes**, with physical and cognitive symptoms. Panic attacks occur in many conditions (including other anxiety disorders, depression and drug use); they are not a diagnosis by themselves.\n\n**Panic disorder** is **recurrent, unexpected** panic attacks followed by **at least 1 month** of persistent worry about further attacks or their consequences (\"I'll have a heart attack\", \"I'll go mad\") and/or maladaptive behaviour change such as avoidance. Lifetime prevalence is around 5%; onset usually late teens to thirties.\n\n**Agoraphobia:** fear and avoidance of situations where escape or help might be difficult (public transport, open spaces, enclosed spaces, crowds or queues, being outside home alone), in 2 or more such situations, for 6 months or more. It may occur with or without panic disorder.\n\n**Social anxiety disorder:** marked fear of **scrutiny or negative evaluation** in social or performance situations, with avoidance, for 6 months or more. Common, early onset, often with alcohol misuse.\n\n**Specific phobia:** fear of a specific object or situation (spiders, heights, needles, flying), 6 months or more. Blood-injection-injury phobia uniquely causes a **vasovagal faint** (bradycardia and hypotension) rather than tachycardia."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why panic spirals",
+          "body": "Panic disorder is driven by **catastrophic misinterpretation of bodily sensations**. A normal sensation (palpitations after coffee, breathlessness on stairs) is read as a sign of danger, which triggers adrenaline release, which produces more sensations, confirming the fear: a rapid feedback loop. **Hyperventilation** lowers carbon dioxide, causing respiratory alkalosis and **perioral and fingertip tingling, lightheadedness and carpopedal spasm**, which feel alarming and feed the cycle.\n\nPeople then avoid places where attacks happened, which prevents learning that the sensations are harmless: the basis of **agoraphobia** and the rationale for **interoceptive exposure** in CBT."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "The panic attack and its presentations",
+          "body": "DSM-5 requires **4 or more** symptoms: palpitations, sweating, trembling, shortness of breath, choking sensation, **chest pain**, nausea, dizziness, chills or heat, **paraesthesiae**, derealisation or depersonalisation, fear of losing control, **fear of dying**.\n\nTypical presentation: a young adult arrives in the ED with chest tightness, breathlessness and tingling hands, convinced they are having a heart attack; symptoms peak within 10 minutes and settle within 30-60 minutes. Examination and ECG are normal. Many have had multiple ED visits before diagnosis.\n\nAsk about: frequency, situational triggers, anticipatory anxiety, avoidance, caffeine, alcohol and drugs, and co-existing depression."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Rule out mimics first",
+          "body": "The syllabus point to remember: **exclude medical causes (thyroid, arrhythmia, hypoglycaemia, substances) before labelling panic disorder.**\n\n- **ECG** (and rhythm monitoring if episodic palpitations): **SVT**, WPW, AF, long QT.\n- **Blood glucose** during symptoms (hypoglycaemia, especially in people with diabetes or on insulin).\n- **TSH** (hyperthyroidism).\n- **Substances**: caffeine, energy drinks, stimulants, cannabis; withdrawal from alcohol or benzodiazepines.\n- Consider **asthma**, **pulmonary embolism** (risk factors, hypoxia), **ACS** in older patients or those with risk factors.\n- Rare: phaeochromocytoma (paroxysmal hypertension, headache, sweating), temporal lobe epilepsy, carcinoid.\n\n**Hypoxia or tachycardia that persists after the attack settles is not panic.** A normal oxygen saturation and a normal ECG are reassuring; hyperventilation typically produces a low PaCO2 with **respiratory alkalosis** if a blood gas is done."
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment",
+          "body": "**Acute attack:** reassure, calm environment, slow breathing (paced breathing rather than a paper bag), explain the symptoms. Benzodiazepines are rarely needed and should not become a routine rescue.\n\n**Panic disorder / agoraphobia:**\n- **CBT is first line**: psychoeducation about the panic cycle, cognitive restructuring of catastrophic beliefs, **interoceptive exposure** (deliberately provoking harmless sensations such as spinning or breathing through a straw) and **graded in-vivo exposure** to avoided situations. Online programs (MindSpot, THIS WAY UP) have strong evidence.\n- **SSRIs** are first-line medication (start low, as early activation can trigger attacks); SNRIs (venlafaxine) are alternatives. Continue at least 12 months after response.\n- **Avoid long-term benzodiazepines**; they undermine exposure work and cause dependence.\n\n**Social anxiety disorder:** CBT (including exposure and video feedback) first line; **SSRIs** or venlafaxine for moderate to severe cases. For isolated **performance anxiety** (public speaking, exams, music), a **beta-blocker** such as propranolol taken before the event reduces tremor and palpitations (check for asthma).\n\n**Specific phobias:** **exposure therapy** (graded or intensive single-session) is highly effective; medication has little role. For needle phobia with fainting, teach **applied tension** (tensing large muscles to raise BP). Short-term benzodiazepine before an unavoidable procedure (e.g. MRI for claustrophobia) is acceptable.\n\n**Children:** school refusal often reflects separation anxiety or social anxiety; CBT with parental involvement and early return to school."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Telling the anxiety disorders apart",
+          "body": "| Disorder | What they fear | Clue |\n|---|---|---|\n| Panic disorder | The attacks and their consequences | Unexpected attacks, fear of dying or going mad |\n| Agoraphobia | Being trapped without help | Avoids transport, crowds, leaving home |\n| Social anxiety | Embarrassment, judgement | Avoids speaking, eating in public; blushing |\n| Specific phobia | A particular object or situation | Anxiety only with that trigger |\n| GAD | Many everyday things | Chronic worry, tension, no discrete attacks |\n| Illness anxiety | Having a serious disease | Reassurance does not help |"
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Young woman in ED with chest tightness, tingling hands, fear of dying, normal ECG and saturation: **panic attack**; next step is explanation and reassurance, then assess for panic disorder.\n- \"Before diagnosing panic disorder, which test?\" usually **ECG**, **glucose** or **TSH**, depending on clues.\n- Man who fears blushing and avoids work meetings: **social anxiety disorder**; CBT or SSRI.\n- Orchestra musician with a tremor before performances only: **propranolol** before performances.\n- Fainting at the sight of blood: blood-injection-injury phobia; teach applied tension.\n- Panic attacks starting in week 1 of an SSRI: early activation; lower the starting dose and reassure rather than abandon the drug.\n- A child refusing school with stomach aches on school mornings: separation or social anxiety; plan an early, graded return to school with CBT rather than a medical certificate for time off."
+        }
+      ],
+      "keyPoints": [
+        "Panic attack: sudden fear peaking within minutes with 4 or more physical/cognitive symptoms.",
+        "Panic disorder: recurrent unexpected attacks plus at least 1 month of worry or avoidance.",
+        "Exclude arrhythmia, hypoglycaemia, hyperthyroidism, asthma/PE and substances before labelling.",
+        "CBT with interoceptive and in-vivo exposure is first line; SSRIs are first-line medication.",
+        "Avoid benzodiazepines as routine rescue; they undermine exposure.",
+        "Social anxiety: fear of scrutiny; propranolol only for isolated performance anxiety.",
+        "Specific phobias respond to exposure; blood-injection-injury phobia causes fainting (applied tension)."
+      ],
+      "redFlags": [
+        "Persistent tachycardia, hypoxia or chest pain after the 'attack' should have settled",
+        "Palpitations with syncope or a pre-excitation pattern on ECG",
+        "Panic-like episodes with hypertension and headache (phaeochromocytoma)",
+        "First 'panic attack' in an older person with cardiovascular risk factors",
+        "Alcohol or benzodiazepine use escalating to control attacks"
+      ],
+      "contrast": [
+        {
+          "aspect": "Acute management in ED",
+          "india": "Often IV or oral benzodiazepines, and sometimes a paper bag for hyperventilation.",
+          "australia": "Reassurance and paced breathing after excluding mimics; benzodiazepines avoided as routine rescue."
+        },
+        {
+          "aspect": "Ongoing treatment",
+          "india": "SSRIs with clonazepam cover common and often continued.",
+          "australia": "CBT (often online) first line, SSRIs if needed; benzodiazepines short term only."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "How long must worry or avoidance last after attacks to diagnose panic disorder?",
+          "back": "At least 1 month."
+        },
+        {
+          "front": "Blood gas pattern during hyperventilation?",
+          "back": "Low PaCO2 with respiratory alkalosis."
+        },
+        {
+          "front": "First-line psychological therapy for panic disorder?",
+          "back": "CBT with interoceptive and graded in-vivo exposure."
+        },
+        {
+          "front": "Drug for isolated performance anxiety?",
+          "back": "Propranolol before the event (check for asthma)."
+        },
+        {
+          "front": "Technique for blood-injection-injury phobia with fainting?",
+          "back": "Applied tension (tensing large muscles to raise BP)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "anxiety-disorders--panic-and-phobias--q1",
+          "discipline": "mental-health",
+          "topic": "anxiety-disorders",
+          "difficulty": "foundation",
+          "stem": "A 24-year-old woman presents to the ED with sudden chest tightness, racing heart, breathlessness, tingling around her mouth and fingers, and a feeling that she is going to die. It started 15 minutes ago while shopping. She has had three similar episodes in 2 months and now avoids shopping centres. HR 112, BP 128/78, SpO2 99% on room air. ECG shows sinus tachycardia only. Glucose 5.4 mmol/L.\n\nWhich one of the following is the most likely diagnosis?",
+          "options": [
+            "Pulmonary embolism",
+            "Supraventricular tachycardia",
+            "Panic disorder",
+            "Generalised anxiety disorder",
+            "Acute coronary syndrome"
+          ],
+          "answer": 2,
+          "explanation": "Recurrent **unexpected surges of intense fear** with palpitations, breathlessness, **perioral and fingertip paraesthesiae** (hyperventilation) and **fear of dying**, peaking within minutes, plus **avoidance** of places where attacks occurred, point to **panic disorder** (possibly with agoraphobia).\n\nNormal oxygen saturation, sinus rhythm on ECG and normal glucose make the main mimics unlikely, but these checks are exactly what should be done first. Management: explanation, reassurance and paced breathing now, then CBT with exposure, and an SSRI if needed.",
+          "whyWrong": [
+            "Normal saturation, no risk factors and recurrent stereotyped episodes argue against PE.",
+            "The ECG shows sinus tachycardia, not a re-entrant rhythm.",
+            "",
+            "GAD is chronic worry without discrete attacks.",
+            "A young woman with normal ECG and recurrent stereotyped attacks is unlikely to have ACS."
+          ],
+          "tags": [
+            "panic disorder",
+            "emergency",
+            "anxiety"
+          ]
+        },
+        {
+          "id": "anxiety-disorders--panic-and-phobias--q2",
+          "discipline": "mental-health",
+          "topic": "anxiety-disorders",
+          "difficulty": "core",
+          "stem": "A 29-year-old man has panic disorder with agoraphobia. He has stopped catching the train to work. He takes alprazolam from a friend \"when I feel an attack coming\". He wants treatment and is motivated.\n\nWhich one of the following is the most appropriate long-term management?",
+          "options": [
+            "Prescribe alprazolam 0.5 mg as needed",
+            "Clonazepam 0.5 mg twice daily",
+            "CBT including graded exposure, with an SSRI if needed, and a plan to stop alprazolam",
+            "Propranolol 40 mg before catching the train",
+            "Quetiapine 50 mg twice daily"
+          ],
+          "answer": 2,
+          "explanation": "**CBT** with psychoeducation, interoceptive exposure and **graded exposure** to the train is the first-line treatment for panic disorder with agoraphobia; an **SSRI** can be added. Benefits last after therapy ends.\n\n**Benzodiazepines** used as a rescue act as a **safety behaviour**, preventing him from learning that attacks pass harmlessly, and cause dependence. Alprazolam is **Schedule 8** in Australia and particularly prone to misuse; using a friend's supply is also illegal. Plan to stop it (tapering if he has been using regularly).",
+          "whyWrong": [
+            "Alprazolam is Schedule 8, highly dependence-forming, and undermines exposure therapy.",
+            "Regular benzodiazepines cause dependence and are not first line.",
+            "",
+            "Beta-blockers help performance anxiety tremor, not panic disorder.",
+            "Antipsychotics are not recommended for panic disorder."
+          ],
+          "ausPearl": "Alprazolam has been Schedule 8 in Australia since 2014; most states require real-time prescription monitoring checks before prescribing.",
+          "tags": [
+            "panic disorder",
+            "benzodiazepines",
+            "cbt"
+          ]
+        },
+        {
+          "id": "anxiety-disorders--panic-and-phobias--q3",
+          "discipline": "mental-health",
+          "topic": "anxiety-disorders",
+          "difficulty": "exam",
+          "stem": "A 32-year-old accountant is due to be promoted to a role requiring weekly presentations to the board. For as long as he can remember he has avoided speaking up in meetings, eating in front of colleagues and parties, fearing he will blush and be judged as incompetent. He drinks 4-5 beers before social events \"to cope\". He has no panic attacks outside these situations.\n\nWhich one of the following is the most appropriate management?",
+          "options": [
+            "Propranolol before board meetings only",
+            "CBT for social anxiety disorder, address alcohol use, and consider an SSRI",
+            "Diazepam before social events",
+            "Reassure him that this is normal shyness",
+            "Refer for assertiveness training only"
+          ],
+          "answer": 1,
+          "explanation": "A long-standing fear of **scrutiny and negative evaluation** across many social situations, with avoidance and impairment, is **generalised social anxiety disorder**. His drinking before events is a common form of **self-medication** and a risk for alcohol use disorder.\n\nFirst-line treatment is **CBT** (cognitive restructuring, exposure, dropping safety behaviours), plus addressing alcohol. An **SSRI** is effective for moderate to severe social anxiety. **Propranolol** only helps isolated **performance** anxiety with physical symptoms and does not treat the generalised disorder.",
+          "whyWrong": [
+            "Propranolol helps isolated performance anxiety but not generalised social anxiety across many situations.",
+            "",
+            "Benzodiazepines add dependence risk, especially combined with alcohol.",
+            "His avoidance and impairment go beyond normal shyness.",
+            "Skills training alone does not treat the anxiety disorder or alcohol use."
+          ],
+          "tags": [
+            "social anxiety",
+            "alcohol",
+            "cbt"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anxiety-disorders--ptsd-and-trauma",
+      "title": "PTSD and trauma-related disorders",
+      "minutes": 15,
+      "objectives": [
+        "Diagnose PTSD using the four symptom clusters and distinguish it from acute stress disorder and adjustment disorder",
+        "Identify high-risk groups in Australia, including refugees, veterans, first responders and survivors of family violence",
+        "Offer trauma-focused psychological therapy as first line and use medication appropriately",
+        "Avoid harmful interventions such as benzodiazepines and single-session debriefing"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Trauma in Australia",
+          "body": "Most people experience at least one potentially traumatic event in their lives, and most recover. About 1 in 10 Australians will have **post-traumatic stress disorder (PTSD)** at some point. Risk is higher after **interpersonal violence** (sexual assault, family and domestic violence, childhood abuse) than after accidents or disasters.\n\nHigh-risk groups the AMC may describe: **refugees and asylum seekers**, **veterans** and serving defence personnel, **police, paramedics and firefighters**, survivors of **bushfires and floods**, victims of family violence, and Aboriginal and Torres Strait Islander people affected by intergenerational trauma. **Phoenix Australia** publishes the national PTSD treatment guidelines.\n\nVeterans can access free mental health care through the **Department of Veterans' Affairs** (Open Arms counselling), regardless of whether their condition relates to service."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why symptoms persist",
+          "body": "During trauma, an intense fear response lays down vivid sensory memories that are poorly integrated into ordinary autobiographical memory, so they return as **intrusions** that feel as if the event is happening now. The amygdala stays hyper-responsive and prefrontal regulation is reduced, producing **hyperarousal**. **Avoidance** of reminders gives short-term relief but prevents the memory being processed, and negative beliefs (\"I'm to blame\", \"the world is dangerous\") maintain distress. Trauma-focused therapy works by **processing the memory** and changing these beliefs.\n\nRisk factors: severity and interpersonal nature of trauma, previous trauma, prior mental illness, poor social support after the event, and ongoing stressors (such as insecure visa status in asylum seekers)."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features and diagnosis",
+          "body": "**DSM-5 PTSD:** exposure to actual or threatened death, serious injury or sexual violence (directly, witnessing, learning it happened to someone close, or repeated exposure to details as in first responders), then symptoms lasting **more than 1 month** causing distress or impairment, from **four clusters**:\n\n1. **Intrusions:** flashbacks, nightmares, intrusive memories, distress at reminders\n2. **Avoidance:** of thoughts, feelings, people or places linked to the trauma\n3. **Negative changes in cognition and mood:** blame, guilt, shame, detachment, inability to feel positive emotion, memory gaps\n4. **Arousal and reactivity:** hypervigilance, exaggerated startle, irritability or anger, poor sleep and concentration, reckless behaviour\n\n**Related diagnoses:**\n- **Acute stress disorder:** similar symptoms from **3 days to 1 month** after the trauma.\n- **Adjustment disorder:** emotional or behavioural symptoms within 3 months of any stressor (not necessarily traumatic), not meeting another disorder's criteria.\n- **Complex PTSD** (ICD-11): PTSD plus problems with emotion regulation, self-concept and relationships, usually after prolonged or repeated trauma such as childhood abuse.\n- **Delayed expression**: full criteria met 6 months or more after the event.\n\nAlways screen for **depression, suicidality, alcohol and substance use**, and chronic pain: they commonly co-exist and people may present with them rather than with trauma."
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment",
+          "body": "**Straight after trauma (first days to weeks):**\n- **Psychological first aid**: safety, calm, practical help, connection with supports, information. Watchful waiting with follow-up.\n- **Do not** offer routine single-session psychological **debriefing** (it does not prevent PTSD and may harm).\n- Avoid routine benzodiazepines, which may worsen longer-term outcomes.\n- For acute stress disorder or early PTSD symptoms that persist after about 2 weeks, offer trauma-focused CBT.\n\n**PTSD:**\n- **First line: trauma-focused psychological therapy**: trauma-focused CBT (including cognitive processing therapy and prolonged exposure) or **EMDR** (eye movement desensitisation and reprocessing). These are more effective than medication.\n- **Medication** when therapy is unavailable, declined or insufficient, or for co-existing depression: **SSRIs** (sertraline, paroxetine, fluoxetine) or **venlafaxine**.\n- **Benzodiazepines are not recommended.** Evidence for **prazosin** for trauma nightmares is mixed; it is used selectively by specialists.\n- Treat co-existing depression, substance use (often concurrently rather than waiting for abstinence) and sleep problems.\n- Address **safety** first where trauma is ongoing, for example family violence: risk assessment and safety planning.\n\n**Culturally safe care for refugees:** use **professional interpreters** (the free **Translating and Interpreting Service, TIS National**, not family members), and refer to specialist torture and trauma services (the FASSTT network, e.g. STARTTS in NSW, Foundation House in Victoria). Consider physical health screening and practical needs (housing, visa stress)."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Look-alikes",
+          "body": "| Condition | Distinguishing point |\n|---|---|\n| Acute stress disorder | Duration 3 days to 1 month |\n| Adjustment disorder | Any stressor, not full PTSD criteria, within 3 months |\n| Major depression | Pervasive low mood without re-experiencing; often co-exists |\n| Traumatic brain injury | Head injury, cognitive deficits, headaches; can co-exist with PTSD after accidents or combat |\n| Psychosis | Flashbacks are recognised as memories; hallucinations and delusions are not trauma-linked |\n| Substance use | May mask or mimic hyperarousal and sleep problems |"
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Nightmares, flashbacks, avoidance and hypervigilance **more than a month** after trauma = PTSD; **less than a month** = acute stress disorder.\n- Best first-line treatment: **trauma-focused CBT or EMDR**, not an SSRI and never a benzodiazepine.\n- Debriefing all staff after a critical incident \"to prevent PTSD\" is the wrong answer; psychological first aid and follow-up is right.\n- Refugee woman with nightmares and pain: use a **professional interpreter** (TIS National), screen for trauma, refer to a torture and trauma service.\n- Veteran with PTSD and heavy drinking: treat both; Open Arms is free.\n- A child after a disaster (bushfire, flood): most recover with support from caregivers and school routine; offer psychological first aid and monitor, and refer for trauma-focused CBT if symptoms persist or impair function.\n- Nightmares are the most troublesome symptom and the question offers prazosin: remember evidence is mixed; trauma-focused therapy remains first line.\n- PTSD with ongoing family violence: safety assessment and planning come before trauma processing; ask about children in the home."
+        }
+      ],
+      "keyPoints": [
+        "PTSD: trauma exposure plus intrusions, avoidance, negative cognition/mood and hyperarousal for more than 1 month.",
+        "Acute stress disorder lasts 3 days to 1 month after the trauma.",
+        "Trauma-focused CBT or EMDR is first line; SSRIs or venlafaxine are second line or adjunctive.",
+        "Avoid benzodiazepines and single-session debriefing; use psychological first aid early.",
+        "High-risk groups: refugees, veterans, first responders, survivors of sexual and family violence.",
+        "Use professional interpreters (TIS National) and specialist torture and trauma services for refugees.",
+        "Screen for depression, suicide risk, alcohol and substance use."
+      ],
+      "redFlags": [
+        "Suicidal ideation, particularly in veterans and first responders",
+        "Ongoing danger such as family violence",
+        "Heavy alcohol or drug use to manage symptoms",
+        "Dissociation with self-harm",
+        "Possible traumatic brain injury after an accident or assault"
+      ],
+      "contrast": [
+        {
+          "aspect": "Recognition",
+          "india": "PTSD less often diagnosed; trauma symptoms may be framed as somatic complaints or 'tension'.",
+          "australia": "Actively screened, particularly in refugees, veterans and first responders; Phoenix Australia guidelines."
+        },
+        {
+          "aspect": "Interpreters",
+          "india": "Family members commonly interpret in multilingual consultations.",
+          "australia": "Professional interpreters are expected; TIS National is free for GPs and Medicare-funded consultations."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Duration of symptoms that separates acute stress disorder from PTSD?",
+          "back": "ASD: 3 days to 1 month. PTSD: more than 1 month."
+        },
+        {
+          "front": "First-line treatment for PTSD?",
+          "back": "Trauma-focused psychological therapy: trauma-focused CBT or EMDR."
+        },
+        {
+          "front": "First-line drug options for PTSD?",
+          "back": "SSRIs (sertraline, paroxetine, fluoxetine) or venlafaxine."
+        },
+        {
+          "front": "Why avoid single-session debriefing after trauma?",
+          "back": "It does not prevent PTSD and may increase symptoms."
+        },
+        {
+          "front": "Name the four PTSD symptom clusters.",
+          "back": "Intrusions, avoidance, negative cognitions and mood, arousal and reactivity."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "anxiety-disorders--ptsd-and-trauma--q1",
+          "discipline": "mental-health",
+          "topic": "anxiety-disorders",
+          "difficulty": "foundation",
+          "stem": "A 35-year-old paramedic sees her GP 4 months after attending a fatal crash involving children. She has nightmares most nights, relives the scene when she hears sirens, avoids driving past the site, feels detached from her family, and startles easily. She has taken leave from work. She is drinking 3-4 glasses of wine a night to sleep.\n\nWhich one of the following is the most appropriate first-line treatment?",
+          "options": [
+            "Temazepam at night",
+            "Trauma-focused cognitive behavioural therapy",
+            "Single-session psychological debriefing",
+            "Quetiapine at night",
+            "Advise more time off work and review in 3 months"
+          ],
+          "answer": 1,
+          "explanation": "She has **PTSD**: trauma exposure, **intrusions** (nightmares, flashbacks), **avoidance**, **negative mood** (detachment), and **hyperarousal** (startle), for more than a month, with impairment.\n\n**Trauma-focused psychological therapy** (trauma-focused CBT or EMDR) is first line per Phoenix Australia guidelines. Her alcohol use should also be addressed as part of care, and suicide risk assessed (first responders have elevated risk). An SSRI or venlafaxine is an option if therapy is not available or insufficient.\n\nBenzodiazepines, antipsychotics and debriefing are not recommended.",
+          "whyWrong": [
+            "Benzodiazepines are not recommended in PTSD and add to her alcohol-related risk.",
+            "",
+            "Debriefing is an early intervention that does not prevent PTSD, and she already has established PTSD.",
+            "Antipsychotics are not first line in PTSD.",
+            "Watchful waiting is inappropriate for established PTSD with impairment."
+          ],
+          "tags": [
+            "ptsd",
+            "first responders",
+            "trauma-focused cbt"
+          ]
+        },
+        {
+          "id": "anxiety-disorders--ptsd-and-trauma--q2",
+          "discipline": "mental-health",
+          "topic": "anxiety-disorders",
+          "difficulty": "core",
+          "stem": "A 20-year-old man is seen 10 days after being assaulted at a train station. Since then he has had intrusive memories, poor sleep, and feels \"numb and unreal\". He avoids the station and jumps at loud noises. He has no prior mental health history.\n\nWhich one of the following is the most likely diagnosis?",
+          "options": [
+            "Post-traumatic stress disorder",
+            "Adjustment disorder",
+            "Acute stress disorder",
+            "Panic disorder",
+            "Depersonalisation-derealisation disorder"
+          ],
+          "answer": 2,
+          "explanation": "He has trauma-related intrusions, dissociation (numbness, unreality), avoidance and arousal starting after the assault, but only **10 days** have passed. Symptoms between **3 days and 1 month** after a trauma meet criteria for **acute stress disorder**.\n\nPTSD cannot be diagnosed until symptoms have lasted **more than 1 month**. Many people with ASD recover, but it increases the risk of PTSD. Management is psychological first aid, practical support and follow-up, with **trauma-focused CBT** if symptoms persist; avoid routine benzodiazepines.",
+          "whyWrong": [
+            "PTSD requires symptoms for more than 1 month.",
+            "Adjustment disorder applies when full criteria for a specific trauma disorder are not met.",
+            "",
+            "There are no discrete unexpected panic attacks.",
+            "Dissociation here is part of an acute trauma response, not an isolated disorder."
+          ],
+          "tags": [
+            "acute stress disorder",
+            "trauma",
+            "diagnosis"
+          ]
+        },
+        {
+          "id": "anxiety-disorders--ptsd-and-trauma--q3",
+          "discipline": "mental-health",
+          "topic": "anxiety-disorders",
+          "difficulty": "exam",
+          "stem": "A 42-year-old woman who arrived in Australia as a refugee from Afghanistan 18 months ago attends her GP with her 14-year-old son, who usually interprets for her. She has headaches, poor sleep and body pain. The GP suspects she may have experienced trauma.\n\nWhich one of the following is the most appropriate next step?",
+          "options": [
+            "Continue the consultation with her son interpreting",
+            "Prescribe amitriptyline for headache and sleep",
+            "Refer for a CT brain",
+            "Book a longer appointment with a professional interpreter via TIS National to take a sensitive history",
+            "Refer directly to a psychiatrist without further assessment"
+          ],
+          "answer": 3,
+          "explanation": "Refugees have high rates of **PTSD and depression**, often presenting as **somatic symptoms** (pain, headache, poor sleep). Taking a trauma history requires privacy and accuracy, so a **professional interpreter** is essential. Using children as interpreters is inappropriate: it can harm the child, compromises confidentiality, and she may withhold information such as sexual violence.\n\n**TIS National** provides free interpreting for GPs. With a proper history, the GP can screen for trauma, depression and suicidality, and refer to a specialist **torture and trauma service** (FASSTT network) for trauma-focused therapy.",
+          "whyWrong": [
+            "Children should not interpret sensitive consultations; it risks harm and incomplete disclosure.",
+            "Treating symptoms without assessment may miss PTSD, depression or other causes.",
+            "There are no red flags for intracranial pathology yet; history comes first.",
+            "",
+            "Referral without a proper assessment risks misdirection; a GP with an interpreter can assess and coordinate care."
+          ],
+          "ausPearl": "TIS National provides free phone and on-site interpreters for GPs and specialists providing Medicare-rebated services.",
+          "tags": [
+            "refugee",
+            "interpreter",
+            "ptsd"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anxiety-disorders--ocd-and-related",
+      "title": "OCD and related disorders",
+      "minutes": 14,
+      "objectives": [
+        "Distinguish obsessions from compulsions and OCD from obsessive-compulsive personality disorder",
+        "Recognise related disorders: body dysmorphic disorder, hoarding, trichotillomania and skin picking",
+        "Treat OCD with exposure and response prevention and SSRIs at adequate doses and duration",
+        "Recognise when to refer, including clomipramine and augmentation"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "What OCD is",
+          "body": "**Obsessive-compulsive disorder** affects about 2-3% of people over a lifetime, starting typically in adolescence or early adulthood (earlier in males). It is often hidden for years because of shame. It causes major disability and frequently co-exists with **depression**, other anxiety disorders and **tic disorders** (including Tourette syndrome).\n\n- **Obsessions:** recurrent, intrusive, **unwanted** thoughts, images or urges that cause distress, which the person tries to suppress or neutralise. They are recognised as coming from the person's own mind (unlike thought insertion in psychosis). Common themes: contamination, harm (\"what if I stab my child\"), symmetry, forbidden sexual or religious thoughts.\n- **Compulsions:** repetitive behaviours (washing, checking, ordering) or mental acts (counting, praying, repeating words) done to reduce the anxiety from an obsession or according to rigid rules.\n\nDSM-5 requires that obsessions or compulsions are **time-consuming (more than 1 hour a day)** or cause significant distress or impairment. **Insight specifier**: good or fair, poor, or absent (delusional beliefs), which still counts as OCD rather than psychosis."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why the cycle persists",
+          "body": "Neurobiology involves the **cortico-striato-thalamo-cortical circuit** (orbitofrontal cortex, anterior cingulate, caudate) and serotonin, explaining why serotonergic drugs help, usually at higher doses than for depression. Genetic factors are significant.\n\nPsychologically, everyone has occasional intrusive thoughts. In OCD they are appraised as **dangerous or meaningful** (\"thinking it means I might do it\"), with an inflated sense of responsibility. The **compulsion reduces anxiety briefly**, which reinforces it, and the person never learns that anxiety falls on its own and that the feared outcome does not happen. **Exposure and response prevention (ERP)** breaks this: repeated exposure to the trigger **without performing the compulsion** until anxiety habituates.\n\nIn children, sudden-onset OCD or tics after streptococcal infection (PANDAS/PANS) has been proposed; this remains debated and is a specialist question."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Presentations and related disorders",
+          "body": "**How OCD may present in general practice:**\n- Red, cracked hands from excessive washing (dermatology referral)\n- Repeated checking making the person late for work\n- A new mother terrified she will harm her baby, avoiding bathing the baby (**perinatal OCD**; these thoughts are ego-dystonic and do not indicate risk, unlike psychotic thoughts)\n- Reassurance-seeking about health or sexuality\n\n**Related disorders (DSM-5 obsessive-compulsive and related disorders):**\n| Disorder | Core feature |\n|---|---|\n| **Body dysmorphic disorder** | Preoccupation with a perceived defect in appearance that is not observable or is slight; mirror checking, camouflaging, seeking cosmetic procedures. High suicide risk. |\n| **Hoarding disorder** | Persistent difficulty discarding possessions, leading to cluttered living spaces; fire and health risk; often older people. |\n| **Trichotillomania** | Recurrent hair pulling with hair loss. |\n| **Excoriation disorder** | Recurrent skin picking causing lesions. |\n\n**Obsessive-compulsive personality disorder (OCPD)** is different: a lifelong pattern of perfectionism, rigidity, orderliness and control, which the person sees as correct (**ego-syntonic**), without true obsessions and compulsions."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Telling OCD apart",
+          "body": "| Condition | Key difference |\n|---|---|\n| **OCPD** | Ego-syntonic traits; no intrusive obsessions |\n| **GAD** | Worries about real-life issues; no compulsions |\n| **Psychosis** | Thoughts experienced as inserted or externally caused; delusions without the sense of \"this is my own thought\" |\n| **Tic disorders** | Tics are preceded by a sensory urge, not an anxious thought; often co-exist |\n| **Autism** | Routines and restricted interests are enjoyed or calming, not driven by obsessions |\n| **Illness anxiety** | Fear of having a disease; may overlap with OCD checking |\n| **Eating disorders** | Food, weight and shape preoccupations |"
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment",
+          "body": "**First line: CBT with exposure and response prevention (ERP)**, delivered by a trained psychologist (Better Access via a GP Mental Health Treatment Plan) or online programs for milder cases. Family involvement matters, especially in children, because relatives are often drawn into reassurance and rituals (\"family accommodation\").\n\n**Medication:**\n- **SSRIs** are first-line drugs (e.g. fluoxetine, fluvoxamine, sertraline, escitalopram, paroxetine). OCD usually needs **higher doses** than depression, and **longer trials: 8-12 weeks** at an adequate dose before judging response.\n- Combine with ERP for moderate to severe OCD.\n- Continue for **at least 12 months** after response, often longer, because relapse is common.\n- **Clomipramine** (a serotonergic TCA) is effective but has more side effects and overdose toxicity; usually second line.\n- Refractory OCD: specialist augmentation with a low-dose antipsychotic (e.g. risperidone, aripiprazole), intensive programs; neurosurgical approaches in very rare cases.\n\n**Children and adolescents:** CBT with ERP first line; SSRIs (sertraline, fluoxetine, fluvoxamine) under specialist guidance for moderate to severe cases.\n\n**Body dysmorphic disorder:** CBT and SSRIs; cosmetic surgery rarely helps and often worsens preoccupation, so screen before cosmetic procedures. **Hoarding:** specialised CBT, with community services and council involvement if there is fire or health risk."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Distinguishing clue for OCD vs psychosis: the person recognises the thoughts as their own and usually as excessive.\n- OCD vs OCPD: distress and ego-dystonic thoughts vs lifelong, ego-syntonic perfectionism.\n- First-line treatment option: **ERP**. First-line drug: an **SSRI**, often at **higher dose** for **8-12 weeks** before judging.\n- A mother with intrusive thoughts of harming her baby that horrify her: **perinatal OCD**, low risk; do not confuse with postpartum psychosis.\n- A patient requesting a third rhinoplasty for a nose that looks normal: **body dysmorphic disorder**.\n- Chapped hands from washing 50 times a day: OCD contamination subtype.\n- A child with OCD whose parents repeatedly reassure or join in rituals: family accommodation maintains the illness; include the parents in ERP.\n- OCD with tics in a boy: consider Tourette syndrome; tic-related OCD may respond better to adding an antipsychotic under specialist care.\n- Hoarding in an older person living in squalor: assess capacity, cognition and safety, and involve community services rather than forced clean-outs alone, which rarely help."
+        }
+      ],
+      "keyPoints": [
+        "Obsessions are intrusive, unwanted thoughts; compulsions are behaviours or mental acts that neutralise them.",
+        "DSM-5: more than 1 hour a day or significant distress or impairment.",
+        "Insight is preserved in most; the person knows the thoughts are their own.",
+        "CBT with exposure and response prevention is first line.",
+        "SSRIs at higher doses for 8-12 weeks before judging; clomipramine second line.",
+        "Related disorders: body dysmorphic disorder, hoarding, trichotillomania, skin picking.",
+        "OCPD is ego-syntonic perfectionism without true obsessions or compulsions."
+      ],
+      "redFlags": [
+        "Suicidal ideation, particularly in body dysmorphic disorder",
+        "Severe hoarding creating fire or health hazards",
+        "Postnatal thoughts of harming the baby that the mother believes or wants to act on (psychosis, not OCD)",
+        "Food or fluid restriction driven by contamination fears"
+      ],
+      "contrast": [
+        {
+          "aspect": "Recognition",
+          "india": "OCD often presents late, sometimes framed as religious or cultural ritual.",
+          "australia": "Screened for in general practice and perinatal care; related disorders like BDD asked about before cosmetic procedures."
+        },
+        {
+          "aspect": "Treatment access",
+          "india": "SSRIs common; ERP availability limited outside major centres.",
+          "australia": "ERP via psychologists under Better Access, plus online CBT; SSRIs first-line drug."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "First-line psychological treatment for OCD?",
+          "back": "CBT with exposure and response prevention (ERP)."
+        },
+        {
+          "front": "How long an SSRI trial in OCD before judging response?",
+          "back": "8-12 weeks at an adequate (often higher) dose."
+        },
+        {
+          "front": "Second-line drug for OCD?",
+          "back": "Clomipramine."
+        },
+        {
+          "front": "Key difference between OCD and OCPD?",
+          "back": "OCD thoughts are ego-dystonic and intrusive; OCPD traits are ego-syntonic and lifelong."
+        },
+        {
+          "front": "DSM-5 time threshold that makes obsessions/compulsions clinically significant?",
+          "back": "More than 1 hour a day, or significant distress or impairment."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "anxiety-disorders--ocd-and-related--q1",
+          "discipline": "mental-health",
+          "topic": "anxiety-disorders",
+          "difficulty": "foundation",
+          "stem": "A 23-year-old man tells his GP he washes his hands up to 40 times a day and showers for an hour after touching door handles, because he cannot stop thinking he will catch and spread a disease. He knows this is excessive and feels embarrassed. His hands are red and cracked. He is often late for work.\n\nWhich one of the following is the most appropriate first-line treatment?",
+          "options": [
+            "Exposure and response prevention",
+            "Olanzapine",
+            "Diazepam as needed",
+            "Supportive counselling",
+            "Dermatology referral for hand dermatitis only"
+          ],
+          "answer": 0,
+          "explanation": "He has **OCD, contamination type**: intrusive fears of contamination (obsessions) with washing rituals (compulsions), taking well over an hour a day, with **good insight** and impairment.\n\nFirst-line treatment is **CBT with exposure and response prevention**: gradually touching feared objects and **not washing**, so that anxiety falls without the ritual. An **SSRI** is added for moderate to severe OCD or if ERP is not enough, often at higher doses for 8-12 weeks.\n\nAntipsychotics are only for specialist augmentation; benzodiazepines and non-specific counselling do not treat OCD. His hands need emollients, but that is not the main treatment.",
+          "whyWrong": [
+            "",
+            "Antipsychotics are only used as specialist augmentation in refractory OCD.",
+            "Benzodiazepines do not treat OCD and cause dependence.",
+            "Non-specific counselling is less effective than ERP.",
+            "Treating the dermatitis alone ignores the cause."
+          ],
+          "tags": [
+            "ocd",
+            "erp",
+            "contamination"
+          ]
+        },
+        {
+          "id": "anxiety-disorders--ocd-and-related--q2",
+          "discipline": "mental-health",
+          "topic": "anxiety-disorders",
+          "difficulty": "core",
+          "stem": "A 30-year-old woman with OCD has been taking sertraline for 4 weeks at a low starting dose with little improvement in her checking rituals. She is tolerating it well and attending ERP sessions. She is disappointed and wants to stop.\n\nWhich one of the following is the most appropriate advice?",
+          "options": [
+            "Stop sertraline and start clomipramine",
+            "Add risperidone now",
+            "Stop medication and continue ERP alone",
+            "Increase sertraline gradually towards a higher dose and allow 8-12 weeks before judging response",
+            "Switch to diazepam"
+          ],
+          "answer": 3,
+          "explanation": "In OCD, SSRIs usually need **higher doses** than in depression and **longer trials**: **8-12 weeks** at an adequate dose before deciding they have failed. At 4 weeks on a low dose, she has not had an adequate trial.\n\nBecause she is tolerating sertraline, the right step is to **titrate upwards** while continuing ERP, and explain the expected time course. Clomipramine and antipsychotic augmentation are later steps for OCD that has not responded to adequate SSRI trials.",
+          "whyWrong": [
+            "Clomipramine is second line after adequate SSRI trials, with more side effects.",
+            "Augmentation is for refractory OCD after adequate SSRI trials.",
+            "She is not yet at an adequate trial; stopping now wastes a likely helpful drug.",
+            "",
+            "Benzodiazepines do not treat OCD."
+          ],
+          "tags": [
+            "ocd",
+            "ssri",
+            "dosing"
+          ]
+        },
+        {
+          "id": "anxiety-disorders--ocd-and-related--q3",
+          "discipline": "mental-health",
+          "topic": "anxiety-disorders",
+          "difficulty": "exam",
+          "stem": "A 29-year-old woman, 6 weeks postpartum, tells her GP tearfully that she keeps having sudden images of dropping her baby down the stairs. She finds these thoughts horrifying, has stopped carrying the baby near stairs and asks her partner to bathe the baby. She has no hallucinations or unusual beliefs, is sleeping when the baby sleeps and her mood is mildly anxious. EPDS is 11.\n\nWhich one of the following is the most likely diagnosis?",
+          "options": [
+            "Postpartum psychosis",
+            "Postnatal depression with psychotic features",
+            "Normal postpartum adjustment requiring no treatment",
+            "Generalised anxiety disorder",
+            "Perinatal obsessive-compulsive disorder"
+          ],
+          "answer": 4,
+          "explanation": "Intrusive, **unwanted, horrifying images of harming the baby** that the mother recognises as her own and wants to avoid, with **avoidance behaviours** (not carrying near stairs, not bathing), are typical of **perinatal OCD**. These thoughts are **ego-dystonic** and are **not associated with increased risk** of harm; mothers with OCD go to great lengths to prevent harm.\n\nThis differs from **postpartum psychosis**, where the mother may have delusional beliefs about the baby, confusion and fluctuating mood, and genuine risk. Treatment is CBT with ERP, with an SSRI (e.g. sertraline, compatible with breastfeeding) if needed. Reassurance about the nature of the thoughts is very important.",
+          "whyWrong": [
+            "There are no delusions, hallucinations or confusion.",
+            "Her mood is not severely depressed and there are no psychotic features.",
+            "Distressing intrusive thoughts with avoidance cause impairment and merit treatment.",
+            "Her anxiety is focused on specific intrusive harm images, not generalised worries.",
+            ""
+          ],
+          "tags": [
+            "perinatal",
+            "ocd",
+            "postpartum"
+          ]
+        }
+      ]
+    }
+  ]
+}

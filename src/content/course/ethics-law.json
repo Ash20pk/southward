@@ -1,0 +1,866 @@
+{
+  "topic": "ethics-law",
+  "intro": "Australian medical law and ethics centre on patient autonomy: consent and capacity, confidentiality and its limits, the protection of children, professional standards regulated by AHPRA and the Medical Board of Australia, and end-of-life decisions including voluntary assisted dying. Population health and ethics make up 12.5% of the AMC MCQ, and ethics reasoning also shapes 'best next step' answers across every discipline.",
+  "lessons": [
+    {
+      "id": "ethics-law--consent-and-capacity",
+      "title": "Consent and capacity",
+      "minutes": 16,
+      "objectives": [
+        "List the four elements of valid consent and apply them to a clinical scenario",
+        "Explain the Rogers v Whitaker material risk test and what must be disclosed",
+        "Assess decision-making capacity with the understand, retain, weigh, communicate test",
+        "Choose the correct decision-maker when an adult lacks capacity, including in an emergency",
+        "Handle refusal of treatment by a competent adult, including life-saving treatment"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why consent is the backbone of Australian ethics questions",
+          "body": "Australian law starts from **autonomy**: a competent adult decides what happens to their own body. Touching a patient without consent is a **battery** (trespass to the person), even if the treatment helps. Treating with consent that was given on inadequate information is usually argued as **negligence**.\n\nThe AMC tests this constantly because Indian graduates often come from a system where the family is central to decisions. In Australia, the family of a competent adult has **no legal power** to consent or refuse on their behalf. You can involve family if the patient wants, but the patient decides.\n\nConsent can be:\n- **Implied**: holding out an arm for a blood test.\n- **Verbal (express)**: fine for most low-risk procedures.\n- **Written**: expected for surgery, anaesthesia, blood products and research. The signed form is **evidence** that a consent discussion occurred; it is not the consent itself. A signature after a poor explanation is not valid consent."
+        },
+        {
+          "kind": "concepts",
+          "heading": "The four elements of valid consent",
+          "body": "| Element | What it means | Common exam trap |\n|---|---|---|\n| **Capacity** | Patient can make this decision | Dementia or mental illness does not automatically remove capacity |\n| **Voluntariness** | Free of coercion or undue pressure | Family, police or an employer pushing the decision |\n| **Adequate information** | Nature, benefits, material risks, alternatives (including doing nothing) | Relying on a leaflet with no discussion |\n| **Specific** | Covers this procedure, by this team | Extending an operation beyond what was agreed, unless it is an emergency |\n\nConsent should be obtained by the doctor doing the procedure or someone adequately trained to explain it. An intern should not take consent for a procedure they do not understand. Use a **professional interpreter** (TIS National, 131 450) rather than a family member, especially for consent: family interpreters filter, soften or pressure.\n\n### Rogers v Whitaker (High Court, 1992)\nMrs Whitaker was almost blind in her right eye and had eye surgery. She repeatedly asked about risks to her good eye. She developed **sympathetic ophthalmia** (about a 1 in 14,000 risk) and became blind in both eyes. The surgeon had not warned her.\n\nThe High Court held that a doctor must disclose a **material risk**, meaning a risk that:\n- a **reasonable person in the patient's position** would be likely to attach significance to, or\n- the doctor knows, or should reasonably know, **this particular patient** would attach significance to.\n\nThe court rejected the old idea (the Bolam test) that what other doctors would have disclosed decides the matter. Disclosure is judged by the **patient's** needs, not by medical custom. Rare but catastrophic risks, and anything the patient has asked about, must be disclosed.\n\nLater state civil liability laws let doctors defend their **treatment** by showing it was widely accepted peer professional practice, but this defence generally does **not** apply to the duty to warn of risks. Rogers still governs disclosure.\n\n### Capacity\nAdults are **presumed** to have capacity. Capacity is **decision-specific and time-specific**: a patient may be able to decide about antibiotics but not about complex surgery, or may regain capacity after delirium clears. To have capacity for a decision, the person must be able to:\n1. **Understand** the information relevant to the decision.\n2. **Retain** it long enough to decide.\n3. **Use or weigh** it, including consequences of each option.\n4. **Communicate** a choice (by any means).\n\nAn **unwise** decision is not proof of incapacity. The test is about the process of deciding, not the outcome you would prefer."
+        },
+        {
+          "kind": "application",
+          "heading": "Who decides when the patient cannot",
+          "body": "**Emergency (the doctrine of necessity).** If a patient lacks capacity, treatment is urgently needed to save life or prevent serious harm, and there is no known valid refusal, you may give the treatment necessary for the emergency. Do only what cannot wait. You cannot use the emergency to do elective extras.\n\n**Non-emergency.** Work down this order. Names and exact rules **vary by state**, so learn the structure:\n1. A valid, applicable **advance care directive** made while competent. A clear refusal in a valid directive binds you, even in an emergency.\n2. A **substitute decision-maker the patient appointed** (enduring guardian, medical treatment decision-maker or attorney for health matters, depending on the state).\n3. A **guardian appointed by a tribunal** (for example NCAT in NSW, VCAT in Victoria, QCAT in Queensland).\n4. The statutory **\"person responsible\"** or equivalent: usually spouse or partner, then an unpaid carer, then a close relative or friend.\n5. If there is no one, or there is a dispute, apply to the guardianship tribunal or the Public Guardian/Advocate.\n\nA substitute decision-maker decides according to what the patient would have wanted and their best interests. They generally cannot demand treatment that is not clinically indicated.\n\n**Mental health legislation** allows involuntary assessment and treatment of **mental illness** under state Mental Health Acts. It does not, in general, authorise treatment of an unrelated physical condition: a psychotic patient refusing an appendicectomy needs a capacity assessment and the guardianship pathway, not a Mental Health Act order.\n\n**Refusal by a competent adult.** A competent adult can refuse **any** treatment, even if they will die, and does not have to give reasons. Classic scenarios: a Jehovah's Witness refusing blood; a pregnant woman refusing a caesarean (the fetus has no separate legal rights before birth). Your job:\n- confirm capacity and that the refusal is informed and voluntary (see them alone, without family)\n- explain consequences clearly and offer alternatives (cell salvage, iron, erythropoietin, tranexamic acid)\n- document thoroughly and keep caring for them\n- respect it; overriding a competent refusal is battery."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- **\"The family asks you not to tell her the diagnosis.\"** Explore their concerns kindly, but the competent patient is entitled to the information. Ask the patient how much she wants to know and who she wants involved.\n- **\"The son wants to sign the consent form for his father.\"** If the father has capacity, only the father can consent. If he lacks capacity, check for an advance directive and appointed decision-maker first.\n- **\"A 72-year-old with mild dementia refuses admission.\"** The right answer is almost always \"assess her capacity for this specific decision\", not \"she has dementia so her daughter decides\".\n- **Rare but serious risk:** if the question describes a rare risk that would matter to a reasonable person, or one the patient asked about, it must be disclosed.\n- **Consent form already signed:** if the patient now withdraws or is clearly confused about the procedure, the signature means nothing. Consent can be withdrawn at any time.\n- Discriminating clue: the word **\"competent\"** or **\"has capacity\"** in the stem usually decides the answer in favour of the patient's own choice."
+        }
+      ],
+      "keyPoints": [
+        "Valid consent needs capacity, voluntariness, adequate information and specificity to the procedure.",
+        "Rogers v Whitaker: disclose risks a reasonable person, or this patient, would consider significant.",
+        "Capacity is presumed, decision-specific and assessed by understand, retain, weigh, communicate.",
+        "An unwise decision does not mean the patient lacks capacity.",
+        "A competent adult may refuse any treatment, including life-saving treatment.",
+        "Family cannot consent for a competent adult; for an incapable adult follow the state hierarchy starting with any advance directive.",
+        "In an emergency with no valid refusal, give only the treatment that cannot wait.",
+        "Use professional interpreters, not family, for consent discussions."
+      ],
+      "redFlags": [
+        "A signed form after an inadequate explanation is not valid consent.",
+        "A valid advance directive refusing a treatment binds you even in an emergency.",
+        "Pressure from family or others makes consent involuntary: speak to the patient alone."
+      ],
+      "contrast": [
+        {
+          "aspect": "Who consents",
+          "india": "Families commonly give or share consent, especially for older or female patients.",
+          "australia": "Only the competent adult patient. Family have no authority unless appointed as substitute decision-maker when capacity is lost."
+        },
+        {
+          "aspect": "Disclosure standard",
+          "india": "Often what a reasonable doctor would tell (closer to Bolam).",
+          "australia": "Material risk test from Rogers v Whitaker: judged by what the patient would want to know."
+        },
+        {
+          "aspect": "Interpreters",
+          "india": "Relatives or staff often interpret.",
+          "australia": "Professional interpreters (TIS National, free for GPs and many specialists) are expected for consent."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "What are the four elements of valid consent?",
+          "back": "Capacity, voluntariness, adequate information, and specificity to the procedure."
+        },
+        {
+          "front": "What did Rogers v Whitaker (1992) establish?",
+          "back": "Doctors must disclose material risks: those a reasonable person in the patient's position, or this particular patient, would consider significant."
+        },
+        {
+          "front": "What four abilities make up decision-making capacity?",
+          "back": "Understand, retain, use or weigh the information, and communicate a choice."
+        },
+        {
+          "front": "Is a signed consent form the consent itself?",
+          "back": "No. It is evidence that a consent discussion happened. Consent is the informed agreement."
+        },
+        {
+          "front": "When can you treat an adult without consent?",
+          "back": "In an emergency, when they lack capacity and there is no known valid refusal: only what is needed to save life or prevent serious harm."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "ethics-law--consent-and-capacity--q1",
+          "discipline": "population-health",
+          "topic": "ethics-law",
+          "difficulty": "foundation",
+          "stem": "A 58-year-old man is booked for a laparoscopic cholecystectomy in a Brisbane private hospital. The surgeon explained the operation and common risks. The morning of surgery, the patient tells the nurse he signed the form \"because the surgeon was in a hurry\" and did not realise there was any chance of converting to an open operation or of bile duct injury, which he says would matter a lot to him because he is a self-employed labourer.\n\nWhat is the most appropriate action?",
+          "options": [
+            "Proceed, as the signed consent form is legally sufficient",
+            "Ask the anaesthetist to explain the surgical risks in the anaesthetic bay",
+            "Postpone until the surgeon has discussed the material risks and the patient has decided",
+            "Ask his wife to confirm that he would still want the operation",
+            "Proceed but document that the patient raised concerns"
+          ],
+          "answer": 2,
+          "explanation": "Valid consent requires **adequate information**, and under **Rogers v Whitaker** that includes any **material risk**: one a reasonable person in the patient's position would consider significant, or that this patient would. Conversion to open surgery and bile duct injury are well-recognised risks, and this patient has said they matter to his livelihood.\n\nA signed form is only **evidence** that a discussion occurred; it does not cure a discussion that was inadequate. The surgeon performing the procedure (or a suitably trained delegate) should explain the risks, answer questions, and let the patient decide. For an elective operation, the right step is to pause, not proceed.",
+          "whyWrong": [
+            "A signature does not make consent valid if the patient was not told about material risks.",
+            "The anaesthetist is not the right person to explain surgical risks, and the anaesthetic bay is not a setting free from pressure.",
+            "",
+            "His wife has no authority to consent for a competent adult.",
+            "Documenting concerns does not fix consent that lacks adequate information."
+          ],
+          "ausPearl": "Rogers v Whitaker is the leading Australian authority on disclosure and is examined every year. It rejected the Bolam test for the duty to warn.",
+          "tags": [
+            "consent",
+            "rogers v whitaker",
+            "material risk"
+          ]
+        },
+        {
+          "id": "ethics-law--consent-and-capacity--q2",
+          "discipline": "population-health",
+          "topic": "ethics-law",
+          "difficulty": "core",
+          "stem": "A 79-year-old woman with moderate Alzheimer dementia lives in a residential aged care facility in Adelaide. She is admitted with a fractured neck of femur. The orthopaedic team recommends a hemiarthroplasty. On assessment she cannot recall what the operation involves a few minutes after it is explained, and repeatedly asks why she is in hospital. Her records show she appointed her son as her substitute decision-maker in an advance care directive, which does not address surgery.\n\nWho should give consent for the operation?",
+          "options": [
+            "Her son, as her appointed substitute decision-maker",
+            "The orthopaedic consultant, as the operation is in her best interests",
+            "The patient herself, because adults are presumed to have capacity",
+            "The state guardianship tribunal",
+            "The nursing director of the aged care facility"
+          ],
+          "answer": 0,
+          "explanation": "Capacity is presumed, but the presumption is **rebutted** here: she cannot **retain** the information long enough to weigh it. She therefore lacks capacity for this decision.\n\nWhen an adult lacks capacity, work down the hierarchy: first any valid advance directive that covers the decision (hers does not address surgery), then the **substitute decision-maker she appointed** while competent. Her son holds that role and should decide based on what she would want and her best interests. The tribunal is only needed if there is no appropriate decision-maker or there is a dispute. Hip fracture surgery is urgent but not usually so immediate that the doctrine of necessity applies while a decision-maker is available.",
+          "whyWrong": [
+            "",
+            "Doctors cannot consent on the patient's behalf when an appointed decision-maker is available; necessity applies only to true emergencies.",
+            "The presumption of capacity is displaced because she cannot retain the information.",
+            "A tribunal is a last resort when there is no suitable decision-maker or a dispute.",
+            "Facility staff have no legal authority to consent to surgery."
+          ],
+          "ausPearl": "Titles vary: substitute decision-maker (SA), enduring guardian (NSW), medical treatment decision-maker (Vic), attorney for health matters (Qld). The structure is the same.",
+          "tags": [
+            "capacity",
+            "substitute decision-maker",
+            "dementia"
+          ]
+        },
+        {
+          "id": "ethics-law--consent-and-capacity--q3",
+          "discipline": "population-health",
+          "topic": "ethics-law",
+          "difficulty": "exam",
+          "stem": "A 34-year-old woman at 39 weeks gestation is in labour in a Melbourne public hospital. CTG shows a prolonged fetal bradycardia and the obstetrician recommends an emergency caesarean section. She is alert, understands the explanation, and says she understands her baby may die or be brain damaged, but she refuses surgery because of a previous traumatic operation. Her husband begs the team to operate.\n\nWhat is the most appropriate course of action?",
+          "options": [
+            "Perform the caesarean with the husband's consent",
+            "Apply urgently to the Supreme Court to authorise the caesarean",
+            "Detain her under the Mental Health Act and perform the caesarean",
+            "Respect her refusal, continue to offer the caesarean, and support her in labour",
+            "Perform the caesarean under the doctrine of necessity to save the fetus"
+          ],
+          "answer": 3,
+          "explanation": "A **competent adult** can refuse any treatment, even when the refusal risks her own life or her baby's. In Australian law the fetus has **no separate legal personality** before birth, so the fetal interest cannot override the mother's autonomy. She understands, weighs and communicates her decision, so she has capacity.\n\nThe team should confirm capacity (ideally with a senior clinician), make sure the refusal is informed and voluntary, keep offering the caesarean in case she changes her mind, provide the best alternative care, involve senior staff and support, and document carefully. Operating would be a battery.",
+          "whyWrong": [
+            "Her husband has no legal authority to consent for a competent adult.",
+            "Courts do not override a competent adult's refusal to protect a fetus; there is no legal basis for such an order.",
+            "There is no evidence of mental illness, and the Mental Health Act does not authorise surgery.",
+            "",
+            "Necessity applies only when the patient cannot consent; it cannot override a competent refusal."
+          ],
+          "tags": [
+            "refusal",
+            "capacity",
+            "obstetrics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ethics-law--children-and-young-people",
+      "title": "Children, adolescents and consent",
+      "minutes": 15,
+      "objectives": [
+        "Decide when a young person under 18 can consent to their own treatment (Gillick competence)",
+        "Explain Marion's case and which procedures need a court's approval",
+        "Manage parents who refuse life-saving treatment for a child",
+        "Meet your mandatory reporting duty when you suspect child abuse or neglect",
+        "Run a confidential adolescent consultation and explain its limits"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The legal starting point for under-18s",
+          "body": "Parents (or others with parental responsibility) usually consent for children. But Australian common law recognises that young people gain the right to make their own decisions as they mature, rather than at a fixed birthday. This is **Gillick competence**, from the English case Gillick v West Norfolk (1985), which the High Court of Australia accepted in **Marion's case (1992)**.\n\nA few statutes add fixed ages, and they **vary by state**. For example, South Australia's consent legislation lets a person aged 16 or over consent to treatment as an adult, and NSW law protects doctors who treat a young person aged 14 or over with their own consent. Elsewhere, the common law test applies. For the exam, reason with Gillick unless the question names a statute.\n\nPractical markers that the system treats adolescents as individuals: young people can hold **their own Medicare card from age 15**, and many services (sexual health, headspace) see young people without parents."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Gillick competence, Marion's case and special procedures",
+          "body": "### Gillick competence\nA minor can consent to a treatment if they have **sufficient understanding and intelligence to fully understand what is proposed**, including its risks, benefits, alternatives and consequences. It is:\n- **decision-specific**: a 14-year-old may be competent to consent to the pill but not to major surgery\n- assessed by you and **documented**: age, maturity, understanding, reasons, whether they have considered telling a parent.\n\nFor contraception in under-16s, doctors use the **Fraser guidelines** (from the same case): the young person understands the advice, cannot be persuaded to tell parents (or agrees you can't tell them), is likely to have sex anyway, their health would suffer without contraception, and it is in their best interests.\n\n### Refusal by a minor\nCompetence to **consent** is not the same as an unlimited right to **refuse**. Where a minor refuses treatment that is necessary to save life or prevent serious harm, a court (Supreme Court or Family Court exercising welfare jurisdiction) can override that refusal. Courts have authorised treatment such as blood transfusion for adolescents who refused it.\n\n### Marion's case (Secretary, Department of Health and Community Services v JWB and SMB, 1992)\nMarion was a 14-year-old girl with a severe intellectual disability. Her parents sought her sterilisation. The High Court held:\n- parents **cannot** consent to non-therapeutic sterilisation of a child\n- it is a **special medical procedure** needing the **Family Court's** authorisation, because it is invasive, irreversible, not for treating a disease, and carries a significant risk of a wrong decision.\nSterilisation done to treat disease (for example, hysterectomy for uterine cancer) does not need court approval.\n\nOn gender-affirming care, the Family Court in **Re Kelvin (2017)** held that court approval is not required for hormone treatment where the young person is Gillick competent and the parents and treating doctors agree. Disagreement still goes to court.\n\n### Parents refusing treatment for a child\nParental authority exists to serve the child's best interests. If parents refuse **life-saving** treatment (the classic case is blood for a child of Jehovah's Witness parents):\n- in a genuine emergency, give the treatment needed to save life; several states have legislation that expressly authorises this, and the details vary by state\n- where time allows, seek a court order or involve the child protection agency\n- keep the family involved, offer blood-sparing alternatives, and document."
+        },
+        {
+          "kind": "application",
+          "heading": "Mandatory reporting and the adolescent consultation",
+          "body": "### Mandatory reporting of child abuse\nDoctors are **mandatory reporters in every state and territory**. If you form a **reasonable belief or suspicion** (the exact wording varies by state) that a child is at risk of significant harm from abuse or neglect, you must report to the state child protection agency.\n- You do **not** need proof. Investigation is the agency's job.\n- Reports made in good faith are protected from legal liability, and your identity is protected.\n- You do not need the parents' consent, and you should not tell them if doing so could put the child at greater risk.\n- Keep treating the child, document objectively (injuries, explanations given, who said what), and ensure immediate safety (admission if needed).\n- Categories covered (physical, sexual, emotional abuse, neglect, exposure to family violence) and the age limit vary by state.\n\nClues to suspect abuse: delay in presentation, an explanation that doesn't match the injury or developmental stage, changing stories, bruises on a non-mobile infant, patterned injuries, torn frenulum, posterior rib or metaphyseal fractures, burns with clear edges (immersion) or cigarette burns.\n\n### The adolescent consultation\n- See the young person **alone for part of the consultation**, after explaining this is routine.\n- Explain **confidentiality and its limits** at the start: you keep things private unless there is a serious risk to their safety or someone else's, or they are being abused.\n- Use a **HEADSS** assessment: Home, Education/Employment, Activities, Drugs, Sexuality, Suicide/depression (often extended to HEEADSSS with Eating and Safety).\n- Encourage (but don't force) involving a trusted adult.\n\n**Sexual activity.** The age of consent to sexual activity is **16 in most states, 17 in South Australia and Tasmania**. A consensual relationship between two similar-aged adolescents is usually not a child protection matter on its own. Consider reporting when there is a large age gap, a position of power or authority, coercion, very young age (for example under 13), or other signs of abuse or exploitation. Local reporting requirements vary."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- **15-year-old wanting the pill without parents.** Assess Gillick competence (and the Fraser points), check the partner's age and that the relationship is not exploitative, give sexual health advice and STI testing, and keep it confidential. Refusing and telling the parents is the wrong answer.\n- **16-year-old refusing chemotherapy with a high cure rate.** Explore reasons and involve family, but a court can authorise life-saving treatment against a minor's refusal.\n- **Parents want their daughter with intellectual disability sterilised.** Needs Family Court authorisation (Marion's case), not parental consent.\n- **Toddler with a spiral fracture and a vague history.** Admit for safety, investigate (skeletal survey), and notify child protection. You do not need to be sure.\n- **Child of Jehovah's Witness parents bleeding to death.** Give blood; the emergency and the child's best interests prevail.\n- Trap: \"inform the parents\" is rarely right when a competent adolescent requests confidential care and there is no serious risk."
+        }
+      ],
+      "keyPoints": [
+        "Gillick competence: a minor can consent if they fully understand the proposed treatment; it is decision-specific.",
+        "Some states set statutory ages (e.g. SA 16); these vary by state.",
+        "Courts can override a minor's refusal of life-saving treatment.",
+        "Marion's case: non-therapeutic sterilisation of a child needs Family Court approval; parents cannot consent.",
+        "In an emergency, give life-saving treatment to a child even if parents refuse.",
+        "Doctors are mandatory reporters of suspected child abuse in every state: suspicion, not proof, is the threshold.",
+        "See adolescents alone, explain confidentiality limits, and use HEADSS."
+      ],
+      "redFlags": [
+        "Injury pattern that doesn't match the history or the child's developmental stage.",
+        "Bruising in a non-mobile infant.",
+        "Adolescent sexual activity with a much older partner, a person in authority, or under coercion.",
+        "Disclosure of suicidal thoughts or abuse during a confidential consultation: confidentiality gives way to safety."
+      ],
+      "contrast": [
+        {
+          "aspect": "Minor's consent",
+          "india": "Parents generally consent until 18; adolescent confidentiality is rarely emphasised.",
+          "australia": "Gillick competence lets mature minors consent; confidential adolescent care is standard."
+        },
+        {
+          "aspect": "Child abuse reporting",
+          "india": "POCSO makes reporting child sexual abuse mandatory for everyone.",
+          "australia": "Doctors are mandatory reporters of all forms of abuse and neglect to state child protection agencies."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "What is Gillick competence?",
+          "back": "A minor's capacity to consent when they have enough understanding and intelligence to fully understand the proposed treatment."
+        },
+        {
+          "front": "What did Marion's case (1992) decide?",
+          "back": "Parents cannot consent to non-therapeutic sterilisation of a child; it needs Family Court authorisation."
+        },
+        {
+          "front": "What is the threshold for mandatory reporting of child abuse?",
+          "back": "A reasonable belief or suspicion of abuse or neglect (wording varies by state). Proof is not required."
+        },
+        {
+          "front": "What does HEADSS stand for?",
+          "back": "Home, Education/Employment, Activities, Drugs, Sexuality, Suicide/depression."
+        },
+        {
+          "front": "Age of consent to sexual activity in Australia?",
+          "back": "16 in most states; 17 in South Australia and Tasmania."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "ethics-law--children-and-young-people--q1",
+          "discipline": "population-health",
+          "topic": "ethics-law",
+          "difficulty": "core",
+          "stem": "A 14-year-old girl presents to a Perth general practice alone. She has a 15-year-old boyfriend from school and wants contraception. She is articulate, understands how the pill works, its side effects and that it does not protect against STIs. She does not want her parents told and says she will keep having sex regardless. There are no concerns about coercion.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Decline to prescribe until a parent attends",
+            "Prescribe contraception and advise on STI prevention, keeping the consultation confidential",
+            "Notify child protection services because she is under 16",
+            "Prescribe only if she agrees that you can inform her mother",
+            "Refer her to a paediatrician to assess her maturity"
+          ],
+          "answer": 1,
+          "explanation": "She appears **Gillick competent** for this decision and meets the **Fraser guidelines**: she understands the advice, will not involve her parents, is likely to continue having sex, and her health would be at risk without contraception.\n\nThe partner is a similar age and there is no coercion, power imbalance or exploitation, so this is not in itself a child protection matter. The correct approach is to prescribe, give safe-sex and STI advice (offer chlamydia testing), document your competence assessment, encourage (but not require) involving a trusted adult, and maintain confidentiality.",
+          "whyWrong": [
+            "A competent minor can consent to contraception without a parent.",
+            "",
+            "Consensual sex between similar-aged adolescents without coercion is not by itself reportable.",
+            "Making care conditional on breaching confidentiality undermines her trust and her care.",
+            "A GP can assess competence; referral delays care without reason."
+          ],
+          "ausPearl": "Young people can get their own Medicare card from 15, which helps them access confidential care.",
+          "tags": [
+            "gillick",
+            "contraception",
+            "adolescent"
+          ]
+        },
+        {
+          "id": "ethics-law--children-and-young-people--q2",
+          "discipline": "population-health",
+          "topic": "ethics-law",
+          "difficulty": "foundation",
+          "stem": "A 7-month-old boy is brought to an emergency department in Hobart by his father, who says the baby rolled off the couch that morning. The baby cannot yet roll over. Examination shows bruises of different colours on his upper arms and chest, and a swollen left thigh. X-ray shows a femoral shaft fracture.\n\nApart from treating the fracture, what is the most important next step?",
+          "options": [
+            "Ask the father for permission to contact child protection",
+            "Discharge with a follow-up appointment at the fracture clinic",
+            "Wait for the skeletal survey before deciding whether to report",
+            "Contact the police only if the father's story changes",
+            "Report to the state child protection agency"
+          ],
+          "answer": 4,
+          "explanation": "The history does not fit the developmental stage (a 7-month-old who cannot roll could not have rolled off a couch), there are **bruises of differing ages in a non-mobile infant**, and a femoral fracture in a non-ambulant child. This raises a **reasonable suspicion** of physical abuse.\n\nDoctors are **mandatory reporters in every state**. The threshold is reasonable suspicion, not proof, so you report now rather than waiting for further tests. Admit the child for safety, complete investigations (skeletal survey, and consider head imaging and eye examination), and document objectively. Parental permission is not required.",
+          "whyWrong": [
+            "Consent from the parents is not needed and asking may put the child at risk.",
+            "Discharge could return the child to an unsafe environment.",
+            "Suspicion is the threshold; waiting for results delays protection.",
+            "Your legal duty is to the child protection agency; police may become involved, but you do not wait for the story to change.",
+            ""
+          ],
+          "tags": [
+            "child abuse",
+            "mandatory reporting",
+            "non-accidental injury"
+          ]
+        },
+        {
+          "id": "ethics-law--children-and-young-people--q3",
+          "discipline": "population-health",
+          "topic": "ethics-law",
+          "difficulty": "exam",
+          "stem": "The parents of a 13-year-old girl with a severe intellectual disability attend a Sydney gynaecology clinic. She has heavy but regular periods that are otherwise medically normal. Her parents, who care for her devotedly, request a hysterectomy so she will never menstruate or become pregnant.\n\nWhat is the legal position?",
+          "options": [
+            "The parents can consent because they have parental responsibility",
+            "The gynaecologist can proceed if two doctors agree it is in her best interests",
+            "A hospital ethics committee can authorise the procedure",
+            "The procedure requires authorisation by the Family Court",
+            "The procedure is lawful only once she turns 16"
+          ],
+          "answer": 3,
+          "explanation": "This is **Marion's case (1992)**. A hysterectomy here is a **non-therapeutic sterilisation**: it is not treating disease. The High Court held that this is a **special medical procedure** outside the scope of parental consent, because it is invasive, irreversible and carries a significant risk of a wrong decision. It requires authorisation from the **Family Court** (or a guardianship tribunal in some circumstances for adults).\n\nThe first step clinically is to offer reversible options for menstrual management, such as hormonal treatment. If the operation were needed to treat disease (for example, cancer), court approval would not be required.",
+          "whyWrong": [
+            "Parental responsibility does not extend to non-therapeutic sterilisation.",
+            "Medical agreement does not replace the court's authority for special medical procedures.",
+            "Ethics committees have no legal power to authorise this.",
+            "",
+            "Age alone does not make non-therapeutic sterilisation lawful without the court."
+          ],
+          "tags": [
+            "marion's case",
+            "sterilisation",
+            "minors"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ethics-law--confidentiality-and-reporting",
+      "title": "Confidentiality, privacy and reporting duties",
+      "minutes": 16,
+      "objectives": [
+        "State the three groups of exceptions to confidentiality and give examples of each",
+        "Manage a patient who is unfit to drive but keeps driving, using Austroads principles",
+        "Recognise deaths that must be reported to the coroner and when not to sign a death certificate",
+        "Respond appropriately to requests for information from police, employers, insurers and relatives"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Confidentiality as a legal and ethical duty",
+          "body": "Confidentiality is an ethical duty (MBA code of conduct), a common law duty and a statutory one. Privacy of health information is governed by the **Privacy Act 1988 (Cth)** and the **Australian Privacy Principles (APPs)** for the private sector, plus state health records laws that often cover public hospitals. The details vary by state; the principles do not.\n\nPatients disclose sensitive information because they trust it will stay private. Breaching that trust without justification harms the patient and discourages others from seeking care. So the default is: **do not disclose without consent**. Sharing within the treating team, for the patient's care, is covered by implied consent.\n\nPatients generally have a right to **access their own records** (APP 12 in the private sector; state freedom of information laws for public hospitals). Access can be refused only in limited circumstances, such as a serious threat to someone's life or health."
+        },
+        {
+          "kind": "concepts",
+          "heading": "The exceptions",
+          "body": "| Exception | Examples |\n|---|---|\n| **Consent** | Patient agrees to a report for their employer, insurer or lawyer; letter to a specialist |\n| **Required by law** | Notifiable diseases to public health; mandatory reporting of child abuse; subpoena or court order; coronial requests; mandatory notification of health practitioners to AHPRA; in some states, reporting unfit drivers or firearm concerns |\n| **Permitted in the public interest** | A serious threat to the life, health or safety of any person, or to public health or safety, where it is unreasonable or impractical to get consent |\n\n### The serious threat exception\nThis is the Australian version of the Tarasoff principle. You **may** disclose (to the person at risk, police or another appropriate party) when you reasonably believe disclosure is necessary to lessen or prevent a serious threat. Disclose **only what is necessary**, to the people who need it, and document your reasoning. Seek advice from your medical defence organisation if time allows.\n\nExamples: a patient describes a credible plan to kill his ex-partner; a person with HIV who refuses to disclose to a sexual partner and to change behaviour (usually managed through the state public health unit, which has formal processes); genetic information that reveals a serious, preventable risk to a relative, handled under NHMRC guidance, usually by encouraging the patient to tell relatives first.\n\n### Requests from third parties\n- **Police**: no general duty to hand over information on request. Disclose with the patient's consent, under a warrant or subpoena, where a law requires it, or under the serious threat exception.\n- **Relatives**: need the patient's consent, unless the patient lacks capacity and the relative is the substitute decision-maker (then share what they need to decide).\n- **Employers and insurers**: consent only; give only relevant information.\n- **Courts**: a subpoena must be complied with, but you can ask the court whether all of it is needed. Doctor-patient privilege exists only in limited forms in some states."
+        },
+        {
+          "kind": "application",
+          "heading": "Driving and the coroner",
+          "body": "### Fitness to drive (Austroads, Assessing Fitness to Drive)\nThe national standard is **Assessing Fitness to Drive**, published by Austroads. It sets medical standards separately for **private** and **commercial** drivers, which are stricter.\n- The **patient** is legally responsible for notifying the driver licensing authority of a condition that affects driving.\n- The doctor's duty: assess, tell the patient clearly they must not drive (and for how long, per the standard), advise them to notify the licensing authority, and **document** the advice.\n- If the patient keeps driving despite advice and poses a risk, you **may report** to the licensing authority. All states give legal protection for reports made in good faith. In **South Australia and the Northern Territory**, health professionals are legally **required** to report.\n- Conditions that commonly appear: seizures and epilepsy, syncope, dementia, visual field loss, sleep apnoea with daytime sleepiness, hypoglycaemia unawareness in insulin-treated diabetes, and alcohol or drug dependence. Look up non-driving periods in the standard rather than memorising numbers you are unsure of.\n\n### Deaths reported to the coroner\nEach state has a Coroners Act. Categories **vary by state**, but reportable deaths generally include:\n- **unexpected, unnatural or violent** deaths, or deaths resulting from **accident or injury** (including falls leading to death weeks later, such as a hip fracture)\n- deaths during, or as an unexpected result of, a **medical procedure or anaesthesia**\n- deaths **in custody** or in state care, including involuntary mental health patients (definitions vary)\n- deaths where the **cause is unknown** or no doctor can certify the cause\n- deaths where the person's **identity is unknown**.\n\nIf a death is reportable, **do not sign the medical certificate of cause of death**. Report it to the coroner (usually through police) and tell the family what will happen. If a death is expected, natural and you can certify the cause, you can sign the certificate even if you did not see the patient just before death, as long as you are satisfied about the cause (local rules apply)."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- **\"Epileptic bus driver says he'll keep driving.\"** Tell him not to drive, explain his obligation to notify, document. If he continues, you can notify the licensing authority (mandatory in SA and NT).\n- **\"Police officer phones asking whether a man was treated for a stab wound.\"** Do not confirm or deny without consent or legal authority, unless there's a serious ongoing threat.\n- **\"Wife asks for her husband's test results.\"** Need his consent.\n- **\"Patient with a threat to kill.\"** Disclosure to prevent a serious threat is permitted; choose the answer that discloses the minimum necessary to the right person.\n- **\"Elderly woman dies 3 weeks after a hip fracture from a fall.\"** Reportable (death following injury); don't sign the certificate.\n- Trap: an answer that breaches confidentiality **without first seeking consent** is usually wrong when the patient is competent and time allows. Ask first; disclose without consent only when an exception clearly applies."
+        }
+      ],
+      "keyPoints": [
+        "Default: no disclosure without consent; implied consent covers the treating team.",
+        "Exceptions: consent, legal requirement, and serious threat to life, health or safety.",
+        "Disclose the minimum necessary to the right person, and document your reasons.",
+        "Patients must notify the licensing authority; doctors may report unsafe drivers and must in SA and NT.",
+        "Use Austroads Assessing Fitness to Drive; commercial standards are stricter than private.",
+        "Unexpected, violent, unnatural, injury-related, procedure-related, custody and unknown-cause deaths go to the coroner.",
+        "Never sign a death certificate for a reportable death."
+      ],
+      "redFlags": [
+        "A credible threat of serious harm to an identifiable person.",
+        "A patient with a driving-relevant condition who continues driving, especially commercially.",
+        "Any death after a fall, injury or procedure: think coroner before signing."
+      ],
+      "contrast": [
+        {
+          "aspect": "Unfit drivers",
+          "india": "Rarely addressed by doctors; licensing is largely separate from health care.",
+          "australia": "Austroads national standard; patient must self-report; doctors may report, and must in SA and NT."
+        },
+        {
+          "aspect": "Unnatural deaths",
+          "india": "Police inquest and post-mortem via the police system (medico-legal cases).",
+          "australia": "State coroner investigates reportable deaths; doctors must not certify them."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Three groups of exceptions to confidentiality?",
+          "back": "Patient consent; required by law; serious threat to someone's life, health or safety (or public health)."
+        },
+        {
+          "front": "Who is legally responsible for notifying the licensing authority of a medical condition?",
+          "back": "The patient (the doctor advises and documents; may report if unsafe)."
+        },
+        {
+          "front": "In which states is it mandatory for doctors to report unfit drivers?",
+          "back": "South Australia and the Northern Territory."
+        },
+        {
+          "front": "Name the Australian national fitness-to-drive standard.",
+          "back": "Assessing Fitness to Drive (Austroads)."
+        },
+        {
+          "front": "Should you sign a death certificate for a death following a fall-related hip fracture?",
+          "back": "No. Deaths resulting from injury are reportable to the coroner."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "ethics-law--confidentiality-and-reporting--q1",
+          "discipline": "population-health",
+          "topic": "ethics-law",
+          "difficulty": "core",
+          "stem": "A 52-year-old truck driver in Queensland is diagnosed with severe obstructive sleep apnoea after falling asleep at the wheel and nearly crashing. You advise him not to drive commercially until his sleepiness is treated and explain that he must tell the Department of Transport. At review 2 weeks later he admits he has not started CPAP, has not told anyone, and is still doing long-haul runs because he needs the money.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Notify the driver licensing authority and tell him you are doing so",
+            "Inform his employer so they can take him off the roster",
+            "Maintain confidentiality, as notification is the patient's responsibility",
+            "Report him to the police",
+            "Warn him again and review in a month"
+          ],
+          "answer": 0,
+          "explanation": "The patient is legally responsible for notifying the licensing authority, and the first step is advice (already given). He has refused to follow it and is driving heavy vehicles with a condition that has already caused a near crash. This is a **serious risk to public safety**.\n\nIn Queensland, as in all states, a doctor **may** notify the licensing authority in good faith and is protected in doing so. It is good practice to tell the patient you are reporting and document everything. The licensing authority, not the employer, is the right body; disclosing to an employer without consent is not justified when a proper channel exists.",
+          "whyWrong": [
+            "",
+            "The employer is not the appropriate recipient; the licensing authority is.",
+            "Confidentiality gives way to a serious threat to public safety once advice has been ignored.",
+            "Police are not the responsible authority for licensing decisions.",
+            "Further delay leaves the public exposed to a known serious risk."
+          ],
+          "ausPearl": "Reporting is mandatory for health professionals only in SA and the NT; elsewhere it is permitted with legal protection.",
+          "tags": [
+            "driving",
+            "confidentiality",
+            "austroads"
+          ]
+        },
+        {
+          "id": "ethics-law--confidentiality-and-reporting--q2",
+          "discipline": "population-health",
+          "topic": "ethics-law",
+          "difficulty": "foundation",
+          "stem": "An 84-year-old woman with dementia in a Victorian aged care facility fell 3 weeks ago and fractured her hip. She had a hemiarthroplasty, then developed pneumonia and died. The nurse asks the ward intern to complete the death certificate listing pneumonia as the cause.\n\nWhat should the intern do?",
+          "options": [
+            "Sign the certificate with pneumonia as the cause of death",
+            "Sign the certificate with dementia as the underlying cause",
+            "Report the death to the coroner and do not sign the certificate",
+            "Ask the family whether they want a post-mortem before deciding",
+            "Ask the GP to sign instead because the intern did not know her well"
+          ],
+          "answer": 2,
+          "explanation": "The chain of events is **fall, then hip fracture, then surgery, then pneumonia, then death**. The death **resulted from an injury**, which makes it **reportable to the coroner** in every Australian state, however expected it may seem clinically.\n\nWhen a death is reportable, the doctor **must not** sign the medical certificate of cause of death. Report it (the coroner decides whether an investigation or post-mortem is needed) and explain the process to the family. Whether the family want a post-mortem does not change the reporting obligation.",
+          "whyWrong": [
+            "The death followed an injury and must be reported rather than certified.",
+            "Dementia is not the true underlying cause; the fall is, which makes it reportable.",
+            "",
+            "The family's wishes do not determine whether a death is reportable.",
+            "The obligation to report applies to any doctor; another doctor should not sign either."
+          ],
+          "tags": [
+            "coroner",
+            "death certificate"
+          ]
+        },
+        {
+          "id": "ethics-law--confidentiality-and-reporting--q3",
+          "discipline": "population-health",
+          "topic": "ethics-law",
+          "difficulty": "exam",
+          "stem": "A 30-year-old man attending a Darwin mental health clinic tells his psychiatry registrar that he has bought a knife and intends to kill his former partner tonight because she has a new boyfriend. He names her and her street. He refuses admission and says he is not mentally unwell, just angry. He then leaves the clinic.\n\nWhat is the most appropriate immediate action?",
+          "options": [
+            "Document the conversation and review him at his next appointment",
+            "Call the patient's mother to ask her to keep him at home",
+            "Seek advice from the ethics committee before any disclosure",
+            "Send a letter to the former partner advising her to be careful",
+            "Notify the police and ensure the former partner is warned"
+          ],
+          "answer": 4,
+          "explanation": "This is a **credible, specific, imminent threat** to an **identifiable person**. Confidentiality is not absolute: disclosure is permitted, and ethically required, when it is necessary to lessen or prevent a **serious threat** to someone's life. The disclosure should go to the people who can act, which here means **police** (who can find him and protect her), with the aim that she is warned.\n\nDisclose only what is necessary, document your reasoning, and inform your consultant. Separately, consider whether he meets criteria for involuntary assessment under the Mental Health Act. Delaying action or taking a slow route could cost a life.",
+          "whyWrong": [
+            "Waiting ignores an imminent threat to life.",
+            "His mother cannot reliably contain the risk and this is an inappropriate, unnecessary disclosure.",
+            "There is no time for committee processes when a life is at immediate risk.",
+            "A letter is too slow and does nothing to prevent the attack.",
+            ""
+          ],
+          "tags": [
+            "confidentiality",
+            "duty to warn",
+            "public interest"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ethics-law--professional-conduct-and-open-disclosure",
+      "title": "Professional conduct, notifications and open disclosure",
+      "minutes": 17,
+      "objectives": [
+        "Describe how AHPRA and the Medical Board of Australia regulate doctors under the National Law",
+        "Identify the four types of notifiable conduct and the threshold for mandatory notification",
+        "Apply the code of conduct to boundaries, self-treatment, gifts and conflicts of interest",
+        "Conduct open disclosure after an adverse event, including a genuine apology",
+        "Explain the elements of negligence in Australian law"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Who regulates doctors in Australia",
+          "body": "Doctors are registered under the **Health Practitioner Regulation National Law**, which every state has adopted. Two bodies matter:\n- **AHPRA** (Australian Health Practitioner Regulation Agency) runs registration and handles notifications (complaints) for all regulated health professions.\n- The **Medical Board of Australia (MBA)** sets standards for doctors, including the code of conduct, **Good medical practice: a code of conduct for doctors in Australia**.\n\n**NSW** and **Queensland** are co-regulatory: complaints in NSW are handled by the Health Care Complaints Commission with the Medical Council of NSW, and Queensland has the Office of the Health Ombudsman. Each state also has a health complaints entity for complaints about services.\n\nThe code's themes: patient-centred care, good communication, working within your competence, respecting boundaries, managing conflicts of interest, looking after your own health, and supporting colleagues and patient safety."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Mandatory notification and professional boundaries",
+          "body": "### Notifiable conduct\nA registered practitioner must notify AHPRA if they form a **reasonable belief** that another practitioner has engaged in notifiable conduct:\n1. practising while **intoxicated** by alcohol or drugs\n2. **sexual misconduct** in connection with practice\n3. placing the public at **substantial risk of harm** because of an **impairment** (a physical or mental illness or condition)\n4. placing the public at risk by practising in a way that is a **significant departure from accepted professional standards**.\n\n\"Reasonable belief\" is more than a rumour or suspicion; it is based on what you saw or know. Notifying in good faith is protected. Where there is immediate danger (a visibly intoxicated surgeon about to operate), first **stop the immediate risk**: raise it directly and escalate to the head of department or director of medical services so the list is stopped, then notify.\n\n**Treating practitioners** (a doctor whose patient is another health practitioner) have a **higher threshold**: they must notify only when there is a substantial risk of harm to the public, so that impaired practitioners are not discouraged from seeking care. **Western Australia** has a broader exemption for treating practitioners. Voluntary notifications are always possible for concerns below the mandatory threshold.\n\n### Boundaries and the code\n- **Sexual relationships with current patients are never acceptable** and are notifiable conduct. With former patients, consider the power imbalance, how long and how intense the professional relationship was, and the patient's vulnerability; in psychiatry, it is essentially never acceptable. If you are attracted to a patient, end the professional relationship properly and refer, rather than starting a relationship.\n- **Chaperones**: offer one for intimate examinations; document the offer and the patient's response.\n- **Treating yourself, family or close friends**: avoid, except in emergencies or for minor problems. Do not prescribe Schedule 8 drugs or psychotropics for yourself or people close to you.\n- **Gifts**: small tokens are fine; decline anything that could influence your care or be seen as doing so. Never accept bequests or loans that exploit your position.\n- **Conflicts of interest**: disclose financial interests (for example, owning shares in a pathology company you refer to), and do not let industry relationships drive prescribing.\n- **Your own health**: have your own GP. Doctors' health services exist in every state.\n- **Conscientious objection**: you may decline to provide a service you object to, but you must tell the patient, not impede their access, and never object in an emergency. Some states legislate referral duties (for example, for abortion), which vary."
+        },
+        {
+          "kind": "application",
+          "heading": "Adverse events, open disclosure and negligence",
+          "body": "### Open disclosure\nThe **Australian Open Disclosure Framework** (Australian Commission on Safety and Quality in Health Care) expects open, honest communication with patients after harm. The key elements:\n1. **Acknowledge** the event promptly (ideally within 24 hours).\n2. **Apologise** or express regret, including the words **\"I am sorry\"**.\n3. **Explain** the facts as known, without speculation or blame.\n4. Let the patient and family **tell their story** and ask questions.\n5. Discuss the **consequences** and the plan for their care.\n6. Explain what will be done to **prevent recurrence**, and offer follow-up and a contact person.\n\nEvery state has **apology legislation**: an apology or expression of regret is generally **not an admission of liability** in civil proceedings (the scope varies by state). This removes the old fear that saying sorry will be used against you. Victoria has also introduced a statutory **duty of candour** for health services after serious adverse events.\n\nAlongside disclosure: make the patient safe, tell your senior, complete an **incident report** in the hospital's system, and notify your medical defence organisation if appropriate. Never alter records; add a dated, signed late entry if something needs correcting.\n\n### Negligence\nTo succeed in a negligence claim, the patient must show:\n1. **Duty of care** (always exists between doctor and patient; can also exist in an emergency where you assume care)\n2. **Breach** of the standard of care\n3. **Causation**: the breach caused the harm (and, for failure to warn, that the patient would not have gone ahead if properly warned)\n4. **Damage** that is not too remote.\n\nState civil liability laws let a doctor show that their **treatment** was widely accepted in Australia by peer professional opinion as competent practice, unless that opinion is irrational. This defence generally does not apply to **failure to warn**, where Rogers v Whitaker governs.\n\nGood Samaritan legislation in all states protects people who help in an emergency in good faith without expecting payment."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- **Drunk consultant before an operating list.** Speak to them, stop them operating, escalate to the head of department or director of medical services, and then notify AHPRA. The answer is not \"cover for them\" or \"wait and see\".\n- **Colleague with depression who is coping and has a treating doctor.** Support them; mandatory notification applies only if there is substantial risk to the public.\n- **Medication error by you.** Assess and treat the patient, tell your registrar, tell the patient honestly with an apology, report the incident. Hiding it is always wrong.\n- **Patient asks you out.** Decline kindly, maintain the professional relationship or transfer care, document.\n- **Expensive gift or a bequest.** Decline or seek advice; small tokens are fine.\n- Discriminating clue: when patient safety is at stake, the correct option **acts now and escalates**; when it isn't, the correct option usually **supports** the colleague first."
+        }
+      ],
+      "keyPoints": [
+        "AHPRA runs registration and notifications; the MBA sets the code 'Good medical practice'.",
+        "Notifiable conduct: intoxication, sexual misconduct, impairment with substantial risk, significant departure from standards.",
+        "Threshold is a reasonable belief; treating practitioners have a higher threshold (and WA differs).",
+        "Sexual relationships with current patients are never acceptable.",
+        "Open disclosure: acknowledge, say sorry, explain, listen, plan, prevent recurrence.",
+        "An apology is not an admission of liability under state apology laws.",
+        "Negligence needs duty, breach, causation and damage."
+      ],
+      "redFlags": [
+        "A colleague who is intoxicated or impaired and about to treat patients: stop them first, then notify.",
+        "Any sexual approach to or from a current patient.",
+        "Pressure to alter records or conceal an error."
+      ],
+      "contrast": [
+        {
+          "aspect": "Regulator",
+          "india": "National Medical Commission and state medical councils.",
+          "australia": "AHPRA and the Medical Board of Australia under a single National Law; NSW and Qld are co-regulatory."
+        },
+        {
+          "aspect": "After an error",
+          "india": "Defensive silence is common because of fear of litigation and violence.",
+          "australia": "Open disclosure is expected; saying sorry is legally protected by apology laws."
+        },
+        {
+          "aspect": "Reporting colleagues",
+          "india": "No formal statutory duty to report impaired peers.",
+          "australia": "Mandatory notification to AHPRA for the four types of notifiable conduct."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Four types of notifiable conduct?",
+          "back": "Practising intoxicated; sexual misconduct; impairment placing the public at substantial risk; significant departure from accepted standards."
+        },
+        {
+          "front": "What is the threshold for mandatory notification?",
+          "back": "A reasonable belief (not mere suspicion) that notifiable conduct has occurred."
+        },
+        {
+          "front": "Key words in open disclosure?",
+          "back": "An apology or expression of regret that includes 'I am sorry', with a factual explanation."
+        },
+        {
+          "front": "Four elements of negligence?",
+          "back": "Duty of care, breach, causation, damage."
+        },
+        {
+          "front": "Who publishes 'Good medical practice'?",
+          "back": "The Medical Board of Australia."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "ethics-law--professional-conduct-and-open-disclosure--q1",
+          "discipline": "population-health",
+          "topic": "ethics-law",
+          "difficulty": "core",
+          "stem": "You are an intern on a surgical ward in Canberra. You realise you charted enoxaparin 40 mg twice daily instead of once daily for a 71-year-old woman after a hip replacement. She has received two extra doses. She is well, with no bleeding, and her observations are normal.\n\nAfter reviewing her and informing your registrar, what is the most appropriate next step?",
+          "options": [
+            "Correct the chart and say nothing, as no harm has occurred",
+            "Tell the patient what happened, apologise and explain the monitoring plan, then complete an incident report",
+            "Complete an incident report but avoid apologising to the patient because it could be an admission of liability",
+            "Ask the nurse who gave the doses to explain the error to the patient",
+            "Wait until the end of the admission to tell the patient in case a complication develops"
+          ],
+          "answer": 1,
+          "explanation": "Under the **Australian Open Disclosure Framework**, patients should be told honestly and promptly about incidents that affect them, including near misses that reached the patient. Open disclosure includes **acknowledging** the error, an **apology** that includes the words \"I am sorry\", a factual **explanation**, the **plan** (here, monitoring for bleeding and checking haemoglobin and renal function), and what will be done to **prevent recurrence**.\n\nEvery state has apology legislation, so an apology is generally not an admission of liability. The event should also go into the hospital's incident reporting system. Concealment, delay or passing responsibility to someone else damages trust and breaches the code.",
+          "whyWrong": [
+            "Patients are entitled to know about errors that reached them, even without harm.",
+            "",
+            "Apology laws mean saying sorry is generally not an admission of liability; withholding it undermines disclosure.",
+            "The doctor responsible for the error should lead disclosure, supported by seniors.",
+            "Disclosure should be prompt, not delayed to see whether harm develops."
+          ],
+          "ausPearl": "The Australian Open Disclosure Framework is published by the Australian Commission on Safety and Quality in Health Care.",
+          "tags": [
+            "open disclosure",
+            "medication error",
+            "apology"
+          ]
+        },
+        {
+          "id": "ethics-law--professional-conduct-and-open-disclosure--q2",
+          "discipline": "population-health",
+          "topic": "ethics-law",
+          "difficulty": "exam",
+          "stem": "A GP in regional NSW is treating a 45-year-old anaesthetist for depression. The anaesthetist has been taking sick leave when unwell, engages well with treatment, sees a psychiatrist and has no suicidal thoughts. Her colleagues report no concerns about her work.\n\nRegarding notification to the regulator, what is the GP's obligation?",
+          "options": [
+            "Must notify immediately because she is a practitioner with a mental illness",
+            "Must notify because she works in a high-risk specialty",
+            "Must notify only if she changes to a different hospital",
+            "No mandatory notification is required, as there is no substantial risk of harm to the public",
+            "Must notify the anaesthetist's employer instead of the regulator"
+          ],
+          "answer": 3,
+          "explanation": "Having an illness is not notifiable. Mandatory notification for **impairment** requires a reasonable belief that the practitioner is placing the public at **substantial risk of harm**. As a **treating practitioner**, the GP also works under the higher threshold designed so that doctors are not deterred from seeking treatment.\n\nThis anaesthetist has insight, takes leave when unwell, is well supported, and there are no concerns about her practice. There is no substantial risk, so no notification is required. The GP should keep monitoring and revisit if her condition or insight changes.",
+          "whyWrong": [
+            "A diagnosis alone does not trigger notification; substantial risk to the public does.",
+            "Specialty does not change the threshold.",
+            "Changing workplace is irrelevant to the threshold.",
+            "",
+            "Informing the employer would breach confidentiality without justification."
+          ],
+          "ausPearl": "Western Australia exempts treating practitioners from most mandatory notification duties; check the Ahpra mandatory notification guidelines.",
+          "tags": [
+            "mandatory notification",
+            "impaired practitioner",
+            "ahpra"
+          ]
+        },
+        {
+          "id": "ethics-law--professional-conduct-and-open-disclosure--q3",
+          "discipline": "population-health",
+          "topic": "ethics-law",
+          "difficulty": "foundation",
+          "stem": "A 29-year-old female patient has seen her 35-year-old male GP in Townsville several times over 6 months for anxiety. At the end of a consultation she gives him her phone number and asks him to dinner.\n\nWhat is the most appropriate response?",
+          "options": [
+            "Accept, as both are consenting adults",
+            "Accept after transferring her care to another GP in the practice",
+            "Politely decline, explain that a relationship would not be appropriate, and document the interaction",
+            "Decline and immediately discharge her from the practice",
+            "Accept, provided they avoid discussing her health"
+          ],
+          "answer": 2,
+          "explanation": "A sexual or romantic relationship with a **current patient** is never acceptable under the Medical Board of Australia code of conduct, and would be notifiable sexual misconduct. The power imbalance is greater still in mental health care, where the patient may be vulnerable.\n\nThe appropriate response is to decline kindly and clearly, explain why, continue to provide care if the therapeutic relationship can be maintained (or arrange transfer if it cannot), and document the interaction. Transferring care in order to start a relationship does not remove the ethical problem, given the recent treating relationship and her vulnerability.",
+          "whyWrong": [
+            "Consent does not overcome the professional boundary with a current patient.",
+            "Transferring care in order to date a vulnerable recent patient still exploits the prior relationship.",
+            "",
+            "Abrupt discharge abandons her care; transfer only if the relationship cannot continue.",
+            "The relationship itself is the breach, whatever is discussed."
+          ],
+          "tags": [
+            "boundaries",
+            "code of conduct"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ethics-law--end-of-life-law",
+      "title": "End-of-life decisions and voluntary assisted dying",
+      "minutes": 15,
+      "objectives": [
+        "Explain the law on withholding and withdrawing non-beneficial treatment",
+        "Apply the doctrine of double effect to symptom control at the end of life",
+        "Use advance care directives and goals-of-care discussions appropriately",
+        "Outline the eligibility and safeguards of voluntary assisted dying in Australian states",
+        "Describe brain death determination and organ donation consent in Australia"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The legal landscape",
+          "body": "End-of-life questions test whether you can combine law with compassionate communication. The key principles in Australia:\n- A competent adult can refuse any treatment, now or in advance through an **advance care directive**.\n- Doctors are **not obliged to provide treatment that is non-beneficial** (futile), even if a patient or family demands it.\n- **Withholding and withdrawing** treatment are ethically and legally equivalent. Stopping a ventilator that is no longer helping is not killing.\n- Giving medication to relieve suffering is lawful even if it may shorten life, when the intention is relief (**double effect**).\n- Intentionally ending life is unlawful except under state **voluntary assisted dying (VAD)** laws, which are now in force in every state."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Advance care planning, futility and double effect",
+          "body": "### Advance care planning\n**Advance care planning** is a conversation about values, goals and preferences, ideally early in chronic illness. It can result in:\n- an **advance care directive**: a document made by a competent adult that records values and/or specific refusals. A valid, applicable refusal is **legally binding**. Forms and names vary by state, and common-law directives are also recognised.\n- appointment of a **substitute decision-maker**.\n- a hospital **goals of care** or resuscitation plan (the doctor's medical order, informed by the patient's wishes).\n\nA directive applies only when the person has lost capacity and the situation is one the directive covers. If there is genuine doubt about validity or applicability in an emergency, treat and clarify later.\n\n### Non-beneficial treatment\nIf a treatment offers no reasonable prospect of benefit (for example, CPR in a frail patient dying of metastatic cancer), you do not have to offer it. Good practice:\n- explain gently, focusing on what **will** be done (comfort, symptom control, dignity)\n- avoid asking families to \"decide\" whether to stop treatment: that places the burden of the decision on them; you make the medical recommendation and seek their agreement\n- offer a second opinion if there is disagreement; escalate unresolved disputes to the hospital, a tribunal or a court.\n\n### Double effect\nOpioids and sedatives given in doses **proportionate** to the symptoms, with the **intention of relieving suffering**, are lawful even if death may be hastened as a foreseen but unintended effect. In practice, properly titrated opioids rarely shorten life. **Palliative sedation** for refractory symptoms in the last days of life is lawful on the same basis. Giving a large dose with the intention of causing death is not.\n\n### Voluntary assisted dying\nVAD laws commenced in Victoria (2019), Western Australia (2021), Tasmania (2022), South Australia and Queensland (2023) and NSW (2023). The ACT has also legislated; the Northern Territory has not. Eligibility and process **vary by state**, but the core features are shared:\n- adult (18 or over), Australian citizen or permanent resident, meeting a **state residency** requirement\n- has **decision-making capacity** throughout, and is acting **voluntarily** without coercion\n- has an **advanced, progressive condition expected to cause death within a set time** (commonly 6 months, or 12 months for neurodegenerative conditions; Queensland uses 12 months for all conditions; check the state law) and is suffering in a way they find intolerable\n- **mental illness or disability alone does not qualify**\n- a staged process: first request, **two independent eligibility assessments** by trained doctors, a written declaration, a final request, then self-administration or, in defined circumstances, practitioner administration.\n\nSafeguards: a request must come from the patient personally; it cannot be made in an advance directive or by a substitute decision-maker, so a person who loses capacity (for example, from advanced dementia) cannot access VAD. Some states have restricted doctors from **initiating** a VAD discussion; this differs between states and has been amended, so check current law. Doctors may **conscientiously object**, but should not obstruct access and must meet any state obligations to provide information. Commonwealth law restricts using a telephone or internet service to counsel suicide, which has limited VAD consultations by telehealth."
+        },
+        {
+          "kind": "application",
+          "heading": "Brain death, organ donation and practical scenarios",
+          "body": "### Brain death and organ donation\nDeath can be determined by **irreversible cessation of circulation** or **irreversible cessation of all brain function**. Brain death determination follows the **ANZICS Statement on Death and Organ Donation**: preconditions (known cause, exclusion of reversible causes such as sedatives, hypothermia and severe metabolic disturbance), then clinical testing (absent brainstem reflexes, apnoea test) by **two appropriately experienced senior doctors**, or imaging showing absent intracranial blood flow when clinical testing cannot be completed.\n\nAustralia uses an **opt-in** system through the **Australian Organ Donor Register**. The family is always approached (by trained DonateLife staff where possible) and in practice their agreement is sought even when the person registered. The treating team's decision to withdraw treatment should be separate from the donation conversation.\n\n### Scenarios\n- **Daughter demands \"everything be done\" for her father with end-stage heart failure and multiorgan failure.** Explore her fears, explain what treatment can and cannot achieve, recommend a comfort-focused plan, offer a second opinion, involve palliative care. You are not obliged to provide CPR that will not work.\n- **Patient with motor neurone disease on non-invasive ventilation asks to stop it.** A competent refusal: you must respect it, and give sedation and opioids to relieve breathlessness as it is withdrawn. This is not VAD or euthanasia.\n- **Patient with terminal cancer in NSW asks about VAD.** Respond respectfully, provide information or refer to a VAD care navigator or a participating doctor, and continue full palliative care. If you conscientiously object, tell them and make sure they can access information elsewhere.\n- **Syringe driver morphine being increased as a patient becomes more distressed in the last days.** Lawful under double effect when titrated to symptoms."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- The answer that **respects a competent refusal** or a valid advance directive usually wins.\n- \"The family insists on CPR\" does not oblige you to perform non-beneficial CPR; the answer is communication and a clear medical recommendation, not surrender or confrontation.\n- Withdrawing life support at a competent patient's request is lawful and different from VAD.\n- VAD cannot be requested by family or through an advance directive, and dementia with lost capacity is not eligible.\n- Death after withdrawal of treatment for a natural illness is not automatically reportable to the coroner; death from injury is.\n- Trap: an option offering a high dose of drug \"to end suffering quickly\" outside VAD law is unlawful."
+        }
+      ],
+      "keyPoints": [
+        "Doctors need not provide non-beneficial treatment; withholding and withdrawing are equivalent.",
+        "A valid advance care directive refusing treatment is binding when the patient lacks capacity.",
+        "Double effect: proportionate symptom relief is lawful even if life may be shortened.",
+        "VAD is legal in every state under state law, with residency, capacity, prognosis and two-assessment safeguards.",
+        "VAD cannot be requested by others or via an advance directive; mental illness or disability alone does not qualify.",
+        "Brain death is determined by two senior doctors per the ANZICS statement.",
+        "Organ donation is opt-in via the Australian Organ Donor Register, with families always consulted."
+      ],
+      "redFlags": [
+        "Signs of coercion or family pressure in a request for VAD.",
+        "Uncorrected reversible causes (sedation, hypothermia, metabolic) before brain death testing.",
+        "A family member asking you to give a lethal dose outside the VAD process."
+      ],
+      "contrast": [
+        {
+          "aspect": "Assisted dying",
+          "india": "Active euthanasia illegal; passive euthanasia (withdrawal) permitted with safeguards since Common Cause (2018).",
+          "australia": "Voluntary assisted dying legal under state laws in all six states; NT does not have it."
+        },
+        {
+          "aspect": "Advance directives",
+          "india": "Living wills recognised since 2018 but little used, with procedural requirements.",
+          "australia": "Advance care planning is routine in general practice and aged care; directives are statutory in most states."
+        },
+        {
+          "aspect": "Organ donation",
+          "india": "Opt-in under THOTA; family consent central.",
+          "australia": "Opt-in via the Australian Organ Donor Register; family consulted; DonateLife network."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Is withdrawing treatment legally different from withholding it?",
+          "back": "No. They are ethically and legally equivalent."
+        },
+        {
+          "front": "What is the doctrine of double effect?",
+          "back": "Proportionate treatment intended to relieve suffering is lawful even if it may foreseeably hasten death."
+        },
+        {
+          "front": "Who can request voluntary assisted dying?",
+          "back": "Only the competent adult patient, personally and voluntarily. Not family, and not via an advance directive."
+        },
+        {
+          "front": "Which statement guides brain death determination in Australia?",
+          "back": "The ANZICS Statement on Death and Organ Donation (two senior doctors)."
+        },
+        {
+          "front": "Is organ donation in Australia opt-in or opt-out?",
+          "back": "Opt-in (Australian Organ Donor Register); family are always consulted."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "ethics-law--end-of-life-law--q1",
+          "discipline": "population-health",
+          "topic": "ethics-law",
+          "difficulty": "core",
+          "stem": "A 63-year-old man with motor neurone disease has been on nocturnal non-invasive ventilation for a year and now needs it almost continuously. At home in Melbourne, he tells his GP he wants the ventilation stopped because he finds it intolerable. He has full capacity and has discussed this with his family, who support him.\n\nWhat is the most appropriate response?",
+          "options": [
+            "Explain that stopping ventilation would be euthanasia and is unlawful",
+            "Refer him for voluntary assisted dying, as this is the only lawful pathway",
+            "Seek a court order before stopping ventilation",
+            "Arrange psychiatric assessment and continue ventilation until depression is excluded",
+            "Arrange for the ventilation to be withdrawn with palliative sedation and opioids to relieve breathlessness"
+          ],
+          "answer": 4,
+          "explanation": "A **competent adult may refuse any treatment**, including life-sustaining treatment, and may withdraw consent to treatment already started. Withdrawing a ventilator at a competent patient's request is **not euthanasia or VAD**: the death that follows is from the underlying disease.\n\nGood care is planned withdrawal with palliative care involvement, using opioids and sedatives titrated to relieve breathlessness and distress (lawful under **double effect**). Screening for depression is reasonable if there are clinical concerns, but a presumption of incapacity or mandatory psychiatric review is not justified. No court order is needed.",
+          "whyWrong": [
+            "Respecting a competent refusal is lawful and is not euthanasia.",
+            "VAD is a separate process; he does not need it to refuse treatment.",
+            "A court order is not required to respect a competent refusal.",
+            "Capacity is presumed and there is no indication he lacks it; delaying respects neither his autonomy nor his suffering.",
+            ""
+          ],
+          "tags": [
+            "refusal",
+            "withdrawal of treatment",
+            "palliative care"
+          ]
+        },
+        {
+          "id": "ethics-law--end-of-life-law--q2",
+          "discipline": "population-health",
+          "topic": "ethics-law",
+          "difficulty": "exam",
+          "stem": "An 88-year-old woman in a Brisbane hospital has advanced dementia and aspiration pneumonia. Two years ago, while competent, she completed a Queensland advance health directive stating that she does not want antibiotics or artificial feeding if she has advanced dementia and a life-threatening illness. Her son, who is her appointed attorney for health matters, now asks the team to give IV antibiotics because he is \"not ready to lose her\".\n\nWhat is the most appropriate action?",
+          "options": [
+            "Follow the advance directive, provide comfort care, and support the son",
+            "Give antibiotics under the doctrine of necessity because pneumonia is life-threatening",
+            "Give IV antibiotics as the son is her attorney for health matters",
+            "Apply to the tribunal to overrule the directive",
+            "Give oral antibiotics only as a compromise"
+          ],
+          "answer": 0,
+          "explanation": "A **valid advance directive** made while competent, which clearly applies to the current situation, is **legally binding**. Hers explicitly covers this situation: advanced dementia and a life-threatening illness. A substitute decision-maker cannot override a valid directive; their role is to decide matters the directive does not cover, in line with the person's wishes.\n\nThe team should explain this gently to the son, acknowledge his grief, and focus on comfort, symptom control and time with family, with palliative care involvement. The doctrine of necessity does not apply when there is a valid refusal.",
+          "whyWrong": [
+            "",
+            "Necessity does not permit treatment that the patient has validly refused in advance.",
+            "An attorney cannot override a valid, applicable refusal in an advance directive.",
+            "There is no reason to doubt the directive's validity, so a tribunal application is not justified.",
+            "Oral antibiotics are still antibiotics, which she refused."
+          ],
+          "ausPearl": "Advance directive names vary: advance health directive (Qld, WA), advance care directive (SA, NSW common law), instructional directive (Vic).",
+          "tags": [
+            "advance care directive",
+            "end of life",
+            "dementia"
+          ]
+        },
+        {
+          "id": "ethics-law--end-of-life-law--q3",
+          "discipline": "population-health",
+          "topic": "ethics-law",
+          "difficulty": "core",
+          "stem": "A 70-year-old woman with metastatic pancreatic cancer in Adelaide asks her hospital doctor whether she can access voluntary assisted dying. She has capacity, has lived in South Australia all her life, and her oncologist expects death within 3 months. Her daughter is present and says she will \"sign whatever is needed\".\n\nWhich statement about the process is correct?",
+          "options": [
+            "Her daughter can make the request on her behalf if she loses capacity",
+            "She must personally make the request and be assessed as eligible by two independent practitioners",
+            "Her treating doctor can approve VAD alone if death is expected within 6 months",
+            "She would need to include VAD in an advance care directive first",
+            "She is not eligible because cancer patients receive palliative care instead"
+          ],
+          "answer": 1,
+          "explanation": "Across Australian state VAD laws, the **request must be made by the person herself**, voluntarily, while she has **decision-making capacity**, and she must be found eligible by **two independent, trained practitioners** (a coordinating and a consulting practitioner) after a staged process of requests and a written declaration.\n\nA family member cannot request VAD on her behalf, and VAD cannot be accessed through an advance directive, so if she loses capacity she cannot proceed. Palliative care and VAD are not alternatives; she should continue to receive full palliative care. Her daughter's comment is also a prompt to check that the request is voluntary and free from pressure.",
+          "whyWrong": [
+            "A third party can never make a VAD request.",
+            "",
+            "Two independent assessments are required; one doctor cannot approve it alone.",
+            "VAD cannot be requested through an advance directive.",
+            "Receiving palliative care does not make someone ineligible."
+          ],
+          "tags": [
+            "voluntary assisted dying",
+            "end of life"
+          ]
+        }
+      ]
+    }
+  ]
+}

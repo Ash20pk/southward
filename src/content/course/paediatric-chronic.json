@@ -1,0 +1,1294 @@
+{
+  "topic": "paediatric-chronic",
+  "intro": "Chronic paediatric conditions covers the long-term illnesses GPs and paediatricians manage every day: asthma, food allergy, type 1 diabetes and obesity, epilepsy, cystic fibrosis, ADHD, and acute rheumatic fever with rheumatic heart disease. The AMC tests diagnosis, first-line Australian management, school and family support, and the parts that differ from India, such as ASCIA action plans, CF newborn screening, state stimulant regulation and ARF in Aboriginal and Torres Strait Islander children.",
+  "lessons": [
+    {
+      "id": "paediatric-chronic--childhood-asthma",
+      "title": "Childhood asthma",
+      "minutes": 16,
+      "objectives": [
+        "Diagnose asthma in children and distinguish it from preschool viral wheeze and other causes of wheeze",
+        "Decide when a child needs a preventer and choose it by age using the Australian Asthma Handbook",
+        "Teach inhaler and spacer technique and write an asthma action plan",
+        "Assess asthma control and troubleshoot poor control before stepping up"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why asthma is a core AMC topic",
+          "body": "Asthma is the most common chronic disease of Australian children, affecting roughly **1 in 10**. Australia's rates are among the highest in the world, and asthma is a leading cause of paediatric hospital admission and school absence. Deaths still occur, usually in children with poor control, poor adherence or delayed treatment. Most care happens in **general practice**, guided by the **National Asthma Council's Australian Asthma Handbook** (AAH).\n\nIn Australia every child with asthma should have a **written asthma action plan**, and schools and childcare services keep asthma plans and emergency reliever kits. Acute severe asthma is covered in paediatric emergencies; this lesson is about diagnosis and long-term control."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Mechanism",
+          "body": "Asthma is **chronic airway inflammation** (usually eosinophilic, Th2-driven in atopic children) causing **variable airflow obstruction** through bronchial smooth muscle contraction, mucosal oedema and mucus plugging, with **airway hyperresponsiveness** to triggers.\n\n- **Triggers**: viral URTIs (the commonest trigger in young children), exercise, cold air, allergens (house dust mite, pollens, pets, moulds), tobacco smoke and vaping, bushfire smoke, and **thunderstorm asthma** (a Victorian phenomenon: ryegrass pollen ruptured by storms; the 2016 Melbourne epidemic).\n- **Atopy**: asthma clusters with eczema, allergic rhinitis and food allergy (the \"atopic march\").\n- Because the problem is inflammation, **inhaled corticosteroids** (ICS) are the backbone of prevention; relievers treat the bronchospasm but not the underlying disease."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Diagnosis",
+          "body": "**Typical features**: recurrent wheeze, cough (especially **at night and with exercise**), breathlessness and chest tightness; symptoms vary over time and are triggered; personal or family history of atopy; response to bronchodilator.\n\n**Preschool children (1-5 years)**: many wheeze only with viral infections (**episodic viral wheeze**) and outgrow it. Asthma cannot be confirmed with spirometry at this age, so the AAH describes patterns rather than a firm diagnosis: wheeze only with colds vs wheeze between colds (multiple-trigger wheeze), and atopy increases the chance of persistent asthma.\n\n**Children 6 and over**: confirm with **spirometry** where possible, showing **reversible airflow limitation** (FEV1 increase of at least 12% after bronchodilator). Normal spirometry between episodes does not exclude asthma.\n\n**Differentials** (think of them when features are atypical):\n\n| Clue | Consider |\n|---|---|\n| Sudden onset after choking, unilateral wheeze | **Inhaled foreign body** |\n| Wet cough for over 4 weeks, no wheeze | **Protracted bacterial bronchitis**, bronchiectasis |\n| Failure to thrive, steatorrhoea, recurrent chest infections | **Cystic fibrosis** |\n| Wheeze from birth, stridor, feeding issues | Structural airway abnormality, vascular ring |\n| Infant under 12 months with first wheeze and coryza | **Bronchiolitis** |\n| Inspiratory noise, throat tightness with exercise in an adolescent athlete | **Inducible laryngeal obstruction** (vocal cord dysfunction) |\n| Cough only, no other features | Post-viral cough, upper airway cough |"
+        },
+        {
+          "kind": "management",
+          "heading": "Long-term management",
+          "body": "**Relievers**: short-acting beta-2 agonist (**salbutamol**) via **pMDI and spacer** for all ages (with a face mask for children too young to use a mouthpiece, usually under about 4). Spacers deliver as well as nebulisers.\n\n**When to start a preventer** (AAH principle): not every child with asthma needs one. Consider a preventer when symptoms are **frequent** (for example, recurring several times a week or waking at night), when the child has had **flare-ups needing oral corticosteroids or ED visits**, or when asthma limits activity. Follow the AAH for exact thresholds by age.\n\n| Age | First-line preventer | If still uncontrolled |\n|---|---|---|\n| 1-5 years | **Montelukast** or **low-dose ICS** (trial, then review) | Specialist referral |\n| 6-11 years | **Low-dose ICS** (montelukast an alternative) | Check adherence and technique, then increase ICS, add montelukast or use ICS/LABA; consider referral |\n| 12 years and over | Low-dose ICS, or **as-needed low-dose budesonide-formoterol** (anti-inflammatory reliever) for mild asthma | Maintenance-and-reliever ICS-formoterol, higher doses, specialist |\n\n**Monitoring and side effects**: low-dose ICS may slightly reduce growth velocity (about 0.5-1 cm, mostly in the first year) but the benefit outweighs this; use the lowest effective dose and rinse the mouth after use. Montelukast can cause **neuropsychiatric effects** (sleep disturbance, agitation, mood changes), so parents should be warned.\n\n**Assessing control** at every visit: daytime symptoms, reliever use, night waking, activity limitation, and flare-ups. **Before stepping up, check**:\n1. **Inhaler technique** (most common problem)\n2. **Adherence** (collected scripts, honest conversation)\n3. **Triggers and exposure** (smoking or vaping at home, allergens)\n4. **Comorbidities** (allergic rhinitis, obesity, reflux)\n5. **Is it really asthma?**\n\n**Written asthma action plan**: what to take every day, how to recognise worsening, what to do in a flare-up (increase reliever, when to start oral prednisolone if prescribed, when to seek help), and emergency steps. **Asthma first aid** (National Asthma Council): sit upright, **4 separate puffs of reliever via spacer (1 puff, 4 breaths, repeat)**, wait 4 minutes, repeat 4 puffs; if no improvement call **000** and keep giving 4 puffs every 4 minutes.\n\nAlso: annual influenza vaccination, smoke-free home, review after every ED visit, and a school action plan.\n\n**Exercise-induced bronchoconstriction**: cough or wheeze during or just after exercise. Taking salbutamol 5-20 minutes before exercise helps, and a proper warm-up reduces symptoms. If a child needs a reliever for exercise most days, that is a sign asthma is **not well controlled** and the preventer should be reviewed, not a reason to stop sport. Encourage children with asthma to be fully active."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Frequent night cough and reliever use several times a week in a 7-year-old: **start low-dose ICS** and an action plan.\n- Poor control on ICS: the right next step is usually **check technique and adherence**, not \"double the dose\".\n- Spacer over nebuliser for home and most acute care.\n- Wet cough without wheeze for weeks is not asthma.\n- Asthma first aid: **4 puffs, 4 breaths each, wait 4 minutes**.\n- Montelukast: warn about neuropsychiatric side effects."
+        }
+      ],
+      "keyPoints": [
+        "Asthma affects about 1 in 10 Australian children; most care is in general practice.",
+        "Spirometry from about age 6: FEV1 rise of at least 12% after bronchodilator supports asthma.",
+        "Preschool wheeze is often episodic viral wheeze; atopy predicts persistence.",
+        "Preventer when symptoms are frequent or flare-ups need oral steroids; low-dose ICS first-line from age 6.",
+        "Always use a pMDI with spacer; face mask in young children.",
+        "Check technique, adherence and triggers before stepping up.",
+        "Every child needs a written asthma action plan; asthma first aid is 4 puffs, wait 4 minutes."
+      ],
+      "redFlags": [
+        "Night waking and reliever use most days despite preventer",
+        "Flare-up needing oral steroids or ED visit",
+        "Unilateral wheeze or wheeze after choking",
+        "Failure to thrive or chronic wet cough"
+      ],
+      "contrast": [
+        {
+          "aspect": "Delivery device",
+          "india": "Nebulisers and syrups (oral salbutamol) still common.",
+          "australia": "pMDI with spacer for all ages; oral salbutamol not recommended."
+        },
+        {
+          "aspect": "Written plan",
+          "india": "Verbal instructions usual.",
+          "australia": "Written asthma action plan for every child, with copies for school and childcare."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Spirometric criterion for bronchodilator reversibility?",
+          "back": "FEV1 increase of at least 12% after bronchodilator."
+        },
+        {
+          "front": "First-line preventer for a 7-year-old with frequent asthma symptoms?",
+          "back": "Low-dose inhaled corticosteroid."
+        },
+        {
+          "front": "Asthma first aid (National Asthma Council)?",
+          "back": "Sit upright; 4 puffs via spacer (1 puff, 4 breaths each), wait 4 minutes, repeat; call 000 if no improvement."
+        },
+        {
+          "front": "Most common reason for poor asthma control on a preventer?",
+          "back": "Poor inhaler technique or poor adherence."
+        },
+        {
+          "front": "Important side effect warning for montelukast?",
+          "back": "Neuropsychiatric effects: sleep disturbance, agitation, mood change."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "paediatric-chronic--childhood-asthma--q1",
+          "discipline": "child-health",
+          "topic": "paediatric-chronic",
+          "difficulty": "foundation",
+          "stem": "An 8-year-old boy has had a dry cough at night and wheeze with sport for several months. He uses salbutamol 4-5 days a week and wakes at night with cough about twice a week. He has eczema. Spirometry shows a 15% rise in FEV1 after bronchodilator. He has never had a preventer. What is the most appropriate next step?",
+          "options": [
+            "Continue salbutamol as needed only",
+            "Start oral prednisolone for 5 days",
+            "Start a long-acting beta-agonist alone",
+            "Start regular low-dose inhaled corticosteroid via spacer and provide a written asthma action plan",
+            "Start nebulised salbutamol twice daily"
+          ],
+          "answer": 3,
+          "explanation": "He has confirmed asthma (typical symptoms, atopy and **reversibility of 15%**) with **frequent symptoms** and **night waking**, so reliever-only treatment is not enough. The Australian Asthma Handbook recommends a **regular low-dose inhaled corticosteroid** as first-line preventer for children aged 6-11, delivered by **pMDI with spacer**, plus a **written asthma action plan**.\n\nReview in 4-6 weeks to check control, technique and adherence. A LABA must never be used without an ICS because LABA monotherapy is associated with severe asthma events.",
+          "whyWrong": [
+            "Frequent symptoms and night waking mean he needs a preventer.",
+            "Oral steroids treat flare-ups, not ongoing control.",
+            "LABA monotherapy is unsafe in asthma.",
+            "",
+            "Nebulisers are not needed for maintenance and salbutamol is not a preventer."
+          ],
+          "tags": [
+            "asthma",
+            "preventer",
+            "ics"
+          ]
+        },
+        {
+          "id": "paediatric-chronic--childhood-asthma--q2",
+          "discipline": "child-health",
+          "topic": "paediatric-chronic",
+          "difficulty": "core",
+          "stem": "A 10-year-old girl has been on low-dose inhaled fluticasone for 6 months but still uses her reliever most days and has had two ED visits. Her mother says she takes the preventer 'most mornings'. When asked to demonstrate, she takes the puffer without a spacer, inhales before pressing the canister, and does not hold her breath. What is the most appropriate next step?",
+          "options": [
+            "Correct her inhaler technique with a spacer and address adherence, then review",
+            "Double the dose of inhaled corticosteroid",
+            "Add oral montelukast",
+            "Refer for a sweat test",
+            "Switch to a nebulised preventer"
+          ],
+          "answer": 0,
+          "explanation": "Before stepping up asthma treatment, always check **inhaler technique, adherence, triggers and the diagnosis**. This girl has clearly poor technique (no spacer, poor coordination, no breath hold), so very little drug reaches her lungs, and her adherence is uncertain.\n\nThe next step is to **teach technique with a spacer**, address adherence (a routine, reminders, understanding why a preventer is needed daily), check exposure to smoke and allergens, update her action plan, and review in 4-6 weeks. Only if still uncontrolled would treatment be stepped up.",
+          "whyWrong": [
+            "",
+            "Increasing the dose won't help if little drug reaches the lungs.",
+            "Adding a drug before fixing technique and adherence is premature.",
+            "Nothing here suggests CF; she has typical asthma with poor technique.",
+            "A spacer is as effective as a nebuliser for most children."
+          ],
+          "tags": [
+            "asthma",
+            "inhaler technique",
+            "adherence"
+          ]
+        },
+        {
+          "id": "paediatric-chronic--childhood-asthma--q3",
+          "discipline": "child-health",
+          "topic": "paediatric-chronic",
+          "difficulty": "exam",
+          "stem": "A 3-year-old boy has had four episodes of wheeze and cough over the past year, each starting with a cold and settling within a week with salbutamol via spacer and mask. Between episodes he is completely well, running around without cough or wheeze, and sleeps well. He has no eczema or food allergy. What is the most appropriate management?",
+          "options": [
+            "Start regular inhaled corticosteroid",
+            "Arrange spirometry",
+            "Prescribe oral salbutamol syrup for future episodes",
+            "Refer to a respiratory paediatrician",
+            "Continue salbutamol via spacer and mask as needed for episodes, with a written action plan and review"
+          ],
+          "answer": 4,
+          "explanation": "This pattern is **episodic viral wheeze**: wheeze only with colds and completely well between episodes, with no atopy. It is common in preschoolers and most children outgrow it as their airways grow.\n\nManagement is **salbutamol via pMDI, spacer and mask** as needed during episodes, a written plan, avoiding smoke exposure, and review. **Regular preventers are not routinely needed** for infrequent episodic viral wheeze; the AAH suggests considering a trial if episodes are frequent or severe.\n\nSpirometry is not reliable under about age 6, and oral salbutamol is not recommended (slower, more side effects).",
+          "whyWrong": [
+            "Regular ICS is not routinely indicated for infrequent episodic viral wheeze.",
+            "Spirometry is unreliable at this age.",
+            "Oral salbutamol is less effective with more side effects.",
+            "Referral is not needed for a typical, mild pattern.",
+            ""
+          ],
+          "tags": [
+            "viral wheeze",
+            "preschool",
+            "asthma"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paediatric-chronic--food-allergy",
+      "title": "Food allergy in children",
+      "minutes": 13,
+      "objectives": [
+        "Distinguish IgE-mediated from non-IgE-mediated food allergy by timing and features",
+        "Interpret skin prick tests and specific IgE sensibly, knowing that sensitisation is not allergy",
+        "Give ASCIA advice on introducing allergenic foods to infants",
+        "Manage a child at risk of anaphylaxis with an ASCIA action plan, autoinjector and school planning"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Australia's allergy problem",
+          "body": "Australia has some of the highest rates of childhood food allergy in the world. In Melbourne's **HealthNuts** study, **over 10% of 1-year-olds** had challenge-proven food allergy (egg and peanut most commonly). Risk factors include **infant eczema** (especially early-onset and severe), family history of allergy, and delayed introduction of allergenic foods. East Asian heritage and living in southern Australia (lower vitamin D) have also been associated.\n\nThe national body is **ASCIA** (Australasian Society of Clinical Immunology and Allergy). Its action plans, infant feeding guidance and school guidelines are what the AMC expects you to know."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Types of food allergy",
+          "body": "| Type | Mechanism | Timing | Examples |\n|---|---|---|---|\n| **IgE-mediated** | Specific IgE on mast cells | **Minutes to 2 hours** | Hives, lip swelling, vomiting, wheeze, **anaphylaxis**; peanut, tree nut, egg, milk, sesame, fish, shellfish, wheat, soy |\n| **Non-IgE-mediated** | Cell-mediated | Hours to days | **FPIES** (profuse vomiting 1-4 hours after trigger, pallor, lethargy), food protein-induced proctocolitis (blood-streaked stools in a well breastfed infant), enteropathy |\n| **Mixed** | Both | Variable | **Eosinophilic oesophagitis** (dysphagia, food bolus impaction in older children), atopic eczema flares |\n\n**Food intolerance** (for example lactose intolerance after gastroenteritis) is not allergy: it is not immune-mediated and cannot cause anaphylaxis.\n\n**Why early introduction works**: the \"dual allergen exposure\" hypothesis. Exposure through **inflamed, eczematous skin** tends to cause sensitisation; exposure through the **gut** tends to cause tolerance. The LEAP trial showed that early peanut introduction in high-risk infants markedly reduced peanut allergy. That reversed older advice to delay allergenic foods."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Testing: history first",
+          "body": "- **The history is the most important test**: which food, how much, how quickly symptoms began, what the symptoms were, and whether the food has been tolerated since.\n- **Skin prick test (SPT)** or **serum specific IgE** confirm **sensitisation**. A positive test **does not mean allergy**: many sensitised children tolerate the food. Larger wheals or higher IgE levels increase the likelihood of true allergy.\n- **Do not order broad \"food panels\"** without a history; they produce false positives that lead to unnecessary food avoidance and nutritional problems.\n- **Oral food challenge** under specialist supervision is the **gold standard** and is used to confirm allergy or tolerance (especially to see whether a child has outgrown an allergy).\n- Unproven tests (IgG food testing, kinesiology, hair analysis, Vega testing) have no role; ASCIA specifically warns against them.\n- FPIES is a clinical diagnosis; SPT and IgE are usually negative."
+        },
+        {
+          "kind": "management",
+          "heading": "Managing the food-allergic child",
+          "body": "**Avoidance and education**: label reading (Australian food labelling must declare common allergens), eating out, \"may contain\" statements, and cross-contamination. A dietitian helps avoid nutritional deficiency, especially in milk allergy.\n\n**ASCIA action plans**:\n- **Red ASCIA Action Plan for Anaphylaxis**: for children prescribed an **adrenaline autoinjector** (those with previous anaphylaxis, or considered at high risk, such as peanut/tree nut allergy with asthma).\n- **Green ASCIA Action Plan for Allergic Reactions**: for children with allergy not prescribed an autoinjector.\n- Autoinjector dose: **150 microg for 7.5-20 kg, 300 microg for over 20 kg**. Autoinjectors are PBS-subsidised; families are trained and plans are shared with school and childcare.\n\n**Schools and childcare**: individual health care plans, staff training in anaphylaxis, and general-use autoinjectors. Blanket \"nut bans\" are not recommended by ASCIA because they create false security; risk minimisation strategies are preferred.\n\n**Cow's milk protein allergy in infants**:\n- Breastfeeding: continue; mother may need to exclude dairy in some cases (non-IgE forms), with dietitian support and calcium.\n- Formula-fed: **extensively hydrolysed formula** first-line; **amino acid formula** for severe or anaphylactic cases, or if hydrolysed fails.\n- **Soy formula** is not recommended under 6 months; **goat's milk and other mammalian milks** are unsuitable (cross-reactive).\n- Most children **outgrow milk and egg allergy** (often by school age), usually confirmed by supervised reintroduction or challenge. A ladder approach to baked milk or egg may be used under specialist guidance.\n- **Peanut, tree nut, sesame, fish and shellfish** allergy usually persists (only about 20% outgrow peanut allergy).\n\n**Oral immunotherapy**: offered in some specialist centres and trials for peanut allergy, not in general practice.\n\n**Asthma control** is crucial because asthma is the main risk factor for fatal anaphylaxis."
+        },
+        {
+          "kind": "application",
+          "heading": "Infant feeding advice (ASCIA)",
+          "body": "ASCIA's advice for **all infants**, including those at high risk of allergy:\n- **Introduce solid foods around 6 months, but not before 4 months**, when the infant shows signs of readiness.\n- **Introduce common allergenic foods, including smooth peanut butter/paste and well-cooked egg, in the first year of life** (by 12 months). Do not delay.\n- Once introduced, **keep giving them regularly** (about twice a week) to maintain tolerance.\n- Hydrolysed (partially hydrolysed) formula is no longer recommended for allergy prevention.\n- Continue breastfeeding while solids are introduced.\n- Manage eczema actively (emollients, topical corticosteroids), since skin inflammation drives sensitisation.\n- **Screening tests before introducing foods are not recommended** for most infants; infants with severe eczema or known egg allergy may benefit from medical advice first, but should not have introduction delayed unnecessarily.\n- Whole nuts are a choking hazard under 5 years; use smooth pastes."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Parent asks when to introduce peanut: **in the first year, around 6 months (not before 4 months), and keep it in the diet**.\n- Positive SPT to a food the child eats without symptoms: **not allergic**; keep eating it.\n- Repetitive vomiting and pallor 2 hours after rice cereal, no rash: **FPIES**, not anaphylaxis; no adrenaline, IV fluids if severe.\n- Blood-streaked stools in a thriving breastfed infant: **food protein-induced proctocolitis** (cow's milk usually).\n- Milk-allergic infant on formula: **extensively hydrolysed formula**, not soy (under 6 months) or goat milk.\n- Autoinjector doses and the red vs green ASCIA plans."
+        }
+      ],
+      "keyPoints": [
+        "Over 10% of Melbourne 1-year-olds had challenge-proven food allergy (HealthNuts).",
+        "IgE-mediated reactions occur within minutes to 2 hours; non-IgE (FPIES, proctocolitis) are delayed.",
+        "Sensitisation on SPT or IgE is not allergy; history is key; oral food challenge is the gold standard.",
+        "Introduce allergenic foods including peanut and egg in the first year, around 6 months, and keep them in the diet.",
+        "Red ASCIA plan with autoinjector for anaphylaxis risk; green plan for allergic reactions.",
+        "Milk allergy: extensively hydrolysed formula first; amino acid formula if severe.",
+        "Milk and egg allergy usually resolve; peanut, tree nut and seafood allergies usually persist."
+      ],
+      "redFlags": [
+        "Previous anaphylaxis",
+        "Food allergy with poorly controlled asthma",
+        "Peanut or tree nut allergy in an adolescent (higher fatality risk)",
+        "Food bolus impaction or dysphagia (eosinophilic oesophagitis)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Timing of allergenic foods",
+          "india": "Advice to delay egg, nuts and fish is still common among families.",
+          "australia": "ASCIA: introduce peanut and egg in the first year, around 6 months (not before 4 months)."
+        },
+        {
+          "aspect": "Allergy testing",
+          "india": "Broad IgE panels ordered without history in private labs.",
+          "australia": "Test only for foods suggested by history; oral food challenge by specialists; unproven tests discouraged."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "ASCIA advice on timing of solids?",
+          "back": "Around 6 months, not before 4 months, when developmentally ready."
+        },
+        {
+          "front": "When should peanut and egg be introduced to infants?",
+          "back": "In the first year of life, then given regularly."
+        },
+        {
+          "front": "First-line formula for cow's milk protein allergy?",
+          "back": "Extensively hydrolysed formula (amino acid formula if severe)."
+        },
+        {
+          "front": "Gold standard test for food allergy?",
+          "back": "Supervised oral food challenge."
+        },
+        {
+          "front": "Classic presentation of FPIES?",
+          "back": "Repetitive profuse vomiting 1-4 hours after a trigger food, with pallor and lethargy, no skin or respiratory signs."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "paediatric-chronic--food-allergy--q1",
+          "discipline": "child-health",
+          "topic": "paediatric-chronic",
+          "difficulty": "foundation",
+          "stem": "A mother brings her 5-month-old daughter, who has moderate eczema, to discuss starting solids. Her older son has peanut allergy and she plans to avoid peanut and egg until her daughter is 3 years old. What is the most appropriate advice?",
+          "options": [
+            "Avoid peanut and egg until 3 years of age",
+            "Start solids now and introduce peanut and egg later in the second year",
+            "Arrange skin prick testing to all common food allergens before any solids are introduced",
+            "Introduce solids around 6 months, including peanut and well-cooked egg in the first year, and continue them regularly, while treating the eczema",
+            "Switch to a partially hydrolysed formula to prevent allergy"
+          ],
+          "answer": 3,
+          "explanation": "ASCIA recommends that **all infants**, including those at higher risk (eczema, sibling with allergy), start solids **around 6 months (not before 4 months)** and have common allergenic foods, including **smooth peanut and well-cooked egg, introduced in the first year of life**, then **given regularly**.\n\nDelaying allergenic foods **increases** the risk of food allergy (as shown by the LEAP trial for peanut). Active **eczema treatment** matters because inflamed skin is a route for sensitisation. Routine screening tests before introduction are not recommended for most infants, and hydrolysed formulas are no longer recommended for allergy prevention.",
+          "whyWrong": [
+            "Delaying allergenic foods increases the risk of allergy.",
+            "Introduction should occur in the first year, not the second.",
+            "Routine screening before introduction is not recommended and causes false positives.",
+            "",
+            "Partially hydrolysed formula does not prevent allergy."
+          ],
+          "tags": [
+            "food allergy",
+            "infant feeding",
+            "peanut"
+          ]
+        },
+        {
+          "id": "paediatric-chronic--food-allergy--q2",
+          "discipline": "child-health",
+          "topic": "paediatric-chronic",
+          "difficulty": "core",
+          "stem": "A 6-month-old girl is brought to the emergency department after three episodes of profuse, repetitive vomiting starting 2 hours after her first taste of rice cereal. She is pale and lethargic, but has no rash, wheeze or swelling. HR 170/min, capillary refill 3 seconds. This happened once before with the same food. What is the most likely diagnosis?",
+          "options": [
+            "IgE-mediated rice allergy with anaphylaxis",
+            "Food protein-induced enterocolitis syndrome (FPIES)",
+            "Viral gastroenteritis",
+            "Pyloric stenosis",
+            "Coeliac disease"
+          ],
+          "answer": 1,
+          "explanation": "**FPIES** is a non-IgE-mediated food allergy that presents with **repetitive, profuse vomiting 1-4 hours after ingestion**, with **pallor and lethargy**, sometimes progressing to hypotension. There are **no skin or respiratory features**. Common triggers in Australia include **rice**, cow's milk, egg and oats. Recurrence with the same food supports the diagnosis.\n\nTreatment is **fluid resuscitation** (IV if dehydrated or shocked); ondansetron may help. Adrenaline and antihistamines do not help because it is not IgE-mediated. Skin prick tests are usually negative. The food is avoided and a specialist arranges a supervised challenge later, as most children outgrow it.",
+          "whyWrong": [
+            "IgE-mediated reactions occur sooner and usually involve skin or respiratory signs.",
+            "",
+            "Gastroenteritis would not reproducibly follow one food, and diarrhoea usually follows.",
+            "Pyloric stenosis occurs at 2-8 weeks with projectile vomiting after every feed.",
+            "Coeliac disease causes chronic symptoms, not acute vomiting after a first exposure."
+          ],
+          "tags": [
+            "fpies",
+            "food allergy",
+            "infant"
+          ]
+        },
+        {
+          "id": "paediatric-chronic--food-allergy--q3",
+          "discipline": "child-health",
+          "topic": "paediatric-chronic",
+          "difficulty": "exam",
+          "stem": "A 7-year-old boy has a skin prick test that shows a 5 mm wheal to egg, ordered by another doctor as part of a panel for his eczema. He has eaten scrambled egg and cakes regularly for years without any symptoms. His mother asks whether he should stop eating egg. What is the most appropriate advice?",
+          "options": [
+            "Stop all egg and prescribe an adrenaline autoinjector",
+            "Stop all egg until an oral food challenge can be arranged",
+            "Continue eating egg as usual; the test shows sensitisation, not allergy",
+            "Repeat the skin prick test in 6 months",
+            "Avoid raw egg only and give a green ASCIA action plan"
+          ],
+          "answer": 2,
+          "explanation": "A positive skin prick test or specific IgE shows **sensitisation**, not clinical allergy. The diagnosis of food allergy needs a **history of reactions** on exposure. A child who **regularly eats a food without symptoms is tolerant**, and stopping it could actually lead to loss of tolerance and true allergy.\n\nThis is why ASCIA advises against **testing without a relevant history** (broad panels): false positives lead to unnecessary avoidance and nutritional problems. He should keep eating egg regularly.",
+          "whyWrong": [
+            "He has no clinical allergy; an autoinjector and avoidance are not indicated.",
+            "A food challenge is unnecessary when he already tolerates egg regularly.",
+            "",
+            "Repeat testing adds nothing; tolerance is already demonstrated.",
+            "No action plan is needed without a history of reactions."
+          ],
+          "tags": [
+            "skin prick test",
+            "sensitisation",
+            "egg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paediatric-chronic--diabetes-and-obesity",
+      "title": "Type 1 diabetes and childhood obesity",
+      "minutes": 20,
+      "objectives": [
+        "Recognise new type 1 diabetes early and arrange same-day assessment",
+        "Outline insulin regimens, hypoglycaemia treatment, sick-day rules and school support in Australia",
+        "Assess childhood overweight and obesity with BMI-for-age centiles and screen for complications",
+        "Distinguish type 2 from type 1 diabetes in young people and plan family-based lifestyle management"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Two metabolic problems of Australian childhood",
+          "body": "**Type 1 diabetes (T1D)** is one of the commonest serious chronic diseases of childhood; Australia has one of the higher incidences worldwide. About a third of children are in **DKA at diagnosis**, and DKA is more common in younger children because early symptoms are missed. The \"**4Ts**\" campaign (Toilet, Thirsty, Tired, Thinner) promotes early testing.\n\n**Obesity** affects many more children: about **1 in 4 Australian children** aged 2-17 is overweight or obese. It tracks into adulthood and brings early complications, including **type 2 diabetes in adolescents**, which is increasing, especially in **Aboriginal and Torres Strait Islander** young people and those of South Asian, Pacific Islander and Middle Eastern background."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Type 1 diabetes: presentation and diagnosis",
+          "body": "**Pathogenesis**: autoimmune destruction of pancreatic beta cells in a genetically susceptible child (HLA-DR3/DR4). Autoantibodies (**GAD, IA-2, ZnT8, insulin**) appear months to years before symptoms. Symptoms appear when most beta-cell function is lost.\n\n**Symptoms**: **polyuria** (including **new bedwetting** in a previously dry child), **polydipsia**, **weight loss**, tiredness, irritability, oral or genital thrush. In DKA: vomiting, abdominal pain, deep sighing breathing, drowsiness.\n\n**Diagnosis in a symptomatic child**: a **random glucose of 11.1 mmol/L or more** with symptoms, supported by **ketones**. The critical action: **a child with suggestive symptoms needs a finger-prick glucose (and ketones) the same day**, and if positive, **same-day referral** to a paediatric emergency department or diabetes team. Do **not** send them for a fasting glucose or oral glucose tolerance test the next week, which delays diagnosis while the child slides into DKA.\n\nAt diagnosis, children are also screened for associated autoimmune disease: **coeliac disease** (tTG-IgA with total IgA) and **thyroid disease** (TSH, thyroid antibodies), then periodically."
+        },
+        {
+          "kind": "management",
+          "heading": "Type 1 diabetes: long-term care",
+          "body": "Care is led by a **paediatric multidisciplinary diabetes team** (paediatric endocrinologist, diabetes educator, dietitian, psychologist, social worker).\n\n**Insulin regimens**\n- **Multiple daily injections (basal-bolus)**: long-acting basal insulin once daily plus rapid-acting insulin with meals, dosed by carbohydrate counting.\n- **Insulin pump therapy** (continuous subcutaneous insulin), increasingly with **hybrid closed-loop** systems linked to a CGM.\n- **Continuous glucose monitoring (CGM)** is subsidised through the **National Diabetes Services Scheme (NDSS)** for people with type 1 diabetes (eligibility details on the NDSS site). Most Australian children use CGM.\n\n**Targets**: HbA1c around **7% (53 mmol/mol) or lower**, individualised, and time in range on CGM, while minimising hypoglycaemia.\n\n**Hypoglycaemia** (glucose under 4.0 mmol/L):\n- Conscious and able to swallow: **fast-acting carbohydrate** (glucose tablets, jelly beans, juice) in an age-appropriate amount, recheck in 15 minutes, repeat if still low, then a longer-acting carbohydrate if the next meal is not due.\n- Unconscious, seizing or unable to swallow: **do not give anything by mouth**. Give **glucagon IM** (0.5 mg for children under about 25 kg, 1 mg for heavier children, per product information) or intranasal glucagon where available, or IV glucose in hospital (10% glucose 2 mL/kg).\n\n**Sick-day rules**: **never stop insulin** (illness usually increases insulin needs); check glucose and **blood ketones** every 2-4 hours; extra rapid-acting insulin per the team's plan; maintain fluids; **seek urgent help** if ketones are rising, vomiting persists, or the child is drowsy or breathing deeply.\n\n**School and daily life**: a **diabetes management plan** and **action plan** for school, trained staff, access to hypo treatment; exercise causes hypoglycaemia (including delayed overnight). The **honeymoon period** after diagnosis (partial beta-cell recovery, low insulin needs) can last months.\n\n**Complication screening** from puberty or after a few years of diabetes (per national guidelines): retinopathy, microalbuminuria, blood pressure, lipids, thyroid, coeliac, feet. **Adolescence** brings worsening control (insulin resistance of puberty, risk-taking, eating disorders, adherence) and needs a planned **transition** to adult services. Mental health screening matters."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Childhood obesity: assessment",
+          "body": "**Measuring**: plot **BMI-for-age** on growth charts (CDC charts are commonly used in Australia for 2-18 years; WHO charts under 2).\n- **Overweight**: BMI at or above the **85th** centile\n- **Obesity**: at or above the **95th** centile\n\n**Causes**: overwhelmingly **environmental and behavioural** (energy-dense food, sugary drinks, screen time, reduced activity, short sleep) on a background of genetic susceptibility. Look for rare causes when:\n\n| Clue | Consider |\n|---|---|\n| **Short stature or falling height velocity** with weight gain | **Endocrine**: hypothyroidism, Cushing syndrome (including iatrogenic steroids), growth hormone deficiency. Simple obesity usually makes children **taller** |\n| Severe obesity before age 5, hyperphagia, developmental delay, dysmorphism | **Genetic**: Prader-Willi syndrome, MC4R and leptin pathway defects |\n| Medications | Antipsychotics (risperidone), corticosteroids, some anticonvulsants |\n\n**Screen for complications**:\n- **Obstructive sleep apnoea** (snoring, pauses, daytime sleepiness, behaviour problems)\n- **Fatty liver disease (MASLD/NAFLD)**: raised ALT\n- **Insulin resistance and type 2 diabetes**: **acanthosis nigricans**, HbA1c or fasting glucose\n- **Hypertension** (use appropriately sized cuff and centile tables), **dyslipidaemia**\n- **Slipped capital femoral epiphysis** (hip or knee pain, limp), Blount disease\n- **Idiopathic intracranial hypertension** (headache, papilloedema)\n- **PCOS** in adolescent girls\n- **Psychosocial**: bullying, low self-esteem, depression, disordered eating"
+        },
+        {
+          "kind": "management",
+          "heading": "Obesity and type 2 diabetes: management",
+          "body": "**Family-based lifestyle change** is the foundation (Australian clinical practice guidelines for overweight and obesity in children, and RACGP guidance):\n- Involve the **whole family**; parents are the agents of change for younger children.\n- Use **non-stigmatising language** (\"healthy weight\", \"growing into their weight\").\n- Aim for **weight maintenance or slowed gain in growing children** (so BMI centile falls with height gain), and gradual weight loss in adolescents or severe obesity.\n- **Diet**: water instead of sugary drinks, regular family meals, portion sizes, fruit and vegetables, fewer discretionary foods. Avoid restrictive diets in young children.\n- **Activity**: Australian guidelines recommend at least **60 minutes of moderate-to-vigorous activity daily** for children 5-17, and limiting recreational screen time.\n- **Sleep**: age-appropriate sleep duration.\n- Programs, dietitians and psychologists as needed; referral to a paediatric weight management service for severe obesity or complications.\n- **Pharmacotherapy** (for example GLP-1 receptor agonists) and **bariatric surgery** are specialist options for adolescents with severe obesity.\n\n**Type 2 diabetes in youth**\n- Suspect in an adolescent with obesity, **acanthosis nigricans**, family history, or high-risk ethnicity (Aboriginal and Torres Strait Islander, South Asian, Pacific Islander).\n- Usually no or mild ketosis at diagnosis (but DKA can occur), **negative islet autoantibodies**, and preserved C-peptide.\n- Management: lifestyle plus **metformin** first line; insulin if very high glucose, ketosis or HbA1c markedly raised. Complications appear faster than in adult-onset disease, and early screening for nephropathy and hypertension is needed.\n\n| Feature | Type 1 | Type 2 (youth) |\n|---|---|---|\n| Onset | Any age, often abrupt | Puberty or later, insidious |\n| Body habitus | Usually normal/thin | Obese |\n| Acanthosis nigricans | Uncommon | Common |\n| Ketosis/DKA | Common | Less common |\n| Autoantibodies | Positive | Negative |\n| Treatment | Insulin always | Lifestyle, metformin, +/- insulin |"
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Child with polyuria, weight loss and new bedwetting: **same-day finger-prick glucose and ketones**, then same-day referral. Choosing \"fasting glucose next week\" is wrong.\n- Unconscious child with diabetes: **glucagon IM**, never oral glucose.\n- Sick child with T1D who isn't eating: **continue insulin**, check ketones.\n- New T1D: screen for **coeliac and thyroid disease**.\n- Obese child who is **short**: look for an endocrine cause. Obese child who is **tall**: simple obesity.\n- Obese adolescent with acanthosis nigricans: screen for **type 2 diabetes**; metformin first line.\n- Obesity management: **family-based**, weight maintenance while growing."
+        }
+      ],
+      "keyPoints": [
+        "Symptoms of T1D (polyuria, polydipsia, weight loss, new bedwetting) need same-day glucose and ketone testing.",
+        "Screen new T1D for coeliac and thyroid disease.",
+        "Hypoglycaemia under 4.0 mmol/L: fast-acting carbohydrate; if unconscious, glucagon IM, nothing by mouth.",
+        "Sick days: never stop insulin; check ketones; seek help if ketones rise or vomiting persists.",
+        "CGM is NDSS-subsidised; school diabetes management plans are standard.",
+        "Overweight at or above the 85th BMI centile, obesity at or above the 95th.",
+        "Obesity with short stature suggests an endocrine cause; screen for OSA, fatty liver, T2D and hypertension.",
+        "Obesity: family-based lifestyle change; T2D in youth: lifestyle plus metformin."
+      ],
+      "redFlags": [
+        "Polyuria, weight loss and vomiting (possible DKA)",
+        "Deep sighing respiration in a child with diabetes",
+        "Unconscious or seizing child with diabetes",
+        "Obesity with short stature or falling height velocity",
+        "Obese child with limp or knee pain (SCFE)",
+        "Headache and visual symptoms in an obese adolescent (IIH)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Glucose monitoring",
+          "india": "Finger-prick testing, often limited by cost.",
+          "australia": "Subsidised CGM through the NDSS is standard for most children; pumps and closed-loop systems common."
+        },
+        {
+          "aspect": "Childhood obesity",
+          "india": "Undernutrition remains the dominant concern; obesity rising in urban children.",
+          "australia": "About 1 in 4 children overweight or obese; BMI-for-age centiles and family-based management in general practice."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Glucose threshold for diabetes in a symptomatic child?",
+          "back": "Random glucose of 11.1 mmol/L or more."
+        },
+        {
+          "front": "Autoimmune conditions to screen for at T1D diagnosis?",
+          "back": "Coeliac disease (tTG-IgA with total IgA) and thyroid disease."
+        },
+        {
+          "front": "Treatment of severe hypoglycaemia in an unconscious child at home?",
+          "back": "Glucagon IM (0.5 mg if under about 25 kg, 1 mg if heavier); nothing by mouth."
+        },
+        {
+          "front": "BMI-for-age centile defining obesity in children?",
+          "back": "95th centile or above (overweight 85th or above)."
+        },
+        {
+          "front": "Skin sign of insulin resistance?",
+          "back": "Acanthosis nigricans."
+        },
+        {
+          "front": "First-line drug for type 2 diabetes in adolescents?",
+          "back": "Metformin (with lifestyle change)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "paediatric-chronic--diabetes-and-obesity--q1",
+          "discipline": "child-health",
+          "topic": "paediatric-chronic",
+          "difficulty": "foundation",
+          "stem": "A 6-year-old girl is brought to her GP because she has started wetting the bed again after being dry for 2 years. Her mother says she is drinking a lot and seems tired, and her clothes are looser. She is alert, with normal vital signs. What is the most appropriate next step?",
+          "options": [
+            "Send urine for microscopy and culture and review in 3 days",
+            "Arrange a fasting glucose at the pathology lab tomorrow",
+            "Check a finger-prick blood glucose and ketones in the clinic today",
+            "Reassure and start a bedwetting alarm",
+            "Arrange an oral glucose tolerance test"
+          ],
+          "answer": 2,
+          "explanation": "**Secondary enuresis, polydipsia, tiredness and weight loss** in a child are the classic symptoms of **type 1 diabetes** (the 4Ts: toilet, thirsty, tired, thinner). The critical step is a **same-day finger-prick glucose and ketone test** in the clinic. If the glucose is high, she needs **same-day referral** to a paediatric emergency department or diabetes team.\n\nChildren can progress to **DKA within hours to days**; delays for fasting glucose, an OGTT or a urine culture are a common cause of preventable DKA. A UTI can cause secondary enuresis, but it does not explain polydipsia and weight loss.",
+          "whyWrong": [
+            "Waiting for a urine culture delays diagnosis of likely diabetes.",
+            "A fasting test tomorrow delays diagnosis and risks DKA.",
+            "",
+            "Missing diabetes is dangerous; enuresis here is a symptom of polyuria.",
+            "An OGTT is not needed in a symptomatic child and delays care."
+          ],
+          "ausPearl": "Australian campaigns promote the 4Ts (Toilet, Thirsty, Tired, Thinner) to reduce DKA at diagnosis.",
+          "tags": [
+            "type 1 diabetes",
+            "diagnosis",
+            "enuresis"
+          ]
+        },
+        {
+          "id": "paediatric-chronic--diabetes-and-obesity--q2",
+          "discipline": "child-health",
+          "topic": "paediatric-chronic",
+          "difficulty": "core",
+          "stem": "A 12-year-old boy (35 kg) with type 1 diabetes is found by his mother unrousable in bed in the morning. He is breathing normally. His CGM reads 1.9 mmol/L. She has his diabetes kit at home. What is the most appropriate immediate action by the mother?",
+          "options": [
+            "Give him orange juice to drink",
+            "Give his usual morning insulin dose",
+            "Rub honey on his gums and wait 30 minutes",
+            "Put him in the recovery position, give glucagon 1 mg IM and call an ambulance",
+            "Give him glucose tablets"
+          ],
+          "answer": 3,
+          "explanation": "This is **severe hypoglycaemia** (unrousable), so nothing should be given by mouth because of the risk of **aspiration**. The treatment at home is **glucagon IM** (1 mg for children over about 25 kg; 0.5 mg for smaller children), or intranasal glucagon where prescribed, with the child in the **recovery position** and an ambulance called.\n\nOnce he wakes and can swallow, give fast-acting then longer-acting carbohydrate, as glucagon's effect is short and nausea is common. Afterwards, the team should review the cause (for example exercise the day before, an insulin error, or alcohol in an adolescent) and adjust the plan.",
+          "whyWrong": [
+            "Oral fluids risk aspiration in an unconscious child.",
+            "Insulin would worsen the hypoglycaemia.",
+            "Buccal honey is not reliable and delays effective treatment.",
+            "",
+            "Tablets cannot be safely swallowed by an unconscious child."
+          ],
+          "tags": [
+            "hypoglycaemia",
+            "glucagon",
+            "type 1 diabetes"
+          ]
+        },
+        {
+          "id": "paediatric-chronic--diabetes-and-obesity--q3",
+          "discipline": "child-health",
+          "topic": "paediatric-chronic",
+          "difficulty": "exam",
+          "stem": "A 9-year-old boy is brought in because of weight gain over 2 years. His BMI is above the 97th centile. His height has dropped from the 50th to the 10th centile over the same period. He has red-purple striae and a round face. He has not been on steroid medication. What is the most appropriate next step?",
+          "options": [
+            "Reassure and start a family-based lifestyle program only",
+            "Refer to a dietitian and review in 12 months",
+            "Start metformin",
+            "Arrange a sleep study",
+            "Investigate for an endocrine cause, such as Cushing syndrome, with paediatric endocrinology referral"
+          ],
+          "answer": 4,
+          "explanation": "Children with simple (nutritional) obesity are usually **tall for their age**, because excess nutrition accelerates growth. **Weight gain with falling height velocity** points to an **endocrine cause**: **Cushing syndrome**, hypothyroidism or growth hormone deficiency. Purple striae and a round face strengthen the suspicion of cortisol excess.\n\nAfter excluding exogenous steroids (including inhaled, topical and nasal), he needs **referral to a paediatric endocrinologist** for investigations (for example late-night salivary cortisol or 24-hour urinary free cortisol, dexamethasone suppression), plus thyroid function. Lifestyle advice alone would miss a treatable cause.",
+          "whyWrong": [
+            "Growth failure with obesity is not simple obesity and needs investigation.",
+            "Waiting 12 months delays diagnosis of a likely endocrine cause.",
+            "Metformin does not address the underlying cause.",
+            "OSA screening may be relevant but is not the priority here.",
+            ""
+          ],
+          "tags": [
+            "obesity",
+            "cushing",
+            "growth"
+          ]
+        },
+        {
+          "id": "paediatric-chronic--diabetes-and-obesity--q4",
+          "discipline": "child-health",
+          "topic": "paediatric-chronic",
+          "difficulty": "core",
+          "stem": "A 9-year-old girl with type 1 diabetes on multiple daily injections has gastroenteritis. She has vomited twice today and is eating very little. Her mother stopped her insulin this morning 'because she isn't eating'. Glucose is 16 mmol/L and blood ketones are 1.8 mmol/L. She is alert and drinking small amounts. What is the most appropriate advice?",
+          "options": [
+            "Keep insulin stopped until she is eating normally",
+            "Give her basal insulin as usual plus extra rapid-acting insulin per her sick-day plan, check glucose and ketones every 2 hours, maintain fluids, and seek urgent review if ketones rise or vomiting continues",
+            "Give only half her basal insulin and recheck tomorrow",
+            "Give oral rehydration solution only and no insulin",
+            "Give a full meal dose of rapid-acting insulin and check again tomorrow"
+          ],
+          "answer": 1,
+          "explanation": "The key **sick-day rule** is **never stop insulin**. Illness raises counter-regulatory hormones, so insulin requirements usually **increase**, and without insulin the body makes ketones and heads toward **DKA**. Her ketones of 1.8 mmol/L are already raised.\n\nShe should have her **usual basal insulin**, **extra rapid-acting insulin** as directed by her diabetes team's sick-day plan, **frequent glucose and ketone checks**, and fluids (with carbohydrate if glucose falls). The family should call the diabetes team, and go to hospital if ketones keep rising, vomiting persists or she becomes drowsy or breathless.",
+          "whyWrong": [
+            "Stopping insulin leads to ketosis and DKA.",
+            "",
+            "Reducing basal insulin with rising ketones is unsafe, and checking tomorrow is far too late.",
+            "Fluids alone will not stop ketone production.",
+            "A single large dose without monitoring risks hypoglycaemia and misses rising ketones."
+          ],
+          "tags": [
+            "sick day",
+            "ketones",
+            "type 1 diabetes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paediatric-chronic--childhood-epilepsy",
+      "title": "Epilepsy in children",
+      "minutes": 15,
+      "objectives": [
+        "Define epilepsy and investigate a first unprovoked seizure appropriately",
+        "Recognise the common childhood epilepsy syndromes from their description",
+        "Match first-line drugs to syndromes and avoid drugs that worsen specific epilepsies",
+        "Counsel families on safety, school, seizure plans and valproate in girls"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Epilepsy in the Australian child",
+          "body": "Epilepsy affects about **1 in 200** children. Most are managed by paediatricians or paediatric neurologists, with GPs coordinating care, prescriptions and school plans. The AMC mostly tests **syndrome recognition** from a description (often including an EEG phrase), **first-line drug choice**, and **safety counselling**.\n\n**Definition (ILAE)**: two or more unprovoked seizures more than 24 hours apart; or one unprovoked seizure with a high (at least 60%) risk of recurrence (for example with an epileptiform EEG or structural brain lesion); or diagnosis of an epilepsy syndrome. Febrile seizures and provoked seizures (hypoglycaemia, head injury) are not epilepsy."
+        },
+        {
+          "kind": "investigations",
+          "heading": "After a first afebrile seizure",
+          "body": "- **Detailed history**, ideally with a witness and **video** on a phone: what happened before (trigger, aura), during (onset focal or generalised, duration), and after (post-ictal state, Todd paresis). Many \"seizures\" are syncope, breath-holding or other mimics.\n- **Glucose and electrolytes** acutely; **ECG** if there is any suggestion of syncope or cardiac cause (long QT can present as \"seizures\", especially with exercise, swimming or startle).\n- **EEG**: helps classify the seizure type and epilepsy syndrome and predicts recurrence. A normal interictal EEG does not exclude epilepsy. Sleep-deprived EEG increases yield.\n- **MRI brain** for focal seizures, abnormal neurological examination, developmental delay, or seizures in infancy. Not needed for classic generalised syndromes like childhood absence epilepsy.\n- **Treatment is not usually started after a single unprovoked seizure**; the decision is made with a specialist based on recurrence risk."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Common childhood epilepsy syndromes",
+          "body": "| Syndrome | Age and features | EEG | First-line treatment |\n|---|---|---|---|\n| **Infantile spasms (infantile epileptic spasms syndrome, West syndrome)** | **3-12 months**; clusters of sudden flexion (or extension) spasms, often on waking; **developmental regression**; causes include **tuberous sclerosis** | **Hypsarrhythmia** | **Urgent** referral: prednisolone/ACTH or **vigabatrin** (first choice in tuberous sclerosis) |\n| **Dravet syndrome** | Infancy; prolonged, often hemiclonic **febrile seizures** from about 6 months, then multiple seizure types and developmental slowing; **SCN1A** mutation | Normal early | Valproate, clobazam, stiripentol, fenfluramine, cannabidiol (specialist). **Avoid sodium channel blockers** (carbamazepine, lamotrigine, phenytoin) |\n| **Childhood absence epilepsy** | **4-10 years**, more in girls; many brief (seconds) staring spells a day, abrupt start and stop, no post-ictal state; teachers report \"daydreaming\"; **triggered by hyperventilation** | **3 Hz generalised spike-and-wave** | **Ethosuximide** (valproate or lamotrigine alternatives) |\n| **Self-limited epilepsy with centrotemporal spikes** (benign rolandic) | **3-13 years**; seizures from sleep; one-sided facial twitching, drooling, gurgling, speech arrest, may generalise | Centrotemporal spikes | Often **no treatment**; remits by adolescence |\n| **Juvenile myoclonic epilepsy** | **Adolescence**; **morning myoclonic jerks** (drops things at breakfast), generalised tonic-clonic seizures, absences; triggered by **sleep deprivation and alcohol** | Generalised polyspike-and-wave, photosensitivity | Valproate is effective but avoid in females who could become pregnant; **levetiracetam** or lamotrigine often used. Lifelong tendency |\n| **Lennox-Gastaut syndrome** | Early childhood; multiple seizure types including tonic and atonic (\"drop attacks\"), intellectual disability | Slow spike-and-wave | Specialist; often drug-resistant |\n\n**Drugs that worsen specific epilepsies**: **carbamazepine** (and other sodium channel blockers) can aggravate **absence and myoclonic** seizures and Dravet syndrome."
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment principles and counselling",
+          "body": "**Medication**: start one drug at a low dose and titrate (monotherapy controls most). About two-thirds of children become seizure-free. **Drug-resistant epilepsy** (failure of two appropriate drugs) should be referred to a comprehensive epilepsy centre for consideration of **surgery**, **ketogenic diet**, or vagus nerve stimulation.\n\n**Common side effects to know**\n- **Sodium valproate**: weight gain, tremor, hair loss, hepatotoxicity (especially under 2 years and with metabolic disease), pancreatitis, and **high teratogenicity** (neural tube defects and neurodevelopmental problems). It is avoided in girls and women who could become pregnant unless there is no alternative, with a pregnancy prevention plan (TGA warnings).\n- **Carbamazepine**: rash (HLA-B*1502 association with Stevens-Johnson syndrome in people of Han Chinese, Thai and some other Asian ancestry), hyponatraemia, enzyme induction.\n- **Lamotrigine**: rash (titrate slowly, especially with valproate).\n- **Levetiracetam**: irritability, behavioural and mood change.\n- **Ethosuximide**: GI upset.\n\n**Safety and life**\n- **Showers instead of baths**, or supervised bathing; **swimming only with close supervision** (drowning risk is much higher).\n- Avoid unsupervised heights, cycling with helmet in safe areas.\n- **Seizure management plan** for school and home, often including **buccal or intranasal midazolam** for seizures lasting 5 minutes (see paediatric emergencies).\n- **SUDEP** (sudden unexpected death in epilepsy) is rare in children but real; risk is higher with frequent uncontrolled tonic-clonic seizures. Discuss in a balanced way.\n- **Driving** for adolescents: Austroads \"Assessing Fitness to Drive\" sets seizure-free periods before licensing; check the current standard.\n- Adolescents: sleep hygiene, alcohol, contraception interactions (enzyme inducers reduce hormonal contraceptive efficacy), and planned transition.\n- School performance, learning and mental health support (anxiety and depression are more common).\n- Stopping medication: often considered after about **2 seizure-free years**, with specialist guidance, depending on syndrome."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Brief staring many times a day in a 7-year-old, provoked by hyperventilation, **3 Hz spike-wave**: **childhood absence epilepsy, ethosuximide**.\n- Morning jerks in a teenager who drops her cereal spoon: **JME**; avoid carbamazepine; think carefully before valproate in a girl.\n- Nocturnal facial twitching and drooling in a school-aged child with centrotemporal spikes: **self-limited (rolandic) epilepsy**, often no treatment.\n- Clusters of spasms and regression in a 6-month-old: **infantile spasms**, urgent referral. Look for ash-leaf macules (tuberous sclerosis).\n- Prolonged febrile seizures in infancy with later developmental problems: **Dravet**, avoid sodium channel blockers.\n- \"Seizure\" during exercise or swimming: get an **ECG** (long QT).\n- Showers not baths; supervised swimming.\n- Seizure first aid for families and teachers: time it, protect from injury, nothing in the mouth, recovery position once jerking stops, call an ambulance at 5 minutes or if injured, in water, or not recovering.\n- A child with epilepsy who is doing badly at school: think frequent absences, drug side effects (sedation, behaviour change with levetiracetam), comorbid ADHD or learning disorder, or low mood."
+        }
+      ],
+      "keyPoints": [
+        "Epilepsy: two unprovoked seizures over 24 hours apart, or one with at least 60% recurrence risk, or a syndrome.",
+        "After a first seizure: history with video, glucose, ECG if cardiac possible, EEG; MRI if focal or in infancy.",
+        "Childhood absence epilepsy: 3 Hz spike-wave, hyperventilation-provoked; ethosuximide first line.",
+        "Infantile spasms: hypsarrhythmia and regression; urgent referral; vigabatrin in tuberous sclerosis.",
+        "JME: morning myoclonus in adolescence; avoid carbamazepine; valproate avoided in girls who could become pregnant.",
+        "Carbamazepine worsens absence and myoclonic seizures; sodium channel blockers worsen Dravet syndrome.",
+        "Safety: showers, supervised swimming, seizure management plan with midazolam."
+      ],
+      "redFlags": [
+        "Developmental regression with spasms in an infant",
+        "Focal seizures or abnormal neurological examination",
+        "Seizures triggered by exercise, swimming or startle (think long QT)",
+        "Seizure lasting 5 minutes or longer",
+        "Frequent uncontrolled tonic-clonic seizures (SUDEP risk)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Valproate in girls",
+          "india": "Valproate is widely prescribed as a cheap broad-spectrum drug for all.",
+          "australia": "Avoided in girls and women who could become pregnant unless no alternative, with a pregnancy prevention plan (TGA)."
+        },
+        {
+          "aspect": "Seizure plans",
+          "india": "Families often have no written plan or rescue medication.",
+          "australia": "Written seizure management plans for school, with buccal or intranasal midazolam for prolonged seizures."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "EEG in childhood absence epilepsy?",
+          "back": "3 Hz generalised spike-and-wave, provoked by hyperventilation."
+        },
+        {
+          "front": "First-line drug for childhood absence epilepsy?",
+          "back": "Ethosuximide."
+        },
+        {
+          "front": "EEG pattern in infantile spasms?",
+          "back": "Hypsarrhythmia."
+        },
+        {
+          "front": "First-choice drug for infantile spasms due to tuberous sclerosis?",
+          "back": "Vigabatrin."
+        },
+        {
+          "front": "Which drugs should be avoided in Dravet syndrome?",
+          "back": "Sodium channel blockers: carbamazepine, lamotrigine, phenytoin."
+        },
+        {
+          "front": "Why is valproate avoided in adolescent girls?",
+          "back": "High teratogenicity (neural tube defects, neurodevelopmental harm)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "paediatric-chronic--childhood-epilepsy--q1",
+          "discipline": "child-health",
+          "topic": "paediatric-chronic",
+          "difficulty": "foundation",
+          "stem": "A 7-year-old girl's teacher reports that she 'zones out' many times a day for a few seconds, stopping mid-sentence and then carrying on as if nothing happened. In the clinic, asking her to breathe fast for 2 minutes triggers a 10-second episode of staring and eyelid fluttering. She is otherwise well with normal development. EEG shows generalised 3 Hz spike-and-wave discharges. What is the most appropriate first-line treatment?",
+          "options": [
+            "Carbamazepine",
+            "Ethosuximide",
+            "Phenytoin",
+            "Vigabatrin",
+            "No treatment; reassure"
+          ],
+          "answer": 1,
+          "explanation": "Brief, frequent staring spells with abrupt onset and offset, **no post-ictal state**, provoked by **hyperventilation**, and **3 Hz generalised spike-and-wave** on EEG are diagnostic of **childhood absence epilepsy**. First-line treatment is **ethosuximide**; valproate and lamotrigine are alternatives (valproate being less preferred in girls because of teratogenicity later).\n\nTreatment matters because frequent absences impair learning and safety. **Carbamazepine and phenytoin can worsen absence seizures**. Most children remit by adolescence.",
+          "whyWrong": [
+            "Carbamazepine can aggravate absence seizures.",
+            "",
+            "Phenytoin is ineffective and can worsen absences.",
+            "Vigabatrin is for infantile spasms and can worsen absences.",
+            "Frequent absences affect learning and safety and should be treated."
+          ],
+          "tags": [
+            "absence epilepsy",
+            "ethosuximide",
+            "eeg"
+          ]
+        },
+        {
+          "id": "paediatric-chronic--childhood-epilepsy--q2",
+          "discipline": "child-health",
+          "topic": "paediatric-chronic",
+          "difficulty": "core",
+          "stem": "A 6-month-old boy has had episodes over 2 weeks in which he suddenly flexes his trunk and throws his arms forward, several times in a row, especially on waking. He has stopped smiling and no longer reaches for toys. On examination there are several hypopigmented oval macules on his trunk. What is the most appropriate next step?",
+          "options": [
+            "Reassure the parents that this is colic",
+            "Start a trial of reflux medication",
+            "Review in 3 months to monitor development",
+            "Urgent referral to a paediatric neurologist for EEG and treatment",
+            "Arrange a hearing test"
+          ],
+          "answer": 3,
+          "explanation": "Clusters of **flexor spasms on waking** with **developmental regression** in an infant are **infantile spasms (West syndrome)**. The hypopigmented **ash-leaf macules** suggest **tuberous sclerosis**, a common underlying cause.\n\nThis is an **epileptic emergency**: the EEG typically shows **hypsarrhythmia**, and delay in treatment worsens developmental outcome. He needs **urgent referral** (days, not months) for EEG, MRI and treatment, with **vigabatrin** first choice in tuberous sclerosis (steroids or ACTH in other causes).",
+          "whyWrong": [
+            "Colic doesn't cause stereotyped spasms or regression.",
+            "Reflux (Sandifer) causes arching after feeds, not clusters on waking with regression.",
+            "Delay worsens developmental outcome.",
+            "",
+            "Hearing loss doesn't explain the spasms or skin findings."
+          ],
+          "tags": [
+            "infantile spasms",
+            "tuberous sclerosis",
+            "regression"
+          ]
+        },
+        {
+          "id": "paediatric-chronic--childhood-epilepsy--q3",
+          "discipline": "child-health",
+          "topic": "paediatric-chronic",
+          "difficulty": "exam",
+          "stem": "A 15-year-old girl had a generalised tonic-clonic seizure at a sleepover after staying up all night. Her mother says that for months she has had sudden jerks of her arms in the mornings, sometimes dropping her toothbrush or spilling her drink. EEG shows generalised polyspike-and-wave discharges with photosensitivity. Which medication is most appropriate to start, in discussion with a neurologist?",
+          "options": [
+            "Carbamazepine",
+            "Sodium valproate as first choice without further discussion",
+            "Phenytoin",
+            "Ethosuximide alone",
+            "Levetiracetam"
+          ],
+          "answer": 4,
+          "explanation": "**Morning myoclonic jerks**, a tonic-clonic seizure after **sleep deprivation**, and generalised polyspike-and-wave with photosensitivity in an adolescent are **juvenile myoclonic epilepsy (JME)**.\n\nValproate is very effective for JME, but it is **highly teratogenic**, and TGA guidance is to avoid it in girls and women who could become pregnant unless other options fail, with a pregnancy prevention plan. **Levetiracetam** (or lamotrigine) is a common first choice in adolescent girls. **Carbamazepine and phenytoin can worsen myoclonic seizures**, and ethosuximide doesn't control tonic-clonic seizures.\n\nCounsel about sleep, alcohol, driving rules and the usually lifelong nature of JME.",
+          "whyWrong": [
+            "Carbamazepine can aggravate myoclonic seizures and absences.",
+            "Valproate's teratogenicity means it should not be started in a teenage girl without careful discussion of alternatives.",
+            "Phenytoin can worsen myoclonic seizures.",
+            "Ethosuximide does not control generalised tonic-clonic seizures.",
+            ""
+          ],
+          "tags": [
+            "jme",
+            "valproate",
+            "adolescent"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paediatric-chronic--cystic-fibrosis",
+      "title": "Cystic fibrosis",
+      "minutes": 14,
+      "objectives": [
+        "Explain how CFTR dysfunction produces the lung, pancreatic and sweat features of CF",
+        "Follow the newborn screening pathway to a confirmatory sweat chloride test",
+        "Outline multidisciplinary CF management, including CFTR modulators on the PBS",
+        "Counsel families on inheritance and carrier screening"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "CF in Australia",
+          "body": "Cystic fibrosis is the most common life-limiting **autosomal recessive** condition in people of European ancestry. In Australia about **1 in 25** people of European background are carriers, and roughly **1 in 2,500-3,500 babies** are born with CF. Every Australian newborn is screened for CF through the **newborn bloodspot (heel prick) screening** program, so most children are diagnosed in the first weeks of life before symptoms. Survival has improved dramatically; many people with CF now live into middle age and beyond, and **CFTR modulators** are changing the outlook again.\n\nCF is managed in **specialist CF centres** with a multidisciplinary team."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "From one gene to many organs",
+          "body": "**CFTR** (cystic fibrosis transmembrane conductance regulator) is a chloride and bicarbonate channel on epithelial surfaces, encoded on **chromosome 7**. The commonest mutation is **F508del** (misfolded protein that doesn't reach the cell surface). Loss of CFTR function causes:\n\n- **Airways**: reduced chloride secretion and increased sodium absorption dehydrate the airway surface liquid; mucus becomes thick and mucociliary clearance fails. This leads to chronic infection (early **Staphylococcus aureus** and **Haemophilus influenzae**, later **Pseudomonas aeruginosa**, and others such as Burkholderia cepacia complex and non-tuberculous mycobacteria), neutrophilic inflammation and **bronchiectasis**. Upper airway: chronic sinusitis, **nasal polyps**.\n- **Pancreas**: thick secretions block ducts, causing **exocrine pancreatic insufficiency** in most (malabsorption of fat and fat-soluble vitamins A, D, E, K) and later **CF-related diabetes**.\n- **Gut**: **meconium ileus** in newborns (about 10-20%), **distal intestinal obstruction syndrome (DIOS)** in older patients, rectal prolapse.\n- **Liver**: focal biliary cirrhosis, gallstones.\n- **Sweat glands**: CFTR normally reabsorbs chloride from sweat, so sweat is **salty**. This is the basis of the sweat test, and the reason for **salt depletion in hot weather** (hyponatraemic, hypochloraemic metabolic alkalosis: a real risk in Australian summers).\n- **Reproductive**: **congenital bilateral absence of the vas deferens** (almost all males are infertile but can father children with assisted reproduction); reduced fertility in females (thick cervical mucus)."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Newborn screening and diagnosis",
+          "body": "**Newborn bloodspot screening**: heel prick sample at **48-72 hours**. The screening pathway measures **immunoreactive trypsinogen (IRT)**, which is raised in CF because pancreatic duct obstruction pushes trypsinogen into the blood, followed by **DNA testing for common CFTR mutations** on high IRT samples. A positive screen is **not a diagnosis**: the baby is referred to a CF centre.\n\n**Sweat chloride test** (pilocarpine iontophoresis) confirms the diagnosis:\n\n| Sweat chloride | Interpretation |\n|---|---|\n| **60 mmol/L or more** | **Consistent with CF** |\n| 30-59 mmol/L | Intermediate: further testing (extended genetics) |\n| Under 30 mmol/L | CF unlikely |\n\nTwo disease-causing CFTR mutations also support the diagnosis. The sweat test is done once the baby is over about 2 weeks and 2 kg (enough sweat).\n\n**Screening is not perfect**: rare mutations can be missed. **A child with symptoms suggestive of CF needs a sweat test even if the newborn screen was negative** (or was done overseas, or not done). Presentations to remember: failure to thrive with **greasy, pale, offensive stools** and a big appetite, recurrent chest infections or chronic wet cough, **nasal polyps in a child**, rectal prolapse, meconium ileus, and hyponatraemic dehydration in heat.\n\n**Other tests**: faecal elastase (low in pancreatic insufficiency), sputum or cough swab cultures, chest imaging, spirometry from school age, fat-soluble vitamin levels, and annual oral glucose tolerance testing from around age 10 for CF-related diabetes."
+        },
+        {
+          "kind": "management",
+          "heading": "Multidisciplinary care",
+          "body": "**Respiratory**\n- **Daily airway clearance** physiotherapy (techniques and devices appropriate to age) and exercise.\n- Mucoactive agents: **dornase alfa**, **hypertonic saline**.\n- **Antibiotics** for exacerbations (oral or IV \"tune-ups\"); regular surveillance cultures.\n- **Pseudomonas eradication** at first isolation (for example inhaled tobramycin), and inhaled antibiotics for chronic infection.\n- Some Australian centres use anti-staphylococcal prophylaxis (flucloxacillin) in young children; practice varies by centre.\n- **Infection control**: people with CF should not mix closely with each other (cross-infection with resistant organisms); CF clinics segregate patients.\n- Annual influenza vaccine plus the routine schedule.\n- Lung transplantation for end-stage disease.\n\n**Nutrition and gastrointestinal**\n- **Pancreatic enzyme replacement therapy** with every meal and snack containing fat.\n- **High-energy, high-fat diet**; **fat-soluble vitamins A, D, E and K**.\n- **Salt supplements**, especially for infants and in hot weather.\n- Manage DIOS (laxatives, fluids), monitor liver disease, screen for **CF-related diabetes**.\n\n**CFTR modulators**\n- These drugs correct or potentiate the faulty CFTR protein. The triple combination **elexacaftor/tezacaftor/ivacaftor** improves lung function, weight and sweat chloride dramatically in people with at least one F508del mutation. Modulators are **PBS-subsidised for eligible patients**, with age and genotype criteria that have been expanding (check the current PBS listing).\n- Monitor liver function and eye checks (cataracts in children) as advised.\n\n**Psychosocial and transition**: heavy treatment burden, adherence in adolescence, mental health, and transition to adult CF services."
+        },
+        {
+          "kind": "application",
+          "heading": "Genetic counselling",
+          "body": "- Both parents of an affected child are (almost always) carriers. Each pregnancy has a **1 in 4** chance of an affected child, **1 in 2** chance of a carrier, and **1 in 4** chance of neither.\n- An unaffected sibling of a child with CF has a **2 in 3** chance of being a carrier.\n- **Reproductive carrier screening** for CF, spinal muscular atrophy and fragile X is recommended to be offered to all people planning pregnancy or in early pregnancy (RANZCOG, RACGP), and has a Medicare rebate.\n- Couples who are both carriers can consider prenatal diagnosis (CVS or amniocentesis) or preimplantation genetic testing with IVF.\n- Carriers are healthy; a positive newborn screen that turns out to be a carrier result is an opportunity to offer testing to the parents and extended family."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Positive newborn screen: **next step is a sweat chloride test** at a CF centre (60 mmol/L or more confirms).\n- Failure to thrive, steatorrhoea and recurrent chest infections in a child who was screened overseas or had a negative screen: **still do a sweat test**.\n- **Nasal polyps in a child** are CF until proven otherwise.\n- Meconium ileus in a newborn: think CF.\n- Hyponatraemic hypochloraemic alkalosis in a CF infant in summer: salt depletion; salt supplements.\n- Risk calculations: 1 in 4 affected; unaffected sibling 2 in 3 carrier.\n- CFTR modulators are PBS-subsidised for eligible patients."
+        }
+      ],
+      "keyPoints": [
+        "Autosomal recessive CFTR mutation on chromosome 7; F508del commonest; about 1 in 25 carriers of European ancestry.",
+        "Newborn screening: IRT then DNA testing; a positive screen needs a sweat test.",
+        "Sweat chloride 60 mmol/L or more confirms CF; 30-59 intermediate.",
+        "Symptoms of CF need a sweat test even if the newborn screen was negative.",
+        "Management: airway clearance, antibiotics, enzymes with meals, high-fat diet, ADEK vitamins, salt.",
+        "CFTR modulators (elexacaftor/tezacaftor/ivacaftor) are PBS-subsidised for eligible patients.",
+        "Carrier screening for CF, SMA and fragile X is offered before or early in pregnancy."
+      ],
+      "redFlags": [
+        "Meconium ileus in a newborn",
+        "Failure to thrive with steatorrhoea",
+        "Nasal polyps in a child",
+        "Chronic wet cough or recurrent pneumonia",
+        "Hyponatraemic dehydration in hot weather"
+      ],
+      "contrast": [
+        {
+          "aspect": "Diagnosis",
+          "india": "Often diagnosed late, after years of failure to thrive or chest infections; sweat testing limited.",
+          "australia": "Diagnosed through universal newborn screening, confirmed with a sweat chloride test at a CF centre."
+        },
+        {
+          "aspect": "Carrier screening",
+          "india": "Rarely offered.",
+          "australia": "Carrier screening for CF, SMA and fragile X offered to all planning or early in pregnancy, with Medicare rebate."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Screening test for CF in newborn bloodspot?",
+          "back": "Immunoreactive trypsinogen (IRT), then CFTR mutation testing."
+        },
+        {
+          "front": "Sweat chloride level diagnostic of CF?",
+          "back": "60 mmol/L or more."
+        },
+        {
+          "front": "Chance an unaffected sibling of a child with CF is a carrier?",
+          "back": "2 in 3."
+        },
+        {
+          "front": "Electrolyte disturbance in CF with heat exposure?",
+          "back": "Hyponatraemic, hypochloraemic metabolic alkalosis (salt loss in sweat)."
+        },
+        {
+          "front": "Cause of infertility in males with CF?",
+          "back": "Congenital bilateral absence of the vas deferens."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "paediatric-chronic--cystic-fibrosis--q1",
+          "discipline": "child-health",
+          "topic": "paediatric-chronic",
+          "difficulty": "foundation",
+          "stem": "A 3-week-old boy is referred because his newborn bloodspot screen showed a raised immunoreactive trypsinogen and one CFTR mutation (F508del) detected. He is feeding well and gaining weight. What is the most appropriate next investigation?",
+          "options": [
+            "Chest X-ray",
+            "Faecal elastase only",
+            "Sweat chloride test",
+            "Repeat heel prick at 6 months",
+            "Serum immunoglobulins"
+          ],
+          "answer": 2,
+          "explanation": "A positive newborn screen is **not a diagnosis**. With a raised IRT and one mutation, the baby may have CF (with a second mutation not on the panel) or be a healthy **carrier**. The confirmatory test is the **sweat chloride test** at a CF centre: **60 mmol/L or more** is consistent with CF, 30-59 intermediate, under 30 unlikely.\n\nIf he is a carrier, his parents are offered testing and genetic counselling. Faecal elastase assesses pancreatic function once CF is confirmed.",
+          "whyWrong": [
+            "A chest X-ray does not diagnose CF.",
+            "Faecal elastase tests pancreatic function, not the diagnosis.",
+            "",
+            "Delaying diagnosis is inappropriate; a sweat test is needed now.",
+            "Immunoglobulins are for immunodeficiency, not CF."
+          ],
+          "tags": [
+            "cystic fibrosis",
+            "newborn screening",
+            "sweat test"
+          ]
+        },
+        {
+          "id": "paediatric-chronic--cystic-fibrosis--q2",
+          "discipline": "child-health",
+          "topic": "paediatric-chronic",
+          "difficulty": "core",
+          "stem": "A 4-year-old boy who arrived from overseas a year ago has had recurrent chest infections and a persistent wet cough. He has a big appetite but is below the 3rd centile for weight, and his stools are pale, bulky and difficult to flush. On examination he has nasal polyps and mild finger clubbing. His parents are unsure whether he was screened as a newborn. What is the most appropriate next step?",
+          "options": [
+            "Sweat chloride test",
+            "Coeliac serology only and gluten-free diet",
+            "Trial of inhaled corticosteroids",
+            "Reassure and review growth in 6 months",
+            "Chest CT scan"
+          ],
+          "answer": 0,
+          "explanation": "Failure to thrive with **steatorrhoea** despite a good appetite, **chronic wet cough**, recurrent chest infections, **nasal polyps** and **clubbing** in a child point strongly to **cystic fibrosis**. Nasal polyps in a child are CF until proven otherwise.\n\nBecause newborn screening is not universal worldwide (and misses rare mutations even in Australia), any child with suggestive symptoms needs a **sweat chloride test**, regardless of screening history. Then refer to a CF centre for management including enzymes, nutrition and airway clearance.",
+          "whyWrong": [
+            "",
+            "Coeliac disease doesn't cause nasal polyps or chronic wet cough; don't start a diet before testing.",
+            "This is not asthma; wet cough, clubbing and steatorrhoea suggest CF.",
+            "He has faltering growth and chronic lung disease; delay is harmful.",
+            "CT may show bronchiectasis later but doesn't make the diagnosis."
+          ],
+          "tags": [
+            "cystic fibrosis",
+            "failure to thrive",
+            "nasal polyps"
+          ]
+        },
+        {
+          "id": "paediatric-chronic--cystic-fibrosis--q3",
+          "discipline": "child-health",
+          "topic": "paediatric-chronic",
+          "difficulty": "exam",
+          "stem": "A couple's first child has cystic fibrosis. Neither parent has CF. Their 8-year-old daughter is healthy and has a normal sweat test. The daughter's future partner is from the general population of European ancestry, with an estimated carrier frequency of 1 in 25. What is the approximate risk that the daughter's first child will have CF, assuming no testing?",
+          "options": [
+            "1 in 4",
+            "1 in 50",
+            "1 in 100",
+            "1 in 150",
+            "1 in 2500"
+          ],
+          "answer": 3,
+          "explanation": "Both parents are obligate carriers. An **unaffected** child of two carriers has a **2 in 3** chance of being a carrier (the affected outcome is excluded by her normal sweat test, leaving carrier, carrier, non-carrier).\n\nRisk for her child = (her carrier probability 2/3) x (partner carrier probability 1/25) x (chance two carriers have an affected child 1/4) = 2/300 = **1 in 150**.\n\nThis is why **carrier testing** is offered to relatives of people with CF, and why reproductive carrier screening (CF, SMA, fragile X) is offered to couples planning pregnancy in Australia. If both are carriers, options include prenatal diagnosis or preimplantation genetic testing.",
+          "whyWrong": [
+            "1 in 4 applies only when both partners are known carriers.",
+            "This ignores the 1 in 4 risk when both are carriers.",
+            "This assumes she is definitely a carrier (1 x 1/25 x 1/4).",
+            "",
+            "This is roughly the general population birth prevalence, ignoring her family history."
+          ],
+          "tags": [
+            "genetics",
+            "carrier",
+            "cystic fibrosis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paediatric-chronic--adhd",
+      "title": "ADHD and neurodevelopmental concerns",
+      "minutes": 15,
+      "objectives": [
+        "Apply DSM-5 criteria for ADHD, including onset before 12 and symptoms in more than one setting",
+        "Assess a child with suspected ADHD and exclude common mimics and comorbidities",
+        "Outline non-drug and drug management, including stimulant monitoring and state regulation",
+        "Distinguish ADHD from autism, learning disorders, anxiety and trauma"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "ADHD in Australia",
+          "body": "**Attention deficit hyperactivity disorder (ADHD)** is the most common neurodevelopmental disorder of childhood, affecting around **6-8% of Australian children and adolescents**, more commonly diagnosed in boys (girls are underdiagnosed, often presenting with inattention rather than hyperactivity). It is highly heritable and persists into adulthood in many.\n\nThe **Australian Evidence-Based Clinical Practice Guideline for ADHD** (AADPA, 2022) guides care. Stimulant medicines are **Schedule 8** (controlled drugs), and **prescribing rules are set by each state and territory**: traditionally, a paediatrician or psychiatrist diagnoses and initiates, and GPs may continue prescribing under shared-care arrangements or permits. Several states have recently expanded the role of GPs, so **the rules vary by state**."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Diagnosis (DSM-5)",
+          "body": "**Two symptom domains**:\n- **Inattention**: careless mistakes, can't sustain attention, doesn't seem to listen, doesn't finish tasks, disorganised, avoids sustained mental effort, loses things, easily distracted, forgetful.\n- **Hyperactivity-impulsivity**: fidgets, leaves seat, runs or climbs inappropriately, can't play quietly, \"on the go\", talks excessively, blurts out answers, can't wait turn, interrupts.\n\n**Criteria**:\n- **At least 6 symptoms** in one or both domains (**5 for age 17 and over**), for **at least 6 months**, inappropriate for developmental level.\n- **Several symptoms present before age 12.**\n- Symptoms present in **two or more settings** (home, school, with friends).\n- Clear **impairment** in social, academic or occupational functioning.\n- Not better explained by another condition.\n\nPresentations: **combined**, **predominantly inattentive**, or **predominantly hyperactive-impulsive**.\n\n**Assessment**:\n- History from parents, **school reports and teacher input** (structured rating scales such as Conners or Vanderbilt questionnaires from parent and teacher).\n- Developmental, family (ADHD often runs in families), social and psychosocial history (trauma, family stress).\n- Examination: growth, dysmorphism, neurocutaneous signs, **hearing and vision**, BP and heart rate (baseline for medication).\n- Look for **mimics and comorbidities** (next section)."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Mimics and comorbidities",
+          "body": "More than half of children with ADHD have at least one comorbidity, and several conditions mimic it.\n\n| Condition | Clues |\n|---|---|\n| **Autism spectrum disorder** | Persistent deficits in **social communication** and **restricted, repetitive behaviours or interests** (insistence on sameness, sensory sensitivities). Can co-exist with ADHD |\n| **Specific learning disorder** (dyslexia, dyscalculia) | Inattention mainly during literacy or maths tasks; psychoeducational testing |\n| **Intellectual disability** | Global delay; attention consistent with developmental age |\n| **Anxiety or depression** | Worry, avoidance, poor concentration from internal preoccupation |\n| **Trauma, neglect, family violence** | Hypervigilance, dysregulation; ask sensitively |\n| **Obstructive sleep apnoea / poor sleep** | Snoring, restless sleep, daytime tiredness; hyperactivity is a common daytime feature in children |\n| **Hearing or vision impairment** | Doesn't follow instructions |\n| **Absence epilepsy** | Brief staring episodes, many times a day |\n| **Oppositional defiant or conduct disorder** | Defiance and rule-breaking (frequently comorbid) |\n| Tic disorders, thyroid disease, medications, substance use in adolescents | |\n| **Fetal alcohol spectrum disorder** | Prenatal alcohol exposure; important in some communities; growth and facial features may or may not be present |\n\n**Autism** in brief: diagnosis is by a paediatrician, psychiatrist or multidisciplinary team, using DSM-5 criteria; early intervention is key. Australia's **National Guideline for the Assessment and Diagnosis of Autism** guides the process, and many children access support through the **NDIS** (National Disability Insurance Scheme). Red flags in toddlers: no babbling or pointing by 12 months, no single words by 16-18 months, no two-word phrases by 24 months, and **any loss of language or social skills at any age**."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Non-pharmacological (always)**\n- **Psychoeducation** for the child and family.\n- **Parent training programs** (for example Triple P, developed in Australia), particularly for preschoolers, where they are first-line.\n- **School supports**: classroom strategies, seating near the teacher, breaking tasks down, individual learning plans; teachers are key partners.\n- Treat comorbidities; sleep hygiene; exercise; social skills support.\n\n**Medication** is recommended for school-aged children and adolescents with ADHD causing significant impairment, alongside non-drug measures. Medication in preschoolers is a specialist decision after behavioural approaches.\n\n| Class | Examples | Notes |\n|---|---|---|\n| **Stimulants (first line)** | **Methylphenidate**, **dexamfetamine**, **lisdexamfetamine** | Schedule 8; state permits/authority; PBS criteria |\n| Non-stimulants | **Atomoxetine**, **guanfacine** (extended release), clonidine | Useful with tics, anxiety, substance misuse concerns, or stimulant intolerance |\n\n**Before starting stimulants**: baseline **height, weight, BP and heart rate**; ask about **cardiac history** (syncope with exercise, palpitations, chest pain, known heart disease, **family history of sudden cardiac death** or inherited arrhythmias). ECG and cardiology referral if any of these are present.\n\n**Side effects**: **reduced appetite** and weight loss (give medication with or after breakfast, encourage a big evening meal), **insomnia**, headache, abdominal pain, irritability or \"rebound\" in the evening, raised heart rate and BP, and possible slowing of growth. Tics may be unmasked. Rarely psychosis or mood changes.\n\n**Monitoring**: height, weight (on centile charts), BP and heart rate at least every 6 months; review benefit and side effects with parent and teacher reports; consider planned breaks where appropriate. Watch for **diversion** of stimulants in adolescents (they are drugs of misuse)."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Hyperactive only at school, fine at home and with friends: **does not meet the two-setting criterion**; think learning disorder, classroom factors or other causes.\n- Symptoms starting at 15 with no childhood history: doesn't meet \"several symptoms before age 12\"; look for depression, substance use, sleep problems.\n- Snoring child with inattention and hyperactivity: consider **OSA** (adenotonsillar hypertrophy) before ADHD medication.\n- Before a stimulant: **ask about family history of sudden cardiac death and exercise syncope**; measure BP, HR, height and weight.\n- Commonest stimulant side effect: **appetite suppression** (and insomnia).\n- Stimulants are **Schedule 8**; prescribing rules **vary by state**.\n- Preschooler with hyperactivity: **parent training first**."
+        }
+      ],
+      "keyPoints": [
+        "ADHD affects about 6-8% of Australian children; girls are often inattentive and underdiagnosed.",
+        "DSM-5: 6 or more symptoms (5 from age 17) for 6 months, several before age 12, in two or more settings, with impairment.",
+        "Always gather teacher information and check hearing, vision, sleep and comorbidities.",
+        "Common mimics: learning disorders, OSA, anxiety, trauma, absence epilepsy, autism.",
+        "Parent training first in preschoolers; medication plus behavioural support in school-aged children.",
+        "Stimulants are Schedule 8; initiation rules and permits vary by state.",
+        "Monitor height, weight, BP and heart rate; ask about cardiac history and family sudden death before starting."
+      ],
+      "redFlags": [
+        "Loss of previously acquired language or social skills",
+        "Exercise-related syncope or family history of sudden cardiac death before stimulants",
+        "Suspected abuse, neglect or family violence behind behavioural change",
+        "Stimulant diversion or misuse in an adolescent"
+      ],
+      "contrast": [
+        {
+          "aspect": "Stimulant prescribing",
+          "india": "Psychiatrists prescribe methylphenidate; access and cost vary widely.",
+          "australia": "Schedule 8 with state-based permits; paediatrician or psychiatrist initiation traditionally, GP roles expanding in some states."
+        },
+        {
+          "aspect": "Autism support",
+          "india": "Limited early intervention services outside cities.",
+          "australia": "Formal diagnostic guideline and NDIS funding for early intervention and therapy supports."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "DSM-5 age by which several ADHD symptoms must be present?",
+          "back": "Before 12 years."
+        },
+        {
+          "front": "Minimum number of settings for ADHD symptoms?",
+          "back": "Two or more (for example home and school)."
+        },
+        {
+          "front": "First-line drug class for ADHD in school-aged children?",
+          "back": "Stimulants: methylphenidate, dexamfetamine or lisdexamfetamine."
+        },
+        {
+          "front": "Most common side effects of stimulants?",
+          "back": "Reduced appetite (weight loss) and insomnia."
+        },
+        {
+          "front": "What must be asked before starting a stimulant?",
+          "back": "Cardiac history: exercise syncope, palpitations, heart disease, family history of sudden cardiac death."
+        },
+        {
+          "front": "First-line treatment for ADHD symptoms in a preschooler?",
+          "back": "Parent training programs (for example Triple P)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "paediatric-chronic--adhd--q1",
+          "discipline": "child-health",
+          "topic": "paediatric-chronic",
+          "difficulty": "foundation",
+          "stem": "An 8-year-old boy is brought in because his teacher says he cannot sit still, interrupts constantly and doesn't finish work. His parents say he is 'the same at home since kindergarten': losing things, not listening, climbing on furniture, and struggling at soccer practice. Hearing and vision are normal and there is no snoring. What is the most appropriate next step?",
+          "options": [
+            "Start methylphenidate today",
+            "Tell the parents he will grow out of it",
+            "Refer for comprehensive assessment by a paediatrician, with parent and teacher rating scales",
+            "Arrange an EEG",
+            "Arrange thyroid function tests and review"
+          ],
+          "answer": 2,
+          "explanation": "He has symptoms of inattention and hyperactivity-impulsivity **since before age 12**, in **more than one setting** (school, home, sport), with **impairment**. This fits ADHD, but the diagnosis needs a **comprehensive assessment**: structured parent and teacher rating scales (for example Conners or Vanderbilt), developmental and family history, and screening for comorbidities and mimics (learning disorder, anxiety, autism, trauma).\n\nIn Australia, the diagnosis and initiation of stimulants is usually by a **paediatrician or psychiatrist**, with GP involvement varying by state. Starting medication without assessment is inappropriate, and routine EEG or thyroid tests are not indicated without specific features.",
+          "whyWrong": [
+            "Stimulants should not be started before a proper assessment, and state rules usually require specialist initiation.",
+            "ADHD often persists; dismissal delays help.",
+            "",
+            "EEG is only needed if absences or seizures are suspected.",
+            "Thyroid disease is a rare cause and routine testing isn't needed without other features."
+          ],
+          "tags": [
+            "adhd",
+            "assessment",
+            "referral"
+          ]
+        },
+        {
+          "id": "paediatric-chronic--adhd--q2",
+          "discipline": "child-health",
+          "topic": "paediatric-chronic",
+          "difficulty": "core",
+          "stem": "A 7-year-old girl is referred by her school because of inattention, fidgeting and daytime tiredness. Her mother reports that she snores loudly most nights, with pauses in breathing, and wets the bed occasionally. She breathes through her mouth and has large tonsils on examination. What is the most appropriate next step?",
+          "options": [
+            "Start a stimulant medication trial",
+            "Start melatonin",
+            "Refer to a psychologist for behavioural therapy only",
+            "Refer for assessment of obstructive sleep apnoea (ENT and/or sleep study)",
+            "Start atomoxetine"
+          ],
+          "answer": 3,
+          "explanation": "**Obstructive sleep apnoea** from **adenotonsillar hypertrophy** is a common, treatable mimic of ADHD in children. Unlike adults, children with OSA often show **hyperactivity, inattention and behavioural problems** rather than obvious sleepiness. Loud nightly snoring with witnessed pauses, mouth breathing, enuresis and large tonsils strongly suggest it.\n\nShe should be referred to **ENT** (and/or for a **sleep study**); adenotonsillectomy often improves both sleep and daytime behaviour. ADHD can then be reassessed if symptoms persist.",
+          "whyWrong": [
+            "Stimulants don't treat OSA and could worsen sleep.",
+            "Melatonin doesn't treat airway obstruction.",
+            "Behavioural therapy alone misses a treatable medical cause.",
+            "",
+            "ADHD medication is premature before excluding OSA."
+          ],
+          "tags": [
+            "adhd",
+            "sleep apnoea",
+            "differential"
+          ]
+        },
+        {
+          "id": "paediatric-chronic--adhd--q3",
+          "discipline": "child-health",
+          "topic": "paediatric-chronic",
+          "difficulty": "exam",
+          "stem": "A 10-year-old boy with newly diagnosed ADHD is about to start methylphenidate. His father mentions that the boy fainted twice during swimming carnivals last year, and that the boy's uncle died suddenly aged 24 while jogging. His examination, BP and heart rate are normal. What is the most appropriate next step?",
+          "options": [
+            "Arrange an ECG and cardiology review before starting stimulant medication",
+            "Start atomoxetine instead, without further testing",
+            "Start methylphenidate at a low dose and review in 4 weeks",
+            "Reassure; fainting is common in children",
+            "Arrange an EEG for the fainting episodes"
+          ],
+          "answer": 0,
+          "explanation": "Stimulants increase heart rate and BP, so before starting them clinicians ask about **cardiac red flags**: **exertional syncope**, palpitations, chest pain, known heart disease, and **family history of sudden cardiac death at a young age**. This boy has both **syncope during exercise (swimming)** and a **young relative's sudden death during exertion**, raising concern for an inherited arrhythmia or cardiomyopathy (for example **long QT syndrome**, where swimming is a classic trigger, or hypertrophic cardiomyopathy).\n\nHe needs an **ECG and cardiology assessment** before any ADHD medication, whether stimulant or non-stimulant. The finding also matters for his own safety irrespective of ADHD.",
+          "whyWrong": [
+            "",
+            "Atomoxetine also affects heart rate and BP; cardiac assessment is still needed.",
+            "Starting a stimulant with unexplained exertional syncope and a family history of sudden death is unsafe.",
+            "Exertional syncope is a cardiac red flag, not benign fainting.",
+            "The concern is cardiac, not epileptic."
+          ],
+          "tags": [
+            "adhd",
+            "stimulants",
+            "sudden cardiac death"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paediatric-chronic--rheumatic-fever",
+      "title": "Acute rheumatic fever and rheumatic heart disease",
+      "minutes": 16,
+      "objectives": [
+        "Explain how group A streptococcal infection leads to ARF and RHD, and why it clusters in remote Australia",
+        "Diagnose ARF using the Australian Jones criteria for high-risk and low-risk groups",
+        "Manage an acute episode and prescribe long-term benzathine benzylpenicillin prophylaxis",
+        "Describe primary prevention, RHD registers and community approaches"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "An Australian health equity issue",
+          "body": "Acute rheumatic fever (ARF) has almost disappeared from wealthy populations, but **Aboriginal and Torres Strait Islander people**, especially children and young adults in **remote northern and central Australia** (NT, far north Queensland, the Kimberley and Pilbara in WA, and SA), have **some of the highest rates of ARF and rheumatic heart disease (RHD) in the world**. Māori and Pacific Islander communities, and migrants from high-prevalence countries (including parts of South Asia), are also at higher risk.\n\nThe driving factors are social: **household crowding, inadequate housing and hygiene facilities**, and poverty, which increase group A streptococcal (GAS) transmission, including through **skin sores (impetigo) and scabies**. RHD causes heart failure, stroke, endocarditis and pregnancy complications, and premature death.\n\nAustralian care follows the **RHDAustralia guideline** (The 2020 Australian guideline for prevention, diagnosis and management of ARF and RHD, 3rd edition). **ARF and RHD are notifiable** in several states and territories, and **state RHD registers** coordinate prophylaxis and follow-up (details vary by jurisdiction)."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Mechanism",
+          "body": "ARF is an **autoimmune** reaction 2-4 weeks after GAS infection. Antibodies and T cells against streptococcal antigens (especially the **M protein**) cross-react with host tissues (**molecular mimicry**): cardiac myosin and valve tissue, synovium, basal ganglia neurons (Sydenham chorea) and skin.\n\n- Classically after **GAS pharyngitis**; in remote Australian communities, **GAS skin infection** is also thought to contribute.\n- **Carditis** affects all layers (pancarditis), but the lasting damage is to the **valves**: the **mitral valve** most often (mitral regurgitation acutely; mitral stenosis after years), then the aortic valve.\n- Each **recurrence** of ARF causes further valve damage, which is why **secondary prophylaxis** is the most important intervention after diagnosis.\n- Arthritis and chorea resolve without permanent damage; the heart is what matters long term."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Diagnosis: the Australian Jones criteria",
+          "body": "Australia uses **different thresholds for high-risk and low-risk groups** (making it more sensitive where ARF is common):\n\n- **High-risk**: Aboriginal and Torres Strait Islander people in rural or remote settings, Māori and Pacific Islander people, and others living in high-risk settings (for example crowding, or migrants from high-prevalence countries).\n- **Low-risk**: everyone else.\n\n| | High-risk groups | Low-risk groups |\n|---|---|---|\n| **Major** | **Carditis** (including subclinical, found on echo); **polyarthritis, aseptic monoarthritis or polyarthralgia**; **Sydenham chorea**; erythema marginatum; subcutaneous nodules | Carditis (including subclinical); **polyarthritis** only; chorea; erythema marginatum; subcutaneous nodules |\n| **Minor** | **Monoarthralgia**; fever **38.0 °C or more**; ESR 30 mm/h or more, or CRP 30 mg/L or more; prolonged PR interval | **Polyarthralgia or aseptic monoarthritis**; fever **38.5 °C or more**; ESR 60 mm/h or more, or CRP 30 mg/L or more; prolonged PR interval |\n\n**Diagnosis of a first episode**: evidence of **preceding GAS infection** (raised or rising **ASOT or anti-DNase B**, or positive culture/PCR) plus **2 major**, or **1 major and 2 minor** criteria. **Sydenham chorea** can be diagnosed alone without other criteria or evidence of GAS, because it can appear months after the infection.\n\n(Check the RHDAustralia guideline for the exact current criteria and for recurrent ARF, where the thresholds are lower.)\n\n**Clinical pictures the AMC uses**:\n- A 10-year-old Aboriginal child from a remote community with **fever and a migratory painful swollen joint** (large joints, moving from knee to ankle to elbow over days), responding dramatically to NSAIDs.\n- **Carditis**: new murmur (apical pansystolic of mitral regurgitation), tachycardia out of proportion to fever, pericardial rub, heart failure.\n- **Sydenham chorea**: purposeless jerky movements, emotional lability, \"milkmaid's grip\", deteriorating handwriting, typically in girls; may appear alone months after infection.\n- **Erythema marginatum**: pink rings with clear centres on the trunk (hard to see on dark skin); **subcutaneous nodules** over extensor surfaces.\n\n**Investigations**: ASOT and anti-DNase B (repeat after 10-14 days for rising titre), throat swab, **ESR and CRP**, FBC, **ECG** (prolonged PR), **echocardiogram** in every suspected case (subclinical carditis counts as a major criterion), and blood cultures if febrile (to exclude endocarditis). Differentials include septic arthritis, reactive arthritis, juvenile idiopathic arthritis, viral arthritis, and leukaemia (bone pain)."
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment and prophylaxis",
+          "body": "**Acute episode** (admit to hospital, ideally where echo is available):\n- **Eradicate GAS**: benzathine benzylpenicillin G IM (single dose), which also counts as the first prophylactic dose; oral penicillin if IM is refused.\n- **Arthritis/fever**: NSAIDs (**naproxen** is commonly used in current Australian guidance; aspirin is an alternative). Joint pain responds dramatically; lack of response should prompt a rethink. Holding NSAIDs until the diagnosis is clear can help the joint pattern declare itself, with paracetamol meanwhile.\n- **Carditis/heart failure**: diuretics, ACE inhibitors, specialist care; corticosteroids may be considered for severe carditis; valve surgery if needed.\n- **Chorea**: usually self-limited over weeks to months; medication (for example carbamazepine or valproate) for severe cases.\n- Register with the state **RHD register** and notify where required.\n- Education for the family, and a plan for dental review.\n\n**Secondary prophylaxis (the key intervention)**:\n- **Benzathine benzylpenicillin G IM every 28 days** (every 21 days for some high-risk patients).\n- Duration (RHDAustralia): at least **10 years after the last ARF episode or until age 21, whichever is longer**, for ARF without cardiac involvement or with mild RHD; **longer (to age 35 or 40, or longer)** for moderate or severe RHD. Check the guideline for the exact table.\n- Penicillin allergy: specialist allergy assessment is recommended, as true allergy is uncommon; erythromycin is an oral alternative.\n- Reducing injection pain (lignocaine mixed with the penicillin where allowed, ice, distraction, warming to room temperature) improves adherence.\n- **Adherence** is the major challenge; Aboriginal health workers and practitioners, community-controlled services and registers with recall systems are essential.\n\n**Other ongoing care**: regular echocardiography and specialist review, **dental care** (oral health reduces endocarditis risk), **endocarditis prophylaxis** for dental procedures in Aboriginal and Torres Strait Islander people with RHD (eTG), influenza vaccination, pregnancy planning and contraception (RHD in pregnancy is high risk), and anticoagulation for AF or mechanical valves."
+        },
+        {
+          "kind": "application",
+          "heading": "Prevention",
+          "body": "- **Primordial**: better housing, less crowding, functional washing facilities, healthy skin programs (treating scabies and impetigo).\n- **Primary**: treat **GAS sore throat and skin sores** promptly in high-risk populations with penicillin (benzathine benzylpenicillin IM once, or oral phenoxymethylpenicillin for 10 days). In high-risk settings, a sore throat in a child is treated as possible GAS.\n- **Secondary**: long-term benzathine benzylpenicillin for anyone with ARF or RHD.\n- **Tertiary**: echo surveillance, heart failure care, valve surgery.\n- **Echocardiographic screening** in high-risk communities has been used in research and programs to find subclinical RHD."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Aboriginal child from a remote community with fever and a **single swollen joint or polyarthralgia**: in high-risk groups these count as **major** criteria. Do an echo.\n- Every suspected ARF case needs an **echocardiogram** (subclinical carditis is a major criterion).\n- **Chorea alone** is enough to diagnose ARF.\n- Most important long-term treatment: **benzathine benzylpenicillin G IM every 28 days** for at least 10 years or until 21 (longer with moderate/severe RHD).\n- Mitral regurgitation is the commonest valve lesion.\n- A dramatic response to NSAIDs supports ARF arthritis; no response suggests another diagnosis.\n- RHD registers and notification: know that they exist and vary by state."
+        }
+      ],
+      "keyPoints": [
+        "Aboriginal and Torres Strait Islander people in remote northern and central Australia have among the highest ARF/RHD rates in the world.",
+        "ARF is autoimmune (molecular mimicry) 2-4 weeks after GAS throat or possibly skin infection.",
+        "Australian Jones criteria use lower thresholds for high-risk groups (monoarthritis or polyarthralgia can be major).",
+        "Diagnosis: evidence of GAS plus 2 major, or 1 major and 2 minor; chorea alone suffices.",
+        "Echocardiogram for every suspected case; subclinical carditis counts.",
+        "Secondary prophylaxis: benzathine benzylpenicillin G IM every 28 days, at least 10 years or to age 21, longer for moderate or severe RHD.",
+        "Mitral valve is most often affected; dental care and endocarditis prophylaxis matter."
+      ],
+      "redFlags": [
+        "New murmur or heart failure in a child with arthritis and fever",
+        "Fever with joint pain in a high-risk child (don't dismiss as a sprain)",
+        "Chorea or new emotional lability in a school-aged child",
+        "Missed benzathine penicillin doses in a patient with RHD",
+        "Pregnancy in a woman with RHD"
+      ],
+      "contrast": [
+        {
+          "aspect": "Burden",
+          "india": "ARF and RHD remain common, especially in poorer rural populations.",
+          "australia": "Rare in most Australians but very high in remote Aboriginal and Torres Strait Islander communities; notifiable and registered in several states."
+        },
+        {
+          "aspect": "Diagnostic criteria",
+          "india": "Revised Jones criteria (AHA 2015) with WHO guidance.",
+          "australia": "Australian guideline criteria with separate high-risk and low-risk thresholds (RHDAustralia 2020)."
+        },
+        {
+          "aspect": "Prophylaxis delivery",
+          "india": "Benzathine penicillin often limited by supply and fear of reactions.",
+          "australia": "4-weekly benzathine benzylpenicillin G supported by registers, recall systems and Aboriginal health workers."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Most important long-term treatment after ARF?",
+          "back": "Benzathine benzylpenicillin G IM every 28 days (secondary prophylaxis)."
+        },
+        {
+          "front": "Minimum duration of prophylaxis after ARF with no or mild carditis (RHDAustralia)?",
+          "back": "10 years after the last episode or until age 21, whichever is longer."
+        },
+        {
+          "front": "Which ARF feature can establish the diagnosis on its own?",
+          "back": "Sydenham chorea."
+        },
+        {
+          "front": "Which joint presentations count as major criteria in high-risk groups?",
+          "back": "Polyarthritis, aseptic monoarthritis or polyarthralgia."
+        },
+        {
+          "front": "Commonest valve affected in RHD?",
+          "back": "Mitral valve (regurgitation early, stenosis later)."
+        },
+        {
+          "front": "Investigation needed in every suspected ARF case?",
+          "back": "Echocardiogram (subclinical carditis counts as a major criterion)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "paediatric-chronic--rheumatic-fever--q1",
+          "discipline": "child-health",
+          "topic": "paediatric-chronic",
+          "difficulty": "core",
+          "stem": "A 9-year-old Aboriginal boy from a remote community in the Northern Territory presents with 4 days of fever (38.4 °C) and a painful, swollen right knee. He had skin sores on his legs a month ago. ASOT is markedly raised, CRP is 85 mg/L and the ECG shows a prolonged PR interval. Joint aspirate is sterile. Echocardiography is pending. Under the Australian criteria, what is the best interpretation?",
+          "options": [
+            "ARF cannot be diagnosed without polyarthritis",
+            "Definite ARF: one major criterion (aseptic monoarthritis) and two or more minor criteria, with evidence of GAS infection",
+            "Septic arthritis; start IV flucloxacillin and no further workup",
+            "Reactive arthritis; NSAIDs only, no penicillin",
+            "Juvenile idiopathic arthritis; refer to rheumatology"
+          ],
+          "answer": 1,
+          "explanation": "In **high-risk groups** (Aboriginal and Torres Strait Islander people in remote settings), the Australian criteria count **aseptic monoarthritis** as a **major** criterion. His **minor** criteria include fever of 38.0 °C or more, **CRP of 30 mg/L or more**, and a **prolonged PR interval**. With evidence of **preceding GAS infection** (raised ASOT), **1 major plus 2 minor** criteria meet the definition of ARF.\n\nThe lower thresholds exist because ARF is common in these communities and missing it means missing secondary prophylaxis. He needs an **echocardiogram** (subclinical carditis would add a second major criterion), GAS eradication with benzathine benzylpenicillin, NSAIDs, registration and long-term prophylaxis.",
+          "whyWrong": [
+            "In high-risk groups monoarthritis counts as a major criterion.",
+            "",
+            "The aspirate is sterile; ARF is the likely diagnosis in this setting.",
+            "Reactive arthritis doesn't explain raised ASOT with prolonged PR in this context, and missing ARF withholds prophylaxis.",
+            "JIA requires arthritis for at least 6 weeks and doesn't fit the acute post-streptococcal picture."
+          ],
+          "ausPearl": "Australian ARF criteria use lower thresholds in high-risk populations (RHDAustralia 2020 guideline).",
+          "tags": [
+            "rheumatic fever",
+            "jones criteria",
+            "first nations"
+          ]
+        },
+        {
+          "id": "paediatric-chronic--rheumatic-fever--q2",
+          "discipline": "child-health",
+          "topic": "paediatric-chronic",
+          "difficulty": "foundation",
+          "stem": "A 14-year-old Torres Strait Islander girl was diagnosed with acute rheumatic fever with mild mitral regurgitation 6 months ago. She is well. Which is the most appropriate long-term management?",
+          "options": [
+            "Benzathine benzylpenicillin G IM every 28 days for at least 10 years after the last episode or until age 21, whichever is longer",
+            "Oral amoxicillin only when she has a sore throat",
+            "Benzathine benzylpenicillin G IM every 28 days for 12 months only",
+            "Daily aspirin for life",
+            "No treatment unless symptoms recur"
+          ],
+          "answer": 0,
+          "explanation": "The most important intervention after ARF is **secondary prophylaxis** to prevent recurrences, each of which causes further valve damage. The first-line regimen is **benzathine benzylpenicillin G IM every 28 days** (21 days for some high-risk patients).\n\nFor ARF with no or **mild** carditis, the RHDAustralia guideline recommends at least **10 years after the most recent episode or until age 21, whichever is longer**. With moderate or severe RHD, prophylaxis continues longer (to 35 or 40 years of age or beyond). She also needs regular echocardiography, dental care, endocarditis prophylaxis for dental procedures, registration on the RHD register, and pregnancy planning advice.",
+          "whyWrong": [
+            "",
+            "Treating sore throats alone doesn't prevent recurrences reliably.",
+            "12 months is far too short.",
+            "Aspirin treats arthritis acutely; it doesn't prevent recurrence.",
+            "Without prophylaxis, recurrences and progressive valve damage are likely."
+          ],
+          "tags": [
+            "rheumatic heart disease",
+            "prophylaxis",
+            "benzathine penicillin"
+          ]
+        },
+        {
+          "id": "paediatric-chronic--rheumatic-fever--q3",
+          "discipline": "child-health",
+          "topic": "paediatric-chronic",
+          "difficulty": "exam",
+          "stem": "An 11-year-old girl who moved from a Pacific Island nation 2 years ago has had 3 weeks of clumsiness, dropping things and writing that has become messy. Her mother reports she has become tearful and irritable. On examination there are irregular, purposeless jerky movements of her face and hands, and her grip waxes and wanes when squeezing the examiner's fingers. She is afebrile. ASOT is normal. What is the most appropriate management?",
+          "options": [
+            "Reassure; ARF can't be diagnosed with a normal ASOT",
+            "Diagnose Sydenham chorea (ARF), arrange echocardiography and start benzathine benzylpenicillin prophylaxis",
+            "Start haloperidol and discharge",
+            "Refer for psychological therapy for a functional disorder",
+            "Arrange genetic testing for Huntington disease"
+          ],
+          "answer": 1,
+          "explanation": "Purposeless jerky movements, **\"milkmaid's grip\"**, deteriorating handwriting and **emotional lability** are classic **Sydenham chorea**. Chorea can appear **months after** the GAS infection, when streptococcal antibodies may have normalised, so **chorea alone is sufficient to diagnose ARF** without other criteria or serological evidence.\n\nShe needs an **echocardiogram** (carditis often coexists, sometimes subclinically), **benzathine benzylpenicillin** (eradication and then 4-weekly secondary prophylaxis), and symptomatic treatment if chorea is severe (for example carbamazepine or valproate). She is from a high-risk group (Pacific Islander).",
+          "whyWrong": [
+            "Chorea can occur after antibody levels normalise; it diagnoses ARF on its own.",
+            "",
+            "Symptomatic treatment alone misses the need for echo and prophylaxis.",
+            "This is a recognisable organic movement disorder.",
+            "Huntington disease in childhood is very rare and wouldn't explain this subacute picture in a high-risk child."
+          ],
+          "tags": [
+            "sydenham chorea",
+            "rheumatic fever",
+            "prophylaxis"
+          ]
+        }
+      ]
+    }
+  ]
+}

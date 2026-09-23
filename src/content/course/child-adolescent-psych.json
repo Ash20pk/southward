@@ -1,0 +1,746 @@
+{
+  "topic": "child-adolescent-psych",
+  "intro": "Child and adolescent mental health covers how to assess young people safely and confidentially, and the conditions that dominate this age group: depression, anxiety, self-harm, eating disorders, ADHD and autism. It is a frequent AMC theme because it tests Australian norms around confidentiality, the mature minor principle, mandatory reporting and youth services such as headspace, alongside can't-miss medical risks like unstable anorexia and overdose.",
+  "lessons": [
+    {
+      "id": "child-adolescent-psych--adolescent-assessment-confidentiality",
+      "title": "Seeing young people: HEEADSSS, consent and confidentiality",
+      "minutes": 14,
+      "objectives": [
+        "Structure an adolescent consultation, including time alone with the young person",
+        "Run a HEEADSSS psychosocial assessment and pick out the domains that signal risk",
+        "Explain the limits of confidentiality in words a 15-year-old understands",
+        "Decide when a minor can consent to their own care in Australia (mature minor principle)",
+        "Match a young person to the right service: GP, headspace, CAMHS or emergency care"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why adolescent consultations are their own skill",
+          "body": "Around one in seven Australian children and adolescents has a mental disorder in any year, and roughly half of all lifetime mental illness has started by the mid-teens. Suicide is the leading cause of death in young Australians aged 15 to 24. Yet young people are the group least likely to seek help, and when they do come, it is often for something else: acne, contraception, a sports injury, headaches or tiredness.\n\nThe AMC expects an intern to do three things well with a young person:\n\n- **Engage them** so they tell you what is really going on.\n- **Screen** for the psychosocial problems that actually drive morbidity in this age group (mood, self-harm, substance use, sexual health, abuse, eating).\n- **Handle confidentiality and consent correctly**, because getting this wrong either drives the young person away or leaves them unsafe.\n\nIn Indian practice a parent is usually in the room throughout and is often the decision-maker. In Australia, spending part of every consultation alone with an adolescent is standard, expected practice, and the AMC will mark you down for skipping it."
+        },
+        {
+          "kind": "concepts",
+          "heading": "HEEADSSS: the psychosocial screen",
+          "body": "HEEADSSS is a structured interview that moves from safe topics to sensitive ones, which is exactly why the order matters. Start with Home, not Sex.\n\n| Letter | Domain | Example questions and what you are looking for |\n|---|---|---|\n| H | Home | Who lives at home? How do you get on? Ever feel unsafe? (conflict, family violence, homelessness, out-of-home care) |\n| E | Education / employment | How is school going? Attendance, grades, bullying, plans (a drop in performance is an early sign of depression, substance use or psychosis) |\n| E | Eating / exercise | Feelings about body and weight, dieting, skipping meals, vomiting, compulsive exercise |\n| A | Activities | Friends, hobbies, social media, screen time, who they spend time with |\n| D | Drugs | Alcohol, tobacco and vapes, cannabis, other drugs; peers' use first (\"some people your age...\") |\n| S | Sexuality | Relationships, sexual activity, contraception, STI risk, consent, sexual orientation and gender identity |\n| S | Suicide / depression | Mood, sleep, self-harm, suicidal thoughts (ask directly) |\n| S | Safety | Abuse, bullying (including online), risky driving, violence, sexting and exploitation |\n\nAsking about suicide does **not** plant the idea or increase risk. Ask plainly: \"Sometimes when people feel this low, they think about hurting themselves or ending their life. Has that happened to you?\"\n\nUseful techniques: normalise (\"lots of people your age...\"), use open questions, avoid judgment, and use the young person's own words. Strengths matter too; some versions add a strengths domain because protective factors shape the plan."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Confidentiality and its limits",
+          "body": "Explain confidentiality **at the start**, to the young person and parent together, so that asking the parent to step out feels routine rather than suspicious. A typical script:\n\n> \"With everyone your age, I spend some time on my own with them. What we talk about stays between us, unless I'm worried that you or someone else is at serious risk of harm. If that happens, I'd talk to you first about who needs to know.\"\n\nThe recognised limits are:\n\n- **Serious risk to the young person's life or safety**: active suicidal intent, severe self-harm, medical instability from an eating disorder.\n- **Risk to others**: threats of serious violence.\n- **Abuse**: sexual, physical or emotional abuse or neglect. All doctors in every Australian state and territory are **mandatory reporters** of child abuse to the state child protection agency, though the exact thresholds and ages vary by state.\n- **Legal compulsion**: a court order or subpoena.\n\nEven when you must breach confidentiality, involve the young person in the decision: tell them what you will share, with whom and why. Share the minimum necessary.\n\n**Medicare and privacy.** From age 15 a young person can have their own Medicare card. Once they turn 14, parents generally lose online access to their Medicare claims history without the young person's consent, which protects privacy for things like contraception or STI testing. Bulk billing avoids a bill landing at home."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Consent: the mature minor",
+          "body": "Australia follows the common law **mature minor** principle, adopted from the English *Gillick* case and confirmed by the High Court in *Marion's case* (1992). A person under 18 can consent to their own treatment if they have sufficient maturity and understanding to understand the nature, consequences and risks of that particular decision. Capacity is decision-specific: a 15-year-old may be competent to consent to the contraceptive pill or antidepressants but not to a complex, high-risk procedure.\n\nSome states add statutory rules (for example, South Australia sets 16 as the age of consent to medical treatment, and NSW law protects doctors treating a minor aged 14 or over with the minor's consent). Details **vary by state**, so for the exam apply the principle: assess and document maturity and understanding for the specific decision.\n\nEncourage involvement of parents wherever possible and safe, but a competent minor's refusal to involve parents should generally be respected unless one of the confidentiality limits applies."
+        },
+        {
+          "kind": "application",
+          "heading": "Where to send a young person",
+          "body": "- **GP**: first point of contact. A **Mental Health Treatment Plan** under Better Access gives Medicare-subsidised sessions with a psychologist or other allied health professional.\n- **headspace**: the National Youth Mental Health Foundation, with 150+ centres. Free or low-cost, youth-friendly care for **12 to 25 year olds** covering mental health, physical and sexual health, alcohol and other drugs, and work/study support. No referral needed. Ideal for mild to moderate problems and early intervention. headspace also runs online and phone support (eheadspace).\n- **CAMHS / CYMHS** (Child and Adolescent, or Child and Youth, Mental Health Service): state-funded specialist teams for moderate to severe or complex illness (psychosis, severe eating disorders, high-risk self-harm). Names vary by state.\n- **Early psychosis services** (for example, EPPIC-model programs) for a first episode of psychosis.\n- **Emergency department or crisis team** if there is imminent risk.\n- Phone and online support: **Kids Helpline 1800 55 1800** (5 to 25 years), **Lifeline 13 11 14**, Beyond Blue, and **13YARN** for Aboriginal and Torres Strait Islander people.\n\nAlways consider culturally appropriate care, such as an Aboriginal Community Controlled Health Service or Aboriginal health worker, and support for LGBTIQA+ young people, who have higher rates of depression and self-harm largely because of stigma and discrimination."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- A teenager attends with a parent for a minor complaint. The best next step is almost always **to see the young person alone**, after explaining confidentiality.\n- \"What would you do first?\" in a psychosocial case: **HEEADSSS**, starting with home, not drugs or sex.\n- A 15-year-old asks for the pill and asks you not to tell her mother: assess competence (mature minor), screen for coercion or abuse, and if competent, prescribe and keep confidence.\n- Disclosure of sexual abuse, or sexual activity where the age gap or circumstances suggest exploitation: mandatory report; confidentiality does not apply.\n- Trap: telling a young person \"everything you say is completely confidential\". Never promise unconditional confidentiality."
+        }
+      ],
+      "keyPoints": [
+        "See every adolescent alone for part of the consultation, after explaining confidentiality to both parent and young person.",
+        "HEEADSSS moves from safe to sensitive: Home, Education, Eating, Activities, Drugs, Sexuality, Suicide/depression, Safety.",
+        "Confidentiality is limited by serious risk to self, risk to others, abuse (mandatory reporting) and legal compulsion.",
+        "Mature minor principle: a minor who understands the specific decision can consent to it; statutory ages vary by state.",
+        "Own Medicare card from 15; parents lose default access to a young person's Medicare records from 14.",
+        "headspace offers free youth mental health care for 12 to 25 year olds without referral; CAMHS handles severe illness.",
+        "Asking directly about suicide does not increase risk."
+      ],
+      "redFlags": [
+        "Disclosure of physical, sexual or emotional abuse or neglect (mandatory report)",
+        "Suicidal thoughts with a plan or intent",
+        "Sudden drop in school performance or withdrawal from friends",
+        "Sexual activity involving a much older partner or signs of exploitation",
+        "Homelessness or leaving home"
+      ],
+      "contrast": [
+        {
+          "aspect": "Who is in the room",
+          "india": "Parents usually stay throughout and often answer for the teenager.",
+          "australia": "Part of every consultation is spent alone with the young person; parents are asked to step out routinely."
+        },
+        {
+          "aspect": "Minor's consent",
+          "india": "Parental consent generally sought for under-18s.",
+          "australia": "Mature minor (Gillick) principle; competent minors can consent to many treatments, with some state statutes."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "What does HEEADSSS stand for?",
+          "back": "Home, Education/employment, Eating/exercise, Activities, Drugs, Sexuality, Suicide/depression, Safety."
+        },
+        {
+          "front": "At what age can a young person get their own Medicare card?",
+          "back": "15 years."
+        },
+        {
+          "front": "What age range does headspace serve?",
+          "back": "12 to 25 years. Free or low cost, no referral needed."
+        },
+        {
+          "front": "Name the four main limits of confidentiality with a young person.",
+          "back": "Serious risk to self, serious risk to others, abuse (mandatory reporting), and legal compulsion (court order)."
+        },
+        {
+          "front": "Which Australian High Court case confirmed the mature minor principle?",
+          "back": "Secretary, Department of Health and Community Services v JWB and SMB (Marion's case), 1992."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "child-adolescent-psych--adolescent-assessment-confidentiality--q1",
+          "discipline": "mental-health",
+          "topic": "child-adolescent-psych",
+          "difficulty": "foundation",
+          "stem": "A 15-year-old girl attends a general practice in Brisbane with her mother, complaining of recurrent headaches for two months. Neurological examination is normal. Her mother mentions that her school grades have dropped this term and she spends most evenings in her room.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Order a CT scan of the brain to exclude a space-occupying lesion",
+            "Explain confidentiality and ask to speak with the girl alone",
+            "Prescribe regular paracetamol and review in four weeks",
+            "Refer her to a paediatric neurologist",
+            "Ask the mother to complete a depression questionnaire about her daughter"
+          ],
+          "answer": 1,
+          "explanation": "A teenager with vague physical symptoms, falling grades and social withdrawal needs a **psychosocial assessment**, and adolescents disclose far more when seen alone. The correct approach is to explain confidentiality and its limits to both of them, then spend time alone with the young person and work through **HEEADSSS** (home, education, eating, activities, drugs, sexuality, suicide/depression, safety).\n\nThe discriminating clues are the drop in school performance and withdrawal, which point toward depression, bullying, substance use or problems at home rather than a neurological cause. With a normal examination and no red flags, imaging adds nothing. A parent-completed questionnaire misses the young person's own account.",
+          "whyWrong": [
+            "There are no neurological red flags; imaging exposes her to radiation and does not address the likely psychosocial cause.",
+            "",
+            "Treating the symptom without exploring the drop in grades and withdrawal misses a probable mental health problem.",
+            "A normal neurological examination with psychosocial clues does not warrant specialist neurology referral.",
+            "The young person's own account, obtained alone, is the key information; a parent report is no substitute."
+          ],
+          "ausPearl": "Seeing adolescents alone is standard Australian practice and is expected in AMC scenarios; explain it as routine to avoid alarming the parent.",
+          "tags": [
+            "heeadsss",
+            "confidentiality",
+            "adolescent"
+          ]
+        },
+        {
+          "id": "child-adolescent-psych--adolescent-assessment-confidentiality--q2",
+          "discipline": "mental-health",
+          "topic": "child-adolescent-psych",
+          "difficulty": "core",
+          "stem": "A 15-year-old girl attends a Melbourne general practice alone requesting the oral contraceptive pill. She has a 16-year-old boyfriend and they have been sexually active for two months, using condoms. She asks you not to tell her parents. She clearly understands how the pill works, its risks and the need for condoms to prevent STIs. There are no features of coercion or abuse.\n\nWhat is the most appropriate action?",
+          "options": [
+            "Decline to prescribe until a parent gives consent",
+            "Prescribe the pill only if she agrees to tell her parents within a month",
+            "Notify child protection because she is under 16",
+            "Assess and document her competence, then prescribe while maintaining confidentiality",
+            "Refer her to a gynaecologist for a second opinion on her competence"
+          ],
+          "answer": 3,
+          "explanation": "Under the **mature minor principle**, a person under 18 can consent to treatment if they understand the nature, consequences and risks of that specific decision. This girl demonstrates understanding, there is no coercion or exploitation, and her partner is close in age. The right action is to **document your assessment of competence**, prescribe, advise continued condom use, offer STI screening, and keep her confidence.\n\nConfidentiality would only be breached for serious risk of harm or abuse. Consensual sexual activity between similarly aged adolescents, without exploitation, is not in itself a reason for a child protection report, although you must always screen for coercion. Making care conditional on parental disclosure drives young people away from care.",
+          "whyWrong": [
+            "A competent minor can consent to contraception without parental consent.",
+            "Conditions like this undermine trust and are not required when she is competent.",
+            "Consensual activity with a similar-aged partner and no signs of abuse does not meet the threshold for a report, though you must screen for exploitation.",
+            "",
+            "Competence is assessed by the treating doctor for the specific decision; specialist review is unnecessary here."
+          ],
+          "ausPearl": "Statutory ages differ (e.g. South Australia's law sets 16 for medical consent), so apply the mature minor principle and check local law.",
+          "tags": [
+            "mature minor",
+            "consent",
+            "contraception"
+          ]
+        },
+        {
+          "id": "child-adolescent-psych--adolescent-assessment-confidentiality--q3",
+          "discipline": "mental-health",
+          "topic": "child-adolescent-psych",
+          "difficulty": "exam",
+          "stem": "A 14-year-old boy is seen alone in a Perth emergency department after a minor sports injury. During a HEEADSSS assessment he discloses that his stepfather hits him with a belt when drunk, most recently leaving bruises on his back two days ago. He begs you not to tell anyone because he fears it will make things worse at home.\n\nWhat is the most appropriate response?",
+          "options": [
+            "Respect his wishes because he is a mature minor and document the disclosure",
+            "Explain that you must share this to keep him safe, and make a report to child protection",
+            "Arrange a family meeting with the stepfather to discuss discipline",
+            "Call the police to arrest the stepfather before discharge",
+            "Give him the Kids Helpline number and arrange GP follow-up in a week"
+          ],
+          "answer": 1,
+          "explanation": "This is a disclosure of **physical abuse**, and doctors are **mandatory reporters** of child abuse in every Australian state and territory. Confidentiality cannot be maintained. The best practice is to be honest with the young person: explain that you are worried for his safety, that the law requires you to share this, what will happen next, and that you will support him.\n\nA report goes to the state child protection agency, which assesses immediate safety (including whether he can go home). Document the history in his own words and examine and record injuries. The mature minor principle covers consent to treatment; it does not override mandatory reporting. Confronting the alleged perpetrator can escalate risk and compromise the investigation.",
+          "whyWrong": [
+            "Mature minor status does not override the legal duty to report abuse.",
+            "",
+            "Confronting the alleged perpetrator may increase risk and interfere with the child protection process.",
+            "Child protection is the mandated pathway; police are involved via that process or if there is immediate danger.",
+            "Helpline numbers are useful supports but do not discharge the duty to report or address his immediate safety."
+          ],
+          "tags": [
+            "mandatory reporting",
+            "child abuse",
+            "confidentiality"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "child-adolescent-psych--depression-anxiety-self-harm",
+      "title": "Adolescent depression, anxiety and self-harm",
+      "minutes": 18,
+      "objectives": [
+        "Recognise how depression and anxiety present differently in adolescents",
+        "Assess a young person after self-harm: medical, risk and needs assessment",
+        "Choose between psychological therapy and an SSRI, and monitor safely",
+        "Build a safety plan and follow-up that involves family"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The size of the problem",
+          "body": "Anxiety disorders are the most common mental disorders in Australian children and adolescents, followed by ADHD, then depression, which rises sharply after puberty (especially in girls). Self-harm is common: national survey data suggest around one in ten adolescents has self-harmed at some point. Most self-harm is not a suicide attempt, but self-harm is the strongest predictor of later suicide, and a young person who self-harms has a substantially increased risk of dying by suicide.\n\nThe AMC tests whether you can recognise depression in a young person who does not look \"classically\" depressed, respond safely to self-harm, and use medication cautiously."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why adolescence is a vulnerable time",
+          "body": "- **Biology**: puberty, sleep-phase delay, and a brain whose emotional (limbic) systems mature before the prefrontal control systems, which favours impulsive responses to distress.\n- **Genetics**: a parent with depression roughly triples the risk.\n- **Environment**: bullying (including online), family conflict, abuse, academic pressure, loss, and discrimination (for example, against LGBTIQA+ or Aboriginal and Torres Strait Islander young people).\n- **Substances**: alcohol and cannabis worsen mood and increase impulsivity.\n\nSelf-harm usually serves a function: relief from overwhelming emotion, self-punishment, communicating distress, or feeling something when numb. Understanding the function guides therapy."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "How it presents",
+          "body": "**Depression in adolescents** meets the same DSM-5 criteria as in adults (low mood or loss of interest for at least two weeks plus other symptoms), with some differences:\n\n- **Irritability** can replace low mood.\n- Falling school performance, withdrawal from friends and activities, conflict at home.\n- Somatic complaints: headaches, abdominal pain, fatigue.\n- Hypersomnia and increased appetite are more common than in adults.\n- Substance use as self-medication.\n\n**Anxiety disorders**: separation anxiety (younger children), social anxiety, generalised anxiety, specific phobias and panic disorder. School refusal, abdominal pain before school and avoidance are classic clues. Anxiety frequently precedes depression.\n\n**Self-harm** presentations: cutting (most common in community samples), or overdose (most common method in hospital presentations, often paracetamol or whatever is in the house). Ask about method, intent, planning, whether they told anyone, how they feel about surviving, and what happened beforehand.\n\n**Bipolar disorder** and **first-episode psychosis** also emerge in late adolescence; a depressed young person with a family history of bipolar disorder needs caution with antidepressants."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Assessment after self-harm",
+          "body": "Every self-harm presentation needs three assessments:\n\n1. **Medical**: treat the injury or overdose first. In any intentional overdose, check a **paracetamol level** (4 hours after ingestion, or on arrival if timing unknown or staggered) because paracetamol is common, early symptoms are absent, and delayed treatment causes liver failure. Consider ECG, glucose, and other levels as indicated.\n2. **Psychosocial assessment** (once medically fit): HEEADSSS, mental state examination, precipitants, current suicidal ideation, intent and plans, access to means, previous self-harm, substance use, protective factors, and who supports them. Interview the young person alone and the family separately.\n3. **Needs assessment**: what does this young person need to be safe and get better? Housing, school, bullying, family conflict, abuse.\n\nAustralian guidance (including the RANZCP self-harm guideline) warns against relying on **risk categories** (low/medium/high) or risk scales to decide who gets care. They predict poorly, and people labelled \"low risk\" go on to die by suicide. Every person who self-harms deserves a psychosocial assessment and a plan.\n\nScreening tools such as the PHQ-A or Kessler (K10) can support but not replace clinical assessment. Look for comorbid anxiety, eating disorder, substance use and abuse."
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment",
+          "body": "**Mild depression or anxiety**: psychoeducation, sleep and exercise, reduce substance use, school liaison, active monitoring, and guided self-help or online programs. headspace is a good entry point.\n\n**Moderate to severe depression**: psychological therapy first, **CBT** or **interpersonal therapy (IPT)**, via a GP Mental Health Treatment Plan, headspace or CAMHS. If there is no response, or the depression is severe, add an SSRI under specialist or experienced GP supervision:\n\n- **Fluoxetine** has the best evidence in young people and is the usual first choice; sertraline or escitalopram are alternatives.\n- Start low, increase slowly.\n- **Monitor closely for suicidal thinking and agitation**, especially in the first weeks and after dose changes. Antidepressants carry a warning about increased suicidal thoughts and behaviour in people under 25. This is a reason for monitoring, not for withholding treatment when indicated.\n- Tricyclics are not effective in adolescent depression and are dangerous in overdose.\n\n**Anxiety**: CBT (including exposure) is first line; SSRIs for moderate to severe or unresponsive cases. Avoid benzodiazepines.\n\n**After self-harm**:\n\n- **Collaborative safety plan**: warning signs, coping strategies, people and places for distraction, who to call (including Kids Helpline, Lifeline, 000), and **reducing access to means** (lock up or remove medications, including paracetamol, and firearms).\n- **Involve family or carers** where safe; they supervise medications and provide support.\n- Arrange **prompt follow-up**, ideally within days; the period after discharge is high risk.\n- Admission if the young person cannot be kept safe (ongoing high intent, severe illness, no safe supports). Involuntary admission under the state Mental Health Act is possible if criteria are met.\n- Treat underlying conditions and address stressors (school, bullying, abuse)."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Traps and discriminating clues",
+          "body": "- An irritable, withdrawn teenager whose grades have dropped: think **depression** before \"behaviour problem\".\n- Any teenage overdose: **paracetamol level**, even if they say they only took something else.\n- The correct answer usually includes **family involvement, means restriction and early follow-up**, not a risk category.\n- If medication is needed for adolescent depression, **fluoxetine** is the answer; watch for suicidality early.\n- Beware a depressed teen with a family history of bipolar disorder: antidepressants can precipitate mania.\n- School refusal with morning abdominal pain that settles on weekends: think **anxiety** (separation or social), and manage with CBT and a graded return to school rather than prolonged time off.\n- Confidentiality after self-harm: parents usually need to know enough to keep the young person safe; explain this to the young person and share only what is needed."
+        }
+      ],
+      "keyPoints": [
+        "Adolescent depression often presents as irritability, falling grades, withdrawal and somatic complaints.",
+        "Anxiety is the most common disorder in young people and often precedes depression.",
+        "Every self-harm presentation needs medical, psychosocial and needs assessment, regardless of apparent risk level.",
+        "Always check a paracetamol level after an intentional overdose.",
+        "Psychological therapy (CBT or IPT) first; fluoxetine is the first-choice SSRI if medication is needed.",
+        "Monitor for suicidality in under-25s starting antidepressants, especially early and after dose changes.",
+        "Safety planning, means restriction, family involvement and early follow-up are central."
+      ],
+      "redFlags": [
+        "Ongoing suicidal intent or a plan after self-harm",
+        "Overdose of unknown quantity or with paracetamol (delayed hepatotoxicity)",
+        "Psychotic symptoms or features of mania",
+        "Escalating frequency or lethality of self-harm",
+        "No safe adult support or ongoing abuse at home"
+      ],
+      "contrast": [
+        {
+          "aspect": "Risk assessment after self-harm",
+          "india": "Patients often labelled low, medium or high risk to decide disposition.",
+          "australia": "Risk categories discouraged; every presentation gets a psychosocial and needs assessment with a safety plan."
+        },
+        {
+          "aspect": "Antidepressant choice in teens",
+          "india": "Various SSRIs or TCAs may be used.",
+          "australia": "Psychological therapy first; fluoxetine preferred if medication needed; TCAs avoided (ineffective, toxic in overdose)."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "First-choice antidepressant for adolescent depression?",
+          "back": "Fluoxetine (best evidence in young people), alongside psychological therapy."
+        },
+        {
+          "front": "Which blood test must be done after any intentional overdose?",
+          "back": "Paracetamol level (4 hours post ingestion, or on arrival if timing unknown)."
+        },
+        {
+          "front": "What warning applies to antidepressants in people under 25?",
+          "back": "Possible increase in suicidal thinking and behaviour, especially early; monitor closely."
+        },
+        {
+          "front": "Three components of assessment after self-harm?",
+          "back": "Medical assessment, psychosocial (risk) assessment, and needs assessment."
+        },
+        {
+          "front": "First-line treatment for anxiety disorders in children and adolescents?",
+          "back": "CBT including graded exposure."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "child-adolescent-psych--depression-anxiety-self-harm--q1",
+          "discipline": "mental-health",
+          "topic": "child-adolescent-psych",
+          "difficulty": "core",
+          "stem": "A 16-year-old girl is brought to a Sydney emergency department by her mother two hours after telling her she had taken \"about ten\" of her mother's sertraline tablets following an argument with her boyfriend. She is alert, HR 98 bpm, BP 118/72 mmHg, temperature 36.9 °C. She denies taking anything else.\n\nWhich investigation is most important at this stage?",
+          "options": [
+            "Serum sertraline level",
+            "Urine drug screen",
+            "Serum paracetamol level",
+            "CT scan of the brain",
+            "Serum lithium level"
+          ],
+          "answer": 2,
+          "explanation": "In **every intentional overdose**, check a **paracetamol level**, even when the patient denies taking it. Paracetamol is the most commonly available drug in Australian homes, is often co-ingested, causes no early symptoms, and the benefit of acetylcysteine depends on starting it early. The level is interpreted against the nomogram from 4 hours after a single ingestion.\n\nAn ECG is also appropriate (for QT and sodium-channel effects), along with glucose. Serum SSRI levels are not clinically useful, urine drug screens rarely change management, and imaging is not indicated in an alert patient. Once medically cleared, she needs a psychosocial assessment, safety plan and follow-up.",
+          "whyWrong": [
+            "SSRI levels are not available quickly and do not guide management.",
+            "Urine drug screens rarely change acute management and do not detect paracetamol toxicity.",
+            "",
+            "She is alert with no head injury or focal signs; imaging is not indicated.",
+            "There is no suggestion of lithium ingestion."
+          ],
+          "tags": [
+            "overdose",
+            "paracetamol",
+            "self-harm"
+          ]
+        },
+        {
+          "id": "child-adolescent-psych--depression-anxiety-self-harm--q2",
+          "discipline": "mental-health",
+          "topic": "child-adolescent-psych",
+          "difficulty": "exam",
+          "stem": "A 15-year-old boy is reviewed by his GP in Adelaide. Over three months he has become irritable, stopped playing football, sleeps until midday on weekends, and his grades have fallen. He has had 8 sessions of CBT through a Mental Health Treatment Plan with little improvement. He has thoughts that life is not worth living but no plans or intent. There is no family history of bipolar disorder. He and his parents agree to try medication.\n\nWhich is the most appropriate medication?",
+          "options": [
+            "Amitriptyline",
+            "Diazepam",
+            "Venlafaxine",
+            "Fluoxetine",
+            "Quetiapine"
+          ],
+          "answer": 3,
+          "explanation": "This young man has **moderate depression** that has not responded to psychological therapy, so adding an antidepressant is reasonable. **Fluoxetine** has the strongest evidence for efficacy in adolescents and is the usual first choice in Australian guidance, started low and increased gradually while continuing therapy.\n\nThe key safety step is **close monitoring for emerging suicidal thoughts, agitation or behavioural activation**, especially in the first weeks and after dose changes, because antidepressants carry a warning about suicidality in under-25s. Involve his parents in monitoring and safe storage of medication. Tricyclics are ineffective in adolescent depression and lethal in overdose; venlafaxine has a less favourable profile in youth.",
+          "whyWrong": [
+            "Tricyclics are ineffective for adolescent depression and highly toxic in overdose.",
+            "Benzodiazepines do not treat depression and risk dependence and disinhibition.",
+            "Venlafaxine is not first line in adolescents and has a less favourable safety profile.",
+            "",
+            "Antipsychotics are not first-line treatment for non-psychotic depression."
+          ],
+          "tags": [
+            "depression",
+            "fluoxetine",
+            "adolescent"
+          ]
+        },
+        {
+          "id": "child-adolescent-psych--depression-anxiety-self-harm--q3",
+          "discipline": "mental-health",
+          "topic": "child-adolescent-psych",
+          "difficulty": "core",
+          "stem": "A 14-year-old girl presents to a regional Victorian hospital with superficial cuts to her forearm made with a razor blade. She says she cuts when she feels overwhelmed and that it gives her relief. She does not want to die. She lives with both parents. The wounds have been dressed.\n\nWhich is the most appropriate next step?",
+          "options": [
+            "Discharge home because she denies suicidal intent",
+            "Classify her as low risk and give her a crisis phone number",
+            "Admit her involuntarily under the Mental Health Act",
+            "Prescribe an SSRI and review in six weeks",
+            "Conduct a psychosocial assessment and develop a safety plan with her and her family"
+          ],
+          "answer": 4,
+          "explanation": "Every self-harm presentation, including superficial cutting without suicidal intent, warrants a **psychosocial assessment**: HEEADSSS, mental state, precipitants, the function of the self-harm, suicidal thinking, substance use, abuse and supports. Self-harm is a strong predictor of later suicide even when the current episode is not a suicide attempt.\n\nAustralian guidance advises against using **risk categories** to decide care, because they predict poorly. Instead, develop a **collaborative safety plan** (coping strategies, people to contact, crisis lines, removing means), involve her parents where safe, and arrange **early follow-up**, for example with headspace or CAMHS. Involuntary admission is not justified without serious risk, and medication is not the first step.",
+          "whyWrong": [
+            "Denial of suicidal intent does not remove the need for assessment; self-harm predicts later suicide.",
+            "Risk categorisation is discouraged in Australian guidance and a phone number alone is not a plan.",
+            "There is no evidence of serious risk requiring involuntary treatment; it would not be the least restrictive option.",
+            "Medication is not indicated before assessment and psychological intervention.",
+            ""
+          ],
+          "tags": [
+            "self-harm",
+            "safety plan",
+            "adolescent"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "child-adolescent-psych--eating-disorders",
+      "title": "Eating disorders in young people",
+      "minutes": 20,
+      "objectives": [
+        "Recognise anorexia nervosa, bulimia nervosa, binge eating disorder and ARFID",
+        "Identify medical instability and decide when to admit",
+        "Anticipate and prevent refeeding syndrome",
+        "Outline family-based treatment and the Medicare eating disorder plan"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why eating disorders are high yield",
+          "body": "Eating disorders affect an estimated 1 million Australians and commonly start in adolescence. **Anorexia nervosa has the highest mortality of any psychiatric illness**, from medical complications (arrhythmia, refeeding) and suicide. Many young people present with something else: fainting, amenorrhoea, fatigue, constipation, or a parent worried about weight loss. Males, athletes, gender-diverse young people and those in larger bodies are frequently missed.\n\nThe AMC focuses on recognising medical instability, knowing when to admit, refeeding syndrome, and first-line treatment."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why the body gets into trouble",
+          "body": "Eating disorders arise from genetic vulnerability (heritability is substantial), temperament (perfectionism, anxiety, obsessionality), and triggers such as dieting, puberty, sport with weight emphasis, bullying or trauma. Once starvation sets in, it becomes self-perpetuating: starvation itself causes rigidity, preoccupation with food and anxiety.\n\nThe body adapts to starvation by slowing down: **bradycardia, hypotension, hypothermia**, low T3, hypothalamic amenorrhoea (low LH, FSH and oestrogen, with bone loss). Muscle, including cardiac muscle, is broken down. Purging adds electrolyte loss: vomiting causes **hypokalaemic, hypochloraemic metabolic alkalosis**; laxatives cause hypokalaemia and dehydration.\n\n**Refeeding syndrome**: when carbohydrate is reintroduced, insulin rises and drives phosphate, potassium and magnesium into cells, while depleted thiamine is consumed. The resulting **hypophosphataemia** (the hallmark), hypokalaemia and hypomagnesaemia can cause arrhythmias, heart failure, respiratory failure, delirium, seizures and death, usually in the first few days to two weeks of refeeding."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Presentations",
+          "body": "| Disorder | Key features |\n|---|---|\n| Anorexia nervosa | Restriction leading to significantly low weight (or failure to gain in growing children), intense fear of weight gain, disturbed body image. Restricting or binge-purge subtypes. |\n| Bulimia nervosa | Recurrent binges with loss of control plus compensatory behaviour (vomiting, laxatives, exercise, fasting), at least weekly for 3 months; weight often normal. |\n| Binge eating disorder | Recurrent binges with distress, no regular compensation; often overweight. The most common eating disorder. |\n| ARFID | Avoidant/restrictive food intake from sensory aversion, fear of choking/vomiting or low interest, **without** body image concern; often younger children, associated with autism and anxiety. |\n\n**History**: weight trajectory, diet, exercise, purging, laxatives or diuretics, menstrual history, fainting, and a HEEADSSS screen. Ask the family: rapid weight loss matters as much as absolute weight. The **SCOFF** questions are a quick screen (Sick, Control, One stone, Fat, Food), with two or more \"yes\" answers suggesting an eating disorder.\n\n**Examination**: weight, height and **BMI centile or percentage of median BMI** for age (adult BMI cut-offs do not apply to children); HR and BP lying and standing; temperature; lanugo hair, dry skin, cold peripheries, acrocyanosis, delayed capillary refill; **Russell's sign** (knuckle calluses) and parotid swelling and dental erosion in purging."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Tests and the medical instability checklist",
+          "body": "Order: FBC (leucopenia, anaemia), UEC including **potassium, phosphate and magnesium**, glucose, LFTs, TFTs (low T3 is adaptive, do not treat), **ECG** (bradycardia, prolonged QTc, arrhythmia), and later bone densitometry if amenorrhoea is prolonged. Pregnancy test and coeliac serology are reasonable in the right context.\n\n**Indicators of medical instability that usually warrant admission** (adolescent thresholds used in Australian paediatric guidance; check the local protocol):\n\n- Heart rate below about **50 bpm awake** (or lower overnight), or arrhythmia or prolonged QTc\n- Hypotension (for example systolic below about 90 mmHg) or **postural changes** (systolic drop over 20 mmHg or HR rise over 30 bpm)\n- **Temperature below about 35.5 °C**\n- **Hypokalaemia, hypophosphataemia**, hypoglycaemia or other significant electrolyte disturbance\n- Syncope, very rapid weight loss, or very low weight (for example, below about 75% of median BMI for age)\n- Acute food refusal, or uncontrollable bingeing and purging\n- Suicidal risk\n\nNormal blood tests do **not** exclude serious illness; many unwell patients have normal electrolytes until refeeding starts."
+        },
+        {
+          "kind": "differentials",
+          "heading": "What else causes weight loss in a teenager",
+          "body": "| Condition | Discriminating clue |\n|---|---|\n| Hyperthyroidism | Tachycardia (not bradycardia), increased appetite, tremor; low TSH |\n| Type 1 diabetes | Polyuria, polydipsia, hyperglycaemia; note some young people omit insulin to lose weight |\n| Coeliac or inflammatory bowel disease | Diarrhoea, abdominal pain, anaemia, positive serology or raised inflammatory markers |\n| Malignancy (lymphoma, brain tumour) | Night sweats, lymphadenopathy, headaches, vomiting, neurological signs |\n| Depression | Low appetite without fear of weight gain |\n| Substance use (stimulants) | Drug history |\n\nKey point: in anorexia the young person is typically energetic, over-exercising and resistant to weight gain, while in organic illness they want to eat and regain weight."
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment",
+          "body": "**Medically unstable**: admit to a paediatric or medical ward. Start nutrition under dietitian guidance with close monitoring of **phosphate, potassium, magnesium and glucose** (daily initially), cardiac monitoring as needed, and **thiamine** before and during refeeding. Replace electrolytes. Current Australian practice supports starting nutrition promptly at adequate energy intake with monitoring, rather than very slow \"start low, go slow\" refeeding, which prolongs underfeeding. Nasogastric feeding if oral intake is refused. Involuntary treatment under a Mental Health Act or guardianship pathway may be used if life is at risk and the young person refuses.\n\n**First-line treatment for adolescent anorexia**: **family-based treatment (FBT)**, also called the Maudsley approach. Parents are temporarily put in charge of restoring weight, eating is not blamed on anyone, and control is gradually handed back to the young person as weight recovers. Evidence is strongest in younger patients with shorter illness. Adults: specialist eating disorder psychological therapy (e.g. CBT-E, MANTRA, SSCM).\n\n**Bulimia nervosa and binge eating disorder**: CBT for eating disorders (CBT-E) is first line; guided self-help for milder cases; FBT for adolescents with bulimia. Fluoxetine has evidence in adult bulimia.\n\n**Medication** does not treat anorexia itself; there is no drug that restores weight. Treat comorbid depression or anxiety once nutrition improves.\n\n**Australian services**: The GP prepares an **Eating Disorder Treatment and Management Plan** under Medicare, which gives eligible patients up to **40 psychological sessions and 20 dietetic sessions in 12 months**, with regular GP and specialist reviews. The Butterfly Foundation provides a national helpline and support. Monitor physical health throughout outpatient care: weight, HR, BP, temperature and bloods."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- A thin teenager with **HR 42, postural drop, temperature 35.2 °C**: the answer is **admit**, not outpatient FBT.\n- Day 3 of refeeding with confusion, weakness or arrhythmia: **hypophosphataemia** (refeeding syndrome).\n- Vomiting plus hypokalaemia with raised bicarbonate: purging.\n- First-line treatment of adolescent anorexia: **family-based treatment**, not individual CBT and not medication.\n- Normal bloods in a very underweight patient do not mean they are safe."
+        }
+      ],
+      "keyPoints": [
+        "Anorexia nervosa has the highest mortality of any psychiatric disorder.",
+        "Use BMI centile or percentage of median BMI for age in young people, not adult BMI cut-offs.",
+        "Admit for bradycardia, hypotension or postural instability, hypothermia, electrolyte disturbance, syncope or very low weight.",
+        "Refeeding syndrome: hypophosphataemia is the hallmark; monitor phosphate, potassium, magnesium and give thiamine.",
+        "Family-based treatment is first line for adolescent anorexia; CBT-E for bulimia and binge eating disorder.",
+        "Vomiting causes hypokalaemic hypochloraemic metabolic alkalosis.",
+        "Medicare eating disorder plans give up to 40 psychology and 20 dietetic sessions a year."
+      ],
+      "redFlags": [
+        "Heart rate below about 50 bpm awake, arrhythmia or prolonged QTc",
+        "Postural hypotension or syncope",
+        "Temperature below about 35.5 °C",
+        "Hypokalaemia or hypophosphataemia",
+        "Confusion, weakness or heart failure in the first days of refeeding",
+        "Suicidal thoughts"
+      ],
+      "contrast": [
+        {
+          "aspect": "Recognition",
+          "india": "Eating disorders less often suspected, weight loss investigated for organic causes first.",
+          "australia": "Screened for routinely in adolescents (HEEADSSS 'Eating'); a common exam theme."
+        },
+        {
+          "aspect": "Outpatient treatment funding",
+          "india": "Limited access to specialist psychological or dietetic care.",
+          "australia": "Medicare eating disorder plans subsidise up to 40 psychology and 20 dietetic sessions a year."
+        },
+        {
+          "aspect": "First-line therapy in adolescents",
+          "india": "Individual counselling and nutritional advice, often with medication.",
+          "australia": "Family-based treatment, with parents leading refeeding at home."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Hallmark electrolyte abnormality of refeeding syndrome?",
+          "back": "Hypophosphataemia (also hypokalaemia and hypomagnesaemia)."
+        },
+        {
+          "front": "First-line treatment for adolescent anorexia nervosa?",
+          "back": "Family-based treatment (Maudsley approach)."
+        },
+        {
+          "front": "Acid-base disturbance from recurrent vomiting?",
+          "back": "Hypokalaemic, hypochloraemic metabolic alkalosis."
+        },
+        {
+          "front": "What is Russell's sign?",
+          "back": "Calluses or abrasions on the knuckles from self-induced vomiting."
+        },
+        {
+          "front": "What distinguishes ARFID from anorexia?",
+          "back": "Restriction from sensory aversion, fear or low interest, without body image disturbance or fear of weight gain."
+        },
+        {
+          "front": "Sessions available under a Medicare eating disorder plan?",
+          "back": "Up to 40 psychological and 20 dietetic sessions in 12 months."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "child-adolescent-psych--eating-disorders--q1",
+          "discipline": "mental-health",
+          "topic": "child-adolescent-psych",
+          "difficulty": "core",
+          "stem": "A 15-year-old girl is brought to her GP in Hobart by her father, who is worried about her weight loss over four months. She runs every morning and says she feels fine. Weight is 39 kg, height 162 cm. HR 44 bpm lying and 78 bpm standing, BP 86/50 mmHg, temperature 35.3 °C. Potassium 3.4 mmol/L, phosphate 0.9 mmol/L.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Refer for outpatient family-based treatment and review weekly",
+            "Start fluoxetine and refer to a psychologist",
+            "Arrange admission to hospital for medical stabilisation",
+            "Prepare a Medicare eating disorder plan and refer to a dietitian",
+            "Order thyroid function tests and review in one week"
+          ],
+          "answer": 2,
+          "explanation": "This girl has probable **anorexia nervosa with medical instability**: bradycardia (44 bpm), a marked postural heart rate rise (over 30 bpm), hypotension and **hypothermia**. Any one of these would usually justify admission; together they signal high risk of arrhythmia and sudden death. She needs **hospital admission** for cardiac monitoring and supervised nutrition, with daily phosphate, potassium, magnesium and glucose, and thiamine, because she is at risk of refeeding syndrome.\n\nBorderline-normal electrolytes do not provide reassurance. Family-based treatment and a Medicare eating disorder plan are the right long-term treatment, but only after she is medically stable. Medication does not treat anorexia.",
+          "whyWrong": [
+            "FBT is first line only once she is medically stable; her vital signs mandate admission.",
+            "No medication treats anorexia, and this does not address her instability.",
+            "",
+            "An outpatient plan is appropriate later but not with bradycardia, hypotension and hypothermia.",
+            "Bradycardia and hypothermia point to starvation, not hyperthyroidism; delaying care is unsafe."
+          ],
+          "tags": [
+            "anorexia nervosa",
+            "medical instability",
+            "admission"
+          ]
+        },
+        {
+          "id": "child-adolescent-psych--eating-disorders--q2",
+          "discipline": "mental-health",
+          "topic": "child-adolescent-psych",
+          "difficulty": "exam",
+          "stem": "A 17-year-old girl with anorexia nervosa was admitted to a Canberra hospital four days ago with a BMI of 13 kg/m² and has been receiving nasogastric feeds. She is now confused and short of breath with bilateral ankle swelling. HR 110 bpm, irregular.\n\nWhich electrolyte abnormality is most likely responsible?",
+          "options": [
+            "Hypernatraemia",
+            "Hypercalcaemia",
+            "Hyperkalaemia",
+            "Hypoglycaemia",
+            "Hypophosphataemia"
+          ],
+          "answer": 4,
+          "explanation": "This is **refeeding syndrome**. When nutrition restarts after starvation, insulin release drives **phosphate**, potassium and magnesium into cells and consumes thiamine. **Hypophosphataemia** is the hallmark: it depletes ATP and 2,3-DPG, causing muscle weakness (including respiratory and cardiac muscle), heart failure, arrhythmias, delirium and seizures, typically within the first few days of refeeding.\n\nPrevention is key: identify high-risk patients (very low BMI, rapid weight loss, little intake, low baseline electrolytes), give thiamine, monitor phosphate, potassium, magnesium and glucose closely, and replace them promptly. Treatment here is urgent electrolyte replacement, cardiac monitoring and review of the feeding rate.",
+          "whyWrong": [
+            "Hypernatraemia is not a feature of refeeding and would not explain this picture.",
+            "Calcium does not rise in refeeding.",
+            "Potassium falls, not rises, with insulin-driven intracellular shift.",
+            "Hypoglycaemia can occur but does not explain heart failure and arrhythmia on day four of feeding.",
+            ""
+          ],
+          "tags": [
+            "refeeding syndrome",
+            "hypophosphataemia",
+            "anorexia nervosa"
+          ]
+        },
+        {
+          "id": "child-adolescent-psych--eating-disorders--q3",
+          "discipline": "mental-health",
+          "topic": "child-adolescent-psych",
+          "difficulty": "foundation",
+          "stem": "A 14-year-old boy with anorexia nervosa has been medically stabilised after a brief admission in Perth. His parents are supportive and keen to help. He has had the illness for six months.\n\nWhich treatment has the strongest evidence as first-line therapy?",
+          "options": [
+            "Individual psychodynamic psychotherapy",
+            "Family-based treatment",
+            "Olanzapine",
+            "Residential treatment for six months",
+            "Nutritional counselling alone"
+          ],
+          "answer": 1,
+          "explanation": "**Family-based treatment (FBT)**, also known as the Maudsley approach, is the first-line treatment for adolescents with anorexia nervosa, with the best outcomes in younger patients with a shorter duration of illness, exactly like this boy. In phase one, parents take charge of meals and weight restoration; in phase two, control of eating is gradually returned to the adolescent; phase three addresses normal adolescent development.\n\nThe family is treated as a resource, not the cause. Medication does not treat the core illness, and residential care is reserved for those who fail outpatient treatment. Ongoing medical monitoring by the GP or paediatrician continues alongside therapy, funded through a Medicare eating disorder plan.",
+          "whyWrong": [
+            "Individual psychodynamic therapy has weaker evidence than FBT in adolescents.",
+            "",
+            "Medication does not treat anorexia; olanzapine has at most a limited adjunctive role.",
+            "Residential care is for those who fail outpatient treatment, not first line.",
+            "Nutritional advice alone does not address the psychological drivers."
+          ],
+          "tags": [
+            "anorexia nervosa",
+            "family-based treatment",
+            "adolescent"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "child-adolescent-psych--adhd-autism",
+      "title": "ADHD and autism",
+      "minutes": 18,
+      "objectives": [
+        "Diagnose ADHD using DSM-5 criteria, including the multi-setting requirement",
+        "Recognise autism across ages and the two core domains",
+        "Outline Australian ADHD treatment, including stimulant regulation and monitoring",
+        "Identify common comorbidities, especially anxiety, and the supports available"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Two common neurodevelopmental conditions",
+          "body": "**ADHD** affects roughly 1 in 20 Australian children and often persists into adulthood. **Autism** is diagnosed in around 1 in 100 or more Australians, with diagnosis rates rising as awareness grows. The two **frequently co-exist** (a large proportion of autistic children also meet ADHD criteria), and both are strongly associated with **anxiety**, learning disorders, sleep problems, depression and, in autism, epilepsy and intellectual disability.\n\nFor the AMC, know how to recognise each, what an assessment involves, first-line management, and the medication safety points."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "What underlies them",
+          "body": "- **ADHD**: highly heritable (around 70 to 80%). Dysregulated dopamine and noradrenaline signalling in fronto-striatal circuits, which is why stimulants (increasing synaptic dopamine and noradrenaline) work. Risk factors include prematurity, low birth weight, and prenatal alcohol or tobacco exposure. Fetal alcohol spectrum disorder can mimic or accompany ADHD.\n- **Autism**: highly heritable and polygenic, with some identifiable genetic syndromes (fragile X, tuberous sclerosis, Rett syndrome in girls). Vaccines do not cause autism; this has been thoroughly disproven."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Recognising them",
+          "body": "**ADHD (DSM-5)**: a persistent pattern of **inattention** and/or **hyperactivity-impulsivity**, with:\n\n- Several symptoms present **before age 12**\n- Symptoms in **two or more settings** (e.g. home and school)\n- Lasting at least 6 months, inconsistent with developmental level, and impairing function\n- Not better explained by another condition\n\nPresentations: predominantly inattentive (more often missed, especially in girls: \"daydreamy\", disorganised), predominantly hyperactive-impulsive, or combined. In adolescents hyperactivity becomes inner restlessness; risks include accidents, substance use and school failure.\n\n**Autism spectrum disorder (DSM-5)** has two core domains, with symptoms from early childhood:\n\n1. **Persistent deficits in social communication and interaction**: reduced eye contact, joint attention and pointing, difficulty with back-and-forth conversation, understanding relationships.\n2. **Restricted, repetitive patterns of behaviour, interests or activities**: stereotyped movements or speech (echolalia), insistence on sameness, intense interests, and **sensory hyper- or hypo-reactivity**.\n\nSeverity is described by support level (1 to 3). Early red flags include no babbling or pointing by 12 months, no single words by 16 to 18 months, no two-word phrases by 24 months, and **any loss of language or social skills at any age**. Girls and those with good language are often diagnosed late, sometimes after presenting with anxiety, eating problems or depression in adolescence."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Assessment",
+          "body": "**ADHD**: clinical diagnosis by a paediatrician or psychiatrist. History from parents and teachers, rating scales from **more than one setting** (e.g. Conners or Vanderbilt), developmental history, and examination. Check hearing and vision, and screen for sleep problems (obstructive sleep apnoea can mimic ADHD), learning disorders, anxiety and trauma. Baseline height, weight, BP and HR before medication; ECG only if there is cardiac history or symptoms.\n\n**Autism**: Australia's **National Guideline for the Assessment and Diagnosis of Autism** recommends a comprehensive assessment, typically by a paediatrician, psychiatrist or multidisciplinary team (psychologist, speech pathologist). Standardised tools (for example ADOS-2) support clinical judgment. All children with suspected autism need a **hearing assessment**. Consider genetic testing (chromosomal microarray, fragile X) especially with intellectual disability or dysmorphic features, and EEG only if seizures are suspected. Developmental surveillance in the Red Book (the child health record) and GP checks help pick up early signs."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Look-alikes",
+          "body": "| Condition | Clue |\n|---|---|\n| Hearing impairment | Speech delay, inattention; abnormal audiology |\n| Anxiety | Inattention due to worry; restlessness situation-specific |\n| Trauma or neglect | Hypervigilance, attachment difficulties, disclosure |\n| Obstructive sleep apnoea | Snoring, daytime sleepiness, hyperactivity |\n| Intellectual disability | Global rather than specific deficits |\n| Absence epilepsy | Brief staring spells with abrupt onset and offset |\n| Language disorder | Social interest preserved, gesture and eye contact normal |"
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment and supports",
+          "body": "**ADHD** (per the Australian Evidence-Based Clinical Practice Guideline for ADHD, 2022):\n\n- Psychoeducation for the family, parent training programs (especially for preschoolers, where behavioural approaches come first), classroom adjustments, and treatment of comorbidities.\n- **Medication** is effective for school-aged children and adults with impairing symptoms. First-line are **stimulants**: **methylphenidate**, **dexamfetamine** and **lisdexamfetamine**. Non-stimulants: **atomoxetine** and **guanfacine** (useful with tics, anxiety, substance-misuse risk or stimulant intolerance).\n- Stimulant side effects: reduced appetite, weight loss, insomnia, headache, abdominal pain, raised HR and BP, and possible growth slowing. **Monitor height, weight, BP and HR** regularly.\n- **Stimulant prescribing is regulated by each state and territory** (Schedule 8 medicines). Diagnosis and initiation are usually by a paediatrician or psychiatrist, with authority or permit requirements that vary by state; GPs often continue prescribing under shared care. PBS subsidy has specific criteria.\n\n**Autism**:\n\n- Early intervention: evidence-based developmental and behavioural therapies, speech pathology and occupational therapy, delivered with families.\n- Support at school, and funding through the **National Disability Insurance Scheme (NDIS)**, which covers eligible people; early childhood supports are available for young children with developmental concerns.\n- Treat comorbidities: anxiety (adapted CBT), ADHD (medication often helps, though side effects may be more common), sleep (melatonin is commonly used), epilepsy.\n- For severe irritability or aggression not responding to behavioural approaches, **risperidone** may be used under specialist care, with monitoring for weight gain and metabolic effects.\n- Challenging behaviour: always look for pain, illness, constipation, sensory overload or a change in routine first."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- \"Symptoms only at school\" or \"only at home\": does not meet ADHD criteria; think of a setting-specific cause (learning disorder, bullying, family stress).\n- A child with inattention and snoring: consider **sleep apnoea**.\n- Regression of language at any age is a red flag needing urgent assessment.\n- The first investigation for speech delay is a **hearing test**.\n- On stimulants: monitor **growth, BP and HR**. Stimulants are Schedule 8 and state-regulated.\n- An autistic child who suddenly becomes aggressive: look for pain or medical illness before medication."
+        }
+      ],
+      "keyPoints": [
+        "ADHD requires symptoms before age 12, in two or more settings, for at least 6 months, with impairment.",
+        "Autism has two core domains: social communication and restricted, repetitive behaviours including sensory differences.",
+        "ADHD and autism frequently co-exist and are both associated with anxiety.",
+        "Stimulants (methylphenidate, dexamfetamine, lisdexamfetamine) are first-line ADHD medication; monitor height, weight, BP and HR.",
+        "Stimulant prescribing is Schedule 8 and regulated differently in each state.",
+        "Every child with language delay or suspected autism needs a hearing assessment.",
+        "Loss of language or social skills at any age is a red flag."
+      ],
+      "redFlags": [
+        "Loss of previously acquired language or social skills (regression)",
+        "No babbling or pointing by 12 months, no words by 16 to 18 months",
+        "Staring spells suggesting absence seizures",
+        "Sudden behaviour change in an autistic child (possible pain or illness)",
+        "Syncope, chest pain or palpitations on stimulants"
+      ],
+      "contrast": [
+        {
+          "aspect": "ADHD medication access",
+          "india": "Methylphenidate available with relatively fewer prescribing controls.",
+          "australia": "Stimulants are Schedule 8; initiation usually by a specialist, with state-specific authorities and PBS criteria."
+        },
+        {
+          "aspect": "Autism support funding",
+          "india": "Largely family-funded therapy.",
+          "australia": "NDIS funds supports for eligible people, including early childhood approaches."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "DSM-5 ADHD: by what age must several symptoms be present?",
+          "back": "Before age 12, and in two or more settings."
+        },
+        {
+          "front": "First-line medications for ADHD in school-aged children?",
+          "back": "Stimulants: methylphenidate, dexamfetamine or lisdexamfetamine."
+        },
+        {
+          "front": "What must be monitored on stimulant medication?",
+          "back": "Height, weight, blood pressure and heart rate."
+        },
+        {
+          "front": "Two core DSM-5 domains of autism?",
+          "back": "Social communication/interaction deficits; restricted, repetitive behaviours, interests or sensory differences."
+        },
+        {
+          "front": "First test for any child with speech delay?",
+          "back": "Formal hearing assessment (audiology)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "child-adolescent-psych--adhd-autism--q1",
+          "discipline": "mental-health",
+          "topic": "child-adolescent-psych",
+          "difficulty": "foundation",
+          "stem": "A 7-year-old boy is brought to a Newcastle GP because his teacher says he cannot sit still, interrupts constantly and does not finish work. His parents say he is well behaved and calm at home and on weekends. He sleeps well and does not snore. Hearing and vision are normal.\n\nWhich is the most appropriate interpretation?",
+          "options": [
+            "He meets criteria for ADHD, combined presentation",
+            "He meets criteria for ADHD, predominantly inattentive presentation",
+            "Symptoms in only one setting do not meet ADHD criteria; explore school factors",
+            "He most likely has autism spectrum disorder",
+            "He most likely has obstructive sleep apnoea"
+          ],
+          "answer": 2,
+          "explanation": "DSM-5 requires ADHD symptoms to be present in **two or more settings** (for example, home and school), before age 12, lasting at least 6 months and causing impairment. Behaviour confined to school suggests a **setting-specific cause**: a learning disorder making work frustrating, bullying, anxiety about school, a teacher-child mismatch, or problems in the classroom environment.\n\nThe next step is gathering more information: teacher and parent rating scales, a school report, and consideration of a learning assessment. ADHD is a clinical diagnosis made on consistent information from multiple informants. There is no social communication deficit to suggest autism, and no snoring to suggest sleep apnoea.",
+          "whyWrong": [
+            "Symptoms confined to school do not meet the multi-setting criterion.",
+            "The presentation is hyperactive-impulsive and still limited to one setting.",
+            "",
+            "There are no social communication deficits or restricted, repetitive behaviours described.",
+            "He sleeps well and does not snore, making sleep apnoea unlikely."
+          ],
+          "tags": [
+            "adhd",
+            "diagnosis",
+            "dsm-5"
+          ]
+        },
+        {
+          "id": "child-adolescent-psych--adhd-autism--q2",
+          "discipline": "mental-health",
+          "topic": "child-adolescent-psych",
+          "difficulty": "core",
+          "stem": "A 9-year-old girl with ADHD has been taking methylphenidate for 12 months, prescribed by her paediatrician in Queensland. Her attention and school performance have improved. At review, she has dropped from the 50th to the 25th centile for weight and from the 50th to the 40th for height. BP is normal for age.\n\nWhich is the most appropriate management?",
+          "options": [
+            "Stop methylphenidate immediately",
+            "Switch to olanzapine",
+            "Continue with strategies to improve appetite and intake, and keep monitoring growth",
+            "Add cyproheptadine as an appetite stimulant as routine",
+            "Refer to an endocrinologist for growth hormone testing"
+          ],
+          "answer": 2,
+          "explanation": "**Appetite suppression and growth slowing** are well-known effects of stimulants, so height, weight, BP and HR are monitored regularly. When the medication is working well and the growth change is modest, the first step is practical: give the dose after breakfast, offer a large breakfast and an evening meal or snack when the medication has worn off, and use nutritious high-energy foods. Continue plotting growth.\n\nIf growth continues to fall across centiles, options include dose reduction, planned treatment breaks (for example during holidays), or switching to a non-stimulant such as atomoxetine or guanfacine. Stopping an effective treatment abruptly is unnecessary here. Growth slowing with an obvious drug cause does not need endocrine investigation first.",
+          "whyWrong": [
+            "She is benefiting and the change is modest; stopping loses benefit without first trying simple measures.",
+            "Olanzapine is not an ADHD treatment and causes metabolic adverse effects.",
+            "",
+            "Appetite stimulants are not routine and are not the first step.",
+            "The growth change is explained by the medication; endocrine testing is not the first step."
+          ],
+          "tags": [
+            "adhd",
+            "stimulants",
+            "growth"
+          ]
+        },
+        {
+          "id": "child-adolescent-psych--adhd-autism--q3",
+          "discipline": "mental-health",
+          "topic": "child-adolescent-psych",
+          "difficulty": "exam",
+          "stem": "A 3-year-old boy is reviewed by a GP in Darwin. His mother reports he says only a few single words, does not point to show her things, lines up his toy cars for hours and becomes very distressed if his routine changes. He rarely responds to his name. Physical examination is normal.\n\nWhat is the most appropriate first investigation?",
+          "options": [
+            "Formal audiology assessment",
+            "MRI brain",
+            "EEG",
+            "Thyroid function tests",
+            "Serum lead level"
+          ],
+          "answer": 0,
+          "explanation": "This boy has features across both autism domains: **social communication** (limited speech, no pointing, poor response to name) and **restricted, repetitive behaviours** (lining up toys, distress with change). He needs referral for a comprehensive developmental assessment. However, **every child with speech delay or suspected autism must have formal hearing assessment**, because hearing impairment can cause language delay and poor response to name and is treatable.\n\nGenetic tests (chromosomal microarray, fragile X) are considered as part of the specialist assessment. MRI and EEG are not routine; EEG is only indicated if seizures or regression suggest epilepsy. Lead testing is only relevant with pica or known exposure.",
+          "whyWrong": [
+            "",
+            "Neuroimaging is not routine in autism without focal signs or other indications.",
+            "EEG is only indicated if seizures or regression suggest epilepsy.",
+            "Thyroid disease does not explain this pattern and is not the first test.",
+            "Lead testing is only indicated with pica or known exposure."
+          ],
+          "ausPearl": "Australia's National Guideline for the Assessment and Diagnosis of Autism recommends a comprehensive assessment; NDIS early childhood supports can start before a formal diagnosis.",
+          "tags": [
+            "autism",
+            "speech delay",
+            "hearing"
+          ]
+        }
+      ]
+    }
+  ]
+}

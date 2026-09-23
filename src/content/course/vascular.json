@@ -1,0 +1,1100 @@
+{
+  "topic": "vascular",
+  "intro": "Vascular surgery on the AMC focuses on time-critical and common problems: peripheral arterial disease, acute limb ischaemia, abdominal aortic aneurysm and aortic dissection, carotid disease after TIA, the diabetic foot and venous disease including ulcers and DVT. Questions test the bedside clues that separate these conditions, the first action in an emergency, and the cardiovascular risk reduction that underpins all of them, with particular attention to diabetes-related foot disease in Aboriginal and Torres Strait Islander people.",
+  "lessons": [
+    {
+      "id": "vascular--peripheral-arterial-disease",
+      "title": "Peripheral arterial disease and the ABI",
+      "minutes": 15,
+      "objectives": [
+        "Distinguish intermittent claudication from chronic limb-threatening ischaemia and neurogenic claudication",
+        "Perform and interpret the ankle-brachial index, including its pitfalls in diabetes",
+        "Deliver best medical therapy: smoking cessation, supervised exercise, statin and antiplatelet",
+        "Identify who needs vascular referral for revascularisation"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why PAD matters",
+          "body": "Peripheral arterial disease (PAD) is atherosclerosis of the arteries supplying the legs. It is common in older Australians, especially smokers and people with diabetes, and many are asymptomatic. PAD is above all a **marker of systemic atherosclerosis**: people with PAD have a high risk of **myocardial infarction and stroke**, which kill far more of them than limb loss does. So the AMC focuses on recognising PAD, measuring the ABI and delivering **cardiovascular risk reduction**, as well as spotting the threatened limb."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Pathogenesis and risk factors",
+          "body": "Atherosclerotic plaques narrow the aorto-iliac, femoropopliteal or tibial arteries. At rest, flow is adequate; during exercise, demand exceeds supply, and ischaemic muscle produces pain (**claudication**) in the muscle group distal to the narrowing:\n- **Calf** claudication: superficial femoral or popliteal disease (most common)\n- **Thigh or buttock** claudication: iliac disease; aorto-iliac disease with **erectile dysfunction** and absent femoral pulses is **Leriche syndrome**\n\nAs disease progresses, flow becomes inadequate even at rest: **chronic limb-threatening ischaemia (CLTI)**, with rest pain, ulceration or gangrene.\n\n**Risk factors:** **smoking** (the strongest), **diabetes**, hypertension, dyslipidaemia, age, chronic kidney disease and family history.\n\n**Thromboangiitis obliterans (Buerger's disease)** affects young heavy smokers, but is rare in Australia; atherosclerosis is the usual cause."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "**Intermittent claudication:** cramping pain in the calf, thigh or buttock that comes on after walking a reproducible distance and is **relieved by standing still** within minutes.\n\n**Chronic limb-threatening ischaemia:**\n- **Rest pain**, typically in the forefoot at night, **relieved by hanging the leg over the side of the bed** (gravity helps perfusion)\n- Non-healing **ulcers** (painful, punched out, on toes, heel or pressure points) or **gangrene**\n\n**Examination:** absent or weak pulses, cool pale skin, hair loss, shiny skin, thickened nails, prolonged capillary refill, **Buerger's test** (pallor on elevation, then dependent rubor when the leg hangs down), femoral bruits.\n\n**Examining the pulses systematically:** feel femoral, popliteal, dorsalis pedis and posterior tibial pulses on both sides and compare. The level at which pulses disappear localises the disease: absent femoral pulses mean aorto-iliac disease; a palpable femoral but absent popliteal pulse means superficial femoral artery disease. Listen for bruits over the femoral arteries and abdomen, and feel the abdomen and popliteal fossae for aneurysms (a very easily palpable popliteal pulse suggests a popliteal aneurysm).\n\n**How the AMC describes it:** \"pain in the calf after walking two blocks, relieved by standing for a few minutes\", often in a smoker with diabetes or ischaemic heart disease. The question may then ask for the next investigation (ABI) or the most effective intervention (smoking cessation, exercise)."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations: the ankle-brachial index",
+          "body": "**ABI** = the highest ankle systolic pressure (dorsalis pedis or posterior tibial, by hand-held Doppler) divided by the highest brachial systolic pressure.\n\n| ABI | Interpretation |\n|---|---|\n| 1.0-1.4 | Normal |\n| **Below 0.9** | **PAD** |\n| Below about 0.5 | Severe disease (CLTI likely if symptomatic) |\n| **Above 1.3-1.4** | **Non-compressible (calcified) arteries**: unreliable |\n\n**Pitfall:** in **diabetes, chronic kidney disease and older age**, calcified arteries can't be compressed, giving a falsely normal or high ABI. Use the **toe-brachial index** (TBI; below about 0.7 is abnormal) or toe pressures instead.\n\nA normal resting ABI with a typical history may need an **exercise ABI**.\n\nOther tests: **arterial duplex ultrasound** (maps disease, first-line imaging), **CT angiography** for planning intervention. Check cardiovascular risk: lipids, HbA1c or glucose, UEC, BP."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Differentials of exertional leg pain",
+          "body": "| Condition | Discriminating clue |\n|---|---|\n| **Vascular claudication** | Reproducible distance, **relieved by standing still**, weak pulses, low ABI |\n| **Neurogenic claudication** (lumbar spinal stenosis) | Relieved by **sitting or bending forward** (not just standing), worse walking downhill, better walking uphill or leaning on a shopping trolley, pulses normal |\n| Hip or knee osteoarthritis | Pain at joints, variable, present at rest and with weight bearing |\n| Venous claudication | Bursting pain, swelling, previous DVT |\n| Chronic compartment syndrome | Young athletes, predictable with exercise, normal pulses at rest |"
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Best medical therapy for everyone with PAD:**\n- **Smoking cessation**: the most important intervention; offer counselling, nicotine replacement, varenicline and Quitline referral\n- **Supervised exercise therapy**: walking to near-maximal pain, resting and repeating, for about 30-60 minutes several times a week for at least 3 months; improves walking distance as much as angioplasty in many patients\n- **Statin** (high intensity) regardless of baseline cholesterol\n- **Antiplatelet**: aspirin or clopidogrel for symptomatic PAD; low-dose rivaroxaban plus aspirin may be considered in selected high-risk patients on specialist advice\n- **Blood pressure** control (ACE inhibitors or ARBs are appropriate; beta-blockers are **not** contraindicated), **diabetes** control\n- Foot care and podiatry, especially with diabetes\n\n**Refer to vascular surgery:**\n- **Urgently** for **CLTI** (rest pain, ulcers, gangrene) or acute limb ischaemia\n- Routinely for **lifestyle-limiting claudication** despite medical therapy and exercise\n- **Revascularisation:** endovascular (angioplasty, stenting) or surgical bypass or endarterectomy\n- Amputation for unsalvageable limbs or uncontrolled infection"
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- The first management of claudication is **smoking cessation, supervised exercise, statin and antiplatelet**, not angioplasty.\n- ABI below 0.9 = PAD; above 1.3-1.4 in a diabetic = unreliable; use toe pressures.\n- Rest pain eased by hanging the leg down = CLTI, urgent referral.\n- Leg pain relieved by sitting or leaning forward with normal pulses = spinal stenosis.\n- Remember PAD patients mostly die of MI and stroke.\n- A person with PAD needs the full cardiovascular package: review their absolute cardiovascular risk, but PAD itself already places them at high risk, so statin and antiplatelet are indicated regardless of a risk calculator."
+        }
+      ],
+      "keyPoints": [
+        "PAD is a marker of systemic atherosclerosis; cardiovascular events outnumber limb loss.",
+        "ABI below 0.9 confirms PAD; above 1.3-1.4 suggests calcified arteries (use toe-brachial index).",
+        "Claudication is relieved by standing still; neurogenic claudication by sitting or flexing.",
+        "Best medical therapy: stop smoking, supervised exercise, high-intensity statin, antiplatelet, BP and diabetes control.",
+        "Rest pain relieved by dependency, ulcers or gangrene indicate CLTI: urgent vascular referral.",
+        "Revascularisation for CLTI or lifestyle-limiting claudication despite medical therapy.",
+        "Leriche syndrome: buttock claudication, absent femoral pulses and erectile dysfunction."
+      ],
+      "redFlags": [
+        "Rest pain in the foot, worse at night",
+        "Non-healing ulcer or gangrene",
+        "Sudden worsening of symptoms (acute-on-chronic ischaemia)",
+        "PAD in a person with diabetes and foot infection"
+      ],
+      "contrast": [
+        {
+          "aspect": "Cause of PAD",
+          "india": "Buerger's disease receives heavy textbook emphasis.",
+          "australia": "Atherosclerosis is the usual cause; Buerger's is rare."
+        },
+        {
+          "aspect": "First-line treatment of claudication",
+          "india": "Vasodilator drugs (e.g. pentoxifylline) are commonly prescribed.",
+          "australia": "Smoking cessation, supervised exercise, statin and antiplatelet; revascularisation if lifestyle-limiting."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "ABI threshold for PAD?",
+          "back": "Below 0.9."
+        },
+        {
+          "front": "What does an ABI above 1.3-1.4 suggest?",
+          "back": "Non-compressible calcified arteries (diabetes, CKD); use toe-brachial index."
+        },
+        {
+          "front": "What relieves ischaemic rest pain?",
+          "back": "Hanging the leg over the side of the bed (dependency)."
+        },
+        {
+          "front": "Most important intervention for PAD?",
+          "back": "Smoking cessation."
+        },
+        {
+          "front": "Features of Leriche syndrome?",
+          "back": "Buttock and thigh claudication, absent femoral pulses and erectile dysfunction (aorto-iliac disease)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "vascular--peripheral-arterial-disease--q1",
+          "discipline": "adult-surgery",
+          "topic": "vascular",
+          "difficulty": "foundation",
+          "stem": "A 66-year-old man who smokes 20 cigarettes a day describes cramping pain in his right calf after walking about 200 m, which settles after standing still for 2 minutes. He has no rest pain or ulcers. Right foot pulses are weak. His ABI is 0.72 on the right.\n\nWhat is the most appropriate initial management?",
+          "options": [
+            "Referral for angioplasty",
+            "Smoking cessation, supervised exercise therapy, statin and antiplatelet",
+            "Warfarin",
+            "Pentoxifylline alone",
+            "Advise rest and avoiding walking"
+          ],
+          "answer": 1,
+          "explanation": "He has **intermittent claudication** from PAD (reproducible calf pain relieved by standing, ABI 0.72). First-line management is **best medical therapy**: **smoking cessation** (the most effective intervention for symptoms and survival), **supervised exercise therapy** (which improves walking distance by developing collaterals and muscle efficiency), a **high-intensity statin** and an **antiplatelet** (aspirin or clopidogrel), plus blood pressure and diabetes control. Revascularisation is considered for lifestyle-limiting symptoms despite this, or for limb-threatening ischaemia. Rest worsens function.",
+          "whyWrong": [
+            "Angioplasty is not first line for stable claudication.",
+            "",
+            "Warfarin is not indicated for PAD without another indication.",
+            "Vasodilators have minimal benefit and do not reduce cardiovascular risk.",
+            "Walking through the pain is part of treatment; rest worsens function."
+          ],
+          "tags": [
+            "claudication",
+            "pad",
+            "best medical therapy"
+          ]
+        },
+        {
+          "id": "vascular--peripheral-arterial-disease--q2",
+          "discipline": "adult-surgery",
+          "topic": "vascular",
+          "difficulty": "core",
+          "stem": "A 71-year-old woman with type 2 diabetes for 20 years and chronic kidney disease has a non-healing ulcer on her left great toe. Foot pulses are difficult to feel. Her ABI is reported as 1.5 on the left.\n\nWhat is the best interpretation and next step?",
+          "options": [
+            "Normal ABI: arterial disease is excluded",
+            "ABI indicates severe PAD; arrange amputation",
+            "ABI is falsely elevated by calcified arteries; measure toe pressures or toe-brachial index",
+            "ABI suggests venous disease; start compression",
+            "ABI indicates aortic coarctation"
+          ],
+          "answer": 2,
+          "explanation": "An ABI **above about 1.3-1.4** indicates **non-compressible, calcified arteries** (medial calcification), common in **long-standing diabetes and chronic kidney disease**. It is **unreliable** and can hide significant PAD. The digital arteries are less affected, so **toe pressures or the toe-brachial index** (abnormal below about 0.7) should be measured, along with arterial duplex ultrasound. A non-healing toe ulcer with impalpable pulses in a diabetic needs urgent assessment of perfusion and referral to a high-risk foot service. Compression must not be applied until arterial disease is excluded.",
+          "whyWrong": [
+            "A high ABI does not exclude PAD in diabetes.",
+            "A high ABI does not measure severity; and amputation is not the next step.",
+            "",
+            "The ABI does not diagnose venous disease, and compression is unsafe until arterial disease is excluded.",
+            "Coarctation causes arm-leg pressure differences, not this picture."
+          ],
+          "tags": [
+            "abi",
+            "diabetes",
+            "calcified arteries"
+          ]
+        },
+        {
+          "id": "vascular--peripheral-arterial-disease--q3",
+          "discipline": "adult-surgery",
+          "topic": "vascular",
+          "difficulty": "exam",
+          "stem": "A 68-year-old man reports pain in both buttocks and thighs when walking, relieved within a few minutes by sitting down or bending forward, but not by standing still. He can walk further when pushing a shopping trolley. Foot pulses are normal, and ABI is 1.1 bilaterally.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Aorto-iliac occlusive disease",
+            "Chronic venous insufficiency",
+            "Bilateral hip osteoarthritis",
+            "Lumbar spinal stenosis",
+            "Popliteal artery entrapment"
+          ],
+          "answer": 3,
+          "explanation": "Leg pain relieved by **sitting or flexing the spine** (not by standing still), improved by **leaning forward on a shopping trolley**, with **normal pulses and ABI**, is **neurogenic claudication** from **lumbar spinal stenosis**. Spinal flexion widens the canal and relieves nerve root compression. Vascular claudication is relieved by simply stopping and standing, and the ABI is reduced. Aorto-iliac disease would cause buttock claudication but with weak femoral pulses and a low ABI. MRI of the lumbar spine would confirm the diagnosis.",
+          "whyWrong": [
+            "Aorto-iliac disease produces reduced femoral pulses and ABI and is relieved by standing still.",
+            "Venous disease causes bursting pain with swelling.",
+            "Hip OA pain is usually at the groin and present with weight bearing.",
+            "",
+            "Popliteal entrapment affects young athletes with calf symptoms."
+          ],
+          "tags": [
+            "neurogenic claudication",
+            "spinal stenosis",
+            "differential"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vascular--acute-limb-ischaemia",
+      "title": "Acute limb ischaemia",
+      "minutes": 14,
+      "objectives": [
+        "Recognise acute limb ischaemia using the 6 Ps and grade limb viability",
+        "Distinguish embolic from thrombotic causes at the bedside",
+        "Start heparin and arrange urgent revascularisation",
+        "Anticipate reperfusion injury: compartment syndrome, hyperkalaemia and AKI"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "A limb-threatening emergency",
+          "body": "Acute limb ischaemia (ALI) is a **sudden decrease in limb perfusion** that threatens viability, presenting within 2 weeks of onset. Muscle and nerve tolerate complete ischaemia for only about **4-6 hours** before irreversible damage begins. Mortality is high because patients are often old, with cardiac disease. The AMC expects immediate recognition, **heparin** and an **urgent call to vascular surgery**."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Embolism versus thrombosis",
+          "body": "| | **Embolic** | **Thrombotic** |\n|---|---|---|\n| Source | Heart: **AF**, recent MI (mural thrombus), valve disease, endocarditis; aneurysm (popliteal, aortic) | Thrombosis on an existing atherosclerotic plaque, bypass graft or stent |\n| Onset | **Sudden** (patient can often name the moment) | More gradual, over hours to days |\n| History | No prior claudication | **Previous claudication** |\n| Other leg | Normal pulses | Reduced pulses (bilateral PAD) |\n| Collaterals | None, so ischaemia is severe | Present, so ischaemia may be less severe |\n| Sites | Bifurcations: common femoral, popliteal, brachial | Sites of plaque |\n\nOther causes: **popliteal aneurysm thrombosis** (feel for a pulsatile popliteal mass, often bilateral), arterial dissection, trauma, and hypercoagulable states including malignancy.\n\n**Why time matters:** skeletal muscle and peripheral nerves are the most sensitive tissues. Nerves fail first, which is why **sensory loss and then weakness** signal a threatened limb. After about 6 hours of complete ischaemia, muscle necrosis becomes extensive; revascularising dead muscle releases potassium, myoglobin and acid into the circulation, which can cause cardiac arrest and renal failure. This is why irreversibly ischaemic limbs are sometimes amputated rather than revascularised."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features: the 6 Ps",
+          "body": "- **Pain** (sudden, severe; often the first symptom)\n- **Pallor** (then mottling, which becomes fixed when irreversible)\n- **Pulselessness**\n- **Paraesthesia** (sensory loss)\n- **Paralysis** (motor loss)\n- **Perishing cold**\n\n**Sensory and motor loss are the key markers of a threatened limb.** Grading (Rutherford):\n| Category | Sensory loss | Motor loss | Doppler signals | Meaning |\n|---|---|---|---|---|\n| I Viable | None | None | Audible arterial | Not immediately threatened |\n| IIa Marginally threatened | Minimal (toes) | None | Often inaudible arterial | Salvageable with prompt treatment |\n| IIb Immediately threatened | More than toes, rest pain | Mild-moderate | Inaudible arterial | Needs **immediate revascularisation** |\n| III Irreversible | Profound, anaesthetic | **Paralysis**, rigor | Inaudible arterial and venous | Major tissue loss; amputation or palliation |"
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Examining the ischaemic limb",
+          "body": "- **Compare both legs**: colour, temperature (feel with the back of your hand moving down each leg to find the level where it becomes cold), capillary refill and pulses at each level\n- **Mottling**: early mottling **blanches** on pressure and is potentially reversible; **fixed, non-blanching** mottling means irreversible ischaemia\n- **Sensation**: light touch on the dorsum of the foot and toes; loss beyond the toes is ominous\n- **Motor function**: toe and ankle movement; paralysis and **calf muscle tenderness or rigidity** are late signs\n- **Doppler**: arterial and venous signals at the ankle\n- **Look for the source**: irregular pulse (AF), murmurs, recent MI, and palpate the abdomen and the other popliteal fossa for aneurysms\n- **Upper limb** ischaemia is less common, usually embolic to the brachial artery, and better tolerated because of collaterals, but still needs urgent embolectomy"
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "- **Do not delay treatment** of a threatened limb for imaging\n- Bedside hand-held Doppler for arterial and venous signals\n- **Bloods:** FBC, UEC (**potassium**, creatinine), **CK**, coagulation, group and hold, lactate, troponin\n- **ECG** for AF or MI\n- **CT angiography** if the limb is viable enough to allow it, to plan the intervention\n- Later: **echocardiography** to find a cardiac source of embolism"
+        },
+        {
+          "kind": "differentials",
+          "heading": "Differentials",
+          "body": "- **Aortic dissection** extending into the iliac arteries: chest or back pain, pulse deficits\n- **Phlegmasia cerulea dolens:** massive DVT causing a swollen, blue, painful leg, which can itself cause arterial compromise; the leg is swollen rather than pale and collapsed\n- **Spinal cord compression or stroke:** weakness without ischaemic signs, pulses present\n- **Acute compartment syndrome:** tense compartment, pulses often present\n- Low-flow states (shock, vasopressors) causing bilateral cold peripheries"
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "1. **IV unfractionated heparin** bolus then infusion immediately (unless contraindicated) to prevent clot propagation\n2. **Analgesia** (IV opioid), oxygen, IV fluids\n3. **Urgent vascular surgery referral**\n4. Revascularisation according to cause and grade:\n   - **Embolism:** surgical **embolectomy** with a balloon (Fogarty) catheter\n   - **Thrombosis on PAD:** catheter-directed thrombolysis, angioplasty and stenting, or bypass surgery; thrombolysis is only for viable or marginally threatened limbs, because it takes hours\n   - **Irreversible ischaemia (III):** primary amputation, or palliative care in the frail\n5. **After revascularisation, watch for reperfusion injury:**\n   - **Compartment syndrome** (fasciotomy often done prophylactically after prolonged ischaemia)\n   - **Hyperkalaemia**, metabolic acidosis, **rhabdomyolysis** and **AKI** (monitor potassium, CK and urine output; IV fluids)\n6. **Secondary prevention:** anticoagulation for AF or cardiac thrombus; statin and antiplatelet for atherosclerosis; smoking cessation"
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Sudden cold, pale, pulseless leg in a patient with AF: **embolic ALI**; the first step is **IV heparin**, then urgent vascular surgery.\n- **Paralysis and sensory loss** mean the limb is **immediately threatened**; do not send for elective imaging.\n- Fixed mottling and rigid muscles = irreversible.\n- After revascularisation: check **potassium**, CK and the calf compartments.\n- A sudden cold leg in a patient with a history of claudication: thrombosis on PAD; if the limb is viable, image first (CT angiography) to plan treatment.\n- In rural and remote Australia, start heparin and arrange early retrieval to a vascular centre; do not wait for imaging locally if the limb is threatened.\n- Bilateral cold legs with back pain: consider **saddle embolus** at the aortic bifurcation or **aortic dissection**."
+        }
+      ],
+      "keyPoints": [
+        "6 Ps: pain, pallor, pulselessness, paraesthesia, paralysis, perishing cold.",
+        "Sensory and motor loss mean an immediately threatened limb.",
+        "Embolic: sudden, AF, normal other leg; thrombotic: prior claudication, bilateral PAD.",
+        "Immediate IV unfractionated heparin, analgesia and urgent vascular surgery.",
+        "Embolectomy for embolism; thrombolysis or angioplasty or bypass for thrombosis in viable limbs.",
+        "Reperfusion injury: compartment syndrome, hyperkalaemia, rhabdomyolysis, AKI.",
+        "Find and treat the source: ECG, echo, anticoagulate AF."
+      ],
+      "redFlags": [
+        "Paralysis or sensory loss in a cold limb",
+        "Fixed mottling (irreversible ischaemia)",
+        "Rising potassium and CK after revascularisation",
+        "Pulsatile popliteal mass (popliteal aneurysm)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Access to urgent revascularisation",
+          "india": "Delays in transfer are common, and amputation may be the default.",
+          "australia": "Early heparin and retrieval to a vascular centre; embolectomy or endovascular therapy within hours."
+        },
+        {
+          "aspect": "Anticoagulation after embolic ALI from AF",
+          "india": "Warfarin or acenocoumarol, often on cost grounds.",
+          "australia": "DOACs are commonly used for non-valvular AF; warfarin for mechanical valves."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "List the 6 Ps of acute limb ischaemia.",
+          "back": "Pain, pallor, pulselessness, paraesthesia, paralysis, perishing cold."
+        },
+        {
+          "front": "First drug given in acute limb ischaemia?",
+          "back": "IV unfractionated heparin (bolus then infusion)."
+        },
+        {
+          "front": "Features of an immediately threatened limb (Rutherford IIb)?",
+          "back": "Sensory loss beyond the toes, rest pain, and mild-moderate muscle weakness."
+        },
+        {
+          "front": "Commonest cardiac source of limb emboli?",
+          "back": "Atrial fibrillation."
+        },
+        {
+          "front": "Metabolic complication after reperfusion of an ischaemic limb?",
+          "back": "Hyperkalaemia (with acidosis, rhabdomyolysis and AKI)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "vascular--acute-limb-ischaemia--q1",
+          "discipline": "adult-surgery",
+          "topic": "vascular",
+          "difficulty": "foundation",
+          "stem": "A 78-year-old woman with atrial fibrillation, who stopped her apixaban 2 weeks ago because of bruising, develops sudden severe pain in her right leg while watching television. Two hours later, the right foot is pale and cold with no palpable pulses below the femoral. She has reduced sensation over the foot and weak toe movement. The left leg pulses are normal.\n\nWhat is the most appropriate immediate step?",
+          "options": [
+            "Arrange arterial duplex ultrasound as an outpatient",
+            "Start aspirin and review in 24 hours",
+            "Give IV unfractionated heparin and contact the vascular surgeon urgently",
+            "Elevate the leg and apply warm packs",
+            "Restart apixaban and discharge"
+          ],
+          "answer": 2,
+          "explanation": "**Sudden** pain, pallor, pulselessness and coldness in a patient with **AF off anticoagulation**, with **normal pulses in the other leg**, is **embolic acute limb ischaemia**. **Sensory loss and weakness** indicate an **immediately threatened** limb (Rutherford IIb), which needs revascularisation within hours. Immediate management is **IV unfractionated heparin** to prevent clot propagation, analgesia and an **urgent vascular surgery referral** for embolectomy. Elevation reduces perfusion; heat increases metabolic demand and risks burns on an insensate limb.",
+          "whyWrong": [
+            "Outpatient imaging would cost her the limb.",
+            "Aspirin alone is inadequate and delay is dangerous.",
+            "",
+            "Elevation reduces perfusion and heat can burn an insensate limb.",
+            "Oral anticoagulation does not treat an established embolus."
+          ],
+          "tags": [
+            "acute limb ischaemia",
+            "atrial fibrillation",
+            "heparin"
+          ]
+        },
+        {
+          "id": "vascular--acute-limb-ischaemia--q2",
+          "discipline": "adult-surgery",
+          "topic": "vascular",
+          "difficulty": "core",
+          "stem": "A 70-year-old man had an embolectomy of the right femoral artery for acute limb ischaemia after about 7 hours of symptoms. Six hours after surgery his right calf is tense and very painful, particularly on passive dorsiflexion of the ankle. Potassium is 6.4 mmol/L and CK 18,000 U/L.\n\nWhat is the most likely explanation?",
+          "options": [
+            "Recurrent embolism",
+            "Deep vein thrombosis",
+            "Wound haematoma",
+            "Reperfusion injury with compartment syndrome",
+            "Cellulitis"
+          ],
+          "answer": 3,
+          "explanation": "After revascularisation of a limb ischaemic for several hours, restored flow into damaged capillaries causes **reperfusion injury**: oedema within the fascial compartments (**compartment syndrome**, shown by a tense calf and pain on passive stretch) and release of potassium, myoglobin and acid from damaged muscle (**hyperkalaemia**, raised CK, risk of **AKI**). He needs **urgent fasciotomy**, treatment of hyperkalaemia (calcium gluconate, insulin-dextrose, salbutamol, ECG monitoring) and IV fluids with close urine output monitoring. A recurrent embolism would cause a pale, pulseless, cold limb rather than a tense swollen one.",
+          "whyWrong": [
+            "Recurrent embolism causes pallor and pulselessness, not a tense calf with high CK.",
+            "DVT does not explain pain on passive stretch with hyperkalaemia and high CK.",
+            "A groin haematoma would not cause calf compartment signs.",
+            "",
+            "Cellulitis would not develop in 6 hours with these metabolic changes."
+          ],
+          "tags": [
+            "reperfusion injury",
+            "compartment syndrome",
+            "hyperkalaemia"
+          ]
+        },
+        {
+          "id": "vascular--acute-limb-ischaemia--q3",
+          "discipline": "adult-surgery",
+          "topic": "vascular",
+          "difficulty": "exam",
+          "stem": "A 74-year-old man with a 10-year history of right calf claudication presents with 3 days of worsening right foot pain at rest. The foot is cool with reduced capillary refill, but sensation and movement are normal. Doppler signals are faint at the ankle. The left leg has weak pulses and an ABI of 0.6. He is in sinus rhythm.\n\nWhat is the most likely mechanism and appropriate approach?",
+          "options": [
+            "Cardiac embolus; immediate surgical embolectomy without imaging",
+            "In-situ thrombosis on pre-existing PAD; heparin and urgent CT angiography to plan endovascular or surgical revascularisation",
+            "DVT; start a DOAC",
+            "Irreversible ischaemia; primary amputation",
+            "Spinal stenosis; MRI of the lumbar spine"
+          ],
+          "answer": 1,
+          "explanation": "A **gradual** onset over days in a man with **long-standing claudication**, **bilateral PAD** (contralateral ABI 0.6) and sinus rhythm points to **in-situ thrombosis** on an atherosclerotic plaque rather than embolism. Collaterals have developed, which is why the limb remains **viable** (normal sensation and movement, audible Doppler signals). This allows time for **CT angiography** to plan treatment, which may be catheter-directed thrombolysis, angioplasty and stenting, or bypass. He should receive **IV heparin** and urgent vascular referral. Embolectomy alone often fails in thrombotic occlusions because the underlying stenosis remains.",
+          "whyWrong": [
+            "Embolism is unlikely without AF and with gradual onset, and the limb is viable enough for imaging.",
+            "",
+            "The cold foot with faint arterial signals is arterial, not venous.",
+            "Normal sensation and movement mean the limb is viable.",
+            "Rest pain with a cold foot and poor capillary refill is ischaemic, not neurogenic."
+          ],
+          "tags": [
+            "acute limb ischaemia",
+            "thrombosis",
+            "ct angiography"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vascular--aortic-aneurysm-and-dissection",
+      "title": "Abdominal aortic aneurysm and aortic dissection",
+      "minutes": 17,
+      "objectives": [
+        "Identify people at risk of AAA and arrange appropriate ultrasound surveillance",
+        "State the thresholds for elective AAA repair and the options (EVAR versus open)",
+        "Recognise and manage ruptured AAA with permissive hypotension and immediate surgery",
+        "Differentiate aortic dissection types and their management"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why the aorta matters",
+          "body": "An **abdominal aortic aneurysm (AAA)** is a permanent dilatation of the abdominal aorta to **3 cm or more** (or 50% greater than normal). Most are infrarenal. They are usually **asymptomatic** until they rupture, and **ruptured AAA** has a very high overall mortality, including many who die before reaching hospital. Australia has **no national AAA screening program**, so detection depends on clinicians offering targeted ultrasound to higher-risk people (for example, older men who smoke or have smoked) and noticing incidental findings on imaging.\n\n**Aortic dissection** is less common but equally lethal and is often missed because it mimics MI, stroke, renal colic or musculoskeletal pain."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Pathogenesis and risk factors",
+          "body": "**AAA:** chronic inflammation and **degradation of elastin and collagen** in the aortic media, driven by smoking and genetic predisposition, weakens the wall. By Laplace's law, wall tension rises with diameter, so larger aneurysms grow faster and rupture more readily.\n\nRisk factors: **smoking** (the strongest modifiable risk factor, and it speeds growth), **male sex**, **age over 65**, **family history** (first-degree relative), hypertension, atherosclerosis and connective tissue disease. **Diabetes is associated with a lower risk.** Women develop AAA less often, but their aneurysms **rupture at smaller diameters**.\n\n**Aortic dissection:** a tear in the intima lets blood track within the media, creating a false lumen that can extend and occlude branches (coronary, carotid, renal, mesenteric, spinal, limb arteries) or rupture (pericardium, pleura). Risk factors: **hypertension** (most important), **Marfan** and Ehlers-Danlos syndromes, bicuspid aortic valve, cocaine and methamphetamine, pregnancy, previous cardiac surgery.\n\n**Stanford classification:**\n- **Type A**: involves the **ascending aorta** (whatever else); risk of tamponade, aortic regurgitation, coronary and carotid occlusion\n- **Type B**: does **not** involve the ascending aorta (distal to the left subclavian)"
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "**Asymptomatic AAA:** found incidentally on ultrasound or CT, or as a pulsatile, **expansile** abdominal mass above the umbilicus (often hard to feel in obese patients).\n\n**Symptomatic (tender) or ruptured AAA:**\n- Sudden **abdominal, back or loin pain**\n- **Hypotension**, syncope or collapse\n- **Pulsatile mass**\n- Classic triad (pain, hypotension, pulsatile mass) is present in only about half\n- Often **misdiagnosed as renal colic**, especially in older men\n\n**Aortic dissection:**\n- Sudden, severe, **tearing or ripping** chest pain radiating to the **back** (between the shoulder blades)\n- **Pulse deficit or BP difference between the arms** (over 20 mmHg)\n- New **aortic regurgitation** murmur\n- Neurological signs (stroke, paraplegia from spinal artery involvement)\n- Syncope, tamponade, limb ischaemia, mesenteric ischaemia, AKI"
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "**AAA:**\n- **Abdominal ultrasound** for diagnosis and surveillance (no radiation, cheap). **Bedside ultrasound** in ED confirms an aneurysm in an unstable patient but cannot reliably show a leak\n- **CT angiography** for symptomatic patients who are stable, and to plan repair\n- Surveillance intervals shorten as the aneurysm grows (from every few years for small aneurysms to every few months near the repair threshold); follow local vascular unit protocols\n\n**Aortic dissection:**\n- **CT angiography** of the chest, abdomen and pelvis is the test of choice in stable patients\n- **Transoesophageal echo** in unstable patients (bedside)\n- Chest X-ray may show a **widened mediastinum** but can be normal\n- ECG (to exclude or detect MI; inferior STEMI can occur if the dissection involves the right coronary)\n- **D-dimer** is usually raised; a normal value makes dissection less likely in low-risk patients"
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Small AAA (below the repair threshold):**\n- **Smoking cessation** (slows growth), blood pressure control, statin and antiplatelet (cardiovascular risk reduction)\n- Ultrasound surveillance\n- Advise on symptoms that need urgent attention (abdominal or back pain, collapse)\n\n**Elective repair is usually offered when:**\n- Diameter **5.5 cm or more in men** (a **lower threshold, around 5.0 cm, in women**)\n- **Rapid growth** (commonly quoted as over 1 cm per year)\n- **Symptomatic** (tender) aneurysm, whatever its size\n\n**Repair options:**\n- **Endovascular aneurysm repair (EVAR):** lower early mortality, quicker recovery, needs suitable anatomy and **lifelong imaging surveillance** for endoleaks\n- **Open repair:** more durable, higher early morbidity, suited to fit patients with unsuitable anatomy\n\n**Ruptured AAA:**\n1. **Call the vascular surgeon immediately** and activate theatre and the **massive transfusion protocol**\n2. **Permissive hypotension**: target a systolic BP around 70-90 mmHg, with preserved consciousness; avoid aggressive fluids that raise pressure and worsen bleeding\n3. Two large-bore cannulae, crossmatch, O-negative blood as needed\n4. **Unstable patients go straight to theatre** (open repair or emergency EVAR); CT angiography only if stable enough\n5. In remote settings, early retrieval to a vascular centre is critical\n\n**Aortic dissection:**\n- **Type A:** **emergency cardiothoracic surgery**\n- **Type B uncomplicated:** **medical management**: IV analgesia and **IV beta-blocker first** (e.g. esmolol or labetalol) to reduce heart rate and shear stress (target heart rate around 60/min), then a vasodilator if needed to reduce systolic BP (commonly to about 100-120 mmHg)\n- **Type B complicated** (malperfusion, rupture, uncontrolled pain): **TEVAR** (thoracic endovascular repair)\n- **Never thrombolyse** suspected dissection"
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Older man, back or loin pain, hypotension, pulsatile mass: **ruptured AAA**; the answer is **permissive hypotension and theatre**, not CT for an unstable patient.\n- Elective repair threshold: **5.5 cm in men**, lower in women, or growth over 1 cm per year, or symptomatic.\n- Smoking cessation slows AAA growth.\n- Tearing chest pain to the back with arm BP difference: **dissection**; do not give thrombolysis; type A = surgery, type B = beta-blocker first.\n- There is no national AAA screening program; targeted ultrasound for high-risk older people.\n- An incidental AAA found on CT for another reason needs referral into surveillance and cardiovascular risk management, not just a note in the report.\n- After EVAR, lifelong imaging surveillance is needed for endoleaks."
+        }
+      ],
+      "keyPoints": [
+        "AAA: aortic diameter of 3 cm or more; smoking, male sex, age and family history are key risks.",
+        "No national AAA screening program; targeted ultrasound for higher-risk older people.",
+        "Elective repair at 5.5 cm in men (lower in women), rapid growth over 1 cm per year, or if symptomatic.",
+        "Ruptured AAA: pain, hypotension, pulsatile mass; permissive hypotension and straight to theatre or EVAR.",
+        "Dissection: tearing pain to the back, arm BP difference, widened mediastinum; CT angiography.",
+        "Type A (ascending) dissection: emergency surgery; uncomplicated type B: IV beta-blocker then vasodilator.",
+        "Never thrombolyse a suspected aortic dissection."
+      ],
+      "redFlags": [
+        "Back or loin pain with hypotension in an older man",
+        "Tender pulsatile abdominal mass",
+        "Tearing chest pain radiating to the back with a pulse or BP differential",
+        "Chest pain with new neurological deficit or aortic regurgitation murmur"
+      ],
+      "contrast": [
+        {
+          "aspect": "AAA screening",
+          "india": "No program; aneurysms often found late.",
+          "australia": "No national program either; targeted ultrasound for high-risk older people (e.g. older male smokers)."
+        },
+        {
+          "aspect": "Ruptured AAA resuscitation",
+          "india": "Aggressive fluids to normalise blood pressure.",
+          "australia": "Permissive hypotension, blood products and immediate transfer to theatre or EVAR."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Diameter defining an AAA?",
+          "back": "3 cm or more."
+        },
+        {
+          "front": "Elective AAA repair threshold in men?",
+          "back": "5.5 cm (lower in women, around 5.0 cm), or growth over 1 cm/year, or symptoms."
+        },
+        {
+          "front": "Target systolic BP in ruptured AAA before repair?",
+          "back": "Permissive hypotension, around 70-90 mmHg with preserved consciousness."
+        },
+        {
+          "front": "What defines a Stanford type A dissection?",
+          "back": "Involvement of the ascending aorta."
+        },
+        {
+          "front": "First drug for uncomplicated type B dissection?",
+          "back": "IV beta-blocker (e.g. esmolol or labetalol) to lower heart rate and shear stress."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "vascular--aortic-aneurysm-and-dissection--q1",
+          "discipline": "adult-surgery",
+          "topic": "vascular",
+          "difficulty": "foundation",
+          "stem": "A 72-year-old man who has smoked for 50 years collapses at home with sudden severe back and abdominal pain. In the emergency department he is pale and sweaty. Heart rate is 128/min, blood pressure 78/44 mmHg. There is a tender pulsatile mass above the umbilicus.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Give 3 L of crystalloid to restore a normal blood pressure, then CT angiography",
+            "Arrange a formal abdominal ultrasound in the radiology department",
+            "IV morphine and observe for 6 hours",
+            "Admit to the ward for serial examinations",
+            "Activate the massive transfusion protocol, use permissive hypotension and transfer directly to theatre with the vascular team"
+          ],
+          "answer": 4,
+          "explanation": "Back pain, **shock** and a **pulsatile abdominal mass** in an older male smoker is a **ruptured AAA**. He needs **immediate surgery** (open repair or emergency EVAR). Management: call the vascular surgeon, activate the **massive transfusion protocol**, use **permissive hypotension** (systolic around 70-90 mmHg while he remains conscious), and **transfer directly to theatre**. Aggressive crystalloid raises pressure, dilutes clotting factors and can dislodge the retroperitoneal clot that is temporarily containing the bleed. An unstable patient should not go to CT or the radiology department.",
+          "whyWrong": [
+            "Aggressive fluids worsen bleeding and delay surgery.",
+            "An unstable patient must not leave the resuscitation area for imaging.",
+            "Observation will allow him to exsanguinate.",
+            "Ward admission is unsafe for a ruptured aneurysm.",
+            ""
+          ],
+          "tags": [
+            "ruptured aaa",
+            "permissive hypotension",
+            "emergency"
+          ]
+        },
+        {
+          "id": "vascular--aortic-aneurysm-and-dissection--q2",
+          "discipline": "adult-surgery",
+          "topic": "vascular",
+          "difficulty": "core",
+          "stem": "A 68-year-old man had an incidental 4.6 cm infrarenal AAA found on CT 1 year ago. Repeat ultrasound today shows 4.9 cm. He is asymptomatic. He still smokes 10 cigarettes a day and his blood pressure is 152/90 mmHg.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Elective open repair now",
+            "Smoking cessation, blood pressure control, statin and antiplatelet, with continued ultrasound surveillance",
+            "Discharge from follow-up",
+            "Emergency EVAR",
+            "Start warfarin"
+          ],
+          "answer": 1,
+          "explanation": "His aneurysm is **below the 5.5 cm threshold** for elective repair in men, has grown **less than 1 cm in a year**, and is **asymptomatic**. Trials showed no survival benefit from early repair of small aneurysms. Management is **risk-factor modification** (smoking cessation, which slows aneurysm growth; blood pressure control; statin and antiplatelet for cardiovascular risk) and **continued ultrasound surveillance** at intervals that shorten as it approaches the threshold. He should be told to seek urgent help for abdominal or back pain or collapse.",
+          "whyWrong": [
+            "Repair is not indicated below 5.5 cm in an asymptomatic man with slow growth.",
+            "",
+            "He needs ongoing surveillance, as the aneurysm is growing.",
+            "There is no emergency; he is asymptomatic.",
+            "Anticoagulation has no role in AAA management."
+          ],
+          "tags": [
+            "aaa",
+            "surveillance",
+            "risk factors"
+          ]
+        },
+        {
+          "id": "vascular--aortic-aneurysm-and-dissection--q3",
+          "discipline": "adult-surgery",
+          "topic": "vascular",
+          "difficulty": "exam",
+          "stem": "A 58-year-old man with poorly controlled hypertension presents with sudden, severe tearing pain between the shoulder blades. Blood pressure is 178/96 mmHg in the right arm and 150/84 mmHg in the left. ECG shows no ischaemic changes. CT angiography shows a dissection beginning distal to the left subclavian artery and extending to the renal arteries, with normal renal and mesenteric perfusion.\n\nWhat is the most appropriate initial management?",
+          "options": [
+            "IV beta-blocker to reduce heart rate, with IV analgesia and then further blood pressure lowering",
+            "Emergency open cardiothoracic surgery",
+            "Thrombolysis",
+            "IV hydralazine alone",
+            "Aspirin and discharge with outpatient follow-up"
+          ],
+          "answer": 0,
+          "explanation": "This is an **uncomplicated Stanford type B dissection** (distal to the left subclavian, not involving the ascending aorta, with no malperfusion or rupture). Initial management is **medical**, in a high-dependency setting: **IV analgesia** and an **IV beta-blocker first** (e.g. esmolol or labetalol) to lower heart rate and the rate of rise of aortic pressure (shear stress), followed by a vasodilator if needed to reduce systolic pressure. A vasodilator alone first causes reflex tachycardia, increasing shear stress. Surgery is for type A dissections; TEVAR is for complicated type B. Thrombolysis could be fatal.",
+          "whyWrong": [
+            "",
+            "Emergency surgery is for type A dissection.",
+            "Thrombolysis in dissection can cause catastrophic bleeding.",
+            "A vasodilator without prior beta-blockade causes reflex tachycardia and increases shear stress.",
+            "Dissection requires admission and intensive blood pressure control."
+          ],
+          "tags": [
+            "aortic dissection",
+            "type b",
+            "beta-blocker"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vascular--carotid-disease",
+      "title": "Carotid disease and TIA",
+      "minutes": 14,
+      "objectives": [
+        "Recognise TIA and amaurosis fugax as warning signs of carotid disease",
+        "Arrange urgent assessment and carotid imaging after TIA",
+        "State which patients benefit from carotid endarterectomy and how quickly",
+        "Deliver best medical therapy for stroke prevention"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why carotid disease matters",
+          "body": "Atherosclerotic stenosis at the **carotid bifurcation** causes a substantial proportion of ischaemic strokes, mostly by embolism of plaque debris or thrombus into the brain or eye. A **transient ischaemic attack (TIA)** is a warning: the risk of stroke is **highest in the first days to weeks** after a TIA. Urgent assessment and treatment of the cause, including **carotid endarterectomy** for symptomatic stenosis, prevent many of these strokes. The AMC tests the urgency, the stenosis thresholds and the medical therapy."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Pathogenesis",
+          "body": "Plaque forms at the carotid bifurcation where flow is turbulent. Symptoms arise when:\n- Plaque ruptures or ulcerates and **emboli** travel to the **middle cerebral artery** territory or the **ophthalmic artery**\n- Less commonly, severe stenosis reduces flow (haemodynamic TIA)\n\nRisk factors are those of atherosclerosis: smoking, hypertension, diabetes, dyslipidaemia, age and male sex.\n\n**Symptomatic** stenosis means the stenosis is on the side corresponding to recent (usually within 6 months) ipsilateral hemispheric TIA, stroke or amaurosis fugax. **Asymptomatic** stenosis carries a much lower stroke risk, especially with modern medical therapy."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "**Carotid territory (anterior circulation) symptoms:**\n- **Amaurosis fugax:** sudden, painless, transient monocular visual loss, often described as a **curtain coming down** over one eye (ipsilateral to the stenosis)\n- Contralateral weakness or numbness of face, arm or leg\n- **Dysphasia** (dominant, usually left, hemisphere)\n- Neglect (non-dominant hemisphere)\n\n**Vertebrobasilar (posterior) symptoms:** vertigo with other brainstem signs, diplopia, ataxia, bilateral visual loss; these are not treated with carotid surgery.\n\n**TIA** is now defined by **tissue**, not time: transient neurological symptoms from focal ischaemia **without infarction on imaging**. Symptoms usually last minutes.\n\nA **carotid bruit** is neither sensitive nor specific for significant stenosis; its absence does not exclude disease.\n\n**History points that matter:** exactly what happened (which side, which modality, how long), whether symptoms have fully resolved (persisting deficit means stroke and possible reperfusion therapy, so call a stroke code), previous episodes, and risk factors including palpitations (AF). If symptoms are still present at assessment, treat it as an acute stroke: time-critical imaging for thrombolysis or clot retrieval takes priority over carotid work-up."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "All patients with suspected TIA need **urgent assessment** (same day for recent or recurrent symptoms). The **Australian stroke guidelines advise against relying on risk scores such as ABCD2 alone** to decide who needs urgent care.\n- **Brain imaging:** CT, or preferably **MRI with diffusion-weighted imaging**, to detect infarction and exclude mimics\n- **Carotid imaging** promptly (ideally within 24-48 hours): **carotid duplex ultrasound**, or **CT angiography** (which also images intracranial vessels)\n- **ECG** (and Holter or prolonged monitoring) for **AF**\n- Bloods: FBC, UEC, glucose, HbA1c, lipids, coagulation\n- Echocardiography if a cardiac source is suspected"
+        },
+        {
+          "kind": "differentials",
+          "heading": "TIA mimics",
+          "body": "| Mimic | Clue |\n|---|---|\n| **Hypoglycaemia** | Check glucose in everyone |\n| Migraine aura | Positive symptoms (scintillations, tingling) that **spread** over minutes, followed by headache; younger patients |\n| Focal seizure and Todd's paresis | Jerking before weakness |\n| Syncope | Global loss of consciousness, not focal symptoms |\n| Bell's palsy | Lower motor neuron facial weakness involving the forehead |\n| Retinal detachment | Flashes, floaters and a persistent curtain; not transient |\n| Giant cell arteritis | Transient visual loss in an older person with headache, jaw claudication, raised ESR/CRP |"
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Best medical therapy for everyone** (per Australian stroke guidelines):\n- **Antiplatelet**: aspirin immediately (after imaging excludes haemorrhage); **short-term dual antiplatelet therapy** (aspirin plus clopidogrel, typically for about 3 weeks) is recommended for high-risk TIA and minor ischaemic stroke, then a single agent\n- **Anticoagulation** instead of antiplatelets if AF is the cause (DOAC)\n- **High-intensity statin**\n- **Blood pressure** control (once stable)\n- **Smoking cessation**, diabetes control, exercise, diet, alcohol limits\n\n**Carotid endarterectomy (CEA):**\n- **Symptomatic stenosis of 50-99%**, with the **greatest benefit for 70-99%**, in patients fit for surgery\n- **Timing:** as early as possible, ideally **within 2 weeks** of the event, because the benefit falls rapidly with delay\n- Not beneficial for stenosis under 50%, and not indicated for **complete occlusion** (no emboli can pass)\n- Complications: perioperative stroke, MI, cranial nerve injury (hypoglossal), neck haematoma\n- After endarterectomy: monitor neurological status and blood pressure closely (hyperperfusion syndrome can cause headache, seizures or haemorrhage); a rapidly expanding neck haematoma can compress the airway and needs immediate surgical review\n- **Carotid stenting** is an alternative in selected patients (e.g. previous neck surgery or radiotherapy, or high surgical risk)\n\n**Asymptomatic stenosis:** best medical therapy is the mainstay; intervention is considered only in selected patients with severe stenosis after specialist review.\n\n**Driving:** patients must not drive for a period after a TIA or stroke; the **Austroads Assessing Fitness to Drive** standard sets the minimum non-driving periods, which are longer for commercial drivers. Advise the patient and document it."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Curtain over one eye for 5 minutes = **amaurosis fugax**; image the **ipsilateral carotid**.\n- Symptomatic 70-99% stenosis in a fit patient: **carotid endarterectomy within 2 weeks**.\n- Complete occlusion: no surgery.\n- Asymptomatic stenosis: usually medical therapy.\n- Posterior circulation symptoms don't improve with carotid surgery.\n- Everyone gets antiplatelet (or anticoagulant for AF), statin and BP control; give driving advice.\n- TIA in a patient with AF: the main cause is cardioembolic, so the answer is **anticoagulation (a DOAC)**, not endarterectomy of a mild stenosis.\n- Crescendo TIAs (several in a few days) need admission and urgent investigation.\n- A patient who \"saw a curtain\" but has headache, jaw claudication and a raised ESR has giant cell arteritis until proven otherwise: start high-dose steroids."
+        }
+      ],
+      "keyPoints": [
+        "TIA carries a high early stroke risk; assess urgently and do not rely on ABCD2 alone.",
+        "Amaurosis fugax is transient monocular visual loss from ipsilateral carotid emboli.",
+        "Image the carotids promptly with duplex ultrasound or CT angiography.",
+        "Symptomatic 50-99% stenosis (especially 70-99%): carotid endarterectomy within 2 weeks.",
+        "No surgery for complete occlusion or stenosis under 50%.",
+        "Best medical therapy: antiplatelet (short-term dual for high-risk TIA), statin, BP control, smoking cessation; DOAC for AF.",
+        "Advise on driving restrictions according to Austroads."
+      ],
+      "redFlags": [
+        "Recurrent TIAs in a short period (crescendo TIA)",
+        "Transient monocular visual loss",
+        "TIA in a patient with AF not on anticoagulation",
+        "Transient visual loss with headache and jaw claudication (giant cell arteritis)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Urgency after TIA",
+          "india": "TIA often managed as an outpatient with delayed imaging.",
+          "australia": "Urgent same-day assessment, brain and carotid imaging, and endarterectomy within 2 weeks when indicated."
+        },
+        {
+          "aspect": "Driving after TIA",
+          "india": "Rarely addressed.",
+          "australia": "Austroads standards set non-driving periods; doctors should advise and document."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "What is amaurosis fugax?",
+          "back": "Transient painless monocular visual loss (curtain) from ipsilateral carotid emboli."
+        },
+        {
+          "front": "Carotid stenosis threshold for endarterectomy in symptomatic patients?",
+          "back": "50-99%, greatest benefit at 70-99%."
+        },
+        {
+          "front": "Target timing for carotid endarterectomy after TIA?",
+          "back": "Within 2 weeks."
+        },
+        {
+          "front": "Is carotid endarterectomy indicated for complete occlusion?",
+          "back": "No."
+        },
+        {
+          "front": "First-line imaging of the carotids after TIA?",
+          "back": "Carotid duplex ultrasound or CT angiography."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "vascular--carotid-disease--q1",
+          "discipline": "adult-surgery",
+          "topic": "vascular",
+          "difficulty": "foundation",
+          "stem": "A 69-year-old man reports that yesterday a \"black curtain\" came down over his left eye for about 5 minutes and then fully resolved. He has hypertension and smokes. Examination today, including fundoscopy and visual acuity, is normal.\n\nWhich investigation is most important to identify the likely cause?",
+          "options": [
+            "Carotid duplex ultrasound of the left carotid artery",
+            "MRI of the orbits",
+            "Visual field testing",
+            "Right carotid duplex ultrasound",
+            "Lumbar puncture"
+          ],
+          "answer": 0,
+          "explanation": "Transient, painless, monocular visual loss described as a **curtain** is **amaurosis fugax**, a TIA of the retina caused by emboli entering the **ophthalmic artery**, the first branch of the **ipsilateral internal carotid artery**. He needs urgent assessment as for any TIA, including **left carotid imaging** (duplex ultrasound or CT angiography). Significant symptomatic stenosis (50-99%, especially 70-99%) should be treated with carotid endarterectomy within 2 weeks. Also check ESR and CRP in older patients to exclude giant cell arteritis.",
+          "whyWrong": [
+            "",
+            "Orbital MRI is not the priority for transient embolic visual loss.",
+            "Visual fields are normal after the event and won't find the cause.",
+            "The right carotid supplies the right eye, not the left.",
+            "Lumbar puncture has no role here."
+          ],
+          "tags": [
+            "amaurosis fugax",
+            "carotid",
+            "tia"
+          ]
+        },
+        {
+          "id": "vascular--carotid-disease--q2",
+          "discipline": "adult-surgery",
+          "topic": "vascular",
+          "difficulty": "core",
+          "stem": "A 66-year-old woman had a 30-minute episode of right arm weakness and difficulty finding words 4 days ago. MRI shows no infarct. Carotid duplex ultrasound shows 80% stenosis of the left internal carotid artery and 30% stenosis on the right. ECG shows sinus rhythm. She is independent and fit for surgery.\n\nWhat is the most appropriate management in addition to best medical therapy?",
+          "options": [
+            "Right carotid endarterectomy",
+            "Carotid endarterectomy on both sides",
+            "Left carotid endarterectomy within 2 weeks of the event",
+            "Repeat carotid ultrasound in 12 months",
+            "Start warfarin"
+          ],
+          "answer": 2,
+          "explanation": "Right arm weakness and dysphasia indicate a **left hemisphere** TIA, so the **left carotid stenosis (80%) is symptomatic**. Symptomatic **70-99%** stenosis benefits most from **carotid endarterectomy**, which should be performed as early as possible, ideally **within 2 weeks**, as most of the benefit is lost with delay. The **30% right stenosis is asymptomatic** and below the threshold; it is managed medically. Best medical therapy (antiplatelet, statin, BP control, smoking cessation) is given to all. Warfarin is not indicated in sinus rhythm.",
+          "whyWrong": [
+            "The right stenosis is asymptomatic and only 30%.",
+            "The right side does not need surgery.",
+            "",
+            "Delay loses the benefit; the early stroke risk is highest.",
+            "Anticoagulation is not indicated without AF or another cardiac source."
+          ],
+          "tags": [
+            "carotid endarterectomy",
+            "tia",
+            "stenosis"
+          ]
+        },
+        {
+          "id": "vascular--carotid-disease--q3",
+          "discipline": "adult-surgery",
+          "topic": "vascular",
+          "difficulty": "exam",
+          "stem": "A 72-year-old man had a transient episode of left facial droop and left arm weakness lasting 20 minutes, 1 day ago. He has type 2 diabetes and hypertension. CT brain is normal. Carotid imaging shows complete occlusion of the right internal carotid artery and 40% stenosis of the left. ECG is normal.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Right carotid endarterectomy",
+            "Left carotid endarterectomy",
+            "Right carotid stenting",
+            "Warfarin",
+            "Best medical therapy with antiplatelet treatment, high-intensity statin and risk factor control"
+          ],
+          "answer": 4,
+          "explanation": "His symptoms fit the right hemisphere, but the **right internal carotid is completely occluded**. Endarterectomy or stenting **does not help an occluded artery**: no further emboli can pass from that segment, and the surgery carries risk without benefit. The **left 40% stenosis is asymptomatic** and below the threshold for surgery. Management is **best medical therapy**: antiplatelet therapy (dual antiplatelet short term for high-risk TIA per Australian stroke guidelines, then single), high-intensity statin, blood pressure and diabetes control, and prolonged cardiac monitoring to look for paroxysmal AF.",
+          "whyWrong": [
+            "Surgery is not indicated for a completely occluded carotid.",
+            "The left stenosis is asymptomatic and under 50%.",
+            "Stenting an occluded carotid is not indicated.",
+            "Anticoagulation is not indicated without AF or another cardiac source.",
+            ""
+          ],
+          "tags": [
+            "carotid occlusion",
+            "tia",
+            "medical therapy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vascular--diabetic-foot",
+      "title": "The diabetic foot",
+      "minutes": 15,
+      "objectives": [
+        "Explain how neuropathy, ischaemia and infection combine to cause diabetic foot ulcers",
+        "Perform a foot risk assessment and set the review interval",
+        "Assess and manage diabetic foot ulcers and infections, including osteomyelitis",
+        "Recognise Charcot foot and the high burden among Aboriginal and Torres Strait Islander people"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why the diabetic foot matters",
+          "body": "Diabetes-related foot disease is a leading cause of hospital admission and **lower limb amputation** in Australia. Most amputations are preceded by a **foot ulcer**, and many are preventable with regular screening, education, podiatry and prompt treatment. Rates of diabetes-related amputation are **much higher among Aboriginal and Torres Strait Islander people**, especially in remote communities, reflecting higher diabetes prevalence, earlier onset and reduced access to services. Diabetes Feet Australia guidelines guide care, and people with active foot disease should be managed by a **multidisciplinary high-risk foot service**."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Pathogenesis: the triad",
+          "body": "1. **Peripheral neuropathy** (the main driver):\n   - **Sensory:** loss of protective sensation, so injuries (ill-fitting shoes, burns, foreign bodies) go unnoticed\n   - **Motor:** intrinsic muscle weakness causes clawed toes and prominent metatarsal heads, creating high-pressure points\n   - **Autonomic:** dry, cracked skin from reduced sweating\n2. **Peripheral arterial disease:** reduces healing; often distal (tibial) and calcified\n3. **Infection:** spreads rapidly along tissue planes in a foot with impaired immunity and perfusion, reaching bone (osteomyelitis)\n\n**Charcot neuroarthropathy:** in a neuropathic foot, repeated unnoticed trauma and autonomic hyperaemia cause bone resorption, fractures and joint collapse, leading to deformity (rocker-bottom foot)."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Assessment",
+          "body": "**Annual foot assessment** for everyone with diabetes (more often if at higher risk):\n- **Neuropathy:** **10 g monofilament** at several sites; vibration sense (128 Hz tuning fork)\n- **PAD:** foot pulses, capillary refill, ABI or toe pressures (ABI may be falsely high)\n- Deformity, callus, previous ulcer or amputation, footwear, skin and nails\n\n**Risk stratification (Diabetes Feet Australia):**\n| Risk | Features | Review |\n|---|---|---|\n| Low | No neuropathy, PAD or deformity | Annually |\n| Moderate | One risk factor (neuropathy, PAD or deformity) | More often (every few months) |\n| High | Two or more risk factors, or previous ulcer or amputation, or end-stage kidney disease | Every 1-3 months, with podiatry |\n| Active foot disease | Ulcer, infection, Charcot foot, CLTI | Urgent referral to a high-risk foot service |\n\n**Ulcer types:**\n| Neuropathic | Ischaemic |\n|---|---|\n| Plantar pressure points (metatarsal heads, heel), painless, surrounded by callus | Toes, heel and foot margins, painful (unless neuropathic too), pale base |\n| Warm foot, pulses present | Cool foot, absent pulses |\n\n**Signs of infection:** erythema, warmth, swelling, pus, odour; systemic features indicate severe infection. A **positive probe-to-bone test** (a sterile probe touching bone through the ulcer) strongly suggests **osteomyelitis**.\n\n**Charcot foot:** a **hot, red, swollen, often painless foot** in a person with neuropathy, often after minor trauma, commonly mistaken for cellulitis, gout or DVT. The foot is usually more than 2°C warmer than the other."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "- **Wound swab or tissue culture** only if infection is clinically present (deep tissue after debridement is better than a superficial swab)\n- FBC, CRP, ESR, UEC, HbA1c, blood cultures if systemically unwell\n- **Plain X-ray** (osteomyelitis changes, gas, foreign bodies, Charcot changes)\n- **MRI** for suspected osteomyelitis or early Charcot foot\n- Vascular assessment: ABI, **toe pressures**, arterial duplex; CT angiography if revascularisation is being considered"
+        },
+        {
+          "kind": "differentials",
+          "heading": "The red, hot, swollen diabetic foot",
+          "body": "| Condition | Discriminating clue |\n|---|---|\n| **Cellulitis or deep infection** | Portal of entry (ulcer, fissure), pain may be reduced by neuropathy, raised CRP, fever in severe cases |\n| **Acute Charcot foot** | No wound, neuropathy, temperature difference over 2°C, normal or mildly raised CRP, redness settles with elevation |\n| **Gout** | First MTP joint, very painful, raised urate, crystals on aspiration |\n| **DVT** | Calf swelling rather than foot, positive ultrasound |\n| **Necrotising fasciitis** | Pain out of proportion (may be masked), rapidly spreading erythema, crepitus, bullae, systemic toxicity; **emergency surgery** |\n| **Critical ischaemia with dependent rubor** | Red foot when hanging down that turns pale on elevation, absent pulses |\n\nIn a person with diabetes, infection signs can be blunted: fever and leucocytosis are often absent even in serious infection, so a worsening blood glucose may be the first clue."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Prevention:**\n- Education: daily foot inspection, never walk barefoot, check shoe insides, moisturise but not between toes, safe nail care\n- Podiatry, callus removal, appropriate or custom footwear\n- Glycaemic control, stop smoking, manage cardiovascular risk\n- Culturally safe care and Aboriginal health workers in First Nations communities\n\n**Diabetic foot ulcer:**\n- **Offloading** is essential for plantar ulcers: **total contact cast** or a non-removable knee-high offloading device\n- **Debridement** of callus and non-viable tissue\n- Moist wound dressings and regular review\n- Assess and treat **ischaemia** (revascularisation)\n- Refer to a **high-risk foot service**\n\n**Diabetic foot infection:**\n- **Mild** (superficial, limited cellulitis): oral antibiotics per eTG\n- **Moderate or severe** (deep, spreading, abscess, osteomyelitis, or systemic signs): **admit**, IV antibiotics per eTG, urgent surgical review for **drainage or debridement**; severe infection with ischaemia is limb-threatening\n- **Osteomyelitis:** prolonged antibiotics and/or surgical resection of infected bone\n\n**Charcot foot:** **urgent offloading and immobilisation** in a total contact cast until temperature normalises, to prevent collapse and deformity; specialist foot team care.\n\n**Amputation** for unsalvageable limbs, with rehabilitation and ongoing care of the other foot, which is at high risk."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- The 10 g monofilament tests for loss of protective sensation.\n- A painless plantar ulcer with callus and pulses = **neuropathic**: the key treatment is **offloading**.\n- Probe-to-bone positive = osteomyelitis until proven otherwise.\n- Hot, swollen, painless foot with neuropathy and no wound: **Charcot foot**; immobilise in a cast, don't just give antibiotics.\n- First Nations patients: high amputation rates; culturally safe, accessible foot services are part of the answer."
+        }
+      ],
+      "keyPoints": [
+        "Neuropathy, PAD and infection combine to cause diabetic foot ulcers.",
+        "Annual foot check (10 g monofilament, pulses) with more frequent review for higher risk.",
+        "Neuropathic ulcers need offloading (total contact cast) and debridement.",
+        "Moderate or severe infection: admit, IV antibiotics per eTG and surgical debridement.",
+        "Positive probe-to-bone suggests osteomyelitis; X-ray and MRI.",
+        "Charcot foot: hot, swollen, often painless foot; offload urgently in a cast.",
+        "Amputation rates are much higher in Aboriginal and Torres Strait Islander people."
+      ],
+      "redFlags": [
+        "Diabetic foot ulcer with spreading infection or systemic signs",
+        "Ulcer with absent pulses (ischaemia)",
+        "Hot, swollen foot in a person with neuropathy (Charcot)",
+        "Gas in soft tissues or crepitus (necrotising infection)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Diabetic foot care",
+          "india": "Late presentation is common, often with gangrene; barefoot walking increases risk.",
+          "australia": "Regular risk-stratified foot checks, podiatry and high-risk foot services; much higher amputation rates in First Nations people."
+        },
+        {
+          "aspect": "Plantar ulcer treatment",
+          "india": "Dressings and antibiotics, often without offloading.",
+          "australia": "Offloading with total contact cast or knee-high device is central."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Screening test for loss of protective sensation in diabetes?",
+          "back": "10 g monofilament."
+        },
+        {
+          "front": "Key treatment for a neuropathic plantar ulcer?",
+          "back": "Offloading (total contact cast or knee-high non-removable device) plus debridement."
+        },
+        {
+          "front": "What does a positive probe-to-bone test suggest?",
+          "back": "Osteomyelitis."
+        },
+        {
+          "front": "Classic presentation of acute Charcot foot?",
+          "back": "Hot, red, swollen, often painless foot in a person with neuropathy."
+        },
+        {
+          "front": "Why can the ABI be misleading in diabetes?",
+          "back": "Calcified arteries are non-compressible, falsely raising the ABI; use toe pressures."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "vascular--diabetic-foot--q1",
+          "discipline": "adult-surgery",
+          "topic": "vascular",
+          "difficulty": "foundation",
+          "stem": "A 58-year-old Aboriginal man with type 2 diabetes for 15 years attends a community health clinic with a painless ulcer under his right first metatarsal head, surrounded by thick callus. The foot is warm with palpable pulses. He cannot feel the 10 g monofilament on either foot. There is no surrounding erythema, pus or odour.\n\nWhat is the most important element of treatment?",
+          "options": [
+            "Oral flucloxacillin for 2 weeks",
+            "Offloading the ulcer (e.g. total contact cast) with debridement of callus",
+            "Topical antiseptic cream alone",
+            "Urgent angiography",
+            "Below-knee amputation"
+          ],
+          "answer": 1,
+          "explanation": "This is a **neuropathic plantar ulcer**: painless, at a **pressure point**, with surrounding **callus**, loss of protective sensation and **palpable pulses**. It persists because every step reloads the ulcer. The key treatment is **offloading** (a total contact cast or non-removable knee-high device), plus **sharp debridement** of callus by a podiatrist, moist dressings and referral to a high-risk foot service. There is no infection, so antibiotics are not indicated. Care should be culturally safe and accessible, involving Aboriginal health workers.",
+          "whyWrong": [
+            "There are no signs of infection; antibiotics do not heal a neuropathic ulcer.",
+            "",
+            "Topical treatment without offloading will not heal a pressure ulcer.",
+            "Pulses are palpable and the foot is warm; there is no ischaemia to image.",
+            "Amputation is far from indicated."
+          ],
+          "ausPearl": "Aboriginal and Torres Strait Islander people have much higher rates of diabetes-related amputation; accessible high-risk foot services are a national priority.",
+          "tags": [
+            "diabetic foot",
+            "neuropathic ulcer",
+            "offloading"
+          ]
+        },
+        {
+          "id": "vascular--diabetic-foot--q2",
+          "discipline": "adult-surgery",
+          "topic": "vascular",
+          "difficulty": "core",
+          "stem": "A 63-year-old woman with type 2 diabetes and peripheral neuropathy presents with 2 weeks of a swollen, red, warm right foot. She has little pain and recalls only a minor stumble. There is no ulcer or break in the skin. She is afebrile. The right foot is 4°C warmer than the left. CRP is normal. X-ray shows subtle fragmentation of the midfoot joints.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Oral cefalexin for cellulitis",
+            "Colchicine for gout",
+            "Immediate offloading and immobilisation in a total contact cast, with referral to a high-risk foot service",
+            "Start a DOAC for DVT",
+            "Encourage walking to reduce swelling"
+          ],
+          "answer": 2,
+          "explanation": "A **hot, red, swollen, relatively painless foot** in a person with **neuropathy**, after minor trauma, without a wound, fever or raised CRP, with a **temperature difference over 2°C** and midfoot fragmentation on X-ray, is **acute Charcot neuroarthropathy**. It is commonly misdiagnosed as cellulitis, gout or DVT. Without **urgent offloading and immobilisation** (total contact cast or non-removable device), the midfoot can collapse into a rocker-bottom deformity, leading to ulceration and amputation. MRI helps if X-ray is normal early. Management continues until the temperature difference settles.",
+          "whyWrong": [
+            "No wound, fever or raised CRP; cellulitis is unlikely and antibiotics will not stop the collapse.",
+            "Gout is painful and would not cause midfoot fragmentation.",
+            "",
+            "DVT would not explain the X-ray changes.",
+            "Weight bearing accelerates collapse of the foot."
+          ],
+          "tags": [
+            "charcot foot",
+            "diabetes",
+            "offloading"
+          ]
+        },
+        {
+          "id": "vascular--diabetic-foot--q3",
+          "discipline": "adult-surgery",
+          "topic": "vascular",
+          "difficulty": "exam",
+          "stem": "A 70-year-old man with type 2 diabetes has a 3-month ulcer over the tip of his second toe. The toe is red and swollen (\"sausage toe\"). A sterile probe passed through the ulcer touches bone. He is afebrile, and there is no spreading cellulitis. Foot pulses are faint.\n\nWhat is the most likely complication, and which investigation should follow?",
+          "options": [
+            "Charcot foot; bone scan",
+            "Gout; serum urate",
+            "Superficial wound infection; wound swab only",
+            "Osteomyelitis; X-ray of the foot and MRI if uncertain, plus vascular assessment",
+            "Venous ulcer; duplex of the veins"
+          ],
+          "answer": 3,
+          "explanation": "A **positive probe-to-bone test** in a chronic diabetic foot ulcer strongly suggests **osteomyelitis**, and a red, swollen \"sausage toe\" supports it. Investigate with a **plain X-ray** (which may show cortical erosion, periosteal reaction or bone destruction, though changes lag by 2 weeks or more) and **MRI** if uncertain. Bone biopsy or deep tissue culture guides antibiotic choice. Faint pulses mean **vascular assessment** (toe pressures, duplex) is needed, because ischaemia impairs healing and may need revascularisation. Treatment is prolonged antibiotics per eTG and often surgical resection of infected bone, through a high-risk foot service.",
+          "whyWrong": [
+            "Charcot foot is a hot swollen midfoot without a probe-to-bone ulcer.",
+            "Gout does not cause a chronic ulcer probing to bone.",
+            "Probing to bone indicates a deep infection; a superficial swab is misleading.",
+            "",
+            "Venous ulcers occur in the gaiter area, not at the toe tip."
+          ],
+          "tags": [
+            "osteomyelitis",
+            "diabetic foot",
+            "probe to bone"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vascular--venous-disease",
+      "title": "Venous disease: varicose veins, ulcers and DVT",
+      "minutes": 16,
+      "objectives": [
+        "Recognise chronic venous insufficiency and its skin changes",
+        "Differentiate venous, arterial and neuropathic leg ulcers",
+        "Manage venous ulcers, confirming arterial supply with the ABI before compression",
+        "Diagnose and treat DVT with Wells score, D-dimer, ultrasound and a DOAC"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why venous disease matters",
+          "body": "Chronic venous disease is very common, ranging from cosmetic spider veins to **venous leg ulcers**, which are the commonest type of chronic leg ulcer in Australia. Venous ulcers are painful, recurrent, and cost the health system heavily in community nursing time. **DVT** is a common, potentially fatal condition (pulmonary embolism). The AMC tests the ulcer differential, the **ABI-before-compression** rule, and the diagnosis and treatment of DVT with Australian first-line anticoagulants."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Pathogenesis",
+          "body": "**Chronic venous insufficiency:** normally, one-way valves and the **calf muscle pump** return blood from the legs. If valves in the superficial veins (great or small saphenous) or deep veins fail (primary weakness, or damage from previous **DVT**, the post-thrombotic syndrome), blood refluxes and **venous pressure in the lower leg stays high** during walking (venous hypertension). This causes:\n- Varicose veins\n- Oedema\n- Leakage of red cells, whose breakdown deposits **haemosiderin** (brown pigmentation)\n- Inflammation and fibrosis: **lipodermatosclerosis** (hard, woody skin, \"inverted champagne bottle\" leg), **venous eczema**, **atrophie blanche** (white scarred areas)\n- Ulceration, typically in the **gaiter area** above the medial malleolus\n\n**DVT:** Virchow's triad of **stasis** (immobility, surgery, long-haul travel), **hypercoagulability** (cancer, pregnancy, oestrogen, thrombophilia) and **vessel wall injury** (trauma, surgery). Proximal DVT (popliteal and above) carries the greatest embolic risk."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "**Varicose veins:** dilated tortuous superficial veins, aching, heaviness, itch, worse at the end of the day; complications include thrombophlebitis, bleeding and ulceration.\n\n**Leg ulcer comparison:**\n| | **Venous** | **Arterial** | **Neuropathic** |\n|---|---|---|---|\n| Site | **Gaiter area, medial malleolus** | Toes, heel, lateral malleolus, shin, pressure points | Plantar pressure points |\n| Appearance | Shallow, irregular, sloughy or granulating base, heavy exudate | **Punched out**, deep, pale base | Surrounded by callus |\n| Pain | Moderate, eased by **elevation** | **Severe**, worse on elevation, eased by dependency | Painless |\n| Surrounding skin | Haemosiderin, eczema, lipodermatosclerosis, oedema | Shiny, hairless, cool, pale | Dry, callus |\n| Pulses | Present | **Absent or weak** | Present unless PAD coexists |\n\nMixed arterial and venous disease is common in older people.\n\n**Marjolin's ulcer:** squamous cell carcinoma arising in a long-standing ulcer; suspect with rolled edges, rapid growth or failure to heal. **Biopsy non-healing ulcers** (typically if not improving after about 12 weeks of good care, or if atypical).\n\n**DVT:** unilateral calf swelling (more than 3 cm larger than the other side), pain, tenderness along the deep veins, pitting oedema, warmth, dilated superficial veins. Many are asymptomatic. Ask about risk factors and look for signs of **PE** (breathlessness, pleuritic pain, tachycardia)."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "**Venous disease and ulcers:**\n- **ABI in every patient with a leg ulcer before compression** (arterial disease may coexist and compression can cause ischaemic necrosis)\n- **Venous duplex ultrasound** to map reflux before intervention\n- Wound swab only if clinically infected; biopsy atypical or non-healing ulcers\n\n**Suspected DVT:**\n1. **Wells score** estimates pretest probability\n2. **DVT unlikely** (low score): **D-dimer**; if negative, DVT is excluded. D-dimer is sensitive but not specific (raised in pregnancy, older age, infection, cancer, surgery), so it is used only to **rule out**\n3. **DVT likely** or positive D-dimer: **compression ultrasound** of the leg veins\n4. Unprovoked DVT: history and examination for cancer, age-appropriate screening; thrombophilia testing only in selected cases"
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Venous ulcers:**\n- **Compression therapy** is the cornerstone: multilayer bandaging (graduated compression) applied by trained staff, **after confirming adequate arterial supply**\n  - ABI **0.8 or more**: full compression is generally safe\n  - ABI about **0.5-0.8**: reduced (modified) compression under specialist guidance\n  - ABI **below 0.5**: **no compression**; urgent vascular referral\n  - ABI above 1.3: unreliable; use toe pressures\n- **Leg elevation**, walking (calf pump), weight loss, skin care (emollients, treat venous eczema with topical steroids)\n- Simple non-adherent dressings to manage exudate\n- **Treat superficial venous reflux** (endovenous ablation or surgery), which speeds healing and reduces recurrence\n- After healing: **lifelong compression stockings** to prevent recurrence\n\n**Varicose veins:** reassurance, compression stockings for symptoms, **endovenous thermal ablation**, sclerotherapy or surgery for symptomatic veins or complications.\n\n**Superficial thrombophlebitis:** tender, red, cord-like vein. NSAIDs, warm compresses and compression; ultrasound if near the saphenofemoral junction or extensive (risk of extension into deep veins, which may need anticoagulation).\n\n**DVT:**\n- **DOACs are first line** for most patients: **apixaban** (10 mg twice daily for 7 days, then 5 mg twice daily) or **rivaroxaban** (15 mg twice daily for 21 days, then 20 mg daily with food)\n- **Warfarin** (with initial heparin until INR is therapeutic) for mechanical heart valves, severe renal impairment or antiphospholipid syndrome; **LMWH** in pregnancy and often in active cancer\n- **Duration:** at least **3 months** for a DVT provoked by a major transient risk factor (e.g. surgery); **consider extended (indefinite) therapy** for unprovoked DVT or ongoing risk factors, balancing bleeding risk\n- Early mobilisation; compression stockings for symptomatic relief\n- Isolated distal (calf) DVT: anticoagulation or repeat ultrasound in 1 week, depending on symptoms and risk\n- **VTE prophylaxis** for hospital inpatients per risk assessment (LMWH or mechanical)"
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Ulcer above the medial malleolus with brown pigmentation and oedema: **venous**; the next step is **ABI before compression**.\n- Punched-out painful toe ulcer with absent pulses: **arterial**; **no compression**, vascular referral.\n- Low Wells score: **D-dimer**; high Wells score: **ultrasound** directly.\n- DOAC first line for DVT in Australia; LMWH in pregnancy.\n- Non-healing ulcer with rolled edges: **biopsy** (Marjolin's).\n- Bilateral leg swelling is usually systemic (heart failure, hypoalbuminaemia, drugs such as amlodipine) rather than DVT.\n- Pregnancy-related DVT is treated with LMWH; DOACs and warfarin are avoided."
+        }
+      ],
+      "keyPoints": [
+        "Venous hypertension from valve failure causes haemosiderin staining, lipodermatosclerosis, eczema and ulcers.",
+        "Venous ulcers: gaiter area, shallow, exudative, eased by elevation; arterial: punched out, painful, absent pulses.",
+        "Always measure the ABI before compression; no compression if ABI below 0.5.",
+        "Compression bandaging, elevation, walking and treating superficial reflux heal venous ulcers.",
+        "Biopsy a non-healing or atypical ulcer to exclude Marjolin's ulcer (SCC).",
+        "DVT: Wells score, D-dimer to rule out if unlikely, compression ultrasound if likely or D-dimer positive.",
+        "DOACs (apixaban, rivaroxaban) are first line; at least 3 months for provoked DVT."
+      ],
+      "redFlags": [
+        "Leg ulcer with absent pulses or ABI below 0.5",
+        "Non-healing ulcer with rolled edges or rapid growth",
+        "Unilateral leg swelling with breathlessness or chest pain (PE)",
+        "Massive swelling with a blue, painful leg (phlegmasia)"
+      ],
+      "contrast": [
+        {
+          "aspect": "VTE anticoagulation",
+          "india": "Warfarin or acenocoumarol, often on cost grounds.",
+          "australia": "DOACs (apixaban, rivaroxaban) are usually first line and PBS-subsidised."
+        },
+        {
+          "aspect": "Venous ulcer care",
+          "india": "Dressings and antibiotics, with limited compression.",
+          "australia": "ABI then multilayer compression by community nurses, plus treatment of superficial reflux."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "What must be checked before compression bandaging a leg ulcer?",
+          "back": "Ankle-brachial index (arterial supply)."
+        },
+        {
+          "front": "ABI below which compression is contraindicated?",
+          "back": "Below 0.5 (reduced compression 0.5-0.8 under specialist guidance)."
+        },
+        {
+          "front": "Typical site of a venous ulcer?",
+          "back": "Gaiter area, above the medial malleolus."
+        },
+        {
+          "front": "Apixaban dosing for acute DVT?",
+          "back": "10 mg twice daily for 7 days, then 5 mg twice daily."
+        },
+        {
+          "front": "Role of D-dimer in suspected DVT?",
+          "back": "Rules out DVT when negative in patients with low pretest probability."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "vascular--venous-disease--q1",
+          "discipline": "adult-surgery",
+          "topic": "vascular",
+          "difficulty": "foundation",
+          "stem": "A 74-year-old woman has a 4-month shallow, exudative ulcer above her left medial malleolus. The surrounding skin is brown and indurated, with eczema and pitting oedema. The ulcer is less painful when she puts her feet up. Foot pulses are difficult to feel because of oedema.\n\nWhat is the most appropriate next step before starting treatment?",
+          "options": [
+            "Apply four-layer compression bandaging today",
+            "Wound swab and oral antibiotics",
+            "Venous duplex ultrasound only",
+            "Referral for skin grafting",
+            "Measure the ankle-brachial index"
+          ],
+          "answer": 4,
+          "explanation": "The ulcer site (**gaiter area**), shallow exudative base, **haemosiderin staining**, lipodermatosclerosis, eczema and relief with **elevation** point to a **venous ulcer**. Compression is the cornerstone of treatment, but **arterial disease must be excluded first** because compression applied to an ischaemic leg can cause necrosis and amputation. Pulses are unreliable here, so measure the **ABI** before starting compression. An ABI of 0.8 or more generally permits full compression; 0.5-0.8 reduced compression under specialist guidance; below 0.5, no compression and vascular referral.",
+          "whyWrong": [
+            "Compression before excluding arterial disease risks ischaemic injury.",
+            "There are no clear signs of infection; swabs of chronic ulcers grow colonisers.",
+            "Duplex maps reflux but does not assess arterial safety for compression.",
+            "Grafting is not first-line care for a venous ulcer.",
+            ""
+          ],
+          "tags": [
+            "venous ulcer",
+            "abi",
+            "compression"
+          ]
+        },
+        {
+          "id": "vascular--venous-disease--q2",
+          "discipline": "adult-surgery",
+          "topic": "vascular",
+          "difficulty": "core",
+          "stem": "A 45-year-old man has 3 days of right calf swelling and pain after a long-haul flight from London to Perth. His right calf is 4 cm larger than the left, with pitting oedema and tenderness along the deep veins. He has no chest symptoms. Compression ultrasound confirms a right popliteal vein thrombosis. Renal function is normal and he has no bleeding risk factors.\n\nWhat is the most appropriate treatment?",
+          "options": [
+            "Aspirin 100 mg daily",
+            "Apixaban 10 mg twice daily for 7 days, then 5 mg twice daily for at least 3 months",
+            "Warfarin alone without initial heparin",
+            "Compression stockings alone",
+            "Inferior vena cava filter"
+          ],
+          "answer": 1,
+          "explanation": "He has a **proximal (popliteal) DVT** provoked by prolonged travel. In Australia, **DOACs are first line** for most patients with normal renal function: **apixaban 10 mg twice daily for 7 days, then 5 mg twice daily** (or rivaroxaban 15 mg twice daily for 21 days then 20 mg daily). Treat for **at least 3 months**, then reassess; a DVT provoked by a transient factor usually stops at 3 months. Warfarin must be started with heparin overlap until the INR is therapeutic. Aspirin is not adequate treatment. IVC filters are reserved for patients who cannot be anticoagulated.",
+          "whyWrong": [
+            "Aspirin is not adequate treatment for an acute DVT.",
+            "",
+            "Warfarin alone is initially prothrombotic and needs heparin overlap.",
+            "Stockings do not treat the thrombus or prevent PE.",
+            "Filters are only for those who cannot be anticoagulated."
+          ],
+          "tags": [
+            "dvt",
+            "doac",
+            "apixaban"
+          ]
+        },
+        {
+          "id": "vascular--venous-disease--q3",
+          "discipline": "adult-surgery",
+          "topic": "vascular",
+          "difficulty": "exam",
+          "stem": "A 68-year-old man who smokes has a painful ulcer on the lateral side of his left foot for 6 weeks. The pain is worse at night and eased by hanging his leg over the bed. The ulcer is deep and punched out with a pale base. The foot is cool and hairless, and pedal pulses are absent. ABI is 0.42.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Urgent vascular surgery referral for revascularisation, with no compression",
+            "Four-layer compression bandaging",
+            "Leg elevation and compression stockings",
+            "Oral antibiotics and review in 4 weeks",
+            "Split skin graft"
+          ],
+          "answer": 0,
+          "explanation": "A **punched-out, painful ulcer** on the foot with **rest pain eased by dependency**, a cool hairless foot, **absent pulses** and an **ABI of 0.42** is an **arterial ulcer** due to **chronic limb-threatening ischaemia**. **Compression is contraindicated** (ABI below 0.5) and would cause necrosis; elevation worsens ischaemic pain. He needs **urgent vascular referral** for imaging (duplex or CT angiography) and **revascularisation**, plus best medical therapy: smoking cessation, statin, antiplatelet and analgesia. The ulcer will not heal until blood supply is restored.",
+          "whyWrong": [
+            "",
+            "Compression on an ischaemic limb with ABI below 0.5 can cause necrosis.",
+            "Elevation and compression worsen ischaemia.",
+            "Antibiotics do not treat ischaemia, and delay risks limb loss.",
+            "A graft will not take without adequate blood supply."
+          ],
+          "tags": [
+            "arterial ulcer",
+            "clti",
+            "compression contraindicated"
+          ]
+        }
+      ]
+    }
+  ]
+}

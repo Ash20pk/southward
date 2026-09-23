@@ -1,0 +1,1286 @@
+{
+  "topic": "labour-postpartum",
+  "intro": "This topic follows a woman from the onset of labour to the end of the postnatal period: normal and abnormal labour, induction, operative birth, preterm labour and ruptured membranes, CTG interpretation, perineal trauma, the puerperium, breastfeeding, contraception and perinatal mental health. The AMC uses it to test safe intrapartum decisions (when to intervene, when to wait) and the postnatal problems a GP sees every week.",
+  "lessons": [
+    {
+      "id": "labour-postpartum--normal-labour-and-birth",
+      "title": "Normal labour and birth",
+      "minutes": 15,
+      "objectives": [
+        "Define the stages of labour and the expected rate of progress in each",
+        "Describe the mechanism of labour for an occipito-anterior position",
+        "Offer the options for pain relief and explain the trade-offs of an epidural",
+        "Conduct active management of the third stage and immediate newborn care"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Birth in Australia",
+          "body": "Around 300,000 women give birth in Australia each year, almost all in hospital, with a small number in birth centres or at home. About two-thirds of births are vaginal and just over a third are by caesarean section, a rate that has risen steadily. Midwives are the lead carers for normal labour; doctors are called for deviations from normal. As an intern you will be expected to recognise normal progress, know when to call for help, and not intervene without a reason.\n\nLabour is the onset of **regular painful contractions** causing **progressive cervical effacement and dilatation**. Term is 37+0 to 41+6 weeks."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Stages of labour and expected progress",
+          "body": "| Stage | From | To | Typical duration |\n|---|---|---|---|\n| First: latent phase | Onset of contractions | Active phase (around 5-6 cm; unit definitions vary) | Variable, can be many hours, especially in a first labour |\n| First: active phase | Around 5-6 cm | **Full dilatation** (10 cm) | Progress of roughly 0.5-1 cm per hour or more |\n| Second stage | Full dilatation | **Birth of the baby** | Passive (descent) then active pushing; limits commonly around 2-3 hours of pushing for a first labour, less for multiparous women, longer with an epidural (unit policy) |\n| Third stage | Birth of the baby | **Delivery of the placenta** and membranes | Up to about 30 minutes with active management; up to about 60 minutes if physiological |\n\nProgress is recorded on a **partogram**: cervical dilatation, descent of the head (in fifths palpable abdominally and station relative to the ischial spines), contractions (frequency per 10 minutes, duration, strength), maternal observations and fetal heart rate. A partogram makes slow progress visible early.\n\n**Latent phase** care is usually at home with analgesia, fluids and reassurance, with clear advice on when to come in (regular strong contractions, ruptured membranes, bleeding, reduced movements, constant pain)."
+        },
+        {
+          "kind": "concepts",
+          "heading": "The mechanism of labour",
+          "body": "The fetal head has to negotiate a pelvis whose widest diameter is transverse at the inlet and anteroposterior at the outlet. In the common **left occipito-anterior** position:\n\n1. **Engagement**: the widest part of the head (biparietal diameter) passes the pelvic inlet; clinically, two-fifths or less palpable abdominally.\n2. **Descent** throughout labour.\n3. **Flexion**: presents the smallest diameter (suboccipitobregmatic, about 9.5 cm).\n4. **Internal rotation**: the occiput rotates anteriorly to lie under the symphysis when it meets the pelvic floor.\n5. **Extension**: the head is born by extending under the symphysis.\n6. **Restitution**: the head untwists to realign with the shoulders.\n7. **External rotation**: the shoulders rotate into the anteroposterior diameter.\n8. **Expulsion**: anterior shoulder under the symphysis, then posterior shoulder and body.\n\n**Occipito-posterior** position leads to a deflexed head presenting a larger diameter, backache, longer labour and more instrumental birth. Most rotate spontaneously."
+        },
+        {
+          "kind": "management",
+          "heading": "Care in labour and pain relief",
+          "body": "**Monitoring**: maternal pulse, BP and temperature, fluid balance and bladder care (a full bladder impedes descent and increases PPH risk). For **low-risk women**, the RANZCOG guideline recommends **intermittent auscultation** of the fetal heart (with a hand-held Doppler, listening after contractions, more often in the second stage). Continuous CTG is for women with risk factors (see the CTG lesson). An admission CTG is not recommended for low-risk women.\n\n**GBS**: carriers (or at-risk women in risk-based units) receive **IV benzylpenicillin** from the start of labour or membrane rupture, ideally at least 4 hours before birth.\n\n**Pain relief options**, from least to most invasive:\n\n- Continuous support, mobilisation, water immersion, heat, massage, TENS, sterile water injections for back pain.\n- **Nitrous oxide** and oxygen: quick on and off, can cause nausea.\n- **Parenteral opioids** (morphine, fentanyl; pethidine is used less now): can cause maternal nausea and sedation and neonatal respiratory depression if given close to birth (naloxone should be available).\n- **Epidural**: the most effective. It can cause hypotension, motor block, fever, urinary retention and itch, and it **lengthens the second stage and increases instrumental birth**, but it **does not increase caesarean section**. Rare: post-dural puncture headache, high block, local anaesthetic toxicity. Contraindications include coagulopathy, low platelets, local infection and uncorrected hypovolaemia."
+        },
+        {
+          "kind": "management",
+          "heading": "The third stage and the first hour",
+          "body": "**Signs of placental separation**: a gush of blood, **lengthening of the cord**, and the uterus becoming firm, globular and rising in the abdomen.\n\n**Active management of the third stage** is recommended because it halves the risk of PPH:\n\n1. **Oxytocin 10 IU IM** as the anterior shoulder is born or soon after birth.\n2. **Delayed cord clamping** (at least 30-60 seconds in a vigorous baby), which improves infant iron stores and, in preterm babies, reduces the need for transfusion.\n3. **Controlled cord traction** with counter-pressure above the symphysis once separated.\n\n**Physiological third stage** (no uterotonic, maternal effort) is an informed choice for low-risk women, with conversion to active management if bleeding occurs or the placenta is not delivered within about an hour.\n\n**Check the placenta and membranes** are complete (retained tissue causes PPH and infection), estimate blood loss, and examine the perineum.\n\n**First hour**: skin-to-skin contact, early breastfeeding, and with consent, **vitamin K** IM and **hepatitis B vaccine** within 7 days (ideally in the first 24 hours). The Apgar score is recorded at 1 and 5 minutes."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Traps and discriminating clues",
+          "body": "- Stages: first ends at full dilatation, second at birth of the baby, third at delivery of the placenta.\n- Epidural lengthens the second stage and increases instrumental birth but **not caesarean section**.\n- Low-risk woman in normal labour: **intermittent auscultation**, not continuous CTG.\n- Active third stage uses **oxytocin**, not ergometrine, as the routine first choice.\n- Head engaged means two-fifths or less palpable abdominally.\n- Opioid given within a couple of hours of birth, floppy apnoeic baby: naloxone may be considered after ventilation is established."
+        }
+      ],
+      "keyPoints": [
+        "First stage ends at full dilatation, second at birth, third at delivery of the placenta.",
+        "Active first stage usually starts around 5-6 cm; expect roughly 0.5-1 cm per hour or more.",
+        "A partogram tracks dilatation, descent, contractions and observations to show slow progress early.",
+        "Low-risk labour: intermittent auscultation; continuous CTG only for risk factors.",
+        "Epidurals lengthen the second stage and increase instrumental birth but not caesarean rates.",
+        "Active management of the third stage: oxytocin 10 IU IM, delayed cord clamping, controlled cord traction.",
+        "Always check the placenta and membranes are complete."
+      ],
+      "redFlags": [
+        "Fresh vaginal bleeding in labour (abruption, praevia, vasa praevia)",
+        "Maternal fever in labour (chorioamnionitis)",
+        "Thick meconium-stained liquor",
+        "Constant abdominal pain between contractions"
+      ],
+      "contrast": [
+        {
+          "aspect": "Who manages normal labour",
+          "india": "Often doctor-led in hospitals, with nurses assisting.",
+          "australia": "Midwives lead normal labour and birth; doctors are called for deviations from normal."
+        },
+        {
+          "aspect": "Fetal monitoring in low-risk labour",
+          "india": "Admission CTG and frequent CTG strips are common in many hospitals.",
+          "australia": "Intermittent auscultation for low-risk women per the RANZCOG guideline; no admission CTG."
+        },
+        {
+          "aspect": "Third stage",
+          "india": "Active management with oxytocin; misoprostol used where oxytocin storage is a problem.",
+          "australia": "Active management with oxytocin 10 IU IM plus delayed cord clamping; physiological third stage is an informed option."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "When does the second stage of labour end?",
+          "back": "At the birth of the baby."
+        },
+        {
+          "front": "Components of active management of the third stage?",
+          "back": "Oxytocin 10 IU IM, delayed cord clamping, controlled cord traction."
+        },
+        {
+          "front": "Signs of placental separation?",
+          "back": "Gush of blood, lengthening of the cord, uterus rising and becoming firm and globular."
+        },
+        {
+          "front": "Does an epidural increase the caesarean rate?",
+          "back": "No. It lengthens the second stage and increases instrumental birth."
+        },
+        {
+          "front": "Fetal heart monitoring for a low-risk woman in labour?",
+          "back": "Intermittent auscultation (RANZCOG)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "labour-postpartum--normal-labour-and-birth--q1",
+          "discipline": "womens-health",
+          "topic": "labour-postpartum",
+          "difficulty": "foundation",
+          "stem": "A 27-year-old primigravida at 40 weeks is in spontaneous labour. At 08:00 the cervix was 5 cm dilated. It is now 12:00 and the cervix is 8 cm dilated, fully effaced, with the head at station 0 in an occipito-anterior position. She is contracting 4 times in 10 minutes. Intermittent auscultation is normal.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Artificial rupture of membranes and oxytocin augmentation",
+            "Emergency caesarean section for slow progress",
+            "Continue supportive care and reassess progress in about 4 hours or earlier if indicated",
+            "Commence continuous CTG monitoring",
+            "Perform a fetal scalp lactate"
+          ],
+          "answer": 2,
+          "explanation": "She is in the **active first stage** and has progressed 3 cm in 4 hours, about **0.75 cm per hour**. That is normal progress. The head is descending, the position is favourable and contractions are adequate. The fetal heart is normal on intermittent auscultation.\n\nThe right action is **continued supportive midwifery care**, with ongoing observations, bladder care and a vaginal examination at intervals (commonly about 4 hours, or sooner if there is a clinical reason).\n\nIntervention (amniotomy, oxytocin, caesarean) is reserved for delay, and continuous CTG is for women with risk factors or abnormal auscultation. Unnecessary intervention in normal labour increases the chance of further intervention.",
+          "whyWrong": [
+            "Augmentation is for delay; her progress is normal.",
+            "There is no delay or fetal compromise to justify caesarean.",
+            "",
+            "Continuous CTG is not needed for a low-risk woman with normal auscultation.",
+            "Scalp sampling is only for an abnormal CTG; she has no indication."
+          ],
+          "tags": [
+            "labour",
+            "progress",
+            "partogram"
+          ]
+        },
+        {
+          "id": "labour-postpartum--normal-labour-and-birth--q2",
+          "discipline": "womens-health",
+          "topic": "labour-postpartum",
+          "difficulty": "core",
+          "stem": "A 30-year-old woman has a spontaneous vaginal birth of a healthy baby. She chose active management of the third stage. The baby is vigorous and skin-to-skin on her chest.\n\nWhich sequence best describes active management of the third stage?",
+          "options": [
+            "Oxytocin 10 IU IM at or soon after birth, delayed cord clamping, then controlled cord traction after signs of separation",
+            "Ergometrine IV immediately, immediate cord clamping, then fundal pressure",
+            "Wait for spontaneous placental delivery for up to 60 minutes, then oxytocin if needed",
+            "Controlled cord traction immediately after birth before any uterotonic",
+            "Misoprostol orally, immediate cord clamping, then manual removal of the placenta"
+          ],
+          "answer": 0,
+          "explanation": "**Active management of the third stage** reduces PPH and the need for transfusion. It consists of:\n\n1. A **uterotonic**, **oxytocin 10 IU IM**, given with the birth of the anterior shoulder or soon after the baby is born.\n2. **Delayed cord clamping** (at least 30-60 seconds in a well baby), which improves neonatal iron stores without increasing PPH.\n3. **Controlled cord traction** with suprapubic counter-pressure once the uterus has contracted and signs of separation appear.\n\nErgometrine is not the routine choice because of hypertension and vomiting. Fundal pressure and traction before a contracted uterus risk **uterine inversion**. Waiting up to an hour describes a physiological third stage.",
+          "whyWrong": [
+            "",
+            "Ergometrine is not routine, immediate clamping is not preferred, and fundal pressure risks inversion.",
+            "This describes physiological management.",
+            "Traction before a uterotonic and a contracted uterus risks inversion.",
+            "Misoprostol is not first-line and manual removal is only for a retained placenta."
+          ],
+          "tags": [
+            "third stage",
+            "oxytocin",
+            "pph prevention"
+          ]
+        },
+        {
+          "id": "labour-postpartum--normal-labour-and-birth--q3",
+          "discipline": "womens-health",
+          "topic": "labour-postpartum",
+          "difficulty": "core",
+          "stem": "A 25-year-old primigravida in labour at 39 weeks asks about an epidural. She is worried it will mean she needs a caesarean section. Her platelets are 210 x 10^9/L and she has no medical problems.\n\nWhich statement about epidural analgesia is most accurate?",
+          "options": [
+            "It increases the risk of caesarean section",
+            "It shortens the second stage of labour",
+            "It is contraindicated in first labours",
+            "It is associated with a longer second stage and more instrumental births but not more caesarean sections",
+            "It causes long-term back pain"
+          ],
+          "answer": 3,
+          "explanation": "Epidural analgesia is the most effective form of labour pain relief. Large systematic reviews show it is associated with a **longer second stage** and a **higher rate of instrumental vaginal birth**, but **no increase in caesarean section**.\n\nOther side effects include hypotension (preloading or vasopressors), maternal fever, itch, urinary retention needing catheterisation and reduced mobility. Rare complications include post-dural puncture headache, high block and local anaesthetic toxicity. It does **not** cause long-term backache.\n\nContraindications include coagulopathy, significant thrombocytopenia, anticoagulation, local sepsis and uncorrected hypovolaemia. None apply to her.",
+          "whyWrong": [
+            "Evidence does not show an increased caesarean rate.",
+            "It lengthens rather than shortens the second stage.",
+            "First labour is not a contraindication.",
+            "",
+            "Evidence does not support an association with long-term back pain."
+          ],
+          "tags": [
+            "epidural",
+            "analgesia",
+            "counselling"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "labour-postpartum--induction-and-operative-birth",
+      "title": "Induction, slow progress and operative birth",
+      "minutes": 18,
+      "objectives": [
+        "Use the Bishop score to choose a method of induction",
+        "List the indications, contraindications and risks of induction of labour",
+        "Diagnose and manage delay in the first and second stage using the 3 Ps",
+        "State the prerequisites for instrumental birth and the categories of caesarean urgency",
+        "Counsel a woman about vaginal birth after caesarean"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why induction matters",
+          "body": "Around a third of women in Australia have their labour induced, and the rate has risen. Induction is appropriate when the risks of continuing the pregnancy outweigh the risks of birth and induction, and the woman agrees after counselling.\n\n**Common indications**:\n\n- **Prolonged pregnancy**: offered from **41 weeks**, because stillbirth risk rises beyond term.\n- **Prelabour rupture of membranes at term** (induction or expectant management for up to about 24 hours; induce promptly if GBS positive).\n- Hypertensive disorders (pre-eclampsia at 37 weeks), diabetes, fetal growth restriction, reduced fetal movements with concerns, older maternal age, previous stillbirth, twins, intrauterine fetal death, and cholestasis.\n\n**Contraindications** (any contraindication to vaginal birth): placenta praevia, vasa praevia, transverse lie, cord presentation, active genital herpes, previous classical caesarean or uterine rupture, and some fetal compromise needing immediate birth."
+        },
+        {
+          "kind": "investigations",
+          "heading": "The Bishop score",
+          "body": "The **Bishop score** assesses how favourable (\"ripe\") the cervix is, which predicts how likely induction is to succeed.\n\n| Component | 0 | 1 | 2 | 3 |\n|---|---|---|---|---|\n| Dilatation (cm) | Closed | 1-2 | 3-4 | 5 or more |\n| Length (cm) / effacement | More than 3 cm | About 2 cm | About 1 cm | Less than 1 cm |\n| Station (relative to spines) | -3 | -2 | -1, 0 | +1, +2 |\n| Consistency | Firm | Medium | Soft | |\n| Position | Posterior | Mid | Anterior | |\n\nA **score of about 6 or less** means an **unfavourable** cervix that needs ripening first. A **score of about 8 or more** is favourable, and labour can be induced with amniotomy and oxytocin."
+        },
+        {
+          "kind": "management",
+          "heading": "Methods of induction and their risks",
+          "body": "**Cervical ripening (unfavourable cervix)**:\n\n- **Prostaglandin E2** (dinoprostone gel or controlled-release pessary) inserted vaginally. Risk: **uterine hyperstimulation** (tachysystole, more than 5 contractions in 10 minutes) with fetal heart changes. Generally avoided with a uterine scar.\n- **Balloon catheter** (single or double balloon) through the cervix: mechanical dilatation, less hyperstimulation, and preferred for women with a **previous caesarean**. Some units use it for outpatient ripening.\n\n**Favourable cervix**:\n\n- **Amniotomy (artificial rupture of membranes, ARM)**: check the head is well applied to the cervix first, because a high head risks **cord prolapse**.\n- **Oxytocin infusion**, titrated to contractions (about 3-4 in 10 minutes). Continuous CTG is required.\n\n**Risks of induction**: hyperstimulation and fetal compromise, failed induction, longer labour, more epidurals and instrumental births, infection with prolonged membrane rupture, cord prolapse with ARM, and **uterine rupture** in women with a scar. Tachysystole is managed by stopping oxytocin or removing the pessary, and tocolysis (terbutaline) if the CTG is abnormal."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Slow progress: the 3 Ps",
+          "body": "Delay is assessed separately for each stage.\n\n**First stage**: progress slower than expected in the active phase (for example, less than about 2 cm in 4 hours) or descent and rotation not occurring. Causes:\n\n- **Powers**: inadequate contractions, the commonest cause in a first labour. Treatment: **amniotomy** if membranes are intact, then **oxytocin augmentation**. Be very cautious with oxytocin in multiparous women, where slow progress is more likely to be obstruction, and in women with a scar.\n- **Passenger**: malposition (occipito-posterior, deflexed), large baby, malpresentation (brow, face), fetal anomaly.\n- **Passage**: cephalopelvic disproportion, a contracted pelvis, soft tissue obstruction.\n- Also psyche: fear and exhaustion; and a full bladder.\n\n**Signs of obstructed labour**: arrest of dilatation with increasing **caput and moulding**, a head that remains high, haematuria, maternal tachycardia and fever, a **Bandl's ring**, and fetal compromise. Oxytocin is dangerous here (rupture); the answer is **caesarean section**.\n\n**Second stage delay**: consider the position, epidural, maternal exhaustion and the fetal condition. Options are oxytocin (in nulliparous women without obstruction), instrumental birth, or caesarean section if the head is too high or instrumental birth fails."
+        },
+        {
+          "kind": "management",
+          "heading": "Operative birth and VBAC",
+          "body": "**Instrumental birth (vacuum or forceps)** prerequisites, remembered as \"**FORCEPS**\":\n\n- **F**ully dilated cervix\n- **O**cciput position known (examine for fontanelles and sutures; ultrasound if unsure)\n- **R**uptured membranes\n- **C**ephalic presentation\n- **E**ngaged head: no more than **one-fifth palpable abdominally**, at or below the ischial spines\n- **P**ain relief adequate\n- **S**phincter (bladder) empty\n- Plus consent, an experienced operator and a plan to abandon if it is not progressing.\n\n**Vacuum**: less maternal perineal trauma; more failure, cephalhaematoma, subgaleal haemorrhage and retinal haemorrhage; avoided before about 34 weeks and with face presentation. **Forceps**: more successful but more **third and fourth degree tears**; a **mediolateral episiotomy** is usually recommended with forceps (and considered with vacuum) because it reduces anal sphincter injury.\n\n**Caesarean section urgency** (RANZCOG classification):\n\n| Category | Meaning | Example |\n|---|---|---|\n| 1 | **Immediate threat** to the life of the woman or fetus | Cord prolapse, prolonged bradycardia, uterine rupture; aim for birth as soon as possible, often within 30 minutes |\n| 2 | Maternal or fetal compromise, **not immediately life-threatening** | Failure to progress with some CTG concerns |\n| 3 | Needs early birth, **no compromise** | Labour in a woman booked for elective caesarean |\n| 4 | Elective, timed to suit | Planned repeat caesarean at 39 weeks |\n\nPlanned caesareans are usually at **39 weeks** to reduce neonatal respiratory problems.\n\n**Vaginal birth after caesarean (VBAC)**: after one previous lower segment caesarean, planned VBAC succeeds in about 60-80% (higher if she has had a vaginal birth before). The main risk is **uterine rupture**, about 1 in 200, higher with induction or augmentation. Labour should be in hospital with **continuous CTG**, IV access and immediate access to theatre. **Contraindications**: previous classical or T-shaped incision, previous uterine rupture, placenta praevia. Elective repeat caesarean avoids labour risks but increases risks of placenta praevia and accreta in future pregnancies. It is a **shared decision**."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Traps and discriminating clues",
+          "body": "- Bishop score 4 at 41+3 weeks: **cervical ripening** first (prostaglandin or balloon), not ARM.\n- Previous caesarean needing induction: **balloon catheter** preferred over prostaglandin.\n- Multiparous woman with slow progress: think **obstruction or malposition** before oxytocin.\n- Head two-fifths palpable at full dilatation: **not** suitable for instrumental birth; caesarean.\n- Cord prolapse is a category 1 caesarean; labour in a woman booked for elective caesarean is category 3.\n- VBAC: success about 60-80%, rupture about 1 in 200; continuous CTG in labour."
+        }
+      ],
+      "keyPoints": [
+        "Offer induction from 41 weeks for prolonged pregnancy.",
+        "Bishop score about 6 or less is unfavourable and needs ripening; 8 or more is favourable.",
+        "Prostaglandins can cause hyperstimulation; balloon catheters are preferred with a uterine scar.",
+        "Slow progress: think powers, passenger and passage; oxytocin fixes weak powers, not obstruction.",
+        "Instrumental birth requires full dilatation, known position, ruptured membranes and a head no more than one-fifth palpable.",
+        "Caesarean category 1 is an immediate threat to life; category 4 is elective.",
+        "VBAC succeeds in about 60-80%; uterine rupture risk about 1 in 200."
+      ],
+      "redFlags": [
+        "Uterine tachysystole with an abnormal CTG during induction",
+        "Increasing caput and moulding with arrest of progress (obstruction)",
+        "Scar pain, bleeding or loss of station during VBAC",
+        "Haematuria and maternal tachycardia in prolonged labour"
+      ],
+      "contrast": [
+        {
+          "aspect": "Birth after one caesarean",
+          "india": "Repeat caesarean is often the default, especially in private hospitals.",
+          "australia": "Planned VBAC is discussed and offered where suitable, with continuous CTG and theatre access."
+        },
+        {
+          "aspect": "Episiotomy",
+          "india": "Routine episiotomy in first vaginal births is still common in many units.",
+          "australia": "Restrictive use; mediolateral episiotomy recommended with forceps and considered with vacuum."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Components of the Bishop score?",
+          "back": "Dilatation, length/effacement, station, consistency, position."
+        },
+        {
+          "front": "Bishop score indicating an unfavourable cervix?",
+          "back": "About 6 or less."
+        },
+        {
+          "front": "Method of cervical ripening preferred after a previous caesarean?",
+          "back": "Balloon catheter (mechanical)."
+        },
+        {
+          "front": "Maximum head palpable abdominally for instrumental birth?",
+          "back": "One-fifth."
+        },
+        {
+          "front": "Risk of uterine rupture in planned VBAC?",
+          "back": "About 1 in 200 (0.5%), higher with induction or augmentation."
+        },
+        {
+          "front": "Definition of a category 1 caesarean?",
+          "back": "Immediate threat to the life of the woman or fetus."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "labour-postpartum--induction-and-operative-birth--q1",
+          "discipline": "womens-health",
+          "topic": "labour-postpartum",
+          "difficulty": "foundation",
+          "stem": "A 32-year-old primigravida at 41+3 weeks attends for induction of labour. Her pregnancy has been uncomplicated. On vaginal examination the cervix is closed, 3 cm long, firm and posterior, with the head at station -3. The CTG is normal.\n\nWhat is the most appropriate method to start the induction?",
+          "options": [
+            "Artificial rupture of membranes",
+            "Vaginal prostaglandin E2 or a cervical balloon catheter",
+            "Oxytocin infusion",
+            "Elective caesarean section",
+            "Membrane sweep and discharge home for 2 weeks"
+          ],
+          "answer": 1,
+          "explanation": "Her **Bishop score is 0**: closed, long, firm, posterior cervix with a high head. An unfavourable cervix (score about 6 or less) needs **cervical ripening** before labour can be induced.\n\nOptions are **vaginal prostaglandin E2** (gel or pessary) or a **balloon catheter**. Once the cervix is favourable, amniotomy and oxytocin follow.\n\nAmniotomy is not technically possible with a closed cervix and would risk cord prolapse with a high head. Oxytocin on an unripe cervix has a high failure rate. A membrane sweep is reasonable as an adjunct but sending her home for 2 weeks would take her to 43 weeks, with rising stillbirth risk. There is no indication for caesarean.",
+          "whyWrong": [
+            "ARM is not possible through a closed cervix and risks cord prolapse with a high head.",
+            "",
+            "Oxytocin on an unfavourable cervix often fails.",
+            "An unfavourable cervix is not an indication for caesarean.",
+            "Delaying to 43 weeks increases stillbirth risk."
+          ],
+          "tags": [
+            "induction",
+            "bishop score",
+            "post-dates"
+          ]
+        },
+        {
+          "id": "labour-postpartum--induction-and-operative-birth--q2",
+          "discipline": "womens-health",
+          "topic": "labour-postpartum",
+          "difficulty": "core",
+          "stem": "A 29-year-old woman, G1P0, has been fully dilated for 2.5 hours with an epidural and has been actively pushing for 1.5 hours. The CTG shows early decelerations. On abdominal palpation, one-fifth of the head is palpable. Vaginal examination: fully dilated, membranes ruptured, vertex at station +1 in a direct occipito-anterior position with minimal caput. Her bladder was emptied 20 minutes ago. She is exhausted.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Category 1 caesarean section",
+            "Allow a further 3 hours of pushing",
+            "Fetal scalp blood sampling",
+            "Oxytocin infusion and review in 4 hours",
+            "Assisted vaginal birth with vacuum or forceps"
+          ],
+          "answer": 4,
+          "explanation": "She has **delay in the second stage** with maternal exhaustion. All the prerequisites for **instrumental birth** are met: **fully dilated**, **membranes ruptured**, **position known** (occipito-anterior), head **engaged** (one-fifth palpable, station +1), **empty bladder**, effective **analgesia** (epidural). She should give consent and an experienced operator should perform it.\n\nVacuum causes less perineal trauma; forceps are more likely to succeed. A mediolateral episiotomy is usually recommended with forceps.\n\nA caesarean with the head this low carries more morbidity (impacted head, extensions) and is not indicated when instrumental birth is feasible. Early decelerations are benign and do not require scalp sampling.",
+          "whyWrong": [
+            "No immediate threat to life; the head is low and instrumental birth is feasible.",
+            "Prolonged pushing with exhaustion increases maternal and fetal morbidity.",
+            "Early decelerations reflect head compression and do not need scalp sampling.",
+            "A 4-hour wait is excessive in the second stage with exhaustion.",
+            ""
+          ],
+          "tags": [
+            "instrumental birth",
+            "second stage",
+            "delay"
+          ]
+        },
+        {
+          "id": "labour-postpartum--induction-and-operative-birth--q3",
+          "discipline": "womens-health",
+          "topic": "labour-postpartum",
+          "difficulty": "exam",
+          "stem": "A 35-year-old woman, G4P3, is in spontaneous labour at 39 weeks. Her previous births were uncomplicated vaginal births of 3.4-3.6 kg babies. The cervix has remained at 7 cm for 4 hours despite regular strong contractions. There is marked caput and moulding, the head is 3/5 palpable, and she has haematuria on catheterisation. Pulse 108 bpm, temperature 37.8 °C.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Caesarean section",
+            "Start oxytocin augmentation",
+            "Artificial rupture of membranes",
+            "Epidural analgesia and review in 4 hours",
+            "Vacuum-assisted birth"
+          ],
+          "answer": 0,
+          "explanation": "Secondary arrest of dilatation **despite strong contractions** in a **multiparous** woman, with **marked caput and moulding**, a **high head (3/5 palpable)**, **haematuria** and maternal tachycardia and fever, indicates **obstructed labour**. Possible causes include malposition, a larger baby this time, or a brow presentation.\n\nThe answer is **caesarean section**. **Oxytocin is dangerous** in obstructed labour, especially in a multiparous woman, because the uterus may **rupture**. Instrumental birth requires full dilatation and an engaged head. Waiting prolongs obstruction and risks rupture, fistula and sepsis.\n\n**Rule:** in a multiparous woman, slow progress with strong contractions is obstruction until proven otherwise.",
+          "whyWrong": [
+            "",
+            "Oxytocin in obstructed labour risks uterine rupture, particularly in multiparas.",
+            "ARM does not overcome mechanical obstruction.",
+            "Delay risks rupture, fistula and sepsis.",
+            "Instrumental birth needs full dilatation and an engaged head."
+          ],
+          "tags": [
+            "obstructed labour",
+            "multiparous",
+            "caesarean"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "labour-postpartum--preterm-labour-prom-malpresentation",
+      "title": "Preterm labour, ruptured membranes and breech",
+      "minutes": 17,
+      "objectives": [
+        "Assess threatened preterm labour and use fetal fibronectin and cervical length appropriately",
+        "Give corticosteroids, tocolysis, magnesium neuroprotection and GBS prophylaxis correctly",
+        "Diagnose and manage prelabour rupture of membranes at term and preterm",
+        "Offer external cephalic version and counsel on mode of birth for breech"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why preterm birth matters",
+          "body": "**Preterm birth** is birth before **37 weeks**. It occurs in about 8-9% of births in Australia and is higher among Aboriginal and Torres Strait Islander women. It is the leading cause of neonatal death and long-term disability (cerebral palsy, chronic lung disease, developmental problems). Risk falls steeply with each additional week in utero, so buying time for steroids and transfer is valuable.\n\n**Risk factors**: **previous spontaneous preterm birth** (the strongest), **short cervix** on ultrasound, cervical surgery (LLETZ, cone biopsy), multiple pregnancy, uterine anomalies, APH, infection (including chorioamnionitis and possibly bacterial vaginosis and UTI), polyhydramnios, smoking, young maternal age and socioeconomic disadvantage.\n\n**Prevention**: women with a **short cervix** in the second trimester are offered **vaginal progesterone**; selected women with a history of preterm birth or cervical insufficiency receive a **cervical cerclage**. Smoking cessation helps. The Australian Preterm Birth Prevention Alliance promotes these measures."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Threatened preterm labour: assessment",
+          "body": "Symptoms: regular tightenings, period-like pain, backache, pelvic pressure, show or increased discharge, or ruptured membranes. Many women with symptoms do not deliver soon; the challenge is to identify who will.\n\n**Assessment**:\n\n- History, observations (temperature and pulse for infection), abdominal palpation, CTG.\n- **Sterile speculum examination**: cervical dilatation, bleeding, pooling of liquor, and swabs (high vaginal for GBS and infection).\n- **Fetal fibronectin (fFN)**: a glycoprotein that \"glues\" the membranes to the decidua. A **negative test** has a very high negative predictive value: the woman is very unlikely to deliver within the next 7-14 days, which avoids unnecessary admission, transfer and steroids. Take the swab **before** a digital examination, and note that intercourse, bleeding and lubricant affect it.\n- **Transvaginal cervical length**: a long cervix (for example 30 mm or more) is reassuring.\n- Urine culture, and look for a cause (abruption, infection, polyhydramnios).\n\nAvoid digital vaginal examination if membranes may have ruptured, because it introduces infection."
+        },
+        {
+          "kind": "management",
+          "heading": "Managing preterm labour",
+          "body": "If preterm labour is likely:\n\n- **Corticosteroids**: **betamethasone** two doses 24 hours apart, for women at risk of birth within 7 days between about **24 and 34+6 weeks** (and from about 22-23 weeks in selected cases after counselling). They reduce neonatal death, respiratory distress syndrome, intraventricular haemorrhage and necrotising enterocolitis. Maximum benefit is from 24 hours to 7 days after the first dose.\n- **Tocolysis**: to delay birth by about **48 hours** to complete steroids and allow **in-utero transfer** to a hospital with an appropriate neonatal unit. **Nifedipine** is commonly used in Australia; alternatives include atosiban and, before 32 weeks, indomethacin. Tocolysis does not improve neonatal outcome by itself. **Contraindications**: chorioamnionitis, significant APH or abruption, fetal compromise, lethal anomaly, and advanced labour. Nifedipine causes hypotension and headache.\n- **Magnesium sulfate for fetal neuroprotection** when birth is imminent before **30 weeks** (Australian guideline), reducing cerebral palsy.\n- **GBS prophylaxis**: **IV benzylpenicillin** in preterm labour, since GBS status is often unknown.\n- **In-utero transfer** to a tertiary centre is safer than transferring a preterm newborn.\n\nAfter 34+6 weeks, steroids are not routinely given (they may be considered before a planned caesarean before 39 weeks in some units), and tocolysis is not used."
+        },
+        {
+          "kind": "management",
+          "heading": "Prelabour rupture of membranes",
+          "body": "**Diagnosis**: history of a gush or continuous trickle, then **sterile speculum examination** showing **pooling** of fluid in the posterior fornix (ask her to cough). If unclear, a bedside test for amniotic fluid proteins (e.g. PAMG-1) helps. Ultrasound may show reduced liquor. **No digital examination** in preterm ROM unless she is in labour.\n\n**Term PROM (37 weeks or more)**: about 60% labour within 24 hours. Offer **induction** or **expectant management for up to about 24 hours**. Induce promptly if **GBS positive** (with IV antibiotics), if there is meconium, any sign of infection, or if she prefers. Monitor temperature and fetal movements, and avoid intercourse and baths.\n\n**Preterm prelabour rupture of membranes (PPROM)** before 37 weeks:\n\n- Admit. Look for chorioamnionitis (maternal fever and tachycardia, fetal tachycardia, uterine tenderness, offensive liquor, rising CRP or WCC).\n- **Erythromycin** for up to 10 days, which prolongs pregnancy and reduces neonatal morbidity. **Amoxicillin-clavulanate is avoided** because it was associated with necrotising enterocolitis in the ORACLE trial.\n- **Corticosteroids** if before 34+6 weeks, **magnesium** if birth is imminent before 30 weeks.\n- In the absence of infection or other problems, expectant management until about **37 weeks** is reasonable (the Australian-led PPROMT trial supported this).\n- **Deliver** if chorioamnionitis, abruption or fetal compromise develops, with IV broad-spectrum antibiotics.\n- Before viability, PPROM carries risks of pulmonary hypoplasia and limb contractures; counselling is complex."
+        },
+        {
+          "kind": "management",
+          "heading": "Breech and other malpresentations",
+          "body": "**Breech** occurs in about 3-4% of term pregnancies (much more common preterm). Types: frank (extended legs), complete (flexed), footling. Associations: prematurity, uterine anomalies, fibroids, placenta praevia, polyhydramnios, fetal anomalies. Always check with ultrasound for placental site and anomalies.\n\n**External cephalic version (ECV)**: offered from about **36-37 weeks**; successful in about half. It reduces caesarean rates. Performed in hospital with a CTG before and after, often with tocolysis. **Contraindications**: APH, placenta praevia, abnormal CTG, ruptured membranes, multiple pregnancy (except for the second twin after the first birth), major uterine anomaly, and another indication for caesarean. A previous caesarean is a relative contraindication. **Anti-D** for Rh D-negative women.\n\nIf ECV fails or is declined: **planned caesarean section** reduces perinatal morbidity compared with planned vaginal breech birth (Term Breech Trial), and is the most common choice. **Planned vaginal breech birth** is an option for selected women in units with experienced clinicians.\n\n**Transverse or unstable lie** near term: risk of cord prolapse and arm prolapse when membranes rupture; admission may be advised from about 37 weeks, with ECV, stabilising induction or caesarean.\n\n**Face presentation**: mentoanterior can deliver vaginally; mentoposterior cannot. **Brow**: the largest diameter (mentovertical), usually needs caesarean."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Traps and discriminating clues",
+          "body": "- Symptoms at 30 weeks with a **negative fFN**: low risk of birth within 7-14 days; avoid unnecessary steroids and transfer.\n- Steroid window: up to **34+6 weeks**.\n- Magnesium neuroprotection: imminent birth **before 30 weeks**.\n- PPROM antibiotic: **erythromycin**, not amoxicillin-clavulanate.\n- Suspected ruptured membranes: **sterile speculum**, not digital examination.\n- Tocolysis is wrong with chorioamnionitis or abruption.\n- Breech at 37 weeks with no contraindications: offer **ECV**."
+        }
+      ],
+      "keyPoints": [
+        "Preterm birth is before 37 weeks; the strongest risk factor is previous spontaneous preterm birth.",
+        "A negative fetal fibronectin makes birth within 7-14 days very unlikely.",
+        "Betamethasone two doses 24 hours apart from about 24 to 34+6 weeks.",
+        "Tocolysis (nifedipine) buys about 48 hours for steroids and in-utero transfer; contraindicated with infection or abruption.",
+        "Magnesium for fetal neuroprotection if birth is imminent before 30 weeks; IV benzylpenicillin for GBS.",
+        "PPROM: erythromycin, steroids, watch for chorioamnionitis, deliver around 37 weeks if well.",
+        "Breech at term: offer ECV from about 36-37 weeks; if it fails, planned caesarean is the usual choice."
+      ],
+      "redFlags": [
+        "Maternal fever, tachycardia, uterine tenderness or fetal tachycardia after ruptured membranes",
+        "Bleeding with preterm contractions (abruption)",
+        "Cord or limb visible or felt after membrane rupture with malpresentation",
+        "Preterm labour in a hospital without a suitable neonatal unit (arrange in-utero transfer)"
+      ],
+      "contrast": [
+        {
+          "aspect": "PPROM antibiotics",
+          "india": "Ampicillin and amoxicillin-clavulanate combinations are commonly used.",
+          "australia": "Erythromycin for up to 10 days; amoxicillin-clavulanate avoided because of NEC risk."
+        },
+        {
+          "aspect": "Magnesium for neuroprotection",
+          "india": "Used variably, often only for eclampsia.",
+          "australia": "Recommended when birth is imminent before 30 weeks (Australian national guideline)."
+        },
+        {
+          "aspect": "Breech at term",
+          "india": "Vaginal breech birth is still performed in many centres, and ECV is less often offered.",
+          "australia": "ECV offered routinely; planned caesarean if ECV fails, vaginal breech only in selected units."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Gestational window for antenatal corticosteroids?",
+          "back": "About 24 to 34+6 weeks (selected cases from 22-23 weeks)."
+        },
+        {
+          "front": "Commonly used tocolytic in Australia?",
+          "back": "Nifedipine."
+        },
+        {
+          "front": "Gestation below which magnesium is given for fetal neuroprotection?",
+          "back": "30 weeks (when birth is imminent)."
+        },
+        {
+          "front": "Antibiotic for PPROM?",
+          "back": "Erythromycin for up to 10 days."
+        },
+        {
+          "front": "Clinical value of a negative fetal fibronectin?",
+          "back": "High negative predictive value: birth within 7-14 days is very unlikely."
+        },
+        {
+          "front": "When is ECV offered for breech?",
+          "back": "From about 36-37 weeks."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "labour-postpartum--preterm-labour-prom-malpresentation--q1",
+          "discipline": "womens-health",
+          "topic": "labour-postpartum",
+          "difficulty": "core",
+          "stem": "A 26-year-old woman at 29+2 weeks' gestation presents to a regional hospital with regular painful contractions every 5 minutes. Speculum examination shows intact membranes and a cervix dilated 3 cm. She is afebrile and the CTG is normal. The regional hospital has a special care nursery that accepts babies from 32 weeks.\n\nIn addition to arranging in-utero transfer, which combination is most appropriate?",
+          "options": [
+            "Betamethasone only",
+            "Nifedipine and erythromycin",
+            "Magnesium sulfate for 24 hours, then discharge",
+            "Betamethasone, nifedipine, magnesium sulfate if birth is imminent, and IV benzylpenicillin",
+            "Amoxicillin-clavulanate and betamethasone"
+          ],
+          "answer": 3,
+          "explanation": "She is in **established preterm labour at 29 weeks** (regular contractions with cervical change). Management:\n\n- **Betamethasone** to reduce neonatal respiratory distress, intraventricular haemorrhage and death.\n- **Tocolysis with nifedipine** to delay birth about 48 hours for steroids and **in-utero transfer** to a hospital with a NICU, since the local nursery only takes babies from 32 weeks.\n- **Magnesium sulfate** for **fetal neuroprotection** if birth is imminent before 30 weeks.\n- **IV benzylpenicillin** for GBS prophylaxis, as her status is unknown.\n\nErythromycin is for PPROM, which she does not have. Amoxicillin-clavulanate is associated with NEC.",
+          "whyWrong": [
+            "Incomplete: she also needs tocolysis for transfer, neuroprotection and GBS prophylaxis.",
+            "Erythromycin is for ruptured membranes; her membranes are intact, and steroids are missing.",
+            "Magnesium alone omits steroids, and discharge is unsafe in established labour.",
+            "",
+            "Amoxicillin-clavulanate is associated with NEC and is not indicated."
+          ],
+          "tags": [
+            "preterm labour",
+            "steroids",
+            "tocolysis"
+          ]
+        },
+        {
+          "id": "labour-postpartum--preterm-labour-prom-malpresentation--q2",
+          "discipline": "womens-health",
+          "topic": "labour-postpartum",
+          "difficulty": "core",
+          "stem": "A 31-year-old woman at 32 weeks' gestation reports a gush of clear fluid from the vagina 3 hours ago, with continued dampness. She has no contractions. Temperature 36.8 °C, pulse 80 bpm. CTG is normal. Sterile speculum examination shows a pool of clear fluid in the posterior vaginal fornix.\n\nWhich is the most appropriate management?",
+          "options": [
+            "Digital vaginal examination to assess the cervix",
+            "Immediate induction of labour",
+            "Admission, betamethasone and oral erythromycin",
+            "Amoxicillin-clavulanate and discharge home",
+            "Tocolysis with nifedipine for 7 days"
+          ],
+          "answer": 2,
+          "explanation": "Pooling of fluid on sterile speculum at 32 weeks confirms **preterm prelabour rupture of membranes (PPROM)**. She has no signs of infection or labour.\n\nManagement: **admit**, give **betamethasone** (she is under 34+6 weeks), and start **erythromycin** for up to 10 days, which prolongs the latency period and reduces neonatal morbidity. Monitor closely for **chorioamnionitis**. Without complications, expectant management to about 37 weeks is reasonable.\n\nAvoid **digital examination**, which increases infection risk. **Amoxicillin-clavulanate** is avoided (NEC). Tocolysis is not recommended in PPROM without labour, and prolonged tocolysis has no benefit. Immediate induction at 32 weeks without infection increases prematurity complications.",
+          "whyWrong": [
+            "Digital examination increases the risk of ascending infection.",
+            "Birth at 32 weeks without infection or other indication adds prematurity risks.",
+            "",
+            "Amoxicillin-clavulanate is linked with NEC, and she needs admission.",
+            "Tocolysis is not indicated without labour, and 7-day tocolysis has no benefit."
+          ],
+          "tags": [
+            "pprom",
+            "erythromycin",
+            "preterm"
+          ]
+        },
+        {
+          "id": "labour-postpartum--preterm-labour-prom-malpresentation--q3",
+          "discipline": "womens-health",
+          "topic": "labour-postpartum",
+          "difficulty": "foundation",
+          "stem": "A 29-year-old woman, G1P0, at 37 weeks' gestation has a breech presentation confirmed on ultrasound. The placenta is fundal, liquor volume is normal and the fetus is appropriately grown with no anomalies. She is Rh D negative. She would prefer a vaginal birth if possible.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Book a caesarean section at 39 weeks without further discussion",
+            "Offer external cephalic version with anti-D afterwards",
+            "Induction of labour now",
+            "Reassess at 40 weeks as the baby may turn",
+            "Advise planned vaginal breech birth as first choice"
+          ],
+          "answer": 1,
+          "explanation": "A breech presentation at 37 weeks in an uncomplicated pregnancy should be offered **external cephalic version (ECV)**. It succeeds in about half of cases and reduces the chance of caesarean section. She has no contraindications (no APH, placenta not praevia, normal liquor, normal CTG expected, singleton).\n\nAs she is **Rh D negative**, ECV is a sensitising event, so she needs **anti-D** with a Kleihauer test.\n\nIf ECV fails or she declines, options are a **planned caesarean at 39 weeks**, which lowers perinatal morbidity, or a planned vaginal breech birth in a unit with experienced clinicians after counselling. Spontaneous version becomes unlikely at term, so waiting is not useful.",
+          "whyWrong": [
+            "Caesarean without offering ECV denies her the chance of a cephalic vaginal birth.",
+            "",
+            "Inducing a breech is not the first step when ECV has not been tried.",
+            "Spontaneous version at term is uncommon; delay loses the ECV window.",
+            "Vaginal breech is for selected women after ECV is declined or fails, in experienced units."
+          ],
+          "tags": [
+            "breech",
+            "ecv",
+            "anti-d"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "labour-postpartum--intrapartum-fetal-surveillance",
+      "title": "Intrapartum fetal surveillance and CTG",
+      "minutes": 17,
+      "objectives": [
+        "Choose between intermittent auscultation and continuous CTG",
+        "Read a CTG systematically: baseline, variability, accelerations and decelerations",
+        "Explain the physiology behind early, variable and late decelerations",
+        "Respond to an abnormal CTG with conservative measures, scalp sampling or expedited birth"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The guideline and its purpose",
+          "body": "Fetal surveillance in labour aims to identify a fetus developing **hypoxia** in time to act, while avoiding unnecessary intervention in the many fetuses who are coping. The Australian reference is the **RANZCOG Intrapartum Fetal Surveillance (IFS) Clinical Guideline**, and most clinicians complete the RANZCOG **FSEP** education program.\n\n**Intermittent auscultation** is appropriate for low-risk women in spontaneous labour. **Continuous CTG** is recommended when there are risk factors, for example:\n\n- **Maternal**: previous caesarean, pre-eclampsia or hypertension, diabetes on medication, APH, prolonged rupture of membranes, **maternal fever** or suspected infection, significant medical disease.\n- **Fetal**: growth restriction, preterm labour, multiple pregnancy, breech, reduced fetal movements, oligohydramnios, abnormal Dopplers.\n- **Intrapartum**: **oxytocin** use, **epidural**, significant meconium, abnormal auscultation, prolonged labour, vaginal bleeding.\n\nCTG in low-risk women increases caesarean and instrumental birth without improving outcomes other than a small reduction in neonatal seizures."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Reading the CTG: the features",
+          "body": "A systematic approach (many use **DR C BRAVADO**: Define Risk, Contractions, Baseline RAte, Variability, Accelerations, Decelerations, Overall) keeps you from missing features. RANZCOG defines:\n\n| Feature | Normal | Abnormal |\n|---|---|---|\n| **Baseline rate** | **110-160 bpm** | Tachycardia above 160; bradycardia below 110 (below 100 is more concerning) |\n| **Variability** | **6-25 bpm** | Reduced (3-5), absent (less than 3), increased (more than 25) |\n| **Accelerations** | Present (rises of 15 bpm for 15 s) are reassuring | Absence in labour on its own is of uncertain significance |\n| **Decelerations** | None or early | Variable, late, prolonged |\n| **Contractions** | Up to about 5 in 10 minutes | Tachysystole: more than 5 in 10 minutes |\n\n**Causes of baseline tachycardia**: maternal fever and **chorioamnionitis**, fetal hypoxia (a rising baseline is a sign of a stressed fetus), maternal tachycardia, dehydration, drugs (terbutaline), fetal anaemia, prematurity.\n\n**Reduced variability**: fetal sleep (usually under 40 minutes), opioids, magnesium, prematurity, or **hypoxia**. Variability reflects an intact, well-oxygenated autonomic nervous system; losing it is a key warning sign.\n\n**Sinusoidal pattern**: smooth regular sine wave with absent variability, associated with severe **fetal anaemia** (feto-maternal haemorrhage, vasa praevia, alloimmunisation) or severe hypoxia."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "The physiology of decelerations",
+          "body": "- **Early decelerations**: gradual, symmetrical, mirror the contraction (nadir at the peak). Caused by **head compression** triggering a vagal reflex. **Benign.** Common in late first and second stage.\n- **Variable decelerations**: abrupt drop and recovery, varying in shape, size and timing. Caused by **cord compression**. Often with \"shoulders\" (brief accelerations before and after). Concerning features (\"complicated variables\") include long duration (over 60 seconds), deep drops, slow recovery, loss of variability within the deceleration, and a rising baseline.\n- **Late decelerations**: gradual, start after the contraction begins, nadir after the peak, and recover after the contraction has ended. Caused by **uteroplacental insufficiency**: during each contraction, placental blood flow falls, the fetus becomes hypoxic, and chemoreceptors trigger the response. **Recurrent late decelerations are concerning**, especially with reduced variability or tachycardia.\n- **Prolonged deceleration**: a sustained fall lasting minutes. Causes include cord prolapse, abruption, uterine rupture, tachysystole, maternal hypotension (after an epidural top-up or supine position) and rapid descent. A prolonged deceleration of around 3 minutes or more that is not recovering needs immediate action and preparation for urgent birth.\n\n**Big picture**: a fetus compensating for hypoxia first shows decelerations, then a **rising baseline** and loss of accelerations, then **reduced variability**. Tachycardia with reduced variability and recurrent decelerations is a very worrying combination."
+        },
+        {
+          "kind": "management",
+          "heading": "Responding to an abnormal CTG",
+          "body": "**1. Look for and reverse the cause** (intrauterine resuscitation):\n\n- **Change maternal position** to the left or right lateral (relieves aortocaval and cord compression).\n- **Stop or reduce oxytocin**; consider **tocolysis** (e.g. terbutaline) for tachysystole.\n- **IV fluids** and treat hypotension (e.g. after epidural).\n- **Check the maternal pulse** to be sure the CTG is not recording the mother's heart rate.\n- **Vaginal examination** to exclude cord prolapse and assess progress.\n- Treat maternal fever (paracetamol) and consider infection.\n\n**2. If the abnormality persists but birth is not immediately needed**, **fetal scalp blood sampling** (FBS) can clarify fetal acid-base status:\n\n| Test | Normal | Borderline | Abnormal |\n|---|---|---|---|\n| Scalp lactate (mmol/L) | Below 4.2 | 4.2-4.8 | Above 4.8 |\n| Scalp pH | 7.25 or more | 7.20-7.24 | Below 7.20 |\n\nAn abnormal result means **expedite birth**. Borderline results need repeat sampling or reassessment. FBS is **contraindicated** with maternal blood-borne virus infection (HIV, hepatitis B or C), fetal bleeding disorders, prematurity (under about 34 weeks) and face presentation, and it is not used when the CTG is clearly pre-terminal.\n\n**3. Expedite birth** by the fastest safe route (instrumental if fully dilated and suitable, otherwise caesarean, category 1 or 2) when the CTG suggests likely hypoxia and conservative measures fail, or with a prolonged unrecovering bradycardia.\n\n**After birth**: take **paired cord blood gases** (arterial and venous) when there were CTG concerns, an operative birth for fetal compromise or a low Apgar score. Arterial pH and base excess or lactate document the fetal condition at birth. Document the CTG review and decisions carefully."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Traps and discriminating clues",
+          "body": "- Early decelerations in the second stage: **normal**; continue.\n- Variable decelerations with normal baseline and variability: **cord compression**, change position; not an emergency by itself.\n- Recurrent late decelerations with reduced variability: likely hypoxia; if not fully dilated, prepare for **caesarean** or FBS if time allows.\n- Baseline 170 bpm with a maternal temperature of 38.5 °C: think **chorioamnionitis**.\n- Sudden prolonged bradycardia after epidural top-up: **maternal hypotension**; left lateral, fluids, vasopressor.\n- Sinusoidal trace: **fetal anaemia** (vasa praevia, feto-maternal haemorrhage).\n- FBS in an HIV-positive or hepatitis B-positive woman is contraindicated."
+        }
+      ],
+      "keyPoints": [
+        "Low-risk labour: intermittent auscultation; risk factors, oxytocin, epidural or fever: continuous CTG.",
+        "Normal CTG: baseline 110-160 bpm, variability 6-25 bpm, accelerations, no decelerations other than early.",
+        "Early decelerations mean head compression (benign); variable mean cord compression; late mean uteroplacental insufficiency.",
+        "Reduced variability, rising baseline and recurrent late decelerations together suggest hypoxia.",
+        "First respond with position change, stopping oxytocin, fluids and checking the maternal pulse.",
+        "Scalp lactate above 4.8 mmol/L or pH below 7.20 means expedite birth.",
+        "Take paired cord gases after a concerning labour or a low Apgar."
+      ],
+      "redFlags": [
+        "Prolonged deceleration or bradycardia that does not recover",
+        "Recurrent late decelerations with reduced or absent variability",
+        "Sinusoidal pattern",
+        "Rising baseline with maternal fever"
+      ],
+      "contrast": [
+        {
+          "aspect": "CTG education and classification",
+          "india": "Classification systems vary between institutions; NICE or FIGO categories are often taught.",
+          "australia": "RANZCOG IFS guideline and the FSEP education program are standard across Australian units."
+        },
+        {
+          "aspect": "Scalp sampling",
+          "india": "Fetal scalp blood sampling is rarely available.",
+          "australia": "Scalp lactate (and pH) are used in many Australian units to clarify an abnormal CTG."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Normal fetal heart baseline rate?",
+          "back": "110-160 bpm."
+        },
+        {
+          "front": "Normal baseline variability?",
+          "back": "6-25 bpm."
+        },
+        {
+          "front": "Mechanism of late decelerations?",
+          "back": "Uteroplacental insufficiency causing fetal hypoxia during contractions."
+        },
+        {
+          "front": "Mechanism of early decelerations?",
+          "back": "Head compression (vagal reflex); benign."
+        },
+        {
+          "front": "Scalp lactate that indicates expediting birth?",
+          "back": "Above 4.8 mmol/L."
+        },
+        {
+          "front": "Sinusoidal CTG suggests what?",
+          "back": "Severe fetal anaemia (or severe hypoxia)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "labour-postpartum--intrapartum-fetal-surveillance--q1",
+          "discipline": "womens-health",
+          "topic": "labour-postpartum",
+          "difficulty": "core",
+          "stem": "A 28-year-old primigravida is in labour at 40 weeks on an oxytocin infusion for slow progress. The cervix is 6 cm. The CTG over the last 40 minutes shows a baseline of 165 bpm, variability of 3-4 bpm, and decelerations that begin after the peak of each contraction and return to baseline 30 seconds after the contraction ends. Contractions are 6 in 10 minutes. Maternal temperature is 37.2 °C.\n\nWhat is the most appropriate immediate action?",
+          "options": [
+            "Stop the oxytocin, reposition the woman to her side and give IV fluids",
+            "Increase the oxytocin to speed up labour",
+            "Continue and reassess in 2 hours",
+            "Perform artificial rupture of membranes",
+            "Give an epidural to relax the uterus"
+          ],
+          "answer": 0,
+          "explanation": "The CTG shows **recurrent late decelerations**, **reduced variability** and a **rising baseline**, in the setting of **tachysystole** (6 contractions in 10 minutes) from oxytocin. Excessive contractions reduce placental perfusion, causing hypoxia.\n\nThe immediate response is **intrauterine resuscitation**: **stop the oxytocin**, move her to the **lateral position**, give **IV fluids**, check the maternal pulse, and consider **tocolysis** (terbutaline) if tachysystole persists. Call for senior review.\n\nIf the CTG does not improve quickly, she needs **fetal scalp sampling** if appropriate, or **expedited birth**, which at 6 cm means caesarean section.\n\nIncreasing oxytocin would worsen hypoxia.",
+          "whyWrong": [
+            "",
+            "More oxytocin worsens tachysystole and hypoxia.",
+            "These features suggest possible hypoxia and need action now.",
+            "ARM does not treat tachysystole or late decelerations.",
+            "An epidural does not correct tachysystole and may cause hypotension."
+          ],
+          "tags": [
+            "ctg",
+            "late decelerations",
+            "tachysystole"
+          ]
+        },
+        {
+          "id": "labour-postpartum--intrapartum-fetal-surveillance--q2",
+          "discipline": "womens-health",
+          "topic": "labour-postpartum",
+          "difficulty": "foundation",
+          "stem": "A 30-year-old woman, G2P1, is in the second stage of labour with continuous CTG because of an epidural. The baseline is 135 bpm with variability of 10 bpm. With each contraction there is a gradual, symmetrical fall in heart rate of about 20 bpm that reaches its lowest point at the peak of the contraction and recovers as the contraction ends.\n\nWhat is the most likely cause of these decelerations?",
+          "options": [
+            "Uteroplacental insufficiency",
+            "Umbilical cord compression",
+            "Fetal anaemia",
+            "Maternal hypotension",
+            "Fetal head compression"
+          ],
+          "answer": 4,
+          "explanation": "Gradual, symmetrical decelerations that **mirror the contraction** (lowest point at the peak, recovery as it ends) are **early decelerations**. They result from **fetal head compression** during contractions, which increases intracranial pressure and triggers a vagal reflex.\n\nThey are **benign**, particularly in the late first and second stage, and do not need intervention when baseline and variability are normal, as here.\n\nLate decelerations (uteroplacental insufficiency) start and recover after the contraction. Variable decelerations (cord compression) are abrupt and variable in shape and timing. Fetal anaemia gives a sinusoidal pattern. Maternal hypotension usually causes a prolonged deceleration.",
+          "whyWrong": [
+            "Uteroplacental insufficiency causes late decelerations, which lag behind the contraction.",
+            "Cord compression causes abrupt variable decelerations.",
+            "Fetal anaemia typically produces a sinusoidal trace.",
+            "Maternal hypotension causes a prolonged deceleration, not a repeating mirror pattern.",
+            ""
+          ],
+          "tags": [
+            "ctg",
+            "early decelerations",
+            "second stage"
+          ]
+        },
+        {
+          "id": "labour-postpartum--intrapartum-fetal-surveillance--q3",
+          "discipline": "womens-health",
+          "topic": "labour-postpartum",
+          "difficulty": "exam",
+          "stem": "A 33-year-old woman at 39 weeks is in labour, 7 cm dilated. The CTG has shown a baseline of 150 bpm with reduced variability and recurrent variable decelerations lasting 60-70 seconds for 30 minutes. Position change and stopping oxytocin have not improved the trace. Her booking bloods showed she is hepatitis B surface antigen positive. The obstetric registrar is considering fetal scalp blood sampling.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Fetal scalp lactate sampling",
+            "Fetal scalp electrode and continue observation for 2 hours",
+            "Proceed to caesarean section",
+            "Vacuum-assisted birth",
+            "Give terbutaline and continue labour"
+          ],
+          "answer": 2,
+          "explanation": "The CTG shows **complicated variable decelerations** (long, recurrent) with **reduced variability**, persisting despite intrauterine resuscitation. This raises concern for fetal hypoxia.\n\nFetal scalp blood sampling would normally be an option to clarify fetal acid-base status when birth is not immediately required. However, it is **contraindicated in women with blood-borne viruses** (hepatitis B, hepatitis C, HIV) because it breaches the fetal skin and increases the risk of vertical transmission. A scalp electrode carries the same concern.\n\nWith an abnormal, non-improving CTG and no way to clarify, the next step is to **expedite birth**. At 7 cm, that means **caesarean section**. Instrumental birth requires full dilatation.",
+          "whyWrong": [
+            "Scalp sampling is contraindicated in maternal hepatitis B.",
+            "Scalp electrodes are also avoided with blood-borne viruses, and observation is unsafe.",
+            "",
+            "Instrumental birth requires full dilatation; she is 7 cm.",
+            "Tocolysis is for tachysystole; oxytocin has already been stopped and the trace remains abnormal."
+          ],
+          "ausPearl": "The RANZCOG IFS guideline lists maternal blood-borne viral infection as a contraindication to fetal blood sampling.",
+          "tags": [
+            "ctg",
+            "fetal blood sampling",
+            "hepatitis b"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "labour-postpartum--perineal-trauma-and-puerperium",
+      "title": "Perineal trauma and the puerperium",
+      "minutes": 16,
+      "objectives": [
+        "Classify perineal tears and describe the management of anal sphincter injuries",
+        "Describe normal postpartum physiology: involution, lochia and recovery",
+        "Work through fever and other complications in the postpartum period",
+        "Conduct a thorough six-week postnatal check"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why the perineum matters",
+          "body": "Most women who have a vaginal birth sustain some perineal trauma. **Obstetric anal sphincter injuries (OASIS)**, third and fourth degree tears, occur in about 3-5% of first vaginal births in Australia and are a major cause of **anal incontinence** in women. Rates are higher in women of **South Asian** background, which is relevant for Indian students to know. Australian maternity services have adopted a national **perineal protection bundle** to reduce OASIS.\n\nThe **puerperium** is the 6 weeks after birth, when the body returns to its non-pregnant state. It carries risks of haemorrhage, infection, VTE, pre-eclampsia and mental illness."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Classification of perineal tears",
+          "body": "| Degree | Structures involved |\n|---|---|\n| First | Perineal skin and/or vaginal mucosa only |\n| Second | Perineal muscles (not the anal sphincter) |\n| **Third 3a** | Less than 50% of the **external anal sphincter (EAS)** thickness |\n| **Third 3b** | More than 50% of the EAS |\n| **Third 3c** | EAS and **internal anal sphincter (IAS)** |\n| **Fourth** | Sphincter complex and the **anal or rectal mucosa** |\n\n**Risk factors for OASIS**: first vaginal birth, **forceps** (more than vacuum), birthweight over 4 kg, persistent **occipito-posterior** position, prolonged second stage, shoulder dystocia, midline episiotomy, and Asian ethnicity.\n\n**Prevention**: warm perineal compresses in the second stage, slow controlled birth of the head with hands-on perineal support, and a **mediolateral episiotomy** (angled about 60 degrees from the midline at crowning) for instrumental births, especially forceps.\n\n**Every woman should have a rectal examination** after a vaginal birth with perineal trauma, and again after repair, to detect sphincter injury and exclude sutures through the rectal mucosa."
+        },
+        {
+          "kind": "management",
+          "heading": "Repair and follow-up of OASIS",
+          "body": "- **Repair in theatre** by an experienced clinician, under regional or general anaesthesia with good light, using recognised techniques (overlapping or end-to-end repair of the EAS, separate repair of the IAS).\n- **Broad-spectrum IV antibiotics** at repair (and often a short oral course) to reduce infection and wound breakdown.\n- **Laxatives** (stool softeners) for about 10 days to avoid straining and hard stools; avoid constipating codeine.\n- Analgesia: paracetamol and NSAIDs; ice packs.\n- **Pelvic floor physiotherapy** before discharge.\n- **Review at about 6-12 weeks** in a perineal clinic: ask about **faecal urgency and incontinence of flatus or stool**, dyspareunia and wound healing. Refer for endoanal ultrasound and anorectal manometry if symptomatic.\n- **Future births**: women without ongoing symptoms and with normal testing can usually plan a vaginal birth; women with persistent symptoms or abnormal studies should be offered a caesarean section.\n\nA missed or poorly repaired sphincter injury can lead to lifelong incontinence and **rectovaginal fistula**.\n\n**Perineal haematoma** presents with severe perineal pain and a tense swelling, sometimes with shock; it may need drainage in theatre.\n\n**Postpartum urinary retention** is common after epidural and instrumental birth. Women should void within about 6 hours of birth (or catheter removal); measure volumes and catheterise if retaining, to prevent long-term bladder damage."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Normal puerperal physiology",
+          "body": "- **Uterus**: at the umbilicus after birth, shrinking by about a finger's breadth a day, and no longer palpable abdominally by about 10-14 days. \"After pains\" occur with breastfeeding (oxytocin).\n- **Lochia**: red (rubra) for the first few days, then pink-brown (serosa), then yellow-white (alba), lasting up to about 4-6 weeks. Heavy fresh bleeding, clots or an offensive smell are abnormal.\n- **Cardiovascular**: blood volume and cardiac output return to normal over weeks; **VTE risk is highest in the first 6 weeks**, especially after caesarean section.\n- **Ovulation** can return from about 3-4 weeks in women who are not breastfeeding.\n- **Thyroid**: **postpartum thyroiditis** (a hyperthyroid phase then a hypothyroid phase) affects some women in the first year, particularly those with thyroid antibodies, and can mimic depression.\n- **Sheehan syndrome**: pituitary necrosis after severe PPH, presenting with **failure of lactation**, fatigue and later hypopituitarism."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Postpartum fever and complications",
+          "body": "Fever of **38 °C or more** after birth needs a systematic search:\n\n| Source | Clues | First management |\n|---|---|---|\n| **Endometritis** (womb) | Uterine tenderness, offensive lochia, bleeding, often after caesarean or prolonged labour | Swabs, cultures; antibiotics per Therapeutic Guidelines (oral amoxicillin-clavulanate if mild; IV broad-spectrum if unwell); ultrasound for retained products |\n| **Mastitis** (breast) | Wedge-shaped, red, tender area, flu-like, usually from about week 1-6 | Continue breastfeeding; flucloxacillin or dicloxacillin if not settling or systemically unwell |\n| **UTI or pyelonephritis** (water) | Dysuria, loin pain; catheterised in labour | MSU and antibiotics |\n| **Wound infection** | Caesarean or perineal wound red, discharging | Swab, antibiotics, drain collections |\n| **VTE** (walking) | Calf swelling, pleuritic pain, breathlessness, tachycardia | Imaging and LMWH |\n| Chest (wind) | Cough, reduced air entry after general anaesthetic | CXR, physiotherapy, antibiotics if pneumonia |\n\n**Group A streptococcal sepsis** can progress rapidly; a woman with fever, tachycardia, severe pain or diarrhoea and vomiting needs urgent review and IV antibiotics.\n\n**Postpartum pre-eclampsia** can present up to several weeks after birth, most often in the first week: headache, visual symptoms, high BP. Check BP in any postpartum woman with a headache."
+        },
+        {
+          "kind": "management",
+          "heading": "The six-week postnatal check",
+          "body": "Usually done by the GP (often with the baby's check). Cover:\n\n- **Mood**: EPDS, sleep, support, family violence (ask privately).\n- **Physical recovery**: bleeding, perineum or caesarean wound, **continence** (urinary and faecal), pelvic floor exercises, dyspareunia and resuming sex.\n- **BP** and follow-up of pregnancy complications: **75 g OGTT** if she had GDM, BP review and urine if she had pre-eclampsia (and her long-term cardiovascular risk), anaemia.\n- **Contraception**.\n- **Breastfeeding** and infant feeding concerns.\n- **Vaccinations**: MMR if rubella non-immune (if not given in hospital), and catch-up for others.\n- **Cervical screening** if due (can usually be done from 6 weeks).\n- Plans for future pregnancy: interpregnancy interval, folic acid, and what to expect next time (e.g. after OASIS, caesarean or pre-eclampsia)."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Traps and discriminating clues",
+          "body": "- Tear involving more than half of the external sphincter: **3b**; internal sphincter too: **3c**; anal mucosa: **fourth degree**.\n- OASIS: repair **in theatre**, antibiotics, laxatives, physiotherapy and follow-up.\n- Faecal urgency months after a forceps birth: suspect an unrecognised sphincter injury; **endoanal ultrasound**.\n- Postpartum headache with high BP: **postpartum pre-eclampsia**.\n- Postpartum woman who cannot breastfeed after massive PPH: **Sheehan syndrome**.\n- Fever day 3 after caesarean with uterine tenderness and offensive lochia: **endometritis**."
+        }
+      ],
+      "keyPoints": [
+        "Third degree tears: 3a less than 50% EAS, 3b more than 50%, 3c includes IAS; fourth degree includes anal mucosa.",
+        "Rectal examination after every vaginal birth with perineal trauma.",
+        "OASIS: repair in theatre, antibiotics, laxatives, physiotherapy and review at 6-12 weeks.",
+        "Mediolateral episiotomy with forceps reduces OASIS.",
+        "Postpartum fever sources: womb, breast, urine, wound, legs and chest.",
+        "Postpartum pre-eclampsia can present weeks after birth; check BP with any headache.",
+        "Six-week check: mood, contraception, continence, BP, OGTT after GDM, vaccines and cervical screening."
+      ],
+      "redFlags": [
+        "Fever with tachycardia, severe pain, vomiting or diarrhoea postpartum (GAS sepsis)",
+        "Heavy fresh bleeding or offensive lochia (secondary PPH, endometritis)",
+        "Postpartum headache with raised BP",
+        "Faecal incontinence or passage of stool or flatus per vagina",
+        "Unilateral leg swelling or breathlessness"
+      ],
+      "contrast": [
+        {
+          "aspect": "Postnatal follow-up",
+          "india": "Family-supported confinement period; ASHA home visits in rural areas.",
+          "australia": "Midwife home visits, maternal and child health nurse, and GP check at 6 weeks."
+        },
+        {
+          "aspect": "OASIS detection",
+          "india": "Rectal examination after birth is not always done.",
+          "australia": "Rectal examination after every vaginal birth with trauma, and structured perineal clinics for follow-up."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Define a 3c perineal tear.",
+          "back": "Injury to both the external and internal anal sphincters."
+        },
+        {
+          "front": "Define a fourth degree tear.",
+          "back": "Anal sphincter complex plus the anal or rectal mucosa."
+        },
+        {
+          "front": "Episiotomy type recommended with forceps?",
+          "back": "Mediolateral (about 60 degrees from the midline at crowning)."
+        },
+        {
+          "front": "When is the uterus no longer palpable abdominally after birth?",
+          "back": "About 10-14 days."
+        },
+        {
+          "front": "Failure of lactation after severe PPH suggests?",
+          "back": "Sheehan syndrome (postpartum pituitary necrosis)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "labour-postpartum--perineal-trauma-and-puerperium--q1",
+          "discipline": "womens-health",
+          "topic": "labour-postpartum",
+          "difficulty": "foundation",
+          "stem": "A 27-year-old primigravida has a forceps birth of a 4.1 kg baby. On examination, including a rectal examination, there is a tear through the perineal muscles involving about two-thirds of the thickness of the external anal sphincter. The internal anal sphincter and anal mucosa are intact.\n\nHow should this tear be classified?",
+          "options": [
+            "Second degree",
+            "Third degree 3a",
+            "Third degree 3c",
+            "Third degree 3b",
+            "Fourth degree"
+          ],
+          "answer": 3,
+          "explanation": "Perineal tears are classified by the deepest structure involved. Injury to **more than 50% of the external anal sphincter** thickness, with the internal sphincter intact, is a **3b** tear.\n\n- 3a: less than 50% of the EAS.\n- 3c: both EAS and IAS.\n- Fourth degree: the sphincter complex plus the anal or rectal mucosa.\n\nShe has several risk factors: first vaginal birth, forceps and a baby over 4 kg.\n\nManagement: repair **in theatre** by an experienced clinician, IV antibiotics, laxatives, analgesia, pelvic floor physiotherapy, and follow-up at 6-12 weeks for continence symptoms.",
+          "whyWrong": [
+            "Second degree tears do not involve the anal sphincter.",
+            "3a involves less than 50% of the EAS; here two-thirds is torn.",
+            "3c requires internal sphincter involvement, which is intact.",
+            "",
+            "Fourth degree requires anal mucosal involvement."
+          ],
+          "tags": [
+            "perineal tear",
+            "oasis",
+            "classification"
+          ]
+        },
+        {
+          "id": "labour-postpartum--perineal-trauma-and-puerperium--q2",
+          "discipline": "womens-health",
+          "topic": "labour-postpartum",
+          "difficulty": "core",
+          "stem": "A 31-year-old woman is on day 4 after an emergency caesarean section for failure to progress after 20 hours of labour with ruptured membranes. She has a temperature of 38.7 °C, pulse 110 bpm and lower abdominal pain. The uterus is tender and the lochia is offensive. The wound looks clean. Her breasts are soft and non-tender and calves are normal.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Wound infection",
+            "Endometritis",
+            "Mastitis",
+            "Pulmonary embolism",
+            "Pyelonephritis"
+          ],
+          "answer": 1,
+          "explanation": "Fever, **uterine tenderness** and **offensive lochia** a few days after birth indicate **endometritis**. **Caesarean section after prolonged labour with ruptured membranes** is the strongest risk factor, because vaginal organisms ascend and the uterine incision provides a nidus.\n\nManagement: blood cultures, high vaginal swab, FBC and CRP; **broad-spectrum antibiotics** per Therapeutic Guidelines (IV when systemically unwell, as here, covering streptococci, Gram-negatives and anaerobes); pelvic ultrasound for retained products or collection if not settling. Consider **group A streptococcus** if she deteriorates rapidly.\n\nThe clean wound, soft breasts and normal calves make the other options less likely.",
+          "whyWrong": [
+            "The wound is clean; the uterine findings point to the endometrium.",
+            "",
+            "Her breasts are soft and non-tender.",
+            "PE does not cause offensive lochia or uterine tenderness.",
+            "No urinary symptoms or loin pain; the uterine findings point elsewhere."
+          ],
+          "tags": [
+            "endometritis",
+            "postpartum fever",
+            "caesarean"
+          ]
+        },
+        {
+          "id": "labour-postpartum--perineal-trauma-and-puerperium--q3",
+          "discipline": "womens-health",
+          "topic": "labour-postpartum",
+          "difficulty": "exam",
+          "stem": "A 30-year-old woman presents to her GP 9 days after an uncomplicated vaginal birth with a severe headache for 12 hours and blurred vision. She had normal BP throughout pregnancy. BP is 172/108 mmHg. Urine dipstick shows 2+ protein. She is breastfeeding.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Oral paracetamol and review in 2 days",
+            "Advise stopping breastfeeding and start an ACE inhibitor",
+            "Arrange outpatient CT brain",
+            "Start oral methyldopa and review in 1 week",
+            "Urgent transfer to hospital for antihypertensive therapy and magnesium sulfate"
+          ],
+          "answer": 4,
+          "explanation": "Pre-eclampsia can present for the first time **after birth**, usually in the first week but sometimes later, and eclampsia can occur postpartum. She has **severe hypertension** (160/110 or more), **neurological symptoms** (headache, visual disturbance) and proteinuria: **postpartum pre-eclampsia with severe features**.\n\nShe needs **urgent hospital transfer** for **acute BP control** and **magnesium sulfate** for seizure prophylaxis, with bloods (FBC, LFTs, creatinine) and neurological assessment. Imaging is considered for atypical features, to exclude cerebral venous sinus thrombosis, stroke or PRES.\n\nBreastfeeding can continue: nifedipine, labetalol and enalapril are compatible. Methyldopa is avoided postpartum because of depression, and is too slow for severe hypertension.",
+          "whyWrong": [
+            "This misses a potentially life-threatening condition.",
+            "Breastfeeding does not need to stop; many antihypertensives are compatible.",
+            "Outpatient imaging delays urgent treatment of severe hypertension.",
+            "Methyldopa is slow, avoided postpartum, and she needs same-day care.",
+            ""
+          ],
+          "tags": [
+            "postpartum pre-eclampsia",
+            "headache",
+            "severe hypertension"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "labour-postpartum--breastfeeding-and-contraception",
+      "title": "Breastfeeding and postpartum contraception",
+      "minutes": 15,
+      "objectives": [
+        "Support breastfeeding and recognise signs of adequate milk transfer",
+        "Diagnose and manage mastitis, breast abscess and nipple problems",
+        "Check whether a medicine is compatible with breastfeeding and name key exceptions",
+        "Choose safe postpartum contraception by timing and breastfeeding status"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why breastfeeding matters",
+          "body": "The **NHMRC Infant Feeding Guidelines** recommend **exclusive breastfeeding until around 6 months**, then continued breastfeeding with appropriate solid foods until 12 months and beyond, for as long as mother and baby wish. Most Australian women start breastfeeding, but rates of exclusive breastfeeding fall sharply over the first months.\n\n**Benefits for the baby**: fewer gastrointestinal, respiratory and ear infections, lower risk of SIDS, and possibly lower rates of obesity and diabetes. **For the mother**: lower risk of breast and ovarian cancer and type 2 diabetes, and lactational amenorrhoea.\n\nThe doctor's role: support, fix problems early, prescribe safely, and avoid unnecessarily telling women to stop."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Physiology and signs of adequate feeding",
+          "body": "- **Prolactin** from the anterior pituitary drives **milk production**; it rises with suckling and at night.\n- **Oxytocin** from the posterior pituitary causes the **let-down reflex** and uterine contraction (\"after pains\"). Stress and pain can inhibit it.\n- **Colostrum** is produced in the first days: small volume, rich in immunoglobulins. Milk \"comes in\" (lactogenesis II) around **days 2-4**, triggered by the fall in progesterone after delivery of the placenta. Retained placental tissue can delay it.\n- Supply follows demand: frequent, effective feeding (8-12 times in 24 hours in the early weeks) builds supply.\n\n**Signs a baby is getting enough**: at least about 6 heavy wet nappies a day after the first week, regular yellow stools, a contented baby after feeds, and weight gain. Babies commonly lose up to about 7-10% of birth weight in the first days and should regain birth weight by about **2 weeks**. Greater loss or jaundice should prompt a feeding assessment.\n\n**Good attachment**: wide open mouth, chin in the breast, more areola visible above than below, and no pain after the first few sucks. Poor attachment causes most nipple pain and damage, and reduced supply. Lactation consultants and child health nurses are key supports; also consider **tongue-tie** when attachment problems persist."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Breast problems",
+          "body": "| Problem | Features | Management |\n|---|---|---|\n| **Engorgement** | Both breasts full, hard, warm, often days 3-5 | Frequent feeding, hand expression to soften the areola, cold packs, analgesia |\n| **Blocked duct / inflammation** | Tender lump, no systemic features | Continue feeding, gentle lymphatic massage, anti-inflammatories, ice; avoid deep massage |\n| **Mastitis** | Wedge-shaped red, hot, tender area; fever, flu-like symptoms | **Continue breastfeeding** or expressing from the affected side; analgesia (paracetamol, ibuprofen). Antibiotics if not improving within 12-24 hours or if unwell: **flucloxacillin or dicloxacillin** (cefalexin for non-severe penicillin allergy; clindamycin for severe allergy or MRSA risk) per Therapeutic Guidelines |\n| **Breast abscess** | Fluctuant, tender mass, persistent fever despite antibiotics | **Ultrasound-guided needle aspiration** (repeated if needed) or incision and drainage, plus antibiotics; breastfeeding can usually continue from the other side and often the affected side |\n| **Nipple thrush** | Burning, shooting pain after feeds, shiny pink nipple, oral thrush in baby | Treat mother and baby with topical antifungal (e.g. miconazole) |\n\nStopping breastfeeding abruptly during mastitis increases the risk of abscess. A **persistent lump** after treatment needs imaging to exclude an abscess or, rarely, a breast cancer (including inflammatory carcinoma)."
+        },
+        {
+          "kind": "management",
+          "heading": "Medicines and breastfeeding",
+          "body": "**Most medicines are compatible with breastfeeding.** The dose reaching the baby is usually a small fraction of the maternal dose. Before advising a woman to stop, check a reliable source: for example the Royal Women's Hospital *Pregnancy and Breastfeeding Medicines Guide*, state medicines information services, the Australian Medicines Handbook or LactMed.\n\n**Generally compatible**: paracetamol, ibuprofen, most antibiotics (penicillins, cephalosporins, macrolides), **sertraline** and most SSRIs, labetalol, nifedipine, **enalapril**, **warfarin**, **LMWH**, levothyroxine, insulin, metformin, prednisolone, most inhaled asthma medications, local anaesthetics, and most antiepileptics (with infant monitoring).\n\n**Avoid or use with specialist advice**:\n\n- **Codeine** and **tramadol**: codeine can cause serious opioid toxicity in breastfed babies of mothers who are ultra-rapid CYP2D6 metabolisers; the TGA advises against codeine in breastfeeding.\n- **Lithium**: can accumulate in the infant; use only with specialist monitoring.\n- Cytotoxic drugs, **radioactive iodine**, amiodarone, and some antithyroid drugs at high doses.\n- **Combined oestrogen contraception** reduces milk supply in the early weeks.\n- **DOACs**: limited data, generally avoided.\n\n**Drugs affecting lactation**: domperidone and metoclopramide are sometimes used to increase supply; **cabergoline** is used to suppress lactation (e.g. after stillbirth), and bromocriptine is no longer recommended.\n\n**Maternal conditions**: breastfeeding is recommended with **hepatitis B** (baby immunised at birth) and **hepatitis C** (consider pausing and expressing if nipples are cracked and bleeding). In Australia, women with **HIV** are generally advised to formula feed, although guidance is evolving for women with a sustained undetectable viral load, who should decide with specialist support. Active untreated TB needs treatment first. Infant **galactosaemia** is a contraindication."
+        },
+        {
+          "kind": "management",
+          "heading": "Postpartum contraception",
+          "body": "Ovulation can return from about **3-4 weeks** after birth in women who are not breastfeeding, often before the first period. Contraception should be discussed antenatally and in place **from 3 weeks** (day 21) if needed. Australia generally uses the **UK Medical Eligibility Criteria (UKMEC)**.\n\n**Lactational amenorrhoea method (LAM)**: about 98% effective if **all three** apply: fully or nearly fully breastfeeding (including at night), **amenorrhoeic**, and **less than 6 months** after birth.\n\n| Method | When postpartum | Breastfeeding? |\n|---|---|---|\n| **Progestogen-only implant** | Any time (including immediately) | Safe |\n| **Progestogen-only pill** (LNG, norethisterone, drospirenone) | Any time | Safe |\n| **DMPA injection** | Any time (often from 6 weeks if breastfeeding in some protocols; check local guidance) | Safe |\n| **Copper or LNG IUD** | **Within 48 hours** of birth, or **from 4 weeks** (higher expulsion and perforation risk between) | Safe |\n| **Combined hormonal contraception** | **Not before 6 weeks if breastfeeding** (reduces supply; VTE). If not breastfeeding, **not before 21 days** (VTE risk), and with caution to 6 weeks if other VTE risk factors | Avoid in the first 6 weeks |\n| Condoms, sterilisation, vasectomy | Any time | Safe |\n\n**Progestogen-only methods are the default safe choice while breastfeeding.** Emergency contraception is not needed before day 21 postpartum.\n\n**Interpregnancy interval**: short intervals (less than about 18 months from birth to conception) are associated with preterm birth and other adverse outcomes; after a caesarean, a short interval also increases the risk of uterine rupture in a subsequent labour."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Traps and discriminating clues",
+          "body": "- Mastitis: **keep breastfeeding**; flucloxacillin or dicloxacillin if not settling.\n- Persistent fluctuant mass despite antibiotics: **abscess**, ultrasound and aspiration.\n- Breastfeeding woman at 3 weeks wanting the combined pill: **not yet**; offer a progestogen-only method.\n- Breastfeeding woman needing analgesia: paracetamol and ibuprofen; **avoid codeine**.\n- LAM needs all three criteria: exclusive breastfeeding, amenorrhoea, under 6 months.\n- IUD insertion: within 48 hours or after 4 weeks.\n- Warfarin and enalapril are compatible with breastfeeding."
+        }
+      ],
+      "keyPoints": [
+        "Exclusive breastfeeding to around 6 months, continuing with solids to 12 months and beyond (NHMRC).",
+        "Babies should regain birth weight by about 2 weeks; poor attachment causes most nipple pain.",
+        "Mastitis: continue feeding; flucloxacillin or dicloxacillin if not improving in 12-24 hours or unwell.",
+        "Breast abscess: ultrasound-guided aspiration plus antibiotics.",
+        "Most drugs are compatible with breastfeeding; avoid codeine; check a reliable source first.",
+        "Progestogen-only methods are safe any time while breastfeeding; avoid combined methods in the first 6 weeks.",
+        "LAM works only if fully breastfeeding, amenorrhoeic and under 6 months."
+      ],
+      "redFlags": [
+        "Breast lump that persists after treatment of mastitis (abscess or malignancy)",
+        "Baby with poor weight gain, few wet nappies or prolonged jaundice",
+        "Mother with mastitis who is systemically unwell or septic"
+      ],
+      "contrast": [
+        {
+          "aspect": "Breastfeeding support",
+          "india": "Family elders and traditional practices are the main source of support; prelacteal feeds are sometimes given.",
+          "australia": "Midwives, lactation consultants, child health nurses and the Australian Breastfeeding Association; no prelacteal feeds."
+        },
+        {
+          "aspect": "Postpartum contraception",
+          "india": "Postpartum IUCD insertion is promoted in government programs; sterilisation is common.",
+          "australia": "Implants, progestogen-only pills and IUDs are common first choices; combined methods delayed until 6 weeks if breastfeeding."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "How long is exclusive breastfeeding recommended in Australia?",
+          "back": "Until around 6 months (NHMRC)."
+        },
+        {
+          "front": "First-line antibiotic for lactational mastitis?",
+          "back": "Flucloxacillin or dicloxacillin (per Therapeutic Guidelines)."
+        },
+        {
+          "front": "Criteria for the lactational amenorrhoea method?",
+          "back": "Fully breastfeeding, amenorrhoeic, and less than 6 months postpartum."
+        },
+        {
+          "front": "When can an IUD be inserted after birth?",
+          "back": "Within 48 hours or from 4 weeks."
+        },
+        {
+          "front": "Why avoid codeine in breastfeeding?",
+          "back": "Infant opioid toxicity if the mother is an ultra-rapid CYP2D6 metaboliser."
+        },
+        {
+          "front": "Earliest combined pill use if breastfeeding?",
+          "back": "Not before 6 weeks postpartum."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "labour-postpartum--breastfeeding-and-contraception--q1",
+          "discipline": "womens-health",
+          "topic": "labour-postpartum",
+          "difficulty": "core",
+          "stem": "A 29-year-old woman who is breastfeeding her 3-week-old baby presents with 24 hours of a painful, red, wedge-shaped area on the upper outer quadrant of her left breast. Temperature 38.6 °C and she feels achy. There is no fluctuant mass. She has been feeding frequently and taking ibuprofen, with no improvement. She has no drug allergies.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Stop breastfeeding from the left breast until symptoms resolve",
+            "Ultrasound-guided aspiration",
+            "Oral dicloxacillin or flucloxacillin and continue breastfeeding",
+            "Cabergoline to suppress lactation",
+            "Oral amoxicillin and stop breastfeeding"
+          ],
+          "answer": 2,
+          "explanation": "She has **lactational mastitis** with systemic features that have not improved after 24 hours of conservative measures. The usual organism is **Staphylococcus aureus**, so the recommended antibiotic is **flucloxacillin or dicloxacillin** (per Therapeutic Guidelines), with cefalexin for non-severe penicillin allergy.\n\nShe should **continue breastfeeding**, including from the affected side (or express), because stopping leads to milk stasis and increases the risk of abscess. The antibiotic is safe for the baby. Analgesia, rest and fluids help, and attachment should be checked.\n\nAspiration is for an abscess (a fluctuant mass or failure to respond to antibiotics). Amoxicillin alone is not reliable against staphylococci.",
+          "whyWrong": [
+            "Stopping feeding on the affected side increases stasis and abscess risk.",
+            "There is no abscess; aspiration is not indicated.",
+            "",
+            "Suppressing lactation is not a treatment for mastitis.",
+            "Amoxicillin lacks reliable staphylococcal cover, and breastfeeding should continue."
+          ],
+          "tags": [
+            "mastitis",
+            "breastfeeding",
+            "antibiotics"
+          ]
+        },
+        {
+          "id": "labour-postpartum--breastfeeding-and-contraception--q2",
+          "discipline": "womens-health",
+          "topic": "labour-postpartum",
+          "difficulty": "foundation",
+          "stem": "A 32-year-old woman attends her GP 3 weeks after a vaginal birth. She is exclusively breastfeeding and wants reliable contraception. She previously took a combined oral contraceptive pill and would like to restart it. She has no medical problems.\n\nWhich is the most appropriate advice?",
+          "options": [
+            "Offer a progestogen-only method such as an implant or progestogen-only pill now",
+            "Restart the combined pill now",
+            "No contraception is needed while she is breastfeeding",
+            "Insert a copper IUD today",
+            "Wait until her periods return before starting any contraception"
+          ],
+          "answer": 0,
+          "explanation": "At 3 weeks postpartum and breastfeeding, **combined hormonal contraception should be avoided until 6 weeks** (UKMEC category 4 before 6 weeks when breastfeeding) because of the raised **VTE risk** in the early postpartum period and possible reduction in milk supply.\n\n**Progestogen-only methods** (implant, progestogen-only pill, DMPA) are safe at any time and do not affect breastfeeding. The implant is the most effective.\n\nLAM is only reliable if she is fully breastfeeding, amenorrhoeic and under 6 months, and she wants something more reliable. IUD insertion is recommended within 48 hours or **from 4 weeks**, so today is too early. Ovulation can precede the first period, so waiting is unsafe.",
+          "whyWrong": [
+            "",
+            "Combined methods are avoided before 6 weeks when breastfeeding.",
+            "Breastfeeding alone is only reliable if all LAM criteria are met; she wants reliable contraception.",
+            "IUD insertion between 48 hours and 4 weeks has higher expulsion and perforation risk.",
+            "Ovulation can occur before the first period."
+          ],
+          "tags": [
+            "contraception",
+            "postpartum",
+            "breastfeeding"
+          ]
+        },
+        {
+          "id": "labour-postpartum--breastfeeding-and-contraception--q3",
+          "discipline": "womens-health",
+          "topic": "labour-postpartum",
+          "difficulty": "exam",
+          "stem": "A 28-year-old woman is 5 days postpartum after a caesarean section and is breastfeeding. She has moderate wound pain despite regular paracetamol and ibuprofen. The ward resident suggests adding paracetamol-codeine tablets.\n\nWhat is the most appropriate response?",
+          "options": [
+            "Codeine is safe in breastfeeding at standard doses",
+            "Stop breastfeeding for 48 hours after each codeine dose",
+            "Switch ibuprofen to aspirin",
+            "Avoid codeine; if extra analgesia is needed, use a short course of a suitable alternative with advice on infant monitoring",
+            "Give tramadol instead as it has no infant risk"
+          ],
+          "answer": 3,
+          "explanation": "**Codeine** is a prodrug converted to morphine by CYP2D6. In mothers who are **ultra-rapid metabolisers**, high morphine levels in breast milk have caused **serious infant opioid toxicity and death**. The TGA advises against codeine use in breastfeeding women.\n\nFirst ensure paracetamol and an NSAID are optimised. If more analgesia is needed, a **short course of a suitable alternative opioid** at the lowest effective dose may be used, with advice to watch the baby for **drowsiness, poor feeding or breathing problems**. Check a reliable breastfeeding medicines resource.\n\nTramadol has similar CYP2D6 concerns. Aspirin is avoided in breastfeeding because of theoretical Reye syndrome risk and adds no benefit over ibuprofen.",
+          "whyWrong": [
+            "Codeine has caused serious infant toxicity; the TGA advises against it in breastfeeding.",
+            "Interrupting breastfeeding is not the answer; choose a safer analgesic.",
+            "Aspirin is avoided in breastfeeding and gives no benefit over ibuprofen.",
+            "",
+            "Tramadol also depends on CYP2D6 and is not free of infant risk."
+          ],
+          "ausPearl": "The TGA has warned against codeine use in breastfeeding women because of infant opioid toxicity in ultra-rapid metabolisers.",
+          "tags": [
+            "breastfeeding",
+            "codeine",
+            "analgesia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "labour-postpartum--perinatal-mental-health",
+      "title": "Perinatal mental health",
+      "minutes": 15,
+      "objectives": [
+        "Distinguish baby blues, postnatal depression and postpartum psychosis by timing and features",
+        "Screen with the EPDS and act on the score and the self-harm item",
+        "Manage postnatal depression with psychological therapy and antidepressants compatible with breastfeeding",
+        "Manage postpartum psychosis as an emergency and plan prevention in women with bipolar disorder"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The size of the problem",
+          "body": "Perinatal mental illness is common and under-recognised. In Australia around **1 in 5** women experience depression or anxiety during pregnancy or in the year after birth, and suicide is a leading cause of maternal death in the first year after birth. Partners can also develop depression.\n\nThe national **COPE Perinatal Mental Health Guideline** recommends routine psychosocial assessment and depression screening **antenatally** (ideally at least once, and again later in pregnancy) and **postnatally** (commonly at 6-12 weeks), with repeat screening as needed. Medicare funds mental health care plans, and organisations such as **PANDA** (Perinatal Anxiety and Depression Australia) and the **Gidget Foundation** provide support."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Blues, depression and psychosis",
+          "body": "| | Baby blues | Postnatal depression | Postpartum psychosis |\n|---|---|---|---|\n| Frequency | Most women (up to about 80%) | About 1 in 7 | About 1-2 per 1000 births |\n| Onset | **Days 3-5** | Usually within the first months (can start in pregnancy) | Usually within **2 weeks**, often the first few days |\n| Duration | Resolves by about **2 weeks** | Weeks to months if untreated | Evolves over hours to days |\n| Features | Tearful, labile, anxious, still functioning | Low mood, anhedonia, guilt, poor sleep even when baby sleeps, anxiety, thoughts of being a bad mother, suicidal ideation | **Confusion**, fluctuating mood (mania, mixed, depression), delusions (often about the baby), hallucinations, severe insomnia, disorganised behaviour |\n| Management | Reassurance, support, review if persisting beyond 2 weeks | Psychological therapy, antidepressant, support | **Psychiatric emergency**: admission, antipsychotics |\n\n**Perinatal anxiety** and **obsessive-compulsive disorder** are also common. OCD can cause distressing intrusive thoughts of harming the baby; these are **ego-dystonic** (unwanted, resisted), and the mother avoids acting on them, unlike the delusional thinking of psychosis. **PTSD** can follow a traumatic birth.\n\n**Risk factors for postnatal depression**: past or family history of depression, depression or anxiety in pregnancy, poor social or partner support, family violence, stressful life events, unplanned pregnancy, traumatic birth, a sick or preterm baby, and a history of childhood abuse."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Screening with the EPDS",
+          "body": "The **Edinburgh Postnatal Depression Scale (EPDS)** is a 10-item self-report questionnaire covering the past 7 days. It deliberately avoids somatic symptoms (tiredness, sleep, appetite), which are normal in new parents. Maximum score is 30.\n\nCommon Australian interpretation (per COPE; check the local pathway):\n\n- **13 or more**: depression likely; arrange clinical assessment and management.\n- **10-12**: possible depression; repeat in 2-4 weeks and monitor.\n- **Item 10 (thoughts of harming yourself)**: **any positive response** requires **same-day assessment** of risk, whatever the total score.\n\nThe EPDS is a **screening tool, not a diagnosis**. A positive screen leads to a clinical interview for DSM criteria, risk assessment (suicide, harm to the baby, neglect), and review of psychosocial factors. Culturally adapted tools such as the **Kimberley Mum's Mood Scale** are used with some Aboriginal women, and translated versions exist.\n\n**Look for organic contributors**: **thyroid function** (postpartum thyroiditis), **FBC and ferritin** (anaemia), and consider substance use.\n\n**Always ask about bipolar disorder** (personal history of mania or hypomania, or family history) before starting an antidepressant, because antidepressants can precipitate mania."
+        },
+        {
+          "kind": "management",
+          "heading": "Managing postnatal depression",
+          "body": "**Mild to moderate**: psychoeducation, practical support (partner, family, child health nurse), sleep protection, and **psychological therapy**: **CBT** or **interpersonal therapy**, individual or group. A GP mental health treatment plan gives Medicare-subsidised sessions.\n\n**Moderate to severe**, or not responding: add an **antidepressant**. **SSRIs** are first-line. **Sertraline** is often preferred in breastfeeding because low levels reach the infant; if a woman responded well to a particular antidepressant before, it is often reasonable to use it again. Breastfeeding usually continues; monitor the baby for sedation and poor feeding. Continue treatment for at least 6-12 months after remission.\n\n**Refer** to perinatal or community mental health services for severe depression, suicidal ideation, psychotic features, bipolar disorder, poor response, or concerns about the baby's safety. **Mother-baby units** allow admission without separating mother and baby. If a child's safety is at risk, child protection reporting obligations apply (**varies by state**).\n\n**Safety**: ask directly about suicidal thoughts and thoughts of harming the baby, make a safety plan, and involve the partner or family with consent."
+        },
+        {
+          "kind": "management",
+          "heading": "Postpartum psychosis: an emergency",
+          "body": "**Risk factors**: **bipolar disorder** (especially bipolar I), a **previous postpartum psychosis** (very high recurrence risk), a family history of bipolar disorder or postpartum psychosis, first pregnancy, and **stopping mood stabilisers** in pregnancy.\n\n**Presentation**: rapid onset within the first 2 weeks, often in the first days: insomnia, agitation, confusion or perplexity, rapidly changing mood, mania or mixed features, delusions (for example that the baby is evil, swapped or must be protected from harm) and hallucinations. Mood can fluctuate hour to hour.\n\n**Management**:\n\n- Treat as a **psychiatric emergency**; do not leave the woman alone with the baby until risk is assessed.\n- **Urgent psychiatric assessment** and **admission**, ideally to a **mother-baby unit**; involuntary treatment under the state **Mental Health Act** if she lacks capacity or refuses and is at risk.\n- **Exclude organic causes**: infection and sepsis, thyroid disease, electrolyte disturbance (hyponatraemia, hypercalcaemia), hypoglycaemia, drug intoxication or withdrawal, eclampsia, stroke or cerebral venous sinus thrombosis, encephalitis, and Sheehan syndrome.\n- **Antipsychotics**, often with a mood stabiliser (**lithium**); **ECT** for severe or treatment-resistant cases. Breastfeeding decisions depend on the drugs used and the woman's state; lithium generally makes breastfeeding inadvisable without specialist monitoring.\n- High risk of **suicide and infanticide** in untreated illness.\n\n**Prevention**: women with bipolar disorder need **preconception and antenatal planning** with a perinatal psychiatrist: avoid **valproate**, consider continuing or restarting **lithium** in late pregnancy or immediately after birth, protect sleep after birth, and have a written plan for early warning signs."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Traps and discriminating clues",
+          "body": "- Tearful on day 4, coping, resolving: **baby blues**; reassure and review.\n- Symptoms beyond 2 weeks: **not blues**, assess for depression.\n- EPDS 9 but item 10 positive: **same-day assessment**; the total score does not matter.\n- Day 5, confused, not sleeping, believes the baby is possessed: **postpartum psychosis**; admit, ideally to a mother-baby unit.\n- History of bipolar disorder presenting with low mood postpartum: be cautious with SSRIs alone; involve psychiatry.\n- Intrusive, unwanted thoughts of harming the baby that horrify the mother: **perinatal OCD**, not psychosis.\n- Always check thyroid function in postpartum mood change."
+        }
+      ],
+      "keyPoints": [
+        "Baby blues start around days 3-5 and resolve by 2 weeks.",
+        "Postnatal depression affects about 1 in 7; screen with the EPDS antenatally and at 6-12 weeks postnatally.",
+        "EPDS 13 or more suggests depression; any positive answer to item 10 needs same-day assessment.",
+        "Treat with psychological therapy; add an SSRI such as sertraline for moderate to severe depression.",
+        "Postpartum psychosis usually starts within 2 weeks; bipolar disorder is the key risk factor.",
+        "Psychosis is an emergency: admission, ideally to a mother-baby unit, and exclude organic causes.",
+        "Plan ahead for women with bipolar disorder: avoid valproate and consider lithium around birth."
+      ],
+      "redFlags": [
+        "Any thoughts of self-harm (positive EPDS item 10) or suicide plan",
+        "Confusion, insomnia, delusions or hallucinations in the first weeks after birth",
+        "Thoughts or intent of harming the baby that the mother does not experience as unwanted",
+        "History of bipolar disorder or previous postpartum psychosis"
+      ],
+      "contrast": [
+        {
+          "aspect": "Screening for perinatal depression",
+          "india": "Not routinely done in most antenatal or postnatal services.",
+          "australia": "Routine EPDS and psychosocial assessment in pregnancy and after birth (COPE guideline)."
+        },
+        {
+          "aspect": "Admission for postpartum psychosis",
+          "india": "Admission to general psychiatric wards, often separating mother and baby.",
+          "australia": "Mother-baby units in most states allow joint admission with specialist perinatal care."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Typical onset and duration of baby blues?",
+          "back": "Starts around days 3-5; resolves by about 2 weeks."
+        },
+        {
+          "front": "Screening tool for perinatal depression?",
+          "back": "Edinburgh Postnatal Depression Scale (EPDS)."
+        },
+        {
+          "front": "EPDS result requiring same-day assessment?",
+          "back": "Any positive response to item 10 (thoughts of self-harm)."
+        },
+        {
+          "front": "SSRI commonly preferred in breastfeeding?",
+          "back": "Sertraline."
+        },
+        {
+          "front": "Strongest risk factor for postpartum psychosis?",
+          "back": "Bipolar disorder (or previous postpartum psychosis)."
+        },
+        {
+          "front": "Typical onset of postpartum psychosis?",
+          "back": "Within the first 2 weeks after birth, often in the first few days."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "labour-postpartum--perinatal-mental-health--q1",
+          "discipline": "womens-health",
+          "topic": "labour-postpartum",
+          "difficulty": "foundation",
+          "stem": "A 30-year-old woman is seen by the midwife on day 4 after the birth of her first baby. She has been crying on and off for a day and says she feels overwhelmed and irritable. She is feeding and caring for the baby well, sleeping when the baby sleeps, and denies thoughts of self-harm. She has no history of mental illness.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Start sertraline",
+            "Reassure, provide support and review if symptoms persist beyond 2 weeks",
+            "Urgent referral to the mental health crisis team",
+            "Admission to a mother-baby unit",
+            "Arrange thyroid function tests and start levothyroxine"
+          ],
+          "answer": 1,
+          "explanation": "Onset around **day 3-5**, tearfulness, emotional lability and feeling overwhelmed while **still functioning** and with **no risk features** is the typical picture of the **baby blues**. It affects most new mothers, likely relates to the rapid hormonal shifts after birth together with sleep deprivation, and resolves by about 2 weeks.\n\nManagement is **reassurance, explanation and practical support**, with advice to seek help if symptoms persist beyond 2 weeks, worsen, or she develops thoughts of self-harm, because persisting symptoms may indicate postnatal depression.\n\nAntidepressants and crisis referral are not indicated. Postpartum thyroiditis usually presents later.",
+          "whyWrong": [
+            "Antidepressants are not indicated for self-limiting baby blues.",
+            "",
+            "There are no risk features requiring crisis referral.",
+            "Admission is for severe illness such as psychosis.",
+            "Postpartum thyroiditis typically presents later, and levothyroxine without a diagnosis is wrong."
+          ],
+          "tags": [
+            "baby blues",
+            "postnatal",
+            "mental health"
+          ]
+        },
+        {
+          "id": "labour-postpartum--perinatal-mental-health--q2",
+          "discipline": "womens-health",
+          "topic": "labour-postpartum",
+          "difficulty": "core",
+          "stem": "A 26-year-old woman completes the EPDS at her 6-week postnatal check. Her total score is 8. On item 10 ('The thought of harming myself has occurred to me') she answers 'hardly ever'. She is breastfeeding and says she is coping.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Reassure her because the total score is below 10",
+            "Repeat the EPDS in 4 weeks",
+            "Start sertraline",
+            "Refer for psychology via a mental health care plan with review in 6 weeks",
+            "Assess her suicide risk today"
+          ],
+          "answer": 4,
+          "explanation": "The EPDS total score guides the likelihood of depression, but **item 10**, about thoughts of self-harm, is treated separately. **Any positive response** to item 10, even 'hardly ever', requires a **same-day clinical assessment of risk**, regardless of the total score.\n\nThat means asking directly about the nature and frequency of the thoughts, plans, intent, access to means, protective factors, supports and any thoughts of harming the baby, then acting on the findings with a safety plan and referral to perinatal mental health services if needed.\n\nReassurance based on the total, waiting 4 weeks, or starting medication without assessment all miss the key step.",
+          "whyWrong": [
+            "A low total score does not override a positive self-harm item.",
+            "Delaying 4 weeks ignores a possible suicide risk.",
+            "Medication without assessing risk and diagnosis is premature.",
+            "Psychology may be appropriate, but risk must be assessed today first.",
+            ""
+          ],
+          "ausPearl": "The COPE Perinatal Mental Health Guideline recommends immediate follow-up of any positive response to EPDS item 10.",
+          "tags": [
+            "epds",
+            "suicide risk",
+            "postnatal depression"
+          ]
+        },
+        {
+          "id": "labour-postpartum--perinatal-mental-health--q3",
+          "discipline": "womens-health",
+          "topic": "labour-postpartum",
+          "difficulty": "exam",
+          "stem": "A 33-year-old woman is brought in by her partner on day 6 after the birth of her first baby. She has not slept for 3 nights, is pacing and talking rapidly, and says the baby has been swapped at the hospital. At times she is perplexed and does not know where she is. She stopped lithium for bipolar I disorder early in pregnancy. Temperature 36.9 °C, pulse 96 bpm, BP 124/78 mmHg.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Urgent psychiatric admission, ideally to a mother-baby unit, with organic screen",
+            "Start sertraline and review in 1 week",
+            "Reassure the partner that this is the baby blues",
+            "Outpatient referral to a psychologist",
+            "Restart lithium at home and review in 2 weeks"
+          ],
+          "answer": 0,
+          "explanation": "This is **postpartum psychosis**: onset in the first 2 weeks, severe insomnia, manic features, **delusions about the baby** and **confusion or perplexity**. Her strongest risk factor is **bipolar I disorder**, made worse by **stopping lithium**.\n\nIt is a **psychiatric emergency** with a risk of suicide and infanticide. She needs **urgent psychiatric assessment and admission**, ideally to a **mother-baby unit**, using the state Mental Health Act if required. Exclude organic causes (infection, thyroid, electrolytes, glucose, drugs, eclampsia, cerebral venous sinus thrombosis). Treatment includes antipsychotics and usually a mood stabiliser; ECT for severe cases.\n\nAn SSRI alone could worsen mania. Outpatient care is unsafe.",
+          "whyWrong": [
+            "",
+            "SSRIs can worsen mania and do not treat psychosis; the delay is dangerous.",
+            "Blues do not cause delusions, confusion or mania.",
+            "Outpatient psychology is unsafe for an acute psychosis.",
+            "Home management with review in 2 weeks is unsafe in acute psychosis."
+          ],
+          "tags": [
+            "postpartum psychosis",
+            "bipolar",
+            "emergency"
+          ]
+        }
+      ]
+    }
+  ]
+}

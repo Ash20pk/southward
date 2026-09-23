@@ -1,0 +1,950 @@
+{
+  "topic": "sexual-health",
+  "intro": "Sexual health covers taking a sexual history, testing for and treating STIs, partner notification, HIV prevention with PrEP and PEP, and common genital infections. The AMC tests Australian first-line treatments from the ASHM STI Management Guidelines, who to screen, and public health duties, with syphilis a current national priority because of the outbreak affecting young Aboriginal and Torres Strait Islander people.",
+  "lessons": [
+    {
+      "id": "sexual-health--sexual-history-testing",
+      "title": "Sexual history, STI testing and partner notification",
+      "minutes": 16,
+      "objectives": [
+        "Take a non-judgemental sexual history covering partners, practices, protection, past STIs and pregnancy intention",
+        "Choose the right specimens and tests for asymptomatic screening in different populations",
+        "Manage partner notification and notification to public health",
+        "Use Australian services such as free sexual health clinics and Let Them Know"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why this matters in Australia",
+          "body": "STIs in Australia are common, often asymptomatic, and concentrated in particular groups: **young people aged 15-29** (chlamydia), **gay, bisexual and other men who have sex with men (GBMSM)** (gonorrhoea, syphilis, HIV), and **Aboriginal and Torres Strait Islander people in remote and regional areas** (gonorrhoea, syphilis and trichomonas, with an ongoing infectious syphilis outbreak since 2011). Because most infections cause no symptoms, **testing asymptomatic people at risk** is the main strategy.\n\nThe reference is the **Australian STI Management Guidelines for Use in Primary Care** (ASHM), along with state guidelines and eTG. **Public sexual health clinics are free and do not require a Medicare card**, which matters for international students, travellers and people who want anonymity."
+        },
+        {
+          "kind": "concepts",
+          "heading": "The sexual history",
+          "body": "Normalise the questions (\"I ask everyone these questions\"), ensure privacy, use neutral language (partner rather than boyfriend or girlfriend), and explain confidentiality. Cover the **5 Ps**:\n\n1. **Partners:** number, gender(s) of partners, new partner, regular or casual, partners from overseas or high-prevalence areas, sex work (as worker or client).\n2. **Practices:** vaginal, anal (receptive or insertive), oral; this determines which **sites** to test.\n3. **Protection:** condom use, PrEP use, vaccination status (hepatitis A and B, HPV, mpox).\n4. **Past history of STIs** and previous testing, including last HIV test.\n5. **Pregnancy:** contraception and pregnancy intention.\n\nAlso ask about symptoms (discharge, dysuria, ulcers, rash, pelvic or testicular pain, anorectal symptoms), injecting drug use, tattoos, and **alcohol or drug use around sex** (\"chemsex\"). Screen for **coercion, sexual assault and family violence**. For young people, consider age, consent and child protection."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Who to test, and how",
+          "body": "**Nucleic acid amplification tests (NAAT/PCR)** are the standard for chlamydia, gonorrhoea, trichomonas and *M. genitalium*.\n\n| Group | Recommended testing |\n|---|---|\n| Sexually active young people 15-29 | **Annual chlamydia** NAAT (many services test gonorrhoea at the same time) |\n| Women (specimen) | **Self-collected vaginal swab** (as good as or better than a clinician endocervical swab), or first-pass urine |\n| Men (specimen) | **First-pass urine** (the first 20-30 mL, not midstream) |\n| GBMSM | **Three-site testing:** throat swab, anorectal swab, first-pass urine for chlamydia and gonorrhoea; **HIV and syphilis serology**; up to every 3 months if higher risk; hepatitis serology as needed |\n| Aboriginal and Torres Strait Islander people 15-34 | Annual chlamydia, gonorrhoea and syphilis testing (and trichomonas in remote areas); more often in outbreak regions |\n| Pregnancy | Syphilis, HIV and hepatitis B at the first antenatal visit; chlamydia for women under 30 or at risk; repeat syphilis later in pregnancy in outbreak areas or with ongoing risk (check state guidance) |\n| Sex workers | Regular testing; requirements vary by state |\n\n**Blood tests:** HIV (4th-generation antigen/antibody), syphilis serology, hepatitis B (to decide on vaccination), hepatitis C if risk factors.\n\n**Window periods** matter: NAATs can detect chlamydia and gonorrhoea within about 2 weeks of exposure; syphilis serology may take up to 12 weeks; the 4th-generation HIV test detects most infections by 6 weeks. Repeat tests after a recent exposure if the first is negative.\n\n**Cultures:** gonorrhoea **culture** (swab from the infected site) is taken before treatment where possible, to test **antimicrobial resistance**."
+        },
+        {
+          "kind": "application",
+          "heading": "Partner notification and public health",
+          "body": "**Partner notification (contact tracing)** is part of treating every STI: it prevents reinfection of the index patient and interrupts onward transmission. The **treating clinician** is responsible for initiating it.\n\n- **Look-back periods** (approximate, from the ASHM guidelines): chlamydia and gonorrhoea **6 months**; trichomonas 6 months; infectious syphilis 3 months plus the duration of symptoms (longer for secondary and early latent); HIV back to the likely time of infection. Check the ASHM contact tracing manual for specifics.\n- **Methods:** patient-initiated (the patient tells partners, with information), anonymous online tools such as **Let Them Know** (SMS or email, free, can be anonymous), or provider referral (the clinic or public health unit notifies contacts, used for HIV and syphilis).\n- Contacts of chlamydia, gonorrhoea and syphilis are usually **tested and treated empirically** at the same visit without waiting for results.\n- Advise **no sex for 7 days after treatment** (and until partners are treated) to prevent reinfection, and **retest at 3 months** because reinfection is common.\n\n**Notification to public health:** chlamydia, gonorrhoea, syphilis (including congenital), HIV, hepatitis B and C, donovanosis, and lymphogranuloma venereum are **notifiable** in Australia. Laboratories notify automatically; for some conditions (such as syphilis and HIV) the doctor must also notify. The details vary by state. Notification is confidential and does not breach privacy law."
+        },
+        {
+          "kind": "application",
+          "heading": "Special situations",
+          "body": "- **Sexual assault:** prioritise safety, medical needs and consent. Refer (with consent) to the state **sexual assault service** for forensic examination, ideally before washing or changing clothes, though the person decides whether to involve police. Offer **emergency contraception**, **HIV PEP** (within 72 hours), hepatitis B vaccination, STI testing now and at follow-up, and psychological support.\n- **Young people:** assess Gillick competence, see them alone, and consider child protection if there is a large age gap, coercion or a very young age (reporting laws vary by state).\n- **Sex workers:** sex work is decriminalised or regulated differently in each state; offer regular testing, vaccination and PrEP without judgement.\n- **Aboriginal and Torres Strait Islander patients:** work with Aboriginal health workers and community-controlled health services; opportunistic testing at any visit (e.g. during an adult health check) is encouraged in outbreak regions.\n- **Culturally and linguistically diverse patients:** use a professional interpreter, not a family member, for sexual history."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- Asymptomatic 22-year-old woman at a routine visit: offer a **chlamydia test** (self-collected vaginal swab).\n- GBMSM: three sites plus HIV and syphilis serology.\n- Always pair treatment with **partner notification, abstinence for 7 days, and retesting at 3 months**.\n- A student without a Medicare card worried about an STI: refer to a **free sexual health clinic**.\n- Syphilis in a remote First Nations community: lower threshold to test, and notify."
+        }
+      ],
+      "keyPoints": [
+        "Use the 5 Ps: partners, practices, protection, past STIs, pregnancy.",
+        "Most STIs are asymptomatic: test people at risk, especially 15-29-year-olds annually for chlamydia.",
+        "Self-collected vaginal swab (women) and first-pass urine (men) are the standard NAAT specimens.",
+        "GBMSM need three-site testing plus HIV and syphilis serology.",
+        "Take a gonorrhoea culture before treatment for resistance testing.",
+        "Partner notification, 7 days' abstinence and retesting at 3 months are part of treatment; Let Them Know helps.",
+        "Chlamydia, gonorrhoea, syphilis, HIV and hepatitis B and C are notifiable; sexual health clinics are free without Medicare."
+      ],
+      "redFlags": [
+        "Disclosure of sexual assault (forensic care, PEP, EC, support)",
+        "Sexual activity in a child or signs of exploitation (child protection)",
+        "STI in pregnancy (risk of congenital infection)",
+        "Pelvic pain or testicular pain with an STI (PID, epididymo-orchitis)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Approach to STIs",
+          "india": "Syndromic management with pre-packed kits in many clinics.",
+          "australia": "Aetiological diagnosis with NAAT and targeted treatment, plus asymptomatic screening of at-risk groups."
+        },
+        {
+          "aspect": "Access",
+          "india": "Government STI clinics; stigma and cost can deter.",
+          "australia": "Free public sexual health clinics with no Medicare card required; anonymous partner notification online."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "The 5 Ps of a sexual history?",
+          "back": "Partners, practices, protection, past STIs, pregnancy (intention/contraception)."
+        },
+        {
+          "front": "Preferred chlamydia specimen in women?",
+          "back": "Self-collected vaginal swab (NAAT)."
+        },
+        {
+          "front": "Preferred chlamydia specimen in men?",
+          "back": "First-pass urine."
+        },
+        {
+          "front": "Three sites to test in GBMSM?",
+          "back": "Throat, anorectum and first-pass urine."
+        },
+        {
+          "front": "Look-back period for chlamydia contact tracing?",
+          "back": "6 months."
+        },
+        {
+          "front": "When to retest after chlamydia or gonorrhoea treatment?",
+          "back": "At 3 months (reinfection is common)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "sexual-health--sexual-history-testing--q1",
+          "discipline": "womens-health",
+          "topic": "sexual-health",
+          "difficulty": "foundation",
+          "stem": "A 24-year-old man attends a GP in Melbourne for a sexual health check. He has had four male partners in the past 3 months, with receptive and insertive anal sex and oral sex, and inconsistent condom use. He has no symptoms. He is not on PrEP.\n\nWhich set of tests is most appropriate?",
+          "options": [
+            "First-pass urine chlamydia and gonorrhoea NAAT only",
+            "Throat and anorectal swabs and first-pass urine for chlamydia and gonorrhoea NAAT, plus HIV and syphilis serology",
+            "HIV serology only",
+            "Urethral swab for gonorrhoea culture only",
+            "Midstream urine microscopy and culture"
+          ],
+          "answer": 1,
+          "explanation": "GBMSM with casual partners need **three-site testing** because chlamydia and gonorrhoea in the **throat and rectum** are often asymptomatic and missed by urine testing alone. He also needs **HIV and syphilis serology** (syphilis is rising among GBMSM), and hepatitis A and B status for vaccination.\n\nTesting is recommended up to every 3 months for men at higher risk. This visit is also the time to discuss **HIV PrEP**, which he is eligible for.",
+          "whyWrong": [
+            "Urine alone misses most pharyngeal and rectal infections.",
+            "",
+            "HIV is only part of a full screen; he also needs bacterial STI and syphilis testing.",
+            "Culture of an asymptomatic urethra is low-yield; NAAT at all exposed sites is standard.",
+            "Midstream urine is for UTI; STI testing uses first-pass urine NAAT."
+          ],
+          "ausPearl": "The Australian STI Management Guidelines (ASHM) recommend testing GBMSM up to 3-monthly depending on risk, and discussing PrEP.",
+          "tags": [
+            "sti-screening",
+            "gbmsm",
+            "three-site-testing"
+          ]
+        },
+        {
+          "id": "sexual-health--sexual-history-testing--q2",
+          "discipline": "womens-health",
+          "topic": "sexual-health",
+          "difficulty": "core",
+          "stem": "A 19-year-old international student in Adelaide is diagnosed with chlamydia after a routine test. She is treated with doxycycline. She has had two male partners in the past 4 months and is embarrassed to contact one of them. She has no Medicare card.\n\nWhich is the most appropriate next step regarding her partners?",
+          "options": [
+            "No partner action is needed as she has been treated",
+            "Notify her partners' GPs directly without her consent",
+            "Advise that partners should only be treated if they develop symptoms",
+            "Report both partners to police",
+            "Discuss partner notification, including the anonymous Let Them Know service, and advise partners to be tested and treated"
+          ],
+          "answer": 4,
+          "explanation": "**Partner notification** is part of treating chlamydia: without it she is likely to be reinfected, and her partners (often asymptomatic) can develop complications and infect others. The look-back period for chlamydia is **6 months**, so both partners should be notified, tested and **empirically treated**.\n\nWhen a patient is embarrassed, **Let Them Know** allows an anonymous SMS or email notification. Advise no sex for 7 days after treatment and until partners are treated, and retest her at 3 months. Free public sexual health clinics can see her partners without a Medicare card.",
+          "whyWrong": [
+            "Untreated partners cause reinfection and onward spread.",
+            "Contacting others without consent breaches confidentiality; the patient-led or anonymous approach comes first.",
+            "Most infected partners are asymptomatic; waiting for symptoms fails.",
+            "Consensual adult sex is not a police matter.",
+            ""
+          ],
+          "tags": [
+            "partner-notification",
+            "chlamydia",
+            "let-them-know"
+          ]
+        },
+        {
+          "id": "sexual-health--sexual-history-testing--q3",
+          "discipline": "womens-health",
+          "topic": "sexual-health",
+          "difficulty": "exam",
+          "stem": "A 28-year-old woman requests an STI test after unprotected sex with a new partner 4 days ago. She has no symptoms. Her previous tests 6 months ago were negative.\n\nWhat is the most appropriate advice about testing?",
+          "options": [
+            "Test now and advise that negative results are conclusive",
+            "Test for chlamydia and gonorrhoea now, and repeat testing including HIV and syphilis serology at the end of the window periods",
+            "Defer all testing for 12 weeks",
+            "No testing is needed without symptoms",
+            "Treat empirically with ceftriaxone and azithromycin without testing"
+          ],
+          "answer": 1,
+          "explanation": "Tests have **window periods**: NAATs for chlamydia and gonorrhoea are reliable from about **2 weeks** after exposure; the 4th-generation HIV test detects most infections by **6 weeks**; syphilis serology can take up to **12 weeks**. At 4 days, a negative result doesn't exclude infection from this exposure, although testing now can detect infections from earlier partners.\n\nA practical plan is to test now, then repeat at the appropriate intervals, and offer emergency contraception if relevant. HIV PEP is considered only if the partner is high risk and she presents within 72 hours (she is now outside this window).",
+          "whyWrong": [
+            "Results at 4 days may be falsely negative for this exposure.",
+            "",
+            "Delaying all testing misses infections acquired earlier.",
+            "Most STIs are asymptomatic, so she should be tested.",
+            "Empirical treatment without testing is not recommended for asymptomatic people without a known contact."
+          ],
+          "tags": [
+            "window-period",
+            "sti-testing",
+            "counselling"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sexual-health--chlamydia-gonorrhoea",
+      "title": "Chlamydia, gonorrhoea and Mycoplasma genitalium",
+      "minutes": 16,
+      "objectives": [
+        "Recognise the presentations and complications of chlamydia and gonorrhoea",
+        "Prescribe Australian first-line treatment, including in pregnancy",
+        "Explain why gonorrhoea culture and test of cure matter for resistance",
+        "Know when to test for and how to treat Mycoplasma genitalium"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The common bacterial STIs",
+          "body": "**Chlamydia trachomatis** is the **most commonly notified STI in Australia**, concentrated in people aged 15-29. **Neisseria gonorrhoeae** notifications have risen markedly over the past decade, especially among GBMSM in cities and in remote Aboriginal and Torres Strait Islander communities, and gonorrhoea is becoming progressively resistant to antibiotics worldwide. **Mycoplasma genitalium** is a smaller, fastidious organism causing urethritis and cervicitis, notable for rapidly rising macrolide and fluoroquinolone resistance."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "How they cause damage",
+          "body": "**Chlamydia** is an obligate intracellular bacterium that infects columnar epithelium (endocervix, urethra, rectum, conjunctiva). Infection is often **silent**, and repeated or persistent infection causes tubal inflammation and scarring, leading to **PID, tubal infertility, ectopic pregnancy and chronic pelvic pain**. Serovars L1-L3 cause **lymphogranuloma venereum (LGV)**, an invasive infection in GBMSM causing severe proctitis. Reactive arthritis (with urethritis and conjunctivitis) can follow.\n\n**Gonorrhoea** is a gram-negative intracellular diplococcus that also infects columnar epithelium, but it is more inflammatory, so urethritis in men is usually symptomatic with purulent discharge. Complications: PID, epididymo-orchitis, **disseminated gonococcal infection** (fever, polyarthralgia, tenosynovitis, pustular skin lesions, septic arthritis), and **ophthalmia neonatorum** from vertical transmission.\n\n**M. genitalium** lacks a cell wall (so beta-lactams do not work) and resistance develops readily after single-dose azithromycin, which is why treatment is now **resistance-guided**."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Presentations",
+          "body": "| | Women | Men |\n|---|---|---|\n| Chlamydia | Mostly asymptomatic; vaginal discharge, intermenstrual or postcoital bleeding, dysuria, pelvic pain; mucopurulent cervicitis with contact bleeding | Often asymptomatic; mild urethral discharge, dysuria; epididymo-orchitis |\n| Gonorrhoea | Often asymptomatic; discharge, dysuria, IMB | Purulent urethral discharge and dysuria within days |\n| Both | **Proctitis** (anal discharge, pain, tenesmus, bleeding) and pharyngeal infection (usually silent) after anal or oral sex | Same |\n\nA young man with **unilateral scrotal pain and swelling** and urethritis has **epididymo-orchitis** from an STI until proven otherwise, but **testicular torsion must be excluded first** in adolescents and young men with acute pain."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Testing",
+          "body": "- **NAAT:** self-collected vaginal swab, first-pass urine, and swabs from the throat and anorectum depending on practices.\n- **Gonorrhoea culture** from the affected site (cervix, urethra, rectum, throat) **before treatment**, to determine antibiotic susceptibility. Urethral Gram stain in symptomatic men shows gram-negative intracellular diplococci.\n- *M. genitalium* NAAT (with **macrolide resistance testing**) only in people with **persistent or recurrent urethritis, cervicitis or PID**, and contacts; **not** as routine screening of asymptomatic people.\n- LGV testing on positive rectal chlamydia samples in GBMSM with proctitis.\n- Test for other STIs: HIV and syphilis serology, and pregnancy test in women."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Urethritis, cervicitis and scrotal pain",
+          "body": "**Urethritis in men** (dysuria and discharge) is classified by Gram stain and NAAT:\n\n| Cause | Clues |\n|---|---|\n| Gonorrhoea | Purulent discharge, short incubation (2-5 days), Gram-negative intracellular diplococci |\n| Chlamydia | Mild or no discharge, longer incubation |\n| *M. genitalium* | Persistent or recurrent urethritis after doxycycline |\n| *Trichomonas vaginalis* | Partner from a high-prevalence setting, persistent symptoms |\n| HSV, adenovirus | Meatal ulcers (HSV); conjunctivitis after oral sex (adenovirus) |\n| UTI | Older man, urinary pathogens on MSU, no discharge |\n\n**Cervicitis in women** (mucopurulent discharge, contact bleeding) is caused by the same organisms; also consider an ectropion, which is common on the pill and in pregnancy and is not infective.\n\n**Acute scrotal pain:**\n| | Testicular torsion | Epididymo-orchitis |\n|---|---|---|\n| Age | Adolescents and young men | Sexually active young men (STI) or older men (UTI organisms) |\n| Onset | Sudden, severe, often with vomiting | Gradual over a day or two |\n| Signs | High-riding testis, absent cremasteric reflex | Tender epididymis, urethral discharge, fever; pain may ease on elevation |\n| Action | **Emergency scrotal exploration** (do not delay for ultrasound) | Antibiotics after testing |\n\nWhen in doubt in a young man, treat as torsion."
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment (Australian STI Management Guidelines)",
+          "body": "**Chlamydia (uncomplicated):**\n- **Doxycycline 100 mg orally twice daily for 7 days** (first line, more effective than azithromycin, especially for rectal infection).\n- **Pregnancy:** **azithromycin 1 g orally, single dose** (doxycycline is avoided in pregnancy), with a **test of cure** about 4 weeks after treatment.\n- **LGV:** doxycycline for **3 weeks**.\n\n**Gonorrhoea (uncomplicated anogenital or pharyngeal):**\n- **Ceftriaxone 500 mg IM** (in 2 mL of 1% lignocaine) **plus azithromycin 1 g orally**, both as single doses.\n- In some remote areas with low resistance, alternative regimens are used for uncomplicated urogenital gonorrhoea according to local guidelines.\n- **Test of cure** is recommended for **pharyngeal** infection, when a non-standard regimen was used, or if symptoms persist, because treatment failure and resistance occur (timing and method per current guidelines).\n\n**M. genitalium:** **resistance-guided** therapy: **doxycycline for 7 days** first (lowers organism load), then **azithromycin** if the strain is macrolide-sensitive or **moxifloxacin** if macrolide-resistant. Test of cure is recommended.\n\n**Epididymo-orchitis (STI-related):** ceftriaxone plus doxycycline for 14 days (azithromycin added if gonorrhoea is likely); in older men with urinary pathogens, treat as for UTI.\n\n**For all:** no sex for **7 days after treatment** and until partners are treated; **partner notification** (6-month look-back), empirical treatment of contacts; **retest at 3 months** for reinfection. Notify as required."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- First line chlamydia: **doxycycline 7 days**; pregnant: **azithromycin 1 g** and a test of cure.\n- Gonorrhoea: **ceftriaxone 500 mg IM plus azithromycin 1 g**; take a **culture before** treating.\n- Persistent urethritis after correct treatment and no re-exposure: test for **M. genitalium**.\n- Fever, joint pain and pustules in a young woman: **disseminated gonococcal infection**.\n- Young man with acute scrotal pain: exclude **torsion** before diagnosing epididymo-orchitis.\n- Contacts of chlamydia or gonorrhoea are tested **and** treated at the same visit, without waiting for results."
+        }
+      ],
+      "keyPoints": [
+        "Chlamydia is the most commonly notified STI; most infections are asymptomatic.",
+        "Chlamydia: doxycycline 100 mg bd for 7 days; azithromycin 1 g in pregnancy with a test of cure.",
+        "Gonorrhoea: ceftriaxone 500 mg IM plus azithromycin 1 g; culture first for resistance.",
+        "Test of cure for pharyngeal gonorrhoea, pregnancy (chlamydia) and M. genitalium.",
+        "M. genitalium: test only in persistent symptoms or contacts; treat with doxycycline then resistance-guided azithromycin or moxifloxacin.",
+        "Complications: PID, tubal infertility, ectopic pregnancy, epididymo-orchitis, disseminated gonococcal infection.",
+        "Retest at 3 months; partners from the previous 6 months need testing and treatment."
+      ],
+      "redFlags": [
+        "Acute testicular pain in a young man (exclude torsion first)",
+        "Fever, polyarthralgia, tenosynovitis and pustules (disseminated gonococcal infection)",
+        "Purulent conjunctivitis in a neonate (gonococcal ophthalmia neonatorum)",
+        "Pelvic pain with cervical motion tenderness (PID)"
+      ],
+      "contrast": [
+        {
+          "aspect": "First-line chlamydia treatment",
+          "india": "Azithromycin 1 g single dose is widely used for convenience.",
+          "australia": "Doxycycline 7 days is first line; azithromycin is reserved for pregnancy or adherence concerns."
+        },
+        {
+          "aspect": "Gonorrhoea management",
+          "india": "Syndromic treatment of urethral discharge, often without culture.",
+          "australia": "Culture before treatment for resistance surveillance, dual therapy with ceftriaxone and azithromycin, test of cure for pharyngeal infection."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "First-line treatment for uncomplicated chlamydia?",
+          "back": "Doxycycline 100 mg orally twice daily for 7 days."
+        },
+        {
+          "front": "Chlamydia treatment in pregnancy?",
+          "back": "Azithromycin 1 g orally single dose, with test of cure."
+        },
+        {
+          "front": "Gonorrhoea treatment?",
+          "back": "Ceftriaxone 500 mg IM (in 1% lignocaine) plus azithromycin 1 g orally."
+        },
+        {
+          "front": "What should be collected before treating gonorrhoea?",
+          "back": "A culture swab from the infected site for antibiotic susceptibility."
+        },
+        {
+          "front": "When is M. genitalium testing indicated?",
+          "back": "Persistent or recurrent urethritis/cervicitis, PID, and contacts (not routine screening)."
+        },
+        {
+          "front": "Treatment of LGV?",
+          "back": "Doxycycline for 3 weeks."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "sexual-health--chlamydia-gonorrhoea--q1",
+          "discipline": "womens-health",
+          "topic": "sexual-health",
+          "difficulty": "foundation",
+          "stem": "A 20-year-old woman has a positive chlamydia NAAT from a self-collected vaginal swab taken at a routine visit. She has no symptoms. Pregnancy test is negative. She has no drug allergies.\n\nWhat is the most appropriate treatment?",
+          "options": [
+            "Azithromycin 1 g orally, single dose",
+            "Ceftriaxone 500 mg IM, single dose",
+            "Amoxicillin 500 mg orally three times daily for 7 days",
+            "Doxycycline 100 mg orally twice daily for 7 days",
+            "Metronidazole 400 mg orally twice daily for 7 days"
+          ],
+          "answer": 3,
+          "explanation": "The Australian STI Management Guidelines recommend **doxycycline 100 mg twice daily for 7 days** as first-line treatment for uncomplicated chlamydia. It achieves higher cure rates than single-dose azithromycin, particularly because unrecognised **rectal** infection is common in women and is better treated by doxycycline.\n\nAzithromycin is used in pregnancy (with a test of cure). She should abstain from sex for 7 days, notify partners from the past 6 months, and be retested at 3 months.",
+          "whyWrong": [
+            "Azithromycin is second line outside pregnancy because of lower efficacy, especially for rectal infection.",
+            "Ceftriaxone treats gonorrhoea, not chlamydia.",
+            "Amoxicillin is not a standard chlamydia treatment outside special circumstances.",
+            "",
+            "Metronidazole treats trichomonas and BV, not chlamydia."
+          ],
+          "tags": [
+            "chlamydia",
+            "doxycycline",
+            "treatment"
+          ]
+        },
+        {
+          "id": "sexual-health--chlamydia-gonorrhoea--q2",
+          "discipline": "womens-health",
+          "topic": "sexual-health",
+          "difficulty": "core",
+          "stem": "A 26-year-old man presents to a Sydney sexual health clinic with 3 days of dysuria and a thick yellow urethral discharge after sex with a new female partner. Gram stain of the discharge shows gram-negative intracellular diplococci.\n\nIn addition to NAAT testing, what is the most appropriate management?",
+          "options": [
+            "Take a urethral culture, then give ceftriaxone 500 mg IM plus azithromycin 1 g orally",
+            "Give ciprofloxacin 500 mg orally as a single dose",
+            "Give azithromycin 2 g orally alone",
+            "Give doxycycline for 7 days and await culture",
+            "Wait for NAAT results before any treatment"
+          ],
+          "answer": 0,
+          "explanation": "Gram-negative intracellular diplococci in a man with purulent urethritis confirm **gonorrhoea**. Take a **culture before treatment** so that antimicrobial susceptibility can be tested (surveillance of resistance is a national priority), then treat immediately with **ceftriaxone 500 mg IM plus azithromycin 1 g orally**.\n\nDual therapy also covers chlamydia coinfection partially and may slow resistance. Partner notification, 7 days' abstinence, HIV and syphilis testing, and retesting at 3 months follow.",
+          "whyWrong": [
+            "",
+            "Ciprofloxacin resistance in gonorrhoea is widespread; it is not recommended empirically.",
+            "Azithromycin monotherapy promotes resistance and is not recommended.",
+            "Doxycycline does not reliably treat gonorrhoea.",
+            "The Gram stain already confirms the diagnosis; treatment should not be delayed."
+          ],
+          "ausPearl": "Australia runs the national gonococcal antimicrobial surveillance program, which relies on cultures taken before treatment.",
+          "tags": [
+            "gonorrhoea",
+            "ceftriaxone",
+            "culture"
+          ]
+        },
+        {
+          "id": "sexual-health--chlamydia-gonorrhoea--q3",
+          "discipline": "womens-health",
+          "topic": "sexual-health",
+          "difficulty": "exam",
+          "stem": "A 30-year-old man was treated with doxycycline for 7 days for NAAT-negative non-gonococcal urethritis. Three weeks later his dysuria and clear urethral discharge persist. He reports no new sexual contacts, and his only partner was treated at the same time. Repeat chlamydia and gonorrhoea NAATs are negative.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Repeat doxycycline for 14 days",
+            "Refer for cystoscopy",
+            "Reassure him that symptoms will settle",
+            "Give ceftriaxone 500 mg IM",
+            "Test for Mycoplasma genitalium with macrolide resistance testing"
+          ],
+          "answer": 4,
+          "explanation": "**Persistent urethritis** after appropriate treatment without re-exposure, with negative chlamydia and gonorrhoea tests, is a classic indication for ***Mycoplasma genitalium*** testing, including **macrolide resistance** testing. *M. genitalium* lacks a cell wall and is often not cured by doxycycline alone.\n\nTreatment is resistance-guided: doxycycline first, then azithromycin (if macrolide-sensitive) or moxifloxacin (if resistant), with a test of cure. *Trichomonas vaginalis* is another cause worth testing.",
+          "whyWrong": [
+            "Repeating doxycycline does not address the likely cause.",
+            "Cystoscopy is not indicated for persistent urethritis in a young man at this stage.",
+            "Untreated M. genitalium persists and can be transmitted.",
+            "Gonorrhoea has been excluded by NAAT.",
+            ""
+          ],
+          "tags": [
+            "mycoplasma-genitalium",
+            "urethritis",
+            "resistance"
+          ]
+        },
+        {
+          "id": "sexual-health--chlamydia-gonorrhoea--q4",
+          "discipline": "womens-health",
+          "topic": "sexual-health",
+          "difficulty": "core",
+          "stem": "A 23-year-old woman at 14 weeks gestation has a positive chlamydia NAAT on antenatal screening. She has no drug allergies and no symptoms.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Doxycycline 100 mg twice daily for 7 days",
+            "No treatment until after delivery",
+            "Azithromycin 1 g orally, single dose, with a test of cure about 4 weeks later",
+            "Ceftriaxone 500 mg IM single dose",
+            "Amoxicillin 500 mg three times daily for 7 days without a test of cure"
+          ],
+          "answer": 2,
+          "explanation": "In pregnancy, **doxycycline is avoided** (tetracyclines affect fetal bone and teeth), so **azithromycin 1 g single dose** is the recommended treatment. A **test of cure** (repeat NAAT about 4 weeks after treatment) is recommended in pregnancy because of lower cure rates and the consequences of persistent infection: preterm birth risk and neonatal **conjunctivitis and pneumonia**.\n\nPartner treatment is essential to prevent reinfection, and she should be retested at 3 months or in the third trimester.",
+          "whyWrong": [
+            "Doxycycline is contraindicated in pregnancy.",
+            "Untreated chlamydia risks neonatal conjunctivitis and pneumonia.",
+            "",
+            "Ceftriaxone treats gonorrhoea, not chlamydia.",
+            "Amoxicillin is an alternative only in specific circumstances and would still need a test of cure."
+          ],
+          "tags": [
+            "chlamydia",
+            "pregnancy",
+            "azithromycin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sexual-health--syphilis",
+      "title": "Syphilis",
+      "minutes": 16,
+      "objectives": [
+        "Recognise the stages of syphilis from their clinical features",
+        "Interpret treponemal and non-treponemal serology, including RPR for monitoring",
+        "Treat syphilis with benzathine benzylpenicillin according to stage",
+        "Explain the northern Australian outbreak and prevention of congenital syphilis"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why syphilis is a priority",
+          "body": "Infectious syphilis has risen sharply in Australia. Two populations drive it: **GBMSM** in cities, and **young Aboriginal and Torres Strait Islander people** in northern and central Australia, where an **outbreak began in 2011** (in north-west Queensland) and spread across Queensland, the Northern Territory, Western Australia and South Australia. Rising infection in women of reproductive age has led to preventable **congenital syphilis** cases and infant deaths. Every doctor is expected to have a **low threshold for testing**, test all pregnant women, and treat promptly.\n\nClinical presentations are easily missed: a chancre in the mouth, anus or on the cervix goes unnoticed, and the secondary rash can be faint or mistaken for a drug eruption or pityriasis rosea. That is why serological screening, not symptoms, is the backbone of control.\n\nSyphilis (caused by *Treponema pallidum*) is notifiable, with notification by both laboratory and doctor in many states."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Natural history",
+          "body": "*T. pallidum* is a spirochaete that enters through mucosa or broken skin, multiplies locally and disseminates within hours via lymphatics and blood. It cannot be cultured routinely, so diagnosis relies on PCR of lesions and serology.\n\n| Stage | Timing | Features |\n|---|---|---|\n| **Primary** | 10-90 days (average 3 weeks) | **Chancre**: single, **painless**, indurated, clean-based ulcer at the inoculation site (genital, anal, oral), with painless regional lymphadenopathy; heals in 3-6 weeks. Anal and cervical chancres are often unnoticed. |\n| **Secondary** | 6 weeks to 6 months | Systemic: generalised **non-itchy maculopapular rash including palms and soles**, fever, lymphadenopathy, **condylomata lata** (moist, flat, wart-like lesions), mucous patches, patchy alopecia, hepatitis, meningitis, uveitis |\n| **Early latent** | Infected less than 2 years, no signs | Still potentially infectious |\n| **Late latent** | More than 2 years, or unknown duration | Not sexually infectious but can pass to a fetus |\n| **Tertiary** | Years to decades | Gummas, cardiovascular (aortitis, aortic regurgitation), neurosyphilis (tabes dorsalis, general paresis, Argyll Robertson pupils) |\n\n**Neurosyphilis and ocular or otic syphilis** can occur at **any** stage. **Congenital syphilis** results from transplacental transmission at any stage (highest risk in early syphilis): miscarriage, stillbirth, hydrops, hepatosplenomegaly, rash, snuffles, and later bone and dental changes."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Serology made simple",
+          "body": "- **PCR swab of any ulcer or moist lesion** (chancre, condylomata lata): direct evidence, positive before serology.\n- **Treponemal tests** (EIA/CLIA screening, confirmed by **TPPA**): detect antibody specific to *T. pallidum*. They become positive early and **usually stay positive for life**, so they cannot distinguish current from past treated infection.\n- **Non-treponemal test (RPR)**: measures a non-specific antibody reflecting **disease activity**, reported as a titre (e.g. 1:32). It rises in active infection and falls after treatment. A **fourfold (two-dilution) drop** indicates adequate response; a fourfold rise indicates reinfection or treatment failure. False positives occur (pregnancy, autoimmune disease, other infections).\n\n| Treponemal | RPR | Interpretation |\n|---|---|---|\n| Positive | Positive | Active infection (or recently treated); stage clinically |\n| Positive | Negative | Past treated syphilis, very early infection, or late latent |\n| Negative | Positive | Likely biological false positive (repeat; consider very early infection) |\n| Negative | Negative | No syphilis (or incubating: repeat at 12 weeks after exposure) |\n\nCheck old results and treatment history (state syphilis registers help). Test for HIV and other STIs. **Lumbar puncture** if neurological signs; urgent **ophthalmology** review for visual symptoms."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Genital ulcers",
+          "body": "| Condition | Ulcer | Nodes |\n|---|---|---|\n| **Syphilis** | Single, **painless**, indurated, clean base | Painless, rubbery |\n| **Genital herpes** | Multiple, **painful**, shallow, preceded by vesicles | Tender, bilateral |\n| Donovanosis (granuloma inguinale) | Painless, beefy-red, bleeds easily; now rare after an elimination program in remote Australia | Pseudo-buboes |\n| LGV | Small transient ulcer, then proctitis or buboes | Tender, matted |\n| Non-infective (Behcet, fixed drug eruption, trauma) | Variable | Usually none |\n\nAny genital ulcer should be tested for **both HSV and syphilis by PCR**, plus syphilis serology, regardless of how typical it looks."
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment",
+          "body": "**Early syphilis (primary, secondary, early latent):**\n- **Benzathine benzylpenicillin 2.4 million units (1.8 g) IM, single dose** (usually split between both buttocks).\n\n**Late latent or unknown duration:** benzathine benzylpenicillin 2.4 million units IM **weekly for 3 weeks**.\n\n**Neurosyphilis, ocular or otic syphilis:** IV benzylpenicillin for about 2 weeks (specialist-managed).\n\n**Penicillin allergy:** doxycycline for 14 days (early) or 28 days (late) outside pregnancy. **In pregnancy there is no adequate alternative**: confirm the allergy and arrange **penicillin desensitisation**.\n\n**Jarisch-Herxheimer reaction:** fever, myalgia, headache and worsening rash within 24 hours of treatment, due to cytokine release from dying spirochaetes. Warn patients; it is managed with paracetamol and is not an allergy. In pregnancy it can trigger contractions or fetal distress.\n\n**Follow-up:** RPR at 3, 6 and 12 months to confirm a fourfold fall. Partner notification (look-back **3 months plus duration of symptoms** for primary, longer for secondary and early latent), empirical treatment of recent contacts, no sex until 7 days after treatment and lesions heal.\n\n**Pregnancy:** screen at the **first antenatal visit**; in outbreak regions and for women at ongoing risk, **repeat testing later in pregnancy** (commonly at 28 and 36 weeks, at birth and postnatally; follow current national and state guidance). Treat promptly with penicillin; the neonate is assessed and managed by paediatrics."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- **Painless** genital ulcer with rubbery nodes: syphilis; **painful** multiple ulcers: herpes.\n- Rash on **palms and soles** in a young adult: secondary syphilis until proven otherwise.\n- The monitoring test is the **RPR**; the treponemal test stays positive.\n- Early syphilis: **benzathine benzylpenicillin 2.4 MU IM once**; late latent: weekly for 3 weeks.\n- Fever and myalgia hours after penicillin: Jarisch-Herxheimer, not allergy.\n- Penicillin allergy in pregnancy: **desensitise**."
+        }
+      ],
+      "keyPoints": [
+        "An infectious syphilis outbreak has affected young Aboriginal and Torres Strait Islander people in northern and central Australia since 2011; test widely.",
+        "Primary: single painless indurated chancre. Secondary: rash on palms and soles, condylomata lata.",
+        "Treponemal tests stay positive for life; RPR reflects activity and is used to monitor treatment.",
+        "Early syphilis: benzathine benzylpenicillin 2.4 million units IM once; late latent: weekly for 3 weeks.",
+        "Penicillin-allergic pregnant women need desensitisation, not alternatives.",
+        "Warn about the Jarisch-Herxheimer reaction within 24 hours of treatment.",
+        "Screen all pregnant women at the first visit and repeat later in pregnancy in outbreak regions."
+      ],
+      "redFlags": [
+        "Visual or hearing symptoms with syphilis (ocular or otic syphilis)",
+        "Headache, confusion or cranial nerve palsy (neurosyphilis)",
+        "Syphilis in pregnancy (congenital syphilis risk)",
+        "Rising RPR titre after treatment (reinfection or failure)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Epidemiology",
+          "india": "Endemic; tested mainly in antenatal and STI clinics.",
+          "australia": "Outbreak among young First Nations people in the north and among GBMSM; repeated antenatal testing in outbreak regions."
+        },
+        {
+          "aspect": "Treatment formulation",
+          "india": "Benzathine penicillin shortages have at times led to alternative regimens.",
+          "australia": "Benzathine benzylpenicillin 2.4 million units IM remains standard; allergic pregnant women are desensitised."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Treatment of early syphilis?",
+          "back": "Benzathine benzylpenicillin 2.4 million units (1.8 g) IM, single dose."
+        },
+        {
+          "front": "Treatment of late latent syphilis?",
+          "back": "Benzathine benzylpenicillin 2.4 million units IM weekly for 3 weeks."
+        },
+        {
+          "front": "Which syphilis test monitors treatment response?",
+          "back": "RPR (non-treponemal); a fourfold fall indicates response."
+        },
+        {
+          "front": "Classic primary syphilis lesion?",
+          "back": "Single, painless, indurated, clean-based ulcer (chancre)."
+        },
+        {
+          "front": "Fever and myalgia within 24 hours of penicillin for syphilis?",
+          "back": "Jarisch-Herxheimer reaction."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "sexual-health--syphilis--q1",
+          "discipline": "womens-health",
+          "topic": "sexual-health",
+          "difficulty": "core",
+          "stem": "A 19-year-old Aboriginal woman attends a remote clinic in the Northern Territory with a non-itchy rash over her trunk, palms and soles for 1 week, with fever and malaise. She recalls a painless sore on her vulva 2 months ago that healed. She is not pregnant. Syphilis EIA is positive, TPPA positive, RPR 1:64.\n\nWhat is the most appropriate treatment?",
+          "options": [
+            "Benzathine benzylpenicillin 2.4 million units IM weekly for 3 weeks",
+            "Doxycycline 100 mg orally twice daily for 7 days",
+            "Benzathine benzylpenicillin 2.4 million units IM as a single dose",
+            "Azithromycin 1 g orally single dose",
+            "Intravenous benzylpenicillin for 14 days"
+          ],
+          "answer": 2,
+          "explanation": "A rash on the **palms and soles** with systemic symptoms, following a **painless genital ulcer** 2 months earlier, with positive treponemal tests and a high RPR, is **secondary syphilis**. Early syphilis (primary, secondary, early latent) is treated with **benzathine benzylpenicillin 2.4 million units IM as a single dose**.\n\nWarn her about the Jarisch-Herxheimer reaction, notify public health, start partner notification (including sexual contacts over the previous months), test for HIV and other STIs, and repeat the RPR at 3, 6 and 12 months to confirm a fourfold fall.",
+          "whyWrong": [
+            "Three weekly doses are for late latent or unknown-duration syphilis.",
+            "Doxycycline is an alternative for penicillin allergy, and the course is 14 days, not 7.",
+            "",
+            "Azithromycin is not recommended due to resistance and lower efficacy.",
+            "IV penicillin is for neurosyphilis or ocular syphilis, not described here."
+          ],
+          "ausPearl": "Remote clinics in northern Australia follow outbreak response protocols with low thresholds for testing and treatment, and point-of-care syphilis testing in some sites.",
+          "tags": [
+            "syphilis",
+            "secondary-syphilis",
+            "penicillin"
+          ]
+        },
+        {
+          "id": "sexual-health--syphilis--q2",
+          "discipline": "womens-health",
+          "topic": "sexual-health",
+          "difficulty": "exam",
+          "stem": "A 34-year-old man was treated for secondary syphilis with benzathine benzylpenicillin 5 years ago; his RPR fell appropriately. At a routine screen today, his syphilis EIA is positive, TPPA positive and RPR non-reactive. He has no symptoms and no rash.\n\nWhat is the most likely interpretation?",
+          "options": [
+            "Serological scar from previously treated syphilis",
+            "Reinfection requiring treatment",
+            "Biological false positive",
+            "Active untreated primary syphilis",
+            "Neurosyphilis"
+          ],
+          "answer": 0,
+          "explanation": "**Treponemal tests (EIA, TPPA) usually stay positive for life** after syphilis, even after successful treatment. The **RPR** reflects disease activity; a **non-reactive RPR** in a man with documented adequate treatment and an appropriate fall in titre means a **serological scar** (past treated infection), with no need for re-treatment.\n\nReinfection would show a rise in RPR (fourfold or more) or new clinical signs. Always check previous results and treatment records.",
+          "whyWrong": [
+            "",
+            "Reinfection would be suggested by a rising RPR titre.",
+            "A biological false positive is a positive RPR with a negative treponemal test.",
+            "Active infection would usually give a reactive RPR and he has no signs.",
+            "Neurosyphilis needs neurological features and CSF testing."
+          ],
+          "tags": [
+            "syphilis",
+            "serology",
+            "interpretation"
+          ]
+        },
+        {
+          "id": "sexual-health--syphilis--q3",
+          "discipline": "womens-health",
+          "topic": "sexual-health",
+          "difficulty": "core",
+          "stem": "A 25-year-old woman at 16 weeks gestation has positive syphilis serology (EIA and TPPA positive, RPR 1:16) at her first antenatal visit. She has no previous syphilis testing or treatment. She reports an anaphylactic reaction to penicillin as a child, confirmed on review of records.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Doxycycline 100 mg twice daily for 28 days",
+            "Azithromycin 2 g orally",
+            "Delay treatment until after delivery",
+            "Refer for penicillin desensitisation, then benzathine benzylpenicillin",
+            "Ceftriaxone 1 g IM daily for 10 days as definitive treatment"
+          ],
+          "answer": 3,
+          "explanation": "This is syphilis of unknown duration in pregnancy, which risks **congenital syphilis**, miscarriage and stillbirth. **Penicillin is the only treatment reliably shown to prevent congenital syphilis**. Doxycycline is contraindicated in pregnancy, and azithromycin and ceftriaxone are not adequate alternatives.\n\nWith a genuine penicillin allergy, the standard is **specialist-supervised penicillin desensitisation**, then benzathine benzylpenicillin (weekly for 3 weeks for unknown duration). Monitor for Jarisch-Herxheimer reaction and fetal wellbeing, and ensure partner treatment.",
+          "whyWrong": [
+            "Doxycycline is contraindicated in pregnancy.",
+            "Azithromycin resistance is common and it does not reliably prevent congenital syphilis.",
+            "Delay allows fetal infection.",
+            "",
+            "Ceftriaxone is not an established definitive treatment for syphilis in pregnancy."
+          ],
+          "tags": [
+            "syphilis",
+            "pregnancy",
+            "desensitisation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sexual-health--hiv-prep-pep",
+      "title": "HIV, PrEP, PEP and blood-borne viruses",
+      "minutes": 16,
+      "objectives": [
+        "Recognise HIV seroconversion illness and know how to test for HIV",
+        "Prescribe and monitor HIV PrEP for people at risk",
+        "Decide when to give HIV PEP and start it within 72 hours",
+        "Integrate hepatitis B and other blood-borne virus care into sexual health"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "HIV in Australia",
+          "body": "Australia has a comparatively low and falling rate of new HIV diagnoses, thanks to combination prevention: condoms, **treatment as prevention** (people with an undetectable viral load do not transmit HIV sexually: **U=U**), widespread testing, and **pre-exposure prophylaxis (PrEP)**, which has been **PBS-subsidised since 2018**. New infections still occur, and a growing share are among heterosexual people, people born overseas, and Aboriginal and Torres Strait Islander people, who are more likely to be diagnosed late. HIV is notifiable.\n\nHIV care is specialised but GPs are central to testing, PrEP and PEP. Some GPs are accredited s100 prescribers of antiretrovirals; any GP can prescribe PrEP."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Infection and the window period",
+          "body": "HIV, a retrovirus, infects CD4 T cells. After exposure there is intense viraemia over the first weeks (the most infectious period), then a set point, then progressive CD4 decline over years, leading to opportunistic infections (AIDS) if untreated.\n\n**Seroconversion (acute HIV) illness** occurs in many people 2-4 weeks after infection: fever, **sore throat, rash** (maculopapular, often trunk), lymphadenopathy, myalgia, mouth ulcers, diarrhoea, sometimes aseptic meningitis. It looks like glandular fever or flu, so the key is to **ask about risk** and test.\n\n**Testing:** a **4th-generation combined antigen/antibody test** detects p24 antigen and antibody; most infections are detectable by about **6 weeks** (repeat at 12 weeks after a specific exposure if negative). A reactive screen is confirmed by Western blot or immunoblot and viral load. In seroconversion, p24 antigen or HIV RNA may be positive before antibodies. **Rapid point-of-care tests** and **HIV self-tests** (available online and in pharmacies) broaden access; a reactive self-test needs laboratory confirmation. Consent and pre-test discussion should be proportionate; result delivery should be in person for positive results with linkage to care."
+        },
+        {
+          "kind": "management",
+          "heading": "PrEP: pre-exposure prophylaxis",
+          "body": "**Who:** people at substantial risk of HIV: GBMSM and trans people with condomless anal sex or a recent STI (especially rectal STI or syphilis), **HIV-negative partners of people with a detectable viral load**, people who inject drugs and share equipment, and heterosexual people with high-risk partners.\n\n**Drug:** **tenofovir disoproxil + emtricitabine** (one tablet).\n- **Daily** dosing is suitable for everyone. Protection for receptive anal sex is reached after about 7 daily doses; for vaginal sex, longer is needed (around 7 days is generally advised in Australian guidance, check ASHM).\n- **On-demand (event-driven) \"2-1-1\"** dosing is an option **for cisgender men who have sex with men only**: two tablets 2-24 hours before sex, one 24 hours after the first dose, and one 24 hours later.\n\n**Before starting and during PrEP:**\n- **Exclude HIV** (4th-generation test) before starting and **every 3 months**; don't start PrEP in someone with possible acute HIV (resistance risk).\n- **Renal function** (eGFR) at baseline and periodically (tenofovir disoproxil can affect the kidneys).\n- **Hepatitis B serology**: vaccinate if non-immune. In people **with chronic hepatitis B**, stopping PrEP can cause a **hepatitis flare**, so on-demand dosing is not used and they need specialist input.\n- STI screen every 3 months (PrEP does not prevent other STIs).\n- Pregnancy test where relevant; PrEP is compatible with pregnancy and breastfeeding.\n\n**Doxycycline post-exposure prophylaxis (doxy-PEP)** after condomless sex reduces bacterial STIs (especially syphilis and chlamydia) in GBMSM; Australian guidance (ASHM) supports offering it to selected higher-risk GBMSM, balancing the concern about antimicrobial resistance."
+        },
+        {
+          "kind": "management",
+          "heading": "PEP: post-exposure prophylaxis",
+          "body": "**PEP must start as soon as possible and within 72 hours** of exposure; the earlier, the better. Beyond 72 hours it is not recommended. Assess:\n- **Type of exposure:** receptive anal sex carries the highest sexual risk, then insertive anal, then vaginal; oral sex carries very low risk. Needlestick injuries and sharing injecting equipment also qualify.\n- **Source:** known HIV-positive with a **detectable** viral load, or unknown status from a high-prevalence group (e.g. GBMSM, from a high-prevalence country, injecting drug user). If the source is known to have an **undetectable viral load, PEP is not recommended** for sexual exposure.\n\n**Regimen:** **28 days** of antiretrovirals: tenofovir disoproxil + emtricitabine (a 2-drug regimen), with a third drug (commonly dolutegravir) when the risk is highest (e.g. receptive anal sex with an HIV-positive source with detectable viral load). Follow the ASHM PEP guidelines. PEP is available through EDs, sexual health clinics and some GPs and pharmacies; call a state PEP hotline if unsure.\n\n**Also:** baseline HIV test (and repeat at around 6 and 12 weeks), hepatitis B status and vaccination or immunoglobulin, hepatitis C, syphilis and STI testing, emergency contraception, and **transition to PrEP** afterwards if risk is ongoing."
+        },
+        {
+          "kind": "application",
+          "heading": "Hepatitis B and other blood-borne viruses in sexual health",
+          "body": "- **Hepatitis B:** sexually and vertically transmitted; more common in people born in Asia-Pacific and Africa and in Aboriginal and Torres Strait Islander people. Check HBsAg, anti-HBs and anti-HBc; vaccinate non-immune people at risk (GBMSM, sex workers, people who inject drugs, partners of people with HBV). Chronic HBV needs lifelong monitoring for cirrhosis and hepatocellular carcinoma.\n- **Hepatitis C:** mainly blood-borne (injecting); sexual transmission occurs in GBMSM, especially with HIV. Direct-acting antivirals are PBS-listed and curative; Australia aims for elimination.\n- **Hepatitis A:** vaccinate GBMSM (outbreaks linked to sexual transmission).\n- **Mpox:** vaccination (JYNNEOS) is recommended for GBMSM at risk.\n- **HPV:** vaccination through the school program; catch-up for GBMSM and others per the Australian Immunisation Handbook."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- Fever, sore throat and rash 3 weeks after a risk exposure: **acute HIV**; request a 4th-generation test (and viral load).\n- PEP: **within 72 hours**, 28 days. At 80 hours: no PEP, test and follow up.\n- Before PrEP: **HIV test, renal function, hepatitis B**; then **3-monthly** HIV and STI testing.\n- On-demand PrEP: only for cis men who have sex with men; not for people with chronic hepatitis B.\n- Partner with an undetectable viral load: **U=U**; PEP not required."
+        }
+      ],
+      "keyPoints": [
+        "Acute HIV looks like glandular fever: fever, sore throat, rash, lymphadenopathy 2-4 weeks after exposure.",
+        "4th-generation antigen/antibody tests detect most infections by 6 weeks; repeat at 12 weeks after an exposure.",
+        "PrEP (tenofovir disoproxil + emtricitabine) is PBS-subsidised; daily for all, 2-1-1 on-demand for cis MSM only.",
+        "PrEP monitoring: HIV test and STI screen every 3 months, renal function, hepatitis B status.",
+        "PEP must start within 72 hours and continue for 28 days; not needed if the source has an undetectable viral load.",
+        "U=U: undetectable viral load means no sexual transmission.",
+        "Vaccinate for hepatitis A and B (and HPV, mpox) in at-risk groups."
+      ],
+      "redFlags": [
+        "Glandular-fever-like illness after a risk exposure (acute HIV)",
+        "HIV exposure within 72 hours (time-critical PEP)",
+        "Stopping PrEP in someone with chronic hepatitis B (flare)",
+        "Late HIV diagnosis with opportunistic infection (e.g. PJP, oral candida)"
+      ],
+      "contrast": [
+        {
+          "aspect": "PrEP access",
+          "india": "Available mainly through select programs; not widely used.",
+          "australia": "PBS-subsidised since 2018, prescribed by any GP, with 3-monthly monitoring."
+        },
+        {
+          "aspect": "HIV testing",
+          "india": "Mostly clinic-based with counselling requirements.",
+          "australia": "Point-of-care tests and HIV self-tests are available; testing is normalised in routine sexual health checks."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Time limit for starting HIV PEP?",
+          "back": "As soon as possible, within 72 hours."
+        },
+        {
+          "front": "Duration of HIV PEP?",
+          "back": "28 days."
+        },
+        {
+          "front": "Drug used for PrEP in Australia?",
+          "back": "Tenofovir disoproxil + emtricitabine."
+        },
+        {
+          "front": "Who can use on-demand (2-1-1) PrEP?",
+          "back": "Cisgender men who have sex with men (not people with chronic hepatitis B)."
+        },
+        {
+          "front": "Monitoring interval for HIV testing on PrEP?",
+          "back": "Every 3 months."
+        },
+        {
+          "front": "What does U=U mean?",
+          "back": "Undetectable viral load = untransmittable (no sexual transmission)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "sexual-health--hiv-prep-pep--q1",
+          "discipline": "womens-health",
+          "topic": "sexual-health",
+          "difficulty": "foundation",
+          "stem": "A 29-year-old man presents to a Sydney ED 36 hours after condomless receptive anal sex with a casual male partner whose HIV status is unknown. The condom broke. He is not on PrEP. He is well.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Test for HIV now and treat only if positive",
+            "Start HIV post-exposure prophylaxis now for 28 days, after baseline testing",
+            "Reassure him; PEP is only needed after needlestick injuries",
+            "Test for HIV in 6 weeks before deciding on treatment",
+            "Start PrEP daily and continue indefinitely without testing"
+          ],
+          "answer": 1,
+          "explanation": "Condomless **receptive anal sex** with a male partner of unknown status (a high-prevalence group) is a **significant HIV exposure**. He is within the **72-hour window**, so **PEP** should start as soon as possible, after baseline HIV (4th-generation), hepatitis B, syphilis and STI testing, and continue for **28 days**.\n\nFollow-up HIV testing is done at around 6 and 12 weeks. At the end of PEP, transition to **PrEP** is recommended if he remains at risk.",
+          "whyWrong": [
+            "A baseline test cannot detect infection acquired 36 hours ago; PEP must not wait.",
+            "",
+            "Sexual exposures qualify for PEP; receptive anal sex is the highest-risk sexual exposure.",
+            "Waiting 6 weeks forfeits the window in which PEP works.",
+            "PrEP is not a substitute for PEP after a recent exposure, and must never start without HIV testing."
+          ],
+          "ausPearl": "Each Australian state runs PEP services and hotlines; PEP can be accessed through EDs and sexual health clinics without a Medicare card in public clinics.",
+          "tags": [
+            "hiv",
+            "pep",
+            "timing"
+          ]
+        },
+        {
+          "id": "sexual-health--hiv-prep-pep--q2",
+          "discipline": "womens-health",
+          "topic": "sexual-health",
+          "difficulty": "core",
+          "stem": "A 26-year-old man who has sex with men asks about daily HIV PrEP. He had rectal gonorrhoea 2 months ago and uses condoms inconsistently. A 4th-generation HIV test today is negative. He was born in Vietnam and has never had hepatitis B testing.\n\nWhich additional baseline test is most important before prescribing?",
+          "options": [
+            "HLA-B*5701",
+            "CD4 count",
+            "Liver ultrasound",
+            "Fasting lipids",
+            "Hepatitis B serology"
+          ],
+          "answer": 4,
+          "explanation": "Before PrEP, check **hepatitis B serology** (HBsAg, anti-HBs, anti-HBc), alongside HIV testing and **renal function**. Tenofovir and emtricitabine are active against hepatitis B. In someone with **chronic hepatitis B**, stopping or intermittently taking PrEP can trigger a severe **hepatitis flare**, so on-demand PrEP is avoided and specialist input is needed. His birth in a high-prevalence country makes this especially relevant. If non-immune, he should be vaccinated.\n\nCD4 count is for people living with HIV. HLA-B*5701 testing is for abacavir, which is not part of PrEP.",
+          "whyWrong": [
+            "HLA-B*5701 is for abacavir hypersensitivity, not tenofovir/emtricitabine.",
+            "CD4 is used in HIV-positive people, not in PrEP assessment.",
+            "Imaging is not needed before PrEP.",
+            "Lipids are not a PrEP monitoring requirement.",
+            ""
+          ],
+          "tags": [
+            "prep",
+            "hepatitis-b",
+            "monitoring"
+          ]
+        },
+        {
+          "id": "sexual-health--hiv-prep-pep--q3",
+          "discipline": "womens-health",
+          "topic": "sexual-health",
+          "difficulty": "exam",
+          "stem": "A 24-year-old woman presents with 5 days of fever, sore throat, a faint maculopapular rash on her trunk, mouth ulcers and cervical lymphadenopathy. Three weeks ago she had condomless vaginal sex with a new partner who she later learned injects drugs. Monospot test is negative.\n\nWhat is the most appropriate investigation?",
+          "options": [
+            "Repeat monospot in 2 weeks",
+            "HIV 4th-generation antigen/antibody test with HIV viral load",
+            "Throat swab culture only",
+            "Epstein-Barr virus serology only",
+            "HIV antibody-only rapid test and reassure if negative"
+          ],
+          "answer": 1,
+          "explanation": "A glandular-fever-like illness (fever, sore throat, rash, **mouth ulcers**, lymphadenopathy) 2-4 weeks after a risk exposure should prompt testing for **acute HIV seroconversion**. Early in infection antibodies may not yet be present, so use a **4th-generation antigen/antibody** test (detects p24 antigen) and, where acute HIV is suspected, an **HIV viral load**.\n\nDiagnosing HIV at seroconversion matters: viral load is very high (high transmission risk), and early treatment benefits the patient. Also test for syphilis, hepatitis B and C, and other STIs.",
+          "whyWrong": [
+            "The monospot is already negative, and delay risks missing acute HIV.",
+            "",
+            "Culture does not address the likeliest serious diagnosis given her exposure.",
+            "EBV testing alone misses acute HIV, which must be considered with this history.",
+            "Antibody-only tests can be negative during seroconversion."
+          ],
+          "tags": [
+            "hiv",
+            "seroconversion",
+            "testing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sexual-health--discharge-ulcers-warts",
+      "title": "Vaginal discharge, genital ulcers and warts",
+      "minutes": 16,
+      "objectives": [
+        "Distinguish bacterial vaginosis, candidiasis and trichomoniasis using symptoms, signs and simple tests",
+        "Treat vaginal infections, including in pregnancy and recurrent cases",
+        "Diagnose and manage genital herpes",
+        "Manage anogenital warts and counsel on HPV"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Common problems, frequent questions",
+          "body": "Vaginal discharge is one of the commonest reasons women consult. Most cases are **bacterial vaginosis (BV)** or **vulvovaginal candidiasis**, neither of which is classically an STI, while **trichomoniasis** is sexually transmitted (common in remote Aboriginal communities, uncommon in urban Australia). Physiological discharge changes with the cycle. **Cervicitis** from chlamydia or gonorrhoea may also present as discharge.\n\nGenital **herpes** (HSV-1 and HSV-2) is the commonest cause of genital ulcers in Australia; HSV-1 now causes a large share of first-episode genital herpes through oral sex. **Anogenital warts** have fallen dramatically in young Australians since the HPV vaccination program began in 2007, a landmark public health result."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Telling the discharges apart",
+          "body": "| | Bacterial vaginosis | Candidiasis | Trichomoniasis |\n|---|---|---|---|\n| Cause | Loss of lactobacilli; overgrowth of anaerobes (Gardnerella and others) | *Candida albicans* (mostly) | *Trichomonas vaginalis* (protozoan, sexually transmitted) |\n| Symptoms | Thin grey-white discharge, **fishy odour** (worse after sex or menses), usually no itch | **Itch**, soreness, superficial dyspareunia, thick white \"cottage cheese\" discharge, no odour | Frothy yellow-green discharge, odour, itch, dysuria |\n| Signs | Homogeneous discharge coating walls; no inflammation | Vulval erythema, fissures, satellite lesions | Vulvovaginitis; **\"strawberry cervix\"** (punctate haemorrhages) |\n| **Vaginal pH** | **Above 4.5** | **4.5 or below (normal)** | Above 4.5 |\n| Microscopy | **Clue cells**, positive whiff test (amine odour with KOH) | Hyphae and spores | Motile flagellated trichomonads; NAAT is more sensitive |\n\nRisk factors: BV with new or multiple partners, douching, copper IUD; candidiasis with antibiotics, pregnancy, diabetes, immunosuppression. Recurrent candidiasis should prompt checking for **diabetes**."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Testing",
+          "body": "- History (including sexual history), speculum examination, **vaginal pH** with narrow-range paper.\n- **High vaginal swab** for microscopy (Gram stain Nugent score for BV) and culture for candida (including species in recurrent cases).\n- **NAAT** for trichomonas (especially in remote communities and in women with symptoms), chlamydia and gonorrhoea.\n- Genital ulcer: **PCR swab for HSV-1, HSV-2 and syphilis**, plus syphilis serology; HIV testing.\n- Warts are a clinical diagnosis; biopsy atypical, pigmented, bleeding or treatment-resistant lesions."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Other causes of discharge and vulval symptoms",
+          "body": "| Condition | Clues |\n|---|---|\n| Physiological discharge | Clear or white, no odour or itch, varies with cycle, pregnancy and the pill |\n| Cervicitis (chlamydia, gonorrhoea) | Mucopurulent discharge, postcoital or intermenstrual bleeding; NAAT positive |\n| Retained foreign body (tampon, condom) | Very offensive discharge; remove and check for toxic shock features |\n| Atrophic vaginitis | Postmenopausal, dryness, dyspareunia, pale thin epithelium; vaginal oestrogen |\n| Contact or irritant dermatitis | Soaps, pads, douches; itch without discharge change |\n| Lichen sclerosus | White atrophic vulval skin in older women or girls; biopsy if doubt |\n| Cervical or endometrial cancer | Blood-stained watery discharge, postcoital or postmenopausal bleeding |\n\nDischarge in a prepubertal girl may be from poor hygiene, a foreign body or, rarely, sexual abuse; an STI in a child is a **child protection** matter."
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment",
+          "body": "**Bacterial vaginosis:**\n- **Metronidazole 400 mg orally twice daily for 7 days**, or intravaginal metronidazole gel or clindamycin cream. Advice to avoid alcohol with metronidazole is traditional, though evidence for the interaction is weak.\n- Treat symptomatic women; also treat before gynaecological procedures (e.g. IUD insertion, surgical abortion) and symptomatic pregnant women.\n- **Recurrence is common** (over half within a year). A 2025 Melbourne-led trial showed that treating male partners reduced recurrence; check the current ASHM guideline on partner treatment.\n\n**Vulvovaginal candidiasis:**\n- **Topical azole** (clotrimazole pessary or cream) or **fluconazole 150 mg orally, single dose**.\n- **Pregnancy:** topical azole for 7 days; **avoid oral fluconazole**.\n- **Recurrent** (4 or more episodes a year): confirm by culture, check glucose, then induction and weekly maintenance fluconazole for 6 months. Partner treatment is not needed.\n\n**Trichomoniasis:**\n- **Metronidazole** (a 7-day course of 400 mg twice daily is preferred for women; a single 2 g dose is an alternative); treat partners; retest at 3 months; notifiable in some jurisdictions.\n\n**Genital herpes:**\n- **First episode:** start antivirals within 5 days of onset or while new lesions are forming: **valaciclovir 500 mg twice daily** (or famciclovir or aciclovir) for 5-10 days. Analgesia, saline bathing, lignocaine gel; **urinary retention** can occur (sacral radiculitis), so check voiding.\n- **Recurrences** are milder: episodic short courses started at prodrome, or **daily suppressive therapy** (e.g. valaciclovir 500 mg daily) for frequent recurrences (roughly 6 or more a year) or to reduce transmission.\n- Counsel: asymptomatic shedding means transmission can occur without lesions; condoms and suppression reduce risk; disclosure to partners. **Pregnancy:** a **first episode in the third trimester** carries the highest neonatal herpes risk (caesarean section is recommended if primary infection occurs close to delivery); suppressive aciclovir or valaciclovir from 36 weeks for women with recurrent herpes.\n\n**Anogenital warts (HPV 6 and 11):**\n- Home: **imiquimod 5% cream** or **podophyllotoxin** (podophyllotoxin is contraindicated in pregnancy). Clinic: **cryotherapy**, ablation or excision.\n- Warts may resolve spontaneously; treatment is cosmetic and recurrence is common. They are not a cancer risk themselves (low-risk HPV types). Cervical screening follows the normal schedule.\n- **Prevention:** 9-valent HPV vaccine through the school program (single dose since 2023) and catch-up per the Australian Immunisation Handbook."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- Fishy odour, pH over 4.5, clue cells: **BV** (metronidazole).\n- Itch with thick white discharge and normal pH: **candida**; in pregnancy use topical azole, not oral fluconazole.\n- Frothy discharge and strawberry cervix, especially in a remote community: **trichomoniasis**; treat partners.\n- Multiple painful vesicles and ulcers with dysuria and inguinal nodes: **primary HSV**; check for urinary retention.\n- Recurrent candida: check for diabetes.\n- Warts in a pregnant woman: cryotherapy, not podophyllotoxin."
+        }
+      ],
+      "keyPoints": [
+        "BV: fishy odour, pH over 4.5, clue cells; metronidazole 400 mg bd for 7 days.",
+        "Candidiasis: itch, thick white discharge, normal pH; topical azole or fluconazole 150 mg (topical only in pregnancy).",
+        "Trichomoniasis: frothy discharge, strawberry cervix, sexually transmitted; metronidazole and partner treatment.",
+        "Test any genital ulcer by PCR for both HSV and syphilis.",
+        "First-episode herpes: valaciclovir within 5 days; watch for urinary retention; suppressive therapy for frequent recurrences.",
+        "Primary HSV in the third trimester carries the greatest neonatal risk.",
+        "Warts (HPV 6/11) have fallen dramatically since school HPV vaccination; treat with cryotherapy, imiquimod or podophyllotoxin (not in pregnancy)."
+      ],
+      "redFlags": [
+        "Primary genital herpes with urinary retention",
+        "First-episode herpes in late pregnancy (neonatal herpes risk)",
+        "Genital ulcer: always exclude syphilis",
+        "Recurrent candidiasis (undiagnosed diabetes, immunosuppression)",
+        "Pigmented, bleeding or indurated vulval lesion (biopsy for cancer or melanoma)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Vaginal discharge",
+          "india": "Syndromic kits often treat BV, candida and trichomonas together.",
+          "australia": "Assess with pH and microscopy or NAAT, and treat the specific cause; trichomonas testing targeted to higher-prevalence settings."
+        },
+        {
+          "aspect": "Genital warts",
+          "india": "Common, with limited HPV vaccine coverage until recently.",
+          "australia": "Near-disappearance in vaccinated young Australians since the 2007 school HPV program."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Vaginal pH in bacterial vaginosis?",
+          "back": "Above 4.5 (candida is usually 4.5 or below)."
+        },
+        {
+          "front": "Microscopy finding in BV?",
+          "back": "Clue cells (epithelial cells coated with bacteria)."
+        },
+        {
+          "front": "Candida treatment in pregnancy?",
+          "back": "Topical azole (e.g. clotrimazole) for 7 days; avoid oral fluconazole."
+        },
+        {
+          "front": "Classic cervical sign of trichomoniasis?",
+          "back": "Strawberry cervix (punctate haemorrhages)."
+        },
+        {
+          "front": "First-episode genital herpes treatment?",
+          "back": "Valaciclovir 500 mg bd (or famciclovir/aciclovir) for 5-10 days."
+        },
+        {
+          "front": "HPV types causing anogenital warts?",
+          "back": "HPV 6 and 11 (low risk)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "sexual-health--discharge-ulcers-warts--q1",
+          "discipline": "womens-health",
+          "topic": "sexual-health",
+          "difficulty": "foundation",
+          "stem": "A 27-year-old woman presents with a thin, grey vaginal discharge with a fishy smell, worse after intercourse, for 2 weeks. There is no itch or pain. Speculum examination shows a homogeneous discharge coating the vaginal walls with no inflammation. Vaginal pH is 5.5.\n\nWhat is the most appropriate treatment?",
+          "options": [
+            "Clotrimazole vaginal pessary",
+            "Fluconazole 150 mg orally single dose",
+            "Doxycycline 100 mg orally twice daily for 7 days",
+            "Metronidazole 400 mg orally twice daily for 7 days",
+            "Ceftriaxone 500 mg IM"
+          ],
+          "answer": 3,
+          "explanation": "A thin grey discharge with a **fishy odour** (amines released more with alkaline semen), no inflammation, and a **pH above 4.5** is **bacterial vaginosis**. Microscopy would show **clue cells**. First-line treatment is **metronidazole 400 mg orally twice daily for 7 days** (or intravaginal metronidazole gel or clindamycin cream).\n\nBV is associated with STIs, so offer chlamydia and gonorrhoea testing. Recurrence is common.",
+          "whyWrong": [
+            "Azoles treat candida, which causes itch and normal pH.",
+            "Fluconazole treats candida.",
+            "Doxycycline treats chlamydia, not BV.",
+            "",
+            "Ceftriaxone treats gonorrhoea."
+          ],
+          "tags": [
+            "bacterial-vaginosis",
+            "discharge",
+            "metronidazole"
+          ]
+        },
+        {
+          "id": "sexual-health--discharge-ulcers-warts--q2",
+          "discipline": "womens-health",
+          "topic": "sexual-health",
+          "difficulty": "core",
+          "stem": "A 22-year-old woman presents with 4 days of severe vulval pain, dysuria and fever. She has a new partner. Examination shows multiple shallow, tender ulcers on both labia with some vesicles, and bilateral tender inguinal lymphadenopathy. She has not passed urine for 10 hours and her bladder is palpable.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Swab ulcers for HSV and syphilis PCR, start antiviral therapy and relieve the urinary retention",
+            "Benzathine benzylpenicillin IM and review in a week",
+            "Oral valaciclovir for 5 days and discharge home",
+            "Topical aciclovir cream only",
+            "Oral fluconazole 150 mg"
+          ],
+          "answer": 0,
+          "explanation": "Multiple painful vesicles and ulcers with fever and tender bilateral nodes are **primary genital herpes**. She also has **urinary retention**, caused by severe pain and sometimes a sacral radiculitis (autonomic neuropathy); this must be managed (catheterisation, suprapubic if needed, often with admission) along with analgesia.\n\nTake **PCR swabs for HSV and syphilis** (any ulcer needs both) and start **oral antivirals** (valaciclovir, famciclovir or aciclovir). Topical antivirals are ineffective. Offer full STI testing, including HIV and syphilis serology.",
+          "whyWrong": [
+            "",
+            "Penicillin treats syphilis, whose ulcers are painless and usually single.",
+            "Antivirals are right, but discharging her with urinary retention is unsafe.",
+            "Topical aciclovir has little benefit for genital herpes.",
+            "Fluconazole treats candida, not ulcers."
+          ],
+          "tags": [
+            "herpes",
+            "genital-ulcer",
+            "urinary-retention"
+          ]
+        },
+        {
+          "id": "sexual-health--discharge-ulcers-warts--q3",
+          "discipline": "womens-health",
+          "topic": "sexual-health",
+          "difficulty": "exam",
+          "stem": "A 30-year-old woman at 24 weeks gestation has 5 days of vulval itch and a thick white discharge. Vulva is erythematous with fissures. Vaginal pH is 4.2 and microscopy shows hyphae.\n\nWhat is the most appropriate treatment?",
+          "options": [
+            "Oral fluconazole 150 mg single dose",
+            "Oral metronidazole for 7 days",
+            "Boric acid pessaries",
+            "Oral itraconazole for 3 days",
+            "Clotrimazole vaginal pessary or cream for 7 days"
+          ],
+          "answer": 4,
+          "explanation": "Itch, thick white discharge, vulval fissures, normal pH (4.5 or below) and hyphae indicate **vulvovaginal candidiasis**. In **pregnancy**, a **topical azole** such as clotrimazole for **7 days** is recommended (longer courses are needed in pregnancy). **Oral azoles are avoided** in pregnancy because of possible associations with miscarriage and fetal effects.\n\nAsymptomatic colonisation in pregnancy needs no treatment.",
+          "whyWrong": [
+            "Oral fluconazole is avoided in pregnancy.",
+            "Metronidazole treats BV and trichomonas, not candida.",
+            "Boric acid is not recommended in pregnancy and is reserved for resistant non-albicans species.",
+            "Oral azoles are avoided in pregnancy.",
+            ""
+          ],
+          "tags": [
+            "candidiasis",
+            "pregnancy",
+            "discharge"
+          ]
+        }
+      ]
+    }
+  ]
+}

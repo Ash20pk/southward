@@ -1,0 +1,1073 @@
+{
+  "topic": "antenatal-care",
+  "intro": "Antenatal care is about doing the right test at the right gestation, and knowing what to do with the result. The AMC tests booking bloods, aneuploidy screening, gestational diabetes, Rh D prophylaxis, pre-eclampsia prevention, vaccines and safe prescribing, usually through a GP or shared-care vignette. These questions are very answerable once you know the Australian schedule.",
+  "lessons": [
+    {
+      "id": "antenatal-care--booking-visit-and-schedule",
+      "title": "The booking visit and antenatal schedule",
+      "minutes": 14,
+      "objectives": [
+        "List the routine booking investigations and explain why each is done",
+        "Take a booking history that identifies women needing extra care or early referral",
+        "Outline the Australian visit schedule and what happens at each key gestation",
+        "Describe the models of antenatal care a woman can choose in Australia"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why the first visit matters",
+          "body": "Around 300,000 babies are born in Australia each year. Most pregnancies are low risk, and the job of antenatal care is to keep them that way: find the minority with a problem early, offer screening with proper counselling, and support the woman to make informed choices.\n\nThe national **Pregnancy Care Guidelines** (Australian Government Department of Health) are the reference for routine care. They recommend the first antenatal contact happens **within the first 10 weeks**, because several decisions are time-critical: folic acid, dating ultrasound, choosing aneuploidy screening (which has fixed windows), early diabetes testing in high-risk women and smoking cessation.\n\n**Models of care** you will see in vignettes:\n\n- **GP shared care**: the GP does most visits, the hospital sees her at booking, around the morphology scan and late pregnancy, and she births at the hospital.\n- **Midwifery group practice / caseload**: a known midwife through pregnancy, birth and postnatal period. Continuity of midwifery carer reduces preterm birth and intervention.\n- **Public hospital clinic** (midwife and obstetric team) for higher-risk women.\n- **Private obstetrician** with birth in a private hospital.\n\nAboriginal and Torres Strait Islander women have higher rates of preterm birth, low birth weight, smoking and perinatal death. The guidelines recommend culturally safe care, involvement of Aboriginal health workers where the woman wants it, and targeted testing (for example earlier diabetes testing and repeat STI testing)."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "The booking history and examination",
+          "body": "The booking visit is a risk assessment. Work through it systematically:\n\n- **Dating**: first day of the last menstrual period, cycle regularity, recent hormonal contraception. Naegele's rule (LMP + 9 months + 7 days) gives an estimated date of birth, but an ultrasound crown-rump length between about 7 and 13+6 weeks is the most accurate way to date.\n- **Obstetric history**: gravidity and parity, previous caesarean, preterm birth, pre-eclampsia, GDM, stillbirth, PPH, growth restriction, perineal tears and postnatal depression. Each changes the plan for this pregnancy.\n- **Medical history**: diabetes, hypertension, epilepsy, thyroid disease, VTE, renal disease, heart disease, mental illness. Many need specialist input before 20 weeks.\n- **Medications**: stop or switch teratogens (valproate, isotretinoin, warfarin, ACE inhibitors, methotrexate).\n- **Family history**: diabetes, genetic conditions, consanguinity, VTE.\n- **Social**: smoking, alcohol, drugs, family and domestic violence (ask alone; pregnancy is a high-risk time for violence), housing, support, and mental health using an Australian tool such as the EPDS and a psychosocial screen.\n- **Examination**: BP (with an appropriately sized cuff), weight and height for BMI, and cardiac and breast examination if indicated. Offer cervical screening if she is due; it is safe in pregnancy.\n\nA BMI of 30 or more changes the plan: higher-dose folic acid, early diabetes testing, VTE risk assessment and anaesthetic review for very high BMI."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Booking bloods and what each one is for",
+          "body": "Every woman is offered this set at booking. Know **why**, because the AMC tests the reasoning:\n\n| Test | Why |\n|---|---|\n| Full blood count | Anaemia; low MCV prompts iron studies and haemoglobinopathy screen |\n| Blood group and antibody screen | Identifies Rh D-negative women and existing red cell antibodies |\n| Rubella IgG | Non-immune women get MMR **after** birth (live vaccine, not in pregnancy) |\n| Syphilis serology | Congenital syphilis is preventable with penicillin |\n| HIV | Antiretrovirals and birth planning reduce transmission to well under 1% |\n| Hepatitis B surface antigen | Baby of a HBsAg-positive mother needs HBIG plus vaccine within 12 hours; high viral load may need tenofovir in the third trimester |\n| Hepatitis C antibody | Identifies women for treatment after pregnancy and infant follow-up |\n| Midstream urine culture | **Asymptomatic bacteriuria**: treated in pregnancy because it progresses to pyelonephritis and is linked with preterm birth |\n\n**Targeted tests** depend on risk:\n\n- **Haemoglobinopathy screen** (Hb electrophoresis or HPLC) for women from high-prevalence backgrounds (Mediterranean, Middle Eastern, South and South-East Asian, African, Pacific) or with low MCV and normal ferritin. If positive, test the partner early so prenatal diagnosis remains an option.\n- **Early glucose testing** (HbA1c or OGTT) for women at high risk of diabetes.\n- **Chlamydia** (and gonorrhoea where prevalent) for younger women and those at higher risk.\n- **Vitamin D** in women at risk of deficiency (dark skin, covered, limited sun).\n- **Thyroid function** if symptoms, thyroid history or other risk factors (not universal).\n- **Varicella serology** if no clear history of chickenpox or vaccination.\n\n**Syphilis in Australia.** An outbreak that began in northern Australia in 2011 has spread, and congenital syphilis deaths have occurred. Many jurisdictions now recommend **repeat syphilis testing** later in pregnancy (for example at 26-28 weeks and 36 weeks, and at birth) for all women or for those in affected regions. The exact schedule **varies by state**, so name the local guideline."
+        },
+        {
+          "kind": "management",
+          "heading": "The visit schedule at a glance",
+          "body": "The Pregnancy Care Guidelines suggest about **10 visits for a first pregnancy** and **7 for subsequent uncomplicated pregnancies**. Each visit includes BP, discussion of fetal movements (from about 16-24 weeks), and from 24 weeks **symphysis-fundal height** (SFH in cm roughly equals gestation in weeks).\n\n| Gestation | Key actions |\n|---|---|\n| Before 10 weeks | Booking history, bloods, folic acid and iodine, offer aneuploidy screening, lifestyle advice, dating scan if unsure |\n| 10-14 weeks | cfDNA from 10 weeks or combined first trimester screen (11-14 weeks); start aspirin by 16 weeks if high risk of pre-eclampsia |\n| 18-20 weeks | Morphology ultrasound, review results |\n| 20-32 weeks | dTpa (pertussis) vaccine, ideally 20-32 weeks; influenza at any stage |\n| 24-28 weeks | 75 g OGTT for GDM; FBC; antibody screen |\n| 28 weeks | Anti-D for Rh D-negative women (repeat at 34 weeks); RSV vaccine is offered in the third trimester |\n| 35-37 weeks | Group B streptococcus swab (in units using universal screening); check presentation |\n| 36 weeks onwards | Birth plan, breastfeeding, signs of labour; breech offered external cephalic version |\n| 41 weeks | Discuss induction of labour |\n\n**Group B strep (GBS)**: carried by about 1 in 5 women. Australian hospitals use either universal screening with a low vaginal-anorectal swab at 35-37 weeks, or a risk-based approach. Either way, carriers or at-risk women get **intravenous benzylpenicillin in labour** to prevent early-onset neonatal GBS sepsis.\n\n**Safety-netting** at every visit: present immediately with vaginal bleeding, leaking fluid, abdominal pain, reduced fetal movements, headache or visual disturbance, or signs of labour before 37 weeks."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- \"Which test is **not** part of routine booking?\" Common distractors are TORCH screen, toxoplasma serology, CMV serology and thyroid function in a low-risk woman. None is routine in Australia.\n- Rubella non-immune in pregnancy: **do not vaccinate now**. Give MMR postpartum and advise avoiding contact with rash illness.\n- Hepatitis B positive mother: the answer about the baby is **HBIG and hepatitis B vaccine within 12 hours of birth**. Breastfeeding is fine.\n- Asymptomatic bacteriuria in pregnancy is **treated**, unlike in non-pregnant women.\n- If a question mentions northern Australia, an Aboriginal community or a known outbreak, repeat syphilis testing is almost certainly relevant.\n- Dating: when LMP and early ultrasound disagree by more than about a week in the first trimester, the **ultrasound date** is used."
+        }
+      ],
+      "keyPoints": [
+        "First antenatal visit within 10 weeks so time-limited screening and folic acid are not missed.",
+        "Booking bloods: FBC, group and antibodies, rubella, syphilis, HIV, hepatitis B and C, plus MSU for asymptomatic bacteriuria.",
+        "Crown-rump length in the first trimester is the most accurate dating method.",
+        "Rubella non-immune: MMR after birth, never during pregnancy.",
+        "Repeat syphilis testing later in pregnancy is recommended in many jurisdictions; the schedule varies by state.",
+        "GBS carriage is managed with intrapartum IV benzylpenicillin, found by universal 35-37 week swabs or a risk-based approach.",
+        "Ask about family violence alone; pregnancy is a high-risk time."
+      ],
+      "redFlags": [
+        "Disclosure of family or domestic violence, especially with injury or fear for safety",
+        "Positive syphilis or HIV serology needing urgent treatment and specialist referral",
+        "Significant pre-existing disease (cardiac, renal, epilepsy on valproate) not yet under specialist care",
+        "Suicidal ideation or severe mental illness at booking"
+      ],
+      "contrast": [
+        {
+          "aspect": "Routine infection screening",
+          "india": "TORCH panels are commonly sent at booking in many Indian centres.",
+          "australia": "No routine TORCH screen. Test rubella, syphilis, HIV, hepatitis B and C; others only if clinically indicated."
+        },
+        {
+          "aspect": "Antenatal care provider",
+          "india": "Largely obstetrician-led, with ASHAs and ANMs supporting in the public system.",
+          "australia": "Choice of GP shared care, midwifery continuity, hospital clinic or private obstetrician."
+        },
+        {
+          "aspect": "Group B strep",
+          "india": "Not routinely screened or treated in most settings.",
+          "australia": "Universal 35-37 week swab or risk-based approach, with intrapartum IV benzylpenicillin."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "When should the first antenatal visit ideally occur?",
+          "back": "Within the first 10 weeks of pregnancy (Pregnancy Care Guidelines)."
+        },
+        {
+          "front": "Most accurate method of dating a pregnancy?",
+          "back": "Ultrasound crown-rump length in the first trimester (about 7 to 13+6 weeks)."
+        },
+        {
+          "front": "Why is urine cultured at booking?",
+          "back": "To detect asymptomatic bacteriuria, which is treated in pregnancy to prevent pyelonephritis and preterm birth."
+        },
+        {
+          "front": "Baby of a HBsAg-positive mother needs what?",
+          "back": "Hepatitis B immunoglobulin plus hepatitis B vaccine within 12 hours of birth."
+        },
+        {
+          "front": "Rubella non-immune at booking: what and when?",
+          "back": "MMR vaccine after birth (live vaccine, contraindicated in pregnancy)."
+        },
+        {
+          "front": "Intrapartum GBS prophylaxis drug?",
+          "back": "IV benzylpenicillin in labour (clindamycin or other per guideline if severe penicillin allergy)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "antenatal-care--booking-visit-and-schedule--q1",
+          "discipline": "womens-health",
+          "topic": "antenatal-care",
+          "difficulty": "foundation",
+          "stem": "A 26-year-old woman, G1P0, attends her GP at 8 weeks' gestation for her first antenatal visit. She is well, takes folic acid and has no significant history. She asks which blood tests she will be offered today.\n\nWhich test is NOT part of routine booking investigations in Australia?",
+          "options": [
+            "Syphilis serology",
+            "Hepatitis C antibody",
+            "Toxoplasma serology",
+            "Rubella IgG",
+            "Blood group and antibody screen"
+          ],
+          "answer": 2,
+          "explanation": "Routine booking tests in Australia are FBC, blood group and antibody screen, rubella immunity, syphilis, HIV, hepatitis B surface antigen, hepatitis C antibody and a midstream urine culture for asymptomatic bacteriuria. Each targets a condition where knowing the result changes management in this pregnancy or for the baby.\n\n**Toxoplasma serology is not routine.** Primary infection is uncommon, serology is hard to interpret, and there is no clear evidence that universal screening improves outcomes. The same applies to routine CMV testing. Advice about food hygiene and avoiding cat litter is given instead.\n\n**Rule:** no TORCH screen at booking; think 'what would I do with the result?'",
+          "whyWrong": [
+            "Syphilis is tested at booking in every pregnancy and often repeated later.",
+            "Hepatitis C antibody is part of routine booking bloods.",
+            "",
+            "Rubella immunity is checked so non-immune women can be vaccinated postpartum.",
+            "Group and antibody screen identifies Rh D-negative women and existing alloantibodies."
+          ],
+          "ausPearl": "The Pregnancy Care Guidelines do not recommend routine screening for toxoplasmosis or CMV.",
+          "tags": [
+            "booking bloods",
+            "screening",
+            "antenatal"
+          ]
+        },
+        {
+          "id": "antenatal-care--booking-visit-and-schedule--q2",
+          "discipline": "womens-health",
+          "topic": "antenatal-care",
+          "difficulty": "core",
+          "stem": "A 31-year-old woman at 11 weeks' gestation has booking bloods. Her rubella IgG is negative and all other results are normal. She had MMR as a child according to her records.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Give MMR vaccine now",
+            "Give normal human immunoglobulin now",
+            "Repeat rubella serology at 20 weeks and vaccinate if still negative",
+            "Offer MMR vaccine after the birth and advise avoiding contact with rash illnesses",
+            "Recommend termination of pregnancy because of risk of congenital rubella"
+          ],
+          "answer": 3,
+          "explanation": "MMR is a **live attenuated vaccine** and is contraindicated in pregnancy because of the theoretical risk to the fetus. A rubella non-immune pregnant woman should be advised to avoid people with rash illnesses and to report any exposure or rash promptly so she can have serology.\n\nShe should receive **MMR postpartum**, ideally before discharge; it is safe while breastfeeding. Women are advised to avoid pregnancy for 28 days after MMR.\n\nBeing non-immune is not an indication for immunoglobulin (which is reserved for specific exposures in consultation with an infectious diseases specialist) and certainly not for termination.\n\n**Rule:** live vaccines (MMR, varicella) wait until after birth.",
+          "whyWrong": [
+            "MMR is live and contraindicated during pregnancy.",
+            "Immunoglobulin is not given for non-immunity without an exposure.",
+            "Repeat serology does not change the plan; vaccination cannot occur in pregnancy anyway.",
+            "",
+            "Non-immunity carries no risk unless she is infected; termination is not indicated."
+          ],
+          "tags": [
+            "rubella",
+            "vaccination",
+            "live vaccines"
+          ]
+        },
+        {
+          "id": "antenatal-care--booking-visit-and-schedule--q3",
+          "discipline": "womens-health",
+          "topic": "antenatal-care",
+          "difficulty": "exam",
+          "stem": "A 22-year-old Aboriginal woman living in a remote community in northern Australia is 28 weeks pregnant. Her booking syphilis serology at 12 weeks was negative. She has a new partner. She is asymptomatic and her fundal height is 28 cm.\n\nWhich is the most appropriate investigation at this visit, in addition to the 75 g OGTT and full blood count?",
+          "options": [
+            "Repeat syphilis serology",
+            "Toxoplasma serology",
+            "Hepatitis A serology",
+            "Cytomegalovirus IgM",
+            "Parvovirus B19 serology"
+          ],
+          "answer": 0,
+          "explanation": "Infectious syphilis has been epidemic in northern Australia since 2011, and cases of congenital syphilis, including stillbirths and neonatal deaths, have followed. A negative booking test does not protect against infection acquired later, and she has a new partner.\n\nFor this reason many jurisdictions recommend **repeat syphilis serology** later in pregnancy, commonly around 26-28 weeks and again at 36 weeks or birth, for women in outbreak regions or at risk. Treatment with benzathine benzylpenicillin prevents congenital syphilis if given more than 4 weeks before birth.\n\nThe other tests are not indicated without symptoms or exposure. The discriminating clues are the region, the new partner and the gestation.\n\n**Rule:** in outbreak areas, repeat syphilis testing in the third trimester.",
+          "whyWrong": [
+            "",
+            "Toxoplasma is not screened routinely in Australia.",
+            "Hepatitis A serology is not a routine antenatal test.",
+            "CMV testing is only done if there is a suggestive illness or ultrasound finding.",
+            "Parvovirus serology is only for exposure or a hydropic fetus."
+          ],
+          "ausPearl": "Syphilis testing schedules in pregnancy differ between jurisdictions; the Australian STI Management Guidelines and state guidelines set local advice.",
+          "tags": [
+            "syphilis",
+            "aboriginal health",
+            "screening"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antenatal-care--aneuploidy-screening-and-ultrasound",
+      "title": "Aneuploidy screening and pregnancy ultrasound",
+      "minutes": 15,
+      "objectives": [
+        "Compare combined first trimester screening with cell-free DNA screening",
+        "Explain the difference between a screening result and a diagnostic test",
+        "Choose between CVS and amniocentesis by gestation and risk",
+        "State what the 18-20 week morphology scan looks for and when to rescan"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Screening is a choice, not a routine",
+          "body": "Every pregnant woman in Australia should be **offered** information about screening for chromosomal conditions, whatever her age. Screening is voluntary; some women decline because they would not act on the result, and that is a valid choice. The skill the AMC tests is counselling: what each test finds, when it can be done, how accurate it is, and what happens after a high-probability result.\n\nThe main conditions screened for are **trisomy 21 (Down syndrome)**, **trisomy 18 (Edwards)** and **trisomy 13 (Patau)**. Risk rises with maternal age, but because most babies are born to younger women, most babies with trisomy 21 are born to women under 35. That is why age alone is no longer used to decide who is offered testing."
+        },
+        {
+          "kind": "concepts",
+          "heading": "The two screening options",
+          "body": "**Combined first trimester screening (cFTS)**\n\n- Maternal blood for **PAPP-A** and **free beta-hCG** (from about 9-10 weeks), plus ultrasound **nuchal translucency (NT)** between **11+0 and 13+6 weeks** (crown-rump length roughly 45-84 mm), combined with maternal age.\n- In trisomy 21: **NT increased, PAPP-A low, beta-hCG high**. In trisomy 18 and 13: PAPP-A and beta-hCG both low.\n- Detects about 85-90% of trisomy 21 at a screen-positive rate of about 5%.\n- Gives a probability, for example 1 in 50. A result above the laboratory's cut-off (often around 1 in 300) is \"increased probability\" and diagnostic testing is offered.\n- Bonus: the scan confirms dates, viability and number of fetuses and can detect major anomalies. A **high NT with normal chromosomes** still increases the risk of cardiac and other structural anomalies, so it warrants a detailed scan and fetal echocardiography.\n\n**Cell-free DNA screening (cfDNA, often called NIPT)**\n\n- Maternal blood from **10 weeks** analyses fragments of placental DNA in the maternal circulation.\n- Detects over 99% of trisomy 21 with a very low false-positive rate; performance is lower for trisomy 18 and 13 and for sex chromosome conditions.\n- It is still a **screening test**, because the DNA comes from the placenta, not the fetus. Confined placental mosaicism, a vanishing twin, maternal mosaicism or maternal malignancy can cause false positives.\n- A **\"no result\"** (low fetal fraction) is more common with high maternal BMI and can itself be associated with aneuploidy; offer repeat testing or diagnostic testing.\n- Funding arrangements have historically meant an out-of-pocket cost; check current Medicare coverage.\n\ncfDNA is usually paired with an **11-13 week ultrasound**, because it tells you nothing about structure, and the scan remains useful."
+        },
+        {
+          "kind": "application",
+          "heading": "After a high-probability result: diagnostic testing",
+          "body": "A positive screen needs a **diagnostic test** before any irreversible decision.\n\n| | Chorionic villus sampling | Amniocentesis |\n|---|---|---|\n| Timing | 11-14 weeks | From 15 weeks |\n| Sample | Placental villi (transabdominal or transcervical) | Amniotic fluid (transabdominal) |\n| Advantage | Earlier answer | Tests fetal cells, so no placental mosaicism issue |\n| Procedure-related loss | Small, generally quoted as under 0.5% | Small, generally quoted as under 0.5% |\n\nBoth can be tested with rapid aneuploidy methods and chromosomal microarray. Rh D-negative women need **anti-D** after either procedure.\n\nCounselling should be non-directive and include the option of continuing the pregnancy with support, further information about the condition, and termination of pregnancy (legal frameworks and gestational limits **vary by state**).\n\n**Carrier screening**: expanded reproductive carrier screening for cystic fibrosis, spinal muscular atrophy and fragile X is offered in Australia, ideally before conception or early in pregnancy, and is Medicare-funded for these three conditions. Offer partner testing if she is a carrier of an autosomal recessive condition."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Pregnancy ultrasound: the key scans",
+          "body": "**Dating/viability scan** (if uncertain dates, bleeding or pain): confirms an intrauterine pregnancy, viability, number of fetuses and chorionicity. **Chorionicity is best determined in the first trimester** (lambda sign means dichorionic, T sign means monochorionic). Monochorionic twins need scans every 2 weeks from 16 weeks to look for twin-twin transfusion syndrome.\n\n**Morphology scan at 18-20 weeks** is offered to all women. It assesses:\n\n- Fetal anatomy: brain, face (cleft lip), spine (neural tube defects), heart (four chambers and outflow tracts), abdominal wall (gastroschisis, exomphalos), kidneys and bladder, limbs.\n- Growth and amniotic fluid volume.\n- **Placental position**: if the placenta is low-lying (edge within 2 cm of the internal os) or covering the os, **rescan at about 32 weeks**. Most low-lying placentas \"migrate\" as the lower segment forms.\n- Placenta accreta features if there is a previous caesarean and anterior low placenta.\n- In some units, cervical length, to identify women at risk of preterm birth (short cervix may be treated with vaginal progesterone).\n\n**Third-trimester growth scans** are not routine. They are ordered for a clinical reason: SFH more than 3 cm below expected, risk factors for growth restriction, reduced fetal movements, hypertension, diabetes, twins or previous stillbirth."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Traps and discriminating clues",
+          "body": "- A woman at 16 weeks who wants aneuploidy screening: cFTS is **too late** (NT window closes at 13+6). Offer cfDNA, or second-trimester maternal serum screening where available, and the morphology scan.\n- A positive cfDNA result is **not a diagnosis**. The correct next step is genetic counselling and **CVS or amniocentesis**, not termination.\n- Low PAPP-A on its own (with normal chromosomes) is linked with placental dysfunction: growth restriction and pre-eclampsia. Some units use it with blood pressure and uterine artery Dopplers to calculate pre-eclampsia risk and start aspirin.\n- Amniocentesis before 15 weeks is avoided because of higher loss and talipes rates.\n- Placenta covering the os at 20 weeks does not mean caesarean yet; the next step is a **rescan at 32 weeks**.\n- Increased NT with a normal karyotype: offer detailed morphology and fetal echo."
+        }
+      ],
+      "keyPoints": [
+        "All women, of any age, are offered aneuploidy screening with counselling; it is optional.",
+        "cFTS: NT at 11+0 to 13+6 weeks plus PAPP-A and beta-hCG; trisomy 21 shows high NT, low PAPP-A, high hCG.",
+        "cfDNA from 10 weeks detects over 99% of trisomy 21 but is still a screening test.",
+        "Confirm any high-probability result with CVS (11-14 weeks) or amniocentesis (from 15 weeks).",
+        "Morphology scan at 18-20 weeks checks anatomy, growth, fluid and placental site.",
+        "Low-lying placenta at 20 weeks: rescan at about 32 weeks.",
+        "Give anti-D after CVS or amniocentesis if Rh D negative."
+      ],
+      "redFlags": [
+        "Increased nuchal translucency (structural and cardiac anomaly risk even with normal chromosomes)",
+        "Monochorionic twins not on 2-weekly surveillance from 16 weeks",
+        "Placenta low-lying over a previous caesarean scar (accreta spectrum risk)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Who is offered aneuploidy screening",
+          "india": "Often targeted by maternal age; double or quadruple marker tests are common.",
+          "australia": "All women of any age are offered cFTS or cfDNA with counselling."
+        },
+        {
+          "aspect": "Fetal sex determination",
+          "india": "Prenatal sex determination is illegal under the PCPNDT Act.",
+          "australia": "Fetal sex can be reported on ultrasound or cfDNA if the woman asks; sex selection for non-medical reasons is not supported."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Window for nuchal translucency measurement?",
+          "back": "11+0 to 13+6 weeks (CRL about 45-84 mm)."
+        },
+        {
+          "front": "cFTS pattern in trisomy 21?",
+          "back": "Increased NT, low PAPP-A, high free beta-hCG."
+        },
+        {
+          "front": "Earliest gestation for cfDNA screening?",
+          "back": "10 weeks."
+        },
+        {
+          "front": "Timing of CVS vs amniocentesis?",
+          "back": "CVS 11-14 weeks; amniocentesis from 15 weeks."
+        },
+        {
+          "front": "Placenta low-lying on the 20-week scan: next step?",
+          "back": "Repeat ultrasound at about 32 weeks; most resolve."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "antenatal-care--aneuploidy-screening-and-ultrasound--q1",
+          "discipline": "womens-health",
+          "topic": "antenatal-care",
+          "difficulty": "core",
+          "stem": "A 38-year-old woman, G2P1, at 12 weeks' gestation has cell-free DNA screening. The result reports a high probability of trisomy 21. Her nuchal translucency measured 2.1 mm on the 12-week scan. She is distressed and asks what to do next.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Repeat cell-free DNA screening in 2 weeks",
+            "Arrange combined first trimester screening",
+            "Offer genetic counselling and chorionic villus sampling",
+            "Advise that the diagnosis is confirmed and discuss termination",
+            "Wait for the 18-20 week morphology scan"
+          ],
+          "answer": 2,
+          "explanation": "cfDNA analyses placental DNA and is a **screening test**, even though its detection rate for trisomy 21 exceeds 99%. False positives occur with confined placental mosaicism, a vanishing twin or maternal factors, and the positive predictive value is lower in younger women.\n\nA high-probability result must be confirmed with a **diagnostic test** before any irreversible decision. At 12 weeks, **CVS** gives the earliest answer; amniocentesis from 15 weeks is the alternative and avoids placental mosaicism. Genetic counselling supports her decision-making.\n\nA normal NT does not exclude trisomy 21, and waiting for morphology wastes time.\n\n**Rule:** positive screen means diagnostic test (CVS or amnio), never straight to termination.",
+          "whyWrong": [
+            "Repeating the screen does not provide a diagnosis and delays decisions.",
+            "cFTS is a less accurate screen; adding it does not confirm anything.",
+            "",
+            "cfDNA is a screening test and cannot confirm the diagnosis.",
+            "Many fetuses with trisomy 21 have a normal morphology scan; delay reduces her options."
+          ],
+          "tags": [
+            "cfdna",
+            "aneuploidy",
+            "cvs"
+          ]
+        },
+        {
+          "id": "antenatal-care--aneuploidy-screening-and-ultrasound--q2",
+          "discipline": "womens-health",
+          "topic": "antenatal-care",
+          "difficulty": "foundation",
+          "stem": "A 30-year-old woman presents to her GP at 16 weeks' gestation for her first antenatal visit, having recently moved from interstate. She would like screening for Down syndrome.\n\nWhich option is most appropriate to offer?",
+          "options": [
+            "Combined first trimester screening",
+            "Nuchal translucency ultrasound alone",
+            "Amniocentesis as the first-line test",
+            "Cell-free DNA screening",
+            "No screening is possible after 14 weeks"
+          ],
+          "answer": 3,
+          "explanation": "Combined first trimester screening depends on the **nuchal translucency**, which can only be measured between **11+0 and 13+6 weeks**. At 16 weeks it is no longer an option.\n\n**Cell-free DNA screening** can be done any time from 10 weeks and has the highest detection rate. Second-trimester maternal serum screening is an alternative in some services. She should also have the 18-20 week morphology scan.\n\nAmniocentesis is diagnostic and carries a small procedure-related risk; it is offered after a high-probability screen, or first-line only if she specifically wants a definitive answer after counselling.\n\n**Rule:** missed the NT window, offer cfDNA.",
+          "whyWrong": [
+            "cFTS requires NT measurement by 13+6 weeks.",
+            "NT cannot be measured reliably after 13+6 weeks.",
+            "Amniocentesis is diagnostic and invasive, not a first-line screen.",
+            "",
+            "cfDNA and second-trimester serum screening remain available."
+          ],
+          "tags": [
+            "aneuploidy",
+            "screening",
+            "timing"
+          ]
+        },
+        {
+          "id": "antenatal-care--aneuploidy-screening-and-ultrasound--q3",
+          "discipline": "womens-health",
+          "topic": "antenatal-care",
+          "difficulty": "exam",
+          "stem": "A 33-year-old woman, G2P1, has her morphology ultrasound at 19 weeks. Fetal anatomy and growth are normal. The report states that the placenta is anterior and its lower edge reaches the internal cervical os. She had a caesarean section 3 years ago. She has had no bleeding.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Book elective caesarean section at 37 weeks",
+            "Admit to hospital until birth",
+            "Advise strict bed rest",
+            "Repeat ultrasound at 32 weeks with assessment for placenta accreta spectrum",
+            "Reassure; no further action is needed"
+          ],
+          "answer": 3,
+          "explanation": "Most placentas that are low-lying at 20 weeks move away from the os as the lower uterine segment develops, so the standard next step is a **repeat scan at about 32 weeks** to confirm the final position.\n\nThis case has an extra layer: an **anterior low placenta over a previous caesarean scar** is the classic setting for **placenta accreta spectrum**, where villi invade into or through the myometrium. The follow-up scan should specifically look for accreta (loss of the clear zone, placental lacunae, bladder wall interruption, hypervascularity), and if suspected she needs referral to a tertiary unit with multidisciplinary planning because of the risk of massive haemorrhage.\n\nAdmission, bed rest or booking a caesarean at 20 weeks are premature.",
+          "whyWrong": [
+            "Too early to decide; most low placentas resolve by the third trimester.",
+            "Admission is not needed for an asymptomatic woman at 19 weeks.",
+            "Bed rest has no proven benefit and increases VTE risk.",
+            "",
+            "Reassurance alone ignores the need to reassess placental site and the accreta risk."
+          ],
+          "tags": [
+            "placenta praevia",
+            "accreta",
+            "morphology scan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antenatal-care--nutrition-medicines-vaccines",
+      "title": "Nutrition, medicines and vaccines in pregnancy",
+      "minutes": 16,
+      "objectives": [
+        "Prescribe the correct folic acid dose and iodine supplementation",
+        "Give practical lifestyle advice on alcohol, smoking, food safety and weight gain",
+        "Recognise common teratogens and choose safer alternatives",
+        "Recommend the vaccines due in every pregnancy and identify contraindicated ones"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Getting the basics right",
+          "body": "Some of the easiest AMC marks are here, and so are some classic traps. The questions usually test a dose (folic acid), a timing (dTpa), a contraindication (live vaccines, warfarin, ACE inhibitors) or a safe alternative (which antibiotic for UTI in pregnancy).\n\nAustralia uses **TGA pregnancy categories** (A, B1, B2, B3, C, D, X) as a rough guide. Category A drugs have been taken by many pregnant women without harm; D drugs have caused or are suspected to cause malformations; X drugs have such a high risk that they should not be used. The categories are not a hierarchy of risk within the B group, and you should reason from the evidence and specific drug rather than the letter alone."
+        },
+        {
+          "kind": "management",
+          "heading": "Supplements, diet and lifestyle",
+          "body": "**Folic acid** prevents neural tube defects, but the neural tube closes by day 28 after conception, often before a woman knows she is pregnant. So:\n\n- **0.5 mg daily** from at least **1 month before conception** to 12 weeks.\n- **5 mg daily** for higher risk: previous NTD or family history, **diabetes**, **BMI 30 or more**, **antiepileptic drugs**, and malabsorption. Some guidelines also include other folate antagonist drugs.\n\n**Iodine 150 micrograms daily** for all pregnant and breastfeeding women, because mild iodine deficiency is common in Australia and iodine is needed for fetal brain development. Women with pre-existing thyroid disease should discuss with their doctor first.\n\n**Iron**: not routinely supplemented in Australia. Check FBC and ferritin, and treat deficiency.\n\n**Vitamin D**: test and supplement women at risk of deficiency.\n\n**Food safety**: avoid listeria-risk foods (soft cheeses, pre-packed salads, cold deli meats, smoked seafood, raw sprouts, unpasteurised products) and handle meat and cat litter carefully (toxoplasmosis). Limit high-mercury fish such as shark (flake), swordfish and orange roughy.\n\n**Alcohol**: no safe level is known. NHMRC advice is not to drink when pregnant, planning pregnancy or breastfeeding. Alcohol is the cause of **fetal alcohol spectrum disorder**.\n\n**Smoking**: the most important modifiable risk factor for growth restriction, preterm birth and stillbirth. Offer counselling and Quitline; **nicotine replacement therapy** can be used if she cannot quit without it (intermittent forms preferred). Varenicline and bupropion are not recommended.\n\n**Weight gain**: target depends on pre-pregnancy BMI (more for underweight, less for obese). Regular weighing is recommended.\n\n**Exercise**: moderate activity is encouraged; avoid contact sports and scuba diving. **Sleep on the side from 28 weeks**: going to sleep on the back in late pregnancy is associated with stillbirth (part of the Safer Baby Bundle)."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Teratogens and safer choices",
+          "body": "| Drug | Problem | Safer alternative |\n|---|---|---|\n| Sodium valproate | Neural tube defects, neurodevelopmental harm | Lamotrigine or levetiracetam (specialist switch before conception) |\n| Isotretinoin | Severe craniofacial, cardiac and CNS malformations | Stop and use contraception; topical therapies |\n| Warfarin | Embryopathy (nasal hypoplasia, stippled epiphyses) especially 6-12 weeks | LMWH (enoxaparin); does not cross the placenta |\n| ACE inhibitors / ARBs | Fetal renal failure, oligohydramnios in 2nd and 3rd trimesters | Labetalol, nifedipine, methyldopa |\n| Methotrexate | Miscarriage and malformations | Stop at least 3 months before conception |\n| Tetracyclines (doxycycline) | Tooth discolouration, bone effects after 16 weeks | Penicillins, macrolides |\n| Trimethoprim (1st trimester) | Folate antagonist | Cefalexin or nitrofurantoin |\n| NSAIDs | Oligohydramnios after 20 weeks; premature ductus closure in 3rd trimester | Paracetamol |\n| Carbimazole (1st trimester) | Aplasia cutis, embryopathy | Propylthiouracil in 1st trimester, then consider switching back |\n| Lithium | Small increase in cardiac anomalies (Ebstein) | Continue with specialist care if benefits outweigh risk; monitor levels |\n| Statins | Theoretical risk, no benefit short term | Stop in pregnancy |\n\n**Generally safe**: paracetamol, penicillins, cephalosporins, most macrolides, metformin and insulin, labetalol, nifedipine, methyldopa, LMWH, levothyroxine, most SSRIs (with counselling), doxylamine-pyridoxine, metoclopramide.\n\n**Nitrofurantoin near term** is usually avoided because of haemolysis risk in a G6PD-deficient newborn.\n\n**Never stop a necessary drug abruptly without a plan.** Stopping antiepileptics can cause seizures, which are dangerous for mother and fetus. Stopping antidepressants risks relapse. Pre-pregnancy counselling is the ideal."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Vaccines in every pregnancy",
+          "body": "The Australian Immunisation Handbook recommends, **in every pregnancy**:\n\n- **Pertussis (dTpa)**: a single dose, **ideally between 20 and 32 weeks**. It can be given up to birth, but antibodies need about 2 weeks to cross the placenta, so earlier is better. Maternal antibodies protect the baby before its own 6-week vaccine. Repeat in each pregnancy even if they are close together.\n- **Influenza**: at **any stage** of pregnancy. Pregnant women are at higher risk of severe influenza, and the baby gets passive protection for the first months.\n- **RSV**: a maternal RSV vaccine is offered in the **third trimester** (the Handbook specifies the window, currently 28-36 weeks) and is funded under the National Immunisation Program. The alternative strategy is a long-acting monoclonal antibody (nirsevimab) for the infant; usually one or the other is needed, not both.\n- **COVID-19**: can be given in pregnancy; check the current Handbook recommendation.\n\n**Contraindicated in pregnancy**: **live vaccines** such as MMR, varicella, BCG, live oral typhoid and yellow fever (unless travel is unavoidable and specialist advice supports it). Inadvertent MMR or varicella vaccination in pregnancy is not an indication for termination.\n\n**Hepatitis B vaccine** can be given in pregnancy to non-immune women at risk.\n\nPost-exposure: a non-immune pregnant woman exposed to **chickenpox** should have urgent serology and, if non-immune, **zoster immunoglobulin** within 10 days (ideally as soon as possible). Varicella in pregnancy can cause severe maternal pneumonia; oral antivirals are used if chickenpox develops."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Woman with epilepsy or diabetes planning pregnancy: the answer is **folic acid 5 mg**, and for epilepsy on valproate, referral to switch before conception, not stopping it abruptly.\n- dTpa timing is \"ideally 20-32 weeks\"; given in **each** pregnancy.\n- \"Which vaccine is contraindicated?\" Look for a live vaccine: MMR or varicella.\n- UTI in the first trimester: **cefalexin** is the safe choice; trimethoprim is avoided in the first trimester.\n- Heart valve replacement on warfarin planning pregnancy: specialist planning; LMWH is commonly used in the first trimester.\n- Chronic hypertension on an ACE inhibitor who becomes pregnant: **switch** (to labetalol or nifedipine); first-trimester exposure is not an indication for termination.\n- Smoker who cannot quit: NRT is better than continuing to smoke."
+        }
+      ],
+      "keyPoints": [
+        "Folic acid 0.5 mg from a month before conception to 12 weeks; 5 mg for diabetes, BMI 30+, antiepileptics or prior NTD.",
+        "Iodine 150 micrograms daily in pregnancy and breastfeeding; iron only if deficient.",
+        "No alcohol in pregnancy; smoking cessation with NRT if needed; sleep on the side from 28 weeks.",
+        "Switch valproate, warfarin and ACE inhibitors, ideally before conception.",
+        "dTpa ideally 20-32 weeks and influenza any time, every pregnancy; RSV vaccine in the third trimester.",
+        "Live vaccines (MMR, varicella) are contraindicated in pregnancy; give them postpartum.",
+        "Paracetamol, penicillins, cephalosporins, labetalol, nifedipine and LMWH are generally safe."
+      ],
+      "redFlags": [
+        "Woman taking valproate, isotretinoin, warfarin or an ACE inhibitor who is pregnant or planning pregnancy",
+        "Non-immune pregnant woman exposed to chickenpox",
+        "Chickenpox in pregnancy with cough or breathlessness (varicella pneumonia)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Iron and calcium supplements",
+          "india": "Routine iron-folic acid and calcium tablets for all pregnant women under national programs.",
+          "australia": "Iron only if deficient on FBC or ferritin; calcium only if dietary intake is low."
+        },
+        {
+          "aspect": "Tetanus protection",
+          "india": "Two doses of Td (previously TT) in pregnancy.",
+          "australia": "dTpa once in every pregnancy, mainly for pertussis protection of the newborn."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Folic acid dose for a pregnant woman with BMI 34?",
+          "back": "5 mg daily (high risk), from before conception to 12 weeks."
+        },
+        {
+          "front": "Iodine supplement dose in pregnancy?",
+          "back": "150 micrograms daily."
+        },
+        {
+          "front": "Ideal timing of dTpa in pregnancy?",
+          "back": "20-32 weeks, in every pregnancy."
+        },
+        {
+          "front": "Why are ACE inhibitors stopped in pregnancy?",
+          "back": "Fetal renal damage and oligohydramnios in the 2nd and 3rd trimesters."
+        },
+        {
+          "front": "Anticoagulant of choice in pregnancy?",
+          "back": "Low molecular weight heparin (does not cross the placenta)."
+        },
+        {
+          "front": "Why avoid NSAIDs in the third trimester?",
+          "back": "Premature closure of the ductus arteriosus (and oligohydramnios after 20 weeks)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "antenatal-care--nutrition-medicines-vaccines--q1",
+          "discipline": "womens-health",
+          "topic": "antenatal-care",
+          "difficulty": "foundation",
+          "stem": "A 29-year-old woman with type 1 diabetes sees her GP because she and her partner want to conceive in the next few months. Her HbA1c is 6.8% and she takes insulin only.\n\nWhich folic acid regimen is most appropriate?",
+          "options": [
+            "0.5 mg daily once pregnancy is confirmed",
+            "0.5 mg daily from 1 month before conception",
+            "5 mg daily from 1 month before conception until at least 12 weeks",
+            "5 mg daily from 12 weeks until birth",
+            "No supplement is needed if her diet is adequate"
+          ],
+          "answer": 2,
+          "explanation": "Pre-existing diabetes increases the risk of **neural tube defects** and other congenital anomalies, especially with poor glycaemic control. She therefore needs the **high dose, 5 mg daily**, started at least 1 month before conception and continued to at least 12 weeks.\n\nTiming matters because the neural tube closes about 28 days after conception, often before a pregnancy test is positive. Starting at confirmation, or after 12 weeks, misses the window.\n\nOther high-dose indications: BMI 30 or more, antiepileptic drugs, previous NTD or family history, and malabsorption.\n\nShe should also aim for the best achievable HbA1c before conceiving, have a retinal check and take iodine 150 micrograms.",
+          "whyWrong": [
+            "Wrong dose and too late; the neural tube may already be closed.",
+            "0.5 mg is the standard dose; diabetes needs 5 mg.",
+            "",
+            "Starting after 12 weeks misses neural tube closure entirely.",
+            "Diet alone does not provide adequate folate for NTD prevention."
+          ],
+          "tags": [
+            "folic acid",
+            "preconception",
+            "diabetes"
+          ]
+        },
+        {
+          "id": "antenatal-care--nutrition-medicines-vaccines--q2",
+          "discipline": "womens-health",
+          "topic": "antenatal-care",
+          "difficulty": "core",
+          "stem": "A 27-year-old woman at 9 weeks' gestation presents with 2 days of dysuria and frequency. She is afebrile with no loin tenderness. Urine dipstick shows leucocytes and nitrites. She has no drug allergies.\n\nWhich is the most appropriate empirical antibiotic while awaiting culture?",
+          "options": [
+            "Trimethoprim",
+            "Ciprofloxacin",
+            "Doxycycline",
+            "Nitrofurantoin continued until labour",
+            "Cefalexin"
+          ],
+          "answer": 4,
+          "explanation": "Cystitis in pregnancy is always treated and followed by a culture after treatment (test of cure), because untreated bacteriuria can progress to pyelonephritis and is associated with preterm birth.\n\n**Cefalexin** is a safe and effective first-line choice in all trimesters, as recommended in Therapeutic Guidelines; nitrofurantoin is an alternative for a short course but is usually avoided close to term because of neonatal haemolysis in G6PD deficiency. Choice is refined once culture sensitivities return.\n\n**Trimethoprim** is a folate antagonist and is avoided in the first trimester. **Fluoroquinolones** and **tetracyclines** are avoided in pregnancy.\n\n**Rule:** UTI in the first trimester, pick cefalexin.",
+          "whyWrong": [
+            "Trimethoprim is a folate antagonist and is avoided in the first trimester.",
+            "Fluoroquinolones are avoided in pregnancy because of cartilage concerns.",
+            "Tetracyclines are avoided in pregnancy (fetal teeth and bone).",
+            "A short course is appropriate; prolonged use to labour risks neonatal haemolysis and is not indicated.",
+            ""
+          ],
+          "ausPearl": "Therapeutic Guidelines recommend treating asymptomatic bacteriuria and cystitis in pregnancy and repeating urine culture after treatment.",
+          "tags": [
+            "uti",
+            "prescribing in pregnancy",
+            "antibiotics"
+          ]
+        },
+        {
+          "id": "antenatal-care--nutrition-medicines-vaccines--q3",
+          "discipline": "womens-health",
+          "topic": "antenatal-care",
+          "difficulty": "core",
+          "stem": "A 34-year-old woman, G2P1, attends at 24 weeks' gestation. Her pregnancy is uncomplicated. She received dTpa at 28 weeks in her last pregnancy 18 months ago and had an influenza vaccine 8 months ago before this pregnancy. It is May.\n\nWhich vaccination recommendation is most appropriate?",
+          "options": [
+            "dTpa now and influenza vaccine now",
+            "Influenza vaccine now only; dTpa is not needed as she had it 18 months ago",
+            "dTpa after the birth only",
+            "MMR now and dTpa at 36 weeks",
+            "No vaccines are recommended in pregnancy"
+          ],
+          "answer": 0,
+          "explanation": "The Australian Immunisation Handbook recommends **dTpa in every pregnancy**, ideally between **20 and 32 weeks**, regardless of how recently a previous dose was given. The goal is to generate high maternal antibody levels that cross the placenta to protect the newborn from pertussis before the infant's own vaccination course starts at 6 weeks.\n\n**Influenza** vaccine is recommended at **any stage** of pregnancy, and a pre-pregnancy dose from a previous season does not cover this season's strains.\n\nShe should also be offered the RSV vaccine in the third trimester.\n\nMMR is live and contraindicated in pregnancy.",
+          "whyWrong": [
+            "",
+            "dTpa is given in each pregnancy, even if the last dose was recent.",
+            "Postpartum dTpa does not give the newborn passive antibody protection.",
+            "MMR is a live vaccine and is contraindicated in pregnancy.",
+            "Pertussis, influenza and RSV vaccines are all recommended in pregnancy."
+          ],
+          "tags": [
+            "vaccination",
+            "pertussis",
+            "influenza"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antenatal-care--gestational-diabetes",
+      "title": "Gestational diabetes and diabetes in pregnancy",
+      "minutes": 15,
+      "objectives": [
+        "Explain why insulin resistance peaks in the late second trimester",
+        "Screen for and diagnose GDM using the 75 g OGTT thresholds",
+        "Manage GDM with lifestyle, then insulin or metformin",
+        "Plan postpartum follow-up and counsel on long-term risk"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why GDM matters",
+          "body": "Gestational diabetes affects roughly 1 in 6 pregnancies in Australia and the rate is rising with maternal age and obesity. It is more common in women of **South Asian, Chinese, Middle Eastern, Pacific Islander and Aboriginal and Torres Strait Islander** background. For an Indian student, note that South Asian ethnicity alone makes a woman high risk.\n\nGDM matters because maternal glucose crosses the placenta while insulin does not. The fetus responds with **hyperinsulinaemia**, and insulin is a growth hormone in utero. The result: macrosomia, shoulder dystocia, birth injury, polyhydramnios, neonatal hypoglycaemia, jaundice, respiratory distress and, at the extreme, stillbirth. For the mother: pre-eclampsia, caesarean section and a high lifetime risk of type 2 diabetes."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "The physiology behind the timing",
+          "body": "Placental hormones (human placental lactogen, progesterone, cortisol, growth hormone variants) produce progressive **insulin resistance** that rises steeply from the late second trimester. This is physiological: it diverts glucose to the fetus. Most women compensate by increasing insulin secretion. Women with limited beta-cell reserve cannot, and become hyperglycaemic.\n\nThat is why **universal testing is at 24-28 weeks**: insulin resistance is high enough to unmask GDM, and there is still time to treat before fetal overgrowth is established.\n\nHyperglycaemia found **early** in pregnancy (first trimester) is different: it often represents **pre-existing, undiagnosed type 2 diabetes**, which carries risks of congenital anomalies (cardiac, neural tube, caudal regression) as well as later overgrowth."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Screening and diagnosis",
+          "body": "**Early testing** (first trimester, ideally at booking) for women at high risk:\n\n- Previous GDM or previous macrosomic baby\n- BMI above 30 (lower threshold in Asian women)\n- High-risk ethnicity\n- First-degree relative with diabetes\n- PCOS, age 40 or more, medications such as corticosteroids or antipsychotics\n\nEarly testing uses an **HbA1c** and/or a fasting glucose or OGTT. An HbA1c of **6.5% or more** suggests pre-existing diabetes. A normal early test does **not** exclude GDM, so these women **still need the 24-28 week OGTT**.\n\n**Universal testing at 24-28 weeks**: a **75 g OGTT** after an overnight fast, with venous glucose at 0, 1 and 2 hours. **GDM is diagnosed if any one value is at or above**:\n\n| Time | Threshold (mmol/L) |\n|---|---|\n| Fasting | 5.1 |\n| 1 hour | 10.0 |\n| 2 hours | 8.5 |\n\nA fasting value of 7.0 or more, or a 2-hour value of 11.1 or more, suggests **overt diabetes in pregnancy**, managed as pre-existing diabetes.\n\n**HbA1c is not used to diagnose GDM** at 24-28 weeks: it is insensitive because of altered red cell turnover and it misses post-prandial peaks. Urine glucose is useless because the renal threshold falls in pregnancy."
+        },
+        {
+          "kind": "differentials",
+          "heading": "GDM versus its look-alikes",
+          "body": "| Situation | What it suggests |\n|---|---|\n| High glucose or HbA1c 6.5% or more in the first trimester | Pre-existing (usually type 2) diabetes, not GDM; higher anomaly risk, so offer detailed morphology and fetal echo |\n| Normal early test, abnormal OGTT at 24-28 weeks | True GDM |\n| Glycosuria on dipstick with normal OGTT | Physiological fall in renal threshold; no action |\n| Large for dates with normal OGTT | Consider wrong dates, constitutional size, polyhydramnios from another cause, twins or fibroids |\n| Hyperglycaemia after corticosteroids for fetal lung maturity | Transient steroid effect lasting a few days; monitor and treat if needed |\n\nType 1 diabetes can also present for the first time in pregnancy, occasionally with diabetic ketoacidosis at lower glucose levels than outside pregnancy. Ketones in a vomiting pregnant woman with diabetes need urgent assessment."
+        },
+        {
+          "kind": "management",
+          "heading": "Managing GDM",
+          "body": "Management is shared between the GP or obstetric team, a diabetes educator, a dietitian and an endocrinologist or obstetric physician.\n\n**1. Lifestyle first**: dietitian-led medical nutrition therapy (low glycaemic index carbohydrate spread across the day, not a weight-loss diet) and regular physical activity.\n\n**2. Self-monitoring of capillary glucose**, typically fasting and 1 or 2 hours after each main meal. Common Australian (ADIPS) targets are:\n\n- Fasting **5.0 mmol/L or less**\n- 1 hour post-meal **7.4 or less**, or 2 hours post-meal **6.7 or less**\n\n**3. Medication** if targets are not met after 1-2 weeks of lifestyle change:\n\n- **Insulin** is the established first-line agent and does not cross the placenta. Fasting hyperglycaemia is treated with intermediate-acting (isophane) insulin at bedtime; post-prandial peaks with rapid-acting insulin before meals.\n- **Metformin** is widely used in Australia as an alternative or add-on. It crosses the placenta; many women on it still need insulin.\n- **Sulfonylureas** (glibenclamide, gliclazide) are generally not recommended because of neonatal hypoglycaemia.\n\n**4. Fetal surveillance**: growth scans in the third trimester, especially if on medication or if the fundus is large.\n\n**5. Timing of birth**: women with well-controlled, diet-managed GDM usually aim for spontaneous labour or birth around term; those on medication, with poor control or with a large fetus may be offered earlier planned birth, individualised. Macrosomia increases shoulder dystocia risk.\n\n**6. In labour**: monitor glucose; women on insulin may need an insulin-dextrose infusion.\n\n**7. Baby**: early feeding and **heel-prick glucose monitoring** for neonatal hypoglycaemia.\n\n**After birth**: stop GDM treatment. Offer a **75 g OGTT at 6-12 weeks postpartum**, then diabetes screening (for example HbA1c) every 1-3 years depending on risk, for life, because up to half develop type 2 diabetes within 10-20 years. Screen early in any future pregnancy. Encourage breastfeeding and weight management.\n\n**Pre-existing diabetes** planning pregnancy: optimise HbA1c before conceiving (aim as close to normal as safely possible, often 6.5% or less), **folic acid 5 mg**, stop ACE inhibitors and statins, retinal and renal assessment, and low-dose aspirin for pre-eclampsia prevention."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Traps and discriminating clues",
+          "body": "- The test is a **75 g fasting OGTT at 24-28 weeks**, not a 50 g challenge (US) or DIPSI non-fasting test (India).\n- Any **one** abnormal value is enough to diagnose GDM.\n- Early normal HbA1c in a high-risk woman: still do the 24-28 week OGTT.\n- Fasting readings persistently high despite diet: **bedtime intermediate insulin** (or metformin); do not wait another month.\n- Polyhydramnios and large-for-dates in the third trimester: think undiagnosed or poorly controlled diabetes.\n- Postpartum: repeat **OGTT at 6-12 weeks**, not HbA1c immediately after birth."
+        }
+      ],
+      "keyPoints": [
+        "Placental hormones cause insulin resistance that peaks late in the second trimester, so screen at 24-28 weeks.",
+        "High-risk women are also tested early; a normal early test does not remove the need for the 24-28 week OGTT.",
+        "GDM diagnosis: fasting 5.1, 1-hour 10.0 or 2-hour 8.5 mmol/L or higher (any one value).",
+        "Treat with diet and activity first; add insulin or metformin if targets missed after 1-2 weeks.",
+        "Fetal hyperinsulinaemia causes macrosomia, shoulder dystocia and neonatal hypoglycaemia.",
+        "75 g OGTT at 6-12 weeks postpartum, then lifelong diabetes screening every 1-3 years."
+      ],
+      "redFlags": [
+        "Fasting glucose 7.0 or more, or HbA1c 6.5% or more, in pregnancy (overt diabetes)",
+        "Polyhydramnios or rapidly accelerating fetal growth",
+        "Reduced fetal movements in a woman with diabetes"
+      ],
+      "contrast": [
+        {
+          "aspect": "GDM test",
+          "india": "DIPSI single-step 75 g non-fasting test with 2-hour value of 7.8 or more is widely used.",
+          "australia": "Fasting 75 g OGTT at 24-28 weeks with 0, 1 and 2-hour values (IADPSG/ADIPS criteria)."
+        },
+        {
+          "aspect": "Postpartum follow-up",
+          "india": "Postpartum glucose testing is often missed after discharge.",
+          "australia": "75 g OGTT at 6-12 weeks postpartum and a diabetes recall every 1-3 years through the GP."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "GDM diagnostic thresholds on the 75 g OGTT?",
+          "back": "Fasting 5.1, 1-hour 10.0, 2-hour 8.5 mmol/L or higher (any one)."
+        },
+        {
+          "front": "When is universal GDM testing done?",
+          "back": "24-28 weeks' gestation."
+        },
+        {
+          "front": "First-line drug if GDM targets are not met?",
+          "back": "Insulin (metformin is an alternative or add-on)."
+        },
+        {
+          "front": "Fasting capillary glucose target in GDM?",
+          "back": "5.0 mmol/L or less."
+        },
+        {
+          "front": "Postpartum test after GDM?",
+          "back": "75 g OGTT at 6-12 weeks postpartum, then screening every 1-3 years."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "antenatal-care--gestational-diabetes--q1",
+          "discipline": "womens-health",
+          "topic": "antenatal-care",
+          "difficulty": "foundation",
+          "stem": "A 33-year-old woman of Sri Lankan background has a 75 g oral glucose tolerance test at 26 weeks' gestation. Results: fasting 4.8 mmol/L, 1 hour 9.4 mmol/L, 2 hours 8.7 mmol/L. Her booking HbA1c was 5.4%.\n\nWhat is the correct interpretation?",
+          "options": [
+            "Normal result; no further testing",
+            "Gestational diabetes",
+            "Impaired glucose tolerance; repeat OGTT at 32 weeks",
+            "Overt pre-existing type 2 diabetes",
+            "Result is uninterpretable because the fasting value is normal"
+          ],
+          "answer": 1,
+          "explanation": "Using the Australian (IADPSG-based) criteria, **GDM is diagnosed if any one value** on the 75 g OGTT reaches the threshold: fasting 5.1, 1-hour 10.0 or 2-hour 8.5 mmol/L.\n\nHer 2-hour value of 8.7 mmol/L is above 8.5, so she has **GDM**, even though the fasting and 1-hour values are normal. Her normal early HbA1c excluded pre-existing diabetes but did not exclude GDM, which develops as insulin resistance rises in the late second trimester.\n\nOvert diabetes would need a fasting value of 7.0 or more or a 2-hour value of 11.1 or more.\n\n**Rule:** one abnormal value is enough.",
+          "whyWrong": [
+            "The 2-hour value exceeds the 8.5 mmol/L threshold.",
+            "",
+            "Impaired glucose tolerance is not a pregnancy diagnosis; one high value means GDM.",
+            "Values are well below overt diabetes thresholds (fasting 7.0, 2-hour 11.1).",
+            "Any single abnormal value is diagnostic; a normal fasting value does not invalidate it."
+          ],
+          "tags": [
+            "gdm",
+            "ogtt",
+            "diagnosis"
+          ]
+        },
+        {
+          "id": "antenatal-care--gestational-diabetes--q2",
+          "discipline": "womens-health",
+          "topic": "antenatal-care",
+          "difficulty": "core",
+          "stem": "A 36-year-old woman had gestational diabetes treated with insulin in her pregnancy. She gave birth to a healthy 3.9 kg baby 2 days ago and is breastfeeding. Insulin was stopped after birth and her capillary glucose readings since have been normal.\n\nWhat is the most appropriate follow-up?",
+          "options": [
+            "HbA1c before discharge from hospital",
+            "No follow-up is needed as GDM resolves after birth",
+            "Continue insulin until breastfeeding stops",
+            "Fasting glucose at the 12-month child health check",
+            "75 g OGTT at 6-12 weeks postpartum, then ongoing diabetes screening every 1-3 years"
+          ],
+          "answer": 4,
+          "explanation": "GDM usually resolves after delivery of the placenta, which removes the source of insulin resistance. However, it identifies women with limited beta-cell reserve, and their lifetime risk of **type 2 diabetes** is several times higher than average.\n\nThe recommended follow-up is a **75 g OGTT at 6-12 weeks postpartum** to exclude persistent diabetes, then **ongoing screening** (commonly HbA1c or fasting glucose) every 1-3 years depending on risk, for life, plus early testing in any future pregnancy.\n\nHbA1c immediately postpartum is unreliable because of pregnancy-related changes in red cell turnover and blood loss at delivery.\n\nBreastfeeding and weight management reduce her future risk.",
+          "whyWrong": [
+            "HbA1c is unreliable in the immediate postpartum period.",
+            "GDM carries a high lifetime risk of type 2 diabetes; follow-up is essential.",
+            "Insulin is stopped after birth when glucose is normal; continuing risks hypoglycaemia.",
+            "Too late and too informal; the 6-12 week OGTT is the standard.",
+            ""
+          ],
+          "tags": [
+            "gdm",
+            "postpartum",
+            "type 2 diabetes"
+          ]
+        },
+        {
+          "id": "antenatal-care--gestational-diabetes--q3",
+          "discipline": "womens-health",
+          "topic": "antenatal-care",
+          "difficulty": "exam",
+          "stem": "A 30-year-old woman with gestational diabetes diagnosed at 25 weeks attends at 29 weeks. She has followed dietitian advice for 2 weeks. Her fasting capillary glucose readings are 4.6-5.0 mmol/L, but her 1-hour post-dinner readings are 8.5-9.2 mmol/L on most days. Other post-meal readings are within target.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Intermediate-acting insulin at bedtime",
+            "Gliclazide with the evening meal",
+            "Rapid-acting insulin before the evening meal",
+            "Continue diet alone and review in 4 weeks",
+            "Plan induction of labour at 34 weeks"
+          ],
+          "answer": 2,
+          "explanation": "When GDM targets are not met after 1-2 weeks of lifestyle measures, medication is started. The pattern of hyperglycaemia decides the regimen.\n\nHer fasting values are at target (5.0 mmol/L or less), but her **1-hour post-dinner** readings consistently exceed about 7.4 mmol/L. Post-prandial peaks are treated with **rapid-acting insulin before the meal that causes the problem**, here the evening meal.\n\nBedtime intermediate-acting insulin targets **fasting** hyperglycaemia from overnight hepatic glucose output, which she does not have. Sulfonylureas are not recommended in pregnancy. Waiting another month allows fetal overgrowth, and there is no indication for preterm birth.\n\n**Rule:** fasting high, bedtime isophane; after-meal high, rapid-acting before that meal.",
+          "whyWrong": [
+            "Bedtime intermediate insulin treats fasting hyperglycaemia, which is at target.",
+            "Sulfonylureas cross the placenta and cause neonatal hypoglycaemia.",
+            "",
+            "Targets are clearly missed; delay risks macrosomia.",
+            "GDM alone is not an indication for preterm birth at 34 weeks."
+          ],
+          "tags": [
+            "gdm",
+            "insulin",
+            "management"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antenatal-care--anti-d-aspirin-and-fetal-growth",
+      "title": "Rh D prophylaxis, pre-eclampsia prevention and fetal growth",
+      "minutes": 17,
+      "objectives": [
+        "Explain how Rh D alloimmunisation causes haemolytic disease of the fetus and newborn",
+        "Give routine and event-related anti-D at the right doses and times",
+        "Identify women who need low-dose aspirin to prevent pre-eclampsia",
+        "Assess fetal growth with SFH and respond to reduced fetal movements"
+      ],
+      "sections": [
+        {
+          "kind": "pathogenesis",
+          "heading": "Rh D alloimmunisation",
+          "body": "About 15-17% of Caucasian women are **Rh D negative** (fewer among South and East Asian women). If an Rh D-negative mother carries an Rh D-positive fetus, fetal red cells entering her circulation (**feto-maternal haemorrhage**, FMH) can trigger anti-D antibody production. The first pregnancy is rarely affected, because the primary response produces IgM. In a later pregnancy, IgG anti-D crosses the placenta, coats fetal red cells and causes **haemolytic disease of the fetus and newborn (HDFN)**: anaemia, hydrops, jaundice and kernicterus.\n\n**Anti-D immunoglobulin** works by clearing fetal Rh D-positive cells before the mother's immune system mounts a response. It prevents sensitisation; it cannot reverse it. Once a woman has made her own anti-D, prophylaxis is pointless.\n\nSmall silent FMHs happen in the third trimester, which is why routine antenatal prophylaxis (RAADP) was introduced on top of postnatal and event-based doses."
+        },
+        {
+          "kind": "management",
+          "heading": "Anti-D: the Australian schedule",
+          "body": "Australian guidance (National Blood Authority and Lifeblood) for Rh D-negative women **without preformed anti-D**:\n\n**Routine prophylaxis**: **625 IU IM at 28 weeks and at 34 weeks**. Take the antibody screen **before** the 28-week dose, because after it passive anti-D will be detected.\n\n**Sensitising events**, give within **72 hours** (and still give up to 10 days if missed):\n\n- First trimester: **250 IU** after miscarriage (surgical management, or any miscarriage after about 10-12 weeks per guideline), termination, ectopic pregnancy, molar pregnancy, CVS.\n- After the first trimester: **625 IU**, with a **Kleihauer** test (or flow cytometry) from 20 weeks to measure FMH size and decide if more is needed. Events: antepartum haemorrhage, abdominal trauma, amniocentesis, external cephalic version, fetal death.\n\n**After birth**: cord blood group. If the baby is **Rh D positive**, give **625 IU within 72 hours** plus a Kleihauer test; a large FMH needs extra anti-D.\n\nSome Australian services now offer non-invasive **fetal RHD genotyping** on maternal blood to avoid unnecessary anti-D when the fetus is Rh D negative; check local availability.\n\n**Already sensitised** (anti-D or another clinically significant antibody such as anti-c or anti-Kell): refer to maternal-fetal medicine. Monitor antibody titres, check paternal genotype or fetal genotype, and use **middle cerebral artery peak systolic velocity Doppler** to detect fetal anaemia (anaemic fetuses have faster, less viscous blood flow). Severe anaemia is treated with **intrauterine transfusion**. Anti-Kell is notable because it suppresses fetal red cell production, so titres correlate poorly with severity."
+        },
+        {
+          "kind": "management",
+          "heading": "Preventing pre-eclampsia: aspirin and calcium",
+          "body": "Pre-eclampsia starts with abnormal placentation in the first half of pregnancy (poor spiral artery remodelling), which is why prevention must start early.\n\n**Low-dose aspirin 150 mg at night**, started **between 12 and 16 weeks** (ideally before 16 weeks) and continued until about 36 weeks, reduces preterm pre-eclampsia substantially in high-risk women. Night-time dosing may be more effective.\n\nWho is high risk? Either a formal first-trimester algorithm (maternal factors, mean arterial pressure, uterine artery Doppler, PlGF or PAPP-A), or clinical risk factors such as:\n\n- Previous pre-eclampsia (especially early-onset)\n- Chronic hypertension, chronic kidney disease\n- Pre-existing diabetes\n- Autoimmune disease (SLE, antiphospholipid syndrome)\n- Multiple pregnancy\n- A combination of moderate factors: first pregnancy, age 40 or more, BMI above 30-35, family history, IVF, long interpregnancy interval\n\n**Calcium** supplementation is recommended for women with low dietary calcium intake, as it also reduces pre-eclampsia risk.\n\nAspirin started after 16-20 weeks is much less effective, which is why this is a booking-visit task."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Fetal growth and fetal movements",
+          "body": "**Symphysis-fundal height (SFH)** is measured at each visit from **24 weeks**, in centimetres with a tape measure. It should approximate gestation in weeks. A measurement **more than 3 cm below** expected, or a static SFH, needs an **ultrasound for fetal growth** (estimated fetal weight, abdominal circumference, liquor, umbilical artery Doppler). Some units use customised growth charts. SFH is unreliable with obesity, fibroids and twins, so these women have serial scans instead.\n\n**Small for gestational age (SGA)**: estimated fetal weight below the 10th centile. **Fetal growth restriction (FGR)** means the fetus has not reached its growth potential, usually due to placental insufficiency, suggested by abnormal Dopplers, reduced liquor or falling centiles. Causes: placental (pre-eclampsia, smoking), maternal (hypertension, renal disease, drugs), fetal (aneuploidy, infection such as CMV, anomalies).\n\n**Large for dates**: think wrong dates, macrosomia (diabetes), polyhydramnios, twins or fibroids.\n\n**Reduced fetal movements (RFM)**: movements are usually felt from about 16-24 weeks and do not decrease towards term. A reduction in strength or frequency may precede stillbirth. The **Safer Baby Bundle** (Stillbirth Centre of Research Excellence) advises women to **contact their maternity unit immediately**, not wait until the next day, and not to rely on home Dopplers.\n\n**Management of RFM after 28 weeks**: history and risk factors, check BP and urine, SFH, auscultate the fetal heart, then **CTG**. Ultrasound for growth and liquor if risk factors, SFH concerns or recurrent RFM. Induction is considered in some cases, particularly at or near term with other concerns.\n\nThe Safer Baby Bundle's five elements: **smoking cessation, fetal growth detection, fetal movement awareness, side sleeping from 28 weeks, and timing of birth** discussions for at-risk women."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Rh D-negative woman with bleeding at 22 weeks: give **625 IU anti-D plus a Kleihauer** test.\n- Rh D-negative woman whose antibody screen at 28 weeks shows anti-D and who **has not yet had any anti-D**: she is sensitised. Do not give prophylaxis; refer to fetal medicine for titres and MCA Dopplers.\n- Aspirin started at 20 weeks is a trap: it should start by 16 weeks.\n- SFH 4 cm less than dates at 32 weeks: **ultrasound for growth**, not \"reassess in 4 weeks\".\n- RFM at 34 weeks: same-day assessment with **CTG**; a home Doppler reassurance is wrong.\n- Father Rh D negative (and paternity certain) makes the fetus Rh D negative, but in practice most services still give prophylaxis because paternity cannot always be assumed."
+        }
+      ],
+      "keyPoints": [
+        "Anti-D prevents sensitisation but cannot reverse it; check antibodies before the 28-week dose.",
+        "Routine anti-D 625 IU at 28 and 34 weeks for Rh D-negative women without antibodies.",
+        "Sensitising events: 250 IU in the first trimester, 625 IU plus Kleihauer after it, within 72 hours.",
+        "Postnatal anti-D 625 IU within 72 hours if the baby is Rh D positive.",
+        "Aspirin 150 mg at night from 12-16 weeks to about 36 weeks for women at high risk of pre-eclampsia.",
+        "SFH from 24 weeks; more than 3 cm below dates means a growth ultrasound.",
+        "Reduced fetal movements: contact the unit immediately and have a CTG."
+      ],
+      "redFlags": [
+        "Reduced or absent fetal movements, especially recurrent or after 28 weeks",
+        "SFH falling across centiles or more than 3 cm below dates",
+        "Preformed anti-D or anti-Kell antibodies at booking",
+        "Hydrops or raised MCA peak systolic velocity on ultrasound"
+      ],
+      "contrast": [
+        {
+          "aspect": "Antenatal anti-D",
+          "india": "Often given only postnatally or after sensitising events, partly because of cost and supply.",
+          "australia": "Routine 625 IU at 28 and 34 weeks for all Rh D-negative women without antibodies, plus postnatal and event doses."
+        },
+        {
+          "aspect": "Pre-eclampsia prophylaxis",
+          "india": "Aspirin 75 mg commonly used, often started later.",
+          "australia": "Aspirin 150 mg at night, started by 16 weeks, for high-risk women."
+        },
+        {
+          "aspect": "Reduced fetal movements",
+          "india": "Daily fetal movement count charts are commonly taught.",
+          "australia": "No fixed kick count; women report any change immediately and have same-day CTG (Safer Baby Bundle)."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Routine antenatal anti-D schedule in Australia?",
+          "back": "625 IU IM at 28 weeks and 34 weeks."
+        },
+        {
+          "front": "Anti-D dose after a sensitising event in the first trimester?",
+          "back": "250 IU within 72 hours."
+        },
+        {
+          "front": "Test used to quantify feto-maternal haemorrhage?",
+          "back": "Kleihauer-Betke test (or flow cytometry)."
+        },
+        {
+          "front": "Aspirin for pre-eclampsia prevention: dose and start?",
+          "back": "150 mg at night, starting 12-16 weeks, until about 36 weeks."
+        },
+        {
+          "front": "Ultrasound sign of fetal anaemia in alloimmunisation?",
+          "back": "Raised middle cerebral artery peak systolic velocity."
+        },
+        {
+          "front": "SFH discrepancy that needs a growth scan?",
+          "back": "More than 3 cm below expected for gestation (from 24 weeks)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "antenatal-care--anti-d-aspirin-and-fetal-growth--q1",
+          "discipline": "womens-health",
+          "topic": "antenatal-care",
+          "difficulty": "core",
+          "stem": "A 28-year-old woman, G2P1, blood group O Rh D negative, presents at 23 weeks' gestation after a fall onto her abdomen. She has mild abdominal tenderness and no bleeding. The fetal heart rate is 145 bpm. Her 12-week antibody screen was negative. She has not received anti-D in this pregnancy.\n\nIn addition to fetal monitoring, which is the most appropriate management regarding Rh D prophylaxis?",
+          "options": [
+            "No anti-D is needed because there is no bleeding",
+            "250 IU anti-D within 72 hours",
+            "Wait and give 625 IU at the routine 28-week visit",
+            "Give anti-D only if the Kleihauer test is positive",
+            "625 IU anti-D within 72 hours and a Kleihauer test"
+          ],
+          "answer": 4,
+          "explanation": "**Abdominal trauma** is a potentially sensitising event even without visible bleeding, because feto-maternal haemorrhage can be occult.\n\nAfter the first trimester, the dose is **625 IU IM within 72 hours**, and from 20 weeks a **Kleihauer test** (or flow cytometry) quantifies the size of the FMH so that additional anti-D can be given if the bleed exceeds what 625 IU covers.\n\nThe Kleihauer does not decide whether anti-D is given at all; it decides whether **more** is needed. Routine 28 and 34-week doses still go ahead.\n\n250 IU is the first-trimester dose. She also needs assessment for abruption (CTG for at least several hours after trauma).",
+          "whyWrong": [
+            "Occult feto-maternal haemorrhage can occur after trauma without visible bleeding.",
+            "250 IU is the first-trimester dose; after 13 weeks give 625 IU.",
+            "Waiting 5 weeks misses the 72-hour window after the event.",
+            "Anti-D is given regardless; the Kleihauer determines whether extra is needed.",
+            ""
+          ],
+          "ausPearl": "The National Blood Authority guideline covers prophylactic Rh D immunoglobulin in pregnancy, including sensitising events and dosing.",
+          "tags": [
+            "anti-d",
+            "trauma",
+            "rh disease"
+          ]
+        },
+        {
+          "id": "antenatal-care--anti-d-aspirin-and-fetal-growth--q2",
+          "discipline": "womens-health",
+          "topic": "antenatal-care",
+          "difficulty": "foundation",
+          "stem": "A 35-year-old woman, G2P1, books at 10 weeks. In her first pregnancy she developed pre-eclampsia at 32 weeks and had an emergency caesarean section. She is normotensive today and takes no medications.\n\nWhich intervention is most appropriate to reduce her risk of recurrent pre-eclampsia?",
+          "options": [
+            "Aspirin 150 mg at night starting before 16 weeks",
+            "Aspirin 150 mg at night from 20 weeks",
+            "Labetalol starting now",
+            "Low-salt diet",
+            "Magnesium sulfate infusion from 28 weeks"
+          ],
+          "answer": 0,
+          "explanation": "Previous pre-eclampsia, particularly early-onset, is a major risk factor for recurrence. The best-evidenced prevention is **low-dose aspirin, 150 mg at night**, started **between 12 and 16 weeks** and continued until about 36 weeks. It reduces preterm pre-eclampsia by improving placentation, so it must start early; beyond 16-20 weeks the benefit falls away.\n\nShe should also have calcium supplementation if her dietary intake is low, and closer BP and urine surveillance.\n\nAntihypertensives do not prevent pre-eclampsia in normotensive women. Salt restriction is not effective. Magnesium sulfate is for seizure prophylaxis in established severe pre-eclampsia, not prevention.",
+          "whyWrong": [
+            "",
+            "Starting at 20 weeks is too late for meaningful benefit.",
+            "Antihypertensives do not prevent pre-eclampsia in a normotensive woman.",
+            "Salt restriction has not been shown to prevent pre-eclampsia.",
+            "Magnesium prevents eclamptic seizures, not pre-eclampsia itself."
+          ],
+          "tags": [
+            "pre-eclampsia",
+            "aspirin",
+            "prevention"
+          ]
+        },
+        {
+          "id": "antenatal-care--anti-d-aspirin-and-fetal-growth--q3",
+          "discipline": "womens-health",
+          "topic": "antenatal-care",
+          "difficulty": "exam",
+          "stem": "A 31-year-old woman, G1P0, calls her GP clinic at 4 pm at 35 weeks' gestation. Since this morning her baby has been moving much less than usual. She used a home Doppler an hour ago and heard a heartbeat. She has no pain or bleeding. The pregnancy has been uncomplicated.\n\nWhat is the most appropriate advice?",
+          "options": [
+            "Lie on her left side and count kicks; call back if fewer than 10 in 2 hours",
+            "Present to the hospital maternity assessment unit now for assessment including a CTG",
+            "Reassure, because a heartbeat was heard on the home Doppler",
+            "Book a growth scan for the next week",
+            "Attend the GP clinic tomorrow morning for fundal height measurement"
+          ],
+          "answer": 1,
+          "explanation": "A reduction in fetal movements can precede stillbirth, and the Safer Baby Bundle advises women to **contact their maternity unit and be assessed straight away**, not wait until the next day.\n\nAssessment includes history, BP and urine, fundal height, fetal heart auscultation and a **CTG**. An ultrasound for growth and liquor is added if there are risk factors, SFH concerns or recurrent episodes.\n\nA **home Doppler** is falsely reassuring: a heartbeat does not show the fetus is well, and the maternal pulse can be mistaken for it. Fixed kick counts such as 10 in 2 hours are no longer recommended; what matters is a change from the baby's usual pattern.\n\n**Rule:** reduced movements, same-day CTG.",
+          "whyWrong": [
+            "Fixed kick-count rules delay assessment and are no longer recommended.",
+            "",
+            "Home Dopplers give false reassurance and may detect the maternal pulse.",
+            "A scan next week is far too late for an acute change.",
+            "Waiting until tomorrow delays assessment of possible fetal compromise."
+          ],
+          "ausPearl": "The Safer Baby Bundle's five elements are smoking cessation, fetal growth, fetal movements, side-sleeping from 28 weeks and timing of birth.",
+          "tags": [
+            "fetal movements",
+            "stillbirth",
+            "safer baby bundle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antenatal-care--common-problems-in-pregnancy",
+      "title": "Common problems: nausea, anaemia, thyroid and infection",
+      "minutes": 15,
+      "objectives": [
+        "Distinguish nausea and vomiting of pregnancy from hyperemesis gravidarum and manage both",
+        "Investigate and treat anaemia in pregnancy, including thalassaemia trait",
+        "Adjust levothyroxine in pregnancy and interpret thyroid tests",
+        "Recognise pyelonephritis and VTE in pregnancy and manage them safely"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The everyday problems",
+          "body": "Most antenatal visits involve minor symptoms: nausea, heartburn, constipation, back pain, leg cramps, varicose veins, carpal tunnel syndrome. The AMC focuses on the ones that can become serious: **hyperemesis**, **anaemia**, **thyroid disease**, **pyelonephritis** and **venous thromboembolism**. Each has a pregnancy-specific twist in investigation or treatment.\n\nA quick word on the minor symptoms, because they turn up as distractors. **Heartburn** responds to small meals, antacids and, if needed, H2 antagonists or PPIs, which are considered safe. **Constipation** is progesterone-driven; fibre, fluids and osmotic laxatives are fine. **Carpal tunnel syndrome** from fluid retention usually resolves after birth; wrist splints help. **Pelvic girdle pain** gets physiotherapy. **Itch** without a rash, worst on palms and soles in the third trimester, is not minor: check **bile acids and LFTs** for intrahepatic cholestasis of pregnancy, which is linked with stillbirth."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Nausea, vomiting and hyperemesis gravidarum",
+          "body": "Nausea and vomiting affect most women, peaking at 8-12 weeks and usually settling by 16-20 weeks. It is linked with high hCG, which is why it is worse with **multiple pregnancy** and **molar pregnancy**.\n\n**Hyperemesis gravidarum** is severe, persistent vomiting with **weight loss (often more than 5%)**, **dehydration**, **ketosis** and **electrolyte disturbance**. Severity can be scored with the **PUQE** score.\n\n**Investigations**: urea, electrolytes and creatinine (hypokalaemia, hyponatraemia), LFTs (mild transaminase rise is common), urine ketones, FBC, and an **ultrasound** to exclude multiple and molar pregnancy. Check **TSH/free T4**: high hCG stimulates the TSH receptor, causing **transient gestational thyrotoxicosis** (low TSH, raised free T4, no goitre or eye signs, no antibodies), which settles without antithyroid drugs. Exclude UTI and other causes if vomiting starts after 10 weeks or with pain or fever.\n\n**Management** in steps:\n\n- Small frequent meals, ginger; stop iron tablets if they worsen nausea.\n- **Doxylamine with pyridoxine** is first-line pharmacotherapy.\n- **Metoclopramide**, **prochlorperazine** or **promethazine**; **ondansetron** is effective (discuss the small possible increase in orofacial clefts with first-trimester use).\n- If unable to keep fluids down or ketotic: **IV fluids** (normal saline or Hartmann's), replace potassium, antiemetics, and **thiamine before any dextrose** to prevent **Wernicke encephalopathy**.\n- VTE prophylaxis (LMWH) if admitted, and consider acid suppression.\n- Corticosteroids for refractory cases under specialist care."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Anaemia in pregnancy",
+          "body": "Plasma volume expands more than red cell mass, so Hb falls physiologically (dilutional anaemia). Iron deficiency is still the commonest cause of true anaemia. A common working threshold is **Hb below 110 g/L** (thresholds differ slightly by trimester; check local guidelines).\n\n**Work-up**: FBC with MCV, **ferritin** (below about 30 micrograms/L indicates depleted iron stores; ferritin is raised by inflammation), and B12 and folate if macrocytic.\n\n**Low MCV but normal ferritin**: think **thalassaemia trait**. Check haemoglobin electrophoresis/HPLC, and test the **partner** early. If both carry beta-thalassaemia or alpha-thalassaemia trait, refer for genetic counselling and offer CVS, because the fetus may have thalassaemia major or Hb Bart's hydrops. Do not give iron to a thalassaemia carrier with normal ferritin.\n\n**Treatment of iron deficiency**:\n\n- Oral iron (daily or alternate-day dosing improves absorption and tolerance), taken away from tea, coffee and calcium, with vitamin C.\n- **IV iron** (e.g. ferric carboxymaltose, used in the 2nd and 3rd trimesters) if oral iron fails, is not tolerated, or anaemia is significant later in pregnancy when there is not enough time for oral iron to work.\n- Recheck Hb in 2-4 weeks.\n\nWhy it matters: anaemia worsens tolerance of blood loss at birth and increases transfusion need, and iron deficiency affects fetal neurodevelopment."
+        },
+        {
+          "kind": "management",
+          "heading": "Thyroid, pyelonephritis and VTE",
+          "body": "**Hypothyroidism**: the fetus depends on maternal thyroxine in the first trimester. Women on **levothyroxine** should increase their dose by about **25-30%** as soon as pregnancy is confirmed (commonly by taking two extra doses per week), then check TSH every 4-6 weeks and aim for trimester-specific targets. Untreated overt hypothyroidism is associated with miscarriage, pre-eclampsia and impaired neurodevelopment.\n\n**Hyperthyroidism**: Graves' disease needs specialist care. **Propylthiouracil** is preferred in the first trimester (carbimazole embryopathy), with a switch to carbimazole afterwards in many protocols (PTU hepatotoxicity). TSH receptor antibodies cross the placenta and can cause fetal and neonatal thyrotoxicosis.\n\n**Pyelonephritis**: fever, loin pain, rigors, vomiting, often in the second trimester because progesterone and uterine pressure dilate the ureters. It can cause sepsis and preterm labour. Admit for **IV antibiotics** per Therapeutic Guidelines, blood and urine cultures, fluids, and check for preterm labour. Follow with regular urine cultures for the rest of pregnancy, and consider prophylaxis if recurrent.\n\n**Venous thromboembolism**: pregnancy is hypercoagulable (raised clotting factors and fibrinogen, venous stasis from uterine compression) and the risk is highest **postpartum**, especially after caesarean section. Risk assessment at booking, on admission and after birth decides who needs **LMWH** prophylaxis.\n\n- Suspected DVT: **compression duplex ultrasound** (left leg is more common in pregnancy).\n- Suspected PE: CXR, then if the leg is symptomatic, leg Doppler first (a positive result avoids chest imaging); otherwise **V/Q scan or CTPA**. **D-dimer** is normally raised in pregnancy and is not useful.\n- Treat with **therapeutic LMWH** (weight-based) for the rest of pregnancy and at least 6 weeks postpartum (minimum 3 months total). **Warfarin is contraindicated in pregnancy** but safe while breastfeeding. DOACs are avoided in pregnancy and breastfeeding."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Traps and discriminating clues",
+          "body": "- Hyperemesis with low TSH and high free T4 and no eye signs or goitre: **gestational thyrotoxicosis**, not Graves'. No carbimazole; treat the vomiting.\n- Severe vomiting with confusion, ataxia or eye movement abnormalities: **Wernicke encephalopathy**. Thiamine first.\n- Very high hCG, vaginal bleeding and a \"snowstorm\" ultrasound: **molar pregnancy**.\n- Microcytosis with normal ferritin in a woman of South Asian or Mediterranean origin: **thalassaemia trait**, test the partner.\n- Pregnant woman on levothyroxine: increase the dose at confirmation of pregnancy, do not wait for the first TSH.\n- Suspected PE in pregnancy: **D-dimer is not the answer**; image."
+        }
+      ],
+      "keyPoints": [
+        "Hyperemesis: weight loss, dehydration, ketosis; exclude twins and molar pregnancy on ultrasound.",
+        "IV fluids with potassium and thiamine before dextrose; doxylamine-pyridoxine is first-line oral therapy.",
+        "Transient gestational thyrotoxicosis is hCG-driven and settles without antithyroid drugs.",
+        "Low MCV with normal ferritin suggests thalassaemia trait; test the partner early.",
+        "Increase levothyroxine by about 25-30% as soon as pregnancy is confirmed.",
+        "Pyelonephritis in pregnancy is admitted for IV antibiotics because of sepsis and preterm labour risk.",
+        "VTE: D-dimer is unhelpful; treat with LMWH; warfarin is contraindicated in pregnancy."
+      ],
+      "redFlags": [
+        "Vomiting with confusion, ataxia or nystagmus (Wernicke encephalopathy)",
+        "Fever, loin pain and rigors in pregnancy (pyelonephritis, sepsis)",
+        "Unilateral leg swelling, pleuritic chest pain or breathlessness (VTE)",
+        "Both partners carrying thalassaemia trait",
+        "Third-trimester itch of palms and soles without rash (intrahepatic cholestasis of pregnancy)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Anaemia screening and treatment",
+          "india": "High prevalence; routine iron-folic acid for all and IV iron sucrose in many programs.",
+          "australia": "Iron given on the basis of FBC and ferritin; IV ferric carboxymaltose for intolerance or late, significant anaemia."
+        },
+        {
+          "aspect": "Thalassaemia screening",
+          "india": "Screening varies; HPLC often done in high-prevalence states.",
+          "australia": "Targeted by ethnicity or low MCV with normal ferritin, with early partner testing for reproductive options."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "First-line pharmacotherapy for nausea and vomiting of pregnancy?",
+          "back": "Doxylamine with pyridoxine."
+        },
+        {
+          "front": "What must be given before dextrose in hyperemesis?",
+          "back": "Thiamine, to prevent Wernicke encephalopathy."
+        },
+        {
+          "front": "Ferritin level indicating iron deficiency in pregnancy?",
+          "back": "Below about 30 micrograms/L."
+        },
+        {
+          "front": "Levothyroxine change when a treated hypothyroid woman becomes pregnant?",
+          "back": "Increase dose by about 25-30% (e.g. two extra doses a week) immediately."
+        },
+        {
+          "front": "Treatment of VTE in pregnancy?",
+          "back": "Therapeutic weight-based LMWH for the rest of pregnancy and at least 6 weeks postpartum."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "antenatal-care--common-problems-in-pregnancy--q1",
+          "discipline": "womens-health",
+          "topic": "antenatal-care",
+          "difficulty": "core",
+          "stem": "A 24-year-old woman at 9 weeks' gestation presents to the emergency department with 5 days of vomiting and inability to keep fluids down. She has lost 4 kg (7% of body weight). Pulse 112 bpm, BP 102/64 mmHg. Urine ketones 3+. Potassium 3.1 mmol/L. TSH 0.05 mIU/L (low), free T4 slightly raised. There is no goitre or eye signs.\n\nWhich is the most appropriate initial management?",
+          "options": [
+            "Start carbimazole",
+            "IV normal saline with potassium, thiamine and a parenteral antiemetic",
+            "IV 5% dextrose and oral ondansetron",
+            "Oral rehydration and discharge with doxylamine-pyridoxine",
+            "Start propylthiouracil and propranolol"
+          ],
+          "answer": 1,
+          "explanation": "She has **hyperemesis gravidarum**: weight loss over 5%, dehydration, ketosis and hypokalaemia. She needs admission for **IV fluids** (normal saline or Hartmann's) with **potassium replacement**, a **parenteral antiemetic**, and **thiamine before any dextrose** to prevent Wernicke encephalopathy. An ultrasound should exclude multiple or molar pregnancy, and LMWH is considered while she is immobile.\n\nThe thyroid results show **transient gestational thyrotoxicosis**: hCG shares a subunit with TSH and stimulates the TSH receptor. No goitre, no eye signs, and it resolves as hCG falls. **Antithyroid drugs are not indicated.**\n\nDextrose without thiamine can precipitate Wernicke's, and she is too unwell for oral rehydration.",
+          "whyWrong": [
+            "Gestational thyrotoxicosis is hCG-driven and self-limiting; carbimazole is also avoided in the first trimester.",
+            "",
+            "Dextrose before thiamine risks Wernicke encephalopathy, and oral drugs will not stay down.",
+            "She is dehydrated, ketotic and hypokalaemic, and needs IV therapy.",
+            "Antithyroid drugs are not indicated for gestational thyrotoxicosis."
+          ],
+          "tags": [
+            "hyperemesis",
+            "thyroid",
+            "fluids"
+          ]
+        },
+        {
+          "id": "antenatal-care--common-problems-in-pregnancy--q2",
+          "discipline": "womens-health",
+          "topic": "antenatal-care",
+          "difficulty": "exam",
+          "stem": "A 27-year-old woman of Greek background is 11 weeks pregnant with her first child. Booking bloods show Hb 104 g/L, MCV 64 fL and ferritin 85 micrograms/L.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Start oral iron and recheck in 4 weeks",
+            "Arrange IV iron infusion",
+            "Haemoglobin electrophoresis and offer testing of her partner",
+            "Check B12 and folate",
+            "Reassure that this is physiological anaemia of pregnancy"
+          ],
+          "answer": 2,
+          "explanation": "A **very low MCV with normal ferritin** points away from iron deficiency and towards **thalassaemia trait**, especially in a woman of Mediterranean background. Physiological (dilutional) anaemia is normocytic.\n\nThe next step is **haemoglobin electrophoresis/HPLC** (and DNA studies for alpha thalassaemia if indicated) and, crucially, **early partner testing**. If both partners are carriers, the fetus has a 1 in 4 chance of a major haemoglobinopathy, and she needs genetic counselling with the option of CVS while it is still early.\n\nGiving iron to someone who is iron-replete does not help and can cause overload.",
+          "whyWrong": [
+            "Her ferritin is normal, so iron deficiency is not the cause.",
+            "IV iron is inappropriate when iron stores are normal.",
+            "",
+            "B12 and folate deficiency cause macrocytosis, not microcytosis.",
+            "Physiological dilutional anaemia is normocytic, not markedly microcytic."
+          ],
+          "tags": [
+            "thalassaemia",
+            "anaemia",
+            "antenatal screening"
+          ]
+        },
+        {
+          "id": "antenatal-care--common-problems-in-pregnancy--q3",
+          "discipline": "womens-health",
+          "topic": "antenatal-care",
+          "difficulty": "foundation",
+          "stem": "A 32-year-old woman with hypothyroidism on levothyroxine 100 micrograms daily has a positive home pregnancy test at 5 weeks. Her last TSH, 3 months ago, was 1.6 mIU/L. She feels well.\n\nWhat is the most appropriate advice?",
+          "options": [
+            "Continue the same dose and check TSH at 20 weeks",
+            "Stop levothyroxine until the first trimester is complete",
+            "Halve the dose because pregnancy increases thyroid hormone production",
+            "Increase the dose by about 25-30% now and check TSH in 4-6 weeks",
+            "Switch to liothyronine for the pregnancy"
+          ],
+          "answer": 3,
+          "explanation": "Thyroid hormone requirements rise early in pregnancy because of increased thyroxine-binding globulin, placental deiodination and a larger volume of distribution. The **fetus relies entirely on maternal thyroxine** until about 12 weeks, and maternal hypothyroidism is linked with miscarriage and impaired neurodevelopment.\n\nWomen on levothyroxine should **increase the dose by about 25-30% as soon as pregnancy is confirmed** (a common approach is taking two extra doses a week), then check TSH every 4-6 weeks and titrate to trimester-specific targets. After birth, return to the pre-pregnancy dose.\n\nLiothyronine does not cross into the fetal brain adequately and is not used.",
+          "whyWrong": [
+            "Waiting until 20 weeks risks maternal hypothyroidism during critical fetal brain development.",
+            "Stopping levothyroxine deprives the fetus of thyroxine in the first trimester.",
+            "Requirements increase, not decrease, in pregnancy.",
+            "",
+            "Liothyronine is not recommended in pregnancy; levothyroxine is the treatment."
+          ],
+          "tags": [
+            "hypothyroidism",
+            "levothyroxine",
+            "pregnancy"
+          ]
+        }
+      ]
+    }
+  ]
+}

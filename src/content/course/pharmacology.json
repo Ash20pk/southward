@@ -1,0 +1,930 @@
+{
+  "topic": "pharmacology",
+  "intro": "Clinical pharmacology on the AMC is about prescribing safely in the Australian system: using Australian drug names, knowing the medicine schedules and the PBS, adjusting doses for kidneys, age and pregnancy, avoiding classic interactions, monitoring narrow-therapeutic-index drugs, and prescribing opioids responsibly. Many questions in other topics are really prescribing questions, so this course pays off across the whole exam.",
+  "lessons": [
+    {
+      "id": "pharmacology--prescribing-in-australia",
+      "title": "Prescribing in Australia: names, schedules and the PBS",
+      "minutes": 15,
+      "objectives": [
+        "Use Australian drug names and prescribe by active ingredient",
+        "Apply the Poisons Standard schedules S2, S3, S4 and S8",
+        "Explain PBS subsidy, authority prescriptions and brand substitution",
+        "Check real-time prescription monitoring and state rules before prescribing S8 drugs"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Overview",
+          "body": "Prescribing in Australia runs on a few national systems that an Indian graduate will not have used: the **Poisons Standard** (scheduling), the **Pharmaceutical Benefits Scheme (PBS)** (subsidy), the **Therapeutic Goods Administration (TGA)** (approval and safety), and state and territory laws on controlled drugs. The reference books are **Therapeutic Guidelines (eTG)** and the **Australian Medicines Handbook (AMH)**. AMC questions use Australian names and expect Australian doses and rules."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Drug names",
+          "body": "Australia uses **international non-proprietary names**, with a few traditional names kept for safety:\n- **Adrenaline** and noradrenaline (not epinephrine), **paracetamol** (not acetaminophen), **salbutamol** (not albuterol), **glyceryl trinitrate** (GTN), **frusemide/furosemide** (both seen), **lignocaine/lidocaine**, **cefalexin**, amoxicillin, **benzylpenicillin** (penicillin G), **phenoxymethylpenicillin** (penicillin V), **trimethoprim+sulfamethoxazole** (co-trimoxazole), **hyoscine butylbromide** (Buscopan).\n- Many Indian medicines are **not available**: **nimesulide, metamizole (dipyrone)**, many fixed-dose combinations (for example antibiotic plus probiotic, multi-drug cough and cold mixes), and **serratiopeptidase**. Don't write them in an answer.\n\n**Prescribe by active ingredient.** Since 2021, PBS prescriptions must include the active ingredient name, with limited exemptions (brand names may be added). Pharmacists may **substitute an equivalent brand** (brands flagged as equivalent in the PBS schedule) unless the prescriber ticks **\"brand substitution not permitted\"** for a clinical reason. Electronic prescriptions (a token sent by SMS or email) are now common."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Scheduling (the Poisons Standard)",
+          "body": "| Schedule | Name | Who supplies | Examples |\n|---|---|---|---|\n| **S2** | Pharmacy medicine | Pharmacy, self-selection | Small packs of paracetamol and ibuprofen, some antihistamines |\n| **S3** | Pharmacist only | Pharmacist must be involved | **Salbutamol inhalers**, emergency contraception (levonorgestrel), naloxone, some PPIs, glyceryl trinitrate spray |\n| **S4** | Prescription only | Prescription needed | **Antibiotics**, most chronic disease drugs, **codeine** (since February 2018), benzodiazepines (most), **pregabalin**, tramadol |\n| **S8** | Controlled drug | Prescription with extra legal controls on prescribing, storage and records | **Opioids** (morphine, oxycodone, fentanyl, methadone, buprenorphine, tapentadol), **stimulants** (dexamfetamine, lisdexamfetamine, methylphenidate), **alprazolam**, flunitrazepam, medicinal cannabis (most), ketamine |\n| S9 | Prohibited | Research only | Heroin, LSD |\n\n**Codeine** was moved from over-the-counter to **prescription only (S4) in 2018**, after evidence of misuse and harm, including hepatotoxicity from codeine-paracetamol combinations and codeine-ibuprofen related GI bleeding and renal failure.\n\n**S8 prescribing rules vary by state and territory**, but common themes:\n- **Real-time prescription monitoring (RTPM)** systems (for example SafeScript in Victoria and NSW, QScript in Queensland) show a patient's recent supply of monitored medicines. Checking before prescribing is **mandatory in several states**.\n- **Permits or authorities** from the state health department are required in many situations: long-term opioid prescribing beyond a set duration, prescribing to people with a drug dependence, and most stimulant prescribing for ADHD. Opioid treatment programs (methadone, buprenorphine) have their own rules.\n- S8 prescriptions need specific details (for example quantity in words and figures) and cannot be written for yourself."
+        },
+        {
+          "kind": "concepts",
+          "heading": "The PBS and other funding",
+          "body": "- The **PBS** subsidises listed medicines so patients pay a capped co-payment (lower for **concession** card holders). The **PBS Safety Net** reduces costs further once a family's annual spending passes a threshold.\n- Listings may be:\n  - **Unrestricted**.\n  - **Restricted benefit**: only for specified indications (the prescriber must be satisfied the patient meets them).\n  - **Authority required (streamlined)**: an authority code from the schedule is written on the script.\n  - **Authority required**: approval from Services Australia by phone or online before prescribing (for example biologics, some high-cost drugs, increased quantities).\n- **Private prescriptions** (non-PBS) cost the full price, for example if the indication is not listed.\n- **RPBS** covers eligible veterans. Some medicines (for example HIV treatment, hepatitis C and opioid treatment program medicines) are supplied under special **Section 100** arrangements.\n- **60-day dispensing** now allows two months' supply of many stable chronic disease medicines per script.\n- Doctors must also consider **TGA approval**: prescribing for an unapproved indication (\"off-label\") is legal but needs a sound evidence base and informed consent. Unapproved medicines can be accessed via the **Special Access Scheme** or **Authorised Prescriber** pathways."
+        },
+        {
+          "kind": "application",
+          "heading": "Writing a safe prescription",
+          "body": "- Patient's full name, address, date of birth; prescriber's details, date, signature.\n- **Active ingredient, strength, form, dose, frequency, route, quantity and repeats**. Clear instructions: \"one tablet **once a week on Mondays**\" for methotrexate.\n- Avoid dangerous abbreviations: never \"U\" for units, avoid trailing zeros (5 mg not 5.0 mg), write \"micrograms\" in full.\n- Check **allergies**, weight (children), renal function, pregnancy and breastfeeding status, and interactions.\n- For antibiotics, follow **eTG**, the right duration, and avoid unnecessary repeats (antimicrobial stewardship).\n- Give **Consumer Medicine Information** and explain purpose, how to take, adverse effects and when to return."
+        },
+        {
+          "kind": "application",
+          "heading": "Where Australian prescribers look things up",
+          "body": "- **Therapeutic Guidelines (eTG complete)**: the national reference for **what** to prescribe, especially antibiotics (empirical choices, doses and durations), analgesia, psychotropics and toxicology. Most AMC antimicrobial answers follow eTG.\n- **Australian Medicines Handbook (AMH)**: the reference for **how** to prescribe a particular drug: doses, renal and hepatic adjustment, interactions, pregnancy and breastfeeding, adverse effects.\n- **Product information (PI)** and **Consumer Medicine Information (CMI)** via the TGA; the PBS schedule for subsidy rules.\n- Former **NPS MedicineWise** resources (its programs moved to the Australian Commission on Safety and Quality in Health Care), state medicines information services, and pregnancy and breastfeeding services such as MotherSafe.\n- Hospital drug committees and local antimicrobial stewardship guidelines, which may restrict broad-spectrum agents (for example meropenem or piperacillin-tazobactam) to approved indications."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- The Australian name is always right: adrenaline, paracetamol, salbutamol, GTN.\n- A patient asking for codeine over the counter: not possible since 2018; it needs a prescription.\n- Before prescribing oxycodone to a new patient: **check real-time prescription monitoring**.\n- Salbutamol is **S3**, so it can be bought from a pharmacist without a prescription.\n- A request for a medicine commonly used in India but not in Australia (for example nimesulide): explain it is unavailable and offer an Australian alternative.\n- Biologic for RA or psoriasis: **PBS authority required**."
+        }
+      ],
+      "keyPoints": [
+        "Australian names: adrenaline, paracetamol, salbutamol, glyceryl trinitrate, frusemide/furosemide, cefalexin.",
+        "Prescribe by active ingredient; pharmacists may substitute brands unless substitution is not permitted.",
+        "S2 pharmacy, S3 pharmacist only, S4 prescription only, S8 controlled drug.",
+        "Codeine has been prescription-only (S4) since February 2018.",
+        "Check real-time prescription monitoring before S8 prescribing; permits and rules vary by state.",
+        "PBS listings can be unrestricted, restricted, streamlined authority or authority required.",
+        "Nimesulide, metamizole and many fixed-dose combinations are not available in Australia."
+      ],
+      "redFlags": [
+        "Early or repeated requests for S8 medicines, or multiple prescribers on RTPM (doctor shopping)",
+        "Prescribing methotrexate without a clear weekly day",
+        "Dangerous abbreviations such as 'U' for units",
+        "Prescribing a teratogen without checking pregnancy status"
+      ],
+      "contrast": [
+        {
+          "aspect": "Over-the-counter access",
+          "india": "Antibiotics and many prescription drugs bought without a script.",
+          "australia": "Strict scheduling; antibiotics S4; codeine S4 since 2018; S8 drugs tightly controlled."
+        },
+        {
+          "aspect": "Prescribing format",
+          "india": "Brand names and fixed-dose combinations common.",
+          "australia": "Active ingredient prescribing, brand substitution by pharmacists, PBS subsidy rules."
+        },
+        {
+          "aspect": "Controlled drugs",
+          "india": "Tightly restricted under the NDPS Act; often under-prescribed.",
+          "australia": "S8 drugs prescribed with RTPM checks and state permits; rules vary by state."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Schedule for 'pharmacist only' medicines?",
+          "back": "S3 (e.g., salbutamol inhaler, emergency contraception)."
+        },
+        {
+          "front": "Schedule for controlled drugs such as opioids and stimulants?",
+          "back": "S8."
+        },
+        {
+          "front": "Year codeine became prescription-only in Australia?",
+          "back": "2018 (February)."
+        },
+        {
+          "front": "What must be checked before prescribing an S8 medicine?",
+          "back": "Real-time prescription monitoring (plus state permit requirements)."
+        },
+        {
+          "front": "Australian name for epinephrine and acetaminophen?",
+          "back": "Adrenaline and paracetamol."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "pharmacology--prescribing-in-australia--q1",
+          "discipline": "adult-medicine",
+          "topic": "pharmacology",
+          "difficulty": "foundation",
+          "stem": "A 30-year-old man who recently moved from India to Perth asks his GP for nimesulide for recurrent headaches, saying it always worked well for him at home.\n\nWhat is the most appropriate response?",
+          "options": [
+            "Prescribe nimesulide on a private prescription",
+            "Explain nimesulide is not available in Australia and discuss appropriate alternatives such as paracetamol or ibuprofen after assessing his headaches",
+            "Apply through the Special Access Scheme for nimesulide",
+            "Suggest he import a supply from India",
+            "Prescribe metamizole instead"
+          ],
+          "answer": 1,
+          "explanation": "**Nimesulide is not marketed in Australia** (it has been withdrawn or restricted in many countries because of hepatotoxicity), and neither is **metamizole** (agranulocytosis risk). The appropriate response is to assess his headaches properly (type, red flags, medication-overuse headache) and offer Australian options, for example paracetamol, ibuprofen or aspirin for tension-type headache, or triptans for migraine, with lifestyle advice. Importing unapproved medicines personally is not advisable, and the Special Access Scheme is for serious conditions where no approved alternative exists.",
+          "whyWrong": [
+            "It cannot be prescribed because it is not available in Australia.",
+            "",
+            "SAS is for serious needs without approved alternatives; many suitable alternatives exist.",
+            "Encouraging importation of an unapproved hepatotoxic drug is inappropriate.",
+            "Metamizole is also unavailable because of agranulocytosis risk."
+          ],
+          "tags": [
+            "drug availability",
+            "prescribing",
+            "headache"
+          ]
+        },
+        {
+          "id": "pharmacology--prescribing-in-australia--q2",
+          "discipline": "adult-medicine",
+          "topic": "pharmacology",
+          "difficulty": "core",
+          "stem": "A 44-year-old woman sees a GP at a new practice in Geelong for the first time, asking for a repeat prescription of oxycodone 20 mg controlled-release twice daily for chronic back pain. She says her previous GP retired. She has no records with her.\n\nWhat is the most appropriate first step?",
+          "options": [
+            "Prescribe one month's supply and request records",
+            "Refuse to prescribe any opioid",
+            "Prescribe a double dose to cover the gap",
+            "Check the state real-time prescription monitoring system and obtain records from the previous prescriber",
+            "Refer immediately to an addiction specialist"
+          ],
+          "answer": 3,
+          "explanation": "Before prescribing an **S8 opioid** to a new patient, the prescriber must check **real-time prescription monitoring** (in Victoria, SafeScript, where checking is mandatory) to see recent supply, other prescribers and pharmacies, and should obtain **records from the previous prescriber**. This protects the patient from harm (overdose, doctor shopping) and ensures continuity. Depending on the findings and state law, a permit may be required for ongoing prescribing. Abrupt refusal risks withdrawal and harm, while prescribing blind is unsafe. An opioid review with a plan (goals, tapering where appropriate) should follow.",
+          "whyWrong": [
+            "Prescribing without checking RTPM or history is unsafe and may breach state law.",
+            "Refusal without assessment risks withdrawal and damages trust.",
+            "Increasing the dose is dangerous and unjustified.",
+            "",
+            "Referral may be needed later, but first establish her current supply and history."
+          ],
+          "ausPearl": "RTPM checks are mandatory before prescribing monitored medicines in some states, including Victoria (SafeScript) and Queensland (QScript).",
+          "tags": [
+            "s8",
+            "rtpm",
+            "opioids"
+          ]
+        },
+        {
+          "id": "pharmacology--prescribing-in-australia--q3",
+          "discipline": "adult-medicine",
+          "topic": "pharmacology",
+          "difficulty": "exam",
+          "stem": "A 68-year-old man with moderate asthma is travelling from Sydney to a remote property and has run out of salbutamol. His GP clinic is closed for the weekend.\n\nWhich statement about obtaining salbutamol is most accurate?",
+          "options": [
+            "Salbutamol is S8 and requires a state permit",
+            "Salbutamol is S4 and cannot be supplied without a prescription",
+            "Salbutamol is S2 and can be taken from a supermarket shelf",
+            "Salbutamol is unavailable in Australia; terbutaline must be used",
+            "Salbutamol is S3 and can be supplied by a pharmacist without a prescription"
+          ],
+          "answer": 4,
+          "explanation": "**Salbutamol inhalers are Schedule 3 (pharmacist only)** in Australia, so a pharmacist can supply one without a prescription after a brief assessment. This reflects the priority of rapid access to reliever medication for asthma. S2 medicines can be self-selected in a pharmacy; S4 require a prescription; S8 are controlled drugs such as opioids and stimulants. He should also be advised to see his GP to review asthma control and his written asthma action plan, since running out of reliever may indicate poor control.",
+          "whyWrong": [
+            "S8 is for controlled drugs such as opioids and stimulants.",
+            "Salbutamol inhalers are not S4 when supplied as relievers.",
+            "S2 medicines are pharmacy-only, not supermarket items, and salbutamol is S3.",
+            "Salbutamol is widely available in Australia.",
+            ""
+          ],
+          "tags": [
+            "scheduling",
+            "salbutamol",
+            "pharmacy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharmacology--special-populations",
+      "title": "Dosing in kidney disease, older people, pregnancy and breastfeeding",
+      "minutes": 16,
+      "objectives": [
+        "Adjust drug doses using eGFR or Cockcroft-Gault creatinine clearance",
+        "Explain age-related pharmacokinetic and pharmacodynamic changes",
+        "Interpret TGA pregnancy categories and name classic teratogens",
+        "Advise on medicines during breastfeeding"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Overview",
+          "body": "The same dose can be therapeutic in one patient and toxic in another. Kidney function, liver function, age, body size, pregnancy and genetics all change how drugs behave. The AMC expects you to check these before prescribing, and many questions hinge on a single overlooked factor, such as reduced kidney function in an older person or pregnancy in a woman of reproductive age."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Pharmacokinetics that matter clinically",
+          "body": "- **Absorption**: affected by food (bisphosphonates, levothyroxine need an empty stomach), chelation (iron, calcium, antacids with tetracyclines and quinolones), gut transit.\n- **Distribution**: lipid-soluble drugs (diazepam) have a larger volume of distribution in older people with more body fat, so longer half-lives; **highly protein-bound drugs** (phenytoin, warfarin) have more free drug when albumin is low.\n- **Metabolism**: mostly hepatic, via **cytochrome P450** (CYP3A4, CYP2D6, CYP2C9, CYP2C19). Genetic variation matters: **CYP2D6 ultra-rapid metabolisers** convert codeine to morphine quickly (toxicity), poor metabolisers get no analgesia. **CYP2C19** variants affect clopidogrel activation.\n- **Excretion**: renal for many drugs (gentamicin, vancomycin, lithium, digoxin, metformin, DOACs, enoxaparin, baclofen, many antibiotics).\n- **Half-life**: time to steady state is about **4 to 5 half-lives**, which is why levels are checked after that time and why loading doses are used for drugs with long half-lives (amiodarone, digoxin, phenytoin).\n- **Zero-order (saturable) kinetics**: phenytoin and alcohol at higher doses; small dose increases cause disproportionate rises in level."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Kidney and liver impairment",
+          "body": "**Estimating kidney function**\n- **eGFR** (CKD-EPI, reported routinely) is adequate for most drug dosing decisions.\n- **Cockcroft-Gault creatinine clearance** (uses age, weight, sex and creatinine) is preferred for narrow therapeutic index drugs and at extremes of body size, and is what many product information documents (for example **DOACs**) use.\n- Remember creatinine is insensitive in older people with low muscle mass: a \"normal\" creatinine may hide significantly reduced function.\n\n**Common renal adjustments** (check AMH or eTG):\n- **Metformin**: reduce dose with moderate impairment; generally **contraindicated with eGFR under 30** (lactic acidosis).\n- **DOACs**: dose adjustment or avoidance by creatinine clearance (dabigatran most renally dependent).\n- **Enoxaparin**: reduce dose if CrCl under 30 mL/min.\n- **Aminoglycosides and vancomycin**: dose by level.\n- **Morphine**: active metabolites accumulate; prefer other opioids in severe impairment.\n- **Nitrofurantoin**: avoid in significant impairment (ineffective and toxic).\n- **Gabapentin, pregabalin, baclofen**: accumulate, causing sedation and confusion.\n- **Avoid nephrotoxins** in CKD and AKI: NSAIDs, aminoglycosides, IV contrast where possible, and the triple whammy combination.\n\n**Liver disease**: no simple equivalent of eGFR. Reduce doses of drugs with high hepatic metabolism, avoid sedatives (precipitate encephalopathy), avoid NSAIDs (renal failure, bleeding), be cautious with paracetamol at full doses in malnourished or chronic alcohol users (use lower daily maximum per eTG)."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Older people",
+          "body": "Older people have reduced renal clearance, altered body composition, **increased sensitivity** (for example to benzodiazepines, opioids, anticholinergics, antipsychotics) and reduced homeostatic reserve (postural hypotension, falls). \"**Start low, go slow**\", review regularly, and deprescribe. Use Beers or STOPP/START criteria (see the geriatrics course)."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Pregnancy and breastfeeding",
+          "body": "**TGA pregnancy categories**:\n| Category | Meaning | Examples |\n|---|---|---|\n| **A** | Taken by many pregnant women with no proven increase in malformations or harm | Paracetamol, folic acid, amoxicillin, cefalexin (some), levothyroxine |\n| **B1** | Limited human data; animal studies show no harm | Many drugs |\n| **B2** | Limited human data; animal data inadequate | |\n| **B3** | Limited human data; animal studies show harm of uncertain significance in humans | |\n| **C** | Pharmacological effects may cause reversible harm without malformations | NSAIDs (later pregnancy), opioids (neonatal withdrawal), some antidepressants |\n| **D** | Increased risk of malformations or irreversible damage | **Valproate**, carbamazepine, phenytoin, **warfarin**, **ACE inhibitors and ARBs** (fetal renal damage in later pregnancy), lithium, tetracyclines, methotrexate, statins |\n| **X** | High risk; contraindicated in pregnancy or possible pregnancy | **Isotretinoin, acitretin**, thalidomide, leflunomide, misoprostol (for non-obstetric use) |\n\nThe categories are a starting point; for real decisions, use the product information, AMH, and pregnancy drug information services (for example **MotherSafe** in NSW and state equivalents). Key rules:\n- **Valproate** should be avoided in women who could become pregnant unless no alternative (neural tube defects, neurodevelopmental harm); if used, effective contraception and specialist oversight are required.\n- **Folic acid** before conception and in early pregnancy (higher dose if on antiepileptics, diabetes, obesity or previous neural tube defect).\n- **NSAIDs**: avoid from about 20 weeks (fetal renal impairment, oligohydramnios) and in the third trimester (premature closure of the ductus arteriosus).\n- **ACE inhibitors and ARBs**: switch before conception or as soon as pregnancy is confirmed (labetalol, nifedipine or methyldopa for hypertension).\n- **Warfarin**: embryopathy in the first trimester; switch to LMWH.\n- Undertreating maternal illness (asthma, epilepsy, depression) also harms the fetus.\n\n**Breastfeeding**: most medicines are compatible. Prefer drugs with long safety records and short half-lives, and time doses after feeds where relevant. Caution with **codeine** (ultra-rapid metabolisers have caused infant opioid toxicity), lithium, amiodarone, some cytotoxics and radioactive iodine. Use LactMed, AMH or a medicines information service."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- Older person with \"normal\" creatinine and low body weight: calculate creatinine clearance before dosing a DOAC or gentamicin.\n- Metformin in a patient with eGFR 25: stop or avoid.\n- Woman on perindopril who is 6 weeks pregnant: stop the ACE inhibitor and switch to labetalol or nifedipine.\n- Woman of reproductive age with epilepsy on valproate planning pregnancy: specialist review to change therapy before conception, plus high-dose folic acid.\n- Breastfeeding mother asking for codeine: choose another analgesic.\n- Low albumin with a \"therapeutic\" total phenytoin level and toxicity: free phenytoin is high."
+        }
+      ],
+      "keyPoints": [
+        "Steady state takes about 4 to 5 half-lives; loading doses are used for long half-life drugs.",
+        "Use Cockcroft-Gault creatinine clearance for narrow therapeutic index drugs, DOACs and extremes of body size.",
+        "Metformin is generally contraindicated below eGFR 30; morphine, gabapentinoids and baclofen accumulate in CKD.",
+        "Older people: start low, go slow, review and deprescribe.",
+        "TGA categories run A, B1-B3, C, D, X; D includes valproate, warfarin and ACE inhibitors; X includes isotretinoin and acitretin.",
+        "Avoid NSAIDs from about 20 weeks of pregnancy; switch ACE inhibitors and warfarin before or early in pregnancy.",
+        "Most drugs are compatible with breastfeeding; avoid codeine."
+      ],
+      "redFlags": [
+        "Prescribing a teratogen without confirming contraception or pregnancy status",
+        "Rising creatinine on renally cleared narrow therapeutic index drugs",
+        "Sedation and confusion in CKD on gabapentinoids, baclofen or morphine",
+        "Neonatal drowsiness or poor feeding in a breastfed infant of a mother on codeine"
+      ],
+      "contrast": [
+        {
+          "aspect": "Pregnancy drug classification",
+          "india": "US FDA letter categories often taught.",
+          "australia": "TGA categories A, B1, B2, B3, C, D, X; check AMH and pregnancy drug information services."
+        },
+        {
+          "aspect": "Valproate in women",
+          "india": "Widely used as first-line for many epilepsies and bipolar disorder.",
+          "australia": "Avoided in women who could become pregnant unless no alternative, with contraception and specialist oversight."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Time to reach steady state?",
+          "back": "About 4 to 5 half-lives."
+        },
+        {
+          "front": "Kidney function estimate preferred for DOAC dosing?",
+          "back": "Cockcroft-Gault creatinine clearance."
+        },
+        {
+          "front": "eGFR below which metformin is generally contraindicated?",
+          "back": "30 mL/min/1.73 m²."
+        },
+        {
+          "front": "TGA category of isotretinoin?",
+          "back": "X."
+        },
+        {
+          "front": "Why avoid NSAIDs from about 20 weeks' gestation?",
+          "back": "Fetal renal impairment and oligohydramnios; later, ductus closure."
+        },
+        {
+          "front": "Analgesic to avoid in breastfeeding because of CYP2D6 variability?",
+          "back": "Codeine."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "pharmacology--special-populations--q1",
+          "discipline": "adult-medicine",
+          "topic": "pharmacology",
+          "difficulty": "core",
+          "stem": "An 86-year-old woman weighing 45 kg is admitted to a Launceston hospital with atrial fibrillation. Her serum creatinine is 105 µmol/L and her eGFR is reported as 42 mL/min/1.73 m². The team plans to start a DOAC.\n\nWhat is the most appropriate step before choosing the dose?",
+          "options": [
+            "Use the eGFR because it is reported by the laboratory",
+            "Calculate creatinine clearance using the Cockcroft-Gault equation",
+            "Measure a 24-hour urine protein",
+            "Start the standard full dose and check creatinine in 3 months",
+            "Avoid anticoagulation because of her age"
+          ],
+          "answer": 1,
+          "explanation": "DOAC dosing thresholds in Australian product information are based on **creatinine clearance calculated by the Cockcroft-Gault equation**, which incorporates **age and body weight**. In a small, very old woman, the Cockcroft-Gault clearance is likely to be much lower than the reported eGFR (roughly 30 mL/min here), which may change the dose or the choice of DOAC (dabigatran is most renally dependent). eGFR is fine for many drugs but can overestimate clearance at extremes of age and body size. Age alone is not a reason to withhold anticoagulation.",
+          "whyWrong": [
+            "eGFR can overestimate clearance in small elderly patients and is not what DOAC dosing is based on.",
+            "",
+            "Urine protein does not guide DOAC dosing.",
+            "Full dosing without checking clearance risks bleeding.",
+            "Age is a reason to anticoagulate, not to withhold it."
+          ],
+          "tags": [
+            "renal dosing",
+            "doac",
+            "cockcroft-gault"
+          ]
+        },
+        {
+          "id": "pharmacology--special-populations--q2",
+          "discipline": "adult-medicine",
+          "topic": "pharmacology",
+          "difficulty": "foundation",
+          "stem": "A 31-year-old woman with hypertension on perindopril 5 mg daily tells her GP in Townsville that a home pregnancy test was positive yesterday. She is about 6 weeks pregnant and well. BP 132/84 mmHg.\n\nWhat is the most appropriate change to her antihypertensive treatment?",
+          "options": [
+            "Continue perindopril until the second trimester",
+            "Switch to candesartan",
+            "Stop all antihypertensives for the rest of pregnancy",
+            "Switch to hydrochlorothiazide",
+            "Stop perindopril and start labetalol or nifedipine"
+          ],
+          "answer": 4,
+          "explanation": "**ACE inhibitors and ARBs** are **TGA category D**: exposure in the second and third trimesters causes **fetal renal failure, oligohydramnios, skull hypoplasia and death**, and first-trimester exposure should be minimised. She should **stop perindopril now** and switch to a pregnancy-compatible antihypertensive such as **labetalol**, **nifedipine** (modified release) or methyldopa, with early antenatal care and low-dose aspirin considered for pre-eclampsia prevention. Ideally this switch happens before conception in women planning pregnancy.",
+          "whyWrong": [
+            "ACE inhibitors cause fetal harm and must be stopped as soon as pregnancy is confirmed.",
+            "ARBs carry the same fetal risks as ACE inhibitors.",
+            "Her hypertension still needs treatment to protect mother and fetus.",
+            "Thiazides are not first-line in pregnancy and can reduce plasma volume.",
+            ""
+          ],
+          "tags": [
+            "pregnancy",
+            "ace inhibitor",
+            "hypertension"
+          ]
+        },
+        {
+          "id": "pharmacology--special-populations--q3",
+          "discipline": "adult-medicine",
+          "topic": "pharmacology",
+          "difficulty": "exam",
+          "stem": "A 72-year-old man with CKD (eGFR 22 mL/min/1.73 m²) is started on pregabalin 150 mg twice daily for post-herpetic neuralgia. Five days later his wife brings him to a Sunshine Coast emergency department because he is very drowsy, unsteady and confused. There is no focal neurology and no infection is found.\n\nWhat is the most likely cause?",
+          "options": [
+            "Accumulation of pregabalin due to reduced renal clearance",
+            "Hepatic encephalopathy",
+            "Serotonin toxicity",
+            "Hypoglycaemia from pregabalin",
+            "Herpes zoster encephalitis"
+          ],
+          "answer": 0,
+          "explanation": "**Pregabalin** (and gabapentin) are cleared almost entirely by the **kidneys** unchanged. In an older man with an eGFR of 22, a standard dose of 300 mg daily accumulates, causing **sedation, dizziness, ataxia and confusion**, with falls and respiratory depression if combined with opioids. The dose should have been reduced substantially according to creatinine clearance (see AMH). Management is to stop or reduce pregabalin and provide supportive care. Always check renal function before prescribing renally cleared drugs.",
+          "whyWrong": [
+            "",
+            "There is no liver disease to cause hepatic encephalopathy.",
+            "Pregabalin is not serotonergic and there is no clonus or hyperthermia.",
+            "Pregabalin does not cause hypoglycaemia.",
+            "No infection or focal signs suggest encephalitis, and timing fits drug accumulation."
+          ],
+          "tags": [
+            "renal dosing",
+            "pregabalin",
+            "elderly"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharmacology--interactions-and-adverse-reactions",
+      "title": "Drug interactions and adverse drug reactions",
+      "minutes": 16,
+      "objectives": [
+        "Predict CYP450 enzyme inhibition and induction interactions",
+        "Recognise the classic Australian exam interactions, including the triple whammy",
+        "Classify adverse drug reactions and report them to the TGA",
+        "Assess and document drug allergy, including penicillin allergy delabelling"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Overview",
+          "body": "Adverse drug events are a major cause of hospital admissions in Australia, especially in older people. Many are predictable from pharmacology: an interaction that raises a drug's level, a combination that damages the kidney, or a known dose-related effect. The AMC uses a small set of classic interactions repeatedly; learn them by mechanism."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Mechanisms of interactions",
+          "body": "**Pharmacokinetic**\n- **CYP inhibitors** raise levels of drugs metabolised by that enzyme, within days: **clarithromycin, erythromycin**, azole antifungals (fluconazole, itraconazole, ketoconazole), **ritonavir**, diltiazem, verapamil, amiodarone, **grapefruit juice** (CYP3A4); fluoxetine and paroxetine (CYP2D6); metronidazole and fluconazole (CYP2C9, relevant to warfarin).\n- **CYP inducers** lower levels over 1 to 2 weeks: **rifampicin**, **carbamazepine**, phenytoin, phenobarbital, **St John's wort**, chronic alcohol.\n- Reduced renal clearance: NSAIDs, ACE inhibitors and diuretics raise **lithium**; trimethoprim reduces **methotrexate** and creatinine secretion.\n- Absorption: iron, calcium and antacids chelate tetracyclines, quinolones and levothyroxine.\n- P-glycoprotein: clarithromycin and verapamil raise digoxin, dabigatran and colchicine levels.\n\n**Pharmacodynamic**: additive or opposing effects at the same target: serotonergic drugs together, multiple QT-prolonging drugs, multiple sedatives, multiple potassium-raising drugs, anticoagulant plus antiplatelet plus NSAID."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "The classic interactions",
+          "body": "| Combination | Result |\n|---|---|\n| **Warfarin + antibiotics** (co-trimoxazole, metronidazole, fluconazole, macrolides, quinolones), amiodarone | **INR rise and bleeding**; check INR within days |\n| **Warfarin + rifampicin or carbamazepine** | INR falls, clot risk |\n| **Simvastatin or atorvastatin + clarithromycin/erythromycin** (CYP3A4) | **Myopathy and rhabdomyolysis**: withhold the statin during the course |\n| **SSRI or SNRI + tramadol** (or MAOI, linezolid, St John's wort) | **Serotonin toxicity**; tramadol also lowers the seizure threshold |\n| **Triple whammy: ACE inhibitor or ARB + diuretic + NSAID** | **Acute kidney injury**, especially with dehydration |\n| ACE inhibitor/ARB + spironolactone or potassium + trimethoprim | **Hyperkalaemia** |\n| **Methotrexate + trimethoprim** | Marrow suppression |\n| **Allopurinol + azathioprine** | Marrow suppression |\n| Lithium + ACE inhibitor, thiazide or NSAID | Lithium toxicity |\n| Sildenafil or tadalafil + nitrates | Severe hypotension |\n| Multiple QT-prolonging drugs (macrolides, ondansetron, antipsychotics, methadone, citalopram) with low potassium or magnesium | Torsades de pointes |\n| Colchicine + clarithromycin | Colchicine toxicity |\n| Clopidogrel + omeprazole or esomeprazole | Possible reduced clopidogrel activation (pantoprazole preferred) |\n| Combined oral contraceptive + enzyme inducers (carbamazepine, rifampicin, St John's wort) | Contraceptive failure |\n| Opioid + benzodiazepine or gabapentinoid or alcohol | Respiratory depression and death |"
+        },
+        {
+          "kind": "concepts",
+          "heading": "Adverse drug reactions and reporting",
+          "body": "**Classification** (useful framework):\n- **Type A (augmented)**: predictable, dose-related extension of pharmacology (bleeding on warfarin, hypoglycaemia on insulin). The large majority.\n- **Type B (bizarre)**: unpredictable, not dose-related, often immune (anaphylaxis, SJS/TEN, DRESS, idiosyncratic hepatitis).\n- Type C (chronic: steroid osteoporosis), D (delayed: teratogenicity, malignancy), E (end of use: withdrawal, rebound), F (failure: interaction reducing efficacy).\n\n**Reporting**: health professionals and consumers can report suspected adverse events to the **TGA** (online), which feeds the national database and safety signals. Reporting is especially encouraged for **serious** reactions, reactions to **new medicines**, and unexpected reactions. New medicines carry the **black triangle** symbol on their Consumer Medicine Information for their first years on the market to prompt reporting. Vaccine reactions can also be reported through state surveillance systems.\n\n**Drug allergy documentation**: record the drug, the reaction (for example \"urticaria\", \"anaphylaxis\", \"nausea\"), the date and the source. Intolerance (nausea on codeine) is not allergy. Reactions should be recorded in the medical record, on My Health Record, and communicated to the patient.\n\n**Penicillin allergy labels**: around 1 in 10 people report penicillin allergy, but **more than 90% are not truly allergic** when tested. A false label leads to broader-spectrum antibiotics, more resistance, C. difficile and worse outcomes. Australian clinicians developed the **PEN-FAST** decision tool: low-risk histories (for example a remote benign rash) can be **delabelled with a supervised direct oral amoxicillin challenge**; high-risk histories (anaphylaxis, severe cutaneous reactions) need specialist assessment and should not be re-challenged casually. Cross-reactivity between penicillins and cephalosporins is low, especially with dissimilar side chains; eTG guides cephalosporin use in penicillin allergy."
+        },
+        {
+          "kind": "application",
+          "heading": "Two interactions to manage in practice: QT and potassium",
+          "body": "**QT prolongation.** Before combining QT-prolonging drugs, check a baseline ECG in at-risk patients (older age, female sex, heart disease, bradycardia, congenital long QT) and correct **potassium and magnesium**. A QTc over about 500 ms, or a rise of more than 60 ms from baseline, markedly increases the risk of **torsades de pointes**. Common Australian culprits: **citalopram and escitalopram** (dose limits in older people), **ondansetron**, **haloperidol** and other antipsychotics, **methadone**, **macrolides**, **fluoroquinolones**, domperidone, sotalol and amiodarone. Management of torsades: IV **magnesium**, correct potassium, stop the culprits, and overdrive pacing or isoprenaline if recurrent.\n\n**Hyperkalaemia.** ACE inhibitors, ARBs, spironolactone and eplerenone, potassium supplements, trimethoprim, heparin, NSAIDs, ciclosporin and tacrolimus all raise potassium, and the effect is amplified by CKD, diabetes and dehydration. Check potassium and creatinine **1 to 2 weeks after starting or increasing** these drugs, and when a patient becomes unwell. A short course of trimethoprim in an older patient on spironolactone and an ACE inhibitor is a classic route to dangerous hyperkalaemia; choose a different antibiotic or monitor closely."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- Man on warfarin given co-trimoxazole, INR 7.8: the antibiotic interaction.\n- Muscle pain and dark urine on simvastatin after starting clarithromycin: rhabdomyolysis, stop both and check CK.\n- Older woman on ramipril and frusemide who takes ibuprofen during gastroenteritis, now creatinine doubled: **triple whammy**.\n- Patient on sertraline wants tramadol: avoid; serotonin toxicity and seizures.\n- Unplanned pregnancy in a woman on carbamazepine and the pill: enzyme induction.\n- Report a serious reaction to a new medicine to the TGA."
+        }
+      ],
+      "keyPoints": [
+        "CYP3A4 inhibitors (clarithromycin, erythromycin, azoles, ritonavir, grapefruit) raise statin, colchicine and ciclosporin levels.",
+        "Inducers (rifampicin, carbamazepine, phenytoin, St John's wort) reduce warfarin and contraceptive levels.",
+        "Warfarin interacts with many antibiotics: check INR after starting one.",
+        "Triple whammy (ACE inhibitor/ARB + diuretic + NSAID) causes AKI.",
+        "SSRIs plus tramadol cause serotonin toxicity; opioids plus sedatives cause respiratory depression.",
+        "Report adverse drug reactions to the TGA; black triangle marks new medicines.",
+        "Most penicillin allergy labels are false; low-risk patients can be delabelled with a direct oral challenge."
+      ],
+      "redFlags": [
+        "Muscle pain and dark urine on a statin",
+        "Rising creatinine after an NSAID is added to an ACE inhibitor and diuretic",
+        "INR over the target range after starting an antibiotic",
+        "Clonus, agitation and sweating after adding a serotonergic drug",
+        "Drowsiness and slow breathing on opioids with benzodiazepines"
+      ],
+      "contrast": [
+        {
+          "aspect": "Adverse drug reaction reporting",
+          "india": "Pharmacovigilance Programme of India exists but reporting is uncommon in practice.",
+          "australia": "TGA reporting encouraged; black triangle scheme for new medicines; allergies recorded in My Health Record."
+        },
+        {
+          "aspect": "Penicillin allergy",
+          "india": "Labels usually accepted; skin testing rarely available.",
+          "australia": "Active delabelling using PEN-FAST and direct oral challenge for low-risk histories."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Components of the triple whammy?",
+          "back": "ACE inhibitor or ARB + diuretic + NSAID, causing AKI."
+        },
+        {
+          "front": "Antibiotic that raises simvastatin levels via CYP3A4?",
+          "back": "Clarithromycin (or erythromycin)."
+        },
+        {
+          "front": "Opioid that causes serotonin toxicity with SSRIs?",
+          "back": "Tramadol."
+        },
+        {
+          "front": "Enzyme inducer that causes contraceptive failure (common examples)?",
+          "back": "Carbamazepine, rifampicin, St John's wort."
+        },
+        {
+          "front": "Where are adverse drug reactions reported in Australia?",
+          "back": "The TGA."
+        },
+        {
+          "front": "Proportion of penicillin allergy labels that are false on testing?",
+          "back": "More than 90%."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "pharmacology--interactions-and-adverse-reactions--q1",
+          "discipline": "adult-medicine",
+          "topic": "pharmacology",
+          "difficulty": "foundation",
+          "stem": "A 74-year-old woman takes perindopril 10 mg and frusemide 40 mg daily for heart failure. During a bout of gastroenteritis she buys ibuprofen for aches. Three days later her Launceston GP finds her creatinine has risen from 95 to 230 µmol/L.\n\nWhat is the most likely explanation?",
+          "options": [
+            "Rhabdomyolysis",
+            "Contrast nephropathy",
+            "Glomerulonephritis",
+            "Post-renal obstruction",
+            "The combination of an ACE inhibitor, diuretic and NSAID with dehydration"
+          ],
+          "answer": 4,
+          "explanation": "This is the **triple whammy**: an **ACE inhibitor** (efferent arteriolar dilation), a **diuretic** (volume depletion) and an **NSAID** (afferent arteriolar constriction by blocking prostaglandins) together remove the kidney's ability to maintain glomerular filtration, especially with **dehydration** from gastroenteritis. Management: stop the NSAID, temporarily withhold the ACE inhibitor and diuretic (sick day rules), rehydrate and monitor creatinine and potassium. Prevention: avoid NSAIDs in people on this combination and teach sick day medicine rules.",
+          "whyWrong": [
+            "There is no history of crush injury, prolonged immobility or muscle pain.",
+            "She has not received iodinated contrast.",
+            "Nothing suggests a nephritic process; the timing fits the drug combination.",
+            "No symptoms or signs of urinary obstruction are described.",
+            ""
+          ],
+          "ausPearl": "Australian GPs and pharmacists are encouraged to flag the triple whammy; NSAIDs are available over the counter in small packs, so ask about them.",
+          "tags": [
+            "triple whammy",
+            "aki",
+            "nsaid"
+          ]
+        },
+        {
+          "id": "pharmacology--interactions-and-adverse-reactions--q2",
+          "discipline": "adult-medicine",
+          "topic": "pharmacology",
+          "difficulty": "core",
+          "stem": "A 66-year-old man on long-term warfarin for a mechanical aortic valve has a stable INR of 2.5. He is prescribed trimethoprim+sulfamethoxazole for a UTI by an after-hours clinic in Darwin. Six days later he notices bleeding gums and dark bruises. INR is 8.2 and he is not bleeding significantly otherwise.\n\nWhat is the mechanism of this interaction?",
+          "options": [
+            "Inhibition of warfarin metabolism (CYP2C9) by sulfamethoxazole",
+            "Induction of warfarin metabolism",
+            "Reduced absorption of vitamin K from fatty foods",
+            "Increased renal excretion of warfarin",
+            "Platelet inhibition by trimethoprim"
+          ],
+          "answer": 0,
+          "explanation": "**Sulfamethoxazole inhibits CYP2C9**, the main enzyme metabolising the more potent S-enantiomer of warfarin, and may also displace warfarin from protein binding and reduce vitamin K-producing gut flora. The result is a marked **INR rise** within days. Co-trimoxazole, metronidazole, fluconazole and macrolides are the classic culprits. Management per Australian consensus guidance depends on INR and bleeding: withhold warfarin, give **vitamin K** in appropriate dose, and use **prothrombin complex concentrate (Prothrombinex-VF)** for significant bleeding. Whenever an antibiotic is started in someone on warfarin, check the INR within a few days.",
+          "whyWrong": [
+            "",
+            "Induction lowers the INR; inducers include rifampicin and carbamazepine.",
+            "Dietary vitamin K changes do not explain this rapid rise after starting the antibiotic.",
+            "Warfarin is hepatically metabolised, not renally excreted.",
+            "Trimethoprim does not inhibit platelets."
+          ],
+          "tags": [
+            "warfarin",
+            "interaction",
+            "cyp2c9"
+          ]
+        },
+        {
+          "id": "pharmacology--interactions-and-adverse-reactions--q3",
+          "discipline": "adult-medicine",
+          "topic": "pharmacology",
+          "difficulty": "exam",
+          "stem": "A 29-year-old woman is admitted to a Brisbane hospital with cellulitis. Her chart lists 'penicillin allergy'. On questioning, she had a mild non-itchy rash at age 5 while taking amoxicillin for an ear infection, with no swelling, breathing difficulty or blistering, and she has not taken a penicillin since.\n\nWhat is the most appropriate approach to her allergy label?",
+          "options": [
+            "Accept the label and treat with vancomycin",
+            "Avoid all beta-lactams including cephalosporins for life",
+            "Perform a supervised direct oral amoxicillin challenge or refer for delabelling, per local protocol",
+            "Give IV flucloxacillin with premedication using steroids and antihistamines",
+            "Refer for skin prick testing to all antibiotics before any treatment"
+          ],
+          "answer": 2,
+          "explanation": "More than 90% of people labelled penicillin-allergic tolerate penicillins. Her history (a remote, mild, non-urticarial rash in childhood, no angioedema, anaphylaxis or severe skin reaction) is **low risk** on the Australian-developed **PEN-FAST** tool. Low-risk patients can be safely **delabelled with a supervised direct oral amoxicillin challenge**, following local antimicrobial stewardship protocols, allowing narrow-spectrum first-line therapy such as flucloxacillin or cefalexin for cellulitis. Keeping a false label drives use of broader, less effective and more toxic antibiotics such as vancomycin.",
+          "whyWrong": [
+            "Vancomycin is less effective for streptococcal cellulitis and promotes resistance.",
+            "Lifelong avoidance of all beta-lactams is unjustified for a low-risk history.",
+            "",
+            "Premedication does not prevent true allergy and is not the right approach.",
+            "Extensive skin testing is unnecessary for a low-risk history and delays treatment."
+          ],
+          "ausPearl": "PEN-FAST was developed and validated by Australian infectious diseases researchers; many hospitals run penicillin allergy delabelling programs.",
+          "tags": [
+            "penicillin allergy",
+            "delabelling",
+            "stewardship"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharmacology--therapeutic-drug-monitoring-high-risk-medicines",
+      "title": "Therapeutic drug monitoring and high-risk medicines",
+      "minutes": 17,
+      "objectives": [
+        "Time and interpret levels for lithium, digoxin, gentamicin, vancomycin and phenytoin",
+        "Manage warfarin, over-anticoagulation and bleeding",
+        "Apply the APINCHS high-risk medicines framework",
+        "Prescribe insulin, potassium and methotrexate without common errors"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Overview",
+          "body": "A small group of medicines causes a large share of serious medication harm. The Australian Commission on Safety and Quality in Health Care uses the acronym **APINCHS** for these high-risk medicines. Some have a **narrow therapeutic index**, where the difference between an effective and a toxic level is small, so **therapeutic drug monitoring (TDM)** is used. The AMC tests when to take levels, what affects them, and how to respond."
+        },
+        {
+          "kind": "concepts",
+          "heading": "APINCHS: high-risk medicines",
+          "body": "- **A**: **A**nti-infectives (aminoglycosides, vancomycin, amphotericin)\n- **P**: **P**otassium and other electrolytes (IV potassium, concentrated sodium, magnesium)\n- **I**: **I**nsulin\n- **N**: **N**arcotics (opioids) and other sedatives\n- **C**: **C**hemotherapeutic agents (including oral **methotrexate**)\n- **H**: **H**eparin and other anticoagulants (warfarin, DOACs, enoxaparin)\n- **S**: **S**ystems (safe systems such as standardised charts, independent double checks, smart pumps)\n\n**Key safety practices**\n- **IV potassium**: use **premixed bags**, never an IV push; maximum peripheral infusion rate usually **10 mmol per hour** (higher only with central access and cardiac monitoring, per local policy).\n- **Insulin**: write \"units\" in full; never \"U\" or \"IU\" (misread as zero or 10); use subcutaneous insulin charts; never withhold basal insulin in type 1 diabetes.\n- **Methotrexate**: once weekly, day specified (see rheumatology).\n- **Opioids**: check the patient is not opioid-naive before long-acting or high-potency products (fentanyl patches).\n- **Anticoagulants**: avoid duplicate therapy when switching; check renal function and weight."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Therapeutic drug monitoring",
+          "body": "| Drug | When to sample | Typical target (check local lab) | Toxicity and pitfalls |\n|---|---|---|---|\n| **Lithium** | **12 hours after the last dose**, 5 to 7 days after a dose change | About 0.4 to 1.0 mmol/L (lower for maintenance or older people) | Tremor, ataxia, confusion, diarrhoea; toxicity raised by dehydration, ACE inhibitors, ARBs, thiazides, NSAIDs; monitor TSH, calcium and renal function (hypothyroidism, hyperparathyroidism, nephrogenic diabetes insipidus) |\n| **Digoxin** | At least **6 hours after a dose** (distribution phase) | Low end of range in heart failure | Nausea, anorexia, visual changes (yellow vision), confusion, bradyarrhythmias; worse with **hypokalaemia**, hypomagnesaemia, hypercalcaemia, renal impairment; interactions: amiodarone, verapamil, clarithromycin |\n| **Gentamicin** (once daily) | Per eTG nomogram or AUC-based dosing; **empirical therapy is limited to about 48 to 72 hours** where possible | Low trough to limit toxicity | **Nephrotoxicity** and irreversible **ototoxicity** (vestibular and cochlear); risk rises with duration, renal impairment, older age, loop diuretics |\n| **Vancomycin** | **AUC-guided dosing** (increasingly used in Australia) or trough levels per local protocol | Per protocol | Nephrotoxicity (especially with piperacillin-tazobactam), red man syndrome with rapid infusion |\n| **Phenytoin** | Trough; check **albumin** | Correct for low albumin, or measure free phenytoin | **Saturable (zero-order) kinetics**: small dose changes cause large level changes; nystagmus, ataxia, confusion; gum hypertrophy, hirsutism long term |\n| **Warfarin** | INR | **2 to 3** for most indications (2.5 to 3.5 for some mechanical valves, especially mitral) | Many interactions; diet (vitamin K) |\n\nOther monitored drugs: ciclosporin, tacrolimus, carbamazepine, valproate (adherence and toxicity), aminophylline."
+        },
+        {
+          "kind": "application",
+          "heading": "Warfarin and anticoagulant reversal",
+          "body": "**Warfarin basics**: starting doses are lower in older people; INR takes days to respond; overlap with heparin in acute thrombosis until INR is therapeutic for at least 2 consecutive days. Educate on interactions, diet consistency, alcohol and bleeding signs.\n\n**High INR** (principles from Australasian consensus guidance; check exact doses):\n- INR above range but under about 4.5 without bleeding: reduce or omit a dose, find the cause, recheck.\n- Higher INR without bleeding: withhold warfarin; **oral or IV vitamin K** (low dose), especially if at high bleeding risk; recheck.\n- **Clinically significant or life-threatening bleeding** (for example intracranial haemorrhage): stop warfarin, give **IV vitamin K** plus **prothrombin complex concentrate (Prothrombinex-VF)**, with fresh frozen plasma if PCC is unavailable or as advised; urgent haematology input.\n\n**DOACs**: no routine level monitoring; check renal function, adherence and interactions. Reversal for major bleeding: **idarucizumab** for dabigatran; for factor Xa inhibitors (apixaban, rivaroxaban), prothrombin complex concentrate is commonly used, and specific reversal agents may be available in some centres. Stop before procedures according to renal function and bleeding risk.\n\n**Heparin**: unfractionated heparin monitored by APTT or anti-Xa (reversed by protamine); enoxaparin dosed by weight and renal function. **Heparin-induced thrombocytopenia**: platelet fall by more than 50% 5 to 10 days after starting, with thrombosis: stop all heparin, use a non-heparin anticoagulant."
+        },
+        {
+          "kind": "application",
+          "heading": "Aminoglycosides and vancomycin in practice",
+          "body": "**Gentamicin** is used in Australia as a short-course empirical agent for serious Gram-negative sepsis (for example urosepsis, biliary sepsis, intra-abdominal infection) because it is rapidly bactericidal and resistance is low. eTG advice centres on:\n- **Once-daily dosing** based on weight (adjusted body weight in obesity) and renal function, which maximises peak concentration and minimises toxicity.\n- **Limiting empirical therapy to about 48 to 72 hours**, then switching to a narrower or less toxic agent once cultures return. For such short courses in people with normal renal function, levels may not be required; longer courses require monitoring per local protocol.\n- Avoiding or using with great caution in pre-existing renal impairment, older age, myasthenia gravis, pregnancy and with other nephrotoxins or ototoxins (loop diuretics).\n- Asking about **tinnitus, hearing loss and unsteadiness**; vestibular toxicity may appear after the course ends and is often permanent.\n\n**Vancomycin** is the key agent for MRSA. Dosing is weight-based with a loading dose in serious infection, and monitoring has moved towards **AUC-guided dosing** using software or pharmacist-led protocols, as trough-based dosing overestimates exposure. Infuse slowly to avoid **vancomycin infusion reaction** (flushing and itch, formerly \"red man syndrome\"), which is not an allergy. Monitor creatinine, especially with piperacillin-tazobactam or other nephrotoxins."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- Lithium level taken 3 hours after the dose: uninterpretable; repeat at 12 hours.\n- Digoxin toxicity after starting frusemide: hypokalaemia; after starting amiodarone or clarithromycin: raised level.\n- Gentamicin for 10 days in an older man with tinnitus and unsteadiness: ototoxicity, which is often irreversible.\n- Epilepsy patient with low albumin, \"therapeutic\" phenytoin level and ataxia: free phenytoin is high.\n- ICH on warfarin: IV vitamin K plus Prothrombinex-VF.\n- Potassium 40 mmol IV push ordered: never; use a premixed infusion at a safe rate."
+        }
+      ],
+      "keyPoints": [
+        "APINCHS: anti-infectives, potassium, insulin, narcotics, chemotherapy, heparin/anticoagulants, systems.",
+        "IV potassium: premixed bags, never a push, peripheral rate usually up to 10 mmol per hour.",
+        "Write 'units' in full for insulin; never withhold basal insulin in type 1 diabetes.",
+        "Lithium: sample 12 hours post-dose; toxicity with dehydration, ACE inhibitors, thiazides, NSAIDs.",
+        "Digoxin: sample at least 6 hours post-dose; hypokalaemia increases toxicity.",
+        "Gentamicin: limit empirical courses to about 48 to 72 hours; ototoxicity is irreversible.",
+        "Phenytoin has saturable kinetics; correct for low albumin.",
+        "Warfarin with major bleeding: IV vitamin K plus Prothrombinex-VF."
+      ],
+      "redFlags": [
+        "Coarse tremor, ataxia or confusion on lithium",
+        "Visual disturbance, nausea and bradycardia on digoxin",
+        "Tinnitus, hearing loss or vertigo on aminoglycosides",
+        "Bleeding with a raised INR, especially head injury",
+        "Platelet fall and new thrombosis on heparin"
+      ],
+      "contrast": [
+        {
+          "aspect": "Medication safety systems",
+          "india": "Handwritten charts; variable checks.",
+          "australia": "National standard medication charts, APINCHS high-risk medicine policies, double checks and premixed potassium."
+        },
+        {
+          "aspect": "Warfarin reversal",
+          "india": "Fresh frozen plasma and vitamin K.",
+          "australia": "Prothrombin complex concentrate (Prothrombinex-VF) with IV vitamin K for major bleeding."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "What does APINCHS stand for?",
+          "back": "Anti-infectives, Potassium, Insulin, Narcotics, Chemotherapy, Heparin/anticoagulants, Systems."
+        },
+        {
+          "front": "Timing of lithium level?",
+          "back": "12 hours after the last dose."
+        },
+        {
+          "front": "Timing of digoxin level?",
+          "back": "At least 6 hours after the last dose."
+        },
+        {
+          "front": "Electrolyte abnormality that potentiates digoxin toxicity?",
+          "back": "Hypokalaemia (also hypomagnesaemia, hypercalcaemia)."
+        },
+        {
+          "front": "Reversal of warfarin with life-threatening bleeding?",
+          "back": "IV vitamin K plus prothrombin complex concentrate (Prothrombinex-VF)."
+        },
+        {
+          "front": "Specific reversal agent for dabigatran?",
+          "back": "Idarucizumab."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "pharmacology--therapeutic-drug-monitoring-high-risk-medicines--q1",
+          "discipline": "adult-medicine",
+          "topic": "pharmacology",
+          "difficulty": "core",
+          "stem": "An 80-year-old man in a Melbourne hospital on digoxin 250 micrograms daily for AF was started on frusemide 80 mg daily 1 week ago for fluid overload. He now has nausea, reduced appetite and sees yellow halos around lights. HR 44 bpm. Potassium 2.9 mmol/L, creatinine 140 µmol/L (baseline 100).\n\nWhat is the most important factor precipitating his toxicity?",
+          "options": [
+            "Hypokalaemia from frusemide",
+            "Hyperkalaemia",
+            "Hypernatraemia",
+            "Liver impairment",
+            "Hypoglycaemia"
+          ],
+          "answer": 0,
+          "explanation": "Digoxin and potassium compete for binding on the **Na+/K+-ATPase**. **Hypokalaemia**, here caused by frusemide, increases digoxin binding and markedly potentiates toxicity, even at 'therapeutic' levels. His declining renal function also reduces digoxin clearance. Features include GI upset, **xanthopsia** (yellow vision) and **bradyarrhythmias**. Management: withhold digoxin, correct potassium and magnesium, check a digoxin level (at least 6 hours post-dose), monitor ECG, and give **digoxin Fab** for life-threatening arrhythmias. Dose should be reviewed for his age and renal function.",
+          "whyWrong": [
+            "",
+            "Hyperkalaemia occurs in acute overdose; here potassium is low.",
+            "Sodium does not significantly affect digoxin toxicity.",
+            "Digoxin is mainly renally cleared; liver impairment is not the issue.",
+            "Hypoglycaemia does not cause digoxin toxicity."
+          ],
+          "tags": [
+            "digoxin",
+            "hypokalaemia",
+            "tdm"
+          ]
+        },
+        {
+          "id": "pharmacology--therapeutic-drug-monitoring-high-risk-medicines--q2",
+          "discipline": "adult-medicine",
+          "topic": "pharmacology",
+          "difficulty": "foundation",
+          "stem": "A 45-year-old woman with bipolar disorder takes lithium carbonate 750 mg at 9 pm each night. Her GP in Bendigo wants to check her lithium level after a recent dose change 7 days ago.\n\nWhen should the blood sample be taken?",
+          "options": [
+            "Immediately before the evening dose",
+            "About 12 hours after the last dose, the next morning",
+            "Two hours after the evening dose",
+            "Any time, as timing does not matter",
+            "Within 1 hour of the evening dose"
+          ],
+          "answer": 1,
+          "explanation": "Lithium levels are standardised as a **12-hour post-dose level** taken at steady state, usually **5 to 7 days after starting or changing the dose**. For a 9 pm dose, blood is taken around 9 am the next morning. Samples taken soon after a dose reflect the absorption peak and overestimate the true level, leading to inappropriate dose reductions. Pre-dose (about 24 hours) levels are lower than 12-hour levels. At the same time, check renal function, TSH and calcium periodically, as lithium affects the kidneys, thyroid and parathyroids.",
+          "whyWrong": [
+            "A 24-hour trough is not the standardised timing for lithium.",
+            "",
+            "A 2-hour sample reflects the absorption peak and overestimates the level.",
+            "Timing strongly affects lithium results.",
+            "Sampling within an hour of dosing is uninterpretable."
+          ],
+          "tags": [
+            "lithium",
+            "tdm",
+            "timing"
+          ]
+        },
+        {
+          "id": "pharmacology--therapeutic-drug-monitoring-high-risk-medicines--q3",
+          "discipline": "adult-medicine",
+          "topic": "pharmacology",
+          "difficulty": "exam",
+          "stem": "A 78-year-old man on warfarin for AF falls at home in Rockhampton and hits his head. He is now drowsy with a GCS of 12. CT brain shows an acute subdural haematoma. INR is 3.4. Weight 80 kg.\n\nWhat is the most appropriate immediate management of his anticoagulation?",
+          "options": [
+            "Withhold warfarin and recheck INR tomorrow",
+            "Oral vitamin K 2 mg only",
+            "IV protamine",
+            "IV vitamin K and prothrombin complex concentrate (Prothrombinex-VF)",
+            "Idarucizumab"
+          ],
+          "answer": 3,
+          "explanation": "Intracranial haemorrhage on warfarin is **life-threatening bleeding**. Australasian consensus guidance recommends immediate reversal with **prothrombin complex concentrate (Prothrombinex-VF)**, dosed by INR and weight, which replaces factors II, IX and X quickly, plus **IV vitamin K** (for example 5 to 10 mg) to sustain reversal as PCC wears off. Fresh frozen plasma may be added if PCC is not available. Urgent neurosurgical review follows. Withholding alone or oral vitamin K is far too slow. Protamine reverses heparin, and idarucizumab reverses dabigatran.",
+          "whyWrong": [
+            "Withholding alone takes days to correct the INR, far too slow for intracranial bleeding.",
+            "Oral vitamin K acts over many hours and is inadequate alone.",
+            "Protamine reverses heparin, not warfarin.",
+            "",
+            "Idarucizumab is specific to dabigatran."
+          ],
+          "tags": [
+            "warfarin",
+            "reversal",
+            "intracranial haemorrhage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharmacology--analgesia-and-opioid-stewardship",
+      "title": "Analgesia, opioid prescribing and dependence",
+      "minutes": 17,
+      "objectives": [
+        "Use paracetamol and NSAIDs safely, including maximum doses and contraindications",
+        "Prescribe opioids for acute pain at the lowest dose for the shortest time with an exit plan",
+        "Convert between opioids and routes and taper safely",
+        "Recognise opioid use disorder and offer opioid treatment and take-home naloxone"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Overview",
+          "body": "Pain management and opioid harm are two sides of one problem. Pharmaceutical opioids now cause more Australian overdose deaths than heroin, and many people who develop long-term opioid use started with a script after surgery or injury. At the same time, undertreated acute and cancer pain is harmful. The TGA's 2020 opioid reforms (smaller pack sizes, restrictions on fentanyl patches, boxed warnings) and the RACGP guide to prescribing drugs of dependence set the Australian standard: **lowest dose, shortest duration, clear goals, and a plan to stop**."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Non-opioid analgesics",
+          "body": "**Paracetamol**\n- Adult usual maximum **4 g in 24 hours**; use a lower daily maximum in adults with low body weight (for example under 50 kg), malnutrition, chronic alcohol use or liver disease (eTG gives specifics).\n- Beware duplicate paracetamol in combination products.\n- Modest effect in osteoarthritis and none in acute low back pain, but useful for many acute pains and in combination.\n\n**NSAIDs** (ibuprofen, naproxen, diclofenac, celecoxib)\n- Effective for musculoskeletal, dental, renal colic and dysmenorrhoea pain.\n- Risks: **GI ulceration and bleeding** (add a PPI if at risk, avoid with anticoagulants), **AKI** (triple whammy, CKD, dehydration), **heart failure and cardiovascular events** (higher with some agents and doses), **asthma exacerbation** in aspirin-exacerbated respiratory disease, hypertension, **pregnancy** (avoid from about 20 weeks).\n- Use the lowest effective dose for the shortest time; topical NSAIDs for localised pain carry less systemic risk.\n\n**Adjuvants**\n- Neuropathic pain: amitriptyline or nortriptyline (anticholinergic effects), duloxetine, pregabalin or gabapentin (sedation, dizziness, misuse potential, renal dosing, respiratory depression with opioids).\n- Local and regional anaesthesia, ice, splinting, physiotherapy and psychological strategies."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Opioid prescribing principles",
+          "body": "**Acute pain** (after surgery or injury):\n- Use **immediate-release** opioids at the **lowest effective dose** for the **shortest time** (often 3 days or fewer is enough, rarely more than a week), alongside paracetamol and NSAIDs if suitable.\n- **Avoid slow-release opioids for acute pain** (their use has been restricted by the TGA for acute pain because they increase persistent use and harm).\n- Give a small quantity with no repeats, and agree an **exit plan** with the patient and GP (who stops it and when). Discharge summaries should state the plan.\n- **Fentanyl patches** are not for acute pain or opioid-naive patients.\n\n**Chronic non-cancer pain**: opioids have **limited evidence of long-term benefit** and substantial harms (tolerance, hyperalgesia, falls, endocrine effects, dependence, overdose). Focus on function, multidisciplinary pain management, exercise and psychological therapy. If opioids are used, set goals, use one prescriber and one pharmacy, check RTPM, review regularly, and taper when goals are not met.\n\n**Common adverse effects**: **constipation** (always co-prescribe a laxative; tolerance does not develop), nausea, sedation, confusion, respiratory depression (especially with benzodiazepines, gabapentinoids, alcohol, sleep apnoea, older age), pruritus, urinary retention.\n\n**Specific opioids**\n- **Codeine**: a prodrug converted to morphine by **CYP2D6**; ultra-rapid metabolisers risk toxicity, poor metabolisers get no benefit. **Contraindicated in children under 12** and in under-18s after tonsillectomy or adenoidectomy; avoid in breastfeeding.\n- **Tramadol**: serotonergic (serotonin toxicity with SSRIs, SNRIs, MAOIs), lowers seizure threshold, CYP2D6 dependent.\n- **Tapentadol**: noradrenergic plus opioid; also dependence-producing.\n- **Morphine**: renal metabolites accumulate in CKD.\n- **Buprenorphine**: partial agonist, used for pain (patches) and opioid use disorder.\n\n**Conversions** (approximate; always use a reference such as the ANZCA Faculty of Pain Medicine opioid calculator and reduce the calculated dose when switching because of incomplete cross-tolerance):\n- Oral **oxycodone** is roughly **1.5 times** as potent as oral morphine.\n- **Subcutaneous or IV morphine** is roughly **2 to 3 times** as potent as oral morphine.\n\n**Tapering**: reduce gradually, for example by **10% of the dose every week to month**, slower for long-term users; involve the patient; watch for withdrawal, pain flare, mood change and suicide risk. Abrupt cessation is harmful."
+        },
+        {
+          "kind": "application",
+          "heading": "Opioid use disorder and harm reduction",
+          "body": "**Recognise** dependence: loss of control, craving, escalating doses, early refill requests, multiple prescribers on RTPM, lost scripts, using for non-pain reasons, withdrawal (yawning, rhinorrhoea, lacrimation, dilated pupils, piloerection, diarrhoea, cramps, restlessness). Use a non-judgemental approach.\n\n**Treat** with **opioid agonist treatment (the opioid dependence treatment program)**:\n- **Buprenorphine** (sublingual film or tablet, or **long-acting monthly or weekly depot injections**) or buprenorphine-naloxone, or **methadone** liquid.\n- Both reduce overdose deaths, crime and blood-borne virus transmission. Prescribing rules and training requirements **vary by state**; many GPs can prescribe buprenorphine. These medicines are supplied under **Section 100** PBS arrangements, which lowered patient costs from 2023.\n- Buprenorphine induction requires the patient to be in mild to moderate withdrawal (it can precipitate withdrawal if other opioids are still occupying receptors), or a specialist low-dose induction protocol.\n\n**Harm reduction**:\n- **Take-home naloxone**: free, without a prescription, from participating pharmacies and services nationally, for anyone at risk of opioid overdose or likely to witness one. Offer it to people on high-dose opioids, those combining opioids with sedatives, and people who inject drugs.\n- Needle and syringe programs, hepatitis C testing and treatment, and overdose education (never use alone).\n\n**Opioid withdrawal management**: symptomatic medicines (clonidine, antiemetics, loperamide, simple analgesia) or buprenorphine-assisted withdrawal, with a plan for ongoing treatment because relapse after detox carries high overdose risk."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- Discharge after an appendicectomy: a small quantity of immediate-release opioid with no repeats and an exit plan, not slow-release oxycodone.\n- Opioid started: add a laxative.\n- Child under 12 with pain after tonsillectomy: no codeine.\n- Patient on sertraline with back pain: avoid tramadol.\n- Patient with lost scripts, early refills and three prescribers on RTPM: discuss opioid use disorder, offer buprenorphine or methadone and naloxone.\n- Patient on long-term oxycodone wanting to stop: taper slowly, not abruptly."
+        }
+      ],
+      "keyPoints": [
+        "Paracetamol maximum 4 g a day in adults, lower in low weight, malnutrition, alcohol use or liver disease.",
+        "NSAID risks: GI bleeding, AKI (triple whammy), heart failure, asthma, and late pregnancy.",
+        "Acute pain: immediate-release opioid, lowest dose, shortest time, no repeats, clear exit plan; no slow-release.",
+        "Always co-prescribe laxatives with opioids.",
+        "Codeine depends on CYP2D6; contraindicated in children under 12 and avoided in breastfeeding.",
+        "Oral oxycodone is about 1.5 times oral morphine; parenteral morphine about 2 to 3 times oral; reduce when switching.",
+        "Taper long-term opioids gradually (about 10% steps); abrupt cessation is harmful.",
+        "Opioid use disorder: buprenorphine or methadone; offer free take-home naloxone."
+      ],
+      "redFlags": [
+        "Sedation with slow breathing on opioids, especially with benzodiazepines or gabapentinoids",
+        "Early refill requests, lost scripts or multiple prescribers",
+        "Opioid use in a patient with sleep apnoea or severe COPD",
+        "Abrupt cessation of long-term opioids with distress or suicidal thoughts"
+      ],
+      "contrast": [
+        {
+          "aspect": "Opioid availability",
+          "india": "Restricted under the NDPS Act; cancer pain often undertreated.",
+          "australia": "Readily prescribed but with RTPM checks, TGA pack size limits and state permits for long-term use."
+        },
+        {
+          "aspect": "Opioid dependence treatment",
+          "india": "Buprenorphine and methadone available in limited centres.",
+          "australia": "GP- and clinic-based opioid agonist treatment with depot buprenorphine; free take-home naloxone nationally."
+        },
+        {
+          "aspect": "Codeine",
+          "india": "Codeine cough syrups and combinations widely available.",
+          "australia": "Prescription-only since 2018; contraindicated in children under 12."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Usual adult paracetamol maximum per day?",
+          "back": "4 g (lower in low body weight, malnutrition, liver disease)."
+        },
+        {
+          "front": "Relative potency of oral oxycodone vs oral morphine?",
+          "back": "About 1.5 times."
+        },
+        {
+          "front": "Laxative with opioids: when?",
+          "back": "Always, from the start."
+        },
+        {
+          "front": "Enzyme converting codeine to morphine?",
+          "back": "CYP2D6."
+        },
+        {
+          "front": "Typical opioid taper step?",
+          "back": "About 10% of the dose every week to month."
+        },
+        {
+          "front": "Medications for opioid agonist treatment?",
+          "back": "Buprenorphine (including depot) or methadone."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "pharmacology--analgesia-and-opioid-stewardship--q1",
+          "discipline": "adult-medicine",
+          "topic": "pharmacology",
+          "difficulty": "foundation",
+          "stem": "A 34-year-old man is being discharged from a Hobart hospital 2 days after an uncomplicated laparoscopic appendicectomy. His pain is controlled with regular paracetamol and ibuprofen plus occasional oxycodone 5 mg immediate-release (two doses in the past 24 hours).\n\nWhat is the most appropriate discharge analgesia plan?",
+          "options": [
+            "Oxycodone controlled-release 10 mg twice daily for 2 weeks",
+            "Paracetamol and ibuprofen regularly, a small supply of immediate-release oxycodone for breakthrough with no repeats, a laxative and a plan to stop within a few days",
+            "Fentanyl patch 12 micrograms per hour",
+            "Codeine-paracetamol combination with 5 repeats",
+            "No analgesia"
+          ],
+          "answer": 1,
+          "explanation": "For acute postoperative pain, Australian guidance is **multimodal analgesia** (regular paracetamol and an NSAID if suitable) with a **small quantity of immediate-release opioid** for breakthrough pain, **no repeats**, a **laxative**, and a clear **exit plan** communicated to the patient and GP (usually stopping within a few days). **Slow-release opioids** are not recommended for acute pain because they increase persistent use and harm, and **fentanyl patches** are contraindicated in opioid-naive patients and acute pain. Multiple repeats encourage ongoing use.",
+          "whyWrong": [
+            "Slow-release opioids are not recommended for acute pain.",
+            "",
+            "Fentanyl patches are dangerous in opioid-naive patients and not for acute pain.",
+            "Multiple repeats promote persistent opioid use.",
+            "He still needs adequate analgesia for recovery."
+          ],
+          "tags": [
+            "acute pain",
+            "opioids",
+            "discharge"
+          ]
+        },
+        {
+          "id": "pharmacology--analgesia-and-opioid-stewardship--q2",
+          "discipline": "adult-medicine",
+          "topic": "pharmacology",
+          "difficulty": "core",
+          "stem": "A 38-year-old man has been prescribed oxycodone by three different GPs in Brisbane over the last 3 months, according to QScript. He has reported two lost scripts and requested early refills. He admits he takes more than prescribed to 'feel normal' and gets sweaty, anxious and crampy if he misses doses. He wants to stop but has been unable to.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Stop all opioids immediately and discharge",
+            "Continue oxycodone but at a higher dose from one prescriber",
+            "Offer opioid agonist treatment with buprenorphine or methadone, plus take-home naloxone",
+            "Prescribe diazepam to manage withdrawal and cease oxycodone",
+            "Report him to police for doctor shopping"
+          ],
+          "answer": 2,
+          "explanation": "Loss of control, taking more than prescribed, multiple prescribers, lost scripts, early refills and withdrawal symptoms indicate **opioid use disorder**. The evidence-based treatment is **opioid agonist treatment** with **buprenorphine** (sublingual or long-acting depot) or **methadone**, which reduces overdose death and improves outcomes, along with psychosocial support. Offer **take-home naloxone** and overdose education. Abrupt cessation or detox alone carries a high risk of relapse and overdose because tolerance falls. Adding benzodiazepines increases respiratory depression risk. A compassionate, non-judgemental approach matters.",
+          "whyWrong": [
+            "Abrupt cessation risks withdrawal, relapse and overdose.",
+            "Escalating oxycodone reinforces harm and is unsafe.",
+            "",
+            "Diazepam with opioids increases overdose risk and does not treat dependence.",
+            "This is a health condition requiring treatment, not a police matter."
+          ],
+          "ausPearl": "Take-home naloxone is free without a prescription at participating pharmacies nationally, and buprenorphine and methadone are PBS Section 100 medicines.",
+          "tags": [
+            "opioid use disorder",
+            "buprenorphine",
+            "naloxone"
+          ]
+        },
+        {
+          "id": "pharmacology--analgesia-and-opioid-stewardship--q3",
+          "discipline": "adult-medicine",
+          "topic": "pharmacology",
+          "difficulty": "exam",
+          "stem": "A 70-year-old woman with cancer pain is taking oral morphine immediate-release 10 mg every 4 hours regularly (60 mg per day) with good control. She now has difficulty swallowing and needs to switch to a continuous subcutaneous infusion via syringe driver in a palliative care unit in Adelaide. Her renal function is normal.\n\nWhat is an appropriate 24-hour subcutaneous morphine dose?",
+          "options": [
+            "60 mg",
+            "120 mg",
+            "10 mg",
+            "180 mg",
+            "20 to 30 mg"
+          ],
+          "answer": 4,
+          "explanation": "Parenteral (subcutaneous or IV) morphine is roughly **2 to 3 times more potent** than oral morphine because it avoids first-pass hepatic metabolism. Her 60 mg per day oral dose therefore converts to about **20 to 30 mg of subcutaneous morphine over 24 hours**. Breakthrough subcutaneous doses would be about one-sixth of the daily dose. Conversion ratios are approximate, so reassess frequently and titrate. In renal impairment, a different opioid would be preferred. Giving the same milligram dose subcutaneously would effectively double or triple her dose and risk toxicity.",
+          "whyWrong": [
+            "Giving the same dose subcutaneously would roughly double or triple her exposure.",
+            "Doubling the dose risks serious opioid toxicity.",
+            "10 mg over 24 hours is far below her requirement and would cause uncontrolled pain.",
+            "This is three times her oral dose and dangerous.",
+            ""
+          ],
+          "tags": [
+            "opioid conversion",
+            "palliative",
+            "subcutaneous"
+          ]
+        }
+      ]
+    }
+  ]
+}

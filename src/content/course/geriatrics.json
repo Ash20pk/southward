@@ -1,0 +1,1106 @@
+{
+  "topic": "geriatrics",
+  "intro": "Geriatric medicine is where Australian practice looks most different from Indian practice: most older Australians live independently, formal aged care is accessed through My Aged Care, and advance care planning and substitute decision-makers are expected parts of care. This course covers comprehensive geriatric assessment and frailty, delirium, dementia, falls and osteoporosis, polypharmacy with pressure injuries and continence, and palliative and end-of-life care, all common in AMC stems about an older patient and a worried family.",
+  "lessons": [
+    {
+      "id": "geriatrics--assessment-frailty-aged-care",
+      "title": "Geriatric assessment, frailty and the aged care system",
+      "minutes": 15,
+      "objectives": [
+        "Perform the domains of a comprehensive geriatric assessment",
+        "Recognise frailty and the atypical presentation of illness in older people",
+        "Navigate Australian aged care services through My Aged Care",
+        "Recognise and respond to elder abuse"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Overview",
+          "body": "Australia's population is ageing: around one in six Australians is 65 or older, and the fastest-growing group is people over 85. Older people are the main users of hospital beds and general practice time. The AMC tests three things repeatedly: **illness presents atypically** in older people, a **structured multidomain assessment** beats a single-organ approach, and you need to know **how older Australians get help at home or into residential care**."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Comprehensive geriatric assessment and frailty",
+          "body": "**Comprehensive geriatric assessment (CGA)** is a multidimensional, interdisciplinary assessment that improves the chance of living at home after hospital. Domains:\n\n| Domain | What to assess |\n|---|---|\n| Medical | Problems list, **medication review**, nutrition (weight loss, MNA), continence, vision, hearing, dentition |\n| Mental | Cognition (MoCA, MMSE, RUDAS, KICA-Cog), mood (Geriatric Depression Scale), delirium |\n| Functional | **ADLs** (bathing, dressing, toileting, transfers, continence, feeding) and **IADLs** (shopping, cooking, finances, medications, transport) |\n| Mobility | Gait, balance, falls, Timed Up and Go |\n| Social | Living situation, carer and carer stress, finances, services, elder abuse |\n| Environment | Home safety, stairs, bathroom |\n| Values | Goals of care, advance care planning, substitute decision-maker |\n\n**Frailty** is reduced physiological reserve, so a minor stressor (a UTI, a new drug) causes a disproportionate decline. Two common models:\n- **Fried phenotype**: unintentional weight loss, exhaustion, weakness (grip), slow gait, low physical activity (3 or more = frail).\n- **Clinical Frailty Scale** (1 very fit to 9 terminally ill), widely used in Australian EDs and wards to guide escalation and goals-of-care discussions.\n\n**Sarcopenia** (loss of muscle mass and strength) underlies much of frailty; resistance exercise and adequate protein help, and frailty is partly reversible.\n\n**Atypical presentation**: pneumonia, MI, sepsis or an acute abdomen in an older person may present only as **confusion, falls, reduced mobility, incontinence or \"not coping\"** (the geriatric giants). Fever may be absent; peritonism may be minimal. \"Acopia\" is never a diagnosis."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Decision-making capacity",
+          "body": "Many geriatric stems turn on whether an older person can make their own decision, for example to go home alone against advice. In Australian law adults are **presumed to have capacity**. Capacity is **decision-specific and time-specific**: someone with dementia may be able to decide where to live but not how to manage complex investments, and delirium may remove capacity temporarily.\n\nA person has capacity for a decision if they can:\n1. **Understand** the information relevant to the decision (including the options and consequences).\n2. **Retain** it long enough to decide.\n3. **Use or weigh** it in making the decision.\n4. **Communicate** the decision (by any means).\n\nPoints that are commonly tested:\n- An **unwise decision is not proof of incapacity**. A competent older person may choose to go home and accept the risk of a fall.\n- A low MMSE score does not by itself answer the capacity question; assess the specific decision.\n- Maximise capacity: treat delirium, use hearing aids and glasses, use a professional interpreter, choose the best time of day.\n- If the person lacks capacity, decisions pass to their appointed substitute decision-maker or statutory \"person responsible\" (state terminology varies), guided by what the person would have wanted.\n- Document the assessment carefully. Guardianship and administration tribunals (for example NCAT in NSW, VCAT in Victoria) resolve disputes or appoint guardians when needed."
+        },
+        {
+          "kind": "application",
+          "heading": "The Australian aged care system",
+          "body": "**Entry point: My Aged Care** (phone line and website, Australian Government). A GP, hospital, family or the person can make a referral. An **aged care assessment** (historically ACAT/ACAS, delivered by assessment teams) determines eligibility for:\n\n- **Entry-level home support** (for example help with cleaning, meals, transport, personal care, social support).\n- **Higher-level coordinated home care** packages for complex needs. Reforms from late 2025 (a new Aged Care Act and the **Support at Home** program replacing Home Care Packages) have renamed programs, but My Aged Care remains the front door.\n- **Residential aged care** (nursing homes), **respite care** (short stays that give carers a break), and **transition care** after hospital discharge.\n\nServices are means-tested, subsidised by the Commonwealth, and regulated by the **Aged Care Quality and Safety Commission**.\n\n**Other supports**\n- GP chronic disease management plans and team care arrangements (Medicare-funded allied health visits).\n- **Home Medicines Review** by an accredited pharmacist (GP referral).\n- Occupational therapy home safety assessment and equipment.\n- Carer support: **Carer Gateway**; Carer Payment and Carer Allowance through Centrelink.\n- Dementia Australia and Dementia Support Australia.\n- **Driving**: older drivers are assessed using the **Austroads Assessing Fitness to Drive** standards; age-based medical or driving test requirements **vary by state**.\n\n**Elder abuse** affects a substantial minority of older Australians, most often perpetrated by adult children. Types: financial (the most common), psychological, physical, sexual, neglect. Clues: unexplained injuries, fear of a carer, sudden changes in finances or wills, poor hygiene, missed appointments, a carer who will not leave the room. Respond by seeing the patient alone, documenting, assessing capacity and safety, and involving social work, state elder abuse helplines (1800 ELDERHelp) and, where appropriate, police or the guardianship tribunal. In **residential aged care**, providers must report serious incidents (such as assaults and neglect) under the national **Serious Incident Response Scheme**."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- An 85-year-old \"off legs\" or newly confused: search for the medical cause (infection, drugs, retention, constipation, MI, stroke, fracture) before any social label.\n- Family asking how to get help at home for their mother: **refer to My Aged Care for an aged care assessment**.\n- Carer stress is a legitimate clinical problem; offer respite care and Carer Gateway.\n- When a stem mentions a new \"friend\" managing an older person's bank account and bruises, consider financial and physical elder abuse; interview the patient alone.\n- Older patient's wishes take priority over family preferences if the patient has capacity."
+        }
+      ],
+      "keyPoints": [
+        "Comprehensive geriatric assessment covers medical, mental, functional, mobility, social, environmental and values domains.",
+        "Frailty means low reserve; the Clinical Frailty Scale guides escalation decisions.",
+        "Illness in older people often presents as confusion, falls, immobility or incontinence.",
+        "My Aged Care and an aged care assessment are the entry point for funded home and residential care.",
+        "Respite care and Carer Gateway support carers.",
+        "Elder abuse is common, often financial; see the patient alone and document.",
+        "Serious incidents in residential aged care must be reported under the Serious Incident Response Scheme."
+      ],
+      "redFlags": [
+        "Sudden functional decline in an older person (acute illness until proven otherwise)",
+        "Unexplained bruising or injuries, or fear of a carer",
+        "Unintentional weight loss",
+        "Carer breakdown with an older person at risk at home"
+      ],
+      "contrast": [
+        {
+          "aspect": "Who looks after older people",
+          "india": "Joint families; formal aged care limited and often stigmatised.",
+          "australia": "Most live independently; government-funded home and residential care via My Aged Care is normal and expected."
+        },
+        {
+          "aspect": "Assessment approach",
+          "india": "Organ-based diagnosis; function rarely documented.",
+          "australia": "Comprehensive geriatric assessment including ADLs, IADLs, cognition, frailty and goals of care."
+        },
+        {
+          "aspect": "Elder abuse",
+          "india": "Recognised but rarely acted on formally.",
+          "australia": "Screening, helplines and mandatory incident reporting in residential aged care."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Entry point to government-funded aged care in Australia?",
+          "back": "My Aged Care, which arranges an aged care assessment."
+        },
+        {
+          "front": "Fried frailty phenotype criteria?",
+          "back": "Weight loss, exhaustion, weak grip, slow gait, low activity (3 or more = frail)."
+        },
+        {
+          "front": "Most common type of elder abuse?",
+          "back": "Financial abuse."
+        },
+        {
+          "front": "Pharmacist medication review at home, arranged by GP?",
+          "back": "Home Medicines Review (HMR)."
+        },
+        {
+          "front": "Examples of IADLs?",
+          "back": "Shopping, cooking, finances, managing medications, transport, housework."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "geriatrics--assessment-frailty-aged-care--q1",
+          "discipline": "adult-medicine",
+          "topic": "geriatrics",
+          "difficulty": "foundation",
+          "stem": "An 83-year-old widow lives alone in Wagga Wagga. Her daughter, who lives interstate, tells the GP her mother is struggling to shower and shop, though she is otherwise well, cognitively intact and wants to stay in her own home.\n\nWhat is the most appropriate step to access funded support services?",
+          "options": [
+            "Arrange immediate admission to a residential aged care facility",
+            "Refer to My Aged Care for an aged care assessment",
+            "Apply to the guardianship tribunal",
+            "Refer to the NDIS",
+            "Advise the daughter to move back to care for her mother"
+          ],
+          "answer": 1,
+          "explanation": "Government-funded aged care in Australia is accessed through **My Aged Care**, which arranges an **aged care assessment** to determine eligibility for home support (help with showering, shopping, meals, transport), higher-level home care, respite or residential care. She is cognitively intact and wishes to stay home, so the focus is on services that keep her independent. A GP, the family or the patient can make the referral. Residential care is not appropriate against the wishes of a competent person, and guardianship is irrelevant when she has capacity.",
+          "whyWrong": [
+            "Residential care is neither necessary nor what this competent woman wants.",
+            "",
+            "Guardianship applies only when a person lacks decision-making capacity.",
+            "The NDIS covers disability acquired before age 65; older people use the aged care system.",
+            "Expecting family to become carers ignores her needs and available services."
+          ],
+          "ausPearl": "People who acquire a disability after age 65 access support through aged care (My Aged Care) rather than the NDIS.",
+          "tags": [
+            "aged care",
+            "my aged care",
+            "home support"
+          ]
+        },
+        {
+          "id": "geriatrics--assessment-frailty-aged-care--q2",
+          "discipline": "adult-medicine",
+          "topic": "geriatrics",
+          "difficulty": "core",
+          "stem": "An 88-year-old man from a Melbourne nursing home is sent to the emergency department because he has been 'off his legs' and more withdrawn for 2 days. He is usually independent with a walking frame. Temperature 37.1 °C, HR 96 bpm, BP 112/64 mmHg (usually 140/80), RR 24/min, SpO2 91% on room air. The transfer letter says 'social admission, not coping'.\n\nWhat is the most appropriate interpretation?",
+          "options": [
+            "A social admission requiring placement in a higher-care facility",
+            "Normal ageing",
+            "Likely acute illness presenting atypically, requiring a full medical assessment",
+            "Depression requiring an antidepressant",
+            "Dementia progression requiring a memory clinic referral"
+          ],
+          "answer": 2,
+          "explanation": "Older adults often present with **functional decline** (off legs, falls, confusion, incontinence) rather than organ-specific symptoms. His tachypnoea, low saturations, relative hypotension and tachycardia point strongly to an acute illness such as **pneumonia or sepsis**, even without fever. Labels such as 'social admission' or 'acopia' lead to missed diagnoses. He needs a full history (including collateral), examination, bloods, cultures, chest X-ray, ECG and urinalysis, and treatment of the cause, alongside a check of his goals of care and advance care directive.",
+          "whyWrong": [
+            "His abnormal vital signs make a social cause unsafe to assume.",
+            "An acute decline over 2 days is not normal ageing.",
+            "",
+            "Depression does not explain acute tachypnoea, hypoxia and hypotension.",
+            "Acute change with abnormal vitals needs medical assessment, not an outpatient referral."
+          ],
+          "tags": [
+            "atypical presentation",
+            "frailty",
+            "sepsis"
+          ]
+        },
+        {
+          "id": "geriatrics--assessment-frailty-aged-care--q3",
+          "discipline": "adult-medicine",
+          "topic": "geriatrics",
+          "difficulty": "exam",
+          "stem": "A 79-year-old woman with mild cognitive impairment attends her Adelaide GP with her nephew, who recently moved in with her. She has bruises on both upper arms in different stages of healing and has lost 4 kg. Her bank recently called her about large withdrawals. The nephew answers all questions for her and declines to leave the room.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Arrange to speak with the patient alone and assess her safety and capacity",
+            "Confront the nephew about financial abuse",
+            "Immediately notify police without speaking to the patient",
+            "Accept the nephew's explanation that she falls often",
+            "Apply for an urgent guardianship order"
+          ],
+          "answer": 0,
+          "explanation": "Bruises of different ages on the upper arms (grip marks), weight loss, unexplained withdrawals and a carer who controls the consultation are red flags for **elder abuse** (physical, financial and possibly neglect). The first step is to **see the patient alone** in a safe setting, ask directly, document findings carefully, and assess her **decision-making capacity** and immediate safety. Further action depends on her wishes and capacity: social work, state elder abuse helplines, safety planning, and involving police or the guardianship and administration tribunal where needed. Confronting the suspected abuser first can increase risk to her.",
+          "whyWrong": [
+            "",
+            "Confrontation before assessing her safety may escalate the risk of harm.",
+            "Police involvement may be needed, but first establish her account, wishes and capacity unless in immediate danger.",
+            "The injury pattern and financial changes should not be dismissed.",
+            "Guardianship applications come after a capacity assessment and less restrictive options."
+          ],
+          "tags": [
+            "elder abuse",
+            "capacity",
+            "safeguarding"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geriatrics--delirium",
+      "title": "Delirium",
+      "minutes": 15,
+      "objectives": [
+        "Screen for delirium with the 4AT or CAM and recognise the hypoactive form",
+        "Search systematically for the precipitants of delirium",
+        "Manage delirium with non-drug measures first and use antipsychotics safely",
+        "Distinguish delirium from dementia and depression"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Overview",
+          "body": "Delirium is an **acute, fluctuating disturbance of attention and awareness** caused by a medical condition, drug or withdrawal. It affects a large proportion of older inpatients (especially after hip fracture surgery and in ICU), and is associated with longer stays, falls, new dementia, institutionalisation and death. Around a third of cases are preventable. Australia has a national **Delirium Clinical Care Standard** (Australian Commission on Safety and Quality in Health Care), which expects routine screening of at-risk patients and a search for causes."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Pathogenesis and risk factors",
+          "body": "Delirium results from a **vulnerable brain plus a precipitant**. The mechanism involves cholinergic deficiency, dopamine excess, neuroinflammation and impaired cerebral metabolism, which is why **anticholinergic drugs** are potent causes and why antipsychotics (dopamine blockers) can calm hyperactive symptoms.\n\n**Predisposing factors**: age over 65, **dementia** (the strongest), frailty, severe illness, previous delirium, sensory impairment, depression, alcohol misuse.\n\n**Precipitants**: think \"PINCH ME\":\n- **P**ain\n- **I**nfection (UTI, pneumonia, cellulitis)\n- **N**utrition and hydration (dehydration, hypoglycaemia)\n- **C**onstipation\n- **H**ydration, hypoxia\n- **M**edications (anticholinergics, opioids, benzodiazepines, steroids, dopamine agonists) and **withdrawal** (alcohol, benzodiazepines)\n- **E**nvironment (move to hospital, ICU, sleep deprivation) and electrolytes (sodium, calcium)\n\nAlso: **urinary retention**, stroke, MI, head injury (subdural), surgery and anaesthesia."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "- **Acute onset** (hours to days) and **fluctuating course** (lucid in the morning, worse at night: sundowning).\n- **Inattention**: cannot recite months backwards, loses the thread of conversation.\n- Disorganised thinking, altered level of consciousness, perceptual disturbances (visual hallucinations), disturbed sleep-wake cycle.\n\n**Subtypes**\n- **Hyperactive**: agitated, restless, pulling at lines, aggressive. Easily recognised.\n- **Hypoactive**: quiet, withdrawn, drowsy, not eating. **Common and often missed** or mistaken for depression or \"tiredness\", with a worse prognosis.\n- **Mixed**: fluctuates between the two.\n\n**Collateral history** from family or carers is essential: what is the person's baseline?"
+        },
+        {
+          "kind": "investigations",
+          "heading": "Screening and investigations",
+          "body": "**Screening tools**\n- **4AT**: alertness, AMT4 (age, date of birth, place, year), attention (months backwards), acute change or fluctuating course. A score of **4 or more suggests delirium**. Quick, needs no training, can be done in drowsy patients.\n- **Confusion Assessment Method (CAM)**: requires (1) **acute onset and fluctuating course** AND (2) **inattention**, plus either (3) **disorganised thinking** or (4) **altered level of consciousness**.\n\n**Investigations to find the cause** (guided by clinical picture):\n- Observations, including temperature, SpO2, BSL; **bladder scan** for retention; **rectal examination** or history for constipation.\n- FBC, UEC (sodium, urea), calcium, LFTs, glucose, CRP, TSH if indicated.\n- **Urinalysis only with urinary symptoms**: asymptomatic bacteriuria is very common in older people and a positive dipstick alone does not explain delirium.\n- Chest X-ray, ECG and troponin as indicated, blood cultures if febrile.\n- **Medication review**: new drugs, dose changes, anticholinergic burden, withdrawal.\n- CT brain if focal neurology, head injury or fall (especially on anticoagulants), or no cause found."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Delirium, dementia or depression?",
+          "body": "| Feature | Delirium | Dementia | Depression |\n|---|---|---|---|\n| Onset | Acute (hours to days) | Insidious (months to years) | Weeks to months |\n| Course | **Fluctuating** | Slowly progressive | Persistent, may be worse mornings |\n| Attention | **Impaired** | Normal early | Poor effort (\"I don't know\") |\n| Consciousness | Altered | Normal | Normal |\n| Reversible | Usually | No (mostly) | Yes |\n\nDelirium and dementia often coexist: **delirium superimposed on dementia** is common, and a sudden decline in a person with dementia should prompt a search for delirium."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**1. Treat the cause(s)**: often multiple (for example UTI plus opioid plus constipation). Stop or reduce offending drugs.\n\n**2. Non-pharmacological measures (first-line and preventive)**:\n- Reorientation (clocks, calendars, familiar staff), **glasses and hearing aids** in place.\n- Encourage **family presence**; explain delirium to them.\n- Sleep hygiene: lights down at night, avoid night-time observations where safe.\n- Early mobilisation, hydration, nutrition, bowel care, pain control.\n- Avoid catheters, restraints and unnecessary ward moves.\n\n**3. Medications only if** the patient is severely distressed or at risk of harming themselves or others, and non-drug measures have failed:\n- **Low-dose antipsychotic** for the shortest time, for example haloperidol 0.25 to 0.5 mg, reviewed daily.\n- **Avoid antipsychotics like haloperidol in Parkinson disease and Lewy body dementia** (severe sensitivity reactions); seek specialist advice (a very low dose of quetiapine is sometimes used).\n- **Benzodiazepines worsen delirium** and are reserved for **alcohol or benzodiazepine withdrawal** (with thiamine for alcohol).\n- Physical restraint is a last resort under local policy.\n\n**Prevention in at-risk patients** (for example older people having hip fracture surgery) uses the same bundle proactively: orientation, sensory aids, sleep protection, early mobilisation, hydration, bowel and bladder care, good analgesia with regional blocks to reduce opioid needs, and avoiding new deliriogenic drugs. Multicomponent prevention programs reduce delirium incidence by around a third.\n\n**Alcohol withdrawal delirium** deserves a special mention because it is managed differently. It usually appears 2 to 4 days after the last drink, with tremor, sweating, tachycardia, hallucinations and agitation. Give **thiamine before glucose** (to prevent or treat Wernicke encephalopathy: confusion, ataxia, ophthalmoplegia), use a withdrawal scale, and treat with **benzodiazepines such as diazepam**. This is the one delirium in which benzodiazepines are the treatment.\n\n**4. Follow-up**: delirium can take weeks to resolve; document it in the discharge summary, as it signals a high risk of future dementia. Arrange cognitive review after recovery."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- The quiet, sleepy elderly patient who has stopped eating after surgery: **hypoactive delirium**, not depression.\n- \"Positive urine dipstick\" in a confused older woman without urinary symptoms: don't stop the search there.\n- New confusion plus a palpable bladder: urinary retention (often from anticholinergics or constipation).\n- Agitated delirium in a patient with Parkinson disease: avoid haloperidol.\n- First-line management is always to find and treat the cause plus non-drug measures."
+        }
+      ],
+      "keyPoints": [
+        "Delirium: acute, fluctuating inattention with altered awareness caused by a medical condition or drug.",
+        "Screen with the 4AT (4 or more suggests delirium) or CAM.",
+        "Hypoactive delirium is common, often missed, and has a worse prognosis.",
+        "Look for infection, drugs, retention, constipation, hypoxia, pain, electrolytes and withdrawal.",
+        "Do not attribute delirium to a positive dipstick without urinary symptoms.",
+        "Non-drug measures first; low-dose antipsychotic only for severe distress or danger.",
+        "Avoid haloperidol in Parkinson disease and Lewy body dementia; benzodiazepines only for withdrawal."
+      ],
+      "redFlags": [
+        "New confusion after a fall, especially on anticoagulants (subdural haematoma)",
+        "Delirium with fever and neck stiffness",
+        "Focal neurological signs",
+        "Hypoxia or hypoglycaemia",
+        "Alcohol withdrawal with confusion and ataxia (Wernicke encephalopathy)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Recognition",
+          "india": "Often labelled as 'senile confusion' or psychiatric illness.",
+          "australia": "Routine delirium screening under the national Delirium Clinical Care Standard."
+        },
+        {
+          "aspect": "Sedation",
+          "india": "Benzodiazepines commonly used for agitation.",
+          "australia": "Benzodiazepines avoided except for withdrawal; non-drug measures first; lowest-dose antipsychotic only if needed."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "4AT score suggesting delirium?",
+          "back": "4 or more."
+        },
+        {
+          "front": "CAM essential features?",
+          "back": "Acute onset/fluctuating course AND inattention, plus disorganised thinking or altered consciousness."
+        },
+        {
+          "front": "Most commonly missed delirium subtype?",
+          "back": "Hypoactive."
+        },
+        {
+          "front": "Antipsychotic caution in delirium?",
+          "back": "Avoid haloperidol in Parkinson disease and Lewy body dementia."
+        },
+        {
+          "front": "When are benzodiazepines appropriate in delirium?",
+          "back": "Alcohol or benzodiazepine withdrawal."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "geriatrics--delirium--q1",
+          "discipline": "adult-medicine",
+          "topic": "geriatrics",
+          "difficulty": "core",
+          "stem": "An 81-year-old woman is on day 3 after surgery for a fractured neck of femur in a Perth hospital. Nursing staff note she has become quiet, sleepy and is not eating, but is 'no trouble'. She cannot name the months of the year backwards and drifts off during conversation. Her family say she was sharp before the fall. She is on regular oxycodone and oxybutynin was started yesterday.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Depression",
+            "Alzheimer dementia",
+            "Normal post-operative fatigue",
+            "Stroke",
+            "Hypoactive delirium"
+          ],
+          "answer": 4,
+          "explanation": "An acute change from a sharp baseline with **inattention** (cannot do months backwards, drifts off), drowsiness and poor intake after hip fracture surgery is **hypoactive delirium**. It is common, often missed because the patient is 'no trouble', and carries a worse prognosis than hyperactive delirium. Likely contributors include **opioids** and the newly started **anticholinergic** oxybutynin, plus possible infection, constipation, retention, pain and electrolyte disturbance. Screen with the 4AT, review medications (stop oxybutynin), and search for other causes.",
+          "whyWrong": [
+            "Depression does not cause acute inattention and fluctuating awareness over days.",
+            "Dementia is insidious; she was cognitively intact before the fall.",
+            "Inattention and altered awareness are not normal after surgery.",
+            "There are no focal neurological signs to suggest stroke.",
+            ""
+          ],
+          "tags": [
+            "delirium",
+            "hypoactive",
+            "hip fracture"
+          ]
+        },
+        {
+          "id": "geriatrics--delirium--q2",
+          "discipline": "adult-medicine",
+          "topic": "geriatrics",
+          "difficulty": "foundation",
+          "stem": "A 77-year-old man in a Brisbane hospital is agitated and confused on day 2 of admission for cellulitis. He is pulling at his cannula. Examination reveals a tender, palpable bladder above the pubic symphysis. He was started on amitriptyline for leg pain the day before admission.\n\nWhat is the most appropriate immediate step?",
+          "options": [
+            "Give IV midazolam",
+            "Bladder scan and catheterise if retention is confirmed, and stop amitriptyline",
+            "Start haloperidol 5 mg IM",
+            "Apply physical restraints",
+            "Order an urgent CT brain"
+          ],
+          "answer": 1,
+          "explanation": "**Acute urinary retention** is a common, easily reversible cause of delirium in older men, and **amitriptyline**, a strongly **anticholinergic** tricyclic, is a likely culprit, both for retention and directly for confusion. Confirm with a **bladder scan**, relieve retention with a catheter, and stop the amitriptyline. Also check for constipation and review the cellulitis. Benzodiazepines and high-dose antipsychotics can worsen delirium and are not first-line. Restraint is a last resort.",
+          "whyWrong": [
+            "Benzodiazepines worsen delirium except in withdrawal.",
+            "",
+            "A high dose of antipsychotic is inappropriate while a reversible cause is untreated.",
+            "Restraints increase agitation and injury and do not treat the cause.",
+            "There are no focal signs or head injury, and the retention explains the picture."
+          ],
+          "tags": [
+            "delirium",
+            "urinary retention",
+            "anticholinergic"
+          ]
+        },
+        {
+          "id": "geriatrics--delirium--q3",
+          "discipline": "adult-medicine",
+          "topic": "geriatrics",
+          "difficulty": "exam",
+          "stem": "An 84-year-old woman with Lewy body dementia is admitted to a Sydney hospital with pneumonia. On the second night she is very distressed, believing strangers are in her room, and is trying to climb out of bed despite her daughter's presence and reorientation. A junior colleague suggests haloperidol.\n\nWhat is the most appropriate response?",
+          "options": [
+            "Give haloperidol 1 mg IM",
+            "Give haloperidol 5 mg orally",
+            "Start regular diazepam",
+            "Apply bed rails and a lap belt",
+            "Avoid haloperidol and seek senior advice about a very low dose of an alternative such as quetiapine"
+          ],
+          "answer": 4,
+          "explanation": "People with **Lewy body dementia** (and Parkinson disease) have **severe sensitivity to dopamine-blocking antipsychotics** such as haloperidol, which can cause profound parkinsonism, rigidity, falls, neuroleptic malignant syndrome and death. Management of her delirium focuses on treating the pneumonia, non-drug measures, family presence and safety. If medication is unavoidable for severe distress, seek senior or geriatric advice; a **very low dose of quetiapine** is sometimes used cautiously. Benzodiazepines worsen delirium and falls, and bed rails and restraints increase injury.",
+          "whyWrong": [
+            "Haloperidol can cause severe reactions in Lewy body dementia, even at low doses.",
+            "A higher oral dose of haloperidol carries the same danger.",
+            "Benzodiazepines worsen delirium and falls risk.",
+            "Restraints and bed rails increase agitation and injury risk.",
+            ""
+          ],
+          "tags": [
+            "delirium",
+            "lewy body",
+            "antipsychotic sensitivity"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geriatrics--dementia",
+      "title": "Dementia",
+      "minutes": 17,
+      "objectives": [
+        "Assess cognition with culturally appropriate tools and exclude reversible causes",
+        "Distinguish Alzheimer, vascular, Lewy body and frontotemporal dementia",
+        "Prescribe cholinesterase inhibitors and memantine appropriately",
+        "Manage behavioural and psychological symptoms without over-relying on antipsychotics",
+        "Plan ahead for capacity, driving and substitute decision-making"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Overview",
+          "body": "Dementia is a leading cause of death in Australia (the leading cause in women) and a major cause of disability. More than 400,000 Australians live with it. It is a syndrome of **progressive cognitive decline** severe enough to interfere with daily function. **Alzheimer disease** accounts for most cases, followed by vascular, mixed, Lewy body and frontotemporal dementia. Rates are markedly higher in **Aboriginal and Torres Strait Islander** communities, where dementia also occurs at younger ages."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Pathogenesis",
+          "body": "| Type | Pathology | Pattern |\n|---|---|---|\n| **Alzheimer** | Extracellular amyloid-beta plaques, intracellular tau tangles, **cholinergic loss** starting in the hippocampus | Early **episodic memory** loss (repeating questions, misplacing things), then language, visuospatial, executive |\n| **Vascular** | Multiple infarcts or small-vessel disease | **Stepwise** decline, focal signs, executive slowing; vascular risk factors |\n| **Lewy body** | Alpha-synuclein Lewy bodies in cortex | **Fluctuating cognition, well-formed visual hallucinations, parkinsonism, REM sleep behaviour disorder**; severe neuroleptic sensitivity |\n| **Frontotemporal** | Frontal and temporal atrophy (tau or TDP-43) | Younger (often under 65), **personality change, disinhibition**, apathy, or language variants; memory relatively preserved early |\n| **Parkinson disease dementia** | As Lewy body | Dementia over a year after established motor Parkinson disease |\n\nModifiable risk factors (about 40% of risk): hearing loss, hypertension, diabetes, smoking, physical inactivity, obesity, depression, low education, social isolation, excess alcohol, air pollution, traumatic brain injury."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features and assessment",
+          "body": "- History from the patient **and an informant**: onset, progression, which domains, impact on IADLs (finances, medications, driving) and ADLs, behaviour, mood, safety (wandering, cooking, getting lost).\n- **Cognitive screening tools**:\n  - **MMSE** (score out of 30) and **MoCA** (more sensitive for mild impairment).\n  - **RUDAS** (Rowland Universal Dementia Assessment Scale): designed for **culturally and linguistically diverse** populations and less affected by education.\n  - **KICA-Cog** (Kimberley Indigenous Cognitive Assessment): for **Aboriginal and Torres Strait Islander** people in remote communities.\n  - Use a professional interpreter, not family, for patients with limited English.\n- **Mild cognitive impairment**: objective cognitive decline without loss of independence; some progress to dementia.\n- Examine for focal neurology, parkinsonism, gait, hearing and vision."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations: reversible causes and imaging",
+          "body": "Standard workup (RACGP and dementia guidelines):\n- FBC, UEC, calcium, glucose, LFTs, **TSH**, **vitamin B12 and folate**.\n- Consider syphilis and HIV serology if risk factors.\n- **Depression** screening (pseudodementia).\n- **Medication review** (anticholinergics, benzodiazepines, opioids).\n- **Structural brain imaging** (CT or MRI) to exclude space-occupying lesions, subdural haematoma, **normal pressure hydrocephalus** (triad: gait apraxia, urinary incontinence, dementia), and to assess vascular burden and atrophy patterns.\n- Referral to a geriatrician, neurologist, psychogeriatrician or memory clinic for diagnosis confirmation, atypical or young-onset cases."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Disclose the diagnosis** sensitively with the patient (they have a right to know) and family, and provide written information: **Dementia Australia** (National Dementia Helpline).\n\n**Medications for cognition** (modest symptomatic benefit):\n- **Cholinesterase inhibitors** (donepezil, rivastigmine, galantamine): mild to moderate Alzheimer disease; also used in Lewy body and Parkinson dementia. PBS subsidy requires specialist-confirmed diagnosis and baseline cognitive assessment, with continued supply depending on demonstrated response. Adverse effects: nausea, diarrhoea, **bradycardia and syncope** (check ECG and pulse, caution with heart block), vivid dreams, urinary incontinence.\n- **Memantine** (NMDA antagonist): moderately severe to severe Alzheimer disease.\n- They do not work in frontotemporal dementia and are not used for mild cognitive impairment.\n\n**Behavioural and psychological symptoms of dementia (BPSD)**: agitation, aggression, wandering, psychosis, apathy, depression, sleep disturbance.\n- Look for **unmet needs and triggers first**: pain (use a pain scale such as Abbey), constipation, infection, hunger, boredom, noise, carer approach, delirium.\n- **Non-drug strategies**: routine, meaningful activity, music, reassurance, carer education. **Dementia Support Australia** provides free specialist BPSD support to carers and aged care staff.\n- **Antipsychotics** only for severe psychosis or aggression causing risk after non-drug approaches fail, at the lowest dose for the shortest time, with review within 12 weeks: they **increase stroke and death**. **Risperidone** is the antipsychotic approved in Australia for short-term use in BPSD in Alzheimer dementia. In residential aged care, psychotropics used to influence behaviour are regulated as **chemical restraint** and require informed consent from the resident or their substitute decision-maker.\n- Treat depression (SSRIs); avoid benzodiazepines.\n\n**Planning ahead** while the person still has capacity:\n- **Enduring power of attorney** (financial) and appointment of an **enduring guardian or medical treatment decision-maker** (titles vary by state), and an **advance care directive**.\n- **Driving**: under Austroads standards, a person with dementia may hold a conditional licence with regular review only if assessment shows it is safe; many need an OT driving assessment. The patient has a legal duty to notify the licensing authority; doctors may notify in the interests of safety (mandatory in some jurisdictions; varies by state).\n- Carer support, respite and My Aged Care referral; safety (stove, wandering, firearms).\n- Manage vascular risk factors, hearing loss and physical activity."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- Fluctuating cognition, visual hallucinations and parkinsonism: **Lewy body dementia**; avoid typical antipsychotics.\n- 58-year-old with disinhibition, overeating and inappropriate jokes but good memory: **frontotemporal dementia**.\n- Gait problem, urinary incontinence and cognitive decline: consider **normal pressure hydrocephalus** (CT shows ventriculomegaly).\n- Syncope after starting donepezil: bradycardia.\n- Aggression in a nursing home resident: first look for pain, constipation, infection and triggers.\n- Assessing cognition in a Greek-speaking woman with 3 years of schooling: RUDAS with a professional interpreter."
+        }
+      ],
+      "keyPoints": [
+        "Dementia is a leading cause of death in Australia; Alzheimer disease is the most common type.",
+        "Exclude reversible causes: TSH, B12, folate, calcium, glucose, depression, drugs, and brain imaging.",
+        "Use RUDAS for CALD patients and KICA-Cog for remote Aboriginal and Torres Strait Islander people.",
+        "Cholinesterase inhibitors for mild to moderate Alzheimer (watch bradycardia); memantine for moderate to severe.",
+        "BPSD: find unmet needs and use non-drug strategies before any antipsychotic.",
+        "Antipsychotics increase stroke and death; risperidone is approved short-term for BPSD in Alzheimer dementia.",
+        "Plan early: enduring power of attorney, guardian, advance care directive, driving review."
+      ],
+      "redFlags": [
+        "Rapidly progressive dementia over weeks to months (prion disease, autoimmune encephalitis, tumour)",
+        "Young-onset cognitive decline",
+        "Cognitive decline with focal neurology or headache",
+        "Gait disturbance and incontinence with cognitive decline (normal pressure hydrocephalus)",
+        "Wandering, unsafe driving or carer breakdown"
+      ],
+      "contrast": [
+        {
+          "aspect": "Cognitive screening",
+          "india": "MMSE in English or translated, often via family.",
+          "australia": "MoCA/MMSE, RUDAS for CALD patients, KICA-Cog for remote Aboriginal communities; professional interpreters."
+        },
+        {
+          "aspect": "Behavioural symptoms",
+          "india": "Antipsychotics and sedatives are often the first response.",
+          "australia": "Non-drug management first; antipsychotic use in aged care regulated as chemical restraint requiring consent."
+        },
+        {
+          "aspect": "Planning ahead",
+          "india": "Family makes decisions informally.",
+          "australia": "Enduring power of attorney, enduring guardian and advance care directive made while the person has capacity."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Cognitive tool for culturally and linguistically diverse patients?",
+          "back": "RUDAS."
+        },
+        {
+          "front": "Core features of Lewy body dementia?",
+          "back": "Fluctuating cognition, visual hallucinations, parkinsonism, REM sleep behaviour disorder."
+        },
+        {
+          "front": "Cardiac adverse effect of cholinesterase inhibitors?",
+          "back": "Bradycardia, heart block and syncope."
+        },
+        {
+          "front": "Normal pressure hydrocephalus triad?",
+          "back": "Gait apraxia, urinary incontinence, cognitive decline."
+        },
+        {
+          "front": "Antipsychotic approved in Australia for short-term BPSD in Alzheimer dementia?",
+          "back": "Risperidone."
+        },
+        {
+          "front": "Free national BPSD support service for carers and aged care staff?",
+          "back": "Dementia Support Australia."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "geriatrics--dementia--q1",
+          "discipline": "adult-medicine",
+          "topic": "geriatrics",
+          "difficulty": "core",
+          "stem": "A 76-year-old man is brought to his Canberra GP by his wife. Over 18 months he has had episodes of marked confusion alternating with near-normal days, sees children in the garden who are not there, and has become slow and shuffling with a tremor. He acts out dreams at night. His MoCA is 19/30.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Alzheimer disease",
+            "Vascular dementia",
+            "Dementia with Lewy bodies",
+            "Frontotemporal dementia",
+            "Normal pressure hydrocephalus"
+          ],
+          "answer": 2,
+          "explanation": "**Fluctuating cognition**, recurrent **well-formed visual hallucinations**, **parkinsonism** and **REM sleep behaviour disorder** (acting out dreams) are the core features of **dementia with Lewy bodies**. It matters because these patients have **severe sensitivity to antipsychotics** such as haloperidol, which can cause dangerous rigidity and neuroleptic malignant syndrome. Cholinesterase inhibitors often help cognition and hallucinations. If the dementia had begun more than a year after established motor Parkinson disease, it would be called Parkinson disease dementia.",
+          "whyWrong": [
+            "Alzheimer disease starts with steady memory decline, without early hallucinations and parkinsonism.",
+            "Vascular dementia progresses stepwise with vascular risk factors and focal signs.",
+            "",
+            "FTD presents with behavioural or language change, usually at a younger age.",
+            "NPH causes gait apraxia, incontinence and cognitive decline, not hallucinations and REM sleep behaviour disorder."
+          ],
+          "tags": [
+            "dementia",
+            "lewy body",
+            "hallucinations"
+          ]
+        },
+        {
+          "id": "geriatrics--dementia--q2",
+          "discipline": "adult-medicine",
+          "topic": "geriatrics",
+          "difficulty": "foundation",
+          "stem": "A 72-year-old woman sees her GP in Hobart with 12 months of progressive forgetfulness, repeating questions and missing bill payments. She is otherwise well and independent with personal care. Examination is normal. Her MoCA is 21/30.\n\nWhich set of investigations is most appropriate at this stage?",
+          "options": [
+            "FBC, UEC, calcium, glucose, LFTs, TSH, B12, folate and a CT or MRI brain",
+            "EEG and lumbar puncture",
+            "Amyloid PET scan only",
+            "APOE genotyping",
+            "No investigations; diagnose Alzheimer disease clinically"
+          ],
+          "answer": 0,
+          "explanation": "The initial workup for suspected dementia aims to **exclude reversible or contributing causes** and assess structure: **FBC, UEC, calcium, glucose, LFTs, TSH, vitamin B12 and folate**, with syphilis and HIV serology if there are risk factors, plus **structural brain imaging** (CT or MRI) to exclude a tumour, subdural haematoma or normal pressure hydrocephalus and to assess vascular changes. Screen for depression and review medications. Specialist tests such as amyloid PET, CSF biomarkers and EEG are reserved for atypical, rapidly progressive or young-onset cases.",
+          "whyWrong": [
+            "",
+            "EEG and LP are reserved for rapidly progressive or atypical presentations.",
+            "Amyloid PET is a specialist test and does not exclude reversible causes.",
+            "APOE genotyping is not recommended for diagnosis.",
+            "Reversible causes must be excluded before labelling dementia."
+          ],
+          "tags": [
+            "dementia",
+            "workup",
+            "reversible causes"
+          ]
+        },
+        {
+          "id": "geriatrics--dementia--q3",
+          "discipline": "adult-medicine",
+          "topic": "geriatrics",
+          "difficulty": "exam",
+          "stem": "An 86-year-old woman with moderate Alzheimer dementia in a Geelong residential aged care facility has become aggressive during showering and calls out at night for the past week. Staff request 'something to settle her'. She has not opened her bowels for 5 days and winces when her right hip is moved.\n\nWhat is the most appropriate initial approach?",
+          "options": [
+            "Start risperidone 0.5 mg twice daily",
+            "Start temazepam at night",
+            "Transfer to a secure dementia unit",
+            "Assess and treat pain and constipation and use non-drug strategies",
+            "Start haloperidol as needed"
+          ],
+          "answer": 3,
+          "explanation": "New **behavioural and psychological symptoms of dementia** often reflect **unmet needs** the person cannot express: **pain** (she winces on hip movement, possibly an undiagnosed fracture or arthritis), **constipation**, infection, delirium, or environmental triggers such as showering routines. The first step is to assess and treat these (examine and image the hip, use a pain assessment tool such as the Abbey Pain Scale, give regular analgesia and laxatives) and adapt care, for example changing shower approach and timing. Antipsychotics increase stroke and death and, in aged care, are regulated as chemical restraint requiring consent; they are a last resort.",
+          "whyWrong": [
+            "Antipsychotics are a last resort after unmet needs such as pain are addressed.",
+            "Benzodiazepines worsen confusion and falls risk.",
+            "Moving her does not address the likely causes of distress.",
+            "",
+            "Haloperidol risks harm and ignores the likely pain and constipation."
+          ],
+          "ausPearl": "Dementia Support Australia offers free 24-hour advice and on-site support for residential aged care staff managing BPSD.",
+          "tags": [
+            "bpsd",
+            "dementia",
+            "pain"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geriatrics--falls-and-osteoporosis",
+      "title": "Falls, fractures and osteoporosis",
+      "minutes": 17,
+      "objectives": [
+        "Assess an older person after a fall, including causes and injuries",
+        "Apply evidence-based falls prevention interventions",
+        "Diagnose osteoporosis and treat after a minimal-trauma fracture",
+        "Use bisphosphonates and denosumab safely"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Overview",
+          "body": "About a third of Australians over 65 fall each year, and falls are the leading cause of injury-related hospitalisation and injury death in older Australians. **Hip fracture** carries a high 12-month mortality and many survivors lose independence. Osteoporosis is underdiagnosed and undertreated: most people who sustain a minimal-trauma fracture are never started on treatment, which is a key AMC message. A **minimal-trauma fracture** (a fall from standing height or less) in an older adult means **osteoporosis until proven otherwise**."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why older people fall and bones break",
+          "body": "Falls are usually **multifactorial**:\n- **Intrinsic**: gait and balance impairment, muscle weakness, **postural hypotension**, visual impairment (cataract, multifocal glasses), peripheral neuropathy, foot problems, cognitive impairment, **urinary urgency and nocturia**, Parkinson disease, stroke, arrhythmias, syncope.\n- **Medications**: sedatives and hypnotics, antidepressants, antipsychotics, **antihypertensives and diuretics**, opioids, anticholinergics, hypoglycaemic agents. Taking four or more medicines is a risk factor.\n- **Extrinsic**: rugs, poor lighting, stairs, bathrooms, footwear, pets.\n\n**Osteoporosis**: bone resorption exceeds formation, reducing bone mass and microarchitecture. Causes: menopause (oestrogen loss), age, **glucocorticoids**, low body weight, smoking, alcohol, hypogonadism, hyperthyroidism, hyperparathyroidism, coeliac disease, CKD, chronic liver disease, rheumatoid arthritis, aromatase inhibitors, androgen deprivation therapy, anticonvulsants, PPIs (weak association), immobility."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Assessing a fall",
+          "body": "**History**: what happened (trip vs dizziness vs blackout), prodrome, **loss of consciousness** (syncope work-up), long lie (rhabdomyolysis, pressure injury, hypothermia), previous falls, fear of falling, medications, alcohol, continence, vision, function.\n\n**Examination**:\n- **Injuries**: hip (shortened, externally rotated leg), wrist, head (anticoagulants: low threshold for CT brain), ribs, spine.\n- **Lying and standing BP**: postural hypotension is a fall in systolic BP of **20 mmHg or more** or diastolic of **10 mmHg or more** within 3 minutes of standing.\n- Cardiovascular (murmur of aortic stenosis, arrhythmia), neurological (parkinsonism, neuropathy, cerebellar signs), feet and footwear, vision, cognition.\n- **Gait and balance**: **Timed Up and Go** (rise from a chair, walk 3 metres, turn, return, sit): taking longer than about 12 seconds suggests increased falls risk."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "**After a fall**: ECG (arrhythmia, heart block), FBC, UEC, glucose, CK if long lie, vitamin D, B12, TSH if indicated; X-rays of injured sites; **CT brain** for head strike on anticoagulants or with new confusion. A hip fracture not visible on X-ray despite inability to weight-bear: CT or MRI.\n\n**Osteoporosis**:\n- **DXA bone mineral density**: osteoporosis is a **T-score of -2.5 or lower** at the hip or spine; osteopenia is -1.0 to -2.5. Medicare funds DXA for people aged 70 and over and for those with specific risk factors or a previous fracture.\n- **Absolute fracture risk calculators**: FRAX, and the Australian-developed **Garvan fracture risk calculator**.\n- **Secondary causes**: UEC, calcium, phosphate, ALP, LFTs, TSH, **25-hydroxy vitamin D**, PTH, coeliac serology, protein electrophoresis (myeloma, especially with vertebral fractures), testosterone in men.\n- Lateral thoracolumbar spine X-ray if height loss over 3 cm or back pain (silent vertebral fractures)."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Falls prevention** (strongest evidence):\n- **Exercise programs with a strong balance component**, for example the **Otago program** or tai chi, ongoing, at least 3 hours per week.\n- **Medication review and deprescribing** (sedatives, antipsychotics, antihypertensives causing postural drop).\n- **Home safety assessment by an occupational therapist**, especially after a fall.\n- Treat **cataracts** (first eye), single-lens distance glasses for walking outdoors, podiatry and footwear.\n- Treat postural hypotension (review drugs, fluids, compression stockings, sit before standing).\n- Vitamin D supplementation for those deficient or in residential care; **hip protectors** in residential aged care.\n- Personal alarms for people who live alone.\n\n**Hip fracture**: analgesia including a nerve block (fascia iliaca), **surgery within 48 hours**, orthogeriatric co-management, delirium prevention, early mobilisation, then bone protection. Australia and New Zealand track this through the Hip Fracture Registry and a national clinical care standard.\n\n**Osteoporosis treatment**:\n- **Calcium** (dietary intake of about 1,000 to 1,300 mg daily, supplement if needed) and **vitamin D** repletion; weight-bearing and resistance exercise; stop smoking; limit alcohol; falls prevention.\n- **PBS-subsidised treatment after a minimal-trauma fracture is available regardless of BMD**; it is also available for qualifying low T-scores by age (check current PBS criteria).\n- **Bisphosphonates** (oral alendronate or risedronate weekly, IV zoledronic acid yearly):\n  - Oral: take on an **empty stomach with a full glass of water, remain upright for 30 minutes**, then eat. Avoid in severe renal impairment; oesophagitis.\n  - Rare **osteonecrosis of the jaw** (dental review before starting, especially if dental extractions planned) and **atypical femoral fractures** (new thigh or groin pain). A drug holiday may be considered after about 5 years oral or 3 years IV in lower-risk patients.\n- **Denosumab** (6-monthly subcutaneous): usable in CKD; check calcium and vitamin D first (hypocalcaemia). **Never stop abruptly or delay doses**: rebound bone loss causes **multiple vertebral fractures**; transition to a bisphosphonate if stopping.\n- Very high risk (for example multiple vertebral fractures): **romosozumab** or **teriparatide** under PBS criteria, followed by an antiresorptive.\n- Menopausal hormone therapy is an option in younger postmenopausal women with symptoms."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- Fall with a wrist fracture in a 68-year-old woman: after fixation, arrange **DXA and start osteoporosis treatment**; she is PBS eligible after a minimal-trauma fracture.\n- \"Most effective falls prevention intervention\" in the community: **balance and strength exercise**.\n- Recurrent falls on lisinopril, frusemide and doxazosin with a postural drop: medication review.\n- Patient on denosumab who missed a dose by 6 months now has new back pain: rebound vertebral fractures.\n- Thigh pain after years of alendronate: X-ray the femur for an atypical fracture.\n- Head strike on apixaban: CT brain even if well."
+        }
+      ],
+      "keyPoints": [
+        "Falls are multifactorial: check medications, postural BP, vision, feet, gait, cognition and home hazards.",
+        "Postural hypotension: systolic drop of 20 or diastolic drop of 10 mmHg within 3 minutes.",
+        "Balance and strength exercise is the most effective falls prevention intervention.",
+        "Minimal-trauma fracture in an older adult means osteoporosis until proven otherwise; treat to prevent the next.",
+        "Osteoporosis: T-score -2.5 or lower; exclude secondary causes.",
+        "Oral bisphosphonates: empty stomach, full glass of water, upright 30 minutes.",
+        "Never stop denosumab abruptly: rebound vertebral fractures.",
+        "Hip fracture: surgery within 48 hours with orthogeriatric care."
+      ],
+      "redFlags": [
+        "Fall with loss of consciousness (syncope, arrhythmia)",
+        "Head strike in a patient on anticoagulants",
+        "Long lie (rhabdomyolysis, pressure injury, hypothermia)",
+        "Inability to weight-bear after a fall with normal X-ray (occult hip fracture)",
+        "New thigh pain on long-term bisphosphonates"
+      ],
+      "contrast": [
+        {
+          "aspect": "Post-fracture care",
+          "india": "Fracture fixed; osteoporosis rarely investigated or treated.",
+          "australia": "Every minimal-trauma fracture triggers osteoporosis assessment; PBS treatment available regardless of BMD."
+        },
+        {
+          "aspect": "Falls prevention",
+          "india": "Focus on the injury.",
+          "australia": "Multifactorial assessment: balance exercise, medication review, OT home assessment, vision correction."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "DXA T-score defining osteoporosis?",
+          "back": "-2.5 or lower."
+        },
+        {
+          "front": "Definition of postural hypotension?",
+          "back": "Systolic drop of 20 mmHg or more, or diastolic drop of 10 mmHg or more, within 3 minutes of standing."
+        },
+        {
+          "front": "How to take oral alendronate?",
+          "back": "Fasting, with a full glass of water, stay upright 30 minutes before food."
+        },
+        {
+          "front": "Risk of stopping denosumab abruptly?",
+          "back": "Rebound bone loss and multiple vertebral fractures."
+        },
+        {
+          "front": "Most effective community falls prevention?",
+          "back": "Exercise with a strong balance component (e.g., Otago, tai chi)."
+        },
+        {
+          "front": "Australian-developed fracture risk calculator?",
+          "back": "Garvan fracture risk calculator."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "geriatrics--falls-and-osteoporosis--q1",
+          "discipline": "adult-medicine",
+          "topic": "geriatrics",
+          "difficulty": "core",
+          "stem": "A 69-year-old woman had a distal radius fracture after tripping on a footpath in Sunshine Coast 8 weeks ago. It has been managed in plaster. She has no other history. DXA shows a lumbar spine T-score of -2.1 and total hip T-score of -2.3. Calcium, renal function and vitamin D are normal.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Reassure her that she has osteopenia and repeat DXA in 2 years",
+            "Calcium and vitamin D supplements only",
+            "Start an antiresorptive such as alendronate or denosumab, with calcium, vitamin D and exercise",
+            "Hormone replacement therapy",
+            "Refer for vertebroplasty"
+          ],
+          "answer": 2,
+          "explanation": "A fall from standing height causing a wrist fracture is a **minimal-trauma fracture**, which in an older woman means **osteoporosis clinically**, regardless of a T-score in the osteopenic range. She is at high risk of a further fracture (especially in the next 2 years), and PBS subsidy for antiresorptive therapy is available after a minimal-trauma fracture regardless of BMD. Start a bisphosphonate or denosumab, ensure adequate calcium and vitamin D, add weight-bearing and balance exercise, and address falls risk. Many such patients are never treated.",
+          "whyWrong": [
+            "The fracture itself indicates osteoporosis and warrants treatment now.",
+            "Calcium and vitamin D alone do not adequately reduce fracture risk.",
+            "",
+            "MHT is not first-line for fracture prevention at 69 without menopausal symptoms.",
+            "Vertebroplasty is for painful vertebral fractures, not wrist fractures."
+          ],
+          "ausPearl": "The PBS allows antiresorptive therapy after a radiologically confirmed minimal-trauma fracture regardless of bone density.",
+          "tags": [
+            "osteoporosis",
+            "minimal trauma fracture",
+            "pbs"
+          ]
+        },
+        {
+          "id": "geriatrics--falls-and-osteoporosis--q2",
+          "discipline": "adult-medicine",
+          "topic": "geriatrics",
+          "difficulty": "foundation",
+          "stem": "An 80-year-old man sees his GP in Dubbo after two falls in a month, both when getting up from the lounge. He takes perindopril, amlodipine, frusemide, prazosin for urinary symptoms and temazepam at night. Lying BP 146/78 mmHg; standing after 3 minutes 118/70 mmHg. He did not lose consciousness.\n\nWhat is the most appropriate first intervention?",
+          "options": [
+            "Start fludrocortisone",
+            "Arrange a Holter monitor",
+            "Refer for an MRI brain",
+            "Review and deprescribe medications contributing to postural hypotension and falls",
+            "Prescribe a walking frame and hip protectors only"
+          ],
+          "answer": 3,
+          "explanation": "He has **postural hypotension** (a systolic drop of 28 mmHg) and a medication list full of contributors: multiple antihypertensives, a **diuretic**, an **alpha blocker** (prazosin) and a **benzodiazepine** (temazepam), a classic falls drug. The most effective first step is **medication review and deprescribing**: stop prazosin (consider an alternative for urinary symptoms), reduce antihypertensives to targets suitable for his age and falls risk, and taper temazepam slowly. Add balance and strength exercise, an OT home safety assessment and advice to stand slowly. Fludrocortisone is a later option after drugs are rationalised.",
+          "whyWrong": [
+            "Adding a drug before removing the causes adds harm; fludrocortisone is a later option.",
+            "A Holter monitor is for syncope or palpitations; here the cause is clearly postural and drug-related.",
+            "There are no neurological features requiring brain imaging.",
+            "",
+            "Aids help but do not address the cause of the falls."
+          ],
+          "tags": [
+            "falls",
+            "postural hypotension",
+            "deprescribing"
+          ]
+        },
+        {
+          "id": "geriatrics--falls-and-osteoporosis--q3",
+          "discipline": "adult-medicine",
+          "topic": "geriatrics",
+          "difficulty": "exam",
+          "stem": "A 74-year-old woman on denosumab every 6 months for osteoporosis moved interstate and missed her last injection, which was due 7 months ago. She now presents to a Perth GP with severe new mid-back pain after bending to pick up a basket. X-ray shows new compression fractures at T10, T12 and L2.\n\nWhat best explains her fractures?",
+          "options": [
+            "Osteonecrosis",
+            "Rebound increase in bone turnover after stopping denosumab",
+            "Metastatic breast cancer",
+            "Atypical fracture caused by denosumab",
+            "Vitamin D toxicity"
+          ],
+          "answer": 1,
+          "explanation": "Denosumab suppresses osteoclasts reversibly. When doses are **stopped or delayed**, there is a **rebound surge in bone resorption** that can cause **multiple spontaneous vertebral fractures** within months. That is why denosumab must be given **on time every 6 months** and, if it is to be stopped, followed by a bisphosphonate (often zoledronic acid). She should restart antiresorptive therapy promptly and receive analgesia, while myeloma and metastases should still be excluded given multiple fractures. Atypical fractures affect the femoral shaft, not the spine.",
+          "whyWrong": [
+            "Osteonecrosis of the jaw is a rare adverse effect and does not cause vertebral fractures.",
+            "",
+            "Malignancy must be excluded, but the timing after a missed dose makes rebound the best explanation.",
+            "Atypical fractures from antiresorptives occur in the femoral shaft.",
+            "Vitamin D toxicity causes hypercalcaemia, not fractures."
+          ],
+          "tags": [
+            "denosumab",
+            "vertebral fracture",
+            "osteoporosis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geriatrics--polypharmacy-pressure-injury-continence",
+      "title": "Polypharmacy, pressure injuries and continence",
+      "minutes": 16,
+      "objectives": [
+        "Identify inappropriate medicines using Beers and STOPP/START criteria",
+        "Recognise prescribing cascades and anticholinergic burden",
+        "Stage, prevent and manage pressure injuries",
+        "Classify urinary incontinence and avoid over-treating bacteriuria"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Overview",
+          "body": "Older Australians commonly take **five or more medicines** (polypharmacy), and medication-related problems cause a significant share of hospital admissions in older people. Deprescribing is a core skill: stopping drugs that no longer help is as important as starting them. Pressure injuries and incontinence are common in hospital and residential aged care, cause suffering, and are largely preventable. They are also **quality indicators** monitored in Australian aged care."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Polypharmacy and deprescribing",
+          "body": "**Why older people are vulnerable**: reduced renal clearance, increased fat to muscle ratio (longer half-life of lipid-soluble drugs such as diazepam), increased brain sensitivity, multiple prescribers, and multiple conditions with guidelines designed for single diseases.\n\n**Tools**\n- **Beers criteria** (American Geriatrics Society): medicines potentially inappropriate in older adults.\n- **STOPP/START**: STOPP lists drugs to stop in certain situations; START lists beneficial drugs often omitted (for example a bisphosphonate after a fragility fracture, an anticoagulant in AF).\n- **Anticholinergic burden** scales: effects add up across drugs (confusion, falls, constipation, urinary retention, dry mouth, cognitive decline).\n\n**High-risk drugs to review in older people**\n| Drug class | Problem |\n|---|---|\n| **Benzodiazepines and Z-drugs** | Falls, fractures, cognitive impairment, dependence: taper slowly |\n| **Antipsychotics** | Stroke, death in dementia, falls, parkinsonism |\n| **Anticholinergics** (oxybutynin, amitriptyline, promethazine, benztropine) | Delirium, retention, constipation |\n| **NSAIDs** | GI bleeding, AKI (triple whammy), heart failure |\n| **Sulfonylureas** (especially glibenclamide) | Hypoglycaemia |\n| **Opioids** | Falls, constipation, delirium |\n| **Proton pump inhibitors** long term without indication | C. difficile, fractures, hypomagnesaemia |\n| **Digoxin** at high dose | Toxicity with renal decline |\n\n**Prescribing cascade**: an adverse effect is misread as a new condition and treated with another drug. Examples: **amlodipine** causes ankle oedema, treated with **frusemide**, causing incontinence and falls; a **cholinesterase inhibitor** causes urinary incontinence, treated with **oxybutynin**, which worsens cognition; metoclopramide causes parkinsonism, treated with levodopa.\n\n**How to deprescribe**: review indication, benefit, time to benefit versus life expectancy, and patient goals; stop one drug at a time; taper drugs with withdrawal effects (benzodiazepines, antidepressants, beta blockers, PPIs); monitor. Resources: **Home Medicines Review** and, in residential care, **Residential Medication Management Review** by an accredited pharmacist; dose administration aids (Webster packs) and an up-to-date medication list."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Pressure injuries",
+          "body": "A pressure injury is localised damage to skin and underlying tissue, usually over a bony prominence (sacrum, heels, hips, occiput), from **pressure or pressure combined with shear**. Risk factors: immobility, sensory loss, incontinence and moisture, malnutrition, frailty, sedation, and devices (oxygen tubing, casts).\n\n**Staging** (international classification used in Australia):\n| Stage | Description |\n|---|---|\n| 1 | **Intact skin with non-blanchable redness** |\n| 2 | Partial-thickness skin loss, shallow open ulcer or intact blister |\n| 3 | Full-thickness skin loss; subcutaneous fat visible, no bone or tendon |\n| 4 | Full-thickness tissue loss with exposed **bone, tendon or muscle** |\n| Unstageable | Base obscured by slough or eschar |\n| Deep tissue injury | Purple or maroon intact skin or blood blister from underlying damage |\n\n**Prevention**: risk assessment on admission (**Braden, Waterlow or Norton scales**), skin inspection, **regular repositioning**, pressure-redistributing mattresses and heel offloading, managing moisture and incontinence, **nutrition** (protein, energy, hydration), minimising friction and shear.\n\n**Management**: offload pressure, treat infection (cellulitis, osteomyelitis in stage 4), debridement of necrotic tissue, moist wound dressings, optimise nutrition, pain relief, and involve wound care nurses. Heel eschar that is dry and stable is generally left intact. Pressure injuries in aged care may indicate neglect and should prompt review; a stage 3 or 4 injury acquired in hospital is a reportable adverse event."
+        },
+        {
+          "kind": "application",
+          "heading": "Continence and urinary infection in older people",
+          "body": "**Urinary incontinence** is common and under-reported; it is a major reason for entering residential care. Types:\n| Type | Mechanism | Management |\n|---|---|---|\n| **Stress** | Leakage on coughing, sneezing, lifting; weak pelvic floor | Pelvic floor muscle training, weight loss, pessary, surgery (mid-urethral procedures) |\n| **Urge (overactive bladder)** | Urgency, frequency, nocturia | Bladder training, reduce caffeine; **mirabegron** preferred over anticholinergics in older or cognitively impaired people |\n| **Overflow** | Retention with dribbling (prostatic obstruction, anticholinergics, diabetic neuropathy, constipation) | Bladder scan, treat cause, catheter |\n| **Functional** | Cannot reach the toilet in time (mobility, cognition) | Toileting schedule, aids, environment |\n\nReversible contributors: **DIAPPERS**: delirium, infection, atrophic vaginitis, pharmaceuticals (diuretics, sedatives), psychological, excess urine output (hyperglycaemia, heart failure), restricted mobility, stool impaction. Faecal incontinence often results from **constipation with overflow**.\n\n**Asymptomatic bacteriuria** is present in a large share of older women and most people with long-term catheters. **Do not screen or treat it** (except before urological procedures that breach the mucosa, and in pregnancy). Dipstick testing in a confused older person without urinary symptoms leads to unnecessary antibiotics, C. difficile and resistance, and misses the real cause. Treat a UTI when there are genuine urinary symptoms or systemic infection without another source. The **Continence Foundation of Australia** helpline and continence nurse advisers support patients and carers."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- Ankle oedema on amlodipine: reduce or change the calcium channel blocker, don't add frusemide.\n- New incontinence after starting donepezil: prescribing cascade risk; reconsider rather than adding oxybutynin.\n- Non-blanchable redness on the sacrum with intact skin: stage 1 pressure injury; offload and reposition.\n- Nursing home resident with a positive urine culture but no symptoms: do not treat.\n- Older patient on 12 medicines with falls: request a Home Medicines Review and deprescribe."
+        }
+      ],
+      "keyPoints": [
+        "Polypharmacy is common; review each drug's indication, benefit and harm against the person's goals.",
+        "Use Beers and STOPP/START; watch cumulative anticholinergic burden.",
+        "Recognise prescribing cascades such as amlodipine oedema treated with frusemide.",
+        "Taper benzodiazepines, antidepressants and PPIs rather than stopping abruptly.",
+        "Pressure injury stage 1 is intact non-blanchable redness; stage 4 exposes bone, tendon or muscle.",
+        "Prevent pressure injuries with risk scoring, repositioning, support surfaces, moisture control and nutrition.",
+        "Do not screen for or treat asymptomatic bacteriuria in older people."
+      ],
+      "redFlags": [
+        "Stage 3 or 4 or unstageable pressure injury (possible osteomyelitis or neglect)",
+        "New urinary retention on an anticholinergic",
+        "Hypoglycaemia on a sulfonylurea in an older person",
+        "Rapid functional decline after a new medication"
+      ],
+      "contrast": [
+        {
+          "aspect": "Medication review",
+          "india": "New drugs added by different specialists with little review of the full list.",
+          "australia": "Deprescribing emphasised; Home Medicines Review and Residential Medication Management Review funded by Medicare."
+        },
+        {
+          "aspect": "Urine testing in older people",
+          "india": "Positive urine cultures commonly treated.",
+          "australia": "Asymptomatic bacteriuria not screened for or treated, as an antimicrobial stewardship priority."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Stage 1 pressure injury?",
+          "back": "Intact skin with non-blanchable redness."
+        },
+        {
+          "front": "Stage 4 pressure injury?",
+          "back": "Full-thickness loss with exposed bone, tendon or muscle."
+        },
+        {
+          "front": "Classic prescribing cascade with amlodipine?",
+          "back": "Ankle oedema treated with frusemide."
+        },
+        {
+          "front": "Treatment of asymptomatic bacteriuria in an older nursing home resident?",
+          "back": "None (don't screen, don't treat)."
+        },
+        {
+          "front": "Preferred drug for urge incontinence in cognitively impaired older people?",
+          "back": "Mirabegron (avoids anticholinergic burden)."
+        },
+        {
+          "front": "Pressure injury risk assessment tools?",
+          "back": "Braden, Waterlow or Norton scales."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "geriatrics--polypharmacy-pressure-injury-continence--q1",
+          "discipline": "adult-medicine",
+          "topic": "geriatrics",
+          "difficulty": "foundation",
+          "stem": "A 78-year-old woman sees her GP in Rockhampton for ankle swelling that began 2 months ago. Her amlodipine was increased from 5 to 10 mg 10 weeks ago. Her JVP is not raised, chest is clear, and she has pitting oedema to mid-shin bilaterally. Echocardiogram last year was normal.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Start frusemide",
+            "Add spironolactone",
+            "Arrange a Doppler ultrasound",
+            "Reduce the amlodipine dose or switch to another antihypertensive",
+            "Prescribe compression stockings and continue amlodipine 10 mg"
+          ],
+          "answer": 3,
+          "explanation": "Dose-related **peripheral oedema from dihydropyridine calcium channel blockers** (amlodipine) is caused by precapillary arteriolar dilatation, so it **does not respond well to diuretics**. Adding frusemide starts a **prescribing cascade**: dehydration, electrolyte disturbance, urinary urgency, incontinence and falls. The right move is to **reduce the amlodipine dose** or switch to (or add) another antihypertensive such as an ACE inhibitor or ARB, which also reduces CCB oedema. There are no features of heart failure or DVT.",
+          "whyWrong": [
+            "Frusemide treats the adverse effect with another drug and adds harm.",
+            "Spironolactone adds hyperkalaemia risk without addressing the cause.",
+            "Bilateral symmetrical oedema after a dose increase does not suggest DVT.",
+            "",
+            "Stockings do not remove the cause and are poorly tolerated."
+          ],
+          "tags": [
+            "prescribing cascade",
+            "amlodipine",
+            "polypharmacy"
+          ]
+        },
+        {
+          "id": "geriatrics--polypharmacy-pressure-injury-continence--q2",
+          "discipline": "adult-medicine",
+          "topic": "geriatrics",
+          "difficulty": "core",
+          "stem": "An 89-year-old man in a residential aged care facility in Toowoomba has advanced dementia and is bedbound. During a skin check, staff find an area of intact skin over his sacrum that is red and does not blanch with pressure. There is no blistering or broken skin.\n\nWhich is the most appropriate classification and response?",
+          "options": [
+            "Stage 2 pressure injury; apply a hydrocolloid and continue usual care",
+            "Stage 1 pressure injury; implement regular repositioning, a pressure-redistributing mattress, and address moisture and nutrition",
+            "Deep tissue injury; arrange surgical debridement",
+            "Normal reactive hyperaemia; no action needed",
+            "Cellulitis; start oral cefalexin"
+          ],
+          "answer": 1,
+          "explanation": "**Intact skin with non-blanchable redness** over a bony prominence is a **stage 1 pressure injury**, an early warning that further damage will follow without action. Management is prevention of progression: **regular repositioning**, a **pressure-redistributing support surface**, heel offloading, management of **incontinence and moisture**, optimising **nutrition and hydration**, and regular skin inspection, with risk documented using a tool such as the Braden scale. Reactive hyperaemia blanches; stage 2 has partial-thickness loss or a blister; deep tissue injury is purple or maroon.",
+          "whyWrong": [
+            "Stage 2 involves partial-thickness loss or a blister, which is absent here.",
+            "",
+            "Deep tissue injury appears purple or maroon, and debridement is not indicated.",
+            "Reactive hyperaemia blanches; non-blanching redness is a pressure injury.",
+            "There is no warmth, spreading erythema or systemic features of cellulitis."
+          ],
+          "tags": [
+            "pressure injury",
+            "aged care",
+            "prevention"
+          ]
+        },
+        {
+          "id": "geriatrics--polypharmacy-pressure-injury-continence--q3",
+          "discipline": "adult-medicine",
+          "topic": "geriatrics",
+          "difficulty": "exam",
+          "stem": "An 84-year-old woman in a Newcastle aged care facility is reviewed because staff note her urine is cloudy and smelly. She has no fever, dysuria, frequency, abdominal pain or change in behaviour, and her observations are normal. A urine dipstick shows leucocytes and nitrites, and culture grows E. coli over 10^8 CFU/L.\n\nWhat is the most appropriate management?",
+          "options": [
+            "No antibiotics; encourage fluids and review if symptoms develop",
+            "Oral trimethoprim for 3 days",
+            "Oral cefalexin for 7 days",
+            "Long-term prophylactic antibiotics",
+            "Admit for IV antibiotics"
+          ],
+          "answer": 0,
+          "explanation": "This is **asymptomatic bacteriuria**: a positive culture without urinary symptoms or signs of systemic infection. It is very common in older women and aged care residents, and **treatment does not improve outcomes** but does cause adverse effects, C. difficile infection and antimicrobial resistance. Cloudy or smelly urine alone is not an indication for antibiotics. Australian antimicrobial stewardship guidance (eTG, Aged Care National Antimicrobial Prescribing Survey) advises against screening or treating it except in pregnancy or before urological procedures. Staff should monitor for real symptoms.",
+          "whyWrong": [
+            "",
+            "Treating asymptomatic bacteriuria causes harm without benefit.",
+            "A longer course is still unnecessary treatment.",
+            "Prophylaxis is not indicated and drives resistance.",
+            "She is well with normal observations and needs no admission."
+          ],
+          "tags": [
+            "asymptomatic bacteriuria",
+            "stewardship",
+            "aged care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geriatrics--palliative-and-end-of-life-care",
+      "title": "Palliative and end-of-life care",
+      "minutes": 20,
+      "objectives": [
+        "Lead advance care planning and identify the correct substitute decision-maker",
+        "Manage pain, nausea, breathlessness and constipation in palliative care",
+        "Recognise dying and prescribe for terminal symptoms",
+        "Apply Australian law on refusing treatment, futility and voluntary assisted dying"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Overview",
+          "body": "Palliative care is care for people with a life-limiting illness that focuses on **quality of life, symptom control, and psychological, social, spiritual and cultural needs**, for the person and their family. It is not only for cancer and not only for the final days: early palliative care improves quality of life. Most Australians say they would prefer to die at home, but most die in hospital or residential aged care. The AMC tests symptom management, the law and ethics of end-of-life decisions, and compassionate communication."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Advance care planning and decision-making",
+          "body": "**Advance care planning (ACP)** is an ongoing conversation about values, goals and preferences for future care, ideally started early (for example at diagnosis of a life-limiting illness, or on entering residential care). Outputs may include:\n- An **advance care directive (ACD)**: a document made by a competent adult recording their values and/or specific instructions, including refusals of treatment. A valid ACD refusing a treatment is **legally binding** in Australian states and territories (by statute or common law), even if refusal leads to death.\n- Appointment of a **substitute decision-maker**, whose title **varies by state**: for example enduring guardian (NSW, ACT, Tas, WA), medical treatment decision maker (Vic), attorney for personal and health matters (Qld), substitute decision-maker (SA).\n\n**When a patient lacks capacity**, the usual order is:\n1. A valid **advance care directive** that covers the situation.\n2. A **substitute decision-maker appointed** by the person.\n3. A tribunal-appointed guardian.\n4. The statutory **\"person responsible\"** (typically spouse or partner, then unpaid carer, then close relative or friend; hierarchy varies by state).\nIn an emergency where no one is available, doctors may treat in the patient's best interests.\n\n**Key legal and ethical principles**\n- A **competent adult may refuse any treatment**, including life-sustaining treatment.\n- Doctors are **not obliged to provide treatment that is futile** or not in the patient's interests (for example CPR in a dying patient). Families cannot demand it, although decisions should be discussed openly and a second opinion offered if there is disagreement.\n- **Withholding and withdrawing** treatment are ethically and legally equivalent.\n- **Doctrine of double effect**: giving medication with the intention of relieving symptoms is lawful even if it may foreseeably hasten death; opioids titrated appropriately do not in fact shorten life.\n- Hospitals use **goals of care** or resuscitation plans documenting whether CPR, ICU and other interventions are appropriate.\n- **Voluntary assisted dying (VAD)** is legal in all six states and the ACT (commencing at different dates, the ACT most recently), but not in the Northern Territory. Common eligibility: adult, decision-making capacity, voluntary and enduring request, an advanced progressive condition expected to cause death within a set timeframe (commonly 6 months, 12 months for neurodegenerative disease), and intolerable suffering, with two independent medical assessments. Rules on whether a doctor may raise VAD first, conscientious objection and processes **vary by state**. Doctors may conscientiously object but should not obstruct access."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Symptom management",
+          "body": "**Pain**\n- Assess type (nociceptive, neuropathic, bone, visceral), and treat regularly, not just as needed.\n- **Opioids**: in opioid-naive patients start low (for example oral immediate-release morphine 2.5 to 5 mg every 4 hours, lower in frail older people), titrate, then convert to a regular long-acting formulation with **breakthrough doses of about one-sixth (range one-tenth to one-sixth) of the total daily dose**.\n- Oral to subcutaneous morphine: roughly halve (to one-third of) the oral dose.\n- **Renal impairment**: morphine metabolites accumulate (drowsiness, myoclonus, confusion); prefer **fentanyl** or hydromorphone with specialist advice.\n- **Always co-prescribe laxatives** with opioids (stimulant plus softener, such as senna with docusate or macrogol); tolerance to constipation does not develop.\n- Adjuvants: NSAIDs or dexamethasone for bone pain, single-fraction radiotherapy for bone metastases, neuropathic agents (amitriptyline, pregabalin), dexamethasone for liver capsule pain or raised ICP.\n- Opioid toxicity: drowsiness, pinpoint pupils, myoclonus, hallucinations, respiratory depression: reduce dose, hydrate, rotate opioid; naloxone in small titrated doses only for life-threatening respiratory depression (avoid precipitating severe pain and withdrawal).\n\n**Nausea and vomiting**: choose the antiemetic by cause.\n| Cause | Drug |\n|---|---|\n| Gastric stasis | **Metoclopramide** (avoid in complete bowel obstruction) |\n| Drugs, metabolic (opioids, hypercalcaemia, uraemia) | **Haloperidol** |\n| Raised intracranial pressure, vestibular | **Cyclizine**; dexamethasone for raised ICP |\n| Chemotherapy | Ondansetron, dexamethasone, aprepitant |\n| Bowel obstruction | Surgical review; hyoscine butylbromide, octreotide, dexamethasone, haloperidol |\n\n**Breathlessness**: treat reversible causes (effusion, anaemia, infection); fan to the face, positioning, pacing; **low-dose oral morphine** reduces the sensation of breathlessness; oxygen only if hypoxic; benzodiazepines for associated anxiety.\n\n**Other**: hypercalcaemia of malignancy (IV fluids, zoledronic acid), malignant spinal cord compression (dexamethasone, urgent MRI, radiotherapy), superior vena cava obstruction, mouth care, pressure care, depression and existential distress."
+        },
+        {
+          "kind": "application",
+          "heading": "Recognising dying and care in the last days",
+          "body": "**Signs that death is approaching** (days): profound weakness, bedbound, sleeping most of the time, minimal oral intake, difficulty swallowing tablets, reduced consciousness, mottled cool peripheries, altered breathing (Cheyne-Stokes, apnoeas), reduced urine output.\n\n**What to do**\n- Talk with the patient if possible and the family: explain what is happening, what to expect, and agree goals. Document that the focus is comfort.\n- **Stop non-essential medicines** and tests (statins, antihypertensives, routine bloods, observations that disturb).\n- Switch essential medicines to the **subcutaneous route**, often by a **syringe driver** (continuous subcutaneous infusion).\n- **Anticipatory (\"just in case\") prescribing** as needed subcutaneously for the five common symptoms:\n  - **Pain or breathlessness**: opioid (morphine, or hydromorphone or fentanyl in renal failure).\n  - **Terminal agitation or restlessness**: **midazolam**; exclude urinary retention, pain and constipation.\n  - **Delirium**: haloperidol.\n  - **Nausea**: haloperidol, metoclopramide or cyclizine.\n  - **Noisy respiratory secretions** (\"death rattle\"): reposition first, explain to family that it is not distressing to the patient; **hyoscine butylbromide** or **glycopyrronium**.\n- **Artificial hydration and nutrition** in the last days generally do not prolong life or relieve thirst; good **mouth care** does. Decisions are individualised and discussed.\n- Respect **cultural and spiritual needs**: for many Aboriginal and Torres Strait Islander people, dying on Country and family presence (and later Sorry Business) are important; involve Aboriginal liaison officers.\n- Support the family in **bereavement**.\n\n**After death**: verify death, notify family, complete the medical certificate of cause of death if you can. **Reportable deaths** go to the **coroner**, for example unexpected, violent or unnatural deaths, deaths from accidents or injury (including a fall causing a hip fracture), deaths during or after a procedure not reasonably expected, deaths in custody or care, or where the cause is unknown. Criteria **vary by state**. A death from a known terminal illness under palliative care is not usually reportable.\n\n**Services**: specialist palliative care teams (hospital, community, inpatient hospice), GP-led care at home, community nursing, equipment loans, the PBS Palliative Care Schedule, carer respite, and **Palliative Care Australia** resources."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- Family demanding CPR for a dying patient: doctors need not provide futile treatment; explain compassionately and document; seek a second opinion or ethics input if conflict persists.\n- Competent patient refusing dialysis or a feeding tube: respect the refusal even if death results; check capacity and understanding.\n- Starting opioids: always add a laxative.\n- Opioid for a palliative patient with eGFR 15: choose fentanyl or hydromorphone, not morphine.\n- Noisy breathing in a dying patient: reposition and reassure first, then an anticholinergic.\n- Death from pneumonia 3 weeks after a fall with a hip fracture: reportable to the coroner in most states."
+        }
+      ],
+      "keyPoints": [
+        "Palliative care is for any life-limiting illness and works best when started early.",
+        "A valid advance care directive refusing treatment is legally binding; substitute decision-maker titles vary by state.",
+        "Competent adults may refuse any treatment; doctors need not provide futile treatment.",
+        "Opioids: start low, give regularly, breakthrough about one-sixth of the daily dose, always with laxatives.",
+        "In renal failure prefer fentanyl or hydromorphone to morphine.",
+        "Choose antiemetics by cause: metoclopramide for stasis, haloperidol for chemical causes, cyclizine for vestibular or raised ICP.",
+        "Last days: stop non-essentials, subcutaneous route, anticipatory prescribing for pain, agitation, nausea and secretions.",
+        "VAD is legal in all states and the ACT, not the NT; rules vary by state."
+      ],
+      "redFlags": [
+        "Back pain with leg weakness in a cancer patient (malignant spinal cord compression)",
+        "Confusion, thirst and constipation in cancer (hypercalcaemia)",
+        "Facial swelling and distended neck veins (superior vena cava obstruction)",
+        "Myoclonus and drowsiness on opioids with worsening renal function (opioid toxicity)",
+        "Uncontrolled pain or distress despite treatment (refer to specialist palliative care)"
+      ],
+      "contrast": [
+        {
+          "aspect": "End-of-life decision-making",
+          "india": "Family usually decides; patients are often not told the prognosis.",
+          "australia": "Patient autonomy central; advance care directives and appointed substitute decision-makers are legally recognised."
+        },
+        {
+          "aspect": "Opioid access",
+          "india": "Morphine access limited by regulation and supply; pain often undertreated.",
+          "australia": "Opioids readily prescribed for palliative care, with PBS palliative care listings and subcutaneous syringe drivers."
+        },
+        {
+          "aspect": "Assisted dying",
+          "india": "Not legal; passive euthanasia permitted with safeguards following court rulings.",
+          "australia": "Voluntary assisted dying legal in all states and the ACT, with strict eligibility; not in the NT."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Breakthrough opioid dose?",
+          "back": "About one-sixth (range one-tenth to one-sixth) of the total daily dose."
+        },
+        {
+          "front": "Opioid choice in severe renal impairment?",
+          "back": "Fentanyl or hydromorphone (avoid morphine)."
+        },
+        {
+          "front": "Drug for terminal agitation?",
+          "back": "Subcutaneous midazolam (after excluding retention, pain, constipation)."
+        },
+        {
+          "front": "Drugs for noisy terminal secretions?",
+          "back": "Hyoscine butylbromide or glycopyrronium subcutaneously, after repositioning."
+        },
+        {
+          "front": "Antiemetic for opioid- or metabolic-induced nausea?",
+          "back": "Haloperidol."
+        },
+        {
+          "front": "Where is VAD not legal in Australia?",
+          "back": "The Northern Territory."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "geriatrics--palliative-and-end-of-life-care--q1",
+          "discipline": "adult-medicine",
+          "topic": "geriatrics",
+          "difficulty": "core",
+          "stem": "A 67-year-old man with metastatic lung cancer is on oral controlled-release morphine 30 mg twice daily at home in Ipswich. His pain is well controlled most of the time, but he has episodes of breakthrough pain several times a week.\n\nWhat is the most appropriate breakthrough dose of immediate-release oral morphine?",
+          "options": [
+            "2.5 mg",
+            "10 mg",
+            "30 mg",
+            "60 mg",
+            "5 mg"
+          ],
+          "answer": 1,
+          "explanation": "His **total daily dose** of oral morphine is 60 mg. The standard breakthrough dose is about **one-sixth** (range one-tenth to one-sixth) of the total daily dose, so **10 mg** of immediate-release oral morphine as needed. If he needs frequent breakthrough doses (for example three or more a day), the regular dose should be increased, usually by adding the total breakthrough used over 24 hours. Laxatives must be prescribed regularly alongside opioids. Doses much lower will not control pain; much higher doses risk toxicity.",
+          "whyWrong": [
+            "2.5 mg is about one twenty-fourth of the daily dose and would be ineffective.",
+            "",
+            "30 mg is half the daily dose and risks toxicity.",
+            "60 mg equals the entire daily dose and is dangerous.",
+            "5 mg is one-twelfth of the daily dose, below the usual range."
+          ],
+          "tags": [
+            "palliative",
+            "opioids",
+            "breakthrough"
+          ]
+        },
+        {
+          "id": "geriatrics--palliative-and-end-of-life-care--q2",
+          "discipline": "adult-medicine",
+          "topic": "geriatrics",
+          "difficulty": "exam",
+          "stem": "An 82-year-old woman with end-stage heart failure is dying in a Sydney hospital ward. She lost capacity 2 days ago. Her son, whom she appointed as her enduring guardian, produces her advance care directive, which clearly refuses CPR and ICU admission. Her daughter, who has just arrived from overseas, insists 'everything must be done' and threatens legal action if CPR is not attempted.\n\nWhat is the most appropriate course of action?",
+          "options": [
+            "Perform CPR if she arrests, because a family member has requested it",
+            "Transfer her to ICU until the family agrees",
+            "Follow the advance care directive and continue comfort-focused care, while meeting with the family to explain",
+            "Seek an urgent court order before making any decision",
+            "Ask the daughter to become the substitute decision-maker because she disagrees"
+          ],
+          "answer": 2,
+          "explanation": "A valid **advance care directive** made by a competent adult that refuses specific treatments (CPR, ICU) is **legally binding** and must be followed when the person loses capacity. Her appointed **enduring guardian** supports the same decision. A family member cannot override a valid refusal. CPR would also likely be futile in end-stage heart failure, and doctors are not obliged to provide futile treatment. The team should meet the family compassionately, explain her documented wishes and the clinical picture, involve palliative care and social work, and document carefully. Ethics or legal advice can be sought if conflict continues, but that does not delay honouring the directive.",
+          "whyWrong": [
+            "A family request cannot override a valid advance care directive refusing CPR.",
+            "ICU admission is specifically refused and not in her interests.",
+            "",
+            "A court order is unnecessary when a valid directive and appointed guardian exist.",
+            "The substitute decision-maker is the person she appointed, not whoever disagrees."
+          ],
+          "ausPearl": "Substitute decision-maker titles and hierarchies differ by state (for example enduring guardian in NSW, medical treatment decision maker in Victoria).",
+          "tags": [
+            "advance care directive",
+            "end of life",
+            "ethics"
+          ]
+        },
+        {
+          "id": "geriatrics--palliative-and-end-of-life-care--q3",
+          "discipline": "adult-medicine",
+          "topic": "geriatrics",
+          "difficulty": "foundation",
+          "stem": "An 88-year-old man with advanced dementia is in the last days of life in a Launceston residential aged care facility. He is unresponsive and has loud gurgling breathing. His family, sitting with him, are distressed by the noise. There are no signs of pain or agitation.\n\nWhat is the most appropriate first step?",
+          "options": [
+            "Start IV fluids",
+            "Suction the airway deeply every hour",
+            "Transfer to hospital for chest X-ray",
+            "Start IV antibiotics for aspiration pneumonia",
+            "Reposition him and explain to the family, then give subcutaneous hyoscine butylbromide or glycopyrronium if needed"
+          ],
+          "answer": 4,
+          "explanation": "Noisy breathing from pooled upper airway secretions (sometimes called the death rattle) is common in the last hours to days of life. It is usually **not distressing to the unconscious patient** but can be very distressing for family. First, **reposition** him (on his side, head slightly raised) and **explain** what is happening to the family. If noise persists, **subcutaneous anticholinergics** such as hyoscine butylbromide or glycopyrronium reduce further secretion formation; they work best if started early. IV fluids can worsen secretions, deep suction is distressing, and transfer and antibiotics are inconsistent with comfort-focused care for a dying man.",
+          "whyWrong": [
+            "IV fluids can increase secretions and do not improve comfort at the end of life.",
+            "Repeated deep suction is uncomfortable and stimulates more secretions.",
+            "Transfer and investigations are burdensome and inconsistent with comfort care.",
+            "Antibiotics will not change the outcome or relieve the noise in the last days of life.",
+            ""
+          ],
+          "tags": [
+            "terminal care",
+            "secretions",
+            "palliative"
+          ]
+        }
+      ]
+    }
+  ]
+}

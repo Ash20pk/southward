@@ -1,0 +1,1115 @@
+{
+  "topic": "gynae-oncology",
+  "intro": "Gynaecological oncology covers cervical, endometrial, ovarian and vulval cancers, gestational trophoblastic disease, and Australia's HPV-based cervical screening program. The screening pathway is highly testable, along with investigating postmenopausal bleeding, recognising the vague symptoms of ovarian cancer, and identifying hereditary risk such as BRCA and Lynch syndrome.",
+  "lessons": [
+    {
+      "id": "gynae-oncology--cervical-screening",
+      "title": "The National Cervical Screening Program",
+      "minutes": 17,
+      "objectives": [
+        "State who is eligible for cervical screening, from what age and how often",
+        "Offer self-collection and explain its accuracy and limits",
+        "Follow the pathway from an HPV result to colposcopy, reflex cytology or a 12-month repeat",
+        "Distinguish a screening test from a diagnostic co-test in a symptomatic woman"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why Australia screens differently",
+          "body": "Australia replaced 2-yearly Pap smears with a **primary HPV test every 5 years** in **December 2017**. The reasoning: persistent infection with oncogenic **human papillomavirus** causes virtually all cervical cancers, and an HPV test is **more sensitive** than cytology for detecting high-grade precancer. A negative HPV test gives such strong reassurance that the interval can safely be 5 years. Combined with the school HPV vaccination program, Australia aims to **eliminate cervical cancer as a public health problem by 2035** (fewer than 4 cases per 100,000 women).\n\nThe **National Cervical Screening Program (NCSP)** runs a **National Cancer Screening Register** that sends invitations and reminders and tracks follow-up. Most cervical cancers in Australia now occur in women who are **never- or under-screened**, including disproportionately Aboriginal and Torres Strait Islander women, so reaching them is the priority."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Who, when and how",
+          "body": "- **Eligible:** women and people with a cervix aged **25 to 74** who have ever been sexually active, **including those who have been HPV vaccinated** (the vaccine does not cover all oncogenic types), same-sex attracted women, and trans men with a cervix.\n- **Interval:** **every 5 years** if HPV is not detected. People who have not had a Pap smear or HPV test for a long time are invited when due.\n- **Exit:** a final HPV test between 70 and 74; if HPV is not detected, they leave the program.\n- **Immune-deficient** people (e.g. HIV, transplant recipients) are screened more often (every **3 years**).\n- **Under 25:** screening is not recommended because HPV infection is common and transient in young people and cancer is very rare; young women with **symptoms** are investigated, not screened.\n\n**Self-collection:** since **1 July 2022**, **everyone eligible** can choose to collect their own **vaginal swab** for HPV testing, usually in the clinic bathroom. For HPV detection it is **as accurate as a clinician-collected sample**. The limitation: a self-collected vaginal sample cannot be used for cytology, so if cytology is needed the person returns for a clinician-collected cervical sample (or has it at colposcopy). Self-collection is a powerful way to reach people deterred by speculum examinations, past trauma or cultural concerns.\n\n**Clinician-collected** samples are taken from the cervix with a speculum into liquid-based medium, so the lab can run **reflex liquid-based cytology (LBC)** on the same sample if HPV is detected."
+        },
+        {
+          "kind": "application",
+          "heading": "The results pathway",
+          "body": "| HPV result | Next step |\n|---|---|\n| **Not detected** | Routine re-screen in **5 years** |\n| **HPV 16 and/or 18 detected** | **Refer directly for colposcopy** (cytology done on the clinician sample or at colposcopy); these types cause most cancers |\n| **Oncogenic HPV (not 16/18) detected** | **Reflex LBC** on the clinician-collected sample (self-collected: return for a clinician-collected sample for LBC) |\n| ...with LBC **high-grade** (possible or definite HSIL), glandular abnormality or cancer | **Colposcopy** |\n| ...with LBC **negative, possible LSIL or LSIL** | **Repeat HPV test in 12 months** (intermediate risk); if HPV is still detected at the repeat, refer for colposcopy; if not detected, return to 5-yearly screening |\n| **Unsatisfactory** | Repeat in 6-12 weeks |\n\nSome higher-risk groups (for example people significantly overdue for screening, or Aboriginal and Torres Strait Islander people) may be referred directly to colposcopy with any oncogenic HPV; check the current NCSP clinical guidelines (Cancer Council Australia) for the full algorithm, which is updated periodically.\n\n**After treatment for HSIL (CIN2/3):** a **\"test of cure\"**: co-test (HPV plus LBC) 12 months after treatment and then annually until **both are negative on two consecutive occasions**, before returning to routine screening.\n\n**LSIL (CIN1)** mostly reflects transient HPV infection and usually regresses, which is why it is watched rather than treated."
+        },
+        {
+          "kind": "application",
+          "heading": "Symptoms change the test",
+          "body": "Screening is for **asymptomatic** people. A woman with symptoms that could represent cervical cancer needs a **diagnostic** approach:\n- **Postcoital bleeding**, **intermenstrual bleeding**, unexplained persistent **abnormal discharge**, or deep dyspareunia.\n- Do a **speculum examination** and a **co-test** (HPV plus LBC together, clinician-collected), regardless of when her last screen was and regardless of age (including under 25).\n- **Refer to a gynaecologist** (urgently) if the cervix looks abnormal (ulcerated, friable, mass), whatever the co-test result, because a co-test can be falsely negative in invasive cancer.\n- Persistent unexplained postcoital bleeding warrants gynaecological assessment even with a normal co-test.\n- Test for chlamydia and gonorrhoea (cervicitis is a common cause of postcoital bleeding).\n\n**Special situations:**\n- **Pregnancy:** screening can be done if due (clinician-collected, with a broom or spatula, not a brush); colposcopy in pregnancy is to exclude invasive cancer, with treatment usually deferred until after birth.\n- **After total hysterectomy:** screening depends on history. No further tests if the hysterectomy was for benign reasons with no history of HSIL; a vaginal vault test is needed if there was previous HSIL or the history is unknown.\n- **Over 74:** may request a test if they have not been screened in the past 5 years."
+        },
+        {
+          "kind": "application",
+          "heading": "Reaching the under-screened",
+          "body": "Because most cancers now occur in people who have never screened or are overdue, every consultation is an opportunity:\n- Check the **National Cancer Screening Register** status (accessible to providers) and offer screening opportunistically, including at unrelated visits.\n- Offer **self-collection** to anyone reluctant about a speculum examination: survivors of sexual violence, people with disability, some culturally and linguistically diverse women, trans men, and Aboriginal and Torres Strait Islander women (with Aboriginal health worker support where available).\n- Use interpreters, explain that HPV is a common virus rather than a marker of promiscuity, and address fear of a cancer diagnosis.\n- Make sure positive results are followed up: the register sends reminders, but the requesting clinician remains responsible for acting on results."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- A 23-year-old asking for \"a Pap smear\": explain screening starts at **25** (unless symptoms).\n- A 30-year-old with **postcoital bleeding** and a normal screen 2 years ago: **co-test and examination**, not \"wait until due\".\n- HPV 16 on a self-collected sample: **colposcopy** directly.\n- HPV (not 16/18) on a self-collected sample: return for **clinician-collected LBC**.\n- HPV (not 16/18) with negative LBC: **repeat in 12 months**.\n- Vaccinated women still need screening."
+        }
+      ],
+      "keyPoints": [
+        "HPV test every 5 years for women and people with a cervix aged 25-74, since December 2017.",
+        "Self-collected vaginal HPV samples are available to all eligible people since July 2022 and are as accurate as clinician-collected.",
+        "HPV 16/18 detected: refer directly to colposcopy.",
+        "Other oncogenic HPV: reflex LBC; HSIL goes to colposcopy, negative or LSIL repeats HPV in 12 months.",
+        "Self-collected positive (not 16/18) samples need a clinician-collected sample for cytology.",
+        "Symptomatic women (postcoital or intermenstrual bleeding) need a co-test and examination, not a screening test.",
+        "Test of cure after HSIL treatment: co-tests at 12 months then annually until two consecutive negatives."
+      ],
+      "redFlags": [
+        "Postcoital or intermenstrual bleeding at any age",
+        "Visibly abnormal cervix (refer regardless of test results)",
+        "Never-screened or overdue woman with symptoms",
+        "Glandular abnormality on cytology (adenocarcinoma risk)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Screening test",
+          "india": "Opportunistic Pap smear or visual inspection with acetic acid (VIA), usually from 30.",
+          "australia": "Organised primary HPV screening every 5 years from 25 with a national register; cytology only after a positive HPV test."
+        },
+        {
+          "aspect": "Self-collection",
+          "india": "Not widely offered in routine practice.",
+          "australia": "Universal choice since July 2022; as accurate as clinician collection for HPV."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Australian cervical screening interval and age range?",
+          "back": "HPV test every 5 years, ages 25-74."
+        },
+        {
+          "front": "Next step when HPV 16/18 is detected?",
+          "back": "Direct referral for colposcopy."
+        },
+        {
+          "front": "Next step when oncogenic HPV (not 16/18) is detected with negative LBC?",
+          "back": "Repeat HPV test in 12 months."
+        },
+        {
+          "front": "When did self-collection become available to all eligible people?",
+          "back": "1 July 2022."
+        },
+        {
+          "front": "What test does a woman with postcoital bleeding need?",
+          "back": "A clinician-collected co-test (HPV + LBC) and speculum examination; refer if cervix abnormal."
+        },
+        {
+          "front": "Screening interval for immune-deficient people?",
+          "back": "Every 3 years."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "gynae-oncology--cervical-screening--q1",
+          "discipline": "womens-health",
+          "topic": "gynae-oncology",
+          "difficulty": "foundation",
+          "stem": "A 34-year-old woman had a self-collected vaginal HPV sample at her GP clinic. The result shows oncogenic HPV (not type 16 or 18) detected. She has no symptoms. Her previous screening test 5 years ago was HPV not detected.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Refer directly for colposcopy",
+            "Repeat the self-collected HPV test in 12 months",
+            "Arrange a pelvic ultrasound",
+            "Reassure and re-screen in 5 years",
+            "Return to the clinic for a clinician-collected cervical sample for liquid-based cytology"
+          ],
+          "answer": 4,
+          "explanation": "With **oncogenic HPV other than 16/18**, the pathway uses **liquid-based cytology** to triage the next step. A **self-collected vaginal sample cannot be used for cytology**, so she needs to return for a **clinician-collected cervical sample** for LBC.\n\nIf LBC shows possible or definite HSIL (or a glandular abnormality), she is referred for colposcopy; if negative or LSIL, she repeats the HPV test in 12 months. Direct colposcopy is reserved for HPV 16/18 (and some higher-risk groups).",
+          "whyWrong": [
+            "Direct colposcopy is for HPV 16/18 detection, not other oncogenic types in a routinely screened woman.",
+            "Cytology is needed first to decide between colposcopy and a 12-month repeat.",
+            "Ultrasound has no role in cervical screening.",
+            "An oncogenic HPV result cannot be ignored.",
+            ""
+          ],
+          "ausPearl": "Self-collection has been available to all eligible people in the National Cervical Screening Program since 1 July 2022.",
+          "tags": [
+            "cervical-screening",
+            "self-collection",
+            "hpv"
+          ]
+        },
+        {
+          "id": "gynae-oncology--cervical-screening--q2",
+          "discipline": "womens-health",
+          "topic": "gynae-oncology",
+          "difficulty": "core",
+          "stem": "A 29-year-old woman presents with 3 months of bleeding after intercourse. Her last cervical screening test, 2 years ago, was HPV not detected. She has one regular partner. She asks whether she needs a test, as she was told she is not due for 3 more years.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Reassure her that she is not due for screening for another 3 years",
+            "Speculum examination with a clinician-collected co-test (HPV and LBC) and STI testing",
+            "Offer a self-collected HPV test",
+            "Prescribe the combined oral contraceptive pill and review in 3 months",
+            "Refer for hysterectomy"
+          ],
+          "answer": 1,
+          "explanation": "**Postcoital bleeding** is a symptom that may indicate cervical cancer, so she needs a **diagnostic** assessment, not routine screening. Examine the cervix with a speculum and take a **clinician-collected co-test (HPV plus LBC)**, regardless of her screening history, plus chlamydia and gonorrhoea testing (cervicitis is common).\n\nIf the cervix looks abnormal she should be referred to a gynaecologist regardless of results; persistent unexplained postcoital bleeding warrants gynaecology referral even with a negative co-test.",
+          "whyWrong": [
+            "The screening interval applies only to asymptomatic people.",
+            "",
+            "Self-collection is for asymptomatic screening and does not allow examination or cytology.",
+            "Hormonal treatment before excluding cervical pathology risks a delayed cancer diagnosis.",
+            "There is no indication for hysterectomy."
+          ],
+          "tags": [
+            "cervical-screening",
+            "postcoital-bleeding",
+            "co-test"
+          ]
+        },
+        {
+          "id": "gynae-oncology--cervical-screening--q3",
+          "discipline": "womens-health",
+          "topic": "gynae-oncology",
+          "difficulty": "exam",
+          "stem": "A 41-year-old woman had a clinician-collected cervical screening test 12 months ago that showed oncogenic HPV (not 16/18) with negative liquid-based cytology. Her repeat HPV test today shows oncogenic HPV (not 16/18) again detected. She has no symptoms.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Repeat HPV test in another 12 months",
+            "Return to 5-yearly screening",
+            "Perform LLETZ without colposcopy",
+            "Refer for colposcopy",
+            "Arrange HPV vaccination and repeat in 5 years"
+          ],
+          "answer": 3,
+          "explanation": "She was at **intermediate risk** (oncogenic HPV not 16/18 with negative cytology) and had the recommended **12-month repeat HPV test**. **Persistent oncogenic HPV** at that repeat indicates a higher chance of underlying high-grade disease, so she is **referred for colposcopy**.\n\nMost HPV infections clear within 1-2 years; persistence is what drives progression to HSIL and cancer. If the repeat had been HPV not detected, she would return to 5-yearly screening.",
+          "whyWrong": [
+            "Persistence at the 12-month repeat warrants colposcopy rather than further delay.",
+            "Persistent HPV is not a low-risk result.",
+            "Treatment is guided by colposcopy and histology, not performed blind.",
+            "",
+            "Vaccination does not treat existing infection and is not a substitute for assessment."
+          ],
+          "tags": [
+            "cervical-screening",
+            "persistent-hpv",
+            "colposcopy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gynae-oncology--cervical-cancer",
+      "title": "HPV, colposcopy and cervical cancer",
+      "minutes": 15,
+      "objectives": [
+        "Explain how persistent HPV infection progresses to cervical cancer",
+        "Describe what happens at colposcopy and how HSIL is treated",
+        "Recognise the presentation of cervical cancer and outline its staging and treatment",
+        "Describe HPV vaccination in the Australian school program"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The disease the program is designed to prevent",
+          "body": "Cervical cancer is now **uncommon in Australia** (among the lowest rates in the world), but it still causes deaths, mostly in women who were **never or under-screened**. Incidence and mortality are substantially higher in **Aboriginal and Torres Strait Islander women**, and in some migrant groups from countries without organised screening. It peaks in women in their 30s-40s, with a second peak in older women who stopped screening.\n\nIn India, cervical cancer is one of the commonest cancers in women, often presenting late. In Australia, the AMC focuses on the **prevention pathway** and recognising symptoms early."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "From HPV to cancer",
+          "body": "- HPV is sexually transmitted and very common; most infections **clear within 1-2 years**.\n- **Oncogenic (high-risk) types**, especially **16 and 18** (together about 70% of cancers), can persist. Viral proteins **E6 and E7** inactivate the tumour suppressors **p53** and **Rb**, allowing uncontrolled proliferation of cells at the **transformation zone** (where columnar epithelium changes to squamous).\n- Persistent infection causes **squamous intraepithelial lesions**: **LSIL** (CIN1, mostly transient) and **HSIL** (CIN2/3, true precancer). Untreated HSIL can progress to invasive cancer over years, which is why screening every 5 years works.\n- **Squamous cell carcinoma** is about 70% of cases; **adenocarcinoma** (from glandular cells, sometimes higher in the canal and harder to detect by cytology) makes up most of the rest; **adenocarcinoma in situ (AIS)** is its precursor.\n- Co-factors: **smoking**, **immunosuppression** (HIV, transplant), long-term combined pill use, high parity, early sexual debut and multiple partners (exposure)."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Presentation",
+          "body": "- Early disease is **asymptomatic**: found through screening.\n- **Postcoital bleeding** (classic), **intermenstrual** or **postmenopausal bleeding**, blood-stained or offensive watery discharge.\n- Advanced disease: pelvic or back pain, leg swelling (lymphatic or venous obstruction), **hydronephrosis and renal failure** (ureteric obstruction), **fistulae** (vesicovaginal, rectovaginal), weight loss.\n- Examination: a friable, ulcerated or exophytic cervical mass that bleeds on contact; parametrial thickening on rectovaginal examination in advanced disease.\n\n**Colposcopy** is the magnified examination of the cervix after applying **acetic acid** (abnormal areas turn **acetowhite**) and Lugol's iodine (abnormal areas do not stain). Features of high-grade disease: dense acetowhite change, **coarse mosaicism and punctation**, and **atypical vessels** (suggesting invasion). Directed **biopsy** gives histology."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Work-up of suspected cancer",
+          "body": "- **Biopsy** of the lesion (or colposcopy with biopsy) confirms the diagnosis.\n- **FIGO staging** now combines clinical examination with **imaging and pathology**: **MRI pelvis** assesses tumour size and parametrial invasion; **PET-CT** assesses nodes and distant spread.\n- FBC, renal function (hydronephrosis), and assessment under anaesthesia where needed.\n- Management is through a gynaecological oncology multidisciplinary team.\n\n**Differentials of postcoital bleeding:**\n| Cause | Clue |\n|---|---|\n| Cervical ectropion | Red area around the os, common on the pill and in pregnancy; benign |\n| Cervicitis (chlamydia, gonorrhoea) | Mucopurulent discharge, contact bleeding; NAAT positive |\n| Cervical polyp | Smooth pedunculated lesion at the os; remove and send for histology |\n| Cervical cancer | Friable, ulcerated or exophytic mass; never- or under-screened |\n| Atrophic vaginitis | Postmenopausal, pale thin epithelium |\n| Trauma | History; vaginal laceration |\n\n| Stage (simplified) | Description |\n|---|---|\n| I | Confined to the cervix (IA microscopic; IB visible or larger) |\n| II | Beyond the uterus but not to the pelvic wall or lower third of the vagina (IIB: parametrium) |\n| III | Pelvic wall, lower third of vagina, hydronephrosis, or pelvic/para-aortic nodes |\n| IV | Bladder or rectal mucosa, or distant metastases |"
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment and prevention",
+          "body": "**HSIL (CIN2/3):** treated by **large loop excision of the transformation zone (LLETZ)**, usually under local anaesthetic, which also provides histology. Cone biopsy for glandular disease (AIS) or when the lesion extends up the canal. Risk after LLETZ: small increase in **preterm birth** in future pregnancies, related to the depth of excision. Follow with a **test of cure** (co-tests at 12 months then annually until two consecutive negatives).\n\n**LSIL:** observe with repeat testing; it usually regresses.\n\n**Invasive cancer (specialist):**\n- **Microinvasive (IA1):** cone biopsy (fertility-sparing) or simple hysterectomy.\n- **Early stage (IB1-IIA):** **radical hysterectomy with pelvic lymph node assessment**, or **radical trachelectomy** to preserve fertility in selected small tumours; radiotherapy is an alternative.\n- **Locally advanced (IIB and above):** **concurrent chemoradiation** (cisplatin with external beam radiotherapy plus **brachytherapy**).\n- Metastatic: systemic therapy and palliative care; immunotherapy has a role in selected cases.\n- Survivorship: menopause after radiation or oophorectomy, vaginal stenosis (dilators), lymphoedema, sexual health, bowel and bladder effects.\n\n**HPV vaccination:**\n- School-based program under the **National Immunisation Program**, offered to **all genders at age 12-13** (Year 7 in most states). Australia moved to a **single dose of 9-valent vaccine (Gardasil 9)** in **2023** for immunocompetent young people, with free catch-up to age 25 (check the Australian Immunisation Handbook for current catch-up rules). Immunocompromised people need a 3-dose course.\n- The vaccine covers HPV 16 and 18 (plus 31, 33, 45, 52, 58 and warts types 6 and 11). It is **prophylactic**: it does not treat existing infection, so it works best before sexual debut.\n- Since the program began in 2007, HPV infection, genital warts and high-grade lesions have fallen dramatically in young women and men."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- HPV 16/18 cause about 70% of cervical cancers; E6 and E7 inactivate p53 and Rb.\n- HSIL on biopsy: **LLETZ**, then test of cure.\n- CIN1/LSIL: watch, don't treat.\n- Stage IIB (parametrial invasion) or beyond: **chemoradiation**, not surgery.\n- Hydronephrosis in cervical cancer means at least stage IIIB (ureteric obstruction).\n- A vaccinated woman still needs screening from 25.\n- Cervical cancer in pregnancy or in a young woman wanting children: specialist fertility-sparing options (cone or radical trachelectomy) exist for small early tumours, so refer rather than assume hysterectomy."
+        }
+      ],
+      "keyPoints": [
+        "Persistent oncogenic HPV (types 16 and 18 cause about 70%) drives cervical cancer via E6/E7 inactivating p53 and Rb.",
+        "Most HPV infections clear within 1-2 years; LSIL usually regresses; HSIL is true precancer.",
+        "Colposcopy uses acetic acid (acetowhite change) and directed biopsy.",
+        "HSIL is treated with LLETZ, followed by a test of cure.",
+        "Classic symptom of cervical cancer: postcoital bleeding.",
+        "Early-stage cancer: radical hysterectomy; locally advanced: chemoradiation with cisplatin and brachytherapy.",
+        "School HPV vaccination (single dose of Gardasil 9 since 2023) for all genders at 12-13; vaccinated people still screen."
+      ],
+      "redFlags": [
+        "Postcoital bleeding with a visible cervical lesion",
+        "Leg swelling, back pain or renal impairment in a woman with cervical cancer (advanced disease)",
+        "Continuous vaginal leakage of urine or faeces (fistula)",
+        "Atypical vessels at colposcopy (possible invasion)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Burden and presentation",
+          "india": "One of the commonest cancers in women, often presenting at an advanced stage.",
+          "australia": "Uncommon, largely in never- or under-screened women; aiming for elimination by 2035."
+        },
+        {
+          "aspect": "HPV vaccination",
+          "india": "Being scaled up nationally, focused on girls.",
+          "australia": "School program since 2007, extended to boys in 2013; single-dose Gardasil 9 since 2023."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "HPV types causing about 70% of cervical cancers?",
+          "back": "HPV 16 and 18."
+        },
+        {
+          "front": "Viral oncoproteins and their targets?",
+          "back": "E6 inactivates p53; E7 inactivates Rb."
+        },
+        {
+          "front": "Treatment of HSIL (CIN2/3)?",
+          "back": "LLETZ (large loop excision of the transformation zone)."
+        },
+        {
+          "front": "Obstetric risk after LLETZ?",
+          "back": "Small increase in preterm birth, related to excision depth."
+        },
+        {
+          "front": "Treatment for locally advanced cervical cancer?",
+          "back": "Concurrent chemoradiation (cisplatin + external beam + brachytherapy)."
+        },
+        {
+          "front": "Australian HPV vaccine schedule for a healthy 12-year-old?",
+          "back": "Single dose of 9-valent HPV vaccine through the school program."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "gynae-oncology--cervical-cancer--q1",
+          "discipline": "womens-health",
+          "topic": "gynae-oncology",
+          "difficulty": "core",
+          "stem": "A 32-year-old woman was referred for colposcopy after HPV 16 was detected. Colposcopy shows a dense acetowhite area with coarse punctation at the transformation zone, fully visible. Directed biopsy shows HSIL (CIN3). There is no evidence of invasion. She hopes to have children in the future.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Large loop excision of the transformation zone (LLETZ)",
+            "Repeat HPV testing in 12 months",
+            "Radical hysterectomy",
+            "Topical imiquimod to the cervix",
+            "HPV vaccination alone"
+          ],
+          "answer": 0,
+          "explanation": "**HSIL (CIN2/3)** is true precancer with a meaningful risk of progression to invasive cancer, so it is treated. With a fully visible transformation zone and no suspicion of invasion or glandular disease, **LLETZ** is the standard: it removes the abnormal area under local anaesthetic and provides histology to confirm clear margins and exclude invasion.\n\nCounsel her about the small increase in preterm birth risk in future pregnancies. Afterwards she needs a **test of cure**: co-tests at 12 months then annually until two consecutive negative results.",
+          "whyWrong": [
+            "",
+            "Surveillance is for LSIL or intermediate-risk HPV results, not HSIL.",
+            "Radical surgery is for invasive cancer, not precancer.",
+            "Topical treatment is not standard for cervical HSIL.",
+            "Vaccination does not treat an existing lesion."
+          ],
+          "tags": [
+            "hsil",
+            "lletz",
+            "colposcopy"
+          ]
+        },
+        {
+          "id": "gynae-oncology--cervical-cancer--q2",
+          "discipline": "womens-health",
+          "topic": "gynae-oncology",
+          "difficulty": "exam",
+          "stem": "A 44-year-old woman who has never had cervical screening presents with 6 months of postcoital bleeding and offensive discharge. Examination shows a 4 cm friable exophytic cervical mass extending into the right parametrium but not to the pelvic side wall. Biopsy confirms squamous cell carcinoma. MRI confirms parametrial invasion without hydronephrosis; PET-CT shows no distant metastases.\n\nWhat is the most appropriate primary treatment?",
+          "options": [
+            "Radical hysterectomy with pelvic lymphadenectomy",
+            "LLETZ",
+            "Simple hysterectomy followed by observation",
+            "Palliative care only",
+            "Concurrent cisplatin-based chemoradiation with brachytherapy"
+          ],
+          "answer": 4,
+          "explanation": "**Parametrial invasion without extension to the pelvic side wall or hydronephrosis** is **FIGO stage IIB**, which is **locally advanced** cervical cancer. The standard primary treatment is **concurrent chemoradiation**: weekly cisplatin with external beam radiotherapy followed by **brachytherapy**.\n\nRadical hysterectomy is for early-stage disease confined to the cervix or upper vagina (IB-IIA); operating on parametrial disease would usually require adjuvant chemoradiation anyway, adding morbidity. Her never-screened status is typical of women who develop cervical cancer in Australia.",
+          "whyWrong": [
+            "Surgery is for early-stage disease; parametrial involvement (IIB) is treated with chemoradiation.",
+            "LLETZ treats precancer or microinvasive disease only.",
+            "Simple hysterectomy is inadequate for invasive cancer beyond microinvasion.",
+            "This is potentially curable disease.",
+            ""
+          ],
+          "tags": [
+            "cervical-cancer",
+            "staging",
+            "chemoradiation"
+          ]
+        },
+        {
+          "id": "gynae-oncology--cervical-cancer--q3",
+          "discipline": "womens-health",
+          "topic": "gynae-oncology",
+          "difficulty": "foundation",
+          "stem": "A mother asks about the HPV vaccine for her healthy 12-year-old son, who has been offered it at school in Year 7. She believes it is only needed for girls.\n\nWhat is the most accurate advice?",
+          "options": [
+            "HPV vaccine is recommended only for girls",
+            "Boys should wait until they are sexually active",
+            "HPV vaccine is recommended for all genders at 12-13 as a single dose in the school program",
+            "Three doses are required for all adolescents",
+            "The vaccine is only given after a negative HPV test"
+          ],
+          "answer": 2,
+          "explanation": "The **National Immunisation Program** offers HPV vaccine to **all adolescents aged 12-13**, typically in Year 7, via the school program; boys have been included since **2013**. HPV causes anal, penile and oropharyngeal cancers and genital warts in males, and vaccinating boys also reduces transmission to others. Since **2023**, a **single dose** of 9-valent vaccine is used for immunocompetent young people.\n\nThe vaccine is **prophylactic**, so it works best before any exposure to HPV, which is why it is given before sexual debut. No HPV test is needed beforehand.",
+          "whyWrong": [
+            "Boys have been included in the program since 2013.",
+            "The vaccine is most effective before sexual exposure.",
+            "",
+            "Three doses are for immunocompromised people; healthy adolescents need one.",
+            "No pre-vaccination HPV testing is required."
+          ],
+          "ausPearl": "Australia was the first country to introduce a national publicly funded HPV vaccination program, in 2007.",
+          "tags": [
+            "hpv-vaccination",
+            "immunisation",
+            "adolescent"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gynae-oncology--endometrial-cancer",
+      "title": "Postmenopausal bleeding and endometrial cancer",
+      "minutes": 16,
+      "objectives": [
+        "Investigate postmenopausal bleeding with transvaginal ultrasound and endometrial sampling",
+        "Identify risk factors for endometrial cancer, including Lynch syndrome and tamoxifen",
+        "Manage endometrial hyperplasia with and without atypia",
+        "Outline the surgical management and prognosis of endometrial cancer"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The most common gynaecological cancer in Australia",
+          "body": "**Uterine (endometrial) cancer is the most common gynaecological cancer in Australia**, and its incidence is rising, driven largely by **obesity** and an ageing population. Most women are postmenopausal, typically in their 60s. The good news is that it usually presents early, with **postmenopausal bleeding (PMB)**, so most cases are curable by surgery.\n\n**Postmenopausal bleeding** is any bleeding more than 12 months after the last period (or unscheduled bleeding on MHT). The commonest cause is **atrophy**, but around **5-10% of women with PMB have endometrial cancer**, so **every episode of PMB must be investigated**."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Unopposed oestrogen and genes",
+          "body": "**Endometrioid (oestrogen-dependent) cancer** (the majority, traditionally \"type 1\") arises through **hyperplasia**, driven by **unopposed oestrogen**:\n- **Obesity** (the biggest modifiable risk): adipose tissue aromatises androgens to oestrone after menopause.\n- **Anovulation:** PCOS with infrequent periods.\n- **Oestrogen-only MHT** in a woman with a uterus.\n- **Tamoxifen:** antagonist in breast tissue but a partial **agonist on the endometrium**.\n- Early menarche, late menopause, nulliparity; diabetes and hypertension (partly through obesity); oestrogen-secreting granulosa cell tumours.\n- **Lynch syndrome** (inherited mismatch repair gene mutation): lifetime endometrial cancer risk is high (comparable to colorectal risk), often at a younger age.\n\n**Protective:** the combined pill, the **levonorgestrel IUD**, pregnancy, and physical activity.\n\n**Non-endometrioid cancers** (serous, clear cell, carcinosarcoma; \"type 2\") occur in older, often thinner women on an **atrophic** background, are driven by **p53 mutation**, and behave aggressively. Modern pathology uses a **molecular classification** (POLE-mutant, mismatch repair deficient, p53-abnormal, no specific molecular profile) that guides prognosis and adjuvant treatment. **All endometrial cancers are tested for mismatch repair deficiency** to screen for Lynch syndrome."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Presentation",
+          "body": "- **Postmenopausal bleeding** (by far the most common presentation).\n- In perimenopausal women: **persistent intermenstrual or heavy irregular bleeding**, especially with risk factors (see the AUB lesson).\n- Blood-stained watery discharge; pyometra in older women.\n- Advanced disease: pelvic pain, mass, weight loss.\n- Abnormal glandular cells on cervical cytology can be the first clue.\n\nExamination: BMI, abdominal and pelvic examination (speculum to exclude a cervical or vaginal source; atrophic vaginitis may coexist), groin nodes."
+        },
+        {
+          "kind": "investigations",
+          "heading": "The PMB pathway",
+          "body": "1. **Speculum examination** to see the bleeding source (cervix, vagina, vulva, urethral caruncle) and a **co-test** if the cervix looks abnormal or screening is due.\n2. **Transvaginal ultrasound (TVUS):** measures **endometrial thickness (ET)**.\n   - **ET 4 mm or less** with a single episode that has settled: cancer is very unlikely; reassure, but **re-investigate if bleeding recurs**.\n   - **ET over 4 mm**, a focal lesion, fluid, or **recurrent/persistent bleeding** regardless of thickness: **endometrial sampling**.\n3. **Endometrial sampling:** outpatient **Pipelle** biopsy, or **hysteroscopy with directed biopsy** (preferred when Pipelle is non-diagnostic, a focal lesion or polyp is seen, or bleeding persists).\n4. **Tamoxifen users:** tamoxifen causes a thickened, cystic-looking endometrium on ultrasound, so TVUS is unreliable; symptomatic women go to **hysteroscopy and biopsy**.\n5. On **MHT**: unscheduled bleeding persisting beyond 3-6 months of starting, or new bleeding after established amenorrhoea on continuous combined therapy, is investigated the same way.\n\nAfter a cancer diagnosis: MRI pelvis (myometrial invasion, cervical involvement), CT chest-abdomen-pelvis for high-risk types, and gynaecological oncology MDT referral."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Causes of postmenopausal bleeding",
+          "body": "| Cause | Clue |\n|---|---|\n| **Atrophic vaginitis / endometrium** | Commonest; thin ET, pale dry vaginal walls. A diagnosis of exclusion |\n| Endometrial polyp | Focal lesion on TVUS, intermittent bleeding |\n| **Endometrial hyperplasia or cancer** | ET over 4 mm, risk factors |\n| MHT-related | Bleeding pattern related to regimen, early months of treatment |\n| Cervical cancer or polyp | Visible lesion, postcoital bleeding |\n| Ovarian granulosa cell tumour | Adnexal mass plus thick endometrium (oestrogen-secreting) |\n| Non-gynaecological | Haematuria, rectal bleeding, urethral caruncle; anticoagulants |"
+        },
+        {
+          "kind": "management",
+          "heading": "Hyperplasia and cancer",
+          "body": "**Endometrial hyperplasia:**\n- **Without atypia:** low progression risk. Address risk factors (weight, unopposed oestrogen), then **progestogen**, preferably the **levonorgestrel IUD** (more effective than oral progestogens), with repeat endometrial biopsies to confirm regression.\n- **With atypia (atypical hyperplasia / endometrial intraepithelial neoplasia):** high risk of coexisting or future cancer, so **total hysterectomy with bilateral salpingo-oophorectomy** is recommended. For women wanting fertility: high-dose progestogen (e.g. LNG-IUD) with close hysteroscopic surveillance under specialist care, and hysterectomy after childbearing.\n\n**Endometrial cancer (gynaecological oncology MDT):**\n- **Total hysterectomy and bilateral salpingo-oophorectomy**, usually **laparoscopic**, with **sentinel lymph node** assessment.\n- **Adjuvant therapy** based on stage, grade and molecular group: vaginal brachytherapy, pelvic radiotherapy, chemotherapy, and immunotherapy for advanced mismatch repair-deficient disease.\n- Women unfit for surgery: progestogen therapy or radiotherapy.\n- Prognosis is good for early-stage disease (5-year survival well over 80% for stage I).\n\n**Lynch syndrome:** refer to a familial cancer clinic; offer cascade testing to relatives; colonoscopy surveillance; discuss **risk-reducing hysterectomy and BSO** once childbearing is complete (typically in the 40s). Aspirin reduces colorectal cancer risk in Lynch.\n\n**Follow-up and survivorship:** after treatment, women are reviewed regularly (history and examination) for several years; most recurrences present with symptoms such as vaginal bleeding, so educate her to report them promptly. Routine vault cytology or CA-125 is not recommended for surveillance. Address weight, diabetes and cardiovascular risk, since obese survivors are more likely to die of cardiovascular disease than of their cancer, and manage surgical menopause symptoms (MHT is often avoided in higher-risk disease; decisions are individualised with the oncology team)."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- Any PMB: **TVUS first**; ET over 4 mm or recurrent bleeding: **sampling**.\n- Don't answer \"reassure, it's atrophy\" without imaging.\n- Tamoxifen plus bleeding: **hysteroscopy and biopsy** (ultrasound unreliable).\n- Atypical hyperplasia: **hysterectomy and BSO** (if fertility complete).\n- Endometrial cancer at 45 with a family history of bowel cancer: **Lynch syndrome**.\n- Thick endometrium plus adnexal mass: granulosa cell tumour."
+        }
+      ],
+      "keyPoints": [
+        "Uterine cancer is the most common gynaecological cancer in Australia; obesity is the main driver.",
+        "Every episode of postmenopausal bleeding needs investigation; about 5-10% have cancer.",
+        "TVUS first: endometrial thickness over 4 mm, a focal lesion or recurrent bleeding needs endometrial sampling.",
+        "Tamoxifen makes ultrasound unreliable; symptomatic women need hysteroscopy and biopsy.",
+        "Risk factors: obesity, unopposed oestrogen, anovulation (PCOS), tamoxifen, nulliparity, Lynch syndrome.",
+        "Hyperplasia without atypia: LNG-IUD; with atypia: hysterectomy and BSO.",
+        "Treatment of cancer: total hysterectomy, BSO and sentinel nodes; all tumours are tested for mismatch repair deficiency."
+      ],
+      "redFlags": [
+        "Any postmenopausal bleeding",
+        "Recurrent bleeding despite a thin endometrium",
+        "Bleeding on tamoxifen",
+        "Endometrial cancer under 50 or with a family history of bowel cancer (Lynch syndrome)",
+        "Thickened endometrium with an adnexal mass (oestrogen-secreting tumour)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Investigating PMB",
+          "india": "D&C is often the first test.",
+          "australia": "Transvaginal ultrasound first; endometrial thickness over 4 mm (or ongoing bleeding) leads to Pipelle or hysteroscopic biopsy."
+        },
+        {
+          "aspect": "Lynch screening",
+          "india": "Genetic testing is limited and costly.",
+          "australia": "Universal mismatch repair testing of endometrial and colorectal cancers, with familial cancer clinic referral."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Endometrial thickness threshold for sampling in postmenopausal bleeding?",
+          "back": "Over 4 mm (or any recurrent bleeding)."
+        },
+        {
+          "front": "Most common gynaecological cancer in Australia?",
+          "back": "Uterine (endometrial) cancer."
+        },
+        {
+          "front": "Why does tamoxifen increase endometrial cancer risk?",
+          "back": "It is a partial oestrogen agonist on the endometrium."
+        },
+        {
+          "front": "Management of atypical endometrial hyperplasia (family complete)?",
+          "back": "Total hysterectomy with bilateral salpingo-oophorectomy."
+        },
+        {
+          "front": "First-line treatment for hyperplasia without atypia?",
+          "back": "Levonorgestrel IUD (plus addressing risk factors) with follow-up biopsy."
+        },
+        {
+          "front": "Inherited syndrome linking endometrial and colorectal cancer?",
+          "back": "Lynch syndrome (mismatch repair gene mutation)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "gynae-oncology--endometrial-cancer--q1",
+          "discipline": "womens-health",
+          "topic": "gynae-oncology",
+          "difficulty": "foundation",
+          "stem": "A 62-year-old woman presents with two episodes of light vaginal bleeding over the past month. Her menopause was at 51 and she takes no hormones. BMI 34 kg/m2. Speculum examination shows mildly atrophic vaginal walls and a normal cervix. Her cervical screening is up to date.\n\nWhat is the most appropriate next investigation?",
+          "options": [
+            "Serum CA-125",
+            "Vaginal oestrogen cream and review in 3 months",
+            "Transvaginal pelvic ultrasound",
+            "CT abdomen and pelvis",
+            "Dilatation and curettage"
+          ],
+          "answer": 2,
+          "explanation": "**Postmenopausal bleeding** must always be investigated because about 5-10% of women have endometrial cancer; her obesity increases the risk. After speculum examination, the first-line investigation is **transvaginal ultrasound** to measure **endometrial thickness**.\n\nIf the endometrium is **over 4 mm**, or bleeding recurs, she needs **endometrial sampling** (Pipelle or hysteroscopy with biopsy). Atrophy is the commonest cause, but attributing bleeding to atrophy without investigation risks missing cancer.",
+          "whyWrong": [
+            "CA-125 is not a test for endometrial cancer.",
+            "Treating presumed atrophy without investigation risks missing cancer.",
+            "",
+            "CT is for staging after diagnosis, not initial assessment.",
+            "Blind D&C is no longer the first-line test and misses focal lesions."
+          ],
+          "tags": [
+            "postmenopausal-bleeding",
+            "tvus",
+            "endometrial-cancer"
+          ]
+        },
+        {
+          "id": "gynae-oncology--endometrial-cancer--q2",
+          "discipline": "womens-health",
+          "topic": "gynae-oncology",
+          "difficulty": "core",
+          "stem": "A 58-year-old woman taking tamoxifen for 3 years after treatment for oestrogen receptor-positive breast cancer presents with a week of vaginal bleeding. Transvaginal ultrasound reports an endometrial thickness of 11 mm with cystic spaces.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Hysteroscopy with endometrial biopsy",
+            "Stop tamoxifen and repeat ultrasound in 3 months",
+            "Reassure her that tamoxifen commonly thickens the endometrium",
+            "Start oral progestogen therapy",
+            "Measure serum oestradiol"
+          ],
+          "answer": 0,
+          "explanation": "**Tamoxifen** acts as a partial oestrogen agonist on the endometrium, increasing the risk of **polyps, hyperplasia and endometrial cancer**. It also produces a thickened, cystic appearance on ultrasound (often subendometrial), making TVUS measurements unreliable. **Any bleeding on tamoxifen** therefore warrants **hysteroscopy with directed biopsy**.\n\nAsymptomatic women on tamoxifen do not need routine ultrasound screening. Decisions about continuing tamoxifen are made with her oncologist once the endometrium has been assessed.",
+          "whyWrong": [
+            "",
+            "Delay risks missing cancer; stopping tamoxifen is an oncology decision.",
+            "Bleeding on tamoxifen must be investigated, not dismissed.",
+            "Treating before histology risks masking cancer.",
+            "Oestradiol levels do not help assess the endometrium."
+          ],
+          "tags": [
+            "tamoxifen",
+            "postmenopausal-bleeding",
+            "hysteroscopy"
+          ]
+        },
+        {
+          "id": "gynae-oncology--endometrial-cancer--q3",
+          "discipline": "womens-health",
+          "topic": "gynae-oncology",
+          "difficulty": "exam",
+          "stem": "A 46-year-old woman is diagnosed with endometrioid endometrial cancer after investigation of irregular bleeding. Her father had colorectal cancer at 48 and her aunt had endometrial cancer at 50. Immunohistochemistry of her tumour shows loss of MLH1 and PMS2 expression, and MLH1 promoter methylation testing is negative.\n\nWhat is the most appropriate additional step in her care?",
+          "options": [
+            "No further action; family history is coincidental",
+            "Start annual CA-125 screening",
+            "Offer BRCA1/2 testing only",
+            "Refer to a familial cancer clinic for germline testing for Lynch syndrome",
+            "Recommend mammography from age 40"
+          ],
+          "answer": 3,
+          "explanation": "Young age, a family history of **colorectal and endometrial cancer**, and a tumour showing **mismatch repair protein loss** that is **not explained by MLH1 promoter methylation** (a sporadic mechanism) strongly suggest **Lynch syndrome**. She should be referred to a **familial cancer clinic** for germline testing and counselling.\n\nConfirmation enables **colonoscopy surveillance** for her, and **cascade testing** of relatives, with surveillance and risk-reducing surgery (hysterectomy and BSO after childbearing) for female carriers. All endometrial cancers in Australia are tested for mismatch repair deficiency for this reason.",
+          "whyWrong": [
+            "The family history and tumour testing point strongly to an inherited cause.",
+            "CA-125 screening is not effective.",
+            "BRCA mutations cause breast and ovarian cancer, not this pattern.",
+            "",
+            "Mammography is not the relevant surveillance here."
+          ],
+          "tags": [
+            "lynch-syndrome",
+            "endometrial-cancer",
+            "genetics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gynae-oncology--ovarian-masses-cancer",
+      "title": "Adnexal masses and ovarian cancer",
+      "minutes": 17,
+      "objectives": [
+        "Recognise the vague symptoms of ovarian cancer and investigate them with CA-125 and ultrasound",
+        "Explain why there is no screening for ovarian cancer in average-risk women",
+        "Triage an adnexal mass as likely benign or possibly malignant, including the RMI",
+        "Manage high-risk women, including BRCA carriers, with risk-reducing surgery"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The silent gynaecological cancer",
+          "body": "Ovarian cancer is less common than uterine cancer in Australia but causes **more deaths** than any other gynaecological cancer, because most women present with **advanced disease**. Five-year survival is under 50% overall. There is **no effective screening test**: large trials of CA-125 and ultrasound screening in average-risk women did not reduce mortality convincingly and caused harm from false-positive surgery. The AMC therefore focuses on **recognising symptoms early**, investigating correctly, and identifying **inherited risk**.\n\nAdnexal masses in general are common and **mostly benign**, especially in premenopausal women, so distinguishing a functional cyst from cancer is a core skill."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Types and risk factors",
+          "body": "| Type | Who | Notes |\n|---|---|---|\n| **Epithelial** (about 90%) | Mostly postmenopausal | **High-grade serous** is the commonest and deadliest; much of it arises in the **fallopian tube fimbria** (serous tubal intraepithelial carcinoma). Others: endometrioid and clear cell (linked to endometriosis), mucinous, low-grade serous, borderline tumours |\n| **Germ cell** | Girls and young women | Dysgerminoma (LDH), yolk sac tumour (**AFP**), choriocarcinoma (**hCG**); **mature cystic teratoma (dermoid)** is benign and common |\n| **Sex cord-stromal** | Any age | **Granulosa cell tumour** secretes oestrogen (PMB, thick endometrium; inhibin marker); fibroma (Meigs syndrome: ascites and pleural effusion) |\n| Metastatic | | From breast, stomach or colon (Krukenberg tumour) |\n\n**Risk factors** relate largely to the number of ovulations and genetics:\n- **BRCA1** (lifetime ovarian cancer risk around 40%) and **BRCA2** (around 15-20%) mutations; **Lynch syndrome**.\n- Family history, increasing age, nulliparity, infertility, **endometriosis**, smoking (mucinous), obesity.\n- **Protective:** the **combined pill** (risk falls with duration and persists for years), pregnancy, breastfeeding, **tubal ligation or salpingectomy**."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Symptoms that should not be ignored",
+          "body": "Symptoms are **vague and persistent**, which is why they are missed. Cancer Australia's guidance highlights new, persistent (more than a few weeks), frequent symptoms, especially in women over 50:\n- **Abdominal bloating** or increased abdominal size.\n- **Early satiety**, loss of appetite.\n- **Pelvic or abdominal pain**.\n- **Urinary frequency or urgency**.\n- Change in bowel habit, unexplained weight loss or fatigue.\n\nExamination: abdominal distension, **ascites** (shifting dullness), a pelvic or abdominal mass, supraclavicular or inguinal nodes, pleural effusion.\n\n**Benign masses:** functional (follicular, corpus luteum) cysts in premenopausal women, often incidental; **endometrioma**; **dermoid** (can cause torsion); **serous or mucinous cystadenoma**. Acute presentations: torsion, rupture, haemorrhage."
+        },
+        {
+          "kind": "investigations",
+          "heading": "CA-125, ultrasound and the RMI",
+          "body": "**Symptomatic woman:** order **CA-125** and a **transvaginal (and transabdominal) pelvic ultrasound** together.\n\n**CA-125** is raised (above about 35 U/mL) in most advanced epithelial ovarian cancers, but is:\n- **Not specific:** raised in **endometriosis, fibroids, PID, pregnancy, menstruation**, liver disease, and any cause of peritoneal irritation, ascites or pleural effusion.\n- **Not sensitive** for early-stage disease.\nIt is therefore more useful after menopause, and for **monitoring** known ovarian cancer.\n\n**Ultrasound features suggesting malignancy:** solid components or papillary projections, **multilocular** cyst with thick septa, bilateral lesions, **ascites**, increased blood flow, metastases. Benign features: unilocular simple thin-walled cyst, acoustic shadowing (dermoid), ground-glass echoes (endometrioma). Standardised systems (IOTA rules, O-RADS) are used by specialists.\n\n**Risk of Malignancy Index (RMI) = U x M x CA-125**\n- **U** (ultrasound score): 0 for no features, 1 for one feature, 3 for two or more features (multilocular, solid areas, metastases, ascites, bilateral).\n- **M** (menopausal status): 1 if premenopausal, 3 if postmenopausal.\n- An RMI **above about 200** indicates high risk: **refer to a gynaecological oncologist**.\n\n**Tumour markers in young women with a complex mass:** **AFP, hCG, LDH** (germ cell tumours) as well as CA-125. Also CEA and CA 19-9 for mucinous tumours or possible GI primary. Staging CT chest-abdomen-pelvis when malignancy is suspected.\n\nAvoid aspirating or rupturing a suspicious cyst, which can spread cancer cells."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Probably benign:**\n- A small **simple cyst** in a premenopausal woman is usually functional: repeat ultrasound in 6-12 weeks, ideally in the early follicular phase, to confirm resolution. The combined pill does not speed resolution.\n- Persistent, enlarging or symptomatic cysts, dermoids and endometriomas: **laparoscopic ovarian cystectomy** (preserving ovarian tissue in young women).\n- **Postmenopausal** simple cysts that are small with a normal CA-125 can be monitored with repeat ultrasound and CA-125; complex cysts or a raised CA-125 are referred.\n\n**Suspected ovarian cancer:** refer to a **gynaecological oncologist** (outcomes are better in specialist centres).\n- **Surgery:** staging laparotomy with **maximal cytoreduction** (total hysterectomy, BSO, omentectomy, removal of all visible disease), the aim being no residual disease.\n- **Chemotherapy:** **carboplatin and paclitaxel**, either after surgery or as neoadjuvant therapy before interval surgery.\n- **Maintenance:** **PARP inhibitors** (e.g. olaparib) for women with BRCA mutations or homologous recombination deficiency; bevacizumab in some.\n- **Germline genetic testing** is recommended (and Medicare-funded) for women with non-mucinous epithelial ovarian cancer, because a positive result guides treatment and family cascade testing.\n- Malignant bowel obstruction and ascites are common in recurrent disease; involve **palliative care** early.\n- Germ cell tumours in young women are highly chemosensitive (e.g. BEP chemotherapy) with fertility-sparing surgery and excellent cure rates.\n\n**High-risk women (BRCA1/2, Lynch):**\n- Refer to a **familial cancer clinic**.\n- **Risk-reducing salpingo-oophorectomy (RRSO)** once childbearing is complete: around **35-40 for BRCA1** and **40-45 for BRCA2** carriers. It greatly reduces ovarian and tubal cancer risk; discuss surgical menopause and MHT (usually appropriate for carriers without breast cancer, until the natural age of menopause).\n- Screening with CA-125 and ultrasound is **not** a reliable substitute for surgery.\n- **Opportunistic salpingectomy** (removing the tubes at hysterectomy or instead of tubal ligation) is increasingly offered to average-risk women to reduce future ovarian cancer risk."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- A 60-year-old with a few months of bloating and early satiety: **CA-125 plus pelvic ultrasound**, not reassurance or \"IBS\".\n- New IBS-type symptoms in a woman over 50: think **ovarian cancer**.\n- There is **no screening** for ovarian cancer in average-risk women.\n- Young woman with a complex mass: add **AFP, hCG and LDH**.\n- Raised CA-125 in a 28-year-old with dysmenorrhoea: probably **endometriosis**.\n- BRCA1 carrier aged 38 with completed family: **RRSO**."
+        }
+      ],
+      "keyPoints": [
+        "Ovarian cancer causes the most gynaecological cancer deaths; most present late.",
+        "No effective screening test exists for average-risk women.",
+        "Persistent bloating, early satiety, pelvic pain or urinary symptoms warrant CA-125 and transvaginal ultrasound.",
+        "CA-125 is raised by many benign conditions (endometriosis, fibroids, PID, pregnancy) and is best for monitoring.",
+        "RMI = ultrasound score x menopausal status x CA-125; above about 200 means gynae-oncology referral.",
+        "Treatment: cytoreductive surgery plus carboplatin/paclitaxel; PARP inhibitors for BRCA or HRD tumours.",
+        "BRCA carriers: risk-reducing salpingo-oophorectomy around 35-40 (BRCA1) or 40-45 (BRCA2)."
+      ],
+      "redFlags": [
+        "New persistent bloating or early satiety in a woman over 50",
+        "Ascites or a pelvic mass on examination",
+        "Complex adnexal mass with solid areas, septations or bilateral lesions",
+        "Strong family history of ovarian or breast cancer, or known BRCA mutation",
+        "Adnexal mass in a child or adolescent (germ cell tumour)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Screening",
+          "india": "No screening; CA-125 is sometimes used opportunistically in well women.",
+          "australia": "No screening; CA-125 and ultrasound are not screening tests in average-risk women and should be used only for symptoms."
+        },
+        {
+          "aspect": "Hereditary risk",
+          "india": "Genetic testing is often out of reach financially.",
+          "australia": "Medicare-funded germline testing for women with epithelial ovarian cancer and eligible relatives, with familial cancer clinics."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Formula for the Risk of Malignancy Index?",
+          "back": "RMI = U (ultrasound score) x M (menopausal status) x CA-125."
+        },
+        {
+          "front": "RMI threshold for gynae-oncology referral?",
+          "back": "Above about 200."
+        },
+        {
+          "front": "Tumour markers for germ cell tumours?",
+          "back": "AFP, hCG and LDH."
+        },
+        {
+          "front": "Commonest and most lethal ovarian cancer subtype, and its likely origin?",
+          "back": "High-grade serous carcinoma, often arising in the fallopian tube fimbria."
+        },
+        {
+          "front": "Age for risk-reducing salpingo-oophorectomy in BRCA1 carriers?",
+          "back": "Around 35-40, once childbearing is complete."
+        },
+        {
+          "front": "Oestrogen-secreting ovarian tumour causing PMB?",
+          "back": "Granulosa cell tumour (marker: inhibin)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "gynae-oncology--ovarian-masses-cancer--q1",
+          "discipline": "womens-health",
+          "topic": "gynae-oncology",
+          "difficulty": "foundation",
+          "stem": "A 63-year-old woman sees her GP with 2 months of abdominal bloating, feeling full after small meals and increased urinary frequency. She has lost 3 kg. She has never had these symptoms before. Abdominal examination shows mild distension without a palpable mass.\n\nWhat is the most appropriate initial investigation?",
+          "options": [
+            "Colonoscopy",
+            "Serum CA-125 and pelvic ultrasound",
+            "Trial of a low-FODMAP diet for irritable bowel syndrome",
+            "Urine microscopy and culture only",
+            "Upper GI endoscopy"
+          ],
+          "answer": 1,
+          "explanation": "New, persistent **bloating, early satiety and urinary frequency** with weight loss in a woman over 50 are the classic vague symptoms of **ovarian cancer**. The recommended first investigations are **CA-125** and a **transvaginal (and transabdominal) pelvic ultrasound**.\n\nNew IBS-like symptoms should not be attributed to IBS in women over 50 without excluding ovarian cancer. If the ultrasound and CA-125 suggest malignancy (for example, a high RMI), refer urgently to a gynaecological oncologist.",
+          "whyWrong": [
+            "Colonoscopy may be needed later, but ovarian cancer must be assessed first given this symptom pattern.",
+            "",
+            "New IBS is unlikely at 63; this risks a delayed cancer diagnosis.",
+            "Urinary frequency is part of the pattern but does not explain bloating and early satiety.",
+            "Endoscopy does not assess the pelvis."
+          ],
+          "ausPearl": "Cancer Australia provides guidance for GPs on investigating symptoms that may indicate ovarian cancer.",
+          "tags": [
+            "ovarian-cancer",
+            "ca-125",
+            "symptoms"
+          ]
+        },
+        {
+          "id": "gynae-oncology--ovarian-masses-cancer--q2",
+          "discipline": "womens-health",
+          "topic": "gynae-oncology",
+          "difficulty": "exam",
+          "stem": "A 58-year-old postmenopausal woman has a pelvic ultrasound for pelvic discomfort. It shows a 9 cm multilocular right ovarian cyst with solid areas and a small amount of ascites. CA-125 is 250 U/mL.\n\nWhat is the Risk of Malignancy Index (RMI) and the most appropriate management?",
+          "options": [
+            "RMI 250; repeat ultrasound in 3 months",
+            "RMI 750; laparoscopic cyst aspiration",
+            "RMI 2250; start the combined oral contraceptive pill",
+            "RMI 750; refer to a general gynaecologist for cystectomy",
+            "RMI 2250; referral to a gynaecological oncologist"
+          ],
+          "answer": 4,
+          "explanation": "**RMI = U x M x CA-125**. Ultrasound features: multilocular, solid areas and ascites (3 features), so **U = 3**. Postmenopausal, so **M = 3**. RMI = 3 x 3 x 250 = **2250**, far above the threshold of about 200.\n\nShe has a high risk of ovarian malignancy and should be **referred to a gynaecological oncologist** for staging CT and surgery at a specialist centre, where optimal cytoreduction improves survival. Cyst aspiration is contraindicated because it can spread malignant cells and is non-diagnostic.",
+          "whyWrong": [
+            "The RMI is miscalculated and surveillance is inappropriate for a high-risk mass.",
+            "The RMI is miscalculated, and aspiration of a suspicious cyst risks spread.",
+            "Hormonal treatment has no role in a suspicious postmenopausal mass.",
+            "The RMI is miscalculated, and surgery should be performed by a gynae-oncologist.",
+            ""
+          ],
+          "tags": [
+            "ovarian-cancer",
+            "rmi",
+            "referral"
+          ]
+        },
+        {
+          "id": "gynae-oncology--ovarian-masses-cancer--q3",
+          "discipline": "womens-health",
+          "topic": "gynae-oncology",
+          "difficulty": "core",
+          "stem": "A 38-year-old woman has a confirmed pathogenic BRCA1 mutation, found through cascade testing after her sister's diagnosis of ovarian cancer. She has two children and does not want more. She has no history of breast cancer.\n\nWhich is the most appropriate recommendation to reduce her ovarian cancer risk?",
+          "options": [
+            "Annual CA-125 and transvaginal ultrasound",
+            "Risk-reducing bilateral salpingo-oophorectomy",
+            "Combined oral contraceptive pill alone",
+            "No action until age 50",
+            "Total hysterectomy with ovarian conservation"
+          ],
+          "answer": 1,
+          "explanation": "**BRCA1** carriers have a lifetime ovarian cancer risk of about 40%, and there is **no effective screening**: CA-125 and ultrasound do not reliably detect early disease. **Risk-reducing salpingo-oophorectomy (RRSO)** is recommended around **35-40 years** for BRCA1 carriers once childbearing is complete, substantially reducing ovarian and tubal cancer risk.\n\nCounsel about surgical menopause; MHT is generally appropriate for carriers without breast cancer until the average age of menopause. She also needs breast surveillance (MRI) and discussion of risk-reducing mastectomy through a familial cancer clinic.",
+          "whyWrong": [
+            "Screening does not reliably detect early disease or reduce mortality.",
+            "",
+            "The pill reduces risk but is far less effective than surgery for a BRCA1 carrier.",
+            "Waiting exposes her to substantial risk; RRSO is advised at 35-40 for BRCA1.",
+            "Conserving the ovaries and tubes leaves the main risk in place."
+          ],
+          "tags": [
+            "brca",
+            "rrso",
+            "hereditary-cancer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gynae-oncology--vulval-disease",
+      "title": "Vulval disease and vulval cancer",
+      "minutes": 13,
+      "objectives": [
+        "Recognise lichen sclerosus and treat it with a potent topical corticosteroid",
+        "Know which vulval symptoms and lesions need biopsy",
+        "Distinguish HPV-associated and lichen sclerosus-associated vulval precancer",
+        "Outline the presentation and management of vulval cancer"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Itch is not always thrush",
+          "body": "Vulval symptoms are often self-treated as thrush, sometimes for years. In **older women**, chronic vulval itch or soreness that **does not settle** points to a skin disease, most importantly **lichen sclerosus**, and occasionally to **vulval cancer**. Vulval cancer is rare (a few hundred cases a year in Australia) and mostly affects women over 70, but it is increasingly seen in younger women in association with HPV. The key AMC message: **persistent vulval itch or a lesion in an older woman needs examination and biopsy**, not repeated antifungals."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "The main conditions",
+          "body": "**Lichen sclerosus:** a chronic, autoimmune-associated inflammatory skin disease with a predilection for anogenital skin. It occurs in prepubertal girls and in postmenopausal women (it can occur at any age). It causes thinning, scarring and loss of normal architecture. It carries a **small lifetime risk of vulval squamous cell carcinoma** (a few percent, less with good treatment and adherence).\n\n**Vulval intraepithelial neoplasia (precancer) comes in two types:**\n| | Vulval HSIL (usual type VIN) | Differentiated VIN (dVIN) |\n|---|---|---|\n| Cause | **HPV** (especially type 16) | **Lichen sclerosus** or lichen planus; HPV-independent |\n| Age | Younger women (30s-50s), smokers, immunosuppressed | Older, postmenopausal women |\n| Look | Multifocal raised white, red or pigmented plaques | Subtle, focal thickening or ulceration on a background of lichen sclerosus |\n| Cancer risk | Lower | **High**, and faster progression |\n\n**Vulval squamous cell carcinoma** (about 90% of vulval cancers) arises through one of these two pathways. Others: melanoma (pigmented lesion), basal cell carcinoma, Bartholin gland carcinoma, **extramammary Paget disease** (red, eczema-like plaque)."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Presentation",
+          "body": "**Lichen sclerosus:**\n- Intense **itch** (often worse at night), soreness, **superficial dyspareunia**, splitting (fissures), painful defecation in girls (constipation).\n- Signs: **white, shiny, crinkly (\"cigarette paper\") atrophic skin**, often in a **figure-of-eight** around the vulva and anus; purpura, erosions, fissures; architectural change: **loss or fusion of the labia minora**, burying of the clitoris (phimosis), narrowing of the introitus. **The vagina is not involved** (unlike lichen planus).\n\n**Vulval cancer:**\n- A persistent **itch**, **lump, ulcer or wart-like lesion**, pain, bleeding or discharge; often on the labia majora.\n- Groin lymphadenopathy with advanced disease.\n- Often a long history of lichen sclerosus or prior HPV-related lesions; delayed presentation from embarrassment is common.\n\n**Other causes of vulval itch:** candidiasis (thick discharge, satellite lesions, pH normal), contact and irritant dermatitis (soaps, pads, over-washing), lichen simplex chronicus (thickened skin from scratching), psoriasis, lichen planus (erosive, involves the vagina and mouth), atrophic vaginitis, threadworms in children."
+        },
+        {
+          "kind": "investigations",
+          "heading": "When to biopsy",
+          "body": "- **Biopsy** (punch, under local anaesthetic) when the diagnosis is uncertain, and always for:\n  - Any **persistent lump, ulcer, thickened or warty area**, or **pigmented** lesion.\n  - Lichen sclerosus that **does not respond** to adequate steroid treatment, or a new area of thickening, erosion or ulceration within known lichen sclerosus.\n  - Suspected VIN or cancer.\n- Lichen sclerosus in a classic presentation can be diagnosed clinically in many cases, but biopsy is often done to confirm before committing to lifelong treatment (it is avoided in children).\n- Swab for candida and a skin check for other sites (lichen planus involves the mouth; psoriasis the scalp and elbows).\n- Suspected cancer: referral to a **gynaecological oncologist**, with imaging of the groins and pelvis."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Vulval lumps",
+          "body": "| Lump | Clue |\n|---|---|\n| **Bartholin cyst** | Painless swelling in the posterolateral introitus (4 or 8 o'clock); drain if symptomatic |\n| **Bartholin abscess** | Acutely painful, hot, fluctuant swelling; incision and drainage or Word catheter, marsupialisation for recurrence; biopsy a new Bartholin mass in women over 40 (carcinoma) |\n| Genital warts | Multiple papillomatous lesions in younger women; biopsy if atypical |\n| Sebaceous or epidermoid cyst | Small, mobile, yellowish, on the labia majora |\n| Folliculitis or boil | Tender pustule around a hair follicle |\n| Vulval cancer | Firm, persistent, ulcerated or warty lesion in an older woman |\n| Melanoma | Pigmented, irregular, changing lesion |"
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment",
+          "body": "**Lichen sclerosus:**\n- **Ultrapotent topical corticosteroid ointment**, such as **clobetasol propionate 0.05%** (or a similar potency agent), applied **daily for about 1-3 months** to induce remission, then **tapered to the lowest frequency that keeps it controlled** (often once or twice weekly) **long term**. Ointments are better tolerated on the vulva than creams. This is safe and effective when used as directed.\n- Soap substitutes, avoiding irritants, and emollients.\n- **Lifelong follow-up** (at least yearly) to check control and look for any new lesion, because good control lowers the cancer risk. Teach self-examination with a mirror.\n- Surgery only for complications (e.g. introital narrowing).\n- In girls, the same steroid treatment; lichen sclerosus may be mistaken for sexual abuse, but both can coexist, so assess carefully.\n\n**Vulval HSIL:** local excision, laser ablation, or topical imiquimod under specialist care; stop smoking; high recurrence, so long-term follow-up. **dVIN:** excision, because of the high cancer risk.\n\n**Vulval cancer (gynaecological oncology):**\n- **Wide local excision** (radical local excision) with clear margins.\n- **Groin lymph node assessment:** **sentinel lymph node biopsy** for small, unifocal tumours with clinically normal nodes, otherwise **inguinofemoral lymphadenectomy** (which carries a high risk of lymphoedema and wound breakdown).\n- **Radiotherapy or chemoradiation** for positive nodes, close margins or advanced disease.\n- Prognosis depends mainly on **groin node status**.\n\n**Prevention:** HPV vaccination prevents HPV-related vulval disease; smoking cessation; treating lichen sclerosus."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- Older woman with itchy white shiny figure-of-eight skin and loss of labia minora: **lichen sclerosus**; treat with **clobetasol ointment** and follow up for life.\n- \"Recurrent thrush\" in a postmenopausal woman not responding to antifungals: examine and consider **lichen sclerosus or cancer**; **biopsy** persistent lesions.\n- A new lump or ulcer within lichen sclerosus: **biopsy** (dVIN or SCC).\n- Vulval cancer prognosis: **groin node status**.\n- Lichen planus involves the vagina and mouth; lichen sclerosus spares the vagina."
+        }
+      ],
+      "keyPoints": [
+        "Persistent vulval itch or a lesion in an older woman needs examination and biopsy, not repeated antifungals.",
+        "Lichen sclerosus: white, shiny, atrophic figure-of-eight skin, loss of labia minora, spares the vagina.",
+        "Treat lichen sclerosus with ultrapotent topical steroid ointment (clobetasol) then long-term maintenance.",
+        "Lichen sclerosus carries a small lifetime risk of vulval SCC; follow up for life.",
+        "Vulval HSIL is HPV-related in younger women; dVIN arises in lichen sclerosus and has higher cancer risk.",
+        "Vulval cancer: wide local excision plus groin node assessment (sentinel node where suitable).",
+        "Groin node status is the main prognostic factor."
+      ],
+      "redFlags": [
+        "Persistent vulval lump, ulcer or thickened area",
+        "Pigmented vulval lesion (melanoma)",
+        "New lesion or failure to respond to steroids in known lichen sclerosus",
+        "Bleeding from a vulval lesion or palpable groin nodes"
+      ],
+      "contrast": [
+        {
+          "aspect": "Vulval itch in older women",
+          "india": "Often treated empirically as fungal infection or hygiene-related.",
+          "australia": "Examination for lichen sclerosus and a low threshold for biopsy; potent topical steroids with lifelong follow-up."
+        },
+        {
+          "aspect": "Vulval cancer surgery",
+          "india": "Radical vulvectomy with groin dissection is often still standard.",
+          "australia": "Wide local excision with sentinel lymph node biopsy where suitable, to reduce lymphoedema and morbidity."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Classic appearance of vulval lichen sclerosus?",
+          "back": "White, shiny, crinkly atrophic skin in a figure-of-eight around vulva and anus, with loss of labia minora."
+        },
+        {
+          "front": "First-line treatment of lichen sclerosus?",
+          "back": "Ultrapotent topical corticosteroid ointment (e.g. clobetasol propionate 0.05%), then long-term maintenance."
+        },
+        {
+          "front": "Does lichen sclerosus involve the vagina?",
+          "back": "No (lichen planus can)."
+        },
+        {
+          "front": "Which VIN type arises in lichen sclerosus and carries the higher cancer risk?",
+          "back": "Differentiated VIN (dVIN)."
+        },
+        {
+          "front": "Main prognostic factor in vulval cancer?",
+          "back": "Groin (inguinofemoral) lymph node status."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "gynae-oncology--vulval-disease--q1",
+          "discipline": "womens-health",
+          "topic": "gynae-oncology",
+          "difficulty": "core",
+          "stem": "A 67-year-old woman has had vulval itch for 18 months, worse at night, treated repeatedly with antifungal creams without benefit. She has pain with intercourse. Examination shows white, shiny, wrinkled skin around the vulva and anus in a figure-of-eight pattern, with fusion of the labia minora and small fissures. The vagina appears normal. There is no lump or ulcer.\n\nWhat is the most appropriate treatment?",
+          "options": [
+            "Oral fluconazole weekly for 6 months",
+            "Vaginal oestrogen cream alone",
+            "Hydrocortisone 1% cream as needed",
+            "Clobetasol propionate 0.05% ointment daily, then tapering to maintenance",
+            "Wide local excision"
+          ],
+          "answer": 3,
+          "explanation": "The white, shiny, atrophic skin in a **figure-of-eight** around the vulva and anus, with **loss of labia minora architecture**, fissures and sparing of the vagina, is classic **lichen sclerosus**. Treatment is an **ultrapotent topical corticosteroid ointment** such as **clobetasol propionate 0.05%**, applied daily for about 1-3 months, then **tapered to long-term maintenance**.\n\nBiopsy is often done to confirm the diagnosis, and is essential for any persistent thickened, ulcerated or non-responding area. She needs **lifelong follow-up** because of the small risk of vulval squamous cell carcinoma.",
+          "whyWrong": [
+            "This is not candidiasis; antifungals have already failed.",
+            "Vaginal oestrogen helps atrophy but does not treat lichen sclerosus.",
+            "Mild steroids are too weak to control lichen sclerosus.",
+            "",
+            "There is no lump or ulcer suggesting malignancy; surgery is not indicated."
+          ],
+          "tags": [
+            "lichen-sclerosus",
+            "vulval-itch",
+            "topical-steroids"
+          ]
+        },
+        {
+          "id": "gynae-oncology--vulval-disease--q2",
+          "discipline": "womens-health",
+          "topic": "gynae-oncology",
+          "difficulty": "exam",
+          "stem": "A 74-year-old woman with lichen sclerosus treated with clobetasol for 6 years presents with a 1.5 cm raised, firm, ulcerated area on her left labium majus that has been present for 2 months and bleeds occasionally. The rest of her vulval skin is well controlled. There are no palpable groin nodes.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Punch biopsy of the lesion",
+            "Swab for herpes simplex and treat with valaciclovir",
+            "Increase clobetasol to twice daily and review in 3 months",
+            "Apply topical imiquimod",
+            "Reassure her that ulceration is common in lichen sclerosus"
+          ],
+          "answer": 0,
+          "explanation": "A persistent, **raised, firm, ulcerated and bleeding lesion** arising in long-standing **lichen sclerosus** is suspicious for **vulval squamous cell carcinoma** (via differentiated VIN). It needs a **biopsy** without delay, and then referral to a gynaecological oncologist if malignant.\n\nTreatment for vulval cancer is wide local excision with groin node assessment (sentinel node biopsy for small unifocal tumours with clinically normal nodes). Escalating steroids or observing would delay the diagnosis.",
+          "whyWrong": [
+            "",
+            "A firm lesion present for 2 months in an older woman is not typical of herpes.",
+            "Increasing steroids delays diagnosis of a possible cancer.",
+            "Imiquimod is used for HPV-related vulval HSIL, not an undiagnosed ulcer.",
+            "A persistent firm ulcerated lesion is a red flag, not a normal feature."
+          ],
+          "tags": [
+            "vulval-cancer",
+            "lichen-sclerosus",
+            "biopsy"
+          ]
+        },
+        {
+          "id": "gynae-oncology--vulval-disease--q3",
+          "discipline": "womens-health",
+          "topic": "gynae-oncology",
+          "difficulty": "foundation",
+          "stem": "A 38-year-old woman who smokes 15 cigarettes a day presents with vulval itch. Examination shows several raised, white and pigmented plaques on both labia. Biopsy shows vulval high-grade squamous intraepithelial lesion (HSIL). She had CIN3 treated with LLETZ 5 years ago.\n\nWhich factor is most strongly associated with her vulval lesion?",
+          "options": [
+            "Lichen sclerosus",
+            "Contact dermatitis",
+            "Candida albicans infection",
+            "BRCA1 mutation",
+            "Human papillomavirus infection"
+          ],
+          "answer": 4,
+          "explanation": "**Vulval HSIL** (usual-type VIN) in a **younger woman** who **smokes**, with **multifocal plaques** and a history of **cervical HSIL**, is caused by **HPV** (especially type 16). HPV-related disease is often multicentric across the lower genital tract (cervix, vagina, vulva, anus), so she needs cervical, vaginal and perianal assessment.\n\nManagement is specialist: local excision, laser or topical imiquimod, plus smoking cessation, with long-term follow-up because recurrence is common. Lichen sclerosus is associated with the other pathway (differentiated VIN) in older women.",
+          "whyWrong": [
+            "Lichen sclerosus is linked to differentiated VIN in older women.",
+            "Dermatitis does not cause intraepithelial neoplasia.",
+            "Candida causes itch but not intraepithelial neoplasia.",
+            "BRCA mutations are linked to breast and ovarian cancer, not vulval HSIL.",
+            ""
+          ],
+          "tags": [
+            "vin",
+            "hpv",
+            "vulval-disease"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gynae-oncology--gestational-trophoblastic-disease",
+      "title": "Gestational trophoblastic disease",
+      "minutes": 15,
+      "objectives": [
+        "Distinguish complete from partial molar pregnancy by karyotype, pathology and clinical features",
+        "Recognise molar pregnancy from symptoms, ultrasound and hCG findings",
+        "Manage evacuation, Rh status, serial hCG follow-up and contraception",
+        "Identify persistent gestational trophoblastic neoplasia and choriocarcinoma and refer to a specialist centre"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "What it is and why it matters",
+          "body": "**Gestational trophoblastic disease (GTD)** is a spectrum of conditions arising from abnormal proliferation of placental **trophoblast**:\n- **Premalignant:** **complete** and **partial hydatidiform mole** (molar pregnancy).\n- **Malignant (gestational trophoblastic neoplasia, GTN):** **invasive mole**, **choriocarcinoma**, and the rare placental site and epithelioid trophoblastic tumours.\n\nMolar pregnancy occurs in roughly 1 in 1000 pregnancies in Australia, with higher rates at the **extremes of reproductive age** (teenagers and especially women over 40), after a **previous molar pregnancy**, and in women of some Asian backgrounds. Almost all GTD is curable, even when it has spread, because trophoblastic tumours are **exquisitely chemosensitive** and produce a near-perfect tumour marker: **hCG**. The skill the AMC tests is making the diagnosis, evacuating correctly, and following hCG until it is safely normal."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Complete versus partial mole",
+          "body": "| | Complete mole | Partial mole |\n|---|---|---|\n| Karyotype | **Diploid, usually 46,XX**, entirely **paternal** (androgenetic): an \"empty\" ovum fertilised by one sperm that duplicates (or by two sperm) | **Triploid, usually 69,XXY**: a normal ovum fertilised by **two sperm** (maternal and paternal genes) |\n| Fetal tissue | **None** | Fetal parts or red cells present; fetus abnormal and non-viable |\n| Villi | Diffuse hydropic swelling, diffuse trophoblast proliferation | Focal swelling and focal proliferation |\n| hCG | Often **very high** for gestation | Normal or modestly raised |\n| Risk of GTN afterwards | About **15-20%** | About **0.5-1%** |\n| p57 immunostain | Negative (no maternal genome) | Positive |\n\nBecause the complete mole has no maternal genome and overactive trophoblast, it produces much more hCG and carries a far higher malignant potential. **Choriocarcinoma** can follow a molar pregnancy, but also a **miscarriage, ectopic or term pregnancy**, so it must be considered with abnormal bleeding after any pregnancy."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Presentation",
+          "body": "Most moles in Australia are now picked up on an early dating ultrasound, or only on **histology** of tissue from what was thought to be a miscarriage, before the classic features develop. Classic features (more common with complete moles):\n- **Vaginal bleeding** in the first trimester (the commonest symptom), sometimes passing grape-like vesicles.\n- **Uterus large for dates**.\n- **Hyperemesis gravidarum** (very high hCG).\n- **Early-onset pre-eclampsia** (before 20 weeks: think mole).\n- **Hyperthyroidism** (hCG shares a subunit with TSH and stimulates the thyroid): tachycardia, tremor, low TSH.\n- **Theca lutein cysts** (bilateral enlarged multicystic ovaries from hCG stimulation).\n- Rarely respiratory distress from trophoblastic embolisation."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Ultrasound and hCG",
+          "body": "- **Quantitative serum hCG:** very high for gestation (often well above 100,000 IU/L) suggests a complete mole; partial moles may have levels in the normal range.\n- **Transvaginal ultrasound:** complete mole shows an enlarged uterus with a heterogeneous, **\"snowstorm\" or multicystic (\"bunch of grapes\") mass** and no fetus; **theca lutein cysts** may be seen. Partial mole shows a thickened, cystic placenta with a fetus that is growth restricted or has anomalies, or an empty sac. Ultrasound misses many early moles, so **histology is the definitive diagnosis**.\n- Baseline bloods before evacuation: FBC, **blood group and antibodies (Rh D)**, renal and liver function, **TSH/free T4** if symptomatic, and BP and urinalysis for pre-eclampsia.\n- **Chest X-ray** if GTN is suspected or hCG is very high, looking for lung metastases."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Look-alikes",
+          "body": "| Condition | How it differs |\n|---|---|\n| Miscarriage (incl. hydropic change) | hCG appropriate or falling; histology distinguishes hydropic villi from mole |\n| Multiple pregnancy | High hCG and large-for-dates uterus, but ultrasound shows two sacs or fetuses |\n| Ectopic pregnancy | Empty uterus, adnexal mass, hCG usually lower |\n| Hyperemesis in normal pregnancy | Normal intrauterine pregnancy on ultrasound |\n| Twin pregnancy with a coexisting mole | A normal fetus plus a separate molar placenta: specialist fetal medicine care |\n| Primary hyperthyroidism or pre-eclampsia | Consider mole when either appears unusually early in pregnancy |"
+        },
+        {
+          "kind": "management",
+          "heading": "Evacuation and follow-up",
+          "body": "**Evacuation:**\n- **Suction curettage (surgical evacuation)** is the treatment of choice, whatever the uterine size, performed by an experienced gynaecologist, ideally under ultrasound guidance. Medical evacuation is generally avoided for complete moles because of the theoretical risk of disseminating trophoblast and incomplete evacuation. Oxytocin is avoided before evacuation is complete where possible, and used only for significant haemorrhage.\n- **All tissue goes for histology**; in Australia, products of conception from failed pregnancies are routinely examined, which is how many moles are found.\n- **Rh D-negative** women should be given **anti-D** according to current Australian guidance.\n- Repeat evacuation is not routine; it is considered only for persistent bleeding with retained tissue, on specialist advice.\n- Hysterectomy is an option for women who have completed their family (it lowers but does not eliminate GTN risk, so hCG follow-up is still required).\n\n**hCG surveillance:**\n- **Serial serum hCG** (commonly every 1-2 weeks) until it is **normal**, then continued surveillance (commonly monthly) for a period that depends on the **type of mole** and how quickly hCG normalised. Partial moles usually need a short period after normalisation; complete moles longer. The exact schedule is set by the specialist centre or **state trophoblastic disease registry** and **varies by state**.\n- **Register** the woman with the state trophoblastic disease registry or specialist service where one exists (arrangements **vary by state**); registries track hCG results and flag abnormal patterns.\n\n**Contraception and future pregnancy:**\n- **Avoid pregnancy** until hCG follow-up is complete, because a new pregnancy raises hCG and makes persistent disease impossible to detect.\n- Use **reliable contraception**: hormonal methods (combined pill, implant, DMPA) are appropriate. An **IUD should wait until hCG is normal** because of the risk of uterine perforation and bleeding.\n- Recurrence in a later pregnancy is about 1%. Arrange an **early ultrasound** in the next pregnancy and an **hCG check about 6 weeks after any future pregnancy ends**, to exclude recurrent disease.\n- Offer psychological support: she has lost a pregnancy and faces months of testing.\n\n**Persistent GTN (invasive mole, choriocarcinoma):**\n- **Suspect** when hCG **plateaus** or **rises** on serial measurement after evacuation (FIGO criteria define the plateau and rise patterns), when it stays raised for months, or when choriocarcinoma is found on histology.\n- **Red flags:** persistent or new **vaginal bleeding** after evacuation or after any pregnancy, **haemoptysis or breathlessness**, neurological symptoms (headache, seizures), abdominal pain.\n- **Sites of spread:** **lungs** (most common: \"cannonball\" metastases), **vagina** (bluish, very vascular nodules: do **not** biopsy, they bleed torrentially), liver and brain. Choriocarcinoma spreads by the bloodstream.\n- **Staging:** pelvic ultrasound, chest X-ray (CT if abnormal), then CT or MRI of brain and liver if lung metastases are present; FIGO anatomical stage plus the **FIGO/WHO prognostic score** (low risk 6 or below, high risk 7 or above).\n- **Treatment (specialist):** **low-risk** disease with single-agent **methotrexate** (or actinomycin D); **high-risk** disease with **multi-agent chemotherapy** (e.g. EMA-CO). Cure rates approach 100% for low-risk and remain high for high-risk disease, and fertility is usually preserved. Treatment continues until hCG normalises, plus consolidation cycles."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- Bleeding, hyperemesis, large-for-dates uterus, very high hCG and a snowstorm on ultrasound: **complete mole**; next step **suction curettage**.\n- Pre-eclampsia before 20 weeks, or hyperthyroidism in early pregnancy: think **mole**.\n- Karyotype questions: complete **46,XX paternal**; partial **69,XXY** triploid with fetal parts.\n- After evacuation: **serial hCG** to normal, then surveillance; **avoid pregnancy**, hormonal contraception fine, no IUD until hCG normal.\n- hCG **plateau or rise** after evacuation: **GTN**; stage (chest X-ray) and refer for methotrexate.\n- Haemoptysis or abnormal bleeding months after any pregnancy: check **hCG** (choriocarcinoma)."
+        }
+      ],
+      "keyPoints": [
+        "Complete mole: 46,XX, entirely paternal, no fetal tissue, very high hCG, GTN risk about 15-20%.",
+        "Partial mole: triploid 69,XXY, fetal parts present, GTN risk under 1%.",
+        "Classic features: first-trimester bleeding, large-for-dates uterus, hyperemesis, early pre-eclampsia, hyperthyroidism, theca lutein cysts.",
+        "Treatment is suction curettage with histology; give anti-D to Rh D-negative women.",
+        "Follow serial hCG until normal, then surveillance per the specialist centre or state registry (varies by state).",
+        "Avoid pregnancy during follow-up; hormonal contraception is fine, but no IUD until hCG is normal.",
+        "A plateauing or rising hCG means GTN: stage and refer; it is highly chemosensitive (methotrexate for low risk, multi-agent for high risk)."
+      ],
+      "redFlags": [
+        "hCG plateau or rise after evacuation (persistent GTN)",
+        "Haemoptysis or breathlessness after a molar or any recent pregnancy (lung metastases)",
+        "Persistent vaginal bleeding after evacuation or after any pregnancy (choriocarcinoma)",
+        "Headache, seizures or focal neurology with raised hCG (brain metastases)",
+        "Pre-eclampsia before 20 weeks or thyrotoxicosis in early pregnancy"
+      ],
+      "contrast": [
+        {
+          "aspect": "Follow-up",
+          "india": "Loss to follow-up is common, and hCG monitoring may stop early.",
+          "australia": "State trophoblastic registries or specialist centres (arrangements vary by state) track serial hCG to completion."
+        },
+        {
+          "aspect": "Evacuation method",
+          "india": "Suction evacuation is standard; hysterectomy may be offered more readily to older multiparous women.",
+          "australia": "Suction curettage is standard; all products of failed pregnancies go for histology, so many moles are found this way."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Karyotype of a complete mole?",
+          "back": "Diploid, usually 46,XX, entirely paternal (androgenetic); no fetal tissue."
+        },
+        {
+          "front": "Karyotype of a partial mole?",
+          "back": "Triploid, usually 69,XXY (two sperm plus one ovum); fetal parts present."
+        },
+        {
+          "front": "Treatment of choice for molar pregnancy?",
+          "back": "Suction curettage, with histology of all tissue."
+        },
+        {
+          "front": "Which contraception should be delayed after a molar pregnancy?",
+          "back": "IUD, until hCG is normal (perforation risk); hormonal methods are fine."
+        },
+        {
+          "front": "Commonest site of metastasis in choriocarcinoma?",
+          "back": "Lungs."
+        },
+        {
+          "front": "First-line chemotherapy for low-risk GTN?",
+          "back": "Single-agent methotrexate (or actinomycin D)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "gynae-oncology--gestational-trophoblastic-disease--q1",
+          "discipline": "womens-health",
+          "topic": "gynae-oncology",
+          "difficulty": "foundation",
+          "stem": "A 42-year-old woman at 10 weeks by dates presents to a Brisbane ED with vaginal bleeding and severe vomiting. BP 148/94 mmHg, HR 108 bpm. The uterus is palpable at the umbilicus. Serum hCG is 480,000 IU/L. Transvaginal ultrasound shows an enlarged uterus filled with a heterogeneous multicystic mass and no fetal parts, with bilateral multicystic ovaries.\n\nWhat is the most appropriate definitive management?",
+          "options": [
+            "Medical evacuation with mifepristone and misoprostol",
+            "Intramuscular methotrexate",
+            "Suction curettage with histology of the tissue",
+            "Expectant management with weekly hCG",
+            "Total abdominal hysterectomy"
+          ],
+          "answer": 2,
+          "explanation": "Bleeding, hyperemesis, a **large-for-dates uterus**, a **very high hCG**, a multicystic (\"snowstorm\") intrauterine mass without a fetus, and **theca lutein cysts** indicate a **complete hydatidiform mole**. Raised BP and tachycardia may reflect early pre-eclampsia and hCG-driven hyperthyroidism.\n\nThe treatment of choice is **suction curettage** by an experienced gynaecologist, with **histology** to confirm the diagnosis. Check FBC, group and antibodies (anti-D if Rh D negative), thyroid function and pre-eclampsia bloods first. She then needs **serial hCG** follow-up and registration with the specialist service.",
+          "whyWrong": [
+            "Medical evacuation is generally avoided for complete moles because of incomplete evacuation and theoretical dissemination.",
+            "Methotrexate treats persistent GTN, not an unevacuated mole.",
+            "",
+            "A molar pregnancy must be evacuated; expectant care risks haemorrhage and complications.",
+            "Hysterectomy is only an option for women who have completed their family and choose it; it is not first line."
+          ],
+          "tags": [
+            "molar-pregnancy",
+            "suction-curettage",
+            "hcg"
+          ]
+        },
+        {
+          "id": "gynae-oncology--gestational-trophoblastic-disease--q2",
+          "discipline": "womens-health",
+          "topic": "gynae-oncology",
+          "difficulty": "core",
+          "stem": "A 27-year-old woman had suction curettage 3 weeks ago for a complete hydatidiform mole. Her hCG is falling appropriately. She and her partner want another baby as soon as possible and ask about contraception in the meantime. She would like a copper IUD inserted today.\n\nWhat is the most appropriate advice?",
+          "options": [
+            "Insert the copper IUD today",
+            "No contraception is needed while hCG is falling",
+            "Use the combined oral contraceptive pill now and avoid pregnancy until hCG follow-up is complete",
+            "Try to conceive now, as pregnancy protects against recurrence",
+            "Have a hysterectomy to prevent persistent disease"
+          ],
+          "answer": 2,
+          "explanation": "After a molar pregnancy she must **avoid pregnancy until hCG surveillance is complete**, because a new pregnancy raises hCG and hides persistent GTN. **Reliable hormonal contraception** (combined pill, implant or DMPA) is appropriate and does not increase the risk of GTN.\n\nAn **IUD should not be inserted until hCG is normal**, because of the risk of uterine perforation and bleeding if persistent disease is present. Reassure her that most women go on to have normal pregnancies. She'll need an early ultrasound next time and an hCG check about 6 weeks after that pregnancy ends.",
+          "whyWrong": [
+            "An IUD is avoided until hCG is normal because of perforation and bleeding risk.",
+            "Pregnancy during follow-up makes persistent disease impossible to detect.",
+            "",
+            "Early pregnancy confounds hCG surveillance and does not prevent recurrence.",
+            "Hysterectomy is disproportionate and ends her fertility."
+          ],
+          "tags": [
+            "molar-pregnancy",
+            "contraception",
+            "follow-up"
+          ]
+        },
+        {
+          "id": "gynae-oncology--gestational-trophoblastic-disease--q3",
+          "discipline": "womens-health",
+          "topic": "gynae-oncology",
+          "difficulty": "exam",
+          "stem": "A 31-year-old woman is on hCG surveillance after suction curettage for a complete mole 8 weeks ago. Her weekly serum hCG results over the last 3 weeks are 1450, 1480, 1460 and 1470 IU/L. She reports a mild cough. Pelvic examination shows a 1 cm bluish nodule on the anterior vaginal wall.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Stage with pelvic ultrasound and chest imaging, and refer to the specialist trophoblastic centre for chemotherapy",
+            "Repeat hCG in 4 weeks",
+            "Repeat suction curettage",
+            "Biopsy the vaginal nodule",
+            "Start the combined pill and continue monthly hCG"
+          ],
+          "answer": 0,
+          "explanation": "An hCG that **plateaus** over four measurements across 3 weeks after evacuation meets criteria for **gestational trophoblastic neoplasia**. The **bluish vaginal nodule** is typical of a vaginal metastasis, and the cough raises concern for **lung metastases**, the commonest site.\n\nNext: **staging** (pelvic Doppler ultrasound, chest X-ray, with CT and brain imaging if lung disease is present), calculation of the FIGO prognostic score, and referral to the **specialist trophoblastic centre**. Low-risk disease responds to single-agent methotrexate; high-risk disease is treated with multi-agent chemotherapy. Cure rates are very high. Vaginal metastases are very vascular and **must not be biopsied** because they can bleed torrentially.",
+          "whyWrong": [
+            "",
+            "A plateau already meets criteria for GTN; further delay is inappropriate.",
+            "Repeat evacuation does not treat metastatic disease.",
+            "Vaginal metastases are highly vascular; biopsy risks torrential haemorrhage and is unnecessary.",
+            "Continuing surveillance ignores the plateau and signs of metastases."
+          ],
+          "tags": [
+            "gtn",
+            "choriocarcinoma",
+            "staging"
+          ]
+        }
+      ]
+    }
+  ]
+}

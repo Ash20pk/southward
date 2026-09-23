@@ -1,0 +1,972 @@
+{
+  "topic": "nephrology",
+  "intro": "Nephrology for the AMC is about keeping kidneys and patients safe: recognising and reversing acute kidney injury, finding and slowing chronic kidney disease, correcting potassium and sodium without causing harm, and spotting glomerular disease. Questions reward knowing the right order of treatment, the drugs to stop, and the Australian context, including the heavy burden of kidney disease in Aboriginal and Torres Strait Islander communities.",
+  "lessons": [
+    {
+      "id": "nephrology--acute-kidney-injury",
+      "title": "Acute kidney injury",
+      "minutes": 18,
+      "objectives": [
+        "Diagnose and stage AKI using the KDIGO creatinine and urine output criteria",
+        "Sort a cause into pre-renal, intrinsic renal or post-renal using history, urine and ultrasound",
+        "List the drugs to stop in AKI and explain the 'triple whammy'",
+        "Recognise the indications for urgent dialysis"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "What AKI is and why the AMC loves it",
+          "body": "Acute kidney injury (AKI) is an abrupt fall in kidney function over hours to days, detected by a rising serum creatinine or falling urine output. It is common: roughly one in five hospital inpatients develops some degree of AKI, and it independently raises mortality, length of stay and the later risk of chronic kidney disease (CKD).\n\nThe AMC tests AKI because it is **frequent, often iatrogenic and usually preventable**. The classic stem is an older person on an ACE inhibitor and a diuretic who picks up gastroenteritis or starts an NSAID, and whose creatinine has doubled.\n\n**KDIGO definition** (any one of):\n\n- Creatinine rise of **26.5 µmol/L or more within 48 hours**, or\n- Creatinine **1.5 times baseline or more** within the previous 7 days, or\n- Urine output **below 0.5 mL/kg/h for 6 hours**.\n\n**KDIGO staging**\n\n| Stage | Creatinine | Urine output |\n|---|---|---|\n| 1 | 1.5-1.9x baseline, or rise of 26.5 µmol/L or more | below 0.5 mL/kg/h for 6-12 h |\n| 2 | 2.0-2.9x baseline | below 0.5 mL/kg/h for 12 h or more |\n| 3 | 3x baseline, or creatinine 354 µmol/L or more, or dialysis started | below 0.3 mL/kg/h for 24 h, or anuria for 12 h |\n\nAustralian labs report creatinine in µmol/L (not mg/dL) and give an automatic eGFR. Remember that **eGFR is not valid in AKI**: the formula assumes a steady state, so a \"normal\" eGFR on day one of an AKI can badly overestimate function."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Pre-renal, renal, post-renal",
+          "body": "Thinking in three compartments keeps you systematic.\n\n**Pre-renal (most common, about 60%)**: the kidney is fine but under-perfused. Causes: hypovolaemia (vomiting, diarrhoea, bleeding, burns, over-diuresis), low cardiac output, sepsis-related vasodilation, and drugs that disable the kidney's autoregulation. Glomerular filtration depends on afferent dilation (prostaglandins) and efferent constriction (angiotensin II). **NSAIDs** constrict the afferent arteriole; **ACE inhibitors and ARBs** dilate the efferent arteriole; **diuretics** reduce volume. Combine all three and GFR collapses. Australia calls this the **\"triple whammy\"** and it is a named medication-safety alert here. Pre-renal AKI is reversible if perfusion is restored quickly; left too long it becomes acute tubular necrosis.\n\n**Intrinsic renal**:\n\n- *Acute tubular necrosis (ATN)*: prolonged ischaemia, sepsis, nephrotoxins (aminoglycosides, IV contrast, vancomycin at high levels), rhabdomyolysis (myoglobin), haemolysis.\n- *Acute interstitial nephritis (AIN)*: drug hypersensitivity, classically beta-lactams, PPIs and NSAIDs; sometimes fever, rash and eosinophilia.\n- *Glomerulonephritis*: rapidly progressive GN, see the glomerular lesson.\n- *Vascular*: renal artery occlusion, cholesterol emboli after angiography, thrombotic microangiopathy (HUS/TTP), malignant hypertension.\n\n**Post-renal (obstruction)**: prostatic enlargement is the classic cause in older men; also bilateral ureteric stones, pelvic malignancy, blocked catheter, retroperitoneal fibrosis. Obstruction must affect both kidneys (or a single functioning kidney) to cause AKI. It is the most reversible cause, so it is always worth excluding."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "History and examination",
+          "body": "AKI is often silent until labs flag it, so the history is a search for cause.\n\n- **Volume losses and intake**: vomiting, diarrhoea, poor oral intake, recent surgery or bleeding.\n- **Medication list**: new NSAID, ACE inhibitor/ARB, diuretic, SGLT2 inhibitor, metformin (not a cause, but dangerous in AKI because of lactic acidosis), aminoglycoside, recent contrast.\n- **Urinary symptoms**: poor stream, frequency, nocturia or retention (obstruction); haematuria or frothy urine (glomerular); flank pain (stones).\n- **Systemic clues**: rash, arthralgia, haemoptysis, sinus disease (vasculitis); a long lie on the floor (rhabdomyolysis); recent sore throat or skin sores (post-streptococcal GN).\n\n**Examination**: volume status first. Look at pulse, BP (including postural), JVP, capillary refill, mucous membranes, and oedema or crackles. Palpate for a **distended bladder** and do a bladder scan. Check for rash, livedo reticularis (cholesterol emboli) and signs of uraemia (confusion, asterixis, pericardial rub).\n\n**Complications to look for straight away**: hyperkalaemia, pulmonary oedema, metabolic acidosis (Kussmaul breathing), and uraemic encephalopathy or pericarditis."
+        },
+        {
+          "kind": "investigations",
+          "heading": "What to order and how to read it",
+          "body": "**First line in everyone**\n\n- **UEC** (urea, electrolytes, creatinine): potassium is the number that can kill; compare creatinine with any baseline you can find (old results, GP letter).\n- **Venous blood gas**: metabolic acidosis, potassium, lactate.\n- **Urinalysis (dipstick) and urine microscopy**, before a catheter if possible.\n- **FBC**: anaemia, low platelets (think HUS/TTP), eosinophilia (AIN).\n- **Renal tract ultrasound**, ideally within 24 hours: hydronephrosis means obstruction; small kidneys suggest underlying CKD.\n- **ECG** if potassium is raised.\n\n**Reading the urine**\n\n| Finding | Points to |\n|---|---|\n| Bland urine, concentrated | Pre-renal |\n| Muddy brown granular casts | ATN |\n| White cells, white cell casts, sterile pyuria | AIN (or pyelonephritis) |\n| Blood and protein, dysmorphic red cells, **red cell casts** | Glomerulonephritis |\n| Dipstick strongly positive for blood but no red cells on microscopy | Myoglobin (rhabdomyolysis) or haemoglobin |\n\nIn pre-renal AKI the tubules hold onto sodium, so the **fractional excretion of sodium (FeNa) is below 1%**; in ATN it is usually above 2%. Diuretics make FeNa unreliable.\n\n**Targeted tests** when the picture suggests them: CK (rhabdomyolysis); blood film, LDH and haptoglobin (HUS/TTP); complement C3/C4, ANA, ANCA, anti-GBM, ASOT/anti-DNase B (glomerulonephritis); serum protein electrophoresis and free light chains in an older patient with unexplained AKI (myeloma cast nephropathy)."
+        },
+        {
+          "kind": "management",
+          "heading": "Managing AKI",
+          "body": "Most AKI management is **simple and done well**: fix perfusion, remove the insult, relieve obstruction, and prevent complications.\n\n1. **Assess and restore volume.** If hypovolaemic, give IV crystalloid in boluses and reassess. Once euvolaemic, stop pushing fluid; overload causes pulmonary oedema and worsens outcomes.\n2. **Stop or withhold nephrotoxic and risky drugs.** A useful memory aid used in Australian sick-day guidance is **SADMANS**: Sulfonylureas, ACE inhibitors, Diuretics, Metformin, ARBs, NSAIDs, SGLT2 inhibitors. Adjust doses of renally cleared drugs (antibiotics, enoxaparin, opioids like morphine whose metabolites accumulate). Avoid IV contrast unless it will change management.\n3. **Relieve obstruction**: urinary catheter for bladder outlet obstruction; nephrostomy or ureteric stent for upper-tract obstruction, urgently if infected (an obstructed infected kidney is a urological emergency). Watch for post-obstructive diuresis and replace losses.\n4. **Monitor**: fluid balance chart, daily weight, daily UEC, hourly urine output in the unwell.\n5. **Treat the cause**: antibiotics for sepsis, stop the offending drug in AIN (steroids sometimes, specialist decision), aggressive IV fluids for rhabdomyolysis, urgent nephrology for suspected GN.\n\n**Indications for urgent dialysis** (AEIOU):\n\n- **A**cidosis that is severe and refractory\n- **E**lectrolytes: refractory hyperkalaemia\n- **I**ntoxication with a dialysable toxin (lithium, methanol, ethylene glycol, salicylates)\n- **O**verload: pulmonary oedema not responding to diuretics\n- **U**raemia: encephalopathy, pericarditis, bleeding\n\n**When to call nephrology**: stage 3 AKI, suspected GN or vasculitis, AKI with no clear cause, or any dialysis indication.\n\n**Follow-up**: AKI is a risk factor for CKD. Recheck kidney function after discharge, restart ACE inhibitors and other withheld drugs deliberately once creatinine has settled, and document the episode in the discharge summary for the GP."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- **\"Elderly patient on perindopril and frusemide, started ibuprofen for knee pain, now creatinine doubled\"**: the answer is to stop the NSAID and withhold the ACE inhibitor and diuretic, not to start dialysis.\n- **Older man with AKI and a vague lower abdomen**: bladder scan or catheter first. The cheapest test finds the most reversible cause.\n- **Dipstick blood positive with no red cells after a long lie or a crush injury**: rhabdomyolysis; check CK, give generous IV fluids, watch potassium.\n- **Rash, fever and AKI after a new antibiotic or PPI**: interstitial nephritis.\n- **AKI plus haemoptysis**: pulmonary-renal syndrome (anti-GBM or ANCA vasculitis), an emergency.\n- **Trap**: using eGFR to judge function mid-AKI, or giving more fluid to an oliguric patient who is already overloaded.\n- **Trap**: forgetting metformin. It does not cause AKI but should be withheld because it accumulates and causes lactic acidosis."
+        }
+      ],
+      "keyPoints": [
+        "KDIGO AKI: creatinine up 26.5 µmol/L in 48 h, or 1.5x baseline in 7 days, or urine output below 0.5 mL/kg/h for 6 h.",
+        "Pre-renal is commonest; post-renal is the most reversible, so always exclude obstruction with a bladder scan and ultrasound.",
+        "The triple whammy is an NSAID plus an ACE inhibitor/ARB plus a diuretic.",
+        "Withhold SADMANS drugs in AKI: sulfonylureas, ACE inhibitors, diuretics, metformin, ARBs, NSAIDs, SGLT2 inhibitors.",
+        "Red cell casts mean glomerulonephritis; muddy brown casts mean ATN; blood on dipstick without red cells suggests myoglobin.",
+        "eGFR is invalid when creatinine is changing.",
+        "Urgent dialysis for refractory acidosis, hyperkalaemia, dialysable toxins, fluid overload or uraemic complications."
+      ],
+      "redFlags": [
+        "Potassium 6.5 mmol/L or more, or ECG changes of hyperkalaemia",
+        "Pulmonary oedema with oliguria",
+        "AKI with haemoptysis (pulmonary-renal syndrome)",
+        "Obstructed and infected kidney (fever, flank pain, hydronephrosis)",
+        "Uraemic encephalopathy or pericardial rub"
+      ],
+      "contrast": [
+        {
+          "aspect": "Creatinine units and AKI definition",
+          "india": "Creatinine in mg/dL; AKI often judged by absolute values or RIFLE/AKIN.",
+          "australia": "Creatinine in µmol/L with KDIGO criteria (rise of 26.5 µmol/L in 48 h). Convert: 1 mg/dL is about 88 µmol/L."
+        },
+        {
+          "aspect": "Drug-related AKI",
+          "india": "NSAIDs are widely available over the counter and nephrotoxicity is often under-recognised.",
+          "australia": "'Triple whammy' is a formal safety alert; pharmacists and GPs are expected to flag NSAIDs in patients on ACE inhibitors and diuretics."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "KDIGO creatinine criterion for AKI within 48 hours?",
+          "back": "Rise of **26.5 µmol/L or more** within 48 hours."
+        },
+        {
+          "front": "What is the 'triple whammy'?",
+          "back": "NSAID + ACE inhibitor/ARB + diuretic, a common cause of pre-renal AKI."
+        },
+        {
+          "front": "FeNa in pre-renal AKI?",
+          "back": "Below 1% (tubules avidly reabsorb sodium). Unreliable if on diuretics."
+        },
+        {
+          "front": "Urine sediment finding specific for glomerulonephritis?",
+          "back": "Red cell casts (with dysmorphic red cells)."
+        },
+        {
+          "front": "Indications for urgent dialysis in AKI (mnemonic)?",
+          "back": "AEIOU: refractory Acidosis, Electrolytes (K+), Intoxication, Overload, Uraemic complications."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "nephrology--acute-kidney-injury--q1",
+          "discipline": "adult-medicine",
+          "topic": "nephrology",
+          "difficulty": "core",
+          "stem": "A 78-year-old man in a Brisbane nursing home is reviewed by his GP. Three days ago he started ibuprofen 400 mg three times daily for knee osteoarthritis. He also takes perindopril 5 mg daily and frusemide 40 mg daily for heart failure. He has had two days of diarrhoea. BP 102/60 mmHg lying and 88/54 mmHg standing, HR 98 bpm. Creatinine 212 µmol/L (baseline 98 µmol/L three months ago), potassium 5.6 mmol/L. A bladder scan shows 60 mL residual.\n\nWhich is the most appropriate initial management?",
+          "options": [
+            "Arrange urgent haemodialysis",
+            "Increase frusemide to treat fluid retention",
+            "Start oral prednisolone for interstitial nephritis",
+            "Stop ibuprofen, withhold perindopril and frusemide, and give IV fluids",
+            "Organise a CT abdomen with contrast to look for obstruction"
+          ],
+          "answer": 3,
+          "explanation": "This is **pre-renal AKI** (KDIGO stage 2: creatinine more than double baseline) from the **triple whammy** of an NSAID, an ACE inhibitor and a loop diuretic, tipped over by diarrhoea. He is postural and tachycardic, so he is volume depleted. A low bladder residual makes outlet obstruction unlikely.\n\nManagement is to remove the insults and restore perfusion: stop the NSAID, withhold the ACE inhibitor and diuretic (sick-day rules), give IV crystalloid and monitor UEC, urine output and potassium. Potassium of 5.6 mmol/L without ECG changes does not need dialysis and usually settles once perfusion improves and the ACE inhibitor is held.\n\n**Discriminating clue:** new NSAID plus ACE inhibitor plus diuretic plus volume loss.",
+          "whyWrong": [
+            "No dialysis indication: potassium is only mildly raised and there is no refractory acidosis, overload or uraemic complication.",
+            "He is hypovolaemic; more diuretic will worsen the AKI.",
+            "Nothing suggests AIN (no rash, fever or eosinophilia), and the pre-renal cause is obvious.",
+            "",
+            "Contrast is a further nephrotoxic insult, and a bladder scan has already made obstruction unlikely; ultrasound, not contrast CT, is the imaging for obstruction."
+          ],
+          "ausPearl": "The 'triple whammy' is a recognised Australian medication safety alert (NPS MedicineWise and TGA). Residential aged care pharmacist medication reviews are designed to catch it.",
+          "tags": [
+            "aki",
+            "triple whammy",
+            "nsaid"
+          ]
+        },
+        {
+          "id": "nephrology--acute-kidney-injury--q2",
+          "discipline": "adult-medicine",
+          "topic": "nephrology",
+          "difficulty": "foundation",
+          "stem": "A 71-year-old man presents to a regional ED with lower abdominal discomfort and reduced urine output for two days. He has had a poor urinary stream and nocturia for a year. Creatinine is 380 µmol/L (baseline 90 µmol/L). His lower abdomen is dull to percussion and tender.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Insert a urethral catheter",
+            "Start IV normal saline at 250 mL/h",
+            "Request a renal biopsy",
+            "Start tamsulosin and review in a week",
+            "Refer for urgent haemodialysis"
+          ],
+          "answer": 0,
+          "explanation": "An older man with prostatic symptoms, a palpable, dull, tender bladder and severe AKI has **bladder outlet obstruction** until proven otherwise. This is **post-renal AKI**, the most reversible category, and the treatment is immediate decompression with a urethral catheter (suprapubic if urethral fails).\n\nAfter catheterisation, measure the residual volume, monitor for **post-obstructive diuresis** (which can cause dehydration and electrolyte loss), check a renal ultrasound for hydronephrosis, and recheck creatinine. Tamsulosin has a role later, for a trial without catheter, but not as initial treatment of AKI.\n\n**Discriminating clue:** obstructive symptoms plus a palpable bladder.",
+          "whyWrong": [
+            "",
+            "Fluids will not fix an obstructed bladder and may worsen discomfort; decompression comes first.",
+            "Biopsy is for unexplained intrinsic renal disease, not an obvious obstruction.",
+            "Alpha-blockers are too slow for obstructed AKI; they are used later for a trial without catheter.",
+            "Relieving obstruction often restores function; dialysis is only for complications that persist."
+          ],
+          "tags": [
+            "aki",
+            "obstruction",
+            "urinary retention"
+          ]
+        },
+        {
+          "id": "nephrology--acute-kidney-injury--q3",
+          "discipline": "adult-medicine",
+          "topic": "nephrology",
+          "difficulty": "exam",
+          "stem": "A 34-year-old man is found on the floor of his Adelaide home after an estimated 18 hours, having taken heroin and alcohol. He is drowsy but rousable. His right thigh is swollen and tender. Urine is dark brown; dipstick shows blood 3+ but microscopy shows no red cells. Creatinine 245 µmol/L, potassium 6.1 mmol/L. ECG shows sinus rhythm with normal T waves.\n\nWhich investigation is most likely to confirm the cause of his kidney injury?",
+          "options": [
+            "Renal tract ultrasound",
+            "Serum complement C3 and C4",
+            "Serum creatine kinase",
+            "Anti-glomerular basement membrane antibodies",
+            "Urine eosinophils"
+          ],
+          "answer": 2,
+          "explanation": "A long lie after intoxication, a swollen tender limb and **dark urine positive for blood on dipstick without red cells on microscopy** are classic for **rhabdomyolysis**. The dipstick reacts to the haem in myoglobin. A markedly raised **creatine kinase** confirms it.\n\nMyoglobin damages the tubules (ATN) by direct toxicity, cast formation and vasoconstriction. Management is **generous IV crystalloid** to maintain a high urine output, close monitoring of potassium (released from damaged muscle), calcium and phosphate, and assessment for **compartment syndrome** in the swollen thigh.\n\n**Discriminating clue:** haem-positive dipstick with no red cells.",
+          "whyWrong": [
+            "Ultrasound excludes obstruction but will not identify rhabdomyolysis.",
+            "Complement is useful in glomerulonephritis, which would show red cells and casts.",
+            "",
+            "Anti-GBM disease causes haematuria with red cells and often haemoptysis, not a haem-positive dipstick without red cells.",
+            "Urine eosinophils are a weak test for interstitial nephritis, which does not fit this history."
+          ],
+          "tags": [
+            "rhabdomyolysis",
+            "aki",
+            "ck"
+          ]
+        },
+        {
+          "id": "nephrology--acute-kidney-injury--q4",
+          "discipline": "adult-medicine",
+          "topic": "nephrology",
+          "difficulty": "core",
+          "stem": "A 68-year-old woman with type 2 diabetes is admitted to a Melbourne hospital with pneumonia. Her medications are metformin, empagliflozin, ramipril and gliclazide. On day 2, creatinine has risen from 80 to 150 µmol/L and urine output is 20 mL/h for 8 hours (weight 70 kg). She is being treated with IV fluids and antibiotics.\n\nWhich statement about her medications is most appropriate?",
+          "options": [
+            "Continue all medications, as stopping them will worsen glycaemic control",
+            "Withhold only ramipril, as it is the only drug affecting renal perfusion",
+            "Withhold only metformin, as it is directly nephrotoxic",
+            "Double the ramipril dose to protect the kidneys",
+            "Withhold metformin, empagliflozin, ramipril and gliclazide and manage glucose with insulin if needed"
+          ],
+          "answer": 4,
+          "explanation": "She meets KDIGO AKI criteria (creatinine almost doubled; urine output below 0.5 mL/kg/h, which for 70 kg is 35 mL/h, for more than 6 hours). All four of her regular drugs are on the **SADMANS** sick-day list:\n\n- **Metformin** accumulates and risks lactic acidosis.\n- **SGLT2 inhibitors** cause volume loss and euglycaemic ketoacidosis when acutely unwell.\n- **ACE inhibitors** remove efferent arteriolar tone and reduce GFR.\n- **Sulfonylureas** accumulate in renal impairment and cause prolonged hypoglycaemia.\n\nWithhold them and use insulin to manage hyperglycaemia in hospital. Restart each deliberately once she is eating and creatinine has recovered.",
+          "whyWrong": [
+            "Continuing risky drugs in AKI causes harm; glucose can be managed safely with insulin.",
+            "Metformin, the SGLT2 inhibitor and gliclazide are all risky in AKI too.",
+            "Metformin is not nephrotoxic; it is withheld because it accumulates and causes lactic acidosis. Other drugs also need withholding.",
+            "ACE inhibitors are nephroprotective long term in CKD but worsen GFR acutely in AKI.",
+            ""
+          ],
+          "tags": [
+            "aki",
+            "sick day rules",
+            "diabetes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nephrology--chronic-kidney-disease",
+      "title": "Chronic kidney disease and nephroprotection",
+      "minutes": 20,
+      "objectives": [
+        "Define and stage CKD using both eGFR and urine albumin-creatinine ratio",
+        "Identify who needs a Kidney Health Check in Australian general practice",
+        "Apply nephroprotection: BP control, ACE inhibitor or ARB, SGLT2 inhibitor and smoking cessation",
+        "Manage CKD complications and know when to refer to a nephrologist"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "What CKD is and who gets it in Australia",
+          "body": "**CKD** is kidney damage or reduced function present for **more than 3 months**: an eGFR below 60 mL/min/1.73 m², or evidence of damage (albuminuria, haematuria of renal origin, structural abnormality on imaging, or biopsy changes) regardless of eGFR.\n\nAbout one in ten Australian adults has signs of CKD, and most do not know it because early CKD causes no symptoms. The leading causes of kidney failure are **diabetic kidney disease** and **hypertension**, followed by glomerulonephritis and polycystic kidney disease.\n\n**Aboriginal and Torres Strait Islander people** have rates of kidney failure several times higher than other Australians, and much higher still in remote communities. Drivers include diabetes, low birth weight, childhood post-streptococcal glomerulonephritis and social determinants. Dialysis units are concentrated in towns, so many remote patients must **relocate away from Country and family** for treatment, a serious cultural and social burden the AMC expects you to recognise.\n\n**Staging uses two axes**, and you need both:\n\n| eGFR stage | eGFR (mL/min/1.73 m²) |\n|---|---|\n| G1 | 90 or more (with damage markers) |\n| G2 | 60-89 (with damage markers) |\n| G3a | 45-59 |\n| G3b | 30-44 |\n| G4 | 15-29 |\n| G5 | below 15 (kidney failure) |\n\nAlbuminuria is graded by **urine albumin-creatinine ratio (uACR)** on a spot urine as normal, **microalbuminuria** or **macroalbuminuria**. Australian (Kidney Health Australia) cut-offs are sex-specific: microalbuminuria roughly 2.5-25 mg/mmol in men and 3.5-35 mg/mmol in women, with macroalbuminuria above that. A patient is described as, for example, \"CKD stage 3a with microalbuminuria\". Albuminuria independently predicts progression and cardiovascular death, which is why a normal eGFR alone does not exclude important CKD."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why damaged kidneys keep getting worse",
+          "body": "Whatever the initial injury, CKD tends to progress through a shared pathway. As nephrons are lost, the remaining ones **hyperfilter**: glomerular pressure rises, partly driven by angiotensin II constricting the efferent arteriole. High intraglomerular pressure damages the filtration barrier, protein leaks into the tubules, and that protein triggers inflammation and fibrosis. More nephrons die and the cycle continues.\n\nThis explains the treatments:\n\n- **ACE inhibitors and ARBs** dilate the efferent arteriole, lowering glomerular pressure and albuminuria. An initial creatinine rise of up to about 25-30% after starting is expected and reflects this haemodynamic effect; a larger rise suggests renal artery stenosis or volume depletion.\n- **SGLT2 inhibitors** (dapagliflozin, empagliflozin) increase sodium delivery to the macula densa, restoring tubuloglomerular feedback and constricting the afferent arteriole. They also cause a small early eGFR dip followed by slower long-term decline, and they reduce kidney failure, heart failure and death, including in people without diabetes.\n- **BP control** reduces the pressure transmitted to glomeruli.\n- **Smoking cessation** reduces vascular injury and progression.\n\n**Complications arise from lost kidney functions**:\n\n- **Anaemia**: reduced erythropoietin, plus iron deficiency.\n- **CKD-mineral and bone disorder**: phosphate retention and reduced activation of vitamin D (1-alpha hydroxylation) cause low calcium and **secondary hyperparathyroidism**, leading to bone disease and vascular calcification.\n- **Metabolic acidosis** and **hyperkalaemia** from reduced acid and potassium excretion.\n- **Fluid overload and hypertension** from sodium retention.\n- **Cardiovascular disease**: people with CKD are far more likely to die of CVD than to reach dialysis."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Finding CKD before it finds the patient",
+          "body": "Early CKD is found by testing, not by symptoms. Kidney Health Australia recommends a **Kidney Health Check** (BP, eGFR and uACR) **every 1-2 years** for people at increased risk:\n\n- diabetes\n- hypertension\n- established cardiovascular disease\n- family history of kidney failure\n- smoking\n- obesity\n- Aboriginal and Torres Strait Islander people (adults)\n- history of AKI\n\nAdvanced CKD (stage 4-5) causes symptoms that the AMC may describe: fatigue, anorexia, nausea, pruritus, restless legs, cramps, nocturia, oedema and breathlessness. Late uraemic signs are confusion, asterixis, a pericardial rub and bleeding from platelet dysfunction.\n\nOn examination look for BP, fluid status, pallor, and evidence of the cause: diabetic retinopathy, ballotable polycystic kidneys, a renal bruit, or vasculitic rash. In a dialysis patient note a **fistula** (thrill and bruit, usually in the forearm) or a peritoneal dialysis catheter.\n\n**Is it acute or chronic?** Old results are the best answer. Otherwise, small kidneys on ultrasound (under about 9 cm), anaemia, and high phosphate with high PTH favour chronicity. Diabetic and amyloid kidneys may stay normal sized."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Working up newly found CKD",
+          "body": "Confirm chronicity by **repeating eGFR and uACR within 3 months**; uACR is best done on a first-morning sample and needs two of three samples abnormal, because exercise, fever, UTI and menstruation can raise it transiently.\n\nBaseline work-up:\n\n- UEC, eGFR, calcium, phosphate, PTH (stage 3b onwards), HbA1c, lipids, FBC, iron studies.\n- **Urine microscopy** for haematuria and casts.\n- **Renal ultrasound**: size, symmetry, cysts, obstruction.\n- Where glomerular disease is possible: complement, ANA, ANCA, serum protein electrophoresis and free light chains, and hepatitis B, C and HIV serology.\n\n**Referral to a nephrologist** is recommended (Kidney Health Australia handbook) for, broadly:\n\n- eGFR below 30\n- persistent macroalbuminuria\n- a sustained, rapid decline in eGFR (for example a fall of 25% or more, or 15 mL/min/1.73 m² within 12 months)\n- CKD with hypertension that is hard to control\n- glomerular haematuria with albuminuria, or suspected glomerulonephritis\n\nCheck the current KHA \"Chronic Kidney Disease Management in Primary Care\" handbook for exact thresholds; the AMC tests the principle rather than the decimal places."
+        },
+        {
+          "kind": "management",
+          "heading": "Nephroprotection and managing complications",
+          "body": "Most CKD is managed in general practice. Think in layers.\n\n**1. Slow progression (nephroprotection)**\n\n- **BP control**: target set by the KHA handbook, generally 130/80 mmHg or lower for people with CKD, with lower systolic targets reasonable if tolerated.\n- **ACE inhibitor or ARB** (not both together) for anyone with albuminuria or diabetes with CKD, titrated to the maximum tolerated dose. Check UEC 1-2 weeks after starting or increasing: accept a creatinine rise up to about 25-30%; stop if potassium climbs dangerously.\n- **SGLT2 inhibitor** for CKD with albuminuria and/or diabetes, subject to eGFR and PBS criteria. These are now a core pillar alongside ACE inhibitors.\n- **Stop smoking**, weight loss, exercise, limit salt.\n- **Glycaemic control** in diabetes; metformin dose is reduced as eGFR falls and it is stopped at low eGFR (check eTG or AMH for thresholds).\n- **Avoid nephrotoxins**: NSAIDs, unnecessary contrast. Give sick-day advice.\n\n**2. Reduce cardiovascular risk**: statin (with or without ezetimibe), BP control. Moderate to severe CKD places a person at high cardiovascular risk under the Australian CVD risk guideline.\n\n**3. Treat complications**\n\n- Anaemia: replace iron first (often IV), then erythropoiesis-stimulating agents under specialist care.\n- Mineral bone disease: dietary phosphate restriction, phosphate binders, activated vitamin D (calcitriol), with specialist input.\n- Acidosis: sodium bicarbonate.\n- Hyperkalaemia: low-potassium diet, review drugs, potassium binders.\n\n**4. Drug dosing**: adjust renally cleared drugs by eGFR.\n\n**5. Plan for kidney failure** (eGFR under about 15-20 or rapidly falling): discuss options early, with family and, for Aboriginal patients, Aboriginal health workers and liaison officers.\n\n- **Haemodialysis** (in-centre or home), needing an arteriovenous fistula created months in advance, so **protect the non-dominant arm veins** (avoid cannulas and blood draws there).\n- **Peritoneal dialysis**, done at home.\n- **Kidney transplant**, the best outcome for suitable patients.\n- **Conservative kidney management**, a legitimate choice, especially for frail older people, with palliative care support."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam angles",
+          "body": "- \"Which test should be added to eGFR to screen this person with diabetes?\" **uACR**. Dipstick protein is not sensitive enough for early albuminuria.\n- \"Creatinine rose 15% after starting an ACE inhibitor.\" **Continue it**; this is expected. A rise over about 30% or hyperkalaemia prompts review, and consider renal artery stenosis.\n- \"Best drug to add to maximal ACE inhibitor in a person with diabetic kidney disease and albuminuria?\" **SGLT2 inhibitor**.\n- \"Why not combine an ACE inhibitor with an ARB?\" More hyperkalaemia and AKI without added benefit.\n- **Remote Aboriginal patient approaching dialysis**: the right answer usually involves early planning, culturally safe care, Aboriginal health workers and discussing home or community-based options, not just \"refer\".\n- **Trap**: calling one abnormal eGFR \"CKD\". It needs 3 months."
+        }
+      ],
+      "keyPoints": [
+        "CKD is abnormal eGFR (below 60) or kidney damage markers for more than 3 months.",
+        "Stage with both eGFR (G1-G5) and uACR; check both in at-risk people every 1-2 years.",
+        "Nephroprotection: BP control, ACE inhibitor or ARB for albuminuria, SGLT2 inhibitor, stop smoking.",
+        "Accept a creatinine rise up to about 25-30% after starting an ACE inhibitor or ARB.",
+        "CKD patients are more likely to die of CVD than to need dialysis: treat lipids and BP.",
+        "Complications: anaemia, mineral bone disease with secondary hyperparathyroidism, acidosis, hyperkalaemia, fluid overload.",
+        "Protect forearm veins in the non-dominant arm of anyone who may need a fistula."
+      ],
+      "redFlags": [
+        "Rapid eGFR decline over months",
+        "Potassium 6.5 mmol/L or above",
+        "Uraemic symptoms: pericardial rub, confusion, asterixis",
+        "Heavy proteinuria or active urinary sediment (possible glomerulonephritis)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Albuminuria testing",
+          "india": "Often 24-hour urine protein or dipstick; spot ratios less routine in primary care.",
+          "australia": "Spot uACR in general practice, with sex-specific thresholds; repeated to confirm."
+        },
+        {
+          "aspect": "Kidney failure pathway",
+          "india": "Haemodialysis dominates; cost shapes access and many cannot sustain it.",
+          "australia": "Publicly funded dialysis and transplant; home dialysis and conservative care are offered choices, but remote patients may need to relocate."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Duration needed to diagnose CKD?",
+          "back": "More than 3 months of reduced eGFR or kidney damage markers."
+        },
+        {
+          "front": "Two tests in a Kidney Health Check besides BP?",
+          "back": "eGFR and urine albumin-creatinine ratio (uACR)."
+        },
+        {
+          "front": "Acceptable creatinine rise after starting an ACE inhibitor?",
+          "back": "Up to about 25-30%; bigger rises need review (volume depletion, renal artery stenosis)."
+        },
+        {
+          "front": "Drug class added to ACE inhibitor/ARB for nephroprotection in albuminuric CKD?",
+          "back": "SGLT2 inhibitor (dapagliflozin or empagliflozin)."
+        },
+        {
+          "front": "Mechanism of secondary hyperparathyroidism in CKD?",
+          "back": "Phosphate retention and reduced 1-alpha hydroxylation of vitamin D cause low calcium, driving PTH up."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "nephrology--chronic-kidney-disease--q1",
+          "discipline": "adult-medicine",
+          "topic": "nephrology",
+          "difficulty": "foundation",
+          "stem": "A 52-year-old woman with type 2 diabetes for 8 years attends her GP in Parramatta for an annual review. BP 138/84 mmHg. Her eGFR is 72 mL/min/1.73 m². A urine dipstick is negative for protein.\n\nWhich is the most appropriate additional test to assess her for chronic kidney disease?",
+          "options": [
+            "24-hour urine creatinine clearance",
+            "Renal ultrasound",
+            "Serum cystatin C",
+            "Urine microscopy for casts",
+            "Spot urine albumin-creatinine ratio"
+          ],
+          "answer": 4,
+          "explanation": "A **Kidney Health Check** is BP, eGFR **and uACR**. In diabetes, **albuminuria is often the earliest sign** of kidney disease and it appears while eGFR is still normal. A standard dipstick only turns positive at much higher protein levels, so a negative dipstick does not exclude microalbuminuria.\n\nIf the uACR is raised it should be repeated (ideally first-morning samples); two of three abnormal over 3 months confirms albuminuria. That would mean CKD (G2 with microalbuminuria) and an indication for an ACE inhibitor or ARB and an SGLT2 inhibitor.",
+          "whyWrong": [
+            "Timed collections are cumbersome and inaccurate; eGFR already estimates filtration.",
+            "Ultrasound assesses structure but will not detect early diabetic kidney disease.",
+            "Cystatin C refines eGFR in special cases but does not assess albuminuria.",
+            "Microscopy looks for haematuria and casts, not the albuminuria of early diabetic kidney disease.",
+            ""
+          ],
+          "tags": [
+            "ckd",
+            "uacr",
+            "screening"
+          ]
+        },
+        {
+          "id": "nephrology--chronic-kidney-disease--q2",
+          "discipline": "adult-medicine",
+          "topic": "nephrology",
+          "difficulty": "core",
+          "stem": "A 60-year-old man with type 2 diabetes and CKD (eGFR 48 mL/min/1.73 m², uACR 40 mg/mmol) sees his GP in Hobart. He takes metformin and irbesartan at the maximum dose. BP 128/78 mmHg. Potassium 4.8 mmol/L. HbA1c 7.4%.\n\nWhich additional medication would most reduce his risk of progression to kidney failure?",
+          "options": [
+            "Add perindopril",
+            "Add dapagliflozin",
+            "Add a sulfonylurea",
+            "Add spironolactone",
+            "Add amlodipine"
+          ],
+          "answer": 1,
+          "explanation": "He has diabetic kidney disease (stage G3a with macroalbuminuria) on a maximal ARB with BP already at target. An **SGLT2 inhibitor** such as dapagliflozin or empagliflozin is the next nephroprotective step: large trials showed reduced kidney failure, cardiovascular events and death, on top of ACE inhibitor/ARB therapy, largely independent of glucose lowering.\n\nThe mechanism is restoration of tubuloglomerular feedback, which constricts the afferent arteriole and lowers glomerular pressure. Expect a small initial eGFR dip. Give sick-day advice (withhold when unwell, because of volume depletion and euglycaemic ketoacidosis).",
+          "whyWrong": [
+            "Dual ACE inhibitor plus ARB increases hyperkalaemia and AKI without benefit.",
+            "",
+            "Sulfonylureas lower glucose but have no nephroprotective effect and risk hypoglycaemia in CKD.",
+            "A steroidal MRA can reduce albuminuria but significantly raises potassium, and it is not the next standard step here.",
+            "BP is already at target; amlodipine would not add nephroprotection."
+          ],
+          "ausPearl": "SGLT2 inhibitors are PBS-listed for CKD with specific eGFR and albuminuria criteria; check the current PBS listing.",
+          "tags": [
+            "ckd",
+            "sglt2",
+            "nephroprotection"
+          ]
+        },
+        {
+          "id": "nephrology--chronic-kidney-disease--q3",
+          "discipline": "adult-medicine",
+          "topic": "nephrology",
+          "difficulty": "exam",
+          "stem": "A 64-year-old man with hypertension and CKD stage 3a with microalbuminuria is started on ramipril by his GP in Newcastle. Two weeks later his creatinine has risen from 120 to 138 µmol/L and potassium from 4.6 to 5.0 mmol/L. He feels well. BP is 130/80 mmHg.\n\nWhat is the most appropriate action?",
+          "options": [
+            "Continue ramipril and recheck UEC in a few weeks",
+            "Stop ramipril and switch to an ARB",
+            "Stop ramipril and refer urgently for a renal artery Doppler",
+            "Reduce the ramipril dose by half",
+            "Stop ramipril and start frusemide"
+          ],
+          "answer": 0,
+          "explanation": "The creatinine has risen by 15% and potassium remains below 5.5 mmol/L. This is the **expected haemodynamic effect** of an ACE inhibitor: dilating the efferent arteriole lowers intraglomerular pressure, which reduces filtration a little but protects the kidney long term. A rise up to about 25-30% is acceptable.\n\nThe right move is to **continue** and recheck. Stop or review if creatinine rises by more than about 30%, potassium becomes significantly high, or the patient becomes volume depleted. A large rise should raise suspicion of bilateral renal artery stenosis.",
+          "whyWrong": [
+            "",
+            "An ARB has the same haemodynamic effect; switching gains nothing.",
+            "A 15% rise does not suggest renal artery stenosis.",
+            "Reducing the dose sacrifices nephroprotection for an expected, acceptable change.",
+            "Stopping the ACE inhibitor removes nephroprotection, and diuretics are not indicated."
+          ],
+          "tags": [
+            "ckd",
+            "ace inhibitor",
+            "creatinine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nephrology--potassium-disorders",
+      "title": "Hyperkalaemia and hypokalaemia",
+      "minutes": 15,
+      "objectives": [
+        "Recognise the ECG changes of hyperkalaemia and hypokalaemia",
+        "Treat hyperkalaemia in the correct order: stabilise, shift, remove",
+        "Identify common drug and clinical causes of potassium disturbance",
+        "Replace potassium safely and know why magnesium matters"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why potassium kills",
+          "body": "Normal serum potassium is about **3.5-5.2 mmol/L** (check the local reference range). About 98% of body potassium is inside cells, so the serum level is a small, tightly controlled fraction. That gradient sets the **resting membrane potential** of heart and muscle cells, which is why both high and low potassium cause arrhythmias.\n\n- **Hyperkalaemia**: mild 5.5-5.9, moderate 6.0-6.4, severe **6.5 mmol/L or more** (common Australian ED grading; cut-offs vary slightly). **Any level with ECG changes is an emergency.**\n- **Hypokalaemia**: below 3.5 mmol/L; severe below 2.5 or with symptoms or ECG changes.\n\nHyperkalaemia is a favourite AMC stem because the management order is fixed and the wrong order kills: **stabilise the heart, shift potassium into cells, then remove it from the body**."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Causes",
+          "body": "**Hyperkalaemia** comes from three mechanisms.\n\n1. **Reduced excretion** (most common): AKI or CKD, and drugs that block the renin-angiotensin-aldosterone system: ACE inhibitors, ARBs, spironolactone and eplerenone, potassium-sparing diuretics (amiloride), **trimethoprim** (blocks the collecting duct sodium channel, like amiloride), NSAIDs, calcineurin inhibitors, and heparin (reduces aldosterone). **Addison's disease** (primary adrenal insufficiency) causes hyperkalaemia with hyponatraemia.\n2. **Shift out of cells**: acidosis, insulin deficiency (DKA), beta-blockers, digoxin toxicity, and cell breakdown (rhabdomyolysis, tumour lysis syndrome, haemolysis, burns).\n3. **Increased intake**: potassium supplements or salt substitutes, usually only a problem with impaired excretion.\n\n**Pseudohyperkalaemia** is a lab artefact: potassium leaks from cells after the blood is taken, from a **haemolysed sample**, a tight tourniquet with fist clenching, delayed processing (common with rural samples sent a long way), or very high platelet or white cell counts. If a surprising result comes back in a well patient with a normal ECG, **repeat it** (and ask the lab whether it was haemolysed).\n\n**Hypokalaemia** causes:\n\n- **GI loss**: vomiting (mainly through the kidney: metabolic alkalosis and secondary hyperaldosteronism waste potassium in urine), diarrhoea, laxative misuse.\n- **Renal loss**: **loop and thiazide diuretics**, primary hyperaldosteronism (hypertension plus low potassium), Cushing's, magnesium deficiency.\n- **Shift into cells**: insulin (treating DKA), salbutamol, refeeding syndrome, thyrotoxicosis.\n\n**Low magnesium** makes hypokalaemia refractory, because magnesium is needed to stop the kidney wasting potassium. Always check and replace it."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Symptoms and the ECG",
+          "body": "Both disorders are often asymptomatic until severe. Hyperkalaemia may cause weakness, paraesthesia and palpitations, then cardiac arrest. Hypokalaemia causes muscle weakness, cramps, constipation or ileus, and arrhythmias, and it potentiates **digoxin toxicity**.\n\n**ECG changes of hyperkalaemia**, roughly in order of rising potassium:\n\n1. Tall, narrow, **peaked T waves**\n2. Prolonged PR interval, then flattened or absent P waves\n3. **Widening QRS**\n4. Sine-wave pattern\n5. Ventricular fibrillation or asystole\n\nBradycardia and heart block also occur. The ECG does not correlate tightly with the level, so a normal ECG does not make a high potassium safe.\n\n**ECG changes of hypokalaemia**: flattened T waves, **ST depression**, prominent **U waves** (a hump after the T wave), apparent long QT (really QU), and a risk of ventricular arrhythmias including torsades de pointes.\n\nIn the exam an ECG description of \"peaked T waves and a broad QRS\" in a dialysis patient who missed a session or a patient on spironolactone and an ACE inhibitor should make you reach for calcium immediately."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Tests",
+          "body": "- **Repeat UEC** if the result is unexpected and the ECG is normal, with a non-haemolysed sample. Do not delay treatment if the ECG is abnormal.\n- **12-lead ECG** and cardiac monitoring for potassium 6.0 mmol/L or more, or any ECG change.\n- **Venous blood gas**: gives a fast potassium, plus pH and bicarbonate (acidosis shifts potassium out of cells).\n- **Glucose**: DKA, and to monitor during insulin-dextrose treatment.\n- **CK, urate, phosphate, LDH** if cell breakdown is suspected.\n- **Magnesium** always, especially in hypokalaemia.\n- **Cortisol** if Addison's is suspected (hyperkalaemia with hyponatraemia, hypotension, pigmentation).\n- In unexplained hypokalaemia with hypertension: **aldosterone-renin ratio** for primary hyperaldosteronism. Urine potassium helps separate renal from GI losses."
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment",
+          "body": "**Hyperkalaemia with ECG changes, or potassium 6.5 mmol/L or more**\n\nPut the patient on a monitor, get IV access, and follow three steps.\n\n1. **Stabilise the myocardium: IV calcium.** 10% calcium gluconate, given slowly IV (commonly 10 mL, repeated if ECG changes persist; some Australian protocols give up to 30 mL); 10% calcium chloride is an alternative, preferably via a central line. Calcium does **not lower potassium**. It raises the threshold potential and acts within minutes, lasting 30-60 minutes. Take care in patients on digoxin (seek senior advice).\n2. **Shift potassium into cells.**\n   - **Insulin and dextrose**: the standard Australian regimen is 10 units of short-acting insulin with 50 mL of 50% glucose IV. Onset about 15-30 minutes, lowers potassium by roughly 0.6-1 mmol/L. Monitor glucose hourly for several hours, since hypoglycaemia is common, especially in CKD.\n   - **Nebulised salbutamol** (high dose, for example 10-20 mg) adds to insulin's effect. It can cause tachycardia.\n   - **Sodium bicarbonate** only if there is significant metabolic acidosis.\n3. **Remove potassium from the body.**\n   - Treat the cause and stop contributing drugs (ACE inhibitor, ARB, spironolactone, trimethoprim, NSAIDs, potassium supplements).\n   - Potassium binders: sodium polystyrene sulfonate (Resonium A) or sodium zirconium cyclosilicate, which act over hours.\n   - Loop diuretic if the patient is volume replete and passing urine.\n   - **Dialysis** for refractory hyperkalaemia, especially in kidney failure.\n\nRecheck potassium within 1-2 hours of shifting treatment: the shift is temporary, and the potassium will rebound if nothing removes it.\n\n**Mild hyperkalaemia without ECG changes**: repeat to exclude artefact, review drugs and diet, treat the cause.\n\n**Hypokalaemia**\n\n- **Oral potassium chloride** is preferred if the patient can swallow and the deficit is mild to moderate.\n- **IV potassium** for severe hypokalaemia, arrhythmia or inability to take oral. Potassium must be **diluted and given by infusion pump**, never as a bolus. Typical maximum rates via a peripheral line are about 10 mmol/h, with faster rates only via a central line with cardiac monitoring; follow your hospital policy.\n- **Replace magnesium** at the same time.\n- Treat the cause: review diuretics, add a potassium-sparing agent if persistent, investigate hypertension with low potassium for hyperaldosteronism."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam traps",
+          "body": "- The **first** drug in hyperkalaemia with ECG changes is **calcium**, not insulin, bicarbonate or a binder.\n- \"Potassium 7.1 in a well patient, sample reported as haemolysed, ECG normal\": **repeat the sample**.\n- \"Which drug caused this?\" Trimethoprim, spironolactone and ACE inhibitors are the usual answers. In a patient newly on trimethoprim-sulfamethoxazole plus an ACE inhibitor, the combination is the problem.\n- Hypokalaemia that will not correct: check **magnesium**.\n- Hypertension with spontaneous hypokalaemia: primary hyperaldosteronism; screen with the aldosterone-renin ratio.\n- Refeeding syndrome (in an eating disorder or alcohol-dependent patient): low phosphate, potassium and magnesium after feeding starts; give thiamine and feed slowly."
+        }
+      ],
+      "keyPoints": [
+        "Hyperkalaemia with ECG changes: calcium first to stabilise, then insulin-dextrose and salbutamol to shift, then remove.",
+        "Calcium does not lower potassium; it protects the heart for 30-60 minutes.",
+        "Insulin 10 units with 50 mL of 50% glucose; monitor for hypoglycaemia for several hours.",
+        "ECG progression: peaked T waves, PR prolongation and flat P waves, wide QRS, sine wave, VF.",
+        "Repeat an unexpected high potassium when the sample was haemolysed and the ECG is normal.",
+        "Hypokalaemia shows U waves and ST depression; check and replace magnesium.",
+        "IV potassium is always diluted and given by pump, never as a bolus."
+      ],
+      "redFlags": [
+        "Any ECG change with hyperkalaemia",
+        "Potassium 6.5 mmol/L or more",
+        "Bradycardia or broad QRS in a dialysis patient",
+        "Hypokalaemia with arrhythmia or on digoxin",
+        "Muscle weakness progressing to respiratory compromise"
+      ],
+      "contrast": [
+        {
+          "aspect": "Shifting agent regimen",
+          "india": "Insulin-dextrose often given as 10 units insulin in 25% dextrose, with protocols varying by hospital.",
+          "australia": "10 units short-acting insulin with 50 mL of 50% glucose is the standard ED regimen, with hourly glucose checks."
+        },
+        {
+          "aspect": "Potassium binder",
+          "india": "Calcium polystyrene sulfonate is widely used.",
+          "australia": "Sodium polystyrene sulfonate (Resonium A) or sodium zirconium cyclosilicate; binders act slowly and are not the emergency step."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "First drug for hyperkalaemia with ECG changes?",
+          "back": "IV 10% calcium gluconate to stabilise the myocardium."
+        },
+        {
+          "front": "Earliest ECG sign of hyperkalaemia?",
+          "back": "Tall, narrow, peaked T waves."
+        },
+        {
+          "front": "Standard insulin-dextrose regimen for hyperkalaemia in Australia?",
+          "back": "10 units short-acting insulin + 50 mL of 50% glucose IV; monitor glucose hourly."
+        },
+        {
+          "front": "ECG sign most characteristic of hypokalaemia?",
+          "back": "U waves (with flattened T waves and ST depression)."
+        },
+        {
+          "front": "Electrolyte to correct when hypokalaemia is refractory?",
+          "back": "Magnesium."
+        },
+        {
+          "front": "Antibiotic that raises potassium via an amiloride-like effect?",
+          "back": "Trimethoprim."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "nephrology--potassium-disorders--q1",
+          "discipline": "adult-medicine",
+          "topic": "nephrology",
+          "difficulty": "core",
+          "stem": "A 66-year-old man on haemodialysis for diabetic kidney disease presents to a Darwin ED after missing two dialysis sessions. He feels weak. HR 48 bpm, BP 150/90 mmHg. Potassium on the venous gas is 7.4 mmol/L. ECG shows peaked T waves, absent P waves and a QRS duration of 150 ms.\n\nWhat is the most appropriate immediate treatment?",
+          "options": [
+            "Oral sodium polystyrene sulfonate",
+            "IV frusemide 80 mg",
+            "IV 10% calcium gluconate",
+            "IV sodium bicarbonate",
+            "Urgent transfer to the dialysis unit without other treatment"
+          ],
+          "answer": 2,
+          "explanation": "Severe hyperkalaemia with **ECG changes** (absent P waves, broad QRS, bradycardia) is peri-arrest. The first step is **IV calcium** to stabilise the cardiac membrane; it works within minutes but does not lower potassium.\n\nThen shift potassium into cells with **insulin and dextrose** plus nebulised salbutamol, and arrange **urgent dialysis**, which is the definitive removal route in a patient who has no kidney function. Repeat calcium if the ECG changes persist.\n\n**Rule:** stabilise, shift, remove, in that order.",
+          "whyWrong": [
+            "Binders act over hours and do nothing to prevent an imminent arrest.",
+            "A dialysis patient is likely anuric; loop diuretics will not remove potassium.",
+            "",
+            "Bicarbonate is only useful with significant acidosis and is not the first step.",
+            "Dialysis is needed, but the heart must be protected first; he could arrest in transit."
+          ],
+          "tags": [
+            "hyperkalaemia",
+            "ecg",
+            "dialysis"
+          ]
+        },
+        {
+          "id": "nephrology--potassium-disorders--q2",
+          "discipline": "adult-medicine",
+          "topic": "nephrology",
+          "difficulty": "foundation",
+          "stem": "A 45-year-old woman has routine blood tests at a Perth GP clinic before a knee operation. She is well and takes no medications. Potassium is reported as 6.8 mmol/L with a laboratory comment that the sample was haemolysed. Creatinine and all other results are normal. An ECG in the clinic is normal.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Send her to ED for IV calcium",
+            "Start a low-potassium diet",
+            "Prescribe sodium polystyrene sulfonate",
+            "Repeat the potassium on a fresh, non-haemolysed sample",
+            "Request a morning cortisol level"
+          ],
+          "answer": 3,
+          "explanation": "A high potassium in a well person with normal kidney function, no culprit drugs, a normal ECG and a **haemolysed sample** is almost certainly **pseudohyperkalaemia**: potassium released from red cells after the sample was taken. Other causes of artefact are a tight tourniquet with fist clenching, delayed processing, and very high platelet or white cell counts.\n\nThe correct step is to **repeat the test** promptly with good technique. Treating a spurious result exposes the patient to risk and cost for no benefit.",
+          "whyWrong": [
+            "IV calcium is for true hyperkalaemia with ECG changes; this is likely artefact.",
+            "Dietary change is not justified by a probably spurious result.",
+            "Binders are not indicated before true hyperkalaemia is confirmed.",
+            "",
+            "Addison's is worth considering in true unexplained hyperkalaemia with hyponatraemia, but first confirm the result is real."
+          ],
+          "tags": [
+            "hyperkalaemia",
+            "pseudohyperkalaemia"
+          ]
+        },
+        {
+          "id": "nephrology--potassium-disorders--q3",
+          "discipline": "adult-medicine",
+          "topic": "nephrology",
+          "difficulty": "exam",
+          "stem": "A 72-year-old woman with heart failure takes ramipril, spironolactone and bisoprolol. Her GP in Wollongong prescribed trimethoprim-sulfamethoxazole five days ago for a UTI. She presents with weakness. Potassium is 6.6 mmol/L, creatinine 140 µmol/L (baseline 110). ECG shows peaked T waves. She has received IV calcium gluconate and insulin-dextrose.\n\nWhich is the most important additional step in her management?",
+          "options": [
+            "Add a thiazide diuretic",
+            "Stop trimethoprim-sulfamethoxazole, ramipril and spironolactone",
+            "Stop bisoprolol only",
+            "Give a second dose of insulin-dextrose every hour until potassium is normal",
+            "Start oral potassium-free salt substitute"
+          ],
+          "answer": 1,
+          "explanation": "Calcium and insulin-dextrose buy time; they do not remove potassium, and it will rebound. The cause must be removed. Here three drugs converge: **ramipril** (reduces aldosterone), **spironolactone** (blocks aldosterone) and **trimethoprim** (blocks the collecting duct epithelial sodium channel, like amiloride, reducing potassium secretion). This combination is a well-known cause of dangerous hyperkalaemia in older people.\n\nStop all three, choose another antibiotic for her UTI (guided by culture), use a potassium binder if needed, and recheck potassium in 1-2 hours. Restart the heart failure drugs cautiously once potassium settles, with close monitoring.",
+          "whyWrong": [
+            "Thiazides do increase potassium loss, but adding a drug while the culprits continue misses the point.",
+            "",
+            "Beta-blockers shift potassium slightly but are not the main culprit here.",
+            "Repeated insulin without removing the cause risks hypoglycaemia and only delays the problem.",
+            "Many salt substitutes contain potassium chloride and would make things worse; the option is a distractor."
+          ],
+          "ausPearl": "eTG lists trimethoprim as a cause of hyperkalaemia; nitrofurantoin or cefalexin may be safer for UTI in older people on RAAS blockers, depending on culture and renal function.",
+          "tags": [
+            "hyperkalaemia",
+            "trimethoprim",
+            "drug interaction"
+          ]
+        },
+        {
+          "id": "nephrology--potassium-disorders--q4",
+          "discipline": "adult-medicine",
+          "topic": "nephrology",
+          "difficulty": "core",
+          "stem": "A 58-year-old man on hydrochlorothiazide for hypertension presents to a Canberra ED with muscle cramps and palpitations after a week of diarrhoea. Potassium is 2.6 mmol/L. ECG shows ST depression, flattened T waves and prominent U waves. Despite IV potassium replacement over 12 hours, his potassium only rises to 2.9 mmol/L.\n\nWhich is the most likely reason for the poor response?",
+          "options": [
+            "Hypocalcaemia",
+            "Hyperphosphataemia",
+            "Hypernatraemia",
+            "Hyperglycaemia",
+            "Hypomagnesaemia"
+          ],
+          "answer": 4,
+          "explanation": "Hypokalaemia that is **refractory to replacement** is classically due to **low magnesium**. Magnesium normally inhibits potassium secretion through renal outer medullary potassium (ROMK) channels; when magnesium is low, the kidney keeps wasting potassium however much is given.\n\nBoth diarrhoea and thiazide diuretics cause magnesium loss, so this man is at high risk. Check magnesium and replace it (IV if symptomatic) alongside potassium. The ECG changes described (U waves, ST depression, flat T waves) are typical of hypokalaemia.",
+          "whyWrong": [
+            "Hypocalcaemia often coexists with low magnesium but does not itself cause renal potassium wasting.",
+            "High phosphate is not a cause of refractory hypokalaemia.",
+            "Sodium level does not block potassium repletion.",
+            "Hyperglycaemia with insulin treatment shifts potassium into cells, but nothing suggests it here.",
+            ""
+          ],
+          "tags": [
+            "hypokalaemia",
+            "magnesium",
+            "thiazide"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nephrology--sodium-and-water",
+      "title": "Hyponatraemia and hypernatraemia",
+      "minutes": 18,
+      "objectives": [
+        "Assess hyponatraemia using serum osmolality, volume status and urine studies",
+        "Recognise the common causes of SIADH, including drugs",
+        "Treat severe symptomatic hyponatraemia with hypertonic saline",
+        "Correct chronic hyponatraemia safely to avoid osmotic demyelination"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Sodium is about water",
+          "body": "**Hyponatraemia** (serum sodium below 135 mmol/L) is the most common electrolyte disorder in hospital. It is usually a problem of **too much water relative to sodium**, not a lack of sodium, so the key hormone is **antidiuretic hormone (ADH)**.\n\n- Mild: 130-134 mmol/L. Moderate: 125-129. Severe: below 125 mmol/L.\n- **Acute** means developed within 48 hours; **chronic** means more than 48 hours or unknown duration. Most outpatient hyponatraemia is chronic.\n\nSymptoms depend on **speed** as much as on level. When sodium falls quickly the brain swells before it can adapt, causing headache, vomiting, confusion, seizures and coma (cerebral oedema, which can be fatal). When it falls slowly, brain cells export solutes over 24-48 hours to shrink back to normal size, so a person may have a sodium of 118 mmol/L with only unsteadiness, falls or mild confusion.\n\nThat adaptation is also the danger in treatment: once brain cells have lost solutes, **raising sodium too fast** shrinks them and strips myelin, especially in the pons. This is **osmotic demyelination syndrome (ODS)**, and it is why the AMC tests correction limits."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Causes, sorted by volume status",
+          "body": "**Step 1: is it true hypotonic hyponatraemia?** Check serum osmolality (normal about 275-295 mOsm/kg).\n\n- **High osmolality**: severe hyperglycaemia draws water out of cells and dilutes sodium. Treat the glucose.\n- **Normal osmolality (pseudohyponatraemia)**: very high lipids or paraprotein (myeloma) interfere with some lab methods.\n- **Low osmolality**: true hyponatraemia; go to step 2.\n\n**Step 2: assess volume status.**\n\n| Volume status | Mechanism | Causes | Urine sodium |\n|---|---|---|---|\n| **Hypovolaemic** | Volume loss triggers ADH | Vomiting, diarrhoea, burns, pancreatitis | Low (below 30 mmol/L) |\n| | Renal sodium loss | Thiazide diuretics, adrenal insufficiency | High |\n| **Euvolaemic** | Inappropriate ADH or excess water | SIADH, hypothyroidism, glucocorticoid deficiency, primary polydipsia, low solute intake (\"tea and toast\", beer potomania) | Usually high in SIADH |\n| **Hypervolaemic** | Low effective circulating volume triggers ADH despite total body excess | Heart failure, cirrhosis, nephrotic syndrome, advanced kidney failure | Low (unless on diuretics) |\n\n**Thiazides** are a very common cause in older women, because they impair urinary dilution in the distal tubule.\n\n**SIADH causes**, worth memorising in groups:\n\n- **Drugs**: SSRIs, carbamazepine and oxcarbazepine, antipsychotics, cyclophosphamide, opioids, **MDMA (ecstasy)**, which also drives heavy water drinking at festivals and can cause fatal acute hyponatraemia.\n- **Lung**: pneumonia, TB, small cell lung cancer.\n- **CNS**: meningitis, head injury, subarachnoid haemorrhage, stroke.\n- **Other**: postoperative state, pain and nausea, which are potent ADH stimuli.\n\nSIADH is a **diagnosis of exclusion**: the patient must be euvolaemic, with normal thyroid and adrenal function and no recent diuretic."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "History and examination",
+          "body": "**Ask about**: fluid losses and intake, new drugs (thiazides, SSRIs, antiepileptics), alcohol and diet, recreational drug use, headache or vomiting, weight loss and smoking (lung cancer), and symptoms of hypothyroidism or adrenal insufficiency (fatigue, weight loss, pigmentation, postural dizziness).\n\n**Severe symptoms** needing urgent treatment: vomiting, seizures, reduced GCS, cardiorespiratory distress. Moderate symptoms: nausea, confusion, headache. Chronic hyponatraemia often shows up as falls, gait disturbance and attention problems in older people.\n\n**Examine volume status carefully**, because it decides treatment: postural BP and pulse, JVP, mucous membranes, skin turgor, peripheral oedema, ascites and signs of heart failure or liver disease. Clinical assessment of volume is imperfect; urine sodium helps."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations and interpretation",
+          "body": "Order together, ideally before treatment changes the picture:\n\n- **Serum osmolality**, glucose, UEC, lipids (and protein if myeloma suspected).\n- **Urine osmolality**: below 100 mOsm/kg means ADH is appropriately switched off (primary polydipsia, low solute intake). Above 100 means ADH is active.\n- **Urine sodium**: below 30 mmol/L suggests low effective circulating volume (hypovolaemia, or heart failure/cirrhosis); above 30 in a euvolaemic patient suggests SIADH, or a diuretic or adrenal cause.\n- **TSH** and **morning cortisol** (or short Synacthen test) to exclude hypothyroidism and adrenal insufficiency before labelling SIADH.\n- **Chest X-ray** and, where appropriate, CT brain or chest to find a cause of SIADH.\n\n**SIADH criteria in practice**: low serum osmolality, urine osmolality above 100 mOsm/kg (usually higher than serum), urine sodium above 30 mmol/L, clinical euvolaemia, normal thyroid and adrenal function, no recent diuretics."
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment: fast when severe, slow when chronic",
+          "body": "**Severe symptoms (seizures, reduced GCS, vomiting) at any sodium: hypertonic saline.** Give **3% sodium chloride as a bolus**, for example 100-150 mL IV over 10-20 minutes, repeated (usually up to two to three times) until symptoms improve, aiming for a rise of **about 4-6 mmol/L** in the first hours. That small rise is enough to reduce brain swelling. Check sodium after each bolus, manage in a monitored setting and involve senior staff. Follow local protocols for exact volumes.\n\n**Correction limit for chronic hyponatraemia**: raise sodium by **no more than 8-10 mmol/L in 24 hours**. Aim lower (around 8 or less) in people at high risk of ODS: **alcohol use disorder, malnutrition, hypokalaemia, liver disease**, and very low starting sodium (below about 120). Check sodium every 2-4 hours during active correction.\n\n**If overcorrecting** (a sudden water diuresis, common when the cause is removed, such as stopping a thiazide or giving saline to a hypovolaemic patient): give 5% dextrose and/or desmopressin under specialist guidance to bring sodium back down.\n\n**Treat the cause by volume status**\n\n- **Hypovolaemic**: 0.9% sodium chloride; stop the diuretic. Correction can be rapid once volume is restored and ADH switches off, so monitor closely.\n- **Euvolaemic (SIADH)**: **fluid restriction** (commonly 800-1000 mL/day) and treat or remove the cause (stop the SSRI, treat the pneumonia). Second-line options include oral salt tablets with a loop diuretic, or oral urea; vaptans are specialist-only. **Do not give 0.9% saline** alone in SIADH: the kidney excretes the salt in concentrated urine and keeps the water, which can drop the sodium further.\n- **Hypervolaemic**: fluid and salt restriction, treat the heart failure or cirrhosis, loop diuretics.\n- **Hypothyroidism or adrenal insufficiency**: replace the hormone; glucocorticoid replacement in adrenal insufficiency can produce a rapid rise.\n\n**Osmotic demyelination syndrome** appears **2-6 days** after overly rapid correction: dysarthria, dysphagia, paraparesis or quadriparesis, behavioural change, and \"locked-in\" syndrome. MRI shows pontine or extrapontine demyelination. It is largely irreversible, so prevention is everything.\n\n**Hypernatraemia** (sodium above 145 mmol/L) is nearly always **water deficit** in someone who cannot drink freely: frail older people, infants, and the unconscious; less often diabetes insipidus (large volumes of dilute urine). Replace water (oral, or IV 5% dextrose or hypotonic fluid) and correct chronic hypernatraemia gradually (commonly no faster than about 10 mmol/L per day) to avoid cerebral oedema. In a residential aged care patient it also raises questions about care and access to fluids."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "What the AMC asks",
+          "body": "- **Seizing with sodium 116** after MDMA at a music festival: **3% hypertonic saline bolus**. Fluid restriction is too slow.\n- **Older woman, falls, sodium 121, recently started a thiazide or an SSRI**: stop the drug, fluid restrict if euvolaemic, correct slowly.\n- **\"Maximum safe rise in 24 hours?\"** 8-10 mmol/L (lower in high-risk).\n- **Lung mass plus hyponatraemia**: SIADH from small cell lung cancer.\n- **Hyponatraemia with hyperkalaemia, hypotension and pigmentation**: Addison's disease. Give hydrocortisone.\n- **Trap**: giving normal saline to a patient with SIADH, or fluid restricting a hypovolaemic patient.\n- **Trap**: forgetting to check glucose. A high glucose explains low sodium without any ADH problem."
+        }
+      ],
+      "keyPoints": [
+        "Hyponatraemia is usually excess water relative to sodium; ADH is the key hormone.",
+        "Work up with serum osmolality, then volume status, then urine osmolality and urine sodium.",
+        "Severe symptoms: 3% saline bolus aiming for a rise of about 4-6 mmol/L.",
+        "Chronic hyponatraemia: raise by no more than 8-10 mmol/L in 24 hours (lower if high risk) to avoid osmotic demyelination.",
+        "SIADH is euvolaemic with concentrated urine and urine sodium above 30; exclude hypothyroidism and adrenal insufficiency.",
+        "SIADH causes: SSRIs, carbamazepine, MDMA, pneumonia, small cell lung cancer, CNS disease, postoperative pain and nausea.",
+        "Hypernatraemia means water deficit in someone who cannot drink; correct gradually."
+      ],
+      "redFlags": [
+        "Seizures, reduced GCS or persistent vomiting with hyponatraemia",
+        "Sodium below 125 mmol/L",
+        "Rapid rise in sodium during treatment (overcorrection)",
+        "New dysarthria, dysphagia or quadriparesis days after correction (osmotic demyelination)",
+        "Hyponatraemia with hypotension and hyperkalaemia (adrenal crisis)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Severe symptomatic hyponatraemia",
+          "india": "Hypertonic saline sometimes given as a calculated slow infusion using sodium deficit formulas.",
+          "australia": "Bolus 3% saline (European-style guidance) to raise sodium 4-6 mmol/L quickly, then slow, capped correction."
+        },
+        {
+          "aspect": "Common cause in young adults",
+          "india": "Hyponatraemia in young adults is usually from GI losses or infection.",
+          "australia": "MDMA-associated hyponatraemia at music festivals is a recognised, sometimes fatal presentation."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Maximum rise in sodium over 24 hours in chronic hyponatraemia?",
+          "back": "8-10 mmol/L (aim lower, around 8 or less, if high risk of ODS)."
+        },
+        {
+          "front": "Treatment of hyponatraemia with seizures?",
+          "back": "3% hypertonic saline bolus (e.g. 100-150 mL over 10-20 min, repeat), aiming for a 4-6 mmol/L rise."
+        },
+        {
+          "front": "Urine findings in SIADH?",
+          "back": "Urine osmolality above 100 mOsm/kg and urine sodium above 30 mmol/L in a euvolaemic patient."
+        },
+        {
+          "front": "Two hormone deficiencies to exclude before diagnosing SIADH?",
+          "back": "Hypothyroidism and adrenal (glucocorticoid) insufficiency."
+        },
+        {
+          "front": "Onset and features of osmotic demyelination?",
+          "back": "2-6 days after rapid correction: dysarthria, dysphagia, quadriparesis, locked-in syndrome."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "nephrology--sodium-and-water--q1",
+          "discipline": "adult-medicine",
+          "topic": "nephrology",
+          "difficulty": "core",
+          "stem": "A 22-year-old woman is brought to the medical tent at a music festival in Sydney after a generalised tonic-clonic seizure. Friends say she took an ecstasy tablet and drank several litres of water. She is drowsy, GCS 12. Sodium on a point-of-care gas is 117 mmol/L. Glucose is 6.2 mmol/L.\n\nWhat is the most appropriate treatment for her sodium?",
+          "options": [
+            "Fluid restriction to 800 mL per day",
+            "IV 0.9% sodium chloride at 125 mL/h",
+            "Oral salt tablets",
+            "Bolus of 3% hypertonic saline",
+            "IV frusemide"
+          ],
+          "answer": 3,
+          "explanation": "This is **acute, severe, symptomatic hyponatraemia**: MDMA stimulates ADH and thirst, and she drank large volumes of water. Seizures and reduced GCS reflect **cerebral oedema**, which can progress to herniation and death.\n\nTreatment is **3% hypertonic saline as a bolus** (for example 100-150 mL over 10-20 minutes, repeated if needed), aiming for a rise of **about 4-6 mmol/L**, which is enough to reduce brain swelling. Recheck sodium after each bolus. Because the hyponatraemia is acute (hours), the risk of osmotic demyelination is lower than in chronic cases, but still avoid overshooting.\n\n**Clue:** seizure plus severe hyponatraemia means hypertonic saline, whatever the cause.",
+          "whyWrong": [
+            "Fluid restriction works over days, far too slowly for someone who is seizing.",
+            "Normal saline raises sodium little and, with high ADH, the salt may be excreted while water is retained.",
+            "Oral salt is too slow and unsafe in a drowsy patient.",
+            "",
+            "Loop diuretics are an adjunct in some chronic cases, not emergency therapy for cerebral oedema."
+          ],
+          "ausPearl": "MDMA-associated hyponatraemia is well described at Australian music festivals; festival medical services and harm reduction messaging warn against excessive water intake.",
+          "tags": [
+            "hyponatraemia",
+            "mdma",
+            "hypertonic saline"
+          ]
+        },
+        {
+          "id": "nephrology--sodium-and-water--q2",
+          "discipline": "adult-medicine",
+          "topic": "nephrology",
+          "difficulty": "exam",
+          "stem": "A 76-year-old woman is admitted to a Geelong hospital after a fall. She started sertraline six weeks ago. She is euvolaemic. Sodium 118 mmol/L, serum osmolality 250 mOsm/kg, urine osmolality 480 mOsm/kg, urine sodium 52 mmol/L. TSH and cortisol are normal. She is alert with mild unsteadiness only. Sertraline is stopped and fluid restriction started. Eight hours later her sodium is 124 mmol/L and she is passing large volumes of dilute urine.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Continue current management and recheck sodium in 12 hours",
+            "Start 3% hypertonic saline",
+            "Start IV 5% dextrose, with desmopressin as advised by a specialist",
+            "Start IV 0.9% sodium chloride",
+            "Start oral salt tablets"
+          ],
+          "answer": 2,
+          "explanation": "This is chronic SIADH from an **SSRI**. Once the drug was stopped, ADH fell and she began a **water diuresis**. Sodium has already risen **6 mmol/L in 8 hours** and is climbing fast, so she is on track to exceed the 8-10 mmol/L per 24-hour limit. She is also high risk (very low starting sodium, older age).\n\nThe response is to **stop the rise**: give electrolyte-free water (IV 5% dextrose) and, under specialist guidance, desmopressin to halt the diuresis, then monitor sodium every 2-4 hours. Uncontrolled overcorrection risks **osmotic demyelination syndrome** 2-6 days later.",
+          "whyWrong": [
+            "Waiting 12 hours during a brisk water diuresis risks large overcorrection.",
+            "She has only mild symptoms and sodium is already rising too quickly.",
+            "",
+            "Saline would raise sodium even faster.",
+            "Salt tablets would accelerate the rise further."
+          ],
+          "tags": [
+            "hyponatraemia",
+            "siadh",
+            "osmotic demyelination"
+          ]
+        },
+        {
+          "id": "nephrology--sodium-and-water--q3",
+          "discipline": "adult-medicine",
+          "topic": "nephrology",
+          "difficulty": "foundation",
+          "stem": "A 69-year-old man with a 50 pack-year smoking history presents to his GP in Townsville with fatigue, weight loss and a cough. He appears euvolaemic. Sodium is 124 mmol/L, serum osmolality 258 mOsm/kg, urine osmolality 520 mOsm/kg, urine sodium 60 mmol/L. TSH and morning cortisol are normal. He takes no medications.\n\nWhich underlying condition is most likely?",
+          "options": [
+            "Small cell lung cancer",
+            "Congestive cardiac failure",
+            "Primary polydipsia",
+            "Addison's disease",
+            "Thiazide diuretic use"
+          ],
+          "answer": 0,
+          "explanation": "The biochemistry fits **SIADH**: hypotonic hyponatraemia, inappropriately concentrated urine (above 100 mOsm/kg), urine sodium above 30 mmol/L, euvolaemia, and normal thyroid and adrenal function with no diuretic.\n\nIn a heavy smoker with weight loss and cough, the likely cause is **small cell lung cancer**, which secretes ADH ectopically. He needs a chest X-ray and CT chest. Other lung causes of SIADH include pneumonia and TB.",
+          "whyWrong": [
+            "",
+            "Heart failure is hypervolaemic with low urine sodium.",
+            "Primary polydipsia produces maximally dilute urine (below 100 mOsm/kg).",
+            "Addison's disease is excluded by a normal cortisol, and usually causes hyperkalaemia and hypotension.",
+            "He takes no medications."
+          ],
+          "tags": [
+            "siadh",
+            "hyponatraemia",
+            "lung cancer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nephrology--glomerular-disease",
+      "title": "Nephritic and nephrotic syndromes",
+      "minutes": 18,
+      "objectives": [
+        "Distinguish nephritic from nephrotic syndrome at the bedside and on urinalysis",
+        "Diagnose post-streptococcal glomerulonephritis and explain its link to skin sores in remote communities",
+        "Recognise rapidly progressive glomerulonephritis as a renal emergency",
+        "Manage nephrotic syndrome and anticipate VTE and infection"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Two syndromes, one filter",
+          "body": "The glomerulus filters blood through a barrier of endothelium, basement membrane and podocytes. Injury produces one of two broad patterns.\n\n| | Nephritic | Nephrotic |\n|---|---|---|\n| Core problem | Inflammation damaging capillaries | Leaky podocyte barrier |\n| Urine | **Haematuria** (dysmorphic red cells, **red cell casts**), modest proteinuria | **Heavy proteinuria** (over 3.5 g/day), bland sediment, frothy urine |\n| Other | **Hypertension**, oedema, oliguria, rising creatinine | **Hypoalbuminaemia**, marked **oedema**, hyperlipidaemia |\n| Examples | Post-streptococcal GN, IgA nephropathy, ANCA vasculitis, anti-GBM disease, lupus nephritis | Minimal change disease, FSGS, membranous nephropathy, diabetic kidney disease, amyloidosis |\n\nMany diseases overlap (lupus and membranoproliferative GN can do both), but the split guides the work-up.\n\nIn Australia, glomerulonephritis is a leading cause of kidney failure after diabetes and hypertension. **Post-streptococcal glomerulonephritis (PSGN)** has almost disappeared from urban Australia but still occurs in outbreaks in remote Aboriginal and Torres Strait Islander communities, driven by crowded housing, **skin sores (impetigo)** and **scabies**, and childhood PSGN is thought to contribute to adult CKD there."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Mechanisms worth understanding",
+          "body": "**PSGN**: certain group A streptococcal strains trigger immune complexes that deposit in glomeruli and activate complement through the alternative pathway, so **C3 is low** and C4 is usually normal. There is a **latent period**: about 1-2 weeks after pharyngitis or 3-6 weeks after skin infection. The kidney injury is not an active infection.\n\n**IgA nephropathy**: the commonest primary GN in developed countries. Abnormal IgA deposits in the mesangium. Haematuria typically appears **within 1-2 days of an upper respiratory infection** (\"synpharyngitic\"), not weeks later. Complement is normal.\n\n**Rapidly progressive GN (RPGN)**: crescent formation in the glomeruli with loss of function over days to weeks. Three immunological groups:\n\n- **Anti-GBM disease** (Goodpasture's when the lungs are involved): antibodies against type IV collagen in glomerular and alveolar basement membranes, causing **pulmonary haemorrhage** plus GN.\n- **Pauci-immune ANCA vasculitis**: granulomatosis with polyangiitis (PR3/c-ANCA, with sinus and lung disease) and microscopic polyangiitis (MPO/p-ANCA).\n- **Immune complex**: lupus nephritis (**low C3 and C4**, positive ANA and anti-dsDNA), severe PSGN, IgA.\n\n**Nephrotic syndrome**: podocyte injury lets albumin through.\n\n- **Minimal change disease**: commonest in children; in adults sometimes linked to NSAIDs or Hodgkin lymphoma. Normal light microscopy, effacement on electron microscopy, very steroid responsive.\n- **FSGS**: primary, or secondary to obesity, HIV, or reduced nephron mass.\n- **Membranous nephropathy**: commonest primary cause in older adults; most have **anti-PLA2R antibodies**; secondary causes include malignancy, hepatitis B and drugs.\n- **Diabetic kidney disease**: the commonest cause of nephrotic-range proteinuria overall.\n- **Amyloidosis**: consider in myeloma or chronic inflammation.\n\n**Why nephrotic patients clot and get infected**: urinary loss of **antithrombin** and other anticoagulant proteins, plus increased liver synthesis of clotting factors, causes **VTE**, including **renal vein thrombosis** (especially membranous). Loss of **immunoglobulins** and complement predisposes to infection, including pneumococcal peritonitis and cellulitis. The liver increases lipoprotein production in response to low oncotic pressure, causing **hyperlipidaemia**."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "How they present",
+          "body": "**Nephritic**: a child or young adult with **cola-coloured or smoky urine**, facial and periorbital oedema, reduced urine output and **hypertension**. Ask about a recent sore throat or skin sores (PSGN), or haematuria starting during a cold (IgA). Severe hypertension can cause headache, encephalopathy or seizures, and fluid overload can cause pulmonary oedema.\n\n**RPGN**: rapidly rising creatinine with an active sediment, often with systemic features: fever, arthralgia, purpuric rash, sinusitis or nosebleeds (GPA), **haemoptysis** (anti-GBM or ANCA), or a malar rash and arthritis in a young woman (lupus).\n\n**Nephrotic**: gradually increasing **oedema** (periorbital in the morning, legs later, then ascites and pleural effusions), **frothy urine**, weight gain and fatigue. BP may be normal. Look for complications: a swollen leg (DVT), flank pain and haematuria (renal vein thrombosis), and signs of infection. Ask about diabetes, NSAIDs, weight loss or lymphadenopathy (malignancy), hepatitis risk, and recent drugs."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "**Urine**\n\n- Dipstick and **microscopy**: dysmorphic red cells and red cell casts mean glomerular bleeding.\n- **Urine protein-creatinine ratio (uPCR)** or albumin-creatinine ratio to quantify proteinuria; nephrotic range is about 3.5 g/day or more (uPCR above roughly 300-350 mg/mmol).\n\n**Blood**\n\n- UEC, albumin (nephrotic: typically below 30 g/L), lipids, FBC, glucose/HbA1c.\n- **Complement C3 and C4**:\n  - Low C3, normal C4: PSGN (C3 normalises within about 8 weeks; persistent low C3 suggests another cause).\n  - Low C3 and C4: lupus nephritis (also cryoglobulinaemia).\n  - Normal: IgA, ANCA vasculitis, anti-GBM, most nephrotic causes.\n- Evidence of streptococcal infection: **ASOT** (rises after throat infection) and **anti-DNase B** (better after skin infection); throat or skin swab.\n- **ANA, anti-dsDNA, ANCA (PR3/MPO), anti-GBM**, anti-PLA2R, hepatitis B and C, HIV, serum protein electrophoresis and free light chains in older adults.\n\n**Imaging**: renal ultrasound (size, obstruction) and chest X-ray if haemoptysis or breathlessness.\n\n**Renal biopsy** is usually needed in adults with nephrotic syndrome, unexplained nephritic syndrome or RPGN. It is not needed in typical PSGN that is recovering, or in children with typical nephrotic syndrome (presumed minimal change, treated with steroids first)."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Telling glomerular causes apart",
+          "body": "| Clue | Think |\n|---|---|\n| Haematuria 1-3 weeks after sore throat or 3-6 weeks after skin sores, low C3 | PSGN |\n| Haematuria 1-2 days after a cold, normal complement, young man | IgA nephropathy |\n| Haemoptysis plus AKI, anti-GBM positive | Anti-GBM (Goodpasture's) disease |\n| Sinusitis, epistaxis, lung nodules, c-ANCA/PR3 | Granulomatosis with polyangiitis |\n| Young woman, rash, arthritis, low C3 and C4, anti-dsDNA | Lupus nephritis |\n| Older adult, nephrotic, anti-PLA2R positive | Membranous nephropathy |\n| Nephrotic after NSAIDs or with Hodgkin lymphoma | Minimal change disease |\n| Long-standing diabetes with retinopathy, gradual proteinuria | Diabetic kidney disease |\n\nNon-glomerular haematuria (stones, UTI, bladder or kidney cancer) has **normal-shaped red cells and no casts**. In an adult over about 40 with isolated visible haematuria, think of **urological malignancy** first and refer for cystoscopy and imaging."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**PSGN**: mostly supportive and self-limiting in children.\n\n- **Salt and fluid restriction**, loop diuretic for oedema and hypertension, antihypertensives if needed.\n- **Penicillin** to eradicate any remaining streptococcus (it does not change the kidney outcome but reduces spread). In remote community outbreaks, public health protocols include screening and treating household contacts, and treating skin sores and scabies (see the Central Australian Rural Practitioners Association (CARPA) manual and NT guidelines).\n- Follow up BP, urine and kidney function; refer if creatinine keeps rising, C3 stays low beyond about 8 weeks, or heavy proteinuria persists.\n\n**RPGN**: a **nephrology emergency**. Urgent referral, biopsy, and immunosuppression (high-dose steroids plus cyclophosphamide or rituximab); **plasma exchange** for anti-GBM disease. Dialysis if required. Delay costs kidneys.\n\n**IgA nephropathy**: BP control, ACE inhibitor or ARB for proteinuria, SGLT2 inhibitor; immunosuppression in selected high-risk cases by specialists.\n\n**Nephrotic syndrome in adults**\n\n- **Oedema**: salt restriction and loop diuretics (often high dose because the diuretic binds albumin in the tubule).\n- **Proteinuria**: ACE inhibitor or ARB.\n- **Hyperlipidaemia**: statin.\n- **VTE**: prophylactic anticoagulation is considered when albumin is very low (commonly below about 20-25 g/L, especially membranous), balancing bleeding risk; specialist decision.\n- **Infection**: low threshold to investigate fever, pneumococcal and influenza vaccination.\n- **Specific therapy by biopsy**: steroids for minimal change; immunosuppression such as rituximab for membranous; treat secondary causes.\n- Refer to a nephrologist for biopsy and treatment.\n\nNephrotic syndrome in children, typically minimal change disease treated with prednisolone, is covered in child health."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam angles",
+          "body": "- **Child from a remote NT community with impetigo 4 weeks ago, now periorbital oedema, hypertension and cola urine**: PSGN. Order C3, anti-DNase B and ASOT, urine microscopy. Treat supportively with salt and fluid restriction and diuretics.\n- **Timing is the discriminator** between PSGN (weeks) and IgA (days).\n- **Haemoptysis plus rising creatinine**: urgent anti-GBM and ANCA, treat as an emergency.\n- **Nephrotic patient with sudden flank pain and haematuria, or a swollen leg**: renal vein thrombosis or DVT.\n- **Nephrotic patient with fever and abdominal pain**: spontaneous bacterial peritonitis.\n- **Trap**: normal C3 does not fit PSGN. Low C3 persisting after 8 weeks does not either."
+        }
+      ],
+      "keyPoints": [
+        "Nephritic: haematuria with red cell casts, hypertension, oedema, oliguria. Nephrotic: proteinuria over 3.5 g/day, low albumin, oedema, hyperlipidaemia.",
+        "PSGN follows sore throat by 1-3 weeks or skin sores by 3-6 weeks; low C3 that normalises by about 8 weeks.",
+        "IgA nephropathy causes haematuria 1-2 days after a URTI with normal complement.",
+        "RPGN (anti-GBM, ANCA, lupus) is an emergency needing urgent biopsy and immunosuppression.",
+        "Nephrotic syndrome raises the risk of VTE (including renal vein thrombosis) and infection.",
+        "Skin sores and scabies in remote communities drive PSGN and later CKD.",
+        "Low C3 and C4 together suggest lupus nephritis."
+      ],
+      "redFlags": [
+        "Haemoptysis with AKI (pulmonary-renal syndrome)",
+        "Rapidly rising creatinine with an active urinary sediment",
+        "Hypertensive encephalopathy or pulmonary oedema in acute nephritis",
+        "Flank pain, haematuria or leg swelling in nephrotic syndrome (thrombosis)",
+        "Fever or abdominal pain in nephrotic syndrome (peritonitis)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Post-streptococcal GN",
+          "india": "Still seen fairly commonly in children nationally, often after pharyngitis or pyoderma.",
+          "australia": "Rare in cities but occurs in outbreaks in remote Aboriginal communities; public health response treats contacts, skin sores and scabies."
+        },
+        {
+          "aspect": "Quantifying proteinuria",
+          "india": "24-hour urine protein is common.",
+          "australia": "Spot urine protein-creatinine or albumin-creatinine ratio is standard; 24-hour collections are uncommon."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Latent period for PSGN after skin infection?",
+          "back": "About 3-6 weeks (1-2 weeks after pharyngitis)."
+        },
+        {
+          "front": "Complement pattern in PSGN?",
+          "back": "Low C3, normal C4; C3 normalises within about 8 weeks."
+        },
+        {
+          "front": "Antibody test best for streptococcal skin infection?",
+          "back": "Anti-DNase B (ASOT is better after throat infection)."
+        },
+        {
+          "front": "Nephrotic-range proteinuria?",
+          "back": "Above 3.5 g/day (uPCR above roughly 300-350 mg/mmol)."
+        },
+        {
+          "front": "Antibody associated with primary membranous nephropathy?",
+          "back": "Anti-PLA2R (phospholipase A2 receptor)."
+        },
+        {
+          "front": "Why is nephrotic syndrome prothrombotic?",
+          "back": "Urinary loss of antithrombin plus increased hepatic clotting factor synthesis."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "nephrology--glomerular-disease--q1",
+          "discipline": "adult-medicine",
+          "topic": "nephrology",
+          "difficulty": "core",
+          "stem": "A 9-year-old boy from a remote community in the Northern Territory presents to the clinic with puffy eyes and dark, cola-coloured urine for two days. Four weeks ago he was treated for infected skin sores on his legs. BP 138/92 mmHg. Urine dipstick shows blood 3+ and protein 1+. Microscopy shows red cell casts.\n\nWhich result would best support the most likely diagnosis?",
+          "options": [
+            "Positive anti-GBM antibodies",
+            "Low C3 with normal C4 and raised anti-DNase B",
+            "Positive anti-PLA2R antibodies",
+            "Low C3 and low C4 with positive anti-dsDNA",
+            "Normal complement with raised serum IgA"
+          ],
+          "answer": 1,
+          "explanation": "A child with **nephritic syndrome** (haematuria with red cell casts, hypertension, oedema) **3-6 weeks after skin sores** has **post-streptococcal glomerulonephritis** until proven otherwise. Immune complexes activate the alternative complement pathway, so **C3 is low with normal C4**. **Anti-DNase B** is the better marker of recent streptococcal skin infection (ASOT rises more after pharyngitis).\n\nC3 should return to normal within about 8 weeks; if it doesn't, consider other diagnoses. Management is supportive: salt and fluid restriction, diuretics, antihypertensives, penicillin to eradicate strep, and a public health response for contacts, skin sores and scabies.",
+          "whyWrong": [
+            "Anti-GBM disease is rare in children and causes RPGN, often with lung haemorrhage.",
+            "",
+            "Anti-PLA2R marks membranous nephropathy, a nephrotic illness of older adults.",
+            "Low C3 and C4 with anti-dsDNA suggests lupus nephritis; the timing after skin sores fits PSGN.",
+            "IgA nephropathy causes haematuria within 1-2 days of an infection, not weeks later."
+          ],
+          "ausPearl": "PSGN is notifiable in some jurisdictions such as the Northern Territory and Queensland, prompting a public health response in communities (check local notifiable disease lists).",
+          "tags": [
+            "psgn",
+            "nephritic",
+            "remote health"
+          ]
+        },
+        {
+          "id": "nephrology--glomerular-disease--q2",
+          "discipline": "adult-medicine",
+          "topic": "nephrology",
+          "difficulty": "foundation",
+          "stem": "A 20-year-old university student in Brisbane notices red-brown urine the day after developing a sore throat and runny nose. He had a similar episode a year ago that resolved. BP 124/76 mmHg. Creatinine is normal. Urine microscopy shows dysmorphic red cells. Complement levels are normal.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Post-streptococcal glomerulonephritis",
+            "Minimal change disease",
+            "Renal calculus",
+            "Granulomatosis with polyangiitis",
+            "IgA nephropathy"
+          ],
+          "answer": 4,
+          "explanation": "**Visible haematuria within 1-2 days of an upper respiratory infection** ('synpharyngitic'), recurrent episodes, a young man, dysmorphic red cells and **normal complement** is the classic picture of **IgA nephropathy**, the commonest primary glomerulonephritis in developed countries.\n\nThe key discriminator from PSGN is **timing**: PSGN has a latent period of 1-3 weeks after pharyngitis and has low C3. Management of IgA nephropathy depends on proteinuria, BP and kidney function: BP control, ACE inhibitor or ARB for proteinuria, and long-term monitoring, with nephrology referral.",
+          "whyWrong": [
+            "PSGN occurs weeks after infection with low C3.",
+            "Minimal change disease is nephrotic, with heavy proteinuria and no significant haematuria.",
+            "Stones cause pain and normal-shaped red cells, not dysmorphic red cells after a URTI.",
+            "GPA causes systemic vasculitis, sinus and lung disease, usually with rising creatinine and positive ANCA.",
+            ""
+          ],
+          "tags": [
+            "iga nephropathy",
+            "haematuria"
+          ]
+        },
+        {
+          "id": "nephrology--glomerular-disease--q3",
+          "discipline": "adult-medicine",
+          "topic": "nephrology",
+          "difficulty": "exam",
+          "stem": "A 58-year-old man in Adelaide has had progressive leg oedema and frothy urine for two months. Albumin 18 g/L, urine protein-creatinine ratio 850 mg/mmol, creatinine 95 µmol/L, cholesterol 9.1 mmol/L. Anti-PLA2R antibodies are positive. He now presents with sudden left flank pain and visible haematuria.\n\nWhat is the most likely cause of his new symptoms?",
+          "options": [
+            "Renal cell carcinoma",
+            "Ureteric calculus",
+            "Renal vein thrombosis",
+            "Acute pyelonephritis",
+            "Transformation to crescentic glomerulonephritis"
+          ],
+          "answer": 2,
+          "explanation": "He has **nephrotic syndrome from membranous nephropathy** (anti-PLA2R positive) with a very low albumin. Nephrotic syndrome is **prothrombotic** (urinary loss of antithrombin, raised hepatic clotting factors, haemoconcentration from diuretics), and **renal vein thrombosis** is especially associated with membranous nephropathy. It classically presents with **flank pain and haematuria**, sometimes with worsening kidney function or PE.\n\nConfirm with CT or Doppler imaging and anticoagulate. Prophylactic anticoagulation is considered in membranous nephropathy when albumin is very low, balanced against bleeding risk.",
+          "whyWrong": [
+            "Renal cancer is possible in any haematuria, but a sudden onset in a severely nephrotic patient points to thrombosis.",
+            "Stones cause colic and haematuria but have no particular link to membranous nephropathy.",
+            "",
+            "Pyelonephritis usually causes fever and urinary symptoms, and the scenario gives neither.",
+            "Crescentic GN causes a rapid creatinine rise and active sediment, not sudden flank pain."
+          ],
+          "tags": [
+            "nephrotic",
+            "renal vein thrombosis",
+            "membranous"
+          ]
+        }
+      ]
+    }
+  ]
+}

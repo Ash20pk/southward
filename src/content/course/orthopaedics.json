@@ -1,0 +1,1280 @@
+{
+  "topic": "orthopaedics",
+  "intro": "Orthopaedics on the AMC covers fractures and joint injuries, validated rules for who needs an X-ray, the limb-threatening emergencies (compartment syndrome, open fractures, septic arthritis), back pain and cauda equina, hip fractures and osteoporosis, and the limping child. Questions reward safe decisions: when not to image, when not to wait, and how bone health and falls prevention fit into caring for older Australians.",
+  "lessons": [
+    {
+      "id": "orthopaedics--fracture-principles-and-decision-rules",
+      "title": "Fracture principles, and the knee and ankle",
+      "minutes": 16,
+      "objectives": [
+        "Describe a fracture on X-ray in the language orthopaedic registrars expect",
+        "Apply the Ottawa ankle, foot and knee rules to decide who needs an X-ray",
+        "Manage ankle sprains and recognise the common knee ligament and meniscal injuries",
+        "List the early and late complications of fractures"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why this matters",
+          "body": "Musculoskeletal injuries are among the commonest presentations to Australian emergency departments and general practices. Many patients with ankle and knee injuries do not have a fracture, and **validated decision rules** allow you to avoid unnecessary X-rays safely. The AMC expects you to know these rules, to describe fractures clearly on the phone to the orthopaedic registrar, and to recognise the complications that threaten a limb."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Describing a fracture and the principles of treatment",
+          "body": "**Always image two views at right angles, and include the joint above and below.**\n\nDescribe:\n1. **Patient and bone:** name, age, which bone, which side\n2. **Site:** diaphysis (shaft), metaphysis, epiphysis; intra-articular or not\n3. **Pattern:** transverse, oblique, spiral (twisting, consider NAI in non-walking children), comminuted, segmental, avulsion, greenstick or buckle (children)\n4. **Displacement:** translation, angulation, rotation, shortening\n5. **Open or closed** (clinical, not radiological), and **neurovascular status** distally\n\n**Treatment principles:** **reduce** (if displaced), **hold** (cast, splint, internal or external fixation) and **rehabilitate** (move joints, strengthen). Always give analgesia first, and document and re-check neurovascular status before and after any manipulation or splint.\n\n**Complications:**\n- **Early:** neurovascular injury, **compartment syndrome**, infection (open fractures), fat embolism (long bones: hypoxia, confusion, petechial rash 24-72 h after femoral fracture), VTE\n- **Late:** malunion, delayed union, **non-union**, **avascular necrosis** (scaphoid proximal pole, femoral head, talus), post-traumatic arthritis, complex regional pain syndrome, stiffness"
+        },
+        {
+          "kind": "investigations",
+          "heading": "Ottawa ankle, foot and knee rules",
+          "body": "**Ottawa ankle rule:** ankle X-ray only if there is pain in the malleolar zone **and** any of:\n- Bone tenderness at the **posterior edge or tip of the lateral malleolus** (distal 6 cm)\n- Bone tenderness at the **posterior edge or tip of the medial malleolus** (distal 6 cm)\n- **Inability to bear weight for four steps** both immediately after injury and in the department\n\n**Ottawa foot rule:** foot X-ray if pain in the midfoot and bone tenderness at the **base of the fifth metatarsal** or the **navicular**, or inability to bear weight for four steps.\n\n**Ottawa knee rule:** knee X-ray if any of:\n- Age **55 or older**\n- Isolated tenderness of the **patella**\n- Tenderness at the **head of the fibula**\n- Inability to **flex to 90 degrees**\n- Inability to bear weight for four steps (immediately and in the department)\n\nThe rules are highly sensitive (almost no significant fractures missed) and are validated in adults; the ankle rule is also used in children over about 5. Do not apply them to intoxicated patients or those with reduced sensation, distracting injuries or multiple injuries."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Common ankle and knee injuries",
+          "body": "**Lateral ankle sprain:** inversion injury tearing the **anterior talofibular ligament** first; swelling and tenderness anterior and inferior to the lateral malleolus.\n\n**Syndesmosis (\"high ankle\") sprain:** external rotation injury; pain above the ankle, positive squeeze test; slower recovery.\n\n**Achilles tendon rupture:** sudden \"kicked in the calf\" feeling during sport, palpable gap, weak plantarflexion, **positive Simmonds (Thompson) test** (no plantarflexion when the calf is squeezed). Often missed as a sprain; patients can still walk and weakly plantarflex using other muscles. Ultrasound confirms if unclear; treated with functional bracing or surgery.\n\n**Knee:**\n| Injury | Mechanism | Features |\n|---|---|---|\n| **ACL tear** | Pivoting or landing, non-contact | Audible **pop**, rapid swelling (**haemarthrosis** within hours), instability; positive **Lachman** test |\n| **Meniscal tear** | Twisting on a flexed knee | Delayed swelling (next day), joint line tenderness, **locking** or catching |\n| **MCL sprain** | Valgus force | Medial pain, laxity on valgus stress at 30 degrees |\n| **Patellar dislocation** | Twisting, young women | Patella displaced laterally, reduces with knee extension |\n\nA **locked knee** (unable to fully extend) suggests a bucket-handle meniscal tear and needs early orthopaedic referral. MRI is the definitive imaging for ligament and meniscal injury."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Ankle sprains:** most heal with **early functional treatment**: protect, elevate, ice in the first days, compression, analgesia and early weight bearing as tolerated, then balance (proprioception) exercises to prevent recurrence. Prolonged immobilisation is worse. Severe sprains may benefit from a brace or a short period in a walking boot. Refer if unstable or not improving at 6 weeks.\n\n**Fractures around the ankle:**\n- An isolated, undisplaced distal fibular fracture below the syndesmosis (Weber A) is stable: boot and weight bearing as tolerated\n- Fractures at or above the syndesmosis (Weber B or C), bimalleolar or trimalleolar fractures, or talar shift are potentially unstable and need orthopaedic review\n- A dislocated ankle with skin tenting or a pale foot is reduced **immediately**, before X-ray if the foot is threatened\n\n**Fifth metatarsal:** avulsion of the base (tuberosity, from peroneus brevis) heals well in a boot; a **Jones fracture** (metaphyseal-diaphyseal junction) has a high non-union rate and needs non-weight-bearing or fixation.\n\n**Knee:** ACL tears are managed with physiotherapy-led rehabilitation, with reconstruction for young active people or persistent instability. Haemarthrosis may be aspirated for comfort."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- A vignette lists tenderness sites and weight-bearing ability; you decide whether an X-ray is indicated. Anterior ligament tenderness only, walking four steps: **no X-ray**.\n- Age 55 or older with a knee injury: X-ray.\n- Unable to plantarflex strongly after a \"kick\" to the calf: test Simmonds; do not call it a sprain.\n- Swelling within hours of a knee injury = haemarthrosis = ACL until proven otherwise.\n- A **Weber A** fibular fracture (below the syndesmosis) is stable and treated like a sprain in a boot; Weber B or C, or any **talar shift**, needs orthopaedic review.\n- A dislocated ankle with a white foot or tented skin: **reduce first**, then X-ray.\n- Fifth metatarsal: tuberosity avulsion does well; a Jones fracture at the metaphyseal-diaphyseal junction risks non-union.\n- Fat embolism: hypoxia, confusion and a petechial rash 1-3 days after a long-bone fracture."
+        }
+      ],
+      "keyPoints": [
+        "Two views at right angles, including the joint above and below.",
+        "Ottawa ankle: X-ray if posterior edge/tip malleolar tenderness or unable to bear weight four steps.",
+        "Ottawa foot: base of fifth metatarsal or navicular tenderness.",
+        "Ottawa knee: age 55+, patellar or fibular head tenderness, cannot flex to 90 degrees, or cannot bear weight.",
+        "Ankle sprains: early functional treatment and proprioceptive rehabilitation, not prolonged immobilisation.",
+        "Rapid knee swelling after a pivot and pop suggests an ACL tear; locking suggests a meniscal tear.",
+        "Positive Simmonds test means Achilles rupture."
+      ],
+      "redFlags": [
+        "Pale, pulseless or tented skin distal to a fracture or dislocation",
+        "Pain out of proportion after a fracture or cast (compartment syndrome)",
+        "Locked knee",
+        "Spiral fracture in a non-ambulant child"
+      ],
+      "contrast": [
+        {
+          "aspect": "X-ray after ankle and knee injuries",
+          "india": "Commonly ordered for most injuries.",
+          "australia": "Ottawa rules decide; X-rays without rule criteria are low-value care."
+        },
+        {
+          "aspect": "Ankle sprain treatment",
+          "india": "Plaster immobilisation is common.",
+          "australia": "Early functional treatment with bracing and physiotherapy, weight bearing as tolerated."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Ottawa ankle rule: which bony areas?",
+          "back": "Posterior edge or tip (distal 6 cm) of the lateral or medial malleolus."
+        },
+        {
+          "front": "Ottawa knee rule criteria?",
+          "back": "Age 55+, isolated patellar tenderness, fibular head tenderness, cannot flex to 90 degrees, cannot bear weight four steps."
+        },
+        {
+          "front": "Test for Achilles tendon rupture?",
+          "back": "Simmonds (Thompson) test: squeezing the calf fails to plantarflex the foot."
+        },
+        {
+          "front": "Which ligament tears first in an inversion ankle sprain?",
+          "back": "Anterior talofibular ligament."
+        },
+        {
+          "front": "Knee swelling within 2 hours of a pivoting injury suggests?",
+          "back": "Haemarthrosis, most often an ACL tear."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "orthopaedics--fracture-principles-and-decision-rules--q1",
+          "discipline": "adult-surgery",
+          "topic": "orthopaedics",
+          "difficulty": "foundation",
+          "stem": "A 27-year-old woman rolls her right ankle playing netball. She limped into the clinic on her own. There is swelling and tenderness anterior and inferior to the lateral malleolus. There is no tenderness over the posterior edge or tip of either malleolus, the navicular or the base of the fifth metatarsal. She can take four steps.\n\nWhat is the most appropriate management?",
+          "options": [
+            "X-ray of the ankle",
+            "X-ray of the ankle and foot",
+            "Below-knee plaster cast for 6 weeks",
+            "MRI of the ankle",
+            "No imaging; functional treatment with early weight bearing"
+          ],
+          "answer": 4,
+          "explanation": "She meets **none of the Ottawa ankle or foot rule criteria**: no bony tenderness at the posterior edge or tip of the malleoli, the navicular or the base of the fifth metatarsal, and she can bear weight for four steps. The rule is highly sensitive, so a clinically significant fracture is very unlikely and an **X-ray is not needed**. This is a **lateral ligament sprain** (anterior talofibular ligament). Treat with analgesia, protection, elevation, early weight bearing as tolerated and proprioceptive exercises. Advise review if she cannot bear weight or is not improving over 1-2 weeks.",
+          "whyWrong": [
+            "The Ottawa rules are negative, so X-ray is not indicated.",
+            "Neither ankle nor foot rule criteria are met.",
+            "Prolonged immobilisation slows recovery from sprains.",
+            "MRI is not needed acutely for a simple sprain.",
+            ""
+          ],
+          "tags": [
+            "ottawa ankle rule",
+            "ankle sprain",
+            "imaging"
+          ]
+        },
+        {
+          "id": "orthopaedics--fracture-principles-and-decision-rules--q2",
+          "discipline": "adult-surgery",
+          "topic": "orthopaedics",
+          "difficulty": "core",
+          "stem": "A 34-year-old man jumps for a basketball and lands awkwardly with his knee twisting inwards. He heard a pop and his knee swelled within an hour. He can walk with a limp. The knee is tense with an effusion. Lachman's test shows increased anterior translation with a soft end point. An X-ray is normal.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Medial meniscal tear",
+            "Anterior cruciate ligament rupture",
+            "Patellar tendon rupture",
+            "Medial collateral ligament sprain",
+            "Posterior cruciate ligament rupture"
+          ],
+          "answer": 1,
+          "explanation": "A **non-contact pivoting or landing injury**, an audible **pop**, **rapid swelling within hours** (haemarthrosis from the torn vascular ligament) and a **positive Lachman test** is an **ACL rupture**. Meniscal tears typically swell more slowly (overnight) because menisci are relatively avascular, and cause joint-line tenderness and locking. PCL injuries follow a direct blow to the front of the tibia (dashboard injury) with a posterior sag. Management is physiotherapy with consideration of reconstruction for active people or ongoing instability; MRI confirms and looks for associated meniscal damage.",
+          "whyWrong": [
+            "Meniscal tears usually cause delayed swelling and joint-line tenderness, not a positive Lachman.",
+            "",
+            "Patellar tendon rupture prevents active knee extension.",
+            "MCL sprains cause medial pain and valgus laxity, not a large rapid haemarthrosis.",
+            "PCL injuries follow dashboard-type blows and show posterior sag."
+          ],
+          "tags": [
+            "acl",
+            "knee injury",
+            "haemarthrosis"
+          ]
+        },
+        {
+          "id": "orthopaedics--fracture-principles-and-decision-rules--q3",
+          "discipline": "adult-surgery",
+          "topic": "orthopaedics",
+          "difficulty": "exam",
+          "stem": "A 61-year-old woman trips on a kerb and twists her knee. She is walking with a limp. There is mild diffuse swelling, no tenderness over the patella or fibular head, and she can flex to 110 degrees.\n\nAccording to the Ottawa knee rule, what is the most appropriate step?",
+          "options": [
+            "X-ray the knee",
+            "No X-ray because she can bear weight",
+            "MRI of the knee",
+            "Ultrasound of the knee",
+            "Aspirate the knee joint"
+          ],
+          "answer": 0,
+          "explanation": "The **Ottawa knee rule** recommends an X-ray if **any** criterion is present. Age **55 or older** is one criterion on its own, because older patients are more likely to sustain tibial plateau and other fractures from low-energy injuries. So despite normal flexion, no bony tenderness and the ability to walk, **she needs a knee X-ray**. MRI and ultrasound are not first-line tests for suspected fracture. Aspiration is not indicated without concern for infection or for symptomatic relief of a large haemarthrosis.",
+          "whyWrong": [
+            "",
+            "Weight bearing is only one criterion; age 55 or over alone mandates an X-ray.",
+            "MRI is not first-line for suspected fracture.",
+            "Ultrasound does not exclude fractures.",
+            "Aspiration does not answer whether there is a fracture."
+          ],
+          "tags": [
+            "ottawa knee rule",
+            "imaging",
+            "older adults"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "orthopaedics--upper-limb-injuries",
+      "title": "Upper limb injuries",
+      "minutes": 15,
+      "objectives": [
+        "Manage a suspected scaphoid fracture safely even when the X-ray is normal",
+        "Recognise and manage distal radius fractures and consider bone health in older patients",
+        "Reduce and assess an anterior shoulder dislocation, including axillary nerve function",
+        "Differentiate rotator cuff tears, frozen shoulder and other common shoulder problems"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The fall on an outstretched hand",
+          "body": "A **fall on an outstretched hand (FOOSH)** produces different injuries at different ages because the weakest link changes:\n- **Children:** supracondylar humerus and distal radius (buckle or greenstick) fractures\n- **Young adults:** **scaphoid** fracture, radial head fracture, shoulder dislocation\n- **Older adults (especially women with osteoporosis):** **distal radius (Colles) fracture**, proximal humerus fracture\n\nThe AMC's favourite is the scaphoid, because a missed fracture can cause lifelong disability."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why the scaphoid is dangerous",
+          "body": "The scaphoid's blood supply enters **distally** and flows **retrogradely** to the proximal pole. A fracture through the waist or proximal pole can cut off the proximal fragment's supply, causing **avascular necrosis** and **non-union**, which leads to wrist collapse and arthritis. Up to about a fifth of scaphoid fractures are **not visible on initial X-rays**, which is why clinical suspicion drives management."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "**Scaphoid fracture:** young adult, FOOSH, wrist pain, **anatomical snuffbox tenderness**, scaphoid tubercle tenderness and pain on axial compression of the thumb.\n\n**Distal radius fracture:**\n- **Colles:** dorsally displaced and angulated distal fragment, \"**dinner fork**\" deformity; older woman after a FOOSH\n- **Smith's:** volar displacement, fall on a flexed wrist\n- Check **median nerve** function (acute carpal tunnel syndrome) and the distal ulna\n\n**Anterior shoulder dislocation** (about 95% of dislocations): arm held abducted and externally rotated, loss of the rounded deltoid contour, humeral head palpable anteriorly. Check the **axillary nerve**: sensation over the \"**regimental badge**\" area of the lateral upper arm, and deltoid contraction.\n\n**Posterior shoulder dislocation:** after a **seizure or electric shock**; arm held internally rotated, cannot externally rotate; AP X-ray shows a \"**light bulb**\" humeral head and is easily missed.\n\n**Clavicle fracture:** fall onto the shoulder; middle third most common.\n\n**Shoulder pain without trauma:**\n| Condition | Features |\n|---|---|\n| **Rotator cuff tendinopathy or tear** | Painful arc (60-120 degrees), night pain, weakness; tears in older people after a fall |\n| **Adhesive capsulitis (frozen shoulder)** | Loss of **passive** as well as active movement, especially external rotation; diabetes; freezing, frozen, thawing phases |\n| **Acromioclavicular arthritis** | Pain at the top of the shoulder, high painful arc |\n| **Referred pain** | Neck, diaphragmatic irritation, cardiac, Pancoast tumour |"
+        },
+        {
+          "kind": "investigations",
+          "heading": "Imaging",
+          "body": "- **Scaphoid:** dedicated scaphoid series X-rays. If the X-ray is **normal but clinical suspicion remains**, immobilise and either **repeat X-ray in 10-14 days** or obtain **early MRI** (increasingly preferred, as it avoids unnecessary immobilisation), or CT if MRI is unavailable\n- **Distal radius:** PA and lateral wrist; assess dorsal angulation, radial height and intra-articular extension\n- **Shoulder dislocation:** X-ray **before reduction** (to exclude a fracture of the humeral neck, which changes management) and **after reduction** to confirm position; include a lateral (Y or axillary) view\n- **Rotator cuff:** ultrasound or MRI if a full-thickness tear is suspected, especially in younger patients after trauma"
+        },
+        {
+          "kind": "differentials",
+          "heading": "Other upper limb injuries the AMC likes",
+          "body": "| Injury | Clue | Management |\n|---|---|---|\n| **Radial head fracture** | FOOSH, lateral elbow pain, painful pronation and supination; X-ray may only show a raised **fat pad sign** | Sling and early movement for undisplaced fractures |\n| **Boxer's fracture** (5th metacarpal neck) | Punching injury; check for **rotational deformity** (fingers cross when making a fist) | Buddy strapping or splint; reduce if rotated |\n| **Fight bite** | Small wound over a knuckle after punching a mouth | Explore and wash out, **amoxicillin-clavulanate** per eTG; hand surgery referral if joint involved |\n| **Mallet finger** | Cannot extend the distal interphalangeal joint after a ball strikes the fingertip | Continuous extension splint for 6-8 weeks |\n| **Skier's (gamekeeper's) thumb** | Ulnar collateral ligament injury of the thumb MCP joint; weak pinch | Thumb spica; surgery if complete (Stener lesion) |\n| **Perilunate or lunate dislocation** | High-energy wrist injury, median nerve symptoms, lunate \"spilled teacup\" on lateral X-ray | Urgent orthopaedic reduction |\n| **Humeral shaft fracture** | Wrist drop | **Radial nerve** injury in the spiral groove |"
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Scaphoid:**\n- **Suspected fracture with normal X-ray:** immobilise in a splint or cast and re-image (repeat X-ray at 10-14 days or MRI). **Never discharge without immobilisation and follow-up.**\n- Undisplaced waist fracture: cast for several weeks\n- Displaced or proximal pole fracture: orthopaedic referral for fixation\n\n**Distal radius:**\n- Displaced fractures: closed reduction under a **haematoma block, Bier's block** (intravenous regional anaesthesia) or sedation, then a backslab or cast; re-X-ray after reduction and at 1-2 weeks for slippage\n- Unstable, intra-articular or failed reduction: operative fixation (volar plate)\n- In an older person, a low-trauma wrist fracture is a **minimal-trauma fracture**: assess and treat for **osteoporosis** and falls risk\n\n**Anterior shoulder dislocation:**\n- Analgesia and gentle reduction techniques (external rotation, Cunningham massage, FARES, scapular manipulation), with procedural sedation if needed\n- Recheck axillary nerve and pulses after reduction; sling for comfort and early physiotherapy\n- **Young patients have a high recurrence rate**; orthopaedic referral for consideration of stabilisation\n\n**Rotator cuff tendinopathy:** activity modification, physiotherapy, analgesia; subacromial corticosteroid injection can give short-term relief. Acute traumatic full-thickness tears in younger active people warrant early surgical referral.\n\n**Frozen shoulder:** analgesia, physiotherapy, intra-articular steroid injection; usually self-limiting over 1-3 years."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Snuffbox tenderness plus normal X-ray: **immobilise and re-image**; discharging without a splint is wrong.\n- Seizure or electrocution with a shoulder that won't externally rotate: **posterior dislocation**.\n- Before and after reducing a shoulder: check and **document axillary nerve sensation**.\n- Older woman with a Colles fracture: the \"next step\" at follow-up may be a **DXA scan and osteoporosis treatment**.\n- Loss of passive external rotation = frozen shoulder; preserved passive movement with weakness = cuff."
+        }
+      ],
+      "keyPoints": [
+        "Snuffbox tenderness after a FOOSH is a scaphoid fracture until proven otherwise.",
+        "Normal initial X-ray does not exclude scaphoid fracture: immobilise and re-image (X-ray 10-14 days or MRI).",
+        "Scaphoid proximal pole has retrograde blood supply, risking avascular necrosis and non-union.",
+        "Colles fracture: dorsal displacement, dinner-fork deformity; treat osteoporosis after a low-trauma wrist fracture.",
+        "Anterior shoulder dislocation: X-ray before and after reduction; check axillary nerve (regimental badge).",
+        "Posterior dislocation follows seizures and electric shocks; arm held internally rotated.",
+        "Frozen shoulder restricts passive and active external rotation."
+      ],
+      "redFlags": [
+        "Snuffbox tenderness with a normal X-ray (occult scaphoid fracture)",
+        "Numbness over the regimental badge area (axillary nerve injury)",
+        "Median nerve symptoms after a wrist fracture (acute carpal tunnel syndrome)",
+        "Shoulder pain with exertional features or apical lung symptoms (referred pain)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Suspected scaphoid fracture with normal X-ray",
+          "india": "Often a cast and repeat X-ray, or discharge if X-ray is normal.",
+          "australia": "Immobilise and re-image; early MRI is increasingly used."
+        },
+        {
+          "aspect": "Wrist fracture in an older woman",
+          "india": "Fracture treated; bone health rarely addressed.",
+          "australia": "Minimal-trauma fracture triggers osteoporosis assessment and PBS-subsidised treatment."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Sign of a scaphoid fracture?",
+          "back": "Anatomical snuffbox tenderness (also scaphoid tubercle tenderness and pain on thumb compression)."
+        },
+        {
+          "front": "Management of suspected scaphoid fracture with a normal X-ray?",
+          "back": "Immobilise and re-image: repeat X-ray at 10-14 days or MRI."
+        },
+        {
+          "front": "Nerve to test in anterior shoulder dislocation?",
+          "back": "Axillary nerve: regimental badge sensation and deltoid."
+        },
+        {
+          "front": "Typical cause of posterior shoulder dislocation?",
+          "back": "Seizure or electric shock."
+        },
+        {
+          "front": "Deformity in a Colles fracture?",
+          "back": "Dorsal displacement and angulation of the distal radius (dinner fork)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "orthopaedics--upper-limb-injuries--q1",
+          "discipline": "adult-surgery",
+          "topic": "orthopaedics",
+          "difficulty": "foundation",
+          "stem": "A 22-year-old man falls on his outstretched right hand while skateboarding. He has wrist pain and tenderness in the anatomical snuffbox. Scaphoid series X-rays are reported as normal.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Reassure and discharge with analgesia",
+            "Crepe bandage and return if still painful in 6 weeks",
+            "Immediate open reduction and internal fixation",
+            "Immobilise in a splint and arrange repeat imaging (X-ray in 10-14 days or MRI)",
+            "Physiotherapy referral for wrist mobilisation"
+          ],
+          "answer": 3,
+          "explanation": "Up to a fifth of **scaphoid fractures are invisible on initial X-rays**. Because of the **retrograde blood supply**, a missed fracture risks **avascular necrosis and non-union** of the proximal pole, leading to wrist collapse and arthritis. With snuffbox tenderness, treat as a fracture: **immobilise** (splint or cast) and **re-image**, either with a repeat X-ray in 10-14 days or MRI (which gives an early answer and avoids unnecessary immobilisation if normal). Surgery is not indicated without a demonstrated displaced fracture.",
+          "whyWrong": [
+            "A normal X-ray does not exclude a scaphoid fracture.",
+            "A bandage alone risks non-union if a fracture is present.",
+            "There is no confirmed fracture to fix.",
+            "",
+            "Mobilising a possible fracture increases non-union risk."
+          ],
+          "tags": [
+            "scaphoid",
+            "foosh",
+            "occult fracture"
+          ]
+        },
+        {
+          "id": "orthopaedics--upper-limb-injuries--q2",
+          "discipline": "adult-surgery",
+          "topic": "orthopaedics",
+          "difficulty": "core",
+          "stem": "A 25-year-old man presents after falling while skiing with his arm outstretched. His right shoulder is squared off and he holds the arm slightly abducted and externally rotated. He cannot move it.\n\nBefore attempting reduction, which examination finding is most important to document?",
+          "options": [
+            "Sensation over the lateral aspect of the upper arm",
+            "Sensation over the thumb web space",
+            "Sensation over the little finger",
+            "Biceps reflex",
+            "Grip strength"
+          ],
+          "answer": 0,
+          "explanation": "This is an **anterior shoulder dislocation**. The **axillary nerve** wraps around the surgical neck of the humerus and is the nerve most commonly injured. Its sensory territory is the **\"regimental badge\" area over the lateral upper arm** (deltoid motor function is difficult to test in a dislocated shoulder). Axillary nerve function must be documented **before and after reduction**, along with distal pulses. X-rays before reduction exclude an associated fracture. Radial nerve (thumb web space) and ulnar nerve (little finger) injuries are less likely here.",
+          "whyWrong": [
+            "",
+            "The first dorsal web space is radial nerve territory, less often injured in dislocations.",
+            "The little finger is ulnar nerve territory.",
+            "The biceps reflex tests C5-6 and the musculocutaneous nerve, not the key risk here.",
+            "Grip strength does not assess the axillary nerve."
+          ],
+          "tags": [
+            "shoulder dislocation",
+            "axillary nerve",
+            "examination"
+          ]
+        },
+        {
+          "id": "orthopaedics--upper-limb-injuries--q3",
+          "discipline": "adult-surgery",
+          "topic": "orthopaedics",
+          "difficulty": "exam",
+          "stem": "A 68-year-old woman is reviewed in the fracture clinic 2 weeks after a closed reduction of a Colles fracture sustained when she tripped on a footpath. The fracture position is satisfactory. She has no other medical problems and takes no medications.\n\nWhat is the most appropriate additional step?",
+          "options": [
+            "Refer for bone scan",
+            "Start oral prednisolone for swelling",
+            "Arrange assessment for osteoporosis, including DXA, and consider treatment",
+            "Arrange a CT of the wrist",
+            "Advise that no further action is needed after union"
+          ],
+          "answer": 2,
+          "explanation": "A wrist fracture from a **fall from standing height** in an older woman is a **minimal-trauma (fragility) fracture**. It is often the first sign of **osteoporosis** and predicts future hip and vertebral fractures. She should be assessed for osteoporosis: DXA, bloods for secondary causes (calcium, vitamin D, renal, thyroid function), falls risk, and treatment such as a bisphosphonate or denosumab with calcium and vitamin D. In Australia, a minimal-trauma fracture qualifies for PBS-subsidised osteoporosis treatment. This is a missed opportunity in many fracture clinics.",
+          "whyWrong": [
+            "A bone scan is used for occult fractures or metastases, not osteoporosis.",
+            "Steroids worsen bone density and are not indicated.",
+            "",
+            "CT is unnecessary when the position is satisfactory.",
+            "A fragility fracture should trigger bone health assessment."
+          ],
+          "ausPearl": "Fracture liaison services in Australian hospitals aim to identify people with minimal-trauma fractures and start osteoporosis treatment.",
+          "tags": [
+            "colles fracture",
+            "osteoporosis",
+            "fragility fracture"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "orthopaedics--hip-fracture",
+      "title": "Hip fracture in older people",
+      "minutes": 14,
+      "objectives": [
+        "Recognise a neck of femur fracture clinically and radiologically, including occult fractures",
+        "Explain how fracture site determines the operation",
+        "Deliver early analgesia including nerve blocks and meet the 48-hour surgery standard",
+        "Coordinate orthogeriatric care: delirium, VTE, mobilisation, bone health and falls prevention"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Hip fracture in Australia",
+          "body": "Hip fracture is one of the most important injuries in older Australians: around 19,000 or more occur each year, most after a **fall from standing height**, and around a quarter of patients die within a year. Many never regain their previous mobility or independence. Care is benchmarked by the **Australian Commission on Safety and Quality in Health Care Hip Fracture Clinical Care Standard** and audited by the **Australian and New Zealand Hip Fracture Registry**. The standard expects early assessment, pain relief, **surgery within 48 hours** of presentation, orthogeriatric care, early mobilisation, and a plan for bone health and falls prevention."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Anatomy: why the site matters",
+          "body": "The femoral head is supplied mainly by **retinacular vessels** from the medial circumflex femoral artery, running along the femoral neck inside the capsule.\n- **Intracapsular fractures** (subcapital, transcervical) can disrupt this supply, especially when **displaced**, causing **avascular necrosis** and non-union. So displaced intracapsular fractures are usually treated by **replacing** the head.\n- **Extracapsular fractures** (intertrochanteric, subtrochanteric) leave the blood supply intact but bleed more; they are **fixed**, and the head is preserved.\n\nRisk factors: osteoporosis, female sex, age, falls (poor vision, sedatives, postural hypotension, dementia, Parkinson's disease), low body weight, corticosteroids."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "- Older person, fall, **hip or groin pain**, **unable to weight bear**\n- Classic sign: **shortened and externally rotated** leg (displaced fractures)\n- Undisplaced or impacted fractures may allow walking with pain; a normal-looking leg does not exclude a fracture\n- Pain may be referred to the knee\n\n**Why older people fall:** usually several factors combine. Intrinsic: sarcopenia, poor balance, visual impairment, cognitive impairment, peripheral neuropathy, postural hypotension, urinary urgency and nocturia. Extrinsic: **medications** (sedatives, antipsychotics, antihypertensives, diuretics, hypoglycaemics), poor footwear, rugs, poor lighting. Acute causes include syncope, arrhythmia, stroke, infection, hypoglycaemia and dehydration. Every hip fracture admission is an opportunity to find and fix these.\n\n**Delirium** affects a large proportion of hip fracture patients. Screen on admission with a tool such as the **4AT**, and record baseline cognition from family or carers so later changes can be recognised.\n- Look for the **cause of the fall** (syncope, arrhythmia, stroke, infection, hypoglycaemia, medications) and **complications of a long lie** (rhabdomyolysis, pressure injury, hypothermia, dehydration)"
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "- **X-ray:** AP pelvis and lateral hip\n- **Occult fracture:** if X-rays are normal but the patient cannot bear weight or has persistent pain, obtain **MRI** (or CT if MRI is unavailable or contraindicated)\n- **Preoperative:** FBC, UEC, glucose, group and hold, coagulation if anticoagulated, **CK** if a long lie, ECG, chest X-ray where indicated\n- **Cognitive screen** (baseline for delirium) and medication review\n\n**Interpreting the X-ray:** follow **Shenton's line** (the smooth arc from the inferior femoral neck to the superior pubic ramus); a break in it suggests a displaced neck fracture. Compare trabecular patterns and cortical outlines with the other side, and check the pubic rami, which are a common alternative fracture site. After a **long lie**, a high CK with dark urine means rhabdomyolysis: give IV fluids and monitor renal function and potassium before theatre."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Differentials",
+          "body": "| Condition | Discriminating clue |\n|---|---|\n| Pubic rami fracture | Groin pain, can often weight bear with pain, tender pubic ramus; managed non-operatively |\n| Occult neck of femur fracture | Normal X-ray but unable to weight bear; MRI |\n| Pathological fracture | History of cancer, lytic lesion; prior pain before fall |\n| Hip osteoarthritis flare | No trauma, gradual pain, reduced internal rotation |\n| Septic arthritis of the hip | Fever, severe pain on any movement |"
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**In the emergency department:**\n- **Analgesia promptly:** paracetamol plus titrated opioid, and a **fascia iliaca or femoral nerve block**, which reduces opioid use and delirium\n- IV fluids, pressure area care, warm the patient, treat the cause of the fall\n- Orthopaedic and orthogeriatric referral; plan surgery **within 48 hours** (delay increases mortality and complications)\n- Anticoagulants: warfarin can be reversed with vitamin K; DOACs are withheld and timing planned with anaesthetics; antiplatelets usually do not delay surgery\n\n**Operation by fracture type:**\n| Fracture | Usual operation |\n|---|---|\n| Undisplaced intracapsular | Internal fixation (cannulated screws) or arthroplasty in frail older people |\n| **Displaced intracapsular** | **Hemiarthroplasty**, or **total hip replacement** in fitter, independent patients |\n| Intertrochanteric (extracapsular) | **Sliding hip screw** or intramedullary nail |\n| Subtrochanteric | Intramedullary nail |\n\n**After surgery:**\n- **Weight bear as tolerated and mobilise from day 1** after surgery\n- **Delirium** prevention and screening (hydration, sleep, glasses and hearing aids, avoid sedatives, manage constipation and retention)\n- VTE prophylaxis, pressure injury prevention, nutrition\n- **Bone health:** start or plan osteoporosis treatment (e.g. zoledronic acid or denosumab with vitamin D and calcium), because a hip fracture is a minimal-trauma fracture\n- **Falls prevention**: medication review, home safety, strength and balance\n- Rehabilitation and discharge planning with the multidisciplinary team\n\n**Palliative approach:** for some frail patients with advanced dementia, surgery is still often the best analgesia, but goals of care should be discussed."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Shortened, externally rotated leg after a fall: neck of femur fracture.\n- Normal X-ray but cannot weight bear: **MRI**.\n- First management step in the ED: **analgesia including a fascia iliaca block**.\n- Surgery **within 48 hours**; mobilise **day 1**.\n- Displaced intracapsular = **replace**; extracapsular = **fix**.\n- Do not forget the cause of the fall, delirium and osteoporosis treatment.\n- Post-operative confusion on day 2: look for the cause (pain, retention, constipation, hypoxia, infection, hyponatraemia, drugs) rather than sedating.\n- Common complications to anticipate: pneumonia, urinary tract infection, pressure injury, VTE, dislocation after hemiarthroplasty, and loss of independence.\n- Pubic rami fractures are treated with analgesia and mobilisation, not surgery."
+        }
+      ],
+      "keyPoints": [
+        "Hip fracture: shortened, externally rotated leg; unable to weight bear after a fall.",
+        "Normal X-ray with inability to weight bear: MRI (or CT) for occult fracture.",
+        "Early analgesia including fascia iliaca or femoral nerve block.",
+        "Surgery within 48 hours of presentation (Hip Fracture Clinical Care Standard).",
+        "Displaced intracapsular: hemiarthroplasty or total hip replacement; extracapsular: sliding hip screw or nail.",
+        "Mobilise from day 1 after surgery; prevent and screen for delirium.",
+        "Start osteoporosis treatment and falls prevention before discharge."
+      ],
+      "redFlags": [
+        "Long lie before being found (rhabdomyolysis, pressure injury, hypothermia)",
+        "Syncope or arrhythmia as the cause of the fall",
+        "Acute confusion (delirium) before or after surgery",
+        "Prior hip pain before the fall (pathological fracture)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Timing of surgery",
+          "india": "Often delayed by cost, bed availability or family decisions.",
+          "australia": "Clinical Care Standard: surgery within 48 hours of presentation, audited by the ANZ Hip Fracture Registry."
+        },
+        {
+          "aspect": "Post-operative care",
+          "india": "Orthopaedic-led, with slow mobilisation.",
+          "australia": "Orthogeriatric co-management, day-1 mobilisation, bone health and falls prevention."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Classic leg posture in a displaced neck of femur fracture?",
+          "back": "Shortened and externally rotated."
+        },
+        {
+          "front": "Imaging if hip X-ray is normal but patient cannot bear weight?",
+          "back": "MRI (CT if MRI unavailable)."
+        },
+        {
+          "front": "Target time to surgery for hip fracture in Australia?",
+          "back": "Within 48 hours of presentation."
+        },
+        {
+          "front": "Usual operation for a displaced intracapsular hip fracture in a frail older patient?",
+          "back": "Hemiarthroplasty."
+        },
+        {
+          "front": "Regional block used for hip fracture analgesia?",
+          "back": "Fascia iliaca (or femoral nerve) block."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "orthopaedics--hip-fracture--q1",
+          "discipline": "adult-surgery",
+          "topic": "orthopaedics",
+          "difficulty": "foundation",
+          "stem": "An 84-year-old woman is brought to the emergency department after a fall at home. She is unable to stand. Her left leg is shortened and externally rotated. X-ray confirms a displaced subcapital fracture of the left femoral neck. She is in severe pain despite IV morphine 5 mg.\n\nWhat is the most appropriate next step for analgesia?",
+          "options": [
+            "Increase IV morphine to 20 mg bolus",
+            "Oral ibuprofen",
+            "Fascia iliaca block",
+            "IM pethidine",
+            "No further analgesia until theatre"
+          ],
+          "answer": 2,
+          "explanation": "A **fascia iliaca (or femoral nerve) block** provides effective, targeted analgesia for hip fractures, **reduces opioid requirements** and is associated with less **delirium**. The Australian Hip Fracture Clinical Care Standard expects prompt pain assessment and management, including nerve blocks. Large opioid boluses in the elderly risk respiratory depression and delirium. NSAIDs are generally avoided in frail older people (renal injury, bleeding). Pethidine is not recommended. Leaving her in pain is unacceptable.",
+          "whyWrong": [
+            "A large opioid bolus risks respiratory depression and delirium in the elderly.",
+            "NSAIDs risk renal injury and GI bleeding in frail older patients.",
+            "",
+            "Pethidine has toxic metabolites and is not recommended.",
+            "Untreated pain worsens delirium and outcomes."
+          ],
+          "tags": [
+            "hip fracture",
+            "nerve block",
+            "analgesia"
+          ]
+        },
+        {
+          "id": "orthopaedics--hip-fracture--q2",
+          "discipline": "adult-surgery",
+          "topic": "orthopaedics",
+          "difficulty": "core",
+          "stem": "A 79-year-old man trips in his garden and has left hip pain. He walked into the emergency department with difficulty. There is no leg shortening. AP pelvis and lateral hip X-rays are reported as normal. Six hours later he still cannot bear weight because of pain.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Discharge with analgesia and walking frame",
+            "Repeat X-ray in 2 weeks",
+            "Bone scan in 72 hours",
+            "Ultrasound of the hip",
+            "MRI of the hip"
+          ],
+          "answer": 4,
+          "explanation": "An older person who **cannot bear weight** after a fall despite **normal X-rays** may have an **occult hip fracture** (undisplaced or impacted). **MRI** is the investigation of choice (CT is an alternative when MRI is unavailable or contraindicated). Missing an undisplaced intracapsular fracture risks later displacement, which may convert a fixable fracture into one needing arthroplasty and increases avascular necrosis risk. A bone scan is less sensitive early and slower. Discharging him unable to walk is unsafe.",
+          "whyWrong": [
+            "He cannot bear weight, so discharge is unsafe and may miss a fracture.",
+            "Waiting 2 weeks risks displacement.",
+            "Bone scans are less sensitive in the first days and delay the diagnosis.",
+            "Ultrasound cannot reliably exclude a hip fracture.",
+            ""
+          ],
+          "tags": [
+            "occult fracture",
+            "hip fracture",
+            "mri"
+          ]
+        },
+        {
+          "id": "orthopaedics--hip-fracture--q3",
+          "discipline": "adult-surgery",
+          "topic": "orthopaedics",
+          "difficulty": "exam",
+          "stem": "A 76-year-old independent woman who plays lawn bowls three times a week falls and sustains a displaced intracapsular fracture of the right femoral neck. She is otherwise well and cognitively intact.\n\nWhich operation is most appropriate?",
+          "options": [
+            "Cannulated screw fixation",
+            "Total hip replacement",
+            "Sliding hip screw",
+            "Non-operative management with bed rest",
+            "Intramedullary nail"
+          ],
+          "answer": 1,
+          "explanation": "A **displaced intracapsular** fracture disrupts the retinacular blood supply to the femoral head, so fixation has a high risk of **avascular necrosis and non-union**. These fractures are treated by **arthroplasty**. For a **fit, independent, cognitively intact** patient, a **total hip replacement** gives better function and fewer reoperations than hemiarthroplasty; hemiarthroplasty is preferred in frailer patients. Screws are used for undisplaced intracapsular fractures, and sliding hip screws or nails for extracapsular fractures. Non-operative management leads to high mortality and complications from immobility.",
+          "whyWrong": [
+            "Screw fixation of a displaced intracapsular fracture has high failure and AVN rates.",
+            "",
+            "A sliding hip screw is for extracapsular (intertrochanteric) fractures.",
+            "Non-operative care causes prolonged immobility, pain and high mortality.",
+            "Nails are used for intertrochanteric and subtrochanteric fractures."
+          ],
+          "tags": [
+            "hip fracture",
+            "arthroplasty",
+            "surgery"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "orthopaedics--orthopaedic-emergencies",
+      "title": "Orthopaedic emergencies",
+      "minutes": 17,
+      "objectives": [
+        "Diagnose compartment syndrome clinically and arrange fasciotomy without waiting for pulse loss",
+        "Give correct emergency care for an open fracture",
+        "Diagnose and manage septic arthritis and osteomyelitis in adults",
+        "Recognise limb-threatening dislocations and neurovascular injury"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Limb-threatening conditions",
+          "body": "A small group of orthopaedic conditions threaten the limb or life within hours: **compartment syndrome**, **open fractures**, **septic arthritis**, **dislocations with neurovascular compromise** and **cauda equina syndrome** (covered in the back pain lesson). The AMC tests recognition and the **first action**, and punishes waiting for late signs."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Mechanisms",
+          "body": "**Compartment syndrome:** muscles are enclosed in non-expansile fascial compartments. Swelling or bleeding (fracture, crush injury, reperfusion after ischaemia, tight casts or bandages, burns) raises compartment pressure. Once it exceeds capillary perfusion pressure, **muscle and nerve become ischaemic**, even though the large arteries (and distal pulses) remain patent. Muscle necrosis starts within about 4-6 hours, leading to Volkmann's contracture, rhabdomyolysis and renal failure. Commonest sites: the **leg (tibial fractures)** and forearm.\n\n**Open fractures:** the bone communicates with the outside world, so bacteria (often from skin, soil or water) contaminate the fracture. The **Gustilo-Anderson** grade (I-III) reflects wound size, soft tissue damage and contamination, and predicts infection risk.\n\n**Septic arthritis:** bacteria (usually haematogenous spread; also penetrating injury or joint injection) enter the joint. Enzymes from bacteria and neutrophils destroy **articular cartilage within days**. **Staphylococcus aureus** is the commonest cause in adults; **Neisseria gonorrhoeae** in young sexually active adults; streptococci; gram-negatives in the elderly and people who inject drugs. Risk factors: prosthetic joints, rheumatoid arthritis, diabetes, immunosuppression, injecting drug use."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "**Compartment syndrome:**\n- **Pain out of proportion** to the injury, escalating despite analgesia (the earliest and most reliable sign)\n- **Pain on passive stretch** of the muscles in the compartment (e.g. passive toe flexion for the anterior leg compartment)\n- Tense, swollen compartment\n- Paraesthesia is a later sign; **pallor, paralysis and pulselessness are very late**, and the pulse may be present throughout\n\n**Open fracture:** any wound near a fracture, including a small puncture from inside out.\n\n**Septic arthritis:** acutely hot, swollen, **very painful joint with severely restricted movement** (patient refuses any active or passive movement), fever (may be absent in the elderly or immunosuppressed). Usually a single large joint (knee most often). **Disseminated gonococcal infection:** migratory polyarthralgia, tenosynovitis and pustular skin lesions.\n\n**Osteomyelitis in adults:** diabetic foot, after open fractures or surgery, vertebral osteomyelitis (back pain, fever, injecting drug use).\n\n**Neurovascular injury:** posterior knee dislocation (**popliteal artery**), supracondylar humerus (brachial artery, in children), posterior hip dislocation (**sciatic nerve**, leg shortened, flexed, adducted and internally rotated)."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "**Compartment syndrome** is a **clinical diagnosis**. Compartment pressure measurement can help in unconscious or unreliable patients (a difference between diastolic BP and compartment pressure of less than about 30 mmHg supports the diagnosis). CK rises with muscle necrosis.\n\n**Septic arthritis:**\n- **Joint aspiration before antibiotics** (unless it would dangerously delay treatment in sepsis): Gram stain, culture, cell count (a very high WCC, often over 50 x 10^9/L, with neutrophil predominance supports infection) and **crystals** (gout and pseudogout mimic sepsis and can coexist)\n- **Blood cultures**, FBC, CRP, ESR, UEC, urate\n- Prosthetic joint: aspirate in theatre or by the orthopaedic team\n- Gonococcal: NAAT of urethra, cervix, throat and rectum\n\n**Osteomyelitis:** MRI is the most sensitive imaging; X-ray changes lag by 10-14 days; bone biopsy for culture."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Hot swollen joint differentials",
+          "body": "| Condition | Clue |\n|---|---|\n| **Septic arthritis** | Fever, unable to move joint, turbid aspirate, organisms |\n| **Gout** | First MTP joint, rapid onset overnight, diuretics, alcohol, negatively birefringent needle crystals |\n| **Pseudogout (CPPD)** | Older, knee or wrist, positively birefringent rhomboid crystals, chondrocalcinosis |\n| Reactive arthritis | After GI or GU infection, oligoarthritis, conjunctivitis, urethritis |\n| Haemarthrosis | Trauma, anticoagulants, haemophilia |\n| Cellulitis or bursitis | Tender over the bursa or skin, joint movement relatively preserved |"
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Compartment syndrome:**\n- Remove or **split casts and bandages down to skin**\n- Keep the limb at **heart level** (elevation reduces arterial inflow; do not elevate)\n- Oxygen, fluids, treat hypotension\n- **Urgent fasciotomy** by the orthopaedic surgeon. **Do not wait for loss of pulses.**\n\n**Open fracture:**\n1. Analgesia, control bleeding\n2. **IV antibiotics as soon as possible** (ideally within 1 hour): **cefazolin** per eTG, with additional cover for heavy soil, farm or water contamination per eTG\n3. **Tetanus** prophylaxis (toxoid, plus immunoglobulin for tetanus-prone wounds in the incompletely immunised)\n4. **Photograph** the wound (reduces repeated dressing removal), remove gross contamination, cover with a **saline-soaked sterile dressing**\n5. **Splint**, check neurovascular status\n6. Urgent orthopaedic referral for **debridement and washout in theatre** and stabilisation\n\n**Septic arthritis:**\n- Aspirate, then **empirical IV antibiotics** per eTG (**flucloxacillin** for most adults, which covers S. aureus and streptococci; vancomycin if MRSA risk; **ceftriaxone** if gonococcal infection is suspected)\n- **Joint washout** (arthroscopic or open) by orthopaedics, repeated if needed\n- Prolonged antibiotics (IV then oral), guided by cultures\n- Treat sexual partners in gonococcal infection\n\n**Dislocations with neurovascular compromise:** reduce urgently (often before X-ray if the limb is threatened), splint and re-check. After knee dislocation, measure the **ankle-brachial index** and have a low threshold for CT angiography even if pulses return."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Pain out of proportion and pain on passive stretch after a tibial fracture or tight cast: **split the cast and call for fasciotomy**. Waiting for pulselessness is always wrong.\n- Open fracture: the first specific action is **IV cefazolin** (and tetanus), not X-ray or debridement in ED.\n- Hot, swollen, immobile knee with fever: **aspirate before antibiotics**, then IV flucloxacillin and washout.\n- Gout can coexist with infection: crystals do not exclude sepsis if the Gram stain or clinical picture suggests it.\n- Leg shortened, flexed, adducted and internally rotated after a dashboard injury: **posterior hip dislocation**; reduce urgently under sedation (avascular necrosis risk rises with delay) and check the sciatic nerve (foot drop).\n- Knee dislocation that has spontaneously reduced can still hide a popliteal artery injury: measure the ABI."
+        }
+      ],
+      "keyPoints": [
+        "Compartment syndrome: pain out of proportion and pain on passive stretch; pulses are often preserved.",
+        "Split casts to skin, keep limb at heart level, urgent fasciotomy; do not wait for pulse loss.",
+        "Open fracture: IV cefazolin early, tetanus, photograph and cover, splint, urgent washout in theatre.",
+        "Septic arthritis: aspirate before antibiotics, then IV flucloxacillin (ceftriaxone for gonococcal) and washout.",
+        "S. aureus is the commonest cause of septic arthritis in adults.",
+        "Posterior knee dislocation threatens the popliteal artery; check ABI and image.",
+        "Posterior hip dislocation: shortened, flexed, adducted, internally rotated leg; sciatic nerve risk."
+      ],
+      "redFlags": [
+        "Escalating pain despite analgesia after a fracture or cast",
+        "Wound near a fracture",
+        "Hot, swollen joint with fever and refusal to move",
+        "Absent or reduced distal pulses after dislocation"
+      ],
+      "contrast": [
+        {
+          "aspect": "Bone and joint infection causes",
+          "india": "Tuberculous arthritis and chronic osteomyelitis are common considerations.",
+          "australia": "S. aureus dominates; TB is rare. Empirical flucloxacillin (or cefazolin) per eTG."
+        },
+        {
+          "aspect": "Open fracture antibiotics",
+          "india": "Multiple agents for prolonged courses are common.",
+          "australia": "Early IV cefazolin (broader cover for heavy contamination) for a limited duration per eTG."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Earliest sign of compartment syndrome?",
+          "back": "Pain out of proportion to the injury, and pain on passive stretch."
+        },
+        {
+          "front": "Definitive treatment of compartment syndrome?",
+          "back": "Urgent fasciotomy."
+        },
+        {
+          "front": "First-line IV antibiotic for an open fracture (eTG)?",
+          "back": "Cefazolin, given as soon as possible."
+        },
+        {
+          "front": "Commonest organism in adult septic arthritis?",
+          "back": "Staphylococcus aureus."
+        },
+        {
+          "front": "What must be done before antibiotics in suspected septic arthritis (if safe)?",
+          "back": "Joint aspiration for Gram stain, culture, cell count and crystals."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "orthopaedics--orthopaedic-emergencies--q1",
+          "discipline": "adult-surgery",
+          "topic": "orthopaedics",
+          "difficulty": "core",
+          "stem": "A 24-year-old man had a closed tibial shaft fracture treated in an above-knee backslab 8 hours ago. He now reports severe, increasing leg pain despite repeated IV morphine. Passive flexion of his toes is extremely painful. His foot is warm and the dorsalis pedis pulse is palpable.\n\nWhat is the most appropriate immediate step?",
+          "options": [
+            "Elevate the leg on pillows above heart level",
+            "Reassure him because the pulse is present",
+            "Increase the morphine dose and review in 4 hours",
+            "Split the backslab and bandages to skin and call the orthopaedic registrar for urgent fasciotomy",
+            "Order a venous Doppler to exclude DVT"
+          ],
+          "answer": 3,
+          "explanation": "**Pain out of proportion** to the injury, escalating despite opioids, with **pain on passive stretch** after a tibial fracture is **compartment syndrome**. A **palpable pulse does not exclude it**, because compartment pressure rises enough to stop capillary perfusion well before it occludes major arteries. Immediately **release all constricting dressings down to skin**, keep the limb **at heart level** (elevation reduces perfusion pressure), and call for **urgent fasciotomy**. Delay beyond about 6 hours risks irreversible muscle necrosis.",
+          "whyWrong": [
+            "Elevation above the heart reduces arterial inflow and worsens ischaemia.",
+            "Pulses are usually present in compartment syndrome until very late.",
+            "Escalating opioid needs are a warning sign, not a solution.",
+            "",
+            "DVT does not explain pain on passive stretch after a tibial fracture; delay is dangerous."
+          ],
+          "tags": [
+            "compartment syndrome",
+            "tibial fracture",
+            "fasciotomy"
+          ]
+        },
+        {
+          "id": "orthopaedics--orthopaedic-emergencies--q2",
+          "discipline": "adult-surgery",
+          "topic": "orthopaedics",
+          "difficulty": "foundation",
+          "stem": "A 35-year-old farmer falls from a tractor. He has a deformed left lower leg with a 3 cm wound over the mid-tibia through which bone is visible. The wound is contaminated with soil. He last had a tetanus booster 15 years ago. The leg has been splinted, and he has received analgesia.\n\nWhat is the most important next step?",
+          "options": [
+            "Suture the wound in the emergency department",
+            "Give IV cefazolin (with additional cover for soil contamination per eTG) and tetanus prophylaxis",
+            "Arrange outpatient orthopaedic review",
+            "Start oral amoxicillin-clavulanate",
+            "Irrigate and debride the wound in the emergency department"
+          ],
+          "answer": 1,
+          "explanation": "This is an **open tibial fracture** with farm soil contamination. **Early IV antibiotics** (ideally within an hour of injury) are the single most important intervention to prevent deep infection: **cefazolin** per eTG, with additional cover for heavily contaminated (farm, soil, water) wounds per eTG. He also needs **tetanus prophylaxis** (his booster is more than 10 years ago, and this is a tetanus-prone wound: give toxoid and consider immunoglobulin per the Australian Immunisation Handbook). Then photograph and cover the wound with a saline-soaked dressing and arrange **urgent operative debridement and stabilisation**. The wound must never be closed in the ED.",
+          "whyWrong": [
+            "Closing a contaminated open fracture wound traps bacteria and causes deep infection.",
+            "",
+            "Open fractures need urgent admission and theatre.",
+            "Oral antibiotics are inadequate for an open fracture.",
+            "Formal debridement happens in theatre, not the ED."
+          ],
+          "tags": [
+            "open fracture",
+            "antibiotics",
+            "tetanus"
+          ]
+        },
+        {
+          "id": "orthopaedics--orthopaedic-emergencies--q3",
+          "discipline": "adult-surgery",
+          "topic": "orthopaedics",
+          "difficulty": "exam",
+          "stem": "A 58-year-old man with type 2 diabetes presents with a 2-day history of a hot, swollen, painful right knee. He cannot bear weight and holds the knee flexed. Temperature is 38.6°C. Any passive movement causes severe pain. He had gout in his great toe 3 years ago.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Start colchicine for acute gout",
+            "Intra-articular corticosteroid injection",
+            "Aspirate the knee for Gram stain, culture, cell count and crystals, then start IV antibiotics",
+            "Start oral flucloxacillin and review in 48 hours",
+            "MRI of the knee"
+          ],
+          "answer": 2,
+          "explanation": "A **hot, swollen, painful knee with fever** and **refusal to move** is **septic arthritis until proven otherwise**, even with a history of gout (which is common, and crystals can coexist with infection). The priority is **joint aspiration before antibiotics** for Gram stain, culture, WCC and crystals, plus blood cultures, then **empirical IV antibiotics** (flucloxacillin per eTG for most adults) and orthopaedic referral for **washout**. Cartilage can be destroyed within days. Injecting steroid into an infected joint is dangerous. Oral antibiotics are inadequate.",
+          "whyWrong": [
+            "Treating as gout without aspiration risks missing a septic joint.",
+            "Steroid injection into an infected joint accelerates destruction.",
+            "",
+            "Oral antibiotics are inadequate, and delaying aspiration risks misdiagnosis.",
+            "MRI is not required before aspiration and would delay treatment."
+          ],
+          "tags": [
+            "septic arthritis",
+            "aspiration",
+            "gout"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "orthopaedics--back-pain-and-cauda-equina",
+      "title": "Back pain and cauda equina syndrome",
+      "minutes": 15,
+      "objectives": [
+        "Triage low back pain into non-specific, radicular and serious (red flag) categories",
+        "Avoid low-value imaging and manage non-specific low back pain according to Australian standards",
+        "Recognise cauda equina syndrome and arrange emergency MRI and surgery",
+        "Identify the serious causes: infection, malignancy, fracture, aneurysm and inflammatory back pain"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why this matters",
+          "body": "Low back pain is the leading cause of disability in Australia and one of the most common reasons for GP and emergency visits. More than 90% of cases are **non-specific** (no identifiable serious cause) and improve within weeks. The harm in Australian practice has come from over-investigation, **imaging** and **opioid prescribing**. The ACSQHC **Low Back Pain Clinical Care Standard** sets expectations: assess for serious pathology, avoid routine imaging, give advice and reassurance, encourage activity and use medicines judiciously.\n\nThe AMC tests both halves: **don't over-investigate** the common case, and **never miss** cauda equina syndrome, spinal infection, malignancy, fracture or a leaking aneurysm."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical triage",
+          "body": "**Non-specific low back pain:** mechanical pain, worse with movement, better with rest, no neurological signs, no red flags.\n\n**Radicular pain (sciatica):** leg pain worse than back pain, radiating below the knee in a dermatomal pattern, positive **straight leg raise**. Usually from a disc herniation. Nerve root signs:\n| Root | Weakness | Sensory loss | Reflex |\n|---|---|---|---|\n| L4 | Knee extension, ankle dorsiflexion | Medial shin | Knee jerk |\n| L5 | **Great toe extension**, ankle dorsiflexion | Dorsum of foot | None reliable |\n| S1 | Plantarflexion, eversion | Lateral foot, sole | **Ankle jerk** |\n\n**Red flags for serious pathology:**\n| Suspect | Features |\n|---|---|\n| **Cauda equina syndrome** | **Saddle anaesthesia**, **urinary retention** or incontinence, faecal incontinence, **bilateral leg symptoms**, sexual dysfunction |\n| **Malignancy** | **History of cancer** (breast, prostate, lung, kidney, thyroid, myeloma), weight loss, age over 50, night pain, not improving |\n| **Infection** (discitis, epidural abscess, vertebral osteomyelitis) | Fever, **injecting drug use**, immunosuppression, recent procedure or bacteraemia |\n| **Fracture** | Osteoporosis, **long-term corticosteroids**, significant trauma, older age |\n| **AAA** | Older smoker, abdominal or back pain, pulsatile mass, hypotension |\n| **Inflammatory (axial spondyloarthritis)** | Young adult, morning stiffness over 30 minutes, improves with exercise, night waking in the second half of the night, uveitis |"
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Cauda equina syndrome",
+          "body": "The spinal cord ends at about **L1-L2**; below it the lumbar and sacral nerve roots form the cauda equina. A large central disc herniation (commonly **L4-5 or L5-S1**), tumour, abscess, haematoma or fracture can compress these roots, damaging the sacral roots (S2-S4) that supply the **bladder, bowel, perineum and sexual function**. Because these are lower motor neuron roots, reflexes are reduced and anal tone is lax. Once painless urinary retention with overflow develops (CES-R), outcomes are much worse than when caught earlier (incomplete, CES-I), which is why speed matters."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "**Non-specific low back pain:** **no imaging**. X-rays and CT show degenerative changes that are common in pain-free people and do not change management; imaging increases anxiety, radiation, opioid use and surgery without improving outcomes.\n\n**Radicular pain:** imaging is not needed initially; **MRI** if symptoms persist beyond about 6 weeks and the patient is a surgical candidate, or if there is progressive neurological deficit.\n\n**Suspected cauda equina syndrome:** **emergency MRI** of the lumbosacral spine. A **post-void bladder scan** showing a large residual volume supports the diagnosis. Examine **perianal sensation** and anal tone.\n\n**Suspected infection:** FBC, CRP, ESR, **blood cultures**, MRI with contrast.\n**Suspected malignancy:** MRI whole spine, bloods (calcium, ALP, PSA, serum protein electrophoresis).\n**Suspected osteoporotic fracture:** X-ray; MRI if neurological signs or to assess acuity.\n**Inflammatory back pain:** CRP, HLA-B27, MRI of the sacroiliac joints; rheumatology referral."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Back pain that is not from the spine",
+          "body": "| Condition | Clue |\n|---|---|\n| **Leaking or ruptured AAA** | Older smoker, sudden severe pain, hypotension, pulsatile mass |\n| **Renal colic** | Colicky loin-to-groin pain, restless, haematuria |\n| **Pyelonephritis** | Fever, loin tenderness, urinary symptoms |\n| **Pancreatitis or peptic ulcer** | Epigastric pain radiating through to the back |\n| **Aortic dissection** | Tearing pain between the shoulder blades, BP difference between arms |\n| **Herpes zoster** | Unilateral dermatomal burning pain before the rash appears |\n| **Gynaecological** (endometriosis, PID) | Cyclical pain, dysmenorrhoea, pelvic signs |\n| **Multiple myeloma** | Older, anaemia, raised calcium, renal impairment, lytic lesions |\n\nPain that is **not affected by movement or position**, or that is constant and worse at night, should prompt a search beyond the spine."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Non-specific low back pain:**\n- **Reassurance and education** that the prognosis is good and hurt does not mean harm\n- **Stay active** and continue usual activities including work where possible; avoid bed rest\n- Heat, exercise and physiotherapy; psychological approaches for persistent pain\n- Medicines: evidence shows **paracetamol alone offers little benefit** for acute low back pain; a short course of an **NSAID** can help if not contraindicated; **opioids are generally avoided**, and if used, only briefly with a clear stop plan. Benzodiazepines are not recommended\n- Screen for psychosocial \"yellow flags\" (fear-avoidance, depression, compensation issues) that predict chronicity\n\n**Sciatica:** most improve over 6-12 weeks with the same approach. Surgical referral (discectomy) for progressive deficit or persistent disabling pain with concordant MRI findings.\n\n**Cauda equina syndrome:** **urgent neurosurgical or spinal referral** for **decompression surgery** as early as possible. Catheterise if in retention.\n\n**Spinal epidural abscess:** IV antibiotics per eTG (cover S. aureus), surgical drainage if neurological deficit.\n\n**Metastatic spinal cord compression:** high-dose **dexamethasone**, urgent MRI and oncology or spinal surgery (radiotherapy or decompression)."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Back pain with no red flags: the answer is **no imaging**, stay active, reassure.\n- Any mention of **saddle numbness, urinary retention or bilateral sciatica**: **emergency MRI**.\n- **Fever plus injecting drug use plus back pain**: epidural abscess.\n- Back pain in a man with prostate cancer or a woman with breast cancer: metastases until proven otherwise.\n- Young man with morning stiffness improving with exercise: axial spondyloarthritis."
+        }
+      ],
+      "keyPoints": [
+        "Over 90% of low back pain is non-specific; no imaging without red flags.",
+        "Advise to stay active; paracetamol alone has little benefit; short NSAID course may help; avoid opioids.",
+        "Cauda equina: saddle anaesthesia, bladder or bowel dysfunction, bilateral leg symptoms; emergency MRI and decompression.",
+        "Post-void bladder scan and perianal sensation are key bedside checks.",
+        "Fever, injecting drug use and back pain suggest epidural abscess or discitis.",
+        "History of cancer with new back pain: MRI for metastases; dexamethasone for cord compression.",
+        "L5: great toe extension weakness, dorsum of foot numbness; S1: reduced ankle jerk, lateral foot numbness."
+      ],
+      "redFlags": [
+        "Saddle anaesthesia, urinary retention or incontinence, bilateral leg symptoms",
+        "Fever, injecting drug use or immunosuppression",
+        "History of cancer or unexplained weight loss",
+        "Progressive neurological deficit",
+        "Older person with back pain and hypotension (AAA)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Imaging non-specific back pain",
+          "india": "Lumbar X-rays or MRI are often ordered at the first visit.",
+          "australia": "No imaging without red flags (Low Back Pain Clinical Care Standard)."
+        },
+        {
+          "aspect": "Spinal infection",
+          "india": "Spinal TB (Pott's disease) is a major consideration.",
+          "australia": "Pyogenic infection (S. aureus), often with injecting drug use, is more common; TB mainly in migrants."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Key symptoms of cauda equina syndrome?",
+          "back": "Saddle anaesthesia, bladder or bowel dysfunction, bilateral leg symptoms, sexual dysfunction."
+        },
+        {
+          "front": "Investigation for suspected cauda equina syndrome?",
+          "back": "Emergency MRI of the lumbosacral spine."
+        },
+        {
+          "front": "Imaging for acute non-specific low back pain without red flags?",
+          "back": "None."
+        },
+        {
+          "front": "Which root lesion reduces the ankle jerk?",
+          "back": "S1."
+        },
+        {
+          "front": "Features of inflammatory back pain?",
+          "back": "Age under 40, insidious onset, morning stiffness, improves with exercise, night pain in the second half of the night."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "orthopaedics--back-pain-and-cauda-equina--q1",
+          "discipline": "adult-surgery",
+          "topic": "orthopaedics",
+          "difficulty": "foundation",
+          "stem": "A 38-year-old warehouse worker presents to his GP with 5 days of low back pain after lifting boxes. The pain is worse with bending and eases with rest. There is no leg pain, fever, weight loss or bladder or bowel change. Neurological examination is normal. He asks for an X-ray.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Lumbar spine X-ray",
+            "MRI of the lumbar spine",
+            "Oxycodone and 1 week of bed rest",
+            "Refer to a spinal surgeon",
+            "Reassure, advise him to stay active, and consider a short course of an NSAID"
+          ],
+          "answer": 4,
+          "explanation": "This is **acute non-specific low back pain** with **no red flags** and a normal neurological examination. The prognosis is good. Australian standards recommend **no imaging** (it doesn't change management and finds incidental degenerative changes that increase anxiety and intervention), **reassurance**, advice to **stay active** and continue work with modifications, and, if needed, a short course of an **NSAID**. Paracetamol alone has little benefit, bed rest delays recovery, and opioids carry harms without meaningful benefit for most. Explain why an X-ray is not needed.",
+          "whyWrong": [
+            "X-ray without red flags is low-value care and does not help.",
+            "MRI is not indicated without red flags or persistent radicular symptoms.",
+            "Opioids and bed rest worsen outcomes in non-specific back pain.",
+            "Surgical referral is not indicated.",
+            ""
+          ],
+          "ausPearl": "The ACSQHC Low Back Pain Clinical Care Standard (2022) discourages routine imaging and opioid prescribing.",
+          "tags": [
+            "low back pain",
+            "low-value care",
+            "general practice"
+          ]
+        },
+        {
+          "id": "orthopaedics--back-pain-and-cauda-equina--q2",
+          "discipline": "adult-surgery",
+          "topic": "orthopaedics",
+          "difficulty": "core",
+          "stem": "A 45-year-old woman presents with 2 days of severe low back pain radiating down both legs. Since this morning she has had difficulty passing urine and numbness \"down below\" when wiping. On examination ankle reflexes are reduced bilaterally and perianal sensation is reduced. A bladder scan after voiding shows 650 mL.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Emergency MRI of the lumbosacral spine and urgent spinal surgical referral",
+            "Oral prednisolone and review in 1 week",
+            "Outpatient MRI within 6 weeks",
+            "Physiotherapy and NSAIDs",
+            "Lumbar spine X-ray"
+          ],
+          "answer": 0,
+          "explanation": "**Bilateral sciatica, saddle anaesthesia, urinary retention** (650 mL post-void residual), **reduced perianal sensation** and reduced reflexes are **cauda equina syndrome**, usually from a large central disc herniation. This is a surgical emergency: she needs an **emergency MRI** and **urgent decompression**. Outcomes for bladder, bowel and sexual function depend on how early decompression occurs; once painless retention is established, recovery is less likely. Catheterise to relieve retention. Delays of any kind are wrong.",
+          "whyWrong": [
+            "",
+            "Steroids do not treat cauda equina compression, and delay risks permanent deficit.",
+            "Waiting weeks risks permanent bladder, bowel and sexual dysfunction.",
+            "Conservative care is inappropriate for cauda equina syndrome.",
+            "X-ray does not show disc herniation or nerve compression."
+          ],
+          "tags": [
+            "cauda equina",
+            "mri",
+            "emergency"
+          ]
+        },
+        {
+          "id": "orthopaedics--back-pain-and-cauda-equina--q3",
+          "discipline": "adult-surgery",
+          "topic": "orthopaedics",
+          "difficulty": "exam",
+          "stem": "A 32-year-old man who injects methamphetamine presents with 10 days of worsening thoracolumbar back pain. Today he has developed weakness in both legs. Temperature is 38.4°C. There is tenderness over the T12-L1 spinous processes. CRP is 210 mg/L.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Acute disc prolapse",
+            "Metastatic spinal cord compression",
+            "Spinal epidural abscess",
+            "Ankylosing spondylitis flare",
+            "Osteoporotic vertebral fracture"
+          ],
+          "answer": 2,
+          "explanation": "**Back pain, fever and neurological deficit** in a person who **injects drugs** is **spinal epidural abscess** (often with discitis or vertebral osteomyelitis) until proven otherwise. The usual organism is **Staphylococcus aureus**. He needs **urgent MRI with contrast**, blood cultures, IV antibiotics covering S. aureus per eTG, and **urgent surgical decompression** given the neurological deficit. The classic triad (back pain, fever, neurological deficit) is present in only a minority, so a high index of suspicion with any two features is important.",
+          "whyWrong": [
+            "Disc prolapse does not cause fever and a very high CRP.",
+            "Metastatic compression is unlikely in a 32-year-old without known cancer, and fever points to infection.",
+            "",
+            "Inflammatory back pain does not cause fever, focal tenderness and acute weakness.",
+            "Osteoporotic fracture is unlikely at his age and does not cause fever."
+          ],
+          "tags": [
+            "epidural abscess",
+            "injecting drug use",
+            "back pain"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "orthopaedics--osteoporosis",
+      "title": "Osteoporosis and bone health",
+      "minutes": 14,
+      "objectives": [
+        "Define osteoporosis by DXA and by minimal-trauma fracture",
+        "Identify risk factors and investigate for secondary causes",
+        "Choose and counsel on first-line treatment: bisphosphonates, denosumab, calcium and vitamin D",
+        "Explain the key safety issues: denosumab rebound, osteonecrosis of the jaw and atypical femoral fractures"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Osteoporosis in Australia",
+          "body": "Osteoporosis affects a large proportion of older Australians, especially women after menopause, and causes vertebral, hip, wrist and other **minimal-trauma fractures** (a fracture from a fall from standing height or less). Most people with osteoporosis are **undiagnosed and untreated**, even after a fracture. The RACGP and Healthy Bones Australia guideline on osteoporosis management guides general practice care.\n\nA **minimal-trauma fracture** in a person over 50 should be treated as osteoporosis regardless of the bone density result."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Pathogenesis and risk factors",
+          "body": "Bone is constantly remodelled: **osteoclasts** resorb and **osteoblasts** form. Peak bone mass is reached in early adulthood. Osteoporosis develops when resorption outpaces formation, reducing bone mass and damaging microarchitecture.\n\n**Risk factors:**\n- Female sex, **menopause** (oestrogen loss increases osteoclast activity), increasing age\n- Previous minimal-trauma fracture, family history of hip fracture\n- Low body weight, smoking, excess alcohol, physical inactivity, low calcium intake, vitamin D deficiency\n- **Glucocorticoids** (7.5 mg prednisolone daily or more for 3 months or longer is a common threshold for concern)\n- Medications: aromatase inhibitors, androgen deprivation therapy, some anticonvulsants, excessive thyroxine, PPIs (weak association)\n- Diseases: hyperthyroidism, primary hyperparathyroidism, hypogonadism, coeliac disease, rheumatoid arthritis, chronic kidney and liver disease, myeloma, early menopause"
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features and who to assess",
+          "body": "Osteoporosis is **silent until a fracture occurs**. Presentations:\n- **Vertebral fractures:** sudden back pain after a minor strain, cough or lift, or no symptoms at all; **height loss of more than 3 cm**, increasing thoracic **kyphosis**, a protuberant abdomen and reflux or breathlessness from reduced thoracic space. Only about a third of vertebral fractures come to clinical attention\n- **Wrist, hip, humerus, pelvic and rib fractures** after falls from standing height\n- An incidental finding of osteopenia or a vertebral fracture on a chest X-ray or CT, which should always be acted on\n\n**Who to assess:**\n- Anyone over 50 with a **minimal-trauma fracture**\n- Postmenopausal women and men over 50 with risk factors (glucocorticoids, early menopause, low body weight, relevant diseases or drugs)\n- All adults aged 70 and over\n- People on **long-term glucocorticoids**: assess at the start of therapy, because bone loss is fastest in the first months and fracture risk rises at higher bone density than in postmenopausal osteoporosis\n- Men on androgen deprivation therapy and women on aromatase inhibitors for cancer"
+        },
+        {
+          "kind": "investigations",
+          "heading": "Diagnosis and investigations",
+          "body": "**DXA (dual-energy X-ray absorptiometry)** of the lumbar spine and hip:\n- **T-score** compares with a young adult: **-2.5 or lower = osteoporosis**; between -1 and -2.5 = osteopenia (low bone mass)\n- **Z-score** compares with age-matched people; used in premenopausal women, men under 50 and children. A low Z-score (below about -2) prompts a search for secondary causes\n\n**Osteoporosis is diagnosed** by a T-score of -2.5 or lower, **or** by a minimal-trauma fracture (hip or vertebral especially) regardless of T-score.\n\n**Fracture risk calculators** (e.g. Garvan or FRAX) combine risk factors to estimate 10-year fracture risk.\n\n**Screening for secondary causes:** FBC, UEC, LFT, **calcium**, phosphate, **25-hydroxy vitamin D**, TSH, PTH if calcium abnormal; serum protein electrophoresis (myeloma) in vertebral fractures; testosterone in men; coeliac serology when indicated.\n\n**Vertebral fractures** are often silent: height loss (over 3 cm), kyphosis or acute back pain after minimal strain. Lateral spine X-ray identifies them.\n\nMedicare funds DXA for people aged 70 and over and for people with specific risk factors or previous fractures; check current MBS criteria."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Everyone:**\n- **Calcium**: aim for about 1000-1300 mg/day, preferably from diet (dairy, fortified foods); supplements if dietary intake is low\n- **Vitamin D**: safe sun exposure and supplements to keep levels adequate (commonly at least 50 nmol/L); correct deficiency before antiresorptives\n- **Weight-bearing and resistance exercise**, balance training, stop smoking, limit alcohol\n- **Falls prevention**: medication review (sedatives, antihypertensives), vision, home safety, hip protectors in residential care\n\n**Drug treatment** (PBS subsidy depends on a minimal-trauma fracture or a qualifying T-score that varies by age; check current PBS criteria):\n| Drug | Notes |\n|---|---|\n| **Oral bisphosphonates** (alendronate weekly, risedronate) | Take fasting with a full glass of water, remain upright for 30 minutes, then wait before food; avoid in oesophageal disease and in severe renal impairment |\n| **Zoledronic acid** IV once yearly | Useful after hip fracture or if oral not tolerated; flu-like reaction after first dose; check renal function and vitamin D |\n| **Denosumab** SC 6-monthly | RANKL antibody; can be used in renal impairment; risk of hypocalcaemia; **must not be stopped or delayed without follow-on therapy** because of **rebound bone loss and multiple vertebral fractures** |\n| Raloxifene | SERM; reduces vertebral fractures; VTE risk |\n| **Menopausal hormone therapy** | Option for younger postmenopausal women with symptoms |\n| **Romosozumab, teriparatide** | Anabolic agents for very high-risk patients (e.g. severe osteoporosis with multiple fractures); specialist use under PBS criteria |\n\n**Rare but important adverse effects of antiresorptives:**\n- **Osteonecrosis of the jaw**: very rare at osteoporosis doses; encourage good dental care and a dental review before starting where possible\n- **Atypical femoral fractures**: thigh or groin pain in a long-term bisphosphonate user needs femoral X-rays\n- **Drug holiday**: after about 5 years of oral (or 3 of IV) bisphosphonate in lower-risk patients, a break may be considered; **not applicable to denosumab**\n\nReview with repeat DXA every 2 years or so if it will change management."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- A minimal-trauma fracture in someone over 50 = osteoporosis; treatment is indicated, DXA helps monitoring.\n- The trap: a patient stopping **denosumab** because they \"feel fine\": this causes rebound fractures; switch to a bisphosphonate if stopping.\n- Oral bisphosphonate counselling: fasting, full glass of water, upright 30 minutes.\n- Correct vitamin D deficiency before zoledronic acid or denosumab to avoid hypocalcaemia.\n- Young person with a low Z-score: look for a secondary cause."
+        }
+      ],
+      "keyPoints": [
+        "Osteoporosis: DXA T-score of -2.5 or lower, or any minimal-trauma fracture.",
+        "Z-score is used for premenopausal women, men under 50 and children.",
+        "Screen for secondary causes: calcium, vitamin D, renal, liver, thyroid, myeloma, testosterone in men.",
+        "First-line: bisphosphonate (oral or IV) or denosumab, with adequate calcium and vitamin D.",
+        "Never stop denosumab without follow-on therapy: rebound vertebral fractures.",
+        "Oral bisphosphonates: fasting, full glass of water, upright 30 minutes.",
+        "Falls prevention and exercise are part of treatment."
+      ],
+      "redFlags": [
+        "Stopping or delaying denosumab without follow-on therapy",
+        "Thigh or groin pain on long-term bisphosphonates (atypical femoral fracture)",
+        "Very low Z-score or fracture in a young person (secondary cause)",
+        "Vertebral fracture with anaemia or high calcium (myeloma)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Treatment threshold",
+          "india": "Calcium and vitamin D alone often, drugs if affordable after a fracture.",
+          "australia": "PBS-subsidised antiresorptives after a minimal-trauma fracture or qualifying T-score."
+        },
+        {
+          "aspect": "Stopping treatment",
+          "india": "Treatment often stops when the prescription runs out.",
+          "australia": "Denosumab is never stopped without follow-on bisphosphonate because of rebound fractures."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "T-score defining osteoporosis?",
+          "back": "-2.5 or lower."
+        },
+        {
+          "front": "Risk of stopping denosumab abruptly?",
+          "back": "Rebound bone loss and multiple vertebral fractures; give follow-on bisphosphonate."
+        },
+        {
+          "front": "How should oral alendronate be taken?",
+          "back": "Fasting, with a full glass of water, remaining upright for 30 minutes before food."
+        },
+        {
+          "front": "Which score is used for premenopausal women?",
+          "back": "Z-score."
+        },
+        {
+          "front": "Symptom suggesting an atypical femoral fracture on bisphosphonates?",
+          "back": "Thigh or groin pain; image both femurs."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "orthopaedics--osteoporosis--q1",
+          "discipline": "adult-surgery",
+          "topic": "orthopaedics",
+          "difficulty": "foundation",
+          "stem": "A 71-year-old woman has a DXA scan showing a lumbar spine T-score of -2.8 and a femoral neck T-score of -2.6. She has never had a fracture. Her calcium and vitamin D levels are normal, and she has no oesophageal disease. She is prescribed weekly oral alendronate.\n\nWhich instruction is most important for her to follow?",
+          "options": [
+            "Take it with food to prevent stomach upset",
+            "Take it at bedtime with milk",
+            "Take it fasting with a full glass of plain water and remain upright for 30 minutes before eating",
+            "Take it with a calcium supplement to improve absorption",
+            "Chew the tablet thoroughly"
+          ],
+          "answer": 2,
+          "explanation": "Oral bisphosphonates are **very poorly absorbed**, and absorption is almost abolished by food, calcium and other drinks. They also cause **oesophageal irritation and ulceration** if they lodge in the oesophagus. So they are taken **on an empty stomach first thing in the morning with a full glass of plain water**, the patient must **stay upright for at least 30 minutes**, and then wait before food, other drinks, calcium or other medicines. Her T-score of -2.5 or lower confirms osteoporosis.",
+          "whyWrong": [
+            "Food markedly reduces absorption.",
+            "Lying down after the dose risks oesophagitis, and milk reduces absorption.",
+            "",
+            "Calcium binds the drug and prevents absorption; take separately.",
+            "Chewing increases oesophageal and oral irritation."
+          ],
+          "tags": [
+            "osteoporosis",
+            "bisphosphonate",
+            "counselling"
+          ]
+        },
+        {
+          "id": "orthopaedics--osteoporosis--q2",
+          "discipline": "adult-surgery",
+          "topic": "orthopaedics",
+          "difficulty": "core",
+          "stem": "A 74-year-old woman has been on denosumab injections every 6 months for 4 years. She tells her GP that she feels well, has read about jaw problems online and wants to stop. Her last injection was 5 months ago.\n\nWhat is the most appropriate advice?",
+          "options": [
+            "Stop denosumab now; no further treatment is needed",
+            "Delay the next injection by 12 months as a drug holiday",
+            "Switch to calcium and vitamin D alone",
+            "Explain the rebound fracture risk; if stopping, transition to a bisphosphonate (e.g. zoledronic acid) timed to the next due dose",
+            "Double the dose to shorten the course"
+          ],
+          "answer": 3,
+          "explanation": "Denosumab's effect **wears off rapidly** after the dosing interval, causing **rebound increased bone turnover**, rapid bone loss and a risk of **multiple vertebral fractures**. It must **not be stopped or delayed without follow-on therapy**, usually a **bisphosphonate** such as zoledronic acid given around when the next dose is due. Drug holidays apply to bisphosphonates, not denosumab. Discuss her concerns: osteonecrosis of the jaw is very rare at osteoporosis doses, and good dental hygiene and regular dental review reduce the risk.",
+          "whyWrong": [
+            "Stopping without follow-on therapy risks rebound vertebral fractures.",
+            "Drug holidays are not safe with denosumab.",
+            "Calcium and vitamin D alone will not prevent rebound bone loss.",
+            "",
+            "There is no role for dose doubling."
+          ],
+          "ausPearl": "Denosumab rebound fractures after cessation are a recognised Australian prescribing safety issue highlighted in PBS and RACGP guidance.",
+          "tags": [
+            "denosumab",
+            "rebound fractures",
+            "osteoporosis"
+          ]
+        },
+        {
+          "id": "orthopaedics--osteoporosis--q3",
+          "discipline": "adult-surgery",
+          "topic": "orthopaedics",
+          "difficulty": "exam",
+          "stem": "A 42-year-old man presents with acute back pain after lifting a light box. X-ray shows a wedge fracture of L1. DXA shows a lumbar spine Z-score of -3.1. He drinks little alcohol and does not smoke. He has had intermittent diarrhoea and bloating for years.\n\nWhich investigation is most likely to reveal the cause?",
+          "options": [
+            "Serum PSA",
+            "Coeliac serology (tissue transglutaminase IgA with total IgA)",
+            "HLA-B27",
+            "Serum uric acid",
+            "Bone scan"
+          ],
+          "answer": 1,
+          "explanation": "A **minimal-trauma vertebral fracture** in a **young man** with a very low **Z-score** strongly suggests **secondary osteoporosis**, and the history of chronic diarrhoea and bloating points to **coeliac disease**, which causes malabsorption of calcium and vitamin D. Investigate with **tTG-IgA and total IgA**, along with calcium, vitamin D, PTH, testosterone, thyroid and renal function, and serum protein electrophoresis. Treating the cause (gluten-free diet) improves bone density. Other causes in young men include hypogonadism, glucocorticoid use, hyperthyroidism and myeloma.",
+          "whyWrong": [
+            "PSA is not relevant to his age and presentation.",
+            "",
+            "HLA-B27 relates to spondyloarthritis, not osteoporotic fracture.",
+            "Uric acid relates to gout.",
+            "A bone scan does not identify the cause of low bone density."
+          ],
+          "tags": [
+            "secondary osteoporosis",
+            "coeliac disease",
+            "z-score"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "orthopaedics--paediatric-orthopaedics-and-limp",
+      "title": "Paediatric orthopaedics and the limping child",
+      "minutes": 17,
+      "objectives": [
+        "Build an age-based differential for the limping child",
+        "Distinguish transient synovitis from septic arthritis using clinical and laboratory features",
+        "Recognise Perthes disease, SUFE and developmental dysplasia of the hip",
+        "Manage common paediatric fractures and identify patterns suggesting non-accidental injury"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The limping child",
+          "body": "Limp is a common paediatric presentation. Most causes are benign (minor trauma, transient synovitis), but the AMC wants you to exclude **septic arthritis**, **SUFE**, **non-accidental injury** and, rarely, **malignancy** (leukaemia, bone tumours). Age is the best starting point:\n\n| Age | Think of |\n|---|---|\n| 0-3 years | Septic arthritis, **DDH**, **toddler's fracture**, **NAI** |\n| 3-10 years | **Transient synovitis**, septic arthritis, **Perthes disease**, fracture |\n| 10-16 years | **SUFE**, Osgood-Schlatter, sports injuries, bone tumours |\n\nAny age: infection (septic arthritis, osteomyelitis), trauma, leukaemia, juvenile idiopathic arthritis.\n\nGuidance from the **RCH Melbourne clinical practice guidelines** is widely used in Australia."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Mechanisms worth knowing",
+          "body": "- **Transient synovitis:** a self-limiting, post-viral inflammation of the hip synovium.\n- **Septic arthritis and osteomyelitis:** haematogenous spread to the metaphysis (rich, slow-flowing blood supply); in young children, metaphyseal vessels cross the growth plate into the joint. **S. aureus** is commonest; **Kingella kingae** is important under 4 years.\n- **Perthes disease:** idiopathic **avascular necrosis of the femoral head** in children aged about 4-8 (boys more than girls); the head collapses and remodels over 2-4 years.\n- **SUFE (slipped upper femoral epiphysis):** the femoral head slips posteriorly and inferiorly through the weakened growth plate during the adolescent growth spurt; risk factors are **obesity**, male sex and endocrine disorders (hypothyroidism, growth hormone therapy).\n- **DDH:** abnormal development of the hip, from mild dysplasia to dislocation; risk factors are **breech presentation, family history, female sex, first-born** and tight swaddling with legs straight."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "**Transient synovitis:** age 3-8, recent viral URTI, **well-looking**, afebrile or low-grade fever, limp or reluctance to walk, mildly reduced hip movement.\n\n**Septic arthritis:** unwell, febrile, **refuses to weight bear**, holds the hip flexed, abducted and externally rotated, severe pain on any movement.\n\n**Kocher criteria** (predict septic arthritis of the hip): **non-weight bearing, fever over 38.5°C, ESR over 40 mm/h, WCC over 12 x 10^9/L**. The more present, the higher the probability (CRP over 20 mg/L is often added).\n\n**Perthes:** insidious limp, hip, thigh or **knee pain**, reduced abduction and internal rotation.\n\n**SUFE:** overweight adolescent, hip, thigh or **knee pain** (referred along the obturator nerve), limp, **loss of internal rotation**, and **obligatory external rotation when the hip is flexed**. It can be bilateral.\n\n**DDH:** asymmetric skin creases, leg length difference, limited abduction; in newborns, **Barlow** (dislocatable) and **Ortolani** (relocates with a clunk) tests; in older children, a painless limp or waddling gait.\n\n**Other common problems:**\n- **Toddler's fracture:** spiral undisplaced tibial fracture in a newly walking child, refuses to weight bear, may be invisible on initial X-ray\n- **Osgood-Schlatter disease:** active adolescent, pain and a tender lump at the **tibial tuberosity**, worse with running and kneeling; self-limiting\n- **Bone tumours:** night pain, persistent pain, swelling; **osteosarcoma** at the metaphysis around the knee in adolescents; **Ewing sarcoma** in the diaphysis, often with fever"
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "- **Bloods:** FBC, CRP, ESR, blood cultures if febrile; blood film if leukaemia suspected\n- **Hip ultrasound** shows an effusion (present in both transient synovitis and septic arthritis) and guides aspiration\n- **Joint aspiration** if septic arthritis is suspected\n- **X-ray:** AP pelvis and **frog-leg lateral** views for Perthes and **SUFE** (frog-leg lateral shows a subtle slip that an AP can miss; on AP, **Klein's line** along the superior femoral neck fails to intersect the epiphysis)\n- **DDH:** **hip ultrasound** in infants under about 4-6 months (femoral head is cartilage); X-ray after that. Infants with risk factors (breech, family history) have an ultrasound at around 6 weeks per local guidance\n- **MRI:** early Perthes, osteomyelitis, tumours\n- Suspected NAI: skeletal survey per local child protection protocol"
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Transient synovitis:** rest and NSAIDs (ibuprofen); improves within days. Review within 24-48 hours, with advice to return if fever develops or the child won't walk. Symptoms beyond about a week need reassessment.\n\n**Septic arthritis:** urgent orthopaedic referral for **aspiration and washout**, **IV antibiotics** per local guideline (e.g. flucloxacillin or cefazolin, per RCH or eTG), then oral step-down.\n\n**Perthes:** orthopaedic referral; maintain range of movement, physiotherapy, activity modification, bracing or surgery in some; younger age at onset has a better prognosis.\n\n**SUFE:** an **orthopaedic emergency**. Make the child **non-weight bearing** immediately (crutches or wheelchair) and arrange urgent **surgical pinning** in situ, as further slip risks avascular necrosis.\n\n**DDH:** **Pavlik harness** in early infancy; closed or open reduction and casting later. Late diagnosis worsens outcomes.\n\n**Paediatric fractures:**\n- **Buckle (torus) fracture** of the distal radius: stable, removable splint for about 3 weeks, **no routine follow-up**\n- **Greenstick fractures:** may need reduction if angulated\n- **Supracondylar humerus fracture** (age about 5-7, FOOSH): check **radial pulse, hand perfusion** and nerves (anterior interosseous nerve: test the \"OK\" sign); displaced fractures need urgent reduction and pinning; a pulseless, poorly perfused hand is an emergency; watch for compartment syndrome (Volkmann's)\n- **Pulled elbow** (radial head subluxation, age 1-4): child pulled by the arm, holds arm pronated and won't use it; **reduce by supination-flexion or hyperpronation** without X-ray if the history is typical\n\n**Non-accidental injury clues:** fractures in non-ambulant infants, **posterior rib fractures**, **metaphyseal corner fractures**, multiple fractures of different ages, a mechanism that doesn't match development, delay in presentation. Involve the child protection unit and report as required by state law."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Febrile child who won't weight bear with high ESR and WCC: **septic arthritis**, aspirate and wash out. Well child after a cold: transient synovitis.\n- Overweight 13-year-old with **knee pain** and limp: examine the **hip**; SUFE until proven otherwise; **frog-leg lateral** X-ray and **non-weight bearing**.\n- A buckle fracture needs a splint, not a cast and fracture clinic.\n- A pulled elbow in a toddler: reduce without imaging.\n- A fracture in an infant who can't walk: think NAI."
+        }
+      ],
+      "keyPoints": [
+        "Limp by age: 0-3 DDH, toddler's fracture, NAI; 3-10 transient synovitis, Perthes; 10-16 SUFE.",
+        "Kocher criteria for septic arthritis: non-weight bearing, fever over 38.5°C, ESR over 40, WCC over 12.",
+        "Septic arthritis: aspiration, washout and IV antibiotics; S. aureus, and Kingella under 4.",
+        "SUFE: obese adolescent with knee pain, loss of internal rotation; frog-leg lateral X-ray; non-weight bearing and urgent pinning.",
+        "Perthes: avascular necrosis of the femoral head, boys aged 4-8.",
+        "DDH: Barlow and Ortolani in newborns; ultrasound under about 4-6 months; Pavlik harness.",
+        "Buckle fractures need a removable splint and no follow-up; pulled elbow is reduced without X-ray."
+      ],
+      "redFlags": [
+        "Fever with refusal to weight bear",
+        "Adolescent with knee or hip pain and loss of internal rotation (SUFE)",
+        "Night pain, weight loss or pallor and bruising (tumour or leukaemia)",
+        "Fracture in a non-ambulant child or mechanism inconsistent with development"
+      ],
+      "contrast": [
+        {
+          "aspect": "Buckle fractures",
+          "india": "Often placed in a plaster cast with fracture clinic follow-up.",
+          "australia": "Removable splint for about 3 weeks without routine follow-up (RCH guidance)."
+        },
+        {
+          "aspect": "DDH screening",
+          "india": "Clinical examination at birth; ultrasound less often.",
+          "australia": "Clinical checks at birth and 6-8 weeks with hip ultrasound for infants with risk factors."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Kocher criteria?",
+          "back": "Non-weight bearing, fever over 38.5°C, ESR over 40 mm/h, WCC over 12 x 10^9/L."
+        },
+        {
+          "front": "X-ray view that best shows a SUFE?",
+          "back": "Frog-leg lateral (Klein's line on AP is also used)."
+        },
+        {
+          "front": "Immediate management of suspected SUFE?",
+          "back": "Non-weight bearing and urgent orthopaedic referral for pinning."
+        },
+        {
+          "front": "Imaging for DDH in an infant under 4-6 months?",
+          "back": "Hip ultrasound."
+        },
+        {
+          "front": "Management of a distal radius buckle fracture?",
+          "back": "Removable splint for about 3 weeks; no routine follow-up."
+        },
+        {
+          "front": "Presentation of pulled elbow?",
+          "back": "Age 1-4 after arm traction, holds arm pronated and won't use it; reduce by supination-flexion or hyperpronation."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "orthopaedics--paediatric-orthopaedics-and-limp--q1",
+          "discipline": "adult-surgery",
+          "topic": "orthopaedics",
+          "difficulty": "core",
+          "stem": "A 5-year-old boy has had a limp for 2 days. He had a cold last week. He is playing happily in the waiting room. Temperature is 37.4°C. He walks with a limp but will bear weight, and there is mild restriction of right hip internal rotation. WCC is 9.2 x 10^9/L, ESR 12 mm/h, CRP 6 mg/L.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Septic arthritis of the hip",
+            "Perthes disease",
+            "Transient synovitis",
+            "Slipped upper femoral epiphysis",
+            "Juvenile idiopathic arthritis"
+          ],
+          "answer": 2,
+          "explanation": "A **well child aged 3-8** with a limp after a **viral illness**, **weight bearing**, **afebrile** and with **normal inflammatory markers** has **transient synovitis**. He meets **none of the Kocher criteria** (non-weight bearing, fever over 38.5°C, ESR over 40, WCC over 12), so septic arthritis is very unlikely. Treat with NSAIDs and rest and review within 24-48 hours, with advice to return if fever or refusal to walk develops. Perthes has an insidious course; SUFE affects adolescents; JIA needs symptoms for at least 6 weeks.",
+          "whyWrong": [
+            "He meets none of the Kocher criteria and looks well.",
+            "Perthes presents with an insidious limp over weeks, not after a cold.",
+            "",
+            "SUFE affects adolescents, typically overweight.",
+            "JIA requires arthritis persisting for at least 6 weeks."
+          ],
+          "tags": [
+            "transient synovitis",
+            "limping child",
+            "kocher"
+          ]
+        },
+        {
+          "id": "orthopaedics--paediatric-orthopaedics-and-limp--q2",
+          "discipline": "adult-surgery",
+          "topic": "orthopaedics",
+          "difficulty": "exam",
+          "stem": "A 13-year-old boy with a BMI above the 95th centile presents with 3 weeks of left knee pain and a limp. Examination of the knee is normal. When his left hip is flexed, it rotates externally, and internal rotation is markedly reduced.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "MRI of the left knee",
+            "Physiotherapy for patellofemoral pain",
+            "Reassure and review in 6 weeks",
+            "Blood tests for inflammatory markers only",
+            "AP pelvis and frog-leg lateral X-rays of both hips, and make him non-weight bearing"
+          ],
+          "answer": 4,
+          "explanation": "An **overweight adolescent** with **knee pain** (referred from the hip via the obturator nerve), a **normal knee examination**, **loss of internal rotation** and **obligatory external rotation on hip flexion** has a **slipped upper femoral epiphysis** until proven otherwise. Obtain **AP pelvis and frog-leg lateral** X-rays of **both hips** (it is bilateral in a significant minority). Make him **non-weight bearing** immediately and refer urgently for **pinning in situ**, because further slip increases the risk of avascular necrosis. **Rule:** knee pain in a child means examine the hip.",
+          "whyWrong": [
+            "The knee is normal; the pain is referred from the hip.",
+            "Physiotherapy would miss a SUFE, and ongoing weight bearing risks further slip.",
+            "Delay risks progression of the slip and avascular necrosis.",
+            "Blood tests do not diagnose SUFE.",
+            ""
+          ],
+          "tags": [
+            "sufe",
+            "referred pain",
+            "adolescent"
+          ]
+        },
+        {
+          "id": "orthopaedics--paediatric-orthopaedics-and-limp--q3",
+          "discipline": "adult-surgery",
+          "topic": "orthopaedics",
+          "difficulty": "foundation",
+          "stem": "A 2-year-old girl is brought to the emergency department because she won't use her left arm. Her father says he pulled her up by the hand when she was about to run onto the road. She is holding the arm by her side, slightly flexed and pronated. There is no swelling or bruising, and she is otherwise happy.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Reduce by supination and flexion, or hyperpronation, without an X-ray",
+            "X-ray the elbow before any manipulation",
+            "Apply an above-elbow plaster cast",
+            "Refer to the child protection unit",
+            "Arrange an ultrasound of the elbow"
+          ],
+          "answer": 0,
+          "explanation": "This is a classic **pulled elbow** (radial head subluxation): a child aged about 1-4, a **pulling mechanism** on an extended arm, and a child who holds the arm **pronated** and won't use it, with no swelling or bruising. The annular ligament slips over the radial head. Management is **reduction without imaging** when the history is typical: **supination and flexion** or **hyperpronation**; a click may be felt, and the child usually uses the arm within minutes. X-ray is needed only if the history is atypical, there is swelling or bruising, or reduction fails. Explain the mechanism to the parents to prevent recurrence. The mechanism here is accidental and consistent.",
+          "whyWrong": [
+            "",
+            "Imaging is unnecessary with a typical history and no swelling.",
+            "Casting is not needed once reduced.",
+            "The mechanism is consistent and accidental; no child protection concern is evident.",
+            "Ultrasound is not required for a typical pulled elbow."
+          ],
+          "tags": [
+            "pulled elbow",
+            "paediatrics",
+            "reduction"
+          ]
+        }
+      ]
+    }
+  ]
+}

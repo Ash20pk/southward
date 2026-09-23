@@ -1,0 +1,1136 @@
+{
+  "topic": "dermatology",
+  "intro": "Australia has the highest rates of skin cancer in the world, so recognising and correctly biopsying melanoma, BCC and SCC is core Australian general practice and a favourite AMC topic. This course also covers the common inflammatory rashes (eczema, psoriasis, acne, urticaria), skin infections and infestations including scabies in remote communities, and the dermatological emergencies you must not miss.",
+  "lessons": [
+    {
+      "id": "dermatology--melanoma",
+      "title": "Melanoma and pigmented lesions",
+      "minutes": 17,
+      "objectives": [
+        "Identify high-risk pigmented lesions using ABCDE, EFG and the ugly duckling sign",
+        "Perform the correct biopsy for a suspected melanoma",
+        "State definitive excision margins by Breslow thickness",
+        "Counsel on sun protection and skin surveillance in Australia"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why melanoma dominates Australian dermatology",
+          "body": "Australia and New Zealand have the **highest melanoma incidence in the world**. Melanoma is among the most common cancers diagnosed in Australians, and the most common cancer in young adults aged about 20 to 39. The combination of a largely fair-skinned population and very high ambient UV explains it. An Indian graduate may have rarely seen melanoma, because in darker skin types it is uncommon and usually **acral** (palms, soles, nail beds). In Australia you will look at moles every day in general practice.\n\nMost melanomas are curable by excision when thin, so early detection saves lives. There is **no national population screening program**; checks are opportunistic and targeted to higher-risk people."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Pathogenesis and risk factors",
+          "body": "Melanoma arises from **melanocytes**, either de novo (most) or within an existing naevus. **UV radiation**, especially intermittent intense exposure and **sunburn in childhood**, causes DNA damage; around half of melanomas carry a **BRAF V600** mutation, which is also a treatment target.\n\n**Risk factors**\n- Fair skin, red or blond hair, freckling, tendency to burn\n- **High naevus count** (over 100) or multiple atypical (dysplastic) naevi\n- Previous melanoma (highest risk) or other skin cancer\n- Family history (CDKN2A mutations in some families)\n- Immunosuppression (transplant recipients)\n- Solarium use (commercial solariums are now banned across Australia)\n\n**Subtypes**\n| Type | Features |\n|---|---|\n| **Superficial spreading** | Most common; flat, irregular, variegated, grows slowly radially first |\n| **Nodular** | Rapid vertical growth; raised, firm, may be **amelanotic** (pink); responsible for many thick melanomas and deaths |\n| **Lentigo maligna melanoma** | Older people, chronically sun-damaged face; slowly enlarging irregular brown patch |\n| **Acral lentiginous** | Palms, soles, nail beds; most common type in darker skin; subungual pigmented band with **Hutchinson sign** (pigment on the nail fold) |\n| Desmoplastic | Scar-like, often amelanotic, head and neck |"
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Recognising a suspicious lesion",
+          "body": "**ABCDE** (best for superficial spreading melanoma):\n- **A**symmetry\n- **B**order irregularity\n- **C**olour variation (several shades of brown, black, blue, grey, red, white)\n- **D**iameter over 6 mm (but small melanomas exist)\n- **E**volution: change in size, shape, colour, or new symptoms\n\n**EFG** (for nodular melanoma, which fails ABCDE): **E**levated, **F**irm, **G**rowing progressively for more than a month. Any lump like this needs excision, pigmented or not.\n\n**The ugly duckling sign**: a lesion that looks different from the patient's other moles.\n\n**Dermoscopy** improves diagnostic accuracy in trained hands and is widely used by Australian GPs and skin cancer clinics. Features such as atypical pigment network, blue-white veil, irregular streaks and regression structures raise suspicion. Total body photography and sequential dermoscopic imaging help monitor very high-risk patients.\n\nAsk about change, bleeding and itch; examine the whole skin including scalp, soles, nails and between toes; palpate regional nodes."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Biopsy and staging",
+          "body": "**Suspected melanoma: complete excision biopsy with a 2 mm clinical margin**, full thickness down to subcutaneous fat, oriented along the lymphatic drainage axis (in limbs, longitudinally) to preserve options for later wide excision and sentinel node biopsy.\n\n- **Do not shave** or curette a suspected melanoma, and avoid partial biopsy where excision is possible: it can miss the thickest part and understage the tumour.\n- Partial (incisional or punch) biopsy is accepted in selected cases where complete excision is impractical, such as a large lentigo maligna on the face or acral lesions, usually in specialist hands.\n\n**The pathology report drives everything**:\n- **Breslow thickness** (in mm, from the granular layer to the deepest melanoma cell): the single most important prognostic factor.\n- Ulceration, mitotic rate, margins, subtype, regression, lymphovascular and perineural invasion.\n\n**Staging** follows AJCC. **Sentinel lymph node biopsy** is discussed for melanomas over 1 mm thick, and considered for those over 0.8 mm or with ulceration. Imaging (CT or PET) is reserved for higher-stage disease rather than thin melanomas."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Look-alikes",
+          "body": "| Lesion | Key features |\n|---|---|\n| Benign naevus | Symmetrical, uniform colour, stable |\n| Seborrhoeic keratosis | \"Stuck-on\", waxy, warty; milia-like cysts on dermoscopy; very common in older Australians |\n| Solar lentigo | Flat, uniform brown, sun-exposed areas |\n| Dermatofibroma | Firm papule on legs, dimples when pinched |\n| Pigmented BCC | Pearly edge, arborising vessels |\n| Haemangioma or thrombosed angioma | Red-purple lagoons on dermoscopy |\n| Subungual haematoma | History of trauma, pigment grows out with the nail |\n\nIf in doubt, cut it out: a benign histology result is a good outcome, a missed nodular melanoma is not."
+        },
+        {
+          "kind": "management",
+          "heading": "Definitive management and follow-up",
+          "body": "**Re-excision with a wider margin** once histology confirms melanoma (Cancer Council Australia guideline):\n\n| Breslow thickness | Recommended clinical margin |\n|---|---|\n| In situ | 5 to 10 mm |\n| Up to 1 mm | 1 cm |\n| Over 1 mm to 4 mm | 1 to 2 cm |\n| Over 4 mm | 2 cm |\n\n- Sentinel node biopsy as above; completion lymph node dissection is no longer routine for a positive sentinel node.\n- **Adjuvant therapy** for resected high-risk disease (stage III and selected stage II): immunotherapy with anti-PD-1 drugs, or BRAF/MEK inhibitors for BRAF-mutant disease, through a melanoma unit.\n- Metastatic melanoma: checkpoint immunotherapy (ipilimumab, nivolumab, pembrolizumab) or targeted therapy has transformed survival. Australian centres such as the Melanoma Institute Australia pioneered much of this work.\n- **Follow-up**: regular whole-skin and node examination (frequency by stage), patient self-examination, and dermoscopic surveillance in high-risk people. First-degree relatives should have skin checks.\n\n**Sun protection (SunSmart)**: \"**Slip** on clothing, **slop** on SPF 30 or higher broad-spectrum water-resistant sunscreen (Cancer Council recommends SPF 50 or 50+), **slap** on a broad-brimmed hat, **seek** shade, **slide** on sunglasses.\" Protect whenever the **UV index is 3 or above**. Apply sunscreen about 20 minutes before going out and reapply every 2 hours. Children should never be sunburnt."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- \"Most appropriate next step\" for a changing irregular mole: **excision biopsy with 2 mm margins**, not shave, not punch, not \"review in 3 months\".\n- Firm, pink, rapidly growing nodule: think **amelanotic nodular melanoma** (EFG), not a pyogenic granuloma, until proven otherwise.\n- Pigmented streak in a nail with pigment on the nail fold: **acral melanoma** (Hutchinson sign).\n- A 1.5 mm Breslow melanoma: wide local excision with 1 to 2 cm margins and discussion of sentinel node biopsy.\n- The best prognostic factor is Breslow thickness, not diameter."
+        }
+      ],
+      "keyPoints": [
+        "Australia has the world's highest melanoma incidence; checks are opportunistic, not population screening.",
+        "ABCDE for superficial spreading; EFG (elevated, firm, growing) for nodular, which may be amelanotic.",
+        "Suspected melanoma: complete excision biopsy with 2 mm margin; never shave.",
+        "Breslow thickness is the key prognostic factor and sets the re-excision margin.",
+        "Margins: in situ 5-10 mm, up to 1 mm 1 cm, 1-4 mm 1-2 cm, over 4 mm 2 cm.",
+        "Sentinel node biopsy discussed over 1 mm; adjuvant immunotherapy for high-risk resected disease.",
+        "SunSmart: slip, slop, slap, seek, slide when UV index is 3 or above."
+      ],
+      "redFlags": [
+        "A changing mole or new lesion in an adult",
+        "Elevated, firm, growing nodule (pigmented or pink)",
+        "Pigmented nail band with pigment on the nail fold",
+        "Palpable regional lymph nodes in a patient with a past melanoma"
+      ],
+      "contrast": [
+        {
+          "aspect": "Melanoma exposure",
+          "india": "Uncommon; mostly acral in darker skin, often diagnosed late.",
+          "australia": "Very common; superficial spreading and nodular types in fair skin; GPs examine and excise lesions daily."
+        },
+        {
+          "aspect": "Biopsy of suspicious mole",
+          "india": "Referral to dermatology or surgery for incisional biopsy is common.",
+          "australia": "GP performs excision biopsy with 2 mm margins; shave and partial biopsy avoided."
+        },
+        {
+          "aspect": "Sun protection",
+          "india": "Not a public health priority.",
+          "australia": "SunSmart is universal; school 'no hat, no play' policies; solariums banned."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Biopsy of a suspected melanoma?",
+          "back": "Complete excision biopsy, 2 mm margin, full thickness to fat."
+        },
+        {
+          "front": "Most important prognostic factor in melanoma?",
+          "back": "Breslow thickness."
+        },
+        {
+          "front": "Re-excision margin for a 0.7 mm melanoma?",
+          "back": "1 cm."
+        },
+        {
+          "front": "EFG stands for?",
+          "back": "Elevated, firm, growing: nodular melanoma."
+        },
+        {
+          "front": "Hutchinson sign in a nail?",
+          "back": "Pigment extending onto the nail fold: suspect subungual melanoma."
+        },
+        {
+          "front": "UV index at which sun protection is recommended?",
+          "back": "3 or above."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "dermatology--melanoma--q1",
+          "discipline": "adult-medicine",
+          "topic": "dermatology",
+          "difficulty": "foundation",
+          "stem": "A 38-year-old woman sees her GP in Brisbane about a mole on her upper back that her partner says has changed over 6 months. It measures 8 mm, is asymmetrical with an irregular border and has areas of dark brown, black and grey. There are no palpable lymph nodes.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Shave biopsy",
+            "Punch biopsy of the darkest area",
+            "Complete excision biopsy with a 2 mm margin",
+            "Wide local excision with a 1 cm margin",
+            "Photograph and review in 3 months"
+          ],
+          "answer": 2,
+          "explanation": "A changing lesion with asymmetry, border irregularity and colour variation is a suspected melanoma. The correct initial step is **complete excision biopsy with a 2 mm clinical margin**, full thickness to fat, so the pathologist can measure the **Breslow thickness** accurately across the whole lesion. Shave and partial biopsies can understage melanoma. A wide excision is only done after histology confirms melanoma and gives the thickness, which determines the definitive margin. Watchful waiting is inappropriate for a changing lesion.",
+          "whyWrong": [
+            "Shave biopsy may transect the lesion and prevent accurate Breslow measurement.",
+            "Partial biopsy can miss the thickest area and understage the tumour.",
+            "",
+            "Definitive wide excision is planned only after histology gives the Breslow thickness.",
+            "A changing lesion with ABCDE features needs excision now, not surveillance."
+          ],
+          "tags": [
+            "melanoma",
+            "biopsy",
+            "abcde"
+          ]
+        },
+        {
+          "id": "dermatology--melanoma--q2",
+          "discipline": "adult-medicine",
+          "topic": "dermatology",
+          "difficulty": "core",
+          "stem": "A 62-year-old man in Perth had an excision biopsy of a lesion on his calf. Histology reports a superficial spreading melanoma with a Breslow thickness of 2.3 mm, no ulceration, and clear 2 mm margins. There are no palpable nodes.\n\nWhat is the most appropriate definitive surgical plan?",
+          "options": [
+            "No further surgery as margins are clear",
+            "Re-excision with a 5 mm margin",
+            "Re-excision with a 1 cm margin only",
+            "Re-excision with a 1 to 2 cm margin and discussion of sentinel lymph node biopsy",
+            "Below-knee amputation"
+          ],
+          "answer": 3,
+          "explanation": "Definitive margins depend on **Breslow thickness** (Cancer Council Australia): in situ 5 to 10 mm; up to 1 mm, 1 cm; **over 1 to 4 mm, 1 to 2 cm**; over 4 mm, 2 cm. At 2.3 mm he needs re-excision with a 1 to 2 cm margin. Because the melanoma is over 1 mm thick, **sentinel lymph node biopsy** should be discussed for staging and prognosis, ideally at the same time as wide excision (lymphatic mapping is more accurate before wide excision disrupts drainage). He should be managed with a melanoma multidisciplinary team, which will consider adjuvant therapy if the node is positive.",
+          "whyWrong": [
+            "A 2 mm diagnostic margin is not adequate definitive treatment for invasive melanoma.",
+            "5 mm is below even the margin for melanoma in situ at the upper end.",
+            "1 cm alone is the margin for melanomas up to 1 mm, and ignores nodal staging.",
+            "",
+            "Amputation offers no survival advantage and is never required for this."
+          ],
+          "ausPearl": "The Cancer Council Australia melanoma guidelines (developed with Melanoma Institute Australia) are the reference for margins and sentinel node advice.",
+          "tags": [
+            "melanoma",
+            "breslow",
+            "margins"
+          ]
+        },
+        {
+          "id": "dermatology--melanoma--q3",
+          "discipline": "adult-medicine",
+          "topic": "dermatology",
+          "difficulty": "exam",
+          "stem": "A 55-year-old farmer in rural Queensland sees his GP about a 9 mm raised, firm, pink, dome-shaped lump on his forearm that has grown steadily over 2 months. It bleeds occasionally. It is uniform in colour, symmetrical and has no pigment on dermoscopy apart from a few irregular vessels.\n\nWhat is the most important diagnosis to exclude?",
+          "options": [
+            "Nodular melanoma",
+            "Pyogenic granuloma",
+            "Seborrhoeic keratosis",
+            "Dermatofibroma",
+            "Intradermal naevus"
+          ],
+          "answer": 0,
+          "explanation": "This lesion fails the ABCDE checklist (symmetrical, uniform, no pigment), which is exactly why **nodular melanoma** is dangerous. Use **EFG**: **E**levated, **F**irm, **G**rowing for more than a month. Nodular and **amelanotic** melanomas grow vertically fast and account for many thick, fatal melanomas. Any lesion meeting EFG criteria needs **excision biopsy**. Keratoacanthoma and SCC are other possibilities in a sun-damaged farmer, and are also managed by excision. Pyogenic granulomas are usually rapidly appearing, friable and bright red, often after trauma, and should still be sent for histology.",
+          "whyWrong": [
+            "",
+            "A pyogenic granuloma is possible but is a diagnosis of exclusion; missing melanoma is the key risk.",
+            "Seborrhoeic keratoses are stuck-on, waxy and warty, not firm pink growing nodules.",
+            "Dermatofibromas are small, stable and dimple on pinching.",
+            "Intradermal naevi are stable, soft and long-standing."
+          ],
+          "tags": [
+            "nodular melanoma",
+            "amelanotic",
+            "efg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dermatology--keratinocyte-cancers",
+      "title": "BCC, SCC and actinic keratoses",
+      "minutes": 16,
+      "objectives": [
+        "Distinguish BCC, SCC, keratoacanthoma and Bowen disease clinically",
+        "Choose surgical versus non-surgical treatment for each lesion type",
+        "Manage actinic keratoses with lesion and field therapy",
+        "Identify patients at very high risk, such as transplant recipients"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Overview",
+          "body": "Keratinocyte cancers (previously \"non-melanoma skin cancer\") are **the most common cancers in Australia**, with most Australians expected to have at least one by age 70. **Basal cell carcinoma (BCC)** is the most common cancer overall; **squamous cell carcinoma (SCC)** is the next. They are treated in large numbers in general practice. BCC almost never metastasises but can destroy local tissue; SCC can metastasise, particularly high-risk lesions and in immunosuppressed patients. Actinic keratoses are markers of cumulative sun damage and a precursor of SCC."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Pathogenesis",
+          "body": "Chronic cumulative **UV exposure** causes mutations in keratinocytes (for example p53 in SCC, and Hedgehog pathway genes such as PTCH1 in BCC). The pathway runs:\n\n**Actinic keratosis** (dysplasia of the lower epidermis) → **SCC in situ (Bowen disease)** (full-thickness dysplasia) → **invasive SCC**.\n\nOnly a small proportion of individual AKs progress, but patients with many AKs have a high lifetime risk of SCC.\n\n**Additional risk factors**: fair skin, older age, outdoor work, **immunosuppression** (organ transplant recipients have a many-fold increased SCC risk, and in them SCC outnumbers BCC), previous skin cancer, chronic wounds or scars (Marjolin ulcer), arsenic, HPV, radiotherapy."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "| Lesion | Appearance | Behaviour |\n|---|---|---|\n| **Nodular BCC** | **Pearly papule with rolled edge and telangiectasia**, may ulcerate centrally (\"rodent ulcer\") | Slow, locally invasive |\n| **Superficial BCC** | Pink scaly thin plaque with a thread-like pearly edge, often on trunk | Slow; mimics eczema or Bowen |\n| **Morphoeic (infiltrative) BCC** | Scar-like, pale, ill-defined | Higher recurrence, needs wider or Mohs surgery |\n| **Actinic keratosis** | Rough, scaly, gritty patch on sun-exposed skin (felt more easily than seen) | Precancerous |\n| **Bowen disease** | Well-defined, red scaly plaque, often on lower legs of older women | SCC in situ |\n| **Invasive SCC** | **Tender, keratotic, rapidly growing** nodule or ulcer on sun-exposed skin | Can metastasise to nodes |\n| **Keratoacanthoma** | Rapidly growing dome over weeks with a **central keratin plug** | Treated as SCC |\n\n**High-risk SCC** features: lip and ear, size over 2 cm, depth over 6 mm, poor differentiation, perineural invasion (numbness, tingling), recurrence, immunosuppression."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "- **Diagnosis is clinical plus histology.** Dermoscopy helps (BCC: arborising vessels, blue-grey ovoid nests, leaf-like structures; SCC: white circles, keratin, glomerular vessels).\n- **Biopsy** when the diagnosis is uncertain or before non-surgical treatment: **punch or shave biopsy is acceptable for suspected BCC or SCC** (unlike melanoma), to confirm type and subtype.\n- For clinically obvious small lesions, **excision** provides both diagnosis and treatment.\n- High-risk SCC: examine regional nodes; ultrasound or CT if nodes are palpable or perineural spread is suspected."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Look-alikes",
+          "body": "- **Superficial BCC** vs **Bowen disease** vs **psoriasis or nummular eczema**: a single, persistent, non-itchy plaque that does not respond to steroid cream should be biopsied.\n- **Keratoacanthoma** vs **SCC**: cannot be reliably separated clinically or even on some biopsies, so excise.\n- **Amelanotic melanoma** can look like a BCC or SCC.\n- **Sebaceous hyperplasia** (yellowish umbilicated papules on the face) vs nodular BCC.\n- **Seborrhoeic keratosis** vs pigmented BCC: look for the pearly edge."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**BCC**\n- **Surgical excision** is the standard: typically about **3 to 5 mm margins** for small well-defined lesions (wider for morphoeic and recurrent tumours). Cure rates are high.\n- **Mohs micrographic surgery** for high-risk sites (nose, eyelids, lips, ears), morphoeic or recurrent BCC: tissue-sparing with margin checking.\n- **Superficial BCC** on the trunk or limbs: topical **imiquimod** or **fluorouracil**, cryotherapy, photodynamic therapy (PDT), or curettage and cautery.\n- Radiotherapy for older patients unsuitable for surgery; Hedgehog inhibitors (vismodegib, sonidegib) for advanced disease.\n\n**SCC**\n- **Surgical excision** with a clinical margin of about **4 to 6 mm** (wider for high-risk lesions), with histological clearance.\n- High-risk lesions: multidisciplinary care, possible adjuvant radiotherapy; checkpoint inhibitors (for example cemiplimab) for advanced disease.\n- **Keratoacanthoma**: excise.\n- **Bowen disease**: topical fluorouracil or imiquimod, cryotherapy, PDT, curettage, or excision.\n\n**Actinic keratoses**\n- **Isolated lesions**: **cryotherapy** with liquid nitrogen.\n- **Field treatment** of many AKs on a sun-damaged area: **topical fluorouracil** (for example twice daily for 2 to 4 weeks), **imiquimod**, or **PDT**. Warn patients about expected redness, crusting and soreness, which means it is working.\n- Any AK that is thick, tender, growing or does not respond: biopsy for SCC.\n\n**Prevention in high-risk patients**\n- Sun protection and regular skin checks (transplant recipients often every 6 to 12 months or more).\n- **Oral nicotinamide** (vitamin B3) **500 mg twice daily** reduced new keratinocyte cancers in high-risk patients in an Australian trial and is widely recommended.\n- In transplant recipients, the transplant team may modify immunosuppression (for example switching to an mTOR inhibitor).\n\n**Follow-up after any keratinocyte cancer**: a person who has had one has a high risk of another, so arrange regular whole-skin checks (often every 6 to 12 months, more often after SCC or in transplant recipients), teach self-examination, and reinforce daily sunscreen, which reduces new SCCs (the Queensland Nambour trial showed daily sunscreen use reduced SCC and, on long-term follow-up, melanoma)."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- \"Pearly, rolled edge, telangiectasia\": BCC. \"Tender, keratotic, rapidly growing\": SCC. \"Central keratin plug, grew in weeks\": keratoacanthoma, treat as SCC.\n- Kidney transplant recipient with multiple scaly lesions: SCC risk; they outnumber BCCs in this group.\n- A non-healing ulcer in an old burn scar: Marjolin ulcer (SCC).\n- Superficial BCC on the back in an elderly patient who wants to avoid surgery: imiquimod or PDT is reasonable.\n- Numbness or tingling around a facial SCC: perineural invasion, high risk.\n- Biopsy choice: partial biopsy is fine for BCC/SCC, but not for suspected melanoma."
+        }
+      ],
+      "keyPoints": [
+        "BCC is the most common cancer in Australia: pearly, rolled edge, telangiectasia; locally invasive, rarely metastasises.",
+        "SCC: tender, keratotic, rapidly growing; can metastasise, especially in immunosuppressed patients.",
+        "Keratoacanthoma is managed as SCC (excise).",
+        "Punch or shave biopsy is acceptable for suspected BCC/SCC, unlike melanoma.",
+        "AKs: cryotherapy for single lesions, fluorouracil, imiquimod or PDT for field change.",
+        "Mohs surgery for high-risk facial sites and morphoeic or recurrent BCC.",
+        "Oral nicotinamide reduces new keratinocyte cancers in high-risk patients."
+      ],
+      "redFlags": [
+        "Rapidly growing, tender keratotic lesion",
+        "Skin lesion with numbness or tingling (perineural invasion)",
+        "Skin cancer in an organ transplant recipient",
+        "Non-healing ulcer in a chronic scar",
+        "Palpable lymph nodes near a known SCC"
+      ],
+      "contrast": [
+        {
+          "aspect": "Frequency",
+          "india": "Keratinocyte cancers seen infrequently, mainly in albinism or xeroderma pigmentosum.",
+          "australia": "The most common cancers in Australia; GP skin cancer clinics are routine."
+        },
+        {
+          "aspect": "Treatment of AKs",
+          "india": "Rarely treated; often not recognised.",
+          "australia": "Cryotherapy or field therapy with fluorouracil, imiquimod or PDT; nicotinamide for high-risk patients."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Classic features of nodular BCC?",
+          "back": "Pearly papule, rolled edge, telangiectasia, may ulcerate."
+        },
+        {
+          "front": "Treatment of a single actinic keratosis?",
+          "back": "Cryotherapy with liquid nitrogen."
+        },
+        {
+          "front": "Field therapy for multiple AKs?",
+          "back": "Topical fluorouracil (or imiquimod, PDT)."
+        },
+        {
+          "front": "Keratoacanthoma management?",
+          "back": "Excise and treat as SCC."
+        },
+        {
+          "front": "Chemoprevention of keratinocyte cancer in high-risk patients?",
+          "back": "Oral nicotinamide 500 mg twice daily."
+        },
+        {
+          "front": "Which skin cancer predominates in transplant recipients?",
+          "back": "SCC (outnumbers BCC)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "dermatology--keratinocyte-cancers--q1",
+          "discipline": "adult-medicine",
+          "topic": "dermatology",
+          "difficulty": "foundation",
+          "stem": "A 72-year-old retired builder sees his GP in Toowoomba about a slowly enlarging lesion beside his nose, present for 18 months. It is a 7 mm shiny, pearly papule with a rolled edge, surface telangiectasia and a small central crust. There are no palpable nodes.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Squamous cell carcinoma",
+            "Keratoacanthoma",
+            "Actinic keratosis",
+            "Seborrhoeic keratosis",
+            "Nodular basal cell carcinoma"
+          ],
+          "answer": 4,
+          "explanation": "A slowly growing **pearly papule with a rolled edge and telangiectasia**, sometimes with central ulceration, is the classic **nodular BCC**, the most common cancer in Australia. BCC is locally invasive and rarely metastasises. Because it is at a high-risk facial site (alongside the nose), options include excision with appropriate margins or **Mohs micrographic surgery** for tissue sparing. Biopsy first is reasonable if the diagnosis is uncertain.",
+          "whyWrong": [
+            "SCC is typically tender, keratotic and faster growing, without a pearly edge.",
+            "Keratoacanthoma grows over weeks with a central keratin plug.",
+            "Actinic keratoses are flat rough scaly patches, not pearly papules.",
+            "Seborrhoeic keratoses are stuck-on, waxy and warty.",
+            ""
+          ],
+          "tags": [
+            "bcc",
+            "skin cancer",
+            "diagnosis"
+          ]
+        },
+        {
+          "id": "dermatology--keratinocyte-cancers--q2",
+          "discipline": "adult-medicine",
+          "topic": "dermatology",
+          "difficulty": "core",
+          "stem": "A 58-year-old man with a kidney transplant 12 years ago attends a Melbourne GP skin check. He takes tacrolimus, mycophenolate and prednisolone. He has multiple rough scaly lesions on the backs of his hands and scalp, and a 12 mm tender, rapidly enlarging keratotic nodule on his right hand that appeared 6 weeks ago.\n\nWhat is the most appropriate management of the nodule?",
+          "options": [
+            "Cryotherapy",
+            "Excision with histological margins",
+            "Topical fluorouracil for 4 weeks",
+            "Topical imiquimod",
+            "Review in 3 months"
+          ],
+          "answer": 1,
+          "explanation": "A **tender, rapidly growing keratotic nodule** in an immunosuppressed transplant recipient is **SCC** (or keratoacanthoma, which is managed the same way) until proven otherwise. Transplant recipients have a many-fold increased SCC risk and more aggressive tumours. Treatment is **surgical excision** (typical clinical margin about 4 to 6 mm, wider if high risk) with histological confirmation of clearance, plus node examination. The surrounding AKs need field therapy, regular skin surveillance, oral nicotinamide and liaison with the transplant team about immunosuppression.",
+          "whyWrong": [
+            "Cryotherapy is for AKs; it does not provide histology or reliably treat invasive SCC.",
+            "",
+            "Fluorouracil is field therapy for AKs and Bowen disease, not invasive SCC.",
+            "Imiquimod is used for superficial BCC and AKs, not invasive SCC.",
+            "Delay is unsafe for a rapidly growing lesion in an immunosuppressed patient."
+          ],
+          "ausPearl": "Oral nicotinamide 500 mg twice daily reduced new keratinocyte cancers in high-risk Australians in the ONTRAC trial.",
+          "tags": [
+            "scc",
+            "transplant",
+            "excision"
+          ]
+        },
+        {
+          "id": "dermatology--keratinocyte-cancers--q3",
+          "discipline": "adult-medicine",
+          "topic": "dermatology",
+          "difficulty": "exam",
+          "stem": "A 66-year-old woman in Adelaide has dozens of rough, gritty, scaly pink patches across her forehead and scalp, some of which she can feel better than see. None are thickened, tender or ulcerated. She is otherwise well.\n\nWhat is the most appropriate treatment?",
+          "options": [
+            "Excision of each lesion",
+            "Oral acitretin",
+            "Topical fluorouracil to the affected field",
+            "Potent topical corticosteroid",
+            "Radiotherapy"
+          ],
+          "answer": 2,
+          "explanation": "Multiple **actinic keratoses** across a sun-damaged area represent **field cancerisation**. Treating lesion by lesion is impractical, so **field therapy** is preferred: **topical fluorouracil** (often twice daily for 2 to 4 weeks), imiquimod or photodynamic therapy. Counsel her that redness, crusting and discomfort are expected. Isolated AKs are treated with cryotherapy. Any lesion that is thick, tender, growing or persists after treatment should be biopsied for SCC. Reinforce sun protection and regular skin checks.",
+          "whyWrong": [
+            "Excising dozens of flat AKs is unnecessary and scarring.",
+            "Acitretin is reserved as chemoprevention for very high-risk patients, such as transplant recipients.",
+            "",
+            "Steroids do not treat AKs and may mask progression.",
+            "Radiotherapy is not used for AKs."
+          ],
+          "tags": [
+            "actinic keratosis",
+            "field therapy",
+            "fluorouracil"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dermatology--eczema-dermatitis-urticaria",
+      "title": "Eczema, dermatitis and urticaria",
+      "minutes": 16,
+      "objectives": [
+        "Treat atopic eczema with emollients and adequate-strength topical corticosteroids",
+        "Recognise infected eczema and eczema herpeticum",
+        "Distinguish irritant, allergic contact and seborrhoeic dermatitis",
+        "Manage acute and chronic urticaria and angioedema"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Overview",
+          "body": "**Atopic eczema** affects many Australian children and a smaller proportion of adults. It is chronic and relapsing, and damages sleep, school and work. The biggest avoidable problem is **undertreatment due to steroid phobia**: patients and parents fear thinning skin and use weak creams sparingly, so the eczema never settles. The AMC tests whether you can explain and prescribe correctly. Contact dermatitis (occupational) and urticaria are the other high-frequency rashes."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Pathogenesis",
+          "body": "- **Atopic eczema**: a defective **skin barrier** (often filaggrin mutations) lets water out and irritants and allergens in, triggering **type 2 (Th2) inflammation** (IL-4, IL-13) and itch. Scratching damages the barrier further (the itch-scratch cycle). *Staphylococcus aureus* colonisation drives flares. It often coexists with asthma, allergic rhinitis and food allergy (the atopic march).\n- **Irritant contact dermatitis**: direct damage from wet work, detergents, solvents (hairdressers, cleaners, health workers, food handlers). The most common occupational skin disease.\n- **Allergic contact dermatitis**: type IV (delayed) hypersensitivity to nickel, fragrance, preservatives, hair dye (PPD), rubber accelerators, plants.\n- **Seborrhoeic dermatitis**: inflammatory response to *Malassezia* yeast; worse in Parkinson disease and HIV.\n- **Urticaria**: mast cell degranulation releasing histamine. Acute (under 6 weeks) often follows viral infections, drugs or foods; chronic spontaneous urticaria (6 weeks or more) is usually autoimmune, not allergic. **Angioedema** without wheals can be bradykinin-mediated: **ACE inhibitors** and hereditary angioedema (C1 esterase inhibitor deficiency)."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "- **Atopic eczema**: itchy, dry, poorly defined erythematous patches; infants on face and extensor surfaces; older children and adults in **flexures** (elbows, knees, neck), with lichenification from chronic scratching. Hands in adults.\n- **Infected eczema**: weeping, honey-coloured crusts, pustules (*S. aureus*).\n- **Eczema herpeticum**: **monomorphic punched-out erosions** and vesicles in eczematous skin, often painful, with fever and malaise; HSV. A dermatological emergency.\n- **Irritant dermatitis**: dry, cracked, sore hands, especially finger webs and backs of hands.\n- **Allergic contact dermatitis**: itchy, vesicular rash **confined to the contact site** (earlobes and umbilicus in nickel allergy; eyelids from nail polish), appearing 24 to 72 hours after exposure.\n- **Seborrhoeic dermatitis**: greasy yellow scale on scalp (dandruff, infant cradle cap), eyebrows, nasolabial folds, central chest.\n- **Urticaria**: itchy wheals, each lasting **under 24 hours** and resolving without a mark. Individual lesions lasting over 24 hours, painful or bruising: consider urticarial vasculitis."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "- Eczema is a **clinical diagnosis**. Bacterial swabs for infected eczema; **viral PCR** of a vesicle for suspected eczema herpeticum (do not wait for the result to treat).\n- **Patch testing** (by dermatologists) identifies the allergen in allergic contact dermatitis. Skin prick or specific IgE testing is for immediate (IgE) allergy, not contact dermatitis.\n- Routine food allergy testing is not recommended for eczema unless the history suggests immediate reactions.\n- **Acute urticaria**: usually no tests; look for a trigger in the history.\n- **Chronic urticaria**: limited tests only (FBC, CRP or ESR); extensive allergy testing is unhelpful.\n- Recurrent angioedema without wheals: C4 (low in hereditary angioedema) and C1 esterase inhibitor level and function; review medications for ACE inhibitors."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Atopic eczema** (eTG, ASCIA and Australasian College of Dermatologists guidance):\n- **Emollients** liberally and frequently, including when the skin is clear; soap-free wash; short lukewarm baths; cotton clothing.\n- **Topical corticosteroids (TCS) to active eczema until it is clear**, then stop or use as maintenance twice weekly for frequent flares. Match **potency to site and severity**:\n  - Face, flexures, genitals: mild (hydrocortisone 1%) or moderate (methylprednisolone aceponate) for short periods.\n  - Trunk and limbs: moderate to potent (for example mometasone, betamethasone dipropionate).\n  - Use **fingertip units** to guide quantity: one fingertip unit covers an area of two adult palms.\n- Explain that correctly used TCS are safe, and undertreated eczema is the greater harm.\n- **Wet dressings** for severe flares; dilute bleach baths in some recurrent infected eczema.\n- Topical calcineurin inhibitors (pimecrolimus) for face and eyelids.\n- **Infected eczema**: continue TCS and add oral **cefalexin** or flucloxacillin for widespread infection.\n- **Eczema herpeticum**: urgent systemic **aciclovir or valaciclovir** (IV if unwell), same-day review; ophthalmology if periocular.\n- Severe or refractory: phototherapy, systemic agents, **dupilumab** (PBS authority, dermatologist).\n\n**Contact dermatitis**: identify and avoid the cause, protective gloves (cotton liners), emollients, TCS; occupational cases may need workplace modification and WorkCover notification.\n\n**Seborrhoeic dermatitis**: ketoconazole shampoo or cream, mild TCS for flares.\n\n**Urticaria**:\n- **Non-sedating second-generation antihistamines** (cetirizine, loratadine, fexofenadine) regularly. For chronic urticaria, ASCIA guidance allows **up-dosing to up to 4 times the standard dose**.\n- Short oral prednisolone for severe acute urticaria only; avoid long-term steroids.\n- **Omalizumab** for refractory chronic spontaneous urticaria under PBS authority.\n- Avoid NSAIDs and opioids that can aggravate urticaria; **stop ACE inhibitors** in angioedema (do not switch to another ACE inhibitor).\n- Angioedema with airway compromise or features of anaphylaxis: treat as anaphylaxis with IM adrenaline (though bradykinin angioedema responds poorly; hereditary angioedema needs C1 inhibitor or icatibant)."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- Child with eczema flaring despite \"using hydrocortisone sparingly\": increase potency and quantity, explain safety; steroid phobia is the problem.\n- Punched-out erosions in eczema with fever: **eczema herpeticum**, give aciclovir now.\n- Rash on the earlobes and under a belt buckle: nickel allergic contact dermatitis, confirm with patch testing.\n- Tongue and lip swelling without wheals in a patient on perindopril: ACE-inhibitor angioedema; stop it permanently.\n- Chronic urticaria not controlled on standard antihistamine: up-dose the non-sedating antihistamine."
+        }
+      ],
+      "keyPoints": [
+        "Eczema: emollients always, plus TCS of adequate potency until clear; steroid phobia causes undertreatment.",
+        "Match TCS potency to site: mild on face and flexures, stronger on trunk and limbs.",
+        "Eczema herpeticum (punched-out erosions, fever) needs urgent antivirals.",
+        "Allergic contact dermatitis is type IV; confirm with patch testing.",
+        "Urticarial wheals last under 24 hours; chronic urticaria is 6 weeks or more.",
+        "Non-sedating antihistamines first; up-dose to 4 times for chronic urticaria.",
+        "ACE-inhibitor angioedema can occur years into therapy; stop the drug."
+      ],
+      "redFlags": [
+        "Punched-out erosions in eczema with fever (eczema herpeticum)",
+        "Periocular herpetic lesions",
+        "Angioedema involving the tongue, throat or airway",
+        "Urticarial lesions lasting over 24 hours or bruising (urticarial vasculitis)",
+        "Erythroderma (over 90% of skin red)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Topical steroids",
+          "india": "Widely available over the counter in combination creams; overuse on the face is common.",
+          "australia": "Plain TCS matched to site and severity on prescription; the main problem is undertreatment from steroid phobia."
+        },
+        {
+          "aspect": "Chronic urticaria",
+          "india": "Often treated with sedating antihistamines and steroids.",
+          "australia": "Non-sedating antihistamines, up-dosed to 4 times; omalizumab via PBS authority for refractory cases."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Area covered by one fingertip unit of cream?",
+          "back": "About two adult palms."
+        },
+        {
+          "front": "Treatment of eczema herpeticum?",
+          "back": "Urgent systemic aciclovir or valaciclovir."
+        },
+        {
+          "front": "Test for allergic contact dermatitis?",
+          "back": "Patch testing."
+        },
+        {
+          "front": "Maximum up-dosing of non-sedating antihistamine in chronic urticaria (ASCIA)?",
+          "back": "Up to 4 times the standard dose."
+        },
+        {
+          "front": "Duration defining chronic urticaria?",
+          "back": "6 weeks or more."
+        },
+        {
+          "front": "Complement test for hereditary angioedema?",
+          "back": "Low C4 (and low C1 esterase inhibitor level or function)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "dermatology--eczema-dermatitis-urticaria--q1",
+          "discipline": "adult-medicine",
+          "topic": "dermatology",
+          "difficulty": "foundation",
+          "stem": "A mother brings her 6-year-old son to a GP in Parramatta. He has itchy, dry, lichenified patches in both elbow and knee flexures that disturb his sleep. She has been applying hydrocortisone 1% cream 'very thinly, once or twice a week' because she worries about skin thinning. There is no weeping or crusting.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Continue hydrocortisone 1% and add an oral antihistamine",
+            "Start oral prednisolone",
+            "Refer for food allergy testing",
+            "Oral antibiotics",
+            "Regular emollients plus a moderate-potency topical corticosteroid daily until clear, with explanation of its safety"
+          ],
+          "answer": 4,
+          "explanation": "This is **atopic eczema undertreated because of steroid phobia**. Mild steroid applied sparingly will not control lichenified flexural eczema. Management is **regular emollients** plus a **topical corticosteroid of adequate potency** (moderate, for example methylprednisolone aceponate, for flexures in a child) applied daily until the skin is clear, guided by fingertip units, then stopping or using weekend maintenance. Explaining that correctly used TCS are safe, and that uncontrolled eczema causes more harm, is central to success. Oral steroids and food allergy testing are not indicated.",
+          "whyWrong": [
+            "Weak, infrequent steroid is the cause of failure; antihistamines add little for eczema itch.",
+            "Oral steroids cause rebound flares and are not used for routine eczema.",
+            "Food allergy testing is not indicated without a history of immediate reactions.",
+            "There is no sign of infection, so antibiotics are unnecessary.",
+            ""
+          ],
+          "tags": [
+            "eczema",
+            "topical steroids",
+            "steroid phobia"
+          ]
+        },
+        {
+          "id": "dermatology--eczema-dermatitis-urticaria--q2",
+          "discipline": "adult-medicine",
+          "topic": "dermatology",
+          "difficulty": "core",
+          "stem": "A 19-year-old woman with lifelong atopic eczema presents to a Hobart emergency department with 2 days of a painful rash on her face and neck and fever of 38.6 °C. There are clusters of monomorphic punched-out erosions and small vesicles on a background of eczema. Her eyes are unaffected.\n\nWhat is the most appropriate immediate treatment?",
+          "options": [
+            "Potent topical corticosteroid",
+            "Oral cefalexin alone",
+            "Systemic aciclovir or valaciclovir",
+            "Topical mupirocin",
+            "Oral prednisolone"
+          ],
+          "answer": 2,
+          "explanation": "**Monomorphic punched-out erosions** and vesicles in eczematous skin with fever are **eczema herpeticum** (Kaposi varicelliform eruption), a widespread **herpes simplex** infection. It can spread rapidly and cause keratitis, viraemia and occasionally death. Start **systemic aciclovir** promptly (IV if systemically unwell or extensive, otherwise oral aciclovir or valaciclovir) without waiting for PCR results. Arrange ophthalmology review if there is periocular involvement. Add antibiotics only if there is secondary bacterial infection.",
+          "whyWrong": [
+            "Increasing steroid without antiviral cover may worsen HSV spread.",
+            "Antibiotics alone miss the viral cause.",
+            "",
+            "Mupirocin is a topical antibacterial and does not treat HSV.",
+            "Systemic steroids could worsen disseminated HSV."
+          ],
+          "tags": [
+            "eczema herpeticum",
+            "hsv",
+            "emergency"
+          ]
+        },
+        {
+          "id": "dermatology--eczema-dermatitis-urticaria--q3",
+          "discipline": "adult-medicine",
+          "topic": "dermatology",
+          "difficulty": "exam",
+          "stem": "A 61-year-old man is brought to a Darwin emergency department with sudden swelling of his lips and tongue. He has no itch, wheals or wheeze. BP 150/90 mmHg, SpO2 98%. He has taken perindopril for hypertension for 4 years and started no new medications. He has had two milder episodes in the past year.\n\nWhat is the most likely cause?",
+          "options": [
+            "Hereditary angioedema",
+            "Food allergy",
+            "Chronic spontaneous urticaria",
+            "Allergic contact dermatitis",
+            "ACE-inhibitor angioedema"
+          ],
+          "answer": 4,
+          "explanation": "Recurrent **angioedema without urticaria or itch** in a patient on an **ACE inhibitor** is typical of **bradykinin-mediated ACE-inhibitor angioedema**. It can start **months to years** after the drug is begun and affects the lips, tongue and upper airway. Antihistamines and steroids work poorly because histamine is not the mediator; adrenaline is used if the airway is threatened, and airway management may be needed. The ACE inhibitor must be **stopped permanently** and recorded as an adverse reaction; ACE inhibitors as a class are contraindicated, and ARBs are used with caution.",
+          "whyWrong": [
+            "Hereditary angioedema usually starts in childhood or adolescence with a family history.",
+            "Food allergy usually causes urticaria and itch soon after eating, not isolated recurrent angioedema.",
+            "Chronic urticaria usually involves itchy wheals.",
+            "Contact dermatitis is an eczematous rash at the site of contact, not acute swelling.",
+            ""
+          ],
+          "tags": [
+            "angioedema",
+            "ace inhibitor",
+            "adverse drug reaction"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dermatology--psoriasis-acne-rosacea",
+      "title": "Psoriasis, acne and rosacea",
+      "minutes": 16,
+      "objectives": [
+        "Diagnose psoriasis and its variants and treat mild disease topically",
+        "Recognise psoriatic comorbidities and drugs that worsen psoriasis",
+        "Step acne treatment from topical therapy to isotretinoin safely",
+        "Distinguish rosacea from acne and treat it"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Overview",
+          "body": "**Psoriasis** affects around 2 to 3% of Australians. It is a systemic inflammatory disease, not just a skin condition, linked with psoriatic arthritis, cardiovascular disease, metabolic syndrome and depression. **Acne** affects most adolescents and many adults, and inadequately treated acne causes permanent scarring and significant psychological harm. **Rosacea** is common in fair-skinned middle-aged adults and is frequently mistaken for acne."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Pathogenesis",
+          "body": "- **Psoriasis**: genetic predisposition (HLA-Cw6) plus triggers activate the **IL-23/Th17 axis**, driving keratinocyte hyperproliferation (skin turnover in days instead of weeks) and inflammation. Triggers: streptococcal throat infection (guttate psoriasis), stress, trauma (**Koebner phenomenon**), alcohol, smoking, drugs (**lithium, beta blockers, antimalarials**, and **withdrawal of systemic corticosteroids**, which can precipitate pustular psoriasis).\n- **Acne**: four steps: androgen-driven **sebum production**, **follicular hyperkeratinisation** (comedones), colonisation with *Cutibacterium acnes*, and **inflammation**. Drugs such as steroids and some progestogens can cause it; polycystic ovary syndrome should be considered in women with acne plus hirsutism or irregular periods.\n- **Rosacea**: neurovascular dysregulation, innate immune activation and *Demodex* mites; triggers include heat, alcohol, spicy food and sun."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "**Psoriasis**\n- **Chronic plaque psoriasis**: well-demarcated, salmon-pink plaques with silvery scale on **extensor surfaces** (elbows, knees), scalp, lower back, natal cleft, umbilicus.\n- **Nails**: pitting, onycholysis, oil spots, subungual hyperkeratosis.\n- **Guttate**: showers of small drop-like plaques on the trunk 2 to 3 weeks after streptococcal pharyngitis, often in young people.\n- **Flexural (inverse)**: smooth red plaques without scale in groin, axillae, under breasts.\n- **Pustular** and **erythrodermic** psoriasis: medical emergencies with fever, fluid and temperature loss.\n- **Psoriatic arthritis** in up to about 30%: DIP arthritis, dactylitis, enthesitis, asymmetric oligoarthritis, arthritis mutilans.\n\n**Acne**: comedones (open blackheads, closed whiteheads), papules, pustules, nodules and cysts on face, chest and back; scarring and post-inflammatory pigmentation (more prominent in darker skin).\n\n**Rosacea**: central facial flushing and persistent erythema, telangiectasia, papules and pustules, **no comedones**; rhinophyma in men; ocular rosacea (gritty eyes, blepharitis)."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Differentials",
+          "body": "| Condition | Distinguishing feature |\n|---|---|\n| Psoriasis vs eczema | Psoriasis: sharply defined, silvery scale, extensor; eczema: ill-defined, flexural, very itchy |\n| Scalp psoriasis vs seborrhoeic dermatitis | Psoriasis: thick plaques extending past hairline; seb derm: greasy yellow, diffuse |\n| Plaque vs tinea corporis | Tinea: annular with active scaly edge and central clearing; scrape it |\n| Guttate psoriasis vs pityriasis rosea | Pityriasis rosea: herald patch, \"Christmas tree\" pattern, self-limiting |\n| Acne vs rosacea | Rosacea: no comedones, older, flushing, central face |\n| Rosacea vs SLE | SLE malar rash: spares nasolabial folds, no pustules, systemic features |\n| Acne vs perioral dermatitis | Perioral dermatitis: tiny papules around mouth sparing the lip border, often after topical steroid use |"
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "Psoriasis, acne and rosacea are clinical diagnoses. Tests are used to exclude look-alikes, find associated conditions and monitor systemic therapy:\n- **Skin scraping** for fungal microscopy when a scaly annular plaque could be tinea; **skin biopsy** for atypical or treatment-resistant plaques.\n- **Throat swab** or ASOT in guttate psoriasis if a recent streptococcal infection is suspected.\n- **Cardiovascular risk assessment** in psoriasis: BP, lipids, glucose or HbA1c, weight, smoking.\n- **Joint assessment** for psoriatic arthritis (DIP swelling, dactylitis, enthesitis); refer to rheumatology if present.\n- **Before systemic psoriasis therapy**: FBC, UEC, LFTs and lipids (methotrexate, acitretin, ciclosporin), pregnancy test, hepatitis B and C and latent TB screening before biologics.\n- **Acne in women** with hirsutism, irregular periods or sudden severe onset: consider **polycystic ovary syndrome** or other hyperandrogenism (total testosterone, SHBG, pelvic ultrasound as indicated).\n- **Isotretinoin**: baseline and follow-up fasting lipids and LFTs, and pregnancy tests before, monthly during and after treatment."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Psoriasis**\n- Mild to moderate: **topical therapy**. Potent corticosteroid plus **calcipotriol** (vitamin D analogue), often as a combination product; coal tar and salicylic acid for scale; scalp preparations; mild steroids for face and flexures. Emollients.\n- **Phototherapy** (narrowband UVB).\n- Systemic (dermatologist): **methotrexate** (weekly, as in RA), **ciclosporin**, **acitretin** (highly teratogenic; women must avoid pregnancy during and for **3 years after** stopping).\n- **Biologics** (anti-TNF, anti-IL-17, anti-IL-23, anti-IL-12/23) are PBS-subsidised under authority for severe chronic plaque psoriasis after failure of conventional systemic therapy or phototherapy, prescribed by a dermatologist.\n- **Avoid systemic corticosteroids** (rebound or pustular flare on withdrawal). Review lithium and beta blockers.\n- Screen for and manage cardiovascular risk, depression, and joint symptoms (refer psoriatic arthritis to rheumatology).\n\n**Acne** (step up by severity):\n- **Comedonal**: topical retinoid (**adapalene**, tretinoin) and/or **benzoyl peroxide**.\n- **Mild to moderate inflammatory**: add topical antibiotic (clindamycin) combined with benzoyl peroxide, never antibiotic alone (resistance).\n- **Moderate to severe**: **oral doxycycline** (or minocycline) for about 3 months, combined with a topical retinoid or benzoyl peroxide. In women, a **combined oral contraceptive** (including cyproterone-containing pills) is an effective option.\n- **Severe, nodulocystic or scarring acne, or failure of the above**: **oral isotretinoin**. It is **teratogenic (TGA category X)**: pregnancy test before and during, reliable contraception during and for one month after. Monitor lipids and LFTs; counsel about dry skin and lips, and ask about mood changes. Prescribing has traditionally been restricted to specialist dermatologists; check current state rules.\n- Tetracyclines are avoided in pregnancy and children under 8.\n- Counsel: improvement takes 6 to 8 weeks; don't pick.\n\n**Rosacea**: avoid triggers, daily sunscreen; topical **ivermectin**, metronidazole or azelaic acid for papulopustular disease; topical brimonidine for erythema; **oral doxycycline** for moderate to severe or ocular rosacea; vascular laser for telangiectasia. Avoid topical steroids (worsen it)."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- Teenager with drop-shaped plaques after a sore throat: guttate psoriasis.\n- Psoriasis flare after starting lithium or propranolol, or after a course of oral prednisolone ends: drug trigger.\n- A woman on isotretinoin must use contraception and have pregnancy testing. A woman planning pregnancy should not be started on **acitretin** (3-year avoidance).\n- Pustules on the face in a 50-year-old with flushing and no comedones: rosacea, not acne.\n- Acne on topical clindamycin alone: add benzoyl peroxide to prevent resistance."
+        }
+      ],
+      "keyPoints": [
+        "Psoriasis: well-demarcated plaques with silvery scale on extensor surfaces, nail pitting.",
+        "Triggers include streptococcal infection, lithium, beta blockers and systemic steroid withdrawal.",
+        "Topical steroid plus calcipotriol first; phototherapy, methotrexate, then PBS biologics.",
+        "Acitretin requires pregnancy avoidance for 3 years after stopping.",
+        "Acne: topical retinoid and benzoyl peroxide, then oral doxycycline; never antibiotic monotherapy.",
+        "Isotretinoin for severe or scarring acne: category X, pregnancy tests, contraception, monitor lipids and LFTs.",
+        "Rosacea has no comedones; avoid topical steroids; doxycycline for moderate disease."
+      ],
+      "redFlags": [
+        "Erythrodermic or generalised pustular psoriasis with fever",
+        "Pregnancy in a patient on isotretinoin or acitretin",
+        "Mood change or suicidal thoughts on isotretinoin",
+        "Painful gritty eyes in rosacea (ocular involvement)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Acne treatment",
+          "india": "Oral antibiotics and topical steroid combination creams are sometimes used alone.",
+          "australia": "Benzoyl peroxide or retinoid always combined with antibiotics; steroids avoided on the face."
+        },
+        {
+          "aspect": "Isotretinoin",
+          "india": "Readily available, often without pregnancy testing.",
+          "australia": "Category X with mandated pregnancy testing and contraception; prescribing traditionally restricted to dermatologists."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Guttate psoriasis trigger?",
+          "back": "Streptococcal throat infection 2-3 weeks earlier."
+        },
+        {
+          "front": "Drugs that worsen psoriasis?",
+          "back": "Lithium, beta blockers, antimalarials, and systemic steroid withdrawal."
+        },
+        {
+          "front": "Pregnancy avoidance after acitretin?",
+          "back": "3 years after stopping."
+        },
+        {
+          "front": "Why combine benzoyl peroxide with antibiotics in acne?",
+          "back": "To prevent bacterial resistance."
+        },
+        {
+          "front": "TGA pregnancy category of isotretinoin?",
+          "back": "Category X."
+        },
+        {
+          "front": "Feature that distinguishes rosacea from acne?",
+          "back": "No comedones."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "dermatology--psoriasis-acne-rosacea--q1",
+          "discipline": "adult-medicine",
+          "topic": "dermatology",
+          "difficulty": "foundation",
+          "stem": "A 17-year-old boy sees his GP in Hobart with a 2-week history of numerous small, scaly, pink drop-shaped plaques across his trunk and upper limbs. He had a severe sore throat 3 weeks ago. He is otherwise well.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Guttate psoriasis",
+            "Pityriasis rosea",
+            "Tinea corporis",
+            "Secondary syphilis",
+            "Atopic eczema"
+          ],
+          "answer": 0,
+          "explanation": "Showers of small drop-like (guttate) scaly plaques on the trunk 2 to 3 weeks after a **streptococcal throat infection** in a young person is **guttate psoriasis**. It often clears over weeks to months but can herald chronic plaque psoriasis. Treatment is emollients and topical therapy, with phototherapy for extensive disease. Pityriasis rosea has a herald patch and a Christmas-tree distribution. Secondary syphilis should be considered in a sexually active patient with palmar and plantar involvement, and serology arranged if in doubt.",
+          "whyWrong": [
+            "",
+            "Pityriasis rosea starts with a herald patch and follows skin cleavage lines.",
+            "Tinea is annular with central clearing and is rarely so widespread and sudden.",
+            "Secondary syphilis typically involves palms and soles and has other features; no sexual history is given.",
+            "Eczema is ill-defined, itchy and flexural, not multiple scaly drops after a sore throat."
+          ],
+          "tags": [
+            "psoriasis",
+            "guttate",
+            "streptococcus"
+          ]
+        },
+        {
+          "id": "dermatology--psoriasis-acne-rosacea--q2",
+          "discipline": "adult-medicine",
+          "topic": "dermatology",
+          "difficulty": "core",
+          "stem": "A 20-year-old woman sees her GP in Wollongong with moderate to severe acne on her face and back with nodules and early scarring. She has used adapalene with benzoyl peroxide gel and 3 months of oral doxycycline without adequate improvement. She is sexually active and not currently using contraception.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Add topical clindamycin alone",
+            "Switch to oral minocycline for another 6 months",
+            "Refer for oral isotretinoin with pregnancy testing and reliable contraception",
+            "Start oral prednisolone",
+            "Start oral isotretinoin today"
+          ],
+          "answer": 2,
+          "explanation": "Nodular, scarring acne that has failed topical therapy and an adequate course of oral antibiotic needs **oral isotretinoin**, the only treatment that can induce long-term remission and prevent further scarring. Isotretinoin is **teratogenic (category X)**, so she needs a negative **pregnancy test** before starting, **reliable contraception** during treatment and for one month after, and monthly pregnancy testing, along with baseline and follow-up lipids and LFTs and monitoring of mood. Prescribing has traditionally been restricted to specialist dermatologists, so referral is the usual step.",
+          "whyWrong": [
+            "Topical antibiotic monotherapy promotes resistance and is inadequate for scarring acne.",
+            "Prolonged antibiotics beyond about 3 months increase resistance without addressing scarring.",
+            "",
+            "Systemic steroids are not a treatment for acne and can cause it.",
+            "Isotretinoin cannot be started before a negative pregnancy test and contraception arrangements."
+          ],
+          "tags": [
+            "acne",
+            "isotretinoin",
+            "teratogen"
+          ]
+        },
+        {
+          "id": "dermatology--psoriasis-acne-rosacea--q3",
+          "discipline": "adult-medicine",
+          "topic": "dermatology",
+          "difficulty": "exam",
+          "stem": "A 45-year-old man with long-standing chronic plaque psoriasis, previously well controlled with topical therapy, presents to his GP in Launceston with a widespread flare. Three weeks ago he was started on a new medication by his psychiatrist, and he finished a 5-day course of oral prednisolone for a chest infection one week ago.\n\nWhich new medication is most likely to have contributed to the flare?",
+          "options": [
+            "Sertraline",
+            "Quetiapine",
+            "Mirtazapine",
+            "Lithium",
+            "Melatonin"
+          ],
+          "answer": 3,
+          "explanation": "**Lithium** is a well-recognised trigger for new or worsening psoriasis, as are **beta blockers**, antimalarials (hydroxychloroquine) and **withdrawal of systemic corticosteroids**, which here may also have contributed and can precipitate pustular psoriasis. Management involves discussing the lithium with his psychiatrist rather than stopping it abruptly (risk of bipolar relapse), intensifying topical therapy and considering phototherapy or systemic therapy via dermatology. Systemic steroids should generally be avoided in psoriasis for this reason.",
+          "whyWrong": [
+            "SSRIs are not established psoriasis triggers.",
+            "Quetiapine is not a recognised psoriasis trigger.",
+            "Mirtazapine is not a recognised trigger.",
+            "",
+            "Melatonin is not associated with psoriasis flares."
+          ],
+          "tags": [
+            "psoriasis",
+            "lithium",
+            "drug trigger"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dermatology--skin-infections-and-infestations",
+      "title": "Skin infections and infestations",
+      "minutes": 17,
+      "objectives": [
+        "Treat impetigo, cellulitis and abscesses per eTG and recognise necrotising fasciitis",
+        "Diagnose and treat tinea correctly, avoiding steroid combination creams",
+        "Treat scabies and head lice, including household contacts",
+        "Manage herpes zoster and know who is eligible for funded zoster vaccine"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Overview",
+          "body": "Skin infections are daily general practice work. Two Australian contexts matter for the AMC:\n- In **remote Aboriginal and Torres Strait Islander communities**, crowded housing, limited washing facilities and high rates of **scabies** and **impetigo (skin sores)** lead to **post-streptococcal glomerulonephritis** and **acute rheumatic fever**, which in turn causes rheumatic heart disease. Treating skin sores and scabies at a community level is a public health intervention.\n- **Community-acquired MRSA** is common in some northern and remote areas and changes empirical antibiotic choice."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Organisms and mechanisms",
+          "body": "- **Impetigo**: *Staphylococcus aureus* and/or **group A streptococcus (Streptococcus pyogenes)**; spreads by contact, often on scabies or eczema.\n- **Cellulitis and erysipelas**: mostly streptococci, sometimes *S. aureus*; entry through tinea pedis, ulcers, wounds, lymphoedema.\n- **Abscesses and boils**: *S. aureus*, including MRSA.\n- **Necrotising fasciitis**: group A streptococcus or polymicrobial; spreads along fascial planes with toxin-mediated tissue death.\n- **Water-related infections** (Australian examples): *Aeromonas* (fresh water), *Vibrio vulnificus* (warm salt water), *Mycobacterium marinum* (fish tanks), and *Mycobacterium ulcerans* causing **Buruli ulcer** (coastal Victoria, far north Queensland).\n- **Tinea**: dermatophytes (*Trichophyton*, *Microsporum*) invading keratin.\n- **Scabies**: *Sarcoptes scabiei* burrows in the epidermis; itch is a hypersensitivity reaction developing weeks after first infestation. **Crusted scabies** occurs in immunosuppressed or disabled people with thousands of mites and is highly contagious.\n- **Herpes zoster**: reactivation of varicella-zoster virus in a dorsal root or cranial nerve ganglion."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "| Condition | Features |\n|---|---|\n| Impetigo | Honey-coloured crusts (non-bullous) or flaccid bullae, around mouth and nose, limbs |\n| Cellulitis | Unilateral, spreading, warm, tender erythema with ill-defined edge, fever |\n| Erysipelas | Superficial, sharply demarcated, raised; often face or leg |\n| Necrotising fasciitis | **Pain out of proportion to findings**, rapid spread, systemic toxicity, dusky skin, bullae, crepitus, anaesthesia of skin |\n| Tinea corporis | Annular, scaly **active edge with central clearing**, itchy |\n| Tinea pedis | Macerated toe webs; a common portal for cellulitis |\n| Tinea incognito | Atypical tinea modified by steroid creams |\n| Onychomycosis | Thickened, yellow, crumbly nails |\n| Pityriasis versicolor | Hypo- or hyperpigmented fine-scaled patches on trunk (*Malassezia*) |\n| Scabies | Intense itch, worse at night; burrows in finger webs, wrists, genitals (penile papules), axillae, nipples; household members itchy |\n| Head lice | Itchy scalp, nits on hair shafts close to scalp |\n| Herpes zoster | Prodromal pain then dermatomal vesicles not crossing the midline |\n\n**Hutchinson sign**: vesicles on the tip of the nose in ophthalmic zoster (nasociliary branch), predicting eye involvement."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "- Most skin infections are clinical diagnoses. **Swab** pus or exudate for culture and sensitivities (MRSA), especially in recurrent disease or non-response.\n- **Mark the edge** of cellulitis to track progress; blood cultures if systemically unwell.\n- **Necrotising fasciitis**: do not wait for imaging; lactate, CK and a very high CRP support it, but **surgical exploration** is diagnostic.\n- **Tinea**: **skin scrapings or nail clippings for microscopy and culture** before oral therapy, especially for nails (many dystrophic nails are not fungal).\n- **Scabies**: clinical, dermoscopy or skin scraping to see mites.\n- Zoster: clinical; PCR of vesicle fluid if atypical.\n- Bilateral red, warm lower legs are rarely cellulitis: think venous stasis dermatitis, lipodermatosclerosis or contact dermatitis."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Impetigo**: limited lesions: gentle crust removal, topical antiseptic or antibacterial (mupirocin short course); extensive: oral **cefalexin** or **flucloxacillin**. In remote communities with high MRSA and strep rates, eTG recommends regimens such as oral **trimethoprim+sulfamethoxazole** or IM **benzathine benzylpenicillin**. Exclude from school or childcare until 24 hours after starting antibiotics and cover sores.\n\n**Cellulitis**: mild: oral **cefalexin** or **flucloxacillin** (eTG); severe or systemic features: IV **flucloxacillin** or cefazolin; elevate the limb; treat tinea pedis to prevent recurrence. Add MRSA cover (for example trimethoprim+sulfamethoxazole or clindamycin) if suspected. Water exposure injuries need different cover (eTG).\n\n**Abscess**: **incision and drainage** is the key treatment; antibiotics if surrounding cellulitis, systemic features or immunosuppression.\n\n**Necrotising fasciitis**: **emergency surgical debridement**, IV broad-spectrum antibiotics including **clindamycin** (suppresses toxin production), ICU. Consider IV immunoglobulin for streptococcal toxic shock.\n\n**Tinea**: topical **terbinafine** or an azole (clotrimazole, miconazole) for skin, continued 1 to 2 weeks after clearing. **Do not use steroid-antifungal combinations** on undiagnosed rashes. Tinea capitis and confirmed onychomycosis need oral **terbinafine** (check LFTs). Pityriasis versicolor: ketoconazole shampoo or selenium sulfide.\n\n**Scabies**:\n- **Permethrin 5% cream** applied to the whole body from the neck down (include scalp and face in infants and the elderly), left on overnight (8 to 12 hours), **repeated after 7 days**.\n- **Treat all household and close contacts at the same time**, even without symptoms.\n- Wash bedding, towels and clothes in hot water or seal them in a bag for several days.\n- **Itch can persist for 2 to 4 weeks** after successful treatment; use emollients and mild steroid rather than re-treating repeatedly.\n- **Crusted scabies**: oral **ivermectin** plus topical permethrin and keratolytics, specialist input, contact tracing. It is notifiable in some jurisdictions (varies by state).\n\n**Head lice**: topical pediculicide (permethrin, dimeticone or others), repeat after 7 days, and **wet combing** with conditioner; check household.\n\n**Herpes zoster**: oral **valaciclovir** or **famciclovir** ideally **within 72 hours** of rash onset (also later if new lesions are appearing, if ophthalmic, or if immunocompromised); analgesia. **Ophthalmic zoster** needs urgent ophthalmology review. **Prevention**: the recombinant zoster vaccine (Shingrix) is funded on the National Immunisation Program for older adults, Aboriginal and Torres Strait Islander adults from a younger age, and immunocompromised adults at high risk; check the Australian Immunisation Handbook for current eligibility ages."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- \"Pain out of proportion\" with rapidly spreading redness: **necrotising fasciitis**, call the surgeons.\n- Annular rash worsening on a steroid cream: tinea incognito, scrape and use plain antifungal.\n- Whole family itchy at night, burrows in finger webs: scabies; treat everyone the same day and repeat in 7 days.\n- An Aboriginal child in a remote community with skin sores and new haematuria and oedema: post-streptococcal glomerulonephritis.\n- Nose-tip vesicles with forehead zoster: Hutchinson sign, urgent ophthalmology.\n- Bilateral \"cellulitis\" of the legs: probably not cellulitis."
+        }
+      ],
+      "keyPoints": [
+        "Impetigo and scabies in remote communities drive APSGN and acute rheumatic fever.",
+        "Cellulitis: oral cefalexin or flucloxacillin; IV if systemic; consider MRSA in high-prevalence areas.",
+        "Abscess: incision and drainage is the main treatment.",
+        "Necrotising fasciitis: pain out of proportion, emergency debridement plus antibiotics including clindamycin.",
+        "Tinea: confirm with scrapings for oral therapy; plain antifungals, no steroid combinations.",
+        "Scabies: permethrin 5% neck down, repeat after 7 days, treat all contacts together; itch persists weeks.",
+        "Zoster: antivirals within 72 hours; ophthalmic zoster needs urgent eye review."
+      ],
+      "redFlags": [
+        "Pain out of proportion to skin findings, rapid spread, bullae or crepitus",
+        "Vesicles on the nose tip with forehead zoster",
+        "Crusted scabies in an immunosuppressed or disabled person",
+        "Cellulitis with systemic toxicity or in an immunocompromised patient",
+        "Skin sores in a child followed by haematuria, oedema or hypertension"
+      ],
+      "contrast": [
+        {
+          "aspect": "Tinea treatment",
+          "india": "Steroid-antifungal combination creams sold over the counter and widely misused, causing tinea incognito.",
+          "australia": "Plain topical terbinafine or azole; oral therapy only after microscopy or culture confirmation."
+        },
+        {
+          "aspect": "Skin sores and scabies",
+          "india": "Common, managed individually.",
+          "australia": "In remote Aboriginal communities treated as a public health priority to prevent APSGN and rheumatic heart disease."
+        },
+        {
+          "aspect": "Zoster vaccine",
+          "india": "Not routinely given.",
+          "australia": "Recombinant zoster vaccine funded on the NIP for eligible older, Aboriginal and immunocompromised adults."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Scabies treatment (Australia)?",
+          "back": "Permethrin 5% cream neck down overnight, repeat after 7 days, treat all contacts."
+        },
+        {
+          "front": "Treatment of crusted scabies?",
+          "back": "Oral ivermectin plus topical permethrin and keratolytics."
+        },
+        {
+          "front": "Oral antibiotic for mild cellulitis (eTG)?",
+          "back": "Cefalexin or flucloxacillin."
+        },
+        {
+          "front": "Key clinical clue to necrotising fasciitis?",
+          "back": "Pain out of proportion to visible findings."
+        },
+        {
+          "front": "Test before oral terbinafine for nails?",
+          "back": "Nail clippings for fungal microscopy and culture."
+        },
+        {
+          "front": "Window for zoster antivirals?",
+          "back": "Within 72 hours of rash onset (later if ophthalmic, immunocompromised or new lesions)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "dermatology--skin-infections-and-infestations--q1",
+          "discipline": "adult-medicine",
+          "topic": "dermatology",
+          "difficulty": "foundation",
+          "stem": "A 29-year-old mother brings her 4-year-old daughter to a GP in Logan. Both have had intense itch for 3 weeks, worse at night. The child has papules and burrows in her finger webs and wrists; the mother has similar lesions around her waist. The father and 8-year-old son are also itchy.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Treat the whole family with permethrin 5% cream at the same time, repeating after 7 days",
+            "Treat only the child with permethrin 5% cream",
+            "Oral antihistamines and review in 2 weeks",
+            "Oral ivermectin for the child only",
+            "Potent topical corticosteroid for the mother and child"
+          ],
+          "answer": 0,
+          "explanation": "Nocturnal itch, burrows in finger webs and wrists, and **multiple itchy household members** make this **scabies**. **Permethrin 5% cream** is applied to the whole body from the neck down (including the scalp and face in young children and elderly people), left on overnight and **repeated after 7 days** to kill newly hatched mites. **All household and close contacts must be treated at the same time**, whether or not they itch, otherwise reinfestation occurs. Wash bedding and clothing in hot water. Warn that itch may persist for 2 to 4 weeks.",
+          "whyWrong": [
+            "",
+            "Treating only one person leads to reinfestation from untreated contacts.",
+            "Antihistamines relieve itch but do not treat the infestation.",
+            "Oral ivermectin is reserved for crusted or refractory scabies, and all contacts still need treatment.",
+            "Steroids do not kill mites and may worsen infestation."
+          ],
+          "tags": [
+            "scabies",
+            "permethrin",
+            "household contacts"
+          ]
+        },
+        {
+          "id": "dermatology--skin-infections-and-infestations--q2",
+          "discipline": "adult-medicine",
+          "topic": "dermatology",
+          "difficulty": "core",
+          "stem": "A 52-year-old man with type 2 diabetes presents to a Cairns emergency department 18 hours after a minor cut to his thigh. He has severe thigh pain, far worse than the modest erythema suggests. HR 128 bpm, BP 88/54 mmHg, temperature 39.2 °C. The skin is dusky with a few blisters and reduced sensation. CRP is 320 mg/L and lactate 4.8 mmol/L.\n\nWhat is the most appropriate definitive step?",
+          "options": [
+            "IV flucloxacillin and elevate the limb",
+            "MRI of the thigh",
+            "Emergency surgical debridement",
+            "Oral cefalexin and review in 24 hours",
+            "Incision and drainage in the emergency department"
+          ],
+          "answer": 2,
+          "explanation": "**Pain out of proportion** to skin findings, rapid progression, dusky skin, bullae, anaesthesia and septic shock indicate **necrotising fasciitis**. It is a surgical emergency and mortality rises with every hour of delay. Resuscitate and give broad-spectrum IV antibiotics (per eTG, including **clindamycin** to suppress toxin production), but the definitive treatment is **emergency surgical exploration and debridement**, often repeated. Imaging must not delay surgery. ICU care and IV immunoglobulin may be considered for streptococcal toxic shock.",
+          "whyWrong": [
+            "Antibiotics alone cannot penetrate necrotic tissue; this is not simple cellulitis.",
+            "Imaging delays surgery and cannot exclude the diagnosis.",
+            "",
+            "Oral antibiotics and delay are inappropriate in septic shock.",
+            "Necrotising fasciitis needs extensive operative debridement, not simple drainage."
+          ],
+          "tags": [
+            "necrotising fasciitis",
+            "sepsis",
+            "surgery"
+          ]
+        },
+        {
+          "id": "dermatology--skin-infections-and-infestations--q3",
+          "discipline": "adult-medicine",
+          "topic": "dermatology",
+          "difficulty": "exam",
+          "stem": "A 70-year-old woman sees her GP in Albury with 2 days of burning pain and a vesicular rash on the right side of her forehead and scalp. There are also a few vesicles on the tip of her nose. Her vision is currently normal.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Oral valaciclovir only",
+            "Topical aciclovir cream",
+            "Oral prednisolone alone",
+            "Oral valaciclovir and urgent same-day ophthalmology review",
+            "Analgesia and reassurance"
+          ],
+          "answer": 3,
+          "explanation": "This is **herpes zoster ophthalmicus**. Vesicles on the **tip of the nose (Hutchinson sign)** show involvement of the **nasociliary nerve**, which also supplies the cornea, so eye involvement (keratitis, uveitis) is likely. She needs **oral antivirals** (valaciclovir or famciclovir) started straight away and **urgent ophthalmology review** even if vision is currently normal. Adequate analgesia helps and may reduce post-herpetic neuralgia. Once recovered, she should be offered the recombinant zoster vaccine if eligible under the NIP.",
+          "whyWrong": [
+            "Antivirals alone are insufficient because the eye needs specialist assessment.",
+            "Topical aciclovir has no role in zoster.",
+            "Steroids alone without antiviral cover are inappropriate.",
+            "",
+            "Zoster ophthalmicus threatens vision and needs antivirals and eye review."
+          ],
+          "tags": [
+            "herpes zoster",
+            "hutchinson sign",
+            "ophthalmic"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dermatology--dermatological-emergencies",
+      "title": "Blistering disease, drug reactions and skin emergencies",
+      "minutes": 15,
+      "objectives": [
+        "Recognise SJS/TEN and DRESS and name the common culprit drugs",
+        "Distinguish bullous pemphigoid from pemphigus vulgaris",
+        "Identify rashes signalling systemic emergencies, such as meningococcal disease",
+        "Describe erythema nodosum and erythema multiforme and their causes"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Overview",
+          "body": "A handful of skin presentations kill if missed: **Stevens-Johnson syndrome and toxic epidermal necrolysis (SJS/TEN)**, **drug reaction with eosinophilia and systemic symptoms (DRESS)**, **erythroderma**, autoimmune blistering disease, **meningococcal septicaemia** and necrotising fasciitis. The AMC expects you to recognise the pattern quickly, **stop the culprit drug**, and escalate. Many of these reactions are drug-induced, which also makes them pharmacology and safe-prescribing questions."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Mechanisms",
+          "body": "- **SJS/TEN**: a T-cell-mediated (type IV) reaction causing widespread **keratinocyte apoptosis** and epidermal detachment. SJS involves under 10% body surface area, TEN over 30%, overlap in between. Onset usually **4 days to 4 weeks** after starting a drug.\n- **Common culprits**: **allopurinol**, **anticonvulsants** (carbamazepine, phenytoin, lamotrigine, especially if titrated fast), **sulfonamides** (co-trimoxazole), **nevirapine**, **oxicam NSAIDs**. Mycoplasma infection causes some cases, particularly in children.\n- **Genetic risk**: **HLA-B*15:02** with carbamazepine (Han Chinese, Thai, Malaysian and other Southeast Asian populations; also reported in some South Asians), **HLA-B*58:01** with allopurinol.\n- **DRESS**: delayed (typically **2 to 8 weeks**) reaction with eosinophilia and internal organ involvement; similar culprits plus vancomycin and minocycline; associated with herpesvirus reactivation.\n- **Bullous pemphigoid**: autoantibodies against **hemidesmosomes** (BP180/230) at the dermo-epidermal junction, so **tense subepidermal blisters**.\n- **Pemphigus vulgaris**: autoantibodies against **desmoglein** (desmosomes) within the epidermis, so **flaccid intraepidermal blisters** that rupture easily.\n- **Erythema multiforme**: immune reaction, usually to **herpes simplex** (also mycoplasma); distinct from SJS."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "| Condition | Key features |\n|---|---|\n| **SJS/TEN** | Fever and flu-like prodrome, then painful dusky red macules and atypical targets, blisters and sheets of skin detachment; **Nikolsky sign positive**; **mucosal involvement in two or more sites** (eyes, mouth, genitals) |\n| **DRESS** | Fever, widespread morbilliform rash, **facial oedema**, lymphadenopathy, **eosinophilia**, atypical lymphocytes, **hepatitis**, nephritis, pneumonitis |\n| **Erythroderma** | Red, scaly skin over 90% of body surface; causes psoriasis, eczema, drugs, cutaneous lymphoma; risks of hypothermia, fluid loss, high-output cardiac failure, sepsis |\n| **Bullous pemphigoid** | **Elderly**, very itchy, **tense blisters** on limbs and trunk, often an urticarial prodrome; mucosa usually spared; Nikolsky negative |\n| **Pemphigus vulgaris** | Middle-aged, **painful oral erosions** often first, **flaccid blisters and erosions**, Nikolsky positive |\n| **Erythema multiforme** | **Typical target lesions** (three zones) on hands and feet, extending centrally; mild or no mucosal involvement; recurrent with HSV |\n| **Meningococcal disease** | Fever, unwell, **non-blanching petechial or purpuric rash**, may be subtle early |\n| **Erythema nodosum** | Tender red nodules on the **shins**, no ulceration; causes: streptococcal infection, sarcoidosis, TB, IBD, pregnancy and oral contraceptives, drugs |"
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "- **SJS/TEN**: clinical; skin biopsy confirms full-thickness epidermal necrosis. FBC, UEC, LFTs, glucose, bicarbonate (the **SCORTEN** score estimates mortality from age, malignancy, heart rate, body surface area detached, urea, glucose and bicarbonate).\n- **DRESS**: FBC with eosinophil count and film, LFTs, creatinine, urinalysis; a scoring system (RegiSCAR) supports the diagnosis.\n- **Blistering disease**: skin biopsy for histology plus **direct immunofluorescence** (linear IgG and C3 at basement membrane in pemphigoid; intercellular \"chicken-wire\" IgG in pemphigus); serum antibodies.\n- **Suspected meningococcal disease**: blood cultures and PCR, but **never delay antibiotics** for tests.\n- **Erythema nodosum**: throat swab or ASOT, chest X-ray (bilateral hilar lymphadenopathy in sarcoidosis, TB), pregnancy test, IBD history."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Sorting blisters and red skin",
+          "body": "| Question | Points towards |\n|---|---|\n| Painful skin, mucosa involved, recent new drug | SJS/TEN |\n| Itchy, tense blisters, elderly, mucosa spared | Bullous pemphigoid |\n| Oral erosions first, flaccid blisters, Nikolsky positive | Pemphigus vulgaris |\n| Typical targets on hands and feet after cold sores | Erythema multiforme |\n| Grouped itchy vesicles on elbows, knees, buttocks | Dermatitis herpetiformis (coeliac disease) |\n| Flaccid blisters and honey crusts in a child | Bullous impetigo |\n| Widespread superficial peeling in a febrile unwell young child, mucosa spared | Staphylococcal scalded skin syndrome (toxin, split high in epidermis) |\n| Fever, facial swelling, eosinophilia, hepatitis weeks after a drug | DRESS |\n| Punched-out erosions in eczema | Eczema herpeticum |\n\nStaphylococcal scalded skin syndrome is the main SJS/TEN mimic in children: mucous membranes are spared and it responds to anti-staphylococcal antibiotics."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**SJS/TEN**\n- **Stop the culprit drug immediately** (and any non-essential recent drugs).\n- Admit to a **burns unit or ICU**: fluids, temperature control, analgesia, non-adherent dressings, nutrition, infection surveillance.\n- **Ophthalmology** early (risk of scarring and blindness), plus oral and genital care.\n- Specific immunomodulation (for example ciclosporin, IV immunoglobulin, steroids) is specialist-directed and debated.\n- Document the allergy prominently, report to the TGA, and advise the patient never to take the drug again; first-degree relatives may share genetic risk.\n\n**DRESS**: stop the drug, supportive care, systemic corticosteroids often used, monitor organ function for weeks (it can relapse and cause later autoimmune thyroid disease).\n\n**Erythroderma**: admit, fluids, warmth, emollients, treat the underlying cause.\n\n**Bullous pemphigoid**: potent topical steroid (for example clobetasol) over the body, or oral prednisolone; doxycycline or steroid-sparing agents; dermatology referral. Review culprit drugs such as DPP-4 inhibitors (gliptins).\n\n**Pemphigus vulgaris**: systemic corticosteroids plus rituximab or other steroid-sparing therapy under dermatology.\n\n**Erythema multiforme**: symptomatic; antiviral suppression for recurrent HSV-associated disease.\n\n**Meningococcal disease**: **immediate IV or IM benzylpenicillin or ceftriaxone** (a GP should give it before transfer if meningococcal disease is suspected), resuscitation, notify public health, prophylaxis for close contacts.\n\n**Erythema nodosum**: treat the cause, rest, NSAIDs; usually resolves over weeks."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam tips",
+          "body": "- Painful skin, mucosal erosions and skin sloughing 2 weeks after starting carbamazepine or allopurinol: **SJS/TEN**; the first step is to **stop the drug**.\n- Fever, facial swelling, eosinophilia and hepatitis 4 weeks after starting a drug: **DRESS**.\n- Elderly person with tense itchy blisters and no mouth involvement: bullous pemphigoid. Middle-aged with oral erosions and flaccid blisters: pemphigus.\n- Target lesions on the hands after cold sores: erythema multiforme, not SJS.\n- Febrile, unwell child or young adult with non-blanching rash in general practice: **give benzylpenicillin now**, then transfer.\n- Before carbamazepine in a patient of Southeast Asian ancestry: test HLA-B*15:02."
+        }
+      ],
+      "keyPoints": [
+        "SJS/TEN: painful skin, blistering, Nikolsky positive, two or more mucosal sites; stop the drug, burns unit.",
+        "Culprits: allopurinol, anticonvulsants, sulfonamides, nevirapine, oxicam NSAIDs.",
+        "HLA-B*15:02 with carbamazepine and HLA-B*58:01 with allopurinol predict SJS/TEN.",
+        "DRESS: 2 to 8 weeks after a drug; fever, facial oedema, eosinophilia, hepatitis.",
+        "Pemphigoid: elderly, tense itchy blisters, mucosa spared. Pemphigus: flaccid blisters, oral erosions.",
+        "Suspected meningococcal disease: give benzylpenicillin or ceftriaxone immediately.",
+        "Erythema nodosum: shin nodules; think strep, sarcoid, TB, IBD, pregnancy and the pill."
+      ],
+      "redFlags": [
+        "Painful skin with blistering and mucosal erosions",
+        "Fever with non-blanching purpuric rash",
+        "Facial oedema, eosinophilia and hepatitis after a new drug",
+        "Erythroderma with hypothermia or haemodynamic instability",
+        "Eye involvement in any blistering disease"
+      ],
+      "contrast": [
+        {
+          "aspect": "Drug-induced SJS/TEN",
+          "india": "Common with anticonvulsants, sulfonamides and fixed-dose combinations; often over-the-counter drugs.",
+          "australia": "Same culprits; strict documentation of allergy, TGA reporting, and HLA testing before carbamazepine in at-risk ancestry groups."
+        },
+        {
+          "aspect": "Suspected meningococcal disease",
+          "india": "Referral to hospital, antibiotics often given there.",
+          "australia": "GPs give benzylpenicillin (or ceftriaxone) immediately before transfer; notifiable with contact prophylaxis."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Body surface area in SJS vs TEN?",
+          "back": "SJS under 10%; TEN over 30%; overlap 10-30%."
+        },
+        {
+          "front": "First step in suspected SJS/TEN?",
+          "back": "Stop the culprit drug."
+        },
+        {
+          "front": "HLA allele linked with carbamazepine SJS?",
+          "back": "HLA-B*15:02."
+        },
+        {
+          "front": "Typical onset of DRESS after starting a drug?",
+          "back": "2 to 8 weeks."
+        },
+        {
+          "front": "Blister type in bullous pemphigoid?",
+          "back": "Tense, subepidermal; mucosa usually spared."
+        },
+        {
+          "front": "Most common trigger of erythema multiforme?",
+          "back": "Herpes simplex virus."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "dermatology--dermatological-emergencies--q1",
+          "discipline": "adult-medicine",
+          "topic": "dermatology",
+          "difficulty": "core",
+          "stem": "A 34-year-old woman presents to a Sydney emergency department with painful red skin, blisters and erosions of her lips, mouth and conjunctivae. About 15% of her skin surface is detaching, and gentle lateral pressure causes the epidermis to slide off. Three weeks ago she started lamotrigine for bipolar disorder and her dose was increased quickly. Temperature 38.8 °C, HR 118 bpm.\n\nWhat is the most important immediate step?",
+          "options": [
+            "Start oral prednisolone and discharge",
+            "Stop lamotrigine and arrange admission to a burns unit or ICU",
+            "Give an oral antihistamine",
+            "Continue lamotrigine at a lower dose",
+            "Start IV flucloxacillin"
+          ],
+          "answer": 1,
+          "explanation": "Painful skin detachment with a **positive Nikolsky sign** and mucosal involvement at **two or more sites** a few weeks after starting a high-risk drug is **SJS/TEN**; 15% detachment is SJS/TEN overlap. **Lamotrigine** is a classic culprit, particularly with rapid titration. The single most important action is to **stop the culprit drug** immediately, then admit to a **burns unit or ICU** for fluids, wound care, temperature control, analgesia and early **ophthalmology** review. Document the allergy and report it to the TGA. Mortality is estimated with SCORTEN.",
+          "whyWrong": [
+            "Discharge is unsafe; this is a life-threatening reaction needing intensive care.",
+            "",
+            "Antihistamines do not treat SJS/TEN.",
+            "Continuing the culprit drug at any dose worsens the reaction.",
+            "Antibiotics are given only for proven infection; they do not treat SJS/TEN."
+          ],
+          "ausPearl": "Serious adverse drug reactions should be reported to the TGA; the allergy must be recorded in the medical record and My Health Record.",
+          "tags": [
+            "sjs",
+            "ten",
+            "lamotrigine"
+          ]
+        },
+        {
+          "id": "dermatology--dermatological-emergencies--q2",
+          "discipline": "adult-medicine",
+          "topic": "dermatology",
+          "difficulty": "foundation",
+          "stem": "An 84-year-old woman in a residential aged care facility in Bendigo develops intensely itchy, tense, fluid-filled blisters on her thighs, forearms and abdomen, some on a red urticarial base. Her mouth is unaffected. Gentle pressure does not extend the blisters. She takes sitagliptin for diabetes.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Pemphigus vulgaris",
+            "Stevens-Johnson syndrome",
+            "Dermatitis herpetiformis",
+            "Bullous impetigo",
+            "Bullous pemphigoid"
+          ],
+          "answer": 4,
+          "explanation": "**Tense, itchy blisters** on an urticarial base in an **elderly** patient, sparing the mucosa, with a **negative Nikolsky sign**, is **bullous pemphigoid**, caused by autoantibodies to hemidesmosome proteins at the dermo-epidermal junction (subepidermal split). **DPP-4 inhibitors** such as sitagliptin are a recognised trigger, so the gliptin should be reviewed. Diagnosis is confirmed by biopsy with **direct immunofluorescence** (linear IgG and C3). Treatment is a potent topical steroid over affected areas or oral prednisolone, with dermatology input.",
+          "whyWrong": [
+            "Pemphigus has flaccid fragile blisters and prominent oral erosions, and is Nikolsky positive.",
+            "SJS causes painful skin detachment with mucosal involvement and systemic illness.",
+            "Dermatitis herpetiformis causes small grouped itchy vesicles on extensor surfaces with coeliac disease.",
+            "Bullous impetigo causes flaccid blisters and honey crusts, usually in children.",
+            ""
+          ],
+          "tags": [
+            "bullous pemphigoid",
+            "blistering",
+            "elderly"
+          ]
+        },
+        {
+          "id": "dermatology--dermatological-emergencies--q3",
+          "discipline": "adult-medicine",
+          "topic": "dermatology",
+          "difficulty": "exam",
+          "stem": "A 17-year-old boy is brought to a rural GP clinic in western New South Wales with 8 hours of fever, headache and vomiting. He is drowsy. HR 124 bpm, BP 94/56 mmHg, capillary refill 4 seconds. There are several non-blanching purple spots on his legs. The nearest hospital is a 40-minute ambulance transfer away.\n\nWhat is the most appropriate immediate action?",
+          "options": [
+            "Give IV or IM benzylpenicillin now, then arrange urgent transfer",
+            "Arrange urgent transfer and let the hospital start antibiotics",
+            "Take blood cultures and wait for results",
+            "Perform a lumbar puncture in the clinic",
+            "Give oral amoxicillin"
+          ],
+          "answer": 0,
+          "explanation": "Fever, drowsiness, signs of shock and a **non-blanching purpuric rash** indicate **meningococcal septicaemia** until proven otherwise. Mortality rises rapidly with delay, so a GP who suspects invasive meningococcal disease should give **parenteral benzylpenicillin** (IV or IM; ceftriaxone is an alternative) **immediately**, before transfer, and ideally after blood cultures only if this causes no delay. Start fluid resuscitation and call for retrieval. Notify public health so close contacts receive prophylaxis. Lumbar puncture is contraindicated in shock and must never delay antibiotics.",
+          "whyWrong": [
+            "",
+            "Waiting 40 minutes or more for antibiotics increases mortality.",
+            "Cultures must not delay antibiotics.",
+            "LP is contraindicated with shock and would delay treatment.",
+            "Oral antibiotics are inadequate for septicaemia."
+          ],
+          "ausPearl": "Invasive meningococcal disease is notifiable in all states and territories; public health units arrange clearance antibiotics and vaccination for contacts.",
+          "tags": [
+            "meningococcal",
+            "purpura",
+            "sepsis"
+          ]
+        }
+      ]
+    }
+  ]
+}

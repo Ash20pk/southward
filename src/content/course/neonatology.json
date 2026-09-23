@@ -1,0 +1,943 @@
+{
+  "topic": "neonatology",
+  "intro": "Neonatology covers the first four weeks of life: resuscitation at birth, the routine newborn check and screening programs, jaundice, sepsis, hypoglycaemia, breathing and feeding problems, and safe sleep. It is a reliable source of AMC questions because newborns show serious illness subtly, and Australian practice (ANZCOR, vitamin K, the hepatitis B birth dose, bloodspot and hearing screening, Red Nose) differs in important ways from Indian training.",
+  "lessons": [
+    {
+      "id": "neonatology--resuscitation-and-birth-care",
+      "title": "Newborn resuscitation and care at birth",
+      "minutes": 16,
+      "objectives": [
+        "Explain why lung aeration, not the heart, is the problem in most newborns who need help at birth",
+        "Work through the ANZCOR newborn algorithm using heart rate as the main guide",
+        "State when to start chest compressions, the ratio, and when adrenaline is given",
+        "Describe routine care at birth: cord clamping, warmth, skin-to-skin, vitamin K and hepatitis B vaccine"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why newborn resuscitation is different",
+          "body": "Most babies breathe on their own within a minute of birth. A small proportion need some help to establish breathing, and fewer than 1 in 100 need chest compressions or drugs. In Australia and New Zealand the process is governed by the **ANZCOR** (Australian and New Zealand Committee on Resuscitation) neonatal guidelines, which every birth suite follows and the AMC expects you to know.\n\nThe single idea that makes the whole algorithm make sense: **a newborn who is not coping almost always has a breathing problem, not a heart problem.** The lungs are full of fluid and have to be aerated. If they are, the heart rate usually recovers on its own. This is why **effective ventilation is the priority**, and why compressions and drugs come late and rarely.\n\nBabies more likely to need help: preterm birth, fetal distress on CTG, meconium-stained liquor, instrumental or emergency caesarean birth, maternal general anaesthetic or recent opioids, multiple pregnancy, and known fetal anomalies. Someone trained in newborn resuscitation should be present at every birth, and a team for high-risk births."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "The transition at birth",
+          "body": "In utero, the lungs are fluid-filled and pulmonary vascular resistance is high, so blood bypasses the lungs through the foramen ovale and ductus arteriosus. At birth:\n\n- The first breaths generate high negative pressures that drive lung fluid into the interstitium, where it is absorbed.\n- Aeration lowers pulmonary vascular resistance, pulmonary blood flow rises, left atrial pressure rises and the foramen ovale closes functionally.\n- Rising oxygen levels begin to constrict the ductus.\n\nIf the baby is asphyxiated (poor placental gas exchange before birth), it goes through **primary apnoea**, which responds to stimulation, and then **secondary apnoea**, which does not. You cannot tell them apart at birth, so an apnoeic baby who does not respond quickly to drying and stimulation needs ventilation.\n\n**Heart rate is the best indicator of whether the baby is responding.** Bradycardia in a newborn is a sign of hypoxia; a rising heart rate is the best sign that your ventilation is working.\n\nOxygen saturation rises slowly after birth. Pre-ductal saturations (measured on the **right hand**) normally sit around 60 to 70% in the first couple of minutes and climb over about 10 minutes to around 90%. A pink colour is not needed at 1 minute, and chasing high saturations with oxygen causes harm."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Assessing the baby at birth",
+          "body": "At birth, while you dry and warm the baby, assess three things:\n\n- **Tone:** floppy or flexed.\n- **Breathing:** crying, regular, gasping or apnoeic.\n- **Heart rate:** above or below 100/min, and whether below 60/min. Listen at the apex with a stethoscope; an ECG is the most accurate quick measure during resuscitation. Palpating the cord is unreliable.\n\n**Apgar score** (0 to 2 for each of heart rate, respiratory effort, tone, reflex irritability and colour) is recorded at 1 and 5 minutes, and every 5 minutes after that if it is below 7. It describes the baby's condition and response but **is not used to decide whether to start resuscitation**. You do not wait for the 1-minute Apgar to act.\n\n| Heart rate | What it means | Action |\n|---|---|---|\n| Above 100, breathing well, good tone | Normal transition | Routine care with mother |\n| Below 100, or apnoeic/gasping | Inadequate breathing | Positive pressure ventilation |\n| Below 60 after 30 s of effective ventilation | Severe hypoxia | Chest compressions plus ventilation |"
+        },
+        {
+          "kind": "management",
+          "heading": "The ANZCOR newborn algorithm, step by step",
+          "body": "**1. Initial steps (first 30 to 60 seconds).** Warm, dry and stimulate. Remove wet towels. Position the head neutral (\"sniffing\"). Clear the airway only if it is obstructed; routine suctioning is not recommended. For preterm babies under about 32 weeks, place them in a plastic bag or wrap without drying, under a radiant warmer. Aim for a temperature of 36.5 to 37.5 °C.\n\n**2. Positive pressure ventilation (PPV)** if the baby is apnoeic, gasping, or the heart rate is below 100/min.\n- Face mask with a T-piece or self-inflating bag, rate about 40 to 60 inflations/min, with PEEP.\n- **Start with air (21% oxygen) for babies of 35 weeks or more**; preterm babies start at low oxygen (around 21 to 30%) and it is titrated to pre-ductal saturation targets.\n- Attach a pulse oximeter to the right hand.\n- Watch for chest rise and a rising heart rate. If neither happens, the ventilation is not effective: fix the mask seal, reposition the airway, suction if needed, open the mouth, increase pressure, or insert an airway (laryngeal mask or endotracheal tube). Most failures are technical.\n\n**3. Chest compressions** if the heart rate stays **below 60/min despite 30 seconds of effective ventilation**.\n- Two-thumb technique encircling the chest, lower third of the sternum, depth about one third of the chest.\n- **Ratio 3:1** (three compressions to one inflation), aiming for about 90 compressions and 30 inflations per minute.\n- Increase oxygen to 100% once compressions start. Reassess heart rate every 30 to 60 seconds.\n\n**4. Adrenaline** if the heart rate stays below 60/min despite effective ventilation and compressions. The preferred route is intravenous via an **umbilical venous catheter** (or intraosseous). The endotracheal route is less reliable. Use the dose on your unit's resuscitation chart. Consider **volume** (0.9% saline) if there has been blood loss or the baby looks shocked.\n\n**Meconium-stained liquor:** a vigorous baby needs routine care. A non-vigorous baby should get the same initial steps and PPV; routine tracheal suctioning before ventilation is no longer recommended because it delays ventilation.\n\n**After resuscitation:** babies of 35 weeks or more with moderate to severe **hypoxic-ischaemic encephalopathy** should be assessed for **therapeutic hypothermia**, which must start within 6 hours of birth, so early discussion with the neonatal retrieval service matters. Check blood glucose after any significant resuscitation."
+        },
+        {
+          "kind": "management",
+          "heading": "Routine care at birth for every baby",
+          "body": "- **Delayed cord clamping** for at least 30 to 60 seconds in babies who do not need resuscitation. It improves iron stores in term babies and circulatory stability in preterm babies.\n- **Skin-to-skin contact** with the mother and support to **breastfeed within the first hour**.\n- **Vitamin K** to prevent vitamin K deficiency bleeding (haemorrhagic disease of the newborn). A single **IM dose at birth** is recommended. If parents decline the injection, an oral course of three doses (at birth, day 3 to 5, and week 4) is an alternative but is less effective, particularly against late bleeding in breastfed babies.\n- **Hepatitis B vaccine** for all babies, **ideally within 24 hours and no later than 7 days** after birth. If the mother is HBsAg positive, the baby also needs **hepatitis B immunoglobulin (HBIG)**, ideally within 12 hours, in a different limb.\n- **Identification bands**, weight, length, head circumference.\n- A full **newborn examination** before discharge (next lesson).\n\nUnlike India, Australia does **not** give routine BCG or oral polio at birth. BCG is reserved for specific high-risk groups, for example some Aboriginal and Torres Strait Islander infants in high-incidence regions and babies travelling to or living with people from high TB-incidence countries."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- The classic stem: a term baby is apnoeic and floppy after drying, heart rate 80. The answer is **mask ventilation in air**, not intubation, not oxygen at 100%, and not compressions.\n- Heart rate 50 **after** 30 seconds of good ventilation with chest rise: **start compressions at 3:1**. If the stem does not say ventilation was effective, the answer is to fix ventilation.\n- Trap: \"wait for the 1-minute Apgar\". Never.\n- Trap: routine suctioning of meconium. Not recommended.\n- Adrenaline goes IV via the umbilical vein; the trachea is a second-line route.\n- Vitamin K prevents bleeding in the first days to months; a breastfed baby with a bleed and no vitamin K is the classic late VKDB story, often an intracranial bleed at 2 to 12 weeks.\n- A baby of an HBsAg-positive mother needs both vaccine and HBIG within hours. Breastfeeding is still fine."
+        }
+      ],
+      "keyPoints": [
+        "Most newborns who need help have a breathing problem: effective ventilation is the priority.",
+        "Heart rate is the key measure; a rising heart rate means ventilation is working.",
+        "PPV if apnoeic, gasping or heart rate below 100; start in air at 35 weeks or more.",
+        "Compressions if heart rate stays below 60 after 30 seconds of effective ventilation, 3:1 ratio, 100% oxygen.",
+        "Adrenaline IV via umbilical venous catheter if heart rate stays below 60 despite ventilation and compressions.",
+        "Apgar scores describe; they do not trigger resuscitation.",
+        "Every baby is offered IM vitamin K and hepatitis B vaccine (within 24 hours ideally, 7 days at most).",
+        "HBsAg-positive mother: vaccine plus HBIG, ideally within 12 hours."
+      ],
+      "redFlags": [
+        "Heart rate below 100 despite apparently adequate mask ventilation: check the technique first",
+        "Heart rate below 60 after 30 seconds of effective ventilation",
+        "Encephalopathy after a difficult birth in a baby of 35 weeks or more (cooling window is 6 hours)",
+        "Scaphoid abdomen with respiratory distress at birth (congenital diaphragmatic hernia: intubate, avoid prolonged mask ventilation)",
+        "Bleeding in a baby who did not receive vitamin K"
+      ],
+      "contrast": [
+        {
+          "aspect": "Birth vaccines",
+          "india": "BCG, OPV zero dose and hepatitis B birth dose.",
+          "australia": "Hepatitis B vaccine (ideally within 24 hours) plus IM vitamin K. BCG only for defined high-risk infants; no oral polio."
+        },
+        {
+          "aspect": "Resuscitation framework",
+          "india": "NRP (IAP/NNF) programme, based on the American algorithm.",
+          "australia": "ANZCOR neonatal guidelines; the steps are similar, with air for babies 35 weeks or more and heart rate as the guide."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Newborn: when do you start positive pressure ventilation?",
+          "back": "Apnoea, gasping, or heart rate below 100/min after initial steps."
+        },
+        {
+          "front": "Newborn: when do you start chest compressions?",
+          "back": "Heart rate below 60/min despite 30 seconds of effective ventilation."
+        },
+        {
+          "front": "Compression to ventilation ratio in newborn resuscitation?",
+          "back": "3:1 (about 90 compressions and 30 inflations per minute), with 100% oxygen."
+        },
+        {
+          "front": "Starting oxygen concentration for PPV in a term baby?",
+          "back": "Air (21%). Preterm below 35 weeks: low oxygen (about 21 to 30%), titrated to pre-ductal SpO2."
+        },
+        {
+          "front": "Where do you put the pulse oximeter at birth, and why?",
+          "back": "Right hand: it measures pre-ductal saturation."
+        },
+        {
+          "front": "Deadline for the hepatitis B birth dose?",
+          "back": "Ideally within 24 hours of birth; must be given within 7 days."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "neonatology--resuscitation-and-birth-care--q1",
+          "discipline": "child-health",
+          "topic": "neonatology",
+          "difficulty": "core",
+          "stem": "A male baby is born at 39 weeks by emergency caesarean section for fetal distress. After drying and stimulation under the radiant warmer he is floppy and not breathing. Heart rate by stethoscope is 70/min.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Commence chest compressions at a ratio of 3:1",
+            "Give 100% oxygen by face mask without inflation",
+            "Commence positive pressure ventilation by face mask in air",
+            "Intubate and give adrenaline down the endotracheal tube",
+            "Suction the oropharynx and reassess at the 1-minute Apgar"
+          ],
+          "answer": 2,
+          "explanation": "This baby is **apnoeic with a heart rate below 100/min** after the initial steps, so the next step under ANZCOR is **positive pressure ventilation by mask**. For a term baby, ventilation starts in **air (21%)**, with a pulse oximeter on the right hand to guide any added oxygen.\n\nThe principle: newborn collapse is almost always due to failure of lung aeration. Effective ventilation usually makes the heart rate rise without anything else. Compressions come only if the heart rate stays **below 60** after 30 seconds of *effective* ventilation.\n\n**Discriminating clue:** heart rate 70 (below 100 but not below 60) and no ventilation yet.",
+          "whyWrong": [
+            "Compressions are for heart rate below 60 after 30 seconds of effective ventilation; this baby has not been ventilated yet.",
+            "Free-flow oxygen does nothing for an apnoeic baby, who needs inflation breaths.",
+            "",
+            "Intubation and adrenaline come much later; the trachea is also a less reliable route for adrenaline.",
+            "Routine suction is not recommended and the Apgar score never delays resuscitation."
+          ],
+          "ausPearl": "ANZCOR is the resuscitation standard across Australian birth suites; know its thresholds of 100 and 60.",
+          "tags": [
+            "resuscitation",
+            "anzcor",
+            "ventilation"
+          ]
+        },
+        {
+          "id": "neonatology--resuscitation-and-birth-care--q2",
+          "discipline": "child-health",
+          "topic": "neonatology",
+          "difficulty": "exam",
+          "stem": "A baby girl born at 40 weeks after a prolonged second stage is receiving mask ventilation in air. The midwife confirms good chest rise with each inflation, which has now continued for 30 seconds. Heart rate on the ECG monitor is 50/min.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Continue ventilation and recheck the heart rate in 2 minutes",
+            "Give a 10 mL/kg bolus of 0.9% sodium chloride",
+            "Insert an umbilical venous catheter and give adrenaline before anything else",
+            "Begin chest compressions coordinated 3:1 with ventilation and increase oxygen to 100%",
+            "Change to a laryngeal mask airway and continue ventilation in air"
+          ],
+          "answer": 3,
+          "explanation": "The heart rate is **below 60/min despite 30 seconds of effective ventilation** (chest rise confirmed), which is the ANZCOR trigger for **chest compressions**. Use the two-thumb technique on the lower third of the sternum, **3:1** with inflations, and increase oxygen to **100%**. Reassess every 30 to 60 seconds.\n\nIf the heart rate stays below 60 despite effective ventilation and compressions, adrenaline is then given through an umbilical venous catheter.\n\n**Clue:** the stem goes out of its way to tell you ventilation is effective. If it had said there was no chest rise, the answer would be to correct the ventilation technique.",
+          "whyWrong": [
+            "A heart rate of 50 after effective ventilation needs compressions now, not after a further 2 minutes.",
+            "Volume is for suspected blood loss or shock, which the stem does not describe.",
+            "Adrenaline follows compressions; it is not given before compressions have been tried.",
+            "",
+            "An airway adjunct is for ineffective mask ventilation; here ventilation is already effective."
+          ],
+          "tags": [
+            "resuscitation",
+            "compressions",
+            "anzcor"
+          ]
+        },
+        {
+          "id": "neonatology--resuscitation-and-birth-care--q3",
+          "discipline": "child-health",
+          "topic": "neonatology",
+          "difficulty": "foundation",
+          "stem": "A 6-week-old breastfed boy is brought to the emergency department with vomiting, a bulging fontanelle and drowsiness. He was born at home and his parents declined all interventions at birth. CT shows an intracranial haemorrhage. Platelets are normal and the prothrombin time is markedly prolonged.\n\nWhich intervention at birth would most likely have prevented this?",
+          "options": [
+            "Hepatitis B vaccine",
+            "Intramuscular vitamin K",
+            "Delayed cord clamping",
+            "Newborn bloodspot screening",
+            "Oral iron supplementation"
+          ],
+          "answer": 1,
+          "explanation": "This is **late vitamin K deficiency bleeding** (VKDB). Newborns have low vitamin K stores, the placenta transfers little, and breast milk contains very little vitamin K. Without prophylaxis, exclusively breastfed babies are at risk of bleeding from about 2 to 12 weeks, and a large proportion of late bleeds are **intracranial**, with high rates of death and disability.\n\nThe coagulation pattern gives it away: **prolonged PT (factors II, VII, IX, X are vitamin K dependent) with normal platelets**. A single IM dose of vitamin K at birth is highly effective. Oral regimens need three doses and are less protective against late VKDB.\n\nIn Australia every baby is offered IM vitamin K at birth, and declining it should prompt a documented conversation about this exact risk.",
+          "whyWrong": [
+            "Hepatitis B vaccine prevents perinatal hepatitis B, not bleeding.",
+            "",
+            "Delayed cord clamping improves iron stores, not vitamin K dependent clotting factors.",
+            "Bloodspot screening detects metabolic and endocrine conditions; it does not prevent bleeding.",
+            "Iron does not affect clotting factor synthesis."
+          ],
+          "ausPearl": "Home births and parents who decline interventions are the classic AMC setting for VKDB. Treat with IV vitamin K and, for active bleeding, prothrombin complex concentrate or fresh frozen plasma per haematology advice.",
+          "tags": [
+            "vitamin-k",
+            "vkdb",
+            "birth-care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neonatology--newborn-check-screening-safe-sleep",
+      "title": "The newborn check, screening and safe sleep",
+      "minutes": 18,
+      "objectives": [
+        "Perform a structured newborn examination and separate normal variants from findings that need referral",
+        "Describe what newborn bloodspot and hearing screening test for, and when",
+        "Recognise the examination findings that point to DDH, congenital heart disease, cataract and undescended testes",
+        "Give parents the Red Nose safe sleeping advice"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why the newborn check matters",
+          "body": "Every baby born in Australia has a full **newborn examination** by a doctor or trained midwife, usually before discharge and within the first 72 hours, and a second check at **6 to 8 weeks** by the GP or child health nurse. Two national screening programs sit alongside it: **newborn bloodspot screening** and **universal newborn hearing screening**. Parents are also given a state-issued personal health record (for example the NSW \"Blue Book\") where results are written.\n\nThe purpose is to find conditions where early detection changes the outcome: developmental dysplasia of the hip, congenital cataract, critical congenital heart disease, congenital hypothyroidism, hearing loss and others. The AMC tests which findings are normal, which need urgent referral, and what the screening programs are for."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "The head-to-toe check: normal versus not",
+          "body": "**General:** weight, length and head circumference plotted on the chart; colour (jaundice in the first 24 hours is abnormal, cyanosis is abnormal); tone and posture; cry.\n\n**Head and face:**\n- **Caput succedaneum**: boggy scalp oedema that **crosses suture lines**, resolves in days.\n- **Cephalohaematoma**: subperiosteal bleed **limited by sutures**, takes weeks to resolve, can worsen jaundice.\n- Fontanelles: bulging suggests raised pressure; sunken suggests dehydration.\n- **Red reflex** with an ophthalmoscope: an absent or white reflex (**leukocoria**) means cataract or retinoblastoma and needs **urgent** ophthalmology.\n- Inspect and palpate the palate for a cleft; check the ears and look for dysmorphic features.\n\n**Chest and heart:** respiratory rate (normal 30 to 60/min), work of breathing, heart sounds, murmurs. **Palpate femoral pulses**: weak or absent femorals suggest **coarctation of the aorta**. Many murmurs in the first days are innocent (transitional), but a murmur with cyanosis, poor feeding, or absent femorals needs same-day assessment. **Pulse oximetry screening** for critical congenital heart disease (comparing pre- and post-ductal saturations) is offered in many Australian hospitals; practice varies by state.\n\n**Abdomen and genitalia:** liver edge up to 1 to 2 cm is normal; umbilical cord vessels (two arteries, one vein). Boys: both testes in the scrotum; **undescended testes** that have not come down by about 3 months should be referred, with surgery usually between 6 and 12 months. **Hypospadias**: refer, and **do not circumcise** because the foreskin may be used in repair. Anus patent and normally placed.\n\n**Hips:** **Barlow** (adduct and push posteriorly to dislocate a dislocatable hip) and **Ortolani** (abduct to relocate a dislocated hip, felt as a clunk). Risk factors for DDH: **breech** presentation, **family history**, female sex, first-born, oligohydramnios. A positive test needs referral; risk factors with a normal exam warrant a **hip ultrasound at about 6 weeks** (earlier ultrasound over-diagnoses physiological laxity).\n\n**Spine and limbs:** a simple sacral dimple (small, within 2.5 cm of the anus, base visible) is benign; a deep or high dimple, hair tuft, haemangioma or skin tag over the spine needs spinal ultrasound. Positional talipes corrects passively; structural talipes does not and needs early orthopaedic referral (Ponseti casting). Check clavicles (fracture) and arm movement (**Erb palsy**, C5 to C6: arm adducted, internally rotated, \"waiter's tip\").\n\n**Skin, normal variants to recognise and reassure about:** erythema toxicum (blotchy red rash with pale pustules from day 2 to 3, full of eosinophils, harmless), milia, stork mark, and **congenital dermal melanocytosis** (Mongolian blue spots). Document blue spots clearly so they are not later mistaken for bruising."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Newborn screening programs",
+          "body": "**Newborn bloodspot screening (heel prick)**\n- Collected at **48 to 72 hours** of age, once feeding is established, onto a card sent to the state screening laboratory. It is offered to all babies with parental consent; parents can decline, and this is documented.\n- Screens for conditions that are serious, treatable and invisible at birth. Core conditions include **congenital hypothyroidism**, **phenylketonuria (PKU)** and other amino acid disorders, **cystic fibrosis**, **galactosaemia**, and fatty acid oxidation disorders such as MCAD deficiency. Programs have been expanding (for example spinal muscular atrophy, severe combined immunodeficiency and congenital adrenal hyperplasia), and the exact list **varies by state**.\n- **Why each matters:** untreated congenital hypothyroidism causes intellectual disability, and levothyroxine started in the first couple of weeks prevents it. PKU needs a phenylalanine-restricted diet from early on. CF screening uses immunoreactive trypsinogen (IRT) followed by gene testing, and a positive screen is confirmed with a **sweat chloride test**. A screen is not a diagnosis.\n- Babies screened too early, preterm, or transfused may need repeat samples.\n\n**Universal newborn hearing screening**\n- Offered to all babies, usually before discharge, using **automated auditory brainstem response (AABR)**. Programs are run by each state (for example SWISH in NSW).\n- Permanent bilateral hearing loss affects roughly 1 to 2 per 1000 babies. The aim is screening by 1 month, diagnosis by 3 months and intervention (hearing aids, cochlear implants, early language support) by 6 months, because language development depends on early access to sound.\n- A \"refer\" result leads to diagnostic audiology. Babies who pass but have risk factors (congenital CMV, bacterial meningitis, family history, NICU stay, craniofacial anomalies, severe jaundice needing exchange) still need follow-up, because hearing loss can be progressive or late-onset. **Congenital CMV** is the commonest non-genetic cause."
+        },
+        {
+          "kind": "management",
+          "heading": "Safe sleep and discharge advice",
+          "body": "**Sudden unexpected death in infancy (SUDI)**, including SIDS and fatal sleeping accidents, is highest in the first 6 months. Rates are higher among Aboriginal and Torres Strait Islander babies, largely linked to smoking exposure and unsafe sleep environments. The national guidance is **Red Nose Australia's safe sleeping advice**:\n\n1. Sleep baby **on the back** from birth, not on the tummy or side.\n2. Keep the **head and face uncovered** (no pillows, bumpers, soft toys or loose bedding; feet at the bottom of the cot).\n3. Keep baby **smoke-free** before birth and after.\n4. Provide a **safe sleeping environment** night and day (a cot meeting the Australian Standard, firm flat mattress that fits).\n5. Sleep baby in their **own safe sleeping place in the parents' room for the first 6 to 12 months**.\n6. **Breastfeed** baby.\n\nSharing a sleep surface is most dangerous when a parent smokes, has used alcohol or sedating drugs, is extremely tired, when the baby is preterm or low birthweight, or on a **sofa or armchair**. Wrapping is fine for young babies but must be firm around the body, loose at the hips (to protect them from DDH) and stopped when the baby starts rolling. Supervised **tummy time** while awake helps motor development and reduces positional plagiocephaly.\n\nOther discharge advice: feeding and expected weight loss (up to about 10%, back to birthweight by about 2 weeks), jaundice, cord care, when to seek help (fever of 38 °C or more in a young baby, poor feeding, lethargy, bilious vomiting), car restraint use, and the immunisation schedule starting at 6 weeks."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Absent red reflex in a newborn or infant: **urgent ophthalmology referral** (cataract, retinoblastoma). Never \"review at 6 weeks\".\n- Breech baby with a normal hip examination: **hip ultrasound at about 6 weeks**, not an X-ray and not reassurance alone.\n- Weak femoral pulses: coarctation; measure four-limb blood pressures and get an echocardiogram.\n- Blue-grey patches over the sacrum in a baby of Asian, African or Indian background: normal, document.\n- The screening question: \"what does the heel prick test for?\" Know congenital hypothyroidism, PKU and CF, and that it is done at **48 to 72 hours**.\n- Hearing: babies pass the screen but still need audiology follow-up if there is a risk factor such as congenital CMV or meningitis.\n- Safe sleep: the answer is always **on the back**, own cot, parents' room, smoke-free. Side sleeping is wrong."
+        }
+      ],
+      "keyPoints": [
+        "Newborn check before discharge and again at 6 to 8 weeks.",
+        "Absent red reflex is urgent: cataract or retinoblastoma.",
+        "Barlow dislocates, Ortolani relocates; breech or family history means hip ultrasound at about 6 weeks.",
+        "Absent femoral pulses suggest coarctation; hypospadias means no circumcision.",
+        "Bloodspot screening at 48 to 72 hours: congenital hypothyroidism, PKU, CF, galactosaemia, metabolic disorders; list varies by state.",
+        "Universal hearing screening (AABR) before discharge; aim for intervention by 6 months.",
+        "Red Nose: on the back, face uncovered, smoke-free, safe cot in the parents' room for 6 to 12 months, breastfeed."
+      ],
+      "redFlags": [
+        "Absent or white red reflex",
+        "Weak or absent femoral pulses, or cyanosis",
+        "Jaundice in the first 24 hours",
+        "Bilious (green) vomiting",
+        "Positive Ortolani or Barlow test",
+        "Hair tuft, deep dimple or mass over the lower spine"
+      ],
+      "contrast": [
+        {
+          "aspect": "Newborn screening",
+          "india": "Not universal; varies by state and hospital, often limited to hypothyroidism and G6PD.",
+          "australia": "Universal heel-prick bloodspot screening at 48 to 72 hours for many conditions, plus universal hearing screening."
+        },
+        {
+          "aspect": "Safe sleep",
+          "india": "Bed-sharing is common and culturally normal.",
+          "australia": "Red Nose advice: back to sleep in the baby's own cot in the parents' room; bed-sharing risks are discussed openly."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "When is the newborn bloodspot (heel prick) sample taken?",
+          "back": "48 to 72 hours after birth."
+        },
+        {
+          "front": "Name three conditions every Australian bloodspot program screens for.",
+          "back": "Congenital hypothyroidism, phenylketonuria, cystic fibrosis (also galactosaemia and fatty acid oxidation disorders)."
+        },
+        {
+          "front": "Barlow versus Ortolani?",
+          "back": "Barlow: adduct and push back to dislocate an unstable hip. Ortolani: abduct to relocate a dislocated hip (clunk)."
+        },
+        {
+          "front": "Caput succedaneum versus cephalohaematoma?",
+          "back": "Caput crosses suture lines and resolves in days; cephalohaematoma is limited by sutures and lasts weeks."
+        },
+        {
+          "front": "What test is used for universal newborn hearing screening?",
+          "back": "Automated auditory brainstem response (AABR)."
+        },
+        {
+          "front": "How long should a baby sleep in the parents' room (Red Nose)?",
+          "back": "The first 6 to 12 months, in the baby's own safe cot."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "neonatology--newborn-check-screening-safe-sleep--q1",
+          "discipline": "child-health",
+          "topic": "neonatology",
+          "difficulty": "foundation",
+          "stem": "A GP performs the 6-week check on a girl who was born at term by caesarean section for breech presentation. She is feeding well and gaining weight. The Barlow and Ortolani tests are negative, leg lengths and skin creases are symmetrical, and hip abduction is full.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Reassure the parents; no further action is needed",
+            "Refer for a Pavlik harness",
+            "Arrange a pelvic X-ray",
+            "Repeat the hip examination at the 6-month check",
+            "Arrange a hip ultrasound"
+          ],
+          "answer": 4,
+          "explanation": "**Breech presentation** is one of the strongest risk factors for **developmental dysplasia of the hip (DDH)**, along with family history. Clinical examination misses some dysplastic hips, so babies with risk factors should have a **hip ultrasound** even when the examination is normal.\n\nUltrasound is the right test in young infants because the femoral head is still cartilage and does not show on X-ray. It is ideally done at around **6 weeks**, since earlier scans pick up physiological laxity that resolves on its own.\n\nX-ray becomes useful from about 4 to 6 months, when the femoral head ossifies. A Pavlik harness is treatment, given only after diagnosis.",
+          "whyWrong": [
+            "A normal exam does not exclude DDH in a baby with a major risk factor.",
+            "A harness treats confirmed DDH; there is no diagnosis yet.",
+            "The femoral head is not yet ossified at 6 weeks, so X-ray is unhelpful.",
+            "Waiting to 6 months delays diagnosis past the best window for harness treatment.",
+            ""
+          ],
+          "ausPearl": "State programs and RCH guidance recommend selective ultrasound screening for babies with risk factors, usually around 6 weeks.",
+          "tags": [
+            "ddh",
+            "newborn-check",
+            "breech"
+          ]
+        },
+        {
+          "id": "neonatology--newborn-check-screening-safe-sleep--q2",
+          "discipline": "child-health",
+          "topic": "neonatology",
+          "difficulty": "core",
+          "stem": "A midwife asks you to review a 2-day-old boy before discharge. During the newborn examination you cannot elicit a red reflex in his left eye; the pupil looks greyish-white in the examination room light. The right eye is normal. He is otherwise well.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Recheck the red reflex at the 6-week check",
+            "Discharge with a GP review in 1 week",
+            "Arrange an urgent ophthalmology review",
+            "Instil dilating drops and repeat the examination the next day",
+            "Arrange an MRI of the brain and orbits as an outpatient"
+          ],
+          "answer": 2,
+          "explanation": "An absent red reflex, or a white pupil (**leukocoria**), in a newborn is an **urgent** finding. The two conditions that matter most are **congenital cataract**, which must be removed within the first weeks of life to avoid permanent deprivation amblyopia, and **retinoblastoma**, a malignant tumour that is curable when caught early.\n\nThe correct response is **urgent ophthalmology review**, usually within days. Imaging, if needed, is decided by the ophthalmologist.\n\nThe red reflex is examined at the newborn check and again at 6 to 8 weeks precisely because the window for normal visual development is short.",
+          "whyWrong": [
+            "Waiting 6 weeks risks irreversible amblyopia or a delayed cancer diagnosis.",
+            "A routine GP review is not fast enough for leukocoria.",
+            "",
+            "Dilating and repeating the next day still delays specialist assessment of a potentially serious finding.",
+            "Imaging is guided by the ophthalmologist; outpatient MRI without review delays diagnosis."
+          ],
+          "tags": [
+            "red-reflex",
+            "leukocoria",
+            "newborn-check"
+          ]
+        },
+        {
+          "id": "neonatology--newborn-check-screening-safe-sleep--q3",
+          "discipline": "child-health",
+          "topic": "neonatology",
+          "difficulty": "foundation",
+          "stem": "First-time parents of a healthy 5-day-old girl ask for advice about sleeping. The father smokes outside the house. They plan to put her in their bed so the mother can breastfeed easily, and would like to put her to sleep on her side so she does not choke if she vomits.\n\nWhich advice is most appropriate?",
+          "options": [
+            "Side sleeping is safest because it prevents aspiration",
+            "Sleep her on her back in her own cot in the parents' room",
+            "Bed-sharing is safe as long as the mother is breastfeeding",
+            "Sleep her on her tummy once her neck control is good",
+            "Use a small pillow and bumpers to keep her in position"
+          ],
+          "answer": 1,
+          "explanation": "Red Nose safe sleeping advice is to sleep a baby **on the back**, face and head uncovered, in a **safe cot in the parents' room for the first 6 to 12 months**, in a smoke-free environment, and to breastfeed.\n\nBack sleeping does **not** increase choking: healthy babies protect their airway, and the back-to-sleep campaign cut SIDS rates dramatically. Side sleeping is unstable because babies roll onto the tummy.\n\nBed-sharing is riskiest when a parent **smokes** (even outside), has drunk alcohol or taken sedating drugs, or on a sofa. This family has a smoker, which makes sharing a sleep surface especially risky.",
+          "whyWrong": [
+            "Side sleeping is unstable and increases SIDS risk; back sleeping does not increase aspiration.",
+            "",
+            "Bed-sharing risk is increased by parental smoking, even when smoking happens outside.",
+            "Tummy sleeping is a major SIDS risk factor at any age in infancy.",
+            "Pillows and bumpers can cover the face and cause suffocation."
+          ],
+          "ausPearl": "Red Nose Australia (formerly SIDS and Kids) is the national source for safe sleep advice, and child health nurses reinforce it at every visit.",
+          "tags": [
+            "safe-sleep",
+            "sids",
+            "counselling"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neonatology--neonatal-jaundice",
+      "title": "Neonatal jaundice",
+      "minutes": 18,
+      "objectives": [
+        "Explain why newborns become jaundiced and how that leads to physiological, pathological and prolonged jaundice",
+        "Identify jaundice that is pathological by its timing, level and associated features",
+        "Order the right first investigations and use gestation-specific phototherapy charts",
+        "Recognise conjugated jaundice and biliary atresia as a time-critical diagnosis"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why jaundice matters",
+          "body": "Around 60% of term and 80% of preterm babies become visibly jaundiced in the first week. Most of it is **physiological** and harmless. The AMC wants you to find the minority that is not:\n\n- **Severe unconjugated jaundice**, because unconjugated bilirubin can cross the blood-brain barrier and cause **acute bilirubin encephalopathy** and permanent **kernicterus** (athetoid cerebral palsy, sensorineural deafness, upward gaze palsy, dental enamel defects).\n- **Jaundice with a cause that is dangerous in itself**: haemolysis, sepsis, hypothyroidism.\n- **Conjugated jaundice**, above all **biliary atresia**, where surgery before about 60 days of age gives much better outcomes."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why newborns go yellow",
+          "body": "Three things combine in the first days:\n\n1. **More bilirubin is produced.** The newborn has a high haematocrit, and fetal red cells have a shorter lifespan (around 70 to 90 days).\n2. **Less is conjugated.** Hepatic UDP-glucuronyl transferase activity is immature for the first days.\n3. **More is reabsorbed.** Gut bacteria are few, and intestinal beta-glucuronidase deconjugates bilirubin so it is reabsorbed (enterohepatic circulation). Poor feeding and slow stooling make this worse.\n\n**Physiological jaundice** therefore appears **after 24 hours**, peaks around **day 3 to 5**, and fades by about 2 weeks in term babies (longer in preterm babies).\n\n**Pathological unconjugated jaundice** happens when production is greatly increased or clearance is impaired:\n- **Haemolysis:** ABO incompatibility (group O mother, group A or B baby), Rh disease (much rarer since anti-D), other antibodies; **G6PD deficiency** (important in babies of Mediterranean, African, Middle Eastern and Asian background, including Indian); hereditary spherocytosis.\n- **Sepsis**, including UTI.\n- **Bruising or cephalohaematoma**, polycythaemia (infant of a diabetic mother, delayed cord clamping, twin transfusion).\n- **Breastfeeding-associated jaundice** (early, from inadequate intake and dehydration) versus **breast milk jaundice** (later, prolonged, in a thriving baby, benign).\n- **Hypothyroidism**, Crigler-Najjar and Gilbert syndromes.\n\n**Conjugated jaundice** means bilirubin has been conjugated but cannot get out of the liver: **biliary atresia** (progressive obliterative cholangiopathy), neonatal hepatitis, choledochal cyst, alpha-1 antitrypsin deficiency, galactosaemia, CF, congenital infections, and parenteral nutrition."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Recognising the jaundice that matters",
+          "body": "Jaundice spreads from head to toe as the level rises, but **visual estimation is unreliable**, especially in babies with darker skin. Any baby who looks jaundiced needs a measured bilirubin.\n\n**Features that make jaundice pathological:**\n- **Onset in the first 24 hours.** This is always pathological until proven otherwise; think **haemolysis** or **sepsis**.\n- A rapidly rising level, or a level above the phototherapy threshold for age and gestation.\n- An unwell baby: poor feeding, lethargy, temperature instability, vomiting.\n- **Prolonged jaundice:** beyond **14 days** in a term baby or **21 days** in a preterm baby.\n- **Pale stools and dark urine** at any age: conjugated jaundice until proven otherwise. Babies' urine should be colourless and stools yellow or green. Many state child health records include a **stool colour chart** for this reason.\n\n**Acute bilirubin encephalopathy** starts with lethargy, hypotonia and poor suck, then progresses to hypertonia, retrocollis and opisthotonus, a high-pitched cry, fever and seizures. This is an emergency."
+        },
+        {
+          "kind": "investigations",
+          "heading": "What to order, and how to read it",
+          "body": "**First line for any visibly jaundiced baby:**\n- **Transcutaneous bilirubin (TcB)** as a screening tool; confirm with a **serum bilirubin (SBR)** if TcB is high, the baby is under 24 hours old, or treatment is being considered.\n- Plot the SBR on a **gestation-specific phototherapy and exchange chart** by age in hours. Australian units use gestation-based charts (many are derived from the NICE charts). Thresholds are lower for preterm babies and those with risk factors.\n\n**If jaundice is early, rising fast, or needs treatment:**\n- **Split bilirubin** (total and conjugated).\n- **Blood group of baby and mother** and **direct antiglobulin test (DAT, Coombs)**: positive in ABO and Rh isoimmunisation.\n- **FBC and blood film**: anaemia, reticulocytosis, spherocytes.\n- **G6PD** screen where ethnicity or family history fits (a result taken during haemolysis can be falsely normal).\n- **Sepsis screen** if the baby is unwell: blood culture, urine, consider LP.\n\n**Prolonged jaundice (beyond 14 days term, 21 days preterm):**\n- **Conjugated bilirubin** is the key test. A conjugated fraction above about 20% of the total, or above the local laboratory's cut-off, is abnormal and needs **same-week** paediatric referral.\n- Also check TSH and T4 (or the newborn screening result), urine culture, and review stool colour.\n- Conjugated jaundice workup (specialist-led): liver function, coagulation, abdominal ultrasound (absent or abnormal gallbladder, triangular cord sign), alpha-1 antitrypsin, metabolic and infection screens, then hepatobiliary scintigraphy and liver biopsy or intraoperative cholangiogram to confirm biliary atresia."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Sorting jaundice by timing",
+          "body": "| Timing | Most likely causes | Key clue |\n|---|---|---|\n| First 24 hours | Haemolysis (ABO, Rh, G6PD, spherocytosis), sepsis | DAT positive, anaemia, unwell baby |\n| Day 2 to 14 | Physiological, breastfeeding-associated, bruising, polycythaemia; still consider sepsis and haemolysis | Level versus chart; weight loss |\n| Beyond 14 days, unconjugated | Breast milk jaundice, hypothyroidism, UTI, ongoing haemolysis | Thriving baby, normal stools |\n| Beyond 14 days, conjugated | Biliary atresia, neonatal hepatitis, choledochal cyst, alpha-1 antitrypsin, metabolic | Pale stools, dark urine, hepatomegaly |\n\nBreast milk jaundice is a **diagnosis of exclusion**: the baby is well, gaining weight, stools are yellow, and the conjugated fraction and thyroid function are normal. Breastfeeding continues."
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment and follow-up",
+          "body": "- **Support feeding.** Frequent breastfeeds (8 to 12 per day), lactation support, and supplementation only if there is significant weight loss or dehydration. Stopping breastfeeding is not a treatment for jaundice.\n- **Phototherapy** when the SBR is above the gestation- and age-specific line. Blue light converts bilirubin into water-soluble isomers excreted without conjugation. Expose as much skin as possible, protect the eyes, monitor temperature and hydration, and recheck the SBR (commonly 4 to 6 hours after starting, then according to the trend). Intensive (multiple-light) phototherapy is used for high or rapidly rising levels. Watch for rebound after stopping.\n- **Exchange transfusion** in a neonatal unit if bilirubin reaches the exchange line, rises despite intensive phototherapy, or there are signs of encephalopathy.\n- **IVIG** may be used in isoimmune haemolysis with a rising level despite intensive phototherapy (specialist decision).\n- **Treat the cause:** antibiotics for sepsis, avoidance of oxidant triggers in G6PD deficiency, levothyroxine for hypothyroidism.\n- **Biliary atresia:** urgent referral to a paediatric liver unit for the **Kasai portoenterostomy**, ideally before about 60 days of age. Many children still need liver transplantation later. Give vitamin K, since conjugated jaundice causes fat-soluble vitamin malabsorption.\n\n**Follow-up:** babies discharged early (under 48 hours) need a review within 1 to 2 days for jaundice and feeding. Babies who have had exchange-level bilirubin need hearing assessment and neurodevelopmental follow-up."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- \"Yellow at 12 hours old\" means **haemolysis or sepsis**: SBR, blood groups, DAT, FBC and film.\n- \"Still yellow at 3 weeks\" with **pale stools** means **conjugated bilirubin today** and urgent referral; biliary atresia is the diagnosis you cannot afford to miss.\n- \"Still yellow at 3 weeks, thriving, yellow stools\" means **split bilirubin, TSH, urine**; then reassure about breast milk jaundice if normal.\n- The answer is almost never \"stop breastfeeding\".\n- Treatment thresholds come from a **chart by gestation and age in hours**, not a single number.\n- Group O mother with a group A baby, jaundice day 1, DAT positive: ABO incompatibility."
+        }
+      ],
+      "keyPoints": [
+        "Physiological jaundice starts after 24 hours, peaks day 3 to 5, and fades by about 2 weeks.",
+        "Jaundice in the first 24 hours is always pathological: haemolysis or sepsis.",
+        "Visual assessment is unreliable: measure TcB or SBR and plot on a gestation-specific chart.",
+        "First workup: SBR, split bilirubin, blood groups, DAT, FBC and film, G6PD if indicated.",
+        "Prolonged jaundice (over 14 days term, 21 days preterm) needs a conjugated bilirubin.",
+        "Pale stools and dark urine mean conjugated jaundice; biliary atresia needs Kasai before about 60 days.",
+        "Phototherapy by chart; exchange transfusion if at exchange level or encephalopathic; keep breastfeeding."
+      ],
+      "redFlags": [
+        "Jaundice in the first 24 hours of life",
+        "Pale (chalky) stools or dark urine",
+        "Bilirubin approaching the exchange threshold or rising rapidly",
+        "Lethargy, poor suck, hypertonia, arching or high-pitched cry (bilirubin encephalopathy)",
+        "Jaundice in an unwell or febrile baby"
+      ],
+      "contrast": [
+        {
+          "aspect": "G6PD deficiency",
+          "india": "Common and well known; screening is done in some states and hospitals.",
+          "australia": "Less common overall, so it is easy to forget; test babies of at-risk ancestry with early or severe jaundice."
+        },
+        {
+          "aspect": "Phototherapy thresholds",
+          "india": "Often taught as fixed bilirubin values by day of life (AAP-based charts).",
+          "australia": "Gestation-specific charts by age in hours, often derived from NICE; check the local chart."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Jaundice appearing within 24 hours of birth: the two causes to think of first?",
+          "back": "Haemolysis and sepsis."
+        },
+        {
+          "front": "Definition of prolonged neonatal jaundice?",
+          "back": "Jaundice beyond 14 days in a term baby or 21 days in a preterm baby."
+        },
+        {
+          "front": "Key test in prolonged neonatal jaundice?",
+          "back": "Conjugated (split) bilirubin."
+        },
+        {
+          "front": "Time window for the Kasai procedure in biliary atresia?",
+          "back": "Ideally before about 60 days of age."
+        },
+        {
+          "front": "Classic blood group setup for ABO haemolytic disease?",
+          "back": "Group O mother, group A or B baby; DAT often positive."
+        },
+        {
+          "front": "How does phototherapy work?",
+          "back": "Converts unconjugated bilirubin into water-soluble isomers excreted without liver conjugation."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "neonatology--neonatal-jaundice--q1",
+          "discipline": "child-health",
+          "topic": "neonatology",
+          "difficulty": "core",
+          "stem": "A 3-week-old girl is brought to her GP because she still looks yellow. She was born at term and is exclusively breastfed. Her mother says she feeds well, but her nappies have looked \"very pale, almost white\" for a week and her urine stains the nappy yellow. She is 150 g above birthweight. The liver edge is palpable 3 cm below the costal margin.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Reassure that this is breast milk jaundice and review in 2 weeks",
+            "Stop breastfeeding for 48 hours and recheck the jaundice",
+            "Arrange a total and conjugated bilirubin and refer urgently to paediatrics",
+            "Commence home phototherapy",
+            "Arrange an outpatient abdominal ultrasound in 4 weeks"
+          ],
+          "answer": 2,
+          "explanation": "This is **prolonged jaundice** (beyond 14 days in a term baby) with **pale stools, dark urine and hepatomegaly**. That combination points to **conjugated hyperbilirubinaemia**, and the diagnosis that must be excluded urgently is **biliary atresia**.\n\nThe outcome of the **Kasai portoenterostomy** is much better when it is done before about **60 days of age**, so this child needs a **split bilirubin today** and an **urgent paediatric referral**, not watchful waiting. A baby with biliary atresia often looks well and gains weight initially, which is why the stool colour is the discriminating clue.\n\nBreast milk jaundice is unconjugated, with normal yellow stools, and is a diagnosis of exclusion.",
+          "whyWrong": [
+            "Breast milk jaundice has yellow stools and is only diagnosed after the conjugated bilirubin is normal.",
+            "Interrupting breastfeeding is not a treatment for conjugated jaundice and delays diagnosis.",
+            "",
+            "Phototherapy treats unconjugated bilirubin; it does nothing for conjugated jaundice and may cause bronze baby syndrome.",
+            "A 4-week delay could push the diagnosis past the best window for surgery."
+          ],
+          "ausPearl": "Many state child health records (such as the NSW Blue Book) include a stool colour card so parents can spot pale stools early.",
+          "tags": [
+            "biliary-atresia",
+            "jaundice",
+            "prolonged-jaundice"
+          ]
+        },
+        {
+          "id": "neonatology--neonatal-jaundice--q2",
+          "discipline": "child-health",
+          "topic": "neonatology",
+          "difficulty": "core",
+          "stem": "A baby boy born at 38 weeks is noted to be jaundiced at 14 hours of age. He is feeding reasonably. His mother is blood group O positive. Transcutaneous bilirubin is high for his age.\n\nWhich set of investigations is most appropriate?",
+          "options": [
+            "Serum bilirubin, baby's blood group, direct antiglobulin test, FBC and film",
+            "Liver function tests and abdominal ultrasound",
+            "TSH and free T4",
+            "Urine metabolic screen and serum ammonia",
+            "No tests; repeat the transcutaneous bilirubin in 24 hours"
+          ],
+          "answer": 0,
+          "explanation": "Jaundice in the **first 24 hours** is always pathological, and the leading causes are **haemolysis** and **sepsis**. A group O mother raises the possibility of **ABO incompatibility**: her naturally occurring anti-A and anti-B IgG can cross the placenta and haemolyse the red cells of a group A or B baby.\n\nThe right workup confirms and quantifies the bilirubin (**SBR**, plotted on the gestation-specific chart), looks for isoimmune haemolysis (**baby's blood group and DAT**), and assesses the degree of haemolysis (**FBC, reticulocytes, film**). Add a sepsis screen if the baby is unwell and consider G6PD by ancestry.\n\nThis baby may need phototherapy within hours, so waiting is not safe.",
+          "whyWrong": [
+            "",
+            "LFTs and ultrasound are for conjugated or prolonged jaundice, not early unconjugated jaundice.",
+            "Hypothyroidism causes prolonged jaundice, not jaundice at 14 hours.",
+            "Metabolic disease is not the first consideration in day-1 jaundice with a group O mother.",
+            "Early jaundice can rise quickly to dangerous levels; waiting 24 hours is unsafe."
+          ],
+          "tags": [
+            "jaundice",
+            "abo-incompatibility",
+            "haemolysis"
+          ]
+        },
+        {
+          "id": "neonatology--neonatal-jaundice--q3",
+          "discipline": "child-health",
+          "topic": "neonatology",
+          "difficulty": "foundation",
+          "stem": "A 4-day-old boy born at 39 weeks is exclusively breastfed. He is alert and feeding every 2 to 3 hours, with 5 wet nappies a day and yellow stools. He has lost 7% of his birthweight. Serum bilirubin is 210 micromol/L (all unconjugated), which is below the phototherapy line on the gestation-specific chart.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Start phototherapy",
+            "Change to formula feeding",
+            "Continue breastfeeding and arrange follow-up of jaundice and weight",
+            "Admit for IV fluids",
+            "Arrange a liver ultrasound"
+          ],
+          "answer": 2,
+          "explanation": "This is typical **physiological jaundice**: it began after 24 hours, the baby is well and feeding, output is good, weight loss is within the expected range (up to about 10%), stools are yellow, and the bilirubin is **below the treatment line** on the gestation-specific chart.\n\nManagement is to **continue breastfeeding**, support frequent feeds, and arrange follow-up to make sure the level falls and weight recovers (most babies are back to birthweight by about 2 weeks). Safety-net: return if the baby becomes more yellow, sleepy or feeds poorly, or has pale stools.\n\nTreatment decisions come from **the chart**, not from the number alone.",
+          "whyWrong": [
+            "The bilirubin is below the phototherapy threshold for his gestation and age.",
+            "Breastfeeding is not the problem and should be supported, not replaced.",
+            "",
+            "He is well hydrated with good output; IV fluids are unnecessary.",
+            "Ultrasound is for conjugated jaundice, which he does not have."
+          ],
+          "tags": [
+            "jaundice",
+            "physiological",
+            "breastfeeding"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neonatology--sepsis-and-hypoglycaemia",
+      "title": "Neonatal sepsis and hypoglycaemia",
+      "minutes": 18,
+      "objectives": [
+        "Recognise the subtle ways neonatal sepsis presents",
+        "Distinguish early-onset from late-onset sepsis and choose empirical antibiotics",
+        "Explain intrapartum GBS prophylaxis and how it changes newborn management",
+        "Identify babies at risk of hypoglycaemia and manage a low blood glucose"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Two quiet killers",
+          "body": "Newborns show serious illness in subtle, non-specific ways. **Sepsis** and **hypoglycaemia** are both common, both treatable, and both cause death or brain injury when missed. The AMC tests whether you will act on soft signs in a young baby.\n\n**Neonatal sepsis** is divided by age of onset:\n- **Early-onset sepsis (EOS)**, within the first 72 hours (some guidelines say 48): acquired from the mother before or during birth. Main organisms: **group B streptococcus (GBS)**, **E. coli** and other Gram-negative bacilli, and **Listeria monocytogenes** (less common).\n- **Late-onset sepsis (LOS)**, after 72 hours: acquired from the environment or community, and in neonatal units from lines and devices. Organisms include coagulase-negative staphylococci, **Staphylococcus aureus**, Gram-negatives, late GBS, and **herpes simplex virus**.\n\nGBS remains a leading cause of EOS despite intrapartum prophylaxis."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why newborns get septic, and why glucose falls",
+          "body": "**Sepsis.** Newborns have immature neutrophil function and complement, low immunoglobulins (only maternal IgG, which is low in preterm babies), and barrier skin and gut that are easily breached. GBS colonises the maternal genital tract in roughly 1 in 5 women and ascends to the baby during labour, especially after prolonged rupture of membranes.\n\n**Risk factors for EOS:** maternal GBS colonisation or GBS bacteriuria in pregnancy, a previous baby with invasive GBS, **prelabour or prolonged rupture of membranes** (more than 18 hours), **maternal fever in labour or chorioamnionitis**, and **preterm labour**.\n\n**Hypoglycaemia.** At birth, the continuous placental glucose supply stops. Glucose normally dips in the first hours, then glycogenolysis, gluconeogenesis and feeding restore it. Babies at risk are those who:\n- **Make too much insulin:** **infants of diabetic mothers** (fetal hyperinsulinism from maternal hyperglycaemia), large for gestational age, Beckwith-Wiedemann syndrome.\n- **Have low stores:** **preterm** and **small for gestational age** or growth-restricted babies.\n- **Use more glucose:** sepsis, hypothermia, perinatal asphyxia, polycythaemia.\n- Maternal beta-blockers (for example labetalol) also increase risk.\n\nThe brain relies on glucose and newborns have limited alternative fuels, so prolonged or recurrent hypoglycaemia can cause lasting injury, often in the occipital lobes."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "How a sick newborn looks",
+          "body": "**Sepsis** rarely looks like \"fever and localising signs\" in a newborn. Look for:\n- **Temperature instability**: fever (38 °C or more) **or hypothermia**.\n- **Poor feeding**, lethargy, irritability, a weak cry, \"not himself\".\n- **Respiratory distress**: tachypnoea, grunting, apnoea (especially in preterm babies).\n- Tachycardia or bradycardia, mottling, prolonged capillary refill, hypotension.\n- Jaundice, abdominal distension, vomiting, hypoglycaemia or hyperglycaemia.\n- **Meningitis** may have no neck stiffness; a bulging fontanelle and seizures are late.\n- **HSV**: vesicles (often absent), seizures, hepatitis, or a sepsis picture unresponsive to antibiotics, typically at 1 to 3 weeks of age.\n\n**Hypoglycaemia** may be **asymptomatic** (which is why at-risk babies are screened), or cause jitteriness, poor feeding, hypotonia, lethargy, apnoea, a high-pitched cry, sweating, cyanosis and **seizures**. Jitteriness stops when the limb is held; seizures do not."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Tests and thresholds",
+          "body": "**Suspected sepsis** (do not delay antibiotics to complete tests):\n- **Blood culture** before antibiotics.\n- **FBC** (low white count and neutropenia are more worrying than a high count in newborns) and **CRP** (serial values are more useful than a single early value).\n- **Urine** culture by catheter or suprapubic aspirate in late-onset sepsis (UTI is uncommon in the first 72 hours).\n- **Lumbar puncture** if blood culture is positive, the baby is clinically septic, or there are neurological signs, as long as the baby is stable enough.\n- Blood glucose, blood gas and lactate.\n- HSV PCR (blood, CSF, skin swabs) if HSV is possible.\n\nMany Australian units use a structured risk tool (for example a neonatal early-onset sepsis calculator or a local risk factor pathway) to decide which well-looking babies born with risk factors need observation versus tests and antibiotics.\n\n**Hypoglycaemia:**\n- Screen at-risk babies with a **blood glucose before the second feed** (around 1 to 4 hours after birth), then before feeds for at least the first 12 to 24 hours as the local protocol directs.\n- A common operational threshold for treatment in Australian units is a blood glucose **below 2.6 mmol/L**; the exact thresholds and escalation vary by unit, so follow the local guideline.\n- Point-of-care meters are less accurate at low values; confirm with a laboratory glucose when treating.\n- Persistent or severe hypoglycaemia, or high glucose requirements, needs a **critical sample** at the time of hypoglycaemia (insulin, cortisol, growth hormone, ketones, free fatty acids, lactate) to look for hyperinsulinism, hypopituitarism or metabolic disease."
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment",
+          "body": "**Early-onset sepsis:** IV **benzylpenicillin plus gentamicin** is the standard empirical regimen. Benzylpenicillin (or amoxicillin/ampicillin) covers GBS and Listeria; gentamicin covers Gram-negatives and works synergistically. Monitor gentamicin levels.\n\n**Late-onset sepsis:** regimens depend on setting. In the community, a common choice is amoxicillin/ampicillin plus cefotaxime (especially when meningitis is possible); in neonatal units, flucloxacillin or vancomycin plus gentamicin to cover staphylococci. **Ceftriaxone is avoided in neonates** because it displaces bilirubin and precipitates with IV calcium; cefotaxime is used instead. Add **aciclovir** if HSV is possible. Check the current **eTG** and local neonatal guideline for doses.\n\nStop antibiotics at around 36 to 48 hours if cultures are negative and the baby is well. Supportive care: fluids, oxygen, glucose and temperature control, with early senior and retrieval input for a shocked baby.\n\n**Intrapartum GBS prophylaxis.** Australian hospitals use either **universal antenatal screening** (vaginal-rectal swab at about 35 to 37 weeks) or a **risk-factor approach**; practice varies by state and hospital. Women who screen positive or have risk factors receive **IV benzylpenicillin in labour** (clindamycin or others for penicillin allergy, based on severity). **Adequate** prophylaxis means the first dose at least **4 hours before birth**. Babies born after inadequate prophylaxis with other risk factors need closer observation or evaluation per the local pathway.\n\n**Hypoglycaemia:**\n1. **Feed** (breastfeed, expressed breast milk or formula).\n2. **Buccal 40% dextrose gel** massaged into the cheek, plus a feed, is first line for mild to moderate hypoglycaemia in at-risk babies (supported by New Zealand research); recheck the glucose after about 30 minutes.\n3. **IV 10% glucose** (a small bolus then an infusion) if the baby is symptomatic, the glucose is very low, or it stays low despite gel and feeds. **Glucagon** can be used if IV access is delayed and the baby has glycogen stores (it will not work in growth-restricted babies with no stores).\n4. Seizures from hypoglycaemia need IV glucose immediately."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- \"A 5-day-old baby feeding poorly, temperature 35.8 °C\": that is sepsis. Hypothermia counts.\n- The first-line empirical regimen for early-onset sepsis is **benzylpenicillin plus gentamicin**. If an option offers ceftriaxone for a neonate, it is usually a distractor.\n- Adequate intrapartum prophylaxis needs **4 hours** of IV penicillin before birth.\n- Infants of diabetic mothers: **macrosomia, hypoglycaemia**, polycythaemia, jaundice, hypocalcaemia, respiratory distress (delayed surfactant maturation), and congenital heart and spine anomalies with poor control in early pregnancy.\n- Jittery baby: check the glucose. Holding the limb stops jitteriness but not a seizure.\n- Blood glucose low in a well, at-risk baby: **feed plus dextrose gel**, not straight to IV.\n- A 2-week-old with seizures, a sepsis picture and raised liver enzymes: add **aciclovir**."
+        }
+      ],
+      "keyPoints": [
+        "Neonatal sepsis presents with temperature instability (fever or hypothermia), poor feeding, lethargy, apnoea or respiratory distress.",
+        "Early-onset (first 72 hours): GBS, E. coli, Listeria. Late-onset: staphylococci, Gram-negatives, late GBS, HSV.",
+        "Early-onset sepsis: IV benzylpenicillin plus gentamicin; avoid ceftriaxone in neonates (use cefotaxime).",
+        "Adequate intrapartum GBS prophylaxis: IV benzylpenicillin at least 4 hours before birth.",
+        "Hypoglycaemia risk: infants of diabetic mothers, preterm, small or large for dates, sepsis, cold.",
+        "Hypoglycaemia is often asymptomatic, so at-risk babies are screened before feeds.",
+        "Treat low glucose with feeds plus 40% dextrose gel; IV 10% glucose if symptomatic, very low or persistent."
+      ],
+      "redFlags": [
+        "Temperature 38 °C or more, or below 36 °C, in a newborn",
+        "Apnoea, grunting or poor perfusion",
+        "Seizures, or a jittery baby whose movements do not stop when held",
+        "Vesicles, seizures or hepatitis in a baby under 4 weeks (HSV)",
+        "Persistent or recurrent hypoglycaemia despite feeds and gel"
+      ],
+      "contrast": [
+        {
+          "aspect": "Neonatal sepsis organisms",
+          "india": "Klebsiella and other Gram-negatives dominate, with high antimicrobial resistance.",
+          "australia": "GBS and E. coli dominate early-onset sepsis; resistance is lower, so benzylpenicillin plus gentamicin remains first line."
+        },
+        {
+          "aspect": "GBS prevention",
+          "india": "Antenatal GBS screening is not routine.",
+          "australia": "Universal screening at 35 to 37 weeks or a risk-factor approach (varies by hospital), with IV benzylpenicillin in labour."
+        },
+        {
+          "aspect": "Treating low glucose",
+          "india": "IV dextrose is often the first step.",
+          "australia": "Feeds plus buccal 40% dextrose gel first in well at-risk babies; IV 10% glucose if needed."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Empirical antibiotics for early-onset neonatal sepsis?",
+          "back": "IV benzylpenicillin plus gentamicin."
+        },
+        {
+          "front": "Why is ceftriaxone avoided in neonates?",
+          "back": "Displaces bilirubin from albumin (kernicterus risk) and precipitates with IV calcium; use cefotaxime."
+        },
+        {
+          "front": "What makes intrapartum GBS prophylaxis adequate?",
+          "back": "IV benzylpenicillin given at least 4 hours before birth."
+        },
+        {
+          "front": "Three main organisms in early-onset neonatal sepsis?",
+          "back": "Group B streptococcus, E. coli, Listeria monocytogenes."
+        },
+        {
+          "front": "First-line treatment for mild hypoglycaemia in a well at-risk newborn?",
+          "back": "Feed plus buccal 40% dextrose gel, then recheck glucose."
+        },
+        {
+          "front": "Why is an infant of a diabetic mother hypoglycaemic after birth?",
+          "back": "Fetal hyperinsulinism persists after the maternal glucose supply stops."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "neonatology--sepsis-and-hypoglycaemia--q1",
+          "discipline": "child-health",
+          "topic": "neonatology",
+          "difficulty": "core",
+          "stem": "A baby boy is born at 37 weeks. His mother had rupture of membranes 22 hours before birth and a temperature of 38.4 °C in labour. Her GBS status was unknown and she received no antibiotics. At 8 hours of age the baby is grunting, his respiratory rate is 72/min, temperature is 37.9 °C and capillary refill is 3 seconds. A blood culture has been taken.\n\nWhich empirical antibiotic regimen is most appropriate?",
+          "options": [
+            "Oral amoxicillin",
+            "IV ceftriaxone",
+            "IV flucloxacillin and vancomycin",
+            "IV benzylpenicillin and gentamicin",
+            "IV azithromycin"
+          ],
+          "answer": 3,
+          "explanation": "This is **early-onset neonatal sepsis** (within 72 hours) with major risk factors: **prolonged rupture of membranes**, **maternal intrapartum fever** and **no intrapartum antibiotics**. The likely organisms come from the maternal genital tract: **GBS**, **E. coli** and other Gram-negatives, and **Listeria**.\n\nThe Australian empirical regimen is **IV benzylpenicillin plus gentamicin**. Benzylpenicillin covers GBS and Listeria; gentamicin covers Gram-negatives and is synergistic. If meningitis is suspected, cefotaxime may be added per the local guideline.\n\nTake cultures, but never delay antibiotics in a sick newborn. Reassess at 36 to 48 hours.",
+          "whyWrong": [
+            "Oral antibiotics are never adequate for a septic newborn.",
+            "Ceftriaxone is avoided in neonates (bilirubin displacement, calcium precipitation) and misses Listeria.",
+            "This combination targets staphylococci in late-onset or line-related sepsis, not maternal GBS and E. coli.",
+            "",
+            "Azithromycin does not cover the organisms of early-onset sepsis."
+          ],
+          "ausPearl": "The eTG and state neonatal guidelines (for example NSW, Queensland and RCH) all use benzylpenicillin plus gentamicin for early-onset sepsis.",
+          "tags": [
+            "neonatal-sepsis",
+            "gbs",
+            "antibiotics"
+          ]
+        },
+        {
+          "id": "neonatology--sepsis-and-hypoglycaemia--q2",
+          "discipline": "child-health",
+          "topic": "neonatology",
+          "difficulty": "core",
+          "stem": "A baby girl is born at 39 weeks weighing 4.6 kg. Her mother has type 1 diabetes with an HbA1c of 8.1% in the third trimester. At 2 hours of age, before her second feed, the baby is pink, breathing comfortably and has normal tone. Her blood glucose is 2.1 mmol/L.\n\nWhat is the most appropriate initial management?",
+          "options": [
+            "Give buccal 40% dextrose gel and a feed, then recheck the blood glucose",
+            "Give IM glucagon and admit to the neonatal unit",
+            "Start an IV infusion of 10% glucose",
+            "Give 5 mL/kg of 50% glucose IV",
+            "Recheck the blood glucose in 4 hours before the next feed"
+          ],
+          "answer": 0,
+          "explanation": "This **infant of a diabetic mother** is **macrosomic** and at high risk of hypoglycaemia, because fetal hyperinsulinism continues after birth when the maternal glucose supply stops.\n\nShe is **well and asymptomatic** with a mildly low glucose. First-line management is **buccal 40% dextrose gel plus a feed**, with a repeat glucose about 30 minutes later. Dextrose gel reduces NICU admission and separation from the mother, and it supports breastfeeding.\n\nEscalate to **IV 10% glucose** if she becomes symptomatic, the glucose stays low despite gel and feeds, or it is very low. Concentrated glucose (50%) is never given to neonates; it causes venous injury and rebound hypoglycaemia.",
+          "whyWrong": [
+            "",
+            "Glucagon is a backup when IV access is delayed; it is not first line in a well baby.",
+            "IV glucose is for symptomatic, severe or persistent hypoglycaemia.",
+            "50% glucose is too concentrated for neonates and causes rebound hypoglycaemia.",
+            "Leaving a low glucose untreated for 4 hours in an at-risk baby risks brain injury."
+          ],
+          "ausPearl": "The Australian and New Zealand hPOD and Sugar Babies research underpins dextrose gel use in Australian birth suites.",
+          "tags": [
+            "hypoglycaemia",
+            "infant-of-diabetic-mother",
+            "dextrose-gel"
+          ]
+        },
+        {
+          "id": "neonatology--sepsis-and-hypoglycaemia--q3",
+          "discipline": "child-health",
+          "topic": "neonatology",
+          "difficulty": "exam",
+          "stem": "A 12-day-old boy is brought to the emergency department because he is feeding poorly and \"too sleepy\". Temperature is 38.2 °C, heart rate 185/min. He has had two brief focal seizures. There is no rash. ALT is 410 U/L. CSF shows 90 white cells (mostly lymphocytes), protein raised, glucose normal and no organisms on Gram stain. Blood culture has been taken and he has been started on IV amoxicillin and cefotaxime.\n\nWhat else should be started immediately?",
+          "options": [
+            "IV vancomycin",
+            "IV metronidazole",
+            "IV gentamicin",
+            "Oral oseltamivir",
+            "IV aciclovir"
+          ],
+          "answer": 4,
+          "explanation": "A baby in the first weeks of life with **fever, seizures, raised transaminases** and a **lymphocytic CSF with normal glucose** has **neonatal herpes simplex virus (HSV) infection** until proven otherwise. Only a minority of babies with HSV have skin vesicles, and many mothers have no known history of herpes.\n\nNeonatal HSV presents at around 1 to 3 weeks as skin-eye-mouth disease, CNS disease (encephalitis) or disseminated disease (hepatitis, pneumonitis, DIC), with high mortality untreated. **IV aciclovir** must be started **empirically** alongside antibiotics as soon as HSV is possible, while PCR results (CSF, blood, surface swabs) are pending.\n\nThe discriminating clues are seizures, hepatitis and a lymphocytic CSF.",
+          "whyWrong": [
+            "Vancomycin targets resistant Gram-positives; it does not treat HSV.",
+            "Metronidazole covers anaerobes and has no role here.",
+            "Gentamicin adds Gram-negative cover but does nothing for HSV encephalitis.",
+            "Oseltamivir treats influenza, which does not explain this picture.",
+            ""
+          ],
+          "tags": [
+            "hsv",
+            "neonatal-sepsis",
+            "encephalitis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neonatology--breathing-feeding-and-surgical-emergencies",
+      "title": "Respiratory distress, feeding and newborn surgical emergencies",
+      "minutes": 20,
+      "objectives": [
+        "Distinguish TTN, RDS, meconium aspiration, pneumonia and pneumothorax in a breathless newborn",
+        "Recognise cyanotic congenital heart disease and duct-dependent lesions",
+        "Assess feeding and weight in the first weeks, and support breastfeeding",
+        "Identify bilious vomiting, NEC and other newborn surgical emergencies",
+        "Describe key problems of prematurity and neonatal abstinence syndrome"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The breathless or vomiting newborn",
+          "body": "After jaundice, **respiratory distress** is the most common reason a term baby is separated from the mother, and it is the defining problem of prematurity. Feeding difficulty and vomiting are the other daily concerns of the postnatal ward. The AMC expects you to recognise the common benign causes and the dangerous ones: **bilious vomiting** (malrotation with volvulus), **necrotising enterocolitis**, **duct-dependent heart disease**, **congenital diaphragmatic hernia** and **tension pneumothorax**.\n\nAbout 8% of Australian babies are born preterm (before 37 weeks). Outcomes for extremely preterm babies have improved greatly, but they carry risks of chronic lung disease, brain injury, retinopathy and neurodevelopmental problems."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Mechanisms behind the common patterns",
+          "body": "- **Transient tachypnoea of the newborn (TTN):** delayed clearance of lung fluid, most common after **elective caesarean section** without labour (labour hormones switch the lung from secreting to absorbing fluid). Self-limiting over 24 to 72 hours.\n- **Respiratory distress syndrome (RDS, hyaline membrane disease):** **surfactant deficiency** in preterm babies, so alveoli collapse at end-expiration. Worse with lower gestation, maternal diabetes and male sex. **Antenatal corticosteroids** (for threatened preterm birth, generally before 34 to 35 weeks) accelerate surfactant production.\n- **Meconium aspiration syndrome:** post-term or distressed babies pass meconium, which is aspirated. It causes airway obstruction, chemical pneumonitis, surfactant inactivation and pulmonary hypertension.\n- **Congenital pneumonia:** often GBS; can look exactly like RDS on X-ray.\n- **Persistent pulmonary hypertension of the newborn (PPHN):** pulmonary vascular resistance stays high, so there is right-to-left shunting and cyanosis out of proportion to the lung disease; a pre-ductal to post-ductal saturation difference is a clue.\n- **Duct-dependent congenital heart disease:** some lesions need an open ductus for pulmonary blood flow (for example pulmonary atresia) or systemic blood flow (for example hypoplastic left heart, critical coarctation). When the duct closes in the first days, the baby becomes suddenly cyanosed or shocked.\n- **Necrotising enterocolitis (NEC):** bowel wall inflammation and necrosis in **preterm** babies, linked to immature gut, formula feeding and impaired perfusion. **Breast milk is protective.**"
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "What you see",
+          "body": "**Respiratory distress:** tachypnoea (over 60/min), grunting (expiring against a closed glottis to keep alveoli open), nasal flaring, recession, cyanosis.\n\n**Cyanosis:** central cyanosis in a newborn is never normal. A baby with **cyanosis but little respiratory distress** suggests cyanotic heart disease; a baby who is shocked with weak femorals at day 2 to 7 suggests a duct-dependent left heart lesion.\n\n**Feeding:** term babies lose up to about **10% of birthweight** in the first days and are usually **back to birthweight by 10 to 14 days**. Weight loss of more than 10%, fewer than about 6 wet nappies a day after day 5, dark urine, persistent jaundice or a sleepy baby who will not wake to feed suggests inadequate intake. Common breastfeeding problems include poor attachment, nipple pain, engorgement and mastitis; lactation consultants and child health nurses are the first-line supports. Posseting (small effortless regurgitation) in a thriving baby is normal.\n\n**Surgical red flags:**\n- **Bilious (green) vomiting:** malrotation with volvulus until proven otherwise; also duodenal atresia (double-bubble, associated with trisomy 21), jejunal atresia, Hirschsprung disease.\n- **Failure to pass meconium in 48 hours:** Hirschsprung disease, meconium ileus (cystic fibrosis), anorectal malformation.\n- **Frothy saliva, choking with feeds, and a nasogastric tube that will not pass:** oesophageal atresia with or without tracheo-oesophageal fistula (look for polyhydramnios and VACTERL associations).\n- **Scaphoid abdomen with respiratory distress** and bowel sounds in the chest: congenital diaphragmatic hernia.\n- **NEC:** a preterm baby on feeds with abdominal distension, feed intolerance, bilious aspirates and bloody stools.\n- **Projectile non-bilious vomiting at 2 to 8 weeks** with a hungry baby: pyloric stenosis (hypochloraemic hypokalaemic metabolic alkalosis)."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Tests that separate them",
+          "body": "- **Chest X-ray:** TTN shows fluid in the fissures and streaky perihilar markings; **RDS** shows a diffuse **ground-glass** appearance with **air bronchograms** and low volumes; meconium aspiration shows patchy consolidation and hyperinflation; pneumothorax shows absent lung markings; congenital diaphragmatic hernia shows bowel loops in the chest (usually left).\n- **Blood gas, glucose, FBC, CRP and blood culture** in any baby with respiratory distress, since sepsis can mimic everything.\n- **Pre- and post-ductal saturations** and an **echocardiogram** for suspected heart disease or PPHN. The hyperoxia test is now largely replaced by early echocardiography.\n- **Bilious vomiting:** urgent **upper GI contrast study** to look for malrotation; do not wait for an X-ray to look abnormal.\n- **NEC:** abdominal X-ray showing **pneumatosis intestinalis** (gas in the bowel wall), portal venous gas, or free air (perforation).\n- **Pyloric stenosis:** ultrasound, plus a blood gas and electrolytes."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Breathless newborn: comparison",
+          "body": "| Condition | Typical baby | Course | X-ray |\n|---|---|---|---|\n| TTN | Term, elective caesarean | Resolves in 1 to 3 days | Fluid in fissures |\n| RDS | Preterm, especially under 32 weeks | Worsens over hours, needs CPAP or surfactant | Ground glass, air bronchograms |\n| Meconium aspiration | Post-term, meconium, distressed | Can be severe with PPHN | Patchy, hyperinflated |\n| Pneumonia/sepsis | Maternal fever, PROM, GBS | Any; may be unwell | Can mimic RDS |\n| Pneumothorax | After resuscitation or on CPAP | Sudden deterioration | Absent markings |\n| Cyanotic heart disease | Cyanosed, comfortable breathing | Worsens as duct closes | May be near normal |"
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment",
+          "body": "- **TTN:** supportive; oxygen, sometimes CPAP, and gradual feeding. Consider sepsis if it is not settling.\n- **RDS:** **CPAP** early; **surfactant** via a thin catheter or endotracheal tube if oxygen needs rise; caffeine for apnoea of prematurity. Prevention with antenatal steroids and magnesium sulfate for neuroprotection when birth is anticipated before about 30 weeks.\n- **Pneumothorax:** needle decompression then an intercostal drain if tension.\n- **Duct-dependent heart disease:** **prostaglandin E1 (alprostadil) infusion** to reopen and keep the ductus open (watch for apnoea), then transfer to a cardiac centre.\n- **Congenital diaphragmatic hernia:** **intubate early; avoid prolonged bag-mask ventilation** (it inflates the bowel in the chest), place a nasogastric tube to decompress.\n- **Bilious vomiting:** nil by mouth, nasogastric tube on free drainage, IV fluids, **urgent surgical review**; volvulus can infarct the midgut within hours.\n- **NEC:** stop feeds, nasogastric decompression, IV fluids, broad-spectrum antibiotics, surgery for perforation.\n- **Pyloric stenosis:** correct fluid and electrolytes (especially potassium and chloride) **before** pyloromyotomy.\n\n**Prematurity: the main complications**\n- Respiratory: RDS, apnoea of prematurity, **bronchopulmonary dysplasia** (chronic lung disease).\n- Brain: intraventricular haemorrhage and periventricular leukomalacia (cerebral palsy risk).\n- Eyes: **retinopathy of prematurity**, screened in very preterm or very low birthweight babies.\n- Gut: NEC. Also patent ductus arteriosus, sepsis, anaemia, jaundice, hypothermia, hypoglycaemia.\n- Follow-up: corrected age is used for growth and development until about 2 years.\n\n**Neonatal abstinence syndrome (neonatal opioid withdrawal):** babies of mothers on opioids (including methadone or buprenorphine treatment) may develop irritability, a high-pitched cry, tremor, poor feeding, vomiting, diarrhoea, sneezing, sweating and poor sleep, usually within the first days. Babies are monitored with a structured scoring tool (for example the Finnegan score). First-line care is non-pharmacological (rooming-in, skin-to-skin, swaddling, breastfeeding where appropriate); oral morphine is used when scores stay high. Social work and child protection assessment follow local policy."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Elective caesarean at 38 weeks, tachypnoeic at 2 hours, mild oxygen need, X-ray with fluid in the fissures: **TTN**, supportive care.\n- Preterm baby with worsening grunting, ground-glass lungs and air bronchograms: **RDS**, CPAP and surfactant.\n- Green vomit in a newborn: **upper GI contrast and surgical review now**; the answer is never \"change the formula\".\n- A preterm baby with a distended abdomen and blood in the stool: NEC, stop feeds.\n- A cyanosed or shocked baby on day 3 with weak femorals: start **alprostadil**.\n- Scaphoid abdomen, poor air entry on the left, heart sounds on the right: diaphragmatic hernia; intubate, do not bag.\n- Regained birthweight by 2 weeks is the benchmark for adequate feeding."
+        }
+      ],
+      "keyPoints": [
+        "TTN follows elective caesarean and resolves in 1 to 3 days; RDS is surfactant deficiency in preterm babies.",
+        "RDS X-ray: ground glass with air bronchograms; treat with CPAP and surfactant; prevent with antenatal steroids.",
+        "Cyanosis with little distress suggests heart disease; duct-dependent lesions need alprostadil.",
+        "Bilious vomiting is malrotation with volvulus until an urgent contrast study says otherwise.",
+        "NEC: preterm, distension, bloody stools, pneumatosis intestinalis; breast milk protects.",
+        "Up to about 10% weight loss is normal; back to birthweight by 10 to 14 days.",
+        "Diaphragmatic hernia: intubate and decompress; avoid bag-mask ventilation."
+      ],
+      "redFlags": [
+        "Bilious vomiting",
+        "Central cyanosis, or sudden shock with weak femoral pulses in the first week",
+        "Scaphoid abdomen with respiratory distress",
+        "Abdominal distension with bloody stools in a preterm baby",
+        "Failure to pass meconium within 48 hours",
+        "Weight loss over 10% or not back to birthweight by 2 weeks"
+      ],
+      "contrast": [
+        {
+          "aspect": "Preterm care priorities",
+          "india": "Kangaroo mother care, thermal care and sepsis prevention are central with limited NICU beds.",
+          "australia": "Regionalised NICUs with retrieval services (for example NETS, PIPER); kangaroo care is also encouraged."
+        },
+        {
+          "aspect": "Neonatal opioid withdrawal",
+          "india": "Less commonly encountered on the postnatal ward.",
+          "australia": "Common enough that units use structured scoring, rooming-in and coordinated social work support."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Classic chest X-ray of RDS?",
+          "back": "Diffuse ground-glass appearance with air bronchograms and low lung volumes."
+        },
+        {
+          "front": "Typical baby with TTN?",
+          "back": "Term or near-term baby after elective caesarean without labour; resolves in 24 to 72 hours."
+        },
+        {
+          "front": "Drug to keep the ductus arteriosus open?",
+          "back": "Prostaglandin E1 (alprostadil) infusion; watch for apnoea."
+        },
+        {
+          "front": "Bilious vomiting in a newborn: diagnosis to exclude and test?",
+          "back": "Malrotation with volvulus; urgent upper GI contrast study."
+        },
+        {
+          "front": "Pathognomonic X-ray sign of NEC?",
+          "back": "Pneumatosis intestinalis (gas in the bowel wall)."
+        },
+        {
+          "front": "By when should a term baby regain birthweight?",
+          "back": "By about 10 to 14 days."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "neonatology--breathing-feeding-and-surgical-emergencies--q1",
+          "discipline": "child-health",
+          "topic": "neonatology",
+          "difficulty": "foundation",
+          "stem": "A baby boy is born at 38 weeks by elective caesarean section before the onset of labour. At 2 hours of age he has a respiratory rate of 80/min with mild subcostal recession. SpO2 is 93% in air, rising to 97% with 25% oxygen by nasal cannula. He is pink, alert and the temperature is normal. Chest X-ray shows streaky perihilar markings and fluid in the horizontal fissure.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Respiratory distress syndrome",
+            "Meconium aspiration syndrome",
+            "Congenital pneumonia",
+            "Transient tachypnoea of the newborn",
+            "Congenital diaphragmatic hernia"
+          ],
+          "answer": 3,
+          "explanation": "**Transient tachypnoea of the newborn (TTN)** is caused by delayed clearance of fetal lung fluid. The classic baby is born at term or near term by **elective caesarean section without labour**, because the catecholamine surge of labour switches lung epithelium from secreting to absorbing fluid.\n\nThe X-ray shows **fluid in the fissures** and streaky perihilar markings. The baby needs little oxygen and improves over **24 to 72 hours** with supportive care.\n\nA baby who is not improving, is unwell, or has maternal risk factors should still be investigated for sepsis, because pneumonia can mimic other causes.",
+          "whyWrong": [
+            "RDS affects preterm babies and shows diffuse ground glass with air bronchograms.",
+            "There was no meconium and no fetal distress; the X-ray would be patchy and hyperinflated.",
+            "Possible, but there are no risk factors (no labour, no maternal fever) and the baby is well.",
+            "",
+            "CDH causes a scaphoid abdomen and bowel loops in the chest on X-ray."
+          ],
+          "tags": [
+            "ttn",
+            "respiratory-distress",
+            "caesarean"
+          ]
+        },
+        {
+          "id": "neonatology--breathing-feeding-and-surgical-emergencies--q2",
+          "discipline": "child-health",
+          "topic": "neonatology",
+          "difficulty": "core",
+          "stem": "A 3-day-old girl, born at term and previously feeding well, vomits bright green fluid three times in 2 hours. She is alert, the abdomen is soft and not distended, and her observations are normal. She has passed meconium.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Change to a hydrolysed formula and review the next day",
+            "Give a single dose of oral ondansetron",
+            "Reassure the parents that this is posseting",
+            "Arrange an outpatient abdominal ultrasound for pyloric stenosis",
+            "Arrange an urgent upper gastrointestinal contrast study and surgical review"
+          ],
+          "answer": 4,
+          "explanation": "**Bilious vomiting in a newborn is malrotation with midgut volvulus until proven otherwise.** Volvulus twists the superior mesenteric vessels and can infarct the whole midgut within hours. Crucially, the baby may **look well** with a soft abdomen early on, and a normal plain X-ray does not exclude it.\n\nThe correct steps are: nil by mouth, a nasogastric tube on free drainage, IV fluids, and an **urgent upper GI contrast study** (looking for the position of the duodenojejunal flexure) with **urgent paediatric surgical review**. Treatment is a Ladd procedure.\n\nThe discriminating clue is the **green** colour: bile means obstruction beyond the ampulla of Vater.",
+          "whyWrong": [
+            "Formula changes do not treat obstruction and delay a surgical diagnosis.",
+            "Antiemetics mask symptoms and are contraindicated in suspected bowel obstruction.",
+            "Posseting is small, effortless and not bile-stained.",
+            "Pyloric stenosis causes non-bilious vomiting at 2 to 8 weeks, and outpatient imaging is too slow.",
+            ""
+          ],
+          "ausPearl": "Australian paediatric surgical guidelines (for example RCH) are explicit: a green vomit in an infant is a surgical emergency, even if the baby looks well.",
+          "tags": [
+            "bilious-vomiting",
+            "malrotation",
+            "surgical-emergency"
+          ]
+        },
+        {
+          "id": "neonatology--breathing-feeding-and-surgical-emergencies--q3",
+          "discipline": "child-health",
+          "topic": "neonatology",
+          "difficulty": "exam",
+          "stem": "A 4-day-old boy, born at term and discharged on day 2, is brought to the emergency department because he is grey and breathing fast. He was feeding well until this morning. HR 190/min, RR 70/min, capillary refill 5 seconds, and the liver is palpable 4 cm below the costal margin. Femoral pulses cannot be felt. Blood glucose is normal and a blood gas shows metabolic acidosis.\n\nAlongside resuscitation and antibiotics, which treatment is most urgently needed?",
+          "options": [
+            "IV furosemide",
+            "IV prostaglandin E1 (alprostadil) infusion",
+            "IV indomethacin",
+            "100% oxygen by high-flow nasal cannula",
+            "IV adenosine"
+          ],
+          "answer": 1,
+          "explanation": "A previously well baby who collapses on **day 2 to 7** with **shock, hepatomegaly and absent femoral pulses** has a **duct-dependent systemic circulation**: critical coarctation, interrupted aortic arch or hypoplastic left heart syndrome. While the ductus arteriosus was open, blood reached the lower body through it; as it closes, systemic perfusion falls.\n\n**Alprostadil (prostaglandin E1)** reopens and maintains the ductus and can be life-saving before the echocardiogram is done. Apnoea is a common side effect, so be ready to ventilate. Antibiotics are given as well because sepsis can look identical.\n\nThe discriminating clue: **absent femorals in a shocked neonate in the first week**.",
+          "whyWrong": [
+            "Diuretics do not restore systemic blood flow through the closing duct.",
+            "",
+            "Indomethacin closes the ductus, which would be fatal here.",
+            "High oxygen promotes ductal closure and pulmonary vasodilation, which can worsen systemic perfusion.",
+            "Adenosine treats SVT; the history and absent femorals point to duct closure, not a tachyarrhythmia."
+          ],
+          "tags": [
+            "duct-dependent",
+            "coarctation",
+            "neonatal-shock"
+          ]
+        }
+      ]
+    }
+  ]
+}

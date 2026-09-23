@@ -1,0 +1,997 @@
+{
+  "topic": "cardiology",
+  "intro": "Cardiology is the single biggest block of Adult Medicine on the AMC: chest pain and acute coronary syndromes, heart failure, arrhythmias, hypertension with absolute cardiovascular risk, and valve disease including endocarditis and rheumatic heart disease. Questions reward recognising the dangerous presentation fast, knowing Australian time targets and first-line drugs, and understanding why Australia treats absolute risk rather than single numbers.",
+  "lessons": [
+    {
+      "id": "cardiology--chest-pain-and-acs",
+      "title": "Chest pain and acute coronary syndromes",
+      "minutes": 22,
+      "objectives": [
+        "Separate the four can't-miss causes of acute chest pain from the history, examination, ECG and chest X-ray",
+        "Recognise STEMI and its equivalents on the ECG and choose between primary PCI and fibrinolysis using Australian time targets",
+        "Risk-stratify suspected NSTEACS with serial high-sensitivity troponin and ECGs",
+        "Start immediate ACS treatment and a complete secondary prevention plan",
+        "Identify aortic dissection and pericarditis as look-alikes that change management"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why chest pain dominates the exam",
+          "body": "Coronary heart disease is still the leading single cause of death in Australia, and chest pain is one of the commonest reasons adults come to an emergency department. The AMC uses chest pain to test prioritisation: in the first ten minutes you must decide whether this is one of the **four killers**:\n\n- **Acute coronary syndrome (ACS)**: STEMI, NSTEMI or unstable angina\n- **Aortic dissection**\n- **Pulmonary embolism** (taught in Respiratory)\n- **Tension pneumothorax** (taught in Respiratory)\n\nAdd oesophageal rupture and pericarditis with tamponade if the story fits. Everyone with possible ACS gets a **12-lead ECG within 10 minutes of arrival**, and the ECG is repeated with every change in pain.\n\nACS is an umbrella term. **STEMI** means a complete occlusion of an epicardial coronary artery shown by ST elevation; the aim is to open the artery immediately. **NSTEACS** (non-ST-elevation ACS) covers NSTEMI (troponin rise) and unstable angina (ischaemic symptoms without troponin rise); these are managed by risk stratification rather than immediate reperfusion."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "From plaque to infarct",
+          "body": "Most ACS is caused by **rupture or erosion of an atherosclerotic plaque**, which exposes thrombogenic lipid core and collagen. Platelets adhere and aggregate (hence aspirin and P2Y12 inhibitors), the coagulation cascade forms fibrin (hence heparin), and a thrombus forms:\n\n- **Occlusive thrombus** leads to transmural ischaemia and ST elevation. Myocytes begin dying within about 20 to 40 minutes and necrosis spreads from endocardium outward over hours, which is why *time is muscle*.\n- **Non-occlusive thrombus** or distal embolisation causes subendocardial ischaemia: ST depression or T-wave inversion, with or without troponin rise.\n\n**Type 2 MI** is supply-demand mismatch without plaque rupture (sepsis, anaemia, tachyarrhythmia, hypotension). Troponin rises, but the treatment is the underlying cause, not antiplatelets and angiography.\n\nTroponin is released from necrotic myocytes. High-sensitivity assays detect it within 1 to 3 hours of onset, so a single early normal result does **not** exclude MI if pain began recently.\n\nMechanical complications follow necrosis: papillary muscle rupture (acute MR, pulmonary oedema, new pansystolic murmur, typically days 2 to 7), ventricular septal rupture (new harsh murmur, shock), free wall rupture (tamponade), left ventricular aneurysm (persistent ST elevation weeks later) and Dressler syndrome (autoimmune pericarditis weeks later)."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "History, examination and the ECG",
+          "body": "**Typical ischaemic pain**: central pressure, heaviness or tightness, radiating to the jaw, neck or arm, lasting more than 10 to 20 minutes at rest, with sweating, nausea or breathlessness. Women, older people and people with diabetes more often present atypically (breathlessness, fatigue, epigastric discomfort), and the AMC likes to hide ACS in these groups.\n\n**Examination** is often normal. Look for complications: hypotension, a new murmur, crackles of pulmonary oedema, raised JVP with clear lungs (right ventricular infarction).\n\n**STEMI criteria** (in a patient with ischaemic symptoms): new ST elevation at the J point in two contiguous leads, at least 1 mm in limb leads and generally 2 mm in V2 to V3 (exact chest-lead thresholds vary with age and sex).\n\n| Territory | Leads | Artery |\n|---|---|---|\n| Inferior | II, III, aVF | Usually right coronary |\n| Anterior | V1 to V4 | Left anterior descending |\n| Lateral | I, aVL, V5, V6 | Circumflex or diagonal |\n| Posterior | ST depression with tall R in V1 to V3; ST elevation in V7 to V9 | Circumflex or right coronary |\n\n**STEMI equivalents** that are treated as STEMI: posterior MI, new LBBB with a convincing ischaemic story, and hyperacute T waves. In inferior STEMI, record **right-sided leads (V4R)**: RV infarction makes the patient preload-dependent, so nitrates can crash the BP and IV fluid helps."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Troponin, imaging and risk",
+          "body": "- **Serial ECGs**: at arrival, with any change in symptoms, and at the troponin time points.\n- **High-sensitivity troponin**: Australian ED pathways use a 0 and 1-hour, 0 and 2-hour or 0 and 3-hour protocol, depending on the assay. A rise and/or fall above the 99th percentile with a clinical picture of ischaemia is MI. A very low result on arrival with pain more than 3 hours old can rule out MI in some pathways. **Never wait for troponin in STEMI**: the ECG decides.\n- **Chest X-ray**: pulmonary oedema, widened mediastinum (dissection), pneumothorax.\n- **Bloods**: FBC, electrolytes, renal function (contrast and drug dosing), lipids, HbA1c.\n- **Echo**: regional wall motion abnormality, LV function, mechanical complications.\n\nFor NSTEACS, stratify risk (clinical features, ECG, troponin, GRACE score):\n\n- **Very high risk** (haemodynamic instability, ongoing refractory pain, life-threatening arrhythmia, acute heart failure, mechanical complication): angiography within 2 hours.\n- **High risk** (confirmed NSTEMI, dynamic ST or T-wave changes, high GRACE): angiography within 24 hours.\n- **Low risk** with negative serial troponins: outpatient or early non-invasive testing (CT coronary angiography or stress testing)."
+        },
+        {
+          "kind": "differentials",
+          "heading": "The look-alikes",
+          "body": "| Condition | Discriminating clues | Key test |\n|---|---|---|\n| Aortic dissection | Sudden tearing pain maximal at onset, radiating to the back; BP difference between arms over 20 mmHg; new aortic regurgitation; neurological deficit | CT aortogram (TOE if unstable) |\n| Pericarditis | Sharp, pleuritic, worse lying flat, better sitting forward; friction rub; recent viral illness | ECG: widespread concave ST elevation with PR depression |\n| Pulmonary embolism | Pleuritic pain, dyspnoea, tachycardia, risk factors | Wells then D-dimer or CTPA |\n| Tension pneumothorax | Hypotension, absent breath sounds, tracheal deviation | Clinical: decompress |\n| Oesophageal rupture | Pain after forceful vomiting, subcutaneous emphysema | CT chest with oral contrast |\n\n**Aortic dissection** is the classic trap. It can extend into the right coronary ostium and produce inferior ST elevation. Giving fibrinolysis or heparin to a dissection is catastrophic, so ask about back pain, feel both radial pulses and look at the mediastinum before reperfusion. Stanford type A (ascending aorta) needs emergency cardiothoracic surgery; type B (descending only) is usually managed medically. Start IV beta blockade first (heart rate below about 60, systolic BP around 100 to 120 mmHg) before any vasodilator, to reduce the shear force on the aortic wall.\n\n**Pericarditis** is treated with an NSAID or high-dose aspirin plus colchicine; look for effusion on echo, and suspect tamponade with hypotension, raised JVP, muffled heart sounds and pulsus paradoxus."
+        },
+        {
+          "kind": "management",
+          "heading": "Immediate treatment, reperfusion and secondary prevention",
+          "body": "**Immediate (all suspected ACS)**\n\n- **Aspirin 300 mg chewed** (or dispersible) as early as possible, unless true allergy.\n- **Oxygen only if SpO2 is below 93%**. Routine oxygen in a well-saturated patient gives no benefit and may enlarge infarcts.\n- **Glyceryl trinitrate** sublingually for pain, unless systolic BP is low, RV infarction is suspected, or a PDE-5 inhibitor was taken recently.\n- **IV opioid** (fentanyl or morphine) for ongoing pain.\n- Continuous cardiac monitoring and a defibrillator nearby: VF is the commonest cause of early death.\n\n**STEMI reperfusion** (symptoms under 12 hours):\n\n- **Primary PCI** is preferred if it can be delivered **within 90 minutes of first medical contact**.\n- If PCI **cannot be achieved within 120 minutes**, give **fibrinolysis** (tenecteplase is usual in Australia) **ideally within 30 minutes**, with antithrombotic therapy, then transfer to a PCI centre. Rescue PCI if ST elevation has not resolved by at least 50% at 60 to 90 minutes; otherwise angiography within about 24 hours.\n- Absolute contraindications to fibrinolysis include prior intracranial haemorrhage, ischaemic stroke in the last 3 months, known intracranial tumour or vascular malformation, active bleeding, suspected aortic dissection and significant recent head trauma.\n\n**NSTEACS**: aspirin plus a P2Y12 inhibitor (ticagrelor, prasugrel or clopidogrel depending on the strategy and bleeding risk), anticoagulation (enoxaparin or unfractionated heparin), and angiography timed by risk.\n\n**Secondary prevention before discharge** (the AMC loves this list):\n\n- Aspirin lifelong; dual antiplatelet therapy usually for 12 months\n- High-intensity statin regardless of baseline cholesterol\n- Beta blocker (especially if LV dysfunction) and ACE inhibitor or ARB\n- Smoking cessation, diet, physical activity, weight, alcohol, and depression screening\n- **Cardiac rehabilitation referral** (underused and strongly recommended)\n- Sublingual GTN with an action plan\n- Driving: a non-driving period applies after ACS, longer for commercial licences; check Austroads *Assessing Fitness to Drive*"
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- **Rural STEMI with a long transfer** means lysis, then transfer. Metropolitan STEMI with a cath lab nearby means primary PCI.\n- **ST depression in V1 to V3 with tall R waves** is posterior STEMI, not simple ischaemia: get V7 to V9.\n- **Inferior STEMI with hypotension after GTN**: right ventricular infarct; give IV fluid, avoid nitrates.\n- **New pansystolic murmur and pulmonary oedema on day 3**: papillary muscle rupture (echo, urgent surgery).\n- **Oxygen for SpO2 97%** is a wrong answer. So is waiting for troponin before activating the cath lab.\n- **Chest pain plus unequal arm BPs** is dissection until proven otherwise; the answer is CT aortogram, never thrombolysis."
+        }
+      ],
+      "keyPoints": [
+        "ECG within 10 minutes; STEMI is an ECG diagnosis, never wait for troponin.",
+        "Aspirin 300 mg chewed early; oxygen only if SpO2 below 93%.",
+        "Primary PCI within 90 minutes of first medical contact; if not possible within 120 minutes, lyse within 30 minutes then transfer.",
+        "Posterior MI shows ST depression and tall R waves in V1 to V3; inferior MI needs V4R to find RV infarction.",
+        "NSTEACS timing of angiography depends on risk: very high risk within 2 hours, high risk within 24 hours.",
+        "Discharge on aspirin, P2Y12 inhibitor (usually 12 months), high-intensity statin, beta blocker, ACE inhibitor and cardiac rehab.",
+        "Tearing back pain, arm BP difference and wide mediastinum mean dissection: CT aortogram, no thrombolysis."
+      ],
+      "redFlags": [
+        "Chest pain with hypotension, new murmur or pulmonary oedema (cardiogenic shock or mechanical complication)",
+        "Tearing pain radiating to the back, pulse or BP difference between arms, or neurological deficit (aortic dissection)",
+        "Ongoing ischaemic pain despite treatment or dynamic ST changes",
+        "Ventricular arrhythmia or syncope with chest pain",
+        "Hypotension, raised JVP and muffled heart sounds (tamponade)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Troponin testing",
+          "india": "Many centres still use conventional troponin or CK-MB with a single 6 to 12-hour sample.",
+          "australia": "High-sensitivity troponin with rapid 0/1, 0/2 or 0/3-hour ED pathways; CK-MB is essentially obsolete."
+        },
+        {
+          "aspect": "Oxygen in ACS",
+          "india": "Oxygen is often given routinely to all chest pain patients.",
+          "australia": "Oxygen only if SpO2 is below 93%; routine oxygen is marked wrong."
+        },
+        {
+          "aspect": "After discharge",
+          "india": "Follow-up often focuses on drugs alone; structured cardiac rehab is limited outside large centres.",
+          "australia": "Cardiac rehabilitation referral is standard care, alongside driving advice under Austroads."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Time target for primary PCI in STEMI?",
+          "back": "Within 90 minutes of first medical contact. If not achievable within 120 minutes, fibrinolysis ideally within 30 minutes."
+        },
+        {
+          "front": "Threshold SpO2 for giving oxygen in suspected ACS?",
+          "back": "Give oxygen only if SpO2 is below 93%."
+        },
+        {
+          "front": "ECG signs of posterior STEMI?",
+          "back": "ST depression with tall, broad R waves in V1 to V3; confirm with ST elevation in V7 to V9."
+        },
+        {
+          "front": "New pansystolic murmur with acute pulmonary oedema 3 days after MI?",
+          "back": "Papillary muscle rupture causing acute mitral regurgitation. Urgent echo and cardiothoracic surgery."
+        },
+        {
+          "front": "First drug class for acute aortic dissection before any vasodilator?",
+          "back": "IV beta blocker (e.g. esmolol or labetalol) to cut heart rate and shear stress."
+        },
+        {
+          "front": "ECG of acute pericarditis?",
+          "back": "Widespread concave (saddle) ST elevation with PR depression, not confined to one territory."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "cardiology--chest-pain-and-acs--q1",
+          "discipline": "adult-medicine",
+          "topic": "cardiology",
+          "difficulty": "foundation",
+          "stem": "A 64-year-old woman presents to a metropolitan emergency department in Brisbane with 40 minutes of central chest heaviness radiating to her left arm. She is sweaty. BP 142/86 mmHg, HR 92 bpm, SpO2 98% on room air. The ECG shows 3 mm ST elevation in V2 to V5. The hospital has a 24-hour catheter laboratory.\n\nWhich of the following is the most appropriate immediate action?",
+          "options": [
+            "Give aspirin 300 mg and activate the catheter laboratory for primary PCI",
+            "Give oxygen at 15 L/min by non-rebreather mask and repeat the ECG in 15 minutes",
+            "Give intravenous tenecteplase and admit to the coronary care unit",
+            "Send a high-sensitivity troponin and repeat it in 1 hour before deciding",
+            "Arrange CT coronary angiography"
+          ],
+          "answer": 0,
+          "explanation": "This is an **anterior STEMI** (ST elevation V2 to V5, LAD territory) presenting early, in a hospital with a 24-hour cath lab. Primary PCI is the preferred reperfusion strategy when it can be delivered within 90 minutes of first medical contact, which is easily achievable here. Aspirin 300 mg chewed should be given immediately.\n\nFibrinolysis is reserved for when PCI cannot be delivered within 120 minutes. Troponin plays no role in the decision to reperfuse STEMI, and oxygen is only indicated if SpO2 is below 93%.\n\n**Discriminating clue:** the on-site cath lab. STEMI plus timely PCI available equals primary PCI.",
+          "whyWrong": [
+            "",
+            "Her SpO2 is 98%; routine high-flow oxygen is not indicated and delays reperfusion.",
+            "Lysis is inferior to primary PCI when PCI can be delivered within 90 minutes.",
+            "STEMI is an ECG diagnosis; waiting for troponin loses myocardium.",
+            "CT coronary angiography is for low-risk stable chest pain, not an evolving STEMI."
+          ],
+          "tags": [
+            "stemi",
+            "pci",
+            "acs"
+          ]
+        },
+        {
+          "id": "cardiology--chest-pain-and-acs--q2",
+          "discipline": "adult-medicine",
+          "topic": "cardiology",
+          "difficulty": "core",
+          "stem": "A 70-year-old man is brought to a regional emergency department with 2 hours of chest pain and dizziness. BP 84/50 mmHg, HR 56 bpm. JVP is raised to the earlobe and the lungs are clear. The ECG shows ST elevation in II, III and aVF, with 1 mm ST elevation in V4R. He was given sublingual glyceryl trinitrate by paramedics, after which his BP fell further.\n\nWhat is the most appropriate next step while arranging reperfusion?",
+          "options": [
+            "Intravenous frusemide 40 mg",
+            "A further dose of sublingual glyceryl trinitrate",
+            "Intravenous morphine 10 mg",
+            "A 250 to 500 mL bolus of intravenous 0.9% sodium chloride",
+            "Intravenous metoprolol"
+          ],
+          "answer": 3,
+          "explanation": "The combination of **inferior STEMI, hypotension, raised JVP and clear lungs**, plus ST elevation in V4R, is **right ventricular infarction**. The ischaemic RV cannot pump enough blood to fill the left heart, so cardiac output depends on preload. Nitrates and opioids venodilate and drop preload, which is why his BP fell after GTN.\n\nManagement is cautious IV fluid boluses to support preload, avoiding nitrates, diuretics and large doses of opioids, while arranging urgent reperfusion. Bradycardia or heart block is common with right coronary occlusion and may need atropine or pacing, so beta blockers are harmful here.\n\n**Discriminating clue:** clear lungs with a high JVP.",
+          "whyWrong": [
+            "Diuresis reduces preload and worsens RV infarct hypotension.",
+            "Nitrates already dropped his BP; repeating them is dangerous.",
+            "A large opioid dose venodilates and worsens hypotension.",
+            "",
+            "Beta blockade worsens bradycardia and shock."
+          ],
+          "tags": [
+            "stemi",
+            "right-ventricular-infarct",
+            "ecg"
+          ]
+        },
+        {
+          "id": "cardiology--chest-pain-and-acs--q3",
+          "discipline": "adult-medicine",
+          "topic": "cardiology",
+          "difficulty": "exam",
+          "stem": "A 58-year-old man with hypertension presents to a rural emergency department with sudden severe chest pain that began while lifting, radiating through to his back between the shoulder blades. BP is 176/90 mmHg in the right arm and 138/80 mmHg in the left. HR 104 bpm. There is a soft early diastolic murmur at the left sternal edge. The ECG shows sinus tachycardia with 1 mm ST elevation in II, III and aVF.\n\nWhat is the most appropriate next investigation?",
+          "options": [
+            "Serial high-sensitivity troponin",
+            "Transthoracic echocardiography only",
+            "CT pulmonary angiography",
+            "Coronary angiography",
+            "CT aortogram"
+          ],
+          "answer": 4,
+          "explanation": "This is **aortic dissection** until proven otherwise: abrupt tearing pain radiating to the back, a **BP difference between the arms**, hypertension, and a new early diastolic murmur (aortic regurgitation from involvement of the aortic root). A type A dissection can extend into the right coronary ostium and cause inferior ST elevation, which tempts candidates into thrombolysis or heparin, both potentially fatal.\n\nThe investigation of choice in a stable patient is **CT aortogram** (CT angiography of the aorta). Transoesophageal echo is used if the patient is too unstable for CT. Meanwhile, control heart rate first with an IV beta blocker, then BP, and call cardiothoracic surgery.\n\n**Discriminating clue:** the arm BP difference.",
+          "whyWrong": [
+            "Troponin does not diagnose dissection and delays definitive imaging.",
+            "Transthoracic echo may show root dilation or AR but cannot exclude dissection.",
+            "CTPA is timed for the pulmonary arteries and is the test for PE, not dissection.",
+            "Coronary angiography and its anticoagulation are dangerous in a dissection.",
+            ""
+          ],
+          "ausPearl": "In rural Australia this patient needs early discussion with a cardiothoracic centre and retrieval (for example, RFDS or state retrieval services); a type A dissection cannot be managed locally.",
+          "tags": [
+            "aortic-dissection",
+            "chest-pain",
+            "trap"
+          ]
+        },
+        {
+          "id": "cardiology--chest-pain-and-acs--q4",
+          "discipline": "adult-medicine",
+          "topic": "cardiology",
+          "difficulty": "core",
+          "stem": "A 66-year-old woman is being discharged from a Melbourne hospital 4 days after an NSTEMI treated with a drug-eluting stent to the circumflex artery. Echo shows an LV ejection fraction of 45%. Her LDL cholesterol on admission was 2.4 mmol/L. She is on aspirin and ticagrelor.\n\nWhich additional measure is most strongly indicated as part of her discharge plan?",
+          "options": [
+            "Referral to a cardiac rehabilitation program",
+            "Long-term oxygen therapy",
+            "Warfarin with a target INR of 2 to 3",
+            "Stopping aspirin once ticagrelor is established",
+            "Omitting statin therapy as her LDL is near normal"
+          ],
+          "answer": 0,
+          "explanation": "After ACS, every patient should be referred to **cardiac rehabilitation**, which reduces mortality and readmission and covers exercise, risk factor education, medication adherence and psychosocial support. It is strongly recommended in Australian guidelines and is chronically underused.\n\nShe should also start a **high-intensity statin regardless of baseline LDL**, a beta blocker and an ACE inhibitor given her reduced EF. Dual antiplatelet therapy (aspirin plus ticagrelor) usually continues for 12 months after ACS, then aspirin lifelong. Anticoagulation is not indicated without another reason such as AF or LV thrombus.\n\n**Principle:** secondary prevention is a bundle; rehab is part of it, not optional.",
+          "whyWrong": [
+            "",
+            "Oxygen has no role without chronic hypoxaemia.",
+            "Warfarin is not indicated without AF, LV thrombus or a mechanical valve, and adds bleeding risk to DAPT.",
+            "DAPT is usually continued for 12 months after ACS with a stent.",
+            "Statins are given after ACS regardless of baseline LDL."
+          ],
+          "tags": [
+            "secondary-prevention",
+            "nstemi",
+            "cardiac-rehab"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cardiology--heart-failure",
+      "title": "Heart failure",
+      "minutes": 20,
+      "objectives": [
+        "Classify heart failure by ejection fraction and identify the common Australian causes",
+        "Confirm heart failure with natriuretic peptide, ECG, chest X-ray and echocardiography",
+        "Prescribe the four pillars of HFrEF therapy and know when devices are indicated",
+        "Manage acute pulmonary oedema in the emergency department",
+        "List the drugs that worsen heart failure and the monitoring that keeps patients safe"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "What heart failure is and why it matters",
+          "body": "Heart failure is a clinical syndrome of symptoms (breathlessness, fatigue, fluid retention) caused by a structural or functional cardiac abnormality, with raised intracardiac pressures or low output. It affects roughly half a million Australians and is one of the commonest reasons older people are admitted to hospital, with high readmission and death rates.\n\nClassification by **left ventricular ejection fraction (LVEF)** drives treatment:\n\n| Type | LVEF | Evidence base |\n|---|---|---|\n| HFrEF (reduced) | 40% or less | Strong: four drug pillars reduce mortality |\n| HFmrEF (mildly reduced) | 41 to 49% | Treated much like HFrEF |\n| HFpEF (preserved) | 50% or more | SGLT2 inhibitors, diuretics, treat comorbidities |\n\nThe commonest causes in Australia are **ischaemic heart disease and hypertension**, followed by valve disease, atrial fibrillation, alcohol, dilated cardiomyopathy and, in remote First Nations communities, rheumatic heart disease. Severity is graded with the **NYHA classes** I (no limitation) to IV (symptoms at rest)."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why the body makes it worse",
+          "body": "When cardiac output falls, the body responds as if it were bleeding:\n\n- **Renin-angiotensin-aldosterone system (RAAS)** activation retains salt and water and constricts arterioles. Aldosterone also drives myocardial fibrosis.\n- **Sympathetic activation** raises heart rate and contractility in the short term but is toxic to myocytes over time and promotes arrhythmias.\n- **Natriuretic peptides** (BNP) are released from stretched ventricles and try to counteract this; neprilysin breaks them down.\n\nThese compensations cause **remodelling**: the ventricle dilates, becomes spherical and weaker. That explains the drug pillars: ACE inhibitors, ARBs or sacubitril-valsartan block RAAS (and neprilysin inhibition boosts natriuretic peptides); beta blockers blunt sympathetic toxicity; MRAs block aldosterone; SGLT2 inhibitors cause natriuresis and have direct cardiac and renal benefits. Loop diuretics relieve congestion but do not change survival.\n\nIn HFpEF the ventricle is stiff (often from hypertension, age, obesity, diabetes, AF) and fills poorly at normal pressures, so preload and heart rate matter a lot."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "History and examination",
+          "body": "**Symptoms**: exertional breathlessness, orthopnoea (how many pillows), paroxysmal nocturnal dyspnoea, fatigue, ankle swelling, weight gain, nocturnal cough.\n\n**Signs**: tachycardia, displaced apex beat, third heart sound (gallop), raised JVP, bibasal crackles, pleural effusions, pitting oedema of ankles or sacrum, hepatomegaly and ascites in right heart failure.\n\n**Always look for the precipitant** of a decompensation. The AMC often describes a stable patient who suddenly worsens:\n\n- Ischaemia or infarction\n- New arrhythmia, especially AF\n- Infection\n- Non-adherence to drugs or salt and fluid advice\n- **New drugs**: NSAIDs, non-dihydropyridine calcium channel blockers (verapamil, diltiazem), thiazolidinediones (pioglitazone), some antiarrhythmics\n- Uncontrolled hypertension, anaemia, thyroid disease, alcohol"
+        },
+        {
+          "kind": "investigations",
+          "heading": "Confirming the diagnosis",
+          "body": "- **BNP or NT-proBNP**: a normal result makes heart failure unlikely (good rule-out test). Levels rise with age, AF and renal impairment, and are lower in obesity. Medicare funding for BNP testing has restrictions; check current MBS rules.\n- **ECG**: rarely completely normal in HFrEF; look for Q waves (old infarct), LVH, AF, LBBB.\n- **Chest X-ray**: cardiomegaly (cardiothoracic ratio over 0.5 on PA film), upper lobe venous diversion, Kerley B lines, bat-wing alveolar oedema, pleural effusions.\n- **Echocardiography**: the key test. Gives LVEF, wall motion (ischaemia), valves, LV hypertrophy, diastolic function and pulmonary pressures.\n- **Bloods**: FBC (anaemia), electrolytes and creatinine (baseline before RAAS drugs), liver function, TSH, iron studies (iron deficiency is common and treatable with IV iron), HbA1c, lipids.\n- Consider coronary angiography or CT coronary angiography when ischaemia is suspected."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Other causes of breathlessness and oedema",
+          "body": "| Condition | Distinguishing features |\n|---|---|\n| COPD | Smoking history, wheeze, obstructive spirometry; BNP usually normal unless cor pulmonale |\n| Pneumonia | Fever, focal signs, raised inflammatory markers; can coexist and precipitate HF |\n| Pulmonary embolism | Sudden onset, pleuritic pain, clear chest X-ray |\n| Nephrotic syndrome | Heavy proteinuria, low albumin, JVP not raised |\n| Cirrhosis | Ascites and oedema with stigmata of liver disease, JVP not raised |\n| Venous insufficiency or drug oedema | Isolated ankle swelling, amlodipine use, no raised JVP |\n\nThe **JVP** is the quickest bedside separator: oedema with a raised JVP points to the heart (or fluid overload); oedema with a low JVP points to low albumin or local causes."
+        },
+        {
+          "kind": "management",
+          "heading": "Chronic HFrEF, acute pulmonary oedema and HFpEF",
+          "body": "**Chronic HFrEF: the four pillars** (start low, titrate to target or maximum tolerated doses, ideally all four started early):\n\n1. **ACE inhibitor or ARB, or sacubitril-valsartan** (ARNI). ARNI is preferred for persisting symptoms and can replace an ACE inhibitor after a **36-hour washout** to avoid angioedema.\n2. **Heart-failure beta blocker**: bisoprolol, carvedilol, metoprolol succinate (controlled release) or nebivolol. Start once euvolaemic; expect a short-term dip in energy.\n3. **Mineralocorticoid receptor antagonist**: spironolactone or eplerenone. Watch potassium and renal function.\n4. **SGLT2 inhibitor**: dapagliflozin or empagliflozin, with or without diabetes.\n\nPlus a **loop diuretic** (frusemide) at the lowest dose that keeps the patient dry. Other options for selected patients: ivabradine (sinus rhythm with heart rate still 70 or more despite beta blocker), digoxin, hydralazine with nitrate, IV iron for iron deficiency.\n\n**Devices**: an **ICD** for primary prevention if LVEF remains 35% or less despite optimal therapy; **cardiac resynchronisation (CRT)** if LVEF is 35% or less with a broad QRS, especially LBBB.\n\n**Non-drug care**: daily weights (report a gain of about 2 kg over 2 days), salt restriction, individualised fluid advice, exercise and HF rehabilitation, influenza and pneumococcal vaccination, avoid NSAIDs, and enrolment in a multidisciplinary heart failure program after admission. Advance care planning belongs here too.\n\n**Monitoring**: check potassium and creatinine 1 to 2 weeks after starting or increasing ACE inhibitor, ARB, ARNI or MRA. A creatinine rise up to about 30% is acceptable; hyperkalaemia above 5.5 mmol/L needs dose reduction.\n\n**Acute pulmonary oedema** (ED):\n\n- Sit the patient upright; oxygen if hypoxic\n- **IV frusemide**\n- **Glyceryl trinitrate** (sublingual or infusion) if systolic BP is adequate: reduces preload and afterload quickly\n- **CPAP or bilevel NIV** for respiratory distress or hypoxaemia despite oxygen\n- Morphine is no longer routine\n- Find and treat the trigger (ECG for ischaemia or AF, troponin, infection screen)\n- Cardiogenic shock needs inotropes and ICU; do not give beta blockers acutely\n\n**HFpEF**: SGLT2 inhibitor, diuretics for congestion, control BP and AF, treat obesity, sleep apnoea and diabetes."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- A patient with known HF worsens after starting **ibuprofen, diltiazem or pioglitazone**: stop the drug.\n- **Which drug improves survival?** Diuretics do not; the four pillars do.\n- **Rising potassium after adding spironolactone** to an ACE inhibitor: check the dose, stop potassium supplements, reduce or withhold.\n- **Switching ACE inhibitor to sacubitril-valsartan**: the 36-hour gap is the discriminator.\n- Acute pulmonary oedema with **systolic BP 180 mmHg**: GTN plus frusemide plus CPAP. With **systolic BP 80 mmHg**: think cardiogenic shock; nitrates are wrong.\n- A normal BNP makes HF very unlikely; a raised BNP needs an echo."
+        }
+      ],
+      "keyPoints": [
+        "HFrEF is LVEF 40% or less; HFpEF is 50% or more; echo is the key test.",
+        "Four pillars for HFrEF: ACEi/ARB or sacubitril-valsartan, HF beta blocker, MRA and SGLT2 inhibitor.",
+        "Loop diuretics relieve congestion but do not improve survival.",
+        "36-hour washout when switching from an ACE inhibitor to sacubitril-valsartan.",
+        "ICD if LVEF stays 35% or less on optimal therapy; CRT if also broad QRS or LBBB.",
+        "Acute pulmonary oedema: upright, oxygen if hypoxic, IV frusemide, GTN if BP allows, CPAP.",
+        "Avoid NSAIDs, verapamil, diltiazem and pioglitazone in HFrEF."
+      ],
+      "redFlags": [
+        "Hypotension with cold peripheries and poor urine output (cardiogenic shock)",
+        "Acute pulmonary oedema with hypoxaemia or rising respiratory effort",
+        "Syncope or ventricular arrhythmia in a patient with reduced LVEF",
+        "Potassium above 6.0 mmol/L or rapidly rising creatinine on RAAS drugs",
+        "Heart failure with a new murmur or fever (endocarditis, valve rupture)"
+      ],
+      "contrast": [
+        {
+          "aspect": "HFrEF drug therapy",
+          "india": "Often ACE inhibitor, diuretic and digoxin; SGLT2 inhibitors and ARNI limited by cost.",
+          "australia": "All four pillars started early, with SGLT2 inhibitors and sacubitril-valsartan PBS-subsidised for eligible patients."
+        },
+        {
+          "aspect": "Causes in younger adults",
+          "india": "Rheumatic valve disease and peripartum cardiomyopathy are prominent causes.",
+          "australia": "Ischaemia and hypertension dominate; rheumatic heart disease is concentrated in remote First Nations communities."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "LVEF cut-off defining HFrEF?",
+          "back": "40% or less."
+        },
+        {
+          "front": "The four pillars of HFrEF therapy?",
+          "back": "ACE inhibitor/ARB or sacubitril-valsartan, HF beta blocker, MRA, SGLT2 inhibitor."
+        },
+        {
+          "front": "Washout required between an ACE inhibitor and sacubitril-valsartan?",
+          "back": "36 hours, to avoid angioedema."
+        },
+        {
+          "front": "Beta blockers with HFrEF evidence?",
+          "back": "Bisoprolol, carvedilol, metoprolol succinate (CR) and nebivolol."
+        },
+        {
+          "front": "LVEF threshold for a primary prevention ICD?",
+          "back": "35% or less despite optimal medical therapy."
+        },
+        {
+          "front": "Chest X-ray signs of pulmonary oedema?",
+          "back": "Alveolar (bat-wing) oedema, Kerley B lines, cardiomegaly, upper lobe diversion, effusions."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "cardiology--heart-failure--q1",
+          "discipline": "adult-medicine",
+          "topic": "cardiology",
+          "difficulty": "core",
+          "stem": "A 72-year-old man with ischaemic cardiomyopathy (LVEF 30%) is reviewed by his GP in Adelaide. He takes perindopril, bisoprolol, spironolactone and frusemide at stable doses. He remains breathless walking up one flight of stairs. BP 118/70 mmHg, HR 64 bpm in sinus rhythm. eGFR 52 mL/min/1.73m2, potassium 4.6 mmol/L. He does not have diabetes.\n\nWhich medication is most appropriate to add?",
+          "options": [
+            "Digoxin",
+            "Amlodipine",
+            "Ivabradine",
+            "Dapagliflozin",
+            "Hydrochlorothiazide"
+          ],
+          "answer": 3,
+          "explanation": "He is on three of the four HFrEF pillars (ACE inhibitor, HF beta blocker, MRA). The missing pillar is an **SGLT2 inhibitor** (dapagliflozin or empagliflozin), which reduces cardiovascular death and heart failure hospitalisation **whether or not the patient has diabetes**, and has renal benefits at his eGFR.\n\nIvabradine is only for patients in sinus rhythm whose heart rate remains 70 bpm or more despite a beta blocker; his is 64. Digoxin improves symptoms but not survival. Amlodipine is neutral in HFrEF and does nothing for symptoms. Adding a thiazide is for resistant congestion, not for a euvolaemic patient.\n\n**Principle:** complete all four pillars before reaching for second-line drugs.",
+          "whyWrong": [
+            "Digoxin reduces admissions but not mortality and is not the next pillar.",
+            "Amlodipine has no survival benefit in HFrEF.",
+            "Ivabradine requires a sinus rate of 70 bpm or more on a beta blocker.",
+            "",
+            "Thiazides are for resistant fluid overload; he is not congested."
+          ],
+          "tags": [
+            "hfref",
+            "sglt2-inhibitor",
+            "heart-failure"
+          ]
+        },
+        {
+          "id": "cardiology--heart-failure--q2",
+          "discipline": "adult-medicine",
+          "topic": "cardiology",
+          "difficulty": "foundation",
+          "stem": "A 79-year-old woman is brought to the emergency department at 3 am with acute breathlessness. She is sitting upright, frothy sputum, RR 32/min, SpO2 86% on room air, BP 186/100 mmHg, HR 112 bpm in sinus rhythm. There are widespread crackles to the mid-zones. The ECG shows LVH with no acute ST changes.\n\nAlong with oxygen and intravenous frusemide, which of the following is the most appropriate additional treatment?",
+          "options": [
+            "Intravenous metoprolol",
+            "Glyceryl trinitrate and CPAP",
+            "Intravenous morphine 10 mg",
+            "Intravenous 0.9% sodium chloride bolus",
+            "Oral amlodipine"
+          ],
+          "answer": 1,
+          "explanation": "This is **hypertensive acute pulmonary oedema**. Nitrates are the most useful drug here: glyceryl trinitrate (sublingual then infusion) rapidly reduces preload and afterload and is safe because her systolic BP is high. **CPAP or bilevel NIV** reduces work of breathing, recruits alveoli and reduces venous return, and lowers the need for intubation.\n\nMorphine is no longer used routinely because it is associated with worse outcomes. Beta blockers are contraindicated in acute decompensation. Fluids worsen oedema.\n\n**Discriminating clue:** high systolic BP. If she were hypotensive, nitrates would be wrong and you would think of cardiogenic shock.",
+          "whyWrong": [
+            "Acute beta blockade depresses contractility and can precipitate shock in decompensated HF.",
+            "",
+            "Routine morphine is not recommended in acute pulmonary oedema.",
+            "IV fluid worsens pulmonary oedema.",
+            "Oral amlodipine is too slow and does not treat pulmonary oedema."
+          ],
+          "tags": [
+            "acute-pulmonary-oedema",
+            "niv",
+            "emergency"
+          ]
+        },
+        {
+          "id": "cardiology--heart-failure--q3",
+          "discipline": "adult-medicine",
+          "topic": "cardiology",
+          "difficulty": "exam",
+          "stem": "A 68-year-old man with HFrEF (LVEF 32%) and osteoarthritis presents to his GP in Perth with 1 week of increasing ankle swelling and 3 kg weight gain. He had been stable for a year on sacubitril-valsartan, carvedilol, eplerenone, empagliflozin and low-dose frusemide. Two weeks ago he started a medication for knee pain bought from a pharmacy. BP 136/84 mmHg. Creatinine has risen from 105 to 148 micromol/L.\n\nWhich medication is he most likely to have started?",
+          "options": [
+            "Paracetamol",
+            "Topical capsaicin",
+            "Glucosamine",
+            "Paracetamol-codeine",
+            "Ibuprofen"
+          ],
+          "answer": 4,
+          "explanation": "**NSAIDs** are a classic precipitant of heart failure decompensation. They inhibit renal prostaglandins, causing sodium and water retention and reduced diuretic response, and combined with RAAS inhibitors and an MRA they can cause acute kidney injury and hyperkalaemia (the \"triple whammy\" with diuretics and RAAS blockade). Ibuprofen is available over the counter in Australian pharmacies.\n\nManagement: stop the NSAID, increase the diuretic temporarily, check potassium and creatinine, and offer paracetamol, topical NSAIDs in moderation, physiotherapy and weight loss for his osteoarthritis.\n\n**Principle:** always ask about new drugs, including over-the-counter ones, when a stable HF patient decompensates.",
+          "whyWrong": [
+            "Paracetamol does not cause fluid retention or renal impairment.",
+            "Topical capsaicin has negligible systemic effects.",
+            "Glucosamine does not cause fluid retention or AKI.",
+            "Codeine may constipate or sedate but does not cause salt retention.",
+            ""
+          ],
+          "ausPearl": "The 'triple whammy' (NSAID + ACE inhibitor/ARB + diuretic) is a well-known Australian medication safety message promoted by NPS MedicineWise and pharmacists.",
+          "tags": [
+            "heart-failure",
+            "nsaid",
+            "drug-interactions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cardiology--af-and-arrhythmias",
+      "title": "Atrial fibrillation and arrhythmias",
+      "minutes": 22,
+      "objectives": [
+        "Calculate CHA2DS2-VA and choose between a DOAC and warfarin for stroke prevention",
+        "Decide between rate and rhythm control and manage unstable tachyarrhythmias",
+        "Treat SVT, VT and bradyarrhythmias using the ALS approach",
+        "Distinguish cardiac syncope from vasovagal and orthostatic syncope"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why arrhythmias matter",
+          "body": "**Atrial fibrillation (AF)** is the commonest sustained arrhythmia; its prevalence climbs steeply with age and it affects about 1 in 10 Australians over 75. It matters because it causes **cardioembolic stroke** (large, disabling strokes), heart failure and symptoms. Many cases are found incidentally (an irregular pulse at a GP visit or on a smartwatch).\n\nOther examinable rhythms: supraventricular tachycardia (SVT), atrial flutter, ventricular tachycardia (VT) and fibrillation, heart block, Wolff-Parkinson-White (WPW) syndrome, long QT and torsades de pointes. The unifying exam skill is: **is the patient stable or unstable?** Unstable (hypotension, shock, chest pain, heart failure, reduced consciousness) means electricity, not drugs."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Mechanisms and triggers",
+          "body": "AF arises from **ectopic firing, often around the pulmonary veins**, plus an atrial substrate that sustains multiple re-entry wavelets. The substrate is created by atrial stretch and fibrosis from hypertension, heart failure, mitral valve disease, obesity, sleep apnoea, alcohol and age. Reversible triggers: **thyrotoxicosis, alcohol binge (\"holiday heart\"), sepsis, pneumonia, post-operative state, PE and electrolyte disturbance**.\n\nLoss of atrial contraction plus stasis in the **left atrial appendage** forms thrombus, which embolises to the brain. The AV node then conducts irregularly, so ventricular rate is irregularly irregular.\n\n- **Atrial flutter**: a single macro-re-entry circuit in the right atrium; atrial rate about 300/min with sawtooth waves, often 2:1 block giving a regular rate near 150. Stroke risk is managed like AF.\n- **AVNRT and AVRT (SVT)**: re-entry involving the AV node, so anything that blocks the node (vagal manoeuvres, adenosine) terminates it.\n- **WPW**: an accessory pathway (short PR, delta wave). In AF with WPW, blocking the AV node pushes impulses down the pathway and can cause VF.\n- **VT**: usually from scar after MI or cardiomyopathy."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Presentation and ECG recognition",
+          "body": "**History**: palpitations, breathlessness, fatigue, reduced exercise tolerance, chest pain, dizziness or syncope; or none. Ask about alcohol, thyroid symptoms, sleep apnoea, and prior stroke or TIA.\n\n**Examination**: irregularly irregular pulse, apex-radial pulse deficit, signs of heart failure, thyroid or valve disease.\n\n| Rhythm | ECG features |\n|---|---|\n| AF | Irregularly irregular, no P waves, fibrillatory baseline |\n| Atrial flutter | Sawtooth flutter waves (best in II, III, aVF), often regular rate about 150 |\n| SVT (AVNRT) | Regular narrow complex at 150 to 250, P waves hidden or retrograde |\n| VT | Regular broad complex (QRS over 120 ms); AV dissociation, fusion and capture beats |\n| WPW | Short PR, delta wave, broad QRS in sinus rhythm |\n| Torsades | Polymorphic broad complex twisting around the baseline, on a long QT background |\n| Complete heart block | P waves and QRS complexes independent, slow broad escape rhythm |\n| Mobitz II | Constant PR with sudden dropped QRS: high risk of complete block |\n\nA broad complex regular tachycardia in a patient with previous MI should be treated as **VT** until proven otherwise.\n\n**Syncope**: vasovagal syncope has a trigger (standing, pain, heat) and prodrome (nausea, sweating, tunnel vision) with rapid recovery. **Cardiac syncope** is suggested by exertional syncope, syncope while lying down, no prodrome, palpitations beforehand, known structural heart disease, an abnormal ECG or a family history of sudden death under 40."
+        },
+        {
+          "kind": "investigations",
+          "heading": "What to order",
+          "body": "- **12-lead ECG**, and ambulatory monitoring (Holter, event recorder, implantable loop recorder) for intermittent symptoms.\n- **Bloods**: TSH, electrolytes including magnesium, renal function (DOAC dosing), FBC, liver function, coagulation.\n- **Echocardiography**: LV function, valve disease (especially mitral stenosis), left atrial size.\n- **Sleep study** if sleep apnoea is suspected.\n- For syncope: ECG in every case (look for long QT, Brugada pattern, WPW, heart block, LVH or HCM), lying and standing BP, and echo if a murmur or exertional syncope.\n\n**Stroke risk: CHA2DS2-VA** (Australian guidelines removed female sex):\n\n| Letter | Factor | Points |\n|---|---|---|\n| C | Congestive heart failure | 1 |\n| H | Hypertension | 1 |\n| A2 | Age 75 or over | 2 |\n| D | Diabetes | 1 |\n| S2 | Prior stroke, TIA or thromboembolism | 2 |\n| V | Vascular disease (MI, peripheral arterial disease, aortic plaque) | 1 |\n| A | Age 65 to 74 | 1 |\n\nOral anticoagulation is **recommended at a score of 2 or more** and **should be considered at a score of 1**. Rather than using a bleeding score to deny anticoagulation, correct modifiable bleeding risks: uncontrolled BP, alcohol excess, unnecessary antiplatelets or NSAIDs, labile INR."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Narrow versus broad, stable versus unstable",
+          "body": "| Presentation | Think | Tell-tale clue |\n|---|---|---|\n| Irregular narrow complex | AF, flutter with variable block, multifocal atrial tachycardia (severe lung disease) | P-wave morphology |\n| Regular narrow at exactly 150 | Flutter with 2:1 block | Sawtooth waves; adenosine unmasks them |\n| Regular narrow 180 to 220 in a young adult | AVNRT | Sudden onset and offset, responds to vagal manoeuvres |\n| Regular broad | VT until proven otherwise | Prior MI, concordance, AV dissociation |\n| Irregular broad, very fast | AF with WPW | Varying QRS width, rates over 250 |\n| Sinus tachycardia | Fever, pain, PE, bleeding, thyrotoxicosis | Gradual onset, P before each QRS; treat the cause |\n\nAlways check **potassium**: hyperkalaemia gives peaked T waves, then broad QRS and a sine wave pattern and can present as a broad complex bradycardia. Treat with IV calcium gluconate to stabilise the myocardium first."
+        },
+        {
+          "kind": "management",
+          "heading": "Stroke prevention, rate, rhythm and emergencies",
+          "body": "**AF stroke prevention**\n\n- **DOACs** (apixaban, rivaroxaban, dabigatran) are preferred over warfarin in non-valvular AF: at least as effective, less intracranial bleeding, no INR monitoring. Dose by age, weight and renal function.\n- **Warfarin, not a DOAC**, for **mechanical heart valves** and **moderate to severe mitral stenosis**. Target INR is usually 2 to 3 (higher for some mechanical mitral valves).\n- Aspirin is not an alternative for stroke prevention in AF.\n- Reversal: idarucizumab for dabigatran; vitamin K plus prothrombin complex concentrate for warfarin; specific or non-specific reversal for factor Xa inhibitors per local protocol.\n\n**Rate control** (most older patients): beta blocker or a non-dihydropyridine calcium channel blocker (verapamil or diltiazem, **not in HFrEF**); digoxin in sedentary patients or with heart failure. A lenient resting target below about 110 bpm is acceptable if asymptomatic.\n\n**Rhythm control** (symptomatic, younger, new onset, heart failure caused by AF): electrical or pharmacological cardioversion. Flecainide only in structurally normal hearts; amiodarone or sotalol otherwise. **Catheter ablation** (pulmonary vein isolation) is increasingly first line in selected patients.\n\n**Before elective cardioversion**: if AF has lasted **48 hours or more** or duration is unknown, anticoagulate for at least 3 weeks first (or exclude left atrial thrombus with TOE), and for at least 4 weeks afterwards. Manage risk factors too: weight loss, alcohol reduction, BP control and sleep apnoea treatment reduce AF burden.\n\n**Unstable tachyarrhythmia** (shock, syncope, ischaemia, heart failure): **synchronised DC cardioversion** under sedation.\n\n**SVT (stable)**: vagal manoeuvres (the **modified Valsalva** with leg raise is most effective), then **adenosine** as a rapid IV push with flush (warn about brief chest tightness and sense of doom; avoid in severe asthma), then verapamil if adenosine fails or is contraindicated. Refer for ablation if recurrent.\n\n**VT**: pulseless means defibrillate (ALS algorithm). With a pulse but unstable, synchronised cardioversion; stable, IV amiodarone and expert help. **Torsades**: IV magnesium sulfate, correct potassium, stop QT-prolonging drugs.\n\n**Bradycardia**: atropine for symptomatic bradycardia; adrenaline or isoprenaline infusion or transcutaneous pacing if unresponsive. Complete heart block and symptomatic Mobitz II need a permanent pacemaker.\n\n**Driving**: syncope, arrhythmias and ICDs carry non-driving periods under Austroads; commercial standards are stricter."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- An 80-year-old with AF, hypertension and diabetes (score 4): the answer is a **DOAC**, not aspirin, even if she \"falls sometimes\".\n- AF plus **mechanical mitral valve** or **rheumatic mitral stenosis**: warfarin.\n- AF of **unknown duration** being cardioverted electively: anticoagulate 3 weeks first or TOE. An **unstable** patient is cardioverted immediately.\n- Regular narrow complex tachycardia in a young woman with asthma: vagal manoeuvres first; verapamil over adenosine if severe asthma.\n- Irregular broad complex tachycardia at 280 in a young man: **AF with WPW**; avoid adenosine, verapamil, digoxin and beta blockers; cardiovert or give procainamide or flecainide under specialist advice.\n- Syncope while exercising: cardiac until proven otherwise (HCM, aortic stenosis, long QT).\n- New AF: always check **TSH**."
+        }
+      ],
+      "keyPoints": [
+        "CHA2DS2-VA: anticoagulate at 2 or more, consider at 1; female sex is no longer counted in Australia.",
+        "DOACs are preferred in non-valvular AF; warfarin for mechanical valves and moderate-severe mitral stenosis.",
+        "Unstable tachyarrhythmia means synchronised DC cardioversion.",
+        "AF 48 hours or more or unknown duration: 3 weeks of anticoagulation or TOE before elective cardioversion.",
+        "SVT: modified Valsalva, then adenosine rapid IV push, then verapamil.",
+        "Broad complex regular tachycardia after MI is VT until proven otherwise.",
+        "Exertional syncope or syncope without prodrome needs a cardiac work-up."
+      ],
+      "redFlags": [
+        "Tachyarrhythmia with hypotension, chest pain, heart failure or reduced consciousness",
+        "Syncope on exertion, while supine, or with a family history of sudden death",
+        "Irregular broad complex tachycardia (AF with pre-excitation)",
+        "Mobitz II or complete heart block",
+        "Long QT or Brugada pattern on the ECG of a patient with syncope"
+      ],
+      "contrast": [
+        {
+          "aspect": "Stroke risk score in AF",
+          "india": "CHA2DS2-VASc, with a point for female sex, is taught.",
+          "australia": "Australian guidelines use CHA2DS2-VA; sex is removed from the score."
+        },
+        {
+          "aspect": "Anticoagulant choice",
+          "india": "Warfarin or acenocoumarol are common because of cost and familiarity.",
+          "australia": "DOACs are PBS-listed and preferred for non-valvular AF; warfarin kept for mechanical valves and mitral stenosis."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "CHA2DS2-VA score at which anticoagulation is recommended?",
+          "back": "2 or more (consider at 1)."
+        },
+        {
+          "front": "Two indications for warfarin rather than a DOAC in AF?",
+          "back": "Mechanical heart valve; moderate to severe mitral stenosis."
+        },
+        {
+          "front": "Reversal agent for dabigatran?",
+          "back": "Idarucizumab."
+        },
+        {
+          "front": "Treatment of torsades de pointes?",
+          "back": "IV magnesium sulfate, correct potassium, stop QT-prolonging drugs (defibrillate if pulseless)."
+        },
+        {
+          "front": "ECG features of WPW in sinus rhythm?",
+          "back": "Short PR interval and a delta wave (slurred QRS upstroke)."
+        },
+        {
+          "front": "First manoeuvre for stable SVT?",
+          "back": "Vagal manoeuvre, ideally the modified Valsalva (strain then supine with leg raise)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "cardiology--af-and-arrhythmias--q1",
+          "discipline": "adult-medicine",
+          "topic": "cardiology",
+          "difficulty": "core",
+          "stem": "A 77-year-old woman sees her GP in Hobart after an irregular pulse is noted at a flu vaccination. ECG confirms atrial fibrillation with a ventricular rate of 88 bpm. She has treated hypertension and no other conditions. Echo shows a structurally normal heart with no valve disease. eGFR is 64 mL/min/1.73m2. She walks daily and has had no falls.\n\nWhat is the most appropriate stroke prevention strategy?",
+          "options": [
+            "No antithrombotic therapy",
+            "Aspirin 100 mg daily",
+            "Apixaban",
+            "Warfarin with a target INR of 2.5 to 3.5",
+            "Aspirin plus clopidogrel"
+          ],
+          "answer": 2,
+          "explanation": "Her **CHA2DS2-VA score is 3** (age 75 or over = 2, hypertension = 1). Female sex no longer adds a point in the Australian score. Oral anticoagulation is recommended at a score of 2 or more.\n\nIn non-valvular AF, a **DOAC** such as apixaban is preferred over warfarin: similar or better stroke prevention, less intracranial haemorrhage and no INR monitoring. Her renal function allows standard DOAC use (dose by age, weight and creatinine).\n\nAspirin, alone or with clopidogrel, is inferior for stroke prevention and still causes bleeding. Warfarin with a higher INR target is for some mechanical valves.\n\n**Principle:** count the score, then choose a DOAC unless there is a mechanical valve or moderate-severe mitral stenosis.",
+          "whyWrong": [
+            "A score of 3 carries a substantial annual stroke risk; no treatment is not appropriate.",
+            "Aspirin is not recommended for stroke prevention in AF.",
+            "",
+            "A target of 2.5 to 3.5 is for some mechanical valves, and a DOAC is preferred in non-valvular AF.",
+            "Dual antiplatelets are less effective than anticoagulation and bleed similarly."
+          ],
+          "tags": [
+            "atrial-fibrillation",
+            "anticoagulation",
+            "cha2ds2-va"
+          ]
+        },
+        {
+          "id": "cardiology--af-and-arrhythmias--q2",
+          "discipline": "adult-medicine",
+          "topic": "cardiology",
+          "difficulty": "foundation",
+          "stem": "A 28-year-old woman presents to the emergency department with 30 minutes of sudden-onset rapid palpitations. She has no past history. BP 118/74 mmHg, HR 190 bpm, SpO2 99%. She is alert and has no chest pain. The ECG shows a regular narrow complex tachycardia with no visible P waves.\n\nWhat is the most appropriate first treatment?",
+          "options": [
+            "Synchronised DC cardioversion",
+            "Modified Valsalva manoeuvre",
+            "Intravenous amiodarone",
+            "Intravenous metoprolol",
+            "Carotid sinus massage on both sides at once"
+          ],
+          "answer": 1,
+          "explanation": "This is a **stable SVT**, most likely AVNRT given her age and the sudden onset. First line is a **vagal manoeuvre**, and the **modified Valsalva** (blow into a syringe for about 15 seconds while semi-recumbent, then lie flat with legs raised) terminates a large proportion of episodes, much more than standard Valsalva.\n\nIf that fails, give **adenosine** by rapid IV push with a flush, then verapamil. DC cardioversion is for unstable patients. Amiodarone is not a first-line SVT drug. Bilateral carotid massage is never done, and carotid massage is avoided in older people with bruits.\n\n**Discriminating clue:** stable observations, regular narrow complex. Start with the vagus nerve.",
+          "whyWrong": [
+            "She is haemodynamically stable, so cardioversion is not first line.",
+            "",
+            "Amiodarone is not first line for SVT.",
+            "Beta blockade is not the first step and adenosine is preferred after vagal manoeuvres fail.",
+            "Bilateral carotid massage risks cerebral ischaemia and is never performed."
+          ],
+          "tags": [
+            "svt",
+            "arrhythmia",
+            "emergency"
+          ]
+        },
+        {
+          "id": "cardiology--af-and-arrhythmias--q3",
+          "discipline": "adult-medicine",
+          "topic": "cardiology",
+          "difficulty": "exam",
+          "stem": "A 66-year-old man presents to the emergency department with 3 days of palpitations and breathlessness. He is in atrial fibrillation at 128 bpm. BP 128/78 mmHg, SpO2 96%. He is not on anticoagulation. Echo shows normal LV function and no valve disease. He would prefer to be back in sinus rhythm.\n\nWhat is the most appropriate management now?",
+          "options": [
+            "Immediate synchronised DC cardioversion",
+            "Intravenous flecainide to restore sinus rhythm today",
+            "Aspirin and discharge with cardiology follow-up",
+            "Start anticoagulation and rate control; plan cardioversion after at least 3 weeks, or earlier if TOE excludes thrombus",
+            "Rate control alone; anticoagulation is not needed once sinus rhythm is restored"
+          ],
+          "answer": 3,
+          "explanation": "AF of **48 hours or more** carries a risk of left atrial appendage thrombus, and cardioversion (electrical or chemical) can dislodge it. He is **haemodynamically stable**, so there is no need for immediate cardioversion.\n\nThe safe approach is to **anticoagulate** (a DOAC is suitable), control the rate (e.g. a beta blocker), and cardiovert after **at least 3 weeks** of therapeutic anticoagulation, or sooner if **transoesophageal echo** shows no thrombus. Anticoagulation continues for at least 4 weeks after cardioversion because atrial function recovers slowly, and long term according to CHA2DS2-VA (his score is at least 1).\n\n**Discriminating clue:** 3 days of symptoms in a stable patient.",
+          "whyWrong": [
+            "Immediate cardioversion is for unstable patients; after 48 hours it risks stroke without anticoagulation or TOE.",
+            "Chemical cardioversion carries the same embolic risk as electrical after 48 hours.",
+            "Aspirin does not prevent AF-related stroke and ignores his symptoms.",
+            "",
+            "Anticoagulation is needed for at least 4 weeks after cardioversion and then per stroke risk."
+          ],
+          "tags": [
+            "atrial-fibrillation",
+            "cardioversion",
+            "anticoagulation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cardiology--hypertension-and-cvd-risk",
+      "title": "Hypertension and absolute CVD risk",
+      "minutes": 20,
+      "objectives": [
+        "Calculate and act on absolute cardiovascular risk using the Australian CVD risk calculator",
+        "Diagnose hypertension correctly with clinic, home and ambulatory measurements",
+        "Choose first-line antihypertensives and recognise when to look for secondary causes",
+        "Manage lipids and lifestyle to reduce cardiovascular risk",
+        "Distinguish hypertensive emergency from severe asymptomatic hypertension"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Absolute risk: the Australian way",
+          "body": "Australia manages cardiovascular prevention by **absolute risk**, not by treating single numbers in isolation. A 45-year-old non-smoker with a BP of 150/90 may have a lower 5-year risk of heart attack or stroke than a 70-year-old smoker with diabetes and a BP of 135/80. Treating the second person gains far more.\n\nThe **Australian Guideline and Calculator for Assessing and Managing Cardiovascular Disease Risk** (2023, at cvdcheck.org.au) estimates **5-year risk** of a cardiovascular event:\n\n| Category | 5-year risk | Action |\n|---|---|---|\n| High | 10% or more | Lifestyle plus BP-lowering and lipid-lowering drugs |\n| Intermediate | 5% to under 10% | Lifestyle; consider drugs, guided by reclassification factors and patient preference |\n| Low | Under 5% | Lifestyle; reassess periodically |\n\n**Who to assess**: people aged **45 to 79** without known CVD, **First Nations people from age 30**, and people with diabetes from age 35. People with established CVD, moderate to severe CKD, familial hypercholesterolaemia and some people with diabetes are already high risk and do not need the calculator.\n\n**Reclassification factors** can move someone up a category: family history of premature CVD, coronary artery calcium score, ethnicity, severe mental illness and others listed in the guideline.\n\nHypertension itself affects about a third of Australian adults, many undiagnosed, and is a major cause of stroke, heart failure, CKD and dementia."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why BP rises and why it harms",
+          "body": "Most hypertension (about 90%) is **primary (essential)**, from a mix of genetics, salt intake, obesity, alcohol, inactivity and ageing stiffening of the arteries (isolated systolic hypertension in older people).\n\n**Secondary hypertension** has an identifiable cause. The high-yield ones:\n\n- **Primary aldosteronism**: the commonest endocrine cause, far more common than once thought. Hypertension with or without hypokalaemia; screen with the aldosterone-to-renin ratio.\n- **Renal parenchymal disease** and **renal artery stenosis** (atherosclerotic in older smokers; fibromuscular dysplasia in young women; creatinine rises sharply after starting an ACE inhibitor).\n- **Obstructive sleep apnoea**.\n- **Drugs**: NSAIDs, oral contraceptives, corticosteroids, decongestants, stimulants, excess alcohol, liquorice.\n- **Phaeochromocytoma**, **Cushing syndrome**, thyroid disease, **coarctation of the aorta** (radiofemoral delay, arm BP higher than leg).\n\nSustained high pressure damages arteries (atherosclerosis, small vessel disease) and target organs: LV hypertrophy, heart failure, stroke, retinopathy, CKD and aortic aneurysm or dissection."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Measuring and assessing",
+          "body": "Hypertension is usually silent; it is found by measuring. **Diagnosis needs repeated measurement**, not one high clinic reading.\n\n| Method | Threshold for hypertension |\n|---|---|\n| Clinic BP (repeated visits) | 140/90 mmHg or more |\n| Home BP (average) | 135/85 mmHg or more |\n| Ambulatory (ABPM) daytime | 135/85 mmHg or more |\n| Ambulatory 24-hour average | 130/80 mmHg or more |\n\nOut-of-clinic measurement identifies **white coat hypertension** (high in clinic, normal at home) and **masked hypertension** (normal in clinic, high outside). Use a validated device and correct cuff size.\n\n**Assess** at diagnosis:\n\n- Other risk factors: smoking, diabetes, lipids, family history, weight, waist\n- **Target organ damage**: fundoscopy, cardiac examination (LVH, murmurs), peripheral pulses and radiofemoral delay, abdominal bruit\n- Clues to secondary causes: young age, severe or resistant hypertension, hypokalaemia, paroxysmal symptoms, snoring and daytime sleepiness, Cushingoid features"
+        },
+        {
+          "kind": "investigations",
+          "heading": "Baseline tests",
+          "body": "For a new diagnosis of hypertension:\n\n- **Urine albumin-to-creatinine ratio** (albuminuria is kidney damage and a strong risk marker) and urinalysis for blood\n- **Electrolytes, creatinine and eGFR** (a low potassium suggests aldosteronism or diuretic use)\n- **Fasting or non-fasting lipids** and **HbA1c or fasting glucose**\n- **ECG** (LVH, prior infarct, AF)\n- Echo if LVH or heart failure is suspected\n\nThen calculate absolute risk with the online calculator.\n\n**Screen for secondary causes** when indicated:\n\n- **Aldosterone-to-renin ratio** for hypertension with hypokalaemia, resistant hypertension, onset under about 40, or adrenal incidentaloma. Correct potassium first and be aware that many antihypertensives interfere; the lab or an endocrinologist can advise.\n- Renal artery imaging (duplex ultrasound or CT angiography) if creatinine rises markedly after an ACE inhibitor or ARB, or with flash pulmonary oedema.\n- Plasma metanephrines for episodic headache, sweating and palpitations.\n- Sleep study for suspected OSA.\n\n**Lipids**: total cholesterol, LDL, HDL and triglycerides. Very high LDL (for example, above about 5 mmol/L) or tendon xanthomata suggests **familial hypercholesterolaemia**: use the Dutch Lipid Clinic criteria and cascade test relatives."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Severe BP: emergency or urgency?",
+          "body": "| Scenario | Features | Approach |\n|---|---|---|\n| **Hypertensive emergency** | Severe hypertension **with acute target organ damage**: encephalopathy, stroke, acute pulmonary oedema, ACS, aortic dissection, acute kidney injury, eclampsia, retinal haemorrhages or papilloedema | Admit (often ICU), IV drugs, reduce mean BP by no more than about 25% in the first hour (faster in dissection) |\n| **Severe asymptomatic hypertension** | Very high BP, no acute organ damage | Oral therapy, recheck within days; avoid rapid lowering |\n| **White coat effect** | High in clinic, normal at home or on ABPM | Confirm with ABPM before treating |\n| **Pain, anxiety, withdrawal** | Transient rise with a clear cause | Treat the cause, recheck |\n\nLowering BP too fast in a chronically hypertensive patient can cause stroke or MI, because autoregulation has shifted upward. **Aortic dissection** is the exception: heart rate and BP are lowered quickly."
+        },
+        {
+          "kind": "management",
+          "heading": "Lifestyle, BP drugs and lipids",
+          "body": "**Lifestyle for everyone**: stop smoking (varenicline or nicotine replacement plus Quitline 13 7848), reduce salt, eat a diet rich in vegetables, fruit and wholegrains, be physically active most days (150 to 300 minutes of moderate activity a week), lose weight if overweight, limit alcohol (NHMRC: no more than 10 standard drinks a week and 4 on any day).\n\n**Who gets drugs**: everyone at high absolute risk; intermediate risk depending on factors and preference; and anyone with BP persistently **160/100 mmHg or more** regardless of risk.\n\n**First-line antihypertensives** (any of):\n\n- ACE inhibitor or ARB (preferred with diabetes, albuminuria, CKD or heart failure)\n- Dihydropyridine calcium channel blocker (amlodipine)\n- Thiazide or thiazide-like diuretic (e.g. indapamide)\n\nIf not at target, **combine two first-line classes** at low doses rather than maximising one. **Never combine an ACE inhibitor with an ARB.** Beta blockers are not first line for uncomplicated hypertension but are used for another indication (angina, post-MI, HFrEF, AF). Spironolactone is effective for resistant hypertension.\n\n**Targets**: generally below 140/90 mmHg; lower targets (for example below 130/80, or systolic below 120 in selected high-risk patients if tolerated) are recommended for many people with diabetes, CKD, established CVD or high absolute risk. Check the current Heart Foundation or RACGP guidance for the patient group.\n\n**Lipids**: a **statin** is the cornerstone for high-risk people and for everyone with established CVD (high-intensity after ACS or stroke). Add ezetimibe, then a PCSK9 inhibitor for very high risk patients not at target. Secondary prevention LDL targets have been getting lower; commonly quoted targets are below 1.8 mmol/L, with below 1.4 mmol/L increasingly recommended for very high risk. Monitor for myalgia; check CK if muscle symptoms.\n\n**Pregnancy**: ACE inhibitors and ARBs are contraindicated; use labetalol, nifedipine or methyldopa (see Women's health).\n\n**First Nations people**: an annual health check (MBS item 715) includes CVD risk factors; assessment starts from 30."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- \"Should this person start a statin?\" Calculate the risk. If 10% or more over 5 years, yes; if clinically high risk (CKD, FH, prior CVD), you do not need the calculator.\n- A 32-year-old Aboriginal man at a health check: CVD risk assessment is due (from 30), while a non-Indigenous 32-year-old is not.\n- A single clinic reading of 150/95: confirm with home or ambulatory BP before labelling.\n- Young woman with hypertension and **potassium 3.1 mmol/L**: aldosterone-to-renin ratio.\n- **Creatinine jumps 40% after perindopril**: renal artery stenosis.\n- BP 220/130 with headache, confusion and papilloedema: hypertensive emergency, controlled IV reduction, not sublingual nifedipine and not a rapid drop to normal."
+        }
+      ],
+      "keyPoints": [
+        "Treat absolute 5-year CVD risk, not single risk factors.",
+        "Assess from 45 to 79, from 30 in First Nations people and from 35 in diabetes.",
+        "High risk is 10% or more over 5 years: BP- and lipid-lowering drugs plus lifestyle.",
+        "Hypertension: clinic 140/90 or more, home or daytime ABPM 135/85 or more, 24-hour ABPM 130/80 or more.",
+        "First-line drugs: ACE inhibitor or ARB, dihydropyridine CCB, thiazide-like diuretic; never ACEi plus ARB.",
+        "Hypokalaemia or resistant hypertension: screen for primary aldosteronism.",
+        "Hypertensive emergency: reduce BP by no more than about 25% in the first hour, except dissection."
+      ],
+      "redFlags": [
+        "Severe hypertension with confusion, headache, visual loss or papilloedema",
+        "Hypertension with chest or back pain (dissection or ACS)",
+        "Hypertension in pregnancy with headache, visual disturbance or epigastric pain (pre-eclampsia)",
+        "Rapidly rising creatinine after starting an ACE inhibitor or ARB",
+        "Paroxysmal headache, sweating and palpitations (phaeochromocytoma)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Deciding to treat",
+          "india": "Treatment usually triggered by individual thresholds for BP, cholesterol or glucose.",
+          "australia": "Absolute 5-year CVD risk from the Australian calculator decides drug therapy for most people."
+        },
+        {
+          "aspect": "Age to start risk assessment",
+          "india": "No structured national age threshold; opportunistic checks.",
+          "australia": "45 to 79 years, from 30 for First Nations people, from 35 for people with diabetes."
+        },
+        {
+          "aspect": "Confirming hypertension",
+          "india": "Diagnosis often made on clinic readings alone.",
+          "australia": "Home or ambulatory BP recommended to confirm and exclude white coat hypertension."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Absolute 5-year CVD risk defining high risk?",
+          "back": "10% or more; treat with BP- and lipid-lowering drugs plus lifestyle."
+        },
+        {
+          "front": "Age to start CVD risk assessment in First Nations people?",
+          "back": "From 30 years (general population 45 to 79)."
+        },
+        {
+          "front": "24-hour ABPM average diagnostic of hypertension?",
+          "back": "130/80 mmHg or more (daytime 135/85 or more)."
+        },
+        {
+          "front": "Screening test for primary aldosteronism?",
+          "back": "Aldosterone-to-renin ratio (correct hypokalaemia first; note interfering drugs)."
+        },
+        {
+          "front": "Clinical sign of coarctation of the aorta?",
+          "back": "Radiofemoral delay with arm BP higher than leg BP."
+        },
+        {
+          "front": "Maximum BP reduction in the first hour of a hypertensive emergency (non-dissection)?",
+          "back": "About 25% of mean arterial pressure."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "cardiology--hypertension-and-cvd-risk--q1",
+          "discipline": "adult-medicine",
+          "topic": "cardiology",
+          "difficulty": "core",
+          "stem": "A 58-year-old man attends his GP in Canberra for a check-up. He smokes 15 cigarettes a day. BP averages 146/88 mmHg across two visits, total cholesterol 6.1 mmol/L, HDL 0.9 mmol/L. He does not have diabetes, CKD or known cardiovascular disease. Using the Australian CVD risk calculator, his 5-year risk of a cardiovascular event is 12%.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Lifestyle advice alone and recalculate risk in 12 months",
+            "Start a statin only, as his BP is below 160/100 mmHg",
+            "Smoking cessation support plus both BP-lowering and lipid-lowering medication",
+            "Arrange a coronary artery calcium score before any decision",
+            "Start aspirin 100 mg daily for primary prevention"
+          ],
+          "answer": 2,
+          "explanation": "A 5-year absolute CVD risk of **10% or more is high risk**. Australian guidance recommends lifestyle modification **plus both BP-lowering and lipid-lowering drugs** at this level, regardless of the individual BP or cholesterol values. The biggest single intervention is **smoking cessation** (pharmacotherapy such as varenicline plus behavioural support like Quitline).\n\nA calcium score is a reclassification tool for **intermediate** risk (5 to under 10%), not needed when risk is already high. Aspirin is not routinely recommended for primary prevention because bleeding risk offsets the benefit.\n\n**Principle:** treat the absolute risk, not the individual numbers.",
+          "whyWrong": [
+            "High absolute risk warrants drug treatment now, not lifestyle alone.",
+            "At high absolute risk both BP- and lipid-lowering are recommended even if BP is under 160/100.",
+            "",
+            "Calcium scoring helps reclassify intermediate risk; he is already high risk.",
+            "Aspirin is not routinely recommended for primary prevention."
+          ],
+          "tags": [
+            "absolute-cvd-risk",
+            "prevention",
+            "hypertension"
+          ]
+        },
+        {
+          "id": "cardiology--hypertension-and-cvd-risk--q2",
+          "discipline": "adult-medicine",
+          "topic": "cardiology",
+          "difficulty": "exam",
+          "stem": "A 36-year-old woman sees her GP in Sydney for review of hypertension diagnosed 6 months ago. Home BP averages 158/98 mmHg on amlodipine 10 mg daily. She has occasional muscle cramps. She takes no other medications or supplements. Potassium is 3.2 mmol/L, sodium 142 mmol/L, creatinine normal. Urinalysis is normal.\n\nWhich investigation is most appropriate next?",
+          "options": [
+            "Aldosterone-to-renin ratio",
+            "24-hour urinary free cortisol",
+            "Renal artery duplex ultrasound",
+            "Plasma metanephrines",
+            "Thyroid-stimulating hormone"
+          ],
+          "answer": 0,
+          "explanation": "Young onset, hypertension that is not controlled on a full dose of one drug, and **spontaneous hypokalaemia** point strongly to **primary aldosteronism**, the commonest endocrine cause of hypertension. Aldosterone excess drives sodium retention and potassium loss in the distal nephron. The screening test is the **aldosterone-to-renin ratio** (high aldosterone, suppressed renin), done after correcting potassium and with attention to interfering medications. Confirmation and subtype testing (adrenal CT, adrenal vein sampling) are done with an endocrinologist, because a unilateral adenoma may be cured by surgery.\n\nCushing syndrome and phaeochromocytoma are rarer and would usually have other features. Renal artery stenosis in a young woman (fibromuscular dysplasia) does not typically cause this degree of hypokalaemia.\n\n**Discriminating clue:** low potassium without a diuretic.",
+          "whyWrong": [
+            "",
+            "Cushing syndrome would usually have other features such as central obesity, striae or bruising.",
+            "Fibromuscular dysplasia is possible but the hypokalaemia makes aldosteronism far more likely.",
+            "Phaeochromocytoma usually causes paroxysmal headache, sweating and palpitations.",
+            "Thyroid disease is not the leading explanation for hypertension with hypokalaemia."
+          ],
+          "tags": [
+            "secondary-hypertension",
+            "primary-aldosteronism",
+            "hypokalaemia"
+          ]
+        },
+        {
+          "id": "cardiology--hypertension-and-cvd-risk--q3",
+          "discipline": "adult-medicine",
+          "topic": "cardiology",
+          "difficulty": "foundation",
+          "stem": "A 34-year-old Aboriginal man attends an Aboriginal Community Controlled Health Service in regional Queensland for an annual health check. He feels well. He smokes, and his father had a heart attack at 52. BP 132/84 mmHg. He has not had cardiovascular risk assessment before.\n\nWhich statement about his cardiovascular risk assessment is correct?",
+          "options": [
+            "Assessment is not due until age 45",
+            "Only his BP needs monitoring until age 40",
+            "Assessment should wait until he has quit smoking",
+            "He should have a full absolute CVD risk assessment now",
+            "Risk should be assessed only if he develops diabetes"
+          ],
+          "answer": 3,
+          "explanation": "Australian guidance recommends **absolute CVD risk assessment from age 30 for Aboriginal and Torres Strait Islander people**, 15 years earlier than the general population (45). This reflects the earlier onset and higher burden of cardiovascular disease in First Nations communities. He needs BP, lipids, glucose or HbA1c, smoking status, and urine ACR, with his family history of premature CVD considered as a reclassification factor.\n\nThe annual Aboriginal and Torres Strait Islander health check (MBS item 715) is a natural place for this.\n\n**Discriminating clue:** Aboriginal man over 30.",
+          "whyWrong": [
+            "Age 45 applies to the general population; for First Nations people assessment starts at 30.",
+            "A single risk factor approach contradicts absolute risk assessment.",
+            "Smoking is part of the risk calculation, not a reason to delay it.",
+            "",
+            "Assessment does not depend on developing diabetes."
+          ],
+          "ausPearl": "The MBS item 715 health check is available annually to Aboriginal and Torres Strait Islander people of all ages and is a key opportunity for CVD, diabetes and kidney screening.",
+          "tags": [
+            "first-nations",
+            "absolute-cvd-risk",
+            "screening"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cardiology--valves-endocarditis-rhd",
+      "title": "Valve disease, endocarditis and rheumatic heart disease",
+      "minutes": 22,
+      "objectives": [
+        "Identify the common valve lesions from the murmur and peripheral signs",
+        "Decide when valve disease needs intervention and which valves need warfarin",
+        "Diagnose infective endocarditis with blood cultures, echo and the modified Duke criteria",
+        "Recognise acute rheumatic fever and plan secondary prophylaxis for rheumatic heart disease",
+        "Know which patients need endocarditis prophylaxis before dental procedures"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Valves in Australia",
+          "body": "In most of Australia valve disease is a disease of **ageing**: calcific **aortic stenosis** is the commonest lesion needing intervention, and degenerative **mitral regurgitation** (mitral valve prolapse) is common. In remote **Aboriginal and Torres Strait Islander communities**, however, **rheumatic heart disease (RHD)** remains among the highest rates in the world, affecting children and young adults, and pregnant women in particular.\n\n**Infective endocarditis (IE)** is uncommon but deadly. In Australia the main risk groups are older people with degenerative or prosthetic valves and cardiac devices, people who inject drugs (right-sided, *Staphylococcus aureus*), and people with RHD or congenital heart disease."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "How valves fail and get infected",
+          "body": "- **Aortic stenosis**: age-related calcification (or a bicuspid valve in younger patients, presenting in the 50s to 60s). The LV hypertrophies to push against the fixed obstruction; eventually it cannot meet demand on exertion, causing **angina, syncope and breathlessness**. Once symptoms appear, prognosis without valve replacement is poor.\n- **Mitral regurgitation**: degenerative prolapse, ischaemic papillary muscle dysfunction, RHD, or acute from papillary muscle or chordal rupture or endocarditis.\n- **Aortic regurgitation**: aortic root dilation (hypertension, Marfan syndrome), bicuspid valve, endocarditis, dissection.\n- **Mitral stenosis**: almost always **rheumatic**. Left atrial pressure rises, causing pulmonary congestion and **AF**, with a very high stroke risk.\n\n**Acute rheumatic fever (ARF)** is an autoimmune reaction to **group A streptococcal** infection. In remote Australia, streptococcal **skin sores (impetigo)** are thought to be as important as sore throats, driven by household crowding and limited access to washing facilities. Molecular mimicry between streptococcal and cardiac proteins causes pancarditis; repeated episodes scar the mitral and aortic valves into RHD.\n\n**IE**: bacteraemia seeds a damaged endothelium (or normal valve with virulent *S. aureus*). Vegetations destroy valves (acute regurgitation, heart failure), embolise (stroke, splenic and renal infarcts; lung abscesses in right-sided IE) and trigger immune complex phenomena (glomerulonephritis, Osler nodes, Roth spots)."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Murmurs and signs",
+          "body": "| Lesion | Murmur | Other signs |\n|---|---|---|\n| Aortic stenosis | Ejection systolic, right upper sternal edge, radiating to carotids | Slow-rising pulse, narrow pulse pressure, soft or absent S2 in severe AS, heaving apex |\n| Mitral regurgitation | Pansystolic at apex, radiating to axilla | Displaced apex, S3 |\n| Aortic regurgitation | Early diastolic, left sternal edge, patient leaning forward in expiration | Collapsing pulse, wide pulse pressure, displaced apex |\n| Mitral stenosis | Mid-diastolic rumble at apex (bell, left lateral position) with opening snap | Loud S1, malar flush, AF |\n\n**Infective endocarditis**: fever plus a murmur is IE until proven otherwise. Look for new regurgitant murmur, splinter haemorrhages, Janeway lesions (painless palm and sole macules), Osler nodes (painful finger pulp nodules), Roth spots, splenomegaly, haematuria, stroke, and track marks. Older patients may present only with malaise, weight loss and anaemia.\n\n**Acute rheumatic fever** (Australian guideline, RHD Australia) is diagnosed with the **Jones criteria**, with lower thresholds in high-risk populations:\n\n- **Major**: carditis (including subclinical carditis on echo), polyarthritis, aseptic monoarthritis or polyarthralgia (in high-risk groups), Sydenham chorea, erythema marginatum, subcutaneous nodules\n- **Minor**: fever, raised ESR or CRP, prolonged PR interval, and monoarthralgia (high risk)\n- Plus evidence of recent group A streptococcal infection (raised or rising ASOT or anti-DNase B, positive culture), except for chorea\n\nA young Aboriginal person from a remote community with a swollen, hot joint and fever should have ARF considered alongside septic arthritis."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Echo, cultures and the Duke criteria",
+          "body": "**Valve disease**: echocardiography confirms the lesion, severity (valve area, gradient), LV size and function, and pulmonary pressure. ECG (LVH, AF), chest X-ray.\n\n**Infective endocarditis**:\n\n- **Three sets of blood cultures from separate venepunctures before antibiotics** (ideally spaced over time if the patient is stable). This is the single most important step.\n- **Transthoracic echo** first; **transoesophageal echo** if TTE is negative but suspicion high, for prosthetic valves, or to look for abscess.\n- FBC, CRP, renal function, urinalysis (haematuria), ECG (new PR prolongation suggests aortic root abscess).\n\n**Modified Duke criteria**:\n\n- **Major**: positive blood cultures with typical organisms (*S. aureus*, viridans streptococci, *Streptococcus gallolyticus*, HACEK, enterococci) in two separate sets or persistently positive; echo evidence of vegetation, abscess or new prosthetic dehiscence, or new regurgitation\n- **Minor**: predisposition (heart lesion or injecting drug use), fever 38 °C or more, vascular phenomena (emboli, Janeway lesions, intracranial haemorrhage), immunological phenomena (glomerulonephritis, Osler nodes, Roth spots), microbiological evidence not meeting a major criterion\n- **Definite IE**: 2 major, or 1 major plus 3 minor, or 5 minor\n\n**ARF**: ESR and CRP, ASOT and anti-DNase B, throat swab, ECG (prolonged PR), echo in every case."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Telling murmurs and fevers apart",
+          "body": "| Scenario | Consider | Clue |\n|---|---|---|\n| Elderly, exertional syncope, ejection systolic murmur | Aortic stenosis vs hypertrophic cardiomyopathy | HCM murmur louder with Valsalva or standing, softer with squatting; young patient, family history |\n| Young, benign-sounding soft systolic murmur | Innocent flow murmur | Soft, short, no radiation, normal S2, no symptoms |\n| Fever and murmur | IE vs ARF vs simple febrile flow murmur | Cultures, echo, streptococcal serology |\n| Joint pain and fever in a remote community | ARF vs septic arthritis vs post-streptococcal reactive arthritis | Migratory pattern, carditis, aspirate the joint |\n\nAortic sclerosis (thickened valve without obstruction) gives a similar murmur to AS but with a normal pulse and normal S2."
+        },
+        {
+          "kind": "management",
+          "heading": "Replacement, anticoagulation, antibiotics and prophylaxis",
+          "body": "**Aortic stenosis**: **symptomatic severe AS needs valve replacement**, either surgical AVR or **TAVI** (transcatheter aortic valve implantation, especially in older or higher surgical risk patients), decided by a heart team. Asymptomatic severe AS is monitored with regular echo and replaced if LV function falls. Avoid over-vasodilating patients with severe AS.\n\n**Mitral regurgitation**: surgical repair (preferred over replacement) for severe symptomatic MR or LV dysfunction; transcatheter edge-to-edge repair for high-risk patients.\n\n**Mitral stenosis**: rate control and anticoagulation if AF; balloon valvotomy for suitable valves; surgery otherwise.\n\n**Anticoagulation**:\n\n- **Mechanical valves need lifelong warfarin**. DOACs are contraindicated (a trial of dabigatran showed more thrombosis and bleeding).\n- **Moderate to severe mitral stenosis with AF**: warfarin, not a DOAC.\n- Bioprosthetic valves: short-term antithrombotic therapy after surgery, then as per any other indication; DOACs can be used for AF with a bioprosthetic valve after the early period.\n\n**Infective endocarditis**: take cultures, then start empirical IV antibiotics per **eTG**: for native valves, typically **benzylpenicillin plus flucloxacillin plus gentamicin**, with vancomycin substituted where MRSA is likely, for prosthetic valves, or for penicillin allergy. Narrow to the organism. Treatment usually runs 4 to 6 weeks IV, often completed via outpatient parenteral therapy. Early surgery for heart failure from valve destruction, uncontrolled infection (abscess), or large vegetations with embolism. Manage in a multidisciplinary endocarditis team; in people who inject drugs, involve addiction medicine.\n\n**Endocarditis prophylaxis** is only for **high-risk cardiac conditions** undergoing dental procedures that manipulate gingiva or the periapical region:\n\n- Prosthetic valve or prosthetic material for valve repair\n- Previous endocarditis\n- Certain congenital heart disease (unrepaired cyanotic, or recently repaired with prosthetic material)\n- Cardiac transplant with valvulopathy\n- **RHD in Aboriginal and Torres Strait Islander people** (an Australian-specific inclusion in eTG)\n\nThe usual regimen is a single oral dose of amoxicillin before the procedure. Good dental hygiene matters more than prophylaxis.\n\n**Acute rheumatic fever and RHD**:\n\n- Treat ARF: eradicate strep with benzathine benzylpenicillin, aspirin or NSAID for arthritis, manage carditis and heart failure, notify (ARF and RHD are notifiable in several states and territories; varies by jurisdiction) and register with the state RHD control program.\n- **Secondary prophylaxis**: **IM benzathine benzylpenicillin every 28 days** (every 21 days for selected high-risk patients, such as those with recurrences despite good adherence). Duration is at least 10 years after the last episode or until age 21 (whichever is longer), extended for moderate or severe RHD. Adherence is the main challenge; community health workers and Aboriginal health practitioners are central.\n- Primary prevention: treat group A strep pharyngitis and skin sores in high-risk communities; housing and hygiene measures."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- Elderly man with exertional syncope and an ejection systolic murmur radiating to the carotids: **severe AS**, echo then valve replacement (TAVI or surgery).\n- Fever, new murmur, splinter haemorrhages: the first step is **three sets of blood cultures before antibiotics**, then echo.\n- Injecting drug user with fever and multiple lung nodules: **tricuspid endocarditis with septic emboli**, *S. aureus*.\n- Woman with a mechanical mitral valve asking to switch to \"the new blood thinner\": no, **warfarin**.\n- Aboriginal teenager from the Northern Territory with fever and migratory arthritis: ARF; echo, strep serology, and long-term benzathine penicillin every 28 days.\n- Dental work in a patient with a simple mitral valve prolapse: **no prophylaxis**. RHD in a First Nations patient: prophylaxis."
+        }
+      ],
+      "keyPoints": [
+        "Symptomatic severe aortic stenosis (angina, syncope, dyspnoea) needs valve replacement: surgical AVR or TAVI.",
+        "Mechanical valves and moderate-severe mitral stenosis need warfarin, never a DOAC.",
+        "Endocarditis: 3 sets of blood cultures before antibiotics, then echo; diagnose with modified Duke criteria.",
+        "Empirical native valve IE therapy per eTG is typically benzylpenicillin, flucloxacillin and gentamicin.",
+        "ARF follows group A strep throat or skin infection; diagnose with the Australian Jones criteria.",
+        "RHD secondary prophylaxis is IM benzathine benzylpenicillin every 28 days (21 days for some high-risk patients).",
+        "Dental prophylaxis only for high-risk conditions, including RHD in First Nations people."
+      ],
+      "redFlags": [
+        "Fever with a new or changing murmur (endocarditis)",
+        "Exertional syncope or angina with an ejection systolic murmur (severe aortic stenosis)",
+        "Acute breathlessness with a new regurgitant murmur (valve rupture or perforation)",
+        "Stroke or embolic phenomena in a febrile patient",
+        "Fever and arthritis in a young First Nations person from a remote community (acute rheumatic fever)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Rheumatic heart disease",
+          "india": "Common nationally; the leading cause of mitral stenosis in young adults.",
+          "australia": "Rare overall but among the world's highest rates in remote First Nations communities, managed through state RHD registers and programs."
+        },
+        {
+          "aspect": "Group A strep source",
+          "india": "Pharyngitis is emphasised as the trigger for ARF.",
+          "australia": "Skin sores (impetigo) are also a major trigger in remote Australia, so they are treated actively."
+        },
+        {
+          "aspect": "Endocarditis prophylaxis",
+          "india": "Often given broadly for many valve lesions.",
+          "australia": "Restricted to high-risk conditions; RHD in Aboriginal and Torres Strait Islander people is an Australian-specific indication."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Classic triad of symptomatic severe aortic stenosis?",
+          "back": "Angina, syncope and breathlessness (heart failure) on exertion."
+        },
+        {
+          "front": "Minimum blood cultures before antibiotics in suspected endocarditis?",
+          "back": "Three sets from separate venepunctures."
+        },
+        {
+          "front": "Modified Duke criteria for definite IE?",
+          "back": "2 major, or 1 major plus 3 minor, or 5 minor."
+        },
+        {
+          "front": "RHD secondary prophylaxis regimen?",
+          "back": "IM benzathine benzylpenicillin every 28 days (21 days for selected high-risk patients)."
+        },
+        {
+          "front": "Anticoagulant for a mechanical heart valve?",
+          "back": "Warfarin, lifelong; DOACs are contraindicated."
+        },
+        {
+          "front": "Murmur of mitral stenosis?",
+          "back": "Low-pitched mid-diastolic rumble at the apex with an opening snap and loud S1."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "cardiology--valves-endocarditis-rhd--q1",
+          "discipline": "adult-medicine",
+          "topic": "cardiology",
+          "difficulty": "core",
+          "stem": "A 44-year-old man who injects drugs presents to an emergency department in Sydney with 5 days of fever, rigors and pleuritic chest pain. Temperature 39.2 °C, HR 118 bpm, BP 104/66 mmHg. There is a pansystolic murmur at the left lower sternal edge that increases with inspiration. Chest X-ray shows multiple small peripheral nodules, some cavitating.\n\nWhat is the most appropriate immediate step?",
+          "options": [
+            "Start intravenous vancomycin and flucloxacillin, then take blood cultures",
+            "Arrange CT pulmonary angiography",
+            "Take three sets of blood cultures from separate sites, then start empirical intravenous antibiotics",
+            "Request transoesophageal echocardiography before any antibiotics",
+            "Give oral amoxicillin and review in 48 hours"
+          ],
+          "answer": 2,
+          "explanation": "The picture is **right-sided (tricuspid) infective endocarditis**: injecting drug use, fever, a pansystolic murmur at the left lower sternal edge louder on inspiration (tricuspid regurgitation), and **septic pulmonary emboli** (cavitating peripheral nodules). *Staphylococcus aureus* is the likely organism.\n\nThe key step is **three sets of blood cultures from separate venepunctures before antibiotics**, because identifying the organism and its sensitivities determines 4 to 6 weeks of therapy. In a septic patient, cultures should be taken quickly so antibiotics are not delayed, then empirical IV therapy per eTG (covering *S. aureus*, including MRSA if risk). Echo follows.\n\n**Principle:** cultures first, then antibiotics, then echo.",
+          "whyWrong": [
+            "Antibiotics before cultures may sterilise the blood and lose the diagnosis.",
+            "The nodules are septic emboli; CTPA does not address the endocarditis.",
+            "",
+            "Echo is important but must not delay cultures and antibiotics in a septic patient.",
+            "Oral amoxicillin is inadequate for suspected S. aureus endocarditis."
+          ],
+          "tags": [
+            "endocarditis",
+            "injecting-drug-use",
+            "blood-cultures"
+          ]
+        },
+        {
+          "id": "cardiology--valves-endocarditis-rhd--q2",
+          "discipline": "adult-medicine",
+          "topic": "cardiology",
+          "difficulty": "foundation",
+          "stem": "A 79-year-old man sees his GP in Newcastle with two episodes of lightheadedness and near-collapse while walking up a hill, and chest tightness on exertion for 2 months. BP 118/94 mmHg. The carotid pulse is slow-rising. There is a harsh ejection systolic murmur at the right upper sternal edge radiating to the neck, and the second heart sound is soft.\n\nWhich is the most likely diagnosis?",
+          "options": [
+            "Mitral regurgitation",
+            "Severe aortic stenosis",
+            "Hypertrophic cardiomyopathy",
+            "Aortic sclerosis",
+            "Aortic regurgitation"
+          ],
+          "answer": 1,
+          "explanation": "The combination of **exertional presyncope and angina**, a **slow-rising pulse**, **narrow pulse pressure** (118/94), an ejection systolic murmur radiating to the carotids and a **soft S2** indicates **severe aortic stenosis**. A soft or absent S2 reflects a heavily calcified, immobile valve.\n\nSymptomatic severe AS has a poor prognosis without intervention. He needs an echo and heart team referral for **aortic valve replacement** (TAVI is often chosen at his age).\n\nAortic sclerosis produces a similar murmur but a normal pulse and S2, and no symptoms. HCM usually affects younger people and the murmur increases with Valsalva.\n\n**Discriminating clue:** slow-rising pulse with a soft S2.",
+          "whyWrong": [
+            "MR is pansystolic at the apex radiating to the axilla.",
+            "",
+            "HCM usually presents younger and the murmur does not radiate to the carotids with a slow-rising pulse.",
+            "Aortic sclerosis has a normal pulse and S2 and causes no symptoms.",
+            "AR is an early diastolic murmur with a wide pulse pressure and collapsing pulse."
+          ],
+          "tags": [
+            "aortic-stenosis",
+            "murmur",
+            "syncope"
+          ]
+        },
+        {
+          "id": "cardiology--valves-endocarditis-rhd--q3",
+          "discipline": "adult-medicine",
+          "topic": "cardiology",
+          "difficulty": "exam",
+          "stem": "A 15-year-old Aboriginal girl from a remote community in the Northern Territory is seen at the community clinic with fever and painful, swollen joints for 6 days. The pain started in her right knee, then moved to her left ankle and right wrist. She had skin sores on her legs a month ago. Temperature 38.4 °C. There is a soft apical pansystolic murmur. ESR is 78 mm/h, ASOT is markedly raised, and the ECG shows a PR interval of 240 ms.\n\nAfter confirming the diagnosis, which long-term management is most important?",
+          "options": [
+            "Oral penicillin V for 10 days only",
+            "Annual echocardiography without antibiotics",
+            "Lifelong low-dose aspirin",
+            "Oral amoxicillin before every dental visit only",
+            "Intramuscular benzathine benzylpenicillin every 28 days"
+          ],
+          "answer": 4,
+          "explanation": "This is **acute rheumatic fever**: migratory polyarthritis, fever, raised ESR, prolonged PR, likely carditis (new MR murmur) and evidence of recent group A streptococcal infection (raised ASOT, preceding skin sores). She meets the Jones criteria.\n\nThe most important long-term intervention is **secondary prophylaxis** to prevent recurrent ARF, which progressively damages the valves: **IM benzathine benzylpenicillin every 28 days** (every 21 days for selected high-risk patients). It continues for at least 10 years after the last episode or until age 21, whichever is longer, and longer if moderate or severe RHD develops. She should also be notified and registered with the NT RHD program and have an echo.\n\nShe will also need dental prophylaxis for procedures, but that is not the priority.",
+          "whyWrong": [
+            "A 10-day course treats the acute infection but does not prevent recurrences.",
+            "Echo monitoring is needed but without prophylaxis recurrences will worsen valve damage.",
+            "Aspirin treats arthritis symptoms acutely but does not prevent recurrence.",
+            "Dental prophylaxis applies, but monthly secondary prophylaxis is what prevents RHD progression.",
+            ""
+          ],
+          "ausPearl": "Each state and territory with a high burden runs an RHD control program and register (for example, NT, QLD, WA, SA and NSW) that tracks injections and echo follow-up. Skin sores are treated actively in remote communities partly to prevent ARF.",
+          "tags": [
+            "acute-rheumatic-fever",
+            "first-nations",
+            "rhd"
+          ]
+        }
+      ]
+    }
+  ]
+}

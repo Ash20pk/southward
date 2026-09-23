@@ -1,0 +1,1187 @@
+{
+  "topic": "perioperative",
+  "intro": "Perioperative medicine covers the patient's journey around an operation: preoperative assessment and optimisation, informed consent, managing medicines and prophylaxis, fluids and electrolytes, and recognising postoperative complications. It is examined as safe practice, so the AMC focuses on decisions interns make every day on surgical wards, with Australian law (Rogers v Whitaker) and guidance (eTG, ANZCA, ACSQHC) as the reference points.",
+  "lessons": [
+    {
+      "id": "perioperative--preoperative-assessment",
+      "title": "Preoperative assessment, ASA grade and fasting",
+      "minutes": 15,
+      "objectives": [
+        "Structure a focused preoperative history and examination around anaesthetic and surgical risk",
+        "Assign an ASA physical status grade and explain what it does and does not predict",
+        "Choose preoperative investigations based on the patient and the operation rather than routine screening",
+        "Apply ANZCA-based fasting rules and the WHO Surgical Safety Checklist"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why preoperative assessment matters",
+          "body": "Most perioperative harm is predictable. The purpose of a preoperative assessment is to find the problems that change what happens on the day: an airway that will be difficult, a heart that cannot cope with the stress of surgery, a drug that must be stopped, anaemia that can be corrected, or a patient who does not really understand what they are agreeing to.\n\nIn Australian hospitals this is usually done in a **pre-admission clinic** a few weeks before elective surgery, run by nurses, junior doctors and anaesthetists. As an intern you will clerk these patients. For emergency surgery the same assessment is compressed into minutes, but the questions are the same.\n\nThe AMC tests this as a safe-practice topic: which drugs to stop, which patient needs more work-up, which test is unnecessary, and what must happen before the first incision."
+        },
+        {
+          "kind": "concepts",
+          "heading": "The focused history and examination",
+          "body": "Think in three layers: **the patient, the anaesthetic, the operation.**\n\n**History**\n- **Cardiorespiratory reserve**: exertional chest pain, breathlessness, orthopnoea, syncope. Ask about **functional capacity**: can they climb a flight of stairs or walk up a hill without stopping? That is roughly **4 METs**; being unable to manage it predicts higher cardiac risk.\n- **Known disease**: ischaemic heart disease, heart failure, valve disease, stroke, diabetes (and its control), CKD, liver disease, COPD/asthma.\n- **Obstructive sleep apnoea**: snoring, witnessed apnoeas, daytime sleepiness. Screening tools such as **STOP-BANG** flag patients at risk of postoperative airway obstruction and opioid sensitivity.\n- **Previous anaesthetics**: problems for the patient, and a **family history** of anaesthetic reactions (malignant hyperthermia, suxamethonium apnoea/pseudocholinesterase deficiency).\n- **Medications** (including over-the-counter and herbal products), **allergies** with the actual reaction, alcohol, smoking and other drug use.\n- **Bleeding history**: easy bruising, prolonged bleeding after dental work, family history.\n- **Frailty and cognition** in older patients: baseline cognition predicts postoperative delirium.\n\n**Examination**\n- Vital signs, BMI, heart and lung examination, signs of heart failure, murmurs (especially aortic stenosis).\n- **Airway**: mouth opening, Mallampati class, dentition (loose teeth, crowns), neck movement, thyromental distance.\n- Site-specific findings relevant to the operation.\n\n**Risk tools you should recognise**\n- **ASA physical status** (below).\n- **Revised Cardiac Risk Index (RCRI)**: high-risk surgery, ischaemic heart disease, heart failure, cerebrovascular disease, insulin-treated diabetes, creatinine above about 177 micromol/L. Each factor adds risk.\n- Frailty scores and surgical risk calculators are used in some units; you do not need their details."
+        },
+        {
+          "kind": "concepts",
+          "heading": "ASA physical status classification",
+          "body": "The American Society of Anesthesiologists grade is used universally in Australia. It describes the patient's **overall fitness**, not the risk of the operation itself.\n\n| ASA | Description | Example |\n|---|---|---|\n| I | Normal healthy patient | Fit 25-year-old non-smoker |\n| II | Mild systemic disease | Well-controlled hypertension, smoker, BMI 30-40, pregnancy |\n| III | Severe systemic disease | Poorly controlled diabetes, COPD, morbid obesity, stable angina, dialysis |\n| IV | Severe systemic disease that is a constant threat to life | Recent MI, decompensated heart failure, sepsis |\n| V | Moribund, not expected to survive without the operation | Ruptured AAA in shock |\n| VI | Brain-dead patient for organ donation | Organ retrieval |\n\nAn **\"E\"** suffix marks emergency surgery (e.g. ASA IIIE). Emergency status independently raises risk.\n\nTwo traps: ASA is somewhat subjective (two anaesthetists may disagree by one grade), and it ignores the magnitude of surgery, so an ASA I patient having an oesophagectomy is still at high risk."
+        },
+        {
+          "kind": "application",
+          "heading": "Investigations: order what changes management",
+          "body": "Routine \"pre-op bloods\" for everyone is outdated. Tests should be driven by **patient factors and the size of the operation**. Healthy patients having minor surgery usually need nothing.\n\n| Test | Order when |\n|---|---|\n| FBC | Major surgery with expected blood loss; symptoms or history of anaemia, bleeding, chronic disease |\n| UEC (urea, electrolytes, creatinine) | CKD, diabetes, diuretics, ACE inhibitors/ARBs, major surgery |\n| Coagulation (INR, APTT) | Anticoagulants, liver disease, bleeding history (not routinely) |\n| HbA1c and glucose | Known or suspected diabetes |\n| ECG | Known cardiac disease, cardiac symptoms, significant risk factors before intermediate or major surgery |\n| Echocardiogram | Unexplained murmur (especially suspected aortic stenosis), suspected heart failure, unexplained breathlessness |\n| Group and hold / crossmatch | Operations where transfusion is possible, per local maximum blood ordering schedule |\n| Pregnancy test (urine beta-hCG) | Women of reproductive age, with consent |\n| Chest X-ray | Only if new or unstable cardiorespiratory signs |\n\n**Patient blood management** is a National Blood Authority priority. Preoperative anaemia is an independent risk factor for transfusion, complications and death. Find it early (weeks before surgery), look for iron deficiency (ferritin, iron studies), investigate the cause (a new iron deficiency in an older adult may be a colorectal cancer), and replenish iron, often with **intravenous iron** when time is short.\n\n**Optimisation before elective surgery**\n- **Stop smoking**: any time helps, but several weeks beforehand reduces wound and respiratory complications more.\n- Treat decompensated heart failure, unstable angina or uncontrolled arrhythmia **before** elective surgery; these patients get deferred.\n- Improve glycaemic control where HbA1c is markedly elevated (check Australian Diabetes Society perioperative guidance for thresholds).\n- Prehabilitation (exercise, nutrition) for major surgery."
+        },
+        {
+          "kind": "application",
+          "heading": "Fasting and the WHO Surgical Safety Checklist",
+          "body": "**Fasting** reduces the risk of pulmonary aspiration of gastric contents under anaesthesia. Australian practice follows ANZCA guidance (professional document PG07) interpreted by local hospital policy:\n- **Food** (including milk-containing drinks): usually **6 hours**.\n- **Clear fluids** (water, clear apple juice, black tea/coffee without milk): allowed until much closer to surgery. Traditionally 2 hours, and many units now allow sips of clear fluid until shortly before the patient goes to theatre. Check the local policy rather than memorising a single number.\n- Prolonged fasting is harmful: dehydration, hypoglycaemia, discomfort and delirium in the elderly. \"Nil by mouth from midnight\" for an afternoon list is poor practice.\n- Some drugs are taken with a sip of water on the morning of surgery (see the medications lesson).\n- Emergency patients who are not fasted, or who have bowel obstruction, get a **rapid sequence induction** with cricoid pressure (or per anaesthetist preference) to protect the airway.\n\n**WHO Surgical Safety Checklist** is used in every Australian operating theatre. It has three pauses:\n\n| Phase | When | Key checks |\n|---|---|---|\n| **Sign in** | Before induction of anaesthesia | Identity, procedure, site marked, consent confirmed, allergies, anaesthesia equipment and pulse oximeter checked, airway/aspiration risk, risk of major blood loss |\n| **Time out** | Before skin incision | Team introduce themselves; confirm patient, site and procedure; antibiotic prophylaxis given in the last 60 minutes; anticipated critical events; essential imaging displayed |\n| **Sign out** | Before the patient leaves theatre | Procedure recorded; instrument, swab and sharps counts correct; specimens labelled; equipment problems; key concerns for recovery |\n\nThe checklist reduces wrong-site surgery, retained items and missed antibiotic prophylaxis. It is a team tool: anyone, including a student or junior nurse, may stop the process."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- **\"Which investigation is most appropriate before surgery?\"** in a healthy young patient for minor surgery: often **none**. Distractors are routine chest X-ray, coagulation studies and ECG.\n- An older patient with **exertional syncope and an ejection systolic murmur** before elective surgery: get an **echocardiogram** (aortic stenosis) before proceeding.\n- **Recent MI or decompensated heart failure** before elective surgery: **postpone** and optimise.\n- A question listing ASA descriptions: know the difference between II (mild, controlled) and III (severe, limits activity) and IV (constant threat to life).\n- Iron-deficiency anaemia found at pre-admission: correct it (often IV iron) and **investigate the cause**.\n- The **time out** happens before incision; the **sign in** happens before induction; the **counts** belong to the sign out."
+        }
+      ],
+      "keyPoints": [
+        "Assess the patient, the anaesthetic and the operation; functional capacity of about 4 METs (a flight of stairs) is a useful cardiac screen.",
+        "ASA grade runs from I (healthy) to VI (brain-dead organ donor); an E suffix means emergency.",
+        "Order preoperative tests for a reason; healthy patients having minor surgery often need none.",
+        "Find and correct preoperative anaemia early, often with IV iron, and investigate its cause.",
+        "Fasting: usually 6 hours for food; clear fluids until closer to surgery per ANZCA-based local policy.",
+        "Postpone elective surgery for recent MI, unstable angina or decompensated heart failure.",
+        "The WHO checklist has three pauses: sign in (before induction), time out (before incision), sign out (before leaving theatre)."
+      ],
+      "redFlags": [
+        "Exertional syncope, angina or a new murmur before surgery (possible aortic stenosis)",
+        "Recent myocardial infarction, unstable angina or decompensated heart failure",
+        "Personal or family history of malignant hyperthermia or anaesthetic reactions",
+        "Predicted difficult airway or severe obstructive sleep apnoea",
+        "Unexplained anaemia in an older adult"
+      ],
+      "contrast": [
+        {
+          "aspect": "Preoperative investigations",
+          "india": "A standard panel (FBC, sugar, LFT, renal function, viral markers, chest X-ray, ECG) is often ordered for every patient.",
+          "australia": "Tests are targeted to patient comorbidity and surgical magnitude; routine chest X-ray and coagulation screens are discouraged."
+        },
+        {
+          "aspect": "Fasting instructions",
+          "india": "Nil by mouth from midnight is common regardless of surgery time.",
+          "australia": "ANZCA-based policies: about 6 hours for food, clear fluids allowed until much closer to theatre to avoid prolonged fasting."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "ASA III means?",
+          "back": "Severe systemic disease (e.g. poorly controlled diabetes, COPD, stable angina, dialysis)."
+        },
+        {
+          "front": "What does an 'E' suffix on an ASA grade mean?",
+          "back": "Emergency surgery, which independently increases risk."
+        },
+        {
+          "front": "Usual minimum fasting time for food before elective anaesthesia?",
+          "back": "About 6 hours (ANZCA-based local policy); clear fluids allowed until closer to surgery."
+        },
+        {
+          "front": "When in the WHO checklist is antibiotic prophylaxis confirmed?",
+          "back": "At the time out, before skin incision (given within the previous 60 minutes)."
+        },
+        {
+          "front": "Functional capacity threshold used as a cardiac screen before surgery?",
+          "back": "About 4 METs: able to climb a flight of stairs or walk up a hill without stopping."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "perioperative--preoperative-assessment--q1",
+          "discipline": "adult-surgery",
+          "topic": "perioperative",
+          "difficulty": "foundation",
+          "stem": "A 24-year-old woman attends the pre-admission clinic before an elective laparoscopic removal of a small ovarian dermoid cyst. She is well, takes no regular medication, has no allergies and exercises three times a week. Examination is normal. Blood pressure is 118/72 mmHg and BMI 23 kg/m2.\n\nWhich preoperative investigation is most appropriate?",
+          "options": [
+            "Urine pregnancy test",
+            "Liver function tests",
+            "Chest X-ray",
+            "12-lead ECG",
+            "Coagulation studies (INR and APTT)"
+          ],
+          "answer": 0,
+          "explanation": "Preoperative tests should be chosen because they could change management. This woman is ASA I having intermediate surgery, so routine chest X-ray, ECG, coagulation and liver tests add cost, false positives and delay without benefit.\n\nThe one test that matters is a **pregnancy test** in a woman of reproductive age. An unrecognised pregnancy changes the choice of anaesthetic agents, the risk to the fetus and possibly whether elective surgery proceeds at all. It should be done with her consent. A group and hold may also be requested by some units for laparoscopy, but it is not among these options.\n\n**Principle:** targeted testing. Healthy patients having minor or intermediate surgery need very little work-up.",
+          "whyWrong": [
+            "",
+            "There is no history suggesting liver disease.",
+            "A chest X-ray is indicated only for new or unstable cardiorespiratory findings.",
+            "A healthy 24-year-old without cardiac symptoms does not need an ECG.",
+            "Coagulation studies are for anticoagulant use, liver disease or a bleeding history."
+          ],
+          "tags": [
+            "pre-admission",
+            "investigations",
+            "pregnancy test"
+          ]
+        },
+        {
+          "id": "perioperative--preoperative-assessment--q2",
+          "discipline": "adult-surgery",
+          "topic": "perioperative",
+          "difficulty": "core",
+          "stem": "A 78-year-old man is booked for an elective right total hip replacement. At the pre-admission clinic he mentions two episodes of feeling faint while walking up the hill to his letterbox. On examination there is a harsh ejection systolic murmur at the right upper sternal edge radiating to the carotids, and a slow-rising pulse. His ECG shows left ventricular hypertrophy.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Request a chest X-ray and proceed if it is normal",
+            "Arrange an exercise stress test",
+            "Proceed with surgery under spinal anaesthesia",
+            "Arrange a transthoracic echocardiogram and defer surgery until it is reviewed",
+            "Start a beta-blocker and proceed with surgery as planned"
+          ],
+          "answer": 3,
+          "explanation": "Exertional presyncope, an ejection systolic murmur radiating to the carotids, a slow-rising pulse and LVH point to **symptomatic severe aortic stenosis**. This is one of the highest-risk cardiac conditions for non-cardiac surgery because these patients have a fixed cardiac output and tolerate vasodilation and hypotension very badly.\n\nThe next step is a **transthoracic echocardiogram** to confirm severity, with elective surgery **deferred** until cardiology reviews him. Symptomatic severe AS may need valve intervention (surgical or transcatheter) before the hip. Spinal anaesthesia causes sudden vasodilation and is particularly dangerous in severe AS. Exercise testing is contraindicated in symptomatic severe AS.",
+          "whyWrong": [
+            "A chest X-ray cannot assess the severity of aortic stenosis.",
+            "Exercise stress testing is contraindicated in symptomatic severe aortic stenosis.",
+            "Spinal anaesthesia causes vasodilation that can precipitate collapse in severe aortic stenosis.",
+            "",
+            "Starting a beta-blocker just before surgery does not address a valve lesion and can cause harm."
+          ],
+          "tags": [
+            "aortic stenosis",
+            "cardiac risk",
+            "pre-admission"
+          ]
+        },
+        {
+          "id": "perioperative--preoperative-assessment--q3",
+          "discipline": "adult-surgery",
+          "topic": "perioperative",
+          "difficulty": "foundation",
+          "stem": "In theatre, the scrub nurse, anaesthetist and surgeon pause immediately before the first skin incision for a laparoscopic cholecystectomy. Each introduces themselves by name and role.\n\nWhich check belongs specifically to this phase of the WHO Surgical Safety Checklist?",
+          "options": [
+            "Confirmation that the instrument, swab and sharps counts are correct",
+            "Confirmation that prophylactic antibiotics were given within the last 60 minutes",
+            "Labelling of the gallbladder specimen",
+            "Review of key concerns for recovery and postoperative management",
+            "Confirmation that the pulse oximeter is on the patient and functioning"
+          ],
+          "answer": 1,
+          "explanation": "The pause before skin incision is the **time out**. The team introduce themselves, confirm the patient, site and procedure, confirm that **antibiotic prophylaxis has been given within the last 60 minutes**, discuss anticipated critical events, and check essential imaging is displayed.\n\nThe pulse oximeter and anaesthetic equipment checks belong to the **sign in**, before induction. Counts, specimen labelling and concerns for recovery belong to the **sign out**, before the patient leaves theatre.\n\nThe checklist reduces wrong-site surgery, retained foreign bodies and missed antibiotic prophylaxis, and anyone in the team may stop the process if something is wrong.",
+          "whyWrong": [
+            "Counts are completed at the sign out, before the patient leaves theatre.",
+            "",
+            "Specimen labelling is part of the sign out.",
+            "Recovery concerns are discussed at the sign out.",
+            "The pulse oximeter check is part of the sign in, before induction of anaesthesia."
+          ],
+          "tags": [
+            "who checklist",
+            "patient safety",
+            "theatre"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "perioperative--consent-and-capacity",
+      "title": "Consent, capacity and interpreters",
+      "minutes": 15,
+      "objectives": [
+        "Explain the material risk test from Rogers v Whitaker and apply it to a consent discussion",
+        "List the elements of valid consent and who should obtain it",
+        "Assess decision-making capacity and identify the substitute decision-maker when it is lacking",
+        "Handle emergencies, refusals, minors and language barriers lawfully"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why consent is a surgical skill",
+          "body": "Consent is not a signature; it is a **process of communication** that the form merely records. Operating without valid consent can amount to battery (a touching without consent) and failing to disclose a material risk is **negligence**. The AMC regards consent as critical to safe practice and uses Australian case law you are expected to know by name.\n\nValid consent has four elements:\n1. **Capacity**: the patient can make this particular decision.\n2. **Voluntary**: free of coercion from family, doctors or institutions.\n3. **Informed**: the patient understands the nature of the procedure, the expected benefits, the material risks, the alternatives (including doing nothing) and what happens if they decline.\n4. **Specific**: it covers the procedure actually performed. Consent for a diagnostic laparoscopy does not cover removing an ovary unless that was discussed, except in a true unforeseen emergency.\n\nConsent may be verbal or implied (holding out an arm for a blood test), but for surgery and anaesthesia it is written, and the discussion is documented in the notes."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Rogers v Whitaker and material risk",
+          "body": "**Rogers v Whitaker (1992)** is the High Court of Australia case every AMC candidate must know. Mrs Whitaker, blind in one eye since childhood, had surgery on that eye. She repeatedly asked about risks to her good eye. She was not told of the roughly 1 in 14,000 risk of **sympathetic ophthalmia**, developed it and became almost completely blind. The court held the surgeon negligent.\n\nThe court rejected the old \"what a responsible body of doctors would disclose\" standard (the Bolam test) for the duty to warn. Instead a risk is **material**, and must be disclosed, if:\n- a **reasonable person in the patient's position** would be likely to attach significance to it (the objective limb), **or**\n- the doctor **knows or should reasonably know that this particular patient** would attach significance to it (the subjective limb).\n\nPractical consequences:\n- A risk can be rare and still material if its consequences are severe or if the patient has told you it matters (a professional singer and the risk of recurrent laryngeal nerve injury in thyroidectomy; a patient with one eye).\n- Tailor the discussion to the person: occupation, hobbies, values, questions they ask.\n- Document **specific** risks discussed, questions asked and answered, and alternatives. \"Risks explained\" is not enough.\n\n**Chappel v Hart (1998)** extended this to causation: a patient who was not warned of a risk (voice damage after oesophageal surgery) could recover damages if she would have deferred the operation or chosen a more experienced surgeon had she been warned.\n\nThe UK reached the same place in **Montgomery (2015)**, so British sources agree with Australian law here.\n\n**Who obtains consent?** Ideally the person doing the procedure, or someone with enough knowledge of it to explain the risks and answer questions. An intern should not take consent for an operation they do not understand; say so and ask the registrar."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Capacity and substitute decision-making",
+          "body": "Adults are **presumed to have capacity**. Capacity is **decision-specific and time-specific**: a patient with mild dementia may be able to consent to a blood test but not to a complex operation, and a delirious patient may regain capacity tomorrow.\n\nA patient has capacity for a decision if they can:\n1. **Understand** the information relevant to the decision,\n2. **Retain** it long enough to decide,\n3. **Use or weigh** it in reaching a decision, and\n4. **Communicate** the decision (by any means).\n\nAn unwise decision is not proof of incapacity. A capable adult may refuse any treatment, including life-saving treatment, for any reason or none.\n\n**When capacity is lacking** (for a non-emergency decision), follow the hierarchy set by state and territory legislation, which **varies by state**:\n1. A valid **advance care directive** that applies to the situation must be followed.\n2. A tribunal-appointed **guardian** or a person appointed by the patient (enduring guardian, medical treatment decision-maker, depending on the state).\n3. Otherwise a statutory **\"person responsible\"**, typically a spouse or partner, then a carer, then a close relative or friend.\n\nThe substitute decision-maker should decide as the patient would have wanted (their known values and preferences), not simply on their own views. Where no-one is available or there is conflict, the state guardianship tribunal can decide."
+        },
+        {
+          "kind": "application",
+          "heading": "Emergencies, refusals, minors and interpreters",
+          "body": "**Emergencies.** Where treatment is needed urgently to save life or prevent serious harm, and the patient cannot consent and no substitute is available in time, doctors may treat under the **doctrine of necessity** (codified in most states' legislation). Do only what is necessary; non-urgent procedures wait. This does **not** override a known, valid refusal, such as an applicable advance care directive.\n\n**Refusal of blood by Jehovah's Witnesses.** A capable adult's refusal of blood must be respected, even if they die. Discuss exactly which products and techniques they accept (many accept cell salvage or certain fractions), document it, and plan blood conservation. For a **child**, parents cannot refuse life-saving treatment on the child's behalf; hospitals can seek a court order and, in an emergency, doctors can give blood under state legislation. Details vary by state.\n\n**Minors.** Parents generally consent for young children. An older child may consent to treatment if they have sufficient maturity and understanding (**Gillick competence**, adopted in Australia in **Marion's case, 1992**). Ages at which a young person can consent by statute vary by state (South Australia and NSW have specific provisions), so answer by principle: assess maturity and understanding, encourage parental involvement, and note that serious procedures such as sterilisation of a child need court or tribunal authorisation.\n\n**Interpreters.** For a patient with limited English, consent through family members is not acceptable practice:\n- Family may filter, soften or distort information, the patient may not ask embarrassing questions, and a child interpreting places a burden on the child.\n- Use a **professional interpreter**, face to face or by phone or video. Public hospitals have health care interpreter services. Doctors in private practice can use **TIS National** (Translating and Interpreting Service), which is free for eligible Medicare-rebatable services.\n- Document that an interpreter was used, with their name or ID number. Consider translated written information.\n- Also consider hearing impairment (Auslan interpreter), low health literacy and cultural factors (for Aboriginal and Torres Strait Islander patients, involve Aboriginal Liaison Officers or Aboriginal health workers where the patient wishes).\n\n**Sedated or premedicated patients** cannot give valid consent; consent is obtained beforehand, ideally not in the anaesthetic bay minutes before surgery."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- A patient who asked specifically about a rare complication and was not told: the key concept is **material risk (Rogers v Whitaker)**, specifically the subjective limb.\n- \"Best person to interpret for consent\" when a son or teenage daughter is present: **professional interpreter**.\n- A capable adult refusing surgery after full explanation: **respect the refusal**, document, keep the door open and offer alternatives. Do not seek a psychiatric review simply because the choice is unwise.\n- An unconscious trauma patient needing urgent surgery with no family available: proceed under **necessity**, limited to what is urgent.\n- An intern asked to consent for an operation they cannot explain: **decline and ask the surgeon or registrar**.\n- Unexpected finding during surgery that is not urgent (for example an incidental ovarian cyst during appendicectomy): do not remove it; wake the patient and discuss.\n- When a question hinges on age of consent or guardianship details, the AMC accepts \"varies by state\"; choose the answer that follows the principle."
+        }
+      ],
+      "keyPoints": [
+        "Valid consent needs capacity, voluntariness, adequate information and specificity to the procedure.",
+        "Rogers v Whitaker (1992): disclose material risks, those a reasonable person or this particular patient would consider significant.",
+        "Document the specific risks, alternatives and questions discussed; 'risks explained' is inadequate.",
+        "Capacity is decision-specific: understand, retain, weigh and communicate.",
+        "If capacity is lacking, follow an applicable advance care directive, then the substitute decision-maker hierarchy, which varies by state.",
+        "Emergency treatment under necessity is limited to what is urgent and does not override a known valid refusal.",
+        "Use professional interpreters, not family, for consent; TIS National is free for eligible services."
+      ],
+      "redFlags": [
+        "Patient who has had sedation or opioid premedication before signing consent",
+        "Family member (especially a child) acting as interpreter for a consent discussion",
+        "Fluctuating cognition or delirium at the time of consent",
+        "Known advance care directive or documented refusal of treatment or blood products"
+      ],
+      "contrast": [
+        {
+          "aspect": "Standard for disclosing risks",
+          "india": "Courts have often relied on accepted medical practice (a Bolam-type standard); forms list general risks.",
+          "australia": "Rogers v Whitaker: patient-centred material risk test; tailor disclosure to the individual and document specifics."
+        },
+        {
+          "aspect": "Who consents",
+          "india": "Family members frequently sign consent, even for capable adults.",
+          "australia": "A capable adult consents for themselves; family have no legal role unless the patient lacks capacity and they are the substitute decision-maker."
+        },
+        {
+          "aspect": "Language barriers",
+          "india": "Relatives commonly translate.",
+          "australia": "Professional interpreters (hospital services or TIS National) are expected for consent; document the interpreter's ID."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "The Australian case that defines material risk in consent?",
+          "back": "Rogers v Whitaker (1992), High Court of Australia."
+        },
+        {
+          "front": "Two limbs of the material risk test?",
+          "back": "A risk a reasonable person in the patient's position would consider significant, or one the doctor knows (or should know) this patient would consider significant."
+        },
+        {
+          "front": "Four components of decision-making capacity?",
+          "back": "Understand, retain, use or weigh, and communicate the decision."
+        },
+        {
+          "front": "Australian case that adopted Gillick competence?",
+          "back": "Marion's case (Secretary, Department of Health v JWB and SMB, 1992)."
+        },
+        {
+          "front": "Free phone interpreting service for eligible private doctors in Australia?",
+          "back": "TIS National (Translating and Interpreting Service)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "perioperative--consent-and-capacity--q1",
+          "discipline": "adult-surgery",
+          "topic": "perioperative",
+          "difficulty": "core",
+          "stem": "A 45-year-old professional opera singer is seen by a surgical registrar to consent for a total thyroidectomy for a multinodular goitre. She asks several questions about whether the operation could affect her voice. The risk of permanent recurrent laryngeal nerve injury is quoted in the literature at under 1%.\n\nWhich statement best describes the registrar's obligation?",
+          "options": [
+            "Avoid mentioning it because the risk is under 1% and may cause needless anxiety",
+            "Disclose it only if the patient signs a specific waiver form",
+            "Leave the voice discussion to the anaesthetist",
+            "Disclose the risk only if most thyroid surgeons would routinely mention it",
+            "Disclose the risk because this patient would attach significance to it"
+          ],
+          "answer": 4,
+          "explanation": "Under **Rogers v Whitaker (1992)**, a risk is material if a reasonable person in the patient's position would attach significance to it, **or** if the doctor knows or should know that this particular patient would. A professional singer who is asking about her voice clearly falls within the second (subjective) limb, so the risk must be disclosed however rare.\n\nThe court rejected the idea that disclosure is defined by what other doctors would usually say (the Bolam approach). Rarity alone is not a reason to withhold. The discussion, her questions and the answers given should be documented specifically, not as 'risks explained'.",
+          "whyWrong": [
+            "Rare risks must be disclosed if they are material to the patient.",
+            "No waiver form replaces a proper disclosure discussion.",
+            "Surgical risks should be explained by someone who understands the operation, usually the surgeon.",
+            "Rogers v Whitaker rejected a doctor-centred standard for the duty to warn.",
+            ""
+          ],
+          "tags": [
+            "consent",
+            "rogers v whitaker",
+            "material risk"
+          ],
+          "ausPearl": "Rogers v Whitaker involved a 1 in 14,000 risk of sympathetic ophthalmia; the AMC loves the patient-specific limb."
+        },
+        {
+          "id": "perioperative--consent-and-capacity--q2",
+          "discipline": "adult-surgery",
+          "topic": "perioperative",
+          "difficulty": "foundation",
+          "stem": "A 67-year-old man who speaks Vietnamese and very little English needs consent for an elective inguinal hernia repair at a public hospital. His 15-year-old granddaughter, who is fluent in both languages, offers to translate.\n\nWhat is the most appropriate way to obtain consent?",
+          "options": [
+            "Proceed with the granddaughter interpreting as the patient is happy with this",
+            "Use a bilingual ward cleaner who speaks Vietnamese",
+            "Book a professional Vietnamese health care interpreter",
+            "Give him a written English consent form to take home and have translated",
+            "Use a smartphone translation app"
+          ],
+          "answer": 2,
+          "explanation": "Consent must be informed, which requires accurate two-way communication. A **professional health care interpreter** (on site, by phone or video) should be used. Family members, especially children, may omit or soften information, the patient may not ask sensitive questions in front of them, and it places an unfair burden on a teenager.\n\nUntrained staff and translation apps are not reliable for medical detail. Written English forms do not solve the problem. Public hospitals have interpreter services; in private practice, **TIS National** is available. Document the interpreter's name or ID in the notes.",
+          "whyWrong": [
+            "Family, and particularly children, should not interpret for consent.",
+            "Untrained bilingual staff are not accredited interpreters and confidentiality is compromised.",
+            "",
+            "Informed consent requires a discussion, not a form translated by someone else.",
+            "Machine translation is unreliable for medical risks and questions."
+          ],
+          "tags": [
+            "consent",
+            "interpreter",
+            "communication"
+          ]
+        },
+        {
+          "id": "perioperative--consent-and-capacity--q3",
+          "discipline": "adult-surgery",
+          "topic": "perioperative",
+          "difficulty": "exam",
+          "stem": "A 29-year-old man is brought to the emergency department unconscious after a car crash. CT shows an extradural haematoma with midline shift. His GCS is 7. No family can be contacted and there is no information about his wishes. The neurosurgeon recommends immediate craniotomy.\n\nWhat is the legal basis for proceeding?",
+          "options": [
+            "The doctrine of necessity (emergency treatment provisions)",
+            "Consent from the hospital's executive director",
+            "Consent from the treating emergency physician as his guardian",
+            "Implied consent because he arrived by ambulance",
+            "An urgent application to the guardianship tribunal before surgery"
+          ],
+          "answer": 0,
+          "explanation": "When a patient lacks capacity, the treatment is urgently needed to save life or prevent serious harm, and there is no time to obtain consent from a substitute decision-maker, doctors may proceed under the **doctrine of necessity**, which most states also cover in guardianship legislation.\n\nTreatment should be limited to what is necessary in the emergency, and it would not override a valid known refusal (for example an applicable advance care directive). Waiting for a tribunal would cost his life. No doctor or hospital executive becomes the patient's guardian simply by treating him, and arriving by ambulance does not imply consent to surgery. Document the reasoning.",
+          "whyWrong": [
+            "",
+            "Hospital executives have no power to consent on a patient's behalf.",
+            "Treating doctors do not become guardians.",
+            "Arriving by ambulance does not imply consent to a craniotomy.",
+            "A tribunal application is for non-urgent decisions and would cause dangerous delay."
+          ],
+          "tags": [
+            "consent",
+            "emergency",
+            "necessity"
+          ]
+        },
+        {
+          "id": "perioperative--consent-and-capacity--q4",
+          "discipline": "adult-surgery",
+          "topic": "perioperative",
+          "difficulty": "core",
+          "stem": "A 71-year-old woman with a large but non-obstructing sigmoid cancer is advised to have a sigmoid colectomy. After a detailed discussion in English, her first language, she can accurately describe the operation, its risks and the likely outcome without surgery, and says she would rather 'let nature take its course' and focus on her garden. Her daughter insists she is 'not thinking straight'. Her Mini-Mental State score is 29/30.\n\nWhat is the most appropriate response?",
+          "options": [
+            "Apply to the guardianship tribunal",
+            "Arrange a psychiatry review to assess her for depression before accepting the decision",
+            "Ask the daughter to sign the consent form as next of kin",
+            "Accept her decision, document the discussion and offer ongoing support and review",
+            "Proceed with surgery in her best interests"
+          ],
+          "answer": 3,
+          "explanation": "She demonstrates **capacity**: she understands, retains and weighs the information and communicates a clear choice. A capable adult may refuse treatment, even if others think the decision unwise, and an unwise decision is not evidence of incapacity.\n\nThe right response is to **respect the refusal**, document the discussion (what was explained, her understanding, her reasons), involve her GP, arrange supportive and palliative care if she wishes, and make clear she can change her mind. Her daughter has no legal authority while she has capacity. A psychiatry referral is only warranted if there are features suggesting a mental illness is impairing her decision, not merely because she disagrees.",
+          "whyWrong": [
+            "A tribunal is for patients who lack capacity.",
+            "There is no feature here suggesting depression is impairing her judgment; disagreeing is not a reason for psychiatric review.",
+            "Next of kin cannot consent for a capable adult.",
+            "",
+            "Operating on a capable adult against her refusal would be battery."
+          ],
+          "tags": [
+            "capacity",
+            "refusal",
+            "autonomy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "perioperative--perioperative-medications",
+      "title": "Managing medications around surgery",
+      "minutes": 20,
+      "objectives": [
+        "Plan interruption of warfarin and DOACs according to drug, renal function and bleeding risk",
+        "Identify which patients need heparin bridging and which do not",
+        "Manage antiplatelet therapy safely, especially after coronary stents",
+        "Adjust diabetes medicines, including withholding SGLT2 inhibitors to prevent euglycaemic DKA",
+        "Recognise patients on long-term corticosteroids who need stress-dose cover"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why medication management is the most tested area",
+          "body": "Most perioperative medication errors come from two directions: **stopping something that should be continued** (beta-blockers, antiepileptics, steroids, aspirin after a stent) and **continuing something that should be stopped** (warfarin, SGLT2 inhibitors, sulfonylureas while fasting). The AMC writes questions where the vignette gives you a drug list and asks which change is correct.\n\nThe general approach for every drug:\n1. Why is the patient taking it, and what happens if it stops (thrombosis, withdrawal, adrenal crisis, seizures)?\n2. What does it do in surgery (bleeding, hypotension, hypoglycaemia, ketoacidosis)?\n3. How long does its effect last (half-life, renal clearance, irreversible platelet inhibition)?\n4. When can it restart?\n\nWrite the plan clearly in the notes and on the medication chart, and tell the patient in plain words with dates. Most confusion arises when the plan is verbal."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Anticoagulants: warfarin, DOACs and bridging",
+          "body": "Plan interruption based on **three factors**: the drug, the patient's renal function, and the bleeding risk of the procedure. Some minor procedures (many dental extractions, cataract surgery, skin excisions) can go ahead without stopping anticoagulation.\n\n**Warfarin**\n- Usually stopped **5 days** before surgery, with an INR checked the day before (a target below about 1.5 is typical for most surgery; follow local policy).\n- If the INR is still high the day before, a small dose of oral vitamin K can be given.\n- Restarted usually the evening of or day after surgery once haemostasis is secure; it takes several days to become therapeutic.\n\n**DOACs (apixaban, rivaroxaban, dabigatran)**\n- Short half-lives mean no bridging is needed. They are withheld for a period that depends on **renal function and bleeding risk**: typically around 1 to 2 days for apixaban and rivaroxaban with normal renal function (longer for high-bleeding-risk surgery or neuraxial anaesthesia).\n- **Dabigatran** is heavily renally cleared, so impaired creatinine clearance lengthens the interruption considerably.\n- Use a structured periprocedural protocol (hospital guideline or the Australasian consensus used locally) rather than memorising figures.\n\n**Bridging with heparin** means covering the period off warfarin with therapeutic enoxaparin or unfractionated heparin. It **increases bleeding** and, in most patients with AF, does not reduce stroke (the BRIDGE trial). Bridging is reserved for **high thrombotic risk**:\n- **Mechanical mitral valve** (or any mechanical valve with additional risk factors, older caged-ball valves)\n- Recent VTE (roughly within 3 months) or severe thrombophilia\n- Recent stroke or TIA, or AF with rheumatic mitral stenosis, per specialist advice\n\nA patient with AF on warfarin and a moderate CHA2DS2-VA score, or on a DOAC, **does not need bridging**.\n\n**Emergency reversal**\n- Warfarin: **vitamin K (IV)** plus **prothrombin complex concentrate (Prothrombinex-VF)**; fresh frozen plasma if PCC unavailable or to add factor VII per local protocol.\n- Dabigatran: **idarucizumab**.\n- Factor Xa inhibitors: supportive measures and PCC per local haematology advice; specific reversal agents have limited availability."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Antiplatelets and coronary stents",
+          "body": "- **Aspirin**: usually **continued** for secondary prevention (coronary disease, stroke, stents), because the thrombotic risk of stopping outweighs bleeding for most surgery. Exceptions are operations where small bleeds are catastrophic (intracranial, spinal, some prostate or eye procedures); discuss with the surgeon.\n- **Clopidogrel**: usually stopped about **5 days** before if it needs to stop; **ticagrelor** 3 to 5 days; **prasugrel** 7 days. Platelet inhibition by clopidogrel and prasugrel is irreversible, which is why a few days are needed.\n- **Dual antiplatelet therapy after a coronary stent** is the danger zone. Premature cessation risks **stent thrombosis**, which usually presents as STEMI and is often fatal. Elective surgery should be **deferred** until the recommended DAPT course is complete. If surgery cannot wait, continue aspirin and discuss with the cardiologist before stopping the P2Y12 inhibitor.\n- Primary prevention aspirin (no vascular disease) can generally be stopped around 7 days before.\n- NSAIDs and fish oil increase bleeding modestly; many units ask patients to stop them, and to disclose herbal medicines (ginkgo, garlic, ginseng)."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Diabetes medicines and SGLT2 inhibitors",
+          "body": "The goals are to avoid hypoglycaemia while fasting, avoid severe hyperglycaemia and prevent ketoacidosis. Put patients with diabetes **first on the list** where possible. Follow the Australian Diabetes Society (ADS) perioperative guidance and local protocols.\n\n**SGLT2 inhibitors (empagliflozin, dapagliflozin, ertugliflozin)** are the high-yield drug:\n- They cause **euglycaemic diabetic ketoacidosis** around surgery, fasting, bowel preparation and acute illness. Glucose may be near normal (often under 14 mmol/L), so DKA is missed unless **ketones** are checked.\n- The ADS-ANZCA alert advises withholding them **for 2 days before and on the day of surgery** (i.e. about 3 days) for procedures requiring a hospital stay or significant fasting, and at least the day before and day of for day procedures such as colonoscopy with bowel preparation.\n- Restart only when the patient is **eating and drinking normally** and recovering.\n- If a patient on an SGLT2 inhibitor is unwell after surgery (nausea, vomiting, abdominal pain, tachypnoea, drowsiness), check **blood ketones and a venous gas** even if glucose is normal. Treatment is DKA treatment with glucose-containing fluids alongside insulin.\n- These drugs are also used for heart failure and CKD without diabetes; the same rule applies.\n\n**Other diabetes medicines** (general principles; follow local protocol for exact doses)\n- **Sulfonylureas** (gliclazide): omit on the day of surgery while fasting; hypoglycaemia risk.\n- **Metformin**: often continued, but commonly withheld on the day of surgery for longer procedures, significant renal impairment or contrast use; restart once eating and renal function is stable.\n- **DPP-4 inhibitors**: usually continued.\n- **GLP-1 receptor agonists**: delay gastric emptying, raising aspiration risk; anaesthetists may ask for them to be withheld or modify the fasting plan. Check current ANZCA advice.\n- **Insulin**: usually **continue basal (long-acting) insulin at a reduced dose**; omit or reduce prandial insulin while fasting. Patients with type 1 diabetes must **never** have all insulin stopped; they need basal insulin or an insulin-glucose infusion to prevent DKA.\n- Monitor capillary glucose regularly (for example 1 to 2 hourly while fasting) and treat hypoglycaemia promptly."
+        },
+        {
+          "kind": "management",
+          "heading": "Steroids and the rest of the drug chart",
+          "body": "**Long-term glucocorticoids** suppress the hypothalamic-pituitary-adrenal axis. The stress of surgery then provokes an **adrenal crisis**: hypotension unresponsive to fluids, hyponatraemia, hyperkalaemia, hypoglycaemia. Patients on prednisolone for more than a few weeks (a common working figure is 5 mg or more daily for over 3 weeks), or with adrenal insufficiency, should:\n- **Continue** their usual steroid, and\n- Receive supplemental **IV hydrocortisone** at induction for moderate or major surgery (commonly 100 mg IV), continued in reducing doses afterwards per eTG or endocrinology protocol.\n\n**Usually continue** (including on the morning of surgery with a sip of water)\n- **Beta-blockers** (stopping causes rebound tachycardia and ischaemia), calcium channel blockers, statins, antiepileptics, Parkinson's medicines (levodopa missed doses cause rigidity and aspiration; give on time), inhalers, thyroxine, most psychiatric drugs, opioid substitution therapy.\n\n**Often withheld on the morning of surgery**\n- **ACE inhibitors and ARBs**: associated with hypotension after induction; many anaesthetists omit the morning dose. Diuretics are often omitted too.\n\n**Stop weeks ahead in selected cases**\n- **Combined oral contraceptive and oral HRT**: raise VTE risk; consider stopping about 4 weeks before major surgery or surgery with prolonged immobilisation, with alternative contraception advised.\n- **MAO inhibitors, lithium**: discuss with the anaesthetist and psychiatrist; do not stop abruptly without a plan.\n\n**Restarting**: write a plan. Common errors are forgetting to restart anticoagulants, antihypertensives or antidepressants, and restarting an SGLT2 inhibitor before the patient is eating."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Vomiting, abdominal pain and a high anion gap acidosis with **glucose 9 mmol/L** after surgery in a patient on **empagliflozin**: **euglycaemic DKA**. Check ketones.\n- Warfarin for **AF** before elective surgery: stop 5 days prior, **no bridging**. Warfarin for a **mechanical mitral valve**: bridge with enoxaparin or heparin.\n- DOAC before surgery: withhold for a period determined by **renal function and bleeding risk**; no bridging.\n- Stent placed 2 months ago, patient on aspirin and ticagrelor, elective hernia: **defer surgery**.\n- Hypotension, hyponatraemia and hyperkalaemia on day 1 after surgery in a patient with rheumatoid arthritis on long-term prednisolone: **adrenal crisis**, give IV hydrocortisone.\n- The trap answer is often \"stop all medications the night before surgery\". Never correct."
+        }
+      ],
+      "keyPoints": [
+        "Plan anticoagulant interruption by drug, renal function and procedural bleeding risk.",
+        "Warfarin: stop about 5 days before and check INR; bridging only for high thrombotic risk such as a mechanical mitral valve.",
+        "DOACs are not bridged; dabigatran needs a longer break in renal impairment.",
+        "Aspirin is usually continued; do not stop DAPT early after a coronary stent without cardiology input.",
+        "Withhold SGLT2 inhibitors for 2 days before and on the day of surgery; check ketones if unwell, as DKA may be euglycaemic.",
+        "Never stop all insulin in type 1 diabetes; continue basal insulin at a reduced dose.",
+        "Continue long-term steroids and give stress-dose IV hydrocortisone for major surgery.",
+        "Continue beta-blockers, statins, antiepileptics and Parkinson's drugs; ACE inhibitors are often omitted on the morning of surgery."
+      ],
+      "redFlags": [
+        "Nausea, abdominal pain or tachypnoea in a patient on an SGLT2 inhibitor, even with normal glucose",
+        "Recent coronary stent on dual antiplatelet therapy booked for elective surgery",
+        "Mechanical mitral valve or VTE in the last 3 months requiring interruption of anticoagulation",
+        "Refractory hypotension after surgery in a patient on long-term corticosteroids",
+        "Type 1 diabetes with insulin withheld"
+      ],
+      "contrast": [
+        {
+          "aspect": "SGLT2 inhibitors before surgery",
+          "india": "Less emphasis; often stopped only on the morning of surgery.",
+          "australia": "ADS-ANZCA alert: withhold 2 days before and on the day of surgery; check ketones if unwell, as DKA can be euglycaemic."
+        },
+        {
+          "aspect": "Bridging anticoagulation",
+          "india": "Heparin bridging is frequently used whenever warfarin is stopped.",
+          "australia": "Bridging is limited to high thrombotic risk (e.g. mechanical mitral valve); routine bridging in AF increases bleeding without benefit."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "How long before surgery is warfarin usually stopped?",
+          "back": "About 5 days, with an INR checked the day before surgery."
+        },
+        {
+          "front": "Main indication for heparin bridging around warfarin interruption?",
+          "back": "High thrombotic risk, e.g. mechanical mitral valve or VTE within about 3 months."
+        },
+        {
+          "front": "When should an SGLT2 inhibitor be withheld before major surgery?",
+          "back": "2 days before and on the day of surgery (ADS-ANZCA alert); restart when eating and drinking normally."
+        },
+        {
+          "front": "Specific reversal agent for dabigatran?",
+          "back": "Idarucizumab."
+        },
+        {
+          "front": "Warfarin reversal for urgent surgery?",
+          "back": "IV vitamin K plus prothrombin complex concentrate (Prothrombinex-VF)."
+        },
+        {
+          "front": "Steroid cover for major surgery in a patient on long-term prednisolone?",
+          "back": "Continue usual dose and give IV hydrocortisone at induction (commonly 100 mg), then taper per protocol."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "perioperative--perioperative-medications--q1",
+          "discipline": "adult-surgery",
+          "topic": "perioperative",
+          "difficulty": "core",
+          "stem": "A 62-year-old man with type 2 diabetes is on day 2 after an elective anterior resection. He has vomited several times and is breathing rapidly. His regular medicines, which were continued on the morning of surgery, include metformin and empagliflozin. Temperature 37.2 C, heart rate 112/min, respiratory rate 28/min. Capillary glucose is 10.4 mmol/L. Venous gas: pH 7.18, bicarbonate 9 mmol/L, anion gap 24.\n\nWhich investigation is most likely to confirm the diagnosis?",
+          "options": [
+            "Serum lipase",
+            "Blood beta-hydroxybutyrate (ketones)",
+            "CT abdomen with oral contrast",
+            "Serum osmolality",
+            "Serum lactate"
+          ],
+          "answer": 1,
+          "explanation": "A high anion gap metabolic acidosis with only modestly raised glucose in a patient whose **SGLT2 inhibitor was not withheld** before surgery is **euglycaemic diabetic ketoacidosis** until proven otherwise. SGLT2 inhibitors promote glucose loss in the urine and ketone production; fasting, surgical stress and reduced insulin tip the patient into ketoacidosis without the marked hyperglycaemia that usually alerts clinicians.\n\n**Blood ketones** confirm it. Treatment follows DKA protocols (fluids, insulin infusion with dextrose because glucose is not high, potassium). Lactic acidosis (metformin, sepsis, ischaemia) and anastomotic leak are differentials worth checking, but ketones are the discriminating test. Prevention: withhold the SGLT2 inhibitor for 2 days before and on the day of surgery.",
+          "whyWrong": [
+            "Pancreatitis would not explain the pattern as well; the drug history is the clue.",
+            "",
+            "CT may be needed later to exclude a leak but does not diagnose ketoacidosis.",
+            "Osmolality is used for hyperosmolar states, not to diagnose ketoacidosis.",
+            "Lactate is worth checking for sepsis or metformin toxicity, but the key clue is the SGLT2 inhibitor."
+          ],
+          "tags": [
+            "sglt2 inhibitor",
+            "euglycaemic dka",
+            "diabetes"
+          ],
+          "ausPearl": "The ADS-ANZCA periprocedural alert on SGLT2 inhibitors is widely used in Australian hospitals."
+        },
+        {
+          "id": "perioperative--perioperative-medications--q2",
+          "discipline": "adult-surgery",
+          "topic": "perioperative",
+          "difficulty": "core",
+          "stem": "A 74-year-old woman with non-valvular atrial fibrillation, hypertension and diabetes is on warfarin with a stable INR of 2.4. Her creatinine clearance is 55 mL/min. She is booked for an elective laparoscopic cholecystectomy in 2 weeks. She has never had a stroke or VTE.\n\nWhat is the most appropriate perioperative anticoagulation plan?",
+          "options": [
+            "Stop warfarin 5 days before surgery and bridge with therapeutic enoxaparin",
+            "Stop warfarin the night before surgery and give vitamin K on the morning of surgery",
+            "Switch to dabigatran until the day before surgery",
+            "Continue warfarin through surgery",
+            "Stop warfarin 5 days before surgery without bridging, and restart after surgery when haemostasis is secure"
+          ],
+          "answer": 4,
+          "explanation": "For intermediate-risk abdominal surgery, warfarin should be stopped about **5 days** beforehand with an INR checked the day before. The question is whether to bridge.\n\nNon-valvular AF without recent stroke is **not** a high thrombotic risk indication. The BRIDGE trial showed bridging in AF **increases major bleeding** without reducing arterial thromboembolism. Bridging is reserved for patients such as those with a **mechanical mitral valve**, recent VTE or recent stroke.\n\nContinuing warfarin through a cholecystectomy risks significant bleeding. Stopping only the night before leaves her anticoagulated. Switching agents just before surgery adds risk and confusion.",
+          "whyWrong": [
+            "Bridging in AF without high thrombotic risk increases bleeding without benefit.",
+            "Warfarin's effect lasts days; stopping the night before is inadequate.",
+            "Switching anticoagulants shortly before surgery adds risk without benefit.",
+            "Cholecystectomy carries enough bleeding risk that warfarin should be interrupted.",
+            ""
+          ],
+          "tags": [
+            "warfarin",
+            "bridging",
+            "anticoagulation"
+          ]
+        },
+        {
+          "id": "perioperative--perioperative-medications--q3",
+          "discipline": "adult-surgery",
+          "topic": "perioperative",
+          "difficulty": "exam",
+          "stem": "A 58-year-old man had a drug-eluting stent inserted for a non-ST-elevation myocardial infarction 8 weeks ago. He takes aspirin and ticagrelor. He is referred for an elective repair of a symptomatic but reducible right inguinal hernia and wants it done soon.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Stop both antiplatelet agents 7 days before surgery and proceed",
+            "Stop ticagrelor 5 days before surgery, continue aspirin and proceed next week",
+            "Defer the hernia repair until dual antiplatelet therapy is complete, after discussion with his cardiologist",
+            "Switch ticagrelor to enoxaparin bridging and proceed",
+            "Stop aspirin and continue ticagrelor through surgery"
+          ],
+          "answer": 2,
+          "explanation": "Premature interruption of **dual antiplatelet therapy** soon after a coronary stent carries a high risk of **stent thrombosis**, which usually presents as STEMI and is frequently fatal. The risk is highest in the first months and after an acute coronary syndrome.\n\nA reducible hernia is **elective**, so the right approach is to **defer surgery** until the recommended DAPT duration is complete, in consultation with his cardiologist, and safety-net him about strangulation symptoms (irreducibility, pain, vomiting). If urgent surgery were needed, aspirin would usually be continued and the P2Y12 decision made with cardiology.\n\nHeparin does not protect against stent thrombosis, which is a platelet-driven process.",
+          "whyWrong": [
+            "Stopping both agents early after a stent risks stent thrombosis.",
+            "Even stopping ticagrelor alone this early is unsafe for an elective operation.",
+            "",
+            "Heparin does not prevent platelet-mediated stent thrombosis.",
+            "Aspirin should be the agent continued if anything must be stopped."
+          ],
+          "tags": [
+            "antiplatelet",
+            "coronary stent",
+            "elective surgery"
+          ]
+        },
+        {
+          "id": "perioperative--perioperative-medications--q4",
+          "discipline": "adult-surgery",
+          "topic": "perioperative",
+          "difficulty": "exam",
+          "stem": "A 66-year-old woman with rheumatoid arthritis has taken prednisolone 10 mg daily for 2 years. Twelve hours after an emergency Hartmann's procedure, she is drowsy with a blood pressure of 76/40 mmHg despite 3 L of crystalloid. Heart rate 118/min. Sodium 128 mmol/L, potassium 5.6 mmol/L, glucose 3.4 mmol/L. Her prednisolone was charted as 'withheld, nil by mouth'.\n\nWhat is the most appropriate immediate treatment?",
+          "options": [
+            "Intravenous hydrocortisone",
+            "Oral prednisolone 10 mg via nasogastric tube",
+            "Intravenous 3% sodium chloride",
+            "Calcium gluconate 10% intravenously",
+            "Intravenous noradrenaline infusion alone"
+          ],
+          "answer": 0,
+          "explanation": "Long-term prednisolone suppresses the adrenal axis. Omitting it and adding the stress of emergency surgery has precipitated an **adrenal crisis**: fluid-refractory hypotension, hyponatraemia, hyperkalaemia and hypoglycaemia.\n\nThe immediate treatment is **IV hydrocortisone** (a large stress dose, commonly 100 mg IV then ongoing doses), plus IV fluids and dextrose for hypoglycaemia. Vasopressors alone will not fix the underlying cortisol deficiency, and sepsis should still be looked for and treated.\n\nThis was preventable: long-term steroids should be **continued** perioperatively (IV if nil by mouth) with supplemental hydrocortisone at induction.",
+          "whyWrong": [
+            "",
+            "Her usual oral dose is inadequate for crisis and absorption is unreliable after bowel surgery.",
+            "Hypertonic saline is not indicated; the hyponatraemia will improve with hydrocortisone and fluids.",
+            "Potassium of 5.6 mmol/L does not need membrane stabilisation; treat the cause.",
+            "Vasopressors do not correct the cortisol deficiency driving the shock."
+          ],
+          "tags": [
+            "adrenal crisis",
+            "corticosteroids",
+            "shock"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "perioperative--vte-and-antibiotic-prophylaxis",
+      "title": "VTE and surgical antibiotic prophylaxis",
+      "minutes": 15,
+      "objectives": [
+        "Assess VTE risk in every surgical patient and choose mechanical and/or pharmacological prophylaxis",
+        "Recognise contraindications to pharmacological prophylaxis and when extended prophylaxis applies",
+        "Diagnose and start treatment for postoperative DVT and PE",
+        "Prescribe surgical antibiotic prophylaxis according to eTG principles: right drug, right time, single dose"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Two prophylaxes every surgical patient needs considered",
+          "body": "Venous thromboembolism and surgical site infection are two of the most preventable complications of surgery, and both are audited nationally. In Australia, the Australian Commission on Safety and Quality in Health Care (ACSQHC) **VTE Prevention Clinical Care Standard** expects every admitted patient to have a documented VTE risk assessment, and eTG Antibiotic sets out surgical prophylaxis.\n\nFor the AMC, know who needs prophylaxis, which method, when it is contraindicated, and how to spot the complication if prophylaxis fails."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why surgery causes clots",
+          "body": "**Virchow's triad** explains postoperative VTE:\n- **Stasis**: immobility during and after surgery, anaesthesia-induced venous dilation, pneumoperitoneum in laparoscopy, pelvic compression.\n- **Endothelial injury**: direct vessel trauma, especially in hip and knee surgery and pelvic dissection.\n- **Hypercoagulability**: the acute-phase response to surgery, malignancy, oestrogen (contraceptive pill, HRT, pregnancy), dehydration, thrombophilia.\n\n**Highest-risk groups**\n- Major orthopaedic surgery: **hip and knee arthroplasty**, hip fracture surgery\n- Major abdominal or pelvic **cancer** surgery\n- Major trauma and spinal cord injury\n- Patient factors: previous VTE, active cancer, age over 60, obesity, oestrogen therapy, pregnancy or postpartum, prolonged immobility, known thrombophilia, heart failure\n\nRisk is not over at discharge. Much postoperative VTE presents in the weeks after the patient has gone home, which is why extended prophylaxis exists."
+        },
+        {
+          "kind": "management",
+          "heading": "VTE prophylaxis in practice",
+          "body": "**Step 1: assess** VTE risk and bleeding risk for every patient on admission and when their condition changes. Many hospitals use a structured tool.\n\n**Step 2: choose methods**\n\n| Method | Examples | Notes |\n|---|---|---|\n| Early mobilisation and hydration | Walk on day 0-1 | For everyone |\n| Mechanical | Graduated compression stockings, **intermittent pneumatic compression (IPC)** devices | Use when bleeding risk is high or combined with drugs. Avoid stockings in peripheral arterial disease, severe neuropathy or leg ulcers |\n| Pharmacological | **Enoxaparin** (a low molecular weight heparin) subcutaneously once daily, or **unfractionated heparin** subcutaneously two or three times daily | Reduce enoxaparin dose in severe renal impairment (creatinine clearance under 30 mL/min) or use unfractionated heparin |\n| Oral agents after arthroplasty | Rivaroxaban, apixaban, or aspirin in selected patients | Per orthopaedic protocol |\n\nA common standard adult dose is **enoxaparin 40 mg subcutaneously once daily**, adjusted for renal function and extremes of weight; check local protocol.\n\n**Timing**: pharmacological prophylaxis usually starts after surgery once haemostasis is secure (for example 6 to 12 hours post-op) or the evening before, per unit practice. **Neuraxial anaesthesia** (spinal or epidural) requires specific time gaps between LMWH doses and needle insertion or catheter removal to avoid a **spinal epidural haematoma**; follow the anaesthetic protocol.\n\n**Contraindications to pharmacological prophylaxis**: active bleeding, high bleeding risk surgery (intracranial or spinal surgery in the early period), significant thrombocytopenia, **heparin-induced thrombocytopenia** (use a non-heparin alternative), severe uncontrolled hypertension. Use mechanical methods instead.\n\n**Extended prophylaxis** (continued after discharge, commonly up to about 4 weeks or more): after hip and knee arthroplasty and hip fracture surgery, and after major abdominal or pelvic surgery for cancer.\n\n**Heparin-induced thrombocytopenia (HIT)**: a platelet fall of more than 50% about 5 to 10 days after starting heparin, with thrombosis rather than bleeding. Stop all heparin, including flushes, and start a non-heparin anticoagulant with haematology advice. Monitor platelets in patients on heparin per local protocol."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "When prophylaxis fails: postoperative DVT and PE",
+          "body": "**DVT**: unilateral calf swelling (measure 10 cm below the tibial tuberosity; a difference over 3 cm is significant), pain, pitting oedema, dilated superficial veins. Often asymptomatic after surgery.\n\n**PE**: sudden pleuritic chest pain, breathlessness, tachycardia, hypoxia, low-grade fever, haemoptysis; massive PE causes hypotension, raised JVP and collapse. Classically day 5 to 10 but can occur any time.\n\n**Investigations**\n- **D-dimer is not useful after surgery**: it is almost always raised post-op, so it cannot rule out VTE. Go straight to imaging when clinical suspicion is reasonable.\n- DVT: **compression (duplex) ultrasound**.\n- PE: **CT pulmonary angiogram (CTPA)**; V/Q scan if contrast is contraindicated. ECG may show sinus tachycardia or right heart strain; bedside echo helps in the unstable patient.\n\n**Treatment**: therapeutic anticoagulation (LMWH, a DOAC, or unfractionated heparin if bleeding risk is high and rapid reversal may be needed), weighing bleeding risk from the fresh surgical site with the surgeon. Massive PE with shock may need thrombolysis or catheter or surgical embolectomy after senior discussion. Provoked postoperative VTE is usually treated for about **3 months**."
+        },
+        {
+          "kind": "management",
+          "heading": "Surgical antibiotic prophylaxis (eTG principles)",
+          "body": "Prophylaxis aims to achieve an effective tissue concentration **at the moment of incision** and during the operation. It does not replace sterile technique and is **not** a treatment course.\n\n**Core rules**\n- **Indication**: clean-contaminated and contaminated operations, and clean operations where infection would be catastrophic or implants are inserted (joint replacement, vascular grafts, mesh in some units). Many clean operations without implants need none.\n- **Drug**: **cefazolin** IV is first line for most procedures (covers skin staphylococci and streptococci). Usual adult dose is **2 g** (higher in patients of large body weight, around 120 kg or more). For operations entering the colon, the appendix or involving anaerobes, **add metronidazole**.\n- **Timing**: give **within 60 minutes before skin incision** (ideally at induction). Vancomycin needs a longer infusion, so start it earlier (60 to 120 minutes before).\n- **Duration**: **single dose** for most operations. **Redose** for prolonged surgery (cefazolin roughly every 4 hours) or major blood loss. Continuing antibiotics for days afterwards adds resistance, C. difficile and adverse effects without reducing infection.\n- **Penicillin allergy**: take a proper history. Patients with a non-severe, non-immediate rash can usually receive cefazolin. For immediate severe hypersensitivity (anaphylaxis) or severe cutaneous reactions, use **clindamycin** or **vancomycin** per eTG.\n- **MRSA colonisation**: add or substitute **vancomycin**.\n\n**Other infection-prevention measures**: hair removal with clippers (not razors) if needed, skin antisepsis with alcohol-based chlorhexidine, normothermia, glucose control, and stopping smoking.\n\nTreating an **established infection** (a perforated appendix with peritonitis) is different: that is a therapeutic course, not prophylaxis."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Postoperative breathlessness and tachycardia on day 6: **CTPA**, not D-dimer.\n- Epidural in situ and the question asks about LMWH timing: the concern is **spinal epidural haematoma**; follow the anaesthetic gap.\n- Platelets fall from 250 to 90 on day 7 of enoxaparin with a new DVT: **HIT**; stop heparin and use a non-heparin anticoagulant.\n- \"Most appropriate antibiotic prophylaxis for elective laparoscopic cholecystectomy / hernia repair / hip replacement\": **cefazolin single dose within 60 minutes before incision**; for colorectal surgery, **cefazolin plus metronidazole**.\n- A surgeon wants 5 days of post-op antibiotics after a clean hernia repair: not indicated.\n- History of mild rash with amoxicillin as a child: **cefazolin can usually be given**."
+        }
+      ],
+      "keyPoints": [
+        "Assess VTE and bleeding risk in every surgical patient; document it.",
+        "Combine mobilisation, mechanical methods and pharmacological prophylaxis according to risk.",
+        "Use mechanical methods alone when bleeding risk is high; respect neuraxial timing gaps for LMWH.",
+        "Extended prophylaxis follows hip and knee arthroplasty, hip fracture surgery and major cancer surgery.",
+        "D-dimer is unhelpful after surgery; image directly (duplex ultrasound or CTPA).",
+        "Surgical prophylaxis: usually cefazolin 2 g IV within 60 minutes before incision, single dose; add metronidazole for colorectal surgery.",
+        "Redose for long operations or major blood loss; do not continue antibiotics for days afterwards."
+      ],
+      "redFlags": [
+        "Sudden breathlessness, pleuritic pain, tachycardia or hypoxia after surgery",
+        "Unilateral leg swelling after surgery",
+        "Falling platelets with new thrombosis on heparin (HIT)",
+        "Back pain or new leg weakness after neuraxial anaesthesia on anticoagulation (spinal epidural haematoma)",
+        "History of anaphylaxis to a beta-lactam before prophylaxis"
+      ],
+      "contrast": [
+        {
+          "aspect": "Duration of surgical antibiotic prophylaxis",
+          "india": "Several days of postoperative antibiotics after clean surgery are common.",
+          "australia": "eTG: single preoperative dose (usually cefazolin) within 60 minutes of incision; redose only for prolonged surgery or major blood loss."
+        },
+        {
+          "aspect": "VTE risk assessment",
+          "india": "Prophylaxis mainly for orthopaedic and oncological surgery, often not systematically documented.",
+          "australia": "ACSQHC VTE Prevention Clinical Care Standard: every admitted patient has a documented risk assessment and a prophylaxis plan."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "First-line surgical antibiotic prophylaxis for most operations in Australia?",
+          "back": "Cefazolin IV (usually 2 g), single dose within 60 minutes before incision."
+        },
+        {
+          "front": "What is added to cefazolin for colorectal surgery prophylaxis?",
+          "back": "Metronidazole (anaerobic cover)."
+        },
+        {
+          "front": "Why is D-dimer unhelpful for suspected VTE after surgery?",
+          "back": "It is almost always raised after surgery, so a positive result has no diagnostic value."
+        },
+        {
+          "front": "Typical standard-dose enoxaparin for VTE prophylaxis in an adult with normal renal function?",
+          "back": "40 mg subcutaneously once daily (adjust for renal function and weight)."
+        },
+        {
+          "front": "Features of heparin-induced thrombocytopenia?",
+          "back": "Platelets fall more than 50% about 5-10 days after starting heparin, with thrombosis; stop all heparin."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "perioperative--vte-and-antibiotic-prophylaxis--q1",
+          "discipline": "adult-surgery",
+          "topic": "perioperative",
+          "difficulty": "foundation",
+          "stem": "A 52-year-old woman is having an elective laparoscopic cholecystectomy. She has no drug allergies and weighs 78 kg.\n\nWhich antibiotic prophylaxis regimen is most appropriate?",
+          "options": [
+            "Vancomycin 1.5 g IV at the end of the operation",
+            "No antibiotic prophylaxis and oral cefalexin if a wound infection develops",
+            "Amoxicillin-clavulanate orally for 5 days after surgery",
+            "Cefazolin 2 g IV within 60 minutes before skin incision, as a single dose",
+            "Ceftriaxone 1 g IV daily for 3 days starting at induction"
+          ],
+          "answer": 3,
+          "explanation": "Cholecystectomy is clean-contaminated surgery (the biliary tract is entered), so prophylaxis is indicated in line with eTG. The standard agent is **cefazolin 2 g IV** given **within 60 minutes before incision** so tissue levels are high when the skin is cut. A **single dose** is enough unless the operation is prolonged or blood loss is large.\n\nProlonged postoperative courses do not reduce infection and increase resistance, C. difficile and adverse effects. Antibiotic given at the end of surgery is too late. Vancomycin is reserved for MRSA colonisation or severe beta-lactam allergy.",
+          "whyWrong": [
+            "Prophylaxis given after the operation is too late, and vancomycin is not first line.",
+            "Clean-contaminated biliary surgery is an indication for prophylaxis.",
+            "Postoperative oral courses are treatment-length and do not provide tissue levels at incision.",
+            "",
+            "Ceftriaxone for 3 days is broader and longer than needed."
+          ],
+          "tags": [
+            "antibiotic prophylaxis",
+            "cefazolin",
+            "etg"
+          ]
+        },
+        {
+          "id": "perioperative--vte-and-antibiotic-prophylaxis--q2",
+          "discipline": "adult-surgery",
+          "topic": "perioperative",
+          "difficulty": "core",
+          "stem": "A 68-year-old man is on day 6 after an open right hemicolectomy for colon cancer. He becomes suddenly short of breath with right-sided pleuritic chest pain. Heart rate 116/min, blood pressure 128/78 mmHg, respiratory rate 26/min, SpO2 89% on room air. Chest examination is unremarkable. ECG shows sinus tachycardia.\n\nWhat is the most appropriate investigation to confirm the diagnosis?",
+          "options": [
+            "Chest X-ray alone",
+            "CT pulmonary angiogram",
+            "Serum troponin",
+            "Lower limb venous duplex ultrasound",
+            "D-dimer"
+          ],
+          "answer": 1,
+          "explanation": "Sudden pleuritic pain, breathlessness, tachycardia and hypoxia on day 6 after major abdominal **cancer** surgery make **pulmonary embolism** the leading diagnosis. He is haemodynamically stable, so the confirmatory test is a **CT pulmonary angiogram**.\n\n**D-dimer is not useful after surgery**: it is almost always elevated, so a positive result adds nothing and a negative one is unlikely. A chest X-ray is often normal in PE (useful for other causes but does not confirm PE). Troponin may rise with right heart strain but is not diagnostic. Leg ultrasound can support the diagnosis if CTPA is contraindicated but does not assess the lungs.",
+          "whyWrong": [
+            "Chest X-ray is often normal in PE and cannot confirm it.",
+            "",
+            "Troponin is non-specific and does not confirm PE.",
+            "A negative leg ultrasound would not exclude PE.",
+            "D-dimer is almost always raised after surgery and cannot confirm or exclude PE here."
+          ],
+          "tags": [
+            "pulmonary embolism",
+            "postoperative",
+            "ctpa"
+          ]
+        },
+        {
+          "id": "perioperative--vte-and-antibiotic-prophylaxis--q3",
+          "discipline": "adult-surgery",
+          "topic": "perioperative",
+          "difficulty": "exam",
+          "stem": "A 71-year-old woman has been receiving enoxaparin 40 mg subcutaneously daily since an emergency laparotomy 8 days ago. Her platelet count was 260 x 10^9/L before surgery and is now 95 x 10^9/L. Today she has developed a swollen, tender left calf, and duplex ultrasound confirms a popliteal DVT.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Transfuse platelets and continue enoxaparin",
+            "Insert an inferior vena cava filter and continue prophylactic enoxaparin",
+            "Increase enoxaparin to a therapeutic dose",
+            "Change to an unfractionated heparin infusion",
+            "Stop all heparin and start a non-heparin anticoagulant with haematology advice"
+          ],
+          "answer": 4,
+          "explanation": "A platelet fall of more than 50% occurring **5 to 10 days** after starting heparin, together with **new thrombosis**, is classic **heparin-induced thrombocytopenia**. HIT is an immune reaction against heparin-platelet factor 4 complexes that activates platelets, so it causes clots rather than bleeding.\n\n**All heparin** must stop, including LMWH, unfractionated heparin and heparin flushes, and a **non-heparin anticoagulant** is started with haematology guidance while HIT antibody testing is sent. Platelet transfusion may worsen thrombosis. IVC filters do not treat the underlying prothrombotic state.",
+          "whyWrong": [
+            "Platelet transfusion can worsen thrombosis in HIT and heparin must stop.",
+            "A filter does not address HIT and heparin must stop.",
+            "Continuing heparin in HIT fuels further thrombosis.",
+            "Unfractionated heparin also causes HIT and must be avoided.",
+            ""
+          ],
+          "tags": [
+            "hit",
+            "vte",
+            "heparin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "perioperative--fluids-and-electrolytes",
+      "title": "Perioperative fluids, electrolytes and oliguria",
+      "minutes": 18,
+      "objectives": [
+        "Prescribe maintenance fluids from daily water, sodium, potassium and glucose requirements",
+        "Choose between balanced crystalloids and 0.9% saline and explain the difference",
+        "Recognise and correct common postoperative electrolyte disturbances, especially hyponatraemia and hypokalaemia",
+        "Assess and manage postoperative oliguria systematically"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Fluids are a drug",
+          "body": "Intravenous fluids are prescribed by junior doctors every day, and errors are common. Too little causes hypovolaemia and acute kidney injury; too much causes oedema, ileus, anastomotic problems and pulmonary oedema; the wrong type causes hyponatraemia or hyperchloraemic acidosis. Modern surgical care (including **Enhanced Recovery After Surgery**, ERAS) aims to keep patients near **euvolaemia**: short fasting, early oral intake and stopping IV fluids as soon as the patient can drink.\n\nEvery IV fluid prescription should answer: **Why** (resuscitation, replacement or maintenance)? **What** fluid? **How much and how fast**? **When to review**?"
+        },
+        {
+          "kind": "concepts",
+          "heading": "The fluids and the daily requirements",
+          "body": "**Common crystalloids** (approximate composition per litre)\n\n| Fluid | Na+ (mmol) | K+ (mmol) | Cl- (mmol) | Other |\n|---|---|---|---|---|\n| 0.9% sodium chloride | 154 | 0 | 154 | |\n| Compound sodium lactate (Hartmann's) | 131 | 5 | 111 | Lactate 29, calcium 2 |\n| Plasma-Lyte 148 | 140 | 5 | 98 | Acetate, gluconate, magnesium |\n| 5% glucose | 0 | 0 | 0 | 50 g glucose; effectively free water |\n| 4% glucose + 0.18% NaCl | 31 | 0 | 31 | Hypotonic once glucose is metabolised |\n\n**Balanced crystalloids** (Hartmann's, Plasma-Lyte) have chloride closer to plasma. Large volumes of **0.9% saline** cause **hyperchloraemic metabolic acidosis** and are associated with more kidney injury, so balanced solutions are generally preferred for resuscitation and replacement in surgical patients. Saline remains preferred in some situations (e.g. hypochloraemic alkalosis from vomiting, traumatic brain injury).\n\n**Maintenance requirements in adults** (for a patient who cannot drink; widely used figures from NICE guidance, which Australian hospitals commonly follow):\n- **Water**: about **25 to 30 mL/kg/day**\n- **Sodium**: about **1 mmol/kg/day**\n- **Potassium**: about **1 mmol/kg/day**\n- **Glucose**: about **50 to 100 g/day** to limit starvation ketosis (this is not nutrition)\n\nExample: a 70 kg adult needs roughly 2 L water, 70 mmol sodium, 70 mmol potassium and 50 to 100 g glucose per day. Use less (for example 20 to 25 mL/kg/day) in older or frail patients, heart failure, renal impairment or malnutrition.\n\n**Replacement**: add ongoing losses on top of maintenance: nasogastric aspirates and vomiting (rich in chloride and potassium), high-output stomas and fistulae (sodium, potassium, bicarbonate), drains, and insensible losses from fever.\n\n**Resuscitation**: for hypovolaemia give a **bolus of balanced crystalloid**, commonly **250 to 500 mL** over up to 15 minutes, then **reassess** (heart rate, blood pressure, capillary refill, urine output, lactate, JVP, lungs) before repeating. For haemorrhage, blood products and bleeding control matter more than crystalloid."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why surgical patients become hyponatraemic",
+          "body": "Surgery, pain, nausea and opioids all stimulate **ADH (antidiuretic hormone)** release. For the first day or two after surgery, patients retain free water. If they are then given **hypotonic** fluid (5% glucose, or 4% glucose with 0.18% saline), the retained free water dilutes plasma sodium.\n\nThis **postoperative hyponatraemia** can cause headache, nausea, confusion, seizures and death. Premenopausal women and children are particularly vulnerable to cerebral oedema. This is why:\n- Hypotonic fluids are **avoided** for routine postoperative maintenance in adults unless sodium is monitored and there is a clear reason.\n- Electrolytes are checked **daily** while a patient is on IV fluids.\n\nOther key disturbances:\n- **Hypokalaemia**: common after vomiting, NG losses, diarrhoea and diuretics, and it worsens **ileus** and predisposes to **arrhythmias** (especially with digoxin or in cardiac surgery). Low magnesium makes it refractory; correct both.\n- **Hyperkalaemia**: AKI, potassium-containing fluids in renal failure, tissue injury, blood transfusion, drugs (ACE inhibitors, spironolactone, NSAIDs).\n- **Refeeding syndrome**: in malnourished patients (alcohol, anorexia, cancer, prolonged fasting) restarting nutrition drives phosphate, potassium and magnesium into cells; **hypophosphataemia** causes weakness, respiratory failure and arrhythmias. Give thiamine before feeding, start slowly and monitor electrolytes."
+        },
+        {
+          "kind": "management",
+          "heading": "Correcting electrolytes safely",
+          "body": "**Hyponatraemia**\n- Assess volume status and symptoms. Stop hypotonic fluids.\n- **Severe symptoms** (seizures, reduced consciousness): senior help and hypertonic (3%) saline in a monitored setting.\n- Mild asymptomatic: fluid restriction if euvolaemic (SIADH pattern), isotonic fluid if hypovolaemic.\n- Avoid overcorrection: limit the rise in sodium to about **8 to 10 mmol/L in 24 hours** to avoid **osmotic demyelination syndrome**, especially in chronic hyponatraemia, alcoholism and malnutrition.\n\n**Hypokalaemia**\n- Oral potassium if the patient can take it; IV potassium in premixed bags when not.\n- Peripheral IV potassium is limited in rate and concentration (commonly no faster than about 10 mmol/hour outside a monitored area); higher rates need cardiac monitoring and usually a central line. Follow hospital policy. **Never** give potassium as an IV push.\n- Check and replace magnesium.\n\n**Hyperkalaemia** (for example K+ over 6.5 mmol/L or ECG changes: peaked T waves, widened QRS)\n1. **Calcium gluconate 10% IV** to stabilise the myocardium (does not lower potassium).\n2. **Insulin with glucose** IV and nebulised **salbutamol** to shift potassium into cells.\n3. Remove potassium: stop the cause, treat AKI, potassium binders, and dialysis if refractory.\n4. Repeat the ECG and potassium; monitor glucose after insulin."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Postoperative oliguria: a systematic approach",
+          "body": "**Oliguria** is urine output below about **0.5 mL/kg/hour** (roughly under 35 mL/hour in a 70 kg adult) for several hours. It is a common night call and a common AMC question. Think **post-renal, pre-renal, renal**, and check the easy things first.\n\n**1. Post-renal (check first; easiest to fix)**\n- **Blocked or kinked catheter**: flush it or replace it.\n- No catheter: **urinary retention** (bladder scan). Common after spinal anaesthesia, opioids, anticholinergics, pain, in older men with prostatic enlargement. Catheterise.\n\n**2. Pre-renal (most common)**\n- Hypovolaemia: inadequate replacement, bleeding, third-space losses, vomiting or NG losses, sepsis with vasodilation, cardiac failure.\n- Signs: tachycardia, hypotension, cool peripheries, prolonged capillary refill, low JVP, rising urea out of proportion to creatinine, concentrated urine.\n- Management: fluid challenge (250 to 500 mL balanced crystalloid) and reassess; find and treat the cause (bleeding, sepsis, anastomotic leak).\n\n**3. Renal (intrinsic AKI)**\n- Prolonged hypoperfusion (acute tubular necrosis), sepsis, nephrotoxins (**NSAIDs, aminoglycosides, IV contrast**), ACE inhibitors or ARBs in a hypovolaemic patient, rhabdomyolysis.\n- Stop nephrotoxins, adjust drug doses for renal function, avoid fluid overload once volume is replete, check electrolytes and potassium.\n\n**Also consider**: intra-abdominal hypertension after major abdominal surgery or trauma (tense abdomen, rising airway pressures, oliguria; measure bladder pressure).\n\n**What not to do**: giving **frusemide** to \"make urine\" in a hypovolaemic patient worsens kidney injury. Diuretics are only for fluid overload.\n\n**Indications for urgent dialysis** (AEIOU): refractory **A**cidosis, **E**lectrolytes (refractory hyperkalaemia), **I**ntoxication (certain toxins), fluid **O**verload unresponsive to diuretics, **U**raemic complications (pericarditis, encephalopathy)."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Confused, nauseated woman with **Na 121 mmol/L** on day 2 after surgery who has been on 5% glucose: **iatrogenic hyponatraemia from hypotonic fluid plus ADH**; stop hypotonic fluid.\n- **Oliguria on the ward at night** with a catheter in situ: the first step is to **check and flush the catheter**, then assess volume status.\n- Hypotensive, oliguric patient: **fluid bolus and reassess**, not frusemide.\n- Paralytic ileus persisting on day 5: check **potassium and magnesium**.\n- Large volumes of saline and a normal anion gap metabolic acidosis: **hyperchloraemic acidosis**.\n- Peaked T waves: **calcium gluconate** first."
+        }
+      ],
+      "keyPoints": [
+        "Every fluid prescription is resuscitation, replacement or maintenance, with a review time.",
+        "Adult maintenance: about 25-30 mL/kg/day water, 1 mmol/kg/day sodium and potassium, 50-100 g/day glucose.",
+        "Balanced crystalloids are generally preferred; large volumes of saline cause hyperchloraemic acidosis.",
+        "Postoperative ADH release plus hypotonic fluid causes dangerous hyponatraemia; check electrolytes daily.",
+        "Correct sodium by no more than about 8-10 mmol/L in 24 hours.",
+        "Oliguria (under 0.5 mL/kg/h): check the catheter or bladder first, then volume status, then intrinsic renal causes.",
+        "Never give frusemide to a hypovolaemic oliguric patient; never push IV potassium.",
+        "Hyperkalaemia with ECG changes: calcium gluconate first, then insulin-glucose and salbutamol."
+      ],
+      "redFlags": [
+        "Seizure or reduced consciousness with hyponatraemia",
+        "Hyperkalaemia with ECG changes (peaked T waves, broad QRS)",
+        "Oliguria with hypotension and tachycardia (bleeding or sepsis)",
+        "Tense abdomen with oliguria after major abdominal surgery (abdominal compartment syndrome)",
+        "Malnourished patient restarting feeding (refeeding syndrome)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Routine postoperative maintenance fluid",
+          "india": "Dextrose-saline (DNS) or 5% dextrose alternating with saline is widely used.",
+          "australia": "Balanced crystalloids are preferred; hypotonic fluids are avoided after surgery because of ADH-driven hyponatraemia, with daily electrolytes."
+        },
+        {
+          "aspect": "Early oral intake",
+          "india": "Patients are often kept nil by mouth until bowel sounds or flatus return.",
+          "australia": "ERAS pathways encourage early oral fluids and diet after most operations, with IV fluids stopped as soon as possible."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Adult daily maintenance water requirement?",
+          "back": "About 25-30 mL/kg/day."
+        },
+        {
+          "front": "Adult daily maintenance sodium and potassium?",
+          "back": "About 1 mmol/kg/day of each."
+        },
+        {
+          "front": "Definition of oliguria?",
+          "back": "Urine output under about 0.5 mL/kg/hour."
+        },
+        {
+          "front": "Maximum safe rate of sodium correction in hyponatraemia?",
+          "back": "About 8-10 mmol/L in 24 hours (risk of osmotic demyelination)."
+        },
+        {
+          "front": "First drug for hyperkalaemia with ECG changes?",
+          "back": "10% calcium gluconate IV (stabilises the myocardium)."
+        },
+        {
+          "front": "Sodium and chloride content of Hartmann's solution?",
+          "back": "Na about 131 mmol/L, Cl about 111 mmol/L (plus K 5, lactate 29)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "perioperative--fluids-and-electrolytes--q1",
+          "discipline": "adult-surgery",
+          "topic": "perioperative",
+          "difficulty": "core",
+          "stem": "A 38-year-old woman is on day 2 after a laparoscopic hysterectomy. She has had nausea and has been charted 5% glucose at 125 mL/hour since surgery. Overnight she became confused and has a headache. Blood pressure 132/80 mmHg, heart rate 84/min. She appears euvolaemic. Sodium is 120 mmol/L (preoperative 139 mmol/L).\n\nWhat is the most likely cause of her hyponatraemia?",
+          "options": [
+            "Syndrome of inappropriate ADH from occult lung cancer",
+            "Adrenal insufficiency",
+            "Excess free water from hypotonic fluid combined with postoperative ADH release",
+            "Hyperglycaemia causing pseudohyponatraemia",
+            "Cerebral salt wasting"
+          ],
+          "answer": 2,
+          "explanation": "Surgery, pain, nausea and opioids stimulate **ADH**, so postoperative patients retain free water. Giving **5% glucose**, which is effectively free water once the glucose is metabolised, at 3 L/day lets that water accumulate and dilutes plasma sodium. A fall from 139 to 120 mmol/L over two days with confusion and headache is **acute iatrogenic hyponatraemia**, and premenopausal women are particularly vulnerable to cerebral oedema.\n\nManagement: stop the hypotonic fluid, seek senior help, and treat severe symptoms with hypertonic saline in a monitored setting, avoiding overcorrection. This is why hypotonic fluids are avoided for routine postoperative maintenance and why daily electrolytes are checked.",
+          "whyWrong": [
+            "Nothing suggests malignancy; the timing and fluid chart explain it.",
+            "Adrenal insufficiency would usually cause hypotension and hyperkalaemia.",
+            "",
+            "Pseudohyponatraemia needs marked hyperglycaemia, not suggested here.",
+            "Cerebral salt wasting follows intracranial pathology and causes hypovolaemia."
+          ],
+          "tags": [
+            "hyponatraemia",
+            "iv fluids",
+            "postoperative"
+          ]
+        },
+        {
+          "id": "perioperative--fluids-and-electrolytes--q2",
+          "discipline": "adult-surgery",
+          "topic": "perioperative",
+          "difficulty": "foundation",
+          "stem": "You are the night intern. A nurse calls about a 76-year-old man on day 1 after an open right hemicolectomy. His urine output has been 10 mL/hour for the last 3 hours via an indwelling urinary catheter. Heart rate 88/min, blood pressure 134/76 mmHg, and he looks comfortable.\n\nWhat is the most appropriate first step?",
+          "options": [
+            "Check the catheter for blockage and flush it",
+            "Give 1 L of 0.9% saline over 1 hour",
+            "Arrange an urgent renal ultrasound",
+            "Increase maintenance fluids to 200 mL/hour",
+            "Give frusemide 40 mg IV"
+          ],
+          "answer": 0,
+          "explanation": "Assess oliguria as **post-renal, pre-renal, renal**, and start with the simplest reversible cause. An abrupt drop in output in a catheterised patient is often a **blocked or kinked catheter**, so check the tubing and bag, and **flush** the catheter (or bladder scan). If output does not recover, assess volume status and give a fluid challenge of about 250 to 500 mL balanced crystalloid with reassessment.\n\nFrusemide in a patient who may be hypovolaemic worsens kidney injury. A litre of saline without assessment risks overload in an older man, and ultrasound comes later if obstruction higher up is suspected.",
+          "whyWrong": [
+            "",
+            "Large boluses without assessment risk overload; exclude a blocked catheter first.",
+            "Renal ultrasound is not the first step; check the catheter at the bedside.",
+            "Increasing maintenance fluid without assessment is not a systematic approach.",
+            "Diuretics are harmful in pre-renal oliguria and do not address a blocked catheter."
+          ],
+          "tags": [
+            "oliguria",
+            "catheter",
+            "ward call"
+          ]
+        },
+        {
+          "id": "perioperative--fluids-and-electrolytes--q3",
+          "discipline": "adult-surgery",
+          "topic": "perioperative",
+          "difficulty": "exam",
+          "stem": "A 59-year-old man is on day 4 after a Whipple procedure. He has a nasogastric tube draining 1.8 L/day of bilious fluid and is on IV maintenance fluids. His abdomen is distended with absent bowel sounds and no peritonism. Bloods: sodium 136 mmol/L, potassium 2.9 mmol/L, magnesium 0.52 mmol/L (normal 0.70-1.10), creatinine normal. ECG shows U waves.\n\nWhat is the most appropriate management of his electrolytes?",
+          "options": [
+            "Give calcium gluconate 10% IV",
+            "Give 20 mmol potassium chloride as an IV push",
+            "Replace potassium alone orally",
+            "Replace magnesium and potassium intravenously and account for ongoing NG losses",
+            "Start spironolactone"
+          ],
+          "answer": 3,
+          "explanation": "High nasogastric losses deplete **potassium** and **magnesium**, and hypokalaemia worsens **paralytic ileus** and causes arrhythmias (U waves on the ECG). **Hypomagnesaemia** makes hypokalaemia refractory because magnesium is needed to stop renal potassium wasting, so both must be replaced.\n\nHe cannot absorb oral supplements reliably with an ileus and large NG output, so **IV replacement** is appropriate, at a safe rate per hospital policy (typically about 10 mmol/hour peripherally outside a monitored area). His fluid prescription should also **replace NG losses** on top of maintenance. Potassium must **never** be given as an IV push because it can cause cardiac arrest.",
+          "whyWrong": [
+            "Calcium gluconate is for hyperkalaemia, not hypokalaemia.",
+            "IV potassium push can cause fatal arrhythmia.",
+            "Oral replacement is unreliable with ileus and ignores the low magnesium.",
+            "",
+            "Spironolactone is not a treatment for acute hypokalaemia."
+          ],
+          "tags": [
+            "hypokalaemia",
+            "ileus",
+            "magnesium"
+          ]
+        },
+        {
+          "id": "perioperative--fluids-and-electrolytes--q4",
+          "discipline": "adult-surgery",
+          "topic": "perioperative",
+          "difficulty": "core",
+          "stem": "A 45-year-old man is 6 hours post laparoscopic appendicectomy. He weighs 80 kg and cannot yet drink because of nausea. He has normal renal and cardiac function and normal electrolytes.\n\nWhich 24-hour maintenance fluid prescription best matches his requirements?",
+          "options": [
+            "3 L 5% glucose",
+            "About 2-2.4 L in total, providing about 80 mmol sodium, 80 mmol potassium and 50-100 g glucose",
+            "4 L Hartmann's solution",
+            "500 mL 4% albumin and 1 L 5% glucose",
+            "1 L 0.9% sodium chloride only"
+          ],
+          "answer": 1,
+          "explanation": "Adult maintenance requirements are roughly **25 to 30 mL/kg/day water** (2 to 2.4 L for 80 kg), **1 mmol/kg/day sodium and potassium** (about 80 mmol each) and **50 to 100 g glucose** to limit starvation ketosis.\n\nThe prescription giving about 2-2.4 L with those electrolytes matches this. 3 L of 5% glucose provides no sodium or potassium and risks hyponatraemia with postoperative ADH. 4 L of Hartmann's is excessive in volume and sodium. 1 L of saline is too little water and provides no potassium or glucose. Colloids have no role in routine maintenance.\n\nReview daily, check electrolytes, and switch to oral intake as soon as he can drink.",
+          "whyWrong": [
+            "Pure 5% glucose provides no electrolytes and risks hyponatraemia.",
+            "",
+            "4 L is excessive for maintenance and risks overload.",
+            "Albumin is not a maintenance fluid.",
+            "1 L is too little water and provides no potassium or glucose."
+          ],
+          "tags": [
+            "maintenance fluids",
+            "prescribing",
+            "iv fluids"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "perioperative--postoperative-complications",
+      "title": "Postoperative complications: fever, delirium and the deteriorating patient",
+      "minutes": 20,
+      "objectives": [
+        "Use the timing of postoperative fever to generate and test a differential diagnosis",
+        "Assess postoperative confusion as delirium and search for its reversible causes",
+        "Recognise anastomotic leak, wound complications and postoperative haemorrhage early",
+        "Plan multimodal, opioid-sparing analgesia and manage nausea, urinary retention and ileus"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The ward call after surgery",
+          "body": "Most of an intern's surgical work is recognising when a postoperative patient is going off track. Australian hospitals use **early warning charts** (for example \"Between the Flags\" in NSW and similar colour-zoned observation charts elsewhere) that trigger a clinical review or a **rapid response (MET) call** when vital signs cross set thresholds. Deterioration is often visible hours before a crisis: rising respiratory rate, tachycardia, falling urine output, new confusion.\n\nThe ACSQHC **Recognising and Responding to Acute Deterioration** standard also lets patients and families escalate concerns directly. The AMC tests your ability to put timing, symptoms and signs together to name the complication."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Postoperative fever by timing",
+          "body": "A low-grade fever in the first 24 to 48 hours is common and usually reflects the **inflammatory response to surgery**. Timing is the most useful clue.\n\n| Timing | Common causes | Clues |\n|---|---|---|\n| **Intraoperative to hours** | **Malignant hyperthermia**, transfusion reaction, drug reaction, pre-existing sepsis | Rising end-tidal CO2, rigidity, tachycardia (MH) |\n| **Day 0-2** | Systemic inflammatory response; **atelectasis** (classically taught, though it is a weak cause of fever); aspiration | Reduced basal air entry, low SpO2 |\n| **Early rapid, day 1-2** | **Necrotising soft tissue infection** (group A strep, clostridia) | Pain out of proportion, dusky skin, crepitus, systemic toxicity |\n| **Day 3-5** | **Pneumonia**, **UTI** (catheters), **IV cannula phlebitis** | Cough, sputum, dysuria, red cannula site |\n| **Day 5-7** | **Wound infection**, **anastomotic leak**, intra-abdominal abscess | Wound erythema and discharge; abdominal pain, ileus, tachycardia |\n| **Day 5-10+** | **DVT/PE**, drug fever, **C. difficile** colitis | Leg swelling, hypoxia; diarrhoea after antibiotics |\n\nThe traditional mnemonic is the **5 Ws**: Wind (lungs), Water (urine), Wound, Walking (VTE), Wonder drugs (drug fever). Add **\"What did we do?\"**: anastomotic leak, abscess, infected line.\n\n**Workup**: examine the chest, wound, cannula sites, calves and abdomen; FBC, CRP, blood cultures if systemically unwell, urine MC&S if symptomatic, chest X-ray if respiratory signs, and **CT** if intra-abdominal sepsis is suspected. Treat the cause rather than reflexly starting antibiotics for day 1 fever.\n\n**Malignant hyperthermia**: a pharmacogenetic reaction to volatile anaesthetics and suxamethonium causing hypermetabolism (rising end-tidal CO2, tachycardia, rigidity, hyperthermia, hyperkalaemia, rhabdomyolysis). Stop the trigger, call for help and give **dantrolene**. Family members need referral for testing."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Anastomotic leak, bleeding and wound problems",
+          "body": "**Anastomotic leak** (typically day 5-7 after bowel surgery, earlier in some): new or worsening abdominal pain, **persistent tachycardia**, fever, prolonged ileus, rising CRP, atrial fibrillation, oliguria, confusion, or feculent drain output. Tachycardia is often the earliest sign. Investigate with **CT abdomen with contrast**; manage with resuscitation, IV antibiotics and early senior surgical review, as many need return to theatre.\n\n**Postoperative haemorrhage**\n- **Primary**: during surgery.\n- **Reactionary**: within 24 hours, as blood pressure rises and a vessel or ligature slips: tachycardia, hypotension, drain output, expanding haematoma, falling haemoglobin.\n- **Secondary**: 7-10 days, usually from infection eroding a vessel.\n- Management: ABC, large-bore access, crossmatch, correct coagulopathy and reverse anticoagulants, and return to theatre if needed. A neck haematoma after thyroidectomy causing stridor needs the wound opened at the bedside (remove skin clips and sutures) before transfer to theatre.\n\n**Wound complications**\n- **Surgical site infection**: erythema, warmth, discharge, usually day 5-7. Superficial: open and drain, antibiotics if cellulitis (per eTG). Deep or organ-space: imaging and drainage.\n- **Wound dehiscence**: serosanguinous (\"salmon-pink\") discharge around day 7-10 often precedes **fascial dehiscence**. A burst abdomen with visible bowel: cover with saline-soaked sterile dressing, analgesia, and return to theatre.\n- Risk factors: obesity, diabetes, smoking, steroids, malnutrition, emergency surgery, infection, raised intra-abdominal pressure.\n\n**Other cardiorespiratory complications**: basal atelectasis and pneumonia (encourage mobilisation, deep breathing, adequate analgesia), aspiration, pulmonary oedema from fluid overload, **postoperative MI** (often painless; think of it with unexplained hypotension, breathlessness or arrhythmia; check ECG and troponin), and new AF (look for a trigger: sepsis, leak, electrolyte disturbance, hypovolaemia)."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Postoperative confusion: delirium until proven otherwise",
+          "body": "**Delirium** is an acute, fluctuating disturbance of **attention** and awareness with disorganised thinking. It affects many older patients after surgery (especially hip fracture surgery) and is associated with longer stay, institutionalisation and death. It can be **hyperactive** (agitated, pulling at lines), **hypoactive** (quiet, drowsy, easily missed) or mixed.\n\n**Screen and diagnose**: the **4AT** or **Confusion Assessment Method (CAM)**. Compare with the baseline from family or carers: dementia is chronic and attention is relatively preserved early; delirium is acute and fluctuating.\n\n**Find the cause** (usually more than one). A practical checklist:\n\n| Cause | What to check |\n|---|---|\n| **Hypoxia** | SpO2, respiratory rate, chest (atelectasis, pneumonia, PE, pulmonary oedema) |\n| **Hypoglycaemia or hyperglycaemia** | Capillary glucose (immediately) |\n| **Urinary retention and constipation** | Bladder scan, bowel chart |\n| **Drugs** | Opioids, benzodiazepines, anticholinergics, sedating antihistamines, steroids; missed regular drugs |\n| **Withdrawal** | **Alcohol** (typically 1-3 days after last drink), benzodiazepines, nicotine |\n| **Infection and sepsis** | Chest, urine, wound, lines, leak |\n| **Electrolytes and organ failure** | Sodium, calcium, urea, creatinine, LFTs |\n| **Pain** | Undertreated pain in patients who cannot express it |\n| **Cardiac or neurological events** | MI, arrhythmia, stroke |\n| **Environment** | Sleep deprivation, sensory loss (glasses, hearing aids), unfamiliar surroundings |\n\n**Alcohol withdrawal**: tremor, sweating, anxiety and tachycardia, then hallucinations and seizures; **delirium tremens** peaks around 2-4 days after the last drink. Use a withdrawal scale, give **thiamine before glucose** to prevent Wernicke's encephalopathy, and use benzodiazepines per protocol."
+        },
+        {
+          "kind": "management",
+          "heading": "Managing delirium, pain and other common problems",
+          "body": "**Delirium management** (ACSQHC Delirium Clinical Care Standard)\n- Treat the causes. Stop or reduce deliriogenic drugs.\n- Non-drug measures first: orientation, family presence, glasses and hearing aids, sleep hygiene, mobilisation, hydration, bowel and bladder care, a calm consistent environment.\n- Avoid physical restraints and routine sedation. Use **low-dose antipsychotic** only if the patient is severely distressed or at risk of harming themselves or others and non-drug measures have failed, at the lowest dose for the shortest time. **Avoid antipsychotics such as haloperidol in Parkinson's disease and Lewy body dementia.** Benzodiazepines worsen delirium except in alcohol or benzodiazepine withdrawal.\n- Prevention works: identify at-risk patients (age, dementia, frailty, hip fracture, sensory impairment) at admission.\n\n**Analgesia: multimodal and opioid-sparing**\n- Regular **paracetamol**, plus an **NSAID** if no contraindication (renal impairment, bleeding, peptic ulcer, some asthma), plus local and regional techniques (wound infiltration, nerve blocks, epidurals).\n- Opioids for moderate to severe pain, usually immediate-release oral or patient-controlled analgesia (PCA). Monitor sedation (sedation precedes respiratory depression), respiratory rate and SpO2. Naloxone reverses opioid overdose.\n- ACSQHC **Opioid Analgesic Stewardship in Acute Pain Clinical Care Standard**: avoid modified-release opioids for acute pain, prescribe the lowest effective dose for the shortest time, give a limited supply at discharge with a plan to stop, and tell the GP.\n\n**Postoperative nausea and vomiting (PONV)**: risk factors include female sex, non-smoker, history of PONV or motion sickness, and postoperative opioids. Use prophylaxis in high-risk patients (for example ondansetron, dexamethasone). Avoid metoclopramide in suspected bowel obstruction and prochlorperazine or metoclopramide in Parkinson's disease.\n\n**Urinary retention**: common after spinal anaesthesia, opioids and hernia or pelvic surgery, especially in older men. Painful distended bladder or new confusion: bladder scan and catheterise.\n\n**Paralytic ileus**: distension, vomiting, absent bowel sounds and no flatus, usually after abdominal surgery. Correct potassium and magnesium, minimise opioids, NG decompression if vomiting, and exclude mechanical obstruction or a leak if it is prolonged.\n\n**Discharge and follow-up**: a clear discharge summary to the GP (operation, complications, medication changes including anticoagulant and SGLT2 restart plans, opioid tapering, wound care, follow-up), plus safety-netting advice for the patient on when to return."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- **Day 1 fever** with no focal signs, well patient: usually the physiological response; encourage mobilisation and physiotherapy, do not start antibiotics.\n- **Day 5-7 fever with tachycardia and abdominal pain after bowel surgery**: anastomotic leak; **CT with contrast**.\n- **Pain out of proportion and dusky skin around a wound within 48 hours**: necrotising infection; urgent surgical debridement.\n- **Confused elderly man on day 2 after hip surgery**: the first step is usually to check **SpO2, glucose and bladder**, not to sedate or order a CT brain.\n- **Agitation, tremor and hallucinations on day 3** in a man who drinks heavily: **alcohol withdrawal**; thiamine and benzodiazepines.\n- Salmon-pink wound discharge on day 7: impending **fascial dehiscence**.\n- Discharge opioids: short course of immediate-release, **not** slow-release."
+        }
+      ],
+      "keyPoints": [
+        "Use timing: early inflammatory response and atelectasis, then pneumonia, UTI and cannula sites, then wound infection, leak and VTE.",
+        "Persistent tachycardia with pain and ileus around day 5-7 after bowel surgery suggests anastomotic leak; get a CT with contrast.",
+        "Postoperative confusion is delirium until proven otherwise; check oxygen, glucose, bladder, drugs, infection and withdrawal.",
+        "Treat delirium causes and use non-drug measures; reserve low-dose antipsychotics for severe distress or danger.",
+        "Multimodal analgesia with regular paracetamol and NSAID where safe; avoid slow-release opioids for acute pain.",
+        "Reactionary haemorrhage occurs within 24 hours; secondary haemorrhage at 7-10 days from infection.",
+        "Salmon-pink wound discharge warns of fascial dehiscence."
+      ],
+      "redFlags": [
+        "Persistent tachycardia after bowel surgery (anastomotic leak)",
+        "Pain out of proportion with skin changes near a wound (necrotising infection)",
+        "Rising end-tidal CO2, rigidity and hyperthermia under anaesthesia (malignant hyperthermia)",
+        "Neck swelling with stridor after thyroid surgery (haematoma)",
+        "New confusion with hypoxia or hypoglycaemia",
+        "Sedation score rising on opioids (impending respiratory depression)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Postoperative fever",
+          "india": "Empirical antibiotics are commonly started or continued for any postoperative fever.",
+          "australia": "Early fever is usually inflammatory; examine and investigate by timing, and treat the cause rather than reflexively prescribing antibiotics."
+        },
+        {
+          "aspect": "Discharge opioids",
+          "india": "Opioid prescribing is tightly restricted and patients often go home on NSAIDs or tramadol.",
+          "australia": "Opioid stewardship standard: small supply of immediate-release opioid with a stopping plan and GP communication; avoid slow-release forms for acute pain."
+        },
+        {
+          "aspect": "Escalating a deteriorating patient",
+          "india": "Escalation depends on the resident's judgment and seniority.",
+          "australia": "Track-and-trigger observation charts mandate review or a rapid response (MET) call at set thresholds; families can also escalate."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Typical timing of anastomotic leak after bowel surgery?",
+          "back": "Around day 5-7 (can be earlier); persistent tachycardia is often the first sign."
+        },
+        {
+          "front": "Specific treatment for malignant hyperthermia?",
+          "back": "Dantrolene (plus stopping the triggering agent and active cooling)."
+        },
+        {
+          "front": "Validated bedside screening tools for delirium?",
+          "back": "4AT or the Confusion Assessment Method (CAM)."
+        },
+        {
+          "front": "What wound sign heralds fascial dehiscence?",
+          "back": "Serosanguinous ('salmon-pink') discharge around day 7-10."
+        },
+        {
+          "front": "Reactionary versus secondary haemorrhage timing?",
+          "back": "Reactionary within 24 hours; secondary at about 7-10 days (usually infection)."
+        },
+        {
+          "front": "Give what before glucose in a malnourished or alcohol-dependent patient?",
+          "back": "Thiamine, to prevent Wernicke's encephalopathy."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "perioperative--postoperative-complications--q1",
+          "discipline": "adult-surgery",
+          "topic": "perioperative",
+          "difficulty": "core",
+          "stem": "An 81-year-old woman is on day 2 after a hemiarthroplasty for a fractured neck of femur. Overnight she became agitated, pulling at her cannula and not recognising her daughter. Before admission she lived alone and managed her own affairs. She is receiving oxycodone for pain. Temperature 37.4 C, heart rate 96/min, blood pressure 138/80 mmHg, respiratory rate 20/min, SpO2 95% on room air. Capillary glucose is 6.2 mmol/L.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Arrange an urgent CT scan of the brain",
+            "Give oral temazepam to help her sleep",
+            "Apply bed rails and wrist restraints",
+            "Give haloperidol 5 mg intramuscularly",
+            "Perform a bladder scan and review her medication and bowel chart"
+          ],
+          "answer": 4,
+          "explanation": "Acute, fluctuating confusion in an older woman after hip fracture surgery is **delirium**. Oxygen and glucose are already normal, so the next priorities are other common, easily reversible causes: **urinary retention** (bladder scan), **constipation**, and **drugs** such as oxycodone, along with checking for infection and electrolytes.\n\nNon-drug measures come first. Haloperidol 5 mg IM is a large dose and is only for severe distress or danger after non-drug measures fail, at low dose. Benzodiazepines such as temazepam worsen delirium. Restraints increase injury and agitation. A CT brain is only indicated with focal signs, head injury or anticoagulation.",
+          "whyWrong": [
+            "CT brain is not needed without focal neurology, a fall or anticoagulation.",
+            "Benzodiazepines worsen delirium unless treating withdrawal.",
+            "Restraints increase harm and agitation in delirium.",
+            "Antipsychotics are a last resort at low dose, not first line.",
+            ""
+          ],
+          "tags": [
+            "delirium",
+            "hip fracture",
+            "older adult"
+          ],
+          "ausPearl": "The ACSQHC Delirium Clinical Care Standard sets expectations for screening with a tool such as the 4AT and for avoiding restraints and routine antipsychotics."
+        },
+        {
+          "id": "perioperative--postoperative-complications--q2",
+          "discipline": "adult-surgery",
+          "topic": "perioperative",
+          "difficulty": "exam",
+          "stem": "A 64-year-old man is on day 6 after a laparoscopic anterior resection for rectal cancer. He had been eating but today feels unwell with increasing lower abdominal pain. Temperature 38.1 C, heart rate 122/min (it has been 105-115/min for 24 hours), blood pressure 108/66 mmHg. His abdomen is tender in the left iliac fossa with guarding. CRP has risen from 90 to 240 mg/L.\n\nWhat is the most appropriate investigation?",
+          "options": [
+            "Chest X-ray",
+            "Urine microscopy and culture",
+            "CT abdomen and pelvis with contrast",
+            "Abdominal ultrasound",
+            "Colonoscopy"
+          ],
+          "answer": 2,
+          "explanation": "Persistent and rising **tachycardia**, fever, localised peritonism and a rising CRP on **day 6** after a colorectal anastomosis point to an **anastomotic leak**. Tachycardia is often the earliest sign and should never be dismissed as pain or anxiety.\n\nThe investigation of choice is **CT abdomen and pelvis with IV (and often rectal) contrast**, which shows free fluid, gas, collections and contrast extravasation. Meanwhile he needs resuscitation, blood cultures, IV antibiotics and urgent senior surgical review; many patients return to theatre.\n\nColonoscopy risks disrupting the anastomosis. Ultrasound is limited by gas and post-operative changes. Chest X-ray and urine tests would not explain peritonism.",
+          "whyWrong": [
+            "A chest X-ray will not assess the anastomosis and free gas is expected after surgery.",
+            "His signs point to the abdomen, not the urinary tract.",
+            "",
+            "Ultrasound is limited by bowel gas and cannot reliably assess a leak.",
+            "Endoscopy risks disrupting a fresh anastomosis."
+          ],
+          "tags": [
+            "anastomotic leak",
+            "postoperative fever",
+            "colorectal"
+          ]
+        },
+        {
+          "id": "perioperative--postoperative-complications--q3",
+          "discipline": "adult-surgery",
+          "topic": "perioperative",
+          "difficulty": "foundation",
+          "stem": "A 29-year-old man is 45 minutes into a laparoscopic knee arthroscopy under general anaesthesia with sevoflurane. He was given suxamethonium at induction. The anaesthetist notes a rising end-tidal CO2 despite increased ventilation, heart rate 140/min, masseter rigidity and a temperature of 39.2 C.\n\nWhat is the specific treatment?",
+          "options": [
+            "Dantrolene IV",
+            "Neostigmine IV",
+            "Naloxone IV",
+            "Hydrocortisone IV",
+            "Paracetamol IV"
+          ],
+          "answer": 0,
+          "explanation": "A hypermetabolic crisis under a **volatile anaesthetic and suxamethonium**, with **rising end-tidal CO2**, tachycardia, rigidity and hyperthermia, is **malignant hyperthermia**, an inherited disorder of skeletal muscle calcium release (often RYR1 mutations).\n\nManagement: stop the volatile agent, call for help, hyperventilate with 100% oxygen, give **dantrolene** (which reduces calcium release from the sarcoplasmic reticulum), cool actively, and treat hyperkalaemia, acidosis and rhabdomyolysis. The patient and family need referral for testing and must be warned for future anaesthetics.\n\nRising end-tidal CO2 is often the earliest sign and is what distinguishes MH from simple fever or sepsis.",
+          "whyWrong": [
+            "",
+            "Neostigmine reverses non-depolarising neuromuscular blockade and has no role here.",
+            "Naloxone reverses opioids and would not treat this.",
+            "Hydrocortisone is for adrenal crisis, not malignant hyperthermia.",
+            "Antipyretics do not affect the muscle hypermetabolism of malignant hyperthermia."
+          ],
+          "tags": [
+            "malignant hyperthermia",
+            "anaesthesia",
+            "dantrolene"
+          ]
+        }
+      ]
+    }
+  ]
+}

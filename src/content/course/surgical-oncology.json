@@ -1,0 +1,1045 @@
+{
+  "topic": "surgical-oncology",
+  "intro": "Surgical oncology covers the solid cancers a general surgeon diagnoses and treats: colorectal, oesophagogastric, pancreatic and hepatobiliary cancers, skin cancer and soft tissue sarcoma, plus the national screening programs and Optimal Care Pathways that organise cancer care in Australia. The AMC tests whether you spot the red flags, choose the right first investigation, refer at the right urgency and use screening tests and tumour markers correctly. Bowel cancer and melanoma are especially common in Australia, so expect them often.",
+  "lessons": [
+    {
+      "id": "surgical-oncology--principles-screening",
+      "title": "Cancer pathways, screening and tumour markers",
+      "minutes": 16,
+      "objectives": [
+        "Name the four national cancer screening programs, who is eligible and what a positive result triggers",
+        "Explain how Optimal Care Pathways and multidisciplinary team meetings organise cancer care in Australia",
+        "Use tumour markers correctly: for monitoring, not for screening or diagnosis on their own",
+        "Apply general surgical oncology principles: staging, treatment intent, neoadjuvant versus adjuvant therapy and safe biopsy"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Cancer in Australia and what the AMC wants",
+          "body": "Cancer causes the largest share of the disease burden in Australia. The most commonly diagnosed cancers (leaving aside the very common non-melanoma skin cancers, which are not registered) are **prostate, breast, colorectal (bowel), melanoma and lung**. Lung cancer causes the most cancer deaths, and bowel cancer is second. Australia and New Zealand have the highest melanoma rates in the world, and one of the highest bowel cancer rates.\n\nThis is a very different mix from India, where oral and head-and-neck cancers (linked to chewing tobacco), cervical and breast cancer dominate. So in the AMC, a change in bowel habit, a new pigmented lesion or a smoker's cough should immediately make you think of cancer.\n\nThe AMC is not testing whether you can perform a Whipple procedure. It tests whether a new intern or GP can:\n\n- recognise the **red flags** of a common cancer\n- pick the **right first investigation** (usually endoscopy or imaging, rarely a blood test)\n- refer through the **right pathway at the right urgency**\n- understand the **screening programs** and what to do with a positive result\n- avoid classic traps, such as using a tumour marker as a screening test."
+        },
+        {
+          "kind": "concepts",
+          "heading": "The national screening programs",
+          "body": "Screening is for people **without symptoms**. Someone with symptoms needs a diagnostic test, not a screening test. That one rule answers many AMC questions.\n\n| Program | Who | Test and interval | Positive result means |\n|---|---|---|---|\n| National Bowel Cancer Screening Program (NBCSP) | 45-74 | Immunochemical faecal occult blood test (iFOBT) every 2 years. Kits are mailed automatically at 50-74; people aged 45-49 can request their first kit | Colonoscopy, ideally within about 30 days. **Never repeat the iFOBT** |\n| BreastScreen Australia | Invited 50-74; women 40 and over can attend | Mammogram every 2 years, no GP referral needed | Recall to an assessment clinic for further imaging and biopsy |\n| National Cervical Screening Program | 25-74, anyone with a cervix who has ever been sexually active | HPV test every 5 years; self-collection is an option | Reflex cytology or colposcopy depending on HPV type and result |\n| National Lung Cancer Screening Program (started July 2025) | 50-70, no symptoms, current smoker or quit within the past 10 years, at least 30 pack-years | Low-dose CT, usually every 2 years | Nodule management per the program's protocol, which may mean earlier repeat CT or specialist referral |\n\nPoints that get examined:\n\n- **Bowel:** a positive iFOBT has a meaningful chance of cancer or advanced adenoma. The only correct next step is colonoscopy. A negative iFOBT in someone *with* symptoms is not reassuring.\n- **Lung:** eligibility is checked by the GP or another health professional, who enrols the person. A patient with symptoms (haemoptysis, persistent cough, weight loss) gets a diagnostic chest X-ray or CT, not the screening program.\n- **Prostate:** there is **no** organised program. PSA testing is a shared decision after discussing benefits and harms.\n- **Skin:** there is no population program either. Opportunistic skin checks are aimed at high-risk people (many naevi, past melanoma, fair skin, strong family history).\n\nWhy screening works for bowel cancer: most cancers arise from adenomas over roughly 10 years (the adenoma-carcinoma sequence), so finding and removing polyps prevents cancer, and early-stage cancers are usually curable."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Optimal Care Pathways and the MDT",
+          "body": "Australian cancer care is organised around **Optimal Care Pathways (OCPs)**, published by Cancer Council Australia and endorsed nationally. There is one per major cancer type (colorectal, oesophagogastric, pancreatic, melanoma and others), plus one for Aboriginal and Torres Strait Islander people. Each describes the ideal patient journey in seven steps:\n\n1. Prevention and early detection\n2. Presentation, initial investigations and referral\n3. Diagnosis, staging and treatment planning\n4. Treatment\n5. Care after initial treatment and recovery\n6. Managing recurrent, residual or metastatic disease\n7. End-of-life care\n\nEach OCP sets expected timeframes (for example, how soon a patient with suspected cancer should see a specialist). They differ between cancers, so do not memorise one number for all of them.\n\n**The multidisciplinary team (MDT) meeting.** Every newly diagnosed patient should be discussed by an MDT *before* definitive treatment starts. A typical team includes the surgeon, medical oncologist, radiation oncologist, radiologist, pathologist, a cancer care nurse coordinator, allied health (dietitian, stomal therapist, psychologist) and palliative care. The outcome is a recommendation that is discussed with the patient, and the **GP is kept informed** throughout.\n\nOther OCP themes the AMC likes: screening for distress and supportive care needs, giving patients written information, telling them they can choose public or private care (and discussing out-of-pocket costs), culturally safe care, and early referral to palliative care alongside active treatment, not only at the end."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Staging, intent and treatment sequencing",
+          "body": "- **Staging** mostly uses **TNM**: T (local extent), N (regional nodes), M (distant metastases). Groups run from stage I to IV. Staging plus the patient's fitness decides the plan.\n- **Performance status** (ECOG 0 fully active to 4 bedbound) predicts who will tolerate surgery and chemotherapy.\n- **Intent** is either **curative** (remove all disease, often with other treatments) or **palliative** (control symptoms and extend life). Surgery may be palliative too, such as a stoma for obstruction or a bypass.\n- **Neoadjuvant** therapy is given *before* surgery, to shrink a tumour or treat micrometastases early (for example chemoradiotherapy for locally advanced rectal cancer, chemotherapy for oesophagogastric cancer).\n- **Adjuvant** therapy is given *after* surgery to lower recurrence risk (for example chemotherapy for node-positive colon cancer).\n\n**Biopsy principles.** Get tissue before definitive treatment whenever possible. The biopsy must not compromise the later operation. The classic example is a **soft tissue sarcoma**: a lump that is larger than 5 cm, deep to fascia, growing or painful needs an MRI and referral to a sarcoma service *before* anyone cuts into it, because a poorly placed incision can seed tumour and turn a limb-sparing operation into an amputation."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Tumour markers: monitoring tools, not screening tests",
+          "body": "Tumour markers are neither sensitive nor specific enough to screen for or diagnose cancer on their own. Many are raised by benign conditions, and a normal level does not exclude cancer. Their main job is to provide a **baseline before treatment**, then **monitor response and detect recurrence**.\n\n| Marker | Main cancer | Benign causes of a rise |\n|---|---|---|\n| CEA | Colorectal (follow-up after resection) | Smoking, IBD, liver disease, pancreatitis |\n| CA 19-9 | Pancreatic, biliary | Any biliary obstruction or cholangitis, pancreatitis |\n| CA-125 | Epithelial ovarian | Menstruation, endometriosis, pregnancy, any ascites or pleural or peritoneal inflammation |\n| AFP | Hepatocellular carcinoma, non-seminoma germ cell tumours | Hepatitis, cirrhosis, pregnancy |\n| beta-hCG | Germ cell tumours, choriocarcinoma | Pregnancy |\n| PSA | Prostate | Benign prostatic hyperplasia, prostatitis, urinary retention, instrumentation |\n\nSome markers do help diagnosis in context: AFP and beta-hCG in a testicular mass, CA-125 inside a risk-of-malignancy score for an adnexal mass. But a raised CEA in a well person with no symptoms is not a diagnosis, and a normal CEA does not rule out bowel cancer."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- \"Positive iFOBT, patient feels well, asks to repeat the test\" -> colonoscopy.\n- \"Patient with rectal bleeding asks for a bowel screening kit\" -> symptomatic, so a diagnostic colonoscopy referral, not screening.\n- \"Worried well person asks for a CEA or CA-125 blood test to check for cancer\" -> explain the limits and offer the appropriate screening program.\n- \"New diagnosis, what next?\" -> complete staging and MDT discussion before treatment.\n- Deep, large or growing soft tissue lump -> MRI and sarcoma unit referral before biopsy."
+        }
+      ],
+      "keyPoints": [
+        "Screening is for people without symptoms; symptoms need a diagnostic test.",
+        "NBCSP: iFOBT every 2 years at 45-74 (mailed at 50-74); a positive test means colonoscopy, not a repeat test.",
+        "Lung screening (from July 2025): low-dose CT for asymptomatic people aged 50-70 with at least 30 pack-years who smoke or quit within 10 years.",
+        "There is no organised screening program for prostate or skin cancer in Australia.",
+        "Optimal Care Pathways set the patient journey; every new cancer should be discussed at an MDT before treatment.",
+        "Tumour markers are for baseline and monitoring, not screening or stand-alone diagnosis.",
+        "Suspected sarcoma: MRI and specialist referral before any biopsy."
+      ],
+      "redFlags": [
+        "Positive iFOBT at any age",
+        "Unexplained weight loss, iron deficiency anaemia or persistent new symptoms in anyone over 40",
+        "Soft tissue lump larger than 5 cm, deep, growing or painful",
+        "Symptoms in a patient who has just had a normal screening test"
+      ],
+      "contrast": [
+        {
+          "aspect": "Organised cancer screening",
+          "india": "Limited, mostly opportunistic screening; national programs focus on oral, breast and cervical examination.",
+          "australia": "Four national programs: bowel (iFOBT), breast (mammography), cervical (HPV) and lung (low-dose CT for high-risk smokers)."
+        },
+        {
+          "aspect": "Treatment planning",
+          "india": "Often decided by the treating surgeon or oncologist, with tumour boards in larger centres.",
+          "australia": "Every new cancer is expected to go to an MDT meeting, following the cancer's Optimal Care Pathway, with the GP kept informed."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Next step after a positive NBCSP iFOBT?",
+          "back": "Colonoscopy, ideally within about 30 days. Never repeat the iFOBT."
+        },
+        {
+          "front": "National Lung Cancer Screening Program eligibility?",
+          "back": "Aged 50-70, no symptoms, at least 30 pack-years, and currently smoking or quit within the past 10 years. Low-dose CT, usually every 2 years."
+        },
+        {
+          "front": "What are tumour markers such as CEA and CA 19-9 used for?",
+          "back": "Baseline before treatment, then monitoring response and recurrence. Not screening, and not diagnosis on their own."
+        },
+        {
+          "front": "Seven steps of an Optimal Care Pathway?",
+          "back": "Prevention/early detection; presentation and referral; diagnosis, staging, planning; treatment; care after treatment; recurrent/metastatic disease; end-of-life care."
+        },
+        {
+          "front": "Features of a soft tissue lump that suggest sarcoma?",
+          "back": "Larger than 5 cm, deep to fascia, increasing in size, painful. Get an MRI and refer to a sarcoma service before biopsy."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "surgical-oncology--principles-screening--q1",
+          "discipline": "adult-surgery",
+          "topic": "surgical-oncology",
+          "difficulty": "foundation",
+          "stem": "A 58-year-old woman sees her GP in suburban Adelaide for a health check. She has no symptoms, and her examination is normal. Her friend was recently diagnosed with bowel cancer, and she asks for \"the blood test for bowel cancer, the CEA\". She threw away the bowel screening kit that arrived in the mail last year.\n\nWhat is the most appropriate response?",
+          "options": [
+            "Order a CEA level and refer for colonoscopy if it is raised",
+            "Explain that CEA is not a screening test and encourage her to complete an iFOBT through the national program",
+            "Order a CEA and CA 19-9 together to improve sensitivity",
+            "Refer her directly for colonoscopy because of her anxiety",
+            "Reassure her that she is at low risk and needs no testing"
+          ],
+          "answer": 1,
+          "explanation": "CEA is neither sensitive nor specific enough to screen for colorectal cancer. It is often normal in early cancer and raised by benign conditions such as smoking and inflammatory bowel disease. Its role is as a **baseline and follow-up marker** after a cancer is diagnosed. This woman is asymptomatic and at average risk: a friend's diagnosis is not a family history. The evidence-based screening test is the **iFOBT every 2 years** through the National Bowel Cancer Screening Program. She can ask for a replacement kit. If her iFOBT is positive, she then needs colonoscopy.",
+          "whyWrong": [
+            "A normal CEA would give false reassurance, and a raised one is often caused by something benign.",
+            "",
+            "Combining two non-specific markers adds false positives without making either useful for screening.",
+            "Colonoscopy is not first line for an average-risk person with no symptoms; iFOBT is.",
+            "At 58 she is squarely in the screening age range and should be screened."
+          ],
+          "ausPearl": "Replacement NBCSP kits can be ordered through the program. Since July 2024, people aged 45-49 can also request a kit.",
+          "tags": [
+            "screening",
+            "tumour markers",
+            "nbcsp"
+          ]
+        },
+        {
+          "id": "surgical-oncology--principles-screening--q2",
+          "discipline": "adult-surgery",
+          "topic": "surgical-oncology",
+          "difficulty": "core",
+          "stem": "A 63-year-old woman sees her GP in Newcastle for a medication review. She smoked 25 cigarettes a day for 30 years and quit 4 years ago. She has no cough, haemoptysis, weight loss or chest pain, and her chest examination is normal. She asks whether she should be checked for lung cancer.\n\nWhat is the most appropriate advice?",
+          "options": [
+            "Lung screening is only for people who are still smoking",
+            "Arrange a chest X-ray every year",
+            "She is eligible for the National Lung Cancer Screening Program: low-dose CT, usually every 2 years",
+            "Arrange sputum cytology",
+            "Screening is not recommended because she has no symptoms"
+          ],
+          "answer": 2,
+          "explanation": "She meets the eligibility criteria for the **National Lung Cancer Screening Program** that began in July 2025. She is aged 50-70, has no symptoms, has about 37 pack-years (25/20 packs a day x 30 years), and quit within the past 10 years. The screening test is **low-dose CT**, usually every 2 years, with any nodule followed up under the program's protocol. Chest X-ray and sputum cytology have never been shown to reduce lung cancer deaths. Screening is aimed at people *without* symptoms. Someone with haemoptysis or weight loss would instead get a diagnostic CT and referral.",
+          "whyWrong": [
+            "Former smokers who quit within the past 10 years are eligible.",
+            "Chest X-ray screening does not reduce lung cancer deaths.",
+            "",
+            "Sputum cytology is not sensitive enough to be a screening test.",
+            "Having no symptoms is the reason to screen; symptomatic people get diagnostic imaging."
+          ],
+          "ausPearl": "Pack-years = packs per day x years smoked. One pack is taken as 20 cigarettes.",
+          "tags": [
+            "lung cancer",
+            "screening"
+          ]
+        },
+        {
+          "id": "surgical-oncology--principles-screening--q3",
+          "discipline": "adult-surgery",
+          "topic": "surgical-oncology",
+          "difficulty": "exam",
+          "stem": "A 45-year-old man sees his GP in Hobart about a lump in the back of his right thigh. He first noticed it 4 months ago, and it has grown since. It is 7 cm across, firm, deep to the muscle fascia and not tender. There is no history of trauma, and he is otherwise well.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Reassure him that this is a lipoma and review in 6 months",
+            "Arrange a fine needle aspiration in the rooms",
+            "Refer to a general surgeon for excision biopsy",
+            "Arrange an ultrasound and review if it keeps growing",
+            "Arrange an MRI and refer to a specialist sarcoma service before any biopsy"
+          ],
+          "answer": 4,
+          "explanation": "A soft tissue lump that is **larger than 5 cm, deep to fascia and growing** should be treated as a **sarcoma until proven otherwise**. It needs cross-sectional imaging (MRI) and referral to a specialist sarcoma MDT, where a core biopsy is taken along the line of the planned resection. An excision or open biopsy done elsewhere can contaminate tissue planes, leave positive margins and make limb-sparing surgery harder, sometimes forcing an amputation. FNA rarely gives enough tissue to diagnose sarcoma. Superficial lipomas are soft, small and stable, which this lump is not.",
+          "whyWrong": [
+            "Size, depth and growth are all features of sarcoma, not lipoma.",
+            "FNA does not give enough tissue to grade and subtype a sarcoma.",
+            "An unplanned excision can seed tumour and compromise the definitive operation.",
+            "Waiting delays diagnosis, and ultrasound alone will not plan surgery.",
+            ""
+          ],
+          "ausPearl": "Sarcoma is rare, so it is managed in a small number of specialist centres in each state.",
+          "tags": [
+            "sarcoma",
+            "biopsy principles",
+            "referral"
+          ]
+        },
+        {
+          "id": "surgical-oncology--principles-screening--q4",
+          "discipline": "adult-surgery",
+          "topic": "surgical-oncology",
+          "difficulty": "core",
+          "stem": "A 67-year-old man has just been diagnosed with a rectal adenocarcinoma on colonoscopy biopsy. Staging CT of the chest, abdomen and pelvis and pelvic MRI have been completed. He is fit and keen to \"get it cut out as soon as possible\".\n\nAccording to Australian cancer care standards, what should happen next?",
+          "options": [
+            "Present his case at a multidisciplinary team meeting before definitive treatment is decided",
+            "Book him for an anterior resection within the week",
+            "Refer him to a medical oncologist for chemotherapy first",
+            "Order a CEA level and decide treatment according to the result",
+            "Refer him to palliative care"
+          ],
+          "answer": 0,
+          "explanation": "The **Optimal Care Pathway** for colorectal cancer expects every newly diagnosed patient to be discussed at a **multidisciplinary team (MDT) meeting** once staging is complete and before treatment starts. This matters in rectal cancer, because the MRI findings decide whether he needs **neoadjuvant chemoradiotherapy** before surgery. Going straight to theatre could mean incomplete treatment and a higher risk of local recurrence. The MDT (surgeon, medical and radiation oncologists, radiologist, pathologist, nurse coordinator, stomal therapist) makes a recommendation, which is then discussed with the patient. His GP is informed. A baseline CEA is useful, but it does not decide treatment.",
+          "whyWrong": [
+            "",
+            "Surgery before the MDT risks skipping neoadjuvant therapy that locally advanced rectal cancer may need.",
+            "Chemotherapy may be part of the plan, but the MDT decides the sequence.",
+            "CEA is a baseline and follow-up marker; it does not select treatment.",
+            "Nothing suggests incurable disease, although supportive care is offered throughout."
+          ],
+          "ausPearl": "Cancer Council Australia's Optimal Care Pathways are free online and are a good source for AMC-style management questions.",
+          "tags": [
+            "mdt",
+            "optimal care pathway",
+            "rectal cancer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgical-oncology--colorectal-cancer",
+      "title": "Colorectal cancer",
+      "minutes": 20,
+      "objectives": [
+        "Recognise the red flags of colorectal cancer and how they differ between right colon, left colon and rectum",
+        "Choose the right investigation: colonoscopy for symptoms or a positive iFOBT, and bidirectional endoscopy for iron deficiency anaemia",
+        "Explain the adenoma-carcinoma sequence and the hereditary syndromes (Lynch, FAP)",
+        "Outline staging and surgical management, including when neoadjuvant and adjuvant therapy are used",
+        "Take rectal bleeding seriously in adults under 50"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why bowel cancer matters in Australia",
+          "body": "Colorectal cancer (CRC) is one of the most common cancers in Australia and the second most common cause of cancer death. Australia's rate is among the highest in the world. Most cases occur after 50, but **early-onset CRC (under 50) is rising** in Australia, and young adults often present late because their rectal bleeding was put down to haemorrhoids.\n\nRisk factors:\n\n- age, and a personal history of adenomas or CRC\n- family history (one or more first-degree relatives, especially if diagnosed young)\n- hereditary syndromes: **Lynch syndrome** (hereditary non-polyposis CRC) and **familial adenomatous polyposis (FAP)**\n- longstanding ulcerative colitis or Crohn's colitis\n- red and processed meat, alcohol, smoking, obesity and physical inactivity\n\nProtective factors include physical activity, dietary fibre and screening with polyp removal."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "From polyp to cancer",
+          "body": "- **Adenoma-carcinoma sequence (chromosomal instability):** step-by-step mutations, classically *APC* first, then *KRAS*, then *TP53*, turn normal mucosa into an adenoma and then a carcinoma over about 10 years. This slow course is why screening and polypectomy prevent cancer. Larger polyps, villous histology and high-grade dysplasia carry more risk.\n- **Mismatch repair deficiency (microsatellite instability, MSI):** faulty DNA mismatch repair genes (*MLH1, MSH2, MSH6, PMS2*). This happens either through germline mutation (Lynch syndrome) or through acquired silencing of *MLH1* in sporadic, often right-sided cancers.\n- **Serrated pathway:** sessile serrated lesions, often flat and right-sided, are easy to miss at colonoscopy.\n\n**Lynch syndrome** is autosomal dominant. It raises the risk of CRC, often at a young age and in the right colon, and also of endometrial, ovarian, gastric, urinary tract and small bowel cancers. In Australia, **all newly diagnosed colorectal cancers should have their tumour tested for mismatch repair deficiency** to pick up possible Lynch syndrome, with referral to a familial cancer service if needed.\n\n**FAP** is autosomal dominant with a germline *APC* mutation. It causes hundreds to thousands of adenomas from adolescence, and cancer is almost certain without prophylactic colectomy.\n\nSpread is direct through the bowel wall, lymphatic to regional nodes, and haematogenous via the portal vein to the **liver** (the commonest site of metastasis). Low rectal cancers can also spread to the lungs through the systemic venous circulation."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "How it presents",
+          "body": "The site predicts the symptoms, because the stool is liquid in the right colon and formed in the left colon and rectum.\n\n| Site | Typical presentation |\n|---|---|\n| Right colon (caecum, ascending) | **Iron deficiency anaemia** with fatigue and breathlessness; weight loss; a right iliac fossa mass. Bleeding is occult, and obstruction happens late |\n| Left colon (descending, sigmoid) | **Change in bowel habit**, dark blood mixed with stool, colicky pain, large bowel obstruction |\n| Rectum | **Rectal bleeding**, tenesmus (feeling of incomplete emptying), mucus, a mass on digital rectal examination |\n\nRed flags to act on:\n\n- rectal bleeding, especially dark, mixed with stool or with a change in bowel habit\n- a persistent change in bowel habit (looser or more frequent stools for more than a few weeks)\n- **iron deficiency anaemia** in a man or a postmenopausal woman\n- unexplained weight loss, an abdominal or rectal mass\n- a positive iFOBT\n\nEmergency presentations include large bowel obstruction (distension, absolute constipation, vomiting late), perforation with peritonitis, and heavy bleeding. Examination should include the abdomen (mass, hepatomegaly, ascites), a **digital rectal examination** and, if possible, proctoscopy. A normal DRE never excludes CRC."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Diagnosis and staging",
+          "body": "- **Colonoscopy with biopsy** is the diagnostic test of choice. It shows the whole colon, allows biopsy and tattooing of the site, and finds synchronous tumours (present in a few per cent of patients). CT colonography is an option when colonoscopy is incomplete or unsafe.\n- **Iron deficiency anaemia:** investigate a man or a postmenopausal woman with **both gastroscopy and colonoscopy** (bidirectional endoscopy), plus coeliac serology. A lesion found at one end does not rule out a second at the other.\n- **Bloods:** FBC (microcytic anaemia), iron studies (low ferritin), UEC, LFTs, and a baseline **CEA** for later follow-up.\n- **Staging:** CT of the chest, abdomen and pelvis for all patients, looking for liver and lung metastases.\n- **Rectal cancer:** add **MRI of the pelvis** for local staging (depth of invasion, nodes, circumferential resection margin, relation to the sphincters). This decides whether neoadjuvant therapy is needed. Endorectal ultrasound can help with very early tumours.\n- **Tumour testing:** mismatch repair or MSI testing for every tumour (Lynch screening). RAS/BRAF testing is used when metastatic disease is being treated.\n\nStaging uses TNM: stage I (confined to the muscle wall), II (through the wall, nodes negative), III (nodes positive), IV (distant metastases). The old Dukes A-D system maps onto this roughly and still turns up in older questions."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Telling it apart",
+          "body": "| Condition | Discriminating features |\n|---|---|\n| Haemorrhoids | Bright red blood on the paper or dripping into the pan, separate from stool, no change in habit. Only a diagnosis of exclusion when red flags are present |\n| Anal fissure | Sharp pain on defecation, a streak of bright blood, a posterior midline tear |\n| Diverticular disease | Older patient, left iliac fossa pain and fever (diverticulitis) or sudden painless large bleed. Still needs colonoscopy once settled to exclude cancer |\n| Inflammatory bowel disease | Younger, bloody diarrhoea, urgency, raised faecal calprotectin, extraintestinal features |\n| Irritable bowel syndrome | Long history, pain relieved by defecation, **no** bleeding, anaemia or weight loss. Red flags rule out an IBS label |\n| Ischaemic colitis | Older vascular patient, sudden left-sided pain followed by bloody diarrhoea |\n\nThe key teaching point: never attribute rectal bleeding to haemorrhoids in an older patient, or in a younger patient with persistent symptoms, without assessing the colon."
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment by stage and site",
+          "body": "Every patient is discussed at an MDT. Management then depends on site and stage.\n\n**Colon cancer:**\n\n- Surgery removes the tumour with its lymphovascular pedicle: right hemicolectomy (caecum, ascending colon, hepatic flexure), extended right hemicolectomy (transverse colon), left hemicolectomy or sigmoid colectomy/high anterior resection. Most are done laparoscopically with enhanced recovery (ERAS) protocols.\n- **Adjuvant chemotherapy** (fluoropyrimidine-based, often with oxaliplatin) is standard for **stage III** (node-positive) disease, and considered for high-risk stage II.\n- Very early cancers inside a polyp can sometimes be cured by endoscopic removal alone.\n\n**Rectal cancer:**\n\n- **Anterior resection with total mesorectal excision (TME)**, usually with a temporary defunctioning ileostomy for low joins.\n- **Abdominoperineal resection (APR)** for very low tumours involving the sphincters. It leaves a permanent end colostomy.\n- **Neoadjuvant (chemo)radiotherapy** for locally advanced tumours (on MRI) to lower local recurrence. Some patients have a complete clinical response and may be offered 'watch and wait' in specialist centres.\n- Refer to a **stomal therapy nurse** before surgery to site and prepare for a stoma.\n\n**Emergencies:** obstructing left-sided cancer may need a Hartmann's procedure (resection with an end colostomy), a primary resection and join in selected patients, or a colonic stent as a bridge to surgery. Perforation needs resuscitation, antibiotics and a laparotomy.\n\n**Metastatic disease:** patients with isolated liver or lung metastases may still be cured by resection combined with chemotherapy. Others receive systemic therapy, chosen partly by RAS/BRAF/MSI status, and palliative care.\n\n**Follow-up:** regular review with CEA, CT surveillance over the first few years, and colonoscopy at about 1 year after surgery and then at intervals according to the findings (Cancer Council Australia guidelines). First-degree relatives need their own risk assessment, and screening may start earlier depending on the family history category."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam traps",
+          "body": "- Positive iFOBT -> colonoscopy, never a repeat test.\n- Iron deficiency anaemia in a man or a postmenopausal woman -> gastroscopy **and** colonoscopy, even without GI symptoms.\n- A 35-year-old with 3 months of rectal bleeding and a change in habit needs colonoscopy. Do not stop at 'probable haemorrhoids'.\n- Rectal cancer local staging = **MRI pelvis**. Distant staging = CT chest/abdomen/pelvis.\n- Young patient with CRC, or a family full of endometrial and colorectal cancers -> think Lynch; the tumour is tested for MMR deficiency.\n- Rising CEA after resection -> CT to look for recurrence."
+        }
+      ],
+      "keyPoints": [
+        "Right-sided CRC presents with iron deficiency anaemia; left-sided with a change in habit or obstruction; rectal with bleeding and tenesmus.",
+        "Colonoscopy with biopsy is the diagnostic test; staging is CT chest/abdomen/pelvis, plus MRI pelvis for rectal cancer.",
+        "Iron deficiency anaemia in men and postmenopausal women needs bidirectional endoscopy.",
+        "All CRC tumours are tested for mismatch repair deficiency to detect Lynch syndrome.",
+        "Stage III colon cancer gets adjuvant chemotherapy; locally advanced rectal cancer gets neoadjuvant chemoradiotherapy.",
+        "Early-onset CRC is rising; persistent rectal bleeding in young adults needs investigation.",
+        "CEA is a baseline and surveillance marker after diagnosis."
+      ],
+      "redFlags": [
+        "Rectal bleeding with a change in bowel habit, at any age",
+        "Iron deficiency anaemia in a man or a postmenopausal woman",
+        "Unexplained weight loss or an abdominal or rectal mass",
+        "Positive iFOBT",
+        "Signs of large bowel obstruction: distension, absolute constipation, colicky pain"
+      ],
+      "contrast": [
+        {
+          "aspect": "Rectal bleeding in young adults",
+          "india": "Usually attributed to haemorrhoids or fissure, and CRC is less common in the young.",
+          "australia": "Early-onset CRC is rising; persistent bleeding or a change in habit under 50 still needs colonoscopy."
+        },
+        {
+          "aspect": "Lynch syndrome detection",
+          "india": "Genetic testing is usually driven by strong family history and limited by cost.",
+          "australia": "Universal mismatch repair testing of every CRC tumour, with referral to familial cancer services."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Classic presentation of a right-sided colon cancer?",
+          "back": "Iron deficiency anaemia (fatigue, breathlessness) and weight loss, often with no change in bowel habit."
+        },
+        {
+          "front": "Investigation for iron deficiency anaemia in a 70-year-old man?",
+          "back": "Gastroscopy and colonoscopy (bidirectional endoscopy), plus coeliac serology."
+        },
+        {
+          "front": "Best test for local staging of rectal cancer?",
+          "back": "MRI of the pelvis (depth, nodes, circumferential margin, sphincter involvement)."
+        },
+        {
+          "front": "Which colon cancer stage routinely gets adjuvant chemotherapy?",
+          "back": "Stage III (node-positive). It is considered for high-risk stage II."
+        },
+        {
+          "front": "Most common site of colorectal cancer metastasis, and why?",
+          "back": "The liver, because venous drainage goes through the portal vein."
+        },
+        {
+          "front": "Operation for a very low rectal cancer invading the sphincters?",
+          "back": "Abdominoperineal resection, which leaves a permanent end colostomy."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "surgical-oncology--colorectal-cancer--q1",
+          "discipline": "adult-surgery",
+          "topic": "surgical-oncology",
+          "difficulty": "foundation",
+          "stem": "A 62-year-old man brings in a letter from the National Bowel Cancer Screening Program saying his iFOBT was positive. He feels well, has no change in bowel habit and has noticed no bleeding. His examination, including digital rectal examination, is normal, and his haemoglobin is 142 g/L. He asks to repeat the test because he thinks he may have eaten red meat beforehand.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Repeat the iFOBT in 2 weeks after avoiding red meat",
+            "Arrange a CT colonography",
+            "Measure serum CEA",
+            "Refer for colonoscopy",
+            "Reassure him and repeat screening in 2 years"
+          ],
+          "answer": 3,
+          "explanation": "A positive iFOBT needs **colonoscopy**, ideally within about 30 days. The immunochemical test detects human globin, so unlike the old guaiac tests it is **not affected by diet** (red meat) or most medicines, and the patient's explanation does not make a false positive likely. A repeat negative test would not cancel the first positive result, because bleeding from polyps and cancers is intermittent. Normal haemoglobin and a normal DRE do not exclude a cancer or advanced adenoma. Colonoscopy both diagnoses and treats: polyps can be removed during the procedure.",
+          "whyWrong": [
+            "Bleeding is intermittent, so a negative repeat cannot overrule a positive result, and iFOBT is not affected by diet.",
+            "CT colonography is for when colonoscopy is incomplete or unsafe, and it cannot remove polyps.",
+            "CEA has no role in investigating a positive screening test.",
+            "",
+            "A positive screen must be investigated; waiting 2 years could miss a curable cancer."
+          ],
+          "ausPearl": "Participation in the NBCSP is around 40%, so the GP's role in encouraging screening and following up positive results is emphasised in Australian guidance.",
+          "tags": [
+            "nbcsp",
+            "ifobt",
+            "colonoscopy"
+          ]
+        },
+        {
+          "id": "surgical-oncology--colorectal-cancer--q2",
+          "discipline": "adult-surgery",
+          "topic": "surgical-oncology",
+          "difficulty": "core",
+          "stem": "A 71-year-old woman presents to her GP in Ballarat with 3 months of tiredness and breathlessness climbing stairs. She has no abdominal pain, change in bowel habit or rectal bleeding, and she eats a varied diet including meat. Haemoglobin is 92 g/L, MCV 72 fL and ferritin 6 microgram/L. Coeliac serology is negative.\n\nWhat is the most appropriate investigation?",
+          "options": [
+            "Gastroscopy and colonoscopy",
+            "Colonoscopy alone",
+            "Trial of oral iron and repeat the blood count in 3 months",
+            "iFOBT",
+            "CT of the abdomen"
+          ],
+          "answer": 0,
+          "explanation": "Iron deficiency anaemia in a **postmenopausal woman** (or a man) is caused by **gastrointestinal blood loss until proven otherwise**, even without GI symptoms. Right-sided colon cancer classically presents like this, with occult bleeding and no change in habit, because stool there is still liquid. Upper GI causes (gastric cancer, peptic ulcer, and coeliac disease, which has been checked here) are also possible, and both ends can have lesions. So the standard is **bidirectional endoscopy**. Iron should be replaced, but not instead of investigation. An iFOBT is a screening test and a negative result would not exclude cancer in a symptomatic, anaemic patient.",
+          "whyWrong": [
+            "",
+            "Colonoscopy alone misses upper GI causes such as gastric cancer.",
+            "Iron replacement without investigation risks missing a cancer.",
+            "iFOBT is for screening people without symptoms and would not change the need for endoscopy.",
+            "CT may miss mucosal lesions and does not allow biopsy."
+          ],
+          "ausPearl": "Gastroenterological Society of Australia (GESA) guidance recommends bidirectional endoscopy for iron deficiency anaemia in men and postmenopausal women.",
+          "tags": [
+            "iron deficiency anaemia",
+            "colorectal cancer",
+            "endoscopy"
+          ]
+        },
+        {
+          "id": "surgical-oncology--colorectal-cancer--q3",
+          "discipline": "adult-surgery",
+          "topic": "surgical-oncology",
+          "difficulty": "exam",
+          "stem": "A 72-year-old man has a 5 cm rectal adenocarcinoma found 6 cm from the anal verge on colonoscopy. CT of the chest, abdomen and pelvis shows no distant metastases. The surgeon wants to know how deeply the tumour has invaded, whether the mesorectal nodes are involved and how close it comes to the circumferential resection margin.\n\nWhich investigation is most appropriate?",
+          "options": [
+            "PET-CT",
+            "Barium enema",
+            "MRI of the pelvis",
+            "Repeat colonoscopy with more biopsies",
+            "Serum CEA"
+          ],
+          "answer": 2,
+          "explanation": "**Pelvic MRI** is the standard for **local staging of rectal cancer**. It shows depth of invasion (T stage), mesorectal and lateral node involvement, extramural venous invasion, and the distance to the mesorectal fascia (the likely circumferential resection margin). These features decide whether the patient needs **neoadjuvant chemoradiotherapy** before total mesorectal excision, and how much bowel must be taken. CT chest/abdomen/pelvis handles distant staging. PET-CT is kept for specific questions, such as suspected metastatic disease being considered for resection. Endorectal ultrasound can help with very early, superficial tumours only.",
+          "whyWrong": [
+            "PET-CT is not routine and gives poor detail of the mesorectal fascia.",
+            "Barium enema is outdated and shows only the lumen.",
+            "",
+            "Biopsy has already confirmed the diagnosis; it cannot show depth or margins.",
+            "CEA is a baseline marker and gives no anatomical information."
+          ],
+          "tags": [
+            "rectal cancer",
+            "staging",
+            "mri"
+          ]
+        },
+        {
+          "id": "surgical-oncology--colorectal-cancer--q4",
+          "discipline": "adult-surgery",
+          "topic": "surgical-oncology",
+          "difficulty": "core",
+          "stem": "A 36-year-old man presents to his GP in Brisbane with 3 months of intermittent dark red blood mixed in with his stool and looser, more frequent bowel motions. He has lost 3 kg. He has no family history of bowel disease. Abdominal and digital rectal examinations are normal, and proctoscopy shows small non-bleeding internal haemorrhoids.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Topical haemorrhoid cream and review in 6 weeks",
+            "Rubber band ligation of the haemorrhoids",
+            "Reassure him that bowel cancer is very unlikely at his age",
+            "Send him an NBCSP iFOBT kit",
+            "Refer for colonoscopy"
+          ],
+          "answer": 4,
+          "explanation": "He has **red flags**: blood mixed with stool (rather than on the paper), a persistent change in bowel habit and weight loss. Small internal haemorrhoids are common and do **not** explain these symptoms. **Early-onset colorectal cancer is rising in Australia**, and delayed diagnosis in young adults is a recognised problem, often because bleeding is put down to haemorrhoids. He needs **colonoscopy**, which will also diagnose inflammatory bowel disease, the main alternative. An iFOBT is a screening test for people without symptoms and would not be appropriate here.",
+          "whyWrong": [
+            "Treating incidental haemorrhoids delays the diagnosis of the real cause.",
+            "Banding treats haemorrhoids that are not causing these symptoms.",
+            "Age does not exclude CRC, and early-onset cases are increasing.",
+            "Screening tests are not for symptomatic patients; a negative result would falsely reassure.",
+            ""
+          ],
+          "ausPearl": "Cancer Council Australia and RACGP have both highlighted early-onset bowel cancer, urging GPs to investigate persistent symptoms in people under 50.",
+          "tags": [
+            "early onset",
+            "rectal bleeding",
+            "colorectal cancer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgical-oncology--oesophagogastric-cancer",
+      "title": "Oesophageal and gastric cancer",
+      "minutes": 17,
+      "objectives": [
+        "Recognise progressive dysphagia with weight loss as a red flag that needs urgent endoscopy",
+        "Contrast oesophageal adenocarcinoma and squamous cell carcinoma by risk factors and site",
+        "Distinguish malignant dysphagia from achalasia, benign stricture and eosinophilic oesophagitis",
+        "Outline staging and treatment of oesophagogastric cancer, including palliation of dysphagia"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Upper GI cancers in Australia",
+          "body": "Oesophageal and gastric cancers are less common than bowel cancer but often present late, so survival is poor. The AMC mainly tests whether you recognise the warning symptoms and send the patient for **endoscopy** quickly.\n\n- **Oesophageal adenocarcinoma** is now the most common oesophageal cancer in Australia. It is linked to **chronic reflux, Barrett's oesophagus, obesity**, male sex and smoking, and it usually arises in the **lower third** and at the gastro-oesophageal junction.\n- **Oesophageal squamous cell carcinoma (SCC)** is linked to **smoking and alcohol**, hot drinks, and achalasia and caustic strictures. It affects the **upper and middle thirds**. It is the dominant type in India and much of Asia, and remains relatively more common in Aboriginal and Torres Strait Islander people and in migrant communities.\n- **Gastric cancer** is mostly adenocarcinoma, linked to ***Helicobacter pylori***, smoking, salted and smoked foods, pernicious anaemia and family history (including hereditary diffuse gastric cancer with *CDH1* mutations). It is more common in migrants from East Asia and in older men."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "How these cancers develop",
+          "body": "- **Barrett's oesophagus:** chronic acid and bile reflux replaces the normal squamous lining of the lower oesophagus with columnar epithelium (intestinal metaplasia). This can progress through low- and high-grade dysplasia to adenocarcinoma. Patients with Barrett's go into endoscopic surveillance, and dysplasia can be treated endoscopically (resection and ablation).\n- **Squamous carcinogenesis:** tobacco and alcohol damage the squamous mucosa directly, so these patients also carry a risk of head and neck cancers.\n- ***H. pylori* and gastric cancer:** chronic gastritis leads to atrophy, intestinal metaplasia, dysplasia and then intestinal-type adenocarcinoma (the Correa cascade). Eradicating *H. pylori* lowers the risk. *H. pylori* also causes gastric **MALT lymphoma**, which can regress with eradication alone.\n- **Diffuse (signet ring) gastric cancer** spreads through the wall and makes the stomach rigid (linitis plastica).\n\nThe oesophagus has **no serosa** and a rich lymphatic network, so these tumours spread early to nodes and are often advanced at diagnosis."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Symptoms and signs",
+          "body": "**Oesophageal cancer:**\n\n- **Progressive dysphagia**: solids first (meat, bread), then soft foods, then liquids. The patient often points to where food sticks.\n- Marked **weight loss**, odynophagia, regurgitation, and aspiration or cough when eating.\n- **Hoarseness** from recurrent laryngeal nerve invasion suggests unresectable disease.\n\n**Gastric cancer:**\n\n- Dyspepsia and epigastric pain, **early satiety**, anorexia and weight loss.\n- Iron deficiency anaemia, melaena or haematemesis.\n- Persistent vomiting from gastric outlet obstruction (succussion splash).\n- Signs of spread: **left supraclavicular node (Virchow's node, Troisier's sign)**, periumbilical nodule (Sister Mary Joseph), hepatomegaly, ascites, an ovarian mass (Krukenberg tumour), a rectal shelf.\n\n**Upper GI alarm features** that call for prompt endoscopy: dysphagia, odynophagia, unintended weight loss, GI bleeding or iron deficiency anaemia, persistent vomiting, an epigastric mass, and new dyspepsia in an older person (the age threshold varies between guidelines, commonly cited as over 55 or 60). A family history of upper GI cancer adds to concern."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Diagnosis and staging",
+          "body": "1. **Gastroscopy with biopsy** is the first investigation for dysphagia or alarm symptoms. Do not start with a barium swallow in a patient with red flags: a barium study cannot take a biopsy, and endoscopy is needed anyway. (Barium swallow still has a place if a pharyngeal pouch is suspected, because an endoscope can perforate the pouch.)\n2. **Bloods:** FBC and iron studies (anaemia), UEC, LFTs, albumin (nutrition).\n3. **Staging CT of the chest, abdomen and pelvis** for metastases.\n4. **PET-CT** to find occult metastases in patients being considered for curative surgery.\n5. **Endoscopic ultrasound (EUS)** for depth of invasion (T stage) and nearby nodes.\n6. **Staging laparoscopy** for gastric and GOJ cancers, to look for peritoneal spread that CT misses.\n\nTreatment is expected to be planned through the oesophagogastric Optimal Care Pathway and an MDT. Many patients are malnourished at presentation, so early **dietitian** involvement is standard."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Dysphagia: what else could it be?",
+          "body": "| Condition | Discriminating features |\n|---|---|\n| Oesophageal cancer | Older, progressive dysphagia **solids then liquids**, weight loss, short history |\n| Achalasia | Any age, often younger; dysphagia to **solids and liquids from the start**, regurgitation of undigested food, chest pain. Barium shows a 'bird's beak'; **manometry** confirms it. Endoscopy is still needed to exclude a tumour at the cardia (pseudoachalasia) |\n| Benign peptic stricture | Long history of reflux, slowly progressive dysphagia to solids, little weight loss |\n| Eosinophilic oesophagitis | Young man with atopy, recurrent food bolus impaction; rings on endoscopy; eosinophils on biopsy |\n| Pharyngeal pouch (Zenker's) | Older, high dysphagia, gurgling, regurgitation of old food, halitosis, neck swelling |\n| Oesophageal web or ring | Intermittent dysphagia; a web with iron deficiency anaemia is Plummer-Vinson syndrome (a premalignant condition) |\n| Neurological (bulbar) | Difficulty starting a swallow, coughing or choking, nasal regurgitation; worse for liquids |\n\nFor dyspepsia, the look-alikes are peptic ulcer disease, functional dyspepsia, gallstone disease and even cardiac ischaemia. The alarm features decide who goes straight to endoscopy."
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment",
+          "body": "**Curative intent** (localised disease, fit patient):\n\n- **Oesophageal cancer:** neoadjuvant chemoradiotherapy or perioperative chemotherapy, then **oesophagectomy** (for example Ivor Lewis). This is major surgery with significant risk of anastomotic leak, pneumonia and arrhythmia, so it is concentrated in high-volume centres. Definitive chemoradiotherapy is an option, especially for SCC.\n- **Very early cancers and high-grade dysplasia** (including in Barrett's): endoscopic resection and ablation.\n- **Gastric cancer:** perioperative chemotherapy and **gastrectomy** (subtotal or total) with lymph node dissection. After total gastrectomy, patients need lifelong **vitamin B12** replacement and monitoring for iron deficiency, dumping syndrome and malnutrition.\n- **MALT lymphoma:** *H. pylori* eradication, with haematology referral.\n\n**Palliative intent** (most patients at diagnosis):\n\n- Relieve dysphagia with a **self-expanding metal stent**, radiotherapy (external or brachytherapy), or a feeding tube where appropriate.\n- Systemic therapy (chemotherapy, targeted HER2 therapy, immunotherapy) through medical oncology.\n- Early **palliative care** involvement, attention to nutrition, and advance care planning.\n\n**Prevention:** test for and eradicate *H. pylori* in dyspepsia and peptic ulcer disease, and in first-degree relatives of people with gastric cancer; treat reflux; stop smoking; limit alcohol; manage weight."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How it is examined",
+          "body": "- 'Progressive dysphagia to solids with weight loss in an older smoker or reflux sufferer' -> **urgent gastroscopy**.\n- 'Solids and liquids from the start, regurgitation of undigested food, younger patient' -> achalasia (manometry, after endoscopy).\n- 'Early satiety, weight loss, left supraclavicular node' -> gastric cancer.\n- Hoarseness in oesophageal cancer means recurrent laryngeal nerve involvement.\n- Total gastrectomy -> lifelong B12 injections.\n- The type follows the site: lower third adenocarcinoma (Barrett's), upper/middle SCC (smoking and alcohol)."
+        }
+      ],
+      "keyPoints": [
+        "Progressive dysphagia with weight loss needs urgent gastroscopy with biopsy.",
+        "Adenocarcinoma (reflux, Barrett's, obesity; lower third) is now more common in Australia than SCC (smoking, alcohol; upper/middle third).",
+        "Gastric cancer is linked to H. pylori; eradication reduces risk and can cure MALT lymphoma.",
+        "Achalasia causes dysphagia to solids and liquids from the outset; manometry confirms it, but endoscopy comes first.",
+        "Staging: CT, PET-CT, EUS, and staging laparoscopy for gastric cancer.",
+        "Most patients are palliative at presentation; stenting relieves malignant dysphagia.",
+        "After total gastrectomy, give lifelong vitamin B12."
+      ],
+      "redFlags": [
+        "Progressive dysphagia, especially with weight loss",
+        "Odynophagia or food bolus obstruction",
+        "Haematemesis, melaena or iron deficiency anaemia",
+        "Persistent vomiting or early satiety with weight loss",
+        "Left supraclavicular lymph node",
+        "Hoarseness with dysphagia"
+      ],
+      "contrast": [
+        {
+          "aspect": "Commonest oesophageal cancer",
+          "india": "Squamous cell carcinoma of the middle third, linked to tobacco, alcohol and hot beverages.",
+          "australia": "Adenocarcinoma of the lower third and GOJ, linked to reflux, Barrett's oesophagus and obesity."
+        },
+        {
+          "aspect": "First test for dysphagia",
+          "india": "Barium swallow is often done first because it is cheaper and easier to get.",
+          "australia": "Gastroscopy with biopsy first when there are alarm features; barium mainly for suspected pouch or motility questions."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Main risk factors for oesophageal adenocarcinoma?",
+          "back": "Chronic GORD, Barrett's oesophagus, obesity, male sex, smoking."
+        },
+        {
+          "front": "What does a hard left supraclavicular node (Troisier's sign) suggest?",
+          "back": "Metastatic gastric (or other abdominal) cancer spreading via the thoracic duct."
+        },
+        {
+          "front": "Confirmatory test for achalasia?",
+          "back": "Oesophageal manometry (after endoscopy to exclude a tumour at the cardia)."
+        },
+        {
+          "front": "Palliation of malignant dysphagia?",
+          "back": "Self-expanding metal stent, with or without radiotherapy."
+        },
+        {
+          "front": "Lifelong supplement after total gastrectomy?",
+          "back": "Vitamin B12 injections (no intrinsic factor)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "surgical-oncology--oesophagogastric-cancer--q1",
+          "discipline": "adult-surgery",
+          "topic": "surgical-oncology",
+          "difficulty": "foundation",
+          "stem": "A 66-year-old man sees his GP in Geelong with 2 months of food sticking behind his lower sternum. It began with steak and bread and now happens with soft foods. He has lost 6 kg. He has had reflux for 20 years, treated intermittently with antacids, and his BMI is 33 kg/m2.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Start a proton pump inhibitor and review in 8 weeks",
+            "Urgent referral for gastroscopy",
+            "Barium swallow",
+            "Oesophageal manometry",
+            "CT of the chest"
+          ],
+          "answer": 1,
+          "explanation": "**Progressive dysphagia** (solids, then soft foods) with **weight loss** in an older man with long-standing reflux and obesity strongly suggests **oesophageal adenocarcinoma**, probably arising from Barrett's oesophagus. The first investigation is **urgent gastroscopy with biopsy**, which gives a tissue diagnosis. Staging CT and other tests follow once cancer is confirmed. A barium swallow delays the diagnosis and would still need endoscopy. Manometry is for motility disorders once a structural cause has been excluded. A PPI trial with alarm symptoms is inappropriate and can delay diagnosis.",
+          "whyWrong": [
+            "Alarm symptoms mean endoscopy now, not an empirical trial.",
+            "",
+            "Barium cannot biopsy and would delay endoscopy.",
+            "Manometry assesses motility after cancer has been excluded.",
+            "CT is for staging once the diagnosis is made; it does not give tissue."
+          ],
+          "tags": [
+            "dysphagia",
+            "oesophageal cancer",
+            "red flags"
+          ]
+        },
+        {
+          "id": "surgical-oncology--oesophagogastric-cancer--q2",
+          "discipline": "adult-surgery",
+          "topic": "surgical-oncology",
+          "difficulty": "core",
+          "stem": "A 34-year-old woman presents with 8 months of difficulty swallowing both solids and liquids. She often regurgitates undigested food, especially when lying down at night, and gets occasional chest pain. She has lost 2 kg. Gastroscopy shows a dilated oesophagus with retained food and no mass or stricture; biopsies are normal.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Oesophageal adenocarcinoma",
+            "Eosinophilic oesophagitis",
+            "Peptic stricture",
+            "Achalasia",
+            "Pharyngeal pouch"
+          ],
+          "answer": 3,
+          "explanation": "**Achalasia** is a failure of the lower oesophageal sphincter to relax, together with loss of peristalsis, caused by degeneration of the myenteric plexus. The discriminating clue is dysphagia to **solids and liquids from the outset**, rather than the solids-then-liquids progression of a mechanical obstruction. It comes with regurgitation of undigested food and chest pain, often in a younger patient. Endoscopy is done first to exclude **pseudoachalasia** from a cancer at the cardia, and the diagnosis is confirmed with **manometry**. Barium shows a dilated oesophagus with a 'bird's beak'. Treatment options include pneumatic dilatation, laparoscopic Heller myotomy or peroral endoscopic myotomy.",
+          "whyWrong": [
+            "Cancer causes progressive dysphagia (solids first) with a mass on endoscopy, which is absent here.",
+            "Eosinophilic oesophagitis causes food bolus impaction with rings and eosinophils on biopsy.",
+            "A peptic stricture would be visible at endoscopy and usually follows long reflux.",
+            "",
+            "A pouch causes high dysphagia and gurgling in older people, and would be seen at endoscopy."
+          ],
+          "tags": [
+            "achalasia",
+            "dysphagia",
+            "differentials"
+          ]
+        },
+        {
+          "id": "surgical-oncology--oesophagogastric-cancer--q3",
+          "discipline": "adult-surgery",
+          "topic": "surgical-oncology",
+          "difficulty": "core",
+          "stem": "A 59-year-old man, who migrated from Korea 20 years ago, presents to his GP in Sydney with 3 months of epigastric discomfort, feeling full after a few mouthfuls and 7 kg of weight loss. On examination there is a hard, fixed, 1.5 cm lymph node above the medial end of his left clavicle. Haemoglobin is 104 g/L with a low MCV.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Gastric adenocarcinoma",
+            "Peptic ulcer disease",
+            "Functional dyspepsia",
+            "Hodgkin lymphoma",
+            "Chronic pancreatitis"
+          ],
+          "answer": 0,
+          "explanation": "Epigastric pain, **early satiety**, **weight loss** and iron deficiency anaemia are alarm features of **gastric cancer**. The hard left supraclavicular node (**Virchow's node, Troisier's sign**) is a classic sign of metastatic spread through the thoracic duct, and it means advanced disease. Gastric cancer is more common in people from East Asia, largely because of high *H. pylori* rates and diet. He needs urgent gastroscopy with biopsy, then staging CT. Peptic ulcer disease can bleed and cause anaemia, but it does not cause a hard supraclavicular node or this weight loss.",
+          "whyWrong": [
+            "",
+            "Peptic ulcer does not cause a hard, fixed supraclavicular node or marked weight loss.",
+            "Functional dyspepsia is a diagnosis of exclusion and is never made with alarm features.",
+            "Lymphoma causes rubbery nodes and B symptoms, but early satiety with iron deficiency points to the stomach.",
+            "Chronic pancreatitis causes pain radiating to the back and steatorrhoea, usually with an alcohol history."
+          ],
+          "tags": [
+            "gastric cancer",
+            "virchow node",
+            "dyspepsia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgical-oncology--pancreatic-hepatobiliary",
+      "title": "Pancreatic, biliary and liver cancer",
+      "minutes": 17,
+      "objectives": [
+        "Recognise painless obstructive jaundice and apply Courvoisier's law",
+        "Order investigations for suspected pancreatic cancer in the right sequence and interpret CA 19-9 correctly",
+        "Explain surveillance for hepatocellular carcinoma in cirrhosis and chronic hepatitis B",
+        "Outline curative and palliative options for pancreatic and hepatobiliary cancers, including liver metastases"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "A group of cancers that present late",
+          "body": "**Pancreatic adenocarcinoma** is among the leading causes of cancer death in Australia despite being less common than bowel or breast cancer, because most patients present with advanced disease. Only around 1 in 10 people survive 5 years, and only a minority (roughly 15-20%) have resectable disease at diagnosis. Risk factors are **smoking** (the strongest modifiable one), age, obesity, diabetes, chronic pancreatitis, and family history or inherited syndromes (for example *BRCA2*, Lynch syndrome).\n\n**Hepatobiliary cancers:**\n\n- **Hepatocellular carcinoma (HCC)** arises mostly in cirrhosis (alcohol, hepatitis C, metabolic dysfunction-associated fatty liver disease) and in chronic **hepatitis B**, which can cause HCC even without cirrhosis. It is more common in people born in countries where hepatitis B is endemic, and in Aboriginal and Torres Strait Islander people.\n- **Cholangiocarcinoma** is linked to primary sclerosing cholangitis and, in people from Southeast Asia, to liver flukes.\n- **Gallbladder cancer** is linked to gallstones and porcelain gallbladder.\n- **Liver metastases**, most often from colorectal cancer, are far more common in Australia than primary liver cancer."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why the jaundice is painless and the gallbladder is big",
+          "body": "Most pancreatic cancers arise in the **head of the pancreas**, which surrounds the distal common bile duct. As the tumour grows it slowly compresses the duct, causing **obstructive jaundice**. The obstruction develops gradually, so the gallbladder, which is healthy and elastic, distends into a **palpable, non-tender mass**.\n\n**Courvoisier's law:** in a jaundiced patient, a palpable gallbladder is unlikely to be caused by gallstones. Gallstone disease scars and shrinks the gallbladder, so it rarely distends, and a stone in the common bile duct causes painful, fluctuating jaundice. A palpable gallbladder with jaundice therefore points to a **malignant distal obstruction**: pancreatic head, distal cholangiocarcinoma or ampullary cancer.\n\nTumours in the body and tail do not block the bile duct, so they present even later with back pain (coeliac plexus invasion), weight loss or metastases. Pancreatic cancer also causes **new-onset diabetes** in older adults, recurrent migratory thrombophlebitis (Trousseau's sign) and venous thromboembolism.\n\nObstructed bile cannot reach the gut, so stools are **pale** (no stercobilin), urine is **dark** (conjugated bilirubin), fat is malabsorbed (steatorrhoea), and bile salts in the skin cause **itch**. Vitamin K absorption falls, so the INR can rise."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Presentation",
+          "body": "**Pancreatic head cancer** in the AMC stem: a man in his 60s or 70s, often a smoker, with **painless jaundice**, pruritus, dark urine, pale stools, weight loss and anorexia, and a **palpable non-tender gallbladder**. There may be a vague epigastric ache radiating to the back, recent-onset diabetes or a DVT.\n\n**HCC:** often found on surveillance ultrasound. Otherwise it presents as decompensation of known cirrhosis (ascites, encephalopathy, variceal bleed), right upper quadrant pain, weight loss or a mass.\n\n**Cholangiocarcinoma:** painless jaundice. A hilar tumour does *not* distend the gallbladder, because the obstruction lies above the cystic duct.\n\n**Liver metastases:** hepatomegaly (a hard, craggy edge), weight loss, and raised alkaline phosphatase, often in a patient with a known primary.\n\nOn examination look for jaundice, scratch marks, cachexia, an epigastric mass, a palpable gallbladder, hepatomegaly, ascites, a left supraclavicular node and signs of chronic liver disease."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Working up obstructive jaundice",
+          "body": "1. **LFTs:** a cholestatic pattern, with raised conjugated bilirubin, ALP and GGT more than transaminases. Check the **INR** (vitamin K malabsorption) and lipase, FBC and UEC.\n2. **Abdominal ultrasound** first: are the bile ducts dilated? Dilatation means obstruction, and ultrasound is excellent for gallstones. A dilated common bile duct *and* pancreatic duct (the 'double duct sign') suggests a pancreatic head or ampullary tumour.\n3. **Pancreatic-protocol (multiphase) CT** of the abdomen, with CT chest: this confirms the mass and stages it, and most importantly assesses **resectability** by showing contact with the superior mesenteric artery and vein, portal vein and coeliac axis.\n4. **EUS with fine needle biopsy** for tissue diagnosis or small lesions. **MRCP** helps map the biliary tree.\n5. **ERCP** is a therapeutic procedure, used to place a stent for cholangitis or palliation, and it can obtain brushings. Pre-operative stenting is avoided where possible in resectable disease unless there is cholangitis or surgery will be delayed.\n6. **CA 19-9:** useful for baseline and follow-up. It is raised by **any biliary obstruction** (including stones and cholangitis), so interpret it after the jaundice has been relieved. It is not a screening test, and some people cannot make it at all.\n\n**HCC:** surveillance with **6-monthly liver ultrasound** (with or without AFP) in all patients with cirrhosis and in certain groups with chronic hepatitis B, even without cirrhosis, as set out in Australian hepatitis B guidance by age, sex and ethnicity. HCC can be diagnosed on multiphase CT or MRI by its typical pattern (arterial enhancement with washout) without a biopsy."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Causes of obstructive jaundice",
+          "body": "| Cause | Discriminating features |\n|---|---|\n| Choledocholithiasis (bile duct stone) | Colicky RUQ pain, fluctuating jaundice, stones on ultrasound, gallbladder **not** palpable; fever and rigors mean cholangitis (Charcot's triad) |\n| Pancreatic head cancer | Painless, progressive jaundice, weight loss, palpable gallbladder, double duct sign |\n| Ampullary cancer | Like pancreatic cancer, but may fluctuate and cause occult GI bleeding (silver stool); better prognosis |\n| Cholangiocarcinoma | Painless jaundice, primary sclerosing cholangitis history; hilar tumours give intrahepatic duct dilatation with a collapsed gallbladder |\n| Chronic pancreatitis | Alcohol, chronic pain, calcification on CT, steatorrhoea; can mimic cancer |\n| Drug-induced cholestasis | No ductal dilatation; drugs such as amoxicillin-clavulanate and flucloxacillin |\n\nThe first split is **ultrasound: dilated ducts or not**. Dilated ducts mean a mechanical obstruction to find; undilated ducts mean an intrahepatic (medical) cause."
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment",
+          "body": "**Pancreatic cancer:** managed through the pancreatic cancer Optimal Care Pathway and a specialist MDT at a high-volume centre.\n\n- **Resectable head tumours:** pancreaticoduodenectomy (**Whipple procedure**), usually with chemotherapy (neoadjuvant and/or adjuvant). Body and tail tumours need a distal pancreatectomy and splenectomy.\n- **Borderline resectable disease:** neoadjuvant therapy, then reassessment.\n- **Palliation:** biliary stent via ERCP for jaundice and itch; duodenal stent or gastrojejunostomy for gastric outlet obstruction; chemotherapy; pain control with opioids and **coeliac plexus block**; **pancreatic enzyme replacement** for steatorrhoea and weight loss; managing diabetes; and anticoagulation for VTE.\n- **Early palliative care** referral and advance care planning, because most patients have limited survival.\n\n**HCC:** options depend on tumour burden, liver function (Child-Pugh) and performance status: resection, liver transplantation within criteria, ablation, transarterial chemoembolisation (TACE), and systemic therapy. Treat the underlying cause (antiviral therapy for hepatitis B).\n\n**Colorectal liver metastases:** potentially curable. Resection or ablation with chemotherapy gives long-term survival to a meaningful proportion of patients, so they should always be discussed at a hepatobiliary MDT.\n\n**Cholangitis** is an emergency whatever the cause: resuscitation, IV antibiotics per eTG, and urgent biliary drainage (ERCP)."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Exam traps",
+          "body": "- Painless jaundice plus a palpable gallbladder -> pancreatic head cancer until proven otherwise (Courvoisier).\n- Jaundice workup starts with LFTs and **ultrasound**; the pancreatic-protocol CT stages and assesses resectability.\n- CA 19-9 is raised by biliary obstruction, so it is not diagnostic; interpret it after drainage.\n- New diabetes with weight loss in an older adult: consider pancreatic cancer.\n- Cirrhosis or chronic hepatitis B -> 6-monthly liver ultrasound surveillance.\n- Rising CEA after colorectal surgery -> CT; isolated liver metastases may still be curable."
+        }
+      ],
+      "keyPoints": [
+        "Painless progressive jaundice with a palpable gallbladder suggests pancreatic head or distal biliary cancer (Courvoisier's law).",
+        "Ultrasound first to confirm duct dilatation, then pancreatic-protocol CT for staging and resectability.",
+        "CA 19-9 is for baseline and monitoring; any biliary obstruction raises it.",
+        "Only a minority of pancreatic cancers are resectable (Whipple); palliation covers stenting, enzymes, pain and early palliative care.",
+        "HCC surveillance: 6-monthly ultrasound in cirrhosis and in higher-risk chronic hepatitis B.",
+        "Colorectal liver metastases can be cured by resection in selected patients.",
+        "Cholangitis (fever, jaundice, RUQ pain) needs antibiotics and urgent biliary drainage."
+      ],
+      "redFlags": [
+        "Painless jaundice with weight loss",
+        "Palpable non-tender gallbladder in a jaundiced patient",
+        "New-onset diabetes with weight loss in an older adult",
+        "Fever, rigors and jaundice (cholangitis)",
+        "Decompensation of previously stable cirrhosis"
+      ],
+      "contrast": [
+        {
+          "aspect": "HCC risk groups",
+          "india": "Hepatitis B and alcohol-related cirrhosis predominate; surveillance is inconsistent.",
+          "australia": "Hepatitis B in migrants and First Nations people, hepatitis C, alcohol and fatty liver; 6-monthly ultrasound surveillance is expected."
+        },
+        {
+          "aspect": "Pancreatic surgery",
+          "india": "Performed in large tertiary centres, often with long travel for rural patients.",
+          "australia": "Concentrated in high-volume specialist centres through the pancreatic Optimal Care Pathway, with early palliative care."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Courvoisier's law?",
+          "back": "In painless jaundice, a palpable gallbladder is unlikely to be due to gallstones; suspect malignant distal obstruction (pancreatic head)."
+        },
+        {
+          "front": "Imaging sign of a pancreatic head tumour on ultrasound or CT?",
+          "back": "Double duct sign: dilated common bile duct and pancreatic duct."
+        },
+        {
+          "front": "Operation for a resectable pancreatic head cancer?",
+          "back": "Pancreaticoduodenectomy (Whipple procedure)."
+        },
+        {
+          "front": "HCC surveillance in cirrhosis?",
+          "back": "Liver ultrasound every 6 months, with or without AFP."
+        },
+        {
+          "front": "Why can the INR be high in obstructive jaundice?",
+          "back": "Bile salts are needed to absorb vitamin K; without them, synthesis of factors II, VII, IX and X falls. It corrects with IV vitamin K."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "surgical-oncology--pancreatic-hepatobiliary--q1",
+          "discipline": "adult-surgery",
+          "topic": "surgical-oncology",
+          "difficulty": "foundation",
+          "stem": "A 68-year-old man presents to his GP in Perth after his wife noticed his eyes were yellow. Over 6 weeks he has had itch, dark urine and pale stools, and he has lost 5 kg. He has no abdominal pain or fever. He smokes 20 cigarettes a day. On examination he is jaundiced, with scratch marks and a smooth, non-tender mass palpable below the right costal margin that moves with respiration.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Choledocholithiasis",
+            "Acute viral hepatitis",
+            "Carcinoma of the head of the pancreas",
+            "Primary biliary cholangitis",
+            "Hilar cholangiocarcinoma"
+          ],
+          "answer": 2,
+          "explanation": "**Painless, progressive obstructive jaundice** (dark urine, pale stools, itch), weight loss and a **palpable non-tender gallbladder** in an older smoker point to **carcinoma of the head of the pancreas**. **Courvoisier's law** says that a palpable gallbladder in a jaundiced patient is unlikely to be caused by gallstones, because chronic gallstone inflammation scars the gallbladder so it cannot distend. A stone in the bile duct usually causes painful, fluctuating jaundice. A hilar cholangiocarcinoma blocks the ducts *above* the cystic duct, so the gallbladder stays collapsed. Next steps are LFTs, ultrasound and a pancreatic-protocol CT.",
+          "whyWrong": [
+            "Stones usually cause pain and fluctuating jaundice, and the gallbladder is shrunken rather than palpable.",
+            "Viral hepatitis causes a hepatitic LFT pattern, often with a prodrome, and no palpable gallbladder.",
+            "",
+            "PBC mainly affects middle-aged women, with itch and no mass; the ducts are not dilated.",
+            "Hilar obstruction lies above the cystic duct, so the gallbladder does not distend."
+          ],
+          "tags": [
+            "pancreatic cancer",
+            "courvoisier",
+            "jaundice"
+          ]
+        },
+        {
+          "id": "surgical-oncology--pancreatic-hepatobiliary--q2",
+          "discipline": "adult-surgery",
+          "topic": "surgical-oncology",
+          "difficulty": "core",
+          "stem": "A 71-year-old woman with painless jaundice has LFTs showing bilirubin 186 micromol/L, ALP 640 U/L, GGT 820 U/L and ALT 110 U/L. Abdominal ultrasound shows a dilated common bile duct and a dilated pancreatic duct, with no gallstones and no clear mass. She is not febrile and is haemodynamically stable.\n\nWhat is the most appropriate next investigation?",
+          "options": [
+            "Serum CA 19-9 to confirm the diagnosis",
+            "ERCP with stent insertion",
+            "Percutaneous liver biopsy",
+            "Repeat ultrasound in 4 weeks",
+            "Multiphase (pancreatic-protocol) CT of the abdomen with CT chest"
+          ],
+          "answer": 4,
+          "explanation": "A dilated common bile duct *and* pancreatic duct (the **double duct sign**), with no stones, suggests a **pancreatic head or ampullary tumour**. The next step is a **multiphase pancreatic-protocol CT**, with CT of the chest. It shows the mass, stages the disease and, crucially, assesses **resectability** from the tumour's relationship to the superior mesenteric vessels, portal vein and coeliac axis. This should come **before any stent**, because stents cause artefact and inflammation that make resectability harder to judge. ERCP is reserved for cholangitis or palliation, or when surgery will be delayed. CA 19-9 is raised by any biliary obstruction and cannot confirm cancer.",
+          "whyWrong": [
+            "CA 19-9 is raised by biliary obstruction itself and is not diagnostic.",
+            "Stenting before staging CT impairs the resectability assessment; there is no cholangitis to justify it now.",
+            "Liver biopsy does not investigate a distal biliary obstruction.",
+            "Waiting delays diagnosis of a probably malignant obstruction.",
+            ""
+          ],
+          "tags": [
+            "obstructive jaundice",
+            "pancreatic cancer",
+            "imaging"
+          ]
+        },
+        {
+          "id": "surgical-oncology--pancreatic-hepatobiliary--q3",
+          "discipline": "adult-surgery",
+          "topic": "surgical-oncology",
+          "difficulty": "core",
+          "stem": "A 55-year-old man born in Vietnam has chronic hepatitis B with compensated cirrhosis on recent imaging. He is on entecavir and feels well. He asks how he should be checked for liver cancer.\n\nWhat is the most appropriate surveillance?",
+          "options": [
+            "Annual serum AFP alone",
+            "Liver ultrasound every 6 months, with or without AFP",
+            "CT of the abdomen every 2 years",
+            "No surveillance is needed while his viral load is suppressed",
+            "Liver biopsy every 3 years"
+          ],
+          "answer": 1,
+          "explanation": "People with **cirrhosis** from any cause, and certain higher-risk groups with **chronic hepatitis B** even without cirrhosis, should have **6-monthly liver ultrasound**, with or without AFP, to detect hepatocellular carcinoma at a stage when resection, ablation or transplantation can cure it. The 6-month interval reflects how fast HCC grows. Antiviral therapy lowers but does **not eliminate** HCC risk, especially once cirrhosis is present. AFP alone misses many tumours. Routine CT exposes him to radiation and contrast and is not the first-line surveillance tool. Biopsy has no role in surveillance.",
+          "whyWrong": [
+            "AFP alone is not sensitive enough; many HCCs do not secrete it.",
+            "",
+            "CT every 2 years is too infrequent and not first line.",
+            "Suppressing the virus reduces HCC risk but does not remove it, especially in cirrhosis.",
+            "Biopsy is invasive and has no role in surveillance."
+          ],
+          "ausPearl": "Hepatitis B is common in Australians born in Asia-Pacific and sub-Saharan Africa and in Aboriginal and Torres Strait Islander people; the ASHM decision-making tool guides who needs HCC surveillance.",
+          "tags": [
+            "hcc",
+            "hepatitis b",
+            "surveillance"
+          ]
+        },
+        {
+          "id": "surgical-oncology--pancreatic-hepatobiliary--q4",
+          "discipline": "adult-surgery",
+          "topic": "surgical-oncology",
+          "difficulty": "exam",
+          "stem": "A 72-year-old woman had a right hemicolectomy and adjuvant chemotherapy for stage III colon cancer 2 years ago. Her CEA was 2.1 microgram/L after treatment. At routine follow-up it is 14 microgram/L, and it was 9 microgram/L 3 months earlier. She feels well, and her examination is unremarkable.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Repeat CEA in 6 months",
+            "Start palliative chemotherapy",
+            "Refer to palliative care",
+            "CT of the chest, abdomen and pelvis",
+            "Reassure her because she has no symptoms"
+          ],
+          "answer": 3,
+          "explanation": "A **progressively rising CEA** after resection of colorectal cancer suggests **recurrence**, most often in the liver or lungs. This is the main use of tumour markers: monitoring after treatment. The next step is to find it with **CT of the chest, abdomen and pelvis** (and PET-CT if CT is unclear). This matters because **isolated liver or lung metastases may still be curable** by resection or ablation, so the patient should be discussed at an MDT. Starting chemotherapy or palliative care without imaging skips staging and may deny her curative treatment. Waiting 6 months risks the disease becoming unresectable.",
+          "whyWrong": [
+            "Waiting risks isolated, resectable metastases becoming unresectable.",
+            "Treatment cannot be planned without imaging to find the recurrence.",
+            "Recurrence may still be curable, and nothing yet shows incurable disease.",
+            "",
+            "Rising CEA often comes before symptoms; lack of symptoms is not reassuring."
+          ],
+          "tags": [
+            "cea",
+            "recurrence",
+            "liver metastases"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgical-oncology--skin-cancer-surgery",
+      "title": "Skin cancer: melanoma, BCC and SCC",
+      "minutes": 18,
+      "objectives": [
+        "Recognise melanoma, BCC and SCC from their clinical description, including nodular melanoma features",
+        "Choose the right biopsy for a suspicious pigmented lesion and avoid partial biopsies that mislead staging",
+        "Relate Breslow thickness to excision margins and sentinel lymph node biopsy",
+        "Plan surgical management and follow-up for keratinocyte cancers, and name the high-risk sites"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The Australian cancer",
+          "body": "Australia and New Zealand have the **highest skin cancer rates in the world**, because of a largely fair-skinned population, high UV levels and outdoor lifestyles. About two in three Australians will be diagnosed with skin cancer by age 70. **Melanoma** is one of the most common cancers in young adults and is responsible for most skin cancer deaths. **Keratinocyte cancers** (basal cell carcinoma, BCC; squamous cell carcinoma, SCC) are far more common but rarely fatal. SCC can metastasise, especially in immunosuppressed patients.\n\nRisk factors: UV exposure, especially **sunburn in childhood**; fair skin that burns easily; many (more than 100) or atypical naevi; a personal or family history of melanoma; **immunosuppression** (organ transplant recipients have a many-fold higher SCC risk); older age and outdoor occupations; and solarium use (commercial solariums are now banned in Australia).\n\nPrevention is the SunSmart message: **slip** on clothing, **slop** on SPF30+ sunscreen, **slap** on a hat, **seek** shade and **slide** on sunglasses, whenever the UV index is 3 or above."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Recognising each cancer",
+          "body": "**Melanoma:**\n\n- **ABCDE:** Asymmetry, Border irregularity, Colour variation, Diameter over 6 mm, **Evolving** (change in size, shape or colour). Change is the most important feature. An 'ugly duckling' lesion looks different from the patient's other moles.\n- **Nodular melanoma** breaks the ABCDE rules. Use **EFG: Elevated, Firm, Growing** over more than a month. It can be pink or red (amelanotic) and grows fast, so it is often thick at diagnosis.\n- Subtypes: superficial spreading (most common), nodular, lentigo maligna melanoma (sun-damaged face of older people), and acral lentiginous (palms, soles, under the nails; the commonest type in darker skin).\n- **Subungual melanoma:** a longitudinal pigmented band in the nail, pigment spreading onto the nail fold (Hutchinson's nail sign).\n\n**BCC:**\n\n- Nodular: a **pearly** papule with **rolled edges** and **telangiectasia**, which may ulcerate centrally (rodent ulcer). Usually on the face.\n- Superficial: a scaly pink patch on the trunk, often mistaken for eczema.\n- Morphoeic: a scar-like plaque with poorly defined edges, which is harder to clear.\n- Grows slowly and invades locally. It almost never metastasises.\n\n**SCC:**\n\n- A scaly, crusted, **tender** keratotic nodule on sun-exposed skin that grows over weeks to months, and may ulcerate.\n- Precursors: actinic (solar) keratoses and Bowen's disease (SCC in situ).\n- **Keratoacanthoma**: a rapidly growing, dome-shaped nodule with a central keratin crater over weeks. It is managed as an SCC, because the two cannot be reliably told apart.\n- High-risk features: lip and ear, size over 2 cm, poor differentiation, perineural invasion, immunosuppression, recurrence.\n\n**Merkel cell carcinoma** is a rare, aggressive, fast-growing red or purple nodule in older or immunosuppressed people."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Diagnosis: dermoscopy and the right biopsy",
+          "body": "- **Full skin examination with dermoscopy** improves diagnostic accuracy. Sequential digital monitoring helps high-risk patients with many naevi.\n- **Suspected melanoma:** do an **excisional biopsy with a 2 mm clinical margin** including a cuff of subcutaneous fat, oriented along the lines that will allow a later wide excision (for example along the long axis of a limb). This lets the pathologist measure the full **Breslow thickness**, which drives all further management.\n- **Avoid shave and punch biopsies** of a suspected melanoma where excision is possible. A partial sample can miss the thickest part and understage the tumour. Partial or incisional biopsy is acceptable for large lesions on cosmetically sensitive sites (for example lentigo maligna on the face), ideally by an experienced clinician.\n- **Suspected BCC or SCC:** a punch or shave biopsy to confirm the diagnosis and subtype is reasonable, or a direct excision with appropriate margins.\n\n**Melanoma pathology report:** Breslow thickness (mm, the single most important prognostic factor), ulceration, mitotic rate, margins, and microsatellites. These give the AJCC T stage:\n\n| T stage | Breslow thickness |\n|---|---|\n| Tis | In situ |\n| T1 | 1.0 mm or less |\n| T2 | Over 1.0 to 2.0 mm |\n| T3 | Over 2.0 to 4.0 mm |\n| T4 | Over 4.0 mm |\n\nUlceration moves a tumour up a sub-stage. Stage III means regional node or in-transit disease; stage IV means distant metastases. Imaging (CT or PET) is not needed for thin melanomas, but is used for stage III and above or for symptoms."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Look-alikes",
+          "body": "| Lesion | Clue that separates it from cancer |\n|---|---|\n| Seborrhoeic keratosis | 'Stuck-on', waxy, warty, horn cysts on dermoscopy; multiple in older people |\n| Benign naevus | Symmetrical, uniform colour, stable over time |\n| Dermatofibroma | Firm papule on the leg that dimples when pinched |\n| Pyogenic granuloma | Rapidly growing, bleeding red nodule, often after minor trauma. Always send it for histology, because amelanotic melanoma can look identical |\n| Actinic keratosis | Flat, rough, scaly patch on sun-damaged skin; treated with cryotherapy or topical agents. A thickened, tender or growing keratosis suggests SCC |\n| Sebaceous hyperplasia | Small yellowish umbilicated papules on the face, often mistaken for BCC |"
+        },
+        {
+          "kind": "management",
+          "heading": "Surgical management and follow-up",
+          "body": "**Melanoma wide local excision.** After the diagnostic excision, a re-excision widens the margin according to Breslow thickness, following the Australian melanoma guidelines (Cancer Council Australia):\n\n| Tumour | Recommended clinical margin |\n|---|---|\n| In situ | 5-10 mm |\n| T1 (1.0 mm or less) | 1 cm |\n| T2 (over 1.0 to 2.0 mm) | 1-2 cm |\n| T3 (over 2.0 to 4.0 mm) | 1-2 cm |\n| T4 (over 4.0 mm) | 2 cm |\n\nLarger margins do not improve survival.\n\n**Sentinel lymph node biopsy (SLNB)** is discussed for melanomas **over 1 mm**, and for thinner ones (over 0.8 mm, or with ulceration) with adverse features. It is a staging procedure: it gives prognosis and selects patients for adjuvant therapy, but it does not by itself improve survival. Routine completion lymph node dissection after a positive sentinel node is no longer standard; most patients get nodal ultrasound surveillance instead.\n\n**Adjuvant systemic therapy** (immunotherapy, or BRAF/MEK-targeted therapy for BRAF-mutant tumours) is offered by medical oncology for resected high-risk disease (stage III and some stage II). Metastatic melanoma outcomes have been transformed by immunotherapy. Every melanoma beyond in situ should be managed through an MDT or melanoma unit.\n\n**Keratinocyte cancers:**\n\n- **Surgical excision** with histological margins is the standard for most BCCs and all invasive SCCs. Typical clinical margins are about 3-4 mm for a small, well-defined BCC and wider (commonly 4-6 mm or more) for SCC, especially high-risk SCC.\n- **Mohs micrographic surgery** is used for high-risk facial sites (nose, eyelids, lips, ears), recurrent tumours and morphoeic BCC, because it spares tissue while checking all margins.\n- **Non-surgical options** for superficial BCC and Bowen's disease: topical imiquimod or fluorouracil, photodynamic therapy, cryotherapy, curettage. Radiotherapy is used for patients unfit for surgery or as adjuvant treatment for high-risk SCC.\n- SCC with a palpable regional node needs imaging, fine needle aspiration and specialist management.\n\n**Follow-up:** teach monthly skin **self-examination**; regular full skin checks by a doctor (more often after melanoma or in transplant recipients); SunSmart advice; and assessment of first-degree relatives. A patient with one skin cancer is at high risk of another."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- 'Changing pigmented lesion' -> **excisional biopsy with a 2 mm margin**. Not a shave, not a punch, not 'review in 3 months'.\n- 'Firm, raised, growing pink nodule' -> think nodular or amelanotic melanoma (EFG).\n- Breslow thickness decides the wide excision margin and SLNB. Know 1 cm for T1 and 2 cm for T4.\n- 'Pearly, rolled edge, telangiectasia on the nose' -> BCC; high-risk facial site, so consider Mohs.\n- 'Rapidly growing crater over weeks' -> keratoacanthoma; excise and treat as SCC.\n- Transplant recipient with multiple scaly lesions -> SCC risk; frequent skin checks."
+        }
+      ],
+      "keyPoints": [
+        "Australia has the world's highest skin cancer rates; melanoma causes most skin cancer deaths.",
+        "Suspected melanoma: excisional biopsy with a 2 mm margin; avoid partial biopsies that understage it.",
+        "Breslow thickness is the key prognostic factor and sets the wide excision margin (in situ 5-10 mm; T1 1 cm; T2-T3 1-2 cm; T4 2 cm).",
+        "Discuss SLNB for melanoma over 1 mm (or thinner with adverse features); it stages rather than cures.",
+        "Nodular melanoma: Elevated, Firm, Growing, and it may be amelanotic.",
+        "BCC is locally invasive; SCC can metastasise, especially in immunosuppressed patients; keratoacanthoma is treated as SCC.",
+        "Mohs surgery for high-risk facial sites and recurrent or ill-defined tumours."
+      ],
+      "redFlags": [
+        "A changing, new or 'ugly duckling' pigmented lesion",
+        "An elevated, firm, growing nodule, even if pink or non-pigmented",
+        "A pigmented band in a nail with pigment spreading onto the nail fold",
+        "A rapidly growing or tender keratotic lesion in an organ transplant recipient",
+        "A palpable regional lymph node in a patient with previous skin cancer"
+      ],
+      "contrast": [
+        {
+          "aspect": "Skin cancer burden",
+          "india": "Uncommon in darker skin; acral melanoma is the main type seen, usually late.",
+          "australia": "Highest rates in the world; skin checks and excisions are a large part of everyday general practice."
+        },
+        {
+          "aspect": "Who removes skin cancers",
+          "india": "Mostly surgeons and dermatologists in hospital settings.",
+          "australia": "Many are diagnosed and excised by GPs (including skin cancer clinics), with referral to plastic surgeons, dermatologists or melanoma units for complex cases."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Biopsy of choice for a suspected melanoma?",
+          "back": "Excisional biopsy with a 2 mm clinical margin and a cuff of subcutaneous fat."
+        },
+        {
+          "front": "Single most important prognostic factor in primary melanoma?",
+          "back": "Breslow thickness (mm), with ulceration next."
+        },
+        {
+          "front": "Wide excision margin for a melanoma with Breslow thickness over 4 mm?",
+          "back": "2 cm."
+        },
+        {
+          "front": "EFG rule?",
+          "back": "Elevated, Firm, Growing for more than a month: features of nodular melanoma."
+        },
+        {
+          "front": "Classic appearance of nodular BCC?",
+          "back": "Pearly papule with rolled edges and telangiectasia, sometimes with a central ulcer."
+        },
+        {
+          "front": "When is sentinel lymph node biopsy discussed for melanoma?",
+          "back": "Breslow over 1 mm, or thinner (over 0.8 mm or ulcerated) with adverse features."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "surgical-oncology--skin-cancer-surgery--q1",
+          "discipline": "adult-surgery",
+          "topic": "surgical-oncology",
+          "difficulty": "foundation",
+          "stem": "A 54-year-old man sees his GP in Townsville because his wife says a mole on his upper back has changed. It is 9 mm across, asymmetric, with irregular borders and areas of dark brown, black and grey. He thinks it has grown over the past 6 months. There are no palpable lymph nodes.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Shave biopsy of the raised part of the lesion",
+            "Punch biopsy from the darkest area",
+            "Photograph the lesion and review in 3 months",
+            "Excisional biopsy with a 2 mm margin",
+            "Wide local excision with a 2 cm margin"
+          ],
+          "answer": 3,
+          "explanation": "This lesion meets several **ABCDE** criteria and, most importantly, is **evolving**, so melanoma must be excluded. The recommended diagnostic procedure is an **excisional biopsy with a 2 mm clinical margin**, including subcutaneous fat, oriented so a later wide excision is easy. Excising the whole lesion lets the pathologist measure the true **Breslow thickness**, which determines the definitive margin, whether to offer sentinel node biopsy, and prognosis. Shave and punch biopsies sample only part of the lesion and can understage it. A wide local excision before diagnosis gives the wrong margins and can disrupt lymphatic mapping for a sentinel node biopsy.",
+          "whyWrong": [
+            "A shave can transect the lesion and prevent an accurate Breslow measurement.",
+            "A punch samples only part of the lesion and may miss the thickest area.",
+            "Short-term monitoring is for flat, featureless lesions, not one with clear change and ABCDE features.",
+            "",
+            "Definitive margins depend on Breslow thickness, which is not known yet; a wide excision can also disrupt lymphatic mapping."
+          ],
+          "ausPearl": "Many Australian GPs perform skin excisions themselves; the melanoma guidelines are published by Cancer Council Australia.",
+          "tags": [
+            "melanoma",
+            "biopsy",
+            "skin cancer"
+          ]
+        },
+        {
+          "id": "surgical-oncology--skin-cancer-surgery--q2",
+          "discipline": "adult-surgery",
+          "topic": "surgical-oncology",
+          "difficulty": "core",
+          "stem": "A 47-year-old woman had an excisional biopsy of a lesion on her calf. Histology shows a superficial spreading melanoma, Breslow thickness 1.6 mm, not ulcerated, with clear narrow margins. She has no palpable inguinal nodes and feels well.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Wide local excision with a 1-2 cm margin and a discussion of sentinel lymph node biopsy",
+            "No further surgery, because the margins are clear",
+            "Wide local excision with a 5 cm margin",
+            "Wide local excision with elective inguinal lymph node dissection",
+            "Start adjuvant radiotherapy to the calf"
+          ],
+          "answer": 0,
+          "explanation": "This is a **T2a melanoma** (over 1.0 to 2.0 mm, not ulcerated). Australian guidelines recommend a **wide local excision with a 1-2 cm clinical margin** to lower local recurrence risk. The narrow biopsy margin is not enough, even if histologically clear. Because Breslow thickness is over 1 mm, **sentinel lymph node biopsy** should be discussed. It gives accurate staging and prognosis and decides eligibility for adjuvant systemic therapy, ideally done at the same time as the wide excision. Margins wider than 2 cm do not improve survival. Elective lymph node dissection without evidence of nodal disease is not recommended.",
+          "whyWrong": [
+            "",
+            "A narrow biopsy margin is not adequate definitive treatment for invasive melanoma.",
+            "Margins beyond 2 cm add morbidity with no survival benefit.",
+            "Elective node dissection is not done; SLNB stages the nodes with much less morbidity.",
+            "Radiotherapy is not standard for a completely excised primary melanoma."
+          ],
+          "tags": [
+            "melanoma",
+            "breslow",
+            "slnb"
+          ]
+        },
+        {
+          "id": "surgical-oncology--skin-cancer-surgery--q3",
+          "discipline": "adult-surgery",
+          "topic": "surgical-oncology",
+          "difficulty": "core",
+          "stem": "A 70-year-old retired farmer in rural Queensland presents with a lesion on the back of his hand. It appeared 6 weeks ago and has grown quickly to 15 mm. It is a firm, dome-shaped nodule with a central keratin-filled crater. He has extensive sun damage and several actinic keratoses.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Cryotherapy with liquid nitrogen",
+            "Observe for spontaneous resolution over 3 months",
+            "Surgical excision with histological margin assessment",
+            "Topical imiquimod cream",
+            "Topical fluorouracil cream"
+          ],
+          "answer": 2,
+          "explanation": "A rapidly growing, dome-shaped nodule with a **central keratin crater** over a few weeks is a classic **keratoacanthoma**. Some keratoacanthomas regress on their own, but they cannot be reliably told apart from **well-differentiated SCC** either clinically or on a partial biopsy. So they are **managed as SCC**: **surgical excision** with histological assessment of the margins. Cryotherapy and topical agents (imiquimod, fluorouracil) are for actinic keratoses, Bowen's disease and superficial BCC. They do not treat an invasive, nodular SCC and give no histology. Observation risks letting an SCC grow and spread.",
+          "whyWrong": [
+            "Cryotherapy suits actinic keratoses, not a nodular possible SCC, and gives no histology.",
+            "It may be an SCC, so waiting risks spread.",
+            "",
+            "Imiquimod is for superficial BCC and in situ disease, not invasive nodules.",
+            "Fluorouracil is for actinic keratoses and Bowen's disease, not invasive nodules."
+          ],
+          "tags": [
+            "scc",
+            "keratoacanthoma",
+            "skin cancer"
+          ]
+        },
+        {
+          "id": "surgical-oncology--skin-cancer-surgery--q4",
+          "discipline": "adult-surgery",
+          "topic": "surgical-oncology",
+          "difficulty": "foundation",
+          "stem": "A 66-year-old woman presents with a lesion on the side of her nose that has slowly enlarged over 18 months and occasionally bleeds when she dries her face. It is a 7 mm pearly nodule with a rolled edge, fine surface telangiectasia and a small central crust. There are no palpable lymph nodes.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Squamous cell carcinoma",
+            "Amelanotic melanoma",
+            "Seborrhoeic keratosis",
+            "Sebaceous hyperplasia",
+            "Nodular basal cell carcinoma"
+          ],
+          "answer": 4,
+          "explanation": "A slowly growing **pearly** nodule with a **rolled edge**, **telangiectasia** and a central crust or ulcer on the face is a classic **nodular basal cell carcinoma** (rodent ulcer). BCC invades locally but almost never metastasises. It needs complete removal, because neglected tumours can destroy the nose, eyelid or ear. The nose is a **high-risk facial site**, so referral for **Mohs micrographic surgery** or careful excision is often appropriate. SCC grows faster and is keratotic and tender. Amelanotic melanoma is firm and grows over weeks to months.",
+          "whyWrong": [
+            "SCC is typically keratotic, crusted and tender, and grows over weeks to months.",
+            "Amelanotic melanoma is a rapidly growing firm nodule and lacks the pearly rolled edge.",
+            "Seborrhoeic keratosis is waxy and 'stuck-on', without telangiectasia or ulceration.",
+            "Sebaceous hyperplasia gives small yellow umbilicated papules that do not ulcerate or bleed.",
+            ""
+          ],
+          "tags": [
+            "bcc",
+            "skin cancer",
+            "diagnosis"
+          ]
+        }
+      ]
+    }
+  ]
+}

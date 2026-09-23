@@ -1,0 +1,769 @@
+{
+  "topic": "breast",
+  "intro": "Breast problems are among the most common reasons women see an Australian GP, and breast cancer is the most common cancer in Australian women. This topic covers the breast lump and triple assessment, pain, nipple discharge and infection, breast cancer from screening to survivorship, familial risk and the male breast. The AMC tests safe triage: which symptoms need imaging and biopsy, who goes to BreastScreen versus diagnostic imaging, and how to avoid reassuring too early.",
+  "lessons": [
+    {
+      "id": "breast--lump-and-triple-assessment",
+      "title": "The breast lump and triple assessment",
+      "minutes": 18,
+      "objectives": [
+        "Take a focused breast history and describe a lump the way the AMC does",
+        "Apply the triple test and explain why all three parts must be concordant",
+        "Choose ultrasound or mammography plus ultrasound based on age",
+        "Distinguish fibroadenoma, cyst, fat necrosis and cancer on clinical and imaging features",
+        "Decide when a benign lump can be left alone and when it needs excision"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why the lump matters",
+          "body": "A woman who finds a breast lump is frightened of one thing: cancer. Most lumps are benign, but breast cancer is the most common cancer in Australian women (excluding non-melanoma skin cancer), so every new lump is investigated until cancer is excluded. The GP's job is not to guess from the feel of a lump; it is to organise **triple assessment** and make sure the results agree.\n\nAge is the single most useful clue to what a lump is likely to be:\n\n| Age | Most likely lump |\n|---|---|\n| 15-30 | Fibroadenoma |\n| 30-50 | Fibrocystic change, cysts (peak in the perimenopausal years) |\n| Over 50 | Cancer until proven otherwise |\n\nBut age only shifts probability. Cancer occurs in young women (and is often more aggressive there), and a woman of 60 can have a simple cyst, especially on hormone therapy."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "History and examination",
+          "body": "**History.** When was it noticed and how (self-found, partner, screening recall)? Has it changed in size, or with the menstrual cycle (cyclical change suggests fibrocystic tissue)? Pain, nipple discharge or nipple change, skin change. Menstrual status, parity, age at first pregnancy, breastfeeding, hormonal contraception or menopausal hormone therapy (MHT). Past breast biopsies or chest radiotherapy (for example for Hodgkin lymphoma in youth). **Family history** on both sides: breast, ovarian, prostate and pancreatic cancer, age at diagnosis, male breast cancer, Ashkenazi Jewish ancestry. Trauma (fat necrosis). Systemic symptoms such as bone pain, weight loss or breathlessness.\n\n**Examination.** With a chaperone offered. Inspect sitting with arms by the sides, then raised, then hands pressed on hips (tenses pectoralis and reveals tethering). Look for asymmetry, skin dimpling, peau d'orange, nipple inversion or eczema. Palpate all quadrants and the axillary tail with the flat of the fingers, then both axillae and the supraclavicular fossae.\n\nDescribe a lump by **site (quadrant and clock face, distance from nipple), size, shape, consistency, surface, margins, mobility, tenderness and fixation** to skin or deep muscle.\n\n| Feature | Suggests benign | Suggests malignant |\n|---|---|---|\n| Consistency | Rubbery, soft, cystic | Hard, stony |\n| Margins | Smooth, well defined | Irregular, ill defined |\n| Mobility | Very mobile (\"breast mouse\") | Tethered or fixed |\n| Skin/nipple | Normal | Dimpling, peau d'orange, recent inversion |\n| Axilla | Normal | Hard or matted nodes |\n\nNone of these features is reliable enough on its own. A \"classic fibroadenoma\" on examination still needs imaging and usually a core biopsy."
+        },
+        {
+          "kind": "investigations",
+          "heading": "The triple test",
+          "body": "Triple assessment has three parts:\n\n1. **Clinical assessment**: history and examination.\n2. **Imaging**: ultrasound and/or mammography.\n3. **Non-excision biopsy**: **core biopsy is preferred** because it gives histology (invasive versus in situ, grade, receptor status). Fine needle aspiration (FNA) gives cytology only and is mainly used for cysts and axillary nodes.\n\nEach component is reported as benign, indeterminate/suspicious or malignant. The key rule: **all three must be concordant**. If all three are benign, cancer is excluded with very high confidence. If any one is suspicious, the test is positive and the woman is managed as possible cancer. If the results disagree (for example, a hard irregular lump with a benign core), that is **discordance**: repeat or vacuum-assisted biopsy, or surgical excision, is needed. A benign biopsy never overrules a suspicious clinical or imaging finding.\n\n**Choosing imaging by age**\n- **Under about 35: ultrasound first.** Young breasts are dense with glandular tissue, which hides lesions on mammography; ultrasound also tells a cyst from a solid lump and avoids radiation.\n- **About 35 and over: mammography plus ultrasound.** Mammography picks up microcalcification (DCIS) and architectural distortion; ultrasound characterises the lump itself.\n- **Pregnant or breastfeeding:** ultrasound first; mammography can be added if needed.\n- **Breast MRI** is not a routine first test. It is used for surveillance of very high-risk women (for example BRCA carriers), for problem-solving, for implants, and for some cancer staging, especially lobular cancer.\n\nImaging is reported with a standard 1-5 scale (1 normal, 2 benign, 3 indeterminate, 4 suspicious, 5 malignant), and the same scale is used for the clinical and pathology components in many Australian units.\n\n**Pitfall:** a normal mammogram does not exclude cancer in a woman with a palpable lump. Mammographic sensitivity falls in dense breasts, and lobular cancers can be mammographically occult. The lump still needs ultrasound and biopsy.\n\n**Referral pathway:** a woman with a symptom is referred by her GP for **diagnostic** imaging and then to a breast surgeon or breast clinic. She should not be sent to BreastScreen Australia, which is a screening service for women without symptoms."
+        },
+        {
+          "kind": "differentials",
+          "heading": "The common benign lumps",
+          "body": "**Fibroadenoma.** The most common lump in young women, typically 15-35. A benign overgrowth of lobular stroma and epithelium, hormone-sensitive (may enlarge in pregnancy and involute after menopause). Smooth, firm, rubbery, well defined and highly mobile: the \"breast mouse\". Ultrasound shows an oval, well-circumscribed, solid lesion wider than tall. After a concordant benign triple test it can be left alone; many shrink over time. Excision is offered if it is large (often quoted above about 3 cm), growing, symptomatic or the woman prefers it.\n\n**Phyllodes tumour** looks like a fibroadenoma but grows rapidly, is often large, and typically occurs in women in their 40s. It can be benign, borderline or malignant, and is treated by wide excision. A rapidly enlarging \"fibroadenoma\" should raise this concern.\n\n**Breast cyst.** Common between about 35 and 55, in the perimenopausal years, and in older women on MHT. Smooth, well defined, may be tender and appear suddenly. Ultrasound shows a simple anechoic fluid-filled lesion. Simple cysts need no treatment; aspirate if painful. Send fluid for cytology and refer for further assessment if the aspirate is **bloody**, if a **mass remains** after aspiration, if it **recurs** repeatedly, or if the cyst is complex (solid component) on ultrasound.\n\n**Fibrocystic change** (fibroadenosis). Lumpy, tender breasts, often upper outer quadrants, worse premenstrually. A diffuse change, not a discrete lump; a dominant lump within lumpy breasts still needs triple assessment.\n\n**Fat necrosis.** Follows trauma (seatbelt injury), surgery or radiotherapy, commonly in women with fatty breasts. It can be hard, irregular and even tethered, mimicking cancer clinically and on mammography. Triple assessment with biopsy resolves it.\n\n**Others:** lipoma, galactocele (milk-filled cyst in lactation), breast abscess (see infection lesson) and sebaceous cyst in the skin.\n\n| | Fibroadenoma | Cyst | Cancer |\n|---|---|---|---|\n| Typical age | 15-35 | 35-55 | Over 50 (any age) |\n| Feel | Rubbery, very mobile | Smooth, tense, may be tender | Hard, irregular, tethered |\n| Ultrasound | Oval solid, well defined | Anechoic fluid | Irregular solid, taller than wide, shadowing |"
+        },
+        {
+          "kind": "management",
+          "heading": "Putting it together",
+          "body": "- **Every new discrete lump**: triple assessment, whatever the age.\n- **All benign and concordant**: reassure, explain the diagnosis, advise breast awareness (knowing what is normal for her and reporting change), and arrange review if it changes. Fibroadenomas and simple cysts need no routine follow-up imaging once confirmed.\n- **Any component suspicious or malignant**: refer urgently to a breast surgeon or breast clinic for multidisciplinary care.\n- **Discordant**: further tissue (repeat core, vacuum-assisted biopsy or excision). Do not reassure.\n- **Lumpy, tender, cyclical breasts without a dominant lump**: reassure and review after the next period (examine in the week after menstruation); a persisting focal area gets imaged.\n\nCommunicate results clearly, and document what was examined and what was ordered. Delay in diagnosing breast cancer is a common source of medicolegal complaints in Australian general practice, usually because a lump was attributed to \"hormonal change\" without imaging or because a normal mammogram was taken as the final answer."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- The classic stem gives an age and a lump description, then asks for the **next investigation**. Under 35: ultrasound. 35 and over: mammography plus ultrasound. Then core biopsy.\n- \"Mammogram is normal, what next?\" when there is a palpable lump: **ultrasound and core biopsy**, not reassurance.\n- \"Core biopsy is benign but imaging is suspicious\": discordance, so **excision or repeat biopsy**.\n- A symptomatic woman is never sent to BreastScreen.\n- History of trauma plus a hard lump: fat necrosis is likely, but the answer is still triple assessment.\n- Tumour markers (CA 15-3) and PET scans are never part of diagnosing a lump."
+        }
+      ],
+      "keyPoints": [
+        "Every new discrete breast lump gets triple assessment: clinical, imaging and non-excision (core) biopsy.",
+        "All three parts must be benign and concordant before reassuring; any suspicious part makes the test positive.",
+        "Under about 35: ultrasound first. From about 35: mammography plus ultrasound.",
+        "A normal mammogram never excludes cancer in a palpable lump.",
+        "Fibroadenoma: smooth, rubbery, very mobile lump in a young woman; leave alone once confirmed unless large or growing.",
+        "Cysts peak in the perimenopausal years; bloody aspirate or residual mass needs further assessment.",
+        "Symptomatic women are referred for diagnostic imaging, not BreastScreen."
+      ],
+      "redFlags": [
+        "Hard, irregular or fixed lump",
+        "Skin dimpling, peau d'orange or recent nipple inversion",
+        "Hard or matted axillary or supraclavicular nodes",
+        "Rapidly enlarging lump (consider phyllodes tumour or cancer)",
+        "Bloody cyst aspirate or residual mass after aspiration",
+        "Discordant triple test results"
+      ],
+      "contrast": [
+        {
+          "aspect": "Biopsy method",
+          "india": "FNAC is widely used as the tissue test because it is cheap and quick.",
+          "australia": "Image-guided core biopsy is preferred, giving histology, grade and receptor status; FNA is mainly for cysts and nodes."
+        },
+        {
+          "aspect": "Where a symptomatic woman goes",
+          "india": "Surgical OPD or private radiology directly.",
+          "australia": "GP refers for diagnostic imaging then to a breast surgeon; BreastScreen is only for women without symptoms."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "What are the three components of the breast triple test?",
+          "back": "Clinical assessment, imaging (ultrasound and/or mammography) and non-excision biopsy, preferably core biopsy."
+        },
+        {
+          "front": "First-line imaging for a breast lump in a woman under about 35?",
+          "back": "Ultrasound (dense breasts make mammography less useful; low cancer risk; no radiation)."
+        },
+        {
+          "front": "First-line imaging for a breast lump in a woman aged 35 or over?",
+          "back": "Mammography plus ultrasound."
+        },
+        {
+          "front": "Triple test results are discordant. What is the next step?",
+          "back": "Further tissue sampling: repeat or vacuum-assisted core biopsy, or surgical excision. Never reassure."
+        },
+        {
+          "front": "Which breast cyst aspirates need further assessment?",
+          "back": "Bloody aspirate, a residual mass after aspiration, repeated recurrence, or a complex cyst on ultrasound."
+        },
+        {
+          "front": "A 'fibroadenoma' that grows rapidly in a woman in her 40s suggests?",
+          "back": "Phyllodes tumour; needs wide excision."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "breast--lump-and-triple-assessment--q1",
+          "discipline": "adult-surgery",
+          "topic": "breast",
+          "difficulty": "foundation",
+          "stem": "A 23-year-old university student presents to a GP clinic in Adelaide with a painless lump in her left breast that she noticed 3 weeks ago. It has not changed through one menstrual cycle. On examination there is a 1.5 cm smooth, rubbery, well-defined lump in the upper outer quadrant that moves freely under the fingers. There is no skin or nipple change and the axillae are normal.\n\nWhich is the most appropriate next step?",
+          "options": [
+            "Reassure her that this is a fibroadenoma and review in 12 months",
+            "Arrange bilateral mammography",
+            "Arrange a breast ultrasound",
+            "Refer to BreastScreen Australia",
+            "Arrange breast MRI"
+          ],
+          "answer": 2,
+          "explanation": "This is very likely a **fibroadenoma**: a smooth, rubbery, highly mobile lump in a young woman. But clinical impression alone is never enough; every new discrete lump needs **triple assessment**.\n\nIn women **under about 35**, **ultrasound** is the first imaging test. Their breast tissue is dense, which makes mammograms hard to read, cancer is uncommon, and ultrasound separates solid from cystic lesions without radiation. If ultrasound shows a typical fibroadenoma, a core biopsy completes the triple test. Once all three components are benign and concordant, the lump can usually be left alone.\n\nMRI is for high-risk surveillance or problem-solving, and BreastScreen is only for women without symptoms.",
+          "whyWrong": [
+            "Reassurance without imaging and biopsy skips the triple test.",
+            "Mammography is not first-line under about 35 because dense tissue lowers its sensitivity.",
+            "",
+            "BreastScreen is a screening service for asymptomatic women, not for investigating a lump.",
+            "MRI is not a first-line test for a new lump."
+          ],
+          "tags": [
+            "fibroadenoma",
+            "triple test",
+            "imaging"
+          ]
+        },
+        {
+          "id": "breast--lump-and-triple-assessment--q2",
+          "discipline": "adult-surgery",
+          "topic": "breast",
+          "difficulty": "core",
+          "stem": "A 52-year-old woman sees her GP in Perth with a lump in her right breast. On examination there is a 2 cm hard, irregular lump in the upper outer quadrant with slight skin tethering. Bilateral mammography, done by a radiologist, is reported as showing dense breast tissue with no abnormality.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Reassure her and repeat the mammogram in 6 months",
+            "Refer her to BreastScreen Australia in 2 years",
+            "Measure serum CA 15-3",
+            "Arrange targeted breast ultrasound and core biopsy",
+            "Prescribe evening primrose oil and review after her next period"
+          ],
+          "answer": 3,
+          "explanation": "A **normal mammogram does not exclude cancer** in a woman with a palpable lump. Mammographic sensitivity drops in dense breasts, and some cancers (notably invasive lobular carcinoma) are mammographically occult.\n\nHere the clinical component of the triple test is clearly **suspicious**: hard, irregular and tethered to skin in a woman over 50. The triple test is positive if any one component is suspicious, so she needs the rest of the assessment: **targeted ultrasound** of the lump and **core biopsy**, followed by referral to a breast surgeon.\n\nTumour markers have no diagnostic role, and deferring to screening or to cyclical review risks a delayed cancer diagnosis, a common medicolegal problem.",
+          "whyWrong": [
+            "Waiting 6 months risks delaying a cancer diagnosis; a suspicious lump needs tissue now.",
+            "BreastScreen is for asymptomatic women and would delay diagnosis.",
+            "Tumour markers are not used to diagnose breast lumps.",
+            "",
+            "This is a suspicious discrete lump, not cyclical mastalgia; symptomatic treatment is inappropriate."
+          ],
+          "tags": [
+            "triple test",
+            "mammography",
+            "discordance"
+          ],
+          "ausPearl": "Missed or delayed breast cancer after a 'normal mammogram' is a recurring theme in Australian medicolegal cases. Document the lump and complete the triple test."
+        },
+        {
+          "id": "breast--lump-and-triple-assessment--q3",
+          "discipline": "adult-surgery",
+          "topic": "breast",
+          "difficulty": "exam",
+          "stem": "A 44-year-old woman has a 1 cm lump in the left breast. Ultrasound shows an irregular solid lesion that is taller than wide with posterior acoustic shadowing, reported as suspicious. An ultrasound-guided core biopsy shows benign fibrocystic change.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Reassure her that the lump is benign",
+            "Repeat ultrasound in 12 months",
+            "Arrange further tissue sampling, such as vacuum-assisted biopsy or surgical excision",
+            "Start tamoxifen",
+            "Arrange genetic testing for BRCA1 and BRCA2"
+          ],
+          "answer": 2,
+          "explanation": "This is a **discordant triple test**: the imaging is suspicious but the biopsy is benign. A core needle can miss a small lesion, sampling adjacent normal tissue instead. The benign biopsy therefore **cannot overrule** the suspicious imaging.\n\nThe correct response is more tissue: a repeat or **vacuum-assisted biopsy**, or **surgical (excision) biopsy**, usually discussed at a breast multidisciplinary meeting. Only when all three components are benign and agree can cancer be excluded with confidence.\n\nTamoxifen has no role without a diagnosis, and genetic testing depends on personal and family history, not on an indeterminate lump.",
+          "whyWrong": [
+            "Reassurance is wrong when the imaging is suspicious; the biopsy may have missed the lesion.",
+            "Surveillance for a year risks delaying a cancer diagnosis.",
+            "",
+            "Endocrine therapy is not given without a diagnosis of cancer or a defined high-risk state.",
+            "Genetic testing is based on family history criteria, not on this finding."
+          ],
+          "tags": [
+            "triple test",
+            "discordance",
+            "core biopsy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "breast--pain-discharge-and-infection",
+      "title": "Breast pain, nipple discharge and infection",
+      "minutes": 18,
+      "objectives": [
+        "Separate cyclical from non-cyclical breast pain and manage mastalgia without over-investigation",
+        "Distinguish physiological nipple discharge and galactorrhoea from pathological discharge",
+        "Recognise when bloody single-duct discharge or nipple change needs imaging and referral",
+        "Manage lactational mastitis and breast abscess in line with Therapeutic Guidelines",
+        "Identify inflammatory breast cancer masquerading as infection"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Common, usually benign, occasionally sinister",
+          "body": "Breast pain, nipple discharge and breast infection are far more common than breast cancer and fill a large share of GP breast consultations. The skill being tested is **triage**: knowing which presentations can be managed with reassurance and simple measures, and which features push the woman into triple assessment or urgent referral.\n\nThe central principles:\n- Breast pain alone is rarely due to cancer, but pain with a lump is assessed as a lump.\n- Nipple discharge that is **bilateral, multi-duct and only on expression** is usually physiological. Discharge that is **spontaneous, unilateral, single-duct, bloody or serous** is pathological until proven otherwise.\n- Mastitis in a breastfeeding woman is common and treated by keeping milk moving. \"Mastitis\" in a woman who is **not** breastfeeding, especially if it fails to settle on antibiotics, raises the possibility of **inflammatory breast cancer**."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Mastalgia and nipple discharge",
+          "body": "**Cyclical mastalgia** is the commonest pattern: bilateral, diffuse, often upper outer quadrant and axillary tail, worst in the days before a period and relieved by menstruation. It is linked to normal hormonal responsiveness of breast tissue and often coexists with fibrocystic change. It is common in the 30s and 40s and resolves at menopause (though MHT can bring it back).\n\n**Non-cyclical breast pain** is often unilateral and localised. Many cases are actually **chest wall pain** (costochondritis, Tietze syndrome, muscle strain) reproduced by pressing on the costal cartilages or ribs rather than the breast. Other causes: infection, a cyst, fat necrosis, pregnancy, drugs (MHT, some antidepressants), and rarely cancer. Always ask about a lump, and consider cardiac, lung, oesophageal or biliary causes of \"breast\" pain.\n\n**Nipple discharge** is described by colour, laterality, number of ducts, whether spontaneous, and any lump.\n\n| Type | Features | Likely cause |\n|---|---|---|\n| Physiological | Bilateral, multi-duct, clear/white/green/yellow, only when squeezed | Normal secretion; stop squeezing |\n| Galactorrhoea | Bilateral, milky, multi-duct, not lactating | Pregnancy, drugs (antipsychotics, metoclopramide, domperidone), prolactinoma, hypothyroidism |\n| Duct ectasia | Thick, green-brown or multicoloured, often multi-duct, perimenopausal or older, slit-like nipple retraction | Dilated subareolar ducts, periductal inflammation (smoking association) |\n| Intraductal papilloma | Bloody or serous, spontaneous, **single duct**, unilateral | Most common cause of bloody discharge |\n| Cancer (DCIS or invasive) | Bloody or serous, single duct, especially age over 50 or with a lump | Must be excluded |\n\n**Nipple changes.** **Paget's disease of the nipple** is an eczematous, scaly, sometimes weeping or ulcerated lesion that **starts on the nipple** and spreads to the areola; it is almost always unilateral and associated with underlying DCIS or invasive cancer. Eczema, by contrast, usually starts on the areola, is often bilateral, itches and responds to topical steroids. A unilateral nipple rash that does not settle within about 2 weeks of treatment needs a punch biopsy. **Recent-onset** unilateral nipple inversion needs triple assessment; long-standing inversion or slit-like retraction from duct ectasia is less concerning."
+        },
+        {
+          "kind": "investigations",
+          "heading": "What to order",
+          "body": "**Mastalgia:** examine carefully. If there is no focal lump or focal persistent tenderness, imaging is not required for cyclical pain. Focal, persistent non-cyclical pain warrants age-appropriate imaging (ultrasound under about 35; mammography plus ultrasound from about 35), mainly to reassure.\n\n**Galactorrhoea:** pregnancy test (beta-hCG), serum prolactin, TSH, renal function and a medication review. A high prolactin without a drug cause leads to pituitary MRI.\n\n**Pathological (spontaneous, single-duct, bloody or serous) discharge:** mammography (if about 35 or over) and ultrasound of the retroareolar region, then **referral to a breast surgeon**. Further options include MRI and, if a lesion is found, image-guided biopsy; microdochectomy (excision of the discharging duct) is both diagnostic and therapeutic. Discharge cytology has low sensitivity and a negative result is not reassuring. Testing for blood in clear discharge can help triage in some units.\n\n**Mastitis:** a clinical diagnosis. Send a milk culture if it is severe, recurrent, hospital-acquired, or not responding to first-line antibiotics (consider MRSA). **Ultrasound** if a fluctuant or persistent mass suggests an abscess, or if symptoms have not settled within about 48 hours of antibiotics.\n\n**Non-lactating woman with an apparently inflamed breast:** treat as infection only briefly; if it does not resolve promptly, arrange mammography, ultrasound and **biopsy** (including skin punch biopsy) to exclude inflammatory breast cancer."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Cyclical mastalgia.** Reassurance that it is not a sign of cancer is the main treatment and is enough for most women. Add a well-fitting supportive bra (including at night and for exercise), simple analgesia (paracetamol, oral or topical NSAIDs) and a pain diary to confirm the cyclical pattern. Review hormonal contraception or MHT. Evidence for evening primrose oil, caffeine avoidance and vitamin supplements is weak. Specialist hormonal options (such as tamoxifen or danazol) are reserved for severe refractory cases because of side effects.\n\n**Physiological discharge:** reassure and advise her to stop expressing. **Galactorrhoea:** treat the cause (stop or change the drug if possible; treat hypothyroidism; refer a prolactinoma to endocrinology, where a dopamine agonist is usual first line). **Bloody or single-duct discharge:** image and refer, as above.\n\n**Lactational mastitis** usually appears in the first weeks to months postpartum, with a painful, red, hot, wedge-shaped area of breast, often with fever and flu-like symptoms. It begins with milk stasis (poor attachment, missed feeds, engorgement, pressure from tight clothing) and may progress to infection, usually with *Staphylococcus aureus*.\n- **Continue breastfeeding or expressing** from the affected breast. Stopping abruptly worsens stasis and raises abscess risk; the milk is safe for a healthy term baby.\n- Get attachment checked by a midwife or lactation consultant; feed on demand rather than aggressively over-emptying.\n- Analgesia (paracetamol, ibuprofen), cold packs between feeds, rest and fluids.\n- **Antibiotics** if symptoms do not improve within about 12-24 hours of these measures, or earlier if she is systemically unwell or there is a nipple fissure with infection. Therapeutic Guidelines recommends an anti-staphylococcal penicillin: **flucloxacillin or dicloxacillin** orally. For non-severe penicillin allergy, **cefalexin**; for severe (immediate) penicillin allergy, clindamycin. Check the current eTG for dose and duration. Severe infection, sepsis or failure to respond needs IV therapy and consideration of MRSA cover.\n\n**Breast abscess:** a tender, fluctuant mass or failure to settle on antibiotics. Confirm with **ultrasound**. Preferred treatment is **needle aspiration** (often ultrasound-guided and repeated) with antibiotics; incision and drainage is for large, multiloculated abscesses or those not responding to aspiration. Breastfeeding can continue from the unaffected breast, and usually from the affected breast unless the drainage site is close to the nipple.\n\n**Non-lactational (periductal) mastitis** affects younger women, strongly associated with **smoking**, and is subareolar with mixed flora including anaerobes. Treatment is **amoxicillin-clavulanate** (per eTG) and smoking cessation. It can recur and form a mammary duct fistula needing surgery."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Traps and discriminating clues",
+          "body": "- \"Should she stop breastfeeding?\" The answer is almost always **no**: continue feeding or expressing.\n- First-line antibiotic for lactational mastitis is **flucloxacillin or dicloxacillin**; cefalexin for non-severe penicillin allergy.\n- A fluctuant lump in mastitis means **abscess: ultrasound and aspiration**, not just a longer antibiotic course.\n- A red, swollen breast with peau d'orange in a **non-lactating** woman that has not settled with antibiotics: **inflammatory breast cancer** until biopsy proves otherwise.\n- **Bloody single-duct discharge**: imaging and referral (intraductal papilloma is commonest, cancer must be excluded).\n- Unilateral nipple eczema starting on the nipple: **Paget's disease**, biopsy.\n- Bilateral milky discharge in a woman on risperidone: drug-induced hyperprolactinaemia.\n- Cyclical bilateral pain with a normal examination: reassurance and a good bra, not a mammogram."
+        }
+      ],
+      "keyPoints": [
+        "Cyclical bilateral mastalgia with normal examination needs reassurance, a supportive bra and simple analgesia, not imaging.",
+        "Physiological discharge is bilateral, multi-duct and only on expression; bloody, spontaneous single-duct discharge needs imaging and referral.",
+        "Intraductal papilloma is the most common cause of bloody nipple discharge, but cancer must be excluded.",
+        "Galactorrhoea: pregnancy test, prolactin, TSH and a drug review.",
+        "Lactational mastitis: keep breastfeeding or expressing; flucloxacillin or dicloxacillin if antibiotics needed, cefalexin in non-severe penicillin allergy.",
+        "Breast abscess: confirm with ultrasound and treat by (repeated) needle aspiration plus antibiotics.",
+        "Inflamed breast in a non-lactating woman not settling on antibiotics: biopsy to exclude inflammatory breast cancer.",
+        "Unilateral eczematous nipple lesion starting on the nipple is Paget's disease until biopsy proves otherwise."
+      ],
+      "redFlags": [
+        "Spontaneous bloody or serous single-duct nipple discharge",
+        "Unilateral nipple eczema or ulceration, especially starting on the nipple",
+        "Recent-onset unilateral nipple inversion",
+        "Breast erythema with peau d'orange in a non-lactating woman or not responding to antibiotics",
+        "Fluctuant mass or sepsis in mastitis",
+        "Pain associated with a discrete lump"
+      ],
+      "contrast": [
+        {
+          "aspect": "Breastfeeding during mastitis",
+          "india": "Mothers are sometimes told to stop feeding from the affected side.",
+          "australia": "Continue feeding or expressing from both breasts; lactation consultant support is routine."
+        },
+        {
+          "aspect": "Breast abscess drainage",
+          "india": "Incision and drainage under anaesthesia is often first line.",
+          "australia": "Ultrasound-guided needle aspiration, repeated if needed, is preferred; incision is reserved for failures or large collections."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "First-line oral antibiotic for lactational mastitis (eTG)?",
+          "back": "Flucloxacillin or dicloxacillin. Cefalexin if non-severe penicillin allergy; clindamycin if severe allergy."
+        },
+        {
+          "front": "Most common cause of bloody single-duct nipple discharge?",
+          "back": "Intraductal papilloma (but cancer must be excluded with imaging and referral)."
+        },
+        {
+          "front": "Antibiotic for non-lactational periductal mastitis?",
+          "back": "Amoxicillin-clavulanate (covers anaerobes); plus smoking cessation."
+        },
+        {
+          "front": "How does Paget's disease of the nipple differ from eczema?",
+          "back": "Paget's is unilateral and starts on the nipple; eczema usually starts on the areola, is often bilateral and responds to steroids."
+        },
+        {
+          "front": "Three first tests for galactorrhoea?",
+          "back": "Pregnancy test, serum prolactin and TSH (plus a medication review)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "breast--pain-discharge-and-infection--q1",
+          "discipline": "adult-surgery",
+          "topic": "breast",
+          "difficulty": "foundation",
+          "stem": "A 29-year-old woman who is 3 weeks postpartum presents to her GP in Hobart with a painful, red, hot, wedge-shaped area in the upper outer quadrant of her right breast. She has had fever and aches for 36 hours despite frequent feeding, cold packs and paracetamol. Temperature is 38.4 °C. There is no fluctuant mass. She has no drug allergies.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Stop breastfeeding from the right breast and start flucloxacillin",
+            "Continue breastfeeding and start oral flucloxacillin",
+            "Continue breastfeeding and start oral amoxicillin-clavulanate",
+            "Arrange urgent incision and drainage",
+            "Continue breastfeeding with no antibiotics and review in 1 week"
+          ],
+          "answer": 1,
+          "explanation": "This is **lactational mastitis** that has not settled after more than 24 hours of conservative measures, and she is febrile, so **antibiotics are indicated**. The usual organism is *Staphylococcus aureus*, and Therapeutic Guidelines recommends an anti-staphylococcal penicillin, **flucloxacillin or dicloxacillin**, orally.\n\nEqually important, she should **keep breastfeeding or expressing** from the affected breast. Milk stasis drives mastitis, and stopping abruptly increases the risk of abscess. The milk is safe for her baby.\n\nThere is no fluctuant mass, so no abscess to drain. Amoxicillin-clavulanate is for non-lactational periductal mastitis, where anaerobes are involved.",
+          "whyWrong": [
+            "Stopping feeding worsens milk stasis and raises the risk of abscess.",
+            "",
+            "Amoxicillin-clavulanate is used for non-lactational periductal mastitis, not first line here.",
+            "There is no fluctuant mass; an abscess would first be confirmed on ultrasound and usually aspirated.",
+            "She has failed conservative measures and is febrile, so antibiotics are indicated now."
+          ],
+          "tags": [
+            "mastitis",
+            "breastfeeding",
+            "antibiotics"
+          ],
+          "ausPearl": "Australian practice relies heavily on midwives and lactation consultants (including the Australian Breastfeeding Association helpline) to fix attachment problems that cause recurrent mastitis."
+        },
+        {
+          "id": "breast--pain-discharge-and-infection--q2",
+          "discipline": "adult-surgery",
+          "topic": "breast",
+          "difficulty": "core",
+          "stem": "A 46-year-old woman presents to a GP clinic in Brisbane with 2 months of spontaneous blood-stained discharge from her left nipple, noticed on her bra. On examination, pressure at the 3 o'clock position of the areola produces blood from a single duct. There is no palpable lump and the axilla is normal.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Reassure her that this is physiological discharge",
+            "Send nipple discharge for cytology and reassure if it is negative",
+            "Measure serum prolactin",
+            "Arrange mammography and ultrasound and refer to a breast surgeon",
+            "Prescribe a course of flucloxacillin"
+          ],
+          "answer": 3,
+          "explanation": "**Spontaneous, unilateral, single-duct, bloody discharge** is pathological. The most common cause is an **intraductal papilloma**, but DCIS or invasive cancer must be excluded, particularly in women in their 40s and older.\n\nShe needs **mammography and retroareolar ultrasound**, then **referral to a breast surgeon**. Further work-up may include MRI, image-guided biopsy of any lesion, or microdochectomy, which removes the discharging duct and gives a definitive diagnosis.\n\nCytology of discharge has low sensitivity, so a negative result does not reassure. Prolactin is relevant to bilateral milky galactorrhoea, not bloody single-duct discharge.",
+          "whyWrong": [
+            "Physiological discharge is bilateral, multi-duct and only on expression, not spontaneous and bloody.",
+            "Discharge cytology is insensitive; a negative result does not exclude cancer.",
+            "Prolactin is for bilateral milky discharge (galactorrhoea).",
+            "",
+            "There are no features of infection."
+          ],
+          "tags": [
+            "nipple discharge",
+            "intraductal papilloma",
+            "referral"
+          ]
+        },
+        {
+          "id": "breast--pain-discharge-and-infection--q3",
+          "discipline": "adult-surgery",
+          "topic": "breast",
+          "difficulty": "exam",
+          "stem": "A 58-year-old woman presents with a 5-week history of a red, swollen, warm left breast. Her GP started cefalexin 3 weeks ago with no improvement. She is afebrile. On examination, the skin over most of the breast is erythematous and thickened with a dimpled 'orange peel' appearance, and there is a firm, hard left axillary node. She is not breastfeeding.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Periductal mastitis",
+            "Breast abscess",
+            "Inflammatory breast cancer",
+            "Duct ectasia",
+            "Cellulitis of the breast"
+          ],
+          "answer": 2,
+          "explanation": "The discriminating clues are a **non-lactating** older woman, **failure of antibiotics**, **peau d'orange** (skin oedema from dermal lymphatic blockage by tumour emboli), lack of fever, and a **hard axillary node**. Together these point to **inflammatory breast cancer**, an aggressive form of locally advanced cancer that mimics infection.\n\nShe needs urgent mammography, ultrasound and **core biopsy plus skin punch biopsy**, then staging and multidisciplinary treatment, usually neoadjuvant systemic therapy followed by mastectomy and radiotherapy.\n\nThe lesson: an 'infected' breast outside lactation that does not settle promptly on antibiotics must be biopsied.",
+          "whyWrong": [
+            "Periductal mastitis affects younger smokers, is subareolar and responds to appropriate antibiotics.",
+            "An abscess causes a fluctuant tender mass, usually with fever, and would show on ultrasound.",
+            "",
+            "Duct ectasia causes multicoloured discharge and nipple retraction, not diffuse erythema and peau d'orange.",
+            "Cellulitis usually responds to antibiotics and is not accompanied by a hard axillary node and peau d'orange."
+          ],
+          "tags": [
+            "inflammatory breast cancer",
+            "mastitis",
+            "red flags"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "breast--breast-cancer",
+      "title": "Breast cancer: screening, diagnosis and treatment",
+      "minutes": 22,
+      "objectives": [
+        "Explain who BreastScreen Australia invites and what screening can and cannot do",
+        "Describe the main risk factors, pathological types and receptor subtypes of breast cancer",
+        "Outline surgical, radiotherapy and systemic treatment of early breast cancer",
+        "Anticipate the adverse effects of tamoxifen, aromatase inhibitors and axillary surgery in follow-up"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Breast cancer in Australia",
+          "body": "Breast cancer is the **most common cancer in Australian women** (excluding non-melanoma skin cancer) and the second most common cause of cancer death in women after lung cancer. Around 1 in 7 Australian women will be diagnosed by age 85, and about 1% of cases occur in men. Five-year relative survival is now over 90%, largely because many cancers are found early through screening and treated with multimodal therapy. Survival is lower in Aboriginal and Torres Strait Islander women, who are more often diagnosed at a later stage and have lower screening participation.\n\n**Risk factors** (mostly relate to lifetime oestrogen exposure):\n- Female sex and **increasing age** (the biggest factors)\n- Family history and inherited mutations (BRCA1, BRCA2, PALB2, TP53 and others; see the familial risk lesson)\n- Early menarche, late menopause, nulliparity, first pregnancy after 30, not breastfeeding\n- **Combined menopausal hormone therapy** (small increase with longer use)\n- **Alcohol** (risk rises with every standard drink), postmenopausal obesity, physical inactivity\n- Previous chest radiotherapy at a young age (for example mantle radiotherapy for Hodgkin lymphoma)\n- High mammographic density, and prior atypical hyperplasia or lobular carcinoma in situ (LCIS)"
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Pathology and biology",
+          "body": "Most breast cancers arise in the terminal duct lobular unit.\n\n- **Ductal carcinoma in situ (DCIS):** malignant cells confined within the ducts, not through the basement membrane. Often found as **clustered microcalcification** on a screening mammogram. It does not metastasise but can progress to invasive cancer, so it is excised, usually with radiotherapy after breast conservation.\n- **Invasive carcinoma of no special type** (formerly invasive ductal carcinoma): about three-quarters of invasive cancers. A hard, irregular mass, often a spiculated density on mammography.\n- **Invasive lobular carcinoma:** around 10-15%. Cells infiltrate in single files, so it can be difficult to feel and to see on mammography, is more often multifocal and bilateral, and MRI is commonly used to stage it.\n- **LCIS** is a risk marker rather than a precursor that is always excised.\n\nTreatment is determined by **receptor status**, tested on the core biopsy:\n\n| Subtype | Approximate share | Key points |\n|---|---|---|\n| Hormone receptor (ER/PR) positive, HER2 negative | Largest group, about two-thirds or more | Responds to endocrine therapy; generally better prognosis |\n| HER2 positive | About 15% | Aggressive biology, but responds to HER2-targeted therapy such as trastuzumab |\n| Triple negative (ER, PR and HER2 negative) | About 10-15% | Younger women, BRCA1 association; chemotherapy is mainstay; higher early recurrence risk |\n\n**Spread** is local (skin, chest wall), lymphatic (axillary, then internal mammary and supraclavicular nodes) and haematogenous to **bone, lung, liver and brain**. Staging uses the TNM system; tumour size, nodal status, grade and receptor status together drive prognosis."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "How breast cancer presents",
+          "body": "**Screen-detected:** an asymptomatic woman recalled from BreastScreen for further views, ultrasound and biopsy at an assessment clinic.\n\n**Symptomatic:** a painless hard, irregular lump (the most common symptom), skin dimpling or tethering, **peau d'orange**, recent nipple inversion, bloody single-duct discharge, unilateral nipple eczema (Paget's disease), axillary lump, or a red swollen breast (inflammatory cancer).\n\n**Locally advanced or metastatic:** fixation to chest wall, skin ulceration, matted nodes, bone pain or pathological fracture, hypercalcaemia, breathlessness from pleural effusion, jaundice or hepatomegaly, headaches or seizures from brain metastases, and **spinal cord compression** (back pain with leg weakness, sensory level, sphincter disturbance), which is an oncological emergency needing urgent dexamethasone and MRI."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Screening and diagnosis",
+          "body": "**BreastScreen Australia** provides free screening mammography every 2 years. Women aged **50-74** are actively invited; women **40 and over** (including 40-49 and 75 and over) are eligible to attend. **No GP referral is needed.** The age range reflects where evidence shows a mortality benefit that outweighs harms: under 50, breast density lowers sensitivity and cancer is less common.\n\nWhat screening is not:\n- It is for **asymptomatic** women. A woman with a lump, discharge or nipple change needs **diagnostic** imaging through her GP.\n- It is not a substitute for high-risk surveillance. Women at high familial risk may need earlier, more frequent imaging and MRI through a specialist or familial cancer service.\n- **Harms** to discuss: false positives and recall anxiety, overdiagnosis (finding cancers such as low-grade DCIS that would never have caused harm), and interval cancers (a normal screen does not guarantee no cancer before the next one).\n\n**Diagnosis** is by triple assessment with core biopsy, which provides histology, grade, ER, PR and HER2 status.\n\n**Staging:** for early breast cancer without symptoms, routine staging scans (bone scan, CT) are generally not needed because the yield is low. Staging with CT chest, abdomen and pelvis plus bone scan (or PET-CT) is done for locally advanced disease, inflammatory cancer, many node-positive cancers, or symptoms or abnormal bloods suggesting spread. Axillary ultrasound, with biopsy of abnormal nodes, is part of the initial work-up."
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment of early breast cancer",
+          "body": "All new cancers are discussed at a **multidisciplinary team (MDT) meeting** (surgeon, radiologist, pathologist, medical and radiation oncologist, breast care nurse), and care follows Cancer Australia's Optimal Care Pathway. A **breast care nurse** supports the woman throughout, and the GP stays involved.\n\n**Surgery to the breast**\n- **Breast-conserving surgery** (wide local excision) with clear margins **plus whole-breast radiotherapy** gives survival equivalent to mastectomy for suitable tumours. It suits a single tumour that is small relative to breast size.\n- **Mastectomy** for large or multicentric tumours, when radiotherapy is contraindicated, some BRCA carriers, or patient preference. Immediate or delayed reconstruction should be offered.\n\n**Surgery to the axilla**\n- **Sentinel lymph node biopsy (SLNB)** for a clinically and ultrasound node-negative axilla: blue dye and/or radioisotope identifies the first draining node(s). This avoids the morbidity of full dissection in most women.\n- **Axillary lymph node dissection** when nodes are proven positive before surgery or with significant disease in the sentinel nodes, though indications are narrowing and radiotherapy to the axilla is an alternative in some cases.\n- Main complication: **lymphoedema** of the arm (much more common after dissection). Early referral to a lymphoedema physiotherapist; compression garments and skin care to prevent cellulitis.\n\n**Systemic therapy**\n- **Endocrine therapy** for hormone receptor-positive cancer, typically for 5 years and sometimes up to 10: **tamoxifen** (premenopausal, or postmenopausal) or an **aromatase inhibitor** (anastrozole, letrozole, exemestane) in postmenopausal women (or premenopausal with ovarian suppression).\n- **HER2-targeted therapy** (trastuzumab, often with pertuzumab) with chemotherapy for HER2-positive disease. Trastuzumab can cause cardiotoxicity, so cardiac function (echocardiogram) is monitored.\n- **Chemotherapy** for higher-risk disease, triple-negative and HER2-positive cancers. Given **neoadjuvantly** (before surgery) to shrink large tumours, allow breast conservation, and test response, especially in HER2-positive and triple-negative disease.\n- Radiotherapy after mastectomy for large tumours or node-positive disease.\n\n**Endocrine therapy side effects are exam favourites:**\n\n| Drug | Important adverse effects | What to do |\n|---|---|---|\n| Tamoxifen (a SERM) | **Endometrial hyperplasia and cancer**, **venous thromboembolism**, hot flushes; protects bone in postmenopausal women | Investigate any postmenopausal or abnormal vaginal bleeding promptly; consider VTE risk around surgery |\n| Aromatase inhibitors | **Bone loss and fracture**, arthralgia, vaginal dryness, hot flushes | Baseline and follow-up bone density, calcium and vitamin D, weight-bearing exercise; anti-resorptive treatment if osteoporotic |\n\n**Follow-up:** clinical review and **yearly mammography** (and usually ultrasound) of the treated and contralateral breast. Survivorship care covers adherence to endocrine therapy, bone health, menopausal symptoms (systemic MHT is generally avoided), fertility and contraception (non-hormonal methods such as a copper IUD), lymphoedema, psychological support and return to work.\n\n**Metastatic disease** is generally not curable but many women live for years with sequential endocrine, targeted and chemotherapies. Palliative care is introduced early alongside active treatment."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "What the AMC tests",
+          "body": "- BreastScreen: **50-74 invited, every 2 years, from 40 eligible, no referral**. Symptomatic women go for diagnostic imaging instead.\n- Breast-conserving surgery must be paired with **radiotherapy** to match mastectomy outcomes.\n- Clinically node-negative axilla: **sentinel node biopsy**, not routine axillary clearance.\n- Woman on tamoxifen with postmenopausal bleeding: **transvaginal ultrasound and endometrial sampling** (endometrial cancer).\n- Woman on an aromatase inhibitor: check **bone density**.\n- Calf swelling or breathlessness on tamoxifen: think **VTE**.\n- Known breast cancer with back pain and leg weakness: **spinal cord compression**, dexamethasone and urgent MRI.\n- Tumour markers (CA 15-3) may be used in monitoring metastatic disease, never for screening or diagnosis."
+        }
+      ],
+      "keyPoints": [
+        "Breast cancer is the most common cancer in Australian women; about 1 in 7 are diagnosed by 85.",
+        "BreastScreen Australia: free 2-yearly mammograms, women 50-74 invited, 40 and over eligible, no referral needed.",
+        "Receptor status (ER/PR, HER2) from the core biopsy determines systemic therapy.",
+        "Breast-conserving surgery plus radiotherapy equals mastectomy for suitable tumours.",
+        "Sentinel node biopsy for the clinically node-negative axilla; lymphoedema is the main axillary complication.",
+        "Tamoxifen: endometrial cancer and VTE risk. Aromatase inhibitors: osteoporosis and arthralgia.",
+        "Every new cancer goes to an MDT and follows the Optimal Care Pathway, with a breast care nurse and the GP involved."
+      ],
+      "redFlags": [
+        "Back pain with neurological signs in a woman with breast cancer (cord compression)",
+        "Postmenopausal bleeding on tamoxifen",
+        "New bone pain, confusion or polyuria (bone metastases, hypercalcaemia)",
+        "Calf swelling or breathlessness on tamoxifen (VTE)",
+        "Rapidly progressive red, swollen breast (inflammatory cancer)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Stage at diagnosis",
+          "india": "Often locally advanced, with modified radical mastectomy the common operation.",
+          "australia": "Often early or screen-detected; breast conservation with radiotherapy and sentinel node biopsy are standard."
+        },
+        {
+          "aspect": "Survivorship support",
+          "india": "Follow-up mostly in the treating hospital's oncology OPD.",
+          "australia": "Breast care nurses, shared care with the GP, and yearly mammography; support from organisations such as Breast Cancer Network Australia."
+        },
+        {
+          "aspect": "HER2-targeted therapy",
+          "india": "Often limited by cost for many patients.",
+          "australia": "Trastuzumab is PBS-subsidised for eligible HER2-positive early and metastatic cancer."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Who does BreastScreen Australia actively invite, and how often?",
+          "back": "Women aged 50-74, every 2 years. Women 40 and over are eligible; no GP referral needed."
+        },
+        {
+          "front": "Two serious adverse effects of tamoxifen?",
+          "back": "Endometrial cancer (investigate abnormal vaginal bleeding) and venous thromboembolism."
+        },
+        {
+          "front": "Main long-term adverse effect of aromatase inhibitors?",
+          "back": "Bone loss and fracture risk (also arthralgia); monitor bone density."
+        },
+        {
+          "front": "What must accompany breast-conserving surgery to match mastectomy survival?",
+          "back": "Whole-breast radiotherapy."
+        },
+        {
+          "front": "Axillary staging for a clinically node-negative early breast cancer?",
+          "back": "Sentinel lymph node biopsy."
+        },
+        {
+          "front": "Which breast cancer subtype is linked to BRCA1 and younger women?",
+          "back": "Triple negative (ER, PR and HER2 negative)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "breast--breast-cancer--q1",
+          "discipline": "adult-surgery",
+          "topic": "breast",
+          "difficulty": "foundation",
+          "stem": "A 47-year-old woman with no breast symptoms and no family history of breast or ovarian cancer asks her GP in Canberra whether she can have a screening mammogram. She has read that screening starts at 50.\n\nWhat is the most appropriate advice?",
+          "options": [
+            "She is not eligible for BreastScreen Australia until she turns 50",
+            "She is eligible to attend BreastScreen Australia now, without a GP referral",
+            "She needs a GP referral to BreastScreen Australia before 50",
+            "She should have annual breast MRI instead of mammography",
+            "She should have a diagnostic mammogram and ultrasound every year"
+          ],
+          "answer": 1,
+          "explanation": "**BreastScreen Australia** actively invites women aged **50-74** for free mammograms every 2 years, but women **40 and over** are **eligible to attend**, and **no GP referral** is needed at any age.\n\nFor women in their 40s the benefit is smaller than from 50 (denser breasts lower mammographic sensitivity, cancer is less common, and false positives are more frequent), so this is an informed choice the GP can help her make by discussing benefits and harms, including false positives and overdiagnosis.\n\nMRI surveillance and annual diagnostic imaging are for women at high familial risk or with symptoms, which she does not have.",
+          "whyWrong": [
+            "Women aged 40-49 are eligible, although they are not actively invited.",
+            "",
+            "No referral is needed for BreastScreen at any age.",
+            "MRI surveillance is for women at high familial or genetic risk.",
+            "Diagnostic imaging is for symptomatic women or specific high-risk situations, not average-risk screening."
+          ],
+          "tags": [
+            "breastscreen",
+            "screening"
+          ],
+          "ausPearl": "BreastScreen invitations stop at 74, but women 75 and over can still attend. Participation is lower among First Nations and culturally and linguistically diverse women, a population health theme."
+        },
+        {
+          "id": "breast--breast-cancer--q2",
+          "discipline": "adult-surgery",
+          "topic": "breast",
+          "difficulty": "core",
+          "stem": "A 63-year-old woman had breast-conserving surgery and radiotherapy for an ER-positive, HER2-negative breast cancer 2 years ago and has taken tamoxifen since. She presents to her GP in Sydney with 3 weeks of intermittent vaginal bleeding. Her last menstrual period was 12 years ago.\n\nWhat is the most appropriate next investigation?",
+          "options": [
+            "Serum CA-125",
+            "Cervical screening test only",
+            "Transvaginal ultrasound with referral for endometrial sampling",
+            "Bone scan",
+            "Bilateral mammography"
+          ],
+          "answer": 2,
+          "explanation": "**Postmenopausal bleeding** always needs investigation for endometrial cancer, and here the risk is increased because **tamoxifen** acts as an oestrogen agonist on the endometrium, causing hyperplasia, polyps and **endometrial cancer**.\n\nThe appropriate step is **transvaginal ultrasound** to assess endometrial thickness, with gynaecology referral for **endometrial sampling** (hysteroscopy and biopsy). In women on tamoxifen, ultrasound is less reliable because tamoxifen itself thickens the endometrium, so a low threshold for hysteroscopy is used.\n\nTamoxifen's other important adverse effect is venous thromboembolism. Aromatase inhibitors, by contrast, cause bone loss rather than endometrial problems.",
+          "whyWrong": [
+            "CA-125 is not a test for postmenopausal bleeding or endometrial cancer.",
+            "A cervical screening test alone does not assess the endometrium.",
+            "",
+            "A bone scan investigates bone metastases, not vaginal bleeding.",
+            "Mammography is part of routine follow-up but does not explain her bleeding."
+          ],
+          "tags": [
+            "tamoxifen",
+            "endometrial cancer",
+            "survivorship"
+          ]
+        },
+        {
+          "id": "breast--breast-cancer--q3",
+          "discipline": "adult-surgery",
+          "topic": "breast",
+          "difficulty": "core",
+          "stem": "A 55-year-old woman has a 1.8 cm ER-positive, HER2-negative invasive breast cancer in the upper outer quadrant of a medium-sized breast. Clinical examination and axillary ultrasound show no abnormal lymph nodes. She wishes to keep her breast.\n\nWhich surgical plan is most appropriate?",
+          "options": [
+            "Wide local excision with sentinel lymph node biopsy, followed by whole-breast radiotherapy",
+            "Wide local excision alone with no axillary surgery or radiotherapy",
+            "Modified radical mastectomy with axillary lymph node dissection",
+            "Wide local excision with axillary lymph node dissection and no radiotherapy",
+            "Bilateral mastectomy with immediate reconstruction"
+          ],
+          "answer": 0,
+          "explanation": "For a single, relatively small tumour, **breast-conserving surgery** (wide local excision with clear margins) followed by **whole-breast radiotherapy** gives survival equivalent to mastectomy. Radiotherapy is essential: without it the local recurrence rate is much higher.\n\nThe axilla is **clinically and ultrasound node-negative**, so it is staged with **sentinel lymph node biopsy**, which avoids the lymphoedema and shoulder morbidity of full axillary dissection in most women. Dissection is reserved for proven or significant nodal disease.\n\nHer ER-positive status means she will also be offered adjuvant endocrine therapy, most likely an aromatase inhibitor as she is postmenopausal.",
+          "whyWrong": [
+            "",
+            "Omitting radiotherapy after breast conservation substantially increases local recurrence, and the axilla still needs staging.",
+            "Mastectomy with full axillary clearance is unnecessary for a small node-negative tumour and she wants to keep her breast.",
+            "Axillary dissection is not indicated for a node-negative axilla, and radiotherapy should follow breast conservation.",
+            "Bilateral mastectomy is not indicated without a high-risk genetic mutation or strong personal preference."
+          ],
+          "tags": [
+            "breast cancer",
+            "sentinel node",
+            "surgery"
+          ]
+        },
+        {
+          "id": "breast--breast-cancer--q4",
+          "discipline": "adult-surgery",
+          "topic": "breast",
+          "difficulty": "exam",
+          "stem": "A 68-year-old woman is taking letrozole after surgery for hormone receptor-positive breast cancer. She asks her GP what monitoring she needs for her medication.\n\nWhich test is most important to arrange because of this drug?",
+          "options": [
+            "Annual transvaginal ultrasound",
+            "Bone mineral density scan",
+            "Echocardiogram every 3 months",
+            "Serum CA 15-3 every 3 months",
+            "Annual thyroid function tests"
+          ],
+          "answer": 1,
+          "explanation": "**Aromatase inhibitors** (letrozole, anastrozole, exemestane) block peripheral conversion of androgens to oestrogen, which is the main source of oestrogen after menopause. The resulting profound oestrogen deprivation accelerates **bone loss** and increases **fracture risk**.\n\nWomen starting an aromatase inhibitor should have a **baseline bone density (DXA) scan** with repeat scans during treatment, calcium and vitamin D adequacy, weight-bearing exercise and anti-resorptive therapy (for example a bisphosphonate or denosumab) if bone density is low. Arthralgia is another common reason women stop the drug.\n\nEndometrial surveillance relates to tamoxifen (and routine ultrasound is not recommended even then), and echocardiograms relate to trastuzumab.",
+          "whyWrong": [
+            "Endometrial risk is a tamoxifen issue, not an aromatase inhibitor one.",
+            "",
+            "Cardiac monitoring is for HER2-targeted therapy such as trastuzumab.",
+            "Tumour markers are not used for routine surveillance of early breast cancer.",
+            "Aromatase inhibitors do not affect thyroid function."
+          ],
+          "tags": [
+            "aromatase inhibitor",
+            "osteoporosis",
+            "survivorship"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "breast--familial-risk-and-male-breast",
+      "title": "Familial risk, BRCA and the male breast",
+      "minutes": 16,
+      "objectives": [
+        "Recognise family history features that place a woman at high familial risk",
+        "Explain what a BRCA1/2 mutation means and the surveillance and risk-reducing options",
+        "Work up gynaecomastia systematically, including drugs, liver, thyroid and testes",
+        "Recognise the features of male breast cancer and when to biopsy"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why these two belong together",
+          "body": "Two presentations regularly trip up candidates: the anxious woman whose mother or sister had breast cancer, and the man with a breast lump. Both hinge on thinking beyond the lump itself. Family history triage decides who needs a familial cancer clinic, genetic testing and high-risk surveillance, rather than routine BreastScreen. In men, most breast enlargement is benign **gynaecomastia**, but it can be the only visible sign of a drug effect, liver disease or a **testicular tumour**, and male breast cancer, although uncommon, is often diagnosed late.\n\nAround 5-10% of breast cancers are due to a strongly inherited mutation, most often in **BRCA1 or BRCA2**. Most women with a relative who had breast cancer are, however, at or only slightly above average risk, and the key skill is sorting them without over-alarming."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Assessing familial risk",
+          "body": "Take a **three-generation family history on both sides** (a father can pass on a BRCA mutation). Record each affected relative's cancer type and age at diagnosis.\n\n**Features that raise concern for an inherited cancer syndrome:**\n- Several relatives on the same side with breast and/or ovarian cancer\n- Breast cancer diagnosed young (especially under 40-45)\n- **Ovarian cancer** in any relative (a strong BRCA marker)\n- **Male breast cancer** (BRCA2)\n- Bilateral breast cancer, or breast and ovarian cancer in the same woman\n- Triple-negative breast cancer at a young age\n- **Ashkenazi Jewish** ancestry\n- A known mutation in the family\n- Associated cancers such as prostate and pancreatic cancer (BRCA2), or sarcoma and childhood cancers (TP53, Li-Fraumeni)\n\n**Risk categories.** Cancer Australia and eviQ group women broadly into: **at or slightly above average risk** (the vast majority, including most women with one relative diagnosed at an older age), **moderately increased risk**, and **potentially high risk**. Validated tools help: **iPrevent** (developed in Australia) and **CanRisk** estimate risk and suggest management. **eviQ** (from the Cancer Institute NSW) is the national reference for referral criteria and management of mutation carriers; check it for exact criteria rather than memorising numbers.\n\n**What each group gets:**\n- Average or slightly raised: breast awareness and BreastScreen from the usual ages.\n- Moderately increased: may start mammography earlier (often from 40) and annually in some protocols; lifestyle advice.\n- Potentially high risk or known mutation: **referral to a familial cancer service** for genetic counselling and consideration of testing.\n\n**Genetic testing** is done first, where possible, in an **affected relative** to find the family mutation, then offered to unaffected relatives (cascade testing). Medicare funds germline testing for affected people who meet criteria and for relatives of known carriers; the familial cancer service handles eligibility. Pre-test counselling covers implications for relatives, uncertain results (variants of uncertain significance), and possible implications for life insurance, an area of recent law reform in Australia, so current rules are covered in counselling."
+        },
+        {
+          "kind": "application",
+          "heading": "BRCA carriers: surveillance and risk reduction",
+          "body": "**Approximate lifetime risks** (vary between studies):\n\n| | Breast cancer | Ovarian cancer | Other |\n|---|---|---|---|\n| BRCA1 | About 60-70% | About 40% | Triple-negative breast cancer typical |\n| BRCA2 | About 55-70% | About 15-20% | Male breast, prostate and pancreatic cancer |\n| General population (women) | About 1 in 7 | About 1 in 90 | |\n\n**Surveillance** (details per eviQ): annual **breast MRI**, usually from about age 30, with annual mammography added from around 30-40 onwards, managed through a specialist or familial cancer service rather than BreastScreen. There is **no effective screening for ovarian cancer**: CA-125 and transvaginal ultrasound have not been shown to reduce mortality.\n\n**Risk-reducing options:**\n- **Risk-reducing bilateral mastectomy** reduces breast cancer risk by about 90% or more; reconstruction is offered.\n- **Risk-reducing salpingo-oophorectomy (RRSO)**, recommended once childbearing is complete, generally around 35-40 for BRCA1 and 40-45 for BRCA2. It sharply reduces ovarian and fallopian tube cancer risk. It causes surgical menopause, so bone health, cardiovascular risk and symptom management follow (MHT is often acceptable until the age of natural menopause in carriers without breast cancer, decided with specialists).\n- **Chemoprevention** with tamoxifen, raloxifene or an aromatase inhibitor for selected women at moderate to high risk.\n- Lifestyle: limit alcohol, healthy weight, physical activity, breastfeeding.\n\nThe GP's role is to identify the woman, refer her, support decision-making, and coordinate long-term care."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Gynaecomastia and male breast cancer",
+          "body": "**Gynaecomastia** is benign proliferation of male glandular breast tissue from an imbalance of **oestrogen relative to androgen** action. It feels like a **rubbery or firm, mobile disc of tissue concentric beneath the areola**, often tender when it is new, and is frequently bilateral (can be asymmetric). **Pseudogynaecomastia** is fat without a glandular disc, seen in obesity.\n\n**Physiological peaks:** newborns (maternal oestrogen), **puberty** (common, usually resolves within 1-2 years) and older men (falling testosterone, more adiposity, more medications).\n\n**Pathological causes** to screen for:\n- **Drugs** (the most common identifiable cause): spironolactone, anti-androgens and 5-alpha-reductase inhibitors, GnRH analogues for prostate cancer, digoxin, cimetidine, ketoconazole, some antipsychotics (via prolactin), **anabolic steroids** and testosterone, alcohol, cannabis, opioids\n- **Liver cirrhosis** (reduced oestrogen clearance, increased SHBG)\n- **Hypogonadism**, including **Klinefelter syndrome** (47,XXY: tall, small firm testes)\n- **Testicular tumours**: Leydig cell tumours (oestrogen) and germ cell tumours (**hCG**)\n- Hyperthyroidism, chronic kidney disease, refeeding after malnutrition, and rarely hCG-secreting lung or other tumours\n\n**Male breast cancer** makes up about 1% of breast cancers, typically in men over 60. It presents as a **hard, painless, eccentric** (not concentric) lump, often fixed, with nipple retraction, bloody discharge or ulceration, sometimes axillary nodes. Risk factors: **BRCA2** (and BRCA1 less so), family history, **Klinefelter syndrome**, previous chest radiotherapy, and conditions of oestrogen excess such as cirrhosis. Most are hormone receptor-positive and treated with mastectomy, sentinel node biopsy and tamoxifen.\n\n| | Gynaecomastia | Male breast cancer |\n|---|---|---|\n| Position | Concentric, under the areola | Eccentric |\n| Feel | Rubbery, mobile disc, may be tender | Hard, irregular, fixed |\n| Side | Often bilateral | Usually unilateral |\n| Nipple | Normal | Retraction, discharge, ulceration |"
+        },
+        {
+          "kind": "investigations",
+          "heading": "Working up a male breast",
+          "body": "**History:** duration, pain, drugs (prescribed, over the counter, supplements, anabolic steroids for gym use), alcohol and cannabis, liver, thyroid and kidney symptoms, libido and erectile function, family history of breast or ovarian cancer.\n\n**Examination:** breast (concentric disc or eccentric hard lump, nipple, axilla), **testes (always)** for a mass or small atrophic testes, stigmata of chronic liver disease, thyroid, and secondary sexual characteristics.\n\n**Tests** when it is not simple pubertal or clearly drug-related gynaecomastia:\n- LFTs, renal function, TFTs\n- Testosterone (morning), LH, FSH, oestradiol, prolactin\n- **Beta-hCG** (and AFP): raised hCG points to a germ cell tumour\n- **Testicular ultrasound** if a mass is felt or hCG or oestradiol is raised\n\n**Breast imaging** (ultrasound and/or mammography) and **core biopsy** if the lump is eccentric, hard, fixed or unilateral with suspicious features, or if there is nipple or skin change or axillary nodes. Triple assessment applies to men too.\n\n**Management of gynaecomastia:** treat the cause (stop or switch the drug, for example spironolactone to eplerenone; treat hyperthyroidism; stop anabolic steroids). Pubertal gynaecomastia: reassurance and review. Long-standing fibrotic gynaecomastia usually needs surgery (liposuction or subcutaneous mastectomy) if troublesome. Tamoxifen is sometimes used off-label for painful recent gynaecomastia under specialist advice, and prophylactically in men starting anti-androgen therapy for prostate cancer."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Traps",
+          "body": "- A 25-year-old gym user with tender bilateral breast discs: ask about **anabolic steroids**.\n- An older man on spironolactone for heart failure: drug-induced; switching to eplerenone is the classic fix.\n- Young man with gynaecomastia: **examine the testes** and check hCG. A testicular tumour is the can't-miss cause.\n- Tall man with small firm testes and gynaecomastia: **Klinefelter**; also raises male breast cancer risk.\n- Hard eccentric lump with nipple retraction in an older man: **triple assessment**, not reassurance.\n- Family history question: **ovarian cancer, male breast cancer, young onset, Ashkenazi ancestry** are the markers that trigger familial cancer referral. One relative diagnosed at 70 does not.\n- BRCA carriers: annual MRI surveillance through a specialist service; **no reliable ovarian screening**, so RRSO is recommended."
+        }
+      ],
+      "keyPoints": [
+        "Take a three-generation history on both sides; fathers transmit BRCA mutations too.",
+        "Ovarian cancer, male breast cancer, young onset, bilateral cancer and Ashkenazi ancestry signal possible high risk: refer to a familial cancer service (eviQ criteria).",
+        "BRCA carriers: annual breast MRI from about 30; no effective ovarian screening, so risk-reducing salpingo-oophorectomy is advised.",
+        "Test an affected relative first where possible, then cascade testing to relatives.",
+        "Gynaecomastia is a concentric, rubbery subareolar disc; review drugs, liver, thyroid, kidneys and testes.",
+        "Always examine the testes and check hCG in a young man with unexplained gynaecomastia.",
+        "Male breast cancer: hard, eccentric, often fixed lump with nipple change; linked to BRCA2 and Klinefelter."
+      ],
+      "redFlags": [
+        "Hard, eccentric or fixed breast lump in a man",
+        "Nipple retraction, bloody discharge or ulceration in a man",
+        "Testicular mass or raised beta-hCG with gynaecomastia",
+        "Multiple relatives with breast or ovarian cancer, young onset or male breast cancer in the family"
+      ],
+      "contrast": [
+        {
+          "aspect": "Genetic testing access",
+          "india": "Usually self-funded and limited to large centres.",
+          "australia": "Familial cancer services with genetic counsellors; Medicare-funded BRCA testing for people meeting criteria."
+        },
+        {
+          "aspect": "High-risk surveillance",
+          "india": "Often ad hoc mammography when affordable.",
+          "australia": "Structured annual MRI and mammography for carriers per eviQ, outside the BreastScreen program."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Which family history features trigger referral to a familial cancer service?",
+          "back": "Multiple relatives on one side with breast or ovarian cancer, young onset, any ovarian cancer, male breast cancer, bilateral cancer, Ashkenazi ancestry, known family mutation."
+        },
+        {
+          "front": "Breast surveillance for a BRCA1 carrier?",
+          "back": "Annual breast MRI, usually from about age 30, with mammography added later, via a specialist service (eviQ)."
+        },
+        {
+          "front": "Why is RRSO recommended for BRCA carriers?",
+          "back": "There is no effective screening for ovarian cancer; RRSO sharply reduces ovarian and tubal cancer risk."
+        },
+        {
+          "front": "Which gene is most associated with male breast cancer?",
+          "back": "BRCA2."
+        },
+        {
+          "front": "Can't-miss cause of gynaecomastia in a young man, and the blood test?",
+          "back": "Testicular tumour (germ cell or Leydig cell); check beta-hCG and examine the testes."
+        },
+        {
+          "front": "Heart failure patient with gynaecomastia on spironolactone: what swap?",
+          "back": "Change to eplerenone, a more selective mineralocorticoid antagonist with less anti-androgen effect."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "breast--familial-risk-and-male-breast--q1",
+          "discipline": "adult-surgery",
+          "topic": "breast",
+          "difficulty": "core",
+          "stem": "A 34-year-old woman asks her GP in Melbourne about her breast cancer risk. Her mother was diagnosed with ovarian cancer at 52 and her maternal aunt with breast cancer at 41. She is of Ashkenazi Jewish background. She has no breast symptoms and a normal examination.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Reassure her and advise BreastScreen from age 50",
+            "Arrange an annual screening mammogram from now",
+            "Measure serum CA-125 and arrange a pelvic ultrasound",
+            "Refer to BreastScreen Australia now",
+            "Refer to a familial cancer service for genetic counselling and consideration of testing"
+          ],
+          "answer": 4,
+          "explanation": "Several features suggest an **inherited BRCA mutation**: **ovarian cancer** in a first-degree relative, breast cancer at a **young age** on the same side of the family, and **Ashkenazi Jewish ancestry** (founder BRCA mutations are more common). She is potentially at high risk.\n\nThe right step is **referral to a familial cancer service** for a detailed pedigree, risk assessment and genetic counselling. Testing ideally starts with an **affected relative** (her mother or aunt) to identify the family mutation; if one is found, she can have predictive testing. Carriers receive annual MRI-based surveillance and discussion of risk-reducing surgery.\n\nBreastScreen is not designed for high-risk women, and CA-125 with ultrasound is not effective ovarian screening.",
+          "whyWrong": [
+            "Her family history places her at potentially high risk; average-risk advice is inadequate.",
+            "Mammography in a 34-year-old has limited sensitivity and is not the priority before risk is defined.",
+            "CA-125 and pelvic ultrasound have not been shown to be effective ovarian cancer screening.",
+            "BreastScreen is for average-risk asymptomatic women and does not provide high-risk surveillance.",
+            ""
+          ],
+          "tags": [
+            "brca",
+            "family history",
+            "referral"
+          ],
+          "ausPearl": "eviQ (Cancer Institute NSW) provides the national referral guidelines and risk-management protocols for BRCA and other hereditary cancer syndromes."
+        },
+        {
+          "id": "breast--familial-risk-and-male-breast--q2",
+          "discipline": "adult-surgery",
+          "topic": "breast",
+          "difficulty": "foundation",
+          "stem": "A 72-year-old man with heart failure attends his GP in Townsville with 3 months of tender enlargement of both breasts. Medications include furosemide, ramipril, bisoprolol and spironolactone, which was started 4 months ago. On examination there is a 3 cm rubbery, mobile disc of tissue concentrically beneath each areola, with no nipple change or axillary nodes. The testes are normal.\n\nWhat is the most likely cause?",
+          "options": [
+            "Male breast cancer",
+            "Spironolactone",
+            "Klinefelter syndrome",
+            "Leydig cell tumour",
+            "Bisoprolol"
+          ],
+          "answer": 1,
+          "explanation": "Bilateral, tender, **rubbery concentric subareolar discs** are classic **gynaecomastia**. The timing, starting soon after **spironolactone**, points to the drug. Spironolactone blocks androgen receptors and increases oestrogen relative to androgen activity.\n\nManagement is to review the drug: in heart failure, switching to **eplerenone**, a more selective mineralocorticoid receptor antagonist, usually preserves the prognostic benefit with much less gynaecomastia.\n\nMale breast cancer is typically **unilateral, hard, eccentric** and often fixed with nipple change. Klinefelter would have been present since puberty with small testes, and a testicular tumour is excluded by normal testes (hCG would still be checked if the drug explanation failed).",
+          "whyWrong": [
+            "Cancer is usually unilateral, hard, eccentric and often with nipple change; bilateral tender concentric discs suggest gynaecomastia.",
+            "",
+            "Klinefelter causes gynaecomastia from puberty with small firm testes, not new onset at 72.",
+            "A Leydig cell tumour is unlikely with normal testes and a clear drug trigger.",
+            "Beta-blockers are not a recognised cause of gynaecomastia."
+          ],
+          "tags": [
+            "gynaecomastia",
+            "drug adverse effect",
+            "spironolactone"
+          ]
+        },
+        {
+          "id": "breast--familial-risk-and-male-breast--q3",
+          "discipline": "adult-surgery",
+          "topic": "breast",
+          "difficulty": "exam",
+          "stem": "A 24-year-old man presents to a GP clinic in Darwin with 2 months of a tender swelling beneath his left nipple. He denies anabolic steroid, cannabis or other drug use. On examination there is a 2 cm rubbery subareolar disc on the left and a smaller one on the right. The right testis contains a firm, painless, non-tender irregular mass.\n\nWhich blood test is most useful in explaining his gynaecomastia?",
+          "options": [
+            "Serum prolactin",
+            "Thyroid-stimulating hormone",
+            "Beta-human chorionic gonadotropin",
+            "Serum CA 15-3",
+            "Liver function tests"
+          ],
+          "answer": 2,
+          "explanation": "The key finding is the **painless testicular mass** in a young man. **Testicular germ cell tumours** can secrete **beta-hCG**, which stimulates Leydig cells to produce oestradiol and upregulates aromatase, shifting the oestrogen-to-androgen balance and causing **gynaecomastia**. Leydig cell tumours can secrete oestrogen directly.\n\nHe needs **beta-hCG, AFP and LDH** (tumour markers for germ cell tumours), an **urgent testicular ultrasound** and urology referral.\n\nThis is why examining the testes is compulsory in any man with gynaecomastia, especially a young adult outside the pubertal window. Prolactin, TSH and LFTs belong in the general work-up but would not explain a testicular mass.",
+          "whyWrong": [
+            "Prolactin is relevant to drug-induced or pituitary causes but does not explain the testicular mass.",
+            "Hyperthyroidism can cause gynaecomastia, but the testicular mass is the key finding.",
+            "",
+            "CA 15-3 has no role in diagnosing gynaecomastia or testicular tumours.",
+            "Liver disease is a cause, but nothing suggests it, and the testicular mass must be explained first."
+          ],
+          "tags": [
+            "gynaecomastia",
+            "testicular cancer",
+            "hcg"
+          ]
+        }
+      ]
+    }
+  ]
+}

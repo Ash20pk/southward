@@ -2,6 +2,7 @@ import { DISCIPLINES, FLASHCARDS, QUESTIONS, STATIONS, SYLLABUS, AUS_FACTS } fro
 import type { LogEntry, MockResult, OsceResult } from "./store";
 import type { CardState } from "./srs";
 import type { StarStat } from "@/components/SouthernCross";
+import { ALL_LESSONS, type LessonState } from "./course-index";
 
 export const NEW_CARDS_PER_DAY = 15;
 
@@ -34,11 +35,11 @@ export function weakestTopics(log: LogEntry[], n = 3) {
     .slice(0, n);
 }
 
+/** Due counts cover every card in the SRS map (the starter deck and cards unlocked by lessons). */
 export function dueCards(srs: Record<string, CardState>, now = Date.now()) {
-  const seen = FLASHCARDS.filter((c) => srs[c.id]);
-  const due = seen.filter((c) => srs[c.id].due <= now);
+  const due = Object.keys(srs).filter((id) => srs[id].due <= now);
   const unseen = FLASHCARDS.filter((c) => !srs[c.id]);
-  return { due, unseen, seen };
+  return { due, unseen };
 }
 
 export function answeredToday(log: LogEntry[]) {
@@ -88,10 +89,15 @@ export function constellation(opts: {
   milestones: Record<string, boolean>;
   lessons: Record<string, string>;
   srs: Record<string, CardState>;
+  lessonProgress: Record<string, LessonState>;
 }): StarStat[] {
-  const { log, mocks, osce, milestones, lessons, srs } = opts;
+  const { log, mocks, osce, milestones, lessons, srs, lessonProgress } = opts;
   const touched = new Set([...log.map((e) => e.topic), ...Object.keys(lessons)]);
-  const foundations = (touched.size / SYLLABUS.length) * 70 + (Object.keys(srs).length / FLASHCARDS.length) * 30;
+  const lessonsDone = ALL_LESSONS.filter((l) => lessonProgress[l.id]?.done).length;
+  // Foundations is mostly the course itself; before any lessons exist it falls back to topics touched.
+  const foundations = ALL_LESSONS.length
+    ? (lessonsDone / ALL_LESSONS.length) * 85 + (touched.size / SYLLABUS.length) * 15
+    : (touched.size / SYLLABUS.length) * 70 + (Object.keys(srs).length / FLASHCARDS.length) * 30;
   const bankIds = new Set(QUESTIONS.map((q) => q.id));
   const bankDone = new Set(log.filter((e) => bankIds.has(e.qid)).map((e) => e.qid)).size;
   const bank = (bankDone / QUESTIONS.length) * 100;
@@ -102,7 +108,12 @@ export function constellation(opts: {
   const popAcc = accuracy(log.filter((e) => e.discipline === "population-health").slice(-50)) ?? 0;
   const australia = (ausRead / Math.max(1, AUS_FACTS.length)) * 60 + (popAcc / 100) * 40;
   return [
-    { key: "foundations", label: "Foundations", detail: `${touched.size} of ${SYLLABUS.length} topics started`, value: foundations },
+    {
+      key: "foundations",
+      label: "Foundations",
+      detail: ALL_LESSONS.length ? `${lessonsDone} of ${ALL_LESSONS.length} lessons done` : `${touched.size} of ${SYLLABUS.length} topics started`,
+      value: foundations,
+    },
     { key: "bank", label: "Question bank", detail: `${bankDone} of ${QUESTIONS.length} questions done`, value: bank },
     { key: "mcq", label: "MCQ readiness", detail: ready ? `${ready}% of the way to a pass-level score` : "Answer 20 questions to unlock", value: ready },
     { key: "clinical", label: "Clinical skills", detail: `${passed} of ${STATIONS.length} stations passed`, value: clinical },

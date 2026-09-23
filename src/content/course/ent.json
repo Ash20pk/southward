@@ -1,0 +1,951 @@
+{
+  "topic": "ent",
+  "intro": "ENT covers the ear, nose, throat and neck problems that fill Australian general practice and emergency departments: ear infections, sore throat, nosebleeds, hearing loss, vertigo, neck lumps and airway emergencies. The AMC tests antibiotic stewardship in common infections, the higher-risk approach needed for Aboriginal and Torres Strait Islander ear disease and rheumatic fever, and the red flags (sudden hearing loss, airway compromise, head and neck cancer) that must never be missed.",
+  "lessons": [
+    {
+      "id": "ent--ear-pain-and-otitis",
+      "title": "Ear pain and otitis",
+      "minutes": 18,
+      "objectives": [
+        "Diagnose acute otitis media, otitis media with effusion and otitis externa from history and otoscopy",
+        "Decide when a child with AOM needs amoxicillin and when watchful waiting is safe",
+        "Manage chronic suppurative otitis media with ear toilet and topical ciprofloxacin",
+        "Recognise the ear emergencies: mastoiditis, necrotising otitis externa and cholesteatoma",
+        "Explain why ear disease in Aboriginal and Torres Strait Islander children is a public health priority"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why ears matter in Australia",
+          "body": "Ear pain is one of the commonest reasons children see a GP in Australia, and almost every child has at least one episode of acute otitis media (AOM) before school age. Most AOM is self-limiting. The AMC therefore tests two opposite skills: **not** giving antibiotics to the well child who will get better, and **not missing** the child who needs them.\n\nThe second theme is **First Nations ear health**. Aboriginal and Torres Strait Islander children, especially in remote communities, have some of the highest rates of chronic suppurative otitis media (CSOM) in the world. Infection starts in the first weeks of life, recurs constantly and often goes unnoticed because it is painless. The result is conductive hearing loss during the years when speech and language develop, with downstream effects on schooling, behaviour and later life. This is why Australian guidance treats ear disease in these children more actively, and why every state runs universal newborn hearing screening plus targeted ear checks.\n\nThe five ear conditions to know cold:\n\n| Condition | Key picture |\n|---|---|\n| AOM | Acute pain, fever, bulging red drum |\n| Otitis media with effusion (glue ear) | No pain, dull retracted drum, hearing loss |\n| Otitis externa | Painful tragus, swollen canal with debris |\n| CSOM | Painless persistent discharge through a perforation |\n| Cholesteatoma | Foul discharge, attic retraction or pocket with keratin |"
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "How middle and outer ear infections develop",
+          "body": "**AOM** follows a viral upper respiratory infection. Mucosal swelling blocks the Eustachian tube, middle ear secretions cannot drain, and nasopharyngeal bacteria (*Streptococcus pneumoniae*, non-typeable *Haemophilus influenzae*, *Moraxella catarrhalis*) multiply in the trapped fluid. Children are prone because their Eustachian tube is shorter, more horizontal and floppier. Daycare, passive smoking, bottle feeding lying down and crowding increase the risk.\n\n**Otitis media with effusion (OME)** is fluid without acute inflammation. It often follows AOM and resolves over weeks to months as the tube starts working again.\n\n**CSOM** develops when the drum perforates and the middle ear mucosa stays chronically infected, typically with *Pseudomonas aeruginosa* and *Staphylococcus aureus*. In remote communities, early colonisation of the nasopharynx with multiple pathogens, crowded housing and limited access to clean water drive a cycle of repeated perforation.\n\n**Cholesteatoma** is skin in the wrong place: a retraction pocket (usually in the attic, the pars flaccida) traps keratinising squamous epithelium, which accumulates, becomes infected and erodes bone. Left untreated it can destroy the ossicles, expose the facial nerve and cause intracranial infection.\n\n**Otitis externa** is infection of the canal skin, usually *Pseudomonas* or *S. aureus*, sometimes fungal. Moisture (swimming, humidity), trauma (cotton buds, hearing aids) and eczema break the protective skin and wax barrier. In older people with diabetes or immunosuppression it can spread to the skull base as **necrotising (malignant) otitis externa**."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "History and otoscopy",
+          "body": "**AOM:** a young child with a cold who becomes irritable, febrile, pulls at the ear and sleeps poorly. Otoscopy shows a **red, bulging** tympanic membrane with loss of the light reflex. Bulging is the most specific sign; redness alone happens with crying and fever. If the drum perforates, pain suddenly eases and pus appears in the canal.\n\n**OME:** no pain or fever. Parents or teachers notice the child does not listen, has the TV loud, or has speech delay. The drum is dull, retracted or amber with a fluid level or bubbles, and moves poorly on pneumatic otoscopy. Tympanometry gives a **flat (type B)** trace.\n\n**Otitis externa:** pain, itch and discharge. The hallmark is **pain on moving the tragus or pinna**, which does not happen in AOM. The canal is swollen, red and full of debris; the drum may be hard to see.\n\n**CSOM:** painless discharge persisting for weeks (commonly defined as more than 2 weeks) through a visible perforation, with conductive hearing loss. A child who \"just has runny ears\" in a remote community has CSOM until proven otherwise.\n\n**Cholesteatoma:** chronic, foul-smelling discharge that does not settle with drops, hearing loss, and an attic perforation or retraction pocket with white keratin debris. Vertigo or facial weakness means erosion into the inner ear or facial canal.\n\n**Mastoiditis:** a child with AOM who becomes more unwell, with **post-auricular swelling, tenderness and redness** and the pinna pushed forward and down.\n\n**Necrotising otitis externa:** an elderly person with diabetes, severe night-time ear pain out of proportion to the findings, granulation tissue on the canal floor, and sometimes lower cranial nerve palsies (facial nerve first)."
+        },
+        {
+          "kind": "investigations",
+          "heading": "What to test",
+          "body": "Most ear infections are clinical diagnoses. Tests are for the chronic, atypical or complicated case.\n\n- **Pneumatic otoscopy and tympanometry**: confirm middle ear fluid (type B flat trace) in OME, or a perforation (high canal volume).\n- **Audiology**: formal hearing assessment for persistent OME (around 3 months), CSOM and any child with speech delay or school concerns.\n- **Ear swab** for microscopy and culture: CSOM or otitis externa not responding to treatment, and necrotising otitis externa.\n- **Blood glucose / HbA1c**: in anyone with severe or recurrent otitis externa, to look for diabetes.\n- **CT temporal bones** (with contrast if abscess suspected): suspected mastoiditis, cholesteatoma planning, necrotising otitis externa. MRI helps for intracranial complications.\n- **ESR/CRP**: useful to monitor necrotising otitis externa over weeks of treatment."
+        },
+        {
+          "kind": "management",
+          "heading": "Australian management",
+          "body": "**AOM (eTG):**\n- All children: **analgesia** (paracetamol or ibuprofen) is the priority. Explain that most improve within 24-72 hours without antibiotics, and arrange review or a clear plan to return.\n- **Give amoxicillin** when the benefit is greater: infants under 6 months; children under 2 with **bilateral** AOM; AOM with **perforation or discharge**; a systemically unwell child; high-risk groups, particularly **Aboriginal and Torres Strait Islander children**; and failure to improve after 48-72 hours of watchful waiting. A 5-day course is standard for uncomplicated AOM; check eTG for current doses and for longer courses in high-risk groups.\n- Penicillin allergy (non-severe) or treatment failure: follow eTG alternatives rather than reaching reflexively for broad-spectrum agents.\n- Recurrent AOM or persistent OME with hearing loss: refer to ENT for consideration of **grommets (tympanostomy tubes)**.\n\n**OME:** watchful waiting for about 3 months, since most resolve. Arrange a hearing test if it persists. Refer for grommets if there is persistent bilateral effusion with hearing loss, speech or learning problems, or structural drum changes. Antibiotics, antihistamines and decongestants do not help.\n\n**Otitis externa:**\n- **Aural toilet** first: dry mopping or suction microscopy so drops reach the skin.\n- **Topical combination antibiotic-steroid drops** (for example framycetin-gramicidin-dexamethasone, or ciprofloxacin-hydrocortisone) for about 7 days. If the canal is too swollen for drops to enter, insert an **ear wick**.\n- Keep the ear dry; avoid cotton buds. Oral antibiotics only if cellulitis spreads beyond the canal.\n- **Necrotising otitis externa**: admit, IV antipseudomonal antibiotics, ENT and glucose control.\n\n**CSOM:**\n- **Ear toilet** (dry mopping with tissue spears, or suction) at least daily, then **topical ciprofloxacin drops** twice daily, continued until the ear has been dry for several days.\n- Ciprofloxacin is preferred because aminoglycoside-containing drops carry a risk of ototoxicity when the drum is perforated.\n- Refer to ENT and audiology; persistent perforations may need tympanoplasty once the ear is dry.\n\n**Mastoiditis and cholesteatoma:** admit mastoiditis for IV antibiotics and imaging, with surgery for abscess. Cholesteatoma always needs surgery (mastoidectomy); drops only settle the discharge."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- **Tragal tenderness** separates otitis externa from AOM. A red bulging drum with no canal swelling is AOM.\n- A well 3-year-old with unilateral AOM for one day: the answer is **analgesia and review**, not antibiotics.\n- The same child but **Aboriginal**, under 6 months, bilateral under 2, or with discharge: **amoxicillin**.\n- \"Runny ears for months, painless, perforation\" in a remote community child: **CSOM → ear toilet + topical ciprofloxacin**, plus hearing assessment. Oral antibiotics alone are the trap.\n- Foul discharge that won't settle plus attic pocket: **cholesteatoma**, refer for surgery.\n- Elderly diabetic with severe pain and granulation tissue: **necrotising otitis externa**, admit.\n- A child with speech delay and a dull, retracted drum: think **OME and hearing**, not behaviour."
+        }
+      ],
+      "keyPoints": [
+        "Most AOM resolves in 1-3 days; analgesia is always first line.",
+        "Amoxicillin for AOM if under 6 months, bilateral under 2, discharge, unwell, First Nations child, or no improvement at 48-72 h.",
+        "Pain on moving the tragus means otitis externa: aural toilet plus steroid-antibiotic drops, wick if swollen.",
+        "CSOM is painless persistent discharge through a perforation: ear toilet plus topical ciprofloxacin.",
+        "OME causes hearing loss without pain; watch for 3 months, then audiology and grommets if persistent.",
+        "Foul chronic discharge with an attic pocket is cholesteatoma and needs surgery.",
+        "Post-auricular swelling with a pushed-forward pinna is mastoiditis: admit."
+      ],
+      "redFlags": [
+        "Post-auricular swelling or pinna displaced forward (mastoiditis)",
+        "Severe ear pain with granulation tissue in an elderly diabetic (necrotising otitis externa)",
+        "Facial weakness, vertigo or headache with chronic ear discharge (cholesteatoma or intracranial spread)",
+        "Neck stiffness, drowsiness or high fever with otitis media (meningitis, intracranial abscess)",
+        "Speech delay or school problems in a child with recurrent ear disease"
+      ],
+      "contrast": [
+        {
+          "aspect": "AOM in a well child",
+          "india": "An oral antibiotic is usually prescribed at the first visit.",
+          "australia": "Analgesia and watchful waiting with review at 48-72 hours; antibiotics reserved for defined high-risk groups."
+        },
+        {
+          "aspect": "Chronic discharging ear",
+          "india": "Often oral antibiotics plus referral for surgery.",
+          "australia": "Daily ear toilet with topical ciprofloxacin in primary care, hearing assessment, and community ear-health programs for First Nations children."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Most specific otoscopic sign of AOM?",
+          "back": "A **bulging** tympanic membrane (redness alone is non-specific)."
+        },
+        {
+          "front": "First-line antibiotic for AOM when one is indicated?",
+          "back": "**Amoxicillin**, typically a 5-day course for uncomplicated AOM (eTG)."
+        },
+        {
+          "front": "Topical treatment of CSOM?",
+          "back": "Ear toilet, then **ciprofloxacin drops** twice daily until dry. Avoid aminoglycoside drops with a perforation."
+        },
+        {
+          "front": "Tympanogram in otitis media with effusion?",
+          "back": "**Flat, type B** trace (fluid in the middle ear)."
+        },
+        {
+          "front": "Sign that separates otitis externa from AOM?",
+          "back": "Pain on moving the **tragus or pinna**."
+        },
+        {
+          "front": "Organism in necrotising otitis externa?",
+          "back": "*Pseudomonas aeruginosa*, usually in elderly people with diabetes."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "ent--ear-pain-and-otitis--q1",
+          "discipline": "adult-surgery",
+          "topic": "ent",
+          "difficulty": "foundation",
+          "stem": "A 3-year-old boy is brought to a GP in suburban Melbourne with 24 hours of right ear pain following a cold. He is miserable but playing in the waiting room. Temperature is 38.2°C. The right tympanic membrane is red and bulging; the left is normal. There is no discharge. He has no allergies and is not Aboriginal or Torres Strait Islander.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Amoxicillin for 5 days",
+            "Analgesia with review if not improving in 48-72 hours",
+            "Amoxicillin-clavulanate for 7 days",
+            "Topical ciprofloxacin drops",
+            "Referral to ENT for myringotomy"
+          ],
+          "answer": 1,
+          "explanation": "This is **unilateral AOM in a well child over 2** from a low-risk group. Most such children improve within 1-3 days without antibiotics, and antibiotics give only a small reduction in pain at the cost of diarrhoea, rash and resistance. Australian guidance (eTG) is **analgesia (paracetamol or ibuprofen) and watchful waiting**, with a clear plan to return or be reviewed if he is not improving after 48-72 hours, or sooner if worse.\n\nAntibiotics would be indicated if he were under 6 months, under 2 with bilateral disease, had discharge or perforation, was systemically unwell, or was a First Nations child.",
+          "whyWrong": [
+            "Amoxicillin is reserved for higher-risk children; this well boy over 2 with unilateral AOM does not meet the criteria.",
+            "",
+            "Amoxicillin-clavulanate is not first line even when antibiotics are indicated.",
+            "Topical ciprofloxacin is for CSOM or discharging ears, not an intact drum.",
+            "Myringotomy is not indicated for a first uncomplicated episode."
+          ],
+          "tags": [
+            "otitis media",
+            "antibiotic stewardship",
+            "paediatrics"
+          ],
+          "ausPearl": "eTG frames AOM antibiotic decisions around risk groups; Aboriginal and Torres Strait Islander children are treated more readily because of CSOM and hearing loss risk."
+        },
+        {
+          "id": "ent--ear-pain-and-otitis--q2",
+          "discipline": "adult-surgery",
+          "topic": "ent",
+          "difficulty": "core",
+          "stem": "A 7-year-old Aboriginal girl from a remote community in the Northern Territory is seen by the visiting doctor. Her mother says her left ear has been 'running' on and off for months, but she has no pain or fever. Otoscopy after cleaning shows a central perforation of the left tympanic membrane with mucopurulent discharge. The right ear is normal.\n\nWhat is the most appropriate treatment?",
+          "options": [
+            "Oral amoxicillin for 7 days",
+            "Framycetin-gramicidin-dexamethasone drops",
+            "Watchful waiting and review in 3 months",
+            "Daily ear toilet and topical ciprofloxacin drops",
+            "Urgent referral for mastoidectomy"
+          ],
+          "answer": 3,
+          "explanation": "Painless, persistent discharge through a perforation is **chronic suppurative otitis media (CSOM)**. The organisms are usually *Pseudomonas* and *S. aureus*, which oral amoxicillin does not reliably cover and which sit in the discharge where systemic antibiotics penetrate poorly.\n\nTreatment is **ear toilet** (dry mopping with tissue spears or suction) so drops reach the mucosa, followed by **topical ciprofloxacin drops** until the ear is dry. Ciprofloxacin is chosen because aminoglycoside drops risk ototoxicity through a perforation. She also needs a **hearing assessment** and ongoing follow-up through the community ear-health program, since CSOM in First Nations children causes conductive hearing loss that affects speech and education.",
+          "whyWrong": [
+            "Oral amoxicillin does not reliably cover Pseudomonas and is not first-line for CSOM.",
+            "Aminoglycoside-containing drops carry an ototoxicity risk with a perforated drum.",
+            "CSOM needs active treatment; waiting perpetuates hearing loss.",
+            "",
+            "Mastoidectomy is for cholesteatoma or complications, not uncomplicated CSOM."
+          ],
+          "tags": [
+            "csom",
+            "first nations health",
+            "hearing"
+          ],
+          "ausPearl": "Australia has among the highest CSOM rates in the world in remote Aboriginal communities; ear health is a national public health priority."
+        },
+        {
+          "id": "ent--ear-pain-and-otitis--q3",
+          "discipline": "adult-surgery",
+          "topic": "ent",
+          "difficulty": "core",
+          "stem": "A 74-year-old man with poorly controlled type 2 diabetes presents to a regional emergency department with 3 weeks of severe left ear pain that keeps him awake at night, despite a course of antibiotic ear drops from his GP. There is purulent discharge and granulation tissue on the floor of the external canal. He has a mild left lower motor neurone facial weakness. Temperature is 37.4°C.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Cholesteatoma",
+            "Acute mastoiditis",
+            "Ramsay Hunt syndrome",
+            "Squamous cell carcinoma of the ear canal",
+            "Necrotising otitis externa"
+          ],
+          "answer": 4,
+          "explanation": "The combination of an **elderly person with diabetes**, **severe night pain out of proportion** to the findings, **granulation tissue on the canal floor** and **facial nerve palsy** is classic for **necrotising (malignant) otitis externa**. It is an osteomyelitis of the skull base, usually caused by *Pseudomonas aeruginosa*, spreading from the external canal through the fissures of Santorini. The facial nerve is the first cranial nerve affected as it exits the stylomastoid foramen.\n\nManagement is admission, cultures, CT or MRI to define the extent, prolonged IV antipseudomonal antibiotics per eTG, ENT review and tight glucose control. Canal SCC is an important differential, so biopsy of persistent granulation tissue is often performed.",
+          "whyWrong": [
+            "Cholesteatoma causes chronic foul discharge from the middle ear via an attic defect, usually without severe night pain.",
+            "Mastoiditis causes post-auricular swelling and usually follows AOM.",
+            "Ramsay Hunt syndrome causes vesicles in the canal or pinna with facial palsy, not granulation tissue.",
+            "Canal SCC is a differential worth biopsying, but the diabetic context and pain pattern point to infection.",
+            ""
+          ],
+          "tags": [
+            "otitis externa",
+            "diabetes",
+            "skull base osteomyelitis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ent--sore-throat-and-deep-neck-infections",
+      "title": "Sore throat, quinsy and deep neck infections",
+      "minutes": 18,
+      "objectives": [
+        "Decide who needs antibiotics for sore throat using acute rheumatic fever risk, not the look of the tonsils",
+        "Prescribe the eTG regimen for streptococcal pharyngitis in a high-risk patient",
+        "Recognise and manage peritonsillar abscess, epiglottitis and Ludwig angina",
+        "Distinguish glandular fever from bacterial tonsillitis and avoid the amoxicillin rash",
+        "Know the indications for tonsillectomy and how to handle post-tonsillectomy bleeding"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The Australian approach to sore throat",
+          "body": "Sore throat is extremely common and mostly **viral**. Even when group A *Streptococcus* (GAS, *S. pyogenes*) is the cause, antibiotics shorten symptoms by only about a day in most people. Australia has high antibiotic prescribing rates for sore throat, and national stewardship campaigns target this.\n\nThe real reason to treat GAS pharyngitis in Australia is **prevention of acute rheumatic fever (ARF)** and rheumatic heart disease (RHD). Aboriginal and Torres Strait Islander people living in remote and regional northern Australia have some of the highest rates of ARF and RHD in the world, and Māori and Pacific Islander people are also at high risk. So the key question the AMC wants you to ask is not \"does this throat look bacterial?\" but **\"is this person at high risk of rheumatic fever?\"**\n\nHigh risk (per eTG and the Australian ARF/RHD guideline) includes:\n- Aboriginal and Torres Strait Islander people living in rural or remote areas, or in high-ARF settings\n- Māori and Pacific Islander people\n- People with a personal history of ARF or RHD\n- Others living in crowded, socioeconomically disadvantaged settings where ARF is common\n\nIn low-risk people, antibiotics are generally reserved for severe illness, suppurative complications (quinsy) or scarlet fever."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "From throat infection to complications",
+          "body": "**Viral pharyngitis** (rhinovirus, adenovirus, influenza, SARS-CoV-2) usually comes with cough, coryza and conjunctivitis.\n\n**GAS pharyngitis** is more likely with fever, tender anterior cervical nodes, tonsillar exudate and **absence of cough** (the basis of the Centor and FeverPAIN scores, which you should know about but which do not override risk-based decisions in Australia).\n\n**ARF** follows untreated GAS infection by 2-4 weeks. Antibodies against streptococcal antigens cross-react with cardiac, joint, brain and skin tissue (**molecular mimicry**). Repeated attacks scar the valves, especially the mitral, producing RHD. In northern Australia, GAS **skin sores (impetigo)** are probably as important as sore throats as a trigger.\n\n**Suppurative complications** arise when infection spreads beyond the tonsil:\n- **Peritonsillar abscess (quinsy)**: pus between the tonsil capsule and the superior constrictor, usually in adolescents and young adults.\n- **Parapharyngeal and retropharyngeal abscess**: deeper spread; retropharyngeal is mainly in young children.\n- **Ludwig angina**: rapidly spreading cellulitis of the floor of the mouth (submandibular and sublingual spaces), usually from a lower molar dental infection, which pushes the tongue up and back and obstructs the airway.\n\n**Epiglottitis** (supraglottitis) is bacterial cellulitis of the epiglottis. Since Hib vaccination it is now seen more in **adults** than children, from a mix of organisms.\n\n**Infectious mononucleosis** (EBV) causes exudative tonsillitis with generalised lymphadenopathy and splenomegaly, mainly in teenagers and young adults."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Recognising each picture",
+          "body": "| Condition | Discriminating features |\n|---|---|\n| Viral pharyngitis | Cough, coryza, hoarseness, conjunctivitis |\n| GAS tonsillitis | Fever, exudate, tender anterior nodes, no cough |\n| Glandular fever | Teen or young adult, marked fatigue, posterior cervical nodes, palatal petechiae, splenomegaly |\n| Quinsy | Worsening unilateral throat pain, **trismus**, **uvula deviated away**, muffled \"hot potato\" voice, drooling, referred ear pain |\n| Epiglottitis | Rapid onset, severe odynophagia out of proportion to a near-normal oropharynx, drooling, muffled voice, stridor, sitting forward (tripod) |\n| Retropharyngeal abscess | Young child, fever, neck stiffness or reluctance to extend the neck, drooling |\n| Ludwig angina | Recent dental pain, brawny swelling under the jaw, raised tongue, can't swallow saliva |\n\n**Scarlet fever**: GAS with a sandpaper rash, flushed cheeks with circumoral pallor and strawberry tongue.\n\nA key AMC clue in epiglottitis: **the throat looks relatively normal** yet the patient is in agony and cannot swallow saliva. The inflammation is below what you can see."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Tests that change management",
+          "body": "- **Throat swab** for culture (or rapid antigen test where available): mainly in **high-risk** people, so that a positive result can be notified to the ARF/RHD register where relevant and the diagnosis confirmed. Do not delay antibiotics in high-risk patients while waiting for the result.\n- **ASOT and anti-DNase B**: to support a diagnosis of ARF, not to diagnose pharyngitis.\n- **FBE and EBV serology / monospot**: suspected glandular fever (atypical lymphocytes; monospot can be negative early and in young children). LFTs are often mildly deranged.\n- **Quinsy**: a clinical diagnosis. CT neck with contrast if deep neck space infection is suspected or the diagnosis is uncertain.\n- **Epiglottitis**: **do not** examine the throat with a tongue depressor or send the patient alone to radiology. Visualisation is by flexible nasendoscopy in a controlled setting with airway expertise present. A lateral neck X-ray may show the \"thumb sign\", but it is not needed if the diagnosis is clear.\n- **Ludwig angina**: CT once the airway is secured or judged safe; orthopantomogram (OPG) for the dental source."
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment",
+          "body": "**Sore throat, low risk:** analgesia (paracetamol, ibuprofen), fluids, salt-water gargles or lozenges, and a safety-net about quinsy and airway symptoms. Explain that antibiotics add little.\n\n**Sore throat, high risk of ARF (eTG):** **phenoxymethylpenicillin for 10 days**. The 10-day course matters: shorter courses do not reliably eradicate GAS from the pharynx, and eradication is what prevents ARF. Where adherence to 10 days is unlikely, a **single IM dose of benzathine benzylpenicillin** is an equally effective alternative. For penicillin allergy follow eTG alternatives. Check eTG for weight-based doses.\n\n**Glandular fever:** supportive. **Avoid amoxicillin/ampicillin**, which causes a widespread maculopapular rash in most people with EBV (not a true penicillin allergy). Advise **avoiding contact sports** for several weeks because of splenic rupture risk. Steroids only for airway compromise from tonsillar swelling.\n\n**Quinsy:**\n- Needle **aspiration or incision and drainage** of the abscess, usually by ENT.\n- **IV antibiotics** (eTG: benzylpenicillin-based regimen), analgesia, IV fluids if not drinking. A dose of corticosteroid is often given to reduce swelling.\n- Recurrent quinsy is an indication for tonsillectomy.\n\n**Epiglottitis:** keep the patient calm and sitting up, give oxygen, **call senior anaesthetics and ENT**, and secure the airway in theatre if needed. IV antibiotics (eTG recommends ceftriaxone-based therapy) once the airway plan is in place, with corticosteroid often added.\n\n**Ludwig angina:** airway first (awake fibreoptic intubation or surgical airway), IV broad-spectrum antibiotics covering oral anaerobes, surgical drainage and dental extraction.\n\n**Tonsillectomy:** consider for recurrent tonsillitis (commonly cited thresholds: 7 or more episodes in 1 year, 5 per year for 2 years, or 3 per year for 3 years), recurrent quinsy, and **obstructive sleep apnoea** in children.\n\n**Post-tonsillectomy haemorrhage** is an emergency. **Primary** bleeding occurs within 24 hours (surgical); **secondary** bleeding occurs typically at 5-10 days, associated with infection of the tonsil bed. Any bleeding after tonsillectomy needs ED review, IV access, bloods and group and hold, and ENT."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- A 22-year-old Sydney university student with exudative tonsillitis and no risk factors: usually **no antibiotics**.\n- A 12-year-old Aboriginal child in a remote community with a sore throat: **phenoxymethylpenicillin for 10 days** (or IM benzathine benzylpenicillin), regardless of how the throat looks.\n- Trismus + uvula deviated away from the swollen side + hot potato voice = **quinsy → drain and IV antibiotics**.\n- Adult with severe odynophagia, drooling and a **normal-looking oropharynx** = **epiglottitis**: do not use a tongue depressor; call for airway help.\n- Rash after amoxicillin in a teenager with sore throat and splenomegaly = **EBV**, not penicillin allergy.\n- Bleeding a week after tonsillectomy = **secondary haemorrhage**, go to hospital."
+        }
+      ],
+      "keyPoints": [
+        "Most sore throats are viral; the reason to treat GAS in Australia is preventing acute rheumatic fever.",
+        "High ARF risk (many First Nations communities, Māori, Pacific Islander, prior ARF/RHD): phenoxymethylpenicillin 10 days or one IM benzathine benzylpenicillin.",
+        "Quinsy: trismus, uvula deviation, hot potato voice; drain and give IV antibiotics.",
+        "Epiglottitis is now mainly an adult disease; don't examine the throat, secure the airway first.",
+        "Amoxicillin in EBV causes a rash; avoid contact sports for several weeks because of the spleen.",
+        "Ludwig angina is a dental-origin floor-of-mouth cellulitis that threatens the airway.",
+        "Secondary post-tonsillectomy bleeding occurs around days 5-10 and needs hospital review."
+      ],
+      "redFlags": [
+        "Drooling or inability to swallow saliva",
+        "Stridor, muffled voice or tripod posture",
+        "Trismus with unilateral peritonsillar swelling",
+        "Floor-of-mouth swelling with a raised tongue after dental infection",
+        "Any bleeding after tonsillectomy"
+      ],
+      "contrast": [
+        {
+          "aspect": "Who gets antibiotics for sore throat",
+          "india": "Decided largely on exudate and fever; amoxicillin or azithromycin is widely used.",
+          "australia": "Decided on acute rheumatic fever risk; phenoxymethylpenicillin for 10 days in high-risk people, usually none in low-risk."
+        },
+        {
+          "aspect": "Epiglottitis",
+          "india": "Taught as a paediatric Hib disease.",
+          "australia": "Hib vaccination has made it mostly an adult disease; AMC stems often feature an adult with a normal-looking throat."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "eTG antibiotic and duration for GAS pharyngitis in a high-risk person?",
+          "back": "**Phenoxymethylpenicillin for 10 days**, or a single IM dose of benzathine benzylpenicillin."
+        },
+        {
+          "front": "Three signs of peritonsillar abscess?",
+          "back": "**Trismus**, **uvula deviated away** from the abscess, muffled \"hot potato\" voice."
+        },
+        {
+          "front": "Why avoid amoxicillin in suspected glandular fever?",
+          "back": "It causes a **maculopapular rash** in most people with EBV."
+        },
+        {
+          "front": "Timing of secondary post-tonsillectomy haemorrhage?",
+          "back": "Typically **5-10 days** after surgery, linked to infection of the tonsil bed."
+        },
+        {
+          "front": "Origin of Ludwig angina?",
+          "back": "**Lower molar dental infection** spreading to the submandibular and sublingual spaces."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "ent--sore-throat-and-deep-neck-infections--q1",
+          "discipline": "adult-surgery",
+          "topic": "ent",
+          "difficulty": "foundation",
+          "stem": "A 13-year-old Aboriginal boy living in a remote community in the Kimberley presents to the community clinic with 2 days of sore throat and fever of 38.4°C. He has tender anterior cervical lymph nodes and mildly enlarged tonsils without exudate. He has no cough. He has no known allergies and no past history of rheumatic fever.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Analgesia only and review in 3 days",
+            "Phenoxymethylpenicillin for 10 days",
+            "Amoxicillin for 5 days",
+            "Throat swab and treat only if culture is positive",
+            "Azithromycin for 3 days"
+          ],
+          "answer": 1,
+          "explanation": "This boy is at **high risk of acute rheumatic fever**: he is an Aboriginal child living in a remote community in northern Australia, where ARF and RHD rates are among the highest in the world. In high-risk people, eTG recommends treating sore throat presumptively with **phenoxymethylpenicillin for 10 days** (or a single IM dose of benzathine benzylpenicillin if adherence is a concern). A swab can be taken, but treatment should not wait for the result.\n\nThe 10-day duration is essential because the goal is **eradication** of GAS from the pharynx to prevent ARF, not symptom relief. How the tonsils look is irrelevant to this decision.",
+          "whyWrong": [
+            "Withholding antibiotics is appropriate in low-risk people, not in a high-risk child.",
+            "",
+            "Amoxicillin is not the eTG first line, and 5 days is too short to reliably eradicate GAS.",
+            "Treatment should not be delayed for a swab result in a high-risk patient.",
+            "Macrolides are reserved for penicillin allergy and resistance is a concern."
+          ],
+          "tags": [
+            "pharyngitis",
+            "rheumatic fever",
+            "first nations health"
+          ],
+          "ausPearl": "Confirmed ARF and RHD are notifiable in several jurisdictions, and state RHD registers manage secondary prophylaxis with 4-weekly benzathine benzylpenicillin."
+        },
+        {
+          "id": "ent--sore-throat-and-deep-neck-infections--q2",
+          "discipline": "adult-surgery",
+          "topic": "ent",
+          "difficulty": "core",
+          "stem": "A 24-year-old woman presents to an emergency department in Brisbane with 4 days of worsening left-sided sore throat. She can barely open her mouth, is drooling, and her voice sounds muffled. Temperature is 38.6°C, heart rate 108/min, SpO2 98% on room air. There is no stridor. Examination shows swelling above and lateral to the left tonsil with the uvula pushed to the right.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Oral phenoxymethylpenicillin and review in 48 hours",
+            "Monospot test and supportive care",
+            "Needle aspiration or incision and drainage with IV antibiotics",
+            "Lateral soft tissue neck X-ray",
+            "Emergency tonsillectomy under general anaesthetic"
+          ],
+          "answer": 2,
+          "explanation": "Unilateral throat pain, **trismus**, **drooling**, a **muffled hot potato voice** and **uvular deviation away** from a swelling superolateral to the tonsil are the classic features of a **peritonsillar abscess (quinsy)**. She is maintaining her airway (no stridor, normal saturations).\n\nTreatment is to **drain the pus** (needle aspiration or incision and drainage, usually by ENT under local anaesthetic) plus **IV antibiotics** per eTG, analgesia and fluids. Corticosteroids are commonly added. Oral antibiotics alone are inadequate once an abscess has formed. Tonsillectomy is considered later for recurrent quinsy, rather than as the first step.",
+          "whyWrong": [
+            "Oral antibiotics alone will not treat an established abscess.",
+            "Glandular fever does not cause unilateral peritonsillar swelling with uvular deviation.",
+            "",
+            "Quinsy is a clinical diagnosis; imaging is only needed if deeper spread is suspected.",
+            "Tonsillectomy is not the first-line treatment of an acute quinsy."
+          ],
+          "tags": [
+            "quinsy",
+            "peritonsillar abscess",
+            "airway"
+          ]
+        },
+        {
+          "id": "ent--sore-throat-and-deep-neck-infections--q3",
+          "discipline": "adult-surgery",
+          "topic": "ent",
+          "difficulty": "exam",
+          "stem": "A 48-year-old man presents to an emergency department in Adelaide with 8 hours of rapidly worsening throat pain. He is sitting upright leaning forward, drooling into a cup and speaking in a muffled voice. Temperature is 38.9°C, heart rate 118/min, respiratory rate 24/min, SpO2 95% on room air. There is soft inspiratory stridor. A glimpse of the oropharynx while he speaks shows only mild erythema.\n\nWhat is the most appropriate immediate action?",
+          "options": [
+            "Examine the pharynx with a tongue depressor to look for a quinsy",
+            "Send for a CT scan of the neck",
+            "Give oral phenoxymethylpenicillin and discharge with safety-netting",
+            "Keep him sitting up and call senior anaesthetic and ENT staff to secure the airway",
+            "Lie him flat and insert an oropharyngeal airway"
+          ],
+          "answer": 3,
+          "explanation": "Severe odynophagia, **drooling**, muffled voice, **tripod posture** and **stridor** with an oropharynx that looks almost normal is **acute epiglottitis (supraglottitis)**. Since Hib vaccination this is now more common in adults. The swelling is at the supraglottis, below what you can see through the mouth.\n\nThe immediate priority is the **airway**: keep him calm and sitting up, give oxygen, and call **senior anaesthetics and ENT** so that the airway can be assessed by nasendoscopy and secured in a controlled setting, with surgical airway backup. IV antibiotics and corticosteroids follow once the airway plan is in place. Instrumenting the throat, lying him flat or sending him to CT can precipitate complete obstruction.",
+          "whyWrong": [
+            "A tongue depressor can provoke laryngospasm and complete obstruction.",
+            "An unstable airway must never go to the scanner without being secured.",
+            "This is a life-threatening airway emergency, not a simple sore throat.",
+            "",
+            "Lying flat worsens obstruction, and an oropharyngeal airway will not bypass supraglottic swelling."
+          ],
+          "tags": [
+            "epiglottitis",
+            "airway",
+            "emergency"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ent--epistaxis-and-the-nose",
+      "title": "Epistaxis, sinusitis and nasal problems",
+      "minutes": 16,
+      "objectives": [
+        "Give correct first aid for epistaxis and escalate stepwise to cautery, packing and ENT",
+        "Tell anterior from posterior epistaxis and manage anticoagulated patients sensibly",
+        "Diagnose acute rhinosinusitis and recognise orbital complications",
+        "Manage a nasal fracture, including the septal haematoma that must not be missed",
+        "Identify sinister unilateral nasal symptoms and nasal foreign bodies in children"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why the nose is examinable",
+          "body": "Nosebleeds are one of the commonest ENT presentations to Australian emergency departments and general practice. Most are anterior, minor and stop with correct first aid, but older patients on anticoagulants or antiplatelets can bleed heavily from the posterior nose and become haemodynamically unstable.\n\nThe AMC also tests the nose through **acute rhinosinusitis** (mostly viral; antibiotic stewardship again), **allergic rhinitis** (very common in Australia, which has high rates of asthma and hay fever, and thunderstorm asthma events in Victoria), **nasal trauma** (the septal haematoma trap), **children with foreign bodies**, and **unilateral symptoms in adults** that may signal sinonasal cancer."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Where the blood comes from",
+          "body": "About 90% of nosebleeds are **anterior**, from **Little's area** on the anterior septum, where the **Kiesselbach plexus** (branches of the anterior ethmoidal, sphenopalatine, greater palatine and superior labial arteries) lies just under thin mucosa. Dry air, nose picking, colds, allergic rhinitis and nasal steroid sprays used against the septum all damage it. This is typical in **children and young adults**.\n\n**Posterior** bleeds come from branches of the **sphenopalatine artery** and are more common in **older people** with hypertension, atherosclerosis, and anticoagulant or antiplatelet therapy. Blood runs down the back of the throat, both nostrils may bleed, and anterior pressure does not stop it.\n\nOther causes to keep in mind:\n- **Coagulopathy**: warfarin, DOACs, antiplatelets, liver disease, haemophilia, von Willebrand disease, thrombocytopenia (leukaemia).\n- **Hereditary haemorrhagic telangiectasia (HHT)**: recurrent epistaxis with telangiectasia on lips and tongue, and a family history.\n- **Juvenile nasopharyngeal angiofibroma**: recurrent severe unilateral epistaxis with nasal obstruction in an **adolescent male**.\n- **Sinonasal malignancy**: unilateral bloody discharge and obstruction in an older adult (woodworkers and leather workers are at increased risk of adenocarcinoma).\n\n**Acute rhinosinusitis** is usually a viral URTI involving the sinuses. Bacterial superinfection (*S. pneumoniae*, *H. influenzae*, *M. catarrhalis*) is suggested by symptoms lasting **more than 10 days**, **double sickening** (improvement then worsening), or severe pain and high fever. Ethmoid infection can spread through the thin lamina papyracea to the orbit."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Assessment",
+          "body": "**Epistaxis:** assess ABC first. Pale, sweaty, tachycardic or hypotensive patients need resuscitation before anything else. Then ask: which side, how long, how much, swallowing blood, previous episodes, anticoagulants and antiplatelets, alcohol and liver disease, bruising elsewhere, and family history. Examine with a headlight and nasal speculum after clearing clots. Check blood pressure, but remember that high BP in epistaxis is often due to anxiety and is not treated acutely.\n\n**Rhinosinusitis:** nasal obstruction, purulent discharge, facial pain or pressure worse on bending forward, reduced smell. **Chronic rhinosinusitis** is symptoms for 12 weeks or more, with or without nasal polyps (think aspirin-exacerbated respiratory disease if polyps plus asthma).\n\n**Orbital complications (periorbital and orbital cellulitis)** are an emergency:\n- **Preseptal** cellulitis: swollen red eyelids but normal eye movements, acuity and pupils.\n- **Orbital (postseptal)** cellulitis: **proptosis, painful or restricted eye movements, reduced visual acuity or colour vision**, relative afferent pupillary defect.\n\n**Allergic rhinitis:** sneezing, itchy watery eyes and nose, clear rhinorrhoea, seasonal (spring grass pollen) or perennial (house dust mite). Pale boggy turbinates; allergic salute crease in children.\n\n**Nasal fracture:** deformity, swelling and epistaxis after trauma. Always look inside for a **septal haematoma**: a boggy, fluctuant, purple bilateral swelling of the septum that blocks the nose.\n\n**Nasal foreign body:** a young child with **unilateral foul-smelling purulent discharge**, sometimes blood-stained."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "- **Epistaxis**: none for a simple anterior bleed in a young person. For significant bleeding, recurrent bleeds or older patients: **FBE** (haemoglobin, platelets), **coagulation studies/INR** if on warfarin or liver disease suspected, **group and hold** for heavy bleeding. Nasendoscopy by ENT for recurrent or posterior bleeds.\n- **Acute rhinosinusitis**: a clinical diagnosis. No imaging for uncomplicated disease. **CT sinuses and orbits with contrast** if orbital or intracranial complications are suspected.\n- **Chronic rhinosinusitis or unilateral symptoms**: nasendoscopy and CT sinuses; biopsy of any mass.\n- **Allergic rhinitis**: skin prick testing or specific IgE if the allergen is unclear or immunotherapy is being considered.\n- **Nasal fracture**: X-rays are **not** needed for an isolated nasal fracture; the diagnosis and the decision to reduce are clinical. CT if other facial fractures are suspected.\n- **Button battery** suspected in the nose: urgent removal; do not wait for imaging if the history is clear."
+        },
+        {
+          "kind": "management",
+          "heading": "Stepwise management",
+          "body": "**Epistaxis ladder:**\n1. **First aid**: sit up, **lean forward**, breathe through the mouth, spit out blood, and **pinch the soft (cartilaginous) part of the nose firmly for 10-15 minutes** without letting go to check. An ice pack on the bridge or sucking ice may help. Leaning back makes the patient swallow blood and vomit.\n2. If still bleeding: clear clots, apply a **topical vasoconstrictor with local anaesthetic** (for example co-phenylephrine/lignocaine spray, or cotton pledgets soaked in it) and re-pinch.\n3. **Cautery** of a visible anterior bleeding point with a **silver nitrate** stick, working from the periphery in. **Cauterise one side of the septum only** at a time: cauterising both sides risks septal perforation.\n4. If cautery fails or no point is seen: **anterior nasal packing** (an inflatable balloon pack or expanding sponge). Packed patients usually need review and ENT follow-up; packs stay in for about 24-48 hours.\n5. **Posterior bleeding**: posterior pack or balloon (a Foley catheter can be used in an emergency), admit, and involve ENT. Refractory bleeding: endoscopic **sphenopalatine artery ligation** or interventional radiology **embolisation**.\n\n**Anticoagulated patients:** most bleeds settle with local measures. Check INR, and do not routinely stop or reverse anticoagulation for a controlled bleed; discuss with the prescriber. Reverse only for life-threatening haemorrhage (for example vitamin K and prothrombin complex concentrate for warfarin; idarucizumab for dabigatran).\n\n**After cautery:** avoid nose blowing, heavy lifting, hot drinks and exertion for about a week. An antiseptic nasal cream (chlorhexidine-neomycin) is often used; note it contains **peanut (arachis) oil**, so check for peanut allergy.\n\n**Acute rhinosinusitis:** analgesia, saline irrigation, and intranasal corticosteroids. Antibiotics only if bacterial features are present (over 10 days, double sickening, or severe); eTG recommends **amoxicillin** as first line. Orbital cellulitis: admit, IV antibiotics, urgent ophthalmology and ENT, CT.\n\n**Allergic rhinitis:** allergen avoidance, saline, **intranasal corticosteroid** as the most effective regular treatment, non-sedating oral or intranasal antihistamines, and a combination intranasal steroid-antihistamine spray for moderate to severe disease. Refer for allergen immunotherapy if symptoms persist. Remember the link with asthma.\n\n**Nasal fracture:** treat any septal haematoma **the same day** by incision and drainage, then packing and antibiotics; otherwise the cartilage necroses (**saddle nose**) or forms an abscess. For the fracture itself, reassess once swelling settles at about **5-7 days**; closed reduction, if needed, is best done within about 2 weeks.\n\n**Nasal foreign body:** try the **\"parent's kiss\"** (positive pressure through the mouth with the clear nostril occluded) or remove with a hook under direct vision. **Button batteries** are an emergency because they cause rapid liquefactive necrosis."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- First aid answer: **sit up, lean forward, pinch the soft part for 10-15 minutes**. Head back and pinching the bony bridge are the classic wrong answers.\n- Cautery is **silver nitrate, one side of the septum only**.\n- A 76-year-old on apixaban with bleeding from both nostrils and blood down the throat despite anterior packing: **posterior epistaxis → posterior pack, admit, ENT**.\n- Teenage boy with recurrent heavy unilateral bleeds and obstruction: **juvenile nasopharyngeal angiofibroma**; do not biopsy in the clinic.\n- After a punch to the nose: **look for septal haematoma**; no X-ray needed.\n- Toddler with unilateral smelly discharge: **foreign body**.\n- Swollen eyelids with proptosis or reduced acuity: **orbital cellulitis**, not preseptal."
+        }
+      ],
+      "keyPoints": [
+        "Epistaxis first aid: sit up, lean forward, pinch the soft part of the nose for 10-15 minutes.",
+        "Most bleeds are anterior from Little's area; posterior bleeds occur in older, hypertensive or anticoagulated patients.",
+        "Silver nitrate cautery to one side of the septum only, then packing, then ENT.",
+        "Anticoagulation is not routinely reversed for a controlled nosebleed.",
+        "Bacterial sinusitis: over 10 days, double sickening or severe; amoxicillin first line.",
+        "Proptosis, painful eye movements or reduced vision with sinusitis means orbital cellulitis.",
+        "A septal haematoma after nasal trauma must be drained the same day to prevent saddle nose."
+      ],
+      "redFlags": [
+        "Haemodynamic instability or ongoing bleeding down the throat",
+        "Recurrent unilateral epistaxis with obstruction in an adolescent male",
+        "Unilateral bloody discharge or obstruction in an older adult",
+        "Proptosis, ophthalmoplegia or reduced acuity with sinusitis",
+        "Septal haematoma after nasal trauma",
+        "Button battery in the nose"
+      ],
+      "contrast": [
+        {
+          "aspect": "Epistaxis first aid taught to the public",
+          "india": "Head tilted back and cold compresses are still commonly advised.",
+          "australia": "Lean forward and pinch the soft part of the nose for 10-15 minutes, as taught in first aid courses and ED handouts."
+        },
+        {
+          "aspect": "Nasal fracture imaging",
+          "india": "Nasal bone X-rays are frequently ordered.",
+          "australia": "Isolated nasal fractures are a clinical diagnosis; review at 5-7 days, and X-ray is not required."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Correct epistaxis first aid?",
+          "back": "Sit up, **lean forward**, pinch the **soft part** of the nose for **10-15 minutes** without releasing."
+        },
+        {
+          "front": "Site of most anterior nosebleeds?",
+          "back": "**Little's area** (Kiesselbach plexus) on the anterior septum."
+        },
+        {
+          "front": "Why cauterise only one side of the septum?",
+          "back": "Bilateral cautery risks **septal perforation**."
+        },
+        {
+          "front": "Complication of an undrained septal haematoma?",
+          "back": "Cartilage necrosis causing **saddle nose** deformity, or septal abscess."
+        },
+        {
+          "front": "When is a nasal fracture reassessed for reduction?",
+          "back": "At about **5-7 days**, once swelling settles; reduce within about 2 weeks."
+        },
+        {
+          "front": "Ingredient in chlorhexidine-neomycin nasal cream to ask about?",
+          "back": "**Peanut (arachis) oil**: check for peanut allergy."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "ent--epistaxis-and-the-nose--q1",
+          "discipline": "adult-surgery",
+          "topic": "ent",
+          "difficulty": "foundation",
+          "stem": "A 9-year-old girl is brought to a GP clinic in Perth with a nosebleed from the left nostril that started 5 minutes ago while playing. Her mother has been holding a tissue under her nose with her head tilted back. She is pink and well perfused, heart rate 96/min.\n\nWhat is the most appropriate first step?",
+          "options": [
+            "Silver nitrate cautery to the left side of the septum",
+            "Insert an anterior nasal pack",
+            "Sit her up, lean her forward and pinch the soft part of her nose for 10-15 minutes",
+            "Apply an ice pack to the back of her neck with her head tilted back",
+            "Arrange a full blood examination and coagulation studies"
+          ],
+          "answer": 2,
+          "explanation": "Most childhood nosebleeds are **anterior**, from **Little's area**, and stop with correct first aid. The patient should **sit up and lean forward** (so blood drains out rather than being swallowed and causing vomiting or airway soiling), breathe through the mouth, and have the **soft, cartilaginous part of the nose pinched firmly for 10-15 minutes** without releasing to check.\n\nHead tilted back is the classic error. Cautery and packing are the next steps only if first aid fails. Blood tests are not needed in a well child with a first minor bleed, but recurrent heavy bleeds or bruising elsewhere would prompt an FBE and coagulation screen.",
+          "whyWrong": [
+            "Cautery is used only if first aid fails and a bleeding point is seen.",
+            "Packing is a later step for bleeding that continues despite first aid and cautery.",
+            "",
+            "Tilting the head back makes her swallow blood; neck ice has no proven effect.",
+            "Blood tests are not needed for a single minor anterior bleed in a well child."
+          ],
+          "tags": [
+            "epistaxis",
+            "first aid"
+          ]
+        },
+        {
+          "id": "ent--epistaxis-and-the-nose--q2",
+          "discipline": "adult-surgery",
+          "topic": "ent",
+          "difficulty": "exam",
+          "stem": "A 78-year-old man on apixaban for atrial fibrillation presents to an emergency department in Hobart with 2 hours of heavy nosebleed. Blood is coming from both nostrils and he is spitting blood from the back of his throat. Anterior pressure for 15 minutes and a well-placed anterior balloon pack in the right nostril have not stopped it. Heart rate is 106/min, blood pressure 118/70 mmHg. Haemoglobin is 112 g/L.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Silver nitrate cautery to both sides of the septum",
+            "Posterior nasal packing, admission and urgent ENT review",
+            "Discharge with the pack in place and GP review in 48 hours",
+            "Give idarucizumab to reverse the anticoagulant",
+            "Lower his blood pressure with IV labetalol"
+          ],
+          "answer": 1,
+          "explanation": "Bleeding from **both nostrils** and down the **back of the throat** that continues despite correct anterior pressure and an anterior pack indicates a **posterior epistaxis**, usually from branches of the sphenopalatine artery. It is typical of older, anticoagulated patients.\n\nThe next step is a **posterior pack or balloon** (a Foley catheter in an emergency), **admission**, IV access, bloods including group and hold, and **urgent ENT** for endoscopic control, sphenopalatine artery ligation or embolisation if packing fails. Discuss anticoagulation with the treating team, but specific reversal is reserved for life-threatening bleeding. Idarucizumab reverses dabigatran, not apixaban.",
+          "whyWrong": [
+            "Bilateral septal cautery risks perforation, and cautery does not reach a posterior source.",
+            "",
+            "A posterior bleed in an anticoagulated, tachycardic older man needs admission.",
+            "Idarucizumab reverses dabigatran only; reversal is not first line for a bleed controllable with packing.",
+            "Elevated BP in epistaxis is usually reactive; his BP is not high and lowering it is not the priority."
+          ],
+          "tags": [
+            "epistaxis",
+            "anticoagulation",
+            "posterior bleed"
+          ]
+        },
+        {
+          "id": "ent--epistaxis-and-the-nose--q3",
+          "discipline": "adult-surgery",
+          "topic": "ent",
+          "difficulty": "core",
+          "stem": "A 19-year-old man presents to a GP in Darwin the day after being punched in the nose at a party. His nose is swollen and slightly deviated to the left and he has bilateral nasal obstruction. Speculum examination shows a smooth, purple, fluctuant swelling on both sides of the nasal septum. His vision and eye movements are normal.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Nasal bone X-ray and review in 1 week",
+            "Oral antibiotics and nasal decongestant spray",
+            "Same-day referral for incision and drainage",
+            "Closed reduction of the fracture in 5-7 days",
+            "Reassurance and ice packs"
+          ],
+          "answer": 2,
+          "explanation": "The bilateral, fluctuant, purple septal swelling is a **septal haematoma**. Blood collects between the cartilage and the perichondrium, which is the cartilage's blood supply. Without prompt drainage the cartilage **necroses within days**, causing a **saddle nose** deformity, or the haematoma becomes infected to form a septal abscess.\n\nHe needs **same-day** ENT or ED referral for **incision and drainage**, followed by packing and antibiotics. The fracture itself is managed separately: isolated nasal fractures are clinical diagnoses without X-ray, reassessed at about 5-7 days once the swelling settles, with closed reduction within about 2 weeks if the deformity is significant.",
+          "whyWrong": [
+            "X-rays do not change management of isolated nasal fractures and a septal haematoma cannot wait a week.",
+            "Antibiotics alone will not decompress the haematoma or prevent cartilage necrosis.",
+            "",
+            "Fracture reduction can wait, but the haematoma cannot.",
+            "Reassurance misses a problem that will destroy the septal cartilage."
+          ],
+          "tags": [
+            "nasal fracture",
+            "septal haematoma",
+            "trauma"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ent--hearing-loss-vertigo-and-facial-palsy",
+      "title": "Hearing loss, vertigo and facial palsy",
+      "minutes": 20,
+      "objectives": [
+        "Separate conductive from sensorineural hearing loss with Rinne and Weber tests",
+        "Treat sudden sensorineural hearing loss as an emergency and refer for steroids",
+        "Distinguish BPPV, vestibular neuritis, Ménière disease and posterior circulation stroke",
+        "Investigate unilateral sensorineural hearing loss or tinnitus for vestibular schwannoma",
+        "Manage Bell palsy and recognise Ramsay Hunt syndrome and upper motor neurone weakness"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why this matters",
+          "body": "About one in six Australians has some hearing loss, most commonly age-related, and hearing loss is increasingly recognised as a modifiable risk factor for dementia. Dizziness is one of the commonest reasons older people present to GPs and emergency departments. The AMC tests three reasoning skills here:\n\n1. **Localise hearing loss** at the bedside (conductive vs sensorineural) and know which causes are urgent.\n2. **Recognise sudden sensorineural hearing loss (SSNHL)** as an emergency, because the window for steroid treatment is short.\n3. **Tell peripheral from central vertigo**, because a cerebellar or brainstem stroke can look like \"labyrinthitis\".\n\nFacial nerve palsy sits here because the nerve runs through the temporal bone and several ear conditions affect it."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Mechanisms",
+          "body": "**Conductive hearing loss (CHL)**: sound fails to reach the cochlea. Causes: **wax**, otitis externa, foreign body, **perforation**, **OME**, AOM, cholesteatoma, and **otosclerosis** (fixation of the stapes footplate; young adults, often a family history, may worsen in pregnancy).\n\n**Sensorineural hearing loss (SNHL)**: damage to the cochlea or cochlear nerve.\n- **Presbycusis**: bilateral, symmetrical, high-frequency loss with age.\n- **Noise-induced**: characteristic dip (\"notch\") at **4 kHz** on audiometry; occupational noise and recreational exposure.\n- **Ototoxic drugs**: **aminoglycosides** (gentamicin), **cisplatin**, high-dose loop diuretics, high-dose aspirin (often reversible tinnitus).\n- **Sudden SNHL**: mostly idiopathic (viral or vascular theories). A minority are due to vestibular schwannoma, stroke or autoimmune disease.\n- **Vestibular schwannoma (acoustic neuroma)**: benign tumour of the vestibular nerve Schwann cells causing **unilateral** progressive SNHL and tinnitus; bilateral tumours suggest neurofibromatosis type 2.\n- **Congenital**: congenital CMV, genetic causes; detected by universal newborn hearing screening.\n\n**Vertigo** is an illusion of movement, usually rotational, from asymmetry between the two vestibular systems.\n- **BPPV**: otoconia (calcium carbonate crystals) dislodge into a semicircular canal, usually the **posterior** canal, so that head movement causes fluid to move abnormally.\n- **Vestibular neuritis**: presumed viral inflammation of the vestibular nerve; hearing is spared. **Labyrinthitis** involves the labyrinth, so hearing is also lost.\n- **Ménière disease**: endolymphatic hydrops producing attacks of vertigo with fluctuating hearing loss.\n- **Central vertigo**: posterior circulation stroke or TIA, vestibular migraine, multiple sclerosis, cerebellopontine angle tumours.\n\n**Bell palsy** is an idiopathic lower motor neurone facial palsy, probably due to viral (HSV) inflammation and swelling of the nerve in the narrow facial canal. **Ramsay Hunt syndrome** is varicella zoster reactivation in the geniculate ganglion."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Bedside assessment",
+          "body": "**Tuning fork tests (512 Hz):**\n\n| Finding | Conductive loss (left) | Sensorineural loss (left) |\n|---|---|---|\n| Rinne, left | **Negative**: bone louder than air | Positive: air louder than bone (both reduced) |\n| Weber | Lateralises **to the left** (affected) | Lateralises **to the right** (good ear) |\n\nA useful memory: Weber goes **toward** a conductive loss and **away** from a sensorineural loss.\n\n**SSNHL:** sudden (over less than 72 hours), usually unilateral hearing loss, often noticed on waking or on the phone, with tinnitus, aural fullness and sometimes vertigo. The ear looks **normal** on otoscopy, and Weber lateralises to the good ear. Patients and doctors often wrongly attribute it to wax or \"fluid\".\n\n**Vertigo patterns:**\n\n| Condition | Duration | Hearing | Key feature |\n|---|---|---|---|\n| BPPV | Seconds (under 1 minute) | Normal | Triggered by rolling over, looking up; **positive Dix-Hallpike** |\n| Vestibular neuritis | Continuous for days | Normal | Recent viral illness; unidirectional horizontal nystagmus; abnormal head impulse test |\n| Labyrinthitis | Days | **Lost** | As neuritis plus hearing loss |\n| Ménière disease | 20 minutes to 12 hours | **Fluctuating low-frequency SNHL** | Tinnitus and aural fullness; recurrent attacks |\n| Posterior circulation stroke | Continuous | Usually normal (can be lost in AICA stroke) | Vascular risk factors, inability to walk, other neurology, abnormal HINTS |\n\n**HINTS examination** (for a patient with acute continuous vertigo and nystagmus): a **normal head impulse test**, **direction-changing nystagmus**, or **skew deviation** on cover testing each suggest a **central** cause. Remember: an abnormal (corrective saccade) head impulse is reassuring because it means the peripheral nerve is the problem. Severe truncal ataxia (cannot sit or walk unaided) is also central.\n\n**Dix-Hallpike:** turning the head 45° to one side and lying the patient back quickly with the head hanging produces, after a short latency, **torsional upbeating nystagmus** that fatigues within a minute, with vertigo, when the undermost ear is affected.\n\n**Facial palsy:** a **lower motor neurone** lesion paralyses the **whole of one side** including the **forehead**. An **upper motor neurone** lesion (stroke) **spares the forehead** because it has bilateral cortical supply. Bell palsy comes on over hours to 2-3 days, sometimes with ear pain, hyperacusis and altered taste. **Ramsay Hunt**: vesicles in the ear canal or on the pinna, severe ear pain, and often SNHL or vertigo."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "- **Pure tone audiometry**: confirms type and severity of hearing loss; urgent in suspected SSNHL. SSNHL is usually defined as a loss of **at least 30 dB over 3 contiguous frequencies** developing within 72 hours.\n- **Tympanometry**: type B (flat) suggests middle ear fluid or perforation.\n- **MRI of the internal acoustic meati (with gadolinium)**: for **unilateral or asymmetric SNHL**, **unilateral tinnitus**, and after SSNHL, to exclude vestibular schwannoma.\n- **Acute vertigo**: bloods and ECG as needed; **urgent brain imaging (MRI preferred, CT angiography if MRI unavailable)** when HINTS suggests a central cause or there are neurological signs, a new severe headache, or inability to walk. A normal early CT does not exclude posterior fossa stroke.\n- **Bell palsy**: clinical diagnosis after excluding other causes on examination (ears, parotid, other cranial nerves, limbs). Check glucose in diabetics. Image if atypical: slowly progressive, recurrent on the same side, other cranial nerve involvement, or no recovery at 3-4 months (think parotid or skull base tumour)."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**SSNHL is an emergency.** Refer the same day or next day to ENT for audiometry and **high-dose oral corticosteroid (prednisolone)**, ideally started as soon as possible; benefit falls away if started beyond about 2 weeks. Intratympanic steroids are used as salvage. Arrange MRI.\n\n**Wax:** ceruminolytic drops (for example olive oil or sodium bicarbonate drops) for a few days, then irrigation or microsuction. **Do not syringe** with a known perforation, previous ear surgery, or active otitis externa.\n\n**Chronic hearing loss:** audiology and **hearing aids**. The Australian Government **Hearing Services Program** funds devices for eligible people (pensioners, veterans and others), and **Hearing Australia** provides services for children and young adults under 26 and First Nations people. Cochlear implants for severe to profound SNHL. Otosclerosis: hearing aid or stapedectomy. Protect hearing at work (state work health and safety noise regulations). Review ototoxic drugs; monitor gentamicin levels.\n\n**BPPV:** the **Epley manoeuvre** (canalith repositioning) cures most posterior canal BPPV at the first attempt; it can be repeated and patients can be taught home exercises. Vestibular suppressants are not needed.\n\n**Vestibular neuritis:** short course of antiemetic or vestibular suppressant (for example prochlorperazine) for the first days only, because prolonged use delays central compensation; early mobilisation and vestibular rehabilitation. Some clinicians give early corticosteroids.\n\n**Ménière disease:** acute attacks with vestibular suppressants; long term, low-salt diet, betahistine is commonly used though evidence is mixed, and ENT for refractory disease (intratympanic therapy).\n\n**Posterior circulation stroke:** stroke pathway, urgent imaging and consideration of reperfusion.\n\n**Driving:** vertigo, sudden hearing loss and stroke can affect fitness to drive. Advise the patient according to Austroads **Assessing Fitness to Drive**, and check its current criteria.\n\n**Bell palsy:**\n- **Oral prednisolone within 72 hours** of onset improves recovery.\n- **Eye protection** is essential: lubricating drops by day, ointment and taping the eye shut at night, sunglasses. Incomplete eye closure risks exposure keratitis.\n- Antivirals alone do not help; adding one to steroids may be considered in severe palsy.\n- About 70-85% recover fully, most within 3 months. Refer if not improving.\n\n**Ramsay Hunt:** prednisolone **plus an antiviral** (valaciclovir or famciclovir), analgesia, eye care and ENT review. Recovery is worse than Bell palsy."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- \"Woke up deaf in one ear, ear looks normal, Weber to the other side\": **SSNHL → urgent ENT for steroids**, not wax drops or antibiotics.\n- Unilateral tinnitus or asymmetric SNHL: **MRI IAM** for vestibular schwannoma.\n- Brief vertigo rolling over in bed: **BPPV → Dix-Hallpike then Epley**.\n- Days of vertigo after a cold, normal hearing, abnormal head impulse: **vestibular neuritis**.\n- Episodic vertigo lasting hours with fluctuating hearing and fullness: **Ménière**.\n- Older vasculopath with continuous vertigo, **normal head impulse** or direction-changing nystagmus, can't walk: **stroke**.\n- Forehead spared: **UMN (stroke)**, not Bell palsy. Vesicles in the ear canal: **Ramsay Hunt**, add antiviral.\n- Bell palsy question stems nearly always want **steroids within 72 hours plus eye protection**."
+        }
+      ],
+      "keyPoints": [
+        "Weber goes toward a conductive loss and away from a sensorineural loss; Rinne is negative in conductive loss.",
+        "Sudden sensorineural hearing loss is an emergency: urgent ENT, oral steroids, then MRI.",
+        "Unilateral SNHL or tinnitus needs MRI of the internal acoustic meati for vestibular schwannoma.",
+        "BPPV: seconds of positional vertigo, positive Dix-Hallpike, treated with the Epley manoeuvre.",
+        "In acute continuous vertigo, a normal head impulse test, direction-changing nystagmus or skew suggests stroke.",
+        "Ménière: attacks of 20 min to 12 h with fluctuating low-frequency hearing loss, tinnitus and fullness.",
+        "Bell palsy involves the forehead; give prednisolone within 72 hours and protect the eye."
+      ],
+      "redFlags": [
+        "Sudden hearing loss with a normal-looking ear",
+        "Unilateral progressive hearing loss or tinnitus",
+        "Acute vertigo with inability to walk, new headache, diplopia, dysarthria or limb signs",
+        "Normal head impulse test or direction-changing nystagmus in continuous vertigo",
+        "Facial weakness sparing the forehead, or with other cranial nerve or limb signs",
+        "Facial palsy that progresses slowly or fails to recover by 3-4 months"
+      ],
+      "contrast": [
+        {
+          "aspect": "Sudden unilateral hearing loss",
+          "india": "Often first treated as wax or Eustachian tube dysfunction with decongestants.",
+          "australia": "Treated as an emergency: same-day ENT or audiology, prompt oral steroids and MRI."
+        },
+        {
+          "aspect": "Hearing aids",
+          "india": "Mostly self-funded and taken up late.",
+          "australia": "Government Hearing Services Program and Hearing Australia fund devices for eligible groups, including children and First Nations people."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Weber result in left conductive hearing loss?",
+          "back": "Lateralises **to the left** (the affected ear)."
+        },
+        {
+          "front": "Urgent treatment of sudden sensorineural hearing loss?",
+          "back": "**High-dose oral corticosteroid** via urgent ENT referral, ideally within days."
+        },
+        {
+          "front": "Nystagmus on a positive Dix-Hallpike test?",
+          "back": "**Torsional upbeating** nystagmus after a short latency, fatiguing within a minute."
+        },
+        {
+          "front": "HINTS finding reassuring for a peripheral cause?",
+          "back": "An **abnormal head impulse test** (corrective saccade) with unidirectional nystagmus and no skew."
+        },
+        {
+          "front": "Bell palsy treatment window for prednisolone?",
+          "back": "**Within 72 hours** of onset, plus eye protection."
+        },
+        {
+          "front": "Classic audiogram finding in noise-induced hearing loss?",
+          "back": "A notch at **4 kHz**."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "ent--hearing-loss-vertigo-and-facial-palsy--q1",
+          "discipline": "adult-surgery",
+          "topic": "ent",
+          "difficulty": "core",
+          "stem": "A 46-year-old accountant presents to her GP in Canberra saying she woke up 2 days ago unable to hear from her right ear, with ringing and a blocked feeling. She has no pain, discharge or recent illness. Otoscopy shows normal ear canals and tympanic membranes. Weber test lateralises to the left and Rinne test is positive bilaterally.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Olive oil drops and review in 1 week",
+            "Pseudoephedrine and a nasal steroid spray",
+            "Urgent ENT referral for audiometry and oral corticosteroids",
+            "Oral amoxicillin for 5 days",
+            "Routine audiology referral in 6 weeks"
+          ],
+          "answer": 2,
+          "explanation": "Sudden unilateral hearing loss with **normal otoscopy**, Weber lateralising **away** from the affected ear and a **positive Rinne** (air conduction better than bone) indicates **sudden sensorineural hearing loss** of the right ear. It is an **otological emergency**: the chance of recovery improves when high-dose **oral corticosteroids** are started early, with benefit declining if treatment is delayed beyond about 2 weeks.\n\nShe needs urgent (same-day or next-day) ENT review and audiometry to confirm the loss, steroids, and an **MRI of the internal acoustic meati** to exclude vestibular schwannoma. Treating it as wax or Eustachian tube dysfunction is the classic trap that loses the treatment window.",
+          "whyWrong": [
+            "The canals are clear; wax treatment delays time-critical steroid therapy.",
+            "Decongestants treat Eustachian tube dysfunction, which causes conductive loss with Weber to the affected side.",
+            "",
+            "There is no infection, and antibiotics have no role in SSNHL.",
+            "Waiting 6 weeks loses the window for effective treatment."
+          ],
+          "tags": [
+            "hearing loss",
+            "ssnhl",
+            "emergency"
+          ],
+          "ausPearl": "In Australia SSNHL is commonly managed through ED or on-call ENT the same day; many GP guidelines explicitly warn against assuming Eustachian tube dysfunction."
+        },
+        {
+          "id": "ent--hearing-loss-vertigo-and-facial-palsy--q2",
+          "discipline": "adult-surgery",
+          "topic": "ent",
+          "difficulty": "foundation",
+          "stem": "A 62-year-old woman presents to her GP in Newcastle with 1 week of brief spinning episodes, each lasting about 20 seconds, when she rolls over in bed or looks up to hang washing. Between episodes she feels well. Hearing is normal and there are no neurological symptoms. On testing, turning her head to the right and lying her back quickly produces vertigo and torsional upbeating nystagmus after a few seconds, which settles within 30 seconds.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Epley manoeuvre",
+            "Prochlorperazine for 2 weeks",
+            "Betahistine and a low-salt diet",
+            "Urgent CT brain",
+            "Oral prednisolone"
+          ],
+          "answer": 0,
+          "explanation": "Brief (**seconds**) episodes of vertigo **triggered by head position** with normal hearing, and a **positive right Dix-Hallpike** (latency, torsional upbeating nystagmus, fatigue within a minute), is **benign paroxysmal positional vertigo** of the right posterior semicircular canal.\n\nThe treatment is the **Epley canalith repositioning manoeuvre**, which moves the otoconia out of the canal and cures most patients in one or two sessions. Patients can be taught home exercises for recurrences. Vestibular suppressants do not treat the cause and can slow compensation.",
+          "whyWrong": [
+            "",
+            "Vestibular suppressants do not fix BPPV and prolonged use delays compensation.",
+            "Betahistine and salt restriction are used for Ménière disease.",
+            "Classic BPPV with a typical Dix-Hallpike and no neurological features does not need imaging.",
+            "Steroids are used in SSNHL or vestibular neuritis, not BPPV."
+          ],
+          "tags": [
+            "vertigo",
+            "bppv"
+          ]
+        },
+        {
+          "id": "ent--hearing-loss-vertigo-and-facial-palsy--q3",
+          "discipline": "adult-surgery",
+          "topic": "ent",
+          "difficulty": "exam",
+          "stem": "A 71-year-old man with hypertension, type 2 diabetes and a 40 pack-year smoking history presents to an emergency department in Wollongong with 6 hours of continuous vertigo, nausea and vomiting. He cannot walk without falling. Hearing is normal. He has horizontal nystagmus beating to the left on left gaze and to the right on right gaze. The head impulse test is normal in both directions. CT brain is normal.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Vestibular neuritis",
+            "Benign paroxysmal positional vertigo",
+            "Ménière disease",
+            "Labyrinthitis",
+            "Posterior circulation stroke"
+          ],
+          "answer": 4,
+          "explanation": "In an **acute vestibular syndrome** (continuous vertigo, nystagmus, nausea), the **HINTS** examination separates peripheral from central causes. He has two central features: **direction-changing nystagmus** and a **normal head impulse test** (in vestibular neuritis the head impulse is abnormal, with a corrective saccade). Add **severe gait ataxia** and multiple vascular risk factors, and this is a **posterior circulation (cerebellar or brainstem) stroke** until proven otherwise.\n\nA normal CT does not exclude it, since CT is insensitive in the posterior fossa. He needs urgent **MRI (with diffusion-weighted imaging)** or CT angiography and the stroke team.",
+          "whyWrong": [
+            "Vestibular neuritis gives an abnormal head impulse and unidirectional nystagmus, and patients can usually walk.",
+            "BPPV causes brief positional episodes, not continuous vertigo.",
+            "Ménière attacks come with fluctuating hearing loss, tinnitus and fullness.",
+            "Labyrinthitis causes hearing loss and a peripheral HINTS pattern.",
+            ""
+          ],
+          "tags": [
+            "vertigo",
+            "hints",
+            "stroke"
+          ]
+        },
+        {
+          "id": "ent--hearing-loss-vertigo-and-facial-palsy--q4",
+          "discipline": "adult-surgery",
+          "topic": "ent",
+          "difficulty": "core",
+          "stem": "A 35-year-old man presents to a GP in Geelong with a day of drooping of the right side of his face. He noticed a dull ache behind his right ear yesterday and drinks now dribble from the right side of his mouth. He cannot wrinkle his right forehead or fully close his right eye. There are no vesicles in the ear or mouth, and the rest of the neurological examination is normal.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Aspirin and urgent CT brain",
+            "Oral valaciclovir alone",
+            "Reassurance only, since most recover",
+            "Oral prednisolone and eye protection",
+            "Referral for facial nerve decompression"
+          ],
+          "answer": 3,
+          "explanation": "Acute unilateral facial weakness **involving the forehead** is a **lower motor neurone** lesion. With post-auricular ache, no vesicles and an otherwise normal neurological examination, this is **Bell palsy**.\n\n**Oral prednisolone within 72 hours** of onset improves the rate of full recovery. **Eye protection** is equally important because he cannot close the eye: lubricating drops by day, ointment and taping at night, and sunglasses, to prevent exposure keratitis. Antivirals alone do not help (they may be added to steroids in severe cases). Refer if weakness progresses or there is no recovery by 3-4 months.",
+          "whyWrong": [
+            "Forehead involvement makes this a lower motor neurone lesion, not a stroke.",
+            "Antivirals alone are ineffective in Bell palsy; they are added in Ramsay Hunt.",
+            "Steroids within 72 hours improve outcomes and the eye needs protection.",
+            "",
+            "Surgical decompression has no routine role in Bell palsy."
+          ],
+          "tags": [
+            "bell palsy",
+            "facial nerve"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ent--neck-lumps-head-and-neck-cancer-and-stridor",
+      "title": "Neck lumps, head and neck cancer and stridor",
+      "minutes": 20,
+      "objectives": [
+        "Recognise the red flags for head and neck cancer and refer promptly",
+        "Work up an adult neck lump with ultrasound and fine needle aspiration rather than open biopsy",
+        "Differentiate congenital, inflammatory, salivary and malignant neck lumps by site and history",
+        "Assess stridor and manage upper airway emergencies including anaphylaxis and ACE inhibitor angioedema"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The picture in Australia",
+          "body": "Head and neck cancers are mostly **squamous cell carcinomas (SCC)** of the mouth, pharynx and larynx. In Australia the classic patient is an older man who smokes and drinks, but the fastest-growing group is **HPV-related oropharyngeal SCC** (tonsil and base of tongue) in younger, often non-smoking adults. Australia's high UV exposure also means **lip SCC** (usually the lower lip) and cutaneous SCC metastasising to parotid and neck nodes are common. Nasopharyngeal carcinoma is more common in people of southern Chinese and South-East Asian background, and oral cancer is associated with betel quid and chewing tobacco, relevant for migrant communities from South Asia.\n\nThe HPV vaccine, given to all adolescents through the National Immunisation Program, is expected to reduce oropharyngeal cancer over time.\n\nMost adult neck lumps are **reactive lymph nodes**, but a **persistent neck lump in an adult is malignant until proven otherwise**, and the way you investigate it matters."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Red flags and how neck lumps present",
+          "body": "**Head and neck cancer red flags** (refer promptly, typically to ENT or a head and neck clinic):\n- **Persistent hoarseness for more than 3 weeks**, especially in a smoker (laryngeal cancer; the vocal cord needs to be seen)\n- **Neck lump** persisting beyond about 3 weeks in an adult\n- **Unilateral ear pain with a normal ear** (referred otalgia via the glossopharyngeal or vagus nerve from the tonsil, tongue base, pharynx or larynx)\n- **Dysphagia or odynophagia**, persistent sore throat, especially unilateral\n- Non-healing mouth ulcer or red/white patch (erythroplakia, leukoplakia) beyond about 3 weeks\n- **Unilateral nasal obstruction or bloody discharge**\n- **Unilateral middle ear effusion in an adult** (nasopharyngeal carcinoma blocking the Eustachian tube)\n- Stridor, weight loss, haemoptysis, cranial nerve palsies\n\n**Neck lumps by site and age:**\n\n| Lump | Clues |\n|---|---|\n| Reactive lymph node | Recent URTI, tender, small, resolves within weeks |\n| **Thyroglossal duct cyst** | Midline, **moves up on tongue protrusion** and swallowing, child or young adult |\n| **Branchial cyst** | Anterior border of sternocleidomastoid, young adult, may enlarge with URTI; cholesterol crystals on aspiration. In an adult over about 40, a \"branchial cyst\" may be a cystic SCC metastasis (often HPV oropharyngeal) |\n| Cystic hygroma (lymphatic malformation) | Infant, posterior triangle, transilluminates |\n| Thyroid nodule | Midline or paramedian, moves on swallowing (not tongue protrusion) |\n| **Pleomorphic adenoma** | Slow-growing painless parotid lump, commonest salivary tumour |\n| Salivary malignancy | Rapid growth, pain, fixity, **facial nerve palsy** |\n| Submandibular stone (sialolithiasis) | Pain and swelling of the submandibular gland **on eating** |\n| Lymphoma | Rubbery, painless nodes, B symptoms (fever, night sweats, weight loss) |\n| Metastatic SCC | Hard, fixed, upper or mid jugular node in an older smoker or HPV-positive younger adult |\n| TB lymphadenitis | Migrant from high-prevalence country, matted nodes, possible sinus |\n\n**Stridor** is a harsh sound from turbulent flow through a narrowed upper airway. **Inspiratory** stridor suggests obstruction at or above the vocal cords; **expiratory** suggests intrathoracic tracheal obstruction; **biphasic** suggests subglottic or fixed tracheal narrowing. In adults the causes to think of are **anaphylaxis**, **angioedema** (especially on an ACE inhibitor), **epiglottitis**, deep neck infection, **foreign body**, laryngeal or tracheal tumour, bilateral vocal cord palsy (for example after thyroid surgery) and inhalational burns."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Working up a neck lump and hoarseness",
+          "body": "**Adult neck lump persisting beyond about 3 weeks:**\n1. **Full head and neck examination**, including oral cavity, oropharynx, ears, skin of the scalp and face (cutaneous SCC and melanoma metastasise to neck and parotid nodes), thyroid, and other node groups.\n2. **Ultrasound of the neck** with **ultrasound-guided fine needle aspiration (FNA)** (or core biopsy in selected cases, for example suspected lymphoma).\n3. Referral to ENT/head and neck surgery for **flexible nasendoscopy** to look for a primary.\n4. **CT or MRI** of the neck, and PET-CT for staging or an unknown primary; HPV (p16) testing on the tissue.\n\n**Do not perform an open excision biopsy of a suspicious neck node as the first step.** If the node is a metastatic SCC, open biopsy can seed tumour and compromise the definitive neck dissection or radiotherapy plan.\n\n**Hoarseness over 3 weeks:** direct visualisation of the larynx (flexible nasendoscopy by ENT). If the cause is a vocal cord palsy, image the course of the recurrent laryngeal nerve (CT from skull base to mediastinum) to look for lung apex, thyroid or mediastinal pathology.\n\n**Salivary lumps:** ultrasound and FNA; avoid open biopsy of a parotid lump (risk to the facial nerve and tumour spillage). Sialolithiasis: ultrasound or CT.\n\n**Stridor:** the diagnosis is clinical and treatment comes first. Once stable, nasendoscopy, CT neck and chest, and bronchoscopy as needed. Tryptase within a few hours helps confirm anaphylaxis retrospectively."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Telling the look-alikes apart",
+          "body": "| Presentation | Benign explanation | Sinister explanation | Discriminator |\n|---|---|---|---|\n| Hoarseness | Viral laryngitis, voice overuse, reflux, vocal nodules | Laryngeal SCC, recurrent laryngeal nerve palsy (lung, thyroid cancer) | Duration over 3 weeks, smoking, stridor, weight loss |\n| Earache | Otitis externa, AOM, TMJ dysfunction, dental | Referred pain from oropharyngeal or laryngeal cancer | Normal ear examination plus dysphagia or smoker |\n| Adult unilateral glue ear | Post-URTI Eustachian tube dysfunction | Nasopharyngeal carcinoma | Persistent, unilateral, adult, Asian background, neck node |\n| Lateral cystic neck lump | Branchial cyst | Cystic nodal metastasis from HPV oropharyngeal SCC | Age over 40, persistence, tonsil asymmetry |\n| Angioedema | Allergic (histamine) with urticaria | Bradykinin-mediated: ACE inhibitor, hereditary angioedema | No urticaria or itch, on ACE inhibitor, poor response to adrenaline |"
+        },
+        {
+          "kind": "management",
+          "heading": "Management and referral",
+          "body": "**Suspected head and neck cancer:** refer promptly to ENT or a head and neck surgical service; Cancer Council Australia's **Optimal Care Pathway** for head and neck cancers sets out expected timeframes and multidisciplinary team (MDT) care. Treatment is by an MDT (surgeon, radiation and medical oncologist, speech pathologist, dietitian, dentist, psychologist): surgery, radiotherapy or chemoradiotherapy depending on site and stage. HPV-positive oropharyngeal cancer has a better prognosis. **Smoking cessation** improves treatment outcomes and should be addressed at diagnosis. Pre-radiotherapy **dental assessment** reduces osteoradionecrosis risk. Long-term issues include dysphagia, dry mouth, hypothyroidism after neck radiotherapy, and psychological distress.\n\n**Benign lumps:** thyroglossal cyst is excised with the central part of the hyoid (Sistrunk procedure) to prevent recurrence; branchial cysts are excised after malignancy is excluded; pleomorphic adenoma is removed by superficial parotidectomy (it can become malignant and recurs if enucleated); submandibular stones are managed with hydration, sialogogues, massage, and stone or gland removal if recurrent.\n\n**Stridor and airway emergencies:**\n- Call for senior help (anaesthetics, ENT), keep the patient sitting upright, give oxygen, and avoid distressing them or instrumenting the throat.\n- **Anaphylaxis**: **IM adrenaline 0.5 mg (0.5 mL of 1:1000) into the anterolateral thigh** in adults, repeated every 5 minutes as needed, lie flat (or sit if breathing is difficult), IV fluids, and an adrenaline infusion if refractory, per the ASCIA guideline. Nebulised adrenaline can help upper airway oedema. Observe, and discharge with an adrenaline autoinjector, an ASCIA action plan and allergist referral.\n- **ACE inhibitor angioedema**: bradykinin-mediated, so adrenaline, antihistamines and steroids work poorly. Stop the ACE inhibitor permanently, protect the airway early (awake fibreoptic intubation may be needed), and consider specific therapy (icatibant or C1 esterase inhibitor) with specialist advice. It can occur years after starting the drug.\n- **Foreign body with complete obstruction**: basic life support choking algorithm (back blows, chest thrusts), then direct laryngoscopy and Magill forceps, or a surgical airway (cricothyroidotomy) as the last resort.\n- **Tumour causing stridor**: senior airway management, often awake tracheostomy under local anaesthetic."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Smoker with **hoarseness over 3 weeks**: the answer is **laryngoscopy (ENT referral)**, not antibiotics, PPIs or voice rest.\n- **Earache with a normal ear** in a smoker who drinks: referred otalgia from a pharyngeal or laryngeal cancer.\n- Hard neck node in an adult: **ultrasound-guided FNA** and ENT; **open excision biopsy is the wrong answer**.\n- Midline lump moving with **tongue protrusion**: thyroglossal cyst. Moving only with swallowing: thyroid.\n- Parotid lump with **facial weakness**: malignancy.\n- Swollen lips and tongue with no urticaria on **perindopril or ramipril**: ACE inhibitor angioedema; stop the drug, protect the airway.\n- Anaphylaxis: **IM adrenaline in the thigh first**, before antihistamines or steroids."
+        }
+      ],
+      "keyPoints": [
+        "Red flags: hoarseness over 3 weeks, persistent neck lump, unilateral otalgia with a normal ear, dysphagia, non-healing mouth ulcer.",
+        "HPV-related oropharyngeal SCC is rising in younger non-smokers; lip SCC reflects Australian UV exposure.",
+        "Adult neck lump: examine, ultrasound-guided FNA, nasendoscopy; avoid open excision biopsy first.",
+        "Thyroglossal cyst moves with tongue protrusion; thyroid moves with swallowing.",
+        "Parotid lump with facial nerve palsy suggests malignancy; pleomorphic adenoma is the commonest salivary tumour.",
+        "Anaphylaxis: IM adrenaline 0.5 mg (1:1000) into the thigh for adults, repeated every 5 minutes as needed.",
+        "ACE inhibitor angioedema is bradykinin-mediated and responds poorly to adrenaline; stop the drug and secure the airway."
+      ],
+      "redFlags": [
+        "Hoarseness persisting beyond 3 weeks",
+        "Adult neck lump persisting beyond 3 weeks, especially hard or fixed",
+        "Unilateral otalgia with normal otoscopy",
+        "Progressive dysphagia, odynophagia or weight loss",
+        "Unilateral middle ear effusion in an adult",
+        "Stridor, drooling or tongue and lip swelling",
+        "Facial nerve weakness with a parotid lump"
+      ],
+      "contrast": [
+        {
+          "aspect": "Typical head and neck cancer patient",
+          "india": "Oral cavity SCC linked to chewing tobacco, betel quid and gutka, often advanced at presentation.",
+          "australia": "Laryngeal and oral SCC in smokers and drinkers, rising HPV oropharyngeal SCC in younger adults, and UV-related lip SCC."
+        },
+        {
+          "aspect": "Tissue diagnosis of a neck node",
+          "india": "Excision biopsy of a node is often done early, including for suspected TB.",
+          "australia": "Ultrasound-guided FNA first and a search for a primary; open biopsy avoided until SCC is excluded."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Duration of hoarseness that warrants laryngoscopy?",
+          "back": "**More than 3 weeks**, sooner in smokers or with other red flags."
+        },
+        {
+          "front": "Midline neck lump that rises on tongue protrusion?",
+          "back": "**Thyroglossal duct cyst** (excised with the Sistrunk procedure)."
+        },
+        {
+          "front": "First-line tissue test for a persistent adult neck lump?",
+          "back": "**Ultrasound-guided fine needle aspiration**, not open excision biopsy."
+        },
+        {
+          "front": "Adult anaphylaxis adrenaline dose?",
+          "back": "**0.5 mg IM** (0.5 mL of 1:1000) into the anterolateral thigh, repeat every 5 minutes as needed."
+        },
+        {
+          "front": "Mechanism of ACE inhibitor angioedema?",
+          "back": "**Bradykinin** accumulation; responds poorly to adrenaline, antihistamines and steroids."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "ent--neck-lumps-head-and-neck-cancer-and-stridor--q1",
+          "discipline": "adult-surgery",
+          "topic": "ent",
+          "difficulty": "core",
+          "stem": "A 63-year-old man presents to his GP in Townsville with a hoarse voice for 6 weeks. He has smoked 30 cigarettes a day for 40 years and drinks 4-5 beers a day. He has no fever, cough or sore throat. He was given a course of amoxicillin by another doctor 3 weeks ago with no improvement. Neck examination is normal.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "A trial of a proton pump inhibitor for 8 weeks",
+            "Voice rest and review in 1 month",
+            "Referral to ENT for laryngoscopy",
+            "Chest X-ray only",
+            "A course of oral prednisolone"
+          ],
+          "answer": 2,
+          "explanation": "**Hoarseness persisting for more than 3 weeks**, especially in a **heavy smoker and drinker**, is a red flag for **laryngeal cancer** until proven otherwise. The vocal cords must be seen directly, so he needs **referral to ENT for flexible nasendoscopy/laryngoscopy**.\n\nReflux, voice overuse and viral laryngitis are common benign causes, but treating empirically in a high-risk patient delays the diagnosis. A chest X-ray is reasonable if a recurrent laryngeal nerve palsy from a lung apex tumour is suspected, but it does not replace laryngoscopy. The Optimal Care Pathway for head and neck cancers emphasises timely specialist referral.",
+          "whyWrong": [
+            "An empirical PPI trial in a high-risk smoker delays diagnosis of cancer.",
+            "Voice rest is inappropriate once hoarseness has lasted over 3 weeks with risk factors.",
+            "",
+            "A chest X-ray may be added but does not visualise the larynx.",
+            "Steroids could mask symptoms and do not establish a diagnosis."
+          ],
+          "tags": [
+            "head and neck cancer",
+            "hoarseness",
+            "red flags"
+          ]
+        },
+        {
+          "id": "ent--neck-lumps-head-and-neck-cancer-and-stridor--q2",
+          "discipline": "adult-surgery",
+          "topic": "ent",
+          "difficulty": "exam",
+          "stem": "A 52-year-old non-smoking man presents to his GP in Sydney with a painless lump in the left side of his neck that he noticed 5 weeks ago. It has not changed in size. Examination shows a 3 cm firm, mobile mass at the anterior border of the left sternocleidomastoid at the level of the hyoid. The left tonsil looks slightly larger than the right. He is otherwise well.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Reassure him that it is a branchial cyst and review in 3 months",
+            "A course of cefalexin and review in 2 weeks",
+            "Refer for excision biopsy of the lump",
+            "Ultrasound of the neck with fine needle aspiration and ENT referral",
+            "Thyroid function tests and a thyroid uptake scan"
+          ],
+          "answer": 3,
+          "explanation": "A persistent lateral neck lump in an adult over 40 is **malignant until proven otherwise**. A cystic or firm mass at the anterior border of sternocleidomastoid in a non-smoking middle-aged man, with **tonsillar asymmetry**, is classic for a nodal metastasis from **HPV-related oropharyngeal SCC**, which often masquerades as a branchial cyst.\n\nThe correct work-up is **ultrasound-guided FNA** plus **ENT referral for nasendoscopy** to find the primary, then cross-sectional imaging and p16/HPV testing. **Open excision biopsy is avoided** as a first step because it can seed tumour and compromise definitive neck treatment.",
+          "whyWrong": [
+            "Diagnosing a branchial cyst in a 52-year-old without tissue risks missing a metastasis.",
+            "The lump has persisted 5 weeks without infective features; antibiotics delay diagnosis.",
+            "Open biopsy first can seed an SCC and compromise definitive treatment.",
+            "",
+            "The mass is lateral and not thyroid in position; thyroid tests do not address it."
+          ],
+          "tags": [
+            "neck lump",
+            "hpv",
+            "oropharyngeal cancer"
+          ],
+          "ausPearl": "Australia's school-based HPV vaccination program covers boys and girls, partly to reduce future HPV-related oropharyngeal cancer."
+        },
+        {
+          "id": "ent--neck-lumps-head-and-neck-cancer-and-stridor--q3",
+          "discipline": "adult-surgery",
+          "topic": "ent",
+          "difficulty": "exam",
+          "stem": "A 66-year-old woman presents to an emergency department in Melbourne with 3 hours of progressive swelling of her lips and tongue. She has no itch, rash or wheeze. She takes perindopril for hypertension, which she has used for 4 years, and atorvastatin. She speaks in a thick voice but has no stridor. Heart rate is 88/min, blood pressure 150/90 mmHg, SpO2 97% on room air. She received IM adrenaline 0.5 mg on arrival with no improvement.\n\nWhat is the most likely mechanism of her presentation?",
+          "options": [
+            "IgE-mediated mast cell degranulation",
+            "Bradykinin accumulation from ACE inhibition",
+            "Immune complex deposition",
+            "Complement activation by statin therapy",
+            "Direct histamine release from atorvastatin"
+          ],
+          "answer": 1,
+          "explanation": "Angioedema of the lips and tongue **without urticaria, itch or wheeze** in a patient on an **ACE inhibitor** that fails to respond to adrenaline is **ACE inhibitor-induced angioedema**. ACE normally breaks down **bradykinin**; inhibiting it lets bradykinin accumulate, increasing vascular permeability. It can appear years after starting the drug.\n\nBecause it is not histamine-driven, adrenaline, antihistamines and corticosteroids work poorly. Management is to **stop the ACE inhibitor permanently**, monitor the airway closely with early senior anaesthetic and ENT involvement (intubation can become difficult quickly), and consider bradykinin-directed therapy such as icatibant or C1 esterase inhibitor with specialist advice. Angiotensin receptor blockers carry a small risk and should be used cautiously if at all afterwards.",
+          "whyWrong": [
+            "IgE-mediated reactions cause urticaria and itch and usually respond to adrenaline.",
+            "",
+            "Immune complex disease (type III) causes serum sickness or vasculitis, not isolated angioedema.",
+            "Statins are not a recognised cause of complement-mediated angioedema.",
+            "Atorvastatin does not cause direct histamine release."
+          ],
+          "tags": [
+            "angioedema",
+            "ace inhibitor",
+            "airway"
+          ]
+        }
+      ]
+    }
+  ]
+}

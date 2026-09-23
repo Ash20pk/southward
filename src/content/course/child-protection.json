@@ -1,0 +1,891 @@
+{
+  "topic": "child-protection",
+  "intro": "Child protection covers recognising physical abuse, investigating suspected abuse, the doctor's legal duty as a mandatory reporter, neglect, emotional abuse and family violence, and child sexual abuse and female genital mutilation. The AMC tests it because missing abuse can be fatal, and Australian law, reporting thresholds and cultural context (including the Stolen Generations) differ from Indian practice under POCSO.",
+  "lessons": [
+    {
+      "id": "child-protection--recognising-physical-abuse",
+      "title": "Recognising physical abuse",
+      "minutes": 16,
+      "objectives": [
+        "Identify red flags in the history that suggest non-accidental injury",
+        "Apply TEN-4-FACESp and the 'those who don't cruise rarely bruise' principle to bruising",
+        "Recognise fracture patterns, burns and head injuries that are highly suspicious of abuse",
+        "Distinguish abuse from its mimics, such as congenital dermal melanocytosis, bleeding disorders and osteogenesis imperfecta"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why this matters",
+          "body": "Child maltreatment is common in Australia. The **Australian Child Maltreatment Study (2023)** found that about **6 in 10 Australians** had experienced at least one form of maltreatment in childhood (physical, sexual or emotional abuse, neglect, or exposure to domestic violence), and many experienced more than one. Most abuse is never reported at the time.\n\nPhysical abuse kills and disables young children, especially **infants**, and it often escalates. Many children who die from abuse had an earlier, minor, \"**sentinel injury**\" (a small bruise or mouth injury in a baby) that was seen by a health professional and not recognised. The AMC expects you to spot these patterns and act on them. **Always ask whether the injury fits the history and the child's developmental stage.**"
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Red flags in the history and examination",
+          "body": "**History**\n- **No explanation**, or a vague one, for a significant injury\n- **Explanation inconsistent with the injury** (a fall from a couch causing multiple fractures) or with the **child's development** (a 3-month-old who \"rolled off the bed and hit the cot\" cannot generate much force; a non-mobile baby cannot climb into a hot bath)\n- **Changing stories**, or different accounts from different carers\n- **Delay in seeking care** without good reason\n- The child is blamed (\"he did it to himself\") or a sibling is blamed implausibly\n- Repeated presentations with injuries, or to different hospitals\n- Carer's reaction inappropriate to the seriousness (lack of concern, hostility)\n- Known risk factors: family violence, parental substance misuse, mental illness, previous child protection involvement, social isolation, young or unsupported parents, a non-biological adult male partner in the home. **Risk factors raise concern but their absence does not exclude abuse**; abuse occurs across all social groups.\n\n**Examination**: undress the child fully and examine **everywhere**, including the scalp, ears, mouth (**torn frenulum** in an infant), genitals and soles. Measure and plot **growth and head circumference**. Observe the child's interaction with carers."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Bruising: TEN-4-FACESp",
+          "body": "Normal bruises in mobile children occur over **bony prominences at the front of the body**: shins, knees, forehead, elbows. **\"Those who don't cruise rarely bruise\"**: bruising in a baby who is not yet pulling to stand and cruising is unusual and must be explained.\n\nThe **TEN-4-FACESp** bruising clinical decision rule (validated in the US and widely taught in Australia) flags bruising that warrants evaluation for abuse:\n\n- **T**orso (chest, abdomen, back, buttocks, genitourinary area)\n- **E**ars\n- **N**eck\n- **4**: in a child **under 4 years**, **and any bruising anywhere in an infant 4 months of age or younger**\n- **F**renulum (torn), **A**ngle of jaw, **C**heeks (fleshy part), **E**yelids, **S**ubconjunctival haemorrhage\n- **p**: **patterned** bruising (hand or finger marks, loop marks from cords, belt buckle, bite marks)\n\nOther concerning features: **multiple bruises in clusters**, bruises of different ages in unusual sites, petechiae on the face or neck (strangulation), and bruising on the soft areas (thighs, upper arms).\n\n**Do not try to age bruises by colour**: the evidence shows bruise colour cannot reliably tell when an injury happened."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Fractures, burns and head injuries",
+          "body": "**Fractures** (radiology specificity for abuse)\n\n| Specificity | Examples |\n|---|---|\n| **High** | **Classic metaphyseal lesions** (\"corner\" or \"bucket-handle\" fractures from shaking or pulling limbs), **posterior rib fractures** (squeezing the chest), scapular, spinous process and sternal fractures |\n| **Moderate** | Multiple fractures (especially bilateral), fractures of **different ages**, vertebral body fractures, digital fractures in non-mobile infants, complex skull fractures |\n| **Low (common accidentally)** | Clavicle, long-bone shaft, linear skull fracture, **toddler's fracture** (spiral tibial fracture in a walking toddler) |\n\n**Any fracture in a non-mobile infant** needs explanation; a femoral fracture in a baby who cannot walk is highly concerning.\n\n**Burns**\n- **Immersion (scald) burns**: sharply demarcated \"**glove and stocking**\" distribution, symmetrical, with **sparing of flexural creases** (child held flexed) and \"doughnut\" sparing of the buttocks pressed against the bath floor. Accidental spills instead cause irregular, splash-pattern burns, often on the face, chest and arms of a toddler pulling down a cup.\n- **Contact burns** with a recognisable shape (iron, heater grill) on sites not usually touched accidentally.\n- **Cigarette burns**: round, 8-10 mm, punched-out, often multiple.\n\n**Abusive head trauma (AHT)**: the leading cause of death from physical abuse, mostly in **infants under 1 year**, often from shaking with or without impact. Presentations are frequently non-specific: **irritability, vomiting, poor feeding, lethargy, apnoea, seizures**, or an enlarging head circumference, often **without external injury**. Key findings: **subdural haematomas** (sometimes of different ages), **extensive multilayered retinal haemorrhages** extending to the periphery, and encephalopathy, often with rib or metaphyseal fractures. Prolonged crying is the common trigger, which is why Australian parents are taught about normal infant crying and \"never shake a baby\".\n\n**Abdominal injury** (liver, duodenal haematoma, pancreatic injury) can occur without external bruising."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Mimics of abuse",
+          "body": "| Mimic | Distinguishing features |\n|---|---|\n| **Congenital dermal melanocytosis** (Mongolian spots) | Blue-grey, flat, well-demarcated, usually over the sacrum and buttocks; present from birth or early infancy; **do not change over days**, are not tender, no swelling. Common in Aboriginal, Asian, African and South Asian babies. **Document them at newborn checks** |\n| **Bleeding disorders** (haemophilia, von Willebrand disease, ITP, vitamin K deficiency bleeding) | Family history, bleeding elsewhere, abnormal coagulation or platelets. Note: abuse and a bleeding disorder can coexist |\n| **Osteogenesis imperfecta** | Blue or grey sclerae (some types), dentinogenesis imperfecta, family history, **wormian bones**, osteopenia, hearing loss |\n| **Rickets, metabolic bone disease of prematurity** | Low vitamin D, high ALP, radiological changes |\n| **Birth trauma** | Clavicle fracture or scalp swelling in the first days to weeks |\n| **Henoch-Schonlein purpura** | Palpable purpura on buttocks and legs, arthralgia, abdominal pain |\n| **Cultural practices** (coining, cupping) | Linear or circular marks with a consistent explanation; discuss respectfully |\n| **Phytophotodermatitis** | Lime or fig juice plus sunlight, odd streaky \"burns\" |\n| **Impetigo** | Crusted lesions mistaken for cigarette burns; they spread and respond to antibiotics |\n| **Accidental injury** | Plausible history consistent with development, prompt presentation, typical sites |\n\nMimics need to be **actively excluded, not assumed**. A child with an apparent mimic can still be abused."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- **Any bruise in a non-mobile baby** (or under 4 months): take it seriously, even if tiny.\n- A 3-month-old with a torn frenulum \"from the bottle\": **sentinel injury**.\n- The history does not match the development or injury: **suspect abuse**.\n- Posterior rib fractures and metaphyseal corner fractures: **highly specific** for abuse.\n- Sharply demarcated symmetrical scalds on both feet: **immersion injury**.\n- Irritable, vomiting infant with no external injury and a bulging fontanelle: consider **AHT**.\n- Blue-grey sacral patch unchanged since birth: **congenital dermal melanocytosis**; document and reassure.\n- Do not age bruises by colour."
+        }
+      ],
+      "keyPoints": [
+        "Always ask whether the injury fits the history and the child's developmental stage.",
+        "Sentinel injuries (small bruise, torn frenulum in a baby) often precede severe abuse.",
+        "TEN-4-FACESp: bruising to torso, ears or neck under 4 years, any bruise at 4 months or younger, facial sites, or patterned bruising.",
+        "Posterior rib fractures and classic metaphyseal lesions are highly specific for abuse.",
+        "Immersion burns: glove and stocking, symmetrical, sharp margins, sparing flexures.",
+        "Abusive head trauma: subdural haematoma, retinal haemorrhages, encephalopathy, often no external injury.",
+        "Exclude mimics actively; bruise colour cannot date an injury."
+      ],
+      "redFlags": [
+        "Any bruise in a non-mobile infant",
+        "Injury inconsistent with history or development",
+        "Delay in presentation or changing stories",
+        "Torn frenulum in an infant",
+        "Fractures of different ages or posterior rib fractures",
+        "Irritable, vomiting infant with a bulging fontanelle or seizures"
+      ],
+      "contrast": [
+        {
+          "aspect": "Recognising physical abuse",
+          "india": "Often recognised only when injuries are severe; limited formal teaching.",
+          "australia": "Sentinel injuries and TEN-4-FACESp taught; any bruise in a non-mobile infant triggers assessment."
+        },
+        {
+          "aspect": "Physical punishment",
+          "india": "Corporal punishment is widely accepted socially, though legally restricted in schools.",
+          "australia": "Physical discipline causing injury is abuse; bruises from 'discipline' are reportable."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "What does TEN-4-FACESp stand for?",
+          "back": "Torso, Ears, Neck bruising under 4 years; any bruise at 4 months or younger; Frenulum, Angle of jaw, Cheeks, Eyelids, Subconjunctivae; patterned bruising."
+        },
+        {
+          "front": "Two fracture types highly specific for abuse?",
+          "back": "Classic metaphyseal lesions and posterior rib fractures."
+        },
+        {
+          "front": "Burn pattern suggestive of forced immersion?",
+          "back": "Symmetrical glove-and-stocking scald with sharp margins and sparing of flexures."
+        },
+        {
+          "front": "Classic triad in abusive head trauma?",
+          "back": "Subdural haematoma, retinal haemorrhages, encephalopathy."
+        },
+        {
+          "front": "Can bruises be aged by colour?",
+          "back": "No; colour does not reliably indicate the age of a bruise."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "child-protection--recognising-physical-abuse--q1",
+          "discipline": "child-health",
+          "topic": "child-protection",
+          "difficulty": "foundation",
+          "stem": "A 3-month-old girl is brought to a GP for a routine vaccination. The GP notices a 1 cm bruise on her left cheek. Her mother says her 4-year-old brother may have 'poked her'. The baby is otherwise well, feeding and growing normally, and cannot yet roll over. What is the most appropriate next step?",
+          "options": [
+            "Accept the explanation, vaccinate and review at the next routine visit",
+            "Arrange same-day paediatric assessment for possible abuse and consult the child protection service",
+            "Order a coagulation screen and review in a week",
+            "Advise the parents to supervise the sibling more closely",
+            "Photograph the bruise and file it in the notes only"
+          ],
+          "answer": 1,
+          "explanation": "**Any bruise in a non-mobile infant**, and **any bruising in an infant 4 months or younger** (the \"4\" in TEN-4-FACESp), is a potential **sentinel injury**. Many infants who later suffer severe or fatal abuse had a small, earlier bruise that was not acted on. The cheek is also a FACES site.\n\nThe explanation (a sibling) may be true, but it cannot be accepted without assessment. She needs **same-day paediatric assessment** (full examination, and usually skeletal survey, head imaging and bloods for coagulation), and the doctor should consider their **mandatory reporting** obligation, consulting the local child protection unit if unsure.",
+          "whyWrong": [
+            "A bruise in a non-mobile infant cannot be dismissed; this is how sentinel injuries are missed.",
+            "",
+            "A coagulation screen is part of the workup, but a week's delay risks further harm.",
+            "Blaming the sibling without assessment accepts an unverified explanation.",
+            "Documentation is necessary but not sufficient; she needs assessment."
+          ],
+          "tags": [
+            "sentinel injury",
+            "bruising",
+            "infant"
+          ]
+        },
+        {
+          "id": "child-protection--recognising-physical-abuse--q2",
+          "discipline": "child-health",
+          "topic": "child-protection",
+          "difficulty": "core",
+          "stem": "A 20-month-old boy has a spiral fracture of the distal tibia on X-ray. His mother says he twisted his leg when he tripped at the park yesterday and has been limping and refusing to weight-bear since. He walked from 12 months. There are no other injuries on full examination, and his growth and development are normal. What is the most likely explanation?",
+          "options": [
+            "Toddler's fracture from an accidental twisting fall",
+            "Non-accidental injury requiring immediate removal from the parents",
+            "Osteogenesis imperfecta",
+            "Osteomyelitis",
+            "Rickets"
+          ],
+          "answer": 0,
+          "explanation": "A **toddler's fracture** is a spiral or oblique fracture of the distal tibia in a **walking** toddler after a twisting fall, often with minimal trauma. It is a common **accidental** injury, and the history here is **consistent with his development** and prompt presentation, with no other injuries.\n\nThe principle is not \"all fractures are abuse\" but **\"does the injury fit the history and developmental stage?\"** The same fracture in a non-ambulant infant would be very concerning. Fractures with low specificity for abuse include long-bone shaft fractures in mobile children, clavicle fractures and toddler's fractures.",
+          "whyWrong": [
+            "",
+            "A plausible, consistent history in a walking toddler with a typical accidental fracture doesn't suggest abuse.",
+            "There are no features of OI such as blue sclerae or multiple fractures.",
+            "Osteomyelitis gives fever and bone tenderness without a fracture line.",
+            "Nothing suggests rickets; growth is normal."
+          ],
+          "tags": [
+            "toddler fracture",
+            "accidental injury",
+            "development"
+          ]
+        },
+        {
+          "id": "child-protection--recognising-physical-abuse--q3",
+          "discipline": "child-health",
+          "topic": "child-protection",
+          "difficulty": "exam",
+          "stem": "A 4-month-old boy is brought to the emergency department with 2 days of vomiting and irritability, and a brief seizure today. He is afebrile. The anterior fontanelle is bulging. There are no bruises or external injuries. His father says he 'has been unsettled and crying a lot'. CT head shows bilateral subdural haematomas of different densities. What additional finding would most strongly support abusive head trauma?",
+          "options": [
+            "A single blue-grey patch over the sacrum present since birth",
+            "A family history of migraine",
+            "A mildly raised white cell count",
+            "A positive urine culture",
+            "Extensive multilayered retinal haemorrhages extending to the periphery"
+          ],
+          "answer": 4,
+          "explanation": "An infant with **non-specific symptoms** (vomiting, irritability, seizure), no external injury and **subdural haematomas of different ages** is highly suspicious for **abusive head trauma**. **Extensive, multilayered retinal haemorrhages extending to the periphery** strongly support AHT (they are uncommon in accidental head injury and after birth resolve within weeks).\n\nWorkup includes dilated fundoscopy by an ophthalmologist, skeletal survey, MRI brain and spine, coagulation studies, and metabolic tests where indicated (for example glutaric aciduria type 1). The child protection team and mandatory report are required. Crying is a common trigger for shaking.",
+          "whyWrong": [
+            "Congenital dermal melanocytosis is a normal finding, unrelated to abuse.",
+            "Family history of migraine is irrelevant here.",
+            "A mildly raised white cell count is non-specific.",
+            "A UTI doesn't cause subdural haematomas.",
+            ""
+          ],
+          "tags": [
+            "abusive head trauma",
+            "retinal haemorrhage",
+            "subdural"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "child-protection--investigating-suspected-abuse",
+      "title": "Investigating suspected physical abuse",
+      "minutes": 14,
+      "objectives": [
+        "Plan the medical workup of suspected physical abuse in an infant or young child",
+        "Know the indications for skeletal survey, head imaging, ophthalmology and blood tests",
+        "Document injuries and histories in a way that stands up to legal scrutiny",
+        "Keep the child safe during assessment, including siblings"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Principles",
+          "body": "When physical abuse is suspected, the medical role is to **assess and treat the child, look for further injuries, exclude medical explanations, document carefully and keep the child safe**. It is **not** the doctor's role to prove abuse or identify the perpetrator: that belongs to the statutory child protection agency and police.\n\nIn Australia, suspected abuse in young children is managed **under paediatric care**, usually with admission to hospital, involving the hospital's **child protection unit** (names vary: for example the Victorian Forensic Paediatric Medical Service, NSW Child Protection Units, Queensland child protection liaison). A GP or ED doctor who suspects abuse should discuss the child with the on-call paediatrician and child protection service, and **make a report** where the legal threshold is met."
+        },
+        {
+          "kind": "investigations",
+          "heading": "The standard workup",
+          "body": "**Skeletal survey**\n- Indicated for **all children under 2 years** with suspected physical abuse, and considered in children aged 2-3 years depending on the circumstances. Older children can communicate and localise pain, so imaging is targeted.\n- A full series of dedicated views (not a \"babygram\"), reported by a paediatric radiologist.\n- A **follow-up limited skeletal survey at about 2 weeks** shows healing fractures (callus) not visible initially, such as rib and metaphyseal fractures, and helps with dating.\n\n**Neuroimaging**\n- **CT head** for infants under 1 year with suspected physical abuse (occult intracranial injury is common even without neurological signs), and for any child with neurological signs.\n- **MRI brain and spine** gives more detail (ages of blood, hypoxic injury, spinal subdural blood).\n\n**Ophthalmology**: **dilated fundoscopy by an ophthalmologist** for suspected abusive head trauma, intracranial injury, and usually children under 2 with suspected abuse, looking for retinal haemorrhages.\n\n**Blood and urine tests** (to identify injuries and exclude mimics):\n- **FBC and film, coagulation studies** (PT, APTT, fibrinogen), and further tests for von Willebrand disease and factor levels as advised by haematology, in children with bruising or bleeding.\n- **Calcium, phosphate, ALP, vitamin D (25-OH), PTH** for fractures (bone health).\n- **LFTs and lipase**: raised transaminases may indicate occult liver injury, which prompts abdominal CT.\n- **Urinalysis** for haematuria (renal injury).\n- **Toxicology** where there is altered consciousness or unexplained presentation.\n- Metabolic or genetic tests where indicated (for example glutaric aciduria type 1 with subdurals; collagen studies for suspected osteogenesis imperfecta).\n\n**Siblings and other children in the home**: they may also be at risk. **Twins and siblings under 2** are usually examined and often have skeletal surveys; child protection services coordinate this."
+        },
+        {
+          "kind": "application",
+          "heading": "History-taking and documentation",
+          "body": "Your notes may become legal evidence. Good documentation protects the child and you.\n\n**History**\n- Take the history from each carer **separately where possible**, in an open, non-judgemental way. Ask about the mechanism, timing, who was present, what happened next, and why and when care was sought.\n- Record the account **verbatim**, in quotation marks, with who said it and when.\n- Use **open questions**; avoid leading questions (\"Did Dad hit you?\"). If an older child speaks, let them talk and record their exact words, but leave formal forensic interviewing to trained police and child protection interviewers.\n- Social history: household members, carers, family violence, substance use, mental health, supports, previous involvement with child protection.\n\n**Examination and records**\n- Describe each injury: site, size (measured with a ruler), shape, colour, and pattern. **Do not estimate age from colour.**\n- Use **body maps**, and arrange **clinical photographs** according to hospital policy (with a scale).\n- Record growth and head circumference on centile charts.\n- Record the child's demeanour and interaction with carers objectively.\n- Distinguish clearly between what you **observed**, what you were **told**, and your **opinion**.\n- Date, time and sign all entries. Do not alter notes later; add dated addenda."
+        },
+        {
+          "kind": "management",
+          "heading": "Keeping the child safe",
+          "body": "- **Treat the injuries** first; medical stability comes before investigations.\n- **Admit to hospital** when abuse is suspected in a young child: it allows investigations and provides a **place of safety** while child protection assesses the situation.\n- **Report to the statutory child protection agency** as soon as practicable when the reporting threshold is met (see the reporting lesson), and to **police** if the child is in immediate danger or a serious crime is suspected.\n- Explain to the parents what investigations are being done and why, in neutral terms (\"we do these tests for any baby with an injury like this\"), unless doing so would put the child or others at risk.\n- If carers try to remove a child who is at risk from hospital, **contact police and child protection** urgently; statutory agencies have emergency powers (varying by state). Hospital security and senior staff should be involved.\n- **Consent**: parents usually consent to medical investigations. Where they refuse and the child is at risk, child protection agencies or courts can authorise assessment. Emergency treatment can always proceed.\n- Consider other children in the home, and communicate with the GP and maternal and child health nurse where appropriate (information-sharing laws allow this in many states).\n- Look after yourself and your team: these cases are distressing. Seek supervision and debriefing."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Suspected abuse in a child under 2: **skeletal survey** (repeat limited survey at about 2 weeks).\n- Infant under 1 with suspected abuse: **CT head** even without neurological signs, plus ophthalmology.\n- Bruising: exclude a bleeding disorder with **FBC and coagulation studies**.\n- Raised transaminases in a bruised toddler: look for **abdominal injury** (CT).\n- Best next step when abuse is suspected in a young child: **admit under paediatrics** and involve child protection, not \"discharge and review next week\".\n- Siblings, especially **twins**, need assessment too.\n- Documentation: **verbatim quotes, measurements, body maps, no ageing by colour**."
+        }
+      ],
+      "keyPoints": [
+        "The doctor's role is to assess, treat, investigate, document and protect, not to prove abuse.",
+        "Skeletal survey for all children under 2 with suspected physical abuse; repeat limited survey at about 2 weeks.",
+        "CT head for infants under 1 year with suspected abuse; dilated fundoscopy by an ophthalmologist.",
+        "Bloods: FBC, coagulation, bone profile with vitamin D; LFTs and lipase for occult abdominal injury; urinalysis.",
+        "Document verbatim accounts, measurements, body maps and photographs; separate observation from opinion.",
+        "Admit young children with suspected abuse as a place of safety; report to child protection.",
+        "Assess siblings, particularly twins and children under 2."
+      ],
+      "redFlags": [
+        "Parents attempting to remove an at-risk child from hospital",
+        "Raised transaminases or lipase without explanation",
+        "Healing fractures on follow-up skeletal survey",
+        "Siblings under 2 in the same household"
+      ],
+      "contrast": [
+        {
+          "aspect": "Who assesses suspected abuse",
+          "india": "Usually the treating paediatrician or forensic medicine department, often with police-led medicolegal processes.",
+          "australia": "Hospital child protection units work with statutory child protection agencies; police investigate crimes."
+        },
+        {
+          "aspect": "Standard imaging",
+          "india": "Skeletal survey availability varies by centre.",
+          "australia": "Skeletal survey for all under-2s with suspected abuse, repeat at about 2 weeks, CT head under 1 year."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Age at which skeletal survey is indicated for all children with suspected physical abuse?",
+          "back": "Under 2 years."
+        },
+        {
+          "front": "When is a follow-up skeletal survey done?",
+          "back": "About 2 weeks after the first, to detect healing fractures."
+        },
+        {
+          "front": "Which infants need CT head when abuse is suspected?",
+          "back": "All infants under 1 year, and any child with neurological signs."
+        },
+        {
+          "front": "Blood test that suggests occult abdominal injury in suspected abuse?",
+          "back": "Raised transaminases (and lipase), prompting abdominal CT."
+        },
+        {
+          "front": "Who should examine the fundi in suspected abusive head trauma?",
+          "back": "An ophthalmologist, with dilated fundoscopy."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "child-protection--investigating-suspected-abuse--q1",
+          "discipline": "child-health",
+          "topic": "child-protection",
+          "difficulty": "foundation",
+          "stem": "A 5-month-old boy presents with a swollen left thigh. X-ray shows a mid-shaft femoral fracture. His parents say his leg got caught in the cot bars. He is not yet rolling. He is otherwise well. After analgesia and splinting, which investigation is most important next?",
+          "options": [
+            "Bone densitometry (DEXA) scan",
+            "MRI of the left thigh",
+            "Skeletal survey",
+            "Serum ferritin",
+            "Abdominal ultrasound"
+          ],
+          "answer": 2,
+          "explanation": "A **femoral fracture in a non-mobile infant** is highly concerning for **physical abuse**; the mechanism described is unlikely to generate enough force. All children **under 2** with suspected physical abuse need a **skeletal survey** to look for occult fractures (such as posterior rib fractures and metaphyseal lesions), repeated in about 2 weeks.\n\nHe also needs **CT head** (under 1 year), ophthalmology review, FBC, coagulation and bone profile (calcium, phosphate, ALP, vitamin D, PTH), LFTs and lipase, and urinalysis. He should be admitted under paediatrics with child protection involvement, and a report made.",
+          "whyWrong": [
+            "DEXA is not a first-line test and does not look for other fractures.",
+            "MRI of the thigh adds little; the priority is finding other injuries.",
+            "",
+            "Ferritin is irrelevant to this presentation.",
+            "Abdominal ultrasound isn't the priority; LFTs and lipase screen for abdominal injury."
+          ],
+          "tags": [
+            "skeletal survey",
+            "femur fracture",
+            "infant"
+          ]
+        },
+        {
+          "id": "child-protection--investigating-suspected-abuse--q2",
+          "discipline": "child-health",
+          "topic": "child-protection",
+          "difficulty": "core",
+          "stem": "An 18-month-old girl is admitted with multiple bruises on her back and buttocks. Her mother's partner says she 'fell down the stairs'. Bloods show AST 420 U/L and ALT 510 U/L (both markedly raised). She is haemodynamically stable with a soft abdomen. What is the most appropriate next investigation?",
+          "options": [
+            "Hepatitis serology and repeat LFTs in 2 weeks",
+            "Liver biopsy",
+            "Abdominal ultrasound only",
+            "Contrast-enhanced CT of the abdomen",
+            "Discharge with GP follow-up"
+          ],
+          "answer": 3,
+          "explanation": "Raised transaminases in a young child with suspected physical abuse suggest **occult abdominal injury** (liver laceration) even when the abdomen is soft and there is no abdominal bruising. The recommended investigation is a **contrast-enhanced CT abdomen**, which also shows pancreatic, duodenal, splenic and renal injuries.\n\nBruising to the back and buttocks (the **torso** in TEN-4-FACESp) with a questionable explanation, plus liver injury, means she needs the full workup (skeletal survey, CT head consideration, ophthalmology, coagulation) and a report to child protection.",
+          "whyWrong": [
+            "Assuming hepatitis delays diagnosis of a potentially serious liver injury.",
+            "Biopsy is invasive and not indicated.",
+            "Ultrasound can miss solid organ and hollow viscus injuries; CT is preferred.",
+            "",
+            "Discharge would leave a potentially abused child with an injury unassessed."
+          ],
+          "tags": [
+            "abdominal injury",
+            "transaminases",
+            "investigations"
+          ]
+        },
+        {
+          "id": "child-protection--investigating-suspected-abuse--q3",
+          "discipline": "child-health",
+          "topic": "child-protection",
+          "difficulty": "exam",
+          "stem": "A doctor is documenting the assessment of a 2-year-old with suspected non-accidental injury. Which of the following entries is most appropriate?",
+          "options": [
+            "\"Bruise on left cheek, yellow-green, about 5 days old.\"",
+            "\"Father clearly lying about the fall; obviously abused.\"",
+            "\"Mother states: 'He fell off the couch onto the tiles at about 7 pm.' 3 x 2 cm purple bruise over left cheek, not over a bony prominence. See body map and photographs.\"",
+            "\"Multiple injuries, see previous notes.\"",
+            "\"Child says Dad hit him (asked: did Dad hit you?).\""
+          ],
+          "answer": 2,
+          "explanation": "Good child protection documentation records **who said what, verbatim and in quotation marks**, with times, and describes injuries **objectively** (site, measured size, colour, shape), with **body maps and photographs**. It separates observation from interpretation.\n\n**Bruise colour cannot reliably age an injury**, so estimates like \"5 days old\" should not be written. Opinions about lying or guilt are not the clinician's role in the notes. Vague entries are useless as evidence. **Leading questions** contaminate a child's account and may undermine a later investigation: use open prompts and leave formal interviews to trained investigators.",
+          "whyWrong": [
+            "Bruise colour doesn't reliably indicate age.",
+            "Speculating about guilt is inappropriate; record facts.",
+            "",
+            "Every injury must be described specifically.",
+            "A leading question contaminates the child's account."
+          ],
+          "tags": [
+            "documentation",
+            "medicolegal",
+            "history"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "child-protection--mandatory-reporting-and-law",
+      "title": "Mandatory reporting and the law",
+      "minutes": 15,
+      "objectives": [
+        "State the doctor's legal duty to report suspected child abuse and neglect in Australia",
+        "Explain the reporting threshold, good-faith protection and how confidentiality applies",
+        "Decide when and how to talk to parents, and when not to warn them",
+        "Apply cultural safety for Aboriginal and Torres Strait Islander families without compromising the child's safety"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The duty",
+          "body": "**Doctors are mandatory reporters in every Australian state and territory.** When a doctor, in the course of their professional work, forms a **reasonable belief or suspicion** that a child has been, or is at risk of being, abused or neglected, they must report it to the **state or territory child protection agency** (for example the Department of Communities and Justice in NSW via the Child Protection Helpline, the Department of Families, Fairness and Housing in Victoria, Child Safety in Queensland).\n\nThe exact legislation differs by jurisdiction:\n- **What must be reported** (physical and sexual abuse everywhere; neglect, emotional abuse and exposure to family violence in most, but not all, jurisdictions).\n- **The threshold wording** (\"reasonable grounds to suspect\", \"belief on reasonable grounds\", \"risk of significant harm\").\n- **Who is a mandatory reporter** (in the **Northern Territory every adult** is a mandatory reporter).\n- Tools: **NSW** uses an online **Mandatory Reporter Guide** to help decide whether a matter meets the threshold for a report or should be handled another way (for example, referral to family support).\n\nThe AMC expects the principle, not each state's statute: **if you reasonably suspect abuse or neglect, report it.** \"Varies by state\" is the right phrase for the details.\n\nA \"child\" is generally a person under 18 (some provisions apply to younger ages; varies by state). A **pregnant woman's unborn child** can be the subject of a prenatal report in some states, to allow support before birth."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Key legal principles",
+          "body": "**You do not need proof.** The threshold is **suspicion or belief on reasonable grounds**, not certainty. Investigation is the job of the child protection agency and police.\n\n**Good-faith reporting is protected.** Reporters acting in good faith are protected from civil, criminal and professional liability (including breach of confidentiality or defamation claims), even if the report is not substantiated. The reporter's **identity is kept confidential** by law (with limited exceptions).\n\n**Reporting overrides confidentiality and privacy.** Mandatory reporting is a legal requirement, so disclosure to child protection is lawful without the parents' or child's consent. The Medical Board of Australia's code of conduct also recognises the doctor's duty to protect children.\n\n**The duty is personal.** Discussing with a senior colleague or the child protection unit is good practice, but if you hold the suspicion, **you must ensure a report is made**; you can't hand off your obligation to someone who disagrees. Many hospitals allow one report on behalf of the team, but each clinician remains responsible for making sure it happens.\n\n**Failure to report** when required is an offence in most jurisdictions and can lead to professional disciplinary action.\n\n**Timing**: report **as soon as practicable**. If a child is in **immediate danger**, call **police (000)** first.\n\n**Continuing duty**: new information or new injuries mean a new report, even if you reported before.\n\n**Additional offences** exist in some states: for example, Victoria's \"**failure to disclose**\" offence requires **all adults** to report a reasonable belief of child sexual abuse to police, and a \"failure to protect\" offence applies to people in authority in organisations.\n\n**Information sharing**: several states have schemes allowing prescribed professionals to share information about child wellbeing and safety with each other (for example Victoria's Child Information Sharing Scheme and NSW Chapter 16A). Details vary."
+        },
+        {
+          "kind": "application",
+          "heading": "Talking to families: when to tell and when not to",
+          "body": "**The child's safety comes first.**\n\n**Usually, be open**: telling parents that you are concerned and that you are required to involve child protection is honest, preserves trust, and is often expected. Frame it around the child's needs and the law: \"When a baby has an injury like this that we can't fully explain, the law requires us to ask child protection to help us make sure she's safe. This is something we do for every child in this situation.\"\n\n**Do not warn parents first when doing so could:**\n- put the child (or siblings) at **further risk** of harm or intimidation\n- lead the family to **flee** or remove the child from care\n- lead to **destruction of evidence** or pressure on the child to retract a disclosure\n- put **you, staff or another person** at risk (for example a violent partner)\n\nThis is particularly relevant in **sexual abuse by a family member**, and where there is family violence. In these situations, report first and let child protection or police plan how and when the family is informed.\n\n**Parental consent is not needed to make a report**, and you can report even if the parents object.\n\n**Avoid confrontation**: do not accuse or interrogate the parents, and don't promise outcomes (\"they won't take her away\"). Provide support, and document the conversation.\n\n**The child**: if an older child discloses, do not promise to keep it secret; explain that you need to tell people whose job is to keep them safe.\n\n**After reporting**: continue providing medical care. Child protection may ask for information; share what is relevant. You may be asked to give evidence later, which is why documentation matters."
+        },
+        {
+          "kind": "application",
+          "heading": "Cultural safety and the Stolen Generations",
+          "body": "**Aboriginal and Torres Strait Islander children are greatly over-represented in child protection** and out-of-home care in Australia, about ten times the rate of non-Indigenous children. This sits against a history of **forced removal of Aboriginal and Torres Strait Islander children** from their families under government policies (the **Stolen Generations**, documented in the 1997 *Bringing Them Home* report, followed by the 2008 National Apology). The intergenerational trauma, grief and justified distrust of government systems affect how families experience any child protection involvement.\n\n**What this means in practice**\n- Practise **cultural safety**: be aware of your own assumptions and of the power imbalance; ask about family, kinship and community supports; involve **Aboriginal liaison officers, Aboriginal health workers** and **Aboriginal community controlled organisations** where available.\n- Understand the **Aboriginal and Torres Strait Islander Child Placement Principle**, which is written into child protection law in all states. Its five elements are **prevention, partnership, placement, participation and connection**. When removal is necessary, placement is prioritised with **extended family or kin**, then the child's community, then other Aboriginal and Torres Strait Islander carers, to maintain connection to culture and Country.\n- Distinguish **cultural difference from harm**: shared child-rearing across extended family, for example, is not neglect.\n- Poverty, crowding and poor housing are not in themselves neglect; they call for support services.\n\n**But culture never overrides a child's safety.** The same applies to any cultural or religious background (for example, female genital mutilation is illegal regardless of cultural justification). If you have a reasonable suspicion of abuse or neglect, the duty to report applies equally to every child."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Suspicion without proof: **report**. \"Wait until you are sure\" is wrong.\n- Parents are pleasant, articulate and well-off: **risk factors are not required**; report if the injury is unexplained.\n- Parents refuse consent to a report: **report anyway**; consent is not needed.\n- Sexual abuse disclosed by a child about a stepparent: **don't tell the parents first**; report to child protection and police.\n- Senior colleague disagrees: **you still have a personal duty** to ensure a report is made.\n- Child in immediate danger: **call police (000)**.\n- Aboriginal family: involve Aboriginal liaison officers and consider the Child Placement Principle, **but still report**.\n- Details (categories, thresholds, agency names) **vary by state**."
+        }
+      ],
+      "keyPoints": [
+        "Doctors are mandatory reporters in every state and territory; details vary by state.",
+        "Threshold is reasonable suspicion or belief, not proof.",
+        "Good-faith reports are legally protected and the reporter's identity is confidential.",
+        "Reporting overrides confidentiality; parental consent is not needed.",
+        "The duty is personal: you must make sure a report is made even if a colleague disagrees.",
+        "Don't warn parents where it could increase risk, lead to flight or compromise evidence.",
+        "Cultural safety and the Aboriginal Child Placement Principle matter, but culture never overrides safety."
+      ],
+      "redFlags": [],
+      "contrast": [
+        {
+          "aspect": "What must be reported",
+          "india": "POCSO mandates reporting sexual offences against children to police or special juvenile police unit.",
+          "australia": "Mandatory reporting of suspected abuse and neglect (types vary by state) to the state child protection agency; police for immediate danger or crimes."
+        },
+        {
+          "aspect": "Informing family",
+          "india": "Families are usually involved in decisions and informed first.",
+          "australia": "Consent not needed; families informed when safe, but not first if it could endanger the child or compromise evidence."
+        },
+        {
+          "aspect": "Cultural context",
+          "india": "No equivalent historical policy of forced removal.",
+          "australia": "Stolen Generations history and the Aboriginal Child Placement Principle shape practice; safety still comes first."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Do you need proof before making a child protection report?",
+          "back": "No; reasonable suspicion or belief is enough."
+        },
+        {
+          "front": "Is parental consent required to make a child protection report?",
+          "back": "No."
+        },
+        {
+          "front": "Who is a mandatory reporter in the Northern Territory?",
+          "back": "Every adult."
+        },
+        {
+          "front": "What protects a doctor who reports in good faith?",
+          "back": "Legal immunity from civil, criminal and professional liability, and confidentiality of their identity."
+        },
+        {
+          "front": "Five elements of the Aboriginal and Torres Strait Islander Child Placement Principle?",
+          "back": "Prevention, partnership, placement, participation, connection."
+        },
+        {
+          "front": "Who do you call first if a child is in immediate danger?",
+          "back": "Police (000)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "child-protection--mandatory-reporting-and-law--q1",
+          "discipline": "child-health",
+          "topic": "child-protection",
+          "difficulty": "foundation",
+          "stem": "A GP sees a 2-year-old boy with fingertip-pattern bruises on both upper arms and a bruise on his ear. His parents are professionals who seem caring and say he 'bumps into things'. The GP is unsure whether this is abuse and worries about damaging the relationship with the family. What is the GP's legal obligation?",
+          "options": [
+            "Report only if the GP is certain the injuries were inflicted",
+            "Review the child in 2 weeks and report if new bruises appear",
+            "Obtain the parents' consent before making any report",
+            "Ask the practice manager to decide whether to report",
+            "Report to the state child protection agency because there are reasonable grounds to suspect abuse"
+          ],
+          "answer": 4,
+          "explanation": "Doctors are **mandatory reporters** in every Australian state and territory. The threshold is a **reasonable suspicion or belief**, not proof. **Patterned (fingertip) bruising** and **ear bruising** in a child under 4 are TEN-4-FACESp red flags, and the explanation doesn't account for them.\n\nThe parents' social status is irrelevant: abuse occurs across all groups. Reports made in good faith are **legally protected**, the reporter's identity is confidential, and **consent is not required**. The duty is **personal** to the doctor. The GP can consult the local child protection unit for advice, but should not delay.",
+          "whyWrong": [
+            "Certainty is not required; reasonable suspicion is the threshold.",
+            "Waiting for further injury leaves the child at risk.",
+            "Parental consent is not needed and seeking it could put the child at risk.",
+            "The duty belongs to the doctor who holds the suspicion.",
+            ""
+          ],
+          "tags": [
+            "mandatory reporting",
+            "threshold",
+            "bruising"
+          ]
+        },
+        {
+          "id": "child-protection--mandatory-reporting-and-law--q2",
+          "discipline": "child-health",
+          "topic": "child-protection",
+          "difficulty": "core",
+          "stem": "A 9-year-old girl tells the school doctor that her stepfather 'comes into my room at night and touches me where my swimmers go', and asks the doctor not to tell her mum because 'he'll get angry'. The girl is going home with her mother and stepfather this afternoon. What is the most appropriate action?",
+          "options": [
+            "Promise to keep it secret to maintain her trust",
+            "Call the mother and stepfather in to discuss the allegation together",
+            "Examine her genitals in the school clinic to look for evidence",
+            "Tell her gently that you need to tell people whose job is to keep her safe, and report immediately to child protection and police before she goes home",
+            "Advise her to tell her mother herself tonight"
+          ],
+          "answer": 3,
+          "explanation": "This is a **disclosure of sexual abuse** by a household member. The child's safety comes first. Do **not promise secrecy**; explain kindly that you must tell people whose job is to keep her safe. **Report immediately** to the statutory child protection agency and **police**, because she is due to return home today to the alleged perpetrator.\n\n**Do not inform or confront the parents first**: this could put her at risk, lead to pressure to retract, or compromise the investigation. Record her words verbatim. A forensic interview and any medical examination should be done by specialist services, not in a school clinic.",
+          "whyWrong": [
+            "You cannot keep a disclosure of abuse secret; honesty about this protects trust.",
+            "Confronting the family risks the child's safety and the investigation.",
+            "Examinations should be done by specialist services, not ad hoc.",
+            "",
+            "Placing the responsibility on a child is inappropriate and unsafe."
+          ],
+          "ausPearl": "In Victoria, all adults also have a legal duty to report a reasonable belief of child sexual abuse to police (failure to disclose offence).",
+          "tags": [
+            "disclosure",
+            "sexual abuse",
+            "confidentiality"
+          ]
+        },
+        {
+          "id": "child-protection--mandatory-reporting-and-law--q3",
+          "discipline": "child-health",
+          "topic": "child-protection",
+          "difficulty": "exam",
+          "stem": "An intern on a paediatric ward suspects that an unexplained femoral fracture in a 3-month-old Aboriginal boy may be non-accidental. The family is from a remote community. The registrar says a report would be culturally insensitive given the history of the Stolen Generations and advises against it. What is the most appropriate action for the intern?",
+          "options": [
+            "Discuss with the consultant and child protection unit, involve an Aboriginal liaison officer, and ensure a report is made to child protection",
+            "Follow the registrar's advice, as the registrar is more senior",
+            "Ask the family's community elders to decide whether to report",
+            "Arrange discharge home and a GP review in 1 week",
+            "Report to police only, not child protection"
+          ],
+          "answer": 0,
+          "explanation": "The duty to report is **personal**: if the intern holds a reasonable suspicion, they must ensure a report is made, even if a senior disagrees. Escalating to the consultant and the hospital **child protection unit** is appropriate, but not a reason to delay.\n\n**Cultural safety** matters greatly given the history of forced removal. Involving an **Aboriginal liaison officer** and Aboriginal health services supports the family, and the **Aboriginal Child Placement Principle** guides any placement decisions (kin first). But **culture never overrides a child's safety**: an unexplained fracture in a non-mobile infant must be reported, as it would be for any child.",
+          "whyWrong": [
+            "",
+            "Seniority does not remove the intern's personal legal duty to report.",
+            "Community consultation is valuable, but it can't replace the statutory report.",
+            "Discharging an infant with an unexplained fracture is unsafe.",
+            "Child protection must be notified; police alone is not the statutory pathway."
+          ],
+          "tags": [
+            "mandatory reporting",
+            "cultural safety",
+            "stolen generations"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "child-protection--neglect-emotional-abuse-family-violence",
+      "title": "Neglect, emotional abuse and family violence",
+      "minutes": 15,
+      "objectives": [
+        "Recognise the forms of neglect, including faltering growth, medical and supervisory neglect",
+        "Identify emotional abuse and understand exposure to family violence as harm to children",
+        "Recognise fabricated or induced illness and respond safely",
+        "Support families through early intervention while meeting reporting obligations"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The less visible harms",
+          "body": "Physical injuries grab attention, but most child protection work in Australia concerns **emotional abuse and neglect**. In recent Australian Institute of Health and Welfare reports, **emotional abuse** (which includes exposure to family violence) is the most commonly substantiated primary type of maltreatment, followed by **neglect**. The 2023 **Australian Child Maltreatment Study** found that **exposure to domestic violence** was the most common type of childhood maltreatment reported by Australians (around 4 in 10).\n\nThese harms are chronic and cumulative. They affect brain development, attachment, behaviour, learning, and lifelong physical and mental health (the adverse childhood experiences, or ACEs, literature). GPs and paediatricians are often the only professionals who see young children regularly before school, so they are key to early recognition."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Neglect",
+          "body": "**Neglect** is the persistent failure to meet a child's basic needs, to the point that their health or development is (or is likely to be) significantly harmed.\n\n| Type | Examples |\n|---|---|\n| **Physical** | Inadequate food, clothing or shelter; poor hygiene; untreated severe **dental caries**; recurrent infestations |\n| **Medical** | Not seeking care for serious illness; not giving essential medication (such as insulin or anticonvulsants); repeatedly missed specialist follow-up with harm |\n| **Supervisory** | Toddlers repeatedly found wandering; ingestions; drowning in unsupervised pools; young children left alone |\n| **Educational** | Chronic non-attendance at school |\n| **Emotional** | Ignoring, unresponsive parenting |\n\n**Faltering growth (failure to thrive)** is a classic presentation. Weight falls across centile lines (with height and head circumference affected later). Most faltering growth is **not organic disease**; causes include inadequate intake from feeding difficulties, poverty, maternal depression, and neglect.\n- A key clinical clue: **the child gains weight rapidly when adequately fed in hospital** or another care setting.\n- Other features: watchful, withdrawn, \"frozen watchfulness\", developmental delay, poor hygiene, nappy rash, flat occiput from being left lying.\n- Assess feeding directly (observe a feed), take a dietary and social history, check growth charts, and do limited targeted investigations (FBC, iron, coeliac serology, urine) rather than exhaustive testing.\n\n**Context matters**: poverty, homelessness and poor housing are not neglect by themselves. They call for **support** (Centrelink, housing, family services). Neglect is about the carer's persistent failure to meet needs with harm to the child, often linked to parental substance use, mental illness, intellectual disability or family violence."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Emotional abuse and family violence",
+          "body": "**Emotional (psychological) abuse**: persistent rejection, belittling, threatening, terrorising, isolating or corrupting a child, or placing developmentally inappropriate expectations on them. Signs are non-specific: anxiety, low self-esteem, aggression, withdrawal, self-harm, regression (bedwetting), sleep problems, poor school performance.\n\n**Family and domestic violence** (FDV) includes physical and sexual violence, and also **coercive control**: psychological abuse, financial control, isolation, monitoring and threats. Some states have now made coercive control a **criminal offence** (varies by state).\n\n**Children exposed to family violence are harmed**, even if they are not physically hurt: they see, hear or live with its effects, and it is recognised as a form of child abuse. They have high rates of anxiety, post-traumatic stress, behavioural problems and developmental delays. FDV also co-occurs with physical and sexual abuse of children. **Pregnancy is a high-risk time** for the onset or escalation of violence.\n\n**Recognition in practice**\n- Many Australian antenatal services ask all pregnant women about family violence routinely (in private). Ask directly and sensitively, **alone** (never in front of the partner or using family members as interpreters): \"Do you feel safe at home?\" \"Has your partner ever hurt or threatened you?\"\n- Clues: repeated injuries, vague complaints, missed appointments, a partner who always attends and answers for her, children with behavioural problems.\n\n**Response**\n- Believe and validate; assess **immediate safety** (including for the children); develop a safety plan.\n- Refer to specialist family violence services; national support lines include **1800RESPECT** (1800 737 732).\n- Police (000) for immediate danger.\n- **Children's safety**: exposure to family violence is reportable to child protection in many (not all) jurisdictions, especially where children are at significant risk. Aim to work with the non-offending parent to protect the children, and explain your obligations honestly.\n- Document carefully; the RACGP \"White Book\" (*Abuse and violence: working with our patients in general practice*) is the Australian GP reference."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Fabricated or induced illness",
+          "body": "**Fabricated or induced illness (FII)** by a carer (previously called Munchausen syndrome by proxy) is rare but dangerous. A carer (usually the mother) reports, exaggerates, fabricates or actually induces symptoms in the child, leading to unnecessary investigations, treatments and harm.\n\n**Clues**\n- Symptoms and signs that are **only witnessed by the carer**, don't fit any recognised disease, or **resolve when the child is separated** from the carer\n- Investigation results inconsistent with the story, or **tampering** (blood added to urine)\n- Unexplained **poisoning**: for example **hypoglycaemia with high insulin and low C-peptide** (exogenous insulin), unexplained hypernatraemia (salt poisoning), recurrent apnoea\n- Repeated presentations to different hospitals (\"doctor shopping\"), requests for more invasive procedures\n- A carer who seems unusually content in hospital, may have health care knowledge, and resists discharge or separation\n- Siblings with unexplained illness or death\n\n**Response**: senior paediatrician leadership, the child protection team, careful review of all records, and a **report to child protection**. Do not confront the carer prematurely (risk of escalation or flight). Specific investigations (such as covert video surveillance) only occur within legal and hospital frameworks. The priority is stopping harm from both the carer and unnecessary medical interventions."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Infant with faltering growth who gains weight well on the ward with normal feeds: **inadequate intake at home**; consider neglect, feeding difficulties and maternal depression; involve social work, and report if neglect is suspected.\n- Exposure to family violence **is harm to children**; consider reporting and support the non-offending parent.\n- Asking about FDV: **ask alone**, never in front of the partner; use professional interpreters.\n- Poverty alone: **support, not a report** (unless there is significant harm).\n- Recurrent hypoglycaemia with low C-peptide in a non-diabetic child: **exogenous insulin**; consider FII.\n- Repeated missed essential medications with harm (such as DKA from missed insulin): **medical neglect**."
+        }
+      ],
+      "keyPoints": [
+        "Emotional abuse and neglect are the most commonly substantiated types of maltreatment in Australia.",
+        "Faltering growth that corrects with adequate feeding in hospital points to inadequate intake at home.",
+        "Neglect includes physical, medical, supervisory and educational neglect; poverty alone is not neglect.",
+        "Exposure to family violence is a form of harm to children.",
+        "Ask about family violence privately and sensitively; refer to specialist services such as 1800RESPECT.",
+        "Fabricated or induced illness: symptoms only seen by the carer, resolving on separation, unexplained poisoning.",
+        "Respond with support and early intervention, while meeting reporting obligations."
+      ],
+      "redFlags": [
+        "Faltering growth with rapid catch-up in hospital",
+        "Repeated missed essential medication causing harm",
+        "Disclosure of family violence with children in the home",
+        "Hypoglycaemia with low C-peptide in a non-diabetic child",
+        "Symptoms only witnessed by one carer and resolving on separation"
+      ],
+      "contrast": [
+        {
+          "aspect": "Family violence and children",
+          "india": "Often seen as a private family matter; children's exposure rarely recognised as abuse.",
+          "australia": "Exposure to family violence is recognised as harm to children and is reportable in many jurisdictions."
+        },
+        {
+          "aspect": "Faltering growth",
+          "india": "Undernutrition often attributed to poverty and food insecurity at population level.",
+          "australia": "Faltering growth prompts assessment of feeding, family function and possible neglect, with social work involvement."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Most commonly substantiated primary type of maltreatment in Australia (AIHW)?",
+          "back": "Emotional abuse (including exposure to family violence)."
+        },
+        {
+          "front": "Key clinical clue that faltering growth is due to inadequate intake at home?",
+          "back": "Rapid weight gain with normal feeding in hospital."
+        },
+        {
+          "front": "National family violence support line?",
+          "back": "1800RESPECT (1800 737 732)."
+        },
+        {
+          "front": "Biochemical clue to insulin-induced hypoglycaemia in FII?",
+          "back": "High insulin with low C-peptide."
+        },
+        {
+          "front": "How should you ask about family violence?",
+          "back": "Privately, alone with the patient, directly and sensitively, using professional interpreters if needed."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "child-protection--neglect-emotional-abuse-family-violence--q1",
+          "discipline": "child-health",
+          "topic": "child-protection",
+          "difficulty": "core",
+          "stem": "A 10-month-old girl is admitted with weight that has fallen from the 50th to below the 3rd centile over 4 months. Her length is on the 25th centile. Examination shows a withdrawn infant with severe nappy rash and a flat occiput, but no signs of chronic disease. Initial bloods and urine are normal. On the ward, with standard formula and solids, she gains 60 g a day. What is the most likely explanation?",
+          "options": [
+            "Coeliac disease",
+            "Cystic fibrosis",
+            "Growth hormone deficiency",
+            "Inadequate intake at home, possibly due to neglect",
+            "Constitutional growth delay"
+          ],
+          "answer": 3,
+          "explanation": "Weight falling across centiles with relative sparing of length points to **inadequate nutrition**. The decisive clue is **rapid catch-up weight gain with normal feeding in hospital**, which shows she can absorb and grow normally when fed adequately. With a withdrawn demeanour, severe nappy rash and a flat occiput (left lying for long periods), **neglect** must be considered.\n\nNext steps: observe feeding and carer interaction, involve **social work** and the child protection team, explore contributing factors (maternal depression, substance use, poverty, family violence), and **report to child protection** if neglect is suspected. Support services are part of the plan.",
+          "whyWrong": [
+            "Coeliac disease wouldn't produce rapid catch-up gain on a normal diet including gluten.",
+            "CF causes malabsorption that wouldn't correct with ordinary feeds.",
+            "GH deficiency mainly affects length, not weight first.",
+            "",
+            "Constitutional delay affects height and puberty timing, not rapid weight loss in infancy."
+          ],
+          "tags": [
+            "neglect",
+            "faltering growth",
+            "failure to thrive"
+          ]
+        },
+        {
+          "id": "child-protection--neglect-emotional-abuse-family-violence--q2",
+          "discipline": "child-health",
+          "topic": "child-protection",
+          "difficulty": "foundation",
+          "stem": "A 30-year-old woman attends her GP with her 4-year-old son for his vaccinations. While the boy plays in the waiting room with the practice nurse, she discloses that her partner has been hitting her and smashing things in front of the children, and last week threatened to kill her. What is the most appropriate response?",
+          "options": [
+            "Believe and validate her, assess immediate safety for her and the children, make a safety plan, refer to specialist family violence services, and consider child protection reporting obligations",
+            "Arrange couples counselling with her partner",
+            "Tell her you'll speak to her partner at his next appointment",
+            "Advise her that this is a private matter between adults",
+            "Wait to act until she has physical injuries that can be documented"
+          ],
+          "answer": 0,
+          "explanation": "A disclosure of family violence, including a **threat to kill** (a major risk factor for homicide), needs a **safety-focused response**: believe and validate her, assess **immediate risk** (police 000 if in danger), develop a **safety plan**, and refer to **specialist family violence services** (for example via 1800RESPECT).\n\n**Children exposed to family violence are harmed** even when not physically hurt, so consider your reporting obligations, which vary by state; explain these honestly and aim to work with her to protect the children. Couples counselling is contraindicated in family violence, and approaching the partner could escalate danger.",
+          "whyWrong": [
+            "",
+            "Couples counselling is unsafe where there is violence and coercion.",
+            "Confronting the partner can escalate risk.",
+            "Family violence is not a private matter and endangers her and her children.",
+            "Waiting for injuries ignores serious current risk."
+          ],
+          "tags": [
+            "family violence",
+            "safety",
+            "children"
+          ]
+        },
+        {
+          "id": "child-protection--neglect-emotional-abuse-family-violence--q3",
+          "discipline": "child-health",
+          "topic": "child-protection",
+          "difficulty": "exam",
+          "stem": "A 3-year-old boy has had four admissions in 6 months with episodes of drowsiness and hypoglycaemia, each time within a few hours of arriving on the ward with his mother, a former nurse. No episodes occur when she is absent. During the latest episode, blood glucose was 1.8 mmol/L, with serum insulin markedly raised and C-peptide undetectable. What is the most likely explanation?",
+          "options": [
+            "Insulinoma",
+            "Congenital hyperinsulinism",
+            "Fabricated or induced illness with exogenous insulin",
+            "Sulfonylurea ingestion",
+            "Adrenal insufficiency"
+          ],
+          "answer": 2,
+          "explanation": "Insulin and **C-peptide** are released together from beta cells in equal amounts. **High insulin with undetectable C-peptide** means the insulin came from **outside the body**: exogenous insulin administration. Episodes that happen only in the carer's presence and never when she's absent, in a carer with medical knowledge, strongly suggest **fabricated or induced illness**.\n\nInsulinoma, congenital hyperinsulinism and sulfonylureas all cause endogenous insulin release with **raised C-peptide**. The response is led by a senior paediatrician with the child protection team and a **report to child protection** (and police), avoiding premature confrontation.",
+          "whyWrong": [
+            "An insulinoma produces raised C-peptide alongside insulin.",
+            "Congenital hyperinsulinism presents in infancy with raised C-peptide.",
+            "",
+            "Sulfonylureas stimulate endogenous insulin, so C-peptide would be raised.",
+            "Adrenal insufficiency causes low, not high, insulin during hypoglycaemia."
+          ],
+          "tags": [
+            "fabricated illness",
+            "hypoglycaemia",
+            "c-peptide"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "child-protection--sexual-abuse-and-fgm",
+      "title": "Child sexual abuse and female genital mutilation",
+      "minutes": 14,
+      "objectives": [
+        "Recognise presentations of child sexual abuse, including disclosure, behaviour and STIs",
+        "Respond to a disclosure safely and refer to specialist services for forensic assessment",
+        "Understand age of consent and when adolescent sexual activity raises protection concerns",
+        "Know that FGM is a crime in all Australian states and territories and respond to a girl at risk"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Scale and presentation",
+          "body": "The **Australian Child Maltreatment Study (2023)** found that more than **1 in 4 Australians** had experienced sexual abuse in childhood, more commonly girls. Most abuse is by someone the child knows: family members, family friends, other adolescents, or people in positions of trust. The **Royal Commission into Institutional Responses to Child Sexual Abuse** (2013-2017) exposed widespread abuse in institutions and led to child safe standards across the country.\n\n**How it presents**\n- **Disclosure** (the most common way it comes to light): often partial, delayed or tentative; children may test the listener's reaction first.\n- **Behavioural change**: sexualised behaviour inappropriate for developmental stage, regression, sleep problems, withdrawal, aggression, self-harm, eating disorders, school refusal, substance use in adolescents.\n- **Physical**: genital or anal injury or bleeding, recurrent unexplained genital symptoms, **sexually transmitted infections**, **pregnancy in a young adolescent**.\n- Found during investigation of other concerns (family violence, a sibling's disclosure, online exploitation material).\n\n**Most children who have been sexually abused have a normal genital examination**, because many forms of abuse cause no injury and genital tissues heal quickly. A normal examination **never excludes** abuse."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Medical findings and differentials",
+          "body": "**STIs in prepubertal children**\n- **Gonorrhoea, syphilis (beyond the neonatal period), trichomonas, and chlamydia (beyond the perinatal period)** are strongly suggestive of sexual contact and require a child protection response.\n- HIV (if not perinatal), herpes simplex and anogenital warts (HPV) are less specific: they can be transmitted non-sexually or perinatally, but still need assessment.\n\n**Common non-abuse causes of genital symptoms** (don't over-read these):\n- **Vulvovaginitis** from poor hygiene, irritants (bubble baths), threadworm, or group A streptococcus\n- **Lichen sclerosus** (white atrophic skin, fissures, purpura that can be mistaken for bruising)\n- **Labial adhesions**\n- Straddle injuries (usually anterior, unilateral, with a consistent history)\n- Urethral prolapse, foreign body in the vagina (offensive bloody discharge)\n\nEven with a benign cause, remain open to the possibility of abuse if there are other concerns."
+        },
+        {
+          "kind": "application",
+          "heading": "Responding to disclosure",
+          "body": "**If a child tells you**\n- **Stay calm**, listen, and let them talk in their own words.\n- **Believe them** and tell them they did the right thing by telling you; **it's not their fault**.\n- Use **open, non-leading prompts** only (\"Tell me more\", \"What happened next?\"). Don't interrogate, suggest names or ask \"Did he touch you here?\"\n- **Don't promise secrecy**: explain you need to tell people whose job is to keep them safe.\n- **Record their exact words** verbatim, with the date, time and context.\n- **Report** to child protection and **police**, promptly. Do not inform the alleged perpetrator or family first if that could put the child at risk.\n\n**Specialist assessment**\n- **Forensic interviews** are done by trained police and child protection interviewers (often recorded), so the child doesn't have to repeat the story many times.\n- **Forensic medical examinations** are done by specialist paediatric forensic services, ideally once, with appropriate consent (child protection or police may consent in some situations; varies by state). Avoid repeated or unnecessary examinations by non-specialists.\n- **Acute assault** (roughly within the last 72 hours, or with bleeding or injury) needs urgent specialist referral for forensic evidence, injury care, **emergency contraception** for adolescents, **STI testing and prophylaxis**, **HIV post-exposure prophylaxis** (start as soon as possible, within 72 hours) and hepatitis B vaccination.\n- Longer-term: counselling and trauma-informed therapy through specialist sexual assault services, and support for the non-offending family.\n\n**Adolescents and consent**\n- The **age of consent is 16** in most states and territories and **17 in South Australia and Tasmania**.\n- Sexual activity under the age of consent doesn't automatically mean abuse or a mandatory report for adolescents close in age: clinicians consider the **age difference, power imbalance, coercion, exploitation, intoxication, the young person's maturity**, and state law. Sexual activity involving **younger children (for example under 12-13)** or with a large age gap or adult in a position of authority raises serious concerns and generally requires a report.\n- **Mature minors** can receive confidential sexual health care (Gillick competence), but confidentiality has limits when there is a risk of serious harm.\n- Be alert to **grooming** and **online sexual exploitation** (the eSafety Commissioner and police have roles)."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Female genital mutilation",
+          "body": "**Female genital mutilation/cutting (FGM/C)** is the partial or total removal of external female genitalia, or other injury to the female genital organs, for non-medical reasons. It is practised in parts of Africa, the Middle East and Asia, and some communities in Australia come from countries where it is common.\n\n**WHO types**: I (clitoridectomy), II (excision of clitoris and labia minora), III (**infibulation**: narrowing of the vaginal opening by sealing the labia), IV (other harmful procedures such as pricking, piercing, cauterisation).\n\n**Health consequences**: acute haemorrhage, infection and death; chronic pain, recurrent UTIs, dysmenorrhoea, dyspareunia, psychological trauma, and **obstetric complications** (obstructed labour, perineal tears, postpartum haemorrhage).\n\n**The law**\n- **FGM is a crime in all Australian states and territories**, including performing it, arranging it, and in most jurisdictions **taking a child overseas** for it. Consent by the girl or parents is not a defence, and neither is cultural or religious justification.\n- A girl **at risk** of FGM (for example, a planned trip to the family's country of origin for a \"special ceremony\") is a child at risk of significant harm: **report to child protection**, and police if the risk is imminent.\n- An **adult woman** who had FGM as a child is not usually the subject of a mandatory report, but her **daughters** may be at risk, which should be explored sensitively.\n- Reinfibulation after childbirth is illegal in some states.\n\n**Clinical approach**\n- **Culturally sensitive, non-judgemental** care. Use the woman's own terms, and **professional interpreters**, never family members.\n- Specialist services exist in several states (for example state FGM/C education and support programs), and specialist obstetric clinics provide **deinfibulation** where needed (ideally before or during pregnancy).\n- Education about the health effects and the law is part of prevention."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Child discloses sexual abuse: **listen, believe, don't promise secrecy, don't ask leading questions, record verbatim, report**.\n- Don't do an ad hoc genital examination; **refer to specialist forensic services**.\n- **Normal examination does not exclude abuse.**\n- Gonorrhoea, syphilis, trichomonas or (post-perinatal) chlamydia in a prepubertal child: **sexual abuse until proven otherwise**.\n- Lichen sclerosus and vulvovaginitis are common mimics.\n- Age of consent: **16** in most states, **17 in SA and Tasmania**; consider age gap and power imbalance in adolescents.\n- Girl going overseas for a \"ceremony\" from a community that practises FGM: **report**; FGM is a crime in all states, including taking a child overseas.\n- Use professional interpreters, not family members."
+        }
+      ],
+      "keyPoints": [
+        "More than 1 in 4 Australians experienced childhood sexual abuse (Australian Child Maltreatment Study).",
+        "Disclosure is the commonest presentation; most examinations are normal and never exclude abuse.",
+        "Respond to disclosure: listen, believe, no leading questions, no promise of secrecy, record verbatim, report.",
+        "Forensic interviews and examinations are done by specialist services; acute assault needs urgent care, including PEP and emergency contraception.",
+        "Gonorrhoea, syphilis, trichomonas and post-perinatal chlamydia in prepubertal children strongly suggest abuse.",
+        "Age of consent is 16 in most states and 17 in SA and Tasmania.",
+        "FGM is a crime in all Australian states and territories; a girl at risk must be reported."
+      ],
+      "redFlags": [
+        "Disclosure of sexual abuse by a child",
+        "STI in a prepubertal child",
+        "Pregnancy in a young adolescent",
+        "Sexualised behaviour inappropriate for developmental stage",
+        "Planned overseas trip for a 'ceremony' in a girl from an FGM-practising community",
+        "Acute sexual assault within 72 hours"
+      ],
+      "contrast": [
+        {
+          "aspect": "Law on child sexual abuse",
+          "india": "POCSO Act 2012: mandatory reporting to police; age of consent 18.",
+          "australia": "State child protection and criminal laws; age of consent 16 (17 in SA and Tasmania); mandatory reporting to child protection."
+        },
+        {
+          "aspect": "FGM",
+          "india": "Practised in some communities (for example type I in some Bohra communities); no specific national law.",
+          "australia": "A crime in all states and territories, including taking a child overseas for it; girls at risk are reported."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Does a normal genital examination exclude child sexual abuse?",
+          "back": "No; most abused children have normal examinations."
+        },
+        {
+          "front": "STIs in prepubertal children that strongly suggest sexual abuse?",
+          "back": "Gonorrhoea, syphilis, trichomonas, and chlamydia beyond the perinatal period."
+        },
+        {
+          "front": "Age of consent in South Australia and Tasmania?",
+          "back": "17 (16 in the other states and territories)."
+        },
+        {
+          "front": "Time window for HIV post-exposure prophylaxis after sexual assault?",
+          "back": "As soon as possible, within 72 hours."
+        },
+        {
+          "front": "Legal status of FGM in Australia?",
+          "back": "A crime in every state and territory, including taking a child overseas for it."
+        },
+        {
+          "front": "Common condition mistaken for genital bruising in girls?",
+          "back": "Lichen sclerosus (purpura on white atrophic skin)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "child-protection--sexual-abuse-and-fgm--q1",
+          "discipline": "child-health",
+          "topic": "child-protection",
+          "difficulty": "foundation",
+          "stem": "A 5-year-old girl is brought to her GP with vulval itching and redness for 2 weeks. Her mother is worried about sexual abuse. There are no behavioural changes and no disclosure. On examination there is mild erythema of the vulva with no discharge, injury or bleeding. She has bubble baths every night and her mother has noticed her scratching her bottom at night. What is the most likely diagnosis?",
+          "options": [
+            "Sexual abuse, with immediate report to police",
+            "Gonococcal vulvovaginitis",
+            "Lichen sclerosus",
+            "Non-specific vulvovaginitis from irritants and possibly threadworm",
+            "Labial adhesions"
+          ],
+          "answer": 3,
+          "explanation": "**Non-specific vulvovaginitis** is the commonest gynaecological problem in prepubertal girls. The thin unoestrogenised vulval skin is easily irritated by **bubble baths, soaps, tight clothing and poor wiping**. **Nocturnal perianal itch** suggests **threadworm**, which also causes vulval irritation.\n\nManagement: stop irritants, cotton underwear, good hygiene, barrier cream, and treat threadworm (with the whole household). Swab if there is discharge. The possibility of abuse should not be dismissed if other concerns arise, but there are no red flags here (no disclosure, behaviour change, injury or STI), and the benign explanation fits.",
+          "whyWrong": [
+            "There are no indicators of abuse; a benign explanation fits.",
+            "Gonococcal infection causes purulent discharge and would be a strong abuse indicator.",
+            "Lichen sclerosus causes white, atrophic, fissured skin, often in a figure-of-eight.",
+            "",
+            "Labial adhesions are fused labia minora, usually asymptomatic."
+          ],
+          "tags": [
+            "vulvovaginitis",
+            "differentials",
+            "sexual abuse"
+          ]
+        },
+        {
+          "id": "child-protection--sexual-abuse-and-fgm--q2",
+          "discipline": "child-health",
+          "topic": "child-protection",
+          "difficulty": "core",
+          "stem": "A 6-year-old girl has a purulent vaginal discharge. A swab grows Neisseria gonorrhoeae. Her parents are separated and she spends weekends with her father and his flatmate. She has not disclosed anything. What is the most appropriate next step?",
+          "options": [
+            "Treat with antibiotics and review in a week",
+            "Tell the parents it was probably from shared towels",
+            "Treat, and report to child protection and police, with referral to a specialist child sexual abuse service",
+            "Ask the girl directly whether her father or his flatmate touched her",
+            "Wait for a disclosure before reporting"
+          ],
+          "answer": 2,
+          "explanation": "**Gonorrhoea beyond the neonatal period in a prepubertal child is strongly indicative of sexual contact**; non-sexual transmission (such as towels) is not an accepted explanation. It must be treated, and there are reasonable grounds to suspect sexual abuse, so a **report to child protection and police** is required.\n\nRefer to a **specialist child sexual abuse/forensic service** for assessment, full STI screening and a forensic interview by trained investigators. Don't ask **leading questions** that name suspects, as this can distress the child and compromise the investigation. **A disclosure is not required** to report.",
+          "whyWrong": [
+            "Treating alone misses a clear child protection concern.",
+            "Non-sexual transmission is not an accepted explanation beyond the neonatal period.",
+            "",
+            "Leading questions naming suspects contaminate the child's account.",
+            "A disclosure is not required; the STI itself gives reasonable grounds."
+          ],
+          "tags": [
+            "gonorrhoea",
+            "sexual abuse",
+            "sti"
+          ]
+        },
+        {
+          "id": "child-protection--sexual-abuse-and-fgm--q3",
+          "discipline": "child-health",
+          "topic": "child-protection",
+          "difficulty": "exam",
+          "stem": "A 7-year-old girl attends her GP with her mother for travel vaccines. The family is originally from a country with a very high prevalence of female genital mutilation. The mother says, through the girl's 14-year-old cousin who is interpreting, that the family is travelling home for 3 months so the girl can have 'a special ceremony to become a woman, like I did'. What is the most appropriate action?",
+          "options": [
+            "Provide the travel vaccines; the family's cultural practices are private",
+            "Continue using the cousin as interpreter and advise the mother on wound care after the ceremony",
+            "Examine the girl's genitals to document her current anatomy before travel",
+            "Advise the family to have the procedure done in Australia by a doctor to reduce complications",
+            "Arrange a professional interpreter, explore the plan sensitively, and if there is a risk of FGM report to child protection (and police if imminent)"
+          ],
+          "answer": 4,
+          "explanation": "The description raises a real risk of **female genital mutilation**. **FGM is a crime in every Australian state and territory**, and in most it is also an offence to **take a child overseas** for FGM. Cultural or parental consent is no defence, and no doctor may perform it.\n\nFirst, use a **professional interpreter** (not a child relative), then explore the plan respectfully and without judgement. If there is a risk of FGM, the girl is at risk of significant harm and must be **reported to child protection**, and to **police** if travel is imminent (they can act to prevent removal overseas). Offer the mother education and support; she may herself need care for the effects of FGM.",
+          "whyWrong": [
+            "FGM is a crime and a child protection issue, not a private matter.",
+            "Family members, especially children, should not interpret sensitive consultations, and advising on aftercare condones harm.",
+            "An examination isn't indicated and could be distressing; the priority is preventing harm.",
+            "Performing FGM in Australia is illegal regardless of who does it.",
+            ""
+          ],
+          "ausPearl": "FGM is criminalised in all Australian states and territories, including removing a child from the state for the purpose of FGM.",
+          "tags": [
+            "fgm",
+            "interpreter",
+            "child protection"
+          ]
+        }
+      ]
+    }
+  ]
+}

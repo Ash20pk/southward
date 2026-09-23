@@ -84,7 +84,7 @@ export function AppShell({ children }: { children: ReactNode }) {
   }, []);
 
   // Full-screen focus modes hide the chrome.
-  const focus = /^\/(mock\/run|clinical\/.+)/.test(path);
+  const focus = /^\/(mock\/run|clinical\/.+|learn\/[^/]+\/[^/]+)/.test(path);
 
   const nav = (
     <nav aria-label="Main" className="flex flex-col gap-0.5">

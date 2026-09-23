@@ -10,6 +10,7 @@ import type { Discipline, Flashcard } from "@/lib/types";
 import { Markdown } from "@/components/Markdown";
 import { Bar, Button, Chip, Empty, PageHeader, Panel } from "@/components/ui";
 import { useNow } from "@/hooks/useNow";
+import { useLessonBank } from "@/hooks/useLessonBank";
 
 const GRADES: { g: Grade; label: string; key: string; cls: string }[] = [
   { g: "again", label: "Again", key: "1", cls: "border-bad/50 text-bad hover:bg-bad-soft" },
@@ -23,14 +24,17 @@ export default function Flashcards() {
   const [disc, setDisc] = useState<Discipline | null>(null);
   const [queue, setQueue] = useState<Flashcard[] | null>(null);
   const now = useNow();
+  const bank = useLessonBank();
 
   const stats = useMemo(() => {
-    const cards = FLASHCARDS.filter((c) => !disc || c.discipline === disc);
+    // The starter deck plus every card unlocked by finishing a lesson.
+    const unlocked = (bank?.cards ?? []).filter((c) => srs[c.id]);
+    const cards = [...FLASHCARDS, ...unlocked].filter((c) => !disc || c.discipline === disc);
     const due = cards.filter((c) => srs[c.id] && srs[c.id].due <= now);
     const unseen = cards.filter((c) => !srs[c.id]);
     const learned = cards.filter((c) => srs[c.id] && srs[c.id].interval >= 21);
     return { cards, due, unseen, learned };
-  }, [srs, disc, now]);
+  }, [srs, disc, now, bank]);
 
   if (queue) return <Review queue={queue} onDone={() => setQueue(null)} />;
 
@@ -41,7 +45,7 @@ export default function Flashcards() {
     <div>
       <PageHeader
         title="Flashcards"
-        lede="Spaced repetition: each card comes back just before you'd forget it. A few minutes daily beats an hour once a week. Rate honestly and the schedule does the rest."
+        lede="Spaced repetition: each card comes back just before you'd forget it. Finishing a lesson adds its cards here. A few minutes daily beats an hour once a week."
       />
       <div className="mb-6 flex flex-wrap gap-2">
         <Chip active={!disc} onClick={() => setDisc(null)}>

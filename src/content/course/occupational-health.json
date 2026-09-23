@@ -1,0 +1,946 @@
+{
+  "topic": "occupational-health",
+  "intro": "Occupational and environmental health covers how work and the environment cause disease and injury, and the doctor's role in workers' compensation, return to work and fitness for duty. For the AMC this means taking a proper occupational history, recognising Australian hazards (asbestos, engineered stone silica, Q fever, heat, noise, farm chemicals), completing certificates of capacity, and applying the Austroads driving standards.",
+  "lessons": [
+    {
+      "id": "occupational-health--occupational-history-and-workers-compensation",
+      "title": "Occupational history, WHS law and workers' compensation",
+      "minutes": 14,
+      "objectives": [
+        "Take a structured occupational and environmental exposure history",
+        "Apply the hierarchy of controls and describe who regulates workplace safety",
+        "Complete a certificate of capacity that focuses on what the worker can do",
+        "Support early, safe return to work within state workers' compensation schemes"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why work matters to health",
+          "body": "Work affects health in both directions. Hazardous work causes injury and disease; **good work is good for health**, and long absences from work are themselves harmful (worse mental health, deconditioning, poverty, social isolation). This principle, set out in the Australasian Faculty of Occupational and Environmental Medicine (AFOEM, RACP) consensus statement on the **health benefits of good work**, underpins Australian return-to-work practice.\n\nWorkplace injury and disease in Australia:\n\n- The commonest accepted workers' compensation claims are **musculoskeletal** (back, shoulder, knee, hand injuries from lifting, falls and repetitive work).\n- **Mental health conditions** make up a smaller share of claims but involve the longest time off work and the highest costs.\n- High-risk industries: agriculture, forestry and fishing; transport; construction; mining; manufacturing.\n- Occupational diseases often have **long latency** (asbestos-related disease decades later), so the relevant exposure may be in a past job."
+        },
+        {
+          "kind": "concepts",
+          "heading": "The occupational history and the law",
+          "body": "**Taking an occupational history** (do it for every adult with respiratory disease, skin disease, cancer, hearing loss, unexplained symptoms or an injury):\n\n- **Current job**: what they actually do, day to day (\"I'm a builder\" could mean anything from roofing to demolition).\n- **Past jobs**, including school holiday work and military service, in chronological order.\n- **Exposures**: dusts (asbestos, silica, coal, wood, flour), chemicals and fumes, noise, vibration, heat, radiation, animals, biological hazards, shift work, psychosocial stress.\n- **Protection**: ventilation, masks and respirators (type and fit), hearing protection, gloves, training.\n- **Timing**: do symptoms **improve on weekends or holidays** and recur at work?\n- **Co-workers**: anyone with similar symptoms?\n- **Home and hobbies**: renovating an old house (asbestos, lead paint), gardening (potting mix), birds, shooting (lead), home workshops. Also **environmental** exposures: living near mines, smelters or farms.\n\n**Who regulates workplace health and safety**\n\n- **Safe Work Australia** develops national policy, the model WHS Act and regulations, and codes of practice. It **does not enforce** them.\n- **State and territory regulators** (for example SafeWork NSW, WorkSafe Victoria, Workplace Health and Safety Queensland) enforce the law and inspect workplaces. All jurisdictions except Victoria have adopted the model WHS laws; Victoria has its own OHS Act.\n- The **person conducting a business or undertaking (PCBU)**, usually the employer, has the primary duty to keep workers safe, so far as reasonably practicable. Workers must take reasonable care too.\n\n**The hierarchy of controls** (most to least effective):\n\n1. **Elimination**: remove the hazard (for example the national ban on engineered stone).\n2. **Substitution**: replace with something safer (water-based paints instead of isocyanates).\n3. **Engineering controls / isolation**: wet cutting, local exhaust ventilation, machine guards, noise enclosures.\n4. **Administrative controls**: rotating tasks, training, limiting exposure time, health monitoring.\n5. **Personal protective equipment (PPE)**: respirators, ear protection, gloves. The last line of defence, never the first answer."
+        },
+        {
+          "kind": "application",
+          "heading": "Workers' compensation and the certificate of capacity",
+          "body": "**Workers' compensation** schemes are **state and territory based** (for example icare in NSW, WorkSafe Victoria, WorkCover Queensland, ReturnToWorkSA), with **Comcare** covering Commonwealth employees. Key features:\n\n- **No-fault**: the worker does not have to prove the employer was negligent.\n- Covers reasonable **medical and rehabilitation costs** and **weekly payments** for lost wages, with lump sums for permanent impairment in some cases.\n- The worker notifies the employer and lodges a claim; the employer's insurer decides liability.\n- Every workplace has obligations to support return to work, often through a **return-to-work coordinator**, and insurers may involve workplace rehabilitation providers.\n\n**The treating doctor's role**\n\nThe doctor (usually the GP) completes the **certificate of capacity** (names vary: \"certificate of capacity\", \"work capacity certificate\"). The first one starts the claim. It records:\n\n- The **diagnosis** and date of injury.\n- Whether the condition is, in your opinion, **consistent with the worker's account** of how it happened.\n- **Capacity**, not just incapacity:\n  - **Fit for pre-injury duties**, or\n  - **Fit for suitable duties** with specific, practical restrictions (for example \"no lifting over 5 kg, no overhead work with the right arm, 4 hours per day, able to do desk work\"), or\n  - **No current capacity** for any work, for a defined short period.\n- The **treatment plan** and referrals (physiotherapy, imaging, specialist) and the **review date**.\n\nGood practice:\n\n- Focus on **what the worker can do**. Most injured workers can do some work, and staying connected with the workplace speeds recovery.\n- Certify for **short periods** with regular review, rather than open-ended time off.\n- Talk to the employer or return-to-work coordinator (with the worker's consent) about suitable duties.\n- Stay the **treating doctor and advocate for recovery**, but document honestly. You are not the insurer's investigator, and you should not certify a work link you do not believe.\n- Watch for **yellow flags** that predict delayed recovery: fear-avoidance beliefs, low mood, workplace conflict, poor job satisfaction, and a belief that pain means harm.\n- **Independent medical examinations (IMEs)** may be requested by insurers; the IME doctor has no treating relationship and reports to the insurer, which the worker should be told.\n\n**Other schemes**: motor vehicle accident injuries are covered by state **compulsory third party (CTP)** or transport accident schemes (for example the TAC in Victoria), which use similar certificates."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- The AMC likes a stem of a worker with a back or shoulder injury: the best certificate states **modified duties with specific restrictions** and a review date, not \"unfit for work for 6 weeks\".\n- **First step in an unexplained respiratory or skin illness**: a detailed **occupational history**, including past jobs and hobbies.\n- **Hierarchy of controls**: elimination is best, PPE is last.\n- **Safe Work Australia makes policy; state regulators enforce**.\n- Workers' compensation is **no-fault** and **state-based**.\n- The doctor must be honest: you document consistency with the history, you do not decide liability."
+        }
+      ],
+      "keyPoints": [
+        "Good work is good for health; prolonged absence from work harms health.",
+        "Take a full occupational history: current and past jobs, exposures, PPE, timing, co-workers, hobbies.",
+        "Safe Work Australia develops policy; state regulators enforce; the PCBU holds the primary duty.",
+        "Hierarchy of controls: elimination, substitution, engineering, administrative, PPE (last).",
+        "Workers' compensation is state-based and no-fault; Comcare covers Commonwealth employees.",
+        "The certificate of capacity focuses on what the worker can do, with specific restrictions and short review periods.",
+        "Yellow flags (fear-avoidance, low mood, workplace conflict) predict delayed return to work."
+      ],
+      "redFlags": [
+        "Symptoms that improve away from work and recur on return: suspect an occupational cause.",
+        "Several co-workers with the same illness: possible workplace outbreak or exposure; notify the regulator or PHU as appropriate."
+      ],
+      "contrast": [
+        {
+          "aspect": "Compensation system",
+          "india": "ESI Act and Employees' Compensation Act, with the Factories Act for safety; large informal workforce often uncovered.",
+          "australia": "State-based no-fault workers' compensation covering most employees, with Comcare for Commonwealth workers."
+        },
+        {
+          "aspect": "Doctor's certificate",
+          "india": "Medical certificates usually state 'unfit for duty' for a period.",
+          "australia": "Certificates of capacity describe what the worker can do (suitable duties, hours, restrictions) with early review."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "What is the most effective level in the hierarchy of controls?",
+          "back": "Elimination of the hazard. PPE is the least effective."
+        },
+        {
+          "front": "Who enforces workplace health and safety law in Australia?",
+          "back": "State and territory regulators (e.g. SafeWork NSW, WorkSafe Victoria). Safe Work Australia develops policy."
+        },
+        {
+          "front": "What should a certificate of capacity emphasise?",
+          "back": "What the worker can do: suitable duties, specific restrictions, hours, and a review date."
+        },
+        {
+          "front": "Is workers' compensation fault-based?",
+          "back": "No, it is no-fault and state-based."
+        },
+        {
+          "front": "Name three yellow flags for delayed return to work.",
+          "back": "Fear-avoidance beliefs, low mood or distress, workplace conflict or poor job satisfaction."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "occupational-health--occupational-history-and-workers-compensation--q1",
+          "discipline": "population-health",
+          "topic": "occupational-health",
+          "difficulty": "core",
+          "stem": "A 38-year-old warehouse worker in Parramatta strained his lower back lifting boxes at work yesterday. He has localised lumbar pain, no neurological symptoms or red flags, and a normal neurological examination. He can walk and sit comfortably for 30 minutes at a time. His employer has office duties available.\n\nWhat is the most appropriate work capacity certification?",
+          "options": [
+            "No capacity for any work for 6 weeks",
+            "Fit for pre-injury duties from today",
+            "Fit for suitable duties: no lifting over 5 kg, change position every 30 minutes, review in 1 week",
+            "No capacity for work until lumbar MRI is completed",
+            "Fit for suitable duties indefinitely"
+          ],
+          "answer": 2,
+          "explanation": "Non-specific acute low back pain usually improves within weeks, and staying active and connected to work speeds recovery. The certificate should focus on **capacity**: state **specific, practical restrictions** (lifting limits, postural changes, hours) that allow the employer to offer suitable duties, and set a **short review period** so restrictions can be relaxed as he improves.\n\nLong periods of \"no capacity\" encourage deconditioning and chronicity. Returning immediately to full lifting duties risks aggravation. Imaging is not indicated without red flags, and waiting for it should not keep him off work. Indefinite certification removes the regular review that drives recovery.",
+          "whyWrong": [
+            "Six weeks off work promotes deconditioning and delayed recovery.",
+            "He cannot yet safely do full manual lifting.",
+            "",
+            "MRI is not indicated for non-specific back pain without red flags.",
+            "Open-ended certification loses the regular review needed to progress return to work."
+          ],
+          "ausPearl": "Most state schemes limit the length of initial certificates and expect regular review; the principle is capacity, not incapacity.",
+          "tags": [
+            "certificate of capacity",
+            "low back pain",
+            "return to work"
+          ]
+        },
+        {
+          "id": "occupational-health--occupational-history-and-workers-compensation--q2",
+          "discipline": "population-health",
+          "topic": "occupational-health",
+          "difficulty": "foundation",
+          "stem": "A spray painter in an Adelaide car repair shop develops wheeze and breathlessness at work. The employer proposes several ways to reduce exposure to isocyanate paints.\n\nWhich control measure is highest in the hierarchy of controls?",
+          "options": [
+            "Providing respirators to all painters",
+            "Rotating painters so each works only half a day in the booth",
+            "Displaying warning signs around the booth",
+            "Replacing isocyanate paints with non-isocyanate products",
+            "Annual lung function testing of all painters"
+          ],
+          "answer": 3,
+          "explanation": "The **hierarchy of controls** ranks measures from most to least effective: **elimination**, **substitution**, **engineering** controls, **administrative** controls, then **PPE**. Replacing isocyanate paints with safer products is **substitution**, the highest option offered here (elimination of painting altogether is not feasible).\n\nRotating staff and signs are administrative controls; health monitoring such as lung function testing detects harm but does not prevent it; respirators are PPE, which depend on correct fit and use and are the last line of defence. The worker himself also needs assessment for **occupational asthma**, ideally with early removal from exposure.",
+          "whyWrong": [
+            "Respirators are PPE, the least effective level of control.",
+            "Task rotation is an administrative control, lower in the hierarchy.",
+            "Signs are administrative and do not reduce exposure.",
+            "",
+            "Health surveillance detects disease; it does not prevent exposure."
+          ],
+          "tags": [
+            "hierarchy of controls",
+            "isocyanates",
+            "occupational asthma"
+          ]
+        },
+        {
+          "id": "occupational-health--occupational-history-and-workers-compensation--q3",
+          "discipline": "population-health",
+          "topic": "occupational-health",
+          "difficulty": "exam",
+          "stem": "A 55-year-old man presents to a GP in Wollongong with 6 months of progressive breathlessness and dry cough. He is a retired school administrator. Chest examination reveals fine bibasal inspiratory crackles.\n\nWhich question is most likely to reveal the cause?",
+          "options": [
+            "\"Do you have any pets at home?\"",
+            "\"Have you ever worked in any other jobs, including when you were young?\"",
+            "\"Do you use an inhaler?\"",
+            "\"Has anyone in your family had asthma?\"",
+            "\"Do you drink alcohol?\""
+          ],
+          "answer": 1,
+          "explanation": "Occupational lung diseases often have **long latency**, so a patient's **current or most recent job may be irrelevant**. An administrator could have worked in his youth in a factory, shipyard, power station, the building trades or at an asbestos mine, and asbestosis presents with progressive breathlessness and **bibasal fine crackles** decades later.\n\nA full occupational history lists **all past jobs in order**, including holiday work, military service and home renovation. Pets are relevant for hypersensitivity pneumonitis but less likely to explain basal fibrosis in this scenario. The other questions do not address the likely cause.",
+          "whyWrong": [
+            "Pets may cause hypersensitivity pneumonitis, but past occupation is the more important gap in this history.",
+            "",
+            "Inhaler use does not identify the cause of fibrosis.",
+            "Family asthma history is not relevant to basal fibrotic crackles.",
+            "Alcohol is not a cause of pulmonary fibrosis."
+          ],
+          "tags": [
+            "occupational history",
+            "asbestosis",
+            "latency"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "occupational-health--occupational-lung-disease",
+      "title": "Asbestos, silica, coal and occupational asthma",
+      "minutes": 20,
+      "objectives": [
+        "Describe the asbestos-related diseases, their latency and Australia's asbestos history",
+        "Recognise silicosis from engineered stone and coal workers' pneumoconiosis",
+        "Diagnose occupational asthma using serial peak flows and history",
+        "Distinguish pneumoconioses, hypersensitivity pneumonitis and occupational asthma on imaging and lung function"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The Australian story",
+          "body": "**Asbestos.** Australia was one of the world's highest per-capita users of asbestos until the 1980s, in fibro houses, roofing, pipes, brake linings and insulation. Blue asbestos (crocidolite) was mined at **Wittenoom** in Western Australia until 1966. **All forms of asbestos were banned from 31 December 2003.** Australia still has one of the highest rates of **mesothelioma** in the world, with several hundred new cases a year, and a \"third wave\" of exposure affects **home renovators** and tradespeople working on buildings constructed before about 1990.\n\n**Silica from engineered stone.** Engineered (artificial) stone used for kitchen and bathroom benchtops contains very high levels of crystalline silica (often more than 90%, far more than natural granite or marble). Dry cutting and polishing produced intense exposures, and from the mid-2010s **young stonemasons** (often in their 20s to 40s) presented with **accelerated silicosis**, some needing lung transplants. Australia **banned the use, supply and manufacture of engineered stone from 1 July 2024**, the first country to do so. Silicosis also occurs in tunnelling, quarrying, construction and mining.\n\n**Coal workers' pneumoconiosis (CWP, \"black lung\")** was thought eliminated but **re-emerged in Queensland in 2015**, leading to reformed screening of coal mine workers.\n\n**Occupational asthma** is the commonest occupational lung disease in developed countries."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "How dusts damage the lung",
+          "body": "- **Asbestos fibres** are long and thin; they penetrate deep into the lung and pleura and are not cleared. Macrophages attempt to engulf them, releasing inflammatory and fibrogenic mediators, causing fibrosis (dose-related) and DNA damage (carcinogenesis).\n- **Asbestos and smoking are synergistic** for lung cancer: the risk is multiplied, not just added. Smoking does **not** increase mesothelioma risk.\n- **Mesothelioma** can follow relatively low exposure, with a latency of **30 to 40 years or more**.\n- **Crystalline silica** particles are toxic to macrophages, triggering repeated cycles of inflammation and fibrosis with silicotic nodules, mainly in the **upper lobes**. Silica also impairs macrophage killing of mycobacteria, hence the high **TB** risk, and is associated with **lung cancer**, **autoimmune disease** (rheumatoid arthritis, systemic sclerosis, SLE) and **chronic kidney disease**.\n- **Coal dust** causes coal macules and nodules, again upper lobe predominant, with progressive massive fibrosis in severe disease.\n- **Occupational asthma**: sensitiser-induced (IgE or other immune mechanisms, after a latent period of months to years) or irritant-induced (after a single high exposure, sometimes called reactive airways dysfunction syndrome). **Work-exacerbated asthma** is pre-existing asthma worsened by work.\n- **Hypersensitivity pneumonitis**: a type III/IV immune reaction to inhaled organic antigens (mouldy hay, bird proteins)."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "How they present",
+          "body": "| Condition | Key features |\n|---|---|\n| **Pleural plaques** | Asymptomatic; marker of exposure; not premalignant |\n| **Benign asbestos pleural effusion** | Earliest manifestation (within 10 to 20 years); may be painful |\n| **Diffuse pleural thickening** | Breathlessness, restriction |\n| **Asbestosis** | Progressive exertional breathlessness, dry cough, **fine bibasal inspiratory crackles**, clubbing; latency 15 to 30+ years |\n| **Mesothelioma** | Chest pain (often dull, persistent), breathlessness, weight loss, **unilateral pleural effusion**; peritoneal form causes ascites |\n| **Asbestos-related lung cancer** | As for any lung cancer; higher risk with asbestosis and smoking |\n| **Silicosis** | Chronic (after 10+ years), accelerated (5 to 10 years, typical of engineered stone), acute (months, heavy exposure); cough, breathlessness; may be asymptomatic on screening |\n| **CWP** | Often asymptomatic early; breathlessness with progressive massive fibrosis |\n| **Occupational asthma** | Wheeze, cough, chest tightness that is **worse at work and better on weekends and holidays**; rhinitis often precedes it |\n| **Hypersensitivity pneumonitis** | Fever, cough and breathlessness **4 to 8 hours after exposure** (acute), or insidious fibrosis (chronic) |\n\nCommon causes of occupational asthma in Australia: **flour and enzymes (bakers)**, **isocyanates (spray painters, polyurethane foam)**, **wood dusts (especially western red cedar)**, latex, laboratory animals, cleaning products, and seafood processing."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "**Imaging**\n\n- **Chest X-ray**: pleural plaques (calcified, \"holly leaf\" pattern on the diaphragm and chest wall), effusion, lower-zone reticulation in asbestosis, upper-zone nodules in silicosis and CWP, **eggshell calcification** of hilar nodes in silicosis. Screening programs classify films using the **ILO classification** read by trained readers.\n- **HRCT**: more sensitive for plaques, early fibrosis and nodules; distinguishes asbestosis (subpleural basal fibrosis) from other fibrotic lung diseases.\n\n**Lung function**\n\n- Pneumoconioses and fibrosis: **restrictive** pattern (reduced FVC and TLC, normal or raised FEV1/FVC) with **reduced gas transfer (DLCO)**. Silicosis can also cause mixed or obstructive patterns.\n- **Occupational asthma**: spirometry with bronchodilator response, then **serial peak expiratory flow** recordings (at least 4 times a day for about 3 to 4 weeks, covering work days and days off) showing a work-related pattern. Specific IgE or skin prick tests for some agents, and specific inhalation challenge in specialist centres.\n\n**Mesothelioma**\n\n- CT chest, pleural fluid cytology (often not diagnostic), and **pleural biopsy** (CT-guided or thoracoscopic) for histology.\n\n**Silicosis screening**: stone workers undergo health monitoring with history, spirometry, chest imaging (often low-dose CT) and screening for **latent TB** in those diagnosed. Silicosis is now reported to the **National Occupational Respiratory Disease Registry**."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Telling them apart",
+          "body": "| Feature | Asbestosis | Silicosis / CWP | Hypersensitivity pneumonitis | Idiopathic pulmonary fibrosis |\n|---|---|---|---|---|\n| Zone | **Lower**, subpleural | **Upper** | Upper and mid (chronic) | Lower, subpleural |\n| Clues | Pleural plaques, trades, shipyards, fibro | Hilar eggshell calcification, stonemason, miner | Farmer, bird keeper, symptoms hours after exposure | Older, no exposure history |\n| Extra risks | Lung cancer, mesothelioma | TB, lung cancer, autoimmune disease | Improves with antigen avoidance | Progressive |\n\nOccupational asthma is distinguished from these by **reversible airflow obstruction** and a **work-related pattern**, rather than fixed restriction."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "- **Stop further exposure**: the most important step for all occupational lung disease. For occupational asthma, **early removal** from the sensitiser gives the best chance of recovery; continued exposure leads to persistent asthma. Changing jobs has big financial consequences, so involve workers' compensation early.\n- **Smoking cessation** (especially important with asbestos exposure).\n- **Vaccination**: influenza and pneumococcal.\n- **Silicosis**: no treatment reverses it; exclude and treat **TB** (and latent TB); pulmonary rehabilitation; oxygen when indicated; refer for **lung transplant** assessment in progressive disease.\n- **Asbestosis and fibrosis**: supportive; antifibrotics may be considered by specialists in progressive fibrosis.\n- **Mesothelioma**: multidisciplinary care; pleural fluid control (therapeutic drainage, pleurodesis or indwelling pleural catheter); systemic therapy (chemotherapy or immunotherapy); early **palliative care**. Median survival is typically around 1 year.\n- **Occupational asthma**: standard asthma management (inhaled corticosteroid-based therapy) alongside removal from exposure; referral to a respiratory or occupational physician to confirm the diagnosis before any job change.\n- **Compensation and legal advice**: asbestos diseases qualify for state dust diseases schemes (for example Dust Diseases Care in NSW) and common law claims. Because survival with mesothelioma is short, advise patients to seek **legal advice early**.\n- **Notification**: mesothelioma is captured by the Australian Mesothelioma Registry; silicosis is reportable to the national occupational respiratory disease registry; some states make other dust diseases notifiable. Workers with confirmed disease should also have exposed co-workers assessed through their employer and regulator."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- **Unilateral pleural effusion with chest pain** in a retired tradesman, plumber, carpenter or shipyard worker: **mesothelioma** until proven otherwise; get **pleural biopsy**.\n- **Young stonemason** with breathlessness and upper-zone nodules: **accelerated silicosis** from engineered stone; screen for **TB**.\n- **Pleural plaques** alone: benign exposure marker, no treatment, but counsel on smoking and future risk.\n- **Asthma that improves on holidays** in a baker or spray painter: occupational asthma; **serial peak flows** at and away from work.\n- **Fever and breathlessness hours after handling mouldy hay**: hypersensitivity pneumonitis (farmer's lung).\n- Asbestos plus smoking: **multiplicative** lung cancer risk; smoking does **not** increase mesothelioma risk."
+        }
+      ],
+      "keyPoints": [
+        "Asbestos causes plaques, effusion, pleural thickening, asbestosis, lung cancer and mesothelioma; latency is decades.",
+        "Australia banned all asbestos from 31 December 2003 and still has one of the highest mesothelioma rates.",
+        "Asbestos and smoking multiply lung cancer risk; smoking does not affect mesothelioma risk.",
+        "Engineered stone (often > 90% silica) caused accelerated silicosis in young workers; banned from 1 July 2024.",
+        "Silicosis: upper-lobe nodules, eggshell hilar calcification, and high TB, lung cancer and autoimmune risk.",
+        "Coal workers' pneumoconiosis re-emerged in Queensland in 2015.",
+        "Occupational asthma: improves away from work; diagnose with serial peak flows; remove from exposure early."
+      ],
+      "redFlags": [
+        "Unilateral pleural effusion, chest pain and weight loss with past asbestos exposure: mesothelioma.",
+        "Rapidly progressive breathlessness in a young stonemason: accelerated silicosis.",
+        "Silicosis with fever, night sweats or weight loss: tuberculosis."
+      ],
+      "contrast": [
+        {
+          "aspect": "Dominant silica exposure",
+          "india": "Silicosis in stone quarrying, mining, sandblasting and agate grinding, often in informal workers.",
+          "australia": "Silicosis surged in benchtop fabricators using engineered stone, now banned nationally from July 2024."
+        },
+        {
+          "aspect": "Asbestos",
+          "india": "Asbestos cement is still widely used; chrysotile has not been banned.",
+          "australia": "Total ban since 2003; legacy exposure in old buildings drives ongoing mesothelioma and renovator risk."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "When did Australia ban all asbestos?",
+          "back": "31 December 2003."
+        },
+        {
+          "front": "When did Australia ban engineered stone?",
+          "back": "From 1 July 2024."
+        },
+        {
+          "front": "Typical latency for mesothelioma after asbestos exposure?",
+          "back": "30 to 40 years or more."
+        },
+        {
+          "front": "Which infection is strongly associated with silicosis?",
+          "back": "Tuberculosis (screen and treat latent TB)."
+        },
+        {
+          "front": "Chest X-ray sign of silicosis in hilar nodes?",
+          "back": "Eggshell calcification."
+        },
+        {
+          "front": "Key investigation to confirm occupational asthma in primary care?",
+          "back": "Serial peak flow recordings at and away from work (about 4 times daily for 3-4 weeks)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "occupational-health--occupational-lung-disease--q1",
+          "discipline": "population-health",
+          "topic": "occupational-health",
+          "difficulty": "core",
+          "stem": "A 72-year-old retired plumber in Newcastle presents with 3 months of dull right-sided chest pain, breathlessness and 6 kg weight loss. He smoked for 10 years until age 30. Chest X-ray shows a large right pleural effusion and nodular pleural thickening. Pleural fluid cytology shows atypical cells but is not diagnostic.\n\nWhat is the most appropriate next investigation?",
+          "options": [
+            "CT-guided or thoracoscopic pleural biopsy",
+            "Repeat pleural fluid cytology in 3 months",
+            "Serum mesothelin level",
+            "Sputum cytology",
+            "Bronchoscopy with bronchoalveolar lavage"
+          ],
+          "answer": 0,
+          "explanation": "A retired plumber (a trade with frequent asbestos exposure in lagging, pipes and fibro) with chest pain, weight loss, a **unilateral pleural effusion** and **nodular pleural thickening** most likely has **malignant pleural mesothelioma**. Cytology is often non-diagnostic, so **histology from a pleural biopsy** (CT-guided or at thoracoscopy, which also allows pleurodesis) is needed to confirm the diagnosis and subtype.\n\nWaiting months delays diagnosis in a disease with short survival. Mesothelin is not diagnostic. Sputum cytology and bronchoscopy sample the airways, not the pleura. He should be referred to a multidisciplinary team, offered palliative care early, and advised to seek legal advice about compensation.",
+          "whyWrong": [
+            "",
+            "Delay is inappropriate; histology is needed now.",
+            "Serum markers are not diagnostic.",
+            "Sputum samples the airways, not the pleura.",
+            "Bronchoscopy does not sample pleural disease."
+          ],
+          "ausPearl": "Advise patients with mesothelioma to get legal advice early; dust diseases compensation claims can be affected by the patient's death.",
+          "tags": [
+            "mesothelioma",
+            "asbestos",
+            "pleural effusion"
+          ]
+        },
+        {
+          "id": "occupational-health--occupational-lung-disease--q2",
+          "discipline": "population-health",
+          "topic": "occupational-health",
+          "difficulty": "exam",
+          "stem": "A 34-year-old man who has cut and polished engineered stone benchtops in Brisbane for 8 years presents with progressive exertional breathlessness and dry cough. He has never smoked. Chest CT shows multiple small upper-lobe nodules and enlarged hilar lymph nodes with eggshell calcification.\n\nIn addition to removal from exposure, which investigation is most important now?",
+          "options": [
+            "Serum ACE level",
+            "Echocardiogram",
+            "Sweat chloride test",
+            "Alpha-1 antitrypsin level",
+            "Screening for tuberculosis infection"
+          ],
+          "answer": 4,
+          "explanation": "This is **accelerated silicosis** (disease within 5 to 10 years of heavy exposure) from **engineered stone**, which contains very high levels of crystalline silica. Upper-lobe nodules and **eggshell calcification** of hilar nodes are characteristic. Silica damages macrophages and greatly increases the risk of **tuberculosis**, so he needs screening for active TB (symptoms, sputum) and **latent TB** (IGRA or tuberculin skin test), with treatment as indicated.\n\nSilicosis is also linked to lung cancer, autoimmune disease and CKD. Serum ACE is sometimes checked for sarcoidosis, which can look similar, but his exposure history makes silicosis clear. He needs referral to a respiratory physician, workers' compensation, and assessment for transplant if progressive.",
+          "whyWrong": [
+            "Sarcoidosis is less likely given the exposure; ACE levels are non-specific.",
+            "Echo may be needed later for pulmonary hypertension but is not the priority.",
+            "Cystic fibrosis is not suggested by this presentation.",
+            "Alpha-1 antitrypsin deficiency causes basal emphysema, not nodular upper-lobe disease.",
+            ""
+          ],
+          "ausPearl": "Australia banned engineered stone from 1 July 2024 in response to the silicosis epidemic among young stone workers.",
+          "tags": [
+            "silicosis",
+            "engineered stone",
+            "tuberculosis"
+          ]
+        },
+        {
+          "id": "occupational-health--occupational-lung-disease--q3",
+          "discipline": "population-health",
+          "topic": "occupational-health",
+          "difficulty": "foundation",
+          "stem": "A 26-year-old baker in Geelong has had 6 months of cough, wheeze and chest tightness, with a runny nose that began first. Her symptoms are worse by the end of each working week and improve during her annual holiday.\n\nWhat is the most appropriate investigation to support the diagnosis?",
+          "options": [
+            "Serial peak expiratory flow recordings at work and away from work",
+            "High-resolution CT chest",
+            "Methacholine challenge on a single day",
+            "Chest X-ray",
+            "Full blood count for eosinophilia"
+          ],
+          "answer": 0,
+          "explanation": "Wheeze and rhinitis that **worsen at work and improve on holidays** in a baker suggests **occupational asthma**, most likely from **flour or enzyme** sensitisation. The key test in primary care is **serial peak expiratory flow** recordings, around 4 times a day for about 3 to 4 weeks, covering work days and days off, to show a work-related pattern. Spirometry with bronchodilator response and specific IgE testing add support.\n\nConfirming the diagnosis matters because the main treatment is **early removal from exposure**, which has major work and financial consequences. A single bronchial challenge proves hyperresponsiveness but not the work link. Imaging is usually normal in asthma.",
+          "whyWrong": [
+            "",
+            "HRCT is for suspected interstitial disease, not asthma.",
+            "A single-day challenge shows hyperresponsiveness but not the link to work.",
+            "Chest X-ray is usually normal in asthma.",
+            "Eosinophilia is non-specific and does not show a work relationship."
+          ],
+          "tags": [
+            "occupational asthma",
+            "peak flow",
+            "bakers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "occupational-health--occupational-infections",
+      "title": "Q fever, leptospirosis and other occupational infections",
+      "minutes": 16,
+      "objectives": [
+        "Recognise Q fever and leptospirosis in abattoir, farm and animal workers",
+        "Choose investigations and doxycycline-based treatment for zoonotic infections",
+        "Explain Q fever vaccination and pre-vaccination screening",
+        "Manage a needlestick injury in a healthcare worker"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Zoonoses at work",
+          "body": "Many Australian workers are exposed to animals and their products: abattoir and meat workers, farmers, shearers, veterinarians, wildlife carers and feral pig hunters. The key occupational zoonoses are all **notifiable**:\n\n- **Q fever** (*Coxiella burnetii*): the classic abattoir and farm infection. Australia's notification rate is among the highest in the world, with most cases in Queensland and NSW.\n- **Leptospirosis** (*Leptospira* species): dairy farmers, banana and sugar cane workers in north Queensland, and after floods.\n- **Brucellosis**: bovine brucellosis was eradicated from Australian cattle in 1989; cases now come mainly from ***Brucella suis*** in **feral pig hunters** in Queensland.\n- **Psittacosis** (*Chlamydia psittaci*): bird handlers, poultry workers, and clusters linked to exposure to foaling horses (equine placental tissue).\n- **Hendra virus**: horses catch it from flying foxes; humans are infected by close contact with sick horses (vets, horse owners) in Queensland and northern NSW; case fatality is high. Horse vaccination is the main prevention.\n- **Australian bat lyssavirus (ABLV)**: rabies-like and fatal; wildlife carers and bat handlers need pre-exposure rabies vaccination; any bite or scratch from a bat needs urgent post-exposure management.\n\nHealthcare workers face blood-borne virus exposure through **needlestick injuries**."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "**Q fever**\n\n- Transmission by **inhaling** contaminated dust or aerosols from birth products, urine and faeces of cattle, sheep, goats (and kangaroos and other wildlife). Very infectious: a few organisms are enough. Not usually spread person to person.\n- About half of infections are asymptomatic.\n- **Acute Q fever**: abrupt high fever, **severe headache** (often retro-orbital), myalgia, sweats and fatigue; may cause **pneumonia** or **hepatitis** (raised transaminases). Incubation about 2 to 3 weeks.\n- **Chronic (persistent focal) Q fever**: months to years later, mostly **culture-negative endocarditis** (especially with pre-existing valve disease or prosthetic valves) or vascular graft infection.\n- **Post-Q fever fatigue syndrome**: prolonged fatigue after acute infection.\n- Pregnancy: risk of miscarriage and preterm birth.\n\n**Leptospirosis**\n\n- Transmission through **skin abrasions or mucous membranes** exposed to water or soil contaminated with animal urine (rats, cattle, pigs).\n- Abrupt fever, headache, severe **myalgia (especially calves)**, and **conjunctival suffusion** (red eyes without discharge) are the classic clues.\n- **Severe disease (Weil's disease)**: **jaundice, acute kidney injury** and **bleeding**, including pulmonary haemorrhage. Can be fatal.\n\n**Brucellosis**: undulating fever, night sweats, arthralgia, **sacroiliitis**, orchitis, hepatosplenomegaly; chronic relapsing course.\n\n**Psittacosis**: atypical pneumonia with headache and sometimes a relative bradycardia."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "- **Q fever**: **PCR** on blood in the first week or two; **serology** (phase II antibodies rise in acute infection; high **phase I IgG** suggests chronic infection); repeat serology to show seroconversion. LFTs often abnormal. Echocardiography if chronic infection is suspected.\n- **Leptospirosis**: **PCR** on blood (first week) and urine (later); **serology** (IgM, microscopic agglutination test) with paired samples. Check creatinine, LFTs, platelets, CK.\n- **Brucellosis**: blood cultures (**warn the laboratory**: Brucella is a laboratory infection hazard) and serology.\n- **Psittacosis**: PCR on respiratory samples and serology.\n\nThe pattern of **\"atypical pneumonia plus hepatitis plus animal exposure\"** should always prompt Q fever testing."
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment, prevention and needlestick injuries",
+          "body": "**Treatment (eTG-based; confirm doses)**\n\n| Infection | First-line |\n|---|---|\n| **Acute Q fever** | **Doxycycline 100 mg orally twice daily for 14 days** |\n| Chronic Q fever / endocarditis | Doxycycline plus hydroxychloroquine for 18 months or longer (specialist) |\n| **Leptospirosis, mild** | Doxycycline |\n| **Leptospirosis, severe** | IV benzylpenicillin or ceftriaxone, with supportive care (dialysis, ventilation) |\n| Brucellosis | Doxycycline plus rifampicin (or gentamicin) for weeks (specialist) |\n| Psittacosis | Doxycycline |\n\nDoxycycline is the common thread; alternatives are needed in pregnancy and young children (seek specialist advice).\n\n**Q fever vaccination**\n\n- The vaccine (Q-VAX) is recommended for **abattoir workers, farmers, shearers, vets and others at occupational risk** (see the Australian Immunisation Handbook).\n- **Pre-vaccination screening is mandatory**: a history, **serology** and a **skin test**. People already immune (from past infection or vaccination) can have **severe local or systemic reactions** if vaccinated, so they must not be vaccinated.\n- One dose; immunity develops over about 2 weeks.\n\n**Leptospirosis prevention**: gloves, boots, covering cuts, avoiding floodwater; doxycycline prophylaxis may be used for short high-risk exposures.\n\n**Needlestick and blood exposure in healthcare workers**\n\n1. **First aid**: wash the wound with soap and water (do not scrub or squeeze hard); irrigate mucous membranes or eyes with water or saline.\n2. **Report** immediately to the supervisor and occupational health (workers' compensation applies).\n3. **Assess the source**: with consent, test the source patient for HIV, hepatitis B and C.\n4. **Test the worker**: baseline HIV, HBV (including anti-HBs for immunity) and HCV serology.\n5. **Post-exposure prophylaxis**:\n   - **HIV**: start PEP as soon as possible, ideally within 2 hours and **no later than 72 hours**, if the source is HIV-positive with detectable viral load or unknown high-risk. Transmission risk from a needlestick with HIV-positive blood is about **0.3%**.\n   - **Hepatitis B**: if the worker is **non-immune** and the source is HBsAg-positive or unknown, give **hepatitis B immunoglobulin** and start vaccination, ideally within 72 hours. Risk of transmission can reach around 30% from an HBeAg-positive source in a non-immune worker. Vaccinated workers with documented immunity need nothing.\n   - **Hepatitis C**: **no PEP**; follow up with HCV RNA and antibody testing so that early infection can be treated with DAAs. Transmission risk is under 2%.\n6. **Follow-up** testing and counselling (safe sex and no blood donation until cleared)."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- **Abattoir worker with high fever, severe headache and raised transaminases**: acute Q fever; treat with **doxycycline for 14 days**.\n- **Before Q fever vaccine**: serology and **skin test**; do not vaccinate people already immune.\n- **Farmer with fever, calf pain, red eyes, then jaundice and AKI**: leptospirosis (Weil's disease).\n- **Feral pig hunter with fever and back pain**: brucellosis (*B. suis*).\n- **Horse vet with encephalitis or severe respiratory illness in Queensland**: Hendra virus.\n- **Bat scratch**: wash 15 minutes with soap and water, then rabies vaccine with or without immunoglobulin (ABLV).\n- **Needlestick**: HIV PEP within **72 hours**; HBIG and vaccine for **non-immune** workers; **no PEP for hepatitis C**."
+        }
+      ],
+      "keyPoints": [
+        "Q fever: inhaled Coxiella from livestock birth products; high fever, severe headache, pneumonia or hepatitis.",
+        "Acute Q fever treatment: doxycycline 100 mg twice daily for 14 days; chronic disease causes culture-negative endocarditis.",
+        "Q fever vaccine needs pre-vaccination serology and skin testing; immune people must not be vaccinated.",
+        "Leptospirosis: calf myalgia, conjunctival suffusion; Weil's disease causes jaundice, AKI and bleeding.",
+        "Brucellosis in Australia now mainly comes from feral pigs (B. suis).",
+        "Needlestick: HIV PEP within 72 hours; HBIG plus vaccine if non-immune; no PEP for hepatitis C.",
+        "Occupational zoonoses are notifiable."
+      ],
+      "redFlags": [
+        "Jaundice, oliguria or haemoptysis with fever after floodwater or farm exposure: severe leptospirosis.",
+        "Fever with a new murmur in someone with past Q fever: chronic Q fever endocarditis.",
+        "Encephalitis after contact with a sick horse (Hendra) or a bat (ABLV): life-threatening; notify urgently."
+      ],
+      "contrast": [
+        {
+          "aspect": "Leading zoonoses",
+          "india": "Leptospirosis in monsoon flooding and paddy fields; brucellosis in dairy workers.",
+          "australia": "Q fever in abattoir and farm workers; leptospirosis in north Queensland farmers; brucellosis mainly from feral pigs."
+        },
+        {
+          "aspect": "Q fever prevention",
+          "india": "No routine Q fever vaccination program.",
+          "australia": "Q-VAX for at-risk workers after mandatory serology and skin testing."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Treatment of acute Q fever?",
+          "back": "Doxycycline 100 mg orally twice daily for 14 days."
+        },
+        {
+          "front": "What must happen before Q fever vaccination?",
+          "back": "Pre-vaccination screening with history, serology and skin test; immune people are not vaccinated."
+        },
+        {
+          "front": "Classic signs of leptospirosis?",
+          "back": "Fever, severe calf myalgia and conjunctival suffusion; severe disease causes jaundice, AKI and bleeding."
+        },
+        {
+          "front": "HIV PEP after a needlestick must start within...?",
+          "back": "72 hours, ideally within 2 hours."
+        },
+        {
+          "front": "Is there post-exposure prophylaxis for hepatitis C?",
+          "back": "No. Follow up with HCV RNA and antibody testing and treat early infection."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "occupational-health--occupational-infections--q1",
+          "discipline": "population-health",
+          "topic": "occupational-health",
+          "difficulty": "core",
+          "stem": "A 29-year-old abattoir worker in Rockhampton presents with 5 days of fever to 39.8 °C, severe frontal headache, myalgia and dry cough. Chest X-ray shows patchy right lower lobe consolidation. ALT is 180 U/L. He has not been vaccinated against Q fever.\n\nWhat is the most appropriate treatment?",
+          "options": [
+            "Amoxicillin for 7 days",
+            "Ceftriaxone for 5 days",
+            "Oseltamivir for 5 days",
+            "Doxycycline for 14 days",
+            "Supportive care only"
+          ],
+          "answer": 3,
+          "explanation": "An **unvaccinated abattoir worker** with high fever, **severe headache**, **pneumonia** and **hepatitis** has **acute Q fever** until proven otherwise. Treatment is **doxycycline 100 mg twice daily for 14 days**, started empirically once blood has been taken for **PCR and serology**.\n\nBeta-lactams (amoxicillin, ceftriaxone) do not treat *Coxiella*, which is intracellular. Q fever is **notifiable**. Follow him up to check for persistent infection, especially if he has any valve disease, and remind the employer of the need for screening and vaccination of unvaccinated staff.",
+          "whyWrong": [
+            "Amoxicillin does not cover Coxiella burnetii.",
+            "Ceftriaxone does not treat Q fever.",
+            "Nothing suggests influenza; the exposure and hepatitis point to Q fever.",
+            "",
+            "Treatment shortens illness and reduces complications."
+          ],
+          "tags": [
+            "q fever",
+            "abattoir",
+            "doxycycline"
+          ]
+        },
+        {
+          "id": "occupational-health--occupational-infections--q2",
+          "discipline": "population-health",
+          "topic": "occupational-health",
+          "difficulty": "foundation",
+          "stem": "A 19-year-old man is about to start work as a shearer in western NSW. His employer requires Q fever vaccination. He has no history of Q fever.\n\nWhat must happen before he is vaccinated?",
+          "options": [
+            "No testing is needed; give the vaccine today",
+            "Serology and a skin test to check for previous immunity",
+            "A chest X-ray",
+            "A tuberculin skin test",
+            "Liver function tests"
+          ],
+          "answer": 1,
+          "explanation": "Q fever vaccine (Q-VAX) can cause **severe local and systemic reactions in people already immune** through past infection (often unrecognised) or previous vaccination. Therefore **pre-vaccination screening** is required: a history, **serology** for Q fever antibodies, and an **intradermal skin test**, read after about 7 days. Only people who are negative on both are vaccinated.\n\nImmunity develops about 2 weeks after the single dose, so vaccination should happen before he starts exposure-prone work. The Q fever vaccine has nothing to do with TB testing.",
+          "whyWrong": [
+            "Vaccinating without screening risks severe reactions in people already immune.",
+            "",
+            "Chest X-ray does not assess Q fever immunity.",
+            "The tuberculin test is for TB, not Q fever.",
+            "LFTs are not part of pre-vaccination screening."
+          ],
+          "ausPearl": "Q fever vaccination is recommended for abattoir workers, farmers, shearers, veterinarians and others at occupational risk; see the Australian Immunisation Handbook.",
+          "tags": [
+            "q fever",
+            "vaccination",
+            "occupational"
+          ]
+        },
+        {
+          "id": "occupational-health--occupational-infections--q3",
+          "discipline": "population-health",
+          "topic": "occupational-health",
+          "difficulty": "exam",
+          "stem": "A 45-year-old banana farmer from Innisfail, far north Queensland, presents after heavy rain with 6 days of fever, headache and severe calf pain. He now has jaundice and reduced urine output. Both eyes are red without discharge. Creatinine is 310 µmol/L, bilirubin 120 µmol/L and platelets 60 × 10⁹/L.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Dengue fever",
+            "Acute hepatitis A",
+            "Melioidosis",
+            "Q fever",
+            "Leptospirosis"
+          ],
+          "answer": 4,
+          "explanation": "A farmer in **north Queensland** after heavy rain, with fever, **severe calf myalgia** and **conjunctival suffusion** (red eyes without discharge), now with **jaundice, acute kidney injury and thrombocytopenia**, has **severe leptospirosis (Weil's disease)**. Infection is through skin or mucous membranes exposed to water or soil contaminated with animal urine.\n\nConfirm with **PCR** (blood and urine) and serology, and treat with **IV benzylpenicillin or ceftriaxone** plus supportive care, which may include dialysis. Watch for pulmonary haemorrhage. Dengue causes thrombocytopenia but not usually this combination of jaundice and AKI with calf pain. Melioidosis is also a wet-season north Australian infection but usually presents with pneumonia, sepsis or abscesses.",
+          "whyWrong": [
+            "Dengue does not usually cause jaundice with renal failure and conjunctival suffusion.",
+            "Hepatitis A does not cause AKI, calf myalgia and conjunctival suffusion.",
+            "Melioidosis usually presents with pneumonia, abscesses or sepsis, often in people with diabetes.",
+            "Q fever causes hepatitis and pneumonia but not this pattern of renal failure and calf pain.",
+            ""
+          ],
+          "tags": [
+            "leptospirosis",
+            "weil's disease",
+            "north queensland"
+          ]
+        },
+        {
+          "id": "occupational-health--occupational-infections--q4",
+          "discipline": "population-health",
+          "topic": "occupational-health",
+          "difficulty": "core",
+          "stem": "A 26-year-old nurse in a Melbourne hospital sustains a deep needlestick injury from a hollow-bore needle used on a patient known to have HIV with a detectable viral load. She has documented hepatitis B immunity. The injury occurred 40 minutes ago and she has washed the wound.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Baseline HIV testing and review in 6 weeks",
+            "Hepatitis B immunoglobulin",
+            "Start HIV post-exposure prophylaxis as soon as possible",
+            "Wait for the source patient's viral load before deciding",
+            "Hepatitis C post-exposure prophylaxis"
+          ],
+          "answer": 2,
+          "explanation": "A deep injury from a **hollow-bore needle** with blood from a source with **detectable HIV viral load** is a high-risk exposure. **HIV PEP** should start **as soon as possible**, ideally within 2 hours and no later than 72 hours, while baseline testing is done and the incident reported to occupational health. Don't delay PEP for extra results; it can be adjusted later.\n\nShe is **immune to hepatitis B**, so HBIG is not needed. There is **no PEP for hepatitis C**; follow-up testing allows early treatment if infection occurs. She should practise safe sex and avoid blood donation until follow-up is complete.",
+          "whyWrong": [
+            "Testing alone forgoes PEP, which is most effective when started early.",
+            "She has documented HBV immunity, so HBIG is unnecessary.",
+            "",
+            "PEP should not be delayed while awaiting further source information.",
+            "No effective post-exposure prophylaxis exists for hepatitis C."
+          ],
+          "tags": [
+            "needlestick",
+            "hiv pep",
+            "healthcare workers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "occupational-health--physical-and-chemical-hazards",
+      "title": "Noise, heat, sun, lead and farm chemicals",
+      "minutes": 17,
+      "objectives": [
+        "Diagnose noise-induced hearing loss from the audiogram and distinguish it from presbycusis",
+        "Recognise and treat heat exhaustion and heat stroke in outdoor workers",
+        "Identify lead poisoning and organophosphate toxicity, and start treatment",
+        "Distinguish irritant from allergic occupational contact dermatitis"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Physical and chemical hazards in Australia",
+          "body": "- **Noise** is one of the commonest occupational hazards (construction, manufacturing, mining, agriculture, military, music). The national **exposure standard** is an 8-hour average of **85 dB(A)** and a peak of **140 dB(C)**; above this employers must control noise and provide hearing protection and audiometric testing.\n- **Heat**: Australian summers and climate change put outdoor and indoor workers (construction, farming, mining, kitchens, warehouses) at risk of heat illness.\n- **Solar UV**: Australia has among the highest skin cancer rates in the world, and **outdoor workers** have high UV exposure; skin cancer can be a compensable occupational disease.\n- **Vibration**: hand-arm vibration from power tools (jackhammers, chainsaws, grinders) and whole-body vibration in drivers.\n- **Lead**: battery recycling, lead smelting, radiator repair, removing old lead paint (houses before about 1970), shooting and fishing sinkers. Communities near historic smelters and mines (Broken Hill, Port Pirie, Mount Isa) have environmental exposure.\n- **Pesticides**: **organophosphates** and carbamates used in agriculture.\n- **Skin**: occupational contact dermatitis in hairdressers, healthcare workers, cleaners, food handlers, construction (cement) and mechanics.\n- **Carbon monoxide**: generators, forklifts and heaters in enclosed spaces."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "**Noise-induced hearing loss (NIHL)**\n\n- Gradual, **bilateral, symmetrical sensorineural** loss, often with **tinnitus**.\n- Early difficulty hearing speech in background noise.\n- **Audiogram**: a **notch at 4 kHz** (3 to 6 kHz) with **recovery at 8 kHz**.\n- Acute loud noise causes a temporary threshold shift; repeated exposure leads to permanent loss. **Irreversible**.\n\n**Heat illness**\n\n| Condition | Features |\n|---|---|\n| Heat cramps and heat syncope | Painful cramps; fainting on standing |\n| **Heat exhaustion** | Fatigue, headache, nausea, dizziness, sweating, tachycardia; core temperature usually below 40 °C; **mental state normal** |\n| **Heat stroke** | Core temperature usually **above 40 °C** with **CNS dysfunction** (confusion, ataxia, seizures, coma); sweating may persist in exertional heat stroke; complications include rhabdomyolysis, AKI, liver injury and DIC |\n\n**Lead poisoning**\n\n- Non-specific: fatigue, irritability, headache, **abdominal pain (colic)**, constipation, arthralgia.\n- **Anaemia** (microcytic, with **basophilic stippling**), hypertension, **peripheral motor neuropathy** (wrist drop), renal impairment, reduced fertility.\n- In children: developmental and cognitive effects, even at low levels.\n\n**Organophosphate poisoning** (acetylcholinesterase inhibition)\n\n- **Muscarinic**: salivation, lacrimation, urination, diarrhoea, vomiting, **bronchorrhoea and bronchospasm**, **bradycardia**, **miosis**, sweating.\n- **Nicotinic**: fasciculations, weakness, paralysis (including respiratory muscles), sometimes tachycardia and hypertension.\n- **CNS**: confusion, seizures, coma.\n- Death is usually from respiratory failure (secretions plus weakness). Absorption may be through skin as well as ingestion or inhalation.\n\n**Hand-arm vibration syndrome**: episodic finger blanching (**secondary Raynaud's**, \"vibration white finger\"), numbness and tingling, reduced dexterity.\n\n**Occupational contact dermatitis**: hands most often affected."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "- **NIHL**: pure-tone audiometry (notch at 4 kHz); baseline and periodic audiometry in noisy workplaces.\n- **Heat stroke**: **core (rectal) temperature**, electrolytes, glucose, creatinine, CK (rhabdomyolysis), LFTs, coagulation.\n- **Lead**: **blood lead level**. The NHMRC recommends that a blood lead level **above 5 µg/dL** prompts investigation of the source. Workplace health monitoring under WHS regulations uses blood lead levels, with lower removal levels for women of reproductive capacity. FBC and film (stippling), renal function.\n- **Organophosphates**: a **clinical diagnosis**; red cell cholinesterase activity supports it but should not delay treatment.\n- **Contact dermatitis**: **patch testing** to identify allergens in suspected allergic contact dermatitis.\n- **Carbon monoxide**: **carboxyhaemoglobin** on blood gas; standard pulse oximetry reads falsely normal."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Look-alikes",
+          "body": "**Hearing loss**\n\n| | NIHL | Presbycusis | Conductive loss |\n|---|---|---|---|\n| Audiogram | Notch at 4 kHz, recovery at 8 kHz | Progressive downward slope at high frequencies, **no recovery** | Air-bone gap |\n| History | Noise exposure | Older age | Wax, effusion, otosclerosis |\n| Rinne / Weber | Rinne positive, Weber to better ear | Same | Rinne negative, Weber to affected ear |\n\n**Unilateral** or asymmetric sensorineural loss is **not** typical of NIHL and needs investigation (MRI for vestibular schwannoma).\n\n**Contact dermatitis**\n\n| | Irritant | Allergic |\n|---|---|---|\n| Frequency | **Most common** | Less common |\n| Mechanism | Direct damage (wet work, detergents, solvents) | Type IV hypersensitivity |\n| Onset | Anyone with enough exposure | Only sensitised people; spreads beyond contact area |\n| Common causes | Frequent hand washing, water, cleaning products | Nickel, rubber accelerators in gloves, hair dye (PPD), epoxy resin, chromate in cement, preservatives |\n| Test | None (clinical) | **Patch testing** |\n\n**Heat exhaustion vs heat stroke**: the discriminator is **altered mental state**, not the exact temperature."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**NIHL**: prevent further loss (remove from noise, engineering controls, hearing protection); hearing aids and support; workers' compensation. Hearing protection is PPE, the lowest control in the hierarchy.\n\n**Heat illness**\n\n- Heat exhaustion: stop work, move to shade, lie down, cool, oral fluids; observe for deterioration.\n- **Heat stroke is a medical emergency**: **cool first, transport second**. The most effective method is **cold water immersion**; otherwise evaporative cooling (spray with water and fan), ice packs to neck, axillae and groin. Aim to reduce core temperature rapidly to about 39 °C. Airway, IV fluids, treat seizures, monitor for rhabdomyolysis and AKI. Antipyretics (paracetamol) do not work.\n- Prevention: acclimatisation, shaded rest breaks, water, scheduling heavy work in cooler hours, buddy systems, recognising early symptoms.\n\n**Sun protection**: Slip (shirt), Slop (SPF 30+ sunscreen), Slap (broad-brimmed hat), Seek (shade), Slide (sunglasses); workplace controls (shade structures, scheduling) and regular skin checks for outdoor workers.\n\n**Lead**: **remove the source** (workplace removal, remediation of home paint or soil), check family members (children in particular), treat anaemia. **Chelation** is reserved for high levels or symptomatic patients, under specialist or toxicologist guidance.\n\n**Organophosphates**\n\n1. Protect staff (gloves, gowns) and **decontaminate** (remove clothing, wash skin).\n2. Airway and oxygen; many patients need intubation (avoid suxamethonium because its action is prolonged).\n3. **Atropine** in doubling doses until the **chest is clear of secretions**, heart rate is adequate and BP is maintained. Pupil size is not the target.\n4. **Pralidoxime** may be used on toxicologist advice.\n5. Call the **Poisons Information Centre (13 11 26)**.\n\n**Hand-arm vibration syndrome**: reduce exposure (low-vibration tools, limit time), keep hands warm, stop smoking; established disease may progress with continued exposure.\n\n**Occupational contact dermatitis**: identify and avoid the cause (patch testing for allergic types), appropriate gloves (cotton liners, nitrile rather than latex), emollients and barrier practices, topical corticosteroids; consider job modification for severe or persistent disease.\n\n**Carbon monoxide**: remove from exposure, **100% oxygen** by non-rebreather; discuss hyperbaric oxygen with a specialist service for severe poisoning (loss of consciousness, neurological signs, pregnancy)."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- **Audiogram with a 4 kHz notch and recovery at 8 kHz**: NIHL. **Continuous high-frequency slope in an older person**: presbycusis.\n- **Unilateral** sensorineural hearing loss is not NIHL: order an MRI.\n- **Confused worker, hot and still sweating on a building site**: exertional heat stroke; **cool immediately** (cold water immersion).\n- **Farmer with pinpoint pupils, drooling, wheeze and bradycardia**: organophosphate poisoning; **atropine** titrated to a dry chest.\n- **Microcytic anaemia with basophilic stippling, abdominal pain and wrist drop** in someone sanding old paint or recycling batteries: lead.\n- **Hairdresser or nurse with hand dermatitis**: usually **irritant** (wet work); patch test if allergic contact dermatitis is suspected."
+        }
+      ],
+      "keyPoints": [
+        "Noise exposure standard: 85 dB(A) averaged over 8 hours; peak 140 dB(C).",
+        "NIHL: bilateral symmetrical sensorineural loss with a 4 kHz notch and recovery at 8 kHz; irreversible.",
+        "Heat stroke: core temperature usually above 40 °C with CNS dysfunction; cool first (cold water immersion), transport second.",
+        "Lead: abdominal pain, anaemia with basophilic stippling, neuropathy; NHMRC investigates blood lead above 5 µg/dL.",
+        "Organophosphates: cholinergic crisis; decontaminate, atropine to dry secretions, call Poisons Information 13 11 26.",
+        "Irritant contact dermatitis (wet work) is commoner than allergic; patch test for suspected allergy.",
+        "Outdoor workers need sun protection and skin checks; skin cancer can be occupational."
+      ],
+      "redFlags": [
+        "Altered mental state in a hot worker: heat stroke, a medical emergency.",
+        "Bronchorrhoea and bradycardia after pesticide exposure: organophosphate poisoning; risk of respiratory failure.",
+        "Unilateral sensorineural hearing loss or tinnitus: exclude vestibular schwannoma.",
+        "Headache and confusion in several people in one enclosed space: carbon monoxide."
+      ],
+      "contrast": [
+        {
+          "aspect": "Heat illness",
+          "india": "Heat stroke is common in labourers during heat waves, with limited workplace heat policies.",
+          "australia": "WHS duties require employers to manage heat risk; heat stroke is treated with immediate cooling, ideally cold water immersion."
+        },
+        {
+          "aspect": "Pesticide poisoning",
+          "india": "Organophosphate poisoning is very common, often intentional ingestion.",
+          "australia": "Mainly occupational skin or inhalational exposure in farm workers; treatment guided by Poisons Information Centre (13 11 26) and toxicologists."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "National workplace noise exposure standard?",
+          "back": "85 dB(A) averaged over 8 hours; peak 140 dB(C)."
+        },
+        {
+          "front": "Audiogram finding in noise-induced hearing loss?",
+          "back": "Notch at 4 kHz (3-6 kHz) with recovery at 8 kHz, bilateral."
+        },
+        {
+          "front": "What distinguishes heat stroke from heat exhaustion?",
+          "back": "CNS dysfunction (confusion, seizures, coma), usually with core temperature above 40 °C."
+        },
+        {
+          "front": "Endpoint for atropine in organophosphate poisoning?",
+          "back": "Clear chest (dry secretions), adequate heart rate and BP, not pupil size."
+        },
+        {
+          "front": "Blood lead level the NHMRC says should prompt investigation?",
+          "back": "Above 5 µg/dL."
+        },
+        {
+          "front": "Most common type of occupational contact dermatitis?",
+          "back": "Irritant contact dermatitis (e.g. wet work)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "occupational-health--physical-and-chemical-hazards--q1",
+          "discipline": "population-health",
+          "topic": "occupational-health",
+          "difficulty": "core",
+          "stem": "A 52-year-old man who has worked in a Geelong sheet-metal factory for 25 years complains of difficulty hearing conversations in noisy rooms and constant ringing in both ears. Otoscopy is normal. Audiometry shows bilateral symmetrical sensorineural loss, worst at 4 kHz, with improvement at 8 kHz.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Noise-induced hearing loss",
+            "Presbycusis",
+            "Otosclerosis",
+            "Bilateral vestibular schwannoma",
+            "Ménière's disease"
+          ],
+          "answer": 0,
+          "explanation": "**Noise-induced hearing loss** gives a **bilateral, symmetrical sensorineural** loss with a characteristic **notch at 4 kHz** (3 to 6 kHz) and **recovery at 8 kHz**, often with tinnitus and difficulty hearing speech in background noise. His long history of factory noise fits.\n\n**Presbycusis** causes a steadily sloping high-frequency loss **without** recovery at 8 kHz. Otosclerosis is conductive (air-bone gap). Vestibular schwannoma usually gives unilateral loss. Ménière's disease causes episodic vertigo with fluctuating low-frequency loss. Management: prevent further exposure (noise controls, hearing protection), hearing aids and workers' compensation.",
+          "whyWrong": [
+            "",
+            "Presbycusis gives a continuous high-frequency slope without recovery at 8 kHz.",
+            "Otosclerosis causes a conductive loss with an air-bone gap.",
+            "Vestibular schwannoma usually causes unilateral asymmetric loss.",
+            "Ménière's causes episodic vertigo and low-frequency fluctuating loss."
+          ],
+          "tags": [
+            "noise-induced hearing loss",
+            "audiometry",
+            "occupational"
+          ]
+        },
+        {
+          "id": "occupational-health--physical-and-chemical-hazards--q2",
+          "discipline": "population-health",
+          "topic": "occupational-health",
+          "difficulty": "exam",
+          "stem": "A 24-year-old roofer collapses on a building site in Brisbane on a 38 °C afternoon. He is confused and agitated, sweating profusely, HR 140 bpm, BP 95/60 mmHg. Rectal temperature is 41.2 °C.\n\nWhat is the most important immediate management?",
+          "options": [
+            "Give oral paracetamol and oral fluids",
+            "Transfer to hospital by ambulance before starting treatment",
+            "Give intravenous dantrolene",
+            "Rest in the shade and reassess in 30 minutes",
+            "Rapid cooling, ideally by cold water immersion"
+          ],
+          "answer": 4,
+          "explanation": "Confusion with a core temperature above 40 °C during exertion in heat is **exertional heat stroke**, a medical emergency. Mortality and organ damage relate to how long the temperature stays high, so the priority is **rapid cooling: cool first, transport second**. **Cold water immersion** is the most effective method; evaporative cooling (water spray and fanning) and ice packs to the neck, axillae and groin are alternatives.\n\nSweating does not exclude heat stroke; in exertional cases the patient often keeps sweating. **Antipyretics do not work**, because the hypothalamic set point is normal. Dantrolene has no proven role. Then give IV fluids and watch for rhabdomyolysis, AKI, liver injury and DIC.",
+          "whyWrong": [
+            "Paracetamol does not lower temperature in heat stroke.",
+            "Delaying cooling until arrival at hospital worsens outcomes.",
+            "Dantrolene is for malignant hyperthermia, not heat stroke.",
+            "Observation alone is dangerous; he has CNS dysfunction and needs active cooling.",
+            ""
+          ],
+          "tags": [
+            "heat stroke",
+            "outdoor workers",
+            "cooling"
+          ]
+        },
+        {
+          "id": "occupational-health--physical-and-chemical-hazards--q3",
+          "discipline": "population-health",
+          "topic": "occupational-health",
+          "difficulty": "core",
+          "stem": "A 46-year-old farmer from the Riverina is brought to the emergency department after spraying crops. He has vomiting, diarrhoea, profuse sweating and drooling, and is wheezy with copious bronchial secretions. HR 44 bpm, pupils pinpoint, muscle fasciculations are visible.\n\nAfter decontamination and airway support, which drug should be given first?",
+          "options": [
+            "Adrenaline",
+            "Naloxone",
+            "Flumazenil",
+            "Atropine",
+            "Physostigmine"
+          ],
+          "answer": 3,
+          "explanation": "This is **organophosphate poisoning** (acetylcholinesterase inhibition) with **muscarinic** effects (salivation, sweating, diarrhoea, bronchorrhoea, bradycardia, miosis) and **nicotinic** effects (fasciculations). Death usually comes from respiratory failure caused by secretions and weakness.\n\nAfter protecting staff, decontaminating and supporting the airway, give **atropine** in doubling doses until the **chest is clear**, heart rate is adequate and BP is maintained; pupil size is not a target. **Pralidoxime** may be added on toxicologist advice, and the **Poisons Information Centre (13 11 26)** can guide management. Naloxone treats opioids; flumazenil treats benzodiazepines; physostigmine would worsen cholinergic toxicity.",
+          "whyWrong": [
+            "Adrenaline does not reverse muscarinic excess.",
+            "Naloxone reverses opioids; miosis here is cholinergic.",
+            "Flumazenil reverses benzodiazepines and may provoke seizures.",
+            "",
+            "Physostigmine is an anticholinesterase and would worsen toxicity."
+          ],
+          "tags": [
+            "organophosphate",
+            "toxicology",
+            "farm workers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "occupational-health--fitness-for-work-and-driving",
+      "title": "Fitness to drive, FIFO and psychosocial health",
+      "minutes": 15,
+      "objectives": [
+        "Apply the Austroads standards and explain the difference between private and commercial licences",
+        "Describe the doctor's and patient's legal duties about notifying driver licensing authorities",
+        "Recognise the mental health risks of fly-in fly-out work, shift work and psychosocial hazards",
+        "Handle pre-employment and fitness-for-duty assessments while protecting confidentiality"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Fitness for duty in Australia",
+          "body": "Doctors are often asked whether a person is fit to drive or fit to work. The key Australian reference for driving is **Assessing Fitness to Drive**, published by **Austroads** and the National Transport Commission, which sets national medical standards used by all state and territory licensing authorities.\n\nThe standards have **two levels**:\n\n- **Private** standards: cars and motorcycles.\n- **Commercial** standards: **heavy vehicles**, **public passenger vehicles** (buses, taxis, rideshare in some states) and **dangerous goods** vehicles. These are **stricter**, because commercial drivers spend longer on the road, drive larger vehicles and carry passengers or hazardous loads.\n\nThe standards cover blackouts and seizures, cardiovascular disease, diabetes, sleep disorders, vision, neurological conditions (including dementia), psychiatric conditions, substance misuse and musculoskeletal problems. For many conditions a **conditional licence** can be issued (for example, subject to treatment adherence and regular review)."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Legal duties and key examples",
+          "body": "**Who must tell the licensing authority?**\n\n- The **licence holder** is legally responsible for notifying the driver licensing authority of any permanent or long-term condition that may affect safe driving.\n- The **doctor's duty** is to assess, advise the patient clearly (and document it) that they should not drive or must notify the authority, and explain the risks, including to insurance cover.\n- If a patient continues to drive despite advice and poses a risk, the doctor **may report** to the licensing authority. All jurisdictions give legal protection to doctors who report in good faith. **Mandatory reporting by doctors applies only in South Australia and the Northern Territory.** In other states it is a professional judgement to breach confidentiality in the public interest.\n\n**Examples to know** (always check the current Austroads standard for exact criteria and time periods)\n\n| Condition | Key points |\n|---|---|\n| **Seizures and epilepsy** | Required seizure-free periods before driving; commercial drivers need much longer seizure-free periods (years rather than months) than private drivers |\n| **Acute myocardial infarction** | Private drivers generally should not drive for at least **2 weeks**, commercial drivers at least **4 weeks** |\n| **Obstructive sleep apnoea** | Excessive daytime sleepiness or a history of sleep-related crashes means unfit until treated; commercial drivers with suspected OSA need a sleep study, and conditional licences depend on CPAP adherence |\n| **Diabetes** | Main risk is hypoglycaemia; insulin-treated commercial drivers need specialist review for a conditional licence; people on insulin or sulfonylureas should check glucose before driving (Australian guidance: **\"above 5 to drive\"**) and stop driving if hypoglycaemic symptoms occur |\n| **Vision** | Minimum visual acuity and visual field requirements, stricter for commercial licences |\n| **Dementia** | Diagnosis does not automatically mean stopping driving; assess function, often with an occupational therapy driving assessment; conditional licence with regular review |\n| **Syncope** | Depends on cause and recurrence risk; commercial standards stricter |\n\n**Pre-employment and fitness-for-duty assessments**\n\n- When you examine someone on behalf of an employer, your role is different from being their treating doctor. Explain this at the start.\n- Obtain **consent** to report. In general, report to the employer **only the conclusion about fitness** (fit, fit with restrictions, unfit) and the necessary restrictions, not the full medical history, unless the worker consents.\n- Safety-critical workers (pilots, rail workers, commercial drivers, mine workers) have industry-specific medical standards and often drug and alcohol testing."
+        },
+        {
+          "kind": "application",
+          "heading": "FIFO, shift work and psychosocial hazards",
+          "body": "**Fly-in fly-out (FIFO) and drive-in drive-out work**\n\nLarge numbers of Australians, especially in the mining and resources sectors of **WA and Queensland**, work rosters (for example 2 weeks on, 1 week off) at remote sites and fly home between swings.\n\n- Higher rates of **psychological distress**, **risky alcohol and other drug use**, and concern about **suicide** than the general population, particularly with compressed rosters.\n- Contributing factors: long shifts (often 12 hours), isolation from family and social supports, fatigue, camp living, sexual harassment (a recognised problem in the industry), and stress in relationships during transitions home.\n- Family impacts: partners effectively single-parenting during swings, and children affected by repeated absences.\n- Doctors should ask about roster patterns, sleep, alcohol, mood and relationships; screen with tools such as the K10; and know about employee assistance programs (EAPs), telehealth psychology and industry-specific support services.\n\n**Shift work and fatigue**\n\n- Circadian disruption causes **shift work sleep disorder**, fatigue, and increased risk of **accidents** (including driving home after night shifts), gastrointestinal problems, and cardiometabolic disease.\n- Advice: prioritise sleep (dark, quiet room, consistent routine), strategic naps, avoid caffeine late in the shift, forward-rotating rosters, and never drive when drowsy.\n- Fatigue is a recognised WHS hazard, and heavy vehicle drivers are subject to legislated work and rest hours.\n\n**Psychosocial hazards**\n\n- WHS regulations in most jurisdictions now explicitly require employers to identify and control **psychosocial hazards** (for example high job demands, low control, poor support, bullying, harassment including sexual harassment, occupational violence, traumatic events, poor organisational change management), with codes of practice from Safe Work Australia.\n- **Psychological injury** claims are among the costliest workers' compensation claims, with the longest time off work.\n- High-risk groups include emergency services workers (with presumptive PTSD provisions in some states), healthcare workers and teachers.\n\n**Worked example.** A 35-year-old FIFO miner presents on his week off with poor sleep, irritability and drinking 8 to 10 standard drinks a night since returning home. The best approach: explore mood, suicide risk and alcohol use (AUDIT), ask about roster, camp and family stresses, provide brief intervention for alcohol, consider a Mental Health Treatment Plan, and discuss support available through his employer's EAP, while respecting his confidentiality."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- **Commercial driver** questions: the **commercial standard** is stricter than private; know that the patient, not the doctor, has the legal duty to notify (except in SA and NT, where doctors must report).\n- **Patient refuses to stop driving and is unsafe**: advise, document, and if they persist, you **may notify the licensing authority**, with legal protection for good-faith reporting.\n- **Diabetes on insulin**: check glucose before driving; **above 5 to drive**; stop at the first sign of hypoglycaemia and do not drive until recovered.\n- **Truck driver with snoring and daytime sleepiness**: arrange a sleep study; not fit for commercial driving until OSA is treated.\n- **Pre-employment medical**: tell the employer only about **fitness and restrictions**, with consent.\n- **FIFO worker with low mood and alcohol use**: screen for suicide risk and use the full range of supports."
+        }
+      ],
+      "keyPoints": [
+        "Austroads 'Assessing Fitness to Drive' sets national private and commercial medical standards.",
+        "Commercial standards (heavy, passenger, dangerous goods vehicles) are stricter than private.",
+        "The licence holder must notify the licensing authority; doctors may report unsafe drivers, and must in SA and NT.",
+        "After an MI, private drivers generally wait at least 2 weeks, commercial drivers at least 4 weeks.",
+        "Insulin or sulfonylurea users: check glucose before driving (above 5 to drive).",
+        "FIFO workers have higher rates of psychological distress and risky drinking; ask about rosters, sleep, mood and alcohol.",
+        "Employers must now manage psychosocial hazards under WHS law.",
+        "In employer-requested assessments, report only fitness and restrictions, with consent."
+      ],
+      "redFlags": [
+        "Commercial driver with excessive daytime sleepiness or a recent crash: stop commercial driving until assessed.",
+        "Hypoglycaemia unawareness in a driver on insulin: unfit to drive until resolved.",
+        "FIFO worker with hopelessness or suicidal thoughts: urgent risk assessment and safety planning."
+      ],
+      "contrast": [
+        {
+          "aspect": "Driving fitness",
+          "india": "Medical certificate (Form 1A) for transport licences, often a brief examination.",
+          "australia": "Detailed Austroads standards, stricter for commercial drivers, with conditional licences and periodic review."
+        },
+        {
+          "aspect": "Reporting unsafe drivers",
+          "india": "No established framework for doctors to report unsafe drivers.",
+          "australia": "Driver must self-report; doctors may report with legal protection, and must report in SA and NT."
+        },
+        {
+          "aspect": "Work-related mental health",
+          "india": "Little formal regulation of psychosocial hazards at work.",
+          "australia": "WHS law requires employers to manage psychosocial hazards; FIFO mental health is a recognised concern."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "What publication sets Australian medical standards for driving?",
+          "back": "Assessing Fitness to Drive (Austroads and the National Transport Commission)."
+        },
+        {
+          "front": "Which vehicles fall under the commercial driving standard?",
+          "back": "Heavy vehicles, public passenger vehicles and dangerous goods vehicles."
+        },
+        {
+          "front": "In which jurisdictions must doctors report unfit drivers?",
+          "back": "South Australia and the Northern Territory."
+        },
+        {
+          "front": "Driving rule for people on insulin (Australian guidance)?",
+          "back": "Check glucose before driving: 'above 5 to drive'."
+        },
+        {
+          "front": "Minimum non-driving period after an MI (private vs commercial)?",
+          "back": "At least 2 weeks private; at least 4 weeks commercial (check current Austroads)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "occupational-health--fitness-for-work-and-driving--q1",
+          "discipline": "population-health",
+          "topic": "occupational-health",
+          "difficulty": "core",
+          "stem": "A 51-year-old long-haul truck driver in Toowoomba has loud snoring, witnessed apnoeas and falls asleep while waiting at traffic lights. His Epworth Sleepiness Scale score is 17. BMI 38 kg/m².\n\nWhat is the most appropriate advice regarding his driving?",
+          "options": [
+            "He can continue commercial driving while awaiting a sleep study if he drinks coffee",
+            "He must stop driving permanently",
+            "He should not drive commercially until obstructive sleep apnoea is assessed and effectively treated",
+            "No restriction is needed because he has had no crashes",
+            "He can drive at night only, when traffic is lighter"
+          ],
+          "answer": 2,
+          "explanation": "He has probable **obstructive sleep apnoea** with **excessive daytime sleepiness** (falling asleep at traffic lights, Epworth 17). Under the **Austroads commercial standard**, a driver with suspected OSA and excessive sleepiness is **not fit to drive commercially** until the condition has been assessed (sleep study) and **effectively treated**, typically with CPAP, after which a **conditional licence** can be considered, subject to adherence and regular review.\n\nHe has the legal duty to notify the licensing authority; the doctor must advise him clearly and document it. Caffeine does not remove the risk, and night driving increases circadian sleepiness. OSA is treatable, so a permanent ban is not required.",
+          "whyWrong": [
+            "Caffeine does not make a sleepy driver safe.",
+            "Treated OSA usually allows a conditional licence.",
+            "",
+            "Waiting for a crash is unsafe; sleepiness alone makes him unfit.",
+            "Night driving worsens sleepiness."
+          ],
+          "tags": [
+            "osa",
+            "fitness to drive",
+            "commercial driver"
+          ]
+        },
+        {
+          "id": "occupational-health--fitness-for-work-and-driving--q2",
+          "discipline": "population-health",
+          "topic": "occupational-health",
+          "difficulty": "exam",
+          "stem": "A 67-year-old man in Sydney with poorly controlled epilepsy had a seizure 3 weeks ago. You advise him not to drive. At his next visit his wife tells you he is still driving daily and he says he will continue because he needs the car.\n\nWhat is the most appropriate action?",
+          "options": [
+            "Maintain confidentiality and take no further action",
+            "Tell him again, document the discussion, and notify the licensing authority if he continues to drive",
+            "Call the police immediately",
+            "Stop his antiepileptic medicines until he agrees not to drive",
+            "Ask his wife to hide his car keys and take no other action"
+          ],
+          "answer": 1,
+          "explanation": "The **licence holder** has the legal duty to notify the licensing authority of a condition affecting driving. The doctor's duty is to **advise clearly** and **document**. When a patient **continues to drive despite advice** and poses a risk to himself and others, the doctor **may notify the licensing authority** in the public interest; every jurisdiction protects doctors who report in good faith. In NSW this is discretionary (mandatory reporting applies only in SA and the NT).\n\nBest practice is to tell him you will make the report, and to keep treating him. Police involvement is not the usual route, and withholding treatment is unethical. Enlisting family alone does not address the ongoing risk.",
+          "whyWrong": [
+            "Confidentiality can be breached when there is a serious risk to public safety.",
+            "",
+            "The licensing authority, not the police, is the appropriate body.",
+            "Withholding treatment is unethical and increases seizure risk.",
+            "Informal measures do not replace notifying the authority when he refuses to stop."
+          ],
+          "ausPearl": "Mandatory reporting of unfit drivers by doctors applies only in South Australia and the Northern Territory; elsewhere doctors may report and are legally protected.",
+          "tags": [
+            "fitness to drive",
+            "epilepsy",
+            "confidentiality"
+          ]
+        },
+        {
+          "id": "occupational-health--fitness-for-work-and-driving--q3",
+          "discipline": "population-health",
+          "topic": "occupational-health",
+          "difficulty": "foundation",
+          "stem": "A 42-year-old woman with type 2 diabetes treated with basal insulin and metformin works as a courier driving a car in Perth. She asks what she should do before driving each day.\n\nWhat is the most appropriate advice?",
+          "options": [
+            "No precautions are needed with basal insulin",
+            "Check her blood glucose before driving and only drive if it is above 5 mmol/L",
+            "Skip her insulin dose on work days",
+            "Drive only if she has eaten within the past 6 hours",
+            "Check her HbA1c monthly"
+          ],
+          "answer": 1,
+          "explanation": "The main driving risk with **insulin** (and sulfonylureas) is **hypoglycaemia**. Australian guidance (Austroads and the Australian Diabetes Society) is **\"above 5 to drive\"**: check glucose before driving and every 2 hours on long drives, carry fast-acting carbohydrate, and stop and treat at the first symptoms of hypoglycaemia, waiting until fully recovered (usually 30 minutes or more after glucose normalises) before driving again.\n\nSkipping insulin causes hyperglycaemia and is not appropriate. HbA1c reflects long-term control, not driving-time risk. She must also meet the relevant Austroads standard for her licence class; a car licence uses the private standard, though commercial passenger work may require the commercial standard depending on the state.",
+          "whyWrong": [
+            "Basal insulin can still cause hypoglycaemia.",
+            "",
+            "Omitting insulin causes hyperglycaemia and is unsafe.",
+            "A time since eating does not guarantee a safe glucose level.",
+            "HbA1c does not reflect glucose at the time of driving."
+          ],
+          "tags": [
+            "diabetes",
+            "driving",
+            "hypoglycaemia"
+          ]
+        },
+        {
+          "id": "occupational-health--fitness-for-work-and-driving--q4",
+          "discipline": "population-health",
+          "topic": "occupational-health",
+          "difficulty": "core",
+          "stem": "A 33-year-old man working fly-in fly-out on a 2-weeks-on, 1-week-off roster at a Pilbara mine sees a GP in Perth during his week off. He reports poor sleep, irritability, frequent arguments with his partner, and drinking about 10 standard drinks most nights at home. He denies suicidal intent but says he feels 'trapped' by the money.\n\nWhat is the most appropriate first step?",
+          "options": [
+            "Prescribe a benzodiazepine for sleep",
+            "Advise him to resign from FIFO work",
+            "Notify his employer about his drinking",
+            "Assess mood and suicide risk and use a structured alcohol screen such as AUDIT",
+            "Refer him directly to an inpatient detox unit"
+          ],
+          "answer": 3,
+          "explanation": "FIFO workers have higher rates of **psychological distress**, **risky drinking** and concern about **suicide**, driven by long shifts, isolation, fatigue and family strain. Feeling \"trapped\" deserves careful exploration. The first step is a thorough **assessment**: mood (for example with the K10), **suicide risk**, and alcohol use with a structured tool such as the **AUDIT**, plus sleep, roster and relationship stresses.\n\nThen provide brief intervention for alcohol, consider a Mental Health Treatment Plan, discuss employer EAP and FIFO-specific supports, and review regularly. Benzodiazepines are risky with heavy drinking. Telling his employer without consent breaches confidentiality. Advising resignation or immediate detox is premature before assessment.",
+          "whyWrong": [
+            "Benzodiazepines with heavy alcohol use risk dependence and respiratory depression.",
+            "Job decisions are his to make; assessment and support come first.",
+            "Disclosing to his employer without consent breaches confidentiality.",
+            "",
+            "Inpatient detox is premature without assessing dependence and withdrawal risk."
+          ],
+          "tags": [
+            "fifo",
+            "alcohol",
+            "mental health"
+          ]
+        }
+      ]
+    }
+  ]
+}

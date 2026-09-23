@@ -1,0 +1,765 @@
+{
+  "topic": "psychosis",
+  "intro": "Psychosis is a regular AMC theme because it is common in Australian emergency departments (often driven by methamphetamine), because missing an organic cause is dangerous, and because antipsychotics carry serious, testable adverse effects. This topic covers recognising schizophrenia and related disorders, working up a first episode, choosing and monitoring antipsychotics (including clozapine and neuroleptic malignant syndrome), and how people with severe mental illness are cared for in the Australian community and under the law.",
+  "lessons": [
+    {
+      "id": "psychosis--schizophrenia-spectrum",
+      "title": "Schizophrenia and the psychotic disorders",
+      "minutes": 15,
+      "objectives": [
+        "Define psychosis and describe positive, negative and cognitive symptoms",
+        "Apply DSM-5 duration criteria to separate brief psychotic disorder, schizophreniform disorder and schizophrenia",
+        "Distinguish schizoaffective disorder, delusional disorder and mood disorder with psychotic features",
+        "Describe the mental state examination findings the AMC uses in vignettes"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "What psychosis is",
+          "body": "**Psychosis** means loss of contact with reality: hallucinations, delusions, or disorganised thinking and behaviour. It is a syndrome, not a diagnosis, and can be caused by primary psychiatric illness, drugs, or medical conditions.\n\n**Schizophrenia** affects roughly 1 in 100 people over a lifetime. It usually begins in late adolescence or early adulthood, slightly earlier in men. In Australia, people with psychotic illness die an estimated 10-20 years earlier than the general population, mostly from **cardiovascular disease**, smoking-related illness and diabetes, not suicide alone. That mortality gap drives the strong Australian emphasis on physical health monitoring."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why it happens",
+          "body": "- **Genetics:** a first-degree relative raises risk about tenfold; identical twin concordance is around 40-50%.\n- **Neurodevelopment:** obstetric complications, winter birth, advanced paternal age, childhood adversity, migration and urban upbringing.\n- **Cannabis**, especially heavy use of high-potency cannabis in adolescence, roughly doubles risk and brings forward onset. **Methamphetamine** causes acute psychosis and can precipitate an underlying illness.\n- **Dopamine hypothesis:** excess dopamine in the **mesolimbic** pathway produces positive symptoms; reduced dopamine in the **mesocortical** pathway is linked to negative and cognitive symptoms. Blocking D2 receptors (antipsychotics) reduces positive symptoms, and blockade in the **nigrostriatal** pathway causes extrapyramidal side effects, while in the **tuberoinfundibular** pathway it raises prolactin. Learn the four pathways: they explain the side effects.\n- Glutamate (NMDA receptor hypofunction) also contributes, which is why ketamine and anti-NMDA receptor encephalitis can mimic psychosis."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Symptoms and the mental state examination",
+          "body": "**Positive symptoms** (added experiences):\n- **Delusions:** fixed, false beliefs, out of keeping with culture, held despite evidence. Persecutory is most common; also reference (the TV is talking about me), grandiose, control (passivity), and thought insertion, withdrawal or broadcasting.\n- **Hallucinations:** most often **auditory**: voices commenting on the person or discussing them in the third person. Visual, olfactory or tactile hallucinations should make you think of **organic or drug causes**.\n- **Formal thought disorder:** loosening of associations, derailment, tangentiality, neologisms, word salad.\n- **Disorganised or catatonic behaviour.**\n\n**Negative symptoms** (lost function), the \"5 As\": **affective blunting, alogia** (poverty of speech), **avolition, anhedonia, asociality**. They respond poorly to medication and cause most long-term disability.\n\n**Cognitive symptoms:** poor attention, working memory and executive function.\n\n**DSM-5 schizophrenia:** 2 or more of delusions, hallucinations, disorganised speech, grossly disorganised or catatonic behaviour, negative symptoms (at least one of the first three), with **continuous signs of disturbance for at least 6 months**, including at least **1 month of active symptoms**, and decline in social or occupational function.\n\nA **prodrome** often precedes the first episode by months: social withdrawal, falling school or work performance, odd beliefs, suspiciousness, poor self-care. Young people with these features may meet criteria for an \"at risk mental state\" and should be referred to youth early intervention services.\n\n**Typical MSE in a vignette:** dishevelled, guarded or perplexed, responding to unseen stimuli, incongruent or blunted affect, disorganised speech, persecutory delusions, auditory hallucinations, orientation intact (clear consciousness), poor insight. **Clouded consciousness or disorientation suggests delirium, not schizophrenia.**"
+        },
+        {
+          "kind": "differentials",
+          "heading": "Sorting the psychotic disorders",
+          "body": "| Disorder | Key features |\n|---|---|\n| **Brief psychotic disorder** | Psychotic symptoms 1 day to less than 1 month, then full return to baseline; often after a major stressor or postpartum. |\n| **Schizophreniform disorder** | Schizophrenia-like illness for 1 month to less than 6 months. |\n| **Schizophrenia** | 6 months or more of disturbance, at least 1 month active. |\n| **Schizoaffective disorder** | Mood episodes (manic or depressive) for most of the illness, **plus at least 2 weeks of psychosis without mood symptoms**. |\n| **Mood disorder with psychotic features** | Psychosis occurs **only during** mood episodes; content usually mood-congruent (guilt in depression, grandiosity in mania). |\n| **Delusional disorder** | One or more non-bizarre delusions for 1 month or more (e.g. jealousy, erotomania, somatic), otherwise normal functioning; hallucinations absent or minor. |\n| **Substance/medication-induced** | Onset during intoxication or withdrawal; resolves with abstinence (typically days to a few weeks for methamphetamine). |\n| **Psychosis due to a medical condition** | Delirium, epilepsy (temporal lobe), encephalitis, tumour, thyroid, SLE, B12 deficiency, HIV, syphilis. |\n\nAlso consider **autism spectrum disorder** (odd beliefs and social difficulty but lifelong, without true psychosis), **schizotypal personality disorder**, and **cultural beliefs** shared by the person's community, which are not delusions."
+        },
+        {
+          "kind": "management",
+          "heading": "Management principles and prognosis",
+          "body": "Management is covered in the next lessons, but the frame is worth holding from the start:\n\n- **Assess risk** at every contact: suicide (about 5% lifetime, highest early in the illness and after discharge), violence (mostly linked to substance use and untreated illness; people with schizophrenia are more often victims than perpetrators), self-neglect and vulnerability to exploitation.\n- **Biological:** a second-generation antipsychotic, started low; clozapine for resistance.\n- **Psychological:** CBT for psychosis, family psychoeducation, cognitive remediation.\n- **Social:** housing, income, education and employment support, and case management through community mental health.\n- **Physical health:** metabolic monitoring, smoking cessation, dental and cancer screening.\n\n**Prognosis:** roughly a fifth of people have a single episode with good recovery, most have a relapsing course with some residual symptoms, and a minority have a chronic, disabling course. **Good prognostic features:** acute onset, clear precipitant, older age at onset, female sex, prominent mood symptoms, good premorbid function, short duration of untreated psychosis and family support. **Poor features:** insidious onset, prominent negative symptoms, male sex, early onset, ongoing substance use."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Duration questions are frequent: count months carefully. 3 months of psychosis in a 20-year-old = **schizophreniform**.\n- Visual hallucinations plus fluctuating attention in a medical ward = **delirium**.\n- Psychosis only when depressed = psychotic depression; psychosis persisting after mood recovery = schizoaffective or schizophrenia.\n- A 50-year-old woman convinced her husband is unfaithful, otherwise functioning = **delusional disorder** (jealous type).\n- Third-person running commentary and thought broadcasting are classic \"first-rank\" style symptoms of schizophrenia."
+        }
+      ],
+      "keyPoints": [
+        "Psychosis = delusions, hallucinations, disorganisation; a syndrome with psychiatric, drug and medical causes.",
+        "Schizophrenia requires 6 months of disturbance including 1 month of active symptoms.",
+        "Brief psychotic disorder: under 1 month; schizophreniform: 1-6 months.",
+        "Negative symptoms (blunting, alogia, avolition, anhedonia, asociality) drive long-term disability.",
+        "Visual, tactile or olfactory hallucinations and clouded consciousness point to organic or drug causes.",
+        "Dopamine pathways explain both antipsychotic benefit and side effects.",
+        "People with psychotic illness die 10-20 years early, mainly from cardiovascular disease."
+      ],
+      "redFlags": [
+        "Command hallucinations to harm self or others",
+        "Clouded consciousness, disorientation or fluctuating attention (delirium)",
+        "Psychosis with fever, seizures, dyskinesia or reduced consciousness (encephalitis)",
+        "First episode with focal neurological signs or onset after age 40",
+        "Severe self-neglect or catatonia"
+      ],
+      "contrast": [
+        {
+          "aspect": "Diagnostic system",
+          "india": "ICD-10/ICD-11 used in Indian clinical practice and teaching.",
+          "australia": "DSM-5 criteria dominate AMC questions, though ICD is used for coding."
+        },
+        {
+          "aspect": "Onset in young people",
+          "india": "First episode often seen in general psychiatry OPD after long duration of untreated psychosis.",
+          "australia": "Youth early intervention services (e.g. headspace early psychosis, Orygen model) aim to shorten untreated psychosis."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "DSM-5 duration for schizophrenia?",
+          "back": "At least 6 months of disturbance, including at least 1 month of active-phase symptoms."
+        },
+        {
+          "front": "Duration of schizophreniform disorder?",
+          "back": "1 month to less than 6 months."
+        },
+        {
+          "front": "Which dopamine pathway causes positive symptoms when overactive?",
+          "back": "Mesolimbic."
+        },
+        {
+          "front": "Blocking which dopamine pathway raises prolactin?",
+          "back": "Tuberoinfundibular."
+        },
+        {
+          "front": "What distinguishes schizoaffective disorder from psychotic depression?",
+          "back": "At least 2 weeks of psychosis without prominent mood symptoms."
+        },
+        {
+          "front": "List the negative symptoms of schizophrenia.",
+          "back": "Affective blunting, alogia, avolition, anhedonia, asociality."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "psychosis--schizophrenia-spectrum--q1",
+          "discipline": "mental-health",
+          "topic": "psychosis",
+          "difficulty": "foundation",
+          "stem": "A 21-year-old man is brought to his GP by his mother. Over the last 3 months he has stopped attending TAFE, stays in his room, and believes his neighbours have put cameras in the light fittings to broadcast his thoughts. He hears two voices discussing him. He is fully oriented. Urine drug screen is negative and he denies substance use. Physical examination is normal.\n\nWhich one of the following is the most likely diagnosis?",
+          "options": [
+            "Brief psychotic disorder",
+            "Schizophrenia",
+            "Delusional disorder",
+            "Schizophreniform disorder",
+            "Schizotypal personality disorder"
+          ],
+          "answer": 3,
+          "explanation": "He has **persecutory delusions, thought broadcasting and third-person auditory hallucinations** with functional decline, in clear consciousness and without drugs. The symptoms have lasted **3 months**.\n\nDSM-5 categories depend on duration: under 1 month is brief psychotic disorder; **1 to less than 6 months is schizophreniform disorder**; 6 months or more is schizophrenia. About two-thirds of people with schizophreniform disorder go on to a schizophrenia diagnosis.\n\nManagement is the same as a first episode of psychosis: organic workup and referral to an early psychosis service.",
+          "whyWrong": [
+            "Brief psychotic disorder lasts less than 1 month.",
+            "Schizophrenia needs 6 months of disturbance.",
+            "Delusional disorder does not include prominent hallucinations or thought broadcasting and functioning is preserved.",
+            "",
+            "Schizotypal personality is a lifelong pattern of odd beliefs without frank psychosis."
+          ],
+          "tags": [
+            "schizophreniform",
+            "psychosis",
+            "dsm-5"
+          ]
+        },
+        {
+          "id": "psychosis--schizophrenia-spectrum--q2",
+          "discipline": "mental-health",
+          "topic": "psychosis",
+          "difficulty": "core",
+          "stem": "A 54-year-old woman is referred by her GP. For 2 years she has been convinced her husband is having an affair. She checks his phone and car nightly and has hired a private investigator, who found nothing. She works full-time as a bank manager, and her speech, affect and self-care are normal. She has no hallucinations. Mood is euthymic.\n\nWhich one of the following is the most likely diagnosis?",
+          "options": [
+            "Delusional disorder",
+            "Schizophrenia",
+            "Obsessive-compulsive disorder",
+            "Paranoid personality disorder",
+            "Major depression with psychotic features"
+          ],
+          "answer": 0,
+          "explanation": "She holds a **fixed, false, non-bizarre belief** (infidelity) for well over 1 month, with **preserved function**, no hallucinations, no thought disorder, no negative symptoms and a normal mood. This is **delusional disorder, jealous type** (also called Othello syndrome).\n\nJealous delusions are important to recognise because they are associated with a **risk of violence to the partner**, so a risk assessment is part of management. Treatment is with an antipsychotic plus psychological engagement, although insight is often poor.",
+          "whyWrong": [
+            "",
+            "Schizophrenia has broader symptoms and functional decline.",
+            "In OCD the thoughts are recognised as excessive or unwanted; this is a fixed belief.",
+            "Paranoid personality is pervasive suspiciousness, not a single fixed delusion.",
+            "Her mood is normal, so psychotic depression is unlikely."
+          ],
+          "tags": [
+            "delusional disorder",
+            "jealousy",
+            "psychosis"
+          ]
+        },
+        {
+          "id": "psychosis--schizophrenia-spectrum--q3",
+          "discipline": "mental-health",
+          "topic": "psychosis",
+          "difficulty": "exam",
+          "stem": "A 29-year-old woman with bipolar disorder has been admitted twice with mania with grandiose delusions. On this admission, after her mood returned to normal with treatment, she continued to hear voices commenting on her actions and believed she was being poisoned, for 4 weeks while euthymic.\n\nWhich one of the following is the most likely diagnosis?",
+          "options": [
+            "Bipolar I disorder with psychotic features",
+            "Schizophrenia",
+            "Brief psychotic disorder",
+            "Schizoaffective disorder, bipolar type",
+            "Delusional disorder"
+          ],
+          "answer": 3,
+          "explanation": "She has recurrent **manic episodes** that make up a large part of her illness, **plus psychotic symptoms for at least 2 weeks without a mood episode** (here 4 weeks while euthymic). That combination defines **schizoaffective disorder**.\n\nIf her psychosis only ever occurred during mood episodes, bipolar I with psychotic features would be correct. Schizophrenia would be diagnosed if mood episodes made up only a small part of the illness.\n\nManagement combines an antipsychotic with a mood stabiliser.",
+          "whyWrong": [
+            "Psychosis persisting 2 weeks or more outside mood episodes excludes a pure mood disorder.",
+            "Mood episodes are prominent for most of the illness.",
+            "The psychosis is part of a long-term illness, not an isolated brief episode.",
+            "",
+            "Delusional disorder does not include mood episodes or prominent hallucinations."
+          ],
+          "tags": [
+            "schizoaffective",
+            "bipolar",
+            "psychosis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psychosis--first-episode-psychosis",
+      "title": "First-episode and drug-induced psychosis",
+      "minutes": 16,
+      "objectives": [
+        "Work up a first episode of psychosis for organic and substance causes",
+        "Recognise methamphetamine and cannabis-related psychosis and anti-NMDA receptor encephalitis",
+        "Manage acute agitation safely in the emergency department",
+        "Refer to Australian early psychosis services and involve families"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why the first episode matters",
+          "body": "Outcome in psychosis is strongly linked to the **duration of untreated psychosis**: the longer it lasts, the worse the recovery. Australia pioneered the **early intervention model** (EPPIC at Orygen in Melbourne), now delivered nationally through youth early psychosis services linked to headspace, and adult community mental health teams.\n\nThe first task, before any psychiatric label, is to **exclude organic and drug causes**. In Australian EDs, **methamphetamine (\"ice\")** is one of the most common causes of acute psychosis presentations."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Drugs that cause psychosis",
+          "body": "- **Methamphetamine** floods synapses with dopamine and noradrenaline. Psychosis can occur with intoxication or during heavy binges with sleep deprivation, with **persecutory delusions, tactile hallucinations (formication, \"bugs under the skin\")**, agitation and violence. It usually settles within days to a few weeks of abstinence, but repeated episodes and a family history increase the risk of persistent psychosis.\n- **Cannabis**, especially high-THC products and synthetic cannabinoids, can cause acute psychosis and increases the risk of schizophrenia in vulnerable young people; continued use worsens relapse.\n- **Others:** cocaine, hallucinogens (LSD, psilocybin), ketamine, alcohol withdrawal (delirium tremens, alcoholic hallucinosis), **corticosteroids**, levodopa and dopamine agonists, anticholinergics, and some antimalarials."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Workup of a first episode",
+          "body": "**History:** onset and duration, prodrome, drugs (including amount and timing), alcohol, prescribed medicines, head injury, seizures, recent infection, family history, postpartum status. Collateral history from family is vital.\n\n**Examination:** vital signs (fever, tachycardia), **conscious level and orientation**, neurological examination, signs of intoxication or withdrawal, injection marks, thyroid signs.\n\n**Baseline tests (typical first-episode panel):**\n- FBC, UEC, LFT, calcium, glucose, TSH\n- **Urine drug screen** (remember it misses many synthetic drugs)\n- Pregnancy test in women\n- HIV and syphilis serology; B12/folate if indicated\n- Baseline **metabolic** parameters for antipsychotic monitoring: weight, waist, BP, fasting glucose or HbA1c, lipids, and an **ECG** (QTc)\n- **Brain imaging (MRI or CT)** is commonly done in a first episode and is essential if there are neurological signs, atypical features, or older age at onset\n- **EEG and lumbar puncture** if encephalitis or seizures are suspected\n\n**Anti-NMDA receptor encephalitis:** think of it in a young woman (sometimes with an ovarian teratoma) with **acute psychosis followed by seizures, dyskinesias (orofacial), autonomic instability, reduced consciousness**, or unusual sensitivity to antipsychotics. Test serum and CSF antibodies; treat with immunotherapy and tumour removal."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Organic vs primary psychosis",
+          "body": "| Clue | Suggests organic or drug cause | Suggests primary psychosis |\n|---|---|---|\n| Onset | Abrupt (hours to days) | Insidious, often with prodrome |\n| Consciousness | Clouded, fluctuating, disoriented | Clear, oriented |\n| Hallucinations | **Visual, tactile, olfactory** | Auditory, third person |\n| Age | Over 40 at first episode | Late teens to 30s |\n| Vital signs | Fever, tachycardia, hypertension | Normal |\n| Neurology | Focal signs, seizures, abnormal movements | Normal |\n| Drugs | Recent stimulant, steroid or withdrawal | Negative screen |"
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Presentations you must not mislabel",
+          "body": "- **Delirium:** acute, fluctuating attention and consciousness, often with visual hallucinations and paranoia, in an older or medically unwell person. Look for infection, drugs (anticholinergics, opioids), withdrawal, metabolic causes. Treat the cause; antipsychotics only for dangerous distress, at low doses.\n- **Postpartum psychosis:** onset usually within the first 2 weeks after birth, with rapidly fluctuating mood, confusion and psychosis; strongly linked to bipolar disorder. A psychiatric emergency because of risk to mother and baby: admit, ideally to a mother-baby unit.\n- **Temporal lobe epilepsy:** brief episodes with olfactory hallucinations, deja vu, automatisms.\n- **Alcohol withdrawal and hallucinosis:** tremor, sweating and visual or tactile hallucinations 2-4 days after the last drink (delirium tremens), or auditory hallucinations in clear consciousness in heavy drinkers (alcoholic hallucinosis).\n- **Steroid-induced psychosis:** mood elevation or psychosis in the first weeks of high-dose prednisolone."
+        },
+        {
+          "kind": "management",
+          "heading": "Acute management and early intervention",
+          "body": "**Acute agitation in the ED** (follow local protocols):\n1. Safety first: staff, security, remove hazards, calm environment.\n2. **Verbal de-escalation** and offering oral medication.\n3. Oral options: a benzodiazepine (e.g. diazepam) and/or an oral antipsychotic (e.g. olanzapine).\n4. If oral fails and the person is dangerous: parenteral sedation, commonly IM or IV **droperidol** and/or **midazolam**; ketamine in some settings for severe agitation. Monitor airway, oxygen saturation and ECG after sedation.\n5. In methamphetamine intoxication, benzodiazepines are useful and also treat sympathetic excess; check temperature, CK and electrolytes.\n\nRestraint is a last resort and must comply with state Mental Health Act and local policy. Treatment without consent requires legal authority (Mental Health Act, or duty of care in an emergency).\n\n**After stabilisation:**\n- Start a **second-generation antipsychotic at a low dose** (first-episode patients are sensitive to side effects).\n- **Refer to an early psychosis service** (youth services for young people; community mental health otherwise) for case management, family work, psychological therapy (CBT for psychosis), vocational support (supported employment/education) and physical health monitoring.\n- Treat substance use actively; continued cannabis or methamphetamine use predicts relapse.\n- Continue antipsychotic for **at least 1-2 years** after a first episode of schizophrenia-spectrum psychosis before a supervised trial of reduction.\n- Advise on **driving**: acute psychosis is incompatible with driving; refer to the Austroads Assessing Fitness to Drive standards."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- \"What is the most important initial investigation?\" in a young person with new psychosis: often a **urine drug screen**, or a full organic workup, depending on the options.\n- Ice user with formication, paranoia, tachycardia and hypertension: methamphetamine psychosis/intoxication; benzodiazepine first.\n- Psychosis that resolves completely within days of stopping methamphetamine: substance-induced; if it persists beyond about a month of abstinence, reconsider a primary psychotic disorder.\n- Young woman with psychosis, then seizures and odd mouth movements: **anti-NMDA receptor encephalitis**.\n- Always choose the option that includes **family involvement and early psychosis referral** over \"admit to adult ward and start haloperidol\"."
+        }
+      ],
+      "keyPoints": [
+        "Exclude organic and drug causes before diagnosing a primary psychotic disorder.",
+        "Methamphetamine is a major cause of acute psychosis in Australian EDs; cannabis raises schizophrenia risk.",
+        "Visual/tactile hallucinations, clouded consciousness, abnormal vitals or neurological signs suggest an organic cause.",
+        "First-episode panel: bloods, TSH, urine drug screen, HIV/syphilis, pregnancy test, metabolic baseline, ECG, imaging when indicated.",
+        "Acute agitation: de-escalate, oral options, then IM/IV droperidol or midazolam with monitoring.",
+        "Start a second-generation antipsychotic low; refer to an early psychosis service with family involvement.",
+        "Continue treatment at least 1-2 years after a first episode."
+      ],
+      "redFlags": [
+        "Fever, hypertension and hyperthermia in stimulant intoxication",
+        "Reduced or fluctuating conscious level",
+        "New seizures, dyskinesia or focal neurology with psychosis",
+        "Violence, weapons or command hallucinations to harm others",
+        "Postpartum psychosis (psychiatric emergency)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Commonest drug cause",
+          "india": "Cannabis (ganja, bhang) and alcohol-related psychosis.",
+          "australia": "Methamphetamine (ice) is a leading cause of acute psychosis presentations, alongside cannabis."
+        },
+        {
+          "aspect": "Sedation of the agitated patient",
+          "india": "Often IM haloperidol plus promethazine.",
+          "australia": "Commonly droperidol and/or midazolam under ED protocols, with airway and ECG monitoring."
+        },
+        {
+          "aspect": "Early intervention",
+          "india": "General psychiatry care; few dedicated early psychosis programs.",
+          "australia": "Specialist youth early psychosis services with case managers, family work and vocational support."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Classic tactile hallucination of methamphetamine psychosis?",
+          "back": "Formication: the sensation of insects crawling under the skin."
+        },
+        {
+          "front": "Hallucination modalities that suggest an organic cause?",
+          "back": "Visual, tactile and olfactory."
+        },
+        {
+          "front": "Autoimmune encephalitis that mimics first-episode psychosis in young women?",
+          "back": "Anti-NMDA receptor encephalitis (associated with ovarian teratoma)."
+        },
+        {
+          "front": "How long to continue an antipsychotic after a first episode of psychosis?",
+          "back": "At least 1-2 years after remission, then a supervised gradual reduction."
+        },
+        {
+          "front": "Common parenteral sedatives for severe agitation in Australian EDs?",
+          "back": "Droperidol and/or midazolam (per local protocol), with monitoring."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "psychosis--first-episode-psychosis--q1",
+          "discipline": "mental-health",
+          "topic": "psychosis",
+          "difficulty": "foundation",
+          "stem": "A 19-year-old man is brought to an emergency department in Perth by police after shouting at strangers he believes are following him. He has not slept for 3 days and keeps scratching his arms, saying there are bugs under his skin. Temperature 37.8 degrees C, HR 128, BP 165/95, pupils dilated. He is oriented but agitated.\n\nWhich one of the following is the most likely cause?",
+          "options": [
+            "Schizophrenia",
+            "Alcohol withdrawal",
+            "Methamphetamine intoxication",
+            "Opioid intoxication",
+            "Anticholinergic toxicity"
+          ],
+          "answer": 2,
+          "explanation": "Paranoia, **formication** (tactile hallucinations of bugs), sleeplessness, and a **sympathomimetic toxidrome** (tachycardia, hypertension, dilated pupils, mild hyperthermia) point to **methamphetamine intoxication with psychosis**, one of the most common causes of acute psychosis in Australian EDs.\n\nManagement: a calm, safe environment, **benzodiazepines** first for agitation and sympathetic excess, then an antipsychotic if psychosis persists. Check temperature, CK, electrolytes and ECG. Symptoms usually settle within days of abstinence. Offer harm reduction and drug and alcohol follow-up.",
+          "whyWrong": [
+            "Tactile hallucinations and a sympathomimetic toxidrome point to drugs, not a primary psychosis.",
+            "Alcohol withdrawal causes tremor and sweating but the context and paranoia with formication after sleeplessness suggest stimulants.",
+            "",
+            "Opioids cause pinpoint pupils, drowsiness and respiratory depression.",
+            "Anticholinergic toxicity causes dry, flushed skin and urinary retention; agitation with sweating and formication is not typical."
+          ],
+          "ausPearl": "Methamphetamine-related presentations are common in Australian EDs, especially in WA and regional areas.",
+          "tags": [
+            "methamphetamine",
+            "psychosis",
+            "toxicology"
+          ]
+        },
+        {
+          "id": "psychosis--first-episode-psychosis--q2",
+          "discipline": "mental-health",
+          "topic": "psychosis",
+          "difficulty": "core",
+          "stem": "A 23-year-old woman presents with 1 week of odd behaviour, paranoia and auditory hallucinations. She had a flu-like illness 2 weeks ago. Today she had a generalised seizure in the ED and has repetitive chewing movements of her mouth. HR fluctuates between 60 and 130. Urine drug screen is negative. CT brain is normal.\n\nWhich one of the following is the most appropriate next investigation?",
+          "options": [
+            "Serum prolactin",
+            "Lumbar puncture with CSF analysis including NMDA receptor antibodies",
+            "Repeat urine drug screen",
+            "Thyroid function tests only",
+            "Start olanzapine and reassess in 1 week"
+          ],
+          "answer": 1,
+          "explanation": "Acute psychosis followed by **seizures, orofacial dyskinesia and autonomic instability** after a viral prodrome in a young woman is classic **anti-NMDA receptor encephalitis**. It is often first seen by psychiatry.\n\nInvestigations: **lumbar puncture** (CSF pleocytosis, **NMDA receptor antibodies** in CSF and serum), MRI brain, EEG, and pelvic imaging for an **ovarian teratoma**. Treatment is immunotherapy (steroids, IVIG or plasma exchange) and tumour removal. Patients often tolerate antipsychotics poorly (risk of NMS-like reactions), so treating as schizophrenia alone can be dangerous.",
+          "whyWrong": [
+            "Prolactin does not diagnose the cause of psychosis with seizures.",
+            "",
+            "The screen is already negative and does not explain seizures and dyskinesia.",
+            "TSH is part of a workup but does not address the likely encephalitis.",
+            "Delaying the diagnosis of encephalitis while giving an antipsychotic risks harm."
+          ],
+          "tags": [
+            "encephalitis",
+            "anti-nmda",
+            "organic psychosis"
+          ]
+        },
+        {
+          "id": "psychosis--first-episode-psychosis--q3",
+          "discipline": "mental-health",
+          "topic": "psychosis",
+          "difficulty": "exam",
+          "stem": "A 24-year-old man with no history of mental illness is brought to the ED by his family with 2 months of withdrawal, persecutory beliefs and hearing voices. He smokes cannabis daily. Physical examination, bloods, drug screen (positive for cannabinoids) and CT brain are unremarkable. He is calm, not suicidal, and agrees to treatment. His family are supportive.\n\nWhich one of the following is the most appropriate management?",
+          "options": [
+            "Haloperidol 10 mg daily and discharge to GP follow-up",
+            "Clozapine and weekly blood counts",
+            "Diazepam and advise abstinence from cannabis, no further follow-up",
+            "Low-dose risperidone and referral to an early psychosis service with family involvement and cannabis support",
+            "Depot haloperidol decanoate given in the ED"
+          ],
+          "answer": 3,
+          "explanation": "This is a **first episode of psychosis** with an organic workup completed and cannabis use as a contributor. Best practice is a **second-generation antipsychotic at a low dose** (first-episode patients are sensitive to side effects), plus referral to a specialist **early psychosis service** that provides case management, **family involvement**, psychological therapy, vocational support and **help to reduce cannabis**, which is the strongest modifiable predictor of relapse.\n\nHigh-dose first-generation drugs cause EPS and harm engagement; clozapine is for treatment resistance; a depot is not first choice in a cooperative first-episode patient.",
+          "whyWrong": [
+            "High-dose haloperidol causes EPS in first-episode patients and GP follow-up alone lacks specialist support.",
+            "Clozapine is reserved for treatment-resistant schizophrenia.",
+            "Benzodiazepines do not treat psychosis and the patient needs follow-up.",
+            "",
+            "Long-acting injectables are useful for adherence problems, not first choice in a cooperative new patient."
+          ],
+          "tags": [
+            "first-episode psychosis",
+            "cannabis",
+            "early intervention"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psychosis--antipsychotics",
+      "title": "Antipsychotics, clozapine and NMS",
+      "minutes": 18,
+      "objectives": [
+        "Choose an antipsychotic by side-effect profile and use long-acting injectables for adherence",
+        "Recognise and treat extrapyramidal side effects, hyperprolactinaemia and QTc prolongation",
+        "Set up metabolic monitoring for people on antipsychotics",
+        "Use clozapine for treatment-resistant schizophrenia and monitor for neutropenia and myocarditis",
+        "Diagnose and manage neuroleptic malignant syndrome"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Choosing an antipsychotic",
+          "body": "**Second-generation (atypical) antipsychotics are first line** in Australia: risperidone, paliperidone, olanzapine, quetiapine, aripiprazole, amisulpride, ziprasidone, lurasidone. **First-generation** drugs (haloperidol, chlorpromazine, zuclopenthixol, flupentixol) are still used, particularly as long-acting injectables and in acute sedation.\n\nStart **low and go slow**, especially in a first episode, and allow **4-6 weeks at an adequate dose** before judging response. Choose by side-effect profile and patient preference:\n\n| Drug | Main problems |\n|---|---|\n| Olanzapine, clozapine | **Weight gain, diabetes, dyslipidaemia**, sedation |\n| Quetiapine | Sedation, weight gain, postural hypotension |\n| Risperidone, paliperidone, amisulpride | **Hyperprolactinaemia**, EPS at higher doses |\n| Aripiprazole | Akathisia; low metabolic and prolactin burden |\n| Ziprasidone | QTc prolongation |\n| Haloperidol | **EPS**, hyperprolactinaemia, QTc (IV) |\n\n**Long-acting injectables (LAIs)** (e.g. paliperidone, aripiprazole, risperidone, haloperidol or zuclopenthixol decanoate) give fortnightly to three-monthly dosing. They are valuable for people with poor adherence or repeated relapse and are widely used in Australian community care, often under community treatment orders."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why the side effects happen",
+          "body": "D2 blockade in the four dopamine pathways explains most effects: **mesolimbic** (therapeutic), **nigrostriatal** (extrapyramidal), **tuberoinfundibular** (raised prolactin, because dopamine normally inhibits prolactin) and **mesocortical** (may worsen negative symptoms). Blockade of histamine H1 (sedation, weight gain), muscarinic (dry mouth, constipation, urinary retention), and alpha-1 receptors (postural hypotension) adds the rest. Atypicals block 5-HT2A as well, which releases some dopamine in the nigrostriatal pathway and reduces EPS."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Adverse effects you must recognise",
+          "body": "**Extrapyramidal side effects (EPS)**\n| Type | Timing | Features | Treatment |\n|---|---|---|---|\n| **Acute dystonia** | Hours to days | Torticollis, oculogyric crisis, tongue protrusion; young men, high-potency drugs | **Benztropine IM/IV** |\n| **Akathisia** | Days to weeks | Inner restlessness, cannot sit still; linked to suicidality | Reduce dose, **propranolol**, benzodiazepine |\n| **Parkinsonism** | Weeks | Tremor, rigidity, bradykinesia | Reduce dose, switch, anticholinergic |\n| **Tardive dyskinesia** | Months to years | Orofacial chewing, lip smacking, choreiform movements; may be irreversible | Stop or switch (clozapine lowest risk); avoid anticholinergics |\n\n**Hyperprolactinaemia:** galactorrhoea, amenorrhoea, sexual dysfunction, gynaecomastia, long-term osteoporosis. Switch to aripiprazole or add it.\n\n**QTc prolongation:** risk of torsades; check ECG at baseline and after dose changes, especially with other QT drugs or electrolyte disturbance.\n\n**Metabolic syndrome:** weight gain, insulin resistance, type 2 diabetes, dyslipidaemia, hypertension; the main reason people with schizophrenia die early.\n\n**Anticholinergic:** constipation (can be severe with clozapine), urinary retention, blurred vision."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Monitoring",
+          "body": "**Baseline:** weight, BMI, **waist circumference**, BP, fasting glucose or HbA1c, fasting lipids, ECG, prolactin if indicated, and smoking status, family history of cardiovascular disease.\n\n**Ongoing:** weight and waist frequently in the first months (often monthly for the first 3 months), then at least every 3-6 months; glucose and lipids at about 3 months then at least annually; ECG after dose changes for QT-prolonging drugs. RANZCP and state health services publish monitoring schedules; check the local one.\n\nAct on the findings: dietary and exercise support, smoking cessation, switching to a lower-risk drug, **metformin** to limit antipsychotic-induced weight gain in some cases, and treating hypertension, diabetes and lipids like any other patient."
+        },
+        {
+          "kind": "management",
+          "heading": "Clozapine and neuroleptic malignant syndrome",
+          "body": "**Clozapine**\n- Indicated for **treatment-resistant schizophrenia**: failure of **2 adequate trials of different antipsychotics** (adequate dose for at least 6 weeks with good adherence). It also reduces suicidality.\n- **Agranulocytosis/neutropenia:** mandatory registration and **FBC weekly for the first 18 weeks, then monthly** for as long as treatment continues. Stop if the neutrophil count falls below protocol thresholds.\n- **Myocarditis:** mostly in the first 4-8 weeks; Australian protocols monitor **troponin and CRP** (commonly weekly for the first month) plus baseline echocardiogram. Suspect with fever, tachycardia, chest pain, dyspnoea or flu-like illness; stop clozapine.\n- Other: **constipation and ileus** (potentially fatal; ask about bowels every visit), hypersalivation, sedation, weight gain and diabetes, seizures at higher doses, orthostatic hypotension.\n- **Smoking** induces CYP1A2: stopping smoking (for example on admission to a smoke-free ward) can raise clozapine levels sharply and cause toxicity. Check levels and reduce the dose.\n\n**Neuroleptic malignant syndrome (NMS)**\n- A rare idiosyncratic reaction to D2 blockade, usually in the **first weeks** of starting or increasing an antipsychotic (especially high-potency or parenteral), or after abrupt withdrawal of levodopa in Parkinson's disease.\n- Features develop over **days**: **lead-pipe rigidity**, **hyperthermia**, **autonomic instability** (labile BP, tachycardia, sweating), **altered consciousness**; bloods show **very high CK**, leucocytosis, and possible rhabdomyolysis with AKI and myoglobinuria.\n- Management: **stop the antipsychotic**, ICU-level supportive care, cooling, IV fluids, benzodiazepines; **bromocriptine** and/or **dantrolene** in severe cases. Wait at least 2 weeks after recovery before cautiously rechallenging with a different, lower-potency agent.\n\n| | NMS | Serotonin syndrome |\n|---|---|---|\n| Trigger | Antipsychotic | Serotonergic combination |\n| Onset | Days | Hours |\n| Tone | Lead-pipe rigidity, **reduced reflexes** | **Clonus, hyperreflexia** |\n| Course | 1-2 weeks | Usually 24-72 hours |"
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Young man given IM haloperidol, next morning neck twisted and eyes rolled up: **acute dystonia** → benztropine.\n- Restless, pacing patient 1 week after starting aripiprazole: **akathisia** → reduce dose or propranolol.\n- Amenorrhoea and galactorrhoea on risperidone: **hyperprolactinaemia**.\n- Patient on clozapine with fever, sore throat: urgent FBC (neutropenia). Fever and chest pain in week 3: **myocarditis** (troponin, CRP, ECG).\n- Clozapine patient admitted to a smoke-free ward, now sedated and having a seizure: clozapine toxicity from stopping smoking.\n- Rigidity, fever, confusion and CK 25,000 after increasing haloperidol: **NMS** → stop the drug.\n- Most important long-term monitoring on olanzapine: **weight, waist, glucose, lipids, BP**.\n- Clozapine patient with drooling at night: hypersalivation (common, managed symptomatically), not a reason to stop."
+        }
+      ],
+      "keyPoints": [
+        "Second-generation antipsychotics are first line; start low, judge response at 4-6 weeks.",
+        "Long-acting injectables help adherence and are common in community care.",
+        "EPS: acute dystonia (benztropine), akathisia (propranolol), parkinsonism, tardive dyskinesia (often irreversible).",
+        "Olanzapine and clozapine carry the greatest metabolic risk; monitor weight, waist, glucose, lipids and BP.",
+        "Clozapine after 2 failed antipsychotic trials; weekly FBC for 18 weeks then monthly; watch for myocarditis and constipation.",
+        "Stopping smoking raises clozapine levels.",
+        "NMS: rigidity, hyperthermia, autonomic instability, confusion, high CK; stop the antipsychotic."
+      ],
+      "redFlags": [
+        "Fever or sore throat on clozapine (neutropenia)",
+        "Chest pain, tachycardia or flu-like illness in the first weeks of clozapine (myocarditis)",
+        "Severe constipation or abdominal pain on clozapine (ileus)",
+        "Rigidity, hyperthermia and confusion after starting or increasing an antipsychotic (NMS)",
+        "Syncope or palpitations with a prolonged QTc"
+      ],
+      "contrast": [
+        {
+          "aspect": "First-line agent",
+          "india": "Haloperidol and other typicals still commonly used first line because of cost.",
+          "australia": "Second-generation agents first line, chosen by side-effect profile; PBS subsidised."
+        },
+        {
+          "aspect": "Metabolic monitoring",
+          "india": "Less systematic, often opportunistic.",
+          "australia": "Structured baseline and ongoing monitoring of weight, waist, BP, glucose and lipids, shared between GP and mental health service."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Treatment of acute dystonia from haloperidol?",
+          "back": "Benztropine IM or IV."
+        },
+        {
+          "front": "Drug treatment for akathisia?",
+          "back": "Propranolol (plus dose reduction), or a benzodiazepine."
+        },
+        {
+          "front": "Clozapine FBC monitoring schedule?",
+          "back": "Weekly for the first 18 weeks, then monthly for the duration of treatment."
+        },
+        {
+          "front": "Definition of treatment-resistant schizophrenia?",
+          "back": "Failure of 2 adequate trials (dose and duration) of different antipsychotics."
+        },
+        {
+          "front": "Blood test characteristically very high in NMS?",
+          "back": "Creatine kinase (CK)."
+        },
+        {
+          "front": "Which antipsychotic has the lowest prolactin and metabolic burden?",
+          "back": "Aripiprazole (main side effect akathisia)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "psychosis--antipsychotics--q1",
+          "discipline": "mental-health",
+          "topic": "psychosis",
+          "difficulty": "foundation",
+          "stem": "A 20-year-old man was given oral haloperidol yesterday for acute psychosis. This morning he is distressed, his neck is twisted to the left, and his eyes are fixed looking upwards. He is afebrile, HR 90, BP 125/80, and alert.\n\nWhich one of the following is the most appropriate treatment?",
+          "options": [
+            "Benztropine intramuscularly",
+            "Dantrolene intravenously",
+            "Propranolol orally",
+            "Increase the haloperidol dose",
+            "Cyproheptadine orally"
+          ],
+          "answer": 0,
+          "explanation": "Torticollis and **oculogyric crisis** within 1-2 days of starting a high-potency antipsychotic, in a young man, is **acute dystonia**, an extrapyramidal side effect from nigrostriatal D2 blockade.\n\nIt responds rapidly to an **anticholinergic** such as **benztropine IM or IV** (a benzodiazepine can also help). Afterwards, review the antipsychotic: lower the dose or switch to a second-generation agent, and consider a short course of oral anticholinergic. Normal temperature and alertness argue against NMS.",
+          "whyWrong": [
+            "",
+            "Dantrolene is for malignant hyperthermia or severe NMS, not dystonia.",
+            "Propranolol treats akathisia, not dystonia.",
+            "Increasing the dose will worsen EPS.",
+            "Cyproheptadine is used in serotonin syndrome."
+          ],
+          "tags": [
+            "dystonia",
+            "eps",
+            "haloperidol"
+          ]
+        },
+        {
+          "id": "psychosis--antipsychotics--q2",
+          "discipline": "mental-health",
+          "topic": "psychosis",
+          "difficulty": "core",
+          "stem": "A 34-year-old man with schizophrenia has had persisting hallucinations despite 8 weeks of risperidone at an adequate dose and, previously, 8 weeks of olanzapine at an adequate dose. Adherence has been confirmed by his case manager. The psychiatrist starts clozapine.\n\nWhich one of the following monitoring requirements is most specific to clozapine?",
+          "options": [
+            "Serum lithium levels monthly",
+            "Weekly full blood count for the first 18 weeks",
+            "Liver function tests every 2 weeks",
+            "Monthly urine drug screens",
+            "Serum prolactin every 3 months"
+          ],
+          "answer": 1,
+          "explanation": "He has **treatment-resistant schizophrenia** (failed 2 adequate trials of different antipsychotics), the indication for **clozapine**.\n\nClozapine causes **neutropenia and agranulocytosis**, most often in the first months. Australian practice requires registration with a monitoring program and **FBC weekly for the first 18 weeks, then monthly** while treatment continues. Early **myocarditis** is monitored with troponin and CRP (commonly weekly for the first 4 weeks). Metabolic monitoring and bowel checks continue throughout.\n\nClozapine is prolactin-sparing, so prolactin monitoring is not a priority.",
+          "whyWrong": [
+            "Lithium levels are for lithium therapy.",
+            "",
+            "LFTs may be checked but are not the mandated clozapine monitoring.",
+            "Drug screens are not a clozapine requirement.",
+            "Clozapine rarely raises prolactin."
+          ],
+          "tags": [
+            "clozapine",
+            "neutropenia",
+            "monitoring"
+          ]
+        },
+        {
+          "id": "psychosis--antipsychotics--q3",
+          "discipline": "mental-health",
+          "topic": "psychosis",
+          "difficulty": "exam",
+          "stem": "A 42-year-old woman was admitted with relapse of schizophrenia and her haloperidol dose was increased 5 days ago. She is now confused and mute. Temperature 39.6 degrees C, HR 124, BP fluctuating between 100/60 and 180/100, profuse sweating. She has generalised lead-pipe rigidity with reduced reflexes and no clonus. CK is 28,000 U/L, WCC 16 x 10^9/L, creatinine rising.\n\nWhich one of the following is the most important first step?",
+          "options": [
+            "Give cyproheptadine",
+            "Give intramuscular benztropine",
+            "Start broad-spectrum antibiotics and continue haloperidol",
+            "Increase the haloperidol for agitation",
+            "Stop haloperidol and begin intensive supportive care with cooling and IV fluids"
+          ],
+          "answer": 4,
+          "explanation": "**Lead-pipe rigidity, hyperthermia, autonomic instability, altered consciousness and a very high CK** developing over days after increasing an antipsychotic is **neuroleptic malignant syndrome**. The rising creatinine suggests rhabdomyolysis with AKI.\n\nThe most important step is to **stop the antipsychotic**, then provide ICU-level supportive care: cooling, aggressive IV fluids (also protecting the kidneys), and benzodiazepines. Bromocriptine or dantrolene can be added in severe cases.\n\n**Reduced reflexes and no clonus** distinguish NMS from serotonin syndrome.",
+          "whyWrong": [
+            "Cyproheptadine treats serotonin syndrome, which causes clonus and hyperreflexia.",
+            "Benztropine treats dystonia and will not reverse NMS.",
+            "Continuing the causative drug is dangerous; infection does not explain the rigidity and CK.",
+            "More antipsychotic worsens NMS.",
+            ""
+          ],
+          "tags": [
+            "nms",
+            "antipsychotic",
+            "emergency"
+          ]
+        },
+        {
+          "id": "psychosis--antipsychotics--q4",
+          "discipline": "mental-health",
+          "topic": "psychosis",
+          "difficulty": "core",
+          "stem": "A 38-year-old man with schizophrenia has been stable on olanzapine for 3 years. At his GP review his BMI is 33 kg/m2 (previously 26), waist 110 cm, BP 142/90, fasting glucose 6.6 mmol/L and triglycerides raised. He smokes 25 cigarettes a day. His mental state is stable and he wants to stay well.\n\nWhich one of the following is the most appropriate approach?",
+          "options": [
+            "Stop olanzapine now",
+            "No change because his mental state is stable",
+            "Address cardiometabolic risk: lifestyle and smoking support, consider switching to a lower-risk antipsychotic with his psychiatrist, and treat risk factors",
+            "Add a second antipsychotic to allow a lower olanzapine dose",
+            "Refer to a bariatric surgeon"
+          ],
+          "answer": 2,
+          "explanation": "He has **antipsychotic-associated metabolic syndrome** (central obesity, impaired fasting glucose, raised BP and triglycerides) plus heavy smoking. People with schizophrenia in Australia die 10-20 years earlier, mainly from cardiovascular disease, so this matters as much as his psychosis.\n\nBest practice: lifestyle and exercise support, **smoking cessation** (varenicline and NRT are safe and effective in schizophrenia), consider a **supervised switch** to a lower metabolic-risk drug such as aripiprazole in consultation with his psychiatrist, consider metformin, and treat BP, glucose and lipids by usual guidelines.\n\nStopping abruptly risks relapse; doing nothing ignores his biggest threat to life.",
+          "whyWrong": [
+            "Abrupt cessation risks relapse; any change should be planned with the psychiatrist.",
+            "Ignoring metabolic risk contributes to the large mortality gap.",
+            "",
+            "Polypharmacy increases side effects and is not a metabolic strategy.",
+            "Bariatric surgery is not the first step before lifestyle and medication changes."
+          ],
+          "ausPearl": "Physical health of people with severe mental illness is an Australian priority; smoking rates are far higher in this group.",
+          "tags": [
+            "metabolic syndrome",
+            "olanzapine",
+            "physical health"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psychosis--community-care-and-law",
+      "title": "Community care, relapse and mental health law",
+      "minutes": 14,
+      "objectives": [
+        "Describe how people with psychotic illness are managed in the Australian community",
+        "Explain the common principles of state Mental Health Acts, involuntary admission and community treatment orders",
+        "Identify causes of relapse and plan relapse prevention",
+        "Address the physical health, smoking and social needs that drive the mortality gap"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The Australian model of care",
+          "body": "Most people with schizophrenia in Australia live in the community. Care is delivered by **public community mental health teams**, with a **case manager** (nurse, social worker, psychologist or occupational therapist) coordinating a psychiatrist, the **GP**, housing, disability and employment services. Other key supports:\n\n- **Early psychosis services** for young people (usually up to about 25).\n- **Acute or crisis teams** that assess and treat at home to avoid admission.\n- **NDIS** (National Disability Insurance Scheme) funding for people with psychosocial disability that is likely to be permanent.\n- **Disability Support Pension**, supported accommodation, and supported employment (Individual Placement and Support).\n- **Peer workers** and carers' organisations; carers have rights to information under most state Acts.\n\nThe GP remains central: physical health checks, prescribing under shared care, LAI administration in some practices, and cardiovascular risk management."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Mental health law: the common principles",
+          "body": "Each state and territory has its **own Mental Health Act**; names, forms, timeframes and who can initiate orders **vary by state**. The AMC tests the shared principles:\n\n**Criteria for involuntary treatment** (in broad terms):\n1. The person appears to have a **mental illness**.\n2. Because of it, there is a **risk of serious harm** to the person or others (some states include serious deterioration or harm to reputation, relationships or finances).\n3. **Treatment is needed** and available.\n4. There is **no less restrictive** way to deliver it.\n5. In several states, the person **lacks capacity** to consent (for example Victoria and Queensland place greater weight on capacity).\n\n**Things that on their own do NOT meet the definition** in most Acts: political or religious views, sexual preference, antisocial behaviour, intellectual disability alone, or drug and alcohol use alone (although effects of drugs causing mental illness can count).\n\n**Process:** a doctor (and in some states authorised clinicians or police) can initiate an emergency assessment; a psychiatrist must examine the person within a set time; ongoing orders are reviewed by an independent **Mental Health Tribunal** (or equivalent), and patients have rights to information, a nominated person, legal representation, second opinions and appeal. Police can apprehend and take a person to hospital for assessment.\n\n**Community treatment orders (CTOs):** allow compulsory treatment (commonly an LAI and case-manager contact) while the person lives in the community. They are used for people with a pattern of relapse after stopping treatment, and can lead to readmission if the person does not comply and becomes unwell.\n\n**Capacity and guardianship:** for decisions about physical treatment when a person lacks capacity, consent comes from a substitute decision-maker (guardian, enduring guardian or \"person responsible\", varies by state), not from the Mental Health Act."
+        },
+        {
+          "kind": "management",
+          "heading": "Preventing relapse",
+          "body": "**Common causes of relapse:**\n- **Stopping medication** (the most common): side effects, poor insight, stigma, cost, belief that they are cured\n- **Substance use**, especially cannabis and methamphetamine\n- Stressful life events, homelessness, high \"expressed emotion\" (criticism, hostility, over-involvement) in the family\n- Smoking changes altering drug levels (clozapine, olanzapine)\n\n**Prevention:**\n- Shared decision-making about medication; minimise side effects; consider an **LAI** when adherence is a problem.\n- **Early warning signs plan**: sleep disturbance, withdrawal, suspiciousness; agreed actions for patient, family and team.\n- **Family psychoeducation** reduces relapse by lowering expressed emotion.\n- CBT for psychosis, social skills and cognitive remediation.\n- Treat co-existing substance use, depression and anxiety. Suicide risk is high, particularly early in illness, after discharge, and in young men with insight into their losses.\n\n**Physical health:**\n- About two-thirds of people with psychotic illness smoke. Smoking cessation (varenicline, combination NRT) is safe and effective; adjust clozapine and olanzapine doses when smoking stops.\n- Annual comprehensive health checks, cardiovascular risk assessment, cancer screening, dental care, vaccinations, sexual health.\n- Diabetes and dyslipidaemia are managed exactly as in anyone else."
+        },
+        {
+          "kind": "application",
+          "heading": "Putting it together in a vignette",
+          "body": "**Scenario 1:** A man with schizophrenia stopped his depot 3 months ago, is now hearing voices telling him to harm his neighbour, and refuses to come to hospital. He has mental illness, risk to others, needs treatment and refuses: **involuntary assessment under the state Act**, with police assistance if necessary.\n\n**Scenario 2:** A woman with schizophrenia on a CTO misses two LAI appointments but is well. The response is outreach by the case manager and a conversation about why, not immediate police involvement; the CTO provides a framework for readmission only if needed.\n\n**Scenario 3:** A patient under an involuntary order needs an appendicectomy. The Mental Health Act authorises psychiatric treatment, not surgery. Assess his capacity for the operation; if lacking, obtain consent from a guardian or person responsible (varies by state), or proceed under emergency provisions if life is at risk.\n\n**Scenario 4:** A man with stable schizophrenia wants to keep driving. He can drive if well controlled and adherent, according to Austroads fitness-to-drive standards; commercial licences have stricter requirements."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Look for the four elements (mental illness, serious risk, need for treatment, least restrictive) before choosing involuntary admission.\n- Drug intoxication alone does not justify detention under the Act, but a drug-induced psychosis can.\n- The Mental Health Act covers psychiatric treatment, not unrelated medical or surgical treatment.\n- The commonest cause of relapse is **non-adherence**; the answer is often an LAI or addressing side effects.\n- \"What is the leading cause of death in people with schizophrenia?\" Cardiovascular disease.\n- A carer asking for information: involve carers and nominated persons as the Act allows, while respecting the patient's privacy where possible.\n- A person with psychosis who is well and adherent can usually keep driving; acute illness cannot (Austroads).\n- The phrase \"varies by state\" is a safe answer when specifics are asked; know the principles, not every state's forms."
+        }
+      ],
+      "keyPoints": [
+        "Community mental health teams with case managers, early psychosis services and GPs provide most care.",
+        "Mental Health Acts vary by state but share criteria: mental illness, serious risk, need for treatment, least restrictive option.",
+        "Community treatment orders allow compulsory treatment (often LAIs) while living in the community.",
+        "The Mental Health Act authorises psychiatric treatment only; other treatment needs capacity or a substitute decision-maker.",
+        "Non-adherence and substance use are the main causes of relapse.",
+        "Family psychoeducation and early warning sign plans reduce relapse.",
+        "Cardiovascular disease and smoking drive a 10-20 year mortality gap."
+      ],
+      "redFlags": [
+        "Command hallucinations to harm others after stopping treatment",
+        "Recent discharge from inpatient care (highest suicide risk period)",
+        "Homelessness or loss of supports in a person with psychosis",
+        "Sudden smoking cessation in a patient on clozapine"
+      ],
+      "contrast": [
+        {
+          "aspect": "Mental health law",
+          "india": "One national law, the Mental Healthcare Act 2017, with advance directives and nominated representatives.",
+          "australia": "Separate Mental Health Acts in each state and territory; common principles, different forms and timeframes."
+        },
+        {
+          "aspect": "Community treatment",
+          "india": "Family usually provides most ongoing care; compulsory community treatment is uncommon.",
+          "australia": "Community treatment orders and case-managed teams, with NDIS funding for psychosocial disability."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Four common criteria for involuntary treatment?",
+          "back": "Mental illness, risk of serious harm, treatment needed, no less restrictive option (varies by state)."
+        },
+        {
+          "front": "What is a community treatment order?",
+          "back": "A legal order requiring treatment (often an LAI) while the person lives in the community."
+        },
+        {
+          "front": "Most common cause of relapse in schizophrenia?",
+          "back": "Stopping medication (non-adherence)."
+        },
+        {
+          "front": "Leading cause of premature death in schizophrenia?",
+          "back": "Cardiovascular disease."
+        },
+        {
+          "front": "Does a Mental Health Act order authorise unrelated surgery?",
+          "back": "No. Use capacity assessment and a substitute decision-maker (or emergency provisions)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "psychosis--community-care-and-law--q1",
+          "discipline": "mental-health",
+          "topic": "psychosis",
+          "difficulty": "foundation",
+          "stem": "A 36-year-old man with schizophrenia has relapsed three times in 4 years, each time after stopping oral risperidone because he \"forgets\" and feels well. He is currently well, has insight that he gets unwell without treatment, and wants to avoid another admission.\n\nWhich one of the following is the most appropriate strategy?",
+          "options": [
+            "Switch to oral haloperidol",
+            "Stop medication and monitor for early warning signs",
+            "Add clozapine",
+            "Offer a long-acting injectable antipsychotic",
+            "Admit him for supervised medication"
+          ],
+          "answer": 3,
+          "explanation": "Repeated relapse caused by **non-adherence** to oral medication is the main indication for a **long-acting injectable (LAI)** antipsychotic, such as paliperidone or risperidone LAI (a natural choice after oral risperidone), given fortnightly to three-monthly.\n\nLAIs remove the daily decision to take a tablet, let the team know immediately if a dose is missed, and reduce relapse and readmission. Since he has insight and wants to stay well, this can be a shared decision without a CTO.\n\nClozapine is for treatment resistance, not non-adherence.",
+          "whyWrong": [
+            "Another oral drug does not solve the adherence problem and haloperidol has more EPS.",
+            "Stopping treatment in someone with three relapses almost guarantees another.",
+            "He is not treatment-resistant; he relapses when he stops.",
+            "",
+            "Admission is unnecessary and overly restrictive when he is well."
+          ],
+          "tags": [
+            "lai",
+            "adherence",
+            "relapse"
+          ]
+        },
+        {
+          "id": "psychosis--community-care-and-law--q2",
+          "discipline": "mental-health",
+          "topic": "psychosis",
+          "difficulty": "core",
+          "stem": "A 29-year-old woman with schizophrenia stopped her medication 2 months ago. Her mother calls the GP because she has not eaten properly for a week, has barricaded herself in her flat believing neighbours are poisoning her water, and has thrown a chair at her mother. She refuses to see anyone.\n\nWhich one of the following is the most appropriate action?",
+          "options": [
+            "Arrange for the community mental health or crisis team to assess her, with police assistance under the state Mental Health Act if needed",
+            "Wait until she agrees to a voluntary appointment",
+            "Prescribe oral olanzapine for her mother to give her in food",
+            "Advise her mother to call back if she becomes violent again",
+            "Arrange a routine outpatient psychiatry appointment"
+          ],
+          "answer": 0,
+          "explanation": "She has a mental illness (relapsed schizophrenia), is at **risk of serious harm** (self-neglect, violence to her mother), needs treatment and refuses it. The least restrictive effective option is an **urgent assessment** by the crisis or community mental health team, who can use **state Mental Health Act** powers, with **police assistance** where there is risk. Criteria and processes vary by state.\n\nCovert medication without legal authority is unethical and unsafe, and waiting risks harm.",
+          "whyWrong": [
+            "",
+            "Waiting exposes her and her mother to serious risk.",
+            "Covert medication without legal authority is not acceptable practice.",
+            "She has already been violent; waiting for another episode is unsafe.",
+            "A routine appointment is too slow and she will not attend."
+          ],
+          "tags": [
+            "mental health act",
+            "involuntary",
+            "relapse"
+          ]
+        },
+        {
+          "id": "psychosis--community-care-and-law--q3",
+          "discipline": "mental-health",
+          "topic": "psychosis",
+          "difficulty": "exam",
+          "stem": "A 45-year-old man is an involuntary patient under the state Mental Health Act with a manic episode with psychotic features. He develops right iliac fossa pain and a CT shows acute appendicitis. He refuses surgery, saying the surgeons are \"agents of the CIA\", and cannot explain the risks of not operating.\n\nWhich one of the following is the most appropriate basis for proceeding with surgery?",
+          "options": [
+            "His involuntary status under the Mental Health Act authorises the surgery",
+            "Consent from his treating psychiatrist",
+            "He lacks capacity for this decision, so seek consent from his substitute decision-maker (or proceed under emergency provisions if life is at immediate risk)",
+            "Wait until his mania resolves before operating",
+            "Proceed only if two surgeons agree"
+          ],
+          "answer": 2,
+          "explanation": "Mental Health Acts authorise treatment of the **mental illness**, not unrelated physical treatment. Consent for surgery depends on his **capacity for that decision**.\n\nHe cannot understand or weigh the risks because of a delusion, so he **lacks capacity**. Consent then comes from a **substitute decision-maker** (guardian, enduring guardian or \"person responsible\", terms and hierarchy vary by state) or a tribunal. If there is an immediate threat to life or serious harm, doctors can treat under **emergency (necessity) provisions**.\n\nDelaying surgery risks perforation.",
+          "whyWrong": [
+            "The Mental Health Act covers psychiatric treatment, not appendicectomy.",
+            "A treating doctor cannot consent on a patient's behalf.",
+            "",
+            "Delaying risks perforation and peritonitis.",
+            "Agreement between clinicians is not a legal basis for consent."
+          ],
+          "tags": [
+            "capacity",
+            "consent",
+            "mental health act"
+          ]
+        }
+      ]
+    }
+  ]
+}

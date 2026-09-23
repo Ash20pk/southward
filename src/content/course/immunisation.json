@@ -1,0 +1,875 @@
+{
+  "topic": "immunisation",
+  "intro": "Immunisation covers the National Immunisation Program schedule, vaccination in pregnancy and special groups, contraindications, vaccine safety, the Australian Immunisation Register and catch-up vaccination. It is examined as practical GP work: which vaccines are due today, whether a vaccine can be given, and how to catch up a migrant child, all according to the Australian Immunisation Handbook, which differs in important ways from India's UIP.",
+  "lessons": [
+    {
+      "id": "immunisation--nip-childhood-schedule",
+      "title": "How vaccines work and the NIP childhood schedule",
+      "minutes": 16,
+      "objectives": [
+        "Explain how live, inactivated, toxoid and conjugate vaccines generate protection",
+        "Recall the National Immunisation Program schedule from birth to 4 years",
+        "Apply the rotavirus upper age limits and the rules for giving several vaccines at one visit",
+        "Know where Australian immunisation guidance comes from and how doses are recorded"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The Australian system in one page",
+          "body": "Australia's **National Immunisation Program (NIP)** provides free vaccines to children, adolescents, pregnant women, older people and other eligible groups. The reference is the **Australian Immunisation Handbook** (online, updated regularly on the advice of ATAGI, the Australian Technical Advisory Group on Immunisation). The NIP schedule changes from time to time, and some vaccines are funded differently by each state, so the AMC tests the **stable core** of the schedule and the principles.\n\nVaccines are delivered mainly by **GPs and practice nurses**, plus council immunisation clinics, Aboriginal community controlled health services, pharmacists (for older children and adults, varying by state) and the school program. Every vaccine given must be recorded on the **Australian Immunisation Register (AIR)**. Coverage for Australian children is about 93-95% at 1, 2 and 5 years; the national aspiration is 95%, roughly the level needed to interrupt measles transmission.\n\nCompared with India's Universal Immunisation Programme, the big differences are: **no routine BCG**, **no oral polio vaccine** (IPV only), a **hexavalent** infant vaccine, MMR at 12 months (not MR at 9 months) and meningococcal vaccines on the schedule."
+        },
+        {
+          "kind": "concepts",
+          "heading": "How vaccines work (so the rules make sense)",
+          "body": "| Type | Examples on the NIP | Key properties |\n|---|---|---|\n| **Live attenuated** | MMR, MMRV (varicella), rotavirus (oral) | Replicate, so strong long-lasting immunity after 1-2 doses; **contraindicated in significant immunosuppression and pregnancy** |\n| **Inactivated / subunit** | IPV, hepatitis B, influenza, HPV | Cannot replicate; safe in immunosuppression (though response may be weaker); need several doses and boosters |\n| **Toxoid** | Diphtheria, tetanus | Induce antibody against the toxin, not the organism |\n| **Conjugate** | Hib, pneumococcal conjugate (PCV), meningococcal ACWY | Polysaccharide linked to a protein carrier |\n\nWhy **conjugate** matters: plain polysaccharide antigens trigger a T-cell-independent B-cell response, which is **poor in children under 2** and gives no memory. Coupling to a protein recruits T-helper cells, producing memory and good responses in infants. That is why Hib and pneumococcal disease in infants fell dramatically after conjugate vaccines.\n\nWhy **MMR waits until 12 months**: **maternal antibody** crossing the placenta neutralises the live measles vaccine virus in early infancy. By 12 months enough has waned. (In an outbreak or before travel, MMR can be given from 6 months, but that dose **does not count** and two further doses are given from 12 months.)\n\nWhy **the first dose of measles-containing vaccine is MMR rather than MMRV**: using MMRV as the first dose in young children roughly doubles the risk of febrile seizures (5-12 days afterwards). So MMR is given at 12 months and **MMRV is the second dose at 18 months**. Healthy children under 4 years should not receive MMRV as the first measles-containing dose."
+        },
+        {
+          "kind": "concepts",
+          "heading": "The NIP schedule, birth to 4 years",
+          "body": "Learn this table; it is the backbone of most immunisation questions. Check the current Handbook for brand changes and state-specific additions.\n\n| Age | Vaccines |\n|---|---|\n| **Birth** | **Hepatitis B** (ideally within 24 hours, must be within 7 days) |\n| **2 months** (can start from 6 weeks) | **DTPa-hepB-IPV-Hib** (hexavalent), **pneumococcal conjugate**, **rotavirus** (oral) |\n| **4 months** | DTPa-hepB-IPV-Hib, pneumococcal conjugate, rotavirus |\n| **6 months** | DTPa-hepB-IPV-Hib (plus an extra pneumococcal dose for children with medical risk conditions, and for Aboriginal and Torres Strait Islander children in some states) |\n| **12 months** | **MMR**, **meningococcal ACWY**, pneumococcal conjugate |\n| **18 months** | **MMRV**, **DTPa**, **Hib** |\n| **4 years** | **DTPa-IPV** |\n| **6 months to under 5 years** | **Influenza every year** (two doses 4 weeks apart the first year for children under 9) |\n\nAdditional funded vaccines for **Aboriginal and Torres Strait Islander children** include **meningococcal B** (at 2, 4 and 12 months, plus 6 months for some medical risk conditions) and, in some states, **hepatitis A**. Some states also fund meningococcal B for all infants. These are covered in the special groups lesson.\n\nThe **6-week start**: the 2-month vaccines may be given from 6 weeks, which is useful when a family is travelling or when catching up."
+        },
+        {
+          "kind": "application",
+          "heading": "Rotavirus and practical rules at the clinic",
+          "body": "**Rotavirus vaccine** (oral, live) has strict upper age limits because of a small risk of **intussusception** that rises with age at first dose:\n\n- **Dose 1 must be given by 14 weeks of age** (the Handbook limit is before 15 weeks).\n- **Dose 2 must be given by 24 weeks of age** (before 25 weeks).\n- Doses must be at least 4 weeks apart.\n- A child who misses these windows **cannot catch up**. Do not give it late.\n- If the baby spits out or vomits the dose, it is generally not repeated (check the Handbook for the current advice by brand).\n- Contraindications specific to rotavirus: **previous intussusception**, **severe combined immunodeficiency (SCID)**, and uncorrected congenital GI malformations that predispose to intussusception.\n\n**Other clinic rules**\n- **All vaccines due at a visit can be given at the same time**, in different sites. There is no need to space inactivated vaccines.\n- Two **live injectable** vaccines (for example MMR and varicella) are given either **on the same day or at least 4 weeks apart**, because the first can blunt the response to the second.\n- **Preterm infants** are vaccinated at their **chronological age**, not corrected age. Very preterm or low birth weight infants (under 32 weeks or under 2000 g) have weaker responses and may need an **extra hepatitis B dose** (or serology) and an extra pneumococcal dose; check the Handbook for the current rules.\n- Injection sites: **anterolateral thigh** for infants under 12 months; deltoid for older children and adolescents.\n- **Pre-vaccination screening checklist** before every vaccine: current illness, previous reactions, allergies, immunosuppression, pregnancy, recent blood products or live vaccines.\n- **Observe for 15 minutes** after vaccination; clinics must have adrenaline available.\n- Pain reduction: breastfeeding during the injection, sucrose in young infants, distraction."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- \"Which vaccines are due today?\" questions: map the age to the table. The classic stems are the 12-month visit (MMR, MenACWY, PCV), the 18-month visit (MMRV, DTPa, Hib) and 4 years (DTPa-IPV).\n- A 30-week-old infant who never had rotavirus: **do not give rotavirus**; it cannot be caught up.\n- A healthy 14-month-old who missed MMR: give **MMR**, not MMRV, as the first measles-containing dose.\n- Preterm babies: vaccinate at **chronological** age.\n- No BCG, no OPV in the routine Australian schedule.\n- Hepatitis B is the only vaccine given at birth routinely.\n- Record everything on the **AIR**."
+        }
+      ],
+      "keyPoints": [
+        "Birth: hepatitis B. 2, 4, 6 months: DTPa-hepB-IPV-Hib; PCV at 2 and 4 months; rotavirus at 2 and 4 months.",
+        "12 months: MMR, meningococcal ACWY, PCV. 18 months: MMRV, DTPa, Hib. 4 years: DTPa-IPV.",
+        "Rotavirus dose 1 by 14 weeks and dose 2 by 24 weeks; no catch-up beyond these limits.",
+        "MMR first, MMRV second, to reduce febrile seizure risk.",
+        "Conjugate vaccines work in infants because they recruit T-cell help.",
+        "Preterm infants are vaccinated at chronological age.",
+        "Annual influenza vaccine is funded for children 6 months to under 5 years."
+      ],
+      "redFlags": [],
+      "contrast": [
+        {
+          "aspect": "Polio vaccine",
+          "india": "Oral polio vaccine plus fractional IPV under the UIP.",
+          "australia": "IPV only, inside the hexavalent infant vaccine and at 4 years; OPV is not used."
+        },
+        {
+          "aspect": "First measles vaccine",
+          "india": "MR at 9-12 months.",
+          "australia": "MMR at 12 months, then MMRV at 18 months."
+        },
+        {
+          "aspect": "Infant combination vaccine",
+          "india": "Pentavalent (DTwP-hepB-Hib).",
+          "australia": "Hexavalent acellular DTPa-hepB-IPV-Hib at 2, 4 and 6 months."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Which vaccine is given routinely at birth in Australia?",
+          "back": "Hepatitis B (ideally within 24 hours, within 7 days)."
+        },
+        {
+          "front": "Vaccines due at 12 months on the NIP?",
+          "back": "MMR, meningococcal ACWY and pneumococcal conjugate."
+        },
+        {
+          "front": "Vaccines due at 18 months on the NIP?",
+          "back": "MMRV, DTPa and Hib."
+        },
+        {
+          "front": "Upper age limit for rotavirus dose 1?",
+          "back": "14 weeks (must be given before 15 weeks)."
+        },
+        {
+          "front": "Why is MMR (not MMRV) the first measles-containing dose?",
+          "back": "MMRV as a first dose roughly doubles febrile seizure risk in young children."
+        },
+        {
+          "front": "Why can't MMR be given routinely before 12 months?",
+          "back": "Maternal antibody neutralises the live vaccine virus."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "immunisation--nip-childhood-schedule--q1",
+          "discipline": "child-health",
+          "topic": "immunisation",
+          "difficulty": "foundation",
+          "stem": "A healthy 12-month-old girl born in Sydney attends her GP for routine immunisation. She is up to date with all vaccines to date. Which vaccines are due today under the National Immunisation Program?",
+          "options": [
+            "MMRV, DTPa and Hib",
+            "MMR, meningococcal ACWY and pneumococcal conjugate",
+            "DTPa-IPV and MMR",
+            "Hexavalent vaccine and rotavirus",
+            "BCG and MMR"
+          ],
+          "answer": 1,
+          "explanation": "The **12-month** NIP visit is **MMR, meningococcal ACWY and pneumococcal conjugate** (the booster dose of the 2+1 pneumococcal schedule). Annual influenza vaccine is also funded for children 6 months to under 5 years if it is the season.\n\nThe **18-month** visit is MMRV, DTPa and Hib; **4 years** is DTPa-IPV. The hexavalent vaccine is given at 2, 4 and 6 months, and rotavirus only at 2 and 4 months. BCG is not part of the routine Australian schedule.",
+          "whyWrong": [
+            "These are the 18-month vaccines.",
+            "",
+            "DTPa-IPV is the 4-year booster.",
+            "The hexavalent series ends at 6 months and rotavirus is not given after 24 weeks.",
+            "BCG is not on the routine Australian schedule."
+          ],
+          "tags": [
+            "schedule",
+            "12 months",
+            "nip"
+          ]
+        },
+        {
+          "id": "immunisation--nip-childhood-schedule--q2",
+          "discipline": "child-health",
+          "topic": "immunisation",
+          "difficulty": "core",
+          "stem": "A 30-week-old boy (about 7 months) attends a GP clinic for the first time since his family moved interstate. His record shows hepatitis B at birth and vaccines at 2 months only (hexavalent, pneumococcal and rotavirus). He is well. Which of the following should NOT be given at this visit?",
+          "options": [
+            "DTPa-hepB-IPV-Hib",
+            "Pneumococcal conjugate vaccine",
+            "Influenza vaccine",
+            "Rotavirus vaccine",
+            "None of these should be withheld"
+          ],
+          "answer": 3,
+          "explanation": "**Rotavirus vaccine has strict upper age limits**: dose 1 by 14 weeks and **dose 2 by 24 weeks**. The limits exist because the small risk of **intussusception** after vaccination rises with age. At 30 weeks this child is past the limit, so the second dose **cannot be given**, and no catch-up is offered.\n\nHe should otherwise be caught up: hexavalent vaccine (and a further dose at least 4 weeks later), pneumococcal conjugate, and influenza (two doses 4 weeks apart in the first year for children under 9). Use the catch-up calculator to plan the rest.",
+          "whyWrong": [
+            "He needs further hexavalent doses to complete the primary series.",
+            "He needs further pneumococcal doses.",
+            "Influenza vaccine is funded and recommended from 6 months.",
+            "",
+            "Rotavirus must be withheld because he is past the upper age limit."
+          ],
+          "tags": [
+            "rotavirus",
+            "catch-up",
+            "age limits"
+          ]
+        },
+        {
+          "id": "immunisation--nip-childhood-schedule--q3",
+          "discipline": "child-health",
+          "topic": "immunisation",
+          "difficulty": "exam",
+          "stem": "A 14-month-old boy has missed his 12-month vaccines because of a long overseas trip. He is healthy. His mother asks whether he can have 'the combined measles and chickenpox vaccine' today so he needs fewer needles. What is the most appropriate response?",
+          "options": [
+            "Give MMRV today because it combines two vaccines",
+            "Give MMR today (with the other 12-month vaccines) and MMRV at least 4 weeks later, from 18 months",
+            "Wait until he is 18 months and give MMRV then",
+            "Give MMR and a separate varicella vaccine today, then no further doses",
+            "Measure measles serology before deciding"
+          ],
+          "answer": 1,
+          "explanation": "The first measles-containing vaccine in a child under 4 should be **MMR, not MMRV**. MMRV as the first dose roughly doubles the risk of **febrile seizures** 5-12 days later, largely driven by the varicella component combined with the first exposure to measles vaccine virus.\n\nSo give **MMR today** along with the other overdue 12-month vaccines (meningococcal ACWY and pneumococcal conjugate), then **MMRV as the second dose** at 18 months or at least 4 weeks after MMR, whichever is later. Delaying the first dose leaves him unprotected against measles.",
+          "whyWrong": [
+            "MMRV as the first measles dose increases febrile seizure risk.",
+            "",
+            "Delaying measles protection is unnecessary and risky.",
+            "This is not the NIP approach and he still needs a second measles dose.",
+            "Serology is not needed; he has no documented vaccination."
+          ],
+          "tags": [
+            "mmr",
+            "mmrv",
+            "febrile seizures"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "immunisation--adolescents-pregnancy-special-groups",
+      "title": "Adolescents, pregnancy and special groups",
+      "minutes": 15,
+      "objectives": [
+        "Recall the school-based program (HPV and dTpa in Year 7, meningococcal ACWY in Year 10)",
+        "Advise on influenza, pertussis and RSV vaccination in pregnancy and infancy",
+        "Identify extra vaccines for Aboriginal and Torres Strait Islander children and for medical risk groups",
+        "State when BCG is used in Australia"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Beyond the infant schedule",
+          "body": "Once the 4-year dose is done, the next routine vaccines come through the **school-based immunisation program**, run by state and territory health departments with local councils or school nurses. Protection is also delivered **before birth** (maternal vaccination) and through **extra funded vaccines** for groups at higher risk. Many AMC questions sit here: the pregnant woman asking about whooping cough, the Aboriginal infant's extra vaccines, the child with asplenia, or the Indian-born GP wondering why Australian newborns don't get BCG."
+        },
+        {
+          "kind": "concepts",
+          "heading": "School program and influenza",
+          "body": "| School year (approximate age) | Vaccines |\n|---|---|\n| **Year 7** (12-13 years) | **HPV** (now a **single dose** for immunocompetent young people) and **dTpa** (diphtheria, tetanus, pertussis booster) |\n| **Year 10** (14-16 years) | **Meningococcal ACWY** |\n\n**HPV**: protects against the types causing most cervical, anal, oropharyngeal and other cancers, and genital warts. Given to all genders. Australia moved to a single-dose schedule in 2023 based on strong evidence of durable protection. People who are **significantly immunocompromised still need 3 doses**. Free catch-up is available for young people up to about age 25 (check the current NIP eligibility). Australia is on track to eliminate cervical cancer as a public health problem around 2035, combining HPV vaccination with 5-yearly cervical screening.\n\n**Meningococcal ACWY in adolescence**: carriage and invasive disease peak again in older teens (social behaviours, crowding). The Year 10 dose protects them and reduces carriage in the community.\n\n**Syncope** is common in the school program. Vaccinate adolescents **seated**, and observe for 15 minutes.\n\n**Influenza**:\n- Funded annually for **all children 6 months to under 5 years**, **Aboriginal and Torres Strait Islander people from 6 months**, **pregnant women**, people **65 and over**, and people with specified medical risk conditions (for example chronic heart or lung disease including severe asthma, diabetes, immunosuppression). Recommended (though not always funded) for everyone from 6 months.\n- **Children under 9 years receiving influenza vaccine for the first time need 2 doses at least 4 weeks apart**, then one dose each year.\n- **Egg allergy, including anaphylaxis, is not a contraindication** to influenza vaccine."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Pregnancy: protecting the newborn",
+          "body": "Newborns are too young to be vaccinated against pertussis, influenza or RSV. Maternal vaccination protects them via **transplacental IgG** and by protecting the mother.\n\n| Vaccine | When | Why |\n|---|---|---|\n| **Pertussis (dTpa)** | **Every pregnancy**, ideally **20-32 weeks** (can be given up to delivery) | Pertussis kills young infants (apnoea, pneumonia, encephalopathy); maternal antibody protects until infant vaccines take effect |\n| **Influenza** | **Any trimester**, every pregnancy | Pregnant women are at higher risk of severe influenza; also protects the infant under 6 months |\n| **RSV** | A maternal RSV vaccine is funded on the NIP in the third trimester (check the Handbook for the current window, around 28-36 weeks) | Protects infants through their first RSV season |\n| COVID-19 | Per current ATAGI advice | |\n\nInfants whose mothers were not vaccinated (or who were born soon after vaccination), and some higher-risk infants, may be offered an **RSV monoclonal antibody (nirsevimab)** through state programs; details vary by state and year.\n\n**Live vaccines (MMR, varicella) are contraindicated in pregnancy.** Women planning pregnancy should check rubella and varicella immunity and be vaccinated at least **28 days before conception**. Inadvertent MMR in pregnancy is **not an indication for termination**; the theoretical risk has not been seen in practice. MMR and varicella are routinely given **post-partum**, and breastfeeding is not a contraindication. Household contacts of a pregnant woman can have MMR, varicella and rotavirus.\n\n**Cocooning**: the Handbook recommends pertussis vaccination for adults in close contact with infants (partners, grandparents, carers), at least 2 weeks before contact, if they have not had a dose in the last 10 years."
+        },
+        {
+          "kind": "application",
+          "heading": "Aboriginal and Torres Strait Islander children, medical risk, BCG and travel",
+          "body": "**Aboriginal and Torres Strait Islander children** carry a higher burden of pneumococcal, meningococcal, hepatitis A and influenza disease. Extra funded vaccines include:\n- **Meningococcal B**: 2, 4 and 12 months (extra dose at 6 months for some medical conditions), with catch-up for young children. Give **prophylactic paracetamol** with MenB vaccine in children under 2, because fever is common.\n- **Pneumococcal**: an extra infant dose in some jurisdictions (a 3+1 schedule) and additional doses later in childhood in some states.\n- **Hepatitis A**: in some states (historically NT, QLD, SA, WA).\n- **Influenza** from 6 months, every year.\nCheck the Handbook and state schedule, as these details change. Asking every patient whether they identify as Aboriginal and/or Torres Strait Islander is standard practice so they receive what they are entitled to.\n\n**Medical risk conditions** (asplenia, immunocompromise, chronic heart/lung/kidney disease, CSF leak, cochlear implants, preterm birth) attract **extra pneumococcal doses** (including polysaccharide vaccine later), **meningococcal ACWY and B** for asplenia and complement deficiency, and influenza. **Asplenic children** also need a written plan and often antibiotic prophylaxis.\n\n**BCG** is **not routine** in Australia because TB incidence is low, BCG does not prevent adult pulmonary TB well, and it confounds the tuberculin skin test. It is recommended for:\n- **Aboriginal and Torres Strait Islander neonates** in communities with high TB incidence\n- **Children under 5 travelling for an extended period** to countries with high TB incidence\n- Newborns of parents with leprosy or a family history of leprosy (in some guidance)\nBCG is given by specialised services in each state. It is a live vaccine: not for immunocompromised infants, and HIV infection must be excluded where relevant.\n\n**Travel**: Indian-Australian families visiting relatives in India (\"visiting friends and relatives\" travellers) are a high-risk group. Advise **hepatitis A, typhoid, MMR (early dose from 6 months for infants)**, influenza, consider BCG for young children on long stays, rabies awareness, and malaria and food/water precautions depending on itinerary. These are mostly not NIP-funded."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Traps",
+          "body": "- Pregnant woman at 26 weeks asking about whooping cough: **dTpa now, in every pregnancy**, even if she had it in her last pregnancy 18 months ago.\n- Influenza vaccine in pregnancy: **any trimester**.\n- MMR given before she knew she was pregnant: **reassure**; not an indication for termination.\n- Egg-allergic child and flu vaccine: **give it** (standard observation).\n- Year 7: **HPV (single dose) and dTpa**; Year 10: **MenACWY**.\n- First-time flu vaccine in a 3-year-old: **two doses 4 weeks apart**.\n- MenB in an Aboriginal infant: give **prophylactic paracetamol**.\n- BCG: think \"not routine\", then name the high-risk groups."
+        }
+      ],
+      "keyPoints": [
+        "Year 7: HPV (single dose, all genders) and dTpa; Year 10: meningococcal ACWY.",
+        "Pertussis vaccine in every pregnancy, ideally 20-32 weeks; influenza in any trimester.",
+        "Live vaccines are contraindicated in pregnancy; inadvertent MMR is not an indication for termination.",
+        "Children under 9 having flu vaccine for the first time need 2 doses 4 weeks apart.",
+        "Aboriginal and Torres Strait Islander infants get funded MenB (with prophylactic paracetamol) and other extra vaccines.",
+        "Egg allergy is not a contraindication to influenza vaccine.",
+        "BCG only for specific high-risk groups, such as some Aboriginal neonates and young children travelling to high-TB countries."
+      ],
+      "redFlags": [],
+      "contrast": [
+        {
+          "aspect": "BCG",
+          "india": "Given to every newborn at birth.",
+          "australia": "Not routine; only high-risk groups such as some Aboriginal neonates and under-5s travelling to high-TB countries."
+        },
+        {
+          "aspect": "Pertussis in pregnancy",
+          "india": "Tdap in pregnancy is recommended but uptake is limited.",
+          "australia": "dTpa in every pregnancy (ideally 20-32 weeks) is funded on the NIP and a standard antenatal check item."
+        },
+        {
+          "aspect": "HPV vaccine",
+          "india": "Introduced to the national programme recently, mainly for girls.",
+          "australia": "School-based single dose for all genders in Year 7 since 2023; cervical cancer elimination target around 2035."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "NIP vaccines in Year 7?",
+          "back": "HPV (single dose) and dTpa."
+        },
+        {
+          "front": "NIP vaccine in Year 10?",
+          "back": "Meningococcal ACWY."
+        },
+        {
+          "front": "Timing of pertussis vaccine in pregnancy?",
+          "back": "Every pregnancy, ideally 20-32 weeks (can be given up to delivery)."
+        },
+        {
+          "front": "Doses of flu vaccine for a child under 9 in their first season?",
+          "back": "Two doses at least 4 weeks apart."
+        },
+        {
+          "front": "What should accompany MenB vaccine in children under 2?",
+          "back": "Prophylactic paracetamol (fever is common)."
+        },
+        {
+          "front": "HPV doses for a significantly immunocompromised adolescent?",
+          "back": "Three doses."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "immunisation--adolescents-pregnancy-special-groups--q1",
+          "discipline": "child-health",
+          "topic": "immunisation",
+          "difficulty": "foundation",
+          "stem": "A 31-year-old woman at 24 weeks' gestation in her second pregnancy asks about vaccines. She had a whooping cough vaccine during her previous pregnancy 20 months ago and a flu vaccine last winter. It is now May. What is the most appropriate advice?",
+          "options": [
+            "She needs no vaccines because she was vaccinated in her last pregnancy",
+            "Give MMR now to boost her immunity",
+            "Give dTpa between 20 and 32 weeks and influenza vaccine now",
+            "Give influenza vaccine only after delivery",
+            "Give dTpa only after delivery to protect the baby by cocooning"
+          ],
+          "answer": 2,
+          "explanation": "**Pertussis vaccine (dTpa) is recommended in every pregnancy**, ideally between **20 and 32 weeks**, regardless of previous doses. Antibody levels fall quickly, and the aim is to maximise **transplacental antibody** to protect the newborn before infant vaccines start at 6-8 weeks.\n\n**Influenza vaccine** is recommended in **any trimester** of every pregnancy and is funded on the NIP; since it is May, give it now. MMR is a live vaccine and is **contraindicated in pregnancy**. Post-partum pertussis vaccination of the mother is much less effective for the baby than antenatal vaccination.",
+          "whyWrong": [
+            "Pertussis vaccine is recommended in every pregnancy because antibodies wane.",
+            "MMR is live and contraindicated in pregnancy.",
+            "",
+            "Influenza vaccine is safe and recommended in any trimester.",
+            "Antenatal vaccination protects the baby far better than post-partum vaccination."
+          ],
+          "tags": [
+            "pregnancy",
+            "pertussis",
+            "influenza"
+          ]
+        },
+        {
+          "id": "immunisation--adolescents-pregnancy-special-groups--q2",
+          "discipline": "child-health",
+          "topic": "immunisation",
+          "difficulty": "core",
+          "stem": "A 2-month-old Aboriginal girl living in Darwin attends an Aboriginal community controlled health service for her first vaccines. Which is the most appropriate plan in addition to the standard 2-month NIP vaccines?",
+          "options": [
+            "BCG only",
+            "Meningococcal B vaccine with prophylactic paracetamol",
+            "Hepatitis A vaccine",
+            "Meningococcal ACWY vaccine",
+            "MMR vaccine"
+          ],
+          "answer": 1,
+          "explanation": "**Meningococcal B vaccine** is funded on the NIP for **Aboriginal and Torres Strait Islander infants** at 2, 4 and 12 months, reflecting their higher rates of invasive meningococcal disease. **Prophylactic paracetamol** is recommended with MenB vaccine in children under 2 years because fever is common afterwards (the first dose given around the time of vaccination, then further doses per the Handbook).\n\nBCG may be recommended for Aboriginal neonates in high-TB-incidence communities, but it is not a routine 2-month vaccine. Hepatitis A (where funded) is given in the second year, meningococcal ACWY at 12 months, and MMR at 12 months.",
+          "whyWrong": [
+            "BCG is only for specific high-incidence communities and would usually be given in the neonatal period.",
+            "",
+            "Hepatitis A, where funded, is given in the second year of life.",
+            "Meningococcal ACWY is due at 12 months.",
+            "MMR cannot be given routinely before 12 months."
+          ],
+          "ausPearl": "Always ask whether a patient identifies as Aboriginal and/or Torres Strait Islander; it changes vaccine eligibility.",
+          "tags": [
+            "first nations",
+            "meningococcal b",
+            "paracetamol"
+          ]
+        },
+        {
+          "id": "immunisation--adolescents-pregnancy-special-groups--q3",
+          "discipline": "child-health",
+          "topic": "immunisation",
+          "difficulty": "exam",
+          "stem": "A 29-year-old woman calls her GP distressed. She received MMR vaccine 3 weeks ago as part of pre-pregnancy planning and has just had a positive pregnancy test. She asks whether she should terminate the pregnancy. What is the most appropriate advice?",
+          "options": [
+            "Termination is recommended because of the risk of congenital rubella syndrome",
+            "Arrange rubella IgM testing of the fetus",
+            "Give normal human immunoglobulin to neutralise the vaccine",
+            "Reassure her that inadvertent MMR vaccination in pregnancy is not an indication for termination, and report it as advised",
+            "Start aciclovir"
+          ],
+          "answer": 3,
+          "explanation": "MMR is contraindicated in pregnancy as a precaution, and women are advised to avoid pregnancy for **28 days** after vaccination. However, large registries of women inadvertently vaccinated in or just before pregnancy have **not shown congenital rubella syndrome** from the vaccine virus. The Australian Immunisation Handbook states that inadvertent vaccination is **not an indication for termination**.\n\nReassure her, document it and follow local advice about reporting and follow-up. Continue routine antenatal care, including dTpa and influenza vaccines.",
+          "whyWrong": [
+            "Vaccine-associated congenital rubella syndrome has not been demonstrated.",
+            "Fetal testing is not indicated.",
+            "Immunoglobulin has no role here.",
+            "",
+            "Aciclovir has no activity against rubella vaccine virus."
+          ],
+          "tags": [
+            "mmr",
+            "pregnancy",
+            "live vaccine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "immunisation--contraindications-and-precautions",
+      "title": "Contraindications, precautions and live vaccines",
+      "minutes": 14,
+      "objectives": [
+        "Separate true contraindications from the many false contraindications that delay vaccination",
+        "Decide when live vaccines are unsafe (immunosuppression, pregnancy, steroids, recent blood products)",
+        "Vaccinate safely around immunosuppressed family members and newborns",
+        "Use the pre-vaccination screening checklist to structure the decision"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why this matters",
+          "body": "More children miss vaccines because of **false contraindications** than true ones. A GP who sends home a child with a runny nose or eczema costs a vaccination opportunity; a GP who gives a live vaccine to a child on chemotherapy can cause disseminated infection. The AMC tests both directions.\n\nThe Handbook's **pre-vaccination screening checklist** asks whether the person:\n- is unwell today (and how unwell)\n- has had a serious reaction to any vaccine, or has a severe allergy\n- has a condition or treatment that lowers immunity, or lives with someone who does\n- is pregnant or planning pregnancy\n- has received a blood product, immunoglobulin or live vaccine recently\n- is an infant whose mother received biological immunosuppressants in pregnancy\n- has a history of intussusception (for rotavirus), Guillain-Barre syndrome, or other relevant history"
+        },
+        {
+          "kind": "concepts",
+          "heading": "True contraindications",
+          "body": "**For all vaccines**\n- **Anaphylaxis after a previous dose** of the same vaccine\n- **Anaphylaxis to a component** of the vaccine (for example neomycin or gelatin in some vaccines)\n\n**For live vaccines (MMR, MMRV, varicella, rotavirus, BCG, oral typhoid, yellow fever)**\n- **Significant immunocompromise**: for example, children receiving chemotherapy or radiotherapy, primary immunodeficiency (such as SCID), HIV with low CD4 counts, after organ or stem cell transplant, on high-dose corticosteroids or other immunosuppressive drugs (including biologics)\n- **Pregnancy**\n\n**Rotavirus specifically**\n- **Previous intussusception**, SCID, uncorrected congenital GI malformation\n- Infants whose mothers took certain **biological disease-modifying drugs** in pregnancy (for example infliximab) may need to defer live vaccines including rotavirus: check the Handbook\n\n**Corticosteroids**: high-dose systemic steroids suppress immunity. The Handbook gives thresholds (roughly **2 mg/kg/day prednisolone (or 20 mg/day or more in larger children) for more than a week or so**, with longer durations at lower doses) above which live vaccines are deferred, usually until **at least 1 month after stopping**. Inhaled, topical, intra-articular and short low-dose courses do **not** contraindicate live vaccines. Check the exact thresholds in the Handbook.\n\n**Recent immunoglobulin or blood products**: these contain antibodies that neutralise live **MMR and varicella** vaccines. Defer these vaccines for **3 to 11 months** depending on the product and dose (the Handbook table). Rotavirus is not affected.\n\n**Inactivated vaccines** are safe in immunosuppression, though responses may be reduced, and are often timed before immunosuppressive therapy starts. Immunosuppressed children need extra protection such as annual influenza vaccine and extra pneumococcal doses."
+        },
+        {
+          "kind": "application",
+          "heading": "False contraindications (vaccinate anyway)",
+          "body": "| Situation | Why it is not a contraindication |\n|---|---|\n| **Mild illness** without significant fever (runny nose, cough, mild diarrhoea) | Does not affect safety or response. Postpone only for acute illness with fever of 38.5 °C or more, or if systemically unwell |\n| Currently on **antibiotics** | Does not affect inactivated or most live vaccines (except oral typhoid) |\n| **Egg allergy**, including anaphylaxis | MMR and influenza vaccines are safe; give in the usual setting with usual observation (yellow fever and Q fever are exceptions) |\n| **Asthma, eczema, hay fever**, other allergies | No increased risk |\n| **Prematurity** | Vaccinate at chronological age |\n| **Breastfeeding** | Safe for mother and infant, including rotavirus |\n| **Pregnant mother or household contact** | Children can have MMR, varicella and rotavirus; vaccine virus transmission from MMR does not occur, and rotavirus shedding is not a risk to pregnancy (use hand hygiene with nappies) |\n| **Immunosuppressed household contact** | Vaccinate the child (this protects the contact). If a varicella rash develops after vaccination, avoid contact until it crusts; hand hygiene after nappy changes for rotavirus |\n| Family history of vaccine reactions, SIDS or seizures | Not a reason to withhold |\n| Stable neurological conditions (cerebral palsy, controlled epilepsy) | Vaccinate |\n| Previous **mild reaction** (local swelling, fever) | Vaccinate; consider paracetamol for comfort |\n| Child is on low-dose or inhaled steroids | Vaccinate |\n| **Neonatal jaundice**, low birth weight, recent surgery (minor) | Vaccinate |\n| Previous **pertussis-like illness**, or history of the disease being vaccinated against (such as chickenpox, unless documented) | Vaccinate |\n\n**Precautions** (weigh the risk and benefit, often with specialist input): Guillain-Barre syndrome within 6 weeks of a previous influenza vaccine, **thrombocytopenia after MMR**, previous **extensive limb swelling** (can still vaccinate), and a history of **hypotonic-hyporesponsive episode** (not a contraindication). Children with suspected allergy to a vaccine can be referred to a **specialist immunisation clinic** (for example SAEFVIC in Victoria, or state services)."
+        },
+        {
+          "kind": "application",
+          "heading": "Planning around immunosuppression",
+          "body": "- **Before immunosuppression**: vaccinate first where possible. Live vaccines should ideally be given at least **4 weeks before** starting therapy; inactivated at least 2 weeks before.\n- **During chemotherapy**: no live vaccines; inactivated vaccines, especially influenza, may be given per specialist advice. After treatment, many children need revaccination (for example after stem cell transplant, a full new schedule is given).\n- **Household members** of immunosuppressed children should be fully vaccinated, including influenza, MMR and varicella: this \"ring\" protects the child.\n- **HIV**: MMR and varicella may be given if CD4 is adequate; BCG is contraindicated.\n- **Asplenia**: vaccinate for pneumococcus, meningococcus (ACWY and B), Hib and influenza, ideally at least 2 weeks before elective splenectomy.\n- **Coeliac disease, diabetes and chronic kidney disease** are not immunosuppressive in themselves, but some confer medical risk eligibility."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- \"Should today's vaccines be postponed?\" The answer for a runny nose, mild cough or antibiotics is **no**.\n- Egg anaphylaxis and MMR or flu vaccine: **vaccinate** in the usual setting.\n- Child on chemotherapy asking about chickenpox vaccine: **contraindicated**; vaccinate the siblings instead.\n- Sibling of a newborn or of a pregnant mother: MMR and varicella are fine.\n- Child who received IVIG for Kawasaki disease: **defer MMR and varicella** (for up to 11 months after high-dose IVIG).\n- Previous anaphylaxis to the vaccine: the one universal contraindication."
+        }
+      ],
+      "keyPoints": [
+        "The only universal contraindication is anaphylaxis to a previous dose or a vaccine component.",
+        "Live vaccines are contraindicated in significant immunosuppression and in pregnancy.",
+        "High-dose systemic steroids: defer live vaccines until about 1 month after stopping; inhaled and topical steroids are fine.",
+        "Immunoglobulin and blood products delay MMR and varicella by 3-11 months.",
+        "Minor illness, antibiotics, eczema, asthma, prematurity and egg allergy are not contraindications.",
+        "Vaccinating household contacts protects immunosuppressed children.",
+        "Rotavirus is contraindicated after previous intussusception and in SCID."
+      ],
+      "redFlags": [],
+      "contrast": [
+        {
+          "aspect": "Minor illness at vaccination",
+          "india": "Vaccination is often deferred for any cold or fever.",
+          "australia": "Vaccinate through minor illness; defer only for fever of 38.5 °C or more or systemic illness."
+        },
+        {
+          "aspect": "Egg allergy",
+          "india": "Often treated as a contraindication to MMR and influenza vaccine.",
+          "australia": "Not a contraindication for MMR or influenza (even with egg anaphylaxis), per the Handbook."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "The one contraindication that applies to all vaccines?",
+          "back": "Anaphylaxis after a previous dose or to a vaccine component."
+        },
+        {
+          "front": "Two groups in whom live vaccines are contraindicated?",
+          "back": "Significantly immunocompromised people and pregnant women."
+        },
+        {
+          "front": "Does egg anaphylaxis contraindicate influenza vaccine?",
+          "back": "No; give in the usual setting with standard observation."
+        },
+        {
+          "front": "After high-dose IVIG, which vaccines are deferred?",
+          "back": "MMR and varicella (up to 11 months, per Handbook table)."
+        },
+        {
+          "front": "Fever threshold at which vaccination is postponed?",
+          "back": "38.5 °C or higher, or the child is systemically unwell."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "immunisation--contraindications-and-precautions--q1",
+          "discipline": "child-health",
+          "topic": "immunisation",
+          "difficulty": "foundation",
+          "stem": "A 4-month-old boy is brought for his routine vaccines. He has had a runny nose and mild cough for 2 days and is feeding normally. Temperature 37.6 °C. He has moderate eczema treated with 1% hydrocortisone. His mother had a bad reaction to a flu vaccine as a teenager. What is the most appropriate action?",
+          "options": [
+            "Postpone all vaccines until the cold resolves",
+            "Give the vaccines but skip rotavirus",
+            "Give all the scheduled 4-month vaccines today",
+            "Refer to a specialist immunisation clinic first",
+            "Give the vaccines only after stopping the hydrocortisone"
+          ],
+          "answer": 2,
+          "explanation": "None of these is a contraindication. **Mild illness without significant fever** (under 38.5 °C) does not affect vaccine safety or response. **Eczema** and **topical corticosteroids** are not contraindications. A **family history** of vaccine reactions is not a reason to withhold vaccines.\n\nGive all scheduled 4-month vaccines (hexavalent, pneumococcal, rotavirus). False contraindications are a major cause of incomplete vaccination in Australian children, so each visit is an opportunity not to be wasted.",
+          "whyWrong": [
+            "A mild cold without high fever is not a reason to delay.",
+            "Rotavirus is safe here and he is within the age limit.",
+            "",
+            "A family history of reactions does not need specialist referral.",
+            "Topical steroids do not affect vaccination."
+          ],
+          "tags": [
+            "contraindications",
+            "minor illness",
+            "eczema"
+          ]
+        },
+        {
+          "id": "immunisation--contraindications-and-precautions--q2",
+          "discipline": "child-health",
+          "topic": "immunisation",
+          "difficulty": "core",
+          "stem": "A 5-year-old girl with acute lymphoblastic leukaemia is in the maintenance phase of chemotherapy. Her 18-month-old brother is due for his MMRV, DTPa and Hib vaccines. The parents are worried that vaccinating the brother could harm his sister. What is the most appropriate advice?",
+          "options": [
+            "Give the brother all his scheduled vaccines, and advise that if he develops a varicella-like rash his sister should avoid contact until it crusts",
+            "Withhold all vaccines from the brother until his sister finishes chemotherapy",
+            "Give the brother DTPa and Hib only, and withhold MMRV",
+            "Give the sister MMRV at the same visit so both are protected",
+            "Give both children normal human immunoglobulin"
+          ],
+          "answer": 0,
+          "explanation": "Immunosuppressed children are best protected by **vaccinating everyone around them** (household ring protection). **MMR vaccine virus is not transmitted** to contacts. Varicella vaccine virus is transmitted only very rarely, and essentially only when the vaccinee develops a rash; so if a rash appears, the sister should avoid contact until the lesions crust.\n\nThe sister herself **must not receive live vaccines** (MMRV) while on chemotherapy, but should receive inactivated vaccines such as annual influenza as advised by her oncology team. Withholding vaccines from siblings increases her risk of exposure to wild-type measles and varicella.",
+          "whyWrong": [
+            "",
+            "Unvaccinated siblings increase the risk of wild-type infection reaching the sister.",
+            "MMRV is safe for the sibling and important for ring protection.",
+            "Live vaccines are contraindicated in a child on chemotherapy.",
+            "Immunoglobulin is not indicated and would interfere with the brother's live vaccine."
+          ],
+          "tags": [
+            "immunosuppression",
+            "household contacts",
+            "live vaccines"
+          ]
+        },
+        {
+          "id": "immunisation--contraindications-and-precautions--q3",
+          "discipline": "child-health",
+          "topic": "immunisation",
+          "difficulty": "exam",
+          "stem": "A 13-month-old boy was treated 3 months ago for Kawasaki disease with high-dose intravenous immunoglobulin (2 g/kg). He is now well and attends for his overdue 12-month vaccines. Which vaccine should be deferred?",
+          "options": [
+            "Pneumococcal conjugate vaccine",
+            "Meningococcal ACWY vaccine",
+            "Influenza vaccine",
+            "Hexavalent (DTPa-hepB-IPV-Hib) vaccine",
+            "MMR vaccine"
+          ],
+          "answer": 4,
+          "explanation": "Immunoglobulin contains antibodies (including measles and varicella antibodies) that **neutralise live parenteral vaccines** such as **MMR and varicella**, so the vaccine may not take. The Handbook specifies intervals from **3 to 11 months** depending on the product and dose; after **high-dose IVIG (2 g/kg) the recommended interval is 11 months**.\n\nInactivated and conjugate vaccines (pneumococcal, meningococcal ACWY, influenza, hexavalent) are not affected and should be given today. Plan MMR once the interval has passed, and ensure measles protection is prioritised if there is an outbreak.",
+          "whyWrong": [
+            "Conjugate vaccines are not affected by immunoglobulin.",
+            "Meningococcal ACWY is a conjugate vaccine, unaffected by IVIG.",
+            "Inactivated influenza vaccine is unaffected.",
+            "Inactivated vaccines can be given; the question is about which to defer.",
+            ""
+          ],
+          "tags": [
+            "ivig",
+            "mmr",
+            "live vaccines"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "immunisation--vaccine-safety-and-hesitancy",
+      "title": "Vaccine safety, adverse events and hesitancy",
+      "minutes": 14,
+      "objectives": [
+        "Recognise and manage common and serious adverse events following immunisation",
+        "Tell a vasovagal faint from anaphylaxis at the vaccination clinic",
+        "Report adverse events and record vaccines on the Australian Immunisation Register",
+        "Explain No Jab No Pay and No Jab No Play and hold a respectful conversation with a hesitant parent"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Safety in context",
+          "body": "Vaccines are among the safest medical interventions, but reactions do occur, and parents' trust depends on clinicians who acknowledge side effects honestly. Australia has a strong safety system: pre-licensing assessment by the **Therapeutic Goods Administration (TGA)**, active surveillance (**AusVaxSafety** sends text messages to parents after vaccination), state-based reporting of **adverse events following immunisation (AEFI)**, and specialist immunisation clinics for children with previous reactions."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Adverse events, from common to rare",
+          "body": "| Reaction | Features and timing | Implications |\n|---|---|---|\n| **Local reactions** | Pain, redness, swelling at the site within 48 hours | Common; cold compress, paracetamol for comfort |\n| **Fever, irritability** | Within 48 hours of inactivated vaccines | Paracetamol for discomfort (not routinely before vaccines, except with MenB in under-2s) |\n| **Fever and rash after MMR** | **5-12 days** after (vaccine virus replication); non-infectious | Reassure |\n| **Febrile seizure** | Highest after MMRV as a first dose (hence MMR first), and influenza vaccine brands in young children in the past | Not a contraindication to further doses |\n| **Extensive limb swelling** | After 4th or 5th DTPa dose; swelling of much of the limb, resolves in days | Not a contraindication to future doses |\n| **Hypotonic-hyporesponsive episode (HHE)** | Sudden pallor, limpness, unresponsiveness within 48 hours (usually hours), infants; full recovery | Not a contraindication to further vaccines |\n| **Syncope** | Adolescents, within minutes | Vaccinate seated; lie down if faint |\n| **Intussusception** | Small increased risk in the week after rotavirus dose 1 (and to a lesser extent dose 2) | Why age limits exist; tell parents to seek care for colicky pain, vomiting, blood in stool |\n| **Immune thrombocytopenia** | Rare, after MMR (much rarer than after measles itself) | Specialist advice before further doses |\n| **Anaphylaxis** | Minutes, rarely more than 30 minutes; about 1 per million doses | Adrenaline; a contraindication to further doses of that vaccine |\n| **Injection site abscess, BCG lymphadenitis** | Days to weeks | Specific management |\n\n**Faint or anaphylaxis?** Vasovagal syncope: sudden pallor, sweating, **bradycardia**, no rash or respiratory signs, recovery within a minute or two lying down. Anaphylaxis: **tachycardia**, urticaria, wheeze, stridor or hypotension persisting. If in doubt, **treat as anaphylaxis with IM adrenaline** (0.01 mg/kg of 1:1000, max 0.5 mg). All vaccination sites must have adrenaline and staff trained to use it, and everyone is observed for **15 minutes** after vaccination.\n\n**The autism myth**: the 1998 paper linking MMR to autism was fraudulent and retracted, and its author was struck off. Large studies involving millions of children show no link. This is often the heart of a hesitant parent's concern."
+        },
+        {
+          "kind": "application",
+          "heading": "Reporting and the Australian Immunisation Register",
+          "body": "**Reporting AEFI**: any serious or unexpected adverse event should be reported, either to the **state or territory health department** (which feeds into the TGA database) or directly to the **TGA**. In some states AEFI reporting by clinicians is a legal requirement; it varies by state. Parents can report too. Specialist services (such as **SAEFVIC** in Victoria) assess children with previous reactions and advise on revaccination.\n\n**The Australian Immunisation Register (AIR)**:\n- A whole-of-life national register of all vaccines given in Australia (and overseas vaccines entered by providers).\n- It is **mandatory for vaccination providers to report** NIP vaccines, influenza and COVID-19 vaccines to the AIR.\n- Families can obtain an **immunisation history statement** through Medicare (for childcare or school enrolment).\n- **Medical exemptions** (for example previous anaphylaxis, significant immunosuppression, or natural immunity to a disease such as documented varicella) are recorded on the AIR by eligible doctors (GPs, paediatricians, public health physicians, infectious disease physicians, clinical immunologists).\n- **Overseas vaccines** must be entered on the AIR (with documentation) to count; this matters for migrant families.\n\n**No Jab, No Pay** (federal, since 2016): children must be **up to date with vaccination (or on a recognised catch-up schedule, or have a medical exemption)** to receive the **Child Care Subsidy** and the **Family Tax Benefit Part A supplement**. **Conscientious and religious objection are no longer exemptions.**\n\n**No Jab, No Play** (state laws; several states including Victoria, NSW, Queensland, South Australia and Western Australia, with details varying by state): early childhood education and care services may refuse enrolment of children who are not up to date, have no approved catch-up plan, and have no medical exemption."
+        },
+        {
+          "kind": "application",
+          "heading": "Talking with a hesitant parent",
+          "body": "Most hesitant parents are not \"anti-vaccine\": they are worried and want to do the right thing. Evidence-based communication approaches (such as those in the Australian SKAI resources, \"Sharing Knowledge About Immunisation\") suggest:\n\n- **Presumptive framing**: \"Today Mia is due for her 12-month vaccines\", rather than \"What do you want to do about vaccines?\".\n- **Elicit concerns** first and listen without judgement: \"What have you heard that worries you?\"\n- **Acknowledge** the concern and the love behind it.\n- **Give clear, honest information**: common side effects are mild; serious reactions are rare; the diseases are serious (measles encephalitis, pertussis deaths in infants, Hib meningitis).\n- Avoid overwhelming with statistics or repeating the myth in detail; tell a simple, accurate story.\n- **Keep the door open**: do not dismiss the family from the practice. Offer written resources, a follow-up appointment, and consider a staged approach if it gets vaccination started.\n- If a parent still refuses, **document the discussion**, explain the disease risks and when to seek care, and explain No Jab No Pay/No Play implications factually.\n\n**Legal note**: a parent can generally decline vaccination for their child. Vaccinating against a parent's wishes is not appropriate outside a court order. Mature minors may consent to vaccination themselves if they are judged to have sufficient understanding (Gillick competence), and some states have specific ages for school program consent: this varies by state."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Pale, limp, bradycardic adolescent seconds after HPV vaccine with no rash or wheeze: **vasovagal** (lie flat, legs up). Tachycardia, stridor, urticaria or persistent hypotension: **adrenaline IM**.\n- Fever and rash 7-10 days after MMR: expected, non-contagious, reassure.\n- Extensive limb swelling after DTPa or an HHE: **not** a contraindication to future doses.\n- Hesitant parent: the best answer **explores concerns** and keeps the relationship; the worst answers threaten, dismiss or refuse ongoing care.\n- \"Can I get an exemption for conscientious objection?\": **no**, only medical exemptions count for No Jab No Pay.\n- Serious AEFI: **report** to the state health department or TGA."
+        }
+      ],
+      "keyPoints": [
+        "Most adverse events are mild local reactions and fever within 48 hours.",
+        "MMR fever and rash occur 5-12 days after vaccination and are not contagious.",
+        "Extensive limb swelling and hypotonic-hyporesponsive episodes are not contraindications to future doses.",
+        "Faint: bradycardia, no rash, quick recovery lying flat. Anaphylaxis: tachycardia, urticaria, wheeze or hypotension; give IM adrenaline.",
+        "Report serious AEFI to the state health department or TGA.",
+        "Providers must record vaccines on the AIR; exemptions for No Jab No Pay are medical only.",
+        "Hesitant parents: elicit concerns, acknowledge, inform honestly, keep the door open."
+      ],
+      "redFlags": [
+        "Urticaria, wheeze, stridor or hypotension after vaccination (anaphylaxis)",
+        "Colicky pain, vomiting or blood in stool in the week after rotavirus vaccine (intussusception)",
+        "Petechiae or bruising 2-3 weeks after MMR (thrombocytopenia)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Vaccination requirements",
+          "india": "Vaccination is voluntary and not tied to payments.",
+          "australia": "No Jab No Pay (federal payments) and No Jab No Play (state childcare) require up-to-date vaccination or a medical exemption."
+        },
+        {
+          "aspect": "Vaccine records",
+          "india": "Mother and Child Protection card, now U-WIN digital records.",
+          "australia": "National whole-of-life Australian Immunisation Register; provider reporting is mandatory."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "When do fever and rash typically occur after MMR?",
+          "back": "5-12 days after vaccination."
+        },
+        {
+          "front": "Is a hypotonic-hyporesponsive episode a contraindication to future doses?",
+          "back": "No."
+        },
+        {
+          "front": "Minimum observation time after vaccination?",
+          "back": "15 minutes."
+        },
+        {
+          "front": "Which exemptions are accepted under No Jab No Pay?",
+          "back": "Medical exemptions only (recorded on the AIR); conscientious objection is not accepted."
+        },
+        {
+          "front": "Where is a serious adverse event following immunisation reported?",
+          "back": "State or territory health department, or directly to the TGA."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "immunisation--vaccine-safety-and-hesitancy--q1",
+          "discipline": "child-health",
+          "topic": "immunisation",
+          "difficulty": "foundation",
+          "stem": "A 13-year-old girl receives her HPV and dTpa vaccines at school while standing in line. Within a minute she becomes pale and sweaty and slumps to the floor. She is unresponsive for about 20 seconds, with a pulse of 48/min, then wakes and says she feels sick. There is no rash, no wheeze and no stridor. What is the most likely diagnosis?",
+          "options": [
+            "Anaphylaxis",
+            "Hypotonic-hyporesponsive episode",
+            "Generalised seizure",
+            "Vasovagal syncope",
+            "Guillain-Barre syndrome"
+          ],
+          "answer": 3,
+          "explanation": "Sudden pallor, sweating, **bradycardia** and brief loss of consciousness **within minutes** of an injection, with **rapid recovery** and no skin, respiratory or persistent cardiovascular signs, is **vasovagal syncope**. It is common in adolescents in the school program, which is why they should be **vaccinated seated** and observed for 15 minutes.\n\nAnaphylaxis would cause **tachycardia**, urticaria, respiratory compromise or persistent hypotension. Brief jerks can occur in syncope and do not indicate epilepsy. Lie her flat with legs raised and observe; if any doubt, treat as anaphylaxis.",
+          "whyWrong": [
+            "Anaphylaxis causes tachycardia and skin or respiratory signs, not a quick recovery with bradycardia.",
+            "HHE occurs in infants, not adolescents.",
+            "The trigger and rapid recovery with bradycardia favour syncope.",
+            "",
+            "GBS develops over days to weeks with ascending weakness."
+          ],
+          "tags": [
+            "syncope",
+            "adverse events",
+            "school program"
+          ]
+        },
+        {
+          "id": "immunisation--vaccine-safety-and-hesitancy--q2",
+          "discipline": "child-health",
+          "topic": "immunisation",
+          "difficulty": "core",
+          "stem": "A mother brings her 6-month-old son for his vaccines but says she has decided not to vaccinate after reading online that vaccines cause autism. She seems anxious. What is the most appropriate initial response?",
+          "options": [
+            "Tell her the practice cannot see unvaccinated children",
+            "Explain that the autism claim was fraudulent and give her a list of statistics before she leaves",
+            "Report her to child protection services for neglect",
+            "Give the vaccines while she is distracted",
+            "Ask what she has read and what worries her most, acknowledge her concern, and offer to talk through the evidence"
+          ],
+          "answer": 4,
+          "explanation": "Most hesitant parents are worried rather than opposed. The most effective approach is to **elicit and explore concerns**, **acknowledge** that she wants to protect her child, and then give **clear, honest information**: the MMR-autism paper was fraudulent and retracted, and very large studies show no link.\n\nKeep the relationship: dismissing families from a practice pushes them away from care. Offer resources, a follow-up visit, and document the conversation. Declining vaccination is not in itself child abuse, and vaccinating without consent would be assault.",
+          "whyWrong": [
+            "Dismissing the family damages trust and removes future opportunities to vaccinate.",
+            "A statistics lecture without exploring concerns is rarely effective.",
+            "Declining vaccination alone is not a child protection matter.",
+            "Vaccinating without consent is unlawful.",
+            ""
+          ],
+          "tags": [
+            "hesitancy",
+            "communication",
+            "consent"
+          ]
+        },
+        {
+          "id": "immunisation--vaccine-safety-and-hesitancy--q3",
+          "discipline": "child-health",
+          "topic": "immunisation",
+          "difficulty": "exam",
+          "stem": "A 6-month-old girl was given her hexavalent and pneumococcal vaccines 4 hours ago. Her father reports that an hour ago she suddenly went pale and floppy, would not respond to him for about 10 minutes, and then gradually returned to normal. On examination she is alert, feeding, with normal vital signs and no rash. What is the most appropriate advice regarding future vaccines?",
+          "options": [
+            "She should receive all future vaccines as scheduled; this episode is not a contraindication",
+            "She should never receive pertussis-containing vaccines again",
+            "Future vaccines must be given only in hospital under general anaesthetic",
+            "She has had anaphylaxis and needs an adrenaline autoinjector",
+            "She needs an EEG before any further vaccination"
+          ],
+          "answer": 0,
+          "explanation": "Sudden **pallor, hypotonia and reduced responsiveness** within 48 hours of vaccination (usually within a few hours) followed by full recovery is a **hypotonic-hyporesponsive episode (HHE)**. It is most associated with pertussis-containing vaccines in infants, and children recover fully without long-term effects.\n\nThe Australian Immunisation Handbook states that HHE is **not a contraindication** to further doses, including pertussis-containing vaccines. Report the event as an AEFI, and some families may choose to discuss with a specialist immunisation service. Anaphylaxis would involve skin, respiratory or cardiovascular signs such as urticaria, wheeze or persistent hypotension.",
+          "whyWrong": [
+            "",
+            "HHE is not a contraindication to pertussis-containing vaccines.",
+            "There is no indication for special settings or anaesthesia.",
+            "There were no features of anaphylaxis.",
+            "HHE is not a seizure and does not need an EEG."
+          ],
+          "tags": [
+            "hhe",
+            "adverse events",
+            "pertussis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "immunisation--catch-up-vaccination",
+      "title": "Catch-up vaccination and migrant children",
+      "minutes": 14,
+      "objectives": [
+        "Apply the core principles of catch-up vaccination (never restart, minimum intervals, age cut-offs)",
+        "Use the National Immunisation Catch-up Calculator and the Handbook to plan a schedule",
+        "Assess and document overseas vaccination records for migrant and refugee children",
+        "Know which vaccines are no longer needed or not allowed at older ages"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why catch-up matters",
+          "body": "Many children in Australia arrive with incomplete or different vaccination histories: migrants (India is one of the largest source countries), refugees and humanitarian entrants, children who moved interstate, and children of hesitant parents who later change their minds. Getting them up to date protects them and the community, and is needed for **No Jab No Pay** and childcare enrolment (being on a **recognised catch-up schedule** counts as up to date).\n\n**NIP vaccines are free for catch-up** for people under 20 years, and for refugees and other humanitarian entrants of any age. Check the current Handbook for specific eligibility."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Principles of catch-up",
+          "body": "1. **Never restart a schedule.** Every valid documented dose counts, no matter how long ago. Continue where the child left off.\n2. **Use minimum intervals and minimum ages** to bring the child up to date as quickly as possible (for example, most primary infant doses can be 4 weeks apart when catching up).\n3. **Give all due vaccines at the same visit**, in separate sites. Two live injectable vaccines on the same day or at least 4 weeks apart.\n4. **Age changes the number of doses needed.** The older the child, the fewer doses of Hib and pneumococcal vaccine are needed, because of better immune responses and lower risk:\n   - **Hib**: not routinely needed for healthy children aged **5 years or older**.\n   - **Pneumococcal conjugate**: not routinely needed for healthy children aged 5 or older (medical risk groups differ).\n   - **Rotavirus**: **cannot be given** beyond the upper age limits (dose 1 by 14 weeks, dose 2 by 24 weeks).\n   - **Pertussis-containing vaccine** formulation changes with age: DTPa for children under 10, **dTpa** (reduced antigen) for 10 and older.\n5. **If there is no documentation, assume the child is unvaccinated** and vaccinate. Verbal reports are not accepted as evidence, except for influenza. Giving an extra dose to a child who may already be immune is safe.\n6. **Serology is useful only for some vaccines**: for example hepatitis B (to check infection status and immunity), varicella in older children, and measles/rubella in some circumstances. Do not use serology to decide on most other vaccines (tetanus, pertussis, polio, Hib).\n7. **Record everything on the AIR**, including valid overseas doses, and give the family a written catch-up plan.\n\n**Tools**: the **National Immunisation Catch-up Calculator (NICC)**, linked from the Handbook and available through the AIR, generates a schedule from date of birth and previous doses. The Handbook has catch-up tables by age."
+        },
+        {
+          "kind": "application",
+          "heading": "The migrant or refugee child",
+          "body": "**Assessing an overseas record**\n- Translate and match each vaccine to its Australian equivalent (for example India's \"Pentavalent\" = DTwP-hepB-Hib; \"OPV\" and \"fIPV\" for polio; \"MR\" for measles-rubella).\n- **Count valid doses**: correct minimum age and interval. Doses given too early (for example MR at 9 months) are valid for measles protection overseas but, for the Australian schedule, a measles-containing vaccine given before 12 months **does not count** toward the two required doses.\n- **OPV counts** as polio vaccination when documented (the Handbook explains how to count OPV doses; after OPV-only schedules, IPV doses may still be needed to complete the Australian schedule).\n- **Whole-cell pertussis** doses (DTwP) are valid pertussis doses.\n- **BCG**: note it on the record (explains a BCG scar and tuberculin skin test results), but it is not part of catch-up.\n- Vaccines India gives that Australia does not routinely (typhoid conjugate, JE) and vice versa (**meningococcal ACWY, varicella**) need specific attention: an Indian-born child will usually need **meningococcal ACWY and varicella** in catch-up.\n\n**Refugee and humanitarian entrants** often arrive with limited records. Australian refugee health guidelines recommend a comprehensive health assessment including:\n- **Hepatitis B serology** (surface antigen, surface antibody, core antibody) before vaccinating, because chronic infection is common in some regions\n- Screening for TB (IGRA or TST depending on age), strongyloides, schistosomiasis (by region), HIV, syphilis, iron and vitamin D status, and others per guidelines\n- Catch-up vaccination starting at the first visit with the vaccines that don't depend on serology\nRefugee health nurses and specialist refugee health clinics exist in most states.\n\n**Examples of age-related decisions**\n- **Healthy 6-year-old with no records**: DTPa-containing vaccine, IPV, hepatitis B, MMR (2 doses), varicella, meningococcal ACWY as per catch-up; **no Hib and no PCV** (age 5 or older, healthy); **no rotavirus**.\n- **8-month-old with no rotavirus**: rotavirus cannot be given; catch up the rest.\n- **12-year-old**: will use **dTpa** (reduced antigen) rather than DTPa if 10 or older, and join the school program (HPV)."
+        },
+        {
+          "kind": "application",
+          "heading": "Worked approach at the consult",
+          "body": "1. **Collect the record**: overseas card, AIR history statement, previous practice records. Ask about allergies and immunosuppression.\n2. **Identify valid doses** for each antigen (a table with antigen rows and dose columns helps).\n3. **Work out what is still needed** for the child's current age, using the Handbook catch-up tables or the NICC.\n4. **Give as many as possible today**, using minimum intervals for the next visit.\n5. **Enter overseas doses and today's doses on the AIR**, and ensure the catch-up schedule is recorded, which satisfies No Jab No Pay requirements while it is followed.\n6. **Arrange recalls** and provide a written plan, with an interpreter if needed (the Translating and Interpreting Service, TIS National, is free for GP consultations).\n7. Consider **extra vaccines** for the family's circumstances: travel back to India (hepatitis A, typhoid), Aboriginal and Torres Strait Islander status, medical risk."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- \"Should the schedule be restarted because the last dose was 3 years ago?\" **No: never restart.**\n- Undocumented history (\"I think he had all his vaccines in India\"): **treat as unvaccinated** (verbal history not accepted) or obtain records.\n- Healthy 5-year-old catching up: **no Hib or pneumococcal** needed; **no rotavirus** ever at this age.\n- MR given at 9 months in India: **does not count** toward the Australian 2 doses; give MMR at or after 12 months and a second dose later.\n- An Indian-born child commonly needs **meningococcal ACWY and varicella** catch-up.\n- Refugee child: check **hepatitis B serology** as part of the health assessment; start other vaccines at the first visit.\n- Tool: **National Immunisation Catch-up Calculator** (or the Handbook tables)."
+        }
+      ],
+      "keyPoints": [
+        "Never restart a schedule; every valid documented dose counts.",
+        "Use minimum intervals and give all due vaccines at one visit.",
+        "No documentation means assume unvaccinated (verbal history is not accepted except for influenza).",
+        "Healthy children 5 and over do not need Hib or pneumococcal catch-up; rotavirus cannot be caught up past its age limits.",
+        "Measles-containing vaccine before 12 months does not count toward the two Australian doses.",
+        "Use the National Immunisation Catch-up Calculator or Handbook tables; record overseas doses on the AIR.",
+        "Refugee children: hepatitis B serology and a full health assessment alongside catch-up."
+      ],
+      "redFlags": [],
+      "contrast": [
+        {
+          "aspect": "Measles vaccine at 9 months",
+          "india": "MR at 9 months is a routine, counted dose.",
+          "australia": "Doses before 12 months do not count; two doses of MMR/MMRV from 12 months are required."
+        },
+        {
+          "aspect": "Vaccines usually missing in Indian-born children",
+          "india": "Meningococcal and varicella vaccines not in the UIP.",
+          "australia": "Catch-up usually includes meningococcal ACWY and varicella, entered on the AIR."
+        },
+        {
+          "aspect": "Catch-up tool",
+          "india": "Clinician calculation from the IAP or UIP schedule.",
+          "australia": "National Immunisation Catch-up Calculator and Handbook catch-up tables; catch-up free under 20 and for refugees."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "First principle of catch-up vaccination?",
+          "back": "Never restart a schedule; count all valid documented doses."
+        },
+        {
+          "front": "Does a healthy 6-year-old need Hib catch-up?",
+          "back": "No; Hib is not routinely needed from age 5 in healthy children."
+        },
+        {
+          "front": "Does a measles vaccine dose at 9 months count toward the Australian schedule?",
+          "back": "No; doses before 12 months do not count."
+        },
+        {
+          "front": "Which pertussis-containing formulation is used for catch-up from age 10?",
+          "back": "dTpa (reduced antigen)."
+        },
+        {
+          "front": "Name the Australian tool for planning catch-up schedules.",
+          "back": "National Immunisation Catch-up Calculator (NICC)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "immunisation--catch-up-vaccination--q1",
+          "discipline": "child-health",
+          "topic": "immunisation",
+          "difficulty": "core",
+          "stem": "A 5-year-old girl has just arrived in Brisbane from India with her family. Her Indian card documents BCG and hepatitis B at birth, OPV and pentavalent (DTwP-hepB-Hib) at 6, 10 and 14 weeks, MR at 9 months and a DTwP and OPV booster at 18 months. She is healthy. Which of the following is NOT required in her catch-up schedule?",
+          "options": [
+            "MMR vaccine",
+            "Meningococcal ACWY vaccine",
+            "Varicella-containing vaccine",
+            "Hib vaccine",
+            "DTPa-IPV vaccine"
+          ],
+          "answer": 3,
+          "explanation": "Catch-up starts by counting valid doses. She has a completed Hib primary series, and **healthy children aged 5 or older do not need Hib catch-up** anyway.\n\nShe does need:\n- **MMR**: her MR at 9 months was before 12 months, so it doesn't count toward the two Australian measles doses; she needs two doses (MMR, then MMRV or MMR plus varicella).\n- **Meningococcal ACWY** and **varicella**: not part of India's UIP.\n- **DTPa-IPV**: the 4-year Australian booster, and IPV to complete polio protection per Handbook rules on counting OPV.\n\nUse the catch-up calculator and record her overseas doses on the AIR.",
+          "whyWrong": [
+            "Her MR at 9 months doesn't count; she needs measles-containing doses from 12 months.",
+            "Meningococcal ACWY is not in India's schedule and is needed.",
+            "Varicella is not in India's schedule and is needed.",
+            "",
+            "She needs the 4-year DTPa-IPV booster."
+          ],
+          "ausPearl": "Overseas vaccines must be entered on the AIR with documentation to count for No Jab No Pay.",
+          "tags": [
+            "catch-up",
+            "migrant",
+            "india"
+          ]
+        },
+        {
+          "id": "immunisation--catch-up-vaccination--q2",
+          "discipline": "child-health",
+          "topic": "immunisation",
+          "difficulty": "foundation",
+          "stem": "A 3-year-old boy's records show he received his 2-month and 4-month vaccines on time but none since, because of family illness. His mother asks whether he needs to 'start all the needles again'. What is the most appropriate advice?",
+          "options": [
+            "Yes, restart the full infant schedule from the beginning",
+            "Measure antibody levels to all vaccines before deciding",
+            "No; continue from where he left off, counting previous doses and using the catch-up tables or calculator",
+            "No further vaccines are needed because he had some infant doses",
+            "Wait until school entry and give the 4-year vaccines only"
+          ],
+          "answer": 2,
+          "explanation": "The first rule of catch-up is **never restart a schedule**. Previous valid doses still count because immune memory persists, even when the interval has been long. Continue from where he left off, using **minimum intervals** and giving all due vaccines at the same visit.\n\nThe number of remaining doses depends on his current age: for example, a healthy 3-year-old needs fewer Hib and pneumococcal doses than an infant. The **National Immunisation Catch-up Calculator** or Handbook tables work this out. Serology is not used to guide most vaccines.",
+          "whyWrong": [
+            "Restarting wastes valid doses and delays protection.",
+            "Serology is not useful for deciding most childhood vaccines.",
+            "",
+            "He is significantly under-vaccinated and needs catch-up.",
+            "Waiting leaves him unprotected; catch-up should start now."
+          ],
+          "tags": [
+            "catch-up",
+            "principles",
+            "schedule"
+          ]
+        },
+        {
+          "id": "immunisation--catch-up-vaccination--q3",
+          "discipline": "child-health",
+          "topic": "immunisation",
+          "difficulty": "exam",
+          "stem": "An 11-year-old boy arrived in Australia as a refugee 2 weeks ago with no vaccination records. His family says he 'had injections as a baby'. He is well. As part of his initial health assessment, which of the following is the most appropriate approach?",
+          "options": [
+            "Accept the verbal history and give no vaccines",
+            "Check hepatitis B serology and start catch-up with other vaccines at this visit, treating him as unvaccinated",
+            "Delay all vaccines until full serology for every vaccine-preventable disease is available",
+            "Give BCG and oral polio vaccine",
+            "Give only the Year 7 school vaccines when he starts high school"
+          ],
+          "answer": 1,
+          "explanation": "Without documentation, a child is **treated as unvaccinated** (a verbal history is not accepted except for influenza). Extra doses are safe.\n\nRefugee health guidelines recommend **hepatitis B serology** (HBsAg, anti-HBs, anti-HBc) because chronic hepatitis B is common in many source regions and a positive result changes management. Vaccines that don't depend on serology should be **started at the first visit**, as he may be lost to follow-up. At 11, he will need **dTpa** (reduced antigen formulation), IPV, MMR (2 doses), varicella (serology may be considered at his age), meningococcal ACWY and HPV, with no Hib, pneumococcal or rotavirus needed. Catch-up NIP vaccines are free for refugees of any age.",
+          "whyWrong": [
+            "Verbal histories are not accepted; he may be unprotected.",
+            "",
+            "Waiting for serology for everything delays protection and serology isn't useful for most vaccines.",
+            "BCG is not routine and OPV is not used in Australia.",
+            "He needs full catch-up now, not just the school program."
+          ],
+          "tags": [
+            "refugee",
+            "catch-up",
+            "hepatitis b"
+          ]
+        }
+      ]
+    }
+  ]
+}

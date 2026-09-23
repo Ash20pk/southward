@@ -1,0 +1,737 @@
+{
+  "topic": "growth-development",
+  "intro": "Growth, development and nutrition covers developmental milestones and surveillance, developmental red flags including autism and cerebral palsy, growth monitoring and faltering growth, and infant feeding including allergen introduction. The AMC tests whether you can place a child's development and growth in context, know when to reassure and when to refer, and give current Australian advice drawn from NHMRC and ASCIA guidance.",
+  "lessons": [
+    {
+      "id": "growth-development--milestones-and-surveillance",
+      "title": "Developmental milestones and surveillance",
+      "minutes": 16,
+      "objectives": [
+        "Recall the key milestones in gross motor, fine motor and vision, speech and hearing, and social domains from birth to 5 years",
+        "Assess a child's developmental age from a description and decide whether it is normal",
+        "Correct for prematurity when assessing development",
+        "Describe how developmental surveillance works in Australia and who does it"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why milestones matter",
+          "body": "Development is the acquisition of skills in a fairly predictable order. The **order** is more consistent than the **timing**, and every milestone has a range. The AMC asks you to do two things with milestones: estimate a child's developmental age from a vignette, and decide whether a child falls outside the normal range enough to need action.\n\nIn Australia, development is watched through **developmental surveillance**: repeated checks at set ages by **maternal and child health (MCH) or child and family health nurses** and GPs, recorded in the child's **state-issued personal health record** (for example the NSW \"Blue Book\", with equivalents in every state and territory). Parents' concerns are formally asked about at each check, because parental concern is one of the most sensitive signs of delay."
+        },
+        {
+          "kind": "concepts",
+          "heading": "The core milestones by domain",
+          "body": "Learn the **median age** and the **upper limit** (the age by which nearly all children have the skill). Delays beyond the upper limit are red flags (next lesson).\n\n| Age | Gross motor | Fine motor and vision | Speech and hearing | Social and self-care |\n|---|---|---|---|---|\n| 6 to 8 weeks | Lifts head briefly prone | Fixes and follows a face | Startles to sound, coos | **Social smile** |\n| 3 to 4 months | Good head control, pushes up on forearms | Hands to midline, reaches | Laughs, turns to voice | Enjoys interaction |\n| 6 months | Rolls, sits with support (tripod) | Palmar grasp, **transfers** hand to hand | **Babbles** (ba, da) | Puts objects in mouth |\n| 9 months | **Sits without support**, crawls, pulls to stand | Early pincer, pokes with finger | \"Mama, dada\" non-specific, responds to name | **Stranger awareness**, peekaboo, object permanence |\n| 12 months | Cruises, may **walk** (range 12 to 15 months) | Neat pincer, releases objects | 1 to 3 words with meaning, follows simple commands with gesture | Waves bye-bye, **points**, drinks from a cup |\n| 18 months | Walks well, squats, climbs | Tower of 3 to 4 blocks, scribbles | 6 to 20 words, points to body parts | Spoon feeds, early pretend play |\n| 2 years | Runs, kicks a ball, stairs two feet per step | Tower of 6, copies a vertical line | **2-word phrases**, about 50 words | Parallel play, removes clothes |\n| 3 years | Rides a tricycle, stairs alternate feet going up | Copies a **circle**, tower of 9 | 3-word sentences, mostly understood by strangers | Shares, knows name and age, toilet trained by day (varies) |\n| 4 years | Hops, stairs alternating up and down | Copies a **cross** and square | Tells stories, asks \"why\" | Cooperative play, dresses with help |\n| 5 years | **Skips**, balances on one foot | Copies a **triangle**, draws a person | Fluent speech | Dresses alone, understands rules |\n\n**Primitive reflexes** (Moro, grasp, asymmetric tonic neck reflex) are present at birth and fade by about 4 to 6 months. Persistence, or asymmetry, suggests a neurological problem such as cerebral palsy or a brachial plexus injury.\n\n**Handedness** normally develops after about 18 months to 2 years. A clear hand preference **before 12 months** suggests weakness of the other side (hemiplegia)."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Principles that make milestones make sense",
+          "body": "- **Cephalocaudal and proximal-to-distal:** head control comes before sitting, sitting before walking; shoulder and arm control before fine finger control.\n- **Primitive to voluntary:** reflex grasp gives way to a voluntary palmar grasp and then a pincer grip.\n- **Understanding before expression:** receptive language (following commands) develops ahead of expressive language. A child who understands well but says little is less worrying than one who understands little.\n- **Joint attention** (pointing to show, following a point, looking back and forth between an object and a person) develops around 9 to 14 months and underpins social communication. Its absence is an early autism signal.\n- **Corrected age:** for babies born preterm, subtract the weeks of prematurity from chronological age when judging milestones and growth until about **2 years**. A 9-month-old born at 28 weeks (12 weeks early) should be judged as a 6-month-old.\n- **Variation:** some children bottom-shuffle rather than crawl and walk later (often a family pattern); bilingual children may have a smaller vocabulary in each language but a normal total."
+        },
+        {
+          "kind": "application",
+          "heading": "Developmental surveillance in Australia",
+          "body": "**Who and when.** Child health checks are offered at set ages, usually around 1 to 4 weeks, 6 to 8 weeks, 4 months, 6 to 8 months, 12 months, 18 months, 2 years, 3 years and 4 years (the exact schedule varies by state). GPs cover the same ground at vaccination visits and in the **Healthy Kids Check** around age 4. Aboriginal and Torres Strait Islander children are eligible for an annual health assessment through Medicare (item 715).\n\n**What is done.** At each check: ask about parental concerns, observe and ask about milestones, plot growth, check hearing and vision history, examine (including hips and eyes in infancy), review immunisations, and give anticipatory guidance (feeding, sleep, safety, reading to the child).\n\n**Tools.** Structured parent-report tools help: **PEDS** (Parents' Evaluation of Developmental Status) and the **Ages and Stages Questionnaire (ASQ)** are both used in Australia. Autism-specific tools such as the M-CHAT-R/F or SACS-R (Victoria) are used around 12 to 24 months. Formal assessment tools (for example the Bayley scales or Griffiths) are used by paediatricians and psychologists, not in screening.\n\n**Vision and hearing.** Newborn hearing screening is universal; preschool vision screening at around 3.5 to 5 years is run by most states (for example StEPS in NSW), looking mainly for amblyopia and strabismus.\n\n**What happens when a concern is found.** Refer to a GP and then usually a paediatrician for developmental assessment, with allied health (speech pathology, occupational therapy, physiotherapy) involved early. Families of young children with developmental delay can access early intervention supports through the **NDIS early childhood approach** without waiting for a formal diagnosis. Early intervention should not wait for a label."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Vignettes describe a child and ask \"what is the developmental age?\" Pick the domain with the most specific milestone. Transfers objects plus babbles plus sits with support: **6 months**. Pincer grip, waves, says one or two words: **12 months**.\n- Circle 3, cross 4, triangle 5. Tower of blocks roughly equals age in years times 3, up to 3 years.\n- Always **correct for prematurity** under 2 years before calling a child delayed.\n- A clear hand preference at 10 months is **abnormal**.\n- Speech delay: the first investigation is always a **formal hearing test**.\n- Parental concern about development should never be dismissed with \"wait and see\"; the evidence says it is a good predictor."
+        }
+      ],
+      "keyPoints": [
+        "Social smile by 6 to 8 weeks; sits unsupported by about 9 months; walks by 12 to 15 months; 2-word phrases by 2 years.",
+        "Copies a circle at 3, a cross at 4 and a triangle at 5 years.",
+        "Primitive reflexes fade by 4 to 6 months; persistence is abnormal.",
+        "Hand preference before 12 months suggests hemiplegia.",
+        "Use corrected age for preterm babies until about 2 years.",
+        "Surveillance is done by child health nurses and GPs at set ages and recorded in the state health record.",
+        "PEDS and ASQ are parent-report tools; early intervention via the NDIS does not need a diagnosis."
+      ],
+      "redFlags": [
+        "Hand preference before 12 months",
+        "Persistent or asymmetric primitive reflexes after 6 months",
+        "Loss of previously acquired skills at any age",
+        "Parental concern about hearing, vision or development"
+      ],
+      "contrast": [
+        {
+          "aspect": "Who checks development",
+          "india": "Anganwadi workers, ASHAs and paediatricians, often opportunistically at immunisation visits.",
+          "australia": "Scheduled checks by maternal and child health nurses and GPs, recorded in the state personal health record."
+        },
+        {
+          "aspect": "Screening tools",
+          "india": "Trivandrum Developmental Screening Chart and DDST are commonly taught.",
+          "australia": "PEDS and ASQ parent questionnaires; M-CHAT-R/F or SACS-R for autism."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "When does the social smile appear?",
+          "back": "By 6 to 8 weeks."
+        },
+        {
+          "front": "Shapes copied at 3, 4 and 5 years?",
+          "back": "Circle at 3, cross at 4, triangle at 5."
+        },
+        {
+          "front": "When do most children say 2-word phrases?",
+          "back": "By 2 years (about 50 words)."
+        },
+        {
+          "front": "How do you judge development in an ex-preterm baby?",
+          "back": "Use corrected age (subtract weeks of prematurity) until about 2 years."
+        },
+        {
+          "front": "What does hand preference before 12 months suggest?",
+          "back": "Weakness of the other side, such as a hemiplegic cerebral palsy."
+        },
+        {
+          "front": "By what age do primitive reflexes normally disappear?",
+          "back": "About 4 to 6 months."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "growth-development--milestones-and-surveillance--q1",
+          "discipline": "child-health",
+          "topic": "growth-development",
+          "difficulty": "foundation",
+          "stem": "A GP sees a baby girl for her routine check and vaccinations. She was born at term. She rolls from front to back, sits with support leaning forward on her hands, reaches for a toy and passes it from one hand to the other, and makes repetitive \"ba-ba\" sounds. She does not yet sit alone or use a pincer grip.\n\nWhat is her approximate developmental age?",
+          "options": [
+            "6 weeks",
+            "3 months",
+            "6 months",
+            "9 months",
+            "12 months"
+          ],
+          "answer": 2,
+          "explanation": "The key milestones are **sitting with support (tripod sitting)**, **rolling**, **transferring objects hand to hand** and **babbling** with repeated consonants. That cluster fits **6 months**.\n\nAt 3 months a baby has head control and brings hands together but does not transfer. By 9 months you would expect **sitting without support**, crawling or pulling to stand, an early pincer grip and stranger awareness. By 12 months, a neat pincer, pointing and first words.\n\nWhen estimating developmental age, anchor on the most specific skill in each domain and see where they agree. Here all four domains agree on about 6 months, so her development is normal for a routine 6-month check.",
+          "whyWrong": [
+            "At 6 weeks babies smile and fix and follow; they cannot roll, sit or reach.",
+            "At 3 months there is head control and hands to midline, but no transfer or tripod sitting.",
+            "",
+            "At 9 months she would sit unsupported and begin a pincer grip.",
+            "At 12 months she would have a neat pincer, pointing and first words."
+          ],
+          "tags": [
+            "milestones",
+            "developmental-age"
+          ]
+        },
+        {
+          "id": "growth-development--milestones-and-surveillance--q2",
+          "discipline": "child-health",
+          "topic": "growth-development",
+          "difficulty": "core",
+          "stem": "A mother brings her 10-month-old son to the child health nurse. He was born at 30 weeks' gestation and spent 6 weeks in the neonatal unit. He has good head control, rolls both ways, sits with support and transfers objects, but cannot sit alone. His mother is worried because her friend's 10-month-old is crawling.\n\nWhat is the most appropriate interpretation?",
+          "options": [
+            "He has global developmental delay and needs urgent paediatric referral",
+            "His development cannot be assessed until he is 2 years old",
+            "He has cerebral palsy until proven otherwise",
+            "He should have an MRI brain before his next check",
+            "His motor development is appropriate for his corrected age"
+          ],
+          "answer": 4,
+          "explanation": "Born at **30 weeks**, he is **10 weeks premature**. His **corrected age** is about 10 months minus 2.5 months, so roughly **7.5 months**. Sitting with support, rolling and transferring objects are appropriate for 6 to 8 months, and many babies do not sit alone until about 8 to 9 months.\n\nFor babies born preterm, development and growth should be judged using **corrected age until about 2 years**. Failing to correct is a classic cause of false alarms.\n\nHe should continue surveillance (and ex-preterm babies often have formal neonatal follow-up), with review if he is not sitting independently by about 9 months corrected, or if tone, symmetry or other domains cause concern.",
+          "whyWrong": [
+            "His skills match his corrected age, so there is no global delay.",
+            "Development can and should be assessed throughout infancy, using corrected age.",
+            "No asymmetry, abnormal tone or other signs are described; skills fit corrected age.",
+            "Imaging is not indicated when development is appropriate for corrected age.",
+            ""
+          ],
+          "ausPearl": "Babies born very preterm in Australia usually attend a neonatal follow-up clinic with formal assessments at set corrected ages, in addition to routine child health checks.",
+          "tags": [
+            "corrected-age",
+            "prematurity",
+            "milestones"
+          ]
+        },
+        {
+          "id": "growth-development--milestones-and-surveillance--q3",
+          "discipline": "child-health",
+          "topic": "growth-development",
+          "difficulty": "core",
+          "stem": "At a 4-year Healthy Kids Check, a GP asks a boy to copy some shapes. Which pattern of drawing ability is most consistent with normal development for his age?",
+          "options": [
+            "Scribbles only",
+            "Copies a vertical line but not a circle",
+            "Copies a circle and a cross but not a triangle",
+            "Copies a triangle and a diamond",
+            "Writes his full name and draws a detailed person"
+          ],
+          "answer": 2,
+          "explanation": "Shape-copying is a quick, reliable test of fine motor and visual-perceptual development:\n\n- **2 years:** vertical line\n- **3 years:** circle\n- **4 years:** cross (and often a square)\n- **5 years:** triangle\n- **6 to 7 years:** diamond\n\nA 4-year-old who copies a **circle and a cross but not yet a triangle** is right on track. Scribbling only would suggest a developmental age of about 18 months, and a line only about 2 years. Copying a diamond, or writing a full name with a detailed person, is well ahead of most 4-year-olds.\n\nIn the exam, use these ages as anchors when a vignette describes drawings.",
+          "whyWrong": [
+            "Scribbling alone is typical of 15 to 18 months and would be a delay at 4.",
+            "A line without a circle fits about 2 years.",
+            "",
+            "A diamond is usually achieved around 6 to 7 years.",
+            "This level of writing and drawing is typical of 5 to 6 years or older."
+          ],
+          "ausPearl": "The Healthy Kids Check (Medicare-funded, usually with the 4-year vaccinations) is the GP's structured chance to review development, vision, hearing, growth and oral health before school.",
+          "tags": [
+            "milestones",
+            "fine-motor",
+            "healthy-kids-check"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "growth-development--developmental-delay-and-autism",
+      "title": "Developmental red flags, delay and autism",
+      "minutes": 20,
+      "objectives": [
+        "List the developmental red flags that need referral, including regression",
+        "Approach global developmental delay: causes, first investigations and referral",
+        "Recognise the early signs of autism and describe how it is diagnosed in Australia",
+        "Recognise early signs of cerebral palsy and the other conditions behind motor and speech delay"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "When development goes off course",
+          "body": "Around 1 in 6 children has a developmental concern at some point, and a smaller group has a lasting disorder: **global developmental delay** and intellectual disability, **autism**, **cerebral palsy**, language disorder, hearing loss and others. Early identification matters because intervention during the early years, when the brain is most plastic, improves outcomes, and because some causes (hearing loss, hypothyroidism, lead poisoning, neglect, some metabolic diseases) are treatable.\n\n**Definitions:**\n- **Developmental delay:** a child is significantly behind peers in one domain (for example speech).\n- **Global developmental delay (GDD):** significant delay in **two or more domains** in a child **under 5**, too young for reliable IQ testing.\n- **Intellectual disability:** significant limitation in intellectual functioning and adaptive behaviour, diagnosed usually from age 5 when formal testing is reliable."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Red flags that need referral",
+          "body": "These are the must-know red flags from Australian child health guidance. Any one of them warrants referral, not \"wait and see\".\n\n- **Regression: loss of previously acquired skills at any age.** Always investigate.\n- **No social smile by about 3 months**, or poor eye contact.\n- **Not sitting without support by about 9 to 10 months.**\n- **Not walking by 18 months.** In boys, check creatine kinase for Duchenne muscular dystrophy.\n- **No babbling by 12 months, no words by 16 to 18 months, no 2-word phrases by 2 years.**\n- **Not pointing** to show interest or not responding to their name by 12 months.\n- **Hand preference before 12 months**, asymmetry, abnormal tone (floppy or stiff), persistent primitive reflexes.\n- **Concern about hearing or vision**, including a squint after 3 to 4 months or a white pupil.\n- **Head circumference crossing centiles** (up or down).\n- **Parental or teacher concern.**\n\n**Regression in particular** points to a specific list: autism (loss of words and social skills, often around 15 to 24 months), **Rett syndrome** (girls, loss of hand skills with hand-wringing, slowing head growth, after a normal first 6 to 18 months), epileptic encephalopathies (for example Landau-Kleffner), neurodegenerative and metabolic disorders, **vitamin B12 deficiency** in breastfed infants of vegan or B12-deficient mothers, and severe psychosocial trauma or neglect."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Causes and investigation of global developmental delay",
+          "body": "**Causes, grouped:**\n- **Genetic:** trisomy 21, **fragile X syndrome** (the most common inherited cause of intellectual disability; long face, large ears, macro-orchidism after puberty, autistic features), microdeletions and other copy number variants, single-gene disorders.\n- **Prenatal:** **fetal alcohol spectrum disorder (FASD)**, congenital infections (CMV, toxoplasmosis, rubella), maternal drug use, brain malformations.\n- **Perinatal:** extreme prematurity, hypoxic-ischaemic encephalopathy, neonatal hypoglycaemia, kernicterus.\n- **Postnatal:** meningitis or encephalitis, head injury including abusive head trauma, lead exposure, severe iron deficiency, hypothyroidism, **neglect and understimulation**.\n- In many children no cause is found despite investigation.\n\n**First investigations** (usually coordinated by a paediatrician; tailored to the child):\n- **Formal audiology** and **vision** assessment for every child with delay, especially speech delay.\n- **Chromosomal microarray** (first-line genetic test, replacing karyotype for this purpose) and **fragile X DNA testing**.\n- **Thyroid function**, FBC and iron studies (ferritin), lead if exposure is possible.\n- **Creatine kinase** in boys with motor delay.\n- Metabolic screening and **MRI brain** when there are specific pointers (regression, seizures, abnormal head size, focal signs, dysmorphism).\n\nFASD deserves special mention in Australia: it is under-recognised, occurs across all communities, and is diagnosed using the **Australian Guide to the Diagnosis of FASD**. Ask every mother about alcohol in pregnancy, without judgement."
+        },
+        {
+          "kind": "application",
+          "heading": "Autism: early signs, diagnosis and support",
+          "body": "**Autism spectrum disorder (ASD)** affects roughly 1 to 2% of Australian children, diagnosed about three to four times more often in boys (girls are probably under-diagnosed because they mask). It is defined in DSM-5 by:\n1. **Persistent deficits in social communication and interaction:** reduced back-and-forth interaction, limited use of eye contact, gestures and facial expression, difficulty developing relationships and imaginative play.\n2. **Restricted, repetitive patterns of behaviour:** stereotyped movements (hand-flapping, spinning), echolalia, **insistence on sameness**, intense narrow interests, and **sensory differences** (distress at noise, unusual interest in textures or lights).\nSymptoms are present from early childhood and cause functional impairment.\n\n**Early signs (12 to 24 months):** poor eye contact, **not responding to their name**, **no pointing to share interest**, no showing of objects, **no pretend play**, limited social smiling, loss of words or social skills, lining up toys, unusual reactions to sensory input.\n\n**Diagnosis.** Australia has a **National Guideline for the Assessment and Diagnosis of Autism**: a comprehensive assessment by a paediatrician, psychiatrist or psychologist, ideally with multidisciplinary input (speech pathology, occupational therapy), covering the child's strengths and support needs, not just a label. Check **hearing** in every child, and look for co-occurring conditions: intellectual disability, ADHD, anxiety, epilepsy, sleep problems, feeding difficulties, and fragile X.\n\n**Management.** Early, individualised support: speech pathology, occupational therapy, developmental and behavioural interventions, parent coaching, and supported early education. Funding flows through the **NDIS**, with Medicare items for paediatrician assessment and allied health. There is **no medication for core autism features**; medications target co-occurring problems (for example melatonin for sleep, or treatment for ADHD, or severe irritability under specialist care).\n\n**Vaccines do not cause autism.** The AMC may test this in a counselling stem; the original MMR claim was fraudulent and retracted."
+        },
+        {
+          "kind": "application",
+          "heading": "Motor and speech delay: cerebral palsy and look-alikes",
+          "body": "**Cerebral palsy (CP)** is a group of permanent disorders of movement and posture from a **non-progressive** injury to the developing brain (prematurity with periventricular leukomalacia or intraventricular haemorrhage, HIE, stroke, infection, malformations). The motor picture can change as the child grows, but the injury does not progress.\n\n- **Early signs:** abnormal tone (often floppy first, spastic later), early hand preference, persistent primitive reflexes, poor head control, feeding difficulties, motor delay, toe walking.\n- **Types:** spastic (most common; hemiplegic, diplegic in preterm babies, quadriplegic), dyskinetic (basal ganglia; kernicterus, HIE), ataxic.\n- **Early diagnosis:** Australian-led international guidance supports diagnosing high-risk infants **before 6 months corrected age**, using **MRI**, the **General Movements Assessment** and the **Hammersmith Infant Neurological Examination**, so that therapy starts early.\n- **Associated problems:** epilepsy, intellectual disability, vision and hearing impairment, feeding problems, reflux, constipation, hip dislocation (hip surveillance X-rays), scoliosis.\n- **Management:** multidisciplinary (physiotherapy, occupational therapy, speech pathology, orthotics), botulinum toxin for focal spasticity, orthopaedic surgery, NDIS supports.\n\n**Motor delay look-alikes:** Duchenne muscular dystrophy (boys, Gowers sign, calf pseudohypertrophy, CK very high), spinal muscular atrophy (floppy, tongue fasciculations, now on some newborn screening panels), benign familial late walking and bottom-shuffling.\n\n**Isolated speech delay:** first **hearing test**, then consider language disorder, autism, GDD, and environmental factors. Bilingualism does not cause language delay."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- Any **loss of skills** is a red flag requiring prompt specialist referral; it is never \"normal variation\".\n- A child with speech delay: **audiology first**.\n- A boy not walking at 18 months, or with a waddling gait and difficulty getting up from the floor: **CK**.\n- A girl who developed normally, then lost hand use and began hand-wringing: **Rett syndrome**.\n- An 18-month-old who does not point, does not respond to his name and lines up toys: refer for **autism assessment** now; do not wait for a speech delay to declare itself.\n- First-line genetic tests for GDD: **chromosomal microarray and fragile X**.\n- Early intervention can start **before** a formal diagnosis."
+        }
+      ],
+      "keyPoints": [
+        "Regression (loss of skills) at any age is a red flag and needs investigation.",
+        "Not walking by 18 months, no words by 16 to 18 months, no 2-word phrases by 2 years: refer.",
+        "GDD is delay in 2 or more domains under 5; investigate with audiology, vision, microarray, fragile X, TFTs, iron studies, and CK in boys with motor delay.",
+        "Autism early signs: poor eye contact, not responding to name, no pointing, no pretend play; refer early.",
+        "Autism is diagnosed by comprehensive, ideally multidisciplinary assessment under the national guideline.",
+        "Cerebral palsy is a non-progressive brain injury; high-risk infants can be diagnosed before 6 months corrected age.",
+        "Speech delay always starts with a formal hearing test."
+      ],
+      "redFlags": [
+        "Loss of previously acquired skills",
+        "Not walking by 18 months",
+        "No words by 16 to 18 months, no 2-word phrases by 2 years",
+        "No pointing or response to name by 12 months",
+        "Asymmetry, abnormal tone or early hand preference",
+        "Head circumference crossing centiles"
+      ],
+      "contrast": [
+        {
+          "aspect": "Autism diagnosis",
+          "india": "Often late, stigmatised, with limited access to multidisciplinary assessment outside major cities.",
+          "australia": "National diagnostic guideline, funded paediatric assessment, and early intervention through the NDIS."
+        },
+        {
+          "aspect": "Fetal alcohol spectrum disorder",
+          "india": "Rarely considered in routine assessment.",
+          "australia": "Actively screened for, with a national diagnostic guide; a recognised cause of developmental and behavioural problems."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Definition of global developmental delay?",
+          "back": "Significant delay in 2 or more developmental domains in a child under 5 years."
+        },
+        {
+          "front": "First investigation in any child with speech delay?",
+          "back": "Formal audiology (hearing) assessment."
+        },
+        {
+          "front": "First-line genetic tests for global developmental delay?",
+          "back": "Chromosomal microarray and fragile X testing."
+        },
+        {
+          "front": "Boy not walking at 18 months: key blood test?",
+          "back": "Creatine kinase (Duchenne muscular dystrophy)."
+        },
+        {
+          "front": "Three early signs of autism at 12 to 18 months?",
+          "back": "No pointing to share interest, not responding to name, poor eye contact (also no pretend play)."
+        },
+        {
+          "front": "Regression with hand-wringing in a girl aged 1 to 2 years?",
+          "back": "Rett syndrome (MECP2)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "growth-development--developmental-delay-and-autism--q1",
+          "discipline": "child-health",
+          "topic": "growth-development",
+          "difficulty": "core",
+          "stem": "The parents of a 20-month-old boy are worried. At 14 months he said \"mum\", \"dad\" and \"ball\", but he no longer uses any words. He rarely looks at them when they call his name, does not point to show them things, and spends long periods lining up his cars. He walks and runs well. His hearing screen at birth was normal.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Reassure that boys often talk later and review at 2.5 years",
+            "Refer for speech pathology alone",
+            "Refer for paediatric developmental assessment, including a formal hearing test",
+            "Arrange an EEG before any referral",
+            "Advise the family to speak only one language at home"
+          ],
+          "answer": 2,
+          "explanation": "This boy shows **language regression** (he has lost words), **reduced social communication** (poor response to name, no pointing to share interest) and **repetitive behaviour** (lining up cars). The most likely diagnosis is **autism**, and loss of skills is a red flag in its own right.\n\nHe needs prompt referral for a **comprehensive developmental assessment**, usually with a paediatrician and multidisciplinary team, and a **formal audiology test**, because a normal newborn screen does not exclude later or progressive hearing loss. Early intervention can start while the assessment is underway.\n\nWaiting is the classic wrong answer: regression is never normal.",
+          "whyWrong": [
+            "Regression and social communication deficits are red flags; delay loses valuable intervention time.",
+            "Speech pathology helps, but alone it misses the need for full developmental assessment and hearing testing.",
+            "",
+            "An EEG may be considered by the paediatrician if seizures or Landau-Kleffner are suspected, but it is not the first step.",
+            "Bilingualism does not cause language delay or regression."
+          ],
+          "ausPearl": "Families in Australia can access early intervention through the NDIS early childhood approach while waiting for a diagnostic assessment.",
+          "tags": [
+            "autism",
+            "regression",
+            "referral"
+          ]
+        },
+        {
+          "id": "growth-development--developmental-delay-and-autism--q2",
+          "discipline": "child-health",
+          "topic": "growth-development",
+          "difficulty": "core",
+          "stem": "A 20-month-old boy is not yet walking. He can pull to stand and cruise around furniture. He has about 10 words, points to share interest and plays well. On examination he has large calves and gets up from the floor by pushing on his thighs.\n\nWhich investigation is most useful next?",
+          "options": [
+            "Serum creatine kinase",
+            "MRI of the brain",
+            "Thyroid function tests",
+            "Karyotype",
+            "Hip ultrasound"
+          ],
+          "answer": 0,
+          "explanation": "A boy with **isolated motor delay** (not walking at 18 months or more) should have a **creatine kinase (CK)** measured to screen for **Duchenne muscular dystrophy**. Here the clues are strong: **calf pseudohypertrophy** and a **Gowers manoeuvre** (climbing up the thighs to stand, from proximal hip weakness).\n\nDuchenne is X-linked (dystrophin gene). CK is typically **massively raised** (often more than ten times normal). Diagnosis is confirmed with genetic testing, and care is multidisciplinary, including corticosteroids, cardiac and respiratory monitoring.\n\nHis language and social skills are normal, which points away from a global problem and towards a muscle disorder.",
+          "whyWrong": [
+            "",
+            "MRI would suit a central cause with upper motor neuron signs or GDD, which are not described.",
+            "Hypothyroidism is detected by newborn screening and would not produce pseudohypertrophy and a Gowers sign.",
+            "Microarray, not karyotype, is used for global delay; this boy's delay is purely motor.",
+            "DDH would cause a limp or leg length difference, not proximal weakness with big calves."
+          ],
+          "tags": [
+            "duchenne",
+            "motor-delay",
+            "creatine-kinase"
+          ]
+        },
+        {
+          "id": "growth-development--developmental-delay-and-autism--q3",
+          "discipline": "child-health",
+          "topic": "growth-development",
+          "difficulty": "exam",
+          "stem": "A 3-year-old girl is referred with speech delay. She says about 15 single words and does not combine words. She follows simple commands, makes good eye contact, points and enjoys pretend play with her dolls. She had frequent ear infections in her second year. Motor development is normal.\n\nWhat is the most appropriate first investigation?",
+          "options": [
+            "Chromosomal microarray",
+            "Autism diagnostic assessment",
+            "MRI brain",
+            "Formal audiological assessment",
+            "Fragile X DNA testing"
+          ],
+          "answer": 3,
+          "explanation": "This girl has **isolated expressive language delay** with good receptive language and normal social skills, so autism and global delay are less likely. The first step for **any child with speech delay is a formal hearing test**, because hearing loss is common, treatable and easily missed.\n\nHer history of **recurrent otitis media** raises the possibility of **otitis media with effusion (glue ear)** causing a conductive hearing loss. Audiology includes tympanometry and age-appropriate hearing testing. If a significant persistent hearing loss is found, ENT referral for grommets may be considered, along with speech pathology.\n\nGenetic tests and MRI are reserved for global delay, regression or other specific pointers.",
+          "whyWrong": [
+            "Microarray is for global delay or dysmorphism; her delay is isolated to expressive language.",
+            "Her eye contact, pointing and pretend play argue against autism; hearing comes first regardless.",
+            "Imaging is not indicated for isolated speech delay with normal neurology.",
+            "",
+            "Fragile X testing is for global delay or intellectual disability, often with autistic features."
+          ],
+          "ausPearl": "Glue ear and chronic suppurative otitis media are very common in Aboriginal and Torres Strait Islander children and contribute to speech delay and learning difficulties; hearing checks are a routine part of their health assessments.",
+          "tags": [
+            "speech-delay",
+            "hearing",
+            "otitis-media"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "growth-development--growth-and-faltering-growth",
+      "title": "Growth monitoring, faltering growth, short stature and obesity",
+      "minutes": 20,
+      "objectives": [
+        "Measure and plot growth correctly on WHO and CDC charts, and interpret centiles and trajectories",
+        "Approach faltering growth: common causes, targeted investigations and when to admit",
+        "Distinguish familial short stature, constitutional delay and pathological short stature",
+        "Assess and manage childhood overweight and obesity in an Australian context"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Growth as a vital sign",
+          "body": "Growth is one of the best indicators of a child's overall health. A single measurement tells you little; a **series of measurements plotted over time** tells you a great deal. In Australia, growth is plotted at each child health check in the personal health record and by GPs.\n\n**Charts used in Australia:**\n- **WHO growth standards from birth to 2 years.** They describe how healthy breastfed babies should grow.\n- **CDC charts from 2 years** onwards are commonly used (some services use WHO charts to 5 years).\n- Specialised charts exist for conditions such as Down syndrome and Turner syndrome.\n\n**Measure properly:** weight unclothed (or in a dry nappy for babies); **length lying down under 2 years** and standing height after 2; head circumference (occipitofrontal, largest of three measurements) routinely to 2 years. Use corrected age for preterm babies until 2 years.\n\nThe problems that matter: **faltering growth** (the modern term for failure to thrive), **short stature**, abnormal head growth, and increasingly **overweight and obesity**, which affects about **1 in 4 Australian children**."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why growth falters, and what the pattern tells you",
+          "body": "Growth needs adequate energy **in**, adequate **absorption and use**, and normal **growth drive** (hormones, genetics). Faltering growth happens when intake does not meet needs:\n\n- **Inadequate intake (most common):** feeding difficulties, poor breastfeeding supply or technique, incorrect formula preparation, restrictive diets, oromotor problems, **psychosocial factors and neglect**, food insecurity.\n- **Malabsorption or loss:** coeliac disease, cystic fibrosis, cow's milk protein allergy, chronic diarrhoea, severe reflux or vomiting.\n- **Increased requirements:** congenital heart disease, chronic lung disease, chronic infection (including HIV, TB, UTI), hyperthyroidism, malignancy.\n- **Failure to use nutrients:** metabolic, genetic or endocrine disorders.\n\n**The pattern of centiles helps:**\n- **Weight falls first**, then length, then head circumference: **nutritional** cause.\n- **Height falls with weight preserved or increased** (short and plump): **endocrine** cause, such as hypothyroidism, GH deficiency or Cushing syndrome (including exogenous steroids).\n- Weight, length and head all small from birth and tracking a low centile: consider genetic or intrauterine causes, or a small but healthy child.\n\n**Normal variation to recognise:** in the first 1 to 2 years, many babies shift centiles to find their genetic channel (**catch-up or catch-down growth**), especially those who were large or small at birth. Crossing one major centile line can be normal; crossing two warrants assessment."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Assessing a child with faltering growth or short stature",
+          "body": "**Faltering growth** is commonly defined as weight falling across **two or more major centile lines**, or weight persistently below the 2nd (or 3rd) centile, always interpreted with length, head circumference and the whole child.\n\n**History:** a detailed **feeding history** (who feeds, what, how much, how often, how formula is made up, mealtime behaviour); vomiting, stool pattern (pale, bulky, offensive stools suggest malabsorption); cough or recurrent chest infections (CF); pregnancy, birthweight and gestation; development; family heights and illnesses; **social history** (housing, finances, parental mental health, drugs and alcohol, family violence, child protection involvement).\n\n**Examination:** plot everything. Look for dysmorphism, signs of chronic disease (clubbing, murmur, hepatosplenomegaly), wasting (buttocks, thighs), oedema, rickets, **signs of neglect or abuse** (poor hygiene, severe nappy rash, bruises, withdrawn or watchful behaviour).\n\n**Observe a feed.** Watching a child feed, whether on the ward or at home by a nurse, is one of the most informative tests you can do.\n\n**Short stature:** height below the 2nd centile, or height well below the **target range** set by parents' heights, or a **height velocity** that is too slow (crossing centiles downwards). Calculate the **mid-parental height**: the average of the parents' heights, **plus 6.5 cm for a boy or minus 6.5 cm for a girl**, with a target range of about plus or minus 8 to 10 cm."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Targeted tests, not a shotgun",
+          "body": "Most children with faltering growth have **no organic cause**, and blanket testing has a low yield. Tests are guided by history and examination. A reasonable first-line panel when an organic cause is possible:\n\n- **FBC, iron studies** (iron deficiency), **UEC**, **LFTs**, calcium, phosphate, ALP (rickets), albumin.\n- **Coeliac serology:** tissue transglutaminase IgA (**tTG-IgA**) with **total IgA** (IgA deficiency causes a false negative). The child must be eating gluten.\n- **TSH and free T4.**\n- **Urine** microscopy and culture (occult UTI, renal tubular acidosis).\n- **Sweat test** if CF is suspected (even though newborn screening is universal, a few cases are missed).\n- Stool tests (microscopy, faecal elastase) if there is chronic diarrhoea.\n\n**Short stature additions:**\n- **Bone age** (X-ray of the left hand and wrist): delayed in constitutional delay, hypothyroidism and GH deficiency; equal to chronological age in familial short stature.\n- **Karyotype in any girl with unexplained short stature**, to exclude **Turner syndrome** (45,X), even without classic features.\n- IGF-1 as a screen for GH deficiency, with dynamic testing by a paediatric endocrinologist."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Short stature: normal or not?",
+          "body": "| Pattern | Height trajectory | Bone age | Puberty | Family |\n|---|---|---|---|---|\n| **Familial short stature** | Short, parallel to centiles, within target range | Normal (equals chronological age) | Normal timing | Short parents |\n| **Constitutional delay of growth and puberty** | Drops centiles in early childhood, then parallel; late growth spurt | **Delayed** | Late | Parent was a \"late bloomer\" |\n| **Pathological** (hypothyroid, GH deficiency, Cushing, Turner, coeliac, chronic disease) | Crossing centiles downwards, slow velocity | Often delayed (normal in Turner early) | Variable | Not explained by family |\n\nConstitutional delay usually reaches a normal adult height within the target range. Reassurance and follow-up are the mainstay; short courses of sex steroids are sometimes used for psychosocial distress by specialists."
+        },
+        {
+          "kind": "management",
+          "heading": "Management: faltering growth and obesity",
+          "body": "**Faltering growth:**\n- Most children are managed in the community by the GP, child health nurse and **dietitian**: feeding advice, energy-dense foods, structured meals and snacks, limiting juice and excess milk, and addressing mealtime behaviour.\n- **Refer to a paediatrician** if growth continues to fall, there are signs of organic disease, or there are safeguarding concerns.\n- **Admit** if there is severe malnutrition, dehydration, failure of outpatient management, or **concern about neglect or abuse** (admission lets you observe feeding and weight gain in a safe setting; weight gain in hospital with a normal diet strongly suggests inadequate intake at home).\n- Doctors in Australia are **mandatory reporters** of suspected child abuse or neglect; the threshold and process **vary by state**. Neglect is a common and serious cause of faltering growth.\n- **Refeeding syndrome** can occur when severely malnourished children are fed: monitor phosphate, potassium and magnesium.\n\n**Overweight and obesity:**\n- Use **BMI-for-age centiles** from 2 years: at or above the **85th centile** is overweight and at or above the **95th centile** is obese (CDC definitions).\n- Causes are overwhelmingly **environmental** (energy-dense food, sugary drinks, screen time, sleep, low activity). An endocrine or genetic cause is suggested by **short stature or slowing height velocity**, developmental delay, dysmorphism or very early onset severe obesity. Children with nutritional obesity are usually **tall** for age.\n- Screen for complications: blood pressure, **acanthosis nigricans** (insulin resistance), fasting lipids and glucose or HbA1c, LFTs (fatty liver), sleep apnoea symptoms, **slipped capital femoral epiphysis** (hip or knee pain), low mood and bullying.\n- **Management is family-based lifestyle change**, not the child alone: healthy eating for the whole family, water instead of sugary drinks, regular physical activity, limited recreational screen time, good sleep. In younger children the goal is often weight maintenance while height catches up; weight-loss dieting is not appropriate for young children. Specialist services, medication and bariatric surgery are reserved for severe adolescent obesity with complications.\n- Use non-stigmatising language (\"weight above the healthy range for height\")."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- The chart question: weight crossing centiles down with length and head preserved is **nutritional**; start with a feeding history and observed feeds.\n- Short, overweight child with slowing height velocity: think **hypothyroidism, Cushing (including inhaled or oral steroids) or GH deficiency**.\n- Short girl with no explanation: **karyotype** for Turner syndrome.\n- Short child, parents short, bone age normal: familial. Bone age delayed, father was a late bloomer: constitutional delay.\n- Coeliac serology needs **total IgA** alongside tTG-IgA.\n- A thriving-in-hospital child who faltered at home: inadequate intake and possible neglect; involve social work and follow state reporting law."
+        }
+      ],
+      "keyPoints": [
+        "WHO charts from birth to 2 years; CDC charts commonly from 2 years. Length lying under 2.",
+        "Faltering growth: weight crossing 2 or more major centile lines or persistently very low.",
+        "Most faltering growth is inadequate intake; always consider psychosocial causes and neglect.",
+        "Weight falls first in nutritional causes; height falls first (short and plump) in endocrine causes.",
+        "Targeted tests: FBC, iron studies, UEC, LFTs, TFTs, coeliac serology with total IgA, urine culture.",
+        "Bone age: normal in familial short stature, delayed in constitutional delay; karyotype short girls for Turner.",
+        "Obesity: BMI 95th centile or more; family-based lifestyle change; screen for complications."
+      ],
+      "redFlags": [
+        "Weight or height crossing two major centile lines downwards",
+        "Short stature with slowing height velocity",
+        "Signs of neglect or abuse, or weight gain only when out of the home",
+        "Head circumference crossing centiles",
+        "Severe malnutrition or dehydration"
+      ],
+      "contrast": [
+        {
+          "aspect": "Nutrition problem you will see most",
+          "india": "Undernutrition, stunting and wasting (SAM/MAM) with community programmes.",
+          "australia": "Obesity is the commonest growth problem; faltering growth is investigated with psychosocial factors in mind."
+        },
+        {
+          "aspect": "Growth charts",
+          "india": "WHO charts to 5 years, then IAP charts.",
+          "australia": "WHO charts to 2 years, then usually CDC charts."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Mid-parental height formula?",
+          "back": "Average of parents' heights, plus 6.5 cm for boys or minus 6.5 cm for girls."
+        },
+        {
+          "front": "Bone age in familial short stature versus constitutional delay?",
+          "back": "Familial: normal. Constitutional delay: delayed."
+        },
+        {
+          "front": "Which test in any girl with unexplained short stature?",
+          "back": "Karyotype (Turner syndrome)."
+        },
+        {
+          "front": "Why check total IgA with coeliac serology?",
+          "back": "IgA deficiency (more common in coeliac disease) causes a false-negative tTG-IgA."
+        },
+        {
+          "front": "CDC BMI-for-age thresholds for overweight and obesity?",
+          "back": "Overweight: 85th centile or above. Obese: 95th centile or above."
+        },
+        {
+          "front": "Which growth charts are used from birth to 2 years in Australia?",
+          "back": "WHO growth standards."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "growth-development--growth-and-faltering-growth--q1",
+          "discipline": "child-health",
+          "topic": "growth-development",
+          "difficulty": "core",
+          "stem": "A 14-month-old girl is referred because her weight has fallen from the 50th to below the 3rd centile over 6 months. Her length has dropped from the 50th to the 25th centile and head circumference remains on the 50th. She has had loose, pale, offensive stools since starting on wheat cereals at 8 months. She is miserable, has a distended abdomen and wasted buttocks.\n\nWhich investigation is most appropriate next?",
+          "options": [
+            "Tissue transglutaminase IgA with total IgA",
+            "Stool culture for bacterial pathogens",
+            "Sweat chloride test",
+            "Growth hormone stimulation test",
+            "Karyotype"
+          ],
+          "answer": 0,
+          "explanation": "This is **faltering growth with a nutritional pattern** (weight fell first and most, then length, with head circumference spared) plus features of **malabsorption**: pale, offensive stools, abdominal distension, wasting and irritability, beginning after **gluten was introduced**. The leading diagnosis is **coeliac disease**.\n\nThe first test is **tTG-IgA with total IgA**, while she is still eating gluten. Total IgA is needed because IgA deficiency (more common in coeliac disease) gives a false-negative tTG-IgA. Diagnosis is usually confirmed by small bowel biopsy, although specialist guidelines allow a no-biopsy diagnosis in some children with very high serology.\n\nCF is the main alternative, but symptoms since early infancy and chest symptoms would be expected, and newborn screening catches most cases.",
+          "whyWrong": [
+            "",
+            "Bacterial gastroenteritis does not cause 6 months of malabsorption with faltering growth.",
+            "CF is possible but less likely: symptoms started with gluten, there are no chest features, and newborn screening detects most cases.",
+            "GH deficiency causes height to fall first with relative weight preservation, the opposite pattern.",
+            "Karyotype is for unexplained short stature in girls, not a malabsorption picture."
+          ],
+          "tags": [
+            "faltering-growth",
+            "coeliac",
+            "malabsorption"
+          ]
+        },
+        {
+          "id": "growth-development--growth-and-faltering-growth--q2",
+          "discipline": "child-health",
+          "topic": "growth-development",
+          "difficulty": "core",
+          "stem": "A 13-year-old boy is brought in because he is the shortest in his class. His height has tracked just below the 3rd centile since age 3, with a normal height velocity. He has no pubertal signs. His father says he himself did not start shaving until 17 and kept growing until 20. Mid-parental height is on the 40th centile. Bone age is 11 years. Examination is otherwise normal.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Familial short stature",
+            "Constitutional delay of growth and puberty",
+            "Growth hormone deficiency",
+            "Hypothyroidism",
+            "Klinefelter syndrome"
+          ],
+          "answer": 1,
+          "explanation": "The combination of **short stature with a normal growth velocity**, **delayed puberty**, a **delayed bone age** (11 years at a chronological age of 13) and a **family history of late puberty** in the father is classic for **constitutional delay of growth and puberty**. His expected adult height, based on his parents (40th centile), is normal.\n\nThese children are \"late bloomers\": they grow and enter puberty later but usually reach an adult height within their target range. Management is **reassurance and monitoring**; a specialist may consider a short course of testosterone for significant psychosocial distress.\n\nIn **familial** short stature, parents are short and bone age equals chronological age. Pathological causes cause **slowing** growth velocity.",
+          "whyWrong": [
+            "Familial short stature has short parents and a normal bone age; his target height is the 40th centile.",
+            "",
+            "GH deficiency causes slowing height velocity, crossing centiles downwards.",
+            "Hypothyroidism causes growth deceleration, weight gain and other features; his velocity is normal.",
+            "Klinefelter causes tall stature with small testes, not short stature."
+          ],
+          "tags": [
+            "short-stature",
+            "constitutional-delay",
+            "bone-age"
+          ]
+        },
+        {
+          "id": "growth-development--growth-and-faltering-growth--q3",
+          "discipline": "child-health",
+          "topic": "growth-development",
+          "difficulty": "exam",
+          "stem": "A 9-year-old girl is reviewed for weight gain. Over 2 years her BMI has risen from the 75th to the 97th centile. Over the same period her height has fallen from the 50th to the 10th centile. She has had severe asthma requiring several courses of oral prednisolone and high-dose inhaled corticosteroids. Blood pressure is 120/80 mmHg.\n\nWhat is the most important feature suggesting a pathological cause for her weight gain?",
+          "options": [
+            "BMI above the 95th centile",
+            "Rising BMI over 2 years",
+            "History of asthma",
+            "Falling height velocity",
+            "Female sex"
+          ],
+          "answer": 3,
+          "explanation": "Most childhood obesity is **nutritional**, and these children are typically **tall** for their age because excess energy also drives linear growth. **Weight gain with slowing height velocity** (short and heavy) is the key feature that points to an **endocrine or pathological cause**: hypothyroidism, GH deficiency, or **Cushing syndrome**.\n\nIn this girl, repeated oral steroids and high-dose inhaled corticosteroids make **iatrogenic Cushing syndrome** the likely explanation, which also fits her raised blood pressure for age. The priority is to optimise asthma control with the lowest effective steroid dose and involve a paediatrician or endocrinologist, with care about adrenal suppression when steroids are reduced.\n\nA high BMI alone does not distinguish nutritional from pathological obesity.",
+          "whyWrong": [
+            "A high BMI occurs in both nutritional and pathological obesity; it does not discriminate.",
+            "Rising BMI is common in nutritional obesity too.",
+            "Asthma is relevant only because of steroid treatment; the growth pattern is the discriminator.",
+            "",
+            "Sex does not suggest a pathological cause."
+          ],
+          "ausPearl": "Australia's rates of childhood overweight and obesity mean GPs see weight gain daily; plotting height alongside weight is what catches the rare endocrine cause.",
+          "tags": [
+            "obesity",
+            "cushing",
+            "growth-velocity"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "growth-development--infant-feeding-and-nutrition",
+      "title": "Infant feeding, solids, allergy prevention and iron",
+      "minutes": 18,
+      "objectives": [
+        "Advise on breastfeeding, formula feeding and when cow's milk is appropriate",
+        "Give ASCIA-consistent advice on introducing solids and common food allergens",
+        "Recognise and manage iron deficiency in toddlers, including excess cow's milk",
+        "Distinguish IgE-mediated food allergy, non-IgE cow's milk protein allergy and lactose intolerance"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why feeding advice is examinable",
+          "body": "Feeding questions are among the most common things parents ask GPs and child health nurses. The AMC tests whether you can give **current Australian advice**: the **NHMRC Infant Feeding Guidelines** (breastfeeding, formula and solids) and **ASCIA** (Australasian Society of Clinical Immunology and Allergy) guidance on allergy prevention.\n\nAustralia has **one of the highest rates of childhood food allergy in the world**. The Melbourne HealthNuts study found challenge-proven food allergy in more than 1 in 10 one-year-olds. That is why advice changed from delaying allergenic foods to **introducing them early**, and why Indian graduates need to relearn this area."
+        },
+        {
+          "kind": "concepts",
+          "heading": "Milk: breast, formula and cow's",
+          "body": "**Breastfeeding**\n- **Exclusive breastfeeding to around 6 months**, then continued breastfeeding while solids are introduced, until **12 months and beyond** for as long as mother and child wish.\n- Benefits: fewer gastrointestinal, respiratory and ear infections, lower SIDS risk, protection against NEC in preterm babies, and maternal benefits (lower breast and ovarian cancer risk).\n- Breastfed babies need no water or other fluids before solids start.\n- **Supplements:** vitamin K at birth; **vitamin D** for breastfed babies at risk of deficiency (dark skin, mother vitamin D deficient, or mother covers her skin); vitamin B12 if the mother is vegan and not supplemented.\n- Very few true contraindications: classic galactosaemia, some maternal drugs (for example cytotoxic chemotherapy), untreated active TB (until treated). Maternal HIV: in Australia, where safe formula is available, formula feeding has traditionally been advised, and current guidance supports informed shared decision-making for women with a sustained undetectable viral load (check current ASHM advice). **Hepatitis B and hepatitis C are not contraindications.**\n- Common problems: poor attachment, sore nipples, engorgement, low supply, and **mastitis** (continue feeding from the affected breast). Refer to a lactation consultant or the Australian Breastfeeding Association.\n\n**Infant formula**\n- The only safe alternative to breast milk under 12 months. Standard cow's-milk-based formula suits most babies.\n- Prepare exactly as instructed with **cooled boiled water**: over-concentrated feeds cause hypernatraemia; over-diluted feeds cause faltering growth.\n- **Toddler milks** are unnecessary for healthy children.\n\n**Cow's milk**\n- **Not as the main drink before 12 months** (it is low in iron and vitamin C, has a high protein and solute load, and can cause occult gut blood loss in young infants). Small amounts in food (for example yoghurt, custard) are fine from around 6 months.\n- From 12 months, full-cream cow's milk can be the main milk drink, **limited to about 500 mL a day**.\n- Rice, oat and nut \"milks\" are not suitable main drinks for young children."
+        },
+        {
+          "kind": "application",
+          "heading": "Introducing solids and food allergens",
+          "body": "**When:** at **around 6 months**, when the baby shows readiness (good head control, sits with support, shows interest in food, loses the tongue-thrust reflex), and **not before 4 months**.\n\n**What first:** **iron-rich foods** (iron-fortified infant cereal, pureed meat, poultry, fish, legumes, egg), because iron stores from birth run low at around 6 months, especially in breastfed babies. Then a variety of vegetables, fruits, grains and dairy.\n\n**Texture:** progress from smooth to mashed to finger foods; by **12 months** most children eat family foods. Delaying lumpy textures beyond about 9 to 10 months is linked to feeding difficulties.\n\n**Avoid:** **honey under 12 months** (infant botulism), added salt and sugar, and **whole nuts and hard foods under 5 years** (choking risk; nut pastes and butters are fine).\n\n**Food allergens (ASCIA):**\n- Introduce common allergens, including **smooth peanut butter or paste and well-cooked egg**, **in the first year of life**, from around 6 months when the baby is ready. This includes babies with eczema or a family history of allergy.\n- Other common allergens: cow's milk products (yoghurt, cheese), wheat, soy, sesame, tree nut pastes, fish and shellfish.\n- **Once introduced, keep giving them regularly** (for example twice a week) to maintain tolerance.\n- **Do not delay** allergenic foods to prevent allergy: delay increases the risk.\n- Routine allergy testing before introduction is **not** recommended. Babies with severe eczema or a known food allergy may need individual advice from their doctor.\n- If a reaction occurs (hives, facial swelling, vomiting), stop that food and seek medical advice; for signs of **anaphylaxis** (breathing difficulty, pale and floppy, persistent cough, hoarse voice), give adrenaline if available and call an ambulance.\n\n**Managing eczema well** (moisturisers, topical steroids) is also thought to reduce food sensitisation through inflamed skin."
+        },
+        {
+          "kind": "application",
+          "heading": "Iron deficiency and other nutrition problems",
+          "body": "**Iron deficiency in toddlers**\n- **Why:** iron stores run down by 6 months; toddlers who drink **more than about 500 mL of cow's milk a day** fill up on milk (low in iron), eat fewer iron-rich foods, absorb less iron, and young toddlers may lose occult blood from the gut. Other risks: prematurity, late or low-iron solids, vegetarian diets without planning, heavy tea intake, and higher prevalence in some Aboriginal communities and refugee children.\n- **Features:** often none; pallor, irritability, fatigue, poor appetite, **pica**, and effects on attention and development. Severe cases present with heart failure.\n- **Tests:** FBC shows a **microcytic, hypochromic anaemia**; **low ferritin** confirms iron deficiency (ferritin rises with inflammation, so check CRP if it looks normal). In children of Indian, Mediterranean, Middle Eastern or Southeast Asian background, consider **thalassaemia trait** (microcytosis with normal ferritin and a relatively high red cell count), which does not respond to iron.\n- **Treatment:** **reduce cow's milk to 500 mL a day or less**, increase iron-rich foods (with vitamin C to help absorption), and give **oral elemental iron** (dose per RCH or eTG), taken away from milk. Recheck the haemoglobin in about 4 weeks to confirm a response, and continue iron for about 3 months after haemoglobin normalises to replenish stores. Warn about dark stools, constipation, and keeping iron locked away (overdose is dangerous).\n\n**Food allergy versus intolerance**\n\n| | IgE-mediated food allergy | Non-IgE cow's milk protein allergy | Lactose intolerance |\n|---|---|---|---|\n| Timing | Minutes to 2 hours | Hours to days | Hours after lactose |\n| Features | Hives, angioedema, vomiting, anaphylaxis | Vomiting, reflux, diarrhoea, blood-streaked stools (proctocolitis), faltering growth; **FPIES** causes profuse vomiting and pallor 1 to 4 hours later | Bloating, loose acidic stools, perianal redness |\n| Tests | Skin prick or specific IgE | Clinical diagnosis, elimination and reintroduction | Clinical; usually secondary to gastroenteritis |\n| Management | Avoid, action plan, adrenaline autoinjector if at risk of anaphylaxis | **Extensively hydrolysed formula** (amino acid formula if severe); breastfeeding mother may exclude dairy | Usually temporary; primary lactose intolerance is rare in infants |\n\nSoy formula is not recommended under 6 months, and goat's milk formula is not suitable for cow's milk allergy (the proteins cross-react).\n\n**Vitamin D deficiency and rickets:** risk factors include dark skin, limited sun exposure, covered clothing and exclusive breastfeeding from a deficient mother. Signs: bowed legs, widened wrists, rachitic rosary, delayed walking, hypocalcaemic seizures in infants. Tests: low or normal calcium, low phosphate, high ALP, high PTH, low 25-OH vitamin D. Treat with vitamin D (and calcium if deficient)."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks this",
+          "body": "- \"When should I start peanut?\" In the first year, from around 6 months when ready, **even with eczema**, and keep giving it regularly. Delay is the wrong answer; so is \"test first\" for most babies.\n- \"When can he have cow's milk?\" As a main drink from **12 months**, up to about **500 mL a day**.\n- Pale, tired 18-month-old drinking 1.2 litres of milk a day: **iron deficiency**; reduce milk and give iron.\n- A breastfed baby with blood-streaked stools who is thriving: **food protein-induced proctocolitis**; maternal dairy exclusion.\n- Microcytosis with normal ferritin in a child of Indian background: think **thalassaemia trait**, not iron deficiency.\n- Honey is off the menu under 12 months; whole nuts under 5 years."
+        }
+      ],
+      "keyPoints": [
+        "Exclusive breastfeeding to around 6 months; continue to 12 months and beyond.",
+        "Solids at around 6 months (not before 4 months), iron-rich foods first.",
+        "ASCIA: introduce peanut and egg in the first year, even with eczema; keep giving them regularly.",
+        "Cow's milk as the main drink from 12 months only, limited to about 500 mL a day.",
+        "Toddler iron deficiency is often from excess cow's milk; reduce milk, give oral iron, continue 3 months after Hb normalises.",
+        "Cow's milk protein allergy: extensively hydrolysed formula; not soy under 6 months, not goat's milk.",
+        "No honey under 12 months; no whole nuts under 5 years."
+      ],
+      "redFlags": [
+        "Signs of anaphylaxis after a food: breathing difficulty, persistent cough, hoarse voice, pale and floppy",
+        "Repetitive profuse vomiting and pallor 1 to 4 hours after a food (FPIES)",
+        "Severe pallor, lethargy or breathlessness in a toddler (severe anaemia)",
+        "Hypocalcaemic seizures in an infant (rickets)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Allergen introduction",
+          "india": "Food allergy is less of a focus; foods often introduced gradually and allergens sometimes delayed.",
+          "australia": "ASCIA: introduce peanut and egg around 6 months, in the first year, even in high-risk babies."
+        },
+        {
+          "aspect": "Toddler anaemia",
+          "india": "Mostly dietary iron deficiency and worm infestation; community deworming and iron supplementation.",
+          "australia": "Commonly excess cow's milk; worms are rare except in some remote and refugee communities."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "When should solids be introduced (NHMRC)?",
+          "back": "Around 6 months, when developmentally ready; not before 4 months."
+        },
+        {
+          "front": "ASCIA advice on peanut and egg?",
+          "back": "Introduce in the first year from around 6 months, including babies with eczema, and keep giving them regularly."
+        },
+        {
+          "front": "When can cow's milk be the main drink, and how much?",
+          "back": "From 12 months; limit to about 500 mL a day."
+        },
+        {
+          "front": "Why no honey under 12 months?",
+          "back": "Risk of infant botulism."
+        },
+        {
+          "front": "Formula for non-IgE cow's milk protein allergy?",
+          "back": "Extensively hydrolysed formula (amino acid formula if severe)."
+        },
+        {
+          "front": "How long to continue oral iron after haemoglobin normalises?",
+          "back": "About 3 months, to replenish stores."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "growth-development--infant-feeding-and-nutrition--q1",
+          "discipline": "child-health",
+          "topic": "growth-development",
+          "difficulty": "foundation",
+          "stem": "The mother of a healthy 5-month-old boy asks about starting solids. He has mild eczema controlled with moisturiser. His older sister has a peanut allergy. She has been told by a friend to avoid peanut and egg until he is 3 years old.\n\nWhat is the most appropriate advice?",
+          "options": [
+            "Avoid peanut and egg until he is 3 years old",
+            "Arrange skin prick testing before introducing any allergenic foods",
+            "Start with peanut and egg at 3 months to maximise tolerance",
+            "Introduce smooth peanut and cooked egg in the first year when he starts solids, and keep giving them regularly",
+            "Delay all solids until 12 months because of his eczema"
+          ],
+          "answer": 3,
+          "explanation": "ASCIA advises introducing common allergenic foods, including **smooth peanut butter or paste and well-cooked egg**, **in the first year of life**, from around 6 months when the baby is ready for solids. This applies to **babies with eczema and those with a family history of allergy**. Once introduced, the foods should be **given regularly** (for example twice a week) to maintain tolerance.\n\nThe LEAP trial and Australian data show that **delaying** allergens increases the risk of food allergy. Routine skin prick testing before introduction is not recommended for most infants and can lead to false positives and unnecessary avoidance. Babies with severe eczema or an existing food allergy may need individual medical advice.\n\nSolids should not start before 4 months.",
+          "whyWrong": [
+            "Delaying allergenic foods increases the risk of allergy.",
+            "Routine pre-testing is not recommended; it generates false positives and delays introduction.",
+            "Solids should not be started before 4 months.",
+            "",
+            "Eczema is not a reason to delay solids; delay is harmful."
+          ],
+          "ausPearl": "Australia's very high food allergy rates (HealthNuts) drove the ASCIA guidelines and the Nip allergies in the Bub campaign.",
+          "tags": [
+            "food-allergy",
+            "ascia",
+            "solids"
+          ]
+        },
+        {
+          "id": "growth-development--infant-feeding-and-nutrition--q2",
+          "discipline": "child-health",
+          "topic": "growth-development",
+          "difficulty": "core",
+          "stem": "An 18-month-old boy is brought to the GP because he looks pale and is irritable. He is a fussy eater and drinks about 1.2 litres of full-cream cow's milk a day from a bottle. Hb 82 g/L (reference 105 to 135), MCV 58 fL, ferritin 4 microgram/L. He is otherwise well with normal growth.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Red cell transfusion",
+            "Reduce cow's milk to 500 mL a day or less, increase iron-rich foods and start oral iron",
+            "Switch from cow's milk to a toddler milk formula and recheck in 6 months",
+            "Refer for haemoglobin electrophoresis before any treatment",
+            "Intramuscular iron injections"
+          ],
+          "answer": 1,
+          "explanation": "This is **iron deficiency anaemia** (microcytic anaemia with a very low ferritin) caused by **excessive cow's milk intake**. More than about 500 mL a day fills toddlers up, displaces iron-rich foods, and cow's milk is low in iron and can cause occult gut blood loss.\n\nManagement: **reduce cow's milk to 500 mL a day or less** (and move from a bottle to a cup), increase iron-rich foods with vitamin C, and give **oral elemental iron** away from milk. Recheck Hb in about 4 weeks and continue iron for about 3 months after normalisation.\n\nTransfusion is only for severe symptomatic anaemia with cardiovascular compromise. Electrophoresis is not needed first when ferritin clearly confirms iron deficiency.",
+          "whyWrong": [
+            "He is well and compensated; transfusion is reserved for severe symptomatic anaemia.",
+            "",
+            "Toddler milks are unnecessary and do not treat established deficiency; waiting 6 months is too long.",
+            "A ferritin of 4 confirms iron deficiency; electrophoresis is for microcytosis with normal ferritin.",
+            "Oral iron is effective and IM iron is painful and not first line in children."
+          ],
+          "tags": [
+            "iron-deficiency",
+            "cows-milk",
+            "anaemia"
+          ]
+        },
+        {
+          "id": "growth-development--infant-feeding-and-nutrition--q3",
+          "discipline": "child-health",
+          "topic": "growth-development",
+          "difficulty": "core",
+          "stem": "A 7-week-old exclusively breastfed girl is brought in because her mother noticed streaks of blood and mucus in her stools over the past week. She is feeding well, is not vomiting, and has gained weight along the 50th centile. Examination, including the abdomen and perianal area, is normal.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Intussusception",
+            "Lactose intolerance",
+            "Necrotising enterocolitis",
+            "Anal fissure",
+            "Food protein-induced allergic proctocolitis"
+          ],
+          "answer": 4,
+          "explanation": "A **thriving, well, breastfed infant** with **blood and mucus-streaked stools** and a normal examination most likely has **food protein-induced allergic proctocolitis**, a **non-IgE-mediated** cow's milk protein allergy. Cow's milk protein passes into breast milk and causes a mild colitis.\n\nManagement is **reassurance** and a trial of **maternal dairy exclusion** (with calcium and vitamin D support for the mother, and dietitian input), with gradual reintroduction later. Most children tolerate cow's milk by around 12 months. Breastfeeding should continue.\n\nThe clue is the **well, growing baby with a normal examination**. An anal fissure would usually be visible, and intussusception or NEC would make the baby unwell.",
+          "whyWrong": [
+            "Intussusception causes episodic pain, pallor and vomiting in an unwell infant, usually older.",
+            "Lactose intolerance causes frothy, loose stools and bloating, not blood.",
+            "NEC affects preterm babies who become unwell with distension.",
+            "A fissure is usually visible on perianal examination, which was normal.",
+            ""
+          ],
+          "tags": [
+            "cows-milk-allergy",
+            "proctocolitis",
+            "breastfeeding"
+          ]
+        }
+      ]
+    }
+  ]
+}

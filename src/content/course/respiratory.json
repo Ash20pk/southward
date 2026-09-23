@@ -1,0 +1,1128 @@
+{
+  "topic": "respiratory",
+  "intro": "Respiratory medicine on the AMC covers asthma, COPD, pneumonia and TB, pulmonary embolism, pleural disease, interstitial and occupational lung disease, and lung cancer. Most questions test acute severity assessment (who is about to tire, who needs NIV or decompression) and guideline-based stepwise therapy from the Australian Asthma Handbook, COPD-X and eTG.",
+  "lessons": [
+    {
+      "id": "respiratory--asthma",
+      "title": "Asthma in adults",
+      "minutes": 20,
+      "objectives": [
+        "Confirm asthma with spirometry and recognise the typical history",
+        "Choose maintenance treatment in line with the Australian Asthma Handbook, including why SABA-only is no longer recommended",
+        "Grade an acute asthma attack and escalate treatment appropriately",
+        "Recognise the signs of life-threatening asthma, including an ominous normal or rising CO2"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Asthma in Australia",
+          "body": "Australia has one of the highest asthma prevalences in the world: roughly 1 in 9 people, and several hundred asthma deaths each year, many of them preventable. Most deaths occur in people with poor control, over-reliance on reliever inhalers and no preventer, or delayed care in a severe attack.\n\nThe reference is the **Australian Asthma Handbook** (National Asthma Council Australia). Its core messages for adults and adolescents:\n\n- **SABA-only treatment is no longer recommended.** Every adult and adolescent with asthma should have an inhaled corticosteroid (ICS)-containing treatment.\n- **As-needed low-dose budesonide-formoterol** is an option for mild asthma, as an alternative to daily low-dose ICS plus as-needed salbutamol.\n- **Every patient needs a written asthma action plan**, checked inhaler technique and regular review.\n\nThunderstorm asthma is an Australian phenomenon: in November 2016 a thunderstorm during high grass pollen season in Melbourne caused thousands of acute presentations and several deaths, often in people with hay fever and no prior asthma diagnosis."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why airways narrow",
+          "body": "Asthma is **chronic airway inflammation** (usually type 2, eosinophilic) with **variable, reversible airflow obstruction** and **bronchial hyper-responsiveness**. Triggers (viral infections, allergens such as dust mite and pollen, smoke, cold air, exercise, NSAIDs or aspirin in some, beta blockers) cause:\n\n- Smooth muscle contraction (relieved by beta-2 agonists)\n- Mucosal oedema and mucus plugging (reduced by corticosteroids)\n- Over time, airway remodelling with fixed obstruction if untreated\n\nThis explains the therapy: relievers open the airway quickly but do nothing for inflammation, which is why SABA-only treatment leaves patients at risk. ICS treats the inflammation. Budesonide-formoterol works as a reliever because formoterol has a rapid onset, and each dose also delivers ICS.\n\nIn a severe attack, air trapping and hyperinflation increase the work of breathing. Early on the patient hyperventilates and **PaCO2 is low**. As the patient tires, ventilation falls and CO2 climbs back to normal and then high. A **normal or rising CO2** in acute asthma therefore signals exhaustion and impending respiratory arrest."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "History and examination",
+          "body": "**Chronic asthma**: episodic wheeze, breathlessness, chest tightness and cough, worse at night or early morning, with exercise, cold air, allergens or viral infections, and improving with a reliever. Ask about atopy (eczema, hay fever), family history, occupational exposure (bakers, spray painters, nurses), triggers, night waking, reliever use, and past severe attacks (ICU, intubation, admissions: strong predictors of death).\n\n**Poor control indicators**: daytime symptoms more than 2 days a week, reliever needed more than 2 days a week (outside exercise pre-treatment), any night waking, or activity limitation.\n\n**Acute severity** (adults):\n\n| Severity | Features |\n|---|---|\n| Mild to moderate | Can walk and speak in full sentences, mild distress |\n| Severe | Speaks in phrases or words, obvious distress, uses accessory muscles, tachycardic, SpO2 reduced |\n| Life-threatening | Drowsy, confused or exhausted, cyanosis, **silent chest**, poor respiratory effort, collapse, **SpO2 below 90%** |\n\nPulsus paradoxus and inability to perform peak flow are further markers of severity. **Wheeze volume is not a reliable guide**; a quiet chest can mean almost no air movement."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Confirming the diagnosis",
+          "body": "- **Spirometry** with bronchodilator reversibility is the preferred test. Obstruction is FEV1/FVC below the lower limit of normal (or below about 0.7 in adults). A significant bronchodilator response in adults is an increase in FEV1 of **12% or more and at least 200 mL**.\n- A normal spirometry result does not exclude asthma if the patient is well at the time; repeat when symptomatic, or use bronchial provocation testing (such as mannitol or methacholine challenge) in a lung function lab.\n- Peak flow diaries show variability but are less reliable than spirometry for diagnosis.\n- Allergy testing (skin prick or specific IgE) identifies triggers.\n- Blood eosinophils and FeNO help phenotype severe asthma.\n\n**Acute attack**: SpO2 for everyone; arterial or venous blood gas in severe or life-threatening asthma (look at CO2); chest X-ray only if pneumothorax, pneumonia or other diagnosis suspected or not improving."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Wheeze that is not asthma",
+          "body": "| Condition | Clues |\n|---|---|\n| COPD | Older, heavy smoking history, incomplete reversibility, chronic sputum |\n| Heart failure (\"cardiac asthma\") | Orthopnoea, oedema, crackles, raised BNP |\n| Vocal cord dysfunction (inducible laryngeal obstruction) | Inspiratory stridor, throat tightness, normal SpO2, young woman |\n| Foreign body or tumour | Localised monophonic wheeze, unilateral signs |\n| Anaphylaxis | Urticaria, angioedema, hypotension, allergen exposure: give IM adrenaline |\n| Bronchiectasis | Daily purulent sputum, recurrent infections, crackles |\n\nAsthma and COPD can overlap; people with features of both should receive ICS."
+        },
+        {
+          "kind": "management",
+          "heading": "Maintenance and acute attacks",
+          "body": "**Maintenance (adults and adolescents)**, with review of symptoms, adherence and technique before stepping up:\n\n- **Mild asthma**: as-needed low-dose **budesonide-formoterol** (anti-inflammatory reliever), *or* daily low-dose ICS with as-needed salbutamol.\n- **Not controlled**: low-dose budesonide-formoterol as **maintenance and reliever therapy (MART)**, or regular ICS-LABA.\n- **Still not controlled**: medium-dose ICS-LABA, add a LAMA (tiotropium) or montelukast, and consider referral.\n- **Severe asthma**: specialist assessment for biologics (anti-IgE, anti-IL5 or IL5R, anti-IL4R), which are PBS-listed under strict criteria.\n- Every patient: **written asthma action plan**, inhaler technique check (with a spacer for pMDIs), trigger avoidance, smoking cessation, influenza vaccination, and review after any flare.\n\n**Acute asthma in the emergency department**:\n\n- Sit upright; **oxygen titrated to SpO2 93 to 95%** (avoid hyperoxia).\n- **Salbutamol** via pMDI and spacer, repeated as needed; in life-threatening asthma, **continuous nebulised salbutamol** driven by oxygen.\n- **Ipratropium bromide** added in severe and life-threatening attacks.\n- **Systemic corticosteroid** early: oral prednisolone (IV hydrocortisone or methylprednisolone if unable to swallow), usually continued for 5 to 10 days; check the Asthma Handbook or eTG for doses.\n- **IV magnesium sulfate** for severe or life-threatening asthma not responding to initial treatment.\n- Life-threatening or deteriorating despite treatment: senior help, ICU review; IV salbutamol or adrenaline; intubation is high risk and done by experts. NIV is not routinely recommended in acute asthma.\n- **Normal or rising PaCO2**, drowsiness, silent chest or exhaustion: ICU now.\n\n**Discharge**: when stable on 3 to 4-hourly reliever; start or step up ICS-containing preventer, provide a written action plan, check technique, and arrange GP review within a few days."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- A young adult using salbutamol alone 4 times a week: the answer is an **ICS-containing** regimen (as-needed budesonide-formoterol or daily ICS), not \"continue salbutamol\".\n- The most important preventive tool: the **written asthma action plan**.\n- **\"PaCO2 44 mmHg\" in an acute asthmatic** is a trap: it looks normal but means exhaustion. Escalate to ICU.\n- Silent chest with quiet breath sounds is worse than loud wheeze.\n- A man on a beta blocker (such as propranolol for migraine) whose asthma worsened: stop the beta blocker.\n- Episodic wheeze at work, better on holidays: **occupational asthma**; document with serial peak flows and notify through workers' compensation channels."
+        }
+      ],
+      "keyPoints": [
+        "SABA-only treatment is no longer recommended for adults and adolescents.",
+        "Mild asthma: as-needed budesonide-formoterol or daily low-dose ICS plus as-needed salbutamol.",
+        "Every patient needs a written asthma action plan and inhaler technique check.",
+        "Reversibility: FEV1 increase of 12% or more and at least 200 mL.",
+        "Acute severe asthma: salbutamol, ipratropium, systemic steroid, consider IV magnesium; oxygen to SpO2 93-95%.",
+        "A normal or rising CO2, silent chest, drowsiness or SpO2 below 90% means life-threatening asthma."
+      ],
+      "redFlags": [
+        "Normal or rising PaCO2 in acute asthma",
+        "Silent chest, cyanosis or poor respiratory effort",
+        "Drowsiness, confusion or exhaustion",
+        "SpO2 below 90% despite oxygen",
+        "Previous ICU admission or intubation for asthma"
+      ],
+      "contrast": [
+        {
+          "aspect": "Reliever-only treatment",
+          "india": "Mild asthma is often managed with salbutamol alone or oral bronchodilators such as theophylline.",
+          "australia": "SABA-only is no longer recommended; every adult gets ICS-containing treatment, often as-needed budesonide-formoterol."
+        },
+        {
+          "aspect": "Asthma action plans",
+          "india": "Written action plans are not routinely provided.",
+          "australia": "A written asthma action plan is an expected standard of care and a common correct answer."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Spirometric bronchodilator response supporting asthma in adults?",
+          "back": "FEV1 increase of 12% or more and at least 200 mL."
+        },
+        {
+          "front": "Why is a normal PaCO2 worrying in acute asthma?",
+          "back": "Early attacks cause hyperventilation and low CO2; a normal or rising CO2 means fatigue and impending respiratory failure."
+        },
+        {
+          "front": "Oxygen saturation target in acute asthma?",
+          "back": "93 to 95%."
+        },
+        {
+          "front": "Option for mild asthma in adults that replaces SABA-only?",
+          "back": "As-needed low-dose budesonide-formoterol (anti-inflammatory reliever)."
+        },
+        {
+          "front": "Adjunct IV drug for severe asthma not responding to initial treatment?",
+          "back": "IV magnesium sulfate."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "respiratory--asthma--q1",
+          "discipline": "adult-medicine",
+          "topic": "respiratory",
+          "difficulty": "foundation",
+          "stem": "A 24-year-old university student in Melbourne sees a GP because she uses her salbutamol inhaler about 3 times a week for wheeze, mostly after running and when she has a cold. She wakes at night with cough about once a month. She has hay fever. Spirometry shows an FEV1 increase of 16% (320 mL) after bronchodilator. She has never used a preventer.\n\nWhat is the most appropriate treatment?",
+          "options": [
+            "Continue as-needed salbutamol alone",
+            "Oral montelukast alone",
+            "As-needed low-dose budesonide-formoterol",
+            "Regular high-dose inhaled fluticasone",
+            "Oral theophylline"
+          ],
+          "answer": 2,
+          "explanation": "She has confirmed asthma (reversibility of 12% or more and at least 200 mL) with symptoms that are not well controlled. The **Australian Asthma Handbook no longer recommends SABA-only treatment** for adults and adolescents because it leaves airway inflammation untreated and is associated with severe attacks and asthma deaths.\n\nFor mild asthma, **as-needed low-dose budesonide-formoterol** is an effective option: formoterol gives rapid relief and each dose delivers ICS. Daily low-dose ICS with as-needed salbutamol is the alternative. She also needs a written asthma action plan and inhaler technique check.\n\n**Principle:** every adult with asthma gets ICS-containing treatment.",
+          "whyWrong": [
+            "SABA-only treatment is no longer recommended for adults and adolescents.",
+            "Montelukast is less effective than ICS and not a first-line option in adults.",
+            "",
+            "High-dose ICS is excessive for mild asthma and increases side effects.",
+            "Theophylline is not a first-line asthma treatment in Australia."
+          ],
+          "tags": [
+            "asthma",
+            "budesonide-formoterol",
+            "maintenance"
+          ]
+        },
+        {
+          "id": "respiratory--asthma--q2",
+          "discipline": "adult-medicine",
+          "topic": "respiratory",
+          "difficulty": "exam",
+          "stem": "A 31-year-old man with asthma is treated in a Perth emergency department for 2 hours with continuous nebulised salbutamol, ipratropium and IV hydrocortisone. Initially he was agitated and speaking in phrases. He is now quieter and lying back. RR 22/min, HR 128 bpm, SpO2 91% on 8 L/min oxygen. Breath sounds are much quieter than on arrival. A venous blood gas shows pH 7.30 and PCO2 50 mmHg (earlier PCO2 was 30 mmHg).\n\nWhat is the best interpretation and next step?",
+          "options": [
+            "He is improving; reduce the nebuliser frequency",
+            "He has life-threatening asthma with exhaustion; urgent ICU review, IV magnesium and preparation for ventilatory support",
+            "He has a metabolic acidosis from salbutamol; give sodium bicarbonate",
+            "He is anxious; give a benzodiazepine",
+            "He has a pneumothorax; insert an intercostal catheter immediately"
+          ],
+          "answer": 1,
+          "explanation": "This is a classic AMC trap. He looks \"calmer\", his respiratory rate has fallen and his chest is quieter, but his **CO2 has risen from 30 to 50 mmHg** with falling pH. In acute asthma the CO2 should be low from hyperventilation, so a normal or rising CO2 means he is **tiring** and moving less air. Quiet breath sounds signal a near-silent chest.\n\nHe needs **urgent ICU and senior review**, IV magnesium if not yet given, consideration of IV salbutamol or adrenaline, and preparation for intubation by an experienced operator.\n\nSedating him would remove his respiratory drive. There are no signs described that specifically point to pneumothorax, although a chest X-ray is reasonable if he deteriorates suddenly.",
+          "whyWrong": [
+            "Reduced distress with rising CO2 means exhaustion, not improvement.",
+            "",
+            "The rising CO2 indicates respiratory acidosis from hypoventilation, not a salbutamol-related metabolic acidosis.",
+            "Sedation in severe asthma can precipitate respiratory arrest.",
+            "Nothing specific suggests pneumothorax; tiring is the explanation for the rising CO2."
+          ],
+          "tags": [
+            "acute-asthma",
+            "blood-gas",
+            "icu"
+          ]
+        },
+        {
+          "id": "respiratory--asthma--q3",
+          "discipline": "adult-medicine",
+          "topic": "respiratory",
+          "difficulty": "core",
+          "stem": "A 45-year-old woman attends her GP in Brisbane 2 days after an emergency department visit for an asthma flare triggered by a cold. She was discharged on prednisolone. She uses salbutamol only and has never had a written plan. Her inhaler technique is poor. She wants to avoid another ED visit.\n\nWhich intervention is most likely to reduce her risk of future severe attacks?",
+          "options": [
+            "Adding an oral antihistamine",
+            "Prescribing a nebuliser for home use",
+            "Providing antibiotics to use with every cold",
+            "Starting ICS-containing treatment with a written asthma action plan and inhaler technique training",
+            "Advising her to avoid all exercise"
+          ],
+          "answer": 3,
+          "explanation": "After any ED visit for asthma, the key interventions are **starting or stepping up ICS-containing treatment**, correcting **inhaler technique** (with a spacer for a pMDI) and giving a **written asthma action plan** that tells her when to increase treatment, start prednisolone or seek urgent care. These measures reduce admissions and deaths.\n\nHome nebulisers are not more effective than a pMDI with spacer and may delay seeking help. Antibiotics do not help viral asthma flares. Exercise should be encouraged, with pre-treatment if needed.\n\n**Principle:** preventer plus plan plus technique.",
+          "whyWrong": [
+            "Antihistamines help hay fever but do not prevent asthma attacks.",
+            "Home nebulisers are no better than a spacer and can delay care.",
+            "Most flares are viral; routine antibiotics are not indicated.",
+            "",
+            "Exercise is encouraged; avoidance is unnecessary."
+          ],
+          "ausPearl": "The National Asthma Council Australia publishes free written asthma action plan templates; community pharmacists can also check inhaler technique.",
+          "tags": [
+            "asthma",
+            "action-plan",
+            "general-practice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "respiratory--copd",
+      "title": "COPD",
+      "minutes": 20,
+      "objectives": [
+        "Diagnose COPD with post-bronchodilator spirometry and grade its severity",
+        "Build a stepwise COPD-X management plan including non-drug measures",
+        "Manage an acute exacerbation, including controlled oxygen and indications for NIV",
+        "Know the criteria for long-term oxygen therapy"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "COPD in Australia",
+          "body": "Chronic obstructive pulmonary disease (COPD) is persistent, progressive airflow limitation, mainly from **smoking**. It is one of the leading causes of hospital admission and death in Australia and is more common in older people, people living in rural and remote areas, and Aboriginal and Torres Strait Islander people. Many people are undiagnosed or labelled \"asthma\" or \"chest infections\".\n\nThe Australian reference is the **COPD-X Plan** (Lung Foundation Australia and TSANZ). The acronym is the structure:\n\n- **C**onfirm diagnosis and assess severity\n- **O**ptimise function\n- **P**revent deterioration\n- **D**evelop a plan of care\n- Manage e**X**acerbations"
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "What goes wrong",
+          "body": "Smoke and other inhaled irritants (occupational dusts, biomass smoke) trigger chronic neutrophilic inflammation and protease-antiprotease imbalance, leading to:\n\n- **Small airway disease**: fibrosis and mucus narrowing the bronchioles\n- **Emphysema**: destruction of alveolar walls, loss of elastic recoil and air trapping\n- **Chronic bronchitis**: mucus hypersecretion (productive cough on most days for 3 months in 2 consecutive years)\n\nLoss of elastic recoil means airways collapse on expiration, causing **hyperinflation**. Ventilation-perfusion mismatch causes hypoxaemia; in advanced disease, some patients retain CO2. Chronic hypoxia causes pulmonary vasoconstriction, pulmonary hypertension and **cor pulmonale** (right heart failure).\n\n**Why controlled oxygen in exacerbations**: in patients with chronic hypercapnia, high-flow oxygen worsens V/Q matching (releases hypoxic vasoconstriction in poorly ventilated areas) and the Haldane effect, and can reduce drive, causing CO2 to rise and acidosis to worsen. Hence the **SpO2 target of 88 to 92%**.\n\n**Alpha-1 antitrypsin deficiency** causes early emphysema (under 45, lower lobe predominant, or in non-smokers): test the level."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "History and examination",
+          "body": "- Progressive exertional breathlessness, chronic cough, sputum, wheeze, recurrent \"chest infections\", in a smoker or ex-smoker (usually 10 or more pack-years) over about 40.\n- Signs: hyperinflated barrel chest, prolonged expiration, pursed-lip breathing, reduced breath sounds, wheeze, use of accessory muscles; in advanced disease, cyanosis, raised JVP and peripheral oedema from cor pulmonale. Clubbing is **not** a feature of COPD: look for lung cancer, bronchiectasis or fibrosis.\n- Breathlessness is graded with the **mMRC** scale.\n- **Exacerbation**: acute worsening of breathlessness, cough or sputum volume or purulence beyond normal day-to-day variation, usually triggered by viral or bacterial infection or pollution."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Spirometry and more",
+          "body": "- **Spirometry is required for diagnosis**: **post-bronchodilator FEV1/FVC below 0.7** confirms persistent airflow limitation.\n- COPD-X severity by post-bronchodilator FEV1 (% predicted): **mild 60 to 80%**, **moderate 40 to 59%**, **severe below 40%**. Symptoms and exacerbations guide treatment too.\n- Chest X-ray: hyperinflation (flattened diaphragms, more than about 6 anterior ribs), bullae; excludes other causes.\n- FBC (polycythaemia, anaemia), and alpha-1 antitrypsin level in selected patients.\n- Oximetry; **arterial blood gas** if SpO2 is 92% or less at rest when stable, to assess for long-term oxygen.\n- Consider CT chest (emphysema, bronchiectasis, lung cancer; many will qualify for lung cancer screening).\n- In an exacerbation: blood gas (is there respiratory acidosis?), chest X-ray (pneumonia, pneumothorax), ECG, sputum culture if purulent or not responding."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Is this COPD?",
+          "body": "| Condition | Clues |\n|---|---|\n| Asthma | Younger, atopic, variable symptoms, marked reversibility (spirometry normalises) |\n| Heart failure | Orthopnoea, oedema, cardiomegaly, raised BNP; often coexists |\n| Bronchiectasis | Large volumes of purulent sputum daily, crackles, clubbing possible; CT confirms |\n| Lung cancer | Weight loss, haemoptysis, change in cough, clubbing |\n| Interstitial lung disease | Restrictive spirometry, fine crackles, clubbing |\n\nIn an exacerbation, always consider **pneumothorax**, **pneumonia**, **PE** and **heart failure** as causes of deterioration."
+        },
+        {
+          "kind": "management",
+          "heading": "Stable disease and exacerbations",
+          "body": "**Non-drug measures (the ones that change outcomes)**:\n\n- **Smoking cessation**: the only intervention that slows FEV1 decline. Varenicline, nicotine replacement, Quitline.\n- **Pulmonary rehabilitation**: improves breathlessness, exercise tolerance and quality of life and reduces admissions, especially after an exacerbation.\n- **Vaccination**: influenza annually, pneumococcal, COVID-19 and RSV per the Australian Immunisation Handbook.\n- Inhaler technique, nutrition, physical activity, a written COPD action plan, and advance care planning.\n\n**Stepwise inhaled therapy (COPD-X)**:\n\n1. Short-acting bronchodilator as needed (SABA or SAMA)\n2. Persistent symptoms: long-acting bronchodilator (**LAMA or LABA**)\n3. Still symptomatic: **LAMA plus LABA** combination\n4. Frequent exacerbations: consider adding **ICS** (triple therapy), especially if blood eosinophils are raised. ICS increases pneumonia risk, so is not used alone in COPD.\n\n**Long-term oxygen therapy** (at least 15 to 18 hours a day) prolongs survival in stable non-smokers with **PaO2 of 55 mmHg or less**, or **56 to 59 mmHg with evidence of hypoxic end-organ damage** (polycythaemia, pulmonary hypertension, right heart failure). Smoking near oxygen is a fire risk.\n\n**Acute exacerbation**:\n\n- **Controlled oxygen targeting SpO2 88 to 92%** (Venturi mask or nasal prongs)\n- **Bronchodilators**: salbutamol with or without ipratropium via spacer (or nebuliser, driven by air if CO2 retention)\n- **Oral prednisolone for 5 days** (COPD-X suggests 30 to 50 mg daily)\n- **Antibiotics if sputum is purulent** or clinical features of infection: eTG options include amoxicillin or doxycycline\n- **Non-invasive ventilation (bilevel)** for **acute hypercapnic respiratory acidosis** (for example pH below 7.35 with raised PaCO2) despite initial treatment\n- Discharge planning: inhaler technique, action plan, pulmonary rehab referral, GP review within about 7 days"
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- COPD diagnosis in one line: **post-bronchodilator FEV1/FVC below 0.7**.\n- Exacerbation, SpO2 98% on 10 L/min, now drowsy with pH 7.25 and PaCO2 75: over-oxygenation causing CO2 narcosis. Reduce oxygen to target 88 to 92% and start **NIV**.\n- Which intervention improves survival? Smoking cessation and LTOT (in those who qualify). Inhalers improve symptoms and exacerbations.\n- A COPD patient with clubbing: look for **lung cancer**.\n- Young non-smoker with emphysema: **alpha-1 antitrypsin deficiency**.\n- LTOT offered to a current smoker: no (fire risk and lack of benefit)."
+        }
+      ],
+      "keyPoints": [
+        "COPD diagnosis requires post-bronchodilator FEV1/FVC below 0.7.",
+        "Smoking cessation and pulmonary rehabilitation are the highest-value interventions.",
+        "Stepwise: SABA, then LAMA or LABA, then LAMA/LABA, then add ICS for frequent exacerbations.",
+        "Exacerbation: bronchodilators, prednisolone for 5 days, antibiotics if purulent sputum.",
+        "Target SpO2 88-92% in exacerbations to avoid hypercapnia.",
+        "NIV for acute hypercapnic respiratory acidosis.",
+        "LTOT if PaO2 55 mmHg or less, or 56-59 with end-organ damage, in non-smokers."
+      ],
+      "redFlags": [
+        "Drowsiness or confusion in an exacerbation (hypercapnia)",
+        "pH below 7.35 with raised PaCO2 (needs NIV)",
+        "Sudden deterioration or unilateral reduced breath sounds (pneumothorax)",
+        "Clubbing, haemoptysis or weight loss (lung cancer)",
+        "New peripheral oedema and raised JVP (cor pulmonale)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Causes",
+          "india": "Biomass fuel smoke and tuberculosis sequelae are major causes, especially in women.",
+          "australia": "Tobacco smoking dominates; occupational dusts contribute; biomass exposure is uncommon."
+        },
+        {
+          "aspect": "Diagnosis",
+          "india": "Often diagnosed clinically without spirometry.",
+          "australia": "Spirometry is mandatory (post-bronchodilator FEV1/FVC below 0.7) under COPD-X."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Spirometric criterion for COPD?",
+          "back": "Post-bronchodilator FEV1/FVC below 0.7."
+        },
+        {
+          "front": "SpO2 target in a COPD exacerbation?",
+          "back": "88 to 92%."
+        },
+        {
+          "front": "Duration of oral prednisolone for a COPD exacerbation?",
+          "back": "5 days."
+        },
+        {
+          "front": "Indication for NIV in COPD exacerbation?",
+          "back": "Acute hypercapnic respiratory acidosis (pH below 7.35 with raised PaCO2) despite initial treatment."
+        },
+        {
+          "front": "PaO2 threshold for long-term oxygen in stable COPD?",
+          "back": "55 mmHg or less (or 56 to 59 mmHg with polycythaemia, pulmonary hypertension or cor pulmonale)."
+        },
+        {
+          "front": "Test for emphysema in a young non-smoker?",
+          "back": "Serum alpha-1 antitrypsin level."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "respiratory--copd--q1",
+          "discipline": "adult-medicine",
+          "topic": "respiratory",
+          "difficulty": "core",
+          "stem": "A 71-year-old man with severe COPD is brought to a regional emergency department with 3 days of increased breathlessness and green sputum. Paramedics gave oxygen at 10 L/min via a non-rebreather mask. He is now drowsy. RR 14/min, SpO2 99%. Arterial blood gas: pH 7.24, PaCO2 82 mmHg, PaO2 140 mmHg, bicarbonate 34 mmol/L.\n\nIn addition to bronchodilators, steroids and antibiotics, what is the most appropriate immediate management?",
+          "options": [
+            "Continue high-flow oxygen and repeat the gas in 1 hour",
+            "Give intravenous sodium bicarbonate",
+            "Give intravenous naloxone",
+            "Stop all oxygen until the PaCO2 normalises",
+            "Titrate oxygen down to target SpO2 88-92% and start non-invasive ventilation"
+          ],
+          "answer": 4,
+          "explanation": "He has **acute-on-chronic hypercapnic respiratory failure** (raised bicarbonate shows chronic retention; low pH shows an acute rise), worsened by **excessive oxygen**. His drowsiness and low respiratory rate reflect CO2 narcosis.\n\nManagement is to **titrate oxygen to a target SpO2 of 88 to 92%** (not stop it abruptly, which causes dangerous hypoxaemia) and start **bilevel NIV**, which is indicated for acute hypercapnic respiratory acidosis in COPD and reduces the need for intubation and mortality.\n\nBicarbonate does not treat a respiratory acidosis. Naloxone is for opioid toxicity.\n\n**Discriminating clue:** SpO2 99% in a drowsy COPD patient.",
+          "whyWrong": [
+            "Continuing high-flow oxygen will worsen hypercapnia.",
+            "The acidosis is respiratory; bicarbonate does not fix ventilation.",
+            "There is no suggestion of opioid toxicity.",
+            "Stopping oxygen abruptly causes rebound hypoxaemia; titrate instead.",
+            ""
+          ],
+          "tags": [
+            "copd",
+            "niv",
+            "oxygen"
+          ]
+        },
+        {
+          "id": "respiratory--copd--q2",
+          "discipline": "adult-medicine",
+          "topic": "respiratory",
+          "difficulty": "foundation",
+          "stem": "A 62-year-old woman who smoked 30 pack-years and quit 2 years ago sees her GP in Wollongong with breathlessness walking uphill and a morning cough. Spirometry: pre-bronchodilator FEV1/FVC 0.58; post-bronchodilator FEV1/FVC 0.62, FEV1 58% predicted, with an FEV1 increase of 5% after bronchodilator.\n\nWhich statement best describes her results?",
+          "options": [
+            "Asthma, because the FEV1/FVC is reduced",
+            "A restrictive defect",
+            "COPD, moderate by COPD-X criteria",
+            "Normal spirometry for her age",
+            "COPD, severe by COPD-X criteria"
+          ],
+          "answer": 2,
+          "explanation": "A **post-bronchodilator FEV1/FVC below 0.7** confirms persistent airflow limitation, and in a 30 pack-year ex-smoker with typical symptoms this is **COPD**. The small bronchodilator response (5%) argues against asthma.\n\nCOPD-X grades severity by post-bronchodilator FEV1: mild 60 to 80%, **moderate 40 to 59%**, severe below 40%. Her FEV1 of 58% predicted is **moderate**.\n\nA restrictive defect has a normal or high FEV1/FVC with a reduced FVC.\n\n**Principle:** the ratio makes the diagnosis; the FEV1 grades it.",
+          "whyWrong": [
+            "Asthma shows significant reversibility; her obstruction is fixed.",
+            "Restriction gives a normal or high FEV1/FVC ratio.",
+            "",
+            "A ratio of 0.62 after bronchodilator is abnormal.",
+            "Severe COPD-X is FEV1 below 40% predicted."
+          ],
+          "tags": [
+            "copd",
+            "spirometry",
+            "diagnosis"
+          ]
+        },
+        {
+          "id": "respiratory--copd--q3",
+          "discipline": "adult-medicine",
+          "topic": "respiratory",
+          "difficulty": "exam",
+          "stem": "A 68-year-old man with moderate COPD is on a LAMA/LABA inhaler with good technique. He has stopped smoking. He has had two exacerbations needing prednisolone in the past year and one hospital admission. He still gets breathless walking 100 metres. He has never been referred to any program. Blood eosinophils are 0.4 x 10^9/L.\n\nWhich intervention is most likely to improve his breathlessness and exercise capacity?",
+          "options": [
+            "Long-term oral prednisolone",
+            "Pulmonary rehabilitation",
+            "Long-term oxygen therapy",
+            "Regular oral theophylline",
+            "Home nebulised salbutamol"
+          ],
+          "answer": 1,
+          "explanation": "**Pulmonary rehabilitation** (supervised exercise training plus education over about 8 weeks) is one of the most effective interventions in COPD. It improves breathlessness, exercise capacity and quality of life and reduces hospital admissions, especially when started after an exacerbation. It is underused, and COPD-X recommends it for all symptomatic patients.\n\nHe is also a candidate for adding an **ICS** (triple therapy) given frequent exacerbations and raised eosinophils, but that primarily reduces exacerbations. Long-term oral steroids cause harm. LTOT requires documented chronic hypoxaemia.\n\n**Principle:** in COPD, think non-drug first.",
+          "whyWrong": [
+            "Long-term oral steroids cause substantial harm without benefit in stable COPD.",
+            "",
+            "LTOT is only indicated with chronic hypoxaemia on blood gas.",
+            "Theophylline has a narrow therapeutic window and minimal benefit.",
+            "Nebulisers offer no advantage over a spacer and do not improve exercise capacity."
+          ],
+          "ausPearl": "Lung Foundation Australia keeps a directory of pulmonary rehabilitation programs, including telehealth options for rural patients.",
+          "tags": [
+            "copd",
+            "pulmonary-rehabilitation",
+            "general-practice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "respiratory--pneumonia-and-tb",
+      "title": "Pneumonia and tuberculosis",
+      "minutes": 22,
+      "objectives": [
+        "Assess the severity of community-acquired pneumonia using CURB-65 or SMART-COP",
+        "Choose eTG empirical antibiotics for low, moderate and high severity pneumonia",
+        "Recognise unusual Australian causes such as melioidosis and Legionella",
+        "Suspect, isolate, investigate and notify active TB and understand latent TB"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Pneumonia and TB in Australia",
+          "body": "**Community-acquired pneumonia (CAP)** is a common reason for admission, and a leading infectious cause of death in older Australians. The AMC tests three things: **severity assessment** (home, ward or ICU), **the correct eTG antibiotic** and **recognising when the organism is unusual**.\n\n**Tuberculosis** is uncommon in Australia (around 6 per 100,000), and most cases occur in **people born overseas** in high-incidence countries, including India. A migrant or international student with chronic cough, fever, night sweats and weight loss should prompt TB testing, whereas an Australian-born patient usually needs other causes considered first. Rates are also higher in some Aboriginal and Torres Strait Islander communities and in the Torres Strait near Papua New Guinea. TB is **notifiable** in every state and territory and treated free through state TB services."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Organisms and settings",
+          "body": "**CAP organisms**:\n\n- *Streptococcus pneumoniae*: the commonest identified bacterial cause\n- *Haemophilus influenzae* and *Moraxella*: especially in COPD\n- Atypicals: *Mycoplasma pneumoniae* (young adults, outbreaks), *Chlamydophila*, *Legionella* (severe, hyponatraemia, diarrhoea, confusion, deranged LFTs; linked to cooling towers and potting mix, *L. longbeachae* is a notable Australian cause)\n- *Staphylococcus aureus*: after influenza, cavitating\n- Viruses: influenza, RSV, SARS-CoV-2\n- **Tropical northern Australia**: *Burkholderia pseudomallei* (**melioidosis**) in the wet season, especially with diabetes, alcohol excess or CKD; and *Acinetobacter baumannii*. These need different empirical antibiotics (meropenem for suspected melioidosis).\n\nAspiration pneumonia follows reduced consciousness or swallowing problems (right lower lobe).\n\n**TB**: *Mycobacterium tuberculosis* is spread by airborne droplet nuclei. Most infected people contain it as **latent TB infection** (not infectious, no symptoms). About 5 to 10% reactivate over a lifetime, more with HIV, diabetes, immunosuppression (anti-TNF therapy, steroids), renal failure, malnutrition or recent infection. Reactivation favours the upper lobes, where oxygen tension is high, causing cavitation."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "How they present",
+          "body": "**CAP**: fever, cough, purulent sputum, pleuritic chest pain, breathlessness; older people may present with confusion or falls. Signs: tachypnoea, tachycardia, focal crackles, bronchial breathing, dullness to percussion.\n\n**Clues to the organism**:\n\n| Clue | Think |\n|---|---|\n| Rusty sputum, abrupt rigors, lobar | Pneumococcus |\n| Young adult, headache, dry cough, gradual | Mycoplasma |\n| Severe, hyponatraemia, diarrhoea, recent travel or gardening | Legionella |\n| Post-influenza cavitation | *S. aureus* |\n| Wet season in the Top End, diabetes, abscesses | Melioidosis |\n| Alcohol, aspiration, currant-jelly sputum | *Klebsiella* |\n\n**TB**: cough for more than 2 to 3 weeks, haemoptysis, fever, night sweats, weight loss, in someone from a high-incidence country, a contact of a case, or immunosuppressed. Extrapulmonary TB (lymph node, pleural, spinal, meningeal) is common in migrants."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Severity and diagnosis",
+          "body": "**CAP**:\n\n- **Chest X-ray** confirms consolidation.\n- Bloods: FBC, electrolytes (urea, sodium), creatinine, LFTs, CRP, blood gas if hypoxic.\n- Moderate or severe: blood cultures, sputum culture, and respiratory PCR (viruses, atypicals); urinary antigen for *Legionella* and pneumococcus.\n\n**Severity scores**:\n\n- **CURB-65**: Confusion, Urea above 7 mmol/L, Respiratory rate 30 or more, BP (systolic below 90 or diastolic 60 or less), age 65 or more. Scores 0 to 1 suit home treatment; 2 suggests ward admission; 3 or more is severe.\n- **SMART-COP** predicts the need for intensive respiratory or vasopressor support: Systolic BP low, Multilobar involvement, Albumin low, Respiratory rate high, Tachycardia, Confusion, Oxygen low, pH low. A higher score (3 or more) flags the patient likely to need ICU.\n\nClinical judgement overrides scores (for example social circumstances or hypoxia).\n\n**TB**:\n\n- Chest X-ray: upper lobe infiltrates, cavitation, hilar lymphadenopathy, miliary pattern, pleural effusion.\n- **Three sputum samples** for acid-fast bacilli smear, **NAAT** (such as Xpert, which also detects rifampicin resistance) and **mycobacterial culture** with drug susceptibility (the gold standard, takes weeks). Induced sputum or bronchoscopy if unable to produce.\n- **Latent TB**: interferon-gamma release assay (**IGRA**) or tuberculin skin test. Neither distinguishes latent from active disease, so a positive result needs a chest X-ray and clinical assessment.\n- HIV test in everyone with TB."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Consolidation mimics",
+          "body": "| Condition | Clue |\n|---|---|\n| Pulmonary embolism with infarction | Pleuritic pain, haemoptysis, risk factors, little sputum |\n| Lung cancer with post-obstructive pneumonia | Non-resolving or recurrent consolidation in the same lobe, smoker; repeat CXR at 6 weeks |\n| Heart failure | Bilateral, cardiomegaly, raised BNP |\n| TB | Chronic course, upper lobe, cavitation, migrant |\n| Organising pneumonia or vasculitis | No response to antibiotics |\n\nAdults over about 50 or smokers with pneumonia should have follow-up imaging to confirm resolution and exclude an underlying tumour."
+        },
+        {
+          "kind": "management",
+          "heading": "Antibiotics, isolation and notification",
+          "body": "**CAP (eTG)**:\n\n- **Low severity**: **oral amoxicillin**, with **doxycycline** as the alternative (penicillin allergy) or added when atypical infection is suspected. Usually 5 days if improving.\n- **Moderate severity** (ward): IV benzylpenicillin plus doxycycline (or clarithromycin); ceftriaxone is an alternative in some situations (such as penicillin allergy that is not severe, or recent antibiotics).\n- **High severity** (ICU or high SMART-COP): IV ceftriaxone plus IV azithromycin, with extra cover in specific settings.\n- **Tropical north in the wet season** with risk factors: add cover for melioidosis (meropenem) per local guidelines.\n- Switch IV to oral once improving; supplemental oxygen to SpO2 92 to 96% (88 to 92% in hypercapnic patients); VTE prophylaxis in inpatients.\n- Review at 48 to 72 hours; if not improving think of a resistant or unusual organism, empyema, abscess or wrong diagnosis.\n\n**Prevention**: influenza, pneumococcal and COVID-19 vaccination per the Immunisation Handbook; smoking cessation.\n\n**Active TB**:\n\n- **Airborne isolation** in a single negative-pressure room if admitted; staff wear P2/N95 respirators.\n- Standard regimen: **isoniazid, rifampicin, pyrazinamide and ethambutol for 2 months, then isoniazid and rifampicin for 4 months**, given under state TB service supervision (often directly observed). Pyridoxine with isoniazid.\n- Side effects: hepatitis (isoniazid, rifampicin, pyrazinamide), orange body fluids and drug interactions including the contraceptive pill (rifampicin), peripheral neuropathy (isoniazid), optic neuritis (ethambutol: check visual acuity and colour vision), gout (pyrazinamide).\n- **Notify** the public health unit; contact tracing is done by the TB service.\n\n**Latent TB**: treatment (for example isoniazid for 6 to 9 months, or rifampicin-based shorter regimens) for those at high risk of reactivation, such as recent contacts, people with HIV, and before anti-TNF or other immunosuppressive therapy. Exclude active TB first.\n\n**BCG** is not part of the routine Australian schedule; it is offered to selected groups, such as some First Nations neonates in high-incidence areas and children travelling to high-incidence countries."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- A well adult with CAP and CURB-65 of 0: **amoxicillin**; doxycycline if penicillin allergic. Ceftriaxone or azithromycin for an outpatient is wrong.\n- Severe pneumonia in the Top End during the wet season in a diabetic: **melioidosis** (meropenem).\n- Pneumonia with sodium 126 mmol/L, diarrhoea and confusion after gardening: **Legionella** (urinary antigen and PCR; add azithromycin).\n- International student with 2 months of cough and night sweats: **isolate**, CXR, three sputa for AFB, NAAT and culture; notify.\n- Positive IGRA does not mean active TB: next step is chest X-ray and symptom review.\n- On rifampicin and the combined pill: warn about contraceptive failure."
+        }
+      ],
+      "keyPoints": [
+        "Assess CAP severity with CURB-65 or SMART-COP plus clinical judgement.",
+        "eTG low severity CAP: amoxicillin; doxycycline as alternative or add-on for atypicals.",
+        "Moderate: IV benzylpenicillin plus doxycycline; severe: ceftriaxone plus azithromycin.",
+        "Think melioidosis in tropical northern Australia in the wet season, especially with diabetes.",
+        "TB in Australia is mostly in people born overseas; isolate, send 3 sputa for AFB, NAAT and culture, and notify.",
+        "TB treatment: 2 months of four drugs, then 4 months of isoniazid and rifampicin.",
+        "IGRA or TST detect infection but cannot distinguish latent from active TB."
+      ],
+      "redFlags": [
+        "Confusion, hypotension, RR 30 or more or hypoxia in pneumonia (severe CAP)",
+        "Pneumonia not improving after 48 to 72 hours (empyema, abscess, resistant organism)",
+        "Chronic cough with weight loss, night sweats or haemoptysis in a person from a high-TB country",
+        "Pneumonia in the wet season in northern Australia in a diabetic (melioidosis)",
+        "Recurrent pneumonia in the same lobe (obstructing tumour)"
+      ],
+      "contrast": [
+        {
+          "aspect": "First-line for CAP",
+          "india": "Broad-spectrum agents such as amoxicillin-clavulanate, cephalosporins or azithromycin are common first choices.",
+          "australia": "eTG: amoxicillin for low severity, doxycycline as alternative; broad-spectrum agents kept for severe disease."
+        },
+        {
+          "aspect": "TB suspicion",
+          "india": "TB is a leading consideration for any chronic cough; Mantoux and sputum AFB are routine early tests.",
+          "australia": "TB is uncommon; strongly suspected in migrants from high-incidence countries. Isolation, NAAT, culture and notification are expected."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Components of CURB-65?",
+          "back": "Confusion, urea above 7 mmol/L, RR 30 or more, systolic BP below 90 or diastolic 60 or less, age 65 or more."
+        },
+        {
+          "front": "eTG first-line oral antibiotic for low-severity CAP in adults?",
+          "back": "Amoxicillin (doxycycline as alternative or add-on for atypicals)."
+        },
+        {
+          "front": "Organism to consider in severe pneumonia in the Top End wet season?",
+          "back": "Burkholderia pseudomallei (melioidosis); treat empirically with meropenem."
+        },
+        {
+          "front": "Standard TB regimen?",
+          "back": "Isoniazid, rifampicin, pyrazinamide and ethambutol for 2 months, then isoniazid and rifampicin for 4 months."
+        },
+        {
+          "front": "TB drug that causes optic neuritis?",
+          "back": "Ethambutol."
+        },
+        {
+          "front": "Pneumonia with hyponatraemia, diarrhoea and confusion?",
+          "back": "Legionella; test with urinary antigen and PCR."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "respiratory--pneumonia-and-tb--q1",
+          "discipline": "adult-medicine",
+          "topic": "respiratory",
+          "difficulty": "foundation",
+          "stem": "A 34-year-old man presents to a GP in Geelong with 3 days of fever, cough with yellow sputum and right-sided pleuritic chest pain. He is otherwise well with no allergies. Temperature 38.3 °C, RR 20/min, BP 128/78 mmHg, HR 96 bpm, SpO2 96% on room air. He is alert. There are crackles at the right base. Chest X-ray shows right lower lobe consolidation.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Oral amoxicillin for 5 days with review in 48 hours",
+            "Admission for IV ceftriaxone and azithromycin",
+            "Oral amoxicillin-clavulanate for 10 days",
+            "Oral azithromycin for 3 days",
+            "No antibiotics; this is likely viral"
+          ],
+          "answer": 0,
+          "explanation": "He has **low-severity community-acquired pneumonia**: CURB-65 score of 0 (no confusion, age under 65, normal RR and BP), normal oxygenation and a stable social situation. He can be treated at home.\n\neTG first line for low-severity CAP is **oral amoxicillin** (usually 5 days if improving), targeting *S. pneumoniae*. Doxycycline is the alternative for penicillin allergy or is added when atypical organisms are suspected. Review at 48 hours is important; if he worsens he needs reassessment.\n\nBroad-spectrum agents such as amoxicillin-clavulanate, ceftriaxone or azithromycin monotherapy are not first line and contribute to resistance.\n\n**Principle:** narrow-spectrum first, matched to severity.",
+          "whyWrong": [
+            "",
+            "IV therapy and admission are for high severity; he has CURB-65 of 0.",
+            "Amoxicillin-clavulanate is unnecessarily broad for low-severity CAP.",
+            "Azithromycin monotherapy misses resistant pneumococci and is not eTG first line.",
+            "Lobar consolidation with purulent sputum and fever warrants antibiotics."
+          ],
+          "tags": [
+            "pneumonia",
+            "etg",
+            "antibiotics"
+          ]
+        },
+        {
+          "id": "respiratory--pneumonia-and-tb--q2",
+          "discipline": "adult-medicine",
+          "topic": "respiratory",
+          "difficulty": "exam",
+          "stem": "A 52-year-old man with type 2 diabetes and heavy alcohol use presents to Royal Darwin Hospital in February with 4 days of fever, cough and breathlessness. Temperature 39.5 °C, RR 32/min, BP 88/54 mmHg, HR 124 bpm, SpO2 88% on room air. Chest X-ray shows multilobar consolidation. Blood glucose is 22 mmol/L.\n\nWhich organism must the empirical antibiotic regimen specifically cover in this setting?",
+          "options": [
+            "Mycoplasma pneumoniae",
+            "Pneumocystis jirovecii",
+            "Burkholderia pseudomallei",
+            "Mycobacterium tuberculosis",
+            "Coxiella burnetii"
+          ],
+          "answer": 2,
+          "explanation": "This is **severe community-acquired pneumonia** in the **tropical north of Australia during the wet season** (February in Darwin) in a patient with **diabetes and alcohol excess**. These are the classic risk factors for **melioidosis**, caused by the soil organism *Burkholderia pseudomallei*, which is endemic across the Top End and far north Queensland and has high mortality.\n\nIt is not reliably covered by the standard CAP regimen, so local guidelines add **meropenem** for severe pneumonia in this setting. Blood cultures, sputum culture and a search for abscesses (spleen, liver, prostate) are important.\n\n**Discriminating clue:** Top End wet season plus diabetes.",
+          "whyWrong": [
+            "Mycoplasma causes milder atypical pneumonia in younger people.",
+            "Pneumocystis occurs in severe immunosuppression, such as advanced HIV.",
+            "",
+            "TB is usually subacute and would not present this acutely with septic shock.",
+            "Q fever is linked to livestock exposure and is rarely this severe."
+          ],
+          "ausPearl": "Melioidosis is notifiable in the NT, Queensland and WA. Cases spike after heavy rain and floods in the wet season.",
+          "tags": [
+            "melioidosis",
+            "pneumonia",
+            "tropical"
+          ]
+        },
+        {
+          "id": "respiratory--pneumonia-and-tb--q3",
+          "discipline": "adult-medicine",
+          "topic": "respiratory",
+          "difficulty": "core",
+          "stem": "A 26-year-old international student from India studying in Adelaide presents to her university GP with 6 weeks of cough, evening fevers, night sweats and 5 kg weight loss. She recently had a small amount of blood in her sputum. Chest X-ray shows a cavitating lesion in the right upper lobe.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Start empirical amoxicillin and review in 1 week",
+            "Arrange an IGRA and treat for latent TB if positive",
+            "Refer for bronchoscopy and biopsy for suspected lung cancer",
+            "Arrange three sputum samples for AFB smear, NAAT and culture, advise respiratory precautions and notify public health",
+            "Start isoniazid alone while awaiting culture results"
+          ],
+          "answer": 3,
+          "explanation": "Her history (migrant from a high-incidence country, chronic cough, fever, night sweats, weight loss, haemoptysis) and an **upper lobe cavity** make **active pulmonary TB** the leading diagnosis.\n\nThe next step is **three sputum samples** for **acid-fast bacilli smear**, **NAAT** (rapid detection and rifampicin resistance) and **mycobacterial culture** with sensitivities. She should wear a surgical mask, avoid close contact and be managed through the **state TB service**, and TB is **notifiable**. Standard therapy then uses four drugs.\n\nAn IGRA cannot distinguish latent from active disease and adds nothing here. Isoniazid monotherapy for active TB promotes resistance.",
+          "whyWrong": [
+            "Amoxicillin does not treat TB and delays diagnosis while she remains infectious.",
+            "IGRA cannot distinguish active from latent TB; she needs sputum testing.",
+            "Lung cancer is far less likely at 26 with this history; sputum testing comes first.",
+            "",
+            "Monotherapy for active TB breeds drug resistance."
+          ],
+          "tags": [
+            "tuberculosis",
+            "migrant-health",
+            "notifiable"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "respiratory--pulmonary-embolism",
+      "title": "Pulmonary embolism and VTE",
+      "minutes": 18,
+      "objectives": [
+        "Estimate pre-test probability of PE with the Wells score and apply PERC",
+        "Use D-dimer and CTPA in the correct order and know when V/Q scanning is preferred",
+        "Anticoagulate VTE and decide duration based on provocation",
+        "Recognise massive PE and its indications for thrombolysis"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why PE is tested so often",
+          "body": "Venous thromboembolism (VTE), comprising deep vein thrombosis (DVT) and pulmonary embolism (PE), is common, frequently missed and preventable. PE is a leading cause of preventable hospital death and is one of the four killers of acute chest pain. The AMC tests **diagnostic reasoning**: using pre-test probability to choose the right test and avoid both missed PE and unnecessary CT scans."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Virchow's triad and consequences",
+          "body": "**Virchow's triad**: stasis, endothelial injury and hypercoagulability. Risk factors:\n\n- **Provoked (transient)**: major surgery (especially orthopaedic hip and knee), immobilisation, hospital admission, long-haul travel, pregnancy and postpartum, oestrogen (combined pill, HRT), trauma, lower limb plaster cast\n- **Persistent**: active cancer, previous VTE, thrombophilia (factor V Leiden, antiphospholipid syndrome), obesity, age, inflammatory disease\n\nMost PEs arise from proximal leg DVT. The clot obstructs pulmonary arteries, causing V/Q mismatch (hypoxaemia), increased pulmonary vascular resistance and **right ventricular strain**. A large clot causes acute RV failure: the RV dilates, bows the septum into the LV, cardiac output falls and the patient becomes hypotensive (**massive or high-risk PE**). Small peripheral emboli can cause pulmonary infarction (pleuritic pain, haemoptysis)."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Presentation",
+          "body": "- Sudden breathlessness (the commonest symptom), pleuritic chest pain, haemoptysis, syncope, or collapse\n- Tachycardia, tachypnoea, hypoxaemia, low-grade fever, signs of DVT (unilateral calf swelling, tenderness)\n- Massive PE: hypotension, raised JVP, RV heave, cardiac arrest (often PEA)\n- The chest is often clear, which is itself a clue in a hypoxic breathless patient"
+        },
+        {
+          "kind": "investigations",
+          "heading": "Probability first, then tests",
+          "body": "**Step 1: clinical probability with the Wells score for PE**:\n\n| Criterion | Points |\n|---|---|\n| Clinical signs of DVT | 3 |\n| PE is the most likely diagnosis | 3 |\n| Heart rate above 100 | 1.5 |\n| Immobilisation 3 or more days or surgery in the last 4 weeks | 1.5 |\n| Previous DVT or PE | 1.5 |\n| Haemoptysis | 1 |\n| Active cancer | 1 |\n\nA score of 4 or less is **PE unlikely**; above 4 is **PE likely**.\n\n**Step 2: if probability is low, apply PERC** (Pulmonary Embolism Rule-out Criteria): age under 50, heart rate under 100, SpO2 95% or more, no haemoptysis, no oestrogen use, no prior VTE, no unilateral leg swelling, no recent surgery or trauma. If **all eight** are met in a low-risk patient, no further testing is needed.\n\n**Step 3: D-dimer only in low or unlikely probability** (PERC positive). A negative D-dimer excludes PE. An age-adjusted cut-off (age x 10 micrograms/L over 50, depending on the assay) reduces false positives in older people. D-dimer is non-specific (raised in infection, cancer, pregnancy, surgery, older age), so **never use it in high-probability patients**: go straight to imaging.\n\n**Step 4: CT pulmonary angiography (CTPA)** confirms PE. **V/Q scan** is preferred with contrast allergy, significant renal impairment, or in pregnancy (lower breast radiation), and requires a normal chest X-ray to be interpretable.\n\n**Supporting tests**: ECG (sinus tachycardia is the commonest finding; S1Q3T3 and right heart strain are uncommon), chest X-ray (often normal; helps exclude other diagnoses), troponin and BNP (RV strain, prognosis), echo (RV dilation in massive PE when the patient is too unstable for CT), leg compression ultrasound (DVT)."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Breathless with a clear chest",
+          "body": "| Condition | Clue |\n|---|---|\n| Pneumothorax | Absent breath sounds, visible pleural line on CXR |\n| ACS | Ischaemic ECG changes, troponin pattern |\n| Pneumonia | Fever, focal signs, consolidation |\n| Anxiety or panic | Diagnosis of exclusion; normal SpO2 and A-a gradient |\n| Pericarditis or tamponade | Positional pain, rub, echo |\n| Aortic dissection | Tearing pain, pulse deficit |"
+        },
+        {
+          "kind": "management",
+          "heading": "Anticoagulation, thrombolysis and duration",
+          "body": "**Haemodynamically stable PE**:\n\n- Start anticoagulation as soon as PE is suspected in intermediate or high probability if there is no bleeding risk and imaging will be delayed.\n- **DOAC** (apixaban or rivaroxaban can start immediately at a loading dose) is first line for most patients. Alternatives: LMWH then warfarin (target INR 2 to 3) or dabigatran after initial parenteral therapy.\n- **LMWH in pregnancy** (warfarin is teratogenic and DOACs are not used); DOACs or LMWH in cancer-associated VTE depending on bleeding risk and tumour site.\n- Selected low-risk patients (for example, low PESI score, no hypoxia, good support) can be managed as outpatients.\n\n**Massive (high-risk) PE**: hypotension (systolic below 90 mmHg) or shock. **Systemic thrombolysis** (alteplase) unless contraindicated; alternatives are catheter-directed therapy or surgical embolectomy. Supportive care: cautious fluid, vasopressors, oxygen. Submassive (RV strain but normotensive) is anticoagulated and monitored closely, with rescue lysis if deterioration.\n\n**Duration**:\n\n- **Provoked by a major transient factor** (surgery, trauma): **3 months**\n- **Unprovoked** or persistent risk factor: consider **indefinite** anticoagulation if bleeding risk is acceptable; review annually\n- Cancer-associated: while cancer is active\n\n**Unprovoked VTE**: history, examination, basic bloods and age-appropriate cancer screening; extensive cancer searches are not routinely recommended. Thrombophilia testing is selective and done off anticoagulation where possible.\n\n**Prevention**: VTE risk assessment for every hospital admission, with mechanical and pharmacological prophylaxis as appropriate. The Australian Commission on Safety and Quality in Health Care has a VTE prevention clinical care standard.\n\n**DVT**: compression ultrasound to confirm; same anticoagulation rules. IVC filters only if anticoagulation is absolutely contraindicated in acute proximal VTE."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- Wells above 4: skip D-dimer, go to **CTPA**. Wells 4 or less: PERC, then D-dimer.\n- Pregnant woman with suspected PE: **V/Q** (or CTPA depending on CXR and local protocol), and **LMWH**, not DOAC or warfarin.\n- Hypotensive PE: **thrombolysis**.\n- Commonest ECG finding in PE: **sinus tachycardia**, not S1Q3T3.\n- DVT after a knee arthroscopy and plaster cast: provoked, **3 months**.\n- A woman on the combined pill with PE: stop the pill and use non-oestrogen contraception."
+        }
+      ],
+      "keyPoints": [
+        "Use the Wells score first: 4 or less is PE unlikely, above 4 is PE likely.",
+        "In low-probability patients, PERC negative (all 8 criteria) needs no testing.",
+        "D-dimer only in low or unlikely probability; a negative result excludes PE.",
+        "CTPA confirms PE; V/Q is preferred in pregnancy, contrast allergy or renal impairment.",
+        "DOACs are first line for most; LMWH in pregnancy.",
+        "Massive PE with hypotension: thrombolyse unless contraindicated.",
+        "Provoked VTE: 3 months; unprovoked: consider indefinite anticoagulation."
+      ],
+      "redFlags": [
+        "Hypotension or syncope with suspected PE (massive PE)",
+        "Hypoxaemia with a clear chest X-ray",
+        "Sudden breathlessness in pregnancy or postpartum",
+        "Unilateral leg swelling with chest symptoms",
+        "PEA cardiac arrest in a post-operative patient"
+      ],
+      "contrast": [
+        {
+          "aspect": "Anticoagulant for VTE",
+          "india": "LMWH bridging to warfarin (or acenocoumarol) remains common because of cost.",
+          "australia": "DOACs (apixaban, rivaroxaban) are PBS-listed and first line for most non-pregnant patients."
+        },
+        {
+          "aspect": "Use of D-dimer",
+          "india": "D-dimer is sometimes ordered for all breathless patients.",
+          "australia": "D-dimer only after clinical probability is low; high probability goes straight to CTPA."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Wells score threshold for 'PE likely'?",
+          "back": "Above 4."
+        },
+        {
+          "front": "When is D-dimer useful in suspected PE?",
+          "back": "Only when clinical probability is low or unlikely; a negative result excludes PE."
+        },
+        {
+          "front": "Commonest ECG finding in PE?",
+          "back": "Sinus tachycardia."
+        },
+        {
+          "front": "Imaging for suspected PE in pregnancy with a normal chest X-ray?",
+          "back": "V/Q scan (lower maternal breast radiation); treat with LMWH."
+        },
+        {
+          "front": "Duration of anticoagulation for PE provoked by surgery?",
+          "back": "3 months."
+        },
+        {
+          "front": "Indication for thrombolysis in PE?",
+          "back": "Massive (high-risk) PE with hypotension or shock, unless contraindicated."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "respiratory--pulmonary-embolism--q1",
+          "discipline": "adult-medicine",
+          "topic": "respiratory",
+          "difficulty": "core",
+          "stem": "A 38-year-old woman presents to an emergency department in Melbourne with 1 day of right-sided pleuritic chest pain. She returned from London 4 days ago. She takes the combined oral contraceptive pill. HR 92 bpm, BP 124/76 mmHg, SpO2 97% on room air, temperature 37.2 °C. There is no leg swelling and no haemoptysis. Chest X-ray is normal. Her Wells score is 1.5 (you consider PE is not the most likely diagnosis).\n\nWhat is the most appropriate next step?",
+          "options": [
+            "No further testing; PERC excludes PE",
+            "D-dimer",
+            "CT pulmonary angiography",
+            "V/Q scan",
+            "Start a DOAC and arrange outpatient CTPA"
+          ],
+          "answer": 1,
+          "explanation": "Her Wells score of 1.5 puts her in the **PE unlikely** group. The next question is whether **PERC** applies: she fails it because she takes **oestrogen** (and recent long-haul travel). PERC can only exclude PE when **all eight criteria** are met.\n\nSo the next step is a **D-dimer**. A negative result excludes PE; a positive result requires CTPA.\n\nGoing straight to CTPA in a low-probability patient exposes her to unnecessary radiation and contrast. Empirical anticoagulation is not needed while a quick D-dimer is pending in a low-probability patient.\n\n**Principle:** probability, then PERC, then D-dimer, then imaging.",
+          "whyWrong": [
+            "PERC fails because she takes oestrogen.",
+            "",
+            "CTPA is for high probability or a positive D-dimer.",
+            "V/Q is reserved for pregnancy, contrast allergy or renal impairment.",
+            "Empirical anticoagulation is not necessary with low probability and a D-dimer available."
+          ],
+          "tags": [
+            "pulmonary-embolism",
+            "d-dimer",
+            "perc"
+          ]
+        },
+        {
+          "id": "respiratory--pulmonary-embolism--q2",
+          "discipline": "adult-medicine",
+          "topic": "respiratory",
+          "difficulty": "exam",
+          "stem": "A 67-year-old man collapses on day 5 after a total hip replacement. He is conscious but grey. HR 128 bpm, BP 78/48 mmHg despite 1 L of fluid, SpO2 84% on 15 L/min oxygen. JVP is elevated. Bedside echo shows a dilated, hypokinetic right ventricle. He is too unstable to go to CT. There is no active bleeding and the surgical wound is dry.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Therapeutic enoxaparin and ward observation",
+            "Oral apixaban loading dose",
+            "IV frusemide",
+            "Insertion of an IVC filter only",
+            "Systemic thrombolysis with alteplase, after senior discussion of bleeding risk"
+          ],
+          "answer": 4,
+          "explanation": "This is **massive (high-risk) PE**: shock (hypotension despite fluid), hypoxaemia, raised JVP and **acute RV dilation on echo** in a post-operative patient. In an unstable patient, bedside echo evidence of RV strain is enough to act.\n\nManagement is **reperfusion**. **Systemic thrombolysis** is the standard; recent major surgery (5 days) is a relative contraindication, so this needs senior discussion, weighed against a very high risk of death. Catheter-directed therapy or surgical embolectomy are alternatives where available if bleeding risk is prohibitive.\n\nAnticoagulation alone is insufficient in shock. Diuretics reduce RV preload and worsen output. IVC filters do not treat the existing clot.",
+          "whyWrong": [
+            "Anticoagulation alone does not relieve obstruction in shock.",
+            "Oral anticoagulation is too slow and inadequate for massive PE.",
+            "Diuresis reduces RV preload and worsens shock.",
+            "An IVC filter prevents further emboli but does not treat this one.",
+            ""
+          ],
+          "tags": [
+            "massive-pe",
+            "thrombolysis",
+            "post-operative"
+          ]
+        },
+        {
+          "id": "respiratory--pulmonary-embolism--q3",
+          "discipline": "adult-medicine",
+          "topic": "respiratory",
+          "difficulty": "foundation",
+          "stem": "A 29-year-old woman who is 24 weeks pregnant presents with sudden breathlessness and pleuritic chest pain. HR 108 bpm, SpO2 94%. Chest X-ray is normal. You suspect pulmonary embolism, and imaging is being arranged.\n\nWhich anticoagulant is most appropriate?",
+          "options": [
+            "Warfarin",
+            "Therapeutic low molecular weight heparin",
+            "Rivaroxaban",
+            "Aspirin",
+            "Dabigatran"
+          ],
+          "answer": 1,
+          "explanation": "**Low molecular weight heparin (such as enoxaparin)** is the anticoagulant of choice in pregnancy. It does not cross the placenta and has a good safety record. It is continued for the rest of the pregnancy and at least 6 weeks postpartum (minimum total duration about 3 months), with a plan around delivery for neuraxial anaesthesia.\n\n**Warfarin** crosses the placenta and is teratogenic (embryopathy in the first trimester) and causes fetal bleeding. **DOACs** cross the placenta and are not recommended in pregnancy. Aspirin is not treatment for VTE.\n\nFor imaging, a V/Q scan is often preferred in pregnancy with a normal chest X-ray.",
+          "whyWrong": [
+            "Warfarin is teratogenic and crosses the placenta.",
+            "",
+            "DOACs cross the placenta and are not recommended in pregnancy.",
+            "Aspirin does not treat VTE.",
+            "Dabigatran, like other DOACs, is avoided in pregnancy."
+          ],
+          "tags": [
+            "pulmonary-embolism",
+            "pregnancy",
+            "anticoagulation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "respiratory--pleural-disease",
+      "title": "Pneumothorax and pleural effusion",
+      "minutes": 18,
+      "objectives": [
+        "Recognise tension pneumothorax clinically and decompress without waiting for imaging",
+        "Manage primary and secondary spontaneous pneumothorax, including when observation is appropriate",
+        "Classify a pleural effusion with Light's criteria and list the causes of transudates and exudates",
+        "Identify pleural infection needing drainage"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The pleural space",
+          "body": "The pleural space normally holds a few millilitres of fluid. Two things go wrong: **air** enters it (pneumothorax) or **fluid** accumulates (pleural effusion). Both are common AMC topics because the emergency (tension pneumothorax) is a clinical diagnosis with an immediate action, and effusions test structured investigation."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "How air and fluid get there",
+          "body": "**Pneumothorax**:\n\n- **Primary spontaneous**: no known lung disease; rupture of apical subpleural blebs. Typically tall, thin young men; smoking (including cannabis) greatly increases risk.\n- **Secondary spontaneous**: underlying lung disease (COPD, cystic fibrosis, ILD, pneumonia such as *Pneumocystis*, TB, lung cancer). Less reserve, so more dangerous even when small.\n- **Traumatic** and **iatrogenic** (central line insertion, lung biopsy, mechanical ventilation).\n- **Tension**: a one-way valve lets air in but not out. Rising pressure collapses the lung, shifts the mediastinum, kinks the great veins and reduces venous return, causing obstructive shock.\n\n**Pleural effusion** arises from imbalance of Starling forces or pleural inflammation:\n\n- **Transudate** (low protein): raised hydrostatic pressure or low oncotic pressure. Heart failure (commonest overall), cirrhosis (hepatic hydrothorax), nephrotic syndrome, hypoalbuminaemia, hypothyroidism.\n- **Exudate** (high protein): increased capillary permeability or impaired lymphatic drainage. Parapneumonic effusion and empyema, malignancy (lung, breast, lymphoma, **mesothelioma**), TB, PE, rheumatoid arthritis, SLE, pancreatitis."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "History and signs",
+          "body": "**Pneumothorax**: sudden pleuritic pain and breathlessness. Signs: reduced breath sounds and hyper-resonance on the affected side.\n\n**Tension pneumothorax** (clinical diagnosis):\n\n- Respiratory distress, tachycardia, **hypotension**\n- Absent breath sounds and hyper-resonance on one side\n- **Tracheal deviation away** from the affected side (a late sign)\n- Distended neck veins; high airway pressures in a ventilated patient\n\n**Pleural effusion**: breathlessness, with or without pleuritic pain. **Stony dull** percussion, reduced breath sounds and reduced vocal resonance at the base; trachea deviated away in a massive effusion. Look for the cause: heart failure signs, clubbing, lymphadenopathy, breast lump, stigmata of liver disease, asbestos exposure history, fever."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Imaging and pleural fluid",
+          "body": "**Pneumothorax**:\n\n- **Tension: do not wait for a chest X-ray**. Decompress first.\n- Otherwise, erect chest X-ray: visible visceral pleural line with no lung markings beyond. Bedside ultrasound (absent lung sliding) is useful in trauma. CT for complex cases or when unclear.\n\n**Pleural effusion**:\n\n- Chest X-ray: blunting of the costophrenic angle (about 200 mL or more on PA film), meniscus sign.\n- **Ultrasound** to confirm, guide aspiration (reduces complications) and look for septations.\n- **Diagnostic pleural tap**: appearance, protein, LDH, glucose, pH, cell count and differential, Gram stain and culture, cytology, and adenosine deaminase or mycobacterial culture if TB suspected. Send serum protein and LDH at the same time.\n\n**Light's criteria**: the effusion is an **exudate** if any one is met:\n\n- Pleural fluid protein / serum protein **above 0.5**\n- Pleural fluid LDH / serum LDH **above 0.6**\n- Pleural fluid LDH **above two-thirds the upper limit of normal** serum LDH\n\nPleural fluid **pH below 7.2** (or frank pus, or positive Gram stain or culture) in a parapneumonic effusion indicates **complicated effusion or empyema that needs drainage**. Low glucose suggests empyema, rheumatoid disease, TB or malignancy. Lymphocyte-predominant exudates suggest TB or malignancy.\n\nA typical bilateral effusion in known heart failure responding to diuretics does not need a tap."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Clues to the cause of an effusion",
+          "body": "| Cause | Clue |\n|---|---|\n| Heart failure | Bilateral, cardiomegaly, transudate, responds to diuretic |\n| Parapneumonic or empyema | Fever, pneumonia, neutrophils, low pH |\n| Malignancy | Weight loss, smoker, bloody fluid, cytology positive |\n| Mesothelioma | Asbestos exposure decades earlier, pleural thickening, chest wall pain |\n| TB | Migrant, lymphocytic exudate, high adenosine deaminase |\n| PE | Small, often bloody, pleuritic pain |\n| Cirrhosis | Right-sided, ascites |"
+        },
+        {
+          "kind": "management",
+          "heading": "What to do",
+          "body": "**Tension pneumothorax**: immediate **needle decompression** (large-bore cannula into the pleural space; the 4th or 5th intercostal space in the anterior-to-mid-axillary line is increasingly preferred in adults, or the 2nd intercostal space mid-clavicular line), or finger thoracostomy in trauma, followed by an **intercostal catheter**. Oxygen.\n\n**Primary spontaneous pneumothorax**:\n\n- **Small, minimally symptomatic**: **observation** (conservative management) is often appropriate, with clear follow-up and advice to return if worse. An Australian and New Zealand randomised trial (published 2020) supported conservative management of moderate to large primary spontaneous pneumothorax in selected patients.\n- **Symptomatic or large**: needle aspiration or a small-bore chest drain; ambulatory valve devices are also used.\n- Stop smoking; avoid **air travel** until full resolution is confirmed (and usually for a short period afterwards); **avoid scuba diving permanently** unless definitive surgery has been done.\n- **Recurrence** or persistent air leak: VATS pleurodesis or bullectomy.\n\n**Secondary spontaneous pneumothorax**: admit; most need a chest drain even when small, and surgery is considered earlier.\n\n**Pleural effusion**:\n\n- Treat the cause (diuretics for heart failure; antibiotics for pneumonia).\n- **Empyema or complicated parapneumonic effusion**: antibiotics plus **intercostal drainage**; intrapleural tPA and DNase or surgery (VATS decortication) if poorly draining.\n- **Malignant effusion**: therapeutic drainage for symptoms; recurrent effusions managed with talc pleurodesis or an indwelling pleural catheter.\n- Large-volume drainage should be limited per procedure (commonly about 1.5 L) to reduce re-expansion pulmonary oedema.\n\n**Intercostal catheter safety**: insert in the **safe triangle**, bordered by the lateral edge of pectoralis major, the anterior edge of latissimus dorsi and a horizontal line at the level of the nipple (about the 5th intercostal space). Go **just above the upper border of the rib below**, because the intercostal neurovascular bundle runs under the lower border of each rib. Use ultrasound guidance for fluid."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- Ventilated trauma patient with rising airway pressure, hypotension and absent breath sounds: **decompress now**, no X-ray.\n- Tall 20-year-old smoker with a small pneumothorax and minimal symptoms: **observation**; asking about flights and diving is part of counselling.\n- COPD patient with a small pneumothorax: **admit and drain** (secondary).\n- Pleural fluid protein ratio 0.7: **exudate**.\n- Parapneumonic effusion with pH 7.0: **chest drain**.\n- Retired plumber or builder with unilateral effusion and chest wall pain: **mesothelioma**."
+        }
+      ],
+      "keyPoints": [
+        "Tension pneumothorax is a clinical diagnosis: decompress immediately, then insert a chest drain.",
+        "Small primary spontaneous pneumothorax with few symptoms can often be observed.",
+        "Secondary pneumothorax (underlying lung disease) usually needs admission and a drain.",
+        "No scuba diving after pneumothorax unless definitive surgery; no flying until resolved.",
+        "Light's criteria: protein ratio above 0.5, LDH ratio above 0.6, or LDH above two-thirds ULN means exudate.",
+        "Parapneumonic effusion with pH below 7.2, pus or positive culture needs drainage."
+      ],
+      "redFlags": [
+        "Hypotension with unilateral absent breath sounds (tension pneumothorax)",
+        "Pneumothorax in a patient with COPD or other lung disease",
+        "Fever with an effusion not resolving on antibiotics (empyema)",
+        "Unilateral effusion with weight loss or asbestos exposure (malignancy, mesothelioma)",
+        "Bilateral pneumothorax or pneumothorax in a ventilated patient"
+      ],
+      "contrast": [
+        {
+          "aspect": "Small primary pneumothorax",
+          "india": "Intercostal drain insertion is common even for smaller pneumothoraces.",
+          "australia": "Conservative management is often chosen, supported by an Australian and New Zealand trial."
+        },
+        {
+          "aspect": "Exudative effusion",
+          "india": "TB is the leading cause of an exudative lymphocytic effusion.",
+          "australia": "Malignancy and parapneumonic effusions are commoner; TB is considered mainly in migrants."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Light's criteria for an exudate?",
+          "back": "Protein ratio above 0.5, LDH ratio above 0.6, or fluid LDH above two-thirds ULN of serum LDH (any one)."
+        },
+        {
+          "front": "Pleural fluid pH indicating need for drainage in parapneumonic effusion?",
+          "back": "Below 7.2."
+        },
+        {
+          "front": "Management of tension pneumothorax?",
+          "back": "Immediate needle or finger decompression, then intercostal catheter; do not wait for X-ray."
+        },
+        {
+          "front": "Lifelong activity to avoid after spontaneous pneumothorax without definitive surgery?",
+          "back": "Scuba diving."
+        },
+        {
+          "front": "Commonest cause of a transudative effusion?",
+          "back": "Heart failure."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "respiratory--pleural-disease--q1",
+          "discipline": "adult-medicine",
+          "topic": "respiratory",
+          "difficulty": "foundation",
+          "stem": "A 26-year-old man is brought to a Sydney emergency department after a motorbike crash. He is agitated and breathless. RR 36/min, HR 138 bpm, BP 76/40 mmHg, SpO2 82% on high-flow oxygen. Breath sounds are absent on the right, which is hyper-resonant. His neck veins are distended and the trachea is deviated to the left.\n\nWhat is the most appropriate immediate action?",
+          "options": [
+            "Portable chest X-ray",
+            "CT chest",
+            "Rapid IV fluid bolus and reassess",
+            "Immediate decompression of the right pleural space",
+            "Intubate and ventilate before any other procedure"
+          ],
+          "answer": 3,
+          "explanation": "This is **tension pneumothorax**: respiratory distress, hypotension, absent breath sounds and hyper-resonance on one side, distended neck veins and tracheal deviation away from the affected side. It is a **clinical diagnosis** and must be treated **immediately**, without waiting for imaging.\n\nDecompress the right pleural space (needle decompression, or finger thoracostomy in trauma), followed by an intercostal catheter. Positive pressure ventilation before decompression can make a tension pneumothorax worse and precipitate arrest.\n\n**Principle:** if you are thinking of ordering an X-ray for a suspected tension pneumothorax, you have already waited too long.",
+          "whyWrong": [
+            "Waiting for imaging delays life-saving decompression.",
+            "CT is inappropriate in an unstable patient with a clinical diagnosis.",
+            "Fluid will not relieve obstructive shock from tension.",
+            "",
+            "Positive pressure ventilation before decompression can worsen tension and cause arrest."
+          ],
+          "tags": [
+            "tension-pneumothorax",
+            "trauma",
+            "emergency"
+          ]
+        },
+        {
+          "id": "respiratory--pleural-disease--q2",
+          "discipline": "adult-medicine",
+          "topic": "respiratory",
+          "difficulty": "core",
+          "stem": "A 21-year-old man who smokes presents to an emergency department in Adelaide with sudden left-sided chest pain that started at rest 6 hours ago. He is mildly breathless only on climbing stairs. RR 16/min, HR 84 bpm, BP 124/80 mmHg, SpO2 98% on room air. Chest X-ray shows a small left apical pneumothorax. He has no lung disease.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Observation with clear follow-up and safety-netting advice",
+            "Insertion of a large-bore intercostal catheter",
+            "Urgent VATS pleurodesis",
+            "Needle decompression in the 2nd intercostal space",
+            "Admission for high-flow oxygen for 5 days"
+          ],
+          "answer": 0,
+          "explanation": "This is a **small primary spontaneous pneumothorax** in a young smoker with **minimal symptoms** and normal observations. **Conservative management** (observation, analgesia, a repeat X-ray and follow-up) is appropriate, with advice to return immediately if breathlessness worsens.\n\nHe should be counselled to **stop smoking** (including cannabis), **avoid flying** until resolution is confirmed, and **avoid scuba diving** permanently unless he has definitive surgery. Surgery is for recurrence or persistent air leak.\n\nNeedle decompression is for tension. Large-bore drains are unnecessary here.",
+          "whyWrong": [
+            "",
+            "A large-bore drain is unnecessary for a small, minimally symptomatic primary pneumothorax.",
+            "Surgery is for recurrence or persistent air leak, not a first small episode.",
+            "Needle decompression is for tension pneumothorax.",
+            "Prolonged admission for oxygen is not required."
+          ],
+          "tags": [
+            "pneumothorax",
+            "conservative-management",
+            "counselling"
+          ]
+        },
+        {
+          "id": "respiratory--pleural-disease--q3",
+          "discipline": "adult-medicine",
+          "topic": "respiratory",
+          "difficulty": "exam",
+          "stem": "A 68-year-old man is admitted to a Brisbane hospital with pneumonia. After 4 days of IV antibiotics he still has fevers. Chest X-ray shows a moderate right pleural effusion. Ultrasound-guided aspiration yields turbid fluid: pH 7.05, glucose 1.8 mmol/L, LDH 1400 U/L, and Gram-positive cocci on Gram stain.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Change to oral antibiotics and discharge",
+            "Repeat aspiration in 1 week",
+            "Add IV frusemide",
+            "Insert an intercostal catheter for drainage and continue antibiotics",
+            "Talc pleurodesis"
+          ],
+          "answer": 3,
+          "explanation": "This is a **complicated parapneumonic effusion or empyema**: persistent fever despite antibiotics, turbid fluid, **pH below 7.2**, low glucose, high LDH and organisms on Gram stain. Antibiotics alone cannot sterilise an infected pleural collection.\n\nManagement is **intercostal catheter drainage** plus continued, targeted antibiotics (including anaerobic cover per eTG). If drainage is poor or the effusion is loculated, intrapleural tPA with DNase or thoracic surgery (VATS decortication) is considered.\n\nTalc pleurodesis is used for recurrent malignant effusions, not infection.",
+          "whyWrong": [
+            "He is still febrile with an infected collection; discharge is unsafe.",
+            "Delaying drainage allows loculation and fibrosis.",
+            "This is an exudative infected effusion, not fluid overload.",
+            "",
+            "Pleurodesis is for recurrent malignant effusions, not empyema."
+          ],
+          "tags": [
+            "empyema",
+            "pleural-effusion",
+            "lights-criteria"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "respiratory--ild-occupational-lung-cancer",
+      "title": "Interstitial and occupational lung disease, and lung cancer",
+      "minutes": 22,
+      "objectives": [
+        "Recognise the features of idiopathic pulmonary fibrosis and sarcoidosis",
+        "Describe the lung diseases caused by asbestos, silica and coal dust, including the Australian engineered stone story",
+        "Identify the presentations and paraneoplastic syndromes of lung cancer",
+        "Know the investigation pathway and the National Lung Cancer Screening Program"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why this matters in Australia",
+          "body": "**Lung cancer** is the leading cause of cancer death in Australia. Most cases are linked to smoking, but a significant minority occur in never-smokers. The **National Lung Cancer Screening Program** began on 1 July 2025.\n\n**Occupational lung disease** is specifically examinable. Australia has one of the highest rates of **mesothelioma** in the world because of heavy asbestos use until it was banned nationally in 2003. **Silicosis** has resurged in stonemasons cutting **engineered stone** benchtops, leading Australia to ban the use of engineered stone from 1 July 2024. **Coal workers' pneumoconiosis** (\"black lung\") re-emerged in Queensland coal miners from 2015.\n\n**Interstitial lung disease (ILD)** is a group of disorders causing inflammation and fibrosis of the lung interstitium; idiopathic pulmonary fibrosis is the most important."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Mechanisms",
+          "body": "**Idiopathic pulmonary fibrosis (IPF)**: repeated epithelial injury with abnormal wound healing and progressive fibrosis, starting at the bases and periphery. Median survival without treatment is only a few years.\n\n**Other ILD causes**: connective tissue disease (rheumatoid arthritis, systemic sclerosis), drugs (**amiodarone, methotrexate, nitrofurantoin, bleomycin**), hypersensitivity pneumonitis (bird fancier's, farmer's lung; mostly upper zone), sarcoidosis, radiation.\n\n**Sarcoidosis**: non-caseating granulomas in multiple organs, typically young adults. Hypercalcaemia arises from granulomas converting vitamin D to its active form.\n\n**Asbestos** fibres are long and thin, not cleared, and cause:\n\n- **Pleural plaques**: benign, calcified, a marker of exposure\n- Diffuse pleural thickening and benign effusions\n- **Asbestosis**: lower lobe interstitial fibrosis\n- **Mesothelioma**: malignant tumour of the pleura (or peritoneum) with a **latency of 20 to 40 or more years**, even after brief exposure; poor prognosis\n- **Lung cancer**: risk multiplied with smoking\n\n**Silica** (quarrying, sandblasting, stonemasonry, engineered stone) causes silicosis: upper lobe nodular fibrosis, **eggshell calcification** of hilar nodes, progressive massive fibrosis and increased risk of **TB**, lung cancer and autoimmune disease. Engineered stone has very high silica content, causing accelerated silicosis within years.\n\n**Coal dust** causes coal workers' pneumoconiosis, with upper zone nodules and progressive massive fibrosis.\n\n**Lung cancer types**:\n\n- **Non-small cell** (most): adenocarcinoma (commonest, peripheral, including in never-smokers; may have targetable EGFR or ALK mutations), squamous cell (central, smokers, cavitation, PTHrP hypercalcaemia)\n- **Small cell** (central, smokers, rapid growth, early spread, SIADH, ectopic ACTH, Lambert-Eaton)"
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "How they present",
+          "body": "**IPF**: older (usually over 60), progressive exertional breathlessness and dry cough, **fine bibasal inspiratory (\"velcro\") crackles**, **clubbing**.\n\n**Sarcoidosis**: bilateral hilar lymphadenopathy found incidentally, cough, erythema nodosum, arthralgia, uveitis. **Löfgren syndrome** (erythema nodosum, bilateral hilar lymphadenopathy, arthritis, fever) has a good prognosis.\n\n**Occupational disease**: always take an **occupational history** (jobs, dates, protection). Plumbers, builders, electricians, carpenters, shipyard and power station workers, and home renovators (and their families from dust on clothes) had asbestos exposure. Mesothelioma presents with breathlessness from effusion, **dull chest wall pain** and weight loss.\n\n**Lung cancer**: persistent cough (or change in a chronic cough), **haemoptysis**, breathlessness, chest pain, weight loss, recurrent or non-resolving pneumonia, hoarseness (recurrent laryngeal nerve), finger clubbing.\n\n| Syndrome | Features | Association |\n|---|---|---|\n| Pancoast tumour | Shoulder and arm pain, C8-T1 weakness, **Horner syndrome** | Apical tumour |\n| SVC obstruction | Facial swelling, distended neck and chest veins, headache | Small cell, lymphoma |\n| **SIADH** | Hyponatraemia with concentrated urine | Small cell |\n| **Hypercalcaemia (PTHrP)** | Polyuria, confusion, constipation | Squamous cell |\n| Ectopic ACTH | Hypokalaemia, hypertension, rapid Cushingoid features | Small cell |\n| Lambert-Eaton | Proximal weakness improving with repeated use | Small cell |\n| Hypertrophic osteoarthropathy | Painful wrists and ankles, clubbing | Non-small cell |"
+        },
+        {
+          "kind": "investigations",
+          "heading": "Work-up",
+          "body": "**ILD**:\n\n- Spirometry: **restrictive** pattern (reduced FVC, normal or high FEV1/FVC) with **reduced DLCO** (gas transfer)\n- **High-resolution CT (HRCT)**: IPF shows a usual interstitial pneumonia (UIP) pattern: basal, subpleural reticulation and **honeycombing** with traction bronchiectasis\n- Autoimmune serology to find connective tissue disease; multidisciplinary discussion confirms the diagnosis\n- Sarcoidosis: chest X-ray or CT (hilar nodes), serum calcium, ACE (supportive only), tissue biopsy showing non-caseating granulomas (often via EBUS)\n\n**Occupational**: chest X-ray and HRCT; confirm exposure history. Silicosis, mesothelioma and some pneumoconioses are notifiable in several jurisdictions (varies by state).\n\n**Lung cancer**:\n\n- **Chest X-ray** as the first test for persistent symptoms (cough over 3 weeks, haemoptysis), but a normal X-ray does not exclude cancer; proceed to **CT chest** if suspicion remains (Cancer Council Australia optimal care pathway)\n- Any **haemoptysis in a person over 40 who smokes**, or unexplained persistent symptoms, needs urgent CT and referral to a lung cancer multidisciplinary team\n- Tissue diagnosis: bronchoscopy, EBUS-guided sampling, or CT-guided biopsy; molecular testing for targetable mutations in non-small cell cancer\n- Staging: PET-CT, brain MRI in selected patients\n- Bloods: sodium, calcium, liver function\n\n**National Lung Cancer Screening Program** (from July 2025): **low-dose CT every 2 years** for asymptomatic people aged **50 to 70** with at least a **30 pack-year** smoking history who currently smoke or quit within the past 10 years. Check the program site for current details; symptomatic people need diagnostic tests, not screening."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Crackles, clubbing and hilar nodes",
+          "body": "| Finding | Consider |\n|---|---|\n| Fine bibasal crackles and clubbing | IPF, asbestosis, connective tissue ILD |\n| Upper lobe fibrosis | Silicosis, coal, TB, sarcoidosis, hypersensitivity pneumonitis, ankylosing spondylitis |\n| Bilateral hilar lymphadenopathy | Sarcoidosis, lymphoma, TB, silicosis |\n| Clubbing in a smoker | Lung cancer (COPD itself does not cause clubbing) |\n| Coarse crackles, lots of sputum | Bronchiectasis |"
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment and referral",
+          "body": "**IPF**: refer to a respiratory ILD service. **Antifibrotics (nintedanib or pirfenidone)** slow decline in lung function and are PBS-listed under criteria. Supportive care: pulmonary rehabilitation, oxygen for hypoxaemia, vaccination, smoking cessation, treat reflux, lung transplant assessment in selected younger patients, and early palliative care. Steroids are not recommended in IPF.\n\n**Drug-induced ILD**: stop the drug; steroids in some.\n\n**Sarcoidosis**: many resolve spontaneously and are monitored; oral corticosteroids for significant organ involvement (eyes, heart, nervous system, progressive lung disease, hypercalcaemia).\n\n**Occupational disease**:\n\n- Remove from exposure; smoking cessation.\n- Screen silicosis patients for TB (latent and active).\n- Workers' compensation and, for asbestos-related disease, specific compensation schemes; legal and financial advice is part of care.\n- Mesothelioma: multidisciplinary oncology, pleural fluid management (indwelling pleural catheter or pleurodesis), palliative care.\n\n**Lung cancer**:\n\n- Managed in a **multidisciplinary team**. Early-stage non-small cell: surgery (lobectomy) or stereotactic radiotherapy. Locally advanced: chemoradiotherapy and immunotherapy. Metastatic: targeted therapy if a driver mutation is present, immunotherapy, chemotherapy.\n- Small cell: chemotherapy with or without radiotherapy and immunotherapy; usually metastatic at diagnosis.\n- **Oncological emergencies**: SVC obstruction (stenting, radiotherapy, steroids), hypercalcaemia (IV saline, bisphosphonate), spinal cord compression (dexamethasone, urgent MRI, radiotherapy).\n- Early palliative care improves quality of life."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- 70-year-old retired builder with unilateral pleural effusion and chest wall pain: **mesothelioma**; pleural plaques alone are benign.\n- Young stonemason with breathlessness and upper zone nodules: **accelerated silicosis** from engineered stone; test for TB.\n- Clubbing, velcro crackles, restrictive spirometry, low DLCO, basal honeycombing: **IPF**; antifibrotics, not steroids.\n- Smoker with hyponatraemia and a central mass: **small cell** cancer with SIADH. Hypercalcaemia: **squamous**.\n- Ptosis, miosis and arm pain in a smoker: **Pancoast**.\n- Screening eligibility questions: age 50 to 70, 30 pack-years, current smoker or quit within 10 years, no symptoms."
+        }
+      ],
+      "keyPoints": [
+        "IPF: older patient, velcro crackles, clubbing, restrictive spirometry with low DLCO, UIP on HRCT; antifibrotics.",
+        "Asbestos causes pleural plaques (benign), asbestosis, mesothelioma (20-40+ year latency) and lung cancer.",
+        "Silicosis: upper lobe nodules, eggshell hilar calcification, TB risk; engineered stone banned in Australia from July 2024.",
+        "Coal workers' pneumoconiosis re-emerged in Queensland from 2015.",
+        "Small cell: SIADH, ectopic ACTH, Lambert-Eaton; squamous: PTHrP hypercalcaemia.",
+        "Persistent cough or haemoptysis in a smoker: chest X-ray then CT even if X-ray is normal.",
+        "National Lung Cancer Screening Program: low-dose CT every 2 years, age 50-70, 30 pack-years, smoking now or quit within 10 years."
+      ],
+      "redFlags": [
+        "Haemoptysis in a smoker over 40",
+        "Persistent cough, weight loss or new clubbing in a smoker",
+        "Facial swelling and distended chest veins (SVC obstruction)",
+        "Horner syndrome with arm pain (Pancoast tumour)",
+        "Back pain with leg weakness in known cancer (spinal cord compression)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Occupational lung disease",
+          "india": "Silicosis in stone quarry and mining workers and byssinosis in textile workers are emphasised.",
+          "australia": "Mesothelioma from past asbestos use and silicosis from engineered stone (now banned) are the headline issues."
+        },
+        {
+          "aspect": "Lung cancer screening",
+          "india": "No organised lung cancer screening program.",
+          "australia": "National Lung Cancer Screening Program with low-dose CT for eligible high-risk people since July 2025."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Latency between asbestos exposure and mesothelioma?",
+          "back": "Typically 20 to 40 or more years."
+        },
+        {
+          "front": "HRCT pattern of idiopathic pulmonary fibrosis?",
+          "back": "Usual interstitial pneumonia: basal subpleural reticulation, honeycombing, traction bronchiectasis."
+        },
+        {
+          "front": "Lung cancer type associated with SIADH?",
+          "back": "Small cell lung cancer."
+        },
+        {
+          "front": "Lung cancer type associated with PTHrP hypercalcaemia?",
+          "back": "Squamous cell carcinoma."
+        },
+        {
+          "front": "Radiological sign of silicosis in hilar nodes?",
+          "back": "Eggshell calcification."
+        },
+        {
+          "front": "Eligibility for the National Lung Cancer Screening Program?",
+          "back": "Asymptomatic, age 50 to 70, at least 30 pack-years, currently smoking or quit within 10 years."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "respiratory--ild-occupational-lung-cancer--q1",
+          "discipline": "adult-medicine",
+          "topic": "respiratory",
+          "difficulty": "core",
+          "stem": "A 72-year-old retired plumber presents to his GP in Wollongong with 2 months of increasing breathlessness and a dull ache in the right side of his chest. He lost 6 kg. He smoked until age 50. Examination shows stony dullness at the right base. Chest X-ray shows a large right pleural effusion with nodular pleural thickening.\n\nWhich is the most likely diagnosis?",
+          "options": [
+            "Heart failure",
+            "Asbestosis",
+            "Benign pleural plaques",
+            "Parapneumonic effusion",
+            "Malignant pleural mesothelioma"
+          ],
+          "answer": 4,
+          "explanation": "A retired **plumber** (a classic asbestos-exposed trade) with a **unilateral effusion**, **dull chest wall pain**, weight loss and **nodular pleural thickening** has **mesothelioma** until proven otherwise. Latency after asbestos exposure is typically 20 to 40 or more years, which fits.\n\nWork-up: pleural fluid cytology (often non-diagnostic), CT chest, and pleural biopsy (image-guided or thoracoscopic). He should be referred to a multidisciplinary team, and advised about asbestos-related disease compensation.\n\nPleural plaques are benign and do not cause effusions or pain. Asbestosis is interstitial fibrosis, not a pleural effusion. Heart failure effusions are usually bilateral.",
+          "whyWrong": [
+            "HF effusions are usually bilateral, without chest wall pain or pleural nodularity.",
+            "Asbestosis is lower lobe interstitial fibrosis, not a unilateral effusion.",
+            "Plaques are benign and asymptomatic.",
+            "There is no fever or infective picture.",
+            ""
+          ],
+          "ausPearl": "Australia has among the world's highest mesothelioma rates. The Australian Mesothelioma Registry collects cases, and asbestos-related disease compensation schemes exist in each state.",
+          "tags": [
+            "mesothelioma",
+            "asbestos",
+            "occupational"
+          ]
+        },
+        {
+          "id": "respiratory--ild-occupational-lung-cancer--q2",
+          "discipline": "adult-medicine",
+          "topic": "respiratory",
+          "difficulty": "exam",
+          "stem": "A 36-year-old stonemason who has cut kitchen benchtops for 12 years presents to his GP in Melbourne with 6 months of progressive breathlessness and dry cough. He has never smoked. Chest X-ray shows multiple small nodules in both upper zones and enlarged hila with peripheral calcification of the hilar nodes.\n\nIn addition to confirming the diagnosis and removing him from exposure, which of the following is most important to test for?",
+          "options": [
+            "Latent or active tuberculosis",
+            "Alpha-1 antitrypsin deficiency",
+            "Cystic fibrosis",
+            "Aspergillus precipitins",
+            "Serum ACE level"
+          ],
+          "answer": 0,
+          "explanation": "This is **accelerated silicosis** from **engineered stone** (very high crystalline silica content): young stonemason, progressive symptoms after about a decade, **upper zone nodules** and **eggshell calcification** of hilar nodes. Australia banned the use of engineered stone from 1 July 2024 because of an epidemic of silicosis among young workers.\n\nSilica impairs macrophage function and markedly increases the risk of **tuberculosis** (silicotuberculosis), so screening for latent and active TB is essential. He also has increased risk of lung cancer, autoimmune disease and CKD. Removal from exposure, notification where required (varies by state), workers' compensation and specialist referral are needed.\n\nSerum ACE is non-specific and supports sarcoidosis, which does not explain his occupation-linked picture.",
+          "whyWrong": [
+            "",
+            "Alpha-1 antitrypsin deficiency causes basal emphysema, not nodular upper lobe fibrosis.",
+            "CF presents much earlier with bronchiectasis and pancreatic insufficiency.",
+            "Aspergillus is not the key risk associated with silicosis.",
+            "Serum ACE is non-specific and does not change his management here."
+          ],
+          "tags": [
+            "silicosis",
+            "engineered-stone",
+            "tuberculosis"
+          ]
+        },
+        {
+          "id": "respiratory--ild-occupational-lung-cancer--q3",
+          "discipline": "adult-medicine",
+          "topic": "respiratory",
+          "difficulty": "foundation",
+          "stem": "A 66-year-old woman who smoked 40 pack-years presents to a GP in Hobart with 5 weeks of cough and a new hoarse voice. She has lost 4 kg. Blood tests show sodium 124 mmol/L with high urine osmolality, and normal thyroid and adrenal function. Chest X-ray shows a large left hilar mass.\n\nWhich type of lung cancer is most likely?",
+          "options": [
+            "Adenocarcinoma",
+            "Squamous cell carcinoma",
+            "Small cell carcinoma",
+            "Carcinoid tumour",
+            "Mesothelioma"
+          ],
+          "answer": 2,
+          "explanation": "A heavy smoker with a **central hilar mass** and **hyponatraemia with concentrated urine** (SIADH, after excluding hypothyroidism and adrenal insufficiency) most likely has **small cell lung cancer**, which secretes ADH ectopically. Hoarseness suggests left recurrent laryngeal nerve involvement by the hilar mass.\n\nSmall cell cancer is also associated with ectopic ACTH and Lambert-Eaton syndrome. Squamous cell cancer is also central but classically causes hypercalcaemia via PTHrP. Adenocarcinoma is usually peripheral.\n\nShe needs urgent CT and referral to a lung cancer multidisciplinary team, and careful sodium correction.",
+          "whyWrong": [
+            "Adenocarcinoma is typically peripheral and not classically linked with SIADH.",
+            "Squamous cell cancer is classically associated with PTHrP hypercalcaemia.",
+            "",
+            "Carcinoid tumours cause flushing and wheeze rather than SIADH in a heavy smoker.",
+            "Mesothelioma is pleural, not a hilar mass with SIADH."
+          ],
+          "tags": [
+            "lung-cancer",
+            "siadh",
+            "paraneoplastic"
+          ]
+        }
+      ]
+    }
+  ]
+}

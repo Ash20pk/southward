@@ -1,0 +1,1079 @@
+{
+  "topic": "obstetric-emergencies",
+  "intro": "Obstetric emergencies are where two lives are at stake and minutes matter: early pregnancy bleeding and ectopic pregnancy, antepartum and postpartum haemorrhage, pre-eclampsia and eclampsia, intrapartum crises such as shoulder dystocia and cord prolapse, and maternal collapse. The AMC tests the first correct action and the safe sequence, so learn each algorithm in order and the one discriminating clue that separates the look-alikes.",
+  "lessons": [
+    {
+      "id": "obstetric-emergencies--early-pregnancy-bleeding-and-ectopic",
+      "title": "Early pregnancy bleeding and ectopic pregnancy",
+      "minutes": 17,
+      "objectives": [
+        "Work through bleeding or pain in early pregnancy using hCG and transvaginal ultrasound",
+        "Recognise ruptured ectopic pregnancy and resuscitate appropriately",
+        "Choose between expectant, methotrexate and surgical management of ectopic pregnancy",
+        "Classify miscarriage and manage each type, including cervical shock and molar pregnancy"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "The problem",
+          "body": "Bleeding in the first trimester affects about 1 in 4 pregnancies, and around 15-20% of recognised pregnancies miscarry. **Ectopic pregnancy** occurs in about 1-2% of pregnancies and remains a cause of maternal death in Australia, usually because it was not considered. The rule that saves lives: **any woman of reproductive age with abdominal pain, bleeding or collapse needs a pregnancy test**, and a positive test with pain is an ectopic until proven otherwise.\n\nMost women present to the emergency department or an **Early Pregnancy Assessment Service (EPAS)**, which many Australian hospitals run."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why ectopics happen",
+          "body": "Over 95% of ectopics are **tubal** (mostly ampullary). Anything that damages the tube's cilia or lumen delays transport of the embryo:\n\n- Previous ectopic pregnancy\n- Pelvic inflammatory disease (especially **chlamydia**) and tubal surgery, including sterilisation\n- Pregnancy with an **IUD in situ** (IUDs prevent most pregnancies, but a pregnancy that occurs is more likely to be ectopic)\n- Assisted reproduction (which also raises the risk of **heterotopic** pregnancy, an intrauterine and an ectopic together)\n- Smoking, increasing age\n\nThe tube cannot expand, so rupture tends to occur at 6-9 weeks, causing intraperitoneal haemorrhage. Interstitial (cornual) and caesarean scar ectopics can rupture later and bleed catastrophically."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Presentations to recognise",
+          "body": "**Ectopic**: typically 6-8 weeks of amenorrhoea, unilateral lower abdominal pain, and light dark bleeding. Blood in the peritoneum causes **shoulder tip pain** (diaphragmatic irritation), urge to defecate (pouch of Douglas), dizziness and syncope. Examination: adnexal tenderness, **cervical motion tenderness**, peritonism, and in rupture, tachycardia and hypotension. Young women compensate well, so tachycardia may be the only early sign. Up to a third have no risk factors.\n\n**Miscarriage types**:\n\n| Type | Bleeding | Os | Ultrasound |\n|---|---|---|---|\n| Threatened | Light | Closed | Viable intrauterine pregnancy |\n| Inevitable | Heavier, cramps | Open | Pregnancy in the uterus or cervix |\n| Incomplete | Ongoing | Open | Retained products |\n| Complete | Settling | Closed | Empty uterus (with previously confirmed IUP) |\n| Missed | Often none | Closed | CRL 7 mm or more with no heartbeat, or mean sac diameter 25 mm or more with no embryo |\n\n**Cervical shock**: products of conception lodged in the cervical os cause vagal stimulation, giving **bradycardia and hypotension** out of proportion to blood loss. Removing the products with sponge forceps on speculum examination rapidly reverses it.\n\n**Septic miscarriage**: fever, offensive discharge, uterine tenderness; needs IV antibiotics and prompt evacuation.\n\n**Molar pregnancy (gestational trophoblastic disease)**: bleeding, uterus large for dates, severe hyperemesis, very high hCG, early-onset pre-eclampsia or hyperthyroidism; \"snowstorm\" appearance on ultrasound for a complete mole."
+        },
+        {
+          "kind": "investigations",
+          "heading": "hCG and ultrasound together",
+          "body": "1. **Urine pregnancy test**, then **quantitative serum beta-hCG**.\n2. **Transvaginal ultrasound**: the key question is \"is there an intrauterine pregnancy?\" A gestational sac with a **yolk sac** confirms an IUP (a sac alone can be a pseudosac in ectopic).\n3. **FBC, group and antibody screen** (Rh D status for anti-D), and crossmatch if unstable.\n\n**Pregnancy of unknown location (PUL)**: positive hCG, no pregnancy seen in or outside the uterus. Repeat hCG in **48 hours**:\n\n- A viable IUP usually shows a substantial rise (units commonly use a rise of about 50% or more in 48 hours as reassuring, though a smaller rise does not exclude a viable pregnancy).\n- A fall of 50% or more suggests a failing pregnancy (resolving miscarriage).\n- A suboptimal rise or plateau suggests ectopic.\n\nThe **discriminatory zone** is the hCG level (roughly 1500-3500 IU/L, unit-dependent) above which an IUP should be visible on TVUS. hCG above it with an empty uterus strongly suggests ectopic.\n\nEctopic on ultrasound: an adnexal mass separate from the ovary (often a \"bagel\" or ring sign), free fluid, or an extrauterine sac with a yolk sac or embryo."
+        },
+        {
+          "kind": "management",
+          "heading": "Managing ectopic pregnancy and miscarriage",
+          "body": "**Unstable (ruptured) ectopic**: call for senior help, two large-bore cannulas, bloods and crossmatch, activate massive transfusion if needed, and take her **straight to theatre**. Do not delay for imaging. Laparoscopy (or laparotomy if very unstable) and **salpingectomy**.\n\n**Stable ectopic**, three options:\n\n- **Expectant**: selected women with low and falling hCG, minimal symptoms and reliable follow-up.\n- **Methotrexate** (IM, a folate antagonist that stops trophoblast division): for a stable woman with an unruptured ectopic, **no significant pain**, a relatively low hCG (thresholds vary by unit, commonly below 3000-5000 IU/L), a small mass, **no fetal cardiac activity**, and who can return for follow-up. hCG is checked on days 4 and 7 and should fall by at least 15% between them, then weekly to negative. Avoid folic acid, alcohol, NSAIDs and sex during treatment, and avoid pregnancy for about 3 months. Pain in the first days is common, but significant pain may be rupture.\n- **Surgery** (laparoscopic): for rupture, pain, high hCG, fetal cardiac activity, or when methotrexate is contraindicated. **Salpingectomy** if the other tube is healthy; **salpingotomy** if the other tube is damaged, with hCG follow-up for persistent trophoblast.\n\nGive **anti-D** to Rh D-negative women with ectopic pregnancy.\n\n**Miscarriage**: expectant management, medical (misoprostol, with mifepristone pre-treatment for missed miscarriage), or **surgical evacuation (suction curettage)**. Surgery is preferred with heavy bleeding, instability, infection or suspected molar pregnancy. Anti-D per guideline for Rh D-negative women. Acknowledge the loss; offer follow-up and support.\n\n**Molar pregnancy**: suction curettage, histology, then **serial hCG until normal** through a trophoblastic disease service, with reliable contraception and avoidance of pregnancy until follow-up is complete. A plateau or rise suggests gestational trophoblastic neoplasia, which is highly curable with chemotherapy."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Traps and discriminating clues",
+          "body": "- Positive hCG, pain, empty uterus on TVUS, **unstable**: theatre. Not methotrexate, not repeat hCG.\n- Positive hCG, empty uterus, hCG below the discriminatory zone, **stable and pain-free**: PUL, repeat hCG in 48 hours.\n- Bradycardic, hypotensive woman with light bleeding and tissue at the os: **cervical shock**, remove products.\n- Methotrexate is contraindicated if there is fetal cardiac activity, rupture, breastfeeding, or significant liver, renal or haematological disease.\n- A woman after IVF with a confirmed IUP and ongoing unilateral pain and free fluid: think **heterotopic pregnancy**."
+        }
+      ],
+      "keyPoints": [
+        "Every woman of reproductive age with pain, bleeding or collapse needs a pregnancy test.",
+        "hCG plus transvaginal ultrasound answers 'is this intrauterine?'; a yolk sac confirms an IUP.",
+        "PUL: repeat hCG in 48 hours; a plateau or poor rise suggests ectopic.",
+        "Unstable ectopic goes straight to theatre for salpingectomy.",
+        "Methotrexate needs a stable woman, unruptured ectopic, low hCG, no cardiac activity and reliable follow-up.",
+        "Cervical shock: bradycardia and hypotension from products in the os; remove them.",
+        "Give anti-D to Rh D-negative women with ectopic pregnancy."
+      ],
+      "redFlags": [
+        "Positive pregnancy test with pain and haemodynamic instability (ruptured ectopic)",
+        "Shoulder tip pain, syncope or peritonism in early pregnancy",
+        "Fever and offensive discharge after miscarriage (septic miscarriage)",
+        "Bradycardia and hypotension with light bleeding (cervical shock)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Where early pregnancy problems are seen",
+          "india": "Usually the gynaecology OPD or casualty of a tertiary hospital.",
+          "australia": "Dedicated Early Pregnancy Assessment Services in many hospitals, plus ED and GP."
+        },
+        {
+          "aspect": "Ectopic surgery",
+          "india": "Laparotomy is still common where laparoscopy is limited.",
+          "australia": "Laparoscopy is standard; laparotomy for severe instability."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Ultrasound finding that confirms an intrauterine pregnancy?",
+          "back": "Gestational sac containing a yolk sac (or embryo) within the uterus."
+        },
+        {
+          "front": "Next step in a stable woman with a pregnancy of unknown location?",
+          "back": "Repeat serum beta-hCG in 48 hours."
+        },
+        {
+          "front": "Criteria for missed miscarriage on TVUS?",
+          "back": "CRL 7 mm or more with no heartbeat, or mean sac diameter 25 mm or more with no embryo."
+        },
+        {
+          "front": "Expected hCG fall after methotrexate for ectopic?",
+          "back": "At least 15% between day 4 and day 7."
+        },
+        {
+          "front": "Cause of bradycardia and hypotension with products in the cervical os?",
+          "back": "Cervical shock (vagal response); treat by removing products."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "obstetric-emergencies--early-pregnancy-bleeding-and-ectopic--q1",
+          "discipline": "womens-health",
+          "topic": "obstetric-emergencies",
+          "difficulty": "core",
+          "stem": "A 27-year-old woman presents to the emergency department with 6 hours of left iliac fossa pain and light vaginal spotting. Her last menstrual period was 7 weeks ago. She fainted at home. Pulse 124 bpm, BP 84/50 mmHg. Her abdomen is distended and tender with guarding. Urine hCG is positive.\n\nAfter calling for help and inserting two large-bore cannulas with bloods for crossmatch, what is the most appropriate next step?",
+          "options": [
+            "Urgent laparoscopy or laparotomy",
+            "Formal transvaginal ultrasound in the radiology department",
+            "Intramuscular methotrexate",
+            "Serum beta-hCG now and repeat in 48 hours",
+            "CT abdomen and pelvis with contrast"
+          ],
+          "answer": 0,
+          "explanation": "This is a **ruptured ectopic pregnancy with haemorrhagic shock**: positive hCG, pain, syncope, tachycardia, hypotension and peritonism.\n\nOnce resuscitation has started (large-bore access, crossmatch, massive transfusion protocol if needed, senior obstetric and anaesthetic help), the definitive treatment is **immediate surgery** to stop the bleeding, usually salpingectomy. A bedside FAST scan may show free fluid, but she should not leave the resuscitation area for formal imaging.\n\nMethotrexate and serial hCG are only for **stable** women with unruptured ectopics. CT exposes her to radiation and delay.\n\n**Rule:** positive hCG plus shock means theatre.",
+          "whyWrong": [
+            "",
+            "Transfer for formal imaging delays surgery in an unstable patient.",
+            "Methotrexate is contraindicated in rupture and instability.",
+            "Serial hCG is for stable pregnancy of unknown location, not shock.",
+            "CT delays definitive care and is not needed."
+          ],
+          "tags": [
+            "ectopic pregnancy",
+            "shock",
+            "resuscitation"
+          ]
+        },
+        {
+          "id": "obstetric-emergencies--early-pregnancy-bleeding-and-ectopic--q2",
+          "discipline": "womens-health",
+          "topic": "obstetric-emergencies",
+          "difficulty": "exam",
+          "stem": "A 31-year-old woman at 6 weeks by dates presents with mild right-sided pelvic pain and spotting. She is haemodynamically stable. Transvaginal ultrasound shows an empty uterus, a 2.5 cm right adnexal mass separate from the ovary with no fetal cardiac activity, and no free fluid. Serum beta-hCG is 1400 IU/L. Liver and renal function and FBC are normal. She lives nearby and is reliable.\n\nWhich is the most appropriate management?",
+          "options": [
+            "Laparoscopic salpingectomy today",
+            "Repeat ultrasound in 1 week",
+            "Laparotomy",
+            "Intramuscular methotrexate with hCG monitoring on days 4 and 7",
+            "Misoprostol"
+          ],
+          "answer": 3,
+          "explanation": "She has an **unruptured tubal ectopic** in a stable woman with minimal pain, a low hCG, a small mass, no fetal cardiac activity and normal bloods, and she can attend follow-up. She meets typical criteria for **methotrexate**, which avoids surgery and preserves the tube.\n\nhCG is measured on days 4 and 7; a fall of at least 15% between them indicates success, and hCG is then followed weekly to negative. About 1 in 7 women need a second dose or surgery. She must return urgently with worsening pain, as rupture can still occur. Expectant management is an alternative for some women with low, falling hCG.\n\nSurgery is reasonable if she prefers it, but it is not the best answer when she fits medical criteria.",
+          "whyWrong": [
+            "Surgery is not required for a small, stable, unruptured ectopic that meets methotrexate criteria.",
+            "An ectopic has been identified; passive rescanning without hCG follow-up is unsafe.",
+            "Laparotomy is reserved for instability or when laparoscopy is not possible.",
+            "",
+            "Misoprostol is used for miscarriage, not ectopic pregnancy."
+          ],
+          "tags": [
+            "ectopic pregnancy",
+            "methotrexate",
+            "early pregnancy"
+          ]
+        },
+        {
+          "id": "obstetric-emergencies--early-pregnancy-bleeding-and-ectopic--q3",
+          "discipline": "womens-health",
+          "topic": "obstetric-emergencies",
+          "difficulty": "core",
+          "stem": "A 34-year-old woman at 9 weeks' gestation presents with heavy vaginal bleeding and cramping. She is pale and sweaty. Pulse 48 bpm, BP 80/45 mmHg. Estimated blood loss is about 200 mL. On speculum examination the cervical os is open and tissue is seen protruding from it.\n\nWhat is the most appropriate immediate action?",
+          "options": [
+            "IV atropine and observe",
+            "Arrange a transvaginal ultrasound",
+            "Remove the tissue from the cervical os with sponge forceps",
+            "Give IM methotrexate",
+            "Start an IV infusion of oxytocin and wait"
+          ],
+          "answer": 2,
+          "explanation": "The combination of **bradycardia and hypotension** with only moderate bleeding and **products of conception in the cervical os** is **cervical shock**: stretching of the cervix causes a vagal response.\n\nThe immediate treatment is to **remove the tissue with sponge forceps** during speculum examination, which usually reverses the bradycardia quickly. She also needs IV access, fluids, bloods including group and screen, and then management of the incomplete miscarriage (often surgical evacuation if bleeding continues). Anti-D is given if she is Rh D negative, per guideline.\n\nAtropine treats the symptom but not the cause, and ultrasound delays a bedside fix.",
+          "whyWrong": [
+            "Atropine may transiently help but leaves the cause in place.",
+            "Imaging delays treatment of a problem visible and fixable now.",
+            "",
+            "Methotrexate is for ectopic pregnancy, not miscarriage.",
+            "Oxytocin is ineffective in early pregnancy and does not remove the tissue."
+          ],
+          "tags": [
+            "miscarriage",
+            "cervical shock",
+            "early pregnancy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "obstetric-emergencies--antepartum-haemorrhage",
+      "title": "Antepartum haemorrhage",
+      "minutes": 15,
+      "objectives": [
+        "Differentiate placental abruption, placenta praevia, vasa praevia and uterine rupture",
+        "Resuscitate a woman with APH and assess fetal wellbeing",
+        "Plan delivery according to cause, gestation and maternal and fetal condition",
+        "Give anti-D, corticosteroids and magnesium sulfate when indicated"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Definitions and why it matters",
+          "body": "**Antepartum haemorrhage (APH)** is bleeding from the genital tract from **20 weeks** until birth. It complicates about 3-5% of pregnancies and is a leading cause of perinatal death and preterm birth. The main causes are:\n\n- **Placental abruption**: premature separation of a normally sited placenta.\n- **Placenta praevia**: placenta implanted in the lower segment, over or near the internal os.\n- **Vasa praevia**: fetal vessels running in the membranes over the os.\n- **Uterine rupture**: usually with a previous caesarean scar.\n- Local causes: cervical ectropion, polyps, cervicitis, cancer, show at term.\n\nBlood loss is often underestimated, particularly in abruption where bleeding can be concealed behind the placenta."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Mechanisms",
+          "body": "**Abruption**: bleeding into the decidua basalis separates the placenta. Risk factors are **hypertension and pre-eclampsia**, **abdominal trauma** (including family violence and motor vehicle accidents), **smoking**, **cocaine and methamphetamine**, previous abruption, preterm rupture of membranes, multiparity, and sudden decompression of the uterus (polyhydramnios, delivery of first twin). Blood tracking into the myometrium (Couvelaire uterus) causes the tense, tender uterus. Placental thromboplastin release can trigger **DIC**.\n\n**Praevia**: the placenta implants low, often on scarred endometrium. Risk factors: **previous caesarean**, multiparity, advanced maternal age, IVF, smoking, previous uterine surgery. As the lower segment forms and the cervix effaces in the third trimester, the placenta shears and bleeds. Because the bleeding is maternal and from the placental bed, not a separation of the placenta's centre, the fetus is often initially well.\n\n**Placenta accreta spectrum**: villi invade into (increta) or through (percreta) the myometrium, most often with a praevia over a previous caesarean scar. The placenta does not separate at birth, causing massive haemorrhage.\n\n**Vasa praevia**: unprotected fetal vessels (velamentous cord insertion, succenturiate lobe) cross the os. When membranes rupture, the vessels tear and the **fetus bleeds**; a fetal blood volume is only about 80-100 mL/kg."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Telling them apart",
+          "body": "| Feature | Abruption | Praevia | Vasa praevia | Uterine rupture |\n|---|---|---|---|---|\n| Pain | **Constant pain** | **Painless** | Painless | Severe pain, may ease after rupture |\n| Blood | Dark, may be concealed | Bright red, recurrent \"warning bleeds\" | Bright red at membrane rupture | Variable |\n| Uterus | Tense, tender, **\"woody\"**, often contracting | Soft, non-tender | Normal | Tender; fetal parts palpable; loss of station |\n| Presentation | Normal | High head or malpresentation | Normal | Loss of presenting part |\n| Maternal state | Shock may exceed visible loss | Proportionate to loss | Mother stable | Shock |\n| Fetus | Distressed or dead | Usually normal initially | **Rapid bradycardia** | Abnormal CTG (often the first sign) |\n\nA **digital vaginal examination must not be done** until praevia is excluded by ultrasound, because it can provoke torrential bleeding. A gentle speculum examination is acceptable to assess bleeding and look for a local cause. **Transvaginal ultrasound is safe** and more accurate than transabdominal for locating the placenta."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Initial assessment",
+          "body": "**Mother**: vital signs, estimate blood loss, abdominal palpation (tone, tenderness, fundal height, lie), speculum if praevia excluded or known placental site.\n\n**Bloods**: FBC, group and crossmatch, coagulation screen with **fibrinogen** (low in abruption with DIC), U&E, LFTs if hypertensive, and a **Kleihauer** test in Rh D-negative women.\n\n**Fetus**: **CTG** if viable gestation. Ultrasound for placental site, presentation, fetal heart and growth. Ultrasound is poor at excluding abruption; a normal scan does not rule it out. Abruption is a **clinical diagnosis**.\n\nCheck the morphology scan report: it usually documents placental site.\n\n**Unexplained APH** (no praevia, no clinical abruption, no local cause) is still a warning sign: these pregnancies have higher rates of preterm birth, growth restriction and stillbirth, so they warrant closer surveillance with serial growth scans and a lower threshold for planned birth. In a rural hospital without theatre or blood bank, stabilise, give anti-D and steroids as indicated, and arrange early retrieval rather than waiting for a second bleed."
+        },
+        {
+          "kind": "management",
+          "heading": "Management by scenario",
+          "body": "**All**: call for help, two large-bore cannulas, resuscitate, massive transfusion protocol if major, CTG, **anti-D** for Rh D-negative women (with Kleihauer to size the dose). If birth before **34+6 weeks** is possible, give **corticosteroids** (betamethasone) for fetal lung maturity, and **magnesium sulfate** for fetal neuroprotection if birth is imminent before **30 weeks** (some units use a later cut-off).\n\n**Abruption**:\n\n- Fetus alive and mature, or fetal compromise: **urgent delivery**, usually caesarean section, with correction of coagulopathy.\n- **Fetal death**: aim for **vaginal birth** if the mother is stable, as it avoids surgery in a coagulopathic woman; watch for DIC and PPH.\n- Small abruption, preterm, mother and fetus well: admit, monitor, steroids, deliver if deterioration.\n\n**Praevia**:\n\n- Major bleeding or maternal compromise: **caesarean section** regardless of gestation.\n- Minor bleed, preterm, stable: admit, steroids, anti-D, and **planned caesarean** later, commonly around 36-37 weeks for a major praevia.\n- Suspected **accreta**: tertiary centre, multidisciplinary planning, blood products available, often caesarean hysterectomy.\n\n**Vasa praevia**: bleeding at membrane rupture with fetal bradycardia means **category 1 caesarean** immediately. Antenatally diagnosed vasa praevia is managed with admission around 30-32 weeks in some units, steroids and planned caesarean before labour.\n\n**Uterine rupture**: immediate laparotomy, delivery and repair or hysterectomy."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Traps and discriminating clues",
+          "body": "- \"Painless bright red bleeding at 32 weeks, soft uterus, breech\": **praevia**. The wrong answer is a digital VE.\n- \"Painful bleeding, hard tender uterus, hypertension or cocaine\": **abruption**.\n- \"Bleeding as membranes rupture, mother fine, fetal heart 70 bpm\": **vasa praevia**, crash caesarean.\n- \"VBAC on oxytocin with sudden pain, loss of station and fetal bradycardia\": **uterine rupture**.\n- Rh D-negative woman with any APH: **anti-D plus Kleihauer**.\n- Hypertensive woman with abruption: check platelets and fibrinogen and avoid ergometrine at birth."
+        }
+      ],
+      "keyPoints": [
+        "APH is bleeding from 20 weeks to birth; abruption and praevia are the main causes.",
+        "Abruption is painful with a tense, tender uterus; praevia is painless with a soft uterus.",
+        "Never do a digital vaginal examination until praevia is excluded; TVUS is safe.",
+        "Abruption is a clinical diagnosis; a normal ultrasound does not exclude it.",
+        "Vasa praevia: bleeding at membrane rupture with fetal bradycardia needs immediate caesarean.",
+        "Give anti-D with a Kleihauer test, steroids before 34+6 weeks, magnesium for neuroprotection if birth is imminent before about 30 weeks.",
+        "Previous caesarean with anterior low placenta: think accreta spectrum."
+      ],
+      "redFlags": [
+        "Maternal shock out of proportion to visible bleeding (concealed abruption)",
+        "Tense, woody, tender uterus",
+        "Fetal bradycardia or abnormal CTG with bleeding",
+        "Low fibrinogen or oozing from cannula sites (DIC)",
+        "Sudden pain and loss of station in a woman with a uterine scar"
+      ],
+      "contrast": [
+        {
+          "aspect": "Placental localisation",
+          "india": "Often by transabdominal scan; a double set-up examination in theatre was historically taught.",
+          "australia": "Transvaginal ultrasound is the standard and safe; double set-up examinations are not practised."
+        },
+        {
+          "aspect": "Anti-D after APH",
+          "india": "Given variably, depending on availability.",
+          "australia": "Routine for every Rh D-negative woman with APH, dose guided by Kleihauer."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Classic features of placental abruption?",
+          "back": "Painful bleeding, tense tender (woody) uterus, fetal distress; shock may exceed visible loss."
+        },
+        {
+          "front": "Classic features of placenta praevia?",
+          "back": "Painless bright red bleeding, soft non-tender uterus, high head or malpresentation."
+        },
+        {
+          "front": "Examination to avoid in suspected praevia?",
+          "back": "Digital vaginal examination."
+        },
+        {
+          "front": "Vasa praevia classic sign?",
+          "back": "Bleeding at membrane rupture with acute fetal bradycardia while the mother is stable."
+        },
+        {
+          "front": "Gestation limit for antenatal corticosteroids in threatened preterm birth?",
+          "back": "Up to 34+6 weeks (betamethasone)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "obstetric-emergencies--antepartum-haemorrhage--q1",
+          "discipline": "womens-health",
+          "topic": "obstetric-emergencies",
+          "difficulty": "foundation",
+          "stem": "A 30-year-old woman, G3P2, at 33 weeks' gestation presents with a sudden episode of painless, bright red vaginal bleeding of about 150 mL. She has had two previous caesarean sections. Pulse 92 bpm, BP 118/72 mmHg. The uterus is soft and non-tender and the fetus is in a transverse lie. CTG is normal. Her morphology scan report is not available.\n\nWhich action should be avoided?",
+          "options": [
+            "Transvaginal ultrasound to localise the placenta",
+            "Administration of betamethasone",
+            "Insertion of two large-bore IV cannulas",
+            "Blood group and crossmatch",
+            "Digital vaginal examination to assess the cervix"
+          ],
+          "answer": 4,
+          "explanation": "Painless bright red bleeding, a soft non-tender uterus, a malpresentation and two previous caesareans make **placenta praevia** the leading diagnosis.\n\nA **digital vaginal examination** can disrupt the placenta over the os and provoke catastrophic haemorrhage, so it is avoided until praevia has been excluded on ultrasound. **Transvaginal ultrasound is safe** and the best way to locate the placenta. With two previous caesareans, the scan should also look for **placenta accreta spectrum**.\n\nIV access, crossmatch, corticosteroids (she is under 34+6 weeks and may deliver early), and anti-D if Rh D negative are all appropriate.",
+          "whyWrong": [
+            "TVUS is safe in suspected praevia and is the investigation of choice.",
+            "Steroids are indicated at 33 weeks if birth may occur.",
+            "IV access is appropriate for any APH.",
+            "Blood should be available in case of further haemorrhage.",
+            ""
+          ],
+          "tags": [
+            "placenta praevia",
+            "aph",
+            "safety"
+          ]
+        },
+        {
+          "id": "obstetric-emergencies--antepartum-haemorrhage--q2",
+          "discipline": "womens-health",
+          "topic": "obstetric-emergencies",
+          "difficulty": "core",
+          "stem": "A 36-year-old woman at 35 weeks' gestation presents with constant severe abdominal pain and a small amount of dark vaginal bleeding. She has chronic hypertension and smokes. Pulse 118 bpm, BP 100/60 mmHg (her usual BP is 150/95). The uterus is hard and tender. CTG shows a baseline of 170 bpm with recurrent late decelerations.\n\nWhat is the most appropriate management after resuscitation has begun?",
+          "options": [
+            "Admit for observation and repeat CTG in 4 hours",
+            "Urgent caesarean section",
+            "Ultrasound to confirm the diagnosis before deciding on delivery",
+            "Induction of labour with vaginal prostaglandin",
+            "Betamethasone and delay delivery for 48 hours"
+          ],
+          "answer": 1,
+          "explanation": "This is a **placental abruption**: constant pain, dark bleeding, a hard tender uterus, risk factors (hypertension, smoking), and maternal shock out of proportion to the visible blood loss (concealed haemorrhage; a 'normal' BP is low for her). The CTG shows **fetal compromise** (tachycardia and late decelerations).\n\nWith a live, viable fetus in distress, the answer is **urgent delivery**, usually by **caesarean section**, alongside resuscitation, crossmatch, coagulation studies including fibrinogen, correction of DIC and anti-D if Rh D negative.\n\nUltrasound is insensitive for abruption and should not delay delivery. Steroids at 35 weeks are not indicated and waiting is dangerous.",
+          "whyWrong": [
+            "Observation is unsafe with maternal shock and fetal compromise.",
+            "",
+            "Abruption is a clinical diagnosis; ultrasound often misses it and wastes time.",
+            "Induction is too slow with a compromised fetus.",
+            "Steroids are not indicated at 35 weeks, and delay risks fetal death."
+          ],
+          "tags": [
+            "abruption",
+            "aph",
+            "fetal distress"
+          ]
+        },
+        {
+          "id": "obstetric-emergencies--antepartum-haemorrhage--q3",
+          "discipline": "womens-health",
+          "topic": "obstetric-emergencies",
+          "difficulty": "exam",
+          "stem": "A 29-year-old woman, G2P1, is in spontaneous labour at 39 weeks. The cervix is 5 cm dilated. Shortly after spontaneous rupture of membranes, there is a gush of bright red blood of about 200 mL. She feels well, pulse 84 bpm, BP 120/75 mmHg, and her abdomen is soft between contractions. The fetal heart rate falls from 140 bpm to 70 bpm and does not recover.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Placental abruption",
+            "Placenta praevia",
+            "Uterine rupture",
+            "Vasa praevia",
+            "Cervical laceration"
+          ],
+          "answer": 3,
+          "explanation": "Bleeding that starts **at the moment of membrane rupture**, with a **stable, pain-free mother** and an **acute fetal bradycardia**, is the classic picture of **vasa praevia**. Fetal vessels running unprotected across the os tear when the membranes rupture, and it is **fetal blood** that is lost. A term fetus has only about 250-300 mL of circulating blood, so a 200 mL loss is catastrophic.\n\nManagement is a **category 1 caesarean section** and neonatal resuscitation, including volume and blood.\n\nAbruption causes pain and a tender uterus; praevia would usually have bled before labour and been seen on scan; rupture causes maternal pain and instability, usually with a scar.",
+          "whyWrong": [
+            "Abruption typically causes pain, a tense uterus and maternal compromise.",
+            "Praevia usually presents antenatally and would typically have been detected on the morphology scan.",
+            "Rupture causes severe pain, maternal instability and loss of station, usually with a uterine scar.",
+            "",
+            "A cervical tear does not cause immediate fetal bradycardia at membrane rupture."
+          ],
+          "tags": [
+            "vasa praevia",
+            "aph",
+            "intrapartum"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "obstetric-emergencies--pre-eclampsia-and-eclampsia",
+      "title": "Hypertension in pregnancy, pre-eclampsia and eclampsia",
+      "minutes": 18,
+      "objectives": [
+        "Classify hypertensive disorders of pregnancy using Australian (SOMANZ) definitions",
+        "Investigate suspected pre-eclampsia and recognise HELLP syndrome",
+        "Treat severe hypertension and give magnesium sulfate safely",
+        "Recognise and reverse magnesium toxicity",
+        "Plan timing of birth and postpartum follow-up"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Classification",
+          "body": "Hypertensive disorders affect about 5-10% of pregnancies and are a leading cause of maternal and perinatal morbidity. Hypertension in pregnancy is **systolic 140 mmHg or more and/or diastolic 90 mmHg or more**, confirmed on repeat measurement. The Society of Obstetric Medicine of Australia and New Zealand (**SOMANZ**) classifies:\n\n- **Chronic hypertension**: before pregnancy or before 20 weeks (essential or secondary).\n- **Gestational hypertension**: new hypertension after 20 weeks with no features of pre-eclampsia. About a quarter progress to pre-eclampsia.\n- **Pre-eclampsia**: new hypertension after 20 weeks with **one or more** of maternal organ involvement or fetal growth restriction.\n- **Pre-eclampsia superimposed on chronic hypertension**.\n- **White coat hypertension**: needs home or ambulatory BP monitoring.\n\nKey point from the syllabus: **proteinuria is not required** for the diagnosis of pre-eclampsia."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why the placenta makes the mother sick",
+          "body": "In normal pregnancy, trophoblast invades the spiral arteries and converts them into wide, low-resistance vessels. In pre-eclampsia this **remodelling fails**, the placenta becomes ischaemic, and it releases anti-angiogenic factors, especially **soluble fms-like tyrosine kinase-1 (sFlt-1)**, which binds and lowers **placental growth factor (PlGF)**. The result is **widespread maternal endothelial dysfunction**: vasoconstriction, leaky capillaries, platelet activation and end-organ damage.\n\nThis explains the features: hypertension, proteinuria (glomerular endotheliosis), cerebral oedema and seizures, liver swelling and haemorrhage, haemolysis and low platelets, pulmonary oedema, and a small baby from placental insufficiency. It also explains why **delivery of the placenta is the cure** and why a high **sFlt-1/PlGF ratio** helps diagnose it (a low ratio helps rule it out in the short term).\n\nRisk factors: previous pre-eclampsia, chronic hypertension, renal disease, diabetes, autoimmune disease (antiphospholipid syndrome, SLE), multiple pregnancy, first pregnancy, obesity, age 40 or more, IVF and molar pregnancy (which can cause pre-eclampsia before 20 weeks)."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Features of pre-eclampsia and severity",
+          "body": "Organ involvement defining pre-eclampsia (SOMANZ):\n\n- **Renal**: proteinuria (**urine protein:creatinine ratio 30 mg/mmol or more**), raised creatinine, oliguria.\n- **Haematological**: thrombocytopenia, haemolysis, DIC.\n- **Liver**: raised transaminases, **severe epigastric or right upper quadrant pain** (capsular stretch).\n- **Neurological**: severe headache, **visual disturbance** (scotomata, blurring), **hyperreflexia with sustained clonus**, eclampsia, stroke.\n- **Pulmonary oedema**.\n- **Fetal**: growth restriction, abnormal Dopplers, stillbirth.\n\n**HELLP syndrome**: **H**aemolysis, **E**levated **L**iver enzymes, **L**ow **P**latelets. It can occur with only modest hypertension and presents as epigastric pain, nausea and malaise, easily mistaken for gastritis.\n\n**Eclampsia**: generalised tonic-clonic seizures with pre-eclampsia. It can occur antepartum, intrapartum or **postpartum** (up to several days, occasionally weeks), and a third or more happen without severe hypertension beforehand.\n\n**Severe hypertension**: **160/110 mmHg or more** is an emergency because of the risk of intracerebral haemorrhage."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Work-up",
+          "body": "Any woman with new hypertension after 20 weeks:\n\n- **Urine**: dipstick then **spot protein:creatinine ratio** (30 mg/mmol or more is significant).\n- **Bloods**: FBC (platelets, Hb), **creatinine**, electrolytes, **urate**, **LFTs**, LDH and blood film if haemolysis suspected, coagulation if platelets are low or abruption is suspected.\n- **sFlt-1/PlGF ratio** where available (a low ratio makes pre-eclampsia in the next week unlikely).\n- **Fetal**: CTG and ultrasound for growth, liquor and umbilical artery Doppler.\n\nRepeat bloods regularly (often twice weekly in stable pre-eclampsia), because the disease progresses and does not regress until birth."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Admit** women with pre-eclampsia for initial assessment; some stable women are later managed in day assessment units.\n\n**Antihypertensives** (target roughly 110-140/80-90 mmHg, per local protocol):\n\n- Oral maintenance: **labetalol** (avoid in asthma), **nifedipine** (slow release), **methyldopa**, hydralazine as an add-on.\n- **Severe hypertension (160/110 or more)**: treat urgently, within an hour, with oral immediate-release **nifedipine**, **IV labetalol** or **IV hydralazine** per local protocol, with continuous fetal monitoring.\n- ACE inhibitors and ARBs are contraindicated antenatally.\n\n**Magnesium sulfate** prevents and treats eclamptic seizures (more effective than diazepam or phenytoin). Indications: eclampsia, or pre-eclampsia with severe features (severe hypertension, neurological symptoms, clonus, HELLP), particularly around delivery.\n\n- Australian IV regimen: **4 g loading dose over 15-20 minutes, then 1 g per hour**, usually for 24 hours after birth or the last seizure. A recurrent seizure gets a further bolus.\n- Monitor **patellar reflexes**, **respiratory rate**, oxygen saturation and **urine output** (magnesium is renally cleared; reduce or stop if oliguric or creatinine raised). Serum levels if concerned.\n- **Toxicity**: loss of patellar reflexes first, then respiratory depression, then cardiac arrest. Stop the infusion and give **calcium gluconate 10% 10 mL IV over 10 minutes**.\n\n**Fluids**: restrict (often around 80 mL/hour total) because leaky capillaries predispose to **pulmonary oedema**.\n\n**Eclamptic seizure**: call for help, left lateral position, airway and oxygen, **magnesium sulfate** (not diazepam first-line), control BP, then stabilise and deliver once the mother is stable. Do not rush to theatre mid-seizure.\n\n**Timing of birth**: delivery is the only cure. Pre-eclampsia is usually delivered at **37 weeks**, earlier for uncontrollable BP, worsening renal, liver or platelet results, neurological features, eclampsia, pulmonary oedema, abruption or fetal compromise. Give **corticosteroids** if birth is likely before 34+6 weeks and **magnesium for neuroprotection** before about 30 weeks. Vaginal birth is often possible. **Avoid ergometrine** in the third stage: it causes vasoconstriction and severe hypertension; use oxytocin.\n\n**Postpartum**: BP often peaks at **days 3-6**. Continue monitoring and antihypertensives; switch methyldopa (depression risk). Enalapril, nifedipine and labetalol are compatible with breastfeeding. Review at 6 weeks; if hypertension or proteinuria persists, investigate for underlying disease. Counsel on recurrence, aspirin in the next pregnancy, and **lifelong increased cardiovascular risk**: annual BP and regular cardiovascular risk assessment."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Traps and discriminating clues",
+          "body": "- New BP 150/95 at 34 weeks with **platelets low** and no proteinuria: this **is pre-eclampsia**.\n- Epigastric pain in the third trimester: check BP, platelets and LFTs before calling it reflux (HELLP).\n- Seizure in late pregnancy or postpartum: **magnesium sulfate** first.\n- Woman on magnesium with absent reflexes and RR 8: **stop the infusion, give calcium gluconate**.\n- Pre-eclampsia and PPH: oxytocin, **not ergometrine**.\n- Seizure with hypertension at 16 weeks: think **molar pregnancy**."
+        }
+      ],
+      "keyPoints": [
+        "Pre-eclampsia is new hypertension after 20 weeks with maternal organ or fetal involvement; proteinuria is not required.",
+        "Failed spiral artery remodelling leads to sFlt-1 excess and endothelial dysfunction; delivery is the cure.",
+        "Severe hypertension (160/110 or more) is treated urgently with nifedipine, IV labetalol or IV hydralazine.",
+        "Magnesium sulfate 4 g IV loading then 1 g/hour prevents and treats eclampsia.",
+        "Magnesium toxicity: reflexes go first, then breathing; antidote is calcium gluconate.",
+        "Deliver pre-eclampsia at 37 weeks, earlier for severe features; avoid ergometrine.",
+        "Pre-eclampsia raises lifelong cardiovascular risk; follow up BP and risk factors."
+      ],
+      "redFlags": [
+        "BP 160/110 mmHg or more",
+        "Severe headache, visual disturbance or clonus",
+        "Epigastric or RUQ pain with low platelets or raised transaminases (HELLP)",
+        "Seizure in pregnancy or the postpartum period",
+        "Shortness of breath and falling saturations (pulmonary oedema)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Magnesium sulfate regimen",
+          "india": "Pritchard IM regimen (deep IM injections) is widely used.",
+          "australia": "IV Zuspan-style regimen: 4 g loading then 1 g/hour, with reflex, respiratory and urine output monitoring."
+        },
+        {
+          "aspect": "Diagnosis of pre-eclampsia",
+          "india": "Often taught as hypertension plus proteinuria.",
+          "australia": "SOMANZ: hypertension plus any maternal organ dysfunction or fetal growth restriction; proteinuria not essential."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "BP threshold for severe hypertension in pregnancy?",
+          "back": "160/110 mmHg or more; treat urgently."
+        },
+        {
+          "front": "Magnesium sulfate IV regimen for eclampsia?",
+          "back": "4 g loading over 15-20 min, then 1 g/hour, usually for 24 hours."
+        },
+        {
+          "front": "First sign of magnesium toxicity?",
+          "back": "Loss of patellar reflexes."
+        },
+        {
+          "front": "Antidote for magnesium toxicity?",
+          "back": "Calcium gluconate 10%, 10 mL IV over 10 minutes."
+        },
+        {
+          "front": "Significant proteinuria on spot urine in pregnancy?",
+          "back": "Protein:creatinine ratio 30 mg/mmol or more."
+        },
+        {
+          "front": "What does HELLP stand for?",
+          "back": "Haemolysis, Elevated Liver enzymes, Low Platelets."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "obstetric-emergencies--pre-eclampsia-and-eclampsia--q1",
+          "discipline": "womens-health",
+          "topic": "obstetric-emergencies",
+          "difficulty": "core",
+          "stem": "A 26-year-old primigravida at 36 weeks' gestation presents with a headache and flashing lights. BP is 168/112 mmHg on repeated measurement. She has three beats of clonus at the ankle. Urine protein:creatinine ratio is 62 mg/mmol and platelets are 95 x 10^9/L. CTG is normal.\n\nWhich is the most appropriate immediate management?",
+          "options": [
+            "Magnesium sulfate infusion and urgent antihypertensive therapy",
+            "IV diazepam and CT brain",
+            "Oral methyldopa and repeat BP in 4 hours",
+            "Immediate category 1 caesarean section before any treatment",
+            "IV frusemide and fluid restriction"
+          ],
+          "answer": 0,
+          "explanation": "She has **pre-eclampsia with severe features**: severe hypertension (160/110 or more), neurological symptoms (headache, visual disturbance, clonus), significant proteinuria and thrombocytopenia.\n\nThe priorities are to prevent eclampsia with **magnesium sulfate** (4 g IV loading then 1 g/hour) and to **lower BP urgently**, within an hour, using oral immediate-release nifedipine, IV labetalol or IV hydralazine, to reduce the risk of intracerebral haemorrhage. Once stabilised, she is delivered, since the cure is birth of the placenta and she is 36 weeks.\n\nRushing to theatre with uncontrolled BP and no seizure prophylaxis is dangerous. Diazepam is inferior to magnesium. Methyldopa is too slow for severe hypertension.",
+          "whyWrong": [
+            "",
+            "Diazepam is inferior to magnesium; CT is not the priority.",
+            "Methyldopa is too slow for severe hypertension, and waiting 4 hours is unsafe.",
+            "Stabilise first: seizure prophylaxis and BP control come before delivery.",
+            "Frusemide is only for pulmonary oedema and does not treat the underlying risk."
+          ],
+          "tags": [
+            "pre-eclampsia",
+            "magnesium",
+            "severe hypertension"
+          ]
+        },
+        {
+          "id": "obstetric-emergencies--pre-eclampsia-and-eclampsia--q2",
+          "discipline": "womens-health",
+          "topic": "obstetric-emergencies",
+          "difficulty": "exam",
+          "stem": "A 31-year-old woman is receiving magnesium sulfate at 1 g per hour after a caesarean section for severe pre-eclampsia 10 hours ago. The midwife reports she is drowsy. Respiratory rate is 8 breaths per minute, oxygen saturation 91% on room air, and patellar reflexes are absent. Urine output has been 15 mL per hour for the last 4 hours.\n\nWhat is the most appropriate immediate management?",
+          "options": [
+            "Reduce the infusion to 0.5 g per hour",
+            "Give IV naloxone",
+            "Give a fluid bolus of 1 L normal saline",
+            "Check serum magnesium and continue the infusion until the result is back",
+            "Stop the infusion, support breathing and give IV calcium gluconate"
+          ],
+          "answer": 4,
+          "explanation": "This is **magnesium toxicity**. Magnesium is cleared by the kidneys, and her **oliguria** has allowed levels to accumulate. Toxicity progresses predictably: **loss of patellar reflexes**, then **respiratory depression**, then cardiac conduction problems and arrest.\n\nManagement: **stop the infusion**, give oxygen and support ventilation as needed, and give **calcium gluconate 10%, 10 mL IV over 10 minutes**, which antagonises magnesium at the neuromuscular junction. Then check serum magnesium and renal function, and reassess fluids carefully (pre-eclamptic women are prone to pulmonary oedema).\n\nNaloxone would be relevant for opioid toxicity, but absent reflexes and oliguria point to magnesium.",
+          "whyWrong": [
+            "Any ongoing infusion worsens toxicity when she already has respiratory depression.",
+            "Naloxone reverses opioids, not magnesium; the reflex loss and oliguria point to magnesium.",
+            "A large bolus risks pulmonary oedema and does not reverse toxicity.",
+            "Waiting for a level while continuing the infusion risks respiratory arrest.",
+            ""
+          ],
+          "tags": [
+            "magnesium toxicity",
+            "pre-eclampsia",
+            "calcium gluconate"
+          ]
+        },
+        {
+          "id": "obstetric-emergencies--pre-eclampsia-and-eclampsia--q3",
+          "discipline": "womens-health",
+          "topic": "obstetric-emergencies",
+          "difficulty": "core",
+          "stem": "A 34-year-old woman at 35 weeks' gestation presents with epigastric pain and nausea for 12 hours. She thought it was indigestion. BP is 148/94 mmHg (it was 118/74 two weeks ago). Hb 98 g/L, platelets 72 x 10^9/L, ALT 310 U/L, LDH markedly raised, and the blood film shows fragmented red cells.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Acute fatty liver of pregnancy",
+            "Intrahepatic cholestasis of pregnancy",
+            "HELLP syndrome",
+            "Acute cholecystitis",
+            "Thrombotic thrombocytopenic purpura"
+          ],
+          "answer": 2,
+          "explanation": "**HELLP syndrome** (Haemolysis, Elevated Liver enzymes, Low Platelets) is a severe variant of pre-eclampsia. It classically presents with **epigastric or right upper quadrant pain**, nausea and malaise, and the BP may be only modestly raised, which is why it is often mistaken for gastritis or gallbladder disease.\n\nHer results show haemolysis (fragmented cells, raised LDH, falling Hb), raised transaminases and thrombocytopenia with new hypertension.\n\nManagement: stabilise, control BP, give **magnesium sulfate**, correct coagulopathy, and **deliver**. Liver haematoma and rupture are rare but lethal complications.\n\nAFLP has marked hypoglycaemia, raised ammonia and coagulopathy. Cholestasis causes itch without haemolysis. TTP causes haemolysis and low platelets but not this liver picture with new hypertension.",
+          "whyWrong": [
+            "AFLP typically shows hypoglycaemia, coagulopathy and renal impairment rather than prominent haemolysis.",
+            "Cholestasis presents with itch and raised bile acids, not haemolysis or low platelets.",
+            "",
+            "Cholecystitis does not cause haemolysis and thrombocytopenia.",
+            "TTP is possible but new hypertension with this liver picture in the third trimester points to HELLP."
+          ],
+          "tags": [
+            "hellp",
+            "pre-eclampsia",
+            "epigastric pain"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "obstetric-emergencies--postpartum-haemorrhage",
+      "title": "Postpartum haemorrhage",
+      "minutes": 16,
+      "objectives": [
+        "Define primary and secondary PPH and identify women at risk",
+        "Find the cause of PPH using the 4 Ts",
+        "Run the stepwise management of PPH, including uterotonics and tranexamic acid",
+        "Know when to escalate to surgical and radiological treatment"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Definitions and scale",
+          "body": "**Primary PPH**: blood loss of **500 mL or more** within 24 hours of birth (after vaginal birth; 1000 mL or more is commonly used after caesarean and defines **severe** PPH generally). **Secondary PPH**: abnormal or excessive bleeding from **24 hours to 12 weeks** after birth.\n\nPPH affects over 1 in 10 births in Australia and the rate has been rising. It remains the leading cause of maternal death worldwide. Visual estimates underestimate loss, so **weigh swabs and measure** where possible, and remember that young healthy women maintain their BP until they have lost a large volume: **tachycardia and a rising shock index are early warnings**."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "The 4 Ts",
+          "body": "After placental separation, bleeding from the placental bed is controlled mainly by **myometrial contraction** compressing the spiral arteries (\"living ligatures\"), then by clotting. PPH follows when either fails.\n\n| T | Share | Causes and risk factors |\n|---|---|---|\n| **Tone** | About 70% | Uterine atony: prolonged or augmented labour, overdistension (twins, polyhydramnios, macrosomia), grand multiparity, chorioamnionitis, fibroids, general anaesthesia, full bladder |\n| **Trauma** | About 20% | Perineal, vaginal or cervical tears, extension at caesarean, uterine rupture, **uterine inversion**, haematoma |\n| **Tissue** | About 10% | Retained placenta, cotyledon or membranes; placenta accreta spectrum |\n| **Thrombin** | Under 1% | Pre-existing bleeding disorder (von Willebrand), anticoagulants, **DIC** from abruption, pre-eclampsia/HELLP, amniotic fluid embolism, sepsis, massive haemorrhage itself |\n\nA **soft, boggy uterus above the umbilicus** points to tone. A **well-contracted uterus with ongoing bright bleeding** points to trauma. A placenta with missing pieces points to tissue. Oozing from cannula sites and non-clotting blood point to thrombin."
+        },
+        {
+          "kind": "management",
+          "heading": "Prevention: active management of the third stage",
+          "body": "**Active management of the third stage** is recommended for all women in Australia and reduces PPH:\n\n- **Oxytocin 10 IU IM** (or IV per protocol) with birth of the anterior shoulder or soon after birth of the baby.\n- Delayed cord clamping (at least 30-60 seconds in a well baby) is compatible with it.\n- Controlled cord traction once signs of separation appear.\n\nAnticipate: women with risk factors (previous PPH, anaemia, twins, prolonged labour) should have IV access, a group and hold, and an active third stage. Treat anaemia antenatally. Placenta accreta should be planned for in a tertiary centre."
+        },
+        {
+          "kind": "management",
+          "heading": "Treatment: the stepwise approach",
+          "body": "Do things **simultaneously**, not one after another. Call for help (senior midwife, obstetrician, anaesthetist), and state \"PPH\" clearly.\n\n**Resuscitate**\n\n- ABC, high-flow oxygen, lie flat.\n- **Two large-bore IV cannulas**, bloods: FBC, **coagulation with fibrinogen**, crossmatch, and a venous gas for lactate and Hb.\n- Warmed crystalloid initially, then blood. Activate the **massive transfusion protocol** if bleeding continues; give blood products in ratio. A **fibrinogen below about 2 g/L** predicts progression to severe PPH, so replace it (cryoprecipitate or fibrinogen concentrate).\n- Indwelling catheter to empty the bladder and monitor output. Keep her warm (hypothermia worsens coagulopathy).\n\n**Stop the bleeding (tone first, since it is commonest)**\n\n1. **Fundal massage** (\"rub up a contraction\") and expel clots; **bimanual compression** if bleeding continues.\n2. **Oxytocin**: 5 IU slow IV or 10 IU IM, then an IV infusion.\n3. **Ergometrine** 250 micrograms IM or slow IV. **Avoid in hypertension, pre-eclampsia and cardiac disease** (vasoconstriction, severe hypertension, stroke).\n4. **Carboprost** (15-methyl PGF2-alpha) 250 micrograms IM, repeated every 15 minutes up to 8 doses. **Avoid in asthma** (bronchospasm).\n5. **Misoprostol** 800-1000 micrograms rectally or sublingually (where available; slower onset).\n6. **Tranexamic acid 1 g IV** over 10 minutes, as soon as possible and **within 3 hours of birth**, with a second 1 g dose if bleeding continues after 30 minutes or restarts (WOMAN trial). It helps whatever the cause.\n\n**Trauma**: examine in good light with adequate analgesia, repair tears, drain haematomas, usually in theatre.\n\n**Tissue**: **retained placenta** (not delivered 30-60 minutes after birth with active management, or sooner if bleeding) requires **manual removal in theatre** under anaesthesia, with antibiotics.\n\n**Thrombin**: correct with blood products guided by coagulation or viscoelastic testing (ROTEM/TEG) and haematology advice.\n\n**If medical measures fail** (move early to theatre):\n\n- Examination under anaesthesia.\n- **Intrauterine balloon tamponade** (e.g. Bakri balloon).\n- Compression sutures (**B-Lynch**), uterine or internal iliac artery ligation.\n- **Uterine artery embolisation** by interventional radiology if stable enough.\n- **Hysterectomy**: the life-saving step, performed before the woman is in extremis.\n\n**Uterine inversion**: fundus not palpable abdominally, a mass in the vagina, and **shock out of proportion to bleeding** (vagal). Replace the uterus immediately by hand, stop oxytocin until it is replaced, then give uterotonics."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Secondary PPH",
+          "body": "Usually caused by **endometritis** and/or **retained products of conception**. Presents days to weeks after birth with heavier bleeding, offensive lochia, fever, uterine tenderness and a bulky uterus with an open os.\n\n- Investigations: FBC, CRP, blood cultures if febrile, high vaginal and endocervical swabs, pelvic ultrasound (interpret cautiously: some echogenic material is normal postpartum).\n- Treatment: **antibiotics** per Therapeutic Guidelines (typically amoxicillin with clavulanate orally for mild disease, IV broad-spectrum if septic), uterotonics, and **surgical evacuation** for significant retained products or heavy bleeding.\n- Watch for **group A streptococcal sepsis**, which can progress very quickly."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Traps and discriminating clues",
+          "body": "- The first step for a boggy uterus is **fundal massage** and oxytocin, not theatre.\n- Woman with pre-eclampsia and PPH: skip **ergometrine**; move to carboprost (unless asthmatic) and TXA.\n- Asthmatic woman: avoid **carboprost**.\n- Contracted uterus with ongoing bleeding: **look for trauma**.\n- Shock out of proportion to blood loss straight after birth, no fundus palpable: **uterine inversion**.\n- TXA is time-critical: benefit falls with delay beyond 3 hours.\n- \"Placenta not delivered 45 minutes after birth, minimal bleeding\": **manual removal in theatre**, not repeated forceful cord traction (which risks inversion).\n- Blood loss is underestimated: a woman who is tachycardic and pale with a \"moderate\" loss is treated as a major PPH."
+        }
+      ],
+      "keyPoints": [
+        "Primary PPH is 500 mL or more within 24 hours; secondary is from 24 hours to 12 weeks.",
+        "4 Ts: tone (about 70%), trauma, tissue, thrombin.",
+        "Active management of the third stage with oxytocin 10 IU IM prevents PPH.",
+        "Massage and bimanual compression, oxytocin, then ergometrine (avoid in hypertension), carboprost (avoid in asthma), misoprostol.",
+        "Tranexamic acid 1 g IV within 3 hours, repeated once if bleeding continues.",
+        "Replace fibrinogen early; activate the massive transfusion protocol.",
+        "Escalate to balloon tamponade, compression sutures, embolisation or hysterectomy."
+      ],
+      "redFlags": [
+        "Tachycardia and rising shock index even with normal BP",
+        "Boggy uterus that does not respond to massage and oxytocin",
+        "Non-clotting blood or oozing from cannula sites",
+        "Shock out of proportion to visible loss (inversion, concealed haematoma, rupture)",
+        "Fever and offensive lochia days after birth (endometritis, GAS sepsis)"
+      ],
+      "contrast": [
+        {
+          "aspect": "Third uterotonic choice",
+          "india": "Misoprostol is widely used because it is cheap and heat-stable.",
+          "australia": "Carboprost is standard in hospitals; misoprostol is used where available but has slower onset."
+        },
+        {
+          "aspect": "Escalation resources",
+          "india": "Blood and theatre availability can limit care in peripheral centres.",
+          "australia": "Massive transfusion protocols, interventional radiology in major centres; rural sites stabilise and retrieve."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Definition of primary PPH?",
+          "back": "Blood loss 500 mL or more within 24 hours of birth."
+        },
+        {
+          "front": "Commonest cause of PPH?",
+          "back": "Uterine atony (tone), about 70%."
+        },
+        {
+          "front": "Uterotonic to avoid in hypertension or pre-eclampsia?",
+          "back": "Ergometrine."
+        },
+        {
+          "front": "Uterotonic to avoid in asthma?",
+          "back": "Carboprost (PGF2-alpha)."
+        },
+        {
+          "front": "Tranexamic acid in PPH: dose and timing?",
+          "back": "1 g IV over 10 min within 3 hours of birth; repeat 1 g if bleeding continues after 30 min."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "obstetric-emergencies--postpartum-haemorrhage--q1",
+          "discipline": "womens-health",
+          "topic": "obstetric-emergencies",
+          "difficulty": "foundation",
+          "stem": "A 33-year-old woman, G4P4, has just had a vaginal birth of a 4.3 kg baby after a 16-hour oxytocin-augmented labour. The placenta was delivered complete 10 minutes ago after IM oxytocin. She now has brisk bleeding with an estimated loss of 800 mL. Pulse 116 bpm, BP 108/66 mmHg. The uterus is soft and palpable above the umbilicus.\n\nWhile help is summoned and IV access obtained, what is the most appropriate immediate action?",
+          "options": [
+            "Transfer to theatre for balloon tamponade",
+            "Fundal massage and IV oxytocin",
+            "Suture of the perineum",
+            "Give IV vitamin K",
+            "Pelvic ultrasound to exclude retained products"
+          ],
+          "answer": 1,
+          "explanation": "A **soft, boggy uterus above the umbilicus** with brisk bleeding after a complete placenta means **uterine atony** (tone), the cause of most PPH. She has several risk factors: grand multiparity, macrosomia and a long augmented labour (the myometrium is exhausted and oxytocin receptors are desensitised).\n\nThe first steps, done simultaneously with calling for help and resuscitation, are **fundal massage** to stimulate contraction (with bimanual compression if needed) and a **uterotonic**: oxytocin IV bolus then infusion. If bleeding continues, escalate to ergometrine (if not hypertensive), carboprost, misoprostol and tranexamic acid, and then surgical measures.\n\nTheatre is the escalation step, not the first. The uterus finding, not the perineum, explains the bleeding.",
+          "whyWrong": [
+            "Balloon tamponade is an escalation after first-line measures fail.",
+            "",
+            "A soft uterus points to atony; suturing a tear will not stop this bleeding.",
+            "Vitamin K has no role in obstetric haemorrhage.",
+            "Imaging delays treatment, and the placenta was complete."
+          ],
+          "tags": [
+            "pph",
+            "atony",
+            "uterotonics"
+          ]
+        },
+        {
+          "id": "obstetric-emergencies--postpartum-haemorrhage--q2",
+          "discipline": "womens-health",
+          "topic": "obstetric-emergencies",
+          "difficulty": "core",
+          "stem": "A 29-year-old woman with pre-eclampsia (BP 158/100 mmHg on labetalol) has a postpartum haemorrhage after vaginal birth. Fundal massage and oxytocin bolus and infusion have been given, but the uterus remains atonic and bleeding continues. She has well-controlled asthma, last needing her reliever 2 years ago. It is 40 minutes since birth.\n\nWhich combination is most appropriate next?",
+          "options": [
+            "Ergometrine IM",
+            "Carboprost IM and tranexamic acid IV",
+            "Ergometrine IV and carboprost IM",
+            "Oral misoprostol alone and review in 1 hour",
+            "IV vitamin K and fresh frozen plasma"
+          ],
+          "answer": 1,
+          "explanation": "After oxytocin fails, the usual next uterotonic is **ergometrine**, but it causes vasoconstriction and can precipitate severe hypertension and stroke. It is **contraindicated in pre-eclampsia and hypertension**.\n\n**Carboprost** is the next choice. It is avoided in asthma because it can cause bronchospasm, but that is a relative contraindication; in well-controlled, inactive asthma with life-threatening haemorrhage the benefit usually outweighs the risk, with monitoring. **Tranexamic acid 1 g IV** within 3 hours of birth reduces death from bleeding and should be given early.\n\nMeanwhile, prepare for theatre (balloon tamponade, compression sutures) if bleeding persists.\n\n**Rule:** hypertension, no ergometrine; add TXA early.",
+          "whyWrong": [
+            "Ergometrine is contraindicated in pre-eclampsia because of severe hypertension.",
+            "",
+            "Contains ergometrine, which is contraindicated in her.",
+            "Oral misoprostol alone is slow, and waiting an hour with active bleeding is unsafe.",
+            "There is no evidence of a vitamin K-related coagulopathy; tone is the problem."
+          ],
+          "ausPearl": "Australian PPH guidelines list ergometrine as contraindicated in hypertension and carboprost as used with caution in asthma.",
+          "tags": [
+            "pph",
+            "pre-eclampsia",
+            "tranexamic acid"
+          ]
+        },
+        {
+          "id": "obstetric-emergencies--postpartum-haemorrhage--q3",
+          "discipline": "womens-health",
+          "topic": "obstetric-emergencies",
+          "difficulty": "exam",
+          "stem": "Immediately after a vaginal birth, a midwife applies strong cord traction before signs of placental separation. The woman suddenly becomes pale and faint. Pulse 52 bpm, BP 70/40 mmHg. Estimated blood loss is 400 mL. The fundus cannot be palpated abdominally and a smooth, rounded mass is seen at the introitus with the placenta attached.\n\nWhat is the most appropriate immediate step?",
+          "options": [
+            "Remove the placenta, then give IV oxytocin",
+            "Give ergometrine to contract the uterus",
+            "Transfer to interventional radiology for embolisation",
+            "Give IV atropine and observe",
+            "Stop oxytocin and immediately replace the uterus manually with the placenta in situ"
+          ],
+          "answer": 4,
+          "explanation": "This is **acute uterine inversion**, often caused by cord traction before separation, especially with a fundal placenta. Features: **shock out of proportion to blood loss** (a vagal response from traction on the peritoneum and ovaries, causing bradycardia), **no palpable fundus**, and a mass in the vagina.\n\nThe key action is **immediate manual replacement** (pushing the fundus up through the cervix, last-out-first-in), done as quickly as possible before a cervical ring forms. **Stop uterotonics** until it is replaced, and do **not** remove the placenta first, because that increases bleeding. Call for help, resuscitate, and use tocolysis, anaesthesia or hydrostatic methods if manual replacement fails. After replacement, give oxytocin to keep the uterus contracted.",
+          "whyWrong": [
+            "Removing the placenta first increases haemorrhage; replace the uterus first.",
+            "Uterotonics before replacement make it harder by contracting the cervical ring.",
+            "Embolisation is irrelevant and delays the simple fix.",
+            "Atropine does not correct the cause.",
+            ""
+          ],
+          "tags": [
+            "uterine inversion",
+            "pph",
+            "third stage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "obstetric-emergencies--intrapartum-emergencies",
+      "title": "Shoulder dystocia, cord prolapse and uterine rupture",
+      "minutes": 15,
+      "objectives": [
+        "Anticipate and manage shoulder dystocia with a structured sequence",
+        "Recognise the neonatal injuries that follow shoulder dystocia",
+        "Manage umbilical cord prolapse by relieving pressure and expediting birth",
+        "Recognise uterine rupture and amniotic fluid embolism"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Rare, fast and drilled",
+          "body": "These events are uncommon, but they are high-stakes and time-critical, so maternity units in Australia run regular skills drills (for example PROMPT training). The AMC asks for the **first** action and the right sequence."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Shoulder dystocia",
+          "body": "**Definition**: after the head is born, the shoulders fail to deliver with gentle downward traction and additional manoeuvres are needed. The anterior shoulder is impacted behind the **pubic symphysis**. It affects roughly 0.5-1% of vaginal births.\n\n**Risk factors**: macrosomia, **diabetes** (the fetus's shoulders and trunk grow disproportionately), maternal obesity, previous shoulder dystocia, post-term pregnancy, prolonged second stage and instrumental delivery. But about half occur in babies of normal weight, and most large babies do not have it, so it is not reliably predictable.\n\n**Signs**: slow crowning and the **\"turtle sign\"**: the head delivers and then retracts against the perineum. Restitution does not occur.\n\n**Why it's urgent**: the cord is compressed between the fetal body and the pelvis; hypoxic injury becomes increasingly likely as the head-to-body interval extends beyond a few minutes."
+        },
+        {
+          "kind": "management",
+          "heading": "The shoulder dystocia sequence",
+          "body": "A widely taught mnemonic is **HELPERR**:\n\n- **H**elp: call for senior obstetric, midwifery, neonatal and anaesthetic help. Note the time the head was born. Stop pushing.\n- **E**valuate for episiotomy: it gives room for internal manoeuvres; it does not relieve the bony obstruction.\n- **L**egs: **McRoberts manoeuvre**, hyperflexing the mother's thighs onto her abdomen. It flattens the lumbosacral angle and rotates the symphysis upwards, and resolves many cases on its own.\n- **P**ressure: **suprapubic pressure** from the side of the fetal back, pushing the anterior shoulder towards the fetal chest to adduct and dislodge it (continuous then rocking).\n- **E**nter: internal rotational manoeuvres (Rubin II, Woods' screw) to rotate the shoulders into an oblique diameter.\n- **R**emove the posterior arm: sweep it across the chest to reduce the shoulder diameter.\n- **R**oll: onto **all fours** (Gaskin manoeuvre), which changes pelvic dimensions and may free the posterior shoulder.\n\n**Avoid** excessive or lateral traction on the head and **fundal pressure** (which impacts the shoulder further and risks uterine rupture). Last-resort options in theatre include cleidotomy, symphysiotomy and the Zavanelli manoeuvre.\n\n**Afterwards**: anticipate **PPH** and **third and fourth degree tears**; neonatal review; document timings, manoeuvres and which shoulder was anterior; debrief the woman.\n\n**Neonatal injuries**: **brachial plexus injury**, most often **Erb's palsy (C5-C6)**, giving the \"waiter's tip\" posture (arm adducted, internally rotated, elbow extended, wrist flexed); most recover. Also clavicle or humerus fracture and hypoxic-ischaemic encephalopathy. Klumpke's palsy (C8-T1) affects the hand."
+        },
+        {
+          "kind": "management",
+          "heading": "Umbilical cord prolapse",
+          "body": "**Definition**: the cord descends below the presenting part after membrane rupture (overt), or lies alongside it. Compression and vasospasm of the cord (from cold air and handling) cause **fetal bradycardia** and hypoxia.\n\n**Risk factors**: anything that stops the presenting part filling the pelvis: **malpresentation** (breech, especially footling; transverse lie), preterm or small baby, polyhydramnios, multiparity, second twin, and **artificial rupture of membranes with a high presenting part**.\n\n**Suspect it** with a sudden fetal bradycardia or variable decelerations after membranes rupture; confirm on vaginal examination or when the cord is visible.\n\n**Management** (do not delay for anything):\n\n1. **Call for help**; declare a category 1 emergency.\n2. **Relieve pressure on the cord**: manually push the presenting part up with fingers in the vagina and keep them there, and position the woman **knee-chest** or in exaggerated left lateral (Sims) with a head-down tilt.\n3. **Fill the bladder** with around 500 mL of saline via a catheter, which lifts the presenting part (useful during transfer, e.g. in a rural setting or ambulance).\n4. **Minimise handling** of the cord to reduce vasospasm; do not try to push it back.\n5. Stop oxytocin; tocolysis (e.g. terbutaline) can reduce contractions if there is delay.\n6. **Deliver urgently**: category 1 caesarean section, unless the cervix is **fully dilated** and vaginal birth can be achieved quickly and safely (e.g. forceps or vacuum)."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Uterine rupture and amniotic fluid embolism",
+          "body": "**Uterine rupture**: most commonly at a **previous caesarean scar**, especially during labour with **induction or oxytocin augmentation**. The risk with planned VBAC is roughly 1 in 200. Features:\n\n- **Abnormal CTG** (often the earliest sign: prolonged deceleration or bradycardia)\n- Scar pain or tenderness, pain breaking through an epidural\n- Vaginal bleeding, haematuria\n- **Loss of station** of the presenting part, change in contraction pattern\n- Maternal tachycardia and shock\n\nManagement: resuscitate and perform **immediate laparotomy**, deliver the baby, and repair the uterus or perform hysterectomy.\n\n**Amniotic fluid embolism (AFE)**: rare, unpredictable, and often fatal. Sudden **collapse, hypoxia and hypotension** during labour, caesarean or shortly after birth, often with **seizures** and rapid **DIC** with haemorrhage. It is an anaphylactoid reaction to fetal material entering the maternal circulation. Management is supportive: resuscitation, left uterine displacement, early intubation, blood products for coagulopathy, delivery of the baby, and ICU.\n\n| | Uterine rupture | AFE | Massive PE |\n|---|---|---|---|\n| Setting | Scarred uterus in labour | Labour or just after birth | Any time, highest postpartum |\n| Key clue | Loss of station, scar pain, fetal bradycardia | Collapse plus early DIC and bleeding | Pleuritic pain, leg swelling, no early coagulopathy |"
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Traps and discriminating clues",
+          "body": "- Shoulder dystocia first step: **call for help** and McRoberts with suprapubic pressure. Fundal pressure is always wrong.\n- Baby with arm hanging limp, internally rotated with flexed wrist after a difficult birth: **Erb's palsy (C5-C6)**.\n- Cord prolapse at 6 cm: relieve pressure and **category 1 caesarean**. At full dilatation with head low: expedite **instrumental birth**.\n- Never try to replace a prolapsed cord into the uterus.\n- VBAC on oxytocin with sudden bradycardia and loss of station: **uterine rupture**, laparotomy."
+        }
+      ],
+      "keyPoints": [
+        "Shoulder dystocia: call for help, McRoberts and suprapubic pressure first; avoid fundal pressure and excess traction.",
+        "Then internal rotation, delivery of the posterior arm and all-fours.",
+        "Erb's palsy (C5-C6) gives the waiter's tip posture; most recover.",
+        "Cord prolapse: elevate the presenting part, knee-chest position or fill the bladder, minimise handling.",
+        "Cord prolapse needs category 1 caesarean unless fully dilated and vaginal birth is quick.",
+        "Uterine rupture: scar, oxytocin, abnormal CTG and loss of station; immediate laparotomy.",
+        "AFE: sudden collapse with hypoxia and early DIC; supportive care."
+      ],
+      "redFlags": [
+        "Turtle sign after delivery of the head",
+        "Sudden fetal bradycardia after membrane rupture",
+        "Loss of station or scar pain in a woman with a previous caesarean",
+        "Sudden maternal collapse with hypoxia and bleeding in labour"
+      ],
+      "contrast": [
+        {
+          "aspect": "Remote cord prolapse",
+          "india": "Referral to a higher centre, often over long distances.",
+          "australia": "Fill the bladder, position knee-chest, and arrange urgent retrieval (e.g. RFDS or state retrieval services)."
+        },
+        {
+          "aspect": "Emergency skills training",
+          "india": "Drills vary by institution.",
+          "australia": "Regular multidisciplinary obstetric emergency drills (e.g. PROMPT) are standard in Australian maternity units."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "First manoeuvres for shoulder dystocia?",
+          "back": "Call for help, McRoberts manoeuvre and suprapubic pressure."
+        },
+        {
+          "front": "Manoeuvre contraindicated in shoulder dystocia?",
+          "back": "Fundal pressure (and excessive lateral traction on the head)."
+        },
+        {
+          "front": "Nerve roots in Erb's palsy?",
+          "back": "C5-C6 (waiter's tip posture)."
+        },
+        {
+          "front": "How to relieve cord compression in cord prolapse?",
+          "back": "Elevate the presenting part manually, knee-chest position, or fill the bladder with about 500 mL."
+        },
+        {
+          "front": "Earliest sign of uterine rupture in labour?",
+          "back": "An abnormal CTG, often prolonged deceleration or bradycardia."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "obstetric-emergencies--intrapartum-emergencies--q1",
+          "discipline": "womens-health",
+          "topic": "obstetric-emergencies",
+          "difficulty": "foundation",
+          "stem": "A 34-year-old woman with gestational diabetes on insulin is in the second stage of labour at 39 weeks. The baby's head delivers but then retracts tightly against the perineum. Gentle downward traction fails to deliver the anterior shoulder. Help has been called and the time noted.\n\nWhat is the most appropriate next manoeuvre?",
+          "options": [
+            "Fundal pressure",
+            "Zavanelli manoeuvre",
+            "Strong lateral traction on the fetal head",
+            "McRoberts manoeuvre with suprapubic pressure",
+            "Immediate symphysiotomy"
+          ],
+          "answer": 3,
+          "explanation": "The 'turtle sign' and failure of routine traction mean **shoulder dystocia**. Diabetes is a classic risk factor because the fetal shoulders and trunk are disproportionately large.\n\nAfter calling for help, the first manoeuvres are **McRoberts** (hyperflexing the mother's thighs onto her abdomen, which flattens the sacral promontory and rotates the symphysis) and **suprapubic pressure** from the side of the fetal back to adduct and dislodge the anterior shoulder. Together they resolve a large proportion of cases.\n\nIf these fail: internal rotational manoeuvres, delivery of the posterior arm, and the all-fours position. **Fundal pressure** worsens impaction, and **excessive traction** causes brachial plexus injury.",
+          "whyWrong": [
+            "Fundal pressure impacts the shoulder further and risks uterine rupture.",
+            "Zavanelli is a last resort after all other manoeuvres fail.",
+            "Excessive traction causes brachial plexus injury.",
+            "",
+            "Symphysiotomy is a last-resort procedure, not a first step."
+          ],
+          "tags": [
+            "shoulder dystocia",
+            "mcroberts",
+            "intrapartum"
+          ]
+        },
+        {
+          "id": "obstetric-emergencies--intrapartum-emergencies--q2",
+          "discipline": "womens-health",
+          "topic": "obstetric-emergencies",
+          "difficulty": "core",
+          "stem": "A 27-year-old woman, G3P2, is in labour at 38 weeks with the cervix 5 cm dilated and the fetal head high. Membranes rupture spontaneously and the CTG immediately shows a fetal heart rate of 80 bpm. On vaginal examination a pulsating loop of cord is felt in the vagina.\n\nAfter calling for help, what is the most appropriate management?",
+          "options": [
+            "Manually elevate the presenting part, position knee-chest, and arrange category 1 caesarean section",
+            "Attempt to push the cord back above the presenting part",
+            "Apply a vacuum cup to expedite vaginal birth",
+            "Start an oxytocin infusion to speed labour",
+            "Wait 10 minutes to see if the fetal heart rate recovers"
+          ],
+          "answer": 0,
+          "explanation": "This is **umbilical cord prolapse**: membrane rupture with a high presenting part, sudden fetal bradycardia and a palpable cord.\n\nThe immediate aim is to **relieve compression**: keep fingers in the vagina to **elevate the presenting part**, place the woman in the **knee-chest** or exaggerated Sims position (or fill the bladder with about 500 mL), and **minimise handling of the cord** to avoid vasospasm. At 5 cm dilatation, the fastest safe route is a **category 1 caesarean section**.\n\nInstrumental birth is only an option if the cervix is fully dilated and birth can be achieved quickly. Replacing the cord is not recommended. Oxytocin worsens compression.",
+          "whyWrong": [
+            "",
+            "Attempting to replace the cord causes vasospasm and delays birth; it is not recommended.",
+            "Instrumental birth requires full dilatation; she is 5 cm.",
+            "Oxytocin increases contractions and cord compression.",
+            "Any delay risks hypoxic injury or death."
+          ],
+          "tags": [
+            "cord prolapse",
+            "intrapartum",
+            "caesarean"
+          ]
+        },
+        {
+          "id": "obstetric-emergencies--intrapartum-emergencies--q3",
+          "discipline": "womens-health",
+          "topic": "obstetric-emergencies",
+          "difficulty": "exam",
+          "stem": "A 32-year-old woman is having a trial of labour after one previous caesarean section. Labour is being augmented with oxytocin. At 7 cm she reports sudden sharp abdominal pain that breaks through her epidural. The CTG shows a prolonged deceleration to 70 bpm. On vaginal examination the fetal head, previously at station 0, is now 3 cm above the ischial spines. Pulse 120 bpm, BP 95/60 mmHg.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Placental abruption",
+            "Uterine hyperstimulation",
+            "Amniotic fluid embolism",
+            "Cord prolapse",
+            "Uterine rupture"
+          ],
+          "answer": 4,
+          "explanation": "The combination of a **uterine scar**, **oxytocin augmentation**, **sudden pain breaking through an epidural**, **fetal bradycardia**, **loss of station** of the presenting part and **maternal tachycardia and hypotension** is classic **uterine rupture**.\n\nLoss of station is the discriminating clue: the fetus or presenting part moves out of the pelvis into the abdomen through the rupture. An abnormal CTG is often the earliest sign.\n\nManagement: stop oxytocin, resuscitate, and perform an **immediate laparotomy** to deliver the baby and repair the uterus or perform hysterectomy.\n\nAbruption does not cause loss of station. AFE presents with collapse, hypoxia and coagulopathy. Hyperstimulation causes abnormal CTG but not loss of station.",
+          "whyWrong": [
+            "Abruption causes pain and fetal distress but not loss of station.",
+            "Hyperstimulation causes excessive contractions but no maternal shock or loss of station.",
+            "AFE presents with sudden hypoxia, collapse and coagulopathy rather than scar pain and loss of station.",
+            "Cord prolapse causes bradycardia but not maternal pain, shock or loss of station.",
+            ""
+          ],
+          "tags": [
+            "uterine rupture",
+            "vbac",
+            "intrapartum"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "obstetric-emergencies--maternal-collapse-sepsis-trauma",
+      "title": "Maternal collapse, sepsis and trauma",
+      "minutes": 14,
+      "objectives": [
+        "Adapt basic and advanced life support for pregnancy, including left uterine displacement",
+        "Know when and why to perform a resuscitative hysterotomy",
+        "Recognise and treat maternal sepsis early, including group A streptococcus",
+        "Manage the pregnant trauma patient and screen for family violence"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why pregnancy changes resuscitation",
+          "body": "Maternal collapse is rare, but its causes are important and often reversible. Pregnancy changes the physiology you are resuscitating:\n\n- **Aortocaval compression**: after about 20 weeks (fundus at or above the umbilicus), the uterus compresses the inferior vena cava when the woman lies supine, cutting venous return and cardiac output.\n- **Increased oxygen demand** and reduced functional residual capacity, so she desaturates quickly.\n- **Difficult airway**: oedema, weight gain, breast size; and **aspiration risk** from delayed gastric emptying and a relaxed lower oesophageal sphincter.\n- **Physiological reserve**: blood volume rises by about 40-50%, so young women can lose a lot of blood before BP falls.\n\nTwo cardiovascular causes deserve special mention. **Pulmonary embolism** is a leading direct cause of maternal death in Australia and the risk peaks postpartum, especially after caesarean section. **Peripartum cardiomyopathy** presents in late pregnancy or the months after birth with breathlessness, orthopnoea and oedema that are easily dismissed as normal pregnancy; an echocardiogram shows reduced ejection fraction, and BNP is a useful screening test.\n\nCauses to consider: **haemorrhage**, **thromboembolism**, **amniotic fluid embolism**, **sepsis**, **eclampsia and intracranial haemorrhage**, **cardiac disease** (peripartum cardiomyopathy, dissection), **anaesthetic complications** (high spinal, local anaesthetic toxicity), **magnesium toxicity**, anaphylaxis and hypoglycaemia."
+        },
+        {
+          "kind": "management",
+          "heading": "Resuscitation in pregnancy",
+          "body": "Standard ALS applies (Australian Resuscitation Council guidance), with changes:\n\n- Call the obstetric and neonatal teams as well as the resuscitation team.\n- **Manual left uterine displacement** (pushing the uterus to the left) during CPR, or left lateral tilt of about 15-30 degrees if on a firm surface, to relieve aortocaval compression.\n- Chest compressions and defibrillation are the same as for non-pregnant adults; the fetus is not harmed by defibrillation. Remove fetal monitors.\n- **Early intubation** by an experienced operator, because of aspiration and rapid desaturation.\n- IV access **above the diaphragm** where possible.\n- Treat reversible causes (4 Hs and 4 Ts), plus pregnancy-specific ones: **magnesium toxicity** (calcium gluconate), **local anaesthetic toxicity** (lipid emulsion), **eclampsia** (magnesium), **haemorrhage** (massive transfusion).\n\n**Resuscitative hysterotomy** (perimortem caesarean): in a woman beyond about **20 weeks** in cardiac arrest without return of spontaneous circulation, start at **4 minutes** and aim to deliver the baby by **5 minutes**. It is done **primarily to save the mother**: emptying the uterus relieves aortocaval compression and improves the effectiveness of CPR. It is done where the arrest occurred; do not move her to theatre."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Maternal sepsis",
+          "body": "Sepsis is a leading direct cause of maternal death. The physiology of pregnancy masks early signs (normal pregnancy already has a higher heart rate and lower BP), so use **maternity early warning tools** and a low threshold.\n\n**Sources**:\n\n- **Chorioamnionitis** (intra-amniotic infection): maternal fever, **maternal and fetal tachycardia**, uterine tenderness, offensive liquor, often after prolonged ruptured membranes.\n- **Endometritis** after birth, especially after caesarean or retained products.\n- **Group A streptococcus** (Streptococcus pyogenes): can cause rapidly fatal sepsis and toxic shock, often with **severe pain out of proportion**, diarrhoea and vomiting, and sometimes a sore throat in a family contact. It is notifiable in Australia and close contacts may need prophylaxis per state guidance.\n- **Pyelonephritis**, mastitis and breast abscess, wound infection, pneumonia (including influenza), septic miscarriage.\n\n**Management**: the sepsis bundle within the first hour: blood cultures and lactate, **broad-spectrum IV antibiotics** per Therapeutic Guidelines (for chorioamnionitis commonly ampicillin or amoxicillin plus gentamicin, with metronidazole added after caesarean section or when anaerobic cover is needed; clindamycin is added for toxin suppression in suspected GAS toxic shock), IV fluids guided by response (beware pulmonary oedema in pre-eclampsia), oxygen, and **source control**: deliver the baby in chorioamnionitis, evacuate retained products, drain abscesses. Early ICU involvement."
+        },
+        {
+          "kind": "management",
+          "heading": "Trauma in pregnancy",
+          "body": "Trauma in pregnancy is usually from motor vehicle crashes, falls and **family violence**. The best treatment for the fetus is resuscitation of the mother.\n\n**Primary survey** as usual (ATLS/EMST principles) plus:\n\n- **Left lateral tilt or manual uterine displacement** from 20 weeks.\n- Large-bore access; remember normal BP can hide significant blood loss.\n- **Imaging must not be withheld**: CT is done when clinically indicated. The radiation dose from most diagnostic imaging is far below levels associated with fetal harm, and missed maternal injury is the greater risk.\n\n**Secondary survey adds**: fundal height, uterine tenderness and contractions, vaginal bleeding or fluid, and the fetal heart.\n\n**Placental abruption** can follow even minor abdominal trauma. For a viable fetus, **CTG monitoring for at least 4 hours** after trauma is recommended, longer if there are contractions, tenderness, bleeding or an abnormal trace.\n\n**Rh D-negative**: anti-D **625 IU** plus a **Kleihauer** test to quantify feto-maternal haemorrhage.\n\n**Seatbelts**: the lap belt goes under the bump across the hips, the sash between the breasts.\n\n**Family violence**: often starts or escalates in pregnancy. Ask directly and privately (not in front of the partner), document injuries, assess safety, and connect her with support services (1800RESPECT). Mandatory reporting obligations for adults **vary by state**, but child protection reporting may apply if children are at risk."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "Traps and discriminating clues",
+          "body": "- Pregnant woman at 30 weeks collapsed: before anything else during CPR, **manual left uterine displacement**.\n- Arrest without ROSC at 4 minutes beyond 20 weeks: **resuscitative hysterotomy**, for the mother's sake.\n- Fever and fetal tachycardia after prolonged ruptured membranes: **chorioamnionitis**, IV antibiotics and delivery; steroids do not help.\n- Postpartum woman with severe abdominal pain, vomiting, diarrhoea and hypotension: think **GAS sepsis** early.\n- Minor car crash at 32 weeks with no injuries: still needs **CTG for at least 4 hours** and anti-D if Rh D negative.\n- A CT for trauma should not be withheld because of pregnancy."
+        }
+      ],
+      "keyPoints": [
+        "Relieve aortocaval compression with manual left uterine displacement from about 20 weeks.",
+        "CPR and defibrillation are unchanged; intubate early because of aspiration and rapid desaturation.",
+        "Resuscitative hysterotomy at 4 minutes, delivered by 5 minutes, primarily to help the mother.",
+        "Maternal sepsis signs are masked by pregnancy; give antibiotics within the hour and control the source.",
+        "GAS sepsis can be rapidly fatal; pain out of proportion is a clue.",
+        "After abdominal trauma, CTG for at least 4 hours and anti-D plus Kleihauer if Rh D negative.",
+        "Ask about family violence privately; necessary imaging is never withheld in pregnancy."
+      ],
+      "redFlags": [
+        "Maternal tachycardia above 120 bpm, respiratory rate above 30 or altered conscious state",
+        "Fever with fetal tachycardia or offensive liquor",
+        "Severe pain out of proportion with vomiting and diarrhoea postpartum (GAS)",
+        "Contractions, uterine tenderness or bleeding after abdominal trauma",
+        "Injuries inconsistent with the history"
+      ],
+      "contrast": [
+        {
+          "aspect": "Retrieval and resources",
+          "india": "Transfer to a tertiary centre by road, sometimes over hours.",
+          "australia": "Coordinated state retrieval services and RFDS for remote areas; rural clinicians stabilise and consult early."
+        },
+        {
+          "aspect": "Family violence response",
+          "india": "Addressed variably; social support often via family and NGOs.",
+          "australia": "Routine psychosocial screening in antenatal care, 1800RESPECT, and state-specific reporting pathways."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Gestation from which aortocaval compression matters in resuscitation?",
+          "back": "About 20 weeks (fundus at or above the umbilicus)."
+        },
+        {
+          "front": "Timing of resuscitative hysterotomy?",
+          "back": "Start at 4 minutes of arrest without ROSC; deliver by 5 minutes."
+        },
+        {
+          "front": "Minimum CTG monitoring after abdominal trauma with a viable fetus?",
+          "back": "At least 4 hours."
+        },
+        {
+          "front": "Classic features of chorioamnionitis?",
+          "back": "Maternal fever and tachycardia, fetal tachycardia, uterine tenderness, offensive liquor."
+        },
+        {
+          "front": "Organism causing rapidly fatal puerperal sepsis with toxic shock?",
+          "back": "Group A streptococcus (Streptococcus pyogenes)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "obstetric-emergencies--maternal-collapse-sepsis-trauma--q1",
+          "discipline": "womens-health",
+          "topic": "obstetric-emergencies",
+          "difficulty": "core",
+          "stem": "A 30-year-old woman at 34 weeks' gestation collapses in the antenatal ward. She is unresponsive and not breathing normally, and no pulse is palpable. The team starts CPR on a firm bed with her supine.\n\nWhich additional measure is most important during CPR?",
+          "options": [
+            "Place her in the Trendelenburg position",
+            "Reduce defibrillation energy to protect the fetus",
+            "Perform manual left uterine displacement",
+            "Apply a fetal scalp electrode to monitor the fetus",
+            "Delay intubation to avoid airway trauma"
+          ],
+          "answer": 2,
+          "explanation": "Beyond about 20 weeks, the gravid uterus compresses the **inferior vena cava and aorta** when the woman is supine, reducing venous return and making chest compressions far less effective.\n\n**Manual left uterine displacement** (pushing the uterus up and to the left) keeps her flat for effective compressions while relieving compression; a left lateral tilt is an alternative. If there is no return of spontaneous circulation by 4 minutes, perform a **resuscitative hysterotomy**, aiming for delivery by 5 minutes.\n\nDefibrillation energy is the same as in non-pregnant adults and does not harm the fetus. Fetal monitoring distracts from maternal resuscitation. Early intubation by an experienced operator is recommended because of aspiration risk.",
+          "whyWrong": [
+            "Head-down positioning does not relieve aortocaval compression and hampers compressions.",
+            "Defibrillation energy is unchanged in pregnancy.",
+            "",
+            "Fetal monitoring has no role during maternal cardiac arrest.",
+            "Early intubation is recommended because of aspiration risk and rapid desaturation."
+          ],
+          "tags": [
+            "maternal collapse",
+            "cpr",
+            "resuscitation"
+          ]
+        },
+        {
+          "id": "obstetric-emergencies--maternal-collapse-sepsis-trauma--q2",
+          "discipline": "womens-health",
+          "topic": "obstetric-emergencies",
+          "difficulty": "exam",
+          "stem": "A 25-year-old woman at 38 weeks' gestation has had ruptured membranes for 30 hours and is now in early labour. Her temperature is 38.6 °C, pulse 118 bpm, BP 110/70 mmHg. The uterus is tender and the liquor is offensive. The CTG shows a baseline of 175 bpm with reduced variability. She has no drug allergies.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Oral amoxicillin with clavulanate and allow labour to continue",
+            "IV broad-spectrum antibiotics and expedite birth",
+            "Betamethasone and IV benzylpenicillin",
+            "Paracetamol and repeat temperature in 2 hours",
+            "Tocolysis to delay labour while antibiotics work"
+          ],
+          "answer": 1,
+          "explanation": "Maternal fever, maternal and **fetal tachycardia**, **uterine tenderness** and **offensive liquor** after prolonged rupture of membranes indicate **chorioamnionitis** (intra-amniotic infection), with signs of maternal sepsis.\n\nManagement: sepsis bundle with blood cultures and lactate, **broad-spectrum IV antibiotics** per Therapeutic Guidelines (commonly ampicillin or amoxicillin plus gentamicin, adding metronidazole if caesarean is needed), fluids, and **source control by expediting birth**. The route depends on the CTG and progress; an abnormal CTG may need caesarean section. Alert the neonatal team, as the baby is at risk of early-onset sepsis.\n\nSteroids are not indicated at 38 weeks, and tocolysis is contraindicated with intrauterine infection.",
+          "whyWrong": [
+            "Oral antibiotics are inadequate for a septic woman.",
+            "",
+            "Steroids are for preterm birth; benzylpenicillin alone is inadequate cover.",
+            "Treating fever symptomatically delays antibiotics and source control.",
+            "Tocolysis is contraindicated in chorioamnionitis; the infected uterus should be emptied."
+          ],
+          "tags": [
+            "chorioamnionitis",
+            "sepsis",
+            "labour"
+          ]
+        },
+        {
+          "id": "obstetric-emergencies--maternal-collapse-sepsis-trauma--q3",
+          "discipline": "womens-health",
+          "topic": "obstetric-emergencies",
+          "difficulty": "core",
+          "stem": "A 29-year-old woman at 31 weeks' gestation is brought to the emergency department after a low-speed car crash in which she was a restrained driver. She has seatbelt bruising across her lower abdomen and no other injuries. Pulse 88 bpm, BP 118/76 mmHg. She has no pain or bleeding. Her blood group is A Rh D negative. The fetal heart rate is 140 bpm.\n\nWhich is the most appropriate management?",
+          "options": [
+            "Discharge with advice to return if bleeding or pain occurs",
+            "CTG for 30 minutes, then discharge if normal",
+            "Ultrasound only; discharge if the placenta appears normal",
+            "Continuous CTG for at least 4 hours, anti-D 625 IU and a Kleihauer test",
+            "Admit for betamethasone and planned birth"
+          ],
+          "answer": 3,
+          "explanation": "Even minor abdominal trauma can cause **placental abruption**, which may not be apparent at first. Guidelines recommend **continuous CTG for at least 4 hours** after trauma in a viable pregnancy, extended if there are contractions, uterine tenderness, bleeding, or an abnormal trace.\n\nShe is **Rh D negative**, and trauma is a sensitising event, so she needs **anti-D 625 IU within 72 hours** plus a **Kleihauer test** to quantify any feto-maternal haemorrhage.\n\nUltrasound is poor at detecting abruption, so a normal scan does not allow discharge. There is no indication for delivery. It is also an opportunity to ask privately about safety at home.",
+          "whyWrong": [
+            "Abruption can develop over hours; she needs monitoring.",
+            "30 minutes is too short to exclude evolving abruption.",
+            "Ultrasound often misses abruption.",
+            "",
+            "There is no indication for birth or steroids with a well mother and fetus."
+          ],
+          "tags": [
+            "trauma",
+            "abruption",
+            "anti-d"
+          ]
+        }
+      ]
+    }
+  ]
+}

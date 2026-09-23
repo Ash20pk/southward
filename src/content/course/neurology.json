@@ -1,0 +1,1073 @@
+{
+  "topic": "neurology",
+  "intro": "Neurology covers stroke and TIA, seizures, headache, acute weakness and the chronic neurodegenerative and demyelinating diseases. The AMC focuses on time-critical decisions (reperfusion in stroke, status epilepticus, SAH and giant cell arteritis, respiratory monitoring in Guillain-Barre syndrome), on localising lesions from the examination, and on safe practice such as driving advice after a seizure and avoiding harmful drugs in Parkinson's disease.",
+  "lessons": [
+    {
+      "id": "neurology--stroke-and-tia",
+      "title": "Stroke and TIA",
+      "minutes": 18,
+      "objectives": [
+        "Recognise acute stroke and its mimics at the front door and act within the reperfusion time windows",
+        "Select patients for thrombolysis and endovascular clot retrieval using time, imaging and contraindications",
+        "Manage a TIA as a same-day emergency, including imaging of brain and carotids and antiplatelet therapy",
+        "Plan secondary prevention, rehabilitation and driving advice after stroke or TIA"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why stroke is an AMC favourite",
+          "body": "Stroke is one of Australia's biggest killers and the leading cause of adult disability. Around 80-85% of strokes are **ischaemic** (large artery atherosclerosis, cardioembolism from AF, small vessel lacunar disease) and the rest are **haemorrhagic** (intracerebral haemorrhage, subarachnoid haemorrhage).\n\nAustralian stroke care is organised around **stroke units** (a geographically defined ward with a multidisciplinary team, which on its own reduces death and dependency) and **telestroke** networks that let a rural ED doctor get a neurologist to review the patient and CT by video and decide on thrombolysis. Ambulance services use prehospital screens and pre-notify the receiving hospital so the CT scanner is ready.\n\nThe AMC tests three things repeatedly: (1) recognising stroke and the clock, (2) the reperfusion decision, and (3) what to do for a TIA in general practice."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Mechanism and the ischaemic penumbra",
+          "body": "When an artery occludes, the core of the territory infarcts within minutes. Around it is the **penumbra**: tissue that is electrically silent but still alive because of collateral flow. Every minute of occlusion converts penumbra into core, which is why \"time is brain\". Reperfusion therapy exists to save the penumbra, and perfusion imaging (CT perfusion) can show how much penumbra is left, which is how late-window patients are selected.\n\n- **Cardioembolic**: AF, recent MI with LV thrombus, endocarditis. Sudden maximal deficit, often cortical.\n- **Large artery**: carotid stenosis at the bifurcation; artery-to-artery embolism. Previous TIAs in the same territory.\n- **Lacunar**: small penetrating arteries (hypertension, diabetes). Pure motor, pure sensory, ataxic hemiparesis; **no cortical signs** (no aphasia, neglect or field defect).\n- **Intracerebral haemorrhage**: hypertension (basal ganglia, thalamus, pons, cerebellum), amyloid angiopathy (lobar, elderly), anticoagulants.\n\nYou cannot reliably tell ischaemia from haemorrhage clinically. Headache, vomiting and reduced consciousness make haemorrhage more likely, but only imaging decides."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Recognising the syndrome",
+          "body": "Sudden onset of focal neurological deficit. Public messaging uses **FAST** (Face, Arms, Speech, Time). Know the territories:\n\n| Territory | Typical features |\n|---|---|\n| Middle cerebral | Contralateral face and arm weakness more than leg, sensory loss, homonymous hemianopia; aphasia if dominant, neglect if non-dominant |\n| Anterior cerebral | Contralateral leg weakness more than arm, abulia |\n| Posterior cerebral | Contralateral homonymous hemianopia (macular sparing) |\n| Posterior circulation (vertebrobasilar) | Vertigo, diplopia, dysarthria, ataxia, crossed signs, reduced consciousness |\n| Lacunar | Pure motor or pure sensory, no cortical signs |\n\nThe key history question is **time last known well**. If the patient woke with symptoms, onset is when they were last seen normal, not when they woke. Always check a **capillary glucose**: hypoglycaemia is the classic mimic. Other mimics: postictal (Todd's) paresis, migraine aura, functional weakness, sepsis unmasking an old deficit, space-occupying lesion."
+        },
+        {
+          "kind": "investigations",
+          "heading": "What to do in the first minutes",
+          "body": "1. **Glucose** at the bedside.\n2. **Non-contrast CT brain** immediately to exclude haemorrhage. Early ischaemic CT is often normal.\n3. **CT angiography** (arch to vertex) to find a large vessel occlusion (internal carotid, proximal MCA, basilar), and **CT perfusion** to map core and penumbra, particularly in late or unknown-onset presentations.\n4. Bloods: FBC, electrolytes and creatinine, coagulation (INR if on warfarin), troponin, group and hold. Do not delay thrombolysis for results other than glucose unless there is a specific reason to suspect coagulopathy.\n5. **ECG** for AF and later **prolonged cardiac monitoring** if no cause is found.\n6. Later: carotid imaging (duplex ultrasound or CTA), echocardiography, lipids, HbA1c, MRI if the diagnosis is uncertain.\n\nFor a **TIA**, the same workup is compressed into the same day: brain imaging (MRI with diffusion-weighted imaging is best, as up to a third of \"TIAs\" show infarction), carotid imaging, ECG and bloods."
+        },
+        {
+          "kind": "management",
+          "heading": "Reperfusion, TIA care and secondary prevention",
+          "body": "**Thrombolysis** (IV alteplase or tenecteplase; tenecteplase is now widely used in Australian stroke services) for disabling ischaemic stroke **within 4.5 hours of onset** once haemorrhage is excluded. BP must be brought below **185/110 mmHg** before lysis. Key contraindications: haemorrhage on CT, recent major surgery or bleeding, significant coagulopathy or therapeutic anticoagulation, very low platelets, and recent stroke or head injury. Hypoglycaemia must be corrected and excluded as the cause.\n\n**Endovascular clot retrieval (ECR)** for **large vessel occlusion**: standard within 6 hours, and **up to 24 hours in selected patients** when perfusion imaging shows salvageable tissue. Lysis and ECR are complementary: give lysis if eligible and transfer for ECR, do not choose one. Rural patients are often lysed locally, then flown to a comprehensive stroke centre.\n\n**Not eligible for reperfusion**: aspirin once haemorrhage is excluded (after lysis, antiplatelets are withheld for about 24 hours until repeat imaging). Admit to a stroke unit, swallow screen before any oral intake (aspiration pneumonia is common), VTE prophylaxis, early mobilisation, and avoid hyperglycaemia, fever and hypoxia.\n\n**Intracerebral haemorrhage**: reverse anticoagulation urgently (Prothrombinex-VF and IV vitamin K for warfarin; idarucizumab for dabigatran), lower systolic BP, neurosurgical opinion for cerebellar haemorrhage or hydrocephalus.\n\n**TIA**: treat as an emergency. The early stroke risk is highest in the first 48 hours. Australian guidelines recommend urgent same-day assessment of everyone with suspected TIA, with brain and carotid imaging, rather than relying on ABCD2 scores alone to triage. Start antiplatelet therapy once haemorrhage is excluded; for high-risk TIA or minor stroke, short-term dual antiplatelet therapy (aspirin plus clopidogrel, typically for about 3 weeks) then a single agent. Check current dosing in eTG and the Living Stroke Guidelines.\n\n**Secondary prevention** after ischaemic stroke or TIA:\n- Antiplatelet (or **anticoagulation with a DOAC if AF**, usually started within days depending on infarct size)\n- BP lowering, high-intensity statin, diabetes control, stop smoking, limit alcohol, exercise\n- **Carotid endarterectomy** for symptomatic stenosis of 70-99% (and selected 50-69%), ideally **within 2 weeks** of the event\n\n**Driving**: after TIA or stroke the patient must not drive for a minimum period set by Austroads (for a private licence this is weeks, longer for commercial) and residual deficits such as a field defect may bar driving. Tell the patient, document it, and check current Austroads standards.\n\n**Rehabilitation**: physiotherapy, occupational therapy, speech pathology and screening for post-stroke depression."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- The vignette gives an onset time and a CT result. Do the arithmetic: under 4.5 hours with no haemorrhage and no contraindication = lysis. Add a large vessel occlusion = lysis **and** ECR.\n- Woke with symptoms = onset is time last seen well.\n- Always glucose first. A hypoglycaemic hemiparesis is a favourite trap.\n- High BP in acute ischaemic stroke is usually left alone unless lysis is planned (then below 185/110) or it is extreme.\n- TIA in general practice: the answer is same-day assessment and imaging, not \"routine outpatient neurology referral\".\n- AF found after a stroke: the answer is a DOAC, not aspirin."
+        }
+      ],
+      "keyPoints": [
+        "Time last known well defines onset; check glucose first.",
+        "Non-contrast CT excludes haemorrhage; CTA finds large vessel occlusion; CT perfusion selects late patients.",
+        "Thrombolysis within 4.5 hours; lower BP below 185/110 first.",
+        "ECR for large vessel occlusion up to 24 hours in selected patients with imaging selection.",
+        "TIA is a same-day emergency: brain and carotid imaging, antiplatelet once haemorrhage excluded.",
+        "Symptomatic carotid stenosis 70-99%: endarterectomy within 2 weeks.",
+        "AF after stroke: anticoagulate with a DOAC, not aspirin.",
+        "Stroke units save lives; swallow screen before oral intake."
+      ],
+      "redFlags": [
+        "Sudden focal deficit with onset under 4.5 hours: activate the stroke call",
+        "Reduced consciousness, vertigo with crossed signs or diplopia: posterior circulation or basilar occlusion",
+        "Stroke in a patient on anticoagulants: suspect haemorrhage and reverse urgently",
+        "Crescendo TIAs (several in days): very high early stroke risk"
+      ],
+      "contrast": [
+        {
+          "aspect": "Reperfusion access",
+          "india": "Thrombolysis mainly in tertiary centres; ECR limited to a few large hospitals.",
+          "australia": "Telestroke lets rural EDs lyse with neurologist support, then retrieve to a comprehensive centre for ECR."
+        },
+        {
+          "aspect": "TIA triage",
+          "india": "Often managed as outpatient with aspirin.",
+          "australia": "Same-day assessment and imaging for all suspected TIA; ABCD2 alone is not used to decide urgency."
+        },
+        {
+          "aspect": "Driving after stroke",
+          "india": "Rarely addressed formally.",
+          "australia": "Austroads non-driving periods apply; doctor advises and documents, patient notifies licensing authority."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Time window for IV thrombolysis in ischaemic stroke?",
+          "back": "Within 4.5 hours of onset (time last known well), after CT excludes haemorrhage."
+        },
+        {
+          "front": "BP target before giving thrombolysis?",
+          "back": "Below 185/110 mmHg."
+        },
+        {
+          "front": "Upper time limit for endovascular clot retrieval?",
+          "back": "Up to 24 hours in selected large vessel occlusion patients with salvageable tissue on perfusion imaging."
+        },
+        {
+          "front": "Degree of symptomatic carotid stenosis that warrants endarterectomy?",
+          "back": "70-99% (selected 50-69%), ideally within 2 weeks of the event."
+        },
+        {
+          "front": "First bedside test in suspected stroke?",
+          "back": "Capillary glucose, to exclude hypoglycaemia as a mimic."
+        },
+        {
+          "front": "Which lacunar feature separates it from cortical stroke?",
+          "back": "No cortical signs: no aphasia, neglect or visual field defect."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "neurology--stroke-and-tia--q1",
+          "discipline": "adult-medicine",
+          "topic": "neurology",
+          "difficulty": "core",
+          "stem": "A 68-year-old man is brought to a regional emergency department in Victoria. His wife says he was normal when they had breakfast at 7:30 am; at 8:15 am he suddenly could not lift his right arm and his speech became muddled. It is now 9:30 am. BP 172/94 mmHg, HR 92 bpm irregular, capillary glucose 6.8 mmol/L. He has right face and arm weakness and expressive aphasia. Non-contrast CT brain is normal and CT angiography shows occlusion of the left proximal middle cerebral artery. He takes no medications.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Aspirin 300 mg and admission to the stroke unit",
+            "IV thrombolysis and urgent transfer for endovascular clot retrieval",
+            "Endovascular clot retrieval only, as thrombolysis adds bleeding risk without benefit",
+            "IV heparin infusion for presumed cardioembolic stroke",
+            "MRI brain to confirm infarction before any reperfusion therapy"
+          ],
+          "answer": 1,
+          "explanation": "He has a disabling ischaemic stroke within 4.5 hours of onset (about 1 hour 15 minutes), a normal CT excluding haemorrhage, BP below 185/110 and a normal glucose, so he is eligible for **IV thrombolysis**. CTA also shows a **large vessel occlusion** (proximal MCA), which makes him a candidate for **endovascular clot retrieval**. The two are complementary: lyse if eligible, and do not delay transfer for ECR. Aspirin is for patients not receiving lysis and is withheld for about 24 hours after it. Heparin has no role in acute ischaemic stroke. Waiting for MRI loses brain.\n\n**Discriminating clue:** a proximal occlusion on CTA means ECR as well as lysis.",
+          "whyWrong": [
+            "Aspirin is for patients not getting reperfusion and is withheld for 24 hours after lysis.",
+            "",
+            "Eligible patients with LVO should get lysis as well as ECR; one does not replace the other in current practice.",
+            "Acute anticoagulation does not reperfuse and increases haemorrhagic transformation.",
+            "MRI adds delay; CT and CTA are sufficient to decide on reperfusion."
+          ],
+          "tags": [
+            "stroke",
+            "thrombolysis",
+            "clot retrieval"
+          ],
+          "ausPearl": "Australian telestroke networks allow regional EDs to lyse with remote neurologist input and then retrieve patients to a comprehensive stroke centre for ECR."
+        },
+        {
+          "id": "neurology--stroke-and-tia--q2",
+          "discipline": "adult-medicine",
+          "topic": "neurology",
+          "difficulty": "foundation",
+          "stem": "A 74-year-old woman is brought in by ambulance with sudden left-sided weakness and slurred speech noticed 40 minutes ago. She has type 2 diabetes treated with gliclazide and has eaten little today because of a cold. BP 150/85 mmHg, HR 88 bpm, temperature 37.2 C. She has left arm and leg weakness.\n\nWhat is the most appropriate first investigation?",
+          "options": [
+            "Non-contrast CT brain",
+            "CT angiography of the arch to vertex",
+            "12-lead ECG",
+            "Capillary blood glucose",
+            "Serum electrolytes and creatinine"
+          ],
+          "answer": 3,
+          "explanation": "**Hypoglycaemia** is the classic stroke mimic and can cause focal weakness that looks exactly like a stroke. It is a bedside test with an immediate result and immediate treatment. This woman is on a **sulfonylurea (gliclazide)** and has eaten poorly, the typical recipe for hypoglycaemia. Glucose must be checked before imaging and certainly before thrombolysis. CT is the next step if glucose is normal, then CTA. ECG and bloods follow but do not delay the reperfusion pathway.\n\n**Discriminating clue:** sulfonylurea plus poor intake.",
+          "whyWrong": [
+            "CT is essential but comes after the bedside glucose check.",
+            "CTA follows the non-contrast CT.",
+            "ECG is important for AF but does not come first.",
+            "",
+            "Electrolytes are needed but take time and are not the first test."
+          ],
+          "tags": [
+            "stroke mimic",
+            "hypoglycaemia"
+          ]
+        },
+        {
+          "id": "neurology--stroke-and-tia--q3",
+          "discipline": "adult-medicine",
+          "topic": "neurology",
+          "difficulty": "core",
+          "stem": "A 63-year-old man sees his GP in Brisbane on a Monday morning. Yesterday he had 20 minutes of weakness and numbness of his right hand and difficulty finding words, which fully resolved. Examination today is normal. BP 148/88 mmHg, pulse regular. He is a smoker with hypercholesterolaemia.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Arrange same-day assessment at a hospital TIA service or ED for brain and carotid imaging",
+            "Start aspirin and refer to a neurologist within 4 weeks",
+            "Arrange outpatient carotid ultrasound and review in 1 week",
+            "Calculate an ABCD2 score and reassure if the score is low",
+            "Start clopidogrel and statin and review in 3 months"
+          ],
+          "answer": 0,
+          "explanation": "This is a **TIA** in the left carotid territory (hand weakness plus aphasia). Stroke risk after TIA is highest in the first 48 hours, so Australian guidelines recommend **urgent same-day assessment** with brain imaging (ideally MRI with DWI) and carotid imaging, ECG and bloods. Antiplatelet therapy starts once haemorrhage is excluded. If he has a 70-99% symptomatic carotid stenosis he needs endarterectomy within 2 weeks. ABCD2 alone is no longer recommended to decide who can wait, and outpatient pathways over weeks are too slow.\n\n**Discriminating clue:** cortical carotid territory symptoms in the last 48 hours.",
+          "whyWrong": [
+            "",
+            "A 4-week wait misses the highest risk period and the carotid surgery window.",
+            "A week's delay is too slow for a carotid territory TIA.",
+            "Australian guidance advises against using ABCD2 alone to triage urgency.",
+            "Starting drugs without imaging misses carotid stenosis and a possible haemorrhage."
+          ],
+          "tags": [
+            "tia",
+            "general practice",
+            "carotid"
+          ],
+          "ausPearl": "The Australian Living Stroke Guidelines recommend urgent assessment of all suspected TIA; many hospitals run rapid-access TIA clinics that GPs can refer to the same day."
+        },
+        {
+          "id": "neurology--stroke-and-tia--q4",
+          "discipline": "adult-medicine",
+          "topic": "neurology",
+          "difficulty": "exam",
+          "stem": "A 79-year-old woman is on the stroke unit 2 days after a small right MCA territory ischaemic stroke. She was not thrombolysed. Telemetry has shown paroxysmal atrial fibrillation. Her eGFR is 60 mL/min/1.73 m2, she has no history of bleeding, and repeat CT shows a small infarct with no haemorrhagic transformation. She is taking aspirin.\n\nWhat is the most appropriate long-term antithrombotic plan?",
+          "options": [
+            "Continue aspirin alone indefinitely",
+            "Add clopidogrel to aspirin indefinitely",
+            "Start warfarin with enoxaparin bridging today",
+            "No antithrombotic, as she is over 75",
+            "Start a DOAC such as apixaban within the next few days and stop aspirin"
+          ],
+          "answer": 4,
+          "explanation": "Stroke with **atrial fibrillation** needs **oral anticoagulation**, and a **DOAC** is preferred over warfarin in non-valvular AF. Timing depends on infarct size: small infarcts allow early anticoagulation (within days), larger infarcts are delayed to reduce haemorrhagic transformation. Antiplatelets are far less effective than anticoagulation for cardioembolic stroke and should generally stop once the DOAC starts. Heparin bridging adds bleeding with no benefit. Age is a reason to anticoagulate, not a reason to withhold.\n\n**Discriminating clue:** AF on telemetry changes the answer from antiplatelet to anticoagulant.",
+          "whyWrong": [
+            "Aspirin is much less effective than anticoagulation for AF-related stroke.",
+            "Dual antiplatelets are inferior to anticoagulation and bleed more.",
+            "DOACs are preferred and bridging with heparin increases haemorrhagic transformation.",
+            "Older age increases stroke risk and strengthens the case for anticoagulation.",
+            ""
+          ],
+          "tags": [
+            "stroke",
+            "atrial fibrillation",
+            "doac"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neurology--seizures-and-epilepsy",
+      "title": "Seizures, status epilepticus and driving",
+      "minutes": 17,
+      "objectives": [
+        "Distinguish a seizure from syncope and other mimics using the history",
+        "Work up a first seizure, including provoked causes and appropriate imaging and EEG",
+        "Manage status epilepticus using the benzodiazepine-first stepwise protocol",
+        "Choose antiseizure medication with attention to women of childbearing potential",
+        "Give and document driving advice after a seizure in line with Austroads"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Why it matters",
+          "body": "About 1 in 10 Australians will have a seizure at some point, and about 1 in 100 has epilepsy. The AMC focuses on the **first seizure presentation** (is it really a seizure, is it provoked, what investigations), **status epilepticus** (a time-critical emergency with a set protocol) and **safe practice**: driving, pregnancy and drug interactions.\n\nEpilepsy is defined practically as two or more unprovoked seizures more than 24 hours apart, or one unprovoked seizure with a high recurrence risk (for example an epileptiform EEG or a structural lesion), or an epilepsy syndrome."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Provoked versus unprovoked",
+          "body": "A seizure is abnormal, excessive, synchronous neuronal firing. Focal seizures arise in one hemisphere (may spread to become bilateral tonic-clonic); generalised seizures involve both hemispheres from the outset.\n\n**Provoked (acute symptomatic) seizures** have an immediate cause, and treating the cause matters more than antiseizure drugs:\n- Metabolic: hypoglycaemia, hyponatraemia, hypocalcaemia, hypomagnesaemia, uraemia\n- Toxins and withdrawal: alcohol withdrawal (typically 6-48 hours after the last drink), benzodiazepine withdrawal, stimulants, tramadol, bupropion, tricyclic overdose\n- Acute brain insult: stroke, head injury, encephalitis, meningitis, eclampsia\n\n**Unprovoked seizures** come from structural lesions (old stroke, tumour, trauma, mesial temporal sclerosis), genetic generalised epilepsies (for example juvenile myoclonic epilepsy) or are cryptogenic. In migrants from South Asia or Latin America, **neurocysticercosis** is a cause worth remembering, but it is rare in Australian-born patients."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "History is the diagnosis",
+          "body": "Get an eyewitness account. The discriminating features:\n\n| Feature | Seizure | Syncope | Functional (psychogenic) seizure |\n|---|---|---|---|\n| Trigger | Often none; sleep deprivation, flashing lights | Standing, pain, heat, micturition | Emotional stress, often witnessed |\n| Onset | Sudden, may have aura (epigastric rising, déjà vu) | Prodrome: light-headed, sweaty, vision greying | Gradual, fluctuating |\n| During | Eyes open, tonic then clonic jerks, cyanosis, 1-2 min | Pale, floppy, brief jerks possible, seconds | Eyes closed, side-to-side head, pelvic thrusting, prolonged |\n| Tongue | Lateral tongue bite | Rare | Rare |\n| After | Confusion and drowsiness for minutes to hours, headache, myalgia | Rapid recovery | Variable |\n\nBrief myoclonic jerks happen in syncope too, so jerking alone does not make it a seizure; **prolonged postictal confusion** is the most useful single feature. Incontinence is non-specific.\n\nFocal seizures: focal aware (twitching of a limb, sensory symptoms), focal impaired awareness (staring, lip smacking, fumbling automatisms, typical of temporal lobe). **Todd's paresis** is transient postictal weakness that can mimic stroke. In a young person with morning myoclonic jerks (dropping the cereal spoon) plus generalised seizures, think **juvenile myoclonic epilepsy**."
+        },
+        {
+          "kind": "investigations",
+          "heading": "First seizure workup",
+          "body": "- **Capillary glucose** immediately, then electrolytes including sodium, calcium, magnesium, and renal and liver function, FBC.\n- **ECG** in everyone: long QT, Brugada, heart block and WPW cause arrhythmic syncope that looks like a seizure.\n- Pregnancy test in women of childbearing age (and consider eclampsia if pregnant or postpartum).\n- Toxicology and alcohol history.\n- **Neuroimaging**: CT in the ED if there is a focal deficit, head injury, persistent altered state, anticoagulation, or immunosuppression; otherwise **MRI brain** (epilepsy protocol) as an outpatient is the imaging of choice.\n- **EEG**: supports classification and recurrence risk. A normal interictal EEG does **not** exclude epilepsy.\n- **Lumbar puncture** if fever, meningism or immunosuppression suggests CNS infection.\n\nMost patients with a single unprovoked seizure, a normal examination and full recovery can go home with a first seizure clinic referral, a responsible adult, safety advice and driving advice."
+        },
+        {
+          "kind": "management",
+          "heading": "Status epilepticus and long-term treatment",
+          "body": "**Status epilepticus** is a seizure lasting more than 5 minutes, or recurrent seizures without recovery between them. Neuronal injury and drug resistance grow with time, so move quickly:\n\n1. **0-5 min**: ABC, oxygen, recovery position, glucose (give IV glucose if low; give **IV thiamine before glucose** if alcohol use or malnutrition is likely).\n2. **First line, 5-10 min**: a **benzodiazepine**. IM or buccal/intranasal **midazolam** if no IV access (the prehospital and community option), or IV midazolam or IV diazepam. **Repeat once** if the seizure continues.\n3. **Second line, if still seizing**: IV **levetiracetam, sodium valproate or phenytoin** (loading doses per eTG and local protocol). Evidence suggests they are similarly effective; choose by patient factors (valproate is avoided in women of childbearing potential and liver disease; phenytoin needs cardiac monitoring).\n4. **Refractory**: anaesthetic induction (for example propofol or thiopentone), intubation, ICU and EEG monitoring.\n\nLook for and treat the cause: hypoglycaemia, hyponatraemia, eclampsia (magnesium sulfate), alcohol withdrawal, drug non-adherence, CNS infection.\n\n**Long-term antiseizure medication** is usually started after a second unprovoked seizure, or after a first if recurrence risk is high. Choices, briefly:\n- **Levetiracetam** and **lamotrigine** are common first choices for many adults. Levetiracetam can cause irritability and low mood; lamotrigine needs slow titration because of rash including Stevens-Johnson syndrome.\n- **Sodium valproate** is highly effective for generalised epilepsies but is **teratogenic** (neural tube defects and neurodevelopmental harm). Avoid in women and girls who could become pregnant unless there is no alternative and a pregnancy prevention program is in place.\n- **Carbamazepine** and phenytoin are enzyme inducers that reduce the effectiveness of the combined oral contraceptive and many other drugs. Carbamazepine can cause hyponatraemia.\n- Women planning pregnancy: preconception review with the neurologist, and **higher-dose folic acid** is generally recommended; check the current dose with RANZCOG and eTG.\n\n**Safety advice**: showers not baths, no swimming alone, avoid heights and dangerous machinery, and tell family what to do in a seizure.\n\n**Driving**: the doctor must advise the patient not to drive and **document** that advice. Under Austroads *Assessing Fitness to Drive*, a first unprovoked seizure and epilepsy each carry a defined seizure-free period before a private licence can be held, with much longer periods for commercial licences, and some exceptions (for example certain provoked seizures). Periods are measured in months; check the current table rather than guessing. The **patient** has the legal duty to notify the driver licensing authority; the doctor may notify in certain circumstances where the patient keeps driving unsafely, and that is legally protected in most jurisdictions (varies by state)."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- \"Brief jerks after fainting while standing in a hot church\" is convulsive syncope, not epilepsy.\n- Prolonged confusion afterwards and a lateral tongue bite point to seizure.\n- Status epilepticus: benzodiazepine first, repeat once, then levetiracetam, valproate or phenytoin. If there is no IV line, the answer is IM or buccal midazolam.\n- Alcohol-dependent patient seizing: thiamine before glucose, and treat withdrawal with benzodiazepines.\n- Young woman needing an antiseizure drug: the wrong answer is valproate.\n- Driving questions: the correct option involves advising the patient not to drive, documenting it, and explaining their duty to notify."
+        }
+      ],
+      "keyPoints": [
+        "Eyewitness history distinguishes seizure from syncope; postictal confusion is the key feature.",
+        "Glucose, electrolytes and ECG for every first seizure; MRI and EEG to follow.",
+        "A normal EEG does not exclude epilepsy.",
+        "Status epilepticus is over 5 minutes: benzodiazepine, repeat once, then levetiracetam, valproate or phenytoin.",
+        "IM or buccal midazolam when there is no IV access.",
+        "Avoid valproate in women who could become pregnant.",
+        "Advise no driving, document it; the patient notifies the licensing authority under Austroads."
+      ],
+      "redFlags": [
+        "Seizure lasting over 5 minutes or not regaining consciousness between seizures",
+        "Seizure with fever, meningism or immunosuppression: CNS infection",
+        "Seizure in pregnancy or up to weeks postpartum: eclampsia until proven otherwise",
+        "New focal deficit that persists after a seizure, or seizure after head injury or on anticoagulants",
+        "Exertional or supine collapse with jerking: think cardiac arrhythmia"
+      ],
+      "contrast": [
+        {
+          "aspect": "Common causes of new seizures",
+          "india": "Neurocysticercosis and tuberculoma are frequent causes in young adults.",
+          "australia": "Neurocysticercosis is rare except in migrants; structural, genetic and toxic or withdrawal causes dominate."
+        },
+        {
+          "aspect": "Driving advice",
+          "india": "Seldom formally documented.",
+          "australia": "Mandatory advice and documentation using Austroads; defined seizure-free periods for private and commercial licences."
+        },
+        {
+          "aspect": "Valproate in young women",
+          "india": "Still widely prescribed as a broad-spectrum first choice.",
+          "australia": "Avoided in anyone who could become pregnant unless no alternative, with pregnancy prevention measures."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Time definition of status epilepticus?",
+          "back": "Seizure lasting more than 5 minutes, or repeated seizures without recovery in between."
+        },
+        {
+          "front": "First-line treatment of status epilepticus with no IV access?",
+          "back": "IM or buccal (or intranasal) midazolam; repeat once if still seizing."
+        },
+        {
+          "front": "Second-line agents for status epilepticus?",
+          "back": "IV levetiracetam, sodium valproate or phenytoin."
+        },
+        {
+          "front": "Most useful historical feature favouring seizure over syncope?",
+          "back": "Prolonged postictal confusion (also lateral tongue bite)."
+        },
+        {
+          "front": "Why is ECG mandatory after a first 'seizure'?",
+          "back": "To detect arrhythmic causes such as long QT, Brugada, heart block or WPW."
+        },
+        {
+          "front": "Who must notify the licensing authority about a seizure?",
+          "back": "The patient. The doctor advises, documents, and can notify if the patient continues to drive unsafely (varies by state)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "neurology--seizures-and-epilepsy--q1",
+          "discipline": "adult-medicine",
+          "topic": "neurology",
+          "difficulty": "core",
+          "stem": "A 34-year-old man is brought to an emergency department in Adelaide by ambulance. He has been having a generalised tonic-clonic seizure for 7 minutes. Paramedics could not obtain IV access and gave IM midazolam 5 minutes ago; he is still seizing. He now has an IV cannula. Capillary glucose is 5.9 mmol/L. SpO2 94% on high-flow oxygen.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "IV levetiracetam loading dose",
+            "Intubation with propofol",
+            "A second dose of benzodiazepine (IV midazolam or diazepam)",
+            "IV phenytoin followed by EEG",
+            "IV thiamine and 50% glucose"
+          ],
+          "answer": 2,
+          "explanation": "This is **status epilepticus** (over 5 minutes). The protocol is a benzodiazepine, then **repeat the benzodiazepine once** if the seizure continues, then a second-line agent such as levetiracetam, valproate or phenytoin, then anaesthetic induction if refractory. He has had only one benzodiazepine dose, so the next step is a second dose, now IV. His glucose is normal, so glucose is not indicated. Second-line agents and intubation come later if seizures persist.\n\n**Discriminating clue:** only one benzodiazepine dose has been given.",
+          "whyWrong": [
+            "Levetiracetam is second line and comes after two benzodiazepine doses fail.",
+            "Anaesthetic induction is for refractory status after first- and second-line agents.",
+            "",
+            "Phenytoin is a second-line agent, not the next step after one benzodiazepine dose.",
+            "His glucose is normal; thiamine is reasonable if alcohol use is suspected but does not stop the seizure."
+          ],
+          "tags": [
+            "status epilepticus",
+            "benzodiazepine"
+          ]
+        },
+        {
+          "id": "neurology--seizures-and-epilepsy--q2",
+          "discipline": "adult-medicine",
+          "topic": "neurology",
+          "difficulty": "foundation",
+          "stem": "A 19-year-old woman collapsed while standing in a hot, crowded church in Perth. Her mother saw her go pale and sweaty and say she felt faint; she fell and had about 5 seconds of jerking of her arms. She was fully alert and talking within a minute and did not bite her tongue. Examination and ECG are normal. BP 112/70 mmHg lying and 108/68 mmHg standing.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Vasovagal syncope",
+            "Generalised tonic-clonic seizure",
+            "Focal impaired awareness seizure",
+            "Functional (psychogenic) seizure",
+            "Orthostatic hypotension due to autonomic failure"
+          ],
+          "answer": 0,
+          "explanation": "The history is classic **vasovagal (reflex) syncope**: a typical trigger (prolonged standing in heat), a prodrome of pallor, sweating and light-headedness, brief jerking lasting seconds, and **rapid recovery** without postictal confusion. Brief myoclonic jerks are common in syncope because of transient cerebral hypoperfusion and do not indicate epilepsy. A tonic-clonic seizure usually has no warning of this type and leaves the person confused and drowsy for minutes or longer. The ECG is normal, reducing concern for cardiac syncope, and the postural BP is normal.\n\n**Discriminating clue:** rapid recovery after a prodrome.",
+          "whyWrong": [
+            "",
+            "Seizures cause prolonged postictal confusion, which she did not have.",
+            "Focal impaired awareness seizures cause staring and automatisms, not a faint with prodrome.",
+            "Functional seizures tend to be prolonged with eyes closed, not brief with pallor.",
+            "Her postural BP is normal and she has no features of autonomic failure."
+          ],
+          "tags": [
+            "syncope",
+            "seizure mimic"
+          ]
+        },
+        {
+          "id": "neurology--seizures-and-epilepsy--q3",
+          "discipline": "adult-medicine",
+          "topic": "neurology",
+          "difficulty": "core",
+          "stem": "A 26-year-old woman is seen in a first seizure clinic in Melbourne after two generalised tonic-clonic seizures in 3 months, and she describes jerks of her arms in the mornings, often after late nights. EEG shows generalised polyspike-and-wave discharges. She is not pregnant but hopes to have children in a few years. She uses no contraception.\n\nWhich is the least appropriate choice of antiseizure medication?",
+          "options": [
+            "Levetiracetam",
+            "Lamotrigine",
+            "Referral to discuss options with a neurologist",
+            "Folic acid supplementation alongside treatment",
+            "Sodium valproate"
+          ],
+          "answer": 4,
+          "explanation": "She has **juvenile myoclonic epilepsy** (morning myoclonic jerks, generalised seizures, provoked by sleep deprivation, polyspike-and-wave EEG). Sodium valproate is very effective for generalised epilepsies but is **highly teratogenic**, causing neural tube defects and neurodevelopmental problems. In Australia it should be avoided in women and girls who could become pregnant unless there is no alternative and a pregnancy prevention program is in place. Levetiracetam and lamotrigine are reasonable options, specialist input is appropriate, and folic acid is recommended for women on antiseizure drugs who may conceive.\n\n**Discriminating clue:** a woman of childbearing potential with no contraception.",
+          "whyWrong": [
+            "Levetiracetam is a reasonable option in women of childbearing potential.",
+            "Lamotrigine is a reasonable option, titrated slowly to reduce rash risk.",
+            "Neurology input is appropriate for a new diagnosis of epilepsy.",
+            "Folic acid is recommended for women on antiseizure drugs who may become pregnant.",
+            ""
+          ],
+          "tags": [
+            "epilepsy",
+            "valproate",
+            "pregnancy"
+          ],
+          "ausPearl": "The TGA has strengthened warnings on valproate in pregnancy, and Australian guidance supports pregnancy prevention measures if it must be used."
+        },
+        {
+          "id": "neurology--seizures-and-epilepsy--q4",
+          "discipline": "adult-medicine",
+          "topic": "neurology",
+          "difficulty": "exam",
+          "stem": "A 45-year-old courier driver in Sydney is reviewed after a first unprovoked generalised seizure. CT, bloods and ECG are normal and MRI and EEG are booked. He says he needs to keep driving for work and asks you not to write anything down about it.\n\nWhat is the most appropriate action?",
+          "options": [
+            "Allow him to continue driving until the MRI and EEG results are available",
+            "Advise him not to drive, explain the Austroads standards and his duty to notify the licensing authority, and document the advice",
+            "Notify the licensing authority immediately without discussing it with him",
+            "Advise him that only a commercial licence is affected, so he may drive privately",
+            "Start levetiracetam so that he can return to driving straight away"
+          ],
+          "answer": 1,
+          "explanation": "After a seizure, the doctor must **advise the patient not to drive**, explain the relevant Austroads *Assessing Fitness to Drive* standard, explain that **the patient** has the legal duty to notify the licensing authority, and **document** this in the notes. Documenting cannot be omitted at the patient's request. A courier driver may hold a commercial licence, for which the non-driving period is longer than for a private licence, and private driving is also restricted after a first seizure. Starting an antiseizure drug does not remove the non-driving period. Doctors may notify the authority if a patient continues to drive unsafely despite advice, but the first step is to advise and document.\n\n**Discriminating clue:** the patient notifies; the doctor advises and documents.",
+          "whyWrong": [
+            "Driving is not safe during the non-driving period regardless of pending tests.",
+            "",
+            "Direct notification without first advising the patient is not the first step; it is reserved for patients who continue to drive unsafely.",
+            "Private driving is also restricted after a seizure.",
+            "Medication does not bypass the Austroads non-driving period."
+          ],
+          "tags": [
+            "driving",
+            "austroads",
+            "ethics"
+          ],
+          "ausPearl": "Most Australian states protect doctors who notify the licensing authority in good faith when a patient continues to drive unsafely; the details vary by state."
+        }
+      ]
+    },
+    {
+      "id": "neurology--headache",
+      "title": "Headache, SAH and giant cell arteritis",
+      "minutes": 18,
+      "objectives": [
+        "Screen any headache for red flags and decide who needs urgent imaging",
+        "Investigate suspected subarachnoid haemorrhage with CT and, when indicated, lumbar puncture",
+        "Recognise giant cell arteritis and start steroids before biopsy to prevent blindness",
+        "Diagnose and manage migraine, tension-type, cluster and medication overuse headache in general practice",
+        "Recognise idiopathic intracranial hypertension and meningitis as headache causes"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Primary versus secondary headache",
+          "body": "Headache is one of the commonest reasons Australians see a GP or present to an ED. More than 90% of headaches are **primary** (migraine, tension-type, cluster, medication overuse). The AMC's interest is the small group of **secondary** headaches that kill or blind: subarachnoid haemorrhage, meningitis, giant cell arteritis, raised intracranial pressure from a mass or venous sinus thrombosis, and carbon monoxide poisoning.\n\nYour job with every headache vignette is the same: **screen for red flags first**, then name the primary headache syndrome and manage it properly."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Red flags and the primary headache syndromes",
+          "body": "**Red flags (SNOOP-style)** that mandate investigation:\n- **Thunderclap onset**: maximal within about a minute (\"worst headache of my life\")\n- **New headache over 50 years**: think GCA and mass lesions\n- **Fever, neck stiffness, rash**: meningitis or encephalitis\n- **Focal neurological signs, confusion, seizure**\n- **Papilloedema**, or headache worse lying down, on coughing or straining, or waking from sleep with vomiting\n- **Immunosuppression** (HIV, chemotherapy) or cancer history\n- **Pregnancy or postpartum**: pre-eclampsia, cerebral venous sinus thrombosis, pituitary apoplexy\n- Progressive pattern change, or headache after head injury or on anticoagulants\n- Several people in one house with headache: carbon monoxide\n\n**Primary headaches**\n\n| | Migraine | Tension-type | Cluster |\n|---|---|---|---|\n| Who | Women more than men, onset in teens to 30s | Anyone | Men, often smokers |\n| Site | Unilateral, can be bilateral | Bilateral, band-like | Strictly unilateral, around the eye |\n| Character | Throbbing, moderate to severe, 4-72 h | Pressing, mild to moderate | Excruciating, 15-180 min, often at night, in bouts over weeks |\n| Associated | Nausea, photophobia, phonophobia, worse with activity; aura in about a third | Few | Ipsilateral lacrimation, red eye, rhinorrhoea, ptosis, miosis; restless, pacing |\n\n**Migraine aura** is fully reversible visual (zigzag lines, scotoma), sensory or speech symptoms spreading over 5 minutes or more and lasting under an hour. That gradual spread helps separate it from TIA, which is sudden.\n\n**Medication overuse headache**: daily or near-daily headache in someone taking simple analgesics on 15 or more days a month, or triptans, codeine or combination analgesics on 10 or more days.\n\n**Idiopathic intracranial hypertension**: typically a young woman with obesity, headache, transient visual obscurations, pulsatile tinnitus, papilloedema, sometimes a sixth nerve palsy. Drugs implicated include tetracyclines and retinoids.\n\n**Giant cell arteritis**: over 50, new temporal headache, **scalp tenderness, jaw claudication**, visual disturbance (amaurosis fugax, diplopia), constitutional symptoms and often polymyalgia rheumatica (shoulder and hip girdle stiffness). The temporal artery may be tender, thickened and pulseless."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Why the dangerous ones behave as they do",
+          "body": "- **SAH**: about 85% are from a ruptured berry aneurysm at the circle of Willis. Blood in the subarachnoid space causes sudden severe headache, meningism and sometimes collapse. Risks: hypertension, smoking, heavy alcohol use, family history, polycystic kidney disease. Complications are rebleeding (early), **vasospasm with delayed ischaemia** (days 3-14), hydrocephalus and hyponatraemia.\n- **GCA**: granulomatous inflammation of medium and large arteries, especially branches of the external carotid. Involvement of the posterior ciliary arteries causes **anterior ischaemic optic neuropathy**, and blindness in one eye can become bilateral within days. That is why treatment cannot wait for biopsy.\n- **Migraine**: a primary brain disorder with cortical spreading depression (the aura) and trigeminovascular activation releasing CGRP, which is the target of newer drugs."
+        },
+        {
+          "kind": "investigations",
+          "heading": "SAH, GCA and the rest",
+          "body": "**Suspected SAH** (thunderclap headache):\n1. **Non-contrast CT brain** as soon as possible. Within 6 hours of onset, a modern CT read by an experienced radiologist is highly sensitive.\n2. If CT is normal and the patient presents **more than 6 hours** after onset, do a **lumbar puncture** looking for **xanthochromia** (yellow bilirubin pigment from red cell breakdown). The LP should be done at least **12 hours after onset**, because xanthochromia takes time to form; this also helps distinguish true SAH from a traumatic tap.\n3. If SAH is confirmed, **CT angiography** to find the aneurysm.\n\n**Suspected GCA**: ESR and CRP (usually raised, a normal CRP makes GCA less likely), FBC (normocytic anaemia, raised platelets). Confirm with **temporal artery biopsy** (skip lesions can make it falsely negative; still positive for a week or two after steroids start) or temporal artery ultrasound (halo sign), depending on local access. Start steroids first.\n\n**Other**: CT then LP for suspected meningitis (after antibiotics are given, see infectious diseases); CT venogram or MR venogram for venous sinus thrombosis; MRI and LP with opening pressure for IIH (high opening pressure, normal CSF contents, normal imaging apart from signs of raised pressure). Primary headaches with a normal examination need **no imaging**."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**SAH**: resuscitate, neurosurgical referral, analgesia and antiemetic, keep BP controlled, **nimodipine** to reduce delayed ischaemia from vasospasm, and secure the aneurysm (endovascular coiling or clipping). Watch sodium and conscious state.\n\n**GCA**: start **high-dose oral prednisolone immediately** on clinical suspicion (typically 40-60 mg daily; check eTG), and **IV methylprednisolone** if there is visual loss. Urgent same-day ophthalmology or rheumatology review. Taper slowly over months to a year or more; give bone protection and monitor glucose and BP. Tocilizumab is used as a steroid-sparing agent under specialist care.\n\n**Migraine**:\n- Acute: early oral **aspirin or ibuprofen or paracetamol**, plus an antiemetic such as **metoclopramide** (which also helps gastric absorption). Next step a **triptan** (for example sumatriptan), taken at headache onset. Triptans are contraindicated in coronary or cerebrovascular disease and uncontrolled hypertension. Avoid opioids, which worsen outcomes and cause overuse headache.\n- ED: IV fluids, metoclopramide or prochlorperazine, non-opioid analgesia.\n- Prevention if frequent or disabling attacks (roughly 4 or more days a month): **propranolol**, **amitriptyline**, **candesartan**, **topiramate** or pizotifen. CGRP monoclonal antibodies are PBS-subsidised for chronic migraine that has failed several preventives (specialist criteria apply). Keep a headache diary; identify triggers.\n- Migraine with aura: avoid oestrogen-containing contraception because of stroke risk.\n\n**Tension-type**: simple analgesia with limits, exercise, stress management; amitriptyline for chronic cases.\n\n**Cluster**: acute **100% oxygen via non-rebreather mask** and **subcutaneous sumatriptan** (or intranasal triptan); prevention with **verapamil** (needs ECG monitoring). Short course of prednisolone as a bridge.\n\n**Medication overuse headache**: withdraw the overused drug (codeine is prescription only in Australia since 2018), expect a short worsening, and start a preventive.\n\n**IIH**: weight loss, **acetazolamide**, and ophthalmology monitoring of visual fields; urgent surgical options if vision is threatened."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- Thunderclap headache with a normal CT at 8 hours: the answer is LP (at 12 hours or later) for xanthochromia, not discharge.\n- Older patient with jaw claudication: start prednisolone now; biopsy can follow.\n- A headache described as band-like with no other features is tension-type and needs no scan.\n- Restless man pacing with a red, watering eye at 2 am: cluster, treat with 100% oxygen.\n- Daily headache in someone taking codeine combinations most days: medication overuse.\n- Migraine with aura asking for the pill: avoid combined oral contraceptive."
+        }
+      ],
+      "keyPoints": [
+        "Red flags: thunderclap, over 50, fever and meningism, focal signs, papilloedema, immunosuppression, pregnancy.",
+        "Suspected SAH: non-contrast CT; if negative and over 6 hours, LP for xanthochromia at least 12 hours after onset.",
+        "SAH: nimodipine, neurosurgery, secure the aneurysm.",
+        "GCA: jaw claudication and scalp tenderness; start steroids before biopsy to save vision.",
+        "Migraine: early NSAID or aspirin plus metoclopramide, then triptan; avoid opioids.",
+        "Cluster: 100% oxygen and SC sumatriptan acutely; verapamil to prevent.",
+        "Medication overuse headache: withdraw analgesics and start a preventive."
+      ],
+      "redFlags": [
+        "Thunderclap headache reaching maximum within a minute",
+        "New headache over 50 with jaw claudication or visual symptoms",
+        "Headache with fever, neck stiffness, rash or confusion",
+        "Papilloedema, focal signs or headache worse lying down with vomiting",
+        "Headache in pregnancy or postpartum, or in the immunosuppressed"
+      ],
+      "contrast": [
+        {
+          "aspect": "Access to CT for headache",
+          "india": "CT may be limited or cost-based outside cities; clinical judgement relied on more.",
+          "australia": "CT is readily available in EDs; the challenge is avoiding unnecessary scans for primary headache."
+        },
+        {
+          "aspect": "Codeine for headache",
+          "india": "Codeine combinations available over the counter in many places.",
+          "australia": "Codeine is prescription only since 2018, partly because of medication overuse headache and dependence."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "When should an LP for xanthochromia be done after suspected SAH?",
+          "back": "At least 12 hours after headache onset, if CT is negative and the patient presents more than 6 hours after onset."
+        },
+        {
+          "front": "Drug given to reduce delayed ischaemia from vasospasm after SAH?",
+          "back": "Nimodipine."
+        },
+        {
+          "front": "Most specific symptom of giant cell arteritis?",
+          "back": "Jaw claudication."
+        },
+        {
+          "front": "GCA with visual loss: steroid route?",
+          "back": "IV methylprednisolone, then high-dose oral prednisolone; do not wait for biopsy."
+        },
+        {
+          "front": "First-line acute treatment for cluster headache?",
+          "back": "100% oxygen by non-rebreather mask, or subcutaneous sumatriptan."
+        },
+        {
+          "front": "Medication overuse headache threshold for triptans or codeine combinations?",
+          "back": "Use on 10 or more days a month (15 or more for simple analgesics)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "neurology--headache--q1",
+          "discipline": "adult-medicine",
+          "topic": "neurology",
+          "difficulty": "core",
+          "stem": "A 42-year-old woman presents to an emergency department in Hobart with a sudden severe occipital headache that began while she was lifting weights 8 hours ago. It reached maximal intensity within seconds. She vomited once. GCS 15, no focal signs, mild neck stiffness. BP 150/90 mmHg. A non-contrast CT brain performed now is reported as normal.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Discharge with simple analgesia and GP follow-up",
+            "MRI brain as an outpatient",
+            "Give a triptan and observe for 4 hours",
+            "Lumbar puncture at least 12 hours after headache onset to look for xanthochromia",
+            "Commence nimodipine and refer for coiling"
+          ],
+          "answer": 3,
+          "explanation": "A **thunderclap headache** is SAH until proven otherwise. CT is very sensitive within the first 6 hours but its sensitivity falls after that. She presented **more than 6 hours** after onset and the CT is normal, so the next step is **lumbar puncture for xanthochromia**, timed at least **12 hours after onset** so bilirubin has had time to form. If positive, CTA locates the aneurysm. Discharging her risks a fatal rebleed. Triptans are contraindicated when SAH has not been excluded. Nimodipine and coiling are for confirmed SAH.\n\n**Discriminating clue:** thunderclap onset with a normal CT beyond 6 hours.",
+          "whyWrong": [
+            "A normal CT beyond 6 hours does not exclude SAH; discharge risks a fatal rebleed.",
+            "Outpatient MRI is too slow and not the standard test to exclude SAH.",
+            "Triptans cause vasoconstriction and should not be given when SAH is possible.",
+            "",
+            "SAH has not yet been confirmed, and nimodipine and coiling follow a confirmed diagnosis."
+          ],
+          "tags": [
+            "subarachnoid haemorrhage",
+            "lumbar puncture"
+          ]
+        },
+        {
+          "id": "neurology--headache--q2",
+          "discipline": "adult-medicine",
+          "topic": "neurology",
+          "difficulty": "core",
+          "stem": "A 74-year-old woman sees her GP in Toowoomba with 3 weeks of new right-sided headache, pain in her jaw when chewing, and stiffness in her shoulders in the mornings. This morning she had 5 minutes of blurred vision in her right eye that resolved. Her right temporal artery is tender. ESR 82 mm/h, CRP 64 mg/L.\n\nWhat is the most appropriate immediate management?",
+          "options": [
+            "Arrange temporal artery biopsy and start treatment if it is positive",
+            "Start high-dose prednisolone today and arrange urgent specialist review and biopsy",
+            "Start low-dose prednisolone 15 mg daily for polymyalgia rheumatica",
+            "Refer for routine rheumatology review within 6 weeks",
+            "Arrange carotid Doppler ultrasound for amaurosis fugax"
+          ],
+          "answer": 1,
+          "explanation": "This is **giant cell arteritis**: over 50, new temporal headache, **jaw claudication**, polymyalgia symptoms, a tender temporal artery and high inflammatory markers. The transient monocular visual loss is a warning of impending **anterior ischaemic optic neuropathy** and permanent blindness. Steroids must start **immediately**, before biopsy. The biopsy remains useful for a week or two after steroids begin. Low-dose prednisolone suits isolated polymyalgia rheumatica but is inadequate for GCA. Carotid imaging is the wrong pathway because the cause is arteritic, not embolic.\n\n**Discriminating clue:** jaw claudication with visual symptoms.",
+          "whyWrong": [
+            "Waiting for biopsy risks irreversible blindness.",
+            "",
+            "Low-dose steroid is for polymyalgia alone and does not protect vision in GCA.",
+            "A 6-week wait risks bilateral blindness.",
+            "The clinical picture points to arteritis, not carotid embolism."
+          ],
+          "tags": [
+            "giant cell arteritis",
+            "steroids"
+          ],
+          "ausPearl": "If she had permanent visual loss, IV methylprednisolone and same-day ophthalmology review would be expected in Australian practice."
+        },
+        {
+          "id": "neurology--headache--q3",
+          "discipline": "adult-medicine",
+          "topic": "neurology",
+          "difficulty": "foundation",
+          "stem": "A 38-year-old man presents to his GP in Darwin with 2 weeks of attacks of excruciating pain around his left eye, lasting about 45 minutes, waking him at around 2 am most nights. During attacks his left eye waters and becomes red, his left nostril runs, and he paces around the house. He had similar attacks two years ago. Neurological examination between attacks is normal.\n\nWhat is the most effective acute treatment for his attacks?",
+          "options": [
+            "Oral paracetamol and codeine",
+            "Oral ibuprofen",
+            "100% oxygen via a non-rebreather mask",
+            "Oral propranolol",
+            "Oral prednisolone for 3 days"
+          ],
+          "answer": 2,
+          "explanation": "This is **cluster headache**: strictly unilateral periorbital pain, 15-180 minutes, often at night, occurring in bouts over weeks, with **ipsilateral autonomic features** (lacrimation, conjunctival injection, rhinorrhoea) and **restlessness**. Acute treatment is **100% oxygen at high flow** through a non-rebreather mask or **subcutaneous sumatriptan**. Oral analgesics work too slowly. Propranolol is a migraine preventive. Verapamil is the main cluster preventive, and a short steroid course is a bridge, not the acute treatment.\n\n**Discriminating clue:** a restless patient with unilateral autonomic features.",
+          "whyWrong": [
+            "Oral analgesics are too slow and opioids are unhelpful in cluster headache.",
+            "Oral NSAIDs act too slowly for attacks lasting under an hour.",
+            "",
+            "Propranolol is a migraine preventive, not an acute cluster treatment.",
+            "Steroids are a short-term bridge to prevention, not the acute treatment of an attack."
+          ],
+          "tags": [
+            "cluster headache",
+            "oxygen"
+          ]
+        },
+        {
+          "id": "neurology--headache--q4",
+          "discipline": "adult-medicine",
+          "topic": "neurology",
+          "difficulty": "exam",
+          "stem": "A 29-year-old woman sees her GP in Canberra with 4 months of daily headaches. She has a history of migraine and now takes paracetamol-codeine tablets on most days and ibuprofen on the rest. Neurological examination and fundoscopy are normal. BP 118/74 mmHg.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Withdraw the codeine and regular analgesics, and start a migraine preventive such as amitriptyline or propranolol",
+            "Arrange an urgent CT brain",
+            "Add sumatriptan for use on headache days",
+            "Increase the codeine dose and add metoclopramide",
+            "Refer for lumbar puncture to measure opening pressure"
+          ],
+          "answer": 0,
+          "explanation": "This is **medication overuse headache**: daily headache in a person with migraine who is using codeine combinations on 10 or more days a month and simple analgesics on the rest. Management is to **withdraw the overused analgesics** (warning of a temporary worsening) and **start a preventive** for the underlying migraine, such as amitriptyline, propranolol, candesartan or topiramate. She has no red flags and a normal examination with normal fundi, so imaging and LP are not needed. Adding a triptan or more codeine perpetuates the cycle.\n\n**Discriminating clue:** daily headache with frequent analgesic use and a normal examination.",
+          "whyWrong": [
+            "",
+            "No red flags and a normal examination, so imaging is not indicated.",
+            "Adding triptans on many days worsens overuse headache.",
+            "More codeine worsens overuse headache and risks dependence.",
+            "Normal fundi and no features of raised pressure make IIH unlikely."
+          ],
+          "tags": [
+            "migraine",
+            "medication overuse"
+          ],
+          "ausPearl": "Codeine has been prescription only in Australia since February 2018, partly because of overuse headache and dependence."
+        }
+      ]
+    },
+    {
+      "id": "neurology--weakness-and-neuromuscular",
+      "title": "Acute weakness: GBS, myasthenia, cord and facial palsy",
+      "minutes": 17,
+      "objectives": [
+        "Localise weakness to brain, cord, nerve root, peripheral nerve, junction or muscle using the examination",
+        "Recognise Guillain-Barre syndrome and monitor forced vital capacity for respiratory failure",
+        "Diagnose and manage myasthenia gravis, including drugs that precipitate crisis",
+        "Identify spinal cord compression and cauda equina syndrome as surgical emergencies",
+        "Manage Bell's palsy and tell it apart from an upper motor neurone facial palsy"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Localise first",
+          "body": "Weakness vignettes are really localisation puzzles. Decide **where** the lesion is before deciding **what** it is.\n\n| Level | Tone | Reflexes | Plantar | Other clues |\n|---|---|---|---|---|\n| Upper motor neurone (brain, cord) | Increased (may be flaccid acutely) | Brisk | Extensor | Pyramidal pattern; sensory level if cord |\n| Lower motor neurone (root, nerve) | Reduced | Reduced or absent | Flexor | Wasting, fasciculations |\n| Neuromuscular junction | Normal | Normal | Flexor | **Fatigability**, ocular and bulbar |\n| Muscle | Normal or reduced | Normal until late | Flexor | Proximal, symmetrical; raised CK |\n\nThe emergencies in this lesson are **Guillain-Barre syndrome** and **myasthenic crisis** (both kill by respiratory failure) and **spinal cord or cauda equina compression** (which cripple if missed by hours)."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Mechanisms",
+          "body": "- **Guillain-Barre syndrome (GBS)**: an acute immune-mediated polyradiculoneuropathy, usually demyelinating. About two-thirds follow an infection 1-4 weeks before, classically **Campylobacter jejuni** gastroenteritis, or a respiratory infection. Molecular mimicry leads to antibodies against peripheral nerve.\n- **Myasthenia gravis**: antibodies against the postsynaptic **acetylcholine receptor** (most) or MuSK reduce the number of working receptors, so transmission fails with repeated use, producing fatigable weakness. About 10-15% have a **thymoma**; many younger patients have thymic hyperplasia.\n- **Spinal cord compression**: most often **metastatic** (prostate, breast, lung, kidney, myeloma) in the thoracic spine, also epidural abscess (injecting drug use, diabetes, recent bacteraemia), disc and trauma.\n- **Bell's palsy**: idiopathic LMN facial nerve palsy, probably viral inflammation and swelling of the nerve in its bony canal."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Classic presentations",
+          "body": "**GBS**: progressive, fairly symmetrical **ascending weakness** over days to up to 4 weeks, **areflexia**, mild distal sensory symptoms, back or limb pain. Facial and bulbar weakness occur. **Autonomic instability** (arrhythmias, labile BP) and **respiratory muscle weakness** are the killers. The Miller Fisher variant causes ophthalmoplegia, ataxia and areflexia.\n\n**Myasthenia gravis**: **fatigable ptosis and diplopia** worse at the end of the day, bulbar weakness (nasal speech, choking), proximal limb weakness. Reflexes and sensation are normal, pupils are spared. **Myasthenic crisis** is respiratory failure, often triggered by infection, surgery, or drugs: **aminoglycosides**, fluoroquinolones, macrolides, **magnesium**, beta blockers and some anaesthetic agents.\n\n**Lambert-Eaton syndrome**: proximal leg weakness that **improves** with repeated effort, reduced reflexes, autonomic symptoms (dry mouth), associated with small cell lung cancer.\n\n**Spinal cord compression**: back pain (often preceding for weeks, worse lying or at night in malignancy), then bilateral leg weakness, a **sensory level**, and urinary retention or bowel dysfunction; UMN signs below the lesion (though acutely may be flaccid). **Cauda equina syndrome**: saddle anaesthesia, urinary retention with overflow, reduced anal tone, bilateral sciatica, LMN leg signs.\n\n**Bell's palsy**: onset over hours to 2 days of unilateral facial weakness **involving the forehead** (LMN), with inability to close the eye, sometimes hyperacusis, altered taste or ear pain. A stroke causes a UMN facial palsy that **spares the forehead** because the upper face has bilateral cortical supply. Vesicles in the ear canal suggest **Ramsay Hunt syndrome** (varicella zoster)."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "**GBS**\n- **Forced vital capacity (FVC)** serially, often every few hours in hospital. Peak flow and oxygen saturation are poor markers; SpO2 falls late. An FVC falling towards about 20 mL/kg, rapid decline, or bulbar weakness means ICU review for intubation.\n- **Nerve conduction studies**: demyelinating or axonal pattern.\n- **Lumbar puncture**: **albuminocytologic dissociation** (raised protein, normal white cell count), which may be normal in the first week.\n- ECG monitoring for autonomic arrhythmia; exclude hypokalaemia and other causes.\n\n**Myasthenia gravis**\n- **Anti-acetylcholine receptor antibodies**, anti-MuSK if negative.\n- Repetitive nerve stimulation (decrement) and single-fibre EMG.\n- Bedside **ice pack test** improves ptosis.\n- **CT chest** for thymoma. Thyroid function (associated autoimmunity).\n- In a patient with bulbar symptoms, FVC as for GBS.\n\n**Cord compression and cauda equina**: **urgent MRI of the whole spine** (multiple level metastases are common). Bladder scan for post-void residual. In suspected epidural abscess, blood cultures and inflammatory markers.\n\n**Bell's palsy** is a clinical diagnosis; examine the ear canal (vesicles), parotid, other cranial nerves and limbs. Anything beyond an isolated LMN facial palsy needs imaging and referral."
+        },
+        {
+          "kind": "differentials",
+          "heading": "Look-alikes",
+          "body": "| Condition | Key differentiator |\n|---|---|\n| GBS | Ascending, areflexic, CSF protein raised, NCS abnormal |\n| Spinal cord compression | Sensory level, sphincter involvement, brisk reflexes (later) |\n| Myasthenia | Fatigable, ocular and bulbar, reflexes normal |\n| Hypokalaemic paralysis | Low potassium, rapid recovery with replacement |\n| Botulism | Descending paralysis, dilated pupils |\n| Tick paralysis (Australia, Ixodes holocyclus) | Ascending paralysis in children or adults, find and remove the tick |\n| Transverse myelitis | Sensory level with inflammatory MRI changes, may be the first MS event |"
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**GBS**: admit to a monitored bed, serial FVC, ICU and intubation if respiratory failure is threatened. Disease-modifying treatment is **IV immunoglobulin** or **plasma exchange** (equally effective). **Corticosteroids do not help** and are not used. VTE prophylaxis, pain management, early physiotherapy and rehabilitation. Most recover over months; some are left with residual weakness.\n\n**Myasthenia gravis**: symptomatic **pyridostigmine** (an acetylcholinesterase inhibitor). Immunosuppression with prednisolone (start low and increase, as high doses initially can transiently worsen weakness) and steroid-sparing agents such as azathioprine. **Thymectomy** for thymoma, and benefits many younger generalised AChR-positive patients. **Crisis**: ICU, ventilatory support, IVIG or plasma exchange, treat the trigger, stop offending drugs. Give patients a list of drugs to avoid.\n\n**Metastatic cord compression**: **dexamethasone** high dose immediately, analgesia, urgent MRI, and same-day referral for radiotherapy or surgical decompression. Function at the time of treatment predicts outcome: patients who walk in tend to walk out. **Cauda equina**: urgent surgical decompression. **Epidural abscess**: IV antibiotics per eTG covering *Staphylococcus aureus* and surgical drainage.\n\n**Bell's palsy**: **oral prednisolone within 72 hours** of onset improves recovery (check eTG for dose); antivirals alone are not effective and adding them offers at most marginal benefit. **Eye protection** is essential: lubricating drops by day, ointment and taping the eye closed at night, to prevent corneal ulceration. Most recover within weeks to months; refer if no improvement by about 3 months or atypical features. Ramsay Hunt: antivirals plus steroids."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- Weakness after gastroenteritis with absent reflexes: GBS. The key monitoring answer is **FVC**, not peak flow or SpO2.\n- Steroids are a wrong answer in GBS.\n- Worsening myasthenia after an antibiotic for pneumonia: gentamicin or a fluoroquinolone is the culprit.\n- Back pain in a man with known prostate cancer and leg weakness: dexamethasone and urgent whole-spine MRI.\n- Forehead involvement = LMN = Bell's; forehead sparing = UMN = think stroke."
+        }
+      ],
+      "keyPoints": [
+        "Localise: UMN, LMN, junction or muscle before diagnosing.",
+        "GBS: ascending weakness with areflexia after infection; monitor FVC.",
+        "GBS treatment is IVIG or plasma exchange; steroids do not help.",
+        "Myasthenia: fatigable ptosis and diplopia, normal reflexes; pyridostigmine, immunosuppression, CT chest for thymoma.",
+        "Aminoglycosides, magnesium and fluoroquinolones can precipitate myasthenic crisis.",
+        "Cord compression: sensory level and sphincter change; dexamethasone and urgent whole-spine MRI.",
+        "Bell's palsy involves the forehead; prednisolone within 72 hours and eye protection."
+      ],
+      "redFlags": [
+        "Falling FVC, bulbar weakness or inability to count to 20 in one breath in GBS or myasthenia",
+        "Back pain with leg weakness, sensory level or urinary retention",
+        "Saddle anaesthesia with bladder or bowel dysfunction",
+        "Back pain with fever in an injecting drug user: epidural abscess",
+        "Facial weakness sparing the forehead: upper motor neurone, think stroke"
+      ],
+      "contrast": [
+        {
+          "aspect": "Common acute flaccid paralysis causes",
+          "india": "Hypokalaemic paralysis, snake envenomation and polio surveillance feature prominently.",
+          "australia": "GBS is the main cause; tick paralysis and snake envenomation are Australian differentials to consider."
+        },
+        {
+          "aspect": "GBS treatment access",
+          "india": "IVIG is expensive, so plasma exchange or supportive care alone is common.",
+          "australia": "IVIG is supplied through the national blood arrangements via Lifeblood under agreed criteria."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Best bedside monitor of respiratory function in GBS?",
+          "back": "Serial forced vital capacity (FVC), not SpO2 or peak flow."
+        },
+        {
+          "front": "Classic CSF finding in GBS?",
+          "back": "Albuminocytologic dissociation: raised protein with a normal cell count."
+        },
+        {
+          "front": "Disease-modifying treatment for GBS?",
+          "back": "IV immunoglobulin or plasma exchange; steroids are not effective."
+        },
+        {
+          "front": "Antibody test for myasthenia gravis?",
+          "back": "Anti-acetylcholine receptor antibodies (anti-MuSK if negative)."
+        },
+        {
+          "front": "Immediate drug for suspected metastatic spinal cord compression?",
+          "back": "High-dose dexamethasone, with urgent whole-spine MRI."
+        },
+        {
+          "front": "Bell's palsy: treatment window for prednisolone?",
+          "back": "Within 72 hours of onset, plus eye protection."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "neurology--weakness-and-neuromuscular--q1",
+          "discipline": "adult-medicine",
+          "topic": "neurology",
+          "difficulty": "core",
+          "stem": "A 31-year-old man presents to an emergency department in Newcastle with 4 days of tingling in his feet and progressive weakness of his legs, now affecting his arms. He had diarrhoea 2 weeks ago. He has reduced power in all limbs, legs more than arms, and absent reflexes. Plantars are flexor. SpO2 97% on room air, HR 104 bpm, BP 160/95 mmHg.\n\nWhich is the most important investigation to monitor for deterioration?",
+          "options": [
+            "Arterial blood gas every 4 hours",
+            "Continuous pulse oximetry",
+            "Peak expiratory flow rate",
+            "Daily chest X-ray",
+            "Serial forced vital capacity"
+          ],
+          "answer": 4,
+          "explanation": "This is **Guillain-Barre syndrome**: ascending weakness with **areflexia** after **Campylobacter**-type gastroenteritis. The main danger is **neuromuscular respiratory failure**, which can develop over hours. The best monitoring test is **serial forced vital capacity**. Oxygen saturation and blood gases stay normal until late, when the patient is about to arrest. Peak flow measures airway obstruction and depends on a lip seal, which facial weakness spoils. His tachycardia and hypertension may reflect autonomic involvement, so ECG monitoring is also needed.\n\n**Discriminating clue:** in neuromuscular weakness, SpO2 is a late sign.",
+          "whyWrong": [
+            "Blood gases change late in neuromuscular respiratory failure.",
+            "Oxygen saturation falls only when failure is advanced.",
+            "Peak flow reflects airway obstruction and is unreliable with facial weakness.",
+            "Chest X-ray does not measure respiratory muscle strength.",
+            ""
+          ],
+          "tags": [
+            "guillain-barre",
+            "fvc"
+          ]
+        },
+        {
+          "id": "neurology--weakness-and-neuromuscular--q2",
+          "discipline": "adult-medicine",
+          "topic": "neurology",
+          "difficulty": "core",
+          "stem": "A 56-year-old woman with generalised myasthenia gravis, well controlled on pyridostigmine and prednisolone, is admitted to a Brisbane hospital with community-acquired pneumonia. She is started on IV antibiotics. Twenty-four hours later she has worsening ptosis, slurred speech and difficulty swallowing, and her FVC has fallen.\n\nWhich antibiotic is most likely to have contributed to her deterioration?",
+          "options": [
+            "Benzylpenicillin",
+            "Ceftriaxone",
+            "Gentamicin",
+            "Amoxicillin",
+            "Doxycycline"
+          ],
+          "answer": 2,
+          "explanation": "She is developing a **myasthenic crisis**, triggered by infection and possibly by drugs. **Aminoglycosides such as gentamicin** impair neuromuscular transmission and are a well-known precipitant. Fluoroquinolones, macrolides, **magnesium**, beta blockers and some anaesthetic drugs also worsen myasthenia. Penicillins and ceftriaxone are generally safe, and doxycycline is not a classic culprit. Management now is ICU review, ventilatory support if needed, **IVIG or plasma exchange**, treating the infection, and stopping the offending drug.\n\n**Discriminating clue:** a neuromuscular-blocking antibiotic.",
+          "whyWrong": [
+            "Benzylpenicillin is not a recognised trigger of myasthenic crisis.",
+            "Ceftriaxone is generally safe in myasthenia.",
+            "",
+            "Amoxicillin is generally safe in myasthenia.",
+            "Doxycycline is not a classic precipitant of crisis."
+          ],
+          "tags": [
+            "myasthenia gravis",
+            "drug interaction"
+          ]
+        },
+        {
+          "id": "neurology--weakness-and-neuromuscular--q3",
+          "discipline": "adult-medicine",
+          "topic": "neurology",
+          "difficulty": "exam",
+          "stem": "A 71-year-old man with metastatic prostate cancer presents to his GP in Wollongong with 3 weeks of worsening mid-back pain, worse at night, and 2 days of heaviness in both legs. He has a sensory level at T10 and brisk knee reflexes. He is still walking with a frame. He passed urine this morning.\n\nWhat is the most appropriate immediate management?",
+          "options": [
+            "Oral dexamethasone and same-day emergency transfer for whole-spine MRI and oncology or spinal surgery review",
+            "Arrange an outpatient MRI of the thoracic spine within a week",
+            "Increase opioid analgesia and review in 48 hours",
+            "Refer for a bone scan and PSA",
+            "Start bisphosphonate therapy and refer to physiotherapy"
+          ],
+          "answer": 0,
+          "explanation": "This is **metastatic spinal cord compression**: known cancer that spreads to bone, night-time back pain, bilateral leg weakness, a **sensory level** and brisk reflexes. It is an emergency because function at treatment predicts outcome. Start **high-dose dexamethasone** immediately and arrange **urgent whole-spine MRI** (multiple levels are common), with same-day referral for radiotherapy or surgical decompression. Waiting a week or 48 hours risks permanent paraplegia and loss of sphincter control. A bone scan and PSA do not assess the cord.\n\n**Discriminating clue:** a sensory level in a patient with cancer.",
+          "whyWrong": [
+            "",
+            "A week's delay risks irreversible paraplegia.",
+            "Analgesia alone ignores an emergency that threatens walking.",
+            "A bone scan and PSA do not image the cord or change urgent management.",
+            "Bisphosphonates do not treat cord compression."
+          ],
+          "tags": [
+            "cord compression",
+            "oncology"
+          ]
+        },
+        {
+          "id": "neurology--weakness-and-neuromuscular--q4",
+          "discipline": "adult-medicine",
+          "topic": "neurology",
+          "difficulty": "foundation",
+          "stem": "A 35-year-old woman presents to her GP in Cairns having woken with drooping of the right side of her face. Since yesterday she has had pain behind her right ear. She cannot wrinkle her right forehead or close her right eye fully. The ear canals are normal with no vesicles. The rest of the neurological examination is normal. BP 122/78 mmHg.\n\nWhat is the most appropriate management?",
+          "options": [
+            "Urgent CT brain for suspected stroke",
+            "Oral valaciclovir alone",
+            "Referral to ENT for facial nerve decompression",
+            "Oral prednisolone and eye protection with lubricants and taping at night",
+            "Reassurance only, as most cases resolve"
+          ],
+          "answer": 3,
+          "explanation": "Weakness of the whole of one side of the face **including the forehead**, with incomplete eye closure, is a **lower motor neurone facial palsy**. With no vesicles, other cranial nerve signs or limb signs, this is **Bell's palsy**. **Oral prednisolone started within 72 hours** improves the chance of full recovery. **Eye protection** matters because incomplete closure risks corneal ulceration. A stroke causes forehead-sparing weakness. Antivirals alone do not work. Surgery is not routine. Reassurance without treatment misses the benefit of steroids and eye care.\n\n**Discriminating clue:** forehead involvement points to LMN.",
+          "whyWrong": [
+            "Forehead involvement indicates LMN palsy, not stroke.",
+            "Antivirals alone do not improve Bell's palsy outcomes.",
+            "Surgical decompression is not routine treatment.",
+            "",
+            "Steroids within 72 hours improve recovery, and eye protection prevents corneal damage."
+          ],
+          "tags": [
+            "bells palsy",
+            "cranial nerves"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neurology--parkinsons-ms-and-neurodegeneration",
+      "title": "Parkinson's, MS and neurodegenerative disease",
+      "minutes": 17,
+      "objectives": [
+        "Diagnose Parkinson's disease clinically and separate it from drug-induced parkinsonism and essential tremor",
+        "Manage Parkinson's safely in hospital, including time-critical levodopa and drugs to avoid",
+        "Recognise multiple sclerosis presentations and outline MRI diagnosis and relapse treatment",
+        "Recognise motor neurone disease and plan multidisciplinary and palliative care",
+        "Screen for reversible causes when cognitive decline is the presenting problem"
+      ],
+      "sections": [
+        {
+          "kind": "overview",
+          "heading": "Chronic neurology in Australia",
+          "body": "With an ageing population, **Parkinson's disease** and **dementia** are common in Australian general practice and hospital wards. **Multiple sclerosis** is the commonest disabling neurological disease of young adults in Australia, and its prevalence rises with latitude: it is several times more common in **Tasmania** than in tropical Queensland, a pattern linked to lower UV exposure and vitamin D. **Motor neurone disease** is rare but examined because of its mixed signs and its palliative care and ethical dimensions.\n\nAMC questions here test clinical diagnosis, avoiding harm (wrong drugs, missed doses), and interdisciplinary and palliative care. Dementia is covered in more depth in the geriatrics and mental health material; here the focus is recognising it and excluding reversible causes."
+        },
+        {
+          "kind": "pathogenesis",
+          "heading": "Mechanisms that explain the signs",
+          "body": "- **Parkinson's disease**: loss of dopaminergic neurons in the substantia nigra with Lewy bodies (alpha-synuclein). Symptoms appear when most nigral neurons are gone. Non-motor features (anosmia, constipation, REM sleep behaviour disorder, depression) can precede motor signs by years.\n- **Drug-induced parkinsonism**: dopamine D2 receptor blockade by antipsychotics (haloperidol, risperidone) and antiemetics (**metoclopramide, prochlorperazine**). Usually symmetrical and reversible over weeks to months after stopping.\n- **Multiple sclerosis**: immune-mediated demyelination of the CNS, with plaques in the periventricular white matter, corpus callosum, brainstem, cerebellum, spinal cord and optic nerves. Lesions separated in **space and time** are the diagnostic core.\n- **Motor neurone disease (ALS)**: degeneration of both upper and lower motor neurones; sensation, eye movements and sphincters are spared. A minority is familial."
+        },
+        {
+          "kind": "clinical-features",
+          "heading": "Clinical features",
+          "body": "**Parkinson's disease**: asymmetrical onset of **bradykinesia** (essential for diagnosis) with **rest tremor** (pill-rolling, 4-6 Hz, reduced by movement) and/or **rigidity** (lead-pipe, cogwheel with tremor). Also micrographia, hypomimia, soft voice, shuffling festinant gait with reduced arm swing, postural instability later. Falls early in the course suggest an atypical parkinsonism (progressive supranuclear palsy with vertical gaze palsy, multiple system atrophy with autonomic failure). Visual hallucinations with fluctuating cognition and parkinsonism suggest **dementia with Lewy bodies**, who react badly to antipsychotics.\n\n| | Parkinson's tremor | Essential tremor |\n|---|---|---|\n| When | At rest | Posture and action (holding a cup) |\n| Side | Asymmetrical | Symmetrical, may involve head and voice |\n| Alcohol | No effect | Often improves |\n| Family history | Uncommon | Often positive |\n\n**Multiple sclerosis**: usually a woman aged 20-40. Relapsing-remitting episodes lasting days to weeks:\n- **Optic neuritis**: painful eye movement, reduced acuity and colour vision (red desaturation), relative afferent pupillary defect\n- **Internuclear ophthalmoplegia** (failure of adduction on lateral gaze, with nystagmus of the abducting eye)\n- Sensory symptoms, partial transverse myelitis, **Lhermitte's sign** (electric shock down the spine on neck flexion)\n- **Uhthoff's phenomenon**: symptoms worse with heat or exercise\n- Fatigue, bladder urgency, depression, cerebellar signs\n\n**Motor neurone disease**: progressive weakness with a **mixture of UMN and LMN signs** in the same limb (wasting and fasciculations alongside brisk reflexes and extensor plantars), bulbar symptoms (dysarthria, dysphagia, tongue fasciculation), weight loss. **No sensory loss.** Some patients develop frontotemporal dementia.\n\n**Cognitive decline**: gradual memory loss over months to years suggests Alzheimer's; stepwise decline with vascular risk suggests vascular dementia. Rapid decline over weeks, early incontinence and gait problems, or fluctuating confusion needs a different workup (delirium, normal pressure hydrocephalus, prion disease)."
+        },
+        {
+          "kind": "investigations",
+          "heading": "Investigations",
+          "body": "- **Parkinson's disease** is a **clinical diagnosis**. A good response to levodopa supports it. Imaging is used only when atypical features are present.\n- **MS**: **MRI brain and spinal cord** with gadolinium showing lesions disseminated in space and time (McDonald criteria). CSF **oligoclonal bands** not matched in serum can substitute for dissemination in time. Visual evoked potentials may show a delay. Exclude mimics: B12 deficiency, neuromyelitis optica (aquaporin-4 antibodies), sarcoidosis.\n- **MND**: clinical diagnosis supported by EMG (widespread denervation) and imaging to exclude cervical myelopathy, which can mimic mixed signs in the arms. Baseline FVC and nutritional assessment.\n- **Cognitive decline screen for reversible causes**: FBC, electrolytes and calcium, glucose, liver and renal function, thyroid function, **vitamin B12 and folate**, and consider syphilis and HIV serology by risk, plus brain imaging (CT or MRI). Screen for depression (pseudodementia), review medications (anticholinergics, benzodiazepines), and assess hearing and vision. Cognitive screening tools such as the MMSE, MoCA or, for culturally diverse or Aboriginal patients, tools such as the RUDAS or KICA are used in Australia."
+        },
+        {
+          "kind": "management",
+          "heading": "Management",
+          "body": "**Parkinson's disease**\n- **Levodopa** combined with a peripheral decarboxylase inhibitor (carbidopa or benserazide) is the most effective drug. Dopamine agonists (for example pramipexole, rotigotine patch) and MAO-B inhibitors are alternatives or add-ons, often in younger patients. Dopamine agonists can cause **impulse control disorders** (gambling, hypersexuality, compulsive shopping): warn patients and families and ask about it at review. Long-term levodopa causes motor fluctuations and dyskinesia.\n- **In hospital, doses are time-critical**: missed or late doses can cause severe rigidity, aspiration and a parkinsonism-hyperpyrexia syndrome resembling neuroleptic malignant syndrome. If the patient is nil by mouth, give via nasogastric tube or use a rotigotine patch after neurology or pharmacy advice.\n- **Avoid dopamine antagonists**: metoclopramide, prochlorperazine, haloperidol and most antipsychotics. Use domperidone for nausea; if an antipsychotic is unavoidable for psychosis, quetiapine or clozapine are the least likely to worsen motor symptoms.\n- Multidisciplinary care: physiotherapy (falls), speech pathology (swallow, voice), occupational therapy, Parkinson's nurse specialists, and management of constipation, orthostatic hypotension, depression and sleep disturbance. Deep brain stimulation for selected patients with motor fluctuations.\n\n**Multiple sclerosis**\n- **Acute relapse** affecting function: high-dose **methylprednisolone** (IV or oral) shortens the relapse but does not change long-term disability. Exclude infection (a UTI can mimic a relapse).\n- **Disease-modifying therapies** (injectable, oral and infusion agents) are started early by a neurologist to reduce relapses and new lesions; many are PBS-subsidised under specialist criteria.\n- Symptom management: spasticity (baclofen), bladder, fatigue, depression; vitamin D sufficiency and stopping smoking. Pregnancy planning is important because some DMTs are teratogenic.\n\n**Motor neurone disease**: **riluzole** modestly prolongs survival. Multidisciplinary clinic, nutritional support (gastrostomy before FVC is too low), **non-invasive ventilation** for respiratory weakness improves survival and quality of life. Early discussion of goals of care, advance care directives, and palliative care referral. Voluntary assisted dying laws now exist in every Australian state, with eligibility and process that vary by jurisdiction; know that the doctor's role is set by state law.\n\n**Dementia**: treat reversible contributors, cholinesterase inhibitors (donepezil, rivastigmine, galantamine) for mild to moderate Alzheimer's under PBS criteria, carer support, My Aged Care assessment, capacity and advance care planning, and driving assessment."
+        },
+        {
+          "kind": "exam-tips",
+          "heading": "How the AMC asks it",
+          "body": "- An older person with a new tremor and parkinsonism after being prescribed metoclopramide or an antipsychotic: drug-induced parkinsonism; stop the drug.\n- Patient with Parkinson's in hospital, nil by mouth, becomes rigid and febrile: missed levodopa.\n- Nausea in Parkinson's: domperidone, not metoclopramide.\n- Young woman with painful monocular vision loss and a past episode of numbness: MS; next step MRI brain and spine.\n- Wasting and fasciculations with brisk reflexes and no sensory loss: MND.\n- Memory complaints: the correct first step is a reversible-cause screen and cognitive assessment, not a specialist referral alone."
+        }
+      ],
+      "keyPoints": [
+        "Parkinson's is clinical: asymmetrical bradykinesia with rest tremor or rigidity.",
+        "Levodopa is time-critical in hospital; never let doses be missed.",
+        "Avoid metoclopramide, prochlorperazine and haloperidol in Parkinson's; use domperidone for nausea.",
+        "Dopamine agonists can cause impulse control disorders.",
+        "MS: lesions in space and time on MRI; relapses treated with high-dose methylprednisolone.",
+        "MND: mixed UMN and LMN signs with no sensory loss; riluzole, NIV and palliative care.",
+        "Cognitive decline: screen B12, thyroid, calcium, glucose, depression and medications, plus brain imaging."
+      ],
+      "redFlags": [
+        "Parkinson's patient with missed doses who becomes rigid, febrile and confused",
+        "Rapidly progressive cognitive decline over weeks",
+        "Acute visual loss with painful eye movements in a young adult",
+        "Bulbar weakness or falling FVC in MND: aspiration and respiratory failure risk",
+        "Early falls, gaze palsy or marked autonomic failure: atypical parkinsonism"
+      ],
+      "contrast": [
+        {
+          "aspect": "Multiple sclerosis",
+          "india": "Relatively uncommon and may be diagnosed late; NMO is proportionally more common.",
+          "australia": "Common, rising with latitude (highest in Tasmania); early MRI and PBS-subsidised disease-modifying therapy."
+        },
+        {
+          "aspect": "End-of-life options in MND",
+          "india": "Palliative care is growing; assisted dying is not legal.",
+          "australia": "Palliative care is routine and voluntary assisted dying is legal in every state, with rules that vary by jurisdiction."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Feature essential for diagnosing parkinsonism?",
+          "back": "Bradykinesia, plus rest tremor and/or rigidity."
+        },
+        {
+          "front": "Antiemetic of choice in Parkinson's disease?",
+          "back": "Domperidone (does not cross the blood-brain barrier); avoid metoclopramide and prochlorperazine."
+        },
+        {
+          "front": "Troublesome behavioural side effect of dopamine agonists?",
+          "back": "Impulse control disorders: gambling, hypersexuality, compulsive shopping or eating."
+        },
+        {
+          "front": "Diagnostic imaging for suspected MS?",
+          "back": "MRI brain and spinal cord showing lesions disseminated in space and time."
+        },
+        {
+          "front": "Drug that modestly prolongs survival in MND?",
+          "back": "Riluzole."
+        },
+        {
+          "front": "Key blood tests for reversible causes of cognitive decline?",
+          "back": "B12 and folate, TSH, calcium, glucose, electrolytes, renal and liver function, FBC."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "neurology--parkinsons-ms-and-neurodegeneration--q1",
+          "discipline": "adult-medicine",
+          "topic": "neurology",
+          "difficulty": "core",
+          "stem": "A 78-year-old man with Parkinson's disease is admitted to a Sydney hospital for an elective hip replacement. He takes levodopa-carbidopa four times a day. On day 1 after surgery he is nauseated and vomiting. The surgical team asks what to prescribe for nausea.\n\nWhich antiemetic is most appropriate?",
+          "options": [
+            "Metoclopramide",
+            "Domperidone",
+            "Prochlorperazine",
+            "Haloperidol",
+            "Droperidol"
+          ],
+          "answer": 1,
+          "explanation": "Metoclopramide, prochlorperazine, haloperidol and droperidol are all **central dopamine antagonists** that worsen Parkinson's disease and can precipitate severe rigidity. **Domperidone** is a dopamine antagonist that does **not cross the blood-brain barrier** well, so it treats nausea without worsening motor symptoms. Ondansetron is another option. Equally important: his levodopa doses are **time-critical**, and if he cannot keep them down, get neurology or pharmacy advice about nasogastric levodopa or a rotigotine patch.\n\n**Discriminating clue:** only one option does not cross into the brain.",
+          "whyWrong": [
+            "Metoclopramide crosses the blood-brain barrier and worsens parkinsonism.",
+            "",
+            "Prochlorperazine is a central dopamine antagonist and worsens parkinsonism.",
+            "Haloperidol strongly blocks central D2 receptors and is contraindicated.",
+            "Droperidol is a butyrophenone dopamine antagonist and worsens parkinsonism."
+          ],
+          "tags": [
+            "parkinsons",
+            "prescribing safety"
+          ]
+        },
+        {
+          "id": "neurology--parkinsons-ms-and-neurodegeneration--q2",
+          "discipline": "adult-medicine",
+          "topic": "neurology",
+          "difficulty": "core",
+          "stem": "A 28-year-old woman in Hobart presents with 3 days of blurred vision in her left eye and pain when moving it. Eighteen months ago she had 3 weeks of numbness of her right leg that resolved without treatment. Visual acuity is 6/36 in the left eye with reduced colour vision and a left relative afferent pupillary defect. Fundoscopy is normal.\n\nWhat is the most appropriate investigation to confirm the likely underlying diagnosis?",
+          "options": [
+            "CT brain with contrast",
+            "Lumbar puncture for opening pressure",
+            "Visual field testing only",
+            "Serum aquaporin-4 antibodies as the sole test",
+            "MRI brain and spinal cord with gadolinium"
+          ],
+          "answer": 4,
+          "explanation": "She has **optic neuritis** (painful eye movement, reduced acuity and colour vision, RAPD, normal disc in retrobulbar neuritis) and a previous episode of sensory disturbance, suggesting lesions separated in **time and space**. This strongly suggests **multiple sclerosis**. The key investigation is **MRI brain and spinal cord with gadolinium** to show demyelinating lesions meeting the McDonald criteria. CSF oligoclonal bands can add support. CT is insensitive for demyelination. Aquaporin-4 antibodies help exclude neuromyelitis optica but do not confirm MS. Tasmania has Australia's highest MS prevalence.\n\n**Discriminating clue:** two separate neurological episodes in a young woman.",
+          "whyWrong": [
+            "CT is insensitive for demyelinating plaques.",
+            "Opening pressure is for suspected IIH, which presents with papilloedema, not a painful eye.",
+            "Visual fields document the deficit but do not diagnose MS.",
+            "Aquaporin-4 antibodies help exclude NMO but do not confirm MS.",
+            ""
+          ],
+          "tags": [
+            "multiple sclerosis",
+            "optic neuritis"
+          ],
+          "ausPearl": "MS prevalence in Australia rises with latitude and is highest in Tasmania."
+        },
+        {
+          "id": "neurology--parkinsons-ms-and-neurodegeneration--q3",
+          "discipline": "adult-medicine",
+          "topic": "neurology",
+          "difficulty": "exam",
+          "stem": "A 66-year-old man in Adelaide presents with 8 months of progressive weakness of his right hand and, more recently, slurred speech and choking on liquids. He has wasting of the small muscles of the right hand and visible fasciculations in both forearms and his tongue. Reflexes are brisk in all four limbs with extensor plantars. Sensation is normal. Eye movements are normal.\n\nWhat is the most likely diagnosis?",
+          "options": [
+            "Cervical spondylotic myelopathy",
+            "Myasthenia gravis",
+            "Guillain-Barre syndrome",
+            "Motor neurone disease",
+            "Multiple sclerosis"
+          ],
+          "answer": 3,
+          "explanation": "This is **motor neurone disease**: a **mixture of lower motor neurone signs** (wasting, fasciculations including the tongue) and **upper motor neurone signs** (brisk reflexes, extensor plantars), with **bulbar involvement** and **normal sensation** and eye movements. Cervical myelopathy can cause LMN signs in the arms and UMN signs in the legs, but it does not cause tongue fasciculations or bulbar weakness, and it usually has sensory signs. Myasthenia causes fatigable weakness with normal reflexes. GBS is acute and areflexic. MS causes UMN and sensory signs, not fasciculations.\n\n**Discriminating clue:** tongue fasciculations with brisk reflexes and no sensory loss.",
+          "whyWrong": [
+            "Cervical myelopathy does not cause tongue fasciculations or bulbar weakness and usually has sensory signs.",
+            "Myasthenia causes fatigable weakness without wasting, fasciculations or UMN signs.",
+            "GBS is acute and causes areflexia.",
+            "",
+            "MS causes UMN and sensory signs, not LMN wasting or fasciculations."
+          ],
+          "tags": [
+            "motor neurone disease",
+            "localisation"
+          ]
+        },
+        {
+          "id": "neurology--parkinsons-ms-and-neurodegeneration--q4",
+          "discipline": "adult-medicine",
+          "topic": "neurology",
+          "difficulty": "foundation",
+          "stem": "A 76-year-old woman is brought to her GP in Geelong by her daughter, who has noticed 6 months of increasing forgetfulness, repeating questions and missing bills. She lives alone. She is on no regular medications apart from occasional temazepam. Examination is unremarkable apart from mild hearing loss. Her MoCA score is 21/30.\n\nWhat is the most appropriate next step?",
+          "options": [
+            "Start donepezil",
+            "Refer to a residential aged care facility",
+            "Arrange blood tests including B12, folate, thyroid function and calcium, and brain imaging",
+            "Reassure her that this is normal ageing",
+            "Refer to a geriatrician and take no further action until the appointment"
+          ],
+          "answer": 2,
+          "explanation": "Before labelling cognitive decline as dementia, **screen for reversible or contributing causes**: FBC, electrolytes, **calcium**, glucose, renal and liver function, **thyroid function**, **vitamin B12 and folate**, and consider syphilis or HIV serology by risk, plus **brain imaging** (CT or MRI) for structural causes such as subdural haematoma, tumour or normal pressure hydrocephalus. Also address hearing loss, screen for depression, and review drugs: her temazepam should be reviewed and ideally tapered. A geriatrician referral is reasonable but the GP should start the workup. Starting donepezil or placement is premature.\n\n**Discriminating clue:** no workup has been done yet.",
+          "whyWrong": [
+            "Cholinesterase inhibitors are started after a diagnosis is established and reversible causes are excluded.",
+            "Placement is premature and not the next step.",
+            "",
+            "Progressive decline affecting daily function is not normal ageing.",
+            "Referral is reasonable, but the GP should begin the reversible-cause workup now."
+          ],
+          "tags": [
+            "dementia",
+            "general practice"
+          ],
+          "ausPearl": "Culturally appropriate cognitive tools such as the RUDAS and KICA are used in Australia for culturally and linguistically diverse and Aboriginal patients."
+        }
+      ]
+    }
+  ]
+}
