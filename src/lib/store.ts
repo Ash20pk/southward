@@ -14,6 +14,7 @@ export interface Profile {
   mcqTarget: string; // YYYY-MM-DD
   dailyQuestions: number;
   createdAt: number;
+  posting?: string; // current MBBS subject/posting id from mbbs.json
 }
 
 export interface Attempt {

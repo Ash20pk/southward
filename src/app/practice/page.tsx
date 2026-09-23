@@ -3,8 +3,8 @@
 import { Suspense, useCallback, useEffect, useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import clsx from "clsx";
-import { Sparkles, Trash2 } from "lucide-react";
-import { DISCIPLINES, QUESTIONS, SYLLABUS, topicName } from "@/lib/content";
+import { Sparkles, Trash2, X } from "lucide-react";
+import { DISCIPLINES, QUESTIONS, SYLLABUS, subjectById, topicName, topicsForSubject } from "@/lib/content";
 import { useStore } from "@/lib/store";
 import type { Difficulty, Discipline, Question } from "@/lib/types";
 import { QuestionView } from "@/components/QuestionView";
@@ -54,11 +54,20 @@ function Practice() {
         onQuit={() => setSession(null)}
       />
     );
-  return <Setup initialTopic={params.get("topic")} onStart={setSession} />;
+  return <Setup initialTopic={params.get("topic")} initialSubject={params.get("subject")} onStart={setSession} />;
 }
 
-function Setup({ initialTopic, onStart }: { initialTopic: string | null; onStart: (qs: Question[]) => void }) {
+function Setup({
+  initialTopic,
+  initialSubject,
+  onStart,
+}: {
+  initialTopic: string | null;
+  initialSubject: string | null;
+  onStart: (qs: Question[]) => void;
+}) {
   const { attempts, bookmarks, aiQuestions } = useStore();
+  const [subject, setSubject] = useState(() => subjectById(initialSubject ?? undefined));
   const [discs, setDiscs] = useState<Discipline[]>(() => {
     const t = SYLLABUS.find((x) => x.id === initialTopic);
     return t ? [t.discipline] : [];
@@ -69,6 +78,10 @@ function Setup({ initialTopic, onStart }: { initialTopic: string | null; onStart
 
   const pool = useMemo(() => {
     let qs = [...QUESTIONS, ...aiQuestions];
+    if (subject) {
+      const ts = new Set(topicsForSubject(subject));
+      qs = qs.filter((q) => ts.has(q.topic));
+    }
     if (discs.length) qs = qs.filter((q) => discs.includes(q.discipline));
     if (topic) qs = qs.filter((q) => q.topic === topic);
     if (source === "unseen") qs = qs.filter((q) => !attempts[q.id]);
@@ -76,7 +89,7 @@ function Setup({ initialTopic, onStart }: { initialTopic: string | null; onStart
     if (source === "saved") qs = qs.filter((q) => bookmarks.includes(q.id));
     if (source === "ai") qs = qs.filter((q) => q.id.startsWith("ai-"));
     return qs;
-  }, [discs, topic, source, attempts, bookmarks, aiQuestions]);
+  }, [discs, topic, source, attempts, bookmarks, aiQuestions, subject]);
 
   const topics = SYLLABUS.filter((t) => !discs.length || discs.includes(t.discipline));
   const toggleDisc = (d: Discipline) => {
@@ -100,6 +113,16 @@ function Setup({ initialTopic, onStart }: { initialTopic: string | null; onStart
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-[1.35fr_1fr]">
         <Panel>
           <h2 className="text-lg font-semibold">Build a set</h2>
+          {subject && (
+            <p className="mt-3 inline-flex items-center gap-2 rounded-full bg-brand-soft py-1 pl-3 pr-1 text-sm">
+              <span>
+                Topics from your MBBS subject: <span className="font-medium">{subject.name}</span>
+              </span>
+              <button aria-label="Remove subject filter" onClick={() => setSubject(undefined)} className="rounded-full p-1 hover:bg-surface">
+                <X size={14} />
+              </button>
+            </p>
+          )}
 
           <fieldset className="mt-5">
             <legend className="mb-2 text-sm font-medium text-muted">Disciplines (none selected means all)</legend>
@@ -205,16 +228,16 @@ function Generator({ defaultTopic, onStart }: { defaultTopic?: string; onStart: 
   };
 
   return (
-    <Panel className="bg-[var(--sky)] text-[#e9edf4] [border-color:transparent]">
+    <Panel className="bg-sky text-sky-ink [border-color:transparent]">
       <h2 className="flex items-center gap-2 text-lg font-semibold">
         <Sparkles size={18} className="text-[var(--ochre)]" /> Write new questions with AI
       </h2>
-      <p className="mt-1 text-[#aab6c8]">
+      <p className="mt-1 text-sky-muted">
         Fresh AMC-style questions on any topic, with explanations. They&rsquo;re saved so you can come back to them.
       </p>
       <div className="mt-5 flex flex-col gap-4">
         <label className="flex flex-col gap-1.5">
-          <span className="text-sm text-[#aab6c8]">Topic</span>
+          <span className="text-sm text-sky-muted">Topic</span>
           <select
             value={topic}
             onChange={(e) => setTopic(e.target.value)}
@@ -232,12 +255,12 @@ function Generator({ defaultTopic, onStart }: { defaultTopic?: string; onStart: 
           </select>
         </label>
         <label className="flex flex-col gap-1.5">
-          <span className="text-sm text-[#aab6c8]">Focus (optional)</span>
+          <span className="text-sm text-sky-muted">Focus (optional)</span>
           <input
             value={focus}
             onChange={(e) => setFocus(e.target.value)}
             placeholder="e.g. heart failure drugs, or ECG interpretation"
-            className="h-11 rounded-xl border border-white/15 bg-white/5 px-3 outline-none placeholder:text-[#7c889b] focus:border-[var(--ochre)]"
+            className="h-11 rounded-xl border border-white/15 bg-white/5 px-3 outline-none placeholder:text-sky-muted/70 focus:border-[var(--ochre)]"
           />
         </label>
         <div className="flex flex-wrap gap-2">
@@ -248,7 +271,7 @@ function Generator({ defaultTopic, onStart }: { defaultTopic?: string; onStart: 
               onClick={() => setDifficulty(d)}
               className={clsx(
                 "rounded-full border px-3 py-1.5 text-sm capitalize",
-                difficulty === d ? "border-[var(--ochre)] bg-[var(--ochre)] text-[#14213d]" : "border-white/20 text-[#c9d2e0]",
+                difficulty === d ? "border-[var(--ochre)] bg-[var(--ochre)] text-sky" : "border-white/20 text-sky-muted",
               )}
             >
               {d === "exam" ? "Exam-hard" : d}
@@ -262,7 +285,7 @@ function Generator({ defaultTopic, onStart }: { defaultTopic?: string; onStart: 
               onClick={() => setCount(n)}
               className={clsx(
                 "rounded-full border px-3 py-1.5 text-sm",
-                count === n ? "border-[var(--ochre)] bg-[var(--ochre)] text-[#14213d]" : "border-white/20 text-[#c9d2e0]",
+                count === n ? "border-[var(--ochre)] bg-[var(--ochre)] text-sky" : "border-white/20 text-sky-muted",
               )}
             >
               {n}
@@ -272,12 +295,12 @@ function Generator({ defaultTopic, onStart }: { defaultTopic?: string; onStart: 
         <button
           onClick={generate}
           disabled={busy || !topic}
-          className="mt-1 inline-flex h-11 items-center justify-center gap-2 self-start rounded-full bg-[var(--ochre)] px-5 font-medium text-[#14213d] disabled:opacity-60"
+          className="mt-1 inline-flex h-11 items-center justify-center gap-2 self-start rounded-full bg-[var(--ochre)] px-5 font-medium text-sky disabled:opacity-60"
         >
           {busy ? "Writing questions, about a minute…" : `Write ${count} questions`}
         </button>
-        {error && <p className="text-[#f2a39a]">{error}</p>}
-        <p className="text-xs leading-relaxed text-[#8793a6]">
+        {error && <p className="text-[#ffb4ab]">{error}</p>}
+        <p className="text-xs leading-relaxed text-sky-muted">
           AI questions are checked for format, not by a clinician. If something looks off, ask the tutor or check eTG.
         </p>
       </div>
@@ -374,8 +397,15 @@ function Session({
         </Button>
       </div>
       <QuestionView key={q.id} q={q} selected={picked} onSelect={setPicked} revealed={revealed} index={i} total={questions.length} />
-      <div className="sticky bottom-0 mt-6 flex items-center justify-between gap-3 border-t border-line bg-paper/95 py-4 backdrop-blur">
-        <span className="hidden text-sm text-muted sm:block">Keys: A to E to choose, Enter to check</span>
+      <div className="sticky bottom-16 mt-6 flex items-center justify-between gap-3 border-t border-line bg-paper py-3 lg:bottom-0 lg:py-4">
+        {revealed ? (
+          <span className={clsx("font-semibold", picked === q.answer ? "text-ok" : "text-bad")} aria-live="polite">
+            {picked === q.answer ? "Correct" : `Answer: ${"ABCDE"[q.answer]}`}
+            <span className="ml-2 hidden font-normal text-muted sm:inline">Explanation below</span>
+          </span>
+        ) : (
+          <span className="hidden text-sm text-muted sm:block">Keys: A to E to choose, Enter to check</span>
+        )}
         {revealed ? (
           <Button onClick={next} className="ml-auto">
             {i + 1 >= questions.length ? "See results" : "Next question"}

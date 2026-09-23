@@ -5,6 +5,7 @@ import clsx from "clsx";
 import { useStore, type Stage } from "@/lib/store";
 import { Button } from "./ui";
 import { SouthernCross } from "./SouthernCross";
+import { PostingSelect } from "./PostingSelect";
 
 const STAGES: { id: Stage; label: string; hint: string }[] = [
   { id: "4th-year", label: "4th year MBBS", hint: "Final professional year part 1" },
@@ -25,6 +26,7 @@ export function Onboarding() {
   const [stage, setStage] = useState<Stage>("4th-year");
   const [target, setTarget] = useState(defaultTarget());
   const [daily, setDaily] = useState(20);
+  const [posting, setPosting] = useState("");
 
   const submit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -34,19 +36,20 @@ export function Onboarding() {
       mcqTarget: `${target}-01`,
       dailyQuestions: daily,
       createdAt: Date.now(),
+      posting: posting || undefined,
     });
   };
 
   return (
     <div className="grid min-h-dvh lg:grid-cols-[1fr_1.1fr]">
-      <div className="relative hidden flex-col justify-between overflow-hidden bg-[var(--sky)] p-12 text-[#e9edf4] lg:flex">
+      <div className="relative hidden flex-col justify-between overflow-hidden bg-sky p-12 text-sky-ink lg:flex">
         <div className="text-lg font-semibold tracking-tight">Southward</div>
-        <div className="mx-auto w-full max-w-sm text-[#e9edf4]">
+        <div className="mx-auto w-full max-w-sm text-sky-ink">
           <SouthernCross
             stars={[80, 55, 30, 15, 45].map((v, i) => ({ key: String(i), label: "", detail: "", value: v }))}
           />
         </div>
-        <p className="max-w-md font-serif text-xl leading-relaxed text-[#c9d2e0]">
+        <p className="max-w-md font-serif text-xl leading-relaxed text-sky-muted">
           The Southern Cross has guided travellers south for centuries. Here its five stars are the five stages
           between you and practising in Australia. They get brighter as you go.
         </p>
@@ -92,6 +95,16 @@ export function Onboarding() {
             ))}
           </div>
         </fieldset>
+
+        <label className="flex flex-col gap-2">
+          <span className="font-medium">Which subject or posting are you in?</span>
+          <PostingSelect
+            value={posting}
+            onChange={setPosting}
+            className="h-12 rounded-xl border border-line bg-surface px-3 text-base outline-none focus:border-brand"
+          />
+          <span className="text-sm text-muted">Optional. Southward lines up your AMC practice with what you&rsquo;re studying.</span>
+        </label>
 
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
           <label className="flex flex-col gap-2">

@@ -53,7 +53,7 @@ export default function Pathway() {
         <ol className="grid grid-cols-1 gap-4 md:grid-cols-3">
           {STEPS.map((s, i) => (
             <li key={s.title} className="relative rounded-2xl border border-line bg-surface p-5">
-              <span className="mb-3 grid h-8 w-8 place-items-center rounded-full bg-[var(--sky)] font-semibold text-[var(--ochre)]">
+              <span className="mb-3 grid h-8 w-8 place-items-center rounded-full bg-sky font-semibold text-[var(--ochre)]">
                 {i + 1}
               </span>
               <h3 className="font-semibold">{s.title}</h3>
@@ -105,13 +105,13 @@ export default function Pathway() {
                   className={clsx(
                     "rounded-xl border p-4",
                     current ? "border-ochre bg-ochre-soft" : "border-line",
-                    past && "opacity-60",
+                    past && "bg-sunk",
                   )}
                 >
                   <div className="flex flex-wrap items-baseline justify-between gap-2">
                     <h3 className="font-semibold">
                       {w.name}
-                      {current && <span className="ml-2 text-sm font-normal text-ochre">you are here</span>}
+                      {current && <span className="ml-2 text-sm font-normal text-ochre-ink">you are here</span>}
                     </h3>
                     <span className="text-sm tabular-nums text-muted">
                       {fmt(w.from)} to {fmt(w.to)}
@@ -157,8 +157,11 @@ export default function Pathway() {
                 </button>
                 <div className={clsx("rounded-xl p-4", done ? "bg-brand-soft/60" : "bg-surface")}>
                   <div className="flex flex-wrap items-baseline justify-between gap-2">
-                    <h3 className={clsx("font-semibold", done && "text-muted line-through decoration-1")}>{m.title}</h3>
-                    <span className="text-sm text-ochre">{m.when}</span>
+                    <h3 className="font-semibold">
+                      {m.title}
+                      {done && <span className="ml-2 rounded-full bg-brand px-2 py-0.5 align-middle text-xs font-medium text-brand-ink">Done</span>}
+                    </h3>
+                    <span className="text-sm text-ochre-ink">{m.when}</span>
                   </div>
                   <p className="mt-1 font-serif leading-relaxed text-muted">{m.body}</p>
                 </div>

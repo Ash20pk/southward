@@ -54,7 +54,7 @@ export default function Learn() {
                       <Link href={`/learn/${t.id}`} className="flex h-full flex-col gap-1.5 p-4 hover:bg-sunk">
                         <span className="flex items-center justify-between gap-2 font-medium">
                           {t.name}
-                          {lessons[t.id] && <Sparkles size={14} className="shrink-0 text-ochre" aria-label="Lesson saved" />}
+                          {lessons[t.id] && <Sparkles size={14} className="shrink-0 text-ochre-ink" aria-label="Lesson saved" />}
                         </span>
                         <span className="line-clamp-2 text-sm leading-snug text-muted">{t.summary}</span>
                         <span className="mt-auto pt-1 text-xs text-muted">

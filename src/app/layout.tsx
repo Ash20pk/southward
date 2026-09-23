@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Bricolage_Grotesque, Source_Serif_4 } from "next/font/google";
 import "./globals.css";
 import { AppShell } from "@/components/AppShell";
+import { PREFS_BOOT } from "@/lib/prefs";
 
 const sans = Bricolage_Grotesque({ subsets: ["latin"], variable: "--font-bricolage" });
 const serif = Source_Serif_4({ subsets: ["latin"], variable: "--font-source-serif" });
@@ -13,14 +14,17 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#f1f4ee" },
-    { media: "(prefers-color-scheme: dark)", color: "#0d1524" },
+    { media: "(prefers-color-scheme: light)", color: "#f3f5f8" },
+    { media: "(prefers-color-scheme: dark)", color: "#11151b" },
   ],
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en-AU" className={`${sans.variable} ${serif.variable}`}>
+    <html lang="en-AU" className={`${sans.variable} ${serif.variable}`} suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: PREFS_BOOT }} />
+      </head>
       <body>
         <AppShell>{children}</AppShell>
       </body>

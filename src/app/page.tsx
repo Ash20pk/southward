@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Flame, Layers, Stethoscope, Target, Timer } from "lucide-react";
+import { ArrowLeftRight, Flame, Layers, Stethoscope, Target, Timer } from "lucide-react";
 import { streak, useStore } from "@/lib/store";
 import { SouthernCross } from "@/components/SouthernCross";
 import { Bar, ButtonLink, DisciplineDot, Panel } from "@/components/ui";
@@ -16,7 +16,7 @@ import {
   readiness,
   weakestTopics,
 } from "@/lib/stats";
-import { STATIONS } from "@/lib/content";
+import { STATIONS, subjectById } from "@/lib/content";
 import { currentPhase } from "@/lib/plan";
 
 function greeting() {
@@ -41,31 +41,32 @@ export default function Today() {
   const disc = byDiscipline(s.log);
   const nextStation = STATIONS.find((st) => !s.osce.some((o) => o.stationId === st.id)) ?? STATIONS[0];
   const st = streak(s.studyDays);
+  const posting = subjectById(profile.posting);
 
   return (
     <div className="flex flex-col gap-6">
       {/* Hero: the night sky with her constellation */}
-      <section className="rise relative overflow-hidden rounded-3xl bg-[var(--sky)] text-[#e9edf4]">
+      <section className="rise relative overflow-hidden rounded-3xl bg-sky text-sky-ink">
         <div className="grid gap-4 p-6 sm:p-10 md:grid-cols-[1.25fr_1fr] md:items-center">
           <div>
-            <p className="text-[#aab6c8]">{greeting()}, {profile.name}.</p>
+            <p className="text-sky-muted">{greeting()}, {profile.name}.</p>
             <h1 className="mt-2 text-3xl font-semibold leading-[1.12] tracking-tight sm:text-[2.6rem]">
               {days > 0 ? (
                 <>
                   {days} days to your MCQ target.
-                  <span className="block text-[#aab6c8]">You&rsquo;re in {phase.name.toLowerCase()}.</span>
+                  <span className="block text-sky-muted">You&rsquo;re in {phase.name.toLowerCase()}.</span>
                 </>
               ) : (
                 <>Your MCQ target date has arrived. Update it in Settings when you book.</>
               )}
             </h1>
-            <p className="mt-4 max-w-md font-serif text-[1.05rem] leading-relaxed text-[#c9d2e0]">{phase.focus}</p>
-            <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-[#aab6c8]">
+            <p className="mt-4 max-w-md font-serif text-[1.05rem] leading-relaxed text-sky-muted">{phase.focus}</p>
+            <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-sky-muted">
               <span className="inline-flex items-center gap-1.5">
                 <Flame size={16} className="text-[var(--ochre)]" /> {st} day{st === 1 ? "" : "s"} in a row
               </span>
               <span>{ready === null ? "Readiness unlocks after 20 answers" : `Readiness ${ready}%`}</span>
-              <Link href="/pathway" className="underline decoration-[#aab6c8]/50 underline-offset-4 hover:text-white">
+              <Link href="/pathway" className="underline decoration-sky-muted/50 underline-offset-4 hover:text-white">
                 See the full pathway
               </Link>
             </div>
@@ -74,14 +75,14 @@ export default function Today() {
             <SouthernCross stars={stars} />
           </div>
         </div>
-        <ol className="grid grid-cols-2 gap-px border-t border-white/10 bg-white/10 sm:grid-cols-5">
+        <ol className="grid grid-cols-1 gap-px border-t border-white/10 bg-white/10 sm:grid-cols-5">
           {stars.map((star) => (
-            <li key={star.key} className="bg-[var(--sky)] px-5 py-4">
+            <li key={star.key} className="bg-sky px-5 py-3 sm:py-4">
               <div className="flex items-baseline justify-between gap-2">
                 <span className="font-medium">{star.label}</span>
                 <span className="tabular-nums text-[var(--ochre)]">{Math.round(star.value)}%</span>
               </div>
-              <div className="mt-1 text-xs leading-snug text-[#aab6c8]">{star.detail}</div>
+              <div className="mt-1 text-xs leading-snug text-sky-muted">{star.detail}</div>
             </li>
           ))}
         </ol>
@@ -104,10 +105,16 @@ export default function Today() {
             <TodayItem
               n={2}
               icon={<Target size={18} />}
-              title={weak[0] ? `Questions, starting with ${weak[0].topic.name}` : "Practice questions"}
+              title={
+                weak[0]
+                  ? `Questions, starting with ${weak[0].topic.name}`
+                  : posting
+                    ? `Questions matching your ${posting.name} posting`
+                    : "Practice questions"
+              }
               detail={`${Math.min(done, goal)} of ${goal} answered today`}
               progress={(done / goal) * 100}
-              href={weak[0] ? `/practice?topic=${weak[0].topic.id}` : "/practice"}
+              href={weak[0] ? `/practice?topic=${weak[0].topic.id}` : posting ? `/practice?subject=${posting.id}` : "/practice"}
               cta={done >= goal ? "Do more" : "Start"}
             />
             <TodayItem
@@ -118,6 +125,16 @@ export default function Today() {
               href={`/clinical/${nextStation.id}`}
               cta="Open"
             />
+            {posting && (
+              <TodayItem
+                n={4}
+                icon={<ArrowLeftRight size={18} />}
+                title={`Your posting: ${posting.name}`}
+                detail="What carries over to the AMC, and where Australia differs"
+                href={`/mbbs?s=${posting.id}`}
+                cta="See map"
+              />
+            )}
           </ol>
         </Panel>
 
@@ -207,7 +224,7 @@ export default function Today() {
             </div>
           )}
           <div className="mt-6 flex flex-wrap items-center gap-3 border-t border-line pt-5">
-            <Timer size={18} className="text-ochre" />
+            <Timer size={18} className="text-ochre-ink" />
             <span className="flex-1 text-[0.95rem]">
               {s.mocks.length
                 ? `Last mock: ${Math.round((s.mocks.at(-1)!.correct / s.mocks.at(-1)!.total) * 100)}%`

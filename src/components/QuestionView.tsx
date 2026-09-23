@@ -46,7 +46,7 @@ export function QuestionView({
             {disciplineName(q.discipline)}, {topicName(q.topic)}
           </span>
           {q.id.startsWith("ai-") && (
-            <span className="inline-flex items-center gap-1 rounded-full bg-ochre-soft px-2 py-0.5 text-xs text-ochre">
+            <span className="inline-flex items-center gap-1 rounded-full bg-ochre-soft px-2 py-0.5 text-xs text-ochre-ink">
               <Sparkles size={12} /> AI-written
             </span>
           )}
@@ -54,7 +54,7 @@ export function QuestionView({
         <button
           onClick={() => toggleBookmark(q.id)}
           aria-pressed={marked}
-          className={clsx("inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 hover:bg-sunk", marked && "text-ochre")}
+          className={clsx("inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 hover:bg-sunk", marked && "text-ochre-ink")}
         >
           <Bookmark size={15} fill={marked ? "currentColor" : "none"} /> {marked ? "Saved" : "Save"}
         </button>
@@ -78,7 +78,7 @@ export function QuestionView({
                   !revealed && (isPicked ? "border-brand bg-brand-soft" : "border-line bg-surface hover:border-brand/60"),
                   revealed && isAnswer && "border-ok bg-ok-soft",
                   revealed && isPicked && !isAnswer && "border-bad bg-bad-soft",
-                  revealed && !isAnswer && !isPicked && "border-line bg-surface opacity-70",
+                  revealed && !isAnswer && !isPicked && "border-line bg-surface",
                 )}
               >
                 <span
@@ -137,7 +137,7 @@ function Explanation({ q, selected }: { q: Question; selected: number | null }) 
       <Markdown compact>{q.explanation}</Markdown>
       {q.ausPearl && (
         <div className="rounded-xl bg-ochre-soft px-4 py-3">
-          <p className="text-sm font-semibold text-ochre">In Australia</p>
+          <p className="text-sm font-semibold text-ochre-ink">In Australia</p>
           <Markdown compact className="mt-1">{q.ausPearl}</Markdown>
         </div>
       )}

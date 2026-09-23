@@ -7,7 +7,7 @@ type BtnVariant = "primary" | "quiet" | "outline" | "danger";
 const btn = (variant: BtnVariant, size: "sm" | "md") =>
   clsx(
     "inline-flex items-center justify-center gap-2 rounded-full font-medium transition-colors disabled:opacity-50 disabled:pointer-events-none whitespace-nowrap",
-    size === "sm" ? "h-8 px-3.5 text-sm" : "h-11 px-5 text-[0.95rem]",
+    size === "sm" ? "h-9 px-4 text-sm" : "h-11 px-5 text-[0.95rem]",
     variant === "primary" && "bg-brand text-brand-ink hover:brightness-110",
     variant === "quiet" && "text-ink hover:bg-sunk",
     variant === "outline" && "border border-line bg-surface text-ink hover:border-brand",
@@ -33,7 +33,14 @@ export function ButtonLink({
 }
 
 export function Panel({ className, children }: { className?: string; children: ReactNode }) {
-  return <section className={clsx("rounded-2xl border border-line bg-surface p-5 sm:p-6", className)}>{children}</section>;
+  // Only apply the default background when the caller doesn't set one; two bg-* classes fight by stylesheet order.
+  const customBg = /(^|\s)bg-/.test(className ?? "");
+  const customPad = /(^|\s)(sm:)?p-/.test(className ?? "");
+  return (
+    <section className={clsx("rounded-2xl border border-line", !customBg && "bg-surface", !customPad && "p-5 sm:p-6", className)}>
+      {children}
+    </section>
+  );
 }
 
 export function PageHeader({ title, lede, actions }: { title: string; lede?: ReactNode; actions?: ReactNode }) {
@@ -50,7 +57,7 @@ export function PageHeader({ title, lede, actions }: { title: string; lede?: Rea
 
 export function Bar({ value, color = "var(--brand)", className }: { value: number; color?: string; className?: string }) {
   return (
-    <div className={clsx("h-2 overflow-hidden rounded-full bg-sunk", className)}>
+    <div className={clsx("h-2 overflow-hidden rounded-full bg-ink/10", className)}>
       <div className="h-full rounded-full transition-[width] duration-500" style={{ width: `${Math.max(0, Math.min(100, value))}%`, background: color }} />
     </div>
   );

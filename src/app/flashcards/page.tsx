@@ -13,7 +13,7 @@ import { useNow } from "@/hooks/useNow";
 
 const GRADES: { g: Grade; label: string; key: string; cls: string }[] = [
   { g: "again", label: "Again", key: "1", cls: "border-bad/50 text-bad hover:bg-bad-soft" },
-  { g: "hard", label: "Hard", key: "2", cls: "border-ochre/50 text-ochre hover:bg-ochre-soft" },
+  { g: "hard", label: "Hard", key: "2", cls: "border-ochre/50 text-ochre-ink hover:bg-ochre-soft" },
   { g: "good", label: "Good", key: "3", cls: "border-brand/50 text-brand hover:bg-brand-soft" },
   { g: "easy", label: "Easy", key: "4", cls: "border-ok/50 text-ok hover:bg-ok-soft" },
 ];

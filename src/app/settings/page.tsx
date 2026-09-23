@@ -3,6 +3,8 @@
 import { useRef, useState } from "react";
 import { useStore, type Stage } from "@/lib/store";
 import { Button, PageHeader, Panel } from "@/components/ui";
+import { ThemePicker } from "@/components/ThemePicker";
+import { PostingSelect } from "@/components/PostingSelect";
 
 const KEYS = ["profile", "attempts", "log", "srs", "mocks", "osce", "studyDays", "aiQuestions", "milestones", "bookmarks", "tutor", "lessons"] as const;
 
@@ -13,13 +15,14 @@ export default function Settings() {
   const [stage, setStage] = useState<Stage>(profile.stage);
   const [target, setTarget] = useState(profile.mcqTarget.slice(0, 7));
   const [daily, setDaily] = useState(profile.dailyQuestions);
+  const [posting, setPosting] = useState(profile.posting ?? "");
   const [saved, setSaved] = useState(false);
   const [msg, setMsg] = useState<string | null>(null);
   const file = useRef<HTMLInputElement>(null);
 
   const save = (e: React.FormEvent) => {
     e.preventDefault();
-    state.setProfile({ ...profile, name: name.trim() || profile.name, stage, mcqTarget: `${target}-01`, dailyQuestions: daily });
+    state.setProfile({ ...profile, name: name.trim() || profile.name, stage, mcqTarget: `${target}-01`, dailyQuestions: daily, posting: posting || undefined });
     setSaved(true);
     setTimeout(() => setSaved(false), 2000);
   };
@@ -45,7 +48,7 @@ export default function Settings() {
     }
   };
 
-  const field = "h-11 rounded-xl border border-line bg-surface px-3 outline-none focus:border-brand";
+  const field = "h-11 w-full min-w-0 rounded-xl border border-line bg-surface px-3 outline-none focus:border-brand";
 
   return (
     <div className="max-w-3xl">
@@ -53,7 +56,7 @@ export default function Settings() {
       <div className="flex flex-col gap-6">
         <Panel>
           <h2 className="text-lg font-semibold">Your plan</h2>
-          <form onSubmit={save} className="mt-4 grid gap-4 sm:grid-cols-2">
+          <form onSubmit={save} className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2">
             <label className="flex flex-col gap-1.5">
               <span className="text-sm text-muted">Name</span>
               <input className={field} value={name} onChange={(e) => setName(e.target.value)} />
@@ -66,6 +69,10 @@ export default function Settings() {
                 <option value="internship">Internship</option>
                 <option value="graduated">Graduated</option>
               </select>
+            </label>
+            <label className="flex flex-col gap-1.5 sm:col-span-2">
+              <span className="text-sm text-muted">Current MBBS subject or posting</span>
+              <PostingSelect className={field} value={posting} onChange={setPosting} />
             </label>
             <label className="flex flex-col gap-1.5">
               <span className="text-sm text-muted">MCQ target month</span>
@@ -80,6 +87,12 @@ export default function Settings() {
               {saved && <span className="text-ok">Saved</span>}
             </div>
           </form>
+        </Panel>
+
+        <Panel>
+          <h2 className="text-lg font-semibold">Display</h2>
+          <p className="mb-4 mt-1 text-muted">Pick what&rsquo;s easiest on your eyes. Reading mode suits long sessions; Night suits late study.</p>
+          <ThemePicker />
         </Panel>
 
         <Panel>

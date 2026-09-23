@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import clsx from "clsx";
-import { Flag, Timer } from "lucide-react";
+import { Flag, Grid3x3, Timer, X } from "lucide-react";
 import { DISCIPLINES, QUESTIONS } from "@/lib/content";
 import { useStore, type MockResult } from "@/lib/store";
 import type { Question } from "@/lib/types";
@@ -83,7 +83,7 @@ function Setup({ onStart, poolSize }: { onStart: (k: Kind) => void; poolSize: nu
             <Panel key={k} className={clsx(k === "full" && "border-ochre")}>
               <h2 className="text-lg font-semibold">{K.label}</h2>
               <p className="mt-2 font-serif leading-relaxed text-muted">{K.blurb}</p>
-              {short && <p className="mt-2 text-sm text-ochre">Your bank has {poolSize} questions, so this paper will be shorter.</p>}
+              {short && <p className="mt-2 text-sm text-ochre-ink">Your bank has {poolSize} questions, so this paper will be shorter.</p>}
               <Button className="mt-5" variant={k === "full" ? "primary" : "outline"} onClick={() => onStart(k)}>
                 Start {K.label.toLowerCase()}
               </Button>
@@ -142,6 +142,7 @@ function Exam({
   const [i, setI] = useState(0);
   const [left, setLeft] = useState(total);
   const [confirm, setConfirm] = useState(false);
+  const [navOpen, setNavOpen] = useState(false);
   const started = useRef(0);
   const submitted = useRef(false);
 
@@ -188,6 +189,26 @@ function Exam({
   }, []);
 
   const answered = answers.filter((a) => a !== null).length;
+  // Shared by the desktop sidebar and the phone bottom sheet.
+  const grid = (go: (idx: number) => void) => (
+    <div className="grid grid-cols-5 gap-1.5 sm:grid-cols-8 md:grid-cols-5">
+      {paper.map((q, idx) => (
+        <button
+          key={q.id}
+          onClick={() => go(idx)}
+          aria-label={`Question ${idx + 1}${flags[idx] ? ", flagged" : ""}${answers[idx] !== null ? ", answered" : ""}`}
+          className={clsx(
+            "relative h-10 rounded-lg text-sm tabular-nums md:h-9",
+            idx === i ? "ring-2 ring-brand" : "",
+            answers[idx] !== null ? "bg-brand-soft font-medium" : "bg-sunk text-muted",
+          )}
+        >
+          {idx + 1}
+          {flags[idx] && <span className="absolute right-0.5 top-0.5 h-1.5 w-1.5 rounded-full bg-ochre" />}
+        </button>
+      ))}
+    </div>
+  );
   const mm = Math.floor(Math.max(left, 0) / 60);
   const ss = Math.max(left, 0) % 60;
   const pace = (total - left) / Math.max(1, answered);
@@ -200,6 +221,9 @@ function Exam({
           <span className="hidden text-muted sm:inline">
             {answered}/{paper.length} answered{answered > 3 ? `, ${Math.round(pace)}s each` : ""}
           </span>
+          <button onClick={() => setNavOpen(true)} className="inline-flex items-center gap-1.5 rounded-full px-2 py-1 text-muted hover:bg-sunk md:hidden">
+            <Grid3x3 size={16} /> {i + 1}/{paper.length}
+          </button>
           <span className={clsx("inline-flex items-center gap-1.5 font-semibold tabular-nums", left < 300 && "text-bad")}>
             <Timer size={16} /> {mm}:{ss.toString().padStart(2, "0")}
           </span>
@@ -211,23 +235,7 @@ function Exam({
 
       <div className="flex min-h-0 flex-1">
         <nav aria-label="Question navigator" className="hidden w-60 shrink-0 overflow-y-auto border-r border-line p-4 md:block">
-          <div className="grid grid-cols-5 gap-1.5">
-            {paper.map((q, idx) => (
-              <button
-                key={q.id}
-                onClick={() => setI(idx)}
-                aria-label={`Question ${idx + 1}${flags[idx] ? ", flagged" : ""}${answers[idx] !== null ? ", answered" : ""}`}
-                className={clsx(
-                  "relative h-9 rounded-lg text-sm tabular-nums",
-                  idx === i ? "ring-2 ring-brand" : "",
-                  answers[idx] !== null ? "bg-brand-soft" : "bg-sunk text-muted",
-                )}
-              >
-                {idx + 1}
-                {flags[idx] && <span className="absolute right-0.5 top-0.5 h-1.5 w-1.5 rounded-full bg-ochre" />}
-              </button>
-            ))}
-          </div>
+          {grid(setI)}
           <p className="mt-4 text-xs leading-relaxed text-muted">Shaded means answered. An ochre dot means flagged.</p>
         </nav>
 
@@ -250,7 +258,7 @@ function Exam({
                 variant="quiet"
                 size="sm"
                 onClick={() => setFlags((f) => f.map((x, k) => (k === i ? !x : x)))}
-                className={clsx(flags[i] && "text-ochre")}
+                className={clsx(flags[i] && "text-ochre-ink")}
               >
                 <Flag size={15} fill={flags[i] ? "currentColor" : "none"} /> {flags[i] ? "Flagged" : "Flag for review"}
               </Button>
@@ -261,6 +269,25 @@ function Exam({
           </div>
         </div>
       </div>
+
+      {navOpen && (
+        <div className="fixed inset-0 z-50 flex items-end bg-black/40 md:hidden" role="dialog" aria-modal="true" aria-label="Question navigator">
+          <div className="max-h-[75dvh] w-full overflow-y-auto rounded-t-3xl bg-surface p-5">
+            <div className="mb-4 flex items-center justify-between">
+              <h2 className="font-semibold">
+                {answered}/{paper.length} answered{flags.some(Boolean) ? `, ${flags.filter(Boolean).length} flagged` : ""}
+              </h2>
+              <button aria-label="Close" onClick={() => setNavOpen(false)} className="rounded-full p-2 hover:bg-sunk">
+                <X size={18} />
+              </button>
+            </div>
+            {grid((idx) => {
+              setI(idx);
+              setNavOpen(false);
+            })}
+          </div>
+        </div>
+      )}
 
       {confirm && (
         <div className="fixed inset-0 z-50 grid place-items-center bg-black/40 p-4" role="dialog" aria-modal="true" aria-labelledby="submit-title">

@@ -127,7 +127,7 @@ export default function StationPage() {
 
   if (phase === "brief")
     return (
-      <Shell title={station.title} timer={`Reading time ${clock(left)}`}>
+      <Shell title={station.title} timer={`Reading ${clock(left)}`}>
         <div className="mx-auto max-w-2xl px-4 py-10">
           <h1 className="text-2xl font-semibold tracking-tight">Candidate brief</h1>
           <p className="mt-4 whitespace-pre-line font-serif text-[1.12rem] leading-[1.75]">{station.candidateBrief}</p>
@@ -280,7 +280,7 @@ function Shell({
           <span className="truncate">{title}</span>
         </Link>
         <div className="flex items-center gap-3">
-          {timer && <span className={clsx("font-semibold tabular-nums", urgent && "text-bad")}>{timer}</span>}
+          {timer && <span className={clsx("whitespace-nowrap font-semibold tabular-nums", urgent && "text-bad")}>{timer}</span>}
           {right}
         </div>
       </header>
@@ -299,7 +299,7 @@ function Bubble({ turn, name, streaming }: { turn: Turn; name: string; streaming
       {parts.map((p, i) =>
         p.startsWith("[Examiner]") ? (
           <div key={i} className="max-w-[85%] rounded-2xl border border-ochre/40 bg-ochre-soft px-4 py-2.5 text-[0.95rem]">
-            <span className="font-medium text-ochre">Finding: </span>
+            <span className="font-medium text-ochre-ink">Finding: </span>
             {p.replace("[Examiner]", "").trim()}
           </div>
         ) : p.trim() ? (
@@ -322,7 +322,7 @@ function Bubble({ turn, name, streaming }: { turn: Turn; name: string; streaming
 function Feedback({ station, fb, turns }: { station: NonNullable<ReturnType<typeof stationById>>; fb: OsceFeedback; turns: Turn[] }) {
   const [showTranscript, setShowTranscript] = useState(false);
   const tone =
-    fb.globalRating === "Clear pass" || fb.globalRating === "Pass" ? "text-ok" : fb.globalRating === "Borderline" ? "text-ochre" : "text-bad";
+    fb.globalRating === "Clear pass" || fb.globalRating === "Pass" ? "text-ok" : fb.globalRating === "Borderline" ? "text-ochre-ink" : "text-bad";
   const statusStyle = { met: "bg-ok", partial: "bg-ochre", missed: "bg-bad" } as const;
 
   return (

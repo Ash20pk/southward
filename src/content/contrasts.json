@@ -1,0 +1,466 @@
+[
+  {
+    "topic": "cardiology",
+    "rows": [
+      { "aspect": "Rheumatic heart disease", "india": "Still common nationally; taught as a leading cause of mitral stenosis in young adults.", "australia": "Rare overall but very high in remote Aboriginal and Torres Strait Islander communities. Secondary prophylaxis is IM benzathine benzylpenicillin every 28 days (21 for some)." },
+      { "aspect": "Deciding to treat risk factors", "india": "Often treat each risk factor (BP, cholesterol, glucose) against its own threshold.", "australia": "Treatment is guided by absolute CVD risk using the Australian risk calculator, with assessment starting earlier for First Nations people." },
+      { "aspect": "STEMI reperfusion", "india": "Fibrinolysis is common where PCI is not available; streptokinase may still be used.", "australia": "Primary PCI within 90 minutes if possible. If PCI can't happen within 120 minutes (common rurally), give tenecteplase, sometimes pre-hospital." },
+      { "aspect": "Units", "india": "Cholesterol and glucose in mg/dL.", "australia": "Lipids and glucose in mmol/L; troponin as high-sensitivity ng/L. Convert your reference ranges." }
+    ]
+  },
+  {
+    "topic": "respiratory",
+    "rows": [
+      { "aspect": "Chronic cough with weight loss", "india": "TB is high on the list for everyone; sputum testing under NTEP.", "australia": "TB is uncommon and mostly in people born overseas. Think TB in migrants and international students; state TB services manage it and it is notifiable." },
+      { "aspect": "First-line for community-acquired pneumonia", "india": "Empirical co-amoxiclav, cephalosporins, macrolides or fluoroquinolones are common.", "australia": "Per eTG: mild, oral amoxicillin and/or doxycycline; moderate, IV benzylpenicillin plus doxycycline. Fluoroquinolones are not routine first line." },
+      { "aspect": "Asthma relief and prevention", "india": "Salbutamol (sometimes oral) and theophylline/deriphyllin are still used; ICS may be underused.", "australia": "Australian Asthma Handbook: SABA-only treatment is not recommended in adults. Use an ICS-containing regimen, e.g. as-needed budesonide-formoterol. Written action plan." },
+      { "aspect": "Main causes of COPD and lung disease", "india": "Smoking plus biomass smoke exposure, especially in women.", "australia": "Mainly smoking; spirometry confirms diagnosis (COPD-X). High mesothelioma rates from past asbestos use; lung cancer screening program for high-risk smokers." }
+    ]
+  },
+  {
+    "topic": "gastroenterology",
+    "rows": [
+      { "aspect": "Hepatitis C", "india": "Treated under the National Viral Hepatitis Control Program, often by specialists.", "australia": "DAAs are PBS-listed without disease-stage restriction; GPs routinely treat and cure HCV." },
+      { "aspect": "Hepatitis B", "india": "Common in the general population.", "australia": "Concentrated in people born in Asia-Pacific countries and First Nations people; screen these groups and monitor long term." },
+      { "aspect": "Bowel cancer screening", "india": "No national program; colonoscopy mainly for symptoms.", "australia": "National Bowel Cancer Screening Program: free iFOBT every 2 years, mailed at 50-74, requestable from 45. Positive test means colonoscopy." },
+      { "aspect": "Common liver and gut infections", "india": "Amoebic liver abscess, typhoid, hepatitis A/E and abdominal TB are common.", "australia": "These are mostly travel-related. Alcohol and fatty liver disease (MASLD) dominate chronic liver disease." }
+    ]
+  },
+  {
+    "topic": "endocrinology",
+    "rows": [
+      { "aspect": "Units and diagnosis", "india": "Glucose in mg/dL (e.g. fasting 126 mg/dL).", "australia": "Glucose in mmol/L (fasting 7.0 mmol/L); HbA1c 6.5% or 48 mmol/mol diagnoses diabetes." },
+      { "aspect": "Diabetes screening", "india": "Opportunistic, or population screening from 30 under the NCD program.", "australia": "AUSDRISK from age 40 in general, and from 18 in Aboriginal and Torres Strait Islander people, who get diabetes more often and younger." },
+      { "aspect": "Drug choice after metformin", "india": "Sulfonylureas, DPP-4 inhibitors and fixed-dose combinations are common, partly on cost.", "australia": "SGLT2 inhibitors or GLP-1 agonists favoured with CVD, heart failure or CKD. PBS criteria apply. Supplies via NDSS." },
+      { "aspect": "Iodine", "india": "Iodine-deficiency goitre is classic; universal salt iodisation.", "australia": "Iodised salt in bread since 2009; pregnant and breastfeeding women are advised an iodine supplement (150 mcg daily)." }
+    ]
+  },
+  {
+    "topic": "nephrology",
+    "rows": [
+      { "aspect": "Units", "india": "Creatinine in mg/dL.", "australia": "Creatinine in umol/L; eGFR (CKD-EPI) reported automatically; albuminuria as urine albumin:creatinine ratio (uACR)." },
+      { "aspect": "Who gets CKD", "india": "Diabetes, hypertension, glomerulonephritis, and CKD of unknown cause in some regions.", "australia": "Diabetes and hypertension lead. Aboriginal and Torres Strait Islander people have far higher kidney failure rates." },
+      { "aspect": "Detecting CKD", "india": "Usually found when symptomatic or on routine tests.", "australia": "Kidney Health Check (BP, eGFR, uACR) every 1-2 years for at-risk people in general practice." },
+      { "aspect": "Access to dialysis", "india": "Cost is a major barrier; free dialysis in public hospitals under national schemes.", "australia": "Publicly funded; home dialysis encouraged. Remote patients often have to relocate for dialysis, a real cultural and social burden." }
+    ]
+  },
+  {
+    "topic": "neurology",
+    "rows": [
+      { "aspect": "Acute stroke care", "india": "Thrombolysis mostly in tertiary centres; access is limited.", "australia": "Stroke units and telestroke for rural hospitals. Thrombolysis within 4.5 hours; endovascular clot retrieval for large vessel occlusion." },
+      { "aspect": "Driving after seizure or stroke", "india": "Rarely a formal part of management.", "australia": "Austroads 'Assessing Fitness to Drive' sets standards. The patient must notify the licensing authority; the doctor advises and documents." },
+      { "aspect": "New-onset seizures", "india": "Neurocysticercosis is a common cause.", "australia": "Neurocysticercosis is rare; think of it mainly in migrants. Standard epilepsy workup otherwise." },
+      { "aspect": "Multiple sclerosis", "india": "Relatively uncommon.", "australia": "More common, and prevalence rises with distance from the equator (highest in Tasmania)." }
+    ]
+  },
+  {
+    "topic": "haematology",
+    "rows": [
+      { "aspect": "Units", "india": "Haemoglobin in g/dL (7 g/dL).", "australia": "Haemoglobin in g/L (70 g/L)." },
+      { "aspect": "Iron deficiency anaemia", "india": "Very common and often treated as nutritional; hookworm and thalassaemia trait considered.", "australia": "Always find the cause. In men and postmenopausal women, investigate for GI blood loss (gastroscopy/colonoscopy) and test for coeliac disease." },
+      { "aspect": "Warfarin reversal", "india": "Vitamin K and fresh frozen plasma.", "australia": "Prothrombinex-VF plus vitamin K for major bleeding; FFP only if it is unavailable." },
+      { "aspect": "Blood supply and transfusion", "india": "Replacement donation by family is still common.", "australia": "Unpaid volunteer donors via Lifeblood. Patient blood management: restrictive thresholds, generally Hb below 70 g/L in stable patients." }
+    ]
+  },
+  {
+    "topic": "infectious-disease",
+    "rows": [
+      { "aspect": "Empirical antibiotics", "india": "Broad-spectrum agents (cephalosporins, fluoroquinolones, carbapenems) are often first line, reflecting resistance and access.", "australia": "Narrowest effective agent per eTG. Fluoroquinolones and carbapenems are restricted. Stewardship is examined." },
+      { "aspect": "Fever with tropical causes", "india": "Malaria, dengue, typhoid, scrub typhus and leptospirosis are everyday local diagnoses.", "australia": "Mostly acquired overseas. Always take a travel history, and exclude malaria urgently in a febrile returned traveller." },
+      { "aspect": "Locally acquired infections", "india": "Different endemic pattern.", "australia": "Melioidosis (tropical north), Q fever (farm and abattoir workers), Ross River and Barmah Forest viruses, and Japanese encephalitis in some regions." },
+      { "aspect": "HIV prevention", "india": "Focus on testing and ART through NACO centres.", "australia": "PrEP is PBS-subsidised; treatment as prevention (U=U) is standard messaging." }
+    ]
+  },
+  {
+    "topic": "rheumatology",
+    "rows": [
+      { "aspect": "Diagnosis", "india": "Standard classification criteria for RA, SLE and gout.", "australia": "Largely the same criteria and workup." },
+      { "aspect": "Biologic DMARDs", "india": "Access limited mainly by cost.", "australia": "PBS authority only after documented failure of conventional DMARDs and disease activity scores; usually rheumatologist-initiated." },
+      { "aspect": "Gout targets", "india": "Urate target under 6 mg/dL.", "australia": "Urate in mmol/L: target under 0.36 (under 0.30 with tophi). Start allopurinol low and titrate." },
+      { "aspect": "Osteoarthritis", "india": "Analgesics and NSAIDs are often the mainstay.", "australia": "Exercise, weight loss and education first. Opioids are not recommended; arthroscopy is not for knee OA." }
+    ]
+  },
+  {
+    "topic": "dermatology",
+    "rows": [
+      { "aspect": "Skin cancer", "india": "Rare in darker skin types; little emphasis.", "australia": "Very high rates; melanoma, BCC and SCC are daily GP work. Dermoscopy and GP excisions are expected skills." },
+      { "aspect": "Suspicious pigmented lesion", "india": "Refer to dermatology.", "australia": "Excision biopsy with a narrow (about 2 mm) margin for suspected melanoma; don't shave or partially biopsy." },
+      { "aspect": "Common infections", "india": "Tinea (often with steroid-combination cream misuse), leprosy and scabies.", "australia": "Leprosy is rare. Scabies and impetigo matter in remote communities. Use plain antifungals, no steroid combinations." },
+      { "aspect": "Prevention", "india": "Sun protection is not a public health focus.", "australia": "SunSmart 'slip, slop, slap, seek, slide'. No national skin screening program; checks are targeted to higher-risk people." }
+    ]
+  },
+  {
+    "topic": "geriatrics",
+    "rows": [
+      { "aspect": "Who provides care", "india": "Family is usually the main carer; formal aged care is limited.", "australia": "Most older people live independently. Government-funded home or residential care is accessed through My Aged Care and an aged care assessment." },
+      { "aspect": "Advance care planning", "india": "Rarely formalised; family often decides.", "australia": "Advance care directives and appointed substitute decision-makers are expected. Titles and forms vary by state." },
+      { "aspect": "Medication review", "india": "Polypharmacy often not systematically reviewed.", "australia": "Deprescribing is emphasised; GP can arrange a pharmacist Home Medicines Review. Falls risk assessment is routine." },
+      { "aspect": "Elder abuse", "india": "Recognised but rarely acted on formally.", "australia": "Screen for and act on elder abuse; serious incidents in residential aged care must be reported under a national scheme." }
+    ]
+  },
+  {
+    "topic": "emergency-medicine",
+    "rows": [
+      { "aspect": "Emergency number", "india": "108 or 112.", "australia": "000 (112 also works from mobiles)." },
+      { "aspect": "Snakebite first aid", "india": "Big four snakes and polyvalent ASV; tourniquets or cutting the bite are still seen.", "australia": "Pressure immobilisation bandage and splint, keep still, don't wash the bite. Monitor for coagulopathy; give antivenom if envenomed." },
+      { "aspect": "Common poisonings", "india": "Organophosphates, aluminium phosphide and paraquat.", "australia": "Paracetamol, benzodiazepines and antidepressants. Use the Australian paracetamol guideline and Poisons Information 13 11 26." },
+      { "aspect": "Triage", "india": "Varies by hospital.", "australia": "Australasian Triage Scale, categories 1 to 5, each with a target time to be seen." }
+    ]
+  },
+  {
+    "topic": "pharmacology",
+    "rows": [
+      { "aspect": "Drug availability", "india": "Nimesulide, metamizole and many fixed-dose combinations are widely used.", "australia": "Not available. Learn Australian names, e.g. paracetamol, adrenaline, frusemide/furosemide, glyceryl trinitrate. Check eTG and AMH." },
+      { "aspect": "Over-the-counter access", "india": "Antibiotics and many prescription drugs are often bought without a script.", "australia": "Strict scheduling (S2, S3, S4, S8). Antibiotics are prescription only; codeine has been prescription-only since 2018." },
+      { "aspect": "Prescribing", "india": "Brand names are common on prescriptions.", "australia": "Prescribe by active ingredient; pharmacists may substitute brands. PBS subsidy, some needing authority approval." },
+      { "aspect": "Opioids and S8 drugs", "india": "Tightly restricted under the NDPS Act, often under-prescribed.", "australia": "Check real-time prescription monitoring before prescribing S8 drugs; rules and permits vary by state." }
+    ]
+  },
+  {
+    "topic": "general-surgery",
+    "rows": [
+      { "aspect": "Acute abdomen", "india": "Clinical diagnosis with ultrasound; surgery principles as taught.", "australia": "Largely the same: appendicitis, cholecystitis and obstruction are diagnosed and managed similarly." },
+      { "aspect": "Infective causes", "india": "Abdominal TB, amoebic liver abscess and typhoid perforation are common.", "australia": "Rare, mainly in migrants or travellers. Hydatid disease can still occur in rural sheep-farming areas." },
+      { "aspect": "Elective referral", "india": "Patient often goes directly to a surgeon.", "australia": "GP refers. Public elective surgery waiting lists use urgency categories 1-3 (within 30, 90 or 365 days), or private care." },
+      { "aspect": "Antibiotic prophylaxis", "india": "Postoperative antibiotic courses of several days are common.", "australia": "Single pre-incision dose (usually cefazolin) per eTG; prolonged postoperative courses are not recommended." }
+    ]
+  },
+  {
+    "topic": "trauma",
+    "rows": [
+      { "aspect": "Primary survey", "india": "ATLS principles.", "australia": "Largely the same; taught as EMST (the RACS version of ATLS)." },
+      { "aspect": "Mechanisms", "india": "Two-wheeler road crashes, falls and assault dominate.", "australia": "Road trauma, farm injuries (quad bikes, machinery) and drowning are major themes." },
+      { "aspect": "Rural trauma", "india": "Patients travel or are referred to a tertiary centre.", "australia": "Long-distance retrieval by the Royal Flying Doctor Service or state services, so stabilisation and packaging for transfer is examined." },
+      { "aspect": "Medico-legal", "india": "Register a medico-legal case (MLC) and inform police.", "australia": "No MLC system; police are not automatically informed. Report certain deaths to the coroner; blood alcohol rules vary by state." }
+    ]
+  },
+  {
+    "topic": "orthopaedics",
+    "rows": [
+      { "aspect": "Bone and joint infection", "india": "Spinal TB (Pott's) and chronic osteomyelitis are common.", "australia": "Spinal TB is rare. Staph aureus dominates; flucloxacillin or cefazolin per eTG." },
+      { "aspect": "Imaging decisions", "india": "X-ray is often done routinely after injury.", "australia": "Validated rules are expected: Ottawa ankle and knee rules, Canadian C-spine rule." },
+      { "aspect": "Osteoporosis", "india": "Calcium and vitamin D; treatment often after fracture if affordable.", "australia": "DXA-based PBS criteria (minimal-trauma fracture or qualifying T-score). Never stop denosumab without follow-on therapy (rebound fractures)." }
+    ]
+  },
+  {
+    "topic": "urology",
+    "rows": [
+      { "aspect": "PSA testing", "india": "Often ordered routinely in older men.", "australia": "No screening program. Discuss benefits and harms (overdiagnosis, biopsy risks) before testing, and document the patient's decision." },
+      { "aspect": "Uncomplicated cystitis in women", "india": "Fluoroquinolones or nitrofurantoin; high ESBL rates.", "australia": "eTG: trimethoprim 3 days, nitrofurantoin 5 days or cefalexin 5 days. Fluoroquinolones not first line." },
+      { "aspect": "Renal colic", "india": "Ultrasound and X-ray KUB.", "australia": "Largely the same management; non-contrast CT KUB is standard, with medical expulsive therapy for small distal stones." }
+    ]
+  },
+  {
+    "topic": "vascular",
+    "rows": [
+      { "aspect": "Diabetic foot", "india": "Very common, often late presentation.", "australia": "Much higher amputation rates in First Nations people. Regular foot checks, podiatry and high-risk foot services are expected." },
+      { "aspect": "Peripheral arterial disease", "india": "Thromboangiitis obliterans (Buerger's) gets heavy textbook emphasis.", "australia": "Atherosclerosis is the usual cause; Buerger's is rare." },
+      { "aspect": "VTE anticoagulation", "india": "Warfarin or acenocoumarol, often on cost grounds.", "australia": "DOACs (apixaban, rivaroxaban) are usually first line. Acenocoumarol is not available." },
+      { "aspect": "AAA screening", "india": "No program.", "australia": "No national program either; targeted ultrasound for higher-risk older people, e.g. older men who smoke." }
+    ]
+  },
+  {
+    "topic": "ent",
+    "rows": [
+      { "aspect": "Acute otitis media", "india": "Antibiotics given routinely.", "australia": "Most children get analgesia and watchful waiting. Antibiotics (amoxicillin) for infants, unwell children and First Nations children." },
+      { "aspect": "Sore throat", "india": "Antibiotics very commonly prescribed.", "australia": "Most don't need antibiotics. Treat with penicillin where acute rheumatic fever risk is high, e.g. many First Nations communities." },
+      { "aspect": "Chronic suppurative otitis media", "india": "Common, managed mainly surgically.", "australia": "Very high rates in First Nations children, affecting hearing, speech and schooling. Ear health is a public health priority." },
+      { "aspect": "Hearing screening", "india": "Not universal at birth.", "australia": "Universal newborn hearing screening in every state and territory." }
+    ]
+  },
+  {
+    "topic": "ophthalmology",
+    "rows": [
+      { "aspect": "Trachoma", "india": "Declared eliminated as a public health problem.", "australia": "Still endemic in some remote Aboriginal communities; controlled with the SAFE strategy (surgery, azithromycin, facial cleanliness, environment)." },
+      { "aspect": "Diabetic retinopathy screening", "india": "Opportunistic, often at eye camps.", "australia": "Regular retinal checks (usually every 1-2 years, more often in higher-risk and First Nations people), including retinal photography in general practice." },
+      { "aspect": "Red eye in general practice", "india": "Topical steroid-antibiotic drops are sometimes used empirically.", "australia": "Don't start topical steroids without slit-lamp examination. Refer urgently for reduced vision, severe pain or suspected angle closure." }
+    ]
+  },
+  {
+    "topic": "breast",
+    "rows": [
+      { "aspect": "Screening", "india": "No organised program; clinical breast examination is promoted.", "australia": "BreastScreen Australia: free 2-yearly mammograms for women 50-74 (from 40 on request), no GP referral needed." },
+      { "aspect": "Breast lump", "india": "Triple assessment.", "australia": "Largely the same: triple assessment (clinical, imaging, biopsy). A normal mammogram alone doesn't exclude cancer." },
+      { "aspect": "Typical presentation", "india": "Younger women and later, often locally advanced disease.", "australia": "Many cancers are screen-detected and early; breast-conserving surgery with radiotherapy is common." },
+      { "aspect": "Family history", "india": "Genetic testing limited by cost.", "australia": "Assess familial risk category; refer to familial cancer services; BRCA testing is Medicare-funded for eligible people." }
+    ]
+  },
+  {
+    "topic": "perioperative",
+    "rows": [
+      { "aspect": "Informed consent", "india": "Often a signed form with general risks, sometimes signed by family.", "australia": "Rogers v Whitaker: disclose material risks, those a reasonable person or this patient would consider significant. Generic 'risks explained' isn't enough." },
+      { "aspect": "Language barriers", "india": "Family members commonly interpret.", "australia": "Use a professional interpreter (TIS National is free for doctors), not family, for consent." },
+      { "aspect": "Diabetes drugs before surgery", "india": "Focus on insulin and glucose control.", "australia": "Stop SGLT2 inhibitors a few days before surgery because of euglycaemic ketoacidosis risk." },
+      { "aspect": "Antibiotic prophylaxis", "india": "Prolonged postoperative courses are common.", "australia": "Single dose within 60 minutes before incision, usually cefazolin, per eTG." }
+    ]
+  },
+  {
+    "topic": "surgical-oncology",
+    "rows": [
+      { "aspect": "Common cancers", "india": "Oral and head-and-neck (tobacco chewing), cervical and breast cancer lead.", "australia": "Prostate, breast, bowel, melanoma and lung lead. Bowel cancer rates are among the world's highest." },
+      { "aspect": "Bowel cancer screening", "india": "No national program.", "australia": "Free iFOBT every 2 years mailed at 50-74 (requestable from 45)." },
+      { "aspect": "Lung cancer screening", "india": "No program.", "australia": "National Lung Cancer Screening Program since July 2025: low-dose CT for high-risk current and former smokers aged 50-70." },
+      { "aspect": "Care coordination", "india": "Oncologist or surgeon-led.", "australia": "Multidisciplinary team meetings and Optimal Care Pathways, with the GP kept involved throughout." }
+    ]
+  },
+  {
+    "topic": "antenatal-care",
+    "rows": [
+      { "aspect": "Who provides care", "india": "Obstetrician-led; government schemes promote institutional delivery.", "australia": "GP shared care, midwifery care or obstetrician, public or private. Continuity of carer is valued." },
+      { "aspect": "Gestational diabetes testing", "india": "DIPSI single-step non-fasting 75 g test is common.", "australia": "Fasting 75 g OGTT at 24-28 weeks (IADPSG criteria), earlier if high risk." },
+      { "aspect": "Supplements", "india": "Routine iron-folic acid and calcium for all, plus deworming.", "australia": "Folic acid before conception (5 mg if high risk) and iodine 150 mcg. Iron only if deficient, not routinely." },
+      { "aspect": "Vaccines in pregnancy", "india": "Td (tetanus-diphtheria) doses.", "australia": "Pertussis (dTpa) at 20-32 weeks, influenza any trimester, and RSV vaccine in the third trimester." },
+      { "aspect": "Syphilis", "india": "Tested once at booking.", "australia": "Tested at booking, and many jurisdictions recommend repeat testing later in pregnancy due to outbreaks, especially in northern Australia." }
+    ]
+  },
+  {
+    "topic": "obstetric-emergencies",
+    "rows": [
+      { "aspect": "Postpartum haemorrhage", "india": "Oxytocin, misoprostol, uterotonics; blood availability can be a limit.", "australia": "Largely the same approach: oxytocin, tranexamic acid, stepwise escalation, early senior help and massive transfusion protocol." },
+      { "aspect": "Magnesium sulfate for eclampsia", "india": "Pritchard (IM) regimen is widely taught.", "australia": "IV regimen: 4 g loading dose then 1 g per hour, with monitoring of reflexes, respiration and urine output." },
+      { "aspect": "Rh-negative women", "india": "Anti-D often only after delivery or sensitising events.", "australia": "Routine antenatal anti-D prophylaxis at 28 and 34 weeks, plus after birth and sensitising events." },
+      { "aspect": "Rural emergencies", "india": "Referral to a higher centre.", "australia": "Stabilise and arrange retrieval (e.g. RFDS); small hospitals may not have obstetric or theatre cover." }
+    ]
+  },
+  {
+    "topic": "labour-postpartum",
+    "rows": [
+      { "aspect": "Place and model of birth", "india": "Hospital birth promoted; high caesarean rates in private hospitals.", "australia": "Hospital, birth centre or (uncommonly) home birth; midwife-led continuity models are common." },
+      { "aspect": "Group B strep", "india": "Not routinely screened.", "australia": "Screening at 35-37 weeks or a risk-based approach, depending on the hospital; intrapartum antibiotics if indicated." },
+      { "aspect": "Birth after caesarean", "india": "Repeat caesarean is often the default.", "australia": "Planned VBAC is discussed and offered where suitable, as a shared decision." },
+      { "aspect": "Postnatal follow-up", "india": "Family support during confinement; ASHA home visits.", "australia": "Maternal and child health nurse visits, GP check at 6 weeks, and depression screening with the EPDS." }
+    ]
+  },
+  {
+    "topic": "gynaecology",
+    "rows": [
+      { "aspect": "Endometriosis", "india": "Often diagnosed late, usually at laparoscopy.", "australia": "National Action Plan and high awareness. Can be diagnosed clinically and on imaging, and treated empirically before surgery." },
+      { "aspect": "PCOS", "india": "Rotterdam criteria.", "australia": "The international evidence-based PCOS guideline is led from Australia; know its lifestyle-first, whole-person approach." },
+      { "aspect": "Infertility causes", "india": "Genital TB is an important cause.", "australia": "Genital TB is rare; think of it only in migrants from high-TB countries." },
+      { "aspect": "Menopause", "india": "Hormone therapy is used cautiously and less often.", "australia": "Menopausal hormone therapy is generally supported for symptomatic women under 60 or within 10 years of menopause, after individual risk assessment." }
+    ]
+  },
+  {
+    "topic": "contraception-fertility",
+    "rows": [
+      { "aspect": "Abortion law", "india": "Medical Termination of Pregnancy Act (national), with gestation limits and doctor opinions.", "australia": "State and territory law. Medical abortion (MS-2 Step) to 9 weeks can be prescribed in general practice. Objecting doctors must usually refer on." },
+      { "aspect": "Contraceptive mix", "india": "Female sterilisation dominates; also condoms, copper IUD, DMPA and centchroman.", "australia": "LARCs (implant, hormonal IUD) are promoted as most effective. Centchroman is not available." },
+      { "aspect": "Young people's consent", "india": "Parental involvement is usually expected.", "australia": "A Gillick-competent young person can consent to contraception confidentially." },
+      { "aspect": "Surrogacy", "india": "Commercial surrogacy banned; altruistic only.", "australia": "Largely the same: only altruistic surrogacy is legal. Donor-conceived people can usually learn donor identity; rules vary by state." }
+    ]
+  },
+  {
+    "topic": "sexual-health",
+    "rows": [
+      { "aspect": "Diagnosis and treatment", "india": "Syndromic management with pre-packed kits is common.", "australia": "Test first (NAAT), treat per Australian STI Management Guidelines. Chlamydia: doxycycline 7 days. Gonorrhoea: ceftriaxone IM plus azithromycin." },
+      { "aspect": "Syphilis", "india": "Endemic, tested at antenatal and STI clinics.", "australia": "Ongoing outbreak among young First Nations people in northern and central Australia since 2011, with congenital cases. Low testing threshold." },
+      { "aspect": "Screening and contacts", "india": "Testing mostly when symptomatic.", "australia": "Offer asymptomatic testing to sexually active young people. Partner notification (contact tracing) is part of management." },
+      { "aspect": "Access", "india": "Government STI clinics.", "australia": "Free public sexual health clinics, no Medicare card needed. PrEP is PBS-subsidised." }
+    ]
+  },
+  {
+    "topic": "gynae-oncology",
+    "rows": [
+      { "aspect": "Cervical screening", "india": "Opportunistic Pap smear or VIA, usually from 30.", "australia": "HPV test every 5 years, ages 25-74; self-collection is an option. Cytology only follows a positive HPV test." },
+      { "aspect": "HPV vaccination", "india": "Cervical cancer is a leading cancer in women; HPV vaccination is being scaled up.", "australia": "School-based program at 12-13 for all genders; aiming to eliminate cervical cancer by 2035." },
+      { "aspect": "Ovarian cancer", "india": "No screening.", "australia": "Largely the same: no screening; CA-125 and ultrasound are not screening tests in average-risk women." },
+      { "aspect": "Postmenopausal bleeding", "india": "Often D&C.", "australia": "Transvaginal ultrasound first; endometrial thickness over 4 mm (or ongoing bleeding) needs endometrial sampling." }
+    ]
+  },
+  {
+    "topic": "neonatology",
+    "rows": [
+      { "aspect": "Birth vaccines", "india": "BCG, OPV zero dose and hepatitis B birth dose.", "australia": "Hepatitis B birth dose (ideally within 24 hours) and vitamin K. No routine BCG or oral polio." },
+      { "aspect": "Newborn screening", "india": "Not universal; varies by state and hospital.", "australia": "Universal heel-prick bloodspot screening at 48-72 hours for many conditions, plus universal hearing screening." },
+      { "aspect": "Safe sleep", "india": "Bed-sharing is the norm.", "australia": "Red Nose advice: baby on back, own safe cot, room-sharing not bed-sharing, face uncovered, smoke-free." },
+      { "aspect": "Common problems", "india": "Low birth weight, sepsis and hypothermia; kangaroo mother care.", "australia": "Jaundice, prematurity and feeding problems. Breastfeeding promotion is largely the same." }
+    ]
+  },
+  {
+    "topic": "growth-development",
+    "rows": [
+      { "aspect": "Child health record", "india": "Mother-child protection card; checks at anganwadi.", "australia": "State-issued personal health record (e.g. NSW 'Blue Book'); regular checks by maternal and child health nurses and GPs." },
+      { "aspect": "Growth charts", "india": "WHO charts to 5 years, IAP charts after.", "australia": "WHO charts to 2 years, then usually CDC charts." },
+      { "aspect": "Nutrition focus", "india": "Undernutrition (SAM/MAM), stunting and anaemia.", "australia": "Obesity is the common problem. Faltering growth needs investigation, including psychosocial factors." },
+      { "aspect": "Allergen introduction", "india": "Food allergy is less of a focus.", "australia": "Very high food allergy rates. ASCIA: introduce common allergens like peanut and egg around 6 months, in the first year." }
+    ]
+  },
+  {
+    "topic": "paediatric-infections",
+    "rows": [
+      { "aspect": "Common serious infections", "india": "Dengue, malaria, typhoid, measles and TB.", "australia": "Mostly imported. Focus on sepsis, meningitis, UTI and bronchiolitis. Measles is usually linked to travel." },
+      { "aspect": "Bronchiolitis", "india": "Nebulised salbutamol and antibiotics are common.", "australia": "Supportive care only: no salbutamol, steroids or antibiotics. Oxygen and fluids as needed. Infant RSV immunisation programs exist." },
+      { "aspect": "Skin sores and strep", "india": "Treated as a skin problem.", "australia": "In remote First Nations communities, treat impetigo and scabies (co-trimoxazole or benzathine penicillin) to prevent rheumatic fever and kidney disease." },
+      { "aspect": "Febrile young infant", "india": "Clinical judgement and blood tests.", "australia": "Largely the same: low threshold for a full septic workup under 3 months (RCH guidelines)." }
+    ]
+  },
+  {
+    "topic": "paediatric-emergencies",
+    "rows": [
+      { "aspect": "Drowning", "india": "Ponds and open water.", "australia": "Leading cause of toddler death; pool fencing is law, active supervision emphasised." },
+      { "aspect": "Resuscitation", "india": "AHA or IAP algorithms.", "australia": "ANZCOR guidelines and DRSABCD." },
+      { "aspect": "Poisoning", "india": "Kerosene and pesticides.", "australia": "Medicines, household products and button batteries (an emergency). Poisons Information Centre 13 11 26." },
+      { "aspect": "Anaphylaxis", "india": "Hospital adrenaline; autoinjectors uncommon.", "australia": "IM adrenaline 0.01 mg/kg; children at risk carry autoinjectors and ASCIA action plans at school." }
+    ]
+  },
+  {
+    "topic": "immunisation",
+    "rows": [
+      { "aspect": "BCG", "india": "Routine at birth.", "australia": "Not routine. Only for specific high-risk groups, e.g. some First Nations newborns and children travelling to high-TB countries." },
+      { "aspect": "Schedule", "india": "UIP: OPV plus fIPV, pentavalent, rotavirus, PCV, MR at 9 and 16-24 months, JE in endemic areas.", "australia": "NIP: hexavalent (includes IPV), MMR at 12 months and MMRV at 18 months, meningococcal ACWY at 12 months. Check the Immunisation Handbook." },
+      { "aspect": "Enforcement", "india": "Voluntary, with outreach.", "australia": "'No Jab, No Pay' family payments and 'No Jab, No Play' childcare rules in several states. Recorded on the Australian Immunisation Register." },
+      { "aspect": "First Nations children", "india": "Not applicable.", "australia": "Some extra funded vaccines, e.g. meningococcal B and extra pneumococcal doses; some vary by state." }
+    ]
+  },
+  {
+    "topic": "paediatric-chronic",
+    "rows": [
+      { "aspect": "ADHD stimulants", "india": "Psychiatrist prescribed; access varies.", "australia": "Regulated by each state; often specialist initiation, permit or authority needed." },
+      { "aspect": "Cystic fibrosis", "india": "Under-diagnosed.", "australia": "Picked up on newborn screening; CFTR modulators are PBS-subsidised for eligible patients." },
+      { "aspect": "Haemoglobinopathies", "india": "Thalassaemia major needing chronic transfusion is common.", "australia": "Uncommon; mainly in families from high-prevalence regions. Offer carrier testing in those groups." },
+      { "aspect": "Type 1 diabetes", "india": "Insulin and finger-prick testing, often limited by cost.", "australia": "Subsidised CGM and pumps are common; school care plans; NDSS support." }
+    ]
+  },
+  {
+    "topic": "child-protection",
+    "rows": [
+      { "aspect": "Legal duty", "india": "POCSO requires reporting child sexual offences to police.", "australia": "Mandatory reporting of reasonable suspicion of abuse or neglect to state child protection. Categories and thresholds vary by state." },
+      { "aspect": "Warning signs", "india": "Taught mainly for sexual abuse.", "australia": "Sentinel injuries matter: any bruise in a non-mobile infant needs assessment for abuse." },
+      { "aspect": "Consent to report", "india": "Family is usually involved.", "australia": "Parental consent isn't needed to report. Keep the child safe first; avoid confronting parents in a way that increases risk." },
+      { "aspect": "Cultural context", "india": "Not applicable.", "australia": "Be aware of the Stolen Generations and the Aboriginal Child Placement Principle, but culture never overrides a child's safety." }
+    ]
+  },
+  {
+    "topic": "mood-disorders",
+    "rows": [
+      { "aspect": "Who manages depression", "india": "Psychiatrist-led, often in hospital outpatients; Tele-MANAS helpline.", "australia": "Mostly GP-led. A Mental Health Treatment Plan gives Medicare-subsidised psychology sessions (Better Access)." },
+      { "aspect": "Treatment", "india": "Antidepressants are often the main treatment.", "australia": "Psychological therapy first for mild to moderate depression; SSRIs added for moderate to severe." },
+      { "aspect": "Young people", "india": "Few dedicated youth services.", "australia": "headspace: free centres for 12-25 year olds." },
+      { "aspect": "Crisis support", "india": "Tele-MANAS 14416.", "australia": "Lifeline 13 11 14; Beyond Blue. Screening tools K10 and PHQ-9." }
+    ]
+  },
+  {
+    "topic": "psychosis",
+    "rows": [
+      { "aspect": "Drug-induced psychosis", "india": "Cannabis and alcohol.", "australia": "Methamphetamine ('ice') is a major cause in emergency departments." },
+      { "aspect": "Physical health", "india": "Less emphasis.", "australia": "Strong focus: regular metabolic monitoring on antipsychotics, because people with severe mental illness die years earlier from CVD." },
+      { "aspect": "Community care", "india": "Family-centred care with hospital follow-up.", "australia": "Community mental health teams with case managers; early psychosis services for young people." },
+      { "aspect": "Clozapine", "india": "For treatment resistance.", "australia": "Largely the same: after two failed antipsychotics, with mandated blood monitoring and myocarditis surveillance early on." }
+    ]
+  },
+  {
+    "topic": "anxiety-disorders",
+    "rows": [
+      { "aspect": "First-line treatment", "india": "CBT and SSRIs.", "australia": "Largely the same: CBT and SSRIs first line." },
+      { "aspect": "Benzodiazepines", "india": "Often prescribed long term (e.g. clonazepam, alprazolam).", "australia": "Short-term only. Alprazolam is Schedule 8 with restricted PBS listing." },
+      { "aspect": "Access to therapy", "india": "Limited psychologists; cost is a barrier.", "australia": "GPs recommend free online CBT (MindSpot, THIS WAY UP) and Head to Health, plus Better Access sessions." },
+      { "aspect": "PTSD", "india": "Less often diagnosed.", "australia": "Trauma-focused therapy first line (Phoenix Australia guidelines); common in refugees and veterans." }
+    ]
+  },
+  {
+    "topic": "substance-use",
+    "rows": [
+      { "aspect": "Alcohol advice", "india": "General advice to cut down.", "australia": "NHMRC: no more than 10 standard drinks a week and 4 in a day. A standard drink is 10 g alcohol." },
+      { "aspect": "Tobacco and vaping", "india": "Smokeless tobacco and bidis are major concerns; e-cigarettes are banned.", "australia": "Nicotine vapes are regulated medicines sold through pharmacies. Varenicline and NRT are PBS-subsidised; Quitline 13 7848." },
+      { "aspect": "Harm reduction", "india": "Needle exchange and OST through NACO programs.", "australia": "Mainstream: needle and syringe programs, supervised injecting in Sydney and Melbourne, free take-home naloxone." },
+      { "aspect": "Opioid dependence", "india": "Buprenorphine-based OST; methadone limited.", "australia": "Methadone or buprenorphine (including long-acting injectables), often prescribed in general practice." }
+    ]
+  },
+  {
+    "topic": "child-adolescent-psych",
+    "rows": [
+      { "aspect": "Confidentiality", "india": "Parents usually present and informed.", "australia": "See the young person alone for part of the consult; HEADSS assessment. Confidentiality has limits for serious risk. Own Medicare card from 15." },
+      { "aspect": "Services", "india": "Few child psychiatry services.", "australia": "headspace for 12-25 year olds; CAMHS for severe illness." },
+      { "aspect": "Eating disorders", "india": "Less often recognised.", "australia": "Common exam theme. Medicare eating disorder plans; family-based treatment for adolescents; watch for medical instability." },
+      { "aspect": "Self-harm", "india": "Assessed similarly.", "australia": "Largely the same assessment, with collaborative safety planning and family involvement." }
+    ]
+  },
+  {
+    "topic": "psych-emergencies",
+    "rows": [
+      { "aspect": "Suicide risk", "india": "Classify as low, medium or high risk.", "australia": "Moving away from risk categories toward individualised assessment and safety planning." },
+      { "aspect": "Acute agitation", "india": "IM haloperidol with promethazine is common.", "australia": "Verbal de-escalation, then oral medicine, then IM (e.g. droperidol, olanzapine, midazolam) per local guideline, with monitoring." },
+      { "aspect": "Bringing someone for assessment", "india": "Family usually brings the patient.", "australia": "Police and ambulance have powers under state Mental Health Acts to take a person for assessment." },
+      { "aspect": "Means restriction", "india": "Pesticides are a major method.", "australia": "Ask about firearms and stockpiled medicines. Some states allow or require notifying police about firearms." }
+    ]
+  },
+  {
+    "topic": "mental-health-law",
+    "rows": [
+      { "aspect": "Legislation", "india": "Mental Healthcare Act 2017, national.", "australia": "State and territory Mental Health Acts; terms and timeframes differ. Learn principles, not section numbers." },
+      { "aspect": "Involuntary criteria", "india": "Severe illness with risk or inability to care for self.", "australia": "Mental illness, serious risk, treatment needed, and no less restrictive option. Independent tribunal review." },
+      { "aspect": "Patient voice", "india": "Advance directives and nominated representatives.", "australia": "Similar concepts (advance statements, nominated persons); availability and names vary by state." },
+      { "aspect": "ECT", "india": "Unmodified ECT banned; restrictions for minors.", "australia": "Involuntary ECT needs tribunal approval in most states; always given under anaesthesia." }
+    ]
+  },
+  {
+    "topic": "old-age-psych",
+    "rows": [
+      { "aspect": "Antipsychotics in dementia", "india": "Used freely for agitation.", "australia": "Non-drug approaches first. Risperidone is the only one PBS-subsidised for BPSD, limited to 12 weeks in Alzheimer's dementia." },
+      { "aspect": "Restraint", "india": "Not regulated in care homes.", "australia": "Chemical and physical restraint in aged care are 'restrictive practices' needing consent, documentation and review." },
+      { "aspect": "Delirium", "india": "Recognised clinically.", "australia": "Largely the same; screen with tools like the 4AT and find the cause." },
+      { "aspect": "Dementia support", "india": "Family carers.", "australia": "GP-led with memory clinic referral; Dementia Australia; plan capacity and substitute decision-making early." }
+    ]
+  },
+  {
+    "topic": "ethics-law",
+    "rows": [
+      { "aspect": "Regulator", "india": "National Medical Commission.", "australia": "AHPRA and the Medical Board of Australia; 'Good medical practice' code of conduct." },
+      { "aspect": "Consent", "india": "Family often involved in decisions; written consent forms.", "australia": "Competent adult decides (Rogers v Whitaker, material risk). Family don't consent for a competent adult." },
+      { "aspect": "End of life", "india": "Passive euthanasia allowed with safeguards; active not.", "australia": "Voluntary assisted dying is legal in every state under state law, with eligibility and waiting rules." },
+      { "aspect": "Deaths needing reporting", "india": "Medico-legal cases go to police for inquest.", "australia": "Unexpected, violent or unnatural deaths, and some others, are reported to the coroner; don't sign the death certificate." }
+    ]
+  },
+  {
+    "topic": "epidemiology-biostats",
+    "rows": [
+      { "aspect": "Core methods", "india": "Standard biostatistics and study design.", "australia": "Largely the same: sensitivity, NNT, bias and study types are examined identically." },
+      { "aspect": "Data sources", "india": "Census, NFHS, Sample Registration System.", "australia": "Australian Institute of Health and Welfare (AIHW) and the Australian Bureau of Statistics (ABS)." },
+      { "aspect": "Burden of disease", "india": "Infections alongside rising non-communicable disease.", "australia": "Chronic disease, cancer, mental illness and ageing dominate." },
+      { "aspect": "Health inequity", "india": "Gaps by region, caste and income.", "australia": "The biggest gap is between First Nations and other Australians, e.g. life expectancy." }
+    ]
+  },
+  {
+    "topic": "screening-prevention",
+    "rows": [
+      { "aspect": "Screening model", "india": "Mostly opportunistic.", "australia": "Organised population programs with invitations and registers (National Cancer Screening Register)." },
+      { "aspect": "Cancer programs", "india": "Common cancers screened at NCD clinics.", "australia": "Bowel (iFOBT 45-74), breast (mammogram 50-74), cervical (HPV every 5 years 25-74), lung (high-risk 50-70)." },
+      { "aspect": "Preventive care guide", "india": "No single guide.", "australia": "RACGP 'Red Book' sets ages and intervals. First Nations people get an annual health check and some screening earlier." }
+    ]
+  },
+  {
+    "topic": "indigenous-health",
+    "rows": [
+      { "aspect": "Context", "india": "Tribal health has some parallels, but the history is different.", "australia": "Colonisation, dispossession and the Stolen Generations drive today's health gaps. Closing the Gap sets national targets." },
+      { "aspect": "Asking identity", "india": "Not applicable.", "australia": "Ask every patient if they identify as Aboriginal and/or Torres Strait Islander; don't assume from appearance." },
+      { "aspect": "Services", "india": "Not applicable.", "australia": "Aboriginal Community Controlled Health Services; involve Aboriginal Health Workers or Practitioners; annual health check; PBS co-payment help." },
+      { "aspect": "Communication", "india": "Doctor-led, often directive.", "australia": "Cultural safety is judged by the patient. Involve family, allow time, avoid jargon, respect Sorry Business and gender-specific business." }
+    ]
+  },
+  {
+    "topic": "notifiable-diseases",
+    "rows": [
+      { "aspect": "System", "india": "IDSP reporting to district surveillance units.", "australia": "Report to the state or territory public health unit; the core list is national, but lists and timeframes vary by state." },
+      { "aspect": "Consent", "india": "Similar public health duty.", "australia": "Consent isn't needed to notify, but tell the patient you are doing it." },
+      { "aspect": "Urgency", "india": "Weekly and outbreak reporting.", "australia": "Some (e.g. meningococcal disease, measles) need urgent phone notification on clinical suspicion, before lab confirmation." },
+      { "aspect": "Contact tracing", "india": "Health workers do field follow-up.", "australia": "Public health units lead tracing and prophylaxis; the GP supports and handles STI partner notification." }
+    ]
+  },
+  {
+    "topic": "australian-healthcare-system",
+    "rows": [
+      { "aspect": "Funding", "india": "Largely out of pocket, with government hospitals and schemes like PM-JAY.", "australia": "Universal Medicare covers public hospitals and subsidises GP and specialist care; optional private insurance." },
+      { "aspect": "Access to specialists", "india": "Patients can see specialists directly.", "australia": "GP referral needed for Medicare-rebated specialist care. GPs are the gatekeepers; continuity is valued." },
+      { "aspect": "Medicines", "india": "Generic drugs and Jan Aushadhi stores.", "australia": "Pharmaceutical Benefits Scheme subsidises listed drugs with a co-payment and safety net." },
+      { "aspect": "Workforce", "india": "Doctors concentrated in cities.", "australia": "Same problem; many overseas-trained doctors start rurally under Distribution Priority Area rules." }
+    ]
+  },
+  {
+    "topic": "occupational-health",
+    "rows": [
+      { "aspect": "Law and compensation", "india": "Factories Act and ESI scheme.", "australia": "Safe Work Australia and state regulators; state workers' compensation. GPs complete certificates of capacity focused on return to work." },
+      { "aspect": "Occupational lung disease", "india": "Silicosis, byssinosis and coal workers' pneumoconiosis.", "australia": "Silicosis from engineered stone (banned since July 2024), asbestos diseases, and re-emerged coal workers' pneumoconiosis in Queensland." },
+      { "aspect": "Fitness to drive and work", "india": "Basic medical certificate.", "australia": "Austroads standards, stricter for commercial drivers than private drivers." }
+    ]
+  }
+]

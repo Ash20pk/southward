@@ -1,57 +1,135 @@
 @import "tailwindcss";
 
+/*
+ * Three study themes. Chosen for long reading sessions:
+ * - Day: soft cool-grey paper (less glare than pure white), near-black ink, a calm focus blue.
+ * - Reading: warm sepia paper and brown-black ink, for long sessions and evening study.
+ * - Night: dim warm-dark surfaces with off-white text (pure white on black causes halation).
+ * Highlights use a marker-yellow wash with dark text, like a highlighter on notes.
+ * All body text meets WCAG AA (4.5:1) on its background.
+ */
 :root {
-  --paper: #f1f4ee;
+  --paper: #f3f5f8;
   --surface: #ffffff;
-  --sunk: #e7ece4;
-  --ink: #14213d;
-  --muted: #5a6577;
-  --line: #d6ddd3;
-  --brand: #35685a;
+  --sunk: #e9edf2;
+  --ink: #17202b;
+  --muted: #4f5b6b;
+  --line: #d5dce4;
+  --brand: #1f5f8b;
   --brand-ink: #ffffff;
-  --brand-soft: #dde9e2;
-  --ochre: #c4861f;
-  --ochre-soft: #f6ead3;
-  --ok: #2a7a52;
-  --ok-soft: #dcefe3;
-  --bad: #b3413a;
-  --bad-soft: #f6dfdc;
-  --sky: #14213d;
-  --sky-2: #203256;
-  --d-med: #2f6690;
-  --d-surg: #7a4e9c;
-  --d-wh: #b0456f;
-  --d-ch: #c47b12;
-  --d-mh: #2f8577;
-  --d-ph: #66742a;
+  --brand-soft: #e2edf6;
+  --ochre: #e0a526;
+  --ochre-ink: #7a5200;
+  --ochre-soft: #fdf1cf;
+  --ok: #17754a;
+  --ok-soft: #e1f2e8;
+  --bad: #b3261e;
+  --bad-soft: #fbe6e4;
+  --sky: #152640;
+  --sky-2: #1f3354;
+  --sky-ink: #eef2f7;
+  --sky-muted: #b3c0d2;
+  --d-med: #2563a8;
+  --d-surg: #7a4aa8;
+  --d-wh: #b23a74;
+  --d-ch: #a35a06;
+  --d-mh: #11807a;
+  --d-ph: #5b7a16;
 }
 
+:root[data-theme="sepia"] {
+  --paper: #f4ecdc;
+  --surface: #fbf6ec;
+  --sunk: #ebe0ca;
+  --ink: #33281c;
+  --muted: #65543f;
+  --line: #dccdb2;
+  --brand: #275a6b;
+  --brand-ink: #fbf6ec;
+  --brand-soft: #e2e4d6;
+  --ochre: #dba23a;
+  --ochre-ink: #6e4700;
+  --ochre-soft: #f6e3b4;
+  --ok: #2d6b3c;
+  --ok-soft: #e1e8d0;
+  --bad: #a3321f;
+  --bad-soft: #f3dccb;
+  --sky: #2f3a4a;
+  --sky-2: #3c4859;
+  --sky-ink: #f4ecdc;
+  --sky-muted: #cfc4b0;
+  --d-med: #2f5f8f;
+  --d-surg: #6f4a8f;
+  --d-wh: #9c3d63;
+  --d-ch: #a0600f;
+  --d-mh: #2c7068;
+  --d-ph: #5a6e1e;
+}
+
+:root[data-theme="dark"] {
+  --paper: #11151b;
+  --surface: #181e26;
+  --sunk: #0c1015;
+  --ink: #dde3ea;
+  --muted: #9aa6b4;
+  --line: #2a323d;
+  --brand: #86b8de;
+  --brand-ink: #10151b;
+  --brand-soft: #1c2b3b;
+  --ochre: #e3b55a;
+  --ochre-ink: #f0cd84;
+  --ochre-soft: #302716;
+  --ok: #78c9a0;
+  --ok-soft: #152a1f;
+  --bad: #f1928a;
+  --bad-soft: #341c1b;
+  --sky: #1b2c47;
+  --sky-2: #243a5c;
+  --sky-ink: #e6ecf3;
+  --sky-muted: #a9b8cc;
+  --d-med: #7fb0e6;
+  --d-surg: #bc98e0;
+  --d-wh: #e592b6;
+  --d-ch: #eaab5a;
+  --d-mh: #6fc9bd;
+  --d-ph: #afc06a;
+}
+
+/* No explicit choice: follow the system. Keep in sync with the dark block above. */
 @media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --paper: #0d1524;
-    --surface: #141f33;
-    --sunk: #0a111d;
-    --ink: #e7ecf3;
-    --muted: #9aa6b8;
-    --line: #25324a;
-    --brand: #7db8a1;
-    --brand-ink: #0d1524;
-    --brand-soft: #1b3330;
-    --ochre: #e5ad4c;
-    --ochre-soft: #3a2e17;
-    --ok: #6cc596;
-    --ok-soft: #173026;
-    --bad: #ec8a80;
-    --bad-soft: #3a1d1c;
-    --sky: #0a111d;
-    --sky-2: #16233d;
-    --d-med: #6fa6d6;
-    --d-surg: #b38ad6;
-    --d-wh: #e088ab;
-    --d-ch: #e8a94a;
-    --d-mh: #6cc2b3;
-    --d-ph: #a9b863;
+  :root:not([data-theme]) {
+    --paper: #11151b;
+    --surface: #181e26;
+    --sunk: #0c1015;
+    --ink: #dde3ea;
+    --muted: #9aa6b4;
+    --line: #2a323d;
+    --brand: #86b8de;
+    --brand-ink: #10151b;
+    --brand-soft: #1c2b3b;
+    --ochre: #e3b55a;
+    --ochre-ink: #f0cd84;
+    --ochre-soft: #302716;
+    --ok: #78c9a0;
+    --ok-soft: #152a1f;
+    --bad: #f1928a;
+    --bad-soft: #341c1b;
+    --sky: #1b2c47;
+    --sky-2: #243a5c;
+    --sky-ink: #e6ecf3;
+    --sky-muted: #a9b8cc;
+    --d-med: #7fb0e6;
+    --d-surg: #bc98e0;
+    --d-wh: #e592b6;
+    --d-ch: #eaab5a;
+    --d-mh: #6fc9bd;
+    --d-ph: #afc06a;
   }
+}
+
+/* Text size preference, for reading comfort. */
+:root[data-text="large"] {
+  font-size: 112.5%;
 }
 
 @theme inline {
@@ -66,6 +144,11 @@
   --color-brand-soft: var(--brand-soft);
   --color-ochre: var(--ochre);
   --color-ochre-soft: var(--ochre-soft);
+  --color-ochre-ink: var(--ochre-ink);
+  --color-sky: var(--sky);
+  --color-sky-2: var(--sky-2);
+  --color-sky-ink: var(--sky-ink);
+  --color-sky-muted: var(--sky-muted);
   --color-ok: var(--ok);
   --color-ok-soft: var(--ok-soft);
   --color-bad: var(--bad);
@@ -76,6 +159,15 @@
 
 html {
   background: var(--paper);
+  color-scheme: light;
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    color-scheme: dark;
+  }
 }
 
 body {

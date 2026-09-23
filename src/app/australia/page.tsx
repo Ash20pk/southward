@@ -68,7 +68,7 @@ export default function Australia() {
                       if (!done) toggle(`aus:${f.id}`);
                       setOpen(null);
                     }}
-                    className="mt-5 rounded-full bg-ochre-soft px-4 py-2 text-sm font-medium text-ochre hover:brightness-95"
+                    className="mt-5 rounded-full bg-ochre-soft px-4 py-2 text-sm font-medium text-ochre-ink hover:brightness-95"
                   >
                     {done ? "Close" : "Got it, mark as read"}
                   </button>

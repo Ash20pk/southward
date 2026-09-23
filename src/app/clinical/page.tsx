@@ -72,7 +72,7 @@ export default function Clinical() {
                     <DisciplineDot color={d.color} /> {d.short}, {TYPE_LABEL[s.type]}
                   </span>
                   {b >= 0 && (
-                    <span className={b >= 60 ? "font-medium text-ok" : "font-medium text-ochre"}>Best {b}%</span>
+                    <span className={b >= 60 ? "font-medium text-ok" : "font-medium text-ochre-ink"}>Best {b}%</span>
                   )}
                 </div>
                 <h2 className="text-[1.05rem] font-semibold">{s.title}</h2>

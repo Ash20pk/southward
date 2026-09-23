@@ -4,7 +4,8 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import { useState } from "react";
 import { ArrowLeft, RefreshCw, Sparkles } from "lucide-react";
-import { disciplineName, FLASHCARDS, QUESTIONS, topicById, DISCIPLINES } from "@/lib/content";
+import { contrastFor, disciplineName, FLASHCARDS, QUESTIONS, subjectsForTopic, topicById, DISCIPLINES } from "@/lib/content";
+import { ContrastTable } from "@/components/ContrastTable";
 import { useStore } from "@/lib/store";
 import { useStream } from "@/hooks/useStream";
 import { Markdown } from "@/components/Markdown";
@@ -25,6 +26,8 @@ export default function TopicPage() {
   const qCount = [...QUESTIONS, ...aiQuestions].filter((q) => q.topic === t.id).length;
   const cCount = FLASHCARDS.filter((c) => c.topic === t.id).length;
   const color = DISCIPLINES.find((d) => d.id === t.discipline)?.color ?? "var(--brand)";
+  const links = subjectsForTopic(t.id);
+  const contrast = contrastFor(t.id);
 
   const write = () =>
     ai.run("/api/lesson", { topicId: t.id, focus: focus.trim() || undefined }, (md) => {
@@ -45,6 +48,28 @@ export default function TopicPage() {
         </p>
         <h1 className="mt-2 text-3xl font-semibold tracking-tight sm:text-[2.4rem] sm:leading-[1.1]">{t.name}</h1>
         <p className="mt-3 font-serif text-[1.1rem] leading-relaxed text-muted">{t.summary}</p>
+        <p className="mt-4 flex flex-wrap items-center gap-2 text-sm">
+          <span className="text-muted">In your MBBS:</span>
+          {links.length ? (
+            links.map(({ subject, strength }) => (
+              <Link
+                key={subject.id}
+                href={`/mbbs?s=${subject.id}`}
+                className={
+                  strength === "direct"
+                    ? "rounded-full bg-brand px-2.5 py-1 font-medium text-brand-ink hover:brightness-110"
+                    : "rounded-full border border-brand/40 px-2.5 py-1 text-brand hover:border-brand"
+                }
+                title={strength === "direct" ? "Taught directly" : strength === "partial" ? "Partly covered" : "Basic science behind it"}
+              >
+                {subject.name}
+                {strength !== "direct" && <span className="ml-1 opacity-75">({strength === "partial" ? "partly" : "basics"})</span>}
+              </Link>
+            ))
+          ) : (
+            <span className="rounded-full bg-ochre-soft px-2.5 py-1 font-medium text-ochre-ink">Not taught directly. New material for you</span>
+          )}
+        </p>
         <div className="mt-5 flex flex-wrap gap-2">
           <ButtonLink href={`/practice?topic=${t.id}`} size="sm">
             Practise {qCount} questions
@@ -59,11 +84,18 @@ export default function TopicPage() {
       </header>
 
       <div className="grid grid-cols-1 gap-8 lg:grid-cols-[1fr_20rem]">
-        <div className="order-2 lg:order-1">
+        <div className="order-2 flex flex-col gap-8 lg:order-1">
+          {contrast.length > 0 && (
+            <Panel className="p-6 sm:p-8">
+              <h2 className="text-lg font-semibold">India vs Australia</h2>
+              <p className="mb-4 mt-1 text-muted">Where the answer you learned in MBBS differs from the one the AMC marks as correct.</p>
+              <ContrastTable rows={contrast} />
+            </Panel>
+          )}
           <Panel className="p-6 sm:p-8">
             <div className="flex flex-wrap items-center justify-between gap-3">
               <h2 className="flex items-center gap-2 text-lg font-semibold">
-                <Sparkles size={18} className="text-ochre" /> Lesson
+                <Sparkles size={18} className="text-ochre-ink" /> Lesson
               </h2>
               {lesson && !ai.loading && (
                 <Button variant="quiet" size="sm" onClick={write}>
@@ -112,7 +144,7 @@ export default function TopicPage() {
           </section>
           {t.ausContext && (
             <section className="rounded-2xl bg-ochre-soft p-5">
-              <h2 className="font-semibold text-ochre">Different in Australia</h2>
+              <h2 className="font-semibold text-ochre-ink">Different in Australia</h2>
               <p className="mt-2 font-serif leading-relaxed">{t.ausContext}</p>
             </section>
           )}

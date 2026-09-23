@@ -1,0 +1,1131 @@
+[
+  {
+    "id": "anatomy",
+    "name": "Anatomy",
+    "phase": "Phase I",
+    "when": "First professional year (Phase I)",
+    "summary": "The AMC never asks pure anatomy, but it hides inside surgical, orthopaedic, neurology and trauma questions. Learn it now with one eye on where it becomes a clinical sign or a procedure.",
+    "amcWeight": "low",
+    "links": [
+      { "topic": "general-surgery", "strength": "foundation" },
+      { "topic": "orthopaedics", "strength": "foundation" },
+      { "topic": "neurology", "strength": "foundation" },
+      { "topic": "trauma", "strength": "foundation" },
+      { "topic": "vascular", "strength": "foundation" },
+      { "topic": "breast", "strength": "foundation" },
+      { "topic": "ent", "strength": "foundation" },
+      { "topic": "ophthalmology", "strength": "foundation" },
+      { "topic": "urology", "strength": "foundation" }
+    ],
+    "carriesOver": [
+      "Brachial plexus and peripheral nerve injuries (wrist drop, claw hand, foot drop)",
+      "Inguinal canal anatomy and direct vs indirect hernias",
+      "Dermatomes, myotomes and spinal cord tracts for localising neurological lesions",
+      "Blood supply of the gut, which explains mesenteric ischaemia and GI bleeding sources",
+      "Lymphatic drainage of the breast, skin and testis, which explains cancer spread",
+      "Surface anatomy for procedures such as chest drains, lumbar puncture and cannulation"
+    ],
+    "contrasts": [
+      {
+        "aspect": "How it is examined",
+        "india": "Long answers, labelled diagrams and spotters on cadaveric specimens and bones.",
+        "australia": "Never tested in isolation; appears as one step in a clinical vignette, such as naming the nerve injured by a fracture."
+      },
+      {
+        "aspect": "Level of detail that matters",
+        "india": "Detailed attachments, relations and developmental anatomy are all fair game.",
+        "australia": "Only clinically applied anatomy matters: nerve injuries, compartments, hernias, spread of cancer, surface landmarks."
+      },
+      {
+        "aspect": "Imaging anatomy",
+        "india": "Mostly X-rays and some CT in radiology sessions.",
+        "australia": "Questions assume you can read basic X-ray and CT findings, and use decision rules to decide when imaging is needed."
+      },
+      {
+        "aspect": "Procedure anatomy",
+        "india": "Taught as theory in Phase I, practised much later in postings.",
+        "australia": "Clinical stations expect you to explain procedures and their risks to patients in plain language."
+      }
+    ],
+    "postingPlan": [
+      "For every limb region you finish, write one flashcard linking a nerve injury to its clinical sign.",
+      "Skim the orthopaedics and trauma topic pages to see which anatomy the AMC actually uses.",
+      "Keep AMC work light this year: 10-15 minutes a day of reading clinical questions is plenty.",
+      "When you learn the inguinal canal, try the groin lump clinical station just to see how it is used later."
+    ]
+  },
+  {
+    "id": "physiology",
+    "name": "Physiology",
+    "phase": "Phase I",
+    "when": "First professional year (Phase I)",
+    "summary": "Physiology is the reasoning behind a lot of AMC medicine questions, especially cardiology, respiratory, renal and endocrine. It is rarely tested directly but makes the clinical answers make sense.",
+    "amcWeight": "low",
+    "links": [
+      { "topic": "cardiology", "strength": "foundation" },
+      { "topic": "respiratory", "strength": "foundation" },
+      { "topic": "nephrology", "strength": "foundation" },
+      { "topic": "endocrinology", "strength": "foundation" },
+      { "topic": "neurology", "strength": "foundation" },
+      { "topic": "haematology", "strength": "foundation" },
+      { "topic": "gastroenterology", "strength": "foundation" },
+      { "topic": "antenatal-care", "strength": "foundation" },
+      { "topic": "neonatology", "strength": "foundation" }
+    ],
+    "carriesOver": [
+      "Cardiac cycle, heart sounds and the basis of the JVP and murmurs",
+      "Lung volumes and spirometry patterns (obstructive vs restrictive)",
+      "Acid-base physiology and interpreting an arterial blood gas",
+      "Renal handling of sodium, potassium and water, which underpins electrolyte disorders",
+      "Hormone feedback loops (thyroid, adrenal, pituitary) used to interpret endocrine tests",
+      "Physiological changes of pregnancy and the fetal-to-neonatal circulation"
+    ],
+    "contrasts": [
+      {
+        "aspect": "How it is examined",
+        "india": "Theory essays, graphs and practical experiments such as haemoglobin estimation and BP recording.",
+        "australia": "Not tested directly; you use it to interpret a blood gas, spirometry or electrolytes inside a clinical case."
+      },
+      {
+        "aspect": "Units",
+        "india": "Many values are learnt in conventional units, for example glucose in mg/dL.",
+        "australia": "SI units throughout: glucose in mmol/L, creatinine in micromol/L, haemoglobin in g/L."
+      },
+      {
+        "aspect": "Spirometry and lung function",
+        "india": "Learnt mainly as graphs and definitions.",
+        "australia": "Expected to confirm asthma or COPD with spirometry and bronchodilator response in a GP setting."
+      },
+      {
+        "aspect": "Exercise and lifestyle",
+        "india": "Exercise physiology is taught as a physiology chapter.",
+        "australia": "Physical activity advice is part of routine preventive care in general practice, given as specific targets."
+      }
+    ],
+    "postingPlan": [
+      "Start converting lab values you learn into SI units now, so Australian reports feel normal later.",
+      "Practise reading 2-3 blood gases a week once you cover acid-base.",
+      "Link each system you study to one AMC topic page and read its summary.",
+      "Keep AMC time to 10-15 minutes a day; your main job this year is the MBBS exam."
+    ]
+  },
+  {
+    "id": "biochemistry",
+    "name": "Biochemistry",
+    "phase": "Phase I",
+    "when": "First professional year (Phase I)",
+    "summary": "Biochemistry feeds the AMC mainly through lab interpretation: LFTs, lipids, diabetes tests, electrolytes and inherited metabolic disease. Pathways themselves are almost never asked.",
+    "amcWeight": "low",
+    "links": [
+      { "topic": "endocrinology", "strength": "foundation" },
+      { "topic": "gastroenterology", "strength": "foundation" },
+      { "topic": "nephrology", "strength": "foundation" },
+      { "topic": "cardiology", "strength": "foundation" },
+      { "topic": "neonatology", "strength": "foundation" },
+      { "topic": "growth-development", "strength": "foundation" }
+    ],
+    "carriesOver": [
+      "Interpreting liver function tests (hepatocellular vs cholestatic pattern)",
+      "Lipid profile interpretation and familial hypercholesterolaemia",
+      "Diabetes diagnostics: fasting glucose, OGTT and HbA1c",
+      "Vitamin deficiencies and their clinical features (B12, folate, thiamine, vitamin D)",
+      "Bilirubin metabolism, which explains neonatal and adult jaundice",
+      "Basics of inborn errors of metabolism and newborn screening"
+    ],
+    "contrasts": [
+      {
+        "aspect": "Units and reporting",
+        "india": "Glucose, cholesterol and creatinine usually taught in mg/dL.",
+        "australia": "Glucose and cholesterol in mmol/L, creatinine in micromol/L with eGFR, HbA1c in both % and mmol/mol."
+      },
+      {
+        "aspect": "Newborn screening",
+        "india": "Newborn screening coverage varies by state and hospital; not a universal national program.",
+        "australia": "Every newborn is offered a heel-prick blood spot test for a panel of conditions including PKU, hypothyroidism and cystic fibrosis."
+      },
+      {
+        "aspect": "Nutritional deficiency focus",
+        "india": "Protein-energy malnutrition, iodine and vitamin A deficiency are major topics.",
+        "australia": "Obesity and metabolic syndrome dominate; deficiency is seen in specific groups such as vitamin D in covered or housebound people."
+      },
+      {
+        "aspect": "Cardiovascular risk",
+        "india": "Lipids are often interpreted against individual target values.",
+        "australia": "Lipids feed into an absolute cardiovascular risk calculation, which then decides treatment."
+      }
+    ],
+    "postingPlan": [
+      "Make a one-page SI unit conversion sheet for glucose, cholesterol, creatinine and bilirubin.",
+      "When you cover LFTs, do 5 gastroenterology questions that involve jaundice.",
+      "Read the endocrinology topic's diabetes section after your carbohydrate metabolism chapter.",
+      "Keep AMC work light: 10-15 minutes a day."
+    ]
+  },
+  {
+    "id": "pathology",
+    "name": "Pathology",
+    "phase": "Phase II",
+    "when": "Second professional year (Phase II)",
+    "summary": "Pathology gives you the disease mechanisms and lab interpretation behind almost every AMC medicine and surgery question. The AMC asks what the result means and what to do next, not histology.",
+    "amcWeight": "medium",
+    "links": [
+      { "topic": "haematology", "strength": "partial" },
+      { "topic": "surgical-oncology", "strength": "foundation" },
+      { "topic": "gynae-oncology", "strength": "foundation" },
+      { "topic": "breast", "strength": "foundation" },
+      { "topic": "cardiology", "strength": "foundation" },
+      { "topic": "nephrology", "strength": "foundation" },
+      { "topic": "gastroenterology", "strength": "foundation" },
+      { "topic": "rheumatology", "strength": "foundation" }
+    ],
+    "carriesOver": [
+      "Classifying and working up anaemia using the full blood count and film",
+      "Coagulation tests and bleeding disorders",
+      "Blood transfusion principles, blood groups and transfusion reactions",
+      "Neoplasia basics: benign vs malignant, staging and spread",
+      "Urine microscopy and the nephritic vs nephrotic picture",
+      "Pathology of atherosclerosis, MI and rheumatic heart disease"
+    ],
+    "contrasts": [
+      {
+        "aspect": "Anaemia causes",
+        "india": "Nutritional iron deficiency is extremely common, plus hookworm, thalassaemia trait and sickle cell in some regions.",
+        "australia": "Iron deficiency in an adult man or postmenopausal woman means GI blood loss until proven otherwise, so colonoscopy and gastroscopy."
+      },
+      {
+        "aspect": "Common cancers",
+        "india": "Oral, cervical, breast, gallbladder and stomach cancers are emphasised.",
+        "australia": "Skin cancer, breast, prostate, colorectal and lung cancer dominate, backed by national screening programs."
+      },
+      {
+        "aspect": "Cervical cytology",
+        "india": "Pap smear and visual inspection with acetic acid (VIA) are taught for screening.",
+        "australia": "The National Cervical Screening Program uses an HPV test every 5 years, with cytology only as a follow-up test."
+      },
+      {
+        "aspect": "Who orders tests",
+        "india": "Tests often ordered by the treating specialist, sometimes as a broad panel.",
+        "australia": "Most tests are ordered by the GP through community pathology labs; the AMC rewards targeted testing over panels."
+      },
+      {
+        "aspect": "Blood products",
+        "india": "Hospital blood banks, with replacement donation still common.",
+        "australia": "Blood is supplied nationally by Australian Red Cross Lifeblood from voluntary donors; patient blood management limits transfusion."
+      }
+    ],
+    "postingPlan": [
+      "After each haematology chapter, do 5 haematology questions focused on the next investigation.",
+      "Read the cervical screening pathway in gynae-oncology alongside your cervical cancer chapter.",
+      "Make flashcards of Australian cancer screening ages as you study each cancer.",
+      "Spend about 20 minutes a day on AMC questions this year, mostly medicine topics."
+    ]
+  },
+  {
+    "id": "microbiology",
+    "name": "Microbiology",
+    "phase": "Phase II",
+    "when": "Second professional year (Phase II)",
+    "summary": "Microbiology underpins AMC infectious disease, sexual health and paediatric infection questions. The big shift is from organism detail to Australian antibiotic choices and notifiable disease reporting.",
+    "amcWeight": "medium",
+    "links": [
+      { "topic": "infectious-disease", "strength": "partial" },
+      { "topic": "sexual-health", "strength": "foundation" },
+      { "topic": "paediatric-infections", "strength": "foundation" },
+      { "topic": "immunisation", "strength": "foundation" },
+      { "topic": "notifiable-diseases", "strength": "foundation" }
+    ],
+    "carriesOver": [
+      "Gram stain and culture basics, and how to take proper blood cultures",
+      "Organisms causing meningitis, pneumonia and UTI by age group",
+      "Hepatitis B serology interpretation",
+      "HIV virology, testing and window periods",
+      "Principles of sterilisation, infection control and hand hygiene",
+      "How vaccines work (live vs inactivated) and their contraindications"
+    ],
+    "contrasts": [
+      {
+        "aspect": "Common infections",
+        "india": "TB, typhoid, malaria, dengue, leptospirosis and scrub typhus are core topics.",
+        "australia": "STIs, community MRSA, influenza and COVID dominate; tropical cases are usually returned travellers or northern Australia."
+      },
+      {
+        "aspect": "Local Australian infections",
+        "india": "Not covered.",
+        "australia": "Melioidosis in the tropical north, Ross River virus, Q fever in farm workers, and group A strep leading to rheumatic fever in First Nations communities."
+      },
+      {
+        "aspect": "Typhoid diagnosis",
+        "india": "The Widal test is widely taught and used.",
+        "australia": "Blood culture is the test; Widal is not used. Typhoid is suspected mainly in returned travellers."
+      },
+      {
+        "aspect": "Antibiotic choice",
+        "india": "Often broad-spectrum, and antibiotics are widely available without prescription in practice.",
+        "australia": "Narrow, guideline-based choices from Therapeutic Guidelines (eTG), with strong antimicrobial stewardship."
+      },
+      {
+        "aspect": "Reporting infections",
+        "india": "Reporting through the Integrated Disease Surveillance Programme (IDSP).",
+        "australia": "Doctors and labs notify the state or territory public health unit; some diseases must be notified by phone immediately."
+      }
+    ],
+    "postingPlan": [
+      "Do 5 infectious disease questions after each organism group you study.",
+      "Make a flashcard set of Australian-only infections: melioidosis, Ross River, Q fever, Murray Valley encephalitis.",
+      "Read the notifiable diseases topic once you cover epidemiology of infections.",
+      "Read the sexual health topic when you study STIs; Australian contact tracing is very testable."
+    ]
+  },
+  {
+    "id": "pharmacology",
+    "name": "Pharmacology",
+    "phase": "Phase II",
+    "when": "Second professional year (Phase II)",
+    "summary": "Pharmacology is heavily tested on the AMC, but through safe prescribing, interactions and Australian first-line choices rather than mechanisms. Learning generic names and eTG-style choices now saves a lot of relearning.",
+    "amcWeight": "high",
+    "links": [
+      { "topic": "pharmacology", "strength": "direct" },
+      { "topic": "perioperative", "strength": "foundation" },
+      { "topic": "psychosis", "strength": "foundation" },
+      { "topic": "mood-disorders", "strength": "foundation" },
+      { "topic": "anxiety-disorders", "strength": "foundation" },
+      { "topic": "infectious-disease", "strength": "foundation" },
+      { "topic": "cardiology", "strength": "foundation" },
+      { "topic": "emergency-medicine", "strength": "foundation" },
+      { "topic": "contraception-fertility", "strength": "foundation" },
+      { "topic": "substance-use", "strength": "foundation" }
+    ],
+    "carriesOver": [
+      "Mechanisms and major adverse effects of common drug classes",
+      "Drug interactions through enzyme induction and inhibition (for example warfarin, rifampicin)",
+      "Therapeutic drug monitoring for lithium, digoxin, aminoglycosides and vancomycin",
+      "Management of common poisonings such as paracetamol and organophosphates",
+      "Antimicrobial classes and their spectrum",
+      "Dose adjustment in renal and hepatic impairment"
+    ],
+    "contrasts": [
+      {
+        "aspect": "Drug names",
+        "india": "Practice often uses brand names and fixed-dose combinations, such as combined antibiotic or analgesic products.",
+        "australia": "Generic names only on the AMC; fixed-dose combinations are few and questions expect single-drug, guideline-based choices."
+      },
+      {
+        "aspect": "Where first-line choices come from",
+        "india": "Textbooks such as KD Tripathi, and the National List of Essential Medicines.",
+        "australia": "Therapeutic Guidelines (eTG) and the Australian Medicines Handbook; subsidy is through the PBS."
+      },
+      {
+        "aspect": "Drug scheduling",
+        "india": "Schedule H, H1 and X under the Drugs and Cosmetics Rules.",
+        "australia": "Poisons Standard schedules: S2 pharmacy, S3 pharmacist-only, S4 prescription-only, S8 controlled drugs like opioids."
+      },
+      {
+        "aspect": "Pregnancy safety",
+        "india": "Usually taught using general safe or unsafe lists.",
+        "australia": "Australian TGA pregnancy categories (A, B1, B2, B3, C, D, X) are used in prescribing references."
+      },
+      {
+        "aspect": "Opioids and codeine",
+        "india": "Tramadol and codeine combinations are commonly prescribed.",
+        "australia": "Codeine is prescription-only and not used in children under 12; opioid prescribing is tightly monitored with real-time prescription monitoring."
+      },
+      {
+        "aspect": "Reporting adverse effects",
+        "india": "Pharmacovigilance Programme of India (PvPI).",
+        "australia": "Adverse events are reported to the TGA."
+      }
+    ],
+    "postingPlan": [
+      "Write every drug you learn by its generic name only, and note its Australian first-line use.",
+      "Do 10 pharmacology questions a day once you finish each system.",
+      "Make flashcards for the dangerous interactions: warfarin, lithium, serotonin syndrome, QT prolongation.",
+      "Read the pharmacology topic page on TGA pregnancy categories and drug scheduling.",
+      "When you study psychiatric drugs, read the psychosis and mood disorders topics alongside."
+    ]
+  },
+  {
+    "id": "community-medicine",
+    "name": "Community Medicine",
+    "phase": "Phase III Part 1",
+    "when": "Taught from Phase I through Phase III Part 1, examined at the end of Phase III Part 1",
+    "summary": "Community medicine maps onto the AMC's population health block, which is heavily tested through epidemiology, screening and ethics questions. The concepts transfer, but the Australian programs, schedules and health system are new material.",
+    "amcWeight": "high",
+    "links": [
+      { "topic": "epidemiology-biostats", "strength": "direct" },
+      { "topic": "screening-prevention", "strength": "direct" },
+      { "topic": "notifiable-diseases", "strength": "direct" },
+      { "topic": "occupational-health", "strength": "direct" },
+      { "topic": "immunisation", "strength": "partial" },
+      { "topic": "australian-healthcare-system", "strength": "partial" },
+      { "topic": "indigenous-health", "strength": "partial" },
+      { "topic": "growth-development", "strength": "partial" }
+    ],
+    "carriesOver": [
+      "Study designs and their hierarchy of evidence",
+      "Sensitivity, specificity, predictive values and likelihood ratios",
+      "Relative risk, odds ratio, NNT and confidence intervals",
+      "Wilson-Jungner principles of screening",
+      "Outbreak investigation and epidemic curves",
+      "Principles of occupational disease and prevention"
+    ],
+    "contrasts": [
+      {
+        "aspect": "Immunisation schedule",
+        "india": "Universal Immunisation Programme: BCG at birth, OPV, pentavalent at 6, 10 and 14 weeks, measles-rubella from 9 months.",
+        "australia": "National Immunisation Program: hepatitis B at birth, combination vaccines at 2, 4 and 6 months, MMR at 12 months. BCG is not routine."
+      },
+      {
+        "aspect": "Health programs",
+        "india": "Vertical national programs for TB, malaria, leprosy, NCDs and maternal-child health.",
+        "australia": "Medicare-funded universal care, PBS drug subsidy, and national cancer screening programs."
+      },
+      {
+        "aspect": "Cancer screening",
+        "india": "Population-based screening for oral, breast and cervical cancer, delivered opportunistically through public health facilities.",
+        "australia": "Organised invitation programs: BreastScreen, National Cervical Screening Program (HPV test) and the National Bowel Cancer Screening Program (FIT)."
+      },
+      {
+        "aspect": "Primary care structure",
+        "india": "Sub-centre, PHC and CHC tiers; patients often go straight to specialists.",
+        "australia": "The GP is the gatekeeper; specialist care usually needs a GP referral for Medicare rebates."
+      },
+      {
+        "aspect": "Priority populations",
+        "india": "Tribal health, rural populations and the urban poor.",
+        "australia": "Aboriginal and Torres Strait Islander health, with culturally safe care and Aboriginal Community Controlled Health Services. Largely new material."
+      },
+      {
+        "aspect": "Disease burden",
+        "india": "Communicable disease, maternal-child health and nutrition alongside rising NCDs.",
+        "australia": "Chronic disease, obesity, alcohol, tobacco and skin cancer dominate the burden."
+      }
+    ],
+    "postingPlan": [
+      "Do 10 population health questions a day; biostatistics questions are easy marks once practised.",
+      "Read the Australian healthcare system and indigenous health topics fully, as these are new to you.",
+      "Make flashcards of every Australian screening program: who, what test and how often.",
+      "Compare the UIP with the NIP schedule side by side using the immunisation topic.",
+      "Try the open disclosure clinical station to get used to the Australian communication style."
+    ]
+  },
+  {
+    "id": "forensic-medicine",
+    "name": "Forensic Medicine and Toxicology",
+    "phase": "Phase III Part 1",
+    "when": "Taught across Phase II and Phase III Part 1",
+    "summary": "Forensic medicine gives you toxicology and injury assessment, but the legal framework is completely different in Australia. AMC ethics and law questions are common and need to be learnt fresh.",
+    "amcWeight": "medium",
+    "links": [
+      { "topic": "ethics-law", "strength": "partial" },
+      { "topic": "child-protection", "strength": "partial" },
+      { "topic": "emergency-medicine", "strength": "partial" },
+      { "topic": "mental-health-law", "strength": "partial" },
+      { "topic": "trauma", "strength": "foundation" }
+    ],
+    "carriesOver": [
+      "Management of common poisonings, including organophosphates and paracetamol",
+      "Describing and documenting injuries accurately",
+      "Recognising patterns of non-accidental injury",
+      "Principles of consent and confidentiality",
+      "Certifying death and identifying unnatural deaths",
+      "Medical ethics principles: autonomy, beneficence, non-maleficence, justice"
+    ],
+    "contrasts": [
+      {
+        "aspect": "Injuries and police",
+        "india": "Injuries, poisonings and burns are registered as medico-legal cases (MLC) and the police are informed.",
+        "australia": "No general duty to tell police about an adult's injury; confidentiality applies and disclosure needs consent, with narrow exceptions."
+      },
+      {
+        "aspect": "Deaths",
+        "india": "Unnatural deaths go through a police or magistrate inquest and a postmortem.",
+        "australia": "Reportable deaths (unexpected, violent, unnatural, unknown cause, in custody) go to the state coroner; the doctor does not sign the certificate."
+      },
+      {
+        "aspect": "Child sexual abuse",
+        "india": "POCSO makes reporting any sexual offence against a minor mandatory, including consensual activity between adolescents.",
+        "australia": "State and territory mandatory reporting laws; rules differ by state, and doctors assess risk of harm and a young person's maturity."
+      },
+      {
+        "aspect": "Consent by minors",
+        "india": "Parental or guardian consent is generally required for minors.",
+        "australia": "A mature minor (Gillick competent) can consent to their own treatment, such as contraception, with confidentiality."
+      },
+      {
+        "aspect": "Medical negligence and regulation",
+        "india": "Negligence cases often go through consumer courts; regulation by NMC and state medical councils.",
+        "australia": "Registration and complaints through AHPRA and the Medical Board; errors are handled with open disclosure."
+      },
+      {
+        "aspect": "Toxicology focus",
+        "india": "Organophosphates, aluminium phosphide, snakebite (Indian big four) and plant poisons.",
+        "australia": "Paracetamol, benzodiazepines, alcohol, opioids and Australian snake, spider and marine envenomation."
+      }
+    ],
+    "postingPlan": [
+      "Read the ethics and law topic fully; treat it as new material, not revision.",
+      "Do the open disclosure and adolescent contraception clinical stations.",
+      "Do 5 emergency medicine questions a day on toxicology and envenomation.",
+      "Make flashcards contrasting MLC and police intimation with Australian confidentiality rules.",
+      "Read the child protection topic and try the unexplained leg injury station."
+    ]
+  },
+  {
+    "id": "ent",
+    "name": "Otorhinolaryngology (ENT)",
+    "phase": "Phase III Part 1",
+    "when": "Clinical postings from Phase II, examined at the end of Phase III Part 1",
+    "summary": "ENT maps directly to the AMC ENT topic, a smaller but reliable source of questions. Common conditions transfer well; the differences are antibiotic restraint, hearing screening and ear disease in Aboriginal children.",
+    "amcWeight": "low",
+    "links": [
+      { "topic": "ent", "strength": "direct" },
+      { "topic": "paediatric-infections", "strength": "partial" },
+      { "topic": "surgical-oncology", "strength": "partial" }
+    ],
+    "carriesOver": [
+      "Otoscopy and recognising acute otitis media, otitis externa and perforation",
+      "Tuning fork tests (Rinne and Weber) for hearing loss",
+      "First aid and management of epistaxis",
+      "Assessment of sore throat and peritonsillar abscess",
+      "Red flags of head and neck cancer",
+      "Recognising upper airway obstruction and stridor"
+    ],
+    "contrasts": [
+      {
+        "aspect": "Acute otitis media",
+        "india": "Antibiotics are commonly started straight away.",
+        "australia": "Many children over 6 months with mild illness are managed with pain relief and review; amoxicillin if needed or at higher risk."
+      },
+      {
+        "aspect": "Ear disease in Aboriginal children",
+        "india": "Not covered.",
+        "australia": "Very high rates of early, persistent otitis media and perforation in remote communities; lower threshold for antibiotics and follow-up."
+      },
+      {
+        "aspect": "Sore throat",
+        "india": "Antibiotics often given for most sore throats.",
+        "australia": "Most sore throats are not given antibiotics, except where rheumatic fever risk is high, such as First Nations people in high-risk settings."
+      },
+      {
+        "aspect": "Head and neck cancer",
+        "india": "Oral cancer linked to tobacco chewing, betel quid and smoking is a major topic.",
+        "australia": "HPV-related oropharyngeal cancer is rising, and skin cancers of the ear, lip and nose are common."
+      },
+      {
+        "aspect": "Newborn hearing screening",
+        "india": "Not yet universally implemented.",
+        "australia": "Universal newborn hearing screening is offered in all states and territories."
+      }
+    ],
+    "postingPlan": [
+      "Do 5 ENT questions a day during the posting.",
+      "Read the ENT topic's section on otitis media in Aboriginal children.",
+      "Make flashcards on when an Australian sore throat does and does not get antibiotics.",
+      "Practise explaining watchful waiting for otitis media to a parent, as a mock clinical station."
+    ]
+  },
+  {
+    "id": "ophthalmology",
+    "name": "Ophthalmology",
+    "phase": "Phase III Part 1",
+    "when": "Clinical postings from Phase II, examined at the end of Phase III Part 1",
+    "summary": "Ophthalmology maps directly to the AMC eye topic, which tests red-flag eyes that need same-day referral. Your clinical exam skills transfer well; the disease burden differs.",
+    "amcWeight": "low",
+    "links": [
+      { "topic": "ophthalmology", "strength": "direct" },
+      { "topic": "endocrinology", "strength": "partial" },
+      { "topic": "indigenous-health", "strength": "partial" }
+    ],
+    "carriesOver": [
+      "Visual acuity, pupil reactions and visual field testing",
+      "Fundoscopy for diabetic and hypertensive retinopathy and papilloedema",
+      "Differentiating causes of red eye (conjunctivitis, keratitis, uveitis, acute glaucoma)",
+      "Acute angle-closure glaucoma recognition and first steps",
+      "Chemical eye injury: immediate copious irrigation",
+      "Causes of sudden painless loss of vision (central retinal artery occlusion, retinal detachment)"
+    ],
+    "contrasts": [
+      {
+        "aspect": "Leading causes of blindness",
+        "india": "Cataract, refractive error, corneal blindness and glaucoma; large cataract surgery camps.",
+        "australia": "Age-related macular degeneration, glaucoma, diabetic retinopathy and cataract in an ageing population."
+      },
+      {
+        "aspect": "Trachoma",
+        "india": "Declared eliminated as a public health problem.",
+        "australia": "Still found in some remote Aboriginal communities, with community-wide antibiotic and hygiene programs."
+      },
+      {
+        "aspect": "Corneal ulcers",
+        "india": "Fungal keratitis after vegetative trauma in farmers is classic.",
+        "australia": "Contact lens-related keratitis (including Acanthamoeba) is a key presentation needing urgent referral."
+      },
+      {
+        "aspect": "Who does routine eye care",
+        "india": "Ophthalmologists see most eye complaints directly.",
+        "australia": "GPs and optometrists do much primary eye care; ophthalmologists are seen by referral."
+      },
+      {
+        "aspect": "Sun exposure",
+        "india": "Pterygium is taught mainly as a surgical condition.",
+        "australia": "UV-related eye disease, including pterygium and eyelid skin cancers, is common and linked to sun protection advice."
+      }
+    ],
+    "postingPlan": [
+      "Do 5 ophthalmology questions a day during the posting.",
+      "Make flashcards of the red-flag eyes that need same-day referral.",
+      "Read the ophthalmology topic's section on diabetic retinopathy screening in Australia.",
+      "Practise explaining a red eye diagnosis to a patient in plain language."
+    ]
+  },
+  {
+    "id": "general-medicine",
+    "name": "General Medicine",
+    "phase": "Phase III Part 2",
+    "when": "Clinical postings from Phase II, examined in the final year (Phase III Part 2)",
+    "summary": "General medicine feeds the biggest share of the AMC MCQ: the whole adult medicine block. Your clinical skills transfer fully; what changes is the disease mix, first-line drugs and the GP-led model of care.",
+    "amcWeight": "high",
+    "links": [
+      { "topic": "cardiology", "strength": "direct" },
+      { "topic": "respiratory", "strength": "direct" },
+      { "topic": "gastroenterology", "strength": "direct" },
+      { "topic": "endocrinology", "strength": "direct" },
+      { "topic": "nephrology", "strength": "direct" },
+      { "topic": "neurology", "strength": "direct" },
+      { "topic": "haematology", "strength": "direct" },
+      { "topic": "infectious-disease", "strength": "direct" },
+      { "topic": "rheumatology", "strength": "direct" },
+      { "topic": "geriatrics", "strength": "partial" },
+      { "topic": "emergency-medicine", "strength": "partial" },
+      { "topic": "pharmacology", "strength": "partial" },
+      { "topic": "old-age-psych", "strength": "partial" }
+    ],
+    "carriesOver": [
+      "Clinical examination of the cardiovascular, respiratory, abdominal and nervous systems",
+      "ECG interpretation, including ACS, arrhythmias and electrolyte changes",
+      "Chest X-ray interpretation",
+      "Management of diabetic ketoacidosis and hypoglycaemia",
+      "Recognising and treating sepsis early",
+      "Stroke recognition and time-critical assessment"
+    ],
+    "contrasts": [
+      {
+        "aspect": "Disease mix",
+        "india": "TB, malaria, dengue, typhoid, snakebite and rheumatic heart disease are everyday medicine.",
+        "australia": "Obesity, type 2 diabetes, alcohol-related disease, COPD and cancer dominate; RHD is concentrated in First Nations communities."
+      },
+      {
+        "aspect": "Type 2 diabetes drugs",
+        "india": "Metformin with sulfonylureas is common, often as fixed-dose combinations such as metformin-glimepiride.",
+        "australia": "Metformin first; then SGLT2 inhibitors or GLP-1 agonists are favoured when there is heart or kidney disease."
+      },
+      {
+        "aspect": "Community-acquired pneumonia",
+        "india": "Often treated with amoxicillin-clavulanate or a cephalosporin plus a macrolide, even when mild.",
+        "australia": "eTG uses severity scoring; low-severity CAP gets narrow-spectrum oral therapy such as amoxicillin or doxycycline."
+      },
+      {
+        "aspect": "Hypertension and cardiovascular risk",
+        "india": "Treatment is usually based on the BP reading alone; telmisartan and amlodipine are very commonly used.",
+        "australia": "Decisions are based on absolute cardiovascular risk using the Australian CVD risk calculator, with lifestyle advice first."
+      },
+      {
+        "aspect": "Snakebite",
+        "india": "Big four snakes; immobilise the limb and give polyvalent anti-snake venom.",
+        "australia": "Brown, tiger and other elapids; pressure bandage with immobilisation, then antivenom guided by clinical and lab signs of envenomation."
+      },
+      {
+        "aspect": "Who manages chronic disease",
+        "india": "Physicians and specialists manage chronic disease in outpatient clinics.",
+        "australia": "GPs manage most chronic disease with care plans, referring to specialists when needed."
+      },
+      {
+        "aspect": "Communication",
+        "india": "Doctors often decide and the family is closely involved in decisions.",
+        "australia": "Shared decision-making with the patient directly; family is involved only with the patient's consent."
+      }
+    ],
+    "postingPlan": [
+      "During your medicine posting, practise 10 cardiology and respiratory questions a day.",
+      "Do the chest pain, breathlessness, new diabetes and first seizure clinical stations.",
+      "For every patient you clerk, ask yourself what the eTG first-line drug would be.",
+      "Rotate through one adult medicine topic a week and do its full question set.",
+      "Make flashcards of Australian-only content: CVD risk calculator, envenomation and RHD in First Nations people."
+    ]
+  },
+  {
+    "id": "psychiatry",
+    "name": "Psychiatry",
+    "phase": "Phase III Part 2",
+    "when": "Clinical postings from Phase II; examined as part of General Medicine in the final year",
+    "summary": "Psychiatry is a small subject in Indian MBBS but a full block of the AMC, with frequent clinical stations. Clinical diagnosis transfers well; mental health law, service structure and risk assessment are new.",
+    "amcWeight": "high",
+    "links": [
+      { "topic": "mood-disorders", "strength": "direct" },
+      { "topic": "psychosis", "strength": "direct" },
+      { "topic": "anxiety-disorders", "strength": "direct" },
+      { "topic": "substance-use", "strength": "direct" },
+      { "topic": "psych-emergencies", "strength": "direct" },
+      { "topic": "child-adolescent-psych", "strength": "partial" },
+      { "topic": "old-age-psych", "strength": "partial" },
+      { "topic": "mental-health-law", "strength": "partial" }
+    ],
+    "carriesOver": [
+      "Psychiatric history and mental state examination",
+      "Diagnostic criteria for depression, bipolar disorder, schizophrenia and anxiety disorders",
+      "Alcohol withdrawal recognition and management, including thiamine",
+      "Antidepressant and antipsychotic side effects, including serotonin syndrome and NMS",
+      "Lithium and clozapine monitoring",
+      "Asking directly about suicidal thoughts"
+    ],
+    "contrasts": [
+      {
+        "aspect": "Mental health law",
+        "india": "Mental Healthcare Act 2017: advance directives, nominated representatives and the Mental Health Review Board.",
+        "australia": "Each state and territory has its own Mental Health Act covering involuntary assessment, treatment and community treatment orders. New material."
+      },
+      {
+        "aspect": "Access to care",
+        "india": "Mostly psychiatrist-led, often in hospital outpatient clinics; few psychologists in public services.",
+        "australia": "GP-led first contact; a GP mental health treatment plan gives Medicare-rebated psychology sessions, with community mental health teams."
+      },
+      {
+        "aspect": "First-line treatment",
+        "india": "Medication is often the main treatment; benzodiazepines are commonly prescribed.",
+        "australia": "Psychological therapy (such as CBT) is first-line or combined with an SSRI; benzodiazepines are limited to short-term use."
+      },
+      {
+        "aspect": "Substance use",
+        "india": "Alcohol, tobacco including smokeless forms, cannabis and opioids.",
+        "australia": "Alcohol, methamphetamine (ice), cannabis, opioids and vaping, with a harm reduction approach."
+      },
+      {
+        "aspect": "Family involvement",
+        "india": "Family is closely involved in diagnosis and treatment decisions.",
+        "australia": "Adult patients control what is shared with family; confidentiality is respected unless there is serious risk."
+      },
+      {
+        "aspect": "Suicide risk",
+        "india": "Often assessed with rating scales and risk categories.",
+        "australia": "Emphasis on a thorough assessment of the person's situation and collaborative safety planning rather than risk scores alone."
+      }
+    ],
+    "postingPlan": [
+      "Do 10 mental health questions a day during the posting.",
+      "Do the low mood, strange behaviour and alcohol use clinical stations.",
+      "Read the mental health law topic fully; it is new material.",
+      "Practise a full mental state examination and suicide risk assessment on a friend with a timer.",
+      "Make flashcards on Australian services: mental health treatment plans, crisis teams, Lifeline."
+    ]
+  },
+  {
+    "id": "dermatology",
+    "name": "Dermatology, Venereology and Leprosy",
+    "phase": "Phase III Part 2",
+    "when": "Clinical postings from Phase II; examined as part of General Medicine in the final year",
+    "summary": "Dermatology feeds the AMC dermatology topic, where skin cancer is the big theme. Indian training in infections and pigmentary disease transfers partly; skin cancer recognition needs dedicated work.",
+    "amcWeight": "medium",
+    "links": [
+      { "topic": "dermatology", "strength": "direct" },
+      { "topic": "sexual-health", "strength": "partial" },
+      { "topic": "surgical-oncology", "strength": "partial" },
+      { "topic": "paediatric-infections", "strength": "partial" }
+    ],
+    "carriesOver": [
+      "Describing skin lesions with correct morphology terms",
+      "Recognising eczema, psoriasis and urticaria and their first-line treatment",
+      "Scabies and impetigo diagnosis and treatment",
+      "Drug reactions, including SJS/TEN",
+      "Syphilis stages and serology",
+      "Recognising the features of melanoma (ABCDE)"
+    ],
+    "contrasts": [
+      {
+        "aspect": "Main focus",
+        "india": "Fungal infections, leprosy, scabies, vitiligo and pigmentary disorders.",
+        "australia": "Skin cancer: melanoma, basal cell and squamous cell carcinoma, and solar keratoses."
+      },
+      {
+        "aspect": "Skin checks and excision",
+        "india": "Suspicious lesions are usually referred to a dermatologist or surgeon.",
+        "australia": "GPs do skin checks with dermoscopy and perform many excisions and biopsies themselves."
+      },
+      {
+        "aspect": "Steroid combination creams",
+        "india": "Steroid-antifungal-antibiotic combination creams are widely used and linked to difficult dermatophytosis.",
+        "australia": "Single-agent topical therapy; steroid potency is chosen deliberately for the site and condition."
+      },
+      {
+        "aspect": "Sun protection",
+        "india": "Rarely emphasised.",
+        "australia": "SunSmart advice (Slip, Slop, Slap, Seek, Slide) is routine preventive care."
+      },
+      {
+        "aspect": "Skin infections in communities",
+        "india": "Scabies and pyoderma are common in crowded living conditions.",
+        "australia": "Scabies and impetigo (school sores) are common in remote Aboriginal communities and linked to kidney disease and rheumatic fever."
+      }
+    ],
+    "postingPlan": [
+      "Do 5 dermatology questions a day, weighted towards skin cancer.",
+      "Build a flashcard deck of skin cancer images and their key features.",
+      "Read the dermatology topic's treatment options for solar keratoses and BCC.",
+      "Practise explaining sun protection and skin self-examination to a patient."
+    ]
+  },
+  {
+    "id": "general-surgery",
+    "name": "General Surgery",
+    "phase": "Phase III Part 2",
+    "when": "Clinical postings from Phase II, examined in the final year (Phase III Part 2)",
+    "summary": "General surgery feeds most of the AMC adult surgery block. The AMC tests safe initial assessment, when to refer and perioperative care rather than operative steps.",
+    "amcWeight": "high",
+    "links": [
+      { "topic": "general-surgery", "strength": "direct" },
+      { "topic": "trauma", "strength": "direct" },
+      { "topic": "breast", "strength": "direct" },
+      { "topic": "vascular", "strength": "direct" },
+      { "topic": "urology", "strength": "direct" },
+      { "topic": "surgical-oncology", "strength": "direct" },
+      { "topic": "perioperative", "strength": "partial" }
+    ],
+    "carriesOver": [
+      "Examination of the abdomen, hernias, lumps and ulcers",
+      "Assessment of the acute abdomen: appendicitis, cholecystitis, obstruction, perforation",
+      "Primary and secondary survey in trauma",
+      "Triple assessment for a breast lump",
+      "Recognising acute limb ischaemia and ruptured AAA",
+      "Management of urinary retention and renal colic"
+    ],
+    "contrasts": [
+      {
+        "aspect": "Disease mix",
+        "india": "Tubercular abdomen, amoebic and hydatid liver disease, gallbladder cancer and oral cancer are emphasised.",
+        "australia": "Colorectal cancer, diverticular disease, skin cancer excisions and obesity-related surgery are common."
+      },
+      {
+        "aspect": "Pathway to surgery",
+        "india": "Patients often go straight to a surgeon, who investigates and operates.",
+        "australia": "Non-urgent problems go through a GP, who investigates and refers; urgent cases come through the emergency department."
+      },
+      {
+        "aspect": "Consent",
+        "india": "Consent is often obtained with heavy family involvement, sometimes as a general signed form.",
+        "australia": "The patient must be told of material risks (Rogers v Whitaker); consent is specific, documented and the patient's own decision."
+      },
+      {
+        "aspect": "Trauma framework",
+        "india": "ATLS principles, with road traffic accidents as the main cause.",
+        "australia": "EMST (ATLS) framework, with regional trauma systems and retrieval services for rural patients."
+      },
+      {
+        "aspect": "Bowel cancer detection",
+        "india": "Usually diagnosed after symptoms appear.",
+        "australia": "The National Bowel Cancer Screening Program mails FIT kits; a positive result means colonoscopy."
+      }
+    ],
+    "postingPlan": [
+      "During your surgery posting, do 10 general surgery and trauma questions a day.",
+      "Do the rectal bleeding, groin lump and motorbike crash clinical stations.",
+      "Read the perioperative topic on managing anticoagulants and diabetes medicines around surgery.",
+      "Practise taking consent for a common operation using plain language and material risks."
+    ]
+  },
+  {
+    "id": "orthopaedics",
+    "name": "Orthopaedics",
+    "phase": "Phase III Part 2",
+    "when": "Clinical postings from Phase II; examined as part of General Surgery in the final year",
+    "summary": "Orthopaedics maps directly to the AMC orthopaedics topic, which tests decision rules, limb-threatening emergencies and osteoporosis. Examination skills transfer fully.",
+    "amcWeight": "medium",
+    "links": [
+      { "topic": "orthopaedics", "strength": "direct" },
+      { "topic": "trauma", "strength": "partial" },
+      { "topic": "rheumatology", "strength": "partial" },
+      { "topic": "geriatrics", "strength": "partial" },
+      { "topic": "occupational-health", "strength": "partial" }
+    ],
+    "carriesOver": [
+      "Examination of the hip, knee, shoulder and spine",
+      "Recognising compartment syndrome and open fractures",
+      "Management of the septic joint",
+      "Common paediatric orthopaedic conditions such as DDH, Perthes and SUFE",
+      "Red flags in back pain, including cauda equina syndrome",
+      "Principles of fracture immobilisation and neurovascular checks"
+    ],
+    "contrasts": [
+      {
+        "aspect": "Deciding on imaging",
+        "india": "X-rays are ordered readily for most injuries.",
+        "australia": "Decision rules are expected: Ottawa ankle and knee rules, Canadian C-spine rule and NEXUS."
+      },
+      {
+        "aspect": "Disease mix",
+        "india": "Spinal TB, chronic osteomyelitis and road traffic trauma are major topics.",
+        "australia": "Osteoporotic fractures, falls in older people, sports injuries and osteoarthritis are major topics."
+      },
+      {
+        "aspect": "Hip fracture care",
+        "india": "Timing of surgery often depends on bed and theatre availability.",
+        "australia": "National standards expect surgery within 48 hours, with orthogeriatric care and falls prevention."
+      },
+      {
+        "aspect": "Low back pain",
+        "india": "X-rays and MRI are commonly ordered.",
+        "australia": "No imaging without red flags; advice to stay active, simple analgesia and physiotherapy."
+      },
+      {
+        "aspect": "Work injuries",
+        "india": "Covered mainly under employee compensation laws in forensic medicine.",
+        "australia": "Workers' compensation certificates and return-to-work planning are part of routine GP care."
+      }
+    ],
+    "postingPlan": [
+      "Do 5-10 orthopaedics questions a day during the posting.",
+      "Make flashcards of the Ottawa, Canadian C-spine and NEXUS rules.",
+      "Read the geriatrics topic on falls and osteoporosis alongside your hip fracture patients.",
+      "Practise explaining why a back pain patient does not need a scan."
+    ]
+  },
+  {
+    "id": "anaesthesiology",
+    "name": "Anaesthesiology",
+    "phase": "Phase III Part 2",
+    "when": "Clinical postings in Phase II and III; assessed within General Surgery in the final year",
+    "summary": "Anaesthesiology feeds AMC perioperative, resuscitation and emergency questions. Airway and resuscitation skills transfer directly; Australian resuscitation guidelines and pain management differ.",
+    "amcWeight": "low",
+    "links": [
+      { "topic": "perioperative", "strength": "direct" },
+      { "topic": "emergency-medicine", "strength": "partial" },
+      { "topic": "pharmacology", "strength": "partial" },
+      { "topic": "paediatric-emergencies", "strength": "partial" }
+    ],
+    "carriesOver": [
+      "Basic and advanced airway management",
+      "Basic and advanced life support algorithms",
+      "Preoperative assessment and ASA grading",
+      "Anaphylaxis recognition and IM adrenaline",
+      "Local anaesthetic doses and toxicity",
+      "Fluid and electrolyte management"
+    ],
+    "contrasts": [
+      {
+        "aspect": "Resuscitation guidelines",
+        "india": "Usually taught from American Heart Association courses.",
+        "australia": "Australian Resuscitation Council (ARC) guidelines; hospitals use early warning charts and rapid response (MET) calls."
+      },
+      {
+        "aspect": "Postoperative pain",
+        "india": "Tramadol, NSAIDs and paracetamol are common; opioid availability is often limited.",
+        "australia": "Multimodal analgesia with opioid stewardship: short courses, clear weaning plans and avoiding slow-release opioids for acute pain."
+      },
+      {
+        "aspect": "Anaphylaxis",
+        "india": "Adrenaline and emergency drugs managed in hospital.",
+        "australia": "ASCIA action plans and adrenaline autoinjectors for patients at risk; teaching patients to use them is expected."
+      },
+      {
+        "aspect": "Medications around surgery",
+        "india": "Often decided by the anaesthetist at a pre-anaesthetic check shortly before surgery.",
+        "australia": "Explicit plans for anticoagulants, antiplatelets, diabetes medicines and SGLT2 inhibitors are tested in AMC questions."
+      }
+    ],
+    "postingPlan": [
+      "Read the perioperative topic during the posting.",
+      "Do 5 emergency medicine questions a day on resuscitation and anaphylaxis.",
+      "Make flashcards of which medicines to stop, continue or bridge before surgery.",
+      "Practise explaining the risks of anaesthesia to a patient in plain language."
+    ]
+  },
+  {
+    "id": "obstetrics-gynaecology",
+    "name": "Obstetrics and Gynaecology",
+    "phase": "Phase III Part 2",
+    "when": "Clinical postings from Phase II, examined in the final year (Phase III Part 2)",
+    "summary": "Obstetrics and gynaecology feeds the whole AMC women's health block, a large share of the exam with many clinical stations. Clinical skills transfer; screening, abortion law and contraception practice differ a lot.",
+    "amcWeight": "high",
+    "links": [
+      { "topic": "antenatal-care", "strength": "direct" },
+      { "topic": "obstetric-emergencies", "strength": "direct" },
+      { "topic": "labour-postpartum", "strength": "direct" },
+      { "topic": "gynaecology", "strength": "direct" },
+      { "topic": "contraception-fertility", "strength": "direct" },
+      { "topic": "gynae-oncology", "strength": "direct" },
+      { "topic": "sexual-health", "strength": "partial" },
+      { "topic": "breast", "strength": "partial" }
+    ],
+    "carriesOver": [
+      "Obstetric history and abdominal examination in pregnancy",
+      "Recognising and managing postpartum haemorrhage",
+      "Pre-eclampsia and eclampsia, including magnesium sulfate",
+      "Ectopic pregnancy recognition and early pregnancy bleeding",
+      "Partograph and stages of labour",
+      "Speculum and bimanual examination"
+    ],
+    "contrasts": [
+      {
+        "aspect": "Abortion law",
+        "india": "MTP Act: up to 20 weeks on one doctor's opinion, up to 24 weeks for specified categories, later only for substantial fetal abnormality.",
+        "australia": "State and territory laws with different gestation limits; early medical abortion with mifepristone and misoprostol is prescribed by GPs."
+      },
+      {
+        "aspect": "Cervical screening",
+        "india": "VIA and Pap smears, often opportunistic.",
+        "australia": "HPV test every 5 years from 25 to 74, with self-collection offered."
+      },
+      {
+        "aspect": "Contraception",
+        "india": "Female sterilisation dominates; Cu-T and post-partum IUCD are widely promoted.",
+        "australia": "Long-acting reversible contraception (implant, hormonal and copper IUD) is recommended first; emergency pills are available from pharmacists."
+      },
+      {
+        "aspect": "Antenatal screening",
+        "india": "Anaemia, iron and folic acid supplementation; fetal sex determination is prohibited under the PCPNDT Act.",
+        "australia": "Combined first-trimester screening or cell-free DNA (NIPT), routine anti-D, and pertussis and influenza vaccines in pregnancy."
+      },
+      {
+        "aspect": "Gestational diabetes testing",
+        "india": "Often a single-step 75 g OGTT with a 2-hour value, which can be done non-fasting.",
+        "australia": "75 g fasting OGTT at 24-28 weeks for most women, earlier for those at high risk."
+      },
+      {
+        "aspect": "Model of care",
+        "india": "Obstetrician-led institutional delivery, supported by public schemes.",
+        "australia": "Midwife-led, GP shared care and obstetrician models; women choose, and low-risk care is often midwife-led."
+      }
+    ],
+    "postingPlan": [
+      "During your OBG posting, do 10 women's health questions a day.",
+      "Do the early pregnancy bleeding, gestational diabetes, abnormal cervical screening and adolescent contraception stations.",
+      "Make a flashcard timeline of what is tested at each week of an Australian pregnancy.",
+      "Read the contraception-fertility topic on LARC and medical abortion.",
+      "Practise counselling on contraception options using shared decision-making."
+    ]
+  },
+  {
+    "id": "paediatrics",
+    "name": "Paediatrics",
+    "phase": "Phase III Part 2",
+    "when": "Clinical postings from Phase II, examined in the final year (Phase III Part 2)",
+    "summary": "Paediatrics feeds the whole AMC child health block, a large share of both exams. Your clinical skills transfer; the immunisation schedule, disease mix and evidence-based restraint in treatment differ.",
+    "amcWeight": "high",
+    "links": [
+      { "topic": "neonatology", "strength": "direct" },
+      { "topic": "growth-development", "strength": "direct" },
+      { "topic": "paediatric-infections", "strength": "direct" },
+      { "topic": "paediatric-emergencies", "strength": "direct" },
+      { "topic": "immunisation", "strength": "direct" },
+      { "topic": "paediatric-chronic", "strength": "direct" },
+      { "topic": "child-protection", "strength": "partial" },
+      { "topic": "child-adolescent-psych", "strength": "partial" }
+    ],
+    "carriesOver": [
+      "Developmental milestones and developmental assessment",
+      "Neonatal resuscitation and newborn examination",
+      "Assessment of dehydration and oral rehydration",
+      "Febrile seizure management and parent counselling",
+      "Neonatal jaundice assessment using bilirubin charts",
+      "Paediatric drug dosing by weight"
+    ],
+    "contrasts": [
+      {
+        "aspect": "Nutrition",
+        "india": "Severe acute malnutrition, stunting and micronutrient deficiencies are core topics.",
+        "australia": "Childhood obesity, food allergy and feeding problems are more common concerns."
+      },
+      {
+        "aspect": "Gastroenteritis",
+        "india": "ORS plus zinc, following IMNCI.",
+        "australia": "Oral rehydration, with a single dose of ondansetron in some children; zinc is not routine."
+      },
+      {
+        "aspect": "Bronchiolitis and croup",
+        "india": "Nebulised salbutamol and antibiotics are often tried.",
+        "australia": "Bronchiolitis is supportive care only; croup is treated with oral dexamethasone or prednisolone, adrenaline if severe."
+      },
+      {
+        "aspect": "Immunisation",
+        "india": "UIP, with BCG and OPV at birth and doses at 6, 10 and 14 weeks.",
+        "australia": "NIP, with hepatitis B at birth and doses at 2, 4 and 6 months; BCG only for specific high-risk children."
+      },
+      {
+        "aspect": "Child protection",
+        "india": "POCSO for sexual abuse; physical abuse is less formally screened for.",
+        "australia": "State mandatory reporting of suspected abuse or neglect, and any unexplained injury in a non-mobile infant is investigated."
+      },
+      {
+        "aspect": "Infection burden",
+        "india": "Pneumonia, diarrhoea, TB, malaria, dengue and measles.",
+        "australia": "Viral respiratory infections, serious bacterial infection in young infants, and rheumatic fever and skin infections in First Nations children."
+      }
+    ],
+    "postingPlan": [
+      "During your paediatrics posting, do 10 child health questions a day.",
+      "Do the febrile seizure, barking cough and unexplained leg injury clinical stations.",
+      "Learn the NIP schedule with flashcards and compare it with the UIP.",
+      "Read the child protection topic and your state's mandatory reporting duties.",
+      "Practise explaining a diagnosis and safety-net advice to a worried parent."
+    ]
+  },
+  {
+    "id": "internship",
+    "name": "Compulsory Rotating Internship",
+    "phase": "Internship",
+    "when": "One year after the final MBBS exam, rotating through medicine, surgery, OBG, paediatrics, community medicine, casualty and other postings",
+    "summary": "Internship is where MBBS knowledge becomes clinical judgement, which is exactly what the AMC clinical exam tests. It is the ideal time for full AMC question practice and timed clinical stations.",
+    "amcWeight": "high",
+    "links": [
+      { "topic": "emergency-medicine", "strength": "direct" },
+      { "topic": "trauma", "strength": "partial" },
+      { "topic": "psych-emergencies", "strength": "partial" },
+      { "topic": "paediatric-emergencies", "strength": "partial" },
+      { "topic": "obstetric-emergencies", "strength": "partial" },
+      { "topic": "ethics-law", "strength": "partial" },
+      { "topic": "geriatrics", "strength": "partial" },
+      { "topic": "perioperative", "strength": "partial" },
+      { "topic": "notifiable-diseases", "strength": "partial" }
+    ],
+    "carriesOver": [
+      "Initial assessment and stabilisation of the acutely unwell patient (ABCDE)",
+      "Procedures: cannulation, catheterisation, ABG, suturing",
+      "Writing clear clinical notes and discharge summaries",
+      "Handling a busy emergency department and prioritising patients",
+      "Breaking bad news and talking to families",
+      "Managing common poisonings and emergencies"
+    ],
+    "contrasts": [
+      {
+        "aspect": "Triage",
+        "india": "Triage systems vary between hospitals and are often informal in casualty.",
+        "australia": "The Australian Triage Scale (categories 1-5) is used in every emergency department."
+      },
+      {
+        "aspect": "Medico-legal cases in casualty",
+        "india": "Injury, poisoning and burns cases are registered as MLCs and police are informed.",
+        "australia": "Patient confidentiality applies; police are involved only with consent or under specific legal exceptions."
+      },
+      {
+        "aspect": "Handover and escalation",
+        "india": "Handover is often informal and verbal.",
+        "australia": "Structured handover such as ISBAR, and escalation using early warning charts and rapid response calls."
+      },
+      {
+        "aspect": "Death and certification",
+        "india": "Unnatural deaths go through police inquest.",
+        "australia": "Reportable deaths go to the coroner; doctors only certify deaths they are confident are natural."
+      },
+      {
+        "aspect": "Discharge and follow-up",
+        "india": "Patients often return to the same hospital for follow-up.",
+        "australia": "Discharge summaries go to the GP, who is responsible for ongoing care and follow-up."
+      }
+    ],
+    "postingPlan": [
+      "Do a full AMC-style timed question block of 50 or more questions at least twice a week.",
+      "Work through all the clinical stations, timing each one to 8 minutes.",
+      "In each posting, do the questions for that area: emergency, medicine, surgery, OBG, paediatrics, psychiatry.",
+      "After every casualty shift, note one case and think how it would be handled in Australia.",
+      "Revise the population health, ethics and indigenous health topics, which have no Indian equivalent."
+    ]
+  }
+]

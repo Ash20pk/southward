@@ -68,3 +68,31 @@ export interface AusFact {
   title: string;
   body: string; // markdown
 }
+
+// India (NMC CBME MBBS) <-> AMC mapping. Content in src/content/mbbs.json and contrasts.json.
+
+export type MbbsPhase = "Phase I" | "Phase II" | "Phase III Part 1" | "Phase III Part 2" | "Internship";
+
+export interface Contrast {
+  aspect: string; // what is being compared, e.g. "First-line antibiotic for CAP"
+  india: string; // how it is typically taught/done in Indian MBBS & practice
+  australia: string; // what the AMC expects (Australian guideline/practice)
+}
+
+export interface MbbsSubject {
+  id: string; // e.g. "general-medicine"
+  name: string; // e.g. "General Medicine"
+  phase: MbbsPhase;
+  when: string; // plain words, e.g. "Final year (Phase III Part 2)"
+  summary: string; // 1-2 sentences: how this subject relates to the AMC
+  amcWeight: "high" | "medium" | "low"; // how much of the AMC MCQ this subject feeds
+  links: { topic: string; strength: "direct" | "partial" | "foundation" }[]; // AMC topic ids from TOPICS.md
+  carriesOver: string[]; // what she already learns in MBBS that transfers as-is
+  contrasts: Contrast[]; // the biggest India vs Australia differences for this subject
+  postingPlan: string[]; // what to do on the AMC side while in this posting/subject
+}
+
+export interface TopicContrast {
+  topic: string; // AMC topic id
+  rows: Contrast[];
+}

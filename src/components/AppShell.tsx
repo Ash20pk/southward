@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useState, type ReactNode } from "react";
 import clsx from "clsx";
 import {
+  ArrowLeftRight,
   BookOpen,
   Layers,
   Map,
@@ -20,10 +21,21 @@ import {
 } from "lucide-react";
 import { useHydrated, useStore } from "@/lib/store";
 import { Onboarding } from "./Onboarding";
+import { ThemePicker } from "./ThemePicker";
+
+// The five things she does most, one tap away on a phone.
+const TABS = [
+  { href: "/", label: "Today", icon: Sunrise },
+  { href: "/learn", label: "Learn", icon: BookOpen },
+  { href: "/practice", label: "Practice", icon: Target },
+  { href: "/flashcards", label: "Cards", icon: Layers },
+  { href: "/tutor", label: "Tutor", icon: MessageCircle },
+];
 
 const NAV = [
   { href: "/", label: "Today", icon: Sunrise },
   { href: "/pathway", label: "Your pathway", icon: Map },
+  { href: "/mbbs", label: "MBBS ↔ AMC", icon: ArrowLeftRight },
   { href: "/learn", label: "Learn", icon: BookOpen },
   { href: "/practice", label: "Practice", icon: Target },
   { href: "/mock", label: "Mock exam", icon: Timer },
@@ -98,9 +110,12 @@ export function AppShell({ children }: { children: ReactNode }) {
           <Logo />
         </div>
         {nav}
-        <p className="mt-auto px-3 text-xs leading-relaxed text-muted">
-          Independent study aid. Not affiliated with the Australian Medical Council.
-        </p>
+        <div className="mt-auto flex flex-col gap-3 px-1">
+          <ThemePicker compact />
+          <p className="px-2 text-xs leading-relaxed text-muted">
+            Independent study aid. Not affiliated with the Australian Medical Council.
+          </p>
+        </div>
       </aside>
 
       <header className="sticky top-0 z-30 flex items-center justify-between border-b border-line bg-paper/90 px-4 py-3 backdrop-blur lg:hidden">
@@ -120,12 +135,33 @@ export function AppShell({ children }: { children: ReactNode }) {
                 <X size={22} />
               </button>
             </div>
-            {nav}
+            <div className="flex-1 overflow-y-auto">{nav}</div>
+            <ThemePicker compact />
           </div>
         </div>
       )}
 
-      <main className="mx-auto w-full max-w-6xl px-4 pb-24 pt-8 sm:px-8 lg:pt-12">{children}</main>
+      <main className="mx-auto w-full max-w-6xl px-4 pb-28 pt-6 sm:px-8 lg:pb-24 lg:pt-12">{children}</main>
+
+      <nav
+        aria-label="Quick"
+        className="fixed inset-x-0 bottom-0 z-30 grid grid-cols-5 border-t border-line bg-surface/95 pb-[env(safe-area-inset-bottom)] backdrop-blur lg:hidden"
+      >
+        {TABS.map(({ href, label, icon: Icon }) => {
+          const active = href === "/" ? path === "/" : path.startsWith(href);
+          return (
+            <Link
+              key={href}
+              href={href}
+              aria-current={active ? "page" : undefined}
+              className={clsx("flex flex-col items-center gap-0.5 py-2.5 text-[11px]", active ? "font-medium text-brand" : "text-muted")}
+            >
+              <Icon size={20} strokeWidth={active ? 2.2 : 1.8} />
+              {label}
+            </Link>
+          );
+        })}
+      </nav>
     </div>
   );
 }

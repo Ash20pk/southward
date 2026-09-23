@@ -72,7 +72,7 @@ function Tutor() {
         {messages.length === 0 && !ai.loading && (
           <div>
             <p className="mb-3 flex items-center gap-2 font-medium">
-              <Sparkles size={16} className="text-ochre" /> Try one of these
+              <Sparkles size={16} className="text-ochre-ink" /> Try one of these
             </p>
             <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2">
               {STARTERS.map((s) => (
@@ -110,7 +110,7 @@ function Tutor() {
           e.preventDefault();
           send(input);
         }}
-        className="sticky bottom-0 mt-6 bg-paper pb-4 pt-2"
+        className="sticky bottom-16 mt-6 bg-paper pb-4 pt-2 lg:bottom-0"
       >
         <div className="flex items-end gap-2 rounded-3xl border border-line bg-surface p-2 focus-within:border-brand">
           <textarea
