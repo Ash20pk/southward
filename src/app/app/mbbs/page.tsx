@@ -114,7 +114,7 @@ function MbbsMap() {
         <ul className="mt-4 grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3">
           {NEW_FOR_YOU.map((t) => (
             <li key={t.id}>
-              <Link href={`/learn/${t.id}`} className="flex h-full flex-col gap-1 rounded-xl border border-ochre/50 bg-ochre-soft/50 p-4 hover:border-ochre">
+              <Link href={`/app/learn/${t.id}`} className="flex h-full flex-col gap-1 rounded-xl border border-ochre/50 bg-ochre-soft/50 p-4 hover:border-ochre">
                 <span className="font-medium">{t.name}</span>
                 <span className="line-clamp-2 text-sm text-muted">{t.summary}</span>
               </Link>
@@ -258,7 +258,7 @@ function SubjectDetail({ subject: s, isPosting }: { subject: MbbsSubject; isPost
         <div className="flex flex-wrap items-center gap-2">
           <span className={clsx("rounded-full px-3 py-1 text-sm font-medium", WEIGHT[s.amcWeight].cls)}>{WEIGHT[s.amcWeight].label}</span>
           {practiseCount > 0 && (
-            <ButtonLink href={`/practice?subject=${s.id}`} size="sm">
+            <ButtonLink href={`/app/practice?subject=${s.id}`} size="sm">
               Practise {practiseCount} linked questions
             </ButtonLink>
           )}
@@ -300,7 +300,7 @@ function SubjectDetail({ subject: s, isPosting }: { subject: MbbsSubject; isPost
                     const d = DISCIPLINES.find((x) => x.id === t?.discipline);
                     return (
                       <li key={l.topic}>
-                        <Link href={`/learn/${l.topic}`} className="inline-flex items-center gap-2 rounded-full border border-line bg-surface px-3 py-1.5 text-sm hover:border-brand">
+                        <Link href={`/app/learn/${l.topic}`} className="inline-flex items-center gap-2 rounded-full border border-line bg-surface px-3 py-1.5 text-sm hover:border-brand">
                           {d && <DisciplineDot color={d.color} />}
                           {t?.name ?? l.topic}
                         </Link>

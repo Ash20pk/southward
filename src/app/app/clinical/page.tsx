@@ -27,7 +27,7 @@ export default function Clinical() {
   const random = () => {
     const fresh = list.filter((s) => !osce.some((o) => o.stationId === s.id));
     const pool = fresh.length ? fresh : list;
-    if (pool.length) router.push(`/clinical/${pool[Math.floor(Math.random() * pool.length)].id}`);
+    if (pool.length) router.push(`/app/clinical/${pool[Math.floor(Math.random() * pool.length)].id}`);
   };
 
   return (
@@ -92,7 +92,7 @@ export default function Clinical() {
             const d = DISCIPLINES.find((x) => x.id === s.discipline)!;
             return (
               <li key={s.id}>
-                <Link href={`/clinical/${s.id}`} className="flex h-full flex-col gap-2 rounded-2xl border border-line bg-surface p-5 hover:border-brand">
+                <Link href={`/app/clinical/${s.id}`} className="flex h-full flex-col gap-2 rounded-2xl border border-line bg-surface p-5 hover:border-brand">
                   <div className="flex flex-wrap items-center gap-2 text-sm">
                     <span className={clsx("rounded-full px-2 py-0.5 text-xs font-medium", LEVEL[s.difficulty].cls)}>{LEVEL[s.difficulty].label}</span>
                     <span className="text-muted">{AREA_LABEL[s.area]}</span>

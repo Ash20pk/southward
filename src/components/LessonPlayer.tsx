@@ -119,7 +119,7 @@ export function LessonPlayer({
     <div className="flex min-h-dvh flex-col">
       <header className="sticky top-0 z-20 border-b border-line bg-paper/95 backdrop-blur">
         <div className="mx-auto flex max-w-3xl items-center gap-3 px-4 pt-3 sm:px-6">
-          <Link href={`/learn/${topic}`} className="flex min-w-0 items-center gap-1.5 text-muted hover:text-ink">
+          <Link href={`/app/learn/${topic}`} className="flex min-w-0 items-center gap-1.5 text-muted hover:text-ink">
             <ArrowLeft size={16} className="shrink-0" />
             <span className="truncate">{topicName(topic)}</span>
           </Link>
@@ -177,7 +177,7 @@ export function LessonPlayer({
               <h2 className="text-2xl font-semibold leading-tight tracking-tight sm:text-3xl">{lesson.sections[step.index].heading}</h2>
               <Markdown className="mt-5">{lesson.sections[step.index].body}</Markdown>
               <Link
-                href={`/tutor?about=${encodeURIComponent(`${lesson.title}: ${lesson.sections[step.index].heading}`)}`}
+                href={`/app/tutor?about=${encodeURIComponent(`${lesson.title}: ${lesson.sections[step.index].heading}`)}`}
                 className="mt-8 inline-flex items-center gap-1.5 text-sm text-muted hover:text-brand"
               >
                 <MessageCircle size={15} /> Ask the tutor about this
@@ -394,13 +394,13 @@ function Done({
       )}
       <div className="mt-8 flex flex-wrap justify-center gap-3">
         {nextId ? (
-          <ButtonLink href={`/learn/${topic}/${nextId.split("--")[1]}`}>
+          <ButtonLink href={`/app/learn/${topic}/${nextId.split("--")[1]}`}>
             Next lesson <ArrowRight size={16} />
           </ButtonLink>
         ) : (
-          <ButtonLink href={`/practice?topic=${topic}`}>Take the topic quiz</ButtonLink>
+          <ButtonLink href={`/app/practice?topic=${topic}`}>Take the topic quiz</ButtonLink>
         )}
-        <ButtonLink href={`/learn/${topic}`} variant="outline">
+        <ButtonLink href={`/app/learn/${topic}`} variant="outline">
           Back to {topicName(topic)}
         </ButtonLink>
         <Button variant="quiet" onClick={onRetry}>

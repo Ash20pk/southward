@@ -99,7 +99,7 @@ export default function ImportPdf() {
       .filter((d) => d.keep && d.front.trim() && d.back.trim())
       .map((d, i) => ({ id: `cu-${id}-${i + 1}`, front: d.front.trim(), back: d.back.trim(), topic: d.topic }));
     addDeck({ id, name: name.trim() || "My deck", source: file?.name ?? "", createdAt: Date.now(), cards });
-    router.push("/flashcards");
+    router.push("/app/flashcards");
   };
 
   const kept = drafts.filter((d) => d.keep).length;
@@ -107,7 +107,7 @@ export default function ImportPdf() {
 
   return (
     <div className="max-w-3xl">
-      <Link href="/flashcards" className="mb-5 inline-flex items-center gap-1.5 text-muted hover:text-ink">
+      <Link href="/app/flashcards" className="mb-5 inline-flex items-center gap-1.5 text-muted hover:text-ink">
         <ArrowLeft size={16} /> Flashcards
       </Link>
       <PageHeader

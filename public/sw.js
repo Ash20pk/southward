@@ -1,12 +1,12 @@
 // Southward service worker: makes the app installable and keeps studied pages working offline.
 // - App code and static assets: cache-first (their URLs change whenever they change).
-// - Pages: network-first, falling back to the last cached copy, then to the home page shell.
+// - Pages: network-first, falling back to the last cached copy, then to the app shell.
 // - API calls (AI, sync, sign-in) are never cached.
 // Responses are cloned before being returned: a body can only be read once, so cloning later fails silently.
-const VERSION = "southward-v3";
+const VERSION = "southward-v4";
 const STATIC = `${VERSION}-static`;
 const PAGES = `${VERSION}-pages`;
-const PRECACHE = ["/", "/manifest.webmanifest", "/icons/icon-192.png", "/icons/icon-512.png"];
+const PRECACHE = ["/app", "/manifest.webmanifest", "/icons/icon-192.png", "/icons/icon-512.png"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(STATIC).then((c) => c.addAll(PRECACHE)).then(() => self.skipWaiting()));
@@ -57,7 +57,7 @@ self.addEventListener("fetch", (event) => {
           }
           return res;
         })
-        .catch(() => caches.match(req, { ignoreVary: true }).then((hit) => hit || caches.match("/"))),
+        .catch(() => caches.match(req, { ignoreVary: true }).then((hit) => hit || caches.match("/app"))),
     );
   }
 });

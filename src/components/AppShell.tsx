@@ -25,65 +25,46 @@ import { ThemePicker } from "./ThemePicker";
 import { AuthScreen } from "./AuthScreen";
 import { SyncBadge } from "./SyncBadge";
 import { Splash } from "./Splash";
+import { Logo } from "./Logo";
 import { useSession } from "@/lib/session";
 import { useSync } from "@/hooks/useSync";
 
 // The five things she does most, one tap away on a phone.
 const TABS = [
-  { href: "/", label: "Today", icon: Sunrise },
-  { href: "/learn", label: "Learn", icon: BookOpen },
-  { href: "/practice", label: "Practice", icon: Target },
-  { href: "/flashcards", label: "Cards", icon: Layers },
-  { href: "/tutor", label: "Tutor", icon: MessageCircle },
+  { href: "/app", label: "Today", icon: Sunrise },
+  { href: "/app/learn", label: "Learn", icon: BookOpen },
+  { href: "/app/practice", label: "Practice", icon: Target },
+  { href: "/app/flashcards", label: "Cards", icon: Layers },
+  { href: "/app/tutor", label: "Tutor", icon: MessageCircle },
 ];
 
 // Grouped by which AMC exam each section prepares for, so it's always clear what counts for Part 1 vs Part 2.
 const NAV_GROUPS: { title?: string; items: { href: string; label: string; icon: typeof Sunrise }[] }[] = [
   {
     items: [
-      { href: "/", label: "Today", icon: Sunrise },
-      { href: "/pathway", label: "Your pathway", icon: Map },
-      { href: "/mbbs", label: "MBBS ↔ AMC", icon: ArrowLeftRight },
+      { href: "/app", label: "Today", icon: Sunrise },
+      { href: "/app/pathway", label: "Your pathway", icon: Map },
+      { href: "/app/mbbs", label: "MBBS ↔ AMC", icon: ArrowLeftRight },
     ],
   },
   {
     title: "Part 1: MCQ exam",
     items: [
-      { href: "/learn", label: "Learn", icon: BookOpen },
-      { href: "/practice", label: "Practice", icon: Target },
-      { href: "/mock", label: "Mock exam", icon: Timer },
-      { href: "/flashcards", label: "Flashcards", icon: Layers },
+      { href: "/app/learn", label: "Learn", icon: BookOpen },
+      { href: "/app/practice", label: "Practice", icon: Target },
+      { href: "/app/mock", label: "Mock exam", icon: Timer },
+      { href: "/app/flashcards", label: "Flashcards", icon: Layers },
     ],
   },
-  { title: "Part 2: Clinical exam", items: [{ href: "/clinical", label: "Clinical stations", icon: Stethoscope }] },
+  { title: "Part 2: Clinical exam", items: [{ href: "/app/clinical", label: "Clinical stations", icon: Stethoscope }] },
   {
     items: [
-      { href: "/tutor", label: "Ask the tutor", icon: MessageCircle },
-      { href: "/australia", label: "Australia 101", icon: MapPin },
-      { href: "/settings", label: "Settings", icon: Settings },
+      { href: "/app/tutor", label: "Ask the tutor", icon: MessageCircle },
+      { href: "/app/australia", label: "Australia 101", icon: MapPin },
+      { href: "/app/settings", label: "Settings", icon: Settings },
     ],
   },
 ];
-
-function Logo() {
-  return (
-    <Link href="/" className="flex items-center gap-2.5 text-ink">
-      <svg viewBox="0 0 32 32" className="h-8 w-8" aria-hidden>
-        <rect width="32" height="32" rx="9" fill="var(--sky)" />
-        {[
-          [16, 25, 2.1],
-          [9, 14, 1.6],
-          [17, 6, 1.8],
-          [23.5, 12.5, 1.3],
-          [20, 18, 0.9],
-        ].map(([x, y, r], i) => (
-          <circle key={i} cx={x} cy={y} r={r} fill="var(--ochre)" />
-        ))}
-      </svg>
-      <span className="text-[1.2rem] font-semibold tracking-tight">Southward</span>
-    </Link>
-  );
-}
 
 export function AppShell({ children }: { children: ReactNode }) {
   const path = usePathname();
@@ -99,7 +80,7 @@ export function AppShell({ children }: { children: ReactNode }) {
   }, []);
 
   // Full-screen focus modes hide the chrome.
-  const focus = /^\/(mock\/run|clinical\/.+|learn\/[^/]+\/[^/]+)/.test(path);
+  const focus = /^\/app\/(mock\/run|clinical\/.+|learn\/[^/]+\/[^/]+)/.test(path);
 
   const nav = (
     <nav aria-label="Main" className="flex flex-col gap-4">
@@ -107,7 +88,7 @@ export function AppShell({ children }: { children: ReactNode }) {
         <div key={gi} className="flex flex-col gap-0.5">
           {g.title && <p className="px-3 pb-1 text-xs font-semibold text-muted">{g.title}</p>}
           {g.items.map(({ href, label, icon: Icon }) => {
-            const active = href === "/" ? path === "/" : path.startsWith(href);
+            const active = href === "/app" ? path === "/app" : path.startsWith(href);
             return (
               <Link
                 key={href}
@@ -140,7 +121,7 @@ export function AppShell({ children }: { children: ReactNode }) {
     <div className="min-h-dvh lg:grid lg:grid-cols-[250px_1fr]">
       <aside className="sticky top-0 hidden h-dvh flex-col gap-6 border-r border-line px-4 py-6 lg:flex">
         <div className="px-2">
-          <Logo />
+          <Logo href="/app" />
         </div>
         <div className="min-h-0 overflow-y-auto">{nav}</div>
         <div className="mt-auto flex flex-col gap-3 px-1">
@@ -153,7 +134,7 @@ export function AppShell({ children }: { children: ReactNode }) {
       </aside>
 
       <header className="sticky top-0 z-30 flex items-center justify-between border-b border-line bg-paper/90 px-4 py-3 backdrop-blur lg:hidden">
-        <Logo />
+        <Logo href="/app" />
         <button aria-label="Open menu" onClick={() => setOpen(true)} className="rounded-full p-2 hover:bg-sunk">
           <Menu size={22} />
         </button>
@@ -164,7 +145,7 @@ export function AppShell({ children }: { children: ReactNode }) {
           <div className="absolute inset-0 bg-black/40" onClick={() => setOpen(false)} />
           <div className="absolute right-0 top-0 flex h-full w-[82%] max-w-xs flex-col gap-6 bg-paper p-5 shadow-2xl">
             <div className="flex items-center justify-between">
-              <Logo />
+              <Logo href="/app" />
               <button aria-label="Close menu" onClick={() => setOpen(false)} className="rounded-full p-2 hover:bg-sunk">
                 <X size={22} />
               </button>
@@ -182,7 +163,7 @@ export function AppShell({ children }: { children: ReactNode }) {
         className="fixed inset-x-0 bottom-0 z-30 grid grid-cols-5 border-t border-line bg-surface/95 pb-[env(safe-area-inset-bottom)] backdrop-blur lg:hidden"
       >
         {TABS.map(({ href, label, icon: Icon }) => {
-          const active = href === "/" ? path === "/" : path.startsWith(href);
+          const active = href === "/app" ? path === "/app" : path.startsWith(href);
           return (
             <Link
               key={href}

@@ -71,7 +71,7 @@ export default function Today() {
                 <Flame size={16} className="text-[var(--ochre)]" /> {st} day{st === 1 ? "" : "s"} in a row
               </span>
               <span>{ready === null ? "Readiness unlocks after 20 answers" : `Readiness ${ready}%`}</span>
-              <Link href="/pathway" className="underline decoration-sky-muted/50 underline-offset-4 hover:text-white">
+              <Link href="/app/pathway" className="underline decoration-sky-muted/50 underline-offset-4 hover:text-white">
                 See the full pathway
               </Link>
             </div>
@@ -104,7 +104,7 @@ export default function Today() {
                 icon={<BookOpen size={18} />}
                 title={`Lesson: ${lesson.title}`}
                 detail={`${topicName(lesson.topic)}, ${lesson.minutes} min${s.lessonProgress[lesson.id]?.step ? ", in progress" : ""}`}
-                href={`/learn/${lesson.topic}/${lesson.id.split("--")[1]}`}
+                href={`/app/learn/${lesson.topic}/${lesson.id.split("--")[1]}`}
                 cta={s.lessonProgress[lesson.id]?.step ? "Resume" : "Start"}
               />
             )}
@@ -114,7 +114,7 @@ export default function Today() {
               title="Flashcards"
               detail={cardsToday ? `${due.length} due for review, ${Math.min(unseen.length, NEW_CARDS_PER_DAY)} new` : "All caught up"}
               progress={cardsToday ? 0 : 100}
-              href="/flashcards"
+              href="/app/flashcards"
               cta={cardsToday ? "Review" : "Browse"}
             />
             <TodayItem
@@ -129,7 +129,7 @@ export default function Today() {
               }
               detail={`${Math.min(done, goal)} of ${goal} answered today`}
               progress={(done / goal) * 100}
-              href={weak[0] ? `/practice?topic=${weak[0].topic.id}` : posting ? `/practice?subject=${posting.id}` : "/practice"}
+              href={weak[0] ? `/app/practice?topic=${weak[0].topic.id}` : posting ? `/app/practice?subject=${posting.id}` : "/app/practice"}
               cta={done >= goal ? "Do more" : "Start"}
             />
             <TodayItem
@@ -137,7 +137,7 @@ export default function Today() {
               icon={<Stethoscope size={18} />}
               title={`Part 2 station: ${nextStation.title}`}
               detail="One station a week keeps the talking skills warm"
-              href={`/clinical/${nextStation.id}`}
+              href={`/app/clinical/${nextStation.id}`}
               cta="Open"
             />
             {posting && (
@@ -146,7 +146,7 @@ export default function Today() {
                 icon={<ArrowLeftRight size={18} />}
                 title={`Your posting: ${posting.name}`}
                 detail="What carries over to the AMC, and where Australia differs"
-                href={`/mbbs?s=${posting.id}`}
+                href={`/app/mbbs?s=${posting.id}`}
                 cta="See map"
               />
             )}
@@ -192,10 +192,10 @@ export default function Today() {
                       </div>
                     </div>
                     <div className="flex gap-2">
-                      <ButtonLink href={`/learn/${w.topic.id}`} variant="outline" size="sm">
+                      <ButtonLink href={`/app/learn/${w.topic.id}`} variant="outline" size="sm">
                         Lesson
                       </ButtonLink>
-                      <ButtonLink href={`/practice?topic=${w.topic.id}`} size="sm">
+                      <ButtonLink href={`/app/practice?topic=${w.topic.id}`} size="sm">
                         Practise
                       </ButtonLink>
                     </div>
@@ -207,9 +207,9 @@ export default function Today() {
             <div className="mt-3 text-muted">
               <p>Once you&rsquo;ve answered a few questions per topic, your weak spots show up here.</p>
               <p className="mt-3">
-                New to all this? Start with <Link href="/pathway" className="text-brand underline">your pathway</Link> to
+                New to all this? Start with <Link href="/app/pathway" className="text-brand underline">your pathway</Link> to
                 see how the AMC works, then read{" "}
-                <Link href="/australia" className="text-brand underline">Australia 101</Link>.
+                <Link href="/app/australia" className="text-brand underline">Australia 101</Link>.
               </p>
             </div>
           )}
@@ -220,7 +220,7 @@ export default function Today() {
                 ? `Last mock: ${Math.round((s.mocks.at(-1)!.correct / s.mocks.at(-1)!.total) * 100)}%`
                 : "You haven't taken a mock exam yet."}
             </span>
-            <ButtonLink href="/mock" variant="outline" size="sm">
+            <ButtonLink href="/app/mock" variant="outline" size="sm">
               Mock exams
             </ButtonLink>
           </div>

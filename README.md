@@ -4,6 +4,12 @@ A study companion for Indian MBBS students heading to the Australian Medical Cou
 
 Not affiliated with the AMC. Written for exam practice, not patient care.
 
+## Website and app
+
+The public website lives at `/`: the home page, a guide to the AMC Standard Pathway (`/amc-pathway`), all 52 topics with their high-yield points and India vs Australia differences (`/topics`), the Australia 101 reads (`/australia-101`), and the privacy policy and terms. These pages are prerendered, listed in `sitemap.xml`, and meant to be found in search.
+
+The app lives under `/app` and is kept out of search results. The website's "Start free" buttons open it on the sign-up screen. Old paths such as `/learn` redirect to `/app/learn`, and phones that installed the app before the move still open straight into it.
+
 ## What's inside
 
 - **Today**: countdown, streak, a daily session (flashcards, questions, a clinical station), weak topics, and the Southern Cross: five stars that brighten as you work through foundations, the question bank, MCQ readiness, clinical skills and Australian context.

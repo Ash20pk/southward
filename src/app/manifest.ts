@@ -2,11 +2,12 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
+    // The id stays "/" so phones that installed the app before it moved to /app keep the same app.
     id: "/",
     name: "Southward",
     short_name: "Southward",
     description: "A guided path from MBBS to the Australian Medical Council exams: lessons, questions, mock exams, flashcards and clinical stations.",
-    start_url: "/",
+    start_url: "/app",
     scope: "/",
     display: "standalone",
     orientation: "any",
@@ -21,9 +22,9 @@ export default function manifest(): MetadataRoute.Manifest {
       { src: "/icons/icon-maskable-512.png", sizes: "512x512", type: "image/png", purpose: "maskable" },
     ],
     shortcuts: [
-      { name: "Continue learning", url: "/learn", icons: [{ src: "/icons/icon-192.png", sizes: "192x192" }] },
-      { name: "Practice questions", url: "/practice", icons: [{ src: "/icons/icon-192.png", sizes: "192x192" }] },
-      { name: "Flashcards", url: "/flashcards", icons: [{ src: "/icons/icon-192.png", sizes: "192x192" }] },
+      { name: "Continue learning", url: "/app/learn", icons: [{ src: "/icons/icon-192.png", sizes: "192x192" }] },
+      { name: "Practice questions", url: "/app/practice", icons: [{ src: "/icons/icon-192.png", sizes: "192x192" }] },
+      { name: "Flashcards", url: "/app/flashcards", icons: [{ src: "/icons/icon-192.png", sizes: "192x192" }] },
     ],
   };
 }

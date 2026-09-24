@@ -1,18 +1,21 @@
 import type { Metadata, Viewport } from "next";
 import { Bricolage_Grotesque, Source_Serif_4 } from "next/font/google";
 import "./globals.css";
-import { AppShell } from "@/components/AppShell";
 import { PREFS_BOOT } from "@/lib/prefs";
 import { ServiceWorker } from "@/components/ServiceWorker";
 import splashScreens from "@/lib/splash-screens.json";
+import { SITE_DESCRIPTION, SITE_NAME, SITE_TAGLINE, SITE_URL } from "@/lib/site";
 
 const sans = Bricolage_Grotesque({ subsets: ["latin"], variable: "--font-bricolage" });
 const serif = Source_Serif_4({ subsets: ["latin"], variable: "--font-source-serif" });
 
 export const metadata: Metadata = {
-  title: "Southward",
-  description: "A guided path from MBBS to the Australian Medical Council exams.",
-  applicationName: "Southward",
+  metadataBase: new URL(SITE_URL),
+  title: { default: `${SITE_NAME}: ${SITE_TAGLINE}`, template: `%s | ${SITE_NAME}` },
+  description: SITE_DESCRIPTION,
+  applicationName: SITE_NAME,
+  openGraph: { type: "website", siteName: SITE_NAME, locale: "en_AU" },
+  twitter: { card: "summary_large_image" },
   appleWebApp: {
     capable: true,
     title: "Southward",
@@ -40,7 +43,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <script dangerouslySetInnerHTML={{ __html: PREFS_BOOT }} />
       </head>
       <body>
-        <AppShell>{children}</AppShell>
+        {children}
         <ServiceWorker />
       </body>
     </html>

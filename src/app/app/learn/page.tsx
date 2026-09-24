@@ -84,7 +84,7 @@ function UpNext({ lesson, step }: { lesson: (typeof ALL_LESSONS)[number]; step: 
       <p className="mt-1.5 flex flex-wrap items-center gap-x-2 text-sky-muted">
         <DisciplineDot color={d.color} /> {topicName(lesson.topic)}, {lesson.minutes} min
       </p>
-      <ButtonLink href={`/learn/${lesson.topic}/${lesson.id.split("--")[1]}`} className="mt-5 bg-ochre text-sky hover:brightness-105">
+      <ButtonLink href={`/app/learn/${lesson.topic}/${lesson.id.split("--")[1]}`} className="mt-5 bg-ochre text-sky hover:brightness-105">
         {step > 0 ? "Resume lesson" : "Start lesson"}
       </ButtonLink>
     </section>
@@ -125,7 +125,7 @@ function DisciplineRow({
             const complete = tp.total > 0 && tp.done === tp.total;
             return (
               <li key={t.id} className="border-t border-line first:border-t-0">
-                <Link href={`/learn/${t.id}`} className="flex items-center gap-3 px-5 py-3.5 hover:bg-sunk">
+                <Link href={`/app/learn/${t.id}`} className="flex items-center gap-3 px-5 py-3.5 hover:bg-sunk">
                   <span
                     className={clsx(
                       "grid h-7 w-7 shrink-0 place-items-center rounded-full border-2 text-xs font-semibold",
@@ -175,7 +175,7 @@ function SearchResults({ needle, progress }: { needle: string; progress: Record<
           <ul className="divide-y divide-line overflow-hidden rounded-2xl border border-line bg-surface">
             {lessons.map((l) => (
               <li key={l.id}>
-                <Link href={`/learn/${l.topic}/${l.id.split("--")[1]}`} className="flex items-center gap-3 px-5 py-3 hover:bg-sunk">
+                <Link href={`/app/learn/${l.topic}/${l.id.split("--")[1]}`} className="flex items-center gap-3 px-5 py-3 hover:bg-sunk">
                   {progress[l.id]?.done ? <Check size={16} className="text-ok" /> : <span className="w-4" />}
                   <span className="flex-1">
                     <span className="block font-medium">{l.title}</span>
@@ -195,7 +195,7 @@ function SearchResults({ needle, progress }: { needle: string; progress: Record<
           <ul className="divide-y divide-line overflow-hidden rounded-2xl border border-line bg-surface">
             {topics.map((t) => (
               <li key={t.id}>
-                <Link href={`/learn/${t.id}`} className="block px-5 py-3 hover:bg-sunk">
+                <Link href={`/app/learn/${t.id}`} className="block px-5 py-3 hover:bg-sunk">
                   <span className="block font-medium">{t.name}</span>
                   <span className="line-clamp-1 text-sm text-muted">{t.summary}</span>
                 </Link>

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import clsx from "clsx";
 import { useSession } from "@/lib/session";
 import { Button } from "./ui";
@@ -8,7 +9,11 @@ import { SouthernCross } from "./SouthernCross";
 
 export function AuthScreen() {
   const { setUser } = useSession();
-  const [mode, setMode] = useState<"signin" | "signup">("signin");
+  // Only rendered after hydration (AppShell shows the splash until then), so reading the URL here is safe.
+  // The website's "Start free" buttons link to /app?signup=1.
+  const [mode, setMode] = useState<"signin" | "signup">(() =>
+    new URLSearchParams(window.location.search).has("signup") ? "signup" : "signin",
+  );
   const [form, setForm] = useState({ name: "", email: "", password: "" });
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -39,7 +44,9 @@ export function AuthScreen() {
   return (
     <div className="grid min-h-dvh lg:grid-cols-[1fr_1.1fr]">
       <div className="relative hidden flex-col justify-between overflow-hidden bg-sky p-12 text-sky-ink lg:flex">
-        <div className="text-lg font-semibold tracking-tight">Southward</div>
+        <Link href="/" className="text-lg font-semibold tracking-tight hover:text-white">
+          Southward
+        </Link>
         <div className="mx-auto w-full max-w-sm">
           <SouthernCross stars={[80, 55, 30, 15, 45].map((v, i) => ({ key: String(i), label: "", detail: "", value: v }))} />
         </div>
@@ -109,6 +116,22 @@ export function AuthScreen() {
         <Button type="submit" disabled={busy} className="self-start">
           {busy ? "One moment…" : mode === "signin" ? "Sign in" : "Create account"}
         </Button>
+        {mode === "signup" && (
+          <p className="text-sm text-muted">
+            By creating an account you agree to the{" "}
+            <Link href="/terms" className="text-brand underline">
+              terms
+            </Link>{" "}
+            and{" "}
+            <Link href="/privacy" className="text-brand underline">
+              privacy policy
+            </Link>
+            .
+          </p>
+        )}
+        <Link href="/" className="text-sm text-muted hover:text-ink lg:hidden">
+          ← About Southward
+        </Link>
       </form>
     </div>
   );

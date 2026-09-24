@@ -59,7 +59,7 @@ export default function Flashcards() {
         title="Flashcards"
         lede="Spaced repetition: each card comes back just before you'd forget it. Finishing a lesson adds its cards here, and you can make your own from any PDF."
         actions={
-          <ButtonLink href="/flashcards/import" variant="outline">
+          <ButtonLink href="/app/flashcards/import" variant="outline">
             <FileUp size={16} /> Make cards from a PDF
           </ButtonLink>
         }
@@ -139,7 +139,7 @@ export default function Flashcards() {
           <Empty title="No decks of your own yet">
             <p>
               Turn lecture notes, a guideline or a textbook chapter into cards.{" "}
-              <Link href="/flashcards/import" className="text-brand underline">
+              <Link href="/app/flashcards/import" className="text-brand underline">
                 Make cards from a PDF
               </Link>
             </p>

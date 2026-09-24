@@ -29,7 +29,7 @@ export default function TopicPage() {
 
   return (
     <div className="max-w-3xl">
-      <Link href="/learn" className="mb-5 inline-flex items-center gap-1.5 text-muted hover:text-ink">
+      <Link href="/app/learn" className="mb-5 inline-flex items-center gap-1.5 text-muted hover:text-ink">
         <ArrowLeft size={16} /> Learn
       </Link>
 
@@ -44,7 +44,7 @@ export default function TopicPage() {
             In your MBBS:{" "}
             {links.map((l, i) => (
               <span key={l.subject.id}>
-                <Link href={`/mbbs?s=${l.subject.id}`} className="text-brand underline-offset-2 hover:underline">
+                <Link href={`/app/mbbs?s=${l.subject.id}`} className="text-brand underline-offset-2 hover:underline">
                   {l.subject.name}
                 </Link>
                 {l.strength === "partial" && " (partly)"}
@@ -64,7 +64,7 @@ export default function TopicPage() {
             </span>
           </div>
           {resume && (
-            <ButtonLink href={`/learn/${t.id}/${slug(resume.id)}`} className="mb-6">
+            <ButtonLink href={`/app/learn/${t.id}/${slug(resume.id)}`} className="mb-6">
               {tp.done === 0 && !progress[resume.id]?.step ? "Start lesson 1" : `Continue: ${resume.title}`}
             </ButtonLink>
           )}
@@ -74,7 +74,7 @@ export default function TopicPage() {
               const st = progress[l.id];
               return (
                 <li key={l.id} className="border-t border-line first:border-t-0">
-                  <Link href={`/learn/${t.id}/${slug(l.id)}`} className="flex items-center gap-4 px-5 py-4 hover:bg-sunk">
+                  <Link href={`/app/learn/${t.id}/${slug(l.id)}`} className="flex items-center gap-4 px-5 py-4 hover:bg-sunk">
                     <span
                       className={clsx(
                         "grid h-8 w-8 shrink-0 place-items-center rounded-full border-2 text-sm font-semibold",
@@ -102,9 +102,9 @@ export default function TopicPage() {
       )}
 
       <div className="mb-8 grid grid-cols-1 gap-3 sm:grid-cols-3">
-        <ActionCard href={`/practice?topic=${t.id}`} icon={<Target size={18} />} title="Topic quiz" detail={`${quizCount} questions`} />
-        <ActionCard href="/flashcards" icon={<Layers size={18} />} title="Flashcards" detail={cardCount ? `${cardCount} cards, added as you finish lessons` : "Review your deck"} />
-        <ActionCard href={`/tutor?about=${encodeURIComponent(t.name)}`} icon={<MessageCircle size={18} />} title="Ask the tutor" detail="Anything that didn't click" />
+        <ActionCard href={`/app/practice?topic=${t.id}`} icon={<Target size={18} />} title="Topic quiz" detail={`${quizCount} questions`} />
+        <ActionCard href="/app/flashcards" icon={<Layers size={18} />} title="Flashcards" detail={cardCount ? `${cardCount} cards, added as you finish lessons` : "Review your deck"} />
+        <ActionCard href={`/app/tutor?about=${encodeURIComponent(t.name)}`} icon={<MessageCircle size={18} />} title="Ask the tutor" detail="Anything that didn't click" />
       </div>
 
       <div className="flex flex-col gap-3">

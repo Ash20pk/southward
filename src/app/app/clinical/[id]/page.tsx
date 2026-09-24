@@ -319,7 +319,7 @@ function Shell({ title, timer, urgent, right, children }: { title: string; timer
   return (
     <div className="flex h-dvh flex-col">
       <header className="flex items-center justify-between gap-3 border-b border-line px-4 py-3 sm:px-8">
-        <Link href="/clinical" className="flex min-w-0 items-center gap-2 text-muted hover:text-ink">
+        <Link href="/app/clinical" className="flex min-w-0 items-center gap-2 text-muted hover:text-ink">
           <ArrowLeft size={16} className="shrink-0" />
           <span className="truncate">{title}</span>
         </Link>
@@ -371,7 +371,7 @@ function Feedback({ station, fb, turns, name }: { station: OsceStation; fb: Osce
 
   return (
     <div className="mx-auto max-w-2xl px-4 py-8">
-      <Link href="/clinical" className="mb-6 inline-flex items-center gap-1.5 text-muted hover:text-ink">
+      <Link href="/app/clinical" className="mb-6 inline-flex items-center gap-1.5 text-muted hover:text-ink">
         <ArrowLeft size={16} /> All stations
       </Link>
 
@@ -460,7 +460,7 @@ function Feedback({ station, fb, turns, name }: { station: OsceStation; fb: Osce
       </div>
 
       {(courseFor(station.topic)?.lessons.length ?? 0) > 0 && (
-        <Link href={`/learn/${station.topic}`} className="mb-6 flex flex-col items-start gap-2 rounded-2xl border border-line bg-surface p-4 hover:border-brand sm:flex-row sm:gap-3">
+        <Link href={`/app/learn/${station.topic}`} className="mb-6 flex flex-col items-start gap-2 rounded-2xl border border-line bg-surface p-4 hover:border-brand sm:flex-row sm:gap-3">
           <ExamPart part={1} className="mt-0.5 shrink-0" />
           <span>
             <span className="block font-medium">Revise {topicName(station.topic)}</span>
@@ -474,7 +474,7 @@ function Feedback({ station, fb, turns, name }: { station: OsceStation; fb: Osce
       <div className="flex flex-wrap gap-3">
         <Button onClick={() => location.reload()}>Try again</Button>
         {next && (
-          <ButtonLink href={`/clinical/${next.id}`} variant="outline">
+          <ButtonLink href={`/app/clinical/${next.id}`} variant="outline">
             Another {LEVEL[station.difficulty].label.toLowerCase()} station
           </ButtonLink>
         )}

@@ -150,3 +150,32 @@ export const MILESTONES: Milestone[] = [
     body: "With the certificate you can apply to the Medical Board of Australia (via Ahpra) for general registration, usually after a period of supervised practice.",
   },
 ];
+
+/** The AMC Standard Pathway, shown in the app and on the public guide. */
+export const PATHWAY_STEPS = [
+  {
+    title: "Part 1: the AMC MCQ exam",
+    body: "A computer-adaptive test of one-best-answer questions covering adult medicine and surgery, women's health, child health, mental health, and population health and ethics. It is taken at a test centre, including in India, and checks whether your medical knowledge matches that of an Australian graduate starting as an intern.",
+  },
+  {
+    title: "Part 2: the AMC Clinical Exam, or Workplace Based Assessment",
+    body: "The Clinical Exam is a circuit of short stations with role-play patients: taking a history, examining, explaining, counselling and managing. Each station gives you a couple of minutes of reading time, then a few minutes with the patient. Workplace Based Assessment is an alternative for doctors already working under supervision in an accredited Australian hospital.",
+  },
+  {
+    title: "AMC Certificate, then registration",
+    body: "Pass both and you receive the AMC Certificate. With it, plus the English language standard, you apply to the Medical Board of Australia through Ahpra. General registration usually follows a period of supervised practice.",
+  },
+];
+
+// From the AMC MCQ Examination Specifications (V8, September 2025) and the AMC's December 2025 pass standard update.
+export const MCQ_FACTS: [string, string][] = [
+  ["Format", "One best answer from five options (A to E), computer-adaptive. No marks are taken off for wrong answers, so never leave one blank."],
+  ["Length", "150 questions in 3.5 hours, about 84 seconds each. Some are new questions being trialled that don't count, and you can't tell which."],
+  ["No going back", "You must answer each question before the next appears, and you can't return to change an answer. Practise with the real exam conditions setting on mock exams."],
+  ["Blueprint", "Adult medicine 30%, adult surgery 20%, and 12.5% each for women's health, child health, mental health, and population health and ethics."],
+  ["Standard", "What an Australian graduate knows on day one of internship. Most questions are about common conditions in the Australian community, plus anything life-threatening or critical to safe practice."],
+  ["What they test", "For each condition: pathogenesis, clinical features, investigations, differential diagnosis and management. Expect ECGs, X-rays, scans and clinical photos."],
+  ["Scoring", "A score from 0 to 500. The pass was 250; from 2026 the AMC raised it slightly and hasn't published the new number."],
+  ["Where", "Pearson VUE test centres worldwide, including several Indian cities."],
+  ["Free practice", "Once you buy your MCQ authorisation, the AMC gives you 12 months of access to its official practice app (with eMedici): 210 questions written by AMC examiners."],
+];
