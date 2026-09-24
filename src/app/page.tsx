@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import clsx from "clsx";
 import { ArrowLeftRight, BookOpen, Flame, Layers, Stethoscope, Target, Timer } from "lucide-react";
 import { streak, useStore } from "@/lib/store";
 import { SouthernCross } from "@/components/SouthernCross";
@@ -19,26 +20,28 @@ import {
 import { STATIONS, subjectById, topicName, topicsForSubject } from "@/lib/content";
 import { nextLesson } from "@/lib/course-index";
 import { currentPhase } from "@/lib/plan";
+import { useNow } from "@/hooks/useNow";
 
-function greeting() {
-  const h = new Date().getHours();
+function greeting(now: number) {
+  const h = new Date(now).getHours();
   return h < 12 ? "Good morning" : h < 17 ? "Good afternoon" : "Good evening";
 }
 
 export default function Today() {
   const s = useStore();
+  // Re-render as the clock moves, so an app left open overnight rolls over to the new day.
+  const now = useNow();
   const profile = s.profile!;
   const stars = constellation(s);
-  const done = answeredToday(s.log);
+  const done = answeredToday(s.log, now);
   const goal = profile.dailyQuestions;
   const { due, unseen } = dueCards(s.srs);
   const cardsToday = due.length + Math.min(unseen.length, NEW_CARDS_PER_DAY);
   const weak = weakestTopics(s.log);
-  const days = daysUntil(profile.mcqTarget);
+  const days = daysUntil(profile.mcqTarget, now);
   const phase = currentPhase(profile);
   const ready = readiness(s.log, s.mocks);
-  const history = lastNDays(s.log);
-  const maxDay = Math.max(goal, ...history.map((h) => h.count));
+  const history = lastNDays(s.log, 14, now);
   const disc = byDiscipline(s.log);
   const nextStation = STATIONS.find((st) => !s.osce.some((o) => o.stationId === st.id)) ?? STATIONS[0];
   const st = streak(s.studyDays);
@@ -51,7 +54,7 @@ export default function Today() {
       <section className="rise relative overflow-hidden rounded-3xl bg-sky text-sky-ink">
         <div className="grid gap-4 p-6 sm:p-10 md:grid-cols-[1.25fr_1fr] md:items-center">
           <div>
-            <p className="text-sky-muted">{greeting()}, {profile.name}.</p>
+            <p className="text-sky-muted">{greeting(now)}, {profile.name}.</p>
             <h1 className="mt-2 text-3xl font-semibold leading-[1.12] tracking-tight sm:text-[2.6rem]">
               {days > 0 ? (
                 <>
@@ -150,32 +153,7 @@ export default function Today() {
           </ol>
         </Panel>
 
-        <Panel>
-          <div className="flex items-baseline justify-between">
-            <h2 className="text-xl font-semibold">Last two weeks</h2>
-            <span className="text-sm text-muted">questions per day</span>
-          </div>
-          <div className="mt-6 flex h-36 items-end gap-1.5" role="img" aria-label="Questions answered per day over the last 14 days">
-            {history.map((h) => (
-              <div key={h.day} className="flex h-full flex-1 flex-col items-center justify-end gap-1.5">
-                <div className="relative w-full flex-1">
-                  <div
-                    className="absolute inset-x-0 bottom-0 rounded-t-md bg-brand/25"
-                    style={{ height: `${(h.count / maxDay) * 100}%` }}
-                    title={`${h.day}: ${h.count} answered, ${h.correct} correct`}
-                  >
-                    <div className="absolute inset-x-0 bottom-0 rounded-t-md bg-brand" style={{ height: h.count ? `${(h.correct / h.count) * 100}%` : 0 }} />
-                  </div>
-                  <div className="absolute inset-x-0 border-t border-dashed border-ochre/70" style={{ bottom: `${(goal / maxDay) * 100}%` }} />
-                </div>
-                <span className="text-[11px] text-muted">{h.label}</span>
-              </div>
-            ))}
-          </div>
-          <p className="mt-3 text-sm text-muted">
-            Solid bar is correct answers. The dashed line is your daily goal of {goal}.
-          </p>
-        </Panel>
+        <TwoWeeks history={history} goal={goal} />
       </div>
 
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
@@ -278,5 +256,71 @@ function TodayItem(props: {
         {props.cta}
       </ButtonLink>
     </li>
+  );
+}
+
+function TwoWeeks({ history, goal }: { history: ReturnType<typeof lastNDays>; goal: number }) {
+  // Headroom above the tallest bar leaves space for its count label.
+  const max = Math.max(goal, ...history.map((h) => h.count)) * 1.1;
+  const pct = (n: number) => `${(n / max) * 100}%`;
+  const total = history.reduce((a, h) => a + h.count, 0);
+  const correct = history.reduce((a, h) => a + h.correct, 0);
+  const onGoal = history.filter((h) => h.count >= goal).length;
+
+  return (
+    <Panel className="flex flex-col">
+      <h2 className="text-xl font-semibold">Last two weeks</h2>
+
+      <dl className="mt-4 grid grid-cols-3 gap-3">
+        {[
+          ["Answered", total.toLocaleString()],
+          ["Correct", total ? `${Math.round((correct / total) * 100)}%` : "–"],
+          ["Days on goal", `${onGoal} of ${history.length}`],
+        ].map(([k, v]) => (
+          <div key={k}>
+            <dt className="truncate text-xs text-muted">{k}</dt>
+            <dd className="text-lg font-semibold tabular-nums">{v}</dd>
+          </div>
+        ))}
+      </dl>
+
+      <div className="mt-5 flex min-h-40 flex-1 flex-col" role="img" aria-label={`Questions answered per day over the last ${history.length} days: ${total} in total, daily goal ${goal}`}>
+        <div className="relative flex-1">
+          <div className="absolute inset-0 flex gap-1 sm:gap-1.5">
+            {history.map((h) => (
+              <div key={h.day} className={clsx("relative flex-1 rounded-md", h.today && "bg-brand-soft/60")} title={`${h.weekday} ${h.day}: ${h.count} answered, ${h.correct} correct`}>
+                {h.count > 0 ? (
+                  <>
+                    <div className="absolute inset-x-0 bottom-0 overflow-hidden rounded-t-md bg-brand/25" style={{ height: pct(h.count) }}>
+                      <div className="absolute inset-x-0 bottom-0 bg-brand" style={{ height: `${(h.correct / h.count) * 100}%` }} />
+                    </div>
+                    <span
+                      className={clsx("absolute inset-x-0 text-center text-[10px] leading-none tabular-nums sm:text-[11px]", h.today ? "font-semibold text-ink" : "text-muted")}
+                      style={{ bottom: `calc(${pct(h.count)} + 4px)` }}
+                    >
+                      {h.count}
+                    </span>
+                  </>
+                ) : (
+                  <div className="absolute inset-x-1 bottom-0 h-0.5 rounded-full bg-line" />
+                )}
+              </div>
+            ))}
+          </div>
+          <div className="pointer-events-none absolute inset-x-0 border-t border-dashed border-ochre" style={{ bottom: pct(goal) }} />
+        </div>
+        <div className="mt-1.5 flex gap-1 border-t border-line pt-1.5 sm:gap-1.5">
+          {history.map((h) => (
+            <span key={h.day} className={clsx("flex-1 text-center text-[10px] tabular-nums sm:text-[11px]", h.today ? "font-semibold text-brand" : "text-muted")}>
+              {h.label}
+            </span>
+          ))}
+        </div>
+      </div>
+
+      <p className="mt-3 text-sm text-muted">
+        Questions answered each day. Solid bar is correct answers, the highlighted day is today, and the dashed line is your daily goal of {goal}.
+      </p>
+    </Panel>
   );
 }

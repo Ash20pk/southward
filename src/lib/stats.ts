@@ -42,24 +42,29 @@ export function dueCards(srs: Record<string, CardState>, now = Date.now()) {
   return { due, unseen };
 }
 
-export function answeredToday(log: LogEntry[]) {
-  const start = new Date();
+export function answeredToday(log: LogEntry[], now = Date.now()) {
+  const start = new Date(now);
   start.setHours(0, 0, 0, 0);
   return log.filter((e) => e.at >= start.getTime()).length;
 }
 
-export function lastNDays(log: LogEntry[], n = 14) {
-  const out: { day: string; label: string; count: number; correct: number }[] = [];
+/** Answers per local calendar day, oldest first. Day bounds come from the calendar, so DST days are 23 or 25 hours. */
+export function lastNDays(log: LogEntry[], n = 14, now = Date.now()) {
+  const out: { day: string; label: string; weekday: string; today: boolean; count: number; correct: number }[] = [];
   for (let i = n - 1; i >= 0; i--) {
-    const d = new Date();
+    const d = new Date(now);
     d.setHours(0, 0, 0, 0);
     d.setDate(d.getDate() - i);
+    const next = new Date(d);
+    next.setDate(d.getDate() + 1);
     const s = d.getTime();
-    const e = s + 86_400_000;
+    const e = next.getTime();
     const es = log.filter((x) => x.at >= s && x.at < e);
     out.push({
       day: d.toLocaleDateString("en-CA"),
-      label: d.toLocaleDateString("en-AU", { weekday: "narrow" }),
+      label: String(d.getDate()),
+      weekday: d.toLocaleDateString("en-AU", { weekday: "short" }),
+      today: i === 0,
       count: es.length,
       correct: es.filter((x) => x.correct).length,
     });
@@ -121,7 +126,7 @@ export function constellation(opts: {
   ];
 }
 
-export function daysUntil(iso: string) {
+export function daysUntil(iso: string, now = Date.now()) {
   const t = new Date(iso + "T00:00:00").getTime();
-  return Math.ceil((t - Date.now()) / 86_400_000);
+  return Math.ceil((t - now) / 86_400_000);
 }
