@@ -86,16 +86,7 @@ export async function guardAI(): Promise<Response | null> {
   const user = await currentUser();
   if (!user) return json(401, "Please sign in to use the AI features.");
 
-  // Site-wide ceiling first, so a burst of new accounts can't run up the bill.
-  const siteLimit = Number(process.env.AI_SITE_DAILY_LIMIT || 1000);
-  const total = await sql()`
-    insert into ai_usage_total (day, count) values (current_date, 1)
-    on conflict (day) do update set count = ai_usage_total.count + 1
-    returning count`;
-  if (Number(total[0]?.count) > siteLimit) {
-    return json(429, "Southward has reached its AI limit for today. It resets at midnight (UTC); everything else still works.");
-  }
-
+  // The user's own limit first, so requests they're refused never count against everyone else's.
   const limit = Number(process.env.AI_DAILY_LIMIT || 300);
   const rows = await sql()`
     insert into ai_usage (user_id, day, count) values (${user.id}, current_date, 1)
@@ -103,6 +94,18 @@ export async function guardAI(): Promise<Response | null> {
     returning count`;
   if (Number(rows[0]?.count) > limit) {
     return json(429, `You've reached today's limit of ${limit} AI requests. It resets at midnight (UTC).`);
+  }
+
+  // Then the site-wide ceiling, so a burst of new accounts can't run up the bill.
+  const siteLimit = Number(process.env.AI_SITE_DAILY_LIMIT || 1000);
+  const total = await sql()`
+    insert into ai_usage_total (day, count) values (current_date, 1)
+    on conflict (day) do update set count = ai_usage_total.count + 1
+    returning count`;
+  if (Number(total[0]?.count) > siteLimit) {
+    // Not the user's doing: give the request back to their own allowance.
+    await sql()`update ai_usage set count = count - 1 where user_id = ${user.id} and day = current_date`;
+    return json(429, "Southward has reached its AI limit for today. It resets at midnight (UTC); everything else still works.");
   }
   return null;
 }
