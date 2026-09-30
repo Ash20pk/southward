@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function Privacy() {
   return (
-    <SitePage narrow crumbs={[{ href: "/privacy", label: "Privacy" }]} title="Privacy" lede="Last updated 24 September 2026. The short version: we keep what's needed to save your progress, we don't run ads or trackers, and we never sell your data.">
+    <SitePage narrow crumbs={[{ href: "/privacy", label: "Privacy" }]} title="Privacy" lede="Last updated 30 September 2026. The short version: we keep what's needed to save your progress, we don't run ads or trackers, and we never sell your data.">
       <LegalSection title="What we store">
         <ul>
           <li>
@@ -24,6 +24,10 @@ export default function Privacy() {
           </li>
           <li>
             <strong>Daily AI usage counts,</strong> so we can apply the fair-use limit.
+          </li>
+          <li>
+            <strong>Sign-in attempt counts,</strong> keyed by a one-way hash of your IP address or email address, to slow
+            down password guessing and automated sign-ups. They&rsquo;re cleared out after about a day.
           </li>
         </ul>
         <p>
@@ -69,20 +73,18 @@ export default function Privacy() {
 
       <LegalSection title="Your choices">
         <p>
-          You can export your progress at any time from Settings. To have your account and everything attached to it
-          deleted,{" "}
-          {CONTACT_EMAIL ? (
+          You can export your progress at any time from Settings, and delete your account there too, under Delete
+          account. Deleting an account removes it, its progress and its usage records from the database straight away.
+          {CONTACT_EMAIL && (
             <>
-              email{" "}
+              {" "}
+              If you can&rsquo;t sign in, or have any question about your data, email{" "}
               <a href={`mailto:${CONTACT_EMAIL}`} className="text-brand underline">
                 {CONTACT_EMAIL}
               </a>{" "}
               from the address you signed up with.
             </>
-          ) : (
-            "contact us from the address you signed up with."
-          )}{" "}
-          Deleting an account removes its progress and usage records from the database.
+          )}
         </p>
       </LegalSection>
 

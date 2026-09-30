@@ -37,6 +37,12 @@ const statements = [
     day date primary key,
     count integer not null default 0
   )`,
+  // Login, sign-up and account-deletion attempts per IP or email, to slow down password guessing and bots.
+  `create table if not exists rate_limits (
+    key text primary key,
+    window_start timestamptz not null default now(),
+    count integer not null default 0
+  )`,
 ];
 
 for (const s of statements) await sql.query(s);

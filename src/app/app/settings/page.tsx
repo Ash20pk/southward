@@ -22,6 +22,9 @@ export default function Settings() {
   const file = useRef<HTMLInputElement>(null);
   const session = useSession();
   const [signingOut, setSigningOut] = useState(false);
+  const [deletePassword, setDeletePassword] = useState("");
+  const [deleting, setDeleting] = useState(false);
+  const [deleteError, setDeleteError] = useState<string | null>(null);
 
   const signOut = async () => {
     setSigningOut(true);
@@ -29,6 +32,27 @@ export default function Settings() {
     await fetch("/api/auth/logout", { method: "POST" });
     state.wipeLocal();
     session.setUser(null);
+  };
+
+  const deleteAccount = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!confirm("Delete your account and all its progress on every device? This can't be undone.")) return;
+    setDeleting(true);
+    setDeleteError(null);
+    try {
+      const res = await fetch("/api/auth/account", {
+        method: "DELETE",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ password: deletePassword }),
+      });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok) throw new Error(data.error || "Couldn't delete the account. Try again.");
+      state.wipeLocal();
+      session.setUser(null);
+    } catch (err) {
+      setDeleteError((err as Error).message);
+      setDeleting(false);
+    }
   };
 
   const save = (e: React.FormEvent) => {
@@ -185,6 +209,37 @@ export default function Settings() {
             Delete all progress
           </Button>
         </Panel>
+
+        {session.user && (
+          <Panel>
+            <h2 className="text-lg font-semibold">Delete account</h2>
+            <p className="mt-1 text-muted">
+              Permanently deletes your account, your synced progress and your usage records. Export a backup first if you
+              might want your progress later.
+            </p>
+            <form onSubmit={deleteAccount} className="mt-4 flex flex-col gap-3 sm:flex-row sm:items-end">
+              <label className="flex min-w-0 flex-1 flex-col gap-1.5">
+                <span className="text-sm text-muted">Your password, to confirm</span>
+                <input
+                  type="password"
+                  className={field}
+                  value={deletePassword}
+                  onChange={(e) => setDeletePassword(e.target.value)}
+                  autoComplete="current-password"
+                  required
+                />
+              </label>
+              <Button type="submit" variant="danger" disabled={deleting || !deletePassword}>
+                {deleting ? "Deleting…" : "Delete account"}
+              </Button>
+            </form>
+            {deleteError && (
+              <p role="alert" className="mt-3 text-bad">
+                {deleteError}
+              </p>
+            )}
+          </Panel>
+        )}
 
         <p className="text-sm leading-relaxed text-muted">
           Southward is an independent study aid and is not affiliated with or endorsed by the Australian Medical Council.

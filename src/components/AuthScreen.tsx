@@ -27,6 +27,8 @@ export function AuthScreen() {
   // The website's "Start free" buttons link to /app?signup=1.
   const [mode, setMode] = useState<Mode>(() => (new URLSearchParams(window.location.search).has("signup") ? "signup" : "signin"));
   const [form, setForm] = useState({ name: "", email: "", password: "" });
+  // Honeypot: an off-screen field that people never see or reach, but form-filling bots complete.
+  const [trap, setTrap] = useState("");
   const [showPassword, setShowPassword] = useState(false);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -46,7 +48,7 @@ export function AuthScreen() {
       const res = await fetch(signup ? "/api/auth/signup" : "/api/auth/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(signup ? form : { email: form.email, password: form.password }),
+        body: JSON.stringify(signup ? { ...form, website: trap } : { email: form.email, password: form.password }),
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "Something went wrong. Try again.");
@@ -134,6 +136,18 @@ export function AuthScreen() {
                 />
               </label>
             </Collapse>
+
+            {signup && (
+              <input
+                name="sw-extra"
+                value={trap}
+                onChange={(e) => setTrap(e.target.value)}
+                tabIndex={-1}
+                autoComplete="off"
+                aria-hidden
+                className="absolute -left-[9999px] h-px w-px opacity-0"
+              />
+            )}
 
             <label className="block pb-5">
               <span className="mb-2 block text-sm font-medium">Email</span>

@@ -62,6 +62,8 @@ How it protects your API key and her data:
 - The AI routes only answer signed-in users. Each user is capped at `AI_DAILY_LIMIT` requests a day (default 300), and everyone together at `AI_SITE_DAILY_LIMIT` (default 1000), so open sign-up can't run up an unbounded bill. Set a monthly budget in your OpenAI billing settings as a final backstop.
 - A deployment without `DATABASE_URL` and `AUTH_SECRET` refuses AI requests entirely rather than running open.
 - Passwords are hashed with scrypt; sessions are signed, HttpOnly cookies that last 60 days.
+- Sign-in is limited to 10 attempts per email and 30 per IP address every 15 minutes, and sign-up to 10 new accounts per IP address an hour, with a honeypot field for bots. Every API route validates its input and caps its size before it reaches the AI or the database.
+- People can delete their account themselves from Settings; that removes their progress and usage records too.
 - Two devices can't overwrite each other: every save carries a version number, and a stale save is merged instead of applied.
 
 ## Stack
