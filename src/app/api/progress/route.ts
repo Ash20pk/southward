@@ -4,10 +4,34 @@ import { sql } from "@/lib/server/db";
 
 // The browser gzips the progress document before sending (it compresses ~10x), which keeps
 // a long study history well under the platform's request body limit.
-async function readBody(req: Request) {
+// A progress document this large would take years of daily study; anything bigger is refused before it's stored.
+const MAX_DOC_BYTES = 8 * 1024 * 1024;
+
+type Body = { data: unknown; baseVersion: number };
+
+/** Returns the parsed body, or a Response to send back. Never inflates more than MAX_DOC_BYTES. */
+async function readBody(req: Request): Promise<Body | Response> {
+  const tooLarge = () => Response.json({ error: "Your progress is too large to sync. Export a backup from Settings." }, { status: 413 });
   const raw = Buffer.from(await req.arrayBuffer());
-  const text = req.headers.get("x-sw-encoding") === "gzip" ? gunzipSync(raw).toString("utf8") : raw.toString("utf8");
-  return JSON.parse(text) as { data: unknown; baseVersion: number };
+  if (raw.length > MAX_DOC_BYTES) return tooLarge();
+  let text: string;
+  if (req.headers.get("x-sw-encoding") === "gzip") {
+    try {
+      text = gunzipSync(raw, { maxOutputLength: MAX_DOC_BYTES }).toString("utf8");
+    } catch (err) {
+      if ((err as NodeJS.ErrnoException).code === "ERR_BUFFER_TOO_LARGE") return tooLarge();
+      return Response.json({ error: "The upload wasn't valid gzip." }, { status: 400 });
+    }
+  } else {
+    text = raw.toString("utf8");
+  }
+  try {
+    const body = JSON.parse(text) as Body;
+    if (!Number.isInteger(body?.baseVersion) || body.baseVersion < 0) throw new Error();
+    return body;
+  } catch {
+    return Response.json({ error: "The upload wasn't a valid progress document." }, { status: 400 });
+  }
 }
 
 export async function GET() {
@@ -25,7 +49,9 @@ export async function GET() {
 async function save(req: Request) {
   const user = await currentUser();
   if (!user) return Response.json({ error: "Not signed in" }, { status: 401 });
-  const { data, baseVersion } = await readBody(req);
+  const body = await readBody(req);
+  if (body instanceof Response) return body;
+  const { data, baseVersion } = body;
   if (!data || typeof data !== "object") return Response.json({ error: "Missing data" }, { status: 400 });
   const doc = JSON.stringify(data);
 

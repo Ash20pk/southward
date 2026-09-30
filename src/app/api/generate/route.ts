@@ -3,8 +3,8 @@ import { structured, describeError, AMC_CONTEXT } from "@/lib/server/ai";
 import { topicById, disciplineName } from "@/lib/content";
 import type { Difficulty, Question } from "@/lib/types";
 import { orFallback, vetQuestions } from "@/lib/server/judge";
-
 import { guardAI } from "@/lib/server/auth";
+import { readInput, shortText } from "@/lib/server/input";
 
 export const maxDuration = 300;
 
@@ -22,18 +22,23 @@ const Generated = z.object({
   ),
 });
 
+const Body = z.object({
+  topicId: z.string().max(200),
+  difficulty: z.enum(["foundation", "core", "exam"]),
+  count: z.number(),
+  focus: shortText().optional(),
+  avoid: z.array(shortText()).max(5000).optional(), // grows with her question bank; only the first few are used
+});
+
 export async function POST(req: Request) {
-  const denied = await guardAI();
-  if (denied) return denied;
-  const { topicId, difficulty, count, focus, avoid } = (await req.json()) as {
-    topicId: string;
-    difficulty: Difficulty;
-    count: number;
-    focus?: string;
-    avoid?: string[];
-  };
+  const input = await readInput(req, Body);
+  if (input instanceof Response) return input;
+  const { topicId, count, focus, avoid } = input;
+  const difficulty: Difficulty = input.difficulty;
   const t = topicById(topicId);
   if (!t) return Response.json({ error: "Unknown topic" }, { status: 404 });
+  const denied = await guardAI();
+  if (denied) return denied;
   const n = Math.min(Math.max(count, 1), 10);
 
   const system = `${AMC_CONTEXT}

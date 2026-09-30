@@ -1,6 +1,7 @@
 import { z } from "zod";
 import { structured, describeError, AMC_CONTEXT } from "@/lib/server/ai";
 import { guardAI } from "@/lib/server/auth";
+import { readInput, shortText } from "@/lib/server/input";
 import { SYLLABUS } from "@/lib/content";
 import { isStudyMaterial, orFallback, supportedByMaterial, tagTopics, vetQuestions } from "@/lib/server/judge";
 import type { Difficulty, Question } from "@/lib/types";
@@ -25,22 +26,28 @@ const Generated = z.object({
   ),
 });
 
+// The size of pdfBase64 is checked below, with a message that tells her what to do.
+const Body = z.object({
+  text: z.string().max(MAX_TEXT * 5).optional(),
+  pdfBase64: z.string().optional(),
+  filename: shortText(300).optional(),
+  count: z.number().optional(),
+  difficulty: z.enum(["foundation", "core", "exam"]).optional(),
+  focus: shortText().optional(),
+  avoid: z.array(shortText()).max(5000).optional(), // grows with her question bank; only the first few are used
+});
+
 export async function POST(req: Request) {
-  const denied = await guardAI();
-  if (denied) return denied;
-  const { text, pdfBase64, filename, count, difficulty, focus, avoid } = (await req.json()) as {
-    text?: string;
-    pdfBase64?: string;
-    filename?: string;
-    count?: number;
-    difficulty?: Difficulty;
-    focus?: string;
-    avoid?: string[];
-  };
+  const input = await readInput(req, Body);
+  if (input instanceof Response) return input;
+  const { text, pdfBase64, filename, count, focus, avoid } = input;
+  const difficulty: Difficulty | undefined = input.difficulty;
   if (!text?.trim() && !pdfBase64) return Response.json({ error: "No content to read." }, { status: 400 });
   if (pdfBase64 && pdfBase64.length > MAX_PDF_BASE64) {
     return Response.json({ error: "This scanned PDF is too large to read in one go. Split it into smaller files (under about 3 MB)." }, { status: 413 });
   }
+  const denied = await guardAI();
+  if (denied) return denied;
   const n = Math.min(Math.max(count ?? 5, 1), 10);
   const level = difficulty ?? "core";
   // Checked alongside generation so it adds no waiting; a non-medical PDF's output is discarded.

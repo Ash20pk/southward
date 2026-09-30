@@ -1,6 +1,7 @@
-import { AMC_CONTEXT, streamText, type ChatTurn } from "@/lib/server/ai";
-
+import { z } from "zod";
+import { AMC_CONTEXT, streamText } from "@/lib/server/ai";
 import { guardAI } from "@/lib/server/auth";
+import { ChatTurns, readInput, recentTurns } from "@/lib/server/input";
 
 export const maxDuration = 300;
 
@@ -13,9 +14,12 @@ You are the tutor inside Southward, a study app. Teach like a kind, sharp senior
 - Use short markdown sections, bullet lists and a small table when comparing things. No walls of text.
 - End with one quick check question she can answer in her head, unless she's just chatting.`;
 
+const Body = z.object({ messages: ChatTurns.min(1) });
+
 export async function POST(req: Request) {
+  const input = await readInput(req, Body);
+  if (input instanceof Response) return input;
   const denied = await guardAI();
   if (denied) return denied;
-  const { messages } = (await req.json()) as { messages: ChatTurn[] };
-  return streamText({ system: SYSTEM, messages: messages.slice(-30), effort: "medium" });
+  return streamText({ system: SYSTEM, messages: recentTurns(input.messages), effort: "medium" });
 }

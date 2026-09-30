@@ -2,6 +2,7 @@ import { z } from "zod";
 import { structured, describeError, AMC_CONTEXT } from "@/lib/server/ai";
 import { stationById } from "@/lib/content";
 import { guardAI } from "@/lib/server/auth";
+import { ChatTurns, readInput, recentTurns } from "@/lib/server/input";
 import { markStation, typesafeEnabled, type StationMarks } from "@/lib/server/judge";
 
 export const maxDuration = 300;
@@ -27,16 +28,17 @@ const Words = z.object({
   modelAnswer: z.string().describe("markdown, under 200 words: how an excellent candidate would run this station, with key phrases to say"),
 });
 
+const Body = z.object({ stationId: z.string().max(200), transcript: ChatTurns, seconds: z.number().min(0).max(86_400) });
+
 export async function POST(req: Request) {
-  const denied = await guardAI();
-  if (denied) return denied;
-  const { stationId, transcript, seconds } = (await req.json()) as {
-    stationId: string;
-    transcript: { role: "user" | "assistant"; content: string }[];
-    seconds: number;
-  };
+  const input = await readInput(req, Body);
+  if (input instanceof Response) return input;
+  const { stationId, seconds } = input;
   const s = stationById(stationId);
   if (!s) return Response.json({ error: "Unknown station" }, { status: 404 });
+  const denied = await guardAI();
+  if (denied) return denied;
+  const transcript = recentTurns(input.transcript, 200);
 
   const system = `${AMC_CONTEXT}
 

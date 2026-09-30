@@ -1,7 +1,8 @@
 import { AMC_CONTEXT, streamText } from "@/lib/server/ai";
+import { z } from "zod";
 import { topicById, disciplineName } from "@/lib/content";
-
 import { guardAI } from "@/lib/server/auth";
+import { readInput, shortText } from "@/lib/server/input";
 
 export const maxDuration = 300;
 
@@ -17,12 +18,16 @@ You write one self-contained lesson for a topic, for a learner starting from zer
 ## One-page summary (a compact table)
 Aim for about 900-1200 words. Precise, warm, zero fluff.`;
 
+const Body = z.object({ topicId: z.string().max(200), focus: shortText().optional() });
+
 export async function POST(req: Request) {
-  const denied = await guardAI();
-  if (denied) return denied;
-  const { topicId, focus } = (await req.json()) as { topicId: string; focus?: string };
+  const input = await readInput(req, Body);
+  if (input instanceof Response) return input;
+  const { topicId, focus } = input;
   const t = topicById(topicId);
   if (!t) return new Response("Unknown topic", { status: 404 });
+  const denied = await guardAI();
+  if (denied) return denied;
   const prompt = `Topic: ${t.name} (${disciplineName(t.discipline)}).\nSummary: ${t.summary}\nHigh-yield points to cover:\n- ${t.highYield.join("\n- ")}${t.ausContext ? `\nAustralian context: ${t.ausContext}` : ""}${focus ? `\n\nThe learner specifically wants to focus on: ${focus}` : ""}`;
   return streamText({ system: SYSTEM, messages: [{ role: "user", content: prompt }], effort: "medium", maxTokens: 12000 });
 }

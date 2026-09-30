@@ -1,6 +1,7 @@
 import { z } from "zod";
 import { structured, describeError, AMC_CONTEXT } from "@/lib/server/ai";
 import { guardAI } from "@/lib/server/auth";
+import { readInput, shortText } from "@/lib/server/input";
 import { SYLLABUS } from "@/lib/content";
 import { isStudyMaterial, orFallback, supportedByMaterial, tagTopics } from "@/lib/server/judge";
 
@@ -19,20 +20,25 @@ const Cards = z.object({
   ),
 });
 
+// The size of pdfBase64 is checked below, with a message that tells her what to do.
+const Body = z.object({
+  text: z.string().max(MAX_TEXT * 5).optional(),
+  pdfBase64: z.string().optional(),
+  filename: shortText(300).optional(),
+  count: z.number().optional(),
+  focus: shortText().optional(),
+});
+
 export async function POST(req: Request) {
-  const denied = await guardAI();
-  if (denied) return denied;
-  const { text, pdfBase64, filename, count, focus } = (await req.json()) as {
-    text?: string;
-    pdfBase64?: string;
-    filename?: string;
-    count?: number;
-    focus?: string;
-  };
+  const input = await readInput(req, Body);
+  if (input instanceof Response) return input;
+  const { text, pdfBase64, filename, count, focus } = input;
   if (!text?.trim() && !pdfBase64) return Response.json({ error: "No content to read." }, { status: 400 });
   if (pdfBase64 && pdfBase64.length > MAX_PDF_BASE64) {
     return Response.json({ error: "This scanned PDF is too large to read in one go. Split it into smaller files (under about 3 MB)." }, { status: 413 });
   }
+  const denied = await guardAI();
+  if (denied) return denied;
   const n = Math.min(Math.max(count ?? 15, 3), 40);
   // Checked alongside generation so it adds no waiting; a non-medical PDF's output is discarded.
   const medical = text ? orFallback(() => isStudyMaterial(text), 1) : Promise.resolve(1);

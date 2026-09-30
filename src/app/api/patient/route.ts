@@ -1,16 +1,22 @@
+import { z } from "zod";
 import { streamText, type ChatTurn } from "@/lib/server/ai";
 import { stationById } from "@/lib/content";
-
 import { guardAI } from "@/lib/server/auth";
+import { ChatTurns, readInput, recentTurns } from "@/lib/server/input";
 
 export const maxDuration = 120;
 
+const Body = z.object({ stationId: z.string().max(200), messages: ChatTurns });
+
 export async function POST(req: Request) {
+  const input = await readInput(req, Body);
+  if (input instanceof Response) return input;
+  const s = stationById(input.stationId);
+  if (!s) return new Response("Unknown station", { status: 404 });
   const denied = await guardAI();
   if (denied) return denied;
-  const { stationId, messages } = (await req.json()) as { stationId: string; messages: ChatTurn[] };
-  const s = stationById(stationId);
-  if (!s) return new Response("Unknown station", { status: 404 });
+  // An 8-minute station is far shorter than this; the cap only matters for a tampered request.
+  const messages = recentTurns(input.messages, 200);
   const p = s.patient;
   const who = p.role ? `You are ${p.name}, ${p.role}.` : `You are ${p.name}, ${p.age}, ${p.sex}.`;
   const system = `You are a simulated patient (role-player) in a practice AMC Clinical Examination station set in Australia (${s.setting}). A medical candidate has 8 minutes with you to do these tasks: ${s.tasks.map((t) => t.task).join("; ")}. Stay in character the whole time.
