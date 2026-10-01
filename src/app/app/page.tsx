@@ -17,7 +17,9 @@ import {
   readiness,
   weakestTopics,
 } from "@/lib/stats";
-import { STATIONS, subjectById, topicName, topicsForSubject } from "@/lib/content";
+import { subjectById, topicsForSubject } from "@/lib/mbbs";
+import { topicName } from "@/lib/content";
+import { STATION_LIST } from "@/lib/bank-index";
 import { nextLesson } from "@/lib/course-index";
 import { currentPhase } from "@/lib/plan";
 import { useNow } from "@/hooks/useNow";
@@ -43,7 +45,7 @@ export default function Today() {
   const ready = readiness(s.log, s.mocks);
   const history = lastNDays(s.log, 14, now);
   const disc = byDiscipline(s.log);
-  const nextStation = STATIONS.find((st) => !s.osce.some((o) => o.stationId === st.id)) ?? STATIONS[0];
+  const nextStation = STATION_LIST.find((st) => !s.osce.some((o) => o.stationId === st.id)) ?? STATION_LIST[0];
   const st = streak(s.studyDays);
   const posting = subjectById(profile.posting);
   const lesson = nextLesson(s.lessonProgress, s.lastLesson, posting ? topicsForSubject(posting, ["direct"]) : []);
@@ -245,7 +247,8 @@ function TodayItem(props: {
         {props.icon}
       </span>
       <div className="min-w-0 flex-1">
-        <div className="truncate font-medium">
+        {/* Two lines rather than one: on a phone one line cut off what the step actually is. */}
+        <div className="line-clamp-2 font-medium">
           <span className="sr-only">Step {props.n}: </span>
           {props.title}
         </div>

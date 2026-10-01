@@ -1,5 +1,9 @@
 import "server-only";
-import { AUS_FACTS, FLASHCARDS, QUESTIONS, STATIONS, SYLLABUS } from "./content";
+import { AUS_FACTS } from "./ausfacts";
+import { SYLLABUS } from "./content";
+import { FLASHCARDS } from "./bank/flashcards";
+import { QUESTIONS } from "./bank/questions";
+import { STATIONS } from "./bank/stations";
 import { COURSE } from "./course-index";
 
 /** Counts quoted on the website, taken from the content itself so they never drift. */

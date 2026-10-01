@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AppPromo, SitePage } from "@/components/site/blocks";
 import { Markdown } from "@/components/Markdown";
-import { AUS_FACTS } from "@/lib/content";
+import { AUS_FACTS } from "@/lib/ausfacts";
 import { factSlug } from "@/lib/site";
 
 export const dynamicParams = false;

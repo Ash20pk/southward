@@ -127,6 +127,36 @@
   }
 }
 
+/*
+ * The home page's own palette: one continuous night, whatever study theme is chosen for the app. Deep night blues,
+ * cool silver text, and a single champagne gold for starlight and the brass compass, used sparingly. Scoped with
+ * :has() so it applies on the home page only (it's the page with the journey), header and footer included.
+ */
+html:has(#journey) {
+  color-scheme: dark;
+  --paper: #0a1020;
+  --surface: #0f1729;
+  --sunk: #070b14;
+  --ink: #eef1f6;
+  --muted: #9aa7bd;
+  --line: #1e2840;
+  --brand: #eef1f6;
+  --brand-ink: #0a1020;
+  --brand-soft: #1a2032;
+  --ochre: #e3c58c;
+  --ochre-ink: #e3c58c;
+  --ochre-soft: #221f1c;
+  --ok: #8fc7a5;
+  --ok-soft: #13241d;
+  --bad: #f0a097;
+  --bad-soft: #2a1718;
+  --sky: #0a1020;
+  --sky-2: #0f1830;
+  --sky-ink: #eef1f6;
+  --sky-muted: #9aa7bd;
+  background: var(--paper);
+}
+
 /* Text size preference, for reading comfort. */
 :root[data-text="large"] {
   font-size: 112.5%;
@@ -307,6 +337,15 @@ body {
   animation: twinkle 1s steps(2) infinite;
 }
 
+/* The app's own motion (twinkling stars, the streaming caret, cards rising in) stops for anyone who asks for less. */
+@media (prefers-reduced-motion: reduce) {
+  .star-lit,
+  .caret::after,
+  .rise {
+    animation: none;
+  }
+}
+
 /* Launch screen: the mark settles in once. */
 @keyframes splash-in {
   from {
@@ -320,4 +359,406 @@ body {
 }
 .splash-mark {
   animation: splash-in 0.6s ease-out both;
+}
+
+/*
+ * Home page: the journey south. One entrance, in order: the name settles, then the words and
+ * buttons. After that, scrolling drives everything (Journey.tsx).
+ */
+.night-sky {
+  background:
+    radial-gradient(90% 60% at 50% 35%, #111c36 0%, transparent 70%),
+    linear-gradient(180deg, #070b14 0%, var(--sky) 100%);
+}
+/* A warm glow low on the horizon, faded out before the section's edge so the next section joins without a seam. */
+.horizon {
+  background: radial-gradient(60% 60% at 50% 72%, color-mix(in srgb, var(--ochre) 9%, transparent), transparent 70%);
+  -webkit-mask-image: linear-gradient(180deg, #000 55%, transparent 100%);
+  mask-image: linear-gradient(180deg, #000 55%, transparent 100%);
+}
+.hero-word {
+  font-size: clamp(4.2rem, 19vw, 14.5rem);
+  letter-spacing: -0.015em;
+  background: linear-gradient(180deg, var(--sky-ink) 20%, color-mix(in srgb, var(--sky-ink) 25%, transparent) 95%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: word-settle 1.6s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+/* Once the WebGL sky is up, the CSS one steps aside. */
+.svg-sky {
+  transition: opacity 1.2s ease-out;
+}
+[data-webgl="on"] .svg-sky {
+  opacity: 0 !important;
+}
+/* Dark glass: the home page's one surface style, for panels, speech bubbles and the flight readout. */
+.glass {
+  background: linear-gradient(180deg, rgb(255 255 255 / 0.06), rgb(255 255 255 / 0.025));
+  border: 1px solid rgb(255 255 255 / 0.09);
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.06),
+    0 20px 50px -24px rgb(0 0 0 / 0.6);
+  -webkit-backdrop-filter: blur(14px) saturate(1.2);
+  backdrop-filter: blur(14px) saturate(1.2);
+}
+/*
+ * Phones: no live blur. Over the WebGL scene it is re-blurred every frame, one of the costliest things a phone GPU can
+ * be asked to do, so the glass is nearly opaque there instead.
+ */
+@media (max-width: 639px), (pointer: coarse) {
+  .glass {
+    background: linear-gradient(180deg, rgb(24 32 52 / 0.94), rgb(15 22 40 / 0.94));
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+}
+/* Speech bubbles: a raised night surface with a hairline edge, and a tail that matches it. */
+.bubble {
+  position: relative;
+  color: var(--ink);
+  background: #151d31;
+  border: 1px solid rgb(255 255 255 / 0.1);
+  border-radius: 1rem;
+  box-shadow: 0 18px 40px -20px rgb(0 0 0 / 0.7);
+}
+.bubble-tail {
+  position: absolute;
+  width: 0.9rem;
+  height: 0.9rem;
+  background: #151d31;
+  border: solid rgb(255 255 255 / 0.1);
+  border-width: 0 1px 1px 0;
+  transform: rotate(45deg);
+}
+/* A tail on the bubble's left edge, pointing left at whoever is speaking. */
+.bubble-tail.left {
+  transform: rotate(135deg);
+}
+/*
+ * The roadmap deck: every card sits in the same place in the middle of the stage, and Roadmap.tsx moves them (rising
+ * in from below, settling back as later ones land). The deck is as tall as the screen allows.
+ */
+.roadmap-deck {
+  height: min(30rem, calc(100svh - 17rem));
+}
+/* Phones: a smaller mascot and bubble above the deck leave it more of the screen. */
+@media (max-width: 639px) {
+  .roadmap-deck {
+    height: min(34rem, calc(100svh - 11.5rem));
+  }
+}
+/* Very short phone screens can't hold a whole step: the side note goes, the step itself stays. */
+@media (max-width: 639px) and (max-height: 600px) {
+  .roadmap-aside {
+    display: none;
+  }
+}
+/* Wide screens: the deck grows with the screen, so it holds the middle of a big monitor as well as a laptop's. */
+@media (min-width: 1024px) {
+  .roadmap-deck {
+    height: clamp(30rem, calc(100svh - 17rem), 37rem);
+  }
+}
+.roadmap-card {
+  position: absolute;
+  inset: 0;
+  transform-origin: 50% 0;
+  will-change: transform;
+}
+.roadmap-card-shade {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: #000;
+  opacity: 0;
+  pointer-events: none;
+}
+.roadmap-card-face {
+  position: relative;
+  border-radius: 1.75rem;
+  background: linear-gradient(180deg, #131b30 0%, #0e1527 100%);
+  border: 1px solid rgb(255 255 255 / 0.09);
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.06),
+    0 -18px 50px -24px rgb(0 0 0 / 0.8),
+    0 30px 60px -30px rgb(0 0 0 / 0.7);
+  height: 100%;
+}
+/*
+ * The roadmap's guide waits for the mascot walking over from the welcome (MascotHandoff): hidden until it arrives,
+ * then its bubble pops in. Without the hand-off script (no JS yet) the guide is simply shown.
+ */
+html[data-guide="off"] .guide-mascot,
+html[data-guide="off"] .guide-say {
+  visibility: hidden;
+  /* Removed while hidden, so it plays afresh the moment the guide arrives. */
+  animation: none;
+}
+/* The mascot hops as each card lands on the stack. */
+.mascot-hop {
+  animation: mascot-hop 0.55s cubic-bezier(0.3, 1.6, 0.5, 1) both;
+}
+@keyframes mascot-hop {
+  0% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-14px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+/*
+ * The features road (Features.tsx): night asphalt with a dashed centre line, painted gold behind the mascot as it walks,
+ * and a marker below it for each feature: dim ahead, gold once passed, lit where the mascot stands.
+ */
+.road-edges {
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+}
+.road {
+  background: linear-gradient(180deg, #172036, #0f1729);
+  border: 1px solid rgb(255 255 255 / 0.07);
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.05), 0 18px 40px -18px rgb(0 0 0 / 0.8);
+}
+.road::before {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  top: 50%;
+  height: 2px;
+  margin-top: -1px;
+  background: repeating-linear-gradient(90deg, rgb(238 241 246 / 0.22) 0 18px, transparent 18px 38px);
+}
+.road-paint {
+  border-radius: 999px;
+  background: var(--ochre);
+  box-shadow: 0 0 14px color-mix(in srgb, var(--ochre) 55%, transparent);
+}
+.road-stop {
+  color: rgb(154 167 189 / 0.55);
+  background: #0f1729;
+  border: 1px solid rgb(255 255 255 / 0.1);
+}
+.road-stop[data-state="passed"] {
+  color: var(--ochre);
+  background: color-mix(in srgb, var(--ochre) 10%, #0f1729);
+  border-color: color-mix(in srgb, var(--ochre) 40%, transparent);
+}
+/* The light over a stop while the mascot is at it; Features.tsx fades it with the scroll. */
+.road-stop-lit {
+  color: #0a1020;
+  background: var(--ochre);
+  box-shadow: 0 0 22px color-mix(in srgb, var(--ochre) 50%, transparent);
+}
+/* The road's mascot waits for the one dropping from the roadmap (MascotDrop), then lands with a little squash. */
+html[data-road="off"] .road-mascot {
+  visibility: hidden;
+}
+html[data-road="on"] .road-land {
+  animation: road-land 0.5s cubic-bezier(0.3, 1.6, 0.5, 1) both;
+  transform-origin: 50% 100%;
+}
+@keyframes road-land {
+  from {
+    transform: scale(1.14, 0.8);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html[data-road="on"] .road-land {
+    animation: none;
+  }
+}
+/* Fades a background layer out at its top and bottom, so a section has no visible edge. */
+.soft-edges {
+  -webkit-mask-image: linear-gradient(180deg, transparent, #000 30%, #000 70%, transparent);
+  mask-image: linear-gradient(180deg, transparent, #000 30%, #000 70%, transparent);
+}
+/* On the home page the footer sits on the same night: no line, no lighter band. */
+html:has(#journey) footer {
+  border-top-color: transparent;
+  background: transparent;
+}
+.stage-fade {
+  -webkit-mask-image: linear-gradient(180deg, #000 78%, transparent 100%);
+  mask-image: linear-gradient(180deg, #000 78%, transparent 100%);
+}
+.scroll-dot {
+  animation: scroll-dot 1.8s ease-in-out infinite;
+}
+@keyframes scroll-dot {
+  0% {
+    transform: translate(3px, 0);
+    opacity: 1;
+  }
+  80% {
+    transform: translate(3px, 14px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.hero-follow {
+  animation: rise-slow 0.9s 1.2s ease-out both;
+}
+/* The route on the globe draws as it scrolls into view, where the browser supports it. */
+@supports (animation-timeline: view()) {
+  .route-draw {
+    stroke-dasharray: 1;
+    animation: draw linear both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 55%;
+  }
+}
+/*
+ * The name settles in: opacity and transform only, which the compositor runs off the main thread (the spread-out
+ * start used to be letter-spacing, which lays the text out again every frame). Big screens with a mouse also get a
+ * soft focus-pull; phones skip it, as blurring 14rem type every frame is a lot of pixels for a phone GPU.
+ */
+@keyframes word-settle {
+  from {
+    opacity: 0;
+    transform: scale(1.08, 1);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes word-settle-focus {
+  from {
+    opacity: 0;
+    transform: scale(1.08, 1);
+    filter: blur(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+    filter: blur(0);
+  }
+}
+@media (min-width: 640px) and (hover: hover) and (pointer: fine) {
+  .hero-word {
+    animation-name: word-settle-focus;
+  }
+}
+@keyframes draw {
+  from {
+    stroke-dashoffset: 1;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes rise-slow {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-word,
+  .scroll-dot,
+  .hero-follow {
+    animation-delay: 0s !important;
+  }
+}
+
+/*
+ * The compass mascot: an occasional blink, a gentle bob, and a wave when it's saying hello. The bob moves the whole
+ * <svg> box, so the compositor does it without redrawing the drawing every frame.
+ */
+.mascot-blink {
+  animation: mascot-blink 5s infinite;
+}
+.mascot-bob {
+  animation: mascot-bob 3.2s ease-in-out infinite;
+}
+.mascot-wave {
+  animation: mascot-wave 1.4s ease-in-out infinite;
+}
+@keyframes mascot-blink {
+  0%,
+  92%,
+  100% {
+    transform: scaleY(1);
+  }
+  95% {
+    transform: scaleY(0.1);
+  }
+}
+@keyframes mascot-bob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+@keyframes mascot-wave {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-22deg);
+  }
+}
+/* Walking: the feet take turns lifting and the body sways over them. */
+.mascot-walking .mascot-foot-l {
+  animation: mascot-step 0.42s ease-in-out infinite;
+}
+.mascot-walking .mascot-foot-r {
+  animation: mascot-step 0.42s ease-in-out 0.21s infinite;
+}
+.mascot-walking .mascot-sway {
+  animation: mascot-sway 0.84s ease-in-out infinite;
+}
+@keyframes mascot-step {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-9px);
+  }
+}
+@keyframes mascot-sway {
+  0%,
+  100% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mascot-walking .mascot-foot-l,
+  .mascot-walking .mascot-foot-r,
+  .mascot-walking .mascot-sway,
+  .mascot-hop,
+  .mascot-blink,
+  .mascot-bob,
+  .mascot-wave {
+    animation: none !important;
+  }
+}
+.tip-pop {
+  animation: tip-pop 0.45s cubic-bezier(0.3, 1.5, 0.5, 1) both;
+  transform-origin: 3rem 100%;
+}
+@keyframes tip-pop {
+  from {
+    opacity: 0;
+    transform: scale(0.85) translateY(6px);
+  }
 }

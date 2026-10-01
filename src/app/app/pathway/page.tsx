@@ -130,7 +130,8 @@ export default function Pathway() {
                   aria-pressed={done}
                   aria-label={`${done ? "Unmark" : "Mark"} ${m.title} as done`}
                   className={clsx(
-                    "absolute -left-[37px] top-4 grid h-6 w-6 place-items-center rounded-full border-2 transition-colors",
+                    // The dot stays small; the ::after gives it a finger-sized (44px) target.
+                    "absolute -left-[37px] top-4 grid h-6 w-6 place-items-center rounded-full border-2 transition-colors after:absolute after:-inset-2.5 after:content-['']",
                     done ? "border-brand bg-brand text-brand-ink" : "border-line bg-paper hover:border-brand",
                   )}
                 >

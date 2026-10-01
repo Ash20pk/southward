@@ -5,7 +5,9 @@ import { Suspense, useRef, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import clsx from "clsx";
 import { Check, MapPin, Sparkles } from "lucide-react";
-import { DISCIPLINES, MBBS, NEW_FOR_YOU, QUESTIONS, subjectById, topicById, topicName } from "@/lib/content";
+import { DISCIPLINES, topicById, topicName } from "@/lib/content";
+import { MBBS, NEW_FOR_YOU, subjectById } from "@/lib/mbbs";
+import { QUESTION_INDEX } from "@/lib/bank-index";
 import { useStore } from "@/lib/store";
 import type { MbbsSubject } from "@/lib/types";
 import { ContrastTable } from "@/components/ContrastTable";
@@ -242,7 +244,7 @@ function SubjectDetail({ subject: s, isPosting }: { subject: MbbsSubject; isPost
   const groups = (["direct", "partial", "foundation"] as const)
     .map((k) => ({ k, links: s.links.filter((l) => l.strength === k) }))
     .filter((g) => g.links.length);
-  const practiseCount = QUESTIONS.filter((q) => s.links.some((l) => l.topic === q.topic && l.strength !== "foundation")).length;
+  const practiseCount = QUESTION_INDEX.filter((q) => s.links.some((l) => l.topic === q.topic && l.strength !== "foundation")).length;
 
   return (
     <section className="rise" key={s.id}>

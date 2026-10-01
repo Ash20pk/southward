@@ -1,4 +1,4 @@
-import { MBBS } from "@/lib/content";
+import { MBBS } from "@/lib/mbbs";
 
 export function PostingSelect({ value, onChange, className }: { value: string; onChange: (v: string) => void; className?: string }) {
   const phases = [...new Set(MBBS.map((s) => s.phase))];

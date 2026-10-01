@@ -61,7 +61,11 @@ export function PageHeader({ title, lede, actions, part }: { title: string; lede
 export function Bar({ value, color = "var(--brand)", className }: { value: number; color?: string; className?: string }) {
   return (
     <div className={clsx("h-2 overflow-hidden rounded-full bg-ink/10", className)}>
-      <div className="h-full rounded-full transition-[width] duration-500" style={{ width: `${Math.max(0, Math.min(100, value))}%`, background: color }} />
+      {/* Grown with a transform rather than its width, so the change animates without laying the page out every frame. */}
+      <div
+        className="h-full origin-left rounded-full transition-transform duration-500"
+        style={{ transform: `scaleX(${Math.max(0, Math.min(100, value)) / 100})`, background: color }}
+      />
     </div>
   );
 }

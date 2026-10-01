@@ -1,6 +1,6 @@
 import { z } from "zod";
 import { structured, describeError, AMC_CONTEXT } from "@/lib/server/ai";
-import { stationById } from "@/lib/content";
+import { stationById } from "@/lib/bank/stations";
 import { guardAI } from "@/lib/server/auth";
 import { ChatTurns, readInput, recentTurns } from "@/lib/server/input";
 import { markStation, typesafeEnabled, type StationMarks } from "@/lib/server/judge";

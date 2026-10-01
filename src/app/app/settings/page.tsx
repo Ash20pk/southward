@@ -163,7 +163,7 @@ export default function Settings() {
               onClick={() => state.setSettings({ quizTimer: !(state.settings?.quizTimer ?? true) })}
               className={`relative mt-1 h-7 w-12 shrink-0 rounded-full transition-colors ${(state.settings?.quizTimer ?? true) ? "bg-brand" : "bg-ink/20"}`}
             >
-              <span className={`absolute top-1 h-5 w-5 rounded-full bg-surface shadow transition-all ${(state.settings?.quizTimer ?? true) ? "left-6" : "left-1"}`} />
+              <span className={`absolute left-1 top-1 h-5 w-5 rounded-full bg-surface shadow transition-transform ${(state.settings?.quizTimer ?? true) ? "translate-x-5" : "translate-x-0"}`} />
               <span className="sr-only">Quiz timer</span>
             </button>
           </label>

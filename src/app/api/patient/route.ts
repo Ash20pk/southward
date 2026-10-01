@@ -1,6 +1,6 @@
 import { z } from "zod";
 import { streamText, type ChatTurn } from "@/lib/server/ai";
-import { stationById } from "@/lib/content";
+import { stationById } from "@/lib/bank/stations";
 import { guardAI } from "@/lib/server/auth";
 import { ChatTurns, readInput, recentTurns } from "@/lib/server/input";
 

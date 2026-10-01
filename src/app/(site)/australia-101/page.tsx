@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { AppPromo, SitePage } from "@/components/site/blocks";
-import { AUS_FACTS } from "@/lib/content";
+import { AUS_FACTS } from "@/lib/ausfacts";
 import { factSlug } from "@/lib/site";
 
 export const metadata: Metadata = {

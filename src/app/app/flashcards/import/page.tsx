@@ -193,7 +193,7 @@ export default function ImportPdf() {
 
       {stage.kind === "review" && (
         <div>
-          <div className="sticky top-14 z-10 -mx-4 mb-4 flex flex-wrap items-center justify-between gap-3 border-b border-line bg-paper/95 px-4 py-3 backdrop-blur lg:top-0">
+          <div className="sticky top-14 z-10 -mx-4 mb-4 flex flex-wrap items-center justify-between gap-3 border-b border-line bg-paper/95 px-4 py-3 sm:backdrop-blur lg:top-0">
             <p>
               <span className="font-semibold">{kept}</span> <span className="text-muted">of {drafts.length} cards selected</span>
             </p>

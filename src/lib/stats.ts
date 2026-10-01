@@ -1,4 +1,5 @@
-import { DISCIPLINES, FLASHCARDS, QUESTIONS, STATIONS, SYLLABUS, AUS_FACTS } from "./content";
+import { DISCIPLINES, SYLLABUS } from "./content";
+import { AUS_IDS, CARD_IDS, QUESTION_IDS, STATION_LIST } from "./bank-index";
 import { osceGlobal, type LogEntry, type MockResult, type OsceResult } from "./store";
 import type { CardState } from "./srs";
 import type { StarStat } from "@/components/SouthernCross";
@@ -38,7 +39,7 @@ export function weakestTopics(log: LogEntry[], n = 3) {
 /** Due counts cover every card in the SRS map (the starter deck and cards unlocked by lessons). */
 export function dueCards(srs: Record<string, CardState>, now = Date.now()) {
   const due = Object.keys(srs).filter((id) => srs[id].due <= now);
-  const unseen = FLASHCARDS.filter((c) => !srs[c.id]);
+  const unseen = CARD_IDS.filter((id) => !srs[id]);
   return { due, unseen };
 }
 
@@ -102,16 +103,15 @@ export function constellation(opts: {
   // Foundations is mostly the course itself; before any lessons exist it falls back to topics touched.
   const foundations = ALL_LESSONS.length
     ? (lessonsDone / ALL_LESSONS.length) * 85 + (touched.size / SYLLABUS.length) * 15
-    : (touched.size / SYLLABUS.length) * 70 + (Object.keys(srs).length / FLASHCARDS.length) * 30;
-  const bankIds = new Set(QUESTIONS.map((q) => q.id));
-  const bankDone = new Set(log.filter((e) => bankIds.has(e.qid)).map((e) => e.qid)).size;
-  const bank = (bankDone / QUESTIONS.length) * 100;
+    : (touched.size / SYLLABUS.length) * 70 + (Object.keys(srs).length / CARD_IDS.length) * 30;
+  const bankDone = new Set(log.filter((e) => QUESTION_IDS.has(e.qid)).map((e) => e.qid)).size;
+  const bank = (bankDone / QUESTION_IDS.size) * 100;
   const ready = readiness(log, mocks) ?? 0;
   const passed = new Set(osce.filter((o) => osceGlobal(o) >= 4).map((o) => o.stationId)).size;
-  const clinical = STATIONS.length ? (passed / STATIONS.length) * 100 : 0;
-  const ausRead = AUS_FACTS.filter((f) => milestones[`aus:${f.id}`]).length;
+  const clinical = STATION_LIST.length ? (passed / STATION_LIST.length) * 100 : 0;
+  const ausRead = AUS_IDS.filter((id) => milestones[`aus:${id}`]).length;
   const popAcc = accuracy(log.filter((e) => e.discipline === "population-health").slice(-50)) ?? 0;
-  const australia = (ausRead / Math.max(1, AUS_FACTS.length)) * 60 + (popAcc / 100) * 40;
+  const australia = (ausRead / Math.max(1, AUS_IDS.length)) * 60 + (popAcc / 100) * 40;
   return [
     {
       key: "foundations",
@@ -119,10 +119,10 @@ export function constellation(opts: {
       detail: ALL_LESSONS.length ? `${lessonsDone} of ${ALL_LESSONS.length} lessons done` : `${touched.size} of ${SYLLABUS.length} topics started`,
       value: foundations,
     },
-    { key: "bank", label: "Question bank", detail: `${bankDone} of ${QUESTIONS.length} questions done`, value: bank },
+    { key: "bank", label: "Question bank", detail: `${bankDone} of ${QUESTION_IDS.size} questions done`, value: bank },
     { key: "mcq", label: "MCQ readiness", detail: ready ? `${ready}% of the way to a pass-level score` : "Answer 20 questions to unlock", value: ready },
-    { key: "clinical", label: "Clinical skills", detail: `${passed} of ${STATIONS.length} stations passed`, value: clinical },
-    { key: "australia", label: "Australia-ready", detail: `${ausRead} of ${AUS_FACTS.length} essentials read`, value: australia },
+    { key: "clinical", label: "Clinical skills", detail: `${passed} of ${STATION_LIST.length} stations passed`, value: clinical },
+    { key: "australia", label: "Australia-ready", detail: `${ausRead} of ${AUS_IDS.length} essentials read`, value: australia },
   ];
 }
 

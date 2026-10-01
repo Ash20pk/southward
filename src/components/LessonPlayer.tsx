@@ -117,7 +117,7 @@ export function LessonPlayer({
 
   return (
     <div className="flex min-h-dvh flex-col">
-      <header className="sticky top-0 z-20 border-b border-line bg-paper/95 backdrop-blur">
+      <header className="sticky top-0 z-20 border-b border-line bg-paper/95 sm:backdrop-blur">
         <div className="mx-auto flex max-w-3xl items-center gap-3 px-4 pt-3 sm:px-6">
           <Link href={`/app/learn/${topic}`} className="flex min-w-0 items-center gap-1.5 text-muted hover:text-ink">
             <ArrowLeft size={16} className="shrink-0" />
@@ -139,7 +139,8 @@ export function LessonPlayer({
                 disabled={s.kind === "done" && !saved?.done && !result}
                 onClick={() => go(i)}
                 className={clsx(
-                  "h-1.5 flex-1 rounded-full transition-colors",
+                  // A thin bar, but a taller (30px) target for a finger, via ::after.
+                  "relative h-1.5 flex-1 rounded-full transition-colors after:absolute after:inset-x-0 after:-inset-y-3 after:content-['']",
                   i < at ? "bg-brand" : i === at ? "bg-ochre" : "bg-ink/12 hover:bg-ink/25",
                 )}
               />
@@ -235,7 +236,7 @@ export function LessonPlayer({
       </main>
 
       {!inQuiz && step.kind !== "done" && (
-        <nav className="fixed inset-x-0 bottom-0 z-20 border-t border-line bg-paper/95 pb-[env(safe-area-inset-bottom)] backdrop-blur">
+        <nav className="fixed inset-x-0 bottom-0 z-20 border-t border-line bg-paper/95 pb-[env(safe-area-inset-bottom)] sm:backdrop-blur">
           <div className="mx-auto flex max-w-3xl items-center justify-between gap-3 px-4 py-3 sm:px-6">
             <Button variant="outline" onClick={() => go(at - 1)} disabled={at === 0}>
               <ArrowLeft size={16} /> Back
@@ -338,7 +339,7 @@ function Quiz({ lesson, onFinish }: { lesson: Lesson; onFinish: (score: number, 
         </div>
       )}
       <QuestionView key={q.id} q={q} selected={picked} onSelect={setPicked} revealed={revealed} index={i} total={lesson.quiz.length} />
-      <div className="fixed inset-x-0 bottom-0 z-20 border-t border-line bg-paper/95 pb-[env(safe-area-inset-bottom)] backdrop-blur">
+      <div className="fixed inset-x-0 bottom-0 z-20 border-t border-line bg-paper/95 pb-[env(safe-area-inset-bottom)] sm:backdrop-blur">
         <div className="mx-auto flex max-w-3xl items-center justify-between gap-3 px-4 py-3 sm:px-6">
           <span className={clsx("font-semibold", revealed ? (picked === q.answer ? "text-ok" : "text-bad") : "text-muted")} aria-live="polite">
             {revealed

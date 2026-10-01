@@ -7,7 +7,7 @@ import splashScreens from "@/lib/splash-screens.json";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_TAGLINE, SITE_URL } from "@/lib/site";
 
 const sans = Bricolage_Grotesque({ subsets: ["latin"], variable: "--font-bricolage" });
-const serif = Source_Serif_4({ subsets: ["latin"], variable: "--font-source-serif" });
+const serif = Source_Serif_4({ subsets: ["latin"], variable: "--font-source-serif", axes: ["opsz"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

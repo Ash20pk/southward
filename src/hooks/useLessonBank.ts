@@ -1,20 +1,30 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import type { Flashcard, Question } from "@/lib/types";
+import type { Flashcard } from "@/lib/types";
 
-type Bank = { quiz: (Question & { lessonId: string })[]; cards: (Flashcard & { lessonId: string })[] };
-let cache: Bank | null = null;
+type LessonCard = Flashcard & { lessonId: string };
 
-/** Lesson quiz questions and flashcards, fetched as a separate chunk the first time a page needs them. */
-export function useLessonBank(): Bank | null {
-  const [bank, setBank] = useState<Bank | null>(cache);
-  useEffect(() => {
-    if (cache) return;
-    import("@/lib/lesson-bank").then((m) => {
-      cache = { quiz: m.LESSON_QUIZ, cards: m.LESSON_CARDS };
-      setBank(cache);
-    });
-  }, []);
-  return bank;
+/** Loads a big JSON file as its own chunk the first time a screen asks for it, then keeps it for the session. */
+function lazy<T>(load: () => Promise<{ default: unknown }>) {
+  let cache: T | null = null;
+  let pending: Promise<T> | null = null;
+  return function useLazy(): T | null {
+    const [value, setValue] = useState<T | null>(cache);
+    useEffect(() => {
+      if (cache) return;
+      let live = true;
+      pending ??= load().then((m) => (cache = m.default as T));
+      pending.then((v) => live && setValue(v));
+      return () => {
+        live = false;
+      };
+    }, []);
+    return value;
+  };
 }
+
+// Lesson quiz questions aren't here: Practice and Mock load them topic by topic (lib/bank/question-loader).
+
+/** Every lesson's flashcards, for the review deck. */
+export const useLessonCards = lazy<LessonCard[]>(() => import("@/content/generated/lesson-cards.json"));

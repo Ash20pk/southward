@@ -58,7 +58,7 @@ export function QuestionTimer({
     >
       <Timer size={16} />
       <span className="relative h-1.5 w-16 overflow-hidden rounded-full bg-ink/10" aria-hidden>
-        <span className={clsx("absolute inset-y-0 left-0 rounded-full transition-[width] duration-1000 ease-linear", warn ? "bg-bad" : "bg-brand")} style={{ width: `${pct}%` }} />
+        <span className={clsx("absolute inset-0 origin-left rounded-full transition-transform duration-1000 ease-linear", warn ? "bg-bad" : "bg-brand")} style={{ transform: `scaleX(${pct / 100})` }} />
       </span>
       {left}s
     </span>

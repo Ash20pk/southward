@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import dynamic from "next/dynamic";
 import { usePathname } from "next/navigation";
 import { useEffect, useState, type ReactNode } from "react";
 import clsx from "clsx";
@@ -20,14 +21,17 @@ import {
   X,
 } from "lucide-react";
 import { useHydrated, useStore } from "@/lib/store";
-import { Onboarding } from "./Onboarding";
 import { ThemePicker } from "./ThemePicker";
-import { AuthScreen } from "./AuthScreen";
 import { SyncBadge } from "./SyncBadge";
 import { Splash } from "./Splash";
 import { Logo } from "./Logo";
 import { useSession } from "@/lib/session";
 import { useSync } from "@/hooks/useSync";
+
+// Sign-in and onboarding are seen once; loaded only when needed, so returning users (nearly every visit) don't
+// download them, or the MBBS subject list onboarding asks about.
+const AuthScreen = dynamic(() => import("./AuthScreen").then((m) => m.AuthScreen), { loading: () => <Splash /> });
+const Onboarding = dynamic(() => import("./Onboarding").then((m) => m.Onboarding), { loading: () => <Splash /> });
 
 // The five things she does most, one tap away on a phone.
 const TABS = [
@@ -78,6 +82,16 @@ export function AppShell({ children }: { children: ReactNode }) {
     session.load();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  // Once she's in the app, save the rest of it for offline use in the background (see lib/offline.ts). A few seconds
+  // after the screen settles, so it never competes with what she opened.
+  useEffect(() => {
+    if (!profile) return;
+    const t = setTimeout(() => {
+      import("@/lib/offline").then((m) => m.saveForOffline()).catch(() => {});
+    }, 5000);
+    return () => clearTimeout(t);
+  }, [profile]);
 
   // Full-screen focus modes hide the chrome.
   const focus = /^\/app\/(mock\/run|clinical\/.+|learn\/[^/]+\/[^/]+)/.test(path);
@@ -133,7 +147,7 @@ export function AppShell({ children }: { children: ReactNode }) {
         </div>
       </aside>
 
-      <header className="sticky top-0 z-30 flex items-center justify-between border-b border-line bg-paper/90 px-4 py-3 backdrop-blur lg:hidden">
+      <header className="sticky top-0 z-30 flex items-center justify-between border-b border-line bg-paper/95 px-4 py-3 lg:hidden">
         <Logo href="/app" />
         <button aria-label="Open menu" onClick={() => setOpen(true)} className="rounded-full p-2 hover:bg-sunk">
           <Menu size={22} />
@@ -160,7 +174,7 @@ export function AppShell({ children }: { children: ReactNode }) {
 
       <nav
         aria-label="Quick"
-        className="fixed inset-x-0 bottom-0 z-30 grid grid-cols-5 border-t border-line bg-surface/95 pb-[env(safe-area-inset-bottom)] backdrop-blur lg:hidden"
+        className="fixed inset-x-0 bottom-0 z-30 grid grid-cols-5 border-t border-line bg-surface/95 pb-[env(safe-area-inset-bottom)] lg:hidden"
       >
         {TABS.map(({ href, label, icon: Icon }) => {
           const active = href === "/app" ? path === "/app" : path.startsWith(href);

@@ -36,11 +36,22 @@ export function useStream() {
       }
       const reader = res.body.getReader();
       const dec = new TextDecoder();
-      for (;;) {
-        const { value, done } = await reader.read();
-        if (done) break;
-        full += dec.decode(value, { stream: true });
+      // A stream can deliver dozens of chunks a second, and every update re-renders (and re-parses the Markdown of) the
+      // whole answer. At most one update per frame keeps a phone responsive while the text arrives.
+      let frame = 0;
+      const show = () => {
+        frame = 0;
         setText(full.replace(ERR, ""));
+      };
+      try {
+        for (;;) {
+          const { value, done } = await reader.read();
+          if (done) break;
+          full += dec.decode(value, { stream: true });
+          if (!frame) frame = requestAnimationFrame(show);
+        }
+      } finally {
+        cancelAnimationFrame(frame);
       }
       const m = full.match(ERR);
       if (m) {

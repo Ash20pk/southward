@@ -1,6 +1,6 @@
 // Southward service worker: makes the app installable and keeps studied pages working offline.
 // - App code and static assets: cache-first (their URLs change whenever they change).
-// - Pages: network-first, falling back to the last cached copy, then to the app shell.
+// - Pages: network-first, falling back to the last cached copy (with or without its query string), then the app shell.
 // - API calls (AI, sync, sign-in) are never cached.
 // Responses are cloned before being returned: a body can only be read once, so cloning later fails silently.
 const VERSION = "southward-v4";
@@ -20,6 +20,20 @@ self.addEventListener("activate", (event) => {
       .then(() => self.clients.claim()),
   );
 });
+
+// Offline: this exact page; else, for a page load, the same page saved under another query string (screens read their
+// query in the browser, so /app/practice serves /app/practice?topic=cardiology); else the app shell. Only a saved HTML
+// page will do for a page load: the router's data requests (?_rsc=) are saved under the same paths.
+async function offlinePage(req, url) {
+  const exact = await caches.match(req, { ignoreVary: true });
+  if (exact) return exact;
+  if (!url.searchParams.has("_rsc")) {
+    const saved = await (await caches.open(PAGES)).matchAll(req, { ignoreVary: true, ignoreSearch: true });
+    const page = saved.find((res) => res.headers.get("content-type")?.includes("text/html"));
+    if (page) return page;
+  }
+  return caches.match("/app");
+}
 
 self.addEventListener("fetch", (event) => {
   const req = event.request;
@@ -57,7 +71,7 @@ self.addEventListener("fetch", (event) => {
           }
           return res;
         })
-        .catch(() => caches.match(req, { ignoreVary: true }).then((hit) => hit || caches.match("/app"))),
+        .catch(() => offlinePage(req, url)),
     );
   }
 });

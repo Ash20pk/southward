@@ -3,7 +3,7 @@
 import { useState } from "react";
 import clsx from "clsx";
 import { Check } from "lucide-react";
-import { AUS_FACTS } from "@/lib/content";
+import { AUS_FACTS } from "@/lib/ausfacts";
 import { useStore } from "@/lib/store";
 import { Markdown } from "@/components/Markdown";
 import { Bar, Chip, PageHeader } from "@/components/ui";

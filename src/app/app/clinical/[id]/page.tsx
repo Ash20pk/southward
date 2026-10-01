@@ -5,7 +5,9 @@ import { useParams } from "next/navigation";
 import { useCallback, useEffect, useRef, useState } from "react";
 import clsx from "clsx";
 import { ArrowLeft, Check, Mic, MicOff, Send, Volume2, VolumeX, X } from "lucide-react";
-import { STATIONS, stationById, topicName } from "@/lib/content";
+import { topicName } from "@/lib/content";
+import { STATION_LIST } from "@/lib/bank-index";
+import { useStation } from "@/hooks/useStation";
 import { useStore } from "@/lib/store";
 import { AREA_LABEL, LEVEL, READ_SECS, STATION_SECS } from "@/lib/stations";
 import { useStream } from "@/hooks/useStream";
@@ -36,7 +38,7 @@ function taskAt(station: OsceStation, elapsed: number) {
 
 export default function StationPage() {
   const { id } = useParams<{ id: string }>();
-  const station = stationById(id);
+  const station = useStation(id);
   const addOsce = useStore((s) => s.addOsce);
   const [phase, setPhase] = useState<Phase>("brief");
   const [left, setLeft] = useState(READ_SECS);
@@ -145,6 +147,8 @@ export default function StationPage() {
     });
   };
 
+  // Only this station is downloaded, so it arrives a moment after the screen; nothing to show until then.
+  if (station === undefined) return <div aria-busy="true" className="min-h-dvh" />;
   if (!station) return <Empty title="Station not found" />;
   const name = station.patient.role ? station.patient.name : station.patient.name.split(" ")[0];
 
@@ -365,7 +369,7 @@ function Bubble({ turn, name, streaming }: { turn: Turn; name: string; streaming
 function Feedback({ station, fb, turns, name }: { station: OsceStation; fb: OsceFeedback; turns: Turn[]; name: string }) {
   const pass = fb.globalRating >= 4;
   const [next] = useState(() => {
-    const same = STATIONS.filter((s) => s.id !== station.id && s.difficulty === station.difficulty);
+    const same = STATION_LIST.filter((s) => s.id !== station.id && s.difficulty === station.difficulty);
     return same[Math.floor(Math.random() * same.length)];
   });
 

@@ -6,7 +6,9 @@ import { AppPromo, SitePage } from "@/components/site/blocks";
 import { ContrastTable } from "@/components/ContrastTable";
 import { Markdown } from "@/components/Markdown";
 import { DisciplineDot, Panel } from "@/components/ui";
-import { DISCIPLINES, SYLLABUS, contrastFor, subjectsForTopic, topicById } from "@/lib/content";
+import { DISCIPLINES, SYLLABUS, topicById } from "@/lib/content";
+import { contrastFor } from "@/lib/contrasts";
+import { subjectsForTopic } from "@/lib/mbbs";
 import { EXAM_WEIGHT, courseFor } from "@/lib/course-index";
 
 export const dynamicParams = false;

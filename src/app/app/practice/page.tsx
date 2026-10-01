@@ -4,11 +4,12 @@ import { Suspense, useCallback, useEffect, useMemo, useRef, useState } from "rea
 import { useSearchParams } from "next/navigation";
 import clsx from "clsx";
 import { FileText, FileUp, Sparkles, Trash2, Upload, X } from "lucide-react";
-import { DISCIPLINES, QUESTIONS, SYLLABUS, subjectById, topicName, topicsForSubject } from "@/lib/content";
+import { DISCIPLINES, SYLLABUS, topicName } from "@/lib/content";
+import { subjectById, topicsForSubject } from "@/lib/mbbs";
+import { QUESTION_REFS, loadQuestions, loadTopic } from "@/lib/bank/question-loader";
 import { useStore } from "@/lib/store";
 import type { Difficulty, Discipline, Question } from "@/lib/types";
 import { QuestionView } from "@/components/QuestionView";
-import { useLessonBank } from "@/hooks/useLessonBank";
 import { QuestionTimer } from "@/components/QuestionTimer";
 import { SCANNED_MAX_BYTES, chunkPages, fileSize, isPdf, looksScanned, pageRange, readPdf, toBase64 } from "@/lib/pdf";
 import { Bar, Button, Chip, Empty, PageHeader, Panel } from "@/components/ui";
@@ -77,7 +78,8 @@ function Setup({
   onStart: (qs: Question[]) => void;
 }) {
   const { attempts, bookmarks, aiQuestions } = useStore();
-  const bank = useLessonBank();
+  const [loading, setLoading] = useState(false);
+  const [loadError, setLoadError] = useState(false);
   const [subject, setSubject] = useState(() => subjectById(initialSubject ?? undefined));
   const [discs, setDiscs] = useState<Discipline[]>(() => {
     const t = SYLLABUS.find((x) => x.id === initialTopic);
@@ -89,7 +91,8 @@ function Setup({
   const [level, setLevel] = useState<Difficulty | "any">("any");
 
   const pool = useMemo(() => {
-    let qs = [...QUESTIONS, ...(bank?.quiz ?? []), ...aiQuestions];
+    // Filtered from the index; only the chosen set's topics are downloaded, on Start.
+    let qs = [...QUESTION_REFS, ...aiQuestions];
     if (subject) {
       const ts = new Set(topicsForSubject(subject));
       qs = qs.filter((q) => ts.has(q.topic));
@@ -102,7 +105,7 @@ function Setup({
     if (source === "saved") qs = qs.filter((q) => bookmarks.includes(q.id));
     if (source === "ai") qs = qs.filter((q) => q.id.startsWith("ai-"));
     return qs;
-  }, [discs, topic, source, attempts, bookmarks, aiQuestions, subject, bank, level]);
+  }, [discs, topic, source, attempts, bookmarks, aiQuestions, subject, level]);
 
   const topics = SYLLABUS.filter((t) => !discs.length || discs.includes(t.discipline));
   const toggleDisc = (d: Discipline) => {
@@ -111,10 +114,17 @@ function Setup({
   };
 
   // Unseen first, so a mixed set keeps moving her through the bank.
-  const start = () => {
+  const start = async () => {
     const fresh = shuffle(pool.filter((q) => !attempts[q.id]));
     const seen = shuffle(pool.filter((q) => attempts[q.id]));
-    onStart([...fresh, ...seen].slice(0, count));
+    setLoading(true);
+    setLoadError(false);
+    try {
+      onStart(await loadQuestions([...fresh, ...seen].slice(0, count)));
+    } catch {
+      setLoadError(true); // offline, with these topics never loaded
+      setLoading(false);
+    }
   };
 
   return (
@@ -199,11 +209,15 @@ function Setup({
           </fieldset>
 
           <div className="mt-7 flex flex-wrap items-center gap-4 border-t border-line pt-5">
-            <Button onClick={start} disabled={!pool.length}>
-              Start {Math.min(count, pool.length)} questions
+            <Button onClick={start} disabled={!pool.length || loading}>
+              {loading ? "Loading questions…" : `Start ${Math.min(count, pool.length)} questions`}
             </Button>
-            <span className="text-muted">
-              {pool.length ? `${pool.length} match` : "Nothing matches yet. Try a wider filter or write some with AI."}
+            <span className="text-muted" role={loadError ? "alert" : undefined}>
+              {loadError
+                ? "Couldn't load these questions. Check your connection and try again."
+                : pool.length
+                  ? `${pool.length} match`
+                  : "Nothing matches yet. Try a wider filter or write some with AI."}
             </span>
           </div>
         </Panel>
@@ -249,7 +263,9 @@ function Generator({ defaultTopic, onStart }: { defaultTopic?: string; onStart: 
 
   const fromTopic = async () => {
     setBusy("Writing questions, about a minute…");
-    const avoid = [...QUESTIONS, ...aiQuestions].filter((q) => q.topic === topic).map((q) => q.stem.slice(0, 90));
+    // The topic's file lists bank questions before lesson-quiz ones, and the server reads the first 20.
+    const known = await loadTopic(topic).catch(() => []);
+    const avoid = [...known, ...aiQuestions].filter((q) => q.topic === topic).map((q) => q.stem.slice(0, 90));
     return post("/api/generate", { topicId: topic, difficulty, count, focus, avoid });
   };
 

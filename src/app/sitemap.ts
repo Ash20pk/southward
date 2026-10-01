@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
-import { AUS_FACTS, SYLLABUS } from "@/lib/content";
+import { AUS_FACTS } from "@/lib/ausfacts";
+import { SYLLABUS } from "@/lib/content";
 import { SITE_URL, factSlug } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {

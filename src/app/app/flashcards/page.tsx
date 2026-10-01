@@ -4,7 +4,8 @@ import { useEffect, useMemo, useState } from "react";
 import clsx from "clsx";
 import Link from "next/link";
 import { FileUp, Trash2 } from "lucide-react";
-import { DISCIPLINES, FLASHCARDS, topicById, topicName } from "@/lib/content";
+import { DISCIPLINES, topicById, topicName } from "@/lib/content";
+import { FLASHCARDS } from "@/lib/bank/flashcards";
 import { useStore } from "@/lib/store";
 import { newCard, previewInterval, type Grade } from "@/lib/srs";
 import { NEW_CARDS_PER_DAY } from "@/lib/stats";
@@ -12,7 +13,7 @@ import type { Discipline, Flashcard } from "@/lib/types";
 import { Markdown } from "@/components/Markdown";
 import { Bar, Button, ButtonLink, Chip, Empty, PageHeader, Panel } from "@/components/ui";
 import { useNow } from "@/hooks/useNow";
-import { useLessonBank } from "@/hooks/useLessonBank";
+import { useLessonCards } from "@/hooks/useLessonBank";
 
 const GRADES: { g: Grade; label: string; key: string; cls: string }[] = [
   { g: "again", label: "Again", key: "1", cls: "border-bad/50 text-bad hover:bg-bad-soft" },
@@ -31,11 +32,11 @@ export default function Flashcards() {
   const [disc, setDisc] = useState<Discipline | "mine" | null>(null);
   const [queue, setQueue] = useState<ReviewCard[] | null>(null);
   const now = useNow();
-  const bank = useLessonBank();
+  const lessonCards = useLessonCards();
 
   const stats = useMemo(() => {
     // The starter deck plus every card unlocked by finishing a lesson.
-    const unlocked = (bank?.cards ?? []).filter((c) => srs[c.id]);
+    const unlocked = (lessonCards ?? []).filter((c) => srs[c.id]);
     const mine: ReviewCard[] = decks.flatMap((d) =>
       d.cards.map((c) => ({ id: c.id, front: c.front, back: c.back, topic: c.topic, discipline: topicById(c.topic)?.discipline ?? ("" as Discipline), label: d.name })),
     );
@@ -45,7 +46,7 @@ export default function Flashcards() {
     const unseen = cards.filter((c) => !srs[c.id]);
     const learned = cards.filter((c) => srs[c.id] && srs[c.id].interval >= 21);
     return { cards, due, unseen, learned };
-  }, [srs, disc, now, bank, decks]);
+  }, [srs, disc, now, lessonCards, decks]);
 
   if (queue) return <Review queue={queue} onDone={() => setQueue(null)} />;
 

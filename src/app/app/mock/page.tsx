@@ -3,11 +3,11 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import clsx from "clsx";
 import { Flag, Grid3x3, Timer, X } from "lucide-react";
-import { DISCIPLINES, QUESTIONS } from "@/lib/content";
+import { DISCIPLINES } from "@/lib/content";
+import { QUESTION_REFS, loadQuestions, type QuestionRef } from "@/lib/bank/question-loader";
 import { useStore, type MockResult } from "@/lib/store";
 import type { Question } from "@/lib/types";
 import { QuestionView } from "@/components/QuestionView";
-import { useLessonBank } from "@/hooks/useLessonBank";
 import { EXAM_WEIGHT } from "@/lib/course-index";
 import { Bar, Button, DisciplineDot, Empty, PageHeader, Panel } from "@/components/ui";
 
@@ -19,9 +19,10 @@ const KINDS = {
 type Kind = keyof typeof KINDS;
 
 
+/** Picks the paper from the index; its questions are downloaded afterwards, topic by topic (loadQuestions). */
 function buildPaper(n: number, extra: Question[]) {
-  const pool = [...QUESTIONS, ...extra];
-  const out: Question[] = [];
+  const pool: (QuestionRef | Question)[] = [...QUESTION_REFS, ...extra];
+  const out: (QuestionRef | Question)[] = [];
   for (const d of DISCIPLINES) {
     const want = Math.round((n * EXAM_WEIGHT[d.id]) / 100);
     const qs = pool.filter((q) => q.discipline === d.id).sort(() => Math.random() - 0.5);
@@ -38,8 +39,6 @@ export default function MockPage() {
   const [run, setRun] = useState<{ kind: Kind; paper: Question[]; strict: boolean } | null>(null);
   const [review, setReview] = useState<{ result: MockResult; paper: Question[]; answers: (number | null)[] } | null>(null);
   const aiQuestions = useStore((s) => s.aiQuestions);
-  const bank = useLessonBank();
-  const extra = [...(bank?.quiz ?? []), ...aiQuestions];
 
   if (run)
     return (
@@ -57,15 +56,27 @@ export default function MockPage() {
 
   return (
     <Setup
-      onStart={(kind, strict) => setRun({ kind, strict, paper: buildPaper(KINDS[kind].n, extra) })}
-      poolSize={QUESTIONS.length + extra.length}
+      onStart={async (kind, strict) => setRun({ kind, strict, paper: await loadQuestions(buildPaper(KINDS[kind].n, aiQuestions)) })}
+      poolSize={QUESTION_REFS.length + aiQuestions.length}
     />
   );
 }
 
-function Setup({ onStart, poolSize }: { onStart: (k: Kind, strict: boolean) => void; poolSize: number }) {
+function Setup({ onStart, poolSize }: { onStart: (k: Kind, strict: boolean) => Promise<void>; poolSize: number }) {
   const mocks = useStore((s) => s.mocks);
   const [strict, setStrict] = useState(true);
+  const [loading, setLoading] = useState<Kind | null>(null);
+  const [loadError, setLoadError] = useState(false);
+  const begin = async (k: Kind) => {
+    setLoading(k);
+    setLoadError(false);
+    try {
+      await onStart(k, strict);
+    } catch {
+      setLoadError(true); // offline, with some of the paper's topics never loaded
+      setLoading(null);
+    }
+  };
   return (
     <div>
       <PageHeader
@@ -92,13 +103,18 @@ function Setup({ onStart, poolSize }: { onStart: (k: Kind, strict: boolean) => v
               <h2 className="text-lg font-semibold">{K.label}</h2>
               <p className="mt-2 font-serif leading-relaxed text-muted">{K.blurb}</p>
               {short && <p className="mt-2 text-sm text-ochre-ink">Your bank has {poolSize} questions, so this paper will be shorter.</p>}
-              <Button className="mt-5" variant={k === "full" ? "primary" : "outline"} onClick={() => onStart(k, strict)}>
-                Start {K.label.toLowerCase()}
+              <Button className="mt-5" variant={k === "full" ? "primary" : "outline"} onClick={() => begin(k)} disabled={!!loading}>
+                {loading === k ? "Loading questions…" : `Start ${K.label.toLowerCase()}`}
               </Button>
             </Panel>
           );
         })}
       </div>
+      {loadError && (
+        <p role="alert" className="mt-4 text-sm text-bad">
+          Couldn&rsquo;t load the questions for this paper. Check your connection and try again.
+        </p>
+      )}
       <p className="mt-4 text-sm text-muted">
         The pace is about 84 seconds a question, like the real exam. Write more questions with AI on the Practice page to
         keep mock papers fresh.

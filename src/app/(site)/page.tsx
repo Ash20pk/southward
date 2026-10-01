@@ -1,9 +1,20 @@
 import Link from "next/link";
-import { ArrowRight, BookOpen, Layers, Map, MessageCircle, Smartphone, Stethoscope, Target, Timer } from "lucide-react";
-import { SouthernCross } from "@/components/SouthernCross";
+import { BookOpen, Layers, Map, MessageCircle, Smartphone, Stethoscope, Target, Timer } from "lucide-react";
+import { Mascot } from "@/components/Mascot";
 import { ContrastTable } from "@/components/ContrastTable";
 import { AppCta, StandaloneRedirect } from "@/components/site/client";
-import { CONTRASTS, topicName } from "@/lib/content";
+import { Journey } from "@/components/site/home/Journey";
+import { Roadmap } from "@/components/site/home/Roadmap";
+import { MascotDrop, MascotHandoff } from "@/components/site/home/MascotHandoff";
+import { Features } from "@/components/site/home/Features";
+import { Starfield } from "@/components/site/home/Starfield";
+import { Globe } from "@/components/site/home/Globe";
+import { Checklist, QuestionCard, StationTimer } from "@/components/site/home/Illustrations";
+import { CONTRASTS } from "@/lib/contrasts";
+import { topicName } from "@/lib/content";
+import { QUESTIONS } from "@/lib/bank/questions";
+import { STATIONS } from "@/lib/bank/stations";
+import { MILESTONES } from "@/lib/plan";
 import { COUNTS } from "@/lib/site-counts";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
 
@@ -14,27 +25,32 @@ const SAMPLE = ["cardiology", "infectious-disease", "antenatal-care", "mental-he
   return row ? [{ ...row, aspect: `${topicName(topic)}: ${row.aspect}` }] : [];
 });
 
-const PART1 = [
-  {
-    icon: BookOpen,
-    title: "A guided course",
-    body: `${COUNTS.lessons} short lessons across all ${COUNTS.topics} AMC topics, each ending with a quiz and flashcards. Start at the top and it tells you what to study next.`,
-  },
-  {
-    icon: Target,
-    title: "AMC-style questions",
-    body: `${COUNTS.questions} hand-written one-best-answer questions with a note on every option. When you run out, the AI writes fresh ones on any topic, or from your own PDF notes.`,
-  },
-  {
-    icon: Timer,
-    title: "Timed mock exams",
-    body: "30, 75 or 150 questions at real exam pace, with the AMC's no-going-back rule if you want it, and a report by discipline at the end.",
-  },
-  {
-    icon: Layers,
-    title: "Spaced-repetition flashcards",
-    body: `${COUNTS.cards} cards to start, more added as you finish lessons, and your own decks made from a PDF. Reviews are scheduled so you see each card just before you'd forget it.`,
-  },
+// Real content for the chapter illustrations, looked up by id so it can't drift from the bank.
+const QUESTION = QUESTIONS.find((q) => q.id === "med-030")!;
+const STATION = STATIONS.find((s) => s.id === "st-cardiology-1")!;
+const milestones = (ids: string[]) => ids.map((id) => MILESTONES.find((m) => m.id === id)!);
+const FIRST_STEPS = milestones(["m-understand", "m-wdoms", "m-docs", "m-portfolio"]);
+const LAST_STEPS = milestones(["m-english", "m-certificate"]);
+
+// Each tip is the mascot's one piece of advice for that step, taken from the pathway guide and exam format.
+const CHAPTERS = [
+  { id: "eligible", label: "Check you're eligible", tip: "Start EPIC verification as soon as you're eligible. It can take weeks." },
+  { id: "mcq", label: "Part 1: the MCQ exam", tip: "Wrong answers don't lose marks, so never leave one blank." },
+  { id: "differences", label: "The Australian answer", tip: "The exam marks the Australian answer, even when yours is right at home." },
+  { id: "clinical", label: "Part 2: the clinical exam", tip: "Use both reading minutes to plan every task before you walk in." },
+  { id: "registration", label: "Certificate and registration", tip: "Book your English test close to registration. Results expire." },
+];
+const tipFor = (id: string) => CHAPTERS.find((c) => c.id === id)!.tip;
+
+const INSIDE = [
+  { icon: BookOpen, title: "A guided course", body: `${COUNTS.lessons} short lessons across all ${COUNTS.topics} topics, each ending in a quiz.` },
+  { icon: Target, title: "AMC-style questions", body: `${COUNTS.questions} hand-written, plus fresh AI questions on any topic or from your own PDF.` },
+  { icon: Timer, title: "Timed mock exams", body: "30, 75 or 150 questions at real exam pace, with a report by discipline." },
+  { icon: Layers, title: "Spaced-repetition flashcards", body: `${COUNTS.cards} cards, and your own decks made from a PDF.` },
+  { icon: Stethoscope, title: "Clinical stations", body: `${COUNTS.stations} stations with an AI patient and an AMC-style examiner.` },
+  { icon: MessageCircle, title: "A tutor that knows Australia", body: "Ask about anything that didn't click, or why an answer was wrong." },
+  { icon: Map, title: "A plan sized to your exam date", body: "Four phases from today to your MCQ, and a milestones checklist." },
+  { icon: Smartphone, title: "Made for your phone", body: "Install it, study offline, and pick up on your laptop where you left off." },
 ];
 
 const FAQ = [
@@ -81,160 +97,176 @@ export default function Home() {
       <StandaloneRedirect />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
-      {/* Hero */}
-      <section className="bg-sky text-sky-ink">
-        <div className="mx-auto grid w-full max-w-6xl items-center gap-10 px-4 py-14 sm:px-8 sm:py-20 md:grid-cols-[1.3fr_1fr]">
-          <div className="rise">
-            <p className="text-sm font-medium tracking-wide text-[var(--ochre)]">For Indian MBBS students and graduates</p>
-            <h1 className="mt-4 text-4xl font-semibold leading-[1.08] tracking-tight sm:text-[3.4rem]">
-              Your way from MBBS to practising in Australia.
+      <Journey
+        logo={
+          <>
+            {/* The name first, alone under the night sky. */}
+            <h1 className="flex flex-col items-center">
+              <span className="sr-only">Southward: AMC exam prep for Indian medical graduates</span>
+              <span aria-hidden className="hero-word block select-none font-serif font-light leading-none">
+                Southward
+              </span>
             </h1>
-            <p className="mt-5 max-w-xl font-serif text-lg leading-relaxed text-sky-muted sm:text-xl">
-              A complete prep for both AMC exams: a guided course, AMC-style questions, full mock exams and clinical
-              stations with an AI patient. It shows you exactly where Australian practice differs from what you were taught.
+            <p className="hero-follow mt-5 max-w-xl text-center font-serif text-lg italic leading-relaxed text-sky-muted sm:text-xl">
+              Your way from MBBS to practising in Australia
             </p>
-            <div className="mt-8 flex flex-wrap items-center gap-3">
-              <AppCta tone="ochre" />
-              <Link href="/amc-pathway" className="inline-flex h-11 items-center gap-2 rounded-full px-5 font-medium hover:bg-white/10">
-                How the AMC pathway works <ArrowRight size={16} />
+            <div className="hero-follow mt-8 flex flex-wrap items-center justify-center gap-3">
+              <AppCta />
+              <Link href="#roadmap" className="inline-flex h-11 items-center rounded-full border border-white/15 px-5 text-[0.95rem] text-sky-ink/90 transition-colors hover:border-white/30 hover:bg-white/5">
+                Skip to the roadmap
               </Link>
             </div>
-            <p className="mt-5 text-sm text-sky-muted">Free during early access. Works on your phone and laptop.</p>
-          </div>
-          <div className="mx-auto w-full max-w-[13rem] sm:max-w-xs md:max-w-sm">
-            <SouthernCross
-              stars={[
-                { key: "found", label: "Foundations", detail: "", value: 90 },
-                { key: "bank", label: "Question bank", detail: "", value: 70 },
-                { key: "mcq", label: "MCQ readiness", detail: "", value: 55 },
-                { key: "clin", label: "Clinical skills", detail: "", value: 35 },
-                { key: "aus", label: "Australian context", detail: "", value: 80 },
-              ]}
-            />
-            <p className="mt-2 text-center text-sm text-sky-muted">
-              The Southern Cross brightens as you work through each part of your prep.
+            <p className="hero-follow scroll-cue absolute bottom-8 flex flex-col items-center gap-2 text-sm text-sky-muted">
+              Scroll to fly south
+              <span aria-hidden className="h-8 w-5 rounded-full border border-white/30 p-1">
+                <span className="scroll-dot block h-1.5 w-1.5 translate-x-[3px] rounded-full bg-sky-ink" />
+              </span>
             </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Numbers */}
-      <section className="border-b border-line bg-surface">
-        <dl className="mx-auto grid w-full max-w-6xl grid-cols-2 gap-6 px-4 py-8 sm:grid-cols-3 sm:px-8 lg:grid-cols-6">
-          {[
-            [COUNTS.topics, "AMC topics"],
-            [COUNTS.lessons, "lessons"],
-            [COUNTS.questions, "hand-written MCQs"],
-            [COUNTS.cards, "flashcards"],
-            [COUNTS.stations, "clinical stations"],
-            [COUNTS.reads, "Australia 101 reads"],
-          ].map(([n, label]) => (
-            <div key={label}>
-              <dt className="sr-only">{label}</dt>
-              <dd>
-                <span className="block text-3xl font-semibold tabular-nums tracking-tight">{n}</span>
-                <span className="text-sm text-muted">{label}</span>
-              </dd>
+          </>
+        }
+        arrival={
+          <>
+            {/* The greeting is exactly as wide as the title: mascot flush with its left edge, bubble with its right. */}
+            <div className="flex w-fit max-w-full flex-col">
+              <h2 className="text-balance text-center font-serif text-5xl font-light leading-tight tracking-tight sm:text-6xl">
+                Welcome to Australia.
+              </h2>
+              {/* w-0 + min-w-full: the row takes the title's width rather than widening the block to fit the bubble. */}
+              <div className="mt-8 flex w-0 min-w-full items-center gap-4 sm:gap-5">
+                <div data-welcome-mascot className="w-24 shrink-0 sm:w-28">
+                  <Mascot wave className="w-full" />
+                </div>
+                {/* Nudged down a little: the mascot's face sits just below the middle of its drawing. */}
+                <p className="bubble mt-4 min-w-0 flex-1 px-4 py-3 text-[0.95rem] leading-snug sm:px-5 sm:py-3.5 sm:text-base">
+                  G&rsquo;day! That&rsquo;s the flight. Now let&rsquo;s walk the road to getting you here, one step at a time.
+                  <span className="bubble-tail left -left-[0.5rem] top-[calc(50%-0.45rem)]" />
+                </p>
+              </div>
             </div>
-          ))}
-        </dl>
-      </section>
+          </>
+        }
+        fallback={<Globe className="w-full max-w-md" />}
+      />
 
-      {/* India vs Australia */}
-      <section className="mx-auto w-full max-w-6xl px-4 py-16 sm:px-8 sm:py-20">
-        <div className="grid gap-10 lg:grid-cols-[1fr_1.5fr] lg:items-start">
-          <div>
-            <h2 className="text-3xl font-semibold leading-tight tracking-tight sm:text-4xl">
-              What you learnt is right. The AMC just marks a different answer.
-            </h2>
-            <p className="mt-4 font-serif text-lg leading-relaxed text-muted">
-              Most marks that Indian graduates lose aren&rsquo;t gaps in medicine. They come from answering the way it&rsquo;s done
-              at home: a different first-line drug, a different screening age, a different law. Every topic in Southward sets
-              the two side by side, so you learn the Australian answer on purpose.
-            </p>
-            <Link href="/topics" className="mt-5 inline-flex items-center gap-1.5 font-medium text-brand hover:underline">
-              See the differences for all {COUNTS.topics} topics <ArrowRight size={16} />
+      <MascotHandoff />
+      <Roadmap steps={CHAPTERS}>
+        <Chapter
+          id="eligible"
+          index={0}
+          title="Check the pathway is open to you"
+          body={
+            <>
+              Your medical school has to be listed in the World Directory of Medical Schools with a note that makes it
+              acceptable to the AMC. After graduation you open an AMC portfolio, and your degree is verified with your
+              university through EPIC. That can take weeks, so start as soon as you&rsquo;re eligible.
+            </>
+          }
+          aside={
+            <>
+              Southward keeps the whole checklist for you, from here to the AMC Certificate.{" "}
+              <Link href="/amc-pathway" className="text-sky-ink underline underline-offset-4 hover:text-[var(--ochre)]">
+                Read the pathway guide
+              </Link>
+            </>
+          }
+        >
+          <Checklist items={FIRST_STEPS} />
+        </Chapter>
+
+        <Chapter
+          id="mcq"
+          index={1}
+          title="Part 1, the MCQ exam"
+          body={
+            <>
+              150 one-best-answer questions in three and a half hours: about 84 seconds each, with no going back to change an
+              answer. You can sit it at a test centre in India.
+            </>
+          }
+          aside={
+            <>
+              Southward has {COUNTS.lessons} lessons across all {COUNTS.topics} topics, {COUNTS.questions} hand-written
+              questions with a note on every option, timed mocks at the real pace and {COUNTS.cards} flashcards.
+            </>
+          }
+        >
+          <QuestionCard q={QUESTION} />
+        </Chapter>
+
+        <Chapter
+          id="differences"
+          index={2}
+          title="Learn the answer Australia marks"
+          body={
+            <>
+              Most marks Indian graduates lose aren&rsquo;t gaps in medicine. They come from answering the way it&rsquo;s done
+              at home: a different first-line drug, screening age or law. Every topic sets the two side by side.
+            </>
+          }
+          aside={
+            <Link href="/topics" className="text-sky-ink underline underline-offset-4 hover:text-[var(--ochre)]">
+              See the differences for all {COUNTS.topics} topics
             </Link>
+          }
+        >
+          <div className="rounded-3xl bg-surface p-3 text-ink sm:p-5">
+            <ContrastTable rows={SAMPLE.slice(0, 1)} />
           </div>
-          <div className="rounded-2xl border border-line bg-surface p-4 sm:p-6">
-            <ContrastTable rows={SAMPLE} />
-          </div>
-        </div>
-      </section>
+        </Chapter>
 
-      {/* Features by exam part */}
-      <section className="border-y border-line bg-sunk/50">
-        <div className="mx-auto w-full max-w-6xl px-4 py-16 sm:px-8 sm:py-20">
-          <h2 className="max-w-2xl text-3xl font-semibold leading-tight tracking-tight sm:text-4xl">Everything for both exams, in one place</h2>
+        <Chapter
+          id="clinical"
+          index={3}
+          title="Part 2, the clinical exam"
+          body={
+            <>
+              A circuit of stations with role-play patients. Two minutes to read the brief, then eight to take a history,
+              examine, explain and manage.
+            </>
+          }
+          aside={
+            <>
+              Southward has {COUNTS.stations} stations with an AI patient you can type or talk to, then an examiner who marks
+              you the way the AMC does, with a model answer to compare against.
+            </>
+          }
+        >
+          <StationTimer station={STATION} />
+        </Chapter>
 
-          <div className="mt-10 flex items-center gap-3">
-            <span className="rounded-full bg-brand-soft px-3 py-1 text-sm font-semibold text-brand">Part 1: MCQ exam</span>
-            <span className="h-px flex-1 bg-line" />
-          </div>
-          <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {PART1.map((f) => (
-              <Feature key={f.title} {...f} />
-            ))}
-          </div>
+        <Chapter
+          id="registration"
+          index={4}
+          title="The AMC Certificate, then registration"
+          body={
+            <>
+              Pass both exams and you receive the AMC Certificate. With it and the English language standard, you apply to
+              the Medical Board of Australia through Ahpra. General registration usually follows a period of supervised
+              practice.
+            </>
+          }
+          aside={<>Southward tracks these with the rest of your checklist, so nothing is left to the last minute.</>}
+        >
+          <Checklist items={LAST_STEPS} />
+        </Chapter>
+      </Roadmap>
 
-          <div className="mt-12 flex items-center gap-3">
-            <span className="rounded-full bg-ochre-soft px-3 py-1 text-sm font-semibold text-ochre-ink">Part 2: Clinical exam</span>
-            <span className="h-px flex-1 bg-line" />
-          </div>
-          <div className="mt-5 grid gap-6 rounded-2xl border border-line bg-surface p-6 sm:p-8 md:grid-cols-[auto_1fr]">
-            <span className="grid h-12 w-12 place-items-center rounded-2xl bg-ochre-soft text-ochre-ink">
-              <Stethoscope size={24} />
-            </span>
-            <div>
-              <h3 className="text-xl font-semibold">{COUNTS.stations} clinical stations with an AI patient and examiner</h3>
-              <p className="mt-2 max-w-3xl font-serif text-lg leading-relaxed text-muted">
-                Two minutes of reading time, then eight minutes with a role-play patient you can type or talk to. They answer
-                like a real patient would, out loud if you like. Then an examiner marks you the way the AMC does: a global
-                rating, domain scores, what you covered and missed, and a model answer to compare against.
-              </p>
-            </div>
-          </div>
+      {/* What's inside: the mascot drops from the end of the roadmap onto a road, and walks it one feature at a time. */}
+      <MascotDrop />
+      <Features
+        heading={
+          <>
+            {/* Short screens drop the eyebrow and shrink the heading, so the feature and the road both fit. */}
+            <p className="text-sm text-[var(--ochre)] [@media(max-height:700px)]:hidden">What you&rsquo;ll have with you</p>
+            <h2 className="mt-2 text-balance font-serif text-3xl font-light leading-tight tracking-tight sm:text-5xl [@media(max-height:700px)]:mt-0 [@media(max-height:700px)]:text-[1.6rem]">
+              Everything for both exams, in one app
+            </h2>
+          </>
+        }
+        items={INSIDE.map(({ icon: Icon, title, body }) => ({ title, body, icon: <Icon size={26} strokeWidth={1.6} aria-hidden /> }))}
+      />
 
-          <div className="mt-12 grid gap-4 md:grid-cols-3">
-            <Feature
-              icon={MessageCircle}
-              title="A tutor that knows Australia"
-              body="Ask about anything that didn't click, or tap &ldquo;why was I wrong?&rdquo; on any question. Answers follow Australian guidelines."
-            />
-            <Feature
-              icon={Map}
-              title="A plan sized to your exam date"
-              body="Tell it when you're sitting the MCQ and it splits the time into four phases, with a milestones checklist from checking your medical school is eligible to the AMC Certificate."
-            />
-            <Feature
-              icon={Smartphone}
-              title="Made for your phone"
-              body="Install it from your browser, study offline on the train, and pick up on your laptop exactly where you left off."
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* How it works */}
-      <section className="mx-auto w-full max-w-6xl px-4 py-16 sm:px-8 sm:py-20">
-        <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">How it works</h2>
-        <ol className="mt-8 grid gap-4 md:grid-cols-3">
-          {[
-            ["Tell it where you are", "Your MCQ date and, if you're still studying, which posting you're in. That sets your daily goal and your plan."],
-            ["Do today's session", "A few flashcards, a set of questions and, now and then, a clinical station. Twenty minutes counts. Most people pass on steady daily work."],
-            ["Know when you're ready", "Mock exams and your weakest topics show what to fix next. The Southern Cross fills in as each part of your prep comes together."],
-          ].map(([t, b], i) => (
-            <li key={t} className="rounded-2xl border border-line bg-surface p-6">
-              <span className="grid h-9 w-9 place-items-center rounded-full bg-sky font-semibold text-[var(--ochre)]">{i + 1}</span>
-              <h3 className="mt-4 text-lg font-semibold">{t}</h3>
-              <p className="mt-2 font-serif leading-relaxed text-muted">{b}</p>
-            </li>
-          ))}
-        </ol>
-      </section>
-
-      {/* Free guides */}
-      <section className="mx-auto w-full max-w-6xl px-4 pb-16 sm:px-8 sm:pb-20">
+      <section className="mx-auto w-full max-w-6xl px-4 pb-20 pt-6 sm:px-8 sm:pb-28">
         <div className="grid gap-4 md:grid-cols-3">
           <GuideCard href="/amc-pathway" title="The AMC Standard Pathway" body="Both exams, the MCQ format, and every step from eligibility to registration." />
           <GuideCard href="/topics" title={`All ${COUNTS.topics} AMC topics`} body="What each topic covers, the high-yield points, and where Australia does it differently." />
@@ -243,9 +275,9 @@ export default function Home() {
       </section>
 
       {/* FAQ */}
-      <section className="border-t border-line bg-surface">
+      <section>
         <div className="mx-auto w-full max-w-3xl px-4 py-16 sm:px-8 sm:py-20">
-          <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">Questions</h2>
+          <h2 className="font-serif text-4xl font-light tracking-tight sm:text-5xl">Questions</h2>
           <div className="mt-8 divide-y divide-line border-y border-line">
             {FAQ.map((f) => (
               <details key={f.q} className="group py-5">
@@ -262,29 +294,68 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Closing call */}
-      <section className="bg-sky text-sky-ink">
-        <div className="mx-auto flex w-full max-w-6xl flex-col items-start gap-6 px-4 py-16 sm:px-8 md:flex-row md:items-center md:justify-between">
-          <div>
-            <h2 className="text-3xl font-semibold tracking-tight">Start today. Twenty minutes counts.</h2>
-            <p className="mt-2 text-sky-muted">Free during early access. No card needed.</p>
+      {/* Closing call, under the same sky */}
+      {/* On the same night as the rest of the page: no band of its own, just stars and a soft glow that fade out at the
+          edges, so it never starts or stops at a line. */}
+      <section data-header="night" className="relative overflow-hidden text-sky-ink">
+        <div aria-hidden className="soft-edges pointer-events-none absolute inset-0">
+          <Starfield count={70} seed={23} />
+          <div className="absolute inset-0 bg-[radial-gradient(45%_55%_at_50%_55%,rgb(70_95_160/0.16),transparent_75%)]" />
+        </div>
+        <div className="relative mx-auto flex w-full max-w-3xl flex-col items-center px-4 py-24 text-center sm:px-8">
+          <Mascot wave className="w-28" />
+          <h2 className="mt-6 font-serif text-4xl font-light tracking-tight sm:text-5xl">Start today. Twenty minutes counts.</h2>
+          <p className="mt-3 text-sky-muted">Free during early access. No card needed.</p>
+          <div className="mt-8">
+            <AppCta label="Create your free account" />
           </div>
-          <AppCta label="Create your free account" tone="ochre" />
         </div>
       </section>
     </>
   );
 }
 
-function Feature({ icon: Icon, title, body }: { icon: typeof BookOpen; title: string; body: string }) {
+/**
+ * One step of the roadmap, as a card in the deck: it pins a little lower than the one before, so the stack shows its
+ * edges, and sinks back (--depth, set by Roadmap) as later cards come over it.
+ */
+function Chapter({
+  id,
+  index,
+  title,
+  body,
+  aside,
+  children,
+}: {
+  id: string;
+  index: number;
+  title: string;
+  body: React.ReactNode;
+  aside: React.ReactNode;
+  children: React.ReactNode;
+}) {
   return (
-    <div className="flex flex-col gap-3 rounded-2xl border border-line bg-surface p-6">
-      <span className="grid h-10 w-10 place-items-center rounded-xl bg-brand-soft text-brand">
-        <Icon size={20} />
-      </span>
-      <h3 className="text-lg font-semibold">{title}</h3>
-      <p className="leading-relaxed text-muted">{body}</p>
-    </div>
+    <article id={id} data-card className="roadmap-card" style={{ zIndex: index }}>
+      <div className="roadmap-card-face grid gap-8 overflow-hidden p-5 sm:p-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-center lg:gap-10 lg:p-10">
+        <div className="min-w-0">
+          <p className="text-sm tabular-nums text-[var(--ochre)]">
+            Step {index + 1} of {CHAPTERS.length}
+          </p>
+          {/* Phones get tighter type, so a whole step fits the deck without clipping. */}
+          <h2 className="mt-2 text-balance font-serif text-[1.6rem] font-light leading-[1.15] tracking-tight sm:mt-2.5 sm:text-[2.1rem] sm:leading-[1.12]">
+            {title}
+          </h2>
+          <p className="mt-3 font-serif text-[0.95rem] leading-[1.55] text-sky-ink/90 sm:mt-4 sm:text-[1.05rem] sm:leading-relaxed">{body}</p>
+          <p className="roadmap-aside mt-2.5 text-[0.85rem] leading-relaxed text-sky-muted sm:mt-3 sm:text-[0.9rem]">{aside}</p>
+          {/* The mascot says this above the deck; here for screen readers. */}
+          <p className="sr-only">Tip: {tipFor(id)}</p>
+        </div>
+        {/* The illustration, beside the words on wide screens. Phones keep to the words, so the card fits the deck. */}
+        <div className="hidden min-w-0 lg:block">{children}</div>
+        {/* Darkens the card as later ones land on it (Roadmap sets its opacity). */}
+        <div data-shade aria-hidden className="roadmap-card-shade" />
+      </div>
+    </article>
   );
 }
 
