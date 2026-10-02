@@ -8,6 +8,7 @@ import { Roadmap } from "@/components/site/home/Roadmap";
 import { MascotDrop, MascotHandoff } from "@/components/site/home/MascotHandoff";
 import { Features } from "@/components/site/home/Features";
 import { Starfield } from "@/components/site/home/Starfield";
+import { Eligibility } from "@/components/site/home/Eligibility";
 import { Globe } from "@/components/site/home/Globe";
 import { Checklist, QuestionCard, StationTimer } from "@/components/site/home/Illustrations";
 import { CONTRASTS } from "@/lib/contrasts";
@@ -266,48 +267,41 @@ export default function Home() {
         items={INSIDE.map(({ icon: Icon, title, body }) => ({ title, body, icon: <Icon size={26} strokeWidth={1.6} aria-hidden /> }))}
       />
 
-      <section className="mx-auto w-full max-w-6xl px-4 pb-20 pt-6 sm:px-8 sm:pb-28">
-        <div className="grid gap-4 md:grid-cols-3">
-          <GuideCard href="/amc-pathway" title="The AMC Standard Pathway" body="Both exams, the MCQ format, and every step from eligibility to registration." />
-          <GuideCard href="/topics" title={`All ${COUNTS.topics} AMC topics`} body="What each topic covers, the high-yield points, and where Australia does it differently." />
-          <GuideCard href="/australia-101" title="Australia 101" body="Medicare, the PBS, consent, screening and cultural safety: what Australian graduates already know." />
-        </div>
-      </section>
-
-      {/* FAQ */}
-      <section>
-        <div className="mx-auto w-full max-w-3xl px-4 py-16 sm:px-8 sm:py-20">
-          <h2 className="font-serif text-4xl font-light tracking-tight sm:text-5xl">Questions</h2>
-          <div className="mt-8 divide-y divide-line border-y border-line">
-            {FAQ.map((f) => (
-              <details key={f.q} className="group py-5">
-                <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-medium [&::-webkit-details-marker]:hidden">
-                  {f.q}
-                  <span aria-hidden className="text-2xl leading-none text-muted transition-transform group-open:rotate-45">
-                    +
-                  </span>
-                </summary>
-                <p className="mt-3 font-serif text-lg leading-relaxed text-muted">{f.a}</p>
-              </details>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Closing call, under the same sky */}
-      {/* On the same night as the rest of the page: no band of its own, just stars and a soft glow that fade out at the
-          edges, so it never starts or stops at a line. */}
-      <section data-header="night" className="relative overflow-hidden text-sky-ink">
+      {/* The hook after the features: can you sit the AMC exams? A short check, and sign-up for anyone it's open to. Under
+          the same night as the rest of the page: stars and a soft glow that fade out at the edges, so it never starts at a
+          line. */}
+      <section id="eligibility" data-header="night" className="screen relative flex min-h-svh items-center overflow-hidden pt-16 text-sky-ink">
         <div aria-hidden className="soft-edges pointer-events-none absolute inset-0">
           <Starfield count={70} seed={23} />
           <div className="absolute inset-0 bg-[radial-gradient(45%_55%_at_50%_55%,rgb(70_95_160/0.16),transparent_75%)]" />
         </div>
-        <div className="relative mx-auto flex w-full max-w-3xl flex-col items-center px-4 py-24 text-center sm:px-8">
-          <Mascot wave className="w-28" />
-          <h2 className="mt-6 font-serif text-4xl font-light tracking-tight sm:text-5xl">Start today. Twenty minutes counts.</h2>
-          <p className="mt-3 text-sky-muted">Free during early access. No card needed.</p>
-          <div className="mt-8">
-            <AppCta label="Create your free account" />
+        <div className="spotlight relative mx-auto flex w-full max-w-3xl flex-col items-center px-4 py-12 text-center sm:px-8">
+          <p className="text-sm text-[var(--ochre)]">Before anything else</p>
+          <h2 className="mt-2 text-balance font-serif text-4xl font-light tracking-tight sm:text-5xl">Can you sit the AMC exams?</h2>
+          <p className="mt-3 max-w-md text-sky-muted">Check your college and your degree year against the rule the AMC uses. About a minute.</p>
+          <div className="mt-10 w-full">
+            <Eligibility />
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ, the last screen: one of its own like every scene above it (see .screen in globals.css). It comes into focus
+          and stays there, as the footer follows it and it never scrolls fully away. */}
+      <section className="screen flex min-h-svh items-center pt-16">
+        <div className="spotlight-in mx-auto w-full max-w-3xl px-4 py-12 sm:px-8">
+          <h2 className="font-serif text-4xl font-light tracking-tight sm:text-5xl">Questions</h2>
+          <div className="mt-8 divide-y divide-line border-y border-line">
+            {FAQ.map((f) => (
+              <details key={f.q} className="faq group py-5">
+                <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-medium [&::-webkit-details-marker]:hidden">
+                  {f.q}
+                  <span aria-hidden className="text-2xl leading-none text-muted transition-transform duration-300 group-open:rotate-45">
+                    +
+                  </span>
+                </summary>
+                <p className="pt-3 font-serif text-lg leading-relaxed text-muted">{f.a}</p>
+              </details>
+            ))}
           </div>
         </div>
       </section>
@@ -356,15 +350,5 @@ function Chapter({
         <div data-shade aria-hidden className="roadmap-card-shade" />
       </div>
     </article>
-  );
-}
-
-function GuideCard({ href, title, body }: { href: string; title: string; body: string }) {
-  return (
-    <Link href={href} className="group flex flex-col gap-2 rounded-2xl border border-line bg-surface p-6 hover:border-brand">
-      <span className="text-sm font-medium text-ochre-ink">Free guide</span>
-      <h3 className="text-lg font-semibold group-hover:text-brand">{title}</h3>
-      <p className="text-muted">{body}</p>
-    </Link>
   );
 }

@@ -12,7 +12,8 @@
     "predev": "node scripts/build-course.mjs",
     "course:check": "node scripts/validate-course.mjs",
     "icons": "node scripts/make-icons.mjs",
-    "globe": "node scripts/build-globe.mjs"
+    "globe": "node scripts/build-globe.mjs",
+    "colleges": "node scripts/build-colleges.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.128.0",

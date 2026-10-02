@@ -46,6 +46,7 @@ export function Features({ heading, items }: { heading: ReactNode; items: Featur
   const [walking, setWalking] = useState(false);
   const [done, setDone] = useState(false);
   const n = items.length;
+  const screens = 1 + INTRO + n * STOP + RECAP + HOLD; // the stage itself, plus the scroll it stays pinned for
 
   useEffect(() => {
     const still = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -61,10 +62,10 @@ export function Features({ heading, items }: { heading: ReactNode; items: Featur
       const vw = box.clientWidth;
       // Screens scrolled since the stage pinned (negative while it's still rising into view, under the falling mascot).
       const raw = -el.getBoundingClientRect().top / vh;
-      return () => write(vw, raw);
+      return () => write(box, vw, raw);
     });
 
-    function write(vw: number, raw: number) {
+    function write(box: HTMLElement, vw: number, raw: number) {
       // Only the road comes up with the drop; the words wait until the mascot has landed, so it never falls through them.
       const intro = still ? (raw >= 0 ? 1 : 0) : clamp(raw / INTRO);
       put(words.current, "opacity", intro.toFixed(3));
@@ -131,12 +132,19 @@ export function Features({ heading, items }: { heading: ReactNode; items: Featur
         put(tile, "transform", `translate3d(0, ${((1 - a) * 18).toFixed(1)}px, 0) scale(${(0.94 + 0.06 * a).toFixed(4)})`);
       });
 
+      // Leaving: once the stage unpins, it dims and shrinks back a touch as it scrolls away, so the page below comes in on a
+      // soft edge rather than a hard one.
+      // Gone by the time the next screen starts to light up, so only one topic is ever in focus.
+      const leave = still ? 0 : ease(clamp((raw - (screens - 1)) / 0.4));
+      put(box, "opacity", (1 - leave).toFixed(3));
+      put(box, "visibility", leave > 0.999 ? "hidden" : "visible");
+      put(box, "transform", leave > 0 ? `scale(${(1 - 0.05 * leave).toFixed(4)})` : "none");
+
       setWalking(moving);
       setDone(pullBack > 0.6);
     }
-  }, [n]);
+  }, [n, screens]);
 
-  const screens = 1 + INTRO + n * STOP + RECAP + HOLD; // the stage itself, plus the scroll it stays pinned for
 
   return (
     <section ref={section} id="features" data-header="night" className="relative text-sky-ink" style={{ height: `${screens * 100}svh` }}>

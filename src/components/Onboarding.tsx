@@ -23,7 +23,15 @@ function defaultTarget() {
 export function Onboarding({ defaultName }: { defaultName?: string }) {
   const setProfile = useStore((s) => s.setProfile);
   const [name, setName] = useState(defaultName ?? "");
-  const [stage, setStage] = useState<Stage>("4th-year");
+  // Someone who took the home page's eligibility check has already told us their stage.
+  const [stage, setStage] = useState<Stage>(() => {
+    try {
+      const saved = JSON.parse(localStorage.getItem("southward-eligibility") ?? "null")?.stage;
+      return STAGES.some((s) => s.id === saved) ? saved : "4th-year";
+    } catch {
+      return "4th-year";
+    }
+  });
   const [target, setTarget] = useState(defaultTarget());
   const [daily, setDaily] = useState(20);
   const [posting, setPosting] = useState("");

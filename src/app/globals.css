@@ -762,3 +762,83 @@ html:has(#journey) footer {
     transform: scale(0.85) translateY(6px);
   }
 }
+
+/*
+ * The end of the home page, one topic to a screen like the pinned scenes above it: each section (.screen) is a full
+ * screen, and its content (.spotlight) is in focus only while it holds the screen. Coming in, it rises from dim and a
+ * little small; going, it dims and settles back, so neighbours crossfade rather than share the view. Driven by the
+ * scroll itself, opacity and transform only, so the compositor runs it. A section taller than the screen (the FAQ with
+ * answers open, on a phone) stays fully lit while it's being read: its entry ends as its top reaches the top, and its
+ * exit only starts as its bottom reaches the bottom. Without scroll timelines, or with reduced motion, all simply shows.
+ */
+.screen {
+  view-timeline: --screen block;
+}
+/* One screen leads at every point: the one leaving has dimmed before the next lights up, with a short dark beat
+   between them (like the black between the flight and the roadmap). */
+@keyframes spotlight {
+  entry 0%,
+  entry 40% {
+    opacity: 0;
+    transform: translate3d(0, 6vh, 0) scale(0.96);
+  }
+  entry 90%,
+  exit 10% {
+    opacity: 1;
+    transform: none;
+  }
+  exit 50%,
+  exit 100% {
+    opacity: 0;
+    transform: translate3d(0, -4vh, 0) scale(0.96);
+  }
+}
+@keyframes spotlight-in {
+  entry 0%,
+  entry 40% {
+    opacity: 0;
+    transform: translate3d(0, 6vh, 0) scale(0.96);
+  }
+  entry 90%,
+  exit 100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .spotlight,
+    .spotlight-in {
+      animation: spotlight linear both;
+      animation-timeline: --screen;
+    }
+    .spotlight-in {
+      animation-name: spotlight-in;
+    }
+  }
+}
+
+/* FAQ answers open and close smoothly, where the browser can animate to an automatic height. */
+@supports (interpolate-size: allow-keywords) {
+  .faq {
+    interpolate-size: allow-keywords;
+  }
+  .faq::details-content {
+    block-size: 0;
+    overflow: clip;
+    opacity: 0;
+    transition:
+      block-size 0.3s cubic-bezier(0.2, 0.7, 0.2, 1),
+      opacity 0.25s ease,
+      content-visibility 0.3s allow-discrete;
+  }
+  .faq[open]::details-content {
+    block-size: auto;
+    opacity: 1;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .faq::details-content {
+    transition: none;
+  }
+}
