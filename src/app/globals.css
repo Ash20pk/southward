@@ -848,3 +848,71 @@ html:has(#journey) footer {
     transition: none;
   }
 }
+
+/* Clinical station avatars: they blink, and while one speaks its mouth moves, its head nods and its frame pulses. */
+.av-eyes {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: mascot-blink 4.6s infinite;
+}
+.av-mouth {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: av-talk 0.9s linear infinite;
+}
+.av-head-talk {
+  transform-origin: 100px 160px;
+  animation: av-nod 2.6s ease-in-out infinite;
+}
+.av-ring {
+  animation: av-ring 1.3s ease-out infinite;
+}
+@keyframes av-talk {
+  0%,
+  100% {
+    transform: scaleY(0.3);
+  }
+  18% {
+    transform: scaleY(1);
+  }
+  34% {
+    transform: scaleY(0.5);
+  }
+  52% {
+    transform: scaleY(0.9);
+  }
+  68% {
+    transform: scaleY(0.2);
+  }
+  84% {
+    transform: scaleY(0.8);
+  }
+}
+@keyframes av-nod {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  30% {
+    transform: rotate(-1.6deg) translateY(-1px);
+  }
+  70% {
+    transform: rotate(1.2deg);
+  }
+}
+@keyframes av-ring {
+  from {
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--brand) 45%, transparent);
+  }
+  to {
+    box-shadow: 0 0 0 14px transparent;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .av-eyes,
+  .av-mouth,
+  .av-head-talk,
+  .av-ring {
+    animation: none;
+  }
+}

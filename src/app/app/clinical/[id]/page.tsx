@@ -2,9 +2,9 @@
 
 import Link from "next/link";
 import { useParams } from "next/navigation";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import clsx from "clsx";
-import { ArrowLeft, Check, Mic, MicOff, Send, Volume2, VolumeX, X } from "lucide-react";
+import { ArrowLeft, AudioLines, Check, ClipboardList, Mic, MicOff, Send, Volume2, VolumeX, X } from "lucide-react";
 import { topicName } from "@/lib/content";
 import { STATION_LIST } from "@/lib/bank-index";
 import { useStation } from "@/hooks/useStation";
@@ -12,6 +12,8 @@ import { useStore } from "@/lib/store";
 import { AREA_LABEL, LEVEL, READ_SECS, STATION_SECS } from "@/lib/stations";
 import { useStream } from "@/hooks/useStream";
 import { useSpeech } from "@/hooks/useSpeech";
+import { useVoice } from "@/hooks/useVoice";
+import { Avatar, DOCTORS, lookFor, type AvatarLook } from "@/components/Avatar";
 import { Markdown } from "@/components/Markdown";
 import { Button, ButtonLink, Empty, ExamPart } from "@/components/ui";
 import { courseFor } from "@/lib/course-index";
@@ -36,6 +38,11 @@ function taskAt(station: OsceStation, elapsed: number) {
   return station.tasks.length - 1;
 }
 
+const DOCTOR_KEY = "southward-doctor";
+
+type SeatState = "speaking" | "listening" | "thinking" | "idle";
+type Looks = { patient: AvatarLook; doctor: AvatarLook };
+
 export default function StationPage() {
   const { id } = useParams<{ id: string }>();
   const station = useStation(id);
@@ -46,13 +53,43 @@ export default function StationPage() {
   const [input, setInput] = useState("");
   const [feedback, setFeedback] = useState<OsceFeedback | null>(null);
   const [error, setError] = useState<string | null>(null);
-  const [voiceOut, setVoiceOut] = useState(false);
+  const [voiceOut, setVoiceOut] = useState(true);
+  const [handsFree, setHandsFree] = useState(false);
+  const [doc, setDoc] = useState(0);
+  const [doctorBeat, setDoctorBeat] = useState(false);
   const [prompt, setPrompt] = useState<string | null>(null);
   const startedAt = useRef(0);
   const lastTask = useRef(0);
+  const dictated = useRef(false);
+  const beatTimer = useRef<ReturnType<typeof setTimeout>>(undefined);
   const scroller = useRef<HTMLDivElement>(null);
   const patient = useStream();
-  const speech = useSpeech((finalText) => setInput((v) => (v ? v + " " : "") + finalText));
+  const speech = useSpeech((finalText) => {
+    dictated.current = true;
+    setInput((v) => (v ? v + " " : "") + finalText);
+  });
+
+  const looks = useMemo<Looks | null>(() => (station ? { patient: lookFor(station.patient), doctor: DOCTORS[doc] } : null), [station, doc]);
+  const patientVoice = useMemo(() => ({ sex: station?.patient.sex ?? "female", age: station?.patient.age ?? 40 }), [station]);
+  const voice = useVoice(patientVoice, DOCTORS[doc]);
+  const voiceOn = voiceOut && voice.supported;
+  // A refused microphone ends hands-free rather than reopening it in a loop.
+  const micBlocked = speech.error === "not-allowed" || speech.error === "service-not-allowed";
+  const handsOn = handsFree && speech.supported && !micBlocked;
+
+  useEffect(() => {
+    try {
+      const v = Number(localStorage.getItem(DOCTOR_KEY));
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      if (v > 0 && v < DOCTORS.length) setDoc(v);
+    } catch {}
+  }, []);
+  const chooseDoctor = (i: number) => {
+    setDoc(i);
+    try {
+      localStorage.setItem(DOCTOR_KEY, String(i));
+    } catch {}
+  };
 
   const elapsed = STATION_SECS - left;
   const current = station && phase === "station" ? taskAt(station, elapsed) : 0;
@@ -64,12 +101,13 @@ export default function StationPage() {
     startedAt.current = Date.now();
     lastTask.current = 0;
     setTurns([{ role: "assistant", content: station.patient.openingLine }]);
+    if (voiceOn) voice.speak(station.patient.openingLine, "patient");
   };
 
   const finish = async (transcript: Turn[]) => {
       if (!station) return;
       speech.stop();
-      window.speechSynthesis?.cancel();
+      voice.cancel();
       setPhase("marking");
       setError(null);
       try {
@@ -89,6 +127,35 @@ export default function StationPage() {
       }
   };
 
+  /** With the voice off, a typed line still shows the doctor saying it, for about as long as it takes to say. */
+  const beat = (text: string) => {
+    clearTimeout(beatTimer.current);
+    setDoctorBeat(true);
+    beatTimer.current = setTimeout(() => setDoctorBeat(false), Math.min(3500, 500 + text.length * 45));
+  };
+
+  const send = async (e?: React.FormEvent) => {
+    e?.preventDefault();
+    const text = input.trim();
+    if (!text || patient.loading || !station) return;
+    speech.stop();
+    setInput("");
+    // A dictated line has already been said out loud by the candidate; only a typed one is voiced for them.
+    const typed = !dictated.current;
+    dictated.current = false;
+    if (typed) {
+      if (voiceOn) voice.speak(text, "doctor");
+      else beat(text);
+    }
+    const next: Turn[] = [...turns, { role: "user", content: text }];
+    setTurns(next);
+    await patient.run("/api/patient", { stationId: station.id, messages: next }, (reply) => {
+      setTurns((t) => [...t, { role: "assistant", content: reply.trim() }]);
+      patient.reset();
+      if (voiceOn) voice.speak(reply.replace(/\[Examiner\][^\n]*/g, ""), "patient");
+    });
+  };
+
   useEffect(() => {
     if (phase !== "brief" && phase !== "station") return;
     const t = setInterval(() => setLeft((l) => l - 1), 1000);
@@ -96,15 +163,31 @@ export default function StationPage() {
   }, [phase]);
 
   // When the clock runs out: reading time rolls into the station, the station ends and is marked.
-  const latest = useRef({ beginStation, finish, turns });
+  const latest = useRef({ beginStation, finish, send, turns });
   useEffect(() => {
-    latest.current = { beginStation, finish, turns };
+    latest.current = { beginStation, finish, send, turns };
   });
   useEffect(() => {
     if (left > 0) return;
     if (phase === "brief") latest.current.beginStation();
     else if (phase === "station") latest.current.finish(latest.current.turns);
   }, [left, phase]);
+
+  // Hands-free: the microphone opens whenever it's the candidate's turn, once the patient has finished speaking, so
+  // it never hears the patient's own voice...
+  const startMic = speech.start;
+  useEffect(() => {
+    if (!handsOn || phase !== "station" || patient.loading || voice.busy || speech.listening) return;
+    const t = setTimeout(startMic, 400);
+    return () => clearTimeout(t);
+  }, [handsOn, phase, patient.loading, voice.busy, speech.listening, startMic]);
+
+  // ...and what they said goes to the patient when they pause.
+  useEffect(() => {
+    if (!handsOn || !speech.listening || speech.interim || !input.trim()) return;
+    const t = setTimeout(() => latest.current.send(), 1600);
+    return () => clearTimeout(t);
+  }, [handsOn, speech.listening, speech.interim, input]);
 
   // Time prompts, as in the real exam: nudge the candidate on when a task's suggested time is up.
   useEffect(() => {
@@ -120,36 +203,11 @@ export default function StationPage() {
     scroller.current?.scrollTo({ top: scroller.current.scrollHeight, behavior: "smooth" });
   }, [turns, patient.text]);
 
-  const say = useCallback(
-    (text: string) => {
-      if (!voiceOut || !("speechSynthesis" in window)) return;
-      const u = new SpeechSynthesisUtterance(text.replace(/\[Examiner\][^\n]*/g, ""));
-      const voices = window.speechSynthesis.getVoices();
-      const au = voices.find((v) => v.lang === "en-AU") ?? voices.find((v) => v.lang.startsWith("en"));
-      if (au) u.voice = au;
-      window.speechSynthesis.speak(u);
-    },
-    [voiceOut],
-  );
-
-  const send = async (e?: React.FormEvent) => {
-    e?.preventDefault();
-    const text = input.trim();
-    if (!text || patient.loading || !station) return;
-    speech.stop();
-    setInput("");
-    const next: Turn[] = [...turns, { role: "user", content: text }];
-    setTurns(next);
-    await patient.run("/api/patient", { stationId: station.id, messages: next }, (reply) => {
-      setTurns((t) => [...t, { role: "assistant", content: reply.trim() }]);
-      patient.reset();
-      say(reply);
-    });
-  };
+  useEffect(() => () => clearTimeout(beatTimer.current), []);
 
   // Only this station is downloaded, so it arrives a moment after the screen; nothing to show until then.
   if (station === undefined) return <div aria-busy="true" className="min-h-dvh" />;
-  if (!station) return <Empty title="Station not found" />;
+  if (!station || !looks) return <Empty title="Station not found" />;
   const name = station.patient.role ? station.patient.name : station.patient.name.split(" ")[0];
 
   if (phase === "brief")
@@ -174,12 +232,39 @@ export default function StationPage() {
               </li>
             ))}
           </ol>
-          <div className="mt-8 flex flex-wrap items-center gap-4">
+
+          <h2 className="mt-7 font-semibold">You</h2>
+          <div className="mt-3 flex flex-wrap gap-3" role="radiogroup" aria-label="Your doctor">
+            {DOCTORS.map((d, i) => (
+              <button
+                key={i}
+                role="radio"
+                aria-checked={doc === i}
+                aria-label={`Doctor ${i + 1}`}
+                onClick={() => chooseDoctor(i)}
+                className={clsx("rounded-full p-0.5 ring-2 transition", doc === i ? "ring-brand" : "ring-transparent hover:ring-line")}
+              >
+                <Avatar look={d} doctor className="size-14" />
+              </button>
+            ))}
+          </div>
+
+          <div className="mt-6 flex flex-col gap-2.5">
+            {voice.supported && (
+              <label className="flex items-center gap-2 text-muted">
+                <input type="checkbox" checked={voiceOut} onChange={(e) => setVoiceOut(e.target.checked)} className="accent-[var(--brand)]" />
+                Speak aloud: {name} answers in their own voice, and what you type is said in yours
+              </label>
+            )}
+            {speech.supported && (
+              <label className="flex items-center gap-2 text-muted">
+                <input type="checkbox" checked={handsFree} onChange={(e) => setHandsFree(e.target.checked)} className="accent-[var(--brand)]" />
+                Hands-free: just talk, and each line goes to {name} when you pause
+              </label>
+            )}
+          </div>
+          <div className="mt-6">
             <Button onClick={beginStation}>Enter the room</Button>
-            <label className="flex items-center gap-2 text-muted">
-              <input type="checkbox" checked={voiceOut} onChange={(e) => setVoiceOut(e.target.checked)} className="accent-[var(--brand)]" />
-              {name} speaks replies aloud
-            </label>
           </div>
           <p className="mt-5 text-sm text-muted">
             You&rsquo;ll get a time prompt when each task&rsquo;s time is up.{" "}
@@ -190,7 +275,12 @@ export default function StationPage() {
       </Shell>
     );
 
-  if (phase === "station")
+  if (phase === "station") {
+    const doctorTalking = voice.speaking === "doctor" || doctorBeat || (speech.listening && !!speech.interim);
+    const patientTalking = voice.speaking === "patient" || (!voiceOn && patient.loading && !!patient.text);
+    const patientState: SeatState = patientTalking ? "speaking" : doctorTalking ? "listening" : patient.loading ? "thinking" : "idle";
+    const doctorState: SeatState = doctorTalking ? "speaking" : patientTalking || speech.listening ? "listening" : "idle";
+    const who = station.patient.role ?? `${station.patient.age}-year-old patient`;
     return (
       <Shell
         title={station.title}
@@ -198,16 +288,33 @@ export default function StationPage() {
         urgent={left < 60}
         right={
           <div className="flex items-center gap-1.5">
-            <button
-              onClick={() => {
-                setVoiceOut(!voiceOut);
-                window.speechSynthesis?.cancel();
-              }}
-              aria-label={voiceOut ? "Mute voice" : "Speak replies aloud"}
-              className="rounded-full p-2 text-muted hover:bg-sunk"
-            >
-              {voiceOut ? <Volume2 size={18} /> : <VolumeX size={18} />}
-            </button>
+            {voice.supported && (
+              <button
+                onClick={() => {
+                  setVoiceOut(!voiceOut);
+                  voice.cancel();
+                }}
+                aria-label={voiceOut ? "Mute voices" : "Speak aloud"}
+                aria-pressed={voiceOut}
+                className="rounded-full p-2 text-muted hover:bg-sunk"
+              >
+                {voiceOut ? <Volume2 size={18} /> : <VolumeX size={18} />}
+              </button>
+            )}
+            {speech.supported && (
+              <button
+                onClick={() => {
+                  if (handsFree) speech.stop();
+                  setHandsFree(!handsFree);
+                }}
+                aria-label="Hands-free"
+                aria-pressed={handsOn}
+                title="Hands-free: talk, and each line sends when you pause"
+                className={clsx("rounded-full p-2 hover:bg-sunk", handsOn ? "bg-brand-soft text-brand" : "text-muted")}
+              >
+                <AudioLines size={18} />
+              </button>
+            )}
             <Button size="sm" variant="outline" onClick={() => finish(turns)}>
               Finish
             </Button>
@@ -215,6 +322,23 @@ export default function StationPage() {
         }
       >
         <TaskTrack station={station} current={current} elapsed={elapsed} />
+        <div className="border-b border-line px-4 py-4 sm:px-8 sm:py-6">
+          <div className="mx-auto flex max-w-2xl items-start justify-center gap-10 sm:gap-24">
+            <Seat
+              look={looks.patient}
+              name={station.patient.name}
+              state={patientState}
+              status={{ speaking: "Speaking", listening: "Listening", thinking: "Thinking", idle: who }[patientState]}
+            />
+            <Seat
+              look={looks.doctor}
+              doctor
+              name="You"
+              state={doctorState}
+              status={doctorTalking ? "Speaking" : speech.listening ? "Mic on" : patientTalking ? "Listening" : "Doctor"}
+            />
+          </div>
+        </div>
         {prompt && (
           <div className="rise mx-auto flex w-full max-w-2xl items-start gap-3 px-4 pt-3" role="status">
             <p className="flex-1 rounded-xl bg-ochre-soft px-4 py-2.5 text-sm font-medium text-ochre-ink">{prompt}</p>
@@ -226,23 +350,31 @@ export default function StationPage() {
         <div ref={scroller} className="min-h-0 flex-1 overflow-y-auto px-4 py-5 sm:px-8">
           <div className="mx-auto flex max-w-2xl flex-col gap-3">
             {turns.map((t, i) => (
-              <Bubble key={i} turn={t} name={name} />
+              <Bubble key={i} turn={t} name={name} looks={looks} />
             ))}
-            {patient.loading && <Bubble turn={{ role: "assistant", content: patient.text || "…" }} name={name} streaming />}
+            {patient.loading && patient.text && <Bubble turn={{ role: "assistant", content: patient.text }} name={name} looks={looks} streaming />}
             {patient.error && <p className="text-bad">{patient.error}</p>}
           </div>
         </div>
         <form onSubmit={send} className="border-t border-line bg-paper px-4 py-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] sm:px-8">
+          {handsFree && micBlocked && (
+            <p className="mx-auto mb-2 max-w-2xl text-sm text-bad">The microphone is blocked, so hands-free is off. Allow it in your browser to talk.</p>
+          )}
           <div className="mx-auto flex max-w-2xl items-end gap-2">
             {speech.supported && (
               <button
                 type="button"
-                onClick={speech.listening ? speech.stop : speech.start}
+                onClick={() => {
+                  if (speech.listening) {
+                    speech.stop();
+                    setHandsFree(false);
+                  } else speech.start();
+                }}
                 aria-label={speech.listening ? "Stop listening" : "Speak"}
                 aria-pressed={speech.listening}
                 className={clsx(
                   "grid h-11 w-11 shrink-0 place-items-center rounded-full border",
-                  speech.listening ? "border-bad bg-bad text-white" : "border-line bg-surface hover:border-brand",
+                  speech.listening ? "av-ring border-bad bg-bad text-white" : "border-line bg-surface hover:border-brand",
                 )}
               >
                 {speech.listening ? <MicOff size={18} /> : <Mic size={18} />}
@@ -250,7 +382,10 @@ export default function StationPage() {
             )}
             <textarea
               value={speech.listening && speech.interim ? `${input} ${speech.interim}`.trim() : input}
-              onChange={(e) => setInput(e.target.value)}
+              onChange={(e) => {
+                dictated.current = false;
+                setInput(e.target.value);
+              }}
               onKeyDown={(e) => {
                 if (e.key === "Enter" && !e.shiftKey) {
                   e.preventDefault();
@@ -258,16 +393,17 @@ export default function StationPage() {
                 }
               }}
               rows={1}
-              placeholder={speech.listening ? "Listening…" : `Speak to ${name}`}
+              placeholder={speech.listening ? (handsOn ? "Listening. Your line sends when you pause" : "Listening…") : `Speak to ${name}`}
               className="max-h-40 min-h-11 flex-1 resize-none rounded-2xl border border-line bg-surface px-4 py-2.5 outline-none focus:border-brand"
             />
-            <Button type="submit" className="h-11 w-11 shrink-0 px-0" aria-label="Send" disabled={!input.trim() || patient.loading}>
+            <Button type="submit" size="icon" aria-label="Send" disabled={!input.trim() || patient.loading}>
               <Send size={17} />
             </Button>
           </div>
         </form>
       </Shell>
     );
+  }
 
   if (phase === "marking")
     return (
@@ -290,7 +426,31 @@ export default function StationPage() {
       </Shell>
     );
 
-  return <Feedback station={station} fb={feedback!} turns={turns} name={name} />;
+  return <Feedback station={station} fb={feedback!} turns={turns} name={name} looks={looks} />;
+}
+
+/** One side of the consulting room: a portrait that talks while its person speaks, with who they are and what they're doing. */
+function Seat({ look, doctor, name, state, status }: { look: AvatarLook; doctor?: boolean; name: string; state: SeatState; status: string }) {
+  return (
+    <figure className="flex w-28 flex-col items-center gap-2 sm:w-40">
+      <div className={clsx("relative rounded-full ring-2 transition-shadow", state === "speaking" ? "av-ring ring-brand" : "ring-transparent")}>
+        <Avatar look={look} doctor={doctor} speaking={state === "speaking"} listening={state === "listening"} className="size-24 sm:size-36" />
+        {state === "thinking" && (
+          <span className="absolute -right-2 top-1 flex gap-1 rounded-full border border-line bg-surface px-2.5 py-2 shadow-sm" aria-hidden>
+            {[0, 1, 2].map((i) => (
+              <span key={i} className="size-1.5 animate-pulse rounded-full bg-muted" style={{ animationDelay: `${i * 0.2}s` }} />
+            ))}
+          </span>
+        )}
+      </div>
+      <figcaption className="w-full text-center leading-tight">
+        <span className="block truncate font-medium">{name}</span>
+        <span className={clsx("block truncate text-xs", state === "speaking" ? "font-medium text-brand" : "text-muted")}>
+          {status}
+        </span>
+      </figcaption>
+    </figure>
+  );
 }
 
 function TaskTrack({ station, current, elapsed }: { station: OsceStation; current: number; elapsed: number }) {
@@ -337,36 +497,42 @@ function Shell({ title, timer, urgent, right, children }: { title: string; timer
   );
 }
 
-function Bubble({ turn, name, streaming }: { turn: Turn; name: string; streaming?: boolean }) {
+function Bubble({ turn, name, looks, streaming }: { turn: Turn; name: string; looks: Looks; streaming?: boolean }) {
   const me = turn.role === "user";
   const parts = turn.content.split(/\n(?=\[Examiner\])|(?=\[Examiner\])/);
   return (
-    <div className={clsx("flex flex-col gap-1", me ? "items-end" : "items-start")}>
-      <span className="px-1 text-xs text-muted">{me ? "You" : name}</span>
-      {parts.map((p, i) =>
-        p.startsWith("[Examiner]") ? (
-          <div key={i} className="max-w-[85%] rounded-2xl border border-ochre/40 bg-ochre-soft px-4 py-2.5 text-[0.95rem]">
-            <span className="font-medium text-ochre-ink">Finding: </span>
-            {p.replace("[Examiner]", "").trim()}
-          </div>
-        ) : p.trim() ? (
-          <div
-            key={i}
-            className={clsx(
-              "max-w-[85%] whitespace-pre-wrap rounded-2xl px-4 py-2.5 leading-relaxed",
-              me ? "bg-brand text-brand-ink" : "border border-line bg-surface font-serif text-[1.03rem]",
-              streaming && "caret",
-            )}
-          >
-            {p.trim()}
-          </div>
-        ) : null,
-      )}
+    <div className={clsx("flex items-end gap-2", me && "flex-row-reverse")}>
+      <Avatar look={me ? looks.doctor : looks.patient} doctor={me} className="mb-0.5 size-8 shrink-0" />
+      <div className={clsx("flex min-w-0 flex-1 flex-col gap-1", me ? "items-end" : "items-start")}>
+        <span className="px-1 text-xs text-muted">{me ? "You" : name}</span>
+        {parts.map((p, i) =>
+          p.startsWith("[Examiner]") ? (
+            <div key={i} className="flex max-w-[88%] gap-2 rounded-2xl border border-ochre/40 bg-ochre-soft px-4 py-2.5 text-[0.95rem]">
+              <ClipboardList size={16} className="mt-1 shrink-0 text-ochre-ink" aria-hidden />
+              <span>
+                <span className="font-medium text-ochre-ink">Examiner: </span>
+                {p.replace("[Examiner]", "").trim()}
+              </span>
+            </div>
+          ) : p.trim() ? (
+            <div
+              key={i}
+              className={clsx(
+                "max-w-[88%] whitespace-pre-wrap rounded-2xl px-4 py-2.5 leading-relaxed",
+                me ? "rounded-br-md bg-brand text-brand-ink" : "rounded-bl-md border border-line bg-surface font-serif text-[1.03rem]",
+                streaming && "caret",
+              )}
+            >
+              {p.trim()}
+            </div>
+          ) : null,
+        )}
+      </div>
     </div>
   );
 }
 
-function Feedback({ station, fb, turns, name }: { station: OsceStation; fb: OsceFeedback; turns: Turn[]; name: string }) {
+function Feedback({ station, fb, turns, name, looks }: { station: OsceStation; fb: OsceFeedback; turns: Turn[]; name: string; looks: Looks }) {
   const pass = fb.globalRating >= 4;
   const [next] = useState(() => {
     const same = STATION_LIST.filter((s) => s.id !== station.id && s.difficulty === station.difficulty);
@@ -457,7 +623,7 @@ function Feedback({ station, fb, turns, name }: { station: OsceStation; fb: Osce
         <Fold title="Your transcript">
           <div className="flex flex-col gap-3">
             {turns.map((t, i) => (
-              <Bubble key={i} turn={t} name={name} />
+              <Bubble key={i} turn={t} name={name} looks={looks} />
             ))}
           </div>
         </Fold>

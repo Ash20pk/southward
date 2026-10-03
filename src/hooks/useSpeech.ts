@@ -11,7 +11,7 @@ interface Recognition {
   stop(): void;
   onresult: ((e: { resultIndex: number; results: ArrayLike<{ isFinal: boolean; 0: { transcript: string } }> }) => void) | null;
   onend: (() => void) | null;
-  onerror: (() => void) | null;
+  onerror: ((e: { error: string }) => void) | null;
 }
 
 function getCtor(): (new () => Recognition) | null {
@@ -25,6 +25,8 @@ export function useSpeech(onFinal: (text: string) => void) {
   const [listening, setListening] = useState(false);
   const [interim, setInterim] = useState("");
   const [supported, setSupported] = useState(false);
+  // "not-allowed" when the microphone is refused, so a caller that reopens it automatically knows to stop.
+  const [error, setError] = useState<string | null>(null);
   const rec = useRef<Recognition | null>(null);
   const cb = useRef(onFinal);
 
@@ -56,8 +58,12 @@ export function useSpeech(onFinal: (text: string) => void) {
       setListening(false);
       setInterim("");
     };
-    r.onerror = () => setListening(false);
+    r.onerror = (e) => {
+      setListening(false);
+      if (e.error !== "no-speech" && e.error !== "aborted") setError(e.error);
+    };
     rec.current = r;
+    setError(null);
     r.start();
     setListening(true);
   }, []);
@@ -67,5 +73,5 @@ export function useSpeech(onFinal: (text: string) => void) {
     rec.current = null;
   }, []);
 
-  return { supported, listening, interim, start, stop };
+  return { supported, listening, interim, error, start, stop };
 }
