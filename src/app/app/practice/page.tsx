@@ -353,11 +353,12 @@ function Generator({ defaultTopic, onStart }: { defaultTopic?: string; onStart: 
 
       <div className="mt-5 flex flex-col gap-4">
         {/* Both modes' fields share one grid cell, the other one hidden, so the card is as tall as the taller of the two
-            and switching between them moves nothing on the page. */}
-        <div className="grid">
+            and switching between them moves nothing on the page. minmax(0, 1fr) keeps the cell the card's width; left to
+            size itself, it grows to fit the longest topic name and the select runs off the card. */}
+        <div className="grid grid-cols-[minmax(0,1fr)]">
           <label className={clsx("flex flex-col gap-1.5 [grid-area:1/1]", mode !== "topic" && "invisible")} inert={mode !== "topic"}>
             <span className="text-sm text-sky-muted">Topic</span>
-            <select value={topic} onChange={(e) => setTopic(e.target.value)} className={clsx(field, "[&>optgroup]:text-black [&>option]:text-black")}>
+            <select value={topic} onChange={(e) => setTopic(e.target.value)} className={clsx(field, "w-full min-w-0 [&>optgroup]:text-black [&>option]:text-black")}>
               {DISCIPLINES.map((d) => (
                 <optgroup key={d.id} label={d.name}>
                   {SYLLABUS.filter((t) => t.discipline === d.id).map((t) => (
