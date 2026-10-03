@@ -61,6 +61,7 @@ export default function StationPage() {
   const startedAt = useRef(0);
   const lastTask = useRef(0);
   const dictated = useRef(false);
+  const sending = useRef(false);
   const beatTimer = useRef<ReturnType<typeof setTimeout>>(undefined);
   const scroller = useRef<HTMLDivElement>(null);
   const patient = useStream();
@@ -76,7 +77,7 @@ export default function StationPage() {
   const voice = useVoice(patientVoice, DOCTORS[doc]);
   const voiceOn = voiceOut && voice.supported;
   // A refused microphone ends hands-free rather than reopening it in a loop.
-  const micBlocked = speech.error === "not-allowed" || speech.error === "service-not-allowed";
+  const micBlocked = speech.error === "not-allowed";
   const handsOn = handsFree && speech.supported && !micBlocked;
 
   useEffect(() => {
@@ -138,11 +139,17 @@ export default function StationPage() {
 
   const send = async (e?: React.FormEvent) => {
     e?.preventDefault();
-    const text = draft.trim();
-    if (!text || patient.loading || !station) return;
-    // The words still being heard are already in the line; stop the mic without letting them arrive a second time.
-    if (speech.interim) dictated.current = true;
-    speech.abort();
+    if (patient.loading || !station || sending.current) return;
+    let text = draft.trim();
+    // Words still being heard (or a recording still being written down) go in this line, and only this line.
+    if (speech.listening || speech.transcribing) {
+      sending.current = true;
+      const rest = await speech.flush();
+      sending.current = false;
+      text = [input.trim(), rest].filter(Boolean).join(" ");
+      if (rest) dictated.current = true;
+    }
+    if (!text) return;
     setInput("");
     // A dictated line has already been said out loud by the candidate; only a typed one is voiced for them.
     const typed = !dictated.current;
@@ -181,17 +188,18 @@ export default function StationPage() {
   // it never hears the patient's own voice...
   const startMic = speech.start;
   useEffect(() => {
-    if (!handsOn || phase !== "station" || patient.loading || voice.busy || speech.listening) return;
-    const t = setTimeout(startMic, 400);
+    if (!handsOn || phase !== "station" || patient.loading || voice.busy || speech.listening || speech.transcribing) return;
+    const t = setTimeout(() => startMic({ endOnPause: true }), 400);
     return () => clearTimeout(t);
-  }, [handsOn, phase, patient.loading, voice.busy, speech.listening, startMic]);
+  }, [handsOn, phase, patient.loading, voice.busy, speech.listening, speech.transcribing, startMic]);
 
   // ...and what they said goes to the patient when they pause.
   useEffect(() => {
-    if (!handsOn || !speech.listening || speech.interim || !input.trim()) return;
-    const t = setTimeout(() => latest.current.send(), 1600);
+    // A recorded line has ended at the pause already, so it goes as soon as it's written down.
+    if (!handsOn || speech.interim || speech.transcribing || !input.trim() || !dictated.current) return;
+    const t = setTimeout(() => latest.current.send(), speech.listening ? 1600 : 300);
     return () => clearTimeout(t);
-  }, [handsOn, speech.listening, speech.interim, input]);
+  }, [handsOn, speech.listening, speech.interim, speech.transcribing, input]);
 
   // Time prompts, as in the real exam: nudge the candidate on when a task's suggested time is up.
   useEffect(() => {
@@ -280,7 +288,7 @@ export default function StationPage() {
     );
 
   if (phase === "station") {
-    const doctorTalking = voice.speaking === "doctor" || doctorBeat || (speech.listening && !!speech.interim);
+    const doctorTalking = voice.speaking === "doctor" || doctorBeat || speech.hearing || (speech.listening && !!speech.interim);
     const patientTalking = voice.speaking === "patient" || (!voiceOn && patient.loading && !!patient.text);
     const patientState: SeatState = patientTalking ? "speaking" : doctorTalking ? "listening" : patient.loading ? "thinking" : "idle";
     const doctorState: SeatState = doctorTalking ? "speaking" : patientTalking || speech.listening ? "listening" : "idle";
@@ -361,8 +369,10 @@ export default function StationPage() {
           </div>
         </div>
         <form onSubmit={send} className="border-t border-line bg-paper px-4 py-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] sm:px-8">
-          {handsFree && micBlocked && (
-            <p className="mx-auto mb-2 max-w-2xl text-sm text-bad">The microphone is blocked, so hands-free is off. Allow it in your browser to talk.</p>
+          {micBlocked ? (
+            <p className="mx-auto mb-2 max-w-2xl text-sm text-bad">The microphone is blocked{handsFree && ", so hands-free is off"}. Allow it for this site in your browser to talk.</p>
+          ) : (
+            speech.error && <p className="mx-auto mb-2 max-w-2xl text-sm text-bad">{speech.error}</p>
           )}
           <div className="mx-auto flex max-w-2xl items-end gap-2">
             {speech.supported && (
@@ -407,10 +417,18 @@ export default function StationPage() {
                 }
               }}
               rows={1}
-              placeholder={speech.listening ? (handsOn ? "Listening. Your line sends when you pause" : "Listening…") : `Speak to ${name}`}
+              placeholder={
+                speech.transcribing && !speech.listening
+                  ? "Writing down what you said…"
+                  : speech.listening
+                    ? handsOn
+                      ? "Listening. Your line sends when you pause"
+                      : "Listening…"
+                    : `Speak to ${name}`
+              }
               className="max-h-40 min-h-11 flex-1 resize-none rounded-2xl border border-line bg-surface px-4 py-2.5 outline-none focus:border-brand"
             />
-            <Button type="submit" size="icon" aria-label="Send" disabled={!draft.trim() || patient.loading}>
+            <Button type="submit" size="icon" aria-label="Send" disabled={(!draft.trim() && !speech.listening && !speech.transcribing) || patient.loading}>
               <Send size={17} />
             </Button>
           </div>

@@ -109,6 +109,22 @@ export function streamText(opts: {
   });
 }
 
+/**
+ * Speech to text, for browsers that can't do it themselves (Chromium browsers other than Chrome offer the speech API
+ * but can't reach Google's speech service). Always OpenAI, whichever provider writes the text: Anthropic has no
+ * transcription API.
+ */
+export async function transcribe(file: File, prompt?: string): Promise<string> {
+  if (!process.env.OPENAI_API_KEY) throw new Error("Voice typing needs OPENAI_API_KEY on the server.");
+  const res = await openai().audio.transcriptions.create({
+    file,
+    model: process.env.OPENAI_TRANSCRIBE_MODEL || "gpt-4o-mini-transcribe",
+    language: "en",
+    prompt,
+  });
+  return res.text.trim();
+}
+
 /** One-shot structured call: returns the Zod-validated object or throws with a readable message. */
 export async function structured<S extends z.ZodType>(opts: {
   system: string;
