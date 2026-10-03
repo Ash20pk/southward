@@ -90,7 +90,8 @@ function search(colleges: College[], query: string) {
   return scored.sort((a, b) => b[0] - a[0] || a[1].name.localeCompare(b[1].name)).slice(0, 7).map(([, c]) => c);
 }
 
-export function Eligibility() {
+/** `intro` is the section's heading: under the mascot, which arrives first and asks the question (MascotRise). */
+export function Eligibility({ intro }: { intro?: React.ReactNode }) {
   const [step, setStep] = useState<Step>("college");
   const [colleges, setColleges] = useState<College[] | null>(null);
   const [college, setCollege] = useState<College | null>(null);
@@ -142,14 +143,16 @@ export function Eligibility() {
   return (
     <div className="mx-auto w-full max-w-2xl">
       <div className="flex items-end justify-center gap-3 sm:gap-5">
-        <div className="w-16 shrink-0 sm:w-20">
+        {/* Carried up from the features road (MascotRise). */}
+        <div data-elig-mascot className="elig-mascot w-16 shrink-0 sm:w-20">
           <Mascot mood={mood} wave={step === "college" || verdict === "eligible"} className="w-full" />
         </div>
-        <p key={`${step}-${verdict}`} aria-hidden className="bubble tip-pop mb-3 max-w-xs px-3.5 py-2.5 text-left text-[0.9rem] leading-snug text-sky-ink">
+        <p key={`${step}-${verdict}`} aria-hidden className="elig-say bubble tip-pop mb-3 max-w-xs px-3.5 py-2.5 text-left text-[0.9rem] leading-snug text-sky-ink">
           {SAYS[step === "result" ? verdict : step]}
           <span className="bubble-tail left -left-[0.5rem] bottom-4" />
         </p>
       </div>
+      {intro}
 
       <div ref={card} className="glass mt-5 scroll-mt-20 rounded-3xl p-5 text-left sm:p-7">
         {/* Progress: three questions, then the answer. */}

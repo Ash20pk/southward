@@ -571,6 +571,12 @@ html[data-road="on"] .road-land {
     animation: none;
   }
 }
+/* The eligibility check's mascot is the road's, carried up to it (MascotRise): hidden until it arrives, then it speaks. */
+html[data-elig="off"] .elig-mascot,
+html[data-elig="off"] .elig-say {
+  visibility: hidden;
+  animation: none;
+}
 /* Fades a background layer out at its top and bottom, so a section has no visible edge. */
 .soft-edges {
   -webkit-mask-image: linear-gradient(180deg, transparent, #000 30%, #000 70%, transparent);
@@ -766,7 +772,7 @@ html:has(#journey) footer {
 /*
  * The end of the home page, one topic to a screen like the pinned scenes above it: each section (.screen) is a full
  * screen, and its content (.spotlight) is in focus only while it holds the screen. Coming in, it rises from dim and a
- * little small; going, it dims and settles back, so neighbours crossfade rather than share the view. Driven by the
+ * little small; going, it dims and settles back, so neighbours hand over rather than share the view. Driven by the
  * scroll itself, opacity and transform only, so the compositor runs it. A section taller than the screen (the FAQ with
  * answers open, on a phone) stays fully lit while it's being read: its entry ends as its top reaches the top, and its
  * exit only starts as its bottom reaches the bottom. Without scroll timelines, or with reduced motion, all simply shows.
@@ -774,16 +780,16 @@ html:has(#journey) footer {
 .screen {
   view-timeline: --screen block;
 }
-/* One screen leads at every point: the one leaving has dimmed before the next lights up, with a short dark beat
-   between them (like the black between the flight and the roadmap). */
+/* One screen leads at every point, with no empty beat between them: the next starts to light up as the one leaving is
+   half gone, and is in full focus well before it reaches the top. */
 @keyframes spotlight {
   entry 0%,
-  entry 40% {
+  entry 15% {
     opacity: 0;
     transform: translate3d(0, 6vh, 0) scale(0.96);
   }
-  entry 90%,
-  exit 10% {
+  entry 70%,
+  exit 15% {
     opacity: 1;
     transform: none;
   }
@@ -795,11 +801,11 @@ html:has(#journey) footer {
 }
 @keyframes spotlight-in {
   entry 0%,
-  entry 40% {
+  entry 15% {
     opacity: 0;
     transform: translate3d(0, 6vh, 0) scale(0.96);
   }
-  entry 90%,
+  entry 75%,
   exit 100% {
     opacity: 1;
     transform: none;

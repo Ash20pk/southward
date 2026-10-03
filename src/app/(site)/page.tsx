@@ -5,7 +5,7 @@ import { ContrastTable } from "@/components/ContrastTable";
 import { AppCta, StandaloneRedirect } from "@/components/site/client";
 import { Journey } from "@/components/site/home/Journey";
 import { Roadmap } from "@/components/site/home/Roadmap";
-import { MascotDrop, MascotHandoff } from "@/components/site/home/MascotHandoff";
+import { MascotDrop, MascotHandoff, MascotRise } from "@/components/site/home/MascotHandoff";
 import { Features } from "@/components/site/home/Features";
 import { Starfield } from "@/components/site/home/Starfield";
 import { Eligibility } from "@/components/site/home/Eligibility";
@@ -267,6 +267,7 @@ export default function Home() {
         items={INSIDE.map(({ icon: Icon, title, body }) => ({ title, body, icon: <Icon size={26} strokeWidth={1.6} aria-hidden /> }))}
       />
 
+      <MascotRise />
       {/* The hook after the features: can you sit the AMC exams? A short check, and sign-up for anyone it's open to. Under
           the same night as the rest of the page: stars and a soft glow that fade out at the edges, so it never starts at a
           line. */}
@@ -276,12 +277,16 @@ export default function Home() {
           <div className="absolute inset-0 bg-[radial-gradient(45%_55%_at_50%_55%,rgb(70_95_160/0.16),transparent_75%)]" />
         </div>
         <div className="spotlight relative mx-auto flex w-full max-w-3xl flex-col items-center px-4 py-12 text-center sm:px-8">
-          <p className="text-sm text-[var(--ochre)]">Before anything else</p>
-          <h2 className="mt-2 text-balance font-serif text-4xl font-light tracking-tight sm:text-5xl">Can you sit the AMC exams?</h2>
-          <p className="mt-3 max-w-md text-sky-muted">Check your college and your degree year against the rule the AMC uses. About a minute.</p>
-          <div className="mt-10 w-full">
-            <Eligibility />
-          </div>
+          {/* The mascot comes first, carried up from the road, and the heading follows it in, so the two never cross. */}
+          <Eligibility
+            intro={
+              <div className="mt-6 flex flex-col items-center">
+                <p className="text-sm text-[var(--ochre)]">Before anything else</p>
+                <h2 className="mt-2 text-balance font-serif text-4xl font-light tracking-tight sm:text-5xl">Can you sit the AMC exams?</h2>
+                <p className="mt-3 max-w-md text-sky-muted">Check your college and your degree year against the rule the AMC uses. About a minute.</p>
+              </div>
+            }
+          />
         </div>
       </section>
 

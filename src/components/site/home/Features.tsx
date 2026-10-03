@@ -11,9 +11,11 @@ export interface Feature {
   icon: ReactNode;
 }
 
-// How the scroll is spent, in screen heights after the stage pins: the words fade in once the mascot has landed, then
+// How the scroll is spent, in screen heights: before the stage pins, the road comes up over the end of the roadmap
+// (ENTRY). After it pins: the words fade in once the mascot has landed, then
 // one stop per feature (a short walk to it, then a hold on it), then the road closes up to show every stop, then a
 // hold on that.
+const ENTRY = 0.7;
 const INTRO = 0.3;
 const STOP = 0.7;
 const WALK = 0.5; // of each stop, the share spent walking there: a third of a screen, so a flick can't skip it
@@ -35,6 +37,7 @@ export function Features({ heading, items }: { heading: ReactNode; items: Featur
   const section = useRef<HTMLElement>(null);
   const stage = useRef<HTMLDivElement>(null);
   const road = useRef<HTMLDivElement>(null);
+  const roadWrap = useRef<HTMLDivElement>(null);
   const paint = useRef<HTMLDivElement>(null);
   const walker = useRef<HTMLDivElement>(null);
   const recap = useRef<HTMLDivElement>(null);
@@ -60,12 +63,21 @@ export function Features({ heading, items }: { heading: ReactNode; items: Featur
       if (!el || !box) return;
       const vh = window.innerHeight;
       const vw = box.clientWidth;
-      // Screens scrolled since the stage pinned (negative while it's still rising into view, under the falling mascot).
+      // Screens scrolled since the stage pinned (negative while it comes in over the roadmap's exit).
       const raw = -el.getBoundingClientRect().top / vh;
       return () => write(box, vw, raw);
     });
 
     function write(box: HTMLElement, vw: number, raw: number) {
+      // The section overlaps the roadmap's last screen. Over it the stage holds still as if already pinned, and the road
+      // rises from the bottom of the screen to meet the mascot dropping onto it (MascotDrop).
+      const vh = window.innerHeight;
+      const entry = still ? (raw >= -0.1 ? 1 : 0) : ease(clamp((raw + ENTRY) / ENTRY));
+      // Not moved at all before it starts coming in, when it's hidden: that would be style work every frame for nothing.
+      const hold = raw < 0 ? Math.max(raw, -ENTRY) * vh : 0;
+      put(roadWrap.current, "opacity", entry.toFixed(3));
+      put(roadWrap.current, "transform", `translate3d(0, ${((1 - entry) * vh * 0.3).toFixed(1)}px, 0)`);
+
       // Only the road comes up with the drop; the words wait until the mascot has landed, so it never falls through them.
       const intro = still ? (raw >= 0 ? 1 : 0) : clamp(raw / INTRO);
       put(words.current, "opacity", intro.toFixed(3));
@@ -133,12 +145,11 @@ export function Features({ heading, items }: { heading: ReactNode; items: Featur
       });
 
       // Leaving: once the stage unpins, it dims and shrinks back a touch as it scrolls away, so the page below comes in on a
-      // soft edge rather than a hard one.
-      // Gone by the time the next screen starts to light up, so only one topic is ever in focus.
-      const leave = still ? 0 : ease(clamp((raw - (screens - 1)) / 0.4));
+      // soft edge rather than a hard one. The mascot doesn't go with it: MascotRise carries it up to the eligibility check.
+      const leave = still ? 0 : ease(clamp((raw - (screens - 1)) / 0.3));
       put(box, "opacity", (1 - leave).toFixed(3));
-      put(box, "visibility", leave > 0.999 ? "hidden" : "visible");
-      put(box, "transform", leave > 0 ? `scale(${(1 - 0.05 * leave).toFixed(4)})` : "none");
+      put(box, "visibility", leave > 0.999 || raw < -ENTRY ? "hidden" : "visible");
+      put(box, "transform", hold || leave ? `translate3d(0, ${hold.toFixed(1)}px, 0) scale(${(1 - 0.05 * leave).toFixed(4)})` : "none");
 
       setWalking(moving);
       setDone(pullBack > 0.6);
@@ -147,7 +158,14 @@ export function Features({ heading, items }: { heading: ReactNode; items: Featur
 
 
   return (
-    <section ref={section} id="features" data-header="night" className="relative text-sky-ink" style={{ height: `${screens * 100}svh` }}>
+    <section
+      ref={section}
+      id="features"
+      data-header="night"
+      className="relative text-sky-ink"
+      // Over the roadmap's last screen, where the road comes in (see ENTRY).
+      style={{ height: `${screens * 100}svh`, marginTop: "-100svh" }}
+    >
       <ul className="sr-only">
         {items.map((f) => (
           <li key={f.title}>
@@ -215,7 +233,7 @@ export function Features({ heading, items }: { heading: ReactNode; items: Featur
 
         {/* The road. The scroll handler slides it under the mascot and, at the end, closes up its stops. Wider than the
             screen, so it runs off both edges. */}
-        <div className="road-edges relative mb-[max(1.5rem,env(safe-area-inset-bottom))] h-44 shrink-0 sm:mb-10 sm:h-52 [@media(max-height:700px)]:mb-[max(0.75rem,env(safe-area-inset-bottom))] [@media(max-height:700px)]:h-36">
+        <div ref={roadWrap} className="road-edges relative mb-[max(1.5rem,env(safe-area-inset-bottom))] h-44 shrink-0 sm:mb-10 sm:h-52 [@media(max-height:700px)]:mb-[max(0.75rem,env(safe-area-inset-bottom))] [@media(max-height:700px)]:h-36">
           <div
             ref={road}
             className="absolute inset-y-0 left-0"

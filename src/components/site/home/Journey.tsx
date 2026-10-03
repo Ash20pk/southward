@@ -170,8 +170,8 @@ export function Journey({ logo, arrival, fallback }: { logo: ReactNode; arrival:
 
       // 5. On the black: "Welcome to Australia.", then the mascot says hello.
       const arr = ease(seg(p, ...STAGES.arrive));
-      // Then it lifts away as the mascot sets off for the roadmap.
-      const leave = ease(seg(p, ...STAGES.handoff));
+      // Then it lifts away as the mascot sets off for the roadmap, quickly, so the roadmap has the screen to itself.
+      const leave = ease(seg(p, STAGES.handoff[0], STAGES.handoff[0] + 0.06));
       show(arrivalEl.current, arr * (1 - leave), `translateY(${((1 - arr) * 3 - leave * 6).toFixed(2)}vh)`);
 
       // Without the 3D scene: the drawn globe, while the globe would be on screen.
@@ -250,7 +250,7 @@ export function Journey({ logo, arrival, fallback }: { logo: ReactNode; arrival:
   const cityLabel = "pointer-events-none absolute left-0 top-0 whitespace-nowrap text-[0.8rem] tracking-wide text-sky-ink/90 [text-shadow:0_1px_10px_rgb(7_11_20)]";
 
   return (
-    <section ref={section} id="journey" data-header="night" className="night-sky relative -mt-16 h-[560vh] text-sky-ink">
+    <section ref={section} id="journey" data-header="night" className="night-sky relative -mt-16 h-[600vh] text-sky-ink">
       <div className="sticky top-0 h-svh overflow-hidden">
         {/* The CSS sky: shown until the WebGL one is running, and instead of it where WebGL isn't available. */}
         <Starfield className="svg-sky" />

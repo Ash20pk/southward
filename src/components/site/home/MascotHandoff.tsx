@@ -19,16 +19,22 @@ function Carry({
   to,
   flag,
   startAt,
+  endAt,
   fall = false,
   mood,
 }: {
   /** The mascot handing over. */
   from: string;
-  /** The one taking over: inside a sticky stage marked data-pin, the first thing in its section. */
+  /**
+   * The one taking over: inside a sticky stage marked data-pin, the first thing in its section, which the carry reaches
+   * as the stage pins. Or anywhere else, given `endAt`.
+   */
   to: string;
   flag: string;
   /** Scroll position at which the carry begins. */
   startAt: () => number | null;
+  /** Scroll position at which it ends, for a target that isn't in a pinned stage. */
+  endAt?: () => number | null;
   /** Drop rather than glide: speeds up as it goes, like something falling. */
   fall?: boolean;
   mood?: MascotMood;
@@ -52,25 +58,48 @@ function Carry({
     const visibleOne = (sel: string) =>
       Array.from(document.querySelectorAll<HTMLElement>(sel)).find((el) => el.offsetParent !== null) ?? null;
 
-    const stop = onFrame(() => {
-      // Read: where both mascots are, and where the carry starts and ends.
+    // The two mascots and the target's stage, looked up once rather than every frame, and again after a resize (which
+    // can change which copy is showing, and the stage's sticky offset).
+    let found: { source: HTMLElement; target: HTMLElement; sticky: HTMLElement | null; pinTop: number } | null = null;
+    const lookUp = () => {
+      if (found && found.source.isConnected && found.target.isConnected) return found;
       const source = visibleOne(from);
       const target = visibleOne(to);
+      if (!source || !target) return null;
+      const sticky = target.closest<HTMLElement>("[data-pin]");
+      const pinTop = sticky ? parseFloat(getComputedStyle(sticky).top) || 0 : 0;
+      return (found = { source, target, sticky, pinTop });
+    };
+    const onResize = () => {
+      found = null;
+    };
+    window.addEventListener("resize", onResize);
+    // Which side of the carry the page was on last frame: well away from it and still there, there's nothing to do.
+    let side: "before" | "after" | null = null;
+
+    const stop = onFrame(() => {
+      // Read: where the carry starts and ends, and if it's under way, where both mascots are.
       const el = layer.current;
       const start = startAt();
-      if (!source || !target || !el || start === null) return;
+      const elements = lookUp();
+      if (!elements || !el || start === null) return;
+      const { source, target, sticky, pinTop } = elements;
+      const scrollY = window.scrollY;
 
       // Where it ends: the target's place once its stage has pinned. The stage is the first thing in its section, so it
-      // pins when the section's top reaches the stage's sticky offset.
-      const sticky = target.closest<HTMLElement>("[data-pin]")!;
-      const pinTop = parseFloat(getComputedStyle(sticky).top) || 0;
-      const scrollY = window.scrollY;
-      const stickAt = sticky.parentElement!.getBoundingClientRect().top + scrollY - pinTop;
-      const stickyBox = sticky.getBoundingClientRect();
-      const box = target.getBoundingClientRect();
-      const dest = { x: box.left, y: pinTop + (box.top - stickyBox.top), w: box.width };
-
+      // pins when the section's top reaches the stage's sticky offset. A target in the page's flow is simply where it
+      // will be on screen at `endAt`.
+      const stickAt = sticky ? sticky.parentElement!.getBoundingClientRect().top + scrollY - pinTop : endAt?.();
+      if (stickAt == null) return;
       const t = Math.min(1, Math.max(0, (scrollY - start) / Math.max(1, stickAt - start)));
+      const far = t <= 0 ? scrollY < start - window.innerHeight : t >= 1 && scrollY > stickAt + window.innerHeight;
+      if (far && side === (t <= 0 ? "before" : "after")) return;
+      side = t <= 0 ? "before" : t >= 1 ? "after" : null;
+
+      const box = target.getBoundingClientRect();
+      const dest = sticky
+        ? { x: box.left, y: pinTop + (box.top - sticky.getBoundingClientRect().top), w: box.width }
+        : { x: box.left, y: box.top + scrollY - stickAt, w: box.width };
       if (t <= 0) {
         // Still the first scene: follow its mascot, so the journey starts from exactly where it stands.
         const b = source.getBoundingClientRect();
@@ -107,9 +136,10 @@ function Carry({
     return () => {
       stop();
       clearTimeout(rest);
+      window.removeEventListener("resize", onResize);
       delete root.dataset[flag];
     };
-  }, [from, to, flag, startAt, fall]);
+  }, [from, to, flag, startAt, endAt, fall]);
 
   return (
     <div ref={layer} aria-hidden className="pointer-events-none fixed left-0 top-0 z-20 origin-top-left" style={{ visibility: "hidden", width: 96 }}>
@@ -126,11 +156,29 @@ function welcomeLeaves() {
   return top + (journey.offsetHeight - window.innerHeight) * STAGES.handoff[0];
 }
 
-/** When the roadmap's stage unpins: its mascot has just stepped to the middle of the screen. */
-function roadmapEnds() {
-  const roadmap = document.getElementById("roadmap");
-  if (!roadmap) return null;
-  return roadmap.getBoundingClientRect().top + window.scrollY + roadmap.offsetHeight - window.innerHeight;
+/** Where a section's pinned stage lets go of the screen. */
+function sectionEnds(id: string) {
+  const section = document.getElementById(id);
+  if (!section) return null;
+  return section.getBoundingClientRect().top + window.scrollY + section.offsetHeight - window.innerHeight;
+}
+
+/** Most of a screen before the roadmap unpins: its mascot has stepped to the middle, and the road is coming up below. */
+function roadmapLeaves() {
+  const end = sectionEnds("roadmap");
+  return end === null ? null : end - window.innerHeight * 0.35;
+}
+
+/** As the features stage unpins and starts to dim away. */
+function featuresEnd() {
+  return sectionEnds("features");
+}
+
+/** Just before the eligibility check has the whole screen. */
+function eligibilityLit() {
+  const section = document.getElementById("eligibility");
+  if (!section) return null;
+  return section.getBoundingClientRect().top + window.scrollY - window.innerHeight * 0.15;
 }
 
 /**
@@ -142,9 +190,17 @@ export function MascotHandoff() {
 }
 
 /**
- * From the end of the roadmap down onto the road of features (Features): as the roadmap leaves, the road rises up from
- * below and the mascot drops onto it, landing just as the stage pins.
+ * From the end of the roadmap down onto the road of features (Features): as the deck folds away, the road rises up from
+ * below and the mascot drops onto it, landing just as the road's stage pins.
  */
 export function MascotDrop() {
-  return <Carry from="[data-guide-mascot]" to="[data-road-mascot]" flag="road" startAt={roadmapEnds} fall mood="wow" />;
+  return <Carry from="[data-guide-mascot]" to="[data-road-mascot]" flag="road" startAt={roadmapLeaves} fall mood="wow" />;
+}
+
+/**
+ * From the end of the road up to the eligibility check: the road dims away beneath it, and it's the same mascot that
+ * asks whether the pathway is open to you.
+ */
+export function MascotRise() {
+  return <Carry from="[data-road-mascot]" to="[data-elig-mascot]" flag="elig" startAt={featuresEnd} endAt={eligibilityLit} />;
 }
