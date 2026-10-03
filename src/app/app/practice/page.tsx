@@ -12,7 +12,7 @@ import type { Difficulty, Discipline, Question } from "@/lib/types";
 import { QuestionView } from "@/components/QuestionView";
 import { QuestionTimer } from "@/components/QuestionTimer";
 import { SCANNED_MAX_BYTES, chunkPages, fileSize, isPdf, looksScanned, pageRange, readPdf, toBase64 } from "@/lib/pdf";
-import { Bar, Button, Chip, Empty, PageHeader, Panel } from "@/components/ui";
+import { Button, Chip, Empty, PageHeader, Panel } from "@/components/ui";
 
 type Source = "all" | "unseen" | "mistakes" | "saved" | "ai";
 
@@ -493,6 +493,7 @@ function Session({
   const [revealed, setRevealed] = useState(false);
   const [timedOut, setTimedOut] = useState(false);
   const [log, setLog] = useState<{ q: Question; picked: number | null }[]>([]);
+  const scroller = useRef<HTMLDivElement>(null);
   const q = questions[i];
 
   const check = useCallback(() => {
@@ -517,8 +518,12 @@ function Session({
     setPicked(null);
     setRevealed(false);
     setTimedOut(false);
-    window.scrollTo({ top: 0 });
   }, [i, questions.length, log, onDone]);
+
+  // Each new question starts at its top. After the new one has rendered, so the old one's length can't leave it part-way.
+  useEffect(() => {
+    scroller.current?.scrollTo({ top: 0 });
+  }, [i]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -537,38 +542,59 @@ function Session({
 
   const score = log.filter((x) => x.picked === x.q.answer).length;
 
+  // A set runs full screen, like a mock exam: the progress, timer and End stay at the top and the answer button at the
+  // bottom, with only the question scrolling between them, so nothing you need goes off screen on a phone.
   return (
-    <div className="max-w-3xl">
-      <div className="mb-6 flex items-center gap-4">
-        <Bar value={((i + (revealed ? 1 : 0)) / questions.length) * 100} className="flex-1" />
-        {timerOn && <QuestionTimer resetKey={q.id} running={!revealed} onExpire={expire} />}
-        <span className="text-sm tabular-nums text-muted">
-          {score}/{log.length} correct
-        </span>
-        <Button variant="quiet" size="sm" onClick={() => (log.length ? onDone(log) : onQuit())}>
-          End
-        </Button>
-      </div>
-      <QuestionView key={q.id} q={q} selected={picked} onSelect={setPicked} revealed={revealed} index={i} total={questions.length} />
-      <div className="sticky bottom-16 mt-6 flex items-center justify-between gap-3 border-t border-line bg-paper py-3 lg:bottom-0 lg:py-4">
-        {revealed ? (
-          <span className={clsx("font-semibold", picked === q.answer ? "text-ok" : "text-bad")} aria-live="polite">
-            {picked === q.answer ? "Correct" : timedOut && picked === null ? `Time's up. Answer: ${"ABCDE"[q.answer]}` : `Answer: ${"ABCDE"[q.answer]}`}
-            <span className="ml-2 hidden font-normal text-muted sm:inline">Explanation below</span>
+    <div className="fixed inset-0 z-50 flex flex-col bg-paper">
+      <header className="relative border-b border-line px-4 pb-3 pt-[max(0.75rem,env(safe-area-inset-top))] sm:px-8">
+        <div className="mx-auto flex max-w-3xl items-center gap-3 sm:gap-4">
+          <span className="min-w-0 flex-1 truncate text-sm font-medium tabular-nums">
+            {i + 1} of {questions.length}
           </span>
-        ) : (
-          <span className="hidden text-sm text-muted sm:block">Keys: A to E to choose, Enter to check</span>
-        )}
-        {revealed ? (
-          <Button onClick={next} className="ml-auto">
-            {i + 1 >= questions.length ? "See results" : "Next question"}
+          {timerOn && <QuestionTimer resetKey={q.id} running={!revealed} onExpire={expire} />}
+          <span className="shrink-0 text-sm tabular-nums text-muted">
+            {score}/{log.length}
+            <span className="hidden sm:inline"> correct</span>
+          </span>
+          <Button variant="quiet" size="sm" className="shrink-0" onClick={() => (log.length ? onDone(log) : onQuit())}>
+            End
           </Button>
-        ) : (
-          <Button onClick={check} disabled={picked === null} className="ml-auto">
-            Check answer
-          </Button>
-        )}
+        </div>
+        {/* How far through the set: a hairline along the header's bottom edge, clear of the timer's own bar. */}
+        <div
+          aria-hidden
+          className="absolute inset-x-0 -bottom-px h-0.5 origin-left bg-brand transition-transform duration-500"
+          style={{ transform: `scaleX(${(i + (revealed ? 1 : 0)) / questions.length})` }}
+        />
+      </header>
+
+      <div ref={scroller} className="min-h-0 flex-1 overflow-y-auto overscroll-contain px-4 py-6 sm:px-8 sm:py-10">
+        <div className="mx-auto max-w-3xl">
+          <QuestionView key={q.id} q={q} selected={picked} onSelect={setPicked} revealed={revealed} />
+        </div>
       </div>
+
+      <footer className="border-t border-line bg-paper px-4 pt-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] sm:px-8">
+        <div className="mx-auto flex max-w-3xl items-center justify-between gap-3">
+          {revealed ? (
+            <span className={clsx("min-w-0 font-semibold", picked === q.answer ? "text-ok" : "text-bad")} aria-live="polite">
+              {picked === q.answer ? "Correct" : timedOut && picked === null ? `Time's up. Answer: ${"ABCDE"[q.answer]}` : `Answer: ${"ABCDE"[q.answer]}`}
+              <span className="ml-2 hidden font-normal text-muted sm:inline">Explanation below</span>
+            </span>
+          ) : (
+            <span className="hidden text-sm text-muted sm:block">Keys: A to E to choose, Enter to check</span>
+          )}
+          {revealed ? (
+            <Button onClick={next} className="ml-auto shrink-0">
+              {i + 1 >= questions.length ? "See results" : "Next question"}
+            </Button>
+          ) : (
+            <Button onClick={check} disabled={picked === null} className="ml-auto shrink-0">
+              Check answer
+            </Button>
+          )}
+        </div>
+      </footer>
     </div>
   );
 }

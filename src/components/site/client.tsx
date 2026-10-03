@@ -37,7 +37,13 @@ export function AppCta({
         tone === "brand" ? "bg-brand text-brand-ink" : "bg-ochre text-sky",
       )}
     >
-      {returning ? "Continue studying" : label}
+      {returning ? (
+        <>
+          Continue<span className={size === "sm" ? "hidden sm:inline" : undefined}>&nbsp;studying</span>
+        </>
+      ) : (
+        label
+      )}
     </Link>
   );
 }

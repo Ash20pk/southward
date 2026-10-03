@@ -147,7 +147,7 @@ export function AppShell({ children }: { children: ReactNode }) {
         </div>
       </aside>
 
-      <header className="sticky top-0 z-30 flex items-center justify-between border-b border-line bg-paper/95 px-4 py-3 lg:hidden">
+      <header className="sticky top-0 z-30 flex items-center justify-between border-b border-line bg-paper px-4 py-3 lg:hidden">
         <Logo href="/app" />
         <button aria-label="Open menu" onClick={() => setOpen(true)} className="rounded-full p-2 hover:bg-sunk">
           <Menu size={22} />
@@ -174,7 +174,7 @@ export function AppShell({ children }: { children: ReactNode }) {
 
       <nav
         aria-label="Quick"
-        className="fixed inset-x-0 bottom-0 z-30 grid grid-cols-5 border-t border-line bg-surface/95 pb-[env(safe-area-inset-bottom)] lg:hidden"
+        className="fixed inset-x-0 bottom-0 z-30 grid grid-cols-5 border-t border-line bg-surface pb-[env(safe-area-inset-bottom)] lg:hidden"
       >
         {TABS.map(({ href, label, icon: Icon }) => {
           const active = href === "/app" ? path === "/app" : path.startsWith(href);

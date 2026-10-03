@@ -34,8 +34,8 @@ export function QuestionView({
 
   return (
     <article className="flex flex-col gap-5">
-      <div className="flex flex-wrap items-center justify-between gap-3 text-sm text-muted">
-        <span className="flex items-center gap-2">
+      <div className="flex items-start justify-between gap-3 text-sm text-muted">
+        <span className="flex min-w-0 flex-wrap items-center gap-x-2 gap-y-1">
           {color && <DisciplineDot color={color} />}
           {index !== undefined && total !== undefined && (
             <span className="font-medium text-ink">
@@ -54,9 +54,11 @@ export function QuestionView({
         <button
           onClick={() => toggleBookmark(q.id)}
           aria-pressed={marked}
-          className={clsx("inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 hover:bg-sunk", marked && "text-ochre-ink")}
+          aria-label={marked ? "Saved" : "Save question"}
+          className={clsx("-my-1 inline-flex shrink-0 items-center gap-1.5 rounded-full p-2 hover:bg-sunk sm:px-2.5 sm:py-1", marked && "text-ochre-ink")}
         >
-          <Bookmark size={15} fill={marked ? "currentColor" : "none"} /> {marked ? "Saved" : "Save"}
+          {/* Icon only on phones, so it shares the line with the question's topic. */}
+          <Bookmark size={15} fill={marked ? "currentColor" : "none"} /> <span className="hidden sm:inline">{marked ? "Saved" : "Save"}</span>
         </button>
       </div>
 

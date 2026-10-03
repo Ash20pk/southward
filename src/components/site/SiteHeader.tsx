@@ -47,8 +47,9 @@ export function SiteHeader() {
           : "border-b border-line bg-paper/95 sm:bg-paper/90 sm:backdrop-blur",
       )}
     >
-      <div className="mx-auto flex h-16 w-full max-w-6xl items-center justify-between gap-4 px-4 sm:px-8">
-        <Logo href="/" className={night ? "text-sky-ink!" : undefined} />
+      <div className="mx-auto flex h-16 w-full max-w-6xl items-center justify-between gap-2 px-3 sm:gap-4 sm:px-8">
+        {/* Under 360px there's only room for the mark next to "Sign in" and the button. */}
+        <Logo href="/" className={clsx("max-[359px]:[&>span]:sr-only", night && "text-sky-ink!")} />
         <nav aria-label="Main" className="hidden items-center gap-1 md:flex">
           {PUBLIC_NAV.map((l) => (
             <Link key={l.href} href={l.href} className={clsx("rounded-full px-3 py-2 text-[0.95rem] transition-colors", link)}>
@@ -56,8 +57,8 @@ export function SiteHeader() {
             </Link>
           ))}
         </nav>
-        <div className="flex items-center gap-2">
-          <Link href={APP_PATH} className={clsx("hidden rounded-full px-3 py-2 text-[0.95rem] sm:block", link)}>
+        <div className="flex items-center gap-1 sm:gap-2">
+          <Link href={APP_PATH} className={clsx("whitespace-nowrap rounded-full px-2 py-2 text-sm sm:px-3 sm:text-[0.95rem]", link)}>
             Sign in
           </Link>
           <AppCta size="sm" />
@@ -77,9 +78,6 @@ export function SiteHeader() {
                   {l.label}
                 </Link>
               ))}
-              <Link href={APP_PATH} className="rounded-xl px-3 py-2.5 hover:bg-sunk">
-                Sign in
-              </Link>
             </nav>
           </details>
         </div>
