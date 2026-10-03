@@ -32,16 +32,18 @@ npm install
 npm run dev                  # http://localhost:3000
 ```
 
-That runs in browser-only mode: no login, progress in localStorage. To try accounts and sync locally, start the bundled Postgres (Docker) and point the app at it:
+That runs in browser-only mode: no login, progress in localStorage. Accounts use Neon Auth, which lives on a Neon branch, so to try accounts and sync locally point the app at a Neon branch (a dev branch of your own is best):
 
 ```sh
-npm run db:up                # Postgres + Neon's HTTP proxy on port 4445
 # in .env.local:
-#   DATABASE_URL=postgres://postgres:postgres@db.localtest.me:5432/southward
-#   AUTH_SECRET=$(openssl rand -base64 32)
+#   DATABASE_URL=$(neon connection-string --pooled)
+#   NEON_AUTH_BASE_URL=<Base URL from: neon neon-auth status>
+#   NEON_AUTH_COOKIE_SECRET=$(openssl rand -base64 32)
 npm run db:migrate
 npm run dev
 ```
+
+The bundled Postgres (`npm run db:up`) still works for the database alone, without accounts.
 
 With only `OPENAI_API_KEY` set, the AI uses OpenAI (`gpt-5.5` by default); with only `ANTHROPIC_API_KEY`, Claude (`claude-opus-5`). If both are set it uses Claude unless `AI_PROVIDER=openai`.
 
@@ -51,7 +53,9 @@ With only `OPENAI_API_KEY` set, the AI uses OpenAI (`gpt-5.5` by default); with 
 vercel link                                   # create or link the Vercel project
 vercel integration add neon                   # provisions Postgres and sets DATABASE_URL
 vercel env add OPENAI_API_KEY                 # your OpenAI key
-vercel env add AUTH_SECRET                    # paste the output of: openssl rand -base64 32
+neon neon-auth enable                         # on the same Neon branch; its Base URL goes in the next line
+vercel env add NEON_AUTH_BASE_URL
+vercel env add NEON_AUTH_COOKIE_SECRET        # paste the output of: openssl rand -base64 32
 vercel deploy --prod
 ```
 
@@ -60,8 +64,8 @@ The build runs `scripts/migrate.mjs` first, which creates the tables if they don
 How it protects your API key and her data:
 
 - The AI routes only answer signed-in users. Each user is capped at `AI_DAILY_LIMIT` requests a day (default 300), and everyone together at `AI_SITE_DAILY_LIMIT` (default 1000), so open sign-up can't run up an unbounded bill. Set a monthly budget in your OpenAI billing settings as a final backstop.
-- A deployment without `DATABASE_URL` and `AUTH_SECRET` refuses AI requests entirely rather than running open.
-- Passwords are hashed with scrypt; sessions are signed, HttpOnly cookies that last 60 days.
+- A deployment without `DATABASE_URL` and the `NEON_AUTH_*` settings refuses AI requests entirely rather than running open.
+- Accounts, passwords and sessions are handled by Neon Auth (Managed Better Auth), stored in the `neon_auth` schema on the same database.
 - Sign-in is limited to 10 attempts per email and 30 per IP address every 15 minutes, and sign-up to 10 new accounts per IP address an hour, with a honeypot field for bots. Every API route validates its input and caps its size before it reaches the AI or the database.
 - People can delete their account themselves from Settings; that removes their progress and usage records too.
 - Two devices can't overwrite each other: every save carries a version number, and a stale save is merged instead of applied.

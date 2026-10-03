@@ -13,7 +13,7 @@ export function clientIp(req: Request) {
  */
 export async function limited(key: string, max: number, windowSeconds: number) {
   // Keys hold IPs and emails, so only a keyed hash of them is stored.
-  key = createHmac("sha256", process.env.AUTH_SECRET ?? "").update(key).digest("base64url");
+  key = createHmac("sha256", process.env.NEON_AUTH_COOKIE_SECRET ?? "").update(key).digest("base64url");
   const rows = await sql()`
     insert into rate_limits (key, window_start, count) values (${key}, now(), 1)
     on conflict (key) do update set

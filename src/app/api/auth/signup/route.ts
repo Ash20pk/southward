@@ -1,6 +1,5 @@
 import { z } from "zod";
-import { authEnabled, hashPassword, startSession } from "@/lib/server/auth";
-import { sql } from "@/lib/server/db";
+import { authEnabled, neonAuth } from "@/lib/server/auth";
 import { readInput } from "@/lib/server/input";
 import { clientIp, limited, tooMany } from "@/lib/server/ratelimit";
 
@@ -28,14 +27,15 @@ export async function POST(req: Request) {
   // Generous enough for a shared college or hostel connection, tight enough to stop mass sign-ups.
   if (await limited(`signup:ip:${clientIp(req)}`, 10, 3600)) return tooMany("new accounts from this network");
 
-  const hash = await hashPassword(password);
-  const rows = await sql()`
-    insert into users (email, name, password_hash) values (${cleanEmail}, ${cleanName}, ${hash})
-    on conflict (email) do nothing
-    returning id, email, name`;
-  if (!rows.length) return Response.json({ error: "An account with that email already exists. Sign in instead." }, { status: 409 });
-
-  const user = { id: String(rows[0].id), email: String(rows[0].email), name: String(rows[0].name) };
-  await startSession(user);
+  // Neon Auth creates the user and sets the session cookie.
+  const { data, error } = await neonAuth().signUp.email({ email: cleanEmail, name: cleanName, password });
+  if (error || !data?.user) {
+    // The SDK normalises Better Auth's codes; an existing email comes back as 422.
+    if (error?.code === "user_already_exists" || error?.status === 422) {
+      return Response.json({ error: "An account with that email already exists. Sign in instead." }, { status: 409 });
+    }
+    return Response.json({ error: error?.message || "Couldn't create the account. Try again." }, { status: error?.status ?? 400 });
+  }
+  const user = { id: data.user.id, email: data.user.email, name: data.user.name };
   return Response.json({ user });
 }

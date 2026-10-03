@@ -11,23 +11,16 @@ neonConfig.fetchEndpoint = (host) => (host === "db.localtest.me" ? `http://${hos
 const sql = neon(url);
 
 const statements = [
-  `create table if not exists users (
-    id uuid primary key default gen_random_uuid(),
-    email text not null unique,
-    name text not null,
-    password_hash text not null,
-    created_at timestamptz not null default now()
-  )`,
   // All study progress for a user, as one JSON document. version guards against lost updates between devices.
   `create table if not exists progress (
-    user_id uuid primary key references users(id) on delete cascade,
+    user_id uuid primary key,
     data jsonb not null,
     version integer not null default 1,
     updated_at timestamptz not null default now()
   )`,
   // Per-user daily AI request count, to cap spend on the API key.
   `create table if not exists ai_usage (
-    user_id uuid not null references users(id) on delete cascade,
+    user_id uuid not null,
     day date not null,
     count integer not null default 0,
     primary key (user_id, day)
@@ -43,6 +36,19 @@ const statements = [
     window_start timestamptz not null default now(),
     count integer not null default 0
   )`,
+  // Accounts live in Neon Auth (neon_auth."user"). Point each user_id at it, so deleting a user takes their rows with it.
+  // Replaces the old foreign keys to the app's own users table. NOT VALID skips checking rows written before the move;
+  // skipped entirely on a database without Neon Auth (local Postgres).
+  ...["progress", "ai_usage"].map(
+    (t) => `do $$ begin
+      alter table ${t} drop constraint if exists ${t}_user_id_fkey;
+      if to_regclass('neon_auth."user"') is not null
+        and not exists (select 1 from pg_constraint where conname = '${t}_auth_user_fkey') then
+        alter table ${t} add constraint ${t}_auth_user_fkey
+          foreign key (user_id) references neon_auth."user"(id) on delete cascade not valid;
+      end if;
+    end $$`,
+  ),
 ];
 
 for (const s of statements) await sql.query(s);

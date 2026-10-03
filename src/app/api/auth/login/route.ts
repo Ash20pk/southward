@@ -1,6 +1,5 @@
 import { z } from "zod";
-import { authEnabled, startSession, verifyPassword } from "@/lib/server/auth";
-import { sql } from "@/lib/server/db";
+import { authEnabled, neonAuth } from "@/lib/server/auth";
 import { readInput } from "@/lib/server/input";
 import { clientIp, limited, tooMany } from "@/lib/server/ratelimit";
 
@@ -17,13 +16,11 @@ export async function POST(req: Request) {
     return tooMany("sign-in attempts");
   }
 
-  const rows = await sql()`select id, email, name, password_hash from users where email = ${email}`;
-  const row = rows[0];
   // Same message for unknown email and wrong password, so it doesn't reveal which accounts exist.
-  if (!row || !input.password || !(await verifyPassword(input.password, String(row.password_hash)))) {
-    return Response.json({ error: "Email or password is incorrect." }, { status: 401 });
-  }
-  const user = { id: String(row.id), email: String(row.email), name: String(row.name) };
-  await startSession(user);
+  const fail = () => Response.json({ error: "Email or password is incorrect." }, { status: 401 });
+  if (!input.password) return fail();
+  const { data, error } = await neonAuth().signIn.email({ email, password: input.password });
+  if (error || !data?.user) return error?.status === 429 ? tooMany("sign-in attempts") : fail();
+  const user = { id: data.user.id, email: data.user.email, name: data.user.name };
   return Response.json({ user });
 }

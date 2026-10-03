@@ -1,6 +1,6 @@
-import { endSession } from "@/lib/server/auth";
+import { authEnabled, neonAuth } from "@/lib/server/auth";
 
 export async function POST() {
-  await endSession();
+  if (authEnabled()) await neonAuth().signOut();
   return Response.json({ ok: true });
 }
