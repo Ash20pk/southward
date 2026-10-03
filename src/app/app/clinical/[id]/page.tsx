@@ -21,6 +21,9 @@ import type { OsceStation } from "@/lib/types";
 import type { OsceFeedback } from "@/app/api/feedback/route";
 
 type Phase = "brief" | "station" | "marking" | "feedback";
+
+// A sentence that's finished: up to its full stop (and any closing quote) and the space after it.
+const SENTENCE = /^[\s\S]*?[.!?…]+["'”’)]*\s+/;
 type Turn = { role: "user" | "assistant"; content: string };
 
 const clock = (s: number) => {
@@ -62,6 +65,11 @@ export default function StationPage() {
   const lastTask = useRef(0);
   const dictated = useRef(false);
   const sending = useRef(false);
+  // The patient reply being voiced: how much of it is queued to be spoken, and the last line queued.
+  const reply = useRef({ id: 0, queued: 0, voiced: false, last: Promise.resolve() });
+  // With the voice on, the patient's words appear as they're spoken, not before: this is how much of the current reply
+  // has been said so far. null shows it all.
+  const [heard, setHeard] = useState<string | null>(null);
   const beatTimer = useRef<ReturnType<typeof setTimeout>>(undefined);
   const scroller = useRef<HTMLDivElement>(null);
   const patient = useStream();
@@ -104,7 +112,49 @@ export default function StationPage() {
     startedAt.current = Date.now();
     lastTask.current = 0;
     setTurns([{ role: "assistant", content: station.patient.openingLine }]);
-    if (voiceOn) voice.speak(station.patient.openingLine, "patient");
+    const id = startReply();
+    voiceReply(id, station.patient.openingLine, true);
+  };
+
+  /** Starts voicing a new patient reply; its words stay hidden until they're spoken. */
+  const startReply = () => {
+    const id = reply.current.id + 1;
+    reply.current = { id, queued: 0, voiced: voiceOn, last: Promise.resolve() };
+    setHeard(voiceOn ? "" : null);
+    return id;
+  };
+
+  /**
+   * Speaks a patient reply a sentence at a time while it's still being written, so the voice starts after the first
+   * sentence rather than the whole reply. Examiner findings are shown, not spoken: they appear once the patient has
+   * finished talking.
+   */
+  const voiceReply = (id: number, full: string, done: boolean) => {
+    const r = reply.current;
+    if (r.id !== id || !r.voiced) return;
+    if (!voiceOn) {
+      r.voiced = false;
+      setHeard(null);
+      return;
+    }
+    const cut = full.indexOf("[Examiner]");
+    let rest = (cut === -1 ? full : full.slice(0, cut)).slice(r.queued);
+    for (;;) {
+      // Once the whole reply is in, what's left goes as one line: it starts just as fast, and flows better.
+      const line = done ? rest : rest.match(SENTENCE)?.[0];
+      if (!line?.trim()) break;
+      rest = rest.slice(line.length);
+      r.queued += line.length;
+      const said = line;
+      r.last = voice.speak(line, "patient", () => {
+        if (reply.current.id === id) setHeard((h) => (h === null ? null : h + said));
+      });
+    }
+    if (done) {
+      const showAll = () => reply.current.id === id && setHeard(null);
+      if (r.queued) r.last.then(showAll);
+      else showAll();
+    }
   };
 
   const finish = async (transcript: Turn[]) => {
@@ -160,11 +210,16 @@ export default function StationPage() {
     }
     const next: Turn[] = [...turns, { role: "user", content: text }];
     setTurns(next);
-    await patient.run("/api/patient", { stationId: station.id, messages: next }, (reply) => {
-      setTurns((t) => [...t, { role: "assistant", content: reply.trim() }]);
+    const id = startReply();
+    let answered = false;
+    await patient.run("/api/patient", { stationId: station.id, messages: next }, (full) => {
+      answered = true;
+      setTurns((t) => [...t, { role: "assistant", content: full.trim() }]);
       patient.reset();
-      if (voiceOn) voice.speak(reply.replace(/\[Examiner\][^\n]*/g, ""), "patient");
+      voiceReply(id, full, true);
     });
+    // No reply (an error, or cut off): nothing is waiting to be spoken.
+    if (!answered && reply.current.id === id) setHeard(null);
   };
 
   useEffect(() => {
@@ -174,10 +229,15 @@ export default function StationPage() {
   }, [phase]);
 
   // When the clock runs out: reading time rolls into the station, the station ends and is marked.
-  const latest = useRef({ beginStation, finish, send, turns });
+  const latest = useRef({ beginStation, finish, send, voiceReply, turns });
   useEffect(() => {
-    latest.current = { beginStation, finish, send, turns };
+    latest.current = { beginStation, finish, send, voiceReply, turns };
   });
+
+  // Each sentence of the reply is queued to be spoken as soon as it's written.
+  useEffect(() => {
+    if (patient.loading && patient.text) latest.current.voiceReply(reply.current.id, patient.text, false);
+  }, [patient.loading, patient.text]);
   useEffect(() => {
     if (left > 0) return;
     if (phase === "brief") latest.current.beginStation();
@@ -290,7 +350,7 @@ export default function StationPage() {
   if (phase === "station") {
     const doctorTalking = voice.speaking === "doctor" || doctorBeat || speech.hearing || (speech.listening && !!speech.interim);
     const patientTalking = voice.speaking === "patient" || (!voiceOn && patient.loading && !!patient.text);
-    const patientState: SeatState = patientTalking ? "speaking" : doctorTalking ? "listening" : patient.loading ? "thinking" : "idle";
+    const patientState: SeatState = patientTalking ? "speaking" : doctorTalking ? "listening" : patient.loading || heard === "" ? "thinking" : "idle";
     const doctorState: SeatState = doctorTalking ? "speaking" : patientTalking || speech.listening ? "listening" : "idle";
     const who = station.patient.role ?? `${station.patient.age}-year-old patient`;
     return (
@@ -305,6 +365,7 @@ export default function StationPage() {
                 onClick={() => {
                   setVoiceOut(!voiceOut);
                   voice.cancel();
+                  setHeard(null);
                 }}
                 aria-label={voiceOut ? "Mute voices" : "Speak aloud"}
                 aria-pressed={voiceOut}
@@ -361,10 +422,15 @@ export default function StationPage() {
         )}
         <div ref={scroller} className="min-h-0 flex-1 overflow-y-auto px-4 py-5 sm:px-8">
           <div className="mx-auto flex max-w-2xl flex-col gap-3">
-            {turns.map((t, i) => (
-              <Bubble key={i} turn={t} name={name} looks={looks} />
-            ))}
-            {patient.loading && patient.text && <Bubble turn={{ role: "assistant", content: patient.text }} name={name} looks={looks} streaming />}
+            {turns.map((t, i) => {
+              // The reply being spoken shows only what has been said so far.
+              const live = heard !== null && i === turns.length - 1 && t.role === "assistant";
+              if (live && !heard.trim()) return null;
+              return <Bubble key={i} turn={live ? { ...t, content: heard } : t} name={name} looks={looks} />;
+            })}
+            {patient.loading && (heard ?? patient.text).trim() && (
+              <Bubble turn={{ role: "assistant", content: heard ?? patient.text }} name={name} looks={looks} streaming />
+            )}
             {patient.error && <p className="text-bad">{patient.error}</p>}
           </div>
         </div>

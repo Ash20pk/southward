@@ -30,7 +30,7 @@ function pick(voices: SpeechSynthesisVoice[], sex: Profile["sex"], avoid?: strin
   return best;
 }
 
-type Line = { text: string; who: Speaker; audio: HTMLAudioElement | null; resolve: () => void };
+type Line = { text: string; who: Speaker; audio: HTMLAudioElement | null; onStart?: () => void; resolve: () => void };
 type Options = { stationId: string; doctorIndex: number; patient: Profile; doctor: Profile };
 
 /**
@@ -87,8 +87,11 @@ export function useVoice(options: Options) {
         // A voice that hasn't started after this long isn't coming; the browser reads it instead.
         const slow = setTimeout(() => !started && finish(false), 12_000);
         audio.onplaying = () => {
+          // Fires again after any stall; the line only starts once.
+          if (started) return;
           started = true;
           setSpeaking(line.who);
+          line.onStart?.();
         };
         audio.onended = () => finish(true);
         audio.onerror = () => finish(started);
@@ -115,7 +118,10 @@ export function useVoice(options: Options) {
         u.lang = voice?.lang ?? "en-AU";
         u.pitch = p.age < 18 ? 1.15 : p.age >= 70 ? 0.9 : 1;
         u.rate = p.age >= 70 ? 0.92 : 1;
-        u.onstart = () => setSpeaking(line.who);
+        u.onstart = () => {
+          setSpeaking(line.who);
+          line.onStart?.();
+        };
         // Some engines never fire end (or start) for a line; give up on it after well over its length.
         const guard = setTimeout(() => done(), 4000 + line.text.length * 120);
         const done = () => {
@@ -160,9 +166,9 @@ export function useVoice(options: Options) {
   }, [playNatural, playBrowser]);
 
   const speak = useCallback(
-    (text: string, who: Speaker) =>
+    (text: string, who: Speaker, onStart?: () => void) =>
       new Promise<void>((resolve) => {
-        const line: Line = { text: text.trim(), who, audio: null, resolve };
+        const line: Line = { text: text.trim(), who, audio: null, onStart, resolve };
         if (!line.text) return resolve();
         const { stationId, doctorIndex } = opts.current;
         if (natural.current && typeof Audio !== "undefined" && stationId) {

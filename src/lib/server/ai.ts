@@ -18,6 +18,8 @@ const ANTHROPIC_MODEL = process.env.ANTHROPIC_MODEL || process.env.SOUTHWARD_MOD
 const OPENAI_MODEL = process.env.OPENAI_MODEL || "gpt-5.5";
 // Low reasoning keeps every OpenAI call fast; judging-heavy work goes to TypeSafe JEV instead (see judge.ts).
 const OPENAI_EFFORT = (process.env.OPENAI_REASONING_EFFORT || "low") as Effort;
+// For live conversation (the simulated patient), where the wait before the first word is what people notice.
+const OPENAI_FAST_EFFORT = process.env.OPENAI_FAST_REASONING_EFFORT || "none";
 
 // Server-side refusal fallback; "default" lets the API pick the substitute by refusal category.
 const FALLBACK_BETA = "server-side-fallback-2026-07-01";
@@ -42,15 +44,25 @@ async function* textDeltas(opts: {
   messages: ChatTurn[];
   effort: Effort;
   maxTokens: number;
+  fast?: boolean;
 }): AsyncGenerator<string> {
   if (provider() === "openai") {
-    const stream = await openai().chat.completions.create({
-      model: OPENAI_MODEL,
-      stream: true,
-      reasoning_effort: OPENAI_EFFORT,
-      max_completion_tokens: opts.maxTokens,
-      messages: [{ role: "developer", content: opts.system }, ...opts.messages],
-    });
+    const create = (reasoning_effort: string) =>
+      openai().chat.completions.create({
+        model: OPENAI_MODEL,
+        stream: true,
+        reasoning_effort: reasoning_effort as Effort,
+        max_completion_tokens: opts.maxTokens,
+        messages: [{ role: "developer", content: opts.system }, ...opts.messages],
+      });
+    let stream;
+    try {
+      stream = await create(opts.fast ? OPENAI_FAST_EFFORT : OPENAI_EFFORT);
+    } catch (err) {
+      // A model that doesn't offer the fast setting still answers, just with its usual one.
+      if (!opts.fast || !(err instanceof OpenAI.BadRequestError)) throw err;
+      stream = await create(OPENAI_EFFORT);
+    }
     for await (const chunk of stream) {
       const delta = chunk.choices[0]?.delta;
       if (delta?.content) yield delta.content;
@@ -84,6 +96,8 @@ export function streamText(opts: {
   messages: ChatTurn[];
   effort?: Effort;
   maxTokens?: number;
+  /** Answer as quickly as possible, with no thinking first: for replies in a live conversation. */
+  fast?: boolean;
 }): Response {
   const encoder = new TextEncoder();
   const body = new ReadableStream<Uint8Array>({
@@ -94,6 +108,7 @@ export function streamText(opts: {
           messages: opts.messages,
           effort: opts.effort ?? "medium",
           maxTokens: opts.maxTokens ?? 8000,
+          fast: opts.fast,
         })) {
           controller.enqueue(encoder.encode(text));
         }

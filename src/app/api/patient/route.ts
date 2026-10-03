@@ -38,5 +38,5 @@ How to play it:
   // The UI shows the opening line as the patient's first turn; the API needs a user turn first.
   const enter: ChatTurn = { role: "user", content: "(The candidate enters the room and greets you.)" };
   const turns: ChatTurn[] = messages[0]?.role === "user" ? messages : [enter, ...messages];
-  return streamText({ system, messages: turns, effort: "low", maxTokens: 1500 });
+  return streamText({ system, messages: turns, effort: "low", maxTokens: 1500, fast: true });
 }

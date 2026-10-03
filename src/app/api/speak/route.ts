@@ -25,8 +25,13 @@ export async function GET(req: Request) {
   if (authEnabled()) {
     const user = await currentUser();
     if (!user) return json(401, "Please sign in to hear natural voices.");
-    if (await limited(`speak:${user.id}`, Number(process.env.SPEECH_DAILY_LIMIT || 600), 86_400)) return json(429, "Today's natural-voice lines are used up.");
-    if (await limited("speak:site", Number(process.env.SPEECH_SITE_DAILY_LIMIT || 10_000), 86_400)) return json(429, "Natural voices are resting for today.");
+    // Both allowances at once: every round trip here is a wait before the voice starts.
+    const [mine, site] = await Promise.all([
+      limited(`speak:${user.id}`, Number(process.env.SPEECH_DAILY_LIMIT || 600), 86_400),
+      limited("speak:site", Number(process.env.SPEECH_SITE_DAILY_LIMIT || 10_000), 86_400),
+    ]);
+    if (mine) return json(429, "Today's natural-voice lines are used up.");
+    if (site) return json(429, "Natural voices are resting for today.");
   } else if (process.env.VERCEL) {
     // Never leave the AI key open to the internet: a deployment must have accounts configured.
     return json(503, "Accounts aren't set up on this deployment yet.");
