@@ -68,6 +68,8 @@ export default function StationPage() {
     dictated.current = true;
     setInput((v) => (v ? v + " " : "") + finalText);
   });
+  // What's in the box: the typed or dictated text, plus the phrase the mic is still hearing.
+  const draft = speech.interim ? `${input} ${speech.interim}`.trim() : input;
 
   const looks = useMemo<Looks | null>(() => (station ? { patient: lookFor(station.patient), doctor: DOCTORS[doc] } : null), [station, doc]);
   const patientVoice = useMemo(() => ({ sex: station?.patient.sex ?? "female", age: station?.patient.age ?? 40 }), [station]);
@@ -106,7 +108,7 @@ export default function StationPage() {
 
   const finish = async (transcript: Turn[]) => {
       if (!station) return;
-      speech.stop();
+      speech.abort();
       voice.cancel();
       setPhase("marking");
       setError(null);
@@ -136,9 +138,11 @@ export default function StationPage() {
 
   const send = async (e?: React.FormEvent) => {
     e?.preventDefault();
-    const text = input.trim();
+    const text = draft.trim();
     if (!text || patient.loading || !station) return;
-    speech.stop();
+    // The words still being heard are already in the line; stop the mic without letting them arrive a second time.
+    if (speech.interim) dictated.current = true;
+    speech.abort();
     setInput("");
     // A dictated line has already been said out loud by the candidate; only a typed one is voiced for them.
     const typed = !dictated.current;
@@ -368,7 +372,11 @@ export default function StationPage() {
                   if (speech.listening) {
                     speech.stop();
                     setHandsFree(false);
-                  } else speech.start();
+                  } else {
+                    // Speaking over the patient cuts them off, and keeps their voice out of the microphone.
+                    voice.cancel();
+                    speech.start();
+                  }
                 }}
                 aria-label={speech.listening ? "Stop listening" : "Speak"}
                 aria-pressed={speech.listening}
@@ -381,8 +389,14 @@ export default function StationPage() {
               </button>
             )}
             <textarea
-              value={speech.listening && speech.interim ? `${input} ${speech.interim}`.trim() : input}
+              value={draft}
               onChange={(e) => {
+                // Typing takes over from the mic: the half-heard phrase is now part of what's typed, so it mustn't also
+                // arrive as dictation.
+                if (speech.listening) {
+                  speech.abort();
+                  setHandsFree(false);
+                }
                 dictated.current = false;
                 setInput(e.target.value);
               }}
@@ -396,7 +410,7 @@ export default function StationPage() {
               placeholder={speech.listening ? (handsOn ? "Listening. Your line sends when you pause" : "Listening…") : `Speak to ${name}`}
               className="max-h-40 min-h-11 flex-1 resize-none rounded-2xl border border-line bg-surface px-4 py-2.5 outline-none focus:border-brand"
             />
-            <Button type="submit" size="icon" aria-label="Send" disabled={!input.trim() || patient.loading}>
+            <Button type="submit" size="icon" aria-label="Send" disabled={!draft.trim() || patient.loading}>
               <Send size={17} />
             </Button>
           </div>
