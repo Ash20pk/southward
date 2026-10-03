@@ -8,6 +8,7 @@ import { InstallApp } from "@/components/InstallApp";
 import { PostingSelect } from "@/components/PostingSelect";
 import { useSession } from "@/lib/session";
 import { flushProgress } from "@/hooks/useSync";
+import { SIGNIN_PATH } from "@/lib/site";
 
 export default function Settings() {
   const state = useStore();
@@ -31,7 +32,8 @@ export default function Settings() {
     await flushProgress();
     await fetch("/api/auth/logout", { method: "POST" });
     state.wipeLocal();
-    session.setUser(null);
+    // A full page load, so nothing of the account stays in memory.
+    window.location.replace(SIGNIN_PATH);
   };
 
   const deleteAccount = async (e: React.FormEvent) => {
@@ -48,7 +50,7 @@ export default function Settings() {
       const data = await res.json().catch(() => ({}));
       if (!res.ok) throw new Error(data.error || "Couldn't delete the account. Try again.");
       state.wipeLocal();
-      session.setUser(null);
+      window.location.replace("/");
     } catch (err) {
       setDeleteError((err as Error).message);
       setDeleting(false);

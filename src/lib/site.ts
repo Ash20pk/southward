@@ -13,7 +13,8 @@ export const SITE_DESCRIPTION =
 
 /** Where the app lives. Sign-up and sign-in happen there. */
 export const APP_PATH = "/app";
-export const SIGNUP_PATH = "/app?signup=1";
+export const SIGNIN_PATH = "/signin";
+export const SIGNUP_PATH = "/signup";
 
 /** Shown only when set, so the site never publishes a placeholder address. */
 export const CONTACT_EMAIL = process.env.NEXT_PUBLIC_CONTACT_EMAIL;

@@ -1,31 +1,37 @@
 "use client";
 
-import { useState, type ReactNode } from "react";
+import { useEffect, useState, type ReactNode } from "react";
 import Link from "next/link";
+import { useRouter, useSearchParams } from "next/navigation";
 import clsx from "clsx";
 import { Eye, EyeOff, LoaderCircle } from "lucide-react";
 import { useSession } from "@/lib/session";
 import { Logo } from "./Logo";
 import { SouthernCross } from "./SouthernCross";
+import { APP_PATH, SIGNIN_PATH, SIGNUP_PATH } from "@/lib/site";
 
 type Mode = "signin" | "signup";
+
+/** Where to go once signed in: the page that sent you here, if it's a page of the app, otherwise the app's home. */
+function nextPath(raw: string | null) {
+  return raw && /^\/app(\/[\w/-]*)?$/.test(raw) ? raw : APP_PATH;
+}
 
 const COPY: Record<Mode, { title: string; lede: string; submit: string; busy: string }> = {
   signin: { title: "Welcome back", lede: "Pick up right where you left off.", submit: "Sign in", busy: "Signing in…" },
   signup: { title: "Create your account", lede: "It's free during early access.", submit: "Create account", busy: "Creating account…" },
 };
 
-/*
- * Nothing above the fields moves when you switch between signing in and creating an account:
- * - the form is pinned from the top rather than re-centred, so a taller form grows downwards only;
- * - text that differs by mode sits in one grid cell with both versions stacked, so the cell is always as tall as the longer one;
- * - the only thing that appears (the name field) and an error both slide open instead of jumping in.
+/**
+ * Sign in (/signin: email and password) and create an account (/signup: first name, email and password), each a page
+ * of its own that links to the other. Anyone already signed in goes straight on to the app. Signed-out visits to the
+ * app land on /signin with `next` set, and come back to that page afterwards.
  */
-export function AuthScreen() {
-  const { setUser } = useSession();
-  // Only rendered after hydration (AppShell shows the splash until then), so reading the URL here is safe.
-  // The website's "Start free" buttons link to /app?signup=1.
-  const [mode, setMode] = useState<Mode>(() => (new URLSearchParams(window.location.search).has("signup") ? "signup" : "signin"));
+export function AuthScreen({ mode }: { mode: Mode }) {
+  const router = useRouter();
+  const next = nextPath(useSearchParams().get("next"));
+  const session = useSession();
+  const { setUser } = session;
   const [form, setForm] = useState({ name: "", email: "", password: "" });
   // Honeypot: an off-screen field that people never see or reach, but form-filling bots complete.
   const [trap, setTrap] = useState("");
@@ -34,11 +40,17 @@ export function AuthScreen() {
   const [error, setError] = useState<string | null>(null);
   const set = (k: keyof typeof form) => (e: React.ChangeEvent<HTMLInputElement>) => setForm({ ...form, [k]: e.target.value });
   const signup = mode === "signup";
+  // The other page, keeping where you're headed.
+  const other = `${signup ? SIGNIN_PATH : SIGNUP_PATH}${next === APP_PATH ? "" : `?next=${encodeURIComponent(next)}`}`;
 
-  const switchTo = (m: Mode) => {
-    setMode(m);
-    setError(null);
-  };
+  useEffect(() => {
+    if (!session.loaded) session.load();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+  // Already signed in: nothing to do here.
+  useEffect(() => {
+    if (session.user) router.replace(next);
+  }, [session.user, next, router]);
 
   const submit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -52,10 +64,10 @@ export function AuthScreen() {
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "Something went wrong. Try again.");
+      // Stays busy while the app opens; the effect above takes it there.
       setUser(data.user);
     } catch (err) {
       setError((err as Error).message);
-    } finally {
       setBusy(false);
     }
   };
@@ -88,54 +100,27 @@ export function AuthScreen() {
 
         {/* Pinned from the top (not centred), placed so the taller sign-up form sits roughly mid-screen on a laptop. */}
         <div className="mx-auto w-full max-w-sm pt-8 sm:pt-14 lg:pt-[max(2rem,calc(50dvh-22rem))]">
-          <Swap
-            active={mode}
-            className="mb-8"
-            items={{
-              signin: <Heading {...COPY.signin} />,
-              signup: <Heading {...COPY.signup} />,
-            }}
-          />
-
-          <div role="tablist" aria-label="Account" className="relative mb-7 grid grid-cols-2 rounded-full bg-sunk p-1">
-            <span
-              aria-hidden
-              className={clsx(
-                "absolute inset-y-1 left-1 w-[calc(50%-4px)] rounded-full bg-surface shadow-sm transition-transform duration-300 ease-out motion-reduce:transition-none",
-                signup && "translate-x-full",
-              )}
-            />
-            {(["signin", "signup"] as const).map((m) => (
-              <button
-                key={m}
-                id={`tab-${m}`}
-                type="button"
-                role="tab"
-                aria-selected={mode === m}
-                aria-controls="auth-form"
-                onClick={() => switchTo(m)}
-                className={clsx("relative z-10 h-10 rounded-full text-sm transition-colors", mode === m ? "font-medium text-ink" : "text-muted hover:text-ink")}
-              >
-                {m === "signin" ? "Sign in" : "Create account"}
-              </button>
-            ))}
+          <div className="mb-8">
+            <Heading {...COPY[mode]} />
           </div>
 
-          <form id="auth-form" role="tabpanel" aria-labelledby={`tab-${mode}`} onSubmit={submit}>
-            <Collapse open={signup}>
+          {/* Only on a server without accounts (local development): there's nothing to sign in to. */}
+          {session.mode === "local" && session.loaded && (
+            <p className="mb-6 rounded-xl bg-ochre-soft px-4 py-3 text-sm text-ochre-ink">
+              Accounts aren&rsquo;t switched on for this server (it needs DATABASE_URL and the NEON_AUTH_* settings).{" "}
+              <Link href={APP_PATH} className="font-medium underline">
+                Use it without an account
+              </Link>
+            </p>
+          )}
+
+          <form onSubmit={submit}>
+            {signup && (
               <label className="block pb-5">
                 <span className="mb-2 block text-sm font-medium">First name</span>
-                <input
-                  className={field}
-                  value={form.name}
-                  onChange={set("name")}
-                  autoComplete="given-name"
-                  // Disabled while hidden, so the browser neither requires it nor tabs into it.
-                  disabled={!signup}
-                  required
-                />
+                <input className={field} value={form.name} onChange={set("name")} autoComplete="given-name" required />
               </label>
-            </Collapse>
+            )}
 
             {signup && (
               <input
@@ -157,9 +142,7 @@ export function AuthScreen() {
             <label className="block">
               <span className="mb-2 flex items-baseline justify-between gap-3 text-sm">
                 <span className="font-medium">Password</span>
-                <span className={clsx("text-muted transition-opacity duration-200", signup ? "opacity-100" : "opacity-0")} aria-hidden={!signup}>
-                  At least 8 characters
-                </span>
+                {signup && <span className="text-muted">At least 8 characters</span>}
               </span>
               <span className="relative block">
                 <input
@@ -198,33 +181,25 @@ export function AuthScreen() {
               {busy ? COPY[mode].busy : COPY[mode].submit}
             </button>
 
-            <Swap
-              active={mode}
-              className="mt-5 text-center text-sm text-muted"
-              items={{
-                signin: (
-                  <p>
-                    New to Southward?{" "}
-                    <button type="button" onClick={() => switchTo("signup")} className="font-medium text-brand hover:underline">
-                      Create an account
-                    </button>
-                  </p>
-                ),
-                signup: (
-                  <p>
-                    By creating an account you agree to the{" "}
-                    <Link href="/terms" className="text-brand underline">
-                      terms
-                    </Link>{" "}
-                    and{" "}
-                    <Link href="/privacy" className="text-brand underline">
-                      privacy policy
-                    </Link>
-                    .
-                  </p>
-                ),
-              }}
-            />
+            <p className="mt-5 text-center text-sm text-muted">
+              {signup ? "Already have an account?" : "New to Southward?"}{" "}
+              <Link href={other} replace className="font-medium text-brand hover:underline">
+                {signup ? "Sign in" : "Create an account"}
+              </Link>
+            </p>
+            {signup && (
+              <p className="mt-3 text-center text-sm text-muted">
+                By creating an account you agree to the{" "}
+                <Link href="/terms" className="text-brand underline">
+                  terms
+                </Link>{" "}
+                and{" "}
+                <Link href="/privacy" className="text-brand underline">
+                  privacy policy
+                </Link>
+                .
+              </p>
+            )}
           </form>
         </div>
       </div>
@@ -238,29 +213,6 @@ function Heading({ title, lede }: { title: string; lede: string }) {
       <h1 className="text-[2rem] font-semibold leading-[1.1] tracking-tight sm:text-4xl">{title}</h1>
       <p className="mt-2.5 text-muted">{lede}</p>
     </>
-  );
-}
-
-/**
- * Stacks one version per mode in a single grid cell and shows only the active one, so the space is always sized to
- * the tallest version and switching never changes the layout around it. Hidden versions use visibility: hidden,
- * which also takes their links out of the tab order and the accessibility tree.
- */
-function Swap({ active, items, className }: { active: Mode; items: Record<Mode, ReactNode>; className?: string }) {
-  return (
-    <div className={clsx("grid", className)}>
-      {(Object.keys(items) as Mode[]).map((m) => (
-        <div
-          key={m}
-          className={clsx(
-            "col-start-1 row-start-1 transition-[opacity,visibility] duration-200 motion-reduce:transition-none",
-            m === active ? "visible opacity-100" : "invisible opacity-0",
-          )}
-        >
-          {items[m]}
-        </div>
-      ))}
-    </div>
   );
 }
 

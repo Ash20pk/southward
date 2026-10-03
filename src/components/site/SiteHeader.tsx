@@ -6,7 +6,7 @@ import clsx from "clsx";
 import { Menu } from "lucide-react";
 import { Logo } from "@/components/Logo";
 import { AppCta } from "@/components/site/client";
-import { APP_PATH, PUBLIC_NAV } from "@/lib/site";
+import { PUBLIC_NAV, SIGNIN_PATH } from "@/lib/site";
 import { onFrame } from "@/lib/frame";
 
 /**
@@ -58,7 +58,7 @@ export function SiteHeader() {
           ))}
         </nav>
         <div className="flex items-center gap-1 sm:gap-2">
-          <Link href={APP_PATH} className={clsx("whitespace-nowrap rounded-full px-2 py-2 text-sm sm:px-3 sm:text-[0.95rem]", link)}>
+          <Link href={SIGNIN_PATH} className={clsx("whitespace-nowrap rounded-full px-2 py-2 text-sm sm:px-3 sm:text-[0.95rem]", link)}>
             Sign in
           </Link>
           <AppCta size="sm" />

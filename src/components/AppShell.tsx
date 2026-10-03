@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import dynamic from "next/dynamic";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useState, type ReactNode } from "react";
 import clsx from "clsx";
 import {
@@ -27,10 +27,10 @@ import { Splash } from "./Splash";
 import { Logo } from "./Logo";
 import { useSession } from "@/lib/session";
 import { useSync } from "@/hooks/useSync";
+import { APP_PATH, SIGNIN_PATH, SIGNUP_PATH } from "@/lib/site";
 
-// Sign-in and onboarding are seen once; loaded only when needed, so returning users (nearly every visit) don't
-// download them, or the MBBS subject list onboarding asks about.
-const AuthScreen = dynamic(() => import("./AuthScreen").then((m) => m.AuthScreen), { loading: () => <Splash /> });
+// Onboarding is seen once; loaded only when needed, so returning users (nearly every visit) don't download it, or the
+// MBBS subject list it asks about. Signing in has pages of its own (/signin, /signup).
 const Onboarding = dynamic(() => import("./Onboarding").then((m) => m.Onboarding), { loading: () => <Splash /> });
 
 // The five things she does most, one tap away on a phone.
@@ -72,6 +72,7 @@ const NAV_GROUPS: { title?: string; items: { href: string; label: string; icon: 
 
 export function AppShell({ children }: { children: ReactNode }) {
   const path = usePathname();
+  const router = useRouter();
   const hydrated = useHydrated();
   const profile = useStore((s) => s.profile);
   const [open, setOpen] = useState(false);
@@ -82,6 +83,15 @@ export function AppShell({ children }: { children: ReactNode }) {
     session.load();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  // Signed out on a server with accounts: off to sign in, and back to this page afterwards. Old links to
+  // /app?signup=1 go to sign-up.
+  const needsSignIn = session.loaded && session.mode === "account" && !session.user;
+  useEffect(() => {
+    if (!needsSignIn) return;
+    if (new URLSearchParams(window.location.search).has("signup")) return router.replace(SIGNUP_PATH);
+    router.replace(path === APP_PATH ? SIGNIN_PATH : `${SIGNIN_PATH}?next=${encodeURIComponent(path)}`);
+  }, [needsSignIn, path, router]);
 
   // Once she's in the app, save the rest of it for offline use in the background (see lib/offline.ts). A few seconds
   // after the screen settles, so it never competes with what she opened.
@@ -124,8 +134,7 @@ export function AppShell({ children }: { children: ReactNode }) {
     </nav>
   );
 
-  if (!hydrated || !session.loaded) return <Splash />;
-  if (session.mode === "account" && !session.user) return <AuthScreen />;
+  if (!hydrated || !session.loaded || needsSignIn) return <Splash />;
   if (session.user && !synced) return <Splash note="Loading your progress…" />;
   if (!profile) return <Onboarding defaultName={session.user?.name} />;
 

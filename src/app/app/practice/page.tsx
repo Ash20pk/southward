@@ -134,7 +134,9 @@ function Setup({
         title="Practice"
         lede="Questions written in the AMC style. You see the answer and a full explanation after each one, and you can ask the AI tutor about anything that doesn't click."
       />
-      <div className="grid grid-cols-1 gap-6 lg:grid-cols-[1.35fr_1fr]">
+      {/* minmax(0, …): the columns keep their widths whatever is in them, so switching the AI card's mode doesn't resize
+          them and rewrap the chips beside it. */}
+      <div className="grid grid-cols-1 gap-6 lg:grid-cols-[minmax(0,1.35fr)_minmax(0,1fr)]">
         <Panel>
           <h2 className="text-lg font-semibold">Build a set</h2>
           {subject && (
@@ -208,11 +210,13 @@ function Setup({
             </div>
           </fieldset>
 
-          <div className="mt-7 flex flex-wrap items-center gap-4 border-t border-line pt-5">
+          {/* Phones put the status under the button with two lines kept for it, so the card doesn't grow when a filter matches
+              nothing and push the AI card below it down. */}
+          <div className="mt-7 flex flex-col items-start gap-3 border-t border-line pt-5 sm:flex-row sm:flex-wrap sm:items-center sm:gap-4">
             <Button onClick={start} disabled={!pool.length || loading}>
               {loading ? "Loading questions…" : `Start ${Math.min(count, pool.length)} questions`}
             </Button>
-            <span className="text-muted" role={loadError ? "alert" : undefined}>
+            <span className="min-h-[2lh] text-muted sm:min-h-0" role={loadError ? "alert" : undefined}>
               {loadError
                 ? "Couldn't load these questions. Check your connection and try again."
                 : pool.length
@@ -348,8 +352,10 @@ function Generator({ defaultTopic, onStart }: { defaultTopic?: string; onStart: 
       </div>
 
       <div className="mt-5 flex flex-col gap-4">
-        {mode === "topic" ? (
-          <label className="flex flex-col gap-1.5">
+        {/* Both modes' fields share one grid cell, the other one hidden, so the card is as tall as the taller of the two
+            and switching between them moves nothing on the page. */}
+        <div className="grid">
+          <label className={clsx("flex flex-col gap-1.5 [grid-area:1/1]", mode !== "topic" && "invisible")} inert={mode !== "topic"}>
             <span className="text-sm text-sky-muted">Topic</span>
             <select value={topic} onChange={(e) => setTopic(e.target.value)} className={clsx(field, "[&>optgroup]:text-black [&>option]:text-black")}>
               {DISCIPLINES.map((d) => (
@@ -363,8 +369,7 @@ function Generator({ defaultTopic, onStart }: { defaultTopic?: string; onStart: 
               ))}
             </select>
           </label>
-        ) : (
-          <>
+          <div className={clsx("flex flex-col gap-4 [grid-area:1/1]", mode !== "pdf" && "invisible")} inert={mode !== "pdf"}>
             <button
               type="button"
               onClick={() => fileInput.current?.click()}
@@ -403,8 +408,8 @@ function Generator({ defaultTopic, onStart }: { defaultTopic?: string; onStart: 
                 <input value={to} onChange={(e) => setTo(e.target.value.replace(/\D/g, ""))} inputMode="numeric" placeholder="To" className={clsx(field, "w-full min-w-0")} />
               </span>
             </label>
-          </>
-        )}
+          </div>
+        </div>
         <label className="flex flex-col gap-1.5">
           <span className="text-sm text-sky-muted">Focus (optional)</span>
           <input
@@ -435,11 +440,16 @@ function Generator({ defaultTopic, onStart }: { defaultTopic?: string; onStart: 
           {busy ?? `Write ${count} questions`}
         </button>
         {error && <p className="text-[#ffb4ab]">{error}</p>}
-        <p className="text-xs leading-relaxed text-sky-muted">
-          {mode === "pdf"
-            ? "Your PDF is read in your browser and only its text goes to the AI (scanned PDFs are sent whole). Questions are based on your material, with a note where Australian practice differs."
-            : "AI questions are checked for format, not by a clinician. If something looks off, ask the tutor or check eTG."}
-        </p>
+        {/* The same for the note under the button: the longer one holds the space. */}
+        <div className="grid text-xs leading-relaxed text-sky-muted">
+          <p className={clsx("[grid-area:1/1]", mode !== "pdf" && "invisible")} aria-hidden={mode !== "pdf"}>
+            Your PDF is read in your browser and only its text goes to the AI (scanned PDFs are sent whole). Questions are based on
+            your material, with a note where Australian practice differs.
+          </p>
+          <p className={clsx("[grid-area:1/1]", mode !== "topic" && "invisible")} aria-hidden={mode !== "topic"}>
+            AI questions are checked for format, not by a clinician. If something looks off, ask the tutor or check eTG.
+          </p>
+        </div>
       </div>
     </Panel>
   );
