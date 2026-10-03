@@ -74,7 +74,7 @@ export default function StationPage() {
 
   const looks = useMemo<Looks | null>(() => (station ? { patient: lookFor(station.patient), doctor: DOCTORS[doc] } : null), [station, doc]);
   const patientVoice = useMemo(() => ({ sex: station?.patient.sex ?? "female", age: station?.patient.age ?? 40 }), [station]);
-  const voice = useVoice(patientVoice, DOCTORS[doc]);
+  const voice = useVoice({ stationId: station?.id ?? "", doctorIndex: doc, patient: patientVoice, doctor: DOCTORS[doc] });
   const voiceOn = voiceOut && voice.supported;
   // A refused microphone ends hands-free rather than reopening it in a loop.
   const micBlocked = speech.error === "not-allowed";

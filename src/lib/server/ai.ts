@@ -125,6 +125,20 @@ export async function transcribe(file: File, prompt?: string): Promise<string> {
   return res.text.trim();
 }
 
+/** Natural speech for a line of dialogue, streamed back as MP3 so it can start playing before it's all made. */
+export async function speak(opts: { text: string; voice: string; instructions: string }): Promise<ReadableStream<Uint8Array>> {
+  if (!process.env.OPENAI_API_KEY) throw new Error("Natural voices need OPENAI_API_KEY on the server.");
+  const res = await openai().audio.speech.create({
+    model: process.env.OPENAI_TTS_MODEL || "gpt-4o-mini-tts",
+    voice: opts.voice,
+    input: opts.text,
+    instructions: opts.instructions,
+    response_format: "mp3",
+  });
+  if (!res.body) throw new Error("No audio came back.");
+  return res.body as ReadableStream<Uint8Array>;
+}
+
 /** One-shot structured call: returns the Zod-validated object or throws with a readable message. */
 export async function structured<S extends z.ZodType>(opts: {
   system: string;
