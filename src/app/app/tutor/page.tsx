@@ -124,9 +124,9 @@ function Tutor() {
             }}
             rows={2}
             placeholder="Ask anything. Shift+Enter for a new line."
-            className="flex-1 resize-none bg-transparent px-3 py-2 outline-none"
+            className="flex-1 resize-none bg-transparent px-3 py-2 outline-none focus-visible:outline-none!"
           />
-          <Button type="submit" className="h-11 w-11 shrink-0 px-0" aria-label="Send" disabled={!input.trim() || ai.loading}>
+          <Button type="submit" size="icon" aria-label="Send" disabled={!input.trim() || ai.loading}>
             <Send size={17} />
           </Button>
         </div>

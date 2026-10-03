@@ -4,10 +4,13 @@ import type { ComponentProps, ReactNode } from "react";
 
 type BtnVariant = "primary" | "quiet" | "outline" | "danger";
 
-const btn = (variant: BtnVariant, size: "sm" | "md") =>
+type BtnSize = "sm" | "md" | "icon";
+
+const btn = (variant: BtnVariant, size: BtnSize) =>
   clsx(
     "inline-flex items-center justify-center gap-2 rounded-full font-medium transition-colors disabled:opacity-50 disabled:pointer-events-none whitespace-nowrap",
-    size === "sm" ? "h-9 px-4 text-sm" : "h-11 px-5 text-[0.95rem]",
+    // An icon button is a padless circle. Overriding the padding from outside doesn't work: px-5 wins on stylesheet order.
+    size === "sm" ? "h-9 px-4 text-sm" : size === "icon" ? "size-11 shrink-0 [&>svg]:shrink-0" : "h-11 px-5 text-[0.95rem]",
     variant === "primary" && "bg-brand text-brand-ink hover:brightness-110",
     variant === "quiet" && "text-ink hover:bg-sunk",
     variant === "outline" && "border border-line bg-surface text-ink hover:border-brand",
@@ -19,7 +22,7 @@ export function Button({
   size = "md",
   className,
   ...rest
-}: ComponentProps<"button"> & { variant?: BtnVariant; size?: "sm" | "md" }) {
+}: ComponentProps<"button"> & { variant?: BtnVariant; size?: BtnSize }) {
   return <button className={clsx(btn(variant, size), className)} {...rest} />;
 }
 
@@ -28,7 +31,7 @@ export function ButtonLink({
   size = "md",
   className,
   ...rest
-}: ComponentProps<typeof Link> & { variant?: BtnVariant; size?: "sm" | "md" }) {
+}: ComponentProps<typeof Link> & { variant?: BtnVariant; size?: BtnSize }) {
   return <Link className={clsx(btn(variant, size), className)} {...rest} />;
 }
 
