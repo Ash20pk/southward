@@ -13,6 +13,7 @@ import { AREA_LABEL, LEVEL, READ_SECS, STATION_SECS } from "@/lib/stations";
 import { useStream } from "@/hooks/useStream";
 import { useSpeech } from "@/hooks/useSpeech";
 import { useVoice } from "@/hooks/useVoice";
+import { liveSupported, useLivePatient } from "@/hooks/useLivePatient";
 import { Avatar, DOCTORS, lookFor, type AvatarLook } from "@/components/Avatar";
 import { Markdown } from "@/components/Markdown";
 import { Button, ButtonLink, Empty, ExamPart } from "@/components/ui";
@@ -42,6 +43,7 @@ function taskAt(station: OsceStation, elapsed: number) {
 }
 
 const DOCTOR_KEY = "southward-doctor";
+const LIVE_KEY = "southward-live";
 
 type SeatState = "speaking" | "listening" | "thinking" | "idle";
 type Looks = { patient: AvatarLook; doctor: AvatarLook };
@@ -61,6 +63,12 @@ export default function StationPage() {
   const [doc, setDoc] = useState(0);
   const [doctorBeat, setDoctorBeat] = useState(false);
   const [prompt, setPrompt] = useState<string | null>(null);
+  // Live: the station is one call with the patient, who answers as soon as you finish talking. Turns: each line is sent,
+  // answered and voiced in turn; the fallback whenever live can't run.
+  const [canLive, setCanLive] = useState(false);
+  const [liveWanted, setLiveWanted] = useState(true);
+  const [mode, setMode] = useState<"live" | "turns">("turns");
+  const [notice, setNotice] = useState<string | null>(null);
   const startedAt = useRef(0);
   const lastTask = useRef(0);
   const dictated = useRef(false);
@@ -84,17 +92,28 @@ export default function StationPage() {
   const patientVoice = useMemo(() => ({ sex: station?.patient.sex ?? "female", age: station?.patient.age ?? 40 }), [station]);
   const voice = useVoice({ stationId: station?.id ?? "", doctorIndex: doc, patient: patientVoice, doctor: DOCTORS[doc] });
   const voiceOn = voiceOut && voice.supported;
+  const live = useLivePatient(station?.id ?? "");
+  const isLive = mode === "live";
+  const shown = isLive ? live.turns : turns;
   // A refused microphone ends hands-free rather than reopening it in a loop.
   const micBlocked = speech.error === "not-allowed";
-  const handsOn = handsFree && speech.supported && !micBlocked;
+  const handsOn = handsFree && speech.supported && !micBlocked && !isLive;
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setCanLive(liveSupported());
     try {
       const v = Number(localStorage.getItem(DOCTOR_KEY));
-      // eslint-disable-next-line react-hooks/set-state-in-effect
       if (v > 0 && v < DOCTORS.length) setDoc(v);
+      if (localStorage.getItem(LIVE_KEY) === "off") setLiveWanted(false);
     } catch {}
   }, []);
+  const chooseLive = (on: boolean) => {
+    setLiveWanted(on);
+    try {
+      localStorage.setItem(LIVE_KEY, on ? "on" : "off");
+    } catch {}
+  };
   const chooseDoctor = (i: number) => {
     setDoc(i);
     try {
@@ -111,9 +130,34 @@ export default function StationPage() {
     setLeft(STATION_SECS);
     startedAt.current = Date.now();
     lastTask.current = 0;
+    if (liveWanted && canLive) {
+      setMode("live");
+      setTurns([]);
+      void live.connect();
+      return;
+    }
+    openTurns();
+  };
+
+  /** The turn-by-turn conversation, from the patient's opening line. */
+  const openTurns = () => {
+    if (!station) return;
     setTurns([{ role: "assistant", content: station.patient.openingLine }]);
     const id = startReply();
     voiceReply(id, station.patient.openingLine, true);
+  };
+
+  /** Live couldn't start, or dropped: the station carries on turn by turn, with whatever was said so far. */
+  const leaveLive = () => {
+    const said = live.turns;
+    setMode("turns");
+    setNotice(
+      live.error === "not-allowed"
+        ? "The microphone is blocked, so the patient can't hear you. Allow it for this site, or type."
+        : `${live.error ?? "The live call couldn't start."} Carrying on turn by turn.`,
+    );
+    if (said.length) setTurns(said);
+    else openTurns();
   };
 
   /** Starts voicing a new patient reply; its words stay hidden until they're spoken. */
@@ -161,6 +205,8 @@ export default function StationPage() {
       if (!station) return;
       speech.abort();
       voice.cancel();
+      live.end();
+      setTurns(transcript);
       setPhase("marking");
       setError(null);
       try {
@@ -189,6 +235,20 @@ export default function StationPage() {
 
   const send = async (e?: React.FormEvent) => {
     e?.preventDefault();
+    if (isLive) {
+      const text = input.trim();
+      if (!text) return;
+      setInput("");
+      live.addText(text);
+      // The patient answers once your doctor has said the line, and doesn't hear it through the mic meanwhile.
+      if (voiceOn) {
+        live.holdMic(true);
+        await voice.speak(text, "doctor");
+        live.holdMic(false);
+      } else beat(text);
+      live.respond();
+      return;
+    }
     if (patient.loading || !station || sending.current) return;
     let text = draft.trim();
     // Words still being heard (or a recording still being written down) go in this line, and only this line.
@@ -229,10 +289,17 @@ export default function StationPage() {
   }, [phase]);
 
   // When the clock runs out: reading time rolls into the station, the station ends and is marked.
-  const latest = useRef({ beginStation, finish, send, voiceReply, turns });
+  const latest = useRef({ beginStation, finish, send, voiceReply, leaveLive, turns: shown });
   useEffect(() => {
-    latest.current = { beginStation, finish, send, voiceReply, turns };
+    latest.current = { beginStation, finish, send, voiceReply, leaveLive, turns: shown };
   });
+
+  useEffect(() => {
+    if (isLive && phase === "station" && live.status === "failed") latest.current.leaveLive();
+  }, [isLive, phase, live.status]);
+
+  const setLiveMuted = live.setMuted;
+  useEffect(() => setLiveMuted(!voiceOut), [voiceOut, live.status, setLiveMuted]);
 
   // Each sentence of the reply is queued to be spoken as soon as it's written.
   useEffect(() => {
@@ -273,7 +340,7 @@ export default function StationPage() {
 
   useEffect(() => {
     scroller.current?.scrollTo({ top: scroller.current.scrollHeight, behavior: "smooth" });
-  }, [turns, patient.text]);
+  }, [shown, patient.text]);
 
   useEffect(() => () => clearTimeout(beatTimer.current), []);
 
@@ -328,7 +395,13 @@ export default function StationPage() {
                 Speak aloud: {name} answers in their own voice, and what you type is said in yours
               </label>
             )}
-            {speech.supported && (
+            {canLive && (
+              <label className="flex items-center gap-2 text-muted">
+                <input type="checkbox" checked={liveWanted} onChange={(e) => chooseLive(e.target.checked)} className="accent-[var(--brand)]" />
+                Live conversation: just talk, and {name} answers the moment you finish, like a real consultation
+              </label>
+            )}
+            {speech.supported && !(canLive && liveWanted) && (
               <label className="flex items-center gap-2 text-muted">
                 <input type="checkbox" checked={handsFree} onChange={(e) => setHandsFree(e.target.checked)} className="accent-[var(--brand)]" />
                 Hands-free: just talk, and each line goes to {name} when you pause
@@ -348,10 +421,17 @@ export default function StationPage() {
     );
 
   if (phase === "station") {
-    const doctorTalking = voice.speaking === "doctor" || doctorBeat || speech.hearing || (speech.listening && !!speech.interim);
-    const patientTalking = voice.speaking === "patient" || (!voiceOn && patient.loading && !!patient.text);
-    const patientState: SeatState = patientTalking ? "speaking" : doctorTalking ? "listening" : patient.loading || heard === "" ? "thinking" : "idle";
-    const doctorState: SeatState = doctorTalking ? "speaking" : patientTalking || speech.listening ? "listening" : "idle";
+    const doctorTalking =
+      voice.speaking === "doctor" || doctorBeat || (isLive ? live.doctorSpeaking : speech.hearing || (speech.listening && !!speech.interim));
+    const patientTalking = isLive ? live.patientSpeaking : voice.speaking === "patient" || (!voiceOn && patient.loading && !!patient.text);
+    const patientThinking = isLive ? live.thinking : patient.loading || heard === "";
+    const patientState: SeatState = patientTalking ? "speaking" : doctorTalking ? "listening" : patientThinking ? "thinking" : "idle";
+    const doctorState: SeatState = doctorTalking ? "speaking" : patientTalking || (!isLive && speech.listening) ? "listening" : "idle";
+    const doctorStatus = doctorTalking
+      ? "Speaking"
+      : isLive
+        ? live.micOn ? (patientTalking ? "Listening" : "Mic on") : "Muted"
+        : speech.listening ? "Mic on" : patientTalking ? "Listening" : "Doctor";
     const who = station.patient.role ?? `${station.patient.age}-year-old patient`;
     return (
       <Shell
@@ -374,7 +454,7 @@ export default function StationPage() {
                 {voiceOut ? <Volume2 size={18} /> : <VolumeX size={18} />}
               </button>
             )}
-            {speech.supported && (
+            {speech.supported && !isLive && (
               <button
                 onClick={() => {
                   if (handsFree) speech.stop();
@@ -388,7 +468,7 @@ export default function StationPage() {
                 <AudioLines size={18} />
               </button>
             )}
-            <Button size="sm" variant="outline" onClick={() => finish(turns)}>
+            <Button size="sm" variant="outline" onClick={() => finish(shown)}>
               Finish
             </Button>
           </div>
@@ -408,7 +488,7 @@ export default function StationPage() {
               doctor
               name="You"
               state={doctorState}
-              status={doctorTalking ? "Speaking" : speech.listening ? "Mic on" : patientTalking ? "Listening" : "Doctor"}
+              status={doctorStatus}
             />
           </div>
         </div>
@@ -422,16 +502,21 @@ export default function StationPage() {
         )}
         <div ref={scroller} className="min-h-0 flex-1 overflow-y-auto px-4 py-5 sm:px-8">
           <div className="mx-auto flex max-w-2xl flex-col gap-3">
-            {turns.map((t, i) => {
-              // The reply being spoken shows only what has been said so far.
-              const live = heard !== null && i === turns.length - 1 && t.role === "assistant";
-              if (live && !heard.trim()) return null;
-              return <Bubble key={i} turn={live ? { ...t, content: heard } : t} name={name} looks={looks} />;
-            })}
-            {patient.loading && (heard ?? patient.text).trim() && (
+            {isLive && live.status === "connecting" && <p className="text-center text-sm text-muted">Going in to see {name}…</p>}
+            {notice && <p className="text-center text-sm text-muted">{notice}</p>}
+            {isLive
+              ? live.turns.map((t, i) => <Bubble key={i} turn={t} name={name} looks={looks} />)
+              : turns.map((t, i) => {
+                  // The reply being spoken shows only what has been said so far.
+                  const saying = heard !== null && i === turns.length - 1 && t.role === "assistant";
+                  if (saying && !heard.trim()) return null;
+                  return <Bubble key={i} turn={saying ? { ...t, content: heard } : t} name={name} looks={looks} />;
+                })}
+            {!isLive && patient.loading && (heard ?? patient.text).trim() && (
               <Bubble turn={{ role: "assistant", content: heard ?? patient.text }} name={name} looks={looks} streaming />
             )}
-            {patient.error && <p className="text-bad">{patient.error}</p>}
+            {!isLive && patient.error && <p className="text-bad">{patient.error}</p>}
+            {isLive && live.status === "live" && live.error && <p className="text-bad">{live.error}</p>}
           </div>
         </div>
         <form onSubmit={send} className="border-t border-line bg-paper px-4 py-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] sm:px-8">
@@ -441,7 +526,20 @@ export default function StationPage() {
             speech.error && <p className="mx-auto mb-2 max-w-2xl text-sm text-bad">{speech.error}</p>
           )}
           <div className="mx-auto flex max-w-2xl items-end gap-2">
-            {speech.supported && (
+            {isLive ? (
+              <button
+                type="button"
+                onClick={() => live.setMic(!live.micOn)}
+                aria-label={live.micOn ? "Mute your microphone" : "Unmute your microphone"}
+                aria-pressed={!live.micOn}
+                className={clsx(
+                  "grid h-11 w-11 shrink-0 place-items-center rounded-full border",
+                  live.micOn ? "border-brand bg-brand-soft text-brand" : "border-line bg-surface text-muted hover:border-brand",
+                )}
+              >
+                {live.micOn ? <Mic size={18} /> : <MicOff size={18} />}
+              </button>
+            ) : speech.supported && (
               <button
                 type="button"
                 onClick={() => {
@@ -484,7 +582,9 @@ export default function StationPage() {
               }}
               rows={1}
               placeholder={
-                speech.transcribing && !speech.listening
+                isLive
+                  ? live.micOn ? `Just talk to ${name}, or type` : `Type to ${name}`
+                  : speech.transcribing && !speech.listening
                   ? "Writing down what you said…"
                   : speech.listening
                     ? handsOn
@@ -494,7 +594,7 @@ export default function StationPage() {
               }
               className="max-h-40 min-h-11 flex-1 resize-none rounded-2xl border border-line bg-surface px-4 py-2.5 outline-none focus:border-brand"
             />
-            <Button type="submit" size="icon" aria-label="Send" disabled={(!draft.trim() && !speech.listening && !speech.transcribing) || patient.loading}>
+            <Button type="submit" size="icon" aria-label="Send" disabled={isLive ? !draft.trim() : (!draft.trim() && !speech.listening && !speech.transcribing) || patient.loading}>
               <Send size={17} />
             </Button>
           </div>

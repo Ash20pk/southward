@@ -154,6 +154,21 @@ export async function speak(opts: { text: string; voice: string; instructions: s
   return res.body as ReadableStream<Uint8Array>;
 }
 
+export type RealtimeSession = NonNullable<OpenAI.Realtime.CallCreateParams["session"]>;
+
+/**
+ * Opens a live voice call: hands the browser's WebRTC offer to OpenAI with the session it should run, and returns the
+ * answer that completes the connection. The browser then talks to OpenAI directly; the key never leaves the server.
+ */
+export async function startCall(sdp: string, session: RealtimeSession, user?: string): Promise<string> {
+  if (!process.env.OPENAI_API_KEY) throw new Error("Live conversation needs OPENAI_API_KEY on the server.");
+  const res = await openai().realtime.calls.create(
+    { sdp, session },
+    user ? { headers: { "OpenAI-Safety-Identifier": user } } : undefined,
+  );
+  return res.text();
+}
+
 /** One-shot structured call: returns the Zod-validated object or throws with a readable message. */
 export async function structured<S extends z.ZodType>(opts: {
   system: string;
