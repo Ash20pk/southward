@@ -252,6 +252,15 @@ function Generator({ defaultTopic, onStart }: { defaultTopic?: string; onStart: 
   const [busy, setBusy] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const fileInput = useRef<HTMLInputElement>(null);
+  const attempts = useStore((s) => s.attempts);
+
+  // What's already there for the chosen topic, shown in the space the PDF fields take in the other mode.
+  const topicStats = useMemo(() => {
+    const qs = [...QUESTION_REFS, ...aiQuestions].filter((q) => q.topic === topic);
+    const tried = qs.filter((q) => attempts[q.id]);
+    const ai = qs.filter((q) => q.id.startsWith("ai-")).length;
+    return { bank: qs.length - ai, ai, answered: tried.length, missed: tried.filter((q) => !attempts[q.id].lastCorrect).length };
+  }, [topic, aiQuestions, attempts]);
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
@@ -356,20 +365,45 @@ function Generator({ defaultTopic, onStart }: { defaultTopic?: string; onStart: 
             and switching between them moves nothing on the page. minmax(0, 1fr) keeps the cell the card's width; left to
             size itself, it grows to fit the longest topic name and the select runs off the card. */}
         <div className="grid grid-cols-[minmax(0,1fr)]">
-          <label className={clsx("flex flex-col gap-1.5 [grid-area:1/1]", mode !== "topic" && "invisible")} inert={mode !== "topic"}>
-            <span className="text-sm text-sky-muted">Topic</span>
-            <select value={topic} onChange={(e) => setTopic(e.target.value)} className={clsx(field, "w-full min-w-0 [&>optgroup]:text-black [&>option]:text-black")}>
-              {DISCIPLINES.map((d) => (
-                <optgroup key={d.id} label={d.name}>
-                  {SYLLABUS.filter((t) => t.discipline === d.id).map((t) => (
-                    <option key={t.id} value={t.id}>
-                      {t.name}
-                    </option>
-                  ))}
-                </optgroup>
+          {/* By topic, what's already there fills the rest of the cell, so new questions go where the bank is thin or where
+              she keeps missing. */}
+          <div className={clsx("flex flex-col gap-4 [grid-area:1/1]", mode !== "topic" && "invisible")} inert={mode !== "topic"}>
+            <label className="flex flex-col gap-1.5">
+              <span className="text-sm text-sky-muted">Topic</span>
+              <select value={topic} onChange={(e) => setTopic(e.target.value)} className={clsx(field, "w-full min-w-0 [&>optgroup]:text-black [&>option]:text-black")}>
+                {DISCIPLINES.map((d) => (
+                  <optgroup key={d.id} label={d.name}>
+                    {SYLLABUS.filter((t) => t.discipline === d.id).map((t) => (
+                      <option key={t.id} value={t.id}>
+                        {t.name}
+                      </option>
+                    ))}
+                  </optgroup>
+                ))}
+              </select>
+            </label>
+            <div className="grid grid-cols-3 gap-2 text-center">
+              {(
+                [
+                  ["In the bank", topicStats.bank],
+                  ["Answered", topicStats.answered],
+                  ["Written by AI", topicStats.ai],
+                ] as const
+              ).map(([label, n]) => (
+                <p key={label} className="rounded-xl bg-white/5 px-2 py-3">
+                  <span className="block text-xl font-semibold tabular-nums">{n}</span>
+                  <span className="mt-0.5 block text-xs leading-tight text-sky-muted">{label}</span>
+                </p>
               ))}
-            </select>
-          </label>
+            </div>
+            <p className="text-sm text-sky-muted">
+              {topicStats.missed
+                ? `You've missed ${topicStats.missed} here. Put what tripped you up in Focus and the new set will drill it.`
+                : topicStats.answered
+                  ? "No misses here yet. Try Hard for questions closer to the exam."
+                  : "Nothing answered on this topic yet. Medium is a good place to start."}
+            </p>
+          </div>
           <div className={clsx("flex flex-col gap-4 [grid-area:1/1]", mode !== "pdf" && "invisible")} inert={mode !== "pdf"}>
             <button
               type="button"
